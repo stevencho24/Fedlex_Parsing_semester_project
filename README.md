@@ -72,10 +72,14 @@ This project could revolutionize how legal professionals, researchers, and citiz
 
 ## Project Structure
 
-- `simple_scraper.py` - Main scraper using requests + BeautifulSoup
+- `XML_scraper.py` - Advanced XML parser for Swiss law documents in AkomaNtoso format
+- `simple_scraper.py` - Basic scraper using requests + BeautifulSoup
 - `requirements.txt` - Python dependencies
-- `landesrecht_sections.json` - Output: Scraped sections (generated)
-- `landesrecht_sections.txt` - Output: Human-readable sections (generated)
+- `landesrecht_sections.json` - Landesrecht section mappings
+- `main_section.json` - Main section mappings
+- `swiss_law_articles.json` - Parsed articles output
+- `swiss_law_articles.html` - HTML output for articles
+- `SR-*.xml` - Sample Swiss law XML documents
 
 ## Quick Start
 
@@ -83,13 +87,25 @@ This project could revolutionize how legal professionals, researchers, and citiz
 # Install dependencies
 pip install -r requirements.txt
 
-# Run the scraper
+# Run the XML scraper
+python XML_scraper.py
+
+# Run the simple scraper
 python simple_scraper.py
 ```
 
 ## Features
 
-### Main Scraper (`simple_scraper.py`)
+### Advanced XML Scraper (`XML_scraper.py`)
+- **AkomaNtoso Format Support**: Parses Swiss law documents in the official AkomaNtoso XML format
+- **Hierarchical Storage**: Automatically categorizes articles by Landesrecht and Main Section based on document numbers
+- **Enhanced Text Extraction**: Extracts clean article text without duplication, excluding authorialNote content
+- **ref_articles Functionality**: Collects article references between authorialNote tags for hyperlink context
+- **SR Category URL Filtering**: Only saves URLs with `eli/cc/` structure (Swiss legal documents)
+- **Multiple Output Formats**: Generates both JSON and HTML outputs
+- **Comprehensive Metadata**: Extracts document numbers, titles, dates, and hierarchical paths
+
+### Basic Scraper (`simple_scraper.py`)
 - Uses requests + BeautifulSoup (no browser required)
 - Fallback to mock data if website scraping fails
 - Lightweight and easy to run
@@ -98,7 +114,35 @@ python simple_scraper.py
 
 ## Output Format
 
-The scrapers generate a dictionary with the following structure:
+### XML Scraper Output
+The XML scraper generates structured article data:
+```json
+{
+  "article_id": "901.022.2_art_5",
+  "hierarchical_storage": [
+    "Landesrecht: Wirtschaft - Technische Zusammenarbeit",
+    "Main Section: Regionalpolitik"
+  ],
+  "document_number": "901.022.2",
+  "document_title": "Verordnung des WBF über die Gewährung von Steuererleichterungen im Rahmen der Regionalpolitik",
+  "article_number": "Art. 5",
+  "article_title": "Lehrstellen und Personalverleih",
+  "article_text": "Lehrstellen werden als Arbeitsplätze angerechnet...",
+  "hyperlinks": [
+    {
+      "url": "https://fedlex.data.admin.ch/eli/cc/1991/408_408_408",
+      "text": "SR 823.111",
+      "target_document": "SR 1991.408_408_408",
+      "ref_articles": ["27"]
+    }
+  ],
+  "article_url": "https://www.fedlex.admin.ch/eli/cc/2016/350/de#art_5",
+  "document_home_url": "https://www.fedlex.admin.ch/eli/cc/2016/350/de"
+}
+```
+
+### Simple Scraper Output
+The simple scraper generates section mappings:
 ```python
 {
     "1": "Staat - Volk - Behörden",
@@ -125,6 +169,7 @@ Based on the Swiss legal system, the scraper should extract these main sections:
 ## Requirements
 
 - Python 3.7+
+- xml.etree.ElementTree (built-in)
 - requests
 - beautifulsoup4
 - lxml
@@ -138,7 +183,25 @@ pip install -r requirements.txt
 
 ## Usage Examples
 
-### Basic Usage
+### XML Scraper Usage
+```python
+from XML_scraper import SwissLawXMLScraper
+
+# Initialize scraper
+scraper = SwissLawXMLScraper()
+
+# Parse XML file
+articles = scraper.parse_xml_file('SR-901.022.2-01072016-DE.xml')
+
+# Print summary
+scraper.print_articles_summary()
+
+# Save to JSON and HTML
+scraper.save_articles_to_json()
+scraper.save_articles_to_html()
+```
+
+### Simple Scraper Usage
 ```python
 from simple_scraper import SimpleSwissLawScraper
 
@@ -155,6 +218,18 @@ scraper.print_sections()
 scraper.save_sections_to_file("my_sections.json")
 ```
 
+## Current Status
+
+The project has successfully implemented:
+
+✅ **XML Parsing**: Complete AkomaNtoso XML document parsing  
+✅ **Hierarchical Storage**: Automatic categorization by document numbers  
+✅ **Text Extraction**: Clean article text without duplication  
+✅ **ref_articles**: Contextual article reference collection  
+✅ **URL Filtering**: SR category URL filtering (`eli/cc/` structure)  
+✅ **Multiple Documents**: Support for SR-613.11, SR-721.101, SR-901.022.2  
+✅ **Output Formats**: JSON and HTML generation  
+
 ## Troubleshooting
 
 ### Website Access Issues
@@ -163,55 +238,17 @@ If the scraper doesn't work:
 2. Verify the website is accessible
 3. The scraper will fall back to mock data if needed
 
+### XML Parsing Issues
+If XML parsing fails:
+1. Check XML file format and encoding
+2. Verify AkomaNtoso namespace declarations
+3. Check for malformed XML elements
+
 ### No Sections Found
 If no sections are found:
 1. The website structure may have changed
 2. The scraper will fall back to mock data
 3. Check the logs for specific error messages
-
-## MUST DO WITH EVERY QUERY
-
-When working on this project, follow these mandatory steps for every code change or enhancement:
-
-### 1. Understanding and Analysis
-- **Explain your understanding of the query and why the user wants to make these changes**
-  - Clearly articulate what the user is asking for
-  - Identify the underlying motivation and goals
-  - Understand the context within the broader Swiss law parsing project
-
-### 2. Current Implementation Assessment
-- **Explain why the current implementation is lacking regards to the query**
-  - Identify specific gaps or limitations in the existing code
-  - Explain what needs to be improved or added
-  - Highlight any architectural or design issues
-
-### 3. Clarification and Edge Cases
-- **Double check and clarify any ambiguities and edge cases with the user's query**
-  - Ask clarifying questions about requirements
-  - Identify potential edge cases and error scenarios
-  - Confirm assumptions about data formats, error handling, etc.
-  - **IMPORTANT: All clarifying questions must be answered before any coding takes place**
-
-### 4. Code Documentation
-- **Input comments into each line of code and explain what exactly it does**
-  - Add comprehensive inline comments
-  - Explain the purpose of each function, class, and method
-  - Document parameters, return values, and side effects
-  - Include examples where helpful
-
-### 5. Code Quality Assurance
-- **Ensure with every line of code, there is no redundancy in implementation/variables**
-  - Remove duplicate code and unused variables
-  - Optimize algorithms and data structures
-  - Ensure consistent naming conventions
-  - Validate error handling and edge cases
-
-### 6. Implementation Explanation
-- **After the edits explain step by step with line number references what the new code achieves**
-  - Provide a detailed walkthrough of the changes
-  - Reference specific line numbers and code sections
-  - Explain how the new implementation addresses the original query
-  - Highlight any improvements or optimizations made
 
 ## Next Steps
 
@@ -220,6 +257,8 @@ This scraper provides the foundation for:
 2. Downloading XML files for each section
 3. Parsing the hierarchical structure (Titel → Kapitel → Article → Paragraph)
 4. Building a comprehensive Swiss law database
+5. Training LLMs on Swiss legal language and structure
+6. Automated legal change detection and impact analysis
 
 ## License
 
