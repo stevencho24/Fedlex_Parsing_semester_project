@@ -1,0 +1,72 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 741.01",
+    "assigned_articles": [
+      "Art. 106a"
+    ],
+    "confidence": "high",
+    "reasoning": "Direct marking: 'gestützt auf Artikel 106a des Strassenverkehrsgesetzes' - preposition 'des' links article to SR 741.01."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": "SR 741.621",
+    "assigned_articles": [
+      "Art. 5 Abs. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "Prepositional attribution: 'nach Artikel 5 Absatz 3 der Verordnung' - preposition 'der' explicitly links article to SR 741.621."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": "SR 741.41",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "No specific articles mentioned, reference to the ordinance as a whole."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": "SR 0.822.725.22",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "No specific articles mentioned, reference to the international agreement as a whole."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": "SR 0.741.411",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "No specific articles mentioned, reference to the UN agreement as a whole."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": "SR 0.741.621",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "No specific articles mentioned, reference to the agreement annexes as a whole."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": "SR 741.621",
+    "assigned_articles": [
+      "Art. 5 Abs. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "Although this is an artikel_reference item, the snippet explicitly references 'Artikel 5 Absatz 3 der Verordnung vom 29. November 2002 über die Beförderung gefährlicher Güter auf der Strasse' which is SR 741.621. The prepositional phrase 'der Verordnung' links the article to the external document, not a self-reference."
+  }
+]

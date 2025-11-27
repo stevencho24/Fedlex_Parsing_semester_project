@@ -1,0 +1,98 @@
+
+Read the “Readme.md” file for context
+
+The preamble article and SR extracted needs to apply to all of the articles on that page
+CONTEXT: Artikel and Art. are the same thing
+FINAL task: For each item (json element in GPT Large LLM input) find the correct article assignments. And return a JSON array that shows the assignments
+Go down one by one. The output item name must be “Item” value of the input
+IF “item_type” is SR_link_detection: Observe the value of “snippet” and semantically determine if there are artikel values tied to the “Target_SR” value. Sometimes there is no artikel value given. Sometimes they are. Beware that just because there is an artikel value given, it does not automatically mean it belongs to that Target_SR. The output SR is the “Target_SR” value and the output artikels are the ones you found.
+IF “item_type” is preamble_acronym: Observe the value of “snippet” and “snippet_acronym” and semantically determine if there are artikel values tied to the “Target_SR” value. Sometimes there is no artikel value given. Sometimes they are. Beware that just because there is an artikel value given, it does not automatically mean it belongs to that Target_SR. The output SR is the “Target_SR” value and the output artikels are the ones you found. 
+IF “item_type” is artikel_reference: This is showing any instance in the scraped XML document where artikel or Art. was mentioned. This could have overlap with previous mentioned items. The purpose of this type is to catch all self-reference articles. That is why they do not have a “Target_SR”. Semantically analyze the “snippet” value to see if the mentioned artikel is not already used in a previous item. Then semantically determine if the artikel detected refers to another artikel within itself. This type would output as the SR link itself.
+IF “item_type” is SR_link_detection: This is showing any instance the SR link is detected. The purpose of this type is to catch all outgoing SR references. Semantically analyze the “snippet” value to see if the mentioned artikel number is related to the cited SR link. If yes, the output SR is the “Target_SR” value and the output artikels are the ones you decided as related. The other option is that the artikel value is self-referencing a different article on the page. 
+
+Be sure to look out for the following edge cases when article values are listed or connected with “und” when searching artikels and include all articles (examples below):
+- “(Art. 30, 33, 35 und 36 FHG)” and “(Art. 21 und 22)”
+- also look out for structures with  Artikel (number)-(number)
+
+
+output this all onto a new json file named "large_LLM_artikel_output" and appropriate suffix name
+
+═══════════════════════════════════════════════════════════════════════
+CRITICAL ASSIGNMENT RULE - CONTEXTUAL RELATIONSHIP ANALYSIS
+═══════════════════════════════════════════════════════════════════════
+
+Determine article assignment to TARGET_SR through SYNTACTIC and SEMANTIC analysis:
+
+PRIMARY INDICATORS (Strong Evidence):
+
+1. DIRECT MARKING - Acronym immediately follows article:
+   ✓ "Art. 32 und 58 FHG" → Art. 32, 58 belong to SR 611.0
+   ✓ "Artikel 12 Absatz 4 FHG" → Art. 12 Abs. 4 belongs to SR 611.0
+
+2. PREPOSITIONAL ATTRIBUTION - Preposition explicitly links article to source:
+   ✓ "nach Art. 20 Abs. 2 der Publikationsverordnung vom 7. Okt. 2015 (SR 170.512.1)"
+   → Art. 20 Abs. 2 belongs to SR 170.512.1 (preposition "der" links to document)
+   
+   ✓ "gemäss Art. 146 Abs. 4 ParlG SR 171.10"
+   → Art. 146 Abs. 4 belongs to SR 171.10 (same sentence structure)
+
+3. PARENTHETICAL CITATION - Article in parentheses adjacent to SR reference:
+   ✓ "(Art. 18 Abs. 3)" appearing in subheading with "(Art. 29 FHG)"
+   → Analyze if both belong to FHG or if separated
+
+SECONDARY INDICATORS (Contextual Clues):
+
+4. CLAUSE DEPENDENCY - Article mentioned in dependent clause modifying SR citation:
+   ✓ "gestützt auf das Finanzhaushaltgesetz (FHG), insbesondere Artikel 32"
+   → Art. 32 likely belongs to FHG (dependent on main clause)
+
+5. PROXIMITY WITHIN SENTENCE - Article and SR reference in same sentence:
+   - If SR link appears in sentence, analyze if article syntactically relates to it
+   - Check for connecting words: "insbesondere", "namentlich", "sowie"
+   - Determine if article is object of same verb/preposition as SR document
+
+SELF-REFERENCE INDICATORS (DO NOT assign to TARGET_SR):
+
+1. ISOLATED ARTICLE MENTIONS - No SR document mentioned nearby:
+   ✗ "nach den Artikeln 18 und 21" (no SR context in sentence)
+   ✗ "gemäss Art. 54" (standalone reference)
+   
+2. SEPARATE SYNTACTIC STRUCTURES - Article in independent clause from SR:
+   ✗ "(Art. 32 FHG) ... die Weisungen nach den Artikeln 18 und 21"
+   → "Artikeln 18 und 21" in separate phrase = self-reference
+
+3. REGULATORY LANGUAGE - Internal document structure references:
+   ✗ "Der Bundesrat erlässt Weisungen zu den Artikeln 4–6"
+   → Refers to articles within current document's structure
+
+ANALYSIS PROCEDURE:
+
+For each article number found:
+Step 1: Identify the syntactic boundaries (clause, phrase, sentence)
+Step 2: Locate any SR references within the same syntactic unit
+Step 3: Analyze grammatical relationship:
+   - Is article the object of a preposition that also governs the SR?
+   - Is article in apposition to the SR reference?
+   - Does a connector explicitly link them?
+Step 4: If no grammatical link exists → Self-reference
+Step 5: If grammatical link exists → Assign to TARGET_SR
+
+EXAMPLE ANALYSIS:
+
+Input: "(Art. 32 und 58 FHG) ... die Grundsätze nach Artikel 12 Absatz 4 FHG sowie die Weisungen und Anforderungen nach den Artikeln 18 und 21"
+
+Analysis:
+• "(Art. 32 und 58 FHG)" - Direct marking → Assign to SR 611.0: Art. 32, 58
+• "nach Artikel 12 Absatz 4 FHG" - Direct marking → Assign to SR 611.0: Art. 12 Abs. 4
+• "nach den Artikeln 18 und 21" - No SR reference in phrase, separate prepositional phrase → Self-reference
+
+Result: Assign to SR 611.0: Art. 32, Art. 58, Art. 12 Abs. 4 only
+
+EDGE CASE - Ambiguous Syntax:
+If syntactic relationship is unclear, DEFAULT to self-reference unless explicit marker present.
+═══════════════════════════════════════════════════════════════════════
+
+do the parsing on Large LLM input
+
+
+DO NOT USE AUTOMATED SCRIPT. USE THE LLM FOR EACH FOR FULL SEMANTIC CONEXTUAL analysis of article assignments

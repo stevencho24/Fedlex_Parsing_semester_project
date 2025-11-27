@@ -94,6 +94,9 @@ python XML_scraper.py
 
 # Run the simple scraper
 python simple_scraper.py
+
+# NEW: Automated article assignment (XML → JSON → Article Assignments)
+python3 automated_article_assignment.py SR-420.1-01072023-DE.xml
 ```
 
 ## Features
@@ -118,6 +121,31 @@ python simple_scraper.py
 
 This module extracts contextual information from Swiss law XML documents to create pre-trimmed JSON files for Large Language Model (LLM) processing. The goal is to provide semantic context that allows an LLM to accurately assign article values to legal cross-references.
 
+### Automated Article Assignment Pipeline (`automated_article_assignment.py`)
+
+**NEW**: This automation script streamlines the entire workflow from XML parsing to article assignment in a single command. It combines the LLM input generator with automated article assignment logic based on syntactic and semantic analysis rules.
+
+**Usage:**
+```bash
+python3 automated_article_assignment.py <XML_FILE>
+
+# Example:
+python3 automated_article_assignment.py SR-420.1-01072023-DE.xml
+```
+
+**What it does:**
+1. Runs `GPT_LLM_input_generator.py` on your XML file
+2. Automatically analyzes the generated JSON for article assignments
+3. Applies contextual relationship analysis (syntactic + semantic)
+4. Generates the final `large_LLM_artikel_output_<SR-number>.json` file
+
+**Key Features:**
+- **One-command execution**: No need to run multiple scripts manually
+- **Automated SR detection**: Extracts SR number from filename for proper self-reference handling
+- **Contextual analysis**: Applies prepositional attribution, direct marking, and isolation detection
+- **Smart article extraction**: Handles complex article formats (ranges, subsections, etc.)
+- **Comprehensive output**: Includes confidence levels and reasoning for each assignment
+
 #### Motivation
 Swiss legal documents contain complex cross-references between laws, articles, and subsections. Traditional parsing struggles with:
 - **Semantic ambiguity**: SR links may cite entire documents without specifying which articles
@@ -126,6 +154,36 @@ Swiss legal documents contain complex cross-references between laws, articles, a
 - **Implicit citations**: Some references are implied through acronyms defined elsewhere
 
 The LLM Input Generator creates a structured context file that captures all necessary information for an LLM to resolve these ambiguities accurately.
+
+#### Robustness Features
+
+##### SR Link Detection from Multiple Attributes
+Swiss law XML documents use different attributes to store SR document links. To ensure comprehensive detection:
+
+**Dual Attribute Checking**: The generator checks both `href` and `fedlex:rs-uri` attributes for SR links.
+- **Pattern**: Uses `/eli/cc/` pattern to identify valid Swiss legal document links
+- **Flexibility**: Protocol and domain agnostic - works regardless of `http://` vs `https://` or domain variations
+- **Namespace Handling**: Tries multiple methods to access `fedlex:rs-uri`:
+  1. With namespace: `{http://fedlex.admin.ch/}rs-uri`
+  2. Without namespace: `fedlex:rs-uri`
+  3. Attribute dictionary iteration for any attribute containing `rs-uri`
+
+**Why This Matters**: Some XML entries use `href` for taxonomy/classification links while storing the actual SR document link in `fedlex:rs-uri`. By checking both attributes, we ensure no SR references are missed.
+
+**Example XML Patterns Handled**:
+```xml
+<!-- Pattern 1: SR link in href -->
+<ref href="https://fedlex.data.admin.ch/eli/cc/2016/227">SR 611.0</ref>
+
+<!-- Pattern 2: SR link in fedlex:rs-uri, taxonomy link in href -->
+<ref 
+  fedlex:rs-uri="https://fedlex.data.admin.ch/eli/cc/2016/712"
+  href="https://fedlex.data.admin.ch/vocabulary/legal-taxonomy/6877">
+  SR 420.2
+</ref>
+```
+
+**Duplicate Handling**: If both attributes contain `/eli/cc/` links, both are processed. The natural deduplication logic (based on SNIPPET and ARTICLE_EID) will filter out true duplicates while preserving distinct references.
 
 #### Detection Methodologies
 

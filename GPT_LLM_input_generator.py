@@ -152,10 +152,29 @@ class LegalRefExtractor:
                 ref_tag = ref_elem.tag.split('}')[-1] if '}' in ref_elem.tag else ref_elem.tag
                 if ref_tag == 'ref':
                     href = ref_elem.get('href', '')
-                    if 'eli/cc/' in href and href.startswith('https://fedlex.data.admin.ch/eli/cc'):
+                    
+                    # Try multiple ways to get fedlex:rs-uri attribute
+                    rs_uri = ''
+                    rs_uri = ref_elem.get('{http://fedlex.admin.ch/}rs-uri', '')
+                    if not rs_uri:
+                        rs_uri = ref_elem.get('fedlex:rs-uri', '')
+                    if not rs_uri:
+                        for attr_name, attr_value in ref_elem.attrib.items():
+                            if 'rs-uri' in attr_name:
+                                rs_uri = attr_value
+                                break
+                    
+                    # Check both href and rs-uri for eli/cc/ pattern
+                    found_url = None
+                    if '/eli/cc/' in href:
+                        found_url = href
+                    elif '/eli/cc/' in rs_uri:
+                        found_url = rs_uri
+                    
+                    if found_url:
                         link_text = self.extract_text_content(ref_elem, include_authorial_notes=True).strip()
                         sr_link = link_text
-                        url = href
+                        url = found_url
                         break
             
             if sr_link and url:
@@ -360,13 +379,14 @@ class LegalRefExtractor:
     
     def find_artikel_references(self, article_elem, existing_snippets=None):
         """
-        Find all lines in the article containing "Art. ##" or "Artikel ##" 
+        Find all lines in the article containing "Art. ##", "Artikel ##", or "Artikeln ##"
         (not inside authorialNote). Only searches within <content> elements
         to avoid capturing article titles.
         
         Args:
             article_elem: The article element to search
-            existing_snippets: Set of snippets already used (to avoid overlap)
+            existing_snippets: Set of snippets from OTHER item types (to avoid overlap with preamble/SR links)
+                              Does NOT prevent same snippet from appearing in different articles
         
         Returns a list of unique lines containing Artikel references.
         """
@@ -374,7 +394,7 @@ class LegalRefExtractor:
             existing_snippets = set()
         
         lines = []
-        artikel_pattern = r'\b(?:Art\.|Artikel)\s+\d+[a-z]*\b'
+        artikel_pattern = r'\b(?:Art\.|Artikel|Artikeln)\s+\d+[a-z]*\b'
         
         # First, find all <content> elements in the article
         content_elements = []
@@ -426,14 +446,26 @@ class LegalRefExtractor:
                 
                 # Check if this line contains Art. ## or Artikel ##
                 if re.search(artikel_pattern, text):
-                    # Only add if not already in existing snippets
-                    if text not in existing_snippets:
-                        lines.append(text)
+                    # Always add - we'll check for duplicates later in the calling code
+                    lines.append(text)
         
-        # Remove duplicates while preserving order
+        # Remove hierarchical duplicates (if one line is substring of another, keep only the longer one)
+        # and remove exact duplicates
+        filtered_lines = []
+        for i, line in enumerate(lines):
+            is_substring = False
+            for j, other_line in enumerate(lines):
+                if i != j and line in other_line and line != other_line:
+                    # This line is a substring of another line
+                    is_substring = True
+                    break
+            if not is_substring:
+                filtered_lines.append(line)
+        
+        # Remove exact duplicates while preserving order
         seen = set()
         unique_lines = []
-        for line in lines:
+        for line in filtered_lines:
             if line not in seen:
                 seen.add(line)
                 unique_lines.append(line)
@@ -673,10 +705,31 @@ class LegalRefExtractor:
                 for ref_elem in ref_elements:
                     href = ref_elem.get('href', '')
                     
-                    logger.debug(f"  Checking href: {href}")
+                    # Try multiple ways to get fedlex:rs-uri attribute
+                    rs_uri = ''
+                    # Method 1: With namespace
+                    rs_uri = ref_elem.get('{http://fedlex.admin.ch/}rs-uri', '')
+                    # Method 2: Without namespace (fallback)
+                    if not rs_uri:
+                        rs_uri = ref_elem.get('fedlex:rs-uri', '')
+                    # Method 3: Iterate through attrib dict
+                    if not rs_uri:
+                        for attr_name, attr_value in ref_elem.attrib.items():
+                            if 'rs-uri' in attr_name:
+                                rs_uri = attr_value
+                                break
                     
-                    # Only process eli/cc links
-                    if 'eli/cc/' in href and href.startswith('https://fedlex.data.admin.ch/eli/cc'):
+                    logger.debug(f"  Checking href: {href}, rs-uri: {rs_uri}")
+                    
+                    # Collect URLs that contain eli/cc/ pattern
+                    urls_to_process = []
+                    if '/eli/cc/' in href:
+                        urls_to_process.append(href)
+                    if '/eli/cc/' in rs_uri:
+                        urls_to_process.append(rs_uri)
+                    
+                    # Process each URL found (duplicate filter will handle if they're the same)
+                    for url in urls_to_process:
                         # Extract SR number from the link text
                         link_text = self.extract_text_content(ref_elem, include_authorial_notes=True).strip()
                         
@@ -690,7 +743,7 @@ class LegalRefExtractor:
                             'ITEM': item_number,
                             'ARTICLE_EID': article_eid,
                             'TARGET_SR': link_text,
-                            'TARGET_URL': href,
+                            'TARGET_URL': url,  # Use the current URL being processed
                             'SNIPPET': snippet,
                             'INSIDE_AUTHORIALNOTE': inside_authorialnote_normalized
                         }
@@ -732,7 +785,7 @@ class LegalRefExtractor:
                             item['item_type'] = 'SR_link_detection'
                         
                         results.append(item)
-                        logger.info(f"Item {item_number}: {article_eid} -> {link_text}")
+                        logger.info(f"Item {item_number}: {article_eid} -> {link_text} (from {url})")
                         item_number += 1
             
             logger.info(f"Total authorialNotes found: {authorial_notes_count}")
@@ -747,14 +800,18 @@ class LegalRefExtractor:
                 logger.info(f"Item {item_number}: {preamble_item['ARTICLE_EID']} -> {preamble_item['TARGET_SR']} (preamble acronym ref)")
                 item_number += 1
             
-            # Collect all existing snippets to avoid duplication
-            existing_snippets = set()
+            # Collect all existing snippets to avoid duplication with OTHER item types
+            # Track as (article_eid, snippet) pairs for artikel_reference deduplication
+            existing_snippets_from_other_types = set()  # Snippets from preamble_acronym, SR_link, etc.
+            existing_artikel_pairs = set()  # Track (article_eid, snippet) pairs for artikel_reference items
+            
             for item in results:
+                article_eid = item.get('ARTICLE_EID')
                 if 'SNIPPET' in item:
-                    existing_snippets.add(item['SNIPPET'])
+                    existing_snippets_from_other_types.add(item['SNIPPET'])
                 if 'snippet_acronym' in item:
                     for line in item['snippet_acronym']:
-                        existing_snippets.add(line)
+                        existing_snippets_from_other_types.add(line)
             
             # Now find Artikel references in ALL articles
             logger.info("Searching for Artikel references in all articles...")
@@ -767,11 +824,20 @@ class LegalRefExtractor:
                 if not article_eid:
                     continue
                 
-                # Find Artikel references in this article
-                artikel_lines = self.find_artikel_references(article, existing_snippets)
+                # Find Artikel references in this article (not used to filter, just for documentation)
+                artikel_lines = self.find_artikel_references(article, None)
                 
                 # Create an item for each unique line with Artikel reference
                 for line in artikel_lines:
+                    # Skip if this snippet already exists in OTHER item types (preamble_acronym, SR_link, etc.)
+                    if line in existing_snippets_from_other_types:
+                        continue
+                    
+                    # Skip if this (article_eid, snippet) pair already exists in artikel_reference items
+                    if (article_eid, line) in existing_artikel_pairs:
+                        continue
+                    
+                    # Create new artikel_reference item
                     item = {
                         'ITEM': item_number,
                         'ARTICLE_EID': article_eid,
@@ -779,7 +845,7 @@ class LegalRefExtractor:
                         'item_type': 'artikel_reference'
                     }
                     results.append(item)
-                    existing_snippets.add(line)  # Mark as used
+                    existing_artikel_pairs.add((article_eid, line))  # Mark pair as used
                     logger.info(f"Item {item_number}: {article_eid} (artikel ref)")
                     item_number += 1
             

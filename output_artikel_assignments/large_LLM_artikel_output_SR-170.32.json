@@ -1,0 +1,286 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 101",
+    "assigned_articles": ["Art. 146"],
+    "confidence": "high",
+    "reasoning": "Direct marking: preamble cites 'Artikel 146 der Bundesverfassung SR 101', clearly linking Art. 146 to SR 101."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_9",
+    "TARGET_SR": "SR 220",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "high",
+    "reasoning": "Snippet mentions 'Bestimmungen des Obligationenrechts SR 220' without any article numbers; it's a general reference to OR as a whole."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_10",
+    "TARGET_SR": "SR 173.110",
+    "assigned_articles": ["Art. 120"],
+    "confidence": "high",
+    "reasoning": "Prepositional attribution: 'im Sinne von Artikel 120 des Bundesgerichtsgesetzes ... SR 173.110' links Art. 120 to SR 173.110."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_13",
+    "TARGET_SR": "SR 321.0",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "high",
+    "reasoning": "Snippet refers generically to 'Bestimmungen des Militärstrafgesetzes ... SR 321.0' with no specific articles."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_13",
+    "TARGET_SR": "SR 322.1",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "high",
+    "reasoning": "'Siehe heute: den Militärstrafprozess ... (SR 322.1)' references the statute as a whole, with no article numbers."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_14",
+    "TARGET_SR": "SR 171.10",
+    "assigned_articles": ["Art. 84"],
+    "confidence": "high",
+    "reasoning": "Prepositional attribution: 'nach Artikel 84 des Parlamentsgesetzes ... SR 171.10' links Art. 84 to SR 171.10."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_14_bis",
+    "TARGET_SR": "SR 311.0",
+    "assigned_articles": ["Art. 321ter"],
+    "confidence": "high",
+    "reasoning": "Direct marking: 'Artikel 321ter des Strafgesetzbuches SR 311.0' clearly ties Art. 321ter to SR 311.0."
+  },
+  {
+    "ITEM": 8,
+    "ARTICLE_EID": "art_16",
+    "TARGET_SR": "SR 311.0",
+    "assigned_articles": ["Art. 7"],
+    "confidence": "medium",
+    "reasoning": "Snippet mentions 'Artikel 6 Ziffer 2 des Strafgesetzbuches SR 311.0. Siehe heute: Art. 7.' The historical Art. 6 Ziff. 2 has been replaced by Art. 7 StGB, so the applicable current provision is Art. 7."
+  },
+  {
+    "ITEM": 9,
+    "ARTICLE_EID": "art_20",
+    "TARGET_SR": "SR 220",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "high",
+    "reasoning": "The phrase 'verjährt nach den Bestimmungen des Obligationenrechts SR 220 über die unerlaubten Handlungen' cites OR generally without specific articles."
+  },
+  {
+    "ITEM": 10,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": "SR 170.32",
+    "assigned_articles": ["Art. 1"],
+    "confidence": "high",
+    "reasoning": "Self-reference: 'alle übrigen in Artikel 1 genannten Personen' clearly refers to Art. 1 of the same law (SR 170.32)."
+  },
+  {
+    "ITEM": 11,
+    "ARTICLE_EID": "art_9",
+    "TARGET_SR": "SR 170.32",
+    "assigned_articles": ["Art. 7", "Art. 8"],
+    "confidence": "high",
+    "reasoning": "Self-reference: 'Ansprüche des Bundes gemäss den Artikeln 7 und 8' refers to internal articles 7 and 8."
+  },
+  {
+    "ITEM": 12,
+    "ARTICLE_EID": "art_9",
+    "TARGET_SR": "SR 220",
+    "assigned_articles": ["Art. 50"],
+    "confidence": "high",
+    "reasoning": "Prepositional attribution: 'in Abweichung von Artikel 50 des Obligationenrechts' clearly links Art. 50 to OR (SR 220), not to SR 170.32."
+  },
+  {
+    "ITEM": 13,
+    "ARTICLE_EID": "art_10",
+    "TARGET_SR": "SR 170.32",
+    "assigned_articles": ["Art. 1 Abs. 1"],
+    "confidence": "high",
+    "reasoning": "Within the same law, 'Personen im Sinne von Artikel 1 Absatz 1 Buchstaben a–cbis' is a self-reference to Art. 1 Abs. 1. The external Art. 120 BGG is already handled in ITEM 3."
+  },
+  {
+    "ITEM": 14,
+    "ARTICLE_EID": "art_11",
+    "TARGET_SR": "SR 170.32",
+    "assigned_articles": ["Art. 7", "Art. 9"],
+    "confidence": "high",
+    "reasoning": "Self-reference: 'Der Rückgriff des Bundes richtet sich nach den Artikeln 7 und 9.' clearly refers to internal articles 7 and 9."
+  },
+  {
+    "ITEM": 15,
+    "ARTICLE_EID": "art_14",
+    "TARGET_SR": "SR 171.10",
+    "assigned_articles": ["Art. 84"],
+    "confidence": "high",
+    "reasoning": "'bestimmen nach Artikel 84 des Parlamentsgesetzes' is a direct external citation to Art. 84 ParlG (SR 171.10)."
+  },
+  {
+    "ITEM": 16,
+    "ARTICLE_EID": "art_14",
+    "TARGET_SR": "SR 171.10",
+    "assigned_articles": [
+      "Art. 17 Abs. 2",
+      "Art. 17 Abs. 3",
+      "Art. 17 Abs. 4",
+      "Art. 17a Abs. 2",
+      "Art. 17a Abs. 3",
+      "Art. 17a Abs. 5",
+      "Art. 17a Abs. 6"
+    ],
+    "confidence": "high",
+    "reasoning": "Direct marking with range and 'und': 'Die Artikel 17 Absätze 2-4 sowie 17a Absätze 2, 3, 5 und 6 ParlG' explicitly lists these paragraphs of ParlG (SR 171.10)."
+  },
+  {
+    "ITEM": 17,
+    "ARTICLE_EID": "art_14",
+    "TARGET_SR": "SR 171.10",
+    "assigned_articles": ["Art. 39 Abs. 4"],
+    "confidence": "high",
+    "reasoning": "Prepositional attribution: 'Die Zusammensetzung dieser Kommission richtet sich nach Artikel 39 Absatz 4 ParlG' links Art. 39 Abs. 4 to SR 171.10."
+  },
+  {
+    "ITEM": 18,
+    "ARTICLE_EID": "art_14_bis",
+    "TARGET_SR": "SR 170.32",
+    "assigned_articles": ["Art. 14"],
+    "confidence": "high",
+    "reasoning": "Snippet mentions both 'Artikel 321ter des Strafgesetzbuches' (external, already covered in ITEM 7) and 'gegenüber einer der in Artikel 14 genannten Personen', where Art. 14 is a self-reference within SR 170.32."
+  },
+  {
+    "ITEM": 19,
+    "ARTICLE_EID": "art_14_bis",
+    "TARGET_SR": "SR 170.32",
+    "assigned_articles": ["Art. 14"],
+    "confidence": "high",
+    "reasoning": "'in Artikel 14 genannten Personen' and 'ist nach Artikel 14 die Ermächtigung ... einzuholen' are self-references to Art. 14 of this law."
+  },
+  {
+    "ITEM": 20,
+    "ARTICLE_EID": "art_16",
+    "TARGET_SR": "SR 311.0",
+    "assigned_articles": ["Art. 6 Ziff. 2"],
+    "confidence": "medium",
+    "reasoning": "The text 'findet jedoch Artikel 6 Ziffer 2 des Strafgesetzbuches ... entsprechende Anwendung' is a historical reference to StGB. The snippet still names Art. 6 Ziff. 2 explicitly, so this is assigned to SR 311.0 as such."
+  },
+  {
+    "ITEM": 21,
+    "ARTICLE_EID": "art_16",
+    "TARGET_SR": "SR 311.0",
+    "assigned_articles": ["Art. 4"],
+    "confidence": "high",
+    "reasoning": "'Artikel 4 des Strafgesetzbuches bleibt vorbehalten.' clearly cites Art. 4 StGB (SR 311.0)."
+  },
+  {
+    "ITEM": 22,
+    "ARTICLE_EID": "art_19",
+    "TARGET_SR": "SR 170.32",
+    "assigned_articles": [
+      "Art. 3–6",
+      "Art. 7",
+      "Art. 9"
+    ],
+    "confidence": "high",
+    "reasoning": "Self-reference: '(Art. 3–6)' and 'Rückgriff ... nach den Artikeln 7 und 9' are purely internal to this law. Range 3–6 is treated as an article range."
+  },
+  {
+    "ITEM": 23,
+    "ARTICLE_EID": "art_19",
+    "TARGET_SR": "SR 170.32",
+    "assigned_articles": ["Art. 8", "Art. 9"],
+    "confidence": "high",
+    "reasoning": "Self-reference: 'Artikel 8 und 9 sind anwendbar.' refers to internal articles 8 and 9."
+  },
+  {
+    "ITEM": 24,
+    "ARTICLE_EID": "art_19",
+    "TARGET_SR": "SR 170.32",
+    "assigned_articles": ["Art. 13 ff."],
+    "confidence": "medium",
+    "reasoning": "Self-reference: 'Auf die strafrechtliche Verantwortlichkeit finden die Artikel 13 ff. entsprechend Anwendung.' points to Art. 13 and following articles within the same law; the exact upper bound is not specified."
+  },
+  {
+    "ITEM": 25,
+    "ARTICLE_EID": "art_19_c",
+    "TARGET_SR": "SR 170.32",
+    "assigned_articles": ["Art. 10 Abs. 1"],
+    "confidence": "high",
+    "reasoning": "Self-reference: 'Artikel 10 Absatz 1 ist sinngemäss anwendbar.' refers to Art. 10 Abs. 1 of this statute."
+  },
+  {
+    "ITEM": 26,
+    "ARTICLE_EID": "art_20",
+    "TARGET_SR": "SR 170.32",
+    "assigned_articles": ["Art. 3 ff."],
+    "confidence": "medium",
+    "reasoning": "Self-reference: '(Art. 3 ff.) verjährt' points to Art. 3 and following provisions on liability within the same law; the range end is not explicit."
+  },
+  {
+    "ITEM": 27,
+    "ARTICLE_EID": "art_20",
+    "TARGET_SR": "SR 170.32",
+    "assigned_articles": ["Art. 10 Abs. 2"],
+    "confidence": "high",
+    "reasoning": "Self-reference: 'in den Fällen nach Artikel 10 Absatz 2' clearly refers to Art. 10 Abs. 2 of the same law."
+  },
+  {
+    "ITEM": 28,
+    "ARTICLE_EID": "art_23",
+    "TARGET_SR": "SR 170.32",
+    "assigned_articles": ["Art. 8", "Art. 19"],
+    "confidence": "high",
+    "reasoning": "Self-reference: '(Art. 8 und 19)' in the parenthesis explicitly points to internal articles 8 and 19."
+  },
+  {
+    "ITEM": 29,
+    "ARTICLE_EID": "art_24",
+    "TARGET_SR": "SR 170.32",
+    "assigned_articles": [
+      "Art. 3",
+      "Art. 10 Abs. 2",
+      "Art. 11",
+      "Art. 7",
+      "Art. 8",
+      "Art. 19",
+      "Art. 20"
+    ],
+    "confidence": "high",
+    "reasoning": "Self-reference: the parenthesis '(Art. 3, 10 Abs. 2 und Art. 11; Art. 7, 8, 19 und 20)' lists internal responsibilities; all articles are within SR 170.32."
+  },
+  {
+    "ITEM": 30,
+    "ARTICLE_EID": "art_26",
+    "TARGET_SR": "SR 170.32",
+    "assigned_articles": ["Art. 3 ff."],
+    "confidence": "medium",
+    "reasoning": "Self-reference: 'Haftung des Bundes nach den Artikeln 3 ff.' extends liability rules of Art. 3 and following to earlier damage; range end is not explicit."
+  },
+  {
+    "ITEM": 31,
+    "ARTICLE_EID": "art_26",
+    "TARGET_SR": "SR 170.32",
+    "assigned_articles": ["Art. 10 Abs. 2"],
+    "confidence": "high",
+    "reasoning": "Self-reference: 'im Sinne von Artikel 10 Absatz 2 zu behandeln' clearly points to Art. 10 Abs. 2 within the same law."
+  },
+  {
+    "ITEM": 32,
+    "ARTICLE_EID": "art_27",
+    "TARGET_SR": "SR 170.32",
+    "assigned_articles": ["Art. 91"],
+    "confidence": "low",
+    "reasoning": "The snippet cites 'Artikel 91 des Bundesgesetzes vom 5. April 1910 betreffend das schweizerische Postwesen' without an SR number. It is clearly an external statute, but since no SR is given, the article is recorded generically as Art. 91 without an explicit TARGET_SR beyond the current file."
+  },
+  {
+    "ITEM": 33,
+    "ARTICLE_EID": "art_27",
+    "TARGET_SR": "SR 170.32",
+    "assigned_articles": ["Art. 29", "Art. 35", "Art. 36"],
+    "confidence": "low",
+    "reasoning": "The snippet 'die Artikel 29, 35 und 36 des Bundesgesetzes vom 30. Juni 1927 über das Dienstverhältnis der Bundesbeamten' clearly references an external statute; however, no SR number is given. The articles are therefore captured as Art. 29, 35, 36 without a more specific SR target."
+  }
+]
