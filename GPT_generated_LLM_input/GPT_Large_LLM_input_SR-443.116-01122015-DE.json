@@ -1,0 +1,58 @@
+[
+  {
+    "item_type": "preamble_callback",
+    "acronyms": [
+      {
+        "acronym": "EDI",
+        "sr_link": "SR 443.1",
+        "url": "https://fedlex.data.admin.ch/eli/cc/2002/283"
+      },
+      {
+        "acronym": "FiG",
+        "sr_link": "SR 443.1",
+        "url": "https://fedlex.data.admin.ch/eli/cc/2002/283"
+      }
+    ],
+    "description": "Preamble acronyms for reference detection"
+  },
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 443.1",
+    "TARGET_URL": "https://fedlex.data.admin.ch/eli/cc/2002/283",
+    "SNIPPET": "gestützt auf die Artikel 8 und 26 Absatz 2 des Filmgesetzes vom 14. Dezember 2001 SR 443.1 (FiG),",
+    "INSIDE_AUTHORIALNOTE": "SR 443.1",
+    "item_type": "SR_link_detection"
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_9",
+    "TARGET_SR": "SR 172.010",
+    "TARGET_URL": "https://fedlex.data.admin.ch/eli/cc/1997/2022_2022_2022",
+    "SNIPPET": "Es kann sich dabei durch geeignete Personen oder Organisationen beraten lassen (Art. 57 des Regierungs- und Verwaltungsorganisationsgesetzes vom 21. März 1997 SR 172.010).",
+    "INSIDE_AUTHORIALNOTE": "SR 172.010",
+    "item_type": "SR_link_detection"
+  },
+  {
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": "SR 443.1",
+    "TARGET_URL": "https://fedlex.data.admin.ch/eli/cc/2002/283",
+    "SNIPPET": "Zugelassen sind Schweizer Filme gemäss Artikel 2 Absatz 2 FiG und anerkannte Koproduktionen von einer Regisseurin oder einem Regisseur mit schweizerischer Nationalität oder mit Wohnsitz in der Schweiz.",
+    "INSIDE_AUTHORIALNOTE": "SR 443.1",
+    "preamble_acronym_name": "FiG",
+    "item_type": "preamble_acronym",
+    "ITEM": 3
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_9",
+    "SNIPPET": "Es kann sich dabei durch geeignete Personen oder Organisationen beraten lassen (Art. 57 des Regierungs- und Verwaltungsorganisationsgesetzes vom 21. März 1997).",
+    "item_type": "artikel_reference"
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_11",
+    "SNIPPET": "Die Preise für Abschlussfilme nach Artikel 4 Absatz 2bis zweiter Satz werden an die Regisseurin oder den Regisseur ausbezahlt.",
+    "item_type": "artikel_reference"
+  }
+]

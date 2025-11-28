@@ -1,0 +1,49 @@
+[
+  {
+    "item_type": "preamble_callback",
+    "acronyms": [
+      {
+        "acronym": "VBS",
+        "sr_link": "SR 172.220.111.3",
+        "url": "https://fedlex.data.admin.ch/eli/cc/2001/319"
+      },
+      {
+        "acronym": "BPV",
+        "sr_link": "SR 172.220.111.3",
+        "url": "https://fedlex.data.admin.ch/eli/cc/2001/319"
+      }
+    ],
+    "description": "Preamble acronyms for reference detection"
+  },
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 172.220.111.3",
+    "TARGET_URL": "https://fedlex.data.admin.ch/eli/cc/2001/319",
+    "SNIPPET": "gestützt auf Artikel 34a Absatz 2 der Bundespersonalverordnung vom 3. Juli 2001 SR 172.220.111.3 (BPV),",
+    "INSIDE_AUTHORIALNOTE": "SR 172.220.111.3",
+    "item_type": "SR_link_detection"
+  },
+  {
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 172.220.111.3",
+    "TARGET_URL": "https://fedlex.data.admin.ch/eli/cc/2001/319",
+    "SNIPPET": "Diese Verordnung gilt für Angestellte in Funktionen nach Artikel 33 Absatz 1 Buchstaben a und c BPV, die ab dem 1. Juli 2015 den Vorruhestandsurlaub antreten. ... Sie gilt nicht für Angestellte nach Artikel 116c Absatz 2 BPV.",
+    "INSIDE_AUTHORIALNOTE": "SR 172.220.111.3",
+    "preamble_acronym_name": "BPV",
+    "item_type": "preamble_acronym",
+    "ITEM": 2
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_1",
+    "SNIPPET": "Diese Verordnung gilt für Angestellte in Funktionen nach Artikel 33 Absatz 1 Buchstaben a und c BPV, die ab dem 1. Juli 2015 den Vorruhestandsurlaub antreten.",
+    "item_type": "artikel_reference"
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_1",
+    "SNIPPET": "Sie gilt nicht für Angestellte nach Artikel 116c Absatz 2 BPV.",
+    "item_type": "artikel_reference"
+  }
+]

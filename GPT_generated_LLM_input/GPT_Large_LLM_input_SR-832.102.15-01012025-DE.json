@@ -1,0 +1,86 @@
+[
+  {
+    "item_type": "preamble_callback",
+    "acronyms": [
+      {
+        "acronym": "EDI",
+        "sr_link": "SR 832.121",
+        "url": "https://fedlex.data.admin.ch/eli/cc/2015/840"
+      },
+      {
+        "acronym": "KVAV",
+        "sr_link": "SR 832.121",
+        "url": "https://fedlex.data.admin.ch/eli/cc/2015/840"
+      }
+    ],
+    "description": "Preamble acronyms for reference detection"
+  },
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 832.121",
+    "TARGET_URL": "https://fedlex.data.admin.ch/eli/cc/2015/840",
+    "SNIPPET": "gestützt auf die Artikel 10 Absatz 5, 11 Absatz 2 und 13 Absatz 3 der Krankenversicherungsaufsichtsverordnung vom 18. November 2015 SR 832.121 (KVAV),",
+    "INSIDE_AUTHORIALNOTE": "SR 832.121",
+    "item_type": "SR_link_detection"
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 170.512",
+    "TARGET_URL": "https://fedlex.data.admin.ch/eli/cc/2004/745",
+    "SNIPPET": "Als vergleichbare Aktiven im Sinne von Artikel 10 Absatz 2 KVAV Der Verweis wurde in Anwendung von Art. 12 Abs. 2 des Publikationsgesetzes vom 18. Juni 2004 (SR 170.512) auf den 1. Jan. 2016 angepasst. dürfen nur kotierte Finanzinstrumente berücksichtigt werden.",
+    "INSIDE_AUTHORIALNOTE": "Der Verweis wurde in Anwendung von Art. 12 Abs. 2 des Publikationsgesetzes vom 18. Juni 2004 (SR 170.512) auf den 1. Jan. 2016 angepasst.",
+    "acronym": "KVAV",
+    "snippet_acronym": [
+      "Als vergleichbare Aktiven im Sinne von Artikel 10 Absatz 2 KVAV dürfen nur kotierte Finanzinstrumente berücksichtigt werden."
+    ],
+    "item_type": "SR_link_with_local_acronym"
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": "SR 832.12",
+    "TARGET_URL": "https://fedlex.data.admin.ch/eli/cc/2015/839",
+    "SNIPPET": "die Rückversicherung nach Artikel 28 des Krankenversicherungsaufsichtsgesetzes vom 26. September 2014 SR 832.12 (KVAG).",
+    "INSIDE_AUTHORIALNOTE": "SR 832.12",
+    "item_type": "SR_link_detection"
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": "SR 170.512",
+    "TARGET_URL": "https://fedlex.data.admin.ch/eli/cc/2004/745",
+    "SNIPPET": "Hat der Versicherer Leistungen nach Artikel 28 KVAG Der Verweis wurde in Anwendung von Art. 12 Abs. 2 des Publikationsgesetzes vom 18. Juni 2004 (SR 170.512) auf den 1. Jan. 2016 angepasst. rückversichern lassen, so wird dem dadurch verminderten Risiko Rechnung getragen.",
+    "INSIDE_AUTHORIALNOTE": "Der Verweis wurde in Anwendung von Art. 12 Abs. 2 des Publikationsgesetzes vom 18. Juni 2004 (SR 170.512) auf den 1. Jan. 2016 angepasst.",
+    "acronym": "KVAG",
+    "snippet_acronym": [
+      "e. die Rückversicherung nach Artikel 28 des Krankenversicherungsaufsichtsgesetzes vom 26. September 2014 (KVAG).",
+      "die Rückversicherung nach Artikel 28 des Krankenversicherungsaufsichtsgesetzes vom 26. September 2014 (KVAG).",
+      "Hat der Versicherer Leistungen nach Artikel 28 KVAG rückversichern lassen, so wird dem dadurch verminderten Risiko Rechnung getragen."
+    ],
+    "item_type": "SR_link_with_local_acronym"
+  },
+  {
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 832.121",
+    "TARGET_URL": "https://fedlex.data.admin.ch/eli/cc/2015/840",
+    "SNIPPET": "Als vergleichbare Aktiven im Sinne von Artikel 10 Absatz 2 KVAV dürfen nur kotierte Finanzinstrumente berücksichtigt werden.",
+    "INSIDE_AUTHORIALNOTE": "SR 832.121",
+    "preamble_acronym_name": "KVAV",
+    "item_type": "preamble_acronym",
+    "ITEM": 5
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_9",
+    "SNIPPET": "Der Bericht über den Solvenztest ist dem BAG zusammen mit dem elektronischen Formular nach Artikel 8 jährlich bis zum 30. April des Berichtsjahres einzureichen.",
+    "item_type": "artikel_reference"
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_10",
+    "SNIPPET": "Das BAG kann während der ersten drei Jahre nach Inkrafttreten dieser Verordnung den Zeitpunkt der Einreichung des Berichts nach Artikel 9 auf Gesuch hin um höchstens zwei Monate erstrecken.",
+    "item_type": "artikel_reference"
+  }
+]

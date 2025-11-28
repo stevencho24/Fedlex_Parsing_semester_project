@@ -1,0 +1,639 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:fedlex="http://fedlex.admin.ch/"><act name="publicLaw"><meta><identification source="#ch.bk"><FRBRWork><FRBRthis value="https://fedlex.data.admin.ch/eli/cc/2012/867/20250601/main-text"/><FRBRuri value="https://fedlex.data.admin.ch/eli/cc/2012/867/20250601"/><FRBRdate date="2012-11-20" name="jolux:dateDocument"/><FRBRdate date="2013-01-01" name="jolux:dateEntryInForce"/><FRBRdate date="2025-06-01" name="jolux:dateApplicability"/><FRBRauthor href="#ch.bk" as="#publisher"/><FRBRauthor href="#ch.bk" as="#rightsHolder"/><FRBRcountry value="CH"/><FRBRnumber value="832.102.14"/><FRBRname xml:lang="fr" value="Ordonnance du DFI du 20 novembre 2012 sur les fichiers de données pour la transmission des données entre fournisseurs de prestations et assureurs" shortForm=""/><FRBRname xml:lang="it" value="Ordinanza del DFI del 20 novembre 2012 sugli insiemi di dati per la trasmissione dei dati tra fornitori di prestazioni e assicuratori" shortForm=""/><FRBRname xml:lang="de" value="Verordnung des EDI vom 20. November 2012 über die Datensätze für die Datenweitergabe zwischen Leistungserbringern und Versicherern" shortForm=""/><FRBRauthoritative value="true"/></FRBRWork><FRBRExpression><FRBRthis value="https://fedlex.data.admin.ch/eli/cc/2012/867/20250601/de/main-text"/><FRBRuri value="https://fedlex.data.admin.ch/eli/cc/2012/867/20250601/de"/><FRBRdate date="2012-11-20" name="jolux:dateDocument"/><FRBRdate date="2013-01-01" name="jolux:dateEntryInForce"/><FRBRdate date="2025-06-01" name="jolux:dateApplicability"/><FRBRauthor href="#ch.bk" as="#publisher"/><FRBRauthor href="#ch.bk" as="#rightsHolder"/><FRBRlanguage language="de"/></FRBRExpression><FRBRManifestation><FRBRthis value="https://fedlex.data.admin.ch/eli/cc/2012/867/20250601/de/xml/main-text"/><FRBRuri value="https://fedlex.data.admin.ch/eli/cc/2012/867/20250601/de/xml"/><FRBRdate date="2012-11-20" name="jolux:dateDocument"/><FRBRdate date="2013-01-01" name="jolux:dateEntryInForce"/><FRBRdate date="2025-06-01" name="jolux:dateApplicability"/><FRBRauthor href="#ch.bk" as="#publisher"/><FRBRauthor href="#ch.bk" as="#rightsHolder"/><FRBRformat value="xml" fedlex:generator="2025-q2-rel-1.7.4"/></FRBRManifestation></identification><references source="#ch.bk"><TLCOrganization eId="ch.bk" href="https://fedlex.data.admin.ch/vocabulary/legal-institution/2" showAs="Bundeskanzlei"/><TLCRole eId="publisher" href="http://data.legilux.public.lu/resource/ontology/jolux#publisher" showAs="Editeur"/><TLCRole eId="rightsHolder" href="http://data.legilux.public.lu/resource/ontology/jolux#rightsHolder" showAs="Détenteur des droits"/><TLCReference name="language" href="http://publications.europa.eu/resource/authority/language/DEU" showAs="de"/><TLCReference name="format" href="https://fedlex.data.admin.ch/vocabulary/user-format/xml" showAs="xml"/></references></meta><preface><p><docNumber>832.102.14 </docNumber></p><p><docTitle>Verordnung des EDI<br/>über die Datensätze für die Datenweitergabe zwischen <br/>Leistungserbringern und Versicherern</docTitle></p><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">vom 20. November 2012 (Stand am 1. Juni 2025)</p></preface><preamble><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Das Eidgenössische Departement des Innern (EDI),</p><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">gestützt auf Artikel 59<i>a</i> Absatz 1 der Verordnung vom 27. Juni 1995<authorialNote>
+		<p> <ref href="https://fedlex.data.admin.ch/eli/cc/1995/3867_3867_3867" xmlns:data="urn:com:c-moria:legi4ch:xslt:data" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">SR <b>832.102</b></ref></p>
+	</authorialNote> <br/>über die Krankenversicherung (KVV),</p><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">verordnet:</p></preamble><body><article eId="art_1"><num><b>Art. 1</b></num><paragraph eId="art_1/para"><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Die Struktur der Datensätze nach Artikel 59<i>a</i> Absatz 1 KVV ist im Anhang festgelegt.</p></content></paragraph></article><article eId="art_2"><num><b>Art. 2</b></num><paragraph eId="art_2/para"><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Diese Verordnung tritt am 1. Januar 2013 in Kraft.</p></content></paragraph></article></body><components><component><doc name="annex"><meta><identification source="#ch.bk"><FRBRWork><FRBRthis value="https://fedlex.data.admin.ch/eli/cc/2012/867/20250601/main-text"/><FRBRuri value="https://fedlex.data.admin.ch/eli/cc/2012/867/20250601"/><FRBRdate date="2012-11-20" name="jolux:dateDocument"/><FRBRdate date="2013-01-01" name="jolux:dateEntryInForce"/><FRBRdate date="2025-06-01" name="jolux:dateApplicability"/><FRBRauthor href="#ch.bk" as="#publisher"/><FRBRauthor href="#ch.bk" as="#rightsHolder"/><FRBRcountry value="CH"/><FRBRnumber value="832.102.14"/><FRBRname xml:lang="fr" value="Ordonnance du DFI du 20 novembre 2012 sur les fichiers de données pour la transmission des données entre fournisseurs de prestations et assureurs" shortForm=""/><FRBRname xml:lang="it" value="Ordinanza del DFI del 20 novembre 2012 sugli insiemi di dati per la trasmissione dei dati tra fornitori di prestazioni e assicuratori" shortForm=""/><FRBRname xml:lang="de" value="Verordnung des EDI vom 20. November 2012 über die Datensätze für die Datenweitergabe zwischen Leistungserbringern und Versicherern" shortForm=""/><FRBRauthoritative value="true"/></FRBRWork><FRBRExpression><FRBRthis value="https://fedlex.data.admin.ch/eli/cc/2012/867/20250601/de/main-text"/><FRBRuri value="https://fedlex.data.admin.ch/eli/cc/2012/867/20250601/de"/><FRBRdate date="2012-11-20" name="jolux:dateDocument"/><FRBRdate date="2013-01-01" name="jolux:dateEntryInForce"/><FRBRdate date="2025-06-01" name="jolux:dateApplicability"/><FRBRauthor href="#ch.bk" as="#publisher"/><FRBRauthor href="#ch.bk" as="#rightsHolder"/><FRBRlanguage language="de"/></FRBRExpression><FRBRManifestation><FRBRthis value="https://fedlex.data.admin.ch/eli/cc/2012/867/20250601/de/xml/main-text"/><FRBRuri value="https://fedlex.data.admin.ch/eli/cc/2012/867/20250601/de/xml"/><FRBRdate date="2012-11-20" name="jolux:dateDocument"/><FRBRdate date="2013-01-01" name="jolux:dateEntryInForce"/><FRBRdate date="2025-06-01" name="jolux:dateApplicability"/><FRBRauthor href="#ch.bk" as="#publisher"/><FRBRauthor href="#ch.bk" as="#rightsHolder"/><FRBRformat value="xml"/></FRBRManifestation></identification></meta><preface><container name="headerOfAnnex"><block name="heading">Anhang<inline name="man-font-style-normal"><authorialNote>
+		<p> Bereinigt gemäss Ziff. I der V des EDI vom 3. Dez. 2021 (<ref href="https://fedlex.data.admin.ch/eli/oc/2021/839" xmlns:data="urn:com:c-moria:legi4ch:xslt:data" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">AS <b>2021</b> 839</ref>), Anhang der V des EDI vom 16. Juni 2023 (<ref href="https://fedlex.data.admin.ch/eli/oc/2023/313" xmlns:data="urn:com:c-moria:legi4ch:xslt:data" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">AS <b>2023</b> 313</ref>) und Anhang 3 Ziff. 18 der Bundesstatistikverordnung vom 30. April 2025, in Kraft seit 1. Juni 2025 (<ref href="https://fedlex.data.admin.ch/eli/oc/2025/318" xmlns:data="urn:com:c-moria:legi4ch:xslt:data" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">AS <b>2025</b> 318</ref>).</p>
+	</authorialNote></inline></block></container></preface><mainBody><p>(Art. 1)</p><level eId="annex_u1/lvl_u1"><heading>Gesamtschweizerisch einheitliche Struktur der Datensätze</heading><level eId="annex_u1/lvl_u1/lvl_1"><num>1</num><heading>Allgemeines</heading><level eId="annex_u1/lvl_u1/lvl_1/lvl_1_1"><num>1.1</num><heading>Abkürzungen und Definitionen</heading><content><blockList><item eId="annex_u1/lvl_u1/lvl_1/lvl_1_1/bull_u1"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">CHOP </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Schweizerische Operationsklassifikation</p></item><item eId="annex_u1/lvl_u1/lvl_1/lvl_1_1/bull_u2"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">GM </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">German Modification</p></item><item eId="annex_u1/lvl_u1/lvl_1/lvl_1_1/bull_u3"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">SpiGes </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Erhebung der Daten der Leistungserbringer nach Artikel 59<i>a</i> des Bundesgesetzes vom 18. März 1994<authorialNote>
+		<p>  <ref href="https://fedlex.data.admin.ch/eli/cc/1995/1328_1328_1328" xmlns:data="urn:com:c-moria:legi4ch:xslt:data" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">SR <b>832.10</b></ref></p>
+	</authorialNote> über die Krankenversicherung und Artikel 30 der Verordnung vom 27. Juni 1995<authorialNote>
+		<p>  <ref href="https://fedlex.data.admin.ch/eli/cc/1995/3867_3867_3867" xmlns:data="urn:com:c-moria:legi4ch:xslt:data" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">SR <b>832.102</b></ref></p>
+	</authorialNote> über die Krankenversicherung im Bereich der Gesundheitsversorgung bei einem Spitalaufenthalt</p></item><item eId="annex_u1/lvl_u1/lvl_1/lvl_1_1/bull_u4"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">ICD-10 </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Internationale statistische Klassifikation der Krankheiten und verwandter Gesundheitsprobleme</p></item></blockList></content></level><level eId="annex_u1/lvl_u1/lvl_1/lvl_1_2"><num>1.2</num><heading>Medizinischer Datensatz</heading><content><table border="1">
+			
+			
+			<tr>
+				
+				
+				<th xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">
+					
+					<p>Bezeichnung </p>
+				</th>
+				<th xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">
+					
+					<p>Variable der <br/>medizinischen Statistik</p>
+				</th>
+				<th xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">
+					
+					<p>Inhalt</p>
+				</th>
+			</tr>
+			<tr>
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Geburtsgewicht</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">2.2.V04</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">in Gramm</p>
+				</td>
+			</tr>
+			<tr>
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Hauptdiagnose</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">4.2.V010</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">ICD-10-GM-Kode</p>
+				</td>
+			</tr>
+			<tr>
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Zusatz zu Hauptdiagnose</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">4.2.V020</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">ICD-10-GM-Kode</p>
+				</td>
+			</tr>
+			<tr>
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">1. bis 49. Nebendiagnose</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">4.2.V030, 4.2.V040 usw. bis 4.2.V510</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">ICD-10-GM-Kode</p>
+				</td>
+			</tr>
+			<tr>
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Hauptbehandlung</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">4.3.V010</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">CHOP-Code</p>
+				</td>
+			</tr>
+			<tr>
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Seitigkeit der Hauptbehandlung</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">4.3.V011</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">0 = beidseitig</p>
+					<p>1 = einseitig rechts</p>
+					<p>2 = einseitig links</p>
+					<p>3 = einseitig unbekannt</p>
+					<p>9 = unbekannt</p>
+					<p>leer = Frage stellt sich nicht</p>
+				</td>
+			</tr>
+			<tr>
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Beginn der Hauptbehandlung</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">4.3.V015</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Datum (mit Angabe der Stunde)</p>
+				</td>
+			</tr>
+			<tr>
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">1. bis 99. Nebenbehandlung</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">4.3.V020, 4.3.V030 usw. bis 4.3.V1000</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">CHOP-Code</p>
+				</td>
+			</tr>
+			<tr>
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">1. bis 99. Nebenbehandlung <br/>Seitigkeit</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">4.3.V021, 4.3.V031 usw. bis 4.3.V1001</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">0 = beidseitig</p>
+					<p>1 = einseitig rechts</p>
+					<p>2 = einseitig links</p>
+					<p>3 = einseitig unbekannt</p>
+					<p>9 = unbekannt</p>
+					<p>leer = Frage stellt sich nicht</p>
+				</td>
+			</tr>
+			<tr>
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">1. bis 99. Nebenbehandlung, <br/>Beginn</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">4.3.V025, 4.3.V035 usw. bis 4.3.V1005</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Datum (mit Angabe <br/>der Stunde)</p>
+				</td>
+			</tr>
+			<tr>
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Dauer der künstlichen Beatmung</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">4.4.V01</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Anzahl Stunden</p>
+				</td>
+			</tr>
+			<tr>
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Aufnahmegewicht</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">4.5.V01</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">in Gramm</p>
+				</td>
+			</tr>
+			<tr>
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Abklärung Garant</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">2.2.V06</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">0 = nein</p>
+					<p>1 = ja</p>
+					<p>9 = unbekannt</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Begründung für stationären Aufenthalt</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> –</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Gemäss Spalte «Nr.» in Anhang 1<i>a</i> Ziffer II der Krankenpflege-Leistungsverordnung vom 29. Sept. 1995<authorialNote>
+		<p> <ref href="https://fedlex.data.admin.ch/eli/cc/1995/4964_4964_4964" xmlns:data="urn:com:c-moria:legi4ch:xslt:data" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">SR <b>832.112.31</b></ref></p>
+	</authorialNote></p>
+				</td>
+			</tr>
+		</table></content></level><level eId="annex_u1/lvl_u1/lvl_1/lvl_1_3"><num>1.3</num><heading>Administrativer Datensatz</heading><content><table border="1">
+			
+			
+			<tr>
+				
+				
+				<th xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">
+					
+					<p>Bezeichnung gemäss der medizinischen Statistik</p>
+				</th>
+				<th xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">
+					
+					<p>Variable der medizinischen Statistik</p>
+				</th>
+				<th xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">
+					
+					<p>Beschreibung</p>
+				</th>
+			</tr>
+			<tr>
+				
+				
+				<th xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">
+					
+					
+				</th>
+				<th xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">
+					
+					
+				</th>
+				<th xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">
+					
+					
+				</th>
+			</tr>
+			<tr>
+				
+				<td>
+					
+					<p>Geschlecht</p>
+				</td>
+				<td>
+					
+					<p>1.1.V01</p>
+				</td>
+				<td><blockList><item><num>1 = </num><p>Mann</p></item><item><num>2 = </num><p>Frau</p></item></blockList></td>
+			</tr>
+			<tr>
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Geburtsdatum</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">1.1.V02</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Datumsangabe</p>
+				</td>
+			</tr>
+			<tr>
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Alter bei Eintritt</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">1.1.V03</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Exaktes Alter</p>
+				</td>
+			</tr>
+			<tr>
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Eintrittsdatum und -stunde</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">1.2.V01</p>
+				</td>
+				<td>
+					
+					
+				</td>
+			</tr>
+			<tr>
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Aufenthaltsort vor dem Eintritt</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">1.2.V02</p>
+				</td>
+				<td><blockList><item><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">1 = </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">zuhause</p></item><item><num>2 = </num><p>zuhause mit Spitex-Versorgung</p></item><item><num>3 = </num><p>Krankenheim, Pflegeheim</p></item><item><num>4 = </num><p>Altersheim, andere sozial-medizinische Institution</p></item><item><num>5 = </num><p>psychiatrische Klinik, anderer Betrieb</p></item><item><num>55 = </num><p>psychiatrische Abteilung/Klinik, gleicher Betrieb</p></item><item><num>6 = </num><p>anderes Krankenhaus (Akutspital) oder Geburtshaus</p></item><item><num>66 = </num><p>Akutabteilung/-klinik, gleicher Betrieb</p></item><item><num>7 =  </num><p>Strafvollzugsanstalt</p></item><item><num>8 = </num><p>andere</p></item><item><num>83 = </num><p>Rehabilitationsklinik, anderer Betrieb</p></item><item><num>84 = </num><p>Rehabilitationsabteilung/-klinik, gleicher Betrieb</p></item><item><num>9 = </num><p>unbekannt</p></item></blockList></td>
+			</tr>
+			<tr>
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Eintrittsart</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">1.2.V03</p>
+				</td>
+				<td><blockList><item><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">1 = </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Notfall (Behandlung innerhalb von 12 Stunden unabdingbar)</p></item><item><num>2 = </num><p>angemeldet, geplant</p></item><item><num>3 = </num><p>Geburt (Kind in dieser Klinik geboren)</p></item><item><num>4 = </num><p>interner Übertritt</p></item><item><num>5 = </num><p>Verlegung innerhalb 24 Std.</p></item><item><num>8 = </num><p>andere</p></item><item><num>9 = </num><p>unbekannt</p></item></blockList></td>
+			</tr>
+			<tr>
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Administrativer Urlaub und Ferien </p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">1.3.V04</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">vollendete Stunden</p>
+				</td>
+			</tr>
+			<tr>
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Hauptkostenstelle</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">1.4.V01</p>
+				</td>
+				<td><blockList><item><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">M000 = </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Fachgebiete (allgemein)</p></item><item><num>M050 = </num><p>Intensivmedizin</p></item><item><num>M100 = </num><p>Innere Medizin</p></item><item><num>M200 = </num><p>Chirurgie</p></item><item><num>M300 = </num><p>Gynäkologie und Geburtshilfe</p></item><item><num>M400 = </num><p>Pädiatrie</p></item><item><num>M500 = </num><p>Psychiatrie und Psychotherapie</p></item><item><num>M600 = </num><p>Ophthalmologie</p></item><item><num>M700 = </num><p>Oto-Rhino-Laryngologie</p></item><item><num>M800 = </num><p>Dermatologie und Venereologie</p></item><item><num>M850 = </num><p>Medizinische Radiologie</p></item><item><num>M900 = </num><p>Geriatrie</p></item><item><num>M950 = </num><p>Physikalische Medizin und Rehabilitation</p></item><item><num>M960 = </num><p>Notfallzentrum</p></item><item><num>M970 = </num><p>Ärztenotfallpraxis</p></item><item><num>M990 = </num><p>Anderer Tätigkeitsbereich</p></item></blockList></td>
+			</tr>
+			<tr>
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Austrittsdatum und -Stunde</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">1.5.V01</p>
+				</td>
+				<td>
+					
+					
+				</td>
+			</tr>
+			<tr>
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Entscheid für Austritt</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">1.5.V02</p>
+				</td>
+				<td><blockList><item><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">1 = </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">auf Initiative der behandelnden Person</p></item><item><num>2 = </num><p>auf Initiative des Patienten/der Patientin (gegen Ansicht der behandelnden Person)</p></item><item><num>3 = </num><p>auf Initiative einer Drittperson</p></item><item><num>4 = </num><p>interner Übertritt</p></item><item><num>5 = </num><p>gestorben</p></item><item><num>8 = </num><p>anderes</p></item><item><num>9 = </num><p>unbekannt</p></item></blockList></td>
+			</tr>
+			<tr>
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Aufenthalt nach Austritt</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">1.5.V03</p>
+				</td>
+				<td><blockList><item><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">1 = </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">zuhause</p></item><item><num>2 = </num><p>Krankenheim, Pflegeheim</p></item><item><num>3 = </num><p>Altersheim, andere sozial-medizinische Institution</p></item><item><num>4 = </num><p>psychiatrische Klinik, anderer Betrieb</p></item><item><num>44 = </num><p>psychiatrische Abteilung/Klinik, gleicher Betrieb</p></item><item><num>5 = </num><p>Rehabilitationsklinik, anderer Betrieb</p></item><item><num><placeholder fedlex:message="E40S10-TAB">[tab]</placeholder></num><p>55 = Rehabilitationsabteilung/-klinik, gleicher Betrieb </p></item><item><num>6 = </num><p>anderes Krankenhaus (Akutspital) oder Geburtshaus</p></item><item><num>66 = </num><p>Akutabteilung/-klinik, gleicher Betrieb</p></item><item><num>7 = </num><p>Strafvollzugsanstalt</p></item><item><num>8 = </num><p>andere</p></item><item><num>9 = </num><p>unbekannt</p></item><item><num>0 = </num><p>Todesfall</p></item></blockList></td>
+			</tr>
+			<tr>
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">1. Zwischenaustritt</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">4.7.V01</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Datum (ohne Stunde)</p>
+				</td>
+			</tr>
+			<tr>
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">1. Wiedereintritt</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">4.7.V02</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Datum (ohne Stunde)</p>
+				</td>
+			</tr>
+			<tr>
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">2. bis 4. Zwischenaustritt</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">4.7.V11, 4.7.V21 <br/>bzw. 4.7.V31</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Datum (ohne Stunde)</p>
+				</td>
+			</tr>
+			<tr>
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">2. bis 4. Wiedereintritt</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">4.7.V12, 4.7.V22 <br/>bzw. 4.7.V32</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Datum (ohne Stunde)</p>
+				</td>
+			</tr>
+			<tr>
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Weitere Wiedereintritte</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">4.7.V41</p>
+				</td>
+				<td><blockList><item><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">0 = </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">(default) nicht mehr als 5 Aufenthalte bzw. 4. Wiedereintritte</p></item><item><num>1 = </num><p>mehr als 5 Aufenthalte bzw. 4. Wiedereintritte</p></item></blockList></td>
+			</tr>
+			<tr>
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Gestationsalter</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">4.8V16</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Verschlüsselt</p>
+				</td>
+			</tr>
+			<tr>
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Aufenthaltsort nach dem 1. Zwischenaustritt</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">4.8V17</p>
+				</td>
+				<td><blockList><item><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">1 = </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">zuhause</p></item><item><num>2 = </num><p>Krankenheim, Pflegeheim</p></item><item><num>3 = </num><p>Altersheim, andere sozialmedizinische Institution</p></item><item><num>4 = </num><p>psychiatrische Klinik, in einem anderen Betrieb</p></item><item><num>44 = </num><p>psychiatrische Abteilung/Klinik, im gleichen Betrieb</p></item><item><num>5 = </num><p>Rehabilitationsklinik, in einem anderen Betrieb</p></item><item><num>55 = </num><p>Rehabilitationsabteilung/<br/></p><p>-klinik, im gleichen Betrieb</p></item><item><num>6 = </num><p>anderes Krankenhaus (Akutspital) oder Geburtshaus</p></item><item><num>66 = </num><p>Akutabteilung/-klinik, im gleichen Betrieb</p></item><item><num>7 = </num><p>Strafvollzugsanstalt</p></item><item><num>8 = </num><p>andere</p></item><item><num>9 = </num><p>unbekannt</p></item><item><num>0 = </num><p>Todesfall</p></item></blockList></td>
+			</tr>
+			<tr>
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Aufenthaltsort nach dem 2. Zwischenaustritt</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">4.8.V18</p>
+				</td>
+				<td><blockList><item><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">1 = </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">zuhause</p></item><item><num>2 = </num><p>Krankenheim, Pflegeheim</p></item><item><num>3 = </num><p>Altersheim, andere sozialmedizinische Institution</p></item><item><num>4 = </num><p>psychiatrische Klinik, in einem anderen Betrieb</p></item><item><num>44 = </num><p>psychiatrische Abteilung/Klinik, im gleichen Betrieb</p></item><item><num>5 = </num><p>Rehabilitationsklinik, in einem anderen Betrieb</p></item><item><num>55 = </num><p>Rehabilitationsabteilung/<br/></p><p>-klinik, im gleichen Betrieb</p></item><item><num>6 = </num><p>anderes Krankenhaus (Akutspital) oder Geburtshaus</p></item><item><num>66 = </num><p>Akutabteilung/-klinik, im gleichen Betrieb</p></item><item><num>7 = </num><p>Strafvollzugsanstalt</p></item><item><num>8 = </num><p>andere</p></item><item><num>9 = </num><p>unbekannt</p></item><item><num>0 = </num><p>Todesfall</p></item></blockList></td>
+			</tr>
+			<tr>
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Aufenthaltsort nach dem 3. Zwischenaustritt</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">4.8.V19</p>
+				</td>
+				<td><blockList><item><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">1 = </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">zuhause</p></item><item><num>2 = </num><p>Krankenheim, Pflegeheim</p></item><item><num>3 = </num><p>Altersheim, andere sozialmedizinische Institution</p></item><item><num>4 = </num><p>psychiatrische Klinik, in einem anderen Betrieb</p></item><item><num>44 = </num><p>psychiatrische Abteilung/Klinik, im gleichen Betrieb</p></item><item><num>5 = </num><p>Rehabilitationsklinik, in einem anderen Betrieb</p></item><item><num>55 = </num><p>Rehabilitationsabteilung/-klinik, im gleichen Betrieb</p></item><item><num>6 = </num><p>anderes Krankenhaus (Akutspital) oder Geburtshaus</p></item><item><num>66 = </num><p>Akutabteilung/-klinik, im gleichen Betrieb</p></item><item><num>7 = </num><p>Strafvollzugsanstalt</p></item><item><num>8 = </num><p>andere</p></item><item><num>9 = </num><p>unbekannt</p></item><item><num>0 = </num><p>Todesfall</p></item></blockList></td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Aufenthaltsort nach dem 4. Zwischenaustritt</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">4.8.V20</p>
+				</td>
+				<td><blockList><item><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">1 = </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">zuhause</p></item><item><num>2 = </num><p>Krankenheim, Pflegeheim</p></item><item><num>3 = </num><p>Altersheim, andere sozialmedizinische Institution </p></item><item><num>4 = </num><p>psychiatrische Klinik, in einem anderen Betrieb</p></item><item><num>44 = </num><p>psychiatrische Abteilung/Klinik, im gleichen Betrieb</p></item><item><num>5 = </num><p>Rehabilitationsklinik, in einem anderen Betrieb</p></item><item><num>55 = </num><p>Rehabilitationsabteilung/<br/></p><p>-klinik, im gleichen Betrieb</p></item><item><num>6 = </num><p>anderes Krankenhaus (Akutspital) oder Geburtshaus</p></item><item><num>66 = </num><p>Akutabteilung/-klinik, im gleichen Betrieb</p></item><item><num>7 = </num><p>Strafvollzugsanstalt</p></item><item><num>8 = </num><p>andere</p></item><item><num>9 = </num><p>unbekannt</p></item><item><num>0 = </num><p>Todesfall</p></item></blockList></td>
+			</tr>
+			<tr>
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Einweisende Instanz</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">1.2.V04</p>
+				</td>
+				<td><blockList><item><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">1 = </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">selbst, Angehörige</p></item><item><num>2 = </num><p>Rettungsdienst (Ambulanz, Polizei)</p></item><item><num>3 = </num><p>Arzt</p></item><item><num>4 = </num><p>nichtmedizinische/r Therapeut/in</p></item><item><num>8 = </num><p>andere</p></item><item><num>9 = </num><p>unbekannt</p></item></blockList></td>
+			</tr>
+			<tr>
+				
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					
+				</td>
+			</tr>
+			<tr>
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Behandlungsart</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">1.3.V01</p>
+				</td>
+				<td><blockList><item><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">1 = </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">ambulant</p></item><item><num>3 = </num><p>stationär</p></item><item><num>9 = </num><p>unbekannt</p></item></blockList></td>
+			</tr>
+			<tr>
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Klasse</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">1.3.V02</p>
+				</td>
+				<td><blockList><item><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">1 = </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">allgemein</p></item><item><num>2 = </num><p>halbprivat</p></item><item><num>3 = </num><p>privat</p></item><item><num>9 = </num><p>unbekannt</p></item></blockList></td>
+			</tr>
+			<tr>
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Geburtsdatum der Mutter</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">2.3.V01</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Datumsangabe (Jahr und Monat)</p>
+				</td>
+			</tr>
+			
+		</table></content></level></level></level></mainBody></doc></component></components></act></akomaNtoso>

@@ -1,0 +1,67 @@
+[
+  {
+    "item_type": "preamble_callback",
+    "acronyms": [
+      {
+        "acronym": "MG",
+        "sr_link": "SR 510.10",
+        "url": "https://fedlex.data.admin.ch/eli/cc/1995/4093_4093_4093"
+      },
+      {
+        "acronym": "AO",
+        "sr_link": "SR 513.1",
+        "url": "https://fedlex.data.admin.ch/eli/cc/2017/217"
+      }
+    ],
+    "description": "Preamble acronyms for reference detection"
+  },
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 510.10",
+    "TARGET_URL": "https://fedlex.data.admin.ch/eli/cc/1995/4093_4093_4093",
+    "SNIPPET": "gestützt auf Artikel 60 Absatz 3 des Militärgesetzes vom 3. Februar 1995 SR 510.10 (MG) und auf die Artikel 4 Absätze 1 und 2 erster Halbsatz sowie 6 Buchstabe c der Armeeorganisation vom 18. März 2016 (AO),",
+    "INSIDE_AUTHORIALNOTE": "SR 510.10",
+    "item_type": "SR_link_detection"
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 513.1",
+    "TARGET_URL": "https://fedlex.data.admin.ch/eli/cc/2017/217",
+    "SNIPPET": "gestützt auf Artikel 60 Absatz 3 des Militärgesetzes vom 3. Februar 1995 (MG) und auf die Artikel 4 Absätze 1 und 2 erster Halbsatz sowie 6 Buchstabe c der Armeeorganisation vom 18. März 2016 SR 513.1 (AO),",
+    "INSIDE_AUTHORIALNOTE": "SR 513.1",
+    "item_type": "SR_link_detection"
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_6",
+    "TARGET_SR": "SR 512.21",
+    "TARGET_URL": "https://fedlex.data.admin.ch/eli/cc/2017/810",
+    "SNIPPET": "Militärdienstpflichtige, bei denen besondere persönliche Verhältnisse gemäss Artikel 33 Absatz 2 der Verordnung vom 22. November 2017 SR 512.21 über die Militärdienstpflicht vorliegen und die deshalb vorübergehend nicht in einer Funktion bei der Truppe eingesetzt werden können;",
+    "INSIDE_AUTHORIALNOTE": "SR 512.21",
+    "item_type": "SR_link_detection"
+  },
+  {
+    "ARTICLE_EID": "art_6",
+    "TARGET_SR": "SR 510.10",
+    "TARGET_URL": "https://fedlex.data.admin.ch/eli/cc/1995/4093_4093_4093",
+    "SNIPPET": "der Armee zugewiesene Personen nach Artikel 6 MG;",
+    "INSIDE_AUTHORIALNOTE": "SR 510.10",
+    "preamble_acronym_name": "MG",
+    "item_type": "preamble_acronym",
+    "ITEM": 4
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_6",
+    "SNIPPET": "a. der Armee zugewiesene Personen nach Artikel 6 MG;",
+    "item_type": "artikel_reference"
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_6",
+    "SNIPPET": "d. Militärdienstpflichtige, bei denen besondere persönliche Verhältnisse gemäss Artikel 33 Absatz 2 der Verordnung vom 22. November 2017 über die Militärdienstpflicht vorliegen und die deshalb vorübergehend nicht in einer Funktion bei der Truppe eingesetzt werden können;",
+    "item_type": "artikel_reference"
+  }
+]

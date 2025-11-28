@@ -1,0 +1,49 @@
+[
+  {
+    "item_type": "preamble_callback",
+    "acronyms": [
+      {
+        "acronym": "EDI",
+        "sr_link": "SR 817.02",
+        "url": "https://fedlex.data.admin.ch/eli/cc/2017/63"
+      },
+      {
+        "acronym": "LGV",
+        "sr_link": "SR 817.02",
+        "url": "https://fedlex.data.admin.ch/eli/cc/2017/63"
+      }
+    ],
+    "description": "Preamble acronyms for reference detection"
+  },
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 817.02",
+    "TARGET_URL": "https://fedlex.data.admin.ch/eli/cc/2017/63",
+    "SNIPPET": "gestützt auf die Artikel 10 Absatz 4 Buchstabe e, 81 Absatz 3 und 95 Absatz 3 der Lebensmittel- und Gebrauchsgegenständeverordnung vom 16. Dezember 2016 SR 817.02 (LGV),",
+    "INSIDE_AUTHORIALNOTE": "SR 817.02",
+    "item_type": "SR_link_detection"
+  },
+  {
+    "ARTICLE_EID": "art_1_a",
+    "TARGET_SR": "SR 817.02",
+    "TARGET_URL": "https://fedlex.data.admin.ch/eli/cc/2017/63",
+    "SNIPPET": "Die in dieser Verordnung festgelegten Richtwerte gelten nicht als Höchstwerte nach Artikel 2 Absatz 2 LGV.",
+    "INSIDE_AUTHORIALNOTE": "SR 817.02",
+    "preamble_acronym_name": "LGV",
+    "item_type": "preamble_acronym",
+    "ITEM": 2
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_1",
+    "SNIPPET": "b. die Ermittlung und die Festlegung der Höchstgehalte für die radioaktive Kontamination von Lebensmitteln nach einem nuklearen Unfall oder einem anderen radiologischen Notfall nach Artikel 2 Absatz 5 der Verordnung (Euratom) 2016/52;",
+    "item_type": "artikel_reference"
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_8_a",
+    "SNIPPET": "Die nach den Artikeln 5a und 5b zu treffenden Massnahmen müssen bis zum 30. Juni 2021 umgesetzt werden.",
+    "item_type": "artikel_reference"
+  }
+]

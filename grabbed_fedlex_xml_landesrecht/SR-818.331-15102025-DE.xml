@@ -1,0 +1,1885 @@
+<?xml version="1.0" encoding="UTF-8"?><akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:fedlex="http://fedlex.admin.ch/"><act name="publicLaw"><meta><identification source="#ch.bk"><FRBRWork><FRBRthis value="https://fedlex.data.admin.ch/eli/cc/2018/290/20251015/main-text"/><FRBRuri value="https://fedlex.data.admin.ch/eli/cc/2018/290/20251015"/><FRBRdate date="2025-10-15" name="jolux:dateApplicability"/><FRBRdate date="2018-04-11" name="jolux:dateDocument"/><FRBRdate date="2018-06-01" name="jolux:dateEntryInForce"/><FRBRauthor href="#ch.bk" as="#publisher"/><FRBRauthor href="#ch.bk" as="#rightsHolder"/><FRBRcountry value="CH"/><FRBRnumber value="818.331"/><FRBRname xml:lang="it" value="Ordinanza dell'11 aprile 2018 sulla registrazione delle malattie tumorali (ORMT)" shortForm="ORMT"/><FRBRname xml:lang="fr" value="Ordonnance du 11 avril 2018 sur l'enregistrement des maladies oncologiques (OEMO)" shortForm="OEMO"/><FRBRname xml:lang="de" value="Verordnung vom 11. April 2018 über die Registrierung von Krebserkrankungen (Krebsregistrierungsverordnung, KRV)" shortForm="KRV"/><FRBRauthoritative value="true"/></FRBRWork><FRBRExpression><FRBRthis value="https://fedlex.data.admin.ch/eli/cc/2018/290/20251015/de/main-text"/><FRBRuri value="https://fedlex.data.admin.ch/eli/cc/2018/290/20251015/de"/><FRBRdate date="2025-10-15" name="jolux:dateApplicability"/><FRBRdate date="2018-04-11" name="jolux:dateDocument"/><FRBRdate date="2018-06-01" name="jolux:dateEntryInForce"/><FRBRauthor href="#ch.bk" as="#publisher"/><FRBRauthor href="#ch.bk" as="#rightsHolder"/><FRBRlanguage language="de"/></FRBRExpression><FRBRManifestation><FRBRthis value="https://fedlex.data.admin.ch/eli/cc/2018/290/20251015/de/xml/main-text"/><FRBRuri value="https://fedlex.data.admin.ch/eli/cc/2018/290/20251015/de/xml"/><FRBRdate date="2025-10-15" name="jolux:dateApplicability"/><FRBRdate date="2018-04-11" name="jolux:dateDocument"/><FRBRdate date="2018-06-01" name="jolux:dateEntryInForce"/><FRBRauthor href="#ch.bk" as="#publisher"/><FRBRauthor href="#ch.bk" as="#rightsHolder"/><FRBRformat value="xml" fedlex:generator="2025-q3-rel-1.8.2"/></FRBRManifestation></identification><references source="#ch.bk"><TLCOrganization eId="ch.bk" href="https://fedlex.data.admin.ch/vocabulary/legal-institution/2" showAs="Bundeskanzlei"/><TLCRole eId="publisher" href="http://data.legilux.public.lu/resource/ontology/jolux#publisher" showAs="Editeur"/><TLCRole eId="rightsHolder" href="http://data.legilux.public.lu/resource/ontology/jolux#rightsHolder" showAs="Détenteur des droits"/><TLCReference name="language" href="http://publications.europa.eu/resource/authority/language/DEU" showAs="de"/><TLCReference name="format" href="https://fedlex.data.admin.ch/vocabulary/user-format/xml" showAs="xml"/></references></meta><preface><p><docNumber>818.331 </docNumber></p><p><docTitle>Verordnung<br/>über die Registrierung von Krebserkrankungen</docTitle></p><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">(Krebsregistrierungsverordnung, KRV)</p><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">vom 11. April 2018 (Stand am 15. Oktober 2025)</p></preface><preamble><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Der Schweizerische Bundesrat,</p><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">gestützt auf das Krebsregistrierungsgesetz vom 18. März 2016<authorialNote>
+		<p> <ref fedlex:rs-uri="https://fedlex.data.admin.ch/eli/cc/2018/289" fedlex:rs="818.33" href="https://fedlex.data.admin.ch/vocabulary/legal-taxonomy/9832">SR <b>818.33</b></ref></p>
+	</authorialNote> (KRG),</p><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">verordnet:</p></preamble><body><section eId="sec_1"><num>1. Abschnitt: </num><heading>Meldung von Krebserkrankungen</heading><article eId="art_1"><num><b>Art. 1</b></num><heading>Basisdaten zu Krebserkrankungen von Erwachsenen</heading><paragraph eId="art_1/para_1"><num>1</num><content><blockList><listIntroduction eId="art_1/para_1/listintro" xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Personen und Institutionen, die eine Krebserkrankung diagnostizieren, melden dem zuständigen kantonalen Krebsregister die folgenden Daten zur Diagnose:</listIntroduction><item eId="art_1/para_1/lbl_a"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">a. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Art der Krebserkrankung: Typ und Eigenschaften des Tumors;</p></item><item eId="art_1/para_1/lbl_b"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">b. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Tumorausbreitung zum Zeitpunkt der Diagnose, Krankheitsstadium und tumorspezifische Prognosefaktoren;</p></item><item eId="art_1/para_1/lbl_c"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">c. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Untersuchungsmethode und Untersuchungsanlass;</p></item><item eId="art_1/para_1/lbl_d"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">d. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Datum der Information der Patientin oder des Patienten (Art. 13);</p></item><item eId="art_1/para_1/lbl_e"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">e. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Auftreten von Metastasen und Rezidiven sowie deren Lokalisation.</p></item></blockList></content></paragraph><paragraph eId="art_1/para_2"><num>2</num><content><blockList><listIntroduction eId="art_1/para_2/listintro" xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Personen und Institutionen, die eine Krebserkrankung behandeln, melden dem zuständigen kantonalen Krebsregister die folgenden Daten zur Erstbehandlung:</listIntroduction><item eId="art_1/para_2/lbl_a"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">a. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Art der Behandlung und Behandlungsziel;</p></item><item eId="art_1/para_2/lbl_b"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">b. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Grundlagen des Behandlungsentscheids;</p></item><item eId="art_1/para_2/lbl_c"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">c. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Behandlungsbeginn.</p></item></blockList></content></paragraph></article><article eId="art_2"><num><b>Art. 2</b></num><heading>Basisdaten zu Krebserkrankungen von Kindern und Jugendlichen</heading><paragraph eId="art_2/para_1"><num>1</num><content><blockList><listIntroduction eId="art_2/para_1/listintro" xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Personen und Institutionen, die eine Krebserkrankung diagnostizieren, melden dem Kinderkrebsregister die folgenden Daten zur Diagnose:</listIntroduction><item eId="art_2/para_1/lbl_a"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">a. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Art der Krebserkrankung: Typ und Eigenschaften des Tumors;</p></item><item eId="art_2/para_1/lbl_b"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">b. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Tumorausbreitung zum Zeitpunkt der Diagnose, Krankheitsstadium und tumorspezifische Prognosefaktoren;</p></item><item eId="art_2/para_1/lbl_c"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">c. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Untersuchungsmethode und Untersuchungsanlass;</p></item><item eId="art_2/para_1/lbl_d"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">d. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Datum der Information der Patientin oder des Patienten (Art. 13);</p></item><item eId="art_2/para_1/lbl_e"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">e. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Auftreten von Metastasen und Rezidiven sowie deren Lokalisation.</p></item></blockList></content></paragraph><paragraph eId="art_2/para_2"><num>2</num><content><blockList><listIntroduction eId="art_2/para_2/listintro" xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Personen und Institutionen, die eine Krebserkrankung behandeln, melden dem Kinderkrebsregister die folgenden Daten zur Erstbehandlung:</listIntroduction><item eId="art_2/para_2/lbl_a"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">a. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Art der Behandlung und Behandlungsziel;</p></item><item eId="art_2/para_2/lbl_b"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">b. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Grundlagen des Behandlungsentscheids;</p></item><item eId="art_2/para_2/lbl_c"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">c. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Behandlungsbeginn.</p></item></blockList></content></paragraph></article><article eId="art_3"><num><b>Art. 3</b></num><heading>Zusatzdaten zu Krebserkrankungen von Erwachsenen</heading><paragraph eId="art_3/para"><content><blockList><listIntroduction eId="art_3/para/listintro" xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Personen und Institutionen, die eine Krebserkrankung behandeln, melden dem zuständigen kantonalen Krebsregister die folgenden Daten:</listIntroduction><item eId="art_3/para/lbl_a"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">a. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Prädispositionen;</p></item><item eId="art_3/para/lbl_b"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">b. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Vor- und Begleiterkrankungen.</p></item></blockList></content></paragraph></article><article eId="art_4"><num><b>Art. 4</b></num><heading>Zusatzdaten zu Krebserkrankungen von Kindern und Jugendlichen</heading><paragraph eId="art_4/para_1"><num>1</num><content><blockList><listIntroduction eId="art_4/para_1/listintro" xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Personen und Institutionen, die eine Krebserkrankung behandeln, melden dem Kinderkrebsregister die folgenden Daten:</listIntroduction><item eId="art_4/para_1/lbl_a"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">a. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Prädispositionen;</p></item><item eId="art_4/para_1/lbl_b"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">b. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Vor- und Begleiterkrankungen;</p></item><item eId="art_4/para_1/lbl_c"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">c. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Ergebnis der Erstbehandlung.</p></item></blockList></content></paragraph><paragraph eId="art_4/para_2"><num>2</num><content><blockList><listIntroduction eId="art_4/para_2/listintro" xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Sie melden dem Kinderkrebsregister zudem zu jeder auf die Erstbehandlung folgenden Behandlung die folgenden Daten:</listIntroduction><item eId="art_4/para_2/lbl_a"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">a. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Art der Behandlung und Behandlungsziel;</p></item><item eId="art_4/para_2/lbl_b"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">b. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Grundlagen des Behandlungsentscheids;</p></item><item eId="art_4/para_2/lbl_c"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">c. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Behandlungsbeginn;</p></item><item eId="art_4/para_2/lbl_d"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">d. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Ergebnis der Behandlung;</p></item><item eId="art_4/para_2/lbl_e"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">e. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Angaben zu Nachsorgeuntersuchungen.</p></item></blockList></content></paragraph></article><article eId="art_5"><num><b>Art. 5</b></num><heading>Festlegung der zu meldenden Krebserkrankungen</heading><paragraph eId="art_5/para_1"><num>1</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Krebserkrankungen, für die Basisdaten oder Zusatzdaten zu melden sind, sind in Anhang 1 festgelegt.</p></content></paragraph><paragraph eId="art_5/para_2"><num>2</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Das Eidgenössische Departement des Innern (EDI) kann Anhang 1 nachführen. Es hört vorgängig die Kantone an.</p></content></paragraph></article><article eId="art_6"><num><b>Art. 6</b></num><heading>Meldefrist und Ausnahme von der Meldepflicht</heading><paragraph eId="art_6/para_1"><num>1</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Die Daten nach den Artikeln 1–4, einschliesslich der Daten nach Artikel 3 Absatz 1 Buchstaben a–e KRG, müssen innerhalb von vier Wochen nach der Erhebung gemeldet werden.</p></content></paragraph><paragraph eId="art_6/para_2"><num>2</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Wer von einem nach Artikel 15 Absatz 2 bestätigten Widerspruch Kenntnis hat, ist von der Meldepflicht befreit und darf die Daten nicht melden.</p></content></paragraph></article><article eId="art_7"><num><b>Art. 7</b></num><heading>Identifikation und Verantwortlichkeit der meldepflichtigen Personen und Institutionen</heading><paragraph eId="art_7/para_1"><num>1</num><content><blockList><listIntroduction eId="art_7/para_1/listintro" xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Meldepflichtige Personen müssen zu ihrer Identifikation zusammen mit der Meldung folgende Angaben übermitteln:</listIntroduction><item eId="art_7/para_1/lbl_a"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">a. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Vorname und Name;</p></item><item eId="art_7/para_1/lbl_b"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">b. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Telefonnummer;</p></item><item eId="art_7/para_1/lbl_c"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">c. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Adresse und E-Mail-Adresse.</p></item></blockList></content></paragraph><paragraph eId="art_7/para_2"><num>2</num><content><blockList><listIntroduction eId="art_7/para_2/listintro" xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Meldepflichtige Institutionen müssen zu ihrer Identifikation zusammen mit der Meldung folgende Angaben übermitteln:</listIntroduction><item eId="art_7/para_2/lbl_a"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">a. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Name der Institution;</p></item><item eId="art_7/para_2/lbl_b"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">b. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Vorname, Name und Funktion der zuständigen Ansprechperson;</p></item><item eId="art_7/para_2/lbl_c"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">c. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Telefonnummer;</p></item><item eId="art_7/para_2/lbl_d"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">d. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Adresse und E-Mail-Adresse.</p></item></blockList></content></paragraph><paragraph eId="art_7/para_3"><num>3</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Die meldepflichtigen Personen und Institutionen sind für die Meldetätigkeit innerhalb ihrer Einrichtung verantwortlich.</p></content></paragraph></article><article eId="art_8"><num><b>Art. 8</b></num><heading>Form der Meldungen</heading><paragraph eId="art_8/para_1"><num>1</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Die Meldungen können elektronisch oder in Papierform erfolgen.</p></content></paragraph><paragraph eId="art_8/para_2"><num>2</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Die meldepflichtigen Personen und Institutionen können den Meldungen Dokumente beilegen, die ausschliesslich Angaben im Zusammenhang mit der Krebserkrankung enthalten.</p></content></paragraph></article><article eId="art_9"><num><b>Art. 9</b></num><heading>Meldungen an das Kinderkrebsregister</heading><paragraph eId="art_9/para"><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Meldungen von Krebserkrankungen von Patientinnen und Patienten, die im Zeitpunkt der Diagnosestellung das 20. Altersjahr noch nicht vollendet haben, sind an das Kinderkrebsregister zu richten.</p></content></paragraph></article></section><section eId="sec_2"><num>2. Abschnitt:</num><heading>Daten zur Feststellung nicht gemeldeter Krebserkrankungen</heading><article eId="art_10"><num><b>Art. 10</b></num><heading>Daten des Bundesamts für Statistik</heading><paragraph eId="art_10/para_1"><num>1</num><content><blockList><listIntroduction eId="art_10/para_1/listintro" xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Das Bundesamt für Statistik (BFS) gibt dem zuständigen Krebsregister jeweils bis 31. Mai die Daten der Personen bekannt:</listIntroduction><item eId="art_10/para_1/lbl_a"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">a. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">die innerhalb des vergangenen Kalenderjahrs verstorben sind; und</p></item><item eId="art_10/para_1/lbl_b"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">b. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">bei denen als Haupt- oder Nebendiagnose eine nach Anhang 1 zu meldende Krebserkrankung erfasst wurde.</p></item></blockList></content></paragraph><paragraph eId="art_10/para_2"><num>2</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Die Daten werden dem kantonalen Krebsregister bekanntgegeben, in dessen Einzugsgebiet die verstorbene Person im Zeitpunkt des Todes Wohnsitz hatte. Daten zu Personen, die im Zeitpunkt des Todes das 20. Altersjahr nicht vollendet haben, werden dem Kinderkrebsregister bekanntgegeben.</p></content></paragraph><paragraph eId="art_10/para_3"><num>3</num><content><blockList><listIntroduction eId="art_10/para_3/listintro" xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Bekanntgegeben werden die folgenden Daten:</listIntroduction><item eId="art_10/para_3/lbl_a"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">a. </num><blockList><listIntroduction eId="art_10/para_3/lbl_a/listintro" xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">zur verstorbenen Person:</listIntroduction><item eId="art_10/para_3/lbl_a/lbl_1"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">1. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Wohnort,</p></item><item eId="art_10/para_3/lbl_a/lbl_2"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">2.<authorialNote>
+		<p> Fassung gemäss Anhang Ziff. II 33 der V vom 17. Nov. 2021, in Kraft seit 1. Jan. 2022  (<ref href="https://fedlex.data.admin.ch/eli/oc/2021/800" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">AS <b>2021</b> 800</ref>).</p>
+	</authorialNote>  </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">AHV-Nummer,</p></item><item eId="art_10/para_3/lbl_a/lbl_3"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">3. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Geschlecht,</p></item><item eId="art_10/para_3/lbl_a/lbl_4"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">4. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Geburtsdatum,</p></item><item eId="art_10/para_3/lbl_a/lbl_5"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">5. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Todesdatum,</p></item><item eId="art_10/para_3/lbl_a/lbl_6"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">6. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Angabe der Haupt- und Nebendiagnosen nach der Internationalen Klassifizierung von Krankheiten der Weltgesundheitsorganisation<authorialNote>
+		<p> Der Text der Klassifizierung kann beim Bundesamt für Gesundheit, 3003 Bern kostenlos eingesehen oder abgerufen werden unter: <ref href="http://www.bag.admin.ch">
+				www.bag.admin.ch
+			</ref> &gt; Themen &gt; Mensch &amp; Gesundheit &gt; Nichtübertragbare Krankheiten &gt; Krebs &gt; Krebsregistrierung, sowie unter: <ref href="http://www.who.int">
+				www.who.int
+			</ref> &gt; Health topics &gt; Classifications of disease.</p>
+	</authorialNote> (ICD),</p></item><item eId="art_10/para_3/lbl_a/lbl_7"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">7. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Todesbescheinigung;</p></item></blockList></item><item eId="art_10/para_3/lbl_b"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">b. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Kontaktdaten der Ärztin oder des Arztes, die oder der den Tod festgestellt hat.</p></item></blockList></content></paragraph></article><article eId="art_11"><num><b>Art. 11</b></num><heading>Daten der Spitäler</heading><paragraph eId="art_11/para_1"><num>1</num><content><blockList><listIntroduction eId="art_11/para_1/listintro" xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Die Spitäler geben dem zuständigen Krebsregister jeweils bis 31. Mai die Daten der Patientinnen und Patienten bekannt:</listIntroduction><item eId="art_11/para_1/lbl_a"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">a. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">die innerhalb des vergangenen Kalenderjahrs stationär behandelt wurden; und</p></item><item eId="art_11/para_1/lbl_b"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">b. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">bei denen als Haupt- oder Nebendiagnose eine nach Anhang 1 zu meldende Krebserkrankung erfasst wurde.</p></item></blockList></content></paragraph><paragraph eId="art_11/para_2"><num>2</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Die Daten werden dem kantonalen Krebsregister bekanntgegeben, in dessen Einzugsgebiet das Spital liegt. Daten zu Patientinnen und Patienten, die im Zeitpunkt des Spitaleintritts das 20. Altersjahr nicht vollendet haben, werden dem Kinderkrebsregister bekanntgegeben.</p></content></paragraph><paragraph eId="art_11/para_3"><num>3</num><content><blockList><listIntroduction eId="art_11/para_3/listintro" xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Bekanntgegeben werden die folgenden Daten:</listIntroduction><item eId="art_11/para_3/lbl_a"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">a. </num><blockList><listIntroduction eId="art_11/para_3/lbl_a/listintro" xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">zur Patientin oder zum Patienten:</listIntroduction><item eId="art_11/para_3/lbl_a/lbl_1"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">1. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Name und Vorname,</p></item><item eId="art_11/para_3/lbl_a/lbl_2"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">2. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Wohnadresse,</p></item><item eId="art_11/para_3/lbl_a/lbl_3"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">3. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">AHV-Nummer<authorialNote>
+		<p> Ausdruck gemäss Anhang Ziff. II 33 der V vom 17. Nov. 2021, in Kraft seit 1. Jan. 2022  (<ref href="https://fedlex.data.admin.ch/eli/oc/2021/800" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">AS <b>2021</b> 800</ref>). Diese Anpassung wurde im ganzen Text vorgenommen.</p>
+	</authorialNote>,</p></item><item eId="art_11/para_3/lbl_a/lbl_4"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">4. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Geschlecht,</p></item><item eId="art_11/para_3/lbl_a/lbl_5"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">5. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Geburtsdatum,</p></item><item eId="art_11/para_3/lbl_a/lbl_6"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">6. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Eintritts- und Austrittsdatum,</p></item><item eId="art_11/para_3/lbl_a/lbl_7"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">7. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Angabe der Haupt- und Nebendiagnosen nach der ICD;</p></item></blockList></item><item eId="art_11/para_3/lbl_b"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">b. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Bezeichnung der Organisationseinheit des Spitals.</p></item></blockList></content></paragraph><paragraph eId="art_11/para_4"><num>4</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Die Spitäler verwenden für die Bekanntgabe dieselben Datenquellen, die sie für die medizinische Statistik der Krankenhäuser nach Anhang 1 der Bundesstatistikverordnung vom 30. April 2025<authorialNote>
+		<p>  <ref fedlex:rs-uri="https://fedlex.data.admin.ch/eli/cc/2025/318" fedlex:rs="431.011" href="https://fedlex.data.admin.ch/vocabulary/legal-taxonomy/6947">SR <b>431.011</b></ref></p>
+	</authorialNote> beigezogen haben.<authorialNote>
+		<p> Fassung gemäss Anhang 3 Ziff. 15 der Bundesstatistikverordnung vom 30. April 2025, in Kraft seit 1. Juni 2025 (<ref href="https://fedlex.data.admin.ch/eli/oc/2025/318" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">AS <b>2025</b> 318</ref>).</p>
+	</authorialNote></p></content></paragraph></article><article eId="art_12"><num><b>Art. 12</b></num><heading>Daten aus Früherkennungsprogrammen</heading><paragraph eId="art_12/para_1"><num>1</num><content><blockList><listIntroduction eId="art_12/para_1/listintro" xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Die für die Durchführung von Früherkennungsprogrammen zuständigen Organisationen geben dem zuständigen Krebsregister jeweils bis 31. Mai die Daten zu Personen bekannt: </listIntroduction><item eId="art_12/para_1/lbl_a"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">a. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">die innerhalb des vergangenen Kalenderjahrs an einem Früherkennungsprogramm teilgenommen haben; und</p></item><item eId="art_12/para_1/lbl_b"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">b. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">bei denen als Haupt- oder Nebendiagnose eine nach Anhang 1 zu meldende Krebserkrankung erfasst wurde.</p></item></blockList></content></paragraph><paragraph eId="art_12/para_2"><num>2</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Die Daten werden dem kantonalen Krebsregister bekanntgegeben, in dessen Einzugsgebiet das Früherkennungsprogramm durchgeführt wird.</p></content></paragraph><paragraph eId="art_12/para_3"><num>3</num><content><blockList><listIntroduction eId="art_12/para_3/listintro" xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Bekanntgegeben werden die folgenden Daten:</listIntroduction><item eId="art_12/para_3/lbl_a"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">a. </num><blockList><listIntroduction eId="art_12/para_3/lbl_a/listintro" xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">zur teilnehmenden Person:</listIntroduction><item eId="art_12/para_3/lbl_a/lbl_1"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">1. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Name und Vorname,</p></item><item eId="art_12/para_3/lbl_a/lbl_2"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">2. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Wohnadresse,</p></item><item eId="art_12/para_3/lbl_a/lbl_3"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">3. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">AHV-Nummer,</p></item><item eId="art_12/para_3/lbl_a/lbl_4"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">4. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Geschlecht,</p></item><item eId="art_12/para_3/lbl_a/lbl_5"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">5. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Geburtsdatum,</p></item><item eId="art_12/para_3/lbl_a/lbl_6"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">6. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Angabe der Haupt- und Nebendiagnosen nach der ICD;</p></item></blockList></item><item eId="art_12/para_3/lbl_b"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">b. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">sofern vorhanden: Kontaktdaten der behandelnden Ärztin oder des behandelnden Arztes.</p></item></blockList></content></paragraph></article></section><section eId="sec_3"><num>3. Abschnitt: </num><heading>Rechte der Patientin oder des Patienten</heading><article eId="art_13"><num><b>Art. 13</b></num><heading>Information der Patientin oder des Patienten</heading><paragraph eId="art_13/para_1"><num>1</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Die Ärztin oder der Arzt, die oder der die Diagnose eröffnet, ist für die Information der Patientin oder des Patienten und die Dokumentation, dass die Information erfolgt ist, verantwortlich.</p></content></paragraph><paragraph eId="art_13/para_2"><num>2</num><content><blockList><listIntroduction eId="art_13/para_2/listintro" xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Die Patientin oder der Patient ist mündlich zu informieren über:</listIntroduction><item eId="art_13/para_2/lbl_a"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">a. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">die Meldung von Daten an das zuständige Krebsregister;</p></item><item eId="art_13/para_2/lbl_b"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">b. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">das Recht, gegen die Registrierung der Daten jederzeit und ohne Begründung Widerspruch erheben zu können.</p></item></blockList></content></paragraph><paragraph eId="art_13/para_3"><num>3</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Zudem wird ihr oder ihm die von der nationalen Krebsregistrierungsstelle oder vom Kinderkrebsregister zur Verfügung gestellte schriftliche Patienteninformation abgegeben.</p></content></paragraph><paragraph eId="art_13/para_4"><num>4</num><content><blockList><listIntroduction eId="art_13/para_4/listintro" xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Die Patientin oder der Patient ist mit der schriftlichen Patienteninformation zusätzlich zu den Inhalten nach Artikel 5 KRG und nach Absatz 2 zu informieren über:</listIntroduction><item eId="art_13/para_4/lbl_a"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">a. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">den Zweck der Registrierung;</p></item><item eId="art_13/para_4/lbl_b"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">b. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">das Vorgehen zur Ergänzung und Aktualisierung der Daten;</p></item><item eId="art_13/para_4/lbl_c"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">c. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">die Zuständigkeit für die Datenbearbeitung;</p></item><item eId="art_13/para_4/lbl_d"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">d. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">die Karenzfrist nach Artikel 17 Absatz 1;</p></item><item eId="art_13/para_4/lbl_e"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">e. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">die Anonymisierung oder Vernichtung der Daten im Fall eines Widerspruchs;</p></item><item eId="art_13/para_4/lbl_f"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">f. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">den Anspruch der Patientin oder des Patienten auf Unterstützung durch die nationale Krebsregistrierungsstelle bei der Ausübung der Rechte hinsichtlich des Datenschutzes und des Widerspruchs;</p></item><item eId="art_13/para_4/lbl_g"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">g. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">die Möglichkeit, den Widerspruch zu widerrufen;</p></item><item eId="art_13/para_4/lbl_h"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">h. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">die Möglichkeit, dass die Krebsregister von den meldepflichtigen Personen und Institutionen Dokumente mit Daten erhalten, die für die Registrierung nicht benötigt werden, und den Zeitpunkt, bis wann diese Dokumente vernichtet werden müssen.</p></item></blockList></content></paragraph></article><article eId="art_14"><num><b>Art. 14</b></num><heading>Erhebung des Widerspruchs</heading><paragraph eId="art_14/para_1"><num>1</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Widerspruch kann bei jedem kantonalen Krebsregister oder beim Kinderkrebsregister schriftlich erhoben werden.</p></content></paragraph><paragraph eId="art_14/para_2"><num>2</num><content><blockList><listIntroduction eId="art_14/para_2/listintro" xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Der Widerspruch muss folgende Angaben der widersprechenden Person enthalten:</listIntroduction><item eId="art_14/para_2/lbl_a"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">a. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Name und Vorname;</p></item><item eId="art_14/para_2/lbl_b"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">b. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Adresse;</p></item><item eId="art_14/para_2/lbl_c"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">c. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Geburtsdatum;</p></item><item eId="art_14/para_2/lbl_d"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">d. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">AHV-Nummer;</p></item><item eId="art_14/para_2/lbl_e"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">e. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Datum und Unterschrift.</p></item></blockList></content></paragraph></article><article eId="art_15"><num><b>Art. 15</b></num><heading>Umsetzung des Widerspruchs</heading><paragraph eId="art_15/para_1"><num>1</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Das Register, bei dem der Widerspruch eingereicht wurde, trägt diesen nach der Verifikation der AHV-Nummer (Art. 17 Abs. 2 Bst. a) über den Pseudonymisierungsdienst im Informationssystem nach Artikel 26 ein.</p></content></paragraph><paragraph eId="art_15/para_2"><num>2</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Es bestätigt der Widerspruch erhebenden Person schriftlich, dass der Widerspruch erfasst wurde, und vernichtet die Daten nach Artikel 14 Absatz 2. </p></content></paragraph><paragraph eId="art_15/para_3"><num>3</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Erhält ein kantonales Krebsregister, das Kinderkrebsregister, die nationale Krebsregistrierungsstelle oder das BFS von einem Widerspruch Kenntnis, so vernichtet es oder sie noch nicht registrierte Daten und anonymisiert bereits registrierte Daten unverzüglich.</p></content></paragraph><paragraph eId="art_15/para_4"><num>4</num><content><blockList><listIntroduction eId="art_15/para_4/listintro" xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Die kantonalen Krebsregister und das Kinderkrebsregister leiten zur statistischen Auswertung folgende Daten der Widerspruch erhebenden Personen in anonymisierter Form an die nationale Krebsregistrierungsstelle weiter:</listIntroduction><item eId="art_15/para_4/lbl_a"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">a. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Alter in Jahren;</p></item><item eId="art_15/para_4/lbl_b"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">b. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Geschlecht;</p></item><item eId="art_15/para_4/lbl_c"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">c. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Wohnort;</p></item><item eId="art_15/para_4/lbl_d"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">d. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">allfällige Begründung des Widerspruchs.</p></item></blockList></content></paragraph></article><article eId="art_16"><num><b>Art. 16</b></num><heading>Widerruf des Widerspruchs</heading><paragraph eId="art_16/para_1"><num>1</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Wer Widerspruch erhoben hat, kann diesen jederzeit widerrufen.</p></content></paragraph><paragraph eId="art_16/para_2"><num>2</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Für den Widerruf des Widerspruchs gelten die Artikel 14 und 15 Absatz 1 sinngemäss.</p></content></paragraph><paragraph eId="art_16/para_3"><num>3</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Das zuständige Register kann die meldepflichtigen Personen und Institutionen auffordern, die Daten der Patientin oder des Patienten erneut zu melden.</p></content></paragraph></article></section><section eId="sec_4"><num>4. Abschnitt: </num><heading>Registrierung der Daten</heading><article eId="art_17"><num><b>Art. 17</b></num><heading>Karenzfrist</heading><paragraph eId="art_17/para_1"><num>1</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Die kantonalen Krebsregister und das Kinderkrebsregister können die eingehenden Daten zu einer Patientin oder einem Patienten, von der oder dem sie bisher keine Daten registriert haben, registrieren, sofern die Patientin oder der Patient innerhalb von drei Monaten nach Eingang der ersten Meldung einer Krebserkrankung nicht Widerspruch erhoben hat.<authorialNote>
+		<p> Fassung gemäss Ziff. I der V vom 17. Nov. 2021, in Kraft seit 1. Jan. 2022  (<ref href="https://fedlex.data.admin.ch/eli/oc/2021/722" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">AS <b>2021</b> 722</ref>).</p>
+	</authorialNote></p></content></paragraph><paragraph eId="art_17/para_2"><num>2</num><content><blockList><listIntroduction eId="art_17/para_2/listintro" xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Bis zum Ablauf der Karenzfrist können folgende Bearbeitungsschritte vorgenommen werden:</listIntroduction><item eId="art_17/para_2/lbl_a"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">a. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Verifikation der AHV-Nummer durch einen Abgleich mit den Daten der zentralen Ausgleichsstelle (ZAS);</p></item><item eId="art_17/para_2/lbl_b"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">b. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Prüfung, ob bereits Daten registriert worden sind;</p></item><item eId="art_17/para_2/lbl_c"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">c. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">bei Unzuständigkeit: Übermittlung der Daten an ein anderes kantonales Krebsregister oder an das Kinderkrebsregister.</p></item></blockList></content></paragraph></article><article eId="art_18"><num><b>Art. 18</b></num><heading>Voraussetzungen für die Registrierung</heading><paragraph eId="art_18/para_1"><num>1</num><content><blockList><listIntroduction eId="art_18/para_1/listintro" xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Die kantonalen Krebsregister und das Kinderkrebsregister sorgen für die Richtigkeit der Registrierung, indem sie:</listIntroduction><item eId="art_18/para_1/lbl_a"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">a. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">durch einen Abgleich mit den Daten der ZAS die AHV-Nummer nach den Richtlinien der ZAS verifizieren;</p></item><item eId="art_18/para_1/lbl_b"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">b. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">durch eine Abfrage des Informationssystems nach Artikel 26 eine Mehrfachregistrierung ausschliessen;</p></item><item eId="art_18/para_1/lbl_c"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">c. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">eine zweifelhafte Zuständigkeit mit den anderen Krebsregistern oder mit dem Kinderkrebsregister unverzüglich klären;</p></item><item eId="art_18/para_1/lbl_d"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">d. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">vor der Zuweisung der Fallnummer überprüfen, ob die Patientin oder der Patient Widerspruch erhoben hat.</p></item></blockList></content></paragraph><paragraph eId="art_18/para_2"><num>2</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Die kantonalen Krebsregister überprüfen zudem vor der Zuweisung der Fallnummer ihre Zuständigkeit durch einen Abgleich mit den Daten der kantonalen und kommunalen Einwohnerregister.</p></content></paragraph><paragraph eId="art_18/para_3"><num>3</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Die Kantone sorgen dafür, dass die kantonalen Krebsregister ihre Daten so abgleichen können, dass für die Einwohnerregister keine Rückschlüsse auf die Krebserkrankung einer bestimmten Person möglich sind.</p></content></paragraph></article></section><section eId="sec_5"><num>5. Abschnitt: </num><heading>Bekanntgabe von Daten unter den Vollzugsstellen</heading><article eId="art_19"><num><b>Art. 19</b></num><heading>Datenaustausch zwischen den kantonalen Krebsregistern und dem Kinderkrebsregister</heading><paragraph eId="art_19/para_1"><num>1</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Auf Anfrage des Kinderkrebsregisters ergänzen und aktualisieren die kantonalen Krebsregister nach Artikel 9 Absatz 2 KRG die Daten von Patientinnen und Patienten, die im Zeitpunkt der Diagnose das 20. Altersjahr nicht vollendet haben, und leiten diese spätestens einen Monat nach der Anfrage an das Kinderkrebsregister weiter.</p></content></paragraph><paragraph eId="art_19/para_2"><num>2</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Das Kinderkrebsregister leitet jeweils bis 31. Juli die im Vorjahr registrierten, aktualisierten oder ergänzten Basisdaten und die Fallnummern an das zuständige kantonale Krebsregister weiter.</p></content></paragraph></article><article eId="art_20"><num><b>Art. 20</b></num><heading>Bekanntgabe der Todesursachen durch das BFS</heading><paragraph eId="art_20/para_1"><num>1</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Die kantonalen Krebsregister und das Kinderkrebsregister geben dem BFS jeweils bis Ende Februar die AHV-Nummern der im Vorjahr verstorbenen Patientinnen und Patienten bekannt.</p></content></paragraph><paragraph eId="art_20/para_2"><num>2</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Das BFS gibt dem zuständigen kantonalen Krebsregister und dem Kinderkrebsregister jeweils bis 31. Mai die AHV-Nummern sowie die Todesursachen, einschliesslich Haupt- und Nebendiagnosen, der im Vorjahr verstorbenen Patientinnen und Patienten bekannt. Es legt die Todesbescheinigung bei.</p></content></paragraph></article><article eId="art_21"><num><b>Art. 21</b></num><heading>Weiterleitung der Daten an die nationale Krebsregistrierungsstelle und Berichtigungen</heading><paragraph eId="art_21/para_1"><num>1</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Die kantonalen Krebsregister leiten jeweils bis 1. Dezember die im Vorjahr registrierten, aktualisierten und ergänzten Daten nach Artikel 12 KRG an die nationale Krebsregistrierungsstelle weiter.</p></content></paragraph><paragraph eId="art_21/para_2"><num>2</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Die nationale Krebsregistrierungsstelle informiert die kantonalen Krebsregister spätestens sechs Wochen nach dem Eingang der Daten über allfällige Mängel.</p></content></paragraph><paragraph eId="art_21/para_3"><num>3</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Die kantonalen Krebsregister leiten die berichtigten Daten spätestens sechs Wochen nach der Bemängelung an die nationale Krebsregistrierungsstelle weiter.</p></content></paragraph></article><article eId="art_22"><num><b>Art. 22</b></num><heading>Weiterleitung der Daten an das BFS</heading><paragraph eId="art_22/para"><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Die nationale Krebsregistrierungsstelle leitet die für statistische Auswertungen aufbereiteten Basisdaten mit den Fallnummern jeweils bis 31. März des zweiten Jahres nach der Erhebung an das BFS weiter.</p></content></paragraph></article></section><section eId="sec_6"><num>6. Abschnitt: </num><heading>Pseudonymisierung der AHV-Nummer</heading><article eId="art_23"><num><b>Art. 23</b></num><paragraph eId="art_23/para_1"><num>1</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Für jede AHV-Nummer wird mit einer Einwegverschlüsselung stets das gleiche Pseudonym erstellt.</p></content></paragraph><paragraph eId="art_23/para_2"><num>2</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Die AHV-Nummer darf in Verbindung mit der pseudonymisierten AHV-Nummer nur vom Pseudonymisierungsdienst bearbeitet werden.</p></content></paragraph></article></section><section eId="sec_7"><num>7. Abschnitt: </num><heading>Nationale Krebsregistrierungsstelle</heading><article eId="art_24"><num><b>Art. 24</b></num><heading>Vorgaben für die Registrierung der Basisdaten</heading><paragraph eId="art_24/para_1"><num>1</num><content><blockList><listIntroduction eId="art_24/para_1/listintro" xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Die nationale Krebsregistrierungsstelle stellt bei der Festlegung der Struktur der Basisdaten und der Kodierungsstandards Folgendes sicher:</listIntroduction><item eId="art_24/para_1/lbl_a"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">a. </num><blockList><listIntroduction eId="art_24/para_1/lbl_a/listintro" xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Es sind jährlich statistische Auswertungen möglich zu:</listIntroduction><item eId="art_24/para_1/lbl_a/lbl_1"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">1. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Erkrankungshäufigkeit,</p></item><item eId="art_24/para_1/lbl_a/lbl_2"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">2. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Krankheitsverlauf,</p></item><item eId="art_24/para_1/lbl_a/lbl_3"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">3. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Sterblichkeit,</p></item><item eId="art_24/para_1/lbl_a/lbl_4"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">4. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Überlebensrate,</p></item><item eId="art_24/para_1/lbl_a/lbl_5"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">5. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Art und Ziel der Erstbehandlung.</p></item></blockList></item><item eId="art_24/para_1/lbl_b"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">b. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Die Auswertungen können nach Alter, Geschlecht, Region und Stadium bei der Diagnosestellung gegliedert werden.</p></item><item eId="art_24/para_1/lbl_c"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">c. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Die gute epidemiologische und statistische Praxis ist gewährleistet.</p></item><item eId="art_24/para_1/lbl_d"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">d. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Die internationale Vergleichbarkeit der Daten ist gewährleistet.</p></item></blockList></content></paragraph><paragraph eId="art_24/para_2"><num>2</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Sie bezieht bei der Festlegung der Datenstruktur das BFS, die Kantone, die kantonalen Krebsregister, das Kinderkrebsregister und die medizinischen Fachgesellschaften mit ein.</p></content></paragraph></article><article eId="art_25"><num><b>Art. 25</b></num><heading>Vorgaben für die Registrierung der Zusatzdaten</heading><paragraph eId="art_25/para_1"><num>1</num><content><blockList><listIntroduction eId="art_25/para_1/listintro" xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Die nationale Krebsregistrierungsstelle stellt bei der Festlegung der Struktur der Zusatzdaten und der Kodierungsstandards sicher, dass im Rahmen der regelmässigen Gesundheitsberichterstattung nach Artikel 16 KRG, bezogen auf die jeweilige Krebserkrankung, zu folgenden Themenbereichen aktuelle Informationen publiziert werden können:</listIntroduction><item eId="art_25/para_1/lbl_a"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">a. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Versorgungs-, Diagnose- und Behandlungsqualität;</p></item><item eId="art_25/para_1/lbl_b"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">b. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Wirksamkeit ausgewählter Präventions- und Früherkennungsmassnahmen.</p></item></blockList></content></paragraph><paragraph eId="art_25/para_2"><num>2</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Sie berücksichtigt dabei aktuelle gesundheitspolitische Fragestellungen.</p></content></paragraph><paragraph eId="art_25/para_3"><num>3</num><content><blockList><listIntroduction eId="art_25/para_3/listintro" xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Sie stellt Folgendes sicher:</listIntroduction><item eId="art_25/para_3/lbl_a"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">a. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Die Auswertungen können nach Alter, Geschlecht, Region und Stadium bei der Diagnosestellung gegliedert werden.</p></item><item eId="art_25/para_3/lbl_b"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">b. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Die gute epidemiologische und statistische Praxis ist gewährleistet.</p></item><item eId="art_25/para_3/lbl_c"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">c. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Die besonderen Anforderungen an die Registrierung von Krebserkrankungen von Kindern und Jugendlichen werden berücksichtigt.</p></item><item eId="art_25/para_3/lbl_d"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">d. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Die internationale Vergleichbarkeit der Daten ist gewährleistet.</p></item></blockList></content></paragraph><paragraph eId="art_25/para_4"><num>4</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Sie bezieht bei der Festlegung der Datenstruktur das Bundesamt für Gesundheit (BAG), die Kantone, die kantonalen Krebsregister, das Kinderkrebsregister und die medizinischen Fachgesellschaften mit ein.</p></content></paragraph></article><article eId="art_26"><num><b>Art. 26</b></num><heading>Informationssystem</heading><paragraph eId="art_26/para_1"><num>1</num><content><blockList><listIntroduction eId="art_26/para_1/listintro" xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Die nationale Krebsregistrierungsstelle betreibt ein Informationssystem, um:</listIntroduction><item eId="art_26/para_1/lbl_a"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">a. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">die Einhaltung der Widersprüche zu gewährleisten;</p></item><item eId="art_26/para_1/lbl_b"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">b. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Mehrfachregistrierungen auszuschliessen.</p></item></blockList></content></paragraph><paragraph eId="art_26/para_2"><num>2</num><content><blockList><listIntroduction eId="art_26/para_2/listintro" xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Das Informationssystem enthält folgende Daten:</listIntroduction><item eId="art_26/para_2/lbl_a"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">a. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">pseudonymisierte AHV-Nummern;</p></item><item eId="art_26/para_2/lbl_b"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">b. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Fallnummern;</p></item><item eId="art_26/para_2/lbl_c"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">c. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Widerspruchstatus.</p></item></blockList></content></paragraph><paragraph eId="art_26/para_3"><num>3</num><content><blockList><listIntroduction eId="art_26/para_3/listintro" xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Die kantonalen Krebsregister und das Kinderkrebsregister tragen die Daten nach Absatz 2 über den Pseudonymisierungsdienst im Informationssystem ein, sobald:</listIntroduction><item eId="art_26/para_3/lbl_a"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">a. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">ihre Zuständigkeit verifiziert ist; oder</p></item><item eId="art_26/para_3/lbl_b"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">b. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">eine Patientin oder ein Patient Widerspruch erhoben oder den Widerspruch widerrufen hat.</p></item></blockList></content></paragraph><paragraph eId="art_26/para_4"><num>4</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Die nationale Krebsregistrierungsstelle ermöglicht den kantonalen Krebsregistern und dem Kinderkrebsregister den Zugriff auf das Informationssystem im Abrufverfahren.</p></content></paragraph><paragraph eId="art_26/para_5"><num>5</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Stellt sie fest, dass ein kantonales Krebsregister, das Kinderkrebsregister oder das BFS Daten einer Person bearbeiten, die Widerspruch erhoben hat, oder dass mehrere Krebsregister Daten derselben Person bearbeiten, so informiert sie die bearbeitenden Stellen.</p></content></paragraph></article><article eId="art_27"><num><b>Art. 27</b></num><heading>Weitere Aufgaben</heading><paragraph eId="art_27/para"><content><blockList><listIntroduction eId="art_27/para/listintro" xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Die nationale Krebsregistrierungsstelle nimmt insbesondere folgende weitere Aufgaben wahr:</listIntroduction><item eId="art_27/para/lbl_a"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">a. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Sie wertet die eingegangenen Widersprüche unter der Verwendung der Angaben nach Artikel 15 Absatz 4 statistisch aus.</p></item><item eId="art_27/para/lbl_b"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">b. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Sie trifft die erforderlichen Massnahmen zur Sicherstellung der Datenqualität. Sie kann insbesondere Ringversuche unter den kantonalen Krebsregistern durchführen. Die Ergebnisse werden den beteiligten Stellen bekanntgegeben.</p></item><item eId="art_27/para/lbl_c"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">c. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Sie stellt den kantonalen Krebsregistern die für die Registrierung erforderliche Software zur Verfügung.</p></item></blockList></content></paragraph></article></section><section eId="sec_8"><num>8. Abschnitt: </num><heading>Massnahmen zur Gewährleistung der Datensicherheit</heading><article eId="art_28"><num><b>Art. 28</b></num><heading>Anforderungen an den Datenaustausch</heading><paragraph eId="art_28/para_1"><num>1</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Der Datenaustausch zwischen den meldepflichtigen Personen und Institutionen und dem zuständigen Krebsregister und dem Kinderkrebsregister erfolgt verschlüsselt.</p></content></paragraph><paragraph eId="art_28/para_2"><num>2</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Der Datenaustausch mit dem Pseudonymisierungsdienst erfolgt verschlüsselt nach den Richtlinien der ZAS.</p></content></paragraph><paragraph eId="art_28/para_3"><num>3</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Der Datenaustausch mit dem Informationssystem erfolgt verschlüsselt nach den Richtlinien der nationalen Krebsregistrierungsstelle.</p></content></paragraph><paragraph eId="art_28/para_4"><num>4</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Die Krebsregister, das Kinderkrebsregister, die nationale Krebsregistrierungsstelle und das BFS sorgen für einen sicheren Datenaustausch.</p></content></paragraph><paragraph eId="art_28/para_5"><num>5</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Der Datenaustausch innerhalb eines Kantons kann über dafür eingerichtete Systeme der Kantone und Gemeinden erfolgen.</p></content></paragraph></article><article eId="art_29"><num><b>Art. 29</b></num><heading>Datenträger</heading><paragraph eId="art_29/para_1"><num>1</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Die kantonalen Krebsregister, das Kinderkrebsregister und die nationale Krebsregistrierungsstelle schützen ihre Datenträger durch Verschlüsselung und Zugriffskontrolle vor unerlaubtem Zugriff. Bei der Wahl der Verschlüsselung ist der Aufbewahrungsdauer der Daten Rechnung zu tragen.</p></content></paragraph><paragraph eId="art_29/para_2"><num>2</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Die Datenträger müssen dem Schweizer Recht unterstehen.</p></content></paragraph></article><article eId="art_30"><num><b>Art. 30</b></num><heading>Anonymisierung</heading><paragraph eId="art_30/para_1"><num>1</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Zur Anonymisierung gesundheitsbezogener Personendaten müssen alle Angaben, die für sich allein oder in ihrer Kombination die Wiederherstellung des Bezugs zu einer Person ohne unverhältnismässigen Aufwand erlauben, irreversibel unkenntlich gemacht oder gelöscht werden.</p></content></paragraph><paragraph eId="art_30/para_2"><num>2</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Insbesondere unkenntlich gemacht oder gelöscht werden müssen Name, Wohnadresse und eindeutig kennzeichnende Identifikationsnummern. Das Geburts- und das Todesdatum dürfen nur Monat und Jahr umfassen.</p></content></paragraph><paragraph eId="art_30/para_3_4"><num>3 und <sup>4</sup></num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> …<authorialNote>
+		<p> Aufgehoben durch Ziff. I der V vom 17. Nov. 2021, mit Wirkung seit 1. Jan. 2022  (<ref href="https://fedlex.data.admin.ch/eli/oc/2021/722" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">AS <b>2021</b> 722</ref>).</p>
+	</authorialNote></p></content></paragraph></article></section><section eId="sec_9"><num>9. Abschnitt: </num><heading>Förderung der Registrierung anderer Krankheiten</heading><article eId="art_31"><num><b>Art. 31</b></num><heading>Beitragsarten</heading><paragraph eId="art_31/para_1"><num>1</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Das BAG kann für den Betrieb eines Registers, das Daten über andere stark verbreitete oder bösartige nicht übertragbare Krankheiten als Krebs enthält, einen Beitrag von höchstens 250 000 Franken pro Jahr gewähren.</p></content></paragraph><paragraph eId="art_31/para_2"><num>2</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Es kann für die Weiterentwicklung eines Registers einen einmaligen Beitrag von höchstens 100 000 Franken gewähren.</p></content></paragraph></article><article eId="art_32"><num><b>Art. 32</b></num><heading>Angaben zum Gesuch</heading><paragraph eId="art_32/para_1"><num>1</num><content><blockList><listIntroduction eId="art_32/para_1/listintro" xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Das Gesuch um Finanzhilfe muss folgende Angaben enthalten:</listIntroduction><item eId="art_32/para_1/lbl_a"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">a. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">eine wissenschaftliche Beschreibung der Krankheit, zu der das Register Daten bearbeitet, sowie Informationen über die Verbreitung der Krankheit;</p></item><item eId="art_32/para_1/lbl_b"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">b. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">den Nachweis, dass das Register einem oder mehreren Zwecken nach Artikel 2 KRG dient;</p></item><item eId="art_32/para_1/lbl_c"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">c. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">ein detailliertes Budget und ein Finanzierungskonzept für den Betrieb des Registers;</p></item><item eId="art_32/para_1/lbl_d"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">d. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Bestätigungen über Finanzierungsbeiträge von Kantonen oder Dritten;</p></item><item eId="art_32/para_1/lbl_e"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">e. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">den Nachweis, dass die Datenqualität des Registers nach dem Stand von Wissenschaft und Technik sichergestellt wird;</p></item><item eId="art_32/para_1/lbl_f"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">f. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">den Nachweis, dass die bearbeiteten Daten nach den massgebenden rechtlichen Bestimmungen erhoben wurden;</p></item><item eId="art_32/para_1/lbl_g"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">g. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">den Nachweis, dass die bearbeiteten Daten gesamtschweizerische Auswertungen oder Hochrechnungen erlauben und für die Gesundheitsberichterstattung von Bedeutung sind.</p></item></blockList></content></paragraph><paragraph eId="art_32/para_2"><num>2</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Ist das Register zur Erfassung von Daten zu seltenen bösartigen Krankheiten vorgesehen, so ist zusätzlich nachzuweisen, dass die registrierten Daten international vergleichbar sind.</p></content></paragraph><paragraph eId="art_32/para_3"><num>3</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Das BAG kann zusätzliche Informationen verlangen.</p></content></paragraph></article><article eId="art_33"><num><b>Art. 33</b></num><heading>Fachliche Stellungnahmen</heading><paragraph eId="art_33/para"><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Das BAG kann fachliche Stellungnahmen zur Bedeutung der Daten des Registers für die Gesundheitsberichterstattung sowie zur Einschätzung, in welchem Mass das Register den Zwecken nach Artikel 2 KRG dient, einholen.</p></content></paragraph></article><article eId="art_34"><num><b>Art. 34</b></num><heading>Beitragsbemessung und Rechnungsführung</heading><paragraph eId="art_34/para_1"><num>1</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Der Beitrag beträgt höchstens 50 Prozent der ausgewiesenen Betriebskosten oder der vorgesehenen Weiterentwicklungskosten.</p></content></paragraph><paragraph eId="art_34/para_2"><num>2</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Der Empfänger von Finanzhilfen führt für das Register eine eigene Rechnung, die alle Personal- und Sachkosten des Registers berücksichtigt.</p></content></paragraph></article><article eId="art_35"><num><b>Art. 35</b></num><heading>Subventionsverfügung</heading><paragraph eId="art_35/para_1"><num>1</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Das BAG schliesst das Verfahren mit einer Verfügung ab.</p></content></paragraph><paragraph eId="art_35/para_2"><num>2</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> …<authorialNote>
+		<p> Aufgehoben durch Ziff. I der V vom 12. Sept. 2025, mit Wirkung seit 15. Okt. 2025  (<ref href="https://fedlex.data.admin.ch/eli/oc/2025/567" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">AS <b>2025</b> 567</ref>).</p>
+	</authorialNote></p></content></paragraph></article></section><section eId="sec_10"><num>10. Abschnitt: </num><heading>Übertragung von Aufgaben</heading><article eId="art_36"><num><b>Art. 36</b></num><heading>Auswahlverfahren</heading><paragraph eId="art_36/para_1"><num>1</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Das EDI überträgt die Aufgaben der nationalen Krebsregistrierungsstelle und des Kinderkrebsregisters an Personen oder Organisationen ausserhalb der Bundesverwaltung.</p></content></paragraph><paragraph eId="art_36/para_2"><num>2</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Es sorgt für ein objektives, transparentes und unparteiisches Auswahlverfahren.</p></content></paragraph><paragraph eId="art_36/para_3"><num>3</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Die Möglichkeit, am Auswahlverfahren teilzunehmen, wird im Bundesblatt veröffentlicht.</p></content></paragraph><paragraph eId="art_36/para_4"><num>4</num><content><blockList><listIntroduction eId="art_36/para_4/listintro" xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Die Unterlagen für die interessierten Personen und Organisationen enthalten insbesondere:</listIntroduction><item eId="art_36/para_4/lbl_a"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">a. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">die Kriterien, aufgrund deren die betreffende Person oder Organisation ihre Leistungsfähigkeit nachzuweisen hat;</p></item><item eId="art_36/para_4/lbl_b"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">b. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">die erforderlichen technischen Spezifikationen für die Infrastruktur;</p></item><item eId="art_36/para_4/lbl_c"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">c. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">die Bewertungskriterien.</p></item></blockList></content></paragraph><paragraph eId="art_36/para_5"><num>5</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Das Auswahlverfahren wird mit einer Verfügung an alle am Verfahren Beteiligten abgeschlossen.</p></content></paragraph></article><article eId="art_37"><num><b>Art. 37</b></num><heading>Bewertung und Form der Übertragung</heading><paragraph eId="art_37/para_1"><num>1</num><content><blockList><listIntroduction eId="art_37/para_1/listintro" xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Beim Entscheid über die Übertragung berücksichtigt das EDI insbesondere die folgenden Kriterien:</listIntroduction><item eId="art_37/para_1/lbl_a"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">a. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">die Leistungsfähigkeit der interessierten Person oder Organisation;</p></item><item eId="art_37/para_1/lbl_b"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">b. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">die zugesicherte Gewährleistung der Vorgaben im Bereich Datenschutz und Datensicherheit sowie der technischen Spezifikationen;</p></item><item eId="art_37/para_1/lbl_c"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">c. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">den wirtschaftlichen Umgang mit den zur Verfügung stehenden Mitteln;</p></item><item eId="art_37/para_1/lbl_d"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">d. </num><blockList><listIntroduction eId="art_37/para_1/lbl_d/listintro" xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">das Fachwissen in den folgenden Bereichen:</listIntroduction><item eId="art_37/para_1/lbl_d/lbl_1"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">1. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Epidemiologie und Statistik,</p></item><item eId="art_37/para_1/lbl_d/lbl_2"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">2. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">medizinische Onkologie,</p></item><item eId="art_37/para_1/lbl_d/lbl_3"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">3. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Informationstechnologie,</p></item><item eId="art_37/para_1/lbl_d/lbl_4"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">4. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Registerführung;</p></item></blockList></item><item eId="art_37/para_1/lbl_e"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">e. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Erfahrung und Referenzen.</p></item></blockList></content></paragraph><paragraph eId="art_37/para_2"><num>2</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Die Einzelheiten der Aufgabenerfüllung sowie der Umfang der Abgeltung werden in einem öffentlich-rechtlichen Vertrag zwischen dem BAG und der beauftragten Person oder Organisation geregelt. Die Laufzeit des Vertrags ist zu befristen.</p></content></paragraph></article><article eId="art_38"><num><b>Art. 38</b></num><heading>Aufsicht</heading><paragraph eId="art_38/para"><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Das EDI stellt die Aufsicht über die beauftragten Personen und Organisationen in Bezug auf die übertragene Aufgabe sicher.</p></content></paragraph></article></section><section eId="sec_11"><num>11. Abschnitt: </num><heading>Schlussbestimmungen</heading><article eId="art_39"><num><b>Art. 39</b></num><heading>Anpassung der Fristen</heading><paragraph eId="art_39/para"><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Das EDI kann die Fristen nach den Artikeln 10–12 und 19–22 entsprechend der technischen Entwicklung anpassen.</p></content></paragraph></article><article eId="art_40"><num><b>Art. 40</b></num><heading>Änderung anderer Erlasse</heading><paragraph eId="art_40/para"><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Die Änderung anderer Erlasse wird in Anhang 2 geregelt.</p></content></paragraph></article><article eId="art_41"><num><b>Art. 41</b></num><heading>Übergangsbestimmung</heading><paragraph eId="art_41/para_1"><num>1</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Die Meldepflicht nach den Artikeln 3 und 4 KRG gilt nicht für Daten zu Krebserkrankungen, die vor dem 1. Januar 2020 diagnostiziert wurden.</p></content></paragraph><paragraph eId="art_41/para_2"><num>2</num><content><blockList><listIntroduction eId="art_41/para_2/listintro" xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Das Kinderkrebsregister leitet Personendaten, die es vor dem Inkrafttreten dieser Verordnung bearbeitet hat, kodiert, mit einer Fallnummer versehen, ergänzt und aktualisiert wie folgt an das zuständige kantonale Krebsregister weiter:</listIntroduction><item eId="art_41/para_2/lbl_a"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">a. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">die Daten des Inzidenzjahrs 2018: bis 31. Juli 2020;</p></item><item eId="art_41/para_2/lbl_b"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">b. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">die Daten des Inzidenzjahrs 2019: bis 31. Juli 2021;</p></item><item eId="art_41/para_2/lbl_c"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">c. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">alle übrigen Daten: bis 31. Juli 2022.</p></item></blockList></content></paragraph><paragraph eId="art_41/para_3"><num>3</num><content><blockList><listIntroduction eId="art_41/para_3/listintro" xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Das kantonale Krebsregister leitet Personendaten, die es vor dem Inkrafttreten dieser Verordnung bearbeitet hat, kodiert, mit einer Fallnummer versehen, ergänzt und aktualisiert zusammen mit den Daten, die es nach Absatz 2 vom Kinderkrebsregister erhalten hat wie folgt an die nationale Krebsregistrierungsstelle weiter:</listIntroduction><item eId="art_41/para_3/lbl_a"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">a. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">die Daten des Inzidenzjahrs 2018 bis 1. Dezember 2020;</p></item><item eId="art_41/para_3/lbl_b"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">b. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">die Daten des Inzidenzjahrs 2019 bis 1. Dezember 2021;</p></item><item eId="art_41/para_3/lbl_c"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">c. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">alle übrigen Daten bis 1. Dezember 2022.</p></item></blockList></content></paragraph><paragraph eId="art_41/para_4"><num>4</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Die kantonalen Krebsregister müssen Daten zu Personen, die vor dem 1. Januar 2003 an Krebs erkrankt sind, nicht nach dem KRG und dieser Verordnung bearbeiten.</p></content></paragraph><paragraph eId="art_41/para_5"><num>5</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Die kantonalen Krebsregister und das Kinderkrebsregister müssen die verifizierten Zuständigkeiten zu Krebserkrankungen, die vor dem Inkrafttreten dieser Verordnung bearbeitet wurden, bis 31. März 2020 im Informationssystem nach Artikel 26 eintragen.</p></content></paragraph><paragraph eId="art_41/para_6"><num>6</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Die kantonalen Krebsregister und das Kinderkrebsregister müssen die Angaben von Personen, die vor dem 1. Januar 2020 Widerspruch erhoben haben, bis 31. März 2020 im Informationssystem nach Artikel 26 eintragen. Anschliessend vernichten sie die Angaben zu den widersprechenden Personen. Artikel 15 Absätze 3 und 4 gilt sinngemäss.</p></content></paragraph><paragraph eId="art_41/para_7"><num>7</num><content><blockList><listIntroduction eId="art_41/para_7/listintro" xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Vom 1. Januar 2020 bis 31. Dezember 2022 gelten folgende Termine für die Bekanntgabe von Daten unter den Vollzugsstellen:</listIntroduction><item eId="art_41/para_7/lbl_a"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">a. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Das BFS gibt dem zuständigen Krebsregister und dem Kinderkrebsregister bis 31. Mai des zweiten Jahres nach der Erhebung die Daten nach den Artikeln 10 und 20 Absatz 2 bekannt.</p></item><item eId="art_41/para_7/lbl_b"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">b. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Die kantonalen Krebsregister leiten die registrierten, aktualisierten und ergänzten Daten und die Fallnummern bis 1. Dezember des zweiten Jahres nach der Erhebung an die nationale Krebsregistrierungsstelle weiter. Artikel 21 Absätze 2 und 3 gilt sinngemäss.</p></item><item eId="art_41/para_7/lbl_c"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">c. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Die nationale Krebsregistrierungsstelle leitet die bereinigten Daten und die Fallnummern bis 31. März des dritten Jahres nach der Erhebung an das BFS weiter.</p></item><item eId="art_41/para_7/lbl_d"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">d. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Das Kinderkrebsregister leitet die registrierten, aktualisierten und ergänzten Basisdaten und die Fallnummern bis 31. Juli des zweiten Jahres nach der Erhebung an das zuständige kantonale Krebsregister weiter.</p></item></blockList></content></paragraph></article><article eId="art_42"><num><b>Art. 42</b></num><heading>Inkrafttreten</heading><paragraph eId="art_42/para_1"><num>1</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Diese Verordnung tritt unter Vorbehalt von Absatz 2 am 1. Januar 2020 in Kraft.</p></content></paragraph><paragraph eId="art_42/para_2"><num>2</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Die Artikel 36–38 und 40 (Anhang 2 Ziff. 2) treten am 1. Juni 2018 in Kraft.</p></content></paragraph></article></section></body><components><component><doc name="annex"><meta><identification source="#ch.bk"><FRBRWork><FRBRthis value="https://fedlex.data.admin.ch/eli/cc/2018/290/20251015/main-text"/><FRBRuri value="https://fedlex.data.admin.ch/eli/cc/2018/290/20251015"/><FRBRdate date="2025-10-15" name="jolux:dateApplicability"/><FRBRdate date="2018-04-11" name="jolux:dateDocument"/><FRBRdate date="2018-06-01" name="jolux:dateEntryInForce"/><FRBRauthor href="#ch.bk" as="#publisher"/><FRBRauthor href="#ch.bk" as="#rightsHolder"/><FRBRcountry value="CH"/><FRBRnumber value="818.331"/><FRBRname xml:lang="it" value="Ordinanza dell'11 aprile 2018 sulla registrazione delle malattie tumorali (ORMT)" shortForm="ORMT"/><FRBRname xml:lang="fr" value="Ordonnance du 11 avril 2018 sur l'enregistrement des maladies oncologiques (OEMO)" shortForm="OEMO"/><FRBRname xml:lang="de" value="Verordnung vom 11. April 2018 über die Registrierung von Krebserkrankungen (Krebsregistrierungsverordnung, KRV)" shortForm="KRV"/><FRBRauthoritative value="true"/></FRBRWork><FRBRExpression><FRBRthis value="https://fedlex.data.admin.ch/eli/cc/2018/290/20251015/de/main-text"/><FRBRuri value="https://fedlex.data.admin.ch/eli/cc/2018/290/20251015/de"/><FRBRdate date="2025-10-15" name="jolux:dateApplicability"/><FRBRdate date="2018-04-11" name="jolux:dateDocument"/><FRBRdate date="2018-06-01" name="jolux:dateEntryInForce"/><FRBRauthor href="#ch.bk" as="#publisher"/><FRBRauthor href="#ch.bk" as="#rightsHolder"/><FRBRlanguage language="de"/></FRBRExpression><FRBRManifestation><FRBRthis value="https://fedlex.data.admin.ch/eli/cc/2018/290/20251015/de/xml/main-text"/><FRBRuri value="https://fedlex.data.admin.ch/eli/cc/2018/290/20251015/de/xml"/><FRBRdate date="2025-10-15" name="jolux:dateApplicability"/><FRBRdate date="2018-04-11" name="jolux:dateDocument"/><FRBRdate date="2018-06-01" name="jolux:dateEntryInForce"/><FRBRauthor href="#ch.bk" as="#publisher"/><FRBRauthor href="#ch.bk" as="#rightsHolder"/><FRBRformat value="xml"/></FRBRManifestation></identification></meta><preface><container name="headerOfAnnex"><block name="num">Anhang 1<inline name="man-font-style-normal"><authorialNote>
+		<p> Bereinigt gemäss Ziff. I der V des EDI vom 2. Febr. 2021 (<ref href="https://fedlex.data.admin.ch/eli/oc/2021/73" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">AS <b>2021</b> 73</ref>) und vom 3. Okt. 2022, in Kraft seit 1. Jan. 2023 (<ref href="https://fedlex.data.admin.ch/eli/oc/2022/595" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">AS <b>2022</b> 595</ref>).</p>
+	</authorialNote></inline></block></container></preface><mainBody><p>(Art. 5 Abs. 1)</p><level eId="annex_1/lvl_u1"><heading>Zu meldende Krebserkrankungen</heading><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Folgende Erkrankungen gemäss der <i>International Classification of diseases </i>der WHO in der Fassung von 2010<authorialNote>
+		<p> Der Text der Klassifizierung kann beim Bundesamt für Gesundheit, 3003 Bern kostenlos eingesehen oder abgerufen werden unter: <ref href="http://www.bag.admin.ch">
+				www.bag.admin.ch
+			</ref> &gt; Themen &gt; Mensch &amp; Gesundheit &gt; Nichtübertragbare Krankheiten &gt; Krebs &gt; Krebsregistrierung, sowie unter: <ref href="http://www.who.int">
+				www.who.int
+			</ref> &gt; Health topics &gt; Classifications of disease.</p>
+	</authorialNote> (ICD-10) müssen gemeldet werden; massgebend ist die mit dreistelligem Code definierte Krankheitsgruppe:</p><table border="1">
+			
+			
+			<tr>
+				
+				
+				<th xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">
+					
+					<p>Code</p>
+				</th>
+				<th xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">
+					
+					<p>Bezeichnung</p>
+				</th>
+				<th colspan="3" xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">
+					
+					<p>Basisdaten zur Diagnose / Basisdaten zur Erstbehandlung</p>
+				</th>
+				<th xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">
+					
+					
+				</th>
+				<th xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">
+					
+					<p>Zusatzdaten</p>
+				</th>
+				<th xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">
+					
+					
+				</th>
+			</tr>
+			<tr>
+				
+				
+				<th xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">
+					
+					
+				</th>
+				<th xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">
+					
+					
+				</th>
+				<th colspan="2" xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">
+					
+					<p>Erwachsene</p>
+				</th>
+				<th colspan="2" xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">
+					
+					<p>Kinder und Jugendliche</p>
+				</th>
+				<th xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">
+					
+					<p>Erwachsene</p>
+				</th>
+				<th xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">
+					
+					<p>Kinder und Jugendliche</p>
+				</th>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">C-CODES</p>
+				</td>
+				<td>
+					
+					
+				</td>
+				<td colspan="2">
+					
+					
+				</td>
+				<td colspan="2">
+					
+					
+				</td>
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					
+				</td>
+				<td colspan="2">
+					
+					
+				</td>
+				<td colspan="2">
+					
+					
+				</td>
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">C00–C97</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Bösartige Neubildungen</p>
+				</td>
+				<td colspan="2">
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">ja, ausser <br/>Basaliome <br/>(C44: 8090-8098)</p>
+				</td>
+				<td colspan="2">
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">ja, ausser <br/>Basaliome <br/>(C44: 8090-8098)</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">ja, für: <br/>Darm (C18–C20)<br/>Brust (C50)<br/>Prostata (C61)</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">ja, ausser Basaliome <br/>(C44: 8090-8098)</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					
+				</td>
+				<td colspan="2">
+					
+					
+				</td>
+				<td colspan="2">
+					
+					
+				</td>
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">D-CODES</p>
+				</td>
+				<td>
+					
+					
+				</td>
+				<td colspan="2">
+					
+					
+				</td>
+				<td colspan="2">
+					
+					
+				</td>
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">D00–D09</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Carcinoma in situ</p>
+				</td>
+				<td colspan="2">
+					
+					
+				</td>
+				<td colspan="2">
+					
+					
+				</td>
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					
+				</td>
+				<td colspan="2">
+					
+					
+				</td>
+				<td colspan="2">
+					
+					
+				</td>
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">D00</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Carcinoma in situ der Mundhöhle, des Ösophagus und des Magens</p>
+				</td>
+				<td colspan="2">
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">ja</p>
+				</td>
+				<td colspan="2">
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">ja</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">nein</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">ja</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					
+				</td>
+				<td colspan="2">
+					
+					
+				</td>
+				<td colspan="2">
+					
+					
+				</td>
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">D01</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Carcinoma in situ sonstiger und nicht näher bezeichneter Verdauungsorgane</p>
+				</td>
+				<td colspan="2">
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">ja</p>
+				</td>
+				<td colspan="2">
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">ja</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">nein</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">ja</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					
+				</td>
+				<td colspan="2">
+					
+					
+				</td>
+				<td colspan="2">
+					
+					
+				</td>
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">D02</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Carcinoma in situ des Mittelohrs und des Atmungssystems</p>
+				</td>
+				<td colspan="2">
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">ja</p>
+				</td>
+				<td colspan="2">
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">ja</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">nein</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">ja</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					
+				</td>
+				<td colspan="2">
+					
+					
+				</td>
+				<td colspan="2">
+					
+					
+				</td>
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">D03</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Melanoma in situ</p>
+				</td>
+				<td colspan="2">
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">ja</p>
+				</td>
+				<td colspan="2">
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">ja</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">nein</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">ja</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					
+				</td>
+				<td colspan="2">
+					
+					
+				</td>
+				<td colspan="2">
+					
+					
+				</td>
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">D04</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">...</p>
+				</td>
+				<td colspan="2">
+					
+					
+				</td>
+				<td colspan="2">
+					
+					
+				</td>
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					
+				</td>
+				<td colspan="2">
+					
+					
+				</td>
+				<td colspan="2">
+					
+					
+				</td>
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">D05</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Carcinoma in situ der Brustdrüse</p>
+				</td>
+				<td colspan="2">
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">ja</p>
+				</td>
+				<td colspan="2">
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">ja</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">nein</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">ja</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					
+				</td>
+				<td colspan="2">
+					
+					
+				</td>
+				<td colspan="2">
+					
+					
+				</td>
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">D06</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Carcinoma in situ der Cervix uteri</p>
+				</td>
+				<td colspan="2">
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">ja</p>
+				</td>
+				<td colspan="2">
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">ja</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">nein</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">ja</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					
+				</td>
+				<td colspan="2">
+					
+					
+				</td>
+				<td colspan="2">
+					
+					
+				</td>
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">D07</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Carcinoma in situ sonstiger und nicht näher bezeichneter Genitalorgane</p>
+				</td>
+				<td colspan="2">
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">ja</p>
+				</td>
+				<td colspan="2">
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">ja</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">nein</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">ja</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					
+				</td>
+				<td colspan="2">
+					
+					
+				</td>
+				<td colspan="2">
+					
+					
+				</td>
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">D09</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Carcinoma in situ sonstiger und nicht näher bezeichneter Lokalisationen</p>
+				</td>
+				<td colspan="2">
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">ja</p>
+				</td>
+				<td colspan="2">
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">ja</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">nein</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">ja</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					
+				</td>
+				<td colspan="2">
+					
+					
+				</td>
+				<td colspan="2">
+					
+					
+				</td>
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">D10–D36</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"><b>Gutartige Neubildungen</b></p>
+				</td>
+				<td colspan="2">
+					
+					
+				</td>
+				<td colspan="2">
+					
+					
+				</td>
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					
+				</td>
+				<td colspan="2">
+					
+					
+				</td>
+				<td colspan="2">
+					
+					
+				</td>
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">D32</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Gutartige Neubildungen der Meningen</p>
+				</td>
+				<td colspan="2">
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">ja</p>
+				</td>
+				<td colspan="2">
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">ja</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">nein</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">ja</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					
+				</td>
+				<td colspan="2">
+					
+					
+				</td>
+				<td colspan="2">
+					
+					
+				</td>
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">D33</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Gutartige Neubildung des Gehirns und anderer Teile des Zentralnervensystems</p>
+				</td>
+				<td colspan="2">
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">ja</p>
+				</td>
+				<td colspan="2">
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">ja</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">nein</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">ja</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					
+				</td>
+				<td colspan="2">
+					
+					
+				</td>
+				<td colspan="2">
+					
+					
+				</td>
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">D35</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Gutartige Neubildung sonstiger und nicht näher bezeichneter endokriner Drüsen</p>
+				</td>
+				<td colspan="2">
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">nein</p>
+				</td>
+				<td colspan="2">
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">ja</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">nein</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">ja</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					
+				</td>
+				<td colspan="2">
+					
+					
+				</td>
+				<td colspan="2">
+					
+					
+				</td>
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">D35.2</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Gutartige Neubildung der Hypophyse</p>
+				</td>
+				<td colspan="2">
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">ja, ausser <br/>hormoninaktive Hypophysenmikroadenome <br/>(&lt; 10 mm)</p>
+				</td>
+				<td colspan="2">
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">ja, ausser <br/>hormoninaktive Hypophysenmikroadenome <br/>(&lt; 10 mm)</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">nein</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">ja, ausser hormoninaktive Hypophysenmikroadenome <br/>(&lt; 10 mm)</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					
+				</td>
+				<td colspan="2">
+					
+					
+				</td>
+				<td colspan="2">
+					
+					
+				</td>
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">D37–D48</p>
+				</td>
+				<td colspan="2">
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"><b>Neubildungen unsicheren oder unbekannten Verhaltens</b></p>
+				</td>
+				<td>
+					
+					
+				</td>
+				<td colspan="2">
+					
+					
+				</td>
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					
+				</td>
+				<td colspan="2">
+					
+					
+				</td>
+				<td colspan="2">
+					
+					
+				</td>
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">D37</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Neubildung unsicheren oder unbekannten Verhaltens der Mundhöhle und der Verdauungsorgane</p>
+				</td>
+				<td colspan="2">
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">ja</p>
+				</td>
+				<td colspan="2">
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">ja</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">nein</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">ja</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					
+				</td>
+				<td colspan="2">
+					
+					
+				</td>
+				<td colspan="2">
+					
+					
+				</td>
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">D38</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Neubildung unsicheren oder unbekannten Verhaltens des Mittelohrs, der Atmungsorgane und der intrathorakalen Organe</p>
+				</td>
+				<td colspan="2">
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">ja</p>
+				</td>
+				<td colspan="2">
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">ja</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">nein</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">ja</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					
+				</td>
+				<td colspan="2">
+					
+					
+				</td>
+				<td colspan="2">
+					
+					
+				</td>
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">D39</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Neubildung unsicheren oder unbekannten Verhaltens der weiblichen Genitalorgane</p>
+				</td>
+				<td colspan="2">
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">ja</p>
+				</td>
+				<td colspan="2">
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">ja</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">nein</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">ja</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					
+				</td>
+				<td colspan="2">
+					
+					
+				</td>
+				<td colspan="2">
+					
+					
+				</td>
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">D40</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Neubildung unsicheren oder unbekannten Verhaltens der männlichen Genitalorgane</p>
+				</td>
+				<td colspan="2">
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">ja</p>
+				</td>
+				<td colspan="2">
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">ja</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">nein</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">ja</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					
+				</td>
+				<td colspan="2">
+					
+					
+				</td>
+				<td colspan="2">
+					
+					
+				</td>
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">D41</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Neubildung unsicheren oder unbekannten Verhaltens der Harnorgane</p>
+				</td>
+				<td colspan="2">
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">ja</p>
+				</td>
+				<td colspan="2">
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">ja</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">nein</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">ja</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					
+				</td>
+				<td colspan="2">
+					
+					
+				</td>
+				<td colspan="2">
+					
+					
+				</td>
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">D42</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Neubildung unsicheren oder unbekannten Verhaltens der Meningen</p>
+				</td>
+				<td colspan="2">
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">ja</p>
+				</td>
+				<td colspan="2">
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">ja</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">nein </p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">ja</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					
+				</td>
+				<td colspan="2">
+					
+					
+				</td>
+				<td colspan="2">
+					
+					
+				</td>
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">D43</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Neubildung unsicheren oder unbekannten Verhaltens des Gehirns und des Zentralnervensystems</p>
+				</td>
+				<td colspan="2">
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">ja</p>
+				</td>
+				<td colspan="2">
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">ja</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">nein</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">ja</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					
+				</td>
+				<td colspan="2">
+					
+					
+				</td>
+				<td colspan="2">
+					
+					
+				</td>
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">D44</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Neubildung unsicheren oder unbekannten Verhaltens der endokrinen Drüsen, ausser Hypophyse</p>
+				</td>
+				<td colspan="2">
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">ja</p>
+				</td>
+				<td colspan="2">
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">ja</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">nein</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">ja</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					
+				</td>
+				<td colspan="2">
+					
+					
+				</td>
+				<td colspan="2">
+					
+					
+				</td>
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">D45</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Polycythaemia vera</p>
+				</td>
+				<td colspan="2">
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">ja</p>
+				</td>
+				<td colspan="2">
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">ja</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">nein</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">ja</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					
+				</td>
+				<td colspan="2">
+					
+					
+				</td>
+				<td colspan="2">
+					
+					
+				</td>
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">D46</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Myelodysplastische Syndrome</p>
+				</td>
+				<td colspan="2">
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">ja</p>
+				</td>
+				<td colspan="2">
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">ja</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">nein</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">ja</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					
+				</td>
+				<td colspan="2">
+					
+					
+				</td>
+				<td colspan="2">
+					
+					
+				</td>
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">D47</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Sonstige Neubildungen unsicheren oder unbekannten Verhaltens des lymphatischen, blutbildenden und verwandten Gewebes</p>
+				</td>
+				<td colspan="2">
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">ja, ausser monoklonale Gammopathie unbestimmter Signifikanz (MGUS)</p>
+				</td>
+				<td colspan="2">
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">ja, ausser monoklonale Gammopathie unbestimmter Signifikanz (MGUS)</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">nein</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">ja, ausser monoklonale Gammopathie unbestimmter Signifikanz (MGUS)</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					
+				</td>
+				<td colspan="2">
+					
+					
+				</td>
+				<td colspan="2">
+					
+					
+				</td>
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">D48</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Neubildung unsicheren oder unbekannten Verhaltens an sonstigen und nicht näher bezeichneten Lokalisationen</p>
+				</td>
+				<td colspan="2">
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">ja</p>
+				</td>
+				<td colspan="2">
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">ja</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">nein</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">ja</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					
+				</td>
+				<td colspan="2">
+					
+					
+				</td>
+				<td colspan="2">
+					
+					
+				</td>
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">D61</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Sonstige aplastische Anämien</p>
+				</td>
+				<td colspan="2">
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">nein</p>
+				</td>
+				<td colspan="2">
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">ja</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">nein</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">ja</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					
+				</td>
+				<td colspan="2">
+					
+					
+				</td>
+				<td colspan="2">
+					
+					
+				</td>
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">D76</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Sonstige näher bezeichnete Krankheiten mit Beteiligung des lymphoretikulären Gewebes und des retikulohistiozytären Systems</p>
+				</td>
+				<td colspan="2">
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">nein</p>
+				</td>
+				<td colspan="2">
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">ja</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">nein</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">ja</p>
+				</td>
+			</tr>
+			
+		</table></content></level></mainBody></doc></component><component><doc name="annex"><meta><identification source="#ch.bk"><FRBRWork><FRBRthis value="https://fedlex.data.admin.ch/eli/cc/2018/290/20251015/main-text"/><FRBRuri value="https://fedlex.data.admin.ch/eli/cc/2018/290/20251015"/><FRBRdate date="2025-10-15" name="jolux:dateApplicability"/><FRBRdate date="2018-04-11" name="jolux:dateDocument"/><FRBRdate date="2018-06-01" name="jolux:dateEntryInForce"/><FRBRauthor href="#ch.bk" as="#publisher"/><FRBRauthor href="#ch.bk" as="#rightsHolder"/><FRBRcountry value="CH"/><FRBRnumber value="818.331"/><FRBRname xml:lang="it" value="Ordinanza dell'11 aprile 2018 sulla registrazione delle malattie tumorali (ORMT)" shortForm="ORMT"/><FRBRname xml:lang="fr" value="Ordonnance du 11 avril 2018 sur l'enregistrement des maladies oncologiques (OEMO)" shortForm="OEMO"/><FRBRname xml:lang="de" value="Verordnung vom 11. April 2018 über die Registrierung von Krebserkrankungen (Krebsregistrierungsverordnung, KRV)" shortForm="KRV"/><FRBRauthoritative value="true"/></FRBRWork><FRBRExpression><FRBRthis value="https://fedlex.data.admin.ch/eli/cc/2018/290/20251015/de/main-text"/><FRBRuri value="https://fedlex.data.admin.ch/eli/cc/2018/290/20251015/de"/><FRBRdate date="2025-10-15" name="jolux:dateApplicability"/><FRBRdate date="2018-04-11" name="jolux:dateDocument"/><FRBRdate date="2018-06-01" name="jolux:dateEntryInForce"/><FRBRauthor href="#ch.bk" as="#publisher"/><FRBRauthor href="#ch.bk" as="#rightsHolder"/><FRBRlanguage language="de"/></FRBRExpression><FRBRManifestation><FRBRthis value="https://fedlex.data.admin.ch/eli/cc/2018/290/20251015/de/xml/main-text"/><FRBRuri value="https://fedlex.data.admin.ch/eli/cc/2018/290/20251015/de/xml"/><FRBRdate date="2025-10-15" name="jolux:dateApplicability"/><FRBRdate date="2018-04-11" name="jolux:dateDocument"/><FRBRdate date="2018-06-01" name="jolux:dateEntryInForce"/><FRBRauthor href="#ch.bk" as="#publisher"/><FRBRauthor href="#ch.bk" as="#rightsHolder"/><FRBRformat value="xml"/></FRBRManifestation></identification></meta><preface><container name="headerOfAnnex"><block name="num">Anhang 2</block></container></preface><mainBody><p>(Art. 40)</p><level eId="annex_2/lvl_u1"><heading>Änderung anderer Erlasse</heading><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Die nachstehenden Erlasse werden wie folgt geändert:</p><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">…<authorialNote>
+		<p> Die Änderungen können unter <ref href="https://fedlex.data.admin.ch/eli/oc/2018/290" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">AS <b>2018</b> 2019 </ref>konsultiert werden.</p>
+	</authorialNote></p></content></level></mainBody></doc></component></components></act></akomaNtoso>

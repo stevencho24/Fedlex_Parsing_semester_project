@@ -1,0 +1,44 @@
+[
+  {
+    "item_type": "preamble_callback",
+    "acronyms": [
+      {
+        "acronym": "EDI",
+        "sr_link": "SR 442.1",
+        "url": "https://fedlex.data.admin.ch/eli/cc/2011/854"
+      }
+    ],
+    "description": "Preamble acronyms for reference detection"
+  },
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 442.1",
+    "TARGET_URL": "https://fedlex.data.admin.ch/eli/cc/2011/854",
+    "SNIPPET": "gestützt auf Artikel 28 Absatz 1 des Kulturförderungsgesetzes vom 11. Dezember 2009 SR 442.1,",
+    "INSIDE_AUTHORIALNOTE": "SR 442.1",
+    "item_type": "SR_link_detection"
+  },
+  {
+    "ARTICLE_EID": "art_9",
+    "TARGET_SR": "SR 442.1",
+    "TARGET_URL": "https://fedlex.data.admin.ch/eli/cc/2011/854",
+    "SNIPPET": "Die Verordnung des EDI vom 13. März 2020 über das Förderungskonzept zur Verlagsförderung wird aufgehoben.",
+    "INSIDE_AUTHORIALNOTE": "SR 442.1",
+    "preamble_acronym_name": "EDI",
+    "item_type": "preamble_acronym",
+    "ITEM": 2
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_4",
+    "SNIPPET": "Für die Berechnung der Strukturbeiträge wird der gewichtete Referenzerlös (Art. 5 Abs. 1 und 4) mit einem Prozentsatz multipliziert, den das BAK in Abhängigkeit von seinen verfügbaren finanziellen Mitteln festgelegt hat.",
+    "item_type": "artikel_reference"
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_6",
+    "SNIPPET": "Erfordern es die für Strukturbeiträge verfügbaren Mittel, so kann das BAK die beitragsberechtigten Verlage danach priorisieren, welchen Anteil an ihrem jeweiligen Gesamtkatalog Publikationen nach Artikel 5 Absatz 2 ausmachen.",
+    "item_type": "artikel_reference"
+  }
+]

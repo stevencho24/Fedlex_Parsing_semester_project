@@ -1,0 +1,76 @@
+[
+  {
+    "item_type": "preamble_callback",
+    "acronyms": [
+      {
+        "acronym": "EDI",
+        "sr_link": "SR 813.11",
+        "url": "https://fedlex.data.admin.ch/eli/cc/2015/366"
+      },
+      {
+        "acronym": "ChemV",
+        "sr_link": "SR 813.11",
+        "url": "https://fedlex.data.admin.ch/eli/cc/2015/366"
+      }
+    ],
+    "description": "Preamble acronyms for reference detection"
+  },
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 813.11",
+    "TARGET_URL": "https://fedlex.data.admin.ch/eli/cc/2015/366",
+    "SNIPPET": "gestützt auf Artikel 66 Absatz 2 der Chemikalienverordnung vom 5. Juni 2015 SR 813.11 (ChemV),",
+    "INSIDE_AUTHORIALNOTE": "SR 813.11",
+    "item_type": "SR_link_detection"
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_8",
+    "TARGET_SR": "SR 813.153.1",
+    "TARGET_URL": "https://fedlex.data.admin.ch/eli/cc/2005/469",
+    "SNIPPET": "Die Gebühren beim übrigen Vollzug dieser Verordnung bemessen sich nach der Chemikaliengebührenverordnung vom 18. Mai 2005 SR 813.153.1.",
+    "INSIDE_AUTHORIALNOTE": "SR 813.153.1",
+    "item_type": "SR_link_detection"
+  },
+  {
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 813.11",
+    "TARGET_URL": "https://fedlex.data.admin.ch/eli/cc/2015/366",
+    "SNIPPET": "Stoffe oder Zubereitungen der Gruppe 1 nach Anhang 5 Ziffer 1.1 oder 2.1 ChemV an Personen abgibt, die diese beziehen, um sie beruflich zu verwenden, ohne sie in anderer Form in Verkehr zu bringen; ... Stoffe oder Zubereitungen der Gruppe 2 nach Anhang 5 Ziffer 1.2 oder 2.2 ChemV an private Verwenderinnen abgibt. ... Stoffe oder Zubereitungen, die bestimmungsgemäss der Selbstverteidigung dienen nach Artikel 69 ChemV, an private Verwenderinnen abgibt. ... das Wissen über die bei der Abgabe einzuhaltenden gesetzlichen Vorschriften nach den Artikeln 64 und 65 ChemV.",
+    "INSIDE_AUTHORIALNOTE": "SR 813.11",
+    "preamble_acronym_name": "ChemV",
+    "item_type": "preamble_acronym",
+    "ITEM": 3
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_1",
+    "SNIPPET": "c. Stoffe oder Zubereitungen, die bestimmungsgemäss der Selbstverteidigung dienen nach Artikel 69 ChemV, an private Verwenderinnen abgibt.",
+    "item_type": "artikel_reference"
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_1",
+    "SNIPPET": "b. das Wissen über die bei der Abgabe einzuhaltenden gesetzlichen Vorschriften nach den Artikeln 64 und 65 ChemV.",
+    "item_type": "artikel_reference"
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_5_a",
+    "SNIPPET": "In begründeten Fällen kann die Anerkennung des geltend gemachten Grundwissens, auch wenn die Anforderungen nach Artikel 5 formell erfüllt sind, von der zuständigen Behörde verweigert werden. Dies gilt insbesondere dann, wenn die zuständige Behörde zur Überzeugung gelangt, dass eine Person nicht über das geltend gemachte Grundwissen verfügt oder dieses nicht umsetzen kann.",
+    "item_type": "artikel_reference"
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_6",
+    "SNIPPET": "Für Personen, die das erforderliche Grundwissen nicht gemäss den Artikeln 4 oder 5 nachweisen können, stellt das BAG sicher, dass:",
+    "item_type": "artikel_reference"
+  },
+  {
+    "ITEM": 8,
+    "ARTICLE_EID": "art_7",
+    "SNIPPET": "Voraussetzung für die Anerkennung einer Prüfungsstelle ist, dass die Bedingungen nach Artikel 6 Absätze 2 und 3 erfüllt sind.",
+    "item_type": "artikel_reference"
+  }
+]

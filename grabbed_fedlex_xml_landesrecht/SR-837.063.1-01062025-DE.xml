@@ -1,0 +1,4194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:fedlex="http://fedlex.admin.ch/"><act name="publicLaw"><meta><identification source="#ch.bk"><FRBRWork><FRBRthis value="https://fedlex.data.admin.ch/eli/cc/2021/337/20250601/main-text"/><FRBRuri value="https://fedlex.data.admin.ch/eli/cc/2021/337/20250601"/><FRBRdate date="2025-06-01" name="jolux:dateApplicability"/><FRBRdate date="2021-05-26" name="jolux:dateDocument"/><FRBRdate date="2021-07-01" name="jolux:dateEntryInForce"/><FRBRauthor href="#ch.bk" as="#publisher"/><FRBRauthor href="#ch.bk" as="#rightsHolder"/><FRBRcountry value="CH"/><FRBRnumber value=""/><FRBRname xml:lang="fr" value="Ordonnance du 26 mai 2021 sur les systèmes d’information gérés par l’organe de compensation de l’assurance-chômage (Ordonnance sur les systèmes d’information AC, OSI-AC)" shortForm="OSI-AC"/><FRBRname xml:lang="it" value="Ordinanza del 26 maggio 2021 sui sistemi d’informazione gestiti dall’ufficio di compensazione dell’assicurazione contro la disoccupazione (Ordinanza sui sistemi d’informazione AD, OSI-AC)" shortForm="OSI-AC"/><FRBRname xml:lang="de" value="Verordnung vom 26. Mai 2021 für die von der Ausgleichsstelle der Arbeitslosenversicherung betriebenen Informationssysteme (ALV-Informationssystemeverordnung, ALV-IsV)" shortForm="ALV-IsV"/><FRBRauthoritative value="true"/></FRBRWork><FRBRExpression><FRBRthis value="https://fedlex.data.admin.ch/eli/cc/2021/337/20250601/de/main-text"/><FRBRuri value="https://fedlex.data.admin.ch/eli/cc/2021/337/20250601/de"/><FRBRdate date="2025-06-01" name="jolux:dateApplicability"/><FRBRdate date="2021-05-26" name="jolux:dateDocument"/><FRBRdate date="2021-07-01" name="jolux:dateEntryInForce"/><FRBRauthor href="#ch.bk" as="#publisher"/><FRBRauthor href="#ch.bk" as="#rightsHolder"/><FRBRlanguage language="de"/></FRBRExpression><FRBRManifestation><FRBRthis value="https://fedlex.data.admin.ch/eli/cc/2021/337/20250601/de/xml/main-text"/><FRBRuri value="https://fedlex.data.admin.ch/eli/cc/2021/337/20250601/de/xml"/><FRBRdate date="2025-06-01" name="jolux:dateApplicability"/><FRBRdate date="2021-05-26" name="jolux:dateDocument"/><FRBRdate date="2021-07-01" name="jolux:dateEntryInForce"/><FRBRauthor href="#ch.bk" as="#publisher"/><FRBRauthor href="#ch.bk" as="#rightsHolder"/><FRBRformat value="xml" fedlex:generator="2025-q2-rel-1.7.4"/></FRBRManifestation></identification><references source="#ch.bk"><TLCOrganization eId="ch.bk" href="https://fedlex.data.admin.ch/vocabulary/legal-institution/2" showAs="Bundeskanzlei"/><TLCRole eId="publisher" href="http://data.legilux.public.lu/resource/ontology/jolux#publisher" showAs="Editeur"/><TLCRole eId="rightsHolder" href="http://data.legilux.public.lu/resource/ontology/jolux#rightsHolder" showAs="Détenteur des droits"/><TLCReference name="language" href="http://publications.europa.eu/resource/authority/language/DEU" showAs="de"/><TLCReference name="format" href="https://fedlex.data.admin.ch/vocabulary/user-format/xml" showAs="xml"/></references></meta><preface><p><docNumber>837.063.1 </docNumber></p><p><docTitle>Verordnung<br/>für die von der Ausgleichsstelle der Arbeitslosenversicherung betriebenen Informationssysteme</docTitle></p><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">(ALV-Informationssystemeverordnung, ALV-IsV)</p><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">vom 26. Mai 2021 (Stand am 1. Juni 2025)</p></preface><preamble><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Der Schweizerische Bundesrat,</p><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">gestützt auf die Artikel 96c Absatz 3 und 109 des Arbeitslosenversicherungsgesetzes vom 25. Juni 1982<authorialNote>
+		<p>  <ref href="https://fedlex.data.admin.ch/eli/cc/1982/2184_2184_2184" xmlns:data="urn:com:c-moria:legi4ch:xslt:data" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">SR <b>837.0</b></ref></p>
+	</authorialNote> (AVIG), <br/>auf die Artikel 35 Absatz 5 und 41 Absatz 1 des Arbeitsvermittlungsgesetzes vom 6. Oktober 1989<authorialNote>
+		<p>  <ref href="https://fedlex.data.admin.ch/eli/cc/1991/392_392_392" xmlns:data="urn:com:c-moria:legi4ch:xslt:data" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">SR <b>823.11</b></ref></p>
+	</authorialNote> (AVG), <br/>auf Artikel 25 Absatz 1 des Bundesstatistikgesetzes vom 9. Oktober 1992<authorialNote>
+		<p>  <ref href="https://fedlex.data.admin.ch/eli/cc/1993/2080_2080_2080" xmlns:data="urn:com:c-moria:legi4ch:xslt:data" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">SR <b>431.01</b></ref></p>
+	</authorialNote> <i><br/></i>und<i> </i>auf Artikel 21<i>a</i> Absatz 1 des Ausländer- und Integrationsgesetzes vom 16. Dezember 2005<authorialNote>
+		<p>  <ref href="https://fedlex.data.admin.ch/eli/cc/2007/758" xmlns:data="urn:com:c-moria:legi4ch:xslt:data" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">SR <b>142.20</b></ref></p>
+	</authorialNote> (AIG),<authorialNote>
+		<p> Fassung gemäss Anhang der V vom 26. Juni 2024, in Kraft seit 1. Aug. 2024  (<ref href="https://fedlex.data.admin.ch/eli/oc/2024/333" xmlns:data="urn:com:c-moria:legi4ch:xslt:data" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">AS <b>2024</b> 333</ref>).</p>
+	</authorialNote></p><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">verordnet:</p></preamble><body><section eId="sec_1"><num>1. Abschnitt: </num><heading>Allgemeine Bestimmungen</heading><article eId="art_1"><num><b>Art. 1</b></num><heading>Gegenstand</heading><paragraph eId="art_1/para"><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Diese Verordnung regelt den Betrieb und die Benützung der Informationssysteme nach Artikel 83 Absatz 1<sup>bis</sup> AVIG.</p></content></paragraph></article><article eId="art_2"><num><b>Art. 2</b></num><heading>Verantwortung</heading><paragraph eId="art_2/para_1"><num>1</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Die Ausgleichsstelle der Arbeitslosenversicherung ist verantwortlich für die Organisation, die Entwicklung und den Betrieb der Informationssysteme nach Artikel 83 Absatz 1<sup>bis</sup> AVIG.</p></content></paragraph><paragraph eId="art_2/para_2"><num>2</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Sie überwacht die Einhaltung der Vorgaben nach dem Datenschutzgesetz vom 25. September 2020<authorialNote>
+		<p>  <ref href="https://fedlex.data.admin.ch/eli/cc/2022/491" xmlns:data="urn:com:c-moria:legi4ch:xslt:data" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">SR <b>235.1</b></ref></p>
+	</authorialNote> und kann dazu regelmässige Kontrollen durchführen oder durchführen lassen.<authorialNote>
+		<p> Fassung gemäss Anhang 2 Ziff. II 123 der Datenschutzverordnung vom 31. Aug. 2022, in Kraft seit 1. Sept. 2023 (<ref href="https://fedlex.data.admin.ch/eli/oc/2022/568" xmlns:data="urn:com:c-moria:legi4ch:xslt:data" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">AS <b>2022</b> 568</ref>).</p>
+	</authorialNote></p></content></paragraph><paragraph eId="art_2/para_3"><num>3</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Die Verantwortlichen der Stellen und Organe nach Artikel 96<i>c</i> AVIG und Artikel 35 AVG stellen sicher, dass den Anwenderinnen und Anwendern der Informationssysteme nur die Berechtigungen gewährt werden, die sie benötigen.</p></content></paragraph></article><article eId="art_3"><num><b>Art. 3</b></num><heading>Datensicherheit</heading><paragraph eId="art_3/para_1"><num>1</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Die Ausgleichsstelle der Arbeitslosenversicherung und die Stellen und Organe nach Artikel 96<i>c</i> AVIG und Artikel 35 AVG gewährleisten bei der Bearbeitung von Personendaten die Datensicherheit. Sie sorgen für angemessene technische und organisatorische Massnahmen.</p></content></paragraph><paragraph eId="art_3/para_2"><num>2</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Die Ausgleichsstelle der Arbeitslosenversicherung trifft die Massnahmen, die notwendig sind, um die Daten und Programme der Informationssysteme nach Entwendung, Verlust oder unbeabsichtigter Vernichtung wiederherzustellen.</p></content></paragraph><paragraph eId="art_3/para_3"><num>3</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Sie legt in einem Bearbeitungsreglement namentlich ihr internes Verfahren zur Gewährleistung der Datensicherheit, das Datenbearbeitungs- und Kontrollverfahren sowie die einzelnen Sicherheitsmassnahmen fest.</p></content></paragraph></article><article eId="art_4"><num><b>Art. 4</b></num><heading>Aufbewahrung und Archivierung der Personendaten</heading><paragraph eId="art_4/para_1"><num>1</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Die Aufbewahrung der Daten richtet sich nach Artikel 125 der Arbeitslosenversicherungsverordnung vom 31. August 1983<authorialNote>
+		<p>  <ref href="https://fedlex.data.admin.ch/eli/cc/1983/1205_1205_1205" xmlns:data="urn:com:c-moria:legi4ch:xslt:data" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">SR <b>837.02</b></ref></p>
+	</authorialNote>.</p></content></paragraph><paragraph eId="art_4/para_2"><num>2</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Die Ablieferung von digitalen Unterlagen an das Bundesarchiv richtet sich nach dem Archivierungsgesetz vom 26. Juni 1998<authorialNote>
+		<p>  <ref href="https://fedlex.data.admin.ch/eli/cc/1999/354" xmlns:data="urn:com:c-moria:legi4ch:xslt:data" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">SR <b>152.1</b></ref></p>
+	</authorialNote>.</p></content></paragraph></article><article eId="art_5"><num><b>Art. 5</b></num><heading>Datenexport in die Informationssysteme der Durchführungsstellen</heading><paragraph eId="art_5/para_1"><num>1</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Der Export von Daten aus den Informationssystemen nach Artikel 83 Absatz 1<sup>bis</sup> AVIG in die Informationssysteme der Durchführungsstellen bedarf vor dem ersten Export in das jeweilige Informationssystem einer Genehmigung durch die Ausgleichsstelle der Arbeitslosenversicherung.</p></content></paragraph><paragraph eId="art_5/para_2"><num>2</num><content><blockList><listIntroduction eId="art_5/para_2/listintro" xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Die Genehmigung wird nur erteilt, wenn die folgenden Voraussetzungen erfüllt sind:</listIntroduction><item eId="art_5/para_2/lbl_a"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">a. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Der Export und die Nutzung der Daten sind für den Vollzug des AVIG oder des AVG notwendig.</p></item><item eId="art_5/para_2/lbl_b"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">b. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Die Durchführungsstellen gewährleisten für die exportierten Daten die Einhaltung der Datenschutzbestimmungen.</p></item><item eId="art_5/para_2/lbl_c"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">c. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Im Falle kantonaler Durchführungsstellen verfügen diese für ihr eigenes Informationssystem und für die Bearbeitung von Daten aus Drittsystemen über eine Grundlage in einem kantonalen Gesetz im formellen Sinn.</p></item></blockList></content></paragraph></article><article eId="art_6"><num><b>Art. 6</b></num><heading>Daten für die Bestimmung der Leistungskennzahlen und die Wirkungsmessung</heading><paragraph eId="art_6/para_1"><num>1</num><content><blockList><listIntroduction eId="art_6/para_1/listintro" xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Für die Bestimmung der Leistungskennzahlen und die Wirkungsmessung enthalten die Informationssysteme nach dem 2.–4. Abschnitt folgende Daten:</listIntroduction><item eId="art_6/para_1/lbl_a"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">a. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">den Zusammenhang zwischen den stellensuchenden natürlichen Personen nach dem AVG, den versicherten natürlichen Personen nach dem AVIG und den gemeldeten offenen Stellen;</p></item><item eId="art_6/para_1/lbl_b"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">b. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">die Wirkungen und Leistungen der Stellen nach Artikel 96<i>c</i> Absatz 1<sup>ter</sup> AVIG;</p></item><item eId="art_6/para_1/lbl_c"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">c. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Namen und Vornamen sowie Stellen, bei denen die betreffenden Personen angestellt sind;</p></item><item eId="art_6/para_1/lbl_d"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">d. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Anzahl und Art der erbrachten Leistungen sowie die erzielten Wirkungen.</p></item></blockList></content></paragraph><paragraph eId="art_6/para_2"><num>2</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Die in Absatz 1 Buchstaben c und d erwähnten Daten, die die Mitarbeiterin oder den Mitarbeiter betreffen, dürfen jederzeit durch sie eingesehen werden.</p></content></paragraph><paragraph eId="art_6/para_3"><num>3</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Die Vorgesetzten der Stellen nach Artikel 96c Absatz 1<sup>ter</sup> AVIG dürfen die in Absatz 1 Buchstaben c und d genannten Daten ihrer Mitarbeitenden einsehen, die sie zur Erfüllung ihrer Aufgaben benötigen.</p></content></paragraph></article><article eId="art_7"><num><b>Art. 7</b></num><heading>Finanzierung</heading><paragraph eId="art_7/para_1"><num>1</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Die Kosten für die Entwicklung und den Betrieb der Informationssysteme werden vom Ausgleichsfonds der Arbeitslosenversicherung gedeckt.</p></content></paragraph><paragraph eId="art_7/para_2"><num>2</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Der Bund beteiligt sich mit einem pauschalen Beitrag an den Kosten der Informationssysteme nach Artikel 83 Absatz 1<sup>bis</sup> Buchstaben b–e AVIG.</p></content></paragraph><paragraph eId="art_7/para_3"><num>3</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Die Höhe der Pauschale bemisst sich nach den Kosten, die für die Erfüllung von Bundesaufgaben anfallen.</p></content></paragraph><paragraph eId="art_7/para_4"><num>4</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Die Einzelheiten werden in einer Vereinbarung zwischen dem Bund und der Aufsichtskommission für den Ausgleichsfonds der Arbeitslosenversicherung geregelt.</p></content></paragraph></article></section><section eId="sec_2"><num>2. Abschnitt: </num><heading>Informationssystem für die Auszahlung von Leistungen der Arbeitslosenversicherung</heading><article eId="art_8"><num><b>Art. 8</b></num><heading>Zweck</heading><paragraph eId="art_8/para"><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Das Informationssystem für die Auszahlung von Leistungen der Arbeitslosenversicherung nach Artikel 83 Absatz 1<sup>bis</sup> Buchstabe a AVIG dient der Auszahlung, Abrechnung und Verbuchung von Leistungen der Arbeitslosenversicherung durch die Arbeitslosenkassen.</p></content></paragraph></article><article eId="art_9"><num><b>Art. 9</b></num><heading>Daten und Zugriffsrechte</heading><paragraph eId="art_9/para"><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Die im Informationssystem enthaltenen Daten sowie die entsprechenden Zugriffsrechte sind in Anhang 1 aufgeführt.</p></content></paragraph></article></section><section eId="sec_3"><num>3. Abschnitt:</num><heading>Informationssystem für die öffentliche Arbeitsvermittlung</heading><article eId="art_10"><num><b>Art. 10</b></num><heading>Zweck</heading><paragraph eId="art_10/para"><content><blockList><listIntroduction eId="art_10/para/listintro" xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Das Informationssystem für die öffentliche Arbeitsvermittlung nach Artikel 83 Absatz 1<sup>bis</sup> Buchstabe b AVIG dient:</listIntroduction><item eId="art_10/para/lbl_a"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">a. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">der Durchführung sowie der Beaufsichtigung und Kontrolle der Durchführung der Arbeitslosenversicherung und der öffentlichen Arbeitsvermittlung;</p></item><item eId="art_10/para/lbl_b"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">b. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">der Zusammenarbeit der Organe der Arbeitslosenversicherung und der öffentlichen Arbeitsvermittlung mit den privaten Arbeitsvermittlern und den Arbeitgebern;</p></item><item eId="art_10/para/lbl_c"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">c. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">der Zusammenarbeit der Organe der Arbeitslosenversicherung und der öffentlichen Arbeitsvermittlung mit der Konsularischen Direktion des Eidgenössischen Departements für auswärtige Angelegenheiten für die Erfüllung der in Artikel 25 Absätze 1 und 2 AVG vorgesehenen Aufgaben;</p></item><item eId="art_10/para/lbl_d"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">d. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">der Koordination und der interinstitutionellen Zusammenarbeit der Organe der Arbeitslosenversicherung und der öffentlichen Arbeitsvermittlung mit den Organen der Sozialversicherungen und Sozialhilfe;</p></item><item eId="art_10/para/lbl_e"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">e.<authorialNote>
+		<p> Fassung gemäss Anhang der V vom 26. Juni 2024, in Kraft seit 1. Aug. 2024  (<ref href="https://fedlex.data.admin.ch/eli/oc/2024/333" xmlns:data="urn:com:c-moria:legi4ch:xslt:data" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">AS <b>2024</b> 333</ref>).</p>
+	</authorialNote> </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">der Zusammenarbeit der Organe der öffentlichen Arbeitsvermittlung mit den nach Artikel 21<i>a</i> AIG eingesetzten Behörden zur Kontrolle der Einhaltung der Stellenmeldepflicht;</p></item><item eId="art_10/para/lbl_f"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">f. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">der Arbeitsmarktbeobachtung und der Arbeitsmarktstatistik.</p></item></blockList></content></paragraph></article><article eId="art_11"><num><b>Art. 11</b></num><heading>Daten und Zugriffsrechte</heading><paragraph eId="art_11/para"><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Die im Informationssystem enthaltenen Daten sowie die entsprechenden Zugriffsrechte sind in Anhang 2 aufgeführt.</p></content></paragraph></article></section><section eId="sec_4"><num>4. Abschnitt:</num><heading>Informationssystem für die Analyse von Arbeitsmarktdaten</heading><article eId="art_12"><num><b>Art. 12</b></num><heading>Zweck</heading><paragraph eId="art_12/para"><content><blockList><listIntroduction eId="art_12/para/listintro" xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Das Informationssystem für die Analyse von Arbeitsmarktdaten nach Artikel 83 Absatz 1<sup>bis</sup> Buchstabe c AVIG dient:</listIntroduction><item eId="art_12/para/lbl_a"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">a.<authorialNote>
+		<p> Fassung gemäss Anhang 3 Ziff. 22 der Bundesstatistikverordnung vom 30. April 2025, in Kraft seit 1. Juni 2025 (<ref href="https://fedlex.data.admin.ch/eli/oc/2025/318" xmlns:data="urn:com:c-moria:legi4ch:xslt:data" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">AS <b>2025</b> 318</ref>).</p>
+	</authorialNote> </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">der Führung einer aktuellen Statistik für die Arbeitsmarktbeobachtung nach Artikel 36 AVG und der Übermittlung der erforderlichen Daten anderer Statistiken nach Anhang 1 der Bundesstatistikverordnung vom 30. April 2025<authorialNote>
+		<p>  <ref href="https://fedlex.data.admin.ch/eli/cc/1993/2093_2093_2093" xmlns:data="urn:com:c-moria:legi4ch:xslt:data" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">SR <b>431.011</b></ref></p>
+	</authorialNote>;</p></item><item eId="art_12/para/lbl_b"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">b. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">der Arbeitsmarktforschung nach Artikel 73 AVIG;</p></item><item eId="art_12/para/lbl_c"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">c. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">der Bereitstellung von Leistungs- und Führungskennzahlen für die beteiligten Stellen.</p></item></blockList></content></paragraph></article><article eId="art_13"><num><b>Art. 13</b></num><heading>Inhalt</heading><paragraph eId="art_13/para"><content><blockList><listIntroduction eId="art_13/para/listintro" xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Für die Arbeitsmarktbeobachtung enthält das Informationssystem Daten über:</listIntroduction><item eId="art_13/para/lbl_a"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">a. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">die stellensuchenden natürlichen Personen gemäss AVG;</p></item><item eId="art_13/para/lbl_b"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">b. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">die versicherten natürlichen und juristischen Personen gemäss AVIG;</p></item><item eId="art_13/para/lbl_c"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">c. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">die erfassten offenen Stellen;</p></item><item eId="art_13/para/lbl_d"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">d. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">die arbeitsmarktlichen Massnahmen;</p></item><item eId="art_13/para/lbl_e"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">e. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">die gemäss AVIG erfolgten Leistungen an natürliche und juristische Personen.</p></item></blockList></content></paragraph></article><article eId="art_14"><num><b>Art. 14</b></num><heading>Datenbeschaffung</heading><paragraph eId="art_14/para"><content><blockList><listIntroduction eId="art_14/para/listintro" xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Die Daten werden durch die Ausgleichsstelle der Arbeitslosenversicherung übernommen aus:</listIntroduction><item eId="art_14/para/lbl_a"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">a.  </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">dem Informationssystem für die Auszahlung von Leistungen der Arbeitslosenversicherung;</p></item><item eId="art_14/para/lbl_b"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">b.  </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">dem Informationssystem für die öffentliche Arbeitsvermittlung;</p></item><item eId="art_14/para/lbl_c"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">c. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">den statistischen Erhebungen sowie den Registern des Bundesamtes für Statistik;</p></item><item eId="art_14/para/lbl_d"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">d.  </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">der Plattform der öffentlichen Arbeitsvermittlung.</p></item></blockList></content></paragraph></article><article eId="art_15"><num><b>Art. 15</b></num><heading>Bekanntgabe von Daten zu Forschungszwecken</heading><paragraph eId="art_15/para_1"><num>1</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Daten aus dem Informationssystem dürfen zu Forschungszwecken bekannt gegeben werden.</p></content></paragraph><paragraph eId="art_15/para_2"><num>2</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Spezifische Personendaten dürfen Institutionen, die Forschung betreiben, bekannt gegeben werden, sofern es sich um eine einmalige Datenbekanntgabe handelt und die betroffenen Personen ihre schriftliche Einwilligung erteilt haben. Keine Einwilligung ist erforderlich, wenn es sich um rein statistische oder vollständig anonymisierte Daten handelt und die Bekanntgabe einem überwiegenden Interesse entspricht.</p></content></paragraph></article><article eId="art_16"><num><b>Art. 16</b></num><heading>Datenzusammenführung</heading><paragraph eId="art_16/para"><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Die Ausgleichsstelle der Arbeitslosenversicherung sorgt für eine zweckmässige Zusammenführung der Daten innerhalb des Informationssystems.</p></content></paragraph></article></section><section eId="sec_5"><num>5. Abschnitt: </num><heading>Zugangsplattform für elektronische Dienstleistungen</heading><article eId="art_17"><num><b>Art. 17</b></num><heading>Zweck</heading><paragraph eId="art_17/para_1"><num>1</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Die Zugangsplattform für elektronische Dienstleistungen nach Artikel 83 Absatz 1<sup>bis</sup> Buchstabe d AVIG dient als Kontaktstelle zwischen den Bezügerinnen und Bezügern von Leistungen der Arbeitslosenversicherung oder der öffentlichen Arbeitsvermittlung und den Durchführungsstellen.</p></content></paragraph><paragraph eId="art_17/para_2"><num>2</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Sie dient den Benutzerinnen und Benutzern zur Übermittlung der Daten, die für den Bezug von Leistungen notwendig sind.</p></content></paragraph></article><article eId="art_18"><num><b>Art. 18</b></num><heading>Registrierung</heading><paragraph eId="art_18/para_1"><num>1</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Wer die Zugangsplattform nutzen will, muss sich registrieren.</p></content></paragraph><paragraph eId="art_18/para_2"><num>2</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Als registriert gilt, wer die allgemeinen Nutzungsbedingungen und die dazugehörige Datenschutzerklärung anerkannt hat.</p></content></paragraph></article><article eId="art_19"><num><b>Art. 19</b></num><heading>Datenaustausch</heading><paragraph eId="art_19/para_1"><num>1</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Die auf der Zugangsplattform hinterlegten Daten werden automatisch an die entsprechenden Informationssysteme der Arbeitslosenversicherung übermittelt.</p></content></paragraph><paragraph eId="art_19/para_2"><num>2</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Die Daten, die den Bezügerinnen und Bezügern von Leistungen der Arbeitslosenversicherung und der öffentlichen Arbeitsvermittlung zur Verfügung gestellt werden, stammen aus den in Artikel 83 Absatz 1<sup>bis</sup> Buchstaben a und b AVIG genannten Informationssystemen.</p></content></paragraph></article><article eId="art_20"><num><b>Art. 20</b></num><heading>Funktionen undZugriffsrechte</heading><paragraph eId="art_20/para"><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Die Funktionen der Zugangsplattform sowie die entsprechenden Zugriffsrechte sind in Anhang 3 aufgeführt.</p></content></paragraph></article></section><section eId="sec_6"><num>6. Abschnitt:</num><heading>Plattform der öffentlichen Arbeitsvermittlung</heading><article eId="art_21"><num><b>Art. 21</b></num><heading>Zweck</heading><paragraph eId="art_21/para"><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Die Plattform der öffentlichen Arbeitsvermittlung nach Artikel 83 Absatz 1<sup>bis</sup> Buchstabe e AVIG dient als elektronische Stellenbörse.</p></content></paragraph></article><article eId="art_22"><num><b>Art. 22</b></num><heading>Registrierung</heading><paragraph eId="art_22/para_1"><num>1</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Wer die Plattform nutzen will, muss sich registrieren.</p></content></paragraph><paragraph eId="art_22/para_2"><num>2</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Als registriert gilt, wer die allgemeinen Nutzungsbedingungen und die dazugehörige Datenschutzerklärung anerkannt hat.</p></content></paragraph></article><article eId="art_23"><num><b>Art. 23</b></num><heading>Struktur, Zugriff und Zuständigkeit</heading><paragraph eId="art_23/para_1"><num>1</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Die Plattform hat einen frei zugänglichen Bereich und einen Bereich mit gesichertem Zugriff.</p></content></paragraph><paragraph eId="art_23/para_2"><num>2</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Der Zugang zum Bereich mit gesichertem Zugriff ist Personen und Stellen nach Artikel 35 Absatz 3<sup>ter</sup> AVG vorbehalten.</p></content></paragraph><paragraph eId="art_23/para_3"><num>3</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Der Inhalt der Plattform wird durch die zuständige Amtsstelle bewirtschaftet.</p></content></paragraph></article><article eId="art_24"><num><b>Art. 24</b></num><heading>Personenprofil</heading><paragraph eId="art_24/para"><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Alle bei den Arbeitsmarktbehörden registrierten Stellensuchenden entscheiden, ob ihr Personenprofil auf der Plattform einsehbar ist und ob es anonymisiert oder nicht anonymisiert publiziert wird. Dies wird im Informationssystem der öffentlichen Arbeitsvermittlung (Art. 83 Abs. 1<sup>bis</sup> Bst. b AVIG) registriert.</p></content></paragraph></article><article eId="art_25"><num><b>Art. 25</b></num><heading>Funktionen und Zugriffsrechte</heading><paragraph eId="art_25/para"><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Die Funktionen der Plattform sowie die entsprechenden Zugriffsrechte sind in Anhang 3 aufgeführt.</p></content></paragraph></article></section><section eId="sec_7"><num>7. Abschnitt: </num><heading>Schlussbestimmungen</heading><article eId="art_26"><num><b>Art. 26</b></num><heading>Aufhebung anderer Erlasse</heading><paragraph eId="art_26/para"><content><blockList><listIntroduction eId="art_26/para/listintro" xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Die folgenden Erlasse werden aufgehoben:</listIntroduction><item eId="art_26/para/lbl_1"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">1. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">die Verordnung vom 26. Oktober 2016<authorialNote>
+		<p>  [<ref href="https://fedlex.data.admin.ch/eli/oc/2016/675" xmlns:data="urn:com:c-moria:legi4ch:xslt:data" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">AS <b>2016</b> 4073</ref>]</p>
+	</authorialNote> über das Informationssystem für die Auszahlung von Leistungen der Arbeitslosenversicherung;</p></item><item eId="art_26/para/lbl_2"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">2. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">die Verordnung vom 1. November 2006<authorialNote>
+		<p>  [<ref href="https://fedlex.data.admin.ch/eli/oc/2006/697" xmlns:data="urn:com:c-moria:legi4ch:xslt:data" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">AS <b>2006</b> 4547</ref>; <ref href="https://fedlex.data.admin.ch/eli/oc/2011/81" xmlns:data="urn:com:c-moria:legi4ch:xslt:data" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp"><b>2011</b> 533 </ref>Anhang Ziff. 7; <ref href="https://fedlex.data.admin.ch/eli/oc/2017/49" xmlns:data="urn:com:c-moria:legi4ch:xslt:data" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp"><b>2017</b> 177</ref>; <ref href="https://fedlex.data.admin.ch/eli/oc/2020/150" xmlns:data="urn:com:c-moria:legi4ch:xslt:data" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp"><b>2020</b> 815 </ref>Anhang]</p>
+	</authorialNote> über das Informationssystem für die Arbeitsvermittlung und die Arbeitsmarktstatistik;</p></item><item eId="art_26/para/lbl_3"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">3. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">die Verordnung vom 25. Oktober 2017<authorialNote>
+		<p>  [<ref href="https://fedlex.data.admin.ch/eli/oc/2017/634" xmlns:data="urn:com:c-moria:legi4ch:xslt:data" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">AS <b>2017</b> 5853</ref>]</p>
+	</authorialNote> über das Informationssystem für die Analyse von Arbeitsmarktdaten.</p></item></blockList></content></paragraph></article><article eId="art_27"><num><b>Art. 27</b></num><heading>Inkrafttreten</heading><paragraph eId="art_27/para"><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Diese Verordnung tritt am 1. Juli 2021 in Kraft.</p></content></paragraph></article></section></body><components><component><doc name="annex"><meta><identification source="#ch.bk"><FRBRWork><FRBRthis value="https://fedlex.data.admin.ch/eli/cc/2021/337/20250601/main-text"/><FRBRuri value="https://fedlex.data.admin.ch/eli/cc/2021/337/20250601"/><FRBRdate date="2025-06-01" name="jolux:dateApplicability"/><FRBRdate date="2021-05-26" name="jolux:dateDocument"/><FRBRdate date="2021-07-01" name="jolux:dateEntryInForce"/><FRBRauthor href="#ch.bk" as="#publisher"/><FRBRauthor href="#ch.bk" as="#rightsHolder"/><FRBRcountry value="CH"/><FRBRnumber value=""/><FRBRname xml:lang="fr" value="Ordonnance du 26 mai 2021 sur les systèmes d’information gérés par l’organe de compensation de l’assurance-chômage (Ordonnance sur les systèmes d’information AC, OSI-AC)" shortForm="OSI-AC"/><FRBRname xml:lang="it" value="Ordinanza del 26 maggio 2021 sui sistemi d’informazione gestiti dall’ufficio di compensazione dell’assicurazione contro la disoccupazione (Ordinanza sui sistemi d’informazione AD, OSI-AC)" shortForm="OSI-AC"/><FRBRname xml:lang="de" value="Verordnung vom 26. Mai 2021 für die von der Ausgleichsstelle der Arbeitslosenversicherung betriebenen Informationssysteme (ALV-Informationssystemeverordnung, ALV-IsV)" shortForm="ALV-IsV"/><FRBRauthoritative value="true"/></FRBRWork><FRBRExpression><FRBRthis value="https://fedlex.data.admin.ch/eli/cc/2021/337/20250601/de/main-text"/><FRBRuri value="https://fedlex.data.admin.ch/eli/cc/2021/337/20250601/de"/><FRBRdate date="2025-06-01" name="jolux:dateApplicability"/><FRBRdate date="2021-05-26" name="jolux:dateDocument"/><FRBRdate date="2021-07-01" name="jolux:dateEntryInForce"/><FRBRauthor href="#ch.bk" as="#publisher"/><FRBRauthor href="#ch.bk" as="#rightsHolder"/><FRBRlanguage language="de"/></FRBRExpression><FRBRManifestation><FRBRthis value="https://fedlex.data.admin.ch/eli/cc/2021/337/20250601/de/xml/main-text"/><FRBRuri value="https://fedlex.data.admin.ch/eli/cc/2021/337/20250601/de/xml"/><FRBRdate date="2025-06-01" name="jolux:dateApplicability"/><FRBRdate date="2021-05-26" name="jolux:dateDocument"/><FRBRdate date="2021-07-01" name="jolux:dateEntryInForce"/><FRBRauthor href="#ch.bk" as="#publisher"/><FRBRauthor href="#ch.bk" as="#rightsHolder"/><FRBRformat value="xml"/></FRBRManifestation></identification></meta><preface><container name="headerOfAnnex"><block name="num">Anhang 1<inline name="man-font-style-normal"><authorialNote>
+		<p> Die Bereinigung gemäss Anhang Ziff. II 42 der V vom 17. Nov. 2021, in Kraft seit 1. Jan. 2022 (<ref href="https://fedlex.data.admin.ch/eli/oc/2021/800" xmlns:data="urn:com:c-moria:legi4ch:xslt:data" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">AS <b>2021</b> 800</ref>) betrifft nur den französischen und italinenischen Text.</p>
+	</authorialNote></inline></block></container></preface><mainBody><p>(Art. 9)</p><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Informationssystem für die Auszahlung von Leistungen der Arbeitslosenversicherung <br/>(Art. 83 Abs. 1<sup>bis</sup> Bst. a AVIG): Daten und Zugriffsrechte</p><level eId="annex_1/lvl_1"><num>1</num><heading>Abkürzungen</heading><content><table border="1">
+			
+			
+			<tr>
+				
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">AHV Alters- und Hinterlassenenversicherung</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">ALE Arbeitslosenentschädigung</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">ALV Arbeitslosenversicherung</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">AMM Arbeitsmarktliche Massnahmen</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">BVG Berufliche Vorsorge</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">BUR Betriebs- und Unternehmensregister</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">EESSI Electronic Exchange of Social Security Information</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">IBAN International Bank Account Number</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">IE Insolvenzentschädigung</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">IK Individuelles Konto</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">IV Invalidenversicherung</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">KAE Kurzarbeitsentschädigung</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">KTG Krankentaggelder</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">PLZ Postleitzahl</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">RINA Reference Implementation for a National Application</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">SB Sachbearbeitung</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">SWE Schlechtwetterentschädigung</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">UID Unternehmensidentifikation</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">UPI Unique Person Identification</p>
+				</td>
+			</tr>
+		</table></content></level><level eId="annex_1/lvl_2"><num>2</num><heading>Rollenbeschreibung</heading><content><table border="1">
+			
+			
+			<tr>
+				
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">2.1</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Arbeitslosenkassen</p>
+				</td>
+				<td>
+					
+					
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">SB ALE</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Sachbearbeitung Leistungsart ALE inklusive Gruppenverantwortlichen und Kontrollverantwortlichen für ALE sowie Sachbearbeitung alle Leistungsarten</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					<p>SB IE</p>
+				</td>
+				<td>
+					
+					<p>Sachbearbeitung Leistungsart IE inklusive Gruppenverantwortlichen und Kontrollverantwortlichen für IE <br/>sowie Sachbearbeitung alle Leistungsarten</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					<p>SB KS</p>
+				</td>
+				<td>
+					
+					<p>Sachbearbeitung Leistungsart KAE/SWE inklusive Gruppenverantwortlichen und Kontrollverantwortlichen <br/>für KAE/SWE sowie Sachbearbeitung alle Leistungsarten</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					<p>SB INT</p>
+				</td>
+				<td>
+					
+					<p>Sachbearbeitung Internationales</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					<p>SB FIN</p>
+				</td>
+				<td>
+					
+					<p>Sachbearbeitung Finanzen</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">2.2</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">ALV-Ausgleichsstelle</p>
+				</td>
+				<td>
+					
+					
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">SB INT</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Sachbearbeitung Internationales</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					<p>SB REV</p>
+				</td>
+				<td>
+					
+					<p>Sachbearbeitung Revision: für alle Leistungsarten inklusive AMM</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					<p>SB JD</p>
+				</td>
+				<td>
+					
+					<p>Sachbearbeitung Juristischer Dienst: für alle Leistungsarten inklusive AMM</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					<p>SB SUP</p>
+				</td>
+				<td>
+					
+					<p>Sachbearbeitung Fach- und Applikationssupport ALV-Ausgleichsstelle sowie externe Partner <br/>der ALV-Ausgleichsstelle</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					<p>SB FIN</p>
+				</td>
+				<td>
+					
+					<p>Sachbearbeitung Finanzen</p>
+				</td>
+			</tr>
+			
+		</table></content></level><level eId="annex_1/lvl_3"><num>3.</num><heading>Daten und Zugriffsrechte</heading><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Legende</p><table border="1">
+			
+			
+			<tr>
+				
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B  Bearbeitung von Daten</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">A  Einsehen von Daten</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">– Kein Zugriff</p>
+				</td>
+			</tr>
+		</table><table border="1">
+			
+			
+			<tr>
+				
+				
+				<th xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">
+					
+					
+				</th>
+				<th colspan="5" xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">
+					
+					<p>Arbeitslosenkassen</p>
+				</th>
+				<th colspan="2" xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">
+					
+					
+				</th>
+				<th colspan="3" xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">
+					
+					<p>ALV-Ausgleichsstelle</p>
+				</th>
+				<th colspan="2" xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">
+					
+					
+				</th>
+				<th xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">
+					
+					
+				</th>
+			</tr>
+			<tr>
+				
+				
+				<th xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">
+					
+					
+				</th>
+				<th xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">
+					
+					<p>SB ALE</p>
+				</th>
+				<th colspan="2" xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">
+					
+					<p>SB IE</p>
+				</th>
+				<th xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">
+					
+					<p>SB KS</p>
+				</th>
+				<th xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">
+					
+					<p>SB INT</p>
+				</th>
+				<th colspan="2" xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">
+					
+					<p>SB FIN</p>
+				</th>
+				<th xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">
+					
+					<p>SB INT</p>
+				</th>
+				<th xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">
+					
+					<p>SB FIN</p>
+				</th>
+				<th xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">
+					
+					<p>SB REV</p>
+				</th>
+				<th colspan="2" xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">
+					
+					<p>SB JD</p>
+				</th>
+				<th xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">
+					
+					<p>SB SUP</p>
+				</th>
+			</tr>
+			<tr>
+				
+				
+				<th xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">
+					
+					
+				</th>
+				<th colspan="2" xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">
+					
+					
+				</th>
+				<th colspan="2" xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">
+					
+					
+				</th>
+				<th colspan="2" xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">
+					
+					
+				</th>
+				<th colspan="2" xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">
+					
+					
+				</th>
+				<th xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">
+					
+					
+				</th>
+				<th colspan="2" xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">
+					
+					
+				</th>
+				<th colspan="2" xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">
+					
+					
+				</th>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">3.1  Arbeitslosenentschädigung und Internationales</p>
+				</td>
+				<td>
+					
+					
+				</td>
+				<td colspan="2">
+					
+					
+				</td>
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					
+				</td>
+				<td colspan="2">
+					
+					
+				</td>
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					
+				</td>
+				<td colspan="2">
+					
+					
+				</td>
+				<td>
+					
+					
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td><blockList><item><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">3.1.1 </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Personendaten der versicherten Person <br/></p><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">(AHV-Nummer, ALV-Personen-Nummer, Name, Vorname, Geschlecht, Geburtsdatum, Sprache, Zivilstand, Nationalität, Aufenthaltsstatus, Heimatort, Bevollmächtigte/r)</p></item></blockList></td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B</p>
+				</td>
+				<td colspan="2">
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">A</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">A</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B</p>
+				</td>
+				<td colspan="2">
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">–</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B</p>
+				</td>
+				<td colspan="2">
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td><blockList><item><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">3.1.2 </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Adressdaten der versicherten Person <br/></p><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">(Strasse, Nummer, PLZ, Ort, Telefonnummer, <br/></p><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">E-Mail-Adresse)</p></item></blockList></td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B</p>
+				</td>
+				<td colspan="2">
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">A</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">A</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B</p>
+				</td>
+				<td colspan="2">
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">–</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B</p>
+				</td>
+				<td colspan="2">
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td><blockList><item><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">3.1.3 </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Daten zu den Kindern der versicherten Person <br/></p><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">(Anzahl Kinder sowie AHV-Nummer, Name, Vorname, Geschlecht, Geburtsdatum der Kinder)</p></item></blockList></td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B</p>
+				</td>
+				<td colspan="2">
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">A</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">A</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B</p>
+				</td>
+				<td colspan="2">
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">–</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B</p>
+				</td>
+				<td colspan="2">
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td><blockList><item><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">3.1.4 </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Zahlungsverbindung/IBAN der versicherten Person</p></item></blockList></td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B</p>
+				</td>
+				<td colspan="2">
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">A</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">A</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">–</p>
+				</td>
+				<td colspan="2">
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">–</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">–</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B</p>
+				</td>
+				<td colspan="2">
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td><blockList><item><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">3.1.5 </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Daten zur Erwerbstätigkeit und -fähigkeit der versicherten Person (Beschäftigungsgrad, Arbeitsfähigkeit, letztes Arbeitsverhältnis [inklusive Kündigung, Lohnansprüchen und/oder weiteren Leistungen], weitere Einkommen, Beteiligungen, Tätigkeitsnachweise, weitere Anspruchserhebungen)</p></item></blockList></td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B</p>
+				</td>
+				<td colspan="2">
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">A</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">A</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B</p>
+				</td>
+				<td colspan="2">
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">–</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B</p>
+				</td>
+				<td colspan="2">
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td><blockList><item><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">3.1.6 </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Daten zu Versicherungsleistungen bzw. Renten und/oder Taggeldern der versicherten Person (AHV, IV, BVG, KTG, ausländische Sozialversicherung)</p></item></blockList></td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B</p>
+				</td>
+				<td colspan="2">
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">A</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">A</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B</p>
+				</td>
+				<td colspan="2">
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">–</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B</p>
+				</td>
+				<td colspan="2">
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td><blockList><item><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">3.1.7 </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Daten zu Krankheit, Unfall, Schwangerschaft, Militär, Zivildienst und Zivilschutzdienst, Haftaufenthalt und/<br/></p><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">oder Aufenthalt in Erziehungseinrichtungen oder Ähnlichem der versicherten Person</p></item></blockList></td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B</p>
+				</td>
+				<td colspan="2">
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">A</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">A</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B</p>
+				</td>
+				<td colspan="2">
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">–</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B</p>
+				</td>
+				<td colspan="2">
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td><blockList><item><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">3.1.8 </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Anspruchsdaten der versicherten Person </p></item></blockList></td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B</p>
+				</td>
+				<td colspan="2">
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">A</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">A</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">–</p>
+				</td>
+				<td colspan="2">
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">–</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">–</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B</p>
+				</td>
+				<td colspan="2">
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td><blockList><item><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">3.1.9 </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Auszahlungsdaten inklusive Einzahlungsdaten zu Rückforderungen (Mahnungen, Betreibungen, Erlassgesuche und Erlasse) </p></item></blockList></td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B</p>
+				</td>
+				<td colspan="2">
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">A</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">A</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">–</p>
+				</td>
+				<td colspan="2">
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">–</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B</p>
+				</td>
+				<td colspan="2">
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td><blockList><item><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">3.1.10 </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Auszahlungsdaten (Prämien) an die Sozialversicherungen</p></item></blockList></td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B</p>
+				</td>
+				<td colspan="2">
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">–</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">–</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">–</p>
+				</td>
+				<td colspan="2">
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">–</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B</p>
+				</td>
+				<td colspan="2">
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td><blockList><item><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">3.1.11 </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Quellensteuerdaten der versicherten Person</p></item></blockList></td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B</p>
+				</td>
+				<td colspan="2">
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">A</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">A</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">–</p>
+				</td>
+				<td colspan="2">
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">–</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">–</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B</p>
+				</td>
+				<td colspan="2">
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td><blockList><item><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">3.1.12 </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Verfügungen für die versicherte Person</p></item></blockList></td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B</p>
+				</td>
+				<td colspan="2">
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">A</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">A</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">–</p>
+				</td>
+				<td colspan="2">
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">–</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">–</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B</p>
+				</td>
+				<td colspan="2">
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td><blockList><item><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">3.1.13 </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Betriebsdaten für ALE (BUR-Nummer, UID, Name, Rechtsform, Adresse sowie Daten zur Erwerbstätigkeit, zum Anstellungsverhältnis, zum Beteiligungsverhältnis sowie zu Ansprüchen der versicherten Person)</p></item></blockList></td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B</p>
+				</td>
+				<td colspan="2">
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">A</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">A</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B</p>
+				</td>
+				<td colspan="2">
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">–</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B</p>
+				</td>
+				<td colspan="2">
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td><blockList><item><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">3.1.14 </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Angaben der ausländischen Träger und/oder Verbindungsstelle</p></item></blockList></td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">A</p>
+				</td>
+				<td colspan="2">
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">A</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">A</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B</p>
+				</td>
+				<td colspan="2">
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">–</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B</p>
+				</td>
+				<td colspan="2">
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td><blockList><item><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">3.1.15 </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Abrechnungen der ausländischen Verbindungsstelle</p></item></blockList></td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">A</p>
+				</td>
+				<td colspan="2">
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">–</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">–</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">–</p>
+				</td>
+				<td colspan="2">
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">–</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B</p>
+				</td>
+				<td colspan="2">
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					
+				</td>
+				<td colspan="2">
+					
+					
+				</td>
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					
+				</td>
+				<td colspan="2">
+					
+					
+				</td>
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					
+				</td>
+				<td colspan="2">
+					
+					
+				</td>
+				<td>
+					
+					
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">3.2  Insolvenzentschädigung </p>
+				</td>
+				<td>
+					
+					
+				</td>
+				<td colspan="2">
+					
+					
+				</td>
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					
+				</td>
+				<td colspan="2">
+					
+					
+				</td>
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					
+				</td>
+				<td colspan="2">
+					
+					
+				</td>
+				<td>
+					
+					
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td><blockList><item><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">3.2.1 </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Personendaten der versicherten Person (s. 3.1.1)</p></item></blockList></td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">A</p>
+				</td>
+				<td colspan="2">
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">A</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">–</p>
+				</td>
+				<td colspan="2">
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">–</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">–</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B</p>
+				</td>
+				<td colspan="2">
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td><blockList><item><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">3.2.2 </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Adressdaten der versicherten Person (s. 3.1.2)</p></item></blockList></td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">A</p>
+				</td>
+				<td colspan="2">
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">A</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">–</p>
+				</td>
+				<td colspan="2">
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">–</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">–</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B</p>
+				</td>
+				<td colspan="2">
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td><blockList><item><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">3.2.3 </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Zahlungsverbindung/IBAN der versicherten Person</p></item></blockList></td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">A</p>
+				</td>
+				<td colspan="2">
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">A</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">–</p>
+				</td>
+				<td colspan="2">
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">–</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">–</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B</p>
+				</td>
+				<td colspan="2">
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td><blockList><item><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">3.2.4 </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Daten zur Erwerbstätigkeit der versicherten Person <br/></p><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">(Dauer des Arbeitsverhältnisses, letzter Arbeitstag, Tätigkeit, Beschäftigungsgrad, Lohn- und sonstige Forderungen [inklusive Vorschüssen], Ferienansprüche)</p></item></blockList></td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">A</p>
+				</td>
+				<td colspan="2">
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">A</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">–</p>
+				</td>
+				<td colspan="2">
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">–</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">–</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B</p>
+				</td>
+				<td colspan="2">
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td><blockList><item><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">3.2.5 </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Daten zu Krankheit, Unfall, Schwangerschaft, Militär, Zivildienst und Zivilschutzdienst der versicherten Person</p></item></blockList></td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">A</p>
+				</td>
+				<td colspan="2">
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">A</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">–</p>
+				</td>
+				<td colspan="2">
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">–</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">–</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B</p>
+				</td>
+				<td colspan="2">
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td><blockList><item><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">3.2.6 </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Anspruchsdaten der versicherten Person </p></item></blockList></td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">A</p>
+				</td>
+				<td colspan="2">
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">A</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">–</p>
+				</td>
+				<td colspan="2">
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">–</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">–</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B</p>
+				</td>
+				<td colspan="2">
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td><blockList><item><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">3.2.7 </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Daten zu AMM der versicherten Person </p></item></blockList></td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">A</p>
+				</td>
+				<td colspan="2">
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">A</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">–</p>
+				</td>
+				<td colspan="2">
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">–</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">–</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B</p>
+				</td>
+				<td colspan="2">
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td><blockList><item><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">3.2.8 </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Auszahlungsdaten inklusive Einzahlungsdaten zu Rückforderungen (Mahnungen, Betreibungen, Erlassgesuche und Erlasse)</p></item></blockList></td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">A</p>
+				</td>
+				<td colspan="2">
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">A</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">–</p>
+				</td>
+				<td colspan="2">
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">–</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B</p>
+				</td>
+				<td colspan="2">
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td><blockList><item><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">3.2.9 </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Auszahlungsdaten (Prämien) an die Sozialversicherungen</p></item></blockList></td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B</p>
+				</td>
+				<td colspan="2">
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">–</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">–</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">–</p>
+				</td>
+				<td colspan="2">
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">–</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B</p>
+				</td>
+				<td colspan="2">
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td><blockList><item><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">3.2.10 </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Quellensteuerdaten der versicherten Person</p></item></blockList></td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">A</p>
+				</td>
+				<td colspan="2">
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">A</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">–</p>
+				</td>
+				<td colspan="2">
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">–</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">–</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B</p>
+				</td>
+				<td colspan="2">
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td><blockList><item><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">3.2.11 </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Verfügungen für die versicherte Person</p></item></blockList></td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">A</p>
+				</td>
+				<td colspan="2">
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">A</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">–</p>
+				</td>
+				<td colspan="2">
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">–</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">–</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B</p>
+				</td>
+				<td colspan="2">
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td><blockList><item><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">3.2.12 </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Betriebsdaten für IE (BUR-Nummer, UID, Name, Rechtsform, Adresse sowie Daten zur Erwerbstätigkeit, zum Anstellungsverhältnis sowie zu Ansprüchen der versicherten Person, Daten zur Abrechnung an die Sozialversicherungen)</p></item></blockList></td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">A</p>
+				</td>
+				<td colspan="2">
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">A</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">–</p>
+				</td>
+				<td colspan="2">
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">–</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">–</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B</p>
+				</td>
+				<td colspan="2">
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					
+				</td>
+				<td colspan="2">
+					
+					
+				</td>
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					
+				</td>
+				<td colspan="2">
+					
+					
+				</td>
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					
+				</td>
+				<td colspan="2">
+					
+					
+				</td>
+				<td>
+					
+					
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">3.3 Kurzarbeits-/Schlechtwetterentschädigung</p>
+				</td>
+				<td>
+					
+					
+				</td>
+				<td colspan="2">
+					
+					
+				</td>
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					
+				</td>
+				<td colspan="2">
+					
+					
+				</td>
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					
+				</td>
+				<td colspan="2">
+					
+					
+				</td>
+				<td>
+					
+					
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td><blockList><item><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">3.3.1 </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Betriebsdaten für KAE/SWE (BUR-Nummer, UID, <br/></p><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Name, Rechtsform, Adresse, Ansprechpartner, Personalbestand, betroffene Arbeitnehmerinnen und Arbeitnehmer, Umfang der Kurzarbeit, Ausgleichskasse, Fragebogen <br/></p><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">[zu Vorstellung der Firma, Auftragslage und Geschäftsgang, Begründung der Kurzarbeit und Ausblick])</p></item></blockList></td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">A</p>
+				</td>
+				<td colspan="2">
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">A</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">–</p>
+				</td>
+				<td colspan="2">
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">–</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">–</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B</p>
+				</td>
+				<td colspan="2">
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td><blockList><item><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">3.3.2 </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Personendaten der Arbeitnehmerinnen und Arbeitnehmer (AHV-Nummer, ALV-Personen-Nummer, Name, Vorname, Geschlecht, Geburtsdatum)</p></item></blockList></td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">A</p>
+				</td>
+				<td colspan="2">
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">A</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">–</p>
+				</td>
+				<td colspan="2">
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">–</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">–</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B</p>
+				</td>
+				<td colspan="2">
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td><blockList><item><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">3.3.3 </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Anspruchsdaten inklusive Rückforderungen <br/></p><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">des Betriebs </p></item></blockList></td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">A</p>
+				</td>
+				<td colspan="2">
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">A</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">–</p>
+				</td>
+				<td colspan="2">
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">–</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">–</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B</p>
+				</td>
+				<td colspan="2">
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td><blockList><item><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">3.3.4 </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Auszahlungsdaten inklusive Rückforderungen, <br/></p><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Mahnungen und Betreibungen, Erlassgesuchen und Erlassen des Betriebs</p></item></blockList></td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">A</p>
+				</td>
+				<td colspan="2">
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">A</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">–</p>
+				</td>
+				<td colspan="2">
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">–</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B</p>
+				</td>
+				<td colspan="2">
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td><blockList><item><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">3.3.5 </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Verfügungen für den Betrieb</p></item></blockList></td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">A</p>
+				</td>
+				<td colspan="2">
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">A</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">–</p>
+				</td>
+				<td colspan="2">
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">–</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">–</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B</p>
+				</td>
+				<td colspan="2">
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					
+				</td>
+				<td colspan="2">
+					
+					
+				</td>
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					
+				</td>
+				<td colspan="2">
+					
+					
+				</td>
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					
+				</td>
+				<td colspan="2">
+					
+					
+				</td>
+				<td>
+					
+					
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">3.4 Projektkosten für AMM</p>
+				</td>
+				<td>
+					
+					
+				</td>
+				<td colspan="2">
+					
+					
+				</td>
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					
+				</td>
+				<td colspan="2">
+					
+					
+				</td>
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					
+				</td>
+				<td colspan="2">
+					
+					
+				</td>
+				<td>
+					
+					
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td><blockList><item><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">3.4.1 </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Auszahlungsdaten</p></item></blockList></td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">–</p>
+				</td>
+				<td colspan="2">
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">–</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">–</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">–</p>
+				</td>
+				<td colspan="2">
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">–</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B</p>
+				</td>
+				<td colspan="2">
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B</p>
+				</td>
+			</tr>
+			
+		</table></content></level></mainBody></doc></component><component><doc name="annex"><meta><identification source="#ch.bk"><FRBRWork><FRBRthis value="https://fedlex.data.admin.ch/eli/cc/2021/337/20250601/main-text"/><FRBRuri value="https://fedlex.data.admin.ch/eli/cc/2021/337/20250601"/><FRBRdate date="2025-06-01" name="jolux:dateApplicability"/><FRBRdate date="2021-05-26" name="jolux:dateDocument"/><FRBRdate date="2021-07-01" name="jolux:dateEntryInForce"/><FRBRauthor href="#ch.bk" as="#publisher"/><FRBRauthor href="#ch.bk" as="#rightsHolder"/><FRBRcountry value="CH"/><FRBRnumber value=""/><FRBRname xml:lang="fr" value="Ordonnance du 26 mai 2021 sur les systèmes d’information gérés par l’organe de compensation de l’assurance-chômage (Ordonnance sur les systèmes d’information AC, OSI-AC)" shortForm="OSI-AC"/><FRBRname xml:lang="it" value="Ordinanza del 26 maggio 2021 sui sistemi d’informazione gestiti dall’ufficio di compensazione dell’assicurazione contro la disoccupazione (Ordinanza sui sistemi d’informazione AD, OSI-AC)" shortForm="OSI-AC"/><FRBRname xml:lang="de" value="Verordnung vom 26. Mai 2021 für die von der Ausgleichsstelle der Arbeitslosenversicherung betriebenen Informationssysteme (ALV-Informationssystemeverordnung, ALV-IsV)" shortForm="ALV-IsV"/><FRBRauthoritative value="true"/></FRBRWork><FRBRExpression><FRBRthis value="https://fedlex.data.admin.ch/eli/cc/2021/337/20250601/de/main-text"/><FRBRuri value="https://fedlex.data.admin.ch/eli/cc/2021/337/20250601/de"/><FRBRdate date="2025-06-01" name="jolux:dateApplicability"/><FRBRdate date="2021-05-26" name="jolux:dateDocument"/><FRBRdate date="2021-07-01" name="jolux:dateEntryInForce"/><FRBRauthor href="#ch.bk" as="#publisher"/><FRBRauthor href="#ch.bk" as="#rightsHolder"/><FRBRlanguage language="de"/></FRBRExpression><FRBRManifestation><FRBRthis value="https://fedlex.data.admin.ch/eli/cc/2021/337/20250601/de/xml/main-text"/><FRBRuri value="https://fedlex.data.admin.ch/eli/cc/2021/337/20250601/de/xml"/><FRBRdate date="2025-06-01" name="jolux:dateApplicability"/><FRBRdate date="2021-05-26" name="jolux:dateDocument"/><FRBRdate date="2021-07-01" name="jolux:dateEntryInForce"/><FRBRauthor href="#ch.bk" as="#publisher"/><FRBRauthor href="#ch.bk" as="#rightsHolder"/><FRBRformat value="xml"/></FRBRManifestation></identification></meta><preface><container name="headerOfAnnex"><block name="num">Anhang 2<inline name="man-font-style-normal"><authorialNote>
+		<p> Bereinigt gemäss Anhang der V vom 26. Juni 2024, in Kraft seit 1. Aug. 2024 (<ref href="https://fedlex.data.admin.ch/eli/oc/2024/333" xmlns:data="urn:com:c-moria:legi4ch:xslt:data" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">AS <b>2024</b> 333</ref>).</p>
+	</authorialNote></inline></block></container></preface><mainBody><p>(Art. 11)</p><level eId="annex_2/lvl_u1"><heading>Informationssystem für die öffentliche Arbeitsvermittlung (Art. 83 Abs. 1<sup>bis</sup> Bst. b AVIG): Daten und Zugangsrechte</heading><level eId="annex_2/lvl_u1/lvl_1"><num>1</num><heading>Abkürzungen</heading><content><table border="1">
+			
+			
+			<tr>
+				
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">AHV Alters- und Hinterlassenenversicherung</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">ALK Arbeitslosenkasse</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">AMM Arbeitsmarktliche Massnahmen</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">BUR Betriebs- und Unternehmensregister</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">IIZ Interinstitutionelle Zusammenarbeit</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">IS-ALA Informationssystem für die Auszahlung von Leistungen der Arbeitslosenversicherung</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">IV Invalidenversicherung</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">KAE Kurzarbeitsentschädigung</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">KAST Kantonale Amtsstelle</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">KB Behörde zur Kontrolle der Einhaltung der Stellenmeldepflicht</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">KD Konsularische Direktion des Eidgenössischen Departements für auswärtige Angelegenheiten</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">SB Sachbearbeitung</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">SH Sozialhilfe</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">RINA Reference Implementation for a National Application</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">SB Sachbearbeitung</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">SWE Schlechtwetterentschädigung</p>
+				</td>
+			</tr>
+		</table></content></level><level eId="annex_2/lvl_u1/lvl_2"><num>2.</num><heading>Daten und Zugriffsrechte</heading><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Legende:</p><table border="1">
+			
+			
+			<tr>
+				
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">A Zugriff aufgrund von Bearbeitungsrechten auf alle Fälle</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">F Zugriff aufgrund von Bearbeitungsrechten auf eigene Fälle</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">– Kein Zugriff</p>
+				</td>
+			</tr>
+		</table><table border="1">
+			
+			
+			<tr>
+				
+				
+				<th xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">
+					
+					
+				</th>
+				<th xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">
+					
+					<p>KAST</p>
+				</th>
+				<th xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">
+					
+					<p>SH im Rahmen der IIZ</p>
+				</th>
+				<th xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">
+					
+					<p>IV im Rahmen der IIZ</p>
+				</th>
+				<th xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">
+					
+					<p>KD</p>
+				</th>
+			</tr>
+			<tr>
+				
+				
+				<th xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">
+					
+					
+				</th>
+				<th xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">
+					
+					
+				</th>
+				<th xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">
+					
+					
+				</th>
+				<th xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">
+					
+					
+				</th>
+				<th xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">
+					
+					
+				</th>
+			</tr>
+			<tr>
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Stellensuchende</p>
+				</td>
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					
+				</td>
+			</tr>
+			<tr>
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Name, Vorname, Adresse, Telefonnummer, Fax, E-Mail-Adresse, <br/>Geburtsdatum, Geschlecht, Zivilstand, Nationalität, AHV-Nummer / Sozialversicherungsnummer, Personennummer, Aufenthaltsstatus und -berechtigung</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">A</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">F</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">F</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">A</p>
+				</td>
+			</tr>
+			<tr>
+				
+				<td>
+					
+					<p>Anmeldedatum und Anmeldeort, Zuweisungsstopp, Erwerbsstatus und Erwerbssituation, Leistungsbezug/kantonale Arbeitslosenhilfe, zuständige Amtsstellen und -personen</p>
+				</td>
+				<td>
+					
+					<p>A</p>
+				</td>
+				<td>
+					
+					<p>F</p>
+				</td>
+				<td>
+					
+					<p>F</p>
+				</td>
+				<td>
+					
+					<p>A</p>
+				</td>
+			</tr>
+			<tr>
+				
+				<td>
+					
+					<p>Berufliche Qualifikationen, Fähigkeiten und Erfahrungen, Lebenslauf, Sprachkenntnisse</p>
+				</td>
+				<td>
+					
+					<p>A</p>
+				</td>
+				<td>
+					
+					<p>F</p>
+				</td>
+				<td>
+					
+					<p>F</p>
+				</td>
+				<td>
+					
+					<p>A</p>
+				</td>
+			</tr>
+			<tr>
+				
+				<td>
+					
+					<p>Art und Ausmass der gesuchten Tätigkeit (Verfügbarkeit), Mobilität, <br/>Führerausweis, Arbeitsregion, letzter Arbeitgeber und dessen Branche</p>
+				</td>
+				<td>
+					
+					<p>A</p>
+				</td>
+				<td>
+					
+					<p>F</p>
+				</td>
+				<td>
+					
+					<p>F</p>
+				</td>
+				<td>
+					
+					<p>A</p>
+				</td>
+			</tr>
+			<tr>
+				
+				<td>
+					
+					<p>Gewünschte Datenfreigabe </p>
+				</td>
+				<td>
+					
+					<p>A</p>
+				</td>
+				<td>
+					
+					<p>F</p>
+				</td>
+				<td>
+					
+					<p>F</p>
+				</td>
+				<td>
+					
+					<p>A</p>
+				</td>
+			</tr>
+			<tr>
+				
+				<td>
+					
+					<p>Beginn, Dauer und Höhe des Anspruchs auf Versicherungsleistungen, <br/>Rahmenfrist, Beschäftigungsgrade, Langzeitarbeitslosigkeit, ALK/Zahlstelle und deren zuständige SB, Kontrollperiode</p>
+				</td>
+				<td>
+					
+					<p>F</p>
+				</td>
+				<td>
+					
+					<p>–</p>
+				</td>
+				<td>
+					
+					<p>–</p>
+				</td>
+				<td>
+					
+					<p>F</p>
+				</td>
+			</tr>
+			<tr>
+				
+				<td>
+					
+					<p>Kontroll- und Beratungstermine (Datum, Zeit, Durchführungsort), <br/>Beratungsprotokolle</p>
+				</td>
+				<td>
+					
+					<p>F</p>
+				</td>
+				<td>
+					
+					<p>–</p>
+				</td>
+				<td>
+					
+					<p>F</p>
+				</td>
+				<td>
+					
+					<p>F</p>
+				</td>
+			</tr>
+			<tr>
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Vermittelbarkeit, Qualifizierungsbedarf, für Wiedereingliederung notwendige IS-ALA-Daten, Wiedereingliederungsziele, Wiedereingliederungsaktionen</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">F</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">F</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">F</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">F</p>
+				</td>
+			</tr>
+			<tr>
+				
+				<td>
+					
+					<p>Zugewiesene Fachberatung</p>
+				</td>
+				<td>
+					
+					<p>F</p>
+				</td>
+				<td>
+					
+					<p>F</p>
+				</td>
+				<td>
+					
+					<p>F</p>
+				</td>
+				<td>
+					
+					<p>F</p>
+				</td>
+			</tr>
+			<tr>
+				
+				<td>
+					
+					<p>Zuweisungen zu Stellenangeboten, Kontaktperson, Zuweisungsresultat</p>
+				</td>
+				<td>
+					
+					<p>A</p>
+				</td>
+				<td>
+					
+					<p>F</p>
+				</td>
+				<td>
+					
+					<p>F</p>
+				</td>
+				<td>
+					
+					<p>A</p>
+				</td>
+			</tr>
+			<tr>
+				
+				<td>
+					
+					<p>Matchingresultate</p>
+				</td>
+				<td>
+					
+					<p>A</p>
+				</td>
+				<td>
+					
+					<p>–</p>
+				</td>
+				<td>
+					
+					<p>F</p>
+				</td>
+				<td>
+					
+					<p>A</p>
+				</td>
+			</tr>
+			<tr>
+				
+				<td>
+					
+					<p>Art, Dauer und Höhe eines Zwischenverdienstes; Kontaktdaten <br/>des Arbeitgebers während des Zwischenverdienstes</p>
+				</td>
+				<td>
+					
+					<p>F</p>
+				</td>
+				<td>
+					
+					<p>–</p>
+				</td>
+				<td>
+					
+					<p>F</p>
+				</td>
+				<td>
+					
+					<p>F</p>
+				</td>
+			</tr>
+			<tr>
+				
+				<td>
+					
+					<p>Art, Dauer, Durchführungsort und Kosten einer AMM (Titel der Massnahme, Anbieter, Beginn und Ende, Anwesenheitspflicht, Verantwortlicher LAM, Zielgruppen, Mindestvoraussetzungen, Durchführungsort, verantwortliche Person), für AMM notwendige Daten Stellensuchender, für AMM notwendige IS-ALA-Daten</p>
+				</td>
+				<td>
+					
+					<p>F</p>
+				</td>
+				<td>
+					
+					<p>F</p>
+				</td>
+				<td>
+					
+					<p>F</p>
+				</td>
+				<td>
+					
+					<p>F</p>
+				</td>
+			</tr>
+			<tr>
+				
+				<td>
+					
+					<p>Leistungsexporte</p>
+				</td>
+				<td>
+					
+					<p>F</p>
+				</td>
+				<td>
+					
+					<p>F</p>
+				</td>
+				<td>
+					
+					<p>F</p>
+				</td>
+				<td>
+					
+					<p>–</p>
+				</td>
+			</tr>
+			<tr>
+				
+				<td>
+					
+					<p>Arbeitsbemühungen (Kontrollperiode, Personalberaterin oder Personalberater), Nachweisbefreiung </p>
+				</td>
+				<td>
+					
+					<p>F</p>
+				</td>
+				<td>
+					
+					<p>F</p>
+				</td>
+				<td>
+					
+					<p>F</p>
+				</td>
+				<td>
+					
+					<p>–</p>
+				</td>
+			</tr>
+			<tr>
+				
+				<td>
+					
+					<p>Grund, Beginn und Dauer von Sanktionen, Vermittlungsfähigkeit</p>
+				</td>
+				<td>
+					
+					<p>F</p>
+				</td>
+				<td>
+					
+					<p>–</p>
+				</td>
+				<td>
+					
+					<p>F</p>
+				</td>
+				<td>
+					
+					<p>–</p>
+				</td>
+			</tr>
+			<tr>
+				
+				<td>
+					
+					<p>Abmeldedatum und Abmeldegrund, Arbeitsbeginn, neuer Arbeitgeber, <br/>neuer Arbeitskanton, Branche und gefundener Beruf</p>
+				</td>
+				<td>
+					
+					<p>F</p>
+				</td>
+				<td>
+					
+					<p>F</p>
+				</td>
+				<td>
+					
+					<p>F</p>
+				</td>
+				<td>
+					
+					<p>F</p>
+				</td>
+			</tr>
+			
+		</table><table border="1">
+			
+			
+			<tr>
+				
+				
+				<th xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">
+					
+					
+				</th>
+				<th xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">
+					
+					<p>KAST</p>
+				</th>
+				<th colspan="3" xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">
+					
+					<p>SH im Rahmen der IIZ</p>
+				</th>
+				<th colspan="2" xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">
+					
+					<p>IV im Rahmen der IIZ</p>
+				</th>
+				<th colspan="2" xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">
+					
+					<p>KD</p>
+				</th>
+				<th colspan="2" xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">
+					
+					<p>KB</p>
+				</th>
+			</tr>
+			<tr>
+				
+				
+				<th xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">
+					
+					
+				</th>
+				<th colspan="3" xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">
+					
+					
+				</th>
+				<th colspan="2" xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">
+					
+					
+				</th>
+				<th colspan="2" xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">
+					
+					
+				</th>
+				<th colspan="3" xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">
+					
+					
+				</th>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Unternehmen</p>
+				</td>
+				<td colspan="2">
+					
+					
+				</td>
+				<td colspan="2">
+					
+					
+				</td>
+				<td colspan="2">
+					
+					
+				</td>
+				<td colspan="3">
+					
+					
+				</td>
+				<td>
+					
+					
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Name, Adresse, Telefonnummer, Fax, E-Mail-Adresse, Webadresse, Branche, Unternehmensstatus, Verweiser-Nummer</p>
+				</td>
+				<td colspan="2">
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">A</p>
+				</td>
+				<td colspan="2">
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">F</p>
+				</td>
+				<td colspan="2">
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">A</p>
+				</td>
+				<td colspan="3">
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">A</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">–</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p>BUR-Daten (BUR-Nummer, Adresse, Telefonnummer, Rechtsform, Betriebsgrösse, Wirtschaftsstatus, Arbeitssprache), Handelsregisterdaten</p>
+				</td>
+				<td colspan="2">
+					
+					<p>A</p>
+				</td>
+				<td colspan="2">
+					
+					<p>F</p>
+				</td>
+				<td colspan="2">
+					
+					<p>A</p>
+				</td>
+				<td colspan="3">
+					
+					<p>A</p>
+				</td>
+				<td>
+					
+					<p>–</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p>Kontaktpersonen (Funktion, Stellung, Sprache, Adresse, Telefonnummer, Fax, E-Mail-Adresse)</p>
+				</td>
+				<td colspan="2">
+					
+					<p>A</p>
+				</td>
+				<td colspan="2">
+					
+					<p>F</p>
+				</td>
+				<td colspan="2">
+					
+					<p>A</p>
+				</td>
+				<td colspan="3">
+					
+					<p>A</p>
+				</td>
+				<td>
+					
+					<p>–</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p>Vereinbarung zur Zusammenarbeit, Geschäftstätigkeit, Erreichbarkeit</p>
+				</td>
+				<td colspan="2">
+					
+					<p>A</p>
+				</td>
+				<td colspan="2">
+					
+					<p>F</p>
+				</td>
+				<td colspan="2">
+					
+					<p>A</p>
+				</td>
+				<td colspan="3">
+					
+					<p>A</p>
+				</td>
+				<td>
+					
+					<p>–</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p>Beschäftigte Berufsgruppen</p>
+				</td>
+				<td colspan="2">
+					
+					<p>A</p>
+				</td>
+				<td colspan="2">
+					
+					<p>F</p>
+				</td>
+				<td colspan="2">
+					
+					<p>A</p>
+				</td>
+				<td colspan="3">
+					
+					<p>A</p>
+				</td>
+				<td>
+					
+					<p>–</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p>Geschäftsgang (Zeitraum, Stellen, durch RAV besetzte Stellen, KAE, SWE, Anzahl beschäftigte Stellensuchende, Zuschüsse) </p>
+				</td>
+				<td colspan="2">
+					
+					<p>A</p>
+				</td>
+				<td colspan="2">
+					
+					<p>F</p>
+				</td>
+				<td colspan="2">
+					
+					<p>A</p>
+				</td>
+				<td colspan="3">
+					
+					<p>A</p>
+				</td>
+				<td>
+					
+					<p>–</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p>Ausgeschriebene Stellen, Zuweisungen, Stellenmeldung, Stellenabmeldung (Grund, Datum), Stellenbezeichnung, Arbeitsbedingungen (Antritt, Dauer, Beschäftigungsgrad, Lohn, Örtlichkeit), Tätigkeit, Stellenanforderungen (Qualifikation, Erfahrung, Ausbildungsniveau, Abschluss), erforderliche Sprachkenntnisse, Kontaktperson </p>
+				</td>
+				<td colspan="2">
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">A</p>
+				</td>
+				<td colspan="2">
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">F</p>
+				</td>
+				<td colspan="2">
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">A</p>
+				</td>
+				<td colspan="3">
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">A</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">–</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p>Bestätigung des Eingangs der Meldungen nach Art. 53<i>b</i> Abs. 4 der Arbeitsvermittlungsverordnung vom 16. Januar 1991<authorialNote>
+		<p>  <ref href="https://fedlex.data.admin.ch/eli/cc/1991/408_408_408" xmlns:data="urn:com:c-moria:legi4ch:xslt:data" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">SR <b>823.111</b></ref></p>
+	</authorialNote> (Name und Adresse des Unternehmens)</p>
+				</td>
+				<td colspan="2">
+					
+					<p>–</p>
+				</td>
+				<td colspan="2">
+					
+					<p>–</p>
+				</td>
+				<td colspan="2">
+					
+					<p>–</p>
+				</td>
+				<td colspan="3">
+					
+					<p>–</p>
+				</td>
+				<td>
+					
+					<p>A</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p>Matchingresultate</p>
+				</td>
+				<td colspan="2">
+					
+					<p>A</p>
+				</td>
+				<td colspan="2">
+					
+					<p>–</p>
+				</td>
+				<td colspan="2">
+					
+					<p>A</p>
+				</td>
+				<td colspan="3">
+					
+					<p>A</p>
+				</td>
+				<td>
+					
+					<p>–</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p>Beginn, Dauer und Höhe des Anspruchs auf Versicherungsleistungen, zuständige Amtsstellen und -personen, Betriebsabteilung, Anzahl der betroffenen Arbeitnehmerinnen und Arbeitnehmer</p>
+				</td>
+				<td colspan="2">
+					
+					<p>A</p>
+				</td>
+				<td colspan="2">
+					
+					<p>–</p>
+				</td>
+				<td colspan="2">
+					
+					<p>–</p>
+				</td>
+				<td colspan="3">
+					
+					<p>–</p>
+				</td>
+				<td>
+					
+					<p>–</p>
+				</td>
+			</tr>
+			
+		</table></content></level></level></mainBody></doc></component><component><doc name="annex"><meta><identification source="#ch.bk"><FRBRWork><FRBRthis value="https://fedlex.data.admin.ch/eli/cc/2021/337/20250601/main-text"/><FRBRuri value="https://fedlex.data.admin.ch/eli/cc/2021/337/20250601"/><FRBRdate date="2025-06-01" name="jolux:dateApplicability"/><FRBRdate date="2021-05-26" name="jolux:dateDocument"/><FRBRdate date="2021-07-01" name="jolux:dateEntryInForce"/><FRBRauthor href="#ch.bk" as="#publisher"/><FRBRauthor href="#ch.bk" as="#rightsHolder"/><FRBRcountry value="CH"/><FRBRnumber value=""/><FRBRname xml:lang="fr" value="Ordonnance du 26 mai 2021 sur les systèmes d’information gérés par l’organe de compensation de l’assurance-chômage (Ordonnance sur les systèmes d’information AC, OSI-AC)" shortForm="OSI-AC"/><FRBRname xml:lang="it" value="Ordinanza del 26 maggio 2021 sui sistemi d’informazione gestiti dall’ufficio di compensazione dell’assicurazione contro la disoccupazione (Ordinanza sui sistemi d’informazione AD, OSI-AC)" shortForm="OSI-AC"/><FRBRname xml:lang="de" value="Verordnung vom 26. Mai 2021 für die von der Ausgleichsstelle der Arbeitslosenversicherung betriebenen Informationssysteme (ALV-Informationssystemeverordnung, ALV-IsV)" shortForm="ALV-IsV"/><FRBRauthoritative value="true"/></FRBRWork><FRBRExpression><FRBRthis value="https://fedlex.data.admin.ch/eli/cc/2021/337/20250601/de/main-text"/><FRBRuri value="https://fedlex.data.admin.ch/eli/cc/2021/337/20250601/de"/><FRBRdate date="2025-06-01" name="jolux:dateApplicability"/><FRBRdate date="2021-05-26" name="jolux:dateDocument"/><FRBRdate date="2021-07-01" name="jolux:dateEntryInForce"/><FRBRauthor href="#ch.bk" as="#publisher"/><FRBRauthor href="#ch.bk" as="#rightsHolder"/><FRBRlanguage language="de"/></FRBRExpression><FRBRManifestation><FRBRthis value="https://fedlex.data.admin.ch/eli/cc/2021/337/20250601/de/xml/main-text"/><FRBRuri value="https://fedlex.data.admin.ch/eli/cc/2021/337/20250601/de/xml"/><FRBRdate date="2025-06-01" name="jolux:dateApplicability"/><FRBRdate date="2021-05-26" name="jolux:dateDocument"/><FRBRdate date="2021-07-01" name="jolux:dateEntryInForce"/><FRBRauthor href="#ch.bk" as="#publisher"/><FRBRauthor href="#ch.bk" as="#rightsHolder"/><FRBRformat value="xml"/></FRBRManifestation></identification></meta><preface><container name="headerOfAnnex"><block name="num">Anhang 3</block></container></preface><mainBody><p>(Art. 20 und 25)</p><level eId="annex_3/lvl_u1"><heading>Zugangsplattform für elektronische Dienstleistungen und Plattform der öffentlichen Arbeitsvermittlung <br/>(Art. 83 Abs. 1<sup>bis</sup> Bst. d und e AVIG): Funktionen und Zugriffsrechte</heading><level eId="annex_3/lvl_u1/lvl_1"><num>1.</num><heading>Abkürzungen</heading><content><table fedlex:function="layout">
+			
+			
+			<tr>
+				
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">AMM Arbeitsmarktliche Massnahmen</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">RAV Regionale Arbeitsvermittlungszentren</p>
+				</td>
+			</tr>
+		</table></content></level><level eId="annex_3/lvl_u1/lvl_2"><num>2.</num><heading>Rollenbeschreibung</heading><content><table border="1">
+			
+			
+			<tr>
+				
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Rollen</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Beschreibung</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Anonym</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Benutzerinnen und Benutzer ohne Zugangskonto auf der Plattform der öffentlichen Arbeitsvermittlung</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">STES</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Beim RAV aktiv gemeldete stellensuchende Personen und/oder versicherte Personen <br/>mit Zugangskonto auf der Plattform der öffentlichen Arbeitsvermittlung</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Arbeitgeber</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Arbeitgeber mit Zugangskonto auf der Plattform der öffentlichen Arbeitsvermittlung</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">pAV</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Private Arbeitsvermittler und Personalverleihunternehmen (Verleiher) mit Zugangskonto auf der Plattform der öffentlichen Arbeitsvermittlung</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">öAV</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Mitarbeiterinnen und Mitarbeiter der öffentlichen Arbeitsvermittlung mit Zugangskonto auf der Plattform der öffentlichen Arbeitsvermittlung </p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">SYS-Admin</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Beauftragte Informatikentwicklung mit Zugangskonto auf der Plattform der öffentlichen Arbeitsvermittlung</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">AMM-Anbieter </p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Anbieter von AMM mit Zugangskonto auf der Plattform der öffentlichen Arbeitsvermittlung</p>
+				</td>
+			</tr>
+		</table></content></level><level eId="annex_3/lvl_u1/lvl_3"><num>3.</num><heading>Funktionen und Zugriffsrechte</heading><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Legende:</p><table fedlex:function="layout">
+			
+			
+			<tr>
+				
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">X Zugriff</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">– Kein Zugriff</p>
+				</td>
+			</tr>
+		</table><table border="1">
+			
+			
+			<tr>
+				
+				
+				<th xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">
+					
+					<p>Funktionen</p>
+				</th>
+				<th colspan="7" xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">
+					
+					<p>Rollen </p>
+				</th>
+			</tr>
+			<tr>
+				
+				
+				<th xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">
+					
+					<p> </p>
+				</th>
+				<th xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">
+					
+					<p>Anonym</p>
+				</th>
+				<th xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">
+					
+					<p>STES</p>
+				</th>
+				<th xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">
+					
+					<p>Arbeitgeber</p>
+				</th>
+				<th xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">
+					
+					<p>pAV</p>
+				</th>
+				<th xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">
+					
+					<p>SYS-Admin</p>
+				</th>
+				<th xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">
+					
+					<p>öAV</p>
+				</th>
+				<th xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">
+					
+					<p>AMM-Anbieter</p>
+				</th>
+			</tr>
+			<tr>
+				
+				
+				<th xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">
+					
+					
+				</th>
+				<th xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">
+					
+					
+				</th>
+				<th xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">
+					
+					
+				</th>
+				<th xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">
+					
+					
+				</th>
+				<th xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">
+					
+					
+				</th>
+				<th xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">
+					
+					
+				</th>
+				<th xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">
+					
+					
+				</th>
+				<th xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">
+					
+					
+				</th>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Kandidatinnen und Kandidaten suchen</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">X</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">X</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">X</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">X</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">X</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">X</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">X</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Personalien und Kontaktdaten der Kandidatinnen und Kandidaten einsehen</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">–</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">–</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">–</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">X</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">X</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">–</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">–</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Kandidatinnen und Kandidaten kontaktieren</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">–</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">–</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">X</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">X</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">–</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">–</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">–</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Stellen melden</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">X</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">–</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">X</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">X</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">–</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">–</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">–</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Stellen bewirtschaften</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">–</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">–</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">X</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">X</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">–</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">–</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">–</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Stellen suchen</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">X</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">X</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">X</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">X</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">X</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">X</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">X</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Auf die Dienstleistungen rund <br/>um die Stellensuche zugreifen</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">–</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">X</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">X</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">X</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">X</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">X</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">X</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Auf den Informationsvorsprung zugreifen</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">–</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">X</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">–</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">–</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">X</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">X</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">–</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Persönliche Arbeitsbemühungen nachweisen</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">–</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">X</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">–</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">–</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">–</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">–</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">–</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Bewerbungsunterlagen einreichen</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">–</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">X</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">–</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">–</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">–</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">–</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">–</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Angaben der versicherten Person einreichen</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">–</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">X</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">–</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">–</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">–</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">–</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">–</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Voranmeldung Kurzarbeit einreichen</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">X</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">–</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">X</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">X</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">X</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">–</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">–</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Antrag und Abrechnung Kurzarbeitsentschädigung einreichen</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">–</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">–</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">X</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">X</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">X</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">–</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">–</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Anmeldung zur Arbeitsvermittlung</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">X</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">–</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">–</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">–</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">–</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">–</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">–</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Daten der Entscheide einsehen <br/>(inklusive ausgewählter Daten <br/>von Stellensuchenden) </p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">–</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">X</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">–</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">–</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">–</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">X</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">X</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Dokumente im Zusammenhang mit AMM herunterladen und hochladen</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">–</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">X</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">–</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">–</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">–</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">X</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">X</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">System verwalten</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">–</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">–</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">–</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">–</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">–</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">X</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">–</p>
+				</td>
+			</tr>
+			
+		</table></content></level></level></mainBody></doc></component></components></act></akomaNtoso>

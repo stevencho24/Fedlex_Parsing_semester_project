@@ -1,0 +1,1628 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:fedlex="http://fedlex.admin.ch/"><act name="publicLaw"><meta><identification source="#ch.bk"><FRBRWork><FRBRthis value="https://fedlex.data.admin.ch/eli/cc/2017/205/20250901/main-text"/><FRBRuri value="https://fedlex.data.admin.ch/eli/cc/2017/205/20250901"/><FRBRdate date="2017-03-22" name="jolux:dateDocument"/><FRBRdate date="2017-04-15" name="jolux:dateEntryInForce"/><FRBRdate date="2025-09-01" name="jolux:dateApplicability"/><FRBRauthor href="#ch.bk" as="#publisher"/><FRBRauthor href="#ch.bk" as="#rightsHolder"/><FRBRcountry value="CH"/><FRBRnumber value="816.111"/><FRBRname xml:lang="de" value="Verordnung des EDI vom 22. März 2017 über das elektronische Patientendossier (EPDV-EDI) " shortForm="EPDV-EDI"/><FRBRname xml:lang="it" value="Ordinanza del DFI del 22 marzo 2017 sulla cartella informatizzata del paziente (OCIP-DFI) " shortForm="OCIP-DFI"/><FRBRname xml:lang="fr" value="Ordonnance du DFI du 22 mars 2017 sur le dossier électronique du patient (ODEP-DFI) " shortForm="ODEP-DFI"/><FRBRauthoritative value="true"/></FRBRWork><FRBRExpression><FRBRthis value="https://fedlex.data.admin.ch/eli/cc/2017/205/20250901/de/main-text"/><FRBRuri value="https://fedlex.data.admin.ch/eli/cc/2017/205/20250901/de"/><FRBRdate date="2017-03-22" name="jolux:dateDocument"/><FRBRdate date="2017-04-15" name="jolux:dateEntryInForce"/><FRBRdate date="2025-09-01" name="jolux:dateApplicability"/><FRBRauthor href="#ch.bk" as="#publisher"/><FRBRauthor href="#ch.bk" as="#rightsHolder"/><FRBRlanguage language="de"/></FRBRExpression><FRBRManifestation><FRBRthis value="https://fedlex.data.admin.ch/eli/cc/2017/205/20250901/de/xml/main-text"/><FRBRuri value="https://fedlex.data.admin.ch/eli/cc/2017/205/20250901/de/xml"/><FRBRdate date="2017-03-22" name="jolux:dateDocument"/><FRBRdate date="2017-04-15" name="jolux:dateEntryInForce"/><FRBRdate date="2025-09-01" name="jolux:dateApplicability"/><FRBRauthor href="#ch.bk" as="#publisher"/><FRBRauthor href="#ch.bk" as="#rightsHolder"/><FRBRformat value="xml" fedlex:generator="2025-q2-rel-1.7.8"/></FRBRManifestation></identification><references source="#ch.bk"><TLCOrganization eId="ch.bk" href="https://fedlex.data.admin.ch/vocabulary/legal-institution/2" showAs="Bundeskanzlei"/><TLCRole eId="publisher" href="http://data.legilux.public.lu/resource/ontology/jolux#publisher" showAs="Editeur"/><TLCRole eId="rightsHolder" href="http://data.legilux.public.lu/resource/ontology/jolux#rightsHolder" showAs="Détenteur des droits"/><TLCReference name="language" href="http://publications.europa.eu/resource/authority/language/DEU" showAs="de"/><TLCReference name="format" href="https://fedlex.data.admin.ch/vocabulary/user-format/xml" showAs="xml"/></references></meta><preface><p><docNumber>816.111 </docNumber></p><p><docTitle>Verordnung des EDI <br/>über das elektronische Patientendossier</docTitle></p><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">(EPDV-EDI)</p><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">vom 22. März 2017 (Stand am 1. September 2025)</p></preface><preamble><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Das Eidgenössische Departement des Innern (EDI),</p><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">gestützt auf die Artikel 5 Absatz 2, 10 Absätze 3–5, 11, 12 Absatz 4, 18, 19, 22 Absatz 2, 28 Absatz 5, 30 Absätze 2 und 3, 31 Absätze 2 und 3 sowie 41 Absatz 2 der Verordnung vom 22. März 2017<authorialNote>
+		<p> <ref fedlex:rs-uri="https://fedlex.data.admin.ch/eli/cc/2017/204" fedlex:rs="816.11" href="https://fedlex.data.admin.ch/vocabulary/legal-taxonomy/9641">SR <b>816.11</b></ref></p>
+	</authorialNote> über das elektronische Patientendossier (EPDV),</p><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">verordnet:</p></preamble><body><article eId="art_1"><num><b>Art. 1</b></num><heading>Patientenidentifikationsnummer</heading><paragraph eId="art_1/para"><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Der Aufbau der Patientenidentifikationsnummer und die Berechnung der Prüfziffer nach Artikel 5 Absatz 2 EPDV sind in Anhang 1 festgelegt.</p></content></paragraph></article><article eId="art_2"><num><b>Art. 2</b></num><heading>Technische und organisatorische Zertifizierungsvoraussetzungen für Gemeinschaften und Stammgemeinschaften</heading><paragraph eId="art_2/para_1"><num>1</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Die technischen und organisatorischen Zertifizierungsvoraussetzungen für Gemeinschaften und Stammgemeinschaften nach Artikel 30 Absatz 2 EPDV sind in Anhang 2 festgelegt.</p></content></paragraph><paragraph eId="art_2/para_2"><num>2</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Das Bundesamt für Gesundheit (BAG) kann die technischen und organisatorischen Zertifizierungsvoraussetzungen für Gemeinschaften und Stammgemeinschaften dem Stand der Technik anpassen.</p></content></paragraph></article><article eId="art_3"><num><b>Art. 3</b></num><heading>Metadaten für den Austausch medizinischer Daten<authorialNote>
+		<p> Fassung gemäss Ziff. I der V des EDI vom 24. Juni 2019, in Kraft seit 15. Juli 2019  (<ref href="https://fedlex.data.admin.ch/eli/oc/2019/381" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">AS <b>2019 </b>2075</ref>).</p>
+	</authorialNote></heading><paragraph eId="art_3/para_1"><num>1</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Die Metadaten nach Artikel 10 Absatz 3 Buchstabe a EPDV, die für den Austausch medizinischer Daten zu verwenden sind, sind in Anhang 3 festgelegt.<authorialNote>
+		<p> Fassung gemäss Ziff. I der V des EDI vom 24. Juni 2019, in Kraft seit 15. Juli 2019  (<ref href="https://fedlex.data.admin.ch/eli/oc/2019/381" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">AS <b>2019 </b>2075</ref>).</p>
+	</authorialNote></p></content></paragraph><paragraph eId="art_3/para_2"><num>2</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Das BAG kann die Metadaten dem Stand der Technik anpassen.</p></content></paragraph></article><article eId="art_4"><num><b>Art. 4</b></num><heading>Austauschformate</heading><paragraph eId="art_4/para_1"><num>1</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Die Austauschformate nach Artikel 10 Absatz 3 Buchstabe b EPDV sind in Anhang 4 festgelegt.</p></content></paragraph><paragraph eId="art_4/para_2"><num>2</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Das BAG kann die Austauschformate dem Stand der Technik anpassen.</p></content></paragraph></article><article eId="art_5"><num><b>Art. 5</b></num><heading>Integrationsprofile</heading><paragraph eId="art_5/para_1"><num>1</num><content><blockList><listIntroduction eId="art_5/para_1/listintro" xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Anhang 5 legt in Anwendung von Artikel 10 Absatz 3 Buchstaben c und d EPDV fest:</listIntroduction><item eId="art_5/para_1/lbl_a"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">a. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">die Integrationsprofile;</p></item><item eId="art_5/para_1/lbl_b"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">b. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">die nationalen Anpassungen der Integrationsprofile;</p></item><item eId="art_5/para_1/lbl_c"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">c. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">die nationalen Integrationsprofile.</p></item></blockList></content></paragraph><paragraph eId="art_5/para_2"><num>2</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Das BAG kann die Anforderungen nach Absatz 1 dem Stand der Technik anpassen.</p></content></paragraph></article><article eId="art_6"><num><b>Art. 6</b></num><heading>Evaluation und Forschung</heading><paragraph eId="art_6/para_1"><num>1</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Anhang 6 enthält die nach Artikel 22 Absatz 2 EPDV durch Gemeinschaften und Stammgemeinschaften zu liefernden Daten.<authorialNote>
+		<p> Fassung gemäss Ziff. I der V des EDI vom 24. Juni 2019, in Kraft seit 15. Juli 2019  (<ref href="https://fedlex.data.admin.ch/eli/oc/2019/381" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">AS <b>2019 </b>2075</ref>).</p>
+	</authorialNote></p></content></paragraph><paragraph eId="art_6/para_1_bis"><num>1bis</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Das BAG fordert die Daten periodisch ein und stellt die notwendigen Formulare zur Verfügung.<authorialNote>
+		<p> Eingefügt durch Ziff. I der V des EDI vom 24. Juni 2019, in Kraft seit 15. Juli 2019  (<ref href="https://fedlex.data.admin.ch/eli/oc/2019/381" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">AS <b>2019 </b>2075</ref>).</p>
+	</authorialNote></p></content></paragraph><paragraph eId="art_6/para_2"><num>2</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Das BAG kann die Daten nach Absatz 1 dem Stand der Technik anpassen.</p></content></paragraph></article><article eId="art_7"><num><b>Art. 7</b></num><heading>Mindestanforderungen an das Personal</heading><paragraph eId="art_7/para_1"><num>1</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Die Mindestanforderungen an die Qualifikation des Personals nach Artikel 28 Absatz 5 EPDV, das Zertifizierungen durchführt, sind in Anhang 7 festgelegt.</p></content></paragraph><paragraph eId="art_7/para_2"><num>2</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Das BAG kann die Mindestanforderungen an die Qualifikation des Personals dem Stand der Technik anpassen.<authorialNote>
+		<p> Eingefügt durch Ziff. I der V des EDI vom 24. Juni 2019, in Kraft seit 15. Juli 2019  (<ref href="https://fedlex.data.admin.ch/eli/oc/2019/381" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">AS <b>2019 </b>2075</ref>).</p>
+	</authorialNote></p></content></paragraph></article><article eId="art_8"><num><b>Art. 8</b></num><heading>Technische und organisatorische Zertifizierungsvoraussetzungen für Herausgeber von Identifikationsmitteln</heading><paragraph eId="art_8/para_1"><num>1</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Die technischen und organisatorischen Zertifizierungsvoraussetzungen für Herausgeber von Identifikationsmitteln nach Artikel 31 Absatz 2 EPDV sind in Anhang 8 festgelegt.</p></content></paragraph><paragraph eId="art_8/para_2"><num>2</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Das BAG kann die technischen und organisatorischen Zertifizierungsvoraussetzungen für Herausgeber von Identifikationsmitteln dem Stand der Technik anpassen.</p></content></paragraph></article><article eId="art_8_a"><num><b>Art. </b><b>8</b><i>a</i><authorialNote>
+		<p> Eingefügt durch Ziff. I der V des EDI vom 24. Juni 2019, in Kraft seit 15. Juli 2019  (<ref href="https://fedlex.data.admin.ch/eli/oc/2019/381" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">AS <b>2019 </b>2075</ref>).</p>
+	</authorialNote></num><heading>Dienst zur Abfrage der Gesundheitseinrichtungen und Gesundheitsfachpersonen</heading><paragraph eId="art_8_a/para_1"><num>1</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Gemeinschaften und Stammgemeinschaften tragen im Dienst zur Abfrage der Gesundheitseinrichtungen und Gesundheitsfachpersonen zu jeder ihr angeschlossenen Gesundheitseinrichtung die Identifikationsnummer nach Artikel 3 Absatz 2 Buchstabe c der Verordnung vom 30. Juni 1993<authorialNote>
+		<p> <ref fedlex:rs-uri="https://fedlex.data.admin.ch/eli/cc/1993/2253_2253_2253" fedlex:rs="431.903" href="https://fedlex.data.admin.ch/vocabulary/legal-taxonomy/7035">SR <b>431.903</b></ref></p>
+	</authorialNote> über das Betriebs- und Unternehmensregister (BUR-Nummer) ein.</p></content></paragraph><paragraph eId="art_8_a/para_2"><num>2</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Die für die Bezeichnung der Gesundheitseinrichtungen und Gesundheitsfachpersonen zu verwendenden Metadaten nach Artikel 10 Absatz 3 Buchstabe a EPDV sind in Anhang 9 festgelegt.</p></content></paragraph><paragraph eId="art_8_a/para_3"><num>3</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Das BAG kann die Vorgaben nach Absatz 2 dem Stand der Technik anpassen.</p></content></paragraph></article><article eId="art_8_b"><num><b>Art. 8</b><i>b</i><authorialNote>
+		<p> Eingefügt durch Ziff. I der V des EDI vom 28. Okt. 2022, in Kraft seit 1. Dez. 2022  (<ref href="https://fedlex.data.admin.ch/eli/oc/2022/657" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">AS <b>2022 </b>657</ref>).</p>
+	</authorialNote></num><heading>Übergangsbestimmung zur Änderung vom 28. Oktober 2022</heading><paragraph eId="art_8_b/para"><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Bis zum 31. Dezember 2023 müssen Gemeinschaften und Stammgemeinschaften die Änderung vom 28. Oktober 2022 nicht umsetzen.</p></content></paragraph></article><article eId="art_8_c"><num><b>Art. 8</b><i>c</i><authorialNote>
+		<p> Eingefügt durch Ziff. I der V des EDI vom 4. Mai 2023, in Kraft seit 1. Juni 2023  (<ref href="https://fedlex.data.admin.ch/eli/oc/2023/221" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">AS <b>2023 </b>221</ref>).</p>
+	</authorialNote></num><heading>Übergangsbestimmung zur Änderung vom 4. Mai 2023</heading><paragraph eId="art_8_c/para"><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Bis zum 31. Mai 2024 müssen Gemeinschaften und Stammgemeinschaften die Änderung vom 4. Mai 2023 nicht umsetzen.</p></content></paragraph></article><article eId="art_8_d"><num><b>Art. 8</b><i>d</i><authorialNote>
+		<p> Eingefügt durch Ziff. I der V des EDI vom 24. April 2024, in Kraft seit 1. Juni 2024  (<ref href="https://fedlex.data.admin.ch/eli/oc/2024/194" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">AS <b>2024</b> 194</ref>).</p>
+	</authorialNote></num><heading>Übergangsbestimmung zur Änderung vom 24. April 2024</heading><paragraph eId="art_8_d/para"><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Bis zum 31. Mai 2025 müssen Gemeinschaften und Stammgemeinschaften die Änderung vom 24. April 2024 nicht umsetzen.</p></content></paragraph></article><article eId="art_8_e"><num><b>Art. 8</b><i>e</i><authorialNote>
+		<p> Eingefügt durch Ziff. I der V des EDI vom 30. April 2025, in Kraft seit 1. Juni 2025  (<ref href="https://fedlex.data.admin.ch/eli/oc/2025/309" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">AS <b>2025</b> 309</ref>).</p>
+	</authorialNote></num><heading>Übergangsbestimmung zur Änderung vom 30. April 2025</heading><paragraph eId="art_8_e/para"><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Bis zum 31. Mai 2027 müssen Herausgeber von Identifikationsmitteln, Gemeinschaften und Stammgemeinschaften die Änderung vom 30. April 2025 nicht umsetzen.</p></content></paragraph></article><article eId="art_9"><num><b>Art. 9</b></num><heading>Inkrafttreten</heading><paragraph eId="art_9/para"><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Diese Verordnung tritt am 15. April 2017 in Kraft.</p></content></paragraph></article></body><components><component><doc name="annex"><meta><identification source="#ch.bk"><FRBRWork><FRBRthis value="https://fedlex.data.admin.ch/eli/cc/2017/205/20250901/main-text"/><FRBRuri value="https://fedlex.data.admin.ch/eli/cc/2017/205/20250901"/><FRBRdate date="2017-03-22" name="jolux:dateDocument"/><FRBRdate date="2017-04-15" name="jolux:dateEntryInForce"/><FRBRdate date="2025-09-01" name="jolux:dateApplicability"/><FRBRauthor href="#ch.bk" as="#publisher"/><FRBRauthor href="#ch.bk" as="#rightsHolder"/><FRBRcountry value="CH"/><FRBRnumber value="816.111"/><FRBRname xml:lang="de" value="Verordnung des EDI vom 22. März 2017 über das elektronische Patientendossier (EPDV-EDI) " shortForm="EPDV-EDI"/><FRBRname xml:lang="it" value="Ordinanza del DFI del 22 marzo 2017 sulla cartella informatizzata del paziente (OCIP-DFI) " shortForm="OCIP-DFI"/><FRBRname xml:lang="fr" value="Ordonnance du DFI du 22 mars 2017 sur le dossier électronique du patient (ODEP-DFI) " shortForm="ODEP-DFI"/><FRBRauthoritative value="true"/></FRBRWork><FRBRExpression><FRBRthis value="https://fedlex.data.admin.ch/eli/cc/2017/205/20250901/de/main-text"/><FRBRuri value="https://fedlex.data.admin.ch/eli/cc/2017/205/20250901/de"/><FRBRdate date="2017-03-22" name="jolux:dateDocument"/><FRBRdate date="2017-04-15" name="jolux:dateEntryInForce"/><FRBRdate date="2025-09-01" name="jolux:dateApplicability"/><FRBRauthor href="#ch.bk" as="#publisher"/><FRBRauthor href="#ch.bk" as="#rightsHolder"/><FRBRlanguage language="de"/></FRBRExpression><FRBRManifestation><FRBRthis value="https://fedlex.data.admin.ch/eli/cc/2017/205/20250901/de/xml/main-text"/><FRBRuri value="https://fedlex.data.admin.ch/eli/cc/2017/205/20250901/de/xml"/><FRBRdate date="2017-03-22" name="jolux:dateDocument"/><FRBRdate date="2017-04-15" name="jolux:dateEntryInForce"/><FRBRdate date="2025-09-01" name="jolux:dateApplicability"/><FRBRauthor href="#ch.bk" as="#publisher"/><FRBRauthor href="#ch.bk" as="#rightsHolder"/><FRBRformat value="xml"/></FRBRManifestation></identification></meta><preface><container name="headerOfAnnex"><block name="num">Anhang 1</block></container></preface><mainBody><p>(Art. 1)</p><level eId="annex_1/lvl_u1"><heading>Patientenidentifikationsnummer</heading><level eId="annex_1/lvl_u1/lvl_1"><num>1</num><heading>Aufbau der Patientenidentifikationsnummer</heading><content><blockList><item eId="annex_1/lvl_u1/lvl_1/lbl_1_1"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">1.1 </num><blockList><listIntroduction eId="annex_1/lvl_u1/lvl_1/lbl_1_1/listintro" xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Die Patientenidentifikationsnummer besteht aus:</listIntroduction><item eId="annex_1/lvl_u1/lvl_1/lbl_1_1/lbl_1_1_1"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">1.1.1 </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">einem zweistelligen Ländercode;</p></item><item eId="annex_1/lvl_u1/lvl_1/lbl_1_1/lbl_1_1_2"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">1.1.2 </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">einer fünfstelligen Nummer für die Bezeichnung des registrierten Teilnehmers «Bundesamt für Gesundheit»;</p></item><item eId="annex_1/lvl_u1/lvl_1/lbl_1_1/lbl_1_1_3"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">1.1.3 </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">einer einstelligen Nummer für die Bezeichnung des Anwendungsbereichs «Elektronisches Patientendossier»;</p></item><item eId="annex_1/lvl_u1/lvl_1/lbl_1_1/lbl_1_1_4"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">1.1.4 </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">einer neunstelligen Nummer für die Identifikation der Patientin oder des Patienten;</p></item><item eId="annex_1/lvl_u1/lvl_1/lbl_1_1/lbl_1_1_5"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">1.1.5 </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">einer einstelligen Prüfziffer.</p></item></blockList></item></blockList><table border="1">
+			
+			
+			<tr>
+				
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Stelle</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">N<sub>1</sub></p>
+				</td>
+				<td colspan="2">
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">N<sub>2</sub></p>
+				</td>
+				<td colspan="3">
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">N<sub>3</sub></p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">N<sub>4</sub></p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">N<sub>5</sub></p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">N<sub>6</sub></p>
+				</td>
+				<td colspan="3">
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">N<sub>7</sub></p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">N<sub>8</sub></p>
+				</td>
+				<td colspan="5">
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">N<sub>9</sub></p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">N<sub>10</sub></p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">N<sub>11</sub></p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">N<sub>12</sub></p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">N<sub>13</sub></p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">N<sub>14</sub></p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">N<sub>15</sub></p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">N<sub>16</sub></p>
+				</td>
+				<td colspan="5">
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">N<sub>17</sub></p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">N<sub>18</sub></p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Bezeichnung</p>
+				</td>
+				<td colspan="2">
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Ländercode</p>
+				</td>
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					
+				</td>
+				<td colspan="5">
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Teilnehmernummer</p>
+				</td>
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">EPD</p>
+				</td>
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					
+				</td>
+				<td colspan="9">
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Identifikationsnummer</p>
+				</td>
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					
+				</td>
+				<td colspan="2">
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Prüf-ziffer</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Wert</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">7</p>
+				</td>
+				<td colspan="2">
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">6</p>
+				</td>
+				<td colspan="3">
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">1</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">3</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">3</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">7</p>
+				</td>
+				<td colspan="3">
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">6</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">1</p>
+				</td>
+				<td colspan="5">
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">I<sub>1</sub></p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">I<sub>2</sub></p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">I<sub>3</sub></p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">I<sub>4</sub></p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">I<sub>5</sub></p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">I<sub>6</sub></p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">I<sub>7</sub></p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">I<sub>8</sub></p>
+				</td>
+				<td colspan="5">
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">I<sub>9</sub></p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">P</p>
+				</td>
+			</tr>
+		</table></content></level><level eId="annex_1/lvl_u1/lvl_2"><num>2</num><heading>Berechnung der Prüfziffer</heading><content><blockList><item eId="annex_1/lvl_u1/lvl_2/lbl_2_1"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">2.1 </num><blockList><listIntroduction eId="annex_1/lvl_u1/lvl_2/lbl_2_1/listintro" xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Die Prüfziffer ist die letzte Ziffer (N<sub>18</sub>) der Patientenidentifikationsnummer. Sie wird wie folgt berechnet:</listIntroduction><item eId="annex_1/lvl_u1/lvl_2/lbl_2_1/lbl_2_1_1"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">2.1.1 </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">In einem ersten Schritt werden die Ziffern von rechts nach links, beginnend mit der vorletzten (N<sub>n-1</sub>), abwechselnd mit 3 und 1 multipliziert; </p></item><item eId="annex_1/lvl_u1/lvl_2/lbl_2_1/lbl_2_1_2"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">2.1.2 </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">In einem zweiten Schritt werden die Produkte aus 2.1.1 addiert:<br/></p><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Zwischensumme = (3∙N<sub>n-1</sub>) + (1∙N<sub>n-2</sub>) + (3∙N<sub>n-3</sub>) ...;</p></item><item eId="annex_1/lvl_u1/lvl_2/lbl_2_1/lbl_2_1_3"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">2.1.3 </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">In einem dritten Schritt wird die Zwischensumme so ergänzt, dass die Gesamtsumme dem nächsthöheren Vielfachen der Zahl 10 entspricht: Die ergänzende Zahl ist die Prüfziffer x<sub>n</sub>.</p></item></blockList></item><item eId="annex_1/lvl_u1/lvl_2/lbl_2_2"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">2.2 </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Ist die Zwischensumme ein Vielfaches von 10, so ist die Prüfziffer 0.</p></item></blockList></content></level><level eId="annex_1/lvl_u1/lvl_3"><num>3</num><heading>Illustration des Prinzips</heading><content><table border="1">
+			
+			
+			<tr>
+				
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Position</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">N<sub>1</sub></p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">N<sub>2</sub></p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">N<sub>3</sub></p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">N<sub>4</sub></p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">N<sub>5</sub></p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">N<sub>6</sub></p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">N<sub>7</sub></p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">N<sub>8</sub></p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">N<sub>9</sub></p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">N<sub>10</sub></p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">N<sub>11</sub></p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">N<sub>12</sub></p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">N<sub>13</sub></p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">N<sub>14</sub></p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">N<sub>15</sub></p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">N<sub>16</sub></p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">N<sub>17</sub></p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">N<sub>18</sub></p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Nummer ohne Prüfziffer</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">7</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">6</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">1</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">3</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">3</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">7</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">6</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">1</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">1</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">2</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">3</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">4</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">5</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">6</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">7</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">8</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">9</p>
+				</td>
+				<td>
+					
+					
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Schritt 1: </p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">x</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">x</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">x</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">x</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">x</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">x</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">x</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">x</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">x</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">x</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">x</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">x</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">x</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">x</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">x</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">x</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">x</p>
+				</td>
+				<td>
+					
+					
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Multiplikation mit den Faktoren</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">3</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">1</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">3</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">1</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">3</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">1</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">3</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">1</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">3</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">1</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">3</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">1</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">3</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">1</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">3</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">1</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">3</p>
+				</td>
+				<td>
+					
+					
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Schritt 2: </p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">=</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">=</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">=</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">=</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">=</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">=</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">=</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">=</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">=</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">=</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">=</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">=</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">=</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">=</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">=</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">=</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">=</p>
+				</td>
+				<td>
+					
+					
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Addition der Produkte zur Summe aller Produkte</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">21</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">6</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">3</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">3</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">9</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">7</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">18</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">1</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">3</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">2</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">9</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">4</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">15</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">6</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">21</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">8</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">27</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">= 163</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td colspan="18">
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Schritt 3: Subtraktion der Summe aller Produkte vom nächst höheren Vielfachen von Zehn (170) = Prüfziffer (7)</p>
+				</td>
+				<td>
+					
+					
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Nummer mit Prüfziffer</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">7</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">6</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">1</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">3</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">3</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">7</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">6</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">1</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">1</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">2</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">3</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">4</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">5</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">6</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">7</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">8</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">9</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">7</p>
+				</td>
+			</tr>
+		</table></content></level></level></mainBody></doc></component><component><doc name="annex"><meta><identification source="#ch.bk"><FRBRWork><FRBRthis value="https://fedlex.data.admin.ch/eli/cc/2017/205/20250901/main-text"/><FRBRuri value="https://fedlex.data.admin.ch/eli/cc/2017/205/20250901"/><FRBRdate date="2017-03-22" name="jolux:dateDocument"/><FRBRdate date="2017-04-15" name="jolux:dateEntryInForce"/><FRBRdate date="2025-09-01" name="jolux:dateApplicability"/><FRBRauthor href="#ch.bk" as="#publisher"/><FRBRauthor href="#ch.bk" as="#rightsHolder"/><FRBRcountry value="CH"/><FRBRnumber value="816.111"/><FRBRname xml:lang="de" value="Verordnung des EDI vom 22. März 2017 über das elektronische Patientendossier (EPDV-EDI) " shortForm="EPDV-EDI"/><FRBRname xml:lang="it" value="Ordinanza del DFI del 22 marzo 2017 sulla cartella informatizzata del paziente (OCIP-DFI) " shortForm="OCIP-DFI"/><FRBRname xml:lang="fr" value="Ordonnance du DFI du 22 mars 2017 sur le dossier électronique du patient (ODEP-DFI) " shortForm="ODEP-DFI"/><FRBRauthoritative value="true"/></FRBRWork><FRBRExpression><FRBRthis value="https://fedlex.data.admin.ch/eli/cc/2017/205/20250901/de/main-text"/><FRBRuri value="https://fedlex.data.admin.ch/eli/cc/2017/205/20250901/de"/><FRBRdate date="2017-03-22" name="jolux:dateDocument"/><FRBRdate date="2017-04-15" name="jolux:dateEntryInForce"/><FRBRdate date="2025-09-01" name="jolux:dateApplicability"/><FRBRauthor href="#ch.bk" as="#publisher"/><FRBRauthor href="#ch.bk" as="#rightsHolder"/><FRBRlanguage language="de"/></FRBRExpression><FRBRManifestation><FRBRthis value="https://fedlex.data.admin.ch/eli/cc/2017/205/20250901/de/xml/main-text"/><FRBRuri value="https://fedlex.data.admin.ch/eli/cc/2017/205/20250901/de/xml"/><FRBRdate date="2017-03-22" name="jolux:dateDocument"/><FRBRdate date="2017-04-15" name="jolux:dateEntryInForce"/><FRBRdate date="2025-09-01" name="jolux:dateApplicability"/><FRBRauthor href="#ch.bk" as="#publisher"/><FRBRauthor href="#ch.bk" as="#rightsHolder"/><FRBRformat value="xml"/></FRBRManifestation></identification></meta><preface><container name="headerOfAnnex"><block name="num">Anhang 2<inline name="man-font-style-normal"><authorialNote>
+		<p> Fassung gemäss Ziff. I Abs. 1 der V des BAG vom 13. März 2020 (<ref href="https://fedlex.data.admin.ch/eli/oc/2020/200" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">AS <b>2020 </b>1111</ref>). Bereinigt gemäss Ziff. I Abs. 1 der V des BAG vom 16. März 2021 (<ref href="https://fedlex.data.admin.ch/eli/oc/2021/164" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">AS <b>2021 </b>164</ref>), Ziff. II Abs. 1 der V des EDI vom 28. Okt. 2022 (<ref href="https://fedlex.data.admin.ch/eli/oc/2022/657" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">AS <b>2022 </b>657</ref>), vom 4. Mai 2023  (<ref href="https://fedlex.data.admin.ch/eli/oc/2023/221" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">AS <b>2023 </b>221</ref>), vom 24. April 2024 (<ref href="https://fedlex.data.admin.ch/eli/oc/2024/194" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">AS <b>2024</b> 194</ref>), Ziff. I der V des EDI vom  28. Aug. 2024 (<ref href="https://fedlex.data.admin.ch/eli/oc/2024/460" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">AS <b>2024</b> 460</ref>) und Ziff. II Abs. 1 der V des EDI vom 30. April 2025, in Kraft seit 1. Juni 2025 (<ref href="https://fedlex.data.admin.ch/eli/oc/2025/309" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">AS <b>2025</b> 309</ref>).</p>
+	</authorialNote></inline></block></container></preface><mainBody><p>(Art. 2)</p><level eId="annex_2/lvl_u1"><heading>Technische und organisatorische Zertifizierungsvoraussetzungen für Gemeinschaften und Stammgemeinschaften<inline name="man-font-weight-normal"><sup><authorialNote>
+		<p> Der Inhalt dieses Anhangs wird in der AS und in der SR nur durch Verweis veröffentlicht. Er kann abgerufen werden unter:  <ref href="https://fedlex.data.admin.ch/eli/oc/2025/309">
+				https://fedlex.data.admin.ch/eli/oc/2025/309
+			</ref> &gt; Allgemeine Informationen &gt; Umfang der Veröffentlichung &gt; Veröffentlichung eines Textteils durch Verweis.</p>
+	</authorialNote></sup></inline></heading></level></mainBody></doc></component><component><doc name="annex"><meta><identification source="#ch.bk"><FRBRWork><FRBRthis value="https://fedlex.data.admin.ch/eli/cc/2017/205/20250901/main-text"/><FRBRuri value="https://fedlex.data.admin.ch/eli/cc/2017/205/20250901"/><FRBRdate date="2017-03-22" name="jolux:dateDocument"/><FRBRdate date="2017-04-15" name="jolux:dateEntryInForce"/><FRBRdate date="2025-09-01" name="jolux:dateApplicability"/><FRBRauthor href="#ch.bk" as="#publisher"/><FRBRauthor href="#ch.bk" as="#rightsHolder"/><FRBRcountry value="CH"/><FRBRnumber value="816.111"/><FRBRname xml:lang="de" value="Verordnung des EDI vom 22. März 2017 über das elektronische Patientendossier (EPDV-EDI) " shortForm="EPDV-EDI"/><FRBRname xml:lang="it" value="Ordinanza del DFI del 22 marzo 2017 sulla cartella informatizzata del paziente (OCIP-DFI) " shortForm="OCIP-DFI"/><FRBRname xml:lang="fr" value="Ordonnance du DFI du 22 mars 2017 sur le dossier électronique du patient (ODEP-DFI) " shortForm="ODEP-DFI"/><FRBRauthoritative value="true"/></FRBRWork><FRBRExpression><FRBRthis value="https://fedlex.data.admin.ch/eli/cc/2017/205/20250901/de/main-text"/><FRBRuri value="https://fedlex.data.admin.ch/eli/cc/2017/205/20250901/de"/><FRBRdate date="2017-03-22" name="jolux:dateDocument"/><FRBRdate date="2017-04-15" name="jolux:dateEntryInForce"/><FRBRdate date="2025-09-01" name="jolux:dateApplicability"/><FRBRauthor href="#ch.bk" as="#publisher"/><FRBRauthor href="#ch.bk" as="#rightsHolder"/><FRBRlanguage language="de"/></FRBRExpression><FRBRManifestation><FRBRthis value="https://fedlex.data.admin.ch/eli/cc/2017/205/20250901/de/xml/main-text"/><FRBRuri value="https://fedlex.data.admin.ch/eli/cc/2017/205/20250901/de/xml"/><FRBRdate date="2017-03-22" name="jolux:dateDocument"/><FRBRdate date="2017-04-15" name="jolux:dateEntryInForce"/><FRBRdate date="2025-09-01" name="jolux:dateApplicability"/><FRBRauthor href="#ch.bk" as="#publisher"/><FRBRauthor href="#ch.bk" as="#rightsHolder"/><FRBRformat value="xml"/></FRBRManifestation></identification></meta><preface><container name="headerOfAnnex"><block name="num">Anhang 3<inline name="man-font-style-normal"><authorialNote>
+		<p> Fassung gemäss Ziff. II Abs. 2 der V des EDI vom 24. Juni 2019 (<ref href="https://fedlex.data.admin.ch/eli/oc/2019/381" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">AS <b>2019 </b>2075</ref>). Bereinigt gemäss der Berichtigung vom 26. Nov. 2019 (<ref href="https://fedlex.data.admin.ch/eli/oc/2019/689" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">AS <b>2019</b> 3791</ref>), Ziff. I Abs. 1 der V des BAG vom 16. März 2021 (<ref href="https://fedlex.data.admin.ch/eli/oc/2021/164" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">AS <b>2021 </b>164</ref>), Ziff. II Abs. 1 der V des EDI vom  28. Okt. 2022 (<ref href="https://fedlex.data.admin.ch/eli/oc/2022/657" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">AS <b>2022 </b>657</ref>), vom 4. Mai 2023 (<ref href="https://fedlex.data.admin.ch/eli/oc/2023/221" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">AS <b>2023 </b>221</ref>), vom 24. April 2024  (<ref href="https://fedlex.data.admin.ch/eli/oc/2024/194" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">AS <b>2024</b> 194</ref>) und vom 30. April 2025, in Kraft seit 1. Juni 2025 (<ref href="https://fedlex.data.admin.ch/eli/oc/2025/309" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">AS <b>2025</b> 309</ref>).</p>
+	</authorialNote></inline></block></container></preface><mainBody><p>(Art. 3)</p><level eId="annex_3/lvl_u1"><heading>Metadaten für den Austausch medizinischer Daten<inline name="man-font-weight-normal"><sup><authorialNote>
+		<p> Der Inhalt dieses Anhangs wird in der AS und in der SR nur durch Verweis veröffentlicht. Er kann abgerufen werden unter:  <ref href="https://fedlex.data.admin.ch/eli/oc/2025/309">
+				https://fedlex.data.admin.ch/eli/oc/2025/309
+			</ref> &gt; Allgemeine Informationen &gt; Umfang der Veröffentlichung &gt; Veröffentlichung eines Textteils durch Verweis.</p>
+	</authorialNote></sup></inline></heading></level></mainBody></doc></component><component><doc name="annex"><meta><identification source="#ch.bk"><FRBRWork><FRBRthis value="https://fedlex.data.admin.ch/eli/cc/2017/205/20250901/main-text"/><FRBRuri value="https://fedlex.data.admin.ch/eli/cc/2017/205/20250901"/><FRBRdate date="2017-03-22" name="jolux:dateDocument"/><FRBRdate date="2017-04-15" name="jolux:dateEntryInForce"/><FRBRdate date="2025-09-01" name="jolux:dateApplicability"/><FRBRauthor href="#ch.bk" as="#publisher"/><FRBRauthor href="#ch.bk" as="#rightsHolder"/><FRBRcountry value="CH"/><FRBRnumber value="816.111"/><FRBRname xml:lang="de" value="Verordnung des EDI vom 22. März 2017 über das elektronische Patientendossier (EPDV-EDI) " shortForm="EPDV-EDI"/><FRBRname xml:lang="it" value="Ordinanza del DFI del 22 marzo 2017 sulla cartella informatizzata del paziente (OCIP-DFI) " shortForm="OCIP-DFI"/><FRBRname xml:lang="fr" value="Ordonnance du DFI du 22 mars 2017 sur le dossier électronique du patient (ODEP-DFI) " shortForm="ODEP-DFI"/><FRBRauthoritative value="true"/></FRBRWork><FRBRExpression><FRBRthis value="https://fedlex.data.admin.ch/eli/cc/2017/205/20250901/de/main-text"/><FRBRuri value="https://fedlex.data.admin.ch/eli/cc/2017/205/20250901/de"/><FRBRdate date="2017-03-22" name="jolux:dateDocument"/><FRBRdate date="2017-04-15" name="jolux:dateEntryInForce"/><FRBRdate date="2025-09-01" name="jolux:dateApplicability"/><FRBRauthor href="#ch.bk" as="#publisher"/><FRBRauthor href="#ch.bk" as="#rightsHolder"/><FRBRlanguage language="de"/></FRBRExpression><FRBRManifestation><FRBRthis value="https://fedlex.data.admin.ch/eli/cc/2017/205/20250901/de/xml/main-text"/><FRBRuri value="https://fedlex.data.admin.ch/eli/cc/2017/205/20250901/de/xml"/><FRBRdate date="2017-03-22" name="jolux:dateDocument"/><FRBRdate date="2017-04-15" name="jolux:dateEntryInForce"/><FRBRdate date="2025-09-01" name="jolux:dateApplicability"/><FRBRauthor href="#ch.bk" as="#publisher"/><FRBRauthor href="#ch.bk" as="#rightsHolder"/><FRBRformat value="xml"/></FRBRManifestation></identification></meta><preface><container name="headerOfAnnex"><block name="num">Anhang 4<inline name="man-font-style-normal"><authorialNote>
+		<p> Fassung gemäss Ziff. II Abs. 2 der V des EDI vom 24. Juni 2019 (<ref href="https://fedlex.data.admin.ch/eli/oc/2019/381" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">AS <b>2019 </b>2075</ref>). Bereinigt gemäss Ziff. II Abs. 1 der V des EDI vom 28. Okt. 2022 (<ref href="https://fedlex.data.admin.ch/eli/oc/2022/657" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">AS <b>2022 </b>657</ref>), vom  4. Mai 2023 (<ref href="https://fedlex.data.admin.ch/eli/oc/2023/221" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">AS <b>2023 </b>221</ref>), vom 24. April 2024 (<ref href="https://fedlex.data.admin.ch/eli/oc/2024/194" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">AS <b>2024</b> 194</ref>) und vom 30. April 2025, in Kraft seit 1. Juni 2025 (<ref href="https://fedlex.data.admin.ch/eli/oc/2025/309" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">AS <b>2025</b> 309</ref>).</p>
+	</authorialNote></inline></block></container></preface><mainBody><p>(Art. 4)</p><level eId="annex_4/lvl_u1"><heading>Austauschformate<inline name="man-font-weight-normal"><sup><authorialNote>
+		<p>  Der Inhalt dieses Anhangs wird in der AS und in der SR nur durch Verweis veröffentlicht. Er kann abgerufen werden unter:  <ref href="https://fedlex.data.admin.ch/eli/oc/2025/309">
+				https://fedlex.data.admin.ch/eli/oc/2025/309
+			</ref> &gt; Allgemeine Informationen &gt; Umfang der Veröffentlichung &gt; Veröffentlichung eines Textteils durch Verweis.</p>
+	</authorialNote></sup></inline></heading></level></mainBody></doc></component><component><doc name="annex"><meta><identification source="#ch.bk"><FRBRWork><FRBRthis value="https://fedlex.data.admin.ch/eli/cc/2017/205/20250901/main-text"/><FRBRuri value="https://fedlex.data.admin.ch/eli/cc/2017/205/20250901"/><FRBRdate date="2017-03-22" name="jolux:dateDocument"/><FRBRdate date="2017-04-15" name="jolux:dateEntryInForce"/><FRBRdate date="2025-09-01" name="jolux:dateApplicability"/><FRBRauthor href="#ch.bk" as="#publisher"/><FRBRauthor href="#ch.bk" as="#rightsHolder"/><FRBRcountry value="CH"/><FRBRnumber value="816.111"/><FRBRname xml:lang="de" value="Verordnung des EDI vom 22. März 2017 über das elektronische Patientendossier (EPDV-EDI) " shortForm="EPDV-EDI"/><FRBRname xml:lang="it" value="Ordinanza del DFI del 22 marzo 2017 sulla cartella informatizzata del paziente (OCIP-DFI) " shortForm="OCIP-DFI"/><FRBRname xml:lang="fr" value="Ordonnance du DFI du 22 mars 2017 sur le dossier électronique du patient (ODEP-DFI) " shortForm="ODEP-DFI"/><FRBRauthoritative value="true"/></FRBRWork><FRBRExpression><FRBRthis value="https://fedlex.data.admin.ch/eli/cc/2017/205/20250901/de/main-text"/><FRBRuri value="https://fedlex.data.admin.ch/eli/cc/2017/205/20250901/de"/><FRBRdate date="2017-03-22" name="jolux:dateDocument"/><FRBRdate date="2017-04-15" name="jolux:dateEntryInForce"/><FRBRdate date="2025-09-01" name="jolux:dateApplicability"/><FRBRauthor href="#ch.bk" as="#publisher"/><FRBRauthor href="#ch.bk" as="#rightsHolder"/><FRBRlanguage language="de"/></FRBRExpression><FRBRManifestation><FRBRthis value="https://fedlex.data.admin.ch/eli/cc/2017/205/20250901/de/xml/main-text"/><FRBRuri value="https://fedlex.data.admin.ch/eli/cc/2017/205/20250901/de/xml"/><FRBRdate date="2017-03-22" name="jolux:dateDocument"/><FRBRdate date="2017-04-15" name="jolux:dateEntryInForce"/><FRBRdate date="2025-09-01" name="jolux:dateApplicability"/><FRBRauthor href="#ch.bk" as="#publisher"/><FRBRauthor href="#ch.bk" as="#rightsHolder"/><FRBRformat value="xml"/></FRBRManifestation></identification></meta><preface><container name="headerOfAnnex"><block name="num">Anhang 5<inline name="man-font-style-normal"><authorialNote>
+		<p> Fassung gemäss Ziff. II Abs. 2 der V des EDI vom 30. April 2025, in Kraft seit  1. Juni 2025 (<ref href="https://fedlex.data.admin.ch/eli/oc/2025/309" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">AS <b>2025</b> 309</ref>).</p>
+	</authorialNote></inline></block></container></preface><mainBody><p>(Art. 5)</p><level eId="annex_5/lvl_u1"><heading>Integrationsprofile</heading><level eId="annex_5/lvl_u1/lvl_1"><num>1</num><heading>IHE<inline name="man-font-weight-normal"><authorialNote>
+		<p>  Integrating the Healthcare Enterprise.</p>
+	</authorialNote></inline> Integrationsprofile</heading><content><table border="1">
+			
+			
+			<tr>
+				
+				
+				<th xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">
+					
+					<p>Integrationsprofil</p>
+				</th>
+				<th xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">
+					
+					<p>Technisches <br/>Dokument</p>
+				</th>
+				<th xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">
+					
+					<p>Akteure</p>
+				</th>
+				<th xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">
+					
+					<p>Transaktionen</p>
+				</th>
+				<th xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">
+					
+					<p>Nationale <br/>Anpassungen</p>
+				</th>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">ATNA</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">IHE IT Infrastructure Technical Framework, Volume 2, Revision 19.0, June 17, 2022</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Secure Application</p>
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Secure Node</p>
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Audit Record Repository</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Authenticate Node [ITI‑19]</p>
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Record Audit Event [ITI‑20]</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Ergänzung 1<authorialNote>
+		<p>  Der Inhalt der Ergänzung 1 zu Anhang 5 kann abgerufen werden unter:  <ref href="https://fedlex.data.admin.ch/eli/oc/2025/309">
+				https://fedlex.data.admin.ch/eli/oc/2025/309
+			</ref> &gt; Allgemeine Informationen &gt; Umfang der Veröffentlichung &gt; Veröffentlichung eines Textteils durch Verweis.</p>
+	</authorialNote> zu Anhang 5 der EPDV‑EDI, <br/>Ausgabe 8</p>
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">RESTful ATNA, CH EPR FHIR (R4), RESTful ATNA, Implementation Guide Version 4.0.1, 2024-12-18</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">CT</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">IHE IT Infrastructure Technical Framework, Volume 2, Revision 19.0, June 17, 2022</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Time Client</p>
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Time Server</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Maintain Time [ITI‑1]</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Nein</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">HPD</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">IHE IT Infrastructure Technical Framework, Supplement Healthcare Provider Directory (HPD), Revision 1.8, August 28, 2020</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Provider Information Source</p>
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Provider Information Consumer</p>
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Provider Information Directory</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Provider Information Query [ITI‑58]</p>
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Provider Information Feed [ITI‑59]</p>
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Provider Information Delta Download (CH:PIDD)</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Ergänzung 1 zu Anhang 5 der EPDV‑EDI, Ausgabe 8</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">IUA</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">IHE IT Infrastructure Technical Framework, Supplement Internet User Authorization (IUA), Revision 2.2, June 17, 2022</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Authorization Server</p>
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Authorization Client</p>
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Resource Server</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Get Access Token [ITI‑71]</p>
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Incorporate Authorization Token [ITI‑72]</p>
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Get Authorization Server Metadata [ITI‑103]</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Internet User Authorization (IUA), CH EPR FHIR (R4), IUA, Implementation Guide Version 4.0.1, 2024‑12‑18</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">mCSD</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">IHE IT Infrastructure Technical Framework, Mobile Care Services Discovery (mCSD), Implementation Guide Version 3.8.0, 2022‑08‑12</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Care Services Selective Consumer</p>
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Care Services Selective SupplierCare Services SourceCare Services Directory</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Find Matching Care Services [ITI‑90]</p>
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Care Services Feed [CH:mCSD‑1]</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Mobile Care Services Discovery (mCSD), CH EPR FHIR (R4), mCSD, Implementation Guide Version 4.0.1, 2024‑12‑18</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">MHD</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">IHE IT Infrastructure Technical Framework, Mobile access to Health Documents (MHD), Implementation Guide Version 4.2.2, 2024‑05‑18</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Document Source</p>
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Document Recipient</p>
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Document Consumer</p>
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Document Responder</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Provide Document Bundle [ITI‑65]</p>
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Find Document References [ITI‑67]</p>
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Retrieve Document [ITI‑68]</p>
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Update Document Metadata [CH:MHD‑1]</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Mobile Access to Health Documents (MHD) with XDS on FHIR, CH EPR FHIR (R4), MHD, Implementation Guide Version 4.0.1, 2024‑12‑18</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">PCC</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">IHE Patient Care Coordination (PCC) Technical Framework, Volume 2, Revision 11.1, April 14, 2021</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Content Creator</p>
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Content Consumer</p>
+				</td>
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Ergänzung 1 zu Anhang 5 der EPDV‑EDI, Ausgabe 8</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">PDQV3</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">IHE IT Infrastructure Technical Framework, Volume 2, Revision 19.0, June 17, 2022</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Patient Demographics Consumer</p>
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Patient Demographics Supplier</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Patient Demographics Query HL7 V3 [ITI‑47]</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Ergänzung 1 zu Anhang 5 der EPDV‑EDI, Ausgabe 8</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">PDQm</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">IHE IT Infrastructure Technical Framework, Patient Demographics Query for Mobile (PDQm), Implementation Guide Version 3.0.0, 2024-02-23</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Patient Demographics Consumer</p>
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Patient Demographics Supplier</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Patient Demographics Match [ITI‑119]</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Patient Demographics Query for Mobile (PDQm), CH EPR FHIR (R4), PDQm, Implementation Guide Version 4.0.1, 2024‑12‑18</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">PIXV3</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">IHE IT Infrastructure Technical Framework, Volume 2, Revision 19.0, June 17, 2022</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Patient Identity Source</p>
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Patient Identifier Cross-reference Consumer</p>
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Patient Identifier Cross-reference Manager</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Patient Identity Feed HL7 V3 [ITI‑44]</p>
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">PIXV3 Query [ITI‑45]</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Ergänzung 1 zu Anhang 5 der EPDV‑EDI, Ausgabe 8</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">PIXm</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">IHE IT Infrastructure Technical Framework, Patient Identifier Cross-referencing for Mobile (PIXm), Implementation Guide Version 3.0.4, 2024‑02‑23</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Patient Identity Source</p>
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Patient Identifier Cross-reference Consumer</p>
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Patient Identifier Cross-reference Manager</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Mobile Patient Identifier Cross-reference Query [ITI‑83]</p>
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Patient Identity Feed FHIR [ITI‑104]</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Patient Identifier Cross-referencing for mobile (PIXm), CH EPR FHIR (R4), PIXm, Implementation Guide Version 4.0.1, 2024‑12‑18</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">RMU</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">IHE IT Infrastructure Technical Framework, Supplement Restricted Metadata Update (RMU), Revision 1.3, July 2, 2021</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Update Initiator</p>
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Update Responder</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Restricted Update Document Set [ITI‑92]</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Ergänzung 1 zu Anhang 5 der EPDV‑EDI, Ausgabe 8</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">SVS</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">IHE IT Infrastructure Technical Framework, Volume 2, Revision 19.0, June 17, 2022</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Value Set Consumer</p>
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Value Set Repository</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Retrieve Value Set [ITI‑48] </p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Nein</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">XCA</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">IHE IT Infrastructure Technical Framework, Volume 2, Revision 19.0, June 17, 2022</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Initiating Gateway</p>
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Responding Gateway</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Cross Gateway Query [ITI‑38]</p>
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Cross Gateway Retrieve [ITI‑39]</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Ergänzung 1 zu Anhang 5 der EPDV‑EDI, Ausgabe 8</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">XCA-I</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">IHE Radiology Technical Framework, Volume 3 (RAD‑TF‑3), Cross-Transaction Specifications and Content Specifications, Revision 22.0, June 25, 2024</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Initiating Imaging Gateway</p>
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Responding Imaging Gateway</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Cross Gateway Retrieve Image Document Set [RAD‑75]</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Nein</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">XCPD</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">IHE IT Infrastructure Technical Framework, Volume 2, Revision 19.0, June 17, 2022</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Initiating Gateway</p>
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Responding Gateway</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Cross Gateway Patient Discovery [ITI‑55]</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Ergänzung 1 zu Anhang 5 der EPDV‑EDI, Ausgabe 8</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">XDM</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">IHE IT Infrastructure Technical Framework, Volume 2, Revision 19.0, June 17, 2022</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Portable Media Creator</p>
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Portable Media Importer</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Distribute Document Set on Media [ITI‑32]</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Nein</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">XDS</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">IHE IT Infrastructure Technical Framework, Volume 2, Revision 19.0, June 17, 2022</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Document Consumer</p>
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Document Source</p>
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Document Repository</p>
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Document Registry</p>
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Patient Identity Source</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Registry Stored Query [ITI‑18]</p>
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Provide and Register Document Set‑b [ITI‑41]</p>
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Register Document Set‑b [ITI‑42]</p>
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Retrieve Document Set [ITI‑43]</p>
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Patient Identity Feed HL7v3 [ITI‑44]</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Ergänzung 1 zu Anhang 5 der EPDV-EDI, Ausgabe 8</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">XDS-I.b</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">IHE Radiology Technical Framework, Volume 3 (RAD-TF-3), Cross-Transaction Specifications and Content Specifications, Revision 22.0, June 25, 2024</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Imaging Document Source</p>
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Imaging Document Consumer</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Provide &amp; Register Imaging Document Set – MTOM/XOP [RAD‑68]</p>
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Retrieve Imaging Document Set [RAD‑69]</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Ergänzung 1 zu Anhang 5 der EPDV‑EDI, Ausgabe 8</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">XDS Metadata Update</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">IHE IT Infrastructure Technical Framework, Supplement XDS Metadata Update, Revision 1.13, June 17, 2022</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Document Administrator</p>
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Document Registry</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Update Document Set [ITI‑57]</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Ergänzung 1 zu Anhang 5 der EPDV‑EDI, Ausgabe 8</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">XUA</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">IHE IT Infrastructure Technical Framework, Volume 2, Revision 19.0, June 17, 2022</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">X-Service User</p>
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">X-Service Provider</p>
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">X-Assertion Provider</p>
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">User Authentication Provider</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Authenticate User</p>
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Get X-User Assertion</p>
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Provide X-User Assertion [ITI‑40]</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Ergänzung 1 zu Anhang 5 der EPDV‑EDI, Ausgabe 8</p>
+				</td>
+			</tr>
+		</table></content></level><level eId="annex_5/lvl_u1/lvl_2"><num>2</num><heading>Nationale Integrationsprofile</heading><content><table border="1">
+			
+			
+			<tr>
+				
+				
+				<th xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">
+					
+					<p>Integrationsprofil</p>
+				</th>
+				<th xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">
+					
+					<p>Technisches Dokument</p>
+				</th>
+				<th xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">
+					
+					<p>Akteure</p>
+				</th>
+				<th xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">
+					
+					<p>Transaktionen</p>
+				</th>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">CH:ADR</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Ergänzung 2.1<authorialNote>
+		<p>  Der Inhalt der Ergänzung 2.1 zu Anhang 5 kann abgerufen werden unter:  <ref href="https://fedlex.data.admin.ch/eli/oc/2025/309">
+				https://fedlex.data.admin.ch/eli/oc/2025/309
+			</ref> &gt; Allgemeine Informationen &gt; Umfang der Veröffentlichung &gt; Veröffentlichung eines Textteils durch Verweis.</p>
+	</authorialNote> zu Anhang 5 EPDV-EDI, Integrationsprofil Authorization Decision Request (CH:ADR), Ausgabe 7</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Authorization Decision Provider</p>
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Authorization Decision Consumer</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Authorization Decision Request (CH:ADR)</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">CH:ATC</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Audit Trail Consumption (CH:ATC), CH ATC, Implementation Guide Version 3.3.0, 2024‑12‑18</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Patient Audit Consumer</p>
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Patient Audit Record Repository</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Retrieve ATNA Audit Event [ITI‑81]</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">CH:CPI</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Ergänzung 2.3<authorialNote>
+		<p>  Der Inhalt der Ergänzung 2.3 zu Anhang 5 kann abgerufen werden unter:  <ref href="https://fedlex.data.admin.ch/eli/oc/2025/309">
+				https://fedlex.data.admin.ch/eli/oc/2025/309
+			</ref> &gt; Allgemeine Informationen &gt; Umfang der Veröffentlichung &gt; Veröffentlichung eines Textteils durch Verweis.</p>
+	</authorialNote> zu Anhang 5 EPDV-EDI, Integrationsprofil Community Portal Index (CH:CPI), Ausgabe 7</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">CH:CPI Consumer</p>
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">CH:CPI Provider</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Community Information Query (CH:CIQ)</p>
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Community Information Delta Download (CH:CIDD)</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">CH:PPQ</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Ergänzung 2.1 zu Anhang 5 EPDV-EDI, Integrationsprofil Privacy Policy Query (CH:PPQ), Ausgabe 7</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Policy Source</p>
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Policy Repository</p>
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Policy Consumer</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Privacy Policy Feed (CH:PPQ‑1)</p>
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Privacy Policy Retrieve (CH:PPQ‑2)</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">CH:PPQm</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Privacy Policy Query for Mobile (CH:PPQm), CH EPR FHIR (R4), CH:PPQm, Implementation Guide Version 4.0.1, 2024‑12‑18</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Policy Repository</p>
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Policy Source</p>
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Policy Consumer</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Mobile Privacy Policy Feed (PPQ‑3)</p>
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Mobile Privacy Policy Bundle Feed (PPQ‑4)</p>
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Mobile Privacy Policy Retrieve (PPQ‑5)</p>
+				</td>
+			</tr>
+		</table></content></level></level></mainBody></doc></component><component><doc name="annex"><meta><identification source="#ch.bk"><FRBRWork><FRBRthis value="https://fedlex.data.admin.ch/eli/cc/2017/205/20250901/main-text"/><FRBRuri value="https://fedlex.data.admin.ch/eli/cc/2017/205/20250901"/><FRBRdate date="2017-03-22" name="jolux:dateDocument"/><FRBRdate date="2017-04-15" name="jolux:dateEntryInForce"/><FRBRdate date="2025-09-01" name="jolux:dateApplicability"/><FRBRauthor href="#ch.bk" as="#publisher"/><FRBRauthor href="#ch.bk" as="#rightsHolder"/><FRBRcountry value="CH"/><FRBRnumber value="816.111"/><FRBRname xml:lang="de" value="Verordnung des EDI vom 22. März 2017 über das elektronische Patientendossier (EPDV-EDI) " shortForm="EPDV-EDI"/><FRBRname xml:lang="it" value="Ordinanza del DFI del 22 marzo 2017 sulla cartella informatizzata del paziente (OCIP-DFI) " shortForm="OCIP-DFI"/><FRBRname xml:lang="fr" value="Ordonnance du DFI du 22 mars 2017 sur le dossier électronique du patient (ODEP-DFI) " shortForm="ODEP-DFI"/><FRBRauthoritative value="true"/></FRBRWork><FRBRExpression><FRBRthis value="https://fedlex.data.admin.ch/eli/cc/2017/205/20250901/de/main-text"/><FRBRuri value="https://fedlex.data.admin.ch/eli/cc/2017/205/20250901/de"/><FRBRdate date="2017-03-22" name="jolux:dateDocument"/><FRBRdate date="2017-04-15" name="jolux:dateEntryInForce"/><FRBRdate date="2025-09-01" name="jolux:dateApplicability"/><FRBRauthor href="#ch.bk" as="#publisher"/><FRBRauthor href="#ch.bk" as="#rightsHolder"/><FRBRlanguage language="de"/></FRBRExpression><FRBRManifestation><FRBRthis value="https://fedlex.data.admin.ch/eli/cc/2017/205/20250901/de/xml/main-text"/><FRBRuri value="https://fedlex.data.admin.ch/eli/cc/2017/205/20250901/de/xml"/><FRBRdate date="2017-03-22" name="jolux:dateDocument"/><FRBRdate date="2017-04-15" name="jolux:dateEntryInForce"/><FRBRdate date="2025-09-01" name="jolux:dateApplicability"/><FRBRauthor href="#ch.bk" as="#publisher"/><FRBRauthor href="#ch.bk" as="#rightsHolder"/><FRBRformat value="xml"/></FRBRManifestation></identification></meta><preface><container name="headerOfAnnex"><block name="num">Anhang 6<inline name="man-font-style-normal"><authorialNote>
+		<p> Fassung gemäss Ziff. II Abs. 2 der V des EDI vom 24. April 2024, in Kraft seit  1. Juni 2024 (<ref href="https://fedlex.data.admin.ch/eli/oc/2024/194" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">AS <b>2024</b> 194</ref>).</p>
+	</authorialNote></inline></block></container></preface><mainBody><p>(Art. 6)</p><level eId="annex_6/lvl_u1"><heading>Evaluation und Forschung</heading><level eId="annex_6/lvl_u1/lvl_1"><num>1</num><heading>Allgemeine Vorgaben</heading><content><blockList><item eId="annex_6/lvl_u1/lvl_1/lbl_1_1"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">1.1 </num><blockList><listIntroduction eId="annex_6/lvl_u1/lvl_1/lbl_1_1/listintro" xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Es sind die Metadaten nach Anhang 3 zu verwenden für:</listIntroduction><item eId="annex_6/lvl_u1/lvl_1/lbl_1_1/lbl_a"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">a. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">organisatorischen Typ der Gesundheitseinrichtung (Ziff. 2.3);</p></item><item eId="annex_6/lvl_u1/lvl_1/lbl_1_1/lbl_b"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">b. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Dokumentenklasse (Ziff. 2.5);</p></item><item eId="annex_6/lvl_u1/lvl_1/lbl_1_1/lbl_c"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">c. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Dokumententyp (Ziff. 2.6);</p></item><item eId="annex_6/lvl_u1/lvl_1/lbl_1_1/lbl_d"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">d. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Rolle der initial bereitstellenden Person (Ziff. 2.14).</p></item></blockList></item><item eId="annex_6/lvl_u1/lvl_1/lbl_1_2"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">1.2 </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Es gelten die 5-Jahres-Altersklassen (0–4; 5–9; 10–14 … 95–99; 100+ Jahre).</p></item></blockList></content></level><level eId="annex_6/lvl_u1/lvl_2"><num>2</num><heading>Von Gemeinschaften zu erhebende Daten</heading><content><blockList><item eId="annex_6/lvl_u1/lvl_2/lbl_2_1"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">2.1 </num><blockList><listIntroduction eId="annex_6/lvl_u1/lvl_2/lbl_2_1/listintro" xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Anzahl der Dokumente, die über das elektronische Patientendossier bereitgestellt sind, aufgeschlüsselt nach:</listIntroduction><item eId="annex_6/lvl_u1/lvl_2/lbl_2_1/lbl_a"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">a. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">organisatorischem Typ der Gesundheitseinrichtung;</p></item><item eId="annex_6/lvl_u1/lvl_2/lbl_2_1/lbl_b"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">b. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Dokumentenklasse;</p></item><item eId="annex_6/lvl_u1/lvl_2/lbl_2_1/lbl_c"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">c. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Dokumententyp;</p></item><item eId="annex_6/lvl_u1/lvl_2/lbl_2_1/lbl_d"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">d. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Rolle der initial bereitstellenden Person.</p></item></blockList></item><item eId="annex_6/lvl_u1/lvl_2/lbl_2_2"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">2.2 </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Anzahl der Dokumente, die in einem standardisierten Austauschformat nach Anhang 4 erfasst sind, aufgeschlüsselt nach Typ der Gesundheitseinrichtung.</p></item><item eId="annex_6/lvl_u1/lvl_2/lbl_2_3"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">2.3 </num><blockList><listIntroduction eId="annex_6/lvl_u1/lvl_2/lbl_2_3/listintro" xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Anzahl der Dokumente je Vertraulichkeitsstufe nach Artikel 1 EPDV, aufgeschlüsselt nach:</listIntroduction><item eId="annex_6/lvl_u1/lvl_2/lbl_2_3/lbl_a"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">a. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">organisatorischem Typ der Gesundheitseinrichtung;</p></item><item eId="annex_6/lvl_u1/lvl_2/lbl_2_3/lbl_b"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">b. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Dokumentenklasse;</p></item><item eId="annex_6/lvl_u1/lvl_2/lbl_2_3/lbl_c"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">c. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Dokumententyp;</p></item><item eId="annex_6/lvl_u1/lvl_2/lbl_2_3/lbl_d"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">d. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Rolle der initial bereitstellenden Person.</p></item></blockList></item><item eId="annex_6/lvl_u1/lvl_2/lbl_2_4"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">2.4 </num><blockList><listIntroduction eId="annex_6/lvl_u1/lvl_2/lbl_2_4/listintro" xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Anzahl der Abrufe von bereitgestellten Dokumenten, aufgeschlüsselt nach:</listIntroduction><item eId="annex_6/lvl_u1/lvl_2/lbl_2_4/lbl_a"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">a. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Anzahl Zugriffe in medizinischen Notfallsituationen;</p></item><item eId="annex_6/lvl_u1/lvl_2/lbl_2_4/lbl_b"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">b. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">organisatorischem Typ der Gesundheitseinrichtung, die auf die Dokumente zugreift;</p></item><item eId="annex_6/lvl_u1/lvl_2/lbl_2_4/lbl_c"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">c. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Rolle der initial bereitstellenden Person, die auf die Dokumente zugreift. </p></item></blockList></item></blockList></content></level><level eId="annex_6/lvl_u1/lvl_3"><num>3</num><heading>Von Stammgemeinschaften zusätzlich zu erhebende Daten</heading><content><blockList><item eId="annex_6/lvl_u1/lvl_3/lbl_3_1"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">3.1 </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Anzahl der Personen, die über ein elektronisches Patientendossier verfügen, aufgeschlüsselt nach </p><blockList><listIntroduction eId="annex_6/lvl_u1/lvl_3/lbl_3_1/listintro" xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">:</listIntroduction><item eId="annex_6/lvl_u1/lvl_3/lbl_3_1/lbl_a"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">a. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Kanton;</p></item><item eId="annex_6/lvl_u1/lvl_3/lbl_3_1/lbl_b"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">b. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Geschlecht in Kombination mit der Altersklasse.</p></item></blockList></item><item eId="annex_6/lvl_u1/lvl_3/lbl_3_2"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">3.2 </num><blockList><listIntroduction eId="annex_6/lvl_u1/lvl_3/lbl_3_2/listintro" xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Anzahl der Widerrufe von Einwilligungen zur Führung eines elektronischen Patientendossiers, aufgeschlüsselt nach: </listIntroduction><item eId="annex_6/lvl_u1/lvl_3/lbl_3_2/lbl_a"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">a. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Kanton;</p></item><item eId="annex_6/lvl_u1/lvl_3/lbl_3_2/lbl_b"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">b. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Geschlecht in Kombination mit der Altersklasse.</p></item></blockList></item><item eId="annex_6/lvl_u1/lvl_3/lbl_3_3"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">3.3 </num><blockList><listIntroduction eId="annex_6/lvl_u1/lvl_3/lbl_3_3/listintro" xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Anzahl der Anpassungen der Zugriffsrechte, aufgeschlüsselt nach Geschlecht in Kombination mit der Altersklasse der Patientinnen und Patienten, die vorgenommen wurden in folgenden Bereichen:</listIntroduction><item eId="annex_6/lvl_u1/lvl_3/lbl_3_3/lbl_a"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">a. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Festlegung der Vertraulichkeitsstufe, der neu eingestellte medizinische Daten zugeordnet werden, nach Artikel 4 Buchstabe a EPDV;</p></item><item eId="annex_6/lvl_u1/lvl_3/lbl_3_3/lbl_b"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">b. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Ausschluss einzelner Gesundheitsfachpersonen vom Zugriff auf das elektronische Patientendossier nach Artikel 4 Buchstabe b EPDV;</p></item><item eId="annex_6/lvl_u1/lvl_3/lbl_3_3/lbl_c"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">c. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Information über den Eintritt von Gesundheitsfachpersonen in Gruppen nach Artikel 4 Buchstabe c EPDV;</p></item><item eId="annex_6/lvl_u1/lvl_3/lbl_3_3/lbl_d"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">d. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Befristung der Zugriffsrechte nach Artikel 4 Buchstabe d EPDV;</p></item><item eId="annex_6/lvl_u1/lvl_3/lbl_3_3/lbl_e"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">e. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Erweiterung des Zugriffsrechts bei medizinischen Notfallsituationen auf die Vertraulichkeitsstufe «Eingeschränkt zugänglich» nach Artikel 4 Buchstabe e EPDV;</p></item><item eId="annex_6/lvl_u1/lvl_3/lbl_3_3/lbl_f"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">f. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Ausschluss des Zugriffs in medizinischen Notfallsituationen nach Artikel 4 Buchstabe e EPDV;</p></item><item eId="annex_6/lvl_u1/lvl_3/lbl_3_3/lbl_g"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">g. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Ermächtigung einer Gesundheitsfachperson ihrer oder seiner Stammgemeinschaft, die ihr übertragenen Zugriffsrechte nach Artikel 4 Buchstabe g an weitere Gesundheitsfachpersonen oder Gruppen von Gesundheitsfachpersonen zu übertragen. </p></item></blockList></item><item eId="annex_6/lvl_u1/lvl_3/lbl_3_4"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">3.4 </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Anzahl der Patientinnen und Patienten, die keine Anpassungen an den Zugriffsrechten vorgenommen haben, aufgeschlüsselt nach Geschlecht in Kombination mit der Altersklasse.</p></item><item eId="annex_6/lvl_u1/lvl_3/lbl_3_5"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">3.5 </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Anzahl der Gesundheitsfachpersonen und Gruppen von Gesundheitsfachpersonen mit Zugriffsrechten pro elektronisches Patientendossier.</p></item><item eId="annex_6/lvl_u1/lvl_3/lbl_3_6"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">3.6 </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Anzahl der Personen, die nach Artikel 4 Buchstabe f EPDV eine Stellvertretung benannt haben, aufgeschlüsselt nach Geschlecht in Kombination mit der Altersklasse.</p></item></blockList></content></level></level></mainBody></doc></component><component><doc name="annex"><meta><identification source="#ch.bk"><FRBRWork><FRBRthis value="https://fedlex.data.admin.ch/eli/cc/2017/205/20250901/main-text"/><FRBRuri value="https://fedlex.data.admin.ch/eli/cc/2017/205/20250901"/><FRBRdate date="2017-03-22" name="jolux:dateDocument"/><FRBRdate date="2017-04-15" name="jolux:dateEntryInForce"/><FRBRdate date="2025-09-01" name="jolux:dateApplicability"/><FRBRauthor href="#ch.bk" as="#publisher"/><FRBRauthor href="#ch.bk" as="#rightsHolder"/><FRBRcountry value="CH"/><FRBRnumber value="816.111"/><FRBRname xml:lang="de" value="Verordnung des EDI vom 22. März 2017 über das elektronische Patientendossier (EPDV-EDI) " shortForm="EPDV-EDI"/><FRBRname xml:lang="it" value="Ordinanza del DFI del 22 marzo 2017 sulla cartella informatizzata del paziente (OCIP-DFI) " shortForm="OCIP-DFI"/><FRBRname xml:lang="fr" value="Ordonnance du DFI du 22 mars 2017 sur le dossier électronique du patient (ODEP-DFI) " shortForm="ODEP-DFI"/><FRBRauthoritative value="true"/></FRBRWork><FRBRExpression><FRBRthis value="https://fedlex.data.admin.ch/eli/cc/2017/205/20250901/de/main-text"/><FRBRuri value="https://fedlex.data.admin.ch/eli/cc/2017/205/20250901/de"/><FRBRdate date="2017-03-22" name="jolux:dateDocument"/><FRBRdate date="2017-04-15" name="jolux:dateEntryInForce"/><FRBRdate date="2025-09-01" name="jolux:dateApplicability"/><FRBRauthor href="#ch.bk" as="#publisher"/><FRBRauthor href="#ch.bk" as="#rightsHolder"/><FRBRlanguage language="de"/></FRBRExpression><FRBRManifestation><FRBRthis value="https://fedlex.data.admin.ch/eli/cc/2017/205/20250901/de/xml/main-text"/><FRBRuri value="https://fedlex.data.admin.ch/eli/cc/2017/205/20250901/de/xml"/><FRBRdate date="2017-03-22" name="jolux:dateDocument"/><FRBRdate date="2017-04-15" name="jolux:dateEntryInForce"/><FRBRdate date="2025-09-01" name="jolux:dateApplicability"/><FRBRauthor href="#ch.bk" as="#publisher"/><FRBRauthor href="#ch.bk" as="#rightsHolder"/><FRBRformat value="xml"/></FRBRManifestation></identification></meta><preface><container name="headerOfAnnex"><block name="num">Anhang 7<inline name="man-font-style-normal"><authorialNote>
+		<p> Bereinigt gemäss Ziff. II Abs. 1 der V des EDI vom 24. Juni 2019, in Kraft seit  15. Juli 2019 (<ref href="https://fedlex.data.admin.ch/eli/oc/2019/381" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">AS <b>2019 </b>2075</ref>).</p>
+	</authorialNote></inline></block></container></preface><mainBody><p>(Art. 7)</p><level eId="annex_7/lvl_u1"><heading>Mindestanforderungen an die Qualifikation des Personals der Zertifizierungsstellen</heading><level eId="annex_7/lvl_u1/lvl_1"><num>1</num><heading>Zertifizierung von Gemeinschaften und Stammgemeinschaften oder Zugangsportalen</heading><content><blockList><item eId="annex_7/lvl_u1/lvl_1/lbl_1_1"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">1.1 </num><blockList><listIntroduction eId="annex_7/lvl_u1/lvl_1/lbl_1_1/listintro" xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Die Zertifizierungsstelle muss nachweisen, dass Personen verfügbar sind mit:</listIntroduction><item eId="annex_7/lvl_u1/lvl_1/lbl_1_1/lbl_1_1_1"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">1.1.1 </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Kenntnissen der Medizininformatik: Nachzuweisen ist eine mindestens zweijährige praktische Tätigkeit im Bereich der Medizininformatik oder eine erfolgreich abgeschlossene Ausbildung an einer Hochschule oder Fachhochschule von mindestens einem Jahr Dauer mit Schwerpunkt Medizininformatik;</p></item><item eId="annex_7/lvl_u1/lvl_1/lbl_1_1/lbl_1_1_2"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">1.1.2 </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Kenntnissen des Datenschutzrechts: Nachzuweisen ist eine mindestens zweijährige praktische Tätigkeit im Bereich des Datenschutzes oder eine erfolgreich abgeschlossene Ausbildung an einer Hochschule oder Fachhochschule von mindestens einem Jahr Dauer mit Schwerpunkt Datenschutzrecht;</p></item><item eId="annex_7/lvl_u1/lvl_1/lbl_1_1/lbl_1_1_3"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">1.1.3 </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Kenntnissen im Bereich der Informatiksicherheit: Nachzuweisen ist eine mindestens zweijährige praktische Tätigkeit im Bereich der Informatiksicherheit oder eine erfolgreich abgeschlossene Ausbildung an einer Hochschule oder Fachhochschule von mindestens einem Jahr Dauer mit Schwerpunkt Informatiksicherheit;</p></item><item eId="annex_7/lvl_u1/lvl_1/lbl_1_1/lbl_1_1_4"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">1.1.4 </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Ausbildung als Auditorin oder Auditor nach ISO/IEC 17021:2015<authorialNote>
+		<p> Die aufgeführte Norm kann bei der Schweizerischen Normen-Vereinigung,  Sulzerallee 70, 8400 Winterthur, <ref href="http://www.snv.ch">
+				www.snv.ch
+			</ref> gegen Verrechnung bezogen oder beim BAG, Schwarzenburgstrasse 157, 3003 Bern, kostenlos eingesehen werden.</p>
+	</authorialNote>;</p></item><item eId="annex_7/lvl_u1/lvl_1/lbl_1_1/lbl_1_1_5"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">1.1.5 </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Ausbildung als Auditorin oder Auditor nach ISO/IEC 27006:2015<authorialNote>
+		<p> Die aufgeführte Norm kann bei der Schweizerischen Normen-Vereinigung,  Sulzerallee 70, 8400 Winterthur, <ref href="http://www.snv.ch">
+				www.snv.ch
+			</ref> gegen Verrechnung bezogen oder beim BAG, Schwarzenburgstrasse 157, 3003 Bern, kostenlos eingesehen werden.</p>
+	</authorialNote>.</p></item></blockList></item><item eId="annex_7/lvl_u1/lvl_1/lbl_1_2"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">1.2 </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Die Zertifizierungsstelle muss nachweisen, dass sie jeweils für die einzelnen Teilbereiche über qualifiziertes Personal verfügt. Die Begutachtung durch ein interdisziplinäres Team ist zulässig.</p></item></blockList></content></level><level eId="annex_7/lvl_u1/lvl_2"><num>2</num><heading>Zertifizierung von Herausgebern von Identifikationsmitteln</heading><content><blockList><item eId="annex_7/lvl_u1/lvl_2/lbl_2_1"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">2.1 </num><blockList><listIntroduction eId="annex_7/lvl_u1/lvl_2/lbl_2_1/listintro" xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Die Zertifizierungsstelle muss nachweisen, dass Personen verfügbar sind mit:</listIntroduction><item eId="annex_7/lvl_u1/lvl_2/lbl_2_1/lbl_2_1_1"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">2.1.1 </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Kenntnissen im Bereich von Identifikation und Authentifizierung: Nachzuweisen ist eine mindestens zweijährige praktische Tätigkeit im Bereich der Identifikation und Authentifizierung oder eine erfolgreich abgeschlossene Ausbildung an einer Hochschule oder Fachhochschule von mindestens einem Jahr Dauer mit Schwerpunkt Identifikation und Authentifizierung;</p></item><item eId="annex_7/lvl_u1/lvl_2/lbl_2_1/lbl_2_1_2"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">2.1.2 </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Kenntnissen des Datenschutzrechts: Nachzuweisen ist eine mindestens zweijährige praktische Tätigkeit im Bereich des Datenschutzes oder eine erfolgreich abgeschlossene Ausbildung an einer Hochschule oder Fachhochschule von mindestens einem Jahr Dauer mit Schwerpunkt Datenschutzrecht;</p></item><item eId="annex_7/lvl_u1/lvl_2/lbl_2_1/lbl_2_1_3"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">2.1.3 </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Kenntnissen im Bereich der Informatiksicherheit: Nachzuweisen ist eine mindestens zweijährige praktische Tätigkeit im Bereich der Informatiksicherheit oder eine erfolgreich abgeschlossene Ausbildung an einer Hochschule oder Fachhochschule von mindestens einem Jahr Dauer mit Schwerpunkt Informatiksicherheit;</p></item><item eId="annex_7/lvl_u1/lvl_2/lbl_2_1/lbl_2_1_4"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">2.1.4 </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Ausbildung als Auditorin oder Auditor nach ISO/IEC 17021:2015<authorialNote>
+		<p> Die aufgeführte Norm kann bei der Schweizerischen Normen-Vereinigung, Sulzerallee 70, 8400 Winterthur, <ref href="http://www.snv.ch">
+				www.snv.ch
+			</ref> gegen Verrechnung bezogen oder beim BAG, Schwarzenburgstrasse 157, 3003 Bern, kostenlos eingesehen werden.</p>
+	</authorialNote>;</p></item><item eId="annex_7/lvl_u1/lvl_2/lbl_2_1/lbl_2_1_5"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">2.1.5 </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Ausbildung als Auditorin oder Auditor nach ISO/IEC 27006:2015<authorialNote>
+		<p> Die aufgeführte Norm kann bei der Schweizerischen Normen-Vereinigung, Sulzerallee 70, 8400 Winterthur, <ref href="http://www.snv.ch">
+				www.snv.ch
+			</ref> gegen Verrechnung bezogen oder beim BAG, Schwarzenburgstrasse 157, 3003 Bern, kostenlos eingesehen werden.</p>
+	</authorialNote>.</p></item></blockList></item><item eId="annex_7/lvl_u1/lvl_2/lbl_2_2"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">2.2 </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Die Zertifizierungsstelle muss nachweisen, dass sie jeweils für die einzelnen Teilbereiche über qualifiziertes Personal verfügt. Die Begutachtung durch ein interdisziplinäres Team ist zulässig.</p></item></blockList></content></level></level></mainBody></doc></component><component><doc name="annex"><meta><identification source="#ch.bk"><FRBRWork><FRBRthis value="https://fedlex.data.admin.ch/eli/cc/2017/205/20250901/main-text"/><FRBRuri value="https://fedlex.data.admin.ch/eli/cc/2017/205/20250901"/><FRBRdate date="2017-03-22" name="jolux:dateDocument"/><FRBRdate date="2017-04-15" name="jolux:dateEntryInForce"/><FRBRdate date="2025-09-01" name="jolux:dateApplicability"/><FRBRauthor href="#ch.bk" as="#publisher"/><FRBRauthor href="#ch.bk" as="#rightsHolder"/><FRBRcountry value="CH"/><FRBRnumber value="816.111"/><FRBRname xml:lang="de" value="Verordnung des EDI vom 22. März 2017 über das elektronische Patientendossier (EPDV-EDI) " shortForm="EPDV-EDI"/><FRBRname xml:lang="it" value="Ordinanza del DFI del 22 marzo 2017 sulla cartella informatizzata del paziente (OCIP-DFI) " shortForm="OCIP-DFI"/><FRBRname xml:lang="fr" value="Ordonnance du DFI du 22 mars 2017 sur le dossier électronique du patient (ODEP-DFI) " shortForm="ODEP-DFI"/><FRBRauthoritative value="true"/></FRBRWork><FRBRExpression><FRBRthis value="https://fedlex.data.admin.ch/eli/cc/2017/205/20250901/de/main-text"/><FRBRuri value="https://fedlex.data.admin.ch/eli/cc/2017/205/20250901/de"/><FRBRdate date="2017-03-22" name="jolux:dateDocument"/><FRBRdate date="2017-04-15" name="jolux:dateEntryInForce"/><FRBRdate date="2025-09-01" name="jolux:dateApplicability"/><FRBRauthor href="#ch.bk" as="#publisher"/><FRBRauthor href="#ch.bk" as="#rightsHolder"/><FRBRlanguage language="de"/></FRBRExpression><FRBRManifestation><FRBRthis value="https://fedlex.data.admin.ch/eli/cc/2017/205/20250901/de/xml/main-text"/><FRBRuri value="https://fedlex.data.admin.ch/eli/cc/2017/205/20250901/de/xml"/><FRBRdate date="2017-03-22" name="jolux:dateDocument"/><FRBRdate date="2017-04-15" name="jolux:dateEntryInForce"/><FRBRdate date="2025-09-01" name="jolux:dateApplicability"/><FRBRauthor href="#ch.bk" as="#publisher"/><FRBRauthor href="#ch.bk" as="#rightsHolder"/><FRBRformat value="xml"/></FRBRManifestation></identification></meta><preface><container name="headerOfAnnex"><block name="num">Anhang 8<inline name="man-font-style-normal"><authorialNote>
+		<p> Fassung gemäss Ziff. II Abs. 2 der V des EDI vom 24. Juni 2019 (<ref href="https://fedlex.data.admin.ch/eli/oc/2019/381" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">AS <b>2019 </b>2075</ref>). Bereinigt gemäss Ziff. I Abs. 1 der V des BAG vom 16. März 2021 (<ref href="https://fedlex.data.admin.ch/eli/oc/2021/164" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">AS <b>2021 </b>164</ref>), Ziff. II Abs. 1 der V des EDI vom 4. Mai (<ref href="https://fedlex.data.admin.ch/eli/oc/2023/221" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">AS <b>2023 </b>221</ref>), vom 24. April 2024 (<ref href="https://fedlex.data.admin.ch/eli/oc/2024/194" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">AS <b>2024</b> 194</ref>), vom 30. April 2025 (<ref href="https://fedlex.data.admin.ch/eli/oc/2025/309" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">AS <b>2025</b> 309</ref>) und Ziff. I der V des EDI vom 31. Juli 2025, in Kraft seit 1. Sept. 2025 (<ref href="https://fedlex.data.admin.ch/eli/oc/2025/494" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">AS <b>2025</b> 494</ref>).</p>
+	</authorialNote></inline></block></container></preface><mainBody><p>(Art. 8)</p><level eId="annex_8/lvl_u1"><heading>Technische und organisatorische Zertifizierungsvoraussetzungen für Herausgeber von Identifikationsmitteln<inline name="man-font-weight-normal"><authorialNote>
+		<p>  Der Inhalt dieses Anhangs wird in der AS und in der SR nur durch Verweis veröffentlicht. Er kann abgerufen werden unter <ref href="https://fedlex.data.admin.ch/eli/oc/2025/494">
+				https://fedlex.data.admin.ch/eli/oc/2025/494
+			</ref> &gt; Allgemeine Informationen &gt; Umfang der Veröffentlichung &gt; Veröffentlichung eines Textteils durch Verweis.</p>
+	</authorialNote></inline></heading></level></mainBody></doc></component><component><doc name="annex"><meta><identification source="#ch.bk"><FRBRWork><FRBRthis value="https://fedlex.data.admin.ch/eli/cc/2017/205/20250901/main-text"/><FRBRuri value="https://fedlex.data.admin.ch/eli/cc/2017/205/20250901"/><FRBRdate date="2017-03-22" name="jolux:dateDocument"/><FRBRdate date="2017-04-15" name="jolux:dateEntryInForce"/><FRBRdate date="2025-09-01" name="jolux:dateApplicability"/><FRBRauthor href="#ch.bk" as="#publisher"/><FRBRauthor href="#ch.bk" as="#rightsHolder"/><FRBRcountry value="CH"/><FRBRnumber value="816.111"/><FRBRname xml:lang="de" value="Verordnung des EDI vom 22. März 2017 über das elektronische Patientendossier (EPDV-EDI) " shortForm="EPDV-EDI"/><FRBRname xml:lang="it" value="Ordinanza del DFI del 22 marzo 2017 sulla cartella informatizzata del paziente (OCIP-DFI) " shortForm="OCIP-DFI"/><FRBRname xml:lang="fr" value="Ordonnance du DFI du 22 mars 2017 sur le dossier électronique du patient (ODEP-DFI) " shortForm="ODEP-DFI"/><FRBRauthoritative value="true"/></FRBRWork><FRBRExpression><FRBRthis value="https://fedlex.data.admin.ch/eli/cc/2017/205/20250901/de/main-text"/><FRBRuri value="https://fedlex.data.admin.ch/eli/cc/2017/205/20250901/de"/><FRBRdate date="2017-03-22" name="jolux:dateDocument"/><FRBRdate date="2017-04-15" name="jolux:dateEntryInForce"/><FRBRdate date="2025-09-01" name="jolux:dateApplicability"/><FRBRauthor href="#ch.bk" as="#publisher"/><FRBRauthor href="#ch.bk" as="#rightsHolder"/><FRBRlanguage language="de"/></FRBRExpression><FRBRManifestation><FRBRthis value="https://fedlex.data.admin.ch/eli/cc/2017/205/20250901/de/xml/main-text"/><FRBRuri value="https://fedlex.data.admin.ch/eli/cc/2017/205/20250901/de/xml"/><FRBRdate date="2017-03-22" name="jolux:dateDocument"/><FRBRdate date="2017-04-15" name="jolux:dateEntryInForce"/><FRBRdate date="2025-09-01" name="jolux:dateApplicability"/><FRBRauthor href="#ch.bk" as="#publisher"/><FRBRauthor href="#ch.bk" as="#rightsHolder"/><FRBRformat value="xml"/></FRBRManifestation></identification></meta><preface><container name="headerOfAnnex"><block name="num">Anhang 9<inline name="man-font-style-normal"><authorialNote>
+		<p> Eingefügt durch Ziff. II Abs. 3 der V des EDI vom 24. Juni 2019 (<ref href="https://fedlex.data.admin.ch/eli/oc/2019/381" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">AS <b>2019 </b>2075</ref>). Fassung gemäss Ziff. I Abs. 1 der V des BAG vom 13. März 2020 (<ref href="https://fedlex.data.admin.ch/eli/oc/2020/200" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">AS <b>2020 </b>1111</ref>). Bereinigt gemäss Ziff. II Abs. 1 der V des EDI vom 4. Mai 2023, in Kraft seit 1. Juni 2023  (<ref href="https://fedlex.data.admin.ch/eli/oc/2023/221" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">AS <b>2023 </b>221</ref>).</p>
+	</authorialNote></inline></block></container></preface><mainBody><p>(Art. 8<i>a</i>)</p><level eId="annex_9/lvl_u1"><heading>Metadaten für den Dienst zur Abfrage der Gesundheitseinrichtungen und Gesundheitsfachpersonen<inline name="man-font-weight-normal"><sup><authorialNote>
+		<p> Der Inhalt dieser Anhänge wird in der AS und in der SR nur durch Verweis veröffentlicht. Er kann abgerufen werden unter:  <ref href="https://fedlex.data.admin.ch/eli/oc/2023/221">
+				https://fedlex.data.admin.ch/eli/oc/2023/221
+			</ref> &gt; Allgemeine Informationen &gt; Umfang der Veröffentlichung &gt; Veröffentlichung eines Textteils durch Verweis.</p>
+	</authorialNote></sup></inline></heading><content/></level></mainBody></doc></component></components></act></akomaNtoso>

@@ -1,0 +1,1403 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:fedlex="http://fedlex.admin.ch/"><act name="publicLaw"><meta><identification source="#ch.bk"><FRBRWork><FRBRthis value="https://fedlex.data.admin.ch/eli/cc/1998/2261_2261_2261/20250801/main-text"/><FRBRuri value="https://fedlex.data.admin.ch/eli/cc/1998/2261_2261_2261/20250801"/><FRBRdate date="2025-08-01" name="jolux:dateApplicability"/><FRBRdate date="1998-08-26" name="jolux:dateDocument"/><FRBRdate date="1998-10-01" name="jolux:dateEntryInForce"/><FRBRauthor href="#ch.bk" as="#publisher"/><FRBRauthor href="#ch.bk" as="#rightsHolder"/><FRBRcountry value="CH"/><FRBRnumber value="814.680"/><FRBRname xml:lang="en" value="Ordinance of 26 August 1998 on the Remediation of Polluted Sites (Contaminated Sites Ordinance, CSO)" shortForm="CSO"/><FRBRname xml:lang="de" value="Verordnung vom 26. August 1998 über die Sanierung von belasteten Standorten (Altlasten-Verordnung, AltlV)" shortForm="AltlV"/><FRBRname xml:lang="fr" value="Ordonnance du 26 août 1998 sur l'assainissement des sites pollués (Ordonnance sur les sites contaminés, OSites)" shortForm="OSites"/><FRBRname xml:lang="it" value="Ordinanza del 26 agosto 1998 sul risanamento dei siti inquinati (Ordinanza sui siti contaminati, OSiti)" shortForm="OSiti"/><FRBRauthoritative value="true"/></FRBRWork><FRBRExpression><FRBRthis value="https://fedlex.data.admin.ch/eli/cc/1998/2261_2261_2261/20250801/de/main-text"/><FRBRuri value="https://fedlex.data.admin.ch/eli/cc/1998/2261_2261_2261/20250801/de"/><FRBRdate date="2025-08-01" name="jolux:dateApplicability"/><FRBRdate date="1998-08-26" name="jolux:dateDocument"/><FRBRdate date="1998-10-01" name="jolux:dateEntryInForce"/><FRBRauthor href="#ch.bk" as="#publisher"/><FRBRauthor href="#ch.bk" as="#rightsHolder"/><FRBRlanguage language="de"/></FRBRExpression><FRBRManifestation><FRBRthis value="https://fedlex.data.admin.ch/eli/cc/1998/2261_2261_2261/20250801/de/xml/main-text"/><FRBRuri value="https://fedlex.data.admin.ch/eli/cc/1998/2261_2261_2261/20250801/de/xml"/><FRBRdate date="2025-08-01" name="jolux:dateApplicability"/><FRBRdate date="1998-08-26" name="jolux:dateDocument"/><FRBRdate date="1998-10-01" name="jolux:dateEntryInForce"/><FRBRauthor href="#ch.bk" as="#publisher"/><FRBRauthor href="#ch.bk" as="#rightsHolder"/><FRBRformat value="xml" fedlex:generator="2025-q2-rel-1.7.8"/></FRBRManifestation></identification><references source="#ch.bk"><TLCOrganization eId="ch.bk" href="https://fedlex.data.admin.ch/vocabulary/legal-institution/2" showAs="Bundeskanzlei"/><TLCRole eId="publisher" href="http://data.legilux.public.lu/resource/ontology/jolux#publisher" showAs="Editeur"/><TLCRole eId="rightsHolder" href="http://data.legilux.public.lu/resource/ontology/jolux#rightsHolder" showAs="Détenteur des droits"/><TLCReference name="language" href="http://publications.europa.eu/resource/authority/language/DEU" showAs="de"/><TLCReference name="format" href="https://fedlex.data.admin.ch/vocabulary/user-format/xml" showAs="xml"/></references></meta><preface><p><docNumber>814.680</docNumber></p><p><docTitle>Verordnung<br/>über die Sanierung von belasteten Standorten</docTitle></p><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">(Altlasten-Verordnung, AltlV)</p><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">vom 26. August 1998 (Stand am 1. August 2025)</p></preface><preamble><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Der Schweizerische Bundesrat,</p><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">gestützt auf Artikel 32<i>c</i> Absatz 1 zweiter Satz und 39 Absatz 1 des Umweltschutzgesetzes vom 7. Oktober 1983<authorialNote>
+		<p> <ref fedlex:rs-uri="https://fedlex.data.admin.ch/eli/cc/1984/1122_1122_1122" fedlex:rs="814.01" href="https://fedlex.data.admin.ch/vocabulary/legal-taxonomy/9437">SR <b>814.01</b></ref></p>
+	</authorialNote> (USG),</p><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">verordnet:</p></preamble><body><section eId="sec_1"><num>1. Abschnitt: </num><heading>Allgemeine Bestimmungen</heading><article eId="art_1"><num><b>Art. 1</b></num><heading>Zweck und Gegenstand</heading><paragraph eId="art_1/para_1"><num>1</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Diese Verordnung soll sicherstellen, dass belastete Standorte saniert werden, wenn sie zu schädlichen oder lästigen Einwirkungen führen oder wenn die konkrete Gefahr besteht, dass solche Einwirkungen entstehen.</p></content></paragraph><paragraph eId="art_1/para_2"><num>2</num><content><blockList><listIntroduction eId="art_1/para_2/listintro" xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Sie regelt für die Bearbeitung belasteter Standorte die folgenden Verfahrensschritte:</listIntroduction><item eId="art_1/para_2/lbl_a"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">a. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">die Erfassung in einem Kataster;</p></item><item eId="art_1/para_2/lbl_b"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">b. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">die Beurteilung der Überwachungs- und Sanierungsbedürftigkeit;</p></item><item eId="art_1/para_2/lbl_c"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">c. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">die Beurteilung der Ziele und der Dringlichkeit der Sanierung;</p></item><item eId="art_1/para_2/lbl_d"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">d. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">die Festlegung der Untersuchungs‑, Überwachungs- und Sanierungsmassnahmen.</p></item></blockList></content></paragraph></article><article eId="art_2"><num><b>Art. 2</b></num><heading>Begriffe</heading><paragraph eId="art_2/para_1"><num>1</num><content><blockList><listIntroduction eId="art_2/para_1/listintro" xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> <i>Belastete Standorte</i> sind Orte, deren Belastung von Abfällen stammt und die eine beschränkte Ausdehnung aufweisen. Sie umfassen:</listIntroduction><item eId="art_2/para_1/lbl_a"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">a. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Ablagerungsstandorte: stillgelegte oder noch in Betrieb stehende Deponien und andere Abfallablagerungen; ausgenommen sind Standorte, an die ausschliesslich unverschmutztes Aushub-, Ausbruch- oder Abraummaterial gelangt ist;</p></item><item eId="art_2/para_1/lbl_b"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">b. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Betriebsstandorte: Standorte, deren Belastung von stillgelegten oder noch in Betrieb stehenden Anlagen oder Betrieben stammt, in denen mit umweltgefährdenden Stoffen umgegangen worden ist;</p></item><item eId="art_2/para_1/lbl_c"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">c. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Unfallstandorte: Standorte, die wegen ausserordentlicher Ereignisse, einschliesslich Betriebsstörungen, belastet sind.</p></item></blockList></content></paragraph><paragraph eId="art_2/para_2"><num>2</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> <i>Sanierungsbedürftig </i>sind belastete Standorte, wenn sie zu schädlichen oder lästigen Einwirkungen führen oder wenn die konkrete Gefahr besteht, dass solche Einwirkungen entstehen.</p></content></paragraph><paragraph eId="art_2/para_3"><num>3</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> <i>Altlasten </i>sind sanierungsbedürftige belastete Standorte.</p></content></paragraph></article><article eId="art_3"><num><b>Art. 3</b></num><heading>Erstellung und Änderung von Bauten und Anlagen</heading><paragraph eId="art_3/para"><content><blockList><listIntroduction eId="art_3/para/listintro" xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Belastete Standorte dürfen durch die Erstellung oder Änderung von Bauten und Anlagen nur verändert werden, wenn:</listIntroduction><item eId="art_3/para/lbl_a"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">a. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">sie nicht sanierungsbedürftig sind und durch das Vorhaben nicht sanierungsbedürftig werden; oder</p></item><item eId="art_3/para/lbl_b"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">b. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">ihre spätere Sanierung durch das Vorhaben nicht wesentlich erschwert wird oder sie, soweit sie durch das Vorhaben verändert werden, gleichzeitig saniert werden.</p></item></blockList></content></paragraph></article><article eId="art_4"><num><b>Art. 4</b></num><heading>Allgemeine Anforderungen an Massnahmen</heading><paragraph eId="art_4/para"><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Untersuchungs-, Überwachungs- und Sanierungsmassnahmen nach dieser Verordnung müssen dem Stand der Technik entsprechen und von den Pflichtigen dokumentiert werden.</p></content></paragraph></article></section><section eId="sec_2"><num>2. Abschnitt: </num><heading>Kataster der belasteten Standorte</heading><article eId="art_5"><num><b>Art. 5</b></num><heading>Erstellung des Katasters</heading><paragraph eId="art_5/para_1"><num>1</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Die Behörde ermittelt die belasteten Standorte, indem sie vorhandene Angaben wie Karten, Verzeichnisse und Meldungen auswertet. Sie kann von den Inhabern oder Inhaberinnen der Standorte oder von Dritten Auskünfte einholen.</p></content></paragraph><paragraph eId="art_5/para_2"><num>2</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Sie teilt den Inhabern oder den Inhaberinnen die zur Eintragung in den Kataster vorgesehenen Angaben mit und gibt ihnen Gelegenheit, Stellung zu nehmen und Abklärungen durchzuführen. Auf deren Verlangen trifft sie eine Feststellungsverfügung.</p></content></paragraph><paragraph eId="art_5/para_3"><num>3</num><content><blockList><listIntroduction eId="art_5/para_3/listintro" xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Sie trägt diejenigen Standorte in den Kataster ein, bei denen nach den Absätzen 1 und 2 feststeht oder mit grosser Wahrscheinlichkeit zu erwarten ist, dass sie belastet sind. Soweit möglich enthalten die Einträge Angaben über:</listIntroduction><item eId="art_5/para_3/lbl_a"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">a. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Lage;</p></item><item eId="art_5/para_3/lbl_b"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">b. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Art und Menge der an den Standort gelangten Abfälle;</p></item><item eId="art_5/para_3/lbl_c"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">c. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Ablagerungszeitraum, Betriebszeitraum oder Unfallzeitpunkt;</p></item><item eId="art_5/para_3/lbl_d"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">d. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">bereits durchgeführte Untersuchungen und Massnahmen zum Schutz der Umwelt;</p></item><item eId="art_5/para_3/lbl_e"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">e. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">bereits festgestellte Einwirkungen;</p></item><item eId="art_5/para_3/lbl_f"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">f. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">gefährdete Umweltbereiche;</p></item><item eId="art_5/para_3/lbl_g"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">g. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">besondere Vorkommnisse wie Verbrennung von Abfällen, Rutschungen, Überschwemmungen, Brände oder Störfälle.</p></item></blockList></content></paragraph><paragraph eId="art_5/para_4"><num>4</num><content><blockList><listIntroduction eId="art_5/para_4/listintro" xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Die Behörde teilt die belasteten Standorte nach den Angaben im Kataster, insbesondere über Art und Menge der an den Standort gelangten Abfälle, in folgende Kategorien ein:</listIntroduction><item eId="art_5/para_4/lbl_a"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">a. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Standorte, bei denen keine schädlichen oder lästigen Einwirkungen zu erwarten sind; und</p></item><item eId="art_5/para_4/lbl_b"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">b. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Standorte, bei denen untersucht werden muss, ob sie überwachungs- oder sanierungsbedürftig sind.</p></item></blockList></content></paragraph><paragraph eId="art_5/para_5"><num>5</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Für die Durchführung der Untersuchungen erstellt die Behörde eine Prioritätenordnung. Dabei berücksichtigt sie nach den Angaben im Kataster die Art und Menge der an die belasteten Standorte gelangten Abfälle, die Möglichkeit zur Freisetzung von Stoffen sowie die Bedeutung der betroffenen Umweltbereiche.</p></content></paragraph></article><article eId="art_6"><num><b>Art. 6</b></num><heading>Führung des Katasters</heading><paragraph eId="art_6/para_1"><num>1</num><content><blockList><listIntroduction eId="art_6/para_1/listintro" xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Die Behörde ergänzt den Kataster mit Angaben über:</listIntroduction><item eId="art_6/para_1/lbl_a"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">a. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">die Überwachungs- oder Sanierungsbedürftigkeit;</p></item><item eId="art_6/para_1/lbl_b"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">b. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">die Ziele und die Dringlichkeit der Sanierung;</p></item><item eId="art_6/para_1/lbl_c"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">c. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">die von ihr durchgeführten oder angeordneten Massnahmen zum Schutz der Umwelt.</p></item></blockList></content></paragraph><paragraph eId="art_6/para_2"><num>2</num><content><blockList><listIntroduction eId="art_6/para_2/listintro" xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Sie löscht den Eintrag eines Standortes im Kataster, wenn:</listIntroduction><item eId="art_6/para_2/lbl_a"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">a. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">die Untersuchungen ergeben, dass der Standort nicht mit umweltgefährdenden Stoffen belastet ist; oder</p></item><item eId="art_6/para_2/lbl_b"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">b. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">die umweltgefährdenden Stoffe beseitigt worden sind.</p></item></blockList></content></paragraph></article><article eId="art_6_a"><num><b>Art. 6</b><i>a</i><authorialNote>
+		<p> Eingefügt durch Anhang 6 Ziff. 9 der Abfallverordnung vom 4. Dezember 2015, in Kraft seit 1. Januar 2016 (<ref href="https://fedlex.data.admin.ch/eli/oc/2015/891" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">AS <b>2015 </b>5699</ref>).</p>
+	</authorialNote></num><heading>Koordination mit der Richt- und Nutzungsplanung</heading><paragraph eId="art_6_a/para"><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Die Behörde berücksichtigt den Kataster in ihrer Richt- und Nutzungsplanung.</p></content></paragraph></article></section><section eId="sec_3"><num>3. Abschnitt: </num><heading>Überwachungs- und Sanierungsbedürftigkeit</heading><article eId="art_7"><num><b>Art. 7</b></num><heading>Voruntersuchung</heading><paragraph eId="art_7/para_1"><num>1</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Auf Grund der Prioritätenordnung verlangt die Behörde für die untersuchungsbedürftigen Standorte innert angemessener Frist die Durchführung einer Voruntersuchung, die in der Regel aus einer historischen und einer technischen Untersuchung besteht. Damit werden die für die Beurteilung der Überwachungs- und Sanierungsbedürftigkeit erforderlichen Angaben (Art. 8) ermittelt und im Hinblick auf die Gefährdung der Umwelt bewertet (Gefährdungsabschätzung).</p></content></paragraph><paragraph eId="art_7/para_2"><num>2</num><content><blockList><listIntroduction eId="art_7/para_2/listintro" xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Mit der historischen Untersuchung werden die möglichen Ursachen für die Belastung des Standorts ermittelt, insbesondere:</listIntroduction><item eId="art_7/para_2/lbl_a"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">a. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">die Vorkommnisse und die zeitliche und räumliche Entwicklung der Tätigkeiten am Standort;</p></item><item eId="art_7/para_2/lbl_b"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">b. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">die Verfahren, nach denen am Standort mit umweltgefährdenden Stoffen umgegangen worden ist.</p></item></blockList></content></paragraph><paragraph eId="art_7/para_3"><num>3</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Aufgrund der historischen Untersuchung wird ein Pflichtenheft über den Gegenstand, den Umfang und die Methoden der technischen Untersuchung erstellt. Dieses muss der Behörde zur Stellungnahme vorgelegt werden.</p></content></paragraph><paragraph eId="art_7/para_4"><num>4</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Mit der technischen Untersuchung werden Art und Menge der Stoffe am Standort, deren Freisetzungsmöglichkeiten und die Bedeutung der betroffenen Umweltbereiche ermittelt.</p></content></paragraph></article><article eId="art_8"><num><b>Art. 8</b></num><heading>Beurteilung der Überwachungs- und Sanierungsbedürftigkeit</heading><paragraph eId="art_8/para_1"><num>1</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Die Behörde beurteilt auf Grund der Voruntersuchung, ob der belastete Standort nach den Artikeln 9–12 überwachungs- oder sanierungsbedürftig ist. Sie berücksichtigt dabei auch Einwirkungen, die durch andere belastete Standorte oder durch Dritte verursacht werden.</p></content></paragraph><paragraph eId="art_8/para_2"><num>2</num><content><blockList><listIntroduction eId="art_8/para_2/listintro" xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Sie gibt im Kataster an, ob ein belasteter Standort:</listIntroduction><item eId="art_8/para_2/lbl_a"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">a. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">überwachungsbedürftig ist;</p></item><item eId="art_8/para_2/lbl_b"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">b. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">sanierungsbedürftig ist (Altlast);</p></item><item eId="art_8/para_2/lbl_c"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">c. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">weder überwachungs- noch sanierungsbedürftig ist.</p></item></blockList></content></paragraph></article><article eId="art_9"><num><b>Art. 9</b></num><heading>Schutz des Grundwassers</heading><paragraph eId="art_9/para_1"><num>1</num><content><blockList><listIntroduction eId="art_9/para_1/listintro" xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Ein belasteter Standort ist unter Vorbehalt von Absatz 1<sup>bis</sup> hinsichtlich des Schutzes des Grundwassers überwachungsbedürftig, wenn:</listIntroduction><item eId="art_9/para_1/lbl_a"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">a. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">im Eluat des Materials des Standortes ein Konzentrationswert nach Anhang 1 überschritten ist;</p></item><item eId="art_9/para_1/lbl_b"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">b. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">bei Grundwasser im Gewässerschutzbereich A<sub>u</sub>: im Abstrombereich unmittelbar beim Standort die Konzentration von Stoffen, die vom Standort stammen, 10 Prozent eines Konzentrationswertes nach Anhang 1 überschreitet; oder</p></item><item eId="art_9/para_1/lbl_c"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">c. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">bei Grundwasser ausserhalb des Gewässerschutzbereichs A<sub>u</sub>: im Abstrombereich unmittelbar beim Standort die Konzentration von Stoffen, die vom Standort stammen, 40 Prozent eines Konzentrationswertes nach Anhang 1 überschreitet.<authorialNote>
+		<p> Fassung gemäss Ziff. I der V vom 9. Mai 2012, in Kraft seit 1. Aug. 2012  (<ref href="https://fedlex.data.admin.ch/eli/oc/2012/348" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">AS <b>2012</b> 2905</ref>).</p>
+	</authorialNote></p></item></blockList></content></paragraph><paragraph eId="art_9/para_1_bis"><num>1bis</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Steht bei einem Standort nach mehrjähriger Überwachung fest, dass aufgrund des Verlaufs der Schadstoffkonzentration und der Standorteigenschaften mit grosser Wahrscheinlichkeit kein Sanierungsbedarf nach Absatz 2 zu erwarten ist, so ist der Standort nicht mehr überwachungsbedürftig.<authorialNote>
+		<p> Eingefügt durch Ziff. I der V vom 9. Mai 2012, in Kraft seit 1. Aug. 2012  (<ref href="https://fedlex.data.admin.ch/eli/oc/2012/348" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">AS <b>2012</b> 2905</ref>).</p>
+	</authorialNote></p></content></paragraph><paragraph eId="art_9/para_2"><num>2</num><content><blockList><listIntroduction eId="art_9/para_2/listintro" xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Ein belasteter Standort ist hinsichtlich des Schutzes des Grundwassers sanierungsbedürftig, wenn:</listIntroduction><item eId="art_9/para_2/lbl_a"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">a.<authorialNote>
+		<p> Fassung gemäss Ziff. I der V vom 22. März 2017, in Kraft seit 1. Mai 2017 (<ref href="https://fedlex.data.admin.ch/eli/oc/2017/246" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">AS <b>2017</b> 2589</ref>).</p>
+	</authorialNote> </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">bei Grundwasserfassungen, die im öffentlichen Interesse liegen, vom Standort stammende Stoffe, die Gewässer verunreinigen können, in Konzentrationen über der Bestimmungsgrenze festgestellt werden;</p></item><item eId="art_9/para_2/lbl_b"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">b.<authorialNote>
+		<p> Fassung gemäss Anhang 5 Ziff. 5 der Gewässerschutzverordnung vom 28. Okt. 1998, in Kraft seit 1. Jan. 1999 (<ref href="https://fedlex.data.admin.ch/eli/oc/1998/2863_2863_2863" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">AS <b>1998 </b>2863</ref>).</p>
+	</authorialNote> </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">bei Grundwasser im Gewässerschutzbereich A<sub>u</sub><authorialNote>
+		<p> Nach Art. 29 Abs. 1 Bst. a der Gewässerschutzverordnung vom 28. Okt. 1998 (<ref fedlex:rs-uri="https://fedlex.data.admin.ch/eli/cc/1998/2863_2863_2863" fedlex:rs="814.201" href="https://fedlex.data.admin.ch/vocabulary/legal-taxonomy/9478">SR <b>814.201</b></ref>).</p>
+	</authorialNote>: im Abstrombereich unmittelbar beim Standort die Konzentration von Stoffen, die vom Standort stammen, die Hälfte eines Konzentrationswerts nach Anhang 1 überschreitet;</p></item><item eId="art_9/para_2/lbl_c"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">c.<authorialNote>
+		<p> Fassung gemäss Anhang 5 Ziff. 5 der Gewässerschutzverordnung vom 28. Okt. 1998, in Kraft seit 1. Jan. 1999 (<ref href="https://fedlex.data.admin.ch/eli/oc/1998/2863_2863_2863" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">AS <b>1998 </b>2863</ref>).</p>
+	</authorialNote> </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">bei Grundwasser ausserhalb des Gewässerschutzbereichs A<sub>u</sub>: im Abstrombereich unmittelbar beim Standort die Konzentration von Stoffen, die vom Standort stammen, das Zweifache eines Konzentrationswerts nach Anhang 1 überschreitet; oder</p></item><item eId="art_9/para_2/lbl_d"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">d. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">er nach Absatz 1 Buchstabe a überwachungsbedürftig ist und wegen eines ungenügenden Rückhalts oder Abbaus von Stoffen, die vom Standort stammen, eine konkrete Gefahr einer Verunreinigung des Grundwassers besteht.</p></item></blockList></content></paragraph></article><article eId="art_10"><num><b>Art. 10</b></num><heading>Schutz der oberirdischen Gewässer</heading><paragraph eId="art_10/para_1"><num>1</num><content><blockList><listIntroduction eId="art_10/para_1/listintro" xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Ein belasteter Standort ist unter Vorbehalt von Absatz 1<sup>bis</sup> hinsichtlich des Schutzes oberirdischer Gewässer überwachungsbedürftig, wenn:<authorialNote>
+		<p> Fassung gemäss Ziff. I der V vom 9. Mai 2012, in Kraft seit 1. Aug. 2012  (<ref href="https://fedlex.data.admin.ch/eli/oc/2012/348" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">AS <b>2012</b> 2905</ref>).</p>
+	</authorialNote></listIntroduction><item eId="art_10/para_1/lbl_a"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">a. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">im Eluat des Materials des Standortes, das auf ein oberirdisches Gewässer einwirken kann, ein Konzentrationswert nach Anhang 1 überschritten ist; oder</p></item><item eId="art_10/para_1/lbl_b"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">b. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">im Wasser, das in ein oberirdisches Gewässer gelangt, die Konzentration von Stoffen, die vom Standort stammen, einen Konzentrationswert nach Anhang 1 überschreitet.</p></item></blockList></content></paragraph><paragraph eId="art_10/para_1_bis"><num>1bis</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Steht bei einem Standort nach mehrjähriger Überwachung fest, dass aufgrund des Verlaufs der Schadstoffkonzentration und der Standorteigenschaften mit grosser Wahrscheinlichkeit kein Sanierungsbedarf nach Absatz 2 zu erwarten ist, so ist der Standort nicht mehr überwachungsbedürftig.<authorialNote>
+		<p> Eingefügt durch Ziff. I der V vom 9. Mai 2012, in Kraft seit 1. Aug. 2012  (<ref href="https://fedlex.data.admin.ch/eli/oc/2012/348" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">AS <b>2012</b> 2905</ref>).</p>
+	</authorialNote></p></content></paragraph><paragraph eId="art_10/para_2"><num>2</num><content><blockList><listIntroduction eId="art_10/para_2/listintro" xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Ein belasteter Standort ist hinsichtlich des Schutzes oberirdischer Gewässer sanierungsbedürftig, wenn:</listIntroduction><item eId="art_10/para_2/lbl_a"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">a. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">im Wasser, das in ein oberirdisches Gewässer gelangt, die Konzentration von Stoffen, die vom Standort stammen, das Zehnfache eines Konzentrationswertes nach Anhang 1 überschreitet; oder</p></item><item eId="art_10/para_2/lbl_b"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">b. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">er nach Absatz 1 Buchstabe a überwachungsbedürftig ist und wegen eines ungenügenden Rückhalts oder Abbaus von Stoffen, die vom Standort stammen, eine konkrete Gefahr einer Verunreinigung oberirdischer Gewässer besteht.</p></item></blockList></content></paragraph></article><article eId="art_11"><num><b>Art. 11</b><authorialNote>
+		<p> Fassung gemäss Ziff. I der V vom 22. März 2017, in Kraft seit 1. Mai 2017 (<ref href="https://fedlex.data.admin.ch/eli/oc/2017/246" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">AS <b>2017</b> 2589</ref>).</p>
+	</authorialNote></num><heading>Schutz vor Luftverunreinigungen</heading><paragraph eId="art_11/para_1"><num>1</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Ein belasteter Standort ist hinsichtlich des Schutzes von Personen vor Luftverunreinigungen überwachungsbedürftig, wenn seine Porenluft einen Konzentrationswert nach Anhang 2 überschreitet und die vom Standort ausgehenden Emissionen an Orte gelangen können, wo sich Personen regelmässig während längerer Zeit aufhalten können.</p></content></paragraph><paragraph eId="art_11/para_2"><num>2</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Ein belasteter Standort ist hinsichtlich des Schutzes von Personen vor Luftverunreinigungen sanierungsbedürftig, wenn seine Porenluft einen Konzentrationswert nach Anhang 2 überschreitet und die vom Standort ausgehenden Emissionen an Orte gelangen, wo sich Personen regelmässig während längerer Zeit aufhalten können.</p></content></paragraph></article><article eId="art_12"><num><b>Art. 12</b><authorialNote>
+		<p> Fassung gemäss Anhang Ziff. II 2 der V vom 26. Sept. 2008 über die Abgabe zur Sanierung von Altlasten, in Kraft seit 1. Jan. 2009 (<ref href="https://fedlex.data.admin.ch/eli/oc/2008/670" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">AS <b>2008</b> 4771</ref>).</p>
+	</authorialNote></num><heading>Schutz vor Belastungen des Bodens</heading><paragraph eId="art_12/para_1"><num>1</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Ein Boden, der ein belasteter Standort oder ein Teil davon ist, ist sanierungsbedürftig, wenn ein in ihm enthaltener Stoff einen Konzentrationswert nach Anhang 3 überschreitet. Dies gilt auch für Böden, für die bereits eine Nutzungsbeschränkung verfügt wurde.</p></content></paragraph><paragraph eId="art_12/para_2"><num>2</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Böden, die nach Absatz 1 nicht sanierungsbedürftig sind, obwohl sie belastete Standorte oder Teile davon sind, und Einwirkungen von belasteten Standorten auf Böden werden gemäss der Verordnung vom 1. Juli 1998<authorialNote>
+		<p> <ref fedlex:rs-uri="https://fedlex.data.admin.ch/eli/cc/1998/1854_1854_1854" fedlex:rs="814.12" href="https://fedlex.data.admin.ch/vocabulary/legal-taxonomy/9475">SR <b>814.12</b></ref></p>
+	</authorialNote> über Belastungen des Bodens beurteilt.</p></content></paragraph></article><article eId="art_13"><num><b>Art. 13</b></num><heading>Vorgehen der Behörde</heading><paragraph eId="art_13/para_1"><num>1</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Ist ein belasteter Standort überwachungsbedürftig, so verlangt die Behörde, dass ein Konzept zur Überwachung erstellt wird und diejenigen Massnahmen getroffen werden, mit denen eine konkrete Gefahr schädlicher oder lästiger Einwirkungen festgestellt werden kann, bevor sich diese verwirklicht. Die Überwachungsmassnahmen müssen so lange durchgeführt werden, bis nach den Artikeln 9–12 keine Überwachungsbedürftigkeit mehr besteht.<authorialNote>
+		<p> Fassung gemäss Ziff. I der V vom 9. Mai 2012, in Kraft seit 1. Aug. 2012  (<ref href="https://fedlex.data.admin.ch/eli/oc/2012/348" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">AS <b>2012</b> 2905</ref>).</p>
+	</authorialNote></p></content></paragraph><paragraph eId="art_13/para_2"><num>2</num><content><blockList><listIntroduction eId="art_13/para_2/listintro" xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Ist ein belasteter Standort sanierungsbedürftig (Altlast), so verlangt die Behörde, dass:</listIntroduction><item eId="art_13/para_2/lbl_a"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">a. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">innert angemessener Frist eine Detailuntersuchung durchgeführt wird;</p></item><item eId="art_13/para_2/lbl_b"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">b. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">der Standort bis zum Abschluss der Sanierung überwacht wird.</p></item></blockList></content></paragraph></article></section><section eId="sec_4"><num>4. Abschnitt: </num><heading>Ziele und Dringlichkeit der Sanierung</heading><article eId="art_14"><num><b>Art. 14</b></num><heading>Detailuntersuchung</heading><paragraph eId="art_14/para_1"><num>1</num><content><blockList><listIntroduction eId="art_14/para_1/listintro" xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Zur Beurteilung der Ziele und der Dringlichkeit der Sanierung werden die folgenden Angaben detailliert ermittelt und auf Grund einer Gefährdungsabschätzung bewertet:</listIntroduction><item eId="art_14/para_1/lbl_a"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">a. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Art, Lage, Menge und Konzentration der am belasteten Standort vorhandenen umweltgefährdenden Stoffe;</p></item><item eId="art_14/para_1/lbl_b"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">b. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Art, Fracht und zeitlicher Verlauf der tatsächlichen und möglichen Einwirkungen auf die Umwelt;</p></item><item eId="art_14/para_1/lbl_c"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">c. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Lage und Bedeutung der gefährdeten Umweltbereiche.</p></item></blockList></content></paragraph><paragraph eId="art_14/para_2"><num>2</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Weichen die Ergebnisse der Detailuntersuchung wesentlich von denjenigen der Voruntersuchung ab, so beurteilt die Behörde erneut, ob der Standort nach den Artikeln 9–12 sanierungsbedürftig ist.</p></content></paragraph></article><article eId="art_15"><num><b>Art. 15</b></num><heading>Ziele und Dringlichkeit der Sanierung</heading><paragraph eId="art_15/para_1"><num>1</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Ziel der Sanierung ist die Beseitigung der Einwirkungen oder der konkreten Gefahr solcher Einwirkungen, die zur Sanierungsbedürftigkeit nach den Artikeln 9–12 geführt haben.</p></content></paragraph><paragraph eId="art_15/para_2"><num>2</num><content><blockList><listIntroduction eId="art_15/para_2/listintro" xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Bei der Sanierung zum Schutz des Grundwassers wird vom Ziel abgewichen, wenn:</listIntroduction><item eId="art_15/para_2/lbl_a"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">a. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">dadurch die Umwelt gesamthaft weniger belastet wird;</p></item><item eId="art_15/para_2/lbl_b"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">b. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">sonst unverhältnismässige Kosten anfallen würden; und</p></item><item eId="art_15/para_2/lbl_c"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">c.<authorialNote>
+		<p> Fassung gemäss Anhang 5 Ziff. 5 der Gewässerschutzverordnung vom 28. Okt. 1998, in Kraft seit 1. Jan. 1999 (<ref href="https://fedlex.data.admin.ch/eli/oc/1998/2863_2863_2863" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">AS <b>1998 </b>2863</ref>).</p>
+	</authorialNote> </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">die Nutzbarkeit von Grundwasser im Gewässerschutzbereich A<sub>u</sub> gewährleistet ist, oder wenn oberirdische Gewässer, die mit Grundwasser ausserhalb des Gewässerschutzbereichs A<sub>u</sub> in Verbindung stehen, die Anforderungen der Gewässerschutzgesetzgebung an die Wasserqualität erfüllen.</p></item></blockList></content></paragraph><paragraph eId="art_15/para_3"><num>3</num><content><blockList><listIntroduction eId="art_15/para_3/listintro" xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Bei der Sanierung zum Schutz der oberirdischen Gewässer wird vom Ziel abgewichen, wenn:</listIntroduction><item eId="art_15/para_3/lbl_a"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">a. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">dadurch die Umwelt gesamthaft weniger belastet wird;</p></item><item eId="art_15/para_3/lbl_b"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">b. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">sonst unverhältnismässige Kosten anfallen würden; und</p></item><item eId="art_15/para_3/lbl_c"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">c. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">das Gewässer die Anforderungen der Gewässerschutzgesetzgebung an die Wasserqualität erfüllt.</p></item></blockList></content></paragraph><paragraph eId="art_15/para_4"><num>4</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Besonders dringlich sind Sanierungen, wenn eine bestehende Nutzung beeinträchtigt oder unmittelbar gefährdet ist.</p></content></paragraph><paragraph eId="art_15/para_5"><num>5</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Aufgrund der Detailuntersuchung beurteilt die Behörde die Ziele und die Dringlichkeit der Sanierung.</p></content></paragraph></article></section><section eId="sec_5"><num>5. Abschnitt: </num><heading>Sanierung</heading><article eId="art_16"><num><b>Art. 16</b><authorialNote>
+		<p> Fassung gemäss Anhang Ziff. II 2 der V vom 26. Sept. 2008 über die Abgabe zur Sanierung von Altlasten, in Kraft seit 1. Jan. 2009 (<ref href="https://fedlex.data.admin.ch/eli/oc/2008/670" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">AS <b>2008</b> 4771</ref>).</p>
+	</authorialNote></num><heading>Sanierungsmassnahmen</heading><paragraph eId="art_16/para_1"><num>1</num><content><blockList><listIntroduction eId="art_16/para_1/listintro" xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Das Ziel der Sanierung muss durch Massnahmen erreicht werden, mit denen:</listIntroduction><item eId="art_16/para_1/lbl_a"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">a. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">umweltgefährdende Stoffe beseitigt werden (Dekontamination); oder</p></item><item eId="art_16/para_1/lbl_b"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">b. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">die Ausbreitung der umweltgefährdenden Stoffe langfristig verhindert und überwacht wird (Sicherung).</p></item></blockList></content></paragraph><paragraph eId="art_16/para_2"><num>2</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> …<authorialNote>
+		<p> Aufgehoben durch Ziff. I der V vom 22. März 2017, mit Wirkung seit 1. Mai 2017 (<ref href="https://fedlex.data.admin.ch/eli/oc/2017/246" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">AS <b>2017</b> 2589</ref>).</p>
+	</authorialNote></p></content></paragraph></article><article eId="art_17"><num><b>Art. 17</b></num><heading>Sanierungsprojekt</heading><paragraph eId="art_17/para"><content><blockList><listIntroduction eId="art_17/para/listintro" xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Die Behörde verlangt, dass bei Altlasten entsprechend der Dringlichkeit der Sanierung ein Sanierungsprojekt ausgearbeitet wird. Dieses beschreibt insbesondere:</listIntroduction><item eId="art_17/para/lbl_a"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">a. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">die Sanierungsmassnahmen, einschliesslich der Massnahmen zur Überwachung und der Massnahmen zur Entsorgung von Abfällen, sowie die Wirksamkeit der Massnahmen, die Erfolgskontrolle und den Zeitbedarf;</p></item><item eId="art_17/para/lbl_b"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">b. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">die Auswirkungen der vorgesehenen Massnahmen auf die Umwelt;</p></item><item eId="art_17/para/lbl_c"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">c. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">die nach der Sanierung verbleibende Umweltgefährdung;</p></item><item eId="art_17/para/lbl_d"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">d. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">die Anteile an der Verursachung der Altlast, wenn der oder die Sanierungspflichtige eine Verfügung über die Kostenverteilung verlangt (Art. 32<i>d</i> Abs. 3<authorialNote>
+		<p> Siehe heute: Abs. 4.</p>
+	</authorialNote> USG).</p></item></blockList></content></paragraph></article><article eId="art_18"><num><b>Art. 18</b></num><heading>Festlegung der erforderlichen Massnahmen</heading><paragraph eId="art_18/para_1"><num>1</num><content><blockList><listIntroduction eId="art_18/para_1/listintro" xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Die Behörde beurteilt das Sanierungsprojekt. Sie berücksichtigt dabei insbesondere:</listIntroduction><item eId="art_18/para_1/lbl_a"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">a. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">die Auswirkungen der Massnahmen auf die Umwelt;</p></item><item eId="art_18/para_1/lbl_b"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">b. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">deren langfristige Wirksamkeit;</p></item><item eId="art_18/para_1/lbl_c"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">c. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">die Gefährdung der Umwelt durch den belasteten Standort vor und nach der Sanierung;</p></item><item eId="art_18/para_1/lbl_d"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">d. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">bei nicht vollständiger Dekontamination die Kontrollierbarkeit der Massnahmen, die Möglichkeit zur Mängelbehebung sowie die Sicherstellung der für die vorgesehenen Massnahmen erforderlichen Mittel;</p></item><item eId="art_18/para_1/lbl_e"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">e. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">ob die Voraussetzungen zum Abweichen vom Sanierungsziel nach Artikel 15 Absätze 2 und 3 erfüllt sind.</p></item></blockList></content></paragraph><paragraph eId="art_18/para_2"><num>2</num><content><blockList><listIntroduction eId="art_18/para_2/listintro" xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Gestützt auf die Beurteilung legt sie in einer Verfügung insbesondere fest:</listIntroduction><item eId="art_18/para_2/lbl_a"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">a. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">die abschliessenden Ziele der Sanierung;</p></item><item eId="art_18/para_2/lbl_b"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">b. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">die Sanierungsmassnahmen, die Erfolgskontrolle sowie die einzuhaltenden Fristen;</p></item><item eId="art_18/para_2/lbl_c"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">c. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">weitere Auflagen und Bedingungen zum Schutz der Umwelt.</p></item></blockList></content></paragraph><paragraph eId="art_18/para_3"><num>3</num><content><blockList><listIntroduction eId="art_18/para_3/listintro" xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Die Behörde kann ausnahmsweise und mit Zustimmung des Bundesamts für Umwelt (BAFU) den Wiedereinbau von belastetem Aushubmaterial, das die Anforderungen an die Verwertung von Aushubmaterial nach Artikel 19 der Abfallverordnung vom 4. Dezember 2015<authorialNote>
+		<p>  <ref fedlex:rs-uri="https://fedlex.data.admin.ch/eli/cc/2015/891" fedlex:rs="814.600" href="https://fedlex.data.admin.ch/vocabulary/legal-taxonomy/9574">SR <b>814.600</b></ref></p>
+	</authorialNote> nicht erfüllt, für den Standort, an dem das Material anfällt, genehmigen, wenn:</listIntroduction><item eId="art_18/para_3/lbl_a"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">a. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">dadurch die Umwelt gesamthaft weniger belastet wird;</p></item><item eId="art_18/para_3/lbl_b"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">b. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">nachgewiesen ist, dass das wiedereingebaute Aushubmaterial nicht zu schädlichen oder lästigen Einwirkungen führt oder nicht die konkrete Gefahr besteht, dass solche Einwirkungen entstehen; und</p></item><item eId="art_18/para_3/lbl_c"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">c. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">der Standort langfristig überwacht wird.<authorialNote>
+		<p> Eingefügt durch Ziff. I der V vom 31. Mai 2024, in Kraft seit 1. Juli 2024  (<ref href="https://fedlex.data.admin.ch/eli/oc/2024/253" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">AS <b>2024</b> 253</ref>).</p>
+	</authorialNote></p></item></blockList></content></paragraph></article><article eId="art_19"><num><b>Art. 19</b><authorialNote>
+		<p> Fassung gemäss Anhang Ziff. II 2 der V vom 26. Sept. 2008 über die Abgabe zur Sanierung von Altlasten, in Kraft seit 1. Jan. 2009 (<ref href="https://fedlex.data.admin.ch/eli/oc/2008/670" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">AS <b>2008</b> 4771</ref>).</p>
+	</authorialNote></num><heading>Erfolgskontrolle</heading><paragraph eId="art_19/para"><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Sanierungspflichtige müssen der Behörde die durchgeführten Sanierungsmassnahmen melden und nachweisen, dass die Sanierungsziele erreicht worden sind. Die Behörde nimmt dazu Stellung.</p></content></paragraph></article></section><section eId="sec_6"><num>6. Abschnitt: </num><heading>Pflicht zu Untersuchungs-, Überwachungs- und<br/>Sanierungsmassnahmen</heading><article eId="art_20"><num><b>Art. 20</b></num><paragraph eId="art_20/para_1"><num>1</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Die Untersuchungs-, Überwachungs- und Sanierungsmassnahmen sind vom Inhaber oder von der Inhaberin eines belasteten Standortes durchzuführen.</p></content></paragraph><paragraph eId="art_20/para_2"><num>2</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Zur Durchführung der Voruntersuchung, der Überwachungsmassnahmen oder der Detailuntersuchung kann die Behörde Dritte verpflichten, wenn Grund zur Annahme besteht, dass diese die Belastung des Standorts durch ihr Verhalten verursacht haben.</p></content></paragraph><paragraph eId="art_20/para_3"><num>3</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Zur Ausarbeitung des Sanierungsprojektes und zur Durchführung der Sanierungsmassnahmen kann die Behörde mit Zustimmung des Inhabers oder der Inhaberin Dritte verpflichten, wenn diese die Belastung des Standortes durch ihr Verhalten verursacht haben.</p></content></paragraph></article></section><section eId="sec_7"><num>7. Abschnitt: </num><heading>Schlussbestimmungen</heading><article eId="art_21"><num><b>Art. 21</b><authorialNote>
+		<p> Fassung gemäss Ziff. II 16 der V vom 2. Febr. 2000 zum BG über die Koordination und Vereinfachung von Entscheidverfahren, in Kraft seit 1. März 2000 (<ref href="https://fedlex.data.admin.ch/eli/oc/2000/121" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">AS <b>2000</b> 703</ref>).</p>
+	</authorialNote></num><heading>Vollzug</heading><paragraph eId="art_21/para_1"><num>1</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Die Kantone vollziehen diese Verordnung, soweit diese den Vollzug nicht dem Bund überträgt.<authorialNote>
+		<p> Fassung gemäss Anhang Ziff. II 2 der V vom 26. Sept. 2008 über die Abgabe zur Sanierung von Altlasten, in Kraft seit 1. Jan. 2009 (<ref href="https://fedlex.data.admin.ch/eli/oc/2008/670" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">AS <b>2008</b> 4771</ref>).</p>
+	</authorialNote> Sie melden dem BAFU jeweils zum Ende des Kalenderjahres die Angaben nach Artikel 5 Absätze 3 und 5 und nach Artikel 6 sowie die Angaben über die sanierten Standorte nach Artikel 17.<authorialNote>
+		<p> Fassung des zweiten Satzes gemäss Ziff. I der V vom 22. März 2017, in Kraft seit  1. Mai 2017 (<ref href="https://fedlex.data.admin.ch/eli/oc/2017/246" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">AS <b>2017</b> 2589</ref>).</p>
+	</authorialNote></p></content></paragraph><paragraph eId="art_21/para_1_bis"><num>1bis</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Das BAFU wertet die Angaben aus und informiert die Öffentlichkeit regelmässig über den Stand der Altlastenbearbeitung.<authorialNote>
+		<p> Eingefügt durch Anhang Ziff. II 2 der V vom 26. Sept. 2008 über die Abgabe zur Sanierung von Altlasten, in Kraft seit 1. Jan. 2009 (<ref href="https://fedlex.data.admin.ch/eli/oc/2008/670" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">AS <b>2008</b> 4771</ref>).</p>
+	</authorialNote></p></content></paragraph><paragraph eId="art_21/para_2"><num>2</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Wenden Bundesbehörden andere Bundesgesetze oder völkerrechtliche Vereinbarungen oder Beschlüsse an, die Gegenstände dieser Verordnung betreffen, so vollziehen sie dabei auch diese Verordnung. Für die Mitwirkung des BAFU<authorialNote>
+		<p> Ausdruck gemäss Ziff. I der V vom 31. Mai 2024, in Kraft seit 1. Juli 2024  (<ref href="https://fedlex.data.admin.ch/eli/oc/2024/253" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">AS <b>2024</b> 253</ref>). Diese Änd. wurde im ganzen Erlass berücksichtigt.</p>
+	</authorialNote> und der Kantone gilt Artikel 41 Absätze 2 und 4 USG; gesetzliche Geheimhaltungspflichten bleiben vorbehalten. Verzichten die Bundesbehörden bei der Festlegung von Sanierungsmassnahmen auf den Erlass einer Verfügung (Art. 23 Abs. 3), so holen sie die Stellungnahme der betroffenen Kantone zu den vorgesehenen Massnahmen ein.<authorialNote>
+		<p> Fassung gemäss Ziff. I 2 der V vom 29. Juni 2011 über Anpassungen von Verordnungen im Umweltbereich, in Kraft seit 1. Aug. 2011 (<ref href="https://fedlex.data.admin.ch/eli/oc/2011/454" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">AS <b>2011</b> 3379</ref>).</p>
+	</authorialNote></p></content></paragraph><paragraph eId="art_21/para_3"><num>3</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Die Bundesbehörden legen das Vorgehen bei der Einteilung der belasteten Standorte (Art. 5 Abs. 4), der Erstellung der Prioritätenordnung (Art. 5 Abs. 5) und der Löschung von Eintragungen im Kataster (Art. 6 Abs. 2) fest.<authorialNote>
+		<p> Fassung gemäss Ziff. I 2 der V vom 29. Juni 2011 über Anpassungen von Verordnungen im Umweltbereich, in Kraft seit 1. Aug. 2011 (<ref href="https://fedlex.data.admin.ch/eli/oc/2011/454" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">AS <b>2011</b> 3379</ref>).</p>
+	</authorialNote></p></content></paragraph><paragraph eId="art_21/para_4"><num>4</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Sie informieren die betroffenen Kantone regelmässig über den Inhalt des Katasters (Art. 5 und 6). Diese nehmen einen Hinweis auf die entsprechenden belasteten Standorte in ihren Kataster auf.</p></content></paragraph></article><article eId="art_22"><num><b>Art. 22</b><authorialNote>
+		<p> Aufgehoben durch Ziff. II 16 der V vom 2. Febr. 2000 zum BG über die Koordination und Vereinfachung von Entscheidverfahren, mit Wirkung seit 1. März 2000  (<ref href="https://fedlex.data.admin.ch/eli/oc/2000/121" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">AS <b>2000</b> 703</ref>).</p>
+	</authorialNote></num></article><article eId="art_23"><num><b>Art. 23</b></num><heading>Zusammenarbeit mit den Betroffenen</heading><paragraph eId="art_23/para_1"><num>1</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Die Behörden arbeiten beim Vollzug dieser Verordnung mit den direkt Betroffenen zusammen. Dabei prüfen sie insbesondere, ob sich freiwillige in Branchenvereinbarungen der Wirtschaft vorgesehene Massnahmen für den Vollzug dieser Verordnung eignen.</p></content></paragraph><paragraph eId="art_23/para_2"><num>2</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Sie streben an, sich mit den direkt Betroffenen über die erforderlichen Beurteilungen und Massnahmen im Rahmen der Anforderungen dieser Verordnung ins Einvernehmen zu setzen. Zu diesem Zweck hören sie die direkt Betroffenen möglichst frühzeitig an.</p></content></paragraph><paragraph eId="art_23/para_3"><num>3</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Sie können auf den Erlass von Verfügungen verzichten, wenn die Durchführung der erforderlichen Untersuchungs-, Überwachungs- und Sanierungsmassnahmen auf andere Weise gewährleistet ist.</p></content></paragraph></article><article eId="art_24"><num><b>Art. 24</b></num><heading>Abweichen von Verfahrensvorschriften</heading><paragraph eId="art_24/para"><content><blockList><listIntroduction eId="art_24/para/listintro" xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Von dem in dieser Verordnung geregelten Verfahren kann abgewichen werden, wenn:</listIntroduction><item eId="art_24/para/lbl_a"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">a. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">zum Schutz der Umwelt Sofortmassnahmen nötig sind;</p></item><item eId="art_24/para/lbl_b"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">b. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">die Überwachungs- oder Sanierungsbedürftigkeit oder die erforderlichen Massnahmen auf Grund bereits vorhandener Angaben beurteilt werden können;</p></item><item eId="art_24/para/lbl_c"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">c. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">ein belasteter Standort durch die Erstellung oder Änderung einer Baute oder Anlage verändert wird;</p></item><item eId="art_24/para/lbl_d"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">d. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">freiwillige Massnahmen der direkt Betroffenen einen gleichwertigen Vollzug dieser Verordnung gewährleisten.</p></item></blockList></content></paragraph></article><article eId="art_25"><num><b>Art. 25</b></num><heading>Richtlinien</heading><paragraph eId="art_25/para"><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Bei der Erarbeitung von Richtlinien zur Anwendung dieser Verordnung arbeitet das BAFU mit den Kantonen und den betroffenen Organisationen der Wirtschaft zusammen.</p></content></paragraph></article><article eId="art_25_a"><num><b>Art. 25</b><i>a</i><authorialNote>
+		<p> Eingefügt durch Anhang 2 Ziff. 11 der V vom 21. Mai 2008 über Geoinformation, in Kraft seit 1. Juli 2008 (<ref href="https://fedlex.data.admin.ch/eli/oc/2008/389" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">AS <b>2008</b> 2809</ref>).</p>
+	</authorialNote></num><heading>Geoinformation</heading><paragraph eId="art_25_a/para"><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Das BAFU gibt die minimalen Geodatenmodelle und Darstellungsmodelle für Geobasisdaten nach dieser Verordnung vor, für die es im Anhang 1 der Geoinformationsverordnung vom 21. Mai 2008<authorialNote>
+		<p> <ref fedlex:rs-uri="https://fedlex.data.admin.ch/eli/cc/2008/389" fedlex:rs="510.620" href="https://fedlex.data.admin.ch/vocabulary/legal-taxonomy/7339">SR <b>510.620</b></ref></p>
+	</authorialNote> als Fachstelle des Bundes bezeichnet ist.</p></content></paragraph></article><article eId="art_26"><num><b>Art. 26</b></num><heading>Änderung bisherigen Rechts</heading><paragraph eId="art_26/para"><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">…<authorialNote>
+		<p> Die Änderung kann unter <ref href="https://fedlex.data.admin.ch/eli/oc/1998/2261_2261_2261" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">AS <b>1998</b> 2261 </ref>konsultiert werden.</p>
+	</authorialNote></p></content></paragraph></article><article eId="art_27"><num><b>Art. 27</b></num><heading>Übergangsbestimmung</heading><paragraph eId="art_27/para"><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Der Kataster (Art. 5) ist bis zum 31. Dezember 2003 zu erstellen.</p></content></paragraph></article><article eId="art_28"><num><b>Art. 28</b></num><heading>Inkrafttreten</heading><paragraph eId="art_28/para"><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Diese Verordnung tritt am 1. Oktober 1998 in Kraft.</p></content></paragraph></article></section></body><components><component><doc name="annex"><meta><identification source="#ch.bk"><FRBRWork><FRBRthis value="https://fedlex.data.admin.ch/eli/cc/1998/2261_2261_2261/20250801/main-text"/><FRBRuri value="https://fedlex.data.admin.ch/eli/cc/1998/2261_2261_2261/20250801"/><FRBRdate date="2025-08-01" name="jolux:dateApplicability"/><FRBRdate date="1998-08-26" name="jolux:dateDocument"/><FRBRdate date="1998-10-01" name="jolux:dateEntryInForce"/><FRBRauthor href="#ch.bk" as="#publisher"/><FRBRauthor href="#ch.bk" as="#rightsHolder"/><FRBRcountry value="CH"/><FRBRnumber value="814.680"/><FRBRname xml:lang="en" value="Ordinance of 26 August 1998 on the Remediation of Polluted Sites (Contaminated Sites Ordinance, CSO)" shortForm="CSO"/><FRBRname xml:lang="de" value="Verordnung vom 26. August 1998 über die Sanierung von belasteten Standorten (Altlasten-Verordnung, AltlV)" shortForm="AltlV"/><FRBRname xml:lang="fr" value="Ordonnance du 26 août 1998 sur l'assainissement des sites pollués (Ordonnance sur les sites contaminés, OSites)" shortForm="OSites"/><FRBRname xml:lang="it" value="Ordinanza del 26 agosto 1998 sul risanamento dei siti inquinati (Ordinanza sui siti contaminati, OSiti)" shortForm="OSiti"/><FRBRauthoritative value="true"/></FRBRWork><FRBRExpression><FRBRthis value="https://fedlex.data.admin.ch/eli/cc/1998/2261_2261_2261/20250801/de/main-text"/><FRBRuri value="https://fedlex.data.admin.ch/eli/cc/1998/2261_2261_2261/20250801/de"/><FRBRdate date="2025-08-01" name="jolux:dateApplicability"/><FRBRdate date="1998-08-26" name="jolux:dateDocument"/><FRBRdate date="1998-10-01" name="jolux:dateEntryInForce"/><FRBRauthor href="#ch.bk" as="#publisher"/><FRBRauthor href="#ch.bk" as="#rightsHolder"/><FRBRlanguage language="de"/></FRBRExpression><FRBRManifestation><FRBRthis value="https://fedlex.data.admin.ch/eli/cc/1998/2261_2261_2261/20250801/de/xml/main-text"/><FRBRuri value="https://fedlex.data.admin.ch/eli/cc/1998/2261_2261_2261/20250801/de/xml"/><FRBRdate date="2025-08-01" name="jolux:dateApplicability"/><FRBRdate date="1998-08-26" name="jolux:dateDocument"/><FRBRdate date="1998-10-01" name="jolux:dateEntryInForce"/><FRBRauthor href="#ch.bk" as="#publisher"/><FRBRauthor href="#ch.bk" as="#rightsHolder"/><FRBRformat value="xml"/></FRBRManifestation></identification></meta><preface><container name="headerOfAnnex"><block name="num">Anhang 1<inline name="man-font-style-normal"><authorialNote>
+		<p> Bereinigt gemäss Anhang Ziff. II 2 der V vom 26. Sept. 2008 über die Abgabe zur Sanierung von Altlasten (<ref href="https://fedlex.data.admin.ch/eli/oc/2008/670" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">AS <b>2008</b> 4771</ref>), Ziff. II der V vom 9. Mai 2012  (<ref href="https://fedlex.data.admin.ch/eli/oc/2012/348" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">AS <b>2012</b> 2905</ref>), vom 22. März 2017 (<ref href="https://fedlex.data.admin.ch/eli/oc/2017/246" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">AS <b>2017</b> 2589</ref>) und Ziff. I der V vom  25. Juni 2025, in Kraft seit 1. Aug. 2025 (<ref href="https://fedlex.data.admin.ch/eli/oc/2025/455" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">AS <b>2025</b> 455</ref>).</p>
+	</authorialNote></inline></block></container></preface><mainBody><p>(Art. 9 und 10)</p><level eId="annex_1/lvl_u1"><heading>Konzentrationswerte für die Beurteilung der Einwirkungen von belasteten Standorten auf die Gewässer</heading><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"><sup>1</sup> Für die Beurteilung der Einwirkungen von belasteten Standorten auf die Gewässer gelten die Konzentrationswerte der nachfolgenden Tabelle. Sind für Stoffe, die Gewässer verunreinigen können und mit denen ein Standort belastet ist, keine Konzentrationswerte festgelegt, so legt die Behörde solche mit Zustimmung des BAFU im Einzelfall nach den Vorschriften der Gewässerschutzgesetzgebung fest.</p><blockList><listIntroduction eId="annex_1/lvl_u1/listintro" xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"><sup>2</sup> Wenn sich die Beurteilung auf das Eluat des Materials des Standortes bezieht, so gelten die folgenden Anforderungen an die Probenahme, die Herstellung der Eluate und deren Analyse:</listIntroduction><item eId="annex_1/lvl_u1/lbl_a"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">a. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Die Anzahl der Proben und die Entnahmestellen sind so festzulegen, dass die Proben repräsentativ für die Belastung des Standortes sind.</p></item><item eId="annex_1/lvl_u1/lbl_b"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">b. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Das Eluat ist mit einem Säulenversuch herzustellen. Als Elutionsmittel ist sauerstofffreies deionisiertes Wasser zu verwenden. Dieses muss die Säule in der Regel von unten nach oben und bei einer definierten Durchflussrate durchströmen. Das Eluat darf vor der Analyse in der Regel weder zentrifugiert noch durch Mikrofilter filtriert werden.</p></item><item eId="annex_1/lvl_u1/lbl_c"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">c. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Das Eluat muss nur im Hinblick auf diejenigen Stoffe analysiert werden, mit deren Vorkommen am Standort auf Grund der historischen Untersuchung zu rechnen ist. Werden bloss Summenparameter analysiert, so gilt als Beurteilungskriterium stets der niedrigste Konzentrationswert der Einzelstoffe.</p></item></blockList><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"><sup>3</sup> Können bei Standorten mit besonders heterogenen Belastungen (z.B. Ablagerungsstandorte) Proben aus dem Sickerwasser entnommen werden, können diese als Eluat betrachtet werden.</p><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"><sup>4</sup> Zur Beurteilung der Einwirkungen leichtflüchtiger Stoffe<authorialNote>
+		<p> In der Tabelle mit *) gekennzeichnet.</p>
+	</authorialNote> wird das Sickerwasser als Eluat betrachtet; können keine Sickerwasserproben entnommen werden, wird die Sickerwasserkonzentration auf Grund von Messungen der Porenluftkonzentrationen berechnet.</p><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"><sup>5</sup> Auf die Durchführung eines Eluatversuches nach Absatz 2 kann verzichtet werden, wenn die Unter- oder Überschreitung der Konzentrationswerte im Eluat des Materials auf Grund anderer Angaben festgestellt werden kann, wie Zusammensetzung und Herkunft des Materials des Standortes, Summenparameter, ökotoxikologische Untersuchungen oder die rechnerische Herleitung aus Gesamtgehalten.</p><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"><sup>6</sup> Das BAFU erlässt Richtlinien über die Probenahmen, die Herstellung der Eluate und deren Analyse sowie über die Beurteilung der Einwirkungen leichtflüchtiger Stoffe.</p><table border="1">
+			
+			
+			<tr>
+				
+				
+				<th xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">
+					
+					<p>Stoff</p>
+				</th>
+				<th xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">
+					
+					<p>Konzentrationswert</p>
+				</th>
+			</tr>
+			<tr>
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"><i>Anorganika</i></p>
+				</td>
+				<td>
+					
+					
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p>Antimon</p>
+				</td>
+				<td>
+					
+					<p>0.01 mg Sb/l</p>
+				</td>
+			</tr>
+			<tr>
+				
+				<td>
+					
+					<p>Arsen</p>
+				</td>
+				<td>
+					
+					<p>0.01 mg As/l</p>
+				</td>
+			</tr>
+			<tr>
+				
+				<td>
+					
+					<p>Blei</p>
+				</td>
+				<td>
+					
+					<p>0.05 mg Pb/l</p>
+				</td>
+			</tr>
+			<tr>
+				
+				<td>
+					
+					<p>Cadmium</p>
+				</td>
+				<td>
+					
+					<p>0.005 mg Cd/l</p>
+				</td>
+			</tr>
+			<tr>
+				
+				<td>
+					
+					<p>Chrom (VI)</p>
+				</td>
+				<td>
+					
+					<p>0.02 mg CrVI/l</p>
+				</td>
+			</tr>
+			<tr>
+				
+				<td>
+					
+					<p>Kobalt</p>
+				</td>
+				<td>
+					
+					<p>2 mg Co/l</p>
+				</td>
+			</tr>
+			<tr>
+				
+				<td>
+					
+					<p>Kupfer</p>
+				</td>
+				<td>
+					
+					<p>1.5 mg Cu/l</p>
+				</td>
+			</tr>
+			<tr>
+				
+				<td>
+					
+					<p>Nickel</p>
+				</td>
+				<td>
+					
+					<p>0.7 mg Ni/l</p>
+				</td>
+			</tr>
+			<tr>
+				
+				<td>
+					
+					<p>Quecksilber</p>
+				</td>
+				<td>
+					
+					<p>0.001 mg Hg/l</p>
+				</td>
+			</tr>
+			<tr>
+				
+				<td>
+					
+					<p>Silber</p>
+				</td>
+				<td>
+					
+					<p>0.1 mg Ag/l</p>
+				</td>
+			</tr>
+			<tr>
+				
+				<td>
+					
+					<p>Zink</p>
+				</td>
+				<td>
+					
+					<p>5 mg Zn/l</p>
+				</td>
+			</tr>
+			<tr>
+				
+				<td>
+					
+					<p>Zinn</p>
+				</td>
+				<td>
+					
+					<p>20 mg Sn/l</p>
+				</td>
+			</tr>
+			<tr>
+				
+				<td>
+					
+					<p>Ammonium**</p>
+				</td>
+				<td>
+					
+					<p>0.5 mg NH4+/l</p>
+				</td>
+			</tr>
+			<tr>
+				
+				<td>
+					
+					<p>Cyanid (frei)</p>
+				</td>
+				<td>
+					
+					<p>0.05 mg CN-/l</p>
+				</td>
+			</tr>
+			<tr>
+				
+				<td>
+					
+					<p>Fluorid</p>
+				</td>
+				<td>
+					
+					<p>1.5 mg F-/l</p>
+				</td>
+			</tr>
+			<tr>
+				
+				<td>
+					
+					<p>Nitrit**</p>
+				</td>
+				<td>
+					
+					<p>0.1 mg NO<sub>2</sub>-/l</p>
+				</td>
+			</tr>
+			<tr>
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"><i>Organika</i></p>
+				</td>
+				<td>
+					
+					
+				</td>
+			</tr>
+			<tr>
+				
+				<td>
+					
+					<p>Aliphatische Kohlenwasserstoffe:</p>
+				</td>
+				<td>
+					
+					
+				</td>
+			</tr>
+			<tr>
+				
+				<td><blockList><item><num>– </num><p>Summe (C<sub>5</sub>–C<sub>10</sub>)</p></item></blockList></td>
+				<td>
+					
+					<p>2 mg/l</p>
+				</td>
+			</tr>
+			<tr>
+				
+				<td><blockList><item><num>– </num><p>Methyl-tert-butyl-Ether (MTBE)</p></item></blockList></td>
+				<td>
+					
+					<p>0.2 mg/l</p>
+				</td>
+			</tr>
+			<tr>
+				
+				<td>
+					
+					<p>Amine</p>
+				</td>
+				<td>
+					
+					
+				</td>
+			</tr>
+			<tr>
+				
+				<td><blockList><item><num>– </num><p>Anilin</p></item></blockList></td>
+				<td>
+					
+					<p>0.05 mg/l</p>
+				</td>
+			</tr>
+			<tr>
+				
+				<td><blockList><item><num>– </num><p>4-Chloranilin</p></item></blockList></td>
+				<td>
+					
+					<p>0.1 mg/l</p>
+				</td>
+			</tr>
+			<tr>
+				
+				<td>
+					
+					<p>Halogenierte Kohlenwasserstoffe</p>
+				</td>
+				<td>
+					
+					
+				</td>
+			</tr>
+			<tr>
+				
+				<td><blockList><item><num>– </num><p>1,2-Dibromethan (EDB)</p></item></blockList></td>
+				<td>
+					
+					<p>0.05 µg/l<sup xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">a</sup></p>
+				</td>
+			</tr>
+			<tr>
+				
+				<td><blockList><item><num>– </num><p>1,1-Dichlorethan*</p></item></blockList></td>
+				<td>
+					
+					<p>3 mg/l</p>
+				</td>
+			</tr>
+			<tr>
+				
+				<td><blockList><item><num>– </num><p>1,2-Dichlorethan (EDC)*</p></item></blockList></td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">0.003 mg/l</p>
+				</td>
+			</tr>
+			<tr>
+				
+				<td><blockList><item><num>– </num><p>1,1-Dichlorethen*</p></item></blockList></td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">2 mg/l</p>
+				</td>
+			</tr>
+			<tr>
+				
+				<td><blockList><item><num>– </num><p>1,2-Dichlorethene*</p></item></blockList></td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">0.05 mg/l</p>
+				</td>
+			</tr>
+			<tr>
+				
+				<td><blockList><item><num>– </num><p>Dichlormethan (Methylenchlorid, DCM)*</p></item></blockList></td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">0.2 mg/l</p>
+				</td>
+			</tr>
+			<tr>
+				
+				<td><blockList><item><num>– </num><p>1,2-Dichlorpropan*</p></item></blockList></td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">0.005 mg/l</p>
+				</td>
+			</tr>
+			<tr>
+				
+				<td><blockList><item><num>– </num><p>1,1,2,2-Tetrachlorethan</p></item></blockList></td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">0.001 mg/l</p>
+				</td>
+			</tr>
+			<tr>
+				
+				<td><blockList><item><num>– </num><p>Tetrachlorethen (Per)</p></item></blockList></td>
+				<td><blockList><item><num><placeholder fedlex:message="E40S10-TAB">[tab]</placeholder></num><p>0.04 mg/l</p></item></blockList></td>
+			</tr>
+			<tr>
+				
+				<td><blockList><item><num>– </num><p>Tetrachlormethan (Tetrachlorkohlenstoff)*</p></item></blockList></td>
+				<td><blockList><item><num><placeholder fedlex:message="E40S10-TAB">[tab]</placeholder></num><p>0.002 mg/l</p></item></blockList></td>
+			</tr>
+			<tr>
+				
+				<td><blockList><item><num>– </num><p>1,1,1-Trichlorethan*</p></item></blockList></td>
+				<td><blockList><item><num><placeholder fedlex:message="E40S10-TAB">[tab]</placeholder></num><p>2 mg/l</p></item></blockList></td>
+			</tr>
+			<tr>
+				
+				<td><blockList><item><num>– </num><p>Trichlorethen (Tri)*</p></item></blockList></td>
+				<td><blockList><item><num><placeholder fedlex:message="E40S10-TAB">[tab]</placeholder></num><p>0.01 mg/l</p></item></blockList></td>
+			</tr>
+			<tr>
+				
+				<td><blockList><item><num>– </num><p>Trichlormethan (Chloroform)*</p></item></blockList></td>
+				<td><blockList><item><num><placeholder fedlex:message="E40S10-TAB">[tab]</placeholder></num><p>0.04 mg/l</p></item></blockList></td>
+			</tr>
+			<tr>
+				
+				<td><blockList><item><num>– </num><p>Vinylchlorid*</p></item></blockList></td>
+				<td><blockList><item><num><placeholder fedlex:message="E40S10-TAB">[tab]</placeholder></num><p>0.5 µg/l</p></item></blockList></td>
+			</tr>
+			<tr>
+				
+				<td><blockList><item><num>– </num><p>Chlorbenzol</p></item></blockList></td>
+				<td><blockList><item><num><placeholder fedlex:message="E40S10-TAB">[tab]</placeholder></num><p>0.7 mg/l</p></item></blockList></td>
+			</tr>
+			<tr>
+				
+				<td><blockList><item><num>– </num><p>1,2-Dichlorbenzol</p></item></blockList></td>
+				<td><blockList><item><num><placeholder fedlex:message="E40S10-TAB">[tab]</placeholder></num><p>3 mg/l</p></item></blockList></td>
+			</tr>
+			<tr>
+				
+				<td><blockList><item><num>– </num><p>1,3-Dichlorbenzol</p></item></blockList></td>
+				<td><blockList><item><num><placeholder fedlex:message="E40S10-TAB">[tab]</placeholder></num><p>3 mg/l</p></item></blockList></td>
+			</tr>
+			<tr>
+				
+				<td><blockList><item><num>– </num><p>1,4-Dichlorbenzol</p></item></blockList></td>
+				<td><blockList><item><num><placeholder fedlex:message="E40S10-TAB">[tab]</placeholder></num><p>0.01 mg/l</p></item></blockList></td>
+			</tr>
+			<tr>
+				
+				<td><blockList><item><num>– </num><p>1,2,4-Trichlorbenzol</p></item></blockList></td>
+				<td><blockList><item><num><placeholder fedlex:message="E40S10-TAB">[tab]</placeholder></num><p>0.4 mg/l</p></item></blockList></td>
+			</tr>
+			<tr>
+				
+				<td><blockList><item><num>– </num><p>Polychlorierte Biphenyle (PCB)<sup xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">b</sup></p></item></blockList></td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">0.1 µg/l</p>
+				</td>
+			</tr>
+			<tr>
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Monocyclische aromatische Kohlenwasserstoffe (BTEX)</p>
+				</td>
+				<td>
+					
+					
+				</td>
+			</tr>
+			<tr>
+				
+				<td><blockList><item><num>– </num><p>Benzol*</p></item></blockList></td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">0.01 mg/l</p>
+				</td>
+			</tr>
+			<tr>
+				
+				<td><blockList><item><num>– </num><p>Toluol</p></item></blockList></td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">7 mg/l</p>
+				</td>
+			</tr>
+			<tr>
+				
+				<td><blockList><item><num>– </num><p>Ethylbenzol</p></item></blockList></td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">0.8 mg/l</p>
+				</td>
+			</tr>
+			<tr>
+				
+				<td><blockList><item><num>– </num><p>Xylole</p></item></blockList></td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">10 mg/l</p>
+				</td>
+			</tr>
+			<tr>
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Nitroverbindungen</p>
+				</td>
+				<td>
+					
+					
+				</td>
+			</tr>
+			<tr>
+				
+				<td><blockList><item><num>– </num><p>2,4-Dinitrophenol</p></item></blockList></td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">0.05 mg/l</p>
+				</td>
+			</tr>
+			<tr>
+				
+				<td><blockList><item><num>– </num><p>Dinitrotoluole</p></item></blockList></td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">0.5 µg/l</p>
+				</td>
+			</tr>
+			<tr>
+				
+				<td><blockList><item><num>– </num><p>Nitrobenzol</p></item></blockList></td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">0.01 mg/l</p>
+				</td>
+			</tr>
+			<tr>
+				
+				<td><blockList><item><num>– </num><p>4-Nitrophenol</p></item></blockList></td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">2 mg/l</p>
+				</td>
+			</tr>
+			<tr>
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Phenole</p>
+				</td>
+				<td>
+					
+					
+				</td>
+			</tr>
+			<tr>
+				
+				<td><blockList><item><num>– </num><p>2-Chlorphenol</p></item></blockList></td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">0.2 mg/l</p>
+				</td>
+			</tr>
+			<tr>
+				
+				<td><blockList><item><num>– </num><p>2,4-Dichlorphenol</p></item></blockList></td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">0.1 mg/l</p>
+				</td>
+			</tr>
+			<tr>
+				
+				<td><blockList><item><num>– </num><p>2-Methylphenol (o-Kresol)</p></item></blockList></td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">2 mg/l</p>
+				</td>
+			</tr>
+			<tr>
+				
+				<td><blockList><item><num>– </num><p>3-Methylphenol (m-Kresol)</p></item></blockList></td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">2 mg/l</p>
+				</td>
+			</tr>
+			<tr>
+				
+				<td><blockList><item><num>– </num><p>4-Methylphenol (p-Kresol)</p></item></blockList></td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">0.2 mg/l</p>
+				</td>
+			</tr>
+			<tr>
+				
+				<td><blockList><item><num>– </num><p>Pentachlorphenol (PCP)</p></item></blockList></td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">0.001 mg/l</p>
+				</td>
+			</tr>
+			<tr>
+				
+				<td><blockList><item><num>– </num><p>Phenol (C<sub>6</sub>H<sub>6</sub>O)</p></item></blockList></td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">10 mg/l</p>
+				</td>
+			</tr>
+			<tr>
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Polycyclische aromatische Kohlenwasserstoffe (PAK)</p>
+				</td>
+				<td>
+					
+					
+				</td>
+			</tr>
+			<tr>
+				
+				<td><blockList><item><num>– </num><p>Acenaphthen</p></item></blockList></td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">2 mg/l</p>
+				</td>
+			</tr>
+			<tr>
+				
+				<td><blockList><item><num>– </num><p>Anthracen</p></item></blockList></td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">10 mg/l<sup xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">c</sup></p>
+				</td>
+			</tr>
+			<tr>
+				
+				<td><blockList><item><num>– </num><p>Benz(a)anthracen</p></item></blockList></td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">4 µg/l</p>
+				</td>
+			</tr>
+			<tr>
+				
+				<td><blockList><item><num>– </num><p>Benzo(b)fluoranthen</p></item></blockList></td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">4 µg/l</p>
+				</td>
+			</tr>
+			<tr>
+				
+				<td><blockList><item><num>– </num><p>Benzo(k)fluoranthen</p></item></blockList></td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">0.04 mg/l</p>
+				</td>
+			</tr>
+			<tr>
+				
+				<td><blockList><item><num>– </num><p>Benzo(a)pyren</p></item></blockList></td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">0.4 µg/l</p>
+				</td>
+			</tr>
+			<tr>
+				
+				<td><blockList><item><num>– </num><p>Chrysen</p></item></blockList></td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">0.4 mg/l</p>
+				</td>
+			</tr>
+			<tr>
+				
+				<td><blockList><item><num>– </num><p>Dibenz(ah)anthracen</p></item></blockList></td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">0.4 µg/l</p>
+				</td>
+			</tr>
+			<tr>
+				
+				<td><blockList><item><num>– </num><p>Fluoranthen</p></item></blockList></td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">1 mg/l<sup xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">c</sup></p>
+				</td>
+			</tr>
+			<tr>
+				
+				<td><blockList><item><num>– </num><p>Fluoren</p></item></blockList></td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">1 mg/l</p>
+				</td>
+			</tr>
+			<tr>
+				
+				<td><blockList><item><num>– </num><p>Indeno(1,2,3-cd)pyren</p></item></blockList></td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">4 µg/l<sup xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">c</sup></p>
+				</td>
+			</tr>
+			<tr>
+				
+				<td><blockList><item><num>– </num><p>Naphthalin</p></item></blockList></td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">1 mg/l</p>
+				</td>
+			</tr>
+			<tr>
+				
+				<td><blockList><item><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">– </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Pyren</p></item></blockList></td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">1 mg/l<sup xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">c</sup></p>
+				</td>
+			</tr>
+			<tr>
+				
+				<td colspan="2"><blockList><item><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"><sup xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">a</sup>  </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Bestimmungsgrenze</p></item><item><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"><sup xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">b</sup>  </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">PCB: die Summe der 6 Einzelisomere 28, 52, 101, 138, 153 und 180 multipliziert mit dem Faktor 4,3 <br/></p><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">darf den Konzentrationswert nicht überschreiten.</p></item><item><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"><sup xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">c </sup> </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">In diesen Konzentrationen im Eluat normalerweise nicht feststellbar.</p></item><item><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">*  </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Wird nach Absatz 4 beurteilt.</p></item><item><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">** </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Gilt nur für oberirdische Gewässer.</p></item></blockList></td>
+			</tr>
+		</table></content></level></mainBody></doc></component><component><doc name="annex"><meta><identification source="#ch.bk"><FRBRWork><FRBRthis value="https://fedlex.data.admin.ch/eli/cc/1998/2261_2261_2261/20250801/main-text"/><FRBRuri value="https://fedlex.data.admin.ch/eli/cc/1998/2261_2261_2261/20250801"/><FRBRdate date="2025-08-01" name="jolux:dateApplicability"/><FRBRdate date="1998-08-26" name="jolux:dateDocument"/><FRBRdate date="1998-10-01" name="jolux:dateEntryInForce"/><FRBRauthor href="#ch.bk" as="#publisher"/><FRBRauthor href="#ch.bk" as="#rightsHolder"/><FRBRcountry value="CH"/><FRBRnumber value="814.680"/><FRBRname xml:lang="en" value="Ordinance of 26 August 1998 on the Remediation of Polluted Sites (Contaminated Sites Ordinance, CSO)" shortForm="CSO"/><FRBRname xml:lang="de" value="Verordnung vom 26. August 1998 über die Sanierung von belasteten Standorten (Altlasten-Verordnung, AltlV)" shortForm="AltlV"/><FRBRname xml:lang="fr" value="Ordonnance du 26 août 1998 sur l'assainissement des sites pollués (Ordonnance sur les sites contaminés, OSites)" shortForm="OSites"/><FRBRname xml:lang="it" value="Ordinanza del 26 agosto 1998 sul risanamento dei siti inquinati (Ordinanza sui siti contaminati, OSiti)" shortForm="OSiti"/><FRBRauthoritative value="true"/></FRBRWork><FRBRExpression><FRBRthis value="https://fedlex.data.admin.ch/eli/cc/1998/2261_2261_2261/20250801/de/main-text"/><FRBRuri value="https://fedlex.data.admin.ch/eli/cc/1998/2261_2261_2261/20250801/de"/><FRBRdate date="2025-08-01" name="jolux:dateApplicability"/><FRBRdate date="1998-08-26" name="jolux:dateDocument"/><FRBRdate date="1998-10-01" name="jolux:dateEntryInForce"/><FRBRauthor href="#ch.bk" as="#publisher"/><FRBRauthor href="#ch.bk" as="#rightsHolder"/><FRBRlanguage language="de"/></FRBRExpression><FRBRManifestation><FRBRthis value="https://fedlex.data.admin.ch/eli/cc/1998/2261_2261_2261/20250801/de/xml/main-text"/><FRBRuri value="https://fedlex.data.admin.ch/eli/cc/1998/2261_2261_2261/20250801/de/xml"/><FRBRdate date="2025-08-01" name="jolux:dateApplicability"/><FRBRdate date="1998-08-26" name="jolux:dateDocument"/><FRBRdate date="1998-10-01" name="jolux:dateEntryInForce"/><FRBRauthor href="#ch.bk" as="#publisher"/><FRBRauthor href="#ch.bk" as="#rightsHolder"/><FRBRformat value="xml"/></FRBRManifestation></identification></meta><preface><container name="headerOfAnnex"><block name="num">Anhang 2</block></container></preface><mainBody><p>(Art. 11)</p><level eId="annex_2/lvl_u1"><heading>Konzentrationswerte für die Beurteilung der Porenluft <br/>belasteter Standorte</heading><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"><sup>1</sup> Für die Beurteilung von Porenluft belasteter Standorte gelten die Konzentrationswerte der nachfolgenden Tabelle. Verursacht der Standort Emissionen, für die keine Konzentrationswerte bestehen, namentlich Gerüche oder Staub, so ist er sanierungsbedürftig, wenn die Emissionen zu übermässigen Immissionen im Sinne der Luftreinhalte-Verordnung vom 16. Dezember 1985<authorialNote>
+		<p> <ref fedlex:rs-uri="https://fedlex.data.admin.ch/eli/cc/1986/208_208_208" fedlex:rs="814.318.142.1" href="https://fedlex.data.admin.ch/vocabulary/legal-taxonomy/9521">SR <b>814.318.142.1</b></ref></p>
+	</authorialNote> führen können.</p><blockList><listIntroduction eId="annex_2/lvl_u1/listintro" xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"><sup>2</sup> Für die Probenahmen und die Durchführung der Porenluftanalysen gelten folgende Anforderungen:</listIntroduction><item eId="annex_2/lvl_u1/lbl_a"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">a. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Die Probenahmen müssen anhand von Bodengassonden an einer für die Belastung des Standortes repräsentativen Anzahl von Messstellen erfolgen. Es muss sichergestellt werden, dass bei den Probenahmen keine Fremdluft angesaugt wird.</p></item><item eId="annex_2/lvl_u1/lbl_b"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">b. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">In der Porenluft müssen nur diejenigen Stoffe analysiert werden, mit deren Vorkommen am Standort auf Grund der historischen Untersuchung zu rechnen ist. Werden bloss Summenparameter analysiert, so gilt als Beurteilungskriterium stets der niedrigste Konzentrationswert der Einzelstoffe.</p></item></blockList><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"><sup>3</sup> Auf die Entnahme von Porenluftproben kann verzichtet werden, wenn ein anderweitiger Nachweis vorliegt, dass die Konzentrationswerte in der Porenluft nicht überschritten werden können, namentlich auf Grund der genauen Kenntnis der Zusammensetzung und Herkunft des Materials des Standortes.</p><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"><sup>4</sup> Das BAFU erlässt Richtlinien über die Probenahmen und die Durchführung der Porenluftanalysen.</p><table border="1">
+			
+			
+			<tr>
+				
+				
+				<th xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">
+					
+					<p>Stoff</p>
+				</th>
+				<th xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">
+					
+					<p>Konzentrationswert</p>
+				</th>
+			</tr>
+			<tr>
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"><i>Anorganika</i></p>
+				</td>
+				<td>
+					
+					
+				</td>
+			</tr>
+			<tr>
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Quecksilber</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">0.005 ml/m3</p>
+				</td>
+			</tr>
+			<tr>
+				
+				<td>
+					
+					<p>Kohlendioxid</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">5000 ml/m<sup xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">3</sup></p>
+				</td>
+			</tr>
+			<tr>
+				
+				<td>
+					
+					<p>Schwefelwasserstoff</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">10 ml/m<sup xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">3</sup></p>
+				</td>
+			</tr>
+			<tr>
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"><i>Organika</i></p>
+				</td>
+				<td>
+					
+					
+				</td>
+			</tr>
+			<tr>
+				
+				<td>
+					
+					<p>Benzin (aromatenfrei)</p>
+				</td>
+				<td>
+					
+					<p>500 ml/m3</p>
+				</td>
+			</tr>
+			<tr>
+				
+				<td>
+					
+					<p>Leichtbenzin (Aromatengehalt 0–10 Vol.-%)</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">500 ml/m<sup xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">3</sup></p>
+				</td>
+			</tr>
+			<tr>
+				
+				<td>
+					
+					<p>Methan</p>
+				</td>
+				<td>
+					
+					<p>10 000 ml/m<sup xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">3</sup></p>
+				</td>
+			</tr>
+			<tr>
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Halogenierte Kohlenwasserstoffe</p>
+				</td>
+				<td>
+					
+					
+				</td>
+			</tr>
+			<tr>
+				
+				<td><blockList><item><num>– </num><p>Chlorbenzol</p></item></blockList></td>
+				<td>
+					
+					<p>10 ml/m<sup xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">3</sup></p>
+				</td>
+			</tr>
+			<tr>
+				
+				<td><blockList><item><num>– </num><p>1,1-Dichlorethan</p></item></blockList></td>
+				<td>
+					
+					<p>100 ml/m<sup xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">3</sup></p>
+				</td>
+			</tr>
+			<tr>
+				
+				<td><blockList><item><num>– </num><p>1,2-Dichlorethan (EDC)</p></item></blockList></td>
+				<td>
+					
+					<p>5 ml/m<sup xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">3</sup></p>
+				</td>
+			</tr>
+			<tr>
+				
+				<td><blockList><item><num>– </num><p>1,1-Dichlorethen</p></item></blockList></td>
+				<td>
+					
+					<p>2 ml/m<sup xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">3</sup></p>
+				</td>
+			</tr>
+			<tr>
+				
+				<td><blockList><item><num>– </num><p>1,2-Dichlorethene</p></item></blockList></td>
+				<td>
+					
+					<p>200 ml/m<sup xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">3</sup></p>
+				</td>
+			</tr>
+			<tr>
+				
+				<td><blockList><item><num>– </num><p>Dichlormethan</p></item></blockList></td>
+				<td>
+					
+					<p>100 ml/m<sup xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">3</sup></p>
+				</td>
+			</tr>
+			<tr>
+				
+				<td><blockList><item><num>– </num><p>1,2-Dichlorpropan</p></item></blockList></td>
+				<td>
+					
+					<p>75 ml/m<sup xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">3</sup></p>
+				</td>
+			</tr>
+			<tr>
+				
+				<td><blockList><item><num>– </num><p>1,1,2,2-Tetrachlorethan</p></item></blockList></td>
+				<td>
+					
+					<p>1 ml/m<sup xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">3</sup></p>
+				</td>
+			</tr>
+			<tr>
+				
+				<td><blockList><item><num>– </num><p>Tetrachlorethen (PER)</p></item></blockList></td>
+				<td>
+					
+					<p>50 ml/m<sup xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">3</sup></p>
+				</td>
+			</tr>
+			<tr>
+				
+				<td><blockList><item><num>– </num><p>Tetrachlormethan (Tetrachlorkohlenstoff)</p></item></blockList></td>
+				<td>
+					
+					<p>5 ml/m<sup xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">3</sup></p>
+				</td>
+			</tr>
+			<tr>
+				
+				<td><blockList><item><num>– </num><p>1,1,1-Trichlorethan</p></item></blockList></td>
+				<td>
+					
+					<p>200 ml/m<sup xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">3</sup></p>
+				</td>
+			</tr>
+			<tr>
+				
+				<td><blockList><item><num>– </num><p>Trichlorethen (TRI)</p></item></blockList></td>
+				<td>
+					
+					<p>50 ml/m<sup xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">3</sup></p>
+				</td>
+			</tr>
+			<tr>
+				
+				<td><blockList><item><num>– </num><p>Trichlormethan</p></item></blockList></td>
+				<td>
+					
+					<p>10 ml/m<sup xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">3</sup></p>
+				</td>
+			</tr>
+			<tr>
+				
+				<td><blockList><item><num>– </num><p>Vinylchlorid</p></item></blockList></td>
+				<td>
+					
+					<p>2 ml/m<sup xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">3</sup></p>
+				</td>
+			</tr>
+			<tr>
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Monocyclische aromatische Kohlenwasserstoffe (BTEX)</p>
+				</td>
+				<td>
+					
+					
+				</td>
+			</tr>
+			<tr>
+				
+				<td><blockList><item><num>– </num><p>Benzol</p></item></blockList></td>
+				<td>
+					
+					<p>1 ml/m<sup xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">3</sup></p>
+				</td>
+			</tr>
+			<tr>
+				
+				<td><blockList><item><num>– </num><p>Toluol</p></item></blockList></td>
+				<td>
+					
+					<p>50 ml/m<sup xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">3</sup></p>
+				</td>
+			</tr>
+			<tr>
+				
+				<td><blockList><item><num>– </num><p>Ethylbenzol</p></item></blockList></td>
+				<td>
+					
+					<p>100 ml/m<sup xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">3</sup></p>
+				</td>
+			</tr>
+			<tr>
+				
+				<td><blockList><item><num>– </num><p>Xylole</p></item></blockList></td>
+				<td>
+					
+					<p>100 ml/m<sup xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">3</sup></p>
+				</td>
+			</tr>
+			<tr>
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Polycyclische aromatische Kohlenwasserstoffe (PAK)</p>
+				</td>
+				<td>
+					
+					
+				</td>
+			</tr>
+			<tr>
+				
+				<td><blockList><item><num>– </num><p>Benzo(a)pyren</p></item></blockList></td>
+				<td>
+					
+					<p>0.0002 ml/m<sup xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">3</sup></p>
+				</td>
+			</tr>
+			<tr>
+				
+				<td><blockList><item><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">– </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Naphthalin</p></item></blockList></td>
+				<td><blockList><item><num><placeholder fedlex:message="E40S10-TAB">[tab]</placeholder></num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">10 ml/m3</p></item></blockList></td>
+			</tr>
+		</table></content></level></mainBody></doc></component><component><doc name="annex"><meta><identification source="#ch.bk"><FRBRWork><FRBRthis value="https://fedlex.data.admin.ch/eli/cc/1998/2261_2261_2261/20250801/main-text"/><FRBRuri value="https://fedlex.data.admin.ch/eli/cc/1998/2261_2261_2261/20250801"/><FRBRdate date="2025-08-01" name="jolux:dateApplicability"/><FRBRdate date="1998-08-26" name="jolux:dateDocument"/><FRBRdate date="1998-10-01" name="jolux:dateEntryInForce"/><FRBRauthor href="#ch.bk" as="#publisher"/><FRBRauthor href="#ch.bk" as="#rightsHolder"/><FRBRcountry value="CH"/><FRBRnumber value="814.680"/><FRBRname xml:lang="en" value="Ordinance of 26 August 1998 on the Remediation of Polluted Sites (Contaminated Sites Ordinance, CSO)" shortForm="CSO"/><FRBRname xml:lang="de" value="Verordnung vom 26. August 1998 über die Sanierung von belasteten Standorten (Altlasten-Verordnung, AltlV)" shortForm="AltlV"/><FRBRname xml:lang="fr" value="Ordonnance du 26 août 1998 sur l'assainissement des sites pollués (Ordonnance sur les sites contaminés, OSites)" shortForm="OSites"/><FRBRname xml:lang="it" value="Ordinanza del 26 agosto 1998 sul risanamento dei siti inquinati (Ordinanza sui siti contaminati, OSiti)" shortForm="OSiti"/><FRBRauthoritative value="true"/></FRBRWork><FRBRExpression><FRBRthis value="https://fedlex.data.admin.ch/eli/cc/1998/2261_2261_2261/20250801/de/main-text"/><FRBRuri value="https://fedlex.data.admin.ch/eli/cc/1998/2261_2261_2261/20250801/de"/><FRBRdate date="2025-08-01" name="jolux:dateApplicability"/><FRBRdate date="1998-08-26" name="jolux:dateDocument"/><FRBRdate date="1998-10-01" name="jolux:dateEntryInForce"/><FRBRauthor href="#ch.bk" as="#publisher"/><FRBRauthor href="#ch.bk" as="#rightsHolder"/><FRBRlanguage language="de"/></FRBRExpression><FRBRManifestation><FRBRthis value="https://fedlex.data.admin.ch/eli/cc/1998/2261_2261_2261/20250801/de/xml/main-text"/><FRBRuri value="https://fedlex.data.admin.ch/eli/cc/1998/2261_2261_2261/20250801/de/xml"/><FRBRdate date="2025-08-01" name="jolux:dateApplicability"/><FRBRdate date="1998-08-26" name="jolux:dateDocument"/><FRBRdate date="1998-10-01" name="jolux:dateEntryInForce"/><FRBRauthor href="#ch.bk" as="#publisher"/><FRBRauthor href="#ch.bk" as="#rightsHolder"/><FRBRformat value="xml"/></FRBRManifestation></identification></meta><preface><container name="headerOfAnnex"><block name="num">Anhang 3<inline name="man-font-style-normal"><authorialNote>
+		<p> Eingefügt durch Anhang Ziff. II 2 der V vom 26. Sept. 2008 über die Abgabe zur Sanierung von Altlasten (<ref href="https://fedlex.data.admin.ch/eli/oc/2008/670" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">AS <b>2008</b> 4771</ref>). Bereinigt gemäss Ziff. II der V vom  9. Mai 2012 (<ref href="https://fedlex.data.admin.ch/eli/oc/2012/348" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">AS <b>2012</b> 2905</ref>) und Ziff. I der V vom 14. Jan. 2015, in Kraft seit  1. März 2015 (<ref href="https://fedlex.data.admin.ch/eli/oc/2015/36" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">AS <b>2015</b> 317</ref>).</p>
+	</authorialNote></inline></block></container></preface><mainBody><p>(Art. 12 Abs. 1)</p><level eId="annex_3/lvl_u1"><heading>Konzentrationswerte für die Beurteilung<br/>der Sanierungsbedürftigkeit von Böden</heading><intro><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Für die Beurteilung der Sanierungsbedürftigkeit von Böden gelten die Konzentrationswerte der nachfolgenden Tabellen. Sind für Stoffe, die Böden verunreinigen können und mit denen ein Standort belastet ist, keine Konzentrationswerte festgelegt, so legt die Behörde solche mit Zustimmung des BAFU im Einzelfall nach den Vorschriften der Umweltschutzgesetzgebung fest.</p></intro><level eId="annex_3/lvl_u1/lvl_1"><num>1</num><heading>Standorte bei landwirtschaftlicher oder<br/>gartenbaulicher Nutzung</heading><content><table border="1">
+			
+			
+			<tr>
+				
+				
+				<th xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">
+					
+					<p>Stoff</p>
+				</th>
+				<th xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">
+					
+					<p>Konzentrationswert</p>
+				</th>
+			</tr>
+			<tr>
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"><i>Anorganika</i></p>
+				</td>
+				<td>
+					
+					
+				</td>
+			</tr>
+			<tr>
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Blei</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">2000 mg Pb/kg</p>
+				</td>
+			</tr>
+			<tr>
+				
+				<td>
+					
+					<p>Cadmium</p>
+				</td>
+				<td>
+					
+					<p>30 mg Cd/kg</p>
+				</td>
+			</tr>
+			<tr>
+				
+				<td>
+					
+					<p>Kupfer</p>
+				</td>
+				<td>
+					
+					<p>1000 mg Cu/kg</p>
+				</td>
+			</tr>
+			<tr>
+				
+				<td>
+					
+					<p>Zink</p>
+				</td>
+				<td>
+					
+					<p>2000 mg Zn/kg</p>
+				</td>
+			</tr>
+			<tr>
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"><i>Organika</i></p>
+				</td>
+				<td>
+					
+					
+				</td>
+			</tr>
+			<tr>
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Polychlorierte Biphenyle (PCB)</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">3 mg/kg</p>
+				</td>
+			</tr>
+			<tr>
+				
+				<td>
+					
+					<p>Polycyclische aromatische Kohlenwasserstoffe (PAK)*</p>
+				</td>
+				<td>
+					
+					<p>100 mg/kg</p>
+				</td>
+			</tr>
+			<tr>
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Benzo(a)pyren</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">10 mg/kg</p>
+				</td>
+			</tr>
+			<tr>
+				
+				<td colspan="2"><blockList><item><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">* </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">∑16 EPA-PAK: Naphthalin, Acenaphthylen, Acenaphthen, Fluoren, Phenanthren, <br/></p><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Anthracen, Fluoranthen, Pyren, Benz[a]anthracen, Chrysen, Benzo[a]pyren, <br/></p><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Benzo[b]fluoranthen, Benzo[k]fluoranthen, Dibenz[a,h]anthracen, <br/></p><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Benzo[g,h,i]perylen, Indeno[1,2,3-c,d]pyren</p></item></blockList></td>
+			</tr>
+		</table></content></level><level eId="annex_3/lvl_u1/lvl_2"><num>2</num><heading>Standorte bei Haus- und Familiengärten, Kinderspielplätzen und Anlagen, auf denen Kinder <br/>regelmässig spielen</heading><content><table border="1">
+			
+			
+			<tr>
+				
+				
+				<th xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">
+					
+					<p>Stoff</p>
+				</th>
+				<th xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">
+					
+					<p>Konzentrationswert</p>
+				</th>
+			</tr>
+			<tr>
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"><i>Anorganika</i></p>
+				</td>
+				<td>
+					
+					
+				</td>
+			</tr>
+			<tr>
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Antimon</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">50 mg Sb/kg</p>
+				</td>
+			</tr>
+			<tr>
+				
+				<td>
+					
+					<p>Arsen</p>
+				</td>
+				<td>
+					
+					<p>50 mg As/kg</p>
+				</td>
+			</tr>
+			<tr>
+				
+				<td>
+					
+					<p>Blei</p>
+				</td>
+				<td>
+					
+					<p>1000 mg Pb/kg</p>
+				</td>
+			</tr>
+			<tr>
+				
+				<td>
+					
+					<p>Cadmium</p>
+				</td>
+				<td>
+					
+					<p>20 mg Cd/kg</p>
+				</td>
+			</tr>
+			<tr>
+				
+				<td>
+					
+					<p>Chrom (VI)</p>
+				</td>
+				<td>
+					
+					<p>100 mg CrVI/kg</p>
+				</td>
+			</tr>
+			<tr>
+				
+				<td>
+					
+					<p>Kupfer</p>
+				</td>
+				<td>
+					
+					<p>1000 mg Cu/kg</p>
+				</td>
+			</tr>
+			<tr>
+				
+				<td>
+					
+					<p>Nickel</p>
+				</td>
+				<td>
+					
+					<p>1000 mg Ni/kg</p>
+				</td>
+			</tr>
+			<tr>
+				
+				<td>
+					
+					<p>Quecksilber</p>
+				</td>
+				<td>
+					
+					<p>2 mg Hg/kg</p>
+				</td>
+			</tr>
+			<tr>
+				
+				<td>
+					
+					<p>Silber</p>
+				</td>
+				<td>
+					
+					<p>500 mg Ag/kg</p>
+				</td>
+			</tr>
+			<tr>
+				
+				<td>
+					
+					<p>Zink</p>
+				</td>
+				<td>
+					
+					<p>2000 mg Zn/kg</p>
+				</td>
+			</tr>
+			<tr>
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"><i>Organika</i></p>
+				</td>
+				<td>
+					
+					
+				</td>
+			</tr>
+			<tr>
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Leichtflüchtige chlorierte Kohlenwasserstoffe (LCKW)*</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">1 mg/kg</p>
+				</td>
+			</tr>
+			<tr>
+				
+				<td>
+					
+					<p>Polychlorierte Biphenyle (PCB)**</p>
+				</td>
+				<td>
+					
+					<p>1 mg/kg</p>
+				</td>
+			</tr>
+			<tr>
+				
+				<td>
+					
+					<p>Aliphatische Kohlenwasserstoffe C<sub>5</sub>–C<sub>10</sub>***</p>
+				</td>
+				<td>
+					
+					<p>5 mg/kg</p>
+				</td>
+			</tr>
+			<tr>
+				
+				<td>
+					
+					<p>Aliphatische Kohlenwasserstoffe C<sub>11</sub>–C<sub>40</sub></p>
+				</td>
+				<td>
+					
+					<p>500 mg/kg</p>
+				</td>
+			</tr>
+			<tr>
+				
+				<td>
+					
+					<p>Monocyclische aromatische Kohlenwasserstoffe (BTEX)****</p>
+				</td>
+				<td>
+					
+					<p>500 mg/kg</p>
+				</td>
+			</tr>
+			<tr>
+				
+				<td>
+					
+					<p>Benzol</p>
+				</td>
+				<td>
+					
+					<p>1 mg/kg</p>
+				</td>
+			</tr>
+			<tr>
+				
+				<td>
+					
+					<p>Polycyclische aromatische Kohlenwasserstoffe (PAK)*****</p>
+				</td>
+				<td>
+					
+					<p>100 mg/kg</p>
+				</td>
+			</tr>
+			<tr>
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Benzo[a]pyren</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">10 mg/kg</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td colspan="2"><blockList><item><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">*  </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">∑7 LCKW: Dichlormethan, Trichlormethan, Tetrachlormethan, cis-1,2-Dichlorethylen, 1,1,1-Trichlorethan, Trichlorethylen (Tri), Tetrachlorethylen (Per)</p></item></blockList><p>**  ∑6 PCB-Kongenere × 4.3: Nr. 28, 52, 101, 138, 153, 180</p><blockList><item><num>***  </num><p>∑C<sub>5</sub>- bis C<sub>10</sub>-KW: Fläche FID-Chromatogramm zwischen n-Pentan und n-Decan, multipliziert mitdem Response Faktor von n-Hexan, minus ∑BTEX</p></item></blockList><p>****  ∑6BTEX: Benzol, Toluol, Ethylbenzol, o-Xylol, m-Xylol, p-Xylol</p><blockList><item><num>*****  </num><p>«∑16 EPA-PAK: Naphthalin, Acenaphthylen, Acenaphthen, Fluoren, Phenanthren, Anthracen, Fluoranthen, Pyren, Benz[a]anthracen, Chrysen, Benzo[a]pyren, Benzo[b]fluoranthen, Ben </p><p>zo[k]fluoranthen, Dibenz[a,h]anthracen, Benzo[g,h,i]perylen, Indeno[1,2,3-c,d]pyren</p></item></blockList></td>
+			</tr>
+		</table></content></level></level></mainBody></doc></component></components></act></akomaNtoso>

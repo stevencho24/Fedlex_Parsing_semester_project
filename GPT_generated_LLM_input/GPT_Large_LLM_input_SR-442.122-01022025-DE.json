@@ -1,0 +1,49 @@
+[
+  {
+    "item_type": "preamble_callback",
+    "acronyms": [
+      {
+        "acronym": "EDI",
+        "sr_link": "SR 442.1",
+        "url": "https://fedlex.data.admin.ch/eli/cc/2011/854"
+      },
+      {
+        "acronym": "KFG",
+        "sr_link": "SR 442.1",
+        "url": "https://fedlex.data.admin.ch/eli/cc/2011/854"
+      }
+    ],
+    "description": "Preamble acronyms for reference detection"
+  },
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 442.1",
+    "TARGET_URL": "https://fedlex.data.admin.ch/eli/cc/2011/854",
+    "SNIPPET": "gestützt auf Artikel 28 Absatz 1 des Kulturförderungsgesetzes vom 11. Dezember 2009 SR 442.1 (KFG),",
+    "INSIDE_AUTHORIALNOTE": "SR 442.1",
+    "item_type": "SR_link_detection"
+  },
+  {
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": "SR 442.1",
+    "TARGET_URL": "https://fedlex.data.admin.ch/eli/cc/2011/854",
+    "SNIPPET": "Für Vorhaben, die nach Artikel 12 Absatz 2 KFG unterstützt werden, können nicht zusätzlich Finanzhilfen nach der vorliegenden Verordnung beantragt werden.",
+    "INSIDE_AUTHORIALNOTE": "SR 442.1",
+    "preamble_acronym_name": "KFG",
+    "item_type": "preamble_acronym",
+    "ITEM": 2
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_4",
+    "SNIPPET": "a. Sie sind von gesamtschweizerischem Interesse nach Artikel 5.",
+    "item_type": "artikel_reference"
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_4",
+    "SNIPPET": "c. Sie finden im ausserschulischen Bereich nach Artikel 6 statt.",
+    "item_type": "artikel_reference"
+  }
+]

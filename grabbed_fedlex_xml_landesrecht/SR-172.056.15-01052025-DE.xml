@@ -1,0 +1,1436 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:fedlex="http://fedlex.admin.ch/"><act name="publicLaw"><meta><identification source="#ch.bk"><FRBRWork><FRBRthis value="https://fedlex.data.admin.ch/eli/cc/2024/224/20250501/main-text"/><FRBRuri value="https://fedlex.data.admin.ch/eli/cc/2024/224/20250501"/><FRBRdate date="2025-05-01" name="jolux:dateApplicability"/><FRBRdate date="2024-05-01" name="jolux:dateDocument"/><FRBRdate date="2024-07-01" name="jolux:dateEntryInForce"/><FRBRauthor href="#ch.bk" as="#publisher"/><FRBRauthor href="#ch.bk" as="#rightsHolder"/><FRBRcountry value="CH"/><FRBRnumber value=""/><FRBRname xml:lang="it" value="Ordinanza del 1° maggio 2024 concernente l’organizzazione degli appalti pubblici dell’Amministrazione federale (OOAPub)" shortForm="OOAPub"/><FRBRname xml:lang="de" value="Verordnung vom 1. Mai 2024 über die Organisation des öffentlichen Beschaffungswesens der Bundesverwaltung (Org-VöB)" shortForm="Org-VöB"/><FRBRname xml:lang="fr" value="Ordonnance du 1er mai 2024 sur l’organisation des marchés publics de l’administration fédérale (Org-OMP)" shortForm="Org-OMP"/><FRBRauthoritative value="true"/></FRBRWork><FRBRExpression><FRBRthis value="https://fedlex.data.admin.ch/eli/cc/2024/224/20250501/de/main-text"/><FRBRuri value="https://fedlex.data.admin.ch/eli/cc/2024/224/20250501/de"/><FRBRdate date="2025-05-01" name="jolux:dateApplicability"/><FRBRdate date="2024-05-01" name="jolux:dateDocument"/><FRBRdate date="2024-07-01" name="jolux:dateEntryInForce"/><FRBRauthor href="#ch.bk" as="#publisher"/><FRBRauthor href="#ch.bk" as="#rightsHolder"/><FRBRlanguage language="de"/></FRBRExpression><FRBRManifestation><FRBRthis value="https://fedlex.data.admin.ch/eli/cc/2024/224/20250501/de/xml/main-text"/><FRBRuri value="https://fedlex.data.admin.ch/eli/cc/2024/224/20250501/de/xml"/><FRBRdate date="2025-05-01" name="jolux:dateApplicability"/><FRBRdate date="2024-05-01" name="jolux:dateDocument"/><FRBRdate date="2024-07-01" name="jolux:dateEntryInForce"/><FRBRauthor href="#ch.bk" as="#publisher"/><FRBRauthor href="#ch.bk" as="#rightsHolder"/><FRBRformat value="xml" fedlex:generator="2025-q2-rel-1.7.5"/></FRBRManifestation></identification><references source="#ch.bk"><TLCOrganization eId="ch.bk" href="https://fedlex.data.admin.ch/vocabulary/legal-institution/2" showAs="Bundeskanzlei"/><TLCRole eId="publisher" href="http://data.legilux.public.lu/resource/ontology/jolux#publisher" showAs="Editeur"/><TLCRole eId="rightsHolder" href="http://data.legilux.public.lu/resource/ontology/jolux#rightsHolder" showAs="Détenteur des droits"/><TLCReference name="language" href="http://publications.europa.eu/resource/authority/language/DEU" showAs="de"/><TLCReference name="format" href="https://fedlex.data.admin.ch/vocabulary/user-format/xml" showAs="xml"/></references></meta><preface><p><docNumber>172.056.15 </docNumber></p><p><docTitle>Verordnung <br/>über die Organisation des öffentlichen Beschaffungswesens der Bundesverwaltung</docTitle></p><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">(Org-VöB)</p><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">vom 1. Mai 2024 (Stand am 1. Mai 2025)</p></preface><preamble><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Der Schweizerische Bundesrat,</p><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">gestützt auf die Artikel 43 Absätze 2 und 3 sowie 47 Absatz 2 des Regierungs- und Verwaltungsorganisationsgesetzes vom 21. März 1997<authorialNote>
+		<p> <ref href="https://fedlex.data.admin.ch/eli/cc/1997/2022_2022_2022" xmlns:data="urn:com:c-moria:legi4ch:xslt:data" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">SR <b>172.010</b></ref></p>
+	</authorialNote>, <br/>auf Artikel 60 Absatz 1 des Bundesgesetzes vom 21. Juni 2019<authorialNote>
+		<p>  <ref href="https://fedlex.data.admin.ch/eli/cc/2020/126" xmlns:data="urn:com:c-moria:legi4ch:xslt:data" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">SR <b>172.056.1</b></ref></p>
+	</authorialNote> über das öffentliche Beschaffungswesen (BöB), <br/>auf Artikel 84 Absatz 1 des Bundesgesetzes vom 18. Dezember 2020<authorialNote>
+		<p>  <ref href="https://fedlex.data.admin.ch/eli/cc/2022/232" xmlns:data="urn:com:c-moria:legi4ch:xslt:data" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">SR <b>128</b></ref></p>
+	</authorialNote> über die Informationssicherheit beim Bund (ISG), <br/>auf Artikel 8 des Bundesgesetzes vom 17. März 2023<authorialNote>
+		<p>  <ref href="https://fedlex.data.admin.ch/eli/cc/2023/682" xmlns:data="urn:com:c-moria:legi4ch:xslt:data" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">SR <b>172.019</b></ref></p>
+	</authorialNote> über den Einsatz elektronischer Mittel zur Erfüllung von Behördenaufgaben (EMBAG),</p><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">verordnet:</p></preamble><body><chapter eId="chap_1"><num>1. Kapitel: </num><heading>Grundlagen</heading><article eId="art_1"><num><b>Art. 1</b></num><heading>Gegenstand und Geltungsbereich</heading><paragraph eId="art_1/para_1"><num>1</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Diese Verordnung regelt die Aufgaben und Zuständigkeiten im öffentlichen Beschaffungswesen der Bundesverwaltung.</p></content></paragraph><paragraph eId="art_1/para_2"><num>2</num><content><blockList><listIntroduction eId="art_1/para_2/listintro" xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Sie gilt für:</listIntroduction><item eId="art_1/para_2/lbl_a"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">a. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">die Einheiten der zentralen Bundesverwaltung nach Artikel 7 der Regierungs- und Verwaltungsorganisationsverordnung vom 25. November 1998<authorialNote>
+		<p>  <ref href="https://fedlex.data.admin.ch/eli/cc/1999/170" xmlns:data="urn:com:c-moria:legi4ch:xslt:data" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">SR <b>172.010.1</b></ref></p>
+	</authorialNote> (RVOV);</p></item><item eId="art_1/para_2/lbl_b"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">b. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">die Einheiten der dezentralen Bundesverwaltung nach Artikel 7<i>a</i> Absatz 1 Buchstaben a und b RVOV, mit Ausnahme des ETH‑Rates.</p></item></blockList></content></paragraph><paragraph eId="art_1/para_3"><num>3</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Für die Beschaffung von Bauleistungen gelten lediglich die Bestimmungen des 4. Kapitels sowie die Artikel 39, 40 und 41 Absatz 2; im Übrigen richtet sich die Beschaffung von Bauleistungen nach der Verordnung vom 5. Dezember 2008<authorialNote>
+		<p> <ref href="https://fedlex.data.admin.ch/eli/cc/2008/857" xmlns:data="urn:com:c-moria:legi4ch:xslt:data" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">SR <b>172.010.21</b></ref></p>
+	</authorialNote> über das Immobilienmanagement und die Logistik des Bundes.</p></content></paragraph></article><article eId="art_2"><num><b>Art. 2</b></num><heading>Begriffe</heading><paragraph eId="art_2/para"><content><blockList><listIntroduction eId="art_2/para/listintro" xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">In dieser Verordnung bedeuten: </listIntroduction><item eId="art_2/para/lbl_a"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">a. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"><i>Beschaffungsstelle</i><i>:</i> Einheit der zentralen oder dezentralen Bundesverwaltung nach Artikel 7 oder 7<i>a</i> Absatz 1 Buchstabe a oder b RVOV, die Waren und Dienstleistungen beschafft;</p></item><item eId="art_2/para/lbl_b"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">b. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"><i>zentrale Beschaffungsstelle</i><i>:</i> Einheit der zentralen Bundesverwaltung, die für die Bedarfsstellen Waren und Dienstleistungen zentral beschafft;</p></item><item eId="art_2/para/lbl_c"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">c. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"><i>Bedarfsstelle</i><i>:</i> Einheit der zentralen oder dezentralen Bundesverwaltung nach Artikel 7 oder 7<i>a</i> Absatz 1 Buchstabe a oder b RVOV, die zur Erfüllung ihrer Aufgaben Waren und Dienstleistungen benötigt.</p></item></blockList></content></paragraph></article><article eId="art_3"><num><b>Art.</b><b> </b><b>3</b></num><heading>Wirtschaftliche und nachhaltige Beschaffungen</heading><paragraph eId="art_3/para_1"><num>1</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Die Beschaffungs- und die Bedarfsstellen sorgen dafür, dass die Beschaffungen wirtschaftlich sowie volkswirtschaftlich, ökologisch und sozial nachhaltig sind.</p></content></paragraph><paragraph eId="art_3/para_2"><num>2</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Die Wirtschaftlichkeit wird insbesondere durch die Bündelung von Beschaffungen, durch harmonisierte Beschaffungsprozesse und durch den Einsatz digitaler Instrumente gewährleistet.</p></content></paragraph></article><article eId="art_4"><num><b>Art. 4</b></num><heading>Harmonisierte Beschaffungsprozesse</heading><paragraph eId="art_4/para_1"><num>1</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Die Beschaffung von Waren und Dienstleistungen erfolgt nach bundesweit harmonisierten Beschaffungsprozessen.</p></content></paragraph><paragraph eId="art_4/para_2"><num>2</num><content><blockList><listIntroduction eId="art_4/para_2/listintro" xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Die Beschaffungsprozesse enthalten mindestens folgende Etappen:</listIntroduction><item eId="art_4/para_2/lbl_a"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">a. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Einleitung des Beschaffungsprozesses;</p></item><item eId="art_4/para_2/lbl_b"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">b. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Wahl der Verfahrensart und Durchführung des Vergabeverfahrens;</p></item><item eId="art_4/para_2/lbl_c"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">c. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Zuschlagserteilung;</p></item><item eId="art_4/para_2/lbl_d"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">d. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Vertragsabschluss.</p></item></blockList></content></paragraph><paragraph eId="art_4/para_3"><num>3</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Die Einzelheiten der Beschaffungsprozesse sind in Anhang 1 geregelt.</p></content></paragraph></article></chapter><chapter eId="chap_2"><num>2. Kapitel:</num><heading>Zentrale Beschaffung von Waren und Dienstleistungen</heading><section eId="chap_2/sec_1"><num>1. Abschnitt: </num><heading>Zentrale Beschaffungsstellen</heading><article eId="art_5"><num><b>Art. 5</b></num><paragraph eId="art_5/para_1"><num>1</num><content><blockList><listIntroduction eId="art_5/para_1/listintro" xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Die folgenden Verwaltungseinheiten beschaffen als zentrale Beschaffungsstellen Waren und Dienstleistungen:</listIntroduction><item eId="art_5/para_1/lbl_a"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">a. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">das Bundesamt für Bauten und Logistik (BBL);</p></item><item eId="art_5/para_1/lbl_b"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">b. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">das Bundesamt für Rüstung (armasuisse);</p></item><item eId="art_5/para_1/lbl_c"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">c. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">das Bundesamt für Strassen (ASTRA);</p></item><item eId="art_5/para_1/lbl_d"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">d. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">die Bundesreisezentrale.</p></item></blockList></content></paragraph><paragraph eId="art_5/para_2"><num>2</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Welche Waren und welche Dienstleistungen von welcher zentralen Beschaffungsstelle beschafft werden, ist in Anhang 2 geregelt.</p></content></paragraph><paragraph eId="art_5/para_3"><num>3</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Die zentralen Beschaffungsstellen können bei bestimmten Arten von Waren oder Dienstleistungen auf eine zentrale Beschaffung verzichten und die Beschaffung den Bedarfsstellen zuweisen, wenn der Wert unter 5000 Franken liegt.</p></content></paragraph></article></section><section eId="chap_2/sec_2"><num>2. Abschnitt:</num><heading>Aufgaben und Zuständigkeiten der zentralen Beschaffungsstellen</heading><article eId="art_6"><num><b>Art. 6</b></num><heading>Bewirtschaftung der Beschaffungen</heading><paragraph eId="art_6/para_1"><num>1</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Die strategische und operative Bewirtschaftung der Beschaffungen liegt für die entsprechenden Zuständigkeitsbereiche in der alleinigen Verantwortung der zentralen Beschaffungsstellen.</p></content></paragraph><paragraph eId="art_6/para_2"><num>2</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Die zentralen Beschaffungsstellen sorgen bei der Durchführung von Beschaffungen für klare und transparente Kompetenzen und Prozesse und für ein adäquates internes Kontrollsystem.</p></content></paragraph><paragraph eId="art_6/para_3"><num>3</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Sie können mithilfe von Controlling-Instrumenten Beschaffungsdaten auswerten und die Resultate dieser Auswertungen den Beschaffungs- und Bedarfsstellen zur Verfügung stellen.</p></content></paragraph><paragraph eId="art_6/para_4"><num>4</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Sie können für ihre Beschaffungen ein Lieferantenmanagementsystem führen, um die Leistungen von Lieferanten der Bundesverwaltung risikobasiert zu überwachen.</p></content></paragraph></article><article eId="art_7"><num><b>Art. 7</b></num><heading>Bündelung der Beschaffungen</heading><paragraph eId="art_7/para_1"><num>1</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Die Beschaffung von Waren und Dienstleistungen erfolgt, soweit dies möglich und sinnvoll ist, gebündelt.</p></content></paragraph><paragraph eId="art_7/para_2"><num>2</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Die zentralen Beschaffungsstellen stimmen sich bei der Bedarfserhebung ab und sorgen für eine angemessene Bündelung. Sie stützen sich dabei auf die Bedarfsmeldungen der Bedarfsstellen.</p></content></paragraph><paragraph eId="art_7/para_3"><num>3</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Der Bereich Digitale Transformation und IKT-Lenkung der Bundeskanzlei (Bereich DTI<authorialNote>
+		<p> Die Bezeichnung der Verwaltungseinheit wurde in Anwendung von Art. 20 Abs. 2 der Publikationsverordnung vom 7. Okt. 2015 (<ref href="https://fedlex.data.admin.ch/eli/cc/2015/670" xmlns:data="urn:com:c-moria:legi4ch:xslt:data" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">SR <b>170.512.1</b></ref>) auf den 1. Mai 2025 angepasst. Diese Anpassung wurde im ganzen Text  vorgenommen.</p>
+	</authorialNote>) fördert und unterstützt in Absprache mit der zuständigen zentralen Beschaffungsstelle die Bündelung der Beschaffung von Waren und Dienstleistungen der Informations- und Kommunikationstechnik (IKT).</p></content></paragraph><paragraph eId="art_7/para_4"><num>4</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Die Ausschreibung von gebündelten Beschaffungen erfolgt durch die jeweils zuständige zentrale Beschaffungsstelle. Bei Beschaffungen von Waren oder Dienstleistungen, die sowohl zivilen als auch militärischen Zwecken dienen, bestimmen die zentralen Beschaffungsstellen die Zuständigkeit im Einzelfall.</p></content></paragraph><paragraph eId="art_7/para_5"><num>5</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Die zentrale Beschaffungsstelle kann mit Lieferanten Rahmenverträge abschliessen, um den Bedarfsstellen den Bezug von Waren oder Dienstleistungen zu ermöglichen.</p></content></paragraph></article><article eId="art_8"><num><b>Art. 8</b></num><heading>Waren- und Dienstleistungskataloge</heading><paragraph eId="art_8/para_1"><num>1</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Die zentralen Beschaffungsstellen können für die Bedarfsstellen verbindliche Waren- und Dienstleistungskataloge festlegen.</p></content></paragraph><paragraph eId="art_8/para_2"><num>2</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Sie berücksichtigen dabei die Bedürfnisse der Bedarfsstellen und die Nachhaltigkeit angemessen. Sie können vorgängig die Fachstelle für ökologische öffentliche Beschaffung konsultieren.</p></content></paragraph><paragraph eId="art_8/para_3"><num>3</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Sie stellen wenn möglich eine Auswahl an Leistungen zur Verfügung. Sie informieren die Bedarfsstellen über ihr Angebot.</p></content></paragraph></article><article eId="art_9"><num><b>Art.</b><b> </b><b>9</b></num><heading>Anforderungen an die Beschaffung</heading><paragraph eId="art_9/para_1"><num>1</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Die zentralen Beschaffungsstellen beschaffen nach Möglichkeit marktgängige Waren, die über ihren gesamten Lebensweg hohen wirtschaftlichen, ökologischen und sozialen Anforderungen genügen.</p></content></paragraph><paragraph eId="art_9/para_2"><num>2</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Bei der Beschaffung von IKT-Standarddiensten beachten sie die Vorgaben der Bundeskanzlerin oder des Bundeskanzlers und des Bereichs DTI.</p></content></paragraph></article><article eId="art_10"><num><b>Art.</b><b> </b><b>10</b></num><heading>Ausnahmen nach Artikel 10 BöB</heading><paragraph eId="art_10/para"><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Die zuständige zentrale Beschaffungsstelle entscheidet bei ihren Beschaffungen sowie bei delegierten Beschaffungen, ob diese nach Artikel 10 Absatz 3 oder 4 BöB von dessen Anwendung ausgenommen sind.</p></content></paragraph></article><article eId="art_11"><num><b>Art.</b><b> </b><b>11</b></num><heading>Ausschreibungsunterlagen und Vertrag</heading><paragraph eId="art_11/para_1"><num>1</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Die zuständige zentrale Beschaffungsstelle legt fest, ob sie die Ausschreibungsunterlagen und die Verträge für die Beschaffungen erstellt oder ob sie diese Aufgabe den Bedarfsstellen zuweist.</p></content></paragraph><paragraph eId="art_11/para_2"><num>2</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Weist sie die Aufgabe den Bedarfsstellen zu, so obliegt ihr die Prüfung und Freigabe der Dokumente.</p></content></paragraph></article><article eId="art_12"><num><b>Art.</b><b> </b><b>12</b></num><heading>Sicherheitsempfindliche Aufträge</heading><paragraph eId="art_12/para"><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Bei sicherheitsempfindlichen Aufträgen nach Artikel 49 ISG übernehmen die zentralen Beschaffungsstellen im Einvernehmen mit den Bedarfsstellen die Aufgaben der Auftraggeberin nach den Artikeln 55–67 ISG.</p></content></paragraph></article></section><section eId="chap_2/sec_3"><num>3. Abschnitt: </num><heading>Aufgaben und Zuständigkeiten der Bedarfsstellen</heading><article eId="art_13"><num><b>Art. 13</b></num><heading>Bedarfsermittlung</heading><paragraph eId="art_13/para_1"><num>1</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Die Bedarfsstellen berücksichtigen bei der Ermittlung ihres Bedarfs an Waren und Dienstleistungen die Nachhaltigkeit.</p></content></paragraph><paragraph eId="art_13/para_2"><num>2</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Sie prüfen den Einsatz standardisierter Leistungen und die Möglichkeit, Leistungen unter bestehenden Rahmenverträgen zu beziehen.</p></content></paragraph><paragraph eId="art_13/para_3"><num>3</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Sie stellen sicher, dass sie über die erforderlichen Fachkenntnisse im Zusammenhang mit den zu beschaffenden Waren und Dienstleistungen verfügen.</p></content></paragraph><paragraph eId="art_13/para_4"><num>4</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Sie können bei der Bedarfsermittlung die Fachstellen nach dem 6. Kapitel konsultieren.</p></content></paragraph></article><article eId="art_14"><num><b>Art.</b><b> </b><b>14</b></num><heading>Bedarfsmeldung</heading><paragraph eId="art_14/para_1"><num>1</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Die Bedarfsstellen melden der zentralen Beschaffungsstelle frühzeitig ihren Bedarf.</p></content></paragraph><paragraph eId="art_14/para_2"><num>2</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Sie fassen dabei den Bedarf an gleichartigen Waren oder Dienstleistungen nach Möglichkeit zusammen.</p></content></paragraph></article><article eId="art_15"><num><b>Art.</b><b> </b><b>15</b></num><heading>Bedarfsdeckung</heading><paragraph eId="art_15/para"><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Die Bedarfsstellen decken ihren Bedarf bei den zentralen Beschaffungsstellen, deren Lieferanten oder bei einer externen Organisation, der nach Artikel 21 die Durchführung des Vergabeverfahrens übertragen wurde, soweit die Kompetenz zur Beschaffung nicht an sie selbst delegiert oder einer anderen Stelle nach Artikel 22 Absatz 1 und Artikel 23 zugewiesen wurde.</p></content></paragraph></article><article eId="art_16"><num><b>Art. 16</b></num><heading>Sicherheitsempfindliche Aufträge</heading><paragraph eId="art_16/para_1"><num>1</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Die Bedarfsstellen prüfen mit der Fachstelle für Betriebssicherheit nach Artikel 51 Absatz 2 ISG, ob die beabsichtigte Beschaffung die Ausübung einer sicherheitsempfindlichen Tätigkeit nach Artikel 5 Buchstabe b ISG einschliesst (sicherheitsempfindlicher Auftrag). Sie beantragen gegebenenfalls die Einleitung eines Betriebssicherheitsverfahrens nach Artikel 52 ISG.</p></content></paragraph><paragraph eId="art_16/para_2"><num>2</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Wenn ein Betriebssicherheitsverfahren eingeleitet wurde, teilen sie dies zusammen mit ihrer Bedarfsmeldung der zuständigen zentralen Beschaffungsstelle mit und informieren über die Anforderungen an die Informationssicherheit für das Vergabeverfahren und die Auftragserfüllung.</p></content></paragraph></article></section><section eId="chap_2/sec_4"><num>4. Abschnitt: </num><heading>Delegation von Beschaffungskompetenzen</heading><article eId="art_17"><num><b>Art. 17</b></num><heading>Grundsatz</heading><paragraph eId="art_17/para_1"><num>1</num><content><blockList><listIntroduction eId="art_17/para_1/listintro" xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Beschaffungen können wie folgt an Bedarfsstellen delegiert werden:</listIntroduction><item eId="art_17/para_1/lbl_a"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">a. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"><i>unterschwellige Delegation</i><i>:</i> Delegation der Beschaffung von Waren und Dienstleistungen unter den Schwellenwerten für öffentliche Ausschreibungen nach Anhang 4 BöB;</p></item><item eId="art_17/para_1/lbl_b"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">b. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"><i>Projektdelegation</i><i>:</i> Delegation der Beschaffung von Waren und Dienstleistungen in Zusammenhang mit einem spezifischen Projekt;</p></item><item eId="art_17/para_1/lbl_c"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">c. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"><i>Sonderdelegation</i><i>:</i> Delegation der Beschaffung von Waren und Dienstleistungen unabhängig von den Schwellenwerten für öffentliche Ausschreibungen nach Anhang 4 BöB.</p></item></blockList></content></paragraph><paragraph eId="art_17/para_2"><num>2</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Delegationen werden auf Antrag und nur in begründeten Ausnahmefällen erteilt.</p></content></paragraph></article><article eId="art_18"><num><b>Art. 18</b></num><heading>Delegationsvoraussetzungen</heading><paragraph eId="art_18/para_1"><num>1</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Delegationen werden nur an Bedarfsstellen erteilt, die über fundierte Fachkenntnisse im öffentlichen Beschaffungswesen gemäss Anhang 3 Buchstabe A verfügen. </p></content></paragraph><paragraph eId="art_18/para_2"><num>2</num><content><blockList><listIntroduction eId="art_18/para_2/listintro" xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Für die folgenden Delegationen müssen zusätzlich die nachstehenden Voraussetzungen erfüllt sein:</listIntroduction><item eId="art_18/para_2/lbl_a"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">a. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Projektdelegation: Nur die Delegationsempfängerin hat Bedarf an den zu beschaffenden Waren oder Dienstleistungen;</p></item><item eId="art_18/para_2/lbl_b"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">b. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Sonderdelegation: Eine zentrale Beschaffung ist nicht zweckmässig.</p></item></blockList></content></paragraph></article><article eId="art_19"><num><b>Art. 19</b></num><heading>Antrag und Verfahren</heading><paragraph eId="art_19/para_1"><num>1</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Die Bedarfsstelle beantragt die Delegation von Beschaffungskompetenzen bei der zuständigen zentralen Beschaffungsstelle; Sonderdelegationen sind bei der Beschaffungskonferenz des Bundes (BKB) zu beantragen.</p></content></paragraph><paragraph eId="art_19/para_2"><num>2</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Die Bedarfsstelle legt im Antrag dar, inwiefern die Voraussetzungen nach Artikel 18 erfüllt sind.</p></content></paragraph><paragraph eId="art_19/para_3"><num>3</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Die zuständige Stelle prüft die Voraussetzungen. Erteilt sie die Delegation, so hält sie die Bedingungen und Auflagen für deren Ausübung in einer Vereinbarung mit der Delegationsempfängerin schriftlich fest.</p></content></paragraph><paragraph eId="art_19/para_4"><num>4</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Sie führt ein Verzeichnis der von ihr erteilten Delegationen.</p></content></paragraph></article><article eId="art_20"><num><b>Art. 20</b></num><heading>Pflichten der Delegationsempfängerin</heading><paragraph eId="art_20/para_1"><num>1</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Ab dem Zeitpunkt der Delegation übernimmt die Delegationsempfängerin<span> </span>die Aufgaben und Zuständigkeiten der zentralen Beschaffungsstelle.</p></content></paragraph><paragraph eId="art_20/para_2"><num>2</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Sie stellt sicher, dass die Voraussetzungen weiterhin erfüllt sind und die Bedingungen und Auflagen jederzeit eingehalten werden. Sie erstattet der für die Delegation zuständigen Stelle regelmässig Bericht über die Erfüllung der Voraussetzungen, die Einhaltung der Bedingungen und Auflagen und die durchgeführten Beschaffungen.</p></content></paragraph><paragraph eId="art_20/para_3"><num>3</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Sind die Voraussetzungen nicht mehr erfüllt oder werden die Bedingungen oder Auflagen nicht eingehalten, so widerruft die zuständige Stelle die Delegation.</p></content></paragraph><paragraph eId="art_20/para_4"><num>4</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Die weiteren Verantwortlichkeiten sind in Anhang 3 Buchstabe B geregelt.</p></content></paragraph></article></section><section eId="chap_2/sec_5"><num>5. Abschnitt: </num><heading>Beschaffungen durch externe Organisationen</heading><article eId="art_21"><num><b>Art. 21</b></num><paragraph eId="art_21/para_1"><num>1</num><content><blockList><listIntroduction eId="art_21/para_1/listintro" xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Die zentralen Beschaffungsstellen können für folgende Beschaffungen den nachstehenden Organisationen die Durchführung von Vergabeverfahren übertragen:</listIntroduction><item eId="art_21/para_1/lbl_a"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">a.<authorialNote>
+		<p> Fassung gemäss Anhang 2 Ziff. II 5 der Digitalisierungsverordnung vom 2. April 2025, in Kraft seit 1. Mai 2025 (<ref href="https://fedlex.data.admin.ch/eli/oc/2025/235" xmlns:data="urn:com:c-moria:legi4ch:xslt:data" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">AS <b>2025</b> 235</ref>).</p>
+	</authorialNote> </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">gemeinsame Beschaffungen von IKT-Mitteln oder Dienstleistungen in Zusammenhang mit IKT‑Mitteln von Bund, Kantonen und Gemeinden: der eOperations Schweiz AG (Art. 13 der Digitalisierungsverordnung vom 2. April 2025<authorialNote>
+		<p>  <ref href="https://fedlex.data.admin.ch/eli/cc/2025/235" xmlns:data="urn:com:c-moria:legi4ch:xslt:data" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">SR <b>172.019.1</b></ref></p>
+	</authorialNote>);</p></item><item eId="art_21/para_1/lbl_b"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">b. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">gemeinsame Beschaffungen von polizeilichen Fachanwendungen, Systemen, Schnittstellen zu Dritten oder Einsatzmitteln von Bund und Kantonen: der Körperschaft «PTI Schweiz» (Art. 3 der PTI-Vereinbarung vom 2. September 2020<authorialNote>
+		<p> <ref href="https://fedlex.data.admin.ch/eli/cc/2020/1053" xmlns:data="urn:com:c-moria:legi4ch:xslt:data" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">SR <b>367.1</b></ref></p>
+	</authorialNote>).</p></item></blockList></content></paragraph><paragraph eId="art_21/para_2"><num>2</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Die zuständige zentrale Beschaffungsstelle hält die Bedingungen und Auflagen für die Durchführung des Vergabeverfahrens, einschliesslich der Reportingpflichten, in einer Vereinbarung mit der Organisation schriftlich fest.</p></content></paragraph><paragraph eId="art_21/para_3"><num>3</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Die Organisationen erlassen die zur Durchführung der Vergabeverfahren erforderlichen Verfügungen.</p></content></paragraph></article></section></chapter><chapter eId="chap_3"><num>3. Kapitel: </num><heading>Dezentrale Beschaffung von Waren und Dienstleistungen</heading><article eId="art_22"><num><b>Art. 22</b></num><heading>Organisation</heading><paragraph eId="art_22/para_1"><num>1</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Waren und Dienstleistungen, die nicht nach dem 2. Kapitel beschafft werden, werden von den Bedarfsstellen beschafft. Die Departemente können eine Verwaltungseinheit bestimmen, die diese Waren und Dienstleistungen für das ganze Departement zentral beschafft.</p></content></paragraph><paragraph eId="art_22/para_2"><num>2</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Die Departemente und die Bundeskanzlei sorgen für klare Kompetenzen und Abläufe.</p></content></paragraph><paragraph eId="art_22/para_3"><num>3</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Bei der Vergabe von Aufträgen in den Bereichen politische Beratung und Forschung stellen sie eine angemessene Koordination unter ihren Ämtern und Dienststellen sicher.</p></content></paragraph><paragraph eId="art_22/para_4"><num>4</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Auf Anfrage einer Bedarfsstelle oder eines Departementes kann das BBL Waren und Dienstleistungen beschaffen, die nicht nach dem 2. Kapitel beschafft werden, und für diese Rahmenverträge abschliessen.</p></content></paragraph></article><article eId="art_23"><num><b>Art. 23</b></num><heading>Beschaffungsstellen für besondere Waren und Dienstleistungen</heading><paragraph eId="art_23/para_1"><num>1</num><content><blockList><listIntroduction eId="art_23/para_1/listintro" xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Die folgenden Stellen sind zuständig für die Beschaffung der nachstehenden Waren und Dienstleistungen:</listIntroduction><item eId="art_23/para_1/lbl_a"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">a. </num><blockList><listIntroduction eId="art_23/para_1/lbl_a/listintro" xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">die Armeeapotheke:</listIntroduction><item eId="art_23/para_1/lbl_a/lbl_1"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">1. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Arzneimittel und Medizinprodukte gemäss dem Heilmittelgesetz vom 15. Dezember 2000<authorialNote>
+		<p> <ref href="https://fedlex.data.admin.ch/eli/cc/2001/422" xmlns:data="urn:com:c-moria:legi4ch:xslt:data" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">SR <b>812.21</b></ref></p>
+	</authorialNote> (HMG), einschliesslich aller Leistungen für deren Herstellung, Zulassung, Transport, Lagerung und Vertrieb,</p></item><item eId="art_23/para_1/lbl_a/lbl_2"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">2. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">das medizinische Ausbildungsmaterial für die Schweizer Armee, einschliesslich der dazugehörigen Betriebs-, Wartungs- und Reparaturleistungen;</p></item></blockList></item><item eId="art_23/para_1/lbl_b"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">b. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">das Bundesamt für Gesundheit: Dienstleistungen zwecks Versorgung der Bevölkerung mit den wichtigsten zur Bekämpfung übertragbarer Krankheiten geeigneten Heilmitteln gemäss HMG.</p></item></blockList></content></paragraph><paragraph eId="art_23/para_2"><num>2</num><content><blockList><listIntroduction eId="art_23/para_2/listintro" xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Die folgenden Stellen sind zuständig für die Beschaffung der nachstehenden Waren und Dienstleistungen sowie für die Beurteilung, ob ein Ausnahmetatbestand gemäss Artikel 10 Absatz 1 Buchstabe h BöB vorliegt:</listIntroduction><item eId="art_23/para_2/lbl_a"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">a. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">die zuständigen Stellen des Eidgenössischen Departements für auswärtige Angelegenheiten (EDA) und des Eidgenössischen Departements für Wirtschaft, Bildung und Forschung (WBF): Waren und Dienstleistungen für die internationale Entwicklungs- und Ostzusammenarbeit, für die Förderung des Friedens und der Sicherheit der Menschen und für den Schweizer Beitrag an ausgewählte Mitgliedstaaten der Europäischen Union;</p></item><item eId="art_23/para_2/lbl_b"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">b. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">die zuständige Stelle des EDA: Waren und Dienstleistungen für die internationale humanitäre Hilfe sowie die Agrar- und Ernährungshilfe;</p></item><item eId="art_23/para_2/lbl_c"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">c. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">die zuständige Stelle des EDA: Waren und Dienstleistungen im Ausland für den Bedarf der schweizerischen Auslandvertretungen;</p></item><item eId="art_23/para_2/lbl_d"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">d. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">die zuständigen Stellen des EDA, des Eidgenössischen Departements für Verteidigung, Bevölkerungsschutz und Sport und des WBF: Waren und Dienstleistungen, die gemäss den Bestimmungen eines internationalen Abkommens über die Stationierung von Truppen oder über die gemeinsame Umsetzung eines Projekts beschafft werden.</p></item></blockList></content></paragraph></article><article eId="art_24"><num><b>Art. 24</b></num><heading>Koordinationsstellen</heading><paragraph eId="art_24/para_1"><num>1</num><content><blockList><listIntroduction eId="art_24/para_1/listintro" xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Die folgenden Koordinationsstellen innerhalb der zentralen Bundesverwaltung sorgen bei der Beschaffung der nachstehenden Dienstleistungen für eine Koordination der Bedarfsstellen und ein einheitliches Auftreten gegen aussen:</listIntroduction><item eId="art_24/para_1/lbl_a"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">a. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">die Bundeskanzlei: Dienstleistungen im Bereich der Übersetzungen;</p></item><item eId="art_24/para_1/lbl_b"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">b. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">das Eidgenössische Personalamt: Dienstleistungen in den Bereichen der Ausbildung, Führungs- und Organisationsberatung.</p></item></blockList></content></paragraph><paragraph eId="art_24/para_2"><num>2</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Die Koordinationsstellen erarbeiten in Zusammenarbeit mit dem Kompetenzzentrum für das Beschaffungswesen des Bundes (KBB) Musterverträge.</p></content></paragraph><paragraph eId="art_24/para_3"><num>3</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Sie schliessen bei Bedarf Rahmenverträge für die gesamte Bundesverwaltung ab.</p></content></paragraph></article><article eId="art_25"><num><b>Art. 25</b></num><heading>Ausschreibung und Vertrag</heading><paragraph eId="art_25/para_1"><num>1</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Die Bedarfsstellen erstellen die Ausschreibungsunterlagen, führen die Ausschreibung durch und erstellen den Vertrag; sie orientieren sich dabei an den Musterverträgen der zentralen Beschaffungs- und der Koordinationsstellen.</p></content></paragraph><paragraph eId="art_25/para_2"><num>2</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Sie können benötigte Dienstleistungen auf der Grundlage von Rahmenverträgen der Koordinationsstellen beziehen.</p></content></paragraph><paragraph eId="art_25/para_3"><num>3</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Bevor sie in Anwendung von Artikel 10 Absatz 4 Buchstabe a BöB auf eine öffentliche Ausschreibung verzichten, konsultieren sie armasuisse.</p></content></paragraph></article><article eId="art_26"><num><b>Art.</b><b> </b><b>26</b></num><heading>Sicherheitsempfindliche Aufträge</heading><paragraph eId="art_26/para"><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Bei sicherheitsempfindlichen Aufträgen übernehmen die Bedarfsstellen alle Aufgaben einer Auftraggeberin nach den Artikeln 49–69 ISG.</p></content></paragraph></article></chapter><chapter eId="chap_4"><num>4. Kapitel: </num><heading>Beschaffungscontrolling</heading><article eId="art_27"><num><b>Art. 27</b></num><heading>Zuständigkeiten und Verantwortlichkeiten</heading><paragraph eId="art_27/para_1"><num>1</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Der Bundesrat nimmt das übergeordnete Controlling des Beschaffungswesens (Beschaffungscontrolling) der Bundesverwaltung wahr.</p></content></paragraph><paragraph eId="art_27/para_2"><num>2</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Die Departemente und die Bundeskanzlei sind für das Beschaffungscontrolling in ihrem Bereich zuständig. Sie stimmen ihr Beschaffungscontrolling auf das Beschaffungscontrolling des Bundesrates ab.</p></content></paragraph><paragraph eId="art_27/para_3"><num>3</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Die zentralen Beschaffungs- und Bedarfsstellen erfassen in den Instrumenten des Beschaffungscontrollings die in Anhang 4 Buchstabe A genannten Daten zu den durchgeführten Beschaffungen.</p></content></paragraph><paragraph eId="art_27/para_4"><num>4</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Das BBL ist verantwortlich für den Betrieb und den Unterhalt der Informatikanwendungen, die für das Beschaffungscontrolling verwendet werden.</p></content></paragraph></article><article eId="art_28"><num><b>Art.</b><b> </b><b>28</b></num><heading>Fachstelle für Beschaffungscontrolling</heading><paragraph eId="art_28/para_1"><num>1</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Das BBL setzt eine Fachstelle ein, die in Zusammenarbeit mit den Departementen und der Bundeskanzlei das Beschaffungscontrolling der Bundesverwaltung sicherstellt (Fachstelle für Beschaffungscontrolling, FSBC).</p></content></paragraph><paragraph eId="art_28/para_2"><num>2</num><content><blockList><listIntroduction eId="art_28/para_2/listintro" xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Die FSBC hat insbesondere folgende Aufgaben:</listIntroduction><item eId="art_28/para_2/lbl_a"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">a. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Sie prüft die Qualität der von den Departementen erfassten Daten und kontrolliert, ob die Beschaffungsrelevanz, Zuordnung in Beschaffungskategorien und Vollständigkeit plausibel sind. Die Prüfung erfolgt im Rahmen der Zugriffsberechtigungen in den jeweiligen Systemen.</p></item><item eId="art_28/para_2/lbl_b"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">b. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Sie konsolidiert die Daten der Departemente und der Bundeskanzlei auf Stufe Bundesverwaltung, einschliesslich der Daten für die Überprüfung der Umsetzung der Beschaffungsstrategie der Bundesverwaltung.</p></item><item eId="art_28/para_2/lbl_c"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">c. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Sie bietet Aus- und Weiterbildungen zum Beschaffungscontrolling an.</p></item><item eId="art_28/para_2/lbl_d"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">d. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Sie fördert und koordiniert die Verbesserung der Qualität der Daten zum Beschaffungswesen.</p></item><item eId="art_28/para_2/lbl_e"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">e. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Sie erstellt jährlich eine Liste der Beschaffungen ab 50 000 Franken gemäss Artikel 27 der Verordnung vom 12. Februar 2020<authorialNote>
+		<p> <ref href="https://fedlex.data.admin.ch/eli/cc/2020/127" xmlns:data="urn:com:c-moria:legi4ch:xslt:data" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">SR <b>172.056.11</b></ref></p>
+	</authorialNote> über das öffentliche Beschaffungswesen (VöB).</p></item></blockList></content></paragraph></article><article eId="art_29"><num><b>Art.</b><b> </b><b>29</b></num><heading>Berichterstattung und Massnahmen</heading><paragraph eId="art_29/para_1"><num>1</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Die FSBC erstellt zuhanden der Generalsekretärenkonferenz (GSK) jährlich einen Bericht über das Beschaffungswesen der Bundesverwaltung.</p></content></paragraph><paragraph eId="art_29/para_2"><num>2</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Im Bericht hält sie Auffälligkeiten fest und empfiehlt Massnahmen; sie stützt sich dabei auf die verfügbaren Daten der Departemente und der Bundeskanzlei.</p></content></paragraph><paragraph eId="art_29/para_3"><num>3</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Die Erstellung des Berichtes wird von einer interdepartementalen Arbeitsgruppe unter Leitung der FSBC koordiniert.</p></content></paragraph><paragraph eId="art_29/para_4"><num>4</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Die GSK prüft den Bericht. Sie kann zuhanden des Bundesrates Massnahmen für die gesamte Bundesverwaltung vorschlagen.</p></content></paragraph><paragraph eId="art_29/para_5"><num>5</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Der Bundesrat nimmt vom Bericht Kenntnis und beschliesst allfällige Massnahmen.</p></content></paragraph><paragraph eId="art_29/para_6"><num>6</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Die weiteren Aufgaben und Zuständigkeiten bei der Berichterstattung sind in Anhang 4 Buchstabe B geregelt.</p></content></paragraph></article></chapter><chapter eId="chap_5"><num>5. Kapitel: </num><heading>Beschaffungskonferenz des Bundes</heading><article eId="art_30"><num><b>Art. 30</b></num><heading>Aufgaben</heading><paragraph eId="art_30/para_1"><num>1</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Die BKB ist das Strategieorgan der Bundesverwaltung für die Bereiche der Waren- und Dienstleistungsbeschaffung.</p></content></paragraph><paragraph eId="art_30/para_2"><num>2</num><content><blockList><listIntroduction eId="art_30/para_2/listintro" xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Die BKB nimmt insbesondere folgende Aufgaben wahr:</listIntroduction><item eId="art_30/para_2/lbl_a"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">a. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Sie bereitet die Rechtsgrundlagen für das öffentliche Beschaffungswesen vor und verabschiedet Leitbilder und strategische Schwerpunkte.</p></item><item eId="art_30/para_2/lbl_b"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">b. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Sie erarbeitet und unterstützt die Umsetzung der Beschaffungsstrategie der Bundesverwaltung; sie arbeitet dabei mit der Koordinationskonferenz der Bau- und Liegenschaftsorgane der öffentlichen Bauherren (KBOB) zusammen.</p></item><item eId="art_30/para_2/lbl_c"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">c. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Sie nimmt Stellung zu beschaffungspolitischen und -strategischen Grundsatzfragen und kann dazu Empfehlungen abgeben.</p></item><item eId="art_30/para_2/lbl_d"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">d. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Sie fördert wirtschaftlich sowie volkswirtschaftlich, ökologisch und sozial nachhaltige Beschaffungen.</p></item><item eId="art_30/para_2/lbl_e"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">e. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Sie fördert den Einsatz moderner Technologien im öffentlichen Beschaffungswesen; sie arbeitet dabei mit dem Bereich DTI zusammen.</p></item><item eId="art_30/para_2/lbl_f"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">f. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Sie fördert und unterstützt die Korruptionsprävention im öffentlichen Beschaffungswesen des Bundes.</p></item><item eId="art_30/para_2/lbl_g"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">g. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Sie fördert im Rahmen des Sprachengesetzes vom 5. Oktober 2007<authorialNote>
+		<p> <ref href="https://fedlex.data.admin.ch/eli/cc/2009/821" xmlns:data="urn:com:c-moria:legi4ch:xslt:data" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">SR <b>441.1</b></ref></p>
+	</authorialNote> die Mehrsprachigkeit im öffentlichen Beschaffungswesen des Bundes.</p></item><item eId="art_30/para_2/lbl_h"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">h. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Sie genehmigt die Aus- und Weiterbildungskonzepte des Kompetenzzentrums Beschaffungswesen Bund.</p></item><item eId="art_30/para_2/lbl_i"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">i. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Sie erlässt die allgemeinen Geschäftsbedingungen des Bundes; sie achtet darauf, dass diese so weit als möglich mit den allgemeinen Geschäftsbedingungen der Schweizerischen Bundesbahnen SBB (SBB) und der Schweizerischen Post AG (Post) harmonisiert sind.</p></item><item eId="art_30/para_2/lbl_j"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">j. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Sie sorgt für die Koordination unter den zentralen Beschaffungs- und den Bedarfsstellen.</p></item><item eId="art_30/para_2/lbl_k"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">k. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Sie entscheidet über Sonderdelegationen.</p></item><item eId="art_30/para_2/lbl_l"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">l. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Sie stimmt die Arbeiten der Fachstellen nach dem 6. Kapitel aufeinander ab und fördert den zentralen Zugang der Beschaffungsstellen zu den Instrumenten dieser Fachstellen.</p></item><item eId="art_30/para_2/lbl_m"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">m. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Sie führt das Kompetenzzentrum Simap Bund, das den Bund im Verein «simap.ch» vertritt.</p></item><item eId="art_30/para_2/lbl_n"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">n. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Sie veröffentlicht jährlich eine Liste der Beschaffungen ab 50 000 Franken gemäss Artikel 27 VöB<authorialNote>
+		<p> <ref href="https://fedlex.data.admin.ch/eli/cc/2020/127" xmlns:data="urn:com:c-moria:legi4ch:xslt:data" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">SR <b>172.056.11</b></ref></p>
+	</authorialNote>.</p></item><item eId="art_30/para_2/lbl_o"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">o. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Sie koordiniert die Kopiervergütungen der zentralen Bundesverwaltung nach Artikel 20 Absatz 2 des Urheberrechtsgesetzes vom 9. Oktober 1992<authorialNote>
+		<p> <ref href="https://fedlex.data.admin.ch/eli/cc/1993/1798_1798_1798" xmlns:data="urn:com:c-moria:legi4ch:xslt:data" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">SR <b>231.1</b></ref></p>
+	</authorialNote>.</p></item></blockList></content></paragraph><paragraph eId="art_30/para_3"><num>3</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Die BKB arbeitet bei Themen von gemeinsamem Interesse eng mit der KBOB zusammen.</p></content></paragraph><paragraph eId="art_30/para_4"><num>4</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Sie kann mit den SBB und der Post in Bereichen von gemeinsamem Interesse partnerschaftlich zusammenarbeiten. BKB, SBB und Post konsultieren sich gegenseitig.</p></content></paragraph></article><article eId="art_31"><num><b>Art.</b><b> </b><b>31</b></num><heading>Zusammensetzung</heading><paragraph eId="art_31/para_1"><num>1</num><content><blockList><listIntroduction eId="art_31/para_1/listintro" xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Die BKB besteht aus höchstens zehn Mitgliedern. Diese rekrutieren sich insbesondere aus: </listIntroduction><item eId="art_31/para_1/lbl_a"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">a. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">den zentralen Beschaffungsstellen;</p></item><item eId="art_31/para_1/lbl_b"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">b. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">dem Bereich DTI;</p></item><item eId="art_31/para_1/lbl_c"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">c. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">dem Bundesamt für Umwelt (BAFU);</p></item><item eId="art_31/para_1/lbl_d"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">d. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">dem Staatsekretariat für Wirtschaft (SECO);</p></item><item eId="art_31/para_1/lbl_e"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">e. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">dem Generalsekretariat des EDA.</p></item></blockList></content></paragraph><paragraph eId="art_31/para_2"><num>2</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Die Direktorin oder der Direktor des BBL führt den Vorsitz.</p></content></paragraph></article><article eId="art_32"><num><b>Art.</b><b> </b><b>32</b></num><heading>Beobachter und Gäste</heading><paragraph eId="art_32/para_1"><num>1</num><content><blockList><listIntroduction eId="art_32/para_1/listintro" xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Als Beobachter können an den Sitzungen der BKB teilnehmen:</listIntroduction><item eId="art_32/para_1/lbl_a"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">a. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">die Post;</p></item><item eId="art_32/para_1/lbl_b"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">b. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">die SBB;</p></item><item eId="art_32/para_1/lbl_c"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">c. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">der ETH-Bereich;</p></item><item eId="art_32/para_1/lbl_d"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">d. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">das Sekretariat der Wettbewerbskommission;</p></item><item eId="art_32/para_1/lbl_e"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">e. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">die Eidgenössische Finanzkontrolle.</p></item></blockList></content></paragraph><paragraph eId="art_32/para_2"><num>2</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Die BKB kann ständige Gäste aufnehmen, insbesondere Vertretungen kantonaler und kommunaler Organisationen.</p></content></paragraph></article><article eId="art_33"><num><b>Art. 33</b></num><heading>Vorstand</heading><paragraph eId="art_33/para_1"><num>1</num><content><blockList><listIntroduction eId="art_33/para_1/listintro" xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Der Vorstand der BKB setzt sich zusammen aus: </listIntroduction><item eId="art_33/para_1/lbl_a"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">a. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">der oder dem Vorsitzenden; und</p></item><item eId="art_33/para_1/lbl_b"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">b. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">je einer Vertreterin oder einem Vertreter von armasuisse, ASTRA und BBL.</p></item></blockList></content></paragraph><paragraph eId="art_33/para_2"><num>2</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Er hat insbesondere die Aufgabe, die Tätigkeitsschwerpunkte der BKB festzulegen.</p></content></paragraph><paragraph eId="art_33/para_3"><num>3</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Der Vorstand der BKB kann den Mitgliedern der BKB zur Erfüllung der Aufgaben der BKB Aufträge erteilen.</p></content></paragraph><paragraph eId="art_33/para_4"><num>4</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Er kann Empfehlungen für die Beschaffungs- und Bedarfsstellen abgeben und dem Eidgenössischen Finanzdepartement (EFD) den Erlass von Weisungen beantragen.</p></content></paragraph></article><article eId="art_34"><num><b>Art.</b><b> </b><b>34</b></num><heading>Fachgruppen und Arbeitsgruppen</heading><paragraph eId="art_34/para"><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Die BKB oder der Vorstand der BKB kann ständige Fachgruppen sowie Ad‑hoc-Arbeitsgruppen mit befristetem Auftrag einsetzen und diesen Aufgaben aus ihrem Bereich zur Vorberatung oder zur selbstständigen Erledigung übertragen.</p></content></paragraph></article><article eId="art_35"><num><b>Art.</b><b> </b><b>35</b></num><heading>Geschäftsstelle</heading><paragraph eId="art_35/para"><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Das BBL führt die Geschäftsstelle der BKB.</p></content></paragraph></article><article eId="art_36"><num><b>Art.</b><b> </b><b>36</b></num><heading>Verfahren</heading><paragraph eId="art_36/para_1"><num>1</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Entscheidungen der BKB werden mit einfachem Mehr der Stimmenden, diejenigen des Vorstands einstimmig gefällt.</p></content></paragraph><paragraph eId="art_36/para_2"><num>2</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Die BKB gibt sich ein Geschäftsreglement.</p></content></paragraph></article></chapter><chapter eId="chap_6"><num>6. Kapitel: </num><heading>Fachstellen und Unterstützungsleistungen</heading><article eId="art_37"><num><b>Art. 37</b></num><heading>Kompetenzzentrum Beschaffungswesen Bund</heading><paragraph eId="art_37/para_1"><num>1</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Das BBL richtet das KBB ein. Dieses unterstützt die Beschaffungs- und Bedarfsstellen bei der Umsetzung der Beschaffungsgesetzgebung und der Beschaffungsstrategie des Bundes in den Bereichen der Waren- und Dienstleistungsbeschaffung.</p></content></paragraph><paragraph eId="art_37/para_2"><num>2</num><content><blockList><listIntroduction eId="art_37/para_2/listintro" xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Es hat insbesondere folgende Aufgaben:</listIntroduction><item eId="art_37/para_2/lbl_a"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">a. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Es berät die Beschaffungs- und Bedarfsstellen bei beschaffungs- und vertragsrechtlichen Fragen.</p></item><item eId="art_37/para_2/lbl_b"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">b. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Es unterstützt und berät die Beschaffungs- und Bedarfsstellen bei der administrativen und formellen Abwicklung öffentlicher Ausschreibungen.</p></item><item eId="art_37/para_2/lbl_c"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">c. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Es konzipiert und bietet Aus- und Weiterbildungsveranstaltungen zum öffentlichen Beschaffungs- und Vertragswesen an. Diese Veranstaltungen stehen auch Teilnehmenden aus kantonalen und kommunalen Beschaffungsstellen offen. Das BBL erlässt kostendeckende Tarife.</p></item><item eId="art_37/para_2/lbl_d"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">d. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Es stellt Mustervorlagen, Merkblätter und sonstige Hilfsmittel für die praktische Umsetzung von Waren- und Dienstleistungsbeschaffungen zur Verfügung.</p></item><item eId="art_37/para_2/lbl_e"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">e. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Es erarbeitet und revidiert gestützt auf ein Mandat der BKB die allgemeinen Geschäftsbedingungen des Bundes und legt diese der BKB zum Beschluss vor.</p></item></blockList></content></paragraph></article><article eId="art_38"><num><b>Art. 38</b></num><heading>Fachstelle für ökologische öffentliche Beschaffung</heading><paragraph eId="art_38/para_1"><num>1</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Das BAFU setzt eine Fachstelle ein zur Förderung einer umwelt- und ressourcenschonenden öffentlichen Beschaffung (Fachstelle für ökologische öffentliche Beschaffung).</p></content></paragraph><paragraph eId="art_38/para_2"><num>2</num><content><blockList><listIntroduction eId="art_38/para_2/listintro" xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Diese hat insbesondere folgende Aufgaben:</listIntroduction><item eId="art_38/para_2/lbl_a"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">a. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Sie erarbeitet Hilfsmittel für ökologische Beschaffungen und informiert über neue umwelt- und ressourcenschonende Technologien.</p></item><item eId="art_38/para_2/lbl_b"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">b. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Sie berät auf Anfrage die Beschaffungs- und Bedarfsstellen bei der Integration ökologischer Aspekte bei öffentlichen Beschaffungen.</p></item><item eId="art_38/para_2/lbl_c"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">c. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Sie wirkt beim Schulungsangebot des KBB mit.</p></item><item eId="art_38/para_2/lbl_d"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">d. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Sie fördert den Informations- und Erfahrungsaustausch zum Thema ökologische Beschaffung im In- und Ausland.</p></item></blockList></content></paragraph><paragraph eId="art_38/para_3"><num>3</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Sie harmonisiert so weit als möglich ihre Instrumente mit denjenigen anderer Bundesstellen, der Kantone und der Gemeinden.</p></content></paragraph></article><article eId="art_39"><num><b>Art. 39</b></num><heading>Unterstützungsleistungen bei Fragen zu Arbeitsbedingungen</heading><paragraph eId="art_39/para_1"><num>1</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Die Direktion für Arbeit des SECO gibt den Beschaffungs- und Bedarfsstellen auf Anfrage Auskunft über die Arbeitsbedingungen und Arbeitsschutzbestimmungen, die bei Leistungen gelten, die in der Schweiz erbracht werden.</p></content></paragraph><paragraph eId="art_39/para_2"><num>2</num><content><blockList><listIntroduction eId="art_39/para_2/listintro" xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Sie fördert die sozial verantwortliche öffentliche Beschaffung von Leistungen, die im Ausland erbracht werden, indem sie folgende Aufgaben wahrnehmen kann:</listIntroduction><item eId="art_39/para_2/lbl_a"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">a. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Sie berät die Beschaffungs- und Bedarfsstellen auf Anfrage bei Fragen zur Beachtung der Kernübereinkommen der Internationalen Arbeitsorganisation im Sinne von Artikel 12 Absatz 2 BöB.</p></item><item eId="art_39/para_2/lbl_b"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">b. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Sie kann Empfehlungen zu den sozialen Kriterien abgeben, die auf die zu beschaffenden Leistungen Anwendung finden können, und entsprechende Hilfsmittel zur Verfügung stellen.</p></item><item eId="art_39/para_2/lbl_c"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">c. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Sie berät auf Anfrage hin die Beschaffungs- und Bedarfsstellen bei der Umsetzung der sozialen Kriterien.</p></item><item eId="art_39/para_2/lbl_d"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">d. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Sie kann beim Ausbildungsangebot des KBB mitwirken.</p></item><item eId="art_39/para_2/lbl_e"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">e. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Sie kann den Informations- und Erfahrungsaustausch zum Thema sozial verantwortungsvolle Beschaffungen fördern.</p></item></blockList></content></paragraph><paragraph eId="art_39/para_3"><num>3</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Sie harmonisiert so weit als möglich ihre Empfehlungen und Hilfsmittel mit denjenigen anderer Bundesstellen, der Kantone und Gemeinden.</p></content></paragraph></article><article eId="art_40"><num><b>Art. 40</b></num><heading>Unterstützungsleistungen bei Fragen zur Gleichstellung von Frau und Mann</heading><paragraph eId="art_40/para_1"><num>1</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Das Eidgenössische Büro für die Gleichstellung von Frau und Mann berät auf Anfrage die Beschaffungs- und Bedarfsstellen bei Fragen zur Lohngleichheit zwischen Frau und Mann.</p></content></paragraph><paragraph eId="art_40/para_2"><num>2</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Es stellt Hilfsmittel zur Sicherstellung der Lohngleichheit bei Beschaffungen zur Verfügung.</p></content></paragraph><paragraph eId="art_40/para_3"><num>3</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Es kann im Rahmen des Ausbildungsangebots des KBB mitwirken.</p></content></paragraph><paragraph eId="art_40/para_4"><num>4</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Es fördert die Harmonisierung der Kontrollmechanismen zwischen dem Bund, den Kantonen und den Gemeinden.</p></content></paragraph></article></chapter><chapter eId="chap_7"><num>7. Kapitel: </num><heading>Schlussbestimmungen</heading><article eId="art_41"><num><b>Art. 41</b></num><heading>Vollzug</heading><paragraph eId="art_41/para_1"><num>1</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Die Verwaltungseinheiten der Bundesverwaltung vollziehen diese Verordnung.</p></content></paragraph><paragraph eId="art_41/para_2"><num>2</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Das EFD erlässt auf Antrag des Vorstands der BKB Weisungen für sämtliche Beschaffungs- und Bedarfsstellen. Zum Schutz der finanziellen Interessen des Bundes erlässt es auf Antrag des Vorstands der BKB zudem Weisungen zu Beschaffungen ausserhalb des Wettbewerbs, namentlich bei Monopolsituationen. </p></content></paragraph><paragraph eId="art_41/para_3"><num>3</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Das BBL kann Weisungen über die Beschaffungsprozesse, die Delegationen, das Beschaffungscontrolling sowie den dazu gehörigen Einsatz digitaler Instrumente erlassen. Es hört dazu vorgängig die Departemente und die Bundeskanzlei an. Die Weisungen bedürfen der Zustimmung des Vorstands der BKB.</p></content></paragraph></article><article eId="art_42"><num><b>Art. 42</b></num><heading>Aufsicht</heading><paragraph eId="art_42/para"><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Die Departemente und die Bundeskanzlei beaufsichtigen den Vollzug dieser Verordnung in ihrem Zuständigkeitsbereich; sie arbeiten zu diesem Zweck mit den zentralen Beschaffungsstellen sowie den Koordinationsstellen zusammen.</p></content></paragraph></article><article eId="art_43"><num><b>Art.</b><b> </b><b>43</b></num><heading>Verfahren bei Differenzen</heading><paragraph eId="art_43/para_1"><num>1</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Meinungsverschiedenheiten im Anwendungsbereich dieser Verordnung sind nach Möglichkeit in gegenseitigem Einvernehmen auszuräumen.</p></content></paragraph><paragraph eId="art_43/para_2"><num>2</num><content><blockList><listIntroduction eId="art_43/para_2/listintro" xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Kommt keine einvernehmliche Lösung zustande, so entscheiden bei folgenden Differenzen die nachstehenden Stellen:</listIntroduction><item eId="art_43/para_2/lbl_a"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">a. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">bei Differenzen dazu, ob Waren und Dienstleistungen durch eine zentrale Beschaffungsstelle zu beschaffen sind: der Vorstand der BKB oder, mangels Einstimmigkeit, die BKB;</p></item><item eId="art_43/para_2/lbl_b"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">b. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">bei Differenzen über die Erteilung von unterschwelligen Delegationen oder von Projektdelegationen: der Vorstand der BKB oder, mangels Einstimmigkeit, die BKB;</p></item><item eId="art_43/para_2/lbl_c"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">c. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">bei Differenzen über die Erteilung von Sonderdelegationen: das EFD;</p></item><item eId="art_43/para_2/lbl_d"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">d. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">bei Differenzen im Beschaffungscontrolling: die GSK;</p></item><item eId="art_43/para_2/lbl_e"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">e. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">bei anderen Differenzen: das EFD nach Konsultation der BKB.</p></item></blockList></content></paragraph></article><article eId="art_44"><num><b>Art. 44</b></num><heading>Aufhebung und Änderung anderer Erlasse</heading><paragraph eId="art_44/para_1"><num>1</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Die Verordnung vom 24. Oktober 2012<authorialNote>
+		<p> [<ref href="https://fedlex.data.admin.ch/eli/oc/2012/695" xmlns:data="urn:com:c-moria:legi4ch:xslt:data" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">AS <b>2012</b> 5935</ref>; <ref href="https://fedlex.data.admin.ch/eli/oc/2015/80" xmlns:data="urn:com:c-moria:legi4ch:xslt:data" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp"><b>2015</b> 549</ref>, <ref href="https://fedlex.data.admin.ch/eli/oc/2015/796" xmlns:data="urn:com:c-moria:legi4ch:xslt:data" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">4873</ref>; <ref href="https://fedlex.data.admin.ch/eli/oc/2018/352" xmlns:data="urn:com:c-moria:legi4ch:xslt:data" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp"><b>2018</b> 2429</ref>; <ref href="https://fedlex.data.admin.ch/eli/oc/2020/127" xmlns:data="urn:com:c-moria:legi4ch:xslt:data" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp"><b>2020</b> 691 </ref>Art. 31 Abs. 2 Ziff. 2,  <ref href="https://fedlex.data.admin.ch/eli/oc/2020/988" xmlns:data="urn:com:c-moria:legi4ch:xslt:data" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">5871 </ref>Anhang Ziff. 9]</p>
+	</authorialNote> über die Organisation des öffentlichen Beschaffungswesens der Bundesverwaltung wird aufgehoben.</p></content></paragraph><paragraph eId="art_44/para_2"><num>2</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Die nachstehenden Erlasse werden wie folgt geändert:</p><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">…<authorialNote>
+		<p> Die Änderungen können unter <ref href="https://fedlex.data.admin.ch/eli/oc/2024/224" xmlns:data="urn:com:c-moria:legi4ch:xslt:data" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">AS <b>2024</b> 224 </ref>konsultiert werden.</p>
+	</authorialNote></p></content></paragraph></article><article eId="art_45"><num><b>Art.</b><b> </b><b>45</b></num><heading>Inkrafttreten</heading><paragraph eId="art_45/para"><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Diese Verordnung tritt am 1. Juli 2024 in Kraft.</p></content></paragraph></article></chapter></body><components><component><doc name="annex"><meta><identification source="#ch.bk"><FRBRWork><FRBRthis value="https://fedlex.data.admin.ch/eli/cc/2024/224/20250501/main-text"/><FRBRuri value="https://fedlex.data.admin.ch/eli/cc/2024/224/20250501"/><FRBRdate date="2025-05-01" name="jolux:dateApplicability"/><FRBRdate date="2024-05-01" name="jolux:dateDocument"/><FRBRdate date="2024-07-01" name="jolux:dateEntryInForce"/><FRBRauthor href="#ch.bk" as="#publisher"/><FRBRauthor href="#ch.bk" as="#rightsHolder"/><FRBRcountry value="CH"/><FRBRnumber value=""/><FRBRname xml:lang="it" value="Ordinanza del 1° maggio 2024 concernente l’organizzazione degli appalti pubblici dell’Amministrazione federale (OOAPub)" shortForm="OOAPub"/><FRBRname xml:lang="de" value="Verordnung vom 1. Mai 2024 über die Organisation des öffentlichen Beschaffungswesens der Bundesverwaltung (Org-VöB)" shortForm="Org-VöB"/><FRBRname xml:lang="fr" value="Ordonnance du 1er mai 2024 sur l’organisation des marchés publics de l’administration fédérale (Org-OMP)" shortForm="Org-OMP"/><FRBRauthoritative value="true"/></FRBRWork><FRBRExpression><FRBRthis value="https://fedlex.data.admin.ch/eli/cc/2024/224/20250501/de/main-text"/><FRBRuri value="https://fedlex.data.admin.ch/eli/cc/2024/224/20250501/de"/><FRBRdate date="2025-05-01" name="jolux:dateApplicability"/><FRBRdate date="2024-05-01" name="jolux:dateDocument"/><FRBRdate date="2024-07-01" name="jolux:dateEntryInForce"/><FRBRauthor href="#ch.bk" as="#publisher"/><FRBRauthor href="#ch.bk" as="#rightsHolder"/><FRBRlanguage language="de"/></FRBRExpression><FRBRManifestation><FRBRthis value="https://fedlex.data.admin.ch/eli/cc/2024/224/20250501/de/xml/main-text"/><FRBRuri value="https://fedlex.data.admin.ch/eli/cc/2024/224/20250501/de/xml"/><FRBRdate date="2025-05-01" name="jolux:dateApplicability"/><FRBRdate date="2024-05-01" name="jolux:dateDocument"/><FRBRdate date="2024-07-01" name="jolux:dateEntryInForce"/><FRBRauthor href="#ch.bk" as="#publisher"/><FRBRauthor href="#ch.bk" as="#rightsHolder"/><FRBRformat value="xml"/></FRBRManifestation></identification></meta><preface><container name="headerOfAnnex"><block name="num">Anhang 1</block></container></preface><mainBody><p>(Art. 4 Abs. 3)</p><level eId="annex_1/lvl_u1"><heading>Harmonisierte Beschaffungsprozesse</heading><content><table border="1">
+			
+			
+			<tr>
+				
+				
+				<th xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">
+					
+					<p>Offenes Verfahren</p>
+				</th>
+				<th xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">
+					
+					<p>Selektives Verfahren</p>
+				</th>
+				<th xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">
+					
+					<p>Einladungsverfahren</p>
+				</th>
+				<th xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">
+					
+					<p>Freihändiges Verfahren</p>
+				</th>
+			</tr>
+			<tr>
+				
+				
+				<td colspan="4">
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Einleitung des Beschaffungsprozesses (Art. 4 Abs. 2 Bst. a)</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Bedarfsanalyse durchführen</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Bedarfsanalyse durchführen</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Bedarfsanalyse durchführen</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Bedarfsanalyse durchführen</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td colspan="4">
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Wahl der Verfahrensart und Durchführung des Vergabeverfahrens (Art. 4 Abs. 2 Bst. b)</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Ausschreibungsunterlagen erstellen</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Ausschreibungsunterlagen erstellen</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Pflichtenheft erstellen</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Pflichtenheft erstellen</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Auftrag öffentlich ausschreiben</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Auftrag öffentlich ausschreiben</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Angebote einholen</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Angebot einholen</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Frage-Antwort-Runde(n) durchführen</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Frage-Antwort-Runde(n) durchführen</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Evtl. Frage-Antwort-Runde(n) durchführen</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Offene Fragen klären</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Präqualifikation, zur Angebotsabgabe einladen</p>
+				</td>
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Evtl. Frage-Antwort-Runde(n) durchführen</p>
+				</td>
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Angebote formell prüfen</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Angebote formell prüfen</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Angebote formell prüfen</p>
+				</td>
+				<td>
+					
+					
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Angebote evaluieren</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Angebote evaluieren</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Angebote evaluieren</p>
+				</td>
+				<td>
+					
+					
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Evaluationsbericht verfassen</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Evaluationsbericht verfassen</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Evaluationsbericht verfassen</p>
+				</td>
+				<td>
+					
+					
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td colspan="4">
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Zuschlagserteilung (Art. 4 Abs. 2 Bst. c)</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Zuschlag öffentlich bekanntmachen</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Zuschlag öffentlich bekanntmachen</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Zuschlag öffentlich bekanntmachen<authorialNote>
+		<p> Bei Beschaffungen ab dem für das offene oder selektive Verfahren massgebenden Schwellenwert; gilt nicht für Zuschläge nach Art. 20 Abs. 3 BöB.</p>
+	</authorialNote></p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Zuschlag öffentlich bekanntmachen<authorialNote>
+		<p> Bei Beschaffungen ab dem für das offene oder selektive Verfahren massgebenden Schwellenwert; gilt nicht für Zuschläge nach Anhang 5 Ziff. 1 Bst. c und d BöB.</p>
+	</authorialNote></p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td colspan="4">
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Vertragsabschluss (Art. 4 Abs. 2 Bst. d)</p>
+				</td>
+			</tr>
+		</table></content></level></mainBody></doc></component><component><doc name="annex"><meta><identification source="#ch.bk"><FRBRWork><FRBRthis value="https://fedlex.data.admin.ch/eli/cc/2024/224/20250501/main-text"/><FRBRuri value="https://fedlex.data.admin.ch/eli/cc/2024/224/20250501"/><FRBRdate date="2025-05-01" name="jolux:dateApplicability"/><FRBRdate date="2024-05-01" name="jolux:dateDocument"/><FRBRdate date="2024-07-01" name="jolux:dateEntryInForce"/><FRBRauthor href="#ch.bk" as="#publisher"/><FRBRauthor href="#ch.bk" as="#rightsHolder"/><FRBRcountry value="CH"/><FRBRnumber value=""/><FRBRname xml:lang="it" value="Ordinanza del 1° maggio 2024 concernente l’organizzazione degli appalti pubblici dell’Amministrazione federale (OOAPub)" shortForm="OOAPub"/><FRBRname xml:lang="de" value="Verordnung vom 1. Mai 2024 über die Organisation des öffentlichen Beschaffungswesens der Bundesverwaltung (Org-VöB)" shortForm="Org-VöB"/><FRBRname xml:lang="fr" value="Ordonnance du 1er mai 2024 sur l’organisation des marchés publics de l’administration fédérale (Org-OMP)" shortForm="Org-OMP"/><FRBRauthoritative value="true"/></FRBRWork><FRBRExpression><FRBRthis value="https://fedlex.data.admin.ch/eli/cc/2024/224/20250501/de/main-text"/><FRBRuri value="https://fedlex.data.admin.ch/eli/cc/2024/224/20250501/de"/><FRBRdate date="2025-05-01" name="jolux:dateApplicability"/><FRBRdate date="2024-05-01" name="jolux:dateDocument"/><FRBRdate date="2024-07-01" name="jolux:dateEntryInForce"/><FRBRauthor href="#ch.bk" as="#publisher"/><FRBRauthor href="#ch.bk" as="#rightsHolder"/><FRBRlanguage language="de"/></FRBRExpression><FRBRManifestation><FRBRthis value="https://fedlex.data.admin.ch/eli/cc/2024/224/20250501/de/xml/main-text"/><FRBRuri value="https://fedlex.data.admin.ch/eli/cc/2024/224/20250501/de/xml"/><FRBRdate date="2025-05-01" name="jolux:dateApplicability"/><FRBRdate date="2024-05-01" name="jolux:dateDocument"/><FRBRdate date="2024-07-01" name="jolux:dateEntryInForce"/><FRBRauthor href="#ch.bk" as="#publisher"/><FRBRauthor href="#ch.bk" as="#rightsHolder"/><FRBRformat value="xml"/></FRBRManifestation></identification></meta><preface><container name="headerOfAnnex"><block name="num">Anhang 2</block></container></preface><mainBody><p>(Art. 5 Abs. 2)</p><level eId="annex_2/lvl_u1"><heading>Zuständigkeit der zentralen Beschaffungsstellen für die Beschaffung von Waren und Dienstleistungen</heading><content><table border="1">
+			
+			
+			<tr>
+				
+				
+				<th xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">
+					
+					
+				</th>
+				<th xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">
+					
+					<p>Bundesamt für Rüstung</p>
+				</th>
+				<th xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">
+					
+					<p>Bundesamt für Bauten und Logistik</p>
+				</th>
+				<th xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">
+					
+					<p>Bundesreisezentrale</p>
+				</th>
+				<th xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">
+					
+					<p>Bundesamt für Strassen</p>
+				</th>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Nahrungsmittel und Getränke</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">x</p>
+				</td>
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Textilien und Bekleidung</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">x</p>
+				</td>
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Elektrizität, feste, flüssige und gasförmige Energieträger</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">x</p>
+				</td>
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Rüstungsgüter, Waffen, Kriegsmaterial und sonstige Waren, Dienstleistungen, Forschungs- und Entwicklungsleistungen, die für Verteidigungs- und Sicherheitszwecke unerlässlich sind</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">x</p>
+				</td>
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Laborbedarf ohne medizinische Zweckbestimmung</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">x</p>
+				</td>
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Transportdienstleistungen unter Vorbehalt der Zuständigkeit der Bundesreisezentrale</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">x</p>
+				</td>
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Kraftfahrzeuge, Fahrzeugteile, Transportmittel</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">x</p>
+				</td>
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Waren und Dienstleistungen im Zusammenhang mit Sport und Erholung</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">x</p>
+				</td>
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Publikationen, Drucksachen, elektronische Medien und Informationsträger, inkl. Sicherheitsdokumente und Ausweisschriften</p>
+				</td>
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">x</p>
+				</td>
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Agenturleistungen</p>
+				</td>
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">x</p>
+				</td>
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Bürotechnik und Printgeräte</p>
+				</td>
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">x</p>
+				</td>
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Büro- und Raumausstattung zivile Verwaltung</p>
+				</td>
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">x</p>
+				</td>
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Büromaterial</p>
+				</td>
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">x</p>
+				</td>
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Post- und Kurierdienstleistungen zu nichtdiplomatischen Zwecken</p>
+				</td>
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">x</p>
+				</td>
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Waren und Dienstleistungen sowie Personalverleih im Bereich der IKT, soweit im Folgenden nicht anders geregelt ist</p>
+				</td>
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">x</p>
+				</td>
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Waren, Dienstleistungen und Personalverleih im Bereich der IKT, die für Verteidigungs- und Sicherheitszwecke unerlässlich sind oder die im Zusammenhang mit der Beschaffung von Waffen, Munition, Kriegsmaterial stehen</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">x</p>
+				</td>
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Waren und Dienstleistungen, deren primärer Verwendungszweck die Verschlüsselung von Zeichen und Daten (Kryptografie) oder die Entschlüsselung ohne Kenntnis des Schlüssels (Kryptoanalyse) ist</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">x</p>
+				</td>
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Waren und Dienstleistungen, einschliesslich IKT, für Bestandteile der Nationalstrassen gemäss der Nationalstrassenverordnung vom 7. November 2007<authorialNote>
+		<p> <ref href="https://fedlex.data.admin.ch/eli/cc/2007/796" xmlns:data="urn:com:c-moria:legi4ch:xslt:data" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">SR <b>725.111</b></ref></p>
+	</authorialNote></p>
+				</td>
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">x</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Flugreisedienstleistungen, Einkäufe von Hotelleistungen, Hotelbuchungen und Hotelvermittlungen sowie Einkauf, Organisation, Buchung und Vermittlung von Mietwagenleistungen und Limousinenservices im Zusammenhang mit Geschäftsreisen des Bundes</p>
+				</td>
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">x</p>
+				</td>
+				<td>
+					
+					
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td colspan="5">
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Die Zuständigkeit für die Beschaffung von Waren schliesst jeweils die Beschaffung von Betriebs-, Wartungs- und Reparaturleistungen mit ein.</p>
+				</td>
+			</tr>
+		</table></content></level></mainBody></doc></component><component><doc name="annex"><meta><identification source="#ch.bk"><FRBRWork><FRBRthis value="https://fedlex.data.admin.ch/eli/cc/2024/224/20250501/main-text"/><FRBRuri value="https://fedlex.data.admin.ch/eli/cc/2024/224/20250501"/><FRBRdate date="2025-05-01" name="jolux:dateApplicability"/><FRBRdate date="2024-05-01" name="jolux:dateDocument"/><FRBRdate date="2024-07-01" name="jolux:dateEntryInForce"/><FRBRauthor href="#ch.bk" as="#publisher"/><FRBRauthor href="#ch.bk" as="#rightsHolder"/><FRBRcountry value="CH"/><FRBRnumber value=""/><FRBRname xml:lang="it" value="Ordinanza del 1° maggio 2024 concernente l’organizzazione degli appalti pubblici dell’Amministrazione federale (OOAPub)" shortForm="OOAPub"/><FRBRname xml:lang="de" value="Verordnung vom 1. Mai 2024 über die Organisation des öffentlichen Beschaffungswesens der Bundesverwaltung (Org-VöB)" shortForm="Org-VöB"/><FRBRname xml:lang="fr" value="Ordonnance du 1er mai 2024 sur l’organisation des marchés publics de l’administration fédérale (Org-OMP)" shortForm="Org-OMP"/><FRBRauthoritative value="true"/></FRBRWork><FRBRExpression><FRBRthis value="https://fedlex.data.admin.ch/eli/cc/2024/224/20250501/de/main-text"/><FRBRuri value="https://fedlex.data.admin.ch/eli/cc/2024/224/20250501/de"/><FRBRdate date="2025-05-01" name="jolux:dateApplicability"/><FRBRdate date="2024-05-01" name="jolux:dateDocument"/><FRBRdate date="2024-07-01" name="jolux:dateEntryInForce"/><FRBRauthor href="#ch.bk" as="#publisher"/><FRBRauthor href="#ch.bk" as="#rightsHolder"/><FRBRlanguage language="de"/></FRBRExpression><FRBRManifestation><FRBRthis value="https://fedlex.data.admin.ch/eli/cc/2024/224/20250501/de/xml/main-text"/><FRBRuri value="https://fedlex.data.admin.ch/eli/cc/2024/224/20250501/de/xml"/><FRBRdate date="2025-05-01" name="jolux:dateApplicability"/><FRBRdate date="2024-05-01" name="jolux:dateDocument"/><FRBRdate date="2024-07-01" name="jolux:dateEntryInForce"/><FRBRauthor href="#ch.bk" as="#publisher"/><FRBRauthor href="#ch.bk" as="#rightsHolder"/><FRBRformat value="xml"/></FRBRManifestation></identification></meta><preface><container name="headerOfAnnex"><block name="num">Anhang 3</block></container></preface><mainBody><p>(Art. 18 Abs. 1 und 20 Abs. 4)</p><level eId="annex_3/lvl_u1"><heading>Voraussetzungen und Verantwortlichkeiten bei der Delegation von Beschaffungskompetenzen</heading><level eId="annex_3/lvl_u1/lvl_A"><num>A. </num><heading>Erforderliche Erfahrung und Ausbildung der Projektbeteiligten</heading><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">1. Erfahrung</p><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Als Nachweis der Erfahrung gilt der Nachweis der ordnungs- und rechtskonformen Durchführung von mehreren WTO-Ausschreibungen in den letzten 5 Jahren durch mindestens eine der am Projekt beteiligten Personen.</p><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">2. Ausbildung</p><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Als Nachweis der Ausbildung gilt die Eidgenössische Berufsprüfung «Spezialist/in öffentliche Beschaffung», der Besuch der Ausbildungsmodule 1–5 des Vorbereitungslehrgangs für die eidgenössische Berufsprüfung, ein Certificate of Advanced Studies im Fach Öffentliche Beschaffungen oder eine gleichwertige Ausbildung durch mindestens eine der am Projekt beteiligten Personen.</p></content></level><level eId="annex_3/lvl_u1/lvl_B"><num>B. </num><heading>Verantwortlichkeiten bei Delegationen</heading><content><blockList><listIntroduction eId="annex_3/lvl_u1/lvl_B/listintro" xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Legende:</listIntroduction><item eId="annex_3/lvl_u1/lvl_B/lbl_E"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">E </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Entscheid</p></item><item eId="annex_3/lvl_u1/lvl_B/lbl_V"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">V </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Verantwortung</p></item><item eId="annex_3/lvl_u1/lvl_B/lbl_D"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">D </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Durchführung</p></item></blockList><table border="1">
+			
+			
+			<tr>
+				
+				
+				<th xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">
+					
+					<p>Aktivität</p>
+				</th>
+				<th xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">
+					
+					<p>Zentrale Beschaffungsstelle</p>
+				</th>
+				<th xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">
+					
+					<p>Bedarfsstelle</p>
+				</th>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Erfüllung der Voraussetzungen</p>
+				</td>
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">V</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Antrag auf Delegation erstellen</p>
+				</td>
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">D; V</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Prüfung und Genehmigung des Antrags, Erstellung der Vereinbarung mit Bedingungen und Auflagen</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">E<br/>Bei Sonderdelegationen: BKB</p>
+				</td>
+				<td>
+					
+					
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Führung des Verzeichnisses über Delegationen</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">D<br/>Bei Sonderdelegationen: BKB</p>
+				</td>
+				<td>
+					
+					
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Durchführung des Beschaffungsprojekts gemäss definiertem Prozess sowie Sicherstellung der Rechtmässigkeit der Beschaffung</p>
+				</td>
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">V, E, D</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Meldung von Änderungen</p>
+				</td>
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">V</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Vertragserstellung und Abschluss des Vertrags</p>
+				</td>
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">V, E, D</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Abwicklung des Vertrags und allfällige Regelung über Abrufkompetenzen</p>
+				</td>
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">V, E, D</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Nachfolgebeschaffung bei gleichem Bedarf</p>
+				</td>
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">V, E, D</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Periodische Rapportierung</p>
+				</td>
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">V, D</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Rechtsstreit der Beschaffungsstelle mit Dritten </p>
+				</td>
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">V, D</p>
+				</td>
+			</tr>
+		</table></content></level></level></mainBody></doc></component><component><doc name="annex"><meta><identification source="#ch.bk"><FRBRWork><FRBRthis value="https://fedlex.data.admin.ch/eli/cc/2024/224/20250501/main-text"/><FRBRuri value="https://fedlex.data.admin.ch/eli/cc/2024/224/20250501"/><FRBRdate date="2025-05-01" name="jolux:dateApplicability"/><FRBRdate date="2024-05-01" name="jolux:dateDocument"/><FRBRdate date="2024-07-01" name="jolux:dateEntryInForce"/><FRBRauthor href="#ch.bk" as="#publisher"/><FRBRauthor href="#ch.bk" as="#rightsHolder"/><FRBRcountry value="CH"/><FRBRnumber value=""/><FRBRname xml:lang="it" value="Ordinanza del 1° maggio 2024 concernente l’organizzazione degli appalti pubblici dell’Amministrazione federale (OOAPub)" shortForm="OOAPub"/><FRBRname xml:lang="de" value="Verordnung vom 1. Mai 2024 über die Organisation des öffentlichen Beschaffungswesens der Bundesverwaltung (Org-VöB)" shortForm="Org-VöB"/><FRBRname xml:lang="fr" value="Ordonnance du 1er mai 2024 sur l’organisation des marchés publics de l’administration fédérale (Org-OMP)" shortForm="Org-OMP"/><FRBRauthoritative value="true"/></FRBRWork><FRBRExpression><FRBRthis value="https://fedlex.data.admin.ch/eli/cc/2024/224/20250501/de/main-text"/><FRBRuri value="https://fedlex.data.admin.ch/eli/cc/2024/224/20250501/de"/><FRBRdate date="2025-05-01" name="jolux:dateApplicability"/><FRBRdate date="2024-05-01" name="jolux:dateDocument"/><FRBRdate date="2024-07-01" name="jolux:dateEntryInForce"/><FRBRauthor href="#ch.bk" as="#publisher"/><FRBRauthor href="#ch.bk" as="#rightsHolder"/><FRBRlanguage language="de"/></FRBRExpression><FRBRManifestation><FRBRthis value="https://fedlex.data.admin.ch/eli/cc/2024/224/20250501/de/xml/main-text"/><FRBRuri value="https://fedlex.data.admin.ch/eli/cc/2024/224/20250501/de/xml"/><FRBRdate date="2025-05-01" name="jolux:dateApplicability"/><FRBRdate date="2024-05-01" name="jolux:dateDocument"/><FRBRdate date="2024-07-01" name="jolux:dateEntryInForce"/><FRBRauthor href="#ch.bk" as="#publisher"/><FRBRauthor href="#ch.bk" as="#rightsHolder"/><FRBRformat value="xml"/></FRBRManifestation></identification></meta><preface><container name="headerOfAnnex"><block name="num">Anhang 4</block></container></preface><mainBody><p>(Art. 27 Abs. 3 und 29 Abs. 6)</p><level eId="annex_4/lvl_u1"><heading>Zuständigkeiten und Verantwortlichkeiten im Beschaffungscontrolling</heading><level eId="annex_4/lvl_u1/lvl_A"><num>A. </num><heading>Von den Bedarfsstellen und den zentralen Beschaffungsstellen zu erfassende Daten</heading><content><table border="1">
+			
+			
+			<tr>
+				
+				
+				<th xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">
+					
+					<p>Daten</p>
+				</th>
+				<th xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">
+					
+					<p>Vergabe über dem WTO-Schwellenwert</p>
+				</th>
+				<th xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">
+					
+					<p>Vertrag</p>
+				</th>
+			</tr>
+			<tr>
+				
+				
+				<td><blockList><item><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">1. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Anwendungsbereich (Beschaffung: ja/nein)</p></item></blockList></td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">x</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">x</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td><blockList><item><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">2. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Angewendetes Vergabeverfahren (mit genauer Angabe der Rechtsgrundlagen gemäss BöB)</p></item></blockList></td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">x</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">x</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td><blockList><item><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">3. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Standardisierte Beschaffungskategorie</p></item></blockList></td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">x</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">x</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td><blockList><item><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">4. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Angabe, ob</p><blockList><item><num>– </num><p>Zuständigkeit der zentralen Beschaffungsstelle gemäss Anhang 2 oder</p></item><item><num>– </num><p>Zuständigkeit der Bedarfsstelle (dezentral) gemäss Anhang 2 oder</p></item><item><num>– </num><p>Delegation durch zentrale Beschaffungsstelle an Bedarfsstelle</p></item></blockList></item></blockList></td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">x</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">x</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td><blockList><item><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">5. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Zuschlagswert/Vertragswert</p></item></blockList></td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">x</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">x</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td><blockList><item><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">6. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Identifikationsnummer simap.ch</p></item></blockList></td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">x</p>
+				</td>
+				<td>
+					
+					
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td><blockList><item><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">7. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Datum Zuschlag</p></item></blockList></td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">x</p>
+				</td>
+				<td>
+					
+					
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td><blockList><item><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">8. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Zuschlagsempfänger/Vertragspartner</p></item></blockList></td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">x</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">x</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td><blockList><item><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">9. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Vertragsbeginn und Vertragsende</p></item></blockList></td>
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">x</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td><blockList><item><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">10. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Aufnahme des Preisprüfungsrechts</p></item></blockList></td>
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">x</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td><blockList><item><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">11. </num><blockList><listIntroduction eId="annex_4/lvl_u1/lvl_A" xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Allgemein:</listIntroduction><item><num>– </num><p>Bezug zur Vergabe</p></item><item><num>– </num><blockList><listIntroduction eId="annex_4/lvl_u1/lvl_A">Bei Rahmenverträgen zusätzlich:</listIntroduction><item><num/><p>Verknüpfung von Rahmenvertrag und Einzelverträgen</p></item></blockList></item><item><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">– </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Bei Rahmenverträgen mit mehreren bezugsberechtigten Verwaltungseinheiten legt die Beschaffungsstelle fest, wo der Rahmenvertrag und die Einzelverträge erfasst werden. Sie regelt die Berechtigungen für die Abrufe der Verwaltungseinheiten.</p></item></blockList></item></blockList></td>
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">x</p>
+				</td>
+			</tr>
+		</table></content></level><level eId="annex_4/lvl_u1/lvl_B"><num>B. </num><heading>Berichterstattung und Massnahmen</heading><content><blockList><listIntroduction eId="annex_4/lvl_u1/lvl_B/listintro" xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Legende:</listIntroduction><item eId="annex_4/lvl_u1/lvl_B/lbl_V"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">V: </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Verantwortung</p></item><item eId="annex_4/lvl_u1/lvl_B/lbl_M"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">M: </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Mitarbeit</p></item><item eId="annex_4/lvl_u1/lvl_B/lbl_I"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">I: </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">wird informiert</p></item></blockList><table border="1">
+			
+			
+			<tr>
+				
+				
+				<th xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">
+					
+					<p>Aufgabe/Zuständigkeit</p>
+				</th>
+				<th xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">
+					
+					<p>Bundesrat</p>
+				</th>
+				<th xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">
+					
+					<p>GSK</p>
+				</th>
+				<th xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">
+					
+					<p>Departemente</p>
+				</th>
+				<th xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">
+					
+					<p>Arbeitsgruppe</p>
+				</th>
+				<th xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">
+					
+					<p>FSBC</p>
+				</th>
+				<th xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">
+					
+					<p>Zentrale Beschaffungsstellen und Bedarfsstellen</p>
+				</th>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Erfassung der Daten in Instrumenten des Beschaffungscontrollings</p>
+				</td>
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">V</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Konsolidierung der Daten</p>
+				</td>
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">V</p>
+				</td>
+				<td>
+					
+					
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Freigabe der Daten</p>
+				</td>
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">V</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">M</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">M</p>
+				</td>
+				<td>
+					
+					
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Festhalten von Auffälligkeiten und Erstellung des Berichts</p>
+				</td>
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">M</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">M</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">V</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">M</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Empfehlung von Massnahmen</p>
+				</td>
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">I</p>
+				</td>
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">M</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">V</p>
+				</td>
+				<td>
+					
+					
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Vorschlagen von Massnahmen zuhanden des Bundesrates</p>
+				</td>
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">V</p>
+				</td>
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Kenntnisnahme des Berichts und Beschluss allfälliger Massnahmen </p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">V</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">I</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">I</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">I</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">I</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">I</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Umsetzung von Massnahmen</p>
+				</td>
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">V</p>
+				</td>
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					
+				</td>
+			</tr>
+		</table></content></level></level></mainBody></doc></component></components></act></akomaNtoso>

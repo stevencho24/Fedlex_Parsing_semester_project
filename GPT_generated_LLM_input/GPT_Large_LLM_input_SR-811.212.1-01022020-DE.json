@@ -1,0 +1,70 @@
+[
+  {
+    "item_type": "preamble_callback",
+    "acronyms": [
+      {
+        "acronym": "EDI",
+        "sr_link": "SR 811.212",
+        "url": "https://fedlex.data.admin.ch/eli/cc/2020/17"
+      },
+      {
+        "acronym": "GesBKV",
+        "sr_link": "SR 811.212",
+        "url": "https://fedlex.data.admin.ch/eli/cc/2020/17"
+      }
+    ],
+    "description": "Preamble acronyms for reference detection"
+  },
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 811.212",
+    "TARGET_URL": "https://fedlex.data.admin.ch/eli/cc/2020/17",
+    "SNIPPET": "gestützt auf Artikel 10 der Gesundheitsberufekompetenzverordnung vom 13. Dezember 2019 SR 811.212 (GesBKV),",
+    "INSIDE_AUTHORIALNOTE": "SR 811.212",
+    "item_type": "SR_link_detection"
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 811.21",
+    "TARGET_URL": "https://fedlex.data.admin.ch/eli/cc/2020/16",
+    "SNIPPET": "Diese Verordnung legt Standards zur Konkretisierung der Kompetenzen nach dem Gesundheitsberufegesetz vom 30. September 2016 SR 811.21 (GesBG) fest.",
+    "INSIDE_AUTHORIALNOTE": "SR 811.21",
+    "item_type": "SR_link_detection"
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": "SR 811.21",
+    "TARGET_URL": "https://fedlex.data.admin.ch/eli/cc/2020/16",
+    "SNIPPET": "Ein Studiengang, der akkreditiert werden soll, wird daraufhin überprüft, ob er die Voraussetzungen nach Artikel 7 GesBG SR 811.21 erfüllt.",
+    "INSIDE_AUTHORIALNOTE": "SR 811.21",
+    "acronym": "BG",
+    "snippet_acronym": [
+      "Ein Studiengang, der akkreditiert werden soll, wird daraufhin überprüft, ob er die Voraussetzungen nach Artikel 7 GesBG erfüllt.",
+      "Der Studiengang muss dazu insbesondere sicherstellen, dass den Absolventinnen und Absolventen die Kompetenzen nach GesBG sowie die berufsspezifischen Kompetenzen nach der GesBKV vermittelt werden und die jeweils einschlägigen Akkreditierungsstandards nach den Anhängen 1–7 erfüllt sind."
+    ],
+    "item_type": "SR_link_with_local_acronym"
+  },
+  {
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": "SR 811.212",
+    "TARGET_URL": "https://fedlex.data.admin.ch/eli/cc/2020/17",
+    "SNIPPET": "Der Studiengang muss dazu insbesondere sicherstellen, dass den Absolventinnen und Absolventen die Kompetenzen nach GesBG sowie die berufsspezifischen Kompetenzen nach der GesBKV vermittelt werden und die jeweils einschlägigen Akkreditierungsstandards nach den Anhängen 1–7 erfüllt sind.",
+    "INSIDE_AUTHORIALNOTE": "SR 811.212",
+    "preamble_acronym_name": "GesBKV",
+    "item_type": "preamble_acronym",
+    "ITEM": 4
+  },
+  {
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": "SR 811.212",
+    "TARGET_URL": "https://fedlex.data.admin.ch/eli/cc/2020/17",
+    "SNIPPET": "Die Akkreditierungsstandards konkretisieren insbesondere die berufsspezifischen Kompetenzen der GesBKV.",
+    "INSIDE_AUTHORIALNOTE": "SR 811.212",
+    "preamble_acronym_name": "GesBKV",
+    "item_type": "preamble_acronym",
+    "ITEM": 5
+  }
+]

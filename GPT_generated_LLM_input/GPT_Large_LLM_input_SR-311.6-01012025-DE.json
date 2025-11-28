@@ -1,0 +1,53 @@
+[
+  {
+    "item_type": "preamble_callback",
+    "acronyms": [
+      {
+        "acronym": "BV",
+        "sr_link": "SR 101",
+        "url": "https://fedlex.data.admin.ch/eli/cc/1999/404"
+      }
+    ],
+    "description": "Preamble acronyms for reference detection"
+  },
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 101",
+    "TARGET_URL": "https://fedlex.data.admin.ch/eli/cc/1999/404",
+    "SNIPPET": "gestützt auf Artikel 123 Absatz 1 der Bundesverfassung (BV) SR 101, nach Einsicht in die Botschaft des Bundesrates vom 12. Oktober 2022,",
+    "INSIDE_AUTHORIALNOTE": "SR 101",
+    "item_type": "SR_link_detection"
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 192.12",
+    "TARGET_URL": "https://fedlex.data.admin.ch/eli/cc/2007/860",
+    "SNIPPET": "in Räumlichkeiten, die dem diplomatischen und konsularischen Verkehr dienen oder von institutionellen Begünstigten nach Artikel 2 Absatz 1 des Gaststaatgesetzes vom 22. Juni 2007 SR 192.12 für dienstliche Zwecke benutzt werden.",
+    "INSIDE_AUTHORIALNOTE": "SR 192.12",
+    "item_type": "SR_link_detection"
+  },
+  {
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 101",
+    "TARGET_URL": "https://fedlex.data.admin.ch/eli/cc/1999/404",
+    "SNIPPET": "Dieses Gesetz regelt die Umsetzung des Verbots der Verhüllung des eigenen Gesichts (Art. 10a BV).",
+    "INSIDE_AUTHORIALNOTE": "SR 101",
+    "preamble_acronym_name": "BV",
+    "item_type": "preamble_acronym",
+    "ITEM": 3
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_1",
+    "SNIPPET": "b. in Räumlichkeiten, die dem diplomatischen und konsularischen Verkehr dienen oder von institutionellen Begünstigten nach Artikel 2 Absatz 1 des Gaststaatgesetzes vom 22. Juni 2007 für dienstliche Zwecke benutzt werden.",
+    "item_type": "artikel_reference"
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_3",
+    "SNIPPET": "Wer gegen das Verbot nach Artikel 2 verstösst, wird mit Busse bis zu 1000 Franken bestraft.",
+    "item_type": "artikel_reference"
+  }
+]

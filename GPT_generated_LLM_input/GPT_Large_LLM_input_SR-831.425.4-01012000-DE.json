@@ -1,0 +1,55 @@
+[
+  {
+    "item_type": "preamble_callback",
+    "acronyms": [
+      {
+        "acronym": "EDI",
+        "sr_link": "SR 831.42",
+        "url": "https://fedlex.data.admin.ch/eli/cc/1994/2386_2386_2386"
+      },
+      {
+        "acronym": "FZG",
+        "sr_link": "SR 831.42",
+        "url": "https://fedlex.data.admin.ch/eli/cc/1994/2386_2386_2386"
+      }
+    ],
+    "description": "Preamble acronyms for reference detection"
+  },
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 831.42",
+    "TARGET_URL": "https://fedlex.data.admin.ch/eli/cc/1994/2386_2386_2386",
+    "SNIPPET": "gestützt auf Artikel 22b Absatz 1 des Freizügigkeitsgesetzes vom 17. Dezember 1993 SR 831.42 (FZG),",
+    "INSIDE_AUTHORIALNOTE": "SR 831.42",
+    "item_type": "SR_link_detection"
+  },
+  {
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 831.42",
+    "TARGET_URL": "https://fedlex.data.admin.ch/eli/cc/1994/2386_2386_2386",
+    "SNIPPET": "Für die Berechnung der Austrittsleistung im Zeitpunkt der Eheschliessung nach Artikel 22b FZG gilt die Tabelle im Anhang. ... Die Tabelle gibt in Prozenten den Anteil am errechneten Betrag nach Artikel 22b Absatz 2 FZG an, der als Austrittsleistung im Zeitpunkt der Eheschliessung gilt. ... die Beitragsdauer zwischen der Erbringung der Eintrittsleistung nach Artikel 22b Absatz 2 Buchstabe b FZG und der Austrittsleistung nach Artikel 22b Absatz 2 Buchstabe a FZG;",
+    "INSIDE_AUTHORIALNOTE": "SR 831.42",
+    "preamble_acronym_name": "FZG",
+    "item_type": "preamble_acronym",
+    "ITEM": 2
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_1",
+    "SNIPPET": "Für die Berechnung der Austrittsleistung im Zeitpunkt der Eheschliessung nach Artikel 22b FZG gilt die Tabelle im Anhang.",
+    "item_type": "artikel_reference"
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_1",
+    "SNIPPET": "Die Tabelle gibt in Prozenten den Anteil am errechneten Betrag nach Artikel 22b Absatz 2 FZG an, der als Austrittsleistung im Zeitpunkt der Eheschliessung gilt.",
+    "item_type": "artikel_reference"
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_1",
+    "SNIPPET": "a. die Beitragsdauer zwischen der Erbringung der Eintrittsleistung nach Artikel 22b Absatz 2 Buchstabe b FZG und der Austrittsleistung nach Artikel 22b Absatz 2 Buchstabe a FZG;",
+    "item_type": "artikel_reference"
+  }
+]

@@ -1,0 +1,900 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:fedlex="http://fedlex.admin.ch/"><act name="publicLaw"><meta><identification source="#ch.bk"><FRBRWork><FRBRthis value="https://fedlex.data.admin.ch/eli/cc/2005/449/20250801/main-text"/><FRBRuri value="https://fedlex.data.admin.ch/eli/cc/2005/449/20250801"/><FRBRdate date="2025-08-01" name="jolux:dateApplicability"/><FRBRdate date="2005-06-03" name="jolux:dateDocument"/><FRBRdate date="2005-08-01" name="jolux:dateEntryInForce"/><FRBRauthor href="#ch.bk" as="#publisher"/><FRBRauthor href="#ch.bk" as="#rightsHolder"/><FRBRcountry value="CH"/><FRBRnumber value="814.014"/><FRBRname xml:lang="fr" value="Ordonnance du 3 juin 2005 sur les émoluments de l'Office fédéral de l'environnement (Ordonnance sur les émoluments de l'OFEV, OEmol-OFEV)" shortForm="OEmol-OFEV"/><FRBRname xml:lang="de" value="Verordnung vom 3. Juni 2005 über die Gebühren des Bundesamtes für Umwelt (Gebührenverordnung BAFU, GebV-BAFU)" shortForm="GebV-BAFU"/><FRBRname xml:lang="it" value="Ordinanza del 3 giugno 2005 sugli emolumenti dell'Ufficio federale dell'ambiente (Ordinanza sugli emolumenti dell'UFAM, OE-UFAM)" shortForm="OE-UFAM"/><FRBRauthoritative value="true"/></FRBRWork><FRBRExpression><FRBRthis value="https://fedlex.data.admin.ch/eli/cc/2005/449/20250801/de/main-text"/><FRBRuri value="https://fedlex.data.admin.ch/eli/cc/2005/449/20250801/de"/><FRBRdate date="2025-08-01" name="jolux:dateApplicability"/><FRBRdate date="2005-06-03" name="jolux:dateDocument"/><FRBRdate date="2005-08-01" name="jolux:dateEntryInForce"/><FRBRauthor href="#ch.bk" as="#publisher"/><FRBRauthor href="#ch.bk" as="#rightsHolder"/><FRBRlanguage language="de"/></FRBRExpression><FRBRManifestation><FRBRthis value="https://fedlex.data.admin.ch/eli/cc/2005/449/20250801/de/xml/main-text"/><FRBRuri value="https://fedlex.data.admin.ch/eli/cc/2005/449/20250801/de/xml"/><FRBRdate date="2025-08-01" name="jolux:dateApplicability"/><FRBRdate date="2005-06-03" name="jolux:dateDocument"/><FRBRdate date="2005-08-01" name="jolux:dateEntryInForce"/><FRBRauthor href="#ch.bk" as="#publisher"/><FRBRauthor href="#ch.bk" as="#rightsHolder"/><FRBRformat value="xml" fedlex:generator="2025-q2-rel-1.7.5"/></FRBRManifestation></identification><references source="#ch.bk"><TLCOrganization eId="ch.bk" href="https://fedlex.data.admin.ch/vocabulary/legal-institution/2" showAs="Bundeskanzlei"/><TLCRole eId="publisher" href="http://data.legilux.public.lu/resource/ontology/jolux#publisher" showAs="Editeur"/><TLCRole eId="rightsHolder" href="http://data.legilux.public.lu/resource/ontology/jolux#rightsHolder" showAs="Détenteur des droits"/><TLCReference name="language" href="http://publications.europa.eu/resource/authority/language/DEU" showAs="de"/><TLCReference name="format" href="https://fedlex.data.admin.ch/vocabulary/user-format/xml" showAs="xml"/></references></meta><preface><p><docNumber>814.014 </docNumber></p><p><docTitle>Verordnung<br/>über die Gebühren des Bundesamtes für Umwelt</docTitle></p><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">(Gebührenverordnung BAFU, GebV-BAFU)<inline name="man-font-weight-normal"><authorialNote>
+		<p> Fassung gemäss Anhang 2 Ziff. 5 der V vom 22. Nov. 2006 über die Gebühren und Aufsichtsabgaben des Bundesamtes für Energie, in Kraft seit 1. Jan. 2007 (<ref href="https://fedlex.data.admin.ch/eli/oc/2006/762" xmlns:data="urn:com:c-moria:legi4ch:xslt:data" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">AS <b>2006</b> 4889</ref>).</p>
+	</authorialNote></inline></p><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">vom 3. Juni 2005 (Stand am 1. August 2025)</p></preface><preamble><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Der Schweizerische Bundesrat,</p><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">gestützt auf Artikel 48 Absatz 2 des Umweltschutzgesetzes vom 7. Oktober 1983<authorialNote>
+		<p> <ref href="https://fedlex.data.admin.ch/eli/cc/1984/1122_1122_1122" xmlns:data="urn:com:c-moria:legi4ch:xslt:data" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">SR <b>814.01</b></ref></p>
+	</authorialNote>, <br/>auf Artikel 55 Absatz 2 des Gewässerschutzgesetzes vom 24. Januar 1991<authorialNote>
+		<p> <ref href="https://fedlex.data.admin.ch/eli/cc/1992/1860_1860_1860" xmlns:data="urn:com:c-moria:legi4ch:xslt:data" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">SR <b>814.20</b></ref></p>
+	</authorialNote>, <br/>auf Artikel 25 des Gentechnikgesetzes vom 21.März 2003<authorialNote>
+		<p> <ref href="https://fedlex.data.admin.ch/eli/cc/2003/705" xmlns:data="urn:com:c-moria:legi4ch:xslt:data" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">SR <b>814.91</b></ref></p>
+	</authorialNote> und <br/>auf Artikel 46<i>a</i> des Regierungs- und Verwaltungsorganisationsgesetzes vom 21. März 1997<authorialNote>
+		<p> <ref href="https://fedlex.data.admin.ch/eli/cc/1997/2022_2022_2022" xmlns:data="urn:com:c-moria:legi4ch:xslt:data" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">SR <b>172.010</b></ref></p>
+	</authorialNote>,<authorialNote>
+		<p> Fassung gemäss Anhang 2 Ziff. 5 der V vom 22. Nov. 2006 über die Gebühren und Aufsichtsabgaben des Bundesamtes für Energie, in Kraft seit 1. Jan. 2007 (<ref href="https://fedlex.data.admin.ch/eli/oc/2006/762" xmlns:data="urn:com:c-moria:legi4ch:xslt:data" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">AS <b>2006</b> 4889</ref>). </p>
+	</authorialNote></p><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">verordnet:</p></preamble><body><article eId="art_1"><num><b>Art. 1</b></num><heading>Gegenstand</heading><paragraph eId="art_1/para_1"><num>1</num><content><blockList><listIntroduction eId="art_1/para_1/listintro" xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Diese Verordnung regelt die Gebühren für Verfügungen, Kontrollen und Dienstleistungen (Verwaltungshandlungen):<authorialNote>
+		<p> Fassung gemäss Anhang 3 Ziff. 1 der Holzhandelsverordnung vom 12. Mai 2021, in Kraft seit 1. Jan. 2022 (<ref href="https://fedlex.data.admin.ch/eli/oc/2021/306" xmlns:data="urn:com:c-moria:legi4ch:xslt:data" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">AS <b>2021</b> 306</ref>).</p>
+	</authorialNote></listIntroduction><item eId="art_1/para_1/lbl_a"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">a. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">des Bundesamtes für Umwelt (BAFU)<authorialNote>
+		<p> Bezeichnung gemäss Anhang 2 Ziff. 5 der V vom 22. Nov. 2006 über die Gebühren und Aufsichtsabgaben des Bundesamtes für Energie, in Kraft seit 1. Jan. 2007 (<ref href="https://fedlex.data.admin.ch/eli/oc/2006/762" xmlns:data="urn:com:c-moria:legi4ch:xslt:data" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">AS <b>2006</b> 4889</ref>). Diese Änd. ist im ganzen Erlass berücksichtigt.</p>
+	</authorialNote>; und</p></item><item eId="art_1/para_1/lbl_b"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">b. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">der vom BAFU mit dem Vollzug betrauten Organisationen und Personen des öffentlichen und privaten Rechts (übrige Vollzugsorgane).</p></item></blockList></content></paragraph><paragraph eId="art_1/para_2"><num>2</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Ausgenommen sind Verwaltungshandlungen, welche die Gewährung von Bundesbeiträgen betreffen.</p></content></paragraph><paragraph eId="art_1/para_3"><num>3</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Spezialrechtliche Gebührenregelungen bleiben vorbehalten.</p></content></paragraph></article><article eId="art_2"><num><b>Art. 2</b></num><heading>Allgemeine Gebührenverordnung</heading><paragraph eId="art_2/para"><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Soweit diese Verordnung keine besondere Regelung enthält, gelten die Bestimmungen der Allgemeinen Gebührenverordnung vom 8. September 2004<authorialNote>
+		<p> <ref href="https://fedlex.data.admin.ch/eli/cc/2004/677" xmlns:data="urn:com:c-moria:legi4ch:xslt:data" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">SR <b>172.041.1</b></ref></p>
+	</authorialNote>.</p></content></paragraph></article><article eId="art_3"><num><b>Art. 3</b></num><heading>Gebührenerhebung durch übrige Vollzugsorgane</heading><paragraph eId="art_3/para_1"><num>1</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Überträgt das BAFU eine Aufgabe an ein übriges Vollzugsorgan, so stellt dieses Organ die Gebühren selbst in Rechnung, verfügt bei Streitigkeiten über die Rechnung und besorgt das Inkasso. Das BAFU kann bei der Übertragung einer Vollzugsaufgabe bestimmen, dass es die Gebühren selber in Rechnung stellt, insbesondere wenn das übrige Vollzugsorgan zur Erhebung der Gebühr nicht in der Lage ist.</p></content></paragraph><paragraph eId="art_3/para_2"><num>2</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Das BAFU und das übrige Vollzugsorgan vereinbaren, welche Anteile der Gebührenerträge das übrige Vollzugsorgan zur Deckung des eigenen Aufwands verwenden kann.</p></content></paragraph></article><article eId="art_4"><num><b>Art. 4</b></num><heading>Gebührenbemessung</heading><paragraph eId="art_4/para_1"><num>1</num><content><blockList><listIntroduction eId="art_4/para_1/listintro" xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Die Gebühren werden bemessen:</listIntroduction><item eId="art_4/para_1/lbl_a"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">a. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">nach festen Gebührenansätzen gemäss Anhang;</p></item><item eId="art_4/para_1/lbl_b"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">b. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">nach Aufwand innerhalb der Gebührenrahmen gemäss Anhang;</p></item><item eId="art_4/para_1/lbl_c"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">c. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">in den übrigen Fällen nach Aufwand.</p></item></blockList></content></paragraph><paragraph eId="art_4/para_2"><num>2</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Wenn die Gebühr nach Aufwand bemessen wird, gilt ein Stundenansatz von Fr. 140.–.</p></content></paragraph></article><article eId="art_5"><num><b>Art. </b><b>5</b></num><heading>Anpassung an die Teuerung</heading><paragraph eId="art_5/para"><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Das Eidgenössische Departement für Umwelt, Verkehr, Energie und Kommunikation (UVEK) passt die Gebührenansätze, die Gebührenrahmen und den Stundenansatz jeweils auf den nächstfolgenden Jahresanfang an die Erhöhung des Landesindexes der Konsumentenpreise an, sofern die Erhöhung seit Inkrafttreten dieser Verordnung oder seit der letzten Anpassung 5 Prozent oder mehr beträgt. Die angepassten Beträge werden auf 5 Franken auf- oder abgerundet.</p></content></paragraph></article><article eId="art_6"><num><b>Art. </b><b>6</b></num><heading>Gebührenzuschläge</heading><paragraph eId="art_6/para_1"><num>1</num><content><blockList><listIntroduction eId="art_6/para_1/listintro" xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Ein Zuschlag von höchstens 100 Prozent der ordentlichen Gebühr kann erhoben werden, wenn die Verwaltungshandlung:</listIntroduction><item eId="art_6/para_1/lbl_a"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">a. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">auf Ersuchen hin dringlich behandelt wird; oder</p></item><item eId="art_6/para_1/lbl_b"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">b. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">ungewöhnlich hohen Aufwand verursacht.</p></item></blockList></content></paragraph><paragraph eId="art_6/para_2"><num>2</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Werden Arbeiten bei Dritten in Auftrag gegeben, so kann zusätzlich zu den Auslagen ein Verwaltungszuschlag von 20 Prozent der ordentlichen Gebühr in Rechnung gestellt werden. Sind besondere Fachkenntnisse erforderlich, so kann ein Verwaltungszuschlag von höchstens 100 Franken pro Stunde erhoben werden.<authorialNote>
+		<p> Fassung gemäss Ziff. III der V vom 8. Okt. 2014, in Kraft seit 1. Dez. 2014 (<ref href="https://fedlex.data.admin.ch/eli/oc/2014/573" xmlns:data="urn:com:c-moria:legi4ch:xslt:data" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">AS <b>2014</b> 3293</ref>).</p>
+	</authorialNote></p></content></paragraph><paragraph eId="art_6/para_3"><num>3</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Gebührenzuschläge sind zu begründen und gesondert auszuweisen.</p></content></paragraph></article><article eId="art_7"><num><b>Art</b><b>. </b><b>7</b></num><heading>Aufhebung bisherigen Rechts</heading><paragraph eId="art_7/para"><content><blockList><listIntroduction eId="art_7/para/listintro" xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Es werden aufgehoben:</listIntroduction><item eId="art_7/para/lbl_a"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">a. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Verordnung vom 29. November 1995<authorialNote>
+		<p> [<ref href="https://fedlex.data.admin.ch/eli/oc/1996/272_272_272" xmlns:data="urn:com:c-moria:legi4ch:xslt:data" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">AS <b>1996</b> 272</ref>; <ref href="https://fedlex.data.admin.ch/eli/oc/2000/99" xmlns:data="urn:com:c-moria:legi4ch:xslt:data" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp"><b>2000</b> 548</ref>]</p>
+	</authorialNote> über die Gebührensätze des Bundesamtes für Umwelt für Dienstleistungen und Verfügungen nach der Stoffverordnung;</p></item><item eId="art_7/para/lbl_b"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">b. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Verordnung vom 15. Oktober 2001<authorialNote>
+		<p> [<ref href="https://fedlex.data.admin.ch/eli/oc/2001/425" xmlns:data="urn:com:c-moria:legi4ch:xslt:data" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">AS <b>2001</b> 2877</ref>]</p>
+	</authorialNote> über die Gebühren für Dienstleistungen nach der Freisetzungsverordnung.</p></item></blockList></content></paragraph></article><article eId="art_8"><num><b>Art. </b><b>8</b></num><heading>Änderung bisherigen Rechts</heading><paragraph eId="art_8/para"><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">…<authorialNote>
+		<p> Die Änderungen können unter <ref href="https://fedlex.data.admin.ch/eli/oc/2005/449" xmlns:data="urn:com:c-moria:legi4ch:xslt:data" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">AS <b>2005</b> 2603 </ref>konsultiert werden.</p>
+	</authorialNote></p></content></paragraph></article><article eId="art_8_a"><num><b>Art. 8</b><i>a</i><authorialNote>
+		<p> Eingefügt durch Anhang 2 Ziff. 5 der V vom 22. Nov. 2006 über die Gebühren und Aufsichtsabgaben des Bundesamtes für Energie, in Kraft seit 1. Jan. 2007 (<ref href="https://fedlex.data.admin.ch/eli/oc/2006/762" xmlns:data="urn:com:c-moria:legi4ch:xslt:data" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">AS <b>2006</b> 4889</ref>).</p>
+	</authorialNote></num><heading>Übergangsbestimmung zur Änderung vom 22. November 2006</heading><paragraph eId="art_8_a/para"><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Für Dienstleistungen, die vor dem Inkrafttreten der Änderung vom 22. November 2006 dieser Verordnung erbracht, aber noch nicht in Rechnung gestellt worden sind, gilt das neue Recht.</p></content></paragraph></article><article eId="art_9"><num><b>Art. 9</b></num><heading>Inkrafttreten</heading><paragraph eId="art_9/para"><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Diese Verordnung tritt am 1. August 2005 in Kraft.</p></content></paragraph></article></body><components><component><doc name="annex"><meta><identification source="#ch.bk"><FRBRWork><FRBRthis value="https://fedlex.data.admin.ch/eli/cc/2005/449/20250801/main-text"/><FRBRuri value="https://fedlex.data.admin.ch/eli/cc/2005/449/20250801"/><FRBRdate date="2025-08-01" name="jolux:dateApplicability"/><FRBRdate date="2005-06-03" name="jolux:dateDocument"/><FRBRdate date="2005-08-01" name="jolux:dateEntryInForce"/><FRBRauthor href="#ch.bk" as="#publisher"/><FRBRauthor href="#ch.bk" as="#rightsHolder"/><FRBRcountry value="CH"/><FRBRnumber value="814.014"/><FRBRname xml:lang="fr" value="Ordonnance du 3 juin 2005 sur les émoluments de l'Office fédéral de l'environnement (Ordonnance sur les émoluments de l'OFEV, OEmol-OFEV)" shortForm="OEmol-OFEV"/><FRBRname xml:lang="de" value="Verordnung vom 3. Juni 2005 über die Gebühren des Bundesamtes für Umwelt (Gebührenverordnung BAFU, GebV-BAFU)" shortForm="GebV-BAFU"/><FRBRname xml:lang="it" value="Ordinanza del 3 giugno 2005 sugli emolumenti dell'Ufficio federale dell'ambiente (Ordinanza sugli emolumenti dell'UFAM, OE-UFAM)" shortForm="OE-UFAM"/><FRBRauthoritative value="true"/></FRBRWork><FRBRExpression><FRBRthis value="https://fedlex.data.admin.ch/eli/cc/2005/449/20250801/de/main-text"/><FRBRuri value="https://fedlex.data.admin.ch/eli/cc/2005/449/20250801/de"/><FRBRdate date="2025-08-01" name="jolux:dateApplicability"/><FRBRdate date="2005-06-03" name="jolux:dateDocument"/><FRBRdate date="2005-08-01" name="jolux:dateEntryInForce"/><FRBRauthor href="#ch.bk" as="#publisher"/><FRBRauthor href="#ch.bk" as="#rightsHolder"/><FRBRlanguage language="de"/></FRBRExpression><FRBRManifestation><FRBRthis value="https://fedlex.data.admin.ch/eli/cc/2005/449/20250801/de/xml/main-text"/><FRBRuri value="https://fedlex.data.admin.ch/eli/cc/2005/449/20250801/de/xml"/><FRBRdate date="2025-08-01" name="jolux:dateApplicability"/><FRBRdate date="2005-06-03" name="jolux:dateDocument"/><FRBRdate date="2005-08-01" name="jolux:dateEntryInForce"/><FRBRauthor href="#ch.bk" as="#publisher"/><FRBRauthor href="#ch.bk" as="#rightsHolder"/><FRBRformat value="xml"/></FRBRManifestation></identification></meta><preface><container name="headerOfAnnex"><block name="heading">Anhang<inline name="man-font-style-normal"><authorialNote>
+		<p> Bereinigt gemäss Anhang 3 Ziff. II 3 der V vom 22. Juni 2005 über den Verkehr mit Abfällen (<ref href="https://fedlex.data.admin.ch/eli/oc/2005/551" xmlns:data="urn:com:c-moria:legi4ch:xslt:data" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">AS <b>2005</b> 4199</ref>), Anhang 2 Ziff. II 5 der V vom 22. Nov. 2006 über die Gebühren und Aufsichtsabgaben des Bundesamtes für Energie (<ref href="https://fedlex.data.admin.ch/eli/oc/2006/762" xmlns:data="urn:com:c-moria:legi4ch:xslt:data" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">AS <b>2006</b> 4889</ref>), Anhang 5 Ziff. 4 der Freisetzungsverordnung vom 10. Sept. 2008 (<ref href="https://fedlex.data.admin.ch/eli/oc/2008/614" xmlns:data="urn:com:c-moria:legi4ch:xslt:data" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">AS <b>2008</b> 4377</ref>), Anhang 5 Ziff. 8 der Einschliessungsverordnung vom 9. Mai 2012 (<ref href="https://fedlex.data.admin.ch/eli/oc/2012/329" xmlns:data="urn:com:c-moria:legi4ch:xslt:data" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">AS <b>2012</b> 2777</ref>), Anhang Ziff. II 1 der V vom 18. Nov. 2015 über die Ein-, Durch- und Ausfuhr von Tieren und Tierprodukten im Verkehr mit Drittstaaten (<ref href="https://fedlex.data.admin.ch/eli/oc/2015/843" xmlns:data="urn:com:c-moria:legi4ch:xslt:data" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">AS <b>2015</b> 5201</ref>), Ziff. I 1 der V vom 1. Mai 2019 (<ref href="https://fedlex.data.admin.ch/eli/oc/2019/312" xmlns:data="urn:com:c-moria:legi4ch:xslt:data" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">AS <b>2019</b> 1615</ref>), Ziff. I der V vom 27. Sept. 2019 (<ref href="https://fedlex.data.admin.ch/eli/oc/2019/577" xmlns:data="urn:com:c-moria:legi4ch:xslt:data" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">AS <b>2019</b> 3129</ref>), Ziff. III der V vom 13. Nov. 2019 (<ref href="https://fedlex.data.admin.ch/eli/oc/2019/753" xmlns:data="urn:com:c-moria:legi4ch:xslt:data" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">AS <b>2019</b> 4335</ref>), Anhang 3 Ziff. 1 der Holzhandelsverordnung vom 12. Mai 2021 (<ref href="https://fedlex.data.admin.ch/eli/oc/2021/306" xmlns:data="urn:com:c-moria:legi4ch:xslt:data" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">AS <b>2021</b> 306</ref>), Art. 10 Ziff. 2 der V vom 2. April 2025 über das Inverkehrbringen von erneuerbaren oder emissionsarmen Brenn- und Treibstoffen (<ref href="https://fedlex.data.admin.ch/eli/oc/2025/250" xmlns:data="urn:com:c-moria:legi4ch:xslt:data" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">AS <b>2025</b> 250</ref>), der Berichtigung vom <span>23. Juni 2025 (</span><ref href="https://fedlex.data.admin.ch/eli/oc/2025/414" xmlns:data="urn:com:c-moria:legi4ch:xslt:data" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp"><span>AS </span><b><span>2025</span></b><span> 414</span></ref><span>) und </span>Anhang Ziff. 2 der Wasserbauverordnung vom 25. Juni 2025, in Kraft seit 1. Aug. 2025 (<ref href="https://fedlex.data.admin.ch/eli/oc/2025/450" xmlns:data="urn:com:c-moria:legi4ch:xslt:data" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">AS <b>2025</b> 450</ref>).</p>
+	</authorialNote></inline></block></container></preface><mainBody><p>(Art. 4 Abs. 1 Bst. a und b)</p><level eId="annex_u1/lvl_u1"><heading>Feste Gebührenansätze und Gebührenrahmen</heading><content><table border="1">
+			
+			
+			<tr>
+				
+				
+				<th xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">
+					
+					
+				</th>
+				<th xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">
+					
+					<p>Franken</p>
+				</th>
+			</tr>
+			<tr>
+				
+				<td><blockList><item><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">1. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Stellungnahmen bei Anhörungen sowie Zustimmungen</p></item></blockList></td>
+				<td>
+					
+					
+				</td>
+			</tr>
+			<tr>
+				
+				<td><blockList><item><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"/><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Für Stellungnahmen und Zustimmungen nach den unten aufgelisteten Erlassen gelten die folgenden Gebührenansätze bzw. der folgende Gebührenrahmen:</p></item></blockList></td>
+				<td>
+					
+					
+				</td>
+			</tr>
+			<tr>
+				
+				<td><blockList><item><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">a. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">wenig aufwändige Stellungnahmen</p></item></blockList></td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">200</p>
+				</td>
+			</tr>
+			<tr>
+				
+				<td><blockList><item><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">b. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">aufwändige Stellungnahmen</p></item></blockList></td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">2000</p>
+				</td>
+			</tr>
+			<tr>
+				
+				<td><blockList><item><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">c. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">sehr aufwändige Stellungnahmen nach Aufwand, höchstens aber</p></item></blockList></td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">20 000</p>
+				</td>
+			</tr>
+			<tr>
+				
+				<td><blockList><item><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">– </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Bundesgesetz vom 1. Juli 1966<authorialNote>
+		<p> <ref href="https://fedlex.data.admin.ch/eli/cc/1966/1637_1694_1679" xmlns:data="urn:com:c-moria:legi4ch:xslt:data" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">SR <b>451</b></ref></p>
+	</authorialNote> über den Natur- und Heimatschutz <br/></p><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">(Art. 3 Abs. 4)</p></item></blockList></td>
+				<td>
+					
+					
+				</td>
+			</tr>
+			<tr>
+				
+				<td><blockList><item><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">– </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Luftfahrtgesetz vom 21. Dezember 1948<authorialNote>
+		<p> <ref href="https://fedlex.data.admin.ch/eli/cc/1950/471_491_479" xmlns:data="urn:com:c-moria:legi4ch:xslt:data" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">SR <b>748.0</b></ref></p>
+	</authorialNote> <br/></p><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">(Art. 36<i>c</i> und 37)</p></item></blockList></td>
+				<td>
+					
+					
+				</td>
+			</tr>
+			<tr>
+				
+				<td><blockList><item><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">– </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Luftfahrtverordnung vom 14. November 1973<authorialNote>
+		<p> <ref href="https://fedlex.data.admin.ch/eli/cc/1973/1856_1856_1856" xmlns:data="urn:com:c-moria:legi4ch:xslt:data" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">SR <b>748.01</b></ref></p>
+	</authorialNote> <br/></p><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">(Art. 86 Abs. 1)</p></item></blockList></td>
+				<td>
+					
+					
+				</td>
+			</tr>
+			<tr>
+				
+				<td><blockList><item><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">– </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Umweltschutzgesetz vom 7. Oktober 1983<br/></p><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">(Art. 41 Abs. 2)</p></item></blockList></td>
+				<td>
+					
+					
+				</td>
+			</tr>
+			<tr>
+				
+				<td><blockList><item><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">– </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Verordnung vom 19. Oktober 1988<authorialNote>
+		<p> <ref href="https://fedlex.data.admin.ch/eli/cc/1988/1931_1931_1931" xmlns:data="urn:com:c-moria:legi4ch:xslt:data" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">SR <b>814.011</b></ref></p>
+	</authorialNote> über die Umweltverträglichkeitsprüfung <br/></p><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">(Art. 12 Abs. 2)</p></item></blockList></td>
+				<td>
+					
+					
+				</td>
+			</tr>
+			<tr>
+				
+				<td><blockList><item><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">– </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Gewässerschutzgesetz vom 24. Januar 1991<br/></p><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">(Art. 35 Abs. 3 und 48 Abs. 1)</p></item></blockList></td>
+				<td>
+					
+					
+				</td>
+			</tr>
+			<tr>
+				
+				<td><blockList><item><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">– </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Gentechnikgesetz vom 21. März 2003<br/></p><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">(Art. 21 Abs. 1)</p></item></blockList></td>
+				<td>
+					
+					
+				</td>
+			</tr>
+			<tr>
+				
+				<td><blockList><item><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">– </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Freisetzungsverordnung vom 10. September 2008<authorialNote>
+		<p> <ref href="https://fedlex.data.admin.ch/eli/cc/2008/614" xmlns:data="urn:com:c-moria:legi4ch:xslt:data" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">SR <b>814.911</b></ref></p>
+	</authorialNote> <br/></p><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">(Art. 44 Abs. 1)</p></item></blockList></td>
+				<td>
+					
+					
+				</td>
+			</tr>
+			<tr>
+				
+				<td><blockList><item><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">– </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Einschliessungsverordnung vom 9. Mai 2012<authorialNote>
+		<p> <ref href="https://fedlex.data.admin.ch/eli/cc/2012/329" xmlns:data="urn:com:c-moria:legi4ch:xslt:data" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">SR <b>814.912</b></ref></p>
+	</authorialNote><br/></p><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">(Art. 19 Abs. 1 und 2, 20 Abs. 1 sowie 21 Abs. 1)</p></item></blockList></td>
+				<td>
+					
+					
+				</td>
+			</tr>
+			<tr>
+				
+				<td><blockList><item><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">– </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Pflanzenschutzmittelverordnung vom 18. Mai 2005<authorialNote>
+		<p> [<ref href="https://fedlex.data.admin.ch/eli/oc/2005/481" xmlns:data="urn:com:c-moria:legi4ch:xslt:data" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">AS <b>2005</b> 3035</ref>, <ref href="https://fedlex.data.admin.ch/eli/oc/2005/541" xmlns:data="urn:com:c-moria:legi4ch:xslt:data" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">4097</ref>, <ref href="https://fedlex.data.admin.ch/eli/oc/2005/719" xmlns:data="urn:com:c-moria:legi4ch:xslt:data" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">5211</ref>; <ref href="https://fedlex.data.admin.ch/eli/oc/2006/750" xmlns:data="urn:com:c-moria:legi4ch:xslt:data" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp"><b>2006</b> 4851</ref>; <ref href="https://fedlex.data.admin.ch/eli/oc/2007/152" xmlns:data="urn:com:c-moria:legi4ch:xslt:data" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp"><b>2007</b> 821 </ref>Ziff. III, <ref href="https://fedlex.data.admin.ch/eli/oc/2007/250" xmlns:data="urn:com:c-moria:legi4ch:xslt:data" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">1469 </ref>Anhang 4 Ziff. 54, <ref href="https://fedlex.data.admin.ch/eli/oc/2007/268" xmlns:data="urn:com:c-moria:legi4ch:xslt:data" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">1843</ref>, <ref href="https://fedlex.data.admin.ch/eli/oc/2007/641" xmlns:data="urn:com:c-moria:legi4ch:xslt:data" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">4541</ref>, <ref href="https://fedlex.data.admin.ch/eli/oc/2007/834" xmlns:data="urn:com:c-moria:legi4ch:xslt:data" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">6291</ref>; <ref href="https://fedlex.data.admin.ch/eli/oc/2008/310" xmlns:data="urn:com:c-moria:legi4ch:xslt:data" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp"><b>2008</b> 2155</ref>, <ref href="https://fedlex.data.admin.ch/eli/oc/2008/614" xmlns:data="urn:com:c-moria:legi4ch:xslt:data" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">4377 </ref>Anhang 5 Ziff. 11, <ref href="https://fedlex.data.admin.ch/eli/oc/2008/742" xmlns:data="urn:com:c-moria:legi4ch:xslt:data" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">5271</ref>; <ref href="https://fedlex.data.admin.ch/eli/oc/2009/73" xmlns:data="urn:com:c-moria:legi4ch:xslt:data" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp"><b>2009</b> 401 </ref>Anhang Ziff. 3, <ref href="https://fedlex.data.admin.ch/eli/oc/2009/373" xmlns:data="urn:com:c-moria:legi4ch:xslt:data" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">2845</ref>; <ref href="https://fedlex.data.admin.ch/eli/oc/2010/278" xmlns:data="urn:com:c-moria:legi4ch:xslt:data" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp"><b>2010</b> 2101</ref>, <ref href="https://fedlex.data.admin.ch/eli/oc/2010/551" xmlns:data="urn:com:c-moria:legi4ch:xslt:data" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">3845</ref>. <ref href="https://fedlex.data.admin.ch/eli/oc/2010/340" xmlns:data="urn:com:c-moria:legi4ch:xslt:data" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">AS <b>2010 </b>2331 </ref>Art. 84]. Siehe heute: die V vom 12. Mai 2010 (<ref href="https://fedlex.data.admin.ch/eli/cc/2010/340" xmlns:data="urn:com:c-moria:legi4ch:xslt:data" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">SR <b>916.161</b></ref>).</p>
+	</authorialNote> <br/></p><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">(Art. 56 Abs. 1–4)</p></item></blockList></td>
+				<td>
+					
+					
+				</td>
+			</tr>
+			<tr>
+				
+				<td><blockList><item><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">– </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Dünger-Verordnung vom 10. Januar 2001<authorialNote>
+		<p> <ref href="https://fedlex.data.admin.ch/eli/cc/2023/711" xmlns:data="urn:com:c-moria:legi4ch:xslt:data" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">SR <b>916.171</b></ref></p>
+	</authorialNote> <br/></p><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">(Art. 18 Abs. 3 und 30 Abs. 1 und 2)</p></item></blockList></td>
+				<td>
+					
+					
+				</td>
+			</tr>
+			<tr>
+				
+				<td><blockList><item><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">– </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Futtermittel-Verordnung vom 26. Mai 1999<authorialNote>
+		<p> [<ref href="https://fedlex.data.admin.ch/eli/oc/1999/287" xmlns:data="urn:com:c-moria:legi4ch:xslt:data" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">AS <b>1999</b> 1780</ref>, <ref href="https://fedlex.data.admin.ch/eli/oc/1999/442" xmlns:data="urn:com:c-moria:legi4ch:xslt:data" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">2748 </ref>Anhang 5 Ziff. 6; <ref href="https://fedlex.data.admin.ch/eli/oc/2001/490" xmlns:data="urn:com:c-moria:legi4ch:xslt:data" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp"><b>2001</b> 3294 </ref>Ziff. II 14; <ref href="https://fedlex.data.admin.ch/eli/oc/2002/653" xmlns:data="urn:com:c-moria:legi4ch:xslt:data" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp"><b>2002</b> 4065</ref>; <ref href="https://fedlex.data.admin.ch/eli/oc/2003/729" xmlns:data="urn:com:c-moria:legi4ch:xslt:data" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp"><b>2003</b> 4927</ref>; <ref href="https://fedlex.data.admin.ch/eli/oc/2005/107" xmlns:data="urn:com:c-moria:legi4ch:xslt:data" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp"><b>2005</b> 973</ref>, <ref href="https://fedlex.data.admin.ch/eli/oc/2005/464" xmlns:data="urn:com:c-moria:legi4ch:xslt:data" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">2695 </ref>Ziff. II 19, <ref href="https://fedlex.data.admin.ch/eli/oc/2005/755" xmlns:data="urn:com:c-moria:legi4ch:xslt:data" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">5555</ref>; <ref href="https://fedlex.data.admin.ch/eli/oc/2007/633" xmlns:data="urn:com:c-moria:legi4ch:xslt:data" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp"><b>2007</b> 4477 </ref>Ziff. IV 70; <ref href="https://fedlex.data.admin.ch/eli/oc/2008/476" xmlns:data="urn:com:c-moria:legi4ch:xslt:data" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp"><b>2008</b> 3655</ref>, <ref href="https://fedlex.data.admin.ch/eli/oc/2008/614" xmlns:data="urn:com:c-moria:legi4ch:xslt:data" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">4377 </ref>Anhang 5 Ziff. 14; <ref href="https://fedlex.data.admin.ch/eli/oc/2009/344" xmlns:data="urn:com:c-moria:legi4ch:xslt:data" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp"><b>2009</b> 2599</ref>; <ref href="https://fedlex.data.admin.ch/eli/oc/2011/349" xmlns:data="urn:com:c-moria:legi4ch:xslt:data" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp"><b>2011</b> 2405</ref>. <ref href="https://fedlex.data.admin.ch/eli/oc/2011/772" xmlns:data="urn:com:c-moria:legi4ch:xslt:data" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">AS <b>2011</b> 5409 </ref>Art. 77]. Siehe heute: die V vom 26. Okt. 2011 (<ref href="https://fedlex.data.admin.ch/eli/cc/2011/772" xmlns:data="urn:com:c-moria:legi4ch:xslt:data" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">SR <b>916.307</b></ref>).</p>
+	</authorialNote> <br/></p><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">(Art. 26 Abs. 2 und 3)</p></item></blockList></td>
+				<td>
+					
+					
+				</td>
+			</tr>
+			<tr>
+				
+				<td><blockList><item><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">– </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Tierseuchenverordnung vom 27. Juni 1995<authorialNote>
+		<p> <ref href="https://fedlex.data.admin.ch/eli/cc/1995/3716_3716_3716" xmlns:data="urn:com:c-moria:legi4ch:xslt:data" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">SR <b>916.401</b></ref></p>
+	</authorialNote> <br/></p><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">(Art. 279 Abs. 1)</p></item></blockList></td>
+				<td>
+					
+					
+				</td>
+			</tr>
+			<tr>
+				
+				<td><blockList><item><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">– </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Waldgesetz vom 4. Oktober 1991<authorialNote>
+		<p> <ref href="https://fedlex.data.admin.ch/eli/cc/1992/2521_2521_2521" xmlns:data="urn:com:c-moria:legi4ch:xslt:data" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">SR <b>921.0</b></ref></p>
+	</authorialNote> <br/></p><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">(Art. 49 Abs. 2)</p></item></blockList></td>
+				<td>
+					
+					
+				</td>
+			</tr>
+			<tr>
+				
+				<td><blockList><item><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">– </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Fischereigesetz vom 21. Juni 1991<authorialNote>
+		<p> <ref href="https://fedlex.data.admin.ch/eli/cc/1991/2259_2259_2259" xmlns:data="urn:com:c-moria:legi4ch:xslt:data" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">SR <b>923.0</b></ref></p>
+	</authorialNote> <br/></p><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">(Art. 21 Abs. 4)</p></item></blockList></td>
+				<td>
+					
+					
+				</td>
+			</tr>
+			<tr>
+				
+				<td><blockList><item><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">2. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Widerruf von Verfügungen über Bundesbeiträge</p></item></blockList></td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">500</p>
+				</td>
+			</tr>
+			<tr>
+				
+				<td><blockList><item><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">2<i>a</i>. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Verwaltungshandlungen nach der Verordnung vom 22. Juni 2005<authorialNote>
+		<p> <ref href="https://fedlex.data.admin.ch/eli/cc/2005/551" xmlns:data="urn:com:c-moria:legi4ch:xslt:data" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">SR <b>814.610</b></ref></p>
+	</authorialNote> über den Verkehr mit Abfällen:</p></item></blockList></td>
+				<td>
+					
+					
+				</td>
+			</tr>
+			<tr>
+				
+				<td><blockList><item><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">a. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Bewilligung für die Ausfuhr von Abfällen</p></item></blockList></td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">350–2500</p>
+				</td>
+			</tr>
+			<tr>
+				
+				<td><blockList><item><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">b. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Zustimmung zur Einfuhr von Abfällen</p></item></blockList></td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">350–2500</p>
+				</td>
+			</tr>
+			<tr>
+				
+				<td><blockList><item><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">c. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Bezug von 50 oder mehr elektronischen Begleitscheinen pro Kalenderjahr, pro Begleitschein</p></item></blockList></td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">0.40</p>
+				</td>
+			</tr>
+			<tr>
+				
+				<td><blockList><item><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">3. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Verwaltungshandlungen nach der Freisetzungsverordnung vom 10. September 2008:</p></item></blockList></td>
+				<td>
+					
+					
+				</td>
+			</tr>
+			<tr>
+				
+				<td><blockList><item><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">a. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Bewilligung von Freisetzungsversuchen</p></item></blockList></td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">1000–20 000</p>
+				</td>
+			</tr>
+			<tr>
+				
+				<td><blockList><item><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">b. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Überwachung von Freisetzungsversuchen pro Halbtag und Person</p></item></blockList></td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"><br/>600–900</p>
+				</td>
+			</tr>
+			<tr>
+				
+				<td><blockList><item><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">c. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Bewilligung für das Inverkehrbringen</p></item></blockList></td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">2000–40 000</p>
+				</td>
+			</tr>
+			<tr>
+				
+				<td><blockList><item><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">d. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Verfügung weiterer Massnahmen</p></item></blockList></td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">1000–5000</p>
+				</td>
+			</tr>
+			<tr>
+				
+				<td><blockList><item><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">3<i>a</i>. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Verwaltungshandlungen nach der Pflanzengesundheitsverordnung vom 31. Oktober 2018<authorialNote>
+		<p> <ref href="https://fedlex.data.admin.ch/eli/cc/2018/682" xmlns:data="urn:com:c-moria:legi4ch:xslt:data" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">SR <b>916.20</b></ref></p>
+	</authorialNote> (PGesV):</p></item></blockList></td>
+				<td>
+					
+					
+				</td>
+			</tr>
+			<tr>
+				
+				<td><blockList><item><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">a. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">periodische Kontrollen der Zulassungsvoraussetzungen für die Behandlung oder Markierung von Holz, Verpackungsmaterial und anderen Gegenständen aus Holz (Art. 91 Abs. 1):</p></item></blockList></td>
+				<td>
+					
+					
+				</td>
+			</tr>
+			<tr>
+				
+				<td><blockList><item><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">1. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Anreisepauschale</p></item></blockList></td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">100</p>
+				</td>
+			</tr>
+			<tr>
+				
+				<td><blockList><item><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">2. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Durchführung der Kontrollen</p></item></blockList></td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Zeitaufwand</p>
+				</td>
+			</tr>
+			<tr>
+				
+				<td><blockList><item><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">b. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Kontrollen, die im Rahmen einer Vorsorgemassnahme (Art. 10 Abs. 4) erfolgen, bei denen eine Widerhandlung gegen die PGesV festgestellt wurde:</p></item></blockList></td>
+				<td>
+					
+					
+				</td>
+			</tr>
+			<tr>
+				
+				<td><blockList><item><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">1. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Anreisepauschale</p></item></blockList></td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">100</p>
+				</td>
+			</tr>
+			<tr>
+				
+				<td><blockList><item><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">2. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Durchführung der Kontrollen</p></item></blockList></td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Zeitaufwand</p>
+				</td>
+			</tr>
+			<tr>
+				
+				<td><blockList><item><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">c. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Kontrollen von meldepflichtigen Verpackungsmaterialien aus unverarbeitetem Holz (Abkommen vom 21. Juni 1999<authorialNote>
+		<p> <ref href="https://fedlex.data.admin.ch/eli/cc/2002/323" xmlns:data="urn:com:c-moria:legi4ch:xslt:data" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">SR <b>0.916.026.81</b></ref></p>
+	</authorialNote> zwischen der Schweizerischen Eidgenossenschaft und der Europäischen Gemeinschaft über den Handel mit landwirtschaftlichen Erzeugnissen):</p></item></blockList></td>
+				<td>
+					
+					
+				</td>
+			</tr>
+			<tr>
+				
+				<td><blockList><item><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">1. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Anreisepauschale</p></item></blockList></td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">100</p>
+				</td>
+			</tr>
+			<tr>
+				
+				<td><blockList><item><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">2. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Grundgebühr pro Sendung</p></item></blockList></td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">50</p>
+				</td>
+			</tr>
+			<tr>
+				
+				<td><blockList><item><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">3. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Verfügung bei nicht konformen Verpackungsmaterialien</p></item></blockList></td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">200</p>
+				</td>
+			</tr>
+			<tr>
+				
+				<td><blockList><item><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">d. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">stichprobenweise Kontrollen der Anforderungen an Verpackungsmaterialien aus unverarbeitetem Holz (Art. 35), bei denen eine Widerhandlung gegen die PGesV festgestellt wurde:</p></item></blockList></td>
+				<td>
+					
+					
+				</td>
+			</tr>
+			<tr>
+				
+				<td><blockList><item><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">1. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Anreisepauschale</p></item></blockList></td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">100</p>
+				</td>
+			</tr>
+			<tr>
+				
+				<td><blockList><item><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">2. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Grundgebühr pro Sendung</p></item></blockList></td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">50</p>
+				</td>
+			</tr>
+			<tr>
+				
+				<td><blockList><item><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">3. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Verfügung bei nicht konformen Verpackungsmaterialien</p></item></blockList></td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">200</p>
+				</td>
+			</tr>
+			<tr>
+				
+				<td><blockList><item><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">e. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Anerkennung von Quarantänestationen und geschlossenen Anlagen (Art. 53):</p></item></blockList></td>
+				<td>
+					
+					
+				</td>
+			</tr>
+			<tr>
+				
+				<td><blockList><item><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">1. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Anreisepauschale</p></item></blockList></td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">100</p>
+				</td>
+			</tr>
+			<tr>
+				
+				<td><blockList><item><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">2. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Grundgebühr</p></item></blockList></td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">50</p>
+				</td>
+			</tr>
+			<tr>
+				
+				<td><blockList><item><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">3. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Abnahme der Quarantänestation, der geschlossenen Anlage oder des Betriebs des zugelassenen Empfängers</p></item></blockList></td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Zeitaufwand</p>
+				</td>
+			</tr>
+			<tr>
+				
+				<td><blockList><item><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">f. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Ausstellung eines Pflanzengesundheitszeugnisses für die Ausfuhr oder die Wiederausfuhr sowie Ausstellung eines Vorausfuhrzeugnisses (Art. 57–59):</p></item></blockList></td>
+				<td>
+					
+					
+				</td>
+			</tr>
+			<tr>
+				
+				<td><blockList><item><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">1. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Anreisepauschale</p></item></blockList></td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">100</p>
+				</td>
+			</tr>
+			<tr>
+				
+				<td><blockList><item><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">2. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Grundgebühr</p></item></blockList></td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">50</p>
+				</td>
+			</tr>
+			<tr>
+				
+				<td><blockList><item><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">3. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">zusätzliche administrative und technische Abklärungen zur Vervollständigung des Gesuchs</p></item></blockList></td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Zeitaufwand</p>
+				</td>
+			</tr>
+			<tr>
+				
+				<td><blockList><item><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">4. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Durchführung der Kontrollen</p></item></blockList></td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Zeitaufwand</p>
+				</td>
+			</tr>
+			<tr>
+				
+				<td><blockList><item><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">g. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Ausstellung einer Ausnahmebewilligung:</p></item></blockList></td>
+				<td>
+					
+					
+				</td>
+			</tr>
+			<tr>
+				
+				<td><blockList><item><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">1. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">für den Umgang mit Quarantäneorganismen ausserhalb geschlossener Systeme (Art. 7 und 27 Abs. 2)</p></item></blockList></td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">50</p>
+				</td>
+			</tr>
+			<tr>
+				
+				<td><blockList><item><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">2. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">für die Einfuhr von Waren (Art. 37)</p></item></blockList></td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">50</p>
+				</td>
+			</tr>
+			<tr>
+				
+				<td><blockList><item><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">3. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">für die Überführung von Waren in Schutzgebiete (Art. 42)</p></item></blockList></td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">50</p>
+				</td>
+			</tr>
+			<tr>
+				
+				<td><blockList><item><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">4. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">für Waren, die zu Forschungszwecken und zur Erhaltung von Ressourcen in Verkehr gebracht werden (Art. 62)</p></item></blockList></td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">50</p>
+				</td>
+			</tr>
+			<tr>
+				
+				<td><blockList><item><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">h. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Zulassung für Betriebe, die Holz sowie Verpackungsmaterial und andere Gegenstände aus Holz behandeln oder markieren (Art. 89 und 90)</p></item></blockList></td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">50</p>
+				</td>
+			</tr>
+			<tr>
+				
+				<td><blockList><item><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">i. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">amtliche Schreiben zu phytosanitären Anforderungen</p></item></blockList></td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">50</p>
+				</td>
+			</tr>
+			<tr>
+				
+				<td><blockList><item><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">4. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Kontrolle der Betriebsführung im Bereich des forstlichen Vermehrungsguts nach der Waldverordnung vom 30. November 1992<authorialNote>
+		<p> <ref href="https://fedlex.data.admin.ch/eli/cc/1992/2538_2538_2538" xmlns:data="urn:com:c-moria:legi4ch:xslt:data" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">SR <b>921.01</b></ref></p>
+	</authorialNote></p></item></blockList></td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">200–1000</p>
+				</td>
+			</tr>
+			<tr>
+				
+				<td><blockList><item><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">5. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Bewilligungen nach der Jagdverordnung vom 29. Februar 1988<authorialNote>
+		<p> <ref href="https://fedlex.data.admin.ch/eli/cc/1988/517_517_517" xmlns:data="urn:com:c-moria:legi4ch:xslt:data" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">SR <b>922.01</b></ref></p>
+	</authorialNote></p></item></blockList></td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">500</p>
+				</td>
+			</tr>
+			<tr>
+				
+				<td><blockList><item><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">6. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Bewilligung für das Einsetzen von landes- und standortfremden Fischen und Krebsen nach der Verordnung vom 24. November 1993<authorialNote>
+		<p> <ref href="https://fedlex.data.admin.ch/eli/cc/1993/3384_3384_3384" xmlns:data="urn:com:c-moria:legi4ch:xslt:data" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">SR <b>923.01</b></ref></p>
+	</authorialNote> zum Bundesgesetz über die Fischerei</p></item></blockList></td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">500</p>
+				</td>
+			</tr>
+			<tr>
+				
+				<td><blockList><item><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">7. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Informations- und Weiterbildungsveranstaltungen je Person und Tag</p></item></blockList></td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">200</p>
+				</td>
+			</tr>
+			<tr>
+				
+				<td><blockList><item><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">8. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Dienstleistungen im Bereich Hydrologie (Art. 57 des Gewässerschutzgesetzes vom 24. Jan. 1991<authorialNote>
+		<p>  <ref href="https://fedlex.data.admin.ch/eli/cc/1992/1860_1860_1860" xmlns:data="urn:com:c-moria:legi4ch:xslt:data" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">SR <b>814.20</b></ref></p>
+	</authorialNote>, Art. 13 des BG vom 21. Juni 1991<authorialNote>
+		<p>  <ref href="https://fedlex.data.admin.ch/eli/cc/1993/234_234_234" xmlns:data="urn:com:c-moria:legi4ch:xslt:data" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">SR <b>721.100</b></ref></p>
+	</authorialNote> über den Wasserbau sowie Art. 19 der Wasserbauverordnung vom 25. Juni 2025<authorialNote>
+		<p> <ref href="https://fedlex.data.admin.ch/eli/cc/1994/2502_2502_2502" xmlns:data="urn:com:c-moria:legi4ch:xslt:data" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">SR <b>721.100.1</b></ref></p>
+	</authorialNote>):</p></item></blockList></td>
+				<td>
+					
+					
+				</td>
+			</tr>
+			<tr>
+				
+				<td><blockList><item><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">8.1</num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Bezug von Daten direkt ab Messstation</p></item></blockList></td>
+				<td>
+					
+					
+				</td>
+			</tr>
+			<tr>
+				
+				<td><blockList><item><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">8.1.1</num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Installation Hochwassermeldung (einmalig)</p></item></blockList></td>
+				<td>
+					
+					
+				</td>
+			</tr>
+			<tr>
+				
+				<td><blockList><item><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">– </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">wenn Meldegerät vorhanden</p></item></blockList></td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">500</p>
+				</td>
+			</tr>
+			<tr>
+				
+				<td><blockList><item><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">– </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">wenn Installation Meldegerät vor Ort notwendig</p></item></blockList></td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">1500</p>
+				</td>
+			</tr>
+			<tr>
+				
+				<td><blockList><item><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">8.1.2</num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Hochwassermeldung: Abonnement pro Station und Jahr (inklusive Verwaltung von 3 Auslösekriterien und 3 Meldeempfängern)</p></item></blockList></td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">800</p>
+				</td>
+			</tr>
+			<tr>
+				
+				<td><blockList><item><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">8.1.3</num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Mitbenutzung von Messstationen mit Geräten des Kunden und Abgabe des Messsignals</p></item></blockList></td>
+				<td>
+					
+					
+				</td>
+			</tr>
+			<tr>
+				
+				<td><blockList><item><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">– </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Bezug pro Station und Jahr bei einem Sensor</p></item></blockList></td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">1100</p>
+				</td>
+			</tr>
+			<tr>
+				
+				<td><blockList><item><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">– </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">jeder zusätzliche Sensor pro Station und Jahr</p></item></blockList></td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">500</p>
+				</td>
+			</tr>
+			<tr>
+				
+				<td><blockList><item><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">8.2</num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Durchführung von Wassermessungen</p></item></blockList></td>
+				<td>
+					
+					
+				</td>
+			</tr>
+			<tr>
+				
+				<td><blockList><item><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">8.2.1</num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Durchführung der Messung nach Zeitaufwand und zusätzlich pro Wassermessung</p></item></blockList></td>
+				<td>
+					
+					
+				</td>
+			</tr>
+			<tr>
+				
+				<td><blockList><item><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">– </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Wassermessausrüstung, je nach Methode</p></item></blockList></td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">130–800</p>
+				</td>
+			</tr>
+			<tr>
+				
+				<td><blockList><item><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">– </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Auswertung und Resultatblatt, je nach Methode</p></item></blockList></td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">160–450</p>
+				</td>
+			</tr>
+			<tr>
+				
+				<td><blockList><item><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">8.2.2</num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">zusätzlich pro Tag</p></item></blockList></td>
+				<td>
+					
+					
+				</td>
+			</tr>
+			<tr>
+				
+				<td><blockList><item><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">– </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Messanhänger komplett</p></item></blockList></td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">200</p>
+				</td>
+			</tr>
+			<tr>
+				
+				<td><blockList><item><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">9.</num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Prüfung des Bürgschaftsgesuchs nach der CO<sub>2</sub>-Verordnung vom 30. November 2012<authorialNote>
+		<p> <ref href="https://fedlex.data.admin.ch/eli/cc/2012/856" xmlns:data="urn:com:c-moria:legi4ch:xslt:data" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">SR <b>641.711</b></ref></p>
+	</authorialNote></p></item></blockList></td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">3000</p>
+				</td>
+			</tr>
+			<tr>
+				
+				<td><blockList><item><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">10. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Verwaltungshandlungen und Kontrollen nach der Holzhandelsverordnung vom 12. Mai 2021<authorialNote>
+		<p> <ref href="https://fedlex.data.admin.ch/eli/cc/2021/306" xmlns:data="urn:com:c-moria:legi4ch:xslt:data" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">SR <b>814.021</b></ref></p>
+	</authorialNote> (HHV):</p></item></blockList></td>
+				<td>
+					
+					
+				</td>
+			</tr>
+			<tr>
+				
+				<td><blockList><item><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">a. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Kontrollen der Anwendung des Systems der Sorgfaltspflicht bei den Erstinverkehrbringern (Art. 15 Abs. 2 HHV):</p></item></blockList></td>
+				<td>
+					
+					
+				</td>
+			</tr>
+			<tr>
+				
+				<td><blockList><item><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">1. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Anreisepauschale</p></item></blockList></td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">100</p>
+				</td>
+			</tr>
+			<tr>
+				
+				<td><blockList><item><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">2. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Durchführung der Kontrolle des Systems der Sorgfaltspflicht</p></item></blockList></td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Zeitaufwand</p>
+				</td>
+			</tr>
+			<tr>
+				
+				<td><blockList><item><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">3. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Abklärungen bei Holz und Holzerzeugnissen</p></item></blockList></td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Zeitaufwand</p>
+				</td>
+			</tr>
+			<tr>
+				
+				<td><blockList><item><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">4. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Verfügung bei festgestellten Verstössen</p></item></blockList></td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Zeitaufwand, höchstens aber</p>
+					<p>5000</p>
+				</td>
+			</tr>
+			<tr>
+				
+				<td><blockList><item><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">5. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Kosten für Lagerung und Transport bei einer Beschlagnahmung oder Einziehung</p></item></blockList></td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">nach effektiven Kosten</p>
+				</td>
+			</tr>
+			<tr>
+				
+				<td><blockList><item><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">b. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Kontrollen der Rückverfolgbarkeitsverpflichtung bei den Händlern (Art. 15 Abs. 2 HHV):</p></item></blockList></td>
+				<td>
+					
+					
+				</td>
+			</tr>
+			<tr>
+				
+				<td><blockList><item><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">1. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Anreisepauschale</p></item></blockList></td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">100</p>
+				</td>
+			</tr>
+			<tr>
+				
+				<td><blockList><item><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">2. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Abklärungen zu einzelnen Lieferungen</p></item></blockList></td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Zeitaufwand</p>
+				</td>
+			</tr>
+			<tr>
+				
+				<td><blockList><item><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">3. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Verfügung bei festgestellten Verstössen</p></item></blockList></td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Zeitaufwand, höchstens aber</p>
+					<p>2000</p>
+				</td>
+			</tr>
+			<tr>
+				
+				<td><blockList><item><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">c. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Inspektionsstellen (Art. 11 und 15 Abs. 2 HHV):</p></item></blockList></td>
+				<td>
+					
+					
+				</td>
+			</tr>
+			<tr>
+				
+				<td><blockList><item><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">1. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Anerkennung einer Inspektionsstelle</p></item></blockList></td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">2000–15 000</p>
+				</td>
+			</tr>
+			<tr>
+				
+				<td><blockList><item><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">2. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Kontrolle einer anerkannten Inspektionsstelle</p></item></blockList></td>
+				<td>
+					
+					
+				</td>
+			</tr>
+			<tr>
+				
+				<td><blockList><item><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">– </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Anreisepauschale</p></item></blockList></td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">100</p>
+				</td>
+			</tr>
+			<tr>
+				
+				<td><blockList><item><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">– </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Durchführung der Kontrolle</p></item></blockList></td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Zeitaufwand</p>
+				</td>
+			</tr>
+			<tr>
+				
+				<td><blockList><item><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">– </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Verfügung bei festgestellten Verstössen</p></item></blockList></td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Zeitaufwand, höchstens aber</p>
+					<p>2000</p>
+				</td>
+			</tr>
+			<tr>
+				
+				<td><blockList><item><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">3. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Entziehung der Anerkennung</p></item></blockList></td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Zeitaufwand, höchstens aber</p>
+					<p>2000</p>
+				</td>
+			</tr>
+			<tr>
+				
+				<td><blockList><item><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">11. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Verwaltungshandlungen und Kontrollen nach der Verordnung vom 2. April 2025<authorialNote>
+		<p>  <ref href="https://fedlex.data.admin.ch/eli/cc/2025/250" xmlns:data="urn:com:c-moria:legi4ch:xslt:data" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">SR <b>814.311.1</b></ref></p>
+	</authorialNote> über das Inverkehrbringen von erneuerbaren oder emissionsarmen Brenn- und Treibstoffen (IBTV):</p></item><item><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"/><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Bearbeitung von Gesuchen betreffend Bewilligung von erneuerbaren oder emissionsarmen Brenn- oder Treibstoffen nach Artikel 4 IBTV</p></item></blockList></td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Zeitaufwand, <br/>höchstens aber</p>
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">10 000</p>
+				</td>
+			</tr>
+		</table></content></level></mainBody></doc></component></components></act></akomaNtoso>

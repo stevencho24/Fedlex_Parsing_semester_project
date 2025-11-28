@@ -1,0 +1,1663 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:fedlex="http://fedlex.admin.ch/"><act name="publicLaw"><meta><identification source="#ch.bk"><FRBRWork><FRBRthis value="https://fedlex.data.admin.ch/eli/cc/2012/607/20200101/main-text"/><FRBRuri value="https://fedlex.data.admin.ch/eli/cc/2012/607/20200101"/><FRBRdate date="2020-01-01" name="jolux:dateApplicability"/><FRBRdate date="2013-01-01" name="jolux:dateEntryInForce"/><FRBRdate date="2012-09-05" name="jolux:dateDocument"/><FRBRauthor href="#ch.bk" as="#publisher"/><FRBRauthor href="#ch.bk" as="#rightsHolder"/><FRBRcountry value="CH"/><FRBRnumber value="941.204"/><FRBRname xml:lang="fr" value="Ordonnance du 5 septembre 2012 sur les déclarations de quantité dans la vente en vrac et sur les préemballages (Ordonnance sur les déclarations de quantité, ODqua)" shortForm="ODqua"/><FRBRname xml:lang="it" value="Ordinanza del 5 settembre 2012 sulle indicazioni di quantità nella vendita di merce sfusa e sugli imballaggi preconfezionati (Ordinanza sulle indicazioni di quantità, OIQ)" shortForm="OIQ"/><FRBRname xml:lang="de" value="Verordnung vom 5. September 2012 über die Mengenangabe im Offenverkauf und auf Fertigpackungen (Mengenangabeverordnung, MeAV)" shortForm="MeAV"/><FRBRauthoritative value="true"/></FRBRWork><FRBRExpression><FRBRthis value="https://fedlex.data.admin.ch/eli/cc/2012/607/20200101/de/main-text"/><FRBRuri value="https://fedlex.data.admin.ch/eli/cc/2012/607/20200101/de"/><FRBRdate date="2020-01-01" name="jolux:dateApplicability"/><FRBRdate date="2013-01-01" name="jolux:dateEntryInForce"/><FRBRdate date="2012-09-05" name="jolux:dateDocument"/><FRBRauthor href="#ch.bk" as="#publisher"/><FRBRauthor href="#ch.bk" as="#rightsHolder"/><FRBRlanguage language="de"/></FRBRExpression><FRBRManifestation><FRBRthis value="https://fedlex.data.admin.ch/eli/cc/2012/607/20200101/de/xml/main-text"/><FRBRuri value="https://fedlex.data.admin.ch/eli/cc/2012/607/20200101/de/xml"/><FRBRdate date="2020-01-01" name="jolux:dateApplicability"/><FRBRdate date="2013-01-01" name="jolux:dateEntryInForce"/><FRBRdate date="2012-09-05" name="jolux:dateDocument"/><FRBRauthor href="#ch.bk" as="#publisher"/><FRBRauthor href="#ch.bk" as="#rightsHolder"/><FRBRformat value="xml" fedlex:generator="2025-q2-rel-1.7.2"/></FRBRManifestation></identification><references source="#ch.bk"><TLCOrganization eId="ch.bk" href="https://fedlex.data.admin.ch/vocabulary/legal-institution/2" showAs="Bundeskanzlei"/><TLCRole eId="publisher" href="http://data.legilux.public.lu/resource/ontology/jolux#publisher" showAs="Editeur"/><TLCRole eId="rightsHolder" href="http://data.legilux.public.lu/resource/ontology/jolux#rightsHolder" showAs="Détenteur des droits"/><TLCReference name="language" href="http://publications.europa.eu/resource/authority/language/DEU" showAs="de"/><TLCReference name="format" href="https://fedlex.data.admin.ch/vocabulary/user-format/xml" showAs="xml"/></references></meta><preface><p><docNumber>941.204 </docNumber></p><p><docTitle>Verordnung<br/>über die Mengenangabe <br/>im Offenverkauf und auf Fertigpackungen</docTitle></p><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">(Mengenangabeverordnung, MeAV)</p><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">vom 5. September 2012 (Stand am 1. Januar 2020)</p></preface><preamble><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Der Schweizerische Bundesrat,</p><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">gestützt auf die Artikel 13 Absatz 3, 14 Absätze 2–4, 18 Absatz 2 und 19 <br/>des Messgesetzes vom 17. Juni 2011<authorialNote>
+		<p> <ref href="https://fedlex.data.admin.ch/eli/cc/2012/734" xmlns:data="urn:com:c-moria:legi4ch:xslt:data" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">SR <b>941.20</b></ref></p>
+	</authorialNote> <br/>sowie in Ausführung des Bundesgesetzes vom 6. Oktober 1995<authorialNote>
+		<p> <ref href="https://fedlex.data.admin.ch/eli/cc/1996/1725_1725_1725" xmlns:data="urn:com:c-moria:legi4ch:xslt:data" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">SR <b>946.51</b></ref></p>
+	</authorialNote> <br/>über die technischen Handelshemmnisse (THG),</p><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">verordnet:</p></preamble><body><chapter eId="chap_1"><num>1. Kapitel: </num><heading>Allgemeine Bestimmungen</heading><article eId="art_1"><num><b>Art. 1</b></num><heading>Gegenstand und Geltungsbereich</heading><paragraph eId="art_1/para_1"><num>1</num><content><blockList><listIntroduction eId="art_1/para_1/listintro" xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Diese Verordnung regelt:</listIntroduction><item eId="art_1/para_1/lbl_a"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">a. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">die Mengenangaben für Konsumentinnen und Konsumenten im Offenverkauf und auf Fertigpackungen;</p></item><item eId="art_1/para_1/lbl_b"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">b. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">die Anforderungen an Massbehältnis-Flaschen;</p></item><item eId="art_1/para_1/lbl_c"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">c.<authorialNote>
+		<p> Fassung gemäss Ziff. I der V vom 30. Okt. 2019, in Kraft seit 1. Jan. 2020  (<ref href="https://fedlex.data.admin.ch/eli/oc/2019/638" xmlns:data="urn:com:c-moria:legi4ch:xslt:data" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">AS <b>2019</b> 3493</ref>).</p>
+	</authorialNote> </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">die Pflichten der Hersteller, der Importeure und weiterer Personen;</p></item><item eId="art_1/para_1/lbl_d"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">d.<authorialNote>
+		<p> Eingefügt durch Ziff. I der V vom 30. Okt. 2019, in Kraft seit 1. Jan. 2020  (<ref href="https://fedlex.data.admin.ch/eli/oc/2019/638" xmlns:data="urn:com:c-moria:legi4ch:xslt:data" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">AS <b>2019</b> 3493</ref>).</p>
+	</authorialNote> </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">die behördlichen Kontrollen.</p></item></blockList></content></paragraph><paragraph eId="art_1/para_2"><num>2</num><content><blockList><listIntroduction eId="art_1/para_2/listintro" xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Nicht dieser Verordnung unterstehen:</listIntroduction><item eId="art_1/para_2/lbl_a"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">a.<authorialNote>
+		<p> Fassung gemäss Ziff. I der V vom 30. Okt. 2019, in Kraft seit 1. Jan. 2020  (<ref href="https://fedlex.data.admin.ch/eli/oc/2019/638" xmlns:data="urn:com:c-moria:legi4ch:xslt:data" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">AS <b>2019</b> 3493</ref>).</p>
+	</authorialNote> </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Fertigpackungen mit einer Nennfüllmenge von weniger als 5 g oder 5 ml oder mehr als 50 kg oder 50 l; Fertigpackungen von Gewürzen, Kräutern sowie Cannabis unterstehen jedoch der Verordnung auch dann, wenn die Nennfüllmenge weniger als 5 g oder 5 ml beträgt;</p></item><item eId="art_1/para_2/lbl_b"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">b.<authorialNote>
+		<p> Fassung gemäss Anhang 8 Ziff. II 5 der Arzneimittel-Bewilligungsverordnung vom  14. Nov. 2018, in Kraft seit 1. Jan. 2019 (<ref href="https://fedlex.data.admin.ch/eli/oc/2018/786" xmlns:data="urn:com:c-moria:legi4ch:xslt:data" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">AS <b>2018</b> 5029</ref>).</p>
+	</authorialNote> </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Fertigpackungen von Arzneimitteln der Abgabekategorien A und B nach den Artikeln 41 und 42 der Arzneimittelverordnung vom 21. September 2018<authorialNote>
+		<p> <ref href="https://fedlex.data.admin.ch/eli/cc/2018/588" xmlns:data="urn:com:c-moria:legi4ch:xslt:data" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">SR <b>812.212.21</b></ref></p>
+	</authorialNote> sowie der Abgabekategorie C nach Artikel 25 der Arzneimittelverordnung vom 17. Oktober 2001<authorialNote>
+		<p> <ref href="https://fedlex.data.admin.ch/eli/oc/2001/516" xmlns:data="urn:com:c-moria:legi4ch:xslt:data" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">AS <b>2001</b> 3420</ref></p>
+	</authorialNote>;</p></item><item eId="art_1/para_2/lbl_c"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">c. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Waren, die gratis oder als Zugabe zur eigentlichen Leistung abgegeben werden;</p></item><item eId="art_1/para_2/lbl_d"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">d. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Tinten- und Tonerpatronen für Drucker.</p></item></blockList></content></paragraph></article><article eId="art_2"><num><b>Art. 2</b></num><heading>Begriffe</heading><paragraph eId="art_2/para"><content><blockList><listIntroduction eId="art_2/para/listintro" xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">In dieser Verordnung bedeuten:</listIntroduction><item eId="art_2/para/lbl_a"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">a. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"><i>messbare Ware:</i> Ware, deren Verkaufspreis in Abhängigkeit von der verkauften Menge berechnet wird;</p></item><item eId="art_2/para/lbl_b"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">b. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"><i>Fertigpackung:</i> Ware in einer Umschliessung beliebiger Art, die in Abwesenheit der Konsumentin oder des Konsumenten abgefüllt, abgemessen und verschlossen wird, wobei die Menge der darin enthaltenen Ware ohne Öffnen oder merkliche Änderung der Packung nicht verändert werden kann;</p></item><item eId="art_2/para/lbl_c"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">c. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"><i>Offenverkauf:</i> Verkauf einer Ware, die nicht in einer Fertigpackung angeboten wird;</p></item><item eId="art_2/para/lbl_d"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">d. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"><i>Mehrfachpackung:</i> mehrere gleiche oder verschiedenartige verpackte Waren, die in einer weiteren Verpackung zusammengefasst sind;</p></item><item eId="art_2/para/lbl_e"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">e. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"><i>Nennfüllmenge:</i> auf der Fertigpackung angegebene Menge der darin enthaltenen Ware;</p></item><item eId="art_2/para/lbl_f"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">f. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"><i>Füllmenge:</i> tatsächliche Menge der in der Fertigpackung enthaltenen Ware;</p></item><item eId="art_2/para/lbl_g"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">g. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"><i>Nettomenge:</i> Menge einer Ware ohne Umhüllung und weiteres Packmaterial;</p></item><item eId="art_2/para/lbl_h"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">h. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"><i>Abtropfgewicht:</i> Gewicht einer festen Ware nach Abgiessen der Aufgussflüssigkeit.</p></item></blockList></content></paragraph></article><article eId="art_3"><num><b>Art. 3</b></num><heading>Mengenbestimmung</heading><paragraph eId="art_3/para_1"><num>1</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Im Handel ist die Menge von messbaren Waren nach Gewicht, Volumen, Fläche, Länge oder Stückzahl zu bestimmen. Massgebend ist die Nettomenge einer Ware.</p></content></paragraph><paragraph eId="art_3/para_2"><num>2</num><content><blockList><listIntroduction eId="art_3/para_2/listintro" xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Soweit die Umgebungsbedingungen das Volumen einer Ware beeinflussen, sind folgende Temperaturen bei der Bestimmung der Menge massgebend:</listIntroduction><item eId="art_3/para_2/lbl_a"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">a. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Temperatur allgemein </p><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">20 °C;</p></item><item eId="art_3/para_2/lbl_b"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">b. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Temperatur für Brenn- und Treibstoffe </p><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">15 °C.</p></item></blockList></content></paragraph><paragraph eId="art_3/para_3"><num>3</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Als Gewicht gilt die Anzeige der Waage ohne Korrektur des Luftauftriebs.</p></content></paragraph><paragraph eId="art_3/para_4"><num>4</num><content><blockList><listIntroduction eId="art_3/para_4/listintro" xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Das Eidgenössische Justiz- und Polizeidepartement (EJPD) kann vorsehen:</listIntroduction><item eId="art_3/para_4/lbl_a"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">a. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">dass eine andere als die Nettomenge massgebend ist, namentlich wenn die herkömmliche Art der Verpackung einer Ware dies erfordert;</p></item><item eId="art_3/para_4/lbl_b"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">b. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">dass für tiefgekühlte und gefrorene Waren eine andere Temperatur als diejenige nach Absatz 2 massgebend ist.</p></item></blockList></content></paragraph></article><article eId="art_4"><num><b>Art. 4</b></num><heading>Mengenangabe</heading><paragraph eId="art_4/para_1"><num>1</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Die Mengenangabe muss in gesetzlichen Einheiten nach der Einheitenverordnung vom 23. November 1994<authorialNote>
+		<p> <ref href="https://fedlex.data.admin.ch/eli/cc/1994/3109_3109_3109" xmlns:data="urn:com:c-moria:legi4ch:xslt:data" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">SR <b>941.202</b></ref></p>
+	</authorialNote> oder durch Angabe der Stückzahl erfolgen.</p></content></paragraph><paragraph eId="art_4/para_2"><num>2</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Die Mengenangabe muss genau sein. Sie darf keine Mengenbereiche und Ausdrücke wie «ca.» enthalten.</p></content></paragraph><paragraph eId="art_4/para_3"><num>3</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Wird eine Mindestmenge angegeben, so muss sie in jedem einzelnen Fall erreicht werden. Es muss erkennbar sein, dass die Mindestmenge angegeben wird.</p></content></paragraph><paragraph eId="art_4/para_4"><num>4</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Die Mengenangabe darf zusätzlich zur Mengenangabe nach Absatz 1 in nicht metrischen Einheiten erfolgen, die im Ausland üblich sind.</p></content></paragraph></article></chapter><chapter eId="chap_2"><num>2. Kapitel: </num><heading>Offenverkauf</heading><article eId="art_5"><num><b>Art. 5</b></num><heading>Abmessen der Menge</heading><paragraph eId="art_5/para_1"><num>1</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Messbare Waren, die im Offenverkauf angeboten werden, müssen mit Messmitteln abgemessen werden, die den Anforderungen der Messmittelverordnung vom 15. Februar 2006<authorialNote>
+		<p> <ref href="https://fedlex.data.admin.ch/eli/cc/2006/245" xmlns:data="urn:com:c-moria:legi4ch:xslt:data" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">SR <b>941.210</b></ref></p>
+	</authorialNote> und den entsprechenden Ausführungsbestimmungen des EJPD genügen. Ist die Konsumentin oder der Konsument anwesend, so muss sie oder er den Messvorgang beobachten können oder selbst vornehmen.<authorialNote>
+		<p> Fassung gemäss Ziff. I der V vom 30. Okt. 2019, in Kraft seit 1. Jan. 2020  (<ref href="https://fedlex.data.admin.ch/eli/oc/2019/638" xmlns:data="urn:com:c-moria:legi4ch:xslt:data" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">AS <b>2019</b> 3493</ref>).</p>
+	</authorialNote></p></content></paragraph><paragraph eId="art_5/para_2"><num>2</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Das EJPD kann Ausnahmen vorsehen, namentlich für Waren, die üblicherweise nach Stückzahl verkauft werden.</p></content></paragraph></article><article eId="art_6"><num><b>Art. 6</b></num><heading>Prüfung der Mengenangabe von teilweise verpackten Waren</heading><paragraph eId="art_6/para"><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Wer teilweise verpackte Waren anbietet, die in Abwesenheit der Konsumentin oder des Konsumenten abgefüllt werden, muss der Konsumentin oder dem Konsumenten am Verkaufsort ermöglichen, mit einem geeigneten Messmittel, das den Anforderungen der Messmittelverordnung vom 15. Februar 2006<authorialNote>
+		<p> <ref href="https://fedlex.data.admin.ch/eli/cc/2006/245" xmlns:data="urn:com:c-moria:legi4ch:xslt:data" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">SR <b>941.210</b></ref></p>
+	</authorialNote> und den entsprechenden Ausführungsbestimmungen des EJPD genügt, die Menge zu prüfen oder prüfen zu lassen.</p></content></paragraph></article><article eId="art_7"><num><b>Art. 7</b></num><heading>Ort der Mengenangabe</heading><paragraph eId="art_7/para"><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Die Mengenangabe kann an einem anderen Ort als auf der Ware erfolgen, sofern sie der entsprechenden Ware eindeutig zugeordnet werden kann.</p></content></paragraph></article><article eId="art_7_a"><num><b>Art. 7</b><i>a</i><authorialNote>
+		<p> Eingefügt durch Ziff. I der V vom 30. Okt. 2019, in Kraft seit 1. Jan. 2020  (<ref href="https://fedlex.data.admin.ch/eli/oc/2019/638" xmlns:data="urn:com:c-moria:legi4ch:xslt:data" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">AS <b>2019</b> 3493</ref>).</p>
+	</authorialNote></num><heading>Blütengemüse in durchsichtiger Schutzfolie</heading><paragraph eId="art_7_a/para"><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Blütengemüse wie Artischocken, Blumenkohl und Broccoli in durchsichtiger Schutzfolie dürfen auch dann nach den Bestimmungen über den Offenverkauf angeboten werden, wenn eine Fertigpackung nach Artikel 2 Buchstabe b vorliegt. In diesem Fall gelten für sie die Bestimmungen des 3. Kapitels nicht.</p></content></paragraph></article><article eId="art_8"><num><b>Art. 8</b></num><heading>Abgabe von Waren in Restaurationsbetrieben und an öffentlichen Veranstaltungen</heading><paragraph eId="art_8/para_1"><num>1</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> In Restaurationsbetrieben, Take-Aways und ähnlichen Einrichtungen sowie an öffentlichen Veranstaltungen dürfen offen ausgeschenkte Getränke nur in Schankgefässen abgegeben werden, die den Anforderungen der Messmittelverordnung vom 15. Februar 2006<authorialNote>
+		<p> <ref href="https://fedlex.data.admin.ch/eli/cc/2006/245" xmlns:data="urn:com:c-moria:legi4ch:xslt:data" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">SR <b>941.210</b></ref></p>
+	</authorialNote> und den entsprechenden Ausführungsbestimmungen des EJPD genügen. Ausgenommen sind Heissgetränke, Cocktails und mit Wasser angesetzte oder mit Eis vermischte Getränke.</p></content></paragraph><paragraph eId="art_8/para_2"><num>2</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Keine Mengenangabe ist erforderlich für Speisen, die in Restaurationsbetrieben, Take-Aways und ähnlichen Einrichtungen sowie an öffentlichen Veranstaltungen serviert oder zur Selbstbedienung angeboten, zum Mitnehmen verkauft oder ausgeliefert werden.</p></content></paragraph><paragraph eId="art_8/para_3"><num>3</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Wer nach Absatz 2 Speisen zur Selbstbedienung anbietet und dafür einen Grundpreis angibt, muss zur Bestimmung des Gewichts Waagen einsetzen, die den Anforderungen der Messmittelverordnung vom 15. Februar 2006 und den entsprechenden Ausführungsbestimmungen des EJPD genügen. Das EJPD regelt, wie das Gewicht zu bestimmen ist.</p></content></paragraph></article><article eId="art_9"><num><b>Art. 9</b></num><heading>Mengenangaben an Warenautomaten</heading><paragraph eId="art_9/para_1"><num>1</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Warenautomaten müssen die abgegebene Menge anzeigen.</p></content></paragraph><paragraph eId="art_9/para_2"><num>2</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Bei Ausschankautomaten müssen die Schankgefässe oder die Automaten den Anforderungen der Messmittelverordnung vom 15. Februar 2006<authorialNote>
+		<p> <ref href="https://fedlex.data.admin.ch/eli/cc/2006/245" xmlns:data="urn:com:c-moria:legi4ch:xslt:data" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">SR <b>941.210</b></ref></p>
+	</authorialNote> und den entsprechenden Ausführungsbestimmungen des EJPD genügen.</p></content></paragraph><paragraph eId="art_9/para_3"><num>3</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Die Absätze 1 und 2 sind nicht anwendbar auf Getränke, die im Automaten mit Wasser angesetzt werden, wie Kaffee.</p></content></paragraph></article></chapter><chapter eId="chap_3"><num>3. Kapitel: </num><heading>Fertigpackungen</heading><section eId="chap_3/sec_1"><num>1. Abschnitt:</num><heading>Allgemeine Anforderungen an die Mengenangabe und die Aufschriften</heading><article eId="art_10"><num><b>Art. 10</b></num><heading>Mengenangabe nach Art der Ware</heading><paragraph eId="art_10/para_1"><num>1</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Als Nennfüllmenge ist bei flüssigen Waren das Nennvolumen anzugeben, bei anderen Waren das Nenngewicht, es sei denn die Handelsbräuche sehen für flüssige Waren die Angabe des Nenngewichts oder für andere Waren die Angabe des Nennvolumens vor.</p></content></paragraph><paragraph eId="art_10/para_2"><num>2</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Soweit es den Handelsbräuchen entspricht, darf abweichend von Absatz 1 als Nennfüllmenge die Fläche oder die Länge angegeben werden.</p></content></paragraph><paragraph eId="art_10/para_3"><num>3</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Kommt es bei Fertigpackungen von anderen Waren als Lebensmitteln vor allem auf die Anzahl der darin enthaltenen Stücke an, darf als Nennfüllmenge die Stückzahl angegeben werden. Diese Angabe kann entfallen, wenn die Konsumentin oder der Konsument die Stückzahl leicht selbst feststellen kann. Das EJPD kann Waren bezeichnen, für die typischerweise die Stückzahl angegeben werden darf.</p></content></paragraph><paragraph eId="art_10/para_4"><num>4</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Das EJPD kann Lebensmittel bezeichnen, bei denen als Nennfüllmenge die Stückzahl angegeben werden darf.</p></content></paragraph><paragraph eId="art_10/para_5"><num>5</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Wird die Nennfüllmenge mehrfach angegeben, wie nach Gewicht und nach Volumen, so muss jede Angabe den Anforderungen dieser Verordnung genügen.</p></content></paragraph></article><article eId="art_11"><num><b>Art. 11</b></num><heading>Aufschriften</heading><paragraph eId="art_11/para_1"><num>1</num><content><blockList><listIntroduction eId="art_11/para_1/listintro" xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Fertigpackungen müssen mit folgenden Aufschriften versehen werden:</listIntroduction><item eId="art_11/para_1/lbl_a"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">a. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Nennfüllmenge;</p></item><item eId="art_11/para_1/lbl_b"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">b. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Sachbezeichnung der Ware, auf die sich die Mengenangabe bezieht;</p></item><item eId="art_11/para_1/lbl_c"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">c. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">verantwortlicher Hersteller oder Importeur.</p></item></blockList></content></paragraph><paragraph eId="art_11/para_2"><num>2</num><content><blockList><listIntroduction eId="art_11/para_2/listintro" xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Bei Fertigpackungen mit einer Mengenangabe nach Gewicht oder Volumen muss die Nennfüllmenge ausgedrückt werden in den Einheiten Kilogramm oder Gramm, Liter, Zentiliter oder Milliliter, gefolgt von der Abkürzung oder dem Namen der Einheit. Die Aufschrift muss folgende Mindesthöhe haben:</listIntroduction><item eId="art_11/para_2/lbl_a"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">a. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">bei einer Nennfüllmenge von mehr als 1000 g oder 100 cl: mindestens 6 mm;</p></item><item eId="art_11/para_2/lbl_b"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">b. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">bei einer Nennfüllmenge von mehr als 200 g oder 20 cl bis 1000 g oder 100 cl: mindestens 4 mm;</p></item><item eId="art_11/para_2/lbl_c"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">c. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">bei einer Nennfüllmenge von mehr als 50 g oder 5 cl bis 200 g oder 20 cl: mindestens 3 mm;</p></item><item eId="art_11/para_2/lbl_d"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">d. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">bei einer Nennfüllmenge von 50 g und darunter oder 5 cl und darunter: mindestens 2 mm.</p></item></blockList></content></paragraph><paragraph eId="art_11/para_3"><num>3</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Bei Fertigpackungen mit einer Mengenangabe nach Fläche, Länge oder Stückzahl muss die Aufschrift für die Nennfüllmenge eine Mindesthöhe von 2 mm haben.</p></content></paragraph><paragraph eId="art_11/para_4"><num>4</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Die Aufschriften müssen unverwischbar, deutlich lesbar und gut sichtbar sein. Sie müssen lesbar sein, ohne dass die Verpackung geöffnet oder aufgeklappt werden muss.</p></content></paragraph></article><article eId="art_12"><num><b>Art. 12</b></num><heading>Konformitätskennzeichen</heading><paragraph eId="art_12/para"><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Werden die Anforderungen nach der Richtlinie 76/211/EWG<authorialNote>
+		<p> Richtlinie des Rates vom 20. Jan. 1976 zur Angleichung der Rechtsvorschriften der Mitgliedstaaten über die Abfüllung bestimmter Erzeugnisse nach Gewicht oder Volumen in Fertigpackungen (76/211/EWG), ABl. L 46 vom 21.2.1976, S. 1; zuletzt geändert durch Richtlinie 2007/45/EG des Europäischen Parlaments und des Rates vom  5. Sept. 2007, ABl. L 247 vom 21.9.2007, S. 17.</p>
+	</authorialNote> erfüllt, so darf auf Fertigpackungen gleicher Nennfüllmenge das europäische Konformitätskennzeichen nach Anhang 1 angebracht werden.</p></content></paragraph></article></section><section eId="chap_3/sec_2"><num>2. Abschnitt:</num><heading>Anforderungen an die Mengenangabe und die Aufschriften <br/>in besonderen Fällen</heading><article eId="art_13"><num><b>Art. 13</b></num><heading>Mehrfachpackungen</heading><paragraph eId="art_13/para_1"><num>1</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Besteht eine Mehrfachpackung aus nicht zum Einzelverkauf bestimmten Packungen derselben Ware, so ist die gesamte Nennfüllmenge anzugeben.</p></content></paragraph><paragraph eId="art_13/para_2"><num>2</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Besteht eine Mehrfachpackung aus nicht zum Einzelverkauf bestimmten Packungen mit verschiedenartigen Waren oder sind in einer Mehrfachpackung verschiedenartige Waren gesondert abgefüllt, so sind auf der Mehrfachpackung die Nennfüllmengen der einzelnen Waren anzugeben.</p></content></paragraph><paragraph eId="art_13/para_3"><num>3</num><content><blockList><listIntroduction eId="art_13/para_3/listintro" xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Besteht eine Mehrfachpackung aus Packungen mit für den Einzelverkauf genügenden Mengenangaben, so ist auf der Mehrfachpackung zusätzlich eine der folgenden Aufschriften anzubringen:</listIntroduction><item eId="art_13/para_3/lbl_a"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">a. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">die Anzahl und die Nennfüllmenge der einzelnen Packungen; oder</p></item><item eId="art_13/para_3/lbl_b"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">b. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">die gesamte Nennfüllmenge der Mehrfachpackung.</p></item></blockList></content></paragraph><paragraph eId="art_13/para_4"><num>4</num><content><blockList><listIntroduction eId="art_13/para_4/listintro" xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Auf die Angabe nach Absatz 3 kann verzichtet werden, wenn:</listIntroduction><item eId="art_13/para_4/lbl_a"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">a. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">die einzelnen Packungen sichtbar und leicht zählbar sind; und </p></item><item eId="art_13/para_4/lbl_b"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">b. </num><blockList><listIntroduction eId="art_13/para_4/lbl_b/listintro" xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">die Angaben der Nennfüllmenge erkennbar sind:</listIntroduction><item eId="art_13/para_4/lbl_b/lbl_1"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">1. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">bei Packungen gleicher Nennfüllmenge auf mindestens einer Packung,</p></item><item eId="art_13/para_4/lbl_b/lbl_2"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">2. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">bei Packungen ungleicher Nennfüllmenge auf allen Packungen.</p></item></blockList></item></blockList></content></paragraph></article><article eId="art_14"><num><b>Art. 14</b></num><heading>Fertigpackungen von Mahlzeiten</heading><paragraph eId="art_14/para"><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Auf Fertigpackungen von Mahlzeiten, die aus verschiedenen und voneinander gesondert abgefüllten Nahrungsmitteln bestehen, ist die gesamte Nennfüllmenge anzugeben.</p></content></paragraph></article><article eId="art_15"><num><b>Art. 15</b></num><heading>Fertigpackungen von Wein und Spirituosen</heading><paragraph eId="art_15/para"><content><blockList><listIntroduction eId="art_15/para/listintro" xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Die Nennfüllmenge von Fertigpackungen von Wein und Spirituosen richtet sich nach der Richtlinie 2007/45/EG<authorialNote>
+		<p> Richtlinie 2007/45/EG des Europäischen Parlaments und des Rates vom 5. Sept. 2007 zur Festlegung von Nennfüllmengen für Erzeugnisse in Fertigpackungen, zur Aufhebung der Richtlinien 75/106/EWG und 80/232/EWG des Rates und zur Änderung der Richtlinie 76/211/EWG des Rates, ABl. L 247 vom 21.9.2007, S. 17</p>
+	</authorialNote>, wenn:</listIntroduction><item eId="art_15/para/lbl_a"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">a. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">sie in der Europäischen Union in Verkehr gebracht werden;</p></item><item eId="art_15/para/lbl_b"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">b. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">das Konformitätskennzeichen nach Artikel 12 angebracht wird.</p></item></blockList></content></paragraph></article><article eId="art_16"><num><b>Art. 16</b></num><heading>Fertigpackungen von Waren mit Abtropfgewicht</heading><paragraph eId="art_16/para_1"><num>1</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Befindet sich ein festes Lebensmittel in einer Aufgussflüssigkeit, so ist auf der Fertigpackung neben der gesamten Nennfüllmenge auch das Abtropfgewicht anzugeben.</p></content></paragraph><paragraph eId="art_16/para_2"><num>2</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Als Aufgussflüssigkeiten gelten namentlich Wasser, wässrige Lösungen von Zucker oder Salz, Essig sowie bei Obst und Gemüse Frucht- und Gemüsesäfte.</p></content></paragraph><paragraph eId="art_16/para_3"><num>3</num><content><blockList><listIntroduction eId="art_16/para_3/listintro" xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Das Abtropfgewicht ist leicht erkennbar und deutlich lesbar in unmittelbarer Nähe der Nennfüllmenge und in mindestens gleicher Schriftgrösse anzugeben. Wird zusätzlich das Behältnisvolumen angegeben, so muss dieses in der Einheit Milliliter wie folgt angegeben werden:</listIntroduction><item eId="art_16/para_3/lbl_a"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">a. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">eingerahmt in ein Rechteck, jedoch ohne die Abkürzung ml; oder</p></item><item eId="art_16/para_3/lbl_b"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">b. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">mit der Abkürzung ml, jedoch ohne Rechteck.</p></item></blockList></content></paragraph></article><article eId="art_17"><num><b>Art. 17</b></num><heading>Fertigpackungen von tiefgekühlten Waren</heading><paragraph eId="art_17/para"><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Bei der Angabe der Nennfüllmenge von tiefgekühlten Waren darf Eis, das nicht zur Ware gehört, nicht eingerechnet werden.</p></content></paragraph></article><article eId="art_18"><num><b>Art. 18</b></num><heading>Fertigpackungen von Aerosolen</heading><paragraph eId="art_18/para"><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Neben der Nennfüllmenge ist auf Fertigpackungen von Aerosolen das Gesamtfassungsvermögen der Packung anzugeben. Die Aufschrift ist so zu gestalten, dass sie nicht mit der Angabe der Nennfüllmenge des Inhalts verwechselt werden kann.</p></content></paragraph></article></section><section eId="chap_3/sec_3"><num>3. Abschnitt:</num><heading>Füllmengen von Fertigpackungen gleicher Nennfüllmenge</heading><article eId="art_19"><num><b>Art. 19</b></num><heading>Füllmengen nach Gewicht oder Volumen</heading><paragraph eId="art_19/para_1"><num>1</num><content><blockList><listIntroduction eId="art_19/para_1/listintro" xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Nach Gewicht oder Volumen gekennzeichnete Fertigpackungen gleicher Nennfüllmenge müssen zur Zeit des erstmaligen Inverkehrbringens folgende Anforderungen erfüllen:</listIntroduction><item eId="art_19/para_1/lbl_a"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">a. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Die Füllmenge der Fertigpackungen darf im Mittel nicht kleiner sein als die Nennfüllmenge.</p></item><item eId="art_19/para_1/lbl_b"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">b.<authorialNote>
+		<p> Fassung gemäss Ziff. I der V vom 30. Okt. 2019, in Kraft seit 1. Jan. 2020  (<ref href="https://fedlex.data.admin.ch/eli/oc/2019/638" xmlns:data="urn:com:c-moria:legi4ch:xslt:data" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">AS <b>2019</b> 3493</ref>).</p>
+	</authorialNote> </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Der Anteil der Fertigpackungen mit einer Minusabweichung, die grösser ist als die zulässige Minusabweichung nach den Absätzen 3 und 3<sup>bis</sup>, darf 2,5 Prozent nicht übersteigen.</p></item><item eId="art_19/para_1/lbl_c"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">c.<authorialNote>
+		<p> Fassung gemäss Ziff. I der V vom 30. Okt. 2019, in Kraft seit 1. Jan. 2020  (<ref href="https://fedlex.data.admin.ch/eli/oc/2019/638" xmlns:data="urn:com:c-moria:legi4ch:xslt:data" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">AS <b>2019</b> 3493</ref>).</p>
+	</authorialNote> </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Keine Fertigpackung darf die zulässige Minusabweichung nach den Absätzen 3 und 3<sup>bis</sup> um mehr als das Zweifache übersteigen.</p></item></blockList></content></paragraph><paragraph eId="art_19/para_2"><num>2</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Fertigpackungen mit einer Minusabweichung, die die zulässige Minusabweichung um mehr als das Zweifache übersteigt, dürfen nur mit korrigierter Mengenangabe in Verkehr gebracht werden.</p></content></paragraph><paragraph eId="art_19/para_3"><num>3</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Die zulässigen Minusabweichungen betragen:</p><table border="1">
+			
+			
+			<tr>
+				
+				
+				<th xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">
+					
+					<p>Nennfüllmenge Q<sub>n</sub> in <br/>Gramm oder Milliliter</p>
+				</th>
+				<th xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">
+					
+					<p>Zulässige Minusabweichung</p>
+				</th>
+				<th xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">
+					
+					
+				</th>
+			</tr>
+			<tr>
+				
+				
+				<th xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">
+					
+					
+				</th>
+				<th xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">
+					
+					<p>in % von Q<sub>n</sub></p>
+				</th>
+				<th xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">
+					
+					<p>in g oder ml</p>
+				</th>
+			</tr>
+			<tr>
+				
+				
+				<th xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">
+					
+					
+				</th>
+				<th xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">
+					
+					
+				</th>
+				<th xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">
+					
+					
+				</th>
+			</tr>
+			<tr>
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">5–50</p>
+				</td>
+				<td>
+					
+					<p>9</p>
+				</td>
+				<td>
+					
+					<p>    –</p>
+				</td>
+			</tr>
+			<tr>
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">50–100</p>
+				</td>
+				<td>
+					
+					<p>–</p>
+				</td>
+				<td>
+					
+					<p>    4,5</p>
+				</td>
+			</tr>
+			<tr>
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">100–200</p>
+				</td>
+				<td>
+					
+					<p>4,5</p>
+				</td>
+				<td>
+					
+					<p>    –</p>
+				</td>
+			</tr>
+			<tr>
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">200–300</p>
+				</td>
+				<td>
+					
+					<p>–</p>
+				</td>
+				<td>
+					
+					<p>    9</p>
+				</td>
+			</tr>
+			<tr>
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">300–500</p>
+				</td>
+				<td>
+					
+					<p>3</p>
+				</td>
+				<td>
+					
+					<p>    –</p>
+				</td>
+			</tr>
+			<tr>
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">500–1000</p>
+				</td>
+				<td>
+					
+					<p>–</p>
+				</td>
+				<td>
+					
+					<p>  15</p>
+				</td>
+			</tr>
+			<tr>
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">1 000–10 000</p>
+				</td>
+				<td>
+					
+					<p>1,5</p>
+				</td>
+				<td>
+					
+					<p>    –</p>
+				</td>
+			</tr>
+			<tr>
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">10 000–15 000</p>
+				</td>
+				<td>
+					
+					<p>–</p>
+				</td>
+				<td>
+					
+					<p>150</p>
+				</td>
+			</tr>
+			<tr>
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">15 000–50 000</p>
+				</td>
+				<td>
+					
+					<p>1</p>
+				</td>
+				<td>
+					
+					<p>    –</p>
+				</td>
+			</tr>
+			
+		</table></content></paragraph><paragraph eId="art_19/para_3_bis"><num>3bis</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Bei Fertigpackungen von Gewürzen, Kräutern sowie Cannabis mit einer Nennfüllmenge von weniger als 5 g oder 5 ml beträgt die zulässige Minusabweichung 9 Prozent der Nennfüllmenge.<authorialNote>
+		<p> Eingefügt durch Ziff. I der V vom 30. Okt. 2019, in Kraft seit 1. Jan. 2020  (<ref href="https://fedlex.data.admin.ch/eli/oc/2019/638" xmlns:data="urn:com:c-moria:legi4ch:xslt:data" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">AS <b>2019</b> 3493</ref>).</p>
+	</authorialNote></p></content></paragraph><paragraph eId="art_19/para_4"><num>4</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Die zulässigen Minusabweichungen, die in Prozent angegeben sind, sind auf Zehntelgramm beziehungsweise Zehntelmilliliter aufzurunden.</p></content></paragraph></article><article eId="art_20"><num><b>Art. 20</b></num><heading>Füllmengen nach Länge oder Fläche</heading><paragraph eId="art_20/para_1"><num>1</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Bei nach Länge oder Fläche gekennzeichneten Fertigpackungen gleicher Nennfüllmenge darf die Füllmenge zur Zeit des erstmaligen Inverkehrbringens im Mittel nicht kleiner sein als die Nennfüllmenge.</p></content></paragraph><paragraph eId="art_20/para_2"><num>2</num><content><blockList><listIntroduction eId="art_20/para_2/listintro" xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Bei nach Länge gekennzeichneten Fertigpackungen sind folgende Anforderungen einzuhalten:</listIntroduction><item eId="art_20/para_2/lbl_a"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">a. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Bei einer Länge von höchstens 5 m ist keine Minusabweichung zulässig.</p></item><item eId="art_20/para_2/lbl_b"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">b. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Bei einer Länge von mehr als 5 m ist eine Minusabweichung von höchstens 2 Prozent zulässig.</p></item></blockList></content></paragraph><paragraph eId="art_20/para_3"><num>3</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Bei nach Fläche gekennzeichneten Fertigpackungen ist eine Minusabweichung von höchstens 3 Prozent zulässig.</p></content></paragraph></article><article eId="art_21"><num><b>Art. 21</b></num><heading>Füllmengen nach Stückzahl</heading><paragraph eId="art_21/para"><content><blockList><listIntroduction eId="art_21/para/listintro" xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Bei nach Stückzahl gekennzeichneten Fertigpackungen gleicher Nennfüllmenge sind folgende Anforderungen einzuhalten:</listIntroduction><item eId="art_21/para/lbl_a"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">a. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Bei Fertigpackungen mit einer Stückzahl von höchstens 50 darf die Füllmenge nicht kleiner sein als die Nennfüllmenge.</p></item><item eId="art_21/para/lbl_b"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">b. </num><blockList><listIntroduction eId="art_21/para/lbl_b/listintro" xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Bei Fertigpackungen mit einer Stückzahl von mehr als 50 darf:</listIntroduction><item eId="art_21/para/lbl_b/lbl_1"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">1. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">die Füllmenge im Mittel nicht kleiner sein als die Nennfüllmenge, und</p></item><item eId="art_21/para/lbl_b/lbl_2"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">2. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">die Minusabweichung nicht mehr als ein Stück für jedes angefangene Hundert betragen.</p></item></blockList></item></blockList></content></paragraph></article><article eId="art_22"><num><b>Art. 22</b></num><heading>Füllmengen von Fertigpackungen von Waren mit Abtropfgewicht</heading><paragraph eId="art_22/para_1"><num>1</num><content><blockList><listIntroduction eId="art_22/para_1/listintro" xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Nach Abtropfgewicht gekennzeichnete Fertigpackungen gleicher Nennfüllmenge müssen zur Zeit des erstmaligen Inverkehrbringens folgende Anforderungen erfüllen:</listIntroduction><item eId="art_22/para_1/lbl_a"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">a. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Das tatsächliche Abtropfgewicht darf im Mittel nicht kleiner sein als das angegebene Abtropfgewicht.</p></item><item eId="art_22/para_1/lbl_b"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">b.<authorialNote>
+		<p> Fassung gemäss Ziff. I der V vom 30. Okt. 2019, in Kraft seit 1. Jan. 2020  (<ref href="https://fedlex.data.admin.ch/eli/oc/2019/638" xmlns:data="urn:com:c-moria:legi4ch:xslt:data" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">AS <b>2019</b> 3493</ref>).</p>
+	</authorialNote> </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Der Anteil der Fertigpackungen mit einer Minusabweichung, die grösser ist als die zulässige Minusabweichung nach Artikel 19 Absätze 3 und 3<sup>bis</sup>, darf 2,5 Prozent nicht übersteigen.</p></item><item eId="art_22/para_1/lbl_c"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">c.<authorialNote>
+		<p> Fassung gemäss Ziff. I der V vom 30. Okt. 2019, in Kraft seit 1. Jan. 2020  (<ref href="https://fedlex.data.admin.ch/eli/oc/2019/638" xmlns:data="urn:com:c-moria:legi4ch:xslt:data" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">AS <b>2019</b> 3493</ref>).</p>
+	</authorialNote> </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Keine Fertigpackung darf die zulässige Minusabweichung nach Artikel 19 Absätze 3 und 3<sup>bis</sup> um mehr als das Zweifache übersteigen.</p></item></blockList></content></paragraph><paragraph eId="art_22/para_2"><num>2</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Fertigpackungen mit einer Minusabweichung, welche die zulässige Minusabweichung nach Artikel 19 Absätze 3 und 3<sup>bis</sup> um mehr als das Zweifache übersteigt, dürfen nur mit korrigierter Mengenangabe in Verkehr gebracht werden.<authorialNote>
+		<p> Fassung gemäss Ziff. I der V vom 30. Okt. 2019, in Kraft seit 1. Jan. 2020  (<ref href="https://fedlex.data.admin.ch/eli/oc/2019/638" xmlns:data="urn:com:c-moria:legi4ch:xslt:data" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">AS <b>2019</b> 3493</ref>).</p>
+	</authorialNote></p></content></paragraph><paragraph eId="art_22/para_3"><num>3</num><content><blockList><listIntroduction eId="art_22/para_3/listintro" xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Das EJPD regelt:</listIntroduction><item eId="art_22/para_3/lbl_a"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">a. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">nach welchem Verfahren das Abtropfgewicht bestimmt wird;</p></item><item eId="art_22/para_3/lbl_b"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">b. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">die Zeiträume, innerhalb deren die Anforderungen nach Absatz 1 eingehalten werden müssen.</p></item></blockList></content></paragraph></article><article eId="art_23"><num><b>Art. 23</b></num><heading>Füllmengen von Fertigpackungen von tiefgekühlten Waren</heading><paragraph eId="art_23/para"><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Das EJPD regelt, nach welchem Verfahren die Füllmenge von Fertigpackungen von tiefgekühlten Waren bestimmt wird.</p></content></paragraph></article><article eId="art_24"><num><b>Art. 24</b></num><heading>Füllmengen von Fertigpackungen von Waren mit Schwund</heading><paragraph eId="art_24/para_1"><num>1</num><content><blockList><listIntroduction eId="art_24/para_1/listintro" xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Fertigpackungen von Waren, deren Menge mit der Zeit auf natürliche Weise abnimmt, müssen die Anforderungen an die Füllmenge zum folgenden Zeitpunkt erfüllen:</listIntroduction><item eId="art_24/para_1/lbl_a"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">a. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">bei ihrem ersten Inverkehrbringen in einem Mitgliedstaat des Europäischen Wirtschaftsraums, wenn sie mit dem Zeichen nach Artikel 3 der Richtlinie 76/211/EWG<authorialNote>
+		<p> Siehe Fussnote zu Art. 12.</p>
+	</authorialNote> versehen worden sind;</p></item><item eId="art_24/para_1/lbl_b"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">b. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">in den übrigen Fällen bei ihrem ersten Inverkehrbringen in der Schweiz.</p></item></blockList></content></paragraph><paragraph eId="art_24/para_2"><num>2</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Das EJPD regelt, wie der Schwund berücksichtigt wird.</p></content></paragraph></article><article eId="art_25"><num><b>Art. 25</b></num><heading>Füllmengen von Fertigpackungen von Aerosolen</heading><paragraph eId="art_25/para"><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Die Füllmenge von Fertigpackungen von Aerosolen bestimmt sich aus dem Wirkstoff und dem Treibgas.</p></content></paragraph></article><article eId="art_26"><num><b>Art. 26</b><authorialNote>
+		<p> Fassung gemäss Ziff. I der V vom 30. Okt. 2019, in Kraft seit 1. Jan. 2020  (<ref href="https://fedlex.data.admin.ch/eli/oc/2019/638" xmlns:data="urn:com:c-moria:legi4ch:xslt:data" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">AS <b>2019</b> 3493</ref>).</p>
+	</authorialNote></num><heading>Füllmengen von Gasflaschen mit Flüssiggas</heading><paragraph eId="art_26/para"><content><blockList><listIntroduction eId="art_26/para/listintro" xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Für Gasflaschen wie Stahl-, Aluminium- oder Composite-Flaschen mit Flüssiggas wie Propan oder Butan gelten abweichend von Artikel 19 die folgenden Anforderungen:</listIntroduction><item eId="art_26/para/lbl_a"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">a. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Für Gasflaschen mit einer Nennfüllmenge von 5 kg oder weniger ist eine Minusabweichung von höchstens 3 Prozent der Nennfüllmenge zulässig.</p></item><item eId="art_26/para/lbl_b"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">b. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Für Gasflaschen mit einer Nennfüllmenge von mehr als 5 kg ist eine Minusabweichung von höchstens 200 g zulässig.</p></item></blockList></content></paragraph></article></section><section eId="chap_3/sec_4"><num>4. Abschnitt:</num><heading>Füllmengen von Fertigpackungen ungleicher Nennfüllmenge</heading><article eId="art_27"><num><b>Art. 27</b></num><paragraph eId="art_27/para_1"><num>1</num><content><blockList><listIntroduction eId="art_27/para_1/listintro" xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Bei nach Gewicht gekennzeichneten Fertigpackungen ungleicher Nennfüllmenge dürfen zur Zeit des erstmaligen Inverkehrbringens folgende Minusabweichungen nicht überschritten werden:</listIntroduction><item eId="art_27/para_1/lbl_a"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">a. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">2,0 g bei einem Gewicht von weniger als 500 g;</p></item><item eId="art_27/para_1/lbl_b"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">b. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">5,0 g bei einem Gewicht zwischen 500 g und weniger als 2 kg;</p></item><item eId="art_27/para_1/lbl_c"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">c. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">10,0 g bei einem Gewicht zwischen 2 kg und 10 kg.</p></item></blockList></content></paragraph><paragraph eId="art_27/para_2"><num>2</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Die Minusabweichungen dürfen nicht systematisch ausgenutzt werden. Das EJPD kann das Nähere regeln.</p></content></paragraph></article></section></chapter><chapter eId="chap_4"><num>4. Kapitel: </num><heading>Massbehältnis-Flaschen</heading><article eId="art_28"><num><b>Art. 28</b></num><heading>Begriff</heading><paragraph eId="art_28/para"><content><blockList><listIntroduction eId="art_28/para/listintro" xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Massbehältnis-Flaschen sind Behältnisse, die folgende Voraussetzungen erfüllen:</listIntroduction><item eId="art_28/para/lbl_a"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">a. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Sie sind aus Glas oder einem beliebigen anderen Werkstoff mit einer Formsteifigkeit mit denselben messtechnischen Garantien wie Glas.</p></item><item eId="art_28/para/lbl_b"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">b. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Sie sind verschlossen oder verschliessbar zur Aufbewahrung, Beförderung oder Lieferung von Flüssigkeiten bestimmt.</p></item><item eId="art_28/para/lbl_c"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">c. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Sie weisen ein Nennvolumen von nicht weniger als 5 cl und nicht mehr als 5 l auf.</p></item><item eId="art_28/para/lbl_d"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">d. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Sie gestatten bei Füllung bis zu einer bestimmten Höhe oder bis zu einem bestimmten Prozentsatz ihres Randvollvolumens die Messung ihres Inhalts mit einer ausreichenden Genauigkeit.</p></item></blockList></content></paragraph></article><article eId="art_29"><num><b>Art. 29</b></num><heading>Kennzeichnung des Volumens</heading><paragraph eId="art_29/para_1"><num>1</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Massbehältnis-Flaschen müssen durch das Nennvolumen, das Randvollvolumen, den Leerraum und das Füllvolumen gekennzeichnet werden. Alle Angaben müssen sich auf eine Temperatur von 20 °C beziehen.</p></content></paragraph><paragraph eId="art_29/para_2"><num>2</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Als Nennvolumen gilt das auf der Flasche angegebene Flüssigkeitsvolumen, das die Flasche enthalten soll, wenn sie unter normalen Bedingungen gefüllt wird.</p></content></paragraph><paragraph eId="art_29/para_3"><num>3</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Als Randvollvolumen gilt das Flüssigkeitsvolumen, das die Flasche enthält, wenn sie bis zur oberen Randebene gefüllt ist.</p></content></paragraph><paragraph eId="art_29/para_4"><num>4</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Als Leerraum gilt die Differenz zwischen dem Nennvolumen und dem Randvollvolumen.</p></content></paragraph><paragraph eId="art_29/para_5"><num>5</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Als Füllvolumen gilt das Flüssigkeitsvolumen, das die Flasche bei genauer Einhaltung der theoretischen Füllbedingungen für das Erreichen des Nennvolumens tatsächlich enthält.</p></content></paragraph></article><article eId="art_30"><num><b>Art. 30</b></num><heading>Genauigkeit</heading><paragraph eId="art_30/para_1"><num>1</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Der Abstand zwischen der theoretischen Füllhöhe beim Nennvolumen und der oberen Randebene sowie der Leerraum müssen für alle nach der gleichen Zeichnung hergestellten Flaschen annähernd konstant sein.</p></content></paragraph><paragraph eId="art_30/para_2"><num>2</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Massbehältnis-Flaschen dürfen höchstens folgende Plus- oder Minusabweichungen zwischen dem Füllvolumen und dem Nennvolumen aufweisen:</p><table border="1">
+			
+			
+			<tr>
+				
+				
+				<th xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">
+					
+					<p>Nennvolumen in ml</p>
+				</th>
+				<th xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">
+					
+					<p>Fehlergrenzen</p>
+				</th>
+				<th xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">
+					
+					
+				</th>
+			</tr>
+			<tr>
+				
+				
+				<th xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">
+					
+					
+				</th>
+				<th xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">
+					
+					<p>in % des Nennvolumens</p>
+				</th>
+				<th xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">
+					
+					<p>in ml</p>
+				</th>
+			</tr>
+			<tr>
+				
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					
+				</td>
+			</tr>
+			<tr>
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">50–100</p>
+				</td>
+				<td>
+					
+					<p>–</p>
+				</td>
+				<td>
+					
+					<p>  3</p>
+				</td>
+			</tr>
+			<tr>
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">100–200</p>
+				</td>
+				<td>
+					
+					<p>3</p>
+				</td>
+				<td>
+					
+					<p>  –</p>
+				</td>
+			</tr>
+			<tr>
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">200–300</p>
+				</td>
+				<td>
+					
+					<p>–</p>
+				</td>
+				<td>
+					
+					<p>  6</p>
+				</td>
+			</tr>
+			<tr>
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">300–500</p>
+				</td>
+				<td>
+					
+					<p>2</p>
+				</td>
+				<td>
+					
+					<p>  –</p>
+				</td>
+			</tr>
+			<tr>
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">500–1000</p>
+				</td>
+				<td>
+					
+					<p>–</p>
+				</td>
+				<td>
+					
+					<p>10</p>
+				</td>
+			</tr>
+			<tr>
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">1000–5000</p>
+				</td>
+				<td>
+					
+					<p>1</p>
+				</td>
+				<td>
+					
+					<p>  –</p>
+				</td>
+			</tr>
+			
+		</table></content></paragraph><paragraph eId="art_30/para_3"><num>3</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Für das Randvollvolumen gelten die gleichen Fehlergrenzen wie für das Nennvolumen.</p></content></paragraph><paragraph eId="art_30/para_4"><num>4</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Die Fehlergrenzen dürfen nicht systematisch ausgenutzt werden.</p></content></paragraph></article><article eId="art_31"><num><b>Art. 31</b></num><heading>Aufschriften</heading><paragraph eId="art_31/para_1"><num>1</num><content><blockList><listIntroduction eId="art_31/para_1/listintro" xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Massbehältnis-Flaschen müssen unverwischbar, deutlich lesbar und gut sichtbar folgende Aufschriften tragen:</listIntroduction><item eId="art_31/para_1/lbl_a"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">a. </num><blockList><listIntroduction eId="art_31/para_1/lbl_a/listintro" xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">auf dem Mantel, an der Bodennaht oder am Boden:</listIntroduction><item eId="art_31/para_1/lbl_a/lbl_1"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">1. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">das Nennvolumen, ausgedrückt in den Einheiten Liter, Zentiliter oder Milliliter, gefolgt von der Abkürzung oder dem Namen der verwendeten Einheit,</p></item><item eId="art_31/para_1/lbl_a/lbl_2"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">2. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">ein unverwechselbares Herstellerzeichen,</p></item><item eId="art_31/para_1/lbl_a/lbl_3"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">3. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">das Sonderzeichen nach Anhang 2;</p></item></blockList></item><item eId="art_31/para_1/lbl_b"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">b. </num><blockList><listIntroduction eId="art_31/para_1/lbl_b/listintro" xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">am Flaschenboden oder an der Bodennaht, und zwar so, dass keine Verwechslung mit den Angaben nach Buchstabe a möglich ist, mindestens eine der folgenden Angaben:</listIntroduction><item eId="art_31/para_1/lbl_b/lbl_1"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">1. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">das Randvollvolumen in Zentilitern, jedoch ohne den Namen der Einheit oder deren Abkürzung,</p></item><item eId="art_31/para_1/lbl_b/lbl_2"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">2. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">den Abstand in Millimetern von der oberen Randebene bis zur theoretischen Füllhöhe beim Nennvolumen mit der Abkürzung mm.</p></item></blockList></item></blockList></content></paragraph><paragraph eId="art_31/para_2"><num>2</num><content><blockList><listIntroduction eId="art_31/para_2/listintro" xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Für die Aufschriften nach Absatz 1 Buchstaben a Ziffer 1 und b gelten folgende Mindesthöhen:</listIntroduction><item eId="art_31/para_2/lbl_a"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">a. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">bei einem Nennvolumen von mehr als 100 cl mindestens 6 mm;</p></item><item eId="art_31/para_2/lbl_b"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">b. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">bei einem Nennvolumen von mehr als 20 cl bis 100 cl mindestens 4 mm;</p></item><item eId="art_31/para_2/lbl_c"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">c. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">bei einem Nennvolumen von 20 cl und darunter mindestens 3 mm.</p></item></blockList></content></paragraph><paragraph eId="art_31/para_3"><num>3</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Andere Angaben dürfen auf der Flasche angebracht werden, wenn eine Verwechslung mit den Angaben nach den Absätzen 1 und 2 ausgeschlossen ist.</p></content></paragraph></article></chapter><chapter eId="chap_5"><num>5. Kapitel:</num><heading>Pflichten der Hersteller, der Importeure und weiterer Personen</heading><article eId="art_32"><num><b>Art. 32</b></num><heading>Verantwortliche Personen</heading><paragraph eId="art_32/para"><content><blockList><listIntroduction eId="art_32/para/listintro" xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Verantwortlich für die Einhaltung dieser Verordnung sind:</listIntroduction><item eId="art_32/para/lbl_a"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">a. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">im Offenverkauf: die natürliche oder juristische Person, die messbare Waren, die für den Offenverkauf bestimmt sind, in der Schweiz verkauft;</p></item><item eId="art_32/para/lbl_b"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">b.<authorialNote>
+		<p> Fassung gemäss Ziff. I der V vom 30. Okt. 2019, in Kraft seit 1. Jan. 2020  (<ref href="https://fedlex.data.admin.ch/eli/oc/2019/638" xmlns:data="urn:com:c-moria:legi4ch:xslt:data" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">AS <b>2019</b> 3493</ref>).</p>
+	</authorialNote> </num><blockList><listIntroduction eId="art_32/para/lbl_b/listintro" xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">bei Fertigpackungen, auf denen das europäische Konformitätskennzeichen (Art. 12) angebracht ist, und bei Massbehältnis-Flaschen:</listIntroduction><item eId="art_32/para/lbl_b/lbl_1"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">1. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">der Hersteller, wenn die Fertigpackung oder die Massbehältnis-Flasche in der Schweiz hergestellt wird oder wenn die Fertigpackung oder die Massbehältnis-Flasche in einem Mitgliedstaat des Europäischen Wirtschaftsraums hergestellt und in der Schweiz in Verkehr gebracht wird;</p></item><item eId="art_32/para/lbl_b/lbl_2"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">2. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">der Importeur, wenn die Fertigpackung oder die Massbehältnis-Flasche in einem Drittstaat hergestellt wird.</p></item></blockList></item><item eId="art_32/para/lbl_c"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">c.<authorialNote>
+		<p> Eingefügt durch Ziff. I der V vom 30. Okt. 2019, in Kraft seit 1. Jan. 2020  (<ref href="https://fedlex.data.admin.ch/eli/oc/2019/638" xmlns:data="urn:com:c-moria:legi4ch:xslt:data" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">AS <b>2019</b> 3493</ref>).</p>
+	</authorialNote> </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">bei Fertigpackungen, auf denen das europäische Konformitätskennzeichen (Art. 12) nicht angebracht ist, die natürliche oder juristische Person, welche die Fertigpackungen in die Schweiz einführt.</p></item></blockList></content></paragraph></article><article eId="art_33"><num><b>Art. 33</b></num><heading>Prüfung der Füllmenge von Fertigpackungen</heading><paragraph eId="art_33/para_1"><num>1</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Die verantwortlichen Personen müssen prüfen, ob die Füllmenge einer Fertigpackung stimmt.</p></content></paragraph><paragraph eId="art_33/para_2"><num>2</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Verwenden Hersteller in der Schweiz für die Prüfung Messmittel, so müssen diese für den vorgesehenen Verwendungszweck geeignet sein und den Anforderungen der Messmittelverordnung vom 15. Februar 2006<authorialNote>
+		<p> <ref href="https://fedlex.data.admin.ch/eli/cc/2006/245" xmlns:data="urn:com:c-moria:legi4ch:xslt:data" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">SR <b>941.210</b></ref></p>
+	</authorialNote> und den entsprechenden Ausführungsbestimmungen des EJPD genügen.</p></content></paragraph><paragraph eId="art_33/para_3"><num>3</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Die Prüfung kann stichprobenweise erfolgen.</p></content></paragraph><paragraph eId="art_33/para_4"><num>4</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Wird die Füllmenge nicht gemessen, so muss der Hersteller auf andere Weise dafür sorgen, dass die Füllmenge tatsächlich den angegebenen Wert hat. </p></content></paragraph><paragraph eId="art_33/para_5"><num>5</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Bei der Einfuhr aus Staaten ausserhalb des Europäischen Wirtschaftsraums kann der Importeur anstelle einer Prüfung auch nachweisen, dass er über hinreichende Garantien verfügt, um seine Verantwortung wahrnehmen zu können.</p></content></paragraph><paragraph eId="art_33/para_6"><num>6</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Bei Waren, deren Menge nach Volumen angegeben ist, ist eine Prüfung nicht nötig, wenn bei der Herstellung der Fertigpackungen Massbehältnis-Flaschen verwendet und ordnungsgemäss gefüllt werden, die den Anforderungen nach den Artikeln 28–31 genügen.</p></content></paragraph><paragraph eId="art_33/para_7"><num>7</num><content><blockList><listIntroduction eId="art_33/para_7/listintro" xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Bei der Herstellung von Fertigpackungen gleicher Nennfüllmenge in der Schweiz sind die Ergebnisse der Prüfungen aufzuzeichnen und für die zuständige Stelle (Art. 34) bereitzuhalten. Die Aufbewahrungsfrist beträgt:</listIntroduction><item eId="art_33/para_7/lbl_a"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">a. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">ein Jahr bei Waren mit einer Haltbarkeit von mindestens sechs Monaten;</p></item><item eId="art_33/para_7/lbl_b"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">b. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">sechs Monate über den Ablauf der Haltbarkeit hinaus bei Waren mit einer Haltbarkeit von weniger als sechs Monaten.</p></item></blockList></content></paragraph><paragraph eId="art_33/para_8"><num>8</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Das EJPD kann die Verfahren der Prüfung näher regeln.</p></content></paragraph></article></chapter><chapter eId="chap_6"><num>6. Kapitel: </num><heading>Behördliche Kontrollen</heading><article eId="art_34"><num><b>Art. 34</b></num><heading>Zuständige Stelle</heading><paragraph eId="art_34/para_1"><num>1</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Die Kantone kontrollieren unter Vorbehalt von Absatz 2 die Einhaltung dieser Verordnung. Sie bezeichnen die zuständige Behörde.</p></content></paragraph><paragraph eId="art_34/para_2"><num>2</num><content><blockList><listIntroduction eId="art_34/para_2/listintro" xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Das Eidgenössische Institut für Metrologie ist für folgende Teilbereiche zuständig:</listIntroduction><item eId="art_34/para_2/lbl_a"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">a. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Es kontrolliert die Massbehältnis-Flaschen bei Schweizer Herstellern.</p></item><item eId="art_34/para_2/lbl_b"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">b. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Es kontrolliert Fertigpackungen und öffentliche Verkaufsstellen, soweit das EJPD dies im Rahmen des Programms nach Absatz 4 vorsieht. </p></item></blockList></content></paragraph><paragraph eId="art_34/para_3"><num>3</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Es beaufsichtigt die Kontrolltätigkeit der Kantone.</p></content></paragraph><paragraph eId="art_34/para_4"><num>4</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Das EJPD stellt jährlich ein Programm auf, in dem es Schwerpunkte der Kontrollen und der Aufsichtstätigkeit des Eidgenössischen Instituts für Metrologie festlegt. Dieses erstattet dem EJPD Bericht über die Umsetzung des Programms und die Tätigkeit der Kantone.</p></content></paragraph><paragraph eId="art_34/para_5"><num>5</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Die Zollstellen können auf Ersuchen des Eidgenössischen Instituts für Metrologie bei Kontrollen von Fertigpackungen und Massbehältnis-Flaschen mitwirken.</p></content></paragraph></article><article eId="art_35"><num><b>Art. 35</b></num><heading>Kontrolle von Fertigpackungen und Massbehältnis-Flaschen</heading><paragraph eId="art_35/para_1"><num>1</num><content><blockList><listIntroduction eId="art_35/para_1/listintro" xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Die zuständige Stelle kontrolliert die Übereinstimmung der Fertigpackungen und der Massbehältnis-Flaschen mit den Vorschriften dieser Verordnung stichprobenweise:</listIntroduction><item eId="art_35/para_1/lbl_a"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">a. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">beim Hersteller, wenn die Herstellung in der Schweiz erfolgt;</p></item><item eId="art_35/para_1/lbl_b"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">b. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">bei der natürlichen oder juristischen Person, die die Fertigpackungen oder die Massbehältnis-Flaschen in die Schweiz einführt; oder</p></item><item eId="art_35/para_1/lbl_c"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">c. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">auf einer anderen Stufe des Handels, wenn Kontrollen nach Buchstabe a oder b nicht durchführbar sind.</p></item></blockList></content></paragraph><paragraph eId="art_35/para_1_bis"><num>1bis</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Die für die Kontrolle erforderlichen Fertigpackungen und Massbehältnis-Flaschen müssen der zuständigen Stelle kostenlos zur Verfügung gestellt werden.<authorialNote>
+		<p> Eingefügt durch Ziff. I der V vom 30. Okt. 2019, in Kraft seit 1. Jan. 2020  (<ref href="https://fedlex.data.admin.ch/eli/oc/2019/638" xmlns:data="urn:com:c-moria:legi4ch:xslt:data" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">AS <b>2019</b> 3493</ref>).</p>
+	</authorialNote></p></content></paragraph><paragraph eId="art_35/para_2"><num>2</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Die Kontrolle der Fertigpackungen richtet sich nach Anhang 3, diejenige der Massbehältnis-Flaschen nach Anhang 4.</p></content></paragraph><paragraph eId="art_35/para_3"><num>3</num><content><blockList><listIntroduction eId="art_35/para_3/listintro" xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Die Kontrollen erfolgen:</listIntroduction><item eId="art_35/para_3/lbl_a"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">a. </num><blockList><listIntroduction eId="art_35/para_3/lbl_a/listintro" xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">mindestens einmal jährlich:</listIntroduction><item eId="art_35/para_3/lbl_a/lbl_1"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">1. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">bei Herstellern, die Fertigpackungen überwiegend für den Handel herstellen,</p></item><item eId="art_35/para_3/lbl_a/lbl_2"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">2. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">bei Personen nach Absatz 1 Buchstabe b,</p></item><item eId="art_35/para_3/lbl_a/lbl_3"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">3. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">bei Herstellern von Massbehältnis-Flaschen;</p></item></blockList></item><item eId="art_35/para_3/lbl_b"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">b. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">mindestens einmal alle zwei Jahre bei Herstellern, die ihre Fertigpackungen überwiegend selbst an die Konsumentinnen und Konsumenten verkaufen.</p></item></blockList></content></paragraph><paragraph eId="art_35/para_4"><num>4</num><content><blockList><listIntroduction eId="art_35/para_4/listintro" xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Entsprechen Fertigpackungen oder Massbehältnis-Flaschen den Vorschriften dieser Verordnung nicht, so schlägt die zuständige Stelle der betroffenen Person eine der folgenden Massnahmen vor:</listIntroduction><item eId="art_35/para_4/lbl_a"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">a. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Herstellen des rechtmässigen Zustandes und Inverkehrbringen;</p></item><item eId="art_35/para_4/lbl_b"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">b. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Inverkehrbringen der kontrollierten Fertigpackungen oder Massbehältnis-Flaschen unter Auflagen;</p></item><item eId="art_35/para_4/lbl_c"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">c. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Verzicht auf das Inverkehrbringen.</p></item></blockList></content></paragraph><paragraph eId="art_35/para_5"><num>5</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Stimmt die betroffene Person der vorgeschlagenen Massnahme nicht zu, so erlässt die zuständige Stelle eine Verfügung.</p></content></paragraph><paragraph eId="art_35/para_6"><num>6</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Weitere Massnahmen nach Artikel 19 THG bleiben vorbehalten.</p></content></paragraph></article><article eId="art_36"><num><b>Art. 36</b></num><heading>Kontrolle bei öffentlichen Verkaufsstellen</heading><paragraph eId="art_36/para"><content><blockList><listIntroduction eId="art_36/para/listintro" xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Die zuständige Stelle kontrolliert bei öffentlichen Verkaufsstellen stichprobenweise, ob:</listIntroduction><item eId="art_36/para/lbl_a"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">a. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">der Offenverkauf nach den Vorschriften dieser Verordnung erfolgt;</p></item><item eId="art_36/para/lbl_b"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">b. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Fertigpackungen und Massbehältnis-Flaschen die in dieser Verordnung vorgeschriebenen Aufschriften aufweisen.</p></item></blockList></content></paragraph></article><article eId="art_37"><num><b>Art. 37</b><authorialNote>
+		<p> Fassung gemäss Ziff. II der V vom 7. Dez. 2012, in Kraft seit 1. Jan. 2013 (<ref href="https://fedlex.data.admin.ch/eli/oc/2012/880" xmlns:data="urn:com:c-moria:legi4ch:xslt:data" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">AS <b>2012</b> 7245</ref>).</p>
+	</authorialNote></num><heading>Gebühren</heading><paragraph eId="art_37/para"><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Die Erhebung der Gebühren für Kontrollen nach den Artikeln 35 und 36 richtet sich nach der Eichgebührenverordnung vom 23. November 2005<authorialNote>
+		<p> <ref href="https://fedlex.data.admin.ch/eli/cc/2005/776" xmlns:data="urn:com:c-moria:legi4ch:xslt:data" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">SR <b>941.298.1</b></ref></p>
+	</authorialNote> und nach der Verordnung vom 5. Juli 2006<authorialNote>
+		<p> <ref href="https://fedlex.data.admin.ch/eli/cc/2006/543" xmlns:data="urn:com:c-moria:legi4ch:xslt:data" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">SR <b>941.298.2</b></ref></p>
+	</authorialNote> über die Gebühren des Eidgenössischen Instituts für Metrologie.</p></content></paragraph></article></chapter><chapter eId="chap_7"><num>7. Kapitel: </num><heading>Schlussbestimmungen</heading><article eId="art_38"><num><b>Art. 38</b></num><heading>Aufhebung bisherigen Rechts</heading><paragraph eId="art_38/para"><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Die Deklarationsverordnung vom 8. Juni 1998<authorialNote>
+		<p> [<ref href="https://fedlex.data.admin.ch/eli/oc/1998/1614_1614_1614" xmlns:data="urn:com:c-moria:legi4ch:xslt:data" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">AS <b>1998</b> 1614</ref>, <ref href="https://fedlex.data.admin.ch/eli/oc/2010/350" xmlns:data="urn:com:c-moria:legi4ch:xslt:data" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp"><b>2010</b> 2631 </ref>Anhang Ziff. 5]</p>
+	</authorialNote> wird aufgehoben.</p></content></paragraph></article><article eId="art_39"><num><b>Art. 39</b></num><heading>Änderung bisherigen Rechts</heading><paragraph eId="art_39/para"><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Die nachstehenden Verordnungen werden wie folgt geändert:</p><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">…<authorialNote>
+		<p> Die Änderungen können unter <ref href="https://fedlex.data.admin.ch/eli/oc/2012/607" xmlns:data="urn:com:c-moria:legi4ch:xslt:data" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">AS <b>2012</b> 5275 </ref>konsultiert werden.</p>
+	</authorialNote></p></content></paragraph></article><article eId="art_40"><num><b>Art. 40</b></num><heading>Übergangsbestimmungen</heading><paragraph eId="art_40/para_1"><num>1</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Im Offenverkauf dürfen bis zum 31. Dezember 2013 aus hygienischen Gründen notwendige Verpackungsmaterialien wie Trennpapiere, Schutzsäcke, Becher oder Schalen, die mit der Ware gewogen werden, zur Nettoware geschlagen werden, sofern sie nicht mehr als 3 Prozent des Warengewichts oder bei Gewichten unter 100 g nicht mehr als 3 g ausmachen. Im Offenverkauf an Marktständen und ab Hof mit Waagen ohne Taravorrichtung gilt eine Übergangsfrist bis zum 31. Dezember 2017.</p></content></paragraph><paragraph eId="art_40/para_2"><num>2</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Nach bisherigem Recht hergestellte Fertigpackungen dürfen bis zum 31. Dezember 2014 in Verkehr gebracht werden.</p></content></paragraph></article><article eId="art_41"><num><b>Art. 41</b></num><heading>Inkrafttreten</heading><paragraph eId="art_41/para"><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Diese Verordnung tritt am 1. Januar 2013 in Kraft.</p></content></paragraph></article></chapter></body><components><component><doc name="annex"><meta><identification source="#ch.bk"><FRBRWork><FRBRthis value="https://fedlex.data.admin.ch/eli/cc/2012/607/20200101/main-text"/><FRBRuri value="https://fedlex.data.admin.ch/eli/cc/2012/607/20200101"/><FRBRdate date="2020-01-01" name="jolux:dateApplicability"/><FRBRdate date="2013-01-01" name="jolux:dateEntryInForce"/><FRBRdate date="2012-09-05" name="jolux:dateDocument"/><FRBRauthor href="#ch.bk" as="#publisher"/><FRBRauthor href="#ch.bk" as="#rightsHolder"/><FRBRcountry value="CH"/><FRBRnumber value="941.204"/><FRBRname xml:lang="fr" value="Ordonnance du 5 septembre 2012 sur les déclarations de quantité dans la vente en vrac et sur les préemballages (Ordonnance sur les déclarations de quantité, ODqua)" shortForm="ODqua"/><FRBRname xml:lang="it" value="Ordinanza del 5 settembre 2012 sulle indicazioni di quantità nella vendita di merce sfusa e sugli imballaggi preconfezionati (Ordinanza sulle indicazioni di quantità, OIQ)" shortForm="OIQ"/><FRBRname xml:lang="de" value="Verordnung vom 5. September 2012 über die Mengenangabe im Offenverkauf und auf Fertigpackungen (Mengenangabeverordnung, MeAV)" shortForm="MeAV"/><FRBRauthoritative value="true"/></FRBRWork><FRBRExpression><FRBRthis value="https://fedlex.data.admin.ch/eli/cc/2012/607/20200101/de/main-text"/><FRBRuri value="https://fedlex.data.admin.ch/eli/cc/2012/607/20200101/de"/><FRBRdate date="2020-01-01" name="jolux:dateApplicability"/><FRBRdate date="2013-01-01" name="jolux:dateEntryInForce"/><FRBRdate date="2012-09-05" name="jolux:dateDocument"/><FRBRauthor href="#ch.bk" as="#publisher"/><FRBRauthor href="#ch.bk" as="#rightsHolder"/><FRBRlanguage language="de"/></FRBRExpression><FRBRManifestation><FRBRthis value="https://fedlex.data.admin.ch/eli/cc/2012/607/20200101/de/xml/main-text"/><FRBRuri value="https://fedlex.data.admin.ch/eli/cc/2012/607/20200101/de/xml"/><FRBRdate date="2020-01-01" name="jolux:dateApplicability"/><FRBRdate date="2013-01-01" name="jolux:dateEntryInForce"/><FRBRdate date="2012-09-05" name="jolux:dateDocument"/><FRBRauthor href="#ch.bk" as="#publisher"/><FRBRauthor href="#ch.bk" as="#rightsHolder"/><FRBRformat value="xml"/></FRBRManifestation></identification></meta><preface><container name="headerOfAnnex"><block name="num">Anhang 1</block></container></preface><mainBody><p>(Art. 12)</p><level eId="annex_1/lvl_u1"><heading>Konformitätskennzeichen</heading><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Das folgende Konformitätskennzeichen wird in Artikel 3 und Anhang I Ziffer 3.3 der Richtlinie 76/211/EWG<authorialNote>
+		<p> Siehe Fussnote zu Art. 12.</p>
+	</authorialNote> und in Anhang II der Richtlinie 2009/34/EG<authorialNote>
+		<p> Richtlinie 2009/34/EG des Europäischen Parlaments und des Rates vom 23. April 2009 betreffend gemeinsame Vorschriften über Messgeräte sowie über Mess- und Prüfverfahren (Neufassung), ABl. L 106 vom 28.4.2009, S. 7</p>
+	</authorialNote> festgelegt. Die Abbildung dient nur der Information.</p><p><img fedlex:original-width="53" fedlex:original-height="50" fedlex:original-text-width="148" fedlex:original-page-width="108" src="image/image1.png"/></p></content></level></mainBody></doc></component><component><doc name="annex"><meta><identification source="#ch.bk"><FRBRWork><FRBRthis value="https://fedlex.data.admin.ch/eli/cc/2012/607/20200101/main-text"/><FRBRuri value="https://fedlex.data.admin.ch/eli/cc/2012/607/20200101"/><FRBRdate date="2020-01-01" name="jolux:dateApplicability"/><FRBRdate date="2013-01-01" name="jolux:dateEntryInForce"/><FRBRdate date="2012-09-05" name="jolux:dateDocument"/><FRBRauthor href="#ch.bk" as="#publisher"/><FRBRauthor href="#ch.bk" as="#rightsHolder"/><FRBRcountry value="CH"/><FRBRnumber value="941.204"/><FRBRname xml:lang="fr" value="Ordonnance du 5 septembre 2012 sur les déclarations de quantité dans la vente en vrac et sur les préemballages (Ordonnance sur les déclarations de quantité, ODqua)" shortForm="ODqua"/><FRBRname xml:lang="it" value="Ordinanza del 5 settembre 2012 sulle indicazioni di quantità nella vendita di merce sfusa e sugli imballaggi preconfezionati (Ordinanza sulle indicazioni di quantità, OIQ)" shortForm="OIQ"/><FRBRname xml:lang="de" value="Verordnung vom 5. September 2012 über die Mengenangabe im Offenverkauf und auf Fertigpackungen (Mengenangabeverordnung, MeAV)" shortForm="MeAV"/><FRBRauthoritative value="true"/></FRBRWork><FRBRExpression><FRBRthis value="https://fedlex.data.admin.ch/eli/cc/2012/607/20200101/de/main-text"/><FRBRuri value="https://fedlex.data.admin.ch/eli/cc/2012/607/20200101/de"/><FRBRdate date="2020-01-01" name="jolux:dateApplicability"/><FRBRdate date="2013-01-01" name="jolux:dateEntryInForce"/><FRBRdate date="2012-09-05" name="jolux:dateDocument"/><FRBRauthor href="#ch.bk" as="#publisher"/><FRBRauthor href="#ch.bk" as="#rightsHolder"/><FRBRlanguage language="de"/></FRBRExpression><FRBRManifestation><FRBRthis value="https://fedlex.data.admin.ch/eli/cc/2012/607/20200101/de/xml/main-text"/><FRBRuri value="https://fedlex.data.admin.ch/eli/cc/2012/607/20200101/de/xml"/><FRBRdate date="2020-01-01" name="jolux:dateApplicability"/><FRBRdate date="2013-01-01" name="jolux:dateEntryInForce"/><FRBRdate date="2012-09-05" name="jolux:dateDocument"/><FRBRauthor href="#ch.bk" as="#publisher"/><FRBRauthor href="#ch.bk" as="#rightsHolder"/><FRBRformat value="xml"/></FRBRManifestation></identification></meta><preface><container name="headerOfAnnex"><block name="num">Anhang 2</block></container></preface><mainBody><p>(Art. 31)</p><level eId="annex_2/lvl_u1"><heading>Sonderzeichen für Massbehältnis-Flaschen</heading><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Das folgende Sonderzeichen wird in Artikel 2 der Richtlinie 75/107/EWG<authorialNote>
+		<p> Richtlinie 75/107/EWG des Rates vom 19. Dez. 1974 zur Angleichung der Rechtsvorschriften der Mitgliedstaaten über Flaschen als Massbehältnisse, ABl. L 42 vom 15.2.1975, S. 14</p>
+	</authorialNote> und in Anhang I Ziffer 3.3 der Richtlinie 2009/34/EG<authorialNote>
+		<p> Siehe Fussnote zu Anhang 1.</p>
+	</authorialNote> festgelegt. Die Abbildung dient nur der Information.</p><p><img fedlex:original-width="46" fedlex:original-height="54" fedlex:original-text-width="148" fedlex:original-page-width="108" src="image/image2.png"/></p></content></level></mainBody></doc></component><component><doc name="annex"><meta><identification source="#ch.bk"><FRBRWork><FRBRthis value="https://fedlex.data.admin.ch/eli/cc/2012/607/20200101/main-text"/><FRBRuri value="https://fedlex.data.admin.ch/eli/cc/2012/607/20200101"/><FRBRdate date="2020-01-01" name="jolux:dateApplicability"/><FRBRdate date="2013-01-01" name="jolux:dateEntryInForce"/><FRBRdate date="2012-09-05" name="jolux:dateDocument"/><FRBRauthor href="#ch.bk" as="#publisher"/><FRBRauthor href="#ch.bk" as="#rightsHolder"/><FRBRcountry value="CH"/><FRBRnumber value="941.204"/><FRBRname xml:lang="fr" value="Ordonnance du 5 septembre 2012 sur les déclarations de quantité dans la vente en vrac et sur les préemballages (Ordonnance sur les déclarations de quantité, ODqua)" shortForm="ODqua"/><FRBRname xml:lang="it" value="Ordinanza del 5 settembre 2012 sulle indicazioni di quantità nella vendita di merce sfusa e sugli imballaggi preconfezionati (Ordinanza sulle indicazioni di quantità, OIQ)" shortForm="OIQ"/><FRBRname xml:lang="de" value="Verordnung vom 5. September 2012 über die Mengenangabe im Offenverkauf und auf Fertigpackungen (Mengenangabeverordnung, MeAV)" shortForm="MeAV"/><FRBRauthoritative value="true"/></FRBRWork><FRBRExpression><FRBRthis value="https://fedlex.data.admin.ch/eli/cc/2012/607/20200101/de/main-text"/><FRBRuri value="https://fedlex.data.admin.ch/eli/cc/2012/607/20200101/de"/><FRBRdate date="2020-01-01" name="jolux:dateApplicability"/><FRBRdate date="2013-01-01" name="jolux:dateEntryInForce"/><FRBRdate date="2012-09-05" name="jolux:dateDocument"/><FRBRauthor href="#ch.bk" as="#publisher"/><FRBRauthor href="#ch.bk" as="#rightsHolder"/><FRBRlanguage language="de"/></FRBRExpression><FRBRManifestation><FRBRthis value="https://fedlex.data.admin.ch/eli/cc/2012/607/20200101/de/xml/main-text"/><FRBRuri value="https://fedlex.data.admin.ch/eli/cc/2012/607/20200101/de/xml"/><FRBRdate date="2020-01-01" name="jolux:dateApplicability"/><FRBRdate date="2013-01-01" name="jolux:dateEntryInForce"/><FRBRdate date="2012-09-05" name="jolux:dateDocument"/><FRBRauthor href="#ch.bk" as="#publisher"/><FRBRauthor href="#ch.bk" as="#rightsHolder"/><FRBRformat value="xml"/></FRBRManifestation></identification></meta><preface><container name="headerOfAnnex"><block name="num">Anhang 3<inline name="man-font-style-normal"><authorialNote>
+		<p> Fassung gemäss Ziff. II Abs. 1 der V vom 30. Okt. 2019, in Kraft seit 1. Jan. 2020  (<ref href="https://fedlex.data.admin.ch/eli/oc/2019/638" xmlns:data="urn:com:c-moria:legi4ch:xslt:data" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">AS <b>2019</b> 3493</ref>).</p>
+	</authorialNote></inline></block></container></preface><mainBody><p>(Art. 35)</p><level eId="annex_3/lvl_u1"><heading>Behördliche Kontrolle von Fertigpackungen gleicher Nennfüllmenge</heading><level eId="annex_3/lvl_u1/lvl_1"><num>1</num><heading>Allgemeines</heading><level eId="annex_3/lvl_u1/lvl_1/lvl_11"><num>11</num><heading>Symbole</heading><content><blockList><listIntroduction eId="annex_3/lvl_u1/lvl_1/lvl_11/listintro" xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">In diesem Anhang bedeuten:</listIntroduction><item eId="annex_3/lvl_u1/lvl_1/lvl_11/lbl_Qn"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Q<sub>n</sub> </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Nennfüllmenge</p></item><item eId="annex_3/lvl_u1/lvl_1/lvl_11/lbl_xi"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">x<sub>i</sub> </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Füllmenge</p></item><item eId="annex_3/lvl_u1/lvl_1/lvl_11/lbl_s"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">s </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Standardabweichung</p></item><item eId="annex_3/lvl_u1/lvl_1/lvl_11/bull_u4"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"><sub><img fedlex:original-width="2" fedlex:original-height="2" fedlex:original-text-width="148" fedlex:original-page-width="108" src="image/image3.png"/></sub> </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Mittelwert</p></item><item eId="annex_3/lvl_u1/lvl_1/lvl_11/lbl_k"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">k </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Korrekturfaktor zur Berechnung des Vertrauensbereichs basierend auf der Zufallsvariable t der Studentverteilung, des Losumfangs und der Stichprobe</p></item></blockList></content></level><level eId="annex_3/lvl_u1/lvl_1/lvl_12"><num>12</num><heading>Art, Ort und Zeitpunkt der Kontrolle</heading><content><blockList><item eId="annex_3/lvl_u1/lvl_1/lvl_12/lbl_121"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">121 </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Fertigpackungen werden stichprobenweise geprüft.</p></item><item eId="annex_3/lvl_u1/lvl_1/lvl_12/lbl_122"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">122 </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Die zuständige Stelle nach Artikel 34 bestimmt den Ort und den Zeitpunkt der Kontrolle.</p></item><item eId="annex_3/lvl_u1/lvl_1/lvl_12/lbl_123"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">123 </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Der Ort der Kontrolle richtet sich nach Artikel 35 Absatz 1. Die Stichprobe wird an der Abfülllinie oder am Ort erhoben, wo die kontrollpflichtigen Fertigpackungen gelagert werden.</p></item></blockList></content></level><level eId="annex_3/lvl_u1/lvl_1/lvl_13"><num>13</num><heading>Los von Fertigpackungen</heading><content><blockList><item eId="annex_3/lvl_u1/lvl_1/lvl_13/lbl_131"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">131 </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Die Kontrollperson bestimmt das Los von Fertigpackungen, dem die Stichprobe entnommen wird.</p></item><item eId="annex_3/lvl_u1/lvl_1/lvl_13/lbl_132"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">132 </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Hersteller und andere Personen, bei denen eine Kontrolle stattfindet, haben der Kontrollperson für die Bestimmung des Loses unaufgefordert alle Orte zu zeigen, an denen die zu prüfenden Fertigpackungen hergestellt oder gelagert werden. </p></item><item eId="annex_3/lvl_u1/lvl_1/lvl_13/lbl_133"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">133 </num><blockList><listIntroduction eId="annex_3/lvl_u1/lvl_1/lvl_13/lbl_133/listintro" xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Das Los besteht aus der Gesamtmenge der Fertigpackungen gleicher Nennfüllmenge, gleicher Aufmachung und gleicher Herstellung, die am selben Ort abgefüllt oder gelagert werden, wobei folgende Begrenzungen gelten:</listIntroduction><item eId="annex_3/lvl_u1/lvl_1/lvl_13/lbl_133/lbl_a"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">a. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Werden die Fertigpackungen an der Abfülllinie am Schluss des Abfüllvorgangs geprüft, so entspricht der Umfang des Loses der Zahl der in einer Stunde hergestellten Fertigpackungen, und zwar ohne Begrenzung des Losumfangs.</p></item><item eId="annex_3/lvl_u1/lvl_1/lvl_13/lbl_133/lbl_b"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">b. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">In den übrigen Fällen ist der Umfang des Loses auf 10 000 Fertigpackungen begrenzt.</p></item></blockList></item><item eId="annex_3/lvl_u1/lvl_1/lvl_13/lbl_134"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">134 </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Vor den Prüfungen nach Ziffer 213 muss eine ausreichende Anzahl von Fertigpackungen dem Los in zufälliger Reihenfolge entnommen werden, damit die Prüfung durchgeführt werden kann, welche die meisten Stichproben erfordert.</p></item></blockList></content></level><level eId="annex_3/lvl_u1/lvl_1/lvl_14"><num>14</num><heading>Erhebung der Stichprobe</heading><content><blockList><item eId="annex_3/lvl_u1/lvl_1/lvl_14/lbl_141"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">141 </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Die Kontrollperson erhebt die Stichprobe so, dass es sich um eine Zufallsstichprobe handelt, die für das Los statistisch repräsentativ ist. Wird die Stichprobe an der Abfülllinie am Schluss des Abfüllvorgangs erhoben, so erstreckt sich die Erhebung auf die ganze Stundenproduktion nach Ziffer 133 Buchstabe a.</p></item><item eId="annex_3/lvl_u1/lvl_1/lvl_14/lbl_142"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">142 </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Hersteller und andere Personen, bei denen eine Kontrolle stattfindet, haben der Kontrollperson die zur Erhebung der Stichprobe erforderliche technische Hilfe zu leisten.</p></item></blockList></content></level><level eId="annex_3/lvl_u1/lvl_1/lvl_15"><num>15</num><heading>Bestimmung der mittleren Tara</heading><content><blockList><item eId="annex_3/lvl_u1/lvl_1/lvl_15/lbl_151"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">151 </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Zur Bestimmung der Füllmenge von Fertigpackungen wird vorgängig das Taragewicht ermittelt.</p></item><item eId="annex_3/lvl_u1/lvl_1/lvl_15/lbl_152"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">152 </num><blockList><listIntroduction eId="annex_3/lvl_u1/lvl_1/lvl_15/lbl_152/listintro" xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Verwendet wird hierzu:</listIntroduction><item eId="annex_3/lvl_u1/lvl_1/lvl_15/lbl_152/lbl_a"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">a. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">unbenutztes Verpackungsmaterial der gleichen Art, die zur Produktion der Fertigpackungen benutzt wird; oder </p></item><item eId="annex_3/lvl_u1/lvl_1/lvl_15/lbl_152/lbl_b"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">b. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">benutztes, gut gereinigtes Verpackungsmaterial von zu kontrollierenden Fertigpackungen.</p></item></blockList></item></blockList></content></level><level eId="annex_3/lvl_u1/lvl_1/lvl_16"><num>16</num><heading>Weitere Prüfung</heading><content><blockList><item eId="annex_3/lvl_u1/lvl_1/lvl_16/bull_u1"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"/><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Die Kontrollperson prüft, ob die Fertigpackungen die in dieser Verordnung vorgeschriebenen Aufschriften aufweisen.</p></item></blockList></content></level><level eId="annex_3/lvl_u1/lvl_1/lvl_17"><num>17</num><heading>Vorgehen bei Ablehnung eines Loses</heading><content><blockList><item eId="annex_3/lvl_u1/lvl_1/lvl_17/lbl_171"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">171 </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Ist ein Los nicht konform und wird abgelehnt, so muss spätestens innerhalb von sechs Monaten bei derselben verantwortlichen Person (Art. 32) eine Prüfung an einem anderen Los, wenn möglich desselben Produkts und unter denselben Bedingungen, durchgeführt werden.</p></item><item eId="annex_3/lvl_u1/lvl_1/lvl_17/lbl_172"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">172 </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Die Kontrollperson erstattet unmittelbar nach der wieder negativ ausgefallenen Prüfung nach Ziffer 171 gegen den kontrollierten Hersteller oder gegen eine andere Person, bei der eine Kontrolle stattgefunden hat, Strafanzeige.</p></item></blockList></content></level></level><level eId="annex_3/lvl_u1/lvl_2"><num>2</num><heading>Prüfung von Fertigpackungen nach Gewicht oder Volumen</heading><level eId="annex_3/lvl_u1/lvl_2/lvl_21"><num>21</num><heading>Allgemeines</heading><content><blockList><item eId="annex_3/lvl_u1/lvl_2/lvl_21/lbl_211"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">211 </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Die tatsächliche Füllmenge der Fertigpackungen kann unmittelbar mit Hilfe von Waagen oder Volumenmessgeräten oder, wenn es sich um eine Flüssigkeit handelt, mittelbar durch Wägung des Füllguts und Messung von dessen Dichte bestimmt werden.</p></item><item eId="annex_3/lvl_u1/lvl_2/lvl_21/lbl_212"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">212 </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Unabhängig von der verwendeten Methode darf der Fehler bei der Messung der tatsächlichen Füllmenge einer Fertigpackung höchstens ein Fünftel der zulässigen Minusabweichung der Nennfüllmenge betragen.</p></item><item eId="annex_3/lvl_u1/lvl_2/lvl_21/lbl_213"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">213 </num><blockList><listIntroduction eId="annex_3/lvl_u1/lvl_2/lvl_21/lbl_213/listintro" xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Die Prüfung von Fertigpackungen erfolgt stichprobenweise und umfasst zwei Teile:</listIntroduction><item eId="annex_3/lvl_u1/lvl_2/lvl_21/lbl_213/lbl_a"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">a. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">eine Prüfung, die sich auf die tatsächliche Füllmenge jeder einzelnen Fertigpackung der Stichprobe bezieht; und</p></item><item eId="annex_3/lvl_u1/lvl_2/lvl_21/lbl_213/lbl_b"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">b. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">eine Prüfung, die sich auf den Mittelwert der tatsächlichen Füllmengen aller Fertigpackungen der Stichprobe bezieht.</p></item></blockList></item><item eId="annex_3/lvl_u1/lvl_2/lvl_21/lbl_214"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">214 </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Ein Los von Fertigpackungen wird als konform angesehen, wenn die Ergebnisse beider Prüfungen den in den Ziffern 22 und 23 definierten Annahmekriterien entsprechen.</p></item><item eId="annex_3/lvl_u1/lvl_2/lvl_21/lbl_215"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">215 </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Nach Möglichkeit sind Prüfungen zu verwenden, die nicht die Öffnung der Fertigpackungen zur Folge haben (nicht zerstörende Prüfungen).</p></item><item eId="annex_3/lvl_u1/lvl_2/lvl_21/bull_u6"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"/><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Auf ein unumgängliches Minimum zu beschränken sind Prüfungen, welche die Öffnung und Zerstörung der Fertigpackungen zur Folge haben (zerstörende Prüfungen). Ihre Wirksamkeit ist geringer als die der nicht zerstörenden Prüfung.</p></item></blockList></content></level><level eId="annex_3/lvl_u1/lvl_2/lvl_22"><num>22</num><heading>Prüfung der tatsächlichen Füllmenge der einzelnen Fertigpackungen</heading><content><blockList eId="annex_3/lvl_u1/lvl_2/lvl_22/list_u1"><item eId="annex_3/lvl_u1/lvl_2/lvl_22/list_u1/lbl_221"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">221 </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Die zulässige Mindestfüllmenge ergibt sich durch Abzug der zulässigen Minusabweichung nach Artikel 19 Absätze 3 und 3<sup>bis</sup> von der Nennfüllmenge der Fertigpackung.</p></item><item eId="annex_3/lvl_u1/lvl_2/lvl_22/list_u1/lbl_222"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">222 </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Die Fertigpackungen eines Loses, deren tatsächliche Füllmenge geringer ist als die zulässige Mindestfüllmenge, werden als fehlerhaft bezeichnet.</p></item><item eId="annex_3/lvl_u1/lvl_2/lvl_22/list_u1/lbl_223"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">223 </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"><i>Nicht zerstörende Prüfung von Fertigpackungen mit Nennfüllmengen bis 10 kg oder 10 l</i></p></item><item eId="annex_3/lvl_u1/lvl_2/lvl_22/list_u1/bull_u4"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"/><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Die Prüfung wird nach den Prüfplänen gemäss den Tabellen 1 und 2 durchgeführt. Lose mit einem Umfang von mindestens 100 Fertigpackungen werden nach dem Doppelprüfplan gemäss Tabelle 1 geprüft, Lose mit einem Umfang von weniger als 100 Fertigpackungen nach dem Einfachprüfplan gemäss Tabelle 2.</p><blockList><item eId="annex_3/lvl_u1/lvl_2/lvl_22/list_u1/bull_u4/lbl_a"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">a. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Lose mit einem Umfang von mindestens 100 Fertigpackungen</p></item><item eId="annex_3/lvl_u1/lvl_2/lvl_22/list_u1/bull_u4/bull_u2"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"/><blockList><listIntroduction eId="annex_3/lvl_u1/lvl_2/lvl_22/list_u1/bull_u4/bull_u2/listintro" xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Die erste Anzahl der geprüften Fertigpackungen muss mit dem im Prüfplan angegebenen Umfang der ersten Stichprobe übereinstimmen:</listIntroduction><item eId="annex_3/lvl_u1/lvl_2/lvl_22/list_u1/bull_u4/bull_u2/bull_u1"><num>– </num><p>Ist die Anzahl der fehlerhaften Fertigpackungen der ersten Stichprobe gleich der ersten Annahmezahl oder kleiner, so ist das Los konform.</p></item><item eId="annex_3/lvl_u1/lvl_2/lvl_22/list_u1/bull_u4/bull_u2/bull_u2"><num>– </num><p>Ist die Anzahl der fehlerhaften Fertigpackungen der ersten Stichprobe gleich der ersten Ablehnungszahl oder grösser, so ist das Los nicht konform und wird abgelehnt.</p></item><item eId="annex_3/lvl_u1/lvl_2/lvl_22/list_u1/bull_u4/bull_u2/bull_u3"><num>– </num><p>Liegt die Anzahl der fehlerhaften Fertigpackungen der ersten Stichprobe zwischen der ersten Annahmezahl und der ersten Ablehnungszahl, so ist eine zweite Stichprobe zu untersuchen, deren Umfang im Prüfplan angegeben ist.</p></item></blockList></item><item eId="annex_3/lvl_u1/lvl_2/lvl_22/list_u1/bull_u4/bull_u3"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"/><blockList><listIntroduction eId="annex_3/lvl_u1/lvl_2/lvl_22/list_u1/bull_u4/bull_u3/listintro" xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Die jeweilige Anzahl der fehlerhaften Fertigpackungen der ersten und zweiten Stichprobe ist zu kumulieren:</listIntroduction><item eId="annex_3/lvl_u1/lvl_2/lvl_22/list_u1/bull_u4/bull_u3/bull_u1"><num>– </num><p>Ist die kumulierte Anzahl der fehlerhaften Fertigpackungen gleich der zweiten Annahmezahl oder kleiner, so ist das Los konform. </p></item><item eId="annex_3/lvl_u1/lvl_2/lvl_22/list_u1/bull_u4/bull_u3/bull_u2"><num>– </num><p>Ist die kumulierte Anzahl der fehlerhaften Fertigpackungen gleich der zweiten Ablehnungszahl oder grösser, so ist das Los nicht konform und wird abgelehnt.</p></item></blockList></item></blockList></item></blockList><table border="1">
+			
+			
+			<tr>
+				
+				
+				<th xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">
+					
+					<p>Losumfang</p>
+				</th>
+				<th xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">
+					
+					<p>Stichprobe</p>
+				</th>
+				<th xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">
+					
+					
+				</th>
+				<th xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">
+					
+					
+				</th>
+				<th colspan="2" xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">
+					
+					<p>Anzahl der fehlerhaften Fertigpackungen</p>
+				</th>
+			</tr>
+			<tr>
+				
+				
+				<th xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">
+					
+					
+				</th>
+				<th xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">
+					
+					<p>Reihenfolge</p>
+				</th>
+				<th xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">
+					
+					<p>Umfang</p>
+				</th>
+				<th xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">
+					
+					<p>Kumulierter Umfang</p>
+				</th>
+				<th xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">
+					
+					<p>Annahmezahl </p>
+				</th>
+				<th xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">
+					
+					<p>Ablehnungszahl</p>
+				</th>
+			</tr>
+			<tr>
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">100 bis 500</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">1.</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">30</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">  30</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">1</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">3</p>
+				</td>
+			</tr>
+			<tr>
+				
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">2.</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">30</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">  60</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">4</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">5</p>
+				</td>
+			</tr>
+			<tr>
+				
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					
+				</td>
+			</tr>
+			<tr>
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">501 bis 3200</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">1.</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">50</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">  50</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">2</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">5</p>
+				</td>
+			</tr>
+			<tr>
+				
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">2.</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">50</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">100</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">6</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">7</p>
+				</td>
+			</tr>
+			<tr>
+				
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					
+				</td>
+			</tr>
+			<tr>
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">3201 und mehr</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">1.</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">80</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">  80</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">3</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">7</p>
+				</td>
+			</tr>
+			<tr>
+				
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">2.</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">80</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">160</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">8</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">9</p>
+				</td>
+			</tr>
+			
+		</table><blockList eId="annex_3/lvl_u1/lvl_2/lvl_22/list_u2"><blockList><item eId="annex_3/lvl_u1/lvl_2/lvl_22/list_u2/bull_u1"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"/><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"><i>Tabelle 1:</i> Doppelprüfplan für die nicht zerstörende Prüfung von Fertigpackungen mit Nennfüllmengen bis 10 kg oder 10 l bei einem Losumfang von mindestens 100 Fertigpackungen</p></item></blockList><item eId="annex_3/lvl_u1/lvl_2/lvl_22/list_u2/lbl_b"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">b. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Lose mit einem Umfang von weniger als 100 Fertigpackungen</p></item><item eId="annex_3/lvl_u1/lvl_2/lvl_22/list_u2/bull_u2"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"/><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Die Anzahl der geprüften Fertigpackungen muss mit dem im Prüfplan angegebenen Umfang der Stichprobe übereinstimmen.</p></item><item eId="annex_3/lvl_u1/lvl_2/lvl_22/list_u2/bull_u3"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"/><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Ist die Anzahl der fehlerhaften Fertigpackungen der Stichprobe gleich der Annahmezahl oder kleiner, so ist das Los konform.</p></item><item eId="annex_3/lvl_u1/lvl_2/lvl_22/list_u2/bull_u4"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"/><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Ist die Anzahl der fehlerhaften Fertigpackungen der Stichprobe gleich der Ablehnungszahl oder grösser, so ist das Los nicht konform und wird abgelehnt.</p></item></blockList><table border="1">
+			
+			
+			<tr>
+				
+				
+				<th xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">
+					
+					<p>Losumfang</p>
+				</th>
+				<th xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">
+					
+					<p>Umfang der Stichprobe</p>
+				</th>
+				<th colspan="2" xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">
+					
+					<p>Anzahl der fehlerhaften Fertigpackungen</p>
+				</th>
+				<th xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">
+					
+					
+				</th>
+			</tr>
+			<tr>
+				
+				
+				<th xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">
+					
+					
+				</th>
+				<th xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">
+					
+					
+				</th>
+				<th xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">
+					
+					<p>Annahmezahl</p>
+				</th>
+				<th colspan="2" xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">
+					
+					<p>Ablehnungszahl</p>
+				</th>
+			</tr>
+			<tr>
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">2 bis 50</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">100 % des Losumfangs</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">1</p>
+				</td>
+				<td colspan="2">
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">2</p>
+				</td>
+			</tr>
+			<tr>
+				
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					
+				</td>
+				<td colspan="2">
+					
+					
+				</td>
+			</tr>
+			<tr>
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">51 bis 99</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">100 % des Losumfangs</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">2</p>
+				</td>
+				<td colspan="2">
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">3</p>
+				</td>
+			</tr>
+			
+		</table><blockList eId="annex_3/lvl_u1/lvl_2/lvl_22/list_u3"><blockList><item eId="annex_3/lvl_u1/lvl_2/lvl_22/list_u3/bull_u1"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"/><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"><i>Tabelle 2:</i> Einfachprüfplan für die nicht zerstörende Prüfung von Fertigpackungen mit Nennfüllmengen bis 10 kg oder 10 l bei einem Losumfang von weniger als 100 Fertigpackungen</p></item></blockList><item eId="annex_3/lvl_u1/lvl_2/lvl_22/list_u3/lbl_224"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">224 </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"><i>Nicht zerstörende Prüfung von Fertigpackungen mit Nennfüllmengen über 10 kg oder 10 l bis 50 kg oder 50 l</i></p></item><item eId="annex_3/lvl_u1/lvl_2/lvl_22/list_u3/bull_u2"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"/><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Die Prüfung wird nach dem Einfachprüfplan gemäss Tabelle 3 durchgeführt.</p></item><item eId="annex_3/lvl_u1/lvl_2/lvl_22/list_u3/bull_u3"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"/><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Die Anzahl der geprüften Fertigpackungen muss mit dem im Prüfplan angegebenen Umfang der Stichprobe übereinstimmen.</p></item><item eId="annex_3/lvl_u1/lvl_2/lvl_22/list_u3/bull_u4"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"/><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Ist die Anzahl der fehlerhaften Fertigpackungen der Stichprobe gleich der Annahmezahl oder kleiner, so ist das Los konform.</p></item><item eId="annex_3/lvl_u1/lvl_2/lvl_22/list_u3/bull_u5"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"/><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Ist die Anzahl der fehlerhaften Fertigpackungen der Stichprobe gleich der Ablehnungszahl oder grösser, so ist das Los nicht konform und wird abgelehnt.</p></item></blockList><table border="1">
+			
+			
+			<tr>
+				
+				
+				<th xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">
+					
+					<p>Losumfang</p>
+				</th>
+				<th xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">
+					
+					<p>Umfang der Stichprobe</p>
+				</th>
+				<th colspan="2" xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">
+					
+					<p>Anzahl der fehlerhaften Fertigpackungen</p>
+				</th>
+			</tr>
+			<tr>
+				
+				
+				<th xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">
+					
+					
+				</th>
+				<th xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">
+					
+					
+				</th>
+				<th xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">
+					
+					<p>Annahmezahl</p>
+				</th>
+				<th xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">
+					
+					<p>Ablehnungszahl</p>
+				</th>
+			</tr>
+			<tr>
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">&lt; 20</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">100 % des Losumfangs</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">0</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">1</p>
+				</td>
+			</tr>
+			<tr>
+				
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					
+				</td>
+			</tr>
+			<tr>
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">≥ 20</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">20</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">1</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">2</p>
+				</td>
+			</tr>
+			
+		</table><blockList eId="annex_3/lvl_u1/lvl_2/lvl_22/list_u4"><item eId="annex_3/lvl_u1/lvl_2/lvl_22/list_u4/bull_u1"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"/><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"><i>Tabelle 3:</i> Einfachprüfplan für die nicht zerstörende Prüfung von Fertigpackungen mit Nennfüllmengen über 10 kg oder 10 l bis 50 kg oder 50 l</p></item><item eId="annex_3/lvl_u1/lvl_2/lvl_22/list_u4/lbl_225"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">225 </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"><i>Zerstörende Prüfung</i></p></item><item eId="annex_3/lvl_u1/lvl_2/lvl_22/list_u4/bull_u3"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"/><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Die Prüfung wird nach dem Einfachprüfplan gemäss Tabelle 4 durchgeführt.</p></item><item eId="annex_3/lvl_u1/lvl_2/lvl_22/list_u4/bull_u4"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"/><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Die Anzahl der geprüften Fertigpackungen muss mit dem im Prüfplan angegebenen Umfang der Stichprobe übereinstimmen.</p></item><item eId="annex_3/lvl_u1/lvl_2/lvl_22/list_u4/bull_u5"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"/><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Ist die Anzahl der fehlerhaften Fertigpackungen der Stichprobe gleich der Annahmezahl oder kleiner, so ist das Los konform.</p></item><item eId="annex_3/lvl_u1/lvl_2/lvl_22/list_u4/bull_u6"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"/><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Ist die Anzahl der fehlerhaften Fertigpackungen der Stichprobe gleich der Ablehnungszahl oder grösser, so ist das Los nicht konform und wird abgelehnt.</p></item></blockList><table border="1">
+			
+			
+			<tr>
+				
+				
+				<th xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">
+					
+					<p>Losumfang</p>
+				</th>
+				<th xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">
+					
+					<p>Umfang der Stichprobe</p>
+				</th>
+				<th colspan="2" xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">
+					
+					<p>Anzahl der fehlerhaften Fertigpackungen</p>
+				</th>
+			</tr>
+			<tr>
+				
+				
+				<th xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">
+					
+					
+				</th>
+				<th xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">
+					
+					
+				</th>
+				<th xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">
+					
+					<p>Annahmezahl</p>
+				</th>
+				<th xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">
+					
+					<p>Ablehnungszahl</p>
+				</th>
+			</tr>
+			<tr>
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">&lt; 100</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">  5</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">0</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">1</p>
+				</td>
+			</tr>
+			<tr>
+				
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					
+				</td>
+			</tr>
+			<tr>
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">≥ 100</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">20</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">1</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">2</p>
+				</td>
+			</tr>
+			
+		</table><blockList eId="annex_3/lvl_u1/lvl_2/lvl_22/list_u5"><item eId="annex_3/lvl_u1/lvl_2/lvl_22/list_u5/bull_u1"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"/><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"><i>Tabelle 4:</i> Einfachprüfplan für die zerstörende Prüfung</p></item></blockList></content></level><level eId="annex_3/lvl_u1/lvl_2/lvl_23"><num>23</num><heading>Prüfung des Mittelwerts der tatsächlichen Füllmengen der Fertigpackungen </heading><content><blockList eId="annex_3/lvl_u1/lvl_2/lvl_23/list_u1"><item eId="annex_3/lvl_u1/lvl_2/lvl_23/list_u1/lbl_231"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">231 </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Die Vorschriften bezüglich der Mittelwertanforderung nach Artikel 19 Absatz 1 Buchstabe a sind erfüllt und das Los gilt als annehmbar, wenn der Mittelwert <sub><img fedlex:original-width="2" fedlex:original-height="2" fedlex:original-text-width="148" fedlex:original-page-width="108" src="image/image3.png"/></sub> der tatsächlichen Füllmengen <sub><img fedlex:original-width="3" fedlex:original-height="2" fedlex:original-text-width="148" fedlex:original-page-width="108" src="image/image4.png"/></sub> von n Fertigpackungen der Stichprobe folgende Bedingungen erfüllt:</p></item><item eId="annex_3/lvl_u1/lvl_2/lvl_23/list_u1/bull_u2"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> </p><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"><i><sub><img fedlex:original-width="2" fedlex:original-height="2" fedlex:original-text-width="148" fedlex:original-page-width="108" src="image/image3.png"/></sub></i><i>  ≥  Q</i><i><sub>n</sub></i><i> – k · s</i></p></item><item eId="annex_3/lvl_u1/lvl_2/lvl_23/list_u1/bull_u3"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> </p><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"><i>k </i>bedeutet hierbei den Stichprobenkorrekturfaktor mit k = t/√n wobei t die Zufallsvariable der Studentverteilung bedeutet und s die Standardabweichung der Füllmengen <sub><img fedlex:original-width="3" fedlex:original-height="2" fedlex:original-text-width="148" fedlex:original-page-width="108" src="image/image4.png"/></sub> der Stichprobe mit n Fertigpackungen.</p></item><item eId="annex_3/lvl_u1/lvl_2/lvl_23/list_u1/lbl_232"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">232 </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"><i>Nicht zerstörende Prüfung von Fertigpackungen mit Nennfüllmengen bis 10 kg oder 10 l</i></p></item><item eId="annex_3/lvl_u1/lvl_2/lvl_23/list_u1/bull_u5"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"/><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Die Werte für die Annahme des Loses sind für Lose mit einem Umfang von mindestens 100 Fertigpackungen in Tabelle 5 und für Lose mit einem Umfang von weniger als 100 Fertigpackungen in Tabelle 6 aufgeführt.</p><blockList><item eId="annex_3/lvl_u1/lvl_2/lvl_23/list_u1/bull_u5/lbl_a"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">a. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Lose mit einem Umfang von mindestens 100 Fertigpackungen</p></item></blockList></item></blockList><table border="1">
+			
+			
+			<tr>
+				
+				
+				<th xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">
+					
+					<p>Losumfang</p>
+				</th>
+				<th xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">
+					
+					<p>Stichprobe</p>
+				</th>
+				<th xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">
+					
+					
+				</th>
+				<th xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">
+					
+					
+				</th>
+				<th xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">
+					
+					<p>  Annahme</p>
+				</th>
+			</tr>
+			<tr>
+				
+				
+				<th xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">
+					
+					
+				</th>
+				<th xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">
+					
+					<p>Reihenfolge</p>
+				</th>
+				<th xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">
+					
+					<p>Umfang</p>
+				</th>
+				<th xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">
+					
+					<p>Kumulierter Umfang</p>
+				</th>
+				<th xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">
+					
+					
+				</th>
+			</tr>
+			<tr>
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">100 bis 500</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">1.</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">30</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">  30</p>
+				</td>
+				<td xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">
+					
+					<p><sub><img fedlex:original-width="2" fedlex:original-height="2" fedlex:original-text-width="148" fedlex:original-page-width="108" src="image/image3.png"/></sub> ≥ <i>Q</i><i><sub>n</sub></i> –<i> 0.503 s</i></p>
+				</td>
+			</tr>
+			<tr>
+				
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">2.</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">30</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">  60</p>
+				</td>
+				<td xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">
+					
+					<p><sub><img fedlex:original-width="2" fedlex:original-height="2" fedlex:original-text-width="148" fedlex:original-page-width="108" src="image/image3.png"/></sub> ≥ <i>Q</i><i><sub>n</sub></i> –<i> 0.344 s</i></p>
+				</td>
+			</tr>
+			<tr>
+				
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					
+				</td>
+			</tr>
+			<tr>
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">501 bis 3200</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">1.</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">50</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">  50</p>
+				</td>
+				<td xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">
+					
+					<p><sub><img fedlex:original-width="2" fedlex:original-height="2" fedlex:original-text-width="148" fedlex:original-page-width="108" src="image/image3.png"/></sub> ≥ <i>Q</i><i><sub>n</sub></i> <i>– 0.379 s</i></p>
+				</td>
+			</tr>
+			<tr>
+				
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">2.</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">50</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">100</p>
+				</td>
+				<td xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">
+					
+					<p><sub><img fedlex:original-width="2" fedlex:original-height="2" fedlex:original-text-width="148" fedlex:original-page-width="108" src="image/image3.png"/></sub> ≥ <i>Q</i><i><sub>n</sub></i> –<i> 0.262 s</i></p>
+				</td>
+			</tr>
+			<tr>
+				
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					
+				</td>
+			</tr>
+			<tr>
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">3201 und mehr</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">1.</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">80</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">  80</p>
+				</td>
+				<td xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">
+					
+					<p><sub><img fedlex:original-width="2" fedlex:original-height="2" fedlex:original-text-width="148" fedlex:original-page-width="108" src="image/image3.png"/></sub> ≥ <i>Q</i><i><sub>n</sub></i> –<i> 0.295 s</i></p>
+				</td>
+			</tr>
+			<tr>
+				
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">2.</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">80</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">160</p>
+				</td>
+				<td xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">
+					
+					<p><sub><img fedlex:original-width="2" fedlex:original-height="2" fedlex:original-text-width="148" fedlex:original-page-width="108" src="image/image3.png"/></sub> ≥ <i>Q</i><i><sub>n</sub></i> –<i> 0.207 s</i></p>
+				</td>
+			</tr>
+			
+		</table><blockList eId="annex_3/lvl_u1/lvl_2/lvl_23/list_u2"><item eId="annex_3/lvl_u1/lvl_2/lvl_23/list_u2/bull_u1"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"/><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"><i>Tabelle 5:</i> Doppelprüfplan für die nicht zerstörende Prüfung von Fertigpackungen mit Nennfüllmengen bis 10 kg oder 10 l bei einem Losumfang von mindestens 100 Fertigpackungen</p></item><item eId="annex_3/lvl_u1/lvl_2/lvl_23/list_u2/lbl_b"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">b. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Lose mit einem Umfang von weniger als 100 Fertigpackungen</p></item></blockList><table border="1">
+			
+			
+			<tr>
+				
+				
+				<th xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">
+					
+					<p>Losumfang</p>
+				</th>
+				<th xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">
+					
+					<p>Umfang der Stichprobe</p>
+				</th>
+				<th xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">
+					
+					<p>  Annahme</p>
+				</th>
+			</tr>
+			<tr>
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">2 bis 99</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">100 % des Losumfangs</p>
+				</td>
+				<td xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">
+					
+					<p><sub><img fedlex:original-width="3" fedlex:original-height="3" fedlex:original-text-width="148" fedlex:original-page-width="108" src="image/image3.png"/></sub> ≥ <i>Q</i><i><sub>n</sub></i></p>
+				</td>
+			</tr>
+			
+		</table><blockList eId="annex_3/lvl_u1/lvl_2/lvl_23/list_u3"><blockList><item eId="annex_3/lvl_u1/lvl_2/lvl_23/list_u3/bull_u1"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"/><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"><i>Tabelle 6:</i> Einfachprüfplan für die nicht zerstörende Prüfung von Fertigpackungen mit Nennfüllmengen bis 10 kg oder 10 l bei einem Losumfang von weniger als 100 Fertigpackungen</p></item></blockList><item eId="annex_3/lvl_u1/lvl_2/lvl_23/list_u3/lbl_233"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">233 </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"><i>Nicht zerstörende Prüfung von Fertigpackungen mit Nennfüllmengen über 10 kg oder 10 l bis 50 kg oder 50 l</i></p></item><item eId="annex_3/lvl_u1/lvl_2/lvl_23/list_u3/bull_u2"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"/><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Die Werte für die Annahme des Loses sind in Tabelle 7 aufgeführt.</p></item></blockList><table border="1">
+			
+			
+			<tr>
+				
+				
+				<th xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">
+					
+					<p>Losumfang</p>
+				</th>
+				<th xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">
+					
+					<p>Umfang der Stichprobe</p>
+				</th>
+				<th xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">
+					
+					<p>  Annahme</p>
+				</th>
+			</tr>
+			<tr>
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">&lt; 20</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">100 % des Losumfangs</p>
+				</td>
+				<td xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">
+					
+					<p><sub><img fedlex:original-width="3" fedlex:original-height="3" fedlex:original-text-width="148" fedlex:original-page-width="108" src="image/image3.png"/></sub> ≥ <i>Q</i><i><sub>n</sub></i></p>
+				</td>
+			</tr>
+			<tr>
+				
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					
+				</td>
+			</tr>
+			<tr>
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">≥ 20</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">20</p>
+				</td>
+				<td xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">
+					
+					<p><sub><img fedlex:original-width="3" fedlex:original-height="3" fedlex:original-text-width="148" fedlex:original-page-width="108" src="image/image3.png"/></sub> ≥ <i>Q</i><i><sub>n</sub></i> <i>– 0.64</i> <i>s</i></p>
+				</td>
+			</tr>
+			
+		</table><blockList eId="annex_3/lvl_u1/lvl_2/lvl_23/list_u4"><item eId="annex_3/lvl_u1/lvl_2/lvl_23/list_u4/bull_u1"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"/><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"><i>Tabelle 7:</i> Einfachprüfplan für die nicht zerstörende Prüfung von Fertigpackungen mit Nennfüllmengen über 10 kg oder 10 l bis 50 kg oder 50 l</p></item><item eId="annex_3/lvl_u1/lvl_2/lvl_23/list_u4/lbl_234"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">234 </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"><i>Zerstörende Prüfung</i></p></item><item eId="annex_3/lvl_u1/lvl_2/lvl_23/list_u4/bull_u3"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"/><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Die Werte für die Annahme des Loses sind in Tabelle 8 aufgeführt.</p></item></blockList><table border="1">
+			
+			
+			<tr>
+				
+				
+				<th xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">
+					
+					<p>Losumfang</p>
+				</th>
+				<th xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">
+					
+					<p>Umfang der Stichprobe</p>
+				</th>
+				<th xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">
+					
+					<p>  Annahme</p>
+				</th>
+			</tr>
+			<tr>
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">&lt; 100</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">  5</p>
+				</td>
+				<td xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">
+					
+					<p><sub><img fedlex:original-width="2" fedlex:original-height="2" fedlex:original-text-width="148" fedlex:original-page-width="108" src="image/image3.png"/></sub> ≥ <i>Q</i><i><sub>n</sub></i> –<i> 1.803</i> <i>s</i></p>
+				</td>
+			</tr>
+			<tr>
+				
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					
+				</td>
+			</tr>
+			<tr>
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">≥ 100</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">20</p>
+				</td>
+				<td xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">
+					
+					<p><sub><img fedlex:original-width="2" fedlex:original-height="2" fedlex:original-text-width="148" fedlex:original-page-width="108" src="image/image3.png"/></sub> ≥ <i>Q</i><i><sub>n</sub></i> –<i> 0.64</i> <i>s</i></p>
+				</td>
+			</tr>
+			
+		</table><blockList eId="annex_3/lvl_u1/lvl_2/lvl_23/list_u5"><item eId="annex_3/lvl_u1/lvl_2/lvl_23/list_u5/bull_u1"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"/><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"><i>Tabelle 8:</i> Einfachprüfplan für die zerstörende Prüfung</p></item></blockList></content></level></level><level eId="annex_3/lvl_u1/lvl_3"><num>3</num><heading>Prüfung von Fertigpackungen nach Länge, Fläche oder Stückzahl</heading><content><blockList eId="annex_3/lvl_u1/lvl_3/list_u1"><item eId="annex_3/lvl_u1/lvl_3/list_u1/lbl_31"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">31 </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Die Prüfung von Fertigpackungen erfolgt stichprobenweise und erstreckt sich auf den Mittelwert der tatsächlichen Füllmengen aller Fertigpackungen der Stichprobe.</p></item><item eId="annex_3/lvl_u1/lvl_3/list_u1/lbl_32"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">32 </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Ein Los von Fertigpackungen wird als konform angesehen, wenn die Ergebnisse der Prüfung den in Ziffer 33 definierten Annahmekriterien entsprechen.</p></item><item eId="annex_3/lvl_u1/lvl_3/list_u1/lbl_33"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">33 </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Bei der Prüfung des Mittelwerts der tatsächlichen Füllmengen muss die Bedingung <sub><img fedlex:original-width="3" fedlex:original-height="3" fedlex:original-text-width="148" fedlex:original-page-width="108" src="image/image3.png"/></sub> + a<i> · </i>R ≥ <i>Q</i><i><sub>n</sub></i> mit den Werten des Wahrscheinlichkeitsfaktors a gemäss Tabelle 9 erfüllt sein. R ist die Spannweite der Füllmengen x<sub>i</sub> der Stichprobe.</p></item></blockList><table border="1">
+			
+			
+			<tr>
+				
+				
+				<th xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">
+					
+					<p>Losumfang</p>
+				</th>
+				<th xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">
+					
+					<p>Umfang der Stichprobe</p>
+				</th>
+				<th xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">
+					
+					<p>a</p>
+				</th>
+			</tr>
+			<tr>
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">≤ 50</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">  3</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">1.0</p>
+				</td>
+			</tr>
+			<tr>
+				
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					
+				</td>
+			</tr>
+			<tr>
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">51 bis 150</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">  5</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">0.35</p>
+				</td>
+			</tr>
+			<tr>
+				
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					
+				</td>
+			</tr>
+			<tr>
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">151 bis 500</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">  8</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">0.2</p>
+				</td>
+			</tr>
+			<tr>
+				
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					
+				</td>
+			</tr>
+			<tr>
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">501 bis 3200</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">13</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">0.15</p>
+				</td>
+			</tr>
+			<tr>
+				
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					
+				</td>
+			</tr>
+			<tr>
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">3201 bis 10 000</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">20</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">0.1</p>
+				</td>
+			</tr>
+			<tr>
+				
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					
+				</td>
+			</tr>
+			<tr>
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">10 001 und mehr</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">30</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">0.085</p>
+				</td>
+			</tr>
+			
+		</table><blockList eId="annex_3/lvl_u1/lvl_3/list_u2"><item eId="annex_3/lvl_u1/lvl_3/list_u2/bull_u1"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"/><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"><i>Tabelle 9:</i> Konformitätsanforderungen</p></item><item eId="annex_3/lvl_u1/lvl_3/list_u2/lbl_34"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">34 </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Für Fertigpackungen, die nach Länge deklariert sind und bis zu 5 m lang sind (Q<sub>n</sub> ≤ 5 m), ist der Wahrscheinlichkeitsfaktor a = 0.</p></item><item eId="annex_3/lvl_u1/lvl_3/list_u2/lbl_35"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">35 </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Für Fertigpackungen, die nach Stückzahl deklariert sind und bis zu 50 Stück aufweisen (Q<sub>n</sub> ≤ 50), ist der Wahrscheinlichkeitsfaktor a = 0.</p></item></blockList></content></level><level eId="annex_3/lvl_u1/lvl_4"><num>4</num><heading>Prüfung von Gasflaschen</heading><level eId="annex_3/lvl_u1/lvl_4/lvl_41"><num>41</num><heading>Allgemeines</heading><content><blockList><item eId="annex_3/lvl_u1/lvl_4/lvl_41/lbl_411"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">411 </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Für Gasflaschen gelten die Anforderungen nach Artikel 26. Ihre Einhaltung wird stichprobenweise geprüft.</p></item><item eId="annex_3/lvl_u1/lvl_4/lvl_41/lbl_412"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">412 </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Die Prüfung von Gasflaschen erstreckt sich auf deren tatsächliche Füllmenge.</p></item><item eId="annex_3/lvl_u1/lvl_4/lvl_41/lbl_413"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">413 </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Ein Los von Gasflaschen wird als konform angesehen, wenn die Ergebnisse der Prüfung den in Ziffer 43 definierten Annahmekriterien entsprechen.</p></item><item eId="annex_3/lvl_u1/lvl_4/lvl_41/lbl_414"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">414 </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Es wird eine Stichprobe von 20 vollen Gasflaschen aus dem gleichen Los entnommen.</p></item></blockList></content></level><level eId="annex_3/lvl_u1/lvl_4/lvl_42"><num>42</num><heading>Prüfung der tatsächlichen Füllmenge der einzelnen Gasflaschen</heading><content><blockList><item eId="annex_3/lvl_u1/lvl_4/lvl_42/lbl_421"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">421 </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Bei der Prüfung der Füllmenge von Gasflaschen gilt das auf der Gasflasche eingeschlagene, aufgedruckte oder auf andere Art angebrachte Gewicht der Gasflasche als Taragewicht. Fehlt diese Angabe oder bestehen Zweifel an der Genauigkeit der Angabe, so müssen die Gasflaschen entleert werden, um das Taragewicht zu bestimmen. </p></item><item eId="annex_3/lvl_u1/lvl_4/lvl_42/lbl_422"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">422 </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Zunächst wird das Bruttogewicht von 5 Gasflaschen aus der Stichprobe von 20 Stück bestimmt.</p></item><item eId="annex_3/lvl_u1/lvl_4/lvl_42/lbl_423"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">423 </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Anschliessend wird durch Abzug der auf den Gasflaschen angegebenen Tara oder durch Entleerung der Gasflaschen deren tatsächliche Füllmenge bestimmt.</p></item><item eId="annex_3/lvl_u1/lvl_4/lvl_42/lbl_424"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">424 </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Gasflaschen, deren tatsächliche Füllmenge geringer ist als die zulässige Mindestfüllmenge nach Artikel 26, werden als fehlerhaft bezeichnet.</p></item></blockList></content></level><level eId="annex_3/lvl_u1/lvl_4/lvl_43"><num>43</num><heading>Ergebnis der Prüfung</heading><content><blockList eId="annex_3/lvl_u1/lvl_4/lvl_43/list_u1"><item eId="annex_3/lvl_u1/lvl_4/lvl_43/list_u1/lbl_431"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">431 </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Ist von den ersten 5 geprüften Gasflaschen keine fehlerhaft, so ist das Los konform.</p></item><item eId="annex_3/lvl_u1/lvl_4/lvl_43/list_u1/lbl_432"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">432 </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Sind von den ersten 5 geprüften Gasflaschen 5 fehlerhaft, so ist das Los nicht konform und wird abgelehnt.</p></item><item eId="annex_3/lvl_u1/lvl_4/lvl_43/list_u1/lbl_433"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">433 </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Sind unter den ersten 5 geprüften Gasflaschen 1–4 fehlerhaft, so müssen 6 weitere Flaschen aus der gleichen Stichprobe geprüft werden.</p></item><item eId="annex_3/lvl_u1/lvl_4/lvl_43/list_u1/lbl_434"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">434 </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Sind von den nun 11 geprüften Gasflaschen 4 oder weniger fehlerhaft, so ist das Los konform.</p></item><item eId="annex_3/lvl_u1/lvl_4/lvl_43/list_u1/lbl_435"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">435 </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Sind von den 11 geprüften Gasflaschen 5 oder mehr fehlerhaft, so ist das Los nicht konform und wird abgelehnt.</p></item><item eId="annex_3/lvl_u1/lvl_4/lvl_43/list_u1/lbl_436"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">436 </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Die Tabelle 10 fasst die Ziffern 431 bis 435 zusammen.</p></item></blockList><table border="1">
+			
+			
+			<tr>
+				
+				
+				<th colspan="3" xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">
+					
+					<p>Anzahl zu prüfender Gasflaschen</p>
+				</th>
+				<th xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">
+					
+					
+				</th>
+				<th xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">
+					
+					
+				</th>
+				<th colspan="2" xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">
+					
+					<p>Anzahl der fehlerhaften Gasflaschen</p>
+				</th>
+				<th xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">
+					
+					
+				</th>
+			</tr>
+			<tr>
+				
+				
+				<th xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">
+					
+					<p>Reihenfolge</p>
+				</th>
+				<th xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">
+					
+					<p>Umfang</p>
+				</th>
+				<th colspan="3" xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">
+					
+					<p>Kumulierter Umfang</p>
+				</th>
+				<th xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">
+					
+					<p>Annahmezahl</p>
+				</th>
+				<th colspan="2" xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">
+					
+					<p>Ablehnungszahl</p>
+				</th>
+			</tr>
+			<tr>
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">1.</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">5</p>
+				</td>
+				<td colspan="3">
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">  5</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">0</p>
+				</td>
+				<td colspan="2">
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">5</p>
+				</td>
+			</tr>
+			<tr>
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">2.</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">6</p>
+				</td>
+				<td colspan="3">
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">11</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">4</p>
+				</td>
+				<td colspan="2">
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">5</p>
+				</td>
+			</tr>
+			
+		</table><blockList eId="annex_3/lvl_u1/lvl_4/lvl_43/list_u2"><item eId="annex_3/lvl_u1/lvl_4/lvl_43/list_u2/bull_u1"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"/><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"><i>Tabelle 10:</i> Doppelprüfplan für die Prüfung von Gasflaschen</p></item></blockList></content></level></level></level></mainBody></doc></component><component><doc name="annex"><meta><identification source="#ch.bk"><FRBRWork><FRBRthis value="https://fedlex.data.admin.ch/eli/cc/2012/607/20200101/main-text"/><FRBRuri value="https://fedlex.data.admin.ch/eli/cc/2012/607/20200101"/><FRBRdate date="2020-01-01" name="jolux:dateApplicability"/><FRBRdate date="2013-01-01" name="jolux:dateEntryInForce"/><FRBRdate date="2012-09-05" name="jolux:dateDocument"/><FRBRauthor href="#ch.bk" as="#publisher"/><FRBRauthor href="#ch.bk" as="#rightsHolder"/><FRBRcountry value="CH"/><FRBRnumber value="941.204"/><FRBRname xml:lang="fr" value="Ordonnance du 5 septembre 2012 sur les déclarations de quantité dans la vente en vrac et sur les préemballages (Ordonnance sur les déclarations de quantité, ODqua)" shortForm="ODqua"/><FRBRname xml:lang="it" value="Ordinanza del 5 settembre 2012 sulle indicazioni di quantità nella vendita di merce sfusa e sugli imballaggi preconfezionati (Ordinanza sulle indicazioni di quantità, OIQ)" shortForm="OIQ"/><FRBRname xml:lang="de" value="Verordnung vom 5. September 2012 über die Mengenangabe im Offenverkauf und auf Fertigpackungen (Mengenangabeverordnung, MeAV)" shortForm="MeAV"/><FRBRauthoritative value="true"/></FRBRWork><FRBRExpression><FRBRthis value="https://fedlex.data.admin.ch/eli/cc/2012/607/20200101/de/main-text"/><FRBRuri value="https://fedlex.data.admin.ch/eli/cc/2012/607/20200101/de"/><FRBRdate date="2020-01-01" name="jolux:dateApplicability"/><FRBRdate date="2013-01-01" name="jolux:dateEntryInForce"/><FRBRdate date="2012-09-05" name="jolux:dateDocument"/><FRBRauthor href="#ch.bk" as="#publisher"/><FRBRauthor href="#ch.bk" as="#rightsHolder"/><FRBRlanguage language="de"/></FRBRExpression><FRBRManifestation><FRBRthis value="https://fedlex.data.admin.ch/eli/cc/2012/607/20200101/de/xml/main-text"/><FRBRuri value="https://fedlex.data.admin.ch/eli/cc/2012/607/20200101/de/xml"/><FRBRdate date="2020-01-01" name="jolux:dateApplicability"/><FRBRdate date="2013-01-01" name="jolux:dateEntryInForce"/><FRBRdate date="2012-09-05" name="jolux:dateDocument"/><FRBRauthor href="#ch.bk" as="#publisher"/><FRBRauthor href="#ch.bk" as="#rightsHolder"/><FRBRformat value="xml"/></FRBRManifestation></identification></meta><preface><container name="headerOfAnnex"><block name="num">Anhang 4<inline name="man-font-style-normal"><authorialNote>
+		<p> Bereinigt gemäss Ziff. II Abs. 2 der V vom 30. Okt. 2019, in Kraft seit 1. Jan. 2020  (<ref href="https://fedlex.data.admin.ch/eli/oc/2019/638" xmlns:data="urn:com:c-moria:legi4ch:xslt:data" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">AS <b>2019</b> 3493</ref>).</p>
+	</authorialNote></inline></block></container></preface><mainBody><p>(Art. 35)</p><level eId="annex_4/lvl_u1"><heading>Behördliche Kontrolle von Massbehältnis-Flaschen</heading><level eId="annex_4/lvl_u1/lvl_1"><num>1</num><heading>Stichprobenentnahme</heading><content><blockList><item eId="annex_4/lvl_u1/lvl_1/lbl_11"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">11 </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Es wird eine Stichprobe von Massbehältnis-Flaschen desselben Musters und derselben Herstellung aus einem Los entnommen, das grundsätzlich der Produktion einer Stunde entspricht.</p></item><item eId="annex_4/lvl_u1/lvl_1/lbl_12"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">12 </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Ist das Ergebnis dieser Prüfung nicht zufriedenstellend, so ist eine zweite Prüfung vorzunehmen. Diese erfolgt entweder bei einer weiteren Stichprobe, die einem Los entnommen worden ist, das der Produktion eines längeren Zeitraums entspricht, oder anhand der Ergebnisse auf den Kontrollkarten des Herstellers, wenn die Produktion des Unternehmens einer vom Eidgenössischen Institut für Metrologie anerkannten Kontrolle unterzogen worden ist.</p></item><item eId="annex_4/lvl_u1/lvl_1/lbl_13"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">13 </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Die Anzahl der Massbehältnis-Flaschen der Stichprobe beträgt 35.</p></item></blockList></content></level><level eId="annex_4/lvl_u1/lvl_2"><num>2</num><heading>Messung des Volumens der Massbehältnis-Flaschen <br/>der Stichprobe</heading><content><blockList><item eId="annex_4/lvl_u1/lvl_2/lbl_21"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">21 </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Die Massbehältnis-Flaschen werden zuerst leer gewogen.</p></item><item eId="annex_4/lvl_u1/lvl_2/lbl_22"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">22 </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Sie werden dann mit Wasser von bekannter Dichte mit einer Temperatur von 20 °C bis zu der zu überprüfenden Füllhöhe gefüllt (je nach Aufschrift nach Art. 31 Abs. 1 Bst. b bis zur Höhe des angegebenen Abstands von der oberen Randebene oder bis zur oberen Randebene).</p></item><item eId="annex_4/lvl_u1/lvl_2/lbl_23"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">23 </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Sie werden anschliessend erneut gewogen.</p></item><item eId="annex_4/lvl_u1/lvl_2/lbl_24"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">24 </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Die Kontrolle ist mit einer geeigneten Waage vorzunehmen, die den Anforderungen der Messmittelverordnung vom 15. Februar 2006<authorialNote>
+		<p> <ref href="https://fedlex.data.admin.ch/eli/cc/2006/245" xmlns:data="urn:com:c-moria:legi4ch:xslt:data" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">SR <b>941.210</b></ref></p>
+	</authorialNote> und den entsprechenden Ausführungsbestimmungen des EJPD genügt.</p></item><item eId="annex_4/lvl_u1/lvl_2/lbl_25"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">25 </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Die Unsicherheit in der Messung des Volumens darf höchstens <sup>1</sup>/<sub>5</sub> der Fehlergrenzen für das Nennvolumen der Massbehältnis-Flaschen betragen.</p></item></blockList></content></level><level eId="annex_4/lvl_u1/lvl_3"><num>3</num><heading>Auswertung der Ergebnisse</heading><content><blockList eId="annex_4/lvl_u1/lvl_3/list_u1"><item eId="annex_4/lvl_u1/lvl_3/list_u1/lbl_31"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">31 </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"/><blockList><listIntroduction eId="annex_4/lvl_u1/lvl_3/list_u1/lbl_31/listintro" xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Zu berechnen sind:</listIntroduction><item eId="annex_4/lvl_u1/lvl_3/list_u1/lbl_31/lbl_a"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">a. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">der Mittelwert <sub><img fedlex:original-width="3" fedlex:original-height="3" fedlex:original-text-width="148" fedlex:original-page-width="108" src="image/image3.png"/></sub> nach der folgenden Formel, wobei <sub><img fedlex:original-width="3" fedlex:original-height="3" fedlex:original-text-width="148" fedlex:original-page-width="108" src="image/image4.png"/></sub> die jeweils gemessenen Volumen der 35 Massbehältnis-Flaschen der Stichprobe darstellt:</p></item></blockList></item></blockList><p><img fedlex:original-width="29" fedlex:original-height="11" fedlex:original-text-width="148" fedlex:original-page-width="108" src="image/image5.png"/></p><blockList eId="annex_4/lvl_u1/lvl_3/list_u2"><item eId="annex_4/lvl_u1/lvl_3/list_u2/lbl_b"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">b. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">die Standardabweichung s der gemessenen Volumen der Stichprobe nach folgender Formel:</p></item></blockList><p><img fedlex:original-width="49" fedlex:original-height="11" fedlex:original-text-width="148" fedlex:original-page-width="108" src="image/image6.png"/></p><blockList eId="annex_4/lvl_u1/lvl_3/list_u3"><blockList><item eId="annex_4/lvl_u1/lvl_3/list_u3/lbl_c"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">c. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">die obere Toleranzgrenze T<sub>O</sub> (Summe aus dem Nennvolumen und der Fehlergrenze für dieses Volumen) sowie die untere Toleranzgrenze T<sub>U</sub> (Differenz zwischen dem Nennvolumen und der Fehlergrenze für dieses Volumen).</p></item></blockList><item eId="annex_4/lvl_u1/lvl_3/list_u3/lbl_32"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">32 </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Das Los wird als konform angesehen, wenn die Werte für den Mittelwert und die Standardabweichung gleichzeitig folgende drei Ungleichungen erfüllen:</p></item></blockList><p><img fedlex:original-width="35" fedlex:original-height="7" fedlex:original-text-width="148" fedlex:original-page-width="108" src="image/image7.png"/></p><p><img fedlex:original-width="34" fedlex:original-height="7" fedlex:original-text-width="148" fedlex:original-page-width="108" src="image/image8.png"/></p><p><img fedlex:original-width="42" fedlex:original-height="7" fedlex:original-text-width="148" fedlex:original-page-width="108" src="image/image9.png"/></p></content></level></level></mainBody></doc></component></components></act></akomaNtoso>

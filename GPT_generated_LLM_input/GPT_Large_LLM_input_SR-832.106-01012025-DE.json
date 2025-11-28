@@ -1,0 +1,47 @@
+[
+  {
+    "item_type": "preamble_callback",
+    "acronyms": [
+      {
+        "acronym": "EDI",
+        "sr_link": "SR 832.10",
+        "url": "https://fedlex.data.admin.ch/eli/cc/1995/1328_1328_1328"
+      },
+      {
+        "acronym": "KVG",
+        "sr_link": "SR 832.10",
+        "url": "https://fedlex.data.admin.ch/eli/cc/1995/1328_1328_1328"
+      }
+    ],
+    "description": "Preamble acronyms for reference detection"
+  },
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 832.10",
+    "TARGET_URL": "https://fedlex.data.admin.ch/eli/cc/1995/1328_1328_1328",
+    "SNIPPET": "gestützt auf Artikel 61 Absatz 2bis des Bundesgesetzes vom 18. März 1994 SR 832.10 über die Krankenversicherung (KVG),",
+    "INSIDE_AUTHORIALNOTE": "SR 832.10",
+    "item_type": "SR_link_detection"
+  },
+  {
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": "SR 832.10",
+    "TARGET_URL": "https://fedlex.data.admin.ch/eli/cc/1995/1328_1328_1328",
+    "SNIPPET": "Die maximal zulässigen Unterschiede zwischen den Prämien der ordentlichen Versicherung mit Unfalldeckung bei einer regionalen Abstufung der Prämien gemäss Artikel 61 Absatz 2bis KVG sind in Anhang 2 festgelegt.",
+    "INSIDE_AUTHORIALNOTE": "SR 832.10",
+    "preamble_acronym_name": "KVG",
+    "item_type": "preamble_acronym",
+    "ITEM": 2
+  },
+  {
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": "SR 832.10",
+    "TARGET_URL": "https://fedlex.data.admin.ch/eli/cc/1995/1328_1328_1328",
+    "SNIPPET": "Die Verordnung des EDI vom 25. November 2015 über die Prämienregionen wird aufgehoben.",
+    "INSIDE_AUTHORIALNOTE": "SR 832.10",
+    "preamble_acronym_name": "EDI",
+    "item_type": "preamble_acronym",
+    "ITEM": 3
+  }
+]

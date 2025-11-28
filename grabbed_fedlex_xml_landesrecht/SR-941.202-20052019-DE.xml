@@ -1,0 +1,1414 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:fedlex="http://fedlex.admin.ch/"><act name="publicLaw"><meta><identification source="#ch.bk"><FRBRWork><FRBRthis value="https://fedlex.data.admin.ch/eli/cc/1994/3109_3109_3109/20190520/main-text"/><FRBRuri value="https://fedlex.data.admin.ch/eli/cc/1994/3109_3109_3109/20190520"/><FRBRdate date="1995-01-01" name="jolux:dateEntryInForce"/><FRBRdate date="1994-11-23" name="jolux:dateDocument"/><FRBRdate date="2019-05-20" name="jolux:dateApplicability"/><FRBRauthor href="#ch.bk" as="#publisher"/><FRBRauthor href="#ch.bk" as="#rightsHolder"/><FRBRcountry value="CH"/><FRBRnumber value="941.202"/><FRBRname xml:lang="de" value="Einheitenverordnung vom 23. November 1994" shortForm=""/><FRBRname xml:lang="fr" value="Ordonnance du 23 novembre 1994 sur les unités" shortForm=""/><FRBRname xml:lang="it" value="Ordinanza del 23 novembre 1994 sulle unità" shortForm=""/><FRBRauthoritative value="true"/></FRBRWork><FRBRExpression><FRBRthis value="https://fedlex.data.admin.ch/eli/cc/1994/3109_3109_3109/20190520/de/main-text"/><FRBRuri value="https://fedlex.data.admin.ch/eli/cc/1994/3109_3109_3109/20190520/de"/><FRBRdate date="1995-01-01" name="jolux:dateEntryInForce"/><FRBRdate date="1994-11-23" name="jolux:dateDocument"/><FRBRdate date="2019-05-20" name="jolux:dateApplicability"/><FRBRauthor href="#ch.bk" as="#publisher"/><FRBRauthor href="#ch.bk" as="#rightsHolder"/><FRBRlanguage language="de"/></FRBRExpression><FRBRManifestation><FRBRthis value="https://fedlex.data.admin.ch/eli/cc/1994/3109_3109_3109/20190520/de/xml/main-text"/><FRBRuri value="https://fedlex.data.admin.ch/eli/cc/1994/3109_3109_3109/20190520/de/xml"/><FRBRdate date="1995-01-01" name="jolux:dateEntryInForce"/><FRBRdate date="1994-11-23" name="jolux:dateDocument"/><FRBRdate date="2019-05-20" name="jolux:dateApplicability"/><FRBRauthor href="#ch.bk" as="#publisher"/><FRBRauthor href="#ch.bk" as="#rightsHolder"/><FRBRformat value="xml" fedlex:generator="2025-q2-rel-1.7.2"/></FRBRManifestation></identification><references source="#ch.bk"><TLCOrganization eId="ch.bk" href="https://fedlex.data.admin.ch/vocabulary/legal-institution/2" showAs="Bundeskanzlei"/><TLCRole eId="publisher" href="http://data.legilux.public.lu/resource/ontology/jolux#publisher" showAs="Editeur"/><TLCRole eId="rightsHolder" href="http://data.legilux.public.lu/resource/ontology/jolux#rightsHolder" showAs="Détenteur des droits"/><TLCReference name="language" href="http://publications.europa.eu/resource/authority/language/DEU" showAs="de"/><TLCReference name="format" href="https://fedlex.data.admin.ch/vocabulary/user-format/xml" showAs="xml"/></references></meta><preface><p><docNumber>941.202 </docNumber></p><p><docTitle>Einheitenverordnung<inline name="man-font-weight-normal"><authorialNote>
+		<p> Fassung gemäss Ziff. I der V vom 7. Dez. 2012, in Kraft seit 1. Jan. 2013 (<ref href="https://fedlex.data.admin.ch/eli/oc/2012/875" xmlns:data="urn:com:c-moria:legi4ch:xslt:data" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">AS <b>2012</b> 7193</ref>).</p>
+	</authorialNote></inline></docTitle></p><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">vom 23. November 1994 (Stand am 20. Mai 2019)</p></preface><preamble><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Der Schweizerische Bundesrat,</p><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">gestützt auf die Artikel 2 Absatz 2 und 3 Absatz 2 des Messgesetzes <br/>vom 17. Juni 2011<authorialNote>
+		<p> <ref href="https://fedlex.data.admin.ch/eli/cc/2012/734" xmlns:data="urn:com:c-moria:legi4ch:xslt:data" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">SR <b>941.20</b></ref></p>
+	</authorialNote>,<authorialNote>
+		<p> Fassung gemäss Ziff. I der V vom 7. Dez. 2012, in Kraft seit 1. Jan. 2013 (<ref href="https://fedlex.data.admin.ch/eli/oc/2012/875" xmlns:data="urn:com:c-moria:legi4ch:xslt:data" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">AS <b>2012</b> 7193</ref>).</p>
+	</authorialNote></p><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">verordnet:</p></preamble><body><section eId="sec_1"><num>1. Abschnitt: </num><heading>Allgemeine Bestimmungen</heading><article eId="art_1"><num><b>Art. 1</b></num><heading>Gegenstand</heading><paragraph eId="art_1/para"><content><blockList><listIntroduction eId="art_1/para/listintro" xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Diese Verordnung regelt:</listIntroduction><item eId="art_1/para/lbl_a"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">a. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">die Benennungen und Definitionen der gesetzlichen Masseinheiten (Einheiten) und ihrer Vielfachen und Teile;</p></item><item eId="art_1/para/lbl_b"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">b. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">die Verwendung dieser Benennungen;</p></item><item eId="art_1/para/lbl_c"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">c.<authorialNote>
+		<p> Aufgehoben durch Ziff. I der V vom 7. Dez. 2012, mit Wirkung seit 1. Jan. 2013 (<ref href="https://fedlex.data.admin.ch/eli/oc/2012/875" xmlns:data="urn:com:c-moria:legi4ch:xslt:data" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">AS <b>2012</b> 7193</ref>).</p>
+	</authorialNote> </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">...</p></item></blockList></content></paragraph></article><article eId="art_2"><num><b>Art. 2</b></num><heading>Benennung von Einheiten</heading><paragraph eId="art_2/para_1"><num>1</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Einheiten sowie deren Vielfache und Teile sind mit den in dieser Verordnung dafür vorgesehenen Namen und Zeichen zu benennen.</p></content></paragraph><paragraph eId="art_2/para_2"><num>2</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Physikalische Grössen, denen diese Verordnung keine spezielle Einheit zuordnet, sind durch Potenzprodukte aus Einheiten, welche diese Verordnung vorsieht, darzustellen. Für diese Potenzprodukte gilt ihr algebraischer Ausdruck als Benennung.</p></content></paragraph><paragraph eId="art_2/para_3"><num>3</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Soweit vorgeschriebene Zeichen für Einheiten fehlen, dürfen diese Einheiten nach der Norm DIN 66030:2002-05<authorialNote>
+		<p> Deutsche Norm DIN 66030:2002-05, Informationstechnik – Darstellung von Einheitennamen in Systemen mit beschränktem Schriftzeichenvorrat. Die Norm kann kostenlos eingesehen und gegen Bezahlung bezogen werden bei der Schweizerischen Normen-Vereinigung (SNV), Sulzerallee 70, 8404 Winterthur; www.snv.ch, oder beim Eidg. Institut für Metrologie, 3003 Bern-Wabern kostenlos eingesehen werden.</p>
+	</authorialNote> dargestellt werden.<authorialNote>
+		<p> Fassung gemäss Ziff. I der V vom 7. Dez. 2012, in Kraft seit 1. Jan. 2013 (<ref href="https://fedlex.data.admin.ch/eli/oc/2012/875" xmlns:data="urn:com:c-moria:legi4ch:xslt:data" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">AS <b>2012</b> 7193</ref>).</p>
+	</authorialNote></p></content></paragraph><paragraph eId="art_2/para_4"><num>4</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> ...<authorialNote>
+		<p> Aufgehoben durch Ziff. I der V vom 7. Dez. 2012, mit Wirkung seit 1. Jan. 2013 (<ref href="https://fedlex.data.admin.ch/eli/oc/2012/875" xmlns:data="urn:com:c-moria:legi4ch:xslt:data" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">AS <b>2012</b> 7193</ref>).</p>
+	</authorialNote></p></content></paragraph></article></section><section eId="sec_2"><num>2. Abschnitt:<inline name="man-font-weight-normal"><authorialNote>
+		<p> Fassung gemäss Ziff. I der V vom 22. März 2019, in Kraft seit 20. Mai 2019 (<ref href="https://fedlex.data.admin.ch/eli/oc/2019/214" xmlns:data="urn:com:c-moria:legi4ch:xslt:data" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">AS <b>2019</b> 1133</ref>).</p>
+	</authorialNote></inline></num><heading>Die Basiseinheiten des Internationalen Einheitensystems (SI)</heading><article eId="art_3"><num><b>Art. 3</b></num><paragraph eId="art_3/para"><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Für die Basiseinheiten des Internationalen Einheitensystems (SI) nach Artikel 2 des Messgesetzes gelten die Definitionen, die mit der Resolution 1 der 26. Generalkonferenz für Mass und Gewicht vom 16. November 2018<authorialNote>
+		<p> Der Text der Resolution kann auf Französisch und Englisch eingesehen werden beim Eidgenössischen Institut für Metrologie, Lindenweg 50, 3003 Bern-Wabern oder unter https://www.bipm.org/fr/committees/cg/cgpm/26-2018/resolution-1.</p>
+	</authorialNote> festgelegt wurden.</p></content></paragraph></article><article eId="art_4_9"><num><b>Art. 4–9</b></num><paragraph eId="art_4_9/para"><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Aufgehoben</p></content></paragraph></article></section><section eId="sec_3"><num>3. Abschnitt: </num><heading>...</heading><article eId="art_10_11"><num><b>Art. 10</b> und <b>11</b><authorialNote>
+		<p> Aufgehoben durch Ziff. I der V vom 7. Dez. 2012, mit Wirkung seit 1. Jan. 2013 (<ref href="https://fedlex.data.admin.ch/eli/oc/2012/875" xmlns:data="urn:com:c-moria:legi4ch:xslt:data" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">AS <b>2012</b> 7193</ref>).</p>
+	</authorialNote></num></article></section><section eId="sec_4"><num>4. Abschnitt: </num><heading>Abgeleitete SI-Einheiten</heading><article eId="art_12"><num><b>Art. 12</b></num><heading>Definition und Darstellung abgeleiteter SI-Einheiten</heading><paragraph eId="art_12/para_1"><num>1</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Abgeleitete SI-Einheiten sind aus den SI-Basiseinheiten und den ergänzenden SI-Einheiten kohärent abgeleitete Einheiten.</p></content></paragraph><paragraph eId="art_12/para_2"><num>2</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Sie werden in der Form von Potenzprodukten aus den SI-Basiseinheiten und den ergänzenden SI-Einheiten mit dem Zahlenfaktor 1 dargestellt.</p></content></paragraph></article><article eId="art_13"><num><b>Art. 13</b><authorialNote>
+		<p> Fassung gemäss Ziff. I der V vom 7. Dez. 2012, in Kraft seit 1. Jan. 2013 (<ref href="https://fedlex.data.admin.ch/eli/oc/2012/875" xmlns:data="urn:com:c-moria:legi4ch:xslt:data" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">AS <b>2012</b> 7193</ref>).</p>
+	</authorialNote></num><heading>Besondere Benennungen für abgeleitete SI-Einheiten</heading><paragraph eId="art_13/para"><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Folgende abgeleitete SI-Einheiten tragen besondere Namen und Zeichen:</p><table border="1">
+			
+			
+			<tr>
+				
+				
+				<th xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">
+					
+					<p>Grösse</p>
+				</th>
+				<th xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">
+					
+					<p>Einheitenname</p>
+				</th>
+				<th xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">
+					
+					<p>Einheitenzeichen</p>
+				</th>
+				<th xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">
+					
+					<p>in anderen<br/>SI-Einheiten</p>
+				</th>
+				<th xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">
+					
+					<p>in SI-Basiseinheiten</p>
+				</th>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Ebener Winkel</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Radiant</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">rad</p>
+				</td>
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">m · m<sup xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">–1</sup></p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Räumlicher Winkel</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Steradiant</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">sr</p>
+				</td>
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">m<sup xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">2</sup> · m<sup xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">–2</sup></p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Frequenz</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Hertz</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Hz</p>
+				</td>
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">s<sup xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">–1</sup></p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Kraft</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Newton</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">N</p>
+				</td>
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">m · kg · s<sup xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">–2</sup></p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Druck, mechanische Spannung</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"><br/>Pascal</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"><br/>Pa</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"><br/>N · m<sup xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">–2</sup></p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"><br/>m<sup xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">–1</sup> · kg · s<sup xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">–2</sup></p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Energie, Arbeit, Wärmemenge</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"><br/>Joule</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"><br/>J</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"><br/>N · m</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"><br/>m<sup xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">2</sup> · kg · s<sup xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">–2</sup></p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Leistung, Energiefluss</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Watt</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">W</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">J · s<sup xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">–1</sup></p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">m<sup xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">2</sup> · kg · s<sup xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">–3</sup></p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Elektrizitätsmenge, <br/>elektrische Ladung</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"><br/>Coulomb</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"><br/>C</p>
+				</td>
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"><br/>s · A</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Elektrische Spannung, elektrische Potenzialdifferenz, elektromotorische Kraft</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"><br/><br/><br/>Volt</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"><br/><br/><br/>V</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"><br/><br/><br/>W · A<sup xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">–1</sup></p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"><br/><br/><br/>m<sup xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">2</sup> · kg · s<sup xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">–3</sup> · A<sup xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">–1</sup></p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Elektrischer Widerstand</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Ohm</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Ω</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">V · A<sup xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">–1</sup></p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">m<sup xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">2</sup> · kg · s<sup xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">–3</sup> · A<sup xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">–2</sup></p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Leitwert</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Siemens</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">S</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">A · V<sup xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">–1</sup></p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">m<sup xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">–2</sup> · kg<sup xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">–1</sup> · s<sup xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">3</sup> · A<sup xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">2</sup></p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Kapazität</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Farad</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">F</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">C · V<sup xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">–1</sup></p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">m<sup xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">–2</sup> · kg<sup xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">–1</sup> · s<sup xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">4</sup> · A<sup xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">2</sup></p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Magnetischer Fluss</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Weber</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Wb</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">V · s</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">m<sup xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">2</sup> · kg · s<sup xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">–2</sup> · A<sup xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">–1</sup></p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Magnetische Flussdichte</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Tesla</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">T</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Wb · m<sup xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">–2</sup></p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">kg · s<sup xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">–2</sup> · A<sup xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">–1</sup></p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Induktivität</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Henry</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">H</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Wb · A<sup xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">–1</sup></p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">m<sup xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">2</sup> · kg · s<sup xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">–2</sup> · A<sup xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">–2</sup></p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Lichtstrom</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Lumen</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">lm</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">cd · sr</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">cd</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Beleuchtungsstärke</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Lux</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">lx</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">lm · m<sup xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">–2</sup></p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">m<sup xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">–2</sup> · cd</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Aktivität <br/>(ionisierende Strahlung)</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Becquerel</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Bq</p>
+				</td>
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">s<sup xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">–1</sup></p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Energiedosis</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Gray</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Gy</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">J · kg<sup xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">–1</sup></p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">m<sup xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">2</sup> · s<sup xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">–2</sup></p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Äquivalentdosis</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Sievert</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Sv</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">J · kg<sup xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">–1</sup></p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">m<sup xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">2</sup> · s<sup xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">–2</sup></p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Katalytische Aktivität</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Katal</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">kat</p>
+				</td>
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">s<sup xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">–1</sup> · mol</p>
+				</td>
+			</tr>
+			
+		</table></content></paragraph></article></section><section eId="sec_5"><num>5. Abschnitt: </num><heading>Vielfache und Teile von SI-Einheiten als selbständige Einheiten mit besonderen Benennungen</heading><article eId="art_14"><num><b>Art. 14</b></num><heading>Einheiten in Form von dezimalen Vielfachen oder Teilen von SI‑Einheiten</heading><paragraph eId="art_14/para"><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Folgende dezimale Vielfache und Teile von SI-Einheiten können mit besonderen Namen und Zeichen als selbständige Einheiten verwendet werden:</p><table border="1">
+			
+			
+			<tr>
+				
+				
+				<th xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">
+					
+					<p>Grösse</p>
+				</th>
+				<th xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">
+					
+					<p>Einheitenname</p>
+				</th>
+				<th xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">
+					
+					<p>Einheitenzeichen</p>
+				</th>
+				<th xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">
+					
+					<p>Beziehung zu SI-Einheiten</p>
+				</th>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Volumen</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Liter</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">l oder L</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">1 l = 1 dm<sup xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">3</sup> = 10<sup xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">–3</sup> m<sup xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">3</sup></p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Masse</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Tonne</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">t</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">1 t = 1 Mg = 10<sup xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">3</sup> kg</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Druck, mechanische <br/>Spannung</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"><br/>Bar</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"><br/>bar</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"><br/>1 bar = 10<sup xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">5</sup> Pa</p>
+				</td>
+			</tr>
+			
+		</table></content></paragraph></article><article eId="art_15"><num><b>Art. 15</b></num><heading>Einheiten in Form von nichtdezimalen Vielfachen oder Teilen von SI-Einheiten</heading><paragraph eId="art_15/para"><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Folgende nichtdezimale Vielfache und Teile von SI-Einheiten können mit besonderen Namen und Zeichen als selbständige Einheiten verwendet werden:</p><table border="1">
+			
+			
+			<tr>
+				
+				
+				<th xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">
+					
+					<p>Grösse</p>
+				</th>
+				<th xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">
+					
+					<p>Einheitenname</p>
+				</th>
+				<th xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">
+					
+					<p>Einheitenzeichen</p>
+				</th>
+				<th xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">
+					
+					<p>Beziehung zu SI-Einheiten</p>
+				</th>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Winkel</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Vollwinkel</p>
+				</td>
+				<td>
+					
+					
+				</td>
+				<td xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">
+					
+					<p><img fedlex:original-width="31" fedlex:original-height="3" fedlex:original-text-width="148" fedlex:original-page-width="108" src="image/image1.png"/></p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					<p>Neugrad, Gon</p>
+				</td>
+				<td>
+					
+					<p>gon</p>
+				</td>
+				<td xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">
+					
+					<p><img fedlex:original-width="31" fedlex:original-height="3" fedlex:original-text-width="148" fedlex:original-page-width="108" src="image/image2.png"/></p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					<p>Grad</p>
+				</td>
+				<td>
+					
+					<p>°</p>
+				</td>
+				<td xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">
+					
+					<p><img fedlex:original-width="25" fedlex:original-height="3" fedlex:original-text-width="148" fedlex:original-page-width="108" src="image/image3.png"/></p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					<p>(Winkel-) Minute</p>
+				</td>
+				<td>
+					
+					<p>’</p>
+				</td>
+				<td xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">
+					
+					<p><img fedlex:original-width="29" fedlex:original-height="3" fedlex:original-text-width="148" fedlex:original-page-width="108" src="image/image4.png"/></p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					<p>(Winkel-) Sekunde</p>
+				</td>
+				<td>
+					
+					<p>’’</p>
+				</td>
+				<td xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">
+					
+					<p><img fedlex:original-width="31" fedlex:original-height="3" fedlex:original-text-width="148" fedlex:original-page-width="108" src="image/image5.png"/></p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Zeit</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Minute</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">min</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">1 min = 60 s</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					<p>Stunde</p>
+				</td>
+				<td>
+					
+					<p>h</p>
+				</td>
+				<td>
+					
+					<p>1 h = 3600 s</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					<p>Tag</p>
+				</td>
+				<td>
+					
+					<p>d</p>
+				</td>
+				<td>
+					
+					<p>1 d = 86 400 s</p>
+				</td>
+			</tr>
+			
+		</table></content></paragraph></article></section><section eId="sec_6"><num>6. Abschnitt: </num><heading>Einheiten, die unabhängig von den SI-Basiseinheiten definiert sind</heading><article eId="art_16"><num><b>Art. 16</b><authorialNote>
+		<p> Fassung gemäss Ziff. I der V vom 7. Dez. 2012, in Kraft seit 1. Jan. 2013 (<ref href="https://fedlex.data.admin.ch/eli/oc/2012/875" xmlns:data="urn:com:c-moria:legi4ch:xslt:data" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">AS <b>2012</b> 7193</ref>).</p>
+	</authorialNote></num><heading>Atomare Masseneinheit</heading><paragraph eId="art_16/para"><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Die atomare Masseneinheit (u) ist der zwölfte Teil der Masse eines Atoms des Nuklids <sup>12</sup>C.</p></content></paragraph></article><article eId="art_17"><num><b>Art. 17</b><authorialNote>
+		<p> Fassung gemäss Ziff. I der V vom 7. Dez. 2012, in Kraft seit 1. Jan. 2013 (<ref href="https://fedlex.data.admin.ch/eli/oc/2012/875" xmlns:data="urn:com:c-moria:legi4ch:xslt:data" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">AS <b>2012</b> 7193</ref>).</p>
+	</authorialNote></num><heading>Elektronvolt</heading><paragraph eId="art_17/para"><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Das Elektronvolt (eV) ist die Energie, die ein Elektron beim Durchlaufen einer Potenzialdifferenz von einem Volt im Vakuum gewinnt.</p></content></paragraph></article></section><section eId="sec_7"><num>7. Abschnitt: </num><heading>Einheiten, die nur in speziellen Anwendungsbereichen zugelassen sind</heading><article eId="art_18"><num><b>Art. 18</b></num><paragraph eId="art_18/para"><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Folgende Einheiten dürfen nur für spezielle Grössen verwendet werden:</p><table border="1">
+			
+			
+			<tr>
+				
+				
+				<th xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">
+					
+					<p>Grösse</p>
+				</th>
+				<th xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">
+					
+					<p>Einheitenname</p>
+				</th>
+				<th xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">
+					
+					<p>Einheitenzeichen</p>
+				</th>
+				<th colspan="2" xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">
+					
+					<p>Beziehung zu SI-Einheiten</p>
+				</th>
+			</tr>
+			<tr>
+				
+				
+				<th xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">
+					
+					
+				</th>
+				<th xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">
+					
+					
+				</th>
+				<th xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">
+					
+					
+				</th>
+				<th colspan="2" xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">
+					
+					
+				</th>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p>Brechkraft optischer <br/>Systeme</p>
+				</td>
+				<td>
+					
+					<p><br/>Dioptrie</p>
+				</td>
+				<td>
+					
+					
+				</td>
+				<td colspan="2">
+					
+					<p><br/>1 Dioptrie = 1 m<sup xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">–1</sup></p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Masse von Edelsteinen</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">metrisches Karat</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"><br/>ct</p>
+				</td>
+				<td colspan="2">
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"><br/>1 ct = 2 · 10<sup xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">–4</sup> kg</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Fläche von Grundstücken und Flurstücken</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"><br/>Are</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"><br/>a</p>
+				</td>
+				<td colspan="2">
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"><br/>1 a = 10<sup xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">2</sup> m<sup xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">2</sup></p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					<p>Hektare</p>
+				</td>
+				<td>
+					
+					<p>ha</p>
+				</td>
+				<td colspan="2">
+					
+					<p>1 ha = 10<sup xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">4</sup> m<sup xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">2</sup></p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Längenbezogene Masse von textilen Fasern und Garnen</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"><br/>Tex</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"><br/>tex</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"><br/>1 tex = 1 g · km<sup xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">–1</sup></p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Blutdruck und Druck anderer Körperflüssigkeiten</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"><br/>Millimeter</p>
+				</td>
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					<p>Quecksilbersäule</p>
+				</td>
+				<td>
+					
+					<p><br/>mmHg</p>
+				</td>
+				<td>
+					
+					<p><br/>1 mmHg = 133,322 Pa<authorialNote>
+		<p> Gerundeter Zahlenwert aus 13,5951 · 9,80665.</p>
+	</authorialNote></p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Wirkungsquerschnitt in der Teilchen- und Kernphysik</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"><br/>Barn</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"><br/>b</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"><br/>1 b = 10<sup xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">–28</sup> m<sup xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">2</sup></p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Wechselstrom-<br/>Scheinleistung</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"><br/>Voltampere</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"><br/>VA</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"><br/>1 VA = 1 m<sup xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">2</sup> · kg · s<sup xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">–3</sup></p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Wechselstrom-<br/>Blindleistung</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"><br/>Var</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"><br/>var</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"><br/>1 var = 1 m<sup xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">2</sup> · kg · s<sup xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">–3</sup></p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Schalldruckpegel</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Dezibel</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">dB</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Schalldruckpegel [dB] =<br/>20 · log (Schalldruck / (20 µPa))</p>
+				</td>
+			</tr>
+			
+		</table></content></paragraph></article></section><section eId="sec_8"><num>8. Abschnitt: </num><heading>Bildung von dezimalen Vielfachen und Teilen der Einheiten</heading><article eId="art_19"><num><b>Art. 19</b></num><heading>SI-Vorsätze</heading><paragraph eId="art_19/para_1"><num>1</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Dezimale Vielfache und Teile einer Einheit können durch Vorsetzen von speziellen Ausdrücken, den SI-Vorsätzen (Vorsätze), vor die Benennung der Einheit gebildet werden.</p></content></paragraph><paragraph eId="art_19/para_2"><num>2</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Den Namen und Zeichen der Vorsätze sind folgende Vervielfachungs- beziehungsweise Teilfaktoren zugeordnet:</p><table border="1">
+			
+			
+			<tr>
+				
+				
+				<th xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">
+					
+					<p>Vorsatzname</p>
+				</th>
+				<th xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">
+					
+					<p>Vorsatzzeichen</p>
+				</th>
+				<th xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">
+					
+					<p>Faktor</p>
+				</th>
+				<th xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">
+					
+					<p>Vorsatzname</p>
+				</th>
+				<th xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">
+					
+					<p>Vorsatzzeichen</p>
+				</th>
+				<th xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">
+					
+					<p>Faktor</p>
+				</th>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Yotta</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Y</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">10<sup xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">24</sup></p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Dezi</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">d</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">10<sup xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">–1</sup></p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p>Zetta</p>
+				</td>
+				<td>
+					
+					<p>Z</p>
+				</td>
+				<td>
+					
+					<p>10<sup xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">21</sup></p>
+				</td>
+				<td>
+					
+					<p>Zenti</p>
+				</td>
+				<td>
+					
+					<p>c</p>
+				</td>
+				<td>
+					
+					<p>10<sup xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">–2</sup></p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p>Exa</p>
+				</td>
+				<td>
+					
+					<p>E</p>
+				</td>
+				<td>
+					
+					<p>10<sup xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">18</sup></p>
+				</td>
+				<td>
+					
+					<p>Milli</p>
+				</td>
+				<td>
+					
+					<p>m</p>
+				</td>
+				<td>
+					
+					<p>10<sup xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">–3</sup></p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p>Peta</p>
+				</td>
+				<td>
+					
+					<p>P</p>
+				</td>
+				<td>
+					
+					<p>10<sup xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">15</sup></p>
+				</td>
+				<td>
+					
+					<p>Mikro</p>
+				</td>
+				<td>
+					
+					<p>µ</p>
+				</td>
+				<td>
+					
+					<p>10<sup xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">–6</sup></p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p>Tera</p>
+				</td>
+				<td>
+					
+					<p>T</p>
+				</td>
+				<td>
+					
+					<p>10<sup xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">12</sup></p>
+				</td>
+				<td>
+					
+					<p>Nano</p>
+				</td>
+				<td>
+					
+					<p>n</p>
+				</td>
+				<td>
+					
+					<p>10<sup xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">–9</sup></p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p>Giga</p>
+				</td>
+				<td>
+					
+					<p>G</p>
+				</td>
+				<td>
+					
+					<p>10<sup xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">9</sup></p>
+				</td>
+				<td>
+					
+					<p>Piko</p>
+				</td>
+				<td>
+					
+					<p>p</p>
+				</td>
+				<td>
+					
+					<p>10<sup xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">–12</sup></p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p>Mega</p>
+				</td>
+				<td>
+					
+					<p>M</p>
+				</td>
+				<td>
+					
+					<p>10<sup xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">6</sup></p>
+				</td>
+				<td>
+					
+					<p>Femto</p>
+				</td>
+				<td>
+					
+					<p>f</p>
+				</td>
+				<td>
+					
+					<p>10<sup xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">–15</sup></p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p>Kilo</p>
+				</td>
+				<td>
+					
+					<p>k</p>
+				</td>
+				<td>
+					
+					<p>10<sup xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">3</sup></p>
+				</td>
+				<td>
+					
+					<p>Atto</p>
+				</td>
+				<td>
+					
+					<p>a</p>
+				</td>
+				<td>
+					
+					<p>10<sup xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">–18</sup></p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p>Hekto</p>
+				</td>
+				<td>
+					
+					<p>h</p>
+				</td>
+				<td>
+					
+					<p>10<sup xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">2</sup></p>
+				</td>
+				<td>
+					
+					<p>Zepto</p>
+				</td>
+				<td>
+					
+					<p>z</p>
+				</td>
+				<td>
+					
+					<p>10<sup xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">–21</sup></p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p>Deka</p>
+				</td>
+				<td>
+					
+					<p>da</p>
+				</td>
+				<td>
+					
+					<p>10<sup xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">1</sup></p>
+				</td>
+				<td>
+					
+					<p>Yokto</p>
+				</td>
+				<td>
+					
+					<p>y</p>
+				</td>
+				<td>
+					
+					<p>10<sup xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">–24</sup></p>
+				</td>
+			</tr>
+			
+		</table></content></paragraph><paragraph eId="art_19/para_3"><num>3</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Das Vorsetzen eines Vorsatzes vor eine Einheit entspricht der Multiplikation der Einheit mit dem zugeordneten Faktor.</p></content></paragraph></article><article eId="art_20"><num><b>Art. 20</b></num><heading>Allgemeine Vorschriften für die Verwendung der Vorsätze</heading><paragraph eId="art_20/para_1"><num>1</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Vorsatznamen dürfen nur zusammen mit Einheitennamen, Vorsatzzeichen nur zusammen mit Einheitenzeichen verwendet werden.</p></content></paragraph><paragraph eId="art_20/para_2"><num>2</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Der Vorsatzname ist ohne Zwischenraum vor den Namen der Einheit und entsprechend das Vorsatzzeichen vor das Einheitenzeichen zu setzen.</p></content></paragraph><paragraph eId="art_20/para_3"><num>3</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Vorsätze dürfen nicht aneinandergereiht werden. <br/>Beispiel: anstelle von «µµF» ist «pF» zu setzen.</p></content></paragraph><paragraph eId="art_20/para_4"><num>4</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Zur Bezeichnung von dezimalen Vielfachen und Teilen von abgeleiteten Einheiten, welche aus einem Quotienten bestehen, darf ein Vorsatz im Zähler, im Nenner oder auch in beiden Teilen des Quotienten verwendet werden. <br/>Beispiele: 1 kA/cm<sup>2</sup>, 1 hPa/km.</p></content></paragraph><paragraph eId="art_20/para_5"><num>5</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Potenzexponenten beziehen sich auf die ganze Zeichenkombination. <br/>Beispiele: 1 km<sup>3</sup> = (10<sup>3</sup> m)<sup>3</sup> = 10<sup>9</sup> m<sup>3</sup> <sup><br/></sup>  1 cm<sup>–1</sup> = (10<sup>–2</sup> m)<sup>–1</sup> = 10<sup>2</sup> m<sup>–1</sup> <sup><br/></sup>  1 mm<sup>2</sup>/s = (10<sup>–3</sup> m)<sup>2</sup>/s = 10<sup>–6</sup> m<sup>2</sup>/s.</p></content></paragraph></article><article eId="art_21"><num><b>Art. 21</b></num><heading>Spezielle Vorschriften für die Verwendung der Vorsätze</heading><paragraph eId="art_21/para_1"><num>1</num><content><blockList><listIntroduction eId="art_21/para_1/listintro" xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Die Anwendung der Vorsätze ist nicht zulässig auf:</listIntroduction><item eId="art_21/para_1/bull_u1"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">– </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">die 360°-Winkelteilung (Art. 15);</p></item><item eId="art_21/para_1/bull_u2"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">– </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">die Minute, die Stunde und den Tag (Art. 15);</p></item><item eId="art_21/para_1/bull_u3"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">– </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">die Dioptrie (Art. 18);</p></item><item eId="art_21/para_1/bull_u4"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">– </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">das metrische Karat (Art. 18);</p></item><item eId="art_21/para_1/bull_u5"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">– </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">die Are und Hektare (Art. 18);</p></item><item eId="art_21/para_1/bull_u6"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">– </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">den Millimeter Quecksilbersäule (Art. 18);</p></item><item eId="art_21/para_1/bull_u7"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">– </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">das Dezibel (Art. 18).</p></item></blockList></content></paragraph><paragraph eId="art_21/para_2"><num>2</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Die Benennungen der dezimalen Vielfachen und Teile der Einheit Masse werden durch Hinzufügen der Vorsatznamen vor den Namen «gramm» oder der Vorsatzzeichen vor das Zeichen «g» gebildet.</p><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Beispiel: Milligramm, mg.</p></content></paragraph></article></section><section eId="sec_9"><num>9. Abschnitt: </num><heading>...</heading><article eId="art_22"><num><b>Art. 22</b><authorialNote>
+		<p> Aufgehoben durch Ziff. I der V vom 7. Dez. 2012, mit Wirkung seit 1. Jan. 2013 (<ref href="https://fedlex.data.admin.ch/eli/oc/2012/875" xmlns:data="urn:com:c-moria:legi4ch:xslt:data" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">AS <b>2012</b> 7193</ref>).</p>
+	</authorialNote></num></article></section><section eId="sec_10"><num>10. Abschnitt: </num><heading>Schlussbestimmungen</heading><article eId="art_23"><num><b>Art. 23</b></num><heading>Aufhebung bisherigen Rechts</heading><paragraph eId="art_23/para"><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Die Einheiten-Verordnung vom 23. November 1977<authorialNote>
+		<p> [<ref href="https://fedlex.data.admin.ch/eli/oc/1977/2405_2405_2405" xmlns:data="urn:com:c-moria:legi4ch:xslt:data" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">AS <b>1977 </b>2405</ref>, <ref href="https://fedlex.data.admin.ch/eli/oc/1981/634_634_634" xmlns:data="urn:com:c-moria:legi4ch:xslt:data" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp"><b>1981 </b>634</ref>, <ref href="https://fedlex.data.admin.ch/eli/oc/1984/1529_1529_1529" xmlns:data="urn:com:c-moria:legi4ch:xslt:data" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp"><b>1984 </b>1529</ref>]</p>
+	</authorialNote> wird aufgehoben.</p></content></paragraph></article><article eId="art_24"><num><b>Art. 24</b><authorialNote>
+		<p> Aufgehoben durch Ziff. I der V vom 7. Dez. 2012, mit Wirkung seit 1. Jan. 2013 (<ref href="https://fedlex.data.admin.ch/eli/oc/2012/875" xmlns:data="urn:com:c-moria:legi4ch:xslt:data" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">AS <b>2012</b> 7193</ref>).</p>
+	</authorialNote></num></article><article eId="art_25"><num><b>Art. 25</b></num><heading>Inkrafttreten</heading><paragraph eId="art_25/para"><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Diese Verordnung tritt am 1. Januar 1995 in Kraft.</p></content></paragraph></article></section></body><components><component><doc name="annex"><meta><identification source="#ch.bk"><FRBRWork><FRBRthis value="https://fedlex.data.admin.ch/eli/cc/1994/3109_3109_3109/20190520/main-text"/><FRBRuri value="https://fedlex.data.admin.ch/eli/cc/1994/3109_3109_3109/20190520"/><FRBRdate date="1995-01-01" name="jolux:dateEntryInForce"/><FRBRdate date="1994-11-23" name="jolux:dateDocument"/><FRBRdate date="2019-05-20" name="jolux:dateApplicability"/><FRBRauthor href="#ch.bk" as="#publisher"/><FRBRauthor href="#ch.bk" as="#rightsHolder"/><FRBRcountry value="CH"/><FRBRnumber value="941.202"/><FRBRname xml:lang="de" value="Einheitenverordnung vom 23. November 1994" shortForm=""/><FRBRname xml:lang="fr" value="Ordonnance du 23 novembre 1994 sur les unités" shortForm=""/><FRBRname xml:lang="it" value="Ordinanza del 23 novembre 1994 sulle unità" shortForm=""/><FRBRauthoritative value="true"/></FRBRWork><FRBRExpression><FRBRthis value="https://fedlex.data.admin.ch/eli/cc/1994/3109_3109_3109/20190520/de/main-text"/><FRBRuri value="https://fedlex.data.admin.ch/eli/cc/1994/3109_3109_3109/20190520/de"/><FRBRdate date="1995-01-01" name="jolux:dateEntryInForce"/><FRBRdate date="1994-11-23" name="jolux:dateDocument"/><FRBRdate date="2019-05-20" name="jolux:dateApplicability"/><FRBRauthor href="#ch.bk" as="#publisher"/><FRBRauthor href="#ch.bk" as="#rightsHolder"/><FRBRlanguage language="de"/></FRBRExpression><FRBRManifestation><FRBRthis value="https://fedlex.data.admin.ch/eli/cc/1994/3109_3109_3109/20190520/de/xml/main-text"/><FRBRuri value="https://fedlex.data.admin.ch/eli/cc/1994/3109_3109_3109/20190520/de/xml"/><FRBRdate date="1995-01-01" name="jolux:dateEntryInForce"/><FRBRdate date="1994-11-23" name="jolux:dateDocument"/><FRBRdate date="2019-05-20" name="jolux:dateApplicability"/><FRBRauthor href="#ch.bk" as="#publisher"/><FRBRauthor href="#ch.bk" as="#rightsHolder"/><FRBRformat value="xml"/></FRBRManifestation></identification></meta><preface><container name="headerOfAnnex"><block name="heading">Anhang<inline name="man-font-style-normal"><authorialNote>
+		<p> Aufgehoben durch Ziff. I der V vom 7. Dez. 2012, mit Wirkung seit 1. Jan. 2013 (<ref href="https://fedlex.data.admin.ch/eli/oc/2012/875" xmlns:data="urn:com:c-moria:legi4ch:xslt:data" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">AS <b>2012</b> 7193</ref>).</p>
+	</authorialNote></inline></block></container></preface><mainBody/></doc></component></components></act></akomaNtoso>

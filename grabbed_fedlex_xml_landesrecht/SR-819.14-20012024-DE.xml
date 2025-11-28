@@ -1,0 +1,606 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:fedlex="http://fedlex.admin.ch/"><act name="publicLaw"><meta><identification source="#ch.bk"><FRBRWork><FRBRthis value="https://fedlex.data.admin.ch/eli/cc/2008/263/20240120/main-text"/><FRBRuri value="https://fedlex.data.admin.ch/eli/cc/2008/263/20240120"/><FRBRdate date="2024-01-20" name="jolux:dateApplicability"/><FRBRdate date="2008-04-02" name="jolux:dateDocument"/><FRBRdate date="2009-12-29" name="jolux:dateEntryInForce"/><FRBRauthor href="#ch.bk" as="#publisher"/><FRBRauthor href="#ch.bk" as="#rightsHolder"/><FRBRcountry value="CH"/><FRBRnumber value="819.14"/><FRBRname xml:lang="it" value="Ordinanza del 2 aprile 2008 concernente la sicurezza delle macchine (Ordinanza sulle macchine, OMacch)" shortForm="OMacch"/><FRBRname xml:lang="de" value="Verordnung vom 2. April 2008 über die Sicherheit von Maschinen (Maschinenverordnung, MaschV)" shortForm="MaschV"/><FRBRname xml:lang="fr" value="Ordonnance du 2 avril 2008 sur la sécurité des machines (Ordonnance sur les machines, OMach)" shortForm="OMach"/><FRBRauthoritative value="true"/></FRBRWork><FRBRExpression><FRBRthis value="https://fedlex.data.admin.ch/eli/cc/2008/263/20240120/de/main-text"/><FRBRuri value="https://fedlex.data.admin.ch/eli/cc/2008/263/20240120/de"/><FRBRdate date="2024-01-20" name="jolux:dateApplicability"/><FRBRdate date="2008-04-02" name="jolux:dateDocument"/><FRBRdate date="2009-12-29" name="jolux:dateEntryInForce"/><FRBRauthor href="#ch.bk" as="#publisher"/><FRBRauthor href="#ch.bk" as="#rightsHolder"/><FRBRlanguage language="de"/></FRBRExpression><FRBRManifestation><FRBRthis value="https://fedlex.data.admin.ch/eli/cc/2008/263/20240120/de/xml/main-text"/><FRBRuri value="https://fedlex.data.admin.ch/eli/cc/2008/263/20240120/de/xml"/><FRBRdate date="2024-01-20" name="jolux:dateApplicability"/><FRBRdate date="2008-04-02" name="jolux:dateDocument"/><FRBRdate date="2009-12-29" name="jolux:dateEntryInForce"/><FRBRauthor href="#ch.bk" as="#publisher"/><FRBRauthor href="#ch.bk" as="#rightsHolder"/><FRBRformat value="xml" fedlex:generator="2025-q2-rel-1.7.5"/></FRBRManifestation></identification><references source="#ch.bk"><TLCOrganization eId="ch.bk" href="https://fedlex.data.admin.ch/vocabulary/legal-institution/2" showAs="Bundeskanzlei"/><TLCRole eId="publisher" href="http://data.legilux.public.lu/resource/ontology/jolux#publisher" showAs="Editeur"/><TLCRole eId="rightsHolder" href="http://data.legilux.public.lu/resource/ontology/jolux#rightsHolder" showAs="Détenteur des droits"/><TLCReference name="language" href="http://publications.europa.eu/resource/authority/language/DEU" showAs="de"/><TLCReference name="format" href="https://fedlex.data.admin.ch/vocabulary/user-format/xml" showAs="xml"/></references></meta><preface><p><docNumber>819.14 </docNumber></p><p><docTitle>Verordnung <br/>über die Sicherheit von Maschinen</docTitle></p><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">(Maschinenverordnung, MaschV)</p><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">vom 2. April 2008 (Stand am 20. Januar 2024)</p></preface><preamble><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Der Schweizerische Bundesrat,</p><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">gestützt auf Artikel 4 des Bundesgesetzes vom 12. Juni 2009<authorialNote>
+		<p> <ref href="https://fedlex.data.admin.ch/eli/cc/2010/347" xmlns:data="urn:com:c-moria:legi4ch:xslt:data" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">SR <b>930.11</b></ref></p>
+	</authorialNote> über <br/>die Produktesicherheit (PrSG) <br/>und auf Artikel 83 Absatz 1 des Bundesgesetzes vom 20. März 1981<authorialNote>
+		<p> <ref href="https://fedlex.data.admin.ch/eli/cc/1982/1676_1676_1676" xmlns:data="urn:com:c-moria:legi4ch:xslt:data" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">SR <b>832.20</b></ref></p>
+	</authorialNote> über <br/>die Unfallversicherung (UVG), <br/>in Ausführung des Elektrizitätsgesetzes vom 24. Juni 1902<authorialNote>
+		<p> <ref href="https://fedlex.data.admin.ch/eli/cc/19/259_252_257" xmlns:data="urn:com:c-moria:legi4ch:xslt:data" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">SR <b>734.0</b></ref></p>
+	</authorialNote> (EleG) <br/>und des Bundesgesetzes vom 6. Oktober 1995<authorialNote>
+		<p> <ref href="https://fedlex.data.admin.ch/eli/cc/1996/1725_1725_1725" xmlns:data="urn:com:c-moria:legi4ch:xslt:data" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">SR <b>946.51</b></ref></p>
+	</authorialNote> über die technischen <br/>Handelshemmnisse (THG),<authorialNote>
+		<p> Fassung gemäss Anhang 4 Ziff. II 8 der V vom 19. Mai 2010 über die Produktesicherheit, in Kraft seit 1. Juli 2010 (<ref href="https://fedlex.data.admin.ch/eli/oc/2010/348" xmlns:data="urn:com:c-moria:legi4ch:xslt:data" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">AS <b>2010</b> 2583</ref>).</p>
+	</authorialNote></p><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">verordnet:</p></preamble><body><article eId="art_1"><num><b>Art. 1</b></num><heading>Gegenstand, Geltungsbereich, Begriffe und anwendbares Recht</heading><paragraph eId="art_1/para_1"><num>1</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Diese Verordnung regelt das Inverkehrbringen und die Marktüberwachung betreffend Maschinen nach der Richtlinie 2006/42/EG<sup><authorialNote>
+		<p> Richtlinie 2006/42/EG des Europäischen Parlaments und des Rates vom 17. Mai 2006 über Maschinen und zur Änderung der Richtlinie 95/16/EG (Neufassung), ABl. L 157 vom 9.6.2006, S. 24; zuletzt geändert durch Richtlinie 2014/33/EU, ABl. L 96 vom 29.3.2014, S. 251.</p>
+	</authorialNote></sup> (EU-Maschinenrichtlinie).<authorialNote>
+		<p> Fassung gemäss Anhang 3 Ziff. II der V vom 16. Nov. 2016 über technische Anforderungen an Traktoren und deren Anhänger, in Kraft seit 15. Jan. 2017 (<ref href="https://fedlex.data.admin.ch/eli/oc/2016/821" xmlns:data="urn:com:c-moria:legi4ch:xslt:data" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">AS <b>2016 </b>5197</ref>).</p>
+	</authorialNote></p></content></paragraph><paragraph eId="art_1/para_2"><num>2</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Der Geltungsbereich richtet sich nach Artikel 1 der EU-Maschinenrichtlinie. Deren Artikel 3 gilt sinngemäss.<authorialNote>
+		<p> Fassung gemäss Anhang 3 Ziff. II der V vom 16. Nov. 2016 über technische Anforderungen an Traktoren und deren Anhänger, in Kraft seit 15. Jan. 2017 (<ref href="https://fedlex.data.admin.ch/eli/oc/2016/821" xmlns:data="urn:com:c-moria:legi4ch:xslt:data" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">AS <b>2016 </b>5197</ref>).</p>
+	</authorialNote></p></content></paragraph><paragraph eId="art_1/para_2_bis"><num>2bis</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Es gelten die Begriffe nach Artikel 2 der EU-Maschinenrichtlinie und nach Artikel 3 Nummern 8−13 der Verordnung (EU) 2019/1020<authorialNote>
+		<p> Verordnung (EU) 2019/1020 des Europäischen Parlaments und des Rates vom 20. Juni 2019 über Marktüberwachung und die Konformität von Produkten sowie zur Änderung der Richtlinie 2004/42/EG und der Verordnung (EG) Nr. 765/2008 und (EU) Nr. 305/2011, Fassung gemäss ABl. L 169 vom 25.6.2019, S. 1.</p>
+	</authorialNote> (EU-Marktüberwachungsverordnung). Zudem gelten die Entsprechungen von Ausdrücken nach Anhang 1 Ziffer  1.<authorialNote>
+		<p> Eingefügt durch Anhang 3 Ziff. II der V vom 16. Nov. 2016 über technische Anforderungen an Traktoren und deren Anhänger (<ref href="https://fedlex.data.admin.ch/eli/oc/2016/821" xmlns:data="urn:com:c-moria:legi4ch:xslt:data" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">AS <b>2016 </b>5197</ref>). Fassung gemäss Ziff. I der V vom 17. Febr. 2021, in Kraft seit 16. Juli 2021 (<ref href="https://fedlex.data.admin.ch/eli/oc/2021/131" xmlns:data="urn:com:c-moria:legi4ch:xslt:data" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">AS <b>2021</b> 131</ref>).</p>
+	</authorialNote></p></content></paragraph><paragraph eId="art_1/para_3"><num>3</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Wird in dieser Verordnung auf Bestimmungen der EU-Maschinenrichtlinie und der EU-Marktüberwachungsverordnung verwiesen, die ihrerseits auf anderes EU-Recht verweisen, so gilt statt dieses EU-Rechts das schweizerische Recht nach Anhang 1 Ziffer 2.<authorialNote>
+		<p> Fassung gemäss Ziff. I der V vom 17. Febr. 2021, in Kraft seit 16. Juli 2021  (<ref href="https://fedlex.data.admin.ch/eli/oc/2021/131" xmlns:data="urn:com:c-moria:legi4ch:xslt:data" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">AS <b>2021</b> 131</ref>).</p>
+	</authorialNote></p></content></paragraph><paragraph eId="art_1/para_4"><num>4</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Soweit diese Verordnung keine besonderen Bestimmungen enthält, gelten für Maschinen die Bestimmungen der Verordnung vom 19. Mai 2010<authorialNote>
+		<p> <ref href="https://fedlex.data.admin.ch/eli/cc/2010/348" xmlns:data="urn:com:c-moria:legi4ch:xslt:data" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">SR <b>930.111</b></ref></p>
+	</authorialNote> über die Produktesicherheit (PrSV).<authorialNote>
+		<p> Fassung gemäss Anhang 4 Ziff. II 8 der V vom 19. Mai 2010 über die Produktesicherheit, in Kraft seit 1. Juli 2010 (<ref href="https://fedlex.data.admin.ch/eli/oc/2010/348" xmlns:data="urn:com:c-moria:legi4ch:xslt:data" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">AS <b>2010</b> 2583</ref>).</p>
+	</authorialNote></p></content></paragraph></article><article eId="art_2"><num><b>Art. 2</b></num><heading>Voraussetzungen für das Inverkehrbringen</heading><paragraph eId="art_2/para_1"><num>1</num><content><blockList><listIntroduction eId="art_2/para_1/listintro" xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Maschinen dürfen nur in Verkehr gebracht werden, wenn:</listIntroduction><item eId="art_2/para_1/lbl_a"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">a. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">sie bei ordnungsgemässer Installation und Wartung und bei bestimmungsgemässer oder vernünftigerweise vorhersehbarer Verwendung die Sicherheit und die Gesundheit von Personen und gegebenenfalls von Haustieren und Sachen sowie, sofern für diese Maschinen in der EU-Maschinenrichtlinie<authorialNote>
+		<p> Siehe Fussnote zu Art. 1 Abs. 1.</p>
+	</authorialNote> spezifische Umweltvorschriften bestehen, die Umwelt nicht gefährden;</p></item><item eId="art_2/para_1/lbl_b"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">b. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">die Anforderungen nach den folgenden Bestimmungen der EU-Maschinenrichtlinie erfüllt sind: Artikel 5 Absatz 1 Buchstaben a–e und Absätze 2 und 3 sowie Artikel 12 und 13; und </p></item><item eId="art_2/para_1/lbl_c"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">c. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">ein Wirtschaftsakteur nach Artikel 4 Absatz 2 der EU-Marktüberwachungsverordnung<authorialNote>
+		<p> Siehe Fussnote zu Art. 1 Abs. 2<sup xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">bis</sup>.</p>
+	</authorialNote> die Pflichten nach Artikel 4<i>a</i> erfüllt.<authorialNote>
+		<p> Fassung gemäss Ziff. I der V vom 17. Febr. 2021, in Kraft seit 16. Juli 2021  (<ref href="https://fedlex.data.admin.ch/eli/oc/2021/131" xmlns:data="urn:com:c-moria:legi4ch:xslt:data" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">AS <b>2021</b> 131</ref>).</p>
+	</authorialNote></p></item></blockList></content></paragraph><paragraph eId="art_2/para_2"><num>2</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Dem Inverkehrbringen gleichgestellt ist die Inbetriebnahme von Maschinen, falls zuvor kein Inverkehrbringen stattgefunden hat.</p></content></paragraph><paragraph eId="art_2/para_3"><num>3</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Für das Vorführen von Maschinen an Messen, Ausstellungen und dergleichen gilt Artikel 6 Absatz 3 der EU-Maschinenrichtlinie.</p></content></paragraph></article><article eId="art_3"><num><b>Art. 3</b></num><heading>Technische Normen</heading><paragraph eId="art_3/para"><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Das Staatssekretariat für Wirtschaft (SECO) bezeichnet die technischen Normen, die geeignet sind, die grundlegenden Sicherheits- und Gesundheitsschutzanforderungen nach Anhang I der EU-Maschinenrichtlinie<authorialNote>
+		<p> Siehe Fussnote zu Art. 1 Abs. 1.</p>
+	</authorialNote> zu konkretisieren.</p></content></paragraph></article><article eId="art_4"><num><b>Art. 4</b></num><heading>Konformitätsbewertungsstellen</heading><paragraph eId="art_4/para_1"><num>1</num><content><blockList><listIntroduction eId="art_4/para_1/listintro" xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Die Konformitätsbewertungsstellen müssen für den betreffenden Fachbereich:</listIntroduction><item eId="art_4/para_1/lbl_a"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">a. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">nach der Akkreditierungs- und Bezeichnungsverordnung vom 17. Juni 1996<authorialNote>
+		<p> <ref href="https://fedlex.data.admin.ch/eli/cc/1996/1904_1904_1904" xmlns:data="urn:com:c-moria:legi4ch:xslt:data" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">SR <b>946.512</b></ref></p>
+	</authorialNote> akkreditiert sein;</p></item><item eId="art_4/para_1/lbl_b"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">b. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">von der Schweiz im Rahmen eines internationalen Abkommens anerkannt sein; oder</p></item><item eId="art_4/para_1/lbl_c"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">c. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">durch das Bundesrecht anderweitig ermächtigt sein.</p></item></blockList></content></paragraph><paragraph eId="art_4/para_1_bis"><num>1bis </num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Konformitätsbewertungsstellen, die Konformitätsbewertungen nach der Verordnung (EU) 2023/1230<authorialNote>
+		<p>  Verordnung (EU) 2023/1230 des Europäischen Parlaments und des Rates vom 14. Juni 2023 über Maschinen und zur Aufhebung der Richtlinie 2006/42/EG des Europäischen Parlaments und des Rates und der Richtlinie 73/361/EWG des Rates, Fassung gemäss ABl. L 165 vom 29.6.2023, S. 1.</p>
+	</authorialNote> (EU-Maschinenverordnung) durchführen, müssen nach der Akkreditierungs- und Bezeichnungsverordnung akkreditiert sein und die Voraussetzungen nach Artikel 30 der EU-Maschinenverordnung erfüllen.<authorialNote>
+		<p> Eingefügt durch Ziff. I der V vom 8. Nov. 2023, in Kraft seit 20. Jan. 2024  (<ref href="https://fedlex.data.admin.ch/eli/oc/2023/663" xmlns:data="urn:com:c-moria:legi4ch:xslt:data" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">AS <b>2023</b> 663</ref>).</p>
+	</authorialNote></p></content></paragraph><paragraph eId="art_4/para_2"><num>2</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Die Konformitätsbewertungsstellen unterrichten die im betreffenden Sachbereich zuständigen Bundesbehörden, wenn die Baumusterprüfbescheinigung oder die Zulassung des Qualitätssicherungssystems ausgesetzt, widerrufen oder mit Einschränkungen versehen wird oder sich ein Eingreifen der zuständigen Behörde als erforderlich erweisen könnte.</p></content></paragraph></article><article eId="art_4_a"><num><b>Art. 4</b><i>a</i><authorialNote>
+		<p> Eingefügt durch Ziff. I der V vom 17. Febr. 2021, in Kraft seit 16. Juli 2021  (<ref href="https://fedlex.data.admin.ch/eli/oc/2021/131" xmlns:data="urn:com:c-moria:legi4ch:xslt:data" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">AS <b>2021</b> 131</ref>).</p>
+	</authorialNote></num><heading>Pflichten der Wirtschaftsakteure </heading><paragraph eId="art_4_a/para"><content><blockList><listIntroduction eId="art_4_a/para/listintro" xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Die Pflichten folgender Wirtschaftsakteure ergeben sich unbeschadet der Bestimmungen der EU-Maschinenrichtlinie<authorialNote>
+		<p> Siehe Fussnote zu Art. 1 Abs. 1.</p>
+	</authorialNote> aus den Bestimmungen der EU-Marktüberwachungsverordnung<authorialNote>
+		<p> Siehe Fussnote zu Art. 1 Abs. 2<sup xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">bis</sup>.</p>
+	</authorialNote>:</listIntroduction><item eId="art_4_a/para/lbl_a"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">a. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Hersteller: aus Artikel 5 der EU-Maschinenrichtlinie sowie Artikel 4 Absätze 3 und 4 der EU-Marktüberwachungsverordnung;</p></item><item eId="art_4_a/para/lbl_b"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">b. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Bevollmächtigter: aus Artikel 5 der EU-Maschinenrichtlinie sowie Artikel 4 Absätze 3 und 4 und Artikel 5 der EU-Marktüberwachungsverordnung;</p></item><item eId="art_4_a/para/lbl_c"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">c. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Importeur, Händler und Fulfilment-Dienstleister: aus Artikel 4 Absätze 3 und 4 der EU-Marktüberwachungsverordnung.</p></item></blockList></content></paragraph></article><article eId="art_5"><num><b>Art. 5</b></num><heading>Marktüberwachung<authorialNote>
+		<p> Fassung gemäss Anhang 4 Ziff. II 8 der V vom 19. Mai 2010 über die Produktesicherheit, in Kraft seit 1. Juli 2010 (<ref href="https://fedlex.data.admin.ch/eli/oc/2010/348" xmlns:data="urn:com:c-moria:legi4ch:xslt:data" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">AS <b>2010</b> 2583</ref>).</p>
+	</authorialNote></heading><paragraph eId="art_5/para_1"><num>1</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Die Marktüberwachung richtet sich nach den Artikeln 19–29 der PrSV<authorialNote>
+		<p> <ref href="https://fedlex.data.admin.ch/eli/cc/2010/348" xmlns:data="urn:com:c-moria:legi4ch:xslt:data" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">SR <b>930.111</b></ref>. Der Verweis wurde in Anwendung von Art. 12 Abs. 2 des Publikationsgesetzes vom 18. Juni 2004 (<ref href="https://fedlex.data.admin.ch/eli/cc/2004/745" xmlns:data="urn:com:c-moria:legi4ch:xslt:data" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">SR <b>170.512</b></ref>) auf den 1. Juli 2010 angepasst.</p>
+	</authorialNote>.<authorialNote>
+		<p> Fassung gemäss Anhang 4 Ziff. II 8 der V vom 19. Mai 2010 über die Produktesicherheit, in Kraft seit 1. Juli 2010 (<ref href="https://fedlex.data.admin.ch/eli/oc/2010/348" xmlns:data="urn:com:c-moria:legi4ch:xslt:data" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">AS <b>2010</b> 2583</ref>).</p>
+	</authorialNote></p></content></paragraph><paragraph eId="art_5/para_2"><num>2</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Hat die Europäische Kommission eine Massnahme nach Artikel 8 oder 9 der EU-Maschinenrichtlinie<authorialNote>
+		<p> Siehe Fussnote zu Art. 1 Abs. 1.</p>
+	</authorialNote> ergriffen, so setzen die zuständigen Kontrollorgane die Massnahme für die Schweiz um. Allfällige Verbote oder Einschränkungen des Inverkehrbringens oder Rückrufe von Maschinen werden im Bundesblatt veröffentlicht.</p></content></paragraph></article><article eId="art_6"><num><b>Art. 6</b></num><heading>Änderung bisherigen Rechts</heading><paragraph eId="art_6/para"><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Die Änderung bisherigen Rechts wird in Anhang 2 geregelt.</p></content></paragraph></article><article eId="art_7"><num><b>Art. 7</b></num><heading>Übergangsfrist für tragbare Befestigungsgeräte mit Treibladungen und andere Schussgeräte</heading><paragraph eId="art_7/para"><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Tragbare Befestigungsgeräte mit Treibladungen und andere als Werkzeug konzipierte Schussgeräte dürfen noch bis zum 29. Juni 2011 nach bisherigem Recht in Verkehr gebracht werden.</p></content></paragraph></article><article eId="art_8"><num><b>Art. 8</b></num><heading>Inkrafttreten</heading><paragraph eId="art_8/para"><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Diese Verordnung tritt am 29. Dezember 2009 in Kraft.</p></content></paragraph></article></body><components><component><doc name="annex"><meta><identification source="#ch.bk"><FRBRWork><FRBRthis value="https://fedlex.data.admin.ch/eli/cc/2008/263/20240120/main-text"/><FRBRuri value="https://fedlex.data.admin.ch/eli/cc/2008/263/20240120"/><FRBRdate date="2024-01-20" name="jolux:dateApplicability"/><FRBRdate date="2008-04-02" name="jolux:dateDocument"/><FRBRdate date="2009-12-29" name="jolux:dateEntryInForce"/><FRBRauthor href="#ch.bk" as="#publisher"/><FRBRauthor href="#ch.bk" as="#rightsHolder"/><FRBRcountry value="CH"/><FRBRnumber value="819.14"/><FRBRname xml:lang="it" value="Ordinanza del 2 aprile 2008 concernente la sicurezza delle macchine (Ordinanza sulle macchine, OMacch)" shortForm="OMacch"/><FRBRname xml:lang="de" value="Verordnung vom 2. April 2008 über die Sicherheit von Maschinen (Maschinenverordnung, MaschV)" shortForm="MaschV"/><FRBRname xml:lang="fr" value="Ordonnance du 2 avril 2008 sur la sécurité des machines (Ordonnance sur les machines, OMach)" shortForm="OMach"/><FRBRauthoritative value="true"/></FRBRWork><FRBRExpression><FRBRthis value="https://fedlex.data.admin.ch/eli/cc/2008/263/20240120/de/main-text"/><FRBRuri value="https://fedlex.data.admin.ch/eli/cc/2008/263/20240120/de"/><FRBRdate date="2024-01-20" name="jolux:dateApplicability"/><FRBRdate date="2008-04-02" name="jolux:dateDocument"/><FRBRdate date="2009-12-29" name="jolux:dateEntryInForce"/><FRBRauthor href="#ch.bk" as="#publisher"/><FRBRauthor href="#ch.bk" as="#rightsHolder"/><FRBRlanguage language="de"/></FRBRExpression><FRBRManifestation><FRBRthis value="https://fedlex.data.admin.ch/eli/cc/2008/263/20240120/de/xml/main-text"/><FRBRuri value="https://fedlex.data.admin.ch/eli/cc/2008/263/20240120/de/xml"/><FRBRdate date="2024-01-20" name="jolux:dateApplicability"/><FRBRdate date="2008-04-02" name="jolux:dateDocument"/><FRBRdate date="2009-12-29" name="jolux:dateEntryInForce"/><FRBRauthor href="#ch.bk" as="#publisher"/><FRBRauthor href="#ch.bk" as="#rightsHolder"/><FRBRformat value="xml"/></FRBRManifestation></identification></meta><preface><container name="headerOfAnnex"><block name="num">Anhang 1<inline name="man-font-style-normal"><authorialNote>
+		<p> Fassung gemäss Anhang 3 Ziff. II der V vom 16. Nov. 2016 über technische Anforderungen an Traktoren und deren Anhänger (<ref href="https://fedlex.data.admin.ch/eli/oc/2016/821" xmlns:data="urn:com:c-moria:legi4ch:xslt:data" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">AS <b>2016 </b>5197</ref>). Bereinigt gemäss Ziff. II der V vom 17. Febr. 2021, in Kraft seit 16. Juli 2021 (<ref href="https://fedlex.data.admin.ch/eli/oc/2021/131" xmlns:data="urn:com:c-moria:legi4ch:xslt:data" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">AS <b>2021</b> 131</ref>).</p>
+	</authorialNote></inline></block></container></preface><mainBody><p>(Art. 1 Abs. 2<sup>bis</sup> und 3)</p><level eId="annex_1/lvl_u1"><heading>Entsprechungen von Ausdrücken und anwendbarem Recht</heading><content><blockList eId="annex_1/lvl_u1/list_u1"><listIntroduction eId="annex_1/lvl_u1/list_u1/listintro" xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">1.  Die nachstehenden Ausdrücke der EU-Maschinenrichtlinie<authorialNote>
+		<p> Siehe Fussnote zu Art. 1 Abs. 1.</p>
+	</authorialNote> und der EU-Marktüberwachungsverordnung<authorialNote>
+		<p> Siehe Fussnote zu Art. 1 Abs. 2<sup xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">bis</sup>.</p>
+	</authorialNote> sowie der vorliegenden Verordnung entsprechen sich wie folgt:</listIntroduction><item eId="annex_1/lvl_u1/list_u1/lbl_a"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">a. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Deutsche Ausdrücke</p></item></blockList><table border="1">
+			
+			
+			<tr>
+				
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">EU</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Schweiz</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Inverkehrbringen in der Gemeinschaft</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Inverkehrbringen in der Schweiz</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Inbetriebnahme in der Gemeinschaft</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Inbetriebnahme in der Schweiz</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">in der Gemeinschaft ansässige Personen</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">in der Schweiz niedergelassene Personen</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Mitgliedstaat</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Schweiz</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">einzelstaatlich</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">schweizerisch</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Marktaufsicht/Marktüberwachung</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Marktüberwachung</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">benannte Stelle</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Konformitätsbewertungsstelle</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">EG-Konformitätserklärung</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Konformitätserklärung</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">EG-Baumusterprüfbescheinigung</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Baumusterprüfbescheinigung</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">EG-Baumusterprüfung</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Baumusterprüfung</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">EG-Baumusterprüfverfahren</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Baumusterprüfverfahren</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Einführer</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Importeur</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Union</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Schweiz</p>
+				</td>
+			</tr>
+			
+		</table><blockList eId="annex_1/lvl_u1/list_u2"><item eId="annex_1/lvl_u1/list_u2/lbl_b"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">b. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Französische Ausdrücke </p></item></blockList><table border="1">
+			
+			
+			<tr>
+				
+				
+				<th xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">
+					
+					<p>EU</p>
+				</th>
+				<th xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">
+					
+					<p>Schweiz</p>
+				</th>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">mise sur le marché dans la Communauté</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">mise sur le marché en Suisse</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">mise en service dans la Communauté</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">mise en service en Suisse</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">personne établie dans la Communauté</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">personne établie en Suisse</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">état membre</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Suisse</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">national</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">suisse</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">organisme notifié</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">organisme d’évaluation de la conformité</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">déclaration CE de conformité</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">déclaration de conformité</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">attestation d’examen CE de type</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">certificat d’examen de type</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">examen CE de type</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">examen de type</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">procédure d’examen CE de type</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">procédure d’examen de type</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Union</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Suisse</p>
+				</td>
+			</tr>
+			
+		</table><blockList eId="annex_1/lvl_u1/list_u3"><item eId="annex_1/lvl_u1/list_u3/lbl_c"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">c. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Italienische Ausdrücke</p></item></blockList><table border="1">
+			
+			
+			<tr>
+				
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">EU</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Schweiz</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">immissione sul mercato all’interno della Comunità</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">immissione sul mercato in Svizzera</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">messa in servizio all’interno della Comunità</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">messa in servizio in Svizzera</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">persona stabilita all’interno della Comunità</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">persona domiciliata in Svizzera</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">stato membro</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Svizzera</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">nazionale</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">svizzero</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">organismo notificato</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">organismo di valutazione della conformità</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">dichiarazione CE di conformità</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">dichiarazione di conformità</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">attestato d’esame CE del tipo</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">attestato d’esame del tipo</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">esame CE del tipo</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">esame del tipo</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">procedura per la certificazione di esame CE del tipo</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">procedura per la certificazione di esame</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Unione</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Svizzera</p>
+				</td>
+			</tr>
+			
+		</table><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">2.  Wird in dieser Verordnung auf Bestimmungen der EU-Maschinenrichtlinie verwiesen, die ihrerseits auf anderes EU-Recht verweisen, so gilt statt dieses EU‑Rechts das folgende schweizerische Recht:</p><table border="1">
+			
+			
+			<tr>
+				
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"><i>Richtlinie 2003/37/EG:</i> Richtlinie 2003/37/EG des Europäischen Parlaments und des Rates vom 26. Mai 2003 über die Typgenehmigung für land- oder forstwirtschaftliche Zugmaschinen, ihre Anhänger und die von ihnen gezogenen auswechselbaren Maschinen sowie für Systeme, Bauteile und selbstständige technische Einheiten dieser Fahrzeuge und zur Aufhebung der Richtlinie 74/150/EWG, ABl. L 171 vom 9.7.2003, S. 1 (ersetzt durch Verordnung (EU) Nr. 167/2013, ABl. L 60 vom 2.3.2013, S. 1).</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Verordnung über technische Anforderungen an Traktoren und deren Anhänger (TAFV 2; SR <i>741.413</i>)</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"><i>Richtlinie 70/156/EWG:</i> Richtlinie 70/156/EWG des Rates vom 6. Februar 1970 zur Angleichung der Rechtsvorschriften der Mitgliedstaaten über die Betriebserlaubnis für Kraftfahrzeuge und Kraftfahrzeuganhänger, ABl. L 42 vom 23.2.1970, S. 1 (ersetzt durch Richtlinie 2007/46/EG, ABl. L 263 vom 9.10.2007, S. 1).</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Verordnung über technische Anforderungen an Transportmotorwagen und deren Anhänger (TAFV 1; SR <i>741.412</i>)</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"><i>Richtlinie 2002/24/EG:</i> Richtlinie 2002/24/EG des Europäischen Parlaments und des Rates vom 18. März 2002 über die Typgenehmigung für zweirädrige oder dreirädrige Kraftfahrzeuge und zur Aufhebung der Richtlinie 92/61/EWG des Rates, ABl. L 124 vom 9.5.2002, S. 1 (ersetzt durch Verordnung (EU) Nr. 168/2013, ABl. L 60 vom 2.3.2013, S. 52).</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Verordnung über die Anerkennung von EU-Genehmigungen und über technische Anforderungen an Motorräder, Leicht-, Klein- und dreirädrige Motorfahrzeuge sowie Motorfahrräder (TAFV 3; SR <i>741.414</i>)</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"><i>Richtlinie 2014/35/EU:</i> Richtlinie 2014/35/EU des Europäischen Parlaments und des Rates vom 26. Februar 2014 zur Harmonisierung der Rechtsvorschriften der Mitgliedstaaten über die Bereitstellung elektrischer Betriebsmittel zur Verwendung innerhalb bestimmter Spannungsgrenzen auf dem Markt (Neufassung), Fassung gemäss ABl. L 96 vom 29.3.2014, S. 357.</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Verordnung über elektrische Niederspannungserzeugnisse (NEV; SR <i>734.26</i>)</p>
+					
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"><i>Verordnung (EG) Nr. 1107/2009:</i> Verordnung (EG) Nr. 1107/2009 des Europäischen Parlaments und des Rates vom 21. Oktober 2009 über das Inverkehrbringen von Pflanzenschutzmitteln und zur Aufhebung der Richtlinien 79/117/EWG und 91/414/EWG des Rates, ABl. L 309 vom 24.11.2009, S. 1.</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Pflanzenschutzmittelverordnung (PSMV; SR <i>916.161</i>)</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"><i>Richtlinie 2009/128/EG:</i> Richtlinie 2009/128/EG des Europäischen Parlaments und des Rates vom 21. Oktober 2009 über einen Aktionsrahmen der Gemeinschaft für die nachhaltige Verwendung von Pestiziden, ABl. L 309 vom 24.11.2009, S. 71.</p>
+				</td>
+				<td><blockList><listIntroduction eId="annex_1/lvl_u1" xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">die folgenden drei Verordnungen:</listIntroduction><item><num>1. </num><p>Pflanzenschutzmittelverordnung (PSMV; SR <i>916.161</i>),</p></item><item><num>2. </num><p>Chemikalien-Risikoreduktions-Verordnung (ChemRRV; SR <i>814.81</i>),</p></item><item><num>3. </num><p>Direktzahlungsverordnung (DZV; SR <i>910.13</i>)</p></item></blockList></td>
+			</tr>
+			
+		</table></content></level></mainBody></doc></component><component><doc name="annex"><meta><identification source="#ch.bk"><FRBRWork><FRBRthis value="https://fedlex.data.admin.ch/eli/cc/2008/263/20240120/main-text"/><FRBRuri value="https://fedlex.data.admin.ch/eli/cc/2008/263/20240120"/><FRBRdate date="2024-01-20" name="jolux:dateApplicability"/><FRBRdate date="2008-04-02" name="jolux:dateDocument"/><FRBRdate date="2009-12-29" name="jolux:dateEntryInForce"/><FRBRauthor href="#ch.bk" as="#publisher"/><FRBRauthor href="#ch.bk" as="#rightsHolder"/><FRBRcountry value="CH"/><FRBRnumber value="819.14"/><FRBRname xml:lang="it" value="Ordinanza del 2 aprile 2008 concernente la sicurezza delle macchine (Ordinanza sulle macchine, OMacch)" shortForm="OMacch"/><FRBRname xml:lang="de" value="Verordnung vom 2. April 2008 über die Sicherheit von Maschinen (Maschinenverordnung, MaschV)" shortForm="MaschV"/><FRBRname xml:lang="fr" value="Ordonnance du 2 avril 2008 sur la sécurité des machines (Ordonnance sur les machines, OMach)" shortForm="OMach"/><FRBRauthoritative value="true"/></FRBRWork><FRBRExpression><FRBRthis value="https://fedlex.data.admin.ch/eli/cc/2008/263/20240120/de/main-text"/><FRBRuri value="https://fedlex.data.admin.ch/eli/cc/2008/263/20240120/de"/><FRBRdate date="2024-01-20" name="jolux:dateApplicability"/><FRBRdate date="2008-04-02" name="jolux:dateDocument"/><FRBRdate date="2009-12-29" name="jolux:dateEntryInForce"/><FRBRauthor href="#ch.bk" as="#publisher"/><FRBRauthor href="#ch.bk" as="#rightsHolder"/><FRBRlanguage language="de"/></FRBRExpression><FRBRManifestation><FRBRthis value="https://fedlex.data.admin.ch/eli/cc/2008/263/20240120/de/xml/main-text"/><FRBRuri value="https://fedlex.data.admin.ch/eli/cc/2008/263/20240120/de/xml"/><FRBRdate date="2024-01-20" name="jolux:dateApplicability"/><FRBRdate date="2008-04-02" name="jolux:dateDocument"/><FRBRdate date="2009-12-29" name="jolux:dateEntryInForce"/><FRBRauthor href="#ch.bk" as="#publisher"/><FRBRauthor href="#ch.bk" as="#rightsHolder"/><FRBRformat value="xml"/></FRBRManifestation></identification></meta><preface><container name="headerOfAnnex"><block name="num">Anhang 2</block></container></preface><mainBody><p>(Art. 6)</p><level eId="annex_2/lvl_u1"><heading>Änderung bisherigen Rechts</heading><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Die nachstehenden Verordnungen werden wie folgt geändert:</p><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">…<authorialNote>
+		<p> Die Änderungen können unter <ref href="https://fedlex.data.admin.ch/eli/oc/2008/263" xmlns:data="urn:com:c-moria:legi4ch:xslt:data" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">AS <b>2008</b> 1785 </ref>konsultiert werden.</p>
+	</authorialNote></p></content></level></mainBody></doc></component></components></act></akomaNtoso>

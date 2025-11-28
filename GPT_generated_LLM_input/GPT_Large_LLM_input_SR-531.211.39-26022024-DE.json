@@ -1,0 +1,50 @@
+[
+  {
+    "item_type": "preamble_callback",
+    "acronyms": [
+      {
+        "acronym": "WBF",
+        "sr_link": "SR 531.11",
+        "url": "https://fedlex.data.admin.ch/eli/cc/2017/309"
+      }
+    ],
+    "description": "Preamble acronyms for reference detection"
+  },
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 531.11",
+    "TARGET_URL": "https://fedlex.data.admin.ch/eli/cc/2017/309",
+    "SNIPPET": "gestützt auf Artikel 21 der Verordnung vom 10. Mai 2017 SR 531.11 über die wirtschaftliche Landesversorgung,",
+    "INSIDE_AUTHORIALNOTE": "SR 531.11",
+    "item_type": "SR_link_detection"
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_8",
+    "TARGET_SR": "SR 531",
+    "TARGET_URL": "https://fedlex.data.admin.ch/eli/cc/2017/308",
+    "SNIPPET": "Gegen Verfügungen des Fachbereichs Heilmittel kann der Pflichtlagerhalter gestützt auf Artikel 45 des Landesversorgungsgesetzes vom 17. Juni 2016 SR 531 (LVG) innerhalb von fünf Tagen nach Eröffnung Einsprache erheben.",
+    "INSIDE_AUTHORIALNOTE": "SR 531",
+    "item_type": "SR_link_detection"
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_9",
+    "TARGET_SR": "SR 531",
+    "TARGET_URL": "https://fedlex.data.admin.ch/eli/cc/2017/308",
+    "SNIPPET": "Widerhandlungen gegen die Vorschriften dieser Verordnung werden nach Artikel 49 LVG SR 531 bestraft.",
+    "INSIDE_AUTHORIALNOTE": "SR 531",
+    "acronym": "LVG",
+    "snippet_acronym": [
+      "Widerhandlungen gegen die Vorschriften dieser Verordnung werden nach Artikel 49 LVG bestraft."
+    ],
+    "item_type": "SR_link_with_local_acronym"
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_8",
+    "SNIPPET": "Gegen Verfügungen des Fachbereichs Heilmittel kann der Pflichtlagerhalter gestützt auf Artikel 45 des Landesversorgungsgesetzes vom 17. Juni 2016 (LVG) innerhalb von fünf Tagen nach Eröffnung Einsprache erheben.",
+    "item_type": "artikel_reference"
+  }
+]

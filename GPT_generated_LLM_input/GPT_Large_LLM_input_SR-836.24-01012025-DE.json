@@ -1,0 +1,56 @@
+[
+  {
+    "item_type": "preamble_callback",
+    "acronyms": [
+      {
+        "acronym": "FamZG",
+        "sr_link": "SR 836.2",
+        "url": "https://fedlex.data.admin.ch/eli/cc/2008/51"
+      }
+    ],
+    "description": "Preamble acronyms for reference detection"
+  },
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 836.2",
+    "TARGET_URL": "https://fedlex.data.admin.ch/eli/cc/2008/51",
+    "SNIPPET": "gestützt auf Artikel 5 Absatz 3 des Familienzulagengesetzes vom 24. März 2006 SR 836.2 (FamZG),",
+    "INSIDE_AUTHORIALNOTE": "SR 836.2",
+    "item_type": "SR_link_detection"
+  },
+  {
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 836.2",
+    "TARGET_URL": "https://fedlex.data.admin.ch/eli/cc/2008/51",
+    "SNIPPET": "Die Kinderzulage nach Artikel 5 Absatz 1 FamZG beträgt mindestens 215 Franken pro Monat. ... Die Ausbildungszulage nach Artikel 5 Absatz 2 FamZG beträgt mindestens 268 Franken pro Monat.",
+    "INSIDE_AUTHORIALNOTE": "SR 836.2",
+    "preamble_acronym_name": "FamZG",
+    "item_type": "preamble_acronym",
+    "ITEM": 2
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_1",
+    "SNIPPET": "Die Kinderzulage nach Artikel 5 Absatz 1 FamZG beträgt mindestens 215 Franken pro Monat.",
+    "item_type": "artikel_reference"
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_1",
+    "SNIPPET": "Die Ausbildungszulage nach Artikel 5 Absatz 2 FamZG beträgt mindestens 268 Franken pro Monat.",
+    "item_type": "artikel_reference"
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_2",
+    "SNIPPET": "Die Mindestansätze nach Artikel 1 sind auf den nächsthöheren Frankenbetrag aufgerundet.",
+    "item_type": "artikel_reference"
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_3",
+    "SNIPPET": "Die Mindestansätze nach Artikel 1 entsprechen einem Niveau von 213,8 Punkten des Landesindexes der Konsumentenpreise (Sept. 1977 = 100).",
+    "item_type": "artikel_reference"
+  }
+]

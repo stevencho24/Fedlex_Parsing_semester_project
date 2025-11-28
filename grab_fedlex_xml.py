@@ -36,7 +36,7 @@ SELECT DISTINCT (STR(?srNotation) AS ?rsNr) (STR(?dateApplicabilityNode) AS ?dat
   }
 }
 ORDER BY ?srNotation
-LIMIT 20
+
 """
  
 async def fetch_urls():

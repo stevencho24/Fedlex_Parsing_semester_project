@@ -1,0 +1,2216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:fedlex="http://fedlex.admin.ch/"><act name="publicLaw"><meta><identification source="#ch.bk"><FRBRWork><FRBRthis value="https://fedlex.data.admin.ch/eli/cc/2016/487/20250601/main-text"/><FRBRuri value="https://fedlex.data.admin.ch/eli/cc/2016/487/20250601"/><FRBRdate date="2025-06-01" name="jolux:dateApplicability"/><FRBRdate date="2016-08-17" name="jolux:dateDocument"/><FRBRdate date="2016-09-01" name="jolux:dateEntryInForce"/><FRBRauthor href="#ch.bk" as="#publisher"/><FRBRauthor href="#ch.bk" as="#rightsHolder"/><FRBRcountry value="CH"/><FRBRnumber value="235.22"/><FRBRname xml:lang="fr" value="Ordonnance du 17 août 2016 sur le système d'information E-VERA (O E-VERA)" shortForm="O E-VERA"/><FRBRname xml:lang="de" value="Verordnung vom 17. August 2016 über das Informationssystem E-VERA (Verordnung E-VERA, VEVERA)" shortForm="VEVERA"/><FRBRname xml:lang="it" value="Ordinanza del 17 agosto 2016 concernente il sistema d'informazione E-VERA (Ordinanza E-VERA)" shortForm=""/><FRBRauthoritative value="true"/></FRBRWork><FRBRExpression><FRBRthis value="https://fedlex.data.admin.ch/eli/cc/2016/487/20250601/de/main-text"/><FRBRuri value="https://fedlex.data.admin.ch/eli/cc/2016/487/20250601/de"/><FRBRdate date="2025-06-01" name="jolux:dateApplicability"/><FRBRdate date="2016-08-17" name="jolux:dateDocument"/><FRBRdate date="2016-09-01" name="jolux:dateEntryInForce"/><FRBRauthor href="#ch.bk" as="#publisher"/><FRBRauthor href="#ch.bk" as="#rightsHolder"/><FRBRlanguage language="de"/></FRBRExpression><FRBRManifestation><FRBRthis value="https://fedlex.data.admin.ch/eli/cc/2016/487/20250601/de/xml/main-text"/><FRBRuri value="https://fedlex.data.admin.ch/eli/cc/2016/487/20250601/de/xml"/><FRBRdate date="2025-06-01" name="jolux:dateApplicability"/><FRBRdate date="2016-08-17" name="jolux:dateDocument"/><FRBRdate date="2016-09-01" name="jolux:dateEntryInForce"/><FRBRauthor href="#ch.bk" as="#publisher"/><FRBRauthor href="#ch.bk" as="#rightsHolder"/><FRBRformat value="xml" fedlex:generator="2025-q2-rel-1.7.2"/></FRBRManifestation></identification><references source="#ch.bk"><TLCOrganization eId="ch.bk" href="https://fedlex.data.admin.ch/vocabulary/legal-institution/2" showAs="Bundeskanzlei"/><TLCRole eId="publisher" href="http://data.legilux.public.lu/resource/ontology/jolux#publisher" showAs="Editeur"/><TLCRole eId="rightsHolder" href="http://data.legilux.public.lu/resource/ontology/jolux#rightsHolder" showAs="Détenteur des droits"/><TLCReference name="language" href="http://publications.europa.eu/resource/authority/language/DEU" showAs="de"/><TLCReference name="format" href="https://fedlex.data.admin.ch/vocabulary/user-format/xml" showAs="xml"/></references></meta><preface><p><docNumber>235.22</docNumber></p><p><docTitle>Verordnung<br/>über das Informationssystem E-VERA</docTitle></p><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">(Verordnung E-VERA, VEVERA)</p><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">vom 17. August 2016 (Stand am 1. Juni 2025)</p></preface><preamble><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Der Schweizerische Bundesrat,</p><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">gestützt auf Artikel 29 Absatz 1 Buchstabe a des Bundesgesetzes vom 18. Dezember 2020<authorialNote>
+		<p> <ref href="https://fedlex.data.admin.ch/eli/cc/2021/650" xmlns:data="urn:com:c-moria:legi4ch:xslt:data" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">SR <b>235.2</b></ref></p>
+	</authorialNote> über die Bearbeitung von Personendaten durch das Eidgenössische Departement für auswärtige Angelegenheiten <br/>und Artikel 63 Absatz 2 des Auslandschweizergesetzes vom 26. September 2014<authorialNote>
+		<p> <ref href="https://fedlex.data.admin.ch/eli/cc/2015/653" xmlns:data="urn:com:c-moria:legi4ch:xslt:data" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">SR <b>195.1</b></ref></p>
+	</authorialNote> (ASG),<authorialNote>
+		<p> Fassung gemäss Ziff. I der V vom 25. Okt. 2023, in Kraft seit 1. Dez. 2023  (<ref href="https://fedlex.data.admin.ch/eli/oc/2023/636" xmlns:data="urn:com:c-moria:legi4ch:xslt:data" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">AS <b>2023</b> 636</ref>).</p>
+	</authorialNote></p><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">verordnet:</p></preamble><body><section eId="sec_1"><num>1. Abschnitt: </num><heading>Allgemeine Bestimmungen</heading><article eId="art_1"><num><b>Art. 1</b></num><heading>Gegenstand</heading><paragraph eId="art_1/para"><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Diese Verordnung regelt den Betrieb und die Benützung des Informationssystems E‑VERA (E-VERA) des Eidgenössischen Departements für auswärtige Angelegenheiten (EDA).</p></content></paragraph></article><article eId="art_2"><num><b>Art. 2</b></num><heading>Zweck des Informationssystems</heading><paragraph eId="art_2/para"><content><blockList><listIntroduction eId="art_2/para/listintro" xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Das E-VERA dient dem EDA zur Erfüllung der konsularischen Aufgaben durch die schweizerischen Vertretungen im Ausland (Vertretungen) und die Konsularische Direktion (KD), insbesondere betreffend:</listIntroduction><item eId="art_2/para/lbl_a"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">a. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">die Führung des Auslandschweizerregisters;</p></item><item eId="art_2/para/lbl_b"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">b. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">die Kommunikation mit den Auslandschweizerinnen und Auslandschweizern;</p></item><item eId="art_2/para/lbl_c"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">c. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">die Verwaltung und den Versand von Publikationen;</p></item><item eId="art_2/para/lbl_d"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">d. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">die Erstellung von Auswertungen und Statistiken;</p></item><item eId="art_2/para/lbl_e"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">e </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">die Bewältigung von Krisen und Katastrophen;</p></item><item eId="art_2/para/lbl_f"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">f. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">die Unterstützung der Schweizerischen Ausgleichskasse (SAK) im Rahmen der freiwilligen Versicherung nach Artikel 2 des Bundesgesetzes vom 20. Dezember 1946<authorialNote>
+		<p> <ref href="https://fedlex.data.admin.ch/eli/cc/63/837_843_843" xmlns:data="urn:com:c-moria:legi4ch:xslt:data" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">SR <b>831.10</b></ref></p>
+	</authorialNote> über die Alters- und Hinterlassenenversicherung (AHVG) und Artikel 3 der Verordnung vom 26. Mai 1961<authorialNote>
+		<p> <ref href="https://fedlex.data.admin.ch/eli/cc/1961/419_429_439" xmlns:data="urn:com:c-moria:legi4ch:xslt:data" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">SR <b>831.111</b></ref></p>
+	</authorialNote> über die freiwillige Alters-, Hinterlassenen- und Invalidenversicherung.</p></item></blockList></content></paragraph></article><article eId="art_3"><num><b>Art. 3</b></num><heading>Verantwortung</heading><paragraph eId="art_3/para"><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Die KD trägt die Verantwortung für das E-VERA.</p></content></paragraph></article><article eId="art_4"><num><b>Art. 4</b></num><heading>Struktur</heading><paragraph eId="art_4/para"><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Das E-VERA besteht aus einer Datenbank und einem Online-Schalter.</p></content></paragraph></article></section><section eId="sec_2"><num>2. Abschnitt: </num><heading>Datenbearbeitung</heading><article eId="art_5"><num><b>Art. 5</b></num><heading>Im E-VERA erfasste Personen</heading><paragraph eId="art_5/para_1"><num>1</num><content><blockList><listIntroduction eId="art_5/para_1/listintro" xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Im E-VERA werden die Daten folgender Personen bearbeitet:</listIntroduction><item eId="art_5/para_1/lbl_a"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">a. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Auslandschweizerinnen und Auslandschweizer;</p></item><item eId="art_5/para_1/lbl_b"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">b. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Ehepartnerinnen und Ehepartner sowie eingetragene Partnerinnen und Partner von Personen nach Buchstabe a;</p></item><item eId="art_5/para_1/lbl_c"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">c. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Kinder von Personen nach den Buchstaben a und b;</p></item><item eId="art_5/para_1/lbl_d"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">d. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">ausländische Eltern von minderjährigen Auslandschweizerinnen und Auslandschweizern; </p></item><item eId="art_5/para_1/lbl_e"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">e. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Personen und deren Angehörige, für welche die Schweiz Schutzfunktionen übernimmt oder für welche sie den Schutz fremder Interessen wahrnimmt.</p></item></blockList></content></paragraph><paragraph eId="art_5/para_2"><num>2</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Die Bearbeitung der Daten erfolgt nach Anhang 1.</p></content></paragraph></article><article eId="art_6"><num><b>Art. 6</b></num><heading>Erfassung und Überprüfung der Daten</heading><paragraph eId="art_6/para_1"><num>1</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Sämtliche Daten des E-VERA werden von den Vertretungen erfasst. Das System teilt jeder Person automatisch eine Nummer zu.</p></content></paragraph><paragraph eId="art_6/para_1_bis"><num>1bis</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Die Schweizer Einwohnergemeinden können dem E-VERA den Wegzug ins Ausland (Art. 12 Abs. 4 ASG) oder den Zuzug in die Schweiz (Art. 13 Abs. 3 ASG) von Personen nach Artikel 5 Buchstaben a–d elektronisch melden. Die Daten über den Zuzug in die Schweiz werden in das E-VERA übernommen.<authorialNote>
+		<p> Eingefügt durch Ziff. I der V vom 25. Okt. 2023, in Kraft seit 1. Dez. 2023  (<ref href="https://fedlex.data.admin.ch/eli/oc/2023/636" xmlns:data="urn:com:c-moria:legi4ch:xslt:data" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">AS <b>2023</b> 636</ref>).</p>
+	</authorialNote></p></content></paragraph><paragraph eId="art_6/para_1_ter"><num>1ter</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Das E-VERA überprüft, ob die im E-VERA erfassten Daten zur Identität mit den im Personenstandsregister (Art. 39 des Zivilgesetzbuchs<authorialNote>
+		<p>  <ref href="https://fedlex.data.admin.ch/eli/cc/24/233_245_233" xmlns:data="urn:com:c-moria:legi4ch:xslt:data" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">SR <b>210</b></ref></p>
+	</authorialNote>) erfassten Daten übereinstimmen. Im E-VERA falsch erfasste Daten werden im E-VERA berichtigt und fehlende Daten ergänzt.<authorialNote>
+		<p> Eingefügt durch Ziff. I der V vom 25. Okt. 2023, in Kraft seit 1. Dez. 2023  (<ref href="https://fedlex.data.admin.ch/eli/oc/2023/636" xmlns:data="urn:com:c-moria:legi4ch:xslt:data" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">AS <b>2023</b> 636</ref>).</p>
+	</authorialNote></p></content></paragraph><paragraph eId="art_6/para_2"><num>2</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Die im E-VERA erfassten AHV-Nummern werden nach den Artikeln 133<sup>bis</sup> und 134<sup>quater</sup> der Verordnung vom 31. Oktober 1947<authorialNote>
+		<p>  <ref href="https://fedlex.data.admin.ch/eli/cc/63/1185_1183_1185" xmlns:data="urn:com:c-moria:legi4ch:xslt:data" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">SR <b>831.101</b></ref></p>
+	</authorialNote> über die Alters- und Hinterlassenenversicherung verifiziert und gegebenenfalls berichtigt. Personen ohne AHV-Nummer weist die Zentrale Ausgleichsstelle (ZAS) die AHV-Nummer zu.<authorialNote>
+		<p> Fassung gemäss Anhang Ziff. II 11 der V vom 17. Nov. 2021, in Kraft seit 1. Jan. 2022  (<ref href="https://fedlex.data.admin.ch/eli/oc/2021/800" xmlns:data="urn:com:c-moria:legi4ch:xslt:data" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">AS <b>2021</b> 800</ref>).</p>
+	</authorialNote></p></content></paragraph><paragraph eId="art_6/para_3"><num>3</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Das E-VERA überprüft mittels Online-Abfrage, ob im E-VERA erfasste Personen wegen eines Verbrechens oder Vergehens im automatisierten Polizeifahndungssystem (RIPOL) verzeichnet sind. Das Resultat der Abfrage wird im E-VERA nicht gespeichert.</p></content></paragraph></article><article eId="art_7"><num><b>Art. 7</b></num><heading>Bearbeitungsrechte</heading><paragraph eId="art_7/para_1"><num>1</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Die Vertretungen und die KD verfügen für alle Daten im E-VERA über sämtliche Bearbeitungsrechte.</p></content></paragraph><paragraph eId="art_7/para_2"><num>2</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Die Personen nach Artikel 5 können die Daten nach Anhang 1, die sie oder ihre im gleichen Haushalt lebenden Angehörigen betreffen, im Rahmen ihrer Zugriffsrechte über den Online-Schalter einsehen; sie können konsularische Dienstleistungen sowie die Änderung unrichtiger oder nicht mehr aktueller Daten beantragen und Dokumente elektronisch über den Online-Schalter übermitteln.<authorialNote>
+		<p> Fassung gemäss Ziff. I der V vom 25. Okt. 2023, in Kraft seit 1. Dez. 2023  (<ref href="https://fedlex.data.admin.ch/eli/oc/2023/636" xmlns:data="urn:com:c-moria:legi4ch:xslt:data" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">AS <b>2023</b> 636</ref>).</p>
+	</authorialNote></p></content></paragraph><paragraph eId="art_7/para_3"><num>3</num><content><blockList><listIntroduction eId="art_7/para_3/listintro" xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Die folgenden Stellen können für die nachstehenden Zwecke die Daten nach Anhang 1 im Abrufverfahren einsehen:</listIntroduction><item eId="art_7/para_3/lbl_a"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">a. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">die Fachstelle Datenschutz, Öffentlichkeitsprinzip und Informationssicherheit EDA: zur Erteilung von Auskünften bei Anfragen in ihrem Zuständigkeitsbereich; </p></item><item eId="art_7/para_3/lbl_b"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">b. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">die Interne Revision EDA: zur Vorbereitung und Durchführung von Audits auf Auslandvertretungen;</p></item><item eId="art_7/para_3/lbl_c"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">c. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">das Krisenmanagementzentrum des EDA: zur raschen Lokalisierung von Schweizer Bürgerinnen und Bürgern in Krisensituationen;</p></item><item eId="art_7/para_3/lbl_d"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">d. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">das Passbüro EDA: zum Auffinden von Inhaberinnen und Inhabern von Diplomaten- und Dienstpässen im Ausland;</p></item><item eId="art_7/para_3/lbl_e"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">e. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">die SAK: zur Erfüllung der gesetzlichen Aufgaben im Bereich der Alters- und Hinterlassenenversicherung sowie der Invalidenversicherung;</p></item><item eId="art_7/para_3/lbl_f"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">f. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">die ZAS: zur Zuweisung der AHV-Nummer<authorialNote>
+		<p> Ausdruck gemäss Anhang Ziff. II 11 der V vom 17. Nov. 2021, in Kraft seit 1. Jan. 2022  (<ref href="https://fedlex.data.admin.ch/eli/oc/2021/800" xmlns:data="urn:com:c-moria:legi4ch:xslt:data" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">AS <b>2021</b> 800</ref>). Diese Änd. wurde in den in der AS genannten Bestimmungen vorgenommen.</p>
+	</authorialNote>.</p></item></blockList></content></paragraph><paragraph eId="art_7/para_4"><num>4</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Die Einheit für Informatik des EDA verfügt über diejenigen Zugriffsrechte, die zur Erfüllung ihrer Aufgaben notwendig sind.</p></content></paragraph><paragraph eId="art_7/para_5"><num>5</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Die für das Stimmregister zuständigen Behörden verfügen für den Online-Schalter über diejenigen Zugriffsrechte, die für den Bezug von Meldungen zu Änderungen betreffend das Stimmrecht notwendig sind.<authorialNote>
+		<p> Eingefügt durch Ziff. I der V vom 25. Okt. 2023, in Kraft seit 1. Dez. 2023  (<ref href="https://fedlex.data.admin.ch/eli/oc/2023/636" xmlns:data="urn:com:c-moria:legi4ch:xslt:data" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">AS <b>2023</b> 636</ref>).</p>
+	</authorialNote></p></content></paragraph></article><article eId="art_8"><num><b>Art. 8</b></num><heading>Bekanntgabe von Daten</heading><paragraph eId="art_8/para_1"><num>1</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Die Vertretungen und die KD können im E-VERA erfasste Daten von Personen, die von einer Krise oder Katastrophe betroffen sind, Rettungskräften, ausländischen Vertretungen und lokalen Behörden bekannt geben, wenn dies im Interesse der Betroffenen ist.</p></content></paragraph><paragraph eId="art_8/para_2"><num>2</num><content><blockList><listIntroduction eId="art_8/para_2/listintro" xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Den folgenden Stellen werden die Daten nach Anhang 1 automatisch und verschlüsselt übermittelt:</listIntroduction><item eId="art_8/para_2/lbl_a"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">a.<authorialNote>
+		<p> Fassung gemäss Anhang 3 Ziff. 4 der Bundesstatistikverordnung vom 30. April 2025, in Kraft seit 1. Juni 2025 (<ref href="https://fedlex.data.admin.ch/eli/oc/2025/318" xmlns:data="urn:com:c-moria:legi4ch:xslt:data" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">AS <b>2025</b> 318</ref>).</p>
+	</authorialNote> </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">dem Bundesamt für Statistik: im Rahmen der Bundesstatistikverordnung vom 30. April 2025<authorialNote>
+		<p>  <ref href="https://fedlex.data.admin.ch/eli/cc/1993/2093_2093_2093" xmlns:data="urn:com:c-moria:legi4ch:xslt:data" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">SR <b>431.011</b></ref></p>
+	</authorialNote> und der Registerharmonisierungsverordnung vom 21. November 2007<authorialNote>
+		<p>  <ref href="https://fedlex.data.admin.ch/eli/cc/2007/868" xmlns:data="urn:com:c-moria:legi4ch:xslt:data" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">SR <b>431.021</b></ref></p>
+	</authorialNote>;</p></item><item eId="art_8/para_2/lbl_b"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">b. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">der SAK: zur Vornahme der den Vertretungen gemeldeten Mutationen, die Dossiers betreffen, die von der SAK verwaltet werden;</p></item><item eId="art_8/para_2/lbl_c"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">c. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">der ZAS: zur Verifizierung und Zuweisung der AHV-Nummer.</p></item></blockList></content></paragraph><paragraph eId="art_8/para_3"><num>3</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Die Vertretungen und die KD können im E-VERA erfasste Daten anderen Behörden bekannt geben, sofern diese die Daten zur Erfüllung ihrer Aufgaben benötigen.</p></content></paragraph><paragraph eId="art_8/para_4"><num>4</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Den für das Stimmregister zuständigen Behörden werden Meldungen zu Änderungen betreffend das Stimmrecht automatisch und verschlüsselt übermittelt oder über den Online-Schalter bereitgestellt.<authorialNote>
+		<p> Eingefügt durch Ziff. I der V vom 25. Okt. 2023, in Kraft seit 1. Dez. 2023  (<ref href="https://fedlex.data.admin.ch/eli/oc/2023/636" xmlns:data="urn:com:c-moria:legi4ch:xslt:data" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">AS <b>2023</b> 636</ref>).</p>
+	</authorialNote></p></content></paragraph></article><article eId="art_8_a"><num><b>Art. 8</b><i>a</i><authorialNote>
+		<p> Eingefügt durch Ziff. I der V vom 25. Okt. 2023, in Kraft seit 1. Dez. 2023  (<ref href="https://fedlex.data.admin.ch/eli/oc/2023/636" xmlns:data="urn:com:c-moria:legi4ch:xslt:data" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">AS <b>2023</b> 636</ref>).</p>
+	</authorialNote></num><heading>Bearbeitung von Dokumenten</heading><paragraph eId="art_8_a/para"><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Die Ablage von Dokumenten, die im E-VERA bearbeitet werden, erfolgt im jeweiligen Geschäftsverwaltungssystem. Im E-VERA werden sie im Anschluss an die Bearbeitung gelöscht. </p></content></paragraph></article><article eId="art_9"><num><b>Art. 9</b></num><heading>Vernichtung von Daten<authorialNote>
+		<p> Fassung gemäss Anhang 2 Ziff. II 31 der Datenschutzverordnung vom 31. Aug. 2022, in Kraft seit 1. Sept. 2023 (<ref href="https://fedlex.data.admin.ch/eli/oc/2022/568" xmlns:data="urn:com:c-moria:legi4ch:xslt:data" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">AS <b>2022</b> 568</ref>).</p>
+	</authorialNote></heading><paragraph eId="art_9/para_1"><num>1</num><content><blockList><listIntroduction eId="art_9/para_1/listintro" xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Fünf Jahre nach der Erfassung einer der folgenden Angaben, spätestens aber nach Vollendung des 115. Altersjahrs, werden die Daten der betreffenden Person vernichtet:<authorialNote>
+		<p> Fassung gemäss Anhang 2 Ziff. II 31 der Datenschutzverordnung vom 31. Aug. 2022, in Kraft seit 1. Sept. 2023 (<ref href="https://fedlex.data.admin.ch/eli/oc/2022/568" xmlns:data="urn:com:c-moria:legi4ch:xslt:data" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">AS <b>2022</b> 568</ref>).</p>
+	</authorialNote></listIntroduction><item eId="art_9/para_1/lbl_a"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">a. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">abgemeldet;</p></item><item eId="art_9/para_1/lbl_b"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">b. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">gestorben;</p></item><item eId="art_9/para_1/lbl_c"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">c. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">tot geboren;</p></item><item eId="art_9/para_1/lbl_d"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">d. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Tod ohne Todesurkunde;</p></item><item eId="art_9/para_1/lbl_e"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">e. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">verschollen.</p></item></blockList></content></paragraph><paragraph eId="art_9/para_2"><num>2</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Vorbehalten bleiben die Bestimmungen der Archivierungsgesetzgebung des Bundes.</p></content></paragraph></article></section><section eId="sec_3"><num>3. Abschnitt: </num><heading>Zugriffsberechtigungen und Betrieb</heading><article eId="art_10"><num><b>Art. 10</b></num><heading>Erteilung der Zugriffsberechtigung</heading><paragraph eId="art_10/para_1"><num>1</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Die oder der Anwendungsverantwortliche erteilt den Benutzerinnen und Benutzern des E-VERA die individuellen Zugriffsrechte.</p></content></paragraph><paragraph eId="art_10/para_2"><num>2</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Die KD überprüft jährlich, ob die Voraussetzungen für die Zugriffsberechtigungen weiterhin erfüllt sind.</p></content></paragraph></article><article eId="art_11"><num><b>Art. 11</b></num><heading>Technischer Betrieb und Systemverwaltung</heading><paragraph eId="art_11/para_1"><num>1</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Die Einheit für Informatik des EDA ist für den technischen Betrieb des E-VERA verantwortlich.</p></content></paragraph><paragraph eId="art_11/para_2"><num>2</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Die Systemadministratorin oder der Systemadministrator verwaltet das Computersystem, die Datenbank und die Anwendungen.</p></content></paragraph><paragraph eId="art_11/para_3"><num>3</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Die oder der Anwendungsverantwortliche bildet die Schnittstelle zwischen der Systemadministratorin oder dem Systemadministrator und den Benutzerinnen und Benutzern. Sie oder er gehört der KD an.</p></content></paragraph></article><article eId="art_12"><num><b>Art. 12</b><authorialNote>
+		<p> Fassung gemäss Ziff. I der V vom 25. Okt. 2023, in Kraft seit 1. Dez. 2023  (<ref href="https://fedlex.data.admin.ch/eli/oc/2023/636" xmlns:data="urn:com:c-moria:legi4ch:xslt:data" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">AS <b>2023</b> 636</ref>).</p>
+	</authorialNote></num><heading>Schnittstellen</heading><paragraph eId="art_12/para_1"><num>1</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Das E-VERA verfügt über eine Schnittstelle zum Informationssystem EDAssist+.</p></content></paragraph><paragraph eId="art_12/para_2"><num>2</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Anhang 2 enthält die Angabe der Daten, die vom E-VERA an das Informationssystem EDAssist+ übermittelt werden, und legt die Periodizität der Übermittlung fest.</p></content></paragraph><paragraph eId="art_12/para_3"><num>3</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Dokumente nach Artikel 7 Absatz 2 werden über eine Schnittstelle an das EDAssist+ übermittelt, sofern dies zur Erfüllung der Aufgaben nach Artikel 3 der Verordnung vom 18. Juni 2021<authorialNote>
+		<p>  <ref href="https://fedlex.data.admin.ch/eli/cc/2021/396" xmlns:data="urn:com:c-moria:legi4ch:xslt:data" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">SR <b>852.12</b></ref></p>
+	</authorialNote> über die konsularischen Informationssysteme des Eidgenössischen Departements für auswärtige Angelegenheiten erforderlich ist.</p></content></paragraph><paragraph eId="art_12/para_4"><num>4 </num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Zur Erstellung elektronischer Personendossiers im standardisierten Geschäftsverwaltungssystem GEVER werden die erforderlichen Daten über eine Schnittstelle an GEVER übermittelt.</p></content></paragraph></article></section><section eId="sec_4"><num>4. Abschnitt: </num><heading>Datensicherheit</heading><article eId="art_13"><num><b>Art. 13</b></num><heading>Sorgfaltspflichten</heading><paragraph eId="art_13/para_1"><num>1</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Die KD und die Vertretungen sorgen dafür, dass die Personendaten im E-VERA vorschriftsgemäss bearbeitet werden.</p></content></paragraph><paragraph eId="art_13/para_2"><num>2</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Sie stellen sicher, dass die Personendaten richtig, vollständig und nachgeführt sind.</p></content></paragraph></article><article eId="art_14"><num><b>Art. 14</b></num><heading>Datensicherheit</heading><paragraph eId="art_14/para_1"><num>1</num><content><blockList><listIntroduction eId="art_14/para_1/listintro" xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Die Informationssicherheit richtet sich nach:<authorialNote>
+		<p> Fassung gemäss Anhang 2 Ziff. II 12 der Informationssicherheitsverordnung vom  8. Nov. 2023, in Kraft seit 1. Jan. 2024 (<ref href="https://fedlex.data.admin.ch/eli/oc/2023/735" xmlns:data="urn:com:c-moria:legi4ch:xslt:data" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">AS <b>2023</b> 735</ref>).</p>
+	</authorialNote></listIntroduction><item eId="art_14/para_1/lbl_a"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">a.<authorialNote>
+		<p> Fassung gemäss Anhang 2 Ziff. II 31 der Datenschutzverordnung vom 31. Aug. 2022, in Kraft seit 1. Sept. 2023 (<ref href="https://fedlex.data.admin.ch/eli/oc/2022/568" xmlns:data="urn:com:c-moria:legi4ch:xslt:data" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">AS <b>2022</b> 568</ref>).</p>
+	</authorialNote> </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">der Datenschutzverordnung vom 31. August 2022<authorialNote>
+		<p>  <ref href="https://fedlex.data.admin.ch/eli/cc/2022/568" xmlns:data="urn:com:c-moria:legi4ch:xslt:data" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">SR <b>235.11</b></ref></p>
+	</authorialNote>;</p></item><item eId="art_14/para_1/lbl_b"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">b.<authorialNote>
+		<p> Fassung gemäss Anhang 2 Ziff. II 12 der Informationssicherheitsverordnung vom  8. Nov. 2023, in Kraft seit 1. Jan. 2024 (<ref href="https://fedlex.data.admin.ch/eli/oc/2023/735" xmlns:data="urn:com:c-moria:legi4ch:xslt:data" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">AS <b>2023</b> 735</ref>).</p>
+	</authorialNote> </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">der Informationssicherheitsverordnung vom 8. November 2023<authorialNote>
+		<p> <ref href="https://fedlex.data.admin.ch/eli/cc/2023/735" xmlns:data="urn:com:c-moria:legi4ch:xslt:data" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">SR <b>128.1</b></ref></p>
+	</authorialNote>;</p></item><item eId="art_14/para_1/lbl_c"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">c.<authorialNote>
+		<p> Aufgehoben durch Anhang Ziff. 12 der V vom 24. Febr. 2021, mit Wirkung seit  1. April 2021 (<ref href="https://fedlex.data.admin.ch/eli/oc/2021/132" xmlns:data="urn:com:c-moria:legi4ch:xslt:data" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">AS <b>2021</b> 132</ref>).</p>
+	</authorialNote> </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">…</p></item></blockList></content></paragraph><paragraph eId="art_14/para_2"><num>2</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Die KD erlässt ein Bearbeitungsreglement. Dieses enthält die organisatorischen und technischen Massnahmen zur Gewährleistung der Datensicherheit sowie zur Kontrolle der Datenbearbeitung.</p></content></paragraph></article><article eId="art_15"><num><b>Art. 15</b></num><heading>Protokollierung</heading><paragraph eId="art_15/para_1"><num>1</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Die Zugriffe auf das E-VERA und die Bearbeitungen im E-VERA werden laufend protokolliert. </p></content></paragraph><paragraph eId="art_15/para_2"><num>2</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Die Protokolle werden während einem Jahr getrennt vom System, in welchem die Personendaten bearbeitet werden, aufbewahrt.<authorialNote>
+		<p> Fassung gemäss Anhang 2 Ziff. II 31 der Datenschutzverordnung vom 31. Aug. 2022, in Kraft seit 1. Sept. 2023 (<ref href="https://fedlex.data.admin.ch/eli/oc/2022/568" xmlns:data="urn:com:c-moria:legi4ch:xslt:data" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">AS <b>2022</b> 568</ref>).</p>
+	</authorialNote></p></content></paragraph></article></section><section eId="sec_5"><num>5. Abschnitt: </num><heading>Schlussbestimmungen</heading><article eId="art_16"><num><b>Art. 16</b></num><heading>Aufhebung eines anderen Erlasses</heading><paragraph eId="art_16/para"><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Die VERA-Verordnung vom 7. Juni 2004<authorialNote>
+		<p> [<ref href="https://fedlex.data.admin.ch/eli/oc/2004/381" xmlns:data="urn:com:c-moria:legi4ch:xslt:data" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">AS <b>2004</b> 2997</ref>; <ref href="https://fedlex.data.admin.ch/eli/oc/2007/868" xmlns:data="urn:com:c-moria:legi4ch:xslt:data" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp"><b>2007 </b>6719 </ref>Anhang Ziff. 4; <ref href="https://fedlex.data.admin.ch/eli/oc/2012/21" xmlns:data="urn:com:c-moria:legi4ch:xslt:data" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp"><b>2012 </b>337 </ref>Art. 19]</p>
+	</authorialNote> wird aufgehoben.</p></content></paragraph></article><article eId="art_17"><num><b>Art. 17</b></num><heading>Änderung anderer Erlasse</heading><paragraph eId="art_17/para"><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Die nachstehenden Erlasse werden wie folgt geändert:</p><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">…<authorialNote>
+		<p> Die Änderungen können unter <ref href="https://fedlex.data.admin.ch/eli/oc/2016/487" xmlns:data="urn:com:c-moria:legi4ch:xslt:data" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">AS <b>2016</b> 2933 </ref>konsultiert werden.</p>
+	</authorialNote></p></content></paragraph></article><article eId="art_18"><num><b>Art. 18</b></num><heading>Inkrafttreten</heading><paragraph eId="art_18/para"><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Diese Verordnung tritt am 1. September 2016 in Kraft.</p></content></paragraph></article></section></body><components><component><doc name="annex"><meta><identification source="#ch.bk"><FRBRWork><FRBRthis value="https://fedlex.data.admin.ch/eli/cc/2016/487/20250601/main-text"/><FRBRuri value="https://fedlex.data.admin.ch/eli/cc/2016/487/20250601"/><FRBRdate date="2025-06-01" name="jolux:dateApplicability"/><FRBRdate date="2016-08-17" name="jolux:dateDocument"/><FRBRdate date="2016-09-01" name="jolux:dateEntryInForce"/><FRBRauthor href="#ch.bk" as="#publisher"/><FRBRauthor href="#ch.bk" as="#rightsHolder"/><FRBRcountry value="CH"/><FRBRnumber value="235.22"/><FRBRname xml:lang="fr" value="Ordonnance du 17 août 2016 sur le système d'information E-VERA (O E-VERA)" shortForm="O E-VERA"/><FRBRname xml:lang="de" value="Verordnung vom 17. August 2016 über das Informationssystem E-VERA (Verordnung E-VERA, VEVERA)" shortForm="VEVERA"/><FRBRname xml:lang="it" value="Ordinanza del 17 agosto 2016 concernente il sistema d'informazione E-VERA (Ordinanza E-VERA)" shortForm=""/><FRBRauthoritative value="true"/></FRBRWork><FRBRExpression><FRBRthis value="https://fedlex.data.admin.ch/eli/cc/2016/487/20250601/de/main-text"/><FRBRuri value="https://fedlex.data.admin.ch/eli/cc/2016/487/20250601/de"/><FRBRdate date="2025-06-01" name="jolux:dateApplicability"/><FRBRdate date="2016-08-17" name="jolux:dateDocument"/><FRBRdate date="2016-09-01" name="jolux:dateEntryInForce"/><FRBRauthor href="#ch.bk" as="#publisher"/><FRBRauthor href="#ch.bk" as="#rightsHolder"/><FRBRlanguage language="de"/></FRBRExpression><FRBRManifestation><FRBRthis value="https://fedlex.data.admin.ch/eli/cc/2016/487/20250601/de/xml/main-text"/><FRBRuri value="https://fedlex.data.admin.ch/eli/cc/2016/487/20250601/de/xml"/><FRBRdate date="2025-06-01" name="jolux:dateApplicability"/><FRBRdate date="2016-08-17" name="jolux:dateDocument"/><FRBRdate date="2016-09-01" name="jolux:dateEntryInForce"/><FRBRauthor href="#ch.bk" as="#publisher"/><FRBRauthor href="#ch.bk" as="#rightsHolder"/><FRBRformat value="xml"/></FRBRManifestation></identification></meta><preface><container name="headerOfAnnex"><block name="num">Anhang 1<inline name="man-font-style-normal"><authorialNote>
+		<p> Fassung gemäss Ziff. II der V vom 25. Okt. 2023, in Kraft seit 1. Dez. 2023 (<ref href="https://fedlex.data.admin.ch/eli/oc/2023/636" xmlns:data="urn:com:c-moria:legi4ch:xslt:data" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">AS <b>2023</b> 636</ref>).</p>
+	</authorialNote></inline></block></container></preface><mainBody><p>(Art. 5 Abs. 2)</p><level eId="annex_1/lvl_u1"><heading>Bearbeitungsrechte</heading><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Zeichenerklärung:</p><table border="1">
+			
+			
+			<tr>
+				
+				
+				<th colspan="2" xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">
+					
+					<p>Zugriffsberechtigte / Daten-empfangende Stellen</p>
+				</th>
+				<th xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">
+					
+					
+				</th>
+				<th colspan="2" xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">
+					
+					<p>Bearbeitungsrechte</p>
+				</th>
+				<th xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">
+					
+					
+				</th>
+			</tr>
+			<tr>
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Vertretungen</p>
+				</td>
+				<td colspan="2">
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Schweizerische Vertretungen im Ausland</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">A</p>
+				</td>
+				<td colspan="2">
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Sämtliche Bearbeitungsrechte</p>
+				</td>
+			</tr>
+			<tr>
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">KD</p>
+				</td>
+				<td colspan="2">
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Konsularische Direktion</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B</p>
+				</td>
+				<td colspan="2">
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Leserecht</p>
+				</td>
+			</tr>
+			<tr>
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Fachstelle</p>
+				</td>
+				<td colspan="2">
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Fachstelle Datenschutz, Öffentlichkeitsprinzip</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">C</p>
+				</td>
+				<td colspan="2">
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Antrags- und Leserecht</p>
+				</td>
+			</tr>
+			<tr>
+				
+				<td>
+					
+					
+				</td>
+				<td colspan="2">
+					
+					<p>und Informationssicherheit EDA</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">D</p>
+				</td>
+				<td colspan="2">
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Datenübermittlung verschlüsselt</p>
+				</td>
+			</tr>
+			<tr>
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">IR</p>
+				</td>
+				<td colspan="2">
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Interne Revision EDA</p>
+				</td>
+				<td>
+					
+					
+				</td>
+				<td colspan="2">
+					
+					
+				</td>
+			</tr>
+			<tr>
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">KMZ</p>
+				</td>
+				<td colspan="2">
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Krisenmanagementzentrum</p>
+				</td>
+				<td>
+					
+					
+				</td>
+				<td colspan="2">
+					
+					
+				</td>
+			</tr>
+			<tr>
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">SAK</p>
+				</td>
+				<td colspan="2">
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Schweizerische Ausgleichskasse</p>
+				</td>
+				<td>
+					
+					
+				</td>
+				<td colspan="2">
+					
+					
+				</td>
+			</tr>
+			<tr>
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">ZAS</p>
+				</td>
+				<td colspan="2">
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Zentrale Ausgleichsstelle</p>
+				</td>
+				<td>
+					
+					
+				</td>
+				<td colspan="2">
+					
+					
+				</td>
+			</tr>
+			<tr>
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">BFS</p>
+				</td>
+				<td colspan="2">
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Bundesamt für Statistik</p>
+				</td>
+				<td>
+					
+					
+				</td>
+				<td colspan="2">
+					
+					
+				</td>
+			</tr>
+		</table><table border="1">
+			
+			
+			<tr>
+				
+				
+				<th xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">
+					
+					<p>Daten</p>
+				</th>
+				<th xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">
+					
+					<p>Vertretungen</p>
+				</th>
+				<th xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">
+					
+					<p>KD</p>
+				</th>
+				<th xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">
+					
+					<p>Fachstelle</p>
+				</th>
+				<th xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">
+					
+					<p>IR</p>
+				</th>
+				<th xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">
+					
+					<p>KMZ</p>
+				</th>
+				<th xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">
+					
+					<p>Passbüro EDA</p>
+				</th>
+				<th xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">
+					
+					<p>SAK</p>
+				</th>
+				<th xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">
+					
+					<p>ZAS</p>
+				</th>
+				<th xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">
+					
+					<p>BFS</p>
+				</th>
+				<th xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">
+					
+					<p>Betroffene Personen (Art. 5)</p>
+				</th>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Namen </p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">A</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">A</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B/D</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B/D</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">D</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">C</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Vornamen</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">A</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">A</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B/D</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B/D</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">D</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">C</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Geburtsdatum</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">A</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">A</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B/D</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B/D</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">D</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">C</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Geburtsort</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">A</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">A</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B/D</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B/D</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">D</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">C</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Geschlecht</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">A</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">A</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B/D</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B/D</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">D</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">C</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Zivilstand</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">A</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">A</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B/D</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B/D</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">D</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">C</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Heimatort</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">A</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">A</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B/D</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">D</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">C</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Staatsangehörigkeit / Bürgerrecht</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">A</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">A</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B/D</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B/D</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">D</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">C</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Angaben zu Einbürgerung, Verlust des Bürgerrechts: Ort, Datum, Behörde, Rechtskraft</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">A</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">A</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B/D</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B/D</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">D</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">C</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Anrede</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">A</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">A</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">D</p>
+				</td>
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">C</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Titel</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">A</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">A</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">D</p>
+				</td>
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">C</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">AHV-Nummer</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">A</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">A</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B/D</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B/D</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">D</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">C</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Bildungsstand</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">A</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">A</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B</p>
+				</td>
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">D</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">C</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Beruf: Berufsbezeichnung, Berufsgruppe, höchster Bildungsabschluss, Erfassungsdatum</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">A</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">A</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B</p>
+				</td>
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">D</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">C</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Angaben über Zivilstandsereignisse: Eheschliessung, Scheidung, Eintragung Partnerschaft, Auflösung Partnerschaft, Trennung, Trennungsbeginn, Trennungsende, Auflösungsgrund, Ungültigkeitserklärung, Adoption, Geburt, Namensänderung, amtlicher Nachweis, Datum, Ort, Urteil, Datum der Rechtskraft </p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">A</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">A</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B/D</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B/D</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">D</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">C</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Angaben zum Tod: Datum, Ort, Meldungsart</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">A</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">A</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B/D</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B/D</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">D</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">C</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Sprache</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">A</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">A</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B/D</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B/D</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">D</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">C</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Korrespondenzsprache</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">A</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">A</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B</p>
+				</td>
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">D</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">C</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Angaben zur Ehegattin / zum Ehegatten, zur Partnerin / zum Partner: Name, Vorname, Geburtsdatum, AHV-Nummer</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">A</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">A</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B/D</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B</p>
+				</td>
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">C</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Angaben zu Kindern und Sorgerecht: Name, Vorname, Geburtsdatum, AHV-Nummer, Sorgerechtsberechtigte</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">A</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">A</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B/D</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B</p>
+				</td>
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">C</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Kontaktangaben: Adressen, GPS-Daten, E-Mail-Adresse, Telefonnummer, Faxnummer</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">A</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">A</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B/D</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">D</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">C</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Angaben zum Konsularkreis</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">A</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">A</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B/D</p>
+				</td>
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">D</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">C</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Personennummer nach Art. 6 Abs. 1</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">A</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">A</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B/D</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B/D</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">D</p>
+				</td>
+				<td>
+					
+					
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Angaben zu Eltern: Name, Vorname</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">A</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">A</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B/D</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B/D</p>
+				</td>
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">C</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Angaben zu Kontaktperson bei Tod: Name, Vorname, Kontakt</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">A</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">A</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B/D</p>
+				</td>
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">C</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Notfallangaben (freiwillig): Informationen zu Krankenkasse, Reiseversicherung, Patientenverfügung, Testament, Notfalladresse</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">A</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">A</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B</p>
+				</td>
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">C</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Angaben zum Wegzug: Datum, Ort, Adresse, Grund</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">A</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">A</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B/D</p>
+				</td>
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">D</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">C</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Angaben zum Zuzug: Datum, Ort, Adresse, Grund</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">A</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">A</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B/D</p>
+				</td>
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">D</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">C</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Angaben zu Stimmrecht: Datum An-/Abmeldung, Stimmgemeinde, Sprache Stimmmaterial</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">A</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">A</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B</p>
+				</td>
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">D</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">C</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">An-/Abmeldung </p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">A</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">A</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B/D</p>
+				</td>
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">C</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Logindaten Online-Schalter E-VERA</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">A</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">A</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B</p>
+				</td>
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">C</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Pass: Passnummer, Ausstellungsdatum, ausstellende Behörde, Gültigkeit</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">A</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">A</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B</p>
+				</td>
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Verlustmeldung: Reisedokument, Modell, Nummer, Grund, Ort, Datum, Polizeirapport, Ausstellungsdatum, ausstellende Behörde, Gültigkeit, Meldungsdatum</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">A</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">A</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B</p>
+				</td>
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">C</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Verschollenmeldung: Datum, Behörde, Ort</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">A</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">A</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B/D</p>
+				</td>
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">C</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">RIPOL-Check </p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B</p>
+				</td>
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Hinterlegung: Art, Ausweisnummer, Datum der Entgegennahme und der Aushändigung</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">A</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">A</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B</p>
+				</td>
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">C</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Person mit Relevanz für diplomatische Aufgaben</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">A</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">A</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B</p>
+				</td>
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Abonnierte Publikationen</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">A</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">A</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B</p>
+				</td>
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">C</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Militärische Meldepflicht</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">A</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">A</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">B</p>
+				</td>
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					
+				</td>
+			</tr>
+		</table></content></level></mainBody></doc></component><component><doc name="annex"><meta><identification source="#ch.bk"><FRBRWork><FRBRthis value="https://fedlex.data.admin.ch/eli/cc/2016/487/20250601/main-text"/><FRBRuri value="https://fedlex.data.admin.ch/eli/cc/2016/487/20250601"/><FRBRdate date="2025-06-01" name="jolux:dateApplicability"/><FRBRdate date="2016-08-17" name="jolux:dateDocument"/><FRBRdate date="2016-09-01" name="jolux:dateEntryInForce"/><FRBRauthor href="#ch.bk" as="#publisher"/><FRBRauthor href="#ch.bk" as="#rightsHolder"/><FRBRcountry value="CH"/><FRBRnumber value="235.22"/><FRBRname xml:lang="fr" value="Ordonnance du 17 août 2016 sur le système d'information E-VERA (O E-VERA)" shortForm="O E-VERA"/><FRBRname xml:lang="de" value="Verordnung vom 17. August 2016 über das Informationssystem E-VERA (Verordnung E-VERA, VEVERA)" shortForm="VEVERA"/><FRBRname xml:lang="it" value="Ordinanza del 17 agosto 2016 concernente il sistema d'informazione E-VERA (Ordinanza E-VERA)" shortForm=""/><FRBRauthoritative value="true"/></FRBRWork><FRBRExpression><FRBRthis value="https://fedlex.data.admin.ch/eli/cc/2016/487/20250601/de/main-text"/><FRBRuri value="https://fedlex.data.admin.ch/eli/cc/2016/487/20250601/de"/><FRBRdate date="2025-06-01" name="jolux:dateApplicability"/><FRBRdate date="2016-08-17" name="jolux:dateDocument"/><FRBRdate date="2016-09-01" name="jolux:dateEntryInForce"/><FRBRauthor href="#ch.bk" as="#publisher"/><FRBRauthor href="#ch.bk" as="#rightsHolder"/><FRBRlanguage language="de"/></FRBRExpression><FRBRManifestation><FRBRthis value="https://fedlex.data.admin.ch/eli/cc/2016/487/20250601/de/xml/main-text"/><FRBRuri value="https://fedlex.data.admin.ch/eli/cc/2016/487/20250601/de/xml"/><FRBRdate date="2025-06-01" name="jolux:dateApplicability"/><FRBRdate date="2016-08-17" name="jolux:dateDocument"/><FRBRdate date="2016-09-01" name="jolux:dateEntryInForce"/><FRBRauthor href="#ch.bk" as="#publisher"/><FRBRauthor href="#ch.bk" as="#rightsHolder"/><FRBRformat value="xml"/></FRBRManifestation></identification></meta><preface><container name="headerOfAnnex"><block name="num">Anhang 2</block></container></preface><mainBody><p>(Art. 12)</p><level eId="annex_2/lvl_u1"><heading>Datenkatalog und Periodizität</heading><content><table border="1">
+			
+			
+			<tr>
+				
+				
+				<th xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">
+					
+					<p>Informationssystem</p>
+				</th>
+				<th xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">
+					
+					<p>Personendaten</p>
+				</th>
+				<th xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">
+					
+					<p>Periodizität</p>
+				</th>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">EDAssist+</p>
+				</td>
+				<td><blockList><item><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">a. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Namen</p></item><item><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">b. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Vornamen</p></item><item><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">c. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Adressdaten und Kommunikationsmittel <br/></p><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">(Kontaktangaben)</p></item><item><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">d. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Geburtsdatum</p></item><item><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">e. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Geschlecht</p></item><item><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">f. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Sprachen</p></item><item><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">g. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Heimatorte</p></item><item><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">h. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Staatsangehörigkeiten</p></item><item><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">i. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">AHV-Nummer</p></item><item><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">j. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Personennummer</p></item></blockList></td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Nach Bedarf</p>
+				</td>
+			</tr>
+			
+		</table></content></level></mainBody></doc></component></components></act></akomaNtoso>

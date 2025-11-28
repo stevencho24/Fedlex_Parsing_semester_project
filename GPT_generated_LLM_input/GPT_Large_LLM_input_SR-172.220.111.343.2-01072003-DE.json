@@ -1,0 +1,47 @@
+[
+  {
+    "item_type": "preamble_callback",
+    "acronyms": [
+      {
+        "acronym": "EDI",
+        "sr_link": "SR 172.220.111.3",
+        "url": "https://fedlex.data.admin.ch/eli/cc/2001/319"
+      },
+      {
+        "acronym": "BPV",
+        "sr_link": "SR 172.220.111.3",
+        "url": "https://fedlex.data.admin.ch/eli/cc/2001/319"
+      }
+    ],
+    "description": "Preamble acronyms for reference detection"
+  },
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 172.220.111.3",
+    "TARGET_URL": "https://fedlex.data.admin.ch/eli/cc/2001/319",
+    "SNIPPET": "gestützt auf die Artikel 52 Absatz 5 und 53 Buchstabe c der Bundespersonalverordnung vom 3. Juli 2001 SR 172.220.111.3 (BPV), im Einvernehmen mit dem Eidgenössischen Finanzdepartement,",
+    "INSIDE_AUTHORIALNOTE": "SR 172.220.111.3",
+    "item_type": "SR_link_detection"
+  },
+  {
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 172.220.111.3",
+    "TARGET_URL": "https://fedlex.data.admin.ch/eli/cc/2001/319",
+    "SNIPPET": "Diese Verordnung umschreibt die Voraussetzungen für die Zuweisung der besonderen Funktionen im EDI zu einer Lohnklasse (LK) nach Artikel 36 BPV.",
+    "INSIDE_AUTHORIALNOTE": "SR 172.220.111.3",
+    "preamble_acronym_name": "EDI",
+    "item_type": "preamble_acronym",
+    "ITEM": 2
+  },
+  {
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 172.220.111.3",
+    "TARGET_URL": "https://fedlex.data.admin.ch/eli/cc/2001/319",
+    "SNIPPET": "Diese Verordnung umschreibt die Voraussetzungen für die Zuweisung der besonderen Funktionen im EDI zu einer Lohnklasse (LK) nach Artikel 36 BPV.",
+    "INSIDE_AUTHORIALNOTE": "SR 172.220.111.3",
+    "preamble_acronym_name": "BPV",
+    "item_type": "preamble_acronym",
+    "ITEM": 3
+  }
+]

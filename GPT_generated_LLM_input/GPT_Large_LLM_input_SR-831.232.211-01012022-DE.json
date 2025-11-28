@@ -1,0 +1,42 @@
+[
+  {
+    "item_type": "preamble_callback",
+    "acronyms": [
+      {
+        "acronym": "EDI",
+        "sr_link": "SR 831.201",
+        "url": "https://fedlex.data.admin.ch/eli/cc/1961/29_29_29"
+      },
+      {
+        "acronym": "IVV",
+        "sr_link": "SR 831.201",
+        "url": "https://fedlex.data.admin.ch/eli/cc/1961/29_29_29"
+      }
+    ],
+    "description": "Preamble acronyms for reference detection"
+  },
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 831.201",
+    "TARGET_URL": "https://fedlex.data.admin.ch/eli/cc/1961/29_29_29",
+    "SNIPPET": "gestützt auf Artikel 3bis der Verordnung vom 17. Januar 1961 SR 831.201 über die Invalidenversicherung (IVV),",
+    "INSIDE_AUTHORIALNOTE": "SR 831.201",
+    "item_type": "SR_link_detection"
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 831.20",
+    "TARGET_URL": "https://fedlex.data.admin.ch/eli/cc/1959/827_857_845",
+    "SNIPPET": "Die Geburtsgebrechen, für die medizinische Massnahmen nach Artikel 13 des Bundesgesetzes vom 19. Juni 1959 SR 831.20 über die Invalidenversicherung gewährt werden, sind im Anhang aufgeführt.",
+    "INSIDE_AUTHORIALNOTE": "SR 831.20",
+    "item_type": "SR_link_detection"
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_1",
+    "SNIPPET": "Die Geburtsgebrechen, für die medizinische Massnahmen nach Artikel 13 des Bundesgesetzes vom 19. Juni 1959 über die Invalidenversicherung gewährt werden, sind im Anhang aufgeführt.",
+    "item_type": "artikel_reference"
+  }
+]

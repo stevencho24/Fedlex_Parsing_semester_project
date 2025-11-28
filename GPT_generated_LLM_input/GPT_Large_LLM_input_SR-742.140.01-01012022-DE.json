@@ -1,0 +1,61 @@
+[
+  {
+    "item_type": "preamble_callback",
+    "acronyms": [
+      {
+        "acronym": "EFD",
+        "sr_link": "SR 742.140",
+        "url": "https://fedlex.data.admin.ch/eli/cc/2015/107"
+      },
+      {
+        "acronym": "BIFG",
+        "sr_link": "SR 742.140",
+        "url": "https://fedlex.data.admin.ch/eli/cc/2015/107"
+      },
+      {
+        "acronym": "EBG",
+        "sr_link": "SR 742.101",
+        "url": "https://fedlex.data.admin.ch/eli/cc/1958/335_341_347"
+      }
+    ],
+    "description": "Preamble acronyms for reference detection"
+  },
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 742.140",
+    "TARGET_URL": "https://fedlex.data.admin.ch/eli/cc/2015/107",
+    "SNIPPET": "gestützt auf Artikel 3 Absatz 2 des Bahninfrastrukturfondsgesetzes vom 21. Juni 2013 SR 742.140 (BIFG) und Artikel 57 Absatz 1bis des Eisenbahngesetzes vom 20. Dezember 1957 (EBG),",
+    "INSIDE_AUTHORIALNOTE": "SR 742.140",
+    "item_type": "SR_link_detection"
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 742.101",
+    "TARGET_URL": "https://fedlex.data.admin.ch/eli/cc/1958/335_341_347",
+    "SNIPPET": "gestützt auf Artikel 3 Absatz 2 des Bahninfrastrukturfondsgesetzes vom 21. Juni 2013 (BIFG) und Artikel 57 Absatz 1bis des Eisenbahngesetzes vom 20. Dezember 1957 SR 742.101 (EBG),",
+    "INSIDE_AUTHORIALNOTE": "SR 742.101",
+    "item_type": "SR_link_detection"
+  },
+  {
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 742.140",
+    "TARGET_URL": "https://fedlex.data.admin.ch/eli/cc/2015/107",
+    "SNIPPET": "Die Höhe der Beträge nach Artikel 3 Absatz 2 BIFG berechnet sich nach der in Anhang 1 festgelegten Methode.",
+    "INSIDE_AUTHORIALNOTE": "SR 742.140",
+    "preamble_acronym_name": "BIFG",
+    "item_type": "preamble_acronym",
+    "ITEM": 3
+  },
+  {
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 742.101",
+    "TARGET_URL": "https://fedlex.data.admin.ch/eli/cc/1958/335_341_347",
+    "SNIPPET": "Die Höhe der Einlage nach Artikel 57 Absatz 1bis EBG berechnet sich nach der in Anhang 2 festgelegten Methode.",
+    "INSIDE_AUTHORIALNOTE": "SR 742.101",
+    "preamble_acronym_name": "EBG",
+    "item_type": "preamble_acronym",
+    "ITEM": 4
+  }
+]

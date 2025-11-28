@@ -1,0 +1,373 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:fedlex="http://fedlex.admin.ch/"><act name="publicLaw"><meta><identification source="#ch.bk"><FRBRWork><FRBRthis value="https://fedlex.data.admin.ch/eli/cc/2016/437/20181113/main-text"/><FRBRuri value="https://fedlex.data.admin.ch/eli/cc/2016/437/20181113"/><FRBRdate date="2018-11-13" name="jolux:dateApplicability"/><FRBRdate date="2015-09-17" name="jolux:dateDocument"/><FRBRdate date="2016-10-01" name="jolux:dateEntryInForce"/><FRBRauthor href="#ch.bk" as="#publisher"/><FRBRauthor href="#ch.bk" as="#rightsHolder"/><FRBRcountry value="CH"/><FRBRnumber value="510.620.3"/><FRBRname xml:lang="it" value="Contratto del 17 settembre 2015 tra la Confederazione e i Cantoni concernente l'indennizzo e le modalità dello scambio di geodati di base di diritto federale tra autorità" shortForm=""/><FRBRname xml:lang="fr" value="Convention du 17 septembre 2015 entre la Confédération et les cantons sur l'indemnisation et les modalités de l'échange entre autorités de géodonnées de base relevant du droit fédéral" shortForm=""/><FRBRname xml:lang="de" value="Vertrag vom 17. September 2015 zwischen dem Bund und den Kantonen betreffend die Abgeltung und die Modalitäten des Austauschs von Geobasisdaten des Bundesrechts unter Behörden" shortForm=""/><FRBRauthoritative value="true"/></FRBRWork><FRBRExpression><FRBRthis value="https://fedlex.data.admin.ch/eli/cc/2016/437/20181113/de/main-text"/><FRBRuri value="https://fedlex.data.admin.ch/eli/cc/2016/437/20181113/de"/><FRBRdate date="2018-11-13" name="jolux:dateApplicability"/><FRBRdate date="2015-09-17" name="jolux:dateDocument"/><FRBRdate date="2016-10-01" name="jolux:dateEntryInForce"/><FRBRauthor href="#ch.bk" as="#publisher"/><FRBRauthor href="#ch.bk" as="#rightsHolder"/><FRBRlanguage language="de"/></FRBRExpression><FRBRManifestation><FRBRthis value="https://fedlex.data.admin.ch/eli/cc/2016/437/20181113/de/xml/main-text"/><FRBRuri value="https://fedlex.data.admin.ch/eli/cc/2016/437/20181113/de/xml"/><FRBRdate date="2018-11-13" name="jolux:dateApplicability"/><FRBRdate date="2015-09-17" name="jolux:dateDocument"/><FRBRdate date="2016-10-01" name="jolux:dateEntryInForce"/><FRBRauthor href="#ch.bk" as="#publisher"/><FRBRauthor href="#ch.bk" as="#rightsHolder"/><FRBRformat value="xml" fedlex:generator="2025-q2-rel-1.7.5"/></FRBRManifestation></identification><references source="#ch.bk"><TLCOrganization eId="ch.bk" href="https://fedlex.data.admin.ch/vocabulary/legal-institution/2" showAs="Bundeskanzlei"/><TLCRole eId="publisher" href="http://data.legilux.public.lu/resource/ontology/jolux#publisher" showAs="Editeur"/><TLCRole eId="rightsHolder" href="http://data.legilux.public.lu/resource/ontology/jolux#rightsHolder" showAs="Détenteur des droits"/><TLCReference name="language" href="http://publications.europa.eu/resource/authority/language/DEU" showAs="de"/><TLCReference name="format" href="https://fedlex.data.admin.ch/vocabulary/user-format/xml" showAs="xml"/></references></meta><preface><p><docNumber>510.620.3 </docNumber></p><p><docTitle>Vertrag <br/>zwischen dem Bund und den Kantonen betreffend die Abgeltung und die Modalitäten des Austauschs von Geobasisdaten des Bundesrechts unter Behörden</docTitle></p><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Abgeschlossen am 17. September 2015</p><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Vom Bundesrat genehmigt am 6. April 2016</p><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">In Kraft getreten am 1. Oktober 2016</p><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> (Stand am 13. November 2018)</p></preface><preamble><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Der Schweizerische Bundesrat,</p><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">gestützt auf Artikel 14 Absatz 3 des Bundesgesetzes vom 5. Oktober 2007<authorialNote>
+		<p> <ref href="https://fedlex.data.admin.ch/eli/cc/2008/388" xmlns:data="urn:com:c-moria:legi4ch:xslt:data" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">SR <b>510.62</b></ref></p>
+	</authorialNote> über Geoinformation (Geoinformationsgesetz, GeoIG) und <br/>Artikel 42 der Verordnung vom 21. Mai 2008<authorialNote>
+		<p> <ref href="https://fedlex.data.admin.ch/eli/cc/2008/389" xmlns:data="urn:com:c-moria:legi4ch:xslt:data" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">SR <b>510.620</b></ref></p>
+	</authorialNote> über Geoinformation (Geoinformationsverordnung, GeoIV)<i>,</i></p><p>und die zuständigen Organe der Kantone,</p><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">gestützt auf die Ermächtigungsnormen in der kantonalen Gesetzgebung,</p><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">beschliessen:</p></preamble><body><section eId="sec_1"><num>1. Abschnitt: </num><heading>Abgeltung des Datenaustausches unter Behörden</heading><article eId="art_1"><num><b>Art. 1</b></num><heading>Gegenstand</heading><subheading fedlex:role="reference" xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> (Art. 14 Abs. 3 GeoIG)</subheading><paragraph eId="art_1/para"><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Der Vertrag regelt die Abgeltung und die Modalitäten des Austausches von Geobasisdaten des Bundesrechts zwischen Behörden des Bundes und der Kantone im Sinne von Art. 14 GeoIG und Art. 37 ff. GeoIV.</p></content></paragraph></article><article eId="art_2"><num><b>Art. 2</b></num><heading>Nutzungsberechtigte Behörden</heading><subheading fedlex:role="reference" xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> (Art. 14 Abs. 1 GeoIG)</subheading><paragraph eId="art_2/para_1"><num>1</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Nutzungsberechtigt sind Behörden des Bundes und der Kantone.</p></content></paragraph><paragraph eId="art_2/para_2"><num>2</num><content><blockList><listIntroduction eId="art_2/para_2/listintro" xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Als Behörden gelten:</listIntroduction><item eId="art_2/para_2/lbl_a"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">a. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">die Organe und die Verwaltung des Bundes und der Kantone;</p></item><item eId="art_2/para_2/lbl_b"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">b. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Behörden von Gemeinden, anderen Gebietskörperschaften und Regionalstrukturen, denen durch das kantonale Recht öffentliche Aufgaben des Bundes oder eines Kantons übertragen sind;</p></item><item eId="art_2/para_2/lbl_c"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">c. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">öffentlich-rechtliche Anstalten des Bundes und der Kantone, denen öffentliche Aufgaben des Bundes oder eines Kantons übertragen sind;</p></item><item eId="art_2/para_2/lbl_d"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">d. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">natürliche und juristische Personen des Privatrechts (Private), denen öffentliche Aufgaben des Bundes oder eines Kantons übertragen sind.</p></item></blockList></content></paragraph><paragraph eId="art_2/para_3"><num>3</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Die Berechtigung zur Nutzung der Daten anderer Behörden besteht nur zur Erfüllung von öffentlichen Aufgaben im Rahmen des rechtlichen Auftrags, einschliesslich gesetzlicher Mitteilungspflichten. Berechtigt zum Bezug und zur Nutzung der Daten ist nur, wer über eine Rechtsgrundlage zum Bearbeiten der Daten verfügt oder die Daten zur Erfüllung der öffentlichen Aufgabe benötigt.</p></content></paragraph></article><article eId="art_3"><num><b>Art. 3</b></num><heading>Gewerbliche Leistungen</heading><subheading fedlex:role="reference" xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> (Art. 41 GeoIV)</subheading><paragraph eId="art_3/para"><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Wenn eine Behörde gleichzeitig öffentliche Aufgaben erfüllt und gewerbliche Leistungen anbietet und nicht nachweisen kann, dass die beiden Bereiche hinsichtlich der Geschäftsprozesse und in der Rechnungslegung klar abgegrenzt sind, fällt sie als Ganzes unter den 8. Abschnitt der GeoIV.</p></content></paragraph></article><article eId="art_4"><num><b>Art. 4</b></num><heading>Umfang des Datenaustausches</heading><paragraph eId="art_4/para_1"><num>1</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Geobasisdaten des Bundesrechts müssen einschliesslich des Datenmodells, der Metadaten und sofern vorhanden eines Darstellungsmodells angeboten werden.</p></content></paragraph><paragraph eId="art_4/para_2"><num>2</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Die Geobasisdaten müssen überprüfbar dem minimalen Geodatenmodell entsprechen.</p></content></paragraph><paragraph eId="art_4/para_3"><num>3</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Von Daten, die nur in gedruckter Form vorliegen und ausgetauscht werden können, ist ein Exemplar des Drucks bzw. eine Kopie zu liefern.</p></content></paragraph><paragraph eId="art_4/para_4"><num>4</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Über die Absätze 1−3 hinaus besteht keine Pflicht, Daten in anderer Form zum Austausch anzubieten oder auf Anfrage auszutauschen, sofern das Bundesrecht keine abweichende Vorschrift enthält.</p></content></paragraph></article><article eId="art_5"><num><b>Art. 5</b></num><heading>Veröffentlichung, Weitergabe an Dritte</heading><paragraph eId="art_5/para_1"><num>1</num><content><blockList><listIntroduction eId="art_5/para_1/listintro" xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Geobasisdaten des Bundesrechts dürfen im Rahmen der Nutzung wie folgt veröffentlicht werden:</listIntroduction><item eId="art_5/para_1/lbl_a"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">a. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Geobasisdaten der Zugangsberechtigungsstufe A dürfen von der nutzenden Behörde in ihrem eigenen Darstellungsdienst sowie darüber hinaus beim Bestehen einer zusätzlichen rechtlichen Publikationspflicht veröffentlicht werden;</p></item><item eId="art_5/para_1/lbl_b"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">b. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Geobasisdaten der Zugangsberechtigungsstufe B oder C dürfen von der nutzenden Behörde nicht veröffentlicht werden.</p></item></blockList></content></paragraph><paragraph eId="art_5/para_2"><num>2</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Auf die Quelle und den Zeitstand ist in geeigneter Weise hinzuweisen.</p></content></paragraph><paragraph eId="art_5/para_3"><num>3</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Für die Weitergabe an Dritte gilt Art. 40 GeoIV.</p></content></paragraph></article><article eId="art_6"><num><b>Art. 6</b></num><heading>Kosten</heading><subheading fedlex:role="reference" xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> (Art. 14 Abs. 3 GeoIG)</subheading><paragraph eId="art_6/para_1"><num>1</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Der Datenaustausch unter Behörden gemäss diesem Vertrag, einschliesslich der Nutzung und Veröffentlichung und die Nutzung von Geodiensten, sowie die mit dem Datenaustausch verbundenen Aufwendungen sind kostenlos.</p></content></paragraph><paragraph eId="art_6/para_2"><num>2</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Über diesen Vertrag hinausgehende Dienstleistungen unter Behörden des Bundes und der Kantone (beispielsweise besondere Datenbereitstellung, besonderes Format, besonderes Bezugssystem, Auswertungen, exzessive Nutzung) sind nach den Tarifen der anbietenden Stelle entgeltlich.</p></content></paragraph></article></section><section eId="sec_2"><num>2. Abschnitt: </num><heading>Modalitäten des Vertrags</heading><article eId="art_7"><num><b>Art. 7</b></num><heading>Beitritt</heading><paragraph eId="art_7/para"><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Der Beitritt eines Vertragspartners erfolgt nach der rechtskräftigen Genehmigung des Vertrags durch das zuständige Organ mit der Mitteilung an das Bundesamt für Landestopografie.</p></content></paragraph></article><article eId="art_8"><num><b>Art. 8</b></num><heading>Vertragsdauer</heading><paragraph eId="art_8/para_1"><num>1</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Der Vertrag wird rechtsgültig, wenn der Bund und mindestens acht Kantone den Beitritt erklärt haben. Das Bundesamt für Landestopografie setzt den Vertrag innert drei Monaten auf einen Monatsanfang in Kraft.</p></content></paragraph><paragraph eId="art_8/para_2"><num>2</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Für alle nach dem Inkrafttreten beitretenden Kantone tritt der Vertrag am ersten Tag des dritten auf die Mitteilung folgenden Monats in Kraft.</p></content></paragraph><paragraph eId="art_8/para_3"><num>3</num><content><blockList><listIntroduction eId="art_8/para_3/listintro" xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Der Vertrag bleibt in Kraft, so lange:</listIntroduction><item eId="art_8/para_3/lbl_a"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">a. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">er nicht durch übereinstimmenden Beschluss aller Vertragspartner aufgehoben wird;</p></item><item eId="art_8/para_3/lbl_b"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">b. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">die Voraussetzung gemäss Absatz 1 erfüllt ist.</p></item></blockList></content></paragraph></article><article eId="art_9"><num><b>Art. 9</b></num><heading>Vertragsänderung</heading><paragraph eId="art_9/para_1"><num>1</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Die Änderung des Vertrags bedarf der Zustimmung sämtlicher Vertragspartner.</p></content></paragraph><paragraph eId="art_9/para_2"><num>2</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Die Änderung tritt für alle Vertragspartner auf einen im Änderungsbeschluss bestimmten Zeitpunkt in Kraft.</p></content></paragraph></article><article eId="art_10"><num><b>Art. 10</b></num><heading>Kündigung</heading><paragraph eId="art_10/para_1"><num>1</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Der Bundesrat und jede Kantonsregierung kann den Vertrag unter Einhaltung einer Kündigungsfrist von zwei Jahren kündigen.</p></content></paragraph><paragraph eId="art_10/para_2"><num>2</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Die Kündigung ist an das Bundesamt für Landestopografie zu richten. Dieses teilt die Kündigung den übrigen Vertragspartnern mit.</p></content></paragraph><paragraph eId="art_10/para_3"><num>3</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Auf den Kanton, der gekündigt hat, findet ab dem Zeitpunkt des Austritts dieser Vertrag keine Anwendung mehr. Der Datenbezug und die Datennutzung sind für den ausgetretenen Kanton nach den Tarifen der anbietenden Stelle entgeltlich.</p></content></paragraph></article></section><signature><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">(Es folgen die Unterschriften)</p></signature></body><components><component><doc name="annex"><meta><identification source="#ch.bk"><FRBRWork><FRBRthis value="https://fedlex.data.admin.ch/eli/cc/2016/437/20181113/main-text"/><FRBRuri value="https://fedlex.data.admin.ch/eli/cc/2016/437/20181113"/><FRBRdate date="2018-11-13" name="jolux:dateApplicability"/><FRBRdate date="2015-09-17" name="jolux:dateDocument"/><FRBRdate date="2016-10-01" name="jolux:dateEntryInForce"/><FRBRauthor href="#ch.bk" as="#publisher"/><FRBRauthor href="#ch.bk" as="#rightsHolder"/><FRBRcountry value="CH"/><FRBRnumber value="510.620.3"/><FRBRname xml:lang="it" value="Contratto del 17 settembre 2015 tra la Confederazione e i Cantoni concernente l'indennizzo e le modalità dello scambio di geodati di base di diritto federale tra autorità" shortForm=""/><FRBRname xml:lang="fr" value="Convention du 17 septembre 2015 entre la Confédération et les cantons sur l'indemnisation et les modalités de l'échange entre autorités de géodonnées de base relevant du droit fédéral" shortForm=""/><FRBRname xml:lang="de" value="Vertrag vom 17. September 2015 zwischen dem Bund und den Kantonen betreffend die Abgeltung und die Modalitäten des Austauschs von Geobasisdaten des Bundesrechts unter Behörden" shortForm=""/><FRBRauthoritative value="true"/></FRBRWork><FRBRExpression><FRBRthis value="https://fedlex.data.admin.ch/eli/cc/2016/437/20181113/de/main-text"/><FRBRuri value="https://fedlex.data.admin.ch/eli/cc/2016/437/20181113/de"/><FRBRdate date="2018-11-13" name="jolux:dateApplicability"/><FRBRdate date="2015-09-17" name="jolux:dateDocument"/><FRBRdate date="2016-10-01" name="jolux:dateEntryInForce"/><FRBRauthor href="#ch.bk" as="#publisher"/><FRBRauthor href="#ch.bk" as="#rightsHolder"/><FRBRlanguage language="de"/></FRBRExpression><FRBRManifestation><FRBRthis value="https://fedlex.data.admin.ch/eli/cc/2016/437/20181113/de/xml/main-text"/><FRBRuri value="https://fedlex.data.admin.ch/eli/cc/2016/437/20181113/de/xml"/><FRBRdate date="2018-11-13" name="jolux:dateApplicability"/><FRBRdate date="2015-09-17" name="jolux:dateDocument"/><FRBRdate date="2016-10-01" name="jolux:dateEntryInForce"/><FRBRauthor href="#ch.bk" as="#publisher"/><FRBRauthor href="#ch.bk" as="#rightsHolder"/><FRBRformat value="xml"/></FRBRManifestation></identification></meta><preface><container name="headerOfAnnex"><block name="heading">Liste der beigetretene Kantone (Art. 7)<inline name="man-font-weight-normal"><authorialNote>
+		<p> <ref href="https://fedlex.data.admin.ch/eli/oc/2018/627" xmlns:data="urn:com:c-moria:legi4ch:xslt:data" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">AS <b>2018</b> 3927</ref></p>
+	</authorialNote></inline></block></container></preface><mainBody><table border="1">
+			
+			
+			<tr>
+				
+				
+				<th xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">
+					
+					<p>Kanton</p>
+				</th>
+				<th xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">
+					
+					<p>Beitritt</p>
+				</th>
+				<th xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">
+					
+					<p>Inkrafttreten</p>
+				</th>
+			</tr>
+			<tr>
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Zürich</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">17. Januar 2018</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">1. April 2018</p>
+				</td>
+			</tr>
+			<tr>
+				
+				<td>
+					
+					<p>Bern</p>
+				</td>
+				<td>
+					
+					<p>15. September 2016</p>
+				</td>
+				<td>
+					
+					<p>1. Oktober 2016</p>
+				</td>
+			</tr>
+			<tr>
+				
+				<td>
+					
+					<p>Uri</p>
+				</td>
+				<td>
+					
+					<p>17. Mai 2016;</p>
+				</td>
+				<td>
+					
+					<p>1. Oktober 2016</p>
+				</td>
+			</tr>
+			<tr>
+				
+				<td>
+					
+					<p>Schwyz</p>
+				</td>
+				<td>
+					
+					<p>15. Juni 2016</p>
+				</td>
+				<td>
+					
+					<p>1. Oktober 2016</p>
+				</td>
+			</tr>
+			<tr>
+				
+				<td>
+					
+					<p>Obwalden</p>
+				</td>
+				<td>
+					
+					<p>  4. Juli 2016</p>
+				</td>
+				<td>
+					
+					<p>1. Oktober 2016</p>
+				</td>
+			</tr>
+			<tr>
+				
+				<td>
+					
+					<p>Nidwalden</p>
+				</td>
+				<td>
+					
+					<p>  2. September 2016</p>
+				</td>
+				<td>
+					
+					<p>1. Oktober 2016</p>
+				</td>
+			</tr>
+			<tr>
+				
+				<td>
+					
+					<p>Glarus</p>
+				</td>
+				<td>
+					
+					<p>29. April 2016</p>
+				</td>
+				<td>
+					
+					<p>1. Oktober 2016</p>
+				</td>
+			</tr>
+			<tr>
+				
+				<td>
+					
+					<p>Zug</p>
+				</td>
+				<td>
+					
+					<p>24. August 2016</p>
+				</td>
+				<td>
+					
+					<p>1. Oktober 2016</p>
+				</td>
+			</tr>
+			<tr>
+				
+				<td>
+					
+					<p>Solothurn</p>
+				</td>
+				<td>
+					
+					<p>  3. Juni 2016</p>
+				</td>
+				<td>
+					
+					<p>1. Oktober 2016</p>
+				</td>
+			</tr>
+			<tr>
+				
+				<td>
+					
+					<p>Basel-Stadt</p>
+				</td>
+				<td>
+					
+					<p>15. September 2016</p>
+				</td>
+				<td>
+					
+					<p>1. Oktober 2016</p>
+				</td>
+			</tr>
+			<tr>
+				
+				<td>
+					
+					<p>Basel-Landschaft</p>
+				</td>
+				<td>
+					
+					<p>30. September 2016</p>
+				</td>
+				<td>
+					
+					<p>1. Oktober 2016</p>
+				</td>
+			</tr>
+			<tr>
+				
+				<td>
+					
+					<p>Schaffhausen</p>
+				</td>
+				<td>
+					
+					<p>  9. August 2016</p>
+				</td>
+				<td>
+					
+					<p>1. Oktober 2016</p>
+				</td>
+			</tr>
+			<tr>
+				
+				<td>
+					
+					<p>Appenzell Ausserrhoden</p>
+				</td>
+				<td>
+					
+					<p>24. Januar 2018</p>
+				</td>
+				<td>
+					
+					<p>1. April 2018</p>
+				</td>
+			</tr>
+			<tr>
+				
+				<td>
+					
+					<p>Appenzell Innerrhoden</p>
+				</td>
+				<td>
+					
+					<p>10. November 2016</p>
+				</td>
+				<td>
+					
+					<p>1. Februar 2017</p>
+				</td>
+			</tr>
+			<tr>
+				
+				<td>
+					
+					<p>St. Gallen</p>
+				</td>
+				<td>
+					
+					<p>22. Juni 2016</p>
+				</td>
+				<td>
+					
+					<p>1. Oktober 2016</p>
+				</td>
+			</tr>
+			<tr>
+				
+				<td>
+					
+					<p>Graubünden</p>
+				</td>
+				<td>
+					
+					<p>25. Mai 2016</p>
+				</td>
+				<td>
+					
+					<p>1. Oktober 2016</p>
+				</td>
+			</tr>
+			<tr>
+				
+				<td>
+					
+					<p>Aargau</p>
+				</td>
+				<td>
+					
+					<p>18. Oktober 2017</p>
+				</td>
+				<td>
+					
+					<p>1. Januar 2018</p>
+				</td>
+			</tr>
+			<tr>
+				
+				<td>
+					
+					<p>Thurgau</p>
+				</td>
+				<td>
+					
+					<p>20. Juni 2016</p>
+				</td>
+				<td>
+					
+					<p>1. Oktober 2016</p>
+				</td>
+			</tr>
+			<tr>
+				
+				<td>
+					
+					<p>Waadt</p>
+				</td>
+				<td>
+					
+					<p>30. November 2016</p>
+				</td>
+				<td>
+					
+					<p>1. Februar 2017</p>
+				</td>
+			</tr>
+			<tr>
+				
+				<td>
+					
+					<p>Wallis</p>
+				</td>
+				<td>
+					
+					<p>28. November 2016</p>
+				</td>
+				<td>
+					
+					<p>1. Februar 2017</p>
+				</td>
+			</tr>
+			<tr>
+				
+				<td>
+					
+					<p>Neuenburg</p>
+				</td>
+				<td>
+					
+					<p>30. November 2017</p>
+				</td>
+				<td>
+					
+					<p>1. Februar 2018</p>
+				</td>
+			</tr>
+			<tr>
+				
+				<td>
+					
+					<p>Genf</p>
+				</td>
+				<td>
+					
+					<p>25. August 2016</p>
+				</td>
+				<td>
+					
+					<p>1. Oktober 2016</p>
+				</td>
+			</tr>
+			<tr>
+				
+				<td>
+					
+					<p>Jura</p>
+				</td>
+				<td>
+					
+					<p>18. Oktober 2018</p>
+				</td>
+				<td>
+					
+					<p>1. Januar 2019</p>
+				</td>
+			</tr>
+			
+		</table></mainBody></doc></component></components></act></akomaNtoso>

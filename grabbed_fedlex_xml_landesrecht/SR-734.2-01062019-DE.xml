@@ -1,0 +1,877 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:fedlex="http://fedlex.admin.ch/"><act name="publicLaw"><meta><identification source="#ch.bk"><FRBRWork><FRBRthis value="https://fedlex.data.admin.ch/eli/cc/1994/1199_1199_1199/20190601/main-text"/><FRBRuri value="https://fedlex.data.admin.ch/eli/cc/1994/1199_1199_1199/20190601"/><FRBRdate date="1994-03-30" name="jolux:dateDocument"/><FRBRdate date="1994-06-01" name="jolux:dateEntryInForce"/><FRBRdate date="2019-06-01" name="jolux:dateApplicability"/><FRBRauthor href="#ch.bk" as="#publisher"/><FRBRauthor href="#ch.bk" as="#rightsHolder"/><FRBRcountry value="CH"/><FRBRnumber value="734.2"/><FRBRname xml:lang="fr" value="Ordonnance du 30 mars 1994 sur les installations électriques à courant fort (Ordonnance sur le courant fort)" shortForm=""/><FRBRname xml:lang="it" value="Ordinanza del 30 marzo 1994 sugli impianti elettrici a corrente forte (Ordinanza sulla corrente forte)" shortForm=""/><FRBRname xml:lang="de" value="Verordnung vom 30. März 1994 über elektrische Starkstromanlagen (Starkstromverordnung)" shortForm=""/><FRBRauthoritative value="true"/></FRBRWork><FRBRExpression><FRBRthis value="https://fedlex.data.admin.ch/eli/cc/1994/1199_1199_1199/20190601/de/main-text"/><FRBRuri value="https://fedlex.data.admin.ch/eli/cc/1994/1199_1199_1199/20190601/de"/><FRBRdate date="1994-03-30" name="jolux:dateDocument"/><FRBRdate date="1994-06-01" name="jolux:dateEntryInForce"/><FRBRdate date="2019-06-01" name="jolux:dateApplicability"/><FRBRauthor href="#ch.bk" as="#publisher"/><FRBRauthor href="#ch.bk" as="#rightsHolder"/><FRBRlanguage language="de"/></FRBRExpression><FRBRManifestation><FRBRthis value="https://fedlex.data.admin.ch/eli/cc/1994/1199_1199_1199/20190601/de/xml/main-text"/><FRBRuri value="https://fedlex.data.admin.ch/eli/cc/1994/1199_1199_1199/20190601/de/xml"/><FRBRdate date="1994-03-30" name="jolux:dateDocument"/><FRBRdate date="1994-06-01" name="jolux:dateEntryInForce"/><FRBRdate date="2019-06-01" name="jolux:dateApplicability"/><FRBRauthor href="#ch.bk" as="#publisher"/><FRBRauthor href="#ch.bk" as="#rightsHolder"/><FRBRformat value="xml" fedlex:generator="2025-q2-rel-1.7.8"/></FRBRManifestation></identification><references source="#ch.bk"><TLCOrganization eId="ch.bk" href="https://fedlex.data.admin.ch/vocabulary/legal-institution/2" showAs="Bundeskanzlei"/><TLCRole eId="publisher" href="http://data.legilux.public.lu/resource/ontology/jolux#publisher" showAs="Editeur"/><TLCRole eId="rightsHolder" href="http://data.legilux.public.lu/resource/ontology/jolux#rightsHolder" showAs="Détenteur des droits"/><TLCReference name="language" href="http://publications.europa.eu/resource/authority/language/DEU" showAs="de"/><TLCReference name="format" href="https://fedlex.data.admin.ch/vocabulary/user-format/xml" showAs="xml"/></references></meta><preface><p><docNumber>734.2 </docNumber></p><p><docTitle>Verordnung <br/>über elektrische Starkstromanlagen</docTitle></p><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">(Starkstromverordnung)</p><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">vom 30. März 1994 (Stand am 1. Juni 2019)</p></preface><preamble><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Der Schweizerische Bundesrat,</p><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">gestützt auf Artikel 3 des Bundesgesetzes vom 24. Juni 1902<authorialNote>
+		<p> <ref fedlex:rs-uri="https://fedlex.data.admin.ch/eli/cc/19/259_252_257" fedlex:rs="734.0" href="https://fedlex.data.admin.ch/vocabulary/legal-taxonomy/8570">SR <b>734.0</b></ref></p>
+	</authorialNote> betreffend die elektrischen Schwach- und Starkstromanlagen (Elektrizitätsgesetz),</p><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">verordnet:</p></preamble><body><chapter eId="chap_1"><num>1. Kapitel: </num><heading>Allgemeine Bestimmungen</heading><article eId="art_1"><num><b>Art. 1</b></num><heading>Geltungsbereich</heading><paragraph eId="art_1/para_1"><num>1</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Diese Verordnung regelt Erstellung, Betrieb und Instandhaltung von elektrischen Starkstromanlagen.</p></content></paragraph><paragraph eId="art_1/para_2"><num>2</num><content><blockList><listIntroduction eId="art_1/para_2/listintro" xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Die Bestimmungen für die Erstellung gelten für bestehende Anlagen, wenn:</listIntroduction><item eId="art_1/para_2/lbl_a"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">a. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">sie vollständig umgebaut werden;</p></item><item eId="art_1/para_2/lbl_b"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">b. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">sie in bedeutendem Mass verändert werden und die Erfüllung der Anforderungen weder unverhältnismässig ist noch die Sicherheit wesentlich beeinträchtigt;</p></item><item eId="art_1/para_2/lbl_c"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">c. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">sie für Mensch und Umwelt eine drohende Gefahr darstellen oder andere elektrische Anlagen in erheblichem Mass störend beeinflussen.</p></item></blockList></content></paragraph><paragraph eId="art_1/para_3"><num>3</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Für Niederspannungsinstallationen bleiben die besonderen Bestimmungen der Verordnung vom 6. September 1989<authorialNote>
+		<p> [<ref href="https://fedlex.data.admin.ch/eli/oc/1989/1834_1834_1834" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">AS <b>1989</b> 1834</ref>, <ref href="https://fedlex.data.admin.ch/eli/oc/1992/2499_2499_2499" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp"><b>1992</b> 2499 </ref>Art. 15 Ziff. 1, <ref href="https://fedlex.data.admin.ch/eli/oc/1997/1008_1008_1008" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp"><b>1997</b> 1008 </ref>Anhang Ziff. 3, <ref href="https://fedlex.data.admin.ch/eli/oc/1998/54_54_54" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp"><b>1998</b> 54 </ref>Anhang Ziff. 4, <b>1</b><b>999</b> 704 Ziff. II 20, <ref href="https://fedlex.data.admin.ch/eli/oc/2000/127" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp"><b>2000</b> 762 </ref>Ziff. I 4. <ref href="https://fedlex.data.admin.ch/eli/oc/2002/22" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">AS <b>2002</b> 128 </ref>Art. 43]. Siehe heute die V vom 7. Nov. 2001 (<ref fedlex:rs-uri="https://fedlex.data.admin.ch/eli/cc/2002/22" fedlex:rs="734.27" href="https://fedlex.data.admin.ch/vocabulary/legal-taxonomy/8584">SR <b>734.27</b></ref>).</p>
+	</authorialNote> über elektrische Niederspannungsinstallationen vorbehalten.</p></content></paragraph><paragraph eId="art_1/para_4"><num>4</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Können einzelne Bestimmungen dieser Verordnung nur unter ausserordentlichen Schwierigkeiten eingehalten werden oder erweisen sie sich für die technische Entwicklung oder den Schutz der Umwelt als hinderlich, so kann das Eidgenössische Departement für Umwelt, Verkehr, Energie und Kommunikation<authorialNote>
+		<p>  Die Bezeichnung der Verwaltungseinheit wurde in Anwendung von Art. 16 Abs. 3 der Publikationsverordnung vom 17. Nov. 2004 (<ref href="https://fedlex.data.admin.ch/eli/oc/2004/746" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">AS <b>2004 </b>4937</ref>) angepasst.</p>
+	</authorialNote> (Departement) oder in weniger bedeutenden Fällen die zuständige Kontrollstelle (Art. 21 Elektrizitätsgesetz) auf begründetes Gesuch hin Abweichungen bewilligen.</p></content></paragraph><paragraph eId="art_1/para_5"><num>5</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Diese Verordnung gilt nicht für die elektrischen Anlagen nach Artikel 42 Absatz 1 der Eisenbahnverordnung vom 23. November 1983<authorialNote>
+		<p> <ref fedlex:rs-uri="https://fedlex.data.admin.ch/eli/cc/1983/1902_1902_1902" fedlex:rs="742.141.1" href="https://fedlex.data.admin.ch/vocabulary/legal-taxonomy/8749">SR <b>742.141.1</b></ref></p>
+	</authorialNote>.<authorialNote>
+		<p> Eingefügt durch Beilage 2 Ziff. II 2 der V vom 16. Nov. 2011, in Kraft seit 1. Juli 2012 (<ref href="https://fedlex.data.admin.ch/eli/oc/2011/874" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">AS <b>2011</b> 6233</ref>).</p>
+	</authorialNote></p></content></paragraph></article><article eId="art_2"><num><b>Art. 2</b></num><heading>Weitere Vorschriften</heading><paragraph eId="art_2/para"><content><blockList><listIntroduction eId="art_2/para/listintro" xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Soweit diese Verordnung nichts anderes bestimmt, gelten auch:<authorialNote>
+		<p> Fassung gemäss Art. 59 Abs. 1 der V vom 5. Dez. 1994 über elektrische Anlagen von Bahnen, in Kraft seit 1. Jan. 1995 (<ref href="https://fedlex.data.admin.ch/eli/oc/1995/1024_1024_1024" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">AS <b>1995</b> 1024</ref>).</p>
+	</authorialNote></listIntroduction><item eId="art_2/para/lbl_a"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">a. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">die Verordnung vom 30. März 1994<authorialNote>
+		<p> <ref fedlex:rs-uri="https://fedlex.data.admin.ch/eli/cc/1994/1185_1185_1185" fedlex:rs="734.1" href="https://fedlex.data.admin.ch/vocabulary/legal-taxonomy/8571">SR <b>734.1</b></ref></p>
+	</authorialNote> über elektrische Schwachstromanlagen (Schwachstromverordnung);</p></item><item eId="art_2/para/lbl_b"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">b. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">die Verordnung vom 30. März 1994<authorialNote>
+		<p> <ref fedlex:rs-uri="https://fedlex.data.admin.ch/eli/cc/1994/1233_1233_1233" fedlex:rs="734.31" href="https://fedlex.data.admin.ch/vocabulary/legal-taxonomy/8586">SR <b>734.31</b></ref></p>
+	</authorialNote> über elektrische Leitungen (Leitungsverordnung);</p></item><item eId="art_2/para/lbl_c"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">c.<authorialNote>
+		<p> Fassung gemäss Beilage 2 Ziff. II 2 der V vom 16. Nov. 2011, in Kraft seit 1. Juli 2012 (<ref href="https://fedlex.data.admin.ch/eli/oc/2011/874" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">AS <b>2011</b> 6233</ref>).</p>
+	</authorialNote> </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">die Eisenbahnverordnung vom 23. November 1983<authorialNote>
+		<p> <ref fedlex:rs-uri="https://fedlex.data.admin.ch/eli/cc/1983/1902_1902_1902" fedlex:rs="742.141.1" href="https://fedlex.data.admin.ch/vocabulary/legal-taxonomy/8749">SR <b>742.141.1</b></ref></p>
+	</authorialNote>;</p></item><item eId="art_2/para/lbl_d"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">d.<authorialNote>
+		<p> Fassung gemäss Ziff. 3 des Anhanges der V über elektrische Niederspannungserzeugnisse vom 9. April 1997, in Kraft seit 1. Mai 1997 (<ref href="https://fedlex.data.admin.ch/eli/oc/1997/1016_1016_1016" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">AS <b>1997</b> 1016</ref>).</p>
+	</authorialNote> </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">die Verordnung vom 9. April 1997<authorialNote>
+		<p> [<ref href="https://fedlex.data.admin.ch/eli/oc/1997/1016_1016_1016" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">AS <b>1997</b> 1016</ref>, <ref href="https://fedlex.data.admin.ch/eli/oc/2000/123" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp"><b>2000</b> 734 </ref>Art. 19 Ziff. 2 <ref href="https://fedlex.data.admin.ch/eli/oc/2000/127" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">762 </ref>Ziff. I 3, <ref href="https://fedlex.data.admin.ch/eli/oc/2007/633" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp"><b>2007</b> 4477 </ref>Ziff. IV 23, <ref href="https://fedlex.data.admin.ch/eli/oc/2009/763" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp"><b>2009</b> 6243 </ref>Anhang 4 Ziff. II 4, <ref href="https://fedlex.data.admin.ch/eli/oc/2010/348" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp"><b>2010</b> 2583 </ref>Anhang 4 Ziff. II 1 <ref href="https://fedlex.data.admin.ch/eli/oc/2010/358" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">2749 </ref>Ziff. I 1, <ref href="https://fedlex.data.admin.ch/eli/oc/2013/653" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp"><b>2013</b> 3509 </ref>Anhang  Ziff. 2. <ref href="https://fedlex.data.admin.ch/eli/oc/2016/17" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">AS <b>2016</b> 105 </ref>Art. 29]. Siehe heute: die V vom 25. November 2015 (<ref fedlex:rs-uri="https://fedlex.data.admin.ch/eli/cc/2016/17" fedlex:rs="734.26" href="https://fedlex.data.admin.ch/vocabulary/legal-taxonomy/8582">SR <b>734.26</b></ref>).</p>
+	</authorialNote> über elektrische Niederspannungserzeugnisse (NEV);</p></item><item eId="art_2/para/lbl_e"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">e. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">die Verordnung vom 6. September 1989<authorialNote>
+		<p> [<ref href="https://fedlex.data.admin.ch/eli/oc/1989/1834_1834_1834" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">AS <b>1989</b> 1834</ref>, <ref href="https://fedlex.data.admin.ch/eli/oc/1992/2499_2499_2499" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp"><b>1992</b> 2499 </ref>Art. 15 Ziff. 1, <ref href="https://fedlex.data.admin.ch/eli/oc/1997/1008_1008_1008" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp"><b>1997</b> 1008 </ref>Anhang Ziff. 3, <ref href="https://fedlex.data.admin.ch/eli/oc/1998/54_54_54" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp"><b>1998</b> 54 </ref>Anhang Ziff. 4, <b>1</b><b>999</b> 704 Ziff. II 20, <ref href="https://fedlex.data.admin.ch/eli/oc/2000/127" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp"><b>2000</b> 762 </ref>Ziff. I 4. <ref href="https://fedlex.data.admin.ch/eli/oc/2002/22" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">AS <b>2002</b> 128 </ref>Art. 43]. Siehe heute die V vom 7. Nov. 2001 (<ref fedlex:rs-uri="https://fedlex.data.admin.ch/eli/cc/2002/22" fedlex:rs="734.27" href="https://fedlex.data.admin.ch/vocabulary/legal-taxonomy/8584">SR <b>734.27</b></ref>).</p>
+	</authorialNote> über elektrische Niederspannungsinstallationen (NIV).</p></item></blockList></content></paragraph></article><article eId="art_3"><num><b>Art. 3</b></num><heading>Begriffe</heading><paragraph eId="art_3/para"><content><blockList><listIntroduction eId="art_3/para/listintro" xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">In dieser Verordnung bedeuten:</listIntroduction><item eId="art_3/para/lbl_1"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">1. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"><i>Anlageerdung: </i>Erdung einer Hochspannungsanlage;</p></item><item eId="art_3/para/lbl_2"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">2. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"><i>Arbeitserder: </i>In Schaltanlagen fest eingebaute, kurzschlussfeste Erdungsvorrichtung, die das Erden nur in spannungslosem Zustand erlaubt;</p></item><item eId="art_3/para/lbl_3"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">3. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"><i>Berührungssicher: </i>Hochspannungsanlagen oder -apparate, die vollwandig mit elektrisch leitendem und geerdetem Material abgedeckt sind bzw. Niederspannungsanlagen oder -apparate, die mit elektrisch leitendem und geerdetem Material abgedeckt oder doppelt isoliert sind;</p></item><item eId="art_3/para/lbl_4"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">4. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"><i>Berührungsspannung: </i>Teil der Erdungsspannung über den menschlichen Körper zwischen Hand und Fuss (horizontaler Abstand vom Berührungspunkt: 1 m);</p></item><item eId="art_3/para/lbl_5"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">5. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"><i>Betriebsinhaber: </i>Verantwortlicher Betreiber (Eigentümer, Pächter, Mieter usw.) einer elektrischen Anlage;</p></item><item eId="art_3/para/lbl_6"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">6. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"><i>Betriebsbereich: </i>Bereich in einer elektrischen Anlage mit erhöhter Gefährdung;</p></item><item eId="art_3/para/lbl_7"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">7. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"><i>Bezugserde: </i>Teil des Erdreiches, der so weit ausserhalb des Einflussbereiches der Erder liegt, dass zwischen zwei beliebigen Punkten keine erheblichen, vom Erdungsstrom herrührende Spannungen auftreten können;</p></item><item eId="art_3/para/lbl_8"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">8. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"><i>Erdschluss: </i>Durch einen Fehler oder über einen Lichtbogen entstandene Verbindung eines aktiven Anlageteils des Betriebsstromkreises mit Erde oder einem geerdeten Teil;</p></item><item eId="art_3/para/lbl_9"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">9. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"><i>Erdung: </i>Die Gesamtheit aller miteinander verbundenen Erder und Erdungsleitungen, einschliesslich metallene Wasserleitungen, Fundamentarmierungen, metallene Umhüllungen von Kabeln, Erdseile und andere metallene Leitungen;</p></item><item eId="art_3/para/lbl_10"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">10. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"><i>Erdungsleiter: </i>Der von den zu erdenden Teilen mittelbar oder unmittelbar zu Erdern führende Leiter;</p></item><item eId="art_3/para/lbl_11"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">11. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"><i>Gasisolierte Anlage: </i>Gasdicht gekapselte Anlage. Die Isolationsfestigkeit des Gases als Isoliermedium wird durch dessen Druck oder dessen Dichte bestimmt;</p></item><item eId="art_3/para/lbl_12"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">12. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"><i>Gekapselte Anlage: </i>Elektrische Anlage, deren betriebsmässig unter Spannung stehende Teile von einer metallenen geerdeten Schutzhülle umgeben sind;</p></item><item eId="art_3/para/lbl_13"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">13. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"><i>Hochspannungsanlage: </i>Elektrische Anlage mit einer Nennspannung von mehr als 1000 V Wechselspannung oder 1500 V Gleichspannung;</p></item><item eId="art_3/para/lbl_14"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">14. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"><i>Innenraumanlage: </i>Elektrische Anlage innerhalb von Gebäuden oder mit Umhüllungen, welche die Betriebsmittel gegen Witterungseinflüsse schützen;</p></item><item eId="art_3/para/lbl_15"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">15. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"><i>Instruierte Person: </i>Person ohne elektrotechnische Grundausbildung, die begrenzte, genau umschriebene Tätigkeiten in Starkstromanlagen ausführen kann und die örtlichen Verhältnisse und die zu treffenden Schutzmassnahmen kennt;</p></item><item eId="art_3/para/lbl_16"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">16. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"><i>Isolationskoordination: </i>Gesamtheit der Massnahmen zur Beschränkung von Über- und Durchschlägen der Isolation auf vorbestimmte Stellen des Netzes;</p></item><item eId="art_3/para/lbl_17"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">17. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"><i>Kurzschluss: </i>Durch einen Fehler oder über einen Lichtbogen entstandene Verbindung zwischen aktiven Anlageteilen, wenn im Fehlerstromkreis kein Nutzwiderstand liegt;</p></item><item eId="art_3/para/lbl_18"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">18. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"><i>Kurzschlussfest: </i>Eigenschaft eines Betriebsmittels, bei Kurzschluss den höchsten dynamischen und thermischen Beanspruchungen an seinem Einbauort ohne Beeinträchtigung seiner Funktionsfähigkeit standzuhalten;</p></item><item eId="art_3/para/lbl_19"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">19. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"><i>Maststation: </i>Transformatorenstation auf einem Freileitungstragwerk;</p></item><item eId="art_3/para/lbl_20"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">20. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"><i>Montagegang: </i>Freiraum in Starkstromanlagen, der so bemessen ist, dass noch gewisse Arbeiten möglich sind;</p></item><item eId="art_3/para/lbl_21"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">21. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"><i>Niederspannungsanlage: </i>Starkstromanlage mit einer Nennspannung von höchstens 1000 V Wechselspannung oder 1500 V Gleichspannung;</p></item><item eId="art_3/para/lbl_22"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">22. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"><i>Nullpunktbehandlung: </i>Impedanzmässige Gestaltung der Verbindung zwischen der Erde und dem Nullpunkt von Generatoren, Transformatoren oder besonderen Einrichtungen zur Bildung eines Nullpunktes. Die gebräuchlichsten Arten der Verbindung sind: Widerstandsarme Verbindungen (direkte Verbindungen), Verbindungen über Impedanzen, keine Verbindungen (isoliertes Netz) oder Kombination sich zeitlich folgender Verbindungsarten;</p></item><item eId="art_3/para/lbl_23"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">23. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"><i>Sachverständige Person: </i>Person mit elektrotechnischer Grundausbildung (Lehre, gleichwertige betriebsinterne Ausbildung oder Studium im Bereich der Elektrotechnik) und mit Erfahrung im Umgang mit elektrotechnischen Einrichtungen;</p></item><item eId="art_3/para/lbl_24"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">24. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"><i>Schaltfeld: </i>Abgegrenzter Bereich, in dem ein Schalter bestimmter Zweckbestimmung samt zugehörigen Mess-, Bedienungs- und anderen Hilfseinrichtungen untergebracht ist;</p></item><item eId="art_3/para/lbl_25"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">25. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"><i>Schnellerder: </i>In Schaltanlagen fest eingebaute, kurzschluss- und einschaltfeste Erdungsvorrichtung, welche das Erden auch auf Spannung ohne Schaden aushält;</p></item><item eId="art_3/para/lbl_26"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">26. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"><i>Schrittspannung: </i>Teil der Erdungsspannung, welchem man sich mit einem Schritt von 1 m aussetzen kann;</p></item><item eId="art_3/para/lbl_27"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">27. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"><i>Schwachstromanlage: </i>Nach Artikel 2 Absatz 1 Elektrizitätsgesetz eine elektrische Anlage, die normalerweise keine Ströme führt, welche Personen gefährden oder Sachbeschädigungen verursachen können;</p></item><item eId="art_3/para/lbl_28"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">28. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"><i>Sondererdung: </i>Erdung, deren Erder von denjenigen anderer Erdungen so weit entfernt sind, dass sie von diesen nur unwesentlich beeinflusst werden;</p></item><item eId="art_3/para/lbl_29"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">29. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"><i>Starkstromanlage: </i>Nach Artikel 2 Absatz 2 Elektrizitätsgesetz eine elektrische Anlage zur Erzeugung, Transformierung, Umformung, Fortleitung, Verteilung und Gebrauch der Elektrizität, die mit Strömen betrieben wird oder bei der in voraussehbaren Störfällen Ströme auftreten, die Personen gefährden oder Sachbeschädigungen verursachen können;</p></item><item eId="art_3/para/lbl_30"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">30. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"><i>Trennstrecke: </i>Der zur Gewährleistung der erforderlichen Sicherheit notwendige Abstand zwischen den Kontaktstücken und Polen einer offenen Trennvorrichtung;</p></item><item eId="art_3/para/lbl_31"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">31. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"><i>TN-System (Nullung): </i>Schutzmassnahme, bei welcher Fehlerströme über Schutzleiter (PE- oder PEN-Leiter) an die Speisestelle zurückgeführt werden;</p></item><item eId="art_3/para/lbl_32"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">32. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"><i>TT-System (Schutzerdung): </i>Schutzmassnahme, bei welcher Fehlerströme über einen örtlichen Erder und das Erdreich an die Speisestelle zurückfliessen.</p></item></blockList></content></paragraph></article></chapter><chapter eId="chap_2"><num>2. Kapitel: </num><heading>Grundsätze der Sicherheit für Erstellung, Betrieb und Instandhaltung elektrischer Starkstromanlagen</heading><section eId="chap_2/sec_1"><num>1. Abschnitt: </num><heading>Anlagen</heading><article eId="art_4"><num><b>Art. 4</b></num><heading>Sicherheit</heading><paragraph eId="art_4/para_1"><num>1</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Starkstromanlagen und die daran angeschlossenen elektrischen Einrichtungen müssen nach den Vorschriften dieser Verordnung und den anerkannten Regeln der Technik erstellt, geändert, instandgehalten und kontrolliert werden. Sie dürfen bei bestimmungsgemässem Betrieb oder Gebrauch sowie in voraussehbaren Störfällen weder Personen noch Sachen gefährden. Wo diese Verordnung keine Vorschriften enthält, gelten die anerkannten Regeln der Technik.</p></content></paragraph><paragraph eId="art_4/para_2"><num>2</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Als anerkannte Regeln der Technik gelten insbesondere die Normen von IEC<authorialNote>
+		<p> International Electrotechnical Commission.</p>
+	</authorialNote> und CENELEC<authorialNote>
+		<p> Comité Européen de Normalisation ELECtrotechnique.</p>
+	</authorialNote>. Wo international harmonisierte Normen fehlen, gelten die schweizerischen Normen<authorialNote>
+		<p> Die Liste der Titel der Normen sowie deren Texte können kostenlos eingesehen und  gegen Bezahlung bezogen werden bei der Schweizerischen Normen-Vereinigung (SNV), Sulzerallee 70, 8404 Winterthur, www.snv.ch.</p>
+	</authorialNote>.<authorialNote>
+		<p>  Fassung gemäss Anhang Ziff. 1 der V vom 8. Dez. 1997, in Kraft seit 1. Jan. 1998  (<ref href="https://fedlex.data.admin.ch/eli/oc/1998/54_54_54" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">AS <b>1998</b> 54</ref>).</p>
+	</authorialNote></p></content></paragraph><paragraph eId="art_4/para_3"><num>3</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Bestehen keine spezifischen technischen Normen, so sind sinngemäss anwendbare Normen oder allfällige technische Weisungen zu berücksichtigen.<authorialNote>
+		<p>  Fassung gemäss Anhang Ziff. 1 der V vom 8. Dez. 1997, in Kraft seit 1. Jan. 1998  (<ref href="https://fedlex.data.admin.ch/eli/oc/1998/54_54_54" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">AS <b>1998</b> 54</ref>).</p>
+	</authorialNote></p></content></paragraph></article><article eId="art_5"><num><b>Art. 5</b></num><heading>Störschutz</heading><paragraph eId="art_5/para_1"><num>1</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Starkstromanlagen und die daran angeschlossenen elektrischen Einrichtungen dürfen, soweit dies ohne ausserordentlichen Aufwand möglich ist, in allen Betriebszuständen den bestimmungsgemässen Gebrauch anderer elektrischer Anlagen und Einrichtungen nicht in unzumutbarer Weise stören.</p></content></paragraph><paragraph eId="art_5/para_2"><num>2</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Störungsgefährdete Starkstromanlagen und die daran angeschlossenen elektrischen Einrichtungen dürfen, soweit dies ohne aussergewöhnlichen Aufwand möglich ist, in ihrem bestimmungsgemässen Gebrauch in allen Betriebszuständen nicht durch andere elektrische Anlagen und Einrichtungen in unzumutbarer Weise gestört werden.</p></content></paragraph><paragraph eId="art_5/para_3"><num>3</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Wer Starkstromanlagen, die andere elektrische Anlagen stören oder gefährden könnten, erstellen, betreiben oder ändern will, muss die Betriebsinhaber der anderen Anlagen von seinem Vorhaben rechtzeitig schriftlich benachrichtigen, damit im voraus Schutzmassnahmen getroffen werden können.</p></content></paragraph><paragraph eId="art_5/para_4"><num>4</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Treten trotz Beachtung der anerkannten Regeln der Technik unzumutbare Störungen auf, die nur mit grossem Aufwand beseitigt werden können, so suchen sich die Beteiligten zu verständigen. Kommt keine Einigung zustande, so entscheidet das Departement. Es hört zuvor die zuständigen Kontrollstellen an.</p></content></paragraph><paragraph eId="art_5/para_5"><num>5</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Für die elektromagnetische Verträglichkeit gelten die Bestimmungen der Verordnung vom vom 25. November 2015<authorialNote>
+		<p> <ref fedlex:rs-uri="https://fedlex.data.admin.ch/eli/cc/2016/18" fedlex:rs="734.5" href="https://fedlex.data.admin.ch/vocabulary/legal-taxonomy/8590">SR<b> 734.5</b></ref></p>
+	</authorialNote> über die elektromagnetische Verträglichkeit<authorialNote>
+		<p> Bezeichnung gemäss Art. 30 Abs. 2 Bst. b der V vom 25. Nov. 2015 über die elektromagnetische Verträglichkeit, in Kraft seit 20. April 2016 (<ref href="https://fedlex.data.admin.ch/eli/oc/2016/18" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">AS <b>2016</b> 119</ref>).</p>
+	</authorialNote>.<authorialNote>
+		<p> Eingefügt durch Ziff. 2 des Anhanges der V über die elektromagnetische Verträglichkeit vom 9. April 1997, in Kraft seit 1. Mai 1997 (<ref href="https://fedlex.data.admin.ch/eli/oc/1997/1008_1008_1008" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">AS <b>1997</b> 1008</ref>).</p>
+	</authorialNote></p></content></paragraph></article><article eId="art_6"><num><b>Art. 6</b></num><heading>Brandschutz</heading><paragraph eId="art_6/para_1"><num>1</num><content><blockList><listIntroduction eId="art_6/para_1/listintro" xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Starkstromanlagen müssen so erstellt, geändert, betrieben und instandgehalten werden, dass:</listIntroduction><item eId="art_6/para_1/lbl_a"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">a. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">die Entstehung von Bränden und Explosionen weitgehend verhindert wird;</p></item><item eId="art_6/para_1/lbl_b"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">b. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Einwirkungen durch äussere Brände und Explosionen weitgehend ausgeschlossen sind;</p></item><item eId="art_6/para_1/lbl_c"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">c. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">der Ausbreitung von Flammen, Hitze und Rauch ausreichend vorgebeugt wird (Brandabschnitte);</p></item><item eId="art_6/para_1/lbl_d"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">d. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Brände wirksam bekämpft werden können.</p></item></blockList></content></paragraph><paragraph eId="art_6/para_2"><num>2</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Massgebend sind die Brandschutznormen der Vereinigung Kantonaler Feuerversicherungen<authorialNote>
+		<p> Bezug bei: Vereinigung Kantonaler Feuerversicherungen, Bundesgasse 20, 3011 Bern</p>
+	</authorialNote>.</p></content></paragraph></article><article eId="art_7"><num><b>Art. 7</b></num><heading>Landschafts- und Umweltschutz</heading><paragraph eId="art_7/para_1"><num>1</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Die massgebenden Vorschriften über den Natur- und Heimatschutz, sowie den Landschafts-, Umwelt- und Gewässerschutz sind bei Planung, Erstellung, Betrieb und Instandhaltung von Starkstromanlagen zu beachten.</p></content></paragraph><paragraph eId="art_7/para_2"><num>2</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Enthalten elektrotechnische Einrichtungen wassergefährdende Flüssigkeiten, so sind die Regeln der Technik zu befolgen, insbesondere die technischen Empfehlungen des Verbandes Schweizerischer Elektrizitätswerke (VSE) über den Schutz der Gewässer bei Erstellung und Betrieb von elektrischen Anlagen<authorialNote>
+		<p> Bezug bei: Verband Schweizerischer Elektrizitätswerke (VSE), PF 6140, 8023 Zürich</p>
+	</authorialNote>.</p></content></paragraph></article><article eId="art_8"><num><b>Art. 8</b></num><heading>Sicherheitskennzeichnung</heading><paragraph eId="art_8/para"><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">In Starkstromanlagen muss bei allen Zugängen, Umzäunungen, Türen und ähnlichen Einrichtungen mit dauerhaft lesbaren Warnzeichen<authorialNote>
+		<p> SN 0055000</p>
+	</authorialNote>, gegebenenfalls mit ergänzendem Text, auf das Vorhandensein von gefährlichen elektrischen Spannungen hingewiesen werden.</p></content></paragraph></article></section><section eId="chap_2/sec_2"><num>2. Abschnitt: </num><heading>Unfallverhütung</heading><article eId="art_9"><num><b>Art. 9</b></num><heading>Grundsatz</heading><paragraph eId="art_9/para"><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Soweit dieser Abschnitt keine abweichenden Bestimmungen enthält gilt die Verordnung vom 19. Dezember 1983<authorialNote>
+		<p> <ref fedlex:rs-uri="https://fedlex.data.admin.ch/eli/cc/1983/1968_1968_1968" fedlex:rs="832.30" href="https://fedlex.data.admin.ch/vocabulary/legal-taxonomy/10209">SR <b>832.30</b></ref></p>
+	</authorialNote> über die Verhütung von Unfällen und Berufskrankheiten.</p></content></paragraph></article><article eId="art_10"><num><b>Art. 10</b></num><heading>Schutz vor Berührung</heading><paragraph eId="art_10/para"><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Die Betriebsinhaber von Starkstromanlagen sorgen dafür, dass sich Personen, die über die Gefahren nicht unterrichtet sind, auch bei Unachtsamkeit weder direkt noch indirekt (z. B. mit Werkzeugen, Geräten des täglichen Gebrauchs usw.) betriebsmässig unter Spannung stehenden Teilen von Anlagen und daran angeschlossenen elektrischen Einrichtungen so nähern können, dass sie sich gefährden.</p></content></paragraph></article><article eId="art_11"><num><b>Art. 11</b></num><heading>Anforderungen für in Starkstromanlagen tätige Personen</heading><paragraph eId="art_11/para_1"><num>1</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Für die Beaufsichtigung von Arbeiten an oder in Starkstromanlagen und zugehörenden betriebstechnischen Einrichtungen sowie für Massnahmen der Arbeitssicherheit dürfen nur sachverständige Personen eingesetzt werden.</p></content></paragraph><paragraph eId="art_11/para_2"><num>2</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Für die Kontrolle und Bedienung von Anlagen und für besondere Arbeiten dürfen auch instruierte Personen eingesetzt werden.</p></content></paragraph><paragraph eId="art_11/para_3"><num>3</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Die Bewegungsfreiheit betriebsfremder Personen, die im Betriebsbereich tätig sind, ist auf ihren Einsatzort und den Zugang zu beschränken.</p></content></paragraph></article><article eId="art_12"><num><b>Art. 12</b></num><heading>Instruktion der im Betriebsbereich zugelassenen Personen</heading><paragraph eId="art_12/para_1"><num>1</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Die Betriebsinhaber von Starkstromanlagen müssen für ihre Anlagen ein Sicherheitskonzept ausarbeiten und im Rahmen dieses Konzepts diejenigen Personen instruieren, die Zugang zum Betriebsbereich haben, betriebliche Handlungen vornehmen oder an den Anlagen arbeiten.</p></content></paragraph><paragraph eId="art_12/para_2"><num>2</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Die Instruktion muss periodisch wiederholt werden. Der Zeitabstand zwischen zwei Instruktionen richtet sich nach dem Ausbildungsstand der betroffenen Personen, den vorzunehmenden Arbeiten und der Art der Anlagen.</p></content></paragraph><paragraph eId="art_12/para_3"><num>3</num><content><blockList><listIntroduction eId="art_12/para_3/listintro" xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Die Instruktion hat insbesondere Kenntnisse zu vermitteln über:</listIntroduction><item eId="art_12/para_3/lbl_a"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">a. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">die Gefahren bei Annäherung an unter Spannung stehende Teile;</p></item><item eId="art_12/para_3/lbl_b"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">b. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">die Sofortmassnahmen und Hilfeleistungen bei Unfällen;</p></item><item eId="art_12/para_3/lbl_c"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">c. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">die zu betretenden Anlagen mit Hinweisen auf Fluchtwege und Notrufstellen;</p></item><item eId="art_12/para_3/lbl_d"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">d. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">die durch das Personal vorzunehmenden betrieblichen Handlungen und Arbeiten;</p></item><item eId="art_12/para_3/lbl_e"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">e. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">das Vorgehen bei Brandausbruch.</p></item></blockList></content></paragraph></article><article eId="art_13"><num><b>Art. 13</b></num><heading>Besucher</heading><paragraph eId="art_13/para_1"><num>1</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Starkstromanlagen, die vorübergehend allgemein zugänglich sind, müssen so gesichert werden, dass eine Gefährdung Dritter ausgeschlossen ist.</p></content></paragraph><paragraph eId="art_13/para_2"><num>2</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Besucher von Starkstromanlagen sind von sachverständigen oder mit den Anlagen vertrauten und vom Betriebsinhaber ermächtigten Personen zu begleiten.</p></content></paragraph><paragraph eId="art_13/para_3"><num>3</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Der Zutritt zu Anlagen, die unter Spannung stehen, ist nur in kleinen Gruppen zu gestatten.</p></content></paragraph></article></section><section eId="chap_2/sec_3"><num>3. Abschnitt: </num><heading>Massnahmen bei Unfällen und Schadenfällen durch Elektrizität</heading><article eId="art_14"><num><b>Art. 14</b></num><heading>Vorbeugende Massnahmen</heading><paragraph eId="art_14/para_1"><num>1</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Die Betriebsinhaber von Starkstromanlagen müssen Massnahmen vorbereiten und Material bereitstellen, um bei Unfällen und Schadenfällen sofort Hilfe leisten und den Schaden begrenzen zu können.</p></content></paragraph><paragraph eId="art_14/para_2"><num>2</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Sie müssen im Betriebsbereich gut sichtbar Hinweistafeln anbringen, die über das Verhalten und die Hilfeleistung bei Unfällen informieren.</p></content></paragraph></article><article eId="art_15"><num><b>Art. 15</b></num><heading>Sicherstellung der Hilfeleistung bei Unfällen</heading><paragraph eId="art_15/para_1"><num>1</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Die Betriebsinhaber von Starkstromanlagen müssen eine genügende Anzahl geeigneter Personen zur Hilfeleistung bei Unfällen und Schadenfällen ausbilden und über eine zweckmässige Organisation für die Hilfeleistung bei Unfällen verfügen.</p></content></paragraph><paragraph eId="art_15/para_2"><num>2</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Sie sorgen dafür, dass bei Unfällen und Schadenfällen den Hilfsorganisationen (Feuerwehr, Zivilschutz usw.) Personen zur Verfügung stehen, die fähig und berechtigt sind, rasch die notwendigen elektrotechnischen Sicherheitsmassnahmen zu treffen.</p></content></paragraph></article><article eId="art_16"><num><b>Art. 16</b></num><heading>Meldepflicht</heading><paragraph eId="art_16/para_1"><num>1</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Die Betriebsinhaber von Starkstromanlagen müssen unverzüglich jede durch Elektrizität verursachte Personenschädigung oder erhebliche Sachbeschädigung der zuständigen Kontrollstelle melden. Erhebliche Personenschädigungen müssen zudem der zuständigen kantonalen Stelle gemeldet werden.</p></content></paragraph><paragraph eId="art_16/para_2"><num>2</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Am Unfallort dürfen bei schweren Unfällen über die notwendigen Sofortmassnahmen hinaus bis zur Unfallabklärung durch die Kontrollstelle keine Veränderungen vorgenommen werden, sofern nicht die Verhütung weiterer Unfälle oder Schadenfälle oder die Aufrechterhaltung des Betriebes dies verlangt.</p></content></paragraph><paragraph eId="art_16/para_3"><num>3</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Die Kontrollstelle trifft unverzüglich die notwendigen Massnahmen. Sie leitet eine Untersuchung ein, wenn dies zur Abklärung der Ursache des Unfalles oder des Schadens nötig ist. Der Betriebsinhaber unterstützt sie dabei.</p></content></paragraph><paragraph eId="art_16/para_4"><num>4</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Die Kontrollstellen erfassen alle gemeldeten Unfälle und Schadenfälle, werten sie aus und veranlassen Massnahmen zur Unfall- und Schadenverhütung.</p></content></paragraph></article></section><section eId="chap_2/sec_4"><num>4. Abschnitt: </num><heading>Kontrolle und Instandhaltung</heading><article eId="art_17"><num><b>Art. 17</b></num><heading>Pflicht zur Kontrolle und Instandhaltung</heading><paragraph eId="art_17/para_1"><num>1</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Die Betriebsinhaber müssen ihre Starkstromanlagen dauernd instandhalten und periodisch reinigen und kontrollieren oder diese Arbeiten durch Dritte ausführen lassen.</p></content></paragraph><paragraph eId="art_17/para_2"><num>2</num><content><blockList><listIntroduction eId="art_17/para_2/listintro" xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Im besonderen ist zu kontrollieren, ob:</listIntroduction><item eId="art_17/para_2/lbl_a"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">a. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">sich die Anlagen und die daran angeschlossenen elektrischen Einrichtungen in einwandfreiem Zustand befinden;</p></item><item eId="art_17/para_2/lbl_b"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">b. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">die Anlagen bezüglich Unterteilung, Anordnung und Kurzschlussfestigkeit den Vorschriften entsprechen;</p></item><item eId="art_17/para_2/lbl_c"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">c. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">die Schutzeinrichtungen korrekt eingestellt und wirksam sind;</p></item><item eId="art_17/para_2/lbl_d"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">d. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">im Bereich der Anlagen sicherheitsmindernde Veränderungen eingetreten sind;</p></item><item eId="art_17/para_2/lbl_e"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">e. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Anlageschemata, Kennzeichnungen und Beschriftungen vorhanden und nachgeführt sind.</p></item></blockList></content></paragraph><paragraph eId="art_17/para_3"><num>3</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Beschädigungen und Mängel sind situationsgerecht zu beheben. Bei unmittelbarer Gefahr müssen Sofortmassnahmen ergriffen werden.</p></content></paragraph></article><article eId="art_18"><num><b>Art. 18</b></num><heading>Kontrollperioden</heading><paragraph eId="art_18/para_1"><num>1</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Die Betriebsinhaber bestimmen für jeden Anlageteil die Kontrollperiode. Sie berücksichtigen dabei die äusseren Einflüsse, die Art der Anlage und die elektrische Beanspruchung.</p></content></paragraph><paragraph eId="art_18/para_2"><num>2</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Die Kontrollperioden dürfen fünf Jahre nicht überschreiten. Ausnahmsweise können die Kontrollstellen für einzelne Anlageteile eine längere Kontrollperiode bewilligen, wenn der Stand der Technik das zulässt und die Sicherheit nicht beeinträchtigt wird.</p></content></paragraph></article><article eId="art_19"><num><b>Art. 19</b></num><heading>Kontrollberichte</heading><paragraph eId="art_19/para_1"><num>1</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Die Betriebsinhaber erstellen über jede Kontrolle einen Kontrollbericht. Sie beurteilen darin die Anlage nach Artikel 17 Absatz 2 und halten insbesondere die angeordneten Massnahmen und die Fristen für deren Erledigung sowie die Art und den Zeitpunkt der tatsächlichen Erledigung fest.</p></content></paragraph><paragraph eId="art_19/para_2"><num>2</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Die Berichte sind während mindestens zwei Kontrollperioden aufzubewahren und auf Verlangen der Kontrollstelle vorzuweisen.</p></content></paragraph></article></section></chapter><chapter eId="chap_3"><num>3. Kapitel: </num><heading>Erzeugungs- und Verteilanlagen</heading><section eId="chap_3/sec_1"><num>1. Abschnitt: </num><heading>Grundsätzliche Anforderungen</heading><article eId="art_20"><num><b>Art. 20</b></num><heading>Allgemeine Bestimmungen</heading><paragraph eId="art_20/para_1"><num>1</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Die Betriebsinhaber von Starkstromanlagen müssen Massnahmen treffen, die den Zutritt von unberechtigten Personen sowie das Eindringen von Tieren, Flüssigkeiten und schädlichen Gasen möglichst verhindern.</p></content></paragraph><paragraph eId="art_20/para_2"><num>2</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Die Abstände zwischen Starkstrom- und Rohrleitungsanlagen bestimmen sich nach der Leitungsverordnung vom 30. März 1994<authorialNote>
+		<p> <ref fedlex:rs-uri="https://fedlex.data.admin.ch/eli/cc/1994/1233_1233_1233" fedlex:rs="734.31" href="https://fedlex.data.admin.ch/vocabulary/legal-taxonomy/8586">SR <b>734.31</b></ref></p>
+	</authorialNote>.</p></content></paragraph></article><article eId="art_21"><num><b>Art. 21</b></num><heading>Netzunterteilung</heading><paragraph eId="art_21/para_1"><num>1</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Elektrische Netze müssen durch den Einbau von unter Spannung bedienbaren Trennvorrichtungen so unterteilt werden, dass klar definierte Netzabschnitte vollständig spannungslos gemacht werden können.</p></content></paragraph><paragraph eId="art_21/para_2"><num>2</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Die Betriebsinhaber müssen sicherstellen, dass in freigeschalteten Anlageteilen keine Fremdeinspeisungen möglich sind und keine Rückspannungen auftreten können.</p></content></paragraph></article><article eId="art_22"><num><b>Art. 22</b></num><heading>Trennvorrichtungen</heading><paragraph eId="art_22/para_1"><num>1</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Trennvorrichtungen von Hochspannungsanlagen müssen so bemessen und ausgerüstet werden, dass in allen Betriebszuständen und beim Auftreten von Überspannungen nie ein Überschlag über die offene Trennstrecke erfolgen kann.</p></content></paragraph><paragraph eId="art_22/para_2"><num>2</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Beim Öffnen und Schliessen der Trennvorrichtungen dürfen die kapazitiven oder induktiven Restströme zu keinen Überschlägen oder Beschädigungen führen.</p></content></paragraph><paragraph eId="art_22/para_3"><num>3</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Schaltstellungen von Schaltapparaten und Trennvorrichtungen müssen zuverlässig angezeigt sein. An Trennvorrichtungen, deren Trennstrecke nicht sichtbar ist, muss die Stellung des beweglichen Kontaktstückes über eine sichere formschlüssige Verbindung (d. h. über zwangsläufige, starre und solide Zwischenglieder) angezeigt werden.</p></content></paragraph></article><article eId="art_23"><num><b>Art. 23</b></num><heading>Nullpunktbehandlung im Hochspannungsnetz</heading><paragraph eId="art_23/para_1"><num>1</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Die Betriebsinhaber von Hochspannungsnetzen bestimmen für jedes Netz ohne galvanische Verbindung zu anderen Netzen die zweckmässige Nullpunktbehandlung.</p></content></paragraph><paragraph eId="art_23/para_2"><num>2</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> In Hochspannungsnetzen ist die Isolationskoordination gemäss den anerkannten Regeln der Technik einzuhalten. Dabei ist die Art der Nullpunktbehandlung zu berücksichtigen.</p></content></paragraph><paragraph eId="art_23/para_3"><num>3</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Jedes galvanisch abtrennbare Netz muss mit eigenen Spannungsmesseinrichtungen versehen werden. Erd- oder Kurzschlüsse müssen rasch erkannt werden können.</p></content></paragraph></article><article eId="art_24"><num><b>Art. 24</b></num><heading>Signalleitungen</heading><paragraph eId="art_24/para"><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Leitungen für die Übertragung von Signalen und Informationen zum Schutz von Personen und Anlagen sind so zu verlegen, dass sie bei Kurzschlüssen oder Erdschlüssen in Energieübertragungsanlagen weder unzulässig beeinflusst noch beschädigt werden.</p></content></paragraph></article><article eId="art_25"><num><b>Art. 25</b></num><heading>Anordnung von Apparaten und Leitungsverbindungen</heading><paragraph eId="art_25/para_1"><num>1</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Apparate und Leitungsverbindungen müssen nach Spannungen und Stromarten getrennt sein. Sie sind so anzuordnen und zu bezeichnen, dass eine rasche und sichere Orientierung möglich ist und Schalthandlungen ohne Verwechslungsgefahr ausgeführt werden können.</p></content></paragraph><paragraph eId="art_25/para_2"><num>2</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Apparate und Antriebe von Apparaten müssen so gebaut und angeordnet sein, dass das Betriebspersonal auch bei einem Defekt nicht gefährdet ist.</p></content></paragraph><paragraph eId="art_25/para_3"><num>3</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Starkstromanlagen müssen so konzipiert sein, dass die über Trennvorrichtungen unterteilbaren Abschnitte auf Spannungslosigkeit überprüft und anschliessend ohne Gefährdung durch benachbarte, unter Spannung stehender Teile geerdet und kurzgeschlossen werden können. Werden Schnellerder eingebaut, so kann auf die Überprüfung auf Spannungslosigkeit verzichtet werden.</p></content></paragraph><paragraph eId="art_25/para_4"><num>4</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Bei gasisolierten Anlagen muss in jeden Leitungsabgang ein Schnellerder eingebaut werden. Alle weiteren innerhalb der Anlage durch Trennvorrichtungen gebildeten Abschnitte müssen mit Schnell- oder Arbeitserdern ausgerüstet werden.</p></content></paragraph></article><article eId="art_26"><num><b>Art. 26</b></num><heading>Bedienung</heading><paragraph eId="art_26/para_1"><num>1</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Die Einrichtungen einer Starkstromanlage müssen von einem sicheren Standort aus bedient und kontrolliert werden können.</p></content></paragraph><paragraph eId="art_26/para_2"><num>2</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Die Sicherheit von Personen oder Sachen darf durch das Betätigen von Einrichtungen auch bei einem Defekt nicht beeinträchtigt werden.</p></content></paragraph><paragraph eId="art_26/para_3"><num>3</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Geräte, Werkzeuge und Hilfsmittel für die Bedienung der Anlage und für die Hilfeleistung bei Unfällen und Schadenfällen sowie die persönlichen Schutzausrüstungen müssen dem Personal jederzeit in gutem Zustand zur Verfügung stehen.</p></content></paragraph></article><article eId="art_27"><num><b>Art. 27</b></num><heading>Gänge und Verkehrswege</heading><paragraph eId="art_27/para_1"><num>1</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Die einzelnen Abschnitte einer Anlage sind durch Bedienungsgänge, Verkehrswege und nötigenfalls durch Montagegänge zu erschliessen.</p></content></paragraph><paragraph eId="art_27/para_2"><num>2</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Gänge müssen so gestaltet und unterhalten sein, dass sie jederzeit als Fluchtweg benutzt werden können. Es darf darin kein Material gelagert werden.</p></content></paragraph><paragraph eId="art_27/para_3"><num>3</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> In die Minimalprofile der Gänge und Wege nach Anhang 1 dürfen keine Antriebe, Schalterwagen in Trennstellung, Steuerkästen, offene Fenster usw. hineinragen.</p></content></paragraph></article><article eId="art_28"><num><b>Art. 28</b></num><heading>Bezeichnungen und Aufschriften</heading><paragraph eId="art_28/para_1"><num>1</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Kraftwerke, Unterwerke, Schaltanlagen und deren Schaltfelder sowie Transformatoren- und Maststationen sind an den Bedienungsstellen eindeutig und gut sichtbar zu bezeichnen.</p></content></paragraph><paragraph eId="art_28/para_2"><num>2</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Räume, Anlageteile, Apparate und Leiter, die für eine rasche und sichere Orientierung von Bedeutung sind, müssen auffällig und dauerhaft bezeichnet sein.</p></content></paragraph></article><article eId="art_29"><num><b>Art. 29</b></num><heading>Hilfsanlagen</heading><paragraph eId="art_29/para_1"><num>1</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Druckbehälter müssen den einschlägigen Vorschriften betreffend Aufstellung und Betrieb von Druckbehältern und den Regeln der Technik entsprechen. Als Regeln der Technik gelten insbesondere die Vorschriften des Schweizerischen Vereins für Druckbehälterüberwachung<authorialNote>
+		<p> Zu beziehen bei: Schweizerischer Verein für Druckbehälterüberwachung, SVDB, Postfach, 8030 Zürich.</p>
+	</authorialNote>.</p></content></paragraph><paragraph eId="art_29/para_2"><num>2</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Ortsfeste Apparate von Brandschutz-, Einbruchschutz-, Störmelde- und Beleuchtungseinrichtungen usw. sind so anzuordnen, dass bei Instandhaltung und Kontrolle keine Personen gefährdet werden und der Betrieb von Starkstromanlagen nicht beeinträchtigt wird. Sie sind insbesondere von betriebsmässig unter Spannung stehenden Anlageteilen ausreichend zu distanzieren.</p></content></paragraph></article><article eId="art_30"><num><b>Art. 30</b></num><heading>Brandschutzanlagen</heading><paragraph eId="art_30/para"><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Brandschutzanlagen wie automatische Brandmelde- und Löschanlagen sind in Hochspannungsanlagen so anzuordnen, dass sie gefahrlos kontrolliert und instandgehalten werden können.</p></content></paragraph></article><article eId="art_31"><num><b>Art. 31</b></num><heading>Anschluss von Erdungsgarnituren</heading><paragraph eId="art_31/para"><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Die Erdungsgarnituren müssen erd- und leiterseitig solide angeschlossen werden können. Der erdseitige Anschlusspunkt muss sicher mit der Anlageerdung verbunden sein.</p></content></paragraph></article><article eId="art_32"><num><b>Art. 32</b></num><heading>Betriebsunterlagen</heading><paragraph eId="art_32/para"><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Von Kraftwerken, Unterwerken, Schaltanlagen und Transformatorenstationen müssen alle gültigen, für den Betrieb notwendigen technischen Unterlagen wie Dispositionspläne, Schemata und Bedienungsanleitungen wichtiger Apparate an geeigneter Stelle verfügbar sein.</p></content></paragraph></article><article eId="art_33"><num><b>Art. 33</b></num><heading>Betriebsfremde Verwendung von Räumlichkeiten</heading><paragraph eId="art_33/para_1"><num>1</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Im Betriebsbereich darf nur Material gelagert werden, das unmittelbar zum Betrieb der Anlage dient.</p></content></paragraph><paragraph eId="art_33/para_2"><num>2</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Im Betriebsbereich dürfen Werkplätze nur ausnahmsweise und nur kurzzeitig für betrieblich notwendige Arbeiten eingerichtet werden.</p></content></paragraph><paragraph eId="art_33/para_3"><num>3</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Betriebsfremde Leitungen dürfen nur dann durch den Betriebsbereich von Hochspannungsanlagen geführt werden, wenn besondere Sicherheitsmassnahmen getroffen werden.</p></content></paragraph></article></section><section eId="chap_3/sec_2"><num>2. Abschnitt: </num><heading>Innenraumanlagen</heading><article eId="art_34"><num><b>Art. 34</b></num><heading>Allgemeine Bestimmungen</heading><paragraph eId="art_34/para_1"><num>1</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Spannungsführende Teile von Starkstromanlagen müssen durch Schranken, Gitter, Abdeckungen, Verschalungen oder Isolierungen gesichert sein.</p></content></paragraph><paragraph eId="art_34/para_2"><num>2</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> …<authorialNote>
+		<p> Aufgehoben durch Ziff. I der V vom 3. April 2019, mit Wirkung seit 1. Juni 2019  (<ref href="https://fedlex.data.admin.ch/eli/oc/2019/265" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">AS <b>2019</b> 1363</ref>).</p>
+	</authorialNote></p></content></paragraph><paragraph eId="art_34/para_3"><num>3</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Räume einer Innenraumanlage, die für den Betrieb nicht benötigt werden, dürfen für betriebsfremde Zwecke nur genutzt werden, wenn sie vom Betriebsbereich durch Türen oder Wände getrennt sind und der Zugang nicht durch die Anlage führt.</p></content></paragraph></article><article eId="art_35"><num><b>Art. 35</b></num><heading>Gänge und Zugänge</heading><paragraph eId="art_35/para_1"><num>1</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Die Mindestmasse für Gänge und Zugänge in Innenraumanlagen richten sich grundsätzlich nach Anhang 1. Die Kontrollstelle kann in begründeten Fällen Ausnahmen gestatten, wenn die Sicherheit und der Freiraum für Instandhaltungsarbeiten nicht unzulässig beeinträchtigt werden.</p></content></paragraph><paragraph eId="art_35/para_2"><num>2</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Gänge in elektrischen Anlagen dürfen nicht als Durchgang für andere Räume genutzt werden.</p></content></paragraph><paragraph eId="art_35/para_3"><num>3</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Bedienungsgänge von mehr als 20 m Länge müssen auf beiden Seiten verlassen werden können.</p></content></paragraph><paragraph eId="art_35/para_4"><num>4</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Türen müssen sich in der Richtung des Fluchtweges öffnen. Verbindungstüren zwischen zwei Betriebsräumen sollen sich vom Raum mit grösserem zum Raum mit kleinerem Gefahrenpotential öffnen.</p></content></paragraph><paragraph eId="art_35/para_5"><num>5</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Notausgänge müssen ohne Hilfsmittel von innen geöffnet werden können und ins Freie oder in sichere Bereiche führen.</p></content></paragraph><paragraph eId="art_35/para_6"><num>6</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Notausgänge und Fluchtwege müssen immer frei bleiben und nach den Regeln der Technik gekennzeichnet sein.</p></content></paragraph></article><article eId="art_36"><num><b>Art. 36</b></num><heading>Mindestabstände, Mindesthöhen und Minimalmasse</heading><paragraph eId="art_36/para_1"><num>1</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Die in Innenraumanlagen einzuhaltenden Mindestabstände, Mindesthöhen und Minimalmasse sind in Anhang 2 festgehalten.</p></content></paragraph><paragraph eId="art_36/para_2"><num>2</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Schaltschränke mit einer Höhe von weniger als 2,2 m müssen oben geschlossen sein.</p></content></paragraph></article><article eId="art_37"><num><b>Art. 37</b></num><heading>Anlagen in Raumwinkeln</heading><paragraph eId="art_37/para_1"><num>1</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Die Anordnung von Anlageteilen in Raumwinkeln ist möglichst zu vermeiden.</p></content></paragraph><paragraph eId="art_37/para_2"><num>2</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Ist die Anordnung von Anlageteilen in Raumwinkeln nicht zu vermeiden, so müssen alle betriebsmässig unter Spannung stehenden Teile so verschalt werden, dass sie gegen den Bedienungsstandort vollständig berührungssicher und abgeschlossen sind.</p></content></paragraph></article><article eId="art_38"><num><b>Art. 38</b></num><heading>Bauliche Massnahmen</heading><paragraph eId="art_38/para_1"><num>1</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Der ungehinderte Zugang zu den elektrischen Anlagen muss jederzeit gewährleistet sein.</p></content></paragraph><paragraph eId="art_38/para_2_3"><num>2 und <sup>3</sup></num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> …<authorialNote>
+		<p> Aufgehoben durch Ziff. I der V vom 3. April 2019, mit Wirkung seit 1. Juni 2019  (<ref href="https://fedlex.data.admin.ch/eli/oc/2019/265" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">AS <b>2019</b> 1363</ref>).</p>
+	</authorialNote></p></content></paragraph><paragraph eId="art_38/para_4"><num>4</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Zu- und Abluftöffnungen müssen ins Freie führen. Ausnahmen sind nur mit Einwilligung der zuständigen Feuerpolizei zulässig.</p></content></paragraph><paragraph eId="art_38/para_5"><num>5</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Vergitterungen bei Türen, Fenstern, Lüftungsöffnungen und Kabeleinführungen müssen das Eindringen von Kleintieren und das Durchstecken von festen Gegenständen verhindern. Wenn das Durchstecken von festen Gegenständen nicht verhindert werden kann, muss der Abstand zu spannungsführenden Teilen mindestens 1,5 m+0,01 m pro kV Nennspannung betragen.</p></content></paragraph><paragraph eId="art_38/para_6"><num>6</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Die künstliche Beleuchtung muss ausreichend sein. Eine Notbeleuchtung oder eine Ersatzleuchte muss in allen Betriebsbereichen, Gängen und Fluchtwegen griffbereit vorhanden sein oder vom Betriebspersonal mitgeführt werden.</p></content></paragraph></article><article eId="art_39"><num><b>Art. 39</b></num><heading>Unterirdische Anlagen</heading><paragraph eId="art_39/para_1"><num>1</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Unterirdische Starkstromanlagen müssen allseitig berührungssicher gebaut sein, wenn sie nur über einen vertikalen Einstieg zugänglich sind.</p></content></paragraph><paragraph eId="art_39/para_2"><num>2</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Sind sie nicht berührungssicher, so muss für den Einstieg ein Vorraum vorgesehen werden, der vom Betriebsraum durch eine Türe abgetrennt ist.</p></content></paragraph></article></section><section eId="chap_3/sec_3"><num>3. Abschnitt: </num><heading>Zusätzliche Bestimmungen für gasisolierte Anlagen</heading><article eId="art_40"><num><b>Art. 40</b></num><paragraph eId="art_40/para_1"><num>1</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Für Druckgehäuse von gasisolierten Anlagen gilt Artikel 29 Absatz 1.</p></content></paragraph><paragraph eId="art_40/para_2"><num>2</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Die Betriebsinhaber der Starkstromanlagen müssen in einem besonderen Anlagenschema die Gasversorgung darstellen und dieses Schema an geeigneter Stelle zur Verfügung halten.</p></content></paragraph><paragraph eId="art_40/para_3"><num>3</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Gasräume eines Druckgehäuses müssen gasdicht ausgeführt und auf ihre Dichtigkeit überwacht werden.</p></content></paragraph><paragraph eId="art_40/para_4"><num>4</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Gasräume müssen zur Druckentlastung im Fehlerfall (Störlichtbogen) mit Sollbruchstellen (z. B. Berstscheiben) versehen werden. Diese sind so anzuordnen, dass bei Gasaustritt das Anlagepersonal nicht gefährdet wird.</p></content></paragraph><paragraph eId="art_40/para_5"><num>5</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Vor dem Öffnen der Gasräume sind Schutzmassnahmen zu treffen, damit eventuelle pulver- und gasförmige Zersetzungsprodukte auf ungefährliche Weise entfernt werden können.</p></content></paragraph><paragraph eId="art_40/para_6"><num>6</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Die Betriebsinhaber der Starkstromanlagen müssen an gut sichtbarer Stelle Tafeln anbringen, die über die möglichen Gefahren der verwendeten Gase und über das Verhalten bei Gasaustritt orientieren.</p></content></paragraph><paragraph eId="art_40/para_7"><num>7</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Für Räume mit gasisolierten Anlagen müssen Kontrollgeräte vorhanden sein, mit denen ausgetretene Gase gemessen werden können, es sei denn, die Gasmenge sei im Verhältnis zum umgebenden Raum vernachlässigbar.</p></content></paragraph></article></section><section eId="chap_3/sec_4"><num>4. Abschnitt: </num><heading>Freiluftanlagen</heading><article eId="art_41"><num><b>Art. 41</b></num><heading>Umzäunungen und Gerüste</heading><paragraph eId="art_41/para_1"><num>1</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Der Betriebsbereich einer Freiluftanlage muss mit einer Umzäunung von mindestens 2,2 m Höhe abgeschlossen sein. In schneereichen Gegenden ist diese Umzäunung entsprechend zu erhöhen.</p></content></paragraph><paragraph eId="art_41/para_2"><num>2</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Das Gitter der Umzäunung darf eine Maschenweite von höchstens 4 cm und einen Bodenabstand von höchstens 10 cm aufweisen.</p></content></paragraph><paragraph eId="art_41/para_3"><num>3</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Für die Dimensionierung der Abspann- und Tragkonstruktionen sowie deren Fundamente gelten die Bestimmungen über Freileitungen in der Leitungsverordnung vom 30. März 1994<authorialNote>
+		<p> <ref fedlex:rs-uri="https://fedlex.data.admin.ch/eli/cc/1994/1233_1233_1233" fedlex:rs="734.31" href="https://fedlex.data.admin.ch/vocabulary/legal-taxonomy/8586">SR <b>734.31</b></ref></p>
+	</authorialNote>.</p></content></paragraph></article><article eId="art_42"><num><b>Art. 42</b></num><heading>Wege innerhalb der Anlage</heading><paragraph eId="art_42/para"><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Wege innerhalb der Freiluftanlage müssen mindestens 1,2 m breit sein und eine lichte Höhe von 2,5 m aufweisen.</p></content></paragraph></article><article eId="art_43"><num><b>Art. 43</b></num><heading>Sicherheitsabstände</heading><paragraph eId="art_43/para_1"><num>1</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Die minimalen vertikalen Abstände zwischen spannungsführenden Teilen und dem Erdboden oder begehbaren Teilen innerhalb von Freiluftanlagen richten sich nach Anhang 3 Kolonne 3.</p></content></paragraph><paragraph eId="art_43/para_2"><num>2</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Die Kontrollstelle kann Unterschreitungen dieser Abstände bewilligen, wenn die unter Spannung stehenden Anlageteile so gesichert sind, dass eine Gefährdung des Personals ausgeschlossen ist. Über begehbaren Flächen sind die Mindestabstände in jedem Fall einzuhalten.</p></content></paragraph><paragraph eId="art_43/para_3"><num>3</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Ist kein Berührungsschutz vorhanden, so muss der geerdete Isolatorfuss mindestens 2,25 m Abstand zum Boden aufweisen.</p></content></paragraph><paragraph eId="art_43/para_4"><num>4</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Innerhalb von Freiluftanlagen dürfen sich längs der Anlagenumzäunung in einer Breite von 1,6 m+0,01 m pro kV Nennspannung und einer Höhe von 6 m bei Anlagen unter 220 kV, einer Höhe von 6,6 m bei Anlagen von 220 kV und einer Höhe von 7,1 m bei Anlagen von 380 kV keine spannungsführenden Teile befinden. Diese Höhe ist sinngemäss nach Artikel 33 der Leitungsverordnung vom 30. März 1994<authorialNote>
+		<p> <ref fedlex:rs-uri="https://fedlex.data.admin.ch/eli/cc/1994/1233_1233_1233" fedlex:rs="734.31" href="https://fedlex.data.admin.ch/vocabulary/legal-taxonomy/8586">SR <b>734.31</b></ref></p>
+	</authorialNote> anzupassen, sofern das Gelände unmittelbar ausserhalb der Umzäunung befahrbar ist.</p></content></paragraph></article><article eId="art_44"><num><b>Art. 44</b></num><heading>Geschützte Anlagen</heading><paragraph eId="art_44/para"><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Für vollwandig umbaute oder gekapselte und gegen Witterungseinflüsse geschützte Anlagen gelten die Bestimmungen für Innenraumanlagen.</p></content></paragraph></article></section><section eId="chap_3/sec_5"><num>5. Abschnitt: </num><heading>Zusätzliche Bestimmungen für Transformatorenstationen</heading><article eId="art_45"><num><b>Art. 45</b></num><heading>Abschalt- und Abtrennbarkeit</heading><paragraph eId="art_45/para_1"><num>1</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Jede Transformatorenstation mit Freileitungsanschluss muss durch einen in Stationsnähe angebrachten Freileitungsschalter vom Netz abgetrennt werden können.</p></content></paragraph><paragraph eId="art_45/para_2"><num>2</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Transformatorenstationen mit Kabelanschlüssen müssen unmittelbar nach dem Kabelanschluss abtrennbar sein und die Kabelzuleitungen selbst müssen in den benachbarten Gegenstationen abschaltbar sein.</p></content></paragraph><paragraph eId="art_45/para_3"><num>3</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Die Belastung in den Stationen muss so reduziert werden können, dass die Schaltungen nach den Absätzen 1 und 2 problemlos und rasch vorgenommen werden können.</p></content></paragraph><paragraph eId="art_45/para_4"><num>4</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Jeder Transformator muss einzeln primär- und sekundärseitig von der Anlage abtrennbar sein.</p></content></paragraph><paragraph eId="art_45/para_5"><num>5</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Alle Zu- und Abgänge von Hoch- und Niederspannungssammelschienen müssen einzeln und unter Spannung abtrennbar sein. Ausgenommen sind Zuleitungen zu Spannungswandlern und Überspannungsableitern.</p></content></paragraph></article><article eId="art_46"><num><b>Art. 46</b></num><heading>Anordnung</heading><paragraph eId="art_46/para"><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Transformatoren und dazugehörige Schalter oder Sicherungen sind grundsätzlich in der gleichen Anlage und örtlich so anzuordnen, dass sie gefahrlos bedient und kontrolliert werden können.</p></content></paragraph></article><article eId="art_47"><num><b>Art. 47</b></num><heading>Überstromschutz</heading><paragraph eId="art_47/para"><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Die hochspannungsseitigen Schutzeinrichtungen für den Transformator müssen auch den Kurzschlussschutz bis und mit den ersten Niederspannungsschutzeinrichtungen gewährleisten.</p></content></paragraph></article><article eId="art_48"><num><b>Art. 48</b></num><heading>Sicherheitsabstände auf Maststationen</heading><paragraph eId="art_48/para_1"><num>1</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Der Vertikalabstand zwischen den bei geöffnetem Leitungsschalter noch unter Spannung stehenden Teilen und den nächstliegenden Anlageteilen der Maststation muss mindestens 1,5 m betragen.</p></content></paragraph><paragraph eId="art_48/para_2"><num>2</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Der Vertikalabstand zwischen den bei geöffnetem Leitungsschalter noch unter Spannung stehenden Teilen und den für Bedienung und Instandhaltung erforderlichen Standorten (Fusshöhe) muss der Mindesthöhe nach Anhang 3 Kolonne 3 in Freiluftanlagen entsprechen.</p></content></paragraph><paragraph eId="art_48/para_3"><num>3</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Für die Montage und Demontage des Transformators muss grundsätzlich eine gefahrlos bedienbare Vorrichtung vorhanden sein. Diese Vorrichtung ist nicht erforderlich, wenn sich die Zuleitung zur Station jederzeit ausschalten lässt oder für die Auswechslung der Transformatoren geeignete Hebeeinrichtungen eingesetzt werden können.</p></content></paragraph></article><article eId="art_49"><num><b>Art. 49</b></num><heading>Tragwerke von Maststationen</heading><paragraph eId="art_49/para_1"><num>1</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Die Berechnung und Erstellung der Tragwerke von Maststationen richtet sich nach den Bestimmungen über Freileitungen in der Leitungsverordnung vom 30. März 1994<authorialNote>
+		<p> <ref fedlex:rs-uri="https://fedlex.data.admin.ch/eli/cc/1994/1233_1233_1233" fedlex:rs="734.31" href="https://fedlex.data.admin.ch/vocabulary/legal-taxonomy/8586">SR <b>734.31</b></ref></p>
+	</authorialNote>.</p></content></paragraph><paragraph eId="art_49/para_2"><num>2</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Werden die für Freileitungen vorgeschriebenen Abstände zum Boden unterschritten, so gilt die Maststation als Freiluftanlage.</p></content></paragraph></article><article eId="art_50"><num><b>Art. 50</b></num><heading>Innenraumtransformatorenstationen</heading><paragraph eId="art_50/para_1"><num>1</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Für Transformatorenstationen in Gebäuden gelten zusätzlich die Bestimmungen über die Innenraumanlagen.</p></content></paragraph><paragraph eId="art_50/para_2"><num>2</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Trockentransformatoren ohne geerdete Umhüllungen benötigen einen Berührungsschutz.</p></content></paragraph></article></section><section eId="chap_3/sec_6"><num>6. Abschnitt: </num><heading>Betriebseigene Niederspannungsanlagen</heading><article eId="art_51"><num><b>Art. 51</b></num><heading>Betriebseigene Niederspannungsanlagen in Hochspannungsanlagen</heading><paragraph eId="art_51/para"><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Wenn es die Zweckbestimmung von betriebseigenen Niederspannungsanlagen in Hochspannungsanlagen erfordert, kann von den Bestimmungen der Verordnung vom 6. September 1989<authorialNote>
+		<p> [<ref href="https://fedlex.data.admin.ch/eli/oc/1989/1834_1834_1834" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">AS <b>1989</b> 1834</ref>; <ref href="https://fedlex.data.admin.ch/eli/oc/1992/2499_2499_2499" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp"><b>1992</b> 2499 </ref>Art. 15 Ziff. 1, <ref href="https://fedlex.data.admin.ch/eli/oc/1997/1008_1008_1008" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp"><b>1997</b> 1008 </ref>Anhang Ziff. 3, <ref href="https://fedlex.data.admin.ch/eli/oc/1998/54_54_54" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp"><b>1998</b> 54 </ref>Anhang Ziff. 4, <b>1</b><b>999</b> 704 Ziff. II 20, <ref href="https://fedlex.data.admin.ch/eli/oc/2000/127" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp"><b>2000</b> 762 </ref>Ziff. I 4. <ref href="https://fedlex.data.admin.ch/eli/oc/2002/22" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">AS <b>2002</b> 128 </ref>Art. 43]. Siehe heute die V vom 7. Nov. 2001 (<ref fedlex:rs-uri="https://fedlex.data.admin.ch/eli/cc/2002/22" fedlex:rs="734.27" href="https://fedlex.data.admin.ch/vocabulary/legal-taxonomy/8584">SR <b>734.27</b></ref>).</p>
+	</authorialNote> über elektrische Niederspannungsinstallationen abgewichen werden.</p></content></paragraph></article><article eId="art_52"><num><b>Art. 52</b></num><heading>Akkumulatorenanlagen</heading><paragraph eId="art_52/para_1"><num>1</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Räume, in denen sich nicht gekapselte und versiegelte Akkumulatoren befinden, müssen ausreichend belüftet werden. Die Räume und die darin vorhandenen Anlagen und Installationen müssen gegen Korrosion geschützt werden.</p></content></paragraph><paragraph eId="art_52/para_2"><num>2</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Akkumulatorenbatterien müssen allpolig abschaltbar sein. Die Betriebsinhaber sorgen dafür, dass Teile mit mehr als 250 V Spannung nicht zufällig berührt werden können.</p></content></paragraph><paragraph eId="art_52/para_3"><num>3</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Das Personal muss über die Gefahren orientiert und die notwendigen Schutzmassnahmen müssen getroffen werden.</p></content></paragraph></article></section></chapter><chapter eId="chap_4"><num>4. Kapitel: </num><heading>Schutzmassnahmen</heading><section eId="chap_4/sec_1"><num>1. Abschnitt: </num><heading>Erdungsvorschriften</heading><article eId="art_53"><num><b>Art. 53</b></num><heading>Grundsatz</heading><paragraph eId="art_53/para_1"><num>1</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Leitfähige Anlageteile, die normalerweise nicht unter Spannung stehen, müssen geerdet werden, um die Gefährdung von Personen durch Berührungs- und Schrittspannungen und von Sachen durch Fehler- oder Erdschlussströme zu vermindern.</p></content></paragraph><paragraph eId="art_53/para_2"><num>2</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Einzelne Stellen von Stromkreisen müssen dauernd oder im Fehlerfall vorübergehend geerdet werden, um Spannungen zu beschränken, die Personen gefährden oder die Isolation beschädigen können.</p></content></paragraph></article><article eId="art_54"><num><b>Art. 54</b></num><heading>Zulässige Berührungs- und Schrittspannungen in Starkstromanlagen</heading><paragraph eId="art_54/para_1"><num>1</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Bei einem Erdschluss in einer Starkstromanlage dürfen die Berührungsspannungen unter Berücksichtigung des höchstmöglichen einpoligen Erdschlussstromes dauernd 50 V Wechselspannung bzw. 120 V Gleichspannung nicht überschreiten. Für Einwirkungszeiten unter fünf Sekunden gelten die Werte nach Anhang 4.</p></content></paragraph><paragraph eId="art_54/para_2"><num>2</num><content><blockList><listIntroduction eId="art_54/para_2/listintro" xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Bei Tragwerken von Hochspannungsfreileitungen aus leitenden Materialien müssen bei Erdschlüssen folgende Bedingungen eingehalten werden:</listIntroduction><item eId="art_54/para_2/lbl_a"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">a. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">In Gebieten, in denen grössere Menschenansammlungen zu erwarten sind oder in denen sich Personen periodisch für längere Zeit aufhalten, sind für die Berührungsspannungen die Werte nach Anhang 4 einzuhalten;</p></item><item eId="art_54/para_2/lbl_b"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">b. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">In besiedelten Gebieten, in der näheren Umgebung von Einzelbauten und an Verkehrswegen, wo sich Personen regelmässig für kurze Zeit aufhalten, dürfen die Werte für Berührungsspannungen während höchstens zwei Sekunden überschritten werden;</p></item><item eId="art_54/para_2/lbl_c"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">c. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Im übrigen Gebiet dürfen die Berührungsspannungen die Werte nach Absatz 1 überschreiten. Die Werte über 50 V Wechselspannung, bzw. 120 V Gleichspannung sollen jedoch nicht länger als wenige Stunden bestehen bleiben.</p></item></blockList></content></paragraph><paragraph eId="art_54/para_3"><num>3</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> In geschlossenen (städtischen) Überbauungen sind zur Erreichung des Potentialausgleichs alle Erdungen von Hoch- und Niederspannungsanlagen miteinander zu verbinden. Der Nachweis für die Einhaltung der Berührungsspannungen muss nur für kritische Randzonen erbracht werden.</p></content></paragraph><paragraph eId="art_54/para_4"><num>4</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Für Schrittspannungen werden im allgemeinen keine Grenzwerte vorgeschrieben. In besonderen Fällen, vor allem bei Zugangswegen zu Hochspannungsanlagen und zu Mastschaltern, sind Schutzmassnahmen nach Artikel 56 anzuwenden.</p></content></paragraph></article><article eId="art_55"><num><b>Art. 55</b></num><heading>Zulässige Berührungsspannungen in Niederspannungsanlagen</heading><paragraph eId="art_55/para_1"><num>1</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> In Niederspannungsverteilnetzen muss beim Kontakt eines oder mehrerer Polleiter mit einem Leiter, welcher dem Schutz gegen gefährliche Berührungs- und Schrittspannungen dient (PEN-Leiter, Schutzleiter), die Speisung der betroffenen Polleiter sicher unterbrochen werden.</p></content></paragraph><paragraph eId="art_55/para_2"><num>2</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Die Bedingungen nach Artikel 54 Absatz 1 gelten in Niederspannungsnetzen als erfüllt, wenn zwischen dem Schutz dienenden Leitern und den Stellen an der Erdoberfläche, die ausserhalb des Einflussbereiches der Erdungen liegen (Bezugserde) keine Spannungen von mehr als 100 V Wechsel- bzw. 240 V Gleichspannung auftreten.</p></content></paragraph><paragraph eId="art_55/para_3"><num>3</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Werden diese Spannungen überschritten, so gelten die Werte nach Anhang 4.</p></content></paragraph></article><article eId="art_56"><num><b>Art. 56</b></num><heading>Massnahmen zur Verminderung der Gefährdung in Starkstromanlagen</heading><paragraph eId="art_56/para_1"><num>1</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Um eine Gefährdung durch Erdschlüsse zu vermindern, sind die leitfähigen Teile einer Starkstromanlage, die normalerweise nicht unter Spannung stehen, zu vermaschen und so zu erden, dass durch zweckmässige Anordnung der Erder die in den Artikeln 54 und 55 festgelegten Werte eingehalten werden.</p></content></paragraph><paragraph eId="art_56/para_2"><num>2</num><content><blockList><listIntroduction eId="art_56/para_2/listintro" xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Können die Bedingungen von Absatz 1 nicht eingehalten werden, kann die Gefährdung unter anderem mit folgenden Massnahmen vermindert werden:</listIntroduction><item eId="art_56/para_2/lbl_a"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">a. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Steuerung des Potentialgefälles durch die Anordnung der Erdungsanlage;</p></item><item eId="art_56/para_2/lbl_b"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">b. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Bilden isolierter Standorte oder Isolieren von berührbaren leitfähigen Teilen;</p></item><item eId="art_56/para_2/lbl_c"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">c. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Abschrankungen;</p></item><item eId="art_56/para_2/lbl_d"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">d. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Schnellabschaltung;</p></item><item eId="art_56/para_2/lbl_e"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">e. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Verwendung von Langstabisolatoren oder von Isolatoren, bei denen ein Fehler während des Betriebes sicher erkennbar ist;</p></item><item eId="art_56/para_2/lbl_f"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">f. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Einbau von Isolierstössen;</p></item><item eId="art_56/para_2/lbl_g"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">g. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">galvanische Trennung.</p></item></blockList></content></paragraph></article><article eId="art_57"><num><b>Art. 57</b></num><heading>Erden in Hochspannungsanlagen</heading><paragraph eId="art_57/para_1"><num>1</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> In Hochspannungsanlagen sind grundsätzlich alle zu erdenden Teile mit der Anlageerdung zu verbinden. Jede Anlageerdung ist über mindestens zwei unabhängige Erdungsleitungen zu erden.</p></content></paragraph><paragraph eId="art_57/para_2"><num>2</num><content><blockList><listIntroduction eId="art_57/para_2/listintro" xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Überschreitet bei einem einpoligen Erdschluss die Erdungsspannung an der Anlageerdung samt allen daran angeschlossenen Teilen die Werte nach Anhang 4, so sind folgende Teile von der Anlageerdung zu isolieren und mit einer Sondererdung zu verbinden:</listIntroduction><item eId="art_57/para_2/lbl_a"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">a. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">die Anschlussstellen für das betriebsmässige Erden von Niederspannungs-Stromkreisen, die über den Wirkungsbereich der Anlageerdung hinausführen;</p></item><item eId="art_57/para_2/lbl_b"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">b. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">die leitfähigen Apparatekörper und die leitfähigen Umhüllungen von Niederspannungskabeln, die über den Wirkungsbereich der Anlageerdung hinausführen.</p></item></blockList></content></paragraph><paragraph eId="art_57/para_3"><num>3</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Die mit einer Sondererdung verbundenen Teile und die zugehörenden Erdungsleitungen sind gegenüber der Anlageerdung und allen mit ihr verbundenen leitfähigen Teilen für eine Prüfspannung, die mindestens dem 1,3fachen Wert der höchstmöglichen Erdungsspannung entspricht, mindestens jedoch für 2 kV zu isolieren.</p></content></paragraph><paragraph eId="art_57/para_4"><num>4</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Anstelle der in Absatz 3 erwähnten Isolierung kann eine Einrichtung treten, welche die ausserhalb des Wirkungsbereiches der Anlageerdung liegenden Teile von jenen galvanisch trennt, die innerhalb dieses Bereiches liegen. Die Isolationsfestigkeit der Trennstelle hat den im Absatz 3 festgelegten Anforderungen zu genügen.</p></content></paragraph><paragraph eId="art_57/para_5"><num>5</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Bei der galvanischen Trennung nach Absatz 4 müssen alle zu erdenden Teile, die im Wirkungsbereich der Anlageerdung liegen, mit dieser verbunden werden. Die Teile ausserhalb der Anlageerdung müssen unter sich und mit einer Sondererdung verbunden werden.</p></content></paragraph><paragraph eId="art_57/para_6"><num>6</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Für die Schwachstromanlagen im Wirkungsbereich der Anlageerdung sind die in der Schwachstromverordnung vom 30. März 1994<authorialNote>
+		<p> <ref fedlex:rs-uri="https://fedlex.data.admin.ch/eli/cc/1994/1185_1185_1185" fedlex:rs="734.1" href="https://fedlex.data.admin.ch/vocabulary/legal-taxonomy/8571">SR <b>734.1</b></ref></p>
+	</authorialNote> festgelegten Schutzmassnahmen zu treffen.</p></content></paragraph></article><article eId="art_58"><num><b>Art. 58</b></num><heading>Erden von Niederspannungsanlagen</heading><paragraph eId="art_58/para_1"><num>1</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> In jedem Niederspannungsnetz ist ein Punkt nahe der Speisestelle direkt zu erden. In Drehstromnetzen ist es in der Regel der Sternpunkt des Transformators. Die Niederspannungsnetze sind als TN-Systeme (Nullung) oder TT-Systeme (Schutzerdung) auszubilden.</p></content></paragraph><paragraph eId="art_58/para_2"><num>2</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> In Niederspannungs-Sonderanlagen (Steuersysteme, Wandlerstromkreise, Anspeisung einzelner Verbraucher, Anlagen, die keine Betriebsunterbrüche zulassen usw.) kann auf eine Erdung eines Punktes nahe der Speisestelle verzichtet werden.</p></content></paragraph><paragraph eId="art_58/para_3"><num>3</num><content><blockList><listIntroduction eId="art_58/para_3/listintro" xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Wird in den Niederspannungsverteilnetzen und den daran angeschlossenen Niederspannungsinstallationen das TN-System angewendet, so gelten, in Ergänzung von Artikel 55, die folgenden Anforderungen:</listIntroduction><item eId="art_58/para_3/lbl_a"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">a. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Der PEN-Leiter oder der Schutzleiter PE ist beim Übergang vom Netz in die Installation zu erden (Nullungserdung). In bestehenden Installationen kann auf die Nullungserdung verzichtet werden, wenn die Bedingungen von Artikel 55 eingehalten sind.</p></item><item eId="art_58/para_3/lbl_b"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">b. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Bei Freileitungen müssen Querschnitt und mechanische Festigkeit des PEN-Leiters oder des Schutzleiters PE überall mindestens so gross sein wie bei den zugehörenden Polleitern.</p></item><item eId="art_58/para_3/lbl_c"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">c. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Bei Kabelleitungen muss der PEN-Leiter oder der Schutzleiter PE grundsätzlich den gleichen Leitwert haben wie die zugehörenden Polleiter.</p></item></blockList></content></paragraph></article><article eId="art_59"><num><b>Art. 59</b></num><heading>Erden von Leitungsbestandteilen</heading><paragraph eId="art_59/para_1"><num>1</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Aus leitenden Materialien bestehende Tragwerke von Hochspannungsfreileitungen sind direkt oder über Erdungsleiter so zu erden, dass die Anforderungen von Artikel 54 eingehalten werden. Die Erdungsleiter der Freileitungen sind an ihren Enden mit der Anlageerdung zu verbinden.</p></content></paragraph><paragraph eId="art_59/para_2"><num>2</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Metallene Gestänge an Tragwerken aus isolierendem Material müssen geerdet werden, wenn sie vom Boden aus berührbar sind.</p></content></paragraph><paragraph eId="art_59/para_3"><num>3</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Betätigungseinrichtungen von Hochspannungsmastschaltern sind zu erden oder es sind andere Massnahmen zu treffen, um die Anforderungen von Artikel 54 Absätze 1 und 4 einzuhalten.</p></content></paragraph><paragraph eId="art_59/para_4"><num>4</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Befinden sich leitfähige Tragwerke von Niederspannungsfreileitungen, andere leitfähige Konstruktionen für Verteilung oder Beleuchtung sowie Verkehrssignale und dergleichen an Orten mit Personenverkehr, so sind sie mit einem PEN-Leiter oder Schutzleiter PE so zu verbinden, dass die Anforderungen von Artikel 55 Absatz 1 erfüllt sind.</p></content></paragraph><paragraph eId="art_59/para_5"><num>5</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Metallumhüllungen von Hochspannungskabeln sind an beiden Enden zu erden. Führt dies zu erheblichen technischen Schwierigkeiten und wirtschaftlichen Nachteilen, so ist einseitiges Erden zulässig. Je nach örtlichen Verhältnissen sind zusätzliche Massnahmen zu treffen, damit die Anforderungen von Artikel 54 eingehalten werden können.</p></content></paragraph><paragraph eId="art_59/para_6"><num>6</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Metallumhüllungen von Niederspannungskabeln sind an beiden Enden zu erden. Beim Übergang von Kabeln auf Freileitungen kann auf die Erdung verzichtet werden.</p></content></paragraph></article><article eId="art_60"><num><b>Art. 60</b></num><heading>Bemessung der Erdungen</heading><paragraph eId="art_60/para_1"><num>1</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Die Erdungsleitungen sind so zu bemessen, dass sie bis zur Ausschaltung durch Schutzeinrichtungen den dynamischen und thermischen Beanspruchungen, die durch den höchsten voraussehbaren in den Leitungen fliessenden Strom entstehen, ohne Schaden zu nehmen gewachsen sind. Sie müssen gegen mechanische Beschädigungen sowie gegen Korrosion geschützt sein und dürfen weder Schalter noch Überstromunterbrecher enthalten.</p></content></paragraph><paragraph eId="art_60/para_2"><num>2</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Die Erder, die zur Ableitung eines Stromes ins Erdreich dienen, sind so zu bemessen und anzuordnen, dass bei den höchsten auftretenden einpoligen Erdschlussströmen die Anforderungen nach den Artikeln 54 und 55 eingehalten werden.</p></content></paragraph></article><article eId="art_61"><num><b>Art. 61</b></num><heading>Kontrolle</heading><paragraph eId="art_61/para"><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Die Ausführung, die Erhaltung der Wirksamkeit und die Kontrolle von Erdungsanlagen haben, unter Berücksichtigung von Artikel 54 und 55, nach den anerkannten Regeln der Technik zu erfolgen.</p></content></paragraph></article></section><section eId="chap_4/sec_2"><num>2. Abschnitt: </num><heading>Überstromschutz</heading><article eId="art_62"><num><b>Art. 62</b></num><heading>Schutzmassnahmen bei Kurz- und Erdschluss</heading><paragraph eId="art_62/para_1"><num>1</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Alle Teile einer Starkstromanlage müssen so erstellt werden, dass sie den mechanischen und thermischen Beanspruchungen widerstehen, die betriebsmässig oder bei Kurz- und Erdschlüssen am Einbauort auftreten können. Dabei ist die Art der Nullpunktbehandlung zu berücksichtigen.</p></content></paragraph><paragraph eId="art_62/para_2"><num>2</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Elektrische Anlagen müssen so erstellt werden, dass sich Betriebsstörungen und Schäden durch Lichtbogen auf ein Minimum beschränken. Das Wandern von Lichtbögen ist zu verhindern.</p></content></paragraph><paragraph eId="art_62/para_3"><num>3</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Wo Personen durch die Auswirkungen von Lichtbögen unmittelbar gefährdet sind, müssen besondere Schutzmassnahmen (Verschalungen, Schutzverkleidung usw.) getroffen werden.</p></content></paragraph><paragraph eId="art_62/para_4"><num>4</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Gebäude müssen so erstellt werden, dass die Folgen eines Druckanstieges beim Auftreten von Lichtbögen nicht zu einer Gefährdung von Personen oder Sachen führt.</p></content></paragraph></article><article eId="art_63"><num><b>Art. 63</b></num><heading>Abschaltung</heading><paragraph eId="art_63/para_1"><num>1</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> In Starkstromanlagen sind Einrichtungen einzubauen, die durch das Abschalten der Anlage Schäden infolge von Überlast-, Kurzschluss- und Erdschlussströmen möglichst begrenzen.</p></content></paragraph><paragraph eId="art_63/para_2"><num>2</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Die Anlage muss nicht abgeschaltet werden, wenn die Ströme auf andere Weise auf ungefährliche Werte begrenzt werden können.</p></content></paragraph></article><article eId="art_64"><num><b>Art. 64</b></num><heading>Änderung der Verhältnisse</heading><paragraph eId="art_64/para"><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Ändern sich die Verhältnisse bei einer Starkstromanlage durch Erweiterung, Umbau, Instandsetzungen oder durch den Einfluss anderer Anlagen, so sind die Einrichtungen zum Überstromschutz unverzüglich den neuen Verhältnissen anzupassen.</p></content></paragraph></article></section><section eId="chap_4/sec_3"><num>3. Abschnitt: </num><heading>Überspannungsschutz</heading><article eId="art_65"><num><b>Art. 65</b></num><paragraph eId="art_65/para"><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Die Abstände, Isolationen und Überspannungsschutzeinrichtungen einer Anlage sind nach den anerkannten Regeln der Technik so auszulegen, dass durch die inneren und äusseren Überspannungen keine Gefahren oder Beschädigungen entstehen.</p></content></paragraph></article></section></chapter><chapter eId="chap_5"><num>5. Kapitel: </num><heading>Arbeiten an Starkstromanlagen</heading><section eId="chap_5/sec_1"><num>1. Abschnitt: </num><heading>Allgemeine Bestimmungen</heading><article eId="art_66"><num><b>Art. 66</b></num><heading>Begriff</heading><paragraph eId="art_66/para_1"><num>1</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Als Arbeiten an Starkstromanlagen gelten Tätigkeiten, deren Ausführung Massnahmen erfordert, die Personen oder Sachen vor den Gefahren des Stroms schützen.</p></content></paragraph><paragraph eId="art_66/para_2"><num>2</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Das Bedienen einer Anlage von einem sicheren Standort aus und mit den Hilfsmitteln, welche für diesen Zweck konstruiert sind und ohne weitere Schutzmassnahmen gefahrlos angewendet werden können, gilt nicht als Arbeit an einer Starkstromanlage.</p></content></paragraph></article><article eId="art_67"><num><b>Art. 67</b></num><heading>Ausführendes Personal</heading><paragraph eId="art_67/para_1"><num>1</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Der Betriebsinhaber einer Starkstromanlage sorgt dafür, dass Bedienung und Arbeiten an der Anlage nur von sachverständigen oder instruierten Personen nach Artikel 11 ausgeführt werden. Er ist dafür verantwortlich, dass genügend Personal eingesetzt wird.</p></content></paragraph><paragraph eId="art_67/para_2"><num>2</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Er bezeichnet für jede Arbeitsstelle eine Person, welche für die notwendigen Schutzmassnahmen und die sichere Ausführung der Arbeiten verantwortlich ist.</p></content></paragraph><paragraph eId="art_67/para_3"><num>3</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Er sorgt dafür, dass die eingesetzten Personen auch durch Dritte nicht gefährdet werden können und ordnet die geeigneten Massnahmen an.</p></content></paragraph></article><article eId="art_68"><num><b>Art. 68</b></num><heading>Ausrüstung</heading><paragraph eId="art_68/para_1"><num>1</num><content><blockList><listIntroduction eId="art_68/para_1/listintro" xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Wer eine Arbeit an einer Starkstromanlage ausführt, muss entsprechend ausgerüstet sein. Zur Ausrüstung gehören insbesondere:</listIntroduction><item eId="art_68/para_1/lbl_a"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">a. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">persönliche Schutzmittel, die einen ausreichenden Schutz bieten gegen die Berührung unter Spannung stehender Teile, gegen Lichtbogen und mechanische Gefahren;</p></item><item eId="art_68/para_1/lbl_b"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">b. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Mittel zur Prüfung des spannungslosen Zustandes;</p></item><item eId="art_68/para_1/lbl_c"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">c. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Material für wirksame Abgrenzungen, Abschrankungen, Verschalungen und Markierungen;</p></item><item eId="art_68/para_1/lbl_d"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">d. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Erdungsvorrichtungen, die dem zu erwartenden Kurzschluss-Strom bis zu dessen Abschaltung sicher standhalten;</p></item><item eId="art_68/para_1/lbl_e"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">e. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">geeignete Kommunikationsmittel.</p></item></blockList></content></paragraph><paragraph eId="art_68/para_2"><num>2</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Bei der Bemessung der Erdungsvorrichtungen für Hochspannungsfreileitungen dürfen allfällige Erdtrenner an beiden Ausschaltstellen für die zu beherrschenden Kurzschlusssströme berücksichtigt werden.</p></content></paragraph><paragraph eId="art_68/para_3"><num>3</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Ausrüstung und Hilfsmittel müssen periodisch auf Funktionsfähigkeit und guten Zustand überprüft werden.</p></content></paragraph></article><article eId="art_69"><num><b>Art. 69</b></num><heading>Technische Unterlagen</heading><paragraph eId="art_69/para_1"><num>1</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Der Betriebsinhaber einer Anlage erteilt dem Verantwortlichen der Arbeit grundsätzlich einen schriftlichen Auftrag und stellt die notwendigen technischen Unterlagen zur Verfügung. Für Arbeiten an Niederspannungsanlagen, zur Behebung von Betriebsstörungen und in einfachen Fällen dürfen der Arbeitsauftrag und die notwendigen Informationen mündlich erteilt werden.</p></content></paragraph><paragraph eId="art_69/para_2"><num>2</num><content><blockList><listIntroduction eId="art_69/para_2/listintro" xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Die Unterlagen müssen insbesondere Auskunft geben über:</listIntroduction><item eId="art_69/para_2/lbl_a"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">a. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">den Schaltzustand;</p></item><item eId="art_69/para_2/lbl_b"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">b. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">die vorzunehmenden Schalthandlungen;</p></item><item eId="art_69/para_2/lbl_c"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">c. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">die zu treffenden Schutzmassnahmen und den erforderlichen Arbeitsablauf;</p></item><item eId="art_69/para_2/lbl_d"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">d. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">die Möglichkeiten, auf die Arbeitsstelle Spannung zuzuschalten;</p></item><item eId="art_69/para_2/lbl_e"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">e. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">die Fremdeinspeisungen, die direkt oder über eine Installation möglich sind;</p></item><item eId="art_69/para_2/lbl_f"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">f. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">die Kreuzungen und Parallelführungen mit elektrischen und anderen Leitungen;</p></item><item eId="art_69/para_2/lbl_g"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">g. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">die Lage der einzelnen Anlageteile, z. B. durch Situationspläne.</p></item></blockList></content></paragraph><paragraph eId="art_69/para_3"><num>3</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Der für die Arbeit Verantwortliche muss den zeitlichen Ablauf der Schalthandlungen und die Arbeitsabläufe allen Beteiligten zur Kenntnis bringen.</p></content></paragraph></article><article eId="art_70"><num><b>Art. 70</b></num><heading>Sicherung der Arbeitsstelle</heading><paragraph eId="art_70/para_1"><num>1</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Der für die Arbeit Verantwortliche muss dafür sorgen, dass durch die Arbeit keine Drittpersonen gefährdet oder Anlagen anderer Unternehmungen gestört oder gefährdet werden können.</p></content></paragraph><paragraph eId="art_70/para_2"><num>2</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Können Arbeitende durch elektrische Anlagen anderer Unternehmungen gefährdet werden, so müssen sich die Beteiligten gegenseitig absprechen und die notwendigen Schutzmassnahmen treffen.</p></content></paragraph><paragraph eId="art_70/para_3"><num>3</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Bei erkennbarer Gefährdung durch atmosphärische Überspannungen oder andere Ursachen im Bereich der Arbeitsstelle ist die Arbeit zu unterbrechen und die Arbeitsstelle bzw. die Anlagen sind zu sichern und zu verlassen.</p></content></paragraph></article><article eId="art_71"><num><b>Art. 71</b></num><heading>Schalthandlungen im Zusammenhang mit Arbeiten an <br/>Starkstromanlagen</heading><paragraph eId="art_71/para_1"><num>1</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Bevor mit dem Sichern der Arbeitsstelle und mit der Arbeit begonnen wird, ist eine Rückfrage über die Freischaltung der Anlage erforderlich.</p></content></paragraph><paragraph eId="art_71/para_2"><num>2</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Schalter oder Trennvorrichtungen von Anlageteilen, an denen gearbeitet wird, müssen in ausgeschaltetem Zustand gesichert und nach den Regeln der Technik markiert werden.</p></content></paragraph><paragraph eId="art_71/para_3"><num>3</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Schalthandlungen an Anlagen, an welchen gearbeitet wird, dürfen nur auf direkte Anweisung, allenfalls über Funk oder Telefon, der verantwortlichen Person an der Arbeitsstelle vorgenommen werden.</p></content></paragraph></article></section><section eId="chap_5/sec_2"><num>2. Abschnitt: </num><heading>Arbeiten an ausgeschalteten Starkstromanlagen</heading><article eId="art_72"><num><b>Art. 72</b></num><heading>Vorbereiten der Arbeitsstelle</heading><paragraph eId="art_72/para_1"><num>1</num><content><blockList><listIntroduction eId="art_72/para_1/listintro" xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Vor Beginn der Arbeiten an Hochspannungsanlagen muss die Arbeitsstelle nach den folgenden fünf Sicherheitsregeln vorbereitet werden:</listIntroduction><item eId="art_72/para_1/lbl_a"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">a. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">freischalten und allseitig trennen;</p></item><item eId="art_72/para_1/lbl_b"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">b. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">gegen Wiedereinschalten sichern;</p></item><item eId="art_72/para_1/lbl_c"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">c. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">auf Spannungslosigkeit prüfen;</p></item><item eId="art_72/para_1/lbl_d"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">d. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">erden und kurzschliessen;</p></item><item eId="art_72/para_1/lbl_e"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">e. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">gegen benachbarte, unter Spannung stehende Teile schützen.</p></item></blockList></content></paragraph><paragraph eId="art_72/para_2"><num>2</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Ist die Erdung und Kurzschliessung von der Arbeitsstelle aus nicht sichtbar, müssen allseitig der Arbeitsstelle zusätzliche Erdungen oder andere gleichwertige Schutzmassnahmen vorgesehen werden. Kabelanlagen sind davon ausgenommen.</p></content></paragraph><paragraph eId="art_72/para_3"><num>3</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Bei gasisolierten Anlagen, in denen eine Spannungsprüfung nach Absatz 1 nicht möglich ist, muss die allseitige Trennung an Ort überprüft und der abgetrennte Anlageteil mit eingebauten Schnell- oder Arbeitserdern geerdet werden.</p></content></paragraph><paragraph eId="art_72/para_4"><num>4</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Bei Arbeiten an Niederspannungsanlagen darf auf das Erden und Kurzschliessen verzichtet werden, wenn keine Gefahr von Spannungsübertragung oder Rückeinspeisung besteht.</p></content></paragraph></article><article eId="art_73"><num><b>Art. 73</b></num><heading>Weitere Sicherungsmassnahmen</heading><paragraph eId="art_73/para_1"><num>1</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Bei grossräumigen Starkstromanlagen müssen auch die Zugangswege zu den Arbeitsstellen markiert und, wenn nötig, abgeschrankt werden.</p></content></paragraph><paragraph eId="art_73/para_2"><num>2</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Elektrisch leitende Konstruktionsteile müssen, auch wenn sie nicht der Stromführung dienen, im Bereich der Arbeitsstelle ebenfalls in die Erdung der Arbeitsstelle einbezogen werden.</p></content></paragraph><paragraph eId="art_73/para_3"><num>3</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Leitende Umhüllungen von Kabeln müssen vor dem Auftrennen überbrückt werden.</p></content></paragraph><paragraph eId="art_73/para_4"><num>4</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Anlagen mit Kondensatoren und gleichartigen Einrichtungen müssen vor Beginn der Arbeiten entladen, kurzgeschlossen und markiert werden. Sie müssen während der Arbeit kurzgeschlossen bleiben.</p></content></paragraph></article><article eId="art_74"><num><b>Art. 74</b></num><heading>Wiedereinschalten der Starkstromanlage</heading><paragraph eId="art_74/para"><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Die für die Arbeit verantwortliche Person überprüft die Anlage nach Beendigung der Arbeit. Sie darf sie zur Einschaltung erst freigeben, wenn sie betriebsbereit ist und den sicherheitstechnischen Anforderungen entspricht.</p></content></paragraph></article></section><section eId="chap_5/sec_3"><num>3. Abschnitt: </num><heading>Arbeiten an unter Spannung stehenden Starkstromanlagen</heading><article eId="art_75"><num><b>Art. 75</b></num><heading>Grundsatz</heading><paragraph eId="art_75/para_1"><num>1</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Arbeiten an unter Spannung stehenden Starkstromanlagen sind nur dann zulässig, wenn die nach dem Stand der Technik anerkannten Methoden (wie Arbeiten auf Abstand, Arbeiten mit Kontakt, Arbeiten auf Potential) gefahrlos angewendet werden können.</p></content></paragraph><paragraph eId="art_75/para_2"><num>2</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Personen, die für das Arbeiten an unter Hochspannung stehenden Anlagen eingesetzt sind, dürfen die nach Absatz 1 verlangten Methoden nicht mit Arbeiten an ausgeschalteten Anlagen gemäss dem zweiten Abschnitt kombinieren.</p></content></paragraph><paragraph eId="art_75/para_3"><num>3</num><content><blockList><listIntroduction eId="art_75/para_3/listintro" xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Die Bestimmungen dieses Abschnittes gelten nicht für:</listIntroduction><item eId="art_75/para_3/lbl_a"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">a. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Arbeiten an Starkstromanlagen mit Spannungen unter 50 V;</p></item><item eId="art_75/para_3/lbl_b"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">b. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Arbeiten an Steuerungs-, Regel- und Messkreisen;</p></item><item eId="art_75/para_3/lbl_c"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">c. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">einfache Routinearbeiten wie Prüfen, Messen, Reinigen, Anbringen oder Entfernen von Abdeckungen und dergleichen.</p></item></blockList></content></paragraph></article><article eId="art_76"><num><b>Art. 76</b></num><heading>Anforderungen an das Personal</heading><paragraph eId="art_76/para_1"><num>1</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Für Arbeiten an unter Spannung stehenden Starkstromanlagen dürfen nur Personen eingesetzt werden, die dazu geeignet und für das Arbeiten unter Spannung besonders ausgebildet sind.</p></content></paragraph><paragraph eId="art_76/para_2"><num>2</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Sie müssen eine regelmässige gezielte Schulung mit genügend praktischen Einsätzen nachweisen.</p></content></paragraph></article><article eId="art_77"><num><b>Art. 77</b></num><heading>Anforderungen an den Arbeitsplatz</heading><paragraph eId="art_77/para_1"><num>1</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Arbeiten an unter Spannung stehenden Starkstromanlagen sind nur zulässig, wenn dafür an einem sicheren Standort genügend Platz vorhanden ist.</p></content></paragraph><paragraph eId="art_77/para_2"><num>2</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Lichtbogenbildungen müssen durch genügend grosse Abstände oder durch das Anbringen isolierender Abdeckungen verhindert werden.</p></content></paragraph></article><article eId="art_78"><num><b>Art. 78</b></num><heading>Zusätzliche Anforderungen an die Ausrüstung</heading><paragraph eId="art_78/para_1"><num>1</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Die Arbeitskleidung muss Schutz bieten gegen Lichtbogeneinwirkungen und gefährliche kapazitive Aufladung des Arbeitenden.</p></content></paragraph><paragraph eId="art_78/para_2"><num>2</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Werkzeuge und Hilfsmittel müssen entsprechend den grössten vorkommenden Spannungen isoliert und nach den anerkannten Regeln der Technik konstruiert sein.</p></content></paragraph></article><article eId="art_79"><num><b>Art. 79</b></num><heading>Organisation am Arbeitsplatz</heading><paragraph eId="art_79/para_1"><num>1</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> An jedem Arbeitsplatz müssen mindestens zwei Personen eingesetzt werden. Eine davon muss sachverständig sein und die Arbeiten leiten und beaufsichtigen. Die übrigen Personen müssen mindestens instruiert sein.</p></content></paragraph><paragraph eId="art_79/para_2"><num>2</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Für Arbeiten an betriebseigenen Niederspannungsanlagen (z. B. Versorgungs-, Mess-, Regel- und Steuerleitungen) kann eine einzelne Person eingesetzt werden, wenn Massnahmen getroffen werden, die einen Stromfluss durch den menschlichen Körper und eine Lichtbogenbildung weitgehend ausschliessen.</p></content></paragraph></article></section><section eId="chap_5/sec_4"><num>4. Abschnitt: </num><heading>Prüf- und Entwicklungseinrichtungen</heading><article eId="art_80"><num><b>Art. 80</b></num><paragraph eId="art_80/para_1"><num>1</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Können bei Prüf- und Entwicklungseinrichtungen die Vorschriften dieser Verordnung nicht vollumfänglich eingehalten werden, so muss der Betriebsinhaber der Einrichtung den Schutz von Personen und Sachen nach den anerkannten Regeln der Technik durch andere gleichwertige oder durch zusätzliche Schutzmassnahmen sicherstellen.</p></content></paragraph><paragraph eId="art_80/para_2"><num>2</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Prüf- und Entwicklungseinrichtungen dürfen nur unter der Aufsicht einer instruierten Person bedient und betrieben werden.</p></content></paragraph></article></section></chapter><chapter eId="chap_6"><num>6. Kapitel: </num><heading>Provisorische Anlagen</heading><article eId="art_81"><num><b>Art. 81</b></num><heading>Sicherheit</heading><paragraph eId="art_81/para_1"><num>1</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Diese Verordnung gilt auch für Anlagen, die nur für eine beschränkte Betriebsdauer erstellt werden (provisorische Anlagen).</p></content></paragraph><paragraph eId="art_81/para_2"><num>2</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Abweichungen sind nur zulässig, wenn die Sicherheit von Personen und Sachen durch andere gleichwertige oder durch zusätzliche Massnahmen gewährleistet ist.</p></content></paragraph><paragraph eId="art_81/para_3"><num>3</num><content><blockList><listIntroduction eId="art_81/para_3/listintro" xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Wird eine provisorische Anlage nur für wenige Tage erstellt, so können auch Ersatzmassnahmen getroffen werden, die eine Gefährdung von Personen und Sachen ausschliessen, wie:</listIntroduction><item eId="art_81/para_3/lbl_a"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">a. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Abgrenzungen oder Abschrankungen bei dauernd beaufsichtigten Anlagen;</p></item><item eId="art_81/para_3/lbl_b"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">b. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">fest angebrachte Verschalungen oder zweckmässige Umzäunungen mit Warntafeln bei unbeaufsichtigten Anlagen.</p></item></blockList></content></paragraph></article><article eId="art_82"><num><b>Art. 82</b></num><heading>Konstruktionsmaterialien</heading><paragraph eId="art_82/para_1"><num>1</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Für provisorische Anlagen verwendete Materialien müssen so gewählt oder nötigenfalls behandelt werden, dass sie den ihrem Verwendungszweck entsprechenden technischen Anforderungen genügen und den witterungsbedingten Beanspruchungen während der ganzen Betriebsdauer standhalten.</p></content></paragraph><paragraph eId="art_82/para_2"><num>2</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Brennbare Konstruktionsmaterialien dürfen für provisorische Anlagen nur verwendet werden, wenn ein Brand dieser Anlage keine Gefährdung für benachbarte Gebäude und Anlagen darstellt und keine schwerwiegende Beeinträchtigung des Betriebes anderer Anlagen zur Folge hat.</p></content></paragraph><paragraph eId="art_82/para_3"><num>3</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Wo betriebsmässig oder in voraussehbaren Störfällen örtliche Erhitzungen auftreten können, müssen die brennbaren Konstruktionsmaterialien so behandelt oder verkleidet werden, dass sie sich nicht entzünden können.</p></content></paragraph></article><article eId="art_83"><num><b>Art. 83</b></num><heading>Entfernung und Überprüfung</heading><paragraph eId="art_83/para_1"><num>1</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Provisorische Anlagen müssen entfernt werden, sobald sie nicht mehr benützt werden.</p></content></paragraph><paragraph eId="art_83/para_2"><num>2</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Provisorische Anlagen für mehrere Jahre müssen jeweils vom Betriebsinhaber nach Ablauf eines Jahres erneut auf ihre Sicherheit überprüft werden.</p></content></paragraph></article></chapter><chapter eId="chap_7"><num>7. Kapitel: </num><heading>Schlussbestimmungen</heading><article eId="art_84"><num><b>Art. 84</b></num><heading>Aufhebung bisherigen Rechtes</heading><paragraph eId="art_84/para"><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Die Starkstromverordnung vom 7. Juli 1933<authorialNote>
+		<p> [BS <b>4 </b>798; <ref href="https://fedlex.data.admin.ch/eli/oc/1948/789_774_737" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">AS <b>1948 </b>789</ref>; <ref href="https://fedlex.data.admin.ch/eli/oc/1954/1119_1146_1042" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp"><b>1954 </b>1119</ref>; <ref href="https://fedlex.data.admin.ch/eli/oc/1971/24_23_24" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp"><b>1971 </b>24</ref>; <ref href="https://fedlex.data.admin.ch/eli/oc/1977/1943_1943_1943" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp"><b>1977 </b>1943</ref>; <ref href="https://fedlex.data.admin.ch/eli/oc/1985/35_35_35" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp"><b>1985 </b>35</ref>; <ref href="https://fedlex.data.admin.ch/eli/oc/1987/888_888_888" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp"><b>1987 </b>888 </ref>Art. 21, 22 Bst. a, <ref href="https://fedlex.data.admin.ch/eli/oc/1989/1834_1834_1834" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp"><b>1989</b> 1834 </ref>Art. 41 Ziff. 1, <ref href="https://fedlex.data.admin.ch/eli/oc/1993/901_901_901" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp"><b>1993</b> 901 </ref>Anhang Ziff. 13]</p>
+	</authorialNote> wird aufgehoben.</p></content></paragraph></article><article eId="art_85"><num><b>Art. 85</b></num><heading>Änderung bisherigen Rechtes</heading><paragraph eId="art_85/para"><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">…<authorialNote>
+		<p> Die Änderung kann unter <ref href="https://fedlex.data.admin.ch/eli/oc/1994/1199_1199_1199" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">AS <b>1994</b> 1199 </ref>konsultiert werden.</p>
+	</authorialNote></p></content></paragraph></article><article eId="art_86"><num><b>Art. 86</b></num><heading>Inkrafttreten</heading><paragraph eId="art_86/para"><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Diese Verordnung tritt am 1. Juni 1994 in Kraft.</p></content></paragraph></article></chapter></body><components><component><doc name="annex"><meta><identification source="#ch.bk"><FRBRWork><FRBRthis value="https://fedlex.data.admin.ch/eli/cc/1994/1199_1199_1199/20190601/main-text"/><FRBRuri value="https://fedlex.data.admin.ch/eli/cc/1994/1199_1199_1199/20190601"/><FRBRdate date="1994-03-30" name="jolux:dateDocument"/><FRBRdate date="1994-06-01" name="jolux:dateEntryInForce"/><FRBRdate date="2019-06-01" name="jolux:dateApplicability"/><FRBRauthor href="#ch.bk" as="#publisher"/><FRBRauthor href="#ch.bk" as="#rightsHolder"/><FRBRcountry value="CH"/><FRBRnumber value="734.2"/><FRBRname xml:lang="fr" value="Ordonnance du 30 mars 1994 sur les installations électriques à courant fort (Ordonnance sur le courant fort)" shortForm=""/><FRBRname xml:lang="it" value="Ordinanza del 30 marzo 1994 sugli impianti elettrici a corrente forte (Ordinanza sulla corrente forte)" shortForm=""/><FRBRname xml:lang="de" value="Verordnung vom 30. März 1994 über elektrische Starkstromanlagen (Starkstromverordnung)" shortForm=""/><FRBRauthoritative value="true"/></FRBRWork><FRBRExpression><FRBRthis value="https://fedlex.data.admin.ch/eli/cc/1994/1199_1199_1199/20190601/de/main-text"/><FRBRuri value="https://fedlex.data.admin.ch/eli/cc/1994/1199_1199_1199/20190601/de"/><FRBRdate date="1994-03-30" name="jolux:dateDocument"/><FRBRdate date="1994-06-01" name="jolux:dateEntryInForce"/><FRBRdate date="2019-06-01" name="jolux:dateApplicability"/><FRBRauthor href="#ch.bk" as="#publisher"/><FRBRauthor href="#ch.bk" as="#rightsHolder"/><FRBRlanguage language="de"/></FRBRExpression><FRBRManifestation><FRBRthis value="https://fedlex.data.admin.ch/eli/cc/1994/1199_1199_1199/20190601/de/xml/main-text"/><FRBRuri value="https://fedlex.data.admin.ch/eli/cc/1994/1199_1199_1199/20190601/de/xml"/><FRBRdate date="1994-03-30" name="jolux:dateDocument"/><FRBRdate date="1994-06-01" name="jolux:dateEntryInForce"/><FRBRdate date="2019-06-01" name="jolux:dateApplicability"/><FRBRauthor href="#ch.bk" as="#publisher"/><FRBRauthor href="#ch.bk" as="#rightsHolder"/><FRBRformat value="xml"/></FRBRManifestation></identification></meta><preface><container name="headerOfAnnex"><block name="num">Anhang 1</block></container></preface><mainBody><p>(Art. 27 und 35)</p><level eId="annex_1/lvl_u1"><heading>Minimalmasse für Gänge und Zugänge in Innenraumanlagen</heading><content><table border="1">
+			
+			
+			<tr>
+				
+				
+				<th xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">
+					
+					
+				</th>
+				<th xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">
+					
+					<p>freie <br/>Gangbreite m</p>
+				</th>
+				<th xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">
+					
+					<p>freie <br/>Ganghöhe m</p>
+				</th>
+			</tr>
+			<tr>
+				
+				
+				<td><blockList><item><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">1. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Bedienungsgänge</p></item></blockList></td>
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td><blockList><item><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"/><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">In Niederspannungsanlagen</p></item></blockList></td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">0,8</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">2,0</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td><blockList><item><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"/><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">In Hochspannungsanlagen</p></item></blockList></td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">1,0</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">2,1</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td><blockList><item><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">2. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Montagegänge</p></item></blockList></td>
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td><blockList><item><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"/><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">In offenen Niederspannungsanlagen</p></item></blockList></td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">0,7</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">2,0</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td><blockList><item><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"/><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">In gekapselten Anlagen</p></item></blockList></td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">0,5</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">2,0</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Breite m</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Höhe m</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td><blockList><item><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">3. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Zugänge</p></item></blockList></td>
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td><blockList><item><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"/><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Türen zu Niederspannungsanlagen</p></item></blockList></td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">0,65</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">1,95</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td><blockList><item><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"/><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Türen zu Hochspannungsanlagen</p></item></blockList></td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">0,8</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">1,95</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td><blockList><item><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"/><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Notausgänge</p></item></blockList></td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">0,6</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">1,95</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td><blockList><item><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"/><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Einstiegschächte (Durchmesser) ∅</p></item></blockList></td>
+				<td colspan="2">
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">0,8</p>
+				</td>
+			</tr>
+		</table><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Anmerkung</p><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Sofern sich an der Decke einer Innenraumanlage spannungsführende Teile befinden, gelten die Abstände nach Anhang 2.</p></content></level></mainBody></doc></component><component><doc name="annex"><meta><identification source="#ch.bk"><FRBRWork><FRBRthis value="https://fedlex.data.admin.ch/eli/cc/1994/1199_1199_1199/20190601/main-text"/><FRBRuri value="https://fedlex.data.admin.ch/eli/cc/1994/1199_1199_1199/20190601"/><FRBRdate date="1994-03-30" name="jolux:dateDocument"/><FRBRdate date="1994-06-01" name="jolux:dateEntryInForce"/><FRBRdate date="2019-06-01" name="jolux:dateApplicability"/><FRBRauthor href="#ch.bk" as="#publisher"/><FRBRauthor href="#ch.bk" as="#rightsHolder"/><FRBRcountry value="CH"/><FRBRnumber value="734.2"/><FRBRname xml:lang="fr" value="Ordonnance du 30 mars 1994 sur les installations électriques à courant fort (Ordonnance sur le courant fort)" shortForm=""/><FRBRname xml:lang="it" value="Ordinanza del 30 marzo 1994 sugli impianti elettrici a corrente forte (Ordinanza sulla corrente forte)" shortForm=""/><FRBRname xml:lang="de" value="Verordnung vom 30. März 1994 über elektrische Starkstromanlagen (Starkstromverordnung)" shortForm=""/><FRBRauthoritative value="true"/></FRBRWork><FRBRExpression><FRBRthis value="https://fedlex.data.admin.ch/eli/cc/1994/1199_1199_1199/20190601/de/main-text"/><FRBRuri value="https://fedlex.data.admin.ch/eli/cc/1994/1199_1199_1199/20190601/de"/><FRBRdate date="1994-03-30" name="jolux:dateDocument"/><FRBRdate date="1994-06-01" name="jolux:dateEntryInForce"/><FRBRdate date="2019-06-01" name="jolux:dateApplicability"/><FRBRauthor href="#ch.bk" as="#publisher"/><FRBRauthor href="#ch.bk" as="#rightsHolder"/><FRBRlanguage language="de"/></FRBRExpression><FRBRManifestation><FRBRthis value="https://fedlex.data.admin.ch/eli/cc/1994/1199_1199_1199/20190601/de/xml/main-text"/><FRBRuri value="https://fedlex.data.admin.ch/eli/cc/1994/1199_1199_1199/20190601/de/xml"/><FRBRdate date="1994-03-30" name="jolux:dateDocument"/><FRBRdate date="1994-06-01" name="jolux:dateEntryInForce"/><FRBRdate date="2019-06-01" name="jolux:dateApplicability"/><FRBRauthor href="#ch.bk" as="#publisher"/><FRBRauthor href="#ch.bk" as="#rightsHolder"/><FRBRformat value="xml"/></FRBRManifestation></identification></meta><preface><container name="headerOfAnnex"><block name="num">Anhang 2</block></container></preface><mainBody><p>(Art. 36)</p><level eId="annex_2/lvl_u1"><heading>Mindestabstände in Innenraumanlagen</heading><intro><table fedlex:function="layout">
+			
+			
+			<tr>
+				
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Nennspannung</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">kV  ≤ 1</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">3</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">6</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">10</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">15</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">20</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">30</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">45</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">60</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">110</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">132</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">150</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">höchste Betriebsspannung</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">kV</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">3,6</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">7,2</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">12</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">17,5</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">24</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">36</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">52</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">72,5</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">123</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">145</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">170</p>
+				</td>
+			</tr>
+		</table><table border="1">
+			
+			
+			<tr>
+				
+				
+				<td><blockList><item><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">1. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Mindestabstand zwischen unter Spannung stehenden Teilen und</p></item></blockList></td>
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td><blockList><item><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">a. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Schranke</p></item></blockList></td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">m 0,20</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">0,50</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">0,50</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">0,50</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">0,50</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">0,50</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">0,50</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">0,70</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">0,85</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">1,10</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">1,30</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">1,50</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td><blockList><item><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">b. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Gitterabschluss</p></item></blockList></td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">m 0,15</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">0,16</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">0,16</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">0,19</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">0,22</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">0,26</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">0,37</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">0,58</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">0,73</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">1,00</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">1,20</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">1,40</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td><blockList><item><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">c. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Vollwandverschalung (metallisch geerdet)</p></item></blockList></td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">m<inline name="man-color-FF0000"> </inline>0,08</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">0,08</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">0,09</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">0,12</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">0,16</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">0,22</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">0,32</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">0,50</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">0,70</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">0,90</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">1,10</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">1,30</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td><blockList><item><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">2. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Mindesthöhe zwischen Bedienungsstandort und ungeschützt unter Spannung stehenden Teilen</p></item></blockList></td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">m<inline name="man-color-FF0000"> </inline>2,3</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">2,5</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">2,5</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">2,5</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">2,5</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">2,5</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">2,6</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">2,75</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">2,9</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">3,4</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">3,55</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">3,7</p>
+				</td>
+			</tr>
+		</table></intro><level eId="annex_2/lvl_u1/lvl_u1"><heading>Bemessungshinweise</heading><intro><table border="1">
+			
+			
+			<tr>
+				
+				
+				<td><blockList><item><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">1. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Schrankenhöhe Hochspannungsanlagen:</p></item></blockList></td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">0,5 m und 1,4 m</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td><blockList><item><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">2. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Schrankenhöhe Niederspannungsanlagen:</p></item></blockList></td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">1,2 m</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td><blockList><item><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">3. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Gitter- und Verschalungshöhe:</p></item></blockList></td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">min. 1,8 m</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td><blockList><item><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">4. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Gitterabschluss</p></item></blockList></td>
+				<td>
+					
+					
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td><blockList><item><num><placeholder fedlex:message="E40S10-TAB">[tab]</placeholder></num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">– max. Maschenweite:</p></item></blockList></td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">40 mm</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td><blockList><item><num><placeholder fedlex:message="E40S10-TAB">[tab]</placeholder></num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">– min. Drahtdicke:</p></item></blockList></td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">2 mm</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td colspan="2"><blockList><item><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">5. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Bei Mindesthöhen sind allfällige Stufen, Isolierschemel oder ähnliches zu berücksichtigen.</p></item></blockList></td>
+			</tr>
+			<tr>
+				
+				
+				<td colspan="2"><blockList><item><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">6. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Die Abstände gelten für Höhen bis 1000 m über Meer. In grösseren Höhen sind sie linear um 14 Prozent pro 1000 m Höhenzunahme zu vergrössern.</p></item></blockList></td>
+			</tr>
+		</table></intro><level eId="annex_2/lvl_u1/lvl_u1/lvl_u1"><heading>Innenraumanlagen: Minimalmasse in m</heading><content><p><img fedlex:original-width="107" fedlex:original-height="161" fedlex:original-text-width="148" fedlex:original-page-width="108" src="image/image1.png"/></p></content></level></level></level></mainBody></doc></component><component><doc name="annex"><meta><identification source="#ch.bk"><FRBRWork><FRBRthis value="https://fedlex.data.admin.ch/eli/cc/1994/1199_1199_1199/20190601/main-text"/><FRBRuri value="https://fedlex.data.admin.ch/eli/cc/1994/1199_1199_1199/20190601"/><FRBRdate date="1994-03-30" name="jolux:dateDocument"/><FRBRdate date="1994-06-01" name="jolux:dateEntryInForce"/><FRBRdate date="2019-06-01" name="jolux:dateApplicability"/><FRBRauthor href="#ch.bk" as="#publisher"/><FRBRauthor href="#ch.bk" as="#rightsHolder"/><FRBRcountry value="CH"/><FRBRnumber value="734.2"/><FRBRname xml:lang="fr" value="Ordonnance du 30 mars 1994 sur les installations électriques à courant fort (Ordonnance sur le courant fort)" shortForm=""/><FRBRname xml:lang="it" value="Ordinanza del 30 marzo 1994 sugli impianti elettrici a corrente forte (Ordinanza sulla corrente forte)" shortForm=""/><FRBRname xml:lang="de" value="Verordnung vom 30. März 1994 über elektrische Starkstromanlagen (Starkstromverordnung)" shortForm=""/><FRBRauthoritative value="true"/></FRBRWork><FRBRExpression><FRBRthis value="https://fedlex.data.admin.ch/eli/cc/1994/1199_1199_1199/20190601/de/main-text"/><FRBRuri value="https://fedlex.data.admin.ch/eli/cc/1994/1199_1199_1199/20190601/de"/><FRBRdate date="1994-03-30" name="jolux:dateDocument"/><FRBRdate date="1994-06-01" name="jolux:dateEntryInForce"/><FRBRdate date="2019-06-01" name="jolux:dateApplicability"/><FRBRauthor href="#ch.bk" as="#publisher"/><FRBRauthor href="#ch.bk" as="#rightsHolder"/><FRBRlanguage language="de"/></FRBRExpression><FRBRManifestation><FRBRthis value="https://fedlex.data.admin.ch/eli/cc/1994/1199_1199_1199/20190601/de/xml/main-text"/><FRBRuri value="https://fedlex.data.admin.ch/eli/cc/1994/1199_1199_1199/20190601/de/xml"/><FRBRdate date="1994-03-30" name="jolux:dateDocument"/><FRBRdate date="1994-06-01" name="jolux:dateEntryInForce"/><FRBRdate date="2019-06-01" name="jolux:dateApplicability"/><FRBRauthor href="#ch.bk" as="#publisher"/><FRBRauthor href="#ch.bk" as="#rightsHolder"/><FRBRformat value="xml"/></FRBRManifestation></identification></meta><preface><container name="headerOfAnnex"><block name="num">Anhang 3</block></container></preface><mainBody><p>(Art. 43 und 48)</p><level eId="annex_3/lvl_u1"><heading>Sicherheitsabstände in Freiluftanlagen</heading><intro><table border="1">
+			
+			
+			<tr>
+				
+				
+				<th xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">
+					
+					<p>Kol. 1 <br/>Nennspannung</p>
+				</th>
+				<th xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">
+					
+					<p>Kol. 2 <br/>Höchste <br/>Betriebsspannung</p>
+				</th>
+				<th xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">
+					
+					<p>Kol. 3 <br/>Mindesthöhe zu unter Spannung <br/>stehenden Teilen</p>
+				</th>
+			</tr>
+			<tr>
+				
+				
+				<th xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">
+					
+					<p>kV</p>
+				</th>
+				<th xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">
+					
+					<p>kV</p>
+				</th>
+				<th xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">
+					
+					<p>m</p>
+				</th>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> 20</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> 24</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">2,50</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p> 30</p>
+				</td>
+				<td>
+					
+					<p> 36</p>
+				</td>
+				<td>
+					
+					<p>2,55</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p> 45</p>
+				</td>
+				<td>
+					
+					<p> 52</p>
+				</td>
+				<td>
+					
+					<p>2,70</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p> 60</p>
+				</td>
+				<td>
+					
+					<p> 72,5</p>
+				</td>
+				<td>
+					
+					<p>2,85</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p>110</p>
+				</td>
+				<td>
+					
+					<p>123</p>
+				</td>
+				<td>
+					
+					<p>3,35</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p>132</p>
+				</td>
+				<td>
+					
+					<p>145</p>
+				</td>
+				<td>
+					
+					<p>3,57</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p>150</p>
+				</td>
+				<td>
+					
+					<p>170</p>
+				</td>
+				<td>
+					
+					<p>3,75</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p>220</p>
+				</td>
+				<td>
+					
+					<p>245</p>
+				</td>
+				<td>
+					
+					<p>4,45</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">380</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">420</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">6,05</p>
+				</td>
+			</tr>
+		</table></intro><level eId="annex_3/lvl_u1/lvl_u1"><heading>Bemessungshinweise</heading><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">1. Die Mindesthöhen in Kolonne 3 betragen 2,25 m+0,01 m pro kV Nennspannung, mindestens aber 2,5 m.</p><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">2. Für extreme Schneehöhen sind Zuschläge notwendig.</p><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">3. Für weitere Abstände gelten die anerkannten Regeln der Technik.</p><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">4. Die Abstände der Leitungszuführungen richten sich nach der Leitungsverordnung.</p><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">5. Die Abstände gelten für Höhen bis 1000 m über Meer. In grösseren Höhen sind sie linear um 14 Prozent pro 1000 m Höhenzunahme zu vergrössern.</p></content></level></level></mainBody></doc></component><component><doc name="annex"><meta><identification source="#ch.bk"><FRBRWork><FRBRthis value="https://fedlex.data.admin.ch/eli/cc/1994/1199_1199_1199/20190601/main-text"/><FRBRuri value="https://fedlex.data.admin.ch/eli/cc/1994/1199_1199_1199/20190601"/><FRBRdate date="1994-03-30" name="jolux:dateDocument"/><FRBRdate date="1994-06-01" name="jolux:dateEntryInForce"/><FRBRdate date="2019-06-01" name="jolux:dateApplicability"/><FRBRauthor href="#ch.bk" as="#publisher"/><FRBRauthor href="#ch.bk" as="#rightsHolder"/><FRBRcountry value="CH"/><FRBRnumber value="734.2"/><FRBRname xml:lang="fr" value="Ordonnance du 30 mars 1994 sur les installations électriques à courant fort (Ordonnance sur le courant fort)" shortForm=""/><FRBRname xml:lang="it" value="Ordinanza del 30 marzo 1994 sugli impianti elettrici a corrente forte (Ordinanza sulla corrente forte)" shortForm=""/><FRBRname xml:lang="de" value="Verordnung vom 30. März 1994 über elektrische Starkstromanlagen (Starkstromverordnung)" shortForm=""/><FRBRauthoritative value="true"/></FRBRWork><FRBRExpression><FRBRthis value="https://fedlex.data.admin.ch/eli/cc/1994/1199_1199_1199/20190601/de/main-text"/><FRBRuri value="https://fedlex.data.admin.ch/eli/cc/1994/1199_1199_1199/20190601/de"/><FRBRdate date="1994-03-30" name="jolux:dateDocument"/><FRBRdate date="1994-06-01" name="jolux:dateEntryInForce"/><FRBRdate date="2019-06-01" name="jolux:dateApplicability"/><FRBRauthor href="#ch.bk" as="#publisher"/><FRBRauthor href="#ch.bk" as="#rightsHolder"/><FRBRlanguage language="de"/></FRBRExpression><FRBRManifestation><FRBRthis value="https://fedlex.data.admin.ch/eli/cc/1994/1199_1199_1199/20190601/de/xml/main-text"/><FRBRuri value="https://fedlex.data.admin.ch/eli/cc/1994/1199_1199_1199/20190601/de/xml"/><FRBRdate date="1994-03-30" name="jolux:dateDocument"/><FRBRdate date="1994-06-01" name="jolux:dateEntryInForce"/><FRBRdate date="2019-06-01" name="jolux:dateApplicability"/><FRBRauthor href="#ch.bk" as="#publisher"/><FRBRauthor href="#ch.bk" as="#rightsHolder"/><FRBRformat value="xml"/></FRBRManifestation></identification></meta><preface><container name="headerOfAnnex"><block name="num">Anhang 4</block></container></preface><mainBody><p>(Art. 54, 55 und 57)</p><level eId="annex_4/lvl_u1"><heading>Zulässige Berührungsspannungen</heading><content><p><br/><img fedlex:original-width="102" fedlex:original-height="141" fedlex:original-text-width="148" fedlex:original-page-width="108" src="image/image2.png"/></p></content></level></mainBody></doc></component></components></act></akomaNtoso>

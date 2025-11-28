@@ -1,0 +1,837 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:fedlex="http://fedlex.admin.ch/"><act name="publicLaw"><meta><identification source="#ch.bk"><FRBRWork><FRBRthis value="https://fedlex.data.admin.ch/eli/cc/2017/154/20250701/main-text"/><FRBRuri value="https://fedlex.data.admin.ch/eli/cc/2017/154/20250701"/><FRBRdate date="2025-07-01" name="jolux:dateApplicability"/><FRBRdate date="2017-05-01" name="jolux:dateEntryInForce"/><FRBRdate date="2016-12-16" name="jolux:dateDocument"/><FRBRauthor href="#ch.bk" as="#publisher"/><FRBRauthor href="#ch.bk" as="#rightsHolder"/><FRBRcountry value="CH"/><FRBRnumber value="817.022.13"/><FRBRname xml:lang="fr" value="Ordonnance du DFI du 16 décembre 2016 sur les limites maximales applicables aux résidus de substances pharmacologiquement actives et d'additifs pour l'alimentation animale dans les denrées alimentaires d'origine animale (ORésDAlan)" shortForm="ORésDAlan"/><FRBRname xml:lang="it" value="Ordinanza del DFI del 16 dicembre 2016 concernente i limiti massimi per i residui di sostanze farmacologicamente attive e di additivi per alimenti per animali nelle derrate alimentari di origine animale (ORDOA)" shortForm="ORDOA"/><FRBRname xml:lang="de" value="Verordnung des EDI vom 16. Dezember 2016 über die Höchstgehalte für Rückstände von pharmakologisch wirksamen Stoffen und von Futtermittelzusatzstoffen in Lebensmitteln tierischer Herkunft (VRLtH)" shortForm="VRLtH"/><FRBRauthoritative value="true"/></FRBRWork><FRBRExpression><FRBRthis value="https://fedlex.data.admin.ch/eli/cc/2017/154/20250701/de/main-text"/><FRBRuri value="https://fedlex.data.admin.ch/eli/cc/2017/154/20250701/de"/><FRBRdate date="2025-07-01" name="jolux:dateApplicability"/><FRBRdate date="2017-05-01" name="jolux:dateEntryInForce"/><FRBRdate date="2016-12-16" name="jolux:dateDocument"/><FRBRauthor href="#ch.bk" as="#publisher"/><FRBRauthor href="#ch.bk" as="#rightsHolder"/><FRBRlanguage language="de"/></FRBRExpression><FRBRManifestation><FRBRthis value="https://fedlex.data.admin.ch/eli/cc/2017/154/20250701/de/xml/main-text"/><FRBRuri value="https://fedlex.data.admin.ch/eli/cc/2017/154/20250701/de/xml"/><FRBRdate date="2025-07-01" name="jolux:dateApplicability"/><FRBRdate date="2017-05-01" name="jolux:dateEntryInForce"/><FRBRdate date="2016-12-16" name="jolux:dateDocument"/><FRBRauthor href="#ch.bk" as="#publisher"/><FRBRauthor href="#ch.bk" as="#rightsHolder"/><FRBRformat value="xml" fedlex:generator="2025-q2-rel-1.7.8"/></FRBRManifestation></identification><references source="#ch.bk"><TLCOrganization eId="ch.bk" href="https://fedlex.data.admin.ch/vocabulary/legal-institution/2" showAs="Bundeskanzlei"/><TLCRole eId="publisher" href="http://data.legilux.public.lu/resource/ontology/jolux#publisher" showAs="Editeur"/><TLCRole eId="rightsHolder" href="http://data.legilux.public.lu/resource/ontology/jolux#rightsHolder" showAs="Détenteur des droits"/><TLCReference name="language" href="http://publications.europa.eu/resource/authority/language/DEU" showAs="de"/><TLCReference name="format" href="https://fedlex.data.admin.ch/vocabulary/user-format/xml" showAs="xml"/></references></meta><preface><p><docNumber>817.022.13 </docNumber></p><p><docTitle>Verordnung des EDI<br/>über die Höchstgehalte für Rückstände von pharmakologisch wirksamen Stoffen und von Futtermittelzusatzstoffen in Lebensmitteln tierischer Herkunft<inline name="man-font-weight-normal"><authorialNote>
+		<p> Fassung gemäss Ziff. I der V des EDI vom 28. März 2018, in Kraft seit 1. Mai 2018  (<ref href="https://fedlex.data.admin.ch/eli/oc/2018/200" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">AS <b>2018</b> 1245</ref>).</p>
+	</authorialNote></inline></docTitle></p><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">(VRLtH)</p><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">vom 16. Dezember 2016 (Stand am 1. Juli 2025)</p></preface><preamble><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Das Eidgenössische Departement des Innern (EDI),</p><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">gestützt auf Artikel 10 Absatz 4 Buchstabe e und 95 Absatz 3 der Lebensmittel- und Gebrauchsgegenständeverordnung vom 16. Dezember 2016<authorialNote>
+		<p> <ref fedlex:rs-uri="https://fedlex.data.admin.ch/eli/cc/2017/63" fedlex:rs="817.02" href="https://fedlex.data.admin.ch/vocabulary/legal-taxonomy/9647">SR <b>817.02</b></ref></p>
+	</authorialNote>,</p><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">verordnet:</p></preamble><body><article eId="art_1"><num><b>Art. 1</b></num><heading>Gegenstand und Geltungsbereich</heading><paragraph eId="art_1/para_1"><num>1</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Diese Verordnung legt die Höchstgehalte für Rückstände von pharmakologisch wirksamen Stoffen und von Futtermittelzusatzstoffen in Lebensmitteln tierischer Herkunft fest.<authorialNote>
+		<p> Fassung gemäss Ziff. I der V des EDI vom 28. März 2018, in Kraft seit 1. Mai 2018  (<ref href="https://fedlex.data.admin.ch/eli/oc/2018/200" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">AS <b>2018</b> 1245</ref>).</p>
+	</authorialNote></p></content></paragraph><paragraph eId="art_1/para_2"><num>2</num><content><blockList><listIntroduction eId="art_1/para_2/listintro" xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Diese Verordnung gilt nicht für:</listIntroduction><item eId="art_1/para_2/lbl_a"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">a. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">in immunologischen Tierarzneimitteln verwendete Wirkstoffe biologischen Ursprungs zur aktiven oder passiven Immunisierung oder zur Diagnose des Immunstatus;</p></item><item eId="art_1/para_2/lbl_b"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">b. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Kontaminanten nach der Kontaminantenverordnung des EDI vom 16. Dezember 2016<authorialNote>
+		<p> <ref fedlex:rs-uri="https://fedlex.data.admin.ch/eli/cc/2017/156" fedlex:rs="817.022.15" href="https://fedlex.data.admin.ch/vocabulary/legal-taxonomy/9676">SR <b>817.022.15</b></ref></p>
+	</authorialNote>;</p></item><item eId="art_1/para_2/lbl_c"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">c. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Lebensmittel, die von Tieren stammen, denen in klinischen Versuchen pharmakologisch wirksame Stoffe verabreicht wurden, die nicht zugelassen sind.</p></item></blockList></content></paragraph></article><article eId="art_2"><num><b>Art. 2</b></num><heading>Begriffe</heading><paragraph eId="art_2/para"><content><blockList><listIntroduction eId="art_2/para/listintro" xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">In dieser Verordnung bedeuten:</listIntroduction><item eId="art_2/para/lbl_a"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">a. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"><i>Rückstandshöchstgehalt</i>: die Konzentration des Rückstands eines pharmakologisch wirksamen Stoffes und seiner toxikologisch bedeutsamen Folgeprodukte, die in einem Lebensmittel tierischer Herkunft vorhanden sein darf.</p></item><item eId="art_2/para/lbl_b"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">b. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"><i>Rückstände pharmakologisch wirksamer Stoffe</i>: alle pharmakologisch wirksamen Stoffe, bei denen es sich um wirksame Bestandteile, Arzneiträger oder Abbauprodukte sowie um ihre in Lebensmitteln tierischen Ursprungs verbleibenden Stoffwechselprodukte handelt.</p></item><item eId="art_2/para/lbl_c"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">c. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"><i>Verbotene Stoffe</i>: pharmakologisch wirksame Stoffe, die nicht an Nutztiere verabreicht werden dürfen, da sie möglicherweise ein Risiko für die menschliche Gesundheit darstellen oder keine endgültigen Rückschlüsse auf die Auswirkungen der Rückstände eines solchen Stoffes auf die menschliche Gesundheit gezogen werden können.</p></item><item eId="art_2/para/lbl_d"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">d. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"><i>Referenzwert für Massnahmen</i>: der Rückstandsgehalt eines pharmakologisch wirksamen Stoffes, der aus Kontrollgründen für bestimmte Stoffe festgelegt wird, für die keine Höchstgehalt festgesetzt wurde.</p></item></blockList></content></paragraph></article><article eId="art_3"><num><b>Art. 3</b></num><heading>Rückstandshöchstgehalte</heading><paragraph eId="art_3/para_1"><num>1</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Die Höchstgehalte von Rückständen pharmakologisch wirksamer Stoffe in Lebensmitteln tierischer Herkunft sowie die Einstufung dieser Stoffe richten sich nach Liste 1 des Anhangs.</p></content></paragraph><paragraph eId="art_3/para_2"><num>2</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Die Höchstgehalte von Rückständen aus der Verwendung von Futtermittelzusatzstoffen nach Artikel 3 Absatz 2 Buchstabe h und Artikel 25 Absatz 1 Buchstaben b und e der Futtermittel-Verordnung vom 26. Oktober 2011<authorialNote>
+		<p> <ref fedlex:rs-uri="https://fedlex.data.admin.ch/eli/cc/2011/772" fedlex:rs="916.307" href="https://fedlex.data.admin.ch/vocabulary/legal-taxonomy/10674">SR <b>916.307</b></ref></p>
+	</authorialNote> (FMV) in Lebensmitteln tierischer Herkunft richten sich nach Liste 2 des Anhangs.</p></content></paragraph><paragraph eId="art_3/para_3"><num>3</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Die Höchstgehalte von aus Verschleppung stammenden Rückständen an Futtermittelzusatzstoffen, wie Kokzidiostatika und Histomonostatika, in Lebensmitteln tierischer Herkunft richten sich nach Liste 3 des Anhangs.</p></content></paragraph><paragraph eId="art_3/para_4"><num>4</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Die verbotenen Stoffe richten sich nach Liste 4 des Anhangs.</p></content></paragraph><paragraph eId="art_3/para_5"><num>5</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Die Referenzwerte für Massnahmen richten sich nach Liste 5 des Anhangs.</p></content></paragraph></article><article eId="art_4"><num><b>Art. 4</b></num><heading>Inverkehrbringen</heading><paragraph eId="art_4/para_1"><num>1</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Rückstände von pharmakologisch wirksamen Stoffen und Futtermittelzusatzstoffen dürfen in Lebensmitteln tierischer Herkunft nur in gesundheitlich unbedenklichen und technisch unvermeidbaren Mengen vorhanden sein.</p></content></paragraph><paragraph eId="art_4/para_2"><num>2</num><content><blockList><listIntroduction eId="art_4/para_2/listintro" xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Lebensmittel tierischer Herkunft dürfen nicht in Verkehr gebracht werden, wenn sie Rückstände von Stoffen enthalten, die:</listIntroduction><item eId="art_4/para_2/lbl_a"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">a. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">die im Anhang dieser Verordnung festgelegten Höchstgehalte überschreiten;</p></item><item eId="art_4/para_2/lbl_b"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">b. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">verboten sind; oder</p></item><item eId="art_4/para_2/lbl_c"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">c. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">nicht zugelassen sind.</p></item></blockList></content></paragraph><paragraph eId="art_4/para_3"><num>3</num><content><blockList><listIntroduction eId="art_4/para_3/listintro" xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Ein Lebensmittel darf in Abweichung von Absatz 2 Buchstaben b und c in Verkehr gebracht werden, wenn:</listIntroduction><item eId="art_4/para_3/lbl_a"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">a. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">für einen dieser Stoffe ein Referenzwert für Massnahmen festgelegt wurde; und</p></item><item eId="art_4/para_3/lbl_b"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">b. </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">der Rückstandshöchstgehalt unter diesem Referenzwert liegt.</p></item></blockList></content></paragraph></article><article eId="art_5"><num><b>Art. 5</b></num><heading>Nachführen des Anhangs</heading><paragraph eId="art_5/para_1"><num>1</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Das Bundesamt für Lebensmittelsicherheit und Veterinärwesen (BLV) passt den Anhang dem Stand von Wissenschaft und Technik sowie dem Recht der wichtigsten Handelspartner der Schweiz an.</p></content></paragraph><paragraph eId="art_5/para_2"><num>2</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Es kann für diese Anpassungen Übergangsbestimmungen festlegen.</p></content></paragraph></article><article eId="art_6"><num><b>Art. 6</b></num><heading>Weisungen an die kantonalen Vollzugsbehörden</heading><paragraph eId="art_6/para_1"><num>1</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Entsprechen die Listen im Anhang zu dieser Verordnung den neuen Erkenntnissen oder Entwicklungen nicht mehr und sind sofortige Massnahmen zum Schutz der Gesundheit erforderlich, so kann das BLV den kantonalen Vollzugsbehörden bis zur Änderung der Listen befristete Weisungen erteilen. </p></content></paragraph><paragraph eId="art_6/para_2"><num>2</num><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration"> Die Weisungen werden im Internet publiziert.</p></content></paragraph></article><article eId="art_7"><num><b>Art. 7</b></num><heading>Übergangsbestimmung</heading><paragraph eId="art_7/para"><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Rückstände von Wirkstoffen, die bisher in den Listen a und b von Anhang 2 der Tierarzneimittelverordnung vom 18. August 2004<authorialNote>
+		<p> <ref fedlex:rs-uri="https://fedlex.data.admin.ch/eli/cc/2004/592" fedlex:rs="812.212.27" href="https://fedlex.data.admin.ch/vocabulary/legal-taxonomy/9369">SR <b>812.212.27</b></ref></p>
+	</authorialNote> aufgeführt waren und in Liste 1 nun nicht enthalten sind, dürfen ab 1. Januar 2021 nicht mehr in Lebensmitteln tierischer Herkunft vorhanden sein.</p></content></paragraph></article><article eId="art_7_a"><num><b>Art. 7</b><i>a</i><authorialNote>
+		<p> Eingefügt durch Ziff. I der V des BLV vom 23. Okt. 2019, in Kraft seit 1. Dez. 2019  (<ref href="https://fedlex.data.admin.ch/eli/oc/2019/613" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">AS <b>2019</b> 3359</ref>).</p>
+	</authorialNote></num><heading>Übergangsbestimmung zur Änderung vom 23. Oktober 2019</heading><paragraph eId="art_7_a/para"><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Rückstände von Wirkstoffen, die der Änderung vom 23. Oktober 2019 nicht entsprechen, dürfen ab dem 1. Januar 2021 nicht mehr in Lebensmitteln tierischer Herkunft vorhanden sein.</p></content></paragraph></article><article eId="art_7_b"><num><b>Art. 7</b><i>b</i><authorialNote>
+		<p> Eingefügt durch Ziff. I der V des BLV vom 14. Febr. 2022, in Kraft seit 15. März 2022  (<ref href="https://fedlex.data.admin.ch/eli/oc/2022/123" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">AS <b>2022</b> 123</ref>).</p>
+	</authorialNote></num><heading>Übergangsbestimmung zur Änderung vom 14. Februar 2022</heading><paragraph eId="art_7_b/para"><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Rückstände von Wirkstoffen, die der Änderung des Anhangs Liste 1 vom 14. Februar 2022 nicht entsprechen, dürfen ab dem 14. März 2023 nicht mehr in Lebensmitteln tierischer Herkunft vorhanden sein.</p></content></paragraph></article><article eId="art_7_c"><num><b>Art. 7</b><i>c</i><authorialNote>
+		<p> Eingefügt durch Ziff. I der V des BLV vom 2. Juni 2025, in Kraft seit 1. Juli 2025  (AS <b>202</b><b>5</b> 390).</p>
+	</authorialNote></num><heading>Übergangsbestimmung zur Änderung vom 2. Juni 2025</heading><paragraph eId="art_7_c/para"><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Rückstände von Wirkstoffen, die der Änderung vom 2. Juni 2025 in Bezug auf die Listen 1, 2 und 5 des Anhangs nicht entsprechen, dürfen ab dem 31. Dezember 2025 nicht mehr in Lebensmitteln tierischer Herkunft vorhanden sein.</p></content></paragraph></article><article eId="art_8"><num><b>Art. 8</b></num><heading>Inkrafttreten</heading><paragraph eId="art_8/para"><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Diese Verordnung tritt am 1. Mai 2017 in Kraft.</p></content></paragraph></article></body><components><component><doc name="annex"><meta><identification source="#ch.bk"><FRBRWork><FRBRthis value="https://fedlex.data.admin.ch/eli/cc/2017/154/20250701/main-text"/><FRBRuri value="https://fedlex.data.admin.ch/eli/cc/2017/154/20250701"/><FRBRdate date="2025-07-01" name="jolux:dateApplicability"/><FRBRdate date="2017-05-01" name="jolux:dateEntryInForce"/><FRBRdate date="2016-12-16" name="jolux:dateDocument"/><FRBRauthor href="#ch.bk" as="#publisher"/><FRBRauthor href="#ch.bk" as="#rightsHolder"/><FRBRcountry value="CH"/><FRBRnumber value="817.022.13"/><FRBRname xml:lang="fr" value="Ordonnance du DFI du 16 décembre 2016 sur les limites maximales applicables aux résidus de substances pharmacologiquement actives et d'additifs pour l'alimentation animale dans les denrées alimentaires d'origine animale (ORésDAlan)" shortForm="ORésDAlan"/><FRBRname xml:lang="it" value="Ordinanza del DFI del 16 dicembre 2016 concernente i limiti massimi per i residui di sostanze farmacologicamente attive e di additivi per alimenti per animali nelle derrate alimentari di origine animale (ORDOA)" shortForm="ORDOA"/><FRBRname xml:lang="de" value="Verordnung des EDI vom 16. Dezember 2016 über die Höchstgehalte für Rückstände von pharmakologisch wirksamen Stoffen und von Futtermittelzusatzstoffen in Lebensmitteln tierischer Herkunft (VRLtH)" shortForm="VRLtH"/><FRBRauthoritative value="true"/></FRBRWork><FRBRExpression><FRBRthis value="https://fedlex.data.admin.ch/eli/cc/2017/154/20250701/de/main-text"/><FRBRuri value="https://fedlex.data.admin.ch/eli/cc/2017/154/20250701/de"/><FRBRdate date="2025-07-01" name="jolux:dateApplicability"/><FRBRdate date="2017-05-01" name="jolux:dateEntryInForce"/><FRBRdate date="2016-12-16" name="jolux:dateDocument"/><FRBRauthor href="#ch.bk" as="#publisher"/><FRBRauthor href="#ch.bk" as="#rightsHolder"/><FRBRlanguage language="de"/></FRBRExpression><FRBRManifestation><FRBRthis value="https://fedlex.data.admin.ch/eli/cc/2017/154/20250701/de/xml/main-text"/><FRBRuri value="https://fedlex.data.admin.ch/eli/cc/2017/154/20250701/de/xml"/><FRBRdate date="2025-07-01" name="jolux:dateApplicability"/><FRBRdate date="2017-05-01" name="jolux:dateEntryInForce"/><FRBRdate date="2016-12-16" name="jolux:dateDocument"/><FRBRauthor href="#ch.bk" as="#publisher"/><FRBRauthor href="#ch.bk" as="#rightsHolder"/><FRBRformat value="xml"/></FRBRManifestation></identification></meta><preface><container name="headerOfAnnex"><block name="heading">Anhang<inline name="man-font-style-normal"><authorialNote>
+		<p> Fassung gemäss Ziff. II der V des BLV vom 2. Juni 2025, in Kraft seit 1. Juli 2025 (<ref href="https://fedlex.data.admin.ch/eli/oc/2025/390" xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp">AS <b>2025</b> 390</ref>).</p>
+	</authorialNote></inline></block></container></preface><mainBody><p>(Art. 3 Abs. 1–5 und 4 Abs. 2 Bst. a)</p><level eId="annex_u1/lvl_u1"><heading>Listen der Rückstandshöchstgehalte</heading><level eId="annex_u1/lvl_u1/lvl_1"><num>1</num><heading>Liste der zulässigen Höchstgehalte für Rückstände von pharmakologisch wirksamen Stoffen in Lebensmitteln tierischer Herkunft</heading><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Die Höchstgehalte für Rückstände von pharmakologisch wirksamen Stoffen sind in Tabelle 1 des Anhangs der Verordnung (EU) Nr. 37/2010<authorialNote>
+		<p>  Verordnung (EU) Nr. 37/2010 der Kommission vom 22. Dezember 2009 über pharmakologisch wirksame Stoffe und ihre Einstufung hinsichtlich der Rückstandshöchstmengen in Lebensmitteln tierischen Ursprungs, ABl. L 15 vom 20.1.2010, S. 1, zuletzt geändert durch Durchführungsverordnung (EU) 2024/860, ABl. L, 2024/860, 19.3.2024.</p>
+	</authorialNote> festgelegt.</p></content></level><level eId="annex_u1/lvl_u1/lvl_2"><num>2</num><heading>Liste der Höchstgehalte für Rückstände von Futtermittelzusatzstoffen in Lebensmitteln tierischer Herkunft</heading><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">2.1  Erläuterungen zur Liste</p><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Anwendungszweck</p><blockList><item eId="annex_u1/lvl_u1/lvl_2/lbl_2_1_1"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">2.1.1 </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">K = Kokzidiostatika nach Artikel 25 Absatz 1 Buchstabe e FMV<authorialNote>
+		<p> <ref fedlex:rs-uri="https://fedlex.data.admin.ch/eli/cc/2011/772" fedlex:rs="916.307" href="https://fedlex.data.admin.ch/vocabulary/legal-taxonomy/10674">SR <b>916.307</b></ref></p>
+	</authorialNote>. Zulassung nach Artikel 22 Absatz 7<authorialNote>
+		<p> Veröffentlichung als Liste 2.5 von Anhang 2 auf der Internetseite  www.agroscope.admin.ch &gt; Themen &gt; Nutztiere &gt; Futtermittel &gt; Futtermittelkontrolle &gt; Gesetzliche Grundlagen</p>
+	</authorialNote> FMV.</p></item><item eId="annex_u1/lvl_u1/lvl_2/lbl_2_1_2"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">2.1.2  </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">F = Sensorische Futtermittelzusatzstoffe nach Artikel 25 Absatz 1 Buchstabe b FMV. Zulassung nach Artikel 20 FMV in Verbindung mit der Liste im Anhang 2 der Futtermittelbuch-Verordnung vom 26. Oktober 2011<authorialNote>
+		<p> <ref fedlex:rs-uri="https://fedlex.data.admin.ch/eli/cc/2011/802" fedlex:rs="916.307.1" href="https://fedlex.data.admin.ch/vocabulary/legal-taxonomy/10675">SR <b>916.307.1</b></ref></p>
+	</authorialNote>.</p></item><item eId="annex_u1/lvl_u1/lvl_2/lbl_2_1_3"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">2.1.3 </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Z = Zootechnische Zusatzstoffe nach Artikel 25 Absatz 1 Buchstabe d FMV. Zulassung nach Artikel 22 Absatz 7<authorialNote>
+		<p> Veröffentlichung als Liste 2.4d von Anhang 2 auf der Internetseite  www.agroscope.admin.ch &gt; Themen &gt; Nutztiere &gt; Futtermittel &gt; Futtermittelkontrolle &gt; Gesetzliche Grundlagen</p>
+	</authorialNote> FMV.</p></item></blockList><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">2.2  Liste</p><table border="1">
+			
+			
+			<tr>
+				
+				
+				<th xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">
+					
+					<p>1</p>
+				</th>
+				<th xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">
+					
+					<p>2</p>
+				</th>
+				<th xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">
+					
+					<p>3</p>
+				</th>
+				<th xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">
+					
+					
+				</th>
+				<th xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">
+					
+					<p>3</p>
+				</th>
+			</tr>
+			<tr>
+				
+				
+				<th xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">
+					
+					<p><b>Wirkstoff</b></p>
+				</th>
+				<th xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">
+					
+					<p><b>Anwendungszweck</b></p>
+				</th>
+				<th xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">
+					
+					<p><b>Tierart</b></p>
+				</th>
+				<th xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">
+					
+					<p><b>Lebensmittel</b></p>
+				</th>
+				<th xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">
+					
+					<p><b>Rückstandshöchstgehalt µg/kg </b></p>
+				</th>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Adonirubin und Canthaxanthin, Summe </p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">F</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Lachs</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Muskel</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">10 000</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">    "</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">F</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Forelle</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Muskel</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">8 000</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Beta-apo-8’-Carotinsäure-Ethylester</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">F</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Masthühner, Mastgeflügelarten von geringerer wirtschaftlicher Bedeutung, Legehennen und Legegeflügel von geringerer wirtschaftlicher Bedeutung</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Leber</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">8 000</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">    "</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">F</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">    "</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Eigelb</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">20 000</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">    "</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">F</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">    "</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Haut/Fett</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">2 500</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Canthaxanthin</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">F</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Masthühner und Mastgeflügelarten von geringerer wirtschaftlicher Bedeutung, Legegeflügel und Junggeflügel für Legezwecke</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Eigelb</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">30 000</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">    "</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">F</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">    "</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Leber</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">15 000</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">F</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">    "</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Haut/Fett</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">2 500</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Canthaxanthin</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Z</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Zuchthennen</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Leber</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">15 000</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">    "</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Z</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">    "</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Haut/Fett</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">2 500</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Diclazuril</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">K</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Masthühner, Masttruten, Mast- und Zuchtperlhühner, Junglegehennen, Fasane</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">siehe Liste 1.</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">siehe Liste 1.</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Diclazuril</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">K</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Kaninchen</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">siehe Liste 1.</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">siehe Liste 1.</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Dinitrocarbani-lid</p>
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">(Nicarbazin)</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">K</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Masthühner, Masttruten, Junglegehennen</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Leber</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">15 000 </p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">    "</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">K</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">    "</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Nieren</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">6 000 </p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">    "</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">K</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">    "</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Muskel, Haut/Fett</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">4 000 </p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Halofuginon</p>
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">(Halofuginon-Hydrobromid)</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">K</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Masthühner </p>
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Masttruten</p>
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Zuchttruten</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Leber</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">50</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">    "</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">K</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">    "</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Nieren</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">40</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">    "</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">K</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">    "</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Muskel</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">3</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">    "</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">K</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">    "</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Haut/Fett</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">10</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Lasalocid</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">K</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Masthühner</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">siehe Liste 1</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">siehe Liste 1 </p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Monensin-Natrium</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">K</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Masthühner, Masttruten, Junglegehennen</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Haut/Fett</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">25</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">    "</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">K</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">    "</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Leber, Nieren und Muskel</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">8</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Narasin</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">K</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Masthühner</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Leber, Muskel, Niere, Haut/Fett</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">50</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Robenidin-Hydrochlorid</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">K</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Masthühner</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Leber</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">800</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">    "</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">K</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">    "</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Niere</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">350</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">    "</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">K</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">    "</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Muskel</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">200</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">    "</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">K</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">    "</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Haut/Fett</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">1 300</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Salinomycin-Natrium</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">K</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Masthühner, Junglegehennen</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Leber</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">150</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">    "</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">K</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">    "</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Nieren</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">40</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">    "</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">K</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">    "</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Muskel</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">15</p>
+				</td>
+			</tr>
+			<tr>
+				
+				
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">    "</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">K</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">    "</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Haut/Fett</p>
+				</td>
+				<td>
+					
+					<p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">150</p>
+				</td>
+			</tr>
+		</table></content></level><level eId="annex_u1/lvl_u1/lvl_3"><num>3</num><heading><ref href="https://www.fedlex.admin.ch/eli/cc/2017/154/de">Liste der Höchstgehalte für Rückstände von Futtermittelzusatzstoffen (Kokzidiostatika und Histomonostatika) in Lebensmitteln tierischer Herkunft aufgrund von Verschleppung in Futtermitteln für Nichtzieltierarten			</ref></heading><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">3.1  Erläuterungen zur Liste </p><blockList><item eId="annex_u1/lvl_u1/lvl_3/lbl_3_1_1"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">3.1.1 </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Lebensmittel, bei denen die im Anhang der Verordnung (EG) Nr. 124/2009<authorialNote>
+		<p> Verordnung (EG) Nr. 124/2009 der Kommission vom 10. Februar 2009 zur Festlegung von Höchstgehalten an Kokzidiostatika und Histomonostatika, die in Lebensmitteln aufgrund unvermeidbarer Verschleppung in Futtermittel für Nichtzieltierarten vorhanden sind, ABl. L 40 vom 11.2.2009, S. 7; zuletzt geändert durch Verordnung (EU) 2020/499, ABl. L 109 vom 7.4.2020, S. 1.</p>
+	</authorialNote> festgelegten Höchstgehalte eingehalten werden, dürfen nicht mit Lebensmitteln vermischt werden, bei denen diese Höchstgehalte überschritten werden.</p></item><item eId="annex_u1/lvl_u1/lvl_3/lbl_3_1_2"><num xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">3.1.2 </num><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Bei der Anwendung der im Anhang der Verordnung (EG) Nr. 124/2009 festgelegten Höchstgehalte auf Lebensmitteln, die getrocknet, verdünnt oder verarbeitet werden oder die aus mehr als einer Zutat bestehen, sind Änderungen des Gehalts an den jeweiligen Kontaminanten durch Trocknung, Verdünnung oder Verarbeitung sowie die relativen Anteile der Zutaten am Lebensmittel zu berücksichtigen.</p></item></blockList><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">3.2  Liste</p><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Die Höchstgehalte für Rückstände sind in Tabelle 1 des Anhangs der Verordnung (EU) Nr. 124/2009 festgelegt.</p></content></level><level eId="annex_u1/lvl_u1/lvl_4"><num>4</num><heading>Liste der verbotenen Stoffe</heading><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Die verbotenen pharmakologisch wirksamen Stoffe sind in Tabelle 2 des Anhangs der Verordnung (EU) Nr. 37/2010<authorialNote>
+		<p><sup xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp"><span/></sup> Verordnung (EU) Nr. 37/2010 der Kommission vom 22. Dezember 2009 über pharmakologisch wirksame Stoffe und ihre Einstufung hinsichtlich der Rückstandshöchstmengen in Lebensmitteln tierischen Ursprungs, ABl. L 15 vom 20.1.2010, S. 1; zuletzt geändert durch Durchführungsverordnung (EU) 2024/860, ABl. L, 2024/860, 19.3.2024.</p>
+	</authorialNote> festgelegt.</p></content></level><level eId="annex_u1/lvl_u1/lvl_5"><num>5</num><heading>Liste der Referenzwerte für Massnahmen</heading><content><p xmlns:mig="urn:com:c-moria:legi4ch:xslt:migration">Die Referenzwerte für pharmakologisch wirksame Stoffe sind im Anhang der Verordnung (EU) 2019/1871<authorialNote>
+		<p><sup xmlns:tmp="urn:com:c-moria:legi4ch:xslt:temp"><span/></sup> Verordnung (EU) 2019/1871 der Kommission vom 7. November 2019 betreffend die Referenzwerte für Massnahmen für nicht zulässige pharmakologisch wirksame Stoffe, die in Lebensmitteln tierischen Ursprungs enthalten sind, und zur Aufhebung der Entscheidung 2005/34/EG 2005/34/EG, ABl. L 289 vom 8.11.2019, S. 41; zuletzt geändert durch Verordnung (EU) 2024/2858, ABl. L, 2024/2858, 13.11.2024.</p>
+	</authorialNote> festgelegt.</p></content></level></level></mainBody></doc></component></components></act></akomaNtoso>

@@ -1,0 +1,57 @@
+[
+  {
+    "item_type": "preamble_callback",
+    "acronyms": [
+      {
+        "acronym": "VBS",
+        "sr_link": "SR 512.271",
+        "url": "https://fedlex.data.admin.ch/eli/cc/2022/213"
+      },
+      {
+        "acronym": "MFV",
+        "sr_link": "SR 512.271",
+        "url": "https://fedlex.data.admin.ch/eli/cc/2022/213"
+      },
+      {
+        "acronym": "LFV",
+        "sr_link": "SR 748.01",
+        "url": "https://fedlex.data.admin.ch/eli/cc/1973/1856_1856_1856"
+      }
+    ],
+    "description": "Preamble acronyms for reference detection"
+  },
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 512.271",
+    "TARGET_URL": "https://fedlex.data.admin.ch/eli/cc/2022/213",
+    "SNIPPET": "gestützt auf Artikel 20 der Militärflugdienstverordnung vom 19. November 2003 SR 512.271 (MFV), sowie Artikel 25 Absatz 3 der Luftfahrtverordnung vom 14. November 1973 (LFV),",
+    "INSIDE_AUTHORIALNOTE": "SR 512.271",
+    "item_type": "SR_link_detection"
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 748.01",
+    "TARGET_URL": "https://fedlex.data.admin.ch/eli/cc/1973/1856_1856_1856",
+    "SNIPPET": "gestützt auf Artikel 20 der Militärflugdienstverordnung vom 19. November 2003 (MFV), sowie Artikel 25 Absatz 3 der Luftfahrtverordnung vom 14. November 1973 SR 748.01 (LFV),",
+    "INSIDE_AUTHORIALNOTE": "SR 748.01",
+    "item_type": "SR_link_detection"
+  },
+  {
+    "ARTICLE_EID": "art_13",
+    "TARGET_SR": "SR 512.271",
+    "TARGET_URL": "https://fedlex.data.admin.ch/eli/cc/2022/213",
+    "SNIPPET": "Die Verordnung des VBS vom 15. November 2001 über das Fliegerärztliche Institut wird aufgehoben.",
+    "INSIDE_AUTHORIALNOTE": "SR 512.271",
+    "preamble_acronym_name": "VBS",
+    "item_type": "preamble_acronym",
+    "ITEM": 3
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_12",
+    "SNIPPET": "Die Kosten für Untersuchungen und Begutachtungen von Bewerberinnen und Bewerbern nach Artikel 2 Absatz 2 sowie von Inhaberinnen und Inhabern ziviler Pilotenlizenzen gehen zu Lasten der Begutachteten.",
+    "item_type": "artikel_reference"
+  }
+]
