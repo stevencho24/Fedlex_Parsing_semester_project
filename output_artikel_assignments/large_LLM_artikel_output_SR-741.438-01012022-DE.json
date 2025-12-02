@@ -1,0 +1,115 @@
+[
+  {
+    "Item": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 741.41",
+    "assigned_articles": [
+      "Art. 220 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Formulierung «gestützt auf Artikel 220 Absatz 1 der Verordnung ... SR 741.41» verknüpft den genannten Artikel syntaktisch eindeutig mit der VTS (SR 741.41)."
+  },
+  {
+    "Item": 2,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": "SR 741.01",
+    "assigned_articles": [
+      "Art. 27 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Snippet steht «(Art. 27 Abs. 2 des Strassenverkehrsgesetzes ... SR 741.01 ...)». Der Artikel ist direkt mit dem Strassenverkehrsgesetz (SR 741.01) verbunden; Art. 110 Abs. 3 VTS gehört zu SR 741.41 und nicht zu SR 741.01."
+  },
+  {
+    "Item": 3,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": "SR 745.2",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "Es wird nur das Bundesgesetz SR 745.2 als Ganzes («über die Sicherheitsorgane der Transportunternehmen im öffentlichen Verkehr») genannt, ohne spezifische Artikelangabe."
+  },
+  {
+    "Item": 4,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": "SR 170.512.1",
+    "assigned_articles": [
+      "Art. 20 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Passage «in Anwendung von Art. 20 Abs. 2 der Publikationsverordnung ... (SR 170.512.1)» verknüpft Art. 20 Abs. 2 eindeutig mit der Publikationsverordnung SR 170.512.1."
+  },
+  {
+    "Item": 5,
+    "ARTICLE_EID": "art_8",
+    "TARGET_SR": "SR 741.41",
+    "assigned_articles": [
+      "Art. 78 Abs. 3",
+      "Art. 82 Abs. 2",
+      "Art. 110 Abs. 3 Bst. a",
+      "Art. 110 Abs. 3 Bst. a Ziff. 2–4"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Preambel definiert VTS = SR 741.41. Im Snippet werden «Artikel 78 Absatz 3 VTS» und «Artikel 82 Absatz 2 VTS» ausdrücklich genannt. Zusätzlich verweist Art. 2 im selben Dokument auf «Art. 110 Abs. 3 Bst. a VTS», und Art. 11 auf «Artikel 110 Absatz 3 Buchstabe a Ziffern 2–4 VTS». Alle diese VTS‑Artikel gehören somit zu SR 741.41 und sind als relevante Einzelartikel zuzuordnen."
+  },
+  {
+    "Item": 6,
+    "ARTICLE_EID": "art_11",
+    "TARGET_SR": "SR 741.41",
+    "assigned_articles": [
+      "Art. 110 Abs. 3 Bst. a Ziff. 2–4"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Snippet steht «Blaulichter nach Artikel 110 Absatz 3 Buchstabe a Ziffern 2–4 VTS». VTS ist gemäss Preambel SR 741.41; die Ziffern 2–4 sind Teil von Art. 110 Abs. 3 Bst. a derselben Verordnung."
+  },
+  {
+    "Item": 7,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Satz verweist auf «Art. 27 Abs. 2 des Strassenverkehrsgesetzes ...» (SR 741.01) und «Art. 110 Abs. 3 Bst. a VTS». Diese externen Bezüge sind bereits in Item 2 (SR 741.01) und Items 5/6 (SR 741.41) erfasst. Innerhalb dieses artikel_reference‑Eintrags liegt kein neuer, eigenständiger SR‑Link vor; es handelt sich um die gleiche inhaltliche Stelle und damit um eine interne Querverweisung im aktuellen Dokument."
+  },
+  {
+    "Item": 8,
+    "ARTICLE_EID": "art_6",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Verweise «Artikel 3 Buchstaben a und c» sowie «Artikel 4 Absatz 1» nennen keine SR‑Nummer und beziehen sich syntaktisch auf andere Artikel derselben Verordnung; daher reine Selbstreferenz."
+  },
+  {
+    "Item": 9,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«(Art. 12 Abs. 1 und 2)» steht ohne Nennung eines externen Erlasses; dies ist eine Verweisung auf Art. 12 der vorliegenden Verordnung."
+  },
+  {
+    "Item": 10,
+    "ARTICLE_EID": "art_11",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Bezugnahmen auf «Artikel 9» erfolgen ohne SR‑Angabe und betreffen ersichtlich Artikel derselben Verordnung; somit interne Strukturverweise."
+  },
+  {
+    "Item": 11,
+    "ARTICLE_EID": "art_13",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«... nach Artikel 11 ...» verweist ohne SR‑Nummer auf einen anderen Artikel des gleichen Erlasses; daher Selbstreferenz innerhalb des Dokuments."
+  }
+]

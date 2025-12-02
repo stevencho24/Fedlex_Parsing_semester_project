@@ -1,0 +1,72 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 101",
+    "assigned_articles": [
+      "Art. 8"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Formulierung «gestützt auf Artikel 8 der Bundesverfassung SR 101» verknüpft eindeutig Art. 8 mit der Bundesverfassung (SR 101)."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 0.518.521",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Satz bezeichnet das Zusatzprotokoll I als Ganzes («Das Zusatzprotokoll ... SR 0.518.521 mit folgenden Vorbehalten»), ohne einzelne Artikel dieses Protokolls zu zitieren; die nachfolgenden Vorbehalte beziehen sich auf Artikel des Protokolls, sind aber im snippet nicht mit der SR-Nummer verknüpft."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 0.518.522",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Text nennt lediglich das Zusatzprotokoll II als Ganzes («... (Protokoll II) ... SR 0.518.522.»), ohne spezifische Artikel dieses Protokolls zu erwähnen."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": "SR 0.518.521",
+    "assigned_articles": [
+      "Art. 90 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Formulierung «nach Artikel 90 Absatz 2 des Protokolls I SR 0.518.521» verknüpft eindeutig Art. 90 Abs. 2 mit dem Zusatzprotokoll I (SR 0.518.521)."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": "SR 101",
+    "assigned_articles": [
+      "Art. 89 Abs. 3 Bst. c"
+    ],
+    "confidence": "high",
+    "reasoning": "Im snippet steht «(Art. 89 Abs. 3 Bst. c BV SR 101)»; BV ist die Bundesverfassung (SR 101), somit bezieht sich die Nennung klar auf Art. 89 Abs. 3 Buchstabe c BV."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "Die genannten «Artikel 57» und «Artikel 58» sind ohne SR- oder Gesetzesangabe und stehen im Kontext der Vorbehalte zum im selben Artikel genannten Protokoll; sie dienen als inhaltliche Beschreibung der Vorbehalte und sind keine neuen SR-Verweise. Daher handelt es sich um interne bzw. kontextuelle Verweise, nicht um eigenständige SR-Link-Zuweisungen."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«nach Artikel 90 Absatz 2 des Protokolls I» erscheint hier ohne explizite SR-Nummer; der eigentliche SR-Bezug zu SR 0.518.521 wird bereits in ITEM 4 mit demselben Satz und expliziter SR-Nummer abgedeckt. Dieser Eintrag ist daher als interner/verstärkender Verweis innerhalb des Dokuments zu werten, nicht als eigenständiger SR-Link."
+  }
+]

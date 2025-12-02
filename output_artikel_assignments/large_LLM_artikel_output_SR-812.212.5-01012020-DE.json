@@ -1,0 +1,245 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 812.21",
+    "assigned_articles": [
+      "Art. 31 Abs. 2",
+      "Art. 31 Abs. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Wortlaut nennt ausdrücklich «Artikel 31 Absätze 2 und 3 des Heilmittelgesetzes … SR 812.21 (HMG)»; beide Absätze gehören damit klar zum HMG."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 810.211",
+    "assigned_articles": [
+      "Art. 2 Abs. 1 Bst. c"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Satz steht «Transplantatprodukte nach Artikel 2 Absatz 1 Buchstabe c der Transplantationsverordnung … SR 810.211»; Art. 2 Abs. 1 lit. c ist eindeutig dieser Verordnung zugeordnet."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": "SR 812.212.21",
+    "assigned_articles": [
+      "Art. 52 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Formulierung «Personen nach Artikel 52 Absatz 2 der Arzneimittelverordnung … SR 812.212.21 (VAM)» verknüpft Art. 52 Abs. 2 direkt mit der VAM."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_10",
+    "TARGET_SR": "SR 812.121.1",
+    "assigned_articles": "General reference - entire document",
+    "confidence": "high",
+    "reasoning": "Es wird nur auf «die Bestimmungen der Betäubungsmittelkontrollverordnung … SR 812.121.1» verwiesen, ohne konkrete Artikel; dies ist ein genereller Verweis auf die Verordnung als Ganzes."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_14",
+    "TARGET_SR": "SR 812.212.21",
+    "assigned_articles": [
+      "Art. 43",
+      "Art. 44",
+      "Art. 88"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Text nennt «Arzneimittel der Abgabekategorien C, D und E nach den Artikeln 43, 44 und 88 VAM SR 812.212.21»; diese Artikel sind klar der VAM zugeordnet."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": "SR 812.21",
+    "assigned_articles": [
+      "Art. 24",
+      "Art. 25"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet: «weitere Personen nach den Artikeln 24 und 25 HMG»; HMG ist SR 812.21, somit beziehen sich Art. 24 und 25 auf dieses Gesetz."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_6",
+    "TARGET_SR": "SR 812.21",
+    "assigned_articles": [
+      "Art. 67 Abs. 3",
+      "Art. 95b"
+    ],
+    "confidence": "high",
+    "reasoning": "Es heisst «Verzeichnis nach Artikel 67 Absatz 3 oder Artikel 95b HMG»; beide Artikel werden explizit mit HMG (SR 812.21) verbunden."
+  },
+  {
+    "ITEM": 8,
+    "ARTICLE_EID": "art_10",
+    "TARGET_SR": "SR 812.21",
+    "assigned_articles": [
+      "Art. 67 Abs. 3",
+      "Art. 95b"
+    ],
+    "confidence": "high",
+    "reasoning": "Wortlaut: «Verzeichnis nach Artikel 67 Absatz 3 beziehungsweise Artikel 95b HMG»; wiederum klare Zuordnung dieser Artikel zum HMG."
+  },
+  {
+    "ITEM": 9,
+    "ARTICLE_EID": "art_17_b",
+    "TARGET_SR": "SR 812.21",
+    "assigned_articles": [
+      "Art. 9 Abs. 2 Bst. f"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Satz nennt «kantonal zugelassene Arzneimittel nach Artikel 9 Absatz 2 Buchstabe f HMG»; dieser Artikel gehört zum HMG (SR 812.21)."
+  },
+  {
+    "ITEM": 10,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 2 Abs. 1 Bst. c"
+    ],
+    "confidence": "high",
+    "reasoning": "Artikelreferenz «nach Artikel 2 Absatz 1 Buchstabe c der Transplantationsverordnung» wiederholt den Verweis aus ITEM 2; sie betrifft Art. 2 Abs. 1 lit. c der Transplantationsverordnung (SR 810.211), nicht eine Selbstreferenz im eigenen SR."
+  },
+  {
+    "ITEM": 11,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": "SR 812.21",
+    "assigned_articles": [
+      "Art. 24",
+      "Art. 25"
+    ],
+    "confidence": "high",
+    "reasoning": "«nach den Artikeln 24 und 25 HMG»; HMG ist in der Präambel als SR 812.21 definiert, daher externer Verweis auf diese beiden Artikel des HMG."
+  },
+  {
+    "ITEM": 12,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": "SR 812.212.21",
+    "assigned_articles": [
+      "Art. 52 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "«Personen nach Artikel 52 Absatz 2 der Arzneimittelverordnung … (VAM)»; dies ist derselbe externe Verweis wie in ITEM 3 auf Art. 52 Abs. 2 VAM (SR 812.212.21)."
+  },
+  {
+    "ITEM": 13,
+    "ARTICLE_EID": "art_5_a",
+    "TARGET_SR": "SR 812.212.5",
+    "assigned_articles": [
+      "Art. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "«… und darf nur Personen nach Artikel 3 zur Verfügung gestellt werden.» Im Kontext ohne Gesetzesabkürzung ist dies eine interne Selbstreferenz auf Art. 3 derselben Verordnung (SR 812.212.5)."
+  },
+  {
+    "ITEM": 14,
+    "ARTICLE_EID": "art_6",
+    "TARGET_SR": "SR 812.21",
+    "assigned_articles": [
+      "Art. 67 Abs. 3",
+      "Art. 95b"
+    ],
+    "confidence": "high",
+    "reasoning": "«Verzeichnis nach Artikel 67 Absatz 3 oder Artikel 95b HMG»; HMG = SR 812.21, somit externer Verweis auf diese beiden Artikel."
+  },
+  {
+    "ITEM": 15,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": "SR 812.212.5",
+    "assigned_articles": [
+      "Art. 5 Abs. 5"
+    ],
+    "confidence": "high",
+    "reasoning": "«… welche die Anforderungen von Artikel 5 Absatz 5 erfüllen.» Ohne Abkürzung ist dies eine interne Verweisung innerhalb derselben Verordnung auf Art. 5 Abs. 5."
+  },
+  {
+    "ITEM": 16,
+    "ARTICLE_EID": "art_8",
+    "TARGET_SR": "SR 812.212.5",
+    "assigned_articles": [
+      "Art. 6 Bst. d",
+      "Art. 6 Bst. e",
+      "Art. 6 Bst. h"
+    ],
+    "confidence": "high",
+    "reasoning": "«… auf die Angaben nach Artikel 6 Buchstaben d, e und h verzichtet werden.» Dies sind interne Buchstaben des Art. 6 derselben Verordnung."
+  },
+  {
+    "ITEM": 17,
+    "ARTICLE_EID": "art_10",
+    "TARGET_SR": "SR 812.21",
+    "assigned_articles": [
+      "Art. 67 Abs. 3",
+      "Art. 95b"
+    ],
+    "confidence": "high",
+    "reasoning": "«Verzeichnis nach Artikel 67 Absatz 3 beziehungsweise Artikel 95b HMG»; identischer externer Verweis wie in ITEM 8 auf HMG (SR 812.21)."
+  },
+  {
+    "ITEM": 18,
+    "ARTICLE_EID": "art_17_a",
+    "TARGET_SR": "SR 812.212.5",
+    "assigned_articles": [
+      "Art. 16 Abs. 5 Bst. c",
+      "Art. 17"
+    ],
+    "confidence": "high",
+    "reasoning": "«… Hinweis … nach den Artikeln 16 Absatz 5 Buchstabe c und 17 verwendet werden.» Ohne Gesetzesabkürzung sind dies interne Verweise auf Art. 16 Abs. 5 lit. c und Art. 17 derselben Verordnung."
+  },
+  {
+    "ITEM": 19,
+    "ARTICLE_EID": "art_17_b",
+    "TARGET_SR": "SR 812.212.5",
+    "assigned_articles": [
+      "Art. 17"
+    ],
+    "confidence": "high",
+    "reasoning": "«Für die Ausgestaltung dieses Pflichthinweises gilt Artikel 17 sinngemäss …»; klarer interner Verweis auf Art. 17 derselben Verordnung."
+  },
+  {
+    "ITEM": 20,
+    "ARTICLE_EID": "art_23",
+    "TARGET_SR": "SR 812.212.5",
+    "assigned_articles": [
+      "Art. 15 Bst. a",
+      "Art. 15 Bst. c"
+    ],
+    "confidence": "high",
+    "reasoning": "«Publikumswerbung nach Artikel 15 Buchstaben a und c …»; ohne externe Abkürzung ist dies eine interne Verweisung auf Art. 15 lit. a und c derselben Verordnung."
+  },
+  {
+    "ITEM": 21,
+    "ARTICLE_EID": "art_25_a",
+    "TARGET_SR": "SR 812.212.5",
+    "assigned_articles": [
+      "Art. 17 Abs. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "«… die Artikel 17 Absatz 3 nicht entspricht …»; bezieht sich auf Art. 17 Abs. 3 der eigenen Verordnung (Übergangsbestimmung)."
+  },
+  {
+    "ITEM": 22,
+    "ARTICLE_EID": "art_25_a",
+    "TARGET_SR": "SR 812.212.5",
+    "assigned_articles": [
+      "Art. 10 Abs. 2 Bst. a",
+      "Art. 19 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "«… neue Bestimmung von Artikel 10 Absatz 2 Buchstabe a und Artikel 19 Absatz 1 …»; beide sind interne Artikel derselben Verordnung."
+  },
+  {
+    "ITEM": 23,
+    "ARTICLE_EID": "art_25_b",
+    "TARGET_SR": "SR 812.212.5",
+    "assigned_articles": [
+      "Art. 16 Abs. 5 Bst. c",
+      "Art. 17"
+    ],
+    "confidence": "high",
+    "reasoning": "«… noch bis zum 1. April 2019 nach den bisherigen Artikeln 16 Absatz 5 Buchstabe c und 17 erfolgen.» Übergangsrechtliche interne Verweisung auf diese beiden Artikel derselben Verordnung."
+  }
+]

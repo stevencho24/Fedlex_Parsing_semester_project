@@ -1,0 +1,42 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 172.010",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet only cites the Regierungs- und Verwaltungsorganisationsgesetz (SR 172.010) by title and SR number without mentioning any specific article or range; this is a generic legal basis reference in the preamble."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_11",
+    "TARGET_SR": "SR 235.11",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "The text refers to the Datenschutzverordnung (SR 235.11) solely by title and SR number, with no accompanying article indication; it functions as a general reference to the ordinance as a whole."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_11",
+    "TARGET_SR": "SR 128.1",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet cites the Informationssicherheitsverordnung (SR 128.1) only by title and SR number, without any article, paragraph, or range; this is a blanket reference to the entire regulation."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "The phrase 'gemäss Artikel 7 Absatz 4' contains an article reference without any SR or acronym context; by the rules this is a self-reference to Article 7 paragraph 4 of the same ordinance, not to an external SR document."
+  }
+]

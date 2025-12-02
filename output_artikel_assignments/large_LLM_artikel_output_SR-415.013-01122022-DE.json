@@ -1,0 +1,92 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 172.010",
+    "assigned_articles": [
+      "Art. 46a"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Formulierung «gestützt auf Artikel 46a des Regierungs- und Verwaltungsorganisationsgesetzes … SR 172.010» verknüpft den genannten Artikel direkt mit dem zitierten Gesetz; damit ist klar, dass Art. 46a RVOG (SR 172.010) gemeint ist."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 415.0",
+    "assigned_articles": [
+      "Art. 29"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Satz «… nicht anwendbar auf gewerbliche Leistungen nach Artikel 29 des Sportförderungsgesetzes … SR 415.0 (SpoFöG)» wird Art. 29 ausdrücklich dem Sportförderungsgesetz (SR 415.0) zugeordnet; syntaktisch klarer Bezug."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": "SR 172.041.1",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Passage «gelten die Bestimmungen der Allgemeinen Gebührenverordnung … SR 172.041.1» verweist pauschal auf die Verordnung, ohne einzelne Artikel zu nennen; daher allgemeine Dokumentverweisung."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": "SR 415.01",
+    "assigned_articles": [
+      "Art. 10a"
+    ],
+    "confidence": "high",
+    "reasoning": "«Verfügungen über gutgeheissene Registrierungen als Organisator nach Artikel 10a Sportförderungsverordnung … SR 415.01» ordnet Art. 10a eindeutig der Sportförderungsverordnung (SR 415.01) zu."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_8",
+    "TARGET_SR": "SR 415.0",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "medium",
+    "reasoning": "Die Formulierung «nach den Bestimmungen des SpoFöG SR 415.0 Finanzhilfen erhalten» nennt keine konkrete Artikelnummer; es handelt sich um eine generelle Bezugnahme auf das Sportförderungsgesetz insgesamt."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 415.013",
+    "assigned_articles": [
+      "Art. 29"
+    ],
+    "confidence": "high",
+    "reasoning": "Dies ist eine Selbstreferenz innerhalb derselben Verordnung (SR 415.013). «… nach Artikel 29 des Sportförderungsgesetzes … (SpoFöG)» verweist auf Art. 29 des externen Gesetzes, aber der Artikelbezug (Art. 29) ist hier bereits im SR_link_detection-Item 2 dem SR 415.0 zugeordnet; für die eigene SR (415.013) bleibt dies eine interne Textstelle ohne weiteren externen Artikelbezug."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": "SR 415.013",
+    "assigned_articles": [
+      "Art. 10a"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Stelle «… nach Artikel 10a Sportförderungsverordnung …» ist eine Selbstreferenzzeile, die denselben Bezug wie Item 4 enthält. Der Artikel 10a gehört zur Sportförderungsverordnung (SR 415.01); innerhalb der eigenen Verordnung (SR 415.013) ist dies lediglich die Wiederholung dieses externen Bezugs."
+  },
+  {
+    "ITEM": 8,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": "SR 415.013",
+    "assigned_articles": [
+      "Art. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "«Dienstleistungen nach Artikel 3 Buchstaben a–c, g und h» bezieht sich klar auf Art. 3 derselben Verordnung (SR 415.013); es wird kein anderes SR genannt, daher reine Selbstreferenz."
+  },
+  {
+    "ITEM": 9,
+    "ARTICLE_EID": "art_8",
+    "TARGET_SR": "SR 415.013",
+    "assigned_articles": [
+      "Art. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "«Programmen und Projekten nach Artikel 3 SpoFöG» verweist auf Art. 3 des Sportförderungsgesetzes (SpoFöG, SR 415.0). Für die eigene Verordnung (SR 415.013) ist dies eine interne Textstelle, die denselben externen Artikel (Art. 3 SR 415.0) erwähnt, ohne zusätzliche SR-Verknüpfung."
+  }
+]

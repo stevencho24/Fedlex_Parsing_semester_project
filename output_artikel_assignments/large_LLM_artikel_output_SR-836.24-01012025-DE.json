@@ -1,0 +1,63 @@
+[
+  {
+    "Item": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 836.2",
+    "assigned_articles": [
+      "Art. 5 Abs. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Satz lautet: «gestützt auf Artikel 5 Absatz 3 des Familienzulagengesetzes … SR 836.2 (FamZG)». Artikel und Absatz werden direkt mit dem genannten Gesetz (FamZG, SR 836.2) verknüpft."
+  },
+  {
+    "Item": 2,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 836.2",
+    "assigned_articles": [
+      "Art. 5 Abs. 1",
+      "Art. 5 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Snippet: «Die Kinderzulage nach Artikel 5 Absatz 1 FamZG … Die Ausbildungszulage nach Artikel 5 Absatz 2 FamZG …». Beide Artikelangaben stehen unmittelbar mit dem Akronym FamZG, das im Vorspann als SR 836.2 definiert ist, in direktem syntaktischem Zusammenhang."
+  },
+  {
+    "Item": 3,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Interne Verweisung innerhalb des Dokuments (Art. 5 Abs. 1 FamZG eines anderen Erlasses, nicht des aktuellen SR-836.24-Textes)"
+    ],
+    "confidence": "high",
+    "reasoning": "artikel_reference ohne TARGET_SR. Der Text verweist auf «Artikel 5 Absatz 1 FamZG». FamZG (SR 836.2) ist ein externer Erlass; der aktuelle Erlass ist SR 836.24. Damit handelt es sich nicht um eine Selbstverweisung auf einen Artikel von SR 836.24, sondern um eine externe Normverweisung, die bereits in Item 2 SR 836.2 zugeordnet wurde."
+  },
+  {
+    "Item": 4,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Interne Verweisung innerhalb des Dokuments (Art. 5 Abs. 2 FamZG eines anderen Erlasses, nicht des aktuellen SR-836.24-Textes)"
+    ],
+    "confidence": "high",
+    "reasoning": "Wie bei Item 3 verweist der Text auf «Artikel 5 Absatz 2 FamZG», also auf einen Artikel des FamZG (SR 836.2) und nicht auf einen Artikel des aktuellen Erlasses. Daher keine neue SR-Zuordnung; die inhaltliche Verknüpfung zu SR 836.2 ist bereits in Item 2 erfasst."
+  },
+  {
+    "Item": 5,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Interne Verweisung innerhalb des Dokuments (Art. 1 des aktuellen Erlasses SR 836.24)"
+    ],
+    "confidence": "high",
+    "reasoning": "«Die Mindestansätze nach Artikel 1» enthält keinen Gesetzesnamen oder SR-Hinweis. Nach den Regeln ist dies eine isolierte Artikelangabe ohne externen SR-Kontext und bezieht sich damit auf Art. 1 desselben Erlasses (SR 836.24)."
+  },
+  {
+    "Item": 6,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Interne Verweisung innerhalb des Dokuments (Art. 1 des aktuellen Erlasses SR 836.24)"
+    ],
+    "confidence": "high",
+    "reasoning": "Auch hier: «Die Mindestansätze nach Artikel 1» ohne Nennung eines anderen Gesetzes oder SR. Gemäss Vorgabe ist dies eine Selbstverweisung auf Art. 1 des aktuellen Erlasses (SR 836.24), nicht auf ein externes SR-Dokument."
+  }
+]

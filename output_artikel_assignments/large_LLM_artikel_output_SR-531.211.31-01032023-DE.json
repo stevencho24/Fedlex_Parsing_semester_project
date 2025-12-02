@@ -1,0 +1,52 @@
+[
+  {
+    "Item": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 531.11",
+    "assigned_articles": [
+      "Art. 21 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Formulierung «gestützt auf Artikel 21 Absatz 1 der Verordnung ... SR 531.11» verknüpft den genannten Artikel eindeutig mit der Verordnung SR 531.11."
+  },
+  {
+    "Item": 2,
+    "ARTICLE_EID": "art_8",
+    "TARGET_SR": "SR 531",
+    "assigned_articles": [
+      "Art. 45"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Snippet steht «gestützt auf Artikel 45 des Landesversorgungsgesetzes ... SR 531 (LVG)»; Art. 45 wird damit klar dem LVG (SR 531) zugeordnet."
+  },
+  {
+    "Item": 3,
+    "ARTICLE_EID": "art_9",
+    "TARGET_SR": "SR 531",
+    "assigned_articles": [
+      "Art. 49"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Passage «werden nach Artikel 49 LVG SR 531 bestraft» weist Art. 49 ausdrücklich dem LVG (SR 531) zu."
+  },
+  {
+    "Item": 4,
+    "ARTICLE_EID": "art_8",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Interne Verweisung innerhalb der aktuellen Verordnung (Art. 45 LVG bereits bei Item 2 SR 531 zugeordnet)"
+    ],
+    "confidence": "high",
+    "reasoning": "artikel_reference ohne explizite SR-Nennung; derselbe Kontext wie Item 2, wo Art. 45 LVG bereits SR 531 zugeordnet wurde. Hier dient der Verweis als interne inhaltliche Bezugnahme und erzeugt keinen neuen SR-Link."
+  },
+  {
+    "Item": 5,
+    "ARTICLE_EID": "art_9",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Interne Verweisung innerhalb der aktuellen Verordnung (Art. 49 LVG bereits bei Item 3 SR 531 zugeordnet)"
+    ],
+    "confidence": "high",
+    "reasoning": "artikel_reference ohne SR-Angabe; derselbe Satz wie bei Item 3, wo Art. 49 LVG bereits SR 531 zugeordnet wurde. Hier liegt nur eine interne Bezugnahme vor, kein zusätzlicher SR-Link."
+  }
+]

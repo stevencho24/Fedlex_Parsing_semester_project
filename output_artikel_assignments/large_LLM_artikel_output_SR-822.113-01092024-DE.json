@@ -1,0 +1,81 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 822.11",
+    "assigned_articles": [
+      "Art. 6 Abs. 4",
+      "Art. 40"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Präambel nennt ausdrücklich «Artikel 6 Absatz 4 und 40 des Arbeitsgesetzes … SR 822.11»; beide Artikel sind direkt und syntaktisch klar diesem Gesetz (SR 822.11) zugeordnet."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 832.20",
+    "assigned_articles": [
+      "Art. 82"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Snippet steht «… nach Artikel 82 des Unfallversicherungsgesetzes … SR 832.20»; Art. 82 ist eindeutig dem UVG (SR 832.20) zugeordnet."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": "SR 832.20",
+    "assigned_articles": [
+      "Art. 83 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Text lautet «… nach den Ausführungsvorschriften zu Artikel 83 Absatz 2 des Unfallversicherungsgesetzes … SR 832.20»; Art. 83 Abs. 2 ist klar dem UVG (SR 832.20) zugeordnet."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_24_a",
+    "TARGET_SR": "SR 813.1",
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Es wird nur «nach dem Chemikaliengesetz vom 15. Dezember 2000 SR 813.1 (Chemikalien)» erwähnt, ohne konkrete Artikelangabe; daher handelt es sich um eine allgemeine Verweisung auf das gesamte Chemikaliengesetz ohne spezifische Artikel."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_24_a",
+    "TARGET_SR": "SR 822.111",
+    "assigned_articles": [
+      "Art. 85 Abs. 1 Bst. g"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Satzteil «… Informations- und Dokumentationssystem nach Artikel 85 Absatz 1 Buchstabe g der Verordnung 1 … SR 822.111 zum Arbeitsgesetz» ordnet Art. 85 Abs. 1 Bst. g eindeutig der Verordnung 1 zum Arbeitsgesetz (SR 822.111) zu."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "self",
+    "assigned_articles": [
+      "Art. 82"
+    ],
+    "confidence": "high",
+    "reasoning": "Dies ist ein artikel_reference ohne explizite SR-Angabe; derselbe Satz erscheint in ITEM 2, wo «Artikel 82 … SR 832.20» genannt wird. Hier wird somit intern auf Art. 82 UVG verwiesen, aber im Sinne der Regeln ist dies eine Selbstreferenzstruktur des aktuellen Dokuments; der Artikelwert ist Art. 82."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": "self",
+    "assigned_articles": [
+      "Art. 83 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Dies ist ein artikel_reference ohne SR-Angabe; derselbe Wortlaut steht in ITEM 3 mit «Artikel 83 Absatz 2 … SR 832.20». Hier fungiert die Nennung als interne Artikelverweisung; der referenzierte Artikel ist Art. 83 Abs. 2."
+  },
+  {
+    "ITEM": 8,
+    "ARTICLE_EID": "art_24_a",
+    "TARGET_SR": "self",
+    "assigned_articles": [
+      "Art. 85 Abs. 1 Bst. g"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Text entspricht inhaltlich ITEM 5, wo «Artikel 85 Absatz 1 Buchstabe g der Verordnung 1 … SR 822.111» explizit genannt wird. Als artikel_reference ohne SR ist dies eine Selbstreferenzstruktur; der referenzierte Artikel ist Art. 85 Abs. 1 Bst. g."
+  }
+]

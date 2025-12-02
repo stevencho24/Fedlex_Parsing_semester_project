@@ -1,0 +1,74 @@
+[
+  {
+    "Item": 1,
+    "TARGET_SR": "SR 814.501",
+    "assigned_articles": [
+      "Art. 119 Abs. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Formulierung «gestützt auf Artikel 119 Absatz 3 der Strahlenschutzverordnung … SR 814.501 (StSV)» verknüpft den genannten Artikel grammatikalisch eindeutig mit der Strahlenschutzverordnung SR 814.501."
+  },
+  {
+    "Item": 2,
+    "TARGET_SR": "SR 0.741.621",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Zusammenhang mit dem Europäischen Übereinkommen ADR (SR 0.741.621) werden keine konkreten Artikel genannt; es handelt sich um eine generelle Verweisung auf das Übereinkommen als Ganzes."
+  },
+  {
+    "Item": 3,
+    "TARGET_SR": "SR 741.621",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Verordnung über die Beförderung gefährlicher Güter auf der Strasse (SR 741.621) wird ohne Nennung einzelner Artikel zitiert; die Vorschriften werden insgesamt herangezogen."
+  },
+  {
+    "Item": 4,
+    "TARGET_SR": "SR 732.11",
+    "assigned_articles": [
+      "Art. 54"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Text lautet «radioaktive Abfälle nach Artikel 54 der Kernenergieverordnung … SR 732.11»; damit ist Art. 54 der Kernenergieverordnung eindeutig dieser SR-Nummer zugeordnet."
+  },
+  {
+    "Item": 5,
+    "TARGET_SR": "SR 813.11",
+    "assigned_articles": [
+      "Art. 61"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Passage «Gruppen 1 oder 2 nach Artikel 61 der Chemikalienverordnung … SR 813.11» verknüpft Art. 61 klar mit der Chemikalienverordnung SR 813.11."
+  },
+  {
+    "Item": 6,
+    "TARGET_SR": "SR 814.56",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Gebührenverordnung im Strahlenschutz (SR 814.56) wird ohne konkrete Artikelangabe als Grundlage für die Gebührenerhebung genannt; es handelt sich um eine generelle Verweisung."
+  },
+  {
+    "Item": 7,
+    "TARGET_SR": "self",
+    "assigned_articles": [
+      "Art. 54 (SR 732.11)"
+    ],
+    "confidence": "high",
+    "reasoning": "Dies ist ein artikel_reference ohne TARGET_SR. Der Satz wiederholt die bereits in Item 4 analysierte Wendung «nach Artikel 54 der Kernenergieverordnung …». Der Artikel 54 gehört zur Kernenergieverordnung SR 732.11 und ist kein Selbstverweis innerhalb der vorliegenden Verordnung, sondern ein externer Verweis; hier als eigenständiger SR-Link zu verstehen."
+  },
+  {
+    "Item": 8,
+    "TARGET_SR": "self",
+    "assigned_articles": [
+      "Art. 61 (SR 813.11)"
+    ],
+    "confidence": "high",
+    "reasoning": "Auch hier handelt es sich um einen artikel_reference ohne TARGET_SR. Der Text entspricht inhaltlich Item 5 («nach Artikel 61 der Chemikalienverordnung …»). Art. 61 gehört zur Chemikalienverordnung SR 813.11; dies ist ein externer Verweis und als eigener SR-Link zu behandeln, nicht als Selbstverweis auf einen Artikel der aktuellen Verordnung."
+  }
+]

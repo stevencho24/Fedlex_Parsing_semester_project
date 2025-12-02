@@ -1,0 +1,55 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 101",
+    "assigned_articles": [
+      "Art. 75a Abs. 3",
+      "Art. 88"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet explicitly cites 'Artikel 75a Absatz 3 und 88 der Bundesverfassung SR 101'; both articles are directly and syntactically linked to SR 101."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_18",
+    "TARGET_SR": "SR 700",
+    "assigned_articles": [
+      "Art. 14"
+    ],
+    "confidence": "high",
+    "reasoning": "The phrase 'Nutzungspläne im Sinne von Artikel 14 des Raumplanungsgesetzes ... SR 700' directly links Art. 14 to SR 700."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_6",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "The reference 'nach den Artikeln 3 Absatz 3 und 4 Absatz 3' has no SR or acronym context and clearly refers to internal articles of the same law; thus it is a self-reference, not tied to an external SR."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_13",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "The phrase 'in den Plänen nach Artikel 5' contains no SR or external law indication and refers to an internal article of the same act; therefore it is a self-reference only."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_18",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "This snippet mirrors ITEM 2 but omits 'Artikel 14 des Raumplanungsgesetzes' and any SR marker; the remaining text is purely about the current law’s own complaint rules, so the article reference is internal and not to SR 700."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_19",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "The phrase 'Pläne nach Artikel 5 Absatz 1' lacks any SR or external law reference and clearly points to an internal provision of the same statute; thus it is a self-reference only."
+  }
+]

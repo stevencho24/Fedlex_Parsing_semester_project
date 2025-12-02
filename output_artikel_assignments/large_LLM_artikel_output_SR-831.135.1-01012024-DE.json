@@ -1,0 +1,83 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 831.101",
+    "assigned_articles": [
+      "Art. 66ter"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Präambel nennt ausdrücklich «Artikel 66ter der Verordnung ... SR 831.101 ... (AHVV)»; der Artikel ist direkt mit der genannten SR-Verordnung verknüpft."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 831.10",
+    "assigned_articles": [
+      "Art. 43ter"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Satz «... Anspruch auf Hilfsmittel nach Artikel 43ter des Bundesgesetzes ... (AHVG) SR 831.10» steht Art. 43ter unmittelbar beim AHVG; damit ist klar, dass Art. 43ter zum SR 831.10 gehört."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": "SR 831.10",
+    "assigned_articles": [
+      "Art. 21 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "Formulierung «Referenzalter nach Artikel 21 Absatz 1 AHVG SR 831.10» verknüpft Art. 21 Abs. 1 direkt mit dem AHVG (SR 831.10)."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": "SR 831.20",
+    "assigned_articles": [
+      "Art. 21",
+      "Art. 21bis"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Text nennt «Hilfsmittel oder Ersatzleistungen nach den Artikeln 21 oder 21bis des Bundesgesetzes über die Invalidenversicherung (IVG) SR 831.20»; beide Artikel sind klar dem IVG (SR 831.20) zugeordnet."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_6",
+    "TARGET_SR": "SR 831.201",
+    "assigned_articles": [
+      "Art. 65–79bis"
+    ],
+    "confidence": "high",
+    "reasoning": "«Für das Verfahren gelten die Artikel 65–79bis der Verordnung ... SR 831.201 über die Invalidenversicherung (IVV)»; der Artikelsbereich 65–79bis wird explizit dieser Verordnung zugeordnet."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_6",
+    "TARGET_SR": "SR 830.1",
+    "assigned_articles": [
+      "Art. 51"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Satz «... nach Artikel 51 des Bundesgesetzes vom 6. Oktober 2000 SR 830.1 über den Allgemeinen Teil des Sozialversicherungsrechts ...» ist Art. 51 grammatikalisch direkt mit diesem Gesetz (SR 830.1) verbunden."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_6",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Stelle «Artikel 65–79bis der Verordnung ... über die Invalidenversicherung (IVV)» ist bereits in ITEM 5 als Verweis auf SR 831.201 erfasst; hier liegt kein neuer externer SR-Bezug vor, sondern eine Wiederholung im Fliesstext, daher als interne/selbständige Artikelreferenz des aktuellen Dokuments zu behandeln."
+  },
+  {
+    "ITEM": 8,
+    "ARTICLE_EID": "art_6",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«nach Artikel 51 des Bundesgesetzes vom 6. Oktober 2000 über den Allgemeinen Teil des Sozialversicherungsrechts» entspricht dem bereits in ITEM 6 mit SR 830.1 verknüpften Verweis; da hier kein expliziter SR-Link steht, wird dies als interne/selbstreferenzielle Artikelangabe im aktuellen Dokument gewertet."
+  }
+]

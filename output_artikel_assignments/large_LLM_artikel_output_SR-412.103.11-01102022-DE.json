@@ -1,0 +1,166 @@
+[
+  {
+    "Item": 1,
+    "source_type": "SR_link_detection",
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 412.103.1",
+    "assigned_articles": [
+      "Art. 4 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Formulierung «gestützt auf Artikel 4 Absatz 2 der Berufsmaturitätsverordnung … SR 412.103.1 (BMV)» verknüpft den genannten Artikel grammatikalisch eindeutig mit der zitierten SR-Nummer."
+  },
+  {
+    "Item": 2,
+    "source_type": "preamble_acronym",
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": "SR 412.103.1",
+    "assigned_articles": [
+      "Art. 29",
+      "Art. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Snippet heisst es «… ausserhalb eines nach Artikel 29 BMV anerkannten Bildungsgangs … die Ziele nach Artikel 3 BMV erreicht haben». Beide Artikelangaben stehen direkt beim Akronym BMV, das in der Präambel SR 412.103.1 zugeordnet ist."
+  },
+  {
+    "Item": 3,
+    "source_type": "preamble_acronym",
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": "SR 412.103.1",
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Das Snippet enthält nur die Bezeichnung «SBFI» (ebenfalls als Akronym SR 412.103.1 zugeordnet), aber keine Artikel- oder Absatzangabe der BMV; daher keine konkrete Artikelzuweisung."
+  },
+  {
+    "Item": 4,
+    "source_type": "preamble_acronym",
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": "SR 412.103.1",
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Auch hier wird lediglich das SBFI erwähnt, ohne Bezug auf bestimmte Artikel der BMV; keine Artikelnummer im Text."
+  },
+  {
+    "Item": 5,
+    "source_type": "preamble_acronym",
+    "ARTICLE_EID": "art_6",
+    "TARGET_SR": "SR 412.103.1",
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Das Snippet spricht nur von Formularen des SBFI; es gibt keine Nennung von «Art.» oder «Artikel» im Zusammenhang mit der BMV."
+  },
+  {
+    "Item": 6,
+    "source_type": "preamble_acronym",
+    "ARTICLE_EID": "art_6",
+    "TARGET_SR": "SR 412.103.1",
+    "assigned_articles": [
+      "Art. 23"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Passage «Die Anerkennung der Fremdsprachendiplome richtet sich nach Artikel 23 BMV.» verknüpft Artikel 23 explizit mit der BMV, deren Akronym in der Präambel SR 412.103.1 zugeordnet ist."
+  },
+  {
+    "Item": 7,
+    "source_type": "preamble_acronym",
+    "ARTICLE_EID": "art_12",
+    "TARGET_SR": "SR 412.103.1",
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Es wird nur auf Richtlinien des SBFI verwiesen; keine Artikelangabe der BMV im Snippet."
+  },
+  {
+    "Item": 8,
+    "source_type": "preamble_acronym",
+    "ARTICLE_EID": "art_19",
+    "TARGET_SR": "SR 412.103.1",
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Das Snippet beschreibt Verfügungen des SBFI, ohne einen bestimmten Artikel der BMV zu nennen."
+  },
+  {
+    "Item": 9,
+    "source_type": "preamble_acronym",
+    "ARTICLE_EID": "art_20",
+    "TARGET_SR": "SR 412.103.1",
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Es wird nur der Prüfungsentscheid des SBFI erwähnt; kein «Art.»-Verweis auf die BMV."
+  },
+  {
+    "Item": 10,
+    "source_type": "preamble_acronym",
+    "ARTICLE_EID": "art_23",
+    "TARGET_SR": "SR 412.103.1",
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Die zitierte «Verordnung des SBFI vom 16. November 2016» ist ein anderes Erlasswerk; im Snippet wird kein Artikel der BMV genannt."
+  },
+  {
+    "Item": 11,
+    "source_type": "artikel_reference",
+    "ARTICLE_EID": "art_6",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 4 Abs. 2 Bst. c"
+    ],
+    "confidence": "high",
+    "reasoning": "«(Art. 4 Abs. 2 Bst. c)» ist eine reine Binnenverweisung innerhalb derselben Verordnung (kein SR-Hinweis im Satz); daher Selbstreferenz auf den eigenen Erlass, nicht auf SR 412.103.1."
+  },
+  {
+    "Item": 12,
+    "source_type": "artikel_reference",
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 18",
+      "Art. 19"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Formulierung «… verweist … im Speziellen auf die Artikel 18 und 19.» enthält keinen Bezug zu einem externen SR-Dokument; es handelt sich um interne Artikel derselben Verordnung."
+  },
+  {
+    "Item": 13,
+    "source_type": "artikel_reference",
+    "ARTICLE_EID": "art_18",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 13 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "«… innerhalb der Frist nach Artikel 13 Absatz 2 absolviert» ist eine Binnenverweisung; kein SR-Kontext, daher Selbstreferenz auf Art. 13 Abs. 2 derselben Verordnung."
+  },
+  {
+    "Item": 14,
+    "source_type": "artikel_reference",
+    "ARTICLE_EID": "art_18",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 21 Abs. 6"
+    ],
+    "confidence": "high",
+    "reasoning": "«gestützt auf Artikel 21 Absatz 6» steht ohne Nennung eines anderen Erlasses; syntaktisch ist es eine interne Verweisung auf Art. 21 Abs. 6 der eigenen Verordnung."
+  },
+  {
+    "Item": 15,
+    "source_type": "artikel_reference",
+    "ARTICLE_EID": "art_19",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 18 Abs. 2 Bst. a–d"
+    ],
+    "confidence": "high",
+    "reasoning": "«In den Fällen nach Artikel 18 Absatz 2 Buchstaben a–d» verweist klar auf einen anderen Absatz desselben Erlasses; kein externer SR-Bezug im Satz."
+  },
+  {
+    "Item": 16,
+    "source_type": "artikel_reference",
+    "ARTICLE_EID": "art_19",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 18 Abs. 2 Bst. a und d"
+    ],
+    "confidence": "high",
+    "reasoning": "Auch hier ist «In den Fällen nach Artikel 18 Absatz 2 Buchstaben a und d» eine interne Verweisung; es fehlt jeder syntaktische Bezug zu einem SR-Link."
+  }
+]

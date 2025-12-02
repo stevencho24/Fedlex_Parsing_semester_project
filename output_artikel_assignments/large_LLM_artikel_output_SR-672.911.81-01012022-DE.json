@@ -1,0 +1,113 @@
+[
+  {
+    "Item": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 672.2",
+    "assigned_articles": [
+      "Art. 35 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Formulierung «gestützt auf Artikel 35 Absatz 1 des Bundesgesetzes … SR 672.2» verknüpft den genannten Artikel grammatikalisch eindeutig mit SR 672.2."
+  },
+  {
+    "Item": 2,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 0.672.911.82",
+    "assigned_articles": "General reference - entire document",
+    "confidence": "high",
+    "reasoning": "Das neue Abkommen SR 0.672.911.82 wird als Ganzes («in Ausführung des neuen Abkommens …») genannt; kein bestimmter Artikel des Abkommens wird im Satzteil mit der SR-Nummer spezifiziert."
+  },
+  {
+    "Item": 3,
+    "ARTICLE_EID": "art_6",
+    "TARGET_SR": "SR 313.0",
+    "assigned_articles": [
+      "Art. 49"
+    ],
+    "confidence": "high",
+    "reasoning": "«Die Durchführung richtet sich nach Artikel 49 des Bundesgesetzes … SR 313.0»; der Artikel ist direkt mit dem Gesetz SR 313.0 verknüpft."
+  },
+  {
+    "Item": 4,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 0.672.911.82",
+    "assigned_articles": [
+      "Art. 25 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "«in Artikel 25 Absatz 1 des Abkommens vorgesehenen Auskünfte»; das Abkommen ist in der Präambel als SR 0.672.911.82 definiert, daher bezieht sich Art. 25 Abs. 1 auf dieses SR."
+  },
+  {
+    "Item": 5,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": "SR 0.672.911.82",
+    "assigned_articles": [
+      "Art. 25 Abs. 1",
+      "Art. 25"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Text nennt «Artikel 25 Buchstabe Absatz 1 des Abkommens» (trotz Tippfehler klar als Art. 25 Abs. 1 zu verstehen) sowie später «Artikel 25 des Abkommens» ohne Absatzangabe; beide Verweise beziehen sich auf das als SR 0.672.911.82 definierte Abkommen."
+  },
+  {
+    "Item": 6,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": "SR 0.672.911.82",
+    "assigned_articles": [
+      "Art. 25"
+    ],
+    "confidence": "high",
+    "reasoning": "«… oder wenn Artikel 25 des Abkommens dies erfordert.»; das Abkommen ist SR 0.672.911.82, somit klarer Bezug auf Art. 25 dieses SR."
+  },
+  {
+    "Item": 7,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 25 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "Artikelreferenz-Typ ohne explizite SR; «Artikel 25 … Absatz 1 des Abkommens» ist ein Verweis auf Art. 25 Abs. 1 des in der Präambel definierten Abkommens (SR 0.672.911.82). Da hier kein TARGET_SR vorgegeben ist, handelt es sich um einen externen Verweis auf dieses Abkommen, nicht um eine Selbstreferenz innerhalb der Verordnung."
+  },
+  {
+    "Item": 8,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 25"
+    ],
+    "confidence": "high",
+    "reasoning": "«dass die Voraussetzungen nach Artikel 25 des Abkommens … erfüllt sind»; wiederum Verweis auf Art. 25 des Abkommens SR 0.672.911.82. Als artikel_reference ohne TARGET_SR ist dies ein externer Verweis, nicht eine Selbstreferenz."
+  },
+  {
+    "Item": 9,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": "SR 672.911.81",
+    "assigned_articles": [
+      "Art. 9 Abs. 4"
+    ],
+    "confidence": "high",
+    "reasoning": "«Artikel 9 Absatz 4 bleibt vorbehalten.»; kein anderes Gesetz oder Abkommen wird genannt, daher handelt es sich um eine Selbstreferenz innerhalb derselben Verordnung (SR-672.911.81-…)."
+  },
+  {
+    "Item": 10,
+    "ARTICLE_EID": "art_6",
+    "TARGET_SR": "SR 313.0",
+    "assigned_articles": [
+      "Art. 49"
+    ],
+    "confidence": "high",
+    "reasoning": "«Die Durchführung richtet sich nach Artikel 49 des Bundesgesetzes … über das Verwaltungsstrafrecht.»; dies ist derselbe Kontext wie bei Item 3 und verweist klar auf Art. 49 SR 313.0."
+  },
+  {
+    "Item": 11,
+    "ARTICLE_EID": "art_8",
+    "TARGET_SR": "SR 672.911.81",
+    "assigned_articles": [
+      "Art. 5",
+      "Art. 6",
+      "Art. 7"
+    ],
+    "confidence": "high",
+    "reasoning": "«… nach den Artikeln 5–7 beschafft …»; es wird kein anderes SR genannt, daher Selbstreferenz auf die Artikel 5 bis 7 derselben Verordnung (SR-672.911.81-…)."
+  }
+]

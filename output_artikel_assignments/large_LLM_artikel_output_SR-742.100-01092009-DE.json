@@ -1,0 +1,54 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 101",
+    "assigned_articles": [
+      "Art. 81",
+      "Art. 87",
+      "Art. 92"
+    ],
+    "confidence": "high",
+    "reasoning": "INSIDE_AUTHORIALNOTE explicitly states: 'Diesen Bestimmungen entsprechen die Artikel 81, 87 und 92 der Bundesverfassung ... (SR 101)'; these articles are directly and syntactically linked to SR 101."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_3_a",
+    "TARGET_SR": "SR 742.140",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet refers generally to the Verordnung SR 742.140 ('über das Reglement des Fonds für die Eisenbahngrossprojekte') without mentioning any specific article; thus it is a general reference to the whole ordinance."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": "SR 101",
+    "assigned_articles": [
+      "Art. 163 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "INSIDE_AUTHORIALNOTE contains '(Art. 163 Abs. 1 der Bundesverfassung, SR 101)'; the article and paragraph are explicitly and directly tied to SR 101."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": "SR 101",
+    "assigned_articles": [
+      "Art. 163 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "Same authorial note text '(Art. 163 Abs. 1 der Bundesverfassung, SR 101)' as ITEM 3; the citation clearly refers to Art. 163 Abs. 1 BV in SR 101."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": "SR 101",
+    "assigned_articles": [
+      "Art. 163 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "Again the identical authorial note '(Art. 163 Abs. 1 der Bundesverfassung, SR 101)' appears; therefore the assigned article is Art. 163 Abs. 1 of SR 101."
+  }
+]

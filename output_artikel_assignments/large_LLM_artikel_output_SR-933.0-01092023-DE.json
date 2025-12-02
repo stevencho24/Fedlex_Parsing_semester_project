@@ -1,0 +1,446 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 101",
+    "assigned_articles": [
+      "Art. 95",
+      "Art. 97",
+      "Art. 101"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet explicitly cites 'die Artikel 95, 97 und 101 der Bundesverfassung SR 101'; these articles are directly and syntactically linked to SR 101."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 930.11",
+    "assigned_articles": "General reference - entire document",
+    "confidence": "high",
+    "reasoning": "The paragraph refers generally to the Bundesgesetz über die Produktesicherheit (PrSG) SR 930.11 without specifying any article; applies the law as a whole for safety aspects."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": "SR 930.11",
+    "assigned_articles": [
+      "Art. 3 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "The text states 'im Sinne des Artikels 3 Absatz 1 PrSG SR 930.11'; clear direct marking of article and paragraph of the cited SR."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_6",
+    "TARGET_SR": "SR 0.946.526.81",
+    "assigned_articles": "General reference - entire document",
+    "confidence": "high",
+    "reasoning": "Reference is to the Abkommen SR 0.946.526.81 as a whole ('im Rahmen des Abkommens ... über die gegenseitige Anerkennung von Konformitätsbewertungen') with no article mentioned."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_15",
+    "TARGET_SR": "SR 0.946.526.81",
+    "assigned_articles": "General reference - entire document",
+    "confidence": "high",
+    "reasoning": "SECO notifies designated bodies 'gemäss den Bestimmungen des Abkommens ... SR 0.946.526.81'; no specific article is cited, the whole agreement’s provisions are relevant."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_17",
+    "TARGET_SR": "SR 0.946.526.81",
+    "assigned_articles": "General reference - entire document",
+    "confidence": "high",
+    "reasoning": "Again 'gemäss den Bestimmungen des Abkommens ... SR 0.946.526.81' without any article number; general reliance on the agreement."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_25",
+    "TARGET_SR": "SR 0.946.526.81",
+    "assigned_articles": "General reference - entire document",
+    "confidence": "high",
+    "reasoning": "The clause refers to bodies 'gemäss des Abkommens ... SR 0.946.526.81 ... über die gegenseitige Anerkennung von Konformitätsbewertungen'; no article is specified, so it is a general reference."
+  },
+  {
+    "ITEM": 8,
+    "ARTICLE_EID": "art_26",
+    "TARGET_SR": "SR 946.51",
+    "assigned_articles": [
+      "Art. 23–28"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet explicitly mentions 'im Sinne der Artikel 23–28 des Bundesgesetzes ... SR 946.51'; the range 23–28 of that SR is directly linked."
+  },
+  {
+    "ITEM": 9,
+    "ARTICLE_EID": "art_27",
+    "TARGET_SR": "SR 313.0",
+    "assigned_articles": [
+      "Art. 6",
+      "Art. 7"
+    ],
+    "confidence": "high",
+    "reasoning": "Text states 'Die Artikel 6 und 7 des Bundesgesetzes ... SR 313.0 ... sind anwendbar'; clear direct reference to these two articles."
+  },
+  {
+    "ITEM": 10,
+    "ARTICLE_EID": "art_32",
+    "TARGET_SR": "SR 946.51",
+    "assigned_articles": [
+      "Art. 21",
+      "Art. 22"
+    ],
+    "confidence": "high",
+    "reasoning": "The paragraph says 'nach den Artikeln 21 und 22 des Bundesgesetzes ... SR 946.51'; explicit direct marking of the two articles of the cited SR."
+  },
+  {
+    "ITEM": 11,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 11"
+    ],
+    "confidence": "high",
+    "reasoning": "Self-reference within the same law: 'Verfahren nach Artikel 11' clearly points to Art. 11 of the current document, not to an external SR."
+  },
+  {
+    "ITEM": 12,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 8 Abs. 3",
+      "Art. 12 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Both 'Artikel 8 Absatz 3 zweiter Satz' and 'Artikel 12 Absatz 2' are mentioned without any external SR; they are internal articles of the same act."
+  },
+  {
+    "ITEM": 13,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 12 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Refers to 'nach Artikel 12 Absatz 2 bezeichnete technische Norm'; no SR indicated, so it is an internal article reference."
+  },
+  {
+    "ITEM": 14,
+    "ARTICLE_EID": "art_6",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 15 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "Phrase 'nach Artikel 15 Absatz 1 bezeichnet' has no external SR; it is a cross-reference within the same law."
+  },
+  {
+    "ITEM": 15,
+    "ARTICLE_EID": "art_8",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 5"
+    ],
+    "confidence": "high",
+    "reasoning": "Mentions 'nach Artikel 5 zu erstellen'; clearly an internal reference to Art. 5 of this act."
+  },
+  {
+    "ITEM": 16,
+    "ARTICLE_EID": "art_9",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 4"
+    ],
+    "confidence": "high",
+    "reasoning": "Refers to 'dem allgemeinen Sicherheitsgebot nach Artikel 4'; no SR context, so it is self-referential."
+  },
+  {
+    "ITEM": 17,
+    "ARTICLE_EID": "art_10",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 29"
+    ],
+    "confidence": "high",
+    "reasoning": "Citation '(Art. 29)' in parentheses without any SR; this is the typical style for internal article references."
+  },
+  {
+    "ITEM": 18,
+    "ARTICLE_EID": "art_12",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 30"
+    ],
+    "confidence": "high",
+    "reasoning": "Parenthetical '(Art. 30)' refers to the Eidgenössische Kommission für Bauprodukte defined in this law; no external SR is mentioned."
+  },
+  {
+    "ITEM": 19,
+    "ARTICLE_EID": "art_12",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 4 Abs. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "The phrase 'Nachweis der Sicherheit nach Artikel 4 Absatz 3' is an internal cross-reference; no SR context present."
+  },
+  {
+    "ITEM": 20,
+    "ARTICLE_EID": "art_13",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 17"
+    ],
+    "confidence": "high",
+    "reasoning": "Refers to 'Technische Bewertungsstelle (TBS) nach Artikel 17'; this is within the same act, with no external SR."
+  },
+  {
+    "ITEM": 21,
+    "ARTICLE_EID": "art_14",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 30"
+    ],
+    "confidence": "high",
+    "reasoning": "Again '(Art. 30)' in the context of the Eidgenössische Kommission; internal reference, no SR given."
+  },
+  {
+    "ITEM": 22,
+    "ARTICLE_EID": "art_16",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 15"
+    ],
+    "confidence": "high",
+    "reasoning": "Mentions 'Bezeichnung der Stellen nach Artikel 15'; this is an internal structural reference."
+  },
+  {
+    "ITEM": 23,
+    "ARTICLE_EID": "art_21",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 5"
+    ],
+    "confidence": "high",
+    "reasoning": "Text: 'obwohl dies nach Artikel 5 erforderlich ist'; clearly an internal reference to Art. 5."
+  },
+  {
+    "ITEM": 24,
+    "ARTICLE_EID": "art_21",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 5–8"
+    ],
+    "confidence": "high",
+    "reasoning": "States 'nicht in Übereinstimmung mit den Artikeln 5–8 erstellt'; range 5–8 is internal, no SR mentioned."
+  },
+  {
+    "ITEM": 25,
+    "ARTICLE_EID": "art_23",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 22"
+    ],
+    "confidence": "high",
+    "reasoning": "Refers to 'neben den Massnahmen nach Artikel 22'; internal cross-reference within the same law."
+  },
+  {
+    "ITEM": 26,
+    "ARTICLE_EID": "art_24",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 20"
+    ],
+    "confidence": "high",
+    "reasoning": "Phrase 'Kontrollbefugnisse ... nach Artikel 20' is an internal reference; no external SR context."
+  },
+  {
+    "ITEM": 27,
+    "ARTICLE_EID": "art_24",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 22",
+      "Art. 23"
+    ],
+    "confidence": "high",
+    "reasoning": "Mentions 'nach den Artikeln 22 und 23 ergreifen können'; these are internal articles of the same act."
+  },
+  {
+    "ITEM": 28,
+    "ARTICLE_EID": "art_24",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 29 Abs. 5"
+    ],
+    "confidence": "high",
+    "reasoning": "Parenthetical '(Art. 29 Abs. 5)' is a typical internal reference; no SR is cited."
+  },
+  {
+    "ITEM": 29,
+    "ARTICLE_EID": "art_24",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 30"
+    ],
+    "confidence": "high",
+    "reasoning": "Again '(Art. 30)' in connection with the Eidgenössische Kommission; internal article reference."
+  },
+  {
+    "ITEM": 30,
+    "ARTICLE_EID": "art_25",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 20–22",
+      "Art. 23 Abs. 1",
+      "Art. 24"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet lists 'Artikeln 20–22, 23 Absatz 1 und 24'; all are internal articles of this law."
+  },
+  {
+    "ITEM": 31,
+    "ARTICLE_EID": "art_26",
+    "TARGET_SR": "SR 946.51",
+    "assigned_articles": [
+      "Art. 23–28"
+    ],
+    "confidence": "high",
+    "reasoning": "This repeats the same sentence as ITEM 8 but without the explicit SR number; contextually it is the same reference to 'Artikel 23–28 des Bundesgesetzes ... über die technischen Handelshemmnisse', i.e. SR 946.51."
+  },
+  {
+    "ITEM": 32,
+    "ARTICLE_EID": "art_27",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 25 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Refers to 'Mitwirkungs- und Auskunftspflicht nach Artikel 25 Absatz 2'; internal article, no SR mentioned."
+  },
+  {
+    "ITEM": 33,
+    "ARTICLE_EID": "art_27",
+    "TARGET_SR": "SR 313.0",
+    "assigned_articles": [
+      "Art. 6",
+      "Art. 7"
+    ],
+    "confidence": "high",
+    "reasoning": "Same sentence as ITEM 9 but without the SR number in the snippet; it clearly refers to 'Bundesgesetz ... über das Verwaltungsstrafrecht', i.e. SR 313.0, and its Articles 6 and 7."
+  },
+  {
+    "ITEM": 34,
+    "ARTICLE_EID": "art_29",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 32"
+    ],
+    "confidence": "high",
+    "reasoning": "States 'Daten nach Artikel 32'; this is an internal cross-reference to Art. 32 of the same act."
+  },
+  {
+    "ITEM": 35,
+    "ARTICLE_EID": "art_32",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 20–23",
+      "Art. 26",
+      "Art. 27"
+    ],
+    "confidence": "high",
+    "reasoning": "Lists 'nach den Artikeln 20–23 sowie nach den Artikeln 26 und 27'; all are internal articles of this law."
+  },
+  {
+    "ITEM": 36,
+    "ARTICLE_EID": "art_32",
+    "TARGET_SR": "SR 946.51",
+    "assigned_articles": [
+      "Art. 21",
+      "Art. 22"
+    ],
+    "confidence": "high",
+    "reasoning": "Same content as ITEM 10 but without explicit SR in the snippet; contextually it is 'Artikeln 21 und 22 des Bundesgesetzes ... über die technischen Handelshemmnisse', i.e. SR 946.51."
+  },
+  {
+    "ITEM": 37,
+    "ARTICLE_EID": "art_35",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 6 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "Parenthetical '(Art. 6 Abs. 1)' is an internal reference to Art. 6 para. 1 of this act."
+  },
+  {
+    "ITEM": 38,
+    "ARTICLE_EID": "art_35",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 7 Abs. 1 Bst. a",
+      "Art. 7 Abs. 1 Bst. b"
+    ],
+    "confidence": "high",
+    "reasoning": "Refers to '(Art. 7 Abs. 1 Bst. a und b)'; both letters a and b of Art. 7 para. 1 are internal."
+  },
+  {
+    "ITEM": 39,
+    "ARTICLE_EID": "art_35",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 8 Abs. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "Parenthetical '(Art. 8 Abs. 3)' is an internal cross-reference."
+  },
+  {
+    "ITEM": 40,
+    "ARTICLE_EID": "art_35",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 8 Abs. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "Again '(Art. 8 Abs. 3)' in the context of Schwellenwerte; same internal article."
+  },
+  {
+    "ITEM": 41,
+    "ARTICLE_EID": "art_35",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 10 Abs. 1 Bst. a"
+    ],
+    "confidence": "high",
+    "reasoning": "Parenthetical '(Art. 10 Abs. 1 Bst. a)' is an internal reference to Art. 10 para. 1 letter a."
+  },
+  {
+    "ITEM": 42,
+    "ARTICLE_EID": "art_35",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 10 Abs. 1 Bst. a",
+      "Art. 10 Abs. 1 Bst. b"
+    ],
+    "confidence": "high",
+    "reasoning": "Refers to '(Art. 10 Abs. 1 Bst. a und b)'; both letters a and b of Art. 10 para. 1 are internal."
+  },
+  {
+    "ITEM": 43,
+    "ARTICLE_EID": "art_35",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 13 Abs. 4 Bst. b"
+    ],
+    "confidence": "high",
+    "reasoning": "Parenthetical '(Art. 13 Abs. 4 Bst. b)' is an internal reference to that specific subdivision."
+  },
+  {
+    "ITEM": 44,
+    "ARTICLE_EID": "art_35",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 13 Abs. 4 Bst. c"
+    ],
+    "confidence": "high",
+    "reasoning": "Parenthetical '(Art. 13 Abs. 4 Bst. c)' is an internal reference to Art. 13 para. 4 letter c."
+  }
+]

@@ -1,0 +1,55 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 512.31",
+    "assigned_articles": [
+      "Art. 30",
+      "Art. 32 Abs. 2",
+      "Art. 40 Abs. 1 lit. b",
+      "Art. 55"
+    ],
+    "confidence": "high",
+    "reasoning": "Die SNIPPET-Formulierung nennt ausdrücklich: 'gestützt auf die Artikel 30, 32 Absatz 2, 40 Absatz 1 Buchstabe b und 55 der Schiessverordnung ... SR 512.31'; diese Artikel sind direkt und syntaktisch der genannten SR zugeordnet."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": "SR 512.312",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Passage verweist allgemein auf die Verordnung des VBS SR 512.312 ('werden in der Verordnung ... geregelt') ohne Nennung einzelner Artikel; daher handelt es sich um eine generelle Verweisung auf die ganze Verordnung."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_9",
+    "TARGET_SR": "SR 510.512",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "medium",
+    "reasoning": "Im authorialNote-Text wird die frühere Verordnung mit einer Fundstellenangabe 'Art. 30' zitiert, danach 'Siehe heute: die V ... (SR 510.512)'. Der Artikelbezug ('Art. 30') gehört zur alten Fassung, nicht ausdrücklich zur neuen Verordnung SR 510.512; für SR 510.512 wird nur die Verordnung als solche genannt. Mangels klarer Artikelzuordnung wird eine generelle Verweisung angenommen."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_6",
+    "TARGET_SR": "SR 512.313",
+    "assigned_articles": [
+      "Art. 16 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Norm lautet: 'Die Rapporte nach Absatz 1 und Artikel 16 Absatz 1 werden in diesem Fall hinfällig.' Es wird eindeutig auf 'Artikel 16 Absatz 1' derselben Verordnung (SR 512.313) verwiesen; dies ist eine interne Selbstverweisung."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_16",
+    "TARGET_SR": "SR 512.313",
+    "assigned_articles": [
+      "Art. 6 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Satz 'Vorbehalten bleibt Artikel 6 Absatz 2 dieser Verordnung.' verweist klar auf 'Artikel 6 Absatz 2' derselben Verordnung (SR 512.313); es handelt sich um eine interne Selbstverweisung."
+  }
+]

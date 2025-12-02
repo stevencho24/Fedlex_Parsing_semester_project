@@ -1,0 +1,184 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 170.512.1",
+    "assigned_articles": [
+      "Art. 16 Abs. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Wortlaut nennt ausdrücklich: 'in Anwendung von Art. 16 Abs. 3 der Publikationsverordnung ... (SR 170.512.1)'; damit ist Art. 16 Abs. 3 dieser Verordnung eindeutig dem zitierten SR zugeordnet."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 822.111",
+    "assigned_articles": [
+      "Art. 62 Abs. 4"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Satz 'gestützt auf Artikel 62 Absatz 4 der Verordnung 1 ... SR 822.111 zum Arbeitsgesetz (ArGV 1)' wird Art. 62 Abs. 4 direkt mit der Verordnung SR 822.111 verknüpft."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_10",
+    "TARGET_SR": "SR 832.321",
+    "assigned_articles": [
+      "Anhang 2.1"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Passage verweist auf 'Anhang 2.1 der Verordnung vom 25. August 1999 SR 832.321 ... (SAMV)'; es werden keine Artikel, sondern explizit der Anhang 2.1 dieser Verordnung genannt."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_12",
+    "TARGET_SR": "SR 814.501",
+    "assigned_articles": [
+      "Art. 36 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Klammerzusatz steht: '(Art. 36 Abs. 2 Strahlenschutzverordnung vom 22. Juni 1994 SR 814.501)'; Art. 36 Abs. 2 ist damit eindeutig der Strahlenschutzverordnung SR 814.501 zugeordnet."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_13",
+    "TARGET_SR": "SR 813.11",
+    "assigned_articles": [
+      "Anhang 2 Ziff. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Text spricht von 'nach der in Anhang 2 Ziffer 1 der Chemikalienverordnung vom 5. Juni 2015 SR 813.11 genannten Fassung'; damit ist Anhang 2 Ziffer 1 der Chemikalienverordnung SR 813.11 gemeint."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_17",
+    "TARGET_SR": "SR 822.116",
+    "assigned_articles": [
+      "Art. 4",
+      "Art. 5"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Stelle nennt 'Risikobeurteilung nach den Artikeln 4 und 5 der genannten Verordnung', wobei sich 'die genannte Verordnung' unmittelbar auf die zuvor genannte Verordnung SR 822.116 bezieht; somit gehören Art. 4 und 5 zu SR 822.116."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Interne Verweisung innerhalb der aktuellen Verordnung (Art. 62 Abs. 3 ArGV 1 als externe Referenz)"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Verweise 'Artikel 62 Absatz 3 ArGV 1' und 'Artikel 62 Absatz 4 ArGV 1' betreffen die Verordnung 1 zum Arbeitsgesetz (SR 822.111), sind aber hier nur als Kontext für die eigene Regelung genannt; es handelt sich nicht um eine neue SR-Link-Zuweisung, sondern um interne Beschreibung der Anwendungsgrundlage. Daher als Selbstreferenz/kontextuelle Erwähnung behandelt, ohne neues TARGET_SR."
+  },
+  {
+    "ITEM": 8,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Interne Verweisung innerhalb der aktuellen Verordnung (Art. 63 Abs. 1 ArGV 1 als externe Referenz)"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Nennung 'Artikel 63 Absatz 1 ArGV 1' verweist auf dieselbe externe Verordnung wie in der Präambel (SR 822.111), ist hier aber Teil der internen Zuständigkeitsumschreibung und kein eigener SR_link_detection-Eintrag; daher als interne/kontextuelle Referenz ohne neue SR-Zuordnung."
+  },
+  {
+    "ITEM": 9,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Interne Verweisung innerhalb der aktuellen Verordnung (Art. 62 Abs. 1 ArGV 1 als externe Referenz)"
+    ],
+    "confidence": "high",
+    "reasoning": "Auch hier wird 'Artikel 62 Absatz 1 ArGV 1' lediglich im Rahmen der Beschreibung der Pflichten nach der eigenen Verordnung erwähnt; kein eigener SR-Link-Kontext, daher als Selbst-/Kontextreferenz behandelt."
+  },
+  {
+    "ITEM": 10,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Interne Verweisung innerhalb der aktuellen Verordnung (Art. 62 Abs. 2 ArGV 1 als externe Referenz)"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Formulierung 'nach Artikel 62 Absatz 2 ArGV 1' knüpft an dieselbe externe Grundlage (SR 822.111) an, ist aber Teil der internen Ausgestaltung; mangels eigenständigem SR_link_detection-Eintrag wird dies als interne/kontextuelle Referenz gewertet."
+  },
+  {
+    "ITEM": 11,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Interne Verweisung auf Art. 17 derselben Verordnung"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Wendung 'nach Artikel 17 veranlassten Risikobeurteilung' bezieht sich klar auf Art. 17 der vorliegenden Verordnung; es wird kein anderes SR-Dokument genannt, somit reine Selbstreferenz."
+  },
+  {
+    "ITEM": 12,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Interne Verweisung auf Art. 2 und Art. 3 derselben Verordnung"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Kostenregelung 'nach den Artikeln 2 und 3' bezieht sich auf Artikel derselben Verordnung; kein externer SR-Bezug im Satz."
+  },
+  {
+    "ITEM": 13,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Interne Verweisung auf Art. 7–13 derselben Verordnung"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Vermutungsregel 'Sind die Voraussetzungen nach den Artikeln 7–13 erfüllt' verweist auf interne Artikel 7 bis 13; es wird kein anderes Gesetz oder SR genannt."
+  },
+  {
+    "ITEM": 14,
+    "ARTICLE_EID": "art_12",
+    "TARGET_SR": "SR 814.501",
+    "assigned_articles": [
+      "Art. 36 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Klammerzusatz lautet '(Art. 36 Abs. 2 Strahlenschutzverordnung vom 22. Juni 1994)'; in Verbindung mit ITEM 4 (SR 814.501) ist klar, dass Art. 36 Abs. 2 der Strahlenschutzverordnung SR 814.501 gemeint ist."
+  },
+  {
+    "ITEM": 15,
+    "ARTICLE_EID": "art_12",
+    "TARGET_SR": "SR 814.501",
+    "assigned_articles": [
+      "Art. 36 Abs. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "Analog zu ITEM 14 verweist der Text '(Art. 36 Abs. 3 Strahlenschutzverordnung vom 22. Juni 1994)' auf Art. 36 Abs. 3 der Strahlenschutzverordnung SR 814.501."
+  },
+  {
+    "ITEM": 16,
+    "ARTICLE_EID": "art_14",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Interne Verweisung auf Art. 7–13 derselben Verordnung"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Bedingung 'wenn diese mit gefährlichen oder beschwerlichen Arbeiten nach den Artikeln 7–13 verbunden sind' bezieht sich auf interne Artikel 7 bis 13; kein externer SR-Bezug."
+  },
+  {
+    "ITEM": 17,
+    "ARTICLE_EID": "art_17",
+    "TARGET_SR": "SR 822.116",
+    "assigned_articles": [
+      "Art. 4",
+      "Art. 5"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Satz wiederholt den Inhalt von ITEM 6 ohne explizite SR-Nummer, spricht aber von 'der Verordnung vom 25. November 1996 über die Eignung der Spezialistinnen und Spezialisten der Arbeitssicherheit', die eindeutig SR 822.116 ist; die 'Artikeln 4 und 5 der genannten Verordnung' gehören somit zu SR 822.116."
+  },
+  {
+    "ITEM": 18,
+    "ARTICLE_EID": "art_18",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Interne Verweisung auf Art. 2 derselben Verordnung"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Bezugnahme 'der Arzt oder die Ärztin nach Artikel 2' meint den in Art. 2 dieser Verordnung definierten Arzt bzw. Ärztin; es wird kein anderes SR-Dokument genannt, daher Selbstreferenz."
+  }
+]

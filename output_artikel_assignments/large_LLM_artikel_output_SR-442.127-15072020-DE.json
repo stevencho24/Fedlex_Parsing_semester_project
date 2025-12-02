@@ -1,0 +1,80 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 442.1",
+    "assigned_articles": [
+      "Art. 28 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Formulierung «gestützt auf Artikel 28 Absatz 1 des Kulturförderungsgesetzes … SR 442.1» verknüpft den genannten Artikel grammatikalisch eindeutig mit dem Gesetz SR 442.1."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_14",
+    "TARGET_SR": "SR 442.1",
+    "assigned_articles": "General reference - entire document",
+    "confidence": "medium",
+    "reasoning": "Im Snippet wird nur auf die «Verordnung des EDI vom 25. November 2015 über das Förderungskonzept 2016 für die Leseförderung» verwiesen; es werden keine bestimmten Artikel dieser Verordnung genannt. Die Zuordnung zu SR 442.1 erfolgt über das im Preamble definierte Akronym EDI, jedoch ohne artikelspezifische Nennung."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 3 Abs. 1 Bst. a"
+    ],
+    "confidence": "high",
+    "reasoning": "«(Art. 3 Abs. 1 Bst. a)» steht ohne Bezug zu einem externen SR-Dokument und beschreibt eine interne Struktur der gleichen Verordnung; daher handelt es sich um eine Selbstreferenz innerhalb des aktuellen Erlasses."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 3 Abs. 1 Bst. b"
+    ],
+    "confidence": "high",
+    "reasoning": "«(Art. 3 Abs. 1 Bst. b)» ist ebenfalls ohne Nennung eines anderen Gesetzes/Verordnung und verweist auf einen Artikel derselben Verordnung; somit interne Selbstreferenz."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_6",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Wendung «Ziele nach Artikel 1» erfolgt ohne Bezug zu einem externen SR; sie beschreibt Ziele, die im eigenen Art. 1 geregelt sind. Damit ist es eine interne Artikelverweisung."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_6",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "Wie bei ITEM 5 verweist «Ziele nach Artikel 1» auf den Art. 1 derselben Verordnung; kein externer SR-Bezug vorhanden."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_8",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "«Ziele nach Artikel 1» ist wiederum eine interne Bezugnahme auf den einleitenden Artikel der Verordnung; kein syntaktischer oder semantischer Link zu einem anderen SR-Dokument."
+  },
+  {
+    "ITEM": 8,
+    "ARTICLE_EID": "art_12",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 7 Bst. e"
+    ],
+    "confidence": "high",
+    "reasoning": "«das Kriterium nach Artikel 7 Buchstabe e» verweist auf eine Bestimmung innerhalb derselben Verordnung; es wird kein anderes Gesetz oder SR genannt, daher interne Selbstreferenz."
+  }
+]

@@ -1,0 +1,706 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 453",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "high",
+    "reasoning": "SR 453 is cited as the legal basis for the ordinance as a whole; no specific article of SR 453 is mentioned."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 922.0",
+    "assigned_articles": ["Art. 9 Abs. 2"],
+    "confidence": "high",
+    "reasoning": "Snippet explicitly refers to 'Artikel 9 Absatz 2 des Jagdgesetzes ... (JSG)' which is SR 922.0."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 923.0",
+    "assigned_articles": ["Art. 6 Abs. 3"],
+    "confidence": "high",
+    "reasoning": "Snippet explicitly refers to 'Artikel 6 Absatz 3 des Bundesgesetzes ... über die Fischerei (BGF)' which is SR 923.0."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 0.453",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "high",
+    "reasoning": "Reference is to the CITES convention as a whole via its annexes; no specific article of SR 0.453 is cited."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": "SR 0.453",
+    "assigned_articles": ["Art. VII Abs. 2", "Art. VII Abs. 5"],
+    "confidence": "high",
+    "reasoning": "snippet_acronym contains 'Artikel VII Absatz 2 CITES' and 'Artikel VII Absatz 5 CITES', clearly linking these provisions of the CITES convention (SR 0.453)."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": "SR 170.512.1",
+    "assigned_articles": ["Art. 20 Abs. 2"],
+    "confidence": "high",
+    "reasoning": "INSIDE_AUTHORIALNOTE explicitly mentions 'Art. 20 Abs. 2 der Publikationsverordnung ... (SR 170.512.1)'."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_6",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": ["Art. 26"],
+    "confidence": "high",
+    "reasoning": "Snippet: 'Personen nach Artikel 26 des Zollgesetzes ... (ZG);' and ZG is SR 631.0."
+  },
+  {
+    "ITEM": 8,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": "SR 0.453",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "medium",
+    "reasoning": "Refers generically to 'Anhängen I–III CITES'; no specific CITES article is mentioned in the snippet or snippet_acronym."
+  },
+  {
+    "ITEM": 9,
+    "ARTICLE_EID": "art_7_a",
+    "TARGET_SR": "SR 0.453",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "medium",
+    "reasoning": "Only mentions annexes of CITES; no article-level citation is present."
+  },
+  {
+    "ITEM": 10,
+    "ARTICLE_EID": "art_8",
+    "TARGET_SR": "SR 0.453",
+    "assigned_articles": ["Art. III", "Art. IV", "Art. V", "Art. VI", "Art. VII Abs. 4"],
+    "confidence": "high",
+    "reasoning": "Snippet refers to 'Artikeln III–VI CITES' and snippet_acronym adds 'gestützt auf Artikel VII Absatz 4 CITES ... Voraussetzungen nach Artikel IV CITES'."
+  },
+  {
+    "ITEM": 11,
+    "ARTICLE_EID": "art_9",
+    "TARGET_SR": "SR 0.453",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "medium",
+    "reasoning": "Context is conditions for import of CITES-listed species; no specific CITES article is cited in snippet_acronym beyond annex references."
+  },
+  {
+    "ITEM": 12,
+    "ARTICLE_EID": "art_9",
+    "TARGET_SR": "SR 455",
+    "assigned_articles": ["Art. 7 Abs. 3"],
+    "confidence": "high",
+    "reasoning": "Snippet: 'Bewilligung nach Artikel 7 Absatz 3 des Tierschutzgesetzes ... SR 455 (TSchG)'."
+  },
+  {
+    "ITEM": 13,
+    "ARTICLE_EID": "art_10",
+    "TARGET_SR": "SR 0.453",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "medium",
+    "reasoning": "Refers to annexes I–III CITES without specifying CITES articles; conditions are defined in this ordinance, not by a particular CITES article."
+  },
+  {
+    "ITEM": 14,
+    "ARTICLE_EID": "art_11",
+    "TARGET_SR": "SR 0.453",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "medium",
+    "reasoning": "Mentions CITES authorities and annexes but no explicit article number of CITES."
+  },
+  {
+    "ITEM": 15,
+    "ARTICLE_EID": "art_13",
+    "TARGET_SR": "SR 0.453",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "medium",
+    "reasoning": "Multiple references to annexes I–III CITES; no specific CITES article is cited."
+  },
+  {
+    "ITEM": 16,
+    "ARTICLE_EID": "art_14",
+    "TARGET_SR": "SR 0.453",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "medium",
+    "reasoning": "Treats foreign CITES certificates as equivalent; no article-level citation of CITES is present."
+  },
+  {
+    "ITEM": 17,
+    "ARTICLE_EID": "art_15",
+    "TARGET_SR": "SR 0.453",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "medium",
+    "reasoning": "Refers to annexes I–III CITES only; no specific CITES article is mentioned."
+  },
+  {
+    "ITEM": 18,
+    "ARTICLE_EID": "art_16",
+    "TARGET_SR": "SR 455",
+    "assigned_articles": ["Art. 7 Abs. 3"],
+    "confidence": "high",
+    "reasoning": "Snippet: 'Bewilligung nach Artikel 7 Absatz 3 TSchG SR 455'; clear direct reference."
+  },
+  {
+    "ITEM": 19,
+    "ARTICLE_EID": "art_18",
+    "TARGET_SR": "SR 455",
+    "assigned_articles": ["Art. 7 Abs. 3"],
+    "confidence": "high",
+    "reasoning": "Same structure as ITEM 18: 'Bewilligung nach Artikel 7 Absatz 3 TSchG SR 455'."
+  },
+  {
+    "ITEM": 20,
+    "ARTICLE_EID": "art_18",
+    "TARGET_SR": "SR 922.01",
+    "assigned_articles": ["Art. 8 Abs. 1"],
+    "confidence": "high",
+    "reasoning": "Snippet: 'Voraussetzungen zur Aussetzung nach Artikel 8 Absatz 1 der Jagdverordnung ... SR 922.01'."
+  },
+  {
+    "ITEM": 21,
+    "ARTICLE_EID": "art_20",
+    "TARGET_SR": "SR 923.01",
+    "assigned_articles": ["Art. 6 Abs. 1", "Art. 8 Abs. 1", "Art. 6 Abs. 2"],
+    "confidence": "high",
+    "reasoning": "Snippet explicitly mentions 'Artikel 6 Absatz 1 ... SR 923.01', 'Artikel 8 Absatz 1 VBGF', and 'Artikel 6 Absatz 2 BGF' all within SR 923.01."
+  },
+  {
+    "ITEM": 22,
+    "ARTICLE_EID": "art_22",
+    "TARGET_SR": "SR 0.453",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "medium",
+    "reasoning": "Refers to 'Anhang I CITES' but no specific CITES article; annex protection is document-level."
+  },
+  {
+    "ITEM": 23,
+    "ARTICLE_EID": "art_22_a",
+    "TARGET_SR": "SR 0.453",
+    "assigned_articles": ["Art. XI"],
+    "confidence": "high",
+    "reasoning": "snippet_acronym: 'Konferenz der Vertragsparteien nach Artikel XI CITES'; explicit article reference."
+  },
+  {
+    "ITEM": 24,
+    "ARTICLE_EID": "art_23",
+    "TARGET_SR": "SR 0.453",
+    "assigned_articles": ["Art. VII Abs. 6"],
+    "confidence": "high",
+    "reasoning": "snippet_acronym: 'wissenschaftlichen Einrichtungen nach Artikel VII Absatz 6 CITES'; clear link."
+  },
+  {
+    "ITEM": 25,
+    "ARTICLE_EID": "art_24",
+    "TARGET_SR": "SR 0.453",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "medium",
+    "reasoning": "Mentions annexes I–III CITES and legality of trade; no specific CITES article cited."
+  },
+  {
+    "ITEM": 26,
+    "ARTICLE_EID": "art_26",
+    "TARGET_SR": "SR 0.453",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "medium",
+    "reasoning": "Refers to 'Nichtvertragsstaaten des CITES' and the CITES secretariat; no article number given."
+  },
+  {
+    "ITEM": 27,
+    "ARTICLE_EID": "art_27",
+    "TARGET_SR": "SR 0.453",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "medium",
+    "reasoning": "Refers to annexes II and III CITES; no specific CITES article is mentioned."
+  },
+  {
+    "ITEM": 28,
+    "ARTICLE_EID": "art_36",
+    "TARGET_SR": "SR 0.453",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "medium",
+    "reasoning": "Mentions 'Anhang I CITES'; no article-level citation."
+  },
+  {
+    "ITEM": 29,
+    "ARTICLE_EID": "art_39",
+    "TARGET_SR": "SR 0.453",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "medium",
+    "reasoning": "Refers to 'Zwecken des CITES'; no specific article is cited."
+  },
+  {
+    "ITEM": 30,
+    "ARTICLE_EID": "art_39",
+    "TARGET_SR": "SR 916.441.22",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "medium",
+    "reasoning": "Cites the ordinance on disposal of animal by-products as a whole; no article specified."
+  },
+  {
+    "ITEM": 31,
+    "ARTICLE_EID": "art_40",
+    "TARGET_SR": "SR 0.453",
+    "assigned_articles": ["Art. IX Abs. 1 Bst. a", "Art. IX Abs. 2"],
+    "confidence": "high",
+    "reasoning": "Snippet: 'Artikel IX Absatz 1 Buchstabe a CITES'; snippet_acronym adds '(Art. IX Abs. 2 CITES)'."
+  },
+  {
+    "ITEM": 32,
+    "ARTICLE_EID": "art_40",
+    "TARGET_SR": "SR 916.20",
+    "assigned_articles": ["Art. 102"],
+    "confidence": "high",
+    "reasoning": "Snippet: 'nach Artikel 102 der Pflanzengesundheitsverordnung ... SR 916.20'."
+  },
+  {
+    "ITEM": 33,
+    "ARTICLE_EID": "art_43",
+    "TARGET_SR": "SR 916.472",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "medium",
+    "reasoning": "Refers to the Gebührenverordnung BLV as a whole; no article specified."
+  },
+  {
+    "ITEM": 34,
+    "ARTICLE_EID": "art_48",
+    "TARGET_SR": "SR 0.453",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "medium",
+    "reasoning": "Mentions annexes I–III CITES; no specific CITES article."
+  },
+  {
+    "ITEM": 35,
+    "ARTICLE_EID": "art_49",
+    "TARGET_SR": "SR 0.453",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "medium",
+    "reasoning": "Refers to annexes I–III CITES; no article-level citation."
+  },
+  {
+    "ITEM": 36,
+    "ARTICLE_EID": "art_54",
+    "TARGET_SR": "SR 235.1",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "medium",
+    "reasoning": "Refers to the Datenschutzgesetz as the governing law; no specific article is mentioned."
+  },
+  {
+    "ITEM": 37,
+    "ARTICLE_EID": "art_54",
+    "TARGET_SR": "SR 235.11",
+    "assigned_articles": ["Art. 16"],
+    "confidence": "high",
+    "reasoning": "Snippet: 'in der Form nach Artikel 16 der Datenschutzverordnung ... SR 235.11'."
+  },
+  {
+    "ITEM": 38,
+    "ARTICLE_EID": "art_56",
+    "TARGET_SR": "SR 172.010.58",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "medium",
+    "reasoning": "Refers to the Bundesinformatikverordnung generally; no article specified."
+  },
+  {
+    "ITEM": 39,
+    "ARTICLE_EID": "art_57",
+    "TARGET_SR": "SR 152.1",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "medium",
+    "reasoning": "Refers to the Archivierungsgesetz as a whole; no specific article cited."
+  },
+  {
+    "ITEM": 40,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 922.0",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "medium",
+    "reasoning": "BGCITES is used adjectivally ('nach dem BGCITES geschützt'); no article number of SR 922.0 is mentioned."
+  },
+  {
+    "ITEM": 41,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 922.0",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "low",
+    "reasoning": "JSG is referenced as a whole ('für die ... eine Bewilligung des Bundes vorsieht'); no specific article is given in this snippet."
+  },
+  {
+    "ITEM": 42,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 923.0",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "low",
+    "reasoning": "BGF is referenced generically for cases where it requires a federal permit; no article is specified."
+  },
+  {
+    "ITEM": 43,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": "SR 922.0",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "medium",
+    "reasoning": "BGCITES is cited as the legal basis for required permits; no article number is attached."
+  },
+  {
+    "ITEM": 44,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": "SR 922.0",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "low",
+    "reasoning": "JSG is mentioned as a whole in relation to permits; no specific article is cited in this snippet."
+  },
+  {
+    "ITEM": 45,
+    "ARTICLE_EID": "art_10",
+    "TARGET_SR": "SR 922.0",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "medium",
+    "reasoning": "BGCITES is referenced for compliance of imports; no article number is given."
+  },
+  {
+    "ITEM": 46,
+    "ARTICLE_EID": "art_12",
+    "TARGET_SR": "SR 922.0",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "medium",
+    "reasoning": "Refers to 'Vorschriften des BGCITES'; no specific article is identified."
+  },
+  {
+    "ITEM": 47,
+    "ARTICLE_EID": "art_13",
+    "TARGET_SR": "SR 922.0",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "medium",
+    "reasoning": "States that specimens must be acquired in accordance with BGCITES; no article-level citation."
+  },
+  {
+    "ITEM": 48,
+    "ARTICLE_EID": "art_17",
+    "TARGET_SR": "SR 922.0",
+    "assigned_articles": ["Art. 9 Abs. 1 Bst. a", "Art. 9 Abs. 1 Bst. c"],
+    "confidence": "high",
+    "reasoning": "Snippet: 'Bewilligungen nach Artikel 9 Absatz 1 Buchstaben a und c JSG'; JSG is SR 922.0."
+  },
+  {
+    "ITEM": 49,
+    "ARTICLE_EID": "art_17",
+    "TARGET_SR": "SR 923.0",
+    "assigned_articles": ["Art. 6 Abs. 1 Bst. a"],
+    "confidence": "high",
+    "reasoning": "Snippet: 'Artikel 6 Absatz 1 Buchstabe a BGF'; BGF is SR 923.0."
+  },
+  {
+    "ITEM": 50,
+    "ARTICLE_EID": "art_18",
+    "TARGET_SR": "SR 922.0",
+    "assigned_articles": ["Art. 9 Abs. 1 Bst. a"],
+    "confidence": "high",
+    "reasoning": "Snippet: '(Art. 9 Abs. 1 Bst. a JSG)'; JSG is SR 922.0."
+  },
+  {
+    "ITEM": 51,
+    "ARTICLE_EID": "art_19",
+    "TARGET_SR": "SR 922.0",
+    "assigned_articles": ["Art. 9 Abs. 1 Bst. c"],
+    "confidence": "high",
+    "reasoning": "Snippet: '(Art. 9 Abs. 1 Bst. c JSG)'; clear article reference."
+  },
+  {
+    "ITEM": 52,
+    "ARTICLE_EID": "art_21",
+    "TARGET_SR": "SR 922.0",
+    "assigned_articles": ["Art. 16", "Art. 19", "Art. 21"],
+    "confidence": "low",
+    "reasoning": "Refers to repeated or serious violations of BGCITES or its implementing provisions; no explicit article is cited. Multiple enforcement provisions could apply, so only a general document-level reference is safe."
+  },
+  {
+    "ITEM": 53,
+    "ARTICLE_EID": "art_22",
+    "TARGET_SR": "SR 922.0",
+    "assigned_articles": ["Art. 7", "Art. 3", "Art. 5"],
+    "confidence": "high",
+    "reasoning": "Snippet explicitly mentions 'Artikel 7 BGCITES' and 'Artikel 3' and 'Artikel 5' in the same sentence; these are clearly articles of SR 922.0."
+  },
+  {
+    "ITEM": 54,
+    "ARTICLE_EID": "art_22_a",
+    "TARGET_SR": "SR 922.0",
+    "assigned_articles": ["Art. 7", "Art. 3", "Art. 5"],
+    "confidence": "high",
+    "reasoning": "Same structure as ITEM 53: explicit references to 'Artikel 7 BGCITES', 'Artikel 3' and 'Artikel 5'."
+  },
+  {
+    "ITEM": 55,
+    "ARTICLE_EID": "art_23",
+    "TARGET_SR": "SR 922.0",
+    "assigned_articles": ["Art. 7 Abs. 1 Bst. a", "Art. 3", "Art. 5"],
+    "confidence": "high",
+    "reasoning": "Snippet: 'Artikel 7 Absatz 1 Buchstabe a BGCITES', plus 'Artikel 3' and 'Artikel 5'."
+  },
+  {
+    "ITEM": 56,
+    "ARTICLE_EID": "art_27",
+    "TARGET_SR": "SR 922.0",
+    "assigned_articles": ["Art. 8 Abs. 2"],
+    "confidence": "high",
+    "reasoning": "Snippet: 'unter den Voraussetzungen von Artikel 8 Absatz 2 BGCITES'; clear article reference."
+  },
+  {
+    "ITEM": 57,
+    "ARTICLE_EID": "art_28_a",
+    "TARGET_SR": "SR 922.0",
+    "assigned_articles": ["Art. 16 Abs. 1bis"],
+    "confidence": "high",
+    "reasoning": "Snippet: 'Voraussetzungen nach Artikel 16 Absatz 1bis BGCITES'; explicit."
+  },
+  {
+    "ITEM": 58,
+    "ARTICLE_EID": "art_36",
+    "TARGET_SR": "SR 922.0",
+    "assigned_articles": ["Art. 15 Abs. 1 Bst. a–e"],
+    "confidence": "high",
+    "reasoning": "Snippet: 'in den Fällen nach Artikel 15 Absatz 1 Buchstaben a–e BGCITES'; clear reference."
+  },
+  {
+    "ITEM": 59,
+    "ARTICLE_EID": "art_36",
+    "TARGET_SR": "SR 922.0",
+    "assigned_articles": ["Art. 9"],
+    "confidence": "low",
+    "reasoning": "Refers generically to 'die nach dem JSG erforderliche Bewilligung'; likely tied to Art. 9 JSG (permit provisions), but article number is not explicit in this snippet."
+  },
+  {
+    "ITEM": 60,
+    "ARTICLE_EID": "art_38",
+    "TARGET_SR": "SR 922.0",
+    "assigned_articles": ["Art. 16 Abs. 1", "Art. 16 Abs. 1bis"],
+    "confidence": "high",
+    "reasoning": "Snippet: 'in den Fällen nach Artikel 16 Absätze 1 und 1bis BGCITES'; explicit."
+  },
+  {
+    "ITEM": 61,
+    "ARTICLE_EID": "art_38",
+    "TARGET_SR": "SR 922.0",
+    "assigned_articles": ["Art. 9"],
+    "confidence": "low",
+    "reasoning": "Refers to 'die nach JSG erforderliche Bewilligung'; as with ITEM 59, likely Art. 9 but not explicitly numbered here."
+  },
+  {
+    "ITEM": 62,
+    "ARTICLE_EID": "art_42",
+    "TARGET_SR": "SR 922.0",
+    "assigned_articles": ["Art. 19"],
+    "confidence": "high",
+    "reasoning": "Snippet: 'Fachgremium nach Artikel 19 BGCITES'; explicit article reference."
+  },
+  {
+    "ITEM": 63,
+    "ARTICLE_EID": "art_46",
+    "TARGET_SR": "SR 922.0",
+    "assigned_articles": ["Art. 21"],
+    "confidence": "high",
+    "reasoning": "Snippet: 'Informationssystem nach Artikel 21 BGCITES'; clear link."
+  },
+  {
+    "ITEM": 64,
+    "ARTICLE_EID": "art_47",
+    "TARGET_SR": "SR 922.0",
+    "assigned_articles": ["Art. 21"],
+    "confidence": "medium",
+    "reasoning": "Refers to data needed 'im Rahmen des Vollzugs des BGCITES und dieser Verordnung'; contextually tied to the information system of Art. 21, but article number is not repeated."
+  },
+  {
+    "ITEM": 65,
+    "ARTICLE_EID": "art_49",
+    "TARGET_SR": "SR 922.0",
+    "assigned_articles": ["Art. 21"],
+    "confidence": "medium",
+    "reasoning": "Describes access to data in the 'Informationssystem'; by context this is the system established in Art. 21 BGCITES."
+  },
+  {
+    "ITEM": 66,
+    "ARTICLE_EID": "art_50",
+    "TARGET_SR": "SR 922.0",
+    "assigned_articles": ["Art. 21"],
+    "confidence": "medium",
+    "reasoning": "Again concerns access to data in the information system; contextually linked to Art. 21 BGCITES."
+  },
+  {
+    "ITEM": 67,
+    "ARTICLE_EID": "art_58",
+    "TARGET_SR": "SR 922.0",
+    "assigned_articles": ["Art. 3 Abs. 1", "Art. 7a", "Art. 30 Abs. 2", "Art. 26 Abs. 5"],
+    "confidence": "high",
+    "reasoning": "Snippet: 'Widerhandlungen gegen die Artikel 3 Absatz 1, 7a und 30 Absatz 2 sind strafbar nach Artikel 26 Absatz 5 BGCITES'; all clearly within SR 922.0."
+  },
+  {
+    "ITEM": 68,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": "SR 453.0",
+    "assigned_articles": ["Art. 1 Abs. 1"],
+    "confidence": "high",
+    "reasoning": "artikel_reference within the same ordinance: 'Exemplare nach Artikel 1 Absatz 1' clearly refers to Art. 1 Abs. 1 of SR 453.0."
+  },
+  {
+    "ITEM": 69,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": "SR 453.0",
+    "assigned_articles": ["Art. 1 Abs. 1"],
+    "confidence": "high",
+    "reasoning": "Internal reference: 'Exemplare nach Artikel 1 Absatz 1 Buchstaben a und b' refers to Art. 1 Abs. 1 of this ordinance."
+  },
+  {
+    "ITEM": 70,
+    "ARTICLE_EID": "art_6",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": ["Art. 26"],
+    "confidence": "high",
+    "reasoning": "artikel_reference repeats the external citation already captured in ITEM 7: 'Artikel 26 des Zollgesetzes'."
+  },
+  {
+    "ITEM": 71,
+    "ARTICLE_EID": "art_9",
+    "TARGET_SR": "SR 455",
+    "assigned_articles": ["Art. 7 Abs. 3"],
+    "confidence": "high",
+    "reasoning": "Internal text mirrors ITEM 12: 'Artikel 7 Absatz 3 des Tierschutzgesetzes'; SR 455."
+  },
+  {
+    "ITEM": 72,
+    "ARTICLE_EID": "art_12",
+    "TARGET_SR": "SR 453.0",
+    "assigned_articles": ["Art. 1 Abs. 1 Bst. a"],
+    "confidence": "high",
+    "reasoning": "Internal reference: 'Exemplare nach Artikel 1 Absatz 1 Buchstabe a' refers to Art. 1 of this ordinance."
+  },
+  {
+    "ITEM": 73,
+    "ARTICLE_EID": "art_16",
+    "TARGET_SR": "SR 455",
+    "assigned_articles": ["Art. 7 Abs. 3"],
+    "confidence": "high",
+    "reasoning": "Same TSchG reference as ITEM 18: 'Artikel 7 Absatz 3 TSchG'."
+  },
+  {
+    "ITEM": 74,
+    "ARTICLE_EID": "art_18",
+    "TARGET_SR": "SR 922.0",
+    "assigned_articles": ["Art. 9 Abs. 1 Bst. a"],
+    "confidence": "high",
+    "reasoning": "Internal reference '(Art. 9 Abs. 1 Bst. a JSG)' matches ITEM 50."
+  },
+  {
+    "ITEM": 75,
+    "ARTICLE_EID": "art_18",
+    "TARGET_SR": "SR 455",
+    "assigned_articles": ["Art. 7 Abs. 3"],
+    "confidence": "high",
+    "reasoning": "Same TSchG reference as ITEM 19: 'Artikel 7 Absatz 3 TSchG'."
+  },
+  {
+    "ITEM": 76,
+    "ARTICLE_EID": "art_18",
+    "TARGET_SR": "SR 922.01",
+    "assigned_articles": ["Art. 8 Abs. 1"],
+    "confidence": "high",
+    "reasoning": "Internal text mirrors ITEM 20: 'Artikel 8 Absatz 1 der Jagdverordnung vom 29. Februar 1988'."
+  },
+  {
+    "ITEM": 77,
+    "ARTICLE_EID": "art_19",
+    "TARGET_SR": "SR 922.0",
+    "assigned_articles": ["Art. 9 Abs. 1 Bst. c"],
+    "confidence": "high",
+    "reasoning": "Internal '(Art. 9 Abs. 1 Bst. c JSG)' matches external JSG reference."
+  },
+  {
+    "ITEM": 78,
+    "ARTICLE_EID": "art_20",
+    "TARGET_SR": "SR 923.01",
+    "assigned_articles": ["Art. 6 Abs. 1", "Art. 8 Abs. 1", "Art. 6 Abs. 2"],
+    "confidence": "high",
+    "reasoning": "Same three article references as ITEM 21, repeated without SR number."
+  },
+  {
+    "ITEM": 79,
+    "ARTICLE_EID": "art_29",
+    "TARGET_SR": "SR 453.0",
+    "assigned_articles": ["Art. 30 Abs. 1"],
+    "confidence": "high",
+    "reasoning": "Internal cross-reference: 'Kontrolle nach Artikel 30 Absatz 1' refers to Art. 30 of this ordinance."
+  },
+  {
+    "ITEM": 80,
+    "ARTICLE_EID": "art_29",
+    "TARGET_SR": "SR 453.0",
+    "assigned_articles": ["Art. 40 Abs. 2 Bst. c"],
+    "confidence": "high",
+    "reasoning": "Internal reference '(Art. 40 Abs. 2 Bst. c)' clearly points to Art. 40 of this ordinance."
+  },
+  {
+    "ITEM": 81,
+    "ARTICLE_EID": "art_29",
+    "TARGET_SR": "SR 453.0",
+    "assigned_articles": ["Art. 30", "Art. 31", "Art. 32"],
+    "confidence": "high",
+    "reasoning": "Snippet: 'Kontrollen nach den Artikeln 30–32'; range interpreted as Arts. 30, 31, 32 of this ordinance."
+  },
+  {
+    "ITEM": 82,
+    "ARTICLE_EID": "art_29",
+    "TARGET_SR": "SR 453.0",
+    "assigned_articles": ["Art. 34", "Art. 35", "Art. 36"],
+    "confidence": "high",
+    "reasoning": "Snippet: 'Massnahmen nach den Artikeln 34–36'; range interpreted as Arts. 34, 35, 36 of this ordinance."
+  },
+  {
+    "ITEM": 83,
+    "ARTICLE_EID": "art_33",
+    "TARGET_SR": "SR 453.0",
+    "assigned_articles": ["Art. 32 Abs. 1", "Art. 32 Abs. 3"],
+    "confidence": "high",
+    "reasoning": "Snippet: 'gilt Artikel 32 Absätze 1 und 3'; internal reference to Art. 32 of this ordinance."
+  },
+  {
+    "ITEM": 84,
+    "ARTICLE_EID": "art_34",
+    "TARGET_SR": "SR 453.0",
+    "assigned_articles": ["Art. 1 Abs. 1 Bst. a", "Art. 1 Abs. 1 Bst. b"],
+    "confidence": "high",
+    "reasoning": "Snippet: 'Exemplare nach Artikel 1 Absatz 1 Buchstabe a oder b'; internal reference to Art. 1."
+  },
+  {
+    "ITEM": 85,
+    "ARTICLE_EID": "art_38",
+    "TARGET_SR": "SR 922.0",
+    "assigned_articles": ["Art. 16 Abs. 1", "Art. 16 Abs. 1bis"],
+    "confidence": "high",
+    "reasoning": "Matches ITEM 60: 'Artikel 16 Absätze 1 und 1bis BGCITES'."
+  },
+  {
+    "ITEM": 86,
+    "ARTICLE_EID": "art_40",
+    "TARGET_SR": "SR 916.20",
+    "assigned_articles": ["Art. 102"],
+    "confidence": "high",
+    "reasoning": "Internal text mirrors ITEM 32: 'Artikel 102 der Pflanzengesundheitsverordnung'."
+  },
+  {
+    "ITEM": 87,
+    "ARTICLE_EID": "art_49",
+    "TARGET_SR": "SR 453.0",
+    "assigned_articles": ["Art. 7"],
+    "confidence": "high",
+    "reasoning": "Snippet: 'Daten ... die gestützt auf Artikel 7 erfasst werden'; internal reference to Art. 7 of this ordinance."
+  },
+  {
+    "ITEM": 88,
+    "ARTICLE_EID": "art_54",
+    "TARGET_SR": "SR 235.11",
+    "assigned_articles": ["Art. 16"],
+    "confidence": "high",
+    "reasoning": "Internal text repeats the external reference in ITEM 37: 'Artikel 16 der Datenschutzverordnung'."
+  }
+]

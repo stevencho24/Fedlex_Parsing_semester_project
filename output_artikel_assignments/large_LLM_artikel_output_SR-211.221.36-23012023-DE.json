@@ -1,0 +1,196 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 210",
+    "assigned_articles": [
+      "Art. 269c Abs. 3",
+      "Art. 316 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Präambel nennt ausdrücklich: «Artikel 269c Absatz 3 und 316 Absatz 2 des Zivilgesetzbuchs SR 210 (ZGB)»; beide Artikel gehören damit klar zum ZGB (SR 210)."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 211.221.31",
+    "assigned_articles": [
+      "Art. 15 Abs. 3",
+      "Art. 26"
+    ],
+    "confidence": "high",
+    "reasoning": "Im gleichen Satz werden nach der Nennung des BG‑HAÜ (SR 211.221.31) «die Artikel 15 Absatz 3 und 26 des Bundesgesetzes ... (BG‑HAÜ)» genannt; diese Artikel beziehen sich syntaktisch auf dieses Gesetz."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_11",
+    "TARGET_SR": "SR 311.0",
+    "assigned_articles": [
+      "Art. 292"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Satz lautet: «... nach Artikel 292 des Strafgesetzbuches SR 311.0 ...»; Art. 292 ist damit eindeutig dem StGB (SR 311.0) zugeordnet."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_24",
+    "TARGET_SR": "SR 172.041.1",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "Formulierung: «gelten die Bestimmungen der Allgemeinen Gebührenverordnung vom 8. September 2004 SR 172.041.1.»; es wird keine bestimmte Norm genannt, sondern die Verordnung insgesamt als subsidiär anwendbar erklärt."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_26",
+    "TARGET_SR": "SR 191.11",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "medium",
+    "reasoning": "Die heutige Rechtsgrundlage wird als «die V vom 7. Okt. 2015 über die Gebühren des Eidgenössischen Departements für auswärtige Angelegenheiten (SR 191.11)» bezeichnet; es wird kein bestimmter Artikel dieser Verordnung genannt, sondern sie dient generell als Gebührenordnung."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": "SR 210",
+    "assigned_articles": [
+      "Art. 316 Abs. 1bis"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Text: «nach Artikel 316 Absatz 1bis ZGB»; ZGB ist in der Präambel als SR 210 definiert, daher klare Zuordnung zu Art. 316 Abs. 1bis ZGB."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«Artikel 2 BG‑HAÜ» verweist auf Art. 2 des BG‑HAÜ selbst; es wird kein SR‑Link genannt und der Bezug ist rein intern bzw. zu einem bereits in der Präambel genannten Gesetz, nicht zu einem neuen TARGET_SR."
+  },
+  {
+    "ITEM": 8,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«Artikel 3 BG‑HAÜ» ist wiederum ein Verweis auf einen Artikel des BG‑HAÜ; kein expliziter SR‑Verweis im Satz, daher als interne/kontextuelle Referenz zu behandeln, nicht als neuer SR‑Link."
+  },
+  {
+    "ITEM": 9,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 12"
+    ],
+    "confidence": "high",
+    "reasoning": "«(Art. 12)» steht ohne Gesetzesabkürzung oder SR‑Hinweis im Klammerzusatz und bezieht sich damit auf einen Artikel der vorliegenden Verordnung; dies ist eine reine Selbstreferenz."
+  },
+  {
+    "ITEM": 10,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 20 BG-HAÜ"
+    ],
+    "confidence": "high",
+    "reasoning": "«von der Unterhaltsverpflichtung nach Artikel 20 BG‑HAÜ Kenntnis genommen haben»; der Artikel ist ausdrücklich dem BG‑HAÜ zugeordnet, aber es wird kein neuer SR‑Link genannt, sondern auf das bereits in der Präambel eingeführte Gesetz Bezug genommen; daher als inhaltliche, nicht als neue TARGET_SR‑Verknüpfung zu behandeln."
+  },
+  {
+    "ITEM": 11,
+    "ARTICLE_EID": "art_6",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 5"
+    ],
+    "confidence": "high",
+    "reasoning": "«Sind die Voraussetzungen nach Artikel 5 erfüllt ...»; es fehlt jede Gesetzesabkürzung oder SR‑Angabe, somit klar eine Selbstreferenz auf Art. 5 derselben Verordnung."
+  },
+  {
+    "ITEM": 12,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 5"
+    ],
+    "confidence": "high",
+    "reasoning": "Auch hier: «Sind die Voraussetzungen nach Artikel 5 erfüllt ...» ohne Gesetzesangabe; dies ist wiederum ein interner Verweis auf Art. 5 der Verordnung."
+  },
+  {
+    "ITEM": 13,
+    "ARTICLE_EID": "art_8",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 7 Abs. 1 Bst. b–e"
+    ],
+    "confidence": "high",
+    "reasoning": "«... wenn die Unterlagen nach Artikel 7 Absatz 1 Buchstaben b–e vorliegen ...»; ohne Gesetzesabkürzung, daher interner Verweis auf Art. 7 derselben Verordnung."
+  },
+  {
+    "ITEM": 14,
+    "ARTICLE_EID": "art_9",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 17 BG-HAÜ",
+      "Art. 18 BG-HAÜ"
+    ],
+    "confidence": "high",
+    "reasoning": "«(Art. 17 BG‑HAÜ) oder eines Vormundes (Art. 18 BG‑HAÜ)»; beide Artikel sind ausdrücklich dem BG‑HAÜ zugeordnet, aber ohne neuen SR‑Link (das Gesetz ist bereits in der Präambel eingeführt); daher als inhaltliche Verweise, nicht als neue TARGET_SR‑Zuweisungen."
+  },
+  {
+    "ITEM": 15,
+    "ARTICLE_EID": "art_11",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 292"
+    ],
+    "confidence": "high",
+    "reasoning": "«nach Artikel 292 des Strafgesetzbuches»; im Unterschied zu ITEM 3 fehlt hier der explizite SR‑Hinweis (SR 311.0). Gemäss Vorgabe ist ohne klaren SR‑Marker von einer Selbstreferenz bzw. nicht von einer neuen SR‑Verknüpfung auszugehen."
+  },
+  {
+    "ITEM": 16,
+    "ARTICLE_EID": "art_25",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 10 BG-HAÜ"
+    ],
+    "confidence": "high",
+    "reasoning": "«... nach Artikel 10 BG‑HAÜ.»; der Artikel ist dem BG‑HAÜ zugeordnet, aber ohne SR‑Angabe; dies ist ein inhaltlicher Verweis auf ein bereits eingeführtes Gesetz, keine neue TARGET_SR‑Verknüpfung."
+  },
+  {
+    "ITEM": 17,
+    "ARTICLE_EID": "art_26",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 25 Bst. a",
+      "Art. 25 Bst. b"
+    ],
+    "confidence": "high",
+    "reasoning": "«... nach Artikel 25 Buchstaben a und b ...»; ohne Gesetzesabkürzung, somit klar interne Verweise auf Art. 25 derselben Verordnung."
+  },
+  {
+    "ITEM": 18,
+    "ARTICLE_EID": "art_26",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 10 BG-HAÜ"
+    ],
+    "confidence": "high",
+    "reasoning": "«... nach Artikel 10 BG‑HAÜ ...»; wiederum ein Verweis auf das bereits bekannte BG‑HAÜ ohne neuen SR‑Link, daher keine neue TARGET_SR‑Zuordnung."
+  },
+  {
+    "ITEM": 19,
+    "ARTICLE_EID": "art_27",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 26 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "«... die Gebühr nach Artikel 26 Absatz 1 ermässigen oder erlassen ...»; ohne Gesetzesabkürzung, somit interne Selbstreferenz auf Art. 26 derselben Verordnung."
+  }
+]

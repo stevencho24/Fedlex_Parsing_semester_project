@@ -1,0 +1,22 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 510.10",
+    "assigned_articles": [
+      "Art. 92 Abs. 4 Bst. a"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet explicitly cites 'Artikel 92 Absatz 4 Buchstabe a des Militärgesetzes ... SR 510.10'; this article is syntactically and semantically linked to the SR reference."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet refers to 'Artikel 3' without mentioning any SR or external act; by the rules this is a self-reference to another article within the same document, not to an external SR."
+  }
+]

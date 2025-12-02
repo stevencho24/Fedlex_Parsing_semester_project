@@ -1,0 +1,52 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 232.11",
+    "assigned_articles": [
+      "Art. 50 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Formulierung \"gestützt auf Artikel 50 Absatz 2 des Markenschutzgesetzes ... SR 232.11\" verknüpft den genannten Artikel syntaktisch eindeutig mit SR 232.11."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 232.111",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Satz verweist allgemein auf die Markenschutzverordnung SR 232.111 (\"gelten die Bestimmungen der Markenschutzverordnung ... SR 232.111\") ohne Nennung einzelner Artikel; damit handelt es sich um eine generelle Verweisung auf die gesamte Verordnung."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "„Herstellungskosten nach Artikel 4“ verweist ohne SR- oder Gesetzesangabe auf einen anderen Artikel derselben Verordnung; nach den Regeln ist dies als Selbstverweisung des Dokuments zu behandeln, nicht als Verweis auf ein externes SR."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "„... nach Artikel 3 Buchstabe c Ziffer 3“ nennt einen Artikel ohne Bezug zu einem SR-Dokument; dies ist eine interne Artikelverweisung innerhalb derselben Verordnung."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_6",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "„die Tätigkeiten nach Artikel 3 Buchstabe c“ erfolgt ohne Nennung eines SR oder Gesetzesnamens und ist damit eine reine Selbstreferenz auf einen Artikel derselben Verordnung."
+  }
+]

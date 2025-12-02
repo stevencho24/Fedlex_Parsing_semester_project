@@ -1,0 +1,123 @@
+[
+  {
+    "Item": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 748.0",
+    "assigned_articles": [
+      "Art. 3 Abs. 3",
+      "Art. 26b Abs. 3",
+      "Art. 40 Abs. 1",
+      "Art. 55a Abs. 2",
+      "Art. 106 Abs. 2",
+      "Art. 107"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Präambel nennt ausdrücklich die Artikel 3 Abs. 3, 26b Abs. 3, 40 Abs. 1, 55a Abs. 2, 106 Abs. 2 und 107 des Luftfahrtgesetzes (LFG, SR 748.0); syntaktisch eindeutig dem genannten Gesetz zugeordnet."
+  },
+  {
+    "Item": 2,
+    "ARTICLE_EID": "art_33",
+    "TARGET_SR": "SR 748.131.1",
+    "assigned_articles": [
+      "Art. 58b Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "Im zweiten Satz des Snippets wird ausdrücklich «Artikel 58b Absatz 1 VIL» genannt; VIL ist die Verordnung SR 748.131.1. Damit ist klar, dass Art. 58b Abs. 1 dieser Verordnung gemeint ist. Die allgemeine Formulierung «Bestimmungen der VIL» im ersten Satz ist eine Generalklausel ohne weitere Spezifizierung."
+  },
+  {
+    "Item": 3,
+    "ARTICLE_EID": "art_47",
+    "TARGET_SR": "SR 742.161",
+    "assigned_articles": [
+      "Art. 31",
+      "Art. 32",
+      "Art. 33",
+      "Art. 34",
+      "Art. 36"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Wortlaut «Massnahmen nach den Artikeln 31–34 und 36 der Verordnung … SR 742.161» verweist explizit auf diese Artikel der Verordnung über die Sicherheitsuntersuchung von Zwischenfällen im Verkehrswesen; der Bereich 31–34 wird als einzelne Artikel 31–34 verstanden."
+  },
+  {
+    "Item": 4,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": "SR 748.0",
+    "assigned_articles": [
+      "Art. 16",
+      "Art. 20 Abs. 1",
+      "Art. 20 Abs. 3",
+      "Art. 92 Bst. a"
+    ],
+    "confidence": "high",
+    "reasoning": "Art. 2 zählt in den folgenden Buchstaben a–c die anwendbaren Bestimmungen des LFG auf: «Artikel 16», «Artikel 20 Absätze 1 und 3» und «Artikel 92 Buchstabe a». Da LFG in der Präambel als SR 748.0 definiert ist, gehören diese Artikel zu SR 748.0."
+  },
+  {
+    "Item": 5,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 16"
+    ],
+    "confidence": "high",
+    "reasoning": "«Artikel 16 (Inspektion)» steht im Kontext von Art. 2, der die anwendbaren Bestimmungen des LFG (SR 748.0) aufzählt. Es handelt sich um eine Fortsetzung der in Item 4 erfassten Aufzählung; funktional ist dies ein Verweis auf Art. 16 LFG, aber als artikel_reference ohne explizite SR-Nennung primär eine Selbstreferenzstruktur des aktuellen Dokuments."
+  },
+  {
+    "Item": 6,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 20 Abs. 1",
+      "Art. 20 Abs. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "«Artikel 20 Absätze 1 und 3» gehört zur gleichen Aufzählung in Art. 2 wie Item 5 und bezieht sich inhaltlich auf Art. 20 Abs. 1 und 3 LFG. Da im Snippet selbst keine SR genannt ist, wird dies als interne Artikelreferenz ohne explizite Zuordnung zu einem TARGET_SR behandelt."
+  },
+  {
+    "Item": 7,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 92 Bst. a"
+    ],
+    "confidence": "high",
+    "reasoning": "«Artikel 92 Buchstabe a» ist der dritte Punkt der Aufzählung in Art. 2. Inhaltlich verweist er auf Art. 92 Bst. a LFG, doch mangels expliziter SR-Nennung im Snippet bleibt dies formal eine Selbstreferenz im Sinne der Projektlogik."
+  },
+  {
+    "Item": 8,
+    "ARTICLE_EID": "art_47",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 31",
+      "Art. 32",
+      "Art. 33",
+      "Art. 34",
+      "Art. 36"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Text wiederholt ohne SR-Angabe die Formulierung aus Item 3 («Artikeln 31–34 und 36 der Verordnung …»). Als artikel_reference ist dies eine interne Wiederholung der bereits in Item 3 SR-bezogenen Verweisung; hier wird sie als Selbstreferenz ohne TARGET_SR geführt."
+  },
+  {
+    "Item": 9,
+    "ARTICLE_EID": "art_50",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 9",
+      "Art. 10",
+      "Art. 11",
+      "Art. 12",
+      "Art. 13",
+      "Art. 14",
+      "Art. 15",
+      "Art. 23",
+      "Art. 24",
+      "Art. 25",
+      "Art. 26",
+      "Art. 27",
+      "Art. 28",
+      "Art. 31",
+      "Art. 35"
+    ],
+    "confidence": "high",
+    "reasoning": "«Die Artikel 9–15, 23–28, 31 und 35» bezieht sich klar auf Artikel derselben Verordnung (Inkrafttretensbestimmung). Es liegt keine SR-Nennung vor, daher handelt es sich um eine reine Selbstreferenz; die Bereiche 9–15 und 23–28 werden als einzelne Artikel aufgelöst."
+  }
+]

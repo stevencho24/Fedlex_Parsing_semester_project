@@ -1,0 +1,722 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 101",
+    "assigned_articles": ["Art. 164 Abs. 1 Bst. g"],
+    "confidence": "high",
+    "reasoning": "Die Formulierung «gestützt auf Artikel 164 Absatz 1 Buchstabe g der Bundesverfassung SR 101» verweist ausdrücklich auf diesen konkreten Verfassungsartikel."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_9",
+    "TARGET_SR": "SR 171.21",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "high",
+    "reasoning": "Es wird nur das Parlamentsressourcengesetz als Ganzes genannt («wird ... geregelt»), ohne Artikelangabe."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_11",
+    "TARGET_SR": "SR 311.0",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "medium",
+    "reasoning": "«Das Berufsgeheimnis im Sinne des Strafgesetzbuches SR 311.0» verweist allgemein auf den Begriff im StGB; kein bestimmter Artikel wird genannt."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_18",
+    "TARGET_SR": "SR 311.0",
+    "assigned_articles": ["Art. 321ter"],
+    "confidence": "high",
+    "reasoning": "Der Text nennt ausdrücklich «Artikel 321ter des Strafgesetzbuches SR 311.0»."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_21_a",
+    "TARGET_SR": "SR 170.32",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "high",
+    "reasoning": "Die Verantwortlichkeit «richtet sich nach dem Verantwortlichkeitsgesetz ... SR 170.32»; keine Artikel werden spezifiziert."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_24",
+    "TARGET_SR": "SR 172.010",
+    "assigned_articles": ["Art. 7a", "Art. 7bbis"],
+    "confidence": "high",
+    "reasoning": "Es heisst «nach den Artikeln 7a und 7bbis des Regierungs- und Verwaltungsorganisationsgesetzes ... SR 172.010»; beide Artikel sind direkt mit diesem Gesetz verknüpft."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_26",
+    "TARGET_SR": "SR 614.0",
+    "assigned_articles": ["Art. 8"],
+    "confidence": "high",
+    "reasoning": "Der Bezug lautet «im Bereich von Artikel 8 des Finanzkontrollgesetzes ... SR 614.0»; damit ist klar Art. 8 dieses Gesetzes gemeint."
+  },
+  {
+    "ITEM": 8,
+    "ARTICLE_EID": "art_28",
+    "TARGET_SR": "SR 172.010",
+    "assigned_articles": ["Art. 8 Abs. 5"],
+    "confidence": "high",
+    "reasoning": "Es wird «nach Artikel 8 Absatz 5 des Regierungs- und Verwaltungsorganisationsgesetzes ... SR 172.010» genannt."
+  },
+  {
+    "ITEM": 9,
+    "ARTICLE_EID": "art_51",
+    "TARGET_SR": "SR 614.0",
+    "assigned_articles": ["Art. 14", "Art. 15", "Art. 18"],
+    "confidence": "high",
+    "reasoning": "Der Text verweist ausdrücklich auf «die Artikeln 14, 15 und 18 des Finanzkontrollgesetzes ... SR 614.0»."
+  },
+  {
+    "ITEM": 10,
+    "ARTICLE_EID": "art_62",
+    "TARGET_SR": "SR 171.21",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "high",
+    "reasoning": "«Näheres regelt das Parlamentsressourcengesetz ... SR 171.21» ohne Artikelangabe; es ist eine generelle Verweisung."
+  },
+  {
+    "ITEM": 11,
+    "ARTICLE_EID": "art_111",
+    "TARGET_SR": "SR 930.31",
+    "assigned_articles": ["Art. 4", "Art. 5"],
+    "confidence": "high",
+    "reasoning": "Es werden «Prüfpflichten nach Artikel 4» und «Pflicht ... nach Artikel 5 des Unternehmensentlastungsgesetzes ... SR 930.31» genannt."
+  },
+  {
+    "ITEM": 12,
+    "ARTICLE_EID": "art_112",
+    "TARGET_SR": "SR 172.061",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "high",
+    "reasoning": "Die Verweisung lautet allgemein «nach den Bestimmungen des Vernehmlassungsgesetzes ... SR 172.061» ohne konkrete Artikel."
+  },
+  {
+    "ITEM": 13,
+    "ARTICLE_EID": "art_148",
+    "TARGET_SR": "SR 172.010",
+    "assigned_articles": ["Art. 8 Abs. 5"],
+    "confidence": "high",
+    "reasoning": "Wörtlich: «nach Artikel 8 Absatz 5 des Regierungs- und Verwaltungsorganisationsgesetzes ... SR 172.010»."
+  },
+  {
+    "ITEM": 14,
+    "ARTICLE_EID": "art_153",
+    "TARGET_SR": "SR 273",
+    "assigned_articles": ["Art. 42"],
+    "confidence": "high",
+    "reasoning": "Der Satz nennt «Artikel 42 des Bundesgesetzes ... SR 273 über den Bundeszivilprozess»; damit ist dieser Artikel eindeutig zugeordnet."
+  },
+  {
+    "ITEM": 15,
+    "ARTICLE_EID": "art_153",
+    "TARGET_SR": "SR 312.0",
+    "assigned_articles": ["Art. 49", "Art. 50", "Art. 201–209"],
+    "confidence": "high",
+    "reasoning": "Es wird «in sinngemässer Anwendung der Artikel 49, 50 und 201–209 der Strafprozessordnung SR 312.0» gesagt; alle genannten Artikel gehören zur StPO."
+  },
+  {
+    "ITEM": 16,
+    "ARTICLE_EID": "art_155",
+    "TARGET_SR": "SR 273",
+    "assigned_articles": ["Art. 42 Abs. 1"],
+    "confidence": "high",
+    "reasoning": "Explizite Nennung «Artikel 42 Absatz 1 des Bundesgesetzes ... SR 273»."
+  },
+  {
+    "ITEM": 17,
+    "ARTICLE_EID": "art_156",
+    "TARGET_SR": "SR 273",
+    "assigned_articles": ["Art. 42 Abs. 1"],
+    "confidence": "high",
+    "reasoning": "Wortgleich mit Item 16: «Artikel 42 Absatz 1 ... SR 273»."
+  },
+  {
+    "ITEM": 18,
+    "ARTICLE_EID": "art_166",
+    "TARGET_SR": "SR 273",
+    "assigned_articles": ["Art. 42–48", "Art. 51–54"],
+    "confidence": "high",
+    "reasoning": "Der Text verweist auf «die Artikel 42–48 und 51–54 des Bundesgesetzes ... SR 273»; beide Artikelgruppen gehören zu SR 273."
+  },
+  {
+    "ITEM": 19,
+    "ARTICLE_EID": "art_169",
+    "TARGET_SR": "SR 152.1",
+    "assigned_articles": ["Art. 9–12"],
+    "confidence": "high",
+    "reasoning": "Es heisst «während der Schutzfrist nach den Artikeln 9–12 des Archivierungsgesetzes ... SR 152.1»."
+  },
+  {
+    "ITEM": 20,
+    "ARTICLE_EID": "art_170",
+    "TARGET_SR": "SR 311.0",
+    "assigned_articles": ["Art. 307"],
+    "confidence": "high",
+    "reasoning": "Explizite Nennung «nach Artikel 307 des Strafgesetzbuches SR 311.0»."
+  },
+  {
+    "ITEM": 21,
+    "ARTICLE_EID": "art_174",
+    "TARGET_SR": "SR 161.1",
+    "assigned_articles": ["Art. 18"],
+    "confidence": "high",
+    "reasoning": "Der Text sagt, dass «Artikel 18 des Bundesgesetzes ... SR 161.1 ... aufgehoben» wird; dieser Artikel ist klar bezeichnet."
+  },
+  {
+    "ITEM": 22,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 184 Abs. 3 BV", "Art. 185 Abs. 3 BV"],
+    "confidence": "high",
+    "reasoning": "«Artikel 184 Absatz 3 oder 185 Absatz 3 der Bundesverfassung» sind Verfassungsnormen (SR 101), aber hier als allgemeine externe Verweise ohne explizite SR-Nennung im Datensatz; daher als interne Artikelreferenz ohne TARGET_SR behandelt."
+  },
+  {
+    "ITEM": 23,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 173 Abs. 1 Bst. c BV", "Art. 165 BV"],
+    "confidence": "high",
+    "reasoning": "Bezieht sich auf «Artikel 173 Absatz 1 Buchstabe c der Bundesverfassung» und «Artikel 165 der Bundesverfassung»; interne Verfassungszitate ohne zugeordnetes TARGET_SR."
+  },
+  {
+    "ITEM": 24,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 33a"],
+    "confidence": "high",
+    "reasoning": "«nach Artikel 33a beschlossen wurde» ist eine Selbstverweisung innerhalb des ParlG; kein externer SR-Bezug."
+  },
+  {
+    "ITEM": 25,
+    "ARTICLE_EID": "art_10_a",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 159 Abs. 1 BV"],
+    "confidence": "high",
+    "reasoning": "Verweist auf «Artikel 159 Absatz 1 der Bundesverfassung»; interne BV-Referenz ohne explizite SR-Verknüpfung im Datensatz."
+  },
+  {
+    "ITEM": 26,
+    "ARTICLE_EID": "art_10_a",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 4 Abs. 2"],
+    "confidence": "high",
+    "reasoning": "«nach Artikel 4 Absatz 2» bezieht sich auf einen Artikel desselben Gesetzes (ParlG); reine Selbstverweisung."
+  },
+  {
+    "ITEM": 27,
+    "ARTICLE_EID": "art_11_a",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 26"],
+    "confidence": "high",
+    "reasoning": "«nach Artikel 26» ist eine interne Verweisung innerhalb des ParlG."
+  },
+  {
+    "ITEM": 28,
+    "ARTICLE_EID": "art_15",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 14 Bst. a"],
+    "confidence": "high",
+    "reasoning": "«nach Artikel 14 Buchstabe a» verweist auf eine Bestimmung desselben Gesetzes."
+  },
+  {
+    "ITEM": 29,
+    "ARTICLE_EID": "art_15",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 14 Bst. b–f"],
+    "confidence": "high",
+    "reasoning": "«nach Artikel 14 Buchstaben b–f» ist ebenfalls eine interne Normverweisung."
+  },
+  {
+    "ITEM": 30,
+    "ARTICLE_EID": "art_17",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 17a"],
+    "confidence": "high",
+    "reasoning": "«nach Artikel 17a behandelt» ist eine Selbstverweisung im ParlG."
+  },
+  {
+    "ITEM": 31,
+    "ARTICLE_EID": "art_18",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 321ter StGB"],
+    "confidence": "high",
+    "reasoning": "«Artikel 321ter des Strafgesetzbuches» ist ein externer Verweis auf das StGB (SR 311.0), aber ohne explizite SR-Nennung in diesem artikel_reference-Item; daher als reine Artikelangabe ohne TARGET_SR."
+  },
+  {
+    "ITEM": 32,
+    "ARTICLE_EID": "art_18",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 17"],
+    "confidence": "high",
+    "reasoning": "«ist nach Artikel 17 die Ermächtigung ... einzuholen» ist eine interne Verweisung im ParlG."
+  },
+  {
+    "ITEM": 33,
+    "ARTICLE_EID": "art_19",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 18"],
+    "confidence": "high",
+    "reasoning": "«Die Erteilung der Ermächtigung nach Artikel 18» verweist auf einen anderen Artikel desselben Gesetzes."
+  },
+  {
+    "ITEM": 34,
+    "ARTICLE_EID": "art_21",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 17–20"],
+    "confidence": "high",
+    "reasoning": "«nach den Artikeln 17–20» ist eine interne Artikelspanne im ParlG."
+  },
+  {
+    "ITEM": 35,
+    "ARTICLE_EID": "art_21_a",
+    "TARGET_SR": "SR 170.32",
+    "assigned_articles": ["Art. 7", "Art. 8"],
+    "confidence": "high",
+    "reasoning": "«nach den Artikeln 7 und 8 des Verantwortlichkeitsgesetzes vom 14. März 1958»; diese Artikel gehören klar zu SR 170.32."
+  },
+  {
+    "ITEM": 36,
+    "ARTICLE_EID": "art_22",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 151 Abs. 2bis"],
+    "confidence": "high",
+    "reasoning": "«Entwürfe für Verordnungen nach Artikel 151 Absatz 2bis» ist eine interne Verweisung im ParlG."
+  },
+  {
+    "ITEM": 37,
+    "ARTICLE_EID": "art_24",
+    "TARGET_SR": "SR 172.010",
+    "assigned_articles": ["Art. 7a", "Art. 7bbis"],
+    "confidence": "high",
+    "reasoning": "Inhaltlich identisch mit Item 6, nur ohne explizite SR-Nennung im Snippet; die Artikel 7a und 7bbis gehören zum RVOG (SR 172.010), das im korrespondierenden SR_link_detection-Item genannt ist."
+  },
+  {
+    "ITEM": 38,
+    "ARTICLE_EID": "art_26",
+    "TARGET_SR": "SR 614.0",
+    "assigned_articles": ["Art. 8"],
+    "confidence": "high",
+    "reasoning": "Inhaltlich identisch mit Item 7; «im Bereich von Artikel 8 des Finanzkontrollgesetzes» bezieht sich auf Art. 8 SR 614.0."
+  },
+  {
+    "ITEM": 39,
+    "ARTICLE_EID": "art_28",
+    "TARGET_SR": "SR 172.010",
+    "assigned_articles": ["Art. 8 Abs. 5"],
+    "confidence": "high",
+    "reasoning": "Parallel zu Item 8; «nach Artikel 8 Absatz 5 des Regierungs- und Verwaltungsorganisationsgesetzes» verweist auf Art. 8 Abs. 5 SR 172.010."
+  },
+  {
+    "ITEM": 40,
+    "ARTICLE_EID": "art_37",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 61"],
+    "confidence": "high",
+    "reasoning": "«nach den in Artikel 61 genannten Kriterien» ist eine interne Verweisung im ParlG."
+  },
+  {
+    "ITEM": 41,
+    "ARTICLE_EID": "art_45_b",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 45 Abs. 1 Bst. b", "Art. 45 Abs. 1 Bst. c"],
+    "confidence": "high",
+    "reasoning": "«gemäss Artikel 45 Absatz 1 Buchstaben b und c» verweist auf Untereinheiten desselben Artikels im ParlG."
+  },
+  {
+    "ITEM": 42,
+    "ARTICLE_EID": "art_50",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 26 Abs. 2"],
+    "confidence": "high",
+    "reasoning": "«nach Artikel 26 Absatz 2» ist eine interne Verweisung im ParlG."
+  },
+  {
+    "ITEM": 43,
+    "ARTICLE_EID": "art_51",
+    "TARGET_SR": "SR 614.0",
+    "assigned_articles": ["Art. 14", "Art. 15", "Art. 18"],
+    "confidence": "high",
+    "reasoning": "Inhaltlich identisch mit Item 9; die Artikel 14, 15 und 18 gehören zum Finanzkontrollgesetz SR 614.0."
+  },
+  {
+    "ITEM": 44,
+    "ARTICLE_EID": "art_52",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 26 Abs. 1", "Art. 26 Abs. 3", "Art. 26 Abs. 4"],
+    "confidence": "high",
+    "reasoning": "«nach Artikel 26 Absätze 1, 3 und 4» sind interne Verweise im ParlG."
+  },
+  {
+    "ITEM": 45,
+    "ARTICLE_EID": "art_62",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 8"],
+    "confidence": "high",
+    "reasoning": "«gemäss Artikel 8» bezieht sich auf das Amtsgeheimnis im selben Gesetz."
+  },
+  {
+    "ITEM": 46,
+    "ARTICLE_EID": "art_76",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 101"],
+    "confidence": "high",
+    "reasoning": "«(Art. 101)» ist eine interne Klammerverweisung auf einen Artikel des ParlG."
+  },
+  {
+    "ITEM": 47,
+    "ARTICLE_EID": "art_78",
+    "TARGET_SR": "SR 101",
+    "assigned_articles": ["Art. 159 Abs. 3 BV"],
+    "confidence": "high",
+    "reasoning": "«(Art. 159 Abs. 3 BV)» verweist auf die Bundesverfassung (SR 101); BV ist das etablierte Akronym."
+  },
+  {
+    "ITEM": 48,
+    "ARTICLE_EID": "art_91",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 43 Abs. 3"],
+    "confidence": "high",
+    "reasoning": "«richtet sich nach Artikel 43 Absatz 3» ist eine interne Verweisung im ParlG."
+  },
+  {
+    "ITEM": 49,
+    "ARTICLE_EID": "art_98",
+    "TARGET_SR": "SR 101",
+    "assigned_articles": ["Art. 139 Abs. 3 BV"],
+    "confidence": "high",
+    "reasoning": "«Artikel 139 Absatz 3 der Bundesverfassung» verweist auf die BV (SR 101)."
+  },
+  {
+    "ITEM": 50,
+    "ARTICLE_EID": "art_98",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 93 Abs. 2"],
+    "confidence": "high",
+    "reasoning": "«in Abweichung von Artikel 93 Absatz 2» ist eine interne Verweisung im ParlG."
+  },
+  {
+    "ITEM": 51,
+    "ARTICLE_EID": "art_111",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 141"],
+    "confidence": "high",
+    "reasoning": "«(Art. 141)» ist eine interne Verweisung auf einen Artikel des ParlG."
+  },
+  {
+    "ITEM": 52,
+    "ARTICLE_EID": "art_111",
+    "TARGET_SR": "SR 930.31",
+    "assigned_articles": ["Art. 4", "Art. 5"],
+    "confidence": "high",
+    "reasoning": "Inhaltlich identisch mit Item 11; die Artikel 4 und 5 gehören zum Unternehmensentlastungsgesetz SR 930.31."
+  },
+  {
+    "ITEM": 53,
+    "ARTICLE_EID": "art_112",
+    "TARGET_SR": "SR 101",
+    "assigned_articles": ["Art. 165 BV", "Art. 173 Abs. 1 Bst. c BV"],
+    "confidence": "high",
+    "reasoning": "Es wird auf «Artikel 165» und «Artikel 173 Absatz 1 Buchstabe c der Bundesverfassung» verwiesen; beide sind BV-Bestimmungen (SR 101)."
+  },
+  {
+    "ITEM": 54,
+    "ARTICLE_EID": "art_116",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 110"],
+    "confidence": "high",
+    "reasoning": "«Für die Vorprüfung gilt Artikel 110 sinngemäss» ist eine interne Verweisung im ParlG."
+  },
+  {
+    "ITEM": 55,
+    "ARTICLE_EID": "art_116",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 109 Abs. 2", "Art. 109 Abs. 3bis"],
+    "confidence": "high",
+    "reasoning": "«nach Artikel 109 Absätze 2 und 3bis» verweist intern im ParlG."
+  },
+  {
+    "ITEM": 56,
+    "ARTICLE_EID": "art_117",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 84"],
+    "confidence": "high",
+    "reasoning": "«gemäss Artikel 84» ist eine interne Verweisung im ParlG."
+  },
+  {
+    "ITEM": 57,
+    "ARTICLE_EID": "art_117",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 111–114"],
+    "confidence": "high",
+    "reasoning": "«gelten die Artikel 111–114 sinngemäss» ist eine interne Artikelspanne im ParlG."
+  },
+  {
+    "ITEM": 58,
+    "ARTICLE_EID": "art_118",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 120–125"],
+    "confidence": "high",
+    "reasoning": "«gelten die Artikel 120–125 sinngemäss» ist eine interne Verweisung im ParlG."
+  },
+  {
+    "ITEM": 59,
+    "ARTICLE_EID": "art_119",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 121 Abs. 3 Bst. b"],
+    "confidence": "high",
+    "reasoning": "«vorbehalten bleibt Artikel 121 Absatz 3 Buchstabe b» ist eine interne Verweisung im ParlG."
+  },
+  {
+    "ITEM": 60,
+    "ARTICLE_EID": "art_121",
+    "TARGET_SR": "SR 101",
+    "assigned_articles": ["Art. 184 Abs. 3 BV", "Art. 185 Abs. 3 BV"],
+    "confidence": "high",
+    "reasoning": "«die sich auf Artikel 184 Absatz 3 oder Artikel 185 Absatz 3 der Bundesverfassung ... stützt»; beide sind BV-Bestimmungen (SR 101)."
+  },
+  {
+    "ITEM": 61,
+    "ARTICLE_EID": "art_122",
+    "TARGET_SR": "SR 101",
+    "assigned_articles": ["Art. 184 Abs. 3 BV", "Art. 185 Abs. 3 BV"],
+    "confidence": "high",
+    "reasoning": "Gleiche Struktur wie Item 60; Verweis auf dieselben BV-Artikel."
+  },
+  {
+    "ITEM": 62,
+    "ARTICLE_EID": "art_122",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 95"],
+    "confidence": "high",
+    "reasoning": "«nach Artikel 95 Anwendung» ist eine interne Verweisung im ParlG."
+  },
+  {
+    "ITEM": 63,
+    "ARTICLE_EID": "art_148",
+    "TARGET_SR": "SR 172.010",
+    "assigned_articles": ["Art. 8 Abs. 5"],
+    "confidence": "high",
+    "reasoning": "Inhaltlich identisch mit Item 13; Verweis auf Art. 8 Abs. 5 RVOG (SR 172.010)."
+  },
+  {
+    "ITEM": 64,
+    "ARTICLE_EID": "art_150",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 8"],
+    "confidence": "high",
+    "reasoning": "«dem Amtsgeheimnis gemäss Artikel 8» ist eine interne Verweisung im ParlG."
+  },
+  {
+    "ITEM": 65,
+    "ARTICLE_EID": "art_151",
+    "TARGET_SR": "SR 101",
+    "assigned_articles": ["Art. 185 Abs. 3 BV"],
+    "confidence": "high",
+    "reasoning": "«gestützt auf Artikel 185 Absatz 3 der Bundesverfassung» verweist auf die BV (SR 101)."
+  },
+  {
+    "ITEM": 66,
+    "ARTICLE_EID": "art_153",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 150", "Art. 156"],
+    "confidence": "high",
+    "reasoning": "«nach Artikel 150» und «in Anwendung von Artikel 156» sind interne Verweise im ParlG."
+  },
+  {
+    "ITEM": 67,
+    "ARTICLE_EID": "art_153",
+    "TARGET_SR": "SR 273",
+    "assigned_articles": ["Art. 42"],
+    "confidence": "high",
+    "reasoning": "Inhaltlich wie Item 14/16/17; «Artikel 42 ... SR 273» gehört zum Bundeszivilprozessgesetz."
+  },
+  {
+    "ITEM": 68,
+    "ARTICLE_EID": "art_153",
+    "TARGET_SR": "SR 312.0",
+    "assigned_articles": ["Art. 49", "Art. 50", "Art. 201–209"],
+    "confidence": "high",
+    "reasoning": "Parallel zu Item 15; die genannten Artikel gehören zur Strafprozessordnung SR 312.0."
+  },
+  {
+    "ITEM": 69,
+    "ARTICLE_EID": "art_153",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 150 Abs. 3"],
+    "confidence": "high",
+    "reasoning": "«nach Artikel 150 Absatz 3» ist eine interne Verweisung im ParlG."
+  },
+  {
+    "ITEM": 70,
+    "ARTICLE_EID": "art_154",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 150", "Art. 153"],
+    "confidence": "high",
+    "reasoning": "«nach den Artikeln 150 und 153» sind interne Verweise im ParlG."
+  },
+  {
+    "ITEM": 71,
+    "ARTICLE_EID": "art_154",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 153 Abs. 3", "Art. 153 Abs. 4"],
+    "confidence": "high",
+    "reasoning": "«gilt Artikel 153 Absätze 3 und 4 sinngemäss» ist eine interne Verweisung."
+  },
+  {
+    "ITEM": 72,
+    "ARTICLE_EID": "art_155",
+    "TARGET_SR": "SR 273",
+    "assigned_articles": ["Art. 42 Abs. 1"],
+    "confidence": "high",
+    "reasoning": "Inhaltlich wie Item 16; «Artikel 42 Absatz 1 ... SR 273»."
+  },
+  {
+    "ITEM": 73,
+    "ARTICLE_EID": "art_155",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 166–171"],
+    "confidence": "high",
+    "reasoning": "«sind die Artikel 166–171 anwendbar» ist eine interne Artikelspanne im ParlG."
+  },
+  {
+    "ITEM": 74,
+    "ARTICLE_EID": "art_156",
+    "TARGET_SR": "SR 273",
+    "assigned_articles": ["Art. 42 Abs. 1"],
+    "confidence": "high",
+    "reasoning": "Wortgleich mit Item 17; Verweis auf Art. 42 Abs. 1 SR 273."
+  },
+  {
+    "ITEM": 75,
+    "ARTICLE_EID": "art_162",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 142 Abs. 1"],
+    "confidence": "high",
+    "reasoning": "«(Art. 142 Abs. 1)» ist eine interne Verweisung im ParlG."
+  },
+  {
+    "ITEM": 76,
+    "ARTICLE_EID": "art_162",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 144 Abs. 2", "Art. 145 Abs. 2"],
+    "confidence": "high",
+    "reasoning": "«(Art. 144 Abs. 2 und 145 Abs. 2)» sind interne Verweise im ParlG."
+  },
+  {
+    "ITEM": 77,
+    "ARTICLE_EID": "art_164",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 43 Abs. 1–3", "Art. 92 Abs. 1–2"],
+    "confidence": "high",
+    "reasoning": "«gilt Artikel 43 Absätze 1–3» und «gilt Artikel 92 Absätze 1 und 2» sind interne Verweise im ParlG."
+  },
+  {
+    "ITEM": 78,
+    "ARTICLE_EID": "art_166",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 150", "Art. 153–156"],
+    "confidence": "high",
+    "reasoning": "«(Art. 150 und 153–156)» sind interne Verweise im ParlG."
+  },
+  {
+    "ITEM": 79,
+    "ARTICLE_EID": "art_166",
+    "TARGET_SR": "SR 273",
+    "assigned_articles": ["Art. 42–48", "Art. 51–54"],
+    "confidence": "high",
+    "reasoning": "Inhaltlich identisch mit Item 18; Verweis auf Art. 42–48 und 51–54 SR 273."
+  },
+  {
+    "ITEM": 80,
+    "ARTICLE_EID": "art_168",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 167 Abs. 1"],
+    "confidence": "high",
+    "reasoning": "«das in Artikel 167 Absatz 1 genannte Recht» ist eine interne Verweisung im ParlG."
+  },
+  {
+    "ITEM": 81,
+    "ARTICLE_EID": "art_169",
+    "TARGET_SR": "SR 152.1",
+    "assigned_articles": ["Art. 9–12"],
+    "confidence": "high",
+    "reasoning": "Inhaltlich identisch mit Item 19; Verweis auf Art. 9–12 Archivierungsgesetz SR 152.1."
+  },
+  {
+    "ITEM": 82,
+    "ARTICLE_EID": "art_170",
+    "TARGET_SR": "SR 311.0",
+    "assigned_articles": ["Art. 307"],
+    "confidence": "high",
+    "reasoning": "Wie Item 20; Verweis auf Art. 307 StGB SR 311.0."
+  },
+  {
+    "ITEM": 83,
+    "ARTICLE_EID": "art_170",
+    "TARGET_SR": "SR 311.0",
+    "assigned_articles": ["Art. 292"],
+    "confidence": "high",
+    "reasoning": "«wird nach Artikel 292 des Strafgesetzbuches bestraft»; Art. 292 gehört zum StGB SR 311.0."
+  },
+  {
+    "ITEM": 84,
+    "ARTICLE_EID": "art_170",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 169 Abs. 1"],
+    "confidence": "high",
+    "reasoning": "«Verletzung der Schweigepflicht gemäss Artikel 169 Absatz 1» ist eine interne Verweisung im ParlG."
+  },
+  {
+    "ITEM": 85,
+    "ARTICLE_EID": "art_173",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 13"],
+    "confidence": "high",
+    "reasoning": "«Artikel 13 findet Anwendung» ist eine interne Verweisung im ParlG."
+  },
+  {
+    "ITEM": 86,
+    "ARTICLE_EID": "art_173",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 14", "Art. 15"],
+    "confidence": "high",
+    "reasoning": "«Inkrafttreten der Artikel 14 und 15» bezieht sich auf interne Bestimmungen des ParlG."
+  },
+  {
+    "ITEM": 87,
+    "ARTICLE_EID": "art_173",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 14", "Art. 15"],
+    "confidence": "high",
+    "reasoning": "Auch hier wird das Inkrafttreten der «Artikel 14 und 15» geregelt; interne Verweisung."
+  },
+  {
+    "ITEM": 88,
+    "ARTICLE_EID": "art_173",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 163–171"],
+    "confidence": "high",
+    "reasoning": "«Die Artikel 163–171 werden ... angewendet» ist eine interne Artikelspanne im ParlG."
+  },
+  {
+    "ITEM": 89,
+    "ARTICLE_EID": "art_173",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 86 Abs. 4", "Art. 97 Abs. 2", "Art. 101 Abs. 2", "Art. 101 Abs. 3"],
+    "confidence": "high",
+    "reasoning": "«Die Änderungen der Artikel 86 Absatz 4, 97 Absatz 2 und 101 Absätze 2 und 3» sind interne Verweise im ParlG."
+  },
+  {
+    "ITEM": 90,
+    "ARTICLE_EID": "art_174",
+    "TARGET_SR": "SR 161.1",
+    "assigned_articles": ["Art. 18"],
+    "confidence": "high",
+    "reasoning": "Wie Item 21; «Artikel 18 des Bundesgesetzes ... SR 161.1 ... aufgehoben»."
+  }
+]

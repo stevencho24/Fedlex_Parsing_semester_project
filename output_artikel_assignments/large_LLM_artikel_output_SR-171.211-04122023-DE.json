@@ -1,0 +1,174 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 171.21",
+    "assigned_articles": [
+      "Art. 14"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Formulierung \"gestützt auf Artikel 14 des Parlamentsressourcengesetzes ... SR 171.21 (PRG)\" verknüpft eindeutig Art. 14 mit dem PRG (SR 171.21)."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": "SR 831.40",
+    "assigned_articles": [
+      "Art. 8 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Satz \"... nach Artikel 8 Absatz 1 des Bundesgesetzes ... SR 831.40 ... (BVG)\" wird Art. 8 Abs. 1 ausdrücklich diesem Gesetz (SR 831.40) zugeordnet."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_7_a",
+    "TARGET_SR": "SR 831.20",
+    "assigned_articles": [
+      "Art. 28",
+      "Art. 29"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Passage \"sind die Artikel 28 und 29 des Bundesgesetzes ... SR 831.20 ... massgebend\" ordnet beide Artikel klar dem IVG (SR 831.20) zu."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_7_a",
+    "TARGET_SR": "SR 831.10",
+    "assigned_articles": [
+      "Art. 34"
+    ],
+    "confidence": "high",
+    "reasoning": "Formulierung \"... nach Artikel 34 des Bundesgesetzes ... SR 831.10 ... (AHVG)\" verknüpft Art. 34 eindeutig mit SR 831.10."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_7_b",
+    "TARGET_SR": "SR 831.10",
+    "assigned_articles": [
+      "Art. 34"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Text \"... nach Artikel 34 AHVG SR 831.10\" steht die Abkürzung AHVG für das Gesetz SR 831.10; der genannte Art. 34 gehört somit zu SR 831.10."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_7_b",
+    "TARGET_SR": "SR 831.425",
+    "assigned_articles": [
+      "Art. 15 Abs. 1 lit. b",
+      "Art. 15 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Wendung \"richtet sich nach Artikel 15 Absatz 1 Buchstabe b und Absatz 2 der Freizügigkeitsverordnung ... SR 831.425\" ordnet beide Absätze von Art. 15 dieser Verordnung zu."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_8_b",
+    "TARGET_SR": "SR 831.10",
+    "assigned_articles": [
+      "Art. 34"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Satz \"... nach Artikel 34 AHVG SR 831.10\" verweist klar auf Art. 34 des AHVG (SR 831.10)."
+  },
+  {
+    "ITEM": 8,
+    "ARTICLE_EID": "art_13",
+    "TARGET_SR": "SR 101",
+    "assigned_articles": [
+      "Art. 163 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Autorennotiz-Text \"(Art. 163 Abs. 1 der BV – SR 101)\" wird Art. 163 Abs. 1 ausdrücklich der Bundesverfassung (SR 101) zugeordnet."
+  },
+  {
+    "ITEM": 9,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": "SR 171.21",
+    "assigned_articles": [
+      "Art. 7 Abs. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Formulierungen \"nach Artikel 7 Absatz 3 PRG\" beziehen sich auf das Parlamentsressourcengesetz (PRG = SR 171.21); damit ist Art. 7 Abs. 3 dieses Gesetzes gemeint."
+  },
+  {
+    "ITEM": 10,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Artikel 8 Abs. 1 BVG wird genannt, aber ohne explizite Verknüpfung zu einer SR-Nummer im Snippet selbst; der Bezug auf SR 831.40 wird in einem separaten SR_link_detection-Item (ITEM 2) bereits abgedeckt. Hier handelt es sich um eine Wiederholung derselben externen Norm, daher keine zusätzliche SR-Zuordnung nötig."
+  },
+  {
+    "ITEM": 11,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Verweis \"Artikel 7 Absatz 3 PRG\" ist eine Selbstreferenz auf das bereits im Dokument definierte PRG (SR 171.21) und betrifft die interne Struktur; kein neuer externer SR-Link."
+  },
+  {
+    "ITEM": 12,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Verweis \"Artikel 7b Absatz 4 dieser Verordnung\" ist klar eine interne Selbstreferenz innerhalb derselben Verordnung; keine externe SR-Zuordnung."
+  },
+  {
+    "ITEM": 13,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Auch hier \"Artikel 7 Absatz 3 PRG\" als interner Verweis auf bereits erfasste Beziehung zu SR 171.21 (ITEM 9); kein zusätzlicher externer SR-Link."
+  },
+  {
+    "ITEM": 14,
+    "ARTICLE_EID": "art_7_a",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Der Text wiederholt den Verweis auf Artikel 28 und 29 des IVG, der bereits in ITEM 3 mit SR 831.20 verknüpft ist; als artikel_reference dient er nur der internen Erfassung, kein neuer SR-Link."
+  },
+  {
+    "ITEM": 15,
+    "ARTICLE_EID": "art_7_a",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Wiederholung des Verweises auf Artikel 34 AHVG, der in ITEM 4/5/7 bereits mit SR 831.10 verknüpft ist; hier nur Selbstreferenz/Redundanz, kein zusätzlicher SR-Link."
+  },
+  {
+    "ITEM": 16,
+    "ARTICLE_EID": "art_7_b",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Der Verweis auf Artikel 15 der Freizügigkeitsverordnung ist bereits in ITEM 6 mit SR 831.425 erfasst; dieses Snippet ist eine parallele artikel_reference ohne neue SR-Information."
+  },
+  {
+    "ITEM": 17,
+    "ARTICLE_EID": "art_8_b",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Verweis \"Artikel 8a Absatz 1 Buchstabe a des Parlamentsressourcengesetzes\" betrifft das bereits bekannte PRG (SR 171.21), aber ohne neue Artikel-SR-Kombination über das hinaus, was durch das Preamble-Akronym PRG abgedeckt ist; als artikel_reference nur Selbstreferenz."
+  },
+  {
+    "ITEM": 18,
+    "ARTICLE_EID": "art_12",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Die Verweise auf Artikel 2 und 3a PRG sowie 7, 9 und 10 dieser Verordnung betreffen interne Normen (PRG und die vorliegende Verordnung); kein expliziter neuer SR-Link im Snippet."
+  },
+  {
+    "ITEM": 19,
+    "ARTICLE_EID": "art_13",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Der Verweis auf Artikel 14 Absatz 1 des Entschädigungsgesetzes ist bereits in ITEM 1 über die Preambel (PRG/Entschädigungsgesetz-Kontext) abgedeckt; als artikel_reference dient er nur der internen Struktur, ohne neue explizite SR-Verknüpfung im Snippet."
+  }
+]

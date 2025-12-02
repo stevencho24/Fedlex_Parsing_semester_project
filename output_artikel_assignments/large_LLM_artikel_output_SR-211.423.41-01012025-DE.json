@@ -1,0 +1,138 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 211.423.4",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "high",
+    "reasoning": "Die Präambel nennt nur das Bundesgesetz SR 211.423.4 (Pfandbriefgesetz) ohne jegliche Artikelangabe; dies ist eine generelle gesetzliche Grundlage für die Verordnung."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_14_b",
+    "TARGET_SR": "SR 952.03",
+    "assigned_articles": ["Art. 72d"],
+    "confidence": "high",
+    "reasoning": "Im Snippet steht ausdrücklich: \"nach Artikel 72d der Eigenmittelverordnung ... SR 952.03\"; damit ist klar Art. 72d der Eigenmittelverordnung (SR 952.03) gemeint."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "high",
+    "reasoning": "Die Bezugnahme \"auf die Artikel 3 und 4 Absätze 1 und 2 des Gesetzes\" erfolgt ohne Nennung einer SR-Nummer; es handelt sich um Selbstverweise auf das zugrunde liegende Pfandbriefgesetz derselben Erlasskette, nicht auf ein anderes SR-Dokument."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "high",
+    "reasoning": "Formulierung \"(unter Vorbehalt von Art. 37 des Gesetzes)\" ohne SR-Angabe; dies ist ein interner Verweis auf einen Artikel des gleichen Gesetzes."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_9",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "high",
+    "reasoning": "\"nach Artikel 12 Absatz 2 des Gesetzes\" verweist auf einen Artikel desselben Gesetzes; keine externe SR-Referenz vorhanden."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_11",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "high",
+    "reasoning": "\"(Art. 21 des Gesetzes)\" ist ein klassischer Selbstverweis innerhalb desselben Erlasses; keine SR-Nummer oder anderes Gesetz genannt."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_11",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "high",
+    "reasoning": "\"nach Artikel 25 des Gesetzes\" ohne weitere Gesetzesbezeichnung oder SR-Nummer; dies ist ein interner Verweis."
+  },
+  {
+    "ITEM": 8,
+    "ARTICLE_EID": "art_13",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "high",
+    "reasoning": "\"(Art. 16 des Gesetzes)\" bezieht sich auf einen Artikel desselben Gesetzes; keine externe SR-Verknüpfung."
+  },
+  {
+    "ITEM": 9,
+    "ARTICLE_EID": "art_14",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "high",
+    "reasoning": "\"(Art. 17, 22 und 25 des Gesetzes)\" sind mehrere interne Artikelverweise innerhalb desselben Gesetzes; keine SR-Nummer genannt."
+  },
+  {
+    "ITEM": 10,
+    "ARTICLE_EID": "art_14_a",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "high",
+    "reasoning": "\"im Sinne von Artikel 25 des Gesetzes\" ist ein Selbstverweis auf einen Artikel des gleichen Gesetzes; keine externe SR-Referenz."
+  },
+  {
+    "ITEM": 11,
+    "ARTICLE_EID": "art_14_a",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "high",
+    "reasoning": "Auch hier \"im Sinne von Artikel 25 des Gesetzes\"; wiederum ein interner Verweis ohne Nennung eines anderen SR-Erlasses."
+  },
+  {
+    "ITEM": 12,
+    "ARTICLE_EID": "art_14_b",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "high",
+    "reasoning": "In diesem Snippet wird nur \"Artikel 72d der Eigenmittelverordnung\" erwähnt; diese externe Verknüpfung ist bereits in ITEM 2 als SR-Link erfasst. Der artikel_reference-Eintrag selbst dient hier als Selbstreferenz-Kontext und erhält daher keine eigene TARGET_SR-Zuordnung."
+  },
+  {
+    "ITEM": 13,
+    "ARTICLE_EID": "art_15",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "high",
+    "reasoning": "\"(Art. 34 des Gesetzes)\" ist ein interner Verweis auf einen Artikel desselben Gesetzes; keine SR-Nummer oder anderes Gesetz genannt."
+  },
+  {
+    "ITEM": 14,
+    "ARTICLE_EID": "art_17",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "high",
+    "reasoning": "\"im Sinne von Artikel 19 des Gesetzes\" verweist auf einen Artikel des gleichen Gesetzes; keine externe SR-Verknüpfung."
+  },
+  {
+    "ITEM": 15,
+    "ARTICLE_EID": "art_18",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "high",
+    "reasoning": "\"im Sinne von Artikel 10 des Gesetzes\" ist wiederum ein Selbstverweis innerhalb desselben Erlasses; keine andere SR-Nummer genannt."
+  },
+  {
+    "ITEM": 16,
+    "ARTICLE_EID": "art_21_a_bis",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "high",
+    "reasoning": "\"nach den Artikeln 40 und 40a des Gesetzes\" bezeichnet Artikel desselben Gesetzes; es wird kein anderes Gesetz oder eine SR-Nummer erwähnt."
+  },
+  {
+    "ITEM": 17,
+    "ARTICLE_EID": "art_21_b",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "high",
+    "reasoning": "\"nach Artikel 21a\" ist ein Verweis auf einen anderen Artikel derselben Verordnung bzw. desselben Gesetzes; keine externe SR-Referenz vorhanden."
+  }
+]

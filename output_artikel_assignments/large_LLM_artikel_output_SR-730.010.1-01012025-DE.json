@@ -1,0 +1,144 @@
+[
+  {
+    "Item": 1,
+    "source_article_eid": "preamble",
+    "target_sr": "SR 730.01",
+    "assigned_articles": [
+      "Art. 5"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet explicitly cites 'Artikel 5 der Energieverordnung ... SR 730.01 (EnV)'; direct marking links Art. 5 to SR 730.01."
+  },
+  {
+    "Item": 2,
+    "source_article_eid": "art_1",
+    "target_sr": "SR 730.0",
+    "assigned_articles": [
+      "Art. 64"
+    ],
+    "confidence": "high",
+    "reasoning": "Phrase 'Vollzugsstelle nach Artikel 64 des Energiegesetzes ... SR 730.0 (EnG)' directly attributes Art. 64 to SR 730.0."
+  },
+  {
+    "Item": 3,
+    "source_article_eid": "art_2",
+    "target_sr": "SR 734.27",
+    "assigned_articles": [
+      "Art. 27"
+    ],
+    "confidence": "high",
+    "reasoning": "Text 'Kontrollbewilligung nach Artikel 27 der Niederspannungs-Installationsverordnung ... SR 734.27' clearly links Art. 27 to SR 734.27."
+  },
+  {
+    "Item": 4,
+    "source_article_eid": "art_5",
+    "target_sr": "SR 170.512",
+    "assigned_articles": [
+      "Art. 12 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "INSIDE_AUTHORIALNOTE states 'in Anwendung von Art. 12 Abs. 2 des Publikationsgesetzes ... (SR 170.512)'; direct marking of article and paragraph to SR 170.512."
+  },
+  {
+    "Item": 5,
+    "source_article_eid": "art_5",
+    "target_sr": "SR 734.71",
+    "assigned_articles": [
+      "Art. 8asexies Abs. 5"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet: 'Anlagen nach Artikel 8asexies Absatz 5 der Stromversorgungsverordnung ... SR 734.71'; article and paragraph explicitly tied to SR 734.71."
+  },
+  {
+    "Item": 6,
+    "source_article_eid": "art_9_b",
+    "target_sr": "SR 730.0",
+    "assigned_articles": [
+      "Art. 73 Abs. 4"
+    ],
+    "confidence": "high",
+    "reasoning": "Phrase 'Vertrag zur Mehrkostenfinanzierung nach Artikel 73 Absatz 4 EnG SR 730.0' directly attributes Art. 73 Abs. 4 to SR 730.0."
+  },
+  {
+    "Item": 7,
+    "source_article_eid": "art_1",
+    "target_sr": "SR 730.010.1",
+    "assigned_articles": [
+      "Art. 1 Abs. 2 Bst. a"
+    ],
+    "confidence": "high",
+    "reasoning": "Artikelreferenz ohne externes SR; by default self-reference to current document (SR 730.010.1). Refers to 'Artikel 1 Absatz 2 Buchstabe a' within the same ordinance."
+  },
+  {
+    "Item": 8,
+    "source_article_eid": "art_1",
+    "target_sr": "SR 730.0",
+    "assigned_articles": [
+      "Art. 64"
+    ],
+    "confidence": "high",
+    "reasoning": "Self-contained sentence 'Vollzugsstelle nach Artikel 64 des Energiegesetzes ... (EnG)'; EnG is SR 730.0, so Art. 64 belongs to SR 730.0, not to the current document."
+  },
+  {
+    "Item": 9,
+    "source_article_eid": "art_2",
+    "target_sr": "SR 730.010.1",
+    "assigned_articles": [
+      "Art. 1 Abs. 2 Bst. c–g"
+    ],
+    "confidence": "high",
+    "reasoning": "No external SR mentioned; 'Angaben nach Artikel 1 Absatz 2 Buchstaben c–g' clearly refers to internal structure of the same ordinance."
+  },
+  {
+    "Item": 10,
+    "source_article_eid": "art_2",
+    "target_sr": "SR 734.27",
+    "assigned_articles": [
+      "Art. 27"
+    ],
+    "confidence": "high",
+    "reasoning": "Sentence repeats 'Kontrollbewilligung nach Artikel 27 der Niederspannungs-Installationsverordnung'; that ordinance is SR 734.27 from Item 3, so Art. 27 is assigned to SR 734.27, not self-reference."
+  },
+  {
+    "Item": 11,
+    "source_article_eid": "art_4",
+    "target_sr": "SR 730.010.1",
+    "assigned_articles": [
+      "Art. 1 Abs. 2 Bst. a",
+      "Art. 1 Abs. 2 Bst. b"
+    ],
+    "confidence": "high",
+    "reasoning": "Reference 'Angaben nach Artikel 1 Absatz 2 Buchstaben a und b (Produktionsdaten)' is purely internal; no external SR, so it points to Art. 1 Abs. 2 letters a and b of the same ordinance."
+  },
+  {
+    "Item": 12,
+    "source_article_eid": "art_8",
+    "target_sr": "SR 730.0",
+    "assigned_articles": [
+      "Art. 9 Abs. 3 Bst. b"
+    ],
+    "confidence": "high",
+    "reasoning": "Text 'Stromkennzeichnung nach Artikel 9 Absatz 3 Buchstabe b EnG' clearly attributes this article and paragraph to the Energiegesetz (EnG), i.e., SR 730.0."
+  },
+  {
+    "Item": 13,
+    "source_article_eid": "art_9_b",
+    "target_sr": "SR 730.010.1",
+    "assigned_articles": [
+      "Art. 1 Abs. 2 Bst. c–g",
+      "Art. 2 Abs. 2bis"
+    ],
+    "confidence": "high",
+    "reasoning": "No SR acronym or number in the snippet; 'Artikel 1 Absatz 2 Buchstaben c–g' and 'Artikel 2 Absatz 2bis' are internal cross-references within the same ordinance."
+  },
+  {
+    "Item": 14,
+    "source_article_eid": "art_9_c",
+    "target_sr": "SR 730.010.1",
+    "assigned_articles": [
+      "Art. 8 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "Reference 'Vorgaben nach Artikel 8 Absatz 1 ... dieser Verordnung' explicitly states 'dieser Verordnung', confirming it is an internal self-reference to Art. 8 Abs. 1 of the current document."
+  }
+]

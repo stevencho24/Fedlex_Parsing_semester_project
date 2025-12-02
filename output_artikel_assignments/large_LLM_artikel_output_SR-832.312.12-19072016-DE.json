@@ -1,0 +1,143 @@
+[
+  {
+    "Item": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 832.20",
+    "assigned_articles": [
+      "Art. 83"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet: 'gestützt auf Artikel 83 des Bundesgesetzes ... SR 832.20 ... (UVG)'; Art. 83 is explicitly tied to SR 832.20 in the same clause."
+  },
+  {
+    "Item": 2,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 822.11",
+    "assigned_articles": [
+      "Art. 40"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet: '... und auf Artikel 40 des Arbeitsgesetzes ... SR 822.11'; Art. 40 is explicitly linked to SR 822.11 in the same prepositional structure."
+  },
+  {
+    "Item": 3,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 741.621",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "medium",
+    "reasoning": "Snippet refers generally to the Verordnung über die Beförderung gefährlicher Güter auf der Strasse (SDR) with SR 741.621 but no specific article is mentioned; used only as a scope condition."
+  },
+  {
+    "Item": 4,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 742.401.6",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "medium",
+    "reasoning": "Snippet refers generally to the Verordnung über die Beförderung gefährlicher Güter mit der Eisenbahn (RSD) with SR 742.401.6; no article number is syntactically linked."
+  },
+  {
+    "Item": 5,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": "SR 832.30",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "medium",
+    "reasoning": "Art. 2 states that, where this ordinance has no special provisions, the VUV (SR 832.30) applies 'insbesondere'; this is a general applicability clause without specific article citations."
+  },
+  {
+    "Item": 6,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": "SR 822.114",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "medium",
+    "reasoning": "Same sentence as Item 5: the Verordnung 4 zum Arbeitsgesetz (SR 822.114) is referenced generally as applicable; no article numbers are given."
+  },
+  {
+    "Item": 7,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": "SR 930.114",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "medium",
+    "reasoning": "Authorial note: 'Siehe heute: die Druckgeräteverordnung vom 25. November 2015, SR 930.114.'; this is a general 'see current law' pointer, not tied to a specific article."
+  },
+  {
+    "Item": 8,
+    "ARTICLE_EID": "art_10",
+    "TARGET_SR": "SR 930.114",
+    "assigned_articles": [
+      "Art. 1 Abs. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet: '... auf den Artikel 1 Absatz 3 der Druckgeräteverordnung vom 25. November 2015 SR 930.114 verweist.'; Art. 1 Abs. 3 is explicitly and syntactically linked to SR 930.114."
+  },
+  {
+    "Item": 9,
+    "ARTICLE_EID": "art_16",
+    "TARGET_SR": "SR 832.30",
+    "assigned_articles": [
+      "Art. 52a"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet: '... Richtlinien nach Artikel 52a VUV SR 832.30 ...'; Art. 52a is directly marked with the acronym VUV and SR 832.30 in the same phrase."
+  },
+  {
+    "Item": 10,
+    "ARTICLE_EID": "art_14",
+    "TARGET_SR": "SR 822.11",
+    "assigned_articles": [
+      "Art. 85 Abs. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "Preamble acronym UVG = SR 822.11. Snippet: '... nach Artikel 85 Absatz 3 UVG ...'; thus Art. 85 Abs. 3 belongs to SR 822.11."
+  },
+  {
+    "Item": 11,
+    "ARTICLE_EID": "art_16",
+    "TARGET_SR": "SR 822.11",
+    "assigned_articles": [
+      "Art. 85 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Again UVG = SR 822.11. Snippet: 'Die Koordinationskommission nach Artikel 85 Absatz 2 UVG ...'; Art. 85 Abs. 2 is clearly attributed to SR 822.11."
+  },
+  {
+    "Item": 12,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 832.312.12",
+    "assigned_articles": [
+      "Art. 10"
+    ],
+    "confidence": "high",
+    "reasoning": "artikel_reference without external SR; '... für die nach Artikel 10 ein maximaler Betriebsdruck ... festgelegt wurde ...' clearly refers to Art. 10 of the same ordinance (self-reference)."
+  },
+  {
+    "Item": 13,
+    "ARTICLE_EID": "art_10",
+    "TARGET_SR": "SR 832.312.12",
+    "assigned_articles": [
+      "Art. 2",
+      "Art. 1 Abs. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet: '... (PS) nach Artikel 2 Nummer 8 der Richtlinie 2014/68/EU ... auf den Artikel 1 Absatz 3 der Druckgeräteverordnung ... verweist.' Art. 2 refers to the EU directive (not an SR), while 'Artikel 1 Absatz 3 der Druckgeräteverordnung' is already captured in Item 8 as Art. 1 Abs. 3 SR 930.114. For self-reference purposes, this line does not create a new internal article link beyond acknowledging Art. 2 (EU) and Art. 1 Abs. 3 (external). Thus, as an internal SR 832.312.12 reference, there is no additional internal article; however, to reflect all article mentions in the snippet, we list both Art. 2 (directive) and Art. 1 Abs. 3 (external) while noting that neither is an internal self-reference."
+  },
+  {
+    "Item": 14,
+    "ARTICLE_EID": "art_12",
+    "TARGET_SR": "SR 832.312.12",
+    "assigned_articles": [
+      "Art. 8"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet: '... unabhängig von der Instandhaltung nach Artikel 8 ...'; no external SR present, so this is a self-reference to Art. 8 of the same ordinance."
+  }
+]

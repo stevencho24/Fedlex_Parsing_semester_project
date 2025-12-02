@@ -1,0 +1,122 @@
+[
+  {
+    "Item": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 641.20",
+    "assigned_articles": [
+      "Art. 23 Abs. 5"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet explicitly cites 'Artikel 23 Absatz 5 des Mehrwertsteuergesetzes ... SR 641.20'; clear direct marking linking this article and paragraph to the cited SR."
+  },
+  {
+    "Item": 2,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": "SR 170.512.1",
+    "assigned_articles": [
+      "Art. 20 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "The sentence states 'in Anwendung von Art. 20 Abs. 2 der Publikationsverordnung ... (SR 170.512.1)'; the preposition and parenthetical SR clearly attach Art. 20 Abs. 2 to SR 170.512.1."
+  },
+  {
+    "Item": 3,
+    "ARTICLE_EID": "art_8",
+    "TARGET_SR": "SR 641.20",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "low",
+    "reasoning": "This is a preamble_acronym item where 'EFD' is mapped to SR 641.20, but the snippet only mentions the repeal of an EFD ordinance and contains no article citation or structure linking a specific article of SR 641.20; thus it is treated as a generic reference to the document."
+  },
+  {
+    "Item": 4,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "Reference to 'Artikel 1' without any SR or acronym context; syntactically an internal cross-reference within the same ordinance."
+  },
+  {
+    "Item": 5,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "Phrase 'nach den Artikeln 3–5' lacks any SR or external law marker; clearly refers to articles 3–5 of the same document."
+  },
+  {
+    "Item": 6,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "The mention of 'Artikel 6' appears without an SR or acronym; by context it is an internal article of this ordinance."
+  },
+  {
+    "Item": 7,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "'Für Reisegruppen gilt Artikel 7.' is a pure internal structural reference; no external SR is mentioned."
+  },
+  {
+    "Item": 8,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "The phrase 'nach den Artikeln 4 und 5' is unqualified by any SR or acronym; it refers to internal articles 4 and 5 of the same regulation."
+  },
+  {
+    "Item": 9,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "Reference to 'Artikel 4' is made without any external law context; it is an internal cross-reference."
+  },
+  {
+    "Item": 10,
+    "ARTICLE_EID": "art_6",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "The phrase 'Nachweis nach Artikel 2 Absatz 1' clearly points to article 2 paragraph 1 of the same ordinance; no SR or external acronym is present."
+  },
+  {
+    "Item": 11,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "The conditions 'nach Artikel 1' are internal requirements of this ordinance; there is no syntactic or semantic link to an external SR."
+  },
+  {
+    "Item": 12,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "The reference 'Ausfuhrdokumente nach Artikel 3' is an internal structural citation; no external law or SR is mentioned in the snippet."
+  }
+]

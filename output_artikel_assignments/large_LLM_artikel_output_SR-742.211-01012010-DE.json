@@ -1,0 +1,170 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "art_15",
+    "TARGET_SR": "SR 281.1",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "medium",
+    "reasoning": "Das Bundesgesetz über Schuldbetreibung und Konkurs (SR 281.1) wird ohne konkrete Artikelangabe genannt; die nachfolgenden Verweise auf «die Artikeln 9 und 10» beziehen sich klar auf das vorliegende Gesetz («dieses Gesetzes»), nicht auf SR 281.1."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_15",
+    "TARGET_SR": "SR 281.1",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "medium",
+    "reasoning": "Es wird allgemein auf die Bestimmungen des Bundesgesetzes über Schuldbetreibung und Konkurs verwiesen, ohne konkrete Artikelnummer; «Artikel 40» ist eine interne Norm des aktuellen Gesetzes."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_35",
+    "TARGET_SR": "SR 742.101",
+    "assigned_articles": ["Art. 9"],
+    "confidence": "high",
+    "reasoning": "Im Autorentext: «Heute: Art. 9 des Eisenbahngesetzes ... (SR 742.101)»; der Artikel ist direkt mit der SR-Nummer verknüpft."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_35",
+    "TARGET_SR": "SR 744.11",
+    "assigned_articles": ["Art. 30", "Art. 31", "Art. 50"],
+    "confidence": "high",
+    "reasoning": "Im Autorentext: «Heute: sowie nach Art. 30, 31 und 50 der V ... (SR 744.11)»; die Artikel sind ausdrücklich dieser Verordnung zugeordnet."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_48",
+    "TARGET_SR": "SR 742.101",
+    "assigned_articles": ["Art. 6 Abs. 1 Bst. a", "Art. 90"],
+    "confidence": "high",
+    "reasoning": "Im Autorentext: «Heute: nach den Art. 6 Abs. 1 Bst. a und 90 des Eisenbahngesetzes ... (SR 742.101)»; klare direkte Zuordnung."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_55",
+    "TARGET_SR": "SR 281.1",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "medium",
+    "reasoning": "Verweis auf den Sachwalter «gemäss den Bestimmungen des Bundesgesetzes ... SR 281.1 über den Nachlassvertrag» ohne konkrete Artikel; der Bezug ist thematisch (Nachlassvertrag), aber keine bestimmte Norm wird genannt."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_63",
+    "TARGET_SR": "SR 210",
+    "assigned_articles": ["Art. 875"],
+    "confidence": "high",
+    "reasoning": "Im Text: «(Art. 875 ZGB SR 210)»; Artikel und Gesetz (ZGB = SR 210) sind unmittelbar verknüpft."
+  },
+  {
+    "ITEM": 8,
+    "ARTICLE_EID": "art_85",
+    "TARGET_SR": "SR 281.1",
+    "assigned_articles": ["Art. 30 Ziff. 1"],
+    "confidence": "high",
+    "reasoning": "Der Wortlaut: «Artikel 30 Ziffer 1 des Bundesgesetzes ... SR 281.1 erhält folgenden neuen Wortlaut»; die Änderung betrifft genau diese Bestimmung."
+  },
+  {
+    "ITEM": 9,
+    "ARTICLE_EID": "art_15",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "artikel_reference ohne SR; «Artikeln 9 und 10» sind interne Verweise auf Artikel 9 und 10 des aktuellen Gesetzes."
+  },
+  {
+    "ITEM": 10,
+    "ARTICLE_EID": "art_15",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "artikel_reference ohne SR; «Artikel 40» ist ein interner Verweis auf Art. 40 des aktuellen Gesetzes."
+  },
+  {
+    "ITEM": 11,
+    "ARTICLE_EID": "art_27",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "«(Art. 9 Abs. 2)» bezieht sich auf Art. 9 Abs. 2 desselben Gesetzes; kein externes SR genannt, daher reine Selbstreferenz."
+  },
+  {
+    "ITEM": 12,
+    "ARTICLE_EID": "art_27",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "«(Art. 9 und 10)» sind interne Artikel des aktuellen Gesetzes; kein SR-Verweis vorhanden."
+  },
+  {
+    "ITEM": 13,
+    "ARTICLE_EID": "art_35",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Verweise auf «Artikel 10» und «Artikeln 3 und 112» betreffen ältere Erlasse/Verordnungen, aber ohne explizite SR-Nummern im snippet; im Rahmen artikel_reference als interne/unspezifische Verweise zu behandeln, nicht als SR-Link."
+  },
+  {
+    "ITEM": 14,
+    "ARTICLE_EID": "art_40",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "«(Art. 7 und 8)» sind interne Artikel des gleichen Gesetzes; keine SR-Nummer, daher Selbstreferenz."
+  },
+  {
+    "ITEM": 15,
+    "ARTICLE_EID": "art_40",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "«Artikel 6» ist ein interner Verweis; kein externer SR-Bezug im snippet."
+  },
+  {
+    "ITEM": 16,
+    "ARTICLE_EID": "art_48",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "«Artikeln 13 und 28» beziehen sich auf das im Text genannte Bundesgesetz von 1872, aber ohne SR-Nummer; im Typ artikel_reference als interner/unspezifischer Verweis zu behandeln."
+  },
+  {
+    "ITEM": 17,
+    "ARTICLE_EID": "art_62",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "«Artikel 52» ist ein interner Artikel des aktuellen Gesetzes; kein SR-Link."
+  },
+  {
+    "ITEM": 18,
+    "ARTICLE_EID": "art_64",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "«Artikel 58» ist ein interner Verweis innerhalb desselben Gesetzes; keine SR-Nummer."
+  },
+  {
+    "ITEM": 19,
+    "ARTICLE_EID": "art_79",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "«Artikel 82» ist ein interner Artikel; kein externer SR-Bezug."
+  },
+  {
+    "ITEM": 20,
+    "ARTICLE_EID": "art_80",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "«Artikel 56» ist ein interner Verweis; kein SR-Link im snippet."
+  },
+  {
+    "ITEM": 21,
+    "ARTICLE_EID": "art_85",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "«Artikel 30 Ziffer 1 des Bundesgesetzes ...» verweist zwar materiell auf SR 281.1, aber im Typ artikel_reference ohne explizite SR-Nummer; der konkrete SR-Bezug ist bereits in ITEM 8 als SR_link_detection erfasst, daher hier als interne/unspezifische Referenz zu behandeln."
+  }
+]

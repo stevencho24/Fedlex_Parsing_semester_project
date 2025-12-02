@@ -1,0 +1,52 @@
+[
+  {
+    "Item": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 170.512.1",
+    "assigned_articles": [
+      "Art. 16 Abs. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet explicitly states: 'in Anwendung von Art. 16 Abs. 3 der Publikationsverordnung ... (SR 170.512.1)'; the article is directly and syntactically linked to the cited SR."
+  },
+  {
+    "Item": 2,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 837.02",
+    "assigned_articles": [
+      "Art. 114a"
+    ],
+    "confidence": "high",
+    "reasoning": "The text reads: 'gestützt auf Artikel 114a der Arbeitslosenversicherungsverordnung ... SR 837.02'; Article 114a is clearly attributed to SR 837.02 by prepositional construction."
+  },
+  {
+    "Item": 3,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": "SR 837.0",
+    "assigned_articles": [
+      "Art. 83 Abs. 1 Bst. c"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet specifies: '(Art. 83 Abs. 1 Bst. c des Arbeitslosenversicherungsgesetzes ... SR 837.0)'; this is a direct marking of the article and subsection belonging to SR 837.0."
+  },
+  {
+    "Item": 4,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "The phrase 'nach Artikel 1 Absatz 1' has no SR or acronym context and clearly refers to another article of the same ordinance; per rules, this is a self-reference within the current document, not an external SR link."
+  },
+  {
+    "Item": 5,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet mentions 'Art. 83 Abs. 1 Bst. c des Arbeitslosenversicherungsgesetzes' but without any SR or acronym; the external SR link is handled in Item 3. Here, as an artikel_reference item without explicit SR, it is treated as an internal structural reference per specification."
+  }
+]

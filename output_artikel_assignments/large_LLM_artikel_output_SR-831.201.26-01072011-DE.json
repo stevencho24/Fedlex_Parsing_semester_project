@@ -1,0 +1,32 @@
+[
+  {
+    "Item": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 831.201",
+    "assigned_articles": [
+      "Art. 24 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet explicitly cites 'Artikel 24 Absatz 1 der Verordnung ... SR 831.201 über die Invalidenversicherung'; this directly links Art. 24 Abs. 1 to SR 831.201."
+  },
+  {
+    "Item": 2,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": "SR 941.216",
+    "assigned_articles": [
+      "Anhang Ziff. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "The text refers to 'Ziffer 3 des Anhangs zur Audiometrieverordnung ... SR 941.216'; this is a specific provision (Annex, number 3) rather than a numbered article, so that annex number is assigned."
+  },
+  {
+    "Item": 3,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": "SR 941.210",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet states 'gelten die Messmittelverordnung ... SR 941.210' without mentioning any specific article, paragraph, or annex number; this is a general applicability reference to the whole ordinance."
+  }
+]

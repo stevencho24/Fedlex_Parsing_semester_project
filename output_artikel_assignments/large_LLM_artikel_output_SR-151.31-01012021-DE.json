@@ -1,0 +1,291 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 151.3",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "high",
+    "reasoning": "Preamble clause cites the Behindertengleichstellungsgesetz (BehiG) by title and SR number only, without any article indication; functions as a general legal basis."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 151.34",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "high",
+    "reasoning": "Refers to the Verordnung über die behindertengerechte Gestaltung des öffentlichen Verkehrs as a whole; no specific article mentioned."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_8",
+    "TARGET_SR": "SR 172.010.21",
+    "assigned_articles": ["Art. 8"],
+    "confidence": "high",
+    "reasoning": "Text explicitly: 'nach Artikel 8 der Verordnung ... SR 172.010.21'; clear direct marking of Art. 8 of that ordinance."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_8",
+    "TARGET_SR": "SR 616.1",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "high",
+    "reasoning": "Cites the Subventionsgesetz by title and SR number only; no article or paragraph specified."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_8",
+    "TARGET_SR": "SR 151.34",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "high",
+    "reasoning": "Reservation clause: 'Die Bestimmungen der Verordnung ... SR 151.34 ... bleiben vorbehalten.' Refers to the entire ordinance, not specific provisions."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_9",
+    "TARGET_SR": "SR 172.010",
+    "assigned_articles": ["Art. 2"],
+    "confidence": "high",
+    "reasoning": "Phrase 'nach Artikel 2 des Regierungs- und Verwaltungsorganisationsgesetzes ... SR 172.010 (RVOG)' clearly links Art. 2 to SR 172.010."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_9",
+    "TARGET_SR": "SR 151.34",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "high",
+    "reasoning": "Same reservation wording as ITEM 5; cites the ordinance globally without article-level detail."
+  },
+  {
+    "ITEM": 8,
+    "ARTICLE_EID": "art_10",
+    "TARGET_SR": "SR 172.010",
+    "assigned_articles": ["Art. 2 Abs. 1", "Art. 2 Abs. 3", "Art. 2 Abs. 4"],
+    "confidence": "high",
+    "reasoning": "Snippet and acronym context: 'Artikel 2 Absatz 1 RVOG' and 'Artikel 2 Absätze 3 und 4 RVOG'; RVOG is SR 172.010, so these are explicit references to its Art. 2 paragraphs."
+  },
+  {
+    "ITEM": 9,
+    "ARTICLE_EID": "art_11",
+    "TARGET_SR": "SR 172.010",
+    "assigned_articles": ["Art. 2"],
+    "confidence": "high",
+    "reasoning": "Text: 'nach Artikel 2 RVOG SR 172.010'; direct marking of Art. 2 of RVOG without paragraph limitation."
+  },
+  {
+    "ITEM": 10,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": "SR 151.3",
+    "assigned_articles": [
+      "Art. 3 Bst. a",
+      "Art. 3 Bst. c",
+      "Art. 3 Bst. d",
+      "Art. 6",
+      "Art. 8 Abs. 3",
+      "Art. 13",
+      "Art. 14 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Multiple explicit parenthetical references: 'Art. 3 Bst. a, c und d BehiG', 'Art. 3 Bst. a BehiG', 'Art. 6 und 8 Abs. 3 BehiG', 'Art. 13 BehiG', 'Art. 14 Abs. 2 BehiG'; BehiG is SR 151.3."
+  },
+  {
+    "ITEM": 11,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": "SR 151.3",
+    "assigned_articles": [
+      "Art. 19",
+      "Art. 18 Abs. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "Heading '(Art. 19 BehiG)' plus body text 'nach Artikel 18 Absatz 3 BehiG'; both clearly tied to BehiG (SR 151.3)."
+  },
+  {
+    "ITEM": 12,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": "SR 151.3",
+    "assigned_articles": ["Art. 19"],
+    "confidence": "high",
+    "reasoning": "Only content is '(Art. 19 BehiG)'; direct parenthetical citation to Art. 19 of BehiG."
+  },
+  {
+    "ITEM": 13,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": "SR 151.3",
+    "assigned_articles": [
+      "Art. 9",
+      "Art. 9 Abs. 2"
+    ],
+    "confidence": "medium",
+    "reasoning": "Heading '(Art. 9 BehiG)' and text 'nach Artikel 9 Absatz 2 BehiG'; both refer to Art. 9, with one specifying paragraph 2. Both are relevant, though the heading may be a general basis."
+  },
+  {
+    "ITEM": 14,
+    "ARTICLE_EID": "art_6",
+    "TARGET_SR": "SR 151.3",
+    "assigned_articles": [
+      "Art. 11 Abs. 1",
+      "Art. 11 Abs. 1 Bst. b"
+    ],
+    "confidence": "high",
+    "reasoning": "Heading '(Art. 11 Abs. 1 BehiG)' and later '(Art. 11 Abs. 1 Bst. b BehiG)'; both are explicit references to specific parts of Art. 11."
+  },
+  {
+    "ITEM": 15,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": "SR 151.3",
+    "assigned_articles": ["Art. 12 Abs. 1"],
+    "confidence": "high",
+    "reasoning": "Heading '(Art. 12 Abs. 1 BehiG)' and repeated 'Artikel 12 Absatz 1 BehiG' in the text; all point to Art. 12 para. 1."
+  },
+  {
+    "ITEM": 16,
+    "ARTICLE_EID": "art_11",
+    "TARGET_SR": "SR 151.3",
+    "assigned_articles": ["Art. 14 Abs. 1"],
+    "confidence": "high",
+    "reasoning": "Parenthetical '(Art. 14 Abs. 1 BehiG)' clearly cites Art. 14 para. 1."
+  },
+  {
+    "ITEM": 17,
+    "ARTICLE_EID": "art_16",
+    "TARGET_SR": "SR 151.3",
+    "assigned_articles": ["Art. 14 Abs. 3"],
+    "confidence": "high",
+    "reasoning": "Parenthetical '(Art. 14 Abs. 3 BehiG)' clearly cites Art. 14 para. 3."
+  },
+  {
+    "ITEM": 18,
+    "ARTICLE_EID": "art_17",
+    "TARGET_SR": "SR 151.3",
+    "assigned_articles": ["Art. 16 Abs. 3"],
+    "confidence": "high",
+    "reasoning": "Parenthetical '(Art. 16 Abs. 3 BehiG)' clearly cites Art. 16 para. 3."
+  },
+  {
+    "ITEM": 19,
+    "ARTICLE_EID": "art_18",
+    "TARGET_SR": "SR 151.3",
+    "assigned_articles": ["Art. 17"],
+    "confidence": "high",
+    "reasoning": "Text 'Beiträge für Pilotversuche zur Integration im Erwerbsleben (Art. 17 BehiG)' directly links to Art. 17 of BehiG."
+  },
+  {
+    "ITEM": 20,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "high",
+    "reasoning": "Artikelreferenz repeats 'Art. 3 Bst. a, c und d BehiG' already captured in ITEM 10; serves as internal definitional cross-reference, not a new SR link."
+  },
+  {
+    "ITEM": 21,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "high",
+    "reasoning": "Refers to 'Art. 3 Bst. a BehiG' within the same definitional context as ITEM 10; no new external SR linkage."
+  },
+  {
+    "ITEM": 22,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "high",
+    "reasoning": "Again 'Art. 3 Bst. a BehiG' in the same article; purely internal definitional reference."
+  },
+  {
+    "ITEM": 23,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "high",
+    "reasoning": "Mentions 'Art. 6 und 8 Abs. 3 BehiG', which are already assigned to SR 151.3 in ITEM 10; this is an internal repetition."
+  },
+  {
+    "ITEM": 24,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "high",
+    "reasoning": "Refers to 'Art. 13 BehiG' as part of the same definition list; no separate SR link context."
+  },
+  {
+    "ITEM": 25,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "high",
+    "reasoning": "Refers to 'Art. 14 Abs. 2 BehiG', already linked in ITEM 10; internal definitional cross-reference."
+  },
+  {
+    "ITEM": 26,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "high",
+    "reasoning": "Mentions 'Artikel 18 Absatz 3 BehiG', which is already tied to SR 151.3 in ITEM 11; this is an internal cross-reference within the same ordinance."
+  },
+  {
+    "ITEM": 27,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "high",
+    "reasoning": "Refers to 'Artikel 9 Absatz 2 BehiG', already assigned in ITEM 13; internal reference rather than a new SR link."
+  },
+  {
+    "ITEM": 28,
+    "ARTICLE_EID": "art_6",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "high",
+    "reasoning": "Refers to 'Artikel 11 Absatz 1 BehiG', already linked in ITEM 14; internal cross-reference."
+  },
+  {
+    "ITEM": 29,
+    "ARTICLE_EID": "art_6",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "high",
+    "reasoning": "Refers to '(Art. 11 Abs. 1 Bst. b BehiG)', already captured in ITEM 14; internal elaboration."
+  },
+  {
+    "ITEM": 30,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "high",
+    "reasoning": "Refers to 'Artikel 12 Absatz 1 BehiG', already assigned in ITEM 15; internal repetition."
+  },
+  {
+    "ITEM": 31,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "high",
+    "reasoning": "Again 'Artikel 12 Absatz 1 BehiG' in the same article; internal reference only."
+  },
+  {
+    "ITEM": 32,
+    "ARTICLE_EID": "art_8",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "high",
+    "reasoning": "Refers to 'Artikel 8 der Verordnung vom 5. Dezember 2008 über das Immobilienmanagement und die Logistik des Bundes'; this external SR link and its article (Art. 8 SR 172.010.21) are already captured in ITEM 3; here it is the same sentence context, so this is not a new SR assignment."
+  },
+  {
+    "ITEM": 33,
+    "ARTICLE_EID": "art_9",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "high",
+    "reasoning": "Refers to 'Artikel 2 des Regierungs- und Verwaltungsorganisationsgesetzes (RVOG)'; the corresponding SR link and article (Art. 2 SR 172.010) are already assigned in ITEM 6; this is the same sentence, treated as internal article-reference capture."
+  },
+  {
+    "ITEM": 34,
+    "ARTICLE_EID": "art_12",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "medium",
+    "reasoning": "Refers to 'Artikel 10 Absatz 1' without acronym or SR; syntactically this is a self-reference within the current ordinance (Art. 10 of SR 151.31), not tied to an external SR document."
+  }
+]

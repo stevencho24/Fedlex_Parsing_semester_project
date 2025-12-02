@@ -1,0 +1,52 @@
+[
+  {
+    "Item": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 935.51",
+    "assigned_articles": [
+      "Art. 95"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet explicitly cites 'Artikel 95 des Geldspielgesetzes ... SR 935.51 (BGS)'; Art. 95 is directly and syntactically linked to SR 935.51."
+  },
+  {
+    "Item": 2,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": "SR 935.51",
+    "assigned_articles": [
+      "Art. 113"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet states 'Koordinationsorgan gemäss Artikel 113 BGS'; the acronym BGS is mapped to SR 935.51 in the preamble, so Art. 113 belongs to SR 935.51."
+  },
+  {
+    "Item": 3,
+    "ARTICLE_EID": "art_6",
+    "TARGET_SR": "SR 935.51",
+    "assigned_articles": [
+      "Art. 104 Abs. 4"
+    ],
+    "confidence": "high",
+    "reasoning": "The text 'Geldspielgesetzgebung (Art. 104 Abs. 4 BGS)' directly links Art. 104 Abs. 4 to BGS, which the preamble maps to SR 935.51."
+  },
+  {
+    "Item": 4,
+    "ARTICLE_EID": "art_9",
+    "TARGET_SR": "SR 935.51",
+    "assigned_articles": [
+      "Art. 98 lit. l"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet refers to 'Beschwerderechts nach Artikel 98 Buchstabe l BGS'; this is a direct citation of Art. 98 letter l of BGS, i.e., SR 935.51."
+  },
+  {
+    "Item": 5,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 4 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "This is an internal cross-reference: 'gemäss Artikel 4 Absatz 1' with no external SR mentioned. It therefore refers to Art. 4 Abs. 1 of the same document (self-reference), not to an external TARGET_SR."
+  }
+]

@@ -1,0 +1,120 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 101",
+    "assigned_articles": [
+      "Art. 110 Abs. 1 Bst. a",
+      "Art. 118 Abs. 2 Bst. b"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Formulierung «gestützt auf die Artikel 110 Absatz 1 Buchstabe a und 118 Absatz 2 Buchstabe b der Bundesverfassung SR 101» verknüpft die genannten Artikel grammatikalisch eindeutig mit SR 101."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 700",
+    "assigned_articles": [
+      "Art. 24b"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Snippet steht «nach Art. 24b des Raumplanungsgesetzes ... SR 700»; der Artikel wird direkt mit dem Gesetz SR 700 verbunden."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": "SR 818.32",
+    "assigned_articles": [
+      "Art. 3 Bst. a"
+    ],
+    "confidence": "high",
+    "reasoning": "Formulierung «nach Artikel 3 Buchstabe a des Tabakproduktegesetzes ... SR 818.32»; der Artikel ist syntaktisch klar diesem SR zugeordnet."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": "SR 822.11",
+    "assigned_articles": [
+      "Art. 59",
+      "Art. 60",
+      "Art. 61",
+      "Art. 62"
+    ],
+    "confidence": "high",
+    "reasoning": "«Die Anwendung der Artikel 59–62 des Arbeitsgesetzes ... SR 822.11» nennt explizit einen Artikelsbereich, der zu SR 822.11 gehört."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«nach Art. 24b des Raumplanungsgesetzes vom 22. Juni 1979» verweist zwar auf einen Artikel, aber ohne explizite SR-Angabe im Snippet; der zugehörige SR-Link ist bereits in ITEM 2 erfasst. Hier handelt es sich im Rahmen dieses item_typs um eine Artikelreferenz ohne eigene SR-Zuordnung."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«In Räumen nach Artikel 1 Absätze 1 und 2» verweist auf Artikel 1 derselben Verordnung; kein externer SR-Bezug im Satz."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": "SR 818.32",
+    "assigned_articles": [
+      "Art. 3 Bst. a"
+    ],
+    "confidence": "high",
+    "reasoning": "«nach Artikel 3 Buchstabe a des Tabakproduktegesetzes ... (TabPG)» ist inhaltlich identisch mit ITEM 3, wo der SR-Link SR 818.32 explizit gesetzt ist; die Artikelangabe gehört daher zu SR 818.32 und ist keine Selbstreferenz."
+  },
+  {
+    "ITEM": 8,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": "SR 818.32",
+    "assigned_articles": [
+      "Art. 3 Bst. c",
+      "Art. 3 Bst. f"
+    ],
+    "confidence": "high",
+    "reasoning": "«nach Artikel 3 Buchstaben c und f TabPG» bezieht sich auf das im Dokument definierte TabPG (SR 818.32); die Buchstaben c und f sind klar diesem Artikel 3 des TabPG zugeordnet."
+  },
+  {
+    "ITEM": 9,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«gegen das Rauchverbot nach Artikel 2 Absatz 1 verstösst» verweist auf Artikel 2 derselben Verordnung; kein externer SR im Satz."
+  },
+  {
+    "ITEM": 10,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«Voraussetzungen nach Artikel 2 Absatz 2» ist ein Verweis auf einen anderen Artikel derselben Verordnung; keine Verknüpfung mit einem externen SR-Dokument."
+  },
+  {
+    "ITEM": 11,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": "SR 822.11",
+    "assigned_articles": [
+      "Art. 59",
+      "Art. 60",
+      "Art. 61",
+      "Art. 62"
+    ],
+    "confidence": "high",
+    "reasoning": "«Die Anwendung der Artikel 59–62 des Arbeitsgesetzes vom 13. März 1964» ist derselbe Kontext wie in ITEM 4, nur ohne explizite SR-Nummer im Snippet; aufgrund der Parallelstelle mit SR-Link (ITEM 4) sind diese Artikel eindeutig SR 822.11 zuzuordnen."
+  }
+]

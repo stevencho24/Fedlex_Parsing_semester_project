@@ -1,0 +1,52 @@
+[
+  {
+    "Item": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 281.31",
+    "assigned_articles": [
+      "Art. 3 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet explicitly states: 'gestützt auf Artikel 3 Absatz 1 der Verordnung ... SR 281.31 ... (VFRR)'; Art. 3 Abs. 1 is directly and syntactically linked to SR 281.31."
+  },
+  {
+    "Item": 2,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 281.112.1",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "The text cites 'die Verordnung ... SR 281.112.1 ... über die elektronische Übermittlung ...' without any article number or range; this is a general reference to the ordinance as a whole."
+  },
+  {
+    "Item": 3,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 281.31",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "medium",
+    "reasoning": "The acronym EJPD is mapped in the preamble to SR 281.31, but in this snippet EJPD appears only as the authority issuing another ordinance; no article numbers or clear substantive provisions of SR 281.31 are mentioned, so it is treated as a general institutional reference to the document."
+  },
+  {
+    "Item": 4,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet '(Art. 67 Abs. 1 Ziff. 4 SchKG)' refers to an article of the SchKG, but no SR link is present in this item and the parser_prompt specifies that artikel_reference items without a syntactic SR link are treated as self-references/internal structure for SR-281.311; thus this is classified as an internal reference within the current document for the purposes of SR assignment."
+  },
+  {
+    "Item": 5,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "Identical legal reference pattern '(Art. 67 Abs. 1 Ziff. 4 SchKG)' as Item 4, again without an explicit SR link in this item; under the project rules, artikel_reference items in this situation are treated as internal/self-references rather than outgoing SR assignments."
+  }
+]

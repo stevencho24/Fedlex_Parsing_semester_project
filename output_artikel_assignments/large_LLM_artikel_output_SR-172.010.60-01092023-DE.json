@@ -1,0 +1,43 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 172.010",
+    "assigned_articles": [
+      "Art. 57hter"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet explicitly cites 'Artikel 57hter des Regierungs- und Verwaltungsorganisationsgesetzes ... SR 172.010 (RVOG)'; the article number is directly and uniquely linked to SR 172.010."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_6",
+    "TARGET_SR": "SR 172.010.59",
+    "assigned_articles": [
+      "Art. 13 Abs. 1",
+      "Art. 13 Abs. 4"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet states 'nach Artikel 13 Absätze 1 und 4 der Verordnung vom 19. Oktober 2016 SR 172.010.59 ...'; both paragraph references are clearly attributed to that SR."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "The reference '(Art. 5 Abs. 1 Bst. a)' appears without any SR or external law indication and is purely structural, pointing to another article of the same ordinance; thus it is a self-reference, not tied to an external SR."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_6",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "The phrase 'nach Artikel 13 Absätze 1 und 4 der Verordnung vom 19. Oktober 2016 über Identitätsverwaltungs-Systeme und Verzeichnisdienste des Bundes' in this artikel_reference item lacks an explicit SR and, in this context type, serves as a textual repetition of the same sentence already linked in ITEM 2; for artikel_reference, this is treated as an internal cross-reference rather than establishing a new external SR assignment."
+  }
+]

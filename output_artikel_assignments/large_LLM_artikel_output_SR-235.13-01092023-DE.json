@@ -1,0 +1,82 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 235.1",
+    "assigned_articles": [
+      "Art. 13 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Formulierung \"gestützt auf Artikel 13 Absatz 2 des Datenschutzgesetzes ... SR 235.1 (DSG)\" verknüpft den genannten Artikel grammatikalisch eindeutig mit SR 235.1."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 946.512",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Akkreditierung \"richtet sich nach der Akkreditierungs- und Bezeichnungsverordnung ... SR 946.512 (AkkBV)\" ohne Nennung einzelner Artikel; es wird die Verordnung als Ganzes als Rechtsgrundlage herangezogen."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": "SR 946.512",
+    "assigned_articles": [
+      "Anhang 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Satz verweist ausdrücklich auf \"Anhang 2 AkkBV SR 946.512\"; es werden keine Artikel, sondern der spezifische Anhang der AkkBV als massgebend genannt."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 235.1",
+    "assigned_articles": [
+      "Art. 13"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Snippet: \"Datenschutzzertifizierungen nach Artikel 13 DSG\"; DSG ist SR 235.1 gemäss Preambel, somit klarer Bezug auf Art. 13 DSG."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": "SR 235.1",
+    "assigned_articles": [
+      "Art. 6"
+    ],
+    "confidence": "high",
+    "reasoning": "Text: \"mit allen Grundsätzen nach Artikel 6 DSG\"; DSG = SR 235.1, daher eindeutige Zuordnung zu Art. 6 DSG."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_10",
+    "TARGET_SR": "SR 235.1",
+    "assigned_articles": [
+      "Art. 22 Abs. 5"
+    ],
+    "confidence": "high",
+    "reasoning": "Formulierung \"Datenschutz-Folgenabschätzung gemäss Artikel 22 Absatz 5 DSG\" verknüpft Art. 22 Abs. 5 eindeutig mit dem DSG (SR 235.1)."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_12",
+    "TARGET_SR": "SR 235.1",
+    "assigned_articles": [
+      "Art. 51 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Satz: \"Massnahme nach Artikel 51 Absatz 1 DSG\"; DSG ist SR 235.1, somit klarer Bezug auf Art. 51 Abs. 1 DSG."
+  },
+  {
+    "ITEM": 8,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Bezugnahme \"Anforderungen nach Artikel 1 Absätze 3 und 4\" erfolgt ohne Nennung eines SR oder einer externen Abkürzung; nach den Regeln ist dies eine innerdokumentarische Selbstreferenz auf Art. 1 Abs. 3 und 4 derselben Verordnung, nicht auf ein externes SR."
+  }
+]

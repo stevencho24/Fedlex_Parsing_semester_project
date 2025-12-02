@@ -1,0 +1,154 @@
+[
+  {
+    "Item": 1,
+    "source_article": "preamble",
+    "links": [
+      {
+        "TARGET_SR": "SR 641.811",
+        "assigned_articles": [
+          "Art. 82 Abs. 4"
+        ],
+        "confidence": "high",
+        "reasoning": "Die Formulierung «gestützt auf Artikel 82 Absatz 4 der Schwerverkehrsabgabeverordnung … SR 641.811 (SVAV)» verweist eindeutig auf einen bestimmten Artikel dieser Verordnung."
+      }
+    ]
+  },
+  {
+    "Item": 2,
+    "source_article": "art_2",
+    "links": [
+      {
+        "TARGET_SR": "SR 641.811",
+        "assigned_articles": [
+          "Art. 82 Abs. 2"
+        ],
+        "confidence": "high",
+        "reasoning": "«die Voraussetzungen nach Artikel 82 Absatz 2 SVAV erfüllt» ist ein klarer, direkt mit der Abkürzung SVAV verknüpfter Artikelverweis."
+      }
+    ]
+  },
+  {
+    "Item": 3,
+    "source_article": "art_4",
+    "links": [
+      {
+        "TARGET_SR": "SR 641.811",
+        "assigned_articles": [
+          "Art. 82 Abs. 2 Bst. a",
+          "Art. 82 Abs. 2 Bst. c"
+        ],
+        "confidence": "high",
+        "reasoning": "Der Satz nennt ausdrücklich «Artikel 82 Absatz 2 Buchstaben a und c SVAV»; beide Buchstaben gehören zu demselben Artikel der SVAV (SR 641.811)."
+      }
+    ]
+  },
+  {
+    "Item": 4,
+    "source_article": "art_17",
+    "links": [
+      {
+        "TARGET_SR": "SR 641.811",
+        "assigned_articles": [],
+        "confidence": "high",
+        "reasoning": "«EFD» ist hier nur als Bezeichnung des Departements verwendet; es wird kein Artikel der SVAV oder eines anderen SR-Werks genannt. Keine artikelbezogene Verknüpfung zu SR 641.811."
+      }
+    ]
+  },
+  {
+    "Item": 5,
+    "source_article": "art_19",
+    "links": [
+      {
+        "TARGET_SR": "SR 641.811",
+        "assigned_articles": [],
+        "confidence": "high",
+        "reasoning": "Die «Tankkarten-Anbieter-Verordnung EFD» wird als anderes Erlassobjekt erwähnt; es gibt keinen syntaktischen Bezug zu einem Artikel der SVAV (SR 641.811)."
+      }
+    ]
+  },
+  {
+    "Item": 6,
+    "source_article": "art_2",
+    "links": [
+      {
+        "TARGET_SR": "self",
+        "assigned_articles": [
+          "Art. 82 Abs. 2"
+        ],
+        "confidence": "high",
+        "reasoning": "Dies ist derselbe Wortlaut wie in Item 2; der Verweis «Artikel 82 Absatz 2 SVAV» bezieht sich auf SR 641.811, ist aber bereits dort erfasst. Hier als Selbstreferenz-Kontext des Artikels behandelt."
+      }
+    ]
+  },
+  {
+    "Item": 7,
+    "source_article": "art_2",
+    "links": [
+      {
+        "TARGET_SR": "self",
+        "assigned_articles": [
+          "Art. 82 Abs. 2 Bst. b"
+        ],
+        "confidence": "high",
+        "reasoning": "«Die technischen und betrieblichen Vorgaben nach Artikel 82 Absatz 2 Buchstabe b» verweist klar auf denselben Artikel 82 Abs. 2 SVAV; Buchstabe b wird hier ausdrücklich genannt."
+      }
+    ]
+  },
+  {
+    "Item": 8,
+    "source_article": "art_4",
+    "links": [
+      {
+        "TARGET_SR": "self",
+        "assigned_articles": [
+          "Art. 82 Abs. 2 Bst. a",
+          "Art. 82 Abs. 2 Bst. c"
+        ],
+        "confidence": "high",
+        "reasoning": "Inhaltlich identisch mit Item 3: «Artikel 82 Absatz 2 Buchstaben a und c SVAV»; klarer Verweis auf diese beiden Buchstaben des Artikels 82 Abs. 2."
+      }
+    ]
+  },
+  {
+    "Item": 9,
+    "source_article": "art_14",
+    "links": [
+      {
+        "TARGET_SR": "self",
+        "assigned_articles": [
+          "Art. 13"
+        ],
+        "confidence": "high",
+        "reasoning": "«Angaben nach Artikel 13» verweist ohne Nennung eines anderen Erlasses auf einen Artikel desselben Erlasses; mangels SR-Nennung ist dies eine interne Selbstreferenz."
+      }
+    ]
+  },
+  {
+    "Item": 10,
+    "source_article": "art_16",
+    "links": [
+      {
+        "TARGET_SR": "self",
+        "assigned_articles": [
+          "Art. 12"
+        ],
+        "confidence": "high",
+        "reasoning": "«gestützt auf Artikel 12 verlangte Sicherheitsleistungen» nennt keinen anderen SR-Erlass; syntaktisch handelt es sich um einen Verweis auf einen internen Artikel 12."
+      }
+    ]
+  },
+  {
+    "Item": 11,
+    "source_article": "art_16",
+    "links": [
+      {
+        "TARGET_SR": "self",
+        "assigned_articles": [
+          "Art. 15 Abs. 3"
+        ],
+        "confidence": "high",
+        "reasoning": "«innerhalb der gestützt auf Artikel 15 Absatz 3 gesetzten Frist» verweist auf einen Absatz desselben Erlasses; mangels externer SR-Nennung ist dies eine interne Artikelreferenz."
+      }
+    ]
+  }
+]

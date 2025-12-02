@@ -1,0 +1,103 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 281.1",
+    "assigned_articles": [
+      "Art. 15 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet explicitly cites 'Artikel 15 Absatz 2 des Bundesgesetzes ... SR 281.1 ... (SchKG)'; this article reference is directly and syntactically linked to SR 281.1."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": "SR 210",
+    "assigned_articles": [
+      "Art. 806"
+    ],
+    "confidence": "high",
+    "reasoning": "The text says 'nach Artikel 806 des Zivilgesetzbuches SR 210'; 'Artikel 806' is directly attributed to the Zivilgesetzbuch with SR 210."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 281.1",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet refers generically to 'Vorschriften des SchKG' without specifying any article; this is a general reference to the SchKG as a whole (SR 281.1)."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": "SR 281.1",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "The phrase 'Dienststelle für Oberaufsicht SchKG' uses the acronym as part of an institutional name and does not mention any specific article; it is a general reference to the SchKG (SR 281.1)."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": "SR 281.1",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "Again 'Dienststelle für Oberaufsicht SchKG' appears without any article number; this is a generic institutional reference to the SchKG, not to a specific provision."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet mentions 'nach Artikel 806 des Zivilgesetzbuches' but without the SR marker; in this artikel_reference item, the article mention is already captured and linked to SR 210 in ITEM 2. Here it functions as a cross-reference line within the same document context, so it is treated as an internal/self reference rather than a new SR link."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_14",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 8 Abs. 1 Ziff. 4–7"
+    ],
+    "confidence": "high",
+    "reasoning": "The phrase 'unter Artikel 8 Absatz 1 Ziffern 4–7' clearly refers to another provision within the same ordinance; no external SR is mentioned, so this is an internal cross-reference to Art. 8 Abs. 1 Ziff. 4–7 of the current document."
+  },
+  {
+    "ITEM": 8,
+    "ARTICLE_EID": "art_17",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 10"
+    ],
+    "confidence": "high",
+    "reasoning": "The parenthetical '(vgl. oben Art. 10)' is an explicit internal reference to Article 10 of the same ordinance; no SR or external law is cited."
+  },
+  {
+    "ITEM": 9,
+    "ARTICLE_EID": "art_17",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 11"
+    ],
+    "confidence": "high",
+    "reasoning": "The parenthetical '(vgl. oben Art. 11)' is an explicit internal reference to Article 11 of the same ordinance; again, no external SR is involved."
+  },
+  {
+    "ITEM": 10,
+    "ARTICLE_EID": "art_17",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 16 Ziff. 2",
+      "Art. 16 Ziff. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "The text refers to 'unter den Ziffern 2 und 3 von Artikel 16'; this is a cross-reference to specific subdivisions (Ziff. 2 und 3) of Article 16 within the same document, with no external SR mentioned."
+  }
+]

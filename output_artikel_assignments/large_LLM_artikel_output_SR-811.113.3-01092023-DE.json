@@ -1,0 +1,157 @@
+[
+  {
+    "Item": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 811.11",
+    "assigned_articles": [
+      "Art. 12 Abs. 3",
+      "Art. 13",
+      "Art. 13a",
+      "Art. 60"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Präambel nennt ausdrücklich: «gestützt auf die Artikel 12 Absatz 3, 13, 13a und 60 des Medizinalberufegesetzes … SR 811.11 (MedBG)»; diese Artikel sind direkt und syntaktisch dem MedBG (SR 811.11) zugeordnet."
+  },
+  {
+    "Item": 2,
+    "ARTICLE_EID": "art_27",
+    "TARGET_SR": "SR 811.112.0",
+    "assigned_articles": [
+      "Anhang 5"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Satz: «Die Gebühren … finden sich in Anhang 5 der Verordnung vom 27. Juni 2007 SR 811.112.0 …» wird kein Artikel, sondern explizit «Anhang 5» dieser Verordnung genannt; dieser Anhang ist der einschlägige Teil des zitierten Erlasses."
+  },
+  {
+    "Item": 3,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": "SR 811.11",
+    "assigned_articles": [
+      "Art. 23",
+      "Art. 33"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Snippet: «… nach dem MedBG akkreditierten (Art. 23 MedBG) oder anerkannten ausländischen Studiengangs (Art. 33 MedBG) …» stehen die Artikelangaben unmittelbar beim Akronym MedBG, das in der Präambel SR 811.11 zugeordnet ist; damit beziehen sich Art. 23 und Art. 33 klar auf SR 811.11."
+  },
+  {
+    "Item": 4,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": "SR 811.11",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "medium",
+    "reasoning": "Der Text spricht allgemein von den «allgemeinen und berufsspezifischen Ausbildungszielen des MedBG», ohne konkrete Artikelnummern zu nennen. Es handelt sich um eine generelle Bezugnahme auf das MedBG (SR 811.11), nicht auf bestimmte Einzelartikel."
+  },
+  {
+    "Item": 5,
+    "ARTICLE_EID": "art_13",
+    "TARGET_SR": "SR 811.11",
+    "assigned_articles": [
+      "Art. 12 Abs. 2",
+      "Art. 12 Abs. 2 Bst. b"
+    ],
+    "confidence": "high",
+    "reasoning": "Das Snippet enthält: «… die nach Artikel 12 Absatz 2 MedBG …» sowie «… Studiengang nach Artikel 12 Absatz 2 Buchstabe b MedBG …». Beide Artikelangaben sind direkt mit «MedBG» verbunden, das der Präambel zufolge SR 811.11 ist."
+  },
+  {
+    "Item": 6,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«(Art. 23 MedBG)» und «(Art. 33 MedBG)» sind bereits in Item 3 als Verweise auf SR 811.11 erfasst. Dieses Item ist vom Typ artikel_reference und dient der internen Erfassung derselben Textstelle; es begründet keinen neuen SR-Link, sondern wiederholt die bereits zugewiesenen Verweise."
+  },
+  {
+    "Item": 7,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«Anpassungsmassnahmen im Sinne von Artikel 12a Absatz 2» verweist ohne Nennung eines externen Erlasses auf einen Artikel derselben Verordnung; es liegt kein Bezug zu einem SR-Zielerlass vor."
+  },
+  {
+    "Item": 8,
+    "ARTICLE_EID": "art_12_a",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«… in ihren Richtlinien nach Artikel 5a Buchstabe b …» ist eine reine Binnenverweisung innerhalb der Verordnung; kein SR-Dokument wird genannt."
+  },
+  {
+    "Item": 9,
+    "ARTICLE_EID": "art_12_b",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«… in ihren Vorgaben nach Artikel 5a Buchstabe a …» verweist nur auf einen anderen Artikel derselben Verordnung; es besteht kein syntaktischer oder semantischer Bezug zu einem externen SR-Erlass."
+  },
+  {
+    "Item": 10,
+    "ARTICLE_EID": "art_13",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«… die nach Artikel 12 Absatz 2 MedBG …» enthält zwar «MedBG», der SR-Link zu MedBG (SR 811.11) ist aber bereits in Items 1, 3 und 5 abgedeckt. Dieses artikel_reference-Item dient nur der internen Strukturierung und erzeugt keinen zusätzlichen SR-Link."
+  },
+  {
+    "Item": 11,
+    "ARTICLE_EID": "art_13",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«… Studiengang nach Artikel 12 Absatz 2 Buchstabe b MedBG …» ist Teil derselben in Item 5/10 behandelten Passage; der externe Bezug zu SR 811.11 ist dort bereits zugeordnet. Hier liegt lediglich eine interne Artikelverweisung vor."
+  },
+  {
+    "Item": 12,
+    "ARTICLE_EID": "art_25",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«… Daten nach Artikel 24 Absatz 1 Buchstaben a–g …» verweist nur auf einen anderen Artikel derselben Verordnung; kein externer SR-Erlass wird genannt."
+  },
+  {
+    "Item": 13,
+    "ARTICLE_EID": "art_36_a",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«… in Abweichung von Artikel 11 Absatz 2 …» ist eine klassische Binnenverweisung; es fehlt jeder Hinweis auf ein anderes SR-Dokument."
+  },
+  {
+    "Item": 14,
+    "ARTICLE_EID": "art_36_a",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«… in Abweichung von Artikel 27 Absatz 2 Buchstabe e …» verweist wiederum nur auf einen Artikel derselben Verordnung; kein SR-Link ist im Kontext vorhanden."
+  },
+  {
+    "Item": 15,
+    "ARTICLE_EID": "art_37",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«Artikel 34 tritt am 31. Dezember 2010 in Kraft.» ist eine reine interne Inkrafttretensbestimmung und bezieht sich auf einen Artikel derselben Verordnung; es gibt keinen Bezug zu einem externen SR-Erlass."
+  }
+]

@@ -1,0 +1,36 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 101",
+    "assigned_articles": [
+      "Art. 133"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet explicitly cites 'Artikel 133 der Bundesverfassung SR 101'; the preposition and apposition clearly link Art. 133 to SR 101."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "The reference to 'Artikel 1' appears without any SR or acronym context and clearly refers to Article 1 of the same ordinance; thus it is a self-reference, not an SR link."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "The phrase 'nach Artikel 1' lacks any SR or external law indication and syntactically refers back to Article 1 of the same document; this is an internal cross-reference only."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "The mention of 'Artikel 2' is in a purely internal regulatory context ('regelt, wie die Preise nach Artikel 2 ermittelt werden') with no SR cited; it is an internal reference to Article 2 of the same ordinance."
+  }
+]

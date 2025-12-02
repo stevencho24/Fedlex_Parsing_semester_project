@@ -1,0 +1,31 @@
+[
+  {
+    "Item": 1,
+    "source_article_eid": "preamble",
+    "links": [
+      {
+        "target_sr": "SR 844.1",
+        "assigned_articles": [
+          "Art. 11 Abs. 4",
+          "Art. 12 Abs. 4"
+        ],
+        "confidence": "high",
+        "reasoning": "The snippet explicitly states: 'gestützt auf die Artikel 11 Absatz 4 und 12 Absatz 4 der Verordnung ... SR 844.1', which directly links these articles and paragraphs to SR 844.1."
+      }
+    ]
+  },
+  {
+    "Item": 2,
+    "source_article_eid": "art_1",
+    "links": [
+      {
+        "target_sr": "SR 642.11",
+        "assigned_articles": [
+          "General reference - entire document"
+        ],
+        "confidence": "medium",
+        "reasoning": "The snippet refers to 'das Bundesgesetz vom 14. Dezember 1990 SR 642.11 über die direkte Bundessteuer' without mentioning any specific article or paragraph; thus it is treated as a general reference to the whole act."
+      }
+    ]
+  }
+]

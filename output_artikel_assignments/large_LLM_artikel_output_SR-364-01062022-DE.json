@@ -1,0 +1,74 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 101",
+    "assigned_articles": [
+      "Art. 57 Abs. 2",
+      "Art. 121",
+      "Art. 123 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Formulierung «gestützt auf die Artikel 57 Absatz 2, 121 und 123 Absatz 1 der Bundesverfassung SR 101» verknüpft die genannten Artikel syntaktisch eindeutig mit der Bundesverfassung (SR 101)."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_21",
+    "TARGET_SR": "SR 313.0",
+    "assigned_articles": [
+      "Art. 47"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Satz «ist Artikel 47 des Bundesgesetzes vom 22. März 1974 SR 313.0 über das Verwaltungsstrafrecht anwendbar» wird Art. 47 ausdrücklich diesem Gesetz (SR 313.0) zugeordnet."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_31",
+    "TARGET_SR": "SR 170.32",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "medium",
+    "reasoning": "Der Text lautet nur «Der Bund haftet nach dem Verantwortlichkeitsgesetz vom 14. März 1958 SR 170.32 für Schäden, die:» ohne Nennung eines bestimmten Artikels. Es handelt sich um eine generelle Verweisung auf das Verantwortlichkeitsgesetz als Ganzes."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_18",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«…nach Artikel 14 Absatz 1 erlässt» enthält keinen SR-Hinweis und bezieht sich daher auf Art. 14 Abs. 1 derselben Verordnung (Selbstverweisung)."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_18",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«…nach Artikel 16 erlässt» nennt keinen externen SR-Link und verweist damit auf Art. 16 des eigenen Erlasses."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_21",
+    "TARGET_SR": "SR 313.0",
+    "assigned_articles": [
+      "Art. 47"
+    ],
+    "confidence": "high",
+    "reasoning": "Dies ist derselbe Satz wie bei ITEM 2, nur ohne eingefügten SR-Text. Aus ITEM 2 ist klar, dass «Artikel 47 des Bundesgesetzes vom 22. März 1974 über das Verwaltungsstrafrecht» Art. 47 SR 313.0 meint."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_31",
+    "TARGET_SR": "SR 170.32",
+    "assigned_articles": [
+      "Art. 10 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "«…richtet sich nach Artikel 10 Absatz 1 des Verantwortlichkeitsgesetzes vom 14. März 1958» verweist klar auf Art. 10 Abs. 1 des Verantwortlichkeitsgesetzes (SR 170.32, vgl. ITEM 3)."
+  }
+]

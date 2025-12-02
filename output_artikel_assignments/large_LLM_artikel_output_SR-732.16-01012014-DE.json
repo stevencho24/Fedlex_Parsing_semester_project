@@ -1,0 +1,115 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 732.1",
+    "assigned_articles": [
+      "Art. 71 Abs. 1",
+      "Art. 101 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet explicitly cites 'Artikel 71 Absatz 1 und 101 Absatz 1 des Kernenergiegesetzes ... SR 732.1'; both articles are directly and syntactically linked to SR 732.1."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 172.010",
+    "assigned_articles": [
+      "Art. 57a Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet: '... nach Artikel 57a Absatz 1 des Regierungs- und Verwaltungsorganisationsgesetzes ... SR 172.010.' The article reference is directly tied to the named law and SR number."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_6",
+    "TARGET_SR": "SR 732.11",
+    "assigned_articles": [
+      "Anh. 5",
+      "Anh. 6"
+    ],
+    "confidence": "medium",
+    "reasoning": "Snippet refers to 'die Berichte gemäss den Anhängen 5 und 6 der Kernenergieverordnung ... SR 732.11.' These are annexes rather than numbered articles; assigning the cited annexes as the relevant provisions."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_16",
+    "TARGET_SR": "SR 172.021",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "medium",
+    "reasoning": "Text: '... richtet sich nach dem Bundesgesetz ... SR 172.021 über das Verwaltungsverfahren.' No specific article is mentioned; the whole law is referenced as the governing procedure."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_17",
+    "TARGET_SR": "SR 311.0",
+    "assigned_articles": [
+      "Art. 320 Ziff. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet: 'Zuständige Behörde nach Artikel 320 Ziffer 2 des Strafgesetzbuches SR 311.0 ...' clearly links Art. 320 Ziff. 2 to SR 311.0."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_18",
+    "TARGET_SR": "SR 172.311",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "medium",
+    "reasoning": "Snippet: '... richtet sich nach der Verordnung ... SR 172.311 über die Taggelder und Vergütungen ...' cites the ordinance as a whole without specifying articles."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "Artikel 57a Abs. 1 is mentioned without an SR or acronym; in this context it is already externally assigned in ITEM 2. Here, as artikel_reference without SR, it functions as a cross-reference and not as a new SR link."
+  },
+  {
+    "ITEM": 8,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": "SR 732.1",
+    "assigned_articles": [
+      "Art. 70"
+    ],
+    "confidence": "high",
+    "reasoning": "Phrase 'Artikel 70 des Kernenergiegesetzes vom 21. März 2003' clearly refers to the Kernenergiegesetz, which is SR 732.1 as established in ITEM 1; syntactic structure directly links Art. 70 to that law."
+  },
+  {
+    "ITEM": 9,
+    "ARTICLE_EID": "art_17",
+    "TARGET_SR": "SR 311.0",
+    "assigned_articles": [
+      "Art. 320 Ziff. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Same sentence as ITEM 5 but without the explicit SR number; 'Artikel 320 Ziffer 2 des Strafgesetzbuches' is contextually the same reference to SR 311.0, Art. 320 Ziff. 2."
+  },
+  {
+    "ITEM": 10,
+    "ARTICLE_EID": "art_19_a",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "Reference to 'Artikel 7a Absatz 3' lacks any SR or external law name; it is an internal cross-reference within the same ordinance."
+  },
+  {
+    "ITEM": 11,
+    "ARTICLE_EID": "art_19_a",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document",
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "Mentions 'Absatz 1' and 'Artikel 16 Absatz 2' without SR or external law designation; both are internal structural references within the same document, not to another SR."
+  }
+]

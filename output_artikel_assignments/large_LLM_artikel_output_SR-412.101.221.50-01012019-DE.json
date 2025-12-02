@@ -1,0 +1,182 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 412.10",
+    "assigned_articles": [
+      "Art. 19"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Satz: 'gestützt auf Artikel 19 des Berufsbildungsgesetzes ... SR 412.10 (BBG)' ist Art. 19 grammatikalisch direkt dem Berufsbildungsgesetz (SR 412.10) zugeordnet."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 412.101",
+    "assigned_articles": [
+      "Art. 12"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Satz: '... und auf Artikel 12 der Berufsbildungsverordnung ... SR 412.101 (BBV)' ist Art. 12 eindeutig der BBV (SR 412.101) zugeordnet."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": "SR 412.101.241",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Formulierung 'gilt die Verordnung ... SR 412.101.241 über Mindestvorschriften ...' verweist pauschal auf die ganze Verordnung, ohne einzelne Artikel zu nennen."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_18",
+    "TARGET_SR": "SR 412.101.241",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "Auch hier: 'richtet sich nach der Verordnung ... SR 412.101.241 ...' ist ein genereller Verweis auf die Verordnung ohne Artikelangabe."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": "SR 412.10",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "medium",
+    "reasoning": "Das Akronym SBFI ist im Vorspann mit SR 412.10 verknüpft, im Satz wird aber nur die SBFI-Verordnung SR 412.101.241 konkret genannt. Es gibt keine explizite Artikelangabe zum BBG; daher nur ein allgemeiner, impliziter Verweis auf SR 412.10."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_16",
+    "TARGET_SR": "SR 412.10",
+    "assigned_articles": [
+      "Art. 33"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Text: 'vom SBFI gemäss Artikel 33 BBG anerkannten ...'; BBG = SR 412.10. Art. 33 ist direkt mit dem BBG verknüpft."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_16",
+    "TARGET_SR": "SR 412.10",
+    "assigned_articles": [
+      "Art. 33"
+    ],
+    "confidence": "high",
+    "reasoning": "Gleicher Satz wie bei ITEM 6, diesmal über das Akronym BBG. 'Artikel 33 BBG' verweist eindeutig auf Art. 33 des BBG (SR 412.10)."
+  },
+  {
+    "ITEM": 8,
+    "ARTICLE_EID": "art_16",
+    "TARGET_SR": "SR 412.101",
+    "assigned_articles": [
+      "Art. 32"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Satz: 'die nach Artikel 32 BBV erforderliche Erfahrung ...'; BBV = SR 412.101. Art. 32 ist direkt der BBV zugeordnet."
+  },
+  {
+    "ITEM": 9,
+    "ARTICLE_EID": "art_18",
+    "TARGET_SR": "SR 412.10",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "medium",
+    "reasoning": "Der Satz verweist konkret auf die SBFI-Verordnung SR 412.101.241; der Bezug zu SR 412.10 erfolgt nur über das Akronym SBFI aus dem Vorspann, ohne Artikelangabe. Daher nur allgemeiner impliziter Verweis."
+  },
+  {
+    "ITEM": 10,
+    "ARTICLE_EID": "art_20",
+    "TARGET_SR": "SR 412.101",
+    "assigned_articles": [
+      "Art. 33"
+    ],
+    "confidence": "high",
+    "reasoning": "Formulierung: 'richtet sich nach Artikel 33 BBV.' BBV = SR 412.101; Art. 33 ist explizit genannt."
+  },
+  {
+    "ITEM": 11,
+    "ARTICLE_EID": "art_22",
+    "TARGET_SR": "SR 412.10",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "medium",
+    "reasoning": "Es wird nur 'dem SBFI' erwähnt, ohne Artikelangabe des BBG. Der Bezug zu SR 412.10 ist institutionell, nicht artikelspezifisch."
+  },
+  {
+    "ITEM": 12,
+    "ARTICLE_EID": "art_24",
+    "TARGET_SR": "SR 412.10",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "medium",
+    "reasoning": "Die Aufhebung einer SBFI-Verordnung wird erwähnt; SR 412.10 ist nur über das Akronym SBFI implizit verknüpft, ohne konkrete Artikelangabe."
+  },
+  {
+    "ITEM": 13,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": "SR 412.101.221.50",
+    "assigned_articles": [
+      "Art. 9"
+    ],
+    "confidence": "high",
+    "reasoning": "Selbstreferenz innerhalb derselben Verordnung: '(Art. 9)' bezieht sich auf Art. 9 der aktuellen Verordnung SR 412.101.221.50."
+  },
+  {
+    "ITEM": 14,
+    "ARTICLE_EID": "art_14",
+    "TARGET_SR": "SR 412.101.221.50",
+    "assigned_articles": [
+      "Art. 22"
+    ],
+    "confidence": "high",
+    "reasoning": "Formulierung 'Kommission nach Artikel 22' ohne anderes Gesetz; daher interner Verweis auf Art. 22 derselben Verordnung SR 412.101.221.50."
+  },
+  {
+    "ITEM": 15,
+    "ARTICLE_EID": "art_15",
+    "TARGET_SR": "SR 412.101.221.50",
+    "assigned_articles": [
+      "Art. 22"
+    ],
+    "confidence": "high",
+    "reasoning": "Auch hier 'Kommission nach Artikel 22' ohne externen SR-Hinweis; somit interner Verweis auf Art. 22 der aktuellen Verordnung."
+  },
+  {
+    "ITEM": 16,
+    "ARTICLE_EID": "art_16",
+    "TARGET_SR": "SR 412.101",
+    "assigned_articles": [
+      "Art. 32"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Satz 'die nach Artikel 32 BBV erforderliche Erfahrung ...' verweist klar auf Art. 32 der BBV (SR 412.101), nicht auf die eigene Verordnung."
+  },
+  {
+    "ITEM": 17,
+    "ARTICLE_EID": "art_17",
+    "TARGET_SR": "SR 412.101.221.50",
+    "assigned_articles": [
+      "Art. 4"
+    ],
+    "confidence": "high",
+    "reasoning": "Formulierung 'Handlungskompetenzen nach Artikel 4' ohne externes Gesetz; daher interner Verweis auf Art. 4 derselben Verordnung."
+  },
+  {
+    "ITEM": 18,
+    "ARTICLE_EID": "art_25",
+    "TARGET_SR": "SR 412.101.221.50",
+    "assigned_articles": [
+      "Art. 16-21"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Klammer '(Art. 16–21)' bezeichnet einen internen Artikelbereich der aktuellen Verordnung; als Bereichsangabe sinnvoll als 'Art. 16-21' zusammengefasst."
+  }
+]

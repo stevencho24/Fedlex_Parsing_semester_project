@@ -1,0 +1,45 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 512.31",
+    "assigned_articles": [
+      "Art. 13 Abs. 1",
+      "Art. 14",
+      "Art. 40 Abs. 1 Bst. c",
+      "Art. 55"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Präambel nennt ausdrücklich: «gestützt auf die Artikel 13 Absatz 1, 14, 40 Absatz 1 Buchstabe c und 55 der Schiessverordnung … SR 512.31». Die genannten Artikel gehören syntaktisch eindeutig zur Schiessverordnung SR 512.31."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": "SR 510.301",
+    "assigned_articles": [
+      "Art. 80"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Satz steht: «Entschädigungen nach Artikel 80 der Verordnung vom 21. Februar 2018 SR 510.301 über die Verwaltung der Armee». Der Artikel 80 ist direkt mit dieser Verordnung (SR 510.301) verknüpft und bezieht sich nicht auf die aktuelle Verordnung selbst."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Interne Verweisung innerhalb des aktuellen Erlasses (Art. 80 der zitierten Verordnung SR 510.301); kein eigener SR-Link, daher keine neue SR-Zuordnung."
+    ],
+    "confidence": "high",
+    "reasoning": "Dies ist dieselbe Textpassage wie bei ITEM 2, jedoch ohne explizite SR-Angabe. Der Verweis «nach Artikel 80 der Verordnung vom 21. Februar 2018 über die Verwaltung der Armee» ist bereits in ITEM 2 als Art. 80 SR 510.301 erfasst. Als artikel_reference ohne TARGET_SR stellt es keinen neuen SR-Link dar, sondern wiederholt nur die bereits zugeordnete externe Norm."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_33",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Interne Verweisung auf Art. 25 desselben Erlasses"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Satz «Es gelten die Bestimmungen nach Artikel 25.» enthält keinen Hinweis auf ein anderes SR-Dokument und steht in einem rein internen Regelungszusammenhang. Nach den Vorgaben ist dies als Selbstverweisung innerhalb des aktuellen Erlasses zu behandeln, nicht als Verweis auf ein externes SR."
+  }
+]

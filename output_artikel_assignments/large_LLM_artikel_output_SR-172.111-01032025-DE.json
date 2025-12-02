@@ -1,0 +1,93 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 172.010",
+    "assigned_articles": [
+      "Art. 24"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet explicitly cites \"Artikel 24 des Regierungs- und Verwaltungsorganisationsgesetzes ... SR 172.010 (RVOG)\"; Art. 24 is directly and uniquely linked to SR 172.010."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": "SR 943.03",
+    "assigned_articles": [
+      "Art. 2 Bst. e"
+    ],
+    "confidence": "high",
+    "reasoning": "The text states \"qualifizierten elektronischen Signatur nach Artikel 2 Buchstabe e des Bundesgesetzes ... SR 943.03 über die elektronische Signatur (ZertES)\"; Art. 2 letter e is explicitly tied to SR 943.03."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": "SR 172.010",
+    "assigned_articles": [
+      "Art. 35"
+    ],
+    "confidence": "high",
+    "reasoning": "Parenthetical citation \"(Art. 35 RVOG)\" directly links article 35 to RVOG, which is SR 172.010."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": "SR 172.010",
+    "assigned_articles": [
+      "Art. 18"
+    ],
+    "confidence": "high",
+    "reasoning": "Parenthetical citation \"(Art. 18 RVOG)\" directly links article 18 to RVOG (SR 172.010)."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": "SR 172.010",
+    "assigned_articles": [
+      "Art. 20"
+    ],
+    "confidence": "high",
+    "reasoning": "Parenthetical citation \"(Art. 20 RVOG)\" directly links article 20 to RVOG (SR 172.010)."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": "SR 172.010",
+    "assigned_articles": [
+      "Art. 13 Abs. 3",
+      "Art. 32 Bst. c"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet \"(Art. 13 Abs. 3 und 32 Bst. c RVOG)\" explicitly attributes both Art. 13 para. 3 and Art. 32 letter c to RVOG (SR 172.010); both must be included."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_9",
+    "TARGET_SR": "SR 172.010",
+    "assigned_articles": [
+      "Art. 25"
+    ],
+    "confidence": "high",
+    "reasoning": "Parenthetical citation \"(Art. 25 RVOG)\" directly links article 25 to RVOG (SR 172.010)."
+  },
+  {
+    "ITEM": 8,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "The phrase \"nach Artikel 2 Buchstabe e des Bundesgesetzes ... über die elektronische Signatur (ZertES)\" is a self-contained citation; in this item_type=artikel_reference there is no SR mentioned, and the same citation is already tied to SR 943.03 in ITEM 2. Here it functions as an internal cross-reference context, not a new SR assignment."
+  },
+  {
+    "ITEM": 9,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet \"... geregelten elektronischen Siegel nach Artikel 2 Buchstabe d ZertES\" mentions an article but no SR document in this context; it mirrors the already-captured ZertES reference and serves as an internal structural reference, so no new TARGET_SR is assigned."
+  }
+]

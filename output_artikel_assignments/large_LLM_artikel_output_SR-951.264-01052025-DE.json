@@ -1,0 +1,65 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 818.102",
+    "assigned_articles": [
+      "Art. 9 Bst. c",
+      "Art. 11b",
+      "Art. 12",
+      "Art. 19 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Präambel nennt ausdrücklich: 'gestützt auf die Artikel 9 Buchstabe c, 11b, 12 sowie 19 Absatz 2 des Covid-19-Gesetzes ... SR 818.102'; diese Artikel gehören damit klar zum Covid-19-Gesetz (SR 818.102)."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_6",
+    "TARGET_SR": "SR 642.11",
+    "assigned_articles": [
+      "Art. 58–67"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Satzteil 'nach den Artikeln 58–67 des Bundesgesetzes ... SR 642.11 über die direkte Bundessteuer' werden die Artikel 58–67 direkt mit dem Bundesgesetz über die direkte Bundessteuer (SR 642.11) verknüpft; es handelt sich um eine explizite Bereichsangabe."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_6",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Dies ist ein artikel_reference-Eintrag ohne TARGET_SR. Die Formulierung 'nach den Artikeln 58–67 des Bundesgesetzes über die direkte Bundessteuer' verweist auf ein anderes Gesetz (SR 642.11), das bereits in ITEM 2 mit diesen Artikeln erfasst wurde. Gemäss Vorgabe sollen artikel_reference-Einträge nur als eigene SR-Verweise ausgegeben werden, wenn noch kein entsprechender SR-Link erfasst ist; hier liegt bereits ein SR_link_detection mit derselben Bezugnahme vor, daher keine zusätzliche Zuweisung."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_16",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Die Wendung 'Rechnungen nach Artikel 15 Absatz 2' bezieht sich ersichtlich auf einen Artikel 15 derselben Verordnung (interne Strukturverweisung). Es wird kein anderes Gesetz oder eine SR-Nummer genannt; daher handelt es sich um eine reine Selbstreferenz ohne externen SR-Bezug."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_17",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Der Ausdruck 'Vertragszusatz nach Artikel 14' verweist auf einen Artikel 14 innerhalb derselben Verordnung. Es fehlt jeglicher Hinweis auf ein anderes Gesetz oder eine SR-Nummer; somit liegt eine interne Artikelverweisung ohne externen SR-Bezug vor."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_17",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Die Formulierung 'Liquidationsgewinn nach Artikel 3 Absatz 2' verweist auf Artikel 3 Abs. 2 derselben Verordnung. Es wird kein externes Gesetz oder eine SR-Nummer genannt; daher ist dies eine reine Selbstreferenz innerhalb des Dokuments."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_20",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Die Aufzählung 'Die Artikel 3, 6, 8, 10 und 15–19 gelten ...' betrifft offensichtlich die Artikel derselben Verordnung (Geltungsdauerregelung). Es gibt keinen Bezug zu einem anderen Gesetz oder einer SR-Nummer; somit handelt es sich ausschliesslich um interne Artikelverweise."
+  }
+]

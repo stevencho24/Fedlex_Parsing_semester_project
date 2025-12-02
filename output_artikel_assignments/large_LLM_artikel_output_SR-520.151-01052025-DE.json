@@ -1,0 +1,52 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 520.1",
+    "assigned_articles": [
+      "Art. 6 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Formulierung «gestützt auf Artikel 6 Absatz 1 des Bevölkerungs- und Zivilschutzgesetzes … SR 520.1» verknüpft den genannten Artikel grammatikalisch eindeutig mit dem Gesetz SR 520.1."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_9",
+    "TARGET_SR": "SR 172.010.8",
+    "assigned_articles": [
+      "Art. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Satz «… der Krisenstäbe nach Artikel 2 der Verordnung vom 20. Dezember 2024 SR 172.010.8 …» bezieht sich «Artikel 2» klar auf die genannte Verordnung SR 172.010.8."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_11",
+    "TARGET_SR": "SR 510.911",
+    "assigned_articles": [
+      "Art. 35"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Passage «… im Informations- und Einsatz-System Koordinierter Sanitätsdienst (Art. 35 der Verordnung vom 16. Dezember 2009 SR 510.911 …)» ordnet Art. 35 eindeutig der Verordnung SR 510.911 zu."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_9",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Interne Verweisung innerhalb des aktuellen Dokuments"
+    ],
+    "confidence": "high",
+    "reasoning": "«… der Krisenstäbe nach Artikel 2 der Verordnung vom 20. Dezember 2024 über die Krisenorganisation der Bundesverwaltung …» wiederholt die Verweisung aus ITEM 2, jedoch ohne explizite SR-Angabe; es handelt sich um eine inhaltlich identische, aber hier als reine Artikelreferenz erfasste Stelle und bleibt daher als Selbstverweisung des zitierten Erlasses ohne neue SR-Zuordnung."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_11",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Interne Verweisung innerhalb des aktuellen Dokuments"
+    ],
+    "confidence": "high",
+    "reasoning": "«… (Art. 35 der Verordnung vom 16. Dezember 2009 über militärische und andere Informationssysteme im VBS) …» entspricht der Stelle aus ITEM 3, jedoch ohne explizite SR-Nummer; als artikel_reference dient sie der internen Strukturverweisung und führt zu keiner zusätzlichen SR-Zuordnung."
+  }
+]

@@ -1,0 +1,65 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 220",
+    "assigned_articles": [
+      "Art. 931 Abs. 2bis",
+      "Art. 931 Abs. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Präambel nennt ausdrücklich: «gestützt auf Artikel 931 Absätze 2bis und 3 des Obligationenrechts (OR) SR 220». Damit sind klar die Absätze 2bis und 3 von Art. 931 OR als Rechtsgrundlage bezeichnet."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_8",
+    "TARGET_SR": "SR 943.03",
+    "assigned_articles": [
+      "Art. 2 Bst. c",
+      "Art. 2 Bst. d",
+      "Art. 2 Bst. e"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Snippet: «… mit einer elektronischen Signatur oder einem elektronischen Siegel nach Artikel 2 Buchstabe c, d oder e des Bundesgesetzes … SR 943.03 …». Die Buchstaben c, d und e beziehen sich syntaktisch eindeutig auf Art. 2 ZertES (SR 943.03)."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_9",
+    "TARGET_SR": "SR 170.512",
+    "assigned_articles": [
+      "Art. 18"
+    ],
+    "confidence": "high",
+    "reasoning": "Text: «… bei den Stellen gemäss Artikel 18 des Publikationsgesetzes … SR 170.512 …». Artikel 18 ist direkt mit dem Publikationsgesetz (SR 170.512) verknüpft."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_15",
+    "TARGET_SR": "SR 172.041.1",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "Formulierung: «gelten die Bestimmungen der Allgemeinen Gebührenverordnung … SR 172.041.1». Es wird keine bestimmte Norm genannt, sondern die Verordnung als Ganzes als subsidiär anwendbar erklärt."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_8",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "artikel_reference ohne explizite SR-Nennung; derselbe Satz wie bei ITEM 2, aber hier ohne SR 943.03. Gemäss Regeln ist dies als Selbstverweisung innerhalb des aktuellen Erlasses zu behandeln, nicht als neue Zuweisung zu SR 943.03."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_9",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "artikel_reference mit «Artikel 18 des Publikationsgesetzes …» ohne SR-Angabe. Obwohl in ITEM 3 klar ist, dass es sich um SR 170.512 handelt, gilt hier nach Vorgabe: ohne explizite SR-Verknüpfung ist dies als interne/strukturbezogene Verweisung des aktuellen Dokuments zu werten, nicht als erneute SR-Zuweisung."
+  }
+]

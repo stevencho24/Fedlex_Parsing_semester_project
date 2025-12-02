@@ -1,0 +1,93 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 941.20",
+    "assigned_articles": [
+      "Art. 2 Abs. 2",
+      "Art. 3 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet explicitly cites 'Artikel 2 Absatz 2 und 3 Absatz 2 des Messgesetzes ... SR 941.20'; both articles are directly and syntactically linked to SR 941.20."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "The reference 'Artikel 2 des Messgesetzes' appears without any SR citation or acronym context in this item; given the document is itself an ordinance based on the Messgesetz, this is a self-reference to Art. 2 of the same document, not to an external SR."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_21",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document (Art. 15)"
+    ],
+    "confidence": "high",
+    "reasoning": "The parenthetical '(Art. 15)' is an isolated article mention with no SR or acronym; by the rules this is a self-reference to Art. 15 of the same document."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_21",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document (Art. 15)"
+    ],
+    "confidence": "high",
+    "reasoning": "Same structure as ITEM 3: '(Art. 15)' with no linked SR; thus an internal cross-reference to Art. 15 of the current document."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_21",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document (Art. 18)"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet '(Art. 18)' is an isolated article reference without SR context, so it is a self-reference to Art. 18 of the same ordinance."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_21",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document (Art. 18)"
+    ],
+    "confidence": "high",
+    "reasoning": "Identical syntactic pattern to ITEM 5; '(Art. 18)' functions as an internal cross-reference to Art. 18 of this document."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_21",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document (Art. 18)"
+    ],
+    "confidence": "high",
+    "reasoning": "Again '(Art. 18)' appears without any SR or acronym; per rules this is an internal reference to Art. 18 of the same document."
+  },
+  {
+    "ITEM": 8,
+    "ARTICLE_EID": "art_21",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document (Art. 18)"
+    ],
+    "confidence": "high",
+    "reasoning": "The article mention '(Art. 18)' is syntactically isolated and not tied to an SR; it is a self-reference to Art. 18 of the ordinance."
+  },
+  {
+    "ITEM": 9,
+    "ARTICLE_EID": "art_21",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document (Art. 18)"
+    ],
+    "confidence": "high",
+    "reasoning": "Same pattern as ITEMS 5–8; '(Art. 18)' is an internal cross-reference to Art. 18 of the current document, not to an external SR."
+  }
+]

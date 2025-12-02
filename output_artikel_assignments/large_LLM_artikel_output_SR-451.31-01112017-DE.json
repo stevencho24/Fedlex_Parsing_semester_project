@@ -1,0 +1,134 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 451",
+    "assigned_articles": [
+      "Art. 18a Abs. 1",
+      "Art. 18a Abs. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Formulierung \"gestützt auf Artikel 18a Absätze 1 und 3 des Bundesgesetzes ... SR 451\" verknüpft die genannten Absätze syntaktisch direkt mit SR 451."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": "SR 170.512",
+    "assigned_articles": [
+      "Art. 5 Abs. 1 Bst. c"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Snippet steht \"(Art. 5 Abs. 1 Bst. c des Publikationsgesetzes ... SR 170.512)\"; der Artikel ist unmittelbar mit dem genannten Gesetz verknüpft."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_11",
+    "TARGET_SR": "SR 451.1",
+    "assigned_articles": [
+      "Art. 18",
+      "Art. 19"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Passage \"richten sich nach den Artikeln 18 und 19 der Verordnung ... SR 451.1\" ordnet die Artikel 18 und 19 eindeutig der NHV (SR 451.1) zu."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_11_a",
+    "TARGET_SR": "SR 451.1",
+    "assigned_articles": [
+      "Art. 29"
+    ],
+    "confidence": "high",
+    "reasoning": "Formulierung \"nach Artikel 29 NHV SR 451.1\" stellt eine direkte syntaktische Zuordnung von Art. 29 zur NHV (SR 451.1) dar."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "Gleicher Satz wie bei ITEM 2, aber ohne Nennung von SR 170.512; hier wird nur \"Art. 5 Abs. 1 Bst. c\" wiedergegeben, jedoch ohne explizite SR-Verknüpfung im Snippet. Nach den Regeln ist dies als selbstreferenzielle/isolierte Artikelangabe zu behandeln."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_3_a",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "\"vorsorgliche Schutz nach Artikel 7\" ohne Nennung eines anderen Gesetzes oder SR; daher Verweis auf einen Artikel derselben Verordnung."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_6",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Verweise \"Artikel 3 Absatz 1\" und \"Artikel 5\" stehen ohne SR- oder Gesetzesangabe; sie beziehen sich auf interne Artikel der aktuellen Verordnung."
+  },
+  {
+    "ITEM": 8,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "\"Artikel 4 Absatz 2\" wird ohne externen Gesetzesbezug genannt; dies ist eine typische interne Strukturverweisung."
+  },
+  {
+    "ITEM": 9,
+    "ARTICLE_EID": "art_9",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "\"nach den Artikeln 5, 7 und 8\" ohne Nennung eines anderen Erlasses; es handelt sich um interne Artikel derselben Verordnung."
+  },
+  {
+    "ITEM": 10,
+    "ARTICLE_EID": "art_10",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Bezugnahmen auf \"Artikel 3 Absatz 1\" und \"Artikel 5\" erfolgen ohne SR- oder Gesetzesangabe; daher interne Verweise."
+  },
+  {
+    "ITEM": 11,
+    "ARTICLE_EID": "art_10",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "\"Beeinträchtigungen nach Artikel 8\" ist eine reine Binnenverweisung innerhalb derselben Verordnung, da kein anderes Gesetz genannt wird."
+  },
+  {
+    "ITEM": 12,
+    "ARTICLE_EID": "art_11",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Snippet werden zwar \"Artikeln 18 und 19\" erwähnt, aber ohne explizite SR- oder Gesetzesangabe; der externe Bezug zu SR 451.1 ist nur in ITEM 3 (SR_link_detection) klar markiert. Hier ist es nach den Regeln als selbstreferenzielle/isolierte Artikelangabe zu behandeln."
+  },
+  {
+    "ITEM": 13,
+    "ARTICLE_EID": "art_11_a",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "\"Die Veröffentlichung richtet sich nach Artikel 2\" ohne Nennung eines anderen Erlasses; dies ist ein interner Verweis auf Art. 2 derselben Verordnung."
+  }
+]

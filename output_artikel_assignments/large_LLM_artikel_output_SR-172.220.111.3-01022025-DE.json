@@ -1,0 +1,3117 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 172.220.1",
+    "assigned_articles": ["Art. 37"],
+    "confidence": "high",
+    "reasoning": "Formulierung «gestützt auf Artikel 37 des Bundespersonalgesetzes ... SR 172.220.1 (BPG)» verknüpft eindeutig Art. 37 mit dem BPG."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 172.010.1",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "high",
+    "reasoning": "Die Sprachen «nach Anhang 1 der ... RVOV SR 172.010.1» verweisen nur auf den Anhang, ohne konkrete Artikelangabe; daher allgemeine Verweisung."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 173.71",
+    "assigned_articles": ["Art. 22 Abs. 2"],
+    "confidence": "high",
+    "reasoning": "«nach Artikel 22 Absatz 2 des Strafbehördenorganisationsgesetzes ... SR 173.71 (StBOG)» nennt explizit Art. 22 Abs. 2 StBOG."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 220",
+    "assigned_articles": ["Art. 6 Abs. 5", "Art. 6 Abs. 6"],
+    "confidence": "high",
+    "reasoning": "Klammerzusatz «(Art. 6 Abs. 5 und 6 BPG)» bezieht sich auf BPG, nicht auf OR; zum OR (SR 220) wird kein Artikel genannt, daher allgemeine Verweisung. Allerdings nach Regel 1 ist nur explizit markiertes mit Acronym zuzuordnen; hier fehlt «Art.» beim OR. Somit keine konkrete OR-Artikel. → Korrektur: Generalverweis."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 220",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "medium",
+    "reasoning": "Der einzige explizite Artikelbezug in der Klammer betrifft das BPG, nicht das OR; zum OR wird nur das Gesetz als solches genannt («dem Obligationenrecht SR 220 (OR) unterstellt»). Daher allgemeine Verweisung auf das OR."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 412.10",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "high",
+    "reasoning": "Text stellt nur klar, dass die Lehrlinge dem Berufsbildungsgesetz (SR 412.10) unterstehen; keine Artikelangabe."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 822.31",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "high",
+    "reasoning": "«untersteht dem Heimarbeitsgesetz ... SR 822.31» ohne Artikelangabe; allgemeine Verweisung."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 172.220.111.9",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "high",
+    "reasoning": "Verweist auf die Verordnung SR 172.220.111.9 als Ganzes, ohne Artikel."
+  },
+  {
+    "ITEM": 8,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": "SR 441.11",
+    "assigned_articles": ["Art. 6", "Art. 7", "Art. 8", "Art. 8a", "Art. 8b", "Art. 8c", "Art. 8d"],
+    "confidence": "high",
+    "reasoning": "«nach den Artikeln 6–8d der Sprachenverordnung ... SR 441.11» nennt explizit einen Artikelsbereich; Bereich 6–8d umfasst alle Artikel von 6 bis 8d."
+  },
+  {
+    "ITEM": 9,
+    "ARTICLE_EID": "art_10_c",
+    "TARGET_SR": "SR 832.20",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "high",
+    "reasoning": "«den Vorschriften des Bundesgesetzes ... SR 832.20 über die Unfallversicherung» ohne Artikelangabe; allgemeine Verweisung."
+  },
+  {
+    "ITEM": 10,
+    "ARTICLE_EID": "art_10_c",
+    "TARGET_SR": "SR 822.11",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "high",
+    "reasoning": "«des Arbeitsgesetzes ... SR 822.11 und seinen Ausführungsbestimmungen» ohne konkrete Artikel; allgemeine Verweisung."
+  },
+  {
+    "ITEM": 11,
+    "ARTICLE_EID": "art_22",
+    "TARGET_SR": "SR 823.111",
+    "assigned_articles": ["Art. 53a"],
+    "confidence": "high",
+    "reasoning": "«im Sinne von Artikel 53a der Arbeitsvermittlungsverordnung ... SR 823.111» nennt explizit Art. 53a."
+  },
+  {
+    "ITEM": 12,
+    "ARTICLE_EID": "art_29",
+    "TARGET_SR": "SR 220",
+    "assigned_articles": ["Art. 336c"],
+    "confidence": "high",
+    "reasoning": "«nach Artikel 336c OR SR 220» verknüpft eindeutig Art. 336c mit dem OR."
+  },
+  {
+    "ITEM": 13,
+    "ARTICLE_EID": "art_31_a",
+    "TARGET_SR": "SR 220",
+    "assigned_articles": ["Art. 336c Abs. 1 lit. b"],
+    "confidence": "high",
+    "reasoning": "«gemäss Artikel 336c Absatz 1 Buchstabe b OR SR 220» nennt klar Art. 336c Abs. 1 lit. b OR."
+  },
+  {
+    "ITEM": 14,
+    "ARTICLE_EID": "art_35",
+    "TARGET_SR": "SR 831.10",
+    "assigned_articles": ["Art. 21"],
+    "confidence": "high",
+    "reasoning": "«Referenzalters nach Artikel 21 des Bundesgesetzes ... SR 831.10 (AHVG)» verweist explizit auf Art. 21 AHVG."
+  },
+  {
+    "ITEM": 15,
+    "ARTICLE_EID": "art_44_a",
+    "TARGET_SR": "SR 831.10",
+    "assigned_articles": ["Art. 21"],
+    "confidence": "high",
+    "reasoning": "«Referenzalters nach Artikel 21 AHVG SR 831.10» nennt Art. 21 AHVG."
+  },
+  {
+    "ITEM": 16,
+    "ARTICLE_EID": "art_51",
+    "TARGET_SR": "SR 830.1",
+    "assigned_articles": ["Art. 7"],
+    "confidence": "high",
+    "reasoning": "«(Art. 7 des BG ... SR 830.1 über den Allgemeinen Teil des Sozialversicherungsrechts)» verweist klar auf Art. 7 ATSG."
+  },
+  {
+    "ITEM": 17,
+    "ARTICLE_EID": "art_51_a",
+    "TARGET_SR": "SR 836.2",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "high",
+    "reasoning": "«nach dem Familienzulagengesetz ... SR 836.2» ohne Artikelangabe; allgemeine Verweisung."
+  },
+  {
+    "ITEM": 18,
+    "ARTICLE_EID": "art_51_a",
+    "TARGET_SR": "SR 836.21",
+    "assigned_articles": ["Art. 7 Abs. 1 lit. a"],
+    "confidence": "high",
+    "reasoning": "«im Sinne von Artikel 7 Absatz 1 Buchstabe a der Familienzulagenverordnung ... SR 836.21» nennt explizit Art. 7 Abs. 1 lit. a."
+  },
+  {
+    "ITEM": 19,
+    "ARTICLE_EID": "art_51_a",
+    "TARGET_SR": "SR 836.21",
+    "assigned_articles": ["Art. 4", "Art. 5"],
+    "confidence": "high",
+    "reasoning": "«sofern die Voraussetzungen nach den Artikeln 4 und 5 der Familienzulagenverordnung ... SR 836.21 erfüllt sind» nennt Art. 4 und 5."
+  },
+  {
+    "ITEM": 20,
+    "ARTICLE_EID": "art_56_c",
+    "TARGET_SR": "SR 832.10",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "high",
+    "reasoning": "«im Rahmen des Bundesgesetzes ... SR 832.10 über die Krankenversicherung» ohne Artikelangabe; allgemeine Verweisung."
+  },
+  {
+    "ITEM": 21,
+    "ARTICLE_EID": "art_56_c",
+    "TARGET_SR": "SR 832.20",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "high",
+    "reasoning": "«des Bundesgesetzes ... SR 832.20 über die Unfallversicherung» ohne Artikelangabe; allgemeine Verweisung."
+  },
+  {
+    "ITEM": 22,
+    "ARTICLE_EID": "art_60",
+    "TARGET_SR": "SR 834.1",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "high",
+    "reasoning": "«Mutterschaftsentschädigung nach dem Erwerbsersatzgesetz ... SR 834.1» ohne Artikelangabe; allgemeine Verweisung."
+  },
+  {
+    "ITEM": 23,
+    "ARTICLE_EID": "art_64",
+    "TARGET_SR": "SR 822.11",
+    "assigned_articles": ["Art. 17b"],
+    "confidence": "high",
+    "reasoning": "«Zuschläge ... nach Artikel 17b des Arbeitsgesetzes ... SR 822.11» nennt explizit Art. 17b ArG."
+  },
+  {
+    "ITEM": 24,
+    "ARTICLE_EID": "art_64_b",
+    "TARGET_SR": "SR 172.220.111.35",
+    "assigned_articles": ["Art. 3 Abs. 2 lit. a", "Art. 3 Abs. 2 lit. b"],
+    "confidence": "high",
+    "reasoning": "«nach Artikel 3 Absatz 2 Buchstabe a oder b der Verordnung ... SR 172.220.111.35» nennt klar Art. 3 Abs. 2 lit. a und b."
+  },
+  {
+    "ITEM": 25,
+    "ARTICLE_EID": "art_75_b",
+    "TARGET_SR": "SR 210",
+    "assigned_articles": ["Art. 252"],
+    "confidence": "high",
+    "reasoning": "«Kindesverhältnis nach Artikel 252 des Zivilgesetzbuches SR 210» verweist eindeutig auf Art. 252 ZGB."
+  },
+  {
+    "ITEM": 26,
+    "ARTICLE_EID": "art_88",
+    "TARGET_SR": "SR 192.12",
+    "assigned_articles": ["Art. 2 Abs. 1 lit. a", "Art. 2 Abs. 1 lit. b", "Art. 2 Abs. 1 lit. c", "Art. 2 Abs. 1 lit. h", "Art. 2 Abs. 1 lit. i", "Art. 2 Abs. 1 lit. j", "Art. 2 Abs. 1 lit. k", "Art. 2 Abs. 1 lit. l", "Art. 2 Abs. 1 lit. m"],
+    "confidence": "high",
+    "reasoning": "«nach Artikel 2 Absatz 1 Buchstaben a, b, c, h, i, j, k, l und m des Gaststaatgesetzes ... SR 192.12» nennt diese Buchstaben ausdrücklich."
+  },
+  {
+    "ITEM": 27,
+    "ARTICLE_EID": "art_88_d_bis",
+    "TARGET_SR": "SR 831.40",
+    "assigned_articles": ["Art. 33a"],
+    "confidence": "high",
+    "reasoning": "«(Art. 33a BVG SR 831.40)» verweist klar auf Art. 33a BVG."
+  },
+  {
+    "ITEM": 28,
+    "ARTICLE_EID": "art_88_d_ter",
+    "TARGET_SR": "SR 831.40",
+    "assigned_articles": ["Art. 33"],
+    "confidence": "high",
+    "reasoning": "«(Art. 33 BVG SR 831.40)» nennt explizit Art. 33 BVG."
+  },
+  {
+    "ITEM": 29,
+    "ARTICLE_EID": "art_88_f",
+    "TARGET_SR": "SR 831.10",
+    "assigned_articles": ["Art. 21"],
+    "confidence": "high",
+    "reasoning": "«Referenzalters nach Artikel 21 AHVG SR 831.10» verweist eindeutig auf Art. 21 AHVG."
+  },
+  {
+    "ITEM": 30,
+    "ARTICLE_EID": "art_94",
+    "TARGET_SR": "SR 312.0",
+    "assigned_articles": ["Art. 302"],
+    "confidence": "high",
+    "reasoning": "«Anzeige- oder Meldepflicht ... nach Artikel 302 der Strafprozessordnung SR 312.0» nennt Art. 302 StPO."
+  },
+  {
+    "ITEM": 31,
+    "ARTICLE_EID": "art_94",
+    "TARGET_SR": "SR 171.10",
+    "assigned_articles": ["Art. 156"],
+    "confidence": "high",
+    "reasoning": "«Vorbehalten bleibt Artikel 156 des Parlamentsgesetzes ... SR 171.10» verweist klar auf Art. 156 ParlG."
+  },
+  {
+    "ITEM": 32,
+    "ARTICLE_EID": "art_94_a",
+    "TARGET_SR": "SR 172.021",
+    "assigned_articles": ["Art. 10"],
+    "confidence": "high",
+    "reasoning": "«gilt Artikel 10 des Verwaltungsverfahrensgesetzes ... SR 172.021» nennt Art. 10 VwVG."
+  },
+  {
+    "ITEM": 33,
+    "ARTICLE_EID": "art_94_f",
+    "TARGET_SR": "SR 128.31",
+    "assigned_articles": ["Art. 11"],
+    "confidence": "high",
+    "reasoning": "«unter den Voraussetzungen nach Artikel 11 der Verordnung ... SR 128.31» verweist auf Art. 11 VPSP."
+  },
+  {
+    "ITEM": 34,
+    "ARTICLE_EID": "art_98",
+    "TARGET_SR": "SR 172.021",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "high",
+    "reasoning": "«wird durch das Verwaltungsverfahrensgesetz ... SR 172.021 geregelt» ohne Artikelangabe; allgemeine Verweisung."
+  },
+  {
+    "ITEM": 35,
+    "ARTICLE_EID": "art_101",
+    "TARGET_SR": "SR 170.32",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "high",
+    "reasoning": "«richten sich nach dem Verantwortlichkeitsgesetz ... SR 170.32» ohne konkrete Artikel; allgemeine Verweisung."
+  },
+  {
+    "ITEM": 36,
+    "ARTICLE_EID": "art_102",
+    "TARGET_SR": "SR 170.321",
+    "assigned_articles": ["Art. 7"],
+    "confidence": "high",
+    "reasoning": "«richtet sich nach Artikel 7 der Verordnung ... SR 170.321 zum Verantwortlichkeitsgesetz» nennt Art. 7."
+  },
+  {
+    "ITEM": 37,
+    "ARTICLE_EID": "art_105_b",
+    "TARGET_SR": "SR 172.220.141.1",
+    "assigned_articles": ["Art. 32a"],
+    "confidence": "high",
+    "reasoning": "«nach Artikel 32a VRAB SR 172.220.141.1» verweist klar auf Art. 32a VRAB."
+  },
+  {
+    "ITEM": 38,
+    "ARTICLE_EID": "art_105_b",
+    "TARGET_SR": "SR 831.101",
+    "assigned_articles": ["Art. 28"],
+    "confidence": "high",
+    "reasoning": "«Beiträge nach Artikel 28 der Verordnung ... SR 831.101 über die AHV» nennt Art. 28 AHVV."
+  },
+  {
+    "ITEM": 39,
+    "ARTICLE_EID": "art_105_b",
+    "TARGET_SR": "SR 831.10",
+    "assigned_articles": ["Art. 21"],
+    "confidence": "high",
+    "reasoning": "«bis zum Erreichen des Referenzalters nach Artikel 21 AHVG SR 831.10» verweist auf Art. 21 AHVG."
+  },
+  {
+    "ITEM": 40,
+    "ARTICLE_EID": "art_113",
+    "TARGET_SR": "SR 220",
+    "assigned_articles": ["Art. 127", "Art. 128"],
+    "confidence": "high",
+    "reasoning": "«richten sich nach den Artikeln 127 und 128 OR SR 220» nennt explizit Art. 127 und 128 OR."
+  },
+  {
+    "ITEM": 41,
+    "ARTICLE_EID": "art_116_c",
+    "TARGET_SR": "SR 831.40",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "medium",
+    "reasoning": "«im Rahmen des BVG SR 831.40» ohne konkrete Artikel; allgemeine Verweisung auf das BVG."
+  },
+  {
+    "ITEM": 42,
+    "ARTICLE_EID": "art_116_l",
+    "TARGET_SR": "SR 831.10",
+    "assigned_articles": ["Übergangsbestimmungen Änderung 17.12.2021, lit. a–d"],
+    "confidence": "medium",
+    "reasoning": "Verweist auf «Buchstabe a Buchstaben a–d der Übergangsbestimmungen der Änderung vom 17. Dezember 2021 des AHVG SR 831.10»; dies sind Übergangsbestimmungen ohne klassische Artikelnummer, daher als solche bezeichnet."
+  },
+  {
+    "ITEM": 43,
+    "ARTICLE_EID": "art_116_l",
+    "TARGET_SR": "SR 831.101",
+    "assigned_articles": ["Art. 28"],
+    "confidence": "high",
+    "reasoning": "«Beiträge nach Artikel 28 der Verordnung ... SR 831.101 über die AHV» nennt Art. 28 AHVV."
+  },
+  {
+    "ITEM": 44,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 172.220.1",
+    "assigned_articles": ["Art. 2"],
+    "confidence": "high",
+    "reasoning": "Kopfverweis «(Art. 2 BPG)» kennzeichnet Art. 2 BPG als Rechtsgrundlage für den gesamten Artikel."
+  },
+  {
+    "ITEM": 45,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": "SR 172.220.1",
+    "assigned_articles": ["Art. 3"],
+    "confidence": "high",
+    "reasoning": "Kopfverweis «(Art. 3 BPG)» → Art. 3 BPG."
+  },
+  {
+    "ITEM": 46,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": "SR 172.220.1",
+    "assigned_articles": ["Art. 4 Abs. 2 lit. b"],
+    "confidence": "high",
+    "reasoning": "«(Art. 4 Abs. 2 Bst. b BPG)» nennt Art. 4 Abs. 2 lit. b BPG."
+  },
+  {
+    "ITEM": 47,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": "SR 172.220.1",
+    "assigned_articles": ["Art. 4 Abs. 2 lit. c"],
+    "confidence": "high",
+    "reasoning": "«(Art. 4 Abs. 2 Bst. c BPG)»."
+  },
+  {
+    "ITEM": 48,
+    "ARTICLE_EID": "art_6",
+    "TARGET_SR": "SR 172.220.1",
+    "assigned_articles": ["Art. 4 Abs. 2 lit. d"],
+    "confidence": "high",
+    "reasoning": "«(Art. 4 Abs. 2 Bst. d BPG)»."
+  },
+  {
+    "ITEM": 49,
+    "ARTICLE_EID": "art_8",
+    "TARGET_SR": "SR 172.220.1",
+    "assigned_articles": ["Art. 4 Abs. 2 lit. f"],
+    "confidence": "high",
+    "reasoning": "«(Art. 4 Abs. 2 Bst. f BPG)»."
+  },
+  {
+    "ITEM": 50,
+    "ARTICLE_EID": "art_9",
+    "TARGET_SR": "SR 172.220.1",
+    "assigned_articles": ["Art. 4 Abs. 2 lit. g"],
+    "confidence": "high",
+    "reasoning": "«(Art. 4 Abs. 2 Bst. g BPG)»."
+  },
+  {
+    "ITEM": 51,
+    "ARTICLE_EID": "art_10",
+    "TARGET_SR": "SR 172.220.1",
+    "assigned_articles": ["Art. 4 Abs. 2 lit. h", "Art. 32 lit. d"],
+    "confidence": "high",
+    "reasoning": "«(Art. 4 Abs. 2 Bst. h und 32 Bst. d BPG)» nennt beide Bestimmungen."
+  },
+  {
+    "ITEM": 52,
+    "ARTICLE_EID": "art_10_a",
+    "TARGET_SR": "SR 172.220.1",
+    "assigned_articles": ["Art. 32 lit. d"],
+    "confidence": "high",
+    "reasoning": "«(Art. 32 Bst. d BPG)»."
+  },
+  {
+    "ITEM": 53,
+    "ARTICLE_EID": "art_10_b",
+    "TARGET_SR": "SR 172.220.1",
+    "assigned_articles": ["Art. 32 lit. d"],
+    "confidence": "high",
+    "reasoning": "«(Art. 32 Bst. d BPG)»."
+  },
+  {
+    "ITEM": 54,
+    "ARTICLE_EID": "art_10_c",
+    "TARGET_SR": "SR 172.220.1",
+    "assigned_articles": ["Art. 32 lit. d"],
+    "confidence": "high",
+    "reasoning": "«(Art. 32 Bst. d BPG)»."
+  },
+  {
+    "ITEM": 55,
+    "ARTICLE_EID": "art_11",
+    "TARGET_SR": "SR 172.220.1",
+    "assigned_articles": ["Art. 4 Abs. 2 lit. g"],
+    "confidence": "high",
+    "reasoning": "«(Art. 4 Abs. 2 Bst. g BPG)»."
+  },
+  {
+    "ITEM": 56,
+    "ARTICLE_EID": "art_11_a",
+    "TARGET_SR": "SR 172.220.1",
+    "assigned_articles": ["Art. 4 Abs. 2 lit. g", "Art. 21 Abs. 1 lit. d", "Art. 27d Abs. 1"],
+    "confidence": "high",
+    "reasoning": "«(Art. 4 Abs. 2 Bst. g, 21 Abs. 1 Bst. d und 27d Abs. 1 BPG)»."
+  },
+  {
+    "ITEM": 57,
+    "ARTICLE_EID": "art_12",
+    "TARGET_SR": "SR 172.220.1",
+    "assigned_articles": ["Art. 4 Abs. 2 lit. i"],
+    "confidence": "high",
+    "reasoning": "«(Art. 4 Abs. 2 Bst. i BPG)»."
+  },
+  {
+    "ITEM": 58,
+    "ARTICLE_EID": "art_13",
+    "TARGET_SR": "SR 172.220.1",
+    "assigned_articles": ["Art. 4 Abs. 2 lit. j"],
+    "confidence": "high",
+    "reasoning": "«(Art. 4 Abs. 2 Bst. j BPG)»."
+  },
+  {
+    "ITEM": 59,
+    "ARTICLE_EID": "art_14",
+    "TARGET_SR": "SR 172.220.1",
+    "assigned_articles": ["Art. 4 Abs. 2 lit. k"],
+    "confidence": "high",
+    "reasoning": "«(Art. 4 Abs. 2 Bst. k BPG)»."
+  },
+  {
+    "ITEM": 60,
+    "ARTICLE_EID": "art_15",
+    "TARGET_SR": "SR 172.220.1",
+    "assigned_articles": ["Art. 4 Abs. 3"],
+    "confidence": "high",
+    "reasoning": "«(Art. 4 Abs. 3 BPG)»."
+  },
+  {
+    "ITEM": 61,
+    "ARTICLE_EID": "art_16",
+    "TARGET_SR": "SR 172.220.1",
+    "assigned_articles": ["Art. 4 Abs. 3"],
+    "confidence": "high",
+    "reasoning": "«(Art. 4 Abs. 3 BPG)»."
+  },
+  {
+    "ITEM": 62,
+    "ARTICLE_EID": "art_17",
+    "TARGET_SR": "SR 172.220.1",
+    "assigned_articles": ["Art. 4 Abs. 3"],
+    "confidence": "high",
+    "reasoning": "«(Art. 4 Abs. 3 BPG)»."
+  },
+  {
+    "ITEM": 63,
+    "ARTICLE_EID": "art_18",
+    "TARGET_SR": "SR 172.220.1",
+    "assigned_articles": ["Art. 5"],
+    "confidence": "high",
+    "reasoning": "«(Art. 5 BPG)»."
+  },
+  {
+    "ITEM": 64,
+    "ARTICLE_EID": "art_19",
+    "TARGET_SR": "SR 172.220.1",
+    "assigned_articles": ["Art. 5"],
+    "confidence": "high",
+    "reasoning": "«(Art. 5 BPG)»."
+  },
+  {
+    "ITEM": 65,
+    "ARTICLE_EID": "art_20_a",
+    "TARGET_SR": "SR 172.220.1",
+    "assigned_articles": ["Art. 5"],
+    "confidence": "high",
+    "reasoning": "«(Art. 5 BPG)»."
+  },
+  {
+    "ITEM": 66,
+    "ARTICLE_EID": "art_21",
+    "TARGET_SR": "SR 172.220.1",
+    "assigned_articles": ["Art. 5", "Art. 21"],
+    "confidence": "high",
+    "reasoning": "Kopfverweis «(Art. 5 BPG)» plus im Text «stellt die Grundlagen für die Berichterstattung ... (Art. 21)»; letzterer ist klar als Art. 21 BPG zu verstehen."
+  },
+  {
+    "ITEM": 67,
+    "ARTICLE_EID": "art_22",
+    "TARGET_SR": "SR 172.220.1",
+    "assigned_articles": ["Art. 7"],
+    "confidence": "high",
+    "reasoning": "«(Art. 7 BPG)»."
+  },
+  {
+    "ITEM": 68,
+    "ARTICLE_EID": "art_23",
+    "TARGET_SR": "SR 172.220.1",
+    "assigned_articles": ["Art. 8 Abs. 3"],
+    "confidence": "high",
+    "reasoning": "«(Art. 8 Abs. 3 BPG)»."
+  },
+  {
+    "ITEM": 69,
+    "ARTICLE_EID": "art_24",
+    "TARGET_SR": "SR 172.220.1",
+    "assigned_articles": ["Art. 8 Abs. 3"],
+    "confidence": "high",
+    "reasoning": "«(Art. 8 Abs. 3 BPG)»."
+  },
+  {
+    "ITEM": 70,
+    "ARTICLE_EID": "art_25",
+    "TARGET_SR": "SR 172.220.1",
+    "assigned_articles": ["Art. 8"],
+    "confidence": "high",
+    "reasoning": "«(Art. 8 BPG)»."
+  },
+  {
+    "ITEM": 71,
+    "ARTICLE_EID": "art_25_a",
+    "TARGET_SR": "SR 172.220.1",
+    "assigned_articles": ["Art. 4 Abs. 2 lit. j"],
+    "confidence": "high",
+    "reasoning": "«(Art. 4 Abs. 2 Bst. j BPG)»."
+  },
+  {
+    "ITEM": 72,
+    "ARTICLE_EID": "art_25_b",
+    "TARGET_SR": "SR 172.220.1",
+    "assigned_articles": ["Art. 4 Abs. 2 lit. j"],
+    "confidence": "high",
+    "reasoning": "«(Art. 4 Abs. 2 Bst. j BPG)»."
+  },
+  {
+    "ITEM": 73,
+    "ARTICLE_EID": "art_26",
+    "TARGET_SR": "SR 172.220.1",
+    "assigned_articles": ["Art. 10 Abs. 3 lit. f"],
+    "confidence": "high",
+    "reasoning": "Kopfverweis «(Art. 10 Abs. 3 Bst. f BPG)» und mehrfacher Textbezug «Kündigung nach Artikel 10 Absatz 3 Buchstabe f BPG»; alle verweisen auf dieselbe Norm."
+  },
+  {
+    "ITEM": 74,
+    "ARTICLE_EID": "art_27",
+    "TARGET_SR": "SR 172.220.1",
+    "assigned_articles": ["Art. 8 Abs. 2"],
+    "confidence": "high",
+    "reasoning": "«(Art. 8 Abs. 2 BPG)»."
+  },
+  {
+    "ITEM": 75,
+    "ARTICLE_EID": "art_28",
+    "TARGET_SR": "SR 172.220.1",
+    "assigned_articles": ["Art. 9", "Art. 10"],
+    "confidence": "high",
+    "reasoning": "Kopfverweis «(Art. 9 BPG)» plus im Text «Kündigungsschutzes nach Artikel 10 BPG»; beide sind BPG-Artikel."
+  },
+  {
+    "ITEM": 76,
+    "ARTICLE_EID": "art_29",
+    "TARGET_SR": "SR 172.220.1",
+    "assigned_articles": ["Art. 10"],
+    "confidence": "high",
+    "reasoning": "«(Art. 10 BPG)»."
+  },
+  {
+    "ITEM": 77,
+    "ARTICLE_EID": "art_30",
+    "TARGET_SR": "SR 172.220.1",
+    "assigned_articles": ["Art. 8 Abs. 1", "Art. 13", "Art. 10"],
+    "confidence": "high",
+    "reasoning": "Kopfverweis «(Art. 8 Abs. 1 und 13 BPG)» plus Text «nach den Bestimmungen von Artikel 10 BPG gekündigt»."
+  },
+  {
+    "ITEM": 78,
+    "ARTICLE_EID": "art_30_a",
+    "TARGET_SR": "SR 172.220.1",
+    "assigned_articles": ["Art. 12 Abs. 2"],
+    "confidence": "high",
+    "reasoning": "«(Art. 12 Abs. 2 BPG)»."
+  },
+  {
+    "ITEM": 79,
+    "ARTICLE_EID": "art_31",
+    "TARGET_SR": "SR 172.220.1",
+    "assigned_articles": ["Art. 19 Abs. 1", "Art. 19 Abs. 2", "Art. 10 Abs. 3 lit. a–d", "Art. 10 Abs. 4", "Art. 3"],
+    "confidence": "high",
+    "reasoning": "Kopfverweis «(Art. 19 Abs. 1 und 2 BPG)»; Text nennt zusätzlich «Artikel 10 Absatz 3 Buchstaben a–d oder Absatz 4 BPG» und «Arbeitgeber nach Artikel 3 BPG»."
+  },
+  {
+    "ITEM": 80,
+    "ARTICLE_EID": "art_31_a",
+    "TARGET_SR": "SR 172.220.1",
+    "assigned_articles": ["Art. 10 Abs. 3", "Art. 12 Abs. 2", "Art. 11a", "Art. 56 Abs. 4", "Art. 10 Abs. 4"],
+    "confidence": "high",
+    "reasoning": "Kopfverweis «(Art. 10 Abs. 3 und 12 Abs. 2 BPG)»; Text nennt «Artikel 10 Absatz 3 BPG», «Artikel 10 Absatz 3 Buchstabe c BPG», «Artikel 11a», «Artikel 56 Absatz 4» und «Artikel 10 Absätze 3 und 4 BPG»."
+  },
+  {
+    "ITEM": 81,
+    "ARTICLE_EID": "art_35",
+    "TARGET_SR": "SR 172.220.1",
+    "assigned_articles": ["Art. 10 Abs. 2"],
+    "confidence": "high",
+    "reasoning": "«(Art. 10 Abs. 2 BPG)»."
+  },
+  {
+    "ITEM": 82,
+    "ARTICLE_EID": "art_36",
+    "TARGET_SR": "SR 172.220.1",
+    "assigned_articles": ["Art. 15"],
+    "confidence": "high",
+    "reasoning": "«(Art. 15 BPG)»."
+  },
+  {
+    "ITEM": 83,
+    "ARTICLE_EID": "art_37",
+    "TARGET_SR": "SR 172.220.1",
+    "assigned_articles": ["Art. 15"],
+    "confidence": "high",
+    "reasoning": "«(Art. 15 BPG)»."
+  },
+  {
+    "ITEM": 84,
+    "ARTICLE_EID": "art_38",
+    "TARGET_SR": "SR 172.220.1",
+    "assigned_articles": ["Art. 15"],
+    "confidence": "high",
+    "reasoning": "«(Art. 15 BPG)»."
+  },
+  {
+    "ITEM": 85,
+    "ARTICLE_EID": "art_38_a",
+    "TARGET_SR": "SR 172.220.1",
+    "assigned_articles": ["Art. 15"],
+    "confidence": "high",
+    "reasoning": "«(Art. 15 BPG)»."
+  },
+  {
+    "ITEM": 86,
+    "ARTICLE_EID": "art_39",
+    "TARGET_SR": "SR 172.220.1",
+    "assigned_articles": ["Art. 15"],
+    "confidence": "high",
+    "reasoning": "«(Art. 15 BPG)»."
+  },
+  {
+    "ITEM": 87,
+    "ARTICLE_EID": "art_40",
+    "TARGET_SR": "SR 172.220.1",
+    "assigned_articles": ["Art. 15"],
+    "confidence": "high",
+    "reasoning": "«(Art. 15 BPG)»."
+  },
+  {
+    "ITEM": 88,
+    "ARTICLE_EID": "art_41",
+    "TARGET_SR": "SR 172.220.1",
+    "assigned_articles": ["Art. 15"],
+    "confidence": "high",
+    "reasoning": "«(Art. 15 BPG)»."
+  },
+  {
+    "ITEM": 89,
+    "ARTICLE_EID": "art_42",
+    "TARGET_SR": "SR 172.220.1",
+    "assigned_articles": ["Art. 15"],
+    "confidence": "high",
+    "reasoning": "«(Art. 15 BPG)»."
+  },
+  {
+    "ITEM": 90,
+    "ARTICLE_EID": "art_43",
+    "TARGET_SR": "SR 172.220.1",
+    "assigned_articles": ["Art. 15"],
+    "confidence": "high",
+    "reasoning": "«(Art. 15 BPG)»."
+  },
+  {
+    "ITEM": 91,
+    "ARTICLE_EID": "art_44",
+    "TARGET_SR": "SR 172.220.1",
+    "assigned_articles": ["Art. 16"],
+    "confidence": "high",
+    "reasoning": "«(Art. 16 BPG)»."
+  },
+  {
+    "ITEM": 92,
+    "ARTICLE_EID": "art_44_a",
+    "TARGET_SR": "SR 172.220.1",
+    "assigned_articles": ["Art. 15"],
+    "confidence": "high",
+    "reasoning": "«(Art. 15 BPG)»."
+  },
+  {
+    "ITEM": 93,
+    "ARTICLE_EID": "art_45",
+    "TARGET_SR": "SR 172.220.1",
+    "assigned_articles": ["Art. 15"],
+    "confidence": "high",
+    "reasoning": "«(Art. 15 BPG)»."
+  },
+  {
+    "ITEM": 94,
+    "ARTICLE_EID": "art_46",
+    "TARGET_SR": "SR 172.220.1",
+    "assigned_articles": ["Art. 15"],
+    "confidence": "high",
+    "reasoning": "«(Art. 15 BPG)»."
+  },
+  {
+    "ITEM": 95,
+    "ARTICLE_EID": "art_48",
+    "TARGET_SR": "SR 172.220.1",
+    "assigned_articles": ["Art. 15"],
+    "confidence": "high",
+    "reasoning": "«(Art. 15 BPG)»."
+  },
+  {
+    "ITEM": 96,
+    "ARTICLE_EID": "art_49",
+    "TARGET_SR": "SR 172.220.1",
+    "assigned_articles": ["Art. 15"],
+    "confidence": "high",
+    "reasoning": "«(Art. 15 BPG)»."
+  },
+  {
+    "ITEM": 97,
+    "ARTICLE_EID": "art_49_a",
+    "TARGET_SR": "SR 172.220.1",
+    "assigned_articles": ["Art. 15"],
+    "confidence": "high",
+    "reasoning": "«(Art. 15 BPG)»."
+  },
+  {
+    "ITEM": 98,
+    "ARTICLE_EID": "art_49_b",
+    "TARGET_SR": "SR 172.220.1",
+    "assigned_articles": ["Art. 15"],
+    "confidence": "high",
+    "reasoning": "«(Art. 15 BPG)»."
+  },
+  {
+    "ITEM": 99,
+    "ARTICLE_EID": "art_50",
+    "TARGET_SR": "SR 172.220.1",
+    "assigned_articles": ["Art. 15"],
+    "confidence": "high",
+    "reasoning": "«(Art. 15 BPG)»."
+  },
+  {
+    "ITEM": 100,
+    "ARTICLE_EID": "art_52",
+    "TARGET_SR": "SR 172.220.1",
+    "assigned_articles": ["Art. 15"],
+    "confidence": "high",
+    "reasoning": "«(Art. 15 BPG)»."
+  },
+  {
+    "ITEM": 101,
+    "ARTICLE_EID": "art_53",
+    "TARGET_SR": "SR 172.220.1",
+    "assigned_articles": ["Art. 15"],
+    "confidence": "high",
+    "reasoning": "«(Art. 15 BPG)»."
+  },
+  {
+    "ITEM": 102,
+    "ARTICLE_EID": "art_56",
+    "TARGET_SR": "SR 172.220.1",
+    "assigned_articles": ["Art. 29", "Art. 15", "Art. 16"],
+    "confidence": "high",
+    "reasoning": "Kopfverweis «(Art. 29 BPG)»; Text nennt «nach den Artikeln 15 und 16 BPG»."
+  },
+  {
+    "ITEM": 103,
+    "ARTICLE_EID": "art_56_a",
+    "TARGET_SR": "SR 172.220.1",
+    "assigned_articles": ["Art. 29"],
+    "confidence": "high",
+    "reasoning": "«(Art. 29 BPG)»."
+  },
+  {
+    "ITEM": 104,
+    "ARTICLE_EID": "art_56_b",
+    "TARGET_SR": "SR 172.220.1",
+    "assigned_articles": ["Art. 29"],
+    "confidence": "high",
+    "reasoning": "«(Art. 29 BPG)»."
+  },
+  {
+    "ITEM": 105,
+    "ARTICLE_EID": "art_56_c",
+    "TARGET_SR": "SR 172.220.1",
+    "assigned_articles": ["Art. 29"],
+    "confidence": "high",
+    "reasoning": "«(Art. 29 BPG)»."
+  },
+  {
+    "ITEM": 106,
+    "ARTICLE_EID": "art_57",
+    "TARGET_SR": "SR 172.220.1",
+    "assigned_articles": ["Art. 29"],
+    "confidence": "high",
+    "reasoning": "«(Art. 29 BPG)»."
+  },
+  {
+    "ITEM": 107,
+    "ARTICLE_EID": "art_58",
+    "TARGET_SR": "SR 172.220.1",
+    "assigned_articles": ["Art. 29 Abs. 3"],
+    "confidence": "high",
+    "reasoning": "«(Art. 29 Abs. 3 BPG)»."
+  },
+  {
+    "ITEM": 108,
+    "ARTICLE_EID": "art_59",
+    "TARGET_SR": "SR 172.220.1",
+    "assigned_articles": ["Art. 29 Abs. 1"],
+    "confidence": "high",
+    "reasoning": "«(Art. 29 Abs. 1 BPG)»."
+  },
+  {
+    "ITEM": 109,
+    "ARTICLE_EID": "art_60",
+    "TARGET_SR": "SR 172.220.1",
+    "assigned_articles": ["Art. 29 Abs. 1"],
+    "confidence": "high",
+    "reasoning": "«(Art. 29 Abs. 1 BPG)»."
+  },
+  {
+    "ITEM": 110,
+    "ARTICLE_EID": "art_60_b",
+    "TARGET_SR": "SR 172.220.1",
+    "assigned_articles": ["Art. 17a"],
+    "confidence": "high",
+    "reasoning": "«(Art. 17a BPG)»."
+  },
+  {
+    "ITEM": 111,
+    "ARTICLE_EID": "art_60_c",
+    "TARGET_SR": "SR 172.220.1",
+    "assigned_articles": ["Art. 17a"],
+    "confidence": "high",
+    "reasoning": "«(Art. 17a BPG)»."
+  },
+  {
+    "ITEM": 112,
+    "ARTICLE_EID": "art_61",
+    "TARGET_SR": "SR 172.220.1",
+    "assigned_articles": ["Art. 17a Abs. 4"],
+    "confidence": "high",
+    "reasoning": "«(Art. 17a Abs. 4 BPG)»."
+  },
+  {
+    "ITEM": 113,
+    "ARTICLE_EID": "art_62",
+    "TARGET_SR": "SR 172.220.1",
+    "assigned_articles": ["Art. 29 Abs. 2"],
+    "confidence": "high",
+    "reasoning": "«(Art. 29 Abs. 2 BPG)»."
+  },
+  {
+    "ITEM": 114,
+    "ARTICLE_EID": "art_63",
+    "TARGET_SR": "SR 172.220.1",
+    "assigned_articles": ["Art. 29 Abs. 1", "Art. 29 Abs. 2"],
+    "confidence": "high",
+    "reasoning": "«(Art. 29 Abs. 1 und 2 BPG)»."
+  },
+  {
+    "ITEM": 115,
+    "ARTICLE_EID": "art_64",
+    "TARGET_SR": "SR 172.220.1",
+    "assigned_articles": ["Art. 17a"],
+    "confidence": "high",
+    "reasoning": "«(Art. 17a BPG)»."
+  },
+  {
+    "ITEM": 116,
+    "ARTICLE_EID": "art_64_a",
+    "TARGET_SR": "SR 172.220.1",
+    "assigned_articles": ["Art. 17a"],
+    "confidence": "high",
+    "reasoning": "«(Art. 17a BPG)»."
+  },
+  {
+    "ITEM": 117,
+    "ARTICLE_EID": "art_64_a_bis",
+    "TARGET_SR": "SR 172.220.1",
+    "assigned_articles": ["Art. 17a"],
+    "confidence": "high",
+    "reasoning": "«(Art. 17a BPG)»."
+  },
+  {
+    "ITEM": 118,
+    "ARTICLE_EID": "art_64_b",
+    "TARGET_SR": "SR 172.220.1",
+    "assigned_articles": ["Art. 17a"],
+    "confidence": "high",
+    "reasoning": "«(Art. 17a BPG)»."
+  },
+  {
+    "ITEM": 119,
+    "ARTICLE_EID": "art_65",
+    "TARGET_SR": "SR 172.220.1",
+    "assigned_articles": ["Art. 17a"],
+    "confidence": "high",
+    "reasoning": "«(Art. 17a BPG)»."
+  },
+  {
+    "ITEM": 120,
+    "ARTICLE_EID": "art_66",
+    "TARGET_SR": "SR 172.220.1",
+    "assigned_articles": ["Art. 17a"],
+    "confidence": "high",
+    "reasoning": "«(Art. 17a BPG)»."
+  },
+  {
+    "ITEM": 121,
+    "ARTICLE_EID": "art_67",
+    "TARGET_SR": "SR 172.220.1",
+    "assigned_articles": ["Art. 17a"],
+    "confidence": "high",
+    "reasoning": "«(Art. 17a BPG)»."
+  },
+  {
+    "ITEM": 122,
+    "ARTICLE_EID": "art_67_a",
+    "TARGET_SR": "SR 172.220.1",
+    "assigned_articles": ["Art. 17a"],
+    "confidence": "high",
+    "reasoning": "«(Art. 17a BPG)»."
+  },
+  {
+    "ITEM": 123,
+    "ARTICLE_EID": "art_68",
+    "TARGET_SR": "SR 172.220.1",
+    "assigned_articles": ["Art. 17a"],
+    "confidence": "high",
+    "reasoning": "«(Art. 17a BPG)»."
+  },
+  {
+    "ITEM": 124,
+    "ARTICLE_EID": "art_69",
+    "TARGET_SR": "SR 172.220.1",
+    "assigned_articles": ["Art. 18 Abs. 1"],
+    "confidence": "high",
+    "reasoning": "«(Art. 18 Abs. 1 BPG)»."
+  },
+  {
+    "ITEM": 125,
+    "ARTICLE_EID": "art_70",
+    "TARGET_SR": "SR 172.220.1",
+    "assigned_articles": ["Art. 18 Abs. 1", "Art. 21 Abs. 1 lit. c"],
+    "confidence": "high",
+    "reasoning": "«(Art. 18 Abs. 1 und 21 Abs. 1 Bst. c BPG)»."
+  },
+  {
+    "ITEM": 126,
+    "ARTICLE_EID": "art_71",
+    "TARGET_SR": "SR 172.220.1",
+    "assigned_articles": ["Art. 18 Abs. 1"],
+    "confidence": "high",
+    "reasoning": "«(Art. 18 Abs. 1 BPG)»."
+  },
+  {
+    "ITEM": 127,
+    "ARTICLE_EID": "art_72",
+    "TARGET_SR": "SR 172.220.1",
+    "assigned_articles": ["Art. 18 Abs. 2"],
+    "confidence": "high",
+    "reasoning": "«(Art. 18 Abs. 2 BPG)»."
+  },
+  {
+    "ITEM": 128,
+    "ARTICLE_EID": "art_73",
+    "TARGET_SR": "SR 172.220.1",
+    "assigned_articles": ["Art. 32 lit. b", "Art. 2 Abs. 1 lit. f", "Art. 2 Abs. 1 lit. g"],
+    "confidence": "high",
+    "reasoning": "Kopfverweis «(Art. 32 Bst. b BPG)»; Text nennt «Arbeitgebern nach Artikel 2 Absatz 1 Buchstaben f und g BPG»."
+  },
+  {
+    "ITEM": 129,
+    "ARTICLE_EID": "art_74",
+    "TARGET_SR": "SR 172.220.1",
+    "assigned_articles": ["Art. 32 lit. c"],
+    "confidence": "high",
+    "reasoning": "«(Art. 32 Bst. c BPG)»."
+  },
+  {
+    "ITEM": 130,
+    "ARTICLE_EID": "art_75",
+    "TARGET_SR": "SR 172.220.1",
+    "assigned_articles": ["Art. 32 lit. e"],
+    "confidence": "high",
+    "reasoning": "«(Art. 32 Bst. e BPG)»."
+  },
+  {
+    "ITEM": 131,
+    "ARTICLE_EID": "art_75_a",
+    "TARGET_SR": "SR 172.220.1",
+    "assigned_articles": ["Art. 4 Abs. 2 lit. i", "Art. 31 Abs. 2"],
+    "confidence": "high",
+    "reasoning": "«(Art. 4 Abs. 2 Bst. i und 31 Abs. 2 BPG)»."
+  },
+  {
+    "ITEM": 132,
+    "ARTICLE_EID": "art_75_b",
+    "TARGET_SR": "SR 172.220.1",
+    "assigned_articles": ["Art. 4 Abs. 2 lit. i", "Art. 31 Abs. 2"],
+    "confidence": "high",
+    "reasoning": "«(Art. 4 Abs. 2 Bst. i und 31 Abs. 2 BPG)»."
+  },
+  {
+    "ITEM": 133,
+    "ARTICLE_EID": "art_75_c",
+    "TARGET_SR": "SR 172.220.1",
+    "assigned_articles": ["Art. 4 Abs. 2 lit. i", "Art. 31 Abs. 2"],
+    "confidence": "high",
+    "reasoning": "«(Art. 4 Abs. 2 Bst. i und 31 Abs. 2 BPG)»."
+  },
+  {
+    "ITEM": 134,
+    "ARTICLE_EID": "art_75_d",
+    "TARGET_SR": "SR 172.220.1",
+    "assigned_articles": ["Art. 4 Abs. 2 lit. i", "Art. 31 Abs. 2"],
+    "confidence": "high",
+    "reasoning": "«(Art. 4 Abs. 2 Bst. i und 31 Abs. 2 BPG)»."
+  },
+  {
+    "ITEM": 135,
+    "ARTICLE_EID": "art_76",
+    "TARGET_SR": "SR 172.220.1",
+    "assigned_articles": ["Art. 32 lit. a", "Art. 32 lit. g"],
+    "confidence": "high",
+    "reasoning": "«(Art. 32 Bst. a und g BPG)»."
+  },
+  {
+    "ITEM": 136,
+    "ARTICLE_EID": "art_77",
+    "TARGET_SR": "SR 172.220.1",
+    "assigned_articles": ["Art. 18 Abs. 2"],
+    "confidence": "high",
+    "reasoning": "«(Art. 18 Abs. 2 BPG)»."
+  },
+  {
+    "ITEM": 137,
+    "ARTICLE_EID": "art_78",
+    "TARGET_SR": "SR 172.220.1",
+    "assigned_articles": ["Art. 19 Abs. 3", "Art. 19 Abs. 4", "Art. 19 Abs. 6 lit. b", "Art. 3"],
+    "confidence": "high",
+    "reasoning": "Kopfverweis «(Art. 19 Abs. 3, 4 und 6 Bst. b BPG)»; Text nennt «Artikel 19 Absatz 3 BPG», «Artikel 19 Absatz 4 BPG» und «Arbeitgeber nach Artikel 3 BPG»."
+  },
+  {
+    "ITEM": 138,
+    "ARTICLE_EID": "art_79",
+    "TARGET_SR": "SR 172.220.1",
+    "assigned_articles": ["Art. 19 Abs. 5", "Art. 19 Abs. 6 lit. a"],
+    "confidence": "high",
+    "reasoning": "«(Art. 19 Abs. 5 und 6 Bst. a BPG)»."
+  },
+  {
+    "ITEM": 139,
+    "ARTICLE_EID": "art_81",
+    "TARGET_SR": "SR 172.220.1",
+    "assigned_articles": ["Art. 18 Abs. 2"],
+    "confidence": "high",
+    "reasoning": "«(Art. 18 Abs. 2 BPG)»."
+  },
+  {
+    "ITEM": 140,
+    "ARTICLE_EID": "art_82",
+    "TARGET_SR": "SR 172.220.1",
+    "assigned_articles": ["Art. 18 Abs. 2"],
+    "confidence": "high",
+    "reasoning": "«(Art. 18 Abs. 2 BPG)»."
+  },
+  {
+    "ITEM": 141,
+    "ARTICLE_EID": "art_83",
+    "TARGET_SR": "SR 172.220.1",
+    "assigned_articles": ["Art. 18 Abs. 2"],
+    "confidence": "high",
+    "reasoning": "«(Art. 18 Abs. 2 BPG)»."
+  },
+  {
+    "ITEM": 142,
+    "ARTICLE_EID": "art_84",
+    "TARGET_SR": "SR 172.220.1",
+    "assigned_articles": ["Art. 18 Abs. 2"],
+    "confidence": "high",
+    "reasoning": "«(Art. 18 Abs. 2 BPG)»."
+  },
+  {
+    "ITEM": 143,
+    "ARTICLE_EID": "art_85",
+    "TARGET_SR": "SR 172.220.1",
+    "assigned_articles": ["Art. 18 Abs. 2"],
+    "confidence": "high",
+    "reasoning": "«(Art. 18 Abs. 2 BPG)»."
+  },
+  {
+    "ITEM": 144,
+    "ARTICLE_EID": "art_86",
+    "TARGET_SR": "SR 172.220.1",
+    "assigned_articles": ["Art. 29"],
+    "confidence": "high",
+    "reasoning": "«(Art. 29 BPG)»."
+  },
+  {
+    "ITEM": 145,
+    "ARTICLE_EID": "art_87",
+    "TARGET_SR": "SR 172.220.1",
+    "assigned_articles": ["Art. 18 Abs. 2"],
+    "confidence": "high",
+    "reasoning": "«(Art. 18 Abs. 2 BPG)»."
+  },
+  {
+    "ITEM": 146,
+    "ARTICLE_EID": "art_88",
+    "TARGET_SR": "SR 172.220.1",
+    "assigned_articles": ["Art. 17a", "Art. 10 Abs. 3 lit. e"],
+    "confidence": "high",
+    "reasoning": "Kopfverweis «(Art. 17a BPG)»; Text nennt «gestützt auf Artikel 10 Absatz 3 Buchstabe e BPG»."
+  },
+  {
+    "ITEM": 147,
+    "ARTICLE_EID": "art_88_a",
+    "TARGET_SR": "SR 172.220.1",
+    "assigned_articles": ["Art. 32g Abs. 5"],
+    "confidence": "high",
+    "reasoning": "«(Art. 32g Abs. 5 BPG)»."
+  },
+  {
+    "ITEM": 148,
+    "ARTICLE_EID": "art_88_b",
+    "TARGET_SR": "SR 172.220.1",
+    "assigned_articles": ["Art. 32g Abs. 5"],
+    "confidence": "high",
+    "reasoning": "«(Art. 32g Abs. 5 BPG)»."
+  },
+  {
+    "ITEM": 149,
+    "ARTICLE_EID": "art_88_c",
+    "TARGET_SR": "SR 172.220.1",
+    "assigned_articles": ["Art. 32 lit. a"],
+    "confidence": "high",
+    "reasoning": "«(Art. 32 Bst. a BPG)»."
+  },
+  {
+    "ITEM": 150,
+    "ARTICLE_EID": "art_88_d",
+    "TARGET_SR": "SR 172.220.1",
+    "assigned_articles": ["Art. 17a", "Art. 31 Abs. 5"],
+    "confidence": "high",
+    "reasoning": "«(Art. 17a und 31 Abs. 5 BPG)»."
+  },
+  {
+    "ITEM": 151,
+    "ARTICLE_EID": "art_88_f",
+    "TARGET_SR": "SR 172.220.1",
+    "assigned_articles": ["Art. 32k", "Art. 2 Abs. 1 lit. f", "Art. 2 Abs. 1 lit. g"],
+    "confidence": "high",
+    "reasoning": "Kopfverweis «(Art. 32k BPG)»; Text nennt «Arbeitgebern nach Artikel 2 Absatz 1 Buchstaben f und g BPG»."
+  },
+  {
+    "ITEM": 152,
+    "ARTICLE_EID": "art_89",
+    "TARGET_SR": "SR 172.220.1",
+    "assigned_articles": ["Art. 21 Abs. 1 lit. a", "Art. 24 Abs. 2 lit. a"],
+    "confidence": "high",
+    "reasoning": "«(Art. 21 Abs. 1 Bst. a und 24 Abs. 2 Bst. a BPG)»."
+  },
+  {
+    "ITEM": 153,
+    "ARTICLE_EID": "art_90",
+    "TARGET_SR": "SR 172.220.1",
+    "assigned_articles": ["Art. 21 Abs. 1 lit. b"],
+    "confidence": "high",
+    "reasoning": "«(Art. 21 Abs. 1 Bst. b BPG)»."
+  },
+  {
+    "ITEM": 154,
+    "ARTICLE_EID": "art_91",
+    "TARGET_SR": "SR 172.220.1",
+    "assigned_articles": ["Art. 23"],
+    "confidence": "high",
+    "reasoning": "«(Art. 23 BPG)»."
+  },
+  {
+    "ITEM": 155,
+    "ARTICLE_EID": "art_92",
+    "TARGET_SR": "SR 172.220.1",
+    "assigned_articles": ["Art. 21 Abs. 2"],
+    "confidence": "high",
+    "reasoning": "«(Art. 21 Abs. 2 BPG)»."
+  },
+  {
+    "ITEM": 156,
+    "ARTICLE_EID": "art_93",
+    "TARGET_SR": "SR 172.220.1",
+    "assigned_articles": ["Art. 21 Abs. 3"],
+    "confidence": "high",
+    "reasoning": "«(Art. 21 Abs. 3 BPG)»."
+  },
+  {
+    "ITEM": 157,
+    "ARTICLE_EID": "art_93_a",
+    "TARGET_SR": "SR 172.220.1",
+    "assigned_articles": ["Art. 21 Abs. 3"],
+    "confidence": "high",
+    "reasoning": "«(Art. 21 Abs. 3 BPG)»."
+  },
+  {
+    "ITEM": 158,
+    "ARTICLE_EID": "art_94",
+    "TARGET_SR": "SR 172.220.1",
+    "assigned_articles": ["Art. 22", "Art. 22a Abs. 1", "Art. 22a Abs. 2"],
+    "confidence": "high",
+    "reasoning": "Kopfverweis «(Art. 22 BPG)»; Text nennt «Artikel 22a Absätze 1 und 2 BPG»."
+  },
+  {
+    "ITEM": 159,
+    "ARTICLE_EID": "art_94_a",
+    "TARGET_SR": "SR 172.220.1",
+    "assigned_articles": ["Art. 20"],
+    "confidence": "high",
+    "reasoning": "«(Art. 20 BPG)»."
+  },
+  {
+    "ITEM": 160,
+    "ARTICLE_EID": "art_94_c",
+    "TARGET_SR": "SR 172.220.1",
+    "assigned_articles": ["Art. 20"],
+    "confidence": "high",
+    "reasoning": "«(Art. 20 BPG)»."
+  },
+  {
+    "ITEM": 161,
+    "ARTICLE_EID": "art_94_d",
+    "TARGET_SR": "SR 172.220.1",
+    "assigned_articles": ["Art. 20"],
+    "confidence": "high",
+    "reasoning": "«(Art. 20 BPG)»."
+  },
+  {
+    "ITEM": 162,
+    "ARTICLE_EID": "art_94_e",
+    "TARGET_SR": "SR 172.220.1",
+    "assigned_articles": ["Art. 20a"],
+    "confidence": "high",
+    "reasoning": "«(Art. 20a BPG)»."
+  },
+  {
+    "ITEM": 163,
+    "ARTICLE_EID": "art_94_f",
+    "TARGET_SR": "SR 172.220.1",
+    "assigned_articles": ["Art. 20b"],
+    "confidence": "high",
+    "reasoning": "«(Art. 20b BPG)»."
+  },
+  {
+    "ITEM": 164,
+    "ARTICLE_EID": "art_95",
+    "TARGET_SR": "SR 172.220.1",
+    "assigned_articles": ["Art. 24 Abs. 2 lit. b"],
+    "confidence": "high",
+    "reasoning": "«(Art. 24 Abs. 2 Bst. b BPG)»."
+  },
+  {
+    "ITEM": 165,
+    "ARTICLE_EID": "art_96",
+    "TARGET_SR": "SR 172.220.1",
+    "assigned_articles": ["Art. 24 Abs. 1"],
+    "confidence": "high",
+    "reasoning": "«(Art. 24 Abs. 1 BPG)»."
+  },
+  {
+    "ITEM": 166,
+    "ARTICLE_EID": "art_98",
+    "TARGET_SR": "SR 172.220.1",
+    "assigned_articles": ["Art. 25"],
+    "confidence": "high",
+    "reasoning": "«(Art. 25 BPG)»."
+  },
+  {
+    "ITEM": 167,
+    "ARTICLE_EID": "art_99",
+    "TARGET_SR": "SR 172.220.1",
+    "assigned_articles": ["Art. 25"],
+    "confidence": "high",
+    "reasoning": "«(Art. 25 BPG)»."
+  },
+  {
+    "ITEM": 168,
+    "ARTICLE_EID": "art_100",
+    "TARGET_SR": "SR 172.220.1",
+    "assigned_articles": ["Art. 25"],
+    "confidence": "high",
+    "reasoning": "«(Art. 25 BPG)»."
+  },
+  {
+    "ITEM": 169,
+    "ARTICLE_EID": "art_101",
+    "TARGET_SR": "SR 172.220.1",
+    "assigned_articles": ["Art. 25"],
+    "confidence": "high",
+    "reasoning": "«(Art. 25 BPG)»."
+  },
+  {
+    "ITEM": 170,
+    "ARTICLE_EID": "art_102",
+    "TARGET_SR": "SR 172.220.1",
+    "assigned_articles": ["Art. 25"],
+    "confidence": "high",
+    "reasoning": "«(Art. 25 BPG)»."
+  },
+  {
+    "ITEM": 171,
+    "ARTICLE_EID": "art_103",
+    "TARGET_SR": "SR 172.220.1",
+    "assigned_articles": ["Art. 25"],
+    "confidence": "high",
+    "reasoning": "«(Art. 25 BPG)»."
+  },
+  {
+    "ITEM": 172,
+    "ARTICLE_EID": "art_103_a",
+    "TARGET_SR": "SR 172.220.1",
+    "assigned_articles": ["Art. 25"],
+    "confidence": "high",
+    "reasoning": "«(Art. 25 BPG)»."
+  },
+  {
+    "ITEM": 173,
+    "ARTICLE_EID": "art_104",
+    "TARGET_SR": "SR 172.220.1",
+    "assigned_articles": ["Art. 31 Abs. 5"],
+    "confidence": "high",
+    "reasoning": "«(Art. 31 Abs. 5 BPG)»."
+  },
+  {
+    "ITEM": 174,
+    "ARTICLE_EID": "art_104_a",
+    "TARGET_SR": "SR 172.220.1",
+    "assigned_articles": ["Art. 31 Abs. 5"],
+    "confidence": "high",
+    "reasoning": "«(Art. 31 Abs. 5 BPG)»."
+  },
+  {
+    "ITEM": 175,
+    "ARTICLE_EID": "art_104_b",
+    "TARGET_SR": "SR 172.220.1",
+    "assigned_articles": ["Art. 33 Abs. 1"],
+    "confidence": "high",
+    "reasoning": "«(Art. 33 Abs. 1 BPG)»."
+  },
+  {
+    "ITEM": 176,
+    "ARTICLE_EID": "art_104_c",
+    "TARGET_SR": "SR 172.220.1",
+    "assigned_articles": ["Art. 31 Abs. 5"],
+    "confidence": "high",
+    "reasoning": "«(Art. 31 Abs. 5 BPG)»."
+  },
+  {
+    "ITEM": 177,
+    "ARTICLE_EID": "art_104_d",
+    "TARGET_SR": "SR 172.220.1",
+    "assigned_articles": ["Art. 31 Abs. 5"],
+    "confidence": "high",
+    "reasoning": "«(Art. 31 Abs. 5 BPG)»."
+  },
+  {
+    "ITEM": 178,
+    "ARTICLE_EID": "art_104_e",
+    "TARGET_SR": "SR 172.220.1",
+    "assigned_articles": ["Art. 10 Abs. 3", "Art. 10 Abs. 3 lit. d", "Art. 10 Abs. 3 lit. e"],
+    "confidence": "high",
+    "reasoning": "Kopfverweis «(Art. 10 Abs. 3 BPG)»; Text nennt «Artikel 10 Absatz 3 BPG», «Artikel 10 Absatz 3 Buchstabe d BPG» und «Artikel 10 Absatz 3 Buchstabe e BPG»."
+  },
+  {
+    "ITEM": 179,
+    "ARTICLE_EID": "art_105",
+    "TARGET_SR": "SR 172.220.1",
+    "assigned_articles": ["Art. 31 Abs. 5"],
+    "confidence": "high",
+    "reasoning": "«(Art. 31 Abs. 5 BPG)»."
+  },
+  {
+    "ITEM": 180,
+    "ARTICLE_EID": "art_105_a",
+    "TARGET_SR": "SR 172.220.1",
+    "assigned_articles": ["Art. 31 Abs. 5"],
+    "confidence": "high",
+    "reasoning": "«(Art. 31 Abs. 5 BPG)»."
+  },
+  {
+    "ITEM": 181,
+    "ARTICLE_EID": "art_105_b",
+    "TARGET_SR": "SR 172.220.1",
+    "assigned_articles": ["Art. 31 Abs. 5"],
+    "confidence": "high",
+    "reasoning": "«(Art. 31 Abs. 5 BPG)»."
+  },
+  {
+    "ITEM": 182,
+    "ARTICLE_EID": "art_105_d",
+    "TARGET_SR": "SR 172.220.1",
+    "assigned_articles": ["Art. 31 Abs. 4"],
+    "confidence": "high",
+    "reasoning": "«(Art. 31 Abs. 4 BPG)»."
+  },
+  {
+    "ITEM": 183,
+    "ARTICLE_EID": "art_106",
+    "TARGET_SR": "SR 172.220.1",
+    "assigned_articles": ["Art. 19 Abs. 4", "Art. 10 Abs. 3 lit. a–d", "Art. 10 Abs. 3 lit. f", "Art. 10 Abs. 4"],
+    "confidence": "high",
+    "reasoning": "«(Art. 19 Abs. 4 BPG)»; Text nennt «kein Kündigungsgrund nach Artikel 10 Absatz 3 Buchstaben a–d und f oder Absatz 4 BPG»."
+  },
+  {
+    "ITEM": 184,
+    "ARTICLE_EID": "art_107",
+    "TARGET_SR": "SR 172.220.1",
+    "assigned_articles": ["Art. 33"],
+    "confidence": "high",
+    "reasoning": "«(Art. 33 BPG)»."
+  },
+  {
+    "ITEM": 185,
+    "ARTICLE_EID": "art_108",
+    "TARGET_SR": "SR 172.220.1",
+    "assigned_articles": ["Art. 33 Abs. 4"],
+    "confidence": "high",
+    "reasoning": "«(Art. 33 Abs. 4 BPG)»."
+  },
+  {
+    "ITEM": 186,
+    "ARTICLE_EID": "art_109",
+    "TARGET_SR": "SR 172.220.1",
+    "assigned_articles": ["Art. 33 Abs. 4"],
+    "confidence": "high",
+    "reasoning": "«(Art. 33 Abs. 4 BPG)»."
+  },
+  {
+    "ITEM": 187,
+    "ARTICLE_EID": "art_113",
+    "TARGET_SR": "SR 172.220.1",
+    "assigned_articles": ["Art. 34"],
+    "confidence": "high",
+    "reasoning": "«(Art. 34 BPG)»."
+  },
+  {
+    "ITEM": 188,
+    "ARTICLE_EID": "art_114",
+    "TARGET_SR": "SR 172.220.1",
+    "assigned_articles": ["Art. 37"],
+    "confidence": "high",
+    "reasoning": "«(Art. 37 BPG)»."
+  },
+  {
+    "ITEM": 189,
+    "ARTICLE_EID": "art_115",
+    "TARGET_SR": "SR 172.220.1",
+    "assigned_articles": ["Art. 37"],
+    "confidence": "high",
+    "reasoning": "«(Art. 37 BPG)»."
+  },
+  {
+    "ITEM": 190,
+    "ARTICLE_EID": "art_116",
+    "TARGET_SR": "SR 172.220.1",
+    "assigned_articles": ["Art. 37"],
+    "confidence": "high",
+    "reasoning": "«(Art. 37 BPG)»."
+  },
+  {
+    "ITEM": 191,
+    "ARTICLE_EID": "art_116_c",
+    "TARGET_SR": "SR 172.220.1",
+    "assigned_articles": ["Art. 41a Abs. 1"],
+    "confidence": "high",
+    "reasoning": "«(Art. 41a Abs. 1 BPG)»."
+  },
+  {
+    "ITEM": 192,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 37 Abs. 3"],
+    "confidence": "high",
+    "reasoning": "«kein eigenes Personalstatut nach Artikel 37 Absatz 3 BPG» ist eine Selbstreferenz innerhalb des BPG; kein externer SR-Bezug."
+  },
+  {
+    "ITEM": 193,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 22 Abs. 2"],
+    "confidence": "high",
+    "reasoning": "«nach Artikel 22 Absatz 2 des Strafbehördenorganisationsgesetzes ... (StBOG)» wiederholt den bereits bei ITEM 3 erfassten externen Bezug; hier als reine Artikelreferenz ohne SR-Angabe im Snippet zu behandeln."
+  },
+  {
+    "ITEM": 194,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 6 Abs. 5", "Art. 6 Abs. 6"],
+    "confidence": "high",
+    "reasoning": "«(Art. 6 Abs. 5 und 6 BPG)» ist interne Referenz im BPG; kein neuer externer SR-Bezug."
+  },
+  {
+    "ITEM": 195,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 1"],
+    "confidence": "high",
+    "reasoning": "«Verwaltungseinheit nach Artikel 1» verweist auf Art. 1 derselben Verordnung; reine Selbstreferenz."
+  },
+  {
+    "ITEM": 196,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": "SR 441.11",
+    "assigned_articles": ["Art. 6", "Art. 7", "Art. 8", "Art. 8a", "Art. 8b", "Art. 8c", "Art. 8d"],
+    "confidence": "high",
+    "reasoning": "Entspricht inhaltlich ITEM 8; «Artikeln 6–8d der Sprachenverordnung» ist klar externer Bezug zu SR 441.11."
+  },
+  {
+    "ITEM": 197,
+    "ARTICLE_EID": "art_10_c",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 25 Abs. 2 lit. c"],
+    "confidence": "high",
+    "reasoning": "«Arbeitsort nach Artikel 25 Absatz 2 Buchstabe c» verweist auf internen Art. 25 derselben Verordnung."
+  },
+  {
+    "ITEM": 198,
+    "ARTICLE_EID": "art_11_a",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 2"],
+    "confidence": "high",
+    "reasoning": "«zuständige Stelle nach Artikel 2» ist interne Selbstreferenz."
+  },
+  {
+    "ITEM": 199,
+    "ARTICLE_EID": "art_18",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 21"],
+    "confidence": "high",
+    "reasoning": "«(Art. 21)» im Klammerzusatz bezieht sich auf Art. 21 derselben Verordnung."
+  },
+  {
+    "ITEM": 200,
+    "ARTICLE_EID": "art_18_a",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 15",
+      "Art. 17",
+      "Art. 22",
+      "Art. 26",
+      "Art. 27",
+      "Art. 29",
+      "Art. 35–50",
+      "Art. 64–67",
+      "Art. 89–93a",
+      "Art. 94a–94c"
+    ],
+    "confidence": "high",
+    "reasoning": "Aufzählung der Artikel, von denen Pilotversuche abweichen dürfen; alles interne Artikel derselben Verordnung."
+  },
+  {
+    "ITEM": 201,
+    "ARTICLE_EID": "art_20_a",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 1"],
+    "confidence": "high",
+    "reasoning": "«nicht mehr in einem Arbeitsverhältnis nach Artikel 1 steht» ist interne Selbstreferenz."
+  },
+  {
+    "ITEM": 202,
+    "ARTICLE_EID": "art_22",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 2 Abs. 1 lit. a", "Art. 2 Abs. 1 lit. b", "Art. 2 Abs. 1 lit. e"],
+    "confidence": "high",
+    "reasoning": "«Stellen nach Artikel 2 Absatz 1 Buchstaben a, b und e» sind interne Verweise."
+  },
+  {
+    "ITEM": 203,
+    "ARTICLE_EID": "art_22",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 2 Abs. 1 lit. d"],
+    "confidence": "high",
+    "reasoning": "«Stellen nach Artikel 2 Absatz 1 Buchstabe d» interne Referenz."
+  },
+  {
+    "ITEM": 204,
+    "ARTICLE_EID": "art_22",
+    "TARGET_SR": "SR 823.111",
+    "assigned_articles": ["Art. 53a"],
+    "confidence": "high",
+    "reasoning": "Entspricht ITEM 11; externer Bezug zu Art. 53a AVV."
+  },
+  {
+    "ITEM": 205,
+    "ARTICLE_EID": "art_23",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 2", "Art. 22"],
+    "confidence": "high",
+    "reasoning": "«zuständige Stelle nach Artikel 2» und «Stellenausschreibung (Art. 22)» sind interne Verweise."
+  },
+  {
+    "ITEM": 206,
+    "ARTICLE_EID": "art_24",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 2"],
+    "confidence": "high",
+    "reasoning": "«zuständige Stelle nach Artikel 2» interne Referenz."
+  },
+  {
+    "ITEM": 207,
+    "ARTICLE_EID": "art_25",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 2"],
+    "confidence": "high",
+    "reasoning": "«zuständige Stelle nach Artikel 2» interne Referenz."
+  },
+  {
+    "ITEM": 208,
+    "ARTICLE_EID": "art_25",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 30_a Abs. 1–3"],
+    "confidence": "high",
+    "reasoning": "«unter Einhaltung der Fristen nach Artikel 30a Absätze 1–3» interne Verweisung."
+  },
+  {
+    "ITEM": 209,
+    "ARTICLE_EID": "art_25_a",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 39"],
+    "confidence": "high",
+    "reasoning": "«Lohnentwicklung (Art. 39)» interne Referenz."
+  },
+  {
+    "ITEM": 210,
+    "ARTICLE_EID": "art_25_a",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 43", "Art. 44"],
+    "confidence": "high",
+    "reasoning": "«Ortszuschlag (Art. 43)» und «Teuerungsausgleich (Art. 44)» interne Verweise."
+  },
+  {
+    "ITEM": 211,
+    "ARTICLE_EID": "art_25_b",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 25_a Abs. 3", "Art. 25_a Abs. 4"],
+    "confidence": "high",
+    "reasoning": "«Artikel 25a Absätze 3 und 4» interne Referenz."
+  },
+  {
+    "ITEM": 212,
+    "ARTICLE_EID": "art_26",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 10 Abs. 3 lit. f"],
+    "confidence": "high",
+    "reasoning": "«Kündigung nach Artikel 10 Absatz 3 Buchstabe f BPG» ist BPG-intern; hier als Artikelreferenz ohne SR."
+  },
+  {
+    "ITEM": 213,
+    "ARTICLE_EID": "art_26",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 10 Abs. 3 lit. f"],
+    "confidence": "high",
+    "reasoning": "Wie ITEM 212."
+  },
+  {
+    "ITEM": 214,
+    "ARTICLE_EID": "art_26",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 10 Abs. 3 lit. f"],
+    "confidence": "high",
+    "reasoning": "Wie ITEM 212."
+  },
+  {
+    "ITEM": 215,
+    "ARTICLE_EID": "art_26",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 10 Abs. 3 lit. f"],
+    "confidence": "high",
+    "reasoning": "Wie ITEM 212."
+  },
+  {
+    "ITEM": 216,
+    "ARTICLE_EID": "art_27",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 2 Abs. 1"],
+    "confidence": "high",
+    "reasoning": "«Personen nach Artikel 2 Absatz 1» interne Referenz."
+  },
+  {
+    "ITEM": 217,
+    "ARTICLE_EID": "art_28",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 10"],
+    "confidence": "high",
+    "reasoning": "«Kündigungsschutzes nach Artikel 10 BPG» BPG-intern."
+  },
+  {
+    "ITEM": 218,
+    "ARTICLE_EID": "art_29",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 1 Abs. 1", "Art. 30_a"],
+    "confidence": "high",
+    "reasoning": "«Verwaltungseinheit nach Artikel 1 Absatz 1» und «Kündigungsfristen nach Artikel 30a» interne Verweise."
+  },
+  {
+    "ITEM": 219,
+    "ARTICLE_EID": "art_29",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 1"],
+    "confidence": "high",
+    "reasoning": "«Verwaltungseinheit nach Artikel 1» interne Referenz."
+  },
+  {
+    "ITEM": 220,
+    "ARTICLE_EID": "art_29",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 1 Abs. 1"],
+    "confidence": "high",
+    "reasoning": "«Verwaltungseinheiten nach Artikel 1 Absatz 1» interne Referenz."
+  },
+  {
+    "ITEM": 221,
+    "ARTICLE_EID": "art_30",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 25 Abs. 3", "Art. 25 Abs. 3bis", "Art. 25 Abs. 4", "Art. 10"],
+    "confidence": "high",
+    "reasoning": "Interne Verweise auf Art. 25 und Art. 10 BPG."
+  },
+  {
+    "ITEM": 222,
+    "ARTICLE_EID": "art_30_a",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 1 Abs. 1"],
+    "confidence": "high",
+    "reasoning": "«Verwaltungseinheit nach Artikel 1 Absatz 1» interne Referenz."
+  },
+  {
+    "ITEM": 223,
+    "ARTICLE_EID": "art_31",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 10 Abs. 3 lit. a–d", "Art. 10 Abs. 4"],
+    "confidence": "high",
+    "reasoning": "Interne BPG-Verweise."
+  },
+  {
+    "ITEM": 224,
+    "ARTICLE_EID": "art_31",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 3"],
+    "confidence": "high",
+    "reasoning": "«Arbeitgeber nach Artikel 3 BPG» interne BPG-Referenz."
+  },
+  {
+    "ITEM": 225,
+    "ARTICLE_EID": "art_31_a",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 1 Abs. 1", "Art. 11_a"],
+    "confidence": "high",
+    "reasoning": "Interne Verweise auf Art. 1 Abs. 1 und Art. 11a."
+  },
+  {
+    "ITEM": 226,
+    "ARTICLE_EID": "art_31_a",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 11_a", "Art. 56 Abs. 4", "Art. 10 Abs. 3", "Art. 10 Abs. 4"],
+    "confidence": "high",
+    "reasoning": "Interne Verweise."
+  },
+  {
+    "ITEM": 227,
+    "ARTICLE_EID": "art_35",
+    "TARGET_SR": "SR 831.10",
+    "assigned_articles": ["Art. 21"],
+    "confidence": "high",
+    "reasoning": "Entspricht ITEM 14; externer AHVG-Bezug."
+  },
+  {
+    "ITEM": 228,
+    "ARTICLE_EID": "art_37",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 2", "Art. 36"],
+    "confidence": "high",
+    "reasoning": "Interne Verweise auf zuständige Stelle und Lohnklassen."
+  },
+  {
+    "ITEM": 229,
+    "ARTICLE_EID": "art_38",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 51_a"],
+    "confidence": "high",
+    "reasoning": "«Artikel 51a bleibt vorbehalten» interne Referenz."
+  },
+  {
+    "ITEM": 230,
+    "ARTICLE_EID": "art_39",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 52 Abs. 6"],
+    "confidence": "high",
+    "reasoning": "Interne Verweisung."
+  },
+  {
+    "ITEM": 231,
+    "ARTICLE_EID": "art_40",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 2"],
+    "confidence": "high",
+    "reasoning": "«zuständige Stelle nach Artikel 2» interne Referenz."
+  },
+  {
+    "ITEM": 232,
+    "ARTICLE_EID": "art_42",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 52_a"],
+    "confidence": "high",
+    "reasoning": "«Artikel 52a ist nicht anwendbar» interne Referenz."
+  },
+  {
+    "ITEM": 233,
+    "ARTICLE_EID": "art_44",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 36", "Art. 43"],
+    "confidence": "high",
+    "reasoning": "Interne Verweise."
+  },
+  {
+    "ITEM": 234,
+    "ARTICLE_EID": "art_44_a",
+    "TARGET_SR": "SR 831.10",
+    "assigned_articles": ["Art. 21"],
+    "confidence": "high",
+    "reasoning": "Entspricht ITEM 15; externer AHVG-Bezug."
+  },
+  {
+    "ITEM": 235,
+    "ARTICLE_EID": "art_44_a",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 36", "Art. 46"],
+    "confidence": "high",
+    "reasoning": "Interne Verweise."
+  },
+  {
+    "ITEM": 236,
+    "ARTICLE_EID": "art_44_a",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 44"],
+    "confidence": "high",
+    "reasoning": "Interne Verweisung."
+  },
+  {
+    "ITEM": 237,
+    "ARTICLE_EID": "art_50",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 2"],
+    "confidence": "high",
+    "reasoning": "«zuständige Stelle nach Artikel 2» interne Referenz."
+  },
+  {
+    "ITEM": 238,
+    "ARTICLE_EID": "art_50",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 2 Abs. 1"],
+    "confidence": "high",
+    "reasoning": "«Angestellte nach Artikel 2 Absatz 1» interne Referenz."
+  },
+  {
+    "ITEM": 239,
+    "ARTICLE_EID": "art_51",
+    "TARGET_SR": "SR 830.1",
+    "assigned_articles": ["Art. 7"],
+    "confidence": "high",
+    "reasoning": "Entspricht ITEM 16."
+  },
+  {
+    "ITEM": 240,
+    "ARTICLE_EID": "art_51_a",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 2"],
+    "confidence": "high",
+    "reasoning": "Interne Referenz."
+  },
+  {
+    "ITEM": 241,
+    "ARTICLE_EID": "art_51_a",
+    "TARGET_SR": "SR 836.21",
+    "assigned_articles": ["Art. 7 Abs. 1 lit. a"],
+    "confidence": "high",
+    "reasoning": "Entspricht ITEM 18."
+  },
+  {
+    "ITEM": 242,
+    "ARTICLE_EID": "art_51_a",
+    "TARGET_SR": "SR 836.21",
+    "assigned_articles": ["Art. 4", "Art. 5"],
+    "confidence": "high",
+    "reasoning": "Entspricht ITEM 19."
+  },
+  {
+    "ITEM": 243,
+    "ARTICLE_EID": "art_52",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 2", "Art. 53"],
+    "confidence": "high",
+    "reasoning": "Interne Verweise."
+  },
+  {
+    "ITEM": 244,
+    "ARTICLE_EID": "art_52",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 2"],
+    "confidence": "high",
+    "reasoning": "Interne Referenz."
+  },
+  {
+    "ITEM": 245,
+    "ARTICLE_EID": "art_52",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 2", "Art. 52_a"],
+    "confidence": "high",
+    "reasoning": "Interne Verweise."
+  },
+  {
+    "ITEM": 246,
+    "ARTICLE_EID": "art_52_a",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 52_a", "Art. 39"],
+    "confidence": "high",
+    "reasoning": "Selbstreferenz und Verweis auf Art. 39."
+  },
+  {
+    "ITEM": 247,
+    "ARTICLE_EID": "art_52_a",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 26 Abs. 5"],
+    "confidence": "high",
+    "reasoning": "Interne Referenz."
+  },
+  {
+    "ITEM": 248,
+    "ARTICLE_EID": "art_52_b",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 52_a"],
+    "confidence": "high",
+    "reasoning": "Interne Referenz."
+  },
+  {
+    "ITEM": 249,
+    "ARTICLE_EID": "art_56",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 15", "Art. 16"],
+    "confidence": "high",
+    "reasoning": "Interne BPG-Verweise."
+  },
+  {
+    "ITEM": 250,
+    "ARTICLE_EID": "art_56",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 2"],
+    "confidence": "high",
+    "reasoning": "Interne Referenz."
+  },
+  {
+    "ITEM": 251,
+    "ARTICLE_EID": "art_56",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 11_a"],
+    "confidence": "high",
+    "reasoning": "Interne Referenz."
+  },
+  {
+    "ITEM": 252,
+    "ARTICLE_EID": "art_56_a",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 56 Abs. 1", "Art. 56 Abs. 2"],
+    "confidence": "high",
+    "reasoning": "Interne Referenzen."
+  },
+  {
+    "ITEM": 253,
+    "ARTICLE_EID": "art_56_a",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 56 Abs. 1", "Art. 56 Abs. 2"],
+    "confidence": "high",
+    "reasoning": "Interne Referenzen."
+  },
+  {
+    "ITEM": 254,
+    "ARTICLE_EID": "art_56_a",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 56 Abs. 1", "Art. 56 Abs. 2"],
+    "confidence": "high",
+    "reasoning": "Interne Referenzen."
+  },
+  {
+    "ITEM": 255,
+    "ARTICLE_EID": "art_56_a",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 1 Abs. 1", "Art. 11_a", "Art. 56 Abs. 1", "Art. 56 Abs. 2"],
+    "confidence": "high",
+    "reasoning": "Interne Verweise."
+  },
+  {
+    "ITEM": 256,
+    "ARTICLE_EID": "art_56_a",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 31_a Abs. 5", "Art. 56 Abs. 1", "Art. 56 Abs. 2"],
+    "confidence": "high",
+    "reasoning": "Interne Verweise."
+  },
+  {
+    "ITEM": 257,
+    "ARTICLE_EID": "art_56_a",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 56 Abs. 1", "Art. 56 Abs. 2"],
+    "confidence": "high",
+    "reasoning": "Interne Referenzen."
+  },
+  {
+    "ITEM": 258,
+    "ARTICLE_EID": "art_57",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 56 Abs. 2"],
+    "confidence": "high",
+    "reasoning": "Interne Referenz."
+  },
+  {
+    "ITEM": 259,
+    "ARTICLE_EID": "art_57",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 56"],
+    "confidence": "high",
+    "reasoning": "Interne Referenz."
+  },
+  {
+    "ITEM": 260,
+    "ARTICLE_EID": "art_57",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 56 Abs. 1", "Art. 56 Abs. 2", "Art. 11_a"],
+    "confidence": "high",
+    "reasoning": "Interne Verweise."
+  },
+  {
+    "ITEM": 261,
+    "ARTICLE_EID": "art_60_b",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 60 Abs. 1", "Art. 60 Abs. 3"],
+    "confidence": "high",
+    "reasoning": "Interne Referenzen."
+  },
+  {
+    "ITEM": 262,
+    "ARTICLE_EID": "art_64",
+    "TARGET_SR": "SR 822.11",
+    "assigned_articles": ["Art. 17b"],
+    "confidence": "high",
+    "reasoning": "Entspricht ITEM 23."
+  },
+  {
+    "ITEM": 263,
+    "ARTICLE_EID": "art_64_a_bis",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 64_b Abs. 2", "Art. 64_b Abs. 4"],
+    "confidence": "high",
+    "reasoning": "Interne Referenzen."
+  },
+  {
+    "ITEM": 264,
+    "ARTICLE_EID": "art_64_a_bis",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 2", "Art. 30_a Abs. 2"],
+    "confidence": "high",
+    "reasoning": "Interne Verweise."
+  },
+  {
+    "ITEM": 265,
+    "ARTICLE_EID": "art_64_b",
+    "TARGET_SR": "SR 172.220.111.35",
+    "assigned_articles": ["Art. 3 Abs. 2 lit. a", "Art. 3 Abs. 2 lit. b"],
+    "confidence": "high",
+    "reasoning": "Entspricht ITEM 24."
+  },
+  {
+    "ITEM": 266,
+    "ARTICLE_EID": "art_65",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 2"],
+    "confidence": "high",
+    "reasoning": "Interne Referenz."
+  },
+  {
+    "ITEM": 267,
+    "ARTICLE_EID": "art_65",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 2"],
+    "confidence": "high",
+    "reasoning": "Interne Referenz."
+  },
+  {
+    "ITEM": 268,
+    "ARTICLE_EID": "art_65",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 2 Abs. 1"],
+    "confidence": "high",
+    "reasoning": "Interne Referenz."
+  },
+  {
+    "ITEM": 269,
+    "ARTICLE_EID": "art_68",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 2"],
+    "confidence": "high",
+    "reasoning": "Interne Referenz."
+  },
+  {
+    "ITEM": 270,
+    "ARTICLE_EID": "art_68",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 88 Abs. 1 lit. a"],
+    "confidence": "high",
+    "reasoning": "Interne Referenz."
+  },
+  {
+    "ITEM": 271,
+    "ARTICLE_EID": "art_69",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 64_a Abs. 2"],
+    "confidence": "high",
+    "reasoning": "Interne Referenz."
+  },
+  {
+    "ITEM": 272,
+    "ARTICLE_EID": "art_71",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 2 Abs. 1"],
+    "confidence": "high",
+    "reasoning": "Interne Referenz."
+  },
+  {
+    "ITEM": 273,
+    "ARTICLE_EID": "art_73",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 2"],
+    "confidence": "high",
+    "reasoning": "Interne Referenz."
+  },
+  {
+    "ITEM": 274,
+    "ARTICLE_EID": "art_73",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 2 Abs. 1 lit. f", "Art. 2 Abs. 1 lit. g"],
+    "confidence": "high",
+    "reasoning": "Interne BPG-Verweise."
+  },
+  {
+    "ITEM": 275,
+    "ARTICLE_EID": "art_75_b",
+    "TARGET_SR": "SR 210",
+    "assigned_articles": ["Art. 252"],
+    "confidence": "high",
+    "reasoning": "Entspricht ITEM 25."
+  },
+  {
+    "ITEM": 276,
+    "ARTICLE_EID": "art_75_c",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 60"],
+    "confidence": "high",
+    "reasoning": "Interne Referenz."
+  },
+  {
+    "ITEM": 277,
+    "ARTICLE_EID": "art_75_d",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 75_b lit. a"],
+    "confidence": "high",
+    "reasoning": "Interne Referenz."
+  },
+  {
+    "ITEM": 278,
+    "ARTICLE_EID": "art_75_d",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 75_b lit. c"],
+    "confidence": "high",
+    "reasoning": "Interne Referenz."
+  },
+  {
+    "ITEM": 279,
+    "ARTICLE_EID": "art_75_d",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 75_b lit. d"],
+    "confidence": "high",
+    "reasoning": "Interne Referenz."
+  },
+  {
+    "ITEM": 280,
+    "ARTICLE_EID": "art_78",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 19 Abs. 3"],
+    "confidence": "high",
+    "reasoning": "Interne BPG-Referenz."
+  },
+  {
+    "ITEM": 281,
+    "ARTICLE_EID": "art_78",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 1"],
+    "confidence": "high",
+    "reasoning": "Interne Referenz."
+  },
+  {
+    "ITEM": 282,
+    "ARTICLE_EID": "art_78",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 1"],
+    "confidence": "high",
+    "reasoning": "Interne Referenz."
+  },
+  {
+    "ITEM": 283,
+    "ARTICLE_EID": "art_78",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 19 Abs. 4"],
+    "confidence": "high",
+    "reasoning": "Interne BPG-Referenz."
+  },
+  {
+    "ITEM": 284,
+    "ARTICLE_EID": "art_78",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 26 Abs. 6"],
+    "confidence": "high",
+    "reasoning": "Interne Referenz."
+  },
+  {
+    "ITEM": 285,
+    "ARTICLE_EID": "art_78",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 3"],
+    "confidence": "high",
+    "reasoning": "Interne BPG-Referenz."
+  },
+  {
+    "ITEM": 286,
+    "ARTICLE_EID": "art_78",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 31_a"],
+    "confidence": "high",
+    "reasoning": "Interne Referenz."
+  },
+  {
+    "ITEM": 287,
+    "ARTICLE_EID": "art_78",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 31"],
+    "confidence": "high",
+    "reasoning": "Interne Referenz."
+  },
+  {
+    "ITEM": 288,
+    "ARTICLE_EID": "art_78",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 106"],
+    "confidence": "high",
+    "reasoning": "Interne Referenz."
+  },
+  {
+    "ITEM": 289,
+    "ARTICLE_EID": "art_78",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 105_b"],
+    "confidence": "high",
+    "reasoning": "Interne Referenz."
+  },
+  {
+    "ITEM": 290,
+    "ARTICLE_EID": "art_78",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 3"],
+    "confidence": "high",
+    "reasoning": "Interne BPG-Referenz."
+  },
+  {
+    "ITEM": 291,
+    "ARTICLE_EID": "art_78",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 1 Abs. 1"],
+    "confidence": "high",
+    "reasoning": "Interne Referenz."
+  },
+  {
+    "ITEM": 292,
+    "ARTICLE_EID": "art_79",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 78 Abs. 1", "Art. 78 Abs. 2", "Art. 78 Abs. 2bis"],
+    "confidence": "high",
+    "reasoning": "Interne Referenzen."
+  },
+  {
+    "ITEM": 293,
+    "ARTICLE_EID": "art_79",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 78 Abs. 1", "Art. 78 Abs. 2", "Art. 78 Abs. 2bis"],
+    "confidence": "high",
+    "reasoning": "Interne Referenzen."
+  },
+  {
+    "ITEM": 294,
+    "ARTICLE_EID": "art_79",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 26 Abs. 1", "Art. 26 Abs. 3"],
+    "confidence": "high",
+    "reasoning": "Interne Referenzen."
+  },
+  {
+    "ITEM": 295,
+    "ARTICLE_EID": "art_79",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 2 Abs. 1"],
+    "confidence": "high",
+    "reasoning": "Interne Referenz."
+  },
+  {
+    "ITEM": 296,
+    "ARTICLE_EID": "art_79",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 1"],
+    "confidence": "high",
+    "reasoning": "Interne Referenz."
+  },
+  {
+    "ITEM": 297,
+    "ARTICLE_EID": "art_79",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 105_a", "Art. 105_b"],
+    "confidence": "high",
+    "reasoning": "Interne Referenzen."
+  },
+  {
+    "ITEM": 298,
+    "ARTICLE_EID": "art_83",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 51_a", "Art. 81", "Art. 82"],
+    "confidence": "high",
+    "reasoning": "Interne Referenzen."
+  },
+  {
+    "ITEM": 299,
+    "ARTICLE_EID": "art_84",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 81", "Art. 82"],
+    "confidence": "high",
+    "reasoning": "Interne Referenzen."
+  },
+  {
+    "ITEM": 300,
+    "ARTICLE_EID": "art_88",
+    "TARGET_SR": "SR 192.12",
+    "assigned_articles": ["Art. 2 Abs. 1 lit. a", "Art. 2 Abs. 1 lit. b", "Art. 2 Abs. 1 lit. c", "Art. 2 Abs. 1 lit. h", "Art. 2 Abs. 1 lit. i", "Art. 2 Abs. 1 lit. j", "Art. 2 Abs. 1 lit. k", "Art. 2 Abs. 1 lit. l", "Art. 2 Abs. 1 lit. m"],
+    "confidence": "high",
+    "reasoning": "Entspricht ITEM 26."
+  },
+  {
+    "ITEM": 301,
+    "ARTICLE_EID": "art_88",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 2 Abs. 1", "Art. 10 Abs. 3 lit. e"],
+    "confidence": "high",
+    "reasoning": "Interne Verweise."
+  },
+  {
+    "ITEM": 302,
+    "ARTICLE_EID": "art_88_a",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 81", "Art. 82", "Art. 83"],
+    "confidence": "high",
+    "reasoning": "Interne Referenzen."
+  },
+  {
+    "ITEM": 303,
+    "ARTICLE_EID": "art_88_a",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 52_a", "Art. 56 Abs. 2"],
+    "confidence": "high",
+    "reasoning": "Interne Referenzen."
+  },
+  {
+    "ITEM": 304,
+    "ARTICLE_EID": "art_88_b",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 2"],
+    "confidence": "high",
+    "reasoning": "Interne Referenz."
+  },
+  {
+    "ITEM": 305,
+    "ARTICLE_EID": "art_88_c",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 2"],
+    "confidence": "high",
+    "reasoning": "Interne Referenz."
+  },
+  {
+    "ITEM": 306,
+    "ARTICLE_EID": "art_88_d",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 2"],
+    "confidence": "high",
+    "reasoning": "Interne Referenz."
+  },
+  {
+    "ITEM": 307,
+    "ARTICLE_EID": "art_88_d",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 2"],
+    "confidence": "high",
+    "reasoning": "Interne Referenz."
+  },
+  {
+    "ITEM": 308,
+    "ARTICLE_EID": "art_88_d_bis",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 2"],
+    "confidence": "high",
+    "reasoning": "Interne Referenz."
+  },
+  {
+    "ITEM": 309,
+    "ARTICLE_EID": "art_88_f",
+    "TARGET_SR": "SR 831.10",
+    "assigned_articles": ["Art. 21"],
+    "confidence": "high",
+    "reasoning": "Entspricht ITEM 29."
+  },
+  {
+    "ITEM": 310,
+    "ARTICLE_EID": "art_88_f",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 2 Abs. 1 lit. f", "Art. 2 Abs. 1 lit. g", "Art. 1"],
+    "confidence": "high",
+    "reasoning": "Interne Referenzen."
+  },
+  {
+    "ITEM": 311,
+    "ARTICLE_EID": "art_88_f",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 10_b"],
+    "confidence": "high",
+    "reasoning": "Interne Referenz."
+  },
+  {
+    "ITEM": 312,
+    "ARTICLE_EID": "art_88_f",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 2 Abs. 1 lit. f", "Art. 2 Abs. 1 lit. g", "Art. 1"],
+    "confidence": "high",
+    "reasoning": "Interne Referenzen."
+  },
+  {
+    "ITEM": 313,
+    "ARTICLE_EID": "art_92",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 2"],
+    "confidence": "high",
+    "reasoning": "Interne Referenz."
+  },
+  {
+    "ITEM": 314,
+    "ARTICLE_EID": "art_93",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 2"],
+    "confidence": "high",
+    "reasoning": "Interne Referenz."
+  },
+  {
+    "ITEM": 315,
+    "ARTICLE_EID": "art_94",
+    "TARGET_SR": "SR 312.0",
+    "assigned_articles": ["Art. 302"],
+    "confidence": "high",
+    "reasoning": "Entspricht ITEM 30."
+  },
+  {
+    "ITEM": 316,
+    "ARTICLE_EID": "art_94",
+    "TARGET_SR": "SR 171.10",
+    "assigned_articles": ["Art. 156"],
+    "confidence": "high",
+    "reasoning": "Entspricht ITEM 31."
+  },
+  {
+    "ITEM": 317,
+    "ARTICLE_EID": "art_94_a",
+    "TARGET_SR": "SR 172.021",
+    "assigned_articles": ["Art. 10"],
+    "confidence": "high",
+    "reasoning": "Entspricht ITEM 32."
+  },
+  {
+    "ITEM": 318,
+    "ARTICLE_EID": "art_94_b",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 2", "Art. 2 Abs. 1 lit. a", "Art. 2 Abs. 1 lit. b", "Art. 2 Abs. 1 lit. d", "Art. 2 Abs. 1bis"],
+    "confidence": "high",
+    "reasoning": "Interne Referenzen."
+  },
+  {
+    "ITEM": 319,
+    "ARTICLE_EID": "art_94_b",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 2"],
+    "confidence": "high",
+    "reasoning": "Interne Referenz."
+  },
+  {
+    "ITEM": 320,
+    "ARTICLE_EID": "art_94_d",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 91–94_c"],
+    "confidence": "high",
+    "reasoning": "Interne Artikelspanne."
+  },
+  {
+    "ITEM": 321,
+    "ARTICLE_EID": "art_94_f",
+    "TARGET_SR": "SR 128.31",
+    "assigned_articles": ["Art. 11"],
+    "confidence": "high",
+    "reasoning": "Entspricht ITEM 33."
+  },
+  {
+    "ITEM": 322,
+    "ARTICLE_EID": "art_98",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 2"],
+    "confidence": "high",
+    "reasoning": "Interne Referenz."
+  },
+  {
+    "ITEM": 323,
+    "ARTICLE_EID": "art_102",
+    "TARGET_SR": "SR 170.321",
+    "assigned_articles": ["Art. 7"],
+    "confidence": "high",
+    "reasoning": "Entspricht ITEM 36."
+  },
+  {
+    "ITEM": 324,
+    "ARTICLE_EID": "art_103",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 2"],
+    "confidence": "high",
+    "reasoning": "Interne Referenz."
+  },
+  {
+    "ITEM": 325,
+    "ARTICLE_EID": "art_103_a",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 30_a"],
+    "confidence": "high",
+    "reasoning": "Interne Referenz."
+  },
+  {
+    "ITEM": 326,
+    "ARTICLE_EID": "art_103_a",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 26 Abs. 1", "Art. 26 Abs. 3"],
+    "confidence": "high",
+    "reasoning": "Interne Referenzen."
+  },
+  {
+    "ITEM": 327,
+    "ARTICLE_EID": "art_104_c",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 104 Abs. 3"],
+    "confidence": "high",
+    "reasoning": "Interne Referenz."
+  },
+  {
+    "ITEM": 328,
+    "ARTICLE_EID": "art_104_e",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 104_c", "Art. 10 Abs. 3"],
+    "confidence": "high",
+    "reasoning": "Interne Referenzen."
+  },
+  {
+    "ITEM": 329,
+    "ARTICLE_EID": "art_104_e",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 10 Abs. 3 lit. d"],
+    "confidence": "high",
+    "reasoning": "Interne Referenz."
+  },
+  {
+    "ITEM": 330,
+    "ARTICLE_EID": "art_104_e",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 10 Abs. 3 lit. e"],
+    "confidence": "high",
+    "reasoning": "Interne Referenz."
+  },
+  {
+    "ITEM": 331,
+    "ARTICLE_EID": "art_105",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 105_d"],
+    "confidence": "high",
+    "reasoning": "Interne Referenz."
+  },
+  {
+    "ITEM": 332,
+    "ARTICLE_EID": "art_105_a",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 1"],
+    "confidence": "high",
+    "reasoning": "Interne Referenz."
+  },
+  {
+    "ITEM": 333,
+    "ARTICLE_EID": "art_105_b",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 88_d_bis Abs. 3"],
+    "confidence": "high",
+    "reasoning": "Interne Referenz (Druckfehler «88dbis»)."
+  },
+  {
+    "ITEM": 334,
+    "ARTICLE_EID": "art_105_c",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 105_b Abs. 1", "Art. 105_b Abs. 2"],
+    "confidence": "high",
+    "reasoning": "Interne Referenzen."
+  },
+  {
+    "ITEM": 335,
+    "ARTICLE_EID": "art_105_d",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 105_c"],
+    "confidence": "high",
+    "reasoning": "Interne Referenz."
+  },
+  {
+    "ITEM": 336,
+    "ARTICLE_EID": "art_106",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 105", "Art. 105_b Abs. 3", "Art. 88_f", "Anhang 1"],
+    "confidence": "high",
+    "reasoning": "Interne Verweise."
+  },
+  {
+    "ITEM": 337,
+    "ARTICLE_EID": "art_106",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 10 Abs. 3 lit. a–d", "Art. 10 Abs. 3 lit. f", "Art. 10 Abs. 4"],
+    "confidence": "high",
+    "reasoning": "Interne BPG-Verweise."
+  },
+  {
+    "ITEM": 338,
+    "ARTICLE_EID": "art_108",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 107 Abs. 3"],
+    "confidence": "high",
+    "reasoning": "Interne Referenz."
+  },
+  {
+    "ITEM": 339,
+    "ARTICLE_EID": "art_114",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 81–88"],
+    "confidence": "high",
+    "reasoning": "Interne Artikelspanne."
+  },
+  {
+    "ITEM": 340,
+    "ARTICLE_EID": "art_114",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 15–17"],
+    "confidence": "high",
+    "reasoning": "Interne Artikelspanne."
+  },
+  {
+    "ITEM": 341,
+    "ARTICLE_EID": "art_114",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 38"],
+    "confidence": "high",
+    "reasoning": "Interne Referenz."
+  },
+  {
+    "ITEM": 342,
+    "ARTICLE_EID": "art_114",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 39"],
+    "confidence": "high",
+    "reasoning": "Interne Referenz."
+  },
+  {
+    "ITEM": 343,
+    "ARTICLE_EID": "art_114",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 43"],
+    "confidence": "high",
+    "reasoning": "Interne Referenz."
+  },
+  {
+    "ITEM": 344,
+    "ARTICLE_EID": "art_114",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 44"],
+    "confidence": "high",
+    "reasoning": "Interne Referenz."
+  },
+  {
+    "ITEM": 345,
+    "ARTICLE_EID": "art_114",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 46"],
+    "confidence": "high",
+    "reasoning": "Interne Referenz."
+  },
+  {
+    "ITEM": 346,
+    "ARTICLE_EID": "art_114",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 49"],
+    "confidence": "high",
+    "reasoning": "Interne Referenz."
+  },
+  {
+    "ITEM": 347,
+    "ARTICLE_EID": "art_114",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 52"],
+    "confidence": "high",
+    "reasoning": "Interne Referenz."
+  },
+  {
+    "ITEM": 348,
+    "ARTICLE_EID": "art_114",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 52_a"],
+    "confidence": "high",
+    "reasoning": "Interne Referenz."
+  },
+  {
+    "ITEM": 349,
+    "ARTICLE_EID": "art_114",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 53"],
+    "confidence": "high",
+    "reasoning": "Interne Referenz."
+  },
+  {
+    "ITEM": 350,
+    "ARTICLE_EID": "art_114",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 63"],
+    "confidence": "high",
+    "reasoning": "Interne Referenz."
+  },
+  {
+    "ITEM": 351,
+    "ARTICLE_EID": "art_114",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 64"],
+    "confidence": "high",
+    "reasoning": "Interne Referenz."
+  },
+  {
+    "ITEM": 352,
+    "ARTICLE_EID": "art_114",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 64_a"],
+    "confidence": "high",
+    "reasoning": "Interne Referenz."
+  },
+  {
+    "ITEM": 353,
+    "ARTICLE_EID": "art_114",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 65"],
+    "confidence": "high",
+    "reasoning": "Interne Referenz."
+  },
+  {
+    "ITEM": 354,
+    "ARTICLE_EID": "art_114",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 66"],
+    "confidence": "high",
+    "reasoning": "Interne Referenz."
+  },
+  {
+    "ITEM": 355,
+    "ARTICLE_EID": "art_114",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 67"],
+    "confidence": "high",
+    "reasoning": "Interne Referenz."
+  },
+  {
+    "ITEM": 356,
+    "ARTICLE_EID": "art_114",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 68"],
+    "confidence": "high",
+    "reasoning": "Interne Referenz."
+  },
+  {
+    "ITEM": 357,
+    "ARTICLE_EID": "art_114",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 75_a Abs. 2"],
+    "confidence": "high",
+    "reasoning": "Interne Referenz."
+  },
+  {
+    "ITEM": 358,
+    "ARTICLE_EID": "art_114",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 75_b"],
+    "confidence": "high",
+    "reasoning": "Interne Referenz."
+  },
+  {
+    "ITEM": 359,
+    "ARTICLE_EID": "art_114",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 78 Abs. 2 lit. k"],
+    "confidence": "high",
+    "reasoning": "Interne Referenz."
+  },
+  {
+    "ITEM": 360,
+    "ARTICLE_EID": "art_114",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 78 Abs. 2bis"],
+    "confidence": "high",
+    "reasoning": "Interne Referenz."
+  },
+  {
+    "ITEM": 361,
+    "ARTICLE_EID": "art_114",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 63", "Art. 81–88"],
+    "confidence": "high",
+    "reasoning": "Interne Referenzen."
+  },
+  {
+    "ITEM": 362,
+    "ARTICLE_EID": "art_115",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 4"],
+    "confidence": "high",
+    "reasoning": "Interne Referenz."
+  },
+  {
+    "ITEM": 363,
+    "ARTICLE_EID": "art_115",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 5"],
+    "confidence": "high",
+    "reasoning": "Interne Referenz."
+  },
+  {
+    "ITEM": 364,
+    "ARTICLE_EID": "art_115",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 24"],
+    "confidence": "high",
+    "reasoning": "Interne Referenz."
+  },
+  {
+    "ITEM": 365,
+    "ARTICLE_EID": "art_115",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 37"],
+    "confidence": "high",
+    "reasoning": "Interne Referenz."
+  },
+  {
+    "ITEM": 366,
+    "ARTICLE_EID": "art_115",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 48"],
+    "confidence": "high",
+    "reasoning": "Interne Referenz."
+  },
+  {
+    "ITEM": 367,
+    "ARTICLE_EID": "art_115",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 60_a"],
+    "confidence": "high",
+    "reasoning": "Interne Referenz."
+  },
+  {
+    "ITEM": 368,
+    "ARTICLE_EID": "art_115",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 64"],
+    "confidence": "high",
+    "reasoning": "Interne Referenz."
+  },
+  {
+    "ITEM": 369,
+    "ARTICLE_EID": "art_115",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 65"],
+    "confidence": "high",
+    "reasoning": "Interne Referenz."
+  },
+  {
+    "ITEM": 370,
+    "ARTICLE_EID": "art_115",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 67"],
+    "confidence": "high",
+    "reasoning": "Interne Referenz."
+  },
+  {
+    "ITEM": 371,
+    "ARTICLE_EID": "art_115",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 72"],
+    "confidence": "high",
+    "reasoning": "Interne Referenz."
+  },
+  {
+    "ITEM": 372,
+    "ARTICLE_EID": "art_115",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 102"],
+    "confidence": "high",
+    "reasoning": "Interne Referenz."
+  },
+  {
+    "ITEM": 373,
+    "ARTICLE_EID": "art_116",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 5", "Art. 10_b Abs. 1", "Art. 10_b Abs. 2 lit. d", "Art. 10_b Abs. 3", "Art. 10_b Abs. 8", "Art. 24", "Art. 64", "Art. 65", "Art. 69", "Art. 72", "Art. 102"],
+    "confidence": "high",
+    "reasoning": "Interne Referenzen."
+  },
+  {
+    "ITEM": 374,
+    "ARTICLE_EID": "art_116",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 24", "Art. 64", "Art. 65", "Art. 72"],
+    "confidence": "high",
+    "reasoning": "Interne Referenzen."
+  },
+  {
+    "ITEM": 375,
+    "ARTICLE_EID": "art_116",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 72"],
+    "confidence": "high",
+    "reasoning": "Interne Referenz."
+  },
+  {
+    "ITEM": 376,
+    "ARTICLE_EID": "art_116_c",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 34", "Art. 88_h"],
+    "confidence": "high",
+    "reasoning": "Interne Referenzen."
+  },
+  {
+    "ITEM": 377,
+    "ARTICLE_EID": "art_116_c",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 33 Abs. 1 lit. a", "Art. 33 Abs. 1 lit. b"],
+    "confidence": "high",
+    "reasoning": "Interne Referenzen."
+  },
+  {
+    "ITEM": 378,
+    "ARTICLE_EID": "art_116_c",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 33 Abs. 1 lit. c"],
+    "confidence": "high",
+    "reasoning": "Interne Referenz."
+  },
+  {
+    "ITEM": 379,
+    "ARTICLE_EID": "art_116_c",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 33 Abs. 2"],
+    "confidence": "high",
+    "reasoning": "Interne Referenz."
+  },
+  {
+    "ITEM": 380,
+    "ARTICLE_EID": "art_116_c",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 34_a Abs. 2"],
+    "confidence": "high",
+    "reasoning": "Interne Referenz."
+  },
+  {
+    "ITEM": 381,
+    "ARTICLE_EID": "art_116_e",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 73 Abs. 5"],
+    "confidence": "high",
+    "reasoning": "Interne Referenz."
+  },
+  {
+    "ITEM": 382,
+    "ARTICLE_EID": "art_116_e",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 1"],
+    "confidence": "high",
+    "reasoning": "Interne Referenz."
+  },
+  {
+    "ITEM": 383,
+    "ARTICLE_EID": "art_116_f",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 2"],
+    "confidence": "high",
+    "reasoning": "Interne Referenz."
+  },
+  {
+    "ITEM": 384,
+    "ARTICLE_EID": "art_116_f",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 88_f"],
+    "confidence": "high",
+    "reasoning": "Interne Referenz."
+  },
+  {
+    "ITEM": 385,
+    "ARTICLE_EID": "art_116_g",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 50"],
+    "confidence": "high",
+    "reasoning": "Interne Referenz."
+  },
+  {
+    "ITEM": 386,
+    "ARTICLE_EID": "art_116_g",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 52 Abs. 6"],
+    "confidence": "high",
+    "reasoning": "Interne Referenz."
+  },
+  {
+    "ITEM": 387,
+    "ARTICLE_EID": "art_116_j",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 52 Abs. 6", "Art. 2"],
+    "confidence": "high",
+    "reasoning": "Interne Referenzen."
+  }
+]

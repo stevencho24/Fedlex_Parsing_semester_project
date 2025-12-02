@@ -1,0 +1,56 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 101",
+    "assigned_articles": [
+      "Art. 54",
+      "Art. 166",
+      "Art. 173 Abs. 1 Bst. a",
+      "Art. 184",
+      "Art. 185 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "INSIDE_AUTHORIALNOTE states: 'Den genannten Bestimmungen entsprechen heute Art. 54, 166, 173 Abs. 1 Buchstabe a, 184 und 185 Abs. 1 der BV ... (SR 101)'; these are explicitly linked to SR 101."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_10",
+    "TARGET_SR": "SR 101",
+    "assigned_articles": [
+      "Art. 141"
+    ],
+    "confidence": "high",
+    "reasoning": "INSIDE_AUTHORIALNOTE explains that the referenced (older) constitutional provision corresponds today to 'Art. 141 der BV ... (SR 101)'; this directly links Art. 141 to SR 101."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_6",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet '... den in Artikel 5 genannten Zielen ...' contains only an article number without any SR or external law indication; by the rules this is a self-reference within the same act."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_8",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "The phrase '... den Zielen nach Artikel 7 ...' mentions an article without any SR or external document marker; syntactically it is an internal cross-reference."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_10",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "The reference 'unter Vorbehalt von Artikel 89 Absatz 4 der Bundesverfassung' appears without an SR citation in this snippet; under the rules, lacking an explicit SR link in the same syntactic unit, it is treated as a self-reference in this context."
+  }
+]

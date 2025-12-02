@@ -1,0 +1,32 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": "SR 321.0",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet only mentions the Militärstrafgesetz (SR 321.0) generically without any article numbers or ranges; it is a blanket reservation of prosecution under that statute."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_8",
+    "TARGET_SR": "SR 321.0",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "The text states that the general provisions and the disciplinary penal order of the Militärstrafgesetz (SR 321.0) are applicable, but does not specify particular articles; it is a general applicability clause."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": "SR 510.518",
+    "assigned_articles": [
+      "Art. 2-6"
+    ],
+    "confidence": "high",
+    "reasoning": "The reference 'Artikel 2–6 dieses Bundesgesetzes' clearly refers to articles 2 through 6 of the same act (self-reference). Since this is the base document SR-510.518, the SR link is to SR 510.518 and the cited range is Art. 2–6."
+  }
+]

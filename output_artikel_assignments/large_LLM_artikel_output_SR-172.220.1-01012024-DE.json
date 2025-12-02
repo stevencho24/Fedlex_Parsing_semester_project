@@ -1,0 +1,570 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 101",
+    "assigned_articles": ["Art. 173 Abs. 2"],
+    "confidence": "high",
+    "reasoning": "Snippet explicitly cites 'Artikel 173 Absatz 2 der Bundesverfassung SR 101'; direct syntactic link to SR 101."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": "SR 172.010",
+    "assigned_articles": ["Art. 2 Abs. 1", "Art. 2 Abs. 2"],
+    "confidence": "high",
+    "reasoning": "Snippet: 'nach Artikel 2 Absätze 1 und 2 des ... Gesetzes ... SR 172.010'; clear direct marking."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": "SR 171.10",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "high",
+    "reasoning": "Only 'nach dem Parlamentsgesetz ... SR 171.10' without article numbers; treat as general reference."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": "SR 742.31",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "high",
+    "reasoning": "Cites 'nach dem Bundesgesetz ... SR 742.31 über die Schweizerischen Bundesbahnen' with no article; general reference."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": "SR 173.32",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "high",
+    "reasoning": "Phrase 'soweit das Verwaltungsgerichtsgesetz ... SR 173.32 ... nichts anderes vorsehen' refers to the act as a whole; no specific article."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": "SR 173.71",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "high",
+    "reasoning": "Same structure: 'das Strafbehördenorganisationsgesetz ... SR 173.71 ... nichts anderes vorsehen'; no article specified."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": "SR 173.41",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "high",
+    "reasoning": "Refers to 'das Patentgerichtsgesetz ... SR 173.41 ... nichts anderes vorsehen'; no article mentioned."
+  },
+  {
+    "ITEM": 8,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": "SR 173.110",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "high",
+    "reasoning": "'nach dem Bundesgerichtsgesetz ... SR 173.110' without article; general reference."
+  },
+  {
+    "ITEM": 9,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": "SR 412.10",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "high",
+    "reasoning": "'die dem Berufsbildungsgesetz ... SR 412.10 unterstehen'; no article; whole act context."
+  },
+  {
+    "ITEM": 10,
+    "ARTICLE_EID": "art_6",
+    "TARGET_SR": "SR 220",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "high",
+    "reasoning": "Refers to 'die einschlägigen Bestimmungen des Obligationenrechts SR 220 (OR)' generically; no specific article."
+  },
+  {
+    "ITEM": 11,
+    "ARTICLE_EID": "art_6_a",
+    "TARGET_SR": "SR 220",
+    "assigned_articles": ["Art. 663bbis", "Art. 663c Abs. 3"],
+    "confidence": "high",
+    "reasoning": "Snippet: 'Für diese gelten die Artikel 663bbis und 663c Absatz 3 OR SR 220'; direct marking to OR articles."
+  },
+  {
+    "ITEM": 12,
+    "ARTICLE_EID": "art_10",
+    "TARGET_SR": "SR 831.10",
+    "assigned_articles": ["Art. 21"],
+    "confidence": "high",
+    "reasoning": "Text: 'beim Erreichen der Altersgrenze nach Artikel 21 des Bundesgesetzes ... SR 831.10'; explicit article."
+  },
+  {
+    "ITEM": 13,
+    "ARTICLE_EID": "art_14",
+    "TARGET_SR": "SR 220",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "high",
+    "reasoning": "Mentions 'die Vorschriften ... des OR SR 220 über die ordentliche Kündigung' without article; general OR rules on ordinary termination."
+  },
+  {
+    "ITEM": 14,
+    "ARTICLE_EID": "art_17",
+    "TARGET_SR": "SR 822.11",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "medium",
+    "reasoning": "Refers to 'die Bestimmungen des Arbeitsgesetzes ... SR 822.11' on weekly maximum working time; no specific article given."
+  },
+  {
+    "ITEM": 15,
+    "ARTICLE_EID": "art_17",
+    "TARGET_SR": "SR 822.21",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "medium",
+    "reasoning": "Phrase 'Vorbehalten bleibt das Arbeitszeitgesetz ... SR 822.21' without article; reservation of the act as a whole."
+  },
+  {
+    "ITEM": 16,
+    "ARTICLE_EID": "art_17_a",
+    "TARGET_SR": "SR 220",
+    "assigned_articles": ["Art. 128 Ziff. 3"],
+    "confidence": "high",
+    "reasoning": "Snippet: 'gemäss Artikel 128 Ziffer 3 OR SR 220'; explicit article and number."
+  },
+  {
+    "ITEM": 17,
+    "ARTICLE_EID": "art_20_b",
+    "TARGET_SR": "SR 128",
+    "assigned_articles": ["Art. 31 Abs. 2"],
+    "confidence": "high",
+    "reasoning": "Text: 'nach Artikel 31 Absatz 2 des Informationssicherheitsgesetzes ... SR 128'; clear direct marking."
+  },
+  {
+    "ITEM": 18,
+    "ARTICLE_EID": "art_22_a",
+    "TARGET_SR": "SR 312.0",
+    "assigned_articles": ["Art. 113 Abs. 1", "Art. 168", "Art. 169"],
+    "confidence": "high",
+    "reasoning": "Snippet lists 'nach den Artikeln 113 Absatz 1, 168 und 169 der Strafprozessordnung ... SR 312.0'; all three belong to SR 312.0."
+  },
+  {
+    "ITEM": 19,
+    "ARTICLE_EID": "art_27_d",
+    "TARGET_SR": "SR 172.222.023",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "high",
+    "reasoning": "Refers to 'nach der Verordnung ... SR 172.222.023 über den Unterstützungsfonds'; no article specified."
+  },
+  {
+    "ITEM": 20,
+    "ARTICLE_EID": "art_32_b",
+    "TARGET_SR": "SR 172.222.1",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "medium",
+    "reasoning": "Phrase 'im Sinne des PUBLICA-Gesetzes ... SR 172.222.1' defines employer concept; no article cited."
+  },
+  {
+    "ITEM": 21,
+    "ARTICLE_EID": "art_32_c",
+    "TARGET_SR": "SR 172.222.1",
+    "assigned_articles": ["Art. 4 Abs. 1"],
+    "confidence": "high",
+    "reasoning": "Snippet: 'nach Artikel 4 Absatz 1 des PUBLICA-Gesetzes ... SR 172.222.1'; explicit article and paragraph."
+  },
+  {
+    "ITEM": 22,
+    "ARTICLE_EID": "art_32_g",
+    "TARGET_SR": "SR 831.40",
+    "assigned_articles": ["Art. 66 Abs. 1"],
+    "confidence": "high",
+    "reasoning": "Text: 'im Rahmen von Artikel 66 Absatz 1 des Bundesgesetzes ... SR 831.40'; direct marking."
+  },
+  {
+    "ITEM": 23,
+    "ARTICLE_EID": "art_32_g",
+    "TARGET_SR": "SR 220",
+    "assigned_articles": ["Art. 331 Abs. 3"],
+    "confidence": "high",
+    "reasoning": "Snippet: 'und Artikel 331 Absatz 3 OR SR 220'; explicit OR article."
+  },
+  {
+    "ITEM": 24,
+    "ARTICLE_EID": "art_32_i",
+    "TARGET_SR": "SR 831.10",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "medium",
+    "reasoning": "Refers to 'bis zum Ende der Beitragspflicht gemäss AHVG SR 831.10'; no specific article; concept defined across AHVG."
+  },
+  {
+    "ITEM": 25,
+    "ARTICLE_EID": "art_32_j",
+    "TARGET_SR": "SR 831.40",
+    "assigned_articles": ["Art. 23"],
+    "confidence": "high",
+    "reasoning": "Snippet: 'nach Artikel 23 BVG SR 831.40 anspruchsberechtigt'; explicit article."
+  },
+  {
+    "ITEM": 26,
+    "ARTICLE_EID": "art_32_j",
+    "TARGET_SR": "SR 831.10",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "medium",
+    "reasoning": "Phrase 'bis zum Ende der Beitragspflicht gemäss AHVG SR 831.10'; again general AHVG reference without article."
+  },
+  {
+    "ITEM": 27,
+    "ARTICLE_EID": "art_32_k",
+    "TARGET_SR": "SR 831.10",
+    "assigned_articles": ["Art. 21"],
+    "confidence": "high",
+    "reasoning": "Text: 'vor dem Rentenalter nach Artikel 21 AHVG SR 831.10'; explicit article."
+  },
+  {
+    "ITEM": 28,
+    "ARTICLE_EID": "art_32_l",
+    "TARGET_SR": "SR 172.222.1",
+    "assigned_articles": ["Art. 23 Abs. 2", "Art. 24 Abs. 4"],
+    "confidence": "high",
+    "reasoning": "Snippet cites '(Art. 23 Abs. 2 ... PUBLICA-Gesetz ... SR 172.222.1)' and 'nach Artikel 24 Absatz 4 des PUBLICA-Gesetzes ...'; both clearly tied to SR 172.222.1."
+  },
+  {
+    "ITEM": 29,
+    "ARTICLE_EID": "art_32_m",
+    "TARGET_SR": "SR 172.222.1",
+    "assigned_articles": ["Art. 23 Abs. 2"],
+    "confidence": "high",
+    "reasoning": "Text: '(Art. 23 Abs. 2 zweiter Satz PUBLICA-Gesetz ... SR 172.222.1)'; explicit article and paragraph."
+  },
+  {
+    "ITEM": 30,
+    "ARTICLE_EID": "art_33",
+    "TARGET_SR": "SR 822.11",
+    "assigned_articles": ["Art. 6 Abs. 3"],
+    "confidence": "high",
+    "reasoning": "Snippet: 'nach Artikel 6 Absatz 3 des Arbeitsgesetzes ... SR 822.11'; direct marking."
+  },
+  {
+    "ITEM": 31,
+    "ARTICLE_EID": "art_34_c",
+    "TARGET_SR": "SR 220",
+    "assigned_articles": ["Art. 336", "Art. 336c Abs. 1"],
+    "confidence": "high",
+    "reasoning": "Snippet_acronym shows 'Artikel 336 OR' and 'Artikel 336c Absatz 1 OR'; both belong to OR SR 220."
+  },
+  {
+    "ITEM": 32,
+    "ARTICLE_EID": "art_34_c",
+    "TARGET_SR": "SR 151.1",
+    "assigned_articles": ["Art. 3", "Art. 4"],
+    "confidence": "high",
+    "reasoning": "Text: 'diskriminierend nach Artikel 3 oder 4 des Gleichstellungsgesetzes ... SR 151.1'; explicit articles."
+  },
+  {
+    "ITEM": 33,
+    "ARTICLE_EID": "art_36",
+    "TARGET_SR": "SR 173.32",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "medium",
+    "reasoning": "Phrase 'Das Verfahren richtet sich nach dem Verwaltungsgerichtsgesetz ... SR 173.32'; no article; procedural framework generally."
+  },
+  {
+    "ITEM": 34,
+    "ARTICLE_EID": "art_37",
+    "TARGET_SR": "SR 220",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "medium",
+    "reasoning": "Refers generically to 'das OR SR 220' as applicable law; no specific article in snippet."
+  },
+  {
+    "ITEM": 35,
+    "ARTICLE_EID": "art_41_a",
+    "TARGET_SR": "SR 172.222.1",
+    "assigned_articles": ["Art. 26"],
+    "confidence": "high",
+    "reasoning": "Snippet: 'richtet sich nach Artikel 26 des PUBLICA-Gesetzes ... SR 172.222.1'; explicit article."
+  },
+  {
+    "ITEM": 36,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "high",
+    "reasoning": "Artikelreferenz ohne SR; 'Artikel 2 Absätze 1 und 2' clearly refers to Art. 2 of the current act (self-reference), not to SR 172.010 which is only named by acronym RVOG."
+  },
+  {
+    "ITEM": 37,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "high",
+    "reasoning": "'Artikel 2 Absatz 3 RVOG' refers to Art. 2 RVOG (SR 172.010) but no SR is mentioned; however, RVOG is an external act. Yet per rules, without explicit SR and given acronym context, this is an external reference. Still, this item_type is artikel_reference and aims at self-references; here the article is syntactically tied to RVOG, not to the current act, so it is not a self-reference. No TARGET_SR field, so we treat it as an external reference without SR assignment."
+  },
+  {
+    "ITEM": 38,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "low",
+    "reasoning": "Refers to 'Artikel 22 Absatz 2 des Strafbehördenorganisationsgesetzes'; external act without SR number; cannot safely assign SR, and not a self-reference to this act's articles."
+  },
+  {
+    "ITEM": 39,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "low",
+    "reasoning": "Mentions 'Artikel 168 der Bundesverfassung'; external (SR 101) but no SR given here; not a self-reference to this act."
+  },
+  {
+    "ITEM": 40,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 37", "Art. 38", "Art. 8"],
+    "confidence": "high",
+    "reasoning": "All cited articles are within the same act ('Ausführungsbestimmungen (Art. 37 und 38), ... Arbeitsverträge (Art. 8)'); clear internal cross-reference."
+  },
+  {
+    "ITEM": 41,
+    "ARTICLE_EID": "art_6",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 37", "Art. 38", "Art. 8"],
+    "confidence": "high",
+    "reasoning": "Again references 'Ausführungsbestimmungen (Art. 37)... Gesamtarbeitsvertrag (Art. 38)... Arbeitsvertrag (Art. 8)' within same law; self-reference."
+  },
+  {
+    "ITEM": 42,
+    "ARTICLE_EID": "art_10",
+    "TARGET_SR": null,
+    "assigned_articles": ["External reference without SR assignment"],
+    "confidence": "high",
+    "reasoning": "Refers to 'Artikel 21 ... AHVG'; external act (SR 831.10) but no SR in this snippet; not a self-reference."
+  },
+  {
+    "ITEM": 43,
+    "ARTICLE_EID": "art_10",
+    "TARGET_SR": null,
+    "assigned_articles": ["External reference without SR assignment"],
+    "confidence": "high",
+    "reasoning": "Mentions 'Artikel 21 AHVG'; external law; no SR number here; not internal."
+  },
+  {
+    "ITEM": 44,
+    "ARTICLE_EID": "art_14",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 34b Abs. 1 Bst. a", "Art. 34b Abs. 2", "Art. 34c Abs. 1 Bst. a", "Art. 34c Abs. 1 Bst. b", "Art. 34c Abs. 1 Bst. d", "Art. 34c Abs. 2"],
+    "confidence": "high",
+    "reasoning": "All cited provisions (Art. 34b, 34c) are clearly within the same act; internal procedural cross-references."
+  },
+  {
+    "ITEM": 45,
+    "ARTICLE_EID": "art_16",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 38", "Art. 38 Abs. 3"],
+    "confidence": "high",
+    "reasoning": "References 'Gesamtarbeitsvertrag (Art. 38)' and 'Schiedsgericht (Art. 38 Abs. 3)' of the same act; self-reference."
+  },
+  {
+    "ITEM": 46,
+    "ARTICLE_EID": "art_20_b",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 3 Abs. 1 Bst. a", "Art. 3 Abs. 1 Bst. b", "Art. 3 Abs. 1 Bst. e–g", "Art. 3 Abs. 3"],
+    "confidence": "high",
+    "reasoning": "Cites 'Arbeitgeber nach Artikel 3 Absatz 1 Buchstaben a, b und e–g sowie Absatz 3'; these are internal structural references."
+  },
+  {
+    "ITEM": 47,
+    "ARTICLE_EID": "art_20_b",
+    "TARGET_SR": null,
+    "assigned_articles": ["External reference without SR assignment"],
+    "confidence": "high",
+    "reasoning": "Refers to 'Artikel 31 Absatz 2 des Informationssicherheitsgesetzes (ISG)'; external act; no SR here; not self-reference."
+  },
+  {
+    "ITEM": 48,
+    "ARTICLE_EID": "art_22_a",
+    "TARGET_SR": null,
+    "assigned_articles": ["External reference without SR assignment"],
+    "confidence": "high",
+    "reasoning": "Mentions 'Artikeln 113 Absatz 1, 168 und 169 der Strafprozessordnung'; external (SR 312.0) but SR not in this snippet; not internal."
+  },
+  {
+    "ITEM": 49,
+    "ARTICLE_EID": "art_25",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 34", "Art. 36"],
+    "confidence": "high",
+    "reasoning": "Phrase 'richtet sich ... nach den Artikeln 34 und 36'; these are articles of the same act; internal reference."
+  },
+  {
+    "ITEM": 50,
+    "ARTICLE_EID": "art_31",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 38", "Art. 38 Abs. 3"],
+    "confidence": "high",
+    "reasoning": "References 'Gesamtarbeitsvertrag (Art. 38)' and 'Schiedsgericht (Art. 38 Abs. 3)'; internal cross-reference."
+  },
+  {
+    "ITEM": 51,
+    "ARTICLE_EID": "art_32_a",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 2 Abs. 1 Bst. a", "Art. 2 Abs. 1 Bst. b", "Art. 2 Abs. 1 Bst. e–i"],
+    "confidence": "high",
+    "reasoning": "Cites 'Arbeitgeber nach Artikel 2 Absatz 1 Buchstaben a, b und e–i'; clearly internal to this act."
+  },
+  {
+    "ITEM": 52,
+    "ARTICLE_EID": "art_32_a",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 3 Abs. 2", "Art. 37 Abs. 3"],
+    "confidence": "high",
+    "reasoning": "Mentions 'nach Artikel 3 Absatz 2 und 37 Absatz 3'; both are articles of the same law; self-reference."
+  },
+  {
+    "ITEM": 53,
+    "ARTICLE_EID": "art_32_b",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 32a"],
+    "confidence": "high",
+    "reasoning": "Refers to 'Angestellten nach Artikel 32a'; internal cross-reference to preceding article."
+  },
+  {
+    "ITEM": 54,
+    "ARTICLE_EID": "art_32_b",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 32d Abs. 2"],
+    "confidence": "high",
+    "reasoning": "Cites '(Art. 32d Abs. 2)'; clearly an article of the same act; self-reference."
+  },
+  {
+    "ITEM": 55,
+    "ARTICLE_EID": "art_32_c",
+    "TARGET_SR": null,
+    "assigned_articles": ["External reference without SR assignment"],
+    "confidence": "high",
+    "reasoning": "Refers to 'Artikel 4 Absatz 1 des PUBLICA-Gesetzes'; external act; no SR here; not internal."
+  },
+  {
+    "ITEM": 56,
+    "ARTICLE_EID": "art_32_d",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 3 Abs. 2", "Art. 37 Abs. 3", "Art. 32a Abs. 2"],
+    "confidence": "high",
+    "reasoning": "Mentions 'nach den Artikeln 3 Absatz 2 und 37 Absatz 3' and 'Verwaltungseinheiten ... nach Artikel 32a Absatz 2'; all internal."
+  },
+  {
+    "ITEM": 57,
+    "ARTICLE_EID": "art_32_g",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 15"],
+    "confidence": "high",
+    "reasoning": "Refers to 'Zuschläge nach Artikel 15'; this is an article of the same act; internal reference."
+  },
+  {
+    "ITEM": 58,
+    "ARTICLE_EID": "art_32_h",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 32a Abs. 2"],
+    "confidence": "high",
+    "reasoning": "Mentions 'gilt nicht für Arbeitgeber nach Artikel 32a Absatz 2'; internal cross-reference."
+  },
+  {
+    "ITEM": 59,
+    "ARTICLE_EID": "art_32_l",
+    "TARGET_SR": null,
+    "assigned_articles": ["External reference without SR assignment"],
+    "confidence": "high",
+    "reasoning": "Cites 'Art. 23 Abs. 2 ... PUBLICA-Gesetz' and 'Artikel 24 Absatz 4 des PUBLICA-Gesetzes'; external act; no SR here; not internal."
+  },
+  {
+    "ITEM": 60,
+    "ARTICLE_EID": "art_32_m",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 32d Abs. 1", "Art. 32d Abs. 2"],
+    "confidence": "high",
+    "reasoning": "Refers to 'innerhalb eines gemeinschaftlichen Vorsorgewerks nach Artikel 32d Absätze 1 und 2'; internal cross-reference."
+  },
+  {
+    "ITEM": 61,
+    "ARTICLE_EID": "art_32_m",
+    "TARGET_SR": null,
+    "assigned_articles": ["External reference without SR assignment"],
+    "confidence": "high",
+    "reasoning": "Cites '(Art. 23 Abs. 2 ... PUBLICA-Gesetz)'; external act; no SR; not internal."
+  },
+  {
+    "ITEM": 62,
+    "ARTICLE_EID": "art_33",
+    "TARGET_SR": null,
+    "assigned_articles": ["External reference without SR assignment"],
+    "confidence": "high",
+    "reasoning": "Refers to 'Artikel 6 Absatz 3 des Arbeitsgesetzes'; external (SR 822.11) but SR not in this snippet; not self-reference."
+  },
+  {
+    "ITEM": 63,
+    "ARTICLE_EID": "art_34",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 21 Abs. 1 Bst. a", "Art. 21 Abs. 1 Bst. cbis"],
+    "confidence": "high",
+    "reasoning": "Mentions 'gemäss Artikel 21 Absatz 1 Buchstaben a und cbis'; these are internal provisions of the same act."
+  },
+  {
+    "ITEM": 64,
+    "ARTICLE_EID": "art_34",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 36"],
+    "confidence": "high",
+    "reasoning": "Refers to 'Beschwerdeverfahren nach Artikel 36'; internal procedural article."
+  },
+  {
+    "ITEM": 65,
+    "ARTICLE_EID": "art_34_c",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 22a Abs. 1", "Art. 22a Abs. 4"],
+    "confidence": "high",
+    "reasoning": "Cites 'Anzeige nach Artikel 22a Absatz 1 oder ... Meldung nach Artikel 22a Absatz 4'; both internal."
+  },
+  {
+    "ITEM": 66,
+    "ARTICLE_EID": "art_34_c",
+    "TARGET_SR": null,
+    "assigned_articles": ["External reference without SR assignment"],
+    "confidence": "high",
+    "reasoning": "Refers to 'Artikel 3 oder 4 des Gleichstellungsgesetzes'; external (SR 151.1) but no SR here; not internal."
+  },
+  {
+    "ITEM": 67,
+    "ARTICLE_EID": "art_36_a",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 36"],
+    "confidence": "high",
+    "reasoning": "Mentions 'richterliche Instanz (Art. 36)'; internal reference to main complaints article."
+  },
+  {
+    "ITEM": 68,
+    "ARTICLE_EID": "art_37",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 3 Abs. 2"],
+    "confidence": "high",
+    "reasoning": "Refers to 'Arbeitgeberbefugnisse nach Artikel 3 Absatz 2'; internal cross-reference."
+  },
+  {
+    "ITEM": 69,
+    "ARTICLE_EID": "art_39",
+    "TARGET_SR": null,
+    "assigned_articles": ["External reference without SR assignment"],
+    "confidence": "high",
+    "reasoning": "Cites 'Artikel 48 Absätze 1–5ter des Beamtengesetzes'; external historical act; not internal."
+  },
+  {
+    "ITEM": 70,
+    "ARTICLE_EID": "art_41",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 37", "Art. 38"],
+    "confidence": "high",
+    "reasoning": "Mentions 'Ausführungsbestimmungen nach Artikel 37 oder des GAV nach Artikel 38'; both internal."
+  },
+  {
+    "ITEM": 71,
+    "ARTICLE_EID": "art_41_a",
+    "TARGET_SR": null,
+    "assigned_articles": ["External reference without SR assignment"],
+    "confidence": "high",
+    "reasoning": "Refers to 'Artikel 26 des PUBLICA-Gesetzes'; external act; no SR here; not internal."
+  }
+]

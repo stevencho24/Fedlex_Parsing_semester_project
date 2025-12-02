@@ -1,0 +1,93 @@
+[
+  {
+    "Item": 1,
+    "TARGET_SR": "SR 432.21",
+    "assigned_articles": [
+      "Art. 4 Abs. 1",
+      "Art. 15 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Präambel nennt ausdrücklich «Artikel 4 Absatz 1 und 15 Absatz 1 des Bundesgesetzes ... SR 432.21 über die Schweizerische Nationalbibliothek (NBibG)»; beide Artikel gehören somit klar zum NBibG (SR 432.21)."
+  },
+  {
+    "Item": 2,
+    "TARGET_SR": "SR 611.01",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "medium",
+    "reasoning": "Im laufenden Satz wird «Artikel 14 der Finanzhaushaltverordnung vom 11. Juni 1990» erwähnt, die anschliessende Autorennotiz verweist aber nur allgemein auf die heutige Verordnung vom 5. April 2006 (SR 611.01), ohne einen konkreten Artikel dieser neuen Verordnung zu nennen. Daher ist nur eine allgemeine Dokumentverweisung erkennbar."
+  },
+  {
+    "Item": 3,
+    "TARGET_SR": "SR 611.0",
+    "assigned_articles": [
+      "Art. 52"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Satz lautet: «... ist ein Spezialfonds nach Artikel 52 des Finanzhaushaltgesetzes vom 7. Oktober 2005 SR 611.0; ...». «Artikel 52» ist syntaktisch direkt dem Finanzhaushaltgesetz (SR 611.0) zugeordnet."
+  },
+  {
+    "Item": 4,
+    "TARGET_SR": "SR 432.21",
+    "assigned_articles": [
+      "Art. 3 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Snippet steht: «... die Eigenschaften als Helvetica nach Artikel 3 Absatz 1 NBibG erfüllen.» Das NBibG ist in der Präambel als SR 432.21 definiert; Art. 3 Abs. 1 gehört somit zu SR 432.21."
+  },
+  {
+    "Item": 5,
+    "TARGET_SR": "SR 432.21",
+    "assigned_articles": [
+      "Art. 13"
+    ],
+    "confidence": "high",
+    "reasoning": "Formulierung: «Vorbehalten bleibt Artikel 13 NBibG.» Das NBibG ist SR 432.21; der genannte Artikel 13 ist daher Art. 13 dieses Gesetzes."
+  },
+  {
+    "Item": 6,
+    "TARGET_SR": "SR 432.21",
+    "assigned_articles": [
+      "Art. 10"
+    ],
+    "confidence": "high",
+    "reasoning": "Text: «Vereinbarungen nach Artikel 10 NBibG ...». Das NBibG ist SR 432.21; damit bezieht sich die Stelle auf Art. 10 SR 432.21."
+  },
+  {
+    "Item": 7,
+    "TARGET_SR": "SR 432.21",
+    "assigned_articles": [
+      "Art. 12"
+    ],
+    "confidence": "high",
+    "reasoning": "Text: «Über Finanzhilfen nach Artikel 12 NBibG entscheidet ...». Das NBibG ist SR 432.21; somit ist Art. 12 des NBibG (SR 432.21) gemeint."
+  },
+  {
+    "Item": 8,
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«(Art. 29)» erscheint ohne Nennung eines SR oder Gesetzesnamens und steht in Klammern als Verweis innerhalb derselben Verordnung; dies ist eine reine Selbstreferenz auf Art. 29 des aktuellen Erlasses."
+  },
+  {
+    "Item": 9,
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«... soweit ihre Annahme nicht nach Artikel 14 der Finanzhaushaltverordnung ... fällt.» In dieser Fassung wird kein SR-Zeichen oder Gesetzesakronym genannt; im Kontext des Artikels ist dies eine interne Verweisung auf einen Artikel der damals geltenden Finanzhaushaltverordnung, nicht auf die in Item 2 genannte neue SR 611.01. Für diesen artikel_reference-Eintrag ist es daher eine Selbstreferenz/anderes Dokument ohne explizite SR-Zuordnung."
+  },
+  {
+    "Item": 10,
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«... ist ein Spezialfonds nach Artikel 52 des Finanzhaushaltgesetzes vom 7. Oktober 2005; ...» enthält hier keinen SR-Hinweis; der artikel_reference-Eintrag dient nur der Erfassung der internen Formulierung. Die eindeutige Zuordnung von Art. 52 FHG zu SR 611.0 erfolgt bereits in Item 3; dieser Eintrag bleibt als interne Referenz ohne eigene SR-Zuweisung."
+  }
+]

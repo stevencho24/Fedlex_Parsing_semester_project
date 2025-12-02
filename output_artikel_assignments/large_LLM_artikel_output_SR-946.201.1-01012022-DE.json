@@ -1,0 +1,52 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 946.201",
+    "assigned_articles": [
+      "Art. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Formulierung «gestützt auf Artikel 1 des Bundesgesetzes ... SR 946.201» verknüpft eindeutig Art. 1 mit dem genannten Gesetz (SR 946.201)."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 632.10",
+    "assigned_articles": [
+      "Anhang"
+    ],
+    "confidence": "medium",
+    "reasoning": "Im Snippet wird «des schweizerischen Zolltarifs SR 632.10 Anhang» genannt. Es wird kein bestimmter Artikel, sondern der Anhang des Zolltarifs referenziert; daher Zuordnung zum Anhang ohne spezifische Artikelnummer."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": "SR 170.512.1",
+    "assigned_articles": [
+      "Art. 16 Abs. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "Die INSIDE_AUTHORIALNOTE enthält «in Anwendung von Art. 16 Abs. 3 der Publikationsverordnung ... (SR 170.512.1)»; Artikel und Absatz sind direkt mit dieser SR verknüpft."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_6",
+    "TARGET_SR": "SR 170.512.1",
+    "assigned_articles": [
+      "Art. 20 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Die INSIDE_AUTHORIALNOTE enthält «in Anwendung von Art. 20 Abs. 2 der Publikationsverordnung ... (SR 170.512.1)»; damit ist Art. 20 Abs. 2 eindeutig dieser SR zugeordnet."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Interne Verweisung innerhalb des aktuellen Erlasses (Art. 5)"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Formulierung «nach Artikel 5» erfolgt ohne Nennung einer SR oder eines Gesetzesnamens; dies ist eine typische Selbstverweisung auf einen anderen Artikel desselben Erlasses und keine Verweisung auf ein externes SR-Dokument."
+  }
+]

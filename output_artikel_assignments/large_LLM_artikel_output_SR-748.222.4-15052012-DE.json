@@ -1,0 +1,42 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 748.01",
+    "assigned_articles": [
+      "Art. 138a"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Formulierung «gestützt auf Artikel 138a der Luftfahrtverordnung … SR 748.01» verknüpft den genannten Artikel direkt und eindeutig mit der zitierten SR 748.01."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 0.748.127.192.68",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Snippet wird nur das Abkommen (SR 0.748.127.192.68) als Ganzes in seiner jeweils verbindlichen Fassung erwähnt; konkrete Artikelnummern dieses Abkommens werden nicht genannt."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": "SR 748.0",
+    "assigned_articles": [
+      "Art. 92"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Passage «in Anwendung von Artikel 92 des Luftfahrtgesetzes … SR 748.0» ordnet Art. 92 eindeutig dem Luftfahrtgesetz (SR 748.0) zu."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Stelle «in Anwendung von Artikel 92 des Luftfahrtgesetzes» wiederholt die Selbstreferenz aus demselben Satz wie ITEM 3, jedoch ohne explizite SR-Angabe; sie verweist auf denselben externen Artikel, dient hier aber als interne Artikelverweis-Erfassung und wird daher als Selbstreferenz des aktuellen Dokuments behandelt."
+  }
+]

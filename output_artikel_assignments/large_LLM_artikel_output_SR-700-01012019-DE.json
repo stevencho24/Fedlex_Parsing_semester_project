@@ -1,0 +1,293 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 101",
+    "assigned_articles": [
+      "Art. 41",
+      "Art. 75",
+      "Art. 108",
+      "Art. 147"
+    ],
+    "confidence": "high",
+    "reasoning": "Die INSIDE_AUTHORIALNOTE nennt ausdrücklich: \"Den genannten Bestimmungen entsprechen heute die Art. 41, 75, 108 und 147 der BV ... (SR 101)\"; diese Artikel sind klar dem SR 101 zugeordnet."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_10",
+    "TARGET_SR": "SR 814.01",
+    "assigned_articles": [
+      "Art. 55"
+    ],
+    "confidence": "high",
+    "reasoning": "Im SNIPPET: \"nach Artikel 55 des Umweltschutzgesetzes vom 7. Oktober 1983 SR 814.01\"; der Artikel 55 wird direkt mit dem Umweltschutzgesetz (SR 814.01) verknüpft."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_10",
+    "TARGET_SR": "SR 451",
+    "assigned_articles": [
+      "Art. 12"
+    ],
+    "confidence": "high",
+    "reasoning": "Im SNIPPET: \"und nach Artikel 12 des Bundesgesetzes vom 1. Juli 1966 SR 451 über den Natur- und Heimatschutz\"; Artikel 12 ist syntaktisch direkt mit SR 451 verbunden."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_16_a_bis",
+    "TARGET_SR": "SR 211.412.11",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "Formulierung: \"im Sinne des Bundesgesetzes vom 4. Oktober 1991 SR 211.412.11 über das bäuerliche Bodenrecht\" ohne konkrete Artikelangabe; dies ist eine generelle Bezugnahme auf das Gesetz als Ganzes."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_24_b",
+    "TARGET_SR": "SR 211.412.11",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "Auch hier: \"im Sinne des Bundesgesetzes vom 4. Oktober 1991 SR 211.412.11 über das bäuerliche Bodenrecht\" ohne Nennung einzelner Artikel; daher allgemeine Gesetzesverweisung."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "Verweist auf \"Artikel 3, insbesondere Absätze 2 ...\" ohne SR- oder Gesetzesangabe; dies ist eine innergesetzliche Selbstverweisung innerhalb desselben SR-700-Dokuments."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 12"
+    ],
+    "confidence": "high",
+    "reasoning": "\"(Art. 12)\" ohne Gesetzesangabe im Kontext des Raumplanungsgesetzes; dies ist eine Selbstverweisung auf Art. 12 desselben Dokuments (SR 700)."
+  },
+  {
+    "ITEM": 8,
+    "ARTICLE_EID": "art_8_a",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 15"
+    ],
+    "confidence": "high",
+    "reasoning": "Formulierung \"d. wie sichergestellt wird, dass die Bauzonen den Anforderungen von Artikel 15 entsprechen\" ohne externes Gesetz; innergesetzliche Verweisung auf Art. 15 des gleichen Gesetzes."
+  },
+  {
+    "ITEM": 9,
+    "ARTICLE_EID": "art_10",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 55",
+      "Art. 12"
+    ],
+    "confidence": "high",
+    "reasoning": "Dies ist dieselbe Textpassage wie bei ITEM 2 und 3, aber als artikel_reference ohne SR; hier werden Art. 55 und Art. 12 lediglich als Zitate der fremden Gesetze wiedergegeben, die bereits über SR_link_detection korrekt zugeordnet sind. Innerhalb des aktuellen Dokuments fungiert dies als Verweis auf diese externen Artikel, nicht auf eigene Artikel."
+  },
+  {
+    "ITEM": 10,
+    "ARTICLE_EID": "art_15_a",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 20"
+    ],
+    "confidence": "high",
+    "reasoning": "\"Landumlegungen (Art. 20)\" ohne Gesetzesangabe im selben Gesetzeszusammenhang; dies ist eine Selbstverweisung auf Art. 20 des Raumplanungsgesetzes."
+  },
+  {
+    "ITEM": 11,
+    "ARTICLE_EID": "art_16_a",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 16 Abs. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "\"im Rahmen von Artikel 16 Absatz 3\"; klarer innerer Verweis auf einen Absatz desselben Artikels im gleichen Gesetz."
+  },
+  {
+    "ITEM": 12,
+    "ARTICLE_EID": "art_16_b",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 24–24e"
+    ],
+    "confidence": "high",
+    "reasoning": "\"im Sinne der Artikel 24–24e\" ohne externes Gesetz; dies ist eine interne Artikelspanne innerhalb des Raumplanungsgesetzes."
+  },
+  {
+    "ITEM": 13,
+    "ARTICLE_EID": "art_18_a",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 22 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "\"keiner Baubewilligung nach Artikel 22 Absatz 1\"; innergesetzliche Verweisung auf Art. 22 Abs. 1 desselben Gesetzes."
+  },
+  {
+    "ITEM": 14,
+    "ARTICLE_EID": "art_24",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 22 Abs. 2 Bst. a"
+    ],
+    "confidence": "high",
+    "reasoning": "\"Abweichend von Artikel 22 Absatz 2 Buchstabe a\"; klarer Selbstverweis auf eine Bestimmung im gleichen Gesetz."
+  },
+  {
+    "ITEM": 15,
+    "ARTICLE_EID": "art_24_a",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 22 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "\"baulichen Massnahmen im Sinne von Artikel 22 Absatz 1\"; innergesetzliche Verweisung."
+  },
+  {
+    "ITEM": 16,
+    "ARTICLE_EID": "art_24_b",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 24 Bst. a"
+    ],
+    "confidence": "high",
+    "reasoning": "\"Die Anforderung nach Artikel 24 Buchstabe a\"; Selbstverweis auf eine Bestimmung desselben Gesetzes."
+  },
+  {
+    "ITEM": 17,
+    "ARTICLE_EID": "art_24_b",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 58–60"
+    ],
+    "confidence": "high",
+    "reasoning": "\"nach den Artikeln 58–60 des Bundesgesetzes vom 4. Oktober 1991 über das bäuerliche Bodenrecht\"; dies verweist auf Artikel 58–60 des bäuerlichen Bodenrechts (SR 211.412.11). Da diese externe Beziehung bereits über SR_link_detection (ITEM 4 und 5) abgedeckt ist und hier kein TARGET_SR angegeben ist, wird sie als inhaltliche externe Artikelangabe ohne neue SR-Zuordnung behandelt."
+  },
+  {
+    "ITEM": 18,
+    "ARTICLE_EID": "art_24_e",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 24d Abs. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "\"wenn die Voraussetzungen von Artikel 24d Absatz 3 erfüllt sind\"; innergesetzliche Verweisung."
+  },
+  {
+    "ITEM": 19,
+    "ARTICLE_EID": "art_24_e",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 24c",
+      "Art. 24d Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "\"zu denjenigen nach Artikel 24c und nach Artikel 24d Absatz 1\"; beide Verweise beziehen sich auf Artikel desselben Gesetzes."
+  },
+  {
+    "ITEM": 20,
+    "ARTICLE_EID": "art_27_a",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 16a Abs. 2",
+      "Art. 24b",
+      "Art. 24c",
+      "Art. 24d"
+    ],
+    "confidence": "high",
+    "reasoning": "\"einschränkende Bestimmungen ... zu den Artikeln 16a Absatz 2, 24b, 24c und 24d\"; alle genannten Artikel gehören zum selben Gesetz (SR 700)."
+  },
+  {
+    "ITEM": 21,
+    "ARTICLE_EID": "art_29",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 17"
+    ],
+    "confidence": "high",
+    "reasoning": "\"Schutzmassnahmen nach Artikel 17\"; innergesetzliche Verweisung."
+  },
+  {
+    "ITEM": 22,
+    "ARTICLE_EID": "art_33",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 25a Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "\"auf welche Artikel 25a Absatz 1 Anwendung findet\"; Verweis auf eine Bestimmung desselben Gesetzes."
+  },
+  {
+    "ITEM": 23,
+    "ARTICLE_EID": "art_34",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 5"
+    ],
+    "confidence": "high",
+    "reasoning": "\"Entschädigungen als Folge von Eigentumsbeschränkungen (Art. 5)\"; innergesetzliche Verweisung."
+  },
+  {
+    "ITEM": 24,
+    "ARTICLE_EID": "art_34",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 24–24d",
+      "Art. 37a"
+    ],
+    "confidence": "high",
+    "reasoning": "\"Bewilligungen im Sinne der Artikel 24–24d und 37a\"; alle genannten Bestimmungen gehören zum gleichen Gesetz."
+  },
+  {
+    "ITEM": 25,
+    "ARTICLE_EID": "art_36",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 27",
+      "Art. 27a"
+    ],
+    "confidence": "high",
+    "reasoning": "\"Planungszonen (Art. 27) ... Bestimmungen zum Bauen ausserhalb der Bauzonen (Art. 27a)\"; beides sind interne Artikelverweise."
+  },
+  {
+    "ITEM": 26,
+    "ARTICLE_EID": "art_38_a",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 8",
+      "Art. 8a Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "\"an die Anforderungen der Artikel 8 und 8a Absatz 1\"; innergesetzliche Verweise."
+  },
+  {
+    "ITEM": 27,
+    "ARTICLE_EID": "art_38_a",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 5"
+    ],
+    "confidence": "high",
+    "reasoning": "\"nach den Anforderungen von Artikel 5\"; interner Verweis auf Art. 5 desselben Gesetzes."
+  },
+  {
+    "ITEM": 28,
+    "ARTICLE_EID": "art_38_a",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 5"
+    ],
+    "confidence": "high",
+    "reasoning": "\"nach den Anforderungen von Artikel 5\"; wiederum innergesetzliche Verweisung auf dieselbe Norm."
+  }
+]

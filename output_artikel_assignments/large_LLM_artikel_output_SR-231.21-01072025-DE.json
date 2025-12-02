@@ -1,0 +1,141 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 231.2",
+    "assigned_articles": [
+      "Art. 2 Abs. 2",
+      "Art. 12",
+      "Art. 18"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Präambel nennt ausdrücklich: «gestützt auf die Artikel 2 Absatz 2, 12 und 18 des Topographiengesetzes … SR 231.2 (ToG)»; diese Artikel gehören damit klar zum ToG (SR 231.2)."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 172.010.31",
+    "assigned_articles": [
+      "Art. 13"
+    ],
+    "confidence": "high",
+    "reasoning": "Im selben Satz: «… und auf Artikel 13 des Bundesgesetzes … SR 172.010.31 … (IGEG)»; Art. 13 ist grammatisch direkt diesem Gesetz zugeordnet."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 170.512.1",
+    "assigned_articles": [
+      "Art. 20 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Hinweistext: «in Anwendung von Art. 20 Abs. 2 der Publikationsverordnung … (SR 170.512.1)»; eindeutige direkte Zuordnung."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": "SR 232.148",
+    "assigned_articles": "General reference - entire document",
+    "confidence": "high",
+    "reasoning": "Formulierung: «richten sich nach der Verordnung des IGE … SR 232.148 über Gebühren (GebV‑IGE)» ohne Nennung einzelner Artikel; es wird die Gebührenverordnung als Ganzes als Gebührenordnung herangezogen."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_17",
+    "TARGET_SR": "SR 231.1",
+    "assigned_articles": [
+      "Art. 77 Abs. 3",
+      "Art. 77 Abs. 4"
+    ],
+    "confidence": "high",
+    "reasoning": "Text: «Frist nach Artikel 77 Absatz 3 beziehungsweise 4 des Urheberrechtsgesetzes … SR 231.1 (URG)»; beide Absätze sind explizit diesem Gesetz zugeordnet."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_18_d",
+    "TARGET_SR": "SR 231.1",
+    "assigned_articles": [
+      "Art. 75–77hbis",
+      "Art. 76",
+      "Art. 77"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Fliesstext: «für die Zwecke nach den Artikeln 75–77hbis URG SR 231.1» → Bereichsverweis; zusätzlich in den Buchstaben b und c: «Artikel 76 URG» und «Artikel 77 URG». Alle diese Artikel gehören zum URG (SR 231.1). Der Bereich 75–77hbis umfasst 76 und 77 bereits, wird aber als solcher ausdrücklich genannt."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_19",
+    "TARGET_SR": "SR 631.035",
+    "assigned_articles": "General reference - entire document",
+    "confidence": "high",
+    "reasoning": "«richten sich nach der Verordnung … SR 631.035 über die Gebühren des Bundesamts …»; keine Artikelangabe, es wird die Gebührenverordnung insgesamt als Gebührenordnung herangezogen."
+  },
+  {
+    "ITEM": 8,
+    "ARTICLE_EID": "art_19",
+    "TARGET_SR": "SR 232.148",
+    "assigned_articles": "General reference - entire document",
+    "confidence": "high",
+    "reasoning": "«richten sich die Gebühren nach der GebV-IGE SR 232.148»; wiederum keine Artikelangabe, allgemeiner Verweis auf die Gebührenverordnung."
+  },
+  {
+    "ITEM": 9,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 231.2",
+    "assigned_articles": [
+      "Art. 12"
+    ],
+    "confidence": "high",
+    "reasoning": "Preambel-Akronym: «Artikel 12 ToG»; ToG ist in der Präambel als SR 231.2 definiert, daher eindeutige Zuordnung von Art. 12 zu SR 231.2."
+  },
+  {
+    "ITEM": 10,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": "SR 231.2",
+    "assigned_articles": "General reference - entire document",
+    "confidence": "medium",
+    "reasoning": "«Die Gebühren, die nach dem ToG … erhoben werden» verweist allgemein auf das ToG (SR 231.2), ohne konkrete Artikel zu nennen; es geht um alle gebührenrelevanten Bestimmungen des ToG, daher allgemeiner Dokumentverweis."
+  },
+  {
+    "ITEM": 11,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 12",
+      "Art. 16–19"
+    ],
+    "confidence": "high",
+    "reasoning": "Artikelreferenz ohne SR-Nennung: «Artikel 12 ToG sowie die Artikel 16–19 dieser Verordnung»; dies sind interne Verweise innerhalb des Topographienrechtskomplexes (ToG und diese Verordnung), nicht auf ein externes SR-Ziel. Daher Selbstreferenz ohne TARGET_SR."
+  },
+  {
+    "ITEM": 12,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 2b"
+    ],
+    "confidence": "high",
+    "reasoning": "«(Art. 2b)» bezieht sich auf einen Artikel derselben Verordnung; kein externes SR genannt, somit reine Selbstreferenz."
+  },
+  {
+    "ITEM": 13,
+    "ARTICLE_EID": "art_9",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 5"
+    ],
+    "confidence": "high",
+    "reasoning": "«Unterlagen, die nach Artikel 5 zur Identifizierung dienen»; Verweis auf einen anderen Artikel derselben Verordnung, ohne externes SR-Dokument."
+  },
+  {
+    "ITEM": 14,
+    "ARTICLE_EID": "art_17",
+    "TARGET_SR": "SR 231.1",
+    "assigned_articles": [
+      "Art. 77 Abs. 3",
+      "Art. 77 Abs. 4"
+    ],
+    "confidence": "high",
+    "reasoning": "«Frist nach Artikel 77 Absatz 3 beziehungsweise 4 des Urheberrechtsgesetzes … (URG)»; URG ist SR 231.1. Dies ist ein externer Verweis, daher Zuordnung zu SR 231.1 mit den genannten Absätzen."
+  }
+]

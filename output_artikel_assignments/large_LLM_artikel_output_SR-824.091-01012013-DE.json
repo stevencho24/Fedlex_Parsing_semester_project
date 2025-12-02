@@ -1,0 +1,76 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 824.0",
+    "assigned_articles": [
+      "Art. 79"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet explicitly cites 'Artikel 79 des Zivildienstgesetzes ... SR 824.0 (ZDG)'; Art. 79 is directly and syntactically linked to SR 824.0."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": "SR 172.021",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "The sentence refers generally to 'die Regeln des Verwaltungsverfahrensgesetzes ... SR 172.021' without specifying any article or range; thus it is a general reference to the whole act."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_11",
+    "TARGET_SR": "SR 170.32",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet states that the Verantwortlichkeitsgesetz SR 170.32 is applicable in general to certain damages, without mentioning specific articles; this is a blanket applicability clause."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": "SR 824.0",
+    "assigned_articles": [
+      "Art. 11-13",
+      "Art. 68",
+      "Art. 72-76",
+      "Art. 78"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet explicitly contains '(Art. 11–13 ZDG)', '(Art. 68 ZDG)', 'nach den Artikeln 72–76 ZDG' and '(Art. 78 ZDG)'. All are directly marked with the acronym ZDG, which the preamble maps to SR 824.0."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": "SR 824.091",
+    "assigned_articles": [
+      "Art. 11-13"
+    ],
+    "confidence": "high",
+    "reasoning": "This artikel_reference line is part of the same snippet already analyzed in ITEM 4 and refers to 'Art. 11–13 ZDG'. It is a cross-reference from the current ordinance (SR 824.091) to articles 11–13 of the ZDG (SR 824.0), not to another SR; as an internal reference context, it is already covered by ITEM 4 for SR 824.0. For the current document (SR 824.091), this functions as an outgoing reference, not a self-article, so no additional SR assignment beyond what is captured in ITEM 4 is needed."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": "SR 824.091",
+    "assigned_articles": [
+      "Art. 68"
+    ],
+    "confidence": "high",
+    "reasoning": "This line refers to '(Art. 68 ZDG)' within the same context as ITEM 4. It is an outgoing reference from SR 824.091 to Art. 68 of SR 824.0 and is already semantically assigned there; within the current document it is not a self-reference article."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": "SR 824.091",
+    "assigned_articles": [
+      "Art. 72-76",
+      "Art. 78"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet cites 'nach den Artikeln 72–76 ZDG (Art. 78 ZDG)'. These are outgoing references from the ordinance (SR 824.091) to the ZDG (SR 824.0) and are already captured under ITEM 4 for SR 824.0; within SR 824.091 they do not denote internal articles."
+  }
+]

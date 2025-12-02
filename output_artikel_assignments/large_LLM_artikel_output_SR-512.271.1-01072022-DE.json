@@ -1,0 +1,156 @@
+[
+  {
+    "Item": 1,
+    "TARGET_SR": "SR 512.271",
+    "assigned_articles": ["Art. 20"],
+    "confidence": "high",
+    "reasoning": "Snippet explicitly cites 'Artikel 20 der Militärflugdienstverordnung ... SR 512.271 (MFV)'; Art. 20 is grammatically linked to this SR."
+  },
+  {
+    "Item": 2,
+    "TARGET_SR": "SR 172.220.111.3",
+    "assigned_articles": ["Art. 115 lit. e"],
+    "confidence": "high",
+    "reasoning": "Snippet explicitly cites 'Artikel 115 Buchstabe e der Bundespersonalverordnung ... SR 172.220.111.3 (BPV)'; clear direct marking."
+  },
+  {
+    "Item": 3,
+    "TARGET_SR": "SR 748.01",
+    "assigned_articles": ["Art. 28a"],
+    "confidence": "high",
+    "reasoning": "Snippet: 'nach Artikel 28a der Luftfahrtverordnung ... SR 748.01 (LFV)'; Art. 28a is directly attributed to LFV/SR 748.01."
+  },
+  {
+    "Item": 4,
+    "TARGET_SR": "SR 748.01",
+    "assigned_articles": ["Art. 28a"],
+    "confidence": "high",
+    "reasoning": "Snippet: 'die fliegerische Ausbildung nach Artikel 28a LFV SR 748.01'; Art. 28a is explicitly tied to LFV/SR 748.01."
+  },
+  {
+    "Item": 5,
+    "TARGET_SR": "SR 512.271",
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Preamble acronym 'VBS' refers to the department (Eidg. Departement für Verteidigung, Bevölkerungsschutz und Sport), not to specific articles of SR 512.271; snippet contains no article citation linked to SR 512.271."
+  },
+  {
+    "Item": 6,
+    "TARGET_SR": "SR 512.271",
+    "assigned_articles": ["Art. 17"],
+    "confidence": "high",
+    "reasoning": "Snippet: 'Die jährliche Entschädigung nach Artikel 17 MFV'; MFV is SR 512.271 per preamble_callback, so Art. 17 belongs to SR 512.271."
+  },
+  {
+    "Item": 7,
+    "TARGET_SR": "SR 512.271",
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Snippet refers to 'Anhang 1 der MFV'; annex references are outside the article-number assignment scope and no specific article numbers of SR 512.271 are mentioned."
+  },
+  {
+    "Item": 8,
+    "TARGET_SR": "SR 512.271",
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Preamble acronym 'VBS' again refers to the department; the cited article 'Artikel 4 Absatz 5 BPV' belongs to BPV (SR 172.220.111.3), not to SR 512.271."
+  },
+  {
+    "Item": 9,
+    "TARGET_SR": "SR 172.220.111.3",
+    "assigned_articles": ["Art. 4 Abs. 5"],
+    "confidence": "high",
+    "reasoning": "Snippet: 'gestützt auf Artikel 4 Absatz 5 BPV'; BPV is SR 172.220.111.3, so Art. 4 Abs. 5 is directly linked to this SR."
+  },
+  {
+    "Item": 10,
+    "TARGET_SR": "SR 512.271",
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Snippet only mentions VBS as authority; no article of SR 512.271 is cited."
+  },
+  {
+    "Item": 11,
+    "TARGET_SR": "SR 512.271",
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Again only VBS as authority; no article reference to SR 512.271 present."
+  },
+  {
+    "Item": 12,
+    "TARGET_SR": "SR 512.271",
+    "assigned_articles": ["Art. 6"],
+    "confidence": "high",
+    "reasoning": "Snippet: '... oder die Zahl der Absprünge und der Tage des individuellen Trainings nach Artikel 6 MFV ...'; MFV is SR 512.271, so Art. 6 belongs to this SR."
+  },
+  {
+    "Item": 13,
+    "TARGET_SR": "SR 512.271",
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Only VBS mentioned; no article of SR 512.271 is cited."
+  },
+  {
+    "Item": 14,
+    "TARGET_SR": "SR 512.271",
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Snippet refers to 'Verordnung des VBS vom 4. Dezember 2003'; this is a different VBS ordinance being repealed, not SR 512.271 itself; no article numbers of SR 512.271 are mentioned."
+  },
+  {
+    "Item": 15,
+    "TARGET_SR": "self",
+    "assigned_articles": ["Art. 19", "Art. 20", "Art. 36"],
+    "confidence": "high",
+    "reasoning": "Artikel_reference within same document: 'nach den Artikeln 19, 20 oder 36'; no external SR mentioned, so this is an internal reference to articles of SR 512.271."
+  },
+  {
+    "Item": 16,
+    "TARGET_SR": "SR 748.01",
+    "assigned_articles": ["Art. 28a"],
+    "confidence": "high",
+    "reasoning": "Snippet: 'nach Artikel 28a der Luftfahrtverordnung ... (LFV)'; LFV is SR 748.01, so Art. 28a belongs to that SR. This matches the explicit SR_link_detection in Item 3."
+  },
+  {
+    "Item": 17,
+    "TARGET_SR": "SR 748.01",
+    "assigned_articles": ["Art. 28a"],
+    "confidence": "high",
+    "reasoning": "Snippet: 'nach Artikel 28a LFV'; by acronym definition LFV = SR 748.01, so Art. 28a is again a reference to SR 748.01."
+  },
+  {
+    "Item": 18,
+    "TARGET_SR": "self",
+    "assigned_articles": ["Art. 17 Abs. 1"],
+    "confidence": "high",
+    "reasoning": "Snippet: 'nach Artikel 17 Absatz 1 erfolgreich abgeschlossen haben'; no external SR or acronym is given, so this is a self-reference to Art. 17 Abs. 1 of the same ordinance (SR 512.271)."
+  },
+  {
+    "Item": 19,
+    "TARGET_SR": "self",
+    "assigned_articles": ["Art. 19", "Art. 20"],
+    "confidence": "high",
+    "reasoning": "Snippet: 'nach den Artikeln 19 und 20'; no SR or acronym context, so these are internal references within SR 512.271."
+  },
+  {
+    "Item": 20,
+    "TARGET_SR": "self",
+    "assigned_articles": ["Art. 26"],
+    "confidence": "high",
+    "reasoning": "Snippet: 'nach Artikel 26'; no external SR mentioned, so this is an internal reference to Art. 26 of SR 512.271."
+  },
+  {
+    "Item": 21,
+    "TARGET_SR": "self",
+    "assigned_articles": ["Art. 44"],
+    "confidence": "high",
+    "reasoning": "Snippet: 'nach Artikel 44'; again no external SR, so internal reference within SR 512.271."
+  },
+  {
+    "Item": 22,
+    "TARGET_SR": "self",
+    "assigned_articles": ["Art. 17"],
+    "confidence": "high",
+    "reasoning": "Snippet: 'für die Grundausbildung nach Artikel 17'; no SR or acronym context, so this is a self-reference to Art. 17 of SR 512.271."
+  }
+]

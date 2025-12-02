@@ -1,0 +1,177 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 101",
+    "assigned_articles": [
+      "Art. 125"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Formulierung «gestützt auf Artikel 125 der Bundesverfassung SR 101» verknüpft den genannten Artikel direkt mit SR 101."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": "SR 941.20",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "medium",
+    "reasoning": "Es wird nur das Messgesetz als Ganzes («Messgesetz vom 17. Juni 2011 SR 941.20») erwähnt, ohne konkrete Artikelangabe."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": "SR 172.220.1",
+    "assigned_articles": [
+      "Art. 6a"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Satz nennt ausdrücklich «Artikel 6a des Bundespersonalgesetzes ... SR 172.220.1 (BPG)»; dieser Artikel ist klar dem BPG (SR 172.220.1) zugeordnet."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_11",
+    "TARGET_SR": "SR 220",
+    "assigned_articles": [
+      "Art. 727 ff."
+    ],
+    "confidence": "high",
+    "reasoning": "Die Revision richtet sich nach «Art. 727 ff. des Obligationenrechts SR 220»; die Artikelangabe ist direkt mit SR 220 verknüpft."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_12",
+    "TARGET_SR": "SR 172.220.1",
+    "assigned_articles": [
+      "Art. 3 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Kontext zur Abkürzung BPG heisst es zusätzlich: «Das Institut ist Arbeitgeber nach Artikel 3 Absatz 2 BPG.»; BPG ist SR 172.220.1, somit ist Art. 3 Abs. 2 BPG dem Ziel-SR zuzuordnen."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_13",
+    "TARGET_SR": "SR 172.220.1",
+    "assigned_articles": [
+      "Art. 32a–32m",
+      "Art. 32b Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Text nennt «nach den Artikeln 32a–32m BPG» sowie «Artikel 32b Absatz 2 BPG»; BPG ist SR 172.220.1, daher gehören diese Artikel zu diesem SR."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_27",
+    "TARGET_SR": "SR 221.301",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "medium",
+    "reasoning": "Es wird nur das Fusionsgesetz SR 221.301 als Ganzes erwähnt («Bestimmungen des Fusionsgesetzes ... SR 221.301 nicht anwendbar»), ohne konkrete Artikelangabe."
+  },
+  {
+    "ITEM": 8,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Reine Selbstverweise innerhalb derselben Verordnung («Artikel 3», «Artikel 25»); kein externer SR-Bezug im Satz."
+  },
+  {
+    "ITEM": 9,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Verweis auf «Artikel 2» innerhalb desselben Erlasses; kein anderes SR-Dokument genannt."
+  },
+  {
+    "ITEM": 10,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Verweis auf «Artikel 3 Absatz 2 Buchstaben a–d» derselben Verordnung; kein externer SR-Bezug."
+  },
+  {
+    "ITEM": 11,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Auch hier nur interne Verweise («Artikel 3 Absatz 2 Buchstaben a–d»); kein anderes SR-Dokument im Satz."
+  },
+  {
+    "ITEM": 12,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Der Satz verweist auf «Artikel 6a des Bundespersonalgesetzes ... (BPG)»; dieser externe Bezug ist bereits in ITEM 3 als SR-Link erfasst. Hier handelt es sich um dieselbe Passage als artikel_reference, daher keine neue SR-Zuordnung."
+  },
+  {
+    "ITEM": 13,
+    "ARTICLE_EID": "art_8",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Verweis auf «Artikel 20» derselben Verordnung; kein SR-Dokument genannt."
+  },
+  {
+    "ITEM": 14,
+    "ARTICLE_EID": "art_10",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Verweise auf «Artikel 8 Buchstabe i und 9 Absatz 2» sind interne Artikel der gleichen Verordnung; kein externer SR-Bezug."
+  },
+  {
+    "ITEM": 15,
+    "ARTICLE_EID": "art_11",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "«Art. 727 ff. des Obligationenrechts» ist bereits in ITEM 4 als SR-Link (SR 220) erfasst; diese artikel_reference ist nur die Textstelle ohne zusätzliche SR-Information."
+  },
+  {
+    "ITEM": 16,
+    "ARTICLE_EID": "art_16",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Interner Verweis auf «Artikel 3 Absatz 2 Buchstaben a–h und Absätze 3–5» derselben Verordnung; kein anderes SR-Dokument genannt."
+  },
+  {
+    "ITEM": 17,
+    "ARTICLE_EID": "art_17",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Verweis auf «gewerbliche Leistungen nach Artikel 25» ist ein Selbstverweis innerhalb des Erlasses; kein externer SR-Bezug."
+  },
+  {
+    "ITEM": 18,
+    "ARTICLE_EID": "art_27",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "«Darlehen nach Artikel 18 Absatz 2» bezieht sich auf einen Artikel derselben Verordnung; kein anderes SR-Dokument im Kontext."
+  },
+  {
+    "ITEM": 19,
+    "ARTICLE_EID": "art_28",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Die Klammer «(Art. 8 Bst. i und 9 Abs. 2)» verweist auf interne Artikel; kein externer SR-Verweis."
+  },
+  {
+    "ITEM": 20,
+    "ARTICLE_EID": "art_30",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Aufzählung von Artikeln («Artikel 5–13, 18 Absatz 3, 19, 22 Absatz 3, 23, 24 und 27») betrifft das Inkrafttreten innerhalb derselben Verordnung; kein anderes SR-Dokument genannt."
+  }
+]

@@ -1,0 +1,103 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 101",
+    "assigned_articles": [
+      "Art. 122"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Formulierung «gestützt auf Artikel 122 der Bundesverfassung SR 101» verknüpft den genannten Artikel direkt mit SR 101; damit ist klar, dass Art. 122 der Bundesverfassung (SR 101) gemeint ist."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_10",
+    "TARGET_SR": "SR 231.1",
+    "assigned_articles": [
+      "Art. 61-66"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Satz lautet: «… richtet sich nach den Artikeln 61–66 des Urheberrechtsgesetzes … SR 231.1». Die Artikelangabe steht unmittelbar bei der Nennung des Urheberrechtsgesetzes; somit beziehen sich Art. 61–66 eindeutig auf SR 231.1."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_12",
+    "TARGET_SR": "SR 231.1",
+    "assigned_articles": [
+      "Art. 75-77hbis"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Text: «… richtet sich nach den Artikeln 75–77hbis des Urheberrechtsgesetzes … SR 231.1» verknüpft die Artikel 75–77hbis direkt mit dem Urheberrechtsgesetz (SR 231.1); damit ist die Zuordnung eindeutig."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_21",
+    "TARGET_SR": "SR 231.1",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "medium",
+    "reasoning": "Die Passage «Es tritt gleichzeitig mit dem Urheberrechtsgesetz vom 9. Oktober 1992 SR 231.1 in Kraft» nennt SR 231.1 nur als Ganzes im Zusammenhang mit dem Inkrafttreten, ohne bestimmte Artikel zu spezifizieren; daher ist von einer allgemeinen Verweisung auf das gesamte Gesetz auszugehen."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_9",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 14"
+    ],
+    "confidence": "high",
+    "reasoning": "«(Art. 14)» steht ohne Nennung eines anderen Erlasses im selben Satz und bezieht sich damit auf einen Artikel innerhalb desselben Gesetzes (SR 231.2). Es handelt sich um eine interne Selbstverweisung, nicht um eine Verweisung auf ein anderes SR."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_10",
+    "TARGET_SR": "SR 231.1",
+    "assigned_articles": [
+      "Art. 61-66"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Wortlaut entspricht inhaltlich ITEM 2, nur ohne explizite SR-Nummer im Satz; aus ITEM 2 ist klar, dass «die Artikeln 61–66 des Urheberrechtsgesetzes vom 9. Oktober 1992» zu SR 231.1 gehören. Daher werden Art. 61–66 URG (SR 231.1) zugeordnet."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_10",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 63",
+      "Art. 8"
+    ],
+    "confidence": "high",
+    "reasoning": "«Die Einziehung nach Artikel 63 des vorgenannten Gesetzes … (Art. 8).» – «des vorgenannten Gesetzes» bezieht sich auf das zuvor genannte Urheberrechtsgesetz (SR 231.1), somit ist Art. 63 URG (SR 231.1) gemeint. «(Art. 8)» ist eine interne Verweisung auf Art. 8 desselben Gesetzes (SR 231.2). Da dieser Eintrag als artikel_reference ohne TARGET_SR geführt ist, wird er als Selbstverweisung des aktuellen Erlasses behandelt."
+  },
+  {
+    "ITEM": 8,
+    "ARTICLE_EID": "art_12",
+    "TARGET_SR": "SR 231.1",
+    "assigned_articles": [
+      "Art. 75-77hbis"
+    ],
+    "confidence": "high",
+    "reasoning": "Inhaltlich identisch zu ITEM 3, nur ohne explizite SR-Nummer im Satz. Aus ITEM 3 ist klar, dass die Artikel 75–77hbis zum Urheberrechtsgesetz (SR 231.1) gehören; daher werden diese Artikel SR 231.1 zugeordnet."
+  },
+  {
+    "ITEM": 9,
+    "ARTICLE_EID": "art_14",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "«… aus denen sich die formelle Schutzberechtigung nach Artikel 2 ergibt.» Es wird kein anderer Erlass genannt; daher ist Art. 2 des gleichen Gesetzes (SR 231.2) gemeint. Dies ist eine interne Selbstverweisung."
+  },
+  {
+    "ITEM": 10,
+    "ARTICLE_EID": "art_21",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 17"
+    ],
+    "confidence": "high",
+    "reasoning": "«Datum des Inkrafttretens: 1. Juli 1993 Art. 17: 1. Januar 1994» verweist auf Art. 17 desselben Erlasses (SR 231.2) im Zusammenhang mit einem abweichenden Inkrafttretensdatum. Es wird kein anderes SR genannt; somit handelt es sich um eine interne Selbstverweisung."
+  }
+]

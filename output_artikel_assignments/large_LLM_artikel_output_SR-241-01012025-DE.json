@@ -1,0 +1,258 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 101",
+    "assigned_articles": [
+      "Art. 95 Abs. 1",
+      "Art. 96",
+      "Art. 97 Abs. 1",
+      "Art. 97 Abs. 2",
+      "Art. 122 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet explicitly cites 'Artikel 95 Absatz 1, 96, 97 Absätze 1 und 2 und 122 Absatz 1 der Bundesverfassung SR 101'; all these articles belong to SR 101."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_9",
+    "TARGET_SR": "SR 220",
+    "assigned_articles": "General reference - entire document",
+    "confidence": "high",
+    "reasoning": "The phrase 'nach Massgabe des Obligationenrechts SR 220' refers to the Obligationenrecht as a whole; no specific article numbers are mentioned."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_10",
+    "TARGET_SR": "SR 291",
+    "assigned_articles": [
+      "Art. 18"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet states 'im Sinne von Artikel 18 des Bundesgesetzes vom 18. Dezember 1987 SR 291 über das internationale Privatrecht'; Art. 18 is directly and uniquely linked to SR 291."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_19",
+    "TARGET_SR": "SR 273",
+    "assigned_articles": [
+      "Art. 42"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet: 'nach Artikel 42 des Bundesgesetzes über den Bundeszivilprozess SR 273'; Art. 42 is explicitly tied to SR 273."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_19",
+    "TARGET_SR": "SR 312.0",
+    "assigned_articles": "General reference - entire document",
+    "confidence": "high",
+    "reasoning": "The text refers to 'die Bestimmungen der Strafprozessordnung vom 5. Oktober 2007 SR 312.0' without any article numbers; this is a general reference to the code."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_22",
+    "TARGET_SR": "SR 235.1",
+    "assigned_articles": [
+      "Art. 16",
+      "Art. 17"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet: 'Im Übrigen sind die Artikel 16 und 17 des Datenschutzgesetzes vom 25. September 2020 SR 235.1 anwendbar.' Both articles are explicitly attributed to SR 235.1."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_26",
+    "TARGET_SR": "SR 313.0",
+    "assigned_articles": [
+      "Art. 6",
+      "Art. 7"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet: 'sind die Artikel 6 und 7 des Verwaltungsstrafrechtsgesetzes vom 22. März 1974 SR 313.0 anwendbar.' Both articles are clearly linked to SR 313.0."
+  },
+  {
+    "ITEM": 8,
+    "ARTICLE_EID": "art_10",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 9"
+    ],
+    "confidence": "high",
+    "reasoning": "Artikel-Referenz innerhalb desselben Gesetzes: 'Die Klagen gemäss Artikel 9 ...'; this is an internal cross-reference to Art. 9 of the current SR 241 document."
+  },
+  {
+    "ITEM": 9,
+    "ARTICLE_EID": "art_10",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 9 Abs. 1",
+      "Art. 9 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Internal reference: 'Ferner können nach Artikel 9 Absätze 1 und 2 klagen'; clearly refers to paragraphs 1 and 2 of Art. 9 of the same act."
+  },
+  {
+    "ITEM": 10,
+    "ARTICLE_EID": "art_10",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 9 Abs. 1",
+      "Art. 9 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Internal reference: 'Nach Artikel 9 Absätze 1 und 2 kann auch der Bund klagen'; again points to Art. 9 paras. 1 and 2 of the current law."
+  },
+  {
+    "ITEM": 11,
+    "ARTICLE_EID": "art_10",
+    "TARGET_SR": "SR 291",
+    "assigned_articles": [
+      "Art. 18"
+    ],
+    "confidence": "high",
+    "reasoning": "This artikel_reference sentence matches the SR_link_detection in ITEM 3 and contains 'Artikel 18 des Bundesgesetzes vom 18. Dezember 1987 über das internationale Privatrecht'; that article belongs to SR 291."
+  },
+  {
+    "ITEM": 12,
+    "ARTICLE_EID": "art_11",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 9 Abs. 1",
+      "Art. 9 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Internal cross-reference: '... nach Artikel 9 Absätze 1 und 2 geklagt werden.' This clearly refers to Art. 9 paras. 1 and 2 of the same statute (SR 241)."
+  },
+  {
+    "ITEM": 13,
+    "ARTICLE_EID": "art_19",
+    "TARGET_SR": "SR 273",
+    "assigned_articles": [
+      "Art. 42"
+    ],
+    "confidence": "high",
+    "reasoning": "Same sentence as ITEM 4 but without explicit SR number; context 'Bundeszivilprozess' matches SR 273 and cites 'Artikel 42', so it is Art. 42 SR 273."
+  },
+  {
+    "ITEM": 14,
+    "ARTICLE_EID": "art_22",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 21"
+    ],
+    "confidence": "high",
+    "reasoning": "Internal reference: 'im Rahmen der Zusammenarbeit gemäss Artikel 21'; this is a cross-reference to Art. 21 of the same law (SR 241)."
+  },
+  {
+    "ITEM": 15,
+    "ARTICLE_EID": "art_22",
+    "TARGET_SR": "SR 235.1",
+    "assigned_articles": [
+      "Art. 16",
+      "Art. 17"
+    ],
+    "confidence": "high",
+    "reasoning": "Same content as ITEM 6 but without explicit SR number; 'Datenschutzgesetz vom 25. September 2020' is SR 235.1 and the snippet cites its Articles 16 and 17."
+  },
+  {
+    "ITEM": 16,
+    "ARTICLE_EID": "art_23",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 3",
+      "Art. 4",
+      "Art. 5",
+      "Art. 6"
+    ],
+    "confidence": "high",
+    "reasoning": "Internal reference: 'unlauteren Wettbewerb nach Artikel 3, 4, 5 oder 6'; these are articles of the same statute (SR 241)."
+  },
+  {
+    "ITEM": 17,
+    "ARTICLE_EID": "art_23",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 9",
+      "Art. 10"
+    ],
+    "confidence": "high",
+    "reasoning": "Internal reference: 'wer nach den Artikeln 9 und 10 zur Zivilklage berechtigt ist'; both articles belong to the current law."
+  },
+  {
+    "ITEM": 18,
+    "ARTICLE_EID": "art_24",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 16",
+      "Art. 16a"
+    ],
+    "confidence": "high",
+    "reasoning": "Internal reference: 'Pflicht zur Preisbekanntgabe (Art. 16) oder zur Grundpreisbekanntgabe (Art. 16a)'; these are articles of the same act."
+  },
+  {
+    "ITEM": 19,
+    "ARTICLE_EID": "art_24",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 17"
+    ],
+    "confidence": "high",
+    "reasoning": "Internal reference: 'Preisbekanntgabe in der Werbung (Art. 17)'; Art. 17 is within the same statute."
+  },
+  {
+    "ITEM": 20,
+    "ARTICLE_EID": "art_24",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 18"
+    ],
+    "confidence": "high",
+    "reasoning": "Internal reference: 'in irreführender Weise Preise bekannt gibt (Art. 18)'; Art. 18 is an article of the current law."
+  },
+  {
+    "ITEM": 21,
+    "ARTICLE_EID": "art_24",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 19"
+    ],
+    "confidence": "high",
+    "reasoning": "Internal reference: 'Auskunftspflicht ... (Art. 19)'; Art. 19 is part of the same document."
+  },
+  {
+    "ITEM": 22,
+    "ARTICLE_EID": "art_24",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 16",
+      "Art. 16a",
+      "Art. 20"
+    ],
+    "confidence": "high",
+    "reasoning": "Internal reference: 'Ausführungsvorschriften ... (Art. 16, 16a und 20)'; all three are articles of the same law."
+  },
+  {
+    "ITEM": 23,
+    "ARTICLE_EID": "art_26",
+    "TARGET_SR": "SR 313.0",
+    "assigned_articles": [
+      "Art. 6",
+      "Art. 7"
+    ],
+    "confidence": "high",
+    "reasoning": "Same sentence as ITEM 7 but without explicit SR number; 'Verwaltungsstrafrechtsgesetzes vom 22. März 1974' is SR 313.0 and the snippet cites its Articles 6 and 7."
+  },
+  {
+    "ITEM": 24,
+    "ARTICLE_EID": "art_26_a",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 23",
+      "Art. 3",
+      "Art. 24"
+    ],
+    "confidence": "high",
+    "reasoning": "Internal references: 'nach Artikel 23 in Verbindung mit Artikel 3 oder nach Artikel 24'; all three articles belong to the same statute (SR 241)."
+  }
+]

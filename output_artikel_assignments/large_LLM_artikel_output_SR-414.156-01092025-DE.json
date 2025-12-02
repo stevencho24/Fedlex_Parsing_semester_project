@@ -1,0 +1,42 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 414.110.37",
+    "assigned_articles": [
+      "Art. 25"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Formulierung «gestützt auf Artikel 25 der ETHZ-ETHL-Verordnung … SR 414.110.37» verknüpft den genannten Artikel 25 syntaktisch eindeutig mit der genannten Verordnung SR 414.110.37."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_8",
+    "TARGET_SR": "SR 414.131.52",
+    "assigned_articles": [
+      "Art. 23"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Snippet heisst es «Ausweis nach Artikel 23 der Verordnung … SR 414.131.52»; der Artikel 23 ist damit klar dieser Verordnung (SR 414.131.52) zugeordnet."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_8",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Interne Verweisung innerhalb des Dokuments auf Art. 23"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Stelle wiederholt die Formulierung «Ausweis nach Artikel 23 der Verordnung …» ohne explizite SR-Nennung; sie steht im selben Kontext wie ITEM 2 und verweist damit auf denselben externen Art. 23, ist hier aber als artikel_reference eine interne Querverweisung im aktuellen Dokument."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_17",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Interne Verweisung innerhalb des Dokuments auf Art. 8 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Formulierung «eine der Voraussetzungen nach Artikel 8 Absatz 1 erfüllen» enthält keine SR-Angabe und bezieht sich damit auf einen Artikel 8 innerhalb derselben Verordnung; dies ist eine reine Selbstverweisung des Dokuments."
+  }
+]

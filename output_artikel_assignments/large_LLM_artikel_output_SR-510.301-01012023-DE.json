@@ -1,0 +1,115 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 510.10",
+    "assigned_articles": [
+      "Art. 142 Abs. 3",
+      "Art. 150 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Formulierung \"gestützt auf die Artikel 142 Absatz 3 und 150 Absatz 1 des Militärgesetzes ... SR 510.10 (MG)\" verknüpft diese Artikel grammatikalisch eindeutig mit SR 510.10."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 510.30",
+    "assigned_articles": [
+      "Art. 167 Abs. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Satzteil \"sowie auf Artikel 167 Absatz 3 der Verordnung ... SR 510.30 über die Verwaltung der Armee\" bezieht sich der genannte Artikel klar auf SR 510.30."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_34",
+    "TARGET_SR": "SR 510.10",
+    "assigned_articles": [
+      "Art. 47"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Ausschnitt \"Militärisches Personal nach Artikel 47 MG\" verweist explizit auf Art. 47 des Militärgesetzes (MG = SR 510.10)."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_45",
+    "TARGET_SR": "SR 510.10",
+    "assigned_articles": [
+      "Art. 140"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Passage \"für die nach Artikel 140 MG die Formation haftet\" nennt eindeutig Art. 140 MG, wobei MG in der Präambel als SR 510.10 definiert ist."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_118",
+    "TARGET_SR": "SR 510.10",
+    "assigned_articles": [
+      "Art. 134",
+      "Art. 135",
+      "Art. 136",
+      "Art. 139 Abs. 1",
+      "Art. 137",
+      "Art. 138"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Text nennt ausdrücklich \"nach den Artikeln 134–136 MG\", \"nach Artikel 139 Absatz 1 MG\", \"nach Artikel 137 MG\" und \"nach Artikel 138 MG\"; alle beziehen sich auf MG = SR 510.10. Der Bereich 134–136 wird als drei einzelne Artikel gewertet."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_120",
+    "TARGET_SR": "SR 510.10",
+    "assigned_articles": [
+      "Art. 140"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Formulierung \"nach Artikel 140 MG\" verweist klar auf Art. 140 des Militärgesetzes (SR 510.10)."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_11",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Die Wendung \"nach den Artikeln 7–10\" enthält keinen Hinweis auf ein anderes SR-Dokument und bezieht sich syntaktisch auf interne Artikel derselben Verordnung; daher reine Selbstreferenz ohne externes SR."
+  },
+  {
+    "ITEM": 8,
+    "ARTICLE_EID": "art_17",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "„nach Artikel 45\" steht ohne Nennung eines SR oder Akronyms und verweist auf einen anderen Artikel der gleichen Verordnung; dies ist eine interne Selbstreferenz, kein Verweis auf ein anderes SR."
+  },
+  {
+    "ITEM": 9,
+    "ARTICLE_EID": "art_35",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "„nach Artikel 34\" erscheint ohne Bezug zu einem SR-Dokument und beschreibt eine Ausnahme innerhalb derselben Regelung; damit handelt es sich um eine interne Artikelverweisung."
+  },
+  {
+    "ITEM": 10,
+    "ARTICLE_EID": "art_105",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Die Formulierung \"nach den Artikeln 106–109\" enthält keinen SR-Hinweis und steht im Kontext der gleichen Verordnung; dies ist eine reine Selbstreferenz auf interne Artikel."
+  },
+  {
+    "ITEM": 11,
+    "ARTICLE_EID": "art_118",
+    "TARGET_SR": "SR 510.10",
+    "assigned_articles": [
+      "Art. 134",
+      "Art. 135",
+      "Art. 136",
+      "Art. 139 Abs. 1",
+      "Art. 137",
+      "Art. 138"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Snippet-Text wiederholt die Verweise \"nach den Artikeln 134–136 MG\", \"nach Artikel 139 Absatz 1 MG\", \"nach Artikel 137 MG\" und \"nach Artikel 138 MG\"; MG ist in der Präambel als SR 510.10 definiert. Es handelt sich um denselben externen Bezug wie bei ITEM 5."
+  }
+]

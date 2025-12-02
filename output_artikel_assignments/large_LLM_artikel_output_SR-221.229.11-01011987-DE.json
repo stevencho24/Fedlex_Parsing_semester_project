@@ -1,0 +1,22 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 221.229.1",
+    "assigned_articles": [
+      "Art. 99"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet explicitly cites 'Artikel 99 des Bundesgesetzes ... SR 221.229.1 über den Versicherungsvertrag'; Art. 99 is directly and uniquely linked to SR 221.229.1."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet mentions 'Artikel 76 Absatz 1, 77 Absatz 1 und 90 Absatz 2 des Bundesgesetzes vom 2. April 1908 über den Versicherungsvertrag' without an SR number in this item. Given the context of the document (implementing ordinance to the Versicherungsvertragsgesetz) and absence of an explicit SR link in this snippet, these are treated as references to articles of the cited federal act, not as a new SR link assignment for this task; thus they are internal/self-references relative to the current ordinance and no TARGET_SR is set."
+  }
+]

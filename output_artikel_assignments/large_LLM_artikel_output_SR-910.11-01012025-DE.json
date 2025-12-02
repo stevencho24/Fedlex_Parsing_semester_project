@@ -1,0 +1,67 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 172.010",
+    "assigned_articles": [
+      "Art. 46a"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Präambel nennt ausdrücklich «Artikel 46a des Regierungs- und Verwaltungsorganisationsgesetzes … SR 172.010»; der Artikel ist direkt mit diesem Gesetz verknüpft."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 910.1",
+    "assigned_articles": [
+      "Art. 181 Abs. 4"
+    ],
+    "confidence": "high",
+    "reasoning": "Im selben Satz wird «Artikel 181 Absatz 4 des Landwirtschaftsgesetzes … SR 910.1» genannt; der Artikel ist syntaktisch klar diesem SR zugeordnet."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 431.01",
+    "assigned_articles": "General reference - entire document",
+    "confidence": "high",
+    "reasoning": "Der Satz spricht allgemein von «statistische Dienstleistungen nach dem Bundesstatistikgesetz … SR 431.01» ohne konkrete Artikelangabe; dies ist eine generelle Verweisung auf das Gesetz als Ganzes."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": "SR 172.041.1",
+    "assigned_articles": "General reference - entire document",
+    "confidence": "medium",
+    "reasoning": "Formulierung «gelten die Bestimmungen der Allgemeinen Gebührenverordnung … SR 172.041.1» ohne Nennung einzelner Artikel; funktional wird die Verordnung insgesamt als subsidiär anwendbar erklärt."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": "SR 916.20",
+    "assigned_articles": "General reference - entire document",
+    "confidence": "medium",
+    "reasoning": "«im Zusammenhang mit der Pflanzengesundheitsverordnung … SR 916.20» beschreibt den sachlichen Geltungsbereich; es werden keine bestimmten Artikel dieser Verordnung genannt."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 2 Abs. 2",
+      "Art. 6–14"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Stelle nennt «Artikel 2 Absatz 2 sowie 6–14 der Allgemeinen Gebührenverordnung vom 8. September 2004»; dies ist eine Verweisung auf bestimmte Artikel der Allgemeinen Gebührenverordnung (SR 172.041.1), nicht auf das aktuelle SR 910.11. Als artikel_reference ohne TARGET_SR wird hier der externe SR-Link implizit abgebildet."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 169–171a"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Formulierung «nach den Artikeln 169–171a des Landwirtschaftsgesetzes vom 29. April 1998» verweist klar auf diese Artikel des Landwirtschaftsgesetzes (SR 910.1). Als artikel_reference ohne TARGET_SR handelt es sich um einen externen Verweis, nicht um eine Selbstreferenz innerhalb SR 910.11."
+  }
+]

@@ -1,0 +1,77 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 221.302.3",
+    "assigned_articles": [
+      "Art. 25 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Formulierung \"gestützt auf Artikel 25 Absatz 2 der Revisionsaufsichtsverordnung ... SR 221.302.3 (RAV)\" verknüpft den genannten Artikel grammatikalisch eindeutig mit der RAV; damit ist klar, dass Art. 25 Abs. 2 der SR 221.302.3 gemeint ist."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 221.302",
+    "assigned_articles": [
+      "Art. 22"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Snippet steht \"... nach Artikel 22 des Revisionsaufsichtsgesetzes ... SR 221.302 (RAG)\"; der Artikel wird direkt mit dem Gesetz (SR 221.302) verbunden, daher ist Art. 22 dieser SR eindeutig gemeint."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": "SR 221.302",
+    "assigned_articles": "General reference - entire document",
+    "confidence": "medium",
+    "reasoning": "Der Satzteil \"... oder die auf andere Weise in Anwendung des RAG SR 221.302 erhoben werden\" verweist allgemein auf die Anwendung des Revisionsaufsichtsgesetzes, ohne konkrete Artikel zu nennen; daher ist von einer generellen Gesetzesverweisung auszugehen."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": "SR 235.1",
+    "assigned_articles": "General reference - entire document",
+    "confidence": "medium",
+    "reasoning": "Formulierung \"nach den anwendbaren Bestimmungen über die Amts- und Rechtshilfe des Bundesgesetzes ... SR 235.1 über den Datenschutz\" verweist auf die einschlägigen Bestimmungen des DSG insgesamt; konkrete Artikel werden nicht genannt."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": "SR 221.302",
+    "assigned_articles": "General reference - entire document",
+    "confidence": "medium",
+    "reasoning": "Der Text \"des RAG SR 221.302 und des jeweiligen Vollzugsrechts\" nennt keine bestimmten Artikel, sondern verweist pauschal auf das Revisionsaufsichtsgesetz als Ganzes; daher allgemeine Dokumentverweisung."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": "SR 221.302.3",
+    "assigned_articles": [
+      "Art. 19 f."
+    ],
+    "confidence": "high",
+    "reasoning": "Im Snippet steht \"(Art. 19 f. RAV)\"; die Abkürzung RAV ist in der Präambel als SR 221.302.3 definiert. Die Angabe \"19 f.\" bedeutet Art. 19 und folgende der RAV; daher Zuweisung als Art. 19 f. dieser SR."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 22"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Stelle \"nach Artikel 22 des Revisionsaufsichtsgesetzes ... (RAG)\" ist eine Gesetzesverweisung; aus Item 2 ist klar, dass RAG = SR 221.302 ist. Da hier aber kein TARGET_SR vorliegt und der Fokus dieses Typs auf Selbstverweisen liegt, wird nur der interne Artikelbezug (Art. 22 des RAG) festgehalten, ohne eine SR-Zuweisung vorzunehmen."
+  },
+  {
+    "ITEM": 8,
+    "ARTICLE_EID": "art_6",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 4",
+      "Art. 5"
+    ],
+    "confidence": "high",
+    "reasoning": "Formulierung \"wenn die Voraussetzungen nach den Artikeln 4 und 5 nicht mehr erfüllt sind\" verweist klar auf andere Bestimmungen derselben Verordnung (interne Strukturverweise); es gibt keinen Hinweis auf ein anderes SR-Dokument, daher reine Selbstreferenz auf Art. 4 und Art. 5 des aktuellen Erlasses."
+  }
+]

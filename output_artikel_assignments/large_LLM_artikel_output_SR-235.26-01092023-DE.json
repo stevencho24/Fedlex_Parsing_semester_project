@@ -1,0 +1,52 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 235.2",
+    "assigned_articles": [
+      "Art. 29"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet explicitly states 'gestützt auf Artikel 29 des Bundesgesetzes ... SR 235.2'; the preposition 'auf' governs 'Artikel 29' and the cited SR, so Art. 29 clearly belongs to SR 235.2."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 172.010",
+    "assigned_articles": [
+      "Art. 57hter"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet reads '... und auf Artikel 57hter des Regierungs- und Verwaltungsorganisationsgesetzes ... SR 172.010 (RVOG)'; 'Artikel 57hter' is directly linked to the RVOG, i.e. SR 172.010."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": "SR 193.9",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "medium",
+    "reasoning": "The text refers generally to 'dem Bundesgesetz vom 19. Dezember 2003 SR 193.9 über Massnahmen zur zivilen Friedensförderung und Stärkung der Menschenrechte' without mentioning any specific article or range; thus it is a general citation of the whole act."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": "SR 172.211.31",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "medium",
+    "reasoning": "The snippet cites 'die Verordnung vom 11. Mai 1988 SR 172.211.31 über das Schweizerische Korps für humanitäre Hilfe' with no article numbers; syntactically it is a general reference to the ordinance as a whole."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "The phrase 'nach Artikel 2 des Bundesgesetzes vom 24. März 2000 über die Bearbeitung von Personendaten im Eidgenössischen Departement für auswärtige Angelegenheiten' clearly refers to Art. 2 of that external federal act, but no SR number is given in this snippet. Under the rules for 'artikel_reference' and absent an explicit SR link in the same syntactic unit, this is treated as an internal/self-reference context rather than assigned to a TARGET_SR."
+  }
+]

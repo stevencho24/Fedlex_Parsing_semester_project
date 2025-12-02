@@ -1,0 +1,31 @@
+[
+  {
+    "Item": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 531",
+    "assigned_articles": [
+      "Art. 57 Abs. 1",
+      "Art. 60 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet explicitly cites 'Artikel 57 Absatz 1 und 60 Absatz 1 des Landesversorgungsgesetzes ... SR 531 (LVG)'; both articles are directly and syntactically linked to SR 531."
+  },
+  {
+    "Item": 2,
+    "ARTICLE_EID": "art_1_b",
+    "TARGET_SR": "SR 531",
+    "assigned_articles": [
+      "Art. 63"
+    ],
+    "confidence": "high",
+    "reasoning": "The text states 'der Verschwiegenheitspflicht (Art. 63 LVG)', which is a direct marked citation of Art. 63 of the LVG; LVG is mapped in the preamble to SR 531."
+  },
+  {
+    "Item": 3,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "This is an artikel_reference item without any SR mentioned; 'Artikel 1' clearly refers to an internal article of the same ordinance, not to an external SR document, so it is a self-reference and not assigned to any TARGET_SR."
+  }
+]

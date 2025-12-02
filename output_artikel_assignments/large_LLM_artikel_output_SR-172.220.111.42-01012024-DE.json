@@ -1,0 +1,82 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 172.010",
+    "assigned_articles": [
+      "Art. 57hter"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Formulierung \"gestützt auf Artikel 57hter des Regierungs- und Verwaltungsorganisationsgesetzes ... SR 172.010 (RVOG)\" verknüpft den Artikel eindeutig mit dem RVOG (SR 172.010)."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 172.220.1",
+    "assigned_articles": [
+      "Art. 27 Abs. 2 lit. c"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Passage \"und auf Artikel 27 Absatz 2 Buchstabe c des Bundespersonalgesetzes ... SR 172.220.1 (BPG)\" ordnet diesen Artikel klar dem BPG (SR 172.220.1) zu."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": "SR 172.010.59",
+    "assigned_articles": [
+      "Art. 8"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Satz wird ausdrücklich auf \"Artikel 8 der Verordnung vom 6. Dezember 2013 SR 172.010.59\" Bezug genommen; damit ist Art. 8 dieser Verordnung eindeutig als einschlägige Bestimmung genannt."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_12",
+    "TARGET_SR": "SR 235.11",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "medium",
+    "reasoning": "Die Formulierung \"der Datenschutzverordnung vom 31. August 2022 SR 235.11;\" enthält keinen konkreten Artikelverweis, sondern verweist allgemein auf die Verordnung; daher ist von einer generellen Bezugnahme auf das ganze Regelwerk auszugehen."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_12",
+    "TARGET_SR": "SR 128.1",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "medium",
+    "reasoning": "Die Wendung \"der Informationssicherheitsverordnung vom 8. November 2023 SR 128.1.\" nennt keine bestimmte Artikelnummer; sie stellt eine generelle Verweisung auf die Verordnung als Ganzes dar."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "„Personen nach Artikel 4\" verweist ohne Nennung eines SR auf einen anderen Artikel derselben Verordnung; mangels externer SR-Nennung handelt es sich um eine reine Selbstreferenz innerhalb des aktuellen Erlasses."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": "SR 172.010.59",
+    "assigned_articles": [
+      "Art. 8"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Satz nennt \"aus den Verzeichnisdiensten nach Artikel 8 der Verordnung vom 6. Dezember 2013 über die vom BIT betriebenen Verzeichnisdienste des Bundes\"; diese Verordnung ist SR 172.010.59 (vgl. Item 3), womit Art. 8 dieser Verordnung eindeutig zugeordnet ist. Der Artikelverweis ist grammatikalisch direkt mit der genannten Verordnung verknüpft und keine Selbstreferenz."
+  },
+  {
+    "ITEM": 8,
+    "ARTICLE_EID": "art_8",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "„Personen nach Artikel 6\" enthält keinen SR-Hinweis und verweist damit auf einen anderen Artikel derselben Verordnung; dies ist eine interne Artikel-Selbstreferenz ohne Bezug zu einem externen SR-Dokument."
+  }
+]

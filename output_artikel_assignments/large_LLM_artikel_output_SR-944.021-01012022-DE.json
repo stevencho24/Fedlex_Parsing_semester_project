@@ -1,0 +1,75 @@
+[
+  {
+    "Item": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 944.0",
+    "assigned_articles": [
+      "Art. 4",
+      "Art. 11"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Formulierung \"gestützt auf die Artikel 4 und 11 des Konsumenteninformationsgesetzes ... SR 944.0 (KIG)\" verknüpft die genannten Artikel syntaktisch eindeutig mit dem KIG (SR 944.0)."
+  },
+  {
+    "Item": 2,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 814.01",
+    "assigned_articles": [
+      "Art. 35g Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Satzteil \"Artikel 35g Absatz 2 des Umweltschutzgesetzes ... SR 814.01 (USG)\" folgt die SR-Nummer direkt auf die Gesetzesbezeichnung; Art. 35g Abs. 2 ist damit klar dem USG (SR 814.01) zugeordnet."
+  },
+  {
+    "Item": 3,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 172.010",
+    "assigned_articles": [
+      "Art. 46a"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Passus \"auf Artikel 46a des Regierungs- und Verwaltungsorganisationsgesetzes ... SR 172.010 (RVOG)\" ordnet Art. 46a eindeutig dem RVOG (SR 172.010) zu."
+  },
+  {
+    "Item": 4,
+    "ARTICLE_EID": "art_6",
+    "TARGET_SR": "SR 170.512.1",
+    "assigned_articles": [
+      "Art. 20 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Hinweistext \"in Anwendung von Art. 20 Abs. 2 der Publikationsverordnung vom 7. Okt. 2015 (SR 170.512.1)\" steht die Artikelangabe unmittelbar vor der Gesetzesbezeichnung mit SR-Nummer; Art. 20 Abs. 2 gehört somit zur Publikationsverordnung SR 170.512.1."
+  },
+  {
+    "Item": 5,
+    "ARTICLE_EID": "art_8",
+    "TARGET_SR": "SR 172.041.1",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Satz \"Im Übrigen gelten die Bestimmungen der Allgemeinen Gebührenverordnung vom 8. September 2004 SR 172.041.1.\" verweist ohne konkrete Artikelangabe pauschal auf die Verordnung; daher ist von einer generellen Verweisung auf das gesamte Dokument auszugehen."
+  },
+  {
+    "Item": 6,
+    "ARTICLE_EID": "art_9",
+    "TARGET_SR": "SR 944.0",
+    "assigned_articles": [
+      "Art. 11"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Formulierung \"wird gemäss Artikel 11 KIG bestraft\" nennt explizit Art. 11 des KIG; aus der Präambel ist bekannt, dass KIG SR 944.0 entspricht, daher klare Zuordnung zu Art. 11 SR 944.0."
+  },
+  {
+    "Item": 7,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 2",
+      "Art. 3",
+      "Art. 4"
+    ],
+    "confidence": "medium",
+    "reasoning": "Die Wendung \"Pflichten nach den Artikeln 2–4\" ist eine reine Selbstverweisung innerhalb derselben Verordnung (keine SR-Angabe im Satz); sie bezieht sich auf die internen Artikel 2 bis 4 des aktuellen Dokuments. Da kein externes SR genannt ist, handelt es sich nicht um eine Zuweisung zu einem TARGET_SR, sondern um interne Artikelreferenzen."
+  }
+]

@@ -1,0 +1,106 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "art_2_a",
+    "TARGET_SR": "SR 910.91",
+    "assigned_articles": [
+      "Art. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Satz verweist ausdrücklich auf «Artikel 3 der Landwirtschaftlichen Begriffsverordnung … SR 910.91»; beide Vorkommen von Artikel 3 beziehen sich syntaktisch auf diese Verordnung."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": "SR 700",
+    "assigned_articles": "General reference - entire document",
+    "confidence": "high",
+    "reasoning": "Es wird nur das Raumplanungsgesetz (RPG, SR 700) als Ganzes genannt, ohne konkrete Artikelangabe; der Bezug ist allgemein («nach dem Raumplanungsgesetz … SR 700 bewilligt»)."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": "SR 700",
+    "assigned_articles": "General reference - entire document",
+    "confidence": "high",
+    "reasoning": "Formulierung «nach dem RPG SR 700 Nutzungspläne erlassen» verweist allgemein auf das RPG ohne spezifische Artikelnummer; keine weitere Artikelangabe im selben Satzteil."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_4_a",
+    "TARGET_SR": "SR 700",
+    "assigned_articles": [
+      "Art. 25 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Klammerzusatz «(Art. 25 Abs. 2 RPG SR 700)» steht die Artikelangabe unmittelbar beim Gesetz und ist damit eindeutig diesem SR zugeordnet."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": "SR 221.213.2",
+    "assigned_articles": "General reference - entire document",
+    "confidence": "high",
+    "reasoning": "Es wird nur «das Bundesgesetz vom 4. Oktober 1985 … SR 221.213.2 über die landwirtschaftliche Pacht» als Grundlage genannt, ohne konkrete Artikel; daher allgemeiner Gesetzesverweis."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_6",
+    "TARGET_SR": "SR 211.423.1",
+    "assigned_articles": [
+      "Art. 37-44"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Text nennt ausdrücklich «die Artikel 37–44 der Verordnung … SR 211.423.1»; der Artikelsbereich ist klar dieser Verordnung zugeordnet."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_2_a",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "artikel_reference ohne SR; «Artikel 3 der Landwirtschaftlichen Begriffsverordnung» ist ein externer Verweis, der bereits in ITEM 1 SR 910.91 zugeordnet wurde. Hier handelt es sich um denselben externen Artikel 3; als Selbstverweis auf das aktuelle Dokument ist dies unplausibel."
+  },
+  {
+    "ITEM": 8,
+    "ARTICLE_EID": "art_2_a",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 12b"
+    ],
+    "confidence": "high",
+    "reasoning": "«Artikel 12b der Landwirtschaftlichen Begriffsverordnung» ist ein externer Verweis auf denselben Normkomplex wie in ITEM 1/7 (Landwirtschaftliche Begriffsverordnung), aber dieser konkrete Artikel wurde bisher nicht erfasst; daher als externer Artikel 12b zu behandeln."
+  },
+  {
+    "ITEM": 9,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 3 Abs. 2 BGBB"
+    ],
+    "confidence": "high",
+    "reasoning": "«Artikel 3 Absatz 2 BGBB» verweist klar auf das Bundesgesetz über das bäuerliche Bodenrecht (BGBB) und nicht auf einen Artikel dieses Ausführungsrechts; daher externer Verweis auf Art. 3 Abs. 2 BGBB."
+  },
+  {
+    "ITEM": 10,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 60 Bst. a BGBB"
+    ],
+    "confidence": "high",
+    "reasoning": "«Artikel 60 Buchstabe a BGBB» ist ein expliziter Verweis auf das Stammgesetz BGBB; syntaktisch kein Bezug zu einem SR-Link im selben Satz, daher externer Verweis auf Art. 60 lit. a BGBB."
+  },
+  {
+    "ITEM": 11,
+    "ARTICLE_EID": "art_6",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 37-44"
+    ],
+    "confidence": "high",
+    "reasoning": "«die Artikel 37–44 der Verordnung … betreffend die Viehverpfändung» entspricht inhaltlich dem in ITEM 6 bereits erfassten externen Verweis; hier ohne SR-Angabe, aber eindeutig als externer Verweis auf die gleiche Verordnung zu verstehen, nicht als Selbstverweis."
+  }
+]

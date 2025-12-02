@@ -1,0 +1,32 @@
+[
+  {
+    "Item": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 414.110.1",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet only mentions the SR number (SR 414.110.1) as the Aussonderungsvertrag being approved, without any article-level citation or numbering linked to that SR. Therefore, it is a general reference to the whole agreement."
+  },
+  {
+    "Item": 2,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 172.010",
+    "assigned_articles": [
+      "Art. 70"
+    ],
+    "confidence": "high",
+    "reasoning": "Inside the authorial note, SR 172.010 is explicitly followed by 'Art. 70.' in the bracketed citation '[... SR 172.010 Art. 70. SR 414.110 Art. 40 Ziff. 1]'; syntactically this clearly links Art. 70 to SR 172.010."
+  },
+  {
+    "Item": 3,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 414.110",
+    "assigned_articles": [
+      "Art. 40 Ziff. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "In the same bracketed citation, 'SR 414.110 Art. 40 Ziff. 1' directly associates article 40 number 1 with SR 414.110, providing a clear article-level reference."
+  }
+]

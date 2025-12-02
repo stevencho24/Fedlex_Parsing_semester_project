@@ -1,0 +1,183 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 412.10",
+    "assigned_articles": [
+      "Art. 19"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Formulierung \"gestützt auf Artikel 19 des Berufsbildungsgesetzes ... SR 412.10\" verknüpft Art. 19 direkt mit SR 412.10."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 412.101",
+    "assigned_articles": [
+      "Art. 12"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Satzteil \"auf Artikel 12 der Berufsbildungsverordnung ... SR 412.101 (BBV)\" ist Art. 12 eindeutig dieser Verordnung zugeordnet."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 170.512",
+    "assigned_articles": [
+      "Art. 12 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Im authorialNote-Text steht ausdrücklich \"in Anwendung von Art. 12 Abs. 2 des Publikationsgesetzes ... (SR 170.512)\"; damit ist Art. 12 Abs. 2 klar SR 170.512 zugeordnet."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 822.115",
+    "assigned_articles": [
+      "Art. 4a Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Satzteil \"auf Artikel 4a Absatz 1 der Jugendarbeitsschutzverordnung ... SR 822.115 (ArGV 5)\" verknüpft Art. 4a Abs. 1 direkt mit SR 822.115."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": "SR 170.512",
+    "assigned_articles": [
+      "Art. 12 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Im authorialNote-Text wird erneut \"Art. 12 Abs. 2 des Publikationsgesetzes ... (SR 170.512)\" genannt; syntaktisch direkt mit SR 170.512 verbunden."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": "SR 412.101.241",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Formulierung \"gilt die Verordnung ... SR 412.101.241\" verweist pauschal auf die Verordnung, ohne einzelne Artikel zu nennen."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_18",
+    "TARGET_SR": "SR 412.101.241",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "Auch hier \"richtet sich nach der Verordnung ... SR 412.101.241\" ohne Artikelnennung; daher Gesamtverweis."
+  },
+  {
+    "ITEM": 8,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": "SR 412.10",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "medium",
+    "reasoning": "Die preamble_acronym-Referenz über \"SBFI\" verweist allgemein auf die Verordnung des SBFI; keine konkrete Artikelangabe zu SR 412.10 im Satz."
+  },
+  {
+    "ITEM": 9,
+    "ARTICLE_EID": "art_16",
+    "TARGET_SR": "SR 412.101",
+    "assigned_articles": [
+      "Art. 32"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Satzteil \"die nach Artikel 32 BBV erforderliche Erfahrung\" bezieht sich über das Preambel-Akronym BBV eindeutig auf SR 412.101."
+  },
+  {
+    "ITEM": 10,
+    "ARTICLE_EID": "art_18",
+    "TARGET_SR": "SR 412.10",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "medium",
+    "reasoning": "Die Verweisung \"nach der Verordnung des SBFI\" (SBFI = SR 412.10) nennt keinen bestimmten Artikel; daher Gesamtverweis."
+  },
+  {
+    "ITEM": 11,
+    "ARTICLE_EID": "art_20",
+    "TARGET_SR": "SR 412.101",
+    "assigned_articles": [
+      "Art. 33"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Satz \"richtet sich nach Artikel 33 BBV\" verknüpft Art. 33 direkt mit der BBV (SR 412.101)."
+  },
+  {
+    "ITEM": 12,
+    "ARTICLE_EID": "art_23",
+    "TARGET_SR": "SR 412.10",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "medium",
+    "reasoning": "Es wird nur das SBFI als Behörde genannt (über das Akronym SR 412.10), ohne konkrete Artikelangabe; funktionaler, nicht artikelspezifischer Verweis."
+  },
+  {
+    "ITEM": 13,
+    "ARTICLE_EID": "art_25",
+    "TARGET_SR": "SR 412.10",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "medium",
+    "reasoning": "Die Aufhebungsbestimmung nennt die Verordnung des SBFI, aber keinen bestimmten Artikel von SR 412.10; daher pauschaler Dokumentverweis."
+  },
+  {
+    "ITEM": 14,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 4 Abs. 1",
+      "Art. 4a Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "artikel_reference ohne TARGET_SR; \"Artikel 4 Absatz 1 ArGV 5\" und \"Artikel 4a Absatz 1 ArGV 5\" sind interne Verweise auf die Jugendarbeitsschutzverordnung (nicht auf ein im Datensatz verlinktes SR-Dokument)."
+  },
+  {
+    "ITEM": 15,
+    "ARTICLE_EID": "art_16",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 32"
+    ],
+    "confidence": "high",
+    "reasoning": "artikel_reference; \"Artikel 32 BBV\" ist bereits in ITEM 9 als externer Verweis zu SR 412.101 erfasst, hier aber als interner Artikelverweis im Text derselben Bestimmung."
+  },
+  {
+    "ITEM": 16,
+    "ARTICLE_EID": "art_17",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 4"
+    ],
+    "confidence": "high",
+    "reasoning": "artikel_reference; \"nachzuweisen, dass die Handlungskompetenzen nach Artikel 4 erworben worden sind\" ist ein Selbstverweis innerhalb derselben Verordnung, ohne Bezug zu einem externen SR-Link."
+  },
+  {
+    "ITEM": 17,
+    "ARTICLE_EID": "art_22",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 21 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "artikel_reference; \"unter dem Vorbehalt von Artikel 21 Absatz 1\" ist ein interner Verweis auf eine andere Bestimmung derselben Verordnung."
+  },
+  {
+    "ITEM": 18,
+    "ARTICLE_EID": "art_26",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 16–22"
+    ],
+    "confidence": "high",
+    "reasoning": "artikel_reference; \"(Art. 16–22)\" bezeichnet einen internen Artikelbereich der eigenen Verordnung, nicht ein anderes SR-Dokument."
+  }
+]

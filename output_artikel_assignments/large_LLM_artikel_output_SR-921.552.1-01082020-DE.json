@@ -1,0 +1,84 @@
+[
+  {
+    "Item": 1,
+    "TARGET_SR": "SR 921.01",
+    "assigned_articles": [
+      "Art. 22 Abs. 3",
+      "Art. 24"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet explicitly cites 'Artikel 22 Absatz 3 und 24 der Waldverordnung ... SR 921.01 (WaV)'; both articles are grammatically linked to the cited SR."
+  },
+  {
+    "Item": 2,
+    "TARGET_SR": "SR 916.20",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "The sentence refers generically to 'die Bestimmungen der Pflanzengesundheitsverordnung ... SR 916.20' without any article numbers; this is a blanket reference to the ordinance as a whole."
+  },
+  {
+    "Item": 3,
+    "TARGET_SR": "SR 921.01",
+    "assigned_articles": [
+      "Art. 22"
+    ],
+    "confidence": "high",
+    "reasoning": "The phrase 'Verweigerung der Bewilligung nach Artikel 22 WaV' directly links Article 22 to WaV, which is SR 921.01; no paragraph is specified, so the whole article is referenced."
+  },
+  {
+    "Item": 4,
+    "TARGET_SR": "self",
+    "assigned_articles": [
+      "Art. 3 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "Artikelreferenz ohne SR-Nennung: '... dessen Herkunft nach Artikel 3 Absatz 1 nachgewiesen ist;' clearly refers to another provision within the same ordinance (self-reference), not to an external SR."
+  },
+  {
+    "Item": 5,
+    "TARGET_SR": "self",
+    "assigned_articles": [
+      "Art. 10 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "The phrase 'getrennt nach den in Artikel 10 Absatz 1 genannten Merkmalen' contains no external SR and is standard internal cross-referencing within the same document."
+  },
+  {
+    "Item": 6,
+    "TARGET_SR": "self",
+    "assigned_articles": [
+      "Art. 3 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "The requirement 'den Anforderungen von Artikel 3 Absatz 1 entspricht' is an internal reference; no SR or acronym is present to link it to another document."
+  },
+  {
+    "Item": 7,
+    "TARGET_SR": "self",
+    "assigned_articles": [
+      "Art. 10 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "Again 'getrennt nach den in Artikel 10 Absatz 1 genannten Merkmalen' with no SR mentioned; this is a self-reference to another article of the same ordinance."
+  },
+  {
+    "Item": 8,
+    "TARGET_SR": "self",
+    "assigned_articles": [
+      "Art. 10 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "Same construction as Items 5 and 7; 'Artikel 10 Absatz 1' is clearly an internal article reference within the current document."
+  },
+  {
+    "Item": 9,
+    "TARGET_SR": "self",
+    "assigned_articles": [
+      "Art. 10 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet 'Merkmale nach Artikel 10 Absatz 1' contains no SR or acronym; it is an internal cross-reference to Art. 10 Abs. 1 of the same ordinance."
+  }
+]

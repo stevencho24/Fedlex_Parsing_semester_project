@@ -1,0 +1,250 @@
+[
+  {
+    "Item": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 910.1",
+    "assigned_articles": [
+      "Art. 18 Abs. 1",
+      "Art. 177"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet explicitly cites 'Artikel 18 Absatz 1 und 177 des Landwirtschaftsgesetzes ... SR 910.1 (LwG)'; both articles are grammatically linked to SR 910.1."
+  },
+  {
+    "Item": 2,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": "SR 812.212.27",
+    "assigned_articles": [
+      "Anhang 4 Buchstabe b"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet refers to 'nach Anhang 4 Buchstabe b der Tierarzneimittelverordnung ... SR 812.212.27'; this annex provision is directly tied to the cited SR."
+  },
+  {
+    "Item": 3,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": "SR 455.1",
+    "assigned_articles": [
+      "Art. 7",
+      "Art. 10 Abs. 1",
+      "Art. 64",
+      "Art. 65"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet: 'die Artikel 7, 10 Absatz 1, 64 und 65 der Tierschutzverordnung ... SR 455.1'; all listed articles are explicitly and syntactically linked to SR 455.1."
+  },
+  {
+    "Item": 4,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": "SR 817.02",
+    "assigned_articles": [
+      "Art. 26",
+      "Art. 27",
+      "Art. 28"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet: 'Bestimmungen der Artikel 26–28 der Lebensmittel- und Gebrauchsgegenständeverordnung ... SR 817.02'; the range 26–28 clearly belongs to SR 817.02."
+  },
+  {
+    "Item": 5,
+    "ARTICLE_EID": "art_11",
+    "TARGET_SR": "SR 946.512",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "medium",
+    "reasoning": "Snippet only mentions 'nach der Akkreditierungs- und Bezeichnungsverordnung ... SR 946.512' without any article or annex; treated as a general reference to the ordinance."
+  },
+  {
+    "Item": 6,
+    "ARTICLE_EID": "art_12",
+    "TARGET_SR": "SR 946.51",
+    "assigned_articles": [
+      "Art. 18 Abs. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet: 'Artikel 18 Absatz 3 des Bundesgesetzes ... SR 946.51'; direct marking of article and paragraph for the cited SR."
+  },
+  {
+    "Item": 7,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": "SR 910.1",
+    "assigned_articles": [
+      "Art. 160 Abs. 8"
+    ],
+    "confidence": "high",
+    "reasoning": "Preamble acronym LwG = SR 910.1; snippet: 'nach Artikel 160 Absatz 8 LwG'; clear implicit reference to Art. 160 Abs. 8 of SR 910.1."
+  },
+  {
+    "Item": 8,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 1 Abs. 1",
+      "Art. 3",
+      "Art. 4",
+      "Art. 5"
+    ],
+    "confidence": "high",
+    "reasoning": "This is an internal reference within the same document: 'Erzeugnisse nach Artikel 1 Absatz 1' and 'nach den Artikeln 3–5'; no external SR is mentioned, so it refers to the current ordinance."
+  },
+  {
+    "Item": 9,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 1 Abs. 1",
+      "Art. 160 Abs. 8 LwG"
+    ],
+    "confidence": "high",
+    "reasoning": "Internal reference to 'Artikel 1 Absatz 1' of the same ordinance plus 'Artikel 160 Absatz 8 LwG' which is already captured in Item 7 as SR 910.1; here, as artikel_reference without SR context, it is treated as self-reference plus an external law mention."
+  },
+  {
+    "Item": 10,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 7",
+      "Art. 10 Abs. 1",
+      "Art. 64",
+      "Art. 65"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet repeats 'die Artikel 7, 10 Absatz 1, 64 und 65 der Tierschutzverordnung'; as artikel_reference with no SR field, this is treated as a cross-reference context already linked to SR 455.1 in Item 3, but here classified as internal reference information."
+  },
+  {
+    "Item": 11,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 6",
+      "Art. 8"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet: 'gelten die Anforderungen nach Artikel 6 oder 8'; no SR mentioned, so these are internal articles of the same ordinance."
+  },
+  {
+    "Item": 12,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 26",
+      "Art. 27",
+      "Art. 28"
+    ],
+    "confidence": "high",
+    "reasoning": "Internal repetition of 'Artikel 26–28 der Lebensmittel- und Gebrauchsgegenständeverordnung'; as artikel_reference, it mirrors the external SR link in Item 4 but here functions as contextual internal reference."
+  },
+  {
+    "Item": 13,
+    "ARTICLE_EID": "art_6",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 7"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet: 'nach der Länderliste (Art. 7)'; clearly an internal cross-reference to Article 7 of the same ordinance."
+  },
+  {
+    "Item": 14,
+    "ARTICLE_EID": "art_6",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 2 Abs. 4 Bst. a Ziff. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet: 'Stoffen nach Artikel 2 Absatz 4 Buchstabe a Ziffer 1'; no external SR, so this is an internal reference to a specific subdivision of Article 2."
+  },
+  {
+    "Item": 15,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 2 Abs. 4"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet: 'den Produktionsverboten nach Artikel 2 Absatz 4 entsprechen'; internal cross-reference within the same ordinance."
+  },
+  {
+    "Item": 16,
+    "ARTICLE_EID": "art_8",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 9 Abs. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet: 'Verfügung nach Artikel 9 Absatz 3'; internal reference to Article 9 paragraph 3 of the same document."
+  },
+  {
+    "Item": 17,
+    "ARTICLE_EID": "art_9",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 2 Abs. 4 Bst. a Ziff. 2",
+      "Art. 2 Abs. 4 Bst. b"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet: 'den Produktionsverboten nach Artikel 2 Absatz 4 Buchstabe a Ziffer 2 und Buchstabe b gleichwertig'; internal references to detailed subdivisions of Article 2."
+  },
+  {
+    "Item": 18,
+    "ARTICLE_EID": "art_9",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 2 Abs. 4 Bst. a Ziff. 2",
+      "Art. 2 Abs. 4 Bst. b"
+    ],
+    "confidence": "high",
+    "reasoning": "Similar to Item 17: 'Verboten nach Artikel 2 Absatz 4 Buchstabe a Ziffer 2 und Buchstabe b'; internal cross-references to the same subdivisions."
+  },
+  {
+    "Item": 19,
+    "ARTICLE_EID": "art_9",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 13 Abs. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet: 'Bericht nach Artikel 13 Absatz 3'; internal reference to Article 13 paragraph 3 of the same ordinance."
+  },
+  {
+    "Item": 20,
+    "ARTICLE_EID": "art_11",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 2 Abs. 4"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet: 'Kenntnisse der nach Artikel 2 Absatz 4 in der Schweiz verbotenen Produktionsmethoden'; internal reference to Article 2 paragraph 4."
+  },
+  {
+    "Item": 21,
+    "ARTICLE_EID": "art_12",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 11"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet: 'die Anforderungen nach Artikel 11 erfüllen'; internal cross-reference to Article 11."
+  },
+  {
+    "Item": 22,
+    "ARTICLE_EID": "art_12",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 13"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet: 'die Pflichten nach Artikel 13 wahrnehmen'; internal reference to Article 13."
+  },
+  {
+    "Item": 23,
+    "ARTICLE_EID": "art_12",
+    "TARGET_SR": "SR 946.51",
+    "assigned_articles": [
+      "Art. 18 Abs. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet: 'Vorbehalten bleibt Artikel 18 Absatz 3 des Bundesgesetzes vom 6. Oktober 1995 über die technischen Handelshemmnisse.'; this is the same external reference as Item 6 and clearly belongs to SR 946.51."
+  }
+]

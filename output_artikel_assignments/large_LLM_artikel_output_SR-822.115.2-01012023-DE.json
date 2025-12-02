@@ -1,0 +1,102 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 822.115",
+    "assigned_articles": [
+      "Art. 4 Abs. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Formulierung «gestützt auf Artikel 4 Absatz 3 der Jugendarbeitsschutzverordnung … SR 822.115 (ArGV 5)» verknüpft den genannten Artikel grammatikalisch eindeutig mit der genannten SR; Art. 4 Abs. 3 gehört somit zu SR 822.115."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": "SR 814.501",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Snippet wird nur «die Strahlenschutzverordnung vom 26. April 2017 SR 814.501» als Ganzes genannt, ohne konkrete Artikelangabe; dies ist eine generelle Verweisnorm auf die gesamte Verordnung."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": "SR 813.11",
+    "assigned_articles": [
+      "Anhang 2 Ziff. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Text verweist auf «… in der Fassung gemäss Anhang 2 Ziffer 1 der Chemikalienverordnung … SR 813.11 (ChemV)»; damit ist ausdrücklich der Anhang 2 Ziff. 1 der ChemV (SR 813.11) als massgeblich bezeichnet."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_6",
+    "TARGET_SR": "SR 813.11",
+    "assigned_articles": [
+      "Anhang 2 Ziff. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "Auch hier lautet der Verweis «… in der Fassung gemäss Anhang 2 Ziffer 1 ChemV SR 813.11»; syntaktisch ist klar, dass sich der Bezug auf Anhang 2 Ziff. 1 der ChemV (SR 813.11) richtet."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": "SR 832.321",
+    "assigned_articles": [
+      "Art. 3 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Satz nennt «Mikroorganismen der Gruppen 3 und 4 nach Artikel 3 Absatz 2 der Verordnung vom 25. August 1999 SR 832.321 …»; Art. 3 Abs. 2 ist damit ausdrücklich dieser Verordnung (SR 832.321) zugeordnet."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_8",
+    "TARGET_SR": "SR 832.312.15",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Formulierung «Krane nach der Kranverordnung vom 27. September 1999 SR 832.312.15» verweist pauschal auf die Kranverordnung, ohne einzelne Artikel zu nennen; dies ist ein genereller Dokumentenverweis."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_15",
+    "TARGET_SR": "SR 822.115",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "medium",
+    "reasoning": "Die Norm hebt «die Verordnung des WBF vom 4. Dezember 2007 über gefährliche Arbeiten für Jugendliche» auf; über das Preambel-Akronym WBF ist SR 822.115 als Bezug hergestellt, jedoch ohne konkrete Artikelangabe. Es handelt sich um einen Verweis auf die Verordnung als Ganzes."
+  },
+  {
+    "ITEM": 8,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«Artikel 4 Absatz 2 ArGV 5» verweist auf Art. 4 Abs. 2 der Jugendarbeitsschutzverordnung (ArGV 5), also auf das eigene Stammrecht (SR 822.115) und nicht auf ein im Item genanntes anderes SR-Dokument; mangels TARGET_SR ist dies als interne Selbstreferenz zu qualifizieren."
+  },
+  {
+    "ITEM": 9,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Text nennt «Artikel 3 Absatz 2 der Verordnung vom 25. August 1999 über den Schutz der Arbeitnehmerinnen und Arbeitnehmer vor Gefährdung durch Mikroorganismen» ohne explizite SR-Nummer; im Kontext dieses Item-Typs (artikel_reference, kein TARGET_SR) ist dies als Verweisstruktur innerhalb bzw. ohne eindeutige SR-Zuordnung zu behandeln und daher als interne Referenz zu werten."
+  },
+  {
+    "ITEM": 10,
+    "ARTICLE_EID": "art_14",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«Artikel 4 Absatz 4 ArGV 5» verweist auf eine Bestimmung derselben Jugendarbeitsschutzverordnung (ArGV 5); da kein TARGET_SR angegeben ist und die Struktur typisch für Selbstverweise ist, handelt es sich um eine interne Referenz im aktuellen Dokument."
+  }
+]

@@ -1,0 +1,22 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 152.11",
+    "assigned_articles": [
+      "Art. 11 Abs. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet explicitly cites 'Artikel 11 Absatz 3 der Archivierungsverordnung ... SR 152.11'; this article and paragraph are directly and grammatically linked to SR 152.11."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet refers to 'Artikel 11 Absatz 1 der Archivierungsverordnung vom 8. September 1999' without mentioning SR 152.11 or any SR number; under the rules, this isolated article mention without an explicit SR link is treated as a self-reference within the current document, not as an assignment to an external TARGET_SR."
+  }
+]

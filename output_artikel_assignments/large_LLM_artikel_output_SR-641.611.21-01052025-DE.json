@@ -1,0 +1,82 @@
+[
+  {
+    "Item": 1,
+    "source_article": "preamble",
+    "target_SR": "SR 641.611",
+    "assigned_articles": [
+      "Art. 19f Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Formulierung \"gestützt auf Artikel 19f Absatz 2 der Mineralölsteuerverordnung ... SR 641.611 (MinöStV)\" verknüpft den Artikel eindeutig mit der genannten SR."
+  },
+  {
+    "Item": 2,
+    "source_article": "art_1",
+    "target_SR": "SR 641.61",
+    "assigned_articles": [
+      "Art. 12b"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Snippet steht \"damit die Steuererleichterung nach Artikel 12b des Mineralölsteuergesetzes ... SR 641.61 gewährt wird\"; Art. 12b ist klar dem Mineralölsteuergesetz (SR 641.61) zugeordnet."
+  },
+  {
+    "Item": 3,
+    "source_article": "art_2",
+    "target_SR": "SR 641.611",
+    "assigned_articles": [
+      "Art. 19c"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Passage \"dass die ökologischen Anforderungen nach Artikel 19c MinöStV erfüllt sind\" nennt explizit Art. 19c der MinöStV; MinöStV ist in der Präambel als SR 641.611 definiert."
+  },
+  {
+    "Item": 4,
+    "source_article": "art_8",
+    "target_SR": "SR 641.611",
+    "assigned_articles": [
+      "Art. 19c"
+    ],
+    "confidence": "high",
+    "reasoning": "Im gesamten Snippet wird mehrfach \"die ökologischen Anforderungen nach Artikel 19c MinöStV\" erwähnt; dies verweist eindeutig auf Art. 19c der MinöStV (SR 641.611)."
+  },
+  {
+    "Item": 5,
+    "source_article": "art_10",
+    "target_SR": "SR 641.611",
+    "assigned_articles": [
+      "Art. 19c"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Satz \"ob die ökologischen Anforderungen nach Artikel 19c MinöStV erfüllt sind\" verweist klar auf Art. 19c der MinöStV (SR 641.611)."
+  },
+  {
+    "Item": 6,
+    "source_article": "art_1",
+    "target_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Referenz \"Artikel 12b des Mineralölsteuergesetzes\" ist bereits in Item 2 als Art. 12b SR 641.61 erfasst; hier liegt kein zusätzlicher SR-Link vor, sondern eine Wiederholung im Fliesstext ohne explizite SR-Zuordnung, daher als interne/kontextuelle Referenz behandelt."
+  },
+  {
+    "Item": 7,
+    "source_article": "art_8",
+    "target_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Formulierung \"Angaben nach den Artikeln 3–7\" verweist auf Artikel derselben Verordnung (SR 641.611.21); es wird kein anderes SR-Dokument genannt, daher handelt es sich um eine Selbstreferenz innerhalb des aktuellen Erlasses."
+  },
+  {
+    "Item": 8,
+    "source_article": "art_8",
+    "target_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "Auch hier beziehen sich \"Angaben nach den Artikeln 3–7\" auf Artikel derselben Verordnung; mangels Nennung eines anderen SR-Dokuments ist dies eine interne Artikelverweisung."
+  }
+]

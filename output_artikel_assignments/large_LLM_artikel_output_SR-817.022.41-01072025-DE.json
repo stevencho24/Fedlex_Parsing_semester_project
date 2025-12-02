@@ -1,0 +1,197 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 817.02",
+    "assigned_articles": [
+      "Art. 23",
+      "Art. 36 Abs. 3",
+      "Art. 36 Abs. 4"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Präambel nennt ausdrücklich: «gestützt auf die Artikel 23 und 36 Absätze 3 und 4 ... SR 817.02 (LGV)». Diese Artikelangaben sind direkt mit der LGV (SR 817.02) verknüpft."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": "SR 817.022.31",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "Formulierung «nach der Verordnung des EDI ... SR 817.022.31 ... (ZuV)» ohne Nennung einzelner Artikel; es wird die Verordnung als Ganzes als Rechtsgrundlage herangezogen."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": "SR 817.022.15",
+    "assigned_articles": [
+      "Anhang 9"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Satz lautet «Unter Vorbehalt von Anhang 9 der Verordnung des EDI ... SR 817.022.15 ...». Es wird explizit Anhang 9 dieser Verordnung genannt; weitere Artikelangaben fehlen."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": "SR 817.022.16",
+    "assigned_articles": [
+      "Art. 3 Abs. 1 Bst. a"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet: «Die Sachbezeichnung nach Artikel 3 Absatz 1 Buchstabe a der Verordnung des EDI ... SR 817.022.16 ... (LIV)». Der Artikelbezug ist grammatikalisch eindeutig dieser Verordnung zugeordnet."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_8",
+    "TARGET_SR": "SR 817.022.16",
+    "assigned_articles": [
+      "Art. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "Text: «zusätzlich zu den Angaben nach Artikel 3 LIV SR 817.022.16». Der Artikel 3 wird direkt mit der LIV (SR 817.022.16) verknüpft; keine Absätze oder Buchstaben genannt."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_9",
+    "TARGET_SR": "SR 817.022.16",
+    "assigned_articles": [
+      "Art. 3 Abs. 1 Bst. a",
+      "Art. 3 Abs. 1 Bst. c",
+      "Art. 3 Abs. 1 Bst. e–g",
+      "Art. 3 Abs. 1 Bst. m"
+    ],
+    "confidence": "high",
+    "reasoning": "Formulierung: «zusätzlich zu den Angaben nach Artikel 3 Absatz 1 Buchstaben a, c, e–g und m LIV SR 817.022.16». Alle genannten Buchstaben des Art. 3 Abs. 1 der LIV beziehen sich syntaktisch auf dieselbe Verordnung."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": "SR 817.02",
+    "assigned_articles": [
+      "Art. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet: «Ergänzend zu den Begriffen nach Artikel 2 LGV ...». LGV ist in der Präambel als SR 817.02 definiert; der Artikelbezug ist eindeutig."
+  },
+  {
+    "ITEM": 8,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": "SR 817.02",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "medium",
+    "reasoning": "«nach der Verordnung des EDI ... über die zulässigen Zusatzstoffe in Lebensmitteln (ZuV)»; hier steht EDI als Aküonym für SR 817.02, aber es wird kein bestimmter Artikel der LGV genannt, sondern die EDI-Verordnung als solche. Mangels expliziter Artikelangabe wird die Verordnung generell referenziert."
+  },
+  {
+    "ITEM": 9,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": "SR 817.02",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "medium",
+    "reasoning": "«Unter Vorbehalt von Anhang 9 der Verordnung des EDI ... über Kontaminanten ...»; wiederum nur die EDI-Verordnung als Ganzes, kein konkreter Artikel der LGV (SR 817.02) genannt. Daher allgemeine Verweisqualität."
+  },
+  {
+    "ITEM": 10,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": "SR 817.02",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "medium",
+    "reasoning": "Der Text nennt «der Verordnung des EDI ... betreffend die Information über Lebensmittel (LIV)»; das Aküonym EDI verweist auf SR 817.02, aber ohne konkrete Artikelangabe innerhalb dieser SR. Es handelt sich um eine generelle Bezugnahme."
+  },
+  {
+    "ITEM": 11,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«im Sinne der Begriffsbestimmungen nach Artikel 3 Absätze 1, 2 und 4 der Verordnung (EG) Nr. 2065/2003» bezieht sich auf eine EU-Verordnung, nicht auf eine SR-Nummer; im Kontext des Projekts ist dies eine externe Norm, daher keine TARGET_SR-Zuordnung, sondern nur interner Artikelverweis im eigenen Dokument."
+  },
+  {
+    "ITEM": 12,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«sofern Artikel 3 erfüllt ist» verweist ohne Nennung einer SR auf einen anderen Artikel derselben Verordnung (Selbstverweis)."
+  },
+  {
+    "ITEM": 13,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«Aromaextrakte nach Artikel 2 Absatz 1 Buchstabe c Ziffer 1»; kein externer SR-Bezug, sondern Verweis auf Begriffsbestimmungen innerhalb derselben Verordnung."
+  },
+  {
+    "ITEM": 14,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«Aromavorstufen nach Artikel 2 Absatz 1 Buchstabe f Ziffer 1»; wiederum reine Binnenverweisung im gleichen Erlass."
+  },
+  {
+    "ITEM": 15,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«Aromaextrakte nach Artikel 2 Absatz 1 Buchstabe c Ziffer 2»; keine SR-Nennung, daher Selbstverweis."
+  },
+  {
+    "ITEM": 16,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«die ganz oder teilweise unter Artikel 2 Absatz 1 Buchstabe d Ziffer 2 fallen»; Bezug auf internen Artikel 2 derselben Verordnung."
+  },
+  {
+    "ITEM": 17,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«Aromavorstufen nach Artikel 2 Absatz 1 Buchstabe f Ziffer 2»; wiederum interne Artikelverweisung ohne SR-Kontext."
+  },
+  {
+    "ITEM": 18,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«Ausgangsstoffe nach Artikel 2 Absatz 1 Buchstabe i Ziffer 2»; klarer Selbstverweis innerhalb des gleichen Erlasses."
+  },
+  {
+    "ITEM": 19,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«wenn die Bedingungen für die Herstellung nach Artikel 5 Absätze 1 und 2 der Verordnung (EG) Nr. 2065/2003 eingehalten werden»; Verweis auf EU-Verordnung, nicht auf eine SR-Nummer. Im Rahmen der SR-Zuordnung bleibt dies ein externer Normverweis ohne TARGET_SR."
+  }
+]

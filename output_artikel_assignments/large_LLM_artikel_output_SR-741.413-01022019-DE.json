@@ -1,0 +1,140 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 741.01",
+    "assigned_articles": [
+      "Art. 8 Abs. 1",
+      "Art. 9 Abs. 1bis",
+      "Art. 9 Abs. 3",
+      "Art. 25",
+      "Art. 106 Abs. 1",
+      "Art. 106 Abs. 6",
+      "Art. 106 Abs. 10"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Präambel nennt ausdrücklich: «gestützt auf die Artikel 8 Absatz 1, 9 Absätze 1bis und 3, 25 sowie 106 Absätze 1, 6 und 10 des Strassenverkehrsgesetzes … SR 741.01»; alle genannten Artikel gehören somit zu SR 741.01."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 741.41",
+    "assigned_articles": [
+      "Art. 11 Abs. 2 Bst. h"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Satz: «Traktoren (Art. 11 Abs. 2 Bst. h der Verordnung … SR 741.41 …; VTS)» wird Art. 11 Abs. 2 Bst. h direkt dieser Verordnung (SR 741.41) zugeordnet."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": "SR 741.41",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "Formulierung «richten sich nach der VTS SR 741.41» verweist allgemein auf die Verordnung; kein bestimmter Artikel der VTS wird genannt."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": "SR 741.511",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "«Es gelten die Begriffsbestimmungen der Verordnung … SR 741.511 …» bezieht sich auf die Begriffsbestimmungen der ganzen Verordnung, ohne einzelne Artikel zu spezifizieren."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": "SR 741.41",
+    "assigned_articles": [
+      "Anhang 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Norm lautet: «… in der in Anhang 2 VTS SR 741.41 festgelegten Fassung.» Der Bezug gilt spezifisch dem Anhang 2 der VTS, nicht einzelnen Artikeln."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_6",
+    "TARGET_SR": "SR 0.946.526.81",
+    "assigned_articles": [
+      "Art. 1 Abs. 2",
+      "Anhang 1 Kap. 13"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Satz nennt ausdrücklich: «in Artikel 1 Absatz 2 und Anhang 1 Kapitel 13 des Abkommens … SR 0.946.526.81 … geregelt»; beide Stellen gehören zu diesem Abkommen."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_8",
+    "TARGET_SR": "SR 741.41",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "«gelten die technischen Anforderungen der VTS SR 741.41» verweist pauschal auf die technischen Anforderungen der VTS; kein bestimmter Artikel oder Anhang wird genannt."
+  },
+  {
+    "ITEM": 8,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«Art. 11 Abs. 2 Bst. h der Verordnung …; VTS» ist bereits in ITEM 2 eindeutig SR 741.41 zugeordnet; hier handelt es sich um dieselbe Textstelle, die als artikel_reference erfasst wurde, daher keine neue SR-Zuordnung, sondern Verweis auf externes SR, bereits abgedeckt."
+  },
+  {
+    "ITEM": 9,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«Artikel 4 der Verordnung (EU) Nr. 167/2013» bezieht sich auf EU-Recht, nicht auf ein SR-Dokument; mangels SR-Kontext ist dies kein SR-Link, sondern ein externer Rechtsakt."
+  },
+  {
+    "ITEM": 10,
+    "ARTICLE_EID": "art_6",
+    "TARGET_SR": "SR 0.946.526.81",
+    "assigned_articles": [
+      "Art. 1 Abs. 2",
+      "Anhang 1 Kap. 13"
+    ],
+    "confidence": "high",
+    "reasoning": "Dieselbe Passage wie in ITEM 6, hier als artikel_reference erfasst: «Artikel 1 Absatz 2 und Anhang 1 Kapitel 13 des Abkommens vom 21. Juni 1999 …»; klarer Bezug zu SR 0.946.526.81."
+  },
+  {
+    "ITEM": 11,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«Fahrzeuge nach Artikel 1 Absatz 2» verweist auf Art. 1 Abs. 2 derselben Verordnung (SR 741.413); kein anderes SR wird genannt, daher reine Selbstreferenz."
+  },
+  {
+    "ITEM": 12,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«Fahrzeuge nach Artikel 2 Absatz 2 der Verordnung (EU) Nr. 167/2013» verweist auf EU-Verordnung, nicht auf ein SR-Dokument; somit kein SR-Link, sondern externer Rechtsakt."
+  },
+  {
+    "ITEM": 13,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«Fahrzeuge eines Fahrzeugtyps nach Artikel 37 der Verordnung (EU) Nr. 167/2013» ist ein Verweis auf EU-Recht ohne SR-Bezug; daher keine SR-Zuordnung."
+  }
+]

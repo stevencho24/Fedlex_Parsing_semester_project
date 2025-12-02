@@ -1,0 +1,72 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 741.01",
+    "assigned_articles": [
+      "Art. 106a"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet explicitly states 'gestützt auf Artikel 106a des Strassenverkehrsgesetzes ... SR 741.01'; Art. 106a is directly and uniquely linked to SR 741.01."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": "SR 741.621",
+    "assigned_articles": [
+      "Art. 5 Abs. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "The text says 'Vereinbarungen nach Artikel 5 Absatz 3 der Verordnung ... SR 741.621'; the article reference and the SR are syntactically bound, so Art. 5 Abs. 3 clearly belongs to SR 741.621."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": "SR 741.41",
+    "assigned_articles": [
+      "Anhang 2"
+    ],
+    "confidence": "medium",
+    "reasoning": "The snippet refers to 'Anhang 2 der Verordnung ... SR 741.41'; no specific article is cited, only Annex 2. This is a targeted but non‑article reference, so Annex 2 is assigned rather than a general reference to the whole document."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": "SR 0.822.725.22",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "medium",
+    "reasoning": "The phrase 'Änderungen des Europäischen Übereinkommens ... SR 0.822.725.22' cites the agreement as a whole without any article, annex, or paragraph; thus it is a general reference to the entire document."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": "SR 0.741.411",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "medium",
+    "reasoning": "The snippet mentions 'Änderungen des Übereinkommens ... SR 0.741.411' without specifying any article or annex; the context is the agreement in general, so it is treated as a general reference."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": "SR 0.741.621",
+    "assigned_articles": [
+      "Anlagen"
+    ],
+    "confidence": "medium",
+    "reasoning": "The text refers to 'Änderungen der Anlagen des Übereinkommens ... SR 0.741.621'; the syntactic object linked to the SR is the annexes ('Anlagen'), not specific articles, so the reference is limited to the annexes rather than the entire document."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "This is an artikel_reference item without an SR; it repeats the same wording as ITEM 2 but omits 'SR 741.621'. Under the rules, such isolated article mentions are treated as self‑references within the current document, not as assignments to an external SR."
+  }
+]

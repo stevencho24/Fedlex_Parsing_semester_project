@@ -1,0 +1,83 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 170.512.1",
+    "assigned_articles": [
+      "Art. 16 Abs. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Formulierung \"in Anwendung von Art. 16 Abs. 3 der Publikationsverordnung ... (SR 170.512.1)\" verknüpft den Artikel eindeutig mit der genannten SR; direkte Artikelangabe mit Gesetzesbezeichnung."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 221.213.11",
+    "assigned_articles": [
+      "Art. 12a Abs. 4"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Satz \"gestützt auf Artikel 12a Absatz 4 der Verordnung ... SR 221.213.11 ... (VMWG)\" wird Art. 12a Abs. 4 grammatikalisch eindeutig dieser Verordnung zugeordnet."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": "SR 952.02",
+    "assigned_articles": [
+      "Rechnungslegungsvorschriften allgemein"
+    ],
+    "confidence": "medium",
+    "reasoning": "Die Passage verweist allgemein auf die \"Rechnungslegungsvorschriften der Bankenverordnung ... SR 952.02\" ohne konkrete Artikel- oder Absatzangabe; es handelt sich um eine generelle Bezugnahme auf die einschlägigen Rechnungslegungsvorschriften der Verordnung."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": "SR 952.0",
+    "assigned_articles": [
+      "Art. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Text spricht von einer \"Bewilligung im Sinne von Artikel 3 des Bankengesetzes ... SR 952.0\"; Art. 3 ist klar als maßgebliche Norm des Bankengesetzes bezeichnet."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": "SR 235.1",
+    "assigned_articles": [
+      "Allgemeine Anwendung des DSG"
+    ],
+    "confidence": "medium",
+    "reasoning": "Formulierung \"Die Bestimmungen des Datenschutzgesetzes ... SR 235.1 sind anwendbar\" nennt keinen bestimmten Artikel; es ist eine pauschale Verweisung auf das Gesetz als Ganzes bzw. dessen anwendbare Bestimmungen."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 221.213.11",
+    "assigned_articles": [
+      "Art. 12a"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Snippet \"... Referenzzinssatzes nach Artikel 12a VMWG\" wird Art. 12a ausdrücklich mit der VMWG (SR 221.213.11) verknüpft; Absatzangabe fehlt, daher Zuordnung zum Grundartikel 12a."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Interne Verweisung auf Art. 12a derselben oder kontextbezogenen Regelung"
+    ],
+    "confidence": "medium",
+    "reasoning": "Die Stelle \"nach Artikel 12a VMWG\" ist eine Artikelverweisung, aber ohne explizite SR-Angabe im Satz; syntaktisch handelt es sich um eine Verweisung auf Art. 12a der im Dokument bereits definierten VMWG und damit um eine inhaltliche Selbst-/Kontextverweisung, nicht um eine neue SR-Verknüpfung."
+  },
+  {
+    "ITEM": 8,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Interne Verweisung auf Art. 3 des Bankengesetzes im Kontext",
+      "keine neue SR-Zuordnung"
+    ],
+    "confidence": "medium",
+    "reasoning": "Der Satz nennt \"Artikel 3 des Bankengesetzes\" ohne SR-Nummer; im Kontext des Dokuments ist dies eine inhaltliche Bezugnahme auf Art. 3 des bereits anderweitig mit SR 952.0 verknüpften Bankengesetzes, aber als artikel_reference-Item dient sie primär der internen Strukturverweisung und begründet keine zusätzliche explizite SR-Verlinkung."
+  }
+]

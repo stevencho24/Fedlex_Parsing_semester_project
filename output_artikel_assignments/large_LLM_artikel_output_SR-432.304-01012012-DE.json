@@ -1,0 +1,32 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 432.30",
+    "assigned_articles": [
+      "Art. 25 Abs. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet explicitly cites 'Artikel 25 Absatz 3 des Museums- und Sammlungsgesetzes ... SR 432.30 (MSG)'; this directly links Art. 25 Abs. 3 to SR 432.30."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": "SR 611.01",
+    "assigned_articles": [
+      "Art. 70 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet states 'nach Artikel 70 Absatz 2 der Finanzhaushaltverordnung ... SR 611.01'; the prepositional phrase clearly attributes Art. 70 Abs. 2 to SR 611.01."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "This artikel_reference repeats 'Artikel 70 Absatz 2' without an SR citation in the snippet. The same sentence with the SR link is already captured in ITEM 2; here, without an explicit SR, it functions as an internal/self-reference within the current document rather than a new SR link."
+  }
+]

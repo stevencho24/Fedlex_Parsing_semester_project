@@ -1,0 +1,153 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 451",
+    "assigned_articles": [
+      "Art. 18a Abs. 1",
+      "Art. 18a Abs. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Präambel nennt ausdrücklich «Artikel 18a Absätze 1 und 3 des Bundesgesetzes … SR 451 über den Natur- und Heimatschutz»; beide Absätze gehören damit klar zu SR 451."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": "SR 170.512",
+    "assigned_articles": [
+      "Art. 5 Abs. 1 Bst. c"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Satz steht «(Art. 5 Abs. 1 Bst. c des Publikationsgesetzes … SR 170.512)»; die Artikelangabe ist direkt mit dem Publikationsgesetz (SR 170.512) verknüpft."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_14",
+    "TARGET_SR": "SR 451.1",
+    "assigned_articles": [
+      "Art. 18",
+      "Art. 19"
+    ],
+    "confidence": "high",
+    "reasoning": "Formulierung «richten sich nach den Artikeln 18 und 19 der Verordnung … SR 451.1 über den Natur- und Heimatschutz (NHV)»; die Artikel 18 und 19 sind eindeutig der NHV (SR 451.1) zugeordnet."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_14",
+    "TARGET_SR": "SR 910.13",
+    "assigned_articles": [
+      "Art. 55",
+      "Art. 56",
+      "Art. 57",
+      "Art. 58",
+      "Art. 59",
+      "Art. 60",
+      "Art. 61",
+      "Art. 62"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Text nennt «Flächen, die nach den Artikeln 55–62 der Direktzahlungsverordnung … SR 910.13 zu Beiträgen berechtigen sind»; der Bereich 55–62 bezieht sich syntaktisch direkt auf die Direktzahlungsverordnung, also SR 910.13."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_19",
+    "TARGET_SR": "SR 451.1",
+    "assigned_articles": [
+      "Art. 29 Abs. 1 Bst. a"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Satz «nach Artikel 29 Absatz 1 Buchstabe a NHV SR 451.1» ist Artikel 29 Abs. 1 Bst. a unmittelbar mit der NHV (SR 451.1) verbunden; Artikel 10 bezieht sich ausdrücklich auf die vorliegende Verordnung und nicht auf SR 451.1."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Interne Verweisung innerhalb der vorliegenden Verordnung (Art. 5 Abs. 1 Bst. c Publikationsgesetz bezieht sich auf SR 170.512 und ist bereits in ITEM 2 erfasst; hier wird nur der Artikel im Fliesstext ohne SR-Nennung wiedergegeben)."
+    ],
+    "confidence": "high",
+    "reasoning": "artikel_reference ohne SR-Nennung; «Art. 5 Abs. 1 Bst. c des Publikationsgesetzes» ist eine Wiederholung der bereits in ITEM 2 zu SR 170.512 zugeordneten Stelle. Im Rahmen dieses Typs ist dies eine Selbstreferenzdarstellung und kein neuer SR-Link."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_6",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "«… nach Artikel 3 festgehalten» verweist ohne Nennung eines anderen Gesetzes auf einen Artikel derselben Verordnung; nach den Regeln ist dies eine interne Selbstreferenz."
+  },
+  {
+    "ITEM": 8,
+    "ARTICLE_EID": "art_9",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 4 Abs. 1",
+      "Art. 8"
+    ],
+    "confidence": "high",
+    "reasoning": "«Massnahmen nach den Artikeln 4 Absatz 1 und 8» erfolgt ohne Bezug auf ein anderes SR-Dokument; dies sind interne Artikel der vorliegenden Verordnung."
+  },
+  {
+    "ITEM": 9,
+    "ARTICLE_EID": "art_12",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 8",
+      "Art. 10",
+      "Art. 11"
+    ],
+    "confidence": "high",
+    "reasoning": "«Massnahmen nach den Artikeln 8, 10 und 11» ohne SR-Bezug; es handelt sich um interne Artikel derselben Verordnung."
+  },
+  {
+    "ITEM": 10,
+    "ARTICLE_EID": "art_13",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 4 Abs. 1",
+      "Art. 8"
+    ],
+    "confidence": "high",
+    "reasoning": "«nach den Artikeln 4 Absatz 1 und 8 erforderlichen Massnahmen»; kein anderes Gesetz genannt, daher reine Selbstreferenz innerhalb der Verordnung."
+  },
+  {
+    "ITEM": 11,
+    "ARTICLE_EID": "art_14",
+    "TARGET_SR": "SR 451.1",
+    "assigned_articles": [
+      "Art. 18",
+      "Art. 19"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Satz wiederholt ohne SR-Nummer die Formulierung aus ITEM 3: «richten sich nach den Artikeln 18 und 19 der Verordnung … (NHV)»; aus ITEM 3 ist klar, dass dies SR 451.1 betrifft."
+  },
+  {
+    "ITEM": 12,
+    "ARTICLE_EID": "art_14",
+    "TARGET_SR": "SR 910.13",
+    "assigned_articles": [
+      "Art. 55",
+      "Art. 56",
+      "Art. 57",
+      "Art. 58",
+      "Art. 59",
+      "Art. 60",
+      "Art. 61",
+      "Art. 62"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Formulierung entspricht inhaltlich ITEM 4, nur ohne explizite SR-Nummer: «nach den Artikeln 55–62 der Direktzahlungsverordnung …»; aus ITEM 4 ist ersichtlich, dass dies SR 910.13 ist."
+  },
+  {
+    "ITEM": 13,
+    "ARTICLE_EID": "art_17",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 4 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "«… die Betroffenen nach Artikel 4 Absatz 1 an.»; kein anderes Gesetz genannt, daher interner Verweis auf einen Artikel derselben Verordnung."
+  }
+]

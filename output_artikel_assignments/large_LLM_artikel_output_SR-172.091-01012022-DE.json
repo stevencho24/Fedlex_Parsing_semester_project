@@ -1,0 +1,34 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 172.010",
+    "assigned_articles": [
+      "Art. 8",
+      "Art. 55",
+      "Art. 57"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet explicitly cites 'die Artikel 8, 55 und 57 des Regierungs- und Verwaltungsorganisationsgesetzes ... SR 172.010'; these articles are directly and syntactically linked to SR 172.010."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": "SR 170.512.1",
+    "assigned_articles": [
+      "Art. 20 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "The text states 'in Anwendung von Art. 20 Abs. 2 der Publikationsverordnung ... (SR 170.512.1)'; the article reference and the SR are in the same prepositional phrase, so Art. 20 Abs. 2 clearly belongs to SR 170.512.1."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_6",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 5"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet refers to 'der in Artikel 5 aufgezählten' without mentioning any external SR or acronym; this is an internal cross-reference within the same document to its own Art. 5."
+  }
+]

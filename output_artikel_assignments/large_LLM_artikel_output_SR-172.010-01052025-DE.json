@@ -1,0 +1,180 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 101",
+    "assigned_articles": [
+      "Art. 173 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Formulierung «gestützt auf Artikel 173 Absatz 2 der Bundesverfassung SR 101» verknüpft den genannten Artikel grammatikalisch direkt mit SR 101."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_13",
+    "TARGET_SR": "SR 171.10",
+    "assigned_articles": [
+      "Art. 58 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Einschub «(Art. 58 Abs. 1 ParlG - SR 171.10)» folgt die Abkürzung ParlG unmittelbar auf die Artikelangabe; dies ist eine eindeutige Zuordnung zu SR 171.10."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_20",
+    "TARGET_SR": "SR 172.021",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "medium",
+    "reasoning": "Es wird nur «die Ausstandsbestimmungen des Bundesgesetzes ... SR 172.021 über das Verwaltungsverfahren» insgesamt erwähnt, ohne konkrete Artikel; daher allgemeine Verweisung auf das ganze Gesetz."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_47",
+    "TARGET_SR": "SR 173.32",
+    "assigned_articles": [
+      "Art. 33 Bst. a",
+      "Art. 33 Bst. b"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Passage «nach Artikel 33 Buchstaben a und b des Verwaltungsgerichtsgesetzes ... SR 173.32» verknüpft Art. 33 lit. a und b syntaktisch direkt mit dem Verwaltungsgerichtsgesetz (SR 173.32)."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_57_h_bis",
+    "TARGET_SR": "SR 235.1",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "medium",
+    "reasoning": "Es heisst «im Sinne des Datenschutzgesetzes vom 25. September 2020 SR 235.1 (DSG)» ohne Nennung einzelner Artikel; die Definition besonders schützenswerter Personendaten verweist typischerweise auf das Gesetz als Ganzes."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_57_j",
+    "TARGET_SR": "SR 235.1",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "medium",
+    "reasoning": "«Bundesorgane nach dem DSG SR 235.1» beschreibt den Geltungsbereich des DSG insgesamt; keine konkrete Artikelangabe im DSG-Kontext, daher allgemeine Verweisung."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_57_s",
+    "TARGET_SR": "SR 152.3",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "medium",
+    "reasoning": "Formulierung «gestützt auf das Öffentlichkeitsgesetz vom 17. Dezember 2004 SR 152.3» verweist auf das Gesetz als Grundlage ohne einzelne Artikel zu nennen."
+  },
+  {
+    "ITEM": 8,
+    "ARTICLE_EID": "art_7_a",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "«Artikel 141 Absatz 1 Buchstabe d der Bundesverfassung» ist eine Selbstreferenz zu einem anderen Artikel der zitierten Verfassung; kein SR-Link im Kontext, daher interne/äussere Normverweisung ohne TARGET_SR."
+  },
+  {
+    "ITEM": 9,
+    "ARTICLE_EID": "art_7_c",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "«Artikel 184 Absatz 3 der Bundesverfassung» ist eine reine Artikelverweisung ohne Bezug zu einem im Datensatz erfassten TARGET_SR; damit Selbst-/externe Referenz, nicht einem SR-Link zuzuordnen."
+  },
+  {
+    "ITEM": 10,
+    "ARTICLE_EID": "art_7_d",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "«Artikel 185 Absatz 3 der Bundesverfassung» steht isoliert ohne SR-Angabe; nach den Regeln ist dies als Selbst-/externe Referenz zu behandeln, nicht als Zuweisung zu einem TARGET_SR."
+  },
+  {
+    "ITEM": 11,
+    "ARTICLE_EID": "art_7_d",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Die Verweisung «Artikel 173 Absatz 1 Buchstabe c der Bundesverfassung» erfolgt ohne Nennung eines SR-Dokuments im selben Satz; daher Selbst-/externe Referenz, keine Zuordnung zu einem TARGET_SR."
+  },
+  {
+    "ITEM": 12,
+    "ARTICLE_EID": "art_7_e",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "«Artikel 184 Absatz 3 oder Artikel 185 Absatz 3 der Bundesverfassung» sind reine Artikelangaben ohne SR-Kontext; sie bleiben interne/äussere Normverweise ohne TARGET_SR."
+  },
+  {
+    "ITEM": 13,
+    "ARTICLE_EID": "art_20",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "«Artikel 18» bezieht sich offensichtlich auf einen Artikel desselben Gesetzes («vorliegenden Gesetzes» im Gesamtzusammenhang); kein SR-Link im Satz, daher Selbstreferenz."
+  },
+  {
+    "ITEM": 14,
+    "ARTICLE_EID": "art_21",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Die Hinweise auf «Artikel 15» und «Artikel 10» betreffen andere Bestimmungen desselben Gesetzes; es wird kein externes SR-Dokument genannt, somit interne Artikelverweise."
+  },
+  {
+    "ITEM": 15,
+    "ARTICLE_EID": "art_47",
+    "TARGET_SR": "SR 173.32",
+    "assigned_articles": [
+      "Art. 33 Bst. a",
+      "Art. 33 Bst. b"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Satz «nach Artikel 33 Buchstaben a und b des Verwaltungsgerichtsgesetzes vom 17. Juni 2005» ist identisch mit dem Kontext in ITEM 4, wo SR 173.32 explizit genannt wird; syntaktisch klarer Bezug zu Art. 33 lit. a und b VGG."
+  },
+  {
+    "ITEM": 16,
+    "ARTICLE_EID": "art_57_h_bis",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "«Artikel 57r Absatz 2 des vorliegenden Gesetzes» ist ausdrücklich als Bestimmung des eigenen Gesetzes bezeichnet; keine SR-Verknüpfung, daher reine Selbstreferenz."
+  },
+  {
+    "ITEM": 17,
+    "ARTICLE_EID": "art_57_h_bis",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Auch hier verweist «Artikel 57r Absatz 2 des vorliegenden Gesetzes» nur auf eine interne Norm; kein externer SR-Kontext vorhanden."
+  },
+  {
+    "ITEM": 18,
+    "ARTICLE_EID": "art_57_h_bis",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Die Bezugnahme auf «Artikel 57r Absatz 2 des vorliegenden Gesetzes» ist wiederum klar als interne Normadressierung gekennzeichnet; keine Zuordnung zu einem SR-Dokument."
+  },
+  {
+    "ITEM": 19,
+    "ARTICLE_EID": "art_57_h_bis",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Wie in den vorangehenden Items ist «Artikel 57r Absatz 2 des vorliegenden Gesetzes» eine Selbstreferenz innerhalb desselben Gesetzes ohne SR-Link."
+  },
+  {
+    "ITEM": 20,
+    "ARTICLE_EID": "art_57_m",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "«Artikel 57l» ist ein Artikel desselben Gesetzes; es wird kein externes SR-Dokument genannt, somit handelt es sich um eine interne Artikelverweisung."
+  }
+]

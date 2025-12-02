@@ -1,0 +1,52 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 172.010",
+    "assigned_articles": [
+      "Art. 43 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet explicitly cites 'Artikel 43 Absatz 2 des Regierungs- und Verwaltungsorganisationsgesetzes ... SR 172.010'; this article clearly belongs to SR 172.010."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": "SR 611.01",
+    "assigned_articles": [
+      "Art. 64"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet states 'im Rahmen von Artikel 64 der Finanzhaushaltverordnung ... SR 611.01'; Art. 64 is directly and uniquely linked to SR 611.01."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "This artikel_reference repeats the same wording as ITEM 2 but without an SR indication; per rules, without an explicit SR link it is treated as a self-reference within the current document, not assigned to SR 611.01."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "Again 'nach Artikel 64 der Finanzhaushaltverordnung ...' appears without an SR citation in this artikel_reference item; syntactically it is an internal cross-reference in the same document, so no external SR assignment is made."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_10",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet cites 'nach Artikel 55 des Regierungs- und Verwaltungsorganisationsgesetzes vom 21. März 1997' but contains no SR number; under the rules, lacking an explicit SR link this is treated as an internal reference within the current document rather than assigned to SR 172.010."
+  }
+]

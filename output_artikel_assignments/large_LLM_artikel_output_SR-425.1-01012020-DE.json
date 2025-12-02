@@ -1,0 +1,118 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 101",
+    "assigned_articles": [
+      "Art. 64 Abs. 1",
+      "Art. 64 Abs. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Formulierung «gestützt auf Artikel 64 Absätze 1 und 3 der Bundesverfassung SR 101» verknüpft die genannten Absätze grammatikalisch direkt mit SR 101."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": "SR 420.1",
+    "assigned_articles": [
+      "Art. 5",
+      "Art. 17"
+    ],
+    "confidence": "high",
+    "reasoning": "«im Sinne der Artikel 5 und 17 des Bundesgesetzes ... SR 420.1»; die Artikelangaben stehen unmittelbar bei der Gesetzesbezeichnung, daher gehören sie zu SR 420.1."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_8",
+    "TARGET_SR": "SR 220",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "Es wird nur «die Bestimmungen des Obligationenrechts SR 220» erwähnt, ohne konkrete Artikel; dies ist eine generelle Verweisung auf das OR."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_13",
+    "TARGET_SR": "SR 172.220.1",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "«das Bundespersonalgesetz ... SR 172.220.1 (BPG)» ohne Artikelangabe; dies ist eine allgemeine Verweisung auf das BPG."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_14",
+    "TARGET_SR": "SR 172.220.1",
+    "assigned_articles": [
+      "Art. 32a",
+      "Art. 32b",
+      "Art. 32c",
+      "Art. 32d",
+      "Art. 32e",
+      "Art. 32f",
+      "Art. 32g",
+      "Art. 32h",
+      "Art. 32i",
+      "Art. 32j",
+      "Art. 32k",
+      "Art. 32l",
+      "Art. 32m"
+    ],
+    "confidence": "high",
+    "reasoning": "«nach den Bestimmungen der Artikel 32a–32m BPG SR 172.220.1»; der Artikelsbereich ist ausdrücklich genannt und mit BPG/SR 172.220.1 verknüpft."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_17",
+    "TARGET_SR": "SR 172.010",
+    "assigned_articles": [
+      "Art. 46a"
+    ],
+    "confidence": "high",
+    "reasoning": "«eine Gebührenverordnung nach Artikel 46a des Regierungs- und Verwaltungsorganisationsgesetzes ... SR 172.010»; Art. 46a ist klar dem RVOG (SR 172.010) zugeordnet."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": "SR 425.1",
+    "assigned_articles": [
+      "Art. 5",
+      "Art. 17"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Stelle wiederholt den Inhalt von ITEM 2, verweist aber ohne explizite SR-Angabe auf «Artikel 5 und 17 des Bundesgesetzes ... über die Förderung der Forschung und der Innovation». Da ITEM 2 diese Passage bereits eindeutig SR 420.1 zuordnet, handelt es sich hier um eine Selbstreferenz innerhalb des aktuellen Dokuments SR 425.1 auf die dortigen Art. 5 und 17."
+  },
+  {
+    "ITEM": 8,
+    "ARTICLE_EID": "art_12",
+    "TARGET_SR": "SR 425.1",
+    "assigned_articles": [
+      "Art. 9 Bst. i",
+      "Art. 9 Bst. j"
+    ],
+    "confidence": "high",
+    "reasoning": "«vorbehalten bleibt Artikel 9 Buchstaben i und j» bezieht sich mangels anderer Gesetzesnennung auf Artikel 9 desselben Erlasses (SR 425.1); es ist eine interne Verweisung."
+  },
+  {
+    "ITEM": 9,
+    "ARTICLE_EID": "art_17",
+    "TARGET_SR": "SR 172.010",
+    "assigned_articles": [
+      "Art. 46a"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Passage entspricht inhaltlich ITEM 6 ohne explizite SR-Angabe, verweist aber auf «Artikel 46a des Regierungs- und Verwaltungsorganisationsgesetzes». Aufgrund der klaren Gesetzesbezeichnung ist dies wiederum Art. 46a RVOG (SR 172.010)."
+  },
+  {
+    "ITEM": 10,
+    "ARTICLE_EID": "art_20",
+    "TARGET_SR": "SR 425.1",
+    "assigned_articles": [
+      "Art. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "«im Rahmen der Aufgaben nach Artikel 3» verweist ohne andere Gesetzesnennung auf Art. 3 desselben Erlasses (SR 425.1); dies ist eine interne Selbstverweisung."
+  }
+]

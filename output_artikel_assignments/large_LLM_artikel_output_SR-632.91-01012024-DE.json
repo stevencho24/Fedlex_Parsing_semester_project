@@ -1,0 +1,32 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 101",
+    "assigned_articles": [
+      "Art. 133"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet explicitly states: 'Dieser Bestimmung entspricht Artikel 133 der Bundesverfassung ... (SR 101)'; the article number is directly and uniquely linked to SR 101."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 632.10",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "The citation 'Zolltarifgesetz SR 632.10 Anhang (Einfuhrtarif)' refers to the law and its annex as a whole; no specific article or article range is mentioned or grammatically tied to SR 632.10."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": "SR 101",
+    "assigned_articles": [
+      "Art. 163 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "The authorial note reads 'Heute: Bundesgesetz (Art. 163 Abs. 1 der Bundesverfassung; SR 101)', which directly links Art. 163 Abs. 1 to SR 101 in the same parenthetical citation."
+  }
+]

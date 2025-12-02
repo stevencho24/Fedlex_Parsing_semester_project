@@ -1,0 +1,580 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 101",
+    "assigned_articles": [
+      "Art. 95 Abs. 1",
+      "Art. 110 Abs. 1 Bst. a",
+      "Art. 118 Abs. 2 Bst. a"
+    ],
+    "confidence": "high",
+    "reasoning": "Die genannten Verfassungsartikel werden ausdrücklich als Grundlage genannt und grammatikalisch direkt mit der Bundesverfassung (SR 101) verknüpft."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_25",
+    "TARGET_SR": "SR 822.11",
+    "assigned_articles": "General reference - entire document",
+    "confidence": "high",
+    "reasoning": "Es wird nur das Arbeitsgesetz SR 822.11 als Ganzes genannt; keine spezifischen Artikel dieses Gesetzes werden im Zusammenhang mit SR 822.11 erwähnt. Die Artikel 42 und 45 beziehen sich auf das vorliegende Gesetz, nicht auf SR 822.11."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_25",
+    "TARGET_SR": "SR 832.20",
+    "assigned_articles": "General reference - entire document",
+    "confidence": "high",
+    "reasoning": "Es wird nur das Bundesgesetz über die Unfallversicherung SR 832.20 als Ganzes genannt; keine spezifischen Artikel dieses Gesetzes werden im Zusammenhang mit SR 832.20 erwähnt. Die Artikel 42 und 45 sind interne Verweise."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_40",
+    "TARGET_SR": "SR 946.51",
+    "assigned_articles": [
+      "Art. 18",
+      "Art. 14 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "Der erste Satz verweist ausdrücklich auf Art. 18 des THG (SR 946.51); der zweite Satz auf Art. 14 Abs. 1 THG. Beide Artikel sind grammatikalisch klar dem THG zugeordnet."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_51",
+    "TARGET_SR": "SR 313.0",
+    "assigned_articles": [
+      "Art. 6",
+      "Art. 7"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Bestimmung nennt ausdrücklich die Artikel 6 und 7 des Bundesgesetzes über das Verwaltungsstrafrecht (SR 313.0); diese sind direkt mit dem genannten Gesetz verknüpft."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_6",
+    "TARGET_SR": "self",
+    "assigned_articles": [
+      "Art. 9"
+    ],
+    "confidence": "high",
+    "reasoning": "Interner Verweis: Art. 9 ist ohne Nennung eines anderen Gesetzes genannt und bezieht sich auf einen Artikel desselben Gesetzes."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_6",
+    "TARGET_SR": "self",
+    "assigned_articles": [
+      "Art. 10",
+      "Art. 11"
+    ],
+    "confidence": "high",
+    "reasoning": "Interner Verweis auf Art. 10 und 11 desselben Gesetzes; kein externer SR-Bezug im Satz."
+  },
+  {
+    "ITEM": 8,
+    "ARTICLE_EID": "art_10",
+    "TARGET_SR": "self",
+    "assigned_articles": [
+      "Art. 16"
+    ],
+    "confidence": "high",
+    "reasoning": "Art. 16 wird ohne Bezug zu einem anderen Erlass genannt und ist daher ein Selbstverweis innerhalb des gleichen Gesetzes."
+  },
+  {
+    "ITEM": 9,
+    "ARTICLE_EID": "art_13",
+    "TARGET_SR": "self",
+    "assigned_articles": [
+      "Art. 9",
+      "Art. 10",
+      "Art. 11"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Formulierung \"nach den Artikeln 9–11\" ohne Nennung eines anderen Gesetzes bezeichnet interne Artikel des vorliegenden Gesetzes."
+  },
+  {
+    "ITEM": 10,
+    "ARTICLE_EID": "art_14",
+    "TARGET_SR": "self",
+    "assigned_articles": [
+      "Art. 13 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Art. 13 Abs. 2 wird ohne externen Gesetzesbezug erwähnt und ist damit ein interner Artikelverweis."
+  },
+  {
+    "ITEM": 11,
+    "ARTICLE_EID": "art_16",
+    "TARGET_SR": "self",
+    "assigned_articles": [
+      "Art. 9"
+    ],
+    "confidence": "high",
+    "reasoning": "Art. 9 wird in Klammern als Bezug innerhalb derselben Normstruktur genannt; kein anderes Gesetz wird erwähnt."
+  },
+  {
+    "ITEM": 12,
+    "ARTICLE_EID": "art_16",
+    "TARGET_SR": "self",
+    "assigned_articles": [
+      "Art. 10",
+      "Art. 11"
+    ],
+    "confidence": "high",
+    "reasoning": "Art. 10 und 11 werden in Klammern ohne externen Gesetzesbezug genannt; dies sind interne Artikel."
+  },
+  {
+    "ITEM": 13,
+    "ARTICLE_EID": "art_16",
+    "TARGET_SR": "self",
+    "assigned_articles": [
+      "Art. 15 Abs. 2 Bst. b"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Wendung \"nach Artikel 15 Absatz 2 Buchstabe b\" verweist auf einen Artikel desselben Gesetzes; kein anderes SR-Dokument im Satz."
+  },
+  {
+    "ITEM": 14,
+    "ARTICLE_EID": "art_25",
+    "TARGET_SR": "self",
+    "assigned_articles": [
+      "Art. 42",
+      "Art. 45"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Formulierung \"unter Vorbehalt der Artikel 42 und 45\" steht in einem Satz, in dem die externen Gesetze erst danach mit eigenen Titeln genannt werden; syntaktisch sind 42 und 45 interne Artikel des vorliegenden Gesetzes."
+  },
+  {
+    "ITEM": 15,
+    "ARTICLE_EID": "art_25",
+    "TARGET_SR": "self",
+    "assigned_articles": [
+      "Art. 42 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Klammerzusatz \"(Art. 42 Abs. 2)\" enthält keinen Gesetzestitel oder SR-Hinweis und ist daher ein Selbstverweis."
+  },
+  {
+    "ITEM": 16,
+    "ARTICLE_EID": "art_27",
+    "TARGET_SR": "self",
+    "assigned_articles": [
+      "Art. 18"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Herstellerin \"nach Artikel 18\" ist ohne externen Gesetzesbezug genannt; dies ist ein interner Artikel."
+  },
+  {
+    "ITEM": 17,
+    "ARTICLE_EID": "art_30",
+    "TARGET_SR": "self",
+    "assigned_articles": [
+      "Art. 27"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Verweis \"(Art. 27)\" steht ohne Nennung eines anderen Gesetzes und bezieht sich auf einen Artikel desselben Gesetzes."
+  },
+  {
+    "ITEM": 18,
+    "ARTICLE_EID": "art_34",
+    "TARGET_SR": "self",
+    "assigned_articles": [
+      "Art. 5 Abs. 1 Bst. a",
+      "Art. 5 Abs. 2 Bst. a"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Artikel 5 Abs. 1 Bst. a und 5 Abs. 2 Bst. a werden ohne externen Gesetzesbezug genannt; es handelt sich um interne Normen."
+  },
+  {
+    "ITEM": 19,
+    "ARTICLE_EID": "art_34",
+    "TARGET_SR": "self",
+    "assigned_articles": [
+      "Art. 7"
+    ],
+    "confidence": "high",
+    "reasoning": "Art. 7 wird mit der Bezeichnung der Informationspflicht, aber ohne anderes Gesetz genannt; dies ist ein interner Artikel."
+  },
+  {
+    "ITEM": 20,
+    "ARTICLE_EID": "art_34",
+    "TARGET_SR": "self",
+    "assigned_articles": [
+      "Art. 9",
+      "Art. 10",
+      "Art. 11",
+      "Art. 12",
+      "Art. 13",
+      "Art. 14",
+      "Art. 15",
+      "Art. 16",
+      "Art. 17"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Spanne \"Artikel 9–17\" ohne externen Gesetzesbezug bezeichnet eine interne Artikelreihe des gleichen Gesetzes."
+  },
+  {
+    "ITEM": 21,
+    "ARTICLE_EID": "art_34",
+    "TARGET_SR": "self",
+    "assigned_articles": [
+      "Art. 18"
+    ],
+    "confidence": "high",
+    "reasoning": "Art. 18 wird mit Kurzbezeichnung, aber ohne anderes Gesetz genannt; dies ist ein interner Verweis."
+  },
+  {
+    "ITEM": 22,
+    "ARTICLE_EID": "art_34",
+    "TARGET_SR": "self",
+    "assigned_articles": [
+      "Art. 19 Abs. 2 Bst. d"
+    ],
+    "confidence": "high",
+    "reasoning": "Art. 19 Abs. 2 Bst. d wird ohne externen Gesetzesbezug genannt; interner Artikel."
+  },
+  {
+    "ITEM": 23,
+    "ARTICLE_EID": "art_34",
+    "TARGET_SR": "self",
+    "assigned_articles": [
+      "Art. 26",
+      "Art. 27",
+      "Art. 28",
+      "Art. 29",
+      "Art. 30"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Spanne \"Artikel 26–30\" und der Ausschluss von Art. 28 Abs. 3 beziehen sich auf interne Artikel; kein anderes Gesetz wird genannt."
+  },
+  {
+    "ITEM": 24,
+    "ARTICLE_EID": "art_40",
+    "TARGET_SR": "self",
+    "assigned_articles": [
+      "Art. 18"
+    ],
+    "confidence": "high",
+    "reasoning": "Hier wird \"Artikel 18 des Bundesgesetzes ... (THG)\" genannt; dieser Artikel gehört zu SR 946.51 und ist bereits in ITEM 4 dem THG zugeordnet. Im Kontext dieses artikel_reference-Eintrags dient er nur als externer Bezug; der SR-Link selbst wird durch ITEM 4 abgedeckt, daher hier als Selbstverweisstruktur des aktuellen Gesetzes nicht neu zuzuordnen."
+  },
+  {
+    "ITEM": 25,
+    "ARTICLE_EID": "art_40",
+    "TARGET_SR": "self",
+    "assigned_articles": [
+      "Art. 14 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "Analog zu ITEM 24: \"Artikel 14 Absatz 1 THG\" gehört zu SR 946.51 und ist bereits in ITEM 4 dem THG zugeordnet; dieser artikel_reference-Eintrag bildet nur den internen Text ab."
+  },
+  {
+    "ITEM": 26,
+    "ARTICLE_EID": "art_42",
+    "TARGET_SR": "self",
+    "assigned_articles": [
+      "Art. 19 Abs. 1 Bst. b"
+    ],
+    "confidence": "high",
+    "reasoning": "Art. 19 Abs. 1 Bst. b wird ohne externen Gesetzesbezug genannt; interner Artikel."
+  },
+  {
+    "ITEM": 27,
+    "ARTICLE_EID": "art_49",
+    "TARGET_SR": "self",
+    "assigned_articles": [
+      "Art. 5 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "Art. 5 Abs. 1 wird in Klammern ohne anderes Gesetz genannt; interner Verweis."
+  },
+  {
+    "ITEM": 28,
+    "ARTICLE_EID": "art_49",
+    "TARGET_SR": "self",
+    "assigned_articles": [
+      "Art. 5 Abs. 1",
+      "Art. 7"
+    ],
+    "confidence": "high",
+    "reasoning": "Art. 5 Abs. 1 und Art. 7 werden ohne externen Gesetzesbezug genannt; interne Artikel."
+  },
+  {
+    "ITEM": 29,
+    "ARTICLE_EID": "art_49",
+    "TARGET_SR": "self",
+    "assigned_articles": [
+      "Art. 6",
+      "Art. 13 Abs. 1",
+      "Art. 9 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Alle genannten Artikel (6, 13 Abs. 1, 9 Abs. 2) werden ohne externen Gesetzesbezug genannt; interne Normen."
+  },
+  {
+    "ITEM": 30,
+    "ARTICLE_EID": "art_49",
+    "TARGET_SR": "self",
+    "assigned_articles": [
+      "Art. 9 Abs. 3",
+      "Art. 10 Abs. 4",
+      "Art. 11 Abs. 2",
+      "Art. 15 Abs. 2",
+      "Art. 16 Abs. 1",
+      "Art. 17",
+      "Art. 30 Abs. 3",
+      "Art. 42 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Alle aufgezählten Artikel werden ohne Nennung eines anderen Gesetzes genannt; es handelt sich um interne Artikelverweise."
+  },
+  {
+    "ITEM": 31,
+    "ARTICLE_EID": "art_49",
+    "TARGET_SR": "self",
+    "assigned_articles": [
+      "Art. 19 Abs. 2 Bst. a–c",
+      "Art. 19 Abs. 2 Bst. e",
+      "Art. 19 Abs. 2 Bst. g"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Buchstaben a–c, e und g beziehen sich auf Abs. 2 von Art. 19 desselben Gesetzes; kein externer Bezug."
+  },
+  {
+    "ITEM": 32,
+    "ARTICLE_EID": "art_49",
+    "TARGET_SR": "self",
+    "assigned_articles": [
+      "Art. 41"
+    ],
+    "confidence": "high",
+    "reasoning": "Art. 41 wird ohne externen Gesetzesbezug genannt; interner Artikel."
+  },
+  {
+    "ITEM": 33,
+    "ARTICLE_EID": "art_49",
+    "TARGET_SR": "self",
+    "assigned_articles": [
+      "Art. 7"
+    ],
+    "confidence": "high",
+    "reasoning": "Art. 7 wird ohne externen Gesetzesbezug genannt; interner Artikel."
+  },
+  {
+    "ITEM": 34,
+    "ARTICLE_EID": "art_49",
+    "TARGET_SR": "self",
+    "assigned_articles": [
+      "Art. 8",
+      "Art. 21",
+      "Art. 23",
+      "Art. 25 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "Alle genannten Artikel werden ohne externen Gesetzesbezug genannt; interne Normen."
+  },
+  {
+    "ITEM": 35,
+    "ARTICLE_EID": "art_49",
+    "TARGET_SR": "self",
+    "assigned_articles": [
+      "Art. 12"
+    ],
+    "confidence": "high",
+    "reasoning": "Art. 12 wird ohne externen Gesetzesbezug genannt; interner Artikel."
+  },
+  {
+    "ITEM": 36,
+    "ARTICLE_EID": "art_49",
+    "TARGET_SR": "self",
+    "assigned_articles": [
+      "Art. 19 Abs. 2 Bst. a",
+      "Art. 19 Abs. 2 Bst. c"
+    ],
+    "confidence": "high",
+    "reasoning": "Art. 19 Abs. 2 Bst. a und c werden ohne externen Gesetzesbezug genannt; interne Artikel."
+  },
+  {
+    "ITEM": 37,
+    "ARTICLE_EID": "art_49",
+    "TARGET_SR": "self",
+    "assigned_articles": [
+      "Art. 19 Abs. 2 Bst. d"
+    ],
+    "confidence": "high",
+    "reasoning": "Art. 19 Abs. 2 Bst. d wird ohne externen Gesetzesbezug genannt; interner Artikel."
+  },
+  {
+    "ITEM": 38,
+    "ARTICLE_EID": "art_49",
+    "TARGET_SR": "self",
+    "assigned_articles": [
+      "Art. 24 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "Art. 24 Abs. 1 wird ohne externen Gesetzesbezug genannt; interner Artikel."
+  },
+  {
+    "ITEM": 39,
+    "ARTICLE_EID": "art_49",
+    "TARGET_SR": "self",
+    "assigned_articles": [
+      "Art. 19 Abs. 2 Bst. a",
+      "Art. 24 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "Beide Artikel werden ohne externen Gesetzesbezug genannt; interne Normen."
+  },
+  {
+    "ITEM": 40,
+    "ARTICLE_EID": "art_49",
+    "TARGET_SR": "self",
+    "assigned_articles": [
+      "Art. 30 Abs. 4",
+      "Art. 43",
+      "Art. 44"
+    ],
+    "confidence": "high",
+    "reasoning": "Alle genannten Artikel werden ohne externen Gesetzesbezug genannt; interne Artikel."
+  },
+  {
+    "ITEM": 41,
+    "ARTICLE_EID": "art_49",
+    "TARGET_SR": "self",
+    "assigned_articles": [
+      "Art. 41"
+    ],
+    "confidence": "high",
+    "reasoning": "Art. 41 wird ohne externen Gesetzesbezug genannt; interner Artikel (Schutzklausel)."
+  },
+  {
+    "ITEM": 42,
+    "ARTICLE_EID": "art_50",
+    "TARGET_SR": "self",
+    "assigned_articles": [
+      "Art. 5"
+    ],
+    "confidence": "high",
+    "reasoning": "Art. 5 wird ohne externen Gesetzesbezug genannt; interner Artikel."
+  },
+  {
+    "ITEM": 43,
+    "ARTICLE_EID": "art_50",
+    "TARGET_SR": "self",
+    "assigned_articles": [
+      "Art. 8",
+      "Art. 21",
+      "Art. 23",
+      "Art. 25 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "Alle genannten Artikel werden ohne externen Gesetzesbezug genannt; interne Normen."
+  },
+  {
+    "ITEM": 44,
+    "ARTICLE_EID": "art_50",
+    "TARGET_SR": "self",
+    "assigned_articles": [
+      "Art. 18"
+    ],
+    "confidence": "high",
+    "reasoning": "Art. 18 wird ohne externen Gesetzesbezug genannt; interner Artikel."
+  },
+  {
+    "ITEM": 45,
+    "ARTICLE_EID": "art_50",
+    "TARGET_SR": "self",
+    "assigned_articles": [
+      "Art. 19 Abs. 2 Bst. f"
+    ],
+    "confidence": "high",
+    "reasoning": "Art. 19 Abs. 2 Bst. f wird ohne externen Gesetzesbezug genannt; interner Artikel."
+  },
+  {
+    "ITEM": 46,
+    "ARTICLE_EID": "art_50",
+    "TARGET_SR": "self",
+    "assigned_articles": [
+      "Art. 20"
+    ],
+    "confidence": "high",
+    "reasoning": "Art. 20 wird ohne externen Gesetzesbezug genannt; interner Artikel."
+  },
+  {
+    "ITEM": 47,
+    "ARTICLE_EID": "art_50",
+    "TARGET_SR": "self",
+    "assigned_articles": [
+      "Art. 22 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "Art. 22 Abs. 1 wird ohne externen Gesetzesbezug genannt; interner Artikel."
+  },
+  {
+    "ITEM": 48,
+    "ARTICLE_EID": "art_50",
+    "TARGET_SR": "self",
+    "assigned_articles": [
+      "Art. 25 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Art. 25 Abs. 2 wird ohne externen Gesetzesbezug genannt; interner Artikel."
+  },
+  {
+    "ITEM": 49,
+    "ARTICLE_EID": "art_50",
+    "TARGET_SR": "self",
+    "assigned_articles": [
+      "Art. 42 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Art. 42 Abs. 2 wird ohne externen Gesetzesbezug genannt; interner Artikel."
+  },
+  {
+    "ITEM": 50,
+    "ARTICLE_EID": "art_50",
+    "TARGET_SR": "self",
+    "assigned_articles": [
+      "Art. 49"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Verweis \"nach Artikel 49\" bezieht sich auf den unmittelbar vorhergehenden Strafartikel desselben Gesetzes; kein anderes Gesetz wird genannt."
+  },
+  {
+    "ITEM": 51,
+    "ARTICLE_EID": "art_51",
+    "TARGET_SR": "self",
+    "assigned_articles": [
+      "Art. 6",
+      "Art. 7"
+    ],
+    "confidence": "high",
+    "reasoning": "Inhaltlich identisch mit ITEM 5, aber ohne expliziten SR-Hinweis im Snippet; die Artikel 6 und 7 gehören zum Verwaltungsstrafrecht (SR 313.0). Da der SR-Link bereits in ITEM 5 zugeordnet ist, handelt es sich hier um die interne Textwiedergabe ohne neue externe Zuordnung."
+  },
+  {
+    "ITEM": 52,
+    "ARTICLE_EID": "art_54",
+    "TARGET_SR": "self",
+    "assigned_articles": [
+      "Art. 18 des Giftgesetzes vom 21. März 1969",
+      "Art. 4 des Giftgesetzes",
+      "Art. 27"
+    ],
+    "confidence": "medium",
+    "reasoning": "Art. 18 und Art. 4 gehören zum (alten) Giftgesetz, dessen SR-Nummer im Snippet nicht genannt ist; Art. 27 ist ein interner Artikel des vorliegenden Gesetzes. Mangels expliziter SR-Verknüpfung werden diese als beschreibende Verweise behandelt."
+  },
+  {
+    "ITEM": 53,
+    "ARTICLE_EID": "art_55",
+    "TARGET_SR": "self",
+    "assigned_articles": [
+      "Art. 19 Abs. 2 Bst. a",
+      "Art. 19 Abs. 2 Bst. d",
+      "Art. 34 Abs. 1 Bst. e",
+      "Art. 38",
+      "Art. 49 Abs. 3 Bst. e",
+      "Art. 39 Abs. 1bis des Umweltschutzgesetzes"
+    ],
+    "confidence": "medium",
+    "reasoning": "Die meisten genannten Bestimmungen (Art. 19, 34, 38, 49) sind interne Artikel; Art. 39 Abs. 1bis des Umweltschutzgesetzes verweist auf ein anderes Gesetz (USG), dessen SR-Nummer im Snippet nicht genannt ist. Ohne expliziten SR-Link bleibt dies ein beschreibender externer Verweis."
+  }
+]

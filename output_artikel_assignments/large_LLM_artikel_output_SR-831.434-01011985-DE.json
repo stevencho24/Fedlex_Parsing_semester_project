@@ -1,0 +1,95 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 831.40",
+    "assigned_articles": [
+      "Art. 97 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Präambel nennt ausdrücklich «Artikel 97 Absatz 1 des Bundesgesetzes … SR 831.40 … (BVG)»; der Artikel ist direkt mit dem genannten SR verknüpft."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 831.40",
+    "assigned_articles": [
+      "Art. 12",
+      "Art. 72 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Snippet werden «(Art. 12 BVG)» und «(Art. 72 Abs. 2 BVG)» ausdrücklich genannt; BVG ist in der Präambel als SR 831.40 definiert, daher gehören beide Artikel zu diesem SR."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": "SR 831.40",
+    "assigned_articles": [
+      "Art. 12 Abs. 1",
+      "Art. 36 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "Das Snippet verweist auf «Artikel 12 Absatz 1 BVG» und «(Art. 36 Abs. 1 BVG)»; BVG ist SR 831.40, somit sind diese Artikel dem Ziel-SR zuzuordnen."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 12 BVG"
+    ],
+    "confidence": "high",
+    "reasoning": "«(Art. 12 BVG)» ist ein externer Verweis auf das BVG (SR 831.40), nicht auf die eigene Verordnung SR 831.434. Als artikel_reference ohne TARGET_SR wird hier der SR-Link BVG mit Art. 12 abgebildet."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 72 Abs. 2 BVG"
+    ],
+    "confidence": "high",
+    "reasoning": "«(Art. 72 Abs. 2 BVG)» verweist auf das BVG (SR 831.40). Es handelt sich nicht um eine Selbstreferenz der eigenen Verordnung, sondern um einen SR-Link mit Artikelangabe."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 12 Abs. 1 BVG",
+      "Art. 3 Abs. 3"
+    ],
+    "confidence": "medium",
+    "reasoning": "«Artikel 12 Absatz 1 BVG» verweist klar auf das BVG (SR 831.40). «Artikel 3 Absatz 3» erscheint ohne BVG-Zusatz und bezieht sich mit hoher Wahrscheinlichkeit auf Art. 3 der eigenen Verordnung (Selbstreferenz). Da artikel_reference alle Artikelverweise erfasst, werden beide genannt, aber nur Art. 12 Abs. 1 ist ein externer SR-Link."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 36 Abs. 1 BVG"
+    ],
+    "confidence": "high",
+    "reasoning": "«(Art. 36 Abs. 1 BVG)» ist ein klarer externer Verweis auf das BVG (SR 831.40); keine Anzeichen für eine Selbstreferenz."
+  },
+  {
+    "ITEM": 8,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 3 Abs. 4"
+    ],
+    "confidence": "high",
+    "reasoning": "«gemäss Artikel 3 Absatz 4» steht ohne BVG-Zusatz und bezieht sich syntaktisch auf eine Bestimmung derselben Verordnung (SR 831.434). Dies ist eine reine Selbstreferenz innerhalb des Dokuments."
+  },
+  {
+    "ITEM": 9,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 2 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "«(Art. 2 Abs. 2)» erscheint ohne BVG-Zusatz und verweist damit auf Artikel 2 Absatz 2 der eigenen Verordnung (SR 831.434); es handelt sich um eine interne Selbstreferenz."
+  }
+]

@@ -1,0 +1,106 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 641.51",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "high",
+    "reasoning": "The preamble cites the Automobilsteuergesetz (SR 641.51) as a whole without mentioning any specific article; standard blanket legal basis formulation."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 741.41",
+    "assigned_articles": ["Art. 11 Abs. 2 Bst. g"],
+    "confidence": "high",
+    "reasoning": "Snippet explicitly refers to 'Motorkarren nach Artikel 11 Absatz 2 Buchstabe g der Verordnung ... SR 741.41'; clear direct marking of the cited provision."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": ["Art. 39", "Art. 50 ff.", "Art. 58", "Art. 62 ff."],
+    "confidence": "high",
+    "reasoning": "Parenthetical citation '(Art. 39, 50 ff., 58 oder 62 ff. des Zollgesetzes ... SR 631.0, ZG)' directly links these article numbers to SR 631.0."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_6",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": ["Art. 69", "Art. 70"],
+    "confidence": "high",
+    "reasoning": "SR_link_with_local_acronym item: snippet and snippet_acronym show 'Art. 69 ZG' and 'Art. 70 ZG'; acronym ZG is defined for SR 631.0 in the same context, so both articles belong to SR 631.0."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": "SR 631.035",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "medium",
+    "reasoning": "The authorial note states 'die V ... über die Gebühren des Bundesamts für Zoll und Grenzsicherheit (SR 631.035)'; no specific article of this ordinance is mentioned, only the ordinance as a whole."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": "SR 641.51",
+    "assigned_articles": ["Art. 14 Abs. 3"],
+    "confidence": "high",
+    "reasoning": "Preamble acronym 'Gesetz' is mapped to SR 641.51; snippet refers to 'Vereinbarungen nach Artikel 14 Absatz 3 des Gesetzes', so this is Art. 14 Abs. 3 of SR 641.51."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_8",
+    "TARGET_SR": "SR 641.51",
+    "assigned_articles": ["Art. 2 Abs. 2", "Art. 30"],
+    "confidence": "high",
+    "reasoning": "Using preamble acronym 'Gesetz' = SR 641.51, snippet mentions 'Artikel 2 Absatz 2 des Gesetzes' and 'Artikel 30 des Gesetzes'; both are clearly tied to SR 641.51."
+  },
+  {
+    "ITEM": 8,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "high",
+    "reasoning": "Artikel_reference repeats the same external citation as ITEM 2 but without SR; its function here is to reference 'Artikel 11 Absatz 2 Buchstabe g' of the external ordinance already captured in ITEM 2, so no new SR link is created."
+  },
+  {
+    "ITEM": 9,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": ["Art. 39", "Art. 50 ff.", "Art. 58", "Art. 62 ff."],
+    "confidence": "high",
+    "reasoning": "Artikel_reference snippet mirrors the SR_link_detection in ITEM 3 but without the explicit SR number; context ('des Zollgesetzes ..., ZG') shows it refers to the same SR 631.0 articles, not to internal articles of the current document."
+  },
+  {
+    "ITEM": 10,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "high",
+    "reasoning": "Reference to 'Artikel 1 Absätze 1 und 2' has no SR or acronym; syntactically it is an internal cross-reference within the same ordinance."
+  },
+  {
+    "ITEM": 11,
+    "ARTICLE_EID": "art_6",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "high",
+    "reasoning": "Identical wording to ITEM 10 in a different article; 'Artikel 1 Absätze 1 und 2' clearly refers to the first article of the current ordinance, not to an external SR."
+  },
+  {
+    "ITEM": 12,
+    "ARTICLE_EID": "art_8",
+    "TARGET_SR": "SR 641.51",
+    "assigned_articles": ["Art. 2 Abs. 2"],
+    "confidence": "high",
+    "reasoning": "Artikel_reference snippet is the first sentence of ITEM 7; via preamble acronym 'Gesetz' = SR 641.51, 'Artikel 2 Absatz 2 des Gesetzes' is Art. 2 Abs. 2 of SR 641.51."
+  },
+  {
+    "ITEM": 13,
+    "ARTICLE_EID": "art_8",
+    "TARGET_SR": "SR 641.51",
+    "assigned_articles": ["Art. 30"],
+    "confidence": "high",
+    "reasoning": "Artikel_reference snippet is the second sentence of ITEM 7; 'Artikel 30 des Gesetzes' refers to Art. 30 of SR 641.51 via the preamble acronym mapping."
+  }
+]

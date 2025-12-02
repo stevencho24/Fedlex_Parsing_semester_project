@@ -1,0 +1,32 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 101",
+    "assigned_articles": [
+      "Art. 8"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet explicitly cites 'gestützt auf Artikel 8 der Bundesverfassung SR 101'; Article 8 is directly and syntactically linked to SR 101."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 0.451.41",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet only names the convention and its SR number without mentioning any specific article; this is a general reference to the whole convention."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 0.451.45",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet describes the Ramsar Convention and gives its SR number but contains no article citation; it functions as a general reference to the entire convention."
+  }
+]

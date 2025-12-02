@@ -1,0 +1,300 @@
+[
+  {
+    "Item": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 910.1",
+    "assigned_articles": [
+      "Art. 12 Abs. 4",
+      "Art. 177 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet explicitly cites 'Artikel 12 Absatz 4 und 177 Absatz 1 des Landwirtschaftsgesetzes ... SR 910.1 (LwG)'; both articles are grammatically linked to SR 910.1."
+  },
+  {
+    "Item": 2,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": "SR 812.121",
+    "assigned_articles": [
+      "Art. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "Phrase 'nach Artikel 1 des Betäubungsmittelgesetzes ... SR 812.121' directly links Art. 1 to SR 812.121."
+  },
+  {
+    "Item": 3,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": "SR 232.11",
+    "assigned_articles": [
+      "Art. 48",
+      "Art. 48a",
+      "Art. 48b"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet: 'nach den Artikeln 48, 48a und 48b des Markenschutzgesetzes ... SR 232.11'; the three articles are explicitly attributed to that SR."
+  },
+  {
+    "Item": 4,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": "SR 232.112.1",
+    "assigned_articles": "General reference - entire document",
+    "confidence": "high",
+    "reasoning": "Text: '... und nach der Verordnung vom 2. September 2015 SR 232.112.1 über die Verwendung ...'; no specific article of this ordinance is mentioned, only the act as a whole."
+  },
+  {
+    "Item": 5,
+    "ARTICLE_EID": "art_9",
+    "TARGET_SR": "SR 910.1",
+    "assigned_articles": [
+      "Art. 2 Abs. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet: 'nach Artikel 2 Absatz 3 LwG'; LwG is defined in preamble as SR 910.1, so this is Art. 2 Abs. 3 of SR 910.1."
+  },
+  {
+    "Item": 6,
+    "ARTICLE_EID": "art_9_a",
+    "TARGET_SR": "SR 910.1",
+    "assigned_articles": [
+      "Art. 14",
+      "Art. 15",
+      "Art. 16"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet lists 'Berg- und Alpprodukte nach Artikel 14 LwG, ... Bio-Produkte nach Artikel 15 LwG, ... Erzeugnisse ... nach Artikel 16 LwG'; LwG = SR 910.1, so these three articles belong to that SR."
+  },
+  {
+    "Item": 7,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 1"
+    ],
+    "confidence": "medium",
+    "reasoning": "Artikelreferenz repeats 'nach Artikel 1 des Betäubungsmittelgesetzes vom 3. Oktober 1951.'; by context with Item 2 this is Art. 1 of SR 812.121, but no SR is explicitly present here, so treated as a cross-reference to that external article."
+  },
+  {
+    "Item": 8,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 48",
+      "Art. 48a",
+      "Art. 48b"
+    ],
+    "confidence": "medium",
+    "reasoning": "Refers to 'nach den Artikeln 48, 48a und 48b des Markenschutzgesetzes ...'; in context of Items 3–4 these are the same external articles of SR 232.11, but this line itself has no SR marker."
+  },
+  {
+    "Item": 9,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 1a Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "Internal reference: 'im Rahmen von Artikel 1a Absatz 1'; no external SR mentioned, so this points to Art. 1a Abs. 1 of the same ordinance."
+  },
+  {
+    "Item": 10,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 1a Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "Again 'Massnahmen nach Artikel 1a Absatz 1'; clearly an internal cross-reference to Art. 1a Abs. 1 of the current document."
+  },
+  {
+    "Item": 11,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 1a Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "Mentions 'Massnahmen nach Artikel 1a Absatz 1'; same internal article as in Items 9–10."
+  },
+  {
+    "Item": 12,
+    "ARTICLE_EID": "art_8",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 13",
+      "Art. 13a",
+      "Art. 13b"
+    ],
+    "confidence": "high",
+    "reasoning": "Internal: 'nach den Artikeln 13 und 13a und der Beurteilung der Gesuche nach Artikel 13b'; all are articles of the same ordinance."
+  },
+  {
+    "Item": 13,
+    "ARTICLE_EID": "art_9",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 1 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "Internal: 'einem der Zwecke nach Artikel 1 Absatz 1 dienen'; refers to Art. 1 Abs. 1 of this ordinance."
+  },
+  {
+    "Item": 14,
+    "ARTICLE_EID": "art_9",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 2 Abs. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "Text: 'nach Artikel 2 Absatz 3 LwG'; this is Art. 2 Abs. 3 of SR 910.1, but here no SR is explicitly attached, so treated as a cross-reference to that external article without assigning TARGET_SR."
+  },
+  {
+    "Item": 15,
+    "ARTICLE_EID": "art_9_a",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 14",
+      "Art. 15",
+      "Art. 16"
+    ],
+    "confidence": "high",
+    "reasoning": "Lists 'nach Artikel 14 LwG', 'nach Artikel 15 LwG', 'nach Artikel 16 LwG'; these are the same external LwG articles as in Item 6, but again no explicit SR field here."
+  },
+  {
+    "Item": 16,
+    "ARTICLE_EID": "art_9_d",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 9a",
+      "Art. 9b"
+    ],
+    "confidence": "high",
+    "reasoning": "Internal: 'Für Projekte nach den Artikeln 9a und 9b ...'; both are articles of the same ordinance."
+  },
+  {
+    "Item": 17,
+    "ARTICLE_EID": "art_9_e",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 8 Abs. 1",
+      "Art. 8 Abs. 2",
+      "Art. 9d"
+    ],
+    "confidence": "high",
+    "reasoning": "Internal: 'nach Artikel 8 Absätze 1 und 2 und von den Anforderungen nach Artikel 9d'; all refer to provisions within this ordinance."
+  },
+  {
+    "Item": 18,
+    "ARTICLE_EID": "art_12",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 12a"
+    ],
+    "confidence": "high",
+    "reasoning": "Internal: 'Zielen der betreffenden Branche nach Artikel 12a'; clearly Art. 12a of the same document."
+  },
+  {
+    "Item": 19,
+    "ARTICLE_EID": "art_12",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 9a"
+    ],
+    "confidence": "high",
+    "reasoning": "Internal: 'Massnahmen nach Artikel 9a'; refers to Art. 9a of this ordinance."
+  },
+  {
+    "Item": 20,
+    "ARTICLE_EID": "art_12_c",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 12a"
+    ],
+    "confidence": "high",
+    "reasoning": "Internal: 'Ziele ... nach Artikel 12a'; again Art. 12a of the same ordinance."
+  },
+  {
+    "Item": 21,
+    "ARTICLE_EID": "art_13",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 9a Abs. 1 Bst. b",
+      "Art. 9c"
+    ],
+    "confidence": "high",
+    "reasoning": "Internal: 'Themenbereichen nach Artikel 9a Absatz 1 Buchstabe b ... nach Artikel 9c'; both are internal provisions."
+  },
+  {
+    "Item": 22,
+    "ARTICLE_EID": "art_13",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 9d"
+    ],
+    "confidence": "high",
+    "reasoning": "Internal: 'ergänzende Kommunikationsprojekte nach Artikel 9d'; refers to Art. 9d of this ordinance."
+  },
+  {
+    "Item": 23,
+    "ARTICLE_EID": "art_13_a",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 9a"
+    ],
+    "confidence": "high",
+    "reasoning": "Internal: 'Projekte nach Artikel 9a'; cross-reference within the same document."
+  },
+  {
+    "Item": 24,
+    "ARTICLE_EID": "art_14",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 9a",
+      "Art. 9b",
+      "Art. 9c",
+      "Art. 9d"
+    ],
+    "confidence": "high",
+    "reasoning": "Internal: 'nach den Artikeln 9a–9d'; this is a range covering Art. 9a, 9b, 9c, 9d of the same ordinance."
+  },
+  {
+    "Item": 25,
+    "ARTICLE_EID": "art_14",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 9d"
+    ],
+    "confidence": "high",
+    "reasoning": "Internal: 'Gesuche um Unterstützung nach Artikel 9d'; refers to Art. 9d of this ordinance."
+  },
+  {
+    "Item": 26,
+    "ARTICLE_EID": "art_15_a",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 9",
+      "Art. 9d"
+    ],
+    "confidence": "high",
+    "reasoning": "Internal: 'Erfüllung der Anforderungen nach Artikel 9 und gegebenenfalls nach Artikel 9d'; both are internal articles."
+  },
+  {
+    "Item": 27,
+    "ARTICLE_EID": "art_15_a",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 1",
+      "Art. 13 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "Internal: 'Zweck nach Artikel 1 und dem betreffenden Förderschwerpunkt nach Artikel 13 Absatz 1'; both refer to this ordinance."
+  },
+  {
+    "Item": 28,
+    "ARTICLE_EID": "art_16",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 14 Abs. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "Internal: 'Stellungnahmen nach Artikel 14 Absatz 3'; clearly an internal cross-reference."
+  }
+]

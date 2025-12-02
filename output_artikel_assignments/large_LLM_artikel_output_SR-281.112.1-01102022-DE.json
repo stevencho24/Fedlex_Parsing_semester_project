@@ -1,0 +1,53 @@
+[
+  {
+    "Item": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 272.1",
+    "assigned_articles": [
+      "Art. 14 Abs. 1",
+      "Art. 14 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Wortlaut «gestützt auf Artikel 14 Absätze 1 und 2 der Verordnung vom 18. Juni 2010 SR 272.1» verweist ausdrücklich auf Art. 14 Abs. 1 und 2 der genannten Verordnung; syntaktisch klar derselben SR zugeordnet."
+  },
+  {
+    "Item": 2,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": "SR 281.11",
+    "assigned_articles": [
+      "Art. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Snippet heisst es «gemäss Artikel 1 der Verordnung vom 22. November 2006 SR 281.11 betreffend die Oberaufsicht über Schuldbetreibung und Konkurs»; damit ist eindeutig Art. 1 dieser Verordnung gemeint."
+  },
+  {
+    "Item": 3,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": "SR 281.112.1",
+    "assigned_articles": [
+      "Art. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "Artikelreferenz «Artikel 1 der Verordnung vom 22. November 2006 betreffend die Oberaufsicht über Schuldbetreibung und Konkurs» ist eine Selbstreferenz innerhalb des aktuellen Erlasses (SR 281.112.1), da hier keine SR-Nummer genannt wird und der Kontext identisch zu Item 2 ist; sie verweist auf Art. 1 der vorliegenden Verordnung."
+  },
+  {
+    "Item": 4,
+    "ARTICLE_EID": "art_9",
+    "TARGET_SR": "SR 281.112.1",
+    "assigned_articles": [
+      "Art. 5 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Formulierung «gemäss Artikel 5 Absatz 2» enthält keine externe SR-Angabe und bezieht sich damit auf einen Artikel derselben Verordnung; es handelt sich um eine interne Verweisung auf Art. 5 Abs. 2 des Erlasses SR 281.112.1."
+  },
+  {
+    "Item": 5,
+    "ARTICLE_EID": "art_9_c",
+    "TARGET_SR": "SR 281.112.1",
+    "assigned_articles": [
+      "Art. 9 Abs. 4"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Snippet «Eingaben gemäss Artikel 9 Absatz 4» wird ohne Nennung einer anderen SR auf einen Artikel des gleichen Erlasses Bezug genommen; daher ist dies eine Selbstreferenz auf Art. 9 Abs. 4 der Verordnung SR 281.112.1."
+  }
+]

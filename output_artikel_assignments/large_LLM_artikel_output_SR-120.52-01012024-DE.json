@@ -1,0 +1,268 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 120",
+    "assigned_articles": [
+      "Art. 24a Abs. 7",
+      "Art. 24a Abs. 8",
+      "Art. 30"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Formulierung \"gestützt auf die Artikel 24a Absätze 7 und 8 sowie 30 des Bundesgesetzes ... SR 120 ... (BWIS)\" verknüpft die genannten Artikel syntaktisch eindeutig mit SR 120."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": "SR 311.0",
+    "assigned_articles": [
+      "Art. 111",
+      "Art. 112",
+      "Art. 113",
+      "Art. 117",
+      "Art. 122",
+      "Art. 123",
+      "Art. 125 Abs. 2",
+      "Art. 126 Abs. 1",
+      "Art. 129",
+      "Art. 133",
+      "Art. 134"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Satz nennt ausdrücklich \"strafbare Handlungen ... nach den Artikeln 111–113, 117, 122, 123, 125 Absatz 2, 126 Absatz 1, 129, 133 und 134 des Strafgesetzbuches SR 311.0\"; alle diese Artikel gehören damit zu SR 311.0."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": "SR 311.0",
+    "assigned_articles": [
+      "Art. 111",
+      "Art. 112",
+      "Art. 113",
+      "Art. 117",
+      "Art. 122",
+      "Art. 123",
+      "Art. 125 Abs. 2",
+      "Art. 126 Abs. 1",
+      "Art. 129",
+      "Art. 133",
+      "Art. 134"
+    ],
+    "confidence": "high",
+    "reasoning": "Inhaltlich identisch zu ITEM 2, nur andere Stellung von \"SR 311.0\"; dieselben Artikel des StGB werden genannt und sind klar mit SR 311.0 verknüpft."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_9",
+    "TARGET_SR": "SR 128",
+    "assigned_articles": [
+      "Art. 31 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Formulierung \"Fachstellen ... nach Artikel 31 Absatz 2 des Informationssicherheitsgesetzes ... SR 128\"; der Artikel 31 Abs. 2 wird direkt diesem Gesetz (SR 128) zugeordnet."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_9",
+    "TARGET_SR": "SR 128.31",
+    "assigned_articles": [
+      "Art. 1 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Teilsatz \"zur Durchführung der Verfahren nach Artikel 1 Absatz 1 der Verordnung vom 8. November 2023 SR 128.31 über die Personensicherheitsprüfungen\" verknüpft Art. 1 Abs. 1 eindeutig mit SR 128.31."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_13",
+    "TARGET_SR": "SR 235.11",
+    "assigned_articles": [
+      "Art. 1",
+      "Art. 2",
+      "Art. 3",
+      "Art. 4",
+      "Art. 6"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Text nennt \"die Artikel 1–4 und 6 der Datenschutzverordnung ... SR 235.11\"; der Bereich 1–4 wird als einzelne Artikel 1–4 verstanden, ergänzt um Art. 6."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_13",
+    "TARGET_SR": "SR 128.1",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "Es heisst nur \"die Informationssicherheitsverordnung vom 8. November 2023 SR 128.1.\" ohne Artikelangabe; daher handelt es sich um eine generelle Verweisung auf die ganze Verordnung."
+  },
+  {
+    "ITEM": 8,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 120",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "medium",
+    "reasoning": "Die Passage \"gestützt auf das BWIS\" enthält keine konkrete Artikelnummer; BWIS ist im Vorspann als SR 120 definiert. Es ist eine generelle gesetzliche Grundlage, daher Gesamtverweis."
+  },
+  {
+    "ITEM": 9,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": "SR 120",
+    "assigned_articles": [
+      "Art. 13e"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Satz spricht von \"Propagandamaterial im Sinne von Artikel 13e BWIS\"; BWIS = SR 120, somit eindeutige Verweisung auf Art. 13e SR 120."
+  },
+  {
+    "ITEM": 10,
+    "ARTICLE_EID": "art_6",
+    "TARGET_SR": "SR 120",
+    "assigned_articles": [
+      "Art. 13"
+    ],
+    "confidence": "high",
+    "reasoning": "Formulierung \"die in Artikel 13 BWIS genannten Behörden\"; BWIS = SR 120, daher klare Verweisung auf Art. 13 SR 120."
+  },
+  {
+    "ITEM": 11,
+    "ARTICLE_EID": "art_7_a",
+    "TARGET_SR": "SR 120",
+    "assigned_articles": [
+      "Art. 24a Abs. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Text nennt \"unter Angabe der notwendigen Daten nach Artikel 24a Absatz 3 BWIS\"; BWIS = SR 120, somit eindeutige Zuordnung zu Art. 24a Abs. 3 SR 120."
+  },
+  {
+    "ITEM": 12,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "Dies ist ein artikel_reference ohne explizite SR-Nennung; die StGB-Artikel sind bereits in ITEMS 2/3 SR 311.0 zugeordnet. Hier dient die Stelle nur der internen inhaltlichen Aufzählung im selben Artikel."
+  },
+  {
+    "ITEM": 13,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "Verweist auf \"Artikel 144 StGB\" ohne erneute SR-Angabe; die Zuordnung dieses StGB-Artikels zu SR 311.0 ist bereits über andere Items abgedeckt. Hier nur interne Bezugnahme im Dokument."
+  },
+  {
+    "ITEM": 14,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "Bezug auf \"Artikel 181 StGB\" innerhalb desselben Kontextes wie die übrigen literae; keine neue SR-Verknüpfung, sondern interne inhaltliche Referenz."
+  },
+  {
+    "ITEM": 15,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "Nennung \"Artikel 221 StGB\"; wie bei den anderen Buchstaben ist dies Teil der internen Deliktsaufzählung, nicht eine neue SR-Verknüpfung."
+  },
+  {
+    "ITEM": 16,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "Nennung \"Artikel 223 StGB\"; gleiche Struktur wie die übrigen literae, daher interne Referenz im selben Artikel."
+  },
+  {
+    "ITEM": 17,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "Nennung \"Artikel 224 StGB\"; wiederum nur Teil der internen Aufzählung, keine eigenständige SR-Zuordnung erforderlich."
+  },
+  {
+    "ITEM": 18,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "Nennung \"Artikel 259 StGB\"; wie bei den anderen literae handelt es sich um eine interne Bezugnahme im Rahmen derselben Norm."
+  },
+  {
+    "ITEM": 19,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "Nennung \"Artikel 260 StGB\"; bleibt im gleichen syntaktischen und systematischen Kontext, daher interne Referenz."
+  },
+  {
+    "ITEM": 20,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "Nennung \"Artikel 285 StGB\"; wiederum nur interne Deliktsaufzählung, keine neue SR-Verknüpfung."
+  },
+  {
+    "ITEM": 21,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "Nennung \"Artikel 286 StGB\"; schliesst die interne Liste ab, ohne eigenständige SR-Zuordnung."
+  },
+  {
+    "ITEM": 22,
+    "ARTICLE_EID": "art_8",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Verweise auf \"Artikel 6 Absatz 2 Buchstabe a\" und \"Artikel 7\" beziehen sich auf Bestimmungen derselben Verordnung (HOOGAN-Regelung); kein externes SR wird genannt, daher Selbstreferenz."
+  },
+  {
+    "ITEM": 23,
+    "ARTICLE_EID": "art_9",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Stelle wiederholt die bereits in ITEMS 4 und 5 mit SR 128 bzw. SR 128.31 verknüpften Normen (Art. 31 Abs. 2 ISG, Art. 1 Abs. 1 der Verordnung über die PSP), jedoch ohne explizite SR-Angabe; hier dient sie nur der internen Beschreibung der Fachstellen."
+  },
+  {
+    "ITEM": 24,
+    "ARTICLE_EID": "art_13",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Passage \"die Artikel 1–4 und 6 der Datenschutzverordnung\" entspricht inhaltlich ITEM 6, wo diese Artikel bereits SR 235.11 zugeordnet wurden; hier ohne SR-Nennung, daher interne Wiederaufnahme der bereits verknüpften Normen."
+  }
+]

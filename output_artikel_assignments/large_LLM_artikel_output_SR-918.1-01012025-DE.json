@@ -1,0 +1,164 @@
+[
+  {
+    "Item": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 910.1",
+    "assigned_articles": [
+      "Art. 86b Abs. 4",
+      "Art. 177"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Formulierung \"gestützt auf die Artikel 86b Absatz 4 und 177 des Landwirtschaftsgesetzes ... SR 910.1 (LwG)\" verknüpft beide Artikel grammatikalisch eindeutig mit dem genannten Gesetz."
+  },
+  {
+    "Item": 2,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": "SR 910.13",
+    "assigned_articles": [
+      "Art. 3-7",
+      "Art. 10-34"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Satz steht ausdrücklich \"die Voraussetzungen nach den Artikeln 3–7 und 10–34 der Direktzahlungsverordnung ... SR 910.13\"; beide Artikelbereiche sind klar dieser Verordnung zugeordnet."
+  },
+  {
+    "Item": 3,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": "SR 961.011",
+    "assigned_articles": [
+      "Anhang 1"
+    ],
+    "confidence": "medium",
+    "reasoning": "Die Voraussetzung bezieht sich auf den Versicherungszweig B9 \"Sonstige Sachschäden\" \"nach Anhang 1 der Aufsichtsverordnung ... SR 961.011\". Es wird kein bestimmter Artikel, sondern der Anhang 1 dieser Verordnung genannt."
+  },
+  {
+    "Item": 4,
+    "ARTICLE_EID": "art_6",
+    "TARGET_SR": "SR 431.903",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "medium",
+    "reasoning": "Die Formulierung \"nach der Verordnung vom 30. Juni 1993 SR 431.903 über das Betriebs- und Unternehmensregister\" verweist allgemein auf die Verordnung; ein konkreter Artikel oder Anhang wird nicht genannt."
+  },
+  {
+    "Item": 5,
+    "ARTICLE_EID": "art_10",
+    "TARGET_SR": "SR 910.1",
+    "assigned_articles": [
+      "Art. 169"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Satz \"kann Verwaltungsmassnahmen nach Artikel 169 LwG treffen\" ist LwG im Vorspann als SR 910.1 definiert; der Artikel 169 ist damit eindeutig diesem Gesetz zugeordnet."
+  },
+  {
+    "Item": 6,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Bezugnahme \"nach den Artikeln 3–7 und 10–34 der Direktzahlungsverordnung\" wiederholt den Inhalt von Item 2, ist aber hier ohne explizite SR-Angabe im Snippet und dient als Verweis innerhalb des aktuellen Artikels; keine neue externe SR-Zuordnung."
+  },
+  {
+    "Item": 7,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "\"... das die Anforderungen nach Artikel 4 erfüllt\" verweist offensichtlich auf Art. 4 derselben Verordnung (kein externes Gesetz oder SR genannt)."
+  },
+  {
+    "Item": 8,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "\"Sind die Anforderungen nach Artikel 4 erfüllt\" ist wiederum ein rein interner Verweis auf Art. 4 der vorliegenden Verordnung."
+  },
+  {
+    "Item": 9,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "\"wenn die Anforderungen nach Artikel 4 nicht mehr erfüllt sind\" bezieht sich auf denselben internen Artikel 4; kein externer SR-Kontext."
+  },
+  {
+    "Item": 10,
+    "ARTICLE_EID": "art_6",
+    "TARGET_SR": "SR 431.903",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "medium",
+    "reasoning": "Der zweite Satz lautet \"... nach der Verordnung vom 30. Juni 1993 über das Betriebs- und Unternehmensregister\"; im ursprünglichen SR_link_detection-Item 4 ist diese Verordnung explizit mit SR 431.903 verknüpft. Der Artikelsverweis \"Artikel 3\" im ersten Satz ist intern; die externe Verordnung wird ohne Artikelangabe zitiert."
+  },
+  {
+    "Item": 11,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "\"gemäss Artikel 4\" verweist auf Art. 4 derselben Verordnung; es wird kein anderes Gesetz oder eine SR-Nummer erwähnt."
+  },
+  {
+    "Item": 12,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "\"die Anforderungen nach Artikel 3\" ist ein klarer Selbstverweis auf Art. 3 der vorliegenden Verordnung; kein externer SR-Bezug."
+  },
+  {
+    "Item": 13,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "\"ob der Betrieb in der Liste nach Artikel 6 aufgenommen ist\" verweist auf Art. 6 derselben Verordnung; keine externe Rechtsquelle genannt."
+  },
+  {
+    "Item": 14,
+    "ARTICLE_EID": "art_8",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Aufzählung verweist auf \"Artikel 7 Absatz 4 Buchstabe b\"; dies ist ein detaillierter Verweis innerhalb derselben Verordnung, ohne Erwähnung einer externen SR."
+  },
+  {
+    "Item": 15,
+    "ARTICLE_EID": "art_12",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "\"beim BLW nach Artikel 5 Absatz 1 anmelden\" ist ein interner Verweis auf Art. 5 Abs. 1 der vorliegenden Verordnung; kein externer SR-Kontext."
+  },
+  {
+    "Item": 16,
+    "ARTICLE_EID": "art_12",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "\"eine Liste nach Artikel 6\" verweist auf Art. 6 derselben Verordnung; es wird keine andere Rechtsquelle oder SR-Nummer genannt."
+  }
+]

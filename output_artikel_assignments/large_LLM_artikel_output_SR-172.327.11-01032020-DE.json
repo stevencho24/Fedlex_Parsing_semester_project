@@ -1,0 +1,71 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 172.327.1",
+    "assigned_articles": [
+      "Art. 1 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Formulierung \"gestützt auf Artikel 1 Absatz 2 der Verordnung ... SR 172.327.1\" verknüpft den genannten Artikel eindeutig mit der Ziel-SR; direkte präpositionale Zuordnung."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 151.1",
+    "assigned_articles": "General reference - entire document",
+    "confidence": "high",
+    "reasoning": "Im Snippet wird nur das Gleichstellungsgesetz (SR 151.1) als Ganzes genannt (\"gemäss dem Gleichstellungsgesetz vom 24. März 1995 SR 151.1\"), ohne konkrete Artikelangabe; daher allgemeine Gesetzesverweisung."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 172.220.113",
+    "assigned_articles": [
+      "Art. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "Text: \"das Personal des ETH-Bereichs nach Artikel 1 der Personalverordnung ETH-Bereich ... SR 172.220.113\"; der Artikel ist direkt mit dieser SR verknüpft."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 172.220.113.40",
+    "assigned_articles": [
+      "Art. 1 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "Formulierung \"nach Artikel 1 Absatz 1 der Professorenverordnung ETH ... SR 172.220.113.40\" ordnet Art. 1 Abs. 1 eindeutig dieser SR zu."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "artikel_reference ohne TARGET_SR; der Satz wiederholt die Verweisung \"nach Artikel 1 der Personalverordnung ETH-Bereich\". Dies ist eine Selbstreferenzstruktur innerhalb derselben Passage und verweist auf Art. 1 der dort genannten Verordnung, nicht auf eine neue SR-Verknüpfung."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 1 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "artikel_reference ohne TARGET_SR; der Satz wiederholt \"nach Artikel 1 Absatz 1 der Professorenverordnung ETH\". Dies ist eine interne Artikelverweisung auf Art. 1 Abs. 1 der genannten Verordnung, keine zusätzliche SR-Zuordnung."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 3 Abs. 2",
+      "Art. 3 Abs. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Satz verweist auf \"die doppelte Parität nach Artikel 3 Absätze 2 und 3\" ohne Nennung einer externen SR; dies ist eine Selbstreferenz auf die eigenen Artikel 3 Abs. 2 und 3 der vorliegenden Verordnung."
+  }
+]

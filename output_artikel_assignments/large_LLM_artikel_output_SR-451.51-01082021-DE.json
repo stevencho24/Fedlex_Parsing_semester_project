@@ -1,0 +1,42 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 101",
+    "assigned_articles": [
+      "Art. 78 Abs. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Formulierung «gestützt auf Artikel 78 Absatz 3 der Bundesverfassung SR 101» verknüpft den genannten Artikel grammatikalisch eindeutig mit SR 101."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": "SR 616.1",
+    "assigned_articles": [
+      "Art. 17 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Satz «nach Artikel 17 Absatz 1 des Bundesgesetzes ... SR 616.1 über Finanzhilfen und Abgeltungen» wird Art. 17 Abs. 1 ausdrücklich diesem Bundesgesetz mit der SR-Nummer 616.1 zugeordnet."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Interne Verweisung innerhalb des aktuellen Erlasses (Art. 17 Abs. 1)"
+    ],
+    "confidence": "high",
+    "reasoning": "Gleicher Wortlaut wie bei ITEM 2, jedoch ohne explizite SR-Angabe; im Kontext des Dokuments handelt es sich um eine Selbstverweisung auf denselben Artikel wie in ITEM 2, nicht um eine neue SR-Verknüpfung."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_10",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Interne Verweisung innerhalb des aktuellen Erlasses (Art. 1)"
+    ],
+    "confidence": "high",
+    "reasoning": "«... nach Artikel 1 verwendet» enthält keine SR-Referenz und beschreibt ersichtlich eine Verweisung auf den eigenen Art. 1 des vorliegenden Gesetzes."
+  }
+]

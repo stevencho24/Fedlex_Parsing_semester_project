@@ -1,0 +1,245 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 813.1",
+    "assigned_articles": [
+      "Art. 19 Abs. 2 Bst. a",
+      "Art. 19 Abs. 2 Bst. d",
+      "Art. 38"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Formulierung \"gestützt auf die Artikel 19 Absatz 2 Buchstaben a und d sowie 38 des Chemikaliengesetzes ... SR 813.1 (ChemG)\" verknüpft diese Artikel grammatikalisch eindeutig mit dem ChemG (SR 813.1)."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 814.01",
+    "assigned_articles": [
+      "Art. 29",
+      "Art. 39 Abs. 1bis"
+    ],
+    "confidence": "high",
+    "reasoning": "Im selben Satzteil: \"... und auf die Artikel 29 und 39 Absatz 1bis des Umweltschutzgesetzes ... SR 814.01 (USG)\"; die genannten Artikel gehören klar zum USG (SR 814.01)."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 0.916.21",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "Es wird nur das Rotterdamer Übereinkommen (SR 0.916.21) als Ganzes genannt (\"in Ausführung des Rotterdamer Übereinkommens ... SR 0.916.21\"), ohne Artikelangabe."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": "SR 813.11",
+    "assigned_articles": [
+      "Art. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Satz spricht von \"Artikel 3 der Chemikalienverordnung vom 5. Juni 2015 SR 813.11 (ChemV)\"; Art. 3 ist direkt mit der ChemV (SR 813.11) verbunden."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_2_a",
+    "TARGET_SR": "SR 813.11",
+    "assigned_articles": [
+      "Art. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "Formulierung \"im Sinne von Artikel 3 ChemV SR 813.11\"; Art. 3 wird ausdrücklich der ChemV (SR 813.11) zugeordnet."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": "SR 813.11",
+    "assigned_articles": [
+      "Art. 20"
+    ],
+    "confidence": "high",
+    "reasoning": "\"das Sicherheitsdatenblatt nach Artikel 20 ChemV SR 813.11\"; Art. 20 ist klar der ChemV (SR 813.11) zugewiesen."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": "SR 814.81",
+    "assigned_articles": [
+      "Anhang 2.5 Ziff. 4.2.1"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Ausnahme bezieht sich auf \"der Bewilligungspflicht nach Anhang 2.5 Ziffer 4.2.1 der Chemikalien-Risikoreduktions-Verordnung ... SR 814.81\"; der genannte Anhang/Ziffer gehört eindeutig zur CRRV (SR 814.81)."
+  },
+  {
+    "ITEM": 8,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": "SR 813.11",
+    "assigned_articles": [
+      "Art. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "\"im Sinne von Artikel 3 ChemV SR 813.11\"; Art. 3 ist direkt der ChemV (SR 813.11) zugeordnet."
+  },
+  {
+    "ITEM": 9,
+    "ARTICLE_EID": "art_8_a",
+    "TARGET_SR": "SR 170.512.1",
+    "assigned_articles": [
+      "Art. 20 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Im authorialNote-Text: \"in Anwendung von Art. 20 Abs. 2 der Publikationsverordnung ... (SR 170.512.1)\"; Art. 20 Abs. 2 gehört klar zur Publikationsverordnung (SR 170.512.1)."
+  },
+  {
+    "ITEM": 10,
+    "ARTICLE_EID": "art_18",
+    "TARGET_SR": "SR 813.153.1",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "medium",
+    "reasoning": "Die Gebühren richten sich \"nach der Chemikaliengebührenverordnung vom 18. Mai 2005 SR 813.153.1\"; es wird kein bestimmter Artikel genannt, sondern die Verordnung als Grundlage insgesamt herangezogen."
+  },
+  {
+    "ITEM": 11,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "artikel_reference ohne SR; \"Artikel 3 der Chemikalienverordnung ... (ChemV)\" verweist auf Art. 3 ChemV, der bereits in Items 4/5/8 SR 813.11 zugeordnet wurde. Hier dient der Eintrag nur als interner Kontext, kein neuer SR-Link."
+  },
+  {
+    "ITEM": 12,
+    "ARTICLE_EID": "art_2_a",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "Wie Item 11: \"Artikel 3 ChemV\" ist bereits über SR_link_detection (Items 4,5,8) SR 813.11 zugeordnet; dieser artikel_reference ist eine Wiederholung im Fliesstext."
+  },
+  {
+    "ITEM": 13,
+    "ARTICLE_EID": "art_2_a",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "Auch hier \"Artikel 3 ChemV\"; keine neue SR-Angabe, sondern interner Verweis, der denselben externen Artikel wie in Items 4/5/8 betrifft."
+  },
+  {
+    "ITEM": 14,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "\"Artikel 20 ChemV\" ist bereits in Item 6 mit SR 813.11 verknüpft; dieser artikel_reference ist nur der nicht-annotierte Fliesstext derselben Stelle."
+  },
+  {
+    "ITEM": 15,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "\"Artikel 3 ChemV\"; derselbe Bezug wie in Items 4,5,8. Kein eigener SR-Link, sondern interner Textverweis."
+  },
+  {
+    "ITEM": 16,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "\"Artikel 8a\" bezieht sich auf einen Artikel derselben Verordnung (self-reference), ohne externes SR-Dokument."
+  },
+  {
+    "ITEM": 17,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "\"Artikel 14\" ist ein Artikel derselben Verordnung; kein externes SR genannt, daher reine Selbstreferenz."
+  },
+  {
+    "ITEM": 18,
+    "ARTICLE_EID": "art_8",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "\"Artikel 4 der PIC-Konvention\" verweist zwar auf ein internationales Übereinkommen (SR 0.916.21), aber dieser Bezug ist bereits im Preambel-Item 3 als allgemeine Grundlage erfasst; hier dient er nur zur Beschreibung der Rolle der Behörde, ohne neuen, artikelscharfen SR-Link im XML."
+  },
+  {
+    "ITEM": 19,
+    "ARTICLE_EID": "art_8_a",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "\"Artikel 3\" bezieht sich auf Art. 3 derselben Verordnung (Ausfuhrmeldung); kein externes SR-Dokument im Satz."
+  },
+  {
+    "ITEM": 20,
+    "ARTICLE_EID": "art_8_a",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "Auch hier \"Artikel 3\" als interner Verweis auf denselben Erlass; kein SR genannt."
+  },
+  {
+    "ITEM": 21,
+    "ARTICLE_EID": "art_10",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "\"Artikel 18 der PIC-Konvention\" verweist auf das bereits im Preambel (Item 3) genannte Übereinkommen; im XML ist dies nur ein artikel_reference ohne expliziten SR-Link, daher keine neue Zuordnung."
+  },
+  {
+    "ITEM": 22,
+    "ARTICLE_EID": "art_14",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "\"Artikel 7 der PIC-Konvention\"; analog zu Item 21 nur ein interner artikel_reference ohne eigenen SR-Link im Datensatz."
+  },
+  {
+    "ITEM": 23,
+    "ARTICLE_EID": "art_15",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "\"Art. 14\" ist ein Kurzverweis auf den unmittelbar vorhergehenden Art. 14 derselben Verordnung; reine Selbstreferenz."
+  },
+  {
+    "ITEM": 24,
+    "ARTICLE_EID": "art_17",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Pflichten \"nach den Artikeln 3, 4, 5 und 7\" beziehen sich auf Artikel derselben Verordnung; kein externes SR-Dokument im Satz, daher Selbstreferenz."
+  }
+]

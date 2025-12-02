@@ -1,0 +1,42 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 101",
+    "assigned_articles": [
+      "Art. 76 Abs. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Formulierung «gestützt auf Artikel 76 Absatz 3 der Bundesverfassung SR 101» verknüpft den genannten Artikel syntaktisch direkt mit SR 101; damit ist klar, dass Art. 76 Abs. 3 der Bundesverfassung (SR 101) gemeint ist."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 0.721.191.634",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Staatsvertrag wird als Ganzes genannt («in Ausführung des Staatsvertrags vom 17. Mai 2024 SR 0.721.191.634»), ohne Bezug auf bestimmte Artikel; dies ist eine generelle Ausführungsgrundlage, daher allgemeine Verweisung auf das gesamte Abkommen."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": "SR 814.20",
+    "assigned_articles": [
+      "Art. 36a"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Satz «Der Gewässerraum gemäss Artikel 36a des Gewässerschutzgesetzes vom 24. Januar 1991 SR 814.20» wird Art. 36a ausdrücklich mit dem Gewässerschutzgesetz SR 814.20 verknüpft; damit ist klar, dass Art. 36a dieses Gesetzes gemeint ist."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": "SR 721.103",
+    "assigned_articles": [
+      "Art. 7"
+    ],
+    "confidence": "high",
+    "reasoning": "Dies ist ein artikel_reference ohne externes SR; der Verweis «Artikel 36a des Gewässerschutzgesetzes» ist bereits in ITEM 3 SR 814.20 zugeordnet. Hier liegt ansonsten nur die interne Struktur von Art. 7 der vorliegenden Verordnung (SR 721.103) vor, daher Selbstverweis auf den eigenen Artikel."
+  }
+]

@@ -1,0 +1,33 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 101",
+    "assigned_articles": [
+      "Art. 54 Abs. 1",
+      "Art. 173 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Formulierung «gestützt auf die Artikel 54 Absatz 1 und 173 Absatz 2 der Bundesverfassung SR 101» verknüpft die genannten Artikel syntaktisch eindeutig mit SR 101."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«Artikel 1 Absatz 2 Buchstabe a» wird ohne Nennung eines anderen Erlasses oder SR-Zitats verwendet und bezieht sich damit auf einen Artikel derselben Verordnung (Selbstverweis)."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "Auch hier wird «Artikel 1 Absatz 2 Buchstabe a» ohne Bezug zu einem externen SR-Erlass erwähnt und ist daher als interner Verweis innerhalb des gleichen Dokuments zu qualifizieren."
+  }
+]

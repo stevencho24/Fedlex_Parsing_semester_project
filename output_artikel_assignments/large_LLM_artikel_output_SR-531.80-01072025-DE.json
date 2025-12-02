@@ -1,0 +1,53 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 531",
+    "assigned_articles": [
+      "Art. 57 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Formulierung «gestützt auf Artikel 57 Absatz 1 des Landesversorgungsgesetzes … SR 531» verknüpft den genannten Artikel syntaktisch eindeutig mit SR 531."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_9",
+    "TARGET_SR": "SR 812.21",
+    "assigned_articles": [
+      "Art. 9b Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Snippet steht «Gesuchen nach Artikel 9b Absatz 2 des Heilmittelgesetzes … SR 812.21 (HMG)»; Artikel und Absatz werden direkt dem Heilmittelgesetz (SR 812.21) zugeordnet."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_11",
+    "TARGET_SR": "SR 812.21",
+    "assigned_articles": [
+      "Art. 67 Abs. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Passage «die Einrichtung nach Artikel 67 Absatz 3 HMG SR 812.21» weist Artikel 67 Absatz 3 ausdrücklich dem HMG zu, dessen SR-Nummer 812.21 ist."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«Hinweis nach Artikel 4» erfolgt ohne Nennung eines anderen Gesetzes oder einer SR-Nummer; dies ist eine innergesetzliche Verweisung auf Art. 4 desselben Erlasses."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_9",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document",
+      "Art. 9b Abs. 2 HMG (SR 812.21) already assigned in ITEM 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Als artikel_reference ohne TARGET_SR dient der Eintrag zur Erfassung der Selbstverweisung. Der Text verweist zwar materiell auf Art. 9b Abs. 2 HMG (SR 812.21), dieser wurde jedoch bereits im SR_link_detection-Item 2 zugeordnet; hier wird er daher als interne/kontextuelle Referenz markiert, nicht erneut als SR-Zuordnung."
+  }
+]

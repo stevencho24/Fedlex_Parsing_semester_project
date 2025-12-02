@@ -1,0 +1,396 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 101",
+    "assigned_articles": [
+      "Art. 97",
+      "Art. 122"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet explicitly cites 'Artikel 97 und 122 der Bundesverfassung SR 101'; both articles are directly linked to SR 101."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_8",
+    "TARGET_SR": "SR 171.10",
+    "assigned_articles": [
+      "Art. 58 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "Inside authorial note: 'Art. 58 Abs. 1 ParlG; SR 171.10' clearly links Art. 58 Abs. 1 to SR 171.10."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_8",
+    "TARGET_SR": "SR 171.10",
+    "assigned_articles": [
+      "Art. 58 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "Same authorial note text as ITEM 2: 'Art. 58 Abs. 1 ParlG; SR 171.10'; direct association."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_16",
+    "TARGET_SR": "SR 220",
+    "assigned_articles": [
+      "Art. 40f"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet: 'gilt Artikel 40f des Obligationenrechts SR 220'; article and SR are syntactically linked."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_23",
+    "TARGET_SR": "SR 235.1",
+    "assigned_articles": [
+      "Art. 5 Bst. i"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet: 'im Sinne von Artikel 5 Buchstabe i des Datenschutzgesetzes ... SR 235.1'; explicit reference to Art. 5 lit. i of SR 235.1."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_28",
+    "TARGET_SR": "SR 281.1",
+    "assigned_articles": [
+      "Art. 93 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet: 'nach Artikel 93 Absatz 1 des Bundesgesetzes ... SR 281.1'; clear linkage of Art. 93 Abs. 1 to SR 281.1."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_36",
+    "TARGET_SR": "SR 241",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "medium",
+    "reasoning": "Snippet refers generically to 'das Bundesgesetz ... SR 241' without specifying an article; treat as general reference to the UWG as a whole."
+  },
+  {
+    "ITEM": 8,
+    "ARTICLE_EID": "art_39",
+    "TARGET_SR": "SR 952.0",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "medium",
+    "reasoning": "Snippet: 'dem Bankengesetz ... SR 952.0 untersteht;' contains no article-level citation; interpret as a general reference to the Bankengesetz."
+  },
+  {
+    "ITEM": 9,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "Reference 'Artikel 2' with no SR or acronym; clearly points to Art. 2 of the same Konsumkreditgesetz."
+  },
+  {
+    "ITEM": 10,
+    "ARTICLE_EID": "art_8",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "List of articles (1, 11, 13–16, etc.) without external SR; these are internal articles of the same act."
+  },
+  {
+    "ITEM": 11,
+    "ARTICLE_EID": "art_8",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "Again a list of articles (12–16, 17, 18, etc.) with no SR; internal cross-references within the Konsumkreditgesetz."
+  },
+  {
+    "ITEM": 12,
+    "ARTICLE_EID": "art_9",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 34"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet: '(Art. 34)' with no external SR; self-reference to Art. 34 of the same law."
+  },
+  {
+    "ITEM": 13,
+    "ARTICLE_EID": "art_9",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 16"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet: '(Art. 16)'; internal reference to Art. 16 of the same document."
+  },
+  {
+    "ITEM": 14,
+    "ARTICLE_EID": "art_9",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 28 Abs. 2",
+      "Art. 28 Abs. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet: '(Art. 28 Abs. 2 und 3)'; both paragraphs of Art. 28 are internal to the same act."
+  },
+  {
+    "ITEM": 15,
+    "ARTICLE_EID": "art_11",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 29 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet: '(Art. 29 Abs. 2)'; no SR given, so this is Art. 29 Abs. 2 of the same statute."
+  },
+  {
+    "ITEM": 16,
+    "ARTICLE_EID": "art_12",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 30 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet: '(Art. 30 Abs. 1)'; internal reference within the Konsumkreditgesetz."
+  },
+  {
+    "ITEM": 17,
+    "ARTICLE_EID": "art_14",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 9 Abs. 2 Bst. b"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet: 'nach Artikel 9 Absatz 2 Buchstabe b'; clearly refers to Art. 9 Abs. 2 lit. b of the same law."
+  },
+  {
+    "ITEM": 18,
+    "ARTICLE_EID": "art_15",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 9–11",
+      "Art. 12 Abs. 1",
+      "Art. 12 Abs. 2",
+      "Art. 12 Abs. 4 Bst. a",
+      "Art. 13",
+      "Art. 14"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet lists 'Artikel 9–11, 12 Absätze 1, 2 und 4 Buchstabe a, 13 und 14'; all are internal articles of the same act."
+  },
+  {
+    "ITEM": 19,
+    "ARTICLE_EID": "art_16",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 12 Abs. 4"
+    ],
+    "confidence": "high",
+    "reasoning": "Phrase 'im Falle von Artikel 12 Absatz 4' with no SR; internal reference to Art. 12 Abs. 4 of this law."
+  },
+  {
+    "ITEM": 20,
+    "ARTICLE_EID": "art_16",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 2 Bst. b"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet: 'Kreditgeberin nach Artikel 2 Buchstabe b'; internal reference to Art. 2 lit. b."
+  },
+  {
+    "ITEM": 21,
+    "ARTICLE_EID": "art_16",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 9 Abs. 1",
+      "Art. 11 Abs. 1",
+      "Art. 12 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet: 'nach den Artikeln 9 Absatz 1, 11 Absatz 1 oder 12 Absatz 1'; all are internal articles."
+  },
+  {
+    "ITEM": 22,
+    "ARTICLE_EID": "art_16",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 15 Abs. 2",
+      "Art. 15 Abs. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "First sentence: 'gilt Artikel 15 Absätze 2 und 3'; internal reference. The separate 'Artikel 40f des Obligationenrechts' is handled in ITEM 4 as an external SR 220 link."
+  },
+  {
+    "ITEM": 23,
+    "ARTICLE_EID": "art_17",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 11 Abs. 2 Bst. g"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet: 'Tabelle gemäss Artikel 11 Absatz 2 Buchstabe g'; internal cross-reference."
+  },
+  {
+    "ITEM": 24,
+    "ARTICLE_EID": "art_18",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 9 Abs. 2 Bst. b"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet: '(Art. 9 Abs. 2 Bst. b)'; internal reference to Art. 9 Abs. 2 lit. b."
+  },
+  {
+    "ITEM": 25,
+    "ARTICLE_EID": "art_23",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 25–27"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet: 'im Rahmen der Artikel 25–27 anfallen'; range clearly refers to internal articles 25 through 27."
+  },
+  {
+    "ITEM": 26,
+    "ARTICLE_EID": "art_23",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 5 Bst. i"
+    ],
+    "confidence": "high",
+    "reasoning": "This is the same sentence as ITEM 5 but without the SR; 'Artikel 5 Buchstabe i des Datenschutzgesetzes' refers to Art. 5 lit. i DSG. The external SR 235.1 link and article assignment are already captured in ITEM 5; here it is treated as the same article reference without repeating the SR."
+  },
+  {
+    "ITEM": 27,
+    "ARTICLE_EID": "art_25",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 18 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet: '(Art. 18 Abs. 1)'; internal reference to Art. 18 Abs. 1."
+  },
+  {
+    "ITEM": 28,
+    "ARTICLE_EID": "art_28",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 93 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "Refers to 'Artikel 93 Absatz 1 des Bundesgesetzes ... über Schuldbetreibung und Konkurs'; externally this is SR 281.1 Art. 93 Abs. 1 (already captured in ITEM 6). Here, as an artikel_reference without SR, it is the same cross-reference."
+  },
+  {
+    "ITEM": 29,
+    "ARTICLE_EID": "art_29",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 28 Abs. 2",
+      "Art. 28 Abs. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet: 'nach Artikel 28 Absätze 2 und 3'; internal reference to Art. 28 paras. 2 and 3."
+  },
+  {
+    "ITEM": 30,
+    "ARTICLE_EID": "art_31",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 28 Abs. 3",
+      "Art. 28 Abs. 4",
+      "Art. 29 Abs. 2",
+      "Art. 30 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet: '(Art. 28 Abs. 3 und 4) oder ... (Art. 29 Abs. 2 und 30 Abs. 1)'; all are internal cross-references."
+  },
+  {
+    "ITEM": 31,
+    "ARTICLE_EID": "art_32",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 27a",
+      "Art. 28",
+      "Art. 29",
+      "Art. 30",
+      "Art. 31"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet lists 'Artikel 27a, 28, 29, 30 oder 31'; internal references to these articles."
+  },
+  {
+    "ITEM": 32,
+    "ARTICLE_EID": "art_32",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 25",
+      "Art. 26",
+      "Art. 27 Abs. 1",
+      "Art. 27a",
+      "Art. 28",
+      "Art. 29",
+      "Art. 30",
+      "Art. 31"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet: 'Artikel 25, 26 oder 27 Absatz 1 oder in geringfügiger Weise gegen Artikel 27a, 28, 29, 30 oder 31'; all are internal articles."
+  },
+  {
+    "ITEM": 33,
+    "ARTICLE_EID": "art_32_a",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 25",
+      "Art. 26",
+      "Art. 27 Abs. 1",
+      "Art. 27a",
+      "Art. 28",
+      "Art. 29",
+      "Art. 30",
+      "Art. 31"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet: 'gegen Artikel 25, 26, 27 Absatz 1, 27a, 28, 29, 30 oder 31'; again internal cross-references to these provisions."
+  },
+  {
+    "ITEM": 34,
+    "ARTICLE_EID": "art_34",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 5"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet: 'im Sinne von Artikel 5'; internal reference to Art. 5 of the same law."
+  },
+  {
+    "ITEM": 35,
+    "ARTICLE_EID": "art_35",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 5",
+      "Art. 34 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet: '(Art. 5 und 34 Abs. 1)'; both are internal references."
+  },
+  {
+    "ITEM": 36,
+    "ARTICLE_EID": "art_42",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 39",
+      "Art. 40"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet: 'Art. 39 und 40: 1. Jan. 2004'; internal reference to the entry into force dates of Arts. 39 and 40."
+  }
+]

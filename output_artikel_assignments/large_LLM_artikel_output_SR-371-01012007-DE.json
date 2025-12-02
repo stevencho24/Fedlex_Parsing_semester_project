@@ -1,0 +1,77 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 101",
+    "assigned_articles": [
+      "Art. 60 Abs. 1",
+      "Art. 121 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Formulierung «gestützt auf die Artikel 60 Absatz 1 und 121 Absatz 1 der Bundesverfassung SR 101» verknüpft die genannten Artikel syntaktisch eindeutig mit SR 101."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": "SR 311.0",
+    "assigned_articles": [
+      "Art. 334"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Autorennotiztext steht «Fassung gemäss Art. 334 des Strafgesetzbuches (SR 311.0)»; Art. 334 ist damit ausdrücklich dem StGB (SR 311.0) zugeordnet."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": "SR 311.0",
+    "assigned_articles": [
+      "Art. 110 Ziff. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Satzteil «(Art. 110 Ziff. 1 StGB SR 311.0)» weist Art. 110 Ziff. 1 ausdrücklich dem StGB mit der SR-Nummer 311.0 zu."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": "SR 371",
+    "assigned_articles": [
+      "Art. 1",
+      "Art. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "«… im Sinne der Artikel 1 und 2» bezieht sich mangels anderer SR-Nennung auf Artikel 1 und 2 desselben Erlasses (SR 371); dies ist eine interne Selbstreferenz."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": "SR 371",
+    "assigned_articles": [
+      "Art. 1",
+      "Art. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Auch hier «… im Sinne der Artikel 1 und 2» ohne externen SR-Bezug; damit sind wiederum die Artikel 1 und 2 des eigenen Gesetzes SR 371 gemeint."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_6",
+    "TARGET_SR": "SR 371",
+    "assigned_articles": [
+      "Art. 1",
+      "Art. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Formulierung «… ob ein konkretes Strafurteil unter die Artikel 1 und 2 fällt» verweist intern auf die materiellen Bestimmungen des gleichen Erlasses (Art. 1 und 2 SR 371)."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_11",
+    "TARGET_SR": "SR 371",
+    "assigned_articles": [
+      "Art. 1",
+      "Art. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "«… unter die Artikel 1 und 2 fällt» ist wiederum eine interne Bezugnahme auf Art. 1 und 2 desselben Gesetzes (SR 371), da kein anderes SR-Dokument genannt wird."
+  }
+]

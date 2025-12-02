@@ -1,0 +1,93 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 414.110",
+    "assigned_articles": [
+      "Art. 27 Abs. 2",
+      "Art. 23"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Präambel nennt ausdrücklich: «gestützt auf die Artikel 27 Absatz 2 in Verbindung mit Artikel 23 des ETH-Gesetzes … SR 414.110». Beide Artikel sind grammatikalisch direkt diesem Gesetz zugeordnet."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": "SR 921.01",
+    "assigned_articles": [
+      "Art. 30 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Satz: «… nach Artikel 30 Absatz 2 der Waldverordnung … SR 921.01» folgt die Gesetzesbezeichnung unmittelbar auf die Artikelangabe; damit ist Art. 30 Abs. 2 der Waldverordnung (SR 921.01) eindeutig zugeordnet."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": "SR 916.20",
+    "assigned_articles": [
+      "Art. 103"
+    ],
+    "confidence": "high",
+    "reasoning": "Der relevante Teil lautet: «… nach Artikel 103 der Pflanzengesundheitsverordnung … SR 916.20.»; Art. 103 ist damit klar dieser Verordnung (SR 916.20) zugeordnet. Der anschliessende Hinweis auf das Publikationsgesetz betrifft nur die Anpassung des Verweises."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": "SR 170.512",
+    "assigned_articles": [
+      "Art. 12 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Im zweiten Satz: «Der Verweis wurde in Anwendung von Art. 12 Abs. 2 des Publikationsgesetzes … (SR 170.512) …» wird Art. 12 Abs. 2 direkt dem Publikationsgesetz SR 170.512 zugeordnet."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_14",
+    "TARGET_SR": "SR 414.110.37",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "Formulierung: «… richtet sich nach dem Anhang der ETHZ-ETHL-Verordnung … SR 414.110.37.» Es wird kein bestimmter Artikel genannt, sondern der Anhang als Ganzes; daher allgemeine Verweisung auf die Verordnung bzw. deren Anhang ohne konkrete Artikelangabe."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_16",
+    "TARGET_SR": "SR 172.220.113",
+    "assigned_articles": [
+      "Art. 13"
+    ],
+    "confidence": "high",
+    "reasoning": "Satz: «… richtet sich nach den Vereinbarungen gemäss Artikel 13 der Personalverordnung ETH-Bereich … SR 172.220.113.» Die Artikelangabe steht unmittelbar vor der Verordnungsbezeichnung; Art. 13 gehört somit eindeutig zur Personalverordnung ETH-Bereich (SR 172.220.113)."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Zeile wiederholt lediglich die bereits bei ITEM 2 erfasste Verweisung («… nach Artikel 30 Absatz 2 der Waldverordnung …»), jedoch ohne explizite SR-Angabe. Gemäss Regeln ist dies als eigenständige, interne Artikelreferenz des aktuellen Dokuments zu behandeln, nicht als neue SR-Zuordnung."
+  },
+  {
+    "ITEM": 8,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Formulierung «… nach Artikel 103 der Pflanzengesundheitsverordnung …» entspricht der bei ITEM 3 bereits mit SR 916.20 verknüpften Verweisung, erscheint hier aber ohne SR-Nennung. Nach Vorgabe sind solche isolierten Artikelangaben als Selbstverweise des Dokuments zu werten."
+  },
+  {
+    "ITEM": 9,
+    "ARTICLE_EID": "art_16",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Passage «… gemäss Artikel 13 der Personalverordnung ETH-Bereich …» spiegelt die bei ITEM 6 mit SR 172.220.113 verknüpfte Verweisung, jedoch ohne explizite SR-Angabe. Damit liegt nach den Regeln ein interner Verweis innerhalb des aktuellen Dokuments vor, nicht eine neue SR-Zuordnung."
+  }
+]

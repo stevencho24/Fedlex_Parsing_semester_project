@@ -1,0 +1,102 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 311.0",
+    "assigned_articles": [
+      "Art. 387 Abs. 1bis"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Formulierung \"gestützt auf Artikel 387 Absatz 1bis des Strafgesetzbuchs SR 311.0\" verknüpft den genannten Artikel direkt und eindeutig mit SR 311.0."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 172.010.1",
+    "assigned_articles": [
+      "Art. 8a Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Satz \"im Sinne von Artikel 8a Absatz 2 der Regierungs- und Verwaltungsorganisationsverordnung ... SR 172.010.1\" wird Art. 8a Abs. 2 grammatikalisch eindeutig dieser Verordnung zugeordnet."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_13",
+    "TARGET_SR": "SR 235.1",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "Es wird nur \"nach dem Datenschutzgesetz ... SR 235.1\" ohne konkrete Artikelangabe erwähnt; dies ist eine generelle Verweisung auf das Gesetz als Ganzes."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_15",
+    "TARGET_SR": "SR 172.010.1",
+    "assigned_articles": [
+      "Art. 8n Abs. 1 Bst. a"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Formulierung \"gemäss Artikel 8n Absatz 1 Buchstabe a RVOV SR 172.010.1\" ordnet den genannten Artikel klar der RVOV (SR 172.010.1) zu."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "Es wird \"Artikel 8a Absatz 2\" erwähnt, jedoch ohne explizite SR-Angabe im Snippet; der Kontext dient der Beschreibung der Fachkommission und ist als Selbstverweisung innerhalb des aktuellen Dokuments zu verstehen, da die externe Zuordnung zu SR 172.010.1 bereits in ITEM 2 mit SR_link_detection abgedeckt ist."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "\"Eine Beurteilung nach Artikel 2 Buchstabe a\" verweist offensichtlich auf Art. 2 derselben Verordnung; es gibt keinen Hinweis auf ein anderes SR-Dokument."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_9",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "\"Bericht nach Artikel 11\" ist eine typische interne Verweisung auf einen anderen Artikel derselben Verordnung; kein externes SR wird genannt."
+  },
+  {
+    "ITEM": 8,
+    "ARTICLE_EID": "art_12",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "\"im Rahmen der in Artikel 2 aufgeführten Aufgaben\" bezieht sich auf Art. 2 der gleichen Verordnung; es fehlt jede SR-Nennung, daher Selbstverweisung."
+  },
+  {
+    "ITEM": 9,
+    "ARTICLE_EID": "art_13",
+    "TARGET_SR": "SR 311.0",
+    "assigned_articles": [
+      "Art. 64c Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Formulierung \"nach Artikel 64c Absatz 1 des Strafgesetzbuchs\" ist eine klare Verweisung auf das StGB (SR 311.0) und benennt den Artikel ausdrücklich."
+  },
+  {
+    "ITEM": 10,
+    "ARTICLE_EID": "art_14",
+    "TARGET_SR": "SR 311.0",
+    "assigned_articles": [
+      "Art. 320"
+    ],
+    "confidence": "high",
+    "reasoning": "\"dem Amtsgeheimnis nach Artikel 320 des Strafgesetzbuchs\" verweist eindeutig auf Art. 320 StGB (SR 311.0); dies ist eine klassische externe Artikelverweisung."
+  }
+]

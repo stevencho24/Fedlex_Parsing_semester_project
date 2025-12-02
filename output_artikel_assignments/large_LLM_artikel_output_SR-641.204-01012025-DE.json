@@ -1,0 +1,102 @@
+[
+  {
+    "Item": 1,
+    "item_type": "SR_link_detection",
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 641.20",
+    "assigned_articles": [
+      "Art. 53 Abs. 1 Bst. a"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Formulierung \"gestützt auf Artikel 53 Absatz 1 Buchstabe a des Mehrwertsteuergesetzes ... SR 641.20\" verknüpft den genannten Artikel syntaktisch eindeutig mit SR 641.20."
+  },
+  {
+    "Item": 2,
+    "item_type": "SR_link_detection",
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 631.01",
+    "assigned_articles": [
+      "Art. 63",
+      "Art. 64"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Snippet: \"... die nach den Artikeln 63 und 64 der Zollverordnung ... SR 631.01 zollfrei sind\"; die Artikelangaben stehen direkt bei der Bezeichnung der Zollverordnung, daher gehören Art. 63 und 64 zu SR 631.01."
+  },
+  {
+    "Item": 3,
+    "item_type": "SR_link_detection",
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": [
+      "Art. 16 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Text: \"Waren des Reiseverkehrs nach Artikel 16 Absatz 2 des Zollgesetzes ... SR 631.0\"; Artikelnummer und Absatz werden unmittelbar mit dem Zollgesetz (SR 631.0) verbunden."
+  },
+  {
+    "Item": 4,
+    "item_type": "SR_link_detection",
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": "SR 0.631.250.21",
+    "assigned_articles": [
+      "Art. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "Formulierung: \"Die Bestimmungen von Artikel 3 des Abkommens ... SR 0.631.250.21 ...\"; der Artikel ist klar diesem Abkommen zugeordnet."
+  },
+  {
+    "Item": 5,
+    "item_type": "preamble_acronym",
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": "SR 641.20",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "medium",
+    "reasoning": "Das Snippet erwähnt nur die Verordnung des EFD und deren Aufhebung, ohne konkrete Artikel des Mehrwertsteuergesetzes (SR 641.20) zu nennen; die Bezugnahme über das Akronym EFD ist rein dokumentbezogen."
+  },
+  {
+    "Item": 6,
+    "item_type": "artikel_reference",
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Bezugnahme \"nach den Artikeln 63 und 64 der Zollverordnung\" ist bereits in Item 2 eindeutig SR 631.01 zugeordnet; hier liegt kein zusätzlicher, neuer SR-Link vor, sondern eine Wiederholung derselben Passage im Rahmen der artikel_reference-Erfassung. Für diese item_type-Kategorie ohne TARGET_SR ist dies als interner Verweis zu behandeln."
+  },
+  {
+    "Item": 7,
+    "item_type": "artikel_reference",
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "„Artikel 16 Absatz 2 des Zollgesetzes\" ist bereits in Item 3 als Verweis auf SR 631.0 mit Art. 16 Abs. 2 erfasst; in der artikel_reference-Erfassung ohne TARGET_SR handelt es sich um denselben Kontext, daher als interner Verweis im aktuellen Dokument zu werten."
+  },
+  {
+    "Item": 8,
+    "item_type": "artikel_reference",
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "„Die Wertfreigrenze nach Artikel 1 Buchstabe c\" verweist auf einen Artikel derselben Verordnung (Art. 1 lit. c dieser Verordnung); es wird kein externes SR-Dokument genannt, daher klar eine Selbstreferenz."
+  },
+  {
+    "Item": 9,
+    "item_type": "artikel_reference",
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "„Artikel 3 des Abkommens ... über die Zollerleichterungen im Reiseverkehr\" ist bereits in Item 4 als externer Verweis auf SR 0.631.250.21 Art. 3 mit TARGET_SR erfasst; hier liegt nur die artikel_reference-Erfassung derselben Textstelle ohne explizite SR-Angabe vor, daher als interner Verweis im Sinne der Projektlogik zu behandeln."
+  }
+]

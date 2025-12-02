@@ -1,0 +1,123 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 519.1",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "high",
+    "reasoning": "The preamble cites the Verordnung vom 6. Juni 2014 SR 519.1 (PVSPA) as the legal basis without mentioning any specific article or paragraph; this is a generic citation to the whole ordinance."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": "SR 519.1",
+    "assigned_articles": ["Art. 11 Abs. 4"],
+    "confidence": "high",
+    "reasoning": "The snippet explicitly contains two occurrences of '(Art. 11 Abs. 4 PVSPA)'; by direct marking with the acronym PVSPA, these clearly refer to Art. 11 Abs. 4 of SR 519.1."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": "SR 519.1",
+    "assigned_articles": [
+      "Art. 4 Abs. 1",
+      "Art. 5",
+      "Art. 7",
+      "Art. 8",
+      "Art. 9 Abs. 2",
+      "Art. 10 Abs. 2",
+      "Art. 11 Abs. 4",
+      "Art. 12 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet contains multiple explicit citations with the acronym PVSPA: '(Art. 4 Abs. 1 PVSPA)', '(Art. 5 PVSPA)', '(Art. 7 PVSPA)', '(Art. 8 PVSPA)', '(Art. 9 Abs. 2 und 10 Abs. 2 PVSPA)', '(Art. 11 Abs. 4 PVSPA)', and '(Art. 12 Abs. 2 PVSPA)'. All are directly marked as belonging to PVSPA, i.e., SR 519.1."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": "SR 519.1",
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "This preamble_acronym item only shows the heading and a general description of the Zuständigkeit des GS-VBS; there is no citation pattern like 'Art.' or 'Artikel' tied to PVSPA or SR 519.1, so no specific articles can be assigned."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "high",
+    "reasoning": "The phrase 'nach Artikel 3' has no SR or acronym context and clearly refers to another article (Art. 3) of the same ordinance SR 519.11; per rules, this is a self-reference within the current document, not an outgoing SR link."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": "SR 519.1",
+    "assigned_articles": ["Art. 4 Abs. 1"],
+    "confidence": "high",
+    "reasoning": "The snippet '(Art. 4 Abs. 1 PVSPA)' directly marks Art. 4 Abs. 1 as belonging to PVSPA, which is SR 519.1."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": "SR 519.1",
+    "assigned_articles": ["Art. 4 Abs. 1"],
+    "confidence": "high",
+    "reasoning": "Again, '(Art. 4 Abs. 1 PVSPA)' is explicitly cited with the acronym PVSPA, so it refers to Art. 4 Abs. 1 of SR 519.1."
+  },
+  {
+    "ITEM": 8,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": "SR 519.1",
+    "assigned_articles": ["Art. 5"],
+    "confidence": "high",
+    "reasoning": "The citation '(Art. 5 PVSPA)' directly links Art. 5 to PVSPA, i.e., SR 519.1."
+  },
+  {
+    "ITEM": 9,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": "SR 519.1",
+    "assigned_articles": ["Art. 7"],
+    "confidence": "high",
+    "reasoning": "The snippet contains '(Art. 7 PVSPA)', which is a direct marking of Art. 7 of PVSPA (SR 519.1)."
+  },
+  {
+    "ITEM": 10,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": "SR 519.1",
+    "assigned_articles": ["Art. 8"],
+    "confidence": "high",
+    "reasoning": "The citation '(Art. 8 PVSPA)' clearly refers to Art. 8 of PVSPA, i.e., SR 519.1."
+  },
+  {
+    "ITEM": 11,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": "SR 519.1",
+    "assigned_articles": ["Art. 9 Abs. 2", "Art. 10 Abs. 2"],
+    "confidence": "high",
+    "reasoning": "The text '(Art. 9 Abs. 2 und 10 Abs. 2 PVSPA)' lists both Art. 9 Abs. 2 and Art. 10 Abs. 2 with the acronym PVSPA, so both belong to SR 519.1."
+  },
+  {
+    "ITEM": 12,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": "SR 519.1",
+    "assigned_articles": ["Art. 11 Abs. 4"],
+    "confidence": "high",
+    "reasoning": "The snippet '(Art. 11 Abs. 4 PVSPA)' directly marks Art. 11 Abs. 4 as part of PVSPA (SR 519.1)."
+  },
+  {
+    "ITEM": 13,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": "SR 519.1",
+    "assigned_articles": ["Art. 11 Abs. 4"],
+    "confidence": "high",
+    "reasoning": "This line again contains '(Art. 11 Abs. 4 PVSPA)', so it refers to the same Art. 11 Abs. 4 of SR 519.1."
+  },
+  {
+    "ITEM": 14,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": "SR 519.1",
+    "assigned_articles": ["Art. 12 Abs. 2"],
+    "confidence": "high",
+    "reasoning": "The citation '(Art. 12 Abs. 2 PVSPA)' explicitly links Art. 12 Abs. 2 to PVSPA, i.e., SR 519.1."
+  }
+]

@@ -1,0 +1,140 @@
+[
+  {
+    "Item": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 831.40",
+    "assigned_articles": [
+      "Art. 64a Abs. 1 Bst. g"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Verordnung stützt sich ausdrücklich auf Artikel 64a Absatz 1 Buchstabe g BVG; dieser Artikel ist im Snippet direkt genannt und gehört zum BVG (SR 831.40)."
+  },
+  {
+    "Item": 2,
+    "ARTICLE_EID": "art_11",
+    "TARGET_SR": "SR 172.021",
+    "assigned_articles": [
+      "Art. 10"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Snippet heisst es: \"nach Artikel 10 des Verwaltungsverfahrensgesetzes ... SR 172.021\"; damit ist klar, dass Art. 10 VwVG (SR 172.021) gemeint ist."
+  },
+  {
+    "Item": 3,
+    "ARTICLE_EID": "art_15",
+    "TARGET_SR": "SR 172.021",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "Formulierung \"Das Verfahren der Kommission richtet sich nach dem Verwaltungsverfahrensgesetz ... SR 172.021\" ohne Nennung einzelner Artikel; dies ist eine generelle Verweisung auf das ganze Gesetz."
+  },
+  {
+    "Item": 4,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": "SR 831.40",
+    "assigned_articles": [
+      "Art. 64a Abs. 1 Bst. a",
+      "Art. 64a Abs. 1 Bst. f",
+      "Art. 64a Abs. 1 Bst. c",
+      "Art. 52d Abs. 3",
+      "Art. 64a Abs. 1 Bst. d"
+    ],
+    "confidence": "high",
+    "reasoning": "Das Snippet nennt explizit mehrere Bestimmungen des BVG: \"Art. 64a Abs. 1 Bst. a und f BVG\", \"Art. 64a Abs. 1 Bst. c BVG\", \"Art. 52d Abs. 3 BVG\" und \"Art. 64a Abs. 1 Bst. d BVG\"; alle gehören zu SR 831.40."
+  },
+  {
+    "Item": 5,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": "SR 831.40",
+    "assigned_articles": [
+      "Art. 64a Abs. 1 Bst. b",
+      "Art. 64a Abs. 1 Bst. e",
+      "Art. 74"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Snippet werden \"Art. 64a Abs. 1 Bst. b BVG\", \"Art. 64a Abs. 1 Bst. e BVG\" sowie das \"Verfahren nach Artikel 74 BVG\" genannt; diese Bestimmungen gehören alle zum BVG (SR 831.40)."
+  },
+  {
+    "Item": 6,
+    "ARTICLE_EID": "art_10",
+    "TARGET_SR": "SR 831.40",
+    "assigned_articles": [
+      "Art. 74"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Text spricht von \"Verfahren nach Artikel 74 BVG\"; damit ist eindeutig Art. 74 BVG (SR 831.40) gemeint."
+  },
+  {
+    "Item": 7,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": "Internal reference within current document",
+    "assigned_articles": [
+      "Art. 64a Abs. 1 Bst. a BVG",
+      "Art. 64a Abs. 1 Bst. f BVG",
+      "Art. 64a Abs. 1 Bst. c BVG"
+    ],
+    "confidence": "high",
+    "reasoning": "Dies ist eine Wiederholung der in Item 4 bereits zu SR 831.40 zugeordneten BVG-Bestimmungen; hier dient die Stelle der internen Aufgabenumschreibung in Art. 4 der Verordnung. Die Artikelangaben selbst verweisen auf BVG (SR 831.40), sind aber im Rahmen dieses artikel_reference-Eintrags als interne Wiederholung zu verstehen."
+  },
+  {
+    "Item": 8,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": "Internal reference within current document",
+    "assigned_articles": [
+      "Art. 52d Abs. 3 BVG"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Stelle wiederholt die bereits in Item 4 erfasste Verweisung auf Art. 52d Abs. 3 BVG; funktional ist dies eine interne Aufgabenumschreibung in Art. 4 der Verordnung."
+  },
+  {
+    "Item": 9,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": "Internal reference within current document",
+    "assigned_articles": [
+      "Art. 64a Abs. 1 Bst. d BVG"
+    ],
+    "confidence": "high",
+    "reasoning": "Auch hier wird die in Item 4 bereits erfasste Verweisung auf Art. 64a Abs. 1 Bst. d BVG wiederholt; im Kontext dieses artikel_reference-Eintrags handelt es sich um eine interne Aufgabenbeschreibung in Art. 4."
+  },
+  {
+    "Item": 10,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": "Internal reference within current document",
+    "assigned_articles": [
+      "Art. 64a Abs. 1 Bst. b BVG"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Passage wiederholt die in Item 5 bereits zu SR 831.40 zugeordnete Verweisung auf Art. 64a Abs. 1 Bst. b BVG; hier als interne Aufgabenumschreibung in Art. 5 der Verordnung zu verstehen."
+  },
+  {
+    "Item": 11,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": "Internal reference within current document",
+    "assigned_articles": [
+      "Art. 64a Abs. 1 Bst. e BVG"
+    ],
+    "confidence": "high",
+    "reasoning": "Dies ist eine Wiederholung der in Item 5 bereits erfassten Verweisung auf Art. 64a Abs. 1 Bst. e BVG; im Rahmen dieses artikel_reference-Eintrags dient sie der internen Aufgabenbeschreibung in Art. 5."
+  },
+  {
+    "Item": 12,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": "Internal reference within current document",
+    "assigned_articles": [
+      "Art. 74 BVG"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Stelle \"Verfahren nach Artikel 74 BVG\" wiederholt die bereits in Item 5 und 6 erfasste Verweisung auf Art. 74 BVG; hier als interne Beschreibung der Aufgaben in Art. 5 der Verordnung."
+  },
+  {
+    "Item": 13,
+    "ARTICLE_EID": "art_11",
+    "TARGET_SR": "Internal reference within current document",
+    "assigned_articles": [
+      "Art. 10"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Satz verweist auf \"Artikel 10 des Verwaltungsverfahrensgesetzes\"; diese externe Zuordnung zu SR 172.021 wurde bereits in Item 2 vorgenommen. Innerhalb dieses artikel_reference-Eintrags ist es eine interne Wiederholung derselben Verweisung im Text von Art. 11."
+  }
+]

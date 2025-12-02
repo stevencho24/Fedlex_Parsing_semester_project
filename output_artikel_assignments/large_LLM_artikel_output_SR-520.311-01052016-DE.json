@@ -1,0 +1,55 @@
+[
+  {
+    "Item": 1,
+    "ARTICLE_EID": "preamble",
+    "item_type": "SR_link_detection",
+    "assigned_SR": "SR 520.31",
+    "assigned_articles": [
+      "Art. 5 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet explicitly cites 'Artikel 5 Absatz 1 der Verordnung ... SR 520.31'; this article reference is syntactically and semantically linked to SR 520.31."
+  },
+  {
+    "Item": 2,
+    "ARTICLE_EID": "art_13",
+    "item_type": "preamble_acronym",
+    "assigned_SR": "SR 520.31",
+    "assigned_articles": [
+      "Art. 5 Abs. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet states 'nach Artikel 5 Absatz 3 KGSV'; KGSV is mapped in the preamble to SR 520.31, so Art. 5 Abs. 3 belongs to SR 520.31."
+  },
+  {
+    "Item": 3,
+    "ARTICLE_EID": "art_14",
+    "item_type": "preamble_acronym",
+    "assigned_SR": "SR 520.31",
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "The snippet only mentions 'Weisungen des VBS' and the SR link via the acronym VBS, but no article numbers are given; thus it is a general reference to the document without specific articles."
+  },
+  {
+    "Item": 4,
+    "ARTICLE_EID": "art_3",
+    "item_type": "artikel_reference",
+    "assigned_SR": "SR 520.311",
+    "assigned_articles": [
+      "Art. 4"
+    ],
+    "confidence": "high",
+    "reasoning": "The phrase 'Für die Aufnahmequalität gilt Artikel 4.' is an internal cross-reference within the same ordinance (SR 520.311); no external SR is mentioned in the snippet, so this is a self-reference to Art. 4 of SR 520.311."
+  },
+  {
+    "Item": 5,
+    "ARTICLE_EID": "art_3",
+    "item_type": "artikel_reference",
+    "assigned_SR": "SR 520.311",
+    "assigned_articles": [
+      "Art. 6 Abs. 6 Bst. a"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet refers to 'unter Artikel 6 Absatz 6 Buchstabe a genannten Informationen'; no external SR is present, so this is a self-reference to Art. 6 Abs. 6 lit. a of the same document SR 520.311."
+  }
+]

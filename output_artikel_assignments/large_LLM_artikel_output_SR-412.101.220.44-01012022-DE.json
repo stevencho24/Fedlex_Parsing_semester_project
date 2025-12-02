@@ -1,0 +1,142 @@
+[
+  {
+    "Item": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 412.10",
+    "assigned_articles": [
+      "Art. 19"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet explicitly cites 'Artikel 19 des Berufsbildungsgesetzes ... SR 412.10'; Art. 19 is grammatically linked to SR 412.10."
+  },
+  {
+    "Item": 2,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 412.101",
+    "assigned_articles": [
+      "Art. 12"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet explicitly cites 'Artikel 12 der Berufsbildungsverordnung ... SR 412.101 (BBV)'; Art. 12 is directly tied to SR 412.101."
+  },
+  {
+    "Item": 3,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": "SR 412.101.241",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "The provision states that the generally binding rules for general education are governed by the cited Verordnung; no specific article is mentioned, so it is a general reference to the whole ordinance."
+  },
+  {
+    "Item": 4,
+    "ARTICLE_EID": "art_18",
+    "TARGET_SR": "SR 412.101.241",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "The qualification area 'Allgemeinbildung' is said to be governed by the cited Verordnung; again no specific article is referenced, indicating a general applicability of the entire ordinance."
+  },
+  {
+    "Item": 5,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": "SR 412.10",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "medium",
+    "reasoning": "The snippet refers to the 'Verordnung des SBFI ... über Mindestvorschriften für die Allgemeinbildung'; SBFI is linked in the preamble to SR 412.10, but no article number is given. It is therefore treated as a general reference to SR 412.10."
+  },
+  {
+    "Item": 6,
+    "ARTICLE_EID": "art_16",
+    "TARGET_SR": "SR 412.101",
+    "assigned_articles": [
+      "Art. 32"
+    ],
+    "confidence": "high",
+    "reasoning": "The text 'die nach Artikel 32 BBV erforderliche Erfahrung' clearly links Art. 32 to BBV, which is SR 412.101 via the preamble acronym."
+  },
+  {
+    "Item": 7,
+    "ARTICLE_EID": "art_18",
+    "TARGET_SR": "SR 412.10",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "medium",
+    "reasoning": "Same contextual structure as Item 5: the qualification area is governed by the SBFI Verordnung; SBFI maps to SR 412.10, but no article is specified, so it is a general reference."
+  },
+  {
+    "Item": 8,
+    "ARTICLE_EID": "art_20",
+    "TARGET_SR": "SR 412.101",
+    "assigned_articles": [
+      "Art. 33"
+    ],
+    "confidence": "high",
+    "reasoning": "The sentence 'Die Wiederholung des Qualifikationsverfahrens richtet sich nach Artikel 33 BBV.' explicitly ties Art. 33 to BBV, which is SR 412.101."
+  },
+  {
+    "Item": 9,
+    "ARTICLE_EID": "art_23",
+    "TARGET_SR": "SR 412.10",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "medium",
+    "reasoning": "The snippet mentions that the organisation should request the SBFI to amend the Verordnung; SBFI is linked to SR 412.10, but no article is cited, so this is a general institutional reference to the act as a whole."
+  },
+  {
+    "Item": 10,
+    "ARTICLE_EID": "art_25",
+    "TARGET_SR": "SR 412.10",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "medium",
+    "reasoning": "The provision repeals a specific SBFI Verordnung; SBFI is associated with SR 412.10, but the snippet does not specify any article of SR 412.10, so it is treated as a general reference."
+  },
+  {
+    "Item": 11,
+    "ARTICLE_EID": "art_16",
+    "TARGET_SR": "self",
+    "assigned_articles": [
+      "Art. 32"
+    ],
+    "confidence": "high",
+    "reasoning": "Artikel 32 is mentioned without an external SR or acronym in the same syntactic unit; however, from Item 6 we know that 'Artikel 32 BBV' refers to SR 412.101. Here, the snippet is an internal repetition of that same cross-reference within the current document context, so it is treated as an internal reference to the already-assigned external Art. 32 BBV."
+  },
+  {
+    "Item": 12,
+    "ARTICLE_EID": "art_17",
+    "TARGET_SR": "self",
+    "assigned_articles": [
+      "Art. 4"
+    ],
+    "confidence": "high",
+    "reasoning": "The phrase 'Handlungskompetenzen nach Artikel 4' contains no SR or acronym; it clearly refers to Article 4 of the same ordinance, making it a self-reference."
+  },
+  {
+    "Item": 13,
+    "ARTICLE_EID": "art_22",
+    "TARGET_SR": "self",
+    "assigned_articles": [
+      "Art. 21 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "The text 'unter dem Vorbehalt von Artikel 21 Absatz 1' has no external SR context and thus refers to Article 21 paragraph 1 of the same document."
+  },
+  {
+    "Item": 14,
+    "ARTICLE_EID": "art_26",
+    "TARGET_SR": "self",
+    "assigned_articles": [
+      "Art. 16-22"
+    ],
+    "confidence": "high",
+    "reasoning": "The parenthetical '(Art. 16–22)' is a range of articles with no external SR mentioned; it therefore refers to Articles 16 through 22 of the same ordinance."
+  }
+]

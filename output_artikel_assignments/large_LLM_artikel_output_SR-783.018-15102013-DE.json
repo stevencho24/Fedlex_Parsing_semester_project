@@ -1,0 +1,133 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 783.01",
+    "assigned_articles": [
+      "Art. 77 Abs. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Formulierung «gestützt auf Artikel 77 Absatz 3 der Postverordnung … SR 783.01 (VPG)» verknüpft den Artikel eindeutig mit der genannten SR; Art. 77 Abs. 3 gehört somit zur Postverordnung SR 783.01."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 172.041.1",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "medium",
+    "reasoning": "Der Satz verweist allgemein auf die «Bestimmungen der Allgemeinen Gebührenverordnung … SR 172.041.1», ohne konkrete Artikel zu nennen; dies ist eine generelle Verweisung auf die ganze Verordnung."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": "SR 783.0",
+    "assigned_articles": [
+      "Art. 24"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Snippet steht «nach Artikel 24 des Postgesetzes … SR 783.0»; der Artikel ist direkt mit dem Gesetz verknüpft, daher gehört Art. 24 zu SR 783.0."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 783.01",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "medium",
+    "reasoning": "Die Nennung «PostCom» (als in der Präambel definierte Abkürzung für ein Organ nach SR 783.01) erfolgt ohne konkrete Artikelangabe; es handelt sich um eine generelle Bezugnahme auf die Postverordnung als Rechtsgrundlage der Gebührenordnung."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 783.01",
+    "assigned_articles": [
+      "Art. 71"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Text lautet «… nach Artikel 71 VPG.»; VPG ist in der Präambel als SR 783.01 definiert, somit verweist «Artikel 71 VPG» eindeutig auf Art. 71 der Postverordnung SR 783.01."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": "SR 783.01",
+    "assigned_articles": [
+      "Art. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Formulierung «… nach den Gebührenansätzen nach Artikel 3 fest» ist eine klare Selbstverweisung innerhalb derselben Verordnung; Art. 3 gehört zur Postverordnung SR 783.01."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": "SR 783.01",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "low",
+    "reasoning": "Das Snippet erwähnt nur «Gebührenpflichtige Leistungen der PostCom …» ohne konkrete Artikelangabe; es handelt sich um eine funktionale Beschreibung der Aufgaben nach der Postverordnung, ohne klar zuordenbare Einzelartikel."
+  },
+  {
+    "ITEM": 8,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": "SR 783.01",
+    "assigned_articles": [
+      "Art. 71 Abs. 1",
+      "Art. 71 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Text nennt ausdrücklich «Artikel 71 Absatz 1 VPG» und «Artikel 71 Absatz 2 VPG»; VPG ist SR 783.01, somit sind Art. 71 Abs. 1 und Abs. 2 der Postverordnung betroffen."
+  },
+  {
+    "ITEM": 9,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "Internal reference within current document",
+    "assigned_articles": [
+      "Art. 71"
+    ],
+    "confidence": "high",
+    "reasoning": "«… nach Artikel 71 VPG.» ist eine Wiederholung der in ITEM 5 erfassten Verweisung; syntaktisch ist es eine interne Bezugnahme innerhalb derselben Gebührenverordnung auf Art. 71 der zugrunde liegenden Postverordnung."
+  },
+  {
+    "ITEM": 10,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": "Internal reference within current document",
+    "assigned_articles": [
+      "Art. 24"
+    ],
+    "confidence": "high",
+    "reasoning": "«… nach Artikel 24 des Postgesetzes …» entspricht der in ITEM 3 bereits erfassten Verweisung; hier wird derselbe Artikel 24 des Postgesetzes SR 783.0 im Fliesstext des Artikels 4 erneut genannt, also interne Wiederholung der externen Verweisung."
+  },
+  {
+    "ITEM": 11,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": "Internal reference within current document",
+    "assigned_articles": [
+      "Art. 25"
+    ],
+    "confidence": "high",
+    "reasoning": "«Verwaltungssanktionen nach Artikel 25 des Postgesetzes …» verweist auf Art. 25 des Postgesetzes SR 783.0; im Rahmen von artikel_reference ist dies eine interne Wiederholung dieser externen Verweisung."
+  },
+  {
+    "ITEM": 12,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": "Internal reference within current document",
+    "assigned_articles": [
+      "Art. 71 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "«Die Behandlungsgebühr nach Artikel 71 Absatz 1 VPG …» wiederholt die in ITEM 8 erfasste Verweisung; es handelt sich um eine interne Bezugnahme auf Art. 71 Abs. 1 der Postverordnung SR 783.01."
+  },
+  {
+    "ITEM": 13,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": "Internal reference within current document",
+    "assigned_articles": [
+      "Art. 71 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "«Die Verfahrensgebühr nach Artikel 71 Absatz 2 VPG …» wiederholt die in ITEM 8 erfasste Verweisung; es ist eine interne Bezugnahme auf Art. 71 Abs. 2 der Postverordnung SR 783.01."
+  }
+]

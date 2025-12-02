@@ -1,0 +1,111 @@
+[
+  {
+    "Item": 1,
+    "TARGET_SR": "SR 817.02",
+    "assigned_articles": [
+      "Art. 47 Abs. 5",
+      "Art. 70"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet explicitly cites 'Artikel 47 Absatz 5 und ... Artikel 70 der Lebensmittel- und Gebrauchsgegenständeverordnung ... SR 817.02 (LGV)'; both articles are grammatically linked to SR 817.02."
+  },
+  {
+    "Item": 2,
+    "TARGET_SR": "SR 813.11",
+    "assigned_articles": [
+      "Anhang 2 Ziff. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "The Chemikalienverordnung (SR 813.11) is referenced specifically 'in der Fassung gemäss Anhang 2 Ziffer 1 der Chemikalienverordnung vom 5. Juni 2015 SR 813.11 (ChemV)'; thus the relevant provision is Anhang 2 Ziff. 1."
+  },
+  {
+    "Item": 3,
+    "TARGET_SR": "SR 0.742.403.1",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet refers generically to 'das Übereinkommen ... SR 0.742.403.1 über den internationalen Eisenbahnverkehr (COTIF)' without any article or annex; this is a general citation of the convention."
+  },
+  {
+    "Item": 4,
+    "TARGET_SR": "SR 745.1",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "The Personenbeförderungsgesetz (SR 745.1) is cited only by title and SR number, with no article or paragraph; this is a general reference to the act."
+  },
+  {
+    "Item": 5,
+    "TARGET_SR": "SR 741.01",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "The Strassenverkehrsgesetz (SR 741.01) is mentioned without any article or annex; therefore it is a general reference to the statute as a whole."
+  },
+  {
+    "Item": 6,
+    "TARGET_SR": "SR 0.741.621",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "The ADR convention (SR 0.741.621) is cited only by its full title and SR number; no specific article or section is indicated, so it is a general reference."
+  },
+  {
+    "Item": 7,
+    "TARGET_SR": "SR 817.02",
+    "assigned_articles": [
+      "Art. 69"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet states 'Aerosolpackungen im Sinne von Artikel 69 LGV'; LGV is SR 817.02 per preamble, and Art. 69 is directly and uniquely linked to that SR."
+  },
+  {
+    "Item": 8,
+    "TARGET_SR": "SR 817.02",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "medium",
+    "reasoning": "The snippet mentions 'Die Verordnung des EDI vom 26. Juni 1995 über Druckgaspackungen wird aufgehoben.' with SR 817.02 tied to the acronym EDI in the preamble. No article of SR 817.02 is syntactically linked; the SR appears only via the acronym mapping, so this is treated as a general reference."
+  },
+  {
+    "Item": 9,
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet refers to '(Art. 5)' and '(Art. 11 Abs. 1)' without any SR or acronym; by the rules this is a self-reference to other articles of the same ordinance, not to an external SR."
+  },
+  {
+    "Item": 10,
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet cites '(Art. 6)' and '(Art. 11 Abs. 2)' with no SR context; these are internal cross-references within the same document."
+  },
+  {
+    "Item": 11,
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "The phrase 'gelten die Anforderungen von Artikel 5 sinngemäss' lacks any SR or acronym; it clearly points to another article of the same ordinance, so it is an internal reference."
+  },
+  {
+    "Item": 12,
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet 'gelten die Anforderungen von Artikel 6 sinngemäss' similarly contains no external SR marker and thus refers to an article within the same document."
+  }
+]

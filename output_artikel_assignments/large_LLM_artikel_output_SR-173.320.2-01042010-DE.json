@@ -1,0 +1,147 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 173.32",
+    "assigned_articles": [
+      "Art. 16 Abs. 1 Bst. a"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Formulierung «gestützt auf Artikel 16 Absatz 1 Buchstabe a des Verwaltungsgerichtsgesetzes … SR 173.32 (VGG)» verweist eindeutig auf diese konkrete Bestimmung des VGG."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_6",
+    "TARGET_SR": "SR 172.021",
+    "assigned_articles": [
+      "Art. 65"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Snippet wird ausdrücklich «Artikel 65 des Bundesgesetzes vom 20. Dezember 1968 … SR 172.021» genannt; damit ist klar, dass Art. 65 dieses Gesetzes gemeint ist."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_11",
+    "TARGET_SR": "SR 172.220.111.31",
+    "assigned_articles": [
+      "Art. 46"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Text lautet «Der Kilometeransatz richtet sich nach Artikel 46 der Verordnung des EFD … SR 172.220.111.31»; somit wird spezifisch Art. 46 dieser Verordnung zitiert."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": "self",
+    "assigned_articles": [
+      "Art. 3",
+      "Art. 4"
+    ],
+    "confidence": "high",
+    "reasoning": "«… über die Höchstbeträge nach den Artikeln 3 und 4 hinausgehen …» bezieht sich auf Artikel 3 und 4 derselben Verordnung; es wird kein externes SR genannt, daher handelt es sich um interne Selbstverweise."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": "self",
+    "assigned_articles": [
+      "Art. 3",
+      "Art. 4"
+    ],
+    "confidence": "high",
+    "reasoning": "«Der Mindestbetrag nach Artikel 3 oder 4 darf nicht unterschritten werden.» verweist wiederum auf die Artikel 3 und 4 des eigenen Erlasses; kein externer SR‑Bezug."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_6",
+    "TARGET_SR": "SR 172.021",
+    "assigned_articles": [
+      "Art. 65"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Snippet-Text ist identisch mit jenem von ITEM 2 und verweist auf «Artikel 65 des Bundesgesetzes … SR 172.021»; dies ist ein externer Verweis auf Art. 65 VwVG, kein Selbstverweis."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": "self",
+    "assigned_articles": [
+      "Art. 6a"
+    ],
+    "confidence": "high",
+    "reasoning": "«Artikel 6a ist sinngemäss anwendbar.» nennt nur eine Artikelnummer ohne Gesetzesangabe; im Kontext handelt es sich um einen internen Verweis auf Art. 6a derselben Verordnung."
+  },
+  {
+    "ITEM": 8,
+    "ARTICLE_EID": "art_11",
+    "TARGET_SR": "SR 172.220.111.31",
+    "assigned_articles": [
+      "Art. 46"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Text entspricht inhaltlich ITEM 3, nur ohne explizite SR‑Angabe; «Artikel 46 der Verordnung des EFD vom 6. Dezember 2001 zur Bundespersonalverordnung» ist eindeutig als Art. 46 der Verordnung SR 172.220.111.31 zu identifizieren."
+  },
+  {
+    "ITEM": 9,
+    "ARTICLE_EID": "art_12",
+    "TARGET_SR": "self",
+    "assigned_articles": [
+      "Art. 8",
+      "Art. 9",
+      "Art. 10",
+      "Art. 11"
+    ],
+    "confidence": "high",
+    "reasoning": "«Für amtlich bestellte Anwältinnen und Anwälte sind die Artikel 8‒11 sinngemäss anwendbar.» bezeichnet einen Bereich von Artikeln innerhalb desselben Erlasses; mangels externer SR‑Nennung ist dies ein interner Verweis auf Art. 8 bis 11."
+  },
+  {
+    "ITEM": 10,
+    "ARTICLE_EID": "art_13",
+    "TARGET_SR": "self",
+    "assigned_articles": [
+      "Art. 11 Abs. 1–4"
+    ],
+    "confidence": "high",
+    "reasoning": "«… die Spesen der Partei im Umfang von Artikel 11 Absätze 1–4 …» verweist auf einen Teil von Art. 11 derselben Verordnung; kein anderes Gesetz wird erwähnt."
+  },
+  {
+    "ITEM": 11,
+    "ARTICLE_EID": "art_15",
+    "TARGET_SR": "self",
+    "assigned_articles": [
+      "Art. 5"
+    ],
+    "confidence": "high",
+    "reasoning": "«Für die Festsetzung der Parteientschädigung gilt Artikel 5 sinngemäss.» ist ein klarer interner Verweis auf Art. 5 des gleichen Erlasses."
+  },
+  {
+    "ITEM": 12,
+    "ARTICLE_EID": "art_18",
+    "TARGET_SR": "self",
+    "assigned_articles": [
+      "Art. 11 Abs. 1–3"
+    ],
+    "confidence": "high",
+    "reasoning": "«Die Entschädigung für Spesen richtet sich nach Artikel 11 Absätze 1–3.» bezieht sich auf bestimmte Absätze von Art. 11 derselben Verordnung; kein externer SR‑Hinweis."
+  },
+  {
+    "ITEM": 13,
+    "ARTICLE_EID": "art_20",
+    "TARGET_SR": "self",
+    "assigned_articles": [
+      "Art. 11"
+    ],
+    "confidence": "high",
+    "reasoning": "«… richtet sich … nach Artikel 11.» ohne Gesetzesangabe ist im Kontext ein Selbstverweis auf Art. 11 des gleichen Erlasses."
+  },
+  {
+    "ITEM": 14,
+    "ARTICLE_EID": "art_21",
+    "TARGET_SR": "self",
+    "assigned_articles": [
+      "Art. 11"
+    ],
+    "confidence": "high",
+    "reasoning": "Auch hier «… richtet sich … nach Artikel 11.»; wiederum kein externes Gesetz genannt, daher interner Verweis auf Art. 11 derselben Verordnung."
+  }
+]

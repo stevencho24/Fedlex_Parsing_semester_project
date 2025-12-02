@@ -1,0 +1,82 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": "SR 101",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet mentions only the Bundesverfassung (SR 101) generically without any article numbers or subdivisions; it is a broad constitutional reference."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_8",
+    "TARGET_SR": "SR 101",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "The text refers generally to the Bundesverfassung (SR 101) as the framework for procedural guarantees and legal protection, with no specific article cited."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_16",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document (Art. 19 Abs. 1)"
+    ],
+    "confidence": "high",
+    "reasoning": "Artikel 19 Absatz 1 is mentioned without any SR or acronym; by the rules this is a self-reference to another article of the same cantonal constitution, not to an external SR."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_101",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document (Art. 19)"
+    ],
+    "confidence": "high",
+    "reasoning": "The phrase \"gemäss Artikel 19\" appears without any SR context; syntactically it is an internal cross-reference within the same document."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_103",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document (Art. 27 Abs. 1 und 2)"
+    ],
+    "confidence": "high",
+    "reasoning": "The line \"Art. 27 Abs. 1 und 2\" stands alone with no SR or external law named; under the rules this is a self-reference to articles of the same constitution."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_103",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document (Art. 39 Abs. 4)"
+    ],
+    "confidence": "high",
+    "reasoning": "The reference \"Art. 39 Abs. 4\" is not grammatically linked to any SR citation and thus is an internal article of the current document."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_103",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document (Art. 40 Abs. 5 Sätze 2–3 und Abs. 6)"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet lists \"Art. 40 Abs. 5 Satz 2 und 3 sowie Abs. 6\" without any external SR; this is clearly an internal structural reference."
+  },
+  {
+    "ITEM": 8,
+    "ARTICLE_EID": "art_103",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document (Art. 38 Abs. 2 der Verfassung für den Kanton Graubünden vom 2. Oktober 1892)"
+    ],
+    "confidence": "high",
+    "reasoning": "Although it names an older cantonal constitution, there is no SR number and this is not part of the federal Systematische Rechtssammlung; it functions as a transitional internal reference, not an SR link."
+  }
+]

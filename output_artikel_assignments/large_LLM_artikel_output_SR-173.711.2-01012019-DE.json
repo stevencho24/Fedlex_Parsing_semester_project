@@ -1,0 +1,82 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 173.71",
+    "assigned_articles": [
+      "Art. 46 Abs. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "Im selben Satz: «gestützt auf Artikel 46 Absatz 3 des Strafbehördenorganisationsgesetzes … SR 173.71»; der Artikel ist direkt mit dem Gesetz SR 173.71 verknüpft."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 173.32",
+    "assigned_articles": [
+      "Art. 13 Abs. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "Im selben Satz: «auf Artikel 13 Absatz 3 des Verwaltungsgerichtsgesetzes … SR 173.32»; der Artikel ist grammatikalisch eindeutig diesem Gesetz zugeordnet."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 173.41",
+    "assigned_articles": [
+      "Art. 17"
+    ],
+    "confidence": "high",
+    "reasoning": "Im selben Satz: «auf Artikel 17 des Patentgerichtsgesetzes … SR 173.41»; der Artikel steht unmittelbar beim Gesetz mit dieser SR-Nummer."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": "SR 172.220.111.3",
+    "assigned_articles": [
+      "Art. 36"
+    ],
+    "confidence": "high",
+    "reasoning": "Formulierung: «… nach Artikel 36 der Bundespersonalverordnung … SR 172.220.111.3.»; der Artikel 36 ist klar dieser Verordnung zugeordnet."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_15",
+    "TARGET_SR": "SR 311.0",
+    "assigned_articles": [
+      "Art. 320 Ziff. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Text: «(Art. 320 Ziff. 2 des Strafgesetzbuches SR 311.0)»; der zitierte Artikel mit Ziffer gehört eindeutig zum Strafgesetzbuch SR 311.0."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "Es werden nur Artikelnummern mit Gesetzesbezeichnungen ohne SR-Nummern genannt; keine explizite Verknüpfung zu einem TARGET_SR, daher handelt es sich um reine Artikelverweise ohne externe SR-Zuordnung."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«Artikel 36 der Bundespersonalverordnung» wird ohne SR-Nummer genannt; diese Artikelangabe ist bereits im SR_link_detection-Item 4 mit SR 172.220.111.3 erfasst, hier liegt nur ein interner Artikelverweis ohne eigene SR-Zuordnung vor."
+  },
+  {
+    "ITEM": 8,
+    "ARTICLE_EID": "art_15",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«Art. 320 Ziff. 2 des Strafgesetzbuches» wird ohne SR-Nummer genannt; derselbe Artikel ist bereits in Item 5 mit SR 311.0 verknüpft, hier handelt es sich um einen internen Artikelverweis ohne zusätzliche SR-Zuordnung."
+  }
+]

@@ -1,0 +1,64 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 101",
+    "assigned_articles": [
+      "Art. 74",
+      "Art. 89"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Formulierung «gestützt auf die Artikel 74 und 89 der Bundesverfassung SR 101» verknüpft die genannten Artikel syntaktisch eindeutig mit SR 101."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 0.814.012",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Satz nennt nur das «Klimaübereinkommen vom 12. Dezember 2015 SR 0.814.012» ohne Artikelangabe; es handelt sich um eine allgemeine Bezugnahme auf das Übereinkommen als Ganzes."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_11",
+    "TARGET_SR": "SR 641.71",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Wendung «im CO2-Gesetz vom 23. Dezember 2011 SR 641.71» enthält keine konkrete Artikelnummer; der Bezug gilt dem Gesetz insgesamt."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": "SR 814.310",
+    "assigned_articles": [
+      "Art. 3 Abs. 1",
+      "Art. 3 Abs. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "«nach Artikel 3 Absätze 1 und 3» verweist ohne Nennung eines anderen Erlasses auf Artikel 3 desselben Gesetzes (SR 814.310); dies ist eine interne Selbstreferenz."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_6",
+    "TARGET_SR": "SR 814.310",
+    "assigned_articles": [
+      "Art. 5 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "«Fahrpläne nach Artikel 5 Absatz 2» nennt keinen anderen SR-Erlass und bezieht sich damit auf Art. 5 Abs. 2 des eigenen Gesetzes (SR 814.310)."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": "SR 814.310",
+    "assigned_articles": [
+      "Art. 6 Abs. 5"
+    ],
+    "confidence": "high",
+    "reasoning": "«Mit den Mitteln nach Artikel 6 Absatz 5» verweist ohne externen SR-Hinweis auf Art. 6 Abs. 5 desselben Gesetzes (SR 814.310); dies ist eine interne Artikelverweisung."
+  }
+]

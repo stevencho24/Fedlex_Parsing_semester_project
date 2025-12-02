@@ -1,0 +1,49 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 173.110",
+    "assigned_articles": [
+      "Art. 17 Abs. 4 lit. h",
+      "Art. 27 Abs. 4"
+    ],
+    "confidence": "high",
+    "reasoning": "Im selben Satz wie die SR-Nummer wird ausdrücklich auf «Artikel 17 Absatz 4 Buchstabe h und 27 Absatz 4 des Bundesgerichtsgesetzes … SR 173.110 (BGG)» verwiesen; diese Artikel gehören klar zum BGG (SR 173.110)."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 173.110.131",
+    "assigned_articles": [
+      "Art. 61 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Der zweite Teil des Satzes lautet «… und auf Artikel 61 Absatz 2 des Reglements vom 20. November 2006 SR 173.110.131 für das Bundesgericht»; damit ist Art. 61 Abs. 2 eindeutig dem Reglement SR 173.110.131 zugeordnet."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_11",
+    "TARGET_SR": "SR 173.110",
+    "assigned_articles": [
+      "Art. 3 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Ausschnitt «(Art. 3 Abs. 2 BGG)» verweist direkt auf Art. 3 Abs. 2 des Bundesgerichtsgesetzes; BGG ist im Vorspann als SR 173.110 definiert."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_11",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Die Stelle «(Art. 3 Abs. 2 BGG)» ist bereits im vorherigen preamble_acronym-Item (ITEM 3) als Verweis auf SR 173.110 erfasst; hier handelt es sich um dieselbe Textstelle, sodass kein zusätzlicher SR-Link zuzuordnen ist (interne Duplikation)."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_15",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "«Artikel 14» wird ohne Nennung eines Gesetzes oder einer SR-Nummer erwähnt und steht in einem rein internen Regelungszusammenhang; dies ist eine Selbstreferenz auf einen Artikel derselben Verordnung, nicht auf ein externes SR-Dokument."
+  }
+]

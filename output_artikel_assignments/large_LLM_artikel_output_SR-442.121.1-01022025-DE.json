@@ -1,0 +1,42 @@
+[
+  {
+    "Item": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 442.1",
+    "assigned_articles": [
+      "Art. 28 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet explicitly states: 'gestützt auf Artikel 28 Absatz 1 des Kulturförderungsgesetzes ... SR 442.1 (KFG)'; Article 28 paragraph 1 is directly and syntactically linked to SR 442.1."
+  },
+  {
+    "Item": 2,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 442.11",
+    "assigned_articles": [
+      "Art. 3 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet defines 'Netzwerk' as an institution 'nach Artikel 3 Absatz 1 der Kulturförderungsverordnung ... SR 442.11'; Article 3 paragraph 1 is clearly attributed to SR 442.11."
+  },
+  {
+    "Item": 3,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet repeats 'Artikel 3 Absatz 1 der Kulturförderungsverordnung' but this item_type is 'artikel_reference' without a TARGET_SR; it mirrors Item 2’s external citation but here functions as a structural reference within the current document context, so it is treated as an internal/self-reference rather than a new SR assignment."
+  },
+  {
+    "Item": 4,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "The phrase 'sämtliche Tätigkeiten nach Artikel 1 Buchstabe a ausüben' clearly refers to Article 1 letter a of the same ordinance; no external SR is mentioned in the snippet, so this is an internal cross-reference within the current document."
+  }
+]

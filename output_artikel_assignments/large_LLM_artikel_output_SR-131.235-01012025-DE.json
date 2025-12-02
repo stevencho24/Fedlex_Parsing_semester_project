@@ -1,0 +1,42 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 0.101",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "high",
+    "reasoning": "The snippet cites the Europäische Menschenrechtskonvention (SR 0.101) as a whole, with no specific article numbers or paragraphs mentioned; it is a general foundational reference in the preamble."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_77",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "high",
+    "reasoning": "The phrase 'gemäss Artikel 123a Absätze 4 und 6' has no SR citation or acronym; it clearly refers to an article within the same constitutional document, not to an external SR."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "disp_u1/art_4",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "high",
+    "reasoning": "The reference 'Artikel 84 Buchstabe b der Verfassung' explicitly points to an article of 'der Verfassung' (this constitution), with no external SR mentioned; thus it is a self-reference."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "disp_u1/art_5",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "high",
+    "reasoning": "The reference 'Artikel 92 Buchstabe a der Verfassung' is syntactically tied to 'der Verfassung' and no SR or external law is cited; it is an internal article of the same constitutional text."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "disp_u1/art_8",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "high",
+    "reasoning": "The citation 'Artikel 62 Absatz 4 der Verfassung' clearly refers to an article of this constitution ('der Verfassung') without any SR link; therefore it is a self-reference within the current document."
+  }
+]

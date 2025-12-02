@@ -1,0 +1,92 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 172.010",
+    "assigned_articles": [
+      "Art. 57c Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Formulierung \"gestützt auf Artikel 57c Absatz 2 ... SR 172.010\" verknüpft den genannten Artikel syntaktisch eindeutig mit dem zitierten Gesetz (SR 172.010)."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 172.010.1",
+    "assigned_articles": [
+      "Art. 8a Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Satz steht \"im Sinne von Artikel 8a Absatz 2 der ... Verordnung ... SR 172.010.1\"; Artikel und Absatz werden direkt dieser Verordnung zugeordnet."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": "SR 170.512.1",
+    "assigned_articles": [
+      "Art. 16 Abs. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "Im authorialNote-Text: \"in Anwendung von Art. 16 Abs. 3 der Publikationsverordnung ... (SR 170.512.1)\"; der Artikel ist klar dieser SR zugewiesen."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": "SR 632.10",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "Es wird nur \"das Zolltarifgesetz vom 9. Oktober 1986 SR 632.10\" ohne Artikelangabe genannt; daher allgemeine Verweisung auf das ganze Gesetz."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": "SR 632.111.72",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "Formulierung \"das Bundesgesetz vom 15. Dezember 2017 SR 632.111.72 ...\" ohne konkrete Artikel; dies ist eine generelle Gesetzesverweisung."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": "SR 632.91",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "Das \"Zollpräferenzengesetz vom 9. Oktober 1981 SR 632.91\" wird ohne Artikelangabe erwähnt; somit allgemeine Verweisung auf das gesamte Gesetz."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": "SR 172.010.1",
+    "assigned_articles": [
+      "Art. 8a ff."
+    ],
+    "confidence": "high",
+    "reasoning": "Im authorialNote: \"Siehe heute: die Art. 8a ff. RVOV (SR 172.010.1).\"; die Artikelkette 8a ff. wird ausdrücklich dieser Verordnung zugeordnet."
+  },
+  {
+    "ITEM": 8,
+    "ARTICLE_EID": "art_6",
+    "TARGET_SR": "SR 172.010.1",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Entschädigungen richten sich \"nach den Bestimmungen der ... Verordnung ... SR 172.010.1\" ohne Nennung einzelner Artikel; dies ist eine generelle Verweisung."
+  },
+  {
+    "ITEM": 9,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "artikel_reference ohne SR; \"Artikel 8a Absatz 2\" bezieht sich hier auf die in derselben Norm bereits genannte Verordnung, dient aber als Strukturverweis und nicht als neue SR-Verknüpfung. Daher als interne Verweisung im aktuellen Kontext zu behandeln."
+  }
+]

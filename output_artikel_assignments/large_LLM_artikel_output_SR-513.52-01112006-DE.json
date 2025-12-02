@@ -1,0 +1,21 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 510.10",
+    "assigned_articles": [
+      "Art. 6",
+      "Art. 150 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet explicitly cites 'Artikel 6 und 150 Absatz 1 des Militärgesetzes ... SR 510.10 (MG)'; both articles are directly and syntactically linked to SR 510.10."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_12",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "This is an artikel_reference item without any SR mentioned; 'Artikel 2 Absätze 2 und 3' is an internal self-reference within the same document, not tied to an external SR."
+  }
+]

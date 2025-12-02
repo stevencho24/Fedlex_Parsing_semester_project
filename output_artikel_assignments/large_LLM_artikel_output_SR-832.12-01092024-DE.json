@@ -1,0 +1,501 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 101",
+    "assigned_articles": ["Art. 117 Abs. 1"],
+    "confidence": "high",
+    "reasoning": "Die Formulierung «gestützt auf Artikel 117 Absatz 1 der Bundesverfassung SR 101» verknüpft den genannten Artikel direkt mit SR 101."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 961.01",
+    "assigned_articles": "General reference - entire document",
+    "confidence": "high",
+    "reasoning": "Es wird nur das Versicherungsaufsichtsgesetz als Ganzes genannt («dem Versicherungsaufsichtsgesetz … SR 961.01 (VAG) unterstehen»), ohne konkrete Artikelangabe."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 832.10",
+    "assigned_articles": ["Art. 18"],
+    "confidence": "high",
+    "reasoning": "«die gemeinsame Einrichtung nach Artikel 18 des Bundesgesetzes … SR 832.10 über die Krankenversicherung (KVG)» weist ausdrücklich auf Art. 18 KVG hin."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": "SR 832.20",
+    "assigned_articles": ["Art. 70 Abs. 2"],
+    "confidence": "high",
+    "reasoning": "«mit der Einschränkung nach Artikel 70 Absatz 2 des Bundesgesetzes … SR 832.20 über die Unfallversicherung» verknüpft Art. 70 Abs. 2 direkt mit SR 832.20."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": "SR 221.229.1",
+    "assigned_articles": "General reference - entire document",
+    "confidence": "high",
+    "reasoning": "Es heisst nur, dass die Zusatzversicherungen dem Versicherungsvertragsgesetz SR 221.229.1 unterliegen; kein bestimmter Artikel wird genannt."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": "SR 832.20",
+    "assigned_articles": ["Art. 70 Abs. 2"],
+    "confidence": "high",
+    "reasoning": "Gleicher Kontext wie ITEM 4; der Artikel wird explizit mit dem UVG (SR 832.20) verbunden."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": "SR 961.01",
+    "assigned_articles": "General reference - entire document",
+    "confidence": "high",
+    "reasoning": "«die dem VAG SR 961.01 unterstehen» ist eine generelle Unterstellungsnorm ohne konkrete Artikelangabe im VAG."
+  },
+  {
+    "ITEM": 8,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": "SR 832.10",
+    "assigned_articles": "General reference - entire document",
+    "confidence": "medium",
+    "reasoning": "«die freiwillige Taggeldversicherung nach dem KVG SR 832.10» verweist auf die Taggeldversicherung im KVG; im KVG ist diese in Art. 67–77 geregelt, aber diese Artikel werden hier nicht ausdrücklich genannt, daher als Gesamtverweis behandelt."
+  },
+  {
+    "ITEM": 9,
+    "ARTICLE_EID": "art_6",
+    "TARGET_SR": "SR 830.1",
+    "assigned_articles": ["Art. 49"],
+    "confidence": "high",
+    "reasoning": "«Verfügungen im Sinne von Artikel 49 des Bundesgesetzes … SR 830.1 über den Allgemeinen Teil des Sozialversicherungsrechts (ATSG)» nennt Art. 49 ATSG ausdrücklich."
+  },
+  {
+    "ITEM": 10,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": "SR 832.10",
+    "assigned_articles": ["Art. 62", "Art. 67-77"],
+    "confidence": "high",
+    "reasoning": "Im snippet_acronym werden «besondere Versicherungsformen … (Art. 62 KVG)» und «freiwillige Taggeldversicherung (Art. 67−77 KVG)» ausdrücklich genannt; beide gehören zu SR 832.10."
+  },
+  {
+    "ITEM": 11,
+    "ARTICLE_EID": "art_9",
+    "TARGET_SR": "SR 221.301",
+    "assigned_articles": "General reference - entire document",
+    "confidence": "high",
+    "reasoning": "Es wird das Fusionsgesetz SR 221.301 als Ganzes erwähnt, ohne konkrete Artikelangabe."
+  },
+  {
+    "ITEM": 12,
+    "ARTICLE_EID": "art_11",
+    "TARGET_SR": "SR 251",
+    "assigned_articles": "General reference - entire document",
+    "confidence": "high",
+    "reasoning": "«Die Bestimmungen des Kartellgesetzes … SR 251 betreffend die Beurteilung von Unternehmenszusammenschlüssen» verweist allgemein auf die einschlägigen Bestimmungen, ohne einzelne Artikel zu nennen."
+  },
+  {
+    "ITEM": 13,
+    "ARTICLE_EID": "art_11",
+    "TARGET_SR": "SR 221.301",
+    "assigned_articles": "General reference - entire document",
+    "confidence": "high",
+    "reasoning": "«sowie des Fusionsgesetzes … SR 221.301 bleiben vorbehalten» ist ein genereller Vorbehalt ohne Artikelangabe."
+  },
+  {
+    "ITEM": 14,
+    "ARTICLE_EID": "art_16",
+    "TARGET_SR": "SR 832.10",
+    "assigned_articles": "General reference - entire document",
+    "confidence": "medium",
+    "reasoning": "Es wird auf die Interessen der Versicherten «nach dem KVG SR 832.10» abgestellt; keine konkrete Norm wird genannt, daher Gesamtverweis."
+  },
+  {
+    "ITEM": 15,
+    "ARTICLE_EID": "art_24",
+    "TARGET_SR": "SR 220",
+    "assigned_articles": "General reference - entire document",
+    "confidence": "medium",
+    "reasoning": "«wenn das Obligationenrecht (OR) SR 220 dies vorschreibt» verweist auf die einschlägigen Rechnungslegungsvorschriften, ohne konkrete Artikel; daher allgemeiner Verweis."
+  },
+  {
+    "ITEM": 16,
+    "ARTICLE_EID": "art_25",
+    "TARGET_SR": "SR 220",
+    "assigned_articles": ["Art. 727 ff."],
+    "confidence": "high",
+    "reasoning": "Im Text steht ausdrücklich «(Art. 727 ff. OR SR 220)»; dies ist ein direkter Verweis auf Art. 727 ff. OR."
+  },
+  {
+    "ITEM": 17,
+    "ARTICLE_EID": "art_25",
+    "TARGET_SR": "SR 221.302",
+    "assigned_articles": "General reference - entire document",
+    "confidence": "medium",
+    "reasoning": "Es wird das Revisionsaufsichtsgesetz SR 221.302 als Grundlage der Zulassung genannt, ohne konkrete Artikel; Gesamtverweis."
+  },
+  {
+    "ITEM": 18,
+    "ARTICLE_EID": "art_26",
+    "TARGET_SR": "SR 832.10",
+    "assigned_articles": "General reference - entire document",
+    "confidence": "medium",
+    "reasoning": "«die Bestimmungen dieses Gesetzes, des KVG SR 832.10 und von deren Vollzugsverordnungen» ist ein pauschaler Verweis auf das KVG ohne Artikelangabe."
+  },
+  {
+    "ITEM": 19,
+    "ARTICLE_EID": "art_26",
+    "TARGET_SR": "SR 220",
+    "assigned_articles": ["Art. 728b"],
+    "confidence": "high",
+    "reasoning": "«Bericht nach Artikel 728b OR SR 220» nennt Art. 728b OR ausdrücklich."
+  },
+  {
+    "ITEM": 20,
+    "ARTICLE_EID": "art_29",
+    "TARGET_SR": "SR 961.01",
+    "assigned_articles": "General reference - entire document",
+    "confidence": "medium",
+    "reasoning": "«die nach dem VAG SR 961.01 zur Rückversicherung zugelassen sind» ist ein genereller Verweis auf die Zulassungsordnung im VAG ohne konkrete Artikel."
+  },
+  {
+    "ITEM": 21,
+    "ARTICLE_EID": "art_30",
+    "TARGET_SR": "SR 961.01",
+    "assigned_articles": "General reference - entire document",
+    "confidence": "medium",
+    "reasoning": "«die finanziellen Anforderungen nach dem VAG SR 961.01» verweist allgemein auf die Solvenzanforderungen im VAG; keine konkrete Norm genannt."
+  },
+  {
+    "ITEM": 22,
+    "ARTICLE_EID": "art_34",
+    "TARGET_SR": "SR 832.10",
+    "assigned_articles": "General reference - entire document",
+    "confidence": "medium",
+    "reasoning": "«dass die Bestimmungen dieses Gesetzes und des KVG SR 832.10 eingehalten werden» ist ein pauschaler Verweis auf das KVG."
+  },
+  {
+    "ITEM": 23,
+    "ARTICLE_EID": "art_34",
+    "TARGET_SR": "SR 961.01",
+    "assigned_articles": "General reference - entire document",
+    "confidence": "medium",
+    "reasoning": "«wird … nach dem VAG SR 961.01 beaufsichtigt» verweist auf das VAG als Ganzes, ohne Artikelangabe."
+  },
+  {
+    "ITEM": 24,
+    "ARTICLE_EID": "art_36",
+    "TARGET_SR": "SR 830.1",
+    "assigned_articles": ["Art. 33"],
+    "confidence": "high",
+    "reasoning": "«In Abweichung von Artikel 33 ATSG SR 830.1» verknüpft Art. 33 ATSG direkt mit SR 830.1."
+  },
+  {
+    "ITEM": 25,
+    "ARTICLE_EID": "art_37",
+    "TARGET_SR": "SR 830.1",
+    "assigned_articles": ["Art. 33"],
+    "confidence": "high",
+    "reasoning": "Auch hier: «in Abweichung von Artikel 33 ATSG SR 830.1» – klarer Verweis auf Art. 33 ATSG."
+  },
+  {
+    "ITEM": 26,
+    "ARTICLE_EID": "art_38",
+    "TARGET_SR": "SR 832.10",
+    "assigned_articles": "General reference - entire document",
+    "confidence": "medium",
+    "reasoning": "«wenn ein Versicherer die Bestimmungen dieses Gesetzes und des KVG SR 832.10 nicht einhält» ist ein genereller Verweis auf das KVG ohne konkrete Artikel."
+  },
+  {
+    "ITEM": 27,
+    "ARTICLE_EID": "art_38",
+    "TARGET_SR": "SR 281.1",
+    "assigned_articles": ["Art. 293-304"],
+    "confidence": "high",
+    "reasoning": "«Nachlassstundung nach den Artikeln 293−304 des Bundesgesetzes … SR 281.1 über Schuldbetreibung und Konkurs» nennt explizit den Artikelsbereich 293–304 SchKG."
+  },
+  {
+    "ITEM": 28,
+    "ARTICLE_EID": "art_47",
+    "TARGET_SR": "SR 832.10",
+    "assigned_articles": ["Art. 18 Abs. 2"],
+    "confidence": "high",
+    "reasoning": "«nach Artikel 18 Absatz 2 KVG SR 832.10» ist ein klarer Verweis auf Art. 18 Abs. 2 KVG."
+  },
+  {
+    "ITEM": 29,
+    "ARTICLE_EID": "art_51",
+    "TARGET_SR": "SR 832.10",
+    "assigned_articles": ["Art. 16 Abs. 1"],
+    "confidence": "high",
+    "reasoning": "«die Risikoabgaben nach Artikel 16 Absatz 1 KVG SR 832.10» nennt Art. 16 Abs. 1 KVG ausdrücklich."
+  },
+  {
+    "ITEM": 30,
+    "ARTICLE_EID": "art_54",
+    "TARGET_SR": "SR 830.1",
+    "assigned_articles": ["Art. 32"],
+    "confidence": "high",
+    "reasoning": "«Pflicht zur Amts- und Verwaltungshilfe nach Artikel 32 ATSG SR 830.1» verweist direkt auf Art. 32 ATSG."
+  },
+  {
+    "ITEM": 31,
+    "ARTICLE_EID": "art_54",
+    "TARGET_SR": "SR 832.10",
+    "assigned_articles": [
+      "Art. 82",
+      "Art. 62 Abs. 2bis",
+      "Art. 64 Abs. 8",
+      "Art. 4",
+      "Art. 4a",
+      "Art. 5",
+      "Art. 7",
+      "Art. 34 Abs. 1",
+      "Art. 64",
+      "Art. 61-63"
+    ],
+    "confidence": "high",
+    "reasoning": "Im snippet_acronym werden mehrere konkrete KVG-Bestimmungen genannt: Art. 82; Art. 62 Abs. 2bis; Art. 64 Abs. 8; Art. 4, 4a, 5, 7; Art. 34 Abs. 1; Art. 64; Art. 61–63. Alle gehören zu SR 832.10."
+  },
+  {
+    "ITEM": 32,
+    "ARTICLE_EID": "art_55",
+    "TARGET_SR": "SR 313.0",
+    "assigned_articles": ["Art. 6"],
+    "confidence": "high",
+    "reasoning": "«Personen, die nach Artikel 6 des Bundesgesetzes … SR 313.0 über das Verwaltungsstrafrecht strafbar sind» nennt Art. 6 VStrR ausdrücklich."
+  },
+  {
+    "ITEM": 33,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "high",
+    "reasoning": "«die gemeinsame Einrichtung nach Artikel 18 des Bundesgesetzes … über die Krankenversicherung (KVG)» bezieht sich auf Art. 18 KVG, der bereits in ITEM 3 SR 832.10 zugeordnet wurde; hier handelt es sich um dieselbe externe Referenz, keine neue SR-Verknüpfung."
+  },
+  {
+    "ITEM": 34,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "high",
+    "reasoning": "«Artikel 70 Absatz 2 des Bundesgesetzes … über die Unfallversicherung» entspricht der externen Referenz in ITEM 4/6 (SR 832.20, Art. 70 Abs. 2); keine zusätzliche SR-Zuordnung nötig."
+  },
+  {
+    "ITEM": 35,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "high",
+    "reasoning": "«Versicherer im Sinne der Artikel 2 und 3» verweist nur auf Artikel desselben Gesetzes; keine externe SR-Verknüpfung."
+  },
+  {
+    "ITEM": 36,
+    "ARTICLE_EID": "art_6",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "high",
+    "reasoning": "«Artikel 49 des Bundesgesetzes … (ATSG)» ist bereits in ITEM 9 SR 830.1, Art. 49 zugeordnet; hier keine neue SR-Verknüpfung."
+  },
+  {
+    "ITEM": 37,
+    "ARTICLE_EID": "art_8",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "high",
+    "reasoning": "«Artikel 7 Absatz 2 Buchstaben a, i und k–n» verweist auf interne Bestimmungen desselben Gesetzes."
+  },
+  {
+    "ITEM": 38,
+    "ARTICLE_EID": "art_8",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "high",
+    "reasoning": "Auch hier: Verweis auf «Artikel 7 Absatz 2 …» innerhalb desselben Gesetzes."
+  },
+  {
+    "ITEM": 39,
+    "ARTICLE_EID": "art_29",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "high",
+    "reasoning": "«Versicherer nach Artikel 2» ist ein klarer Selbstverweis auf Art. 2 dieses Gesetzes."
+  },
+  {
+    "ITEM": 40,
+    "ARTICLE_EID": "art_38",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "high",
+    "reasoning": "«einem anderen Versicherer nach Artikel 40 übertragen» verweist auf Art. 40 desselben Gesetzes."
+  },
+  {
+    "ITEM": 41,
+    "ARTICLE_EID": "art_38",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "high",
+    "reasoning": "«besondere Aufträge und Befugnisse nach Artikel 39» ist ein interner Verweis."
+  },
+  {
+    "ITEM": 42,
+    "ARTICLE_EID": "art_38",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "high",
+    "reasoning": "«Sollbetrages nach Artikel 15 Absatz 2» verweist auf Art. 15 Abs. 2 desselben Gesetzes."
+  },
+  {
+    "ITEM": 43,
+    "ARTICLE_EID": "art_38",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document and external reference already covered"],
+    "confidence": "high",
+    "reasoning": "Der Verweis auf «Artikeln 293−304 … über Schuldbetreibung und Konkurs» ist bereits in ITEM 27 SR 281.1, Art. 293–304 zugeordnet; im Rahmen von artikel_reference bleibt dies eine Wiederholung ohne neue SR-Zuordnung."
+  },
+  {
+    "ITEM": 44,
+    "ARTICLE_EID": "art_38_a",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "high",
+    "reasoning": "«nach Artikel 19b Absatz 2» verweist auf eine Bestimmung desselben Gesetzes."
+  },
+  {
+    "ITEM": 45,
+    "ARTICLE_EID": "art_39",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "high",
+    "reasoning": "«Aufsichtsmassnahmen nach Artikel 38» ist ein interner Verweis."
+  },
+  {
+    "ITEM": 46,
+    "ARTICLE_EID": "art_39",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "high",
+    "reasoning": "«Artikel 35 sinngemäss anwendbar» verweist auf Art. 35 desselben Gesetzes."
+  },
+  {
+    "ITEM": 47,
+    "ARTICLE_EID": "art_44",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "high",
+    "reasoning": "«Die Artikel 20 … und 38 Absatz 2 Buchstabe f» sind interne Normen dieses Gesetzes."
+  },
+  {
+    "ITEM": 48,
+    "ARTICLE_EID": "art_44",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "high",
+    "reasoning": "«Auskunftspflicht nach Artikel 35» ist ein Selbstverweis."
+  },
+  {
+    "ITEM": 49,
+    "ARTICLE_EID": "art_45",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "high",
+    "reasoning": "«Die Artikel 25–27 sind sinngemäss anwendbar» verweist auf interne Artikel 25–27."
+  },
+  {
+    "ITEM": 50,
+    "ARTICLE_EID": "art_48",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "high",
+    "reasoning": "«(Art. 52 Abs. 4)» bezieht sich auf Art. 52 Abs. 4 desselben Gesetzes."
+  },
+  {
+    "ITEM": 51,
+    "ARTICLE_EID": "art_52",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "high",
+    "reasoning": "«nach Artikel 51 übernommenen Betrags» verweist auf Art. 51 dieses Gesetzes."
+  },
+  {
+    "ITEM": 52,
+    "ARTICLE_EID": "art_54",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "high",
+    "reasoning": "«gegen eine Pflicht nach Artikel 8, 9, 10 oder 35 verstösst» sind interne Normen."
+  },
+  {
+    "ITEM": 53,
+    "ARTICLE_EID": "art_54",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "high",
+    "reasoning": "«nach Artikel 13 vorgesehenen Rückstellungen» verweist auf Art. 13 desselben Gesetzes."
+  },
+  {
+    "ITEM": 54,
+    "ARTICLE_EID": "art_54",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "high",
+    "reasoning": "«nach Artikel 19b Absatz 3 festgelegten Verstoss» ist ein interner Verweis."
+  },
+  {
+    "ITEM": 55,
+    "ARTICLE_EID": "art_55",
+    "TARGET_SR": null,
+    "assigned_articles": ["External reference already covered in SR 313.0"],
+    "confidence": "high",
+    "reasoning": "Der Verweis auf «Artikel 6 des Bundesgesetzes … über das Verwaltungsstrafrecht» ist bereits in ITEM 32 SR 313.0, Art. 6 zugeordnet; hier keine neue SR-Verknüpfung."
+  },
+  {
+    "ITEM": 56,
+    "ARTICLE_EID": "art_59",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "high",
+    "reasoning": "«Geschäftsplan nach Artikel 7 Absatz 2 …» verweist intern auf Art. 7."
+  },
+  {
+    "ITEM": 57,
+    "ARTICLE_EID": "art_59",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "high",
+    "reasoning": "«gebundenes Vermögen … nach Artikel 15 sicherstellen» ist ein interner Verweis."
+  },
+  {
+    "ITEM": 58,
+    "ARTICLE_EID": "art_59",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "high",
+    "reasoning": "«Risikomanagement nach Artikel 22» verweist auf Art. 22 desselben Gesetzes."
+  },
+  {
+    "ITEM": 59,
+    "ARTICLE_EID": "art_59",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "high",
+    "reasoning": "«interne Revisionsstelle nach Artikel 23» ist ein Selbstverweis."
+  },
+  {
+    "ITEM": 60,
+    "ARTICLE_EID": "art_59",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "high",
+    "reasoning": "«Anforderungen … nach Artikel 6 erfüllen» verweist auf Art. 6 dieses Gesetzes."
+  },
+  {
+    "ITEM": 61,
+    "ARTICLE_EID": "art_59",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "high",
+    "reasoning": "«Gewähr für einwandfreie Geschäftstätigkeit nach Artikel 20 bieten» ist ein interner Verweis auf Art. 20."
+  }
+]

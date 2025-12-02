@@ -1,0 +1,152 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 518.0",
+    "assigned_articles": [
+      "Art. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Formulierung «gestützt auf Artikel 1 des Bundesratsbeschlusses … SR 518.0» verweist ausdrücklich auf Art. 1 des genannten Erlasses; syntaktisch klarer Bezug zwischen Artikelangabe und SR 518.0."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": "SR 0.518.12",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Ausschnitt nennt nur das Genfer Abkommen (SR 0.518.12) als Ganzes («des Genfer Abkommens … SR 0.518.12 …»), ohne konkrete Artikelangabe; daher Gesamtverweis."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": "SR 0.518.23",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "Es wird das Genfer Abkommen SR 0.518.23 als solches bezeichnet, ohne Artikel- oder Absatzangabe; dies ist ein genereller Dokumentverweis."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": "SR 0.518.42",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Text spricht vom Genfer Abkommen SR 0.518.42 über die Behandlung der Kriegsgefangenen, ohne einzelne Bestimmungen zu nennen; somit Gesamtverweis."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": "SR 0.518.51",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "Es wird das Genfer Abkommen SR 0.518.51 über den Schutz von Zivilpersonen in Kriegszeiten insgesamt zitiert; keine Artikelnummern im Kontext."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": "SR 0.518.521",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "Das Zusatzprotokoll SR 0.518.521 wird als Ganzes erwähnt («des Zusatzprotokolls … SR 0.518.521 …»), ohne spezifische Artikel; daher genereller Verweis."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": "SR 0.518.522",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "Analog zu den anderen Protokollen: SR 0.518.522 wird nur als Dokument bezeichnet, ohne Artikelangabe; Gesamtverweis."
+  },
+  {
+    "ITEM": 8,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": "SR 0.518.523",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "Das Zusatzprotokoll SR 0.518.523 wird im Ganzen genannt; keine konkrete Artikelreferenz im Satz."
+  },
+  {
+    "ITEM": 9,
+    "ARTICLE_EID": "art_9",
+    "TARGET_SR": "SR 510.10",
+    "assigned_articles": [
+      "Art. 81"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Satz lautet «… nach Artikel 81 des Militärgesetzes … SR 510.10 (MG) …»; der Artikel 81 ist direkt mit dem Militärgesetz (SR 510.10) verknüpft."
+  },
+  {
+    "ITEM": 10,
+    "ARTICLE_EID": "art_11",
+    "TARGET_SR": "SR 512.21",
+    "assigned_articles": [
+      "Art. 102–105"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Formulierung «nach den Artikeln 102–105 der Verordnung … SR 512.21 …» verknüpft die Artikel 102–105 eindeutig mit der genannten Verordnung."
+  },
+  {
+    "ITEM": 11,
+    "ARTICLE_EID": "art_9",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«Artikel 81 des Militärgesetzes … (MG)» ist eine Wiederholung der in ITEM 9 bereits SR-gebundenen Referenz; als artikel_reference ohne explizite SR-Angabe ist dies hier als Verweis auf ein externes Gesetz bereits abgedeckt und dient im Kontext primär der inhaltlichen Beschreibung, nicht einer neuen SR-Zuordnung."
+  },
+  {
+    "ITEM": 12,
+    "ARTICLE_EID": "art_9",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "medium",
+    "reasoning": "«Artikel 6 MG» verweist materiell auf das Militärgesetz (SR 510.10), aber im snippet fehlt eine explizite SR-Nennung; gemäss Vorgabe sind solche isolierten Artikelangaben ohne SR-Kontext als Selbst- bzw. interne Referenzen zu behandeln."
+  },
+  {
+    "ITEM": 13,
+    "ARTICLE_EID": "art_9",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "medium",
+    "reasoning": "«Artikel 110 Absatz 4 MG» bezieht sich zwar sachlich auf das Militärgesetz, doch ohne explizite SR-Verknüpfung im Satz; nach den Regeln sind solche isolierten Artikelangaben als interne bzw. selbstreferenzielle Verweise zu werten."
+  },
+  {
+    "ITEM": 14,
+    "ARTICLE_EID": "art_9",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "medium",
+    "reasoning": "Der Satz enthält «Artikel 81 MG» und «Artikel 6 MG», jedoch ohne explizite SR-Nennung; syntaktisch stehen die Artikelangaben in einem eigenständigen Kontext ohne SR-Link, weshalb sie als interne bzw. selbstreferenzielle Verweise zu behandeln sind."
+  },
+  {
+    "ITEM": 15,
+    "ARTICLE_EID": "art_11",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "Dies ist die artikel_reference-Variante des in ITEM 10 bereits mit SR 512.21 verknüpften Satzes; da hier kein SR genannt wird und die SR-Zuordnung schon über ITEM 10 erfolgt, ist dieser Eintrag als interner Verweis innerhalb des Dokuments zu qualifizieren."
+  }
+]

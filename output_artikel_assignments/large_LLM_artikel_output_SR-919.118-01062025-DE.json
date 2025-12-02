@@ -1,0 +1,54 @@
+[
+  {
+    "Item": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 910.1",
+    "assigned_articles": [
+      "Art. 6a Abs. 2",
+      "Art. 6b Abs. 3",
+      "Art. 185 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Satz nennt ausdrücklich: «Artikel 6a Absatz 2, 6b Absatz 3 und 185 Absatz 2 des Landwirtschaftsgesetzes … SR 910.1 (LwG)»; die Artikelangaben sind direkt und syntaktisch dem LwG/SR 910.1 zugeordnet."
+  },
+  {
+    "Item": 2,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": "SR 431.011",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Snippet wird nur die «Bundesstatistikverordnung vom 30. April 2025 SR 431.011» als Ganzes genannt; es werden keine bestimmten Artikel dieser Verordnung erwähnt oder grammatikalisch zugeordnet."
+  },
+  {
+    "Item": 3,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": "SR 912.1",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Formulierung «in der landwirtschaftlichen Zonen-Verordnung vom 7. Dezember 1998 SR 912.1 definierten Zonen» verweist allgemein auf die Verordnung; konkrete Artikelnummern der SR 912.1 werden nicht genannt."
+  },
+  {
+    "Item": 4,
+    "ARTICLE_EID": "art_10_c",
+    "TARGET_SR": "SR 910.1",
+    "assigned_articles": [
+      "Art. 6b"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Satz lautet: «Die Risiken nach Artikel 6b LwG …»; das Preambel-Akronym LwG ist eindeutig SR 910.1 zugeordnet, und «Artikel 6b» steht unmittelbar beim Akronym, womit Art. 6b LwG (SR 910.1) gemeint ist."
+  },
+  {
+    "Item": 5,
+    "ARTICLE_EID": "art_10_b",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«… nach Artikel 10a» erscheint ohne Nennung eines SR oder Akronyms; es handelt sich daher um eine Selbstverweisung auf Art. 10a derselben Verordnung, nicht auf ein externes SR-Dokument."
+  }
+]

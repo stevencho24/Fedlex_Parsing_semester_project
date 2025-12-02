@@ -1,0 +1,237 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "art_8",
+    "TARGET_SR": "SR 170.512.1",
+    "assigned_articles": [
+      "Art. 20 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Text steht ausdrücklich: \"in Anwendung von Art. 20 Abs. 2 der Publikationsverordnung ... (SR 170.512.1)\"; der Artikel ist direkt mit der genannten SR verknüpft."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_11",
+    "TARGET_SR": "SR 220",
+    "assigned_articles": [
+      "Allgemeine Verweisnorm – keine spezifischen Artikel"
+    ],
+    "confidence": "medium",
+    "reasoning": "Die Formulierung \"unter sinngemässer Anwendung der diesbezüglichen Vorschriften des Obligationenrechts SR 220\" verweist pauschal auf die einschlägigen Vorschriften des OR zur ordentlichen Revision, ohne konkrete Artikelnummern zu nennen."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_24",
+    "TARGET_SR": "SR 220",
+    "assigned_articles": [
+      "Art. 962a"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Satz lautet: \"... nach Artikel 962a des Obligationenrechts SR 220.\"; Art. 962a ist klar als Artikel des OR (SR 220) bezeichnet."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_36",
+    "TARGET_SR": "SR 101",
+    "assigned_articles": [
+      "Art. 44 Abs. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Snippet steht: \"(Art. 44 Abs. 3 der Bundesverfassung SR 101)\"; der Artikel ist direkt der Bundesverfassung (SR 101) zugeordnet."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_14",
+    "TARGET_SR": "SR 367.1",
+    "assigned_articles": [
+      "Art. 5"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Bezugnahme \"(Art. 5)\" erfolgt ohne Nennung einer anderen SR und beschreibt das Verhältnis zwischen Organen der eigenen Vereinbarung; dies ist eine Selbstreferenz innerhalb des Dokuments SR 367.1."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_18",
+    "TARGET_SR": "SR 367.1",
+    "assigned_articles": [
+      "Art. 3 Abs. 4"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Nutzungsvereinbarungen \"(Art. 3 Abs. 4)\" sind klar interne Regelungen dieser Vereinbarung; keine andere SR wird genannt, daher Selbstreferenz zu Art. 3 Abs. 4 SR 367.1."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_18",
+    "TARGET_SR": "SR 367.1",
+    "assigned_articles": [
+      "Art. 3 Abs. 4 Bst. b"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Formulierung \"(Art. 3 Abs. 4 Bst. b)\" verweist auf einen Buchstaben innerhalb von Art. 3 Abs. 4 derselben Vereinbarung; keine externe SR, daher interne Referenz."
+  },
+  {
+    "ITEM": 8,
+    "ARTICLE_EID": "art_19",
+    "TARGET_SR": "SR 367.1",
+    "assigned_articles": [
+      "Art. 13 Abs. 5"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Wendung \"mit nach Artikel 13 Absatz 5 eingeschränktem Stimmrecht\" bezieht sich auf eine interne Stimmrechtsregelung; mangels anderer SR ist dies eine Selbstreferenz auf Art. 13 Abs. 5 SR 367.1."
+  },
+  {
+    "ITEM": 9,
+    "ARTICLE_EID": "art_21",
+    "TARGET_SR": "SR 367.1",
+    "assigned_articles": [
+      "Art. 18"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Klammer \"(Art. 18)\" verweist auf Leistungsbezüger ohne Parteistatus, die in Art. 18 derselben Vereinbarung geregelt sind; keine externe SR genannt."
+  },
+  {
+    "ITEM": 10,
+    "ARTICLE_EID": "art_22",
+    "TARGET_SR": "SR 367.1",
+    "assigned_articles": [
+      "Art. 19 Abs. 2",
+      "Art. 13 Abs. 5"
+    ],
+    "confidence": "high",
+    "reasoning": "Es wird auf \"die ... Versammlung (Art. 19 Abs. 2)\" und \"mit nach Artikel 13 Absatz 5 eingeschränktem Stimmrecht\" verwiesen; beides sind interne Bestimmungen der gleichen Vereinbarung."
+  },
+  {
+    "ITEM": 11,
+    "ARTICLE_EID": "art_24",
+    "TARGET_SR": "SR 367.1",
+    "assigned_articles": [
+      "Art. 21 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Gutschriften \"(Art. 21 Abs. 2)\" beziehen sich auf Einkaufsbeiträge, die in Art. 21 Abs. 2 derselben Vereinbarung geregelt sind; keine andere SR im Kontext."
+  },
+  {
+    "ITEM": 12,
+    "ARTICLE_EID": "art_24",
+    "TARGET_SR": "SR 220",
+    "assigned_articles": [
+      "Art. 962a"
+    ],
+    "confidence": "high",
+    "reasoning": "Dies ist derselbe inhaltliche Satz wie bei ITEM 3, nur ohne explizite Nennung von \"SR 220\" im Snippet; \"Artikel 962a des Obligationenrechts\" ist eindeutig Art. 962a OR (SR 220)."
+  },
+  {
+    "ITEM": 13,
+    "ARTICLE_EID": "art_25",
+    "TARGET_SR": "SR 367.1",
+    "assigned_articles": [
+      "Art. 10 Abs. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Klausel \"unter Vorbehalt von Artikel 10 Absatz 3\" betrifft eine interne Ausnahmebestimmung; mangels externer SR ist dies eine Selbstreferenz auf Art. 10 Abs. 3 SR 367.1."
+  },
+  {
+    "ITEM": 14,
+    "ARTICLE_EID": "art_25",
+    "TARGET_SR": "SR 367.1",
+    "assigned_articles": [
+      "Art. 101 Abs. 2 bernisches Personalgesetz"
+    ],
+    "confidence": "medium",
+    "reasoning": "Es wird auf \"Art. 101 Abs. 2 des bernischen Personalgesetzes vom 16. Sept. 2004\" verwiesen. Dieses kantonale Gesetz gehört nicht zur Systematischen Bundesrechtssammlung und hat daher keine SR-Nummer; der Verweis bleibt als beschreibende Artikelangabe ohne Zuordnung zu einer Bundes-SR."
+  },
+  {
+    "ITEM": 15,
+    "ARTICLE_EID": "art_26",
+    "TARGET_SR": "SR 367.1",
+    "assigned_articles": [
+      "Art. 28 Abs. 2",
+      "Art. 28 Abs. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Formulierung \"Artikel 28 Absätze 2 und 3\" ist eine klare interne Verweisung auf zwei Absätze desselben Artikels innerhalb der Vereinbarung SR 367.1."
+  },
+  {
+    "ITEM": 16,
+    "ARTICLE_EID": "art_27",
+    "TARGET_SR": "SR 367.1",
+    "assigned_articles": [
+      "Art. 3 Abs. 4",
+      "Art. 18"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Auflösung bestehender Nutzungsvereinbarungen \"(Art. 3 Abs. 4 und Art. 18)\" bezieht sich auf intern definierte Nutzungsvereinbarungen und Leistungsbezüger; daher Selbstreferenzen."
+  },
+  {
+    "ITEM": 17,
+    "ARTICLE_EID": "art_28",
+    "TARGET_SR": "SR 367.1",
+    "assigned_articles": [
+      "Art. 26 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Gründungsversammlung wird \"zwischen dem Erreichen der Mitgliederzahl nach Artikel 26 Absatz 2\" durchgeführt; dies ist eine interne Bestimmung der gleichen Vereinbarung."
+  },
+  {
+    "ITEM": 18,
+    "ARTICLE_EID": "art_29",
+    "TARGET_SR": "SR 367.1",
+    "assigned_articles": [
+      "Art. 3 Abs. 4",
+      "Art. 18"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Möglichkeit, sich ohne neue Nutzungsvereinbarung \"(Art. 3 Abs. 4 und Art. 18)\" weiterhin zu beteiligen, verweist auf interne Regelungen zu Nutzungsvereinbarungen und Leistungsbezügern."
+  },
+  {
+    "ITEM": 19,
+    "ARTICLE_EID": "art_30",
+    "TARGET_SR": "SR 367.1",
+    "assigned_articles": [
+      "Art. 13 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Bestimmung ersetzt \"die einfache Mehrheit (Art. 13 Abs. 2)\" durch eine qualifizierte Mehrheit; dies ist eine interne Verweisung auf die Mehrheitsregel der strategischen Versammlung."
+  },
+  {
+    "ITEM": 20,
+    "ARTICLE_EID": "art_34",
+    "TARGET_SR": "SR 367.1",
+    "assigned_articles": [
+      "Art. 22 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Schlüssel \"(Art. 22 Abs. 1)\" für die Aufteilung des Liquidationsergebnisses ist in Art. 22 Abs. 1 derselben Vereinbarung geregelt; keine externe SR genannt."
+  },
+  {
+    "ITEM": 21,
+    "ARTICLE_EID": "art_34",
+    "TARGET_SR": "SR 367.1",
+    "assigned_articles": [
+      "Art. 21 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Schlüssel \"(Art. 21 Abs. 1)\" für Beiträge an allgemeine Kosten ist in Art. 21 Abs. 1 der Vereinbarung festgelegt; interne Selbstreferenz."
+  },
+  {
+    "ITEM": 22,
+    "ARTICLE_EID": "art_35",
+    "TARGET_SR": "SR 367.1",
+    "assigned_articles": [
+      "Art. 18",
+      "Art. 19 Abs. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Regeln für Leistungsbezüger ohne Parteistatus \"(Art. 18 und Art. 19 Abs. 3)\" sind interne Bestimmungen der Vereinbarung; keine andere SR im Kontext."
+  },
+  {
+    "ITEM": 23,
+    "ARTICLE_EID": "art_36",
+    "TARGET_SR": "SR 101",
+    "assigned_articles": [
+      "Art. 44 Abs. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Satz wiederholt den Verweis aus ITEM 4 ohne explizite Nennung von SR 101 im Snippet: \"(Art. 44 Abs. 3 der Bundesverfassung)\"; systematisch ist dies Art. 44 Abs. 3 BV (SR 101)."
+  }
+]

@@ -1,0 +1,30 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 510.10",
+    "assigned_articles": [
+      "Art. 150 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet explicitly states 'gestützt auf Artikel 150 Absatz 1 des Militärgesetzes ... SR 510.10'; Article 150 paragraph 1 is directly and unambiguously linked to SR 510.10."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "The reference 'nach Artikel 1' appears without any SR or acronym context and clearly refers to Article 1 of the same ordinance; per rules, this is an internal self-reference and not assigned to an external SR."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_6",
+    "TARGET_SR": "SR 510.10",
+    "assigned_articles": [
+      "Art. 70 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "The phrase 'Artikel 70 Absatz 2 des Militärgesetzes' identifies Article 70 paragraph 2 of the Militärgesetz; by Swiss practice the Militärgesetz is SR 510.10, so this is an external reference to Art. 70 Abs. 2 SR 510.10 rather than an internal article."
+  }
+]

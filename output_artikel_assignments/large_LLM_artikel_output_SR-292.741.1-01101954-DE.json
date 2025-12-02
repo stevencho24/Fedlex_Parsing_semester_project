@@ -1,0 +1,52 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 0.946.297.411",
+    "assigned_articles": [
+      "Art. 13 Abs. 3–5"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Präambel nennt ausdrücklich: «in Ausführung von Artikel 13 Absätze 3–5 des genannten Handelsvertrages, SR 0.946.297.411». Der Artikel ist direkt mit dem genannten SR-Dokument verknüpft."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 0.946.297.411",
+    "assigned_articles": [
+      "Art. 13 Abs. 3–5"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Satz: «wegen Verletzung von Artikel 13 Absätze 3–5 des Handelsvertrages … SR 0.946.297.411» wird derselbe Handelsvertragsartikel wie in der Präambel genannt. Die Formulierung zeigt klar, dass Art. 13 Abs. 3–5 des Handelsvertrags mit SR 0.946.297.411 gemeint ist."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": "SR 173.110",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "medium",
+    "reasoning": "Der ursprüngliche Verweis betrifft die Artikel 97 ff. des alten Bundesgesetzes über die Organisation der Bundesrechtspflege; im Autorennachtrag heisst es nur noch: «Siehe heute: das Bundesgerichtsgesetz vom 17. Juni 2005 (SR 173.110).» Es wird kein bestimmter Artikel des BGG genannt, sondern das Gesetz als Ganzes als heutige Entsprechung bezeichnet."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Stelle wiederholt lediglich «Artikel 13 Absätze 3–5 des Handelsvertrages …» ohne SR-Angabe. Der entsprechende SR-Bezug (SR 0.946.297.411) ist bereits in ITEM 1 und 2 mit demselben Artikel erfasst. Gemäss Vorgabe ist dies daher als interne/selbständige Artikelreferenz des Handelsvertrags zu behandeln, nicht als neue SR-Zuordnung."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Formulierung «im Sinne der Artikel 97ff. des Bundesgesetzes vom 16. Dezember 1943 über die Organisation der Bundesrechtspflege» verweist auf Artikel des genannten Gesetzes, ohne SR-Nummer. Der explizite SR-Verweis (SR 173.110) erfolgt separat in ITEM 3. Diese Stelle ist daher als eigenständige Gesetzesartikelreferenz ohne direkte SR-Zuordnung zu werten."
+  }
+]

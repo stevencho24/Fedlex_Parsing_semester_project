@@ -1,0 +1,113 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 172.010",
+    "assigned_articles": [
+      "Art. 46a"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Präambel nennt ausdrücklich «Artikel 46a des Regierungs- und Verwaltungsorganisationsgesetzes ... SR 172.010»; der Artikel ist direkt mit diesem Gesetz verknüpft."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 641.20",
+    "assigned_articles": [
+      "Art. 84 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Im selben Satz: «auf Artikel 84 Absatz 2 des Mehrwertsteuergesetzes ... SR 641.20»; der Artikel ist grammatikalisch eindeutig diesem SR zugeordnet."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 642.11",
+    "assigned_articles": [
+      "Art. 183",
+      "Art. 195"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Präambel spricht von «den Artikeln 183 und 195 des Bundesgesetzes ... SR 642.11 über die direkte Bundessteuer (DBG)»; beide Artikel gehören klar zu diesem Gesetz."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": "SR 172.041.1",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "Formulierung «gelten die Bestimmungen der Allgemeinen Gebührenverordnung ... SR 172.041.1 (AllgGebV)» ohne Nennung einzelner Artikel; es wird die Verordnung als Ganzes bzw. ihre Bestimmungen generell für anwendbar erklärt."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": "SR 313.32",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "«gilt die Verordnung vom 25. November 1974 SR 313.32 über Kosten und Entschädigungen im Verwaltungsstrafverfahren» ohne Artikelangabe; es handelt sich um eine generelle Verweisung auf die Verordnung."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": "SR 172.041.1",
+    "assigned_articles": [
+      "Art. 6"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Satz nennt ausdrücklich «insbesondere die Auslagen nach Artikel 6 AllgGebV SR 172.041.1»; Art. 6 ist direkt mit der AllgGebV (SR 172.041.1) verknüpft."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 642.11",
+    "assigned_articles": [
+      "Art. 190–195"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet: «... bei besonderen Untersuchungsmassnahmen nach den Artikeln 190–195 DBG.»; DBG ist in der Präambel als SR 642.11 definiert, und die Artikelspanne 190–195 wird ausdrücklich genannt."
+  },
+  {
+    "ITEM": 8,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": "SR 642.11",
+    "assigned_articles": [
+      "Art. 190–195"
+    ],
+    "confidence": "high",
+    "reasoning": "Auch hier: «... nach den Artikeln 190–195 DBG»; DBG = SR 642.11 gemäss Präambel. Die Verweisung betrifft dieselbe Artikelspanne 190–195."
+  },
+  {
+    "ITEM": 9,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "self",
+    "assigned_articles": [
+      "Art. 190–195 (SR 642.11)"
+    ],
+    "confidence": "high",
+    "reasoning": "Artikelreferenz: «nach den Artikeln 190–195 DBG.»; dies ist keine Selbstreferenz innerhalb der vorliegenden Verordnung, sondern eine erneute Verweisung auf DBG (SR 642.11). Zur Klarstellung wird die Quelle im Artikelfeld mit angegeben."
+  },
+  {
+    "ITEM": 10,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": "self",
+    "assigned_articles": [
+      "Art. 1 Abs. 1 Bst. e"
+    ],
+    "confidence": "high",
+    "reasoning": "«... nach Artikel 1 Absatz 1 Buchstabe e werden die Gebühren ...»; es wird eindeutig auf einen Artikel der eigenen Verordnung verwiesen (interne Struktur, keine SR-Nennung)."
+  },
+  {
+    "ITEM": 11,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": "self",
+    "assigned_articles": [
+      "Art. 6 AllgGebV (SR 172.041.1)"
+    ],
+    "confidence": "high",
+    "reasoning": "«... insbesondere die Auslagen nach Artikel 6 AllgGebV ...»; im Snippet dieser artikel_reference fehlt die SR-Angabe, daher ist es formal eine externe Normverweisung ohne explizite SR im Satz. Da aber im separaten SR_link_detection-Item 6 derselbe Satz mit «SR 172.041.1» erscheint, wird hier Art. 6 der AllgGebV als verknüpfter Artikel ausgewiesen."
+  }
+]

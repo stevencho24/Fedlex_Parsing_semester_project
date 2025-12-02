@@ -1,0 +1,32 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 241",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "The preamble text cites the Bundesgesetz gegen den unlauteren Wettbewerb (UWG) only by its title and SR number without mentioning any specific article or paragraph; this is a generic legal basis reference to the whole act."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 241",
+    "assigned_articles": [
+      "Art. 10 Abs. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet explicitly states 'auf der Grundlage von Artikel 10 Absatz 3 UWG'; UWG is mapped to SR 241 in the preamble_callback, so this clearly refers to Art. 10 Abs. 3 of SR 241."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": "SR 241",
+    "assigned_articles": [
+      "Art. 10 Abs. 4"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet explicitly states 'in den Fällen nach Artikel 10 Absatz 4 UWG'; UWG is mapped to SR 241, so this clearly refers to Art. 10 Abs. 4 of SR 241."
+  }
+]

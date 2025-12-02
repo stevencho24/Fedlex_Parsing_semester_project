@@ -1,0 +1,362 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 101",
+    "assigned_articles": [
+      "Art. 75",
+      "Art. 75b"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Formulierung «gestützt auf die Artikel 75 und 75b der Bundesverfassung SR 101» verknüpft die genannten Artikel direkt mit der Bundesverfassung (SR 101)."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": "SR 431.02",
+    "assigned_articles": [
+      "Art. 3 lit. b"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Snippet steht «gemäss Artikel 3 Buchstabe b des Registerharmonisierungsgesetzes ... SR 431.02»; damit ist eindeutig Art. 3 Buchstabe b dieses Gesetzes gemeint."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_17",
+    "TARGET_SR": "SR 311.0",
+    "assigned_articles": [
+      "Art. 292"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Passage «Strafe nach Artikel 292 des Strafgesetzbuches SR 311.0» verweist klar auf Art. 292 StGB."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_20",
+    "TARGET_SR": "SR 173.110",
+    "assigned_articles": [
+      "Art. 112 Abs. 4"
+    ],
+    "confidence": "high",
+    "reasoning": "Es heisst ausdrücklich «Artikel 112 Absatz 4 des Bundesgerichtsgesetzes ... SR 173.110»; damit ist Art. 112 Abs. 4 BGG gemeint."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_20",
+    "TARGET_SR": "SR 700",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "medium",
+    "reasoning": "Der Text verweist allgemein auf «das Raumplanungsgesetz vom 22. Juni 1979 SR 700» ohne konkrete Artikelangabe; es handelt sich um eine generelle Verweisung auf das Gesetz als Ganzes."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«Artikel 3 Buchstabe b des Registerharmonisierungsgesetzes» bezieht sich zwar materiell auf SR 431.02, diese Zuordnung wurde aber bereits in ITEM 2 über SR_link_detection erfasst; hier liegt nur eine Wiederholung ohne explizite SR-Nennung vor, daher als interne/selbständige Artikelreferenz behandelt."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 4"
+    ],
+    "confidence": "high",
+    "reasoning": "«Wohnungsinventars nach Artikel 4» verweist auf einen anderen Artikel desselben Gesetzes; keine SR-Angabe, daher interne Selbstreferenz."
+  },
+  {
+    "ITEM": 8,
+    "ARTICLE_EID": "art_6",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 5"
+    ],
+    "confidence": "high",
+    "reasoning": "«nach Artikel 5 festgestellte Zweitwohnungsanteil» ist ein Verweis auf einen Artikel innerhalb desselben Gesetzes; keine externe SR-Verknüpfung."
+  },
+  {
+    "ITEM": 9,
+    "ARTICLE_EID": "art_6",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 7 Abs. 1 lit. b",
+      "Art. 8",
+      "Art. 9",
+      "Art. 26",
+      "Art. 27"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Aufzählung «Artikel 7 Absatz 1 Buchstabe b und nach Artikel 8, 9, 26 oder 27» betrifft ausschliesslich Artikel desselben Gesetzes; keine SR-Nennung, daher interne Verweisung."
+  },
+  {
+    "ITEM": 10,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 2 Abs. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "«Wohnung, die nach Artikel 2 Absatz 3 ... gleichgestellt ist» verweist auf Art. 2 Abs. 3 des gleichen Gesetzes; reine Selbstreferenz."
+  },
+  {
+    "ITEM": 11,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 8",
+      "Art. 9",
+      "Art. 26",
+      "Art. 27"
+    ],
+    "confidence": "high",
+    "reasoning": "«keine solche Anordnung und liegt auch keine Bewilligung nach Artikel 8, 9, 26 oder 27 vor» verweist auf interne Artikel; keine externe SR-Verknüpfung."
+  },
+  {
+    "ITEM": 12,
+    "ARTICLE_EID": "art_8",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 7 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "«ohne Nutzungsbeschränkung nach Artikel 7 Absatz 1» ist ein klarer Verweis auf einen Artikel desselben Gesetzes."
+  },
+  {
+    "ITEM": 13,
+    "ARTICLE_EID": "art_8",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 7 Abs. 4",
+      "Art. 7 Abs. 5"
+    ],
+    "confidence": "high",
+    "reasoning": "«Artikel 7 Absätze 4 und 5 gilt sinngemäss» ist eine interne Verweisung; keine SR-Nennung."
+  },
+  {
+    "ITEM": 14,
+    "ARTICLE_EID": "art_8",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 7 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "«ohne Nutzungsbeschränkung nach Artikel 7 Absatz 1» verweist intern auf Art. 7 Abs. 1 desselben Gesetzes."
+  },
+  {
+    "ITEM": 15,
+    "ARTICLE_EID": "art_9",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 7 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "«ohne Nutzungsbeschränkung nach Artikel 7 Absatz 1» ist wiederum eine interne Selbstreferenz."
+  },
+  {
+    "ITEM": 16,
+    "ARTICLE_EID": "art_9",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 7 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "«Nutzungsbeschränkungen im Sinne von Artikel 7 Absatz 1» verweist auf denselben Erlass; keine externe SR-Verknüpfung."
+  },
+  {
+    "ITEM": 17,
+    "ARTICLE_EID": "art_11",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 7 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "«ohne dass Nutzungsbeschränkungen nach Artikel 7 Absatz 1 auferlegt werden müssen» ist eine interne Verweisung."
+  },
+  {
+    "ITEM": 18,
+    "ARTICLE_EID": "art_11",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 7 Abs. 1 lit. a",
+      "Art. 7 Abs. 1 lit. b",
+      "Art. 7 Abs. 2 lit. a",
+      "Art. 7 Abs. 2 lit. b"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Formulierung verweist mehrfach auf «Artikel 7 Absatz 1 Buchstabe a», «Artikel 7 Absatz 1 Buchstabe b» und «Artikel 7 Absatz 2 Buchstabe a oder b»; alles interne Artikel."
+  },
+  {
+    "ITEM": 19,
+    "ARTICLE_EID": "art_12",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 11 Abs. 2",
+      "Art. 11 Abs. 3",
+      "Art. 11 Abs. 4"
+    ],
+    "confidence": "high",
+    "reasoning": "«Änderungsmöglichkeiten nach Artikel 11 Absätze 2–4» ist eine interne Spannweite von Absätzen innerhalb von Art. 11."
+  },
+  {
+    "ITEM": 20,
+    "ARTICLE_EID": "art_13",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 7 Abs. 1 lit. a"
+    ],
+    "confidence": "high",
+    "reasoning": "«Wechsel der Nutzung nach Artikel 7 Absatz 1 Buchstabe a» verweist intern auf Art. 7 Abs. 1 lit. a."
+  },
+  {
+    "ITEM": 21,
+    "ARTICLE_EID": "art_13",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 7 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "«Nutzungskategorien nach Artikel 7 Absatz 2» ist eine interne Verweisung."
+  },
+  {
+    "ITEM": 22,
+    "ARTICLE_EID": "art_14",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 7 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "«Nutzungsbeschränkung nach Artikel 7 Absatz 1» verweist auf denselben Erlass."
+  },
+  {
+    "ITEM": 23,
+    "ARTICLE_EID": "art_16",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 7 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "«Nutzungsbeschränkung nach Artikel 7 Absatz 1 angemerkt ist» ist eine interne Selbstreferenz."
+  },
+  {
+    "ITEM": 24,
+    "ARTICLE_EID": "art_16",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 4",
+      "Art. 7"
+    ],
+    "confidence": "high",
+    "reasoning": "«zum Vollzug der Artikel 4 und 7 notwendigen Informationen» verweist auf interne Artikel 4 und 7."
+  },
+  {
+    "ITEM": 25,
+    "ARTICLE_EID": "art_17",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 7 Abs. 1",
+      "Art. 292"
+    ],
+    "confidence": "medium",
+    "reasoning": "Der Satz enthält eine interne Verweisung auf «Artikel 7 Absatz 1» sowie eine externe auf «Artikel 292 des Strafgesetzbuches». Die externe Verweisung auf Art. 292 StGB wurde bereits in ITEM 3 mit SR 311.0 erfasst; hier wird der gleiche Text ohne SR-Nennung wiedergegeben. Daher wird dies als interne Referenz (inkl. der materiell relevanten Strafnorm) behandelt, ohne erneute SR-Zuordnung."
+  },
+  {
+    "ITEM": 26,
+    "ARTICLE_EID": "art_17",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 7 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "«unter Einhaltung der Nutzungsbeschränkung nach Artikel 7 Absatz 1» ist eine interne Verweisung."
+  },
+  {
+    "ITEM": 27,
+    "ARTICLE_EID": "art_17",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 15"
+    ],
+    "confidence": "high",
+    "reasoning": "«Aufsichtsbehörde nach Artikel 15» verweist auf einen anderen Artikel desselben Gesetzes."
+  },
+  {
+    "ITEM": 28,
+    "ARTICLE_EID": "art_18",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 17 Abs. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "«Vermietung nach Artikel 17 Absatz 3» ist eine interne Verweisung."
+  },
+  {
+    "ITEM": 29,
+    "ARTICLE_EID": "art_20",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 112 Abs. 4"
+    ],
+    "confidence": "medium",
+    "reasoning": "«Artikel 112 Absatz 4 des Bundesgerichtsgesetzes ... bleibt vorbehalten» verweist materiell auf Art. 112 Abs. 4 BGG (SR 173.110). Die explizite SR-Verknüpfung wurde jedoch bereits in ITEM 4 (SR_link_detection) erfasst; hier liegt nur die Wiederholung ohne SR-Angabe vor, daher als interne/kontextuelle Referenz ohne erneute SR-Zuordnung."
+  },
+  {
+    "ITEM": 30,
+    "ARTICLE_EID": "art_25",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 7 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "«Nutzungsbeschränkung nach Artikel 7 Absatz 1» ist eine interne Verweisung."
+  },
+  {
+    "ITEM": 31,
+    "ARTICLE_EID": "art_26",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 7 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "«ohne Nutzungsbeschränkung nach Artikel 7 Absatz 1» verweist intern auf Art. 7 Abs. 1."
+  },
+  {
+    "ITEM": 32,
+    "ARTICLE_EID": "art_26",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 7 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "«ohne Nutzungsbeschränkung nach Artikel 7 Absatz 1» ist wiederum eine interne Selbstreferenz."
+  },
+  {
+    "ITEM": 33,
+    "ARTICLE_EID": "art_27",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 7 Abs. 2",
+      "Art. 8",
+      "Art. 9",
+      "Art. 26",
+      "Art. 7 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Satz verweist auf «Artikel 7 Absatz 2, Artikel 8, 9 oder 26» sowie auf «ohne Nutzungsbeschränkung nach Artikel 7 Absatz 1»; alles interne Artikel."
+  },
+  {
+    "ITEM": 34,
+    "ARTICLE_EID": "art_27",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 26 Abs. 1 lit. b"
+    ],
+    "confidence": "high",
+    "reasoning": "«im Sinne von Artikel 26 Absatz 1 Buchstabe b» verweist auf eine Bestimmung desselben Gesetzes; keine externe SR-Verknüpfung."
+  }
+]

@@ -1,0 +1,63 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 101",
+    "assigned_articles": [
+      "Art. 75",
+      "Art. 103"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet explicitly cites 'Artikel 75 und 103 der Bundesverfassung SR 101'; both articles are directly and syntactically linked to SR 101."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": "SR 220",
+    "assigned_articles": [
+      "Art. 829"
+    ],
+    "confidence": "high",
+    "reasoning": "The phrase 'im Sinne von Artikel 829 des Obligationenrechts SR 220' directly links Art. 829 to SR 220 via prepositional attribution."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_12",
+    "TARGET_SR": "SR 220",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "The text refers generally to 'die Bestimmungen des Obligationenrechts SR 220 über die Genossenschaft des privaten Rechts' without specifying particular articles; this is a broad, unspecific incorporation of the relevant part of SR 220."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 829"
+    ],
+    "confidence": "high",
+    "reasoning": "This is an artikel_reference mirroring ITEM 2, referring to 'Artikel 829 des Obligationenrechts'. In context of the document, this is an outgoing reference to OR Art. 829, not a self-reference within SR 935.12."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 4 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "The phrase 'Die gemäss Artikel 4 Absatz 1 gewährten Darlehen' clearly refers to another provision within the same act (internal cross-reference to Art. 4 Abs. 1 of SR 935.12). No external SR is mentioned, so this is a self-reference."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_10",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 9 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "The phrase 'Kontrollen nach Artikel 9 Absatz 2' is an internal cross-reference to Art. 9 Abs. 2 of the same act (SR 935.12). No external SR context is present, so it is a self-reference."
+  }
+]

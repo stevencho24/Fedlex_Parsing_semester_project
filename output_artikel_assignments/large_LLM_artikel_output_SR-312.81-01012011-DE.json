@@ -1,0 +1,75 @@
+[
+  {
+    "Item": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 312.0",
+    "assigned_articles": [
+      "Art. 445"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet explicitly cites 'Artikel 445 der Strafprozessordnung SR 312.0 (StPO)'; Art. 445 is directly and syntactically linked to SR 312.0."
+  },
+  {
+    "Item": 2,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 312.0",
+    "assigned_articles": [
+      "Art. 286-298"
+    ],
+    "confidence": "high",
+    "reasoning": "The text states 'verdeckten Ermittlung nach den Artikeln 286–298 StPO'; this is a direct range reference to Arts. 286–298 of the StPO (SR 312.0)."
+  },
+  {
+    "Item": 3,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": "SR 312.0",
+    "assigned_articles": [
+      "Art. 291 Abs. 2 lit. c",
+      "Art. 291 Abs. 2 lit. d",
+      "Art. 290"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet contains 'Artikel 291 Absatz 2 Buchstabe c StPO', 'Artikel 291 Absatz 2 Buchstabe d StPO' and 'Artikel 290 StPO'; all are explicitly tied to StPO (SR 312.0)."
+  },
+  {
+    "Item": 4,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": "SR 312.0",
+    "assigned_articles": [
+      "Art. 295 Abs. 1",
+      "Art. 295 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "The phrase 'nach Artikel 295 Absätze 1 und 2 StPO' clearly refers to Art. 295 paragraphs 1 and 2 of the StPO (SR 312.0)."
+  },
+  {
+    "Item": 5,
+    "ARTICLE_EID": "art_13",
+    "TARGET_SR": "SR 312.0",
+    "assigned_articles": [
+      "Art. 287"
+    ],
+    "confidence": "high",
+    "reasoning": "The text mentions 'gemäss Artikel 287 StPO'; this is a direct reference to Art. 287 of the StPO (SR 312.0)."
+  },
+  {
+    "Item": 6,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "This artikel_reference repeats 'Artikel 291 Absatz 2 Buchstabe c StPO' but the cross-reference to SR 312.0 has already been captured in Item 3; here it functions as an internal contextual reference within the same article, not a new SR link assignment."
+  },
+  {
+    "Item": 7,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "This artikel_reference repeats 'Artikel 291 Absatz 2 Buchstabe d StPO' and 'Artikel 290 StPO' already assigned in Item 3; it serves as an internal/self-reference within the same document rather than a distinct SR link assignment."
+  }
+]

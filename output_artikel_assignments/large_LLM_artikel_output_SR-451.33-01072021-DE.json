@@ -1,0 +1,209 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 451",
+    "assigned_articles": [
+      "Art. 18a Abs. 1",
+      "Art. 18a Abs. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Formulierung «gestützt auf Artikel 18a Absätze 1 und 3 des Bundesgesetzes … SR 451 … (NHG)» verknüpft die genannten Absätze direkt mit dem NHG (SR 451)."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 101",
+    "assigned_articles": [
+      "Art. 78 Abs. 5"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Snippet steht «Artikel 78 Absatz 5 der Bundesverfassung SR 101»; dieser Artikel gehört eindeutig zur Bundesverfassung (SR 101)."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": "SR 170.512",
+    "assigned_articles": [
+      "Art. 5 Abs. 1 Bst. c"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Text nennt «Art. 5 Abs. 1 Bst. c des Publikationsgesetzes … SR 170.512»; diese Artikelangabe ist direkt dem Publikationsgesetz (SR 170.512) zugeordnet."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": "SR 813.11",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "medium",
+    "reasoning": "Es wird nur «im Sinne der Chemikalienverordnung vom 5. Juni 2015 SR 813.11» erwähnt, ohne konkrete Artikelangabe; dies ist eine generelle Verweisformel auf die Verordnung als Ganzes."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": "SR 813.12",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "medium",
+    "reasoning": "Formulierung «Biozidprodukteverordnung vom 18. Mai 2005 SR 813.12» ohne Artikel- oder Absatzangabe; daher als allgemeiner Dokumentverweis zu werten."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": "SR 700",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "medium",
+    "reasoning": "«Raumplanungsgesetz vom 22. Juni 1979 SR 700» wird ohne konkrete Artikel zitiert; der Bezug dient der Umschreibung der Rechtsgrundlage insgesamt."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_11",
+    "TARGET_SR": "SR 451.1",
+    "assigned_articles": [
+      "Art. 18",
+      "Art. 19"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Satz lautet «richten sich nach den Artikeln 18 und 19 der Verordnung vom 16. Januar 1991 SR 451.1 … (NHV)»; die Artikel 18 und 19 werden explizit dieser Verordnung zugeordnet."
+  },
+  {
+    "ITEM": 8,
+    "ARTICLE_EID": "art_11",
+    "TARGET_SR": "SR 910.13",
+    "assigned_articles": [
+      "Art. 55",
+      "Art. 56",
+      "Art. 57",
+      "Art. 58",
+      "Art. 59",
+      "Art. 60",
+      "Art. 61",
+      "Art. 62"
+    ],
+    "confidence": "high",
+    "reasoning": "Es heisst «nach den Artikeln 55–62 der Direktzahlungsverordnung … SR 910.13»; der Bereich 55–62 ist als fortlaufende Artikelreihe dieser Verordnung zu verstehen."
+  },
+  {
+    "ITEM": 9,
+    "ARTICLE_EID": "art_13",
+    "TARGET_SR": "SR 451",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "medium",
+    "reasoning": "«Änderung des NHG (gemäss Botschaft …)» verweist auf eine Gesetzesänderung des NHG (SR 451), ohne bestimmte Artikel zu nennen; es handelt sich um einen globalen Verweis auf die Gesetzesnovelle."
+  },
+  {
+    "ITEM": 10,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«Artikel 78 Absatz 5 der Bundesverfassung» ist bereits in ITEM 2 als externer SR-101-Verweis erfasst; hier liegt kein zusätzlicher, neuer SR-Bezug vor, sondern dieselbe inhaltliche Stelle ohne explizite SR-Nummer. Für die Artikelzuordnung zu SR-Dokumenten ist dieser Eintrag redundant und wird als interner Verweis behandelt."
+  },
+  {
+    "ITEM": 11,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«Art. 5 Abs. 1 Bst. c des Publikationsgesetzes» ist bereits in ITEM 3 mit SR 170.512 verknüpft; der artikel_reference-Eintrag wiederholt nur denselben externen Bezug ohne SR-Nummer und begründet keinen neuen SR-Link."
+  },
+  {
+    "ITEM": 12,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«(Art. 3 Abs. 1 und 2)» verweist eindeutig auf Artikel derselben Verordnung; es wird kein anderes Gesetz oder eine SR-Nummer erwähnt."
+  },
+  {
+    "ITEM": 13,
+    "ARTICLE_EID": "art_6",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«Die Massnahmen nach Artikel 3 Absatz 1 und Artikel 5» sind typische Binnenverweise innerhalb derselben Verordnung; kein externer SR-Kontext vorhanden."
+  },
+  {
+    "ITEM": 14,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«sofern sie mit Artikel 5 vereinbar sind» ist ein klarer Selbstverweis auf einen anderen Artikel der gleichen Verordnung; keine Nennung eines anderen Erlasses."
+  },
+  {
+    "ITEM": 15,
+    "ARTICLE_EID": "art_9",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«Massnahmen nach den Artikeln 5, 7 und 8» bezieht sich auf Artikel derselben Verordnung; es fehlt jeder Hinweis auf ein anderes SR-Dokument."
+  },
+  {
+    "ITEM": 16,
+    "ARTICLE_EID": "art_10",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«nach Artikel 3 Absatz 1 und Artikel 5 erforderlichen Massnahmen» ist ein interner Strukturverweis innerhalb der Verordnung; kein externer Gesetzesbezug."
+  },
+  {
+    "ITEM": 17,
+    "ARTICLE_EID": "art_11",
+    "TARGET_SR": "SR 451.1",
+    "assigned_articles": [
+      "Art. 18",
+      "Art. 19"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Satz wiederholt den externen Verweis: «richten sich nach den Artikeln 18 und 19 der Verordnung … über den Natur- und Heimatschutz (NHV)»; diese Artikel gehören zur NHV (SR 451.1)."
+  },
+  {
+    "ITEM": 18,
+    "ARTICLE_EID": "art_11",
+    "TARGET_SR": "SR 910.13",
+    "assigned_articles": [
+      "Art. 55",
+      "Art. 56",
+      "Art. 57",
+      "Art. 58",
+      "Art. 59",
+      "Art. 60",
+      "Art. 61",
+      "Art. 62"
+    ],
+    "confidence": "high",
+    "reasoning": "«nach den Artikeln 55–62 der Direktzahlungsverordnung» ist derselbe externe Verweis wie in ITEM 8; die Artikel 55 bis 62 gehören zur Direktzahlungsverordnung (SR 910.13)."
+  },
+  {
+    "ITEM": 19,
+    "ARTICLE_EID": "art_13",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«mit Ausnahme von Artikel 5 Absatz 2 Buchstabe f» ist ein reiner Selbstverweis auf einen Artikel derselben Verordnung; es wird kein anderes Gesetz oder eine SR-Nummer genannt."
+  }
+]

@@ -1,0 +1,153 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 101",
+    "assigned_articles": [
+      "Art. 66 Abs. 1",
+      "Art. 117a Abs. 2 lit. a"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Präambel nennt ausdrücklich «Artikel 66 Absatz 1 und 117a Absatz 2 Buchstabe a der Bundesverfassung SR 101»; beide Artikel gehören damit klar zur SR 101."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 412.10",
+    "assigned_articles": [
+      "Art. 29"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Snippet steht «Bildungsgang Pflege an einer höheren Fachschule (HF) nach Artikel 29 des Berufsbildungsgesetzes ... SR 412.10»; Art. 29 ist damit direkt diesem Gesetz (SR 412.10) zugeordnet."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 811.21",
+    "assigned_articles": [
+      "Art. 2 Abs. 2 lit. a Ziff. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "Formulierung «nach Artikel 2 Absatz 2 Buchstabe a Ziffer 1 des Gesundheitsberufegesetzes ... SR 811.21» verknüpft diese genaue Bestimmung eindeutig mit SR 811.21."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": "SR 0.142.112.681",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "Es wird nur «im Sinne des Abkommens vom 21. Juni 1999 SR 0.142.112.681 ... über die Freizügigkeit» erwähnt, ohne Artikelangabe; dies ist eine generelle Verweisung auf das Abkommen."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": "SR 0.632.31",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "Das «Übereinkommen vom 4. Januar 1960 SR 0.632.31 zur Errichtung der Europäischen Freihandelsassoziation» wird ohne konkrete Artikel zitiert; daher allgemeine Dokumentverweisung."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_13",
+    "TARGET_SR": "SR 832.10",
+    "assigned_articles": [
+      "Art. 12",
+      "Art. 36a Abs. 3",
+      "Art. 39 Abs. 1bis"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Text nennt «Artikel 12 ... des Bundesgesetzes ... SR 832.10» sowie «Artikel 36a Absatz 3 und 39 Absatz 1bis KVG»; alle drei Bestimmungen gehören zum KVG (SR 832.10)."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 29",
+      "Art. 2 Abs. 2 lit. a Ziff. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "Artikelreferenz innerhalb desselben Dokuments; sie wiederholt die externen Verweise aus ITEM 2 (Art. 29 BBG, SR 412.10) und ITEM 3 (Art. 2 Abs. 2 lit. a Ziff. 1 GesBG, SR 811.21). Da kein SR genannt ist, handelt es sich primär um Selbstverweise; die Artikelangaben werden hier aber als solche erfasst."
+  },
+  {
+    "ITEM": 8,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "«gemäss den Kriterien nach Artikel 3» bezieht sich klar auf Art. 3 derselben Verordnung; kein externes SR genannt, daher reine Selbstreferenz."
+  },
+  {
+    "ITEM": 9,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 3",
+      "Art. 4"
+    ],
+    "confidence": "high",
+    "reasoning": "«unter Berücksichtigung der Kriterien nach Artikel 3 und des Ausbildungskonzepts nach Artikel 4»; beide Artikel gehören zum gleichen Erlass (interne Verweisung)."
+  },
+  {
+    "ITEM": 10,
+    "ARTICLE_EID": "art_6",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "«Sie berücksichtigen dabei die Bedarfsplanung nach Artikel 2»; klarer interner Verweis auf Art. 2 der Verordnung."
+  },
+  {
+    "ITEM": 11,
+    "ARTICLE_EID": "art_8",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 5",
+      "Art. 6",
+      "Art. 7"
+    ],
+    "confidence": "high",
+    "reasoning": "«Aufgaben nach den Artikeln 5–7» ist ein Bereichsverweis innerhalb des gleichen Erlasses auf Art. 5 bis 7."
+  },
+  {
+    "ITEM": 12,
+    "ARTICLE_EID": "art_8",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 7"
+    ],
+    "confidence": "high",
+    "reasoning": "«Bundesbeiträge für die Ausbildungsbeiträge nach Artikel 7»; interner Verweis auf Art. 7."
+  },
+  {
+    "ITEM": 13,
+    "ARTICLE_EID": "art_9",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 5",
+      "Art. 6",
+      "Art. 7"
+    ],
+    "confidence": "high",
+    "reasoning": "«Gesuche um Bundesbeiträge nach den Artikeln 5 und 7 ... Gesuche ... nach Artikel 6»; alle drei sind interne Artikel derselben Verordnung."
+  },
+  {
+    "ITEM": 14,
+    "ARTICLE_EID": "art_13",
+    "TARGET_SR": "SR 832.10",
+    "assigned_articles": [
+      "Art. 12",
+      "Art. 36a Abs. 3",
+      "Art. 39 Abs. 1bis"
+    ],
+    "confidence": "high",
+    "reasoning": "Gleicher Wortlaut wie in ITEM 6, jedoch als artikel_reference; die genannten Artikel 12, 36a Abs. 3 und 39 Abs. 1bis gehören zum KVG (SR 832.10)."
+  }
+]

@@ -1,0 +1,32 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 831.201",
+    "assigned_articles": [
+      "Art. 3bis"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet explicitly states 'gestützt auf Artikel 3bis der Verordnung ... SR 831.201 über die Invalidenversicherung (IVV)'; the preposition 'der' and the placement directly before the SR reference clearly link Art. 3bis to SR 831.201."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 831.20",
+    "assigned_articles": [
+      "Art. 13"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet reads 'medizinische Massnahmen nach Artikel 13 des Bundesgesetzes ... SR 831.20 über die Invalidenversicherung'; 'Artikel 13' is syntactically tied to this Bundesgesetz, which is identified as SR 831.20."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "This artikel_reference snippet repeats the sentence from Item 2 but without the explicit SR number; within the current document context and absent an SR marker in the same phrase, this is treated as an internal/self-reference rather than a new SR link."
+  }
+]

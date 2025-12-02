@@ -1,0 +1,22 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 101",
+    "assigned_articles": [
+      "Art. 84"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet explicitly cites 'Artikel 84 der Bundesverfassung SR 101'; the article number is directly and syntactically linked to SR 101."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 725.14",
+    "assigned_articles": [
+      "Art. 84 Abs. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet states that this law regulates the implementation of 'Artikel 84 Absatz 3 der Bundesverfassung'; this is a cross-reference to Art. 84 Abs. 3 of the Federal Constitution (SR 101), but within the current document (SR 725.14) it functions as an internal reference to that external norm. As an artikel_reference item without explicit SR, it is treated as the SR link itself to Art. 84 Abs. 3 BV."
+  }
+]

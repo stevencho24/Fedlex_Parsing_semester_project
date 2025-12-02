@@ -1,0 +1,218 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 702",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "high",
+    "reasoning": "Preamble cites the Bundesgesetz über Zweitwohnungen (SR 702) as the legal basis without mentioning any specific article; this is a general reference to the whole act."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 431.841",
+    "assigned_articles": ["Art. 10 Abs. 1"],
+    "confidence": "high",
+    "reasoning": "Snippet explicitly states 'nach Artikel 10 Absatz 1 der Verordnung ... SR 431.841'; clear direct marking of the cited article and paragraph."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": "SR 431.841",
+    "assigned_articles": ["Art. 8 Abs. 2 Bst. a", "Art. 8 Abs. 3 Bst. a"],
+    "confidence": "high",
+    "reasoning": "Text refers to 'Artikel 8 Absätze 2 Buchstabe a und 3 Buchstabe a der Verordnung ... SR 431.841'; both paragraphs of Art. 8 are clearly attributed to this SR."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": "SR 702",
+    "assigned_articles": ["Art. 7 Abs. 1 Bst. a", "Art. 7 Abs. 2 Bst. a", "Art. 7 Abs. 2 Bst. b"],
+    "confidence": "high",
+    "reasoning": "Snippet repeatedly cites 'Artikel 7 Absatz 1 Buchstabe a', 'Artikel 7 Absatz 2 Buchstabe a' and 'Artikel 7 Absatz 2 Buchstabe b des Gesetzes'; 'Gesetz' is defined in the preamble as SR 702."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": "SR 702",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "medium",
+    "reasoning": "Phrase 'im Sinne des Gesetzes' invokes the statutory definition of 'strukturierter Beherbergungsbetrieb' in SR 702 but no specific article is mentioned; treated as a general definitional reference."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": "SR 702",
+    "assigned_articles": ["Art. 8 Abs. 5"],
+    "confidence": "high",
+    "reasoning": "Snippet explicitly refers to 'Artikel 8 Absatz 5 des Gesetzes'; 'Gesetz' is SR 702, so the cited provision is Art. 8 para. 5 SR 702."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_6",
+    "TARGET_SR": "SR 702",
+    "assigned_articles": ["Art. 9 Abs. 1"],
+    "confidence": "high",
+    "reasoning": "Definition of 'Ortsbildprägende Bauten' is tied to 'Artikel 9 Absatz 1 des Gesetzes'; clear direct marking to Art. 9 para. 1 SR 702."
+  },
+  {
+    "ITEM": 8,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": "SR 702",
+    "assigned_articles": ["Art. 7 Abs. 1 Bst. a", "Art. 7 Abs. 1 Bst. b"],
+    "confidence": "high",
+    "reasoning": "Sentence contrasts 'Nutzungsbeschränkung nach Artikel 7 Absatz 1 Buchstabe b' with Nutzung 'als Wohnung nach Artikel 7 Absatz 1 Buchstabe a'; both letters of Art. 7 para. 1 SR 702 are explicitly cited."
+  },
+  {
+    "ITEM": 9,
+    "ARTICLE_EID": "art_8",
+    "TARGET_SR": "SR 702",
+    "assigned_articles": ["Art. 14 Abs. 1 Bst. a"],
+    "confidence": "high",
+    "reasoning": "Both occurrences in the snippet refer to 'Sistierung nach Artikel 14 Absatz 1 Buchstabe a des Gesetzes'; clearly Art. 14 para. 1 letter a SR 702."
+  },
+  {
+    "ITEM": 10,
+    "ARTICLE_EID": "art_9",
+    "TARGET_SR": "SR 702",
+    "assigned_articles": ["Art. 14 Abs. 1 Bst. b", "Art. 17", "Art. 14 Abs. 1 Bst. b (Bestätigung)"],
+    "confidence": "medium",
+    "reasoning": "Multiple explicit mentions of 'Artikel 14 Absatz 1 Buchstabe b des Gesetzes' and one of 'Artikel 17 des Gesetzes'. The last sentence again cites Art. 14 Abs. 1 Bst. b. Substantively this is Art. 14 Abs. 1 Bst. b and Art. 17 SR 702; the repeated citation of Art. 14 Abs. 1 Bst. b is noted once more for completeness."
+  },
+  {
+    "ITEM": 11,
+    "ARTICLE_EID": "art_10",
+    "TARGET_SR": "SR 702",
+    "assigned_articles": ["Art. 7 Abs. 1 Bst. b", "Art. 8", "Art. 9", "Art. 14"],
+    "confidence": "high",
+    "reasoning": "Letter a cites 'Artikel 7 Absatz 1 Buchstabe b, 8 und 9 des Gesetzes'; letter b cites 'Artikel 14 des Gesetzes'. All are provisions of SR 702 as defined by the preamble acronym."
+  },
+  {
+    "ITEM": 12,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "This artikel_reference repeats the citation to 'Artikel 10 Absatz 1 der Verordnung ... über das eidgenössische Gebäude- und Wohnungsregister', which is already captured and assigned to SR 431.841 in ITEM 2; here it functions as a self-reference context and does not create a new SR link."
+  },
+  {
+    "ITEM": 13,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Reference 'nach Artikel 1 Absatz 1' clearly points to Art. 1 of the same ordinance (self-reference within SR 702.1); no external SR is mentioned, so this is an internal cross-reference only."
+  },
+  {
+    "ITEM": 14,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Phrase 'gemäss Artikel 1 Absatz 1' again refers to Art. 1 of the current document; no SR or acronym is present to link it to another act, so it is purely internal."
+  },
+  {
+    "ITEM": 15,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": "SR 702",
+    "assigned_articles": ["Art. 7 Abs. 1 Bst. a"],
+    "confidence": "high",
+    "reasoning": "This repeats the external reference already analyzed in ITEM 4: 'nach Artikel 7 Absatz 1 Buchstabe a des Gesetzes'; 'Gesetz' is SR 702, so it is an outgoing SR reference to that article."
+  },
+  {
+    "ITEM": 16,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": "SR 702",
+    "assigned_articles": ["Art. 7 Abs. 2 Bst. a"],
+    "confidence": "high",
+    "reasoning": "Snippet cites 'Artikel 7 Absatz 2 Buchstabe a des Gesetzes'; via the preamble acronym 'Gesetz' this is Art. 7 para. 2 letter a SR 702."
+  },
+  {
+    "ITEM": 17,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": "SR 702",
+    "assigned_articles": ["Art. 7 Abs. 2 Bst. b"],
+    "confidence": "high",
+    "reasoning": "Snippet cites 'Artikel 7 Absatz 2 Buchstabe b des Gesetzes'; again 'Gesetz' = SR 702, so this is Art. 7 para. 2 letter b SR 702."
+  },
+  {
+    "ITEM": 18,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": "SR 431.841",
+    "assigned_articles": ["Art. 8 Abs. 2 Bst. a", "Art. 8 Abs. 3 Bst. a"],
+    "confidence": "high",
+    "reasoning": "This repeats the external reference already captured in ITEM 3: 'nach Artikel 8 Absätze 2 Buchstabe a und 3 Buchstabe a der Verordnung ... über das eidgenössische Gebäude- und Wohnungsregister'; that Verordnung is SR 431.841."
+  },
+  {
+    "ITEM": 19,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Reference 'In Fällen nach Artikel 8 Absatz 1' points to Art. 8 of the same ordinance (SR 702.1); no external SR or acronym is present, so this is an internal self-reference."
+  },
+  {
+    "ITEM": 20,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Similarly, 'In Fällen nach Artikel 8 Absatz 4' refers to another paragraph of Art. 8 within the same document; no external SR context, so it remains an internal cross-reference."
+  },
+  {
+    "ITEM": 21,
+    "ARTICLE_EID": "art_8",
+    "TARGET_SR": "SR 702",
+    "assigned_articles": ["Art. 14 Abs. 1 Bst. a"],
+    "confidence": "high",
+    "reasoning": "The phrase 'Sistierungen nach Artikel 14 Absatz 1 Buchstabe a des Gesetzes' clearly cites Art. 14 para. 1 letter a of SR 702 via the preamble acronym 'Gesetz'."
+  },
+  {
+    "ITEM": 22,
+    "ARTICLE_EID": "art_8",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Reference 'wenn die Voraussetzungen nach Artikel 9 erfüllt sind' points to Art. 9 of the same ordinance; no SR or acronym is mentioned, so this is an internal reference only."
+  },
+  {
+    "ITEM": 23,
+    "ARTICLE_EID": "art_9",
+    "TARGET_SR": "SR 702",
+    "assigned_articles": ["Art. 14 Abs. 1 Bst. b"],
+    "confidence": "high",
+    "reasoning": "This repeats the external reference pattern: 'Sistierungen nach Artikel 14 Absatz 1 Buchstabe b des Gesetzes'; 'Gesetz' is SR 702, so it is Art. 14 para. 1 letter b SR 702."
+  },
+  {
+    "ITEM": 24,
+    "ARTICLE_EID": "art_9",
+    "TARGET_SR": "SR 702",
+    "assigned_articles": ["Art. 14 Abs. 1 Bst. b", "Art. 17"],
+    "confidence": "high",
+    "reasoning": "Snippet mentions 'Artikel 14 Absatz 1 Buchstabe b des Gesetzes' and 'Artikel 17 des Gesetzes'; both are provisions of SR 702 as defined in the preamble."
+  },
+  {
+    "ITEM": 25,
+    "ARTICLE_EID": "art_9",
+    "TARGET_SR": "SR 702",
+    "assigned_articles": ["Art. 14 Abs. 1 Bst. b"],
+    "confidence": "high",
+    "reasoning": "Refers to 'im Fall von Artikel 14 Absatz 1 Buchstabe b des Gesetzes'; again 'Gesetz' = SR 702, so this is Art. 14 para. 1 letter b SR 702."
+  },
+  {
+    "ITEM": 26,
+    "ARTICLE_EID": "art_10",
+    "TARGET_SR": "SR 702",
+    "assigned_articles": ["Art. 7 Abs. 1 Bst. b", "Art. 8", "Art. 9"],
+    "confidence": "high",
+    "reasoning": "Letter a cites 'gestützt auf die Artikel 7 Absatz 1 Buchstabe b, 8 und 9 des Gesetzes'; all three are clearly provisions of SR 702 via the preamble acronym."
+  },
+  {
+    "ITEM": 27,
+    "ARTICLE_EID": "art_10",
+    "TARGET_SR": "SR 702",
+    "assigned_articles": ["Art. 14"],
+    "confidence": "high",
+    "reasoning": "Letter b cites 'die Sistierungsverfügungen nach Artikel 14 des Gesetzes'; 'Gesetz' is SR 702, and no paragraph or letter is specified, so the reference is to Art. 14 as a whole."
+  }
+]

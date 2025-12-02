@@ -1,0 +1,110 @@
+[
+  {
+    "Item": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 817.02",
+    "assigned_articles": [
+      "Art. 10 Abs. 4",
+      "Art. 14 Abs. 1",
+      "Art. 22",
+      "Art. 24",
+      "Art. 26 Abs. 3",
+      "Art. 27 Abs. 4",
+      "Art. 36 Abs. 3",
+      "Art. 36 Abs. 4",
+      "Art. 72"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet explicitly lists the articles of the Lebensmittel- und Gebrauchsgegenständeverordnung (SR 817.02) on which the ordinance is based: Artikel 10 Absatz 4, 14 Absatz 1, 22, 24, 26 Absatz 3, 27 Absatz 4, 36 Absätze 3 und 4 und 72. These are directly and syntactically linked to SR 817.02."
+  },
+  {
+    "Item": 2,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": "SR 817.0",
+    "assigned_articles": [
+      "Art. 5 lit. a"
+    ],
+    "confidence": "high",
+    "reasoning": "The definition of Trinkwasser refers to 'Bedarfsgegenständen nach Artikel 5 Buchstabe a des Lebensmittelgesetzes vom 20. Juni 2014 SR 817.0'. The article and letter are explicitly tied to the Lebensmittelgesetz (SR 817.0)."
+  },
+  {
+    "Item": 3,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": "SR 814.20",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "medium",
+    "reasoning": "The text mentions 'unter Berücksichtigung der Anforderungen des Gewässerschutzgesetzes vom 24. Januar 1991 SR 814.20' without specifying any article or paragraph. It is a general reference to the Gewässerschutzgesetz as a whole."
+  },
+  {
+    "Item": 4,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": "SR 813.12",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "medium",
+    "reasoning": "The clause 'gemäss der Biozidprodukteverordnung vom 18. Mai 2005 SR 813.12' requires that products be approved under that ordinance but does not cite specific articles. This is a general reference to the Biozidprodukteverordnung."
+  },
+  {
+    "Item": 5,
+    "ARTICLE_EID": "art_10",
+    "TARGET_SR": "SR 813.12",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "medium",
+    "reasoning": "The sentence 'Es dürfen ausschliesslich nach der Biozidprodukteverordnung vom 18. Mai 2005 SR 813.12 zugelassene Biozidprodukte verwendet werden.' refers to products approved under the ordinance as a whole, with no article-level citation."
+  },
+  {
+    "Item": 6,
+    "ARTICLE_EID": "art_14",
+    "TARGET_SR": "SR 814.812.31",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "medium",
+    "reasoning": "The requirement of a 'Fachbewilligung nach der Verordnung des EDI vom 28. Juni 2005 SR 814.812.31' cites the ordinance generally; no specific article or paragraph is mentioned."
+  },
+  {
+    "Item": 7,
+    "ARTICLE_EID": "art_14",
+    "TARGET_SR": "SR 817.02",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "medium",
+    "reasoning": "This preamble_acronym item uses the acronym 'EDI' mapped in the preamble to SR 817.02, but the snippet itself only refers generically to 'der Verordnung des EDI vom 28. Juni 2005 über die Fachbewilligung ...' without any article numbers. It is therefore an implicit, document-level reference."
+  },
+  {
+    "Item": 8,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet repeats the definition of Trinkwasser and contains 'nach Artikel 5 Buchstabe a des Lebensmittelgesetzes vom 20. Juni 2014' but without the SR context here. This artikel_reference line is already covered by Item 2 for the external SR 817.0 link; in this context it functions as an internal repetition/self-reference within the current document’s text, not a new SR assignment."
+  },
+  {
+    "Item": 9,
+    "ARTICLE_EID": "art_9",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 3 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "The phrase 'den in Artikel 3 Absatz 1 festgelegten organoleptischen Anforderungen' clearly refers to another provision within the same ordinance (no external SR mentioned). This is a self-reference to Art. 3 Abs. 1 of the current document."
+  },
+  {
+    "Item": 10,
+    "ARTICLE_EID": "art_10",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 4 Abs. 4"
+    ],
+    "confidence": "high",
+    "reasoning": "The text 'nach Artikel 4 Absatz 4' refers to a provision within the same ordinance, with no external SR context. It is therefore an internal cross-reference to Art. 4 Abs. 4 of the current document."
+  }
+]

@@ -1,0 +1,506 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 0.351.933.6",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "high",
+    "reasoning": "The snippet refers generically to the Staatsvertrag of 25 May 1973 (SR 0.351.933.6) without mentioning any specific article or paragraph; it is a general execution clause."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 0.351.933.6",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "high",
+    "reasoning": "Definition of ‘Vertrag’ cites the treaty SR 0.351.933.6 as a whole; no specific article is indicated."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": "SR 311.0",
+    "assigned_articles": ["Art. 352", "Art. 353", "Art. 354", "Art. 355"],
+    "confidence": "high",
+    "reasoning": "Explicit range citation: ‘Die Artikel 352–355 des Strafgesetzbuches SR 311.0 gelten sinngemäss.’ clearly links Arts. 352–355 StGB to SR 311.0."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": "SR 172.021",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "medium",
+    "reasoning": "The text refers to ‘das Bundesgesetz ... SR 172.021 über das Verwaltungsverfahren’ as the governing procedure in general, without specifying particular articles; treated as a general reference."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_8",
+    "TARGET_SR": "SR 311.0",
+    "assigned_articles": ["Art. 292"],
+    "confidence": "high",
+    "reasoning": "The snippet states ‘unter Hinweis auf Artikel 292 des Strafgesetzbuches SR 311.0’; Art. 292 StGB is explicitly and syntactically tied to SR 311.0."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_9_a",
+    "TARGET_SR": "SR 351.1",
+    "assigned_articles": ["Art. 11b", "Art. 11d", "Art. 11f", "Art. 11g", "Art. 11h"],
+    "confidence": "high",
+    "reasoning": "‘nach den Artikeln 11b, 11d und 11f–11h des Rechtshilfegesetzes ... SR 351.1’ explicitly lists these provisions; the range 11f–11h is expanded to 11f, 11g, 11h."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_12",
+    "TARGET_SR": "SR 273",
+    "assigned_articles": ["Art. 57", "Art. 58", "Art. 59", "Art. 60", "Art. 61"],
+    "confidence": "high",
+    "reasoning": "‘die Artikel 57-61 des Bundesgesetzes ... SR 273 über den Bundeszivilprozess’ clearly refers to Arts. 57–61; the hyphen denotes a continuous range."
+  },
+  {
+    "ITEM": 8,
+    "ARTICLE_EID": "art_14",
+    "TARGET_SR": "SR 311.0",
+    "assigned_articles": ["Art. 32"],
+    "confidence": "high",
+    "reasoning": "The sentence ends with ‘handelt im Sinne von Artikel 32 des Strafgesetzbuches SR 311.0 rechtmässig’; Art. 32 StGB is explicitly linked to SR 311.0."
+  },
+  {
+    "ITEM": 9,
+    "ARTICLE_EID": "art_17",
+    "TARGET_SR": "SR 172.021",
+    "assigned_articles": ["Art. 22a"],
+    "confidence": "high",
+    "reasoning": "‘Artikel 22a des Verwaltungsverfahrensgesetzes SR 172.021 (Stillstand der Fristen) findet nicht Anwendung.’ directly ties Art. 22a VwVG to SR 172.021."
+  },
+  {
+    "ITEM": 10,
+    "ARTICLE_EID": "art_17_b",
+    "TARGET_SR": "SR 172.021",
+    "assigned_articles": ["Art. 49 Bst. a"],
+    "confidence": "high",
+    "reasoning": "The snippet cites ‘Art. 49 Bst. a des Verwaltungsverfahrensgesetzes SR 172.021’; this is a precise article and letter reference."
+  },
+  {
+    "ITEM": 11,
+    "ARTICLE_EID": "art_20",
+    "TARGET_SR": "SR 311.0",
+    "assigned_articles": ["Art. 273"],
+    "confidence": "high",
+    "reasoning": "‘im Sinne von Artikel 273 des Strafgesetzbuches SR 311.0’ explicitly links Art. 273 StGB to SR 311.0."
+  },
+  {
+    "ITEM": 12,
+    "ARTICLE_EID": "art_36_a",
+    "TARGET_SR": "SR 351.1",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "medium",
+    "reasoning": "The clause ‘teilweise gestützt auf das Bundesgesetz ... SR 351.1 über internationale Rechtshilfe in Strafsachen’ invokes the Rechtshilfegesetz as a whole; no specific articles are mentioned in connection with SR 351.1 here."
+  },
+  {
+    "ITEM": 13,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "self",
+    "assigned_articles": ["Art. 28 Abs. 1 (Vertrag)"],
+    "confidence": "high",
+    "reasoning": "‘(Art. 28 Abs. 1 des Vertrags)’ refers to Article 28 paragraph 1 of the Staatsvertrag defined earlier in Art. 1 (SR 0.351.933.6), not to a new SR; as an artikel_reference without SR, it is treated as an internal treaty reference within the same normative complex."
+  },
+  {
+    "ITEM": 14,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": "self",
+    "assigned_articles": ["Art. 1 Abs. 3 (Vertrag)"],
+    "confidence": "high",
+    "reasoning": "‘(Art. 1 Abs. 3 des Vertrags)’ clearly points to Article 1 paragraph 3 of the same Staatsvertrag; no external SR is involved."
+  },
+  {
+    "ITEM": 15,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": "self",
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "The snippet’s ‘Die Artikel 352–355 des Strafgesetzbuches’ is a reference to StGB already captured in ITEM 3 as SR 311.0; as an artikel_reference without explicit SR, it is considered already handled and not a new SR link."
+  },
+  {
+    "ITEM": 16,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": "self",
+    "assigned_articles": ["Art. 3 Abs. 1 Bst. a (Vertrag)", "Art. 3 Abs. 2 (Vertrag)"],
+    "confidence": "high",
+    "reasoning": "Both ‘(Art. 3 Abs. 1 Bst. a des Vertrags)’ and ‘(Art. 3 Abs. 2 des Vertrags)’ refer to provisions of the same Staatsvertrag; no separate SR is cited."
+  },
+  {
+    "ITEM": 17,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": "self",
+    "assigned_articles": ["Art. 12 Abs. 3 (Vertrag)", "Art. 18 Abs. 5 (Vertrag)"],
+    "confidence": "high",
+    "reasoning": "The parenthetical ‘(Art. 12 Abs. 3 oder Art. 18 Abs. 5 des Vertrags)’ clearly concerns articles of the Staatsvertrag itself."
+  },
+  {
+    "ITEM": 18,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": "self",
+    "assigned_articles": ["Art. 18 Abs. 5 (Vertrag)", "Art. 20 Abs. 2 (Vertrag)"],
+    "confidence": "high",
+    "reasoning": "‘(Art. 18 Abs. 5 und Art. 20 Abs. 2 des Vertrags)’ are again internal treaty provisions; no external SR is mentioned."
+  },
+  {
+    "ITEM": 19,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": "self",
+    "assigned_articles": ["Art. 5 Abs. 2 (Vertrag)", "Art. 39 (Vertrag)"],
+    "confidence": "high",
+    "reasoning": "References to ‘Artikel 5 Absatz 2 des Vertrags’ and ‘Artikel 39 des Vertrags’ are to the same Staatsvertrag; they are internal cross-references."
+  },
+  {
+    "ITEM": 20,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": "self",
+    "assigned_articles": ["Art. 3 Abs. 1–4 (Gesetz)"],
+    "confidence": "high",
+    "reasoning": "‘(Art. 3 Abs. 1–4)’ refers to Article 3 of this implementing law itself; no SR or treaty is named in that parenthesis."
+  },
+  {
+    "ITEM": 21,
+    "ARTICLE_EID": "art_8",
+    "TARGET_SR": "SR 311.0",
+    "assigned_articles": ["Art. 292"],
+    "confidence": "high",
+    "reasoning": "This repeats the reference to ‘Artikel 292 des Strafgesetzbuches’; syntactically the same as ITEM 5 and clearly tied to StGB, SR 311.0."
+  },
+  {
+    "ITEM": 22,
+    "ARTICLE_EID": "art_9",
+    "TARGET_SR": "self",
+    "assigned_articles": ["Art. 16 Abs. 1 (Gesetz)"],
+    "confidence": "high",
+    "reasoning": "‘(Art. 16 Abs. 1)’ is an internal reference to Article 16 paragraph 1 of this law; no external SR or treaty is indicated."
+  },
+  {
+    "ITEM": 23,
+    "ARTICLE_EID": "art_9_a",
+    "TARGET_SR": "SR 351.1",
+    "assigned_articles": ["Art. 11b", "Art. 11d", "Art. 11f", "Art. 11g", "Art. 11h"],
+    "confidence": "high",
+    "reasoning": "Same sentence as ITEM 6 but without the explicit SR in this snippet; contextually it is the Rechtshilfegesetz (SR 351.1) and the same articles 11b, 11d, 11f–11h are meant."
+  },
+  {
+    "ITEM": 24,
+    "ARTICLE_EID": "art_10",
+    "TARGET_SR": "self",
+    "assigned_articles": ["Art. 5 (Gesetz)", "Art. 8 (Gesetz)"],
+    "confidence": "high",
+    "reasoning": "‘nach Artikel 5 und nötigenfalls ... nach Artikel 8’ clearly refer to articles of this law; no external SR or treaty is mentioned in the same syntactic unit."
+  },
+  {
+    "ITEM": 25,
+    "ARTICLE_EID": "art_11",
+    "TARGET_SR": "self",
+    "assigned_articles": ["Art. 21 Abs. 2 (Vertrag)", "Art. 12 Abs. 3 (Vertrag)"],
+    "confidence": "high",
+    "reasoning": "The parenthetical ‘nach Artikel 21 Absatz 2 oder ... nach Artikel 12 Absatz 3 des Vertrags’ concerns provisions of the Staatsvertrag; internal to that treaty."
+  },
+  {
+    "ITEM": 26,
+    "ARTICLE_EID": "art_11",
+    "TARGET_SR": "self",
+    "assigned_articles": ["Art. 8 (Gesetz)"],
+    "confidence": "high",
+    "reasoning": "‘Die Schweigepflicht (Art. 8)’ is an internal reference to Article 8 of this law; no SR or treaty is named."
+  },
+  {
+    "ITEM": 27,
+    "ARTICLE_EID": "art_11",
+    "TARGET_SR": "self",
+    "assigned_articles": ["Art. 17 (Gesetz)"],
+    "confidence": "high",
+    "reasoning": "‘Beschwerde nach Artikel 17’ refers to Article 17 of this law; again, no external SR is present."
+  },
+  {
+    "ITEM": 28,
+    "ARTICLE_EID": "art_12",
+    "TARGET_SR": "self",
+    "assigned_articles": ["Art. 4 (Gesetz)", "Art. 5 (Gesetz)", "Art. 11 (Gesetz)"],
+    "confidence": "high",
+    "reasoning": "‘nach dem Vertrag oder nach diesem Gesetz (Art. 4, 5 oder 11)’ distinguishes between the treaty and ‘diesem Gesetz’; the listed articles are clearly internal to this law."
+  },
+  {
+    "ITEM": 29,
+    "ARTICLE_EID": "art_12",
+    "TARGET_SR": "self",
+    "assigned_articles": ["Art. 10 Abs. 2 (Vertrag)", "Art. 17 (Gesetz)"],
+    "confidence": "high",
+    "reasoning": "The snippet mentions ‘Artikel 10 Absatz 2 des Vertrags’ (treaty) and ‘(Art. 17)’ (this law); both are internal references within the same normative framework, not new SR links."
+  },
+  {
+    "ITEM": 30,
+    "ARTICLE_EID": "art_12",
+    "TARGET_SR": "SR 273",
+    "assigned_articles": ["Art. 57", "Art. 58", "Art. 59", "Art. 60", "Art. 61"],
+    "confidence": "high",
+    "reasoning": "Same content as ITEM 7: ‘Artikel 57-61 des Bundesgesetzes ... über den Bundeszivilprozess’; this is a clear reference to SR 273, Arts. 57–61."
+  },
+  {
+    "ITEM": 31,
+    "ARTICLE_EID": "art_14",
+    "TARGET_SR": "SR 311.0",
+    "assigned_articles": ["Art. 32"],
+    "confidence": "high",
+    "reasoning": "Repeats the StGB reference: ‘Artikel 32 des Strafgesetzbuches’; contextually SR 311.0, Art. 32."
+  },
+  {
+    "ITEM": 32,
+    "ARTICLE_EID": "art_15",
+    "TARGET_SR": "self",
+    "assigned_articles": ["Art. 5 (Vertrag)", "Art. 5 Abs. 2 Bst. h (Gesetz)"],
+    "confidence": "high",
+    "reasoning": "‘Artikel 5 des Vertrages’ and ‘Artikel 5 Absatz 2 Buchstabe h dieses Gesetzes’ are internal to the treaty and this law; no separate SR is cited."
+  },
+  {
+    "ITEM": 33,
+    "ARTICLE_EID": "art_15_a",
+    "TARGET_SR": "self",
+    "assigned_articles": ["Art. 10 Abs. 2 (Vertrag)", "Art. 17 (Gesetz)"],
+    "confidence": "high",
+    "reasoning": "References to ‘Art. 10 Abs. 2 des Vertrags’ and ‘Beschwerde nach Artikel 17’ are again internal treaty and law provisions."
+  },
+  {
+    "ITEM": 34,
+    "ARTICLE_EID": "art_17",
+    "TARGET_SR": "SR 172.021",
+    "assigned_articles": ["Art. 22a"],
+    "confidence": "high",
+    "reasoning": "Same as ITEM 9 but without explicit SR in this snippet; ‘Artikel 22a des Verwaltungsverfahrensgesetzes (Stillstand der Fristen)’ clearly refers to VwVG Art. 22a, SR 172.021."
+  },
+  {
+    "ITEM": 35,
+    "ARTICLE_EID": "art_17",
+    "TARGET_SR": "self",
+    "assigned_articles": ["Art. 11 (Gesetz)"],
+    "confidence": "high",
+    "reasoning": "‘Zwischenverfügungen nach Artikel 11’ is an internal reference to Article 11 of this law."
+  },
+  {
+    "ITEM": 36,
+    "ARTICLE_EID": "art_17_b",
+    "TARGET_SR": "SR 172.021",
+    "assigned_articles": ["Art. 49 Bst. a"],
+    "confidence": "high",
+    "reasoning": "Parallels ITEM 10: ‘Art. 49 Bst. a des Verwaltungsverfahrensgesetzes’ is Art. 49 letter a VwVG, SR 172.021."
+  },
+  {
+    "ITEM": 37,
+    "ARTICLE_EID": "art_17_b",
+    "TARGET_SR": "self",
+    "assigned_articles": ["Art. 8 Abs. 1 (Vertrag)"],
+    "confidence": "high",
+    "reasoning": "‘(Art. 8 Abs. 1 des Vertrags)’ is a provision of the Staatsvertrag; no external SR is mentioned."
+  },
+  {
+    "ITEM": 38,
+    "ARTICLE_EID": "art_18",
+    "TARGET_SR": "self",
+    "assigned_articles": ["Art. 4 (Gesetz)"],
+    "confidence": "high",
+    "reasoning": "‘Verfügungen des Departements nach Artikel 4’ is an internal reference to Article 4 of this law."
+  },
+  {
+    "ITEM": 39,
+    "ARTICLE_EID": "art_19",
+    "TARGET_SR": "self",
+    "assigned_articles": ["Art. 3 Abs. 3 (Gesetz)"],
+    "confidence": "high",
+    "reasoning": "‘soweit diese nach Artikel 3 Absatz 3 tätig wird’ refers to Article 3 paragraph 3 of this law; no SR is cited."
+  },
+  {
+    "ITEM": 40,
+    "ARTICLE_EID": "art_20",
+    "TARGET_SR": "SR 311.0",
+    "assigned_articles": ["Art. 273"],
+    "confidence": "high",
+    "reasoning": "Same substantive reference as ITEM 11: ‘Artikel 273 des Strafgesetzbuches’ is Art. 273 StGB, SR 311.0."
+  },
+  {
+    "ITEM": 41,
+    "ARTICLE_EID": "art_20",
+    "TARGET_SR": "self",
+    "assigned_articles": ["Art. 3 Abs. 1 Bst. b (Vertrag)"],
+    "confidence": "high",
+    "reasoning": "‘Artikel 3 Absatz 1 Buchstabe b des Vertrags’ is an internal treaty provision; no external SR."
+  },
+  {
+    "ITEM": 42,
+    "ARTICLE_EID": "art_20",
+    "TARGET_SR": "self",
+    "assigned_articles": ["Art. 3 Abs. 1 Bst. a (Vertrag)", "Art. 4 (Gesetz)"],
+    "confidence": "high",
+    "reasoning": "‘(Art. 3 Abs. 1 Bst. a des Vertrags)’ and ‘(Art. 4)’ are internal references to the treaty and this law."
+  },
+  {
+    "ITEM": 43,
+    "ARTICLE_EID": "art_20",
+    "TARGET_SR": "self",
+    "assigned_articles": ["Art. 15 (Vertrag)"],
+    "confidence": "high",
+    "reasoning": "‘in Anwendung von Artikel 15 des Vertrags’ clearly refers to Article 15 of the Staatsvertrag; internal treaty reference."
+  },
+  {
+    "ITEM": 44,
+    "ARTICLE_EID": "art_21",
+    "TARGET_SR": "self",
+    "assigned_articles": ["Art. 9 Abs. 2 (Vertrag)"],
+    "confidence": "high",
+    "reasoning": "‘(Art. 9 Abs. 2 des Vertrags)’ is again a provision of the Staatsvertrag; no SR."
+  },
+  {
+    "ITEM": 45,
+    "ARTICLE_EID": "art_23",
+    "TARGET_SR": "self",
+    "assigned_articles": ["Art. 10 Abs. 1 (Vertrag)"],
+    "confidence": "high",
+    "reasoning": "‘(Art. 10 Abs. 1 des Vertrags)’ refers to Article 10 paragraph 1 of the treaty; internal."
+  },
+  {
+    "ITEM": 46,
+    "ARTICLE_EID": "art_24",
+    "TARGET_SR": "self",
+    "assigned_articles": ["Art. 40 Ziff. 8 (Vertrag)"],
+    "confidence": "high",
+    "reasoning": "‘(Art. 40 Ziff. 8 des Vertrages)’ is a treaty provision; no external SR."
+  },
+  {
+    "ITEM": 47,
+    "ARTICLE_EID": "art_25",
+    "TARGET_SR": "self",
+    "assigned_articles": ["Art. 12 Abs. 1 (Vertrag)"],
+    "confidence": "high",
+    "reasoning": "‘Artikel 12 Absatz 1 des Vertrags’ is internal to the Staatsvertrag."
+  },
+  {
+    "ITEM": 48,
+    "ARTICLE_EID": "art_25",
+    "TARGET_SR": "self",
+    "assigned_articles": ["Art. 23 (Vertrag)", "Art. 25 (Vertrag)", "Art. 26 (Vertrag)"],
+    "confidence": "high",
+    "reasoning": "‘(Art. 23, 25 und 26 des Vertrags)’ lists several treaty provisions; all are internal references."
+  },
+  {
+    "ITEM": 49,
+    "ARTICLE_EID": "art_26",
+    "TARGET_SR": "self",
+    "assigned_articles": ["Art. 12 Abs. 3 Bst. b (Vertrag)", "Art. 12 Abs. 3 Bst. c (Vertrag)", "Art. 17a (Gesetz)", "Art. 11 Abs. 1 Bst. c (Gesetz)"],
+    "confidence": "high",
+    "reasoning": "The snippet mentions ‘Artikel 12 Absatz 3 Buchstabe b oder c des Vertrags’, ‘(Art. 17a)’ and ‘(Art. 11 Abs. 1 Bst. c)’; all are internal treaty or law provisions."
+  },
+  {
+    "ITEM": 50,
+    "ARTICLE_EID": "art_26",
+    "TARGET_SR": "self",
+    "assigned_articles": ["Art. 12 Abs. 4 (Vertrag)"],
+    "confidence": "high",
+    "reasoning": "‘Artikel 12 Absatz 4 des Vertrags’ is a treaty article; internal reference."
+  },
+  {
+    "ITEM": 51,
+    "ARTICLE_EID": "art_27",
+    "TARGET_SR": "self",
+    "assigned_articles": ["Art. 16 Abs. 2 (Vertrag)"],
+    "confidence": "high",
+    "reasoning": "‘Artikel 16 Absatz 2 des Vertrags’ is again a provision of the Staatsvertrag."
+  },
+  {
+    "ITEM": 52,
+    "ARTICLE_EID": "art_28",
+    "TARGET_SR": "self",
+    "assigned_articles": ["Art. 3 Abs. 1 (Vertrag)", "Art. 10 Abs. 2 (Vertrag)", "Art. 19 Abs. 1 (Vertrag)"],
+    "confidence": "high",
+    "reasoning": "The snippet cites ‘Artikel 3 Absatz 1 oder 10 Absatz 2 des Vertrages’ and ‘(Art. 19 Abs. 1 des Vertrags)’; all are treaty provisions."
+  },
+  {
+    "ITEM": 53,
+    "ARTICLE_EID": "art_29",
+    "TARGET_SR": "self",
+    "assigned_articles": ["Art. 20 Abs. 1 (Vertrag)", "Art. 18 Abs. 1 (Vertrag)"],
+    "confidence": "high",
+    "reasoning": "‘Artikel 20 Absatz 1 des Vertrags’ and ‘Artikel 18 Absatz 1 des Vertrags’ are internal treaty references."
+  },
+  {
+    "ITEM": 54,
+    "ARTICLE_EID": "art_29",
+    "TARGET_SR": "self",
+    "assigned_articles": ["Art. 20 Abs. 2 (Vertrag)"],
+    "confidence": "high",
+    "reasoning": "‘Artikel 20 Absatz 2 des Vertrags’ is a treaty provision; internal."
+  },
+  {
+    "ITEM": 55,
+    "ARTICLE_EID": "art_31",
+    "TARGET_SR": "self",
+    "assigned_articles": ["Art. 23 Abs. 2 (Vertrag)", "Art. 10 Abs. 1 (Vertrag)", "Art. 25 (Vertrag)"],
+    "confidence": "high",
+    "reasoning": "All cited provisions ‘Art. 23 Abs. 2 des Vertrages’, ‘Art. 10 Abs. 1 und Art. 25 des Vertrags’ belong to the Staatsvertrag."
+  },
+  {
+    "ITEM": 56,
+    "ARTICLE_EID": "art_31",
+    "TARGET_SR": "self",
+    "assigned_articles": ["Art. 25 (Vertrag)"],
+    "confidence": "high",
+    "reasoning": "‘Artikel 25 des Vertrags’ is again a treaty article; internal reference."
+  },
+  {
+    "ITEM": 57,
+    "ARTICLE_EID": "art_32",
+    "TARGET_SR": "self",
+    "assigned_articles": ["Art. 24 (Vertrag)", "Art. 25 (Vertrag)", "Art. 27 (Vertrag)", "Art. 23 Abs. 3 (Vertrag)"],
+    "confidence": "high",
+    "reasoning": "The snippet mentions ‘Artikeln 24, 25 und 27 des Vertrags’ and ‘(Art. 23 Abs. 3 des Vertrags)’; all are treaty provisions."
+  },
+  {
+    "ITEM": 58,
+    "ARTICLE_EID": "art_33",
+    "TARGET_SR": "self",
+    "assigned_articles": ["Art. 27 Abs. 2 (Vertrag)"],
+    "confidence": "high",
+    "reasoning": "‘Artikel 27 Absätze 2 und 3 des Vertrags’ is a treaty reference; internal."
+  },
+  {
+    "ITEM": 59,
+    "ARTICLE_EID": "art_33",
+    "TARGET_SR": "self",
+    "assigned_articles": ["Art. 26 Abs. 2 (Vertrag)"],
+    "confidence": "high",
+    "reasoning": "‘Artikel 26 Absatz 2 des Vertrags’ is again a treaty provision."
+  },
+  {
+    "ITEM": 60,
+    "ARTICLE_EID": "art_34",
+    "TARGET_SR": "self",
+    "assigned_articles": ["Art. 27 Abs. 2 (Vertrag)"],
+    "confidence": "high",
+    "reasoning": "‘Artikel 27 Absatz 2 des Vertrags’ is a provision of the Staatsvertrag; internal."
+  },
+  {
+    "ITEM": 61,
+    "ARTICLE_EID": "art_35",
+    "TARGET_SR": "self",
+    "assigned_articles": ["Art. 34 (Vertrag)"],
+    "confidence": "high",
+    "reasoning": "‘nach Artikel 34 des Vertrags’ refers to a treaty article; internal."
+  },
+  {
+    "ITEM": 62,
+    "ARTICLE_EID": "art_35",
+    "TARGET_SR": "self",
+    "assigned_articles": ["Art. 31 Abs. 4 (Vertrag)"],
+    "confidence": "high",
+    "reasoning": "‘(Art. 31 Abs. 4 des Vertrags)’ is again a treaty provision."
+  },
+  {
+    "ITEM": 63,
+    "ARTICLE_EID": "art_36_a",
+    "TARGET_SR": "self",
+    "assigned_articles": ["Art. 38 Abs. 1 (Vertrag)"],
+    "confidence": "high",
+    "reasoning": "‘(Art. 38 Abs. 1 des Vertrags)’ refers to Article 38 paragraph 1 of the Staatsvertrag; internal treaty reference, distinct from the separate SR 351.1 reference handled in ITEM 12."
+  }
+]

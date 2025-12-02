@@ -1,0 +1,64 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 741.81",
+    "assigned_articles": [
+      "Art. 1 Abs. 2",
+      "Art. 11",
+      "Art. 12"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Formulierung \"gestützt auf die Artikel 1 Absatz 2, 11 und 12 des Bundesgesetzes ... SR 741.81\" verknüpft die genannten Artikel syntaktisch eindeutig mit SR 741.81."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": "SR 741.01",
+    "assigned_articles": [
+      "Art. 73 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Snippet steht \"(Art. 73 Abs. 1 des Strassenverkehrsgesetzes SR 741.01)\"; Artikel und SR werden direkt zusammen genannt."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": "SR 170.512.1",
+    "assigned_articles": [
+      "Art. 16 Abs. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "Die INSIDE_AUTHORIALNOTE enthält \"in Anwendung von Art. 16 Abs. 3 der Publikationsverordnung ... (SR 170.512.1)\"; der Artikel ist klar dieser Verordnung zugeordnet."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": "SR 961.01",
+    "assigned_articles": [
+      "Art. 22 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Snippet: \"den er nach Artikel 22 Absatz 1 des Versicherungsaufsichtsgesetzes SR 961.01 einzureichen hat\"; eindeutige syntaktische Zuordnung."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Referenz \"Art. 73 Abs. 1 des Strassenverkehrsgesetzes\" erscheint hier ohne explizite SR-Angabe; dieselbe Stelle ist bereits in ITEM 2 mit SR 741.01 verknüpft. In diesem artikel_reference-Eintrag ist sie daher als Selbstreferenz/ohne neue SR-Zuordnung zu behandeln."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Stelle \"Artikel 22 Absatz 1 des Versicherungsaufsichtsgesetzes\" ist bereits in ITEM 4 mit SR 961.01 verknüpft; hier fehlt eine SR-Nennung und der artikel_reference dient nur der Erfassung der Selbstreferenz, ohne neue SR-Zuordnung."
+  }
+]

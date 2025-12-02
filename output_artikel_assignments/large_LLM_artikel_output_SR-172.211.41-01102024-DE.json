@@ -1,0 +1,43 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 172.010",
+    "assigned_articles": [
+      "Art. 47 Abs. 2",
+      "Art. 56"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Formulierung «gestützt auf die Artikel 47 Absatz 2 und 56 des Regierungs- und Verwaltungsorganisationsgesetzes … SR 172.010 (RVOG)» verknüpft beide Artikel grammatikalisch eindeutig mit dem RVOG."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": "SR 611.0",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Satz «Die Anforderungen des Finanzhaushaltsgesetzes … SR 611.0 … bleiben vorbehalten» wird kein bestimmter Artikel des Finanzhaushaltsgesetzes genannt; es handelt sich um einen generellen Verweis auf die Anforderungen des gesamten Gesetzes."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": "SR 611.01",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Satz «… und der Finanzhaushaltsverordnung … SR 611.01 bleiben vorbehalten» wird kein bestimmter Artikel der Finanzhaushaltsverordnung genannt; der Verweis betrifft die Anforderungen der Verordnung insgesamt."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": "SR 974.01",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "medium",
+    "reasoning": "Die Formulierung «gelten die Vorgaben nach den Anhängen 1 und 2 der Verordnung … SR 974.01» verweist konkret auf Anhänge, nicht auf einzelne Artikel. Da keine Artikelnummern genannt werden und die Anhänge als Teil der Verordnung zu verstehen sind, wird der Verweis als genereller Bezug auf die Verordnung (insbesondere deren Anhänge) gewertet."
+  }
+]

@@ -1,0 +1,42 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 941.20",
+    "assigned_articles": [
+      "Art. 19"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Formulierung «gestützt auf Artikel 19 des Messgesetzes ... SR 941.20» verknüpft den genannten Artikel direkt mit dem Messgesetz (SR 941.20); damit ist klar, dass Art. 19 dieses Gesetzes gemeint ist."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": "SR 172.041.1",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Satz verweist allgemein auf die «Bestimmungen der Allgemeinen Gebührenverordnung ... SR 172.041.1», ohne einzelne Artikel zu nennen; dies ist ein pauschaler Verweis auf die Verordnung als Ganzes."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": "SR 172.010.1",
+    "assigned_articles": [
+      "Art. 6 Abs. 1 Bst. a–d"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Wendung «Verwaltungseinheiten ... nach Artikel 6 Absatz 1 Buchstaben a–d der Regierungs- und Verwaltungsorganisationsverordnung ... SR 172.010.1» ordnet Art. 6 Abs. 1 Buchst. a–d eindeutig der genannten Verordnung (SR 172.010.1) zu."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Ausschnitt wiederholt denselben Text wie bei ITEM 3, jedoch ohne SR-Angabe; gemäss Vorgabe für artikel_reference und mangels expliziter SR-Verknüpfung ist dies als innerdokumentarische Selbstverweisung zu behandeln, nicht als Verweis auf ein externes SR."
+  }
+]

@@ -1,0 +1,90 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 220",
+    "assigned_articles": ["Art. 359a"],
+    "confidence": "high",
+    "reasoning": "Snippet explicitly cites 'Artikel 359a des Obligationenrechts SR 220'; direct syntactic link between article number and SR 220."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": "SR 220",
+    "assigned_articles": ["Art. 336c", "Art. 336d", "Art. 336e", "Art. 336f"],
+    "confidence": "high",
+    "reasoning": "Snippet: 'Zwingende Vorschriften des Obligationenrechts SR 220. Heute: Art. 336c und 336d. ... (Art. 336e und 336f OR)'. All four articles are explicitly tied to the Obligationenrecht (OR = SR 220) in the same sentence."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": "SR 311.0",
+    "assigned_articles": ["Art. 321"],
+    "confidence": "high",
+    "reasoning": "Snippet: 'Die Verletzung des Berufsgeheimnisses ist gemäss Artikel 321 des Strafgesetzbuches SR 311.0 strafbar.' Direct prepositional and appositional link between 'Artikel 321' and 'Strafgesetzbuches SR 311.0'."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_9",
+    "TARGET_SR": "SR 822.112",
+    "assigned_articles": ["Art. 1", "Art. 2", "Art. 3", "Art. 4", "Art. 5", "Art. 6"],
+    "confidence": "high",
+    "reasoning": "Snippet: 'Vorbehalten bleiben die Artikel 1–6 der Verordnung II ... SR 822.112 zum Arbeitsgesetz.' The range 1–6 is explicitly attributed to this Verordnung; expanded as individual articles."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_20",
+    "TARGET_SR": "SR 220",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "high",
+    "reasoning": "Snippet: 'gelten die Bestimmungen des Obligationenrechts SR 220.' No specific article numbers mentioned; refers to the OR as a whole."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "high",
+    "reasoning": "References 'Artikel 4 und 5 dieses Normalarbeitsvertrages'; 'dieses Normalarbeitsvertrages' shows it is self-referential within the same document, not to an external SR."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": "SR 220",
+    "assigned_articles": ["Art. 336e", "Art. 336f"],
+    "confidence": "high",
+    "reasoning": "Snippet: '(Art. 336e und 336f OR)'; 'OR' is the standard acronym for Obligationenrecht (SR 220). Direct parenthetical citation links these articles to SR 220."
+  },
+  {
+    "ITEM": 8,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": "SR 311.0",
+    "assigned_articles": ["Art. 321"],
+    "confidence": "high",
+    "reasoning": "Same sentence as ITEM 3: 'gemäss Artikel 321 des Strafgesetzbuches ...'; clearly refers to Art. 321 StGB (SR 311.0), not to an internal article."
+  },
+  {
+    "ITEM": 9,
+    "ARTICLE_EID": "art_9",
+    "TARGET_SR": "SR 822.112",
+    "assigned_articles": ["Art. 1", "Art. 2", "Art. 3", "Art. 4", "Art. 5", "Art. 6"],
+    "confidence": "high",
+    "reasoning": "Same context as ITEM 4 but without the SR number repeated; 'Artikel 1–6 der Verordnung II vom 14. Januar 1966 zum Arbeitsgesetz' is the same Verordnung II (SR 822.112)."
+  },
+  {
+    "ITEM": 10,
+    "ARTICLE_EID": "art_11",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "high",
+    "reasoning": "Snippet: 'nach Artikel 15 zur Lohnzahlung verpflichtet'; no SR or external law named, so this is a cross-reference to Art. 15 of the same Normalarbeitsvertrag."
+  },
+  {
+    "ITEM": 11,
+    "ARTICLE_EID": "art_18",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "high",
+    "reasoning": "Snippet: 'nach Erfüllung der Lohnzahlungspflicht gemäss Artikel 15'; again no external SR mentioned, so this is an internal reference to Art. 15 of the same document."
+  }
+]

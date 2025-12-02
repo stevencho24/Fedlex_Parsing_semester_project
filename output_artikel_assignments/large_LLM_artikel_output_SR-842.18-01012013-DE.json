@@ -1,0 +1,160 @@
+[
+  {
+    "Item": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 170.512.1",
+    "assigned_articles": [
+      "Art. 16 Abs. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Text lautet: \"in Anwendung von Art. 16 Abs. 3 der Publikationsverordnung ... (SR 170.512.1)\". Die Artikelangabe steht direkt vor der Gesetzesbezeichnung und bezieht sich eindeutig auf diese SR."
+  },
+  {
+    "Item": 2,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 842.1",
+    "assigned_articles": [
+      "Art. 60 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "Formulierung: \"gestützt auf Artikel 60 Absatz 1 der Wohnraumförderungsverordnung ... SR 842.1 (WFV)\". Der Artikel ist syntaktisch klar dieser Verordnung zugeordnet."
+  },
+  {
+    "Item": 3,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": "SR 641.10",
+    "assigned_articles": [
+      "Art. 6 Abs. 1 Bst. a"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Snippet: \"gemäss Artikel 6 Absatz 1 Buchstabe a des Bundesgesetzes ... SR 641.10\". Die Artikelangabe gehört eindeutig zum genannten Bundesgesetz über die Stempelabgaben."
+  },
+  {
+    "Item": 4,
+    "ARTICLE_EID": "art_9",
+    "TARGET_SR": "SR 220",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "medium",
+    "reasoning": "Es heisst: \"Schlichtungsbehörden nach dem Obligationenrecht SR 220 (OR)\" ohne konkrete Artikelangabe. Das verweist allgemein auf das OR als Rechtsgrundlage der Zuständigkeit."
+  },
+  {
+    "Item": 5,
+    "ARTICLE_EID": "art_14",
+    "TARGET_SR": "SR 220",
+    "assigned_articles": [
+      "Art. 662",
+      "Art. 663",
+      "Art. 664",
+      "Art. 665",
+      "Art. 666",
+      "Art. 667",
+      "Art. 668",
+      "Art. 669",
+      "Art. 670"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Satz nennt ausdrücklich \"nach den Grundsätzen der Artikel 662 bis 670 OR SR 220\". Der Bereich 662–670 OR ist damit direkt dem Obligationenrecht (SR 220) zugeordnet; die Range wird hier als einzelne Artikel aufgelöst."
+  },
+  {
+    "Item": 6,
+    "ARTICLE_EID": "art_17",
+    "TARGET_SR": "SR 220",
+    "assigned_articles": [
+      "Art. 727a"
+    ],
+    "confidence": "high",
+    "reasoning": "Zwar steht im ersten Satz nur \"nach dem OR SR 220\" (allgemein), im zweiten Satz des snippet_acronym aber: \"im Rahmen von Artikel 727a OR\". Dieser Artikel ist klar dem OR (SR 220) zugeordnet und stellt die konkret genannte Norm dar."
+  },
+  {
+    "Item": 7,
+    "ARTICLE_EID": "art_18",
+    "TARGET_SR": "SR 842.1",
+    "assigned_articles": [
+      "Art. 60 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Formulierung: \"nach Artikel 60 Absatz 2 WFV\"; WFV ist in der Präambel als SR 842.1 definiert. Die Artikelangabe ist direkt mit der Verordnungsabkürzung verknüpft."
+  },
+  {
+    "Item": 8,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Bezugnahme \"Personen nach Artikel 4\" erfolgt ohne Nennung eines anderen Erlasses oder einer SR-Nummer und bezieht sich damit auf Art. 4 derselben Verordnung (Selbstverweis)."
+  },
+  {
+    "Item": 9,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "\"nach Artikel 2\" steht ohne Gesetzesabkürzung oder SR-Hinweis und beschreibt die interne Systematik der Verordnung; es handelt sich um einen Verweis auf Art. 2 derselben Verordnung."
+  },
+  {
+    "Item": 10,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": "SR 641.10",
+    "assigned_articles": [
+      "Art. 6 Abs. 1 Bst. a"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Text wiederholt die Formulierung aus Item 3: \"Artikel 6 Absatz 1 Buchstabe a des Bundesgesetzes ... über die Stempelabgaben\". Dieses Bundesgesetz ist SR 641.10; der Artikel ist klar zugeordnet."
+  },
+  {
+    "Item": 11,
+    "ARTICLE_EID": "art_8",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Verweise \"Personen nach Artikel 4\" und \"nach Artikel 11 Absatz 1\" enthalten keine Gesetzesabkürzung oder SR-Nummer und beziehen sich auf Artikel derselben Verordnung."
+  },
+  {
+    "Item": 12,
+    "ARTICLE_EID": "art_12",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "\"nach Artikel 11 Absatz 1\" ist ohne externen Erlasskontext formuliert und verweist auf eine Bestimmung innerhalb derselben Verordnung."
+  },
+  {
+    "Item": 13,
+    "ARTICLE_EID": "art_21",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Wendung \"Anmerkung nach Artikel 18\" sowie \"die Artikel 19 und 20\" sind rein interne Strukturverweise ohne Nennung eines anderen Erlasses; sie betreffen Artikel derselben Verordnung."
+  },
+  {
+    "Item": 14,
+    "ARTICLE_EID": "art_25",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "\"nach den Grundsätzen von Artikel 14\" verweist auf einen Artikel derselben Verordnung; es fehlt jeder Hinweis auf ein anderes Gesetz oder eine SR-Nummer."
+  },
+  {
+    "Item": 15,
+    "ARTICLE_EID": "art_25",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Formulierung \"nach Artikel 11 Absatz 1 dieser Verordnung\" macht ausdrücklich klar, dass es sich um einen Selbstverweis innerhalb derselben Verordnung handelt."
+  }
+]

@@ -1,0 +1,72 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 101",
+    "assigned_articles": [
+      "Art. 67 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Formulierung «gestützt auf Artikel 67 Absatz 2 der Bundesverfassung SR 101» verknüpft den genannten Artikel syntaktisch eindeutig mit SR 101."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_6",
+    "TARGET_SR": "SR 415.0",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Satz «Leistungen nach dem Sportförderungsgesetz vom 17. Juni 2011 SR 415.0» wird kein bestimmter Artikel des Sportförderungsgesetzes genannt; es handelt sich um eine generelle Bezugnahme auf das Gesetz als Ganzes."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_15",
+    "TARGET_SR": "SR 616.1",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "«Das Verfahren ... richtet sich nach dem Subventionsgesetz vom 5. Oktober 1990 SR 616.1.» enthält keinen expliziten Artikelverweis; das gesamte Gesetz wird als Verfahrensgrundlage herangezogen."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_6",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 11 Abs. 1 BV"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Stelle «im Sinne von Artikel 11 Absatz 1 der Bundesverfassung» verweist auf die Bundesverfassung (SR 101), Art. 11 Abs. 1. Dies ist ein externer Verweis, kein Selbstverweis innerhalb des aktuellen Erlasses."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_15",
+    "TARGET_SR": "SR 616.1",
+    "assigned_articles": [
+      "Art. 16 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "«Leistungsvertrag nach Artikel 16 Absatz 2 des Subventionsgesetzes vom 5. Oktober 1990» bezieht sich klar auf Art. 16 Abs. 2 des Subventionsgesetzes (SR 616.1), das bereits in ITEM 3 als SR 616.1 identifiziert wurde."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_17",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«... nach Artikel 7» nennt keinen Erlassnamen oder SR-Nummer; es handelt sich um einen Verweis auf einen anderen Artikel desselben Erlasses (Selbstverweis)."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_23",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«Artikel 16 bleibt vorbehalten» enthält keinen Hinweis auf einen anderen Erlass; dies ist ein interner Verweis auf Art. 16 desselben Erlasses."
+  }
+]

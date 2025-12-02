@@ -1,0 +1,310 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 814.01",
+    "assigned_articles": [
+      "Art. 35a",
+      "Art. 35c"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet explicitly: 'gestützt auf die Artikel 35a und 35c des Umweltschutzgesetzes ... SR 814.01 (USG)'. Both articles are directly and syntactically linked to SR 814.01."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_9",
+    "TARGET_SR": "SR 814.318.142.1",
+    "assigned_articles": [
+      "Art. 2 Abs. 1",
+      "Anhang 1 Ziff. 32"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet: '... nach Artikel 2 Absatz 1 und Anhang 1 Ziffer 32 der Luftreinhalte-Verordnung ... SR 814.318.142.1 (LRV)'. Article and annex are explicitly attributed to the LRV that carries this SR."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_22_a",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": [
+      "Art. 34 Abs. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet: '... nach Artikel 34 Absatz 3 des Zollgesetzes ... SR 631.0'. Clear direct marking of article and paragraph to this SR."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_23",
+    "TARGET_SR": "SR 832.10",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "medium",
+    "reasoning": "Snippet only: '... nach dem Bundesgesetz vom 18. März 1994 SR 832.10 über die Krankenversicherung (KVG);' with no article mentioned. It is a general citation of the KVG as a whole."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_23",
+    "TARGET_SR": "SR 833.1",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "medium",
+    "reasoning": "Snippet: '... nach dem Bundesgesetz vom 19. Juni 1992 SR 833.1 über die Militärversicherung (MVG).' No specific article is cited; functions as a general reference to the MVG."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_23_c",
+    "TARGET_SR": "SR 641.711",
+    "assigned_articles": [
+      "Art. 123"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet: 'Für die Entschädigung der Versicherer gilt Artikel 123 der CO2-Verordnung ... SR 641.711.' Article 123 is explicitly and uniquely linked to this SR."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_9_h",
+    "TARGET_SR": "SR 814.01",
+    "assigned_articles": [
+      "Art. 35a Abs. 4"
+    ],
+    "confidence": "high",
+    "reasoning": "Preamble acronym item: '... Abgabebefreiung im Sinne von Artikel 35a Absatz 4 USG ...'. USG is mapped to SR 814.01 in the preamble_callback, so this is Art. 35a Abs. 4 of SR 814.01."
+  },
+  {
+    "ITEM": 8,
+    "ARTICLE_EID": "art_10",
+    "TARGET_SR": "SR 814.01",
+    "assigned_articles": [
+      "Art. 35a Abs. 3 Bst. c",
+      "Art. 35a Abs. 4"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet: '... Abgabebefreiung im Sinne von Artikel 35a Absatz 3 Buchstabe c oder Absatz 4 USG ...'. USG is SR 814.01; both specified paragraphs of Art. 35a are clearly referenced."
+  },
+  {
+    "ITEM": 9,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": "self",
+    "assigned_articles": [
+      "Art. 23",
+      "Art. 23a",
+      "Art. 23b"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet: '... Verteilung des Abgabeertrages (Art. 23–23b);'. No external SR; this is an internal range within the same ordinance. Expanded as Art. 23, 23a, 23b."
+  },
+  {
+    "ITEM": 10,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": "self",
+    "assigned_articles": [
+      "Art. 9h"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet: '... Überprüfung der Nachweise nach Artikel 9h;'. No SR mentioned; internal cross-reference to Art. 9h of the same document."
+  },
+  {
+    "ITEM": 11,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": "self",
+    "assigned_articles": [
+      "Art. 10"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet: '... Überprüfung der VOC-Bilanzen nach Artikel 10;'. Purely internal reference; no external SR context."
+  },
+  {
+    "ITEM": 12,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": "self",
+    "assigned_articles": [
+      "Art. 9k"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet: '... Verminderung diffuser Emissionen nach Artikel 9k.' Internal article reference; no SR mentioned."
+  },
+  {
+    "ITEM": 13,
+    "ARTICLE_EID": "art_9",
+    "TARGET_SR": "SR 814.318.142.1",
+    "assigned_articles": [
+      "Art. 2 Abs. 1",
+      "Anhang 1 Ziff. 32"
+    ],
+    "confidence": "high",
+    "reasoning": "Artikel_reference mirrors ITEM 2 but without explicit SR in the line; context from ITEM 2 shows that 'Artikel 2 Absatz 1 und Anhang 1 Ziffer 32 der Luftreinhalte-Verordnung (LRV)' belong to SR 814.318.142.1."
+  },
+  {
+    "ITEM": 14,
+    "ARTICLE_EID": "art_9",
+    "TARGET_SR": "SR 814.318.142.1",
+    "assigned_articles": [
+      "Art. 3",
+      "Art. 4"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet: '... nach den Artikeln 3 und 4 LRV ...'. LRV is the Luftreinhalte-Verordnung, which in this document is linked to SR 814.318.142.1; thus Art. 3 and 4 of that SR."
+  },
+  {
+    "ITEM": 15,
+    "ARTICLE_EID": "art_9_a",
+    "TARGET_SR": "self",
+    "assigned_articles": [
+      "Art. 9"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet: '... Befreiungsvoraussetzungen nach Artikel 9 ...'. No SR; clearly an internal reference to Art. 9 of the same ordinance."
+  },
+  {
+    "ITEM": 16,
+    "ARTICLE_EID": "art_9_b",
+    "TARGET_SR": "self",
+    "assigned_articles": [
+      "Art. 9 Abs. 1 Bst. b"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet: 'Wurde die nach Artikel 9 Absatz 1 Buchstabe b verlangte Verfügbarkeit ...'. Internal reference to a specific paragraph and letter of Art. 9."
+  },
+  {
+    "ITEM": 17,
+    "ARTICLE_EID": "art_9_b",
+    "TARGET_SR": "self",
+    "assigned_articles": [
+      "Art. 9"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet: '... Befreiungsvoraussetzungen nach Artikel 9 ...'. Internal cross-reference; no external SR."
+  },
+  {
+    "ITEM": 18,
+    "ARTICLE_EID": "art_9_b",
+    "TARGET_SR": "self",
+    "assigned_articles": [
+      "Art. 9 Abs. 1 Bst. b"
+    ],
+    "confidence": "high",
+    "reasoning": "Same structure as ITEM 16: '... nach Artikel 9 Absatz 1 Buchstabe b verlangte Verfügbarkeit ...'. Internal reference."
+  },
+  {
+    "ITEM": 19,
+    "ARTICLE_EID": "art_9_b",
+    "TARGET_SR": "self",
+    "assigned_articles": [
+      "Art. 9"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet: '... Befreiungsvoraussetzungen nach Artikel 9 ...'. Again an internal reference."
+  },
+  {
+    "ITEM": 20,
+    "ARTICLE_EID": "art_9_j",
+    "TARGET_SR": "self",
+    "assigned_articles": [
+      "Art. 9"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet: '... Befreiungsvoraussetzungen nach Artikel 9 erfüllen.' Internal reference; no SR mentioned."
+  },
+  {
+    "ITEM": 21,
+    "ARTICLE_EID": "art_12",
+    "TARGET_SR": "self",
+    "assigned_articles": [
+      "Art. 22 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet: '... Abgabe nach Artikel 22 Absatz 2 nachbezahlt werden muss ...'. No external SR; refers to Art. 22 Abs. 2 of the same ordinance."
+  },
+  {
+    "ITEM": 22,
+    "ARTICLE_EID": "art_13",
+    "TARGET_SR": "self",
+    "assigned_articles": [
+      "Art. 21 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet: '... Bewilligung ... (Art. 21 Abs. 2) ...'. Parenthetical article without SR; internal cross-reference."
+  },
+  {
+    "ITEM": 23,
+    "ARTICLE_EID": "art_13",
+    "TARGET_SR": "self",
+    "assigned_articles": [
+      "Art. 22 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet: 'Personen, die nach Artikel 22 Absatz 2 verpflichtet sind ...'. Internal reference to Art. 22 Abs. 2."
+  },
+  {
+    "ITEM": 24,
+    "ARTICLE_EID": "art_22",
+    "TARGET_SR": "self",
+    "assigned_articles": [
+      "Art. 21"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet: 'Wer eine Bewilligung nach Artikel 21 hat ...'. No SR; internal reference to Art. 21."
+  },
+  {
+    "ITEM": 25,
+    "ARTICLE_EID": "art_22_a",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": [
+      "Art. 34 Abs. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "Artikel_reference version of ITEM 3: '... nach Artikel 34 Absatz 3 des Zollgesetzes ...'. From ITEM 3 we know this is SR 631.0; same article and paragraph."
+  },
+  {
+    "ITEM": 26,
+    "ARTICLE_EID": "art_22_b",
+    "TARGET_SR": "self",
+    "assigned_articles": [
+      "Art. 22 Abs. 2",
+      "Art. 22 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet: '... nach Artikel 22 Absatz 2 ... ab dem Ablauf der Einreichungsfrist nach Artikel 22 Absatz 1 ...'. Both references are internal to Art. 22."
+  },
+  {
+    "ITEM": 27,
+    "ARTICLE_EID": "art_23",
+    "TARGET_SR": "SR 832.10",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "medium",
+    "reasoning": "Snippet: '... Versicherungspflicht nach KVG oder nach Artikel 2 Absatz 1 oder 2 MVG ...'. 'KVG' is the Krankenversicherungsgesetz (SR 832.10) but no article is specified here; it is a general reference to being subject to KVG insurance. The explicit article numbers (2 Abs. 1 oder 2) belong to MVG, not KVG."
+  },
+  {
+    "ITEM": 28,
+    "ARTICLE_EID": "art_23_a",
+    "TARGET_SR": "self",
+    "assigned_articles": [
+      "Art. 23 Abs. 5"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet: '... Voraussetzungen nach Artikel 23 Absatz 5 erfüllen.' Internal reference to a paragraph of Art. 23."
+  },
+  {
+    "ITEM": 29,
+    "ARTICLE_EID": "art_23_b",
+    "TARGET_SR": "self",
+    "assigned_articles": [
+      "Art. 23 Abs. 5"
+    ],
+    "confidence": "high",
+    "reasoning": "Same structure as ITEM 28: internal reference to Art. 23 Abs. 5."
+  },
+  {
+    "ITEM": 30,
+    "ARTICLE_EID": "art_23_c",
+    "TARGET_SR": "SR 641.711",
+    "assigned_articles": [
+      "Art. 123"
+    ],
+    "confidence": "high",
+    "reasoning": "Artikel_reference version of ITEM 6: 'Für die Entschädigung der Versicherer gilt Artikel 123 der CO2-Verordnung ...'. From ITEM 6 we know this is SR 641.711; article is explicitly given."
+  }
+]

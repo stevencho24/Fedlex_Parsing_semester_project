@@ -1,0 +1,65 @@
+[
+  {
+    "Item": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 748.01",
+    "assigned_articles": [
+      "Art. 101 Abs. 4"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Formulierung «gestützt auf Artikel 101 Absatz 4 der Verordnung ... SR 748.01» verweist eindeutig auf Art. 101 Abs. 4 der Luftfahrtverordnung; Artikel und SR sind syntaktisch direkt verknüpft."
+  },
+  {
+    "Item": 2,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 748.01",
+    "assigned_articles": [
+      "Art. 101 Abs. 3 Bst. c"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Snippet steht «nach Artikel 101 Absatz 3 Buchstabe c der Luftfahrtverordnung»; dies ist ein klarer, direkt markierter Verweis auf Art. 101 Abs. 3 Buchstabe c der Luftfahrtverordnung (SR 748.01)."
+  },
+  {
+    "Item": 3,
+    "ARTICLE_EID": "art_6",
+    "TARGET_SR": "SR 748.01",
+    "assigned_articles": [
+      "Art. 101 Abs. 3 Bst. c"
+    ],
+    "confidence": "high",
+    "reasoning": "Auch hier lautet der Text «nach Artikel 101 Absatz 3 Buchstabe c der Luftfahrtverordnung»; damit wird wiederum eindeutig Art. 101 Abs. 3 Buchstabe c der Luftfahrtverordnung (SR 748.01) zitiert."
+  },
+  {
+    "Item": 4,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": "SR 748.01",
+    "assigned_articles": [
+      "Art. 101 Abs. 3 Bst. d"
+    ],
+    "confidence": "high",
+    "reasoning": "Das Snippet verweist auf «Artikel 101 Absatz 3 Buchstabe d der Luftfahrtverordnung»; dies ist ein expliziter Verweis auf Art. 101 Abs. 3 Buchstabe d der Luftfahrtverordnung (SR 748.01)."
+  },
+  {
+    "Item": 5,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 4 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "«Einwegbeförderungen sind nach Artikel 4 Absatz 2 zulässig» ist ein interner Verweis innerhalb derselben Verordnung (kein SR genannt). Es handelt sich um eine Selbstreferenz auf Art. 4 Abs. 2 des aktuellen Erlasses, nicht auf ein anderes SR-Dokument."
+  },
+  {
+    "Item": 6,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 2",
+      "Art. 3",
+      "Art. 4",
+      "Art. 5"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Formulierung «in den Artikeln 2–5 genannten Charterkategorien» ist ein reiner Binnenverweis auf die Artikel 2 bis 5 derselben Verordnung; es wird kein anderes SR-Dokument genannt, daher Selbstreferenz."
+  }
+]

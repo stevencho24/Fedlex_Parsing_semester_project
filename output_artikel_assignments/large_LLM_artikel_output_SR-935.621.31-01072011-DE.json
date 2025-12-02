@@ -1,0 +1,82 @@
+[
+  {
+    "Item": 1,
+    "SOURCE_ARTICLE_EID": "preamble",
+    "LINKED_SR": "SR 935.62",
+    "ASSIGNED_ARTIKEL": [
+      "Art. 8 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Formulierung \"gestützt auf Artikel 8 Absatz 2 des Patentanwaltsgesetzes ... SR 935.62 (PAG)\" verknüpft den Artikel eindeutig mit SR 935.62."
+  },
+  {
+    "Item": 2,
+    "SOURCE_ARTICLE_EID": "preamble",
+    "LINKED_SR": "SR 935.621",
+    "ASSIGNED_ARTIKEL": [
+      "Art. 3 Abs. 1 Bst. f"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Formulierung \"sowie Artikel 3 Absatz 1 Buchstabe f der Patentanwaltsverordnung ... SR 935.621 (PAV)\" verknüpft den Artikel eindeutig mit SR 935.621."
+  },
+  {
+    "Item": 3,
+    "SOURCE_ARTICLE_EID": "art_2",
+    "LINKED_SR": "SR 172.041.1",
+    "ASSIGNED_ARTIKEL": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Satz verweist allgemein auf die Allgemeine Gebührenverordnung (SR 172.041.1), ohne konkrete Artikel zu nennen; es handelt sich um eine generelle Verweisnorm."
+  },
+  {
+    "Item": 4,
+    "SOURCE_ARTICLE_EID": "art_1",
+    "LINKED_SR": "SR 935.621",
+    "ASSIGNED_ARTIKEL": [
+      "Art. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Snippet steht \"... nach Artikel 3 PAV ...\"; PAV ist in der Präambel als SR 935.621 definiert, somit bezieht sich Art. 3 auf SR 935.621."
+  },
+  {
+    "Item": 5,
+    "SOURCE_ARTICLE_EID": "art_3",
+    "LINKED_SR": "SR 935.621",
+    "ASSIGNED_ARTIKEL": [
+      "General reference - entire document"
+    ],
+    "confidence": "low",
+    "reasoning": "Das Snippet enthält nur wiederholte Nennung des Akronyms \"PAV\" ohne konkrete Artikelangabe; daher wird von einem allgemeinen Verweis auf die Verordnung SR 935.621 ausgegangen."
+  },
+  {
+    "Item": 6,
+    "SOURCE_ARTICLE_EID": "art_3",
+    "LINKED_SR": "SR 935.621.31",
+    "ASSIGNED_ARTIKEL": [
+      "Art. 12 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Es wird lediglich \"Art. 12 Abs. 2\" ohne Gesetzesabkürzung oder SR-Nummer genannt. Mangels expliziter Verknüpfung zu einem anderen Erlass ist dies als Selbstverweis innerhalb der vorliegenden Gebührenordnung (SR 935.621.31) zu verstehen."
+  },
+  {
+    "Item": 7,
+    "SOURCE_ARTICLE_EID": "art_3",
+    "LINKED_SR": "SR 935.621.31",
+    "ASSIGNED_ARTIKEL": [
+      "Art. 23"
+    ],
+    "confidence": "high",
+    "reasoning": "Die isolierte Nennung \"Art. 23\" ohne Abkürzung oder SR-Nummer ist nach den Vorgaben als interner Verweis auf einen Artikel derselben Gebührenordnung (SR 935.621.31) zu qualifizieren."
+  },
+  {
+    "Item": 8,
+    "SOURCE_ARTICLE_EID": "art_3",
+    "LINKED_SR": "SR 935.621.31",
+    "ASSIGNED_ARTIKEL": [
+      "Art. 25 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Formulierung \"Art. 25 Abs. 1\" erfolgt ohne Bezug auf ein anderes Gesetz oder eine Verordnung; syntaktisch handelt es sich um einen Selbstverweis innerhalb des aktuellen Erlasses (SR 935.621.31)."
+  }
+]

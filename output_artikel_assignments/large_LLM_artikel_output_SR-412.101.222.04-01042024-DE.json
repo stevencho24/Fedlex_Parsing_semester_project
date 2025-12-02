@@ -1,0 +1,186 @@
+[
+  {
+    "Item": 1,
+    "SOURCE_ARTICLE_EID": "preamble",
+    "LINKED_SR": "SR 412.10",
+    "ASSIGNED_ARTIKEL": ["Art. 19"],
+    "CONFIDENCE": "high",
+    "REASONING": "Snippet: 'gestützt auf Artikel 19 des Berufsbildungsgesetzes ... SR 412.10'; Art. 19 is explicitly and syntactically linked to SR 412.10."
+  },
+  {
+    "Item": 2,
+    "SOURCE_ARTICLE_EID": "preamble",
+    "LINKED_SR": "SR 412.101",
+    "ASSIGNED_ARTIKEL": ["Art. 12"],
+    "CONFIDENCE": "high",
+    "REASONING": "Snippet: 'auf Artikel 12 der Berufsbildungsverordnung ... SR 412.101 (BBV)'; Art. 12 is directly attributed to SR 412.101."
+  },
+  {
+    "Item": 3,
+    "SOURCE_ARTICLE_EID": "preamble",
+    "LINKED_SR": "SR 170.512",
+    "ASSIGNED_ARTIKEL": ["Art. 12 Abs. 2"],
+    "CONFIDENCE": "high",
+    "REASONING": "INSIDE_AUTHORIALNOTE: 'in Anwendung von Art. 12 Abs. 2 des Publikationsgesetzes ... (SR 170.512)'; clear direct marking of article and paragraph."
+  },
+  {
+    "Item": 4,
+    "SOURCE_ARTICLE_EID": "preamble",
+    "LINKED_SR": "SR 822.115",
+    "ASSIGNED_ARTIKEL": ["Art. 4a Abs. 1"],
+    "CONFIDENCE": "high",
+    "REASONING": "Snippet: 'auf Artikel 4a Absatz 1 der Jugendarbeitsschutzverordnung ... SR 822.115 (ArGV 5)'; explicit article and paragraph tied to SR 822.115."
+  },
+  {
+    "Item": 5,
+    "SOURCE_ARTICLE_EID": "art_5",
+    "LINKED_SR": "SR 170.512",
+    "ASSIGNED_ARTIKEL": ["Art. 12 Abs. 2"],
+    "CONFIDENCE": "high",
+    "REASONING": "INSIDE_AUTHORIALNOTE repeats: 'in Anwendung von Art. 12 Abs. 2 des Publikationsgesetzes ... (SR 170.512)'; same explicit reference as in preamble."
+  },
+  {
+    "Item": 6,
+    "SOURCE_ARTICLE_EID": "art_9",
+    "LINKED_SR": "SR 412.101.241",
+    "ASSIGNED_ARTIKEL": ["General reference - entire document"],
+    "CONFIDENCE": "high",
+    "REASONING": "Snippet: 'gilt die Verordnung des SBFI vom 27. April 2006 SR 412.101.241 über die Mindestvorschriften ...'; no specific article cited, reference is to the ordinance as a whole."
+  },
+  {
+    "Item": 7,
+    "SOURCE_ARTICLE_EID": "art_16",
+    "LINKED_SR": "SR 412.101.241",
+    "ASSIGNED_ARTIKEL": ["General reference - entire document"],
+    "CONFIDENCE": "high",
+    "REASONING": "Snippet: 'richtet sich nach der Verordnung des SBFI ... SR 412.101.241 ...'; again only the ordinance as such is cited, no article number."
+  },
+  {
+    "Item": 8,
+    "SOURCE_ARTICLE_EID": "art_8",
+    "LINKED_SR": "SR 412.10",
+    "ASSIGNED_ARTIKEL": ["General reference - entire document"],
+    "CONFIDENCE": "medium",
+    "REASONING": "Preamble acronym SBFI→SR 412.10; snippet mentions 'vom SBFI genehmigt', but no article of SR 412.10 is indicated; treat as general reference to the governing act."
+  },
+  {
+    "Item": 9,
+    "SOURCE_ARTICLE_EID": "art_9",
+    "LINKED_SR": "SR 412.10",
+    "ASSIGNED_ARTIKEL": ["General reference - entire document"],
+    "CONFIDENCE": "medium",
+    "REASONING": "Preamble acronym SBFI→SR 412.10; snippet refers to 'Verordnung des SBFI ...', but does not specify an article of SR 412.10; implicit institutional reference only."
+  },
+  {
+    "Item": 10,
+    "SOURCE_ARTICLE_EID": "art_10",
+    "LINKED_SR": "SR 412.101",
+    "ASSIGNED_ARTIKEL": ["Art. 44 Abs. 1 Bst. a", "Art. 44 Abs. 1 Bst. b"],
+    "CONFIDENCE": "high",
+    "REASONING": "Snippet: 'im Sinne von Artikel 44 Absatz 1 Buchstaben a und b BBV'; BBV is SR 412.101; both letters a and b of Art. 44 Abs. 1 are explicitly cited."
+  },
+  {
+    "Item": 11,
+    "SOURCE_ARTICLE_EID": "art_14",
+    "LINKED_SR": "SR 412.101",
+    "ASSIGNED_ARTIKEL": ["Art. 32"],
+    "CONFIDENCE": "high",
+    "REASONING": "Snippet: 'die nach Artikel 32 BBV erforderliche Erfahrung erworben hat'; BBV is SR 412.101; direct article reference."
+  },
+  {
+    "Item": 12,
+    "SOURCE_ARTICLE_EID": "art_16",
+    "LINKED_SR": "SR 412.10",
+    "ASSIGNED_ARTIKEL": ["General reference - entire document"],
+    "CONFIDENCE": "medium",
+    "REASONING": "Preamble acronym SBFI→SR 412.10; snippet refers to 'Verordnung des SBFI ...', but no article of SR 412.10 is mentioned; general institutional reference."
+  },
+  {
+    "Item": 13,
+    "SOURCE_ARTICLE_EID": "art_18",
+    "LINKED_SR": "SR 412.101",
+    "ASSIGNED_ARTIKEL": ["Art. 33"],
+    "CONFIDENCE": "high",
+    "REASONING": "Snippet: 'richtet sich nach Artikel 33 BBV'; BBV is SR 412.101; explicit article reference."
+  },
+  {
+    "Item": 14,
+    "SOURCE_ARTICLE_EID": "art_21",
+    "LINKED_SR": "SR 412.10",
+    "ASSIGNED_ARTIKEL": ["General reference - entire document"],
+    "CONFIDENCE": "medium",
+    "REASONING": "Preamble acronym SBFI→SR 412.10; snippet mentions SBFI as approving authority and addressee of amendment requests; no specific article of SR 412.10 is cited."
+  },
+  {
+    "Item": 15,
+    "SOURCE_ARTICLE_EID": "art_3",
+    "LINKED_SR": "SR 412.101.222.04",
+    "ASSIGNED_ARTIKEL": ["Art. 4"],
+    "CONFIDENCE": "high",
+    "REASONING": "artikel_reference without external SR; 'Handlungskompetenzen nach Artikel 4' clearly refers to Art. 4 of the same ordinance (self-reference)."
+  },
+  {
+    "Item": 16,
+    "SOURCE_ARTICLE_EID": "art_5",
+    "LINKED_SR": "SR 412.101.222.04",
+    "ASSIGNED_ARTIKEL": ["Art. 4 Abs. 1", "Art. 4a Abs. 1"],
+    "CONFIDENCE": "high",
+    "REASONING": "Snippet: 'In Abweichung von Artikel 4 Absatz 1 ArGV 5 und gemäss den Vorgaben nach Artikel 4a Absatz 1 ArGV 5'; both articles are explicitly tied to ArGV 5 (SR 822.115) syntactically, not to the current SR. As artikel_reference type with explicit foreign acronym, these are not self-references; for the current document there is no additional internal article implied, so no self-reference is assigned here."
+  },
+  {
+    "Item": 17,
+    "SOURCE_ARTICLE_EID": "art_8",
+    "LINKED_SR": "SR 412.101.222.04",
+    "ASSIGNED_ARTIKEL": ["Art. 4"],
+    "CONFIDENCE": "high",
+    "REASONING": "Snippet: 'Handlungskompetenzen nach Artikel 4'; no external SR mentioned, so this is an internal cross-reference to Art. 4 of the same ordinance."
+  },
+  {
+    "Item": 18,
+    "SOURCE_ARTICLE_EID": "art_14",
+    "LINKED_SR": "SR 412.101.222.04",
+    "ASSIGNED_ARTIKEL": ["Art. 32", "Art. 16"],
+    "CONFIDENCE": "medium",
+    "REASONING": "Snippet contains 'Artikel 32 BBV' (external to SR 412.101) and '(Art. 16)' which, lacking an acronym or SR, is a self-reference to Art. 16 of the same ordinance; for the current SR we only count the internal '(Art. 16)'. 'Artikel 32 BBV' belongs to SR 412.101 and is already captured elsewhere."
+  },
+  {
+    "Item": 19,
+    "SOURCE_ARTICLE_EID": "art_15",
+    "LINKED_SR": "SR 412.101.222.04",
+    "ASSIGNED_ARTIKEL": ["Art. 4"],
+    "CONFIDENCE": "high",
+    "REASONING": "Snippet: 'Handlungskompetenzen nach Artikel 4 erworben'; no external SR; internal reference to Art. 4 of the same ordinance."
+  },
+  {
+    "Item": 20,
+    "SOURCE_ARTICLE_EID": "art_20",
+    "LINKED_SR": "SR 412.101.222.04",
+    "ASSIGNED_ARTIKEL": ["Art. 19 Abs. 1"],
+    "CONFIDENCE": "high",
+    "REASONING": "Snippet: 'unter dem Vorbehalt von Artikel 19 Absatz 1'; no external SR; clear internal reference to Art. 19 Abs. 1 of the same ordinance."
+  },
+  {
+    "Item": 21,
+    "SOURCE_ARTICLE_EID": "art_21",
+    "LINKED_SR": "SR 412.101.222.04",
+    "ASSIGNED_ARTIKEL": ["Art. 8"],
+    "CONFIDENCE": "high",
+    "REASONING": "Snippet: 'Bildungsplan nach Artikel 8'; no external SR; internal cross-reference to Art. 8."
+  },
+  {
+    "Item": 22,
+    "SOURCE_ARTICLE_EID": "art_21",
+    "LINKED_SR": "SR 412.101.222.04",
+    "ASSIGNED_ARTIKEL": ["Art. 4"],
+    "CONFIDENCE": "high",
+    "REASONING": "Snippet: 'namentlich die Handlungskompetenzen nach Artikel 4'; internal reference to Art. 4 of the same ordinance."
+  },
+  {
+    "Item": 23,
+    "SOURCE_ARTICLE_EID": "art_24",
+    "LINKED_SR": "SR 412.101.222.04",
+    "ASSIGNED_ARTIKEL": ["Art. 14", "Art. 15", "Art. 16", "Art. 17", "Art. 18", "Art. 19", "Art. 20"],
+    "CONFIDENCE": "high",
+    "REASONING": "Snippet: '(Art. 14–20)'; this is a range of internal articles; expanded to individual articles 14 through 20 of the same ordinance."
+  }
+]

@@ -1,0 +1,72 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 101",
+    "assigned_articles": [
+      "Art. 122"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet explicitly cites 'Artikel 122 der Bundesverfassung SR 101'; the article number is directly linked to SR 101 in the same phrase."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": "SR 311.0",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "The text refers generically to 'strengere Bestimmungen des besonderen Teils des Schweizerischen Strafgesetzbuches SR 311.0' without specifying any article or range; this is a general reference to the special part of the code."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "The reference to 'Artikeln 1–3' concerns articles of the same act; no SR document is mentioned, so this is a self-reference within SR 232.23."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "Mentions 'Artikel 4' and 'Artikel 11 Absatz 2' without any SR citation; these clearly refer to other provisions of the same law."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "The phrase 'in den Artikeln 1–3 genannten' refers to articles 1–3 of the same statute; no external SR is cited."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_8",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "The reference 'in Artikel 7 unter Strafe gestellten Handlungen' points to article 7 of this act; there is no external SR link."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_11",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "The phrase 'von Artikel 4 dieses Gesetzes vorgesehenen Veröffentlichung' is an internal cross-reference to article 4 of the same law; no external SR is involved."
+  }
+]

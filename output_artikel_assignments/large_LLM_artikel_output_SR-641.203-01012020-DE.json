@@ -1,0 +1,22 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 101",
+    "assigned_articles": [
+      "Art. 130 Abs. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet explicitly cites 'Artikel 130 Absatz 3 der Bundesverfassung SR 101'; this article and paragraph clearly belong to SR 101."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "The reference is to 'Artikel 41ter Absatz 3bis der Bundesverfassung' without an accompanying SR citation in the snippet; within this parsing framework and given no TARGET_SR, this is treated as an internal/self-reference rather than an assignment to an external SR."
+  }
+]

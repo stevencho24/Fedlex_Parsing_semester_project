@@ -1,0 +1,132 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 101",
+    "assigned_articles": [
+      "Art. 38 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Formulierung «gestützt auf Artikel 38 Absatz 1 der Bundesverfassung SR 101» verknüpft den genannten Artikel grammatikalisch eindeutig mit SR 101."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 0.191.01",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "Es wird nur das Wiener Übereinkommen (SR 0.191.01) als Ganzes erwähnt; kein bestimmter Artikel dieses Übereinkommens wird genannt."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 0.191.02",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "Es wird nur das Wiener Übereinkommen über konsularische Beziehungen (SR 0.191.02) als Ganzes erwähnt; kein bestimmter Artikel wird genannt."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_6_a",
+    "TARGET_SR": "SR 120.4",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "medium",
+    "reasoning": "Der Text verweist auf «die V vom 4. März 2011 (SR 120.4) über die Personensicherheitsprüfungen», ohne einen bestimmten Artikel dieser Verordnung zu nennen; der vorherige Hinweis auf «Artikel 6 der Verordnung vom 19. Dezember 2001» bezieht sich auf die alte Fassung, nicht auf SR 120.4."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": "SR 141.0",
+    "assigned_articles": [
+      "Art. 36"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Formulierung «nach Artikel 36 des Bürgerrechtsgesetzes vom 20. Juni 2014 SR 141.0» verknüpft Art. 36 eindeutig mit SR 141.0."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_10",
+    "TARGET_SR": "SR 235.1",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "«Die Datenbearbeitung ... richtet sich nach dem Datenschutzgesetz ... SR 235.1» ist eine generelle Verweisnorm auf das gesamte Datenschutzgesetz ohne Nennung einzelner Artikel."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_11",
+    "TARGET_SR": "SR 0.191.01",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "Wie bei ITEM 2 wird das Übereinkommen (SR 0.191.01) nur als Ganzes erwähnt; keine konkrete Artikelangabe."
+  },
+  {
+    "ITEM": 8,
+    "ARTICLE_EID": "art_11",
+    "TARGET_SR": "SR 0.191.02",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "Wie bei ITEM 3 wird das Übereinkommen (SR 0.191.02) nur als Ganzes erwähnt; keine konkrete Artikelangabe."
+  },
+  {
+    "ITEM": 9,
+    "ARTICLE_EID": "art_4_a",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document (Art. 4 Abs. 1)"
+    ],
+    "confidence": "high",
+    "reasoning": "«gemäss Artikel 4 Absatz 1» verweist ohne Nennung eines anderen Gesetzes auf eine Bestimmung innerhalb desselben Gesetzes; daher Selbstverweis."
+  },
+  {
+    "ITEM": 10,
+    "ARTICLE_EID": "art_6_a",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document (Art. 6)"
+    ],
+    "confidence": "high",
+    "reasoning": "«im Sinne von Artikel 6 der Verordnung vom 19. Dezember 2001» bezieht sich auf die frühere, im selben Kontext erläuterte Verordnung; im aktuellen Dokument ist dies als interne historische Bezugnahme zu verstehen, nicht als Zuordnung zu einem TARGET_SR in diesem Datensatz."
+  },
+  {
+    "ITEM": 11,
+    "ARTICLE_EID": "art_6_b",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document (Art. 6a)"
+    ],
+    "confidence": "high",
+    "reasoning": "«gemäss Artikel 6a» nennt kein anderes Gesetz und verweist klar auf einen Artikel desselben Gesetzes; daher Selbstverweis."
+  },
+  {
+    "ITEM": 12,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document (Art. 36)"
+    ],
+    "confidence": "high",
+    "reasoning": "In dieser artikel_reference-Variante fehlt der explizite SR-Hinweis; «Artikel 36 des Bürgerrechtsgesetzes» steht ohne SR-Angabe und wird daher als interner Verweis im Sinne der Projektlogik behandelt, da der eigentliche SR-Bezug bereits in ITEM 5 abgedeckt ist."
+  },
+  {
+    "ITEM": 13,
+    "ARTICLE_EID": "art_8",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document (Art. 11)"
+    ],
+    "confidence": "high",
+    "reasoning": "«Informationssystem nach Artikel 11» nennt kein anderes Gesetz und verweist auf einen anderen Artikel desselben Gesetzes; klarer Selbstverweis."
+  }
+]

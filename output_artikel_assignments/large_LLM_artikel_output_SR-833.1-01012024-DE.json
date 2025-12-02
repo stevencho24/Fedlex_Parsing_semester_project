@@ -1,0 +1,978 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 171.10",
+    "assigned_articles": ["Art. 58 Abs. 1"],
+    "confidence": "high",
+    "reasoning": "Im Autorentext: '(Art. 58 Abs. 1 ParlG – SR 171.10)'; klare direkte Zuordnung."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 101",
+    "assigned_articles": ["Art. 59 Abs. 5", "Art. 60 Abs. 1", "Art. 60 Abs. 2", "Art. 61 Abs. 5", "Art. 68 Abs. 3", "Art. 117"],
+    "confidence": "high",
+    "reasoning": "Autorennote: 'Diesen Bestimmungen entsprechen die Art. 59 Abs. 5, 60 Abs. 1 und 2, 61 Abs. 5, 68 Abs. 3 und 117 der BV ... (SR 101)'; alle genannten Artikel gehören zur BV (SR 101)."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 830.1",
+    "assigned_articles": "General reference - entire document",
+    "confidence": "high",
+    "reasoning": "Formulierung 'Die Bestimmungen des Bundesgesetzes ... SR 830.1 ... sind ... anwendbar' ohne konkrete Artikel; Verweis auf das Gesetz als Ganzes."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_1_a",
+    "TARGET_SR": "SR 510.10",
+    "assigned_articles": ["Art. 8"],
+    "confidence": "high",
+    "reasoning": "Text: 'wer nach Artikel 8 des Militärgesetzes ... SR 510.10'; Art. 8 ist eindeutig dem Militärgesetz (SR 510.10) zugeordnet."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_1_a",
+    "TARGET_SR": "SR 520.1",
+    "assigned_articles": "General reference - entire document",
+    "confidence": "high",
+    "reasoning": "Nur 'im Sinne des Bevölkerungs- und Zivilschutzgesetzes ... SR 520.1' ohne Artikelangabe; allgemeiner Gesetzesverweis."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_1_a",
+    "TARGET_SR": "SR 170.512.1",
+    "assigned_articles": ["Art. 20 Abs. 2"],
+    "confidence": "high",
+    "reasoning": "Autorennote: 'in Anwendung von Art. 20 Abs. 2 der Publikationsverordnung ... (SR 170.512.1)'; klare syntaktische Zuordnung."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": "SR 832.20",
+    "assigned_articles": ["Art. 1a"],
+    "confidence": "high",
+    "reasoning": "Text: 'nach Artikel 1a des Bundesgesetzes ... SR 832.20 über die Unfallversicherung'; Art. 1a gehört zum UVG (SR 832.20)."
+  },
+  {
+    "ITEM": 8,
+    "ARTICLE_EID": "art_10",
+    "TARGET_SR": "SR 830.1",
+    "assigned_articles": ["Art. 22 Abs. 2"],
+    "confidence": "high",
+    "reasoning": "Formulierung 'in Abweichung von Artikel 22 Absatz 2 ATSG SR 830.1'; Artikel und SR sind direkt verknüpft."
+  },
+  {
+    "ITEM": 9,
+    "ARTICLE_EID": "art_12",
+    "TARGET_SR": "SR 830.1",
+    "assigned_articles": ["Art. 20 Abs. 1"],
+    "confidence": "high",
+    "reasoning": "Text: 'in Abweichung von Artikel 20 Absatz 1 ATSG SR 830.1'; eindeutige Zuordnung."
+  },
+  {
+    "ITEM": 10,
+    "ARTICLE_EID": "art_13",
+    "TARGET_SR": "SR 830.1",
+    "assigned_articles": "General reference - entire document",
+    "confidence": "low",
+    "reasoning": "Snippet enthält nur 'SR 830.1' ohne Kontext oder Artikelangabe; keine sichere Artikelbestimmung möglich."
+  },
+  {
+    "ITEM": 11,
+    "ARTICLE_EID": "art_18",
+    "TARGET_SR": "SR 830.1",
+    "assigned_articles": ["Art. 21 Abs. 4", "Art. 43 Abs. 2"],
+    "confidence": "high",
+    "reasoning": "Text: 'Zumutbar im Sinne von Artikel 21 Absatz 4 und Artikel 43 Absatz 2 ATSG SR 830.1'; beide Artikel gehören zum ATSG."
+  },
+  {
+    "ITEM": 12,
+    "ARTICLE_EID": "art_18_a",
+    "TARGET_SR": "SR 832.10",
+    "assigned_articles": ["Art. 31 Abs. 1"],
+    "confidence": "high",
+    "reasoning": "Text: 'nach Artikel 31 Absatz 1 des Bundesgesetzes ... SR 832.10 über die Krankenversicherung (KVG)'; klare Verknüpfung."
+  },
+  {
+    "ITEM": 13,
+    "ARTICLE_EID": "art_18_a",
+    "TARGET_SR": "SR 830.1",
+    "assigned_articles": ["Art. 4"],
+    "confidence": "high",
+    "reasoning": "Text: 'durch einen Unfall (Art. 4 ATSG SR 830.1)'; Art. 4 ist ausdrücklich dem ATSG zugeordnet."
+  },
+  {
+    "ITEM": 14,
+    "ARTICLE_EID": "art_20",
+    "TARGET_SR": "SR 830.1",
+    "assigned_articles": ["Art. 9"],
+    "confidence": "high",
+    "reasoning": "Text: 'durch Hilflosigkeit (Art. 9 ATSG SR 830.1)'; direkter Bezug."
+  },
+  {
+    "ITEM": 15,
+    "ARTICLE_EID": "art_22",
+    "TARGET_SR": "SR 811.11",
+    "assigned_articles": "General reference - entire document",
+    "confidence": "medium",
+    "reasoning": "Verweis 'gemäss dem Medizinalberufegesetz ... SR 811.11' ohne Artikel; es geht um generelle Berufsausübungs-Voraussetzungen, kein einzelner Artikel genannt."
+  },
+  {
+    "ITEM": 16,
+    "ARTICLE_EID": "art_26",
+    "TARGET_SR": "SR 832.10",
+    "assigned_articles": ["Art. 36", "Art. 37", "Art. 38", "Art. 39", "Art. 40", "Art. 47a"],
+    "confidence": "high",
+    "reasoning": "Text: 'Leistungserbringer nach den Artikeln 36–40 KVG SR 832.10 ... Organisation nach Artikel 47a KVG'; Bereich 36–40 als Range plus 47a, alle im KVG."
+  },
+  {
+    "ITEM": 17,
+    "ARTICLE_EID": "art_27",
+    "TARGET_SR": "SR 173.110",
+    "assigned_articles": "General reference - entire document",
+    "confidence": "medium",
+    "reasoning": "Formulierung 'nach Massgabe des Bundesgerichtsgesetzes ... SR 173.110'; keine konkrete Artikelangabe, allgemeiner Verweis auf das BGG."
+  },
+  {
+    "ITEM": 18,
+    "ARTICLE_EID": "art_27_a",
+    "TARGET_SR": "SR 832.10",
+    "assigned_articles": ["Art. 42a"],
+    "confidence": "high",
+    "reasoning": "Text: 'Versichertenkarte nach Artikel 42a KVG SR 832.10'; eindeutige Zuordnung."
+  },
+  {
+    "ITEM": 19,
+    "ARTICLE_EID": "art_28",
+    "TARGET_SR": "SR 830.1",
+    "assigned_articles": ["Art. 6", "Art. 18"],
+    "confidence": "high",
+    "reasoning": "Erster Satz: 'In Abweichung von Artikel 6 ATSG SR 830.1'; zweiter Satz im Acronym-Snippet: '(Art. 18 ATSG)'; beide Artikel gehören zum ATSG."
+  },
+  {
+    "ITEM": 20,
+    "ARTICLE_EID": "art_29",
+    "TARGET_SR": "SR 830.1",
+    "assigned_articles": ["Art. 19 Abs. 2"],
+    "confidence": "high",
+    "reasoning": "Text: 'In Abweichung von Artikel 19 Absatz 2 ATSG SR 830.1'; klare Verknüpfung."
+  },
+  {
+    "ITEM": 21,
+    "ARTICLE_EID": "art_33",
+    "TARGET_SR": "SR 830.1",
+    "assigned_articles": ["Art. 8", "Art. 7"],
+    "confidence": "high",
+    "reasoning": "Text: 'Invalidität (Art. 8 ATSG SR 830.1) ... Erwerbsfähigkeit (Art. 7 ATSG)'; beide Artikel des ATSG."
+  },
+  {
+    "ITEM": 22,
+    "ARTICLE_EID": "art_34",
+    "TARGET_SR": "SR 837.0",
+    "assigned_articles": "General reference - entire document",
+    "confidence": "medium",
+    "reasoning": "Verweis 'Leistungen gemäss Arbeitslosenversicherungsgesetz ... SR 837.0' ohne Artikel; allgemeiner Gesetzesverweis."
+  },
+  {
+    "ITEM": 23,
+    "ARTICLE_EID": "art_40",
+    "TARGET_SR": "SR 830.1",
+    "assigned_articles": ["Art. 8", "Art. 18"],
+    "confidence": "high",
+    "reasoning": "Text: 'Invalidität, Art. 8 ATSG SR 830.1'; zweiter Satz im Acronym-Snippet: '(Art. 18 ATSG)'; beide Artikel des ATSG."
+  },
+  {
+    "ITEM": 24,
+    "ARTICLE_EID": "art_41",
+    "TARGET_SR": "SR 831.10",
+    "assigned_articles": ["Art. 21 Abs. 1"],
+    "confidence": "high",
+    "reasoning": "Text: 'Referenzalter nach Artikel 21 Absatz 1 des Bundesgesetzes ... SR 831.10 (AHVG)'; eindeutige Zuordnung."
+  },
+  {
+    "ITEM": 25,
+    "ARTICLE_EID": "art_41",
+    "TARGET_SR": "SR 830.1",
+    "assigned_articles": ["Art. 17"],
+    "confidence": "high",
+    "reasoning": "Text: 'Rentenrevision (Art. 17 ATSG SR 830.1)'; klarer Bezug."
+  },
+  {
+    "ITEM": 26,
+    "ARTICLE_EID": "art_43",
+    "TARGET_SR": "SR 831.10",
+    "assigned_articles": ["Art. 21 Abs. 1"],
+    "confidence": "high",
+    "reasoning": "Text: 'Referenzalter nach Artikel 21 Absatz 1 AHVG SR 831.10'; eindeutige Verknüpfung."
+  },
+  {
+    "ITEM": 27,
+    "ARTICLE_EID": "art_47",
+    "TARGET_SR": "SR 831.10",
+    "assigned_articles": ["Art. 40 Abs. 1", "Art. 21 Abs. 1"],
+    "confidence": "high",
+    "reasoning": "Text: 'Altersrente nach Artikel 40 Absatz 1 AHVG ... Referenzalter nach Artikel 21 Absatz 1 AHVG SR 831.10'; beide Artikel im AHVG."
+  },
+  {
+    "ITEM": 28,
+    "ARTICLE_EID": "art_47",
+    "TARGET_SR": "SR 830.1",
+    "assigned_articles": ["Art. 17 Abs. 1"],
+    "confidence": "high",
+    "reasoning": "Text: 'in Abweichung von Artikel 17 Absatz 1 ATSG SR 830.1'; klarer Bezug."
+  },
+  {
+    "ITEM": 29,
+    "ARTICLE_EID": "art_51",
+    "TARGET_SR": "SR 831.10",
+    "assigned_articles": ["Art. 21 Abs. 1"],
+    "confidence": "high",
+    "reasoning": "Text: 'Referenzalter nach Artikel 21 Absatz 1 AHVG SR 831.10'; eindeutige Zuordnung."
+  },
+  {
+    "ITEM": 30,
+    "ARTICLE_EID": "art_65",
+    "TARGET_SR": "SR 830.1",
+    "assigned_articles": ["Art. 21 Abs. 1", "Art. 21 Abs. 1–3"],
+    "confidence": "medium",
+    "reasoning": "Text: 'Leistungen nach Artikel 21 Absatz 1 ATSG ... in Abweichung von Artikel 21 Absätze 1–3 ATSG SR 830.1'; derselbe Artikel mit unterschiedlicher Absatzangabe; beide Bezüge sind relevant."
+  },
+  {
+    "ITEM": 31,
+    "ARTICLE_EID": "art_66",
+    "TARGET_SR": "SR 830.1",
+    "assigned_articles": ["Art. 21"],
+    "confidence": "high",
+    "reasoning": "Text: 'Wo dieses Gesetz sowie Artikel 21 ATSG SR 830.1 die Kürzung ... vorsehen'; Artikel ohne Absatzangabe, gesamter Art. 21 ATSG gemeint."
+  },
+  {
+    "ITEM": 32,
+    "ARTICLE_EID": "art_66_c",
+    "TARGET_SR": "SR 171.10",
+    "assigned_articles": ["Art. 58 Abs. 1"],
+    "confidence": "high",
+    "reasoning": "Autorennote: '(Art. 58 Abs. 1 ParlG; SR 171.10)'; direkter Bezug."
+  },
+  {
+    "ITEM": 33,
+    "ARTICLE_EID": "art_67",
+    "TARGET_SR": "SR 830.1",
+    "assigned_articles": ["Art. 72", "Art. 73", "Art. 74", "Art. 75"],
+    "confidence": "high",
+    "reasoning": "Text: 'Artikel 72–75 ATSG SR 830.1'; Range 72–75 des ATSG."
+  },
+  {
+    "ITEM": 34,
+    "ARTICLE_EID": "art_70",
+    "TARGET_SR": "SR 830.1",
+    "assigned_articles": ["Art. 72", "Art. 73", "Art. 74", "Art. 75"],
+    "confidence": "high",
+    "reasoning": "Text: 'Rückgriff auf Dritte nach den Artikeln 72–75 ATSG SR 830.1'; derselbe Range 72–75 ATSG."
+  },
+  {
+    "ITEM": 35,
+    "ARTICLE_EID": "art_75",
+    "TARGET_SR": "SR 832.10",
+    "assigned_articles": "General reference - entire document",
+    "confidence": "medium",
+    "reasoning": "Formulierung 'Taggelder nach dem KVG SR 832.10' ohne Artikel; allgemeiner Verweis auf das KVG."
+  },
+  {
+    "ITEM": 36,
+    "ARTICLE_EID": "art_76",
+    "TARGET_SR": "SR 830.1",
+    "assigned_articles": ["Art. 65 Bst. a"],
+    "confidence": "high",
+    "reasoning": "Text: 'in Abweichung von Artikel 65 Buchstabe a ATSG SR 830.1'; klarer Bezug auf Art. 65 lit. a ATSG."
+  },
+  {
+    "ITEM": 37,
+    "ARTICLE_EID": "art_77",
+    "TARGET_SR": "SR 830.1",
+    "assigned_articles": ["Art. 69"],
+    "confidence": "high",
+    "reasoning": "Text: 'in Abweichung von Artikel 69 ATSG SR 830.1'; eindeutige Zuordnung."
+  },
+  {
+    "ITEM": 38,
+    "ARTICLE_EID": "art_78",
+    "TARGET_SR": "SR 837.0",
+    "assigned_articles": "General reference - entire document",
+    "confidence": "medium",
+    "reasoning": "Verweis 'Arbeitslosenversicherungsgesetz ... SR 837.0' ohne Artikel; allgemeiner Gesetzesverweis."
+  },
+  {
+    "ITEM": 39,
+    "ARTICLE_EID": "art_79",
+    "TARGET_SR": "SR 831.40",
+    "assigned_articles": "General reference - entire document",
+    "confidence": "medium",
+    "reasoning": "Text: 'nach dem Bundesgesetz ... SR 831.40 über die berufliche Alters‑, Hinterlassenen- und Invalidenvorsorge'; kein Artikel genannt."
+  },
+  {
+    "ITEM": 40,
+    "ARTICLE_EID": "art_82_a",
+    "TARGET_SR": "SR 830.1",
+    "assigned_articles": ["Art. 78"],
+    "confidence": "high",
+    "reasoning": "Text: 'Ersatzforderungen nach Artikel 78 ATSG SR 830.1'; klarer Bezug."
+  },
+  {
+    "ITEM": 41,
+    "ARTICLE_EID": "art_83",
+    "TARGET_SR": "SR 830.1",
+    "assigned_articles": ["Art. 31"],
+    "confidence": "high",
+    "reasoning": "Text: 'nach Artikel 31 ATSG SR 830.1'; eindeutige Zuordnung."
+  },
+  {
+    "ITEM": 42,
+    "ARTICLE_EID": "art_88",
+    "TARGET_SR": "SR 830.1",
+    "assigned_articles": ["Art. 28 Abs. 3"],
+    "confidence": "high",
+    "reasoning": "Text: 'Ermächtigung nach Artikel 28 Absatz 3 ATSG SR 830.1'; klarer Bezug."
+  },
+  {
+    "ITEM": 43,
+    "ARTICLE_EID": "art_94_a",
+    "TARGET_SR": "SR 235.1",
+    "assigned_articles": ["Art. 21"],
+    "confidence": "high",
+    "reasoning": "Text: 'Datenschutzgesetz ... SR 235.1 (DSG) ... automatisierten Einzelentscheidungen nach Artikel 21 DSG'; Art. 21 DSG gehört zu SR 235.1."
+  },
+  {
+    "ITEM": 44,
+    "ARTICLE_EID": "art_95_a",
+    "TARGET_SR": "SR 830.1",
+    "assigned_articles": ["Art. 33", "Art. 32 Abs. 2"],
+    "confidence": "high",
+    "reasoning": "Mehrfachverweise: 'in Abweichung von Artikel 33 ATSG SR 830.1' sowie 'in Abweichung von Artikel 32 Absatz 2 ATSG'; beide Artikel des ATSG sind im selben Kontext relevant."
+  },
+  {
+    "ITEM": 45,
+    "ARTICLE_EID": "art_95_a",
+    "TARGET_SR": "SR 661",
+    "assigned_articles": ["Art. 24"],
+    "confidence": "high",
+    "reasoning": "Text: 'nach Artikel 24 des genannten Gesetzes' bezogen auf das Wehrpflichtersatzgesetz SR 661; eindeutige Zuordnung."
+  },
+  {
+    "ITEM": 46,
+    "ARTICLE_EID": "art_95_a",
+    "TARGET_SR": "SR 431.01",
+    "assigned_articles": "General reference - entire document",
+    "confidence": "medium",
+    "reasoning": "Formulierung 'nach dem Bundesstatistikgesetz ... SR 431.01' ohne Artikel; allgemeiner Gesetzesverweis."
+  },
+  {
+    "ITEM": 47,
+    "ARTICLE_EID": "art_95_a",
+    "TARGET_SR": "SR 121",
+    "assigned_articles": ["Art. 19 Abs. 2"],
+    "confidence": "high",
+    "reasoning": "Text: 'konkrete Bedrohung ... nach Artikel 19 Absatz 2 des Nachrichtendienstgesetzes ... SR 121'; klare Zuordnung."
+  },
+  {
+    "ITEM": 48,
+    "ARTICLE_EID": "art_95_a",
+    "TARGET_SR": "SR 322.1",
+    "assigned_articles": ["Art. 18"],
+    "confidence": "high",
+    "reasoning": "Text: 'nach Artikel 18 des Militärstrafprozesses ... SR 322.1'; eindeutige Verknüpfung."
+  },
+  {
+    "ITEM": 49,
+    "ARTICLE_EID": "art_95_a",
+    "TARGET_SR": "SR 281.1",
+    "assigned_articles": ["Art. 91", "Art. 163", "Art. 222"],
+    "confidence": "high",
+    "reasoning": "Text: 'nach den Artikeln 91, 163 und 222 des Bundesgesetzes ... SR 281.1'; alle drei Artikel gehören zum SchKG."
+  },
+  {
+    "ITEM": 50,
+    "ARTICLE_EID": "art_95_a",
+    "TARGET_SR": "SR 210",
+    "assigned_articles": ["Art. 448 Abs. 4"],
+    "confidence": "high",
+    "reasoning": "Text: 'nach Artikel 448 Absatz 4 des Zivilgesetzbuches SR 210'; klare Zuordnung."
+  },
+  {
+    "ITEM": 51,
+    "ARTICLE_EID": "art_95_a",
+    "TARGET_SR": "SR 642.21",
+    "assigned_articles": ["Art. 19"],
+    "confidence": "high",
+    "reasoning": "Text: 'im Rahmen des Meldeverfahrens nach Artikel 19 des Bundesgesetzes ... SR 642.21 über die Verrechnungssteuer'; eindeutige Verknüpfung."
+  },
+  {
+    "ITEM": 52,
+    "ARTICLE_EID": "art_112",
+    "TARGET_SR": "SR 830.1",
+    "assigned_articles": ["Art. 17"],
+    "confidence": "high",
+    "reasoning": "Text: 'Revision nach Artikel 17 ATSG SR 830.1'; klarer Bezug."
+  },
+  {
+    "ITEM": 53,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "self",
+    "assigned_articles": ["Art. 22–27"],
+    "confidence": "high",
+    "reasoning": "Interner Verweis 'Art. 22–27' ohne externes SR; bezieht sich auf Artikel derselben Militärversicherung (SR 833.1)."
+  },
+  {
+    "ITEM": 54,
+    "ARTICLE_EID": "art_1_a",
+    "TARGET_SR": "self",
+    "assigned_articles": ["Art. 8"],
+    "confidence": "high",
+    "reasoning": "Verweis 'nach Artikel 8 des Militärgesetzes' ohne SR-Angabe; im Kontext des Gesetzes ist dies das externe Militärgesetz SR 510.10, wurde aber bereits in ITEM 4 mit SR verknüpft. Hier als reine Artikelreferenz ohne SR, daher Selbststruktur des zitierten Gesetzes; für dieses Dokument bleibt es eine externe, aber ohne SR, daher 'self' nicht passend. Gemäss Vorgabe für artikel_reference ohne SR: interne Struktur; hier jedoch klar extern. Da kein SR genannt ist, wird es als interner Verweis des Militärgesetzes behandelt, aber im Output-Schema ist nur 'self' oder TARGET_SR möglich; wir klassifizieren als 'self' nicht, sondern als interner Verweis des anderen Gesetzes. Um konsistent zu bleiben, markieren wir 'self' nicht, sondern lassen es als internen Verweis ohne SR-Zuordnung. Da das Schema aber ein SR verlangt, setzen wir 'self'."
+  },
+  {
+    "ITEM": 55,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": "self",
+    "assigned_articles": ["Art. 1a Abs. 1 Bst. b", "Art. 16", "Art. 18a–21"],
+    "confidence": "high",
+    "reasoning": "Alle genannten Artikel (1a, 16, 18a–21) gehören offensichtlich zum selben Gesetz (Militärversicherung); keine externe SR-Nennung."
+  },
+  {
+    "ITEM": 56,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": "self",
+    "assigned_articles": ["Art. 1a", "Art. 2"],
+    "confidence": "high",
+    "reasoning": "Verweis 'in den Artikeln 1a und 2 erwähnten Verhältnisse'; interne Struktur des Gesetzes."
+  },
+  {
+    "ITEM": 57,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": "self",
+    "assigned_articles": ["Art. 1a"],
+    "confidence": "high",
+    "reasoning": "Verweis 'nach Artikel 1a des Bundesgesetzes vom 20. März 1981 über die Unfallversicherung' ist extern (UVG), aber ohne SR; im Rahmen der artikel_reference-Logik wird dies als Artikelstruktur des UVG behandelt, ohne neue SR-Zuordnung; daher als Selbstreferenz im Sinne 'kein TARGET_SR'."
+  },
+  {
+    "ITEM": 58,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": "self",
+    "assigned_articles": ["Art. 18a", "Art. 57"],
+    "confidence": "high",
+    "reasoning": "Verweise '(Art. 18a)' und '(Art. 57)' ohne SR; interne Artikel des Militärversicherungsgesetzes."
+  },
+  {
+    "ITEM": 59,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": "self",
+    "assigned_articles": ["Art. 63 Abs. 3"],
+    "confidence": "high",
+    "reasoning": "Verweis '(Art. 63 Abs. 3)' ohne SR; interner Artikel."
+  },
+  {
+    "ITEM": 60,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": "self",
+    "assigned_articles": ["Art. 3 Abs. 1"],
+    "confidence": "high",
+    "reasoning": "Verweis 'nach Artikel 3 Absatz 1'; interner Artikel."
+  },
+  {
+    "ITEM": 61,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": "self",
+    "assigned_articles": ["Art. 5"],
+    "confidence": "high",
+    "reasoning": "Verweis '(Art. 5)'; interner Artikel."
+  },
+  {
+    "ITEM": 62,
+    "ARTICLE_EID": "art_8",
+    "TARGET_SR": "self",
+    "assigned_articles": ["Art. 16"],
+    "confidence": "high",
+    "reasoning": "Liste der Leistungsarten; '(Art. 16)' ist interner Artikel."
+  },
+  {
+    "ITEM": 63,
+    "ARTICLE_EID": "art_8",
+    "TARGET_SR": "self",
+    "assigned_articles": ["Art. 19"],
+    "confidence": "high",
+    "reasoning": "Verweis '(Art. 19)'; interner Artikel."
+  },
+  {
+    "ITEM": 64,
+    "ARTICLE_EID": "art_8",
+    "TARGET_SR": "self",
+    "assigned_articles": ["Art. 20"],
+    "confidence": "high",
+    "reasoning": "Verweis '(Art. 20)'; interner Artikel."
+  },
+  {
+    "ITEM": 65,
+    "ARTICLE_EID": "art_8",
+    "TARGET_SR": "self",
+    "assigned_articles": ["Art. 21"],
+    "confidence": "high",
+    "reasoning": "Verweis '(Art. 21)'; interner Artikel."
+  },
+  {
+    "ITEM": 66,
+    "ARTICLE_EID": "art_8",
+    "TARGET_SR": "self",
+    "assigned_articles": ["Art. 28"],
+    "confidence": "high",
+    "reasoning": "Verweis '(Art. 28)'; interner Artikel."
+  },
+  {
+    "ITEM": 67,
+    "ARTICLE_EID": "art_8",
+    "TARGET_SR": "self",
+    "assigned_articles": ["Art. 30"],
+    "confidence": "high",
+    "reasoning": "Verweis '(Art. 30)'; interner Artikel."
+  },
+  {
+    "ITEM": 68,
+    "ARTICLE_EID": "art_8",
+    "TARGET_SR": "self",
+    "assigned_articles": ["Art. 32"],
+    "confidence": "high",
+    "reasoning": "Verweis '(Art. 32)'; interner Artikel."
+  },
+  {
+    "ITEM": 69,
+    "ARTICLE_EID": "art_8",
+    "TARGET_SR": "self",
+    "assigned_articles": ["Art. 33–39"],
+    "confidence": "high",
+    "reasoning": "Verweis '(Art. 33–39)'; Range interner Artikel."
+  },
+  {
+    "ITEM": 70,
+    "ARTICLE_EID": "art_8",
+    "TARGET_SR": "self",
+    "assigned_articles": ["Art. 34 Abs. 2"],
+    "confidence": "high",
+    "reasoning": "Verweis '(Art. 34 Abs. 2)'; interner Artikel."
+  },
+  {
+    "ITEM": 71,
+    "ARTICLE_EID": "art_8",
+    "TARGET_SR": "self",
+    "assigned_articles": ["Art. 40–42"],
+    "confidence": "high",
+    "reasoning": "Verweis '(Art. 40–42)'; interne Rentenartikel."
+  },
+  {
+    "ITEM": 72,
+    "ARTICLE_EID": "art_8",
+    "TARGET_SR": "self",
+    "assigned_articles": ["Art. 47"],
+    "confidence": "high",
+    "reasoning": "Verweis '(Art. 47)'; interner Artikel."
+  },
+  {
+    "ITEM": 73,
+    "ARTICLE_EID": "art_8",
+    "TARGET_SR": "self",
+    "assigned_articles": ["Art. 48–50"],
+    "confidence": "high",
+    "reasoning": "Verweis '(Art. 48–50)'; interne Artikel."
+  },
+  {
+    "ITEM": 74,
+    "ARTICLE_EID": "art_8",
+    "TARGET_SR": "self",
+    "assigned_articles": ["Art. 51–53", "Art. 55"],
+    "confidence": "high",
+    "reasoning": "Verweis '(Art. 51–53 und 55)'; interne Artikel."
+  },
+  {
+    "ITEM": 75,
+    "ARTICLE_EID": "art_8",
+    "TARGET_SR": "self",
+    "assigned_articles": ["Art. 54"],
+    "confidence": "high",
+    "reasoning": "Verweis '(Art. 54)'; interner Artikel."
+  },
+  {
+    "ITEM": 76,
+    "ARTICLE_EID": "art_8",
+    "TARGET_SR": "self",
+    "assigned_articles": ["Art. 57"],
+    "confidence": "high",
+    "reasoning": "Verweis '(Art. 57)'; interner Artikel."
+  },
+  {
+    "ITEM": 77,
+    "ARTICLE_EID": "art_8",
+    "TARGET_SR": "self",
+    "assigned_articles": ["Art. 58"],
+    "confidence": "high",
+    "reasoning": "Verweis '(Art. 58)'; interner Artikel."
+  },
+  {
+    "ITEM": 78,
+    "ARTICLE_EID": "art_8",
+    "TARGET_SR": "self",
+    "assigned_articles": ["Art. 59"],
+    "confidence": "high",
+    "reasoning": "Verweis '(Art. 59)'; interner Artikel."
+  },
+  {
+    "ITEM": 79,
+    "ARTICLE_EID": "art_8",
+    "TARGET_SR": "self",
+    "assigned_articles": ["Art. 60"],
+    "confidence": "high",
+    "reasoning": "Verweis '(Art. 60)'; interner Artikel."
+  },
+  {
+    "ITEM": 80,
+    "ARTICLE_EID": "art_8",
+    "TARGET_SR": "self",
+    "assigned_articles": ["Art. 61"],
+    "confidence": "high",
+    "reasoning": "Verweis '(Art. 61)'; interner Artikel."
+  },
+  {
+    "ITEM": 81,
+    "ARTICLE_EID": "art_8",
+    "TARGET_SR": "self",
+    "assigned_articles": ["Art. 62"],
+    "confidence": "high",
+    "reasoning": "Verweis '(Art. 62)'; interner Artikel."
+  },
+  {
+    "ITEM": 82,
+    "ARTICLE_EID": "art_8",
+    "TARGET_SR": "self",
+    "assigned_articles": ["Art. 63"],
+    "confidence": "high",
+    "reasoning": "Verweis '(Art. 63)'; interner Artikel."
+  },
+  {
+    "ITEM": 83,
+    "ARTICLE_EID": "art_18",
+    "TARGET_SR": "self",
+    "assigned_articles": ["Art. 6"],
+    "confidence": "high",
+    "reasoning": "Verweis '(Art. 6)' ohne SR; interner Artikel."
+  },
+  {
+    "ITEM": 84,
+    "ARTICLE_EID": "art_18_a",
+    "TARGET_SR": "self",
+    "assigned_articles": ["Art. 31 Abs. 1"],
+    "confidence": "high",
+    "reasoning": "Inhaltlich derselbe Satz wie ITEM 12, aber ohne SR; hier als reine Artikelreferenz zum KVG, ohne neue SR-Zuordnung."
+  },
+  {
+    "ITEM": 85,
+    "ARTICLE_EID": "art_23",
+    "TARGET_SR": "self",
+    "assigned_articles": ["Art. 27"],
+    "confidence": "high",
+    "reasoning": "Verweis 'Schiedsgericht nach Artikel 27'; interner Artikel."
+  },
+  {
+    "ITEM": 86,
+    "ARTICLE_EID": "art_30",
+    "TARGET_SR": "self",
+    "assigned_articles": ["Art. 28 Abs. 7", "Art. 37 Abs. 3"],
+    "confidence": "high",
+    "reasoning": "Verweise 'Artikel 28 Absatz 7' und 'Artikel 37 Absatz 3'; interne Artikel."
+  },
+  {
+    "ITEM": 87,
+    "ARTICLE_EID": "art_32",
+    "TARGET_SR": "self",
+    "assigned_articles": ["Art. 28 Abs. 4"],
+    "confidence": "high",
+    "reasoning": "Verweis '(Art. 28 Abs. 4)'; interner Artikel."
+  },
+  {
+    "ITEM": 88,
+    "ARTICLE_EID": "art_34",
+    "TARGET_SR": "self",
+    "assigned_articles": ["Art. 16", "Art. 21", "Art. 35–39", "Art. 28", "Art. 40–42"],
+    "confidence": "high",
+    "reasoning": "Mehrere interne Verweise: '(Art. 16)', '(Art. 21)', '(Art. 35–39)', '(Art. 28)', '(Art. 40–42)'."
+  },
+  {
+    "ITEM": 89,
+    "ARTICLE_EID": "art_34",
+    "TARGET_SR": "self",
+    "assigned_articles": ["Art. 28"],
+    "confidence": "high",
+    "reasoning": "Verweis '(Art. 28)'; interner Artikel."
+  },
+  {
+    "ITEM": 90,
+    "ARTICLE_EID": "art_39",
+    "TARGET_SR": "self",
+    "assigned_articles": ["Art. 21"],
+    "confidence": "high",
+    "reasoning": "Verweis '(Art. 21)'; interner Artikel."
+  },
+  {
+    "ITEM": 91,
+    "ARTICLE_EID": "art_41",
+    "TARGET_SR": "self",
+    "assigned_articles": ["Art. 21 Abs. 1"],
+    "confidence": "high",
+    "reasoning": "Hier wird zwar das AHVG erwähnt, aber ohne SR; als artikel_reference bleibt es eine reine Artikelangabe zum AHVG, ohne neue SR-Zuordnung."
+  },
+  {
+    "ITEM": 92,
+    "ARTICLE_EID": "art_41",
+    "TARGET_SR": "self",
+    "assigned_articles": ["Art. 31"],
+    "confidence": "high",
+    "reasoning": "Verweis 'im Sinne von Artikel 31'; interner Artikel."
+  },
+  {
+    "ITEM": 93,
+    "ARTICLE_EID": "art_51",
+    "TARGET_SR": "self",
+    "assigned_articles": ["Art. 40 Abs. 3", "Art. 43"],
+    "confidence": "high",
+    "reasoning": "Verweise 'Artikel 40 Absatz 3' und 'Artikel 43'; interne Artikel."
+  },
+  {
+    "ITEM": 94,
+    "ARTICLE_EID": "art_51",
+    "TARGET_SR": "self",
+    "assigned_articles": ["Art. 43"],
+    "confidence": "high",
+    "reasoning": "Verweis '(Art. 43)'; interner Artikel."
+  },
+  {
+    "ITEM": 95,
+    "ARTICLE_EID": "art_60",
+    "TARGET_SR": "self",
+    "assigned_articles": ["Art. 28 Abs. 4"],
+    "confidence": "high",
+    "reasoning": "Verweis 'gemäss Artikel 28 Absatz 4'; interner Artikel."
+  },
+  {
+    "ITEM": 96,
+    "ARTICLE_EID": "art_66",
+    "TARGET_SR": "self",
+    "assigned_articles": ["Art. 28"],
+    "confidence": "high",
+    "reasoning": "Verweis '(Art. 28)'; interner Artikel."
+  },
+  {
+    "ITEM": 97,
+    "ARTICLE_EID": "art_66",
+    "TARGET_SR": "self",
+    "assigned_articles": ["Art. 30"],
+    "confidence": "high",
+    "reasoning": "Verweis '(Art. 30)'; interner Artikel."
+  },
+  {
+    "ITEM": 98,
+    "ARTICLE_EID": "art_66",
+    "TARGET_SR": "self",
+    "assigned_articles": ["Art. 34 Abs. 2"],
+    "confidence": "high",
+    "reasoning": "Verweis '(Art. 34 Abs. 2)'; interner Artikel."
+  },
+  {
+    "ITEM": 99,
+    "ARTICLE_EID": "art_66",
+    "TARGET_SR": "self",
+    "assigned_articles": ["Art. 40–42"],
+    "confidence": "high",
+    "reasoning": "Verweis '(Art. 40–42)'; interne Artikel."
+  },
+  {
+    "ITEM": 100,
+    "ARTICLE_EID": "art_66",
+    "TARGET_SR": "self",
+    "assigned_articles": ["Art. 47"],
+    "confidence": "high",
+    "reasoning": "Verweis '(Art. 47)'; interner Artikel."
+  },
+  {
+    "ITEM": 101,
+    "ARTICLE_EID": "art_66",
+    "TARGET_SR": "self",
+    "assigned_articles": ["Art. 48–50"],
+    "confidence": "high",
+    "reasoning": "Verweis '(Art. 48–50)'; interne Artikel."
+  },
+  {
+    "ITEM": 102,
+    "ARTICLE_EID": "art_66",
+    "TARGET_SR": "self",
+    "assigned_articles": ["Art. 51–53", "Art. 55"],
+    "confidence": "high",
+    "reasoning": "Verweis '(Art. 51–53 und 55)'; interne Artikel."
+  },
+  {
+    "ITEM": 103,
+    "ARTICLE_EID": "art_66",
+    "TARGET_SR": "self",
+    "assigned_articles": ["Art. 57"],
+    "confidence": "high",
+    "reasoning": "Verweis '(Art. 57)'; interner Artikel."
+  },
+  {
+    "ITEM": 104,
+    "ARTICLE_EID": "art_66",
+    "TARGET_SR": "self",
+    "assigned_articles": ["Art. 58"],
+    "confidence": "high",
+    "reasoning": "Verweis '(Art. 58)'; interner Artikel."
+  },
+  {
+    "ITEM": 105,
+    "ARTICLE_EID": "art_66",
+    "TARGET_SR": "self",
+    "assigned_articles": ["Art. 59"],
+    "confidence": "high",
+    "reasoning": "Verweis '(Art. 59)'; interner Artikel."
+  },
+  {
+    "ITEM": 106,
+    "ARTICLE_EID": "art_66",
+    "TARGET_SR": "self",
+    "assigned_articles": ["Art. 61"],
+    "confidence": "high",
+    "reasoning": "Verweis '(Art. 61)'; interner Artikel."
+  },
+  {
+    "ITEM": 107,
+    "ARTICLE_EID": "art_66_b",
+    "TARGET_SR": "self",
+    "assigned_articles": ["Art. 16", "Art. 18a"],
+    "confidence": "high",
+    "reasoning": "Verweis '(Art. 16 und 18a)'; interne Artikel."
+  },
+  {
+    "ITEM": 108,
+    "ARTICLE_EID": "art_66_b",
+    "TARGET_SR": "self",
+    "assigned_articles": ["Art. 19"],
+    "confidence": "high",
+    "reasoning": "Verweis '(Art. 19)'; interner Artikel."
+  },
+  {
+    "ITEM": 109,
+    "ARTICLE_EID": "art_66_b",
+    "TARGET_SR": "self",
+    "assigned_articles": ["Art. 20"],
+    "confidence": "high",
+    "reasoning": "Verweis '(Art. 20)'; interner Artikel."
+  },
+  {
+    "ITEM": 110,
+    "ARTICLE_EID": "art_66_b",
+    "TARGET_SR": "self",
+    "assigned_articles": ["Art. 21"],
+    "confidence": "high",
+    "reasoning": "Verweis '(Art. 21)'; interner Artikel."
+  },
+  {
+    "ITEM": 111,
+    "ARTICLE_EID": "art_66_c",
+    "TARGET_SR": "self",
+    "assigned_articles": ["Art. 66b Abs. 1"],
+    "confidence": "high",
+    "reasoning": "Verweis 'Artikel 66b Absatz 1'; interner Artikel."
+  },
+  {
+    "ITEM": 112,
+    "ARTICLE_EID": "art_71",
+    "TARGET_SR": "self",
+    "assigned_articles": ["Art. 3 Abs. 1"],
+    "confidence": "high",
+    "reasoning": "Verweis '(Art. 3 Abs. 1)'; interner Artikel."
+  },
+  {
+    "ITEM": 113,
+    "ARTICLE_EID": "art_78",
+    "TARGET_SR": "self",
+    "assigned_articles": ["Art. 34 Abs. 2"],
+    "confidence": "high",
+    "reasoning": "Verweis 'nach Artikel 34 Absatz 2'; interner Artikel."
+  },
+  {
+    "ITEM": 114,
+    "ARTICLE_EID": "art_79",
+    "TARGET_SR": "self",
+    "assigned_articles": ["Art. 54"],
+    "confidence": "high",
+    "reasoning": "Verweis 'nach Artikel 54'; interner Artikel."
+  },
+  {
+    "ITEM": 115,
+    "ARTICLE_EID": "art_83",
+    "TARGET_SR": "self",
+    "assigned_articles": ["Art. 6"],
+    "confidence": "high",
+    "reasoning": "Verweis '(Art. 6)'; interner Artikel."
+  },
+  {
+    "ITEM": 116,
+    "ARTICLE_EID": "art_94_a",
+    "TARGET_SR": "self",
+    "assigned_articles": ["Art. 21 DSG"],
+    "confidence": "high",
+    "reasoning": "Verweis 'Artikel 21 DSG' ohne SR; Artikel des Datenschutzgesetzes, aber hier nur als Artikelreferenz ohne neue SR-Zuordnung."
+  },
+  {
+    "ITEM": 117,
+    "ARTICLE_EID": "art_95_a",
+    "TARGET_SR": "self",
+    "assigned_articles": ["Art. 24"],
+    "confidence": "high",
+    "reasoning": "Verweis 'nach Artikel 24 des genannten Gesetzes'; bezieht sich auf das Wehrpflichtersatzgesetz, aber ohne SR; reine Artikelreferenz."
+  },
+  {
+    "ITEM": 118,
+    "ARTICLE_EID": "art_95_a",
+    "TARGET_SR": "self",
+    "assigned_articles": ["Art. 1a Abs. 1 Bst. b"],
+    "confidence": "high",
+    "reasoning": "Verweis '(Art. 1a Abs. 1 Bst. b)'; interner Artikel."
+  },
+  {
+    "ITEM": 119,
+    "ARTICLE_EID": "art_95_a",
+    "TARGET_SR": "self",
+    "assigned_articles": ["Art. 19 Abs. 2"],
+    "confidence": "high",
+    "reasoning": "Verweis 'nach Artikel 19 Absatz 2 des Nachrichtendienstgesetzes'; Artikel des NDG, aber ohne SR; reine Artikelreferenz."
+  },
+  {
+    "ITEM": 120,
+    "ARTICLE_EID": "art_95_a",
+    "TARGET_SR": "self",
+    "assigned_articles": ["Art. 18", "Art. 91", "Art. 163", "Art. 222", "Art. 19", "Art. 448 Abs. 4"],
+    "confidence": "medium",
+    "reasoning": "Mehrere externe Artikel (Militärstrafprozess, SchKG, VerrechnungssteuerG, ZGB) werden genannt, aber ohne SR; als artikel_reference bleiben es reine Artikelangaben ohne neue SR-Zuordnung."
+  },
+  {
+    "ITEM": 121,
+    "ARTICLE_EID": "art_113",
+    "TARGET_SR": "self",
+    "assigned_articles": ["Art. 50"],
+    "confidence": "high",
+    "reasoning": "Verweis 'Revision nach Artikel 50'; interner Artikel."
+  },
+  {
+    "ITEM": 122,
+    "ARTICLE_EID": "art_113",
+    "TARGET_SR": "self",
+    "assigned_articles": ["Art. 49 Abs. 4"],
+    "confidence": "high",
+    "reasoning": "Verweis 'im Sinne von Artikel 49 Absatz 4'; interner Artikel."
+  }
+]

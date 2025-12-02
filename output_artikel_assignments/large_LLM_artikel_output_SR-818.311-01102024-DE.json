@@ -1,0 +1,135 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 818.31",
+    "assigned_articles": [
+      "Art. 2 Abs. 3",
+      "Art. 5",
+      "Art. 6 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Präambel nennt ausdrücklich: «gestützt auf die Artikel 2 Absätze 3, 5 und 6 Absatz 1 des Bundesgesetzes … SR 818.31». Diese Artikelangaben beziehen sich syntaktisch direkt auf das genannte Gesetz SR 818.31."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 818.32",
+    "assigned_articles": [
+      "Art. 3 Bst. a"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Snippet: «Tabakprodukte nach Artikel 3 Buchstabe a des Tabakproduktegesetzes … SR 818.32 (TabPG)». Der Artikel 3 Buchstabe a ist unmittelbar mit dem TabPG (SR 818.32) verknüpft."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 818.321",
+    "assigned_articles": [
+      "Art. 3 Abs. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Snippet: «… die ihnen nach Artikel 3 Absatz 3 der Tabakprodukteverordnung … SR 818.321 (TabPV) gleichgestellt sind». Artikel 3 Absatz 3 ist klar der TabPV (SR 818.321) zugeordnet."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": "SR 700",
+    "assigned_articles": [
+      "Art. 24b"
+    ],
+    "confidence": "high",
+    "reasoning": "Text: «… Nebenbetriebe nach Artikel 24b des Raumplanungsgesetzes … SR 700.» Der genannte Artikel 24b ist direkt dem Raumplanungsgesetz (SR 700) zugeordnet."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_6",
+    "TARGET_SR": "SR 822.11",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "medium",
+    "reasoning": "Formulierung: «gelten die Sonderschutzvorschriften des Arbeitsgesetzes … SR 822.11 und seiner Ausführungsbestimmungen.» Es werden keine bestimmten Artikel genannt, sondern das Gesetz als Ganzes bzw. dessen Sonderschutzvorschriften pauschal in Bezug genommen."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "Alle Artikelverweise («Artikel 3 … TabPG», «Artikel 3 Absatz 3 TabPV», «Artikel 3 Buchstabe c TabPG», «Artikel 3 Absatz 1 TabPV», «Artikel 3 Buchstabe f TabPG») sind bereits in Items 2 und 3 den externen SR 818.32 und SR 818.321 zugeordnet. Im Kontext dieses artikel_reference-Eintrags dienen sie der Beschreibung der Produkte, nicht einer neuen SR-Zuordnung; der Eintrag selbst hat kein TARGET_SR und bildet daher nur interne/inhaltliche Verweise ab."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 1 Bst. a Ziff. 2",
+      "Art. 4–7"
+    ],
+    "confidence": "high",
+    "reasoning": "«Produkten nach Artikel 1 Buchstabe a Ziffer 2» und «unter Vorbehalt der Artikel 4–7» beziehen sich klar auf Artikel derselben Verordnung (Selbstverweise). Kein externes SR wird genannt."
+  },
+  {
+    "ITEM": 8,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 24b"
+    ],
+    "confidence": "high",
+    "reasoning": "«… Nebenbetriebe nach Artikel 24b des Raumplanungsgesetzes …» ist derselbe Verweis wie in Item 4, der dort bereits SR 700 zugeordnet wurde. Dieser artikel_reference-Eintrag ohne TARGET_SR spiegelt nur die Textstelle; die SR-Zuordnung erfolgt über Item 4."
+  },
+  {
+    "ITEM": 9,
+    "ARTICLE_EID": "art_6_a",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 1 Bst. a Ziff. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "«Produkten nach Artikel 1 Buchstabe a Ziffer 2» verweist auf einen Artikel derselben Verordnung. Kein externes SR im Satz; daher Selbstverweis."
+  },
+  {
+    "ITEM": 10,
+    "ARTICLE_EID": "art_6_a",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 3 Bst. a–f TabPG"
+    ],
+    "confidence": "high",
+    "reasoning": "«… die in Artikel 3 Buchstaben a–f TabPG aufgeführten Produkte …» ist ein Verweis auf das TabPG (SR 818.32). Dieser externe Bezug ist jedoch bereits in Item 2 mit TARGET_SR erfasst; hier liegt nur ein artikel_reference ohne TARGET_SR vor, der keine neue SR-Zuordnung begründet."
+  },
+  {
+    "ITEM": 11,
+    "ARTICLE_EID": "art_6_c",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 6"
+    ],
+    "confidence": "high",
+    "reasoning": "«Artikel 6 gilt sinngemäss …» ist eindeutig ein interner Verweis auf Artikel 6 derselben Verordnung. Kein externes SR im Kontext."
+  },
+  {
+    "ITEM": 12,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 1 Bst. a Ziff. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "«Produkten nach Artikel 1 Buchstabe a Ziffer 2» verweist auf einen Artikel innerhalb derselben Verordnung. Es wird kein anderes Gesetz oder SR genannt."
+  },
+  {
+    "ITEM": 13,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 1 Bst. a Ziff. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Auch hier: «Produkten nach Artikel 1 Buchstabe a Ziffer 2» ist ein Selbstverweis auf einen Artikel der eigenen Verordnung; kein externer SR-Bezug im Satz."
+  }
+]

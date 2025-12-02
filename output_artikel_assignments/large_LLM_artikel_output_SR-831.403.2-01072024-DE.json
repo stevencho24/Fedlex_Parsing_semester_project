@@ -1,0 +1,946 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 831.40",
+    "assigned_articles": ["Art. 53k"],
+    "confidence": "high",
+    "reasoning": "Direkte Formulierung «gestützt auf Artikel 53k ... SR 831.40 (BVG)»; Art. 53k BVG ist ausdrücklich genannt und gehört zu SR 831.40."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": "SR 220",
+    "assigned_articles": ["Art. 699–703"],
+    "confidence": "high",
+    "reasoning": "Satz: «gelten die Artikel 699–703 des Obligationenrechts SR 220 sinngemäss»; die Artikel 699–703 OR gehören eindeutig zu SR 220."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": "SR 831.441.1",
+    "assigned_articles": ["Art. 48f–48l", "Art. 48h Abs. 1", "Art. 48i Abs. 1"],
+    "confidence": "high",
+    "reasoning": "Es heisst: «... sowie die Artikel 48f–48l, ausgenommen die Artikel 48h Absatz 1 und 48i Absatz 1, der Verordnung ... SR 831.441.1»; alle genannten Artikel sind ausdrücklich der BVV 2 (SR 831.441.1) zugeordnet."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_8",
+    "TARGET_SR": "SR 831.441.1",
+    "assigned_articles": ["Art. 48h Abs. 2", "Art. 48i Abs. 2"],
+    "confidence": "high",
+    "reasoning": "Formulierung: «... sowie die Artikel 48h Absatz 2 und 48i Absatz 2 BVV 2 SR 831.441.1 gelten sinngemäss.»; die beiden Artikel sind klar der BVV 2 zugeordnet."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_9",
+    "TARGET_SR": "SR 221.302",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "high",
+    "reasoning": "Es wird nur das Revisionsaufsichtsgesetz SR 221.302 als Ganzes erwähnt («nach dem Revisionsaufsichtsgesetz ... SR 221.302»), ohne konkrete Artikelangabe."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_10",
+    "TARGET_SR": "SR 951.311",
+    "assigned_articles": ["Art. 41 Abs. 3", "Art. 41 Abs. 4", "Art. 92", "Art. 93"],
+    "confidence": "high",
+    "reasoning": "Satz: «... aus der Anwendung von Artikel 41 Absätze 3 und 4 in Verbindung mit den Artikeln 92 und 93 der Kollektivanlagenverordnung ... SR 951.311»; alle genannten Artikel gehören syntaktisch zur KKV (SR 951.311)."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_12",
+    "TARGET_SR": "SR 952.0",
+    "assigned_articles": ["Art. 1 Abs. 1", "Art. 2 Abs. 1 Bst. a"],
+    "confidence": "high",
+    "reasoning": "Text: «Bank nach Artikel 1 Absatz 1 des Bankengesetzes ... SR 952.0 ... oder ... nach Artikel 2 Absatz 1 Buchstabe a BankG»; beide Artikel sind klar dem BankG (SR 952.0) zugeordnet."
+  },
+  {
+    "ITEM": 8,
+    "ARTICLE_EID": "art_17",
+    "TARGET_SR": "SR 831.441.1",
+    "assigned_articles": ["Art. 53 Abs. 1 Bst. dter"],
+    "confidence": "high",
+    "reasoning": "Formulierung: «... nach Artikel 53 Absatz 1 Buchstabe dter BVV 2 SR 831.441.1»; eindeutige Zuordnung zu BVV 2."
+  },
+  {
+    "ITEM": 9,
+    "ARTICLE_EID": "art_23",
+    "TARGET_SR": "SR 831.441.1",
+    "assigned_articles": ["Art. 49a", "Art. 53–56a"],
+    "confidence": "high",
+    "reasoning": "Satz: «... gelten ... die Artikel 49a und 53–56a BVV 2 SR 831.441.1.»; alle genannten Artikel gehören zur BVV 2."
+  },
+  {
+    "ITEM": 10,
+    "ARTICLE_EID": "art_23",
+    "TARGET_SR": "SR 952.0",
+    "assigned_articles": ["Art. 1 Abs. 1", "Art. 2 Abs. 1 Bst. a"],
+    "confidence": "high",
+    "reasoning": "Text: «Bank nach Artikel 1 Absatz 1 BankG SR 952.0 oder ... nach Artikel 2 Absatz 1 Buchstabe a BankG»; beide Artikel sind klar dem BankG zugeordnet."
+  },
+  {
+    "ITEM": 11,
+    "ARTICLE_EID": "art_26",
+    "TARGET_SR": "SR 831.441.1",
+    "assigned_articles": ["Art. 49–56a", "Art. 50 Abs. 2", "Art. 50 Abs. 4"],
+    "confidence": "high",
+    "reasoning": "Es heisst: «gelten die Artikel 49–56a BVV 2 SR 831.441.1, ausgenommen Artikel 50 Absätze 2 und 4»; alle genannten Bestimmungen gehören zur BVV 2."
+  },
+  {
+    "ITEM": 12,
+    "ARTICLE_EID": "art_26_a",
+    "TARGET_SR": "SR 831.441.1",
+    "assigned_articles": ["Art. 54", "Art. 54a"],
+    "confidence": "high",
+    "reasoning": "Formulierung: «... nach den Artikeln 54 und 54a BVV 2 SR 831.441.1»; beide Artikel sind explizit der BVV 2 zugeordnet."
+  },
+  {
+    "ITEM": 13,
+    "ARTICLE_EID": "art_28",
+    "TARGET_SR": "SR 831.441.1",
+    "assigned_articles": ["Art. 53 Abs. 3"],
+    "confidence": "high",
+    "reasoning": "Satz: «in Forderungen nach Artikel 53 Absatz 3 BVV 2 SR 831.441.1.»; eindeutige Zuordnung."
+  },
+  {
+    "ITEM": 14,
+    "ARTICLE_EID": "art_30",
+    "TARGET_SR": "SR 831.441.1",
+    "assigned_articles": ["Art. 56 Abs. 2"],
+    "confidence": "high",
+    "reasoning": "Text: «... kollektiven Anlagen nach Artikel 56 Absatz 2 BVV 2 SR 831.441.1 ...»; klarer Bezug zu Art. 56 Abs. 2 BVV 2."
+  },
+  {
+    "ITEM": 15,
+    "ARTICLE_EID": "art_30",
+    "TARGET_SR": "SR 951.31",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "high",
+    "reasoning": "Es wird nur das Kollektivanlagengesetz SR 951.31 als Ganzes erwähnt («nach dem Kollektivanlagengesetz ... SR 951.31»), ohne Artikelangabe."
+  },
+  {
+    "ITEM": 16,
+    "ARTICLE_EID": "art_31",
+    "TARGET_SR": "SR 951.31",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "high",
+    "reasoning": "Formulierung: «gelten das Kollektivanlagengesetz ... SR 951.31 und seine Ausführungsbestimmungen sinngemäss»; keine konkreten Artikel genannt."
+  },
+  {
+    "ITEM": 17,
+    "ARTICLE_EID": "art_38",
+    "TARGET_SR": "SR 831.441.1",
+    "assigned_articles": ["Art. 47"],
+    "confidence": "high",
+    "reasoning": "Satz: «gilt Artikel 47 BVV 2 SR 831.441.1 ...»; eindeutige Zuordnung."
+  },
+  {
+    "ITEM": 18,
+    "ARTICLE_EID": "art_41",
+    "TARGET_SR": "SR 831.441.1",
+    "assigned_articles": ["Art. 48 erster Satz"],
+    "confidence": "high",
+    "reasoning": "Text: «ist Artikel 48 erster Satz BVV 2 SR 831.441.1 anwendbar»; klarer Bezug auf Art. 48 BVV 2 (erster Satz)."
+  },
+  {
+    "ITEM": 19,
+    "ARTICLE_EID": "art_41",
+    "TARGET_SR": "SR 951.312",
+    "assigned_articles": ["Art. 84", "Art. 85"],
+    "confidence": "high",
+    "reasoning": "Formulierung: «... sowie die Artikel 84 und 85 der Kollektivanlagenverordnung-FINMA ... SR 951.312 ...»; beide Artikel gehören zu SR 951.312."
+  },
+  {
+    "ITEM": 20,
+    "ARTICLE_EID": "art_41",
+    "TARGET_SR": "SR 951.311",
+    "assigned_articles": ["Art. 93 Abs. 2", "Art. 93 Abs. 4", "Art. 92", "Art. 94"],
+    "confidence": "high",
+    "reasoning": "Im SR-Link-Snippet wird «Artikel 93 Absätze 2 und 4 KKV SR 951.311» genannt; in snippet_acronym zusätzlich «Artikel 92 KKV» und «Artikel 94 KKV». Alle diese Artikel sind syntaktisch mit der KKV (SR 951.311) verknüpft."
+  },
+  {
+    "ITEM": 21,
+    "ARTICLE_EID": "art_42",
+    "TARGET_SR": "SR 210",
+    "assigned_articles": ["Art. 88", "Art. 89"],
+    "confidence": "high",
+    "reasoning": "Satz: «richtet sich nach den Artikeln 88 und 89 des Zivilgesetzbuchs SR 210»; beide Artikel gehören zum ZGB (SR 210)."
+  },
+  {
+    "ITEM": 22,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 831.40",
+    "assigned_articles": ["Art. 53k Bst. a"],
+    "confidence": "high",
+    "reasoning": "Klammer: «(Art. 53k Bst. a BVG)»; direkter Verweis auf Art. 53k Buchstabe a BVG (SR 831.40)."
+  },
+  {
+    "ITEM": 23,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": "SR 831.40",
+    "assigned_articles": ["Art. 53k Bst. a", "Art. 53k Bst. e"],
+    "confidence": "high",
+    "reasoning": "Klammer: «(Art. 53k Bst. a und e BVG)»; beide Buchstaben gehören zu Art. 53k BVG."
+  },
+  {
+    "ITEM": 24,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": "SR 831.40",
+    "assigned_articles": ["Art. 53k Bst. c", "Art. 53k Bst. e"],
+    "confidence": "high",
+    "reasoning": "Klammer: «(Art. 53k Bst. c und e BVG)»; direkter Bezug."
+  },
+  {
+    "ITEM": 25,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": "SR 831.40",
+    "assigned_articles": ["Art. 53k Bst. c", "Art. 53k Bst. e"],
+    "confidence": "high",
+    "reasoning": "Klammer: «(Art. 53k Bst. c und e BVG)»; direkter Bezug."
+  },
+  {
+    "ITEM": 26,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": "SR 831.40",
+    "assigned_articles": ["Art. 53k Bst. c"],
+    "confidence": "high",
+    "reasoning": "Klammer: «(Art. 53k Bst. c BVG)»."
+  },
+  {
+    "ITEM": 27,
+    "ARTICLE_EID": "art_6",
+    "TARGET_SR": "SR 831.40",
+    "assigned_articles": ["Art. 53k Bst. c"],
+    "confidence": "high",
+    "reasoning": "Klammer: «(Art. 53k Bst. c BVG)»."
+  },
+  {
+    "ITEM": 28,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": "SR 831.40",
+    "assigned_articles": ["Art. 53k Bst. c", "Art. 51b Abs. 1"],
+    "confidence": "high",
+    "reasoning": "Klammer verweist auf «Art. 53k Bst. c BVG»; im Text: «gelten Artikel 51b Absatz 1 BVG ...»; beide Artikel gehören zu BVG (SR 831.40)."
+  },
+  {
+    "ITEM": 29,
+    "ARTICLE_EID": "art_8",
+    "TARGET_SR": "SR 831.40",
+    "assigned_articles": ["Art. 53k Bst. c", "Art. 51b Abs. 2", "Art. 51c"],
+    "confidence": "high",
+    "reasoning": "Klammer: «(Art. 53k Bst. c BVG)»; im Text: «Die Artikel 51b Absatz 2 und 51c BVG ...»; alle sind BVG-Artikel."
+  },
+  {
+    "ITEM": 30,
+    "ARTICLE_EID": "art_9",
+    "TARGET_SR": "SR 831.40",
+    "assigned_articles": ["Art. 53k Bst. d"],
+    "confidence": "high",
+    "reasoning": "Klammer: «(Art. 53k Bst. d BVG)»."
+  },
+  {
+    "ITEM": 31,
+    "ARTICLE_EID": "art_10",
+    "TARGET_SR": "SR 831.40",
+    "assigned_articles": ["Art. 52c", "Art. 53k Bst. d", "Art. 62a Abs. 2"],
+    "confidence": "high",
+    "reasoning": "Klammer: «(Art. 52c, 53k Bst. d und 62a Abs. 2 Bst. a und b BVG)»; im Text zusätzlich «Für die Aufgaben der Revisionsstelle gilt Artikel 52c BVG ...» und «... nach Artikel 62a Absatz 2 BVG»; alle genannten BVG-Artikel gehören zu SR 831.40."
+  },
+  {
+    "ITEM": 32,
+    "ARTICLE_EID": "art_13",
+    "TARGET_SR": "SR 831.40",
+    "assigned_articles": ["Art. 53k Bst. c", "Art. 53k Bst. d", "Art. 53k Bst. e"],
+    "confidence": "high",
+    "reasoning": "Klammer: «(Art. 53k Bst. c, d und e BVG)»."
+  },
+  {
+    "ITEM": 33,
+    "ARTICLE_EID": "art_14",
+    "TARGET_SR": "SR 831.40",
+    "assigned_articles": ["Art. 53k Bst. c", "Art. 53k Bst. d"],
+    "confidence": "high",
+    "reasoning": "Klammer: «(Art. 53k Bst. c und d BVG)»."
+  },
+  {
+    "ITEM": 34,
+    "ARTICLE_EID": "art_15",
+    "TARGET_SR": "SR 831.40",
+    "assigned_articles": ["Art. 53k Bst. c"],
+    "confidence": "high",
+    "reasoning": "Klammer: «(Art. 53k Bst. c BVG)»."
+  },
+  {
+    "ITEM": 35,
+    "ARTICLE_EID": "art_16",
+    "TARGET_SR": "SR 831.40",
+    "assigned_articles": ["Art. 53k Bst. c", "Art. 53k Bst. d", "Art. 53k Bst. e"],
+    "confidence": "high",
+    "reasoning": "Klammer: «(Art. 53k Bst. c, d und e BVG)»."
+  },
+  {
+    "ITEM": 36,
+    "ARTICLE_EID": "art_17",
+    "TARGET_SR": "SR 831.40",
+    "assigned_articles": ["Art. 53k Bst. c", "Art. 53k Bst. d"],
+    "confidence": "high",
+    "reasoning": "Klammer: «(Art. 53k Bst. c und d BVG)»."
+  },
+  {
+    "ITEM": 37,
+    "ARTICLE_EID": "art_18",
+    "TARGET_SR": "SR 831.40",
+    "assigned_articles": ["Art. 53k Bst. e"],
+    "confidence": "high",
+    "reasoning": "Klammer: «(Art. 53k Bst. e BVG)»."
+  },
+  {
+    "ITEM": 38,
+    "ARTICLE_EID": "art_19",
+    "TARGET_SR": "SR 831.40",
+    "assigned_articles": ["Art. 53k Bst. e"],
+    "confidence": "high",
+    "reasoning": "Klammer: «(Art. 53k Bst. e BVG)»."
+  },
+  {
+    "ITEM": 39,
+    "ARTICLE_EID": "art_20",
+    "TARGET_SR": "SR 831.40",
+    "assigned_articles": ["Art. 53k Bst. e"],
+    "confidence": "high",
+    "reasoning": "Klammer: «(Art. 53k Bst. e BVG)»."
+  },
+  {
+    "ITEM": 40,
+    "ARTICLE_EID": "art_21",
+    "TARGET_SR": "SR 831.40",
+    "assigned_articles": ["Art. 53k Bst. e"],
+    "confidence": "high",
+    "reasoning": "Klammer: «(Art. 53k Bst. e BVG)»."
+  },
+  {
+    "ITEM": 41,
+    "ARTICLE_EID": "art_22",
+    "TARGET_SR": "SR 831.40",
+    "assigned_articles": ["Art. 53k Bst. b"],
+    "confidence": "high",
+    "reasoning": "Klammer: «(Art. 53k Bst. b BVG)»."
+  },
+  {
+    "ITEM": 42,
+    "ARTICLE_EID": "art_23",
+    "TARGET_SR": "SR 831.40",
+    "assigned_articles": ["Art. 53k Bst. b", "Art. 53k Bst. d"],
+    "confidence": "high",
+    "reasoning": "Klammer: «(Art. 53k Bst. b und d BVG)»."
+  },
+  {
+    "ITEM": 43,
+    "ARTICLE_EID": "art_24",
+    "TARGET_SR": "SR 831.40",
+    "assigned_articles": ["Art. 53k Bst. b–d"],
+    "confidence": "high",
+    "reasoning": "Klammer: «(Art. 53k Bst. b‒d BVG)»; dies umfasst die Buchstaben b, c und d."
+  },
+  {
+    "ITEM": 44,
+    "ARTICLE_EID": "art_25",
+    "TARGET_SR": "SR 831.40",
+    "assigned_articles": ["Art. 53k Bst. b–d"],
+    "confidence": "high",
+    "reasoning": "Klammer: «(Art. 53k Bst. b‒d BVG)»."
+  },
+  {
+    "ITEM": 45,
+    "ARTICLE_EID": "art_26",
+    "TARGET_SR": "SR 831.40",
+    "assigned_articles": ["Art. 53k Bst. d"],
+    "confidence": "high",
+    "reasoning": "Klammer: «(Art. 53k Bst. d BVG)»."
+  },
+  {
+    "ITEM": 46,
+    "ARTICLE_EID": "art_26_a",
+    "TARGET_SR": "SR 831.40",
+    "assigned_articles": ["Art. 53k Bst. d"],
+    "confidence": "high",
+    "reasoning": "Klammer: «(Art. 53k Bst. d BVG)»."
+  },
+  {
+    "ITEM": 47,
+    "ARTICLE_EID": "art_27",
+    "TARGET_SR": "SR 831.40",
+    "assigned_articles": ["Art. 53k Bst. d"],
+    "confidence": "high",
+    "reasoning": "Klammer: «(Art. 53k Bst. d BVG)»."
+  },
+  {
+    "ITEM": 48,
+    "ARTICLE_EID": "art_28",
+    "TARGET_SR": "SR 831.40",
+    "assigned_articles": ["Art. 53k Bst. d"],
+    "confidence": "high",
+    "reasoning": "Klammer: «(Art. 53k Bst. d BVG)»."
+  },
+  {
+    "ITEM": 49,
+    "ARTICLE_EID": "art_29",
+    "TARGET_SR": "SR 831.40",
+    "assigned_articles": ["Art. 53k Bst. d"],
+    "confidence": "high",
+    "reasoning": "Klammer: «(Art. 53k Bst. d BVG)»."
+  },
+  {
+    "ITEM": 50,
+    "ARTICLE_EID": "art_30",
+    "TARGET_SR": "SR 831.40",
+    "assigned_articles": ["Art. 53k Bst. d"],
+    "confidence": "high",
+    "reasoning": "Klammer: «(Art. 53k Bst. d BVG)»."
+  },
+  {
+    "ITEM": 51,
+    "ARTICLE_EID": "art_31",
+    "TARGET_SR": "SR 831.40",
+    "assigned_articles": ["Art. 53k Bst. d"],
+    "confidence": "high",
+    "reasoning": "Klammer: «(Art. 53k Bst. d BVG)»."
+  },
+  {
+    "ITEM": 52,
+    "ARTICLE_EID": "art_32",
+    "TARGET_SR": "SR 831.40",
+    "assigned_articles": ["Art. 53k Bst. c", "Art. 53k Bst. d"],
+    "confidence": "high",
+    "reasoning": "Klammer: «(Art. 53k Bst. c und d BVG)»."
+  },
+  {
+    "ITEM": 53,
+    "ARTICLE_EID": "art_33",
+    "TARGET_SR": "SR 831.40",
+    "assigned_articles": ["Art. 53k Bst. c", "Art. 53k Bst. d"],
+    "confidence": "high",
+    "reasoning": "Klammer: «(Art. 53k Bst. c und d BVG)»."
+  },
+  {
+    "ITEM": 54,
+    "ARTICLE_EID": "art_34",
+    "TARGET_SR": "SR 831.40",
+    "assigned_articles": ["Art. 53k Bst. d"],
+    "confidence": "high",
+    "reasoning": "Klammer: «(Art. 53k Bst. d BVG)»."
+  },
+  {
+    "ITEM": 55,
+    "ARTICLE_EID": "art_35",
+    "TARGET_SR": "SR 831.40",
+    "assigned_articles": ["Art. 53k Bst. e", "Art. 62 Abs. 1 Bst. b"],
+    "confidence": "high",
+    "reasoning": "Klammer: «(Art. 53k Bst. e und 62 Abs. 1 Bst. b BVG)»."
+  },
+  {
+    "ITEM": 56,
+    "ARTICLE_EID": "art_36",
+    "TARGET_SR": "SR 831.40",
+    "assigned_articles": ["Art. 53k Bst. e", "Art. 62 Abs. 1 Bst. b"],
+    "confidence": "high",
+    "reasoning": "Klammer: «(Art. 53k Bst. e und 62 Abs. 1 Bst. b BVG)»."
+  },
+  {
+    "ITEM": 57,
+    "ARTICLE_EID": "art_37",
+    "TARGET_SR": "SR 831.40",
+    "assigned_articles": ["Art. 53k Bst. e"],
+    "confidence": "high",
+    "reasoning": "Klammer: «(Art. 53k Bst. e BVG)»."
+  },
+  {
+    "ITEM": 58,
+    "ARTICLE_EID": "art_38",
+    "TARGET_SR": "SR 831.40",
+    "assigned_articles": ["Art. 65a Abs. 5", "Art. 53k Bst. d", "Art. 71 Abs. 1"],
+    "confidence": "high",
+    "reasoning": "Klammer: «(Art. 65a Abs. 5, 53k Bst. d und 71 Abs. 1 BVG)»."
+  },
+  {
+    "ITEM": 59,
+    "ARTICLE_EID": "art_39",
+    "TARGET_SR": "SR 831.40",
+    "assigned_articles": ["Art. 53k Bst. d", "Art. 65a Abs. 5", "Art. 71 Abs. 1"],
+    "confidence": "high",
+    "reasoning": "Klammer: «(Art. 53k Bst. d, 65a Abs. 5 und 71 Abs. 1 BVG)»."
+  },
+  {
+    "ITEM": 60,
+    "ARTICLE_EID": "art_40",
+    "TARGET_SR": "SR 831.40",
+    "assigned_articles": ["Art. 53k Bst. d", "Art. 65a Abs. 5", "Art. 71 Abs. 1"],
+    "confidence": "high",
+    "reasoning": "Klammer: «(Art. 53k Bst. d, 65a Abs. 5 und 71 Abs. 1 BVG)»."
+  },
+  {
+    "ITEM": 61,
+    "ARTICLE_EID": "art_41",
+    "TARGET_SR": "SR 831.40",
+    "assigned_articles": ["Art. 53k Bst. d", "Art. 65a Abs. 5", "Art. 71 Abs. 1"],
+    "confidence": "high",
+    "reasoning": "Klammer: «(Art. 53k Bst. d, 65a Abs. 5 und 71 Abs. 1 BVG)»."
+  },
+  {
+    "ITEM": 62,
+    "ARTICLE_EID": "art_42",
+    "TARGET_SR": "SR 831.40",
+    "assigned_articles": ["Art. 53k Bst. c"],
+    "confidence": "high",
+    "reasoning": "Klammer: «(Art. 53k Bst. c BVG)»."
+  },
+  {
+    "ITEM": 63,
+    "ARTICLE_EID": "art_43",
+    "TARGET_SR": "SR 831.40",
+    "assigned_articles": ["Art. 53k Bst. c", "Art. 53k Bst. d"],
+    "confidence": "high",
+    "reasoning": "Klammer: «(Art. 53k Bst. c und d BVG)»."
+  },
+  {
+    "ITEM": 64,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "high",
+    "reasoning": "«Voraussetzungen nach Artikel 1» ohne SR-Angabe; bezieht sich auf Art. 1 derselben Verordnung (Selbstverweis)."
+  },
+  {
+    "ITEM": 65,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": "SR 220",
+    "assigned_articles": ["Art. 699–703"],
+    "confidence": "high",
+    "reasoning": "Inhaltlich identisch mit ITEM 2, aber ohne explizite SR im Satz; durch Kontext (Obligationenrecht) und separaten SR-Link (ITEM 2) klar SR 220 zugeordnet."
+  },
+  {
+    "ITEM": 66,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "high",
+    "reasoning": "«(Art. 13 Abs. 3)» ohne Gesetzesangabe; bezieht sich auf Art. 13 Abs. 3 derselben Verordnung."
+  },
+  {
+    "ITEM": 67,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "high",
+    "reasoning": "«(Art. 24 Abs. 2 Bst. b)» ohne SR; interner Verweis auf Art. 24 derselben Verordnung."
+  },
+  {
+    "ITEM": 68,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "high",
+    "reasoning": "«(Art. 25 Abs. 2)» ohne Gesetzesangabe; interner Verweis."
+  },
+  {
+    "ITEM": 69,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": "SR 831.40",
+    "assigned_articles": ["Art. 51b Abs. 1"],
+    "confidence": "high",
+    "reasoning": "«Artikel 51b Absatz 1 BVG»; BVG ist durch Preambel als SR 831.40 definiert. BVV-2-Artikel in diesem Satz werden separat über SR-Link-Items abgedeckt."
+  },
+  {
+    "ITEM": 70,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "high",
+    "reasoning": "«Artikel 12 wird eingehalten» ohne Gesetzesangabe; interner Verweis auf Art. 12 der Verordnung."
+  },
+  {
+    "ITEM": 71,
+    "ARTICLE_EID": "art_8",
+    "TARGET_SR": "SR 831.40",
+    "assigned_articles": ["Art. 51b Abs. 2", "Art. 51c"],
+    "confidence": "high",
+    "reasoning": "«Die Artikel 51b Absatz 2 und 51c BVG ...»; BVG = SR 831.40. BVV-2-Artikel werden über SR-Link-Items abgedeckt."
+  },
+  {
+    "ITEM": 72,
+    "ARTICLE_EID": "art_10",
+    "TARGET_SR": "SR 831.40",
+    "assigned_articles": ["Art. 52c"],
+    "confidence": "high",
+    "reasoning": "«Für die Aufgaben der Revisionsstelle gilt Artikel 52c BVG sinngemäss.»; BVG = SR 831.40."
+  },
+  {
+    "ITEM": 73,
+    "ARTICLE_EID": "art_10",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "high",
+    "reasoning": "«Bericht nach Artikel 20 Absatz 3» und «Artikel 41 Absatz 4» ohne Gesetzesangabe; interne Artikel der Verordnung."
+  },
+  {
+    "ITEM": 74,
+    "ARTICLE_EID": "art_10",
+    "TARGET_SR": "SR 951.311",
+    "assigned_articles": ["Art. 41 Abs. 3", "Art. 41 Abs. 4", "Art. 92", "Art. 93"],
+    "confidence": "high",
+    "reasoning": "Entspricht inhaltlich ITEM 6, aber ohne explizite SR im Satz; durch SR-Link-Item 6 klar der KKV (SR 951.311) zugeordnet."
+  },
+  {
+    "ITEM": 75,
+    "ARTICLE_EID": "art_10",
+    "TARGET_SR": "SR 831.40",
+    "assigned_articles": ["Art. 62a Abs. 2"],
+    "confidence": "high",
+    "reasoning": "«nach Artikel 62a Absatz 2 BVG»; BVG = SR 831.40."
+  },
+  {
+    "ITEM": 76,
+    "ARTICLE_EID": "art_11",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "high",
+    "reasoning": "«(Art. 27)» ohne Gesetzesangabe; interner Verweis auf Art. 27 der Verordnung."
+  },
+  {
+    "ITEM": 77,
+    "ARTICLE_EID": "art_12",
+    "TARGET_SR": "SR 952.0",
+    "assigned_articles": ["Art. 1 Abs. 1", "Art. 2 Abs. 1 Bst. a"],
+    "confidence": "high",
+    "reasoning": "Inhaltlich identisch mit ITEM 7, aber ohne SR im Satz; durch SR-Link-Item 7 klar dem BankG (SR 952.0) zugeordnet."
+  },
+  {
+    "ITEM": 78,
+    "ARTICLE_EID": "art_13",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "high",
+    "reasoning": "«(Art. 11)» ohne Gesetzesangabe; interner Verweis."
+  },
+  {
+    "ITEM": 79,
+    "ARTICLE_EID": "art_13",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "high",
+    "reasoning": "«(Art. 12)»; interner Verweis."
+  },
+  {
+    "ITEM": 80,
+    "ARTICLE_EID": "art_13",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "high",
+    "reasoning": "«(Art. 14)»; interner Verweis."
+  },
+  {
+    "ITEM": 81,
+    "ARTICLE_EID": "art_13",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "high",
+    "reasoning": "«(Art. 15)»; interner Verweis."
+  },
+  {
+    "ITEM": 82,
+    "ARTICLE_EID": "art_13",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "high",
+    "reasoning": "«(Art. 16)»; interner Verweis."
+  },
+  {
+    "ITEM": 83,
+    "ARTICLE_EID": "art_13",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "high",
+    "reasoning": "«(Art. 41)»; interner Verweis."
+  },
+  {
+    "ITEM": 84,
+    "ARTICLE_EID": "art_13",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "high",
+    "reasoning": "«(Art. 43)»; interner Verweis."
+  },
+  {
+    "ITEM": 85,
+    "ARTICLE_EID": "art_17",
+    "TARGET_SR": "SR 831.441.1",
+    "assigned_articles": ["Art. 53 Abs. 1 Bst. dter"],
+    "confidence": "high",
+    "reasoning": "«nach Artikel 53 Absatz 1 Buchstabe dter BVV 2»; BVV 2 = SR 831.441.1."
+  },
+  {
+    "ITEM": 86,
+    "ARTICLE_EID": "art_21",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "high",
+    "reasoning": "«Anlagegruppen nach Artikel 28 Absatz 3» ohne Gesetzesangabe; interner Verweis."
+  },
+  {
+    "ITEM": 87,
+    "ARTICLE_EID": "art_23",
+    "TARGET_SR": "SR 831.441.1",
+    "assigned_articles": ["Art. 49a", "Art. 53–56a"],
+    "confidence": "high",
+    "reasoning": "Entspricht ITEM 9 ohne explizite SR; durch SR-Link-Item 9 klar BVV 2 (SR 831.441.1) zugeordnet."
+  },
+  {
+    "ITEM": 88,
+    "ARTICLE_EID": "art_23",
+    "TARGET_SR": "SR 952.0",
+    "assigned_articles": ["Art. 1 Abs. 1", "Art. 2 Abs. 1 Bst. a"],
+    "confidence": "high",
+    "reasoning": "Entspricht ITEM 10 ohne explizite SR; durch SR-Link-Item 10 klar BankG (SR 952.0) zugeordnet."
+  },
+  {
+    "ITEM": 89,
+    "ARTICLE_EID": "art_24",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "high",
+    "reasoning": "«Vertrag im Sinne von Artikel 7»; interner Verweis."
+  },
+  {
+    "ITEM": 90,
+    "ARTICLE_EID": "art_25",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "high",
+    "reasoning": "«Artikel 24 Absätze 2 und 3»; interner Verweis."
+  },
+  {
+    "ITEM": 91,
+    "ARTICLE_EID": "art_26",
+    "TARGET_SR": "SR 831.441.1",
+    "assigned_articles": ["Art. 49–56a", "Art. 50 Abs. 2", "Art. 50 Abs. 4"],
+    "confidence": "high",
+    "reasoning": "Entspricht ITEM 11 ohne explizite SR; durch SR-Link-Item 11 klar BVV 2 zugeordnet."
+  },
+  {
+    "ITEM": 92,
+    "ARTICLE_EID": "art_26_a",
+    "TARGET_SR": "SR 831.441.1",
+    "assigned_articles": ["Art. 54", "Art. 54a"],
+    "confidence": "high",
+    "reasoning": "Entspricht ITEM 12 ohne explizite SR; durch SR-Link-Item 12 klar BVV 2 zugeordnet."
+  },
+  {
+    "ITEM": 93,
+    "ARTICLE_EID": "art_26_a",
+    "TARGET_SR": "SR 831.441.1",
+    "assigned_articles": ["Art. 54", "Art. 54a"],
+    "confidence": "high",
+    "reasoning": "«Begrenzungen nach den Artikeln 54 und 54a BVV 2»; BVV 2 = SR 831.441.1."
+  },
+  {
+    "ITEM": 94,
+    "ARTICLE_EID": "art_27",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "high",
+    "reasoning": "«Tochtergesellschaften nach Artikel 33»; interner Verweis."
+  },
+  {
+    "ITEM": 95,
+    "ARTICLE_EID": "art_28",
+    "TARGET_SR": "SR 831.441.1",
+    "assigned_articles": ["Art. 53 Abs. 3"],
+    "confidence": "high",
+    "reasoning": "Entspricht ITEM 13 ohne explizite SR; durch SR-Link-Item 13 klar BVV 2 zugeordnet."
+  },
+  {
+    "ITEM": 96,
+    "ARTICLE_EID": "art_29",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "high",
+    "reasoning": "«(Art. 26a)»; interner Verweis auf Art. 26a der Verordnung."
+  },
+  {
+    "ITEM": 97,
+    "ARTICLE_EID": "art_29",
+    "TARGET_SR": "SR 831.441.1",
+    "assigned_articles": ["Art. 55"],
+    "confidence": "high",
+    "reasoning": "«Die Begrenzungen nach Artikel 55 BVV 2 ...»; BVV 2 = SR 831.441.1."
+  },
+  {
+    "ITEM": 98,
+    "ARTICLE_EID": "art_29",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "high",
+    "reasoning": "«Für Immobilienanlagen ist Artikel 27 sinngemäss anwendbar.»; interner Verweis."
+  },
+  {
+    "ITEM": 99,
+    "ARTICLE_EID": "art_29",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "high",
+    "reasoning": "«Anlagegruppen nach Artikel 28»; interner Verweis."
+  },
+  {
+    "ITEM": 100,
+    "ARTICLE_EID": "art_29",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "high",
+    "reasoning": "«kollektiver Anlagen nach Artikel 30»; interner Verweis."
+  },
+  {
+    "ITEM": 101,
+    "ARTICLE_EID": "art_30",
+    "TARGET_SR": "SR 831.441.1",
+    "assigned_articles": ["Art. 56 Abs. 2"],
+    "confidence": "high",
+    "reasoning": "Entspricht ITEM 14 ohne explizite SR; durch SR-Link-Item 14 klar BVV 2 zugeordnet."
+  },
+  {
+    "ITEM": 102,
+    "ARTICLE_EID": "art_30",
+    "TARGET_SR": "SR 951.31",
+    "assigned_articles": ["Art. 120 Abs. 1"],
+    "confidence": "high",
+    "reasoning": "«nach Artikel 120 Absatz 1 KAG»; KAG = SR 951.31."
+  },
+  {
+    "ITEM": 103,
+    "ARTICLE_EID": "art_30",
+    "TARGET_SR": "SR 951.31",
+    "assigned_articles": ["Art. 120 Abs. 2 Bst. e"],
+    "confidence": "high",
+    "reasoning": "«nach Artikel 120 Absatz 2 Buchstabe e KAG»; KAG = SR 951.31."
+  },
+  {
+    "ITEM": 104,
+    "ARTICLE_EID": "art_30",
+    "TARGET_SR": "SR 951.31",
+    "assigned_articles": ["Art. 120 Abs. 2 Bst. e"],
+    "confidence": "high",
+    "reasoning": "Wiederum «nach Artikel 120 Absatz 2 Buchstabe e KAG»; gleicher Artikel des KAG."
+  },
+  {
+    "ITEM": 105,
+    "ARTICLE_EID": "art_31",
+    "TARGET_SR": "SR 951.31",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "high",
+    "reasoning": "«gelten das Kollektivanlagengesetz ... und seine Ausführungsbestimmungen sinngemäss»; keine Artikel genannt, allgemeiner Verweis auf SR 951.31."
+  },
+  {
+    "ITEM": 106,
+    "ARTICLE_EID": "art_33",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "high",
+    "reasoning": "«ob die Artikel 26 und 27 ... eingehalten werden»; interne Verweise."
+  },
+  {
+    "ITEM": 107,
+    "ARTICLE_EID": "art_35",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "high",
+    "reasoning": "«(Art. 11)»; interner Verweis."
+  },
+  {
+    "ITEM": 108,
+    "ARTICLE_EID": "art_35",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "high",
+    "reasoning": "«nach den Artikeln 38–41»; interne Verweise."
+  },
+  {
+    "ITEM": 109,
+    "ARTICLE_EID": "art_35",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "high",
+    "reasoning": "«nach Artikel 26a Absatz 1»; interner Verweis."
+  },
+  {
+    "ITEM": 110,
+    "ARTICLE_EID": "art_35",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "high",
+    "reasoning": "«nach Artikel 29 Absatz 1 Buchstabe e»; interner Verweis."
+  },
+  {
+    "ITEM": 111,
+    "ARTICLE_EID": "art_35",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "high",
+    "reasoning": "«Kennzahlen nach Artikel 38 Absatz 7»; interner Verweis."
+  },
+  {
+    "ITEM": 112,
+    "ARTICLE_EID": "art_37",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "high",
+    "reasoning": "«in Fällen nach Artikel 21 Absatz 2»; interner Verweis."
+  },
+  {
+    "ITEM": 113,
+    "ARTICLE_EID": "art_38",
+    "TARGET_SR": "SR 831.441.1",
+    "assigned_articles": ["Art. 47"],
+    "confidence": "high",
+    "reasoning": "«gilt Artikel 47 BVV 2 ...»; BVV 2 = SR 831.441.1."
+  },
+  {
+    "ITEM": 114,
+    "ARTICLE_EID": "art_38",
+    "TARGET_SR": "SR 831.441.1",
+    "assigned_articles": ["Art. 47"],
+    "confidence": "high",
+    "reasoning": "«unabhängig von den Vorgaben nach Artikel 47 BVV 2»; derselbe BVV-2-Artikel."
+  },
+  {
+    "ITEM": 115,
+    "ARTICLE_EID": "art_39",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "high",
+    "reasoning": "«Beteiligungen im Stammvermögen nach Artikel 25»; interner Verweis."
+  },
+  {
+    "ITEM": 116,
+    "ARTICLE_EID": "art_41",
+    "TARGET_SR": "SR 831.441.1",
+    "assigned_articles": ["Art. 48 erster Satz"],
+    "confidence": "high",
+    "reasoning": "Entspricht ITEM 18 ohne explizite SR; durch SR-Link-Item 18 klar BVV 2 zugeordnet."
+  },
+  {
+    "ITEM": 117,
+    "ARTICLE_EID": "art_42",
+    "TARGET_SR": "SR 210",
+    "assigned_articles": ["Art. 88", "Art. 89"],
+    "confidence": "high",
+    "reasoning": "Entspricht ITEM 21 ohne explizite SR; durch SR-Link-Item 21 klar ZGB (SR 210) zugeordnet."
+  },
+  {
+    "ITEM": 118,
+    "ARTICLE_EID": "art_44_b",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "high",
+    "reasoning": "«Stiftungsrats nach Artikel 5» und «nach Artikel 8 Absätze 2 und 4»; beides interne Verweise auf Artikel derselben Verordnung."
+  }
+]

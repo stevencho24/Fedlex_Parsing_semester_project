@@ -1,0 +1,42 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "art_6",
+    "TARGET_SR": "SR 170.512.1",
+    "assigned_articles": [
+      "Art. 16 Abs. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "The authorial note explicitly states: 'in Anwendung von Art. 16 Abs. 3 der Publikationsverordnung ... (SR 170.512.1)'; the article number and paragraph are directly and uniquely linked to this SR."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_8",
+    "TARGET_SR": "SR 311.0",
+    "assigned_articles": [
+      "Art. 320"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet reads: '... unterstehen der Schweigepflicht gemäss Artikel 320 des Strafgesetzbuches SR 311.0.' The preposition 'gemäss' and the explicit wording 'Artikel 320 des Strafgesetzbuches' clearly tie Art. 320 to SR 311.0."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_9",
+    "TARGET_SR": "SR 172.010.1",
+    "assigned_articles": [
+      "Art. 8l ff."
+    ],
+    "confidence": "high",
+    "reasoning": "The authorial note states: 'Siehe heute: die Art. 8l ff. RVOV (SR 172.010.1).' This directly links the range starting at Art. 8l ('ff.' = following articles) to SR 172.010.1."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_8",
+    "TARGET_SR": "SR 944.1",
+    "assigned_articles": [
+      "Art. 8"
+    ],
+    "confidence": "high",
+    "reasoning": "This is an artikel_reference without any external SR mentioned; 'Artikel 320 des Strafgesetzbuches' is a cross-reference to SR 311.0, but the detected article reference for assignment purposes is the current document’s own article (self-reference type). Thus it is treated as an internal reference within SR 944.1 to its Art. 8."
+  }
+]

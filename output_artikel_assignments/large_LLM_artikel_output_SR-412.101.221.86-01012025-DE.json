@@ -1,0 +1,182 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 412.10",
+    "assigned_articles": [
+      "Art. 19"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Formulierung \"gestützt auf Artikel 19 des Berufsbildungsgesetzes ... SR 412.10\" verknüpft eindeutig Art. 19 mit SR 412.10."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 412.101",
+    "assigned_articles": [
+      "Art. 12"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Satzteil \"auf Artikel 12 der Berufsbildungsverordnung ... SR 412.101 (BBV)\" ist Art. 12 klar der BBV (SR 412.101) zugeordnet."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 822.115",
+    "assigned_articles": [
+      "Art. 4a Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Passage \"auf Artikel 4a Absatz 1 der Jugendarbeitsschutzverordnung ... SR 822.115 (ArGV 5)\" ordnet Art. 4a Abs. 1 eindeutig SR 822.115 zu."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": "SR 412.101.241",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "Es wird nur die Verordnung SR 412.101.241 als Ganzes genannt (\"gilt die Verordnung ... SR 412.101.241\"), ohne spezifische Artikelangabe."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_19",
+    "TARGET_SR": "SR 412.101.241",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "Auch hier wird die Verordnung SR 412.101.241 insgesamt als Referenz für den Qualifikationsbereich Allgemeinbildung herangezogen, ohne Artikelangabe."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": "SR 412.10",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "medium",
+    "reasoning": "Die preamble_acronym-Referenz nutzt das Akronym SBFI, das im Preambel mit SR 412.10 verknüpft ist. Im Snippet wird aber nur die SBFI-Verordnung über Mindestvorschriften erwähnt, ohne konkrete Artikel des Berufsbildungsgesetzes; daher allgemeine Dokumentverweisung."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_17",
+    "TARGET_SR": "SR 412.101",
+    "assigned_articles": [
+      "Art. 32"
+    ],
+    "confidence": "high",
+    "reasoning": "Text: \"Sie hat die nach Artikel 32 BBV erforderliche Erfahrung erworben.\" Das Akronym BBV steht für SR 412.101; Art. 32 ist direkt zugeordnet."
+  },
+  {
+    "ITEM": 8,
+    "ARTICLE_EID": "art_19",
+    "TARGET_SR": "SR 412.10",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "medium",
+    "reasoning": "Wie bei ITEM 6 wird nur auf die SBFI-Verordnung über Mindestvorschriften Bezug genommen; das Akronym SBFI ist zwar mit SR 412.10 verknüpft, aber ohne konkrete Artikelangabe."
+  },
+  {
+    "ITEM": 9,
+    "ARTICLE_EID": "art_20",
+    "TARGET_SR": "SR 412.101",
+    "assigned_articles": [
+      "Art. 32"
+    ],
+    "confidence": "high",
+    "reasoning": "Formulierung: \"in Verbindung mit Artikel 32 BBV\"; BBV = SR 412.101, somit eindeutige Zuordnung zu Art. 32."
+  },
+  {
+    "ITEM": 10,
+    "ARTICLE_EID": "art_21",
+    "TARGET_SR": "SR 412.101",
+    "assigned_articles": [
+      "Art. 33"
+    ],
+    "confidence": "high",
+    "reasoning": "Satz: \"richtet sich nach Artikel 33 BBV\"; BBV ist SR 412.101, daher klare Referenz auf Art. 33."
+  },
+  {
+    "ITEM": 11,
+    "ARTICLE_EID": "art_23",
+    "TARGET_SR": "SR 412.10",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "medium",
+    "reasoning": "Das Snippet erwähnt nur das SBFI als Behörde (Akronym mit SR 412.10 verknüpft), ohne Bezug auf bestimmte Artikel des Berufsbildungsgesetzes."
+  },
+  {
+    "ITEM": 12,
+    "ARTICLE_EID": "art_25",
+    "TARGET_SR": "SR 412.10",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "medium",
+    "reasoning": "Es wird eine SBFI-Verordnung aufgehoben; SBFI ist über den Preambel mit SR 412.10 verknüpft, aber es werden keine konkreten Artikel des Gesetzes genannt."
+  },
+  {
+    "ITEM": 13,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "Bezug auf \"Artikel 4 Absatz 1 ArGV 5\" und \"Artikel 4a Absatz 1 ArGV 5\"; dies sind Artikel der Jugendarbeitsschutzverordnung (SR 822.115), nicht des aktuellen SR 412.101.221.86-Dokuments. Da kein TARGET_SR angegeben ist, handelt es sich um eine externe Normverweisung, nicht um eine Zuordnung zu einem Target_SR."
+  },
+  {
+    "ITEM": 14,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "„nach Artikel 4 Buchstabe d“ bezieht sich syntaktisch auf einen Artikel derselben Verordnung (kein SR genannt). Damit ist es eine Selbstreferenz innerhalb des aktuellen Dokuments."
+  },
+  {
+    "ITEM": 15,
+    "ARTICLE_EID": "art_17",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "„Artikel 32 BBV“ verweist auf die Berufsbildungsverordnung (SR 412.101), also eine externe Verordnung. Da dieser artikel_reference-Typ keinen TARGET_SR hat, wird er als Querverweis, nicht als neue SR-Zuordnung behandelt."
+  },
+  {
+    "ITEM": 16,
+    "ARTICLE_EID": "art_18",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "„nach Artikel 4 erworben“ verweist ohne SR-Angabe auf einen Artikel derselben Verordnung; dies ist eine interne Selbstreferenz."
+  },
+  {
+    "ITEM": 17,
+    "ARTICLE_EID": "art_22",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "„unter dem Vorbehalt von Artikel 20 Absatz 6“ ist eine reine Binnenverweisung innerhalb des aktuellen Dokuments; kein externer SR-Kontext."
+  },
+  {
+    "ITEM": 18,
+    "ARTICLE_EID": "art_26",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "„(Art. 17−22)“ bezeichnet einen Artikelbereich derselben Verordnung; es wird kein anderes SR-Dokument genannt, daher reine Selbstreferenz."
+  }
+]

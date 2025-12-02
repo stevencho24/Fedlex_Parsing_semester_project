@@ -1,0 +1,219 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 170.32",
+    "assigned_articles": [
+      "Art. 24"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Formulierung «gestützt auf Artikel 24 des Verantwortlichkeitsgesetzes … SR 170.32» verknüpft den genannten Artikel 24 syntaktisch eindeutig mit SR 170.32."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 611.010",
+    "assigned_articles": [
+      "Art. 4"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Satzteil «Artikel 4 des Bundesgesetzes vom 4. Oktober 1974 SR 611.010 über Massnahmen zur Verbesserung des Bundeshaushaltes» steht Artikel 4 direkt beim Gesetz mit SR 611.010; klare Zuordnung."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": "SR 170.512.1",
+    "assigned_articles": [
+      "Art. 20 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "«in Anwendung von Art. 20 Abs. 2 der Publikationsverordnung … (SR 170.512.1)»; Artikel und Absatz werden unmittelbar mit der Publikationsverordnung SR 170.512.1 verbunden."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": "SR 172.220.1",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "Es wird nur «nach dem Bundespersonalgesetz vom 24. März 2000 SR 172.220.1 (BPG)» erwähnt, ohne konkrete Artikelangabe; daher allgemeine Gesetzesverweisung."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": "SR 173.71",
+    "assigned_articles": [
+      "Art. 66"
+    ],
+    "confidence": "high",
+    "reasoning": "«nach Artikel 66 des Strafbehördenorganisationsgesetzes vom 19. März 2010 SR 173.71»; der Artikel 66 ist explizit mit dem Gesetz SR 173.71 verknüpft."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_7_a",
+    "TARGET_SR": "SR 172.041.0",
+    "assigned_articles": [
+      "Art. 13"
+    ],
+    "confidence": "high",
+    "reasoning": "«Artikel 13 der Verordnung vom 10. September 1969 SR 172.041.0 über Kosten und Entschädigungen im Verwaltungsverfahren»; eindeutige syntaktische Zuordnung von Art. 13 zu SR 172.041.0."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 10 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "«Verfügungen nach Artikel 10 Absatz 1 des Gesetzes» bezieht sich auf das im Dokument geregelte Verantwortlichkeitsgesetz (SR 170.32); dies ist eine Selbstverweisung innerhalb desselben Gesetzes, nicht auf ein externes SR-Ziel."
+  },
+  {
+    "ITEM": 8,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 10 Abs. 1",
+      "Art. 19 Abs. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "«Verfügungen nach den Artikeln 10 Absatz 1 und 19 Absatz 3 des Gesetzes» sind interne Verweise auf Artikel des Verantwortlichkeitsgesetzes; kein externer SR-Bezug."
+  },
+  {
+    "ITEM": 9,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 1 Abs. 1 Bst. a–c",
+      "Art. 10 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Sowohl «Artikel 1 Absatz 1 Buchstaben a–c des Gesetzes» als auch «(Art. 10 Abs. 2 des Gesetzes)» sind Selbstverweise auf das Verantwortlichkeitsgesetz; kein anderes SR-Dokument wird genannt."
+  },
+  {
+    "ITEM": 10,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 20 Abs. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "«(Art. 20 Abs. 3 des Gesetzes)» ist ein interner Verweis auf das gleiche Gesetz; keine Verknüpfung mit einem externen SR."
+  },
+  {
+    "ITEM": 11,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 2",
+      "Art. 3 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "«nach Artikel 2 oder 3 Absatz 1 zuständige Behörde» verweist auf andere Bestimmungen derselben Verordnung/Gesetzes; es wird kein anderes SR-Dokument erwähnt."
+  },
+  {
+    "ITEM": 12,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 7",
+      "Art. 8"
+    ],
+    "confidence": "high",
+    "reasoning": "«(Art. 7 des Gesetzes)» und «(Art. 8 des Gesetzes)» sind interne Verweise auf das Verantwortlichkeitsgesetz; der im selben Satz erwähnte BPG-Verweis ist bereits in ITEM 4 als externer SR-Link erfasst."
+  },
+  {
+    "ITEM": 13,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 8",
+      "Art. 1 Abs. 1 Bst. a–c",
+      "Art. 7"
+    ],
+    "confidence": "high",
+    "reasoning": "Die mehrfachen Nennungen «Artikel 8 des Gesetzes», «Artikel 1 Absatz 1 Buchstaben a–c des Gesetzes» und «Artikel 7 des Gesetzes» beziehen sich alle auf das gleiche Gesetz; reine Selbstverweise ohne externes SR."
+  },
+  {
+    "ITEM": 14,
+    "ARTICLE_EID": "art_6",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 10 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "«In den Verfahren nach Artikel 10 Absatz 2 des Gesetzes» ist ein interner Verweis auf das Verantwortlichkeitsgesetz; kein anderes SR-Dokument im Satz."
+  },
+  {
+    "ITEM": 15,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 66"
+    ],
+    "confidence": "high",
+    "reasoning": "«nach Artikel 66 des Strafbehördenorganisationsgesetzes vom 19. März 2010» verweist auf SR 173.71; dieser externe Bezug ist bereits als SR_link_detection in ITEM 5 erfasst. Hier wird der Artikel 66 im Fliesstext wiedergegeben und bleibt ein externer Verweis, aber ohne neues TARGET_SR-Feld in diesem artikel_reference-Item."
+  },
+  {
+    "ITEM": 16,
+    "ARTICLE_EID": "art_7_a",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 7",
+      "Art. 13"
+    ],
+    "confidence": "high",
+    "reasoning": "«Verfahren nach Artikel 7» ist ein Selbstverweis; «Artikel 13 der Verordnung vom 10. September 1969 über Kosten und Entschädigungen im Verwaltungsverfahren» verweist auf SR 172.041.0, welcher bereits in ITEM 6 als externer SR-Link mit Art. 13 erfasst ist."
+  },
+  {
+    "ITEM": 17,
+    "ARTICLE_EID": "art_8",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 21",
+      "Art. 23 Abs. 3",
+      "Art. 36 Abs. 5"
+    ],
+    "confidence": "high",
+    "reasoning": "Die genannten Artikel beziehen sich auf die «Verordnung vom 26. September 1952 über das Dienstverhältnis der Beamten der allgemeinen Bundesverwaltung (Beamtenordnung I)»; es wird kein SR-Link angegeben, daher bleibt dies ein reiner Textverweis ohne zuordenbare TARGET_SR."
+  },
+  {
+    "ITEM": 18,
+    "ARTICLE_EID": "art_8",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 17",
+      "Art. 18 Abs. 3",
+      "Art. 29 Abs. 4"
+    ],
+    "confidence": "high",
+    "reasoning": "Verweis auf Artikel derselben Verordnung «Beamtenordnung II» ohne explizite SR-Nummer; somit kein externer SR-Link, nur Artikelangaben im Kontext."
+  },
+  {
+    "ITEM": 19,
+    "ARTICLE_EID": "art_8",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 28",
+      "Art. 29",
+      "Art. 32 Abs. 2",
+      "Art. 41"
+    ],
+    "confidence": "high",
+    "reasoning": "Artikel der «Angestelltenordnung» werden genannt, aber ohne SR-Nummer; daher keine Zuordnung zu einem TARGET_SR, nur interne/kontextuelle Verweise."
+  },
+  {
+    "ITEM": 20,
+    "ARTICLE_EID": "art_8",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 29",
+      "Art. 30",
+      "Art. 33 Abs. 2",
+      "Art. 42"
+    ],
+    "confidence": "high",
+    "reasoning": "Artikel der «Arbeiterordnung» werden aufgezählt; wiederum fehlt eine SR-Nummer, sodass dies als reiner Verordnungs- bzw. Textverweis ohne konkretes TARGET_SR zu behandeln ist."
+  }
+]

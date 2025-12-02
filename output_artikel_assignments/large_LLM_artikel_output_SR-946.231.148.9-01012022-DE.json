@@ -1,0 +1,74 @@
+[
+  {
+    "Item": 1,
+    "TARGET_SR": "SR 946.231",
+    "assigned_articles": [
+      "Art. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet explicitly states 'gestützt auf Artikel 2 des Embargogesetzes ... SR 946.231 (EmbG)'; Art. 2 is directly and syntactically linked to SR 946.231."
+  },
+  {
+    "Item": 2,
+    "TARGET_SR": "SR 946.202",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "The citation 'Bestimmungen des Güterkontrollgesetzes vom 13. Dezember 1996 SR 946.202' contains no article numbers; it is a general reference to the law as a whole."
+  },
+  {
+    "Item": 3,
+    "TARGET_SR": "SR 514.51",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "The citation 'des Kriegsmaterialgesetzes vom 13. Dezember 1996 SR 514.51' contains no article numbers; it is a general reference to the entire statute."
+  },
+  {
+    "Item": 4,
+    "TARGET_SR": "SR 170.512.1",
+    "assigned_articles": [
+      "Art. 20 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet states 'in Anwendung von Art. 20 Abs. 2 der Publikationsverordnung ... (SR 170.512.1)'; the article and paragraph are explicitly and directly tied to this SR."
+  },
+  {
+    "Item": 5,
+    "TARGET_SR": "SR 946.231",
+    "assigned_articles": [
+      "Art. 9"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet reads 'wird nach Artikel 9 EmbG bestraft' and 'Verstösse nach Artikel 9 EmbG'; EmbG is defined in the preamble as SR 946.231, so Art. 9 clearly belongs to SR 946.231."
+  },
+  {
+    "Item": 6,
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "The phrase 'Zwangsmassnahmen nach Artikel 1' has no SR or acronym; it refers to Art. 1 of the same ordinance (self-reference), not to an external SR."
+  },
+  {
+    "Item": 7,
+    "TARGET_SR": "SR 946.231",
+    "assigned_articles": [
+      "Art. 9"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet 'Wer gegen Artikel 1 verstösst, wird nach Artikel 9 EmbG bestraft.' uses 'EmbG', which the preamble maps to SR 946.231; 'Artikel 9 EmbG' therefore refers to Art. 9 of SR 946.231."
+  },
+  {
+    "Item": 8,
+    "TARGET_SR": "SR 946.231",
+    "assigned_articles": [
+      "Art. 9"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet 'Verstösse nach Artikel 9 EmbG werden vom SECO verfolgt ...' again uses 'EmbG' for SR 946.231; 'Artikel 9 EmbG' clearly refers to Art. 9 of SR 946.231."
+  }
+]

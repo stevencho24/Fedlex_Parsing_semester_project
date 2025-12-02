@@ -1,0 +1,42 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 101",
+    "assigned_articles": [
+      "Art. 8"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet explicitly cites 'gestützt auf Artikel 8 der Bundesverfassung SR 101'; Art. 8 is directly and syntactically linked to SR 101."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 0.941.15",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "The text approves Switzerland’s accession to the General Arrangements to Borrow (SR 0.941.15) as a whole and does not mention any specific article; this is a document-level reference."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": "SR 0.941.15",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet refers to 'seiner Beitrittserklärung zu den Allgemeinen Kreditvereinbarungen SR 0.941.15' without specifying any article; it concerns the agreement in general, so the reference is to the entire document."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": "SR 974.0",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "medium",
+    "reasoning": "The phrase 'auf die Grundsätze des Bundesgesetzes vom 19. März 1976 SR 974.0 über die internationale Entwicklungszusammenarbeit und humanitäre Hilfe' invokes the principles of that act generally; no specific article or article range is mentioned, so it is treated as a general reference to the whole act."
+  }
+]

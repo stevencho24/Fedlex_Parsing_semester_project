@@ -1,0 +1,102 @@
+[
+  {
+    "Item": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 910.1",
+    "assigned_articles": [
+      "Art. 147a Abs. 2",
+      "Art. 147b",
+      "Art. 177 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Formulierung \"gestützt auf die Artikel 147a Absatz 2, 147b und 177 Absatz 1 des Landwirtschaftsgesetzes ... SR 910.1 (LwG)\" verknüpft diese Artikel syntaktisch eindeutig mit SR 910.1."
+  },
+  {
+    "Item": 2,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 0.910.6",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Internationale Vertrag SR 0.910.6 wird ohne konkrete Artikelangabe genannt (\"in Ausführung des Internationalen Vertrags ... SR 0.910.6\"); daher handelt es sich um eine generelle Verweisnorm auf das gesamte Übereinkommen."
+  },
+  {
+    "Item": 3,
+    "ARTICLE_EID": "art_6_a",
+    "TARGET_SR": "SR 910.13",
+    "assigned_articles": [
+      "Art. 3 Abs. 1",
+      "Art. 3 Abs. 2",
+      "Art. 4",
+      "Art. 5",
+      "Art. 6",
+      "Art. 7",
+      "Art. 11",
+      "Art. 12",
+      "Art. 13",
+      "Art. 14",
+      "Art. 15",
+      "Art. 16",
+      "Art. 17",
+      "Art. 18",
+      "Art. 19",
+      "Art. 20",
+      "Art. 21",
+      "Art. 22",
+      "Art. 23",
+      "Art. 24",
+      "Art. 25"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Satz nennt ausdrücklich \"Artikel 3 Absätze 1 und 2 und den Artikeln 4–7 der Direktzahlungsverordnung ... (DZV)\" sowie \"den ökologischen Leistungsnachweis nach den Artikeln 11–25 DZV\"; alle diese Artikel gehören zur DZV SR 910.13."
+  },
+  {
+    "Item": 4,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": "self",
+    "assigned_articles": [
+      "Art. 5"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Formulierung \"Dritten gemäss Artikel 5\" verweist ohne Nennung eines anderen Erlasses auf einen anderen Artikel desselben Erlasses; daher handelt es sich um eine interne Selbstreferenz auf Art. 5 der vorliegenden Verordnung."
+  },
+  {
+    "Item": 5,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": "self",
+    "assigned_articles": [
+      "Art. 5"
+    ],
+    "confidence": "high",
+    "reasoning": "Auch hier wird \"im Multilateralen System nach Artikel 5\" ohne Bezug auf ein anderes SR zitiert; syntaktisch ist dies ein interner Verweis auf Art. 5 derselben Verordnung."
+  },
+  {
+    "Item": 6,
+    "ARTICLE_EID": "art_6_a",
+    "TARGET_SR": "self",
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Die Artikelangaben \"Artikel 3 Absätze 1 und 2\" und \"Artikeln 4–7\" sowie \"Artikeln 11–25\" sind in diesem Snippet ausdrücklich der Direktzahlungsverordnung (DZV, SR 910.13) zugeordnet. Diese externen Verweise wurden bereits in Item 3 über SR_link_detection erfasst. Innerhalb des eigenen Erlasses liegt hier keine zusätzliche Selbstreferenz vor, daher keine neuen internen Artikel zuzuordnen."
+  },
+  {
+    "Item": 7,
+    "ARTICLE_EID": "art_6_a",
+    "TARGET_SR": "self",
+    "assigned_articles": [
+      "Art. 5"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Wendung \"im Rahmen von Artikel 5 den Zugang ... gewähren\" verweist ohne Nennung eines anderen Erlasses auf einen Artikel derselben Verordnung; dies ist eine interne Selbstreferenz auf Art. 5."
+  },
+  {
+    "Item": 8,
+    "ARTICLE_EID": "art_8",
+    "TARGET_SR": "self",
+    "assigned_articles": [
+      "Art. 7"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Ausdruck \"Projekte nach Artikel 7\" enthält keinen Bezug zu einem anderen SR-Dokument und beschreibt ersichtlich einen Artikel derselben Verordnung; somit handelt es sich um eine interne Selbstreferenz auf Art. 7."
+  }
+]

@@ -1,0 +1,133 @@
+[
+  {
+    "Item": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 443.1",
+    "assigned_articles": [
+      "Art. 25 Abs. 3",
+      "Art. 34"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Präambel nennt ausdrücklich: «gestützt auf die Artikel 25 Absatz 3 und 34 des Filmgesetzes … SR 443.1 (FiG)»; beide Artikel gehören damit klar zum FiG (SR 443.1)."
+  },
+  {
+    "Item": 2,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": "SR 443.1",
+    "assigned_articles": [
+      "Art. 17 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Snippet: «… Trägerorganisation einer Vereinbarung nach Artikel 17 Absatz 2 FiG …»; die Formulierung mit «FiG» (Preambel-Akronym für SR 443.1) weist Art. 17 Abs. 2 eindeutig dem Filmgesetz zu."
+  },
+  {
+    "Item": 3,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": "SR 443.1",
+    "assigned_articles": [
+      "Art. 17 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Text: «… einer Vereinbarung nach Artikel 17 Absatz 2 FiG;»; das Akronym FiG verweist auf SR 443.1, somit ist Art. 17 Abs. 2 FiG gemeint."
+  },
+  {
+    "Item": 4,
+    "ARTICLE_EID": "art_13",
+    "TARGET_SR": "SR 443.1",
+    "assigned_articles": [
+      "Art. 17"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet: «… über das nach Artikel 17 FiG geforderte Mass hinausgehenden Beitrags …»; «FiG» ist das Filmgesetz SR 443.1, daher ist Art. 17 FiG adressiert (ohne Absatzangabe)."
+  },
+  {
+    "Item": 5,
+    "ARTICLE_EID": "art_14",
+    "TARGET_SR": "SR 443.1",
+    "assigned_articles": [
+      "Art. 23"
+    ],
+    "confidence": "high",
+    "reasoning": "Formulierung: «Das BAK führt das öffentliche Register nach Artikel 23 FiG.»; «FiG» verweist auf SR 443.1, somit ist Art. 23 FiG gemeint."
+  },
+  {
+    "Item": 6,
+    "ARTICLE_EID": "art_17",
+    "TARGET_SR": "SR 443.1",
+    "assigned_articles": [
+      "Art. 24"
+    ],
+    "confidence": "high",
+    "reasoning": "Text: «… Erfassung der Daten nach Artikel 24 FiG …»; das Akronym FiG steht für SR 443.1, daher ist Art. 24 FiG eindeutig zugeordnet. Die weiteren genannten Artikel 15 und 16 sind ausdrücklich «dieser Verordnung» und damit Selbstverweise, nicht SR 443.1."
+  },
+  {
+    "Item": 7,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«… Vereinbarung nach Artikel 17 Absatz 2 FiG;» ist identisch mit Item 3, aber hier als artikel_reference ohne TARGET_SR. Der Bezug zu FiG (SR 443.1) ist bereits über die preamble_acronym-Items abgedeckt; dieser Eintrag dient nur als Selbstreferenz-Erfassung und erzeugt keinen neuen SR-Link."
+  },
+  {
+    "Item": 8,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«… Zwischenevaluation nach Artikel 3 Absätze 2 und 3 …» verweist auf Art. 3 derselben Verordnung (kein SR/Akronym, reine Binnenverweisung). Damit handelt es sich um eine interne Artikelreferenz ohne externen SR-Bezug."
+  },
+  {
+    "Item": 9,
+    "ARTICLE_EID": "art_6",
+    "TARGET_SR": "SR 443.1",
+    "assigned_articles": [
+      "Art. 21 Abs. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet: «… Verwendungszweck des Ertrags nach Artikel 21 Absatz 3 FiG.»; «FiG» ist das in der Präambel definierte Akronym für SR 443.1, somit ist Art. 21 Abs. 3 FiG eindeutig zugeordnet."
+  },
+  {
+    "Item": 10,
+    "ARTICLE_EID": "art_13",
+    "TARGET_SR": "SR 443.1",
+    "assigned_articles": [
+      "Art. 22"
+    ],
+    "confidence": "high",
+    "reasoning": "Text: «Die Befreiung von der Abgabepflicht nach Artikel 22 Fig …»; trotz Kleinschreibung «Fig» ist klar, dass das Filmgesetz (FiG, SR 443.1) gemeint ist. Damit ist Art. 22 FiG adressiert."
+  },
+  {
+    "Item": 11,
+    "ARTICLE_EID": "art_21",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«Die Meldepflicht nach den Artikeln 15 und 16 …» enthält keinen Gesetzesnamen oder SR-Hinweis; syntaktisch sind dies Artikel derselben Verordnung. Daher reine Selbstreferenz ohne externen SR-Bezug."
+  },
+  {
+    "Item": 12,
+    "ARTICLE_EID": "art_21_a",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«… nach Artikel 16a …» steht ohne Akronym oder SR-Angabe und bezieht sich damit auf Art. 16a der eigenen Verordnung. Kein externer SR-Link."
+  },
+  {
+    "Item": 13,
+    "ARTICLE_EID": "art_21_b",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«… Angaben nach Artikel 14a Absatz 2 …» verweist ohne Gesetzesangabe auf einen Artikel derselben Verordnung. Dies ist eine interne Strukturverweisung, kein Verweis auf SR 443.1 oder ein anderes SR."
+  }
+]

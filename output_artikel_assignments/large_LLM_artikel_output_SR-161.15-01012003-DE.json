@@ -1,0 +1,64 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 161.1",
+    "assigned_articles": [
+      "Art. 76a Abs. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Formulierung \"gestützt auf Artikel 76a Absatz 3 des Bundesgesetzes ... SR 161.1 ... (BPR)\" verknüpft den genannten Artikel grammatikalisch eindeutig mit dem BPR (SR 161.1)."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": "SR 161.1",
+    "assigned_articles": [
+      "Art. 76a"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Snippet wird \"Artikel 76a BPR\" ausdrücklich genannt; BPR ist in der Präambel als SR 161.1 definiert, daher klare Zuordnung zu Art. 76a BPR."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": "SR 161.1",
+    "assigned_articles": [
+      "Art. 24 Abs. 3",
+      "Art. 24 Abs. 4"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Passage \"administrativen Erleichterungen nach Artikel 24 Absätze 3 und 4 BPR\" verweist explizit auf Art. 24 Abs. 3 und 4 des BPR (SR 161.1)."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": "SR 161.1",
+    "assigned_articles": [
+      "Art. 76a Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Wendung \"parlamentarische Mindestvertretung nach Artikel 76a Absatz 1 BPR\" ist ein klarer Verweis auf Art. 76a Abs. 1 BPR (SR 161.1)."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_6",
+    "TARGET_SR": "SR 161.1",
+    "assigned_articles": [
+      "Art. 24 Abs. 3",
+      "Art. 24 Abs. 4"
+    ],
+    "confidence": "high",
+    "reasoning": "Auch hier: \"administrativen Erleichterungen nach Artikel 24 Absätze 3 und 4 BPR\" nennt ausdrücklich Art. 24 Abs. 3 und 4 BPR (SR 161.1)."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Interne Verweisung innerhalb des aktuellen Erlasses auf Art. 76a Abs. 1 BPR (SR 161.1), bereits in ITEM 4 erfasst"
+    ],
+    "confidence": "high",
+    "reasoning": "item_type = artikel_reference ohne TARGET_SR; der Satz wiederholt die in ITEM 4 bereits erfasste Verweisung auf Art. 76a Abs. 1 BPR. Nach Vorgabe sollen hier nur Selbstverweise des aktuellen Dokuments erfasst werden; keine neue SR-Zuordnung."
+  }
+]

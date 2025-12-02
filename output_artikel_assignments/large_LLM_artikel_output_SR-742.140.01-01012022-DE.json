@@ -1,0 +1,42 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 742.140",
+    "assigned_articles": [
+      "Art. 3 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Satz nennt ausdrücklich «Artikel 3 Absatz 2 des Bahninfrastrukturfondsgesetzes … SR 742.140 (BIFG)»; damit ist klar, dass sich die Bezugnahme auf SR 742.140 konkret auf Art. 3 Abs. 2 BIFG bezieht."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 742.101",
+    "assigned_articles": [
+      "Art. 57 Abs. 1bis"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Satz nennt ausdrücklich «Artikel 57 Absatz 1bis des Eisenbahngesetzes … SR 742.101 (EBG)»; damit ist klar, dass sich die Bezugnahme auf SR 742.101 konkret auf Art. 57 Abs. 1bis EBG bezieht."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 742.140",
+    "assigned_articles": [
+      "Art. 3 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Snippet steht «nach Artikel 3 Absatz 2 BIFG»; BIFG ist in der Präambel als SR 742.140 definiert. Damit verweist Art. 1 dieser Verordnung auf Art. 3 Abs. 2 des BIFG (SR 742.140)."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 742.101",
+    "assigned_articles": [
+      "Art. 57 Abs. 1bis"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Snippet steht «nach Artikel 57 Absatz 1bis EBG»; EBG ist in der Präambel als SR 742.101 definiert. Damit verweist Art. 1 dieser Verordnung auf Art. 57 Abs. 1bis des EBG (SR 742.101)."
+  }
+]

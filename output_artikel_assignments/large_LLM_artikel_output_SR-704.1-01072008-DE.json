@@ -1,0 +1,75 @@
+[
+  {
+    "Item": 1,
+    "TARGET_SR": "SR 704",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet cites the Bundesgesetz über Fuss- und Wanderwege (FWG, SR 704) in the preamble without mentioning any specific article; it is a general enabling reference to the whole act."
+  },
+  {
+    "Item": 2,
+    "TARGET_SR": "SR 170.512.1",
+    "assigned_articles": [
+      "Art. 16 Abs. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "The text explicitly states 'in Anwendung von Art. 16 Abs. 3 der Publikationsverordnung ... (SR 170.512.1)', directly linking this specific article and paragraph to SR 170.512.1."
+  },
+  {
+    "Item": 3,
+    "TARGET_SR": "SR 172.010",
+    "assigned_articles": [
+      "Art. 62a",
+      "Art. 62b"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet says 'gelten die Artikel 62a und 62b des Regierungs- und Verwaltungsorganisationsgesetzes ... SR 172.010', clearly attributing both articles 62a and 62b to SR 172.010."
+  },
+  {
+    "Item": 4,
+    "TARGET_SR": "SR 510.620",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "medium",
+    "reasoning": "The passage refers to the Verordnung über Geoinformation (SR 510.620) only as the source of an amending annex ('Eingefügt durch Anhang 2 Ziff. 3 der V ... (SR 510.620)') without specifying any article; this is a general citation to the ordinance as amendment basis."
+  },
+  {
+    "Item": 5,
+    "TARGET_SR": "SR 704",
+    "assigned_articles": [
+      "Art. 10"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet states 'ist Artikel 10 des FWG ... nicht anwendbar'; FWG is defined in the preamble as SR 704, so this is a direct reference to Art. 10 of SR 704."
+  },
+  {
+    "Item": 6,
+    "TARGET_SR": "SR 704",
+    "assigned_articles": [
+      "Art. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "The text mentions 'Fusswegnetzes nach Artikel 2 FWG'; FWG corresponds to SR 704, so this clearly refers to Art. 2 of SR 704."
+  },
+  {
+    "Item": 7,
+    "TARGET_SR": "SR 704",
+    "assigned_articles": [
+      "Art. 7 Abs. 2 lit. d"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet specifies 'Artikel 7 Absatz 2 Buchstabe d des FWG'; FWG is SR 704, so the reference is to Art. 7 para. 2 letter d of SR 704."
+  },
+  {
+    "Item": 8,
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "This artikel_reference item repeats the sentence from Item 3 but without the SR citation; 'Artikel 62a und 62b' here function as a cross-reference within the same article context and are already assigned to SR 172.010 in Item 3. As an artikel_reference type without its own TARGET_SR, it is treated as an internal structural reference in the current document rather than a new SR link."
+  }
+]

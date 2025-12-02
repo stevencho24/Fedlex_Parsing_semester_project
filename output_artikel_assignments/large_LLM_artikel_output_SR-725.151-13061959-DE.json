@@ -1,0 +1,54 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 101",
+    "assigned_articles": [
+      "Art. 37 Abs. 2",
+      "Art. 85 Ziff. 5"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Formulierung \"gestützt auf die Artikel 37 Absatz 2 und 85 Ziffer 5 der Bundesverfassung SR 101\" verknüpft die genannten Artikel syntaktisch eindeutig mit SR 101."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 725.151.1",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Snippet wird nur \"Abkommen vom 23. Mai 1958 SR 725.151.1\" genannt, ohne konkrete Artikelangabe; dies ist eine Genehmigung des ganzen Abkommens."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 0.725.151",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "Art. 1 genehmigt das am 23. Mai 1958 abgeschlossene Abkommen (SR 0.725.151) insgesamt; keine spezifischen Artikel werden erwähnt."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": "SR 101",
+    "assigned_articles": [
+      "Art. 89 Abs. 4",
+      "Art. 89 Abs. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Text lautet: \"Bestimmungen von Artikel 89 Absatz 4 der Bundesverfassung SR 101. Es handelt sich um Abs. 4 in der Fassung vom 22. Jan. 1939 ... Heute: Abs. 3.\" Damit sind sowohl die frühere Fassung (Abs. 4) als auch die heutige (Abs. 3) von Art. 89 BV betroffen."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": "SR 725.151",
+    "assigned_articles": [
+      "Art. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "Dies ist eine Selbstreferenz innerhalb des aktuellen Erlasses (Artikel 3 dieses Bundesbeschlusses). Daher wird sie als interner Verweis auf Art. 3 des Stamm-SR 725.151 interpretiert."
+  }
+]

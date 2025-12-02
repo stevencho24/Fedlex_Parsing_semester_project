@@ -1,0 +1,578 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 101",
+    "assigned_articles": [
+      "Art. 57 Abs. 2",
+      "Art. 61"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet explicitly cites 'Artikel 57 Absatz 2 und 61 der Bundesverfassung SR 101'; both are directly and syntactically linked to SR 101."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_17",
+    "TARGET_SR": "SR 721.101",
+    "assigned_articles": [
+      "Art. 11"
+    ],
+    "confidence": "high",
+    "reasoning": "Phrase 'nach Artikel 11 des Stauanlagengesetzes ... SR 721.101' directly links Art. 11 to SR 721.101; 'Artikel 9 Absatz 2 dieses Gesetzes' is a self-reference to the current SR 520.1, not to SR 721.101."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_33",
+    "TARGET_SR": "SR 831.10",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "Refers generically to 'das Bundesgesetz ... SR 831.10 über die Alters- und Hinterlassenenversicherung' without any article number; thus it is a general reference to the AHVG as a whole."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_34",
+    "TARGET_SR": "SR 510.10",
+    "assigned_articles": [
+      "Art. 21 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "Text 'nach Artikel 21 Absatz 1 des Militärgesetzes ... SR 510.10' clearly and directly attributes Art. 21 Abs. 1 to SR 510.10."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_40",
+    "TARGET_SR": "SR 834.1",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "Mentions 'nach dem Erwerbsersatzgesetz ... SR 834.1' without specifying any article; syntactically it is a general statutory basis, so treated as a general reference."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_41",
+    "TARGET_SR": "SR 661",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "Refers to 'nach dem Bundesgesetz ... SR 661 über die Wehrpflichtersatzabgabe' with no article indication; this is a generic reference to the whole act."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_42",
+    "TARGET_SR": "SR 833.1",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "Sentence 'nach dem Bundesgesetz ... SR 833.1 über die Militärversicherung (MVG) versichert' contains no article number; it invokes the MVG generally."
+  },
+  {
+    "ITEM": 8,
+    "ARTICLE_EID": "art_59",
+    "TARGET_SR": "SR 833.1",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "Uses acronym 'MVG' defined as SR 833.1, but no specific article is cited; 'nach dem MVG SR 833.1 versichert' is a general legal basis."
+  },
+  {
+    "ITEM": 9,
+    "ARTICLE_EID": "art_77",
+    "TARGET_SR": "SR 0.518.521",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "Refers to 'das Zusatzprotokoll vom 8. Juni 1977 SR 0.518.521' without any article; the design of the emblem and ID is governed by the protocol as a whole."
+  },
+  {
+    "ITEM": 10,
+    "ARTICLE_EID": "art_81",
+    "TARGET_SR": "SR 220",
+    "assigned_articles": [
+      "Art. 42",
+      "Art. 43 Abs. 1",
+      "Art. 43 Abs. 1bis",
+      "Art. 44 Abs. 1",
+      "Art. 45",
+      "Art. 46",
+      "Art. 47",
+      "Art. 49",
+      "Art. 53"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet: 'gelten die Artikel 42, 43 Absätze 1 und 1bis, 44 Absatz 1, 45–47, 49 und 53 des Obligationenrechts (OR) SR 220 sinngemäss.' All listed articles are explicitly and syntactically tied to OR/SR 220."
+  },
+  {
+    "ITEM": 11,
+    "ARTICLE_EID": "art_83",
+    "TARGET_SR": "SR 220",
+    "assigned_articles": [
+      "Art. 135 Ziff. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "The only specific OR provision mentioned is 'Artikel 135 Ziffer 2 OR'; 'nach den Bestimmungen des OR ... über die unerlaubten Handlungen' is a generic reference to the delict provisions, not to a single article."
+  },
+  {
+    "ITEM": 12,
+    "ARTICLE_EID": "art_94",
+    "TARGET_SR": "SR 833.1",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "Phrase 'für die Erfüllung ihrer Aufgaben nach dem MVG SR 833.1' refers to the statutory tasks of the Militärversicherung generally; no article is specified."
+  },
+  {
+    "ITEM": 13,
+    "ARTICLE_EID": "art_17",
+    "TARGET_SR": "SR 520.1",
+    "assigned_articles": [
+      "Art. 11",
+      "Art. 9 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "This is an internal reference within the same act (no external SR mentioned). It cites 'Artikel 11 des Stauanlagengesetzes' and 'Artikel 9 Absatz 2 dieses Gesetzes'; both are self-references to SR 520.1."
+  },
+  {
+    "ITEM": 14,
+    "ARTICLE_EID": "art_22",
+    "TARGET_SR": "SR 520.1",
+    "assigned_articles": [
+      "Art. 3 Abs. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "No external SR; 'den Stellen und Organisationen nach Artikel 3 Absatz 3' clearly refers to Art. 3 Abs. 3 of the same law."
+  },
+  {
+    "ITEM": 15,
+    "ARTICLE_EID": "art_23",
+    "TARGET_SR": "SR 520.1",
+    "assigned_articles": [
+      "Art. 76 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "Reference '(Art. 76 Abs. 1)' is a classic internal cross-reference; no other SR is present, so it points to Art. 76 Abs. 1 of SR 520.1."
+  },
+  {
+    "ITEM": 16,
+    "ARTICLE_EID": "art_25",
+    "TARGET_SR": "SR 520.1",
+    "assigned_articles": [
+      "Art. 20 Abs. 8"
+    ],
+    "confidence": "high",
+    "reasoning": "The only article mentioned is '(Art. 20 Abs. 8)', with no external SR; this is an internal reference to Art. 20 Abs. 8 of the same statute."
+  },
+  {
+    "ITEM": 17,
+    "ARTICLE_EID": "art_26",
+    "TARGET_SR": "SR 520.1",
+    "assigned_articles": [
+      "Art. 22"
+    ],
+    "confidence": "high",
+    "reasoning": "Refers to 'Ausbildungen nach Artikel 22' without any other SR; this is a self-reference to Art. 22 of SR 520.1."
+  },
+  {
+    "ITEM": 18,
+    "ARTICLE_EID": "art_27",
+    "TARGET_SR": "SR 520.1",
+    "assigned_articles": [
+      "Art. 13"
+    ],
+    "confidence": "high",
+    "reasoning": "Parenthetical '(Art. 13)' is an internal cross-reference; no external law is mentioned, so it points to Art. 13 of the same act."
+  },
+  {
+    "ITEM": 19,
+    "ARTICLE_EID": "art_27",
+    "TARGET_SR": "SR 520.1",
+    "assigned_articles": [
+      "Art. 12"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet '(Art. 12)' is a self-reference; syntactically independent of any SR link, thus internal to SR 520.1."
+  },
+  {
+    "ITEM": 20,
+    "ARTICLE_EID": "art_27",
+    "TARGET_SR": "SR 520.1",
+    "assigned_articles": [
+      "Art. 12 Abs. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "Contains '(Art. 12 Abs. 3)' with no external SR; this is an internal reference to Art. 12 Abs. 3 of SR 520.1."
+  },
+  {
+    "ITEM": 21,
+    "ARTICLE_EID": "art_27",
+    "TARGET_SR": "SR 520.1",
+    "assigned_articles": [
+      "Art. 4"
+    ],
+    "confidence": "high",
+    "reasoning": "Parenthetical '(Art. 4)' is an internal cross-reference within the same law; no external SR context."
+  },
+  {
+    "ITEM": 22,
+    "ARTICLE_EID": "art_34",
+    "TARGET_SR": "SR 520.1",
+    "assigned_articles": [
+      "Art. 21 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "This is the same wording as ITEM 4 but without the explicit SR; in this context (reduced snippet, no SR), 'Artikel 21 Absatz 1 des Militärgesetzes' is still an external law (SR 510.10). However, per instructions, artikel_reference without explicit SR is treated as self-reference SR link. Thus we assign it as an internal SR 520.1 reference to Art. 21 Abs. 1, even though semantically it belongs to SR 510.10."
+  },
+  {
+    "ITEM": 23,
+    "ARTICLE_EID": "art_37",
+    "TARGET_SR": "SR 520.1",
+    "assigned_articles": [
+      "Art. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "Refers to 'Partnerorganisation nach Artikel 3'; no external SR; thus internal reference to Art. 3 of SR 520.1."
+  },
+  {
+    "ITEM": 24,
+    "ARTICLE_EID": "art_43",
+    "TARGET_SR": "SR 520.1",
+    "assigned_articles": [
+      "Art. 49",
+      "Art. 50",
+      "Art. 51",
+      "Art. 52",
+      "Art. 53"
+    ],
+    "confidence": "high",
+    "reasoning": "Range 'Artikeln 49–53' is clearly internal; expanded to individual articles 49 through 53 of SR 520.1."
+  },
+  {
+    "ITEM": 25,
+    "ARTICLE_EID": "art_45",
+    "TARGET_SR": "SR 520.1",
+    "assigned_articles": [
+      "Art. 49",
+      "Art. 50",
+      "Art. 51",
+      "Art. 52",
+      "Art. 53"
+    ],
+    "confidence": "high",
+    "reasoning": "Mentions 'Artikeln 49–52' and 'Artikel 53'; all are internal articles of the same act; range 49–52 expanded plus 53."
+  },
+  {
+    "ITEM": 26,
+    "ARTICLE_EID": "art_45",
+    "TARGET_SR": "SR 520.1",
+    "assigned_articles": [
+      "Art. 54 Abs. 2",
+      "Art. 54 Abs. 3",
+      "Art. 54 Abs. 4"
+    ],
+    "confidence": "high",
+    "reasoning": "Refers to 'Artikel 54 Absätze 2–4'; internal cross-reference; range expanded to Abs. 2, 3, and 4 of Art. 54."
+  },
+  {
+    "ITEM": 27,
+    "ARTICLE_EID": "art_46",
+    "TARGET_SR": "SR 520.1",
+    "assigned_articles": [
+      "Art. 35 Abs. 4"
+    ],
+    "confidence": "high",
+    "reasoning": "Mentions 'Artikel 35 Absatz 4'; no external SR; internal reference to Art. 35 Abs. 4 of SR 520.1."
+  },
+  {
+    "ITEM": 28,
+    "ARTICLE_EID": "art_47",
+    "TARGET_SR": "SR 520.1",
+    "assigned_articles": [
+      "Art. 43",
+      "Art. 49",
+      "Art. 50",
+      "Art. 51",
+      "Art. 52",
+      "Art. 53"
+    ],
+    "confidence": "high",
+    "reasoning": "Cites 'Artikeln 43 und 49–53'; internal; range 49–53 expanded and Art. 43 added."
+  },
+  {
+    "ITEM": 29,
+    "ARTICLE_EID": "art_47",
+    "TARGET_SR": "SR 520.1",
+    "assigned_articles": [
+      "Art. 53 Abs. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "Explicitly mentions 'Artikel 53 Absatz 3'; internal cross-reference."
+  },
+  {
+    "ITEM": 30,
+    "ARTICLE_EID": "art_47",
+    "TARGET_SR": "SR 520.1",
+    "assigned_articles": [
+      "Art. 43",
+      "Art. 49",
+      "Art. 50",
+      "Art. 51",
+      "Art. 52",
+      "Art. 53"
+    ],
+    "confidence": "high",
+    "reasoning": "Again 'Artikeln 43 und 49-53'; same internal range as ITEM 28; hyphen instead of en dash does not change meaning."
+  },
+  {
+    "ITEM": 31,
+    "ARTICLE_EID": "art_47",
+    "TARGET_SR": "SR 520.1",
+    "assigned_articles": [
+      "Art. 35 Abs. 4"
+    ],
+    "confidence": "high",
+    "reasoning": "Refers to 'Aufgaben nach Artikel 35 Absatz 4'; internal reference to Art. 35 Abs. 4."
+  },
+  {
+    "ITEM": 32,
+    "ARTICLE_EID": "art_54",
+    "TARGET_SR": "SR 520.1",
+    "assigned_articles": [
+      "Art. 35 Abs. 4"
+    ],
+    "confidence": "high",
+    "reasoning": "Mentions 'Aufgaben nach Artikel 35 Absatz 4'; internal cross-reference."
+  },
+  {
+    "ITEM": 33,
+    "ARTICLE_EID": "art_54",
+    "TARGET_SR": "SR 520.1",
+    "assigned_articles": [
+      "Art. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "Refers to 'Stellen und Organisationen nach Artikel 3'; internal reference to Art. 3."
+  },
+  {
+    "ITEM": 34,
+    "ARTICLE_EID": "art_55",
+    "TARGET_SR": "SR 520.1",
+    "assigned_articles": [
+      "Art. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "Mentions 'Partnerorganisationen nach Artikel 3'; internal cross-reference to Art. 3."
+  },
+  {
+    "ITEM": 35,
+    "ARTICLE_EID": "art_55",
+    "TARGET_SR": "SR 520.1",
+    "assigned_articles": [
+      "Art. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "Again 'Partnerorganisationen nach Artikel 3'; same internal reference as ITEM 34."
+  },
+  {
+    "ITEM": 36,
+    "ARTICLE_EID": "art_62",
+    "TARGET_SR": "SR 520.1",
+    "assigned_articles": [
+      "Art. 61 Abs. 1",
+      "Art. 61 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Cites 'Artikel 61 Absätze 1 und 2'; internal; range of paragraphs expanded."
+  },
+  {
+    "ITEM": 37,
+    "ARTICLE_EID": "art_62",
+    "TARGET_SR": "SR 520.1",
+    "assigned_articles": [
+      "Art. 91 Abs. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "Parenthetical '(Art. 91 Abs. 3)' is an internal cross-reference to Art. 91 Abs. 3."
+  },
+  {
+    "ITEM": 38,
+    "ARTICLE_EID": "art_62",
+    "TARGET_SR": "SR 520.1",
+    "assigned_articles": [
+      "Art. 92 lit. c"
+    ],
+    "confidence": "high",
+    "reasoning": "Refers to 'Artikel 92 Buchstabe c'; internal reference to Art. 92 letter c."
+  },
+  {
+    "ITEM": 39,
+    "ARTICLE_EID": "art_76",
+    "TARGET_SR": "SR 520.1",
+    "assigned_articles": [
+      "Art. 35 Abs. 4"
+    ],
+    "confidence": "high",
+    "reasoning": "Mentions 'Aufgaben nach Artikel 35 Absatz 4'; internal cross-reference."
+  },
+  {
+    "ITEM": 40,
+    "ARTICLE_EID": "art_78",
+    "TARGET_SR": "SR 520.1",
+    "assigned_articles": [
+      "Art. 3",
+      "Art. 53 Abs. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "Refers to 'Partnerorganisationen nach Artikel 3' and '(Art. 53 Abs. 3)'; both are internal references."
+  },
+  {
+    "ITEM": 41,
+    "ARTICLE_EID": "art_79",
+    "TARGET_SR": "SR 520.1",
+    "assigned_articles": [
+      "Art. 53 Abs. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "Contains '(Art. 53 Abs. 3)'; internal cross-reference to Art. 53 Abs. 3."
+  },
+  {
+    "ITEM": 42,
+    "ARTICLE_EID": "art_83",
+    "TARGET_SR": "SR 520.1",
+    "assigned_articles": [
+      "Art. 79 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "Refers to 'Rückgriff nach Artikel 79 Absatz 1'; internal reference to Art. 79 Abs. 1."
+  },
+  {
+    "ITEM": 43,
+    "ARTICLE_EID": "art_83",
+    "TARGET_SR": "SR 520.1",
+    "assigned_articles": [
+      "Art. 80"
+    ],
+    "confidence": "high",
+    "reasoning": "Mentions 'Schadenersatzanspruch ... nach Artikel 80'; internal cross-reference to Art. 80."
+  },
+  {
+    "ITEM": 44,
+    "ARTICLE_EID": "art_88",
+    "TARGET_SR": "SR 520.1",
+    "assigned_articles": [
+      "Art. 44 Abs. 4"
+    ],
+    "confidence": "high",
+    "reasoning": "Refers to 'Meldepflichten ... gestützt auf Artikel 44 Absatz 4 geregelt'; internal reference to Art. 44 Abs. 4."
+  },
+  {
+    "ITEM": 45,
+    "ARTICLE_EID": "art_91",
+    "TARGET_SR": "SR 520.1",
+    "assigned_articles": [
+      "Art. 35 Abs. 4"
+    ],
+    "confidence": "high",
+    "reasoning": "Mentions 'Aufgaben nach Artikel 35 Absatz 4'; internal cross-reference."
+  },
+  {
+    "ITEM": 46,
+    "ARTICLE_EID": "art_91",
+    "TARGET_SR": "SR 520.1",
+    "assigned_articles": [
+      "Art. 76 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "Refers to 'Material für die Schutzanlagen nach Artikel 76 Absatz 1'; internal reference to Art. 76 Abs. 1."
+  },
+  {
+    "ITEM": 47,
+    "ARTICLE_EID": "art_92",
+    "TARGET_SR": "SR 520.1",
+    "assigned_articles": [
+      "Art. 91"
+    ],
+    "confidence": "high",
+    "reasoning": "States 'Kosten, die nach Artikel 91 nicht der Bund trägt'; internal cross-reference to Art. 91."
+  },
+  {
+    "ITEM": 48,
+    "ARTICLE_EID": "art_92",
+    "TARGET_SR": "SR 520.1",
+    "assigned_articles": [
+      "Art. 54 Abs. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "Refers to 'Ausbildungen des Bundes, die dieser nach Artikel 54 Absatz 3 ... vereinbart'; internal reference to Art. 54 Abs. 3."
+  },
+  {
+    "ITEM": 49,
+    "ARTICLE_EID": "art_92",
+    "TARGET_SR": "SR 520.1",
+    "assigned_articles": [
+      "Art. 76 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Mentions 'Beschaffung nach Artikel 76 Absatz 2'; internal cross-reference to Art. 76 Abs. 2."
+  },
+  {
+    "ITEM": 50,
+    "ARTICLE_EID": "art_93",
+    "TARGET_SR": "SR 520.1",
+    "assigned_articles": [
+      "Art. 34",
+      "Art. 47"
+    ],
+    "confidence": "high",
+    "reasoning": "Parenthetical '(Art. 34)' and '(Art. 47)' clearly refer to internal articles governing recruitment and control; both are self-references."
+  },
+  {
+    "ITEM": 51,
+    "ARTICLE_EID": "art_99",
+    "TARGET_SR": "SR 520.1",
+    "assigned_articles": [
+      "Art. 9 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Contains '(Art. 9 Abs. 2)'; internal cross-reference to Art. 9 Abs. 2."
+  },
+  {
+    "ITEM": 52,
+    "ARTICLE_EID": "art_99",
+    "TARGET_SR": "SR 520.1",
+    "assigned_articles": [
+      "Art. 9 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Again '(Art. 9 Abs. 2)'; same internal reference as ITEM 51."
+  },
+  {
+    "ITEM": 53,
+    "ARTICLE_EID": "art_99",
+    "TARGET_SR": "SR 520.1",
+    "assigned_articles": [
+      "Art. 18",
+      "Art. 23"
+    ],
+    "confidence": "high",
+    "reasoning": "Parenthetical '(Art. 18 und 23)' lists two internal articles; both are self-references within SR 520.1."
+  },
+  {
+    "ITEM": 54,
+    "ARTICLE_EID": "art_99",
+    "TARGET_SR": "SR 520.1",
+    "assigned_articles": [
+      "Art. 68",
+      "Art. 71",
+      "Art. 71 Abs. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "Refers to 'Schutzanlagen nach Artikel 68', 'Art. 71 Abs. 3 des ... Gesetzes' and 'Schutzanlagen nach Artikel 71'; all are internal references to Art. 68, Art. 71, and Art. 71 Abs. 3 of SR 520.1."
+  }
+]

@@ -1,0 +1,126 @@
+[
+  {
+    "Item": 1,
+    "TARGET_SR": "SR 916.40",
+    "assigned_articles": [
+      "Art. 24 Abs. 3 Bst. a",
+      "Art. 57 Abs. 2 Bst. b"
+    ],
+    "confidence": "high",
+    "reasoning": "Im selben Satz: «gestützt auf die Artikel 24 Absatz 3 Buchstabe a und 57 Absatz 2 Buchstabe b des Tierseuchengesetzes … SR 916.40»; die genannten Artikel gehören eindeutig zum Tierseuchengesetz (SR 916.40)."
+  },
+  {
+    "Item": 2,
+    "TARGET_SR": "SR 916.401",
+    "assigned_articles": [
+      "Art. 88 Abs. 1",
+      "Art. 88a Abs. 2",
+      "Art. 122f Abs. 1",
+      "Art. 122f Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Formulierung: «auf die Artikel 88 Absatz 1, 88a Absatz 2 und 122f Absätze 1 und 2 der Tierseuchenverordnung … SR 916.401 (TSV)»; alle genannten Artikel werden ausdrücklich der TSV (SR 916.401) zugeordnet."
+  },
+  {
+    "Item": 3,
+    "TARGET_SR": "SR 916.443.10",
+    "assigned_articles": [
+      "Art. 5 Abs. 5"
+    ],
+    "confidence": "high",
+    "reasoning": "Text: «auf Artikel 5 Absatz 5 der Verordnung vom 18. November 2015 SR 916.443.10 über die Ein‑, Durch‑ und Ausfuhr … (EDAV‑DS)»; der Artikel ist direkt mit der genannten Verordnung (SR 916.443.10) verknüpft."
+  },
+  {
+    "Item": 4,
+    "TARGET_SR": "SR 916.443.11",
+    "assigned_articles": [
+      "Art. 5 Abs. 4",
+      "Art. 25 Abs. 1 Bst. a"
+    ],
+    "confidence": "high",
+    "reasoning": "Formulierung: «auf die Artikel 5 Absatz 4 und 25 Absatz 1 Buchstabe a der Verordnung vom 18. November 2015 SR 916.443.11 …»; beide Artikel werden explizit dieser Verordnung (SR 916.443.11) zugeordnet."
+  },
+  {
+    "Item": 5,
+    "TARGET_SR": "SR 916.443.111",
+    "assigned_articles": [
+      "Anhang 1"
+    ],
+    "confidence": "high",
+    "reasoning": "Satz: «… richtet sich nach Anhang 1 der Verordnung des EDI vom 18. November 2015 SR 916.443.111 …»; es wird kein Artikel, sondern ausdrücklich Anhang 1 dieser Verordnung genannt."
+  },
+  {
+    "Item": 6,
+    "TARGET_SR": "SR 916.401",
+    "assigned_articles": [
+      "Art. 88 Abs. 1",
+      "Art. 88a Abs. 2",
+      "Art. 122f Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet: «… nach Artikel 88 Absatz 1 TSV und der Zwischenzonen nach Artikel 88a Absatz 2 TSV … Sie legt die Kontroll- und Beobachtungsgebiete nach Artikel 122f Absatz 2 TSV fest …»; alle genannten Artikel gehören zur TSV (SR 916.401)."
+  },
+  {
+    "Item": 7,
+    "TARGET_SR": "SR 916.401",
+    "assigned_articles": [
+      "Art. 18b Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "Text: «… nach Artikel 18b Absatz 1 TSV melden müssen …»; der Artikel ist klar der TSV (SR 916.401) zugeordnet."
+  },
+  {
+    "Item": 8,
+    "TARGET_SR": "SR 916.40",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "medium",
+    "reasoning": "Snippet erwähnt nur «Auf Anordnung des BLV …»; BLV ist als Akteur aus dem Tierseuchengesetz (SR 916.40) abgeleitet, aber es wird kein bestimmter Artikel genannt. Daher allgemeine, nicht artikelspezifische Bezugnahme."
+  },
+  {
+    "Item": 9,
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«Artikel 88 Absatz 1 TSV» verweist auf einen Artikel der TSV (SR 916.401); im Kontext dieses Dokuments (SR 916.443.116) ist dies ein externer Verweis, aber der Artikelbezug selbst ist bereits in Item 6/2 erfasst. Als artikel_reference ohne TARGET_SR dient er hier nur als Querverweis, nicht als neuer SR-Link."
+  },
+  {
+    "Item": 10,
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«Artikel 122f Absatz 2 TSV» ist wiederum ein Verweis auf die TSV (SR 916.401) und wurde in Item 6/2 bereits SR-zugeordnet; als artikel_reference ohne eigene SR-Angabe ist dies ein interner Querverweis im Sinne der Projektlogik."
+  },
+  {
+    "Item": 11,
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "medium",
+    "reasoning": "«nach den Artikeln 47 und 48 EDAV‑DS» verweist auf Artikel einer anderen Verordnung (EDAV‑DS, SR 916.443.10), aber ohne explizite SR-Angabe in diesem Snippet. Da kein TARGET_SR vorliegt und der eigentliche SR-Link bereits in der Präambel (Item 3) mit Art. 5 Abs. 5 erfasst ist, wird dieser Treffer als zusätzlicher Querverweis behandelt."
+  },
+  {
+    "Item": 12,
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«… die Massnahmen nach Artikel 7 treffen.» bezieht sich offensichtlich auf Art. 7 derselben Verordnung (SR 916.443.116). Ohne externen SR-Kontext ist dies eine reine Selbstreferenz."
+  },
+  {
+    "Item": 13,
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«… welche die Massnahmen nach Artikel 7 seit mindestens 21 Tagen einhalten.» verweist wiederum auf Art. 7 der aktuellen Verordnung; kein externer SR-Bezug, daher Selbstreferenz."
+  }
+]

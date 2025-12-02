@@ -1,0 +1,538 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 101",
+    "assigned_articles": ["Art. 122"],
+    "confidence": "high",
+    "reasoning": "Snippet explicitly states: 'Der genannten Bestimmung entspricht heute Art. 122 der BV ... (SR 101)'; Art. 122 is directly linked to SR 101."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": "SR 961.01",
+    "assigned_articles": ["Art. 39a"],
+    "confidence": "high",
+    "reasoning": "Phrase 'gemäss Artikel 39a des Versicherungsaufsichtsgesetzes ... SR 961.01 (VAG)' directly attributes Art. 39a to SR 961.01."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_13",
+    "TARGET_SR": "SR 220",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "medium",
+    "reasoning": "The authorial note says 'Heute: die Bestimmungen des OR (SR 220).' without specifying particular articles; it refers generally to the OR provisions on bearer securities."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_35_a",
+    "TARGET_SR": "SR 832.12",
+    "assigned_articles": ["Art. 2 Abs. 2"],
+    "confidence": "high",
+    "reasoning": "Text: 'In der Zusatzversicherung ... (Art. 2 Abs. 2 des Krankenversicherungsaufsichtsgesetzes ... SR 832.12)' clearly links Art. 2 Abs. 2 to SR 832.12."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_36",
+    "TARGET_SR": "SR 961.01",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "medium",
+    "reasoning": "Reference 'nach dem VAG SR 961.01 notwendige Bewilligung' invokes the supervisory law as a whole; no specific article is mentioned."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_37",
+    "TARGET_SR": "SR 961.01",
+    "assigned_articles": ["Art. 55"],
+    "confidence": "high",
+    "reasoning": "Sentence 'Artikel 55 VAG SR 961.01 bleibt vorbehalten.' explicitly cites Art. 55 of SR 961.01."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_39_a",
+    "TARGET_SR": "SR 831.20",
+    "assigned_articles": ["Art. 3b"],
+    "confidence": "high",
+    "reasoning": "Text: 'nach Artikel 3b des Bundesgesetzes ... SR 831.20 über die Invalidenversicherung' directly links Art. 3b to SR 831.20."
+  },
+  {
+    "ITEM": 8,
+    "ARTICLE_EID": "art_39_b",
+    "TARGET_SR": "SR 831.20",
+    "assigned_articles": ["Art. 68bis"],
+    "confidence": "high",
+    "reasoning": "Multiple occurrences of 'Artikel 68bis IVG SR 831.20' and 'Artikel 68bis Absatz 1 ... IVG' clearly refer to Art. 68bis of SR 831.20."
+  },
+  {
+    "ITEM": 9,
+    "ARTICLE_EID": "art_46",
+    "TARGET_SR": "SR 831.40",
+    "assigned_articles": ["Art. 41"],
+    "confidence": "high",
+    "reasoning": "Sentence: 'Artikel 41 des Bundesgesetzes ... SR 831.40 ... bleibt vorbehalten.' explicitly cites Art. 41 of SR 831.40."
+  },
+  {
+    "ITEM": 10,
+    "ARTICLE_EID": "art_46_a",
+    "TARGET_SR": "SR 281.1",
+    "assigned_articles": ["Art. 92"],
+    "confidence": "high",
+    "reasoning": "Text: 'nach Artikel 92 des Bundesgesetzes ... SR 281.1 über Schuldbetreibung und Konkurs' directly links Art. 92 to SR 281.1."
+  },
+  {
+    "ITEM": 11,
+    "ARTICLE_EID": "art_47_a",
+    "TARGET_SR": "SR 961.01",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "medium",
+    "reasoning": "Phrase 'Dem VAG SR 961.01 unterstehende ...' uses VAG only to define supervised entities; no specific article is cited."
+  },
+  {
+    "ITEM": 12,
+    "ARTICLE_EID": "art_47_a",
+    "TARGET_SR": "SR 831.10",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "medium",
+    "reasoning": "Reference 'nach den Bestimmungen des Bundesgesetzes ... SR 831.10 über die Alters- und Hinterlassenenversicherung' is generic; no article number is given."
+  },
+  {
+    "ITEM": 13,
+    "ARTICLE_EID": "art_47_a",
+    "TARGET_SR": "SR 832.10",
+    "assigned_articles": ["Art. 12 Abs. 2"],
+    "confidence": "high",
+    "reasoning": "Snippet: 'die in Artikel 12 Absatz 2 des Bundesgesetzes ... SR 832.10 ... über die Krankenversicherung (KVG) vorgesehenen Zusatzversicherungen' clearly ties Art. 12 Abs. 2 to SR 832.10."
+  },
+  {
+    "ITEM": 14,
+    "ARTICLE_EID": "art_47_a",
+    "TARGET_SR": "SR 832.12",
+    "assigned_articles": ["Art. 2 Abs. 2"],
+    "confidence": "high",
+    "reasoning": "Authorial note: 'Siehe ... Art. 2 Abs. 2 des Krankenversicherungsaufsichtsgesetzes ... (SR 832.12).' explicitly links Art. 2 Abs. 2 to SR 832.12."
+  },
+  {
+    "ITEM": 15,
+    "ARTICLE_EID": "art_47_a",
+    "TARGET_SR": "SR 832.20",
+    "assigned_articles": ["Art. 68 Abs. 2"],
+    "confidence": "high",
+    "reasoning": "Text: 'nach Artikel 68 Absatz 2 des Bundesgesetzes ... SR 832.20 über die Unfallversicherung (UVG)' directly cites Art. 68 Abs. 2 of SR 832.20."
+  },
+  {
+    "ITEM": 16,
+    "ARTICLE_EID": "art_76",
+    "TARGET_SR": "SR 221.229.11",
+    "assigned_articles": ["Art. 1"],
+    "confidence": "high",
+    "reasoning": "Authorial note: 'Siehe jedoch Art. 1 der V ... (SR 221.229.11).' explicitly refers to Art. 1 of SR 221.229.11."
+  },
+  {
+    "ITEM": 17,
+    "ARTICLE_EID": "art_77",
+    "TARGET_SR": "SR 221.229.11",
+    "assigned_articles": ["Art. 1"],
+    "confidence": "high",
+    "reasoning": "Identical authorial note as ITEM 16: 'Siehe jedoch Art. 1 ... (SR 221.229.11).' thus Art. 1 of SR 221.229.11."
+  },
+  {
+    "ITEM": 18,
+    "ARTICLE_EID": "art_82",
+    "TARGET_SR": "SR 281.1",
+    "assigned_articles": ["Art. 285 ff."],
+    "confidence": "high",
+    "reasoning": "Text: 'die Vorschriften der Artikel 285 ff. des Bundesgesetzes ... SR 281.1' clearly cites Art. 285 ff. of SR 281.1."
+  },
+  {
+    "ITEM": 19,
+    "ARTICLE_EID": "art_98_a",
+    "TARGET_SR": "SR 952.0",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "medium",
+    "reasoning": "Phrase 'Finanzintermediäre nach dem Bankengesetz ... SR 952.0' is a generic reference to the Banking Act; no article is specified."
+  },
+  {
+    "ITEM": 20,
+    "ARTICLE_EID": "art_98_a",
+    "TARGET_SR": "SR 951.31",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "medium",
+    "reasoning": "Text 'nach dem ... Kollektivanlagengesetz ... SR 951.31' refers to the act as a whole; no specific article is mentioned."
+  },
+  {
+    "ITEM": 21,
+    "ARTICLE_EID": "art_98_a",
+    "TARGET_SR": "SR 961.01",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "medium",
+    "reasoning": "Snippet 'Versicherungsunternehmen nach dem VAG SR 961.01' uses VAG generically to define supervised insurers; no article number is given."
+  },
+  {
+    "ITEM": 22,
+    "ARTICLE_EID": "art_100",
+    "TARGET_SR": "SR 837.0",
+    "assigned_articles": ["Art. 10"],
+    "confidence": "high",
+    "reasoning": "Text: 'die nach Artikel 10 des Arbeitslosenversicherungsgesetzes ... SR 837.0 als arbeitslos gelten' clearly links Art. 10 to SR 837.0."
+  },
+  {
+    "ITEM": 23,
+    "ARTICLE_EID": "art_100",
+    "TARGET_SR": "SR 832.10",
+    "assigned_articles": ["Art. 71 Abs. 1", "Art. 71 Abs. 2", "Art. 73"],
+    "confidence": "high",
+    "reasoning": "Phrase 'die Artikel 71 Absätze 1 und 2 und 73 KVG SR 832.10' explicitly cites these articles of SR 832.10."
+  },
+  {
+    "ITEM": 24,
+    "ARTICLE_EID": "art_101",
+    "TARGET_SR": "SR 961.01",
+    "assigned_articles": ["Art. 2 Abs. 2"],
+    "confidence": "high",
+    "reasoning": "Text: '(Art. 2 Abs. 2 VAG SR 961.01)' directly attributes Art. 2 Abs. 2 to SR 961.01."
+  },
+  {
+    "ITEM": 25,
+    "ARTICLE_EID": "art_101",
+    "TARGET_SR": "SR 220",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "medium",
+    "reasoning": "Sentence 'Für diese Rechtsverhältnisse gilt das Obligationenrecht SR 220.' refers to the OR generally without specifying articles."
+  },
+  {
+    "ITEM": 26,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 2a"],
+    "confidence": "high",
+    "reasoning": "Internal reference: 'Widerrufsrecht nach Artikel 2a' clearly points to Art. 2a of the same law; no external SR is mentioned."
+  },
+  {
+    "ITEM": 27,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 38 Abs. 1"],
+    "confidence": "high",
+    "reasoning": "Internal cross-reference 'Schadenanzeige nach Artikel 38 Absatz 1' refers to Art. 38 Abs. 1 of the current act."
+  },
+  {
+    "ITEM": 28,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": "SR 961.01",
+    "assigned_articles": ["Art. 39a"],
+    "confidence": "high",
+    "reasoning": "This repeats the external reference: 'Artikel 39a des Versicherungsaufsichtsgesetzes ... (VAG)'; via ITEM 2 we know this is Art. 39a of SR 961.01."
+  },
+  {
+    "ITEM": 29,
+    "ARTICLE_EID": "art_3_a",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 3"],
+    "confidence": "high",
+    "reasoning": "Phrase 'Informationspflicht nach Artikel 3' is a self-reference to Art. 3 of the same statute."
+  },
+  {
+    "ITEM": 30,
+    "ARTICLE_EID": "art_3_a",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 3"],
+    "confidence": "high",
+    "reasoning": "Again 'Informationen nach Artikel 3' clearly refers internally to Art. 3 of this law."
+  },
+  {
+    "ITEM": 31,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 16"],
+    "confidence": "high",
+    "reasoning": "Parenthetical '(Art. 16)' is an internal reference to Art. 16 of the same act."
+  },
+  {
+    "ITEM": 32,
+    "ARTICLE_EID": "art_6",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 4 Abs. 1"],
+    "confidence": "high",
+    "reasoning": "Text 'Beantwortung der Fragen gemäss Artikel 4 Absatz 1' is a self-reference to Art. 4 Abs. 1."
+  },
+  {
+    "ITEM": 33,
+    "ARTICLE_EID": "art_6",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 90 Abs. 2"],
+    "confidence": "high",
+    "reasoning": "Parenthetical '(Art. 90 Abs. 2)' refers to Art. 90 Abs. 2 of the same law."
+  },
+  {
+    "ITEM": 34,
+    "ARTICLE_EID": "art_8",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 6"],
+    "confidence": "high",
+    "reasoning": "Reference 'Anzeigepflichtverletzung (Art. 6)' is an internal cross-reference to Art. 6."
+  },
+  {
+    "ITEM": 35,
+    "ARTICLE_EID": "art_15",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 14"],
+    "confidence": "high",
+    "reasoning": "Phrase 'in Artikel 14 dieses Gesetzes genannten Personen' clearly refers to Art. 14 of the same statute."
+  },
+  {
+    "ITEM": 36,
+    "ARTICLE_EID": "art_21",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 20"],
+    "confidence": "high",
+    "reasoning": "Reference 'nach Ablauf der in Artikel 20 dieses Gesetzes festgesetzten Frist' is internal to Art. 20."
+  },
+  {
+    "ITEM": 37,
+    "ARTICLE_EID": "art_24",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 42 Abs. 3"],
+    "confidence": "high",
+    "reasoning": "Sentence 'Artikel 42 Absatz 3 bleibt vorbehalten.' is a self-reference to Art. 42 Abs. 3."
+  },
+  {
+    "ITEM": 38,
+    "ARTICLE_EID": "art_28",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 4", "Art. 4 Abs. 1"],
+    "confidence": "medium",
+    "reasoning": "Snippet mentions 'Tatsache (Art. 4)' and 'Fragen nach Artikel 4 Absatz 1'; both are internal references to Art. 4 and its paragraph 1."
+  },
+  {
+    "ITEM": 39,
+    "ARTICLE_EID": "art_30",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 28"],
+    "confidence": "high",
+    "reasoning": "Text 'die in Artikel 28 dieses Gesetzes festgestellten Folgen' clearly refers to Art. 28 of the same law."
+  },
+  {
+    "ITEM": 40,
+    "ARTICLE_EID": "art_35_a",
+    "TARGET_SR": "SR 832.12",
+    "assigned_articles": ["Art. 2 Abs. 2"],
+    "confidence": "high",
+    "reasoning": "Same context as ITEM 4 but without SR number; 'Art. 2 Abs. 2 des Krankenversicherungsaufsichtsgesetzes' is Art. 2 Abs. 2 of SR 832.12."
+  },
+  {
+    "ITEM": 41,
+    "ARTICLE_EID": "art_37",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 36 Abs. 3"],
+    "confidence": "high",
+    "reasoning": "Phrase 'Forderung nach Artikel 36 Absatz 3' is an internal reference to Art. 36 Abs. 3."
+  },
+  {
+    "ITEM": 42,
+    "ARTICLE_EID": "art_38_c",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 38a Abs. 1"],
+    "confidence": "high",
+    "reasoning": "Parenthetical '(Art. 38a Abs. 1)' is a self-reference to Art. 38a Abs. 1."
+  },
+  {
+    "ITEM": 43,
+    "ARTICLE_EID": "art_39_a",
+    "TARGET_SR": "SR 831.20",
+    "assigned_articles": ["Art. 3b"],
+    "confidence": "high",
+    "reasoning": "Same sentence as ITEM 7 but without SR number; 'Artikel 3b ... über die Invalidenversicherung (IVG)' is Art. 3b of SR 831.20."
+  },
+  {
+    "ITEM": 44,
+    "ARTICLE_EID": "art_41_a",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 41 Abs. 1"],
+    "confidence": "high",
+    "reasoning": "Reference 'nach Ablauf der in Artikel 41 Absatz 1 genannten Frist' is internal to Art. 41 Abs. 1."
+  },
+  {
+    "ITEM": 45,
+    "ARTICLE_EID": "art_46",
+    "TARGET_SR": "SR 831.40",
+    "assigned_articles": ["Art. 41"],
+    "confidence": "high",
+    "reasoning": "Same content as ITEM 9: 'Artikel 41 des Bundesgesetzes ... SR 831.40' refers to Art. 41 of SR 831.40."
+  },
+  {
+    "ITEM": 46,
+    "ARTICLE_EID": "art_46_a",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 81"],
+    "confidence": "high",
+    "reasoning": "Sentence 'Artikel 81 und die Vorschriften dieses Gesetzes ... bleiben vorbehalten.' is an internal reference to Art. 81."
+  },
+  {
+    "ITEM": 47,
+    "ARTICLE_EID": "art_46_a",
+    "TARGET_SR": "SR 281.1",
+    "assigned_articles": ["Art. 92"],
+    "confidence": "high",
+    "reasoning": "Same as ITEM 10: 'nach Artikel 92 des Bundesgesetzes ... über Schuldbetreibung und Konkurs' is Art. 92 of SR 281.1."
+  },
+  {
+    "ITEM": 48,
+    "ARTICLE_EID": "art_47_a",
+    "TARGET_SR": "SR 832.10",
+    "assigned_articles": ["Art. 12 Abs. 2"],
+    "confidence": "high",
+    "reasoning": "Text 'die in Artikel 12 Absatz 2 des Bundesgesetzes ... über die Krankenversicherung (KVG) vorgesehenen Zusatzversicherungen' refers to Art. 12 Abs. 2 of SR 832.10."
+  },
+  {
+    "ITEM": 49,
+    "ARTICLE_EID": "art_47_a",
+    "TARGET_SR": "SR 832.20",
+    "assigned_articles": ["Art. 68 Abs. 2"],
+    "confidence": "high",
+    "reasoning": "Phrase 'nach Artikel 68 Absatz 2 des Bundesgesetzes ... über die Unfallversicherung (UVG)' refers to Art. 68 Abs. 2 of SR 832.20."
+  },
+  {
+    "ITEM": 50,
+    "ARTICLE_EID": "art_51_a",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 38c"],
+    "confidence": "high",
+    "reasoning": "Parenthetical '(Art. 38c)' is an internal reference to Art. 38c of the same law."
+  },
+  {
+    "ITEM": 51,
+    "ARTICLE_EID": "art_54",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 28", "Art. 29", "Art. 30", "Art. 31", "Art. 32"],
+    "confidence": "high",
+    "reasoning": "Range 'Artikel 28–32' is an internal reference to Arts. 28 through 32 inclusive."
+  },
+  {
+    "ITEM": 52,
+    "ARTICLE_EID": "art_74",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 6", "Art. 28"],
+    "confidence": "high",
+    "reasoning": "Text 'Bestimmungen der Artikel 6 und 28 dieses Gesetzes' clearly refers to Arts. 6 and 28 internally."
+  },
+  {
+    "ITEM": 53,
+    "ARTICLE_EID": "art_78",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 77 Abs. 1"],
+    "confidence": "high",
+    "reasoning": "Phrase 'Verfügungen nach Artikel 77 Absatz 1 dieses Gesetzes' is an internal reference to Art. 77 Abs. 1."
+  },
+  {
+    "ITEM": 54,
+    "ARTICLE_EID": "art_82",
+    "TARGET_SR": "SR 281.1",
+    "assigned_articles": ["Art. 285 ff."],
+    "confidence": "high",
+    "reasoning": "Same as ITEM 18: 'Vorschriften der Artikel 285 ff. des Bundesgesetzes ... über Schuldbetreibung und Konkurs' refers to Art. 285 ff. of SR 281.1."
+  },
+  {
+    "ITEM": 55,
+    "ARTICLE_EID": "art_97",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 10 Abs. 2",
+      "Art. 13",
+      "Art. 24",
+      "Art. 35b",
+      "Art. 35c",
+      "Art. 41 Abs. 2",
+      "Art. 46a",
+      "Art. 46b Abs. 1",
+      "Art. 46b Abs. 2",
+      "Art. 46c Abs. 1",
+      "Art. 47",
+      "Art. 51",
+      "Art. 58 Abs. 4",
+      "Art. 60",
+      "Art. 73",
+      "Art. 74 Abs. 1",
+      "Art. 95c Abs. 1",
+      "Art. 95c Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Enumerates specific provisions of 'dieses Gesetzes' that cannot be modified; all are internal articles and paragraphs."
+  },
+  {
+    "ITEM": 56,
+    "ARTICLE_EID": "art_98",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 1",
+      "Art. 2",
+      "Art. 3",
+      "Art. 3a",
+      "Art. 6",
+      "Art. 9",
+      "Art. 11",
+      "Art. 14 Abs. 4",
+      "Art. 15",
+      "Art. 20",
+      "Art. 21",
+      "Art. 28",
+      "Art. 28a",
+      "Art. 29 Abs. 2",
+      "Art. 30",
+      "Art. 32",
+      "Art. 34",
+      "Art. 35a",
+      "Art. 38c Abs. 2",
+      "Art. 39 Abs. 2 Ziff. 2 zweiter Satz",
+      "Art. 41a",
+      "Art. 42 Abs. 1",
+      "Art. 42 Abs. 2",
+      "Art. 42 Abs. 3",
+      "Art. 44",
+      "Art. 45",
+      "Art. 46",
+      "Art. 54",
+      "Art. 56",
+      "Art. 57",
+      "Art. 59",
+      "Art. 76 Abs. 1",
+      "Art. 77 Abs. 1",
+      "Art. 89",
+      "Art. 90",
+      "Art. 91",
+      "Art. 92",
+      "Art. 93",
+      "Art. 94",
+      "Art. 95",
+      "Art. 95a",
+      "Art. 95b Abs. 1",
+      "Art. 95c Abs. 3",
+      "Art. 96"
+    ],
+    "confidence": "high",
+    "reasoning": "Long list of internal provisions 'dieses Gesetzes' that cannot be changed to the detriment of the policyholder; all are self-references."
+  },
+  {
+    "ITEM": 57,
+    "ARTICLE_EID": "art_98_a",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 97", "Art. 98"],
+    "confidence": "high",
+    "reasoning": "Sentence 'Die Artikel 97 und 98 gelten nicht bei:' clearly refers internally to Arts. 97 and 98."
+  },
+  {
+    "ITEM": 58,
+    "ARTICLE_EID": "art_99",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 98"],
+    "confidence": "high",
+    "reasoning": "Text 'dass die in Artikel 98 dieses Gesetzes festgestellten Beschränkungen ...' is an internal reference to Art. 98."
+  },
+  {
+    "ITEM": 59,
+    "ARTICLE_EID": "art_103_a",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 35a", "Art. 35b"],
+    "confidence": "high",
+    "reasoning": "Phrase 'das Kündigungsrecht nach den Artikeln 35a und 35b' clearly refers to Arts. 35a and 35b of the same law."
+  }
+]

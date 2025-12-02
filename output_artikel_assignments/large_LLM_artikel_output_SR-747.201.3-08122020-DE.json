@@ -1,0 +1,277 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 747.201",
+    "assigned_articles": [
+      "Art. 11",
+      "Art. 12",
+      "Art. 56 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Präambel nennt ausdrücklich: «gestützt auf die Artikel 11, 12 und 56 Absatz 1 … SR 747.201 über die Binnenschifffahrt»; diese Artikel gehören klar zum genannten Bundesgesetz SR 747.201."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": "SR 745.1",
+    "assigned_articles": [
+      "Art. 2 Abs. 1 Bst. b"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Satz: «… nach Artikel 2 Absatz 1 Buchstabe b des Personenbeförderungsgesetzes … SR 745.1 …» wird der Artikel mit Absatz und Buchstabe direkt diesem Gesetz zugeordnet."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": "SR 747.201.1",
+    "assigned_articles": [
+      "Art. 2 Abs. 1 Bst. a Ziff. 14",
+      "Art. 2 Abs. 1 Bst. a Ziff. 15"
+    ],
+    "confidence": "high",
+    "reasoning": "Formulierung: «… nach Artikel 2 Absatz 1 Buchstabe a Ziffern 14 und 15 der Binnenschifffahrtsverordnung … SR 747.201.1 …»; die genannten Ziffern 14 und 15 gehören eindeutig zu Art. 2 Abs. 1 Bst. a dieser Verordnung."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": "SR 747.223.1",
+    "assigned_articles": [
+      "Anlage C"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Satz verweist spezifisch auf «… nach der Anlage C der Bodensee-Schifffahrts-Ordnung … SR 747.223.1 …»; es wird keine Artikelnummer, sondern die Anlage C dieses Erlasses genannt."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_15",
+    "TARGET_SR": "SR 941.210",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "medium",
+    "reasoning": "Es heisst nur: «… haben die Anforderungen der Messmittelverordnung … SR 941.210 … zu erfüllen.»; keine konkrete Artikelangabe, allgemeiner Verweis auf die Verordnung."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_16",
+    "TARGET_SR": "SR 742.102",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "medium",
+    "reasoning": "Formulierung: «Die Gebühren richten sich nach der Gebührenverordnung BAV … SR 742.102.»; es werden keine bestimmten Artikel genannt, daher allgemeiner Dokumentverweis."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_19_a",
+    "TARGET_SR": "SR 747.224.131",
+    "assigned_articles": [
+      "Kapitel 8a"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Text nennt ausdrücklich «… nach Kapitel 8a der Rheinschiffsuntersuchungsordnung … SR 747.224.131 …»; damit ist dieses Kapitel des genannten Erlasses direkt verknüpft."
+  },
+  {
+    "ITEM": 8,
+    "ARTICLE_EID": "art_19_a",
+    "TARGET_SR": "SR 747.223.1",
+    "assigned_articles": [
+      "Anlage C"
+    ],
+    "confidence": "high",
+    "reasoning": "Es wird «… nach Anlage C der Bodensee-Schifffahrts-Ordnung … SR 747.223.1 …» genannt; dies ist eine eindeutige Zuordnung zur Anlage C dieses Erlasses."
+  },
+  {
+    "ITEM": 9,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«nach Artikel 3 Ziffer 9 der Verordnung (EG) Nr. 715/2007 …» bezieht sich auf EU-Recht; kein SR-Link im Kontext, daher keine Zuordnung zu einem SR, sondern nur eine externe Norm ohne SR-Nummer."
+  },
+  {
+    "ITEM": 10,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": "SR 745.1",
+    "assigned_articles": [
+      "Art. 2 Abs. 1 Bst. b"
+    ],
+    "confidence": "high",
+    "reasoning": "Gleicher Inhalt wie ITEM 2, aber als artikel_reference: «… nach Artikel 2 Absatz 1 Buchstabe b des Personenbeförderungsgesetzes …»; durch ITEM 2 ist klar, dass dies Art. 2 Abs. 1 Bst. b SR 745.1 ist."
+  },
+  {
+    "ITEM": 11,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": "SR 747.201.1",
+    "assigned_articles": [
+      "Art. 2 Abs. 1 Bst. a Ziff. 14",
+      "Art. 2 Abs. 1 Bst. a Ziff. 15"
+    ],
+    "confidence": "high",
+    "reasoning": "Entspricht dem Kontext von ITEM 3 ohne explizite SR-Nennung; über ITEM 3 ist klar, dass «Artikel 2 Absatz 1 Buchstabe a Ziffern 14 und 15 der Binnenschifffahrtsverordnung» Art. 2 Abs. 1 Bst. a Ziff. 14 und 15 SR 747.201.1 meint."
+  },
+  {
+    "ITEM": 12,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«… nach Artikel 4 Absatz 1 Ziffer 5 der EU‑NRMM-Verordnung …» verweist auf eine EU-Verordnung, nicht auf ein SR-Dokument; keine SR-Nummer im Kontext, daher keine SR-Zuordnung."
+  },
+  {
+    "ITEM": 13,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "Wie ITEM 12, aber mit «Artikel 4 Absatz 1 Ziffer 6 der EU‑NRMM-Verordnung»; wiederum EU-Recht ohne SR-Nummer."
+  },
+  {
+    "ITEM": 14,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "Verweist auf «Artikel 4 Absatz 1 Ziffer 1 Buchstabe b der EU‑NRMM-Verordnung»; ebenfalls EU-Verordnung ohne SR-Bezug."
+  },
+  {
+    "ITEM": 15,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 3 (dieses Erlasses)"
+    ],
+    "confidence": "high",
+    "reasoning": "«Die Anforderungen nach Artikel 3 gelten als erfüllt …»; kein Gesetz oder Verordnung genannt, daher klar interne Selbstreferenz auf Art. 3 der vorliegenden Verordnung."
+  },
+  {
+    "ITEM": 16,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 2 Bst. p (dieses Erlasses)"
+    ],
+    "confidence": "high",
+    "reasoning": "«… technische Prüfstelle nach Artikel 2 Buchstabe p …»; ohne Nennung eines anderen Erlasses ist dies eine Selbstreferenz auf Art. 2 Bst. p der gleichen Verordnung."
+  },
+  {
+    "ITEM": 17,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 2 Bst. p (dieses Erlasses)"
+    ],
+    "confidence": "high",
+    "reasoning": "Gleiche Struktur wie ITEM 16: «… technische Prüfstelle nach Artikel 2 Buchstabe p …»; interne Verweisstruktur."
+  },
+  {
+    "ITEM": 18,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 3 (dieses Erlasses)"
+    ],
+    "confidence": "high",
+    "reasoning": "«… als die in Absatz 1 und in Artikel 3 genannten Bestimmungen.»; «Artikel 3» ist ohne Erlassangabe und bezieht sich damit auf Art. 3 der gleichen Verordnung."
+  },
+  {
+    "ITEM": 19,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 4 Abs. 1 (dieses Erlasses)",
+      "Art. 2 Bst. p (dieses Erlasses)"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Satz nennt «… Nachweis nach Artikel 4 Absatz 1 …» und «… technische Prüfstelle nach Artikel 2 Buchstabe p …»; mangels anderer Erlassangabe sind dies interne Verweise auf Art. 4 Abs. 1 und Art. 2 Bst. p der vorliegenden Verordnung."
+  },
+  {
+    "ITEM": 20,
+    "ARTICLE_EID": "art_9_bis",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 18 Abs. 2 der EU‑NRMM-Verordnung"
+    ],
+    "confidence": "high",
+    "reasoning": "«… Grenzwerte der Stufe V nach Artikel 18 Absatz 2 der EU‑NRMM-Verordnung …»; dies ist ein Verweis auf EU-Recht, kein SR-Dokument."
+  },
+  {
+    "ITEM": 21,
+    "ARTICLE_EID": "art_15",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 9 (dieses Erlasses)"
+    ],
+    "confidence": "high",
+    "reasoning": "«… die nach Artikel 9 mit Partikelfiltern ausgerüstet sind …»; ohne weitere Erlassangabe ist dies ein interner Verweis auf Art. 9 der gleichen Verordnung."
+  },
+  {
+    "ITEM": 22,
+    "ARTICLE_EID": "art_15",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 9 Abs. 3 (dieses Erlasses)"
+    ],
+    "confidence": "high",
+    "reasoning": "«… nach Artikel 9 Absatz 3 zu treffen.»; wiederum keine externe Erlassangabe, daher Selbstreferenz auf Art. 9 Abs. 3 der vorliegenden Verordnung."
+  },
+  {
+    "ITEM": 23,
+    "ARTICLE_EID": "art_17",
+    "TARGET_SR": "SR 747.201",
+    "assigned_articles": [
+      "Art. 48"
+    ],
+    "confidence": "high",
+    "reasoning": "«Nach Artikel 48 des Bundesgesetzes vom 3. Oktober 1975 über die Binnenschifffahrt …»; dieses Bundesgesetz ist SR 747.201 (vgl. Präambel), somit Verweis auf Art. 48 SR 747.201."
+  },
+  {
+    "ITEM": 24,
+    "ARTICLE_EID": "art_17",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 14 (dieses Erlasses)"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Katalog: «… Frist … nach Artikel 14 überschreitet»; ohne Erlassangabe ist dies ein interner Verweis auf Art. 14 der gleichen Verordnung."
+  },
+  {
+    "ITEM": 25,
+    "ARTICLE_EID": "art_19_a",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 9 Abs. 4 (dieses Erlasses)"
+    ],
+    "confidence": "high",
+    "reasoning": "«Vorbehalten bleiben die Bestimmungen von Artikel 9 Absatz 4 …»; kein anderes Gesetz genannt, daher Selbstreferenz auf Art. 9 Abs. 4 der vorliegenden Verordnung."
+  },
+  {
+    "ITEM": 26,
+    "ARTICLE_EID": "art_19_a",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 9 Abs. 4 (dieses Erlasses)"
+    ],
+    "confidence": "high",
+    "reasoning": "Gleiche Wendung wie ITEM 25: «Vorbehalten bleiben die Bestimmungen von Artikel 9 Absatz 4 …»; interner Verweis."
+  },
+  {
+    "ITEM": 27,
+    "ARTICLE_EID": "art_19_a",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 9 Abs. 4 (dieses Erlasses)"
+    ],
+    "confidence": "high",
+    "reasoning": "Auch hier: «Vorbehalten bleiben die Bestimmungen von Artikel 9 Absatz 4 …»; wiederum Selbstreferenz auf Art. 9 Abs. 4 der gleichen Verordnung."
+  }
+]

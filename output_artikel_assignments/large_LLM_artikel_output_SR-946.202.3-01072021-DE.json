@@ -1,0 +1,56 @@
+[
+  {
+    "Item": 1,
+    "TARGET_SR": "SR 946.202",
+    "assigned_articles": [
+      "Art. 6 Abs. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Formulierung \"gestützt auf Artikel 6 Absatz 3 des Güterkontrollgesetzes ... SR 946.202 (GKG)\" verknüpft eindeutig Art. 6 Abs. 3 mit SR 946.202."
+  },
+  {
+    "Item": 2,
+    "TARGET_SR": "SR 946.202.1",
+    "assigned_articles": [
+      "Art. 6"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Satzteil \"nach Artikel 6 der Güterkontrollverordnung ... SR 946.202.1 (GKV)\" wird Art. 6 ausdrücklich dieser Verordnung zugeordnet."
+  },
+  {
+    "Item": 3,
+    "TARGET_SR": "SR 946.202.1",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Wendung \"richten sich ... nach der GKV SR 946.202.1\" verweist allgemein auf die Verordnung ohne konkrete Artikelangabe."
+  },
+  {
+    "Item": 4,
+    "TARGET_SR": "SR 946.202.1",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "Bezug auf \"die Anhänge der GKV SR 946.202.1\" ohne Nennung bestimmter Artikel; es handelt sich um eine generelle Verweisung auf die Verordnung bzw. deren Anhänge."
+  },
+  {
+    "Item": 5,
+    "TARGET_SR": "SR 946.202",
+    "assigned_articles": [
+      "Art. 6"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Snippet \"ein Verweigerungsgrund nach Artikel 6 GKG\" ist Art. 6 unmittelbar mit dem GKG (SR 946.202) verknüpft; Absatz wird nicht genannt, daher nur Art. 6 insgesamt."
+  },
+  {
+    "Item": 6,
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "Artikelreferenzen ohne expliziten SR-Bezug; \"Artikel 6 GKG\" und \"Artikel 6 der Güterkontrollverordnung\" sind bereits in Items 2 und 5 SR-zugeordnet. Hier dient der Eintrag nur als Selbstreferenz-/Strukturhinweis im aktuellen Dokument."
+  }
+]

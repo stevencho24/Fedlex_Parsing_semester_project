@@ -1,0 +1,43 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "art_93",
+    "TARGET_SR": "SR 101",
+    "assigned_articles": [
+      "Art. 45",
+      "Art. 136",
+      "Art. 140",
+      "Art. 141",
+      "Art. 151",
+      "Art. 159",
+      "Art. 160",
+      "Art. 165"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet explicitly states that the previously cited provisions correspond today to Art. 45, 136, 140, 141, 151, 159, 160 und 165 der BV vom 18. April 1999 (SR 101); these articles are directly and syntactically linked to SR 101."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_93",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "The snippet mentions Art. 86, 89, 89bis und 93 Bundesverfassung without any SR reference in the same syntactic unit; this is a self-reference within the current document’s context, not tied to an external SR."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_107",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "The reference to Artikel 107 Absatz 4 appears without any SR citation; it clearly refers to an internal article of the same document, so no external SR link is assigned."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_110",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "The phrase 'nach Artikel 107' lacks any SR reference and is part of internal regulatory language about contracts; it is an internal cross-reference within the same act, not to an external SR."
+  }
+]

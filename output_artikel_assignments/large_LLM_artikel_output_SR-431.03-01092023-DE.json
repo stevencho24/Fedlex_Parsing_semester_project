@@ -1,0 +1,101 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 101",
+    "assigned_articles": [
+      "Art. 59 Abs. 4",
+      "Art. 61 Abs. 4",
+      "Art. 65 Abs. 2",
+      "Art. 77 Abs. 2",
+      "Art. 80 Abs. 1",
+      "Art. 80 Abs. 2",
+      "Art. 95 Abs. 1",
+      "Art. 104 Abs. 1",
+      "Art. 112 Abs. 1",
+      "Art. 113 Abs. 1",
+      "Art. 114 Abs. 1",
+      "Art. 116 Abs. 2",
+      "Art. 116 Abs. 3",
+      "Art. 117 Abs. 1",
+      "Art. 118 Abs. 2 Bst. a",
+      "Art. 118 Abs. 2 Bst. b",
+      "Art. 122 Abs. 1",
+      "Art. 130 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Präambel nennt ausdrücklich mehrere Artikel der Bundesverfassung mit Absätzen und Buchstaben, gefolgt von 'der Bundesverfassung SR 101'; alle genannten Artikel gehören daher zu SR 101."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": "SR 943.03",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Snippet wird nur auf das Bundesgesetz vom 18. März 2016 (SR 943.03) verwiesen, ohne konkrete Artikelangabe; dies ist eine allgemeine Verweisung auf das ganze Gesetz."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_8",
+    "TARGET_SR": "SR 431.01",
+    "assigned_articles": [
+      "Art. 10 Abs. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Text lautet 'nach Artikel 10 Absatz 3 des Bundesstatistikgesetzes ... SR 431.01'; damit ist klar, dass Art. 10 Abs. 3 dieses Gesetzes (SR 431.01) gemeint ist."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_11",
+    "TARGET_SR": "SR 951.26",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "medium",
+    "reasoning": "Es wird auf das Covid-19-Solidarbürgschaftsgesetz (SR 951.26) als Ganzes Bezug genommen ('Bis zum Ausserkrafttreten des ... Gesetzes ... SR 951.26'), ohne einzelne Artikel zu nennen; daher allgemeine Verweisung."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": "SR 431.03",
+    "assigned_articles": [
+      "Art. 9 Abs. 1 Bst. a"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Formulierung 'Merkmale nach Artikel 9 Absatz 1 Buchstabe a' enthält keine externe SR-Angabe und bezieht sich syntaktisch auf einen Artikel desselben Gesetzes (SR 431.03); daher Selbstverweisung auf Art. 9 Abs. 1 Bst. a des eigenen Erlasses."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_8",
+    "TARGET_SR": "SR 431.01",
+    "assigned_articles": [
+      "Art. 10 Abs. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Snippet-Text 'nach Artikel 10 Absatz 3 des Bundesstatistikgesetzes vom 9. Oktober 1992' ist identisch mit dem Kontext von ITEM 3, wo derselbe Passus explizit mit SR 431.01 verknüpft ist; daher handelt es sich um Art. 10 Abs. 3 SR 431.01."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_9",
+    "TARGET_SR": "SR 431.03",
+    "assigned_articles": [
+      "Art. 5 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Wendung 'UID-Stellen nach Artikel 5 Absatz 2' enthält keine externe SR-Angabe und beschreibt interne Zuständigkeiten; dies ist eine Selbstverweisung auf Art. 5 Abs. 2 des gleichen Gesetzes (SR 431.03)."
+  },
+  {
+    "ITEM": 8,
+    "ARTICLE_EID": "art_17",
+    "TARGET_SR": "SR 431.03",
+    "assigned_articles": [
+      "Art. 5 Abs. 1",
+      "Art. 5 Abs. 2",
+      "Art. 9 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Satz verweist auf 'nach Artikel 5 Absatz 1 oder 2 zu verwenden' sowie 'UID-Daten nach Artikel 9 Absatz 1 dem BFS zu melden'; mangels externer SR-Angabe sind dies interne Verweise auf Art. 5 Abs. 1, Art. 5 Abs. 2 und Art. 9 Abs. 1 des gleichen Erlasses (SR 431.03)."
+  }
+]

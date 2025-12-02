@@ -1,0 +1,148 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 642.14",
+    "assigned_articles": [
+      "Art. 25abis Abs. 6"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet explicitly cites 'Artikel 25abis Absatz 6' of the Bundesgesetz SR 642.14; this is a direct prepositional attribution to StHG."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 642.14",
+    "assigned_articles": [
+      "Art. 25abis Abs. 2",
+      "Art. 25abis Abs. 3",
+      "Art. 25abis Abs. 3 Bst. e",
+      "Art. 28 Abs. 1",
+      "Art. 24b",
+      "Art. 24c"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet contains multiple explicit references to provisions of the StHG: 'Art. 25abis Abs. 2 und 3', 'Artikel 25abis Absatz 3 Buchstabe e', 'Artikel 28 Absatz 1', 'Artikel 24b', and 'Artikel 24c StHG'. All are clearly marked with the StHG acronym defined in the preamble."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": "SR 642.14",
+    "assigned_articles": [
+      "Art. 25abis Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Parenthetical reference '(Art. 25abis Abs. 2 StHG)' directly links this article to Art. 25abis Abs. 2 StHG."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": "SR 642.14",
+    "assigned_articles": [
+      "Art. 25abis Abs. 4 erster Satz"
+    ],
+    "confidence": "high",
+    "reasoning": "Parenthetical reference '(Art. 25abis Abs. 4 erster Satz StHG)' clearly attributes this provision to the first sentence of Art. 25abis Abs. 4 StHG."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": "SR 642.14",
+    "assigned_articles": [
+      "Art. 25abis Abs. 4 zweiter Satz"
+    ],
+    "confidence": "high",
+    "reasoning": "Parenthetical reference '(Art. 25abis Abs. 4 zweiter Satz StHG)' clearly attributes this provision to the second sentence of Art. 25abis Abs. 4 StHG."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": "SR 642.14",
+    "assigned_articles": [
+      "Art. 25abis Abs. 5"
+    ],
+    "confidence": "high",
+    "reasoning": "Parenthetical reference '(Art. 25abis Abs. 5 StHG)' directly links this article to Art. 25abis Abs. 5 StHG."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "self",
+    "assigned_articles": [
+      "Art. 25abis Abs. 3 Bst. e StHG"
+    ],
+    "confidence": "high",
+    "reasoning": "This is an artikel_reference item. The phrase 'nach Artikel 25abis Absatz 3 Buchstabe e StHG' clearly refers to Art. 25abis Abs. 3 lit. e of the StHG, but there is no SR link in this snippet; it is a cross-reference within the text, so it is treated as a self-contained reference rather than assigning to a TARGET_SR."
+  },
+  {
+    "ITEM": 8,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "self",
+    "assigned_articles": [
+      "Art. 25abis Abs. 3 Bst. e StHG"
+    ],
+    "confidence": "high",
+    "reasoning": "Again an artikel_reference. The wording mirrors item 7 and clearly points to Art. 25abis Abs. 3 lit. e StHG, but without an accompanying SR link; thus it is handled as an internal cross-reference."
+  },
+  {
+    "ITEM": 9,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "self",
+    "assigned_articles": [
+      "Art. 28 Abs. 1 StHG"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet 'Beteiligungen nach Artikel 28 Absatz 1 StHG' explicitly cites Art. 28 Abs. 1 StHG. As an artikel_reference item with no SR field, it is treated as an internal cross-reference rather than an outgoing SR assignment."
+  },
+  {
+    "ITEM": 10,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "self",
+    "assigned_articles": [
+      "Art. 24b StHG"
+    ],
+    "confidence": "high",
+    "reasoning": "The phrase 'die nach Artikel 24b StHG besteuert werden' clearly refers to Art. 24b StHG. No SR link is present in this snippet, so it is classified as a self-reference within the document context."
+  },
+  {
+    "ITEM": 11,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "self",
+    "assigned_articles": [
+      "Art. 24b StHG"
+    ],
+    "confidence": "high",
+    "reasoning": "The negative formulation 'die nicht nach Artikel 24b StHG besteuert werden' still clearly references Art. 24b StHG. As with item 10, this is an internal article cross-reference."
+  },
+  {
+    "ITEM": 12,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": "self",
+    "assigned_articles": [
+      "Art. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet refers to 'Eigenkapitalunterlegungssätzen nach Artikel 1'. No external SR is mentioned; this is a classic internal reference to Article 1 of the same ordinance."
+  },
+  {
+    "ITEM": 13,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": "self",
+    "assigned_articles": [
+      "Art. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "The text again mentions 'Eigenkapitalunterlegungssatz nach Artikel 1' without any SR context, indicating an internal cross-reference to Article 1 of the current document."
+  },
+  {
+    "ITEM": 14,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": "self",
+    "assigned_articles": [
+      "Art. 2 Abs. 4",
+      "Art. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet explicitly cites 'nach Anwendung von Artikel 2 Absatz 4' and 'nach Artikel 1 gewichtet'. Both are internal references to provisions of the same ordinance, with no SR link present."
+  }
+]

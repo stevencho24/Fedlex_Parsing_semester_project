@@ -1,0 +1,162 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 412.10",
+    "assigned_articles": [
+      "Art. 19"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Formulierung \"gestützt auf Artikel 19 des Berufsbildungsgesetzes ... SR 412.10 (BBG)\" verknüpft eindeutig Art. 19 mit SR 412.10."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 412.101",
+    "assigned_articles": [
+      "Art. 12"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Formulierung \"auf Artikel 12 der Berufsbildungsverordnung ... SR 412.101 (BBV)\" verknüpft eindeutig Art. 12 mit SR 412.101."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": "SR 412.101.241",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Norm verweist allgemein auf die Verordnung SR 412.101.241 über Mindestvorschriften für die Allgemeinbildung, ohne bestimmte Artikel zu nennen."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_18",
+    "TARGET_SR": "SR 412.101.241",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "Auch hier wird die Verordnung SR 412.101.241 als Ganzes als Prüfungsgrundlage genannt; keine spezifischen Artikel werden erwähnt."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": "SR 412.10",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "medium",
+    "reasoning": "SBFI ist im Preambel als mit SR 412.10 verknüpftes Akronym definiert; im Satz wird aber nur die SBFI-Verordnung SR 412.101.241 konkretisiert. Es wird kein bestimmter Artikel des BBG genannt, daher allgemeiner Verweis."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_16",
+    "TARGET_SR": "SR 412.10",
+    "assigned_articles": [
+      "Art. 33"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Satz lautet \"... Qualifikationsverfahren nach Artikel 33 BBG\"; BBG ist SR 412.10, somit klarer Bezug auf Art. 33 SR 412.10."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_16",
+    "TARGET_SR": "SR 412.10",
+    "assigned_articles": [
+      "Art. 33"
+    ],
+    "confidence": "high",
+    "reasoning": "Gleicher Satz wie bei ITEM 6, hier mit Akronym BBG; auch hier eindeutiger Bezug auf Art. 33 BBG = SR 412.10."
+  },
+  {
+    "ITEM": 8,
+    "ARTICLE_EID": "art_16",
+    "TARGET_SR": "SR 412.101",
+    "assigned_articles": [
+      "Art. 32"
+    ],
+    "confidence": "high",
+    "reasoning": "Formulierung \"Sie hat die erforderliche Erfahrung nach Artikel 32 BBV erworben\"; BBV ist SR 412.101, somit klar Art. 32 SR 412.101."
+  },
+  {
+    "ITEM": 9,
+    "ARTICLE_EID": "art_18",
+    "TARGET_SR": "SR 412.10",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "medium",
+    "reasoning": "SBFI ist über den Preambel mit SR 412.10 verknüpft, im Text geht es aber um eine SBFI-Verordnung (SR 412.101.241). Kein bestimmter Artikel des BBG wird genannt; daher allgemeiner Verweis, semantisch eher schwach."
+  },
+  {
+    "ITEM": 10,
+    "ARTICLE_EID": "art_20",
+    "TARGET_SR": "SR 412.101",
+    "assigned_articles": [
+      "Art. 33"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Satz \"Die Wiederholung des Qualifikationsverfahrens richtet sich nach Artikel 33 BBV\" verweist eindeutig auf Art. 33 der BBV = SR 412.101."
+  },
+  {
+    "ITEM": 11,
+    "ARTICLE_EID": "art_22",
+    "TARGET_SR": "SR 412.10",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "medium",
+    "reasoning": "SBFI ist als Akronym für ein in SR 412.10 geregeltes Bundesamt definiert; im Satz wird aber nur die Behörde genannt, ohne konkrete Artikelangabe im BBG. Daher nur allgemeiner, impliziter Dokumentverweis."
+  },
+  {
+    "ITEM": 12,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "Verweis \"(Art. 9)\" ohne SR- oder Akronymbezug; dies ist ein innerer Verweis auf Art. 9 derselben Verordnung."
+  },
+  {
+    "ITEM": 13,
+    "ARTICLE_EID": "art_16",
+    "TARGET_SR": "SR 412.101",
+    "assigned_articles": [
+      "Art. 32"
+    ],
+    "confidence": "high",
+    "reasoning": "Text: \"Sie hat die erforderliche Erfahrung nach Artikel 32 BBV erworben.\" BBV ist SR 412.101; derselbe Bezug wurde bereits bei ITEM 8 festgestellt."
+  },
+  {
+    "ITEM": 14,
+    "ARTICLE_EID": "art_17",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "Formulierung \"Handlungskompetenzen nach Artikel 4\" ohne SR- oder Akronymangabe; klarer Selbstverweis auf Art. 4 der gleichen Verordnung."
+  },
+  {
+    "ITEM": 15,
+    "ARTICLE_EID": "art_22",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "Verweise auf \"Artikel 14 Absatz 3\" und \"Artikel 15 Absatz 3\" ohne externen SR-Kontext; dies sind interne Artikel derselben Verordnung."
+  },
+  {
+    "ITEM": 16,
+    "ARTICLE_EID": "art_24",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Klammer \"(Art. 16 bis 21)\" bezeichnet einen Artikelbereich innerhalb derselben Verordnung; kein externer SR-Bezug vorhanden."
+  }
+]

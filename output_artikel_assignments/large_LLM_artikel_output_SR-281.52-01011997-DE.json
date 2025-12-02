@@ -1,0 +1,191 @@
+[
+  {
+    "Item": 1,
+    "TARGET_SR": "SR 220",
+    "assigned_articles": ["Art. 873 Abs. 4"],
+    "confidence": "high",
+    "reasoning": "Snippet explicitly cites 'Artikel 873 Absatz 4 des Obligationenrechts (OR) SR 220'; this article is grammatically linked to SR 220."
+  },
+  {
+    "Item": 2,
+    "TARGET_SR": "SR 281.1",
+    "assigned_articles": ["Art. 230 Abs. 1"],
+    "confidence": "high",
+    "reasoning": "Snippet: 'Artikel 230 Absatz 1 des Schuldbetreibungs- und Konkursgesetzes (SchKG) SR 281.1'; direct marking ties Art. 230 Abs. 1 to SR 281.1."
+  },
+  {
+    "Item": 3,
+    "TARGET_SR": "SR 281.1",
+    "assigned_articles": ["Art. 260"],
+    "confidence": "high",
+    "reasoning": "Snippet: 'Artikel 260 SchKG SR 281.1'; article and SR are directly connected."
+  },
+  {
+    "Item": 4,
+    "TARGET_SR": "SR 281.1",
+    "assigned_articles": ["Art. 260"],
+    "confidence": "high",
+    "reasoning": "Snippet: 'Abtretung ... im Sinne von Artikel 260 SchKG SR 281.1'; clear direct reference."
+  },
+  {
+    "Item": 5,
+    "TARGET_SR": "SR 281.1",
+    "assigned_articles": ["Art. 250"],
+    "confidence": "high",
+    "reasoning": "Snippet: 'durch Klage gemäss Artikel 250 SchKG SR 281.1'; explicit link."
+  },
+  {
+    "Item": 6,
+    "TARGET_SR": "SR 281.1",
+    "assigned_articles": [],
+    "confidence": "medium",
+    "reasoning": "Snippet only says 'die Bestimmungen des SchKG SR 281.1' without any article number; this is a general reference to the statute, and no specific article can be assigned."
+  },
+  {
+    "Item": 7,
+    "TARGET_SR": "SR 173.110",
+    "assigned_articles": [],
+    "confidence": "medium",
+    "reasoning": "Snippet: 'die Bestimmungen ... des Bundesrechtspflegegesetzes SR 173.110' with no article cited; treated as a general reference to the whole act."
+  },
+  {
+    "Item": 8,
+    "TARGET_SR": "SR 281.1",
+    "assigned_articles": ["Art. 80", "Art. 81 Abs. 1"],
+    "confidence": "high",
+    "reasoning": "Snippet mentions 'Artikel 80 SchKG SR 281.1' and 'Artikel 81 Absatz 1 SchKG'; both are clearly tied to SR 281.1."
+  },
+  {
+    "Item": 9,
+    "TARGET_SR": "SR 281.1",
+    "assigned_articles": ["Art. 263"],
+    "confidence": "high",
+    "reasoning": "Snippet: '(Art. 263 SchKG SR 281.1)'; direct parenthetical citation."
+  },
+  {
+    "Item": 10,
+    "TARGET_SR": "SR 281.1",
+    "assigned_articles": ["Art. 251", "Art. 251 Abs. 3", "Art. 251 Abs. 2"],
+    "confidence": "high",
+    "reasoning": "Snippet contains '(Art. 251 SchKG SR 281.1)', '(Art. 251 Abs. 3 SchKG)' and 'Artikel 251 Absatz 2 SchKG'; all are references to the same SR 281.1."
+  },
+  {
+    "Item": 11,
+    "TARGET_SR": "SR 281.1",
+    "assigned_articles": ["Art. 269 Abs. 1–2", "Art. 260", "Art. 269 Abs. 3"],
+    "confidence": "high",
+    "reasoning": "Snippet: 'Artikel 269 Absätze 1 und 2 SchKG SR 281.1', 'Artikel 260 SchKG', and later '(Art. 269 Abs. 3 SchKG)'; all clearly belong to SR 281.1."
+  },
+  {
+    "Item": 12,
+    "TARGET_SR": "SR 220",
+    "assigned_articles": ["Art. 869–871"],
+    "confidence": "high",
+    "reasoning": "Snippet: '(Art. 869–871 OR)' with OR defined as SR 220; this is a direct range reference within SR 220."
+  },
+  {
+    "Item": 13,
+    "TARGET_SR": "SR 220",
+    "assigned_articles": ["Art. 876"],
+    "confidence": "high",
+    "reasoning": "Snippet: 'Artikel 876 OR'; OR is mapped to SR 220 in the preamble."
+  },
+  {
+    "Item": 14,
+    "TARGET_SR": "SR 220",
+    "assigned_articles": ["Art. 876"],
+    "confidence": "high",
+    "reasoning": "Snippet: 'gemäss Artikel 876 OR'; explicit article reference to OR/SR 220."
+  },
+  {
+    "Item": 15,
+    "TARGET_SR": "SR 220",
+    "assigned_articles": ["Art. 874 Abs. 3"],
+    "confidence": "high",
+    "reasoning": "Snippet: 'gemäss Artikel 874 Absatz 3 OR'; clearly tied to SR 220."
+  },
+  {
+    "Item": 16,
+    "TARGET_SR": "SR 220",
+    "assigned_articles": ["Art. 876"],
+    "confidence": "high",
+    "reasoning": "Snippet: 'gemäss Artikel 876 OR haftbar ...'; again a direct reference to Art. 876 OR in SR 220."
+  },
+  {
+    "Item": 17,
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Artikel_reference item: 'Artikel 230 Absatz 1 des Schuldbetreibungs- und Konkursgesetzes (SchKG)'; this article is already assigned to SR 281.1 in Item 2. Here it functions as an external citation, not a new SR link, so no separate SR link output is created."
+  },
+  {
+    "Item": 18,
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Artikel_reference: 'Artikel 230 Absatz 2 SchKG'; refers to another paragraph of the same external article (SR 281.1) but there is no SR link in this item itself. Treated as an internal cross-reference within the current document’s context."
+  },
+  {
+    "Item": 19,
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Artikel_reference: 'Artikel 19 Absatz 2 hiernach'; clearly a self-reference within the same ordinance, not tied to an external SR."
+  },
+  {
+    "Item": 20,
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Artikel_reference: 'Artikel 15 hiernach'; internal reference to another article of the same document."
+  },
+  {
+    "Item": 21,
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Artikel_reference: 'Artikel 11 Absatz 2 hiervor' and '(Art. 12)'; both are internal cross-references within the same act."
+  },
+  {
+    "Item": 22,
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Artikel_reference: '(Art. 21)'; self-reference to another article of the current ordinance."
+  },
+  {
+    "Item": 23,
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Artikel_reference: 'nach Massgabe der Artikel 18 und 19 weiterzuführen'; internal references to articles 18 and 19 of the same document."
+  },
+  {
+    "Item": 24,
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Artikel_reference: 'Die Artikel 11–16 finden ... Anwendung'; this is an internal range reference within the same ordinance."
+  },
+  {
+    "Item": 25,
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Artikel_reference: '(Art. 19)'; internal reference to article 19 of the same document."
+  },
+  {
+    "Item": 26,
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Artikel_reference: 'Die Artikel 11–16 sind ... anwendbar'; again an internal range reference, no external SR involved."
+  },
+  {
+    "Item": 27,
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Artikel_reference: 'nach Artikel 17' and 'Artikel 19 sinngemäss'; both are self-references within the same ordinance, not tied to an external SR."
+  }
+]

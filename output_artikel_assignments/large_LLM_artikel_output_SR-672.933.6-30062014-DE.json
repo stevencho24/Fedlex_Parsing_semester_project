@@ -1,0 +1,202 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 101",
+    "assigned_articles": [
+      "Art. 173 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Formulierung «gestützt auf Artikel 173 Absatz 2 der Bundesverfassung SR 101» verknüpft den genannten Artikel syntaktisch direkt mit SR 101."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 0.672.933.63",
+    "assigned_articles": "General reference - entire document",
+    "confidence": "high",
+    "reasoning": "Im Zusammenhang mit SR 0.672.933.63 («Abkommen vom 14. Februar 2013 …») wird kein bestimmter Artikel genannt; es handelt sich um eine allgemeine Bezugnahme auf das Abkommen."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_13",
+    "TARGET_SR": "SR 0.672.933.61",
+    "assigned_articles": [
+      "Art. 26"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Satz verweist ausdrücklich auf «Artikel 26 des Abkommens … SR 0.672.933.61»; damit ist Art. 26 dieses Abkommens eindeutig zugeordnet."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_14",
+    "TARGET_SR": "SR 952.0",
+    "assigned_articles": [
+      "Art. 37l Abs. 4"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Wendung «nach Artikel 37l Absatz 4 des Bankengesetzes … SR 952.0» verknüpft Art. 37l Abs. 4 klar mit SR 952.0."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_18",
+    "TARGET_SR": "SR 313.0",
+    "assigned_articles": [
+      "Art. 6"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Text steht «nach Artikel 6 des Bundesgesetzes … SR 313.0 über das Verwaltungsstrafrecht (VStrR)»; Art. 6 VStrR gehört damit eindeutig zu SR 313.0."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_21",
+    "TARGET_SR": "SR 313.0",
+    "assigned_articles": "General reference - entire document",
+    "confidence": "high",
+    "reasoning": "Die Formulierung «Bei Straftaten nach diesem Gesetz ist das VStrR SR 313.0 anwendbar» nennt keinen bestimmten Artikel des VStrR; es wird das Gesetz als Ganzes für anwendbar erklärt."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "«Artikel 2 Absatz 1 des FATCA-Abkommens» bezieht sich auf das im selben Gesetz mehrfach genannte FATCA-Abkommen (SR 0.672.933.63), aber in diesem artikel_reference-Eintrag ist kein SR explizit verknüpft; nach den Regeln ist dies als Selbstverweisung bzw. externe Referenz ohne TARGET_SR zu behandeln."
+  },
+  {
+    "ITEM": 8,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "«Artikel 2 Absatz 2 oder 3» wird ohne Nennung eines SR-Dokuments erwähnt; syntaktisch kein expliziter Bezug zu einem TARGET_SR, daher Selbst- bzw. externe Referenz ohne Zuordnung."
+  },
+  {
+    "ITEM": 9,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "«Artikel 3 Absatz 1 Buchstabe a des FATCA-Abkommens» nennt keinen SR-Link im Snippet; nach Vorgabe sind artikel_reference-Einträge ohne expliziten SR-Bezug als interne/externe Referenzen ohne TARGET_SR-Zuordnung zu behandeln."
+  },
+  {
+    "ITEM": 10,
+    "ARTICLE_EID": "art_8",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Verweis auf «Artikel 3 Absatz 1 Buchstabe b des FATCA-Abkommens» ohne explizite SR-Nennung; daher keine Zuordnung zu einem TARGET_SR."
+  },
+  {
+    "ITEM": 11,
+    "ARTICLE_EID": "art_9",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Verweis auf «Artikel 3 Absatz 1 Buchstabe c des FATCA-Abkommens» ohne SR-Link im Snippet; bleibt eine Referenz ohne TARGET_SR."
+  },
+  {
+    "ITEM": 12,
+    "ARTICLE_EID": "art_10",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "«Artikel 3 Absatz 2 des FATCA-Abkommens» wird ohne explizite SR-Angabe erwähnt; kein TARGET_SR zuzuordnen."
+  },
+  {
+    "ITEM": 13,
+    "ARTICLE_EID": "art_11",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Verweis auf «Artikel 10 Absatz 1 … oder Absatz 2 …» innerhalb desselben Gesetzes; reine Selbstreferenz ohne SR-Dokument."
+  },
+  {
+    "ITEM": 14,
+    "ARTICLE_EID": "art_12",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "«Artikel 5 Absatz 3 Buchstabe b des FATCA-Abkommens» ohne expliziten SR-Link; nach den Regeln keine Zuordnung zu einem TARGET_SR."
+  },
+  {
+    "ITEM": 15,
+    "ARTICLE_EID": "art_13",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "«Artikel 26 des Abkommens vom 2. Oktober 1996 …» ist hier als artikel_reference erfasst, während ITEM 3 denselben Bezug bereits mit TARGET_SR (SR 0.672.933.61) abdeckt; dieser Eintrag gilt daher als bereits abgedeckte externe Referenz ohne eigene SR-Zuordnung."
+  },
+  {
+    "ITEM": 16,
+    "ARTICLE_EID": "art_14",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "«Artikel 37l Absatz 4 des Bankengesetzes …» ist in ITEM 4 bereits mit TARGET_SR SR 952.0 verknüpft; dieser artikel_reference-Eintrag stellt keine zusätzliche SR-Zuordnung dar."
+  },
+  {
+    "ITEM": 17,
+    "ARTICLE_EID": "art_16",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Verweis auf «Artikel 7 Absatz 2 des FATCA-Abkommens» ohne expliziten SR-Link; bleibt eine externe Referenz ohne TARGET_SR."
+  },
+  {
+    "ITEM": 18,
+    "ARTICLE_EID": "art_17",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Auch hier «Artikel 7 Absatz 2 des FATCA-Abkommens» ohne SR-Nennung; keine Zuordnung zu einem TARGET_SR."
+  },
+  {
+    "ITEM": 19,
+    "ARTICLE_EID": "art_18",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "«Artikel 4» bezieht sich offensichtlich auf einen Artikel desselben Gesetzes; reine Selbstreferenz ohne SR-Dokument."
+  },
+  {
+    "ITEM": 20,
+    "ARTICLE_EID": "art_18",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "«Artikel 5» ist ein interner Artikel dieses Gesetzes; keine Verknüpfung mit einem SR-Link."
+  },
+  {
+    "ITEM": 21,
+    "ARTICLE_EID": "art_18",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "«Artikel 7» ist ebenfalls ein Artikel desselben Gesetzes; Selbstreferenz ohne TARGET_SR."
+  },
+  {
+    "ITEM": 22,
+    "ARTICLE_EID": "art_18",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "«den Artikeln 8–10» bezeichnet einen internen Artikelsbereich des vorliegenden Gesetzes; kein SR-Dokument genannt."
+  },
+  {
+    "ITEM": 23,
+    "ARTICLE_EID": "art_18",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "«Artikel 16» ist ein weiterer interner Artikel; keine syntaktische oder semantische Verknüpfung mit einem SR-Link."
+  },
+  {
+    "ITEM": 24,
+    "ARTICLE_EID": "art_18",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Dieser artikel_reference-Eintrag wiederholt den in ITEM 5 bereits mit SR 313.0 verknüpften Verweis auf «Artikel 6 … VStrR»; als artikel_reference bleibt er ohne eigene TARGET_SR-Zuordnung."
+  }
+]

@@ -1,0 +1,615 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 916.151",
+    "assigned_articles": [
+      "Art. 4 Abs. 1",
+      "Art. 4 Abs. 2",
+      "Art. 5 Abs. 2",
+      "Art. 5 Abs. 3",
+      "Art. 10 Abs. 3",
+      "Art. 10 Abs. 5",
+      "Art. 11 Abs. 1bis",
+      "Art. 11 Abs. 2",
+      "Art. 11 Abs. 3",
+      "Art. 12 Abs. 3",
+      "Art. 12 Abs. 4",
+      "Art. 13",
+      "Art. 14 Abs. 1bis",
+      "Art. 14 Abs. 2",
+      "Art. 14 Abs. 3",
+      "Art. 14 Abs. 5",
+      "Art. 15 Abs. 3",
+      "Art. 15 Abs. 4",
+      "Art. 16",
+      "Art. 17 Abs. 2",
+      "Art. 17 Abs. 6",
+      "Art. 21 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Formulierung «gestützt auf die Artikel ... der Vermehrungsmaterial-Verordnung ... SR 916.151» verknüpft alle aufgezählten Artikel und Absätze syntaktisch eindeutig mit der genannten Verordnung."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_23",
+    "TARGET_SR": "SR 916.201",
+    "assigned_articles": [
+      "Art. 4",
+      "Art. 5"
+    ],
+    "confidence": "high",
+    "reasoning": "«die Anforderungen nach den Artikeln 4 und 5 der Verordnung ... SR 916.201»; Präposition und Genitivergänzung binden die Artikel klar an SR 916.201."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_24",
+    "TARGET_SR": "SR 916.201",
+    "assigned_articles": [
+      "Art. 4",
+      "Art. 5"
+    ],
+    "confidence": "high",
+    "reasoning": "«nach den Artikeln 4 und 5 PGesV-WBF-UVEK SR 916.201»; Artikelangabe steht direkt beim Akronym und der SR-Nummer, daher eindeutige Zuordnung."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_32",
+    "TARGET_SR": "SR 916.151",
+    "assigned_articles": [
+      "Art. 5 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "«Artikel 5 Absatz 1 der Saatgutverordnung ... SR 916.151»; direkter syntaktischer Bezug von Artikel und SR."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_39",
+    "TARGET_SR": "SR 916.201",
+    "assigned_articles": [
+      "Art. 4",
+      "Art. 5"
+    ],
+    "confidence": "high",
+    "reasoning": "Gleiche Struktur wie ITEM 3: «nach den Artikeln 4 und 5 PGesV-WBF-UVEK SR 916.201»."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_39_a",
+    "TARGET_SR": "SR 916.201",
+    "assigned_articles": [
+      "Art. 4",
+      "Art. 5"
+    ],
+    "confidence": "high",
+    "reasoning": "Wortlaut identisch mit ITEM 3/5; Artikel 4 und 5 werden explizit mit PGesV-WBF-UVEK SR 916.201 verbunden."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_23",
+    "TARGET_SR": "SR 916.151",
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Der Ausschnitt nennt nur «Verordnung des WBF und des UVEK ... PGesV-WBF-UVEK»; dies bezieht sich auf SR 916.201, nicht auf SR 916.151. Die Zuordnung zu SR 916.151 erfolgt nur über das Preambel-Akronym WBF ohne Artikelangabe; daher keine konkreten Artikel zu SR 916.151."
+  },
+  {
+    "ITEM": 8,
+    "ARTICLE_EID": "art_24",
+    "TARGET_SR": "SR 916.151",
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "«nach den Artikeln 4 und 5 PGesV-WBF-UVEK» verweist auf die PGesV-WBF-UVEK (SR 916.201). Es gibt keinen syntaktischen Bezug dieser Artikel zu SR 916.151; daher keine Artikelzuweisung."
+  },
+  {
+    "ITEM": 9,
+    "ARTICLE_EID": "art_39",
+    "TARGET_SR": "SR 916.151",
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Wie bei ITEM 8: die genannten Artikel 4 und 5 gehören zur PGesV-WBF-UVEK (SR 916.201), nicht zur Saatgutverordnung SR 916.151."
+  },
+  {
+    "ITEM": 10,
+    "ARTICLE_EID": "art_39_a",
+    "TARGET_SR": "SR 916.151",
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Gleicher Kontext wie ITEM 8/9; die Artikelangaben sind eindeutig der PGesV-WBF-UVEK (SR 916.201) zugeordnet, nicht SR 916.151."
+  },
+  {
+    "ITEM": 11,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 13"
+    ],
+    "confidence": "high",
+    "reasoning": "«Sortenkatalog nach Artikel 13» ist eine interne Verweisung innerhalb derselben Verordnung; kein externer SR-Bezug."
+  },
+  {
+    "ITEM": 12,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": "SR 916.151",
+    "assigned_articles": [
+      "Art. 24 Abs. 6"
+    ],
+    "confidence": "medium",
+    "reasoning": "«vorbehaltlich der Bestimmungen nach Artikel 24 Absatz 6» ohne Akronym; im Kontext der Verordnung ist dies eine Selbstverweisung auf Art. 24 derselben Saatgutverordnung (SR 916.151)."
+  },
+  {
+    "ITEM": 13,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": "SR 916.151",
+    "assigned_articles": [
+      "Art. 24 Abs. 6"
+    ],
+    "confidence": "medium",
+    "reasoning": "Gleiche Formulierung wie ITEM 12; interne Verweisung auf Art. 24 Abs. 6 derselben Verordnung."
+  },
+  {
+    "ITEM": 14,
+    "ARTICLE_EID": "art_15",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 14"
+    ],
+    "confidence": "high",
+    "reasoning": "«In Abweichung von den Bestimmungen nach Artikel 14» ohne Nennung eines anderen Erlasses; dies ist eine interne Artikelverweisung."
+  },
+  {
+    "ITEM": 15,
+    "ARTICLE_EID": "art_15",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 17"
+    ],
+    "confidence": "high",
+    "reasoning": "«Eine Prüfung nach Artikel 17» bezieht sich auf einen Artikel derselben Verordnung; kein externer SR genannt."
+  },
+  {
+    "ITEM": 16,
+    "ARTICLE_EID": "art_15",
+    "TARGET_SR": "SR 916.151",
+    "assigned_articles": [
+      "Art. 5 Abs. 1 Bst. a",
+      "Art. 5 Abs. 1 Bst. b"
+    ],
+    "confidence": "high",
+    "reasoning": "«Artikel 5 Absatz 1 Buchstaben a und b der Saatgut-Verordnung vom 7. Dezember 1998» bezeichnet ausdrücklich die Saatgutverordnung SR 916.151."
+  },
+  {
+    "ITEM": 17,
+    "ARTICLE_EID": "art_16",
+    "TARGET_SR": "SR 916.151",
+    "assigned_articles": [
+      "Art. 5 Abs. 1 Bst. d"
+    ],
+    "confidence": "high",
+    "reasoning": "«Artikel 5 Absatz 1 Buchstabe d der Saatgut-Verordnung vom 7. Dezember 1998» verweist klar auf SR 916.151."
+  },
+  {
+    "ITEM": 18,
+    "ARTICLE_EID": "art_20",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 13"
+    ],
+    "confidence": "high",
+    "reasoning": "«Sortenkatalog nach Artikel 13» ist eine interne Verweisung; kein anderer Erlass genannt."
+  },
+  {
+    "ITEM": 19,
+    "ARTICLE_EID": "art_20",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 3",
+      "Art. 4",
+      "Art. 5",
+      "Art. 7",
+      "Art. 8",
+      "Art. 9"
+    ],
+    "confidence": "high",
+    "reasoning": "«Vermehrungssaatgut gemäss den Regeln nach den Artikeln 3–5 oder ... nach den Artikeln 7–9»; dies sind Artikel derselben Verordnung."
+  },
+  {
+    "ITEM": 20,
+    "ARTICLE_EID": "art_24",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 20 Bst. f"
+    ],
+    "confidence": "high",
+    "reasoning": "«von Artikel 20 Buchstabe f» ohne Nennung eines anderen Erlasses; interne Verweisung."
+  },
+  {
+    "ITEM": 21,
+    "ARTICLE_EID": "art_26",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 23",
+      "Art. 24",
+      "Art. 27",
+      "Art. 27a",
+      "Art. 28",
+      "Art. 39",
+      "Art. 42"
+    ],
+    "confidence": "high",
+    "reasoning": "Aufzählung «für die in den Artikeln 23, 24, 27, 27a, 28, 39 und 42 vorgesehenen Aufgaben» bezieht sich auf Artikel derselben Verordnung."
+  },
+  {
+    "ITEM": 22,
+    "ARTICLE_EID": "art_26",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 23"
+    ],
+    "confidence": "high",
+    "reasoning": "«für die in Artikel 23 vorgesehenen Aufgaben» ist eine interne Verweisung."
+  },
+  {
+    "ITEM": 23,
+    "ARTICLE_EID": "art_27",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 45"
+    ],
+    "confidence": "high",
+    "reasoning": "«bei den Arten nach Artikel 45»; kein externer Erlass, daher Selbstverweisung."
+  },
+  {
+    "ITEM": 24,
+    "ARTICLE_EID": "art_27",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 13",
+      "Art. 30"
+    ],
+    "confidence": "high",
+    "reasoning": "«Sortenkatalog nach Artikel 13» und «Kandidatensorte nach Artikel 30»; beide Artikel gehören zur gleichen Verordnung."
+  },
+  {
+    "ITEM": 25,
+    "ARTICLE_EID": "art_27",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 29"
+    ],
+    "confidence": "high",
+    "reasoning": "«Nischensorte nach Artikel 29»; interne Verweisung."
+  },
+  {
+    "ITEM": 26,
+    "ARTICLE_EID": "art_27",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 27a",
+      "Art. 27b"
+    ],
+    "confidence": "high",
+    "reasoning": "«gemäss den Anforderungen nach den Artikeln 27a und 27b»; beide Artikel sind Teile derselben Verordnung."
+  },
+  {
+    "ITEM": 27,
+    "ARTICLE_EID": "art_27",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 28"
+    ],
+    "confidence": "high",
+    "reasoning": "«mit einer Etikette nach Artikel 28»; interne Verweisung."
+  },
+  {
+    "ITEM": 28,
+    "ARTICLE_EID": "art_27",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 20"
+    ],
+    "confidence": "high",
+    "reasoning": "«das den Anforderungen nach Artikel 20 nicht entspricht»; kein anderer Erlass genannt, daher Selbstverweisung."
+  },
+  {
+    "ITEM": 29,
+    "ARTICLE_EID": "art_27",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 20"
+    ],
+    "confidence": "high",
+    "reasoning": "Gleiche Struktur wie ITEM 28; interne Verweisung auf Art. 20."
+  },
+  {
+    "ITEM": 30,
+    "ARTICLE_EID": "art_27",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 20"
+    ],
+    "confidence": "high",
+    "reasoning": "«In Abweichung von den Bestimmungen nach Artikel 20» ohne Erlassangabe; Selbstverweisung."
+  },
+  {
+    "ITEM": 31,
+    "ARTICLE_EID": "art_28",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 30"
+    ],
+    "confidence": "high",
+    "reasoning": "«Kandidatensorte nach Artikel 30»; interner Bezug."
+  },
+  {
+    "ITEM": 32,
+    "ARTICLE_EID": "art_28",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 22a"
+    ],
+    "confidence": "high",
+    "reasoning": "«Identifikationsnummer ... nach Artikel 22a»; interne Verweisung."
+  },
+  {
+    "ITEM": 33,
+    "ARTICLE_EID": "art_29",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 28"
+    ],
+    "confidence": "high",
+    "reasoning": "«deren Farbe nicht einer der Farben nach Artikel 28 entspricht»; Selbstverweisung."
+  },
+  {
+    "ITEM": 34,
+    "ARTICLE_EID": "art_31",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 22"
+    ],
+    "confidence": "high",
+    "reasoning": "«Vermehrungsorganisationen nach Artikel 22»; interner Artikelbezug."
+  },
+  {
+    "ITEM": 35,
+    "ARTICLE_EID": "art_32",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 13"
+    ],
+    "confidence": "high",
+    "reasoning": "«Sortenkatalog nach Artikel 13»; interne Verweisung."
+  },
+  {
+    "ITEM": 36,
+    "ARTICLE_EID": "art_32",
+    "TARGET_SR": "SR 916.151",
+    "assigned_articles": [
+      "Art. 5 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "«Artikel 5 Absatz 1 der Saatgutverordnung vom 7. Dezember 1998»; klarer Bezug zu SR 916.151."
+  },
+  {
+    "ITEM": 37,
+    "ARTICLE_EID": "art_32",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 16 Abs. 2 Bst. a"
+    ],
+    "confidence": "high",
+    "reasoning": "«nach Artikel 16 Absatz 2 Buchstabe a»; interne Verweisung."
+  },
+  {
+    "ITEM": 38,
+    "ARTICLE_EID": "art_32",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 33"
+    ],
+    "confidence": "high",
+    "reasoning": "«in einem nach Artikel 33 anerkannten Versuchsnetz»; interner Artikelbezug."
+  },
+  {
+    "ITEM": 39,
+    "ARTICLE_EID": "art_34",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 22 Abs. 1 Bst. a",
+      "Art. 22 Abs. 1 Bst. b"
+    ],
+    "confidence": "high",
+    "reasoning": "«Bedingungen nach Artikel 22 Absatz 1 Buchstaben a und b»; interne Verweisung."
+  },
+  {
+    "ITEM": 40,
+    "ARTICLE_EID": "art_35",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 27 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "«In Abweichung von Artikel 27 Absatz 1»; Selbstverweisung."
+  },
+  {
+    "ITEM": 41,
+    "ARTICLE_EID": "art_36",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 32 Abs. 3",
+      "Art. 32 Abs. 3bis"
+    ],
+    "confidence": "high",
+    "reasoning": "«Die Artikel 32 Absätze 3 und 3bis gelten auch für Kartoffeln.»; interne Verweisung."
+  },
+  {
+    "ITEM": 42,
+    "ARTICLE_EID": "art_38",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 8"
+    ],
+    "confidence": "high",
+    "reasoning": "«Klasse nach Artikel 8»; interner Bezug."
+  },
+  {
+    "ITEM": 43,
+    "ARTICLE_EID": "art_38",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 27a"
+    ],
+    "confidence": "high",
+    "reasoning": "«Verpackungen nach Artikel 27a»; interne Verweisung."
+  },
+  {
+    "ITEM": 44,
+    "ARTICLE_EID": "art_39",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 24"
+    ],
+    "confidence": "high",
+    "reasoning": "«In Abweichung von den Bestimmungen nach Artikel 24»; kein anderer Erlass, daher Selbstverweisung."
+  },
+  {
+    "ITEM": 45,
+    "ARTICLE_EID": "art_39_a",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 24"
+    ],
+    "confidence": "high",
+    "reasoning": "Gleiche Struktur wie ITEM 44; interne Verweisung auf Art. 24."
+  },
+  {
+    "ITEM": 46,
+    "ARTICLE_EID": "art_39_a",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 20"
+    ],
+    "confidence": "high",
+    "reasoning": "«nach Artikel 20 erfüllen»; interner Artikelbezug."
+  },
+  {
+    "ITEM": 47,
+    "ARTICLE_EID": "art_40",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 7",
+      "Art. 8",
+      "Art. 9"
+    ],
+    "confidence": "high",
+    "reasoning": "«mit den in den Artikeln 7–9 festgelegten Klassen»; interne Verweisung auf einen Artikelsbereich."
+  },
+  {
+    "ITEM": 48,
+    "ARTICLE_EID": "art_40_a",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 32 Abs. 3",
+      "Art. 32 Abs. 3bis"
+    ],
+    "confidence": "high",
+    "reasoning": "«gilt ... Artikel 32 Absätze 3 und 3bis»; interne Verweisung."
+  },
+  {
+    "ITEM": 49,
+    "ARTICLE_EID": "art_41",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 22 Abs. 1 Bst. a",
+      "Art. 22 Abs. 1 Bst. b"
+    ],
+    "confidence": "high",
+    "reasoning": "Wortlaut wie ITEM 39; interne Verweisung auf Art. 22 Abs. 1 Buchst. a und b."
+  },
+  {
+    "ITEM": 50,
+    "ARTICLE_EID": "art_42",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 20",
+      "Art. 21",
+      "Art. 22",
+      "Art. 23",
+      "Art. 24"
+    ],
+    "confidence": "high",
+    "reasoning": "«In Abweichung von den Artikeln 20–24»; Bereichsverweisung innerhalb derselben Verordnung."
+  },
+  {
+    "ITEM": 51,
+    "ARTICLE_EID": "art_44",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 27a"
+    ],
+    "confidence": "high",
+    "reasoning": "«gilt Artikel 27a»; interne Verweisung."
+  },
+  {
+    "ITEM": 52,
+    "ARTICLE_EID": "art_44",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 28 Abs. 1",
+      "Art. 28 Abs. 4",
+      "Art. 28 Abs. 5"
+    ],
+    "confidence": "high",
+    "reasoning": "«gilt Artikel 28 Absätze 1, 4 und 5»; interne Verweisung."
+  },
+  {
+    "ITEM": 53,
+    "ARTICLE_EID": "art_45",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 27 Abs. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "«In Abweichung von Artikel 27 Absatz 3»; Selbstverweisung."
+  },
+  {
+    "ITEM": 54,
+    "ARTICLE_EID": "art_45",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 22"
+    ],
+    "confidence": "high",
+    "reasoning": "«Vermehrungsorganisationen nach Artikel 22»; interne Verweisung."
+  },
+  {
+    "ITEM": 55,
+    "ARTICLE_EID": "art_45",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 22a"
+    ],
+    "confidence": "high",
+    "reasoning": "«Aufbereitungsorganisationen nach Artikel 22a»; interner Artikelbezug."
+  },
+  {
+    "ITEM": 56,
+    "ARTICLE_EID": "art_46",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 29"
+    ],
+    "confidence": "high",
+    "reasoning": "«Sorten nach Artikel 29»; interne Verweisung."
+  },
+  {
+    "ITEM": 57,
+    "ARTICLE_EID": "art_47",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 16 Abs. 2 Bst. a"
+    ],
+    "confidence": "high",
+    "reasoning": "«nach Artikel 16 Absatz 2 Buchstabe a»; interner Artikelbezug."
+  }
+]

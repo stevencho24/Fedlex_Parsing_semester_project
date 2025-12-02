@@ -1,0 +1,52 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 831.201",
+    "assigned_articles": [
+      "Art. 98 Abs. 1 Bst. a"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Formulierung \"gestützt auf Artikel 98 Absatz 1 Buchstabe a der Verordnung ... SR 831.201\" verknüpft den genannten Artikel syntaktisch eindeutig mit der zitierten Verordnung SR 831.201."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 831.20",
+    "assigned_articles": [
+      "Art. 68quater"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Satz \"... nach Artikel 68quater des Bundesgesetzes ... SR 831.20 über die Invalidenversicherung (IVG)\" wird Art. 68quater ausdrücklich als Artikel dieses Bundesgesetzes (SR 831.20) bezeichnet."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": "SR 831.20",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "medium",
+    "reasoning": "Der Ausschnitt spricht allgemein von \"Bestimmungen des IVG SR 831.20\" ohne konkrete Artikelangabe; dies ist eine generelle Bezugnahme auf das Gesetz als Ganzes."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": "SR 831.20",
+    "assigned_articles": [
+      "Art. 68quater Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Passage \"Verlängerung nach Artikel 68quater Absatz 2 IVG SR 831.20\" ordnet Art. 68quater Abs. 2 eindeutig dem IVG (SR 831.20) zu."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Referenz \"Artikel 68quater\" erfolgt ohne explizite SR-Nennung im snippet und beschreibt den Geltungsbereich der vorliegenden Verordnung; dies ist eine Selbstreferenzstruktur im Sinne der Regeln und wird nicht einem externen TARGET_SR zugeordnet."
+  }
+]

@@ -1,0 +1,167 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 941.210",
+    "assigned_articles": [
+      "Art. 5 Abs. 2",
+      "Art. 8 Abs. 2",
+      "Art. 11 Abs. 2",
+      "Art. 24 Abs. 3",
+      "Art. 33"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Präambel nennt ausdrücklich: 'Artikel 5 Absatz 2, 8 Absatz 2, 11 Absatz 2, 24 Absatz 3 und 33 der Messmittelverordnung ... SR 941.210'. Alle genannten Artikel sind direkt mit der Messmittelverordnung (SR 941.210) verknüpft."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_9",
+    "TARGET_SR": "SR 946.512",
+    "assigned_articles": [
+      "Art. 25"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Satz: '... Voraussetzungen nach Artikel 25 der Akkreditierungs- und Bezeichnungsverordnung ... SR 946.512 (AkkBV) ...' steht 'Artikel 25' unmittelbar vor der Benennung und SR-Nummer der AkkBV; damit ist Art. 25 der SR 946.512 eindeutig gemeint."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_20",
+    "TARGET_SR": "SR 941.20",
+    "assigned_articles": [
+      "Art. 20",
+      "Art. 21",
+      "Art. 22",
+      "Art. 23",
+      "Art. 24"
+    ],
+    "confidence": "high",
+    "reasoning": "Formulierung: '... gemäss den Strafbestimmungen der Artikel 20–24 des Messgesetzes vom 17. Juni 2011 SR 941.20 ...'. Der Artikelsbereich 20–24 wird explizit dem Messgesetz (SR 941.20) zugeordnet; daher sind Art. 20 bis 24 dieser SR betroffen."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_20",
+    "TARGET_SR": "SR 946.51",
+    "assigned_articles": [
+      "Art. 23",
+      "Art. 24",
+      "Art. 25",
+      "Art. 26",
+      "Art. 27",
+      "Art. 28",
+      "Art. 29",
+      "Art. 30"
+    ],
+    "confidence": "high",
+    "reasoning": "Text: '... der Artikel 23–30 des Bundesgesetzes vom 6. Oktober 1995 SR 946.51 über die technischen Handelshemmnisse ...'. Der Bereich 23–30 wird direkt mit dem Bundesgesetz über die technischen Handelshemmnisse (SR 946.51) verbunden; somit sind Art. 23 bis 30 dieser SR gemeint."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_20",
+    "TARGET_SR": "SR 311.0",
+    "assigned_articles": [
+      "Art. 248"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Satz: '... und von Artikel 248 des Strafgesetzbuches SR 311.0 sanktioniert.' wird 'Artikel 248' unmittelbar mit dem Strafgesetzbuch (SR 311.0) verknüpft; daher ist Art. 248 StGB (SR 311.0) eindeutig adressiert."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_21",
+    "TARGET_SR": "SR 941.298.1",
+    "assigned_articles": "General reference - entire document",
+    "confidence": "medium",
+    "reasoning": "Formulierung: '... erhebt die Kontrollbehörde eine Gebühr nach Zeitaufwand nach der Eichgebührenverordnung vom 23. November 2005 SR 941.298.1.' Es wird keine bestimmte Artikelnummer der Eichgebührenverordnung genannt; die Verweisung betrifft die Gebührenordnung insgesamt. Mangels konkreter Artikelangabe ist von einer generellen Verweisung auf die Verordnung auszugehen."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_18",
+    "TARGET_SR": "SR 941.210",
+    "assigned_articles": [
+      "Anhang 7 Ziff. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "Satz: '... müssen nach Anhang 7 Ziffer 1 der Messmittelverordnung vom 15. Februar 2006 ... nachgeeicht werden.' Der Bezug 'Anhang 7 Ziffer 1' ist ausdrücklich der Messmittelverordnung (SR 941.210) zugeordnet; es handelt sich um eine Anhangsbestimmung, nicht um einen Artikel, wird aber als konkrete Normstelle dieser SR referenziert."
+  },
+  {
+    "ITEM": 8,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Wendung '... die nicht für die in Artikel 2 genannten Verwendungen eingesetzt werden ...' enthält keine SR- oder Gesetzesbezeichnung und bezieht sich damit auf den Artikel 2 derselben Verordnung (interne Selbstverweisung)."
+  },
+  {
+    "ITEM": 9,
+    "ARTICLE_EID": "art_9",
+    "TARGET_SR": "SR 946.512",
+    "assigned_articles": [
+      "Art. 25"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Text entspricht inhaltlich dem SR_link_detection-Item 2: '... Voraussetzungen nach Artikel 25 der Akkreditierungs- und Bezeichnungsverordnung ... (AkkBV)'. Die AkkBV ist SR 946.512; Art. 25 dieser SR ist klar adressiert. Obwohl dieses Item als artikel_reference klassifiziert ist, verweist es materiell auf eine externe SR, nicht auf einen internen Artikel."
+  },
+  {
+    "ITEM": 10,
+    "ARTICLE_EID": "art_10",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 8"
+    ],
+    "confidence": "high",
+    "reasoning": "Formulierung: '... und die Konformitätsbewertungsverfahren nach Artikel 8 durchgeführt worden sind.' Es wird keine SR genannt; daher handelt es sich um eine Verweisung auf Art. 8 derselben Verordnung (interne Selbstverweisung)."
+  },
+  {
+    "ITEM": 11,
+    "ARTICLE_EID": "art_14",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 8"
+    ],
+    "confidence": "high",
+    "reasoning": "Text: '... die keinem Konformitätsbewertungsverfahren nach Artikel 8 unterzogen wurden ...'. Ohne Nennung eines Gesetzes oder einer SR-Nummer ist dies eine interne Verweisung auf Art. 8 der vorliegenden Verordnung."
+  },
+  {
+    "ITEM": 12,
+    "ARTICLE_EID": "art_18",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 7 Abs. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "Satz: 'Einrichtungen nach Artikel 7 Absatz 3 unterstehen der Nacheichung nicht ...'. Es wird kein externes Gesetz genannt; daher ist dies eine Selbstverweisung auf Art. 7 Abs. 3 derselben Verordnung."
+  },
+  {
+    "ITEM": 13,
+    "ARTICLE_EID": "art_19",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Formulierung: '... die für die Zwecke von Artikel 2 Buchstaben a und c verwendet werden ...'. Ohne SR- oder Gesetzesangabe ist klar, dass auf Art. 2 derselben Verordnung Bezug genommen wird (interne Strukturverweisung)."
+  },
+  {
+    "ITEM": 14,
+    "ARTICLE_EID": "art_20",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 20–24 SR 941.20",
+      "Art. 23–30 SR 946.51",
+      "Art. 248 SR 311.0"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Satz verweist kumulativ auf drei externe Rechtsquellen: 'Artikel 20–24 des Messgesetzes ... (SR 941.20)', 'Artikel 23–30 des Bundesgesetzes ... über die technischen Handelshemmnisse (SR 946.51)' und 'Artikel 248 des Strafgesetzbuches (SR 311.0)'. Als artikel_reference-Item ohne eigenes TARGET_SR bildet es die Sammelstelle dieser externen Verweise; interne Artikel der eigenen Verordnung werden nicht genannt."
+  },
+  {
+    "ITEM": 15,
+    "ARTICLE_EID": "art_22_b",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 18 Abs. 2 Bst. b Ziff. 8"
+    ],
+    "confidence": "high",
+    "reasoning": "Text: 'Für Waagen nach Artikel 18 Absatz 2 Buchstabe b Ziffer 8 ...' enthält keine SR- oder Gesetzesbezeichnung; damit ist eine interne Verweisung auf Art. 18 Abs. 2 lit. b Ziff. 8 derselben Verordnung gemeint."
+  }
+]

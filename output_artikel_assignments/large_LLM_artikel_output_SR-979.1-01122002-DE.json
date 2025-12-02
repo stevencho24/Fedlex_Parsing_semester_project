@@ -1,0 +1,52 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 101",
+    "assigned_articles": [
+      "Art. 54 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet explicitly states: 'Dieser Zuständigkeitsumschreibung entspricht Art. 54 Abs. 1 der BV ... (SR 101)'; the article is directly and uniquely linked to SR 101."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 101",
+    "assigned_articles": [
+      "Art. 99"
+    ],
+    "confidence": "high",
+    "reasoning": "The authorial note says: 'Der genannten Bestimmung entspricht heute Art. 99 der BV vom 18. April 1999 (SR 101).'; this directly attributes Art. 99 to SR 101."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": "SR 974.0",
+    "assigned_articles": [
+      "Art. 9"
+    ],
+    "confidence": "high",
+    "reasoning": "The sentence specifies: '... richtet sich nach Artikel 9 des Bundesgesetzes ... SR 974.0 ...'; 'Artikel 9' is syntactically and semantically tied to SR 974.0."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": "SR 0.979.1",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "medium",
+    "reasoning": "The snippet only states that the present act enters into force together with the treaties 'SR 0.979.1/.4' and does not mention any specific article numbers; this is a general reference to the treaty collection rather than to particular provisions."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "This is an artikel_reference item without any SR mentioned; 'Artikel 9' here mirrors the reference in ITEM 3 but, per rules, artikel_reference without SR is treated as a self-reference within the current document, not as an outgoing SR link."
+  }
+]

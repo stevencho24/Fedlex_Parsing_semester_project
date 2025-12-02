@@ -1,0 +1,31 @@
+[
+  {
+    "Item": 1,
+    "SOURCE_ARTICLE_EID": "preamble",
+    "LINKED_SR": "SR 631.0",
+    "ASSIGNED_ARTIKEL": [
+      "Art. 28 Abs. 2",
+      "Art. 90"
+    ],
+    "ASSIGNMENT_CONFIDENCE": "high",
+    "ASSIGNMENT_REASONING": "Die Formulierung «gestützt auf Artikel 28 Absatz 2 in Verbindung mit Artikel 90 des Zollgesetzes … SR 631.0» verknüpft beide Artikel grammatikalisch eindeutig mit dem Zollgesetz (SR 631.0); daher gehören Art. 28 Abs. 2 und Art. 90 zu SR 631.0."
+  },
+  {
+    "Item": 2,
+    "SOURCE_ARTICLE_EID": "art_1",
+    "LINKED_SR": "SR 641.811",
+    "ASSIGNED_ARTIKEL": [
+      "Art. 93"
+    ],
+    "ASSIGNMENT_CONFIDENCE": "high",
+    "ASSIGNMENT_REASONING": "Im Satz «… über das Portal nach Artikel 93 der Schwerverkehrsabgabeverordnung … SR 641.811» folgt die SR-Angabe direkt auf die Bezeichnung der Verordnung; «Artikel 93» ist damit syntaktisch klar dieser Verordnung (SR 641.811) zugeordnet."
+  },
+  {
+    "Item": 3,
+    "SOURCE_ARTICLE_EID": "art_1",
+    "LINKED_SR": null,
+    "ASSIGNED_ARTIKEL": [],
+    "ASSIGNMENT_CONFIDENCE": "high",
+    "ASSIGNMENT_REASONING": "Dies ist ein artikel_reference-Eintrag ohne TARGET_SR; der zitierte «Artikel 93» bezieht sich auf dieselbe Schwerverkehrsabgabeverordnung wie in Item 2 und ist dort bereits SR 641.811 zugeordnet. Hier liegt lediglich eine Wiederholung derselben Bezugnahme im Fliesstext vor, keine zusätzliche SR-Verknüpfung."
+  }
+]

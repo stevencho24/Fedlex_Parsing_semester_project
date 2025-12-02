@@ -1,0 +1,52 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 171.10",
+    "assigned_articles": [
+      "Art. 60"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet explicitly cites 'Artikel 60 des Parlamentsgesetzes ... SR 171.10'; the article number is directly and uniquely linked to the cited SR."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet refers to 'Artikel 4' and 'Artikel 5' without mentioning any SR or external act; these are clearly articles of the same ordinance, i.e., self-references, not links to another SR."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "The references to 'Artikeln 2 Buchstaben b–f, 2a und 4' lack any SR or act designation and occur in ordinary regulatory language, so they are internal cross-references within the same document."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_9",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "The mention of 'Delegationen nach Artikel 1' is an internal structural reference to another article of the same ordinance; no external SR or act is cited."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_9",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "The reference to 'ständigen Delegationen nach Artikel 4' is an internal cross-reference; there is no syntactic or semantic link to any external SR document."
+  }
+]

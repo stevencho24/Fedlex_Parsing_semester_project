@@ -1,0 +1,490 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 101",
+    "assigned_articles": ["Art. 123"],
+    "confidence": "high",
+    "reasoning": "Die Formulierung «gestützt auf Artikel 123 der Bundesverfassung SR 101» verknüpft eindeutig Art. 123 BV mit SR 101."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 311.0",
+    "assigned_articles": "General reference - entire document",
+    "confidence": "high",
+    "reasoning": "Es wird nur das Strafgesetzbuch (StGB) als Ganzes erwähnt, ohne konkrete Artikelangabe."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": "SR 311.0",
+    "assigned_articles": "General reference - entire document",
+    "confidence": "high",
+    "reasoning": "«nur das StGB SR 311.0 anwendbar» bezieht sich generell auf das StGB, ohne einzelne Artikel zu nennen."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": "SR 312.0",
+    "assigned_articles": "General reference - entire document",
+    "confidence": "high",
+    "reasoning": "«die Strafprozessordnung SR 312.0» wird als Ganzes genannt; keine Artikelangabe im Kontext."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_13",
+    "TARGET_SR": "SR 210",
+    "assigned_articles": ["Art. 323 Abs. 1"],
+    "confidence": "high",
+    "reasoning": "Explizite Formulierung «in Abweichung von Artikel 323 Absatz 1 des Zivilgesetzbuches (ZGB) SR 210»."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_15",
+    "TARGET_SR": "SR 311.0",
+    "assigned_articles": ["Art. 112"],
+    "confidence": "high",
+    "reasoning": "«aufgrund eines Mordes (Art. 112 StGB SR 311.0)» verknüpft klar Art. 112 mit SR 311.0."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_16",
+    "TARGET_SR": "SR 210",
+    "assigned_articles": ["Art. 273 ff."],
+    "confidence": "high",
+    "reasoning": "«nach den Artikeln 273 ff. ZGB SR 210»; die ff.-Angabe verweist auf Art. 273 und folgende im ZGB."
+  },
+  {
+    "ITEM": 8,
+    "ARTICLE_EID": "art_16",
+    "TARGET_SR": "SR 311.0",
+    "assigned_articles": ["Art. 61"],
+    "confidence": "high",
+    "reasoning": "«Einrichtung für junge Erwachsene (Art. 61 StGB SR 311.0)» ist eine eindeutige Artikelangabe."
+  },
+  {
+    "ITEM": 9,
+    "ARTICLE_EID": "art_19",
+    "TARGET_SR": "SR 311.0",
+    "assigned_articles": ["Art. 112", "Art. 91a"],
+    "confidence": "high",
+    "reasoning": "Im Kontext werden «Mord (Art. 112 StGB)» und «nach Artikel 91a StGB» genannt; beide gehören zum StGB SR 311.0."
+  },
+  {
+    "ITEM": 10,
+    "ARTICLE_EID": "art_19_a",
+    "TARGET_SR": "SR 311.0",
+    "assigned_articles": "General reference - entire document",
+    "confidence": "medium",
+    "reasoning": "Es heisst nur «eine Massnahme nach dem StGB SR 311.0» ohne konkrete Artikel; der Bezug ist allgemein."
+  },
+  {
+    "ITEM": 11,
+    "ARTICLE_EID": "art_19_b",
+    "TARGET_SR": "SR 311.0",
+    "assigned_articles": ["Art. 67 Abs. 2", "Art. 67b Abs. 1", "Art. 67 Abs. 2bis", "Art. 67b Abs. 5", "Art. 67d Abs. 1"],
+    "confidence": "high",
+    "reasoning": "Der Text nennt ausdrücklich «Artikel 67 Absatz 2 oder 67b Absatz 1 StGB» sowie «Artikel 67 Absatz 2bis und 67b Absatz 5 StGB» und «Artikel 67d Absatz 1 StGB»."
+  },
+  {
+    "ITEM": 12,
+    "ARTICLE_EID": "art_19_c",
+    "TARGET_SR": "SR 311.0",
+    "assigned_articles": ["Art. 64 Abs. 1", "Art. 112", "Art. 56 Abs. 3–4", "Art. 91a"],
+    "confidence": "high",
+    "reasoning": "Im Snippet und den zugehörigen Zeilen werden «Artikel 64 Absatz 1 StGB», «Mord (Art. 112 StGB)», «Artikel 56 Absätze 3 und 4 StGB» und «Artikel 91a StGB» genannt."
+  },
+  {
+    "ITEM": 13,
+    "ARTICLE_EID": "art_25",
+    "TARGET_SR": "SR 311.0",
+    "assigned_articles": ["Art. 122", "Art. 140 Ziff. 3", "Art. 184"],
+    "confidence": "high",
+    "reasoning": "Formulierung «eine Tat nach den Artikeln 122, 140 Ziffer 3 oder Artikel 184 StGB SR 311.0» benennt diese Artikel explizit."
+  },
+  {
+    "ITEM": 14,
+    "ARTICLE_EID": "art_25_a",
+    "TARGET_SR": "SR 311.0",
+    "assigned_articles": ["Art. 64 Abs. 1", "Art. 112"],
+    "confidence": "high",
+    "reasoning": "Es wird «Verwahrung nach Artikel 64 Absatz 1 StGB SR 311.0» und «einen Mord (Art. 112 StGB)» erwähnt."
+  },
+  {
+    "ITEM": 15,
+    "ARTICLE_EID": "art_27",
+    "TARGET_SR": "SR 311.0",
+    "assigned_articles": ["Art. 77b"],
+    "confidence": "high",
+    "reasoning": "«Halbgefangenschaft (Art. 77b StGB SR 311.0)» ist eine klare Artikelreferenz."
+  },
+  {
+    "ITEM": 16,
+    "ARTICLE_EID": "art_27_a",
+    "TARGET_SR": "SR 311.0",
+    "assigned_articles": ["Art. 64 Abs. 1", "Art. 112", "Art. 56 Abs. 3–4", "Art. 91a"],
+    "confidence": "high",
+    "reasoning": "Der Kontext nennt «Verwahrung nach Artikel 64 Absatz 1 StGB», «Mord (Art. 112 StGB)», «Artikel 56 Absätze 3 und 4 StGB» und «Artikel 91a StGB»."
+  },
+  {
+    "ITEM": 17,
+    "ARTICLE_EID": "art_31",
+    "TARGET_SR": "SR 311.0",
+    "assigned_articles": ["Art. 89"],
+    "confidence": "high",
+    "reasoning": "«bezüglich des Widerrufs Artikel 89 StGB SR 311.0» verweist eindeutig auf Art. 89 StGB."
+  },
+  {
+    "ITEM": 18,
+    "ARTICLE_EID": "art_32",
+    "TARGET_SR": "SR 311.0",
+    "assigned_articles": ["Art. 112"],
+    "confidence": "high",
+    "reasoning": "«aufgrund eines Mordes (Art. 112 StGB SR 311.0)» nennt Art. 112 ausdrücklich."
+  },
+  {
+    "ITEM": 19,
+    "ARTICLE_EID": "art_36",
+    "TARGET_SR": "SR 311.0",
+    "assigned_articles": ["Art. 111–113", "Art. 122", "Art. 124", "Art. 182", "Art. 189–191", "Art. 193", "Art. 193a", "Art. 195", "Art. 197 Abs. 3"],
+    "confidence": "high",
+    "reasoning": "Der Satz nennt explizit «Artikeln 111–113, 122, 124, 182, 189–191, 193, 193a, 195 und 197 Absatz 3 StGB SR 311.0»."
+  },
+  {
+    "ITEM": 20,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 311.0",
+    "assigned_articles": ["Art. 1–33", "Art. 20"],
+    "confidence": "high",
+    "reasoning": "Art. 1 JStG zählt anwendbare Bestimmungen des StGB auf; lit. a nennt «die Artikel 1–33 … mit Ausnahme von Artikel 20» des StGB."
+  },
+  {
+    "ITEM": 21,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 311.0",
+    "assigned_articles": ["Art. 47", "Art. 48", "Art. 51"],
+    "confidence": "high",
+    "reasoning": "Lit. b: «die Artikel 47, 48 und 51 (Strafzumessung)» bezieht sich auf StGB-Artikel."
+  },
+  {
+    "ITEM": 22,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 311.0",
+    "assigned_articles": ["Art. 56 Abs. 2", "Art. 56 Abs. 5", "Art. 56 Abs. 6", "Art. 56a"],
+    "confidence": "high",
+    "reasoning": "Lit. c: «Artikel 56 Absätze 2, 5 und 6 sowie Artikel 56a (Grundsätze bei Massnahmen)» sind StGB-Bestimmungen."
+  },
+  {
+    "ITEM": 23,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 311.0",
+    "assigned_articles": ["Art. 69–73"],
+    "confidence": "high",
+    "reasoning": "Lit. d: «die Artikel 69–73 (Einziehung …)»; dies sind StGB-Artikel."
+  },
+  {
+    "ITEM": 24,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 311.0",
+    "assigned_articles": ["Art. 74"],
+    "confidence": "high",
+    "reasoning": "Lit. e: «Artikel 74 (Vollzugsgrundsätze)» des StGB."
+  },
+  {
+    "ITEM": 25,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 311.0",
+    "assigned_articles": ["Art. 83"],
+    "confidence": "high",
+    "reasoning": "Lit. f: «Artikel 83 (Arbeitsentgelt)» des StGB."
+  },
+  {
+    "ITEM": 26,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 311.0",
+    "assigned_articles": ["Art. 84"],
+    "confidence": "high",
+    "reasoning": "Lit. g: «Artikel 84 (Beziehungen zur Aussenwelt)» des StGB."
+  },
+  {
+    "ITEM": 27,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 311.0",
+    "assigned_articles": ["Art. 85"],
+    "confidence": "high",
+    "reasoning": "Lit. h: «Artikel 85 (Kontrollen und Untersuchungen)» des StGB."
+  },
+  {
+    "ITEM": 28,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 311.0",
+    "assigned_articles": ["Art. 92"],
+    "confidence": "high",
+    "reasoning": "Lit. i: «Artikel 92 (Unterbrechung des Vollzuges)» des StGB."
+  },
+  {
+    "ITEM": 29,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 311.0",
+    "assigned_articles": ["Art. 92a"],
+    "confidence": "high",
+    "reasoning": "Lit. ibis: «Artikel 92a (Informationsrecht)» des StGB."
+  },
+  {
+    "ITEM": 30,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 311.0",
+    "assigned_articles": ["Art. 98", "Art. 99 Abs. 2", "Art. 100", "Art. 101 Abs. 1 Bst. a–d", "Art. 101 Abs. 2", "Art. 101 Abs. 3"],
+    "confidence": "high",
+    "reasoning": "Lit. j: «die Artikel 98, 99 Absatz 2, 100 sowie 101 Absätze 1 Buchstaben a–d, 2 und 3 (Verjährung)» des StGB."
+  },
+  {
+    "ITEM": 31,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 311.0",
+    "assigned_articles": ["Art. 103", "Art. 104", "Art. 105 Abs. 2"],
+    "confidence": "high",
+    "reasoning": "Lit. k: «die Artikel 103, 104 und 105 Absatz 2 (Übertretungen)» des StGB."
+  },
+  {
+    "ITEM": 32,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 311.0",
+    "assigned_articles": ["Art. 110"],
+    "confidence": "high",
+    "reasoning": "Lit. l: «Artikel 110 (Begriffe)» des StGB."
+  },
+  {
+    "ITEM": 33,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 311.0",
+    "assigned_articles": ["Art. 111–332"],
+    "confidence": "high",
+    "reasoning": "Lit. m: «die Artikel 111–332 (Zweites Buch: Besondere Bestimmungen)» des StGB."
+  },
+  {
+    "ITEM": 34,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 311.0",
+    "assigned_articles": ["Art. 333–392", "Art. 380", "Art. 387 Abs. 1 Bst. d", "Art. 387 Abs. 2", "Art. 388 Abs. 3"],
+    "confidence": "high",
+    "reasoning": "Lit. n: «die Artikel 333–392 … mit Ausnahme der Artikel 380, 387 Absatz 1 Buchstabe d und 2 und 388 Absatz 3»; alle im StGB."
+  },
+  {
+    "ITEM": 35,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 311.1",
+    "assigned_articles": ["Art. 2"],
+    "confidence": "high",
+    "reasoning": "«Grundsätze nach Artikel 2» bezieht sich auf Art. 2 des Jugendstrafgesetzes selbst (SR 311.1), also eine Selbstreferenz."
+  },
+  {
+    "ITEM": 36,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": "SR 311.1",
+    "assigned_articles": ["Art. 12–15"],
+    "confidence": "high",
+    "reasoning": "«Schutzmassnahmen nach den Artikeln 12–15» meint die im selben Gesetz geregelten Schutzmassnahmen; keine externe SR-Nennung."
+  },
+  {
+    "ITEM": 37,
+    "ARTICLE_EID": "art_9",
+    "TARGET_SR": "SR 311.1",
+    "assigned_articles": ["Art. 25a Abs. 1 Bst. a–c"],
+    "confidence": "high",
+    "reasoning": "«Voraussetzungen nach Artikel 25a Absatz 1 Buchstaben a–c» verweist auf eine Bestimmung desselben Gesetzes."
+  },
+  {
+    "ITEM": 38,
+    "ARTICLE_EID": "art_11",
+    "TARGET_SR": "SR 311.1",
+    "assigned_articles": ["Art. 21"],
+    "confidence": "high",
+    "reasoning": "«Artikel 21 über die Strafbefreiung» ist eine interne Norm des Jugendstrafgesetzes."
+  },
+  {
+    "ITEM": 39,
+    "ARTICLE_EID": "art_13",
+    "TARGET_SR": "SR 311.1",
+    "assigned_articles": ["Art. 12"],
+    "confidence": "high",
+    "reasoning": "«Genügt eine Aufsicht nach Artikel 12 nicht» bezieht sich auf die unmittelbar vorhergehende Schutzmassnahme im selben Gesetz."
+  },
+  {
+    "ITEM": 40,
+    "ARTICLE_EID": "art_15",
+    "TARGET_SR": "SR 311.1",
+    "assigned_articles": ["Art. 9 Abs. 3"],
+    "confidence": "high",
+    "reasoning": "«falls diese nicht bereits auf Grund von Artikel 9 Absatz 3 erstellt wurde» ist eine klare Selbstreferenz."
+  },
+  {
+    "ITEM": 41,
+    "ARTICLE_EID": "art_20",
+    "TARGET_SR": "SR 311.1",
+    "assigned_articles": ["Art. 10", "Art. 12–19"],
+    "confidence": "high",
+    "reasoning": "«Schutzmassnahmen nach den Artikeln 10 und 12–19» sind interne Bestimmungen des Jugendstrafgesetzes."
+  },
+  {
+    "ITEM": 42,
+    "ARTICLE_EID": "art_21",
+    "TARGET_SR": "SR 311.1",
+    "assigned_articles": ["Art. 22"],
+    "confidence": "high",
+    "reasoning": "«nur ein Verweis nach Artikel 22 in Betracht kommt» verweist auf die unmittelbar folgende Strafart im selben Gesetz."
+  },
+  {
+    "ITEM": 43,
+    "ARTICLE_EID": "art_25_a",
+    "TARGET_SR": "SR 311.1",
+    "assigned_articles": ["Art. 15"],
+    "confidence": "high",
+    "reasoning": "«keine Unterbringung nach Artikel 15 angeordnet wird» ist eine interne Bezugnahme."
+  },
+  {
+    "ITEM": 44,
+    "ARTICLE_EID": "art_27_a",
+    "TARGET_SR": "SR 311.1",
+    "assigned_articles": ["Art. 25a"],
+    "confidence": "high",
+    "reasoning": "«die Verwahrung gestützt auf Artikel 25a vorbehalten wurde» verweist auf Art. 25a desselben Gesetzes."
+  },
+  {
+    "ITEM": 45,
+    "ARTICLE_EID": "art_28",
+    "TARGET_SR": "SR 311.0",
+    "assigned_articles": ["Art. 91a"],
+    "confidence": "high",
+    "reasoning": "«Beurteilung der Fachkommission nach Artikel 91a StGB» ist eine explizite StGB-Referenz (SR 311.0)."
+  },
+  {
+    "ITEM": 46,
+    "ARTICLE_EID": "art_31",
+    "TARGET_SR": "SR 311.1",
+    "assigned_articles": ["Art. 34"],
+    "confidence": "high",
+    "reasoning": "«Gesamtstrafe im Sinne von Artikel 34» bezieht sich auf Art. 34 des Jugendstrafgesetzes; kein StGB im Satz genannt."
+  },
+  {
+    "ITEM": 47,
+    "ARTICLE_EID": "art_33",
+    "TARGET_SR": "SR 311.1",
+    "assigned_articles": ["Art. 23 Abs. 2"],
+    "confidence": "high",
+    "reasoning": "«Persönliche Leistung nach Artikel 23 Absatz 2» ist eine interne Bestimmung."
+  },
+  {
+    "ITEM": 48,
+    "ARTICLE_EID": "art_34",
+    "TARGET_SR": "SR 311.1",
+    "assigned_articles": ["Art. 33"],
+    "confidence": "high",
+    "reasoning": "«Strafen nach Artikel 33 verbinden» verweist auf die im selben Gesetz geregelte Strafart."
+  },
+  {
+    "ITEM": 49,
+    "ARTICLE_EID": "art_34",
+    "TARGET_SR": "SR 311.1",
+    "assigned_articles": ["Art. 23 Abs. 3", "Art. 24 Abs. 1", "Art. 25 Abs. 1", "Art. 25 Abs. 2"],
+    "confidence": "high",
+    "reasoning": "Die Klammerangaben «(Art. 23 Abs. 3)», «(Art. 24 Abs. 1)», «(Art. 25 Abs. 1 und 2)» beziehen sich auf Artikel des Jugendstrafgesetzes."
+  },
+  {
+    "ITEM": 50,
+    "ARTICLE_EID": "art_35",
+    "TARGET_SR": "SR 311.1",
+    "assigned_articles": ["Art. 29–31", "Art. 28–31"],
+    "confidence": "high",
+    "reasoning": "«Die Artikel 29–31 gelten …» und «so sind die Artikel 28–31 … nicht anwendbar» sind interne Verweisungen."
+  },
+  {
+    "ITEM": 51,
+    "ARTICLE_EID": "art_45",
+    "TARGET_SR": "SR 311.0",
+    "assigned_articles": ["Art. 84", "Art. 85", "Art. 87"],
+    "confidence": "high",
+    "reasoning": "«nach den bisherigen Artikeln 84, 85 oder 87 StGB» verweist auf frühere StGB-Bestimmungen."
+  },
+  {
+    "ITEM": 52,
+    "ARTICLE_EID": "art_46",
+    "TARGET_SR": "SR 311.0",
+    "assigned_articles": ["Art. 95 Ziff. 1 Abs. 1"],
+    "confidence": "high",
+    "reasoning": "«nach dem bisherigen Artikel 95 Ziffer 1 Absatz 1 StGB» ist eine eindeutige StGB-Referenz."
+  },
+  {
+    "ITEM": 53,
+    "ARTICLE_EID": "art_46",
+    "TARGET_SR": "SR 311.1",
+    "assigned_articles": ["Art. 26"],
+    "confidence": "high",
+    "reasoning": "«Artikel 26 über den Vollzug des Freiheitsentzugs …» bezieht sich auf Art. 26 des Jugendstrafgesetzes."
+  },
+  {
+    "ITEM": 54,
+    "ARTICLE_EID": "art_46",
+    "TARGET_SR": "SR 311.1",
+    "assigned_articles": ["Art. 27 Abs. 1"],
+    "confidence": "high",
+    "reasoning": "«Artikel 27 Absatz 1 über den Vollzug …» ist eine interne Norm."
+  },
+  {
+    "ITEM": 55,
+    "ARTICLE_EID": "art_46",
+    "TARGET_SR": "SR 311.1",
+    "assigned_articles": ["Art. 27 Abs. 5"],
+    "confidence": "high",
+    "reasoning": "«Artikel 27 Absatz 5 über die Ernennung …» verweist auf denselben Gesetzestext."
+  },
+  {
+    "ITEM": 56,
+    "ARTICLE_EID": "art_46",
+    "TARGET_SR": "SR 311.1",
+    "assigned_articles": ["Art. 28–31"],
+    "confidence": "high",
+    "reasoning": "«die Artikel 28–31 über die bedingte Entlassung» sind interne Bestimmungen."
+  },
+  {
+    "ITEM": 57,
+    "ARTICLE_EID": "art_46",
+    "TARGET_SR": "SR 311.0",
+    "assigned_articles": ["Art. 95 Ziff. 3 Abs. 1"],
+    "confidence": "high",
+    "reasoning": "«bisherige Artikel 95 Ziffer 3 Absatz 1 StGB» ist eine explizite StGB-Referenz."
+  },
+  {
+    "ITEM": 58,
+    "ARTICLE_EID": "art_47",
+    "TARGET_SR": "SR 311.1",
+    "assigned_articles": ["Art. 10", "Art. 12–20"],
+    "confidence": "high",
+    "reasoning": "«Schutzmassnahmen (Art. 10 und 12–20)» sind im Jugendstrafgesetz geregelt; kein externes SR genannt."
+  },
+  {
+    "ITEM": 59,
+    "ARTICLE_EID": "art_47",
+    "TARGET_SR": "SR 311.0",
+    "assigned_articles": ["Art. 85", "Art. 92"],
+    "confidence": "high",
+    "reasoning": "«Besondere Behandlungen im Sinne der bisherigen Artikel 85 und 92 StGB» verweist auf StGB-Bestimmungen."
+  },
+  {
+    "ITEM": 60,
+    "ARTICLE_EID": "art_48",
+    "TARGET_SR": "SR 311.1",
+    "assigned_articles": ["Art. 15", "Art. 27"],
+    "confidence": "high",
+    "reasoning": "«Unterbringung (Art. 15) und des Freiheitsentzugs (Art. 27)» sind interne Artikel."
+  },
+  {
+    "ITEM": 61,
+    "ARTICLE_EID": "art_48_a",
+    "TARGET_SR": "SR 311.1",
+    "assigned_articles": ["Art. 19 Abs. 2"],
+    "confidence": "high",
+    "reasoning": "«findet Artikel 19 Absatz 2 in der Fassung vom 19. Juni 2015 Anwendung» bezieht sich auf Art. 19 Abs. 2 desselben Gesetzes."
+  }
+]

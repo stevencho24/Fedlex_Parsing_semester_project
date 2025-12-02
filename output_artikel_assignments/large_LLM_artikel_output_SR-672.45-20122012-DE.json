@@ -1,0 +1,58 @@
+[
+  {
+    "Item": 1,
+    "source_article": "preamble",
+    "links": [
+      {
+        "TARGET_SR": "SR 672.4",
+        "assigned_articles": [
+          "Art. 24 Abs. 2"
+        ],
+        "confidence": "high",
+        "reasoning": "The snippet explicitly cites 'Artikel 24 Absatz 2 des Bundesgesetzes ... SR 672.4 über die internationale Quellenbesteuerung (IQG)'; this article clearly belongs to SR 672.4."
+      }
+    ]
+  },
+  {
+    "Item": 2,
+    "source_article": "art_1",
+    "links": [
+      {
+        "TARGET_SR": "SR 642.212",
+        "assigned_articles": [
+          "General reference - entire document"
+        ],
+        "confidence": "high",
+        "reasoning": "The text refers generally to 'die Verordnung vom 29. November 1996 SR 642.212 über die Verzinsung ausstehender Verrechnungssteuern' without mentioning any specific article; it is a blanket reference to the ordinance as a whole."
+      }
+    ]
+  },
+  {
+    "Item": 3,
+    "source_article": "art_1",
+    "links": [
+      {
+        "TARGET_SR": "SR 672.4",
+        "assigned_articles": [
+          "Art. 24 Abs. 1"
+        ],
+        "confidence": "high",
+        "reasoning": "The snippet states 'Der Verzugszins, der nach Artikel 24 Absatz 1 IQG ... geschuldet ist'; IQG is defined in the preamble as SR 672.4, so Art. 24 Abs. 1 clearly belongs to SR 672.4."
+      }
+    ]
+  },
+  {
+    "Item": 4,
+    "source_article": "art_2",
+    "links": [
+      {
+        "TARGET_SR": "SR 672.4",
+        "assigned_articles": [
+          "General reference - entire document"
+        ],
+        "confidence": "high",
+        "reasoning": "The sentence 'Diese Verordnung tritt zusammen mit dem IQG in Kraft.' refers to the IQG (SR 672.4) as a whole and does not specify any particular article; it is a general, document-level reference."
+      }
+    ]
+  }
+]

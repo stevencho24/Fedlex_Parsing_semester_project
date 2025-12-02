@@ -1,0 +1,103 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "art_10",
+    "TARGET_SR": "SR 832.20",
+    "assigned_articles": [
+      "Art. 82"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Satzteil lautet: \"In Fragen der Arbeitssicherheit im Sinne von Artikel 82 des Unfallversicherungsgesetzes ... SR 832.20\". Artikel 82 ist direkt mit dem Unfallversicherungsgesetz (SR 832.20) verknüpft; andere Artikel werden im Zusammenhang mit SR 832.20 nicht erwähnt."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_10",
+    "TARGET_SR": "SR 822.11",
+    "assigned_articles": [
+      "Art. 48"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Satzteil lautet: \"... sowie in Fragen des Arbeitnehmerschutzes im Sinne von Artikel 48 des Arbeitsgesetzes ... SR 822.11\". Artikel 48 ist ausdrücklich dem Arbeitsgesetz (SR 822.11) zugeordnet; weitere Artikel des Arbeitsgesetzes werden nicht genannt."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_10",
+    "TARGET_SR": "SR 220",
+    "assigned_articles": [
+      "Art. 333",
+      "Art. 333a"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Text lautet: \"beim Übergang von Betrieben im Sinne der Artikel 333 und 333a des Obligationenrechts SR 220;\". Die Artikel 333 und 333a werden explizit dem Obligationenrecht (SR 220) zugeordnet."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Interne Verweisung innerhalb des Dokuments (Art. 3, 6, 9, 10, 12, 14 Abs. 2 Bst. b)"
+    ],
+    "confidence": "high",
+    "reasoning": "Es wird auf \"dieses Gesetz\" Bezug genommen und sodann auf \"die Artikeln 3, 6, 9, 10, 12 und 14 Absatz 2 Buchstabe b\" ohne Nennung eines anderen Erlasses oder einer SR-Nummer. Dies sind daher reine Selbstverweise innerhalb der vorliegenden Verordnung/Gesetzes."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Interne Verweisung innerhalb des Dokuments (Art. 9, 10)"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Formulierung \"nach den Artikeln 9 und 10\" erfolgt ohne Bezug auf einen anderen Erlass; es handelt sich um interne Artikel des gleichen Gesetzes."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_10",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Interne Verweisung innerhalb des Dokuments (Art. 82 UVG, Art. 48 ArG werden in separaten SR_link_detection-Items abgedeckt)"
+    ],
+    "confidence": "high",
+    "reasoning": "Dieses Item wiederholt den Wortlaut von ITEM 1/2, ist aber als artikel_reference ohne TARGET_SR erfasst. Die eigentlichen Zuordnungen zu SR 832.20 (Art. 82) und SR 822.11 (Art. 48) sind bereits in den SR_link_detection-Items 1 und 2 vorgenommen; hier liegt kein zusätzlicher externer Verweis vor, sondern nur der gleiche Satz ohne SR-Nummern."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_10",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Interne Verweisung innerhalb des Dokuments (Art. 333, 333a OR werden in separatem SR_link_detection-Item abgedeckt)"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Text entspricht inhaltlich ITEM 3, jedoch ohne explizite SR-Nummer und als artikel_reference. Die externe Zuordnung zu SR 220 mit Art. 333 und 333a erfolgt bereits in ITEM 3; hier handelt es sich um denselben Satz als internen Verweis ohne zusätzliche SR-Zuordnung."
+  },
+  {
+    "ITEM": 8,
+    "ARTICLE_EID": "art_10",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Interne Verweisung innerhalb des Dokuments (Art. 335d–335g OR; externer Bezug zu SR 220 ist hier nicht explizit mit SR-Nummer verknüpft)"
+    ],
+    "confidence": "medium",
+    "reasoning": "Der Text lautet: \"bei Massenentlassungen im Sinne der Artikel 335d–335g des Obligationenrechts;\". Zwar ist klar, dass es sich materiell um das OR (SR 220) handelt, aber in diesem Item fehlt eine explizite SR-Nummer und es ist als artikel_reference (Selbstverweis-Typ) klassifiziert. Nach den Vorgaben sollen ohne explizite SR-Verknüpfung solche Stellen primär als interne Strukturverweise behandelt werden."
+  },
+  {
+    "ITEM": 9,
+    "ARTICLE_EID": "art_14",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Interne Verweisung innerhalb des Dokuments (Art. 4)"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Formulierung \"gestützt auf Artikel 4\" verweist ohne Nennung eines anderen Erlasses auf einen Artikel desselben Gesetzes."
+  },
+  {
+    "ITEM": 10,
+    "ARTICLE_EID": "art_14",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Interne Verweisung innerhalb des Dokuments (Art. 8)"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Wendung \"nach Artikel 8\" enthält keine SR-Nummer oder anderen Erlassnamen; sie verweist auf einen Artikel innerhalb desselben Gesetzes."
+  }
+]

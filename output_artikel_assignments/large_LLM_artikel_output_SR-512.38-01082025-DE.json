@@ -1,0 +1,79 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 415.0",
+    "assigned_articles": [
+      "Art. 16 Abs. 2 Bst. c",
+      "Art. 30 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Formulierung \"gestützt auf die Artikel 16 Absatz 2 Buchstabe c und 30 Absatz 1 des Sportförderungsgesetzes ... SR 415.0\" verknüpft beide Artikel syntaktisch eindeutig mit dem Sportförderungsgesetz (SR 415.0)."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 510.10",
+    "assigned_articles": [
+      "Art. 41 Abs. 3",
+      "Art. 48a Abs. 3",
+      "Art. 51 Abs. 4",
+      "Art. 62 Abs. 3",
+      "Art. 150 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Passage \"und auf die Artikel 41 Absatz 3, 48a Absatz 3, 51 Absatz 4, 62 Absatz 3 und 150 Absatz 1 des Militärgesetzes ... SR 510.10\" ordnet alle genannten Artikel klar dem Militärgesetz (SR 510.10) zu."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_26",
+    "TARGET_SR": "SR 833.1",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Satz verweist allgemein auf das Bundesgesetz über die Militärversicherung (SR 833.1), ohne einzelne Artikel zu nennen; es handelt sich um eine generelle Rechtsgrundlagenverweisung."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_16",
+    "TARGET_SR": "SR 512.38",
+    "assigned_articles": [
+      "Art. 15",
+      "Art. 17"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Wendung \"freiwillige Kurse nach den Artikeln 15 und 17\" bezieht sich mangels anderer SR-Nennung auf Artikel 15 und 17 derselben Verordnung (SR 512.38) und stellt eine interne Selbstverweisung dar."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_18",
+    "TARGET_SR": "SR 512.38",
+    "assigned_articles": [
+      "Art. 15",
+      "Art. 17"
+    ],
+    "confidence": "high",
+    "reasoning": "Auch hier wird \"nach den Artikeln 15 und 17\" ohne externen SR-Bezug verwendet; syntaktisch ist dies eine interne Verweisung auf Art. 15 und 17 der vorliegenden Verordnung (SR 512.38)."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_27_b",
+    "TARGET_SR": "SR 512.38",
+    "assigned_articles": [
+      "Art. 7"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Formulierung \"die nicht im Rahmen von Artikel 7 geleistet werden\" verweist auf einen anderen Artikel derselben Verordnung; mangels externer SR-Nennung ist dies eine Selbstverweisung auf Art. 7 SR 512.38."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_27_c",
+    "TARGET_SR": "SR 512.38",
+    "assigned_articles": [
+      "Art. 27b"
+    ],
+    "confidence": "high",
+    "reasoning": "\"nach Artikel 27b\" verweist klar auf den unmittelbar benachbarten Artikel innerhalb derselben Verordnung; es liegt eine interne Verweisung auf Art. 27b SR 512.38 vor."
+  }
+]

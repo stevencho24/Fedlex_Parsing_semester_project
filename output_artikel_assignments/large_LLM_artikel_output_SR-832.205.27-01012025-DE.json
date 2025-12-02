@@ -1,0 +1,52 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 832.20",
+    "assigned_articles": [
+      "Art. 34 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Formulierung «gestützt auf Artikel 34 Absatz 2 des Bundesgesetzes ... SR 832.20» verknüpft den genannten Artikel syntaktisch eindeutig mit SR 832.20."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": "SR 832.202",
+    "assigned_articles": [
+      "Art. 24 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Snippet steht «bei Renten nach Artikel 24 Absatz 2 der Verordnung ... SR 832.202 ... (UVV)»; Artikel und Absatz werden direkt mit der genannten Verordnung (SR 832.202) verbunden."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Interne Verweisung innerhalb des Dokuments (Art. 1 Abs. 2)"
+    ],
+    "confidence": "high",
+    "reasoning": "«Als Unfalljahr im Sinne von Artikel 1 Absatz 2 gilt» verweist ohne Nennung eines SR auf einen anderen Artikel desselben Erlasses; dies ist eine reine Selbstverweisung."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Interne Verweisung innerhalb des Dokuments (Art. 24 Abs. 2 UVV)"
+    ],
+    "confidence": "medium",
+    "reasoning": "Hier wird «Artikel 24 Absatz 2 der Verordnung ... über die Unfallversicherung (UVV)» erwähnt, jedoch ohne explizite SR-Nummer im Snippet. Da in ITEM 2 derselbe Wortlaut mit SR 832.202 vorkommt, ist dies kontextuell eine Verweisung auf SR 832.202, wird aber als interne/kontextuelle Referenz ohne explizite SR-Angabe behandelt."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Interne Verweisung innerhalb des Dokuments (Art. 31 Abs. 2 UVV)"
+    ],
+    "confidence": "medium",
+    "reasoning": "«bei Renten nach Artikel 31 Absatz 2 UVV» nennt keinen SR-Link und steht in einem eigenständigen Satzteil; dies ist eine Verweisung auf einen Artikel der UVV ohne explizite SR-Nummer und wird daher als Selbst-/interne Referenz gewertet."
+  }
+]

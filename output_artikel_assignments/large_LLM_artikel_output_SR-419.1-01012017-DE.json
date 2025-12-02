@@ -1,0 +1,75 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 101",
+    "assigned_articles": [
+      "Art. 61a Abs. 2",
+      "Art. 63a Abs. 5",
+      "Art. 64a",
+      "Art. 66 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Formulierung «gestützt auf die Artikel 61a Absatz 2, 63a Absatz 5, 64a und 66 Absatz 2 der Bundesverfassung SR 101» verknüpft die genannten Artikel syntaktisch eindeutig mit SR 101."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": "SR 414.20",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Snippet wird nur das Hochschulförderungs- und -koordinationsgesetz SR 414.20 als Ganzes erwähnt, ohne konkrete Artikelangabe; daher handelt es sich um eine generelle Verweisnorm."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": "SR 414.20",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Text verweist auf die «hochschulpolitischen Organe im Sinne des Hochschulförderungs- und -koordinationsgesetzes … SR 414.20» ohne Nennung bestimmter Artikel; dies ist ein allgemeiner Gesetzesverweis."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_11",
+    "TARGET_SR": "SR 420.1",
+    "assigned_articles": [
+      "Art. 16 Abs. 2 Bst. b–d"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Passage «nach Artikel 16 Absatz 2 Buchstaben b–d des Bundesgesetzes … SR 420.1» ordnet Artikel 16 Absatz 2 Buchstaben b–d eindeutig dem Bundesgesetz SR 420.1 zu."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_18",
+    "TARGET_SR": "SR 431.01",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "medium",
+    "reasoning": "Es heisst «gemäss dem Bundesstatistikgesetz … SR 431.01» ohne konkrete Artikelangabe. Das Bundesstatistikgesetz enthält mehrere einschlägige Normen; mangels Spezifizierung ist von einem generellen Gesetzesverweis auszugehen."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_11",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Satz wiederholt den Verweis aus ITEM 4, nennt aber nur «Artikel 16 Absatz 2 Buchstaben b–d» ohne Gesetzesabkürzung oder SR-Nummer. Da der Gesetzeszusammenhang (SR 420.1) bereits in ITEM 4 mit gleicher Formulierung hergestellt wurde, ist dies als interne Selbstverweisung des aktuellen Dokuments zu werten, nicht als neuer SR-Link."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_17",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«Finanzhilfen nach den Artikeln 12 und 16» verweist ohne Gesetzesangabe auf Artikel desselben Gesetzes (SR 419.1). Es liegt eine reine Binnenverweisung innerhalb des aktuellen Erlasses vor, kein Verweis auf ein anderes SR-Dokument."
+  }
+]

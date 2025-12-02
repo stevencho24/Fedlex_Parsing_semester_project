@@ -1,0 +1,74 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 783.1",
+    "assigned_articles": [
+      "Art. 9 Abs. 4",
+      "Art. 12"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Präambel nennt ausdrücklich: «gestützt auf die Artikel 9 Absatz 4 und 12 … SR 783.1 … (POG)»; beide Artikel gehören somit klar zum POG (SR 783.1)."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": "SR 172.220.1",
+    "assigned_articles": [
+      "Art. 6a Abs. 1–5"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Satz: «… gelten … Artikel 6a Absätze 1–5 des Bundespersonalgesetzes … SR 172.220.1 … sinngemäss.» ist Art. 6a Abs. 1–5 grammatikalisch direkt dem Bundespersonalgesetz (SR 172.220.1) zugeordnet."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": "SR 172.220.12",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Formulierung «… und die Bestimmungen der Kaderlohnverordnung vom 19. Dezember 2003 SR 172.220.12 sinngemäss.» verweist pauschal auf die Verordnung, ohne einzelne Artikel zu nennen; daher allgemeine Dokumentverweisung."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 783.1",
+    "assigned_articles": [
+      "Art. 1",
+      "Art. 14 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet: «Post: … nach Artikel 1 POG; … PostFinance … nach Artikel 14 Absatz 1 POG;». POG ist in der Präambel als SR 783.1 definiert; beide genannten Artikel gehören somit zu SR 783.1."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«… nach Artikel 1 POG;» ist eine artikel_reference ohne explizite SR-Nennung im Satz; sie verweist auf Art. 1 des aktuellen Dokuments (interne Systematik), nicht auf ein anderes SR."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«… nach Artikel 14 Absatz 1 POG;» ist ebenfalls eine artikel_reference ohne direkte SR-Verknüpfung im Satz; sie bezieht sich auf einen Artikel innerhalb des gleichen Gesetzeskomplexes und dient der internen Strukturverweisung."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Satz nennt «Artikel 6a Absätze 1–5 des Bundespersonalgesetzes …» ohne im selben Snippet eine SR-Nummer zu führen; als artikel_reference ist dies als interne/unspezifische Verweisung im Kontext des aktuellen Dokuments zu behandeln, da die eindeutige SR-Zuordnung bereits in Item 2 erfolgt."
+  }
+]

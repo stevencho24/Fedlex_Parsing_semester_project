@@ -1,0 +1,51 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": "SR 311.0",
+    "assigned_articles": [
+      "Art. 320",
+      "Art. 321",
+      "Art. 321 Ziff. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Geheimhaltungspflicht wird ausdrücklich 'nach Artikel 320 oder 321 des Strafgesetzbuches SR 311.0' begründet; zusätzlich wird 'Artikel 321 Ziffer 3 des Strafgesetzbuches' als nicht anwendbar erklärt. Beide Stellen beziehen sich syntaktisch direkt auf das Strafgesetzbuch (SR 311.0)."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": "SR 312.0",
+    "assigned_articles": [
+      "Art. 321 ff."
+    ],
+    "confidence": "medium",
+    "reasoning": "Die Passage 'die Zeugnispflichten nach der Strafprozessordnung vom 5. Oktober 2007 SR 312.0 bleiben vorbehalten' verweist allgemein auf die Zeugnispflichten der Strafprozessordnung, ohne konkrete Artikelnummern zu nennen. Daher ist nur eine generelle, thematisch eingegrenzte Verweisung auf die Bestimmungen über die Zeugnispflichten (Art. 321 ff. StPO) ableitbar, keine spezifischen Einzelartikel."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": "SR 210",
+    "assigned_articles": [
+      "Art. 314c Abs. 2",
+      "Art. 314e Abs. 2",
+      "Art. 314e Abs. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Satzteil 'Im Verkehr mit der Kindesschutzbehörde sind die Artikel 314c Absatz 2 und 314e Absätze 2 und 3 des Zivilgesetzbuches SR 210 anwendbar' nennt die Artikel und Absätze ausdrücklich und verknüpft sie direkt mit dem Zivilgesetzbuch (SR 210)."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 320",
+      "Art. 321",
+      "Art. 321 Ziff. 3",
+      "Art. 314c Abs. 2",
+      "Art. 314e Abs. 2",
+      "Art. 314e Abs. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "Als artikel_reference erfasst der Schnipsel sämtliche im Text genannten Artikel: 320 und 321 StGB, 321 Ziff. 3 StGB sowie 314c Abs. 2 und 314e Abs. 2 und 3 ZGB. Es liegt keine Zuordnung zu einem TARGET_SR vor; die Referenzen sind Querverweise auf andere Erlasse, nicht Selbstverweise innerhalb des aktuellen SR-857.5-Dokuments."
+  }
+]

@@ -1,0 +1,176 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 101",
+    "assigned_articles": [
+      "Art. 108"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Formulierung «gestützt auf Artikel 108 der Bundesverfassung SR 101» verknüpft den genannten Artikel grammatikalisch eindeutig mit SR 101."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_9",
+    "TARGET_SR": "SR 616.1",
+    "assigned_articles": [
+      "Art. 11 Abs. 2",
+      "Art. 11 Abs. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "«nach Artikel 11 Absätze 2 und 3 des Subventionsgesetzes … SR 616.1» ist eine direkte Zuordnung dieser Absätze zu SR 616.1."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_51",
+    "TARGET_SR": "SR 616.1",
+    "assigned_articles": [
+      "Art. 37",
+      "Art. 38"
+    ],
+    "confidence": "high",
+    "reasoning": "«gegen … die Artikel 37 und 38 des Subventionsgesetzes … SR 616.1 verstossen» verweist klar auf diese beiden Artikel des Subventionsgesetzes."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_52",
+    "TARGET_SR": "SR 616.1",
+    "assigned_articles": [
+      "Art. 37",
+      "Art. 38",
+      "Art. 39"
+    ],
+    "confidence": "high",
+    "reasoning": "«gelten die Artikel 37–39 des Subventionsgesetzes … SR 616.1» nennt explizit den Artikelsbereich 37–39 dieses Gesetzes."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_54",
+    "TARGET_SR": "SR 220",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "medium",
+    "reasoning": "«nach dem Obligationenrecht SR 220» enthält keinen bestimmten Artikel; es handelt sich um eine generelle Zuständigkeitszuweisung ohne Artikelspezifikation."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_55",
+    "TARGET_SR": "SR 616.1",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "medium",
+    "reasoning": "«richtet sich das Verfahren nach den Bestimmungen des Subventionsgesetzes … SR 616.1» verweist allgemein auf das Gesetz ohne konkrete Artikelangabe."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_59",
+    "TARGET_SR": "SR 843",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "medium",
+    "reasoning": "«auf Grund des Wohnbau- und Eigentumsförderungsgesetzes … SR 843 (WEG)» nennt keinen bestimmten Artikel; es ist ein allgemeiner Gesetzesverweis."
+  },
+  {
+    "ITEM": 8,
+    "ARTICLE_EID": "art_9",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "Inhalt identisch mit ITEM 2, aber ohne SR-Angabe; «Artikel 11 Absätze 2 und 3» wird hier als Verweis auf das bereits in ITEM 2 zugeordnete externe Gesetz verwendet und ist kein neuer SR-Link, sondern Wiederholung der dortigen Zuordnung."
+  },
+  {
+    "ITEM": 9,
+    "ARTICLE_EID": "art_9",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«verwaltungsrechtlichen Sanktionen nach Artikel 40 des Subventionsgesetzes» bezieht sich auf denselben externen Erlass wie in ITEM 2/3/4, ist aber als artikel_reference ohne explizite SR-Angabe eine Wiederholung und kein eigenständiger SR-Link."
+  },
+  {
+    "ITEM": 10,
+    "ARTICLE_EID": "art_35",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«Vorschriften nach Artikel 28 Absatz 1» verweist ohne Gesetzesangabe auf eine interne Bestimmung desselben Gesetzes (Art. 28 Abs. 1 dieses SR-842-Erlasses)."
+  },
+  {
+    "ITEM": 11,
+    "ARTICLE_EID": "art_43",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "Die genannten Artikel 11, 23 und 34 werden ohne Gesetzesangabe im Rahmen der Leistungsarten dieses Gesetzes erwähnt; dies sind interne Querverweise innerhalb desselben Erlasses."
+  },
+  {
+    "ITEM": 12,
+    "ARTICLE_EID": "art_43",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "Auch hier (Art. 11, 23, 34) fehlt eine SR-Angabe; syntaktisch handelt es sich um interne Strukturverweise des gleichen Gesetzes."
+  },
+  {
+    "ITEM": 13,
+    "ARTICLE_EID": "art_51",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "Inhaltlich identisch mit ITEM 3, aber ohne SR-Nummer; der Verweis auf «Artikel 37 und 38 des Subventionsgesetzes» ist bereits in ITEM 3 als externer SR-Link erfasst und wird hier nur wiederholt."
+  },
+  {
+    "ITEM": 14,
+    "ARTICLE_EID": "art_52",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "Inhaltlich identisch mit ITEM 4, aber ohne SR-Nummer; der Verweis auf «Artikel 37–39 des Subventionsgesetzes» ist bereits in ITEM 4 als externer SR-Link zugeordnet."
+  },
+  {
+    "ITEM": 15,
+    "ARTICLE_EID": "art_55",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "Inhaltlich parallel zu ITEM 6, jedoch ohne SR-Nummer; «Bestimmungen des Subventionsgesetzes» ist derselbe externe Erlass, der in ITEM 6 bereits als SR-Link erfasst wurde."
+  },
+  {
+    "ITEM": 16,
+    "ARTICLE_EID": "art_59",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«Eidgenössische Wohnbaukommission nach Artikel 55 WEG» verweist auf Art. 55 des WEG (SR 843), der Erlass ist aber bereits in ITEM 7 als SR-Link erfasst; hier handelt es sich um eine inhaltliche Fortführung/Umsetzung ohne neue SR-Verknüpfung."
+  },
+  {
+    "ITEM": 17,
+    "ARTICLE_EID": "art_59",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«Vorschriften über die Mietzinskontrolle gemäss Artikel 54» verweist ohne Gesetzesangabe auf Art. 54 desselben Gesetzes (SR 842); dies ist ein klarer interner Selbstverweis."
+  }
+]

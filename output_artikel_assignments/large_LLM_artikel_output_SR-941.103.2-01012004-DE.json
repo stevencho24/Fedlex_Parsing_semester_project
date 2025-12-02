@@ -1,0 +1,32 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 941.10",
+    "assigned_articles": [
+      "Art. 4 Abs. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Formulierung «gestützt auf Artikel 4 Absatz 3 des Bundesgesetzes ... SR 941.10» verknüpft den genannten Artikel grammatikalisch eindeutig mit SR 941.10."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": "SR 941.101",
+    "assigned_articles": [
+      "Art. 2 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Kontext beschreibt, dass die Münzverordnung SR 941.101 «wie folgt geändert» wird und unmittelbar danach «Art. 2 Abs. 1...» folgt; dies bezeichnet klar den geänderten Artikel der zitierten Verordnung."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Interne Verweisung innerhalb des aktuellen Dokuments (Art. 2 Abs. 1)"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Referenz «Art. 2 Abs. 1» erscheint ohne Nennung eines SR-Titels und bezieht sich damit auf den eigenen Artikel der vorliegenden Verordnung; sie ist eine Selbstverweisung und kein Verweis auf ein anderes SR."
+  }
+]

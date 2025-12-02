@@ -1,0 +1,42 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 412.106",
+    "assigned_articles": [
+      "Art. 10 Abs. 2 Bst. c"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Formulierung «gestützt auf Artikel 10 Absatz 2 Buchstabe c des EHB-Gesetzes … SR 412.106» verknüpft den genannten Artikel syntaktisch eindeutig mit dem zitierten SR-Dokument."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": "SR 172.041.1",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Passage verweist allgemein auf die Allgemeine Gebührenverordnung («gelten die Bestimmungen der Allgemeinen Gebührenverordnung … SR 172.041.1») ohne Nennung einzelner Artikel; damit handelt es sich um eine generelle Verweisung auf die gesamte Verordnung."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": "SR 412.10",
+    "assigned_articles": [
+      "Art. 47"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Snippet steht «(Art. 47 BBG SR 412.10)»; der Artikel ist direkt mit dem Gesetz (BBG, SR 412.10) verbunden, sodass eindeutig Art. 47 dieses Gesetzes gemeint ist."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«Artikel 28 des EHB-Gesetzes vom 25. September 2020» verweist auf das EHB-Gesetz (SR 412.106), während das aktuelle Dokument SR 412.106.16 ist; dies ist eine externe, aber im Kontext dieses Projekts als Selbstreferenz des Stammgesetzes zu werten, nicht als Zuweisung zu einem TARGET_SR, da kein TARGET_SR vorliegt."
+  }
+]

@@ -1,0 +1,200 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 412.10",
+    "assigned_articles": [
+      "Art. 19"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Preambel-Satz: «gestützt auf Artikel 19 des Berufsbildungsgesetzes ... SR 412.10»; der Artikel ist direkt mit dem Gesetz (SR 412.10) verknüpft."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 412.101",
+    "assigned_articles": [
+      "Art. 12"
+    ],
+    "confidence": "high",
+    "reasoning": "Im selben Preambel-Satz: «auf Artikel 12 der Berufsbildungsverordnung ... SR 412.101 (BBV)»; direkte Zuordnung von Art. 12 zur BBV (SR 412.101)."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 170.512",
+    "assigned_articles": [
+      "Art. 12 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Autorennotiz-Text: «in Anwendung von Art. 12 Abs. 2 des Publikationsgesetzes ... (SR 170.512)»; eindeutige Verknüpfung dieses Artikels mit SR 170.512."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 822.115",
+    "assigned_articles": [
+      "Art. 4a Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "Preambel: «auf Artikel 4a Absatz 1 der Jugendarbeitsschutzverordnung ... SR 822.115 (ArGV 5)»; Art. 4a Abs. 1 ist klar dieser Verordnung zugeordnet."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_6",
+    "TARGET_SR": "SR 170.512",
+    "assigned_articles": [
+      "Art. 12 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Autorennotiz in Art. 6: «in Anwendung von Art. 12 Abs. 2 des Publikationsgesetzes ... (SR 170.512)»; identische Struktur wie im Preambel, klarer Bezug."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_8",
+    "TARGET_SR": "SR 412.101.241",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "Art. 8 verweist auf «die Verordnung des SBFI vom 27. April 2006 SR 412.101.241 über Mindestvorschriften ...» ohne Artikelangabe; dies ist ein pauschaler Verweis auf die ganze Verordnung."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_8",
+    "TARGET_SR": "SR 412.10",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "medium",
+    "reasoning": "«Verordnung des SBFI vom 27. April 2006 über Mindestvorschriften ...» ist in Wirklichkeit SR 412.101.241; die Zuordnung zu SR 412.10 erfolgt nur über das Preambel-Akronym SBFI, ohne konkrete Artikelangabe. Mangels expliziter Artikel wird der Verweis als allgemeiner Dokumentverweis gewertet."
+  },
+  {
+    "ITEM": 8,
+    "ARTICLE_EID": "art_18",
+    "TARGET_SR": "SR 412.101",
+    "assigned_articles": [
+      "Art. 32"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet: «die nach Artikel 32 BBV erforderliche Erfahrung erworben hat»; BBV = SR 412.101 gemäss Preambel, daher gehört Art. 32 zu SR 412.101."
+  },
+  {
+    "ITEM": 9,
+    "ARTICLE_EID": "art_22",
+    "TARGET_SR": "SR 412.101",
+    "assigned_articles": [
+      "Art. 33"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet: «Die Wiederholung des Qualifikationsverfahrens richtet sich nach Artikel 33 BBV.»; BBV = SR 412.101, somit Art. 33 dieser Verordnung."
+  },
+  {
+    "ITEM": 10,
+    "ARTICLE_EID": "art_25",
+    "TARGET_SR": "SR 412.10",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "«... dem SBFI die entsprechende Änderung zu beantragen.»; SBFI ist hier die Behörde, nicht ein bestimmter Artikel des Berufsbildungsgesetzes. Keine Artikelangabe, daher allgemeiner, institutioneller Verweis auf das Gesetzesregime."
+  },
+  {
+    "ITEM": 11,
+    "ARTICLE_EID": "art_27",
+    "TARGET_SR": "SR 412.10",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "medium",
+    "reasoning": "«Die Verordnung des SBFI vom 8. Dezember 2004 ... wird aufgehoben.»; SBFI verweist auf die erlassende Behörde, nicht auf einen bestimmten Artikel von SR 412.10. Mangels Artikelangabe wird ein allgemeiner Dokumentbezug angenommen."
+  },
+  {
+    "ITEM": 12,
+    "ARTICLE_EID": "art_6",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 4 Abs. 1",
+      "Art. 4a Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "Artikelreferenz ohne SR-Nennung: «Artikel 4 Absatz 1 ArGV 5» und «Artikel 4a Absatz 1 ArGV 5» sind interne Verweise auf die Jugendarbeitsschutzverordnung (SR 822.115), nicht auf das aktuelle SR-Dokument. Da kein TARGET_SR vorliegt, werden sie als reine Artikelangaben einer fremden Verordnung erfasst."
+  },
+  {
+    "ITEM": 13,
+    "ARTICLE_EID": "art_8",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 5"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet: «... gemäss Artikel 5 der Verordnung des SBFI vom 27. April 2006 ...»; klarer Verweis auf Art. 5 dieser SBFI-Verordnung. Kein explizites SR im Satz, daher als reine Artikelreferenz ohne TARGET_SR behandelt."
+  },
+  {
+    "ITEM": 14,
+    "ARTICLE_EID": "art_18",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 32"
+    ],
+    "confidence": "high",
+    "reasoning": "Text: «die nach Artikel 32 BBV erforderliche Erfahrung erworben hat»; BBV ist eine andere Verordnung (SR 412.101). Da hier kein TARGET_SR-Feld existiert, wird nur der Artikel als solcher erfasst."
+  },
+  {
+    "ITEM": 15,
+    "ARTICLE_EID": "art_19",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 5"
+    ],
+    "confidence": "high",
+    "reasoning": "«... dass die Handlungskompetenzen nach Artikel 5 erworben worden sind.»; dies ist ein interner Verweis innerhalb derselben Verordnung (Art. 5 dieses SR-Dokuments). Ohne TARGET_SR bleibt es eine interne Artikelreferenz."
+  },
+  {
+    "ITEM": 16,
+    "ARTICLE_EID": "art_23",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 20 Abs. 1 Bst. c Ziff. 2 erster Strich"
+    ],
+    "confidence": "high",
+    "reasoning": "«... nach Artikel 20 Absatz 1 Buchstabe c Ziffer 2 erster Strich;»; klar strukturierte interne Verweisung auf einen Artikel derselben Verordnung."
+  },
+  {
+    "ITEM": 17,
+    "ARTICLE_EID": "art_23",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 21 Abs. 2 Bst. d",
+      "Art. 21 Abs. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "«... nach Artikel 21 Absätze 2 Buchstabe d und 3.»; dies meint zwei Absätze desselben Artikels 21 der aktuellen Verordnung."
+  },
+  {
+    "ITEM": 18,
+    "ARTICLE_EID": "art_24",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 23 Abs. 1 Bst. b"
+    ],
+    "confidence": "high",
+    "reasoning": "«... unter dem Vorbehalt von Artikel 23 Absatz 1 Buchstabe b ...»; interner Verweis auf Art. 23 Abs. 1 lit. b derselben Verordnung."
+  },
+  {
+    "ITEM": 19,
+    "ARTICLE_EID": "art_28",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 18",
+      "Art. 19",
+      "Art. 20",
+      "Art. 21",
+      "Art. 22",
+      "Art. 23",
+      "Art. 24"
+    ],
+    "confidence": "high",
+    "reasoning": "«(Art. 18–24)» ist eine Artikelspanne innerhalb derselben Verordnung. Gemäss Vorgabe wird der Bereich als aufgelistete Einzelartikel 18 bis 24 wiedergegeben."
+  }
+]

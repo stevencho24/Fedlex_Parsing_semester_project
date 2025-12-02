@@ -1,0 +1,55 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 747.201",
+    "assigned_articles": [
+      "Art. 56 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Formulierung «gestützt auf Artikel 56 Absatz 2 des Bundesgesetzes ... SR 747.201» verknüpft den genannten Artikel grammatikalisch eindeutig mit dem genannten SR; damit ist klar, dass Art. 56 Abs. 2 des Bundesgesetzes über die Binnenschifffahrt (SR 747.201) gemeint ist."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 0.747.224.32",
+    "assigned_articles": [
+      "Art. 2",
+      "Art. 7"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Passage «in Ausführung der Artikel 2 und 7 der Übereinkunft ... SR 0.747.224.32» stellt eine direkte syntaktische Zuordnung der Artikel 2 und 7 zu dieser Übereinkunft her; daher gehören beide Artikel zu SR 0.747.224.32."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": "SR 747.201.1",
+    "assigned_articles": "General reference - entire document",
+    "confidence": "high",
+    "reasoning": "Der Satz «Die gegenüber der Verordnung ... SR 747.201.1 ... abweichenden Bestimmungen dieser Verordnung gehen vor» verweist allgemein auf die frühere Verordnung, ohne bestimmte Artikel zu nennen; es handelt sich um einen generellen Verweis auf das ganze Regelwerk."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_9",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 3",
+      "Art. 6",
+      "Art. 7"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Formulierung «von den Beschränkungen der Artikel 3, 6 und 7 befreit» bezieht sich ersichtlich auf Artikel derselben Verordnung; es wird kein anderes SR genannt, daher handelt es sich um interne Selbstverweise auf die eigenen Artikel 3, 6 und 7."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_10",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 3",
+      "Art. 6",
+      "Art. 7"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Wendung «Ausnahmen von den Vorschriften der Artikel 3, 6 und 7 dieser Verordnung» enthält ausdrücklich den Zusatz «dieser Verordnung»; damit ist klar, dass es sich um interne Verweise auf die Artikel 3, 6 und 7 des gleichen Erlasses handelt und nicht um Artikel eines anderen SR."
+  }
+]

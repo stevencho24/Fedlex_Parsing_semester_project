@@ -1,0 +1,282 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 172.019",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "high",
+    "reasoning": "Preamble cites the EMBAG as legal basis without mentioning any specific article; standard blanket reference to the whole act."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 172.010",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "high",
+    "reasoning": "Preamble cites the RVOG as additional legal basis without specifying articles; functions as a general reference."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_13",
+    "TARGET_SR": "SR 172.056.15",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "high",
+    "reasoning": "Sentence refers generally to the Org‑VöB for rules on delegation of procurement competence; no article or range is mentioned."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_23",
+    "TARGET_SR": "SR 235.1",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "medium",
+    "reasoning": "Refers to the Aufgaben des Verantwortlichen nach dem Datenschutzgesetz without specifying provisions; likely all relevant duties, but no concrete article is cited."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_28",
+    "TARGET_SR": "SR 172.056.15",
+    "assigned_articles": ["Art. 7 Abs. 3"],
+    "confidence": "high",
+    "reasoning": "Explicit wording: 'nach Artikel 7 Absatz 3 Org‑VöB SR 172.056.15'; clear direct marking of article and paragraph in the cited ordinance."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": "SR 172.019",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "medium",
+    "reasoning": "Mentions 'die in Anhang 1 aufgeführten Bestimmungen des EMBAG' but no concrete article numbers; the operative exclusion is defined via annex, not via a specific article citation."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": "SR 172.019",
+    "assigned_articles": ["Art. 9", "Art. 12"],
+    "confidence": "high",
+    "reasoning": "Snippet explicitly cites 'Artikel 9 EMBAG' and 'Artikel 12 EMBAG'; both are clearly linked to EMBAG by acronym and article wording."
+  },
+  {
+    "ITEM": 8,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": "SR 172.019",
+    "assigned_articles": ["Art. 2 Abs. 3"],
+    "confidence": "high",
+    "reasoning": "Text refers to 'Vereinbarungen nach Artikel 2 Absatz 3 EMBAG'; other EMBAG mentions are generic (Unterstellung, geltende Bestimmungen) without article numbers."
+  },
+  {
+    "ITEM": 9,
+    "ARTICLE_EID": "art_11",
+    "TARGET_SR": "SR 172.019",
+    "assigned_articles": ["Art. 11 Abs. 1", "Art. 11 Abs. 2"],
+    "confidence": "high",
+    "reasoning": "Two explicit citations: 'Artikel 11 Absatz 1 EMBAG' and 'Artikel 11 Absatz 2 EMBAG'; both clearly attributed to EMBAG."
+  },
+  {
+    "ITEM": 10,
+    "ARTICLE_EID": "art_11",
+    "TARGET_SR": "SR 172.010",
+    "assigned_articles": ["Art. 2 Abs. 4"],
+    "confidence": "high",
+    "reasoning": "Phrase 'nach Artikel 2 Absatz 4 RVOG' directly links article and paragraph to RVOG."
+  },
+  {
+    "ITEM": 11,
+    "ARTICLE_EID": "art_14",
+    "TARGET_SR": "SR 172.019",
+    "assigned_articles": ["Art. 10 Abs. 1", "Art. 10 Abs. 4"],
+    "confidence": "high",
+    "reasoning": "First sentence: 'nach Artikel 10 Absätze 1 und 4 EMBAG'; second sentence repeats 'Artikel 10 Absatz 1 EMBAG'; together they clearly target Art. 10 paras. 1 and 4."
+  },
+  {
+    "ITEM": 12,
+    "ARTICLE_EID": "art_15",
+    "TARGET_SR": "SR 172.019",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "medium",
+    "reasoning": "Refers generically to 'dem EMBAG unterstehende Bundesbehörden'; no specific article or paragraph is cited."
+  },
+  {
+    "ITEM": 13,
+    "ARTICLE_EID": "art_24",
+    "TARGET_SR": "SR 172.010",
+    "assigned_articles": ["Art. 2 Abs. 4"],
+    "confidence": "high",
+    "reasoning": "Twice mentions 'Organisationen und Personen nach Artikel 2 Absatz 4 RVOG'; clear direct attribution to RVOG Art. 2 para. 4."
+  },
+  {
+    "ITEM": 14,
+    "ARTICLE_EID": "art_45",
+    "TARGET_SR": "SR 172.019",
+    "assigned_articles": ["Art. 11 Abs. 4"],
+    "confidence": "high",
+    "reasoning": "Explicitly: 'IKT-Mitteln der Bundesbehörden nach Artikel 11 Absatz 4 EMBAG'; direct marking of article and paragraph."
+  },
+  {
+    "ITEM": 15,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "high",
+    "reasoning": "Refers to 'Artikel 9 EMBAG' but this is already captured and assigned in ITEM 7 (preamble_acronym) for the same article; here it functions as an internal repetition/self-reference, not a new SR link assignment."
+  },
+  {
+    "ITEM": 16,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "high",
+    "reasoning": "Refers to 'Artikel 12 EMBAG', which is already linked to SR 172.019 in ITEM 7; this artikel_reference is a duplicate internal mention within the same article."
+  },
+  {
+    "ITEM": 17,
+    "ARTICLE_EID": "art_11",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "high",
+    "reasoning": "Mentions 'Artikel 11 Absatz 1 EMBAG'; this external link to EMBAG Art. 11 Abs. 1 is already assigned in ITEM 9; here it is a self-reference within the same article."
+  },
+  {
+    "ITEM": 18,
+    "ARTICLE_EID": "art_11",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "high",
+    "reasoning": "Mentions 'Artikel 11 Absatz 2 EMBAG'; external link already captured in ITEM 9; this is an internal repetition."
+  },
+  {
+    "ITEM": 19,
+    "ARTICLE_EID": "art_11",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "high",
+    "reasoning": "Refers to 'Artikel 2 Absatz 4 RVOG'; that external link is already assigned in ITEM 10; this occurrence is a self-reference within art. 11."
+  },
+  {
+    "ITEM": 20,
+    "ARTICLE_EID": "art_14",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "high",
+    "reasoning": "Refers to 'Artikel 10 Absätze 1 und 4 EMBAG'; these links are already assigned to SR 172.019 in ITEM 11; this is an internal repetition."
+  },
+  {
+    "ITEM": 21,
+    "ARTICLE_EID": "art_14",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "high",
+    "reasoning": "Again mentions 'Artikel 10 Absatz 1 EMBAG'; external link already handled in ITEM 11; functions as self-reference."
+  },
+  {
+    "ITEM": 22,
+    "ARTICLE_EID": "art_22",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "high",
+    "reasoning": "Reference 'Artikel 21 Absatz 1' has no SR or acronym; it clearly points to another article of the same ordinance (internal structure)."
+  },
+  {
+    "ITEM": 23,
+    "ARTICLE_EID": "art_22",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "high",
+    "reasoning": "Again 'Artikel 20 Absatz 1' (implicitly of this ordinance); no SR mentioned, so it is an internal cross-reference."
+  },
+  {
+    "ITEM": 24,
+    "ARTICLE_EID": "art_23",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "high",
+    "reasoning": "Refers to 'Artikel 21 Absatz 1 Buchstaben a–i' without SR; internal reference to article 21 of the same act."
+  },
+  {
+    "ITEM": 25,
+    "ARTICLE_EID": "art_23",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "high",
+    "reasoning": "Refers to 'Artikel 21 Absätze 1 Buchstabe j und 2'; again no SR, so it is an internal cross-reference."
+  },
+  {
+    "ITEM": 26,
+    "ARTICLE_EID": "art_24",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "high",
+    "reasoning": "Mentions 'Artikel 20 Absatz 1' without any SR or acronym; internal reference to article 20 of this ordinance."
+  },
+  {
+    "ITEM": 27,
+    "ARTICLE_EID": "art_24",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "high",
+    "reasoning": "Contains 'Artikel 20 Absatz 1' and 'Artikel 11 Absatz 4' without SR markers; in context of MDG-System and DTI, these are internal articles of the same ordinance, not new SR links."
+  },
+  {
+    "ITEM": 28,
+    "ARTICLE_EID": "art_24",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "high",
+    "reasoning": "Refers to 'Artikel 2 Absatz 4 RVOG' but that external link is already captured in ITEM 13; here it is a repetition within art. 24."
+  },
+  {
+    "ITEM": 29,
+    "ARTICLE_EID": "art_24",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "high",
+    "reasoning": "Refers to 'Artikel 21 Absatz 1 Buchstaben a–i' and 'Artikel 20 Absatz 1'; no SR mentioned, so these are internal cross-references."
+  },
+  {
+    "ITEM": 30,
+    "ARTICLE_EID": "art_24",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "high",
+    "reasoning": "Refers to 'Artikel 21 Absätze 1 Buchstabe j und 2'; again internal to the same ordinance."
+  },
+  {
+    "ITEM": 31,
+    "ARTICLE_EID": "art_25",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "high",
+    "reasoning": "Mentions 'Artikel 21 Absatz 1' without SR; internal reference to article 21 of this act."
+  },
+  {
+    "ITEM": 32,
+    "ARTICLE_EID": "art_26",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "high",
+    "reasoning": "Again 'Artikel 21 Absatz 1' with no SR; internal cross-reference."
+  },
+  {
+    "ITEM": 33,
+    "ARTICLE_EID": "art_28",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "high",
+    "reasoning": "Refers to 'Artikel 7 Absatz 3 Org‑VöB' but this external link to SR 172.056.15 Art. 7 Abs. 3 is already assigned in ITEM 5; here it is a self-reference within art. 28."
+  },
+  {
+    "ITEM": 34,
+    "ARTICLE_EID": "art_39",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "high",
+    "reasoning": "Mentions 'Artikel 44' without SR; clearly an internal reference to another article of the same ordinance."
+  },
+  {
+    "ITEM": 35,
+    "ARTICLE_EID": "art_42",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "high",
+    "reasoning": "Refers to 'Artikel 11 Absatz 1' without SR; in context of 'Entscheid des Bereichs DTI', this is an internal article of the same ordinance, not a new SR link."
+  }
+]

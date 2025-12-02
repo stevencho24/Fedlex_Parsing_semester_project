@@ -1,0 +1,290 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 101",
+    "assigned_articles": [
+      "Art. 38 Abs. 1",
+      "Art. 39 Abs. 1",
+      "Art. 40 Abs. 2",
+      "Art. 65 Abs. 2",
+      "Art. 121 Abs. 1",
+      "Art. 122 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Präambel nennt ausdrücklich: «gestützt auf die Artikel 38 Absatz 1, 39 Absatz 1, 40 Absatz 2, 65 Absatz 2, 121 Absatz 1 und 122 Absatz 1 der Bundesverfassung SR 101»; alle genannten Artikel gehören somit zu SR 101."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": "SR 170.512",
+    "assigned_articles": [
+      "Art. 12 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Autorentext steht: «in Anwendung von Art. 12 Abs. 2 des Publikationsgesetzes ... (SR 170.512)»; Art. 12 Abs. 2 ist direkt mit SR 170.512 verknüpft."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": "SR 831.10",
+    "assigned_articles": [
+      "Art. 71"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Satz lautet: «... nach Artikel 71 des Bundesgesetzes ... SR 831.10 über die Alters- und Hinterlassenenversicherung (AHVG)»; Art. 71 ist klar dem AHVG (SR 831.10) zugeordnet."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": "SR 210",
+    "assigned_articles": [
+      "Art. 39–49"
+    ],
+    "confidence": "high",
+    "reasoning": "Formulierung: «... richtet sich nach den Artikeln 39–49 des Zivilgesetzbuches SR 210.»; der gesamte Bereich Art. 39–49 ZGB gehört zu SR 210."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_6",
+    "TARGET_SR": "SR 831.10",
+    "assigned_articles": [
+      "Art. 50c"
+    ],
+    "confidence": "high",
+    "reasoning": "Text: «AHV-Nummer nach Artikel 50c des Bundesgesetzes ... SR 831.10 ... (AHVG)»; Art. 50c ist eindeutig dem AHVG (SR 831.10) zugeordnet."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_10",
+    "TARGET_SR": "SR 943.03",
+    "assigned_articles": "General reference - entire document",
+    "confidence": "medium",
+    "reasoning": "Die heutige Rechtsgrundlage wird als «das BG vom 18. März 2016 (SR 943.03) über die elektronische Signatur» erwähnt, ohne konkrete Artikelangabe; es handelt sich um eine generelle Verweisung auf das Gesetz als Ganzes."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_13",
+    "TARGET_SR": "SR 831.10",
+    "assigned_articles": [
+      "Art. 50c"
+    ],
+    "confidence": "high",
+    "reasoning": "Satz: «... führen die AHV-Nummer nach Artikel 50c AHVG SR 831.10.»; Art. 50c ist ausdrücklich mit dem AHVG (SR 831.10) verbunden."
+  },
+  {
+    "ITEM": 8,
+    "ARTICLE_EID": "art_14",
+    "TARGET_SR": "SR 943.03",
+    "assigned_articles": "General reference - entire document",
+    "confidence": "medium",
+    "reasoning": "Wie bei ITEM 6 wird «das BG vom 18. März 2016 (SR 943.03) über die elektronische Signatur» ohne Artikelangabe zitiert; daher allgemeine Gesetzesverweisung."
+  },
+  {
+    "ITEM": 9,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 71"
+    ],
+    "confidence": "high",
+    "reasoning": "«... nach Artikel 71 des Bundesgesetzes ... über die Alters- und Hinterlassenenversicherung (AHVG);»; dies ist eine inhaltlich identische Selbstreferenz zu ITEM 3, verweist aber auf Art. 71 AHVG ohne explizite SR-Nennung; daher interne Artikelreferenz, nicht erneut einem TARGET_SR zuzuordnen."
+  },
+  {
+    "ITEM": 10,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 71"
+    ],
+    "confidence": "high",
+    "reasoning": "«... nach Artikel 71 AHVG.»; wiederum Verweis auf Art. 71 des AHVG, jedoch ohne SR-Angabe; es handelt sich um eine inhaltliche Selbstreferenz, nicht um eine neue SR-Verknüpfung."
+  },
+  {
+    "ITEM": 11,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": "SR 210",
+    "assigned_articles": [
+      "Art. 39–49"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Text entspricht inhaltlich ITEM 4, nur ohne explizite SR-Nummer: «... richtet sich nach den Artikeln 39–49 des Zivilgesetzbuches.»; aufgrund der Parallelstelle mit SR-Nennung ist klar, dass Art. 39–49 ZGB (SR 210) gemeint sind."
+  },
+  {
+    "ITEM": 12,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 2 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "«... welche die Register nach Artikel 2 Absatz 1 führen ...»; dies ist eine reine Selbstreferenz innerhalb derselben Verordnung (Art. 2 Abs. 1), ohne Bezug zu einem externen SR."
+  },
+  {
+    "ITEM": 13,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 2 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "«... den Bundesstellen nach Artikel 2 Absatz 1 ...»; wiederum interner Verweis auf Art. 2 Abs. 1 derselben Verordnung, kein externer SR-Bezug."
+  },
+  {
+    "ITEM": 14,
+    "ARTICLE_EID": "art_6",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 50c"
+    ],
+    "confidence": "high",
+    "reasoning": "«AHV-Nummer nach Artikel 50c des Bundesgesetzes ... (AHVG);»; dies entspricht dem Inhalt von ITEM 5, jedoch ohne SR-Nummer; es bleibt eine inhaltliche Verweisung auf Art. 50c AHVG, aber als Selbstreferenz ohne expliziten SR-Link."
+  },
+  {
+    "ITEM": 15,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 6",
+      "Art. 4 Abs. 4"
+    ],
+    "confidence": "high",
+    "reasoning": "«... das nicht in Artikel 6 bezeichnet ist ... nach den Anforderungen des Katalogs nach Artikel 4 Absatz 4 ...»; beide Artikel gehören zur gleichen Verordnung und stellen interne Strukturverweise dar."
+  },
+  {
+    "ITEM": 16,
+    "ARTICLE_EID": "art_10",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 6"
+    ],
+    "confidence": "high",
+    "reasoning": "«... damit ... die Daten nach Artikel 6 zwischen den Einwohnerregistern ausgetauscht werden.»; klarer interner Verweis auf Art. 6 derselben Verordnung."
+  },
+  {
+    "ITEM": 17,
+    "ARTICLE_EID": "art_11",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 6"
+    ],
+    "confidence": "high",
+    "reasoning": "«... Auskunft über die Daten nach Artikel 6 erteilen ...»; wiederum interner Verweis auf Art. 6 der Verordnung."
+  },
+  {
+    "ITEM": 18,
+    "ARTICLE_EID": "art_12",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 11"
+    ],
+    "confidence": "high",
+    "reasoning": "«... wenn die Meldepflicht nach Artikel 11 nicht erfüllt wird»; interner Verweis auf Art. 11 derselben Verordnung."
+  },
+  {
+    "ITEM": 19,
+    "ARTICLE_EID": "art_12",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 11"
+    ],
+    "confidence": "high",
+    "reasoning": "Gleiche Formulierung wie ITEM 18: «... wenn die Meldepflicht nach Artikel 11 nicht erfüllt wird.»; interner Verweis."
+  },
+  {
+    "ITEM": 20,
+    "ARTICLE_EID": "art_13",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 4 Abs. 4"
+    ],
+    "confidence": "high",
+    "reasoning": "«... nach den Anforderungen des Katalogs nach Artikel 4 Absatz 4 ...»; interner Verweis auf Art. 4 Abs. 4 der Verordnung."
+  },
+  {
+    "ITEM": 21,
+    "ARTICLE_EID": "art_14",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 6"
+    ],
+    "confidence": "high",
+    "reasoning": "«... die Daten nach Artikel 6 zur Verfügung.»; interner Verweis auf Art. 6."
+  },
+  {
+    "ITEM": 22,
+    "ARTICLE_EID": "art_14",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 7"
+    ],
+    "confidence": "high",
+    "reasoning": "«... Daten nach Artikel 7 unentgeltlich zur Verfügung ...»; interner Verweis auf Art. 7."
+  },
+  {
+    "ITEM": 23,
+    "ARTICLE_EID": "art_15",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 2 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "«Die Bundesstellen nach Artikel 2 Absatz 1 ...»; interner Verweis auf Art. 2 Abs. 1."
+  },
+  {
+    "ITEM": 24,
+    "ARTICLE_EID": "art_16",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 6 Bst. a–h",
+      "Art. 6 Bst. j",
+      "Art. 6 Bst. k",
+      "Art. 6 Bst. m"
+    ],
+    "confidence": "high",
+    "reasoning": "«... Daten nach Artikel 6 Buchstaben a–h, j, k und m ...»; dies sind interne Untergliederungen von Art. 6 derselben Verordnung."
+  },
+  {
+    "ITEM": 25,
+    "ARTICLE_EID": "art_17",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 6 Bst. a–h",
+      "Art. 6 Bst. j",
+      "Art. 6 Bst. k",
+      "Art. 6 Bst. m"
+    ],
+    "confidence": "high",
+    "reasoning": "Wortlaut wie in ITEM 24: «... Daten nach Artikel 6 Buchstaben a–h, j, k und m ...»; interne Verweisung."
+  },
+  {
+    "ITEM": 26,
+    "ARTICLE_EID": "art_19",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 6 Bst. a",
+      "Art. 6 Bst. d"
+    ],
+    "confidence": "high",
+    "reasoning": "«... Merkmale nach Artikel 6 Buchstaben a und d ...»; interne Verweise auf die Buchstaben a und d von Art. 6."
+  },
+  {
+    "ITEM": 27,
+    "ARTICLE_EID": "art_23",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 1–5",
+      "Art. 6 Bst. b–u",
+      "Art. 7–12",
+      "Art. 13 Abs. 2",
+      "Art. 13 Abs. 3",
+      "Art. 14–23",
+      "Anhang Ziff. 4",
+      "Art. 6 Bst. a",
+      "Art. 13 Abs. 1",
+      "Anhang Ziff. 1–3"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Bestimmung regelt das Inkrafttreten und nennt explizit die betroffenen Artikel und Anhangziffern der eigenen Verordnung (Art. 1–5, 6 Bst. b–u, 7–12, 13 Abs. 2 und 3, 14–23 sowie Ziff. 4 des Anhangs; ferner Art. 6 Bst. a, 13 Abs. 1 und Ziff. 1–3 des Anhangs); alles sind interne Strukturverweise ohne externes SR."
+  }
+]

@@ -1,0 +1,36 @@
+[
+  {
+    "Item": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 510.10",
+    "assigned_articles": [
+      "Art. 54",
+      "Art. 92 Abs. 4",
+      "Art. 150 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet explicitly cites 'Artikel 54, 92 Absatz 4 und 150 Absatz 1 des Militärgesetzes (MG) SR 510.10'; these articles are directly and syntactically linked to SR 510.10."
+  },
+  {
+    "Item": 2,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": "SR 510.10",
+    "assigned_articles": [
+      "Art. 67 Abs. 1 Bst. b",
+      "Art. 67 Abs. 1 Bst. e",
+      "Art. 83"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet contains '(Art. 67 Abs. 1 Bst. b MG)', '(Art. 67 Abs.1 Bst. e MG)' and '(Art. 83 MG)'; via the preamble acronym MG these clearly refer to the cited SR 510.10."
+  },
+  {
+    "Item": 3,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": "SR 512.26",
+    "assigned_articles": [
+      "Art. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "This is an artikel_reference item without an SR context; the listed articles (Art. 67, Art. 83 MG) are already assigned to SR 510.10 in Item 2. Here the reference functions as an internal cross-reference context within the current document SR 512.26, so it is treated as a self-reference to its own article (Art. 2)."
+  }
+]

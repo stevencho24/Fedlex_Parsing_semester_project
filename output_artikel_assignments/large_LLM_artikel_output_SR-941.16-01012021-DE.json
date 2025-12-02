@@ -1,0 +1,23 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 101",
+    "assigned_articles": [
+      "Art. 54 Abs. 1",
+      "Art. 166 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet explicitly states 'gestützt auf die Artikel 54 Absatz 1 und 166 Absatz 2 der Bundesverfassung SR 101'; both articles are directly and syntactically linked to SR 101."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 0.941.16",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet refers to 'den geänderten Neuen Kreditvereinbarungen (NKV) ... SR 0.941.16' without mentioning any specific article numbers; this is a general approval of the agreement as a whole, so the reference is to the entire SR 0.941.16."
+  }
+]

@@ -1,0 +1,74 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 101",
+    "assigned_articles": [
+      "Art. 81",
+      "Art. 87",
+      "Art. 196 Ziff. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Präambel nennt ausdrücklich: «gestützt auf die Artikel 81, 87 und 196 Ziffer 3 der Bundesverfassung SR 101». Diese Artikel gehören klar zur Bundesverfassung (SR 101)."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_12",
+    "TARGET_SR": "SR 742.140",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "Formulierung: «nach dem Bahninfrastrukturfondsgesetz vom 21. Juni 2013 SR 742.140». Es wird kein bestimmter Artikel des Gesetzes genannt, sondern das Gesetz als Ganzes als Rechtsgrundlage herangezogen."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_15",
+    "TARGET_SR": "SR 742.101",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "Text: «richten sich nach dem Eisenbahngesetz vom 20. Dezember 1957 SR 742.101». Es wird kein einzelner Artikel des Eisenbahngesetzes zitiert, sondern das Gesetz generell als massgebend erklärt."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_6",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 4"
+    ],
+    "confidence": "high",
+    "reasoning": "«Massnahmen nach Artikel 4» verweist ohne Nennung eines SR-Dokuments auf einen anderen Artikel derselben Verordnung; dies ist eine interne Selbstreferenz auf Art. 4 des eigenen Erlasses."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_11",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 4–6"
+    ],
+    "confidence": "high",
+    "reasoning": "«Massnahmen nach den Artikeln 4–6» nennt einen Artikelsbereich ohne Bezug zu einem externen SR; es handelt sich um eine interne Verweisung auf die eigenen Art. 4 bis 6."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_12",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 4"
+    ],
+    "confidence": "high",
+    "reasoning": "«Massnahmen nach Artikel 4» ist wiederum eine reine Selbstreferenz innerhalb derselben Verordnung auf Art. 4; kein externes SR wird genannt."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_14",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 4–6"
+    ],
+    "confidence": "high",
+    "reasoning": "«Investitionen in Massnahmen nach den Artikeln 4–6» verweist auf mehrere interne Artikel derselben Verordnung; mangels SR-Bezug ist dies eine interne Artikelskette (Art. 4 bis 6)."
+  }
+]

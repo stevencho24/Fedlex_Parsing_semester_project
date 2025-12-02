@@ -1,0 +1,954 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 311.0",
+    "assigned_articles": ["Art. 355e"],
+    "confidence": "high",
+    "reasoning": "Formulierung «gestützt auf Artikel 355e des Strafgesetzbuches (StGB) SR 311.0» verknüpft den genannten Artikel eindeutig mit SR 311.0."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 361",
+    "assigned_articles": ["Art. 16"],
+    "confidence": "high",
+    "reasoning": "Im selben Satz: «… und auf Artikel 16 des Bundesgesetzes … SR 361 … (BPI)»; Art. 16 gehört klar zum BPI (SR 361)."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": "SR 361",
+    "assigned_articles": ["Anhang 3"],
+    "confidence": "high",
+    "reasoning": "Text: «Diese Abk. sind in Anhang 3 BPI (SR 361) aufgeführt.»; der genannte Anhang 3 gehört zum BPI (SR 361)."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": "SR 142.51",
+    "assigned_articles": ["Art. 1"],
+    "confidence": "high",
+    "reasoning": "«… ZEMIS nach Artikel 1 des Bundesgesetzes … SR 142.51 …»; Art. 1 ist ausdrücklich dem Gesetz SR 142.51 zugeordnet."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": "SR 142.20",
+    "assigned_articles": ["Art. 104a"],
+    "confidence": "high",
+    "reasoning": "«… API-System nach Artikel 104a des Ausländer- und Integrationsgesetzes … SR 142.20 …»; Art. 104a gehört zu SR 142.20."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": "SR 170.512",
+    "assigned_articles": ["Art. 12 Abs. 2"],
+    "confidence": "high",
+    "reasoning": "Im Authorialnote-Text: «in Anwendung von Art. 12 Abs. 2 des Publikationsgesetzes … (SR 170.512)»; direkte Zuordnung."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": "SR 331",
+    "assigned_articles": ["Art. 21 Abs. 5"],
+    "confidence": "high",
+    "reasoning": "«(Art. 21 Abs. 5 der VOSTRA-Verordnung … SR 331)»; Artikelangabe steht unmittelbar bei der SR-Referenz."
+  },
+  {
+    "ITEM": 8,
+    "ARTICLE_EID": "art_6",
+    "TARGET_SR": "SR 321.0",
+    "assigned_articles": ["Art. 49a", "Art. 49abis"],
+    "confidence": "high",
+    "reasoning": "«… oder Artikel 49a oder 49abis des Militärstrafgesetzes … SR 321.0 …»; beide Artikel gehören zu SR 321.0."
+  },
+  {
+    "ITEM": 9,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": "SR 142.20",
+    "assigned_articles": ["Art. 67 Abs. 4", "Art. 68 Abs. 3"],
+    "confidence": "high",
+    "reasoning": "«… nach den Artikeln 67 Absatz 4 und 68 Absatz 3 AIG SR 142.20 zuständig …»; AIG = SR 142.20, direkte Verknüpfung."
+  },
+  {
+    "ITEM": 10,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": "SR 351.1",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "medium",
+    "reasoning": "«… im Zusammenhang mit Verfahren der internationalen Rechtshilfe nach dem Rechtshilfegesetz … SR 351.1» ohne Artikelangabe; allgemeine Gesetzesverweisung."
+  },
+  {
+    "ITEM": 11,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": "SR 0.211.230.02",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "medium",
+    "reasoning": "Verweis «nach dem Übereinkommen vom 25. Oktober 1980 SR 0.211.230.02 …» ohne konkrete Artikel; Gesamtübereinkommen gemeint."
+  },
+  {
+    "ITEM": 12,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": "SR 170.512.1",
+    "assigned_articles": ["Art. 20 Abs. 2"],
+    "confidence": "high",
+    "reasoning": "Authorialnote: «in Anwendung von Art. 20 Abs. 2 der Publikationsverordnung … (SR 170.512.1)»; klare Zuordnung."
+  },
+  {
+    "ITEM": 13,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": "SR 121",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "medium",
+    "reasoning": "«… für den Vollzug des Nachrichtendienstgesetzes … SR 121 (NDG) …» ohne Artikel; generelle Gesetzesgrundlage."
+  },
+  {
+    "ITEM": 14,
+    "ARTICLE_EID": "art_7_a",
+    "TARGET_SR": "SR 172.010",
+    "assigned_articles": ["Art. 7a"],
+    "confidence": "high",
+    "reasoning": "«… im Sinne von Artikel 7a des Regierungs- und Verwaltungsorganisationsgesetzes … SR 172.010 (RVOG) …»; Art. 7a gehört zu SR 172.010."
+  },
+  {
+    "ITEM": 15,
+    "ARTICLE_EID": "art_7_b",
+    "TARGET_SR": "SR 172.010",
+    "assigned_articles": ["Art. 7a"],
+    "confidence": "high",
+    "reasoning": "«… im Sinne von Artikel 7a RVOG SR 172.010 …»; RVOG = SR 172.010, Artikel 7a explizit genannt."
+  },
+  {
+    "ITEM": 16,
+    "ARTICLE_EID": "art_7_c",
+    "TARGET_SR": "SR 172.010",
+    "assigned_articles": ["Art. 7a"],
+    "confidence": "high",
+    "reasoning": "Auch hier: «… im Sinne von Artikel 7a RVOG SR 172.010 …»; gleiche eindeutige Verknüpfung."
+  },
+  {
+    "ITEM": 17,
+    "ARTICLE_EID": "art_17",
+    "TARGET_SR": "SR 741.01",
+    "assigned_articles": ["Art. 89a–89h"],
+    "confidence": "high",
+    "reasoning": "«… IVZ nach den Artikeln 89a–89h des Strassenverkehrsgesetzes … SR 741.01»; Bereichsangabe gehört zu SR 741.01."
+  },
+  {
+    "ITEM": 18,
+    "ARTICLE_EID": "art_17",
+    "TARGET_SR": "SR 143.1",
+    "assigned_articles": ["Art. 11"],
+    "confidence": "high",
+    "reasoning": "«… ISA nach Artikel 11 des Ausweisgesetzes … SR 143.1»; Art. 11 ist direkt dem Gesetz SR 143.1 zugeordnet."
+  },
+  {
+    "ITEM": 19,
+    "ARTICLE_EID": "art_18",
+    "TARGET_SR": "SR 142.20",
+    "assigned_articles": ["Art. 67 Abs. 4", "Art. 68 Abs. 3"],
+    "confidence": "high",
+    "reasoning": "«… nach Artikel 67 Absatz 4 oder 68 Absatz 3 AIG SR 142.20 …»; beide Artikel gehören zum AIG (SR 142.20)."
+  },
+  {
+    "ITEM": 20,
+    "ARTICLE_EID": "art_19_b",
+    "TARGET_SR": "SR 142.20",
+    "assigned_articles": ["Art. 68 Abs. 1"],
+    "confidence": "high",
+    "reasoning": "«… nach Artikel 68 Absatz 1 AIG SR 142.20 verfügten Entscheide …»; eindeutige Artikelzuordnung."
+  },
+  {
+    "ITEM": 21,
+    "ARTICLE_EID": "art_19_c",
+    "TARGET_SR": "SR 142.20",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "medium",
+    "reasoning": "«… die für den Vollzug des AIG SR 142.20 … zuständigen Behörden …»; keine konkrete Artikelnummer, allgemeiner Gesetzesvollzug."
+  },
+  {
+    "ITEM": 22,
+    "ARTICLE_EID": "art_19_c",
+    "TARGET_SR": "SR 0.142.112.681",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "medium",
+    "reasoning": "Verweis auf das Freizügigkeitsabkommen «Abkommen vom 21. Juni 1999 SR 0.142.112.681 …» ohne Artikel; Gesamtabkommen."
+  },
+  {
+    "ITEM": 23,
+    "ARTICLE_EID": "art_19_c",
+    "TARGET_SR": "SR 0.632.31",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "medium",
+    "reasoning": "«… Übereinkommen vom 4. Januar 1960 SR 0.632.31 zur Errichtung der EFTA …» ohne Artikelangabe; generelle Verweisung."
+  },
+  {
+    "ITEM": 24,
+    "ARTICLE_EID": "art_21",
+    "TARGET_SR": "SR 142.20",
+    "assigned_articles": ["Art. 67 Abs. 4", "Art. 68 Abs. 3"],
+    "confidence": "high",
+    "reasoning": "«… nach den Artikeln 67 Absatz 4 und 68 Absatz 3 AIG SR 142.20 verfügten Einreiseverbote …»; direkte Zuordnung."
+  },
+  {
+    "ITEM": 25,
+    "ARTICLE_EID": "art_22",
+    "TARGET_SR": "SR 142.20",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "medium",
+    "reasoning": "«… für den Vollzug des AIG SR 142.20 …» ohne konkrete Artikel; allgemeine Gesetzesgrundlage."
+  },
+  {
+    "ITEM": 26,
+    "ARTICLE_EID": "art_22",
+    "TARGET_SR": "SR 0.142.112.681",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "medium",
+    "reasoning": "Wie bei ITEM 22: Freizügigkeitsabkommen SR 0.142.112.681 ohne Artikelangabe; Gesamtabkommen."
+  },
+  {
+    "ITEM": 27,
+    "ARTICLE_EID": "art_22",
+    "TARGET_SR": "SR 0.632.31",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "medium",
+    "reasoning": "Wie bei ITEM 23: EFTA-Übereinkommen SR 0.632.31 ohne Artikelangabe; generelle Verweisung."
+  },
+  {
+    "ITEM": 28,
+    "ARTICLE_EID": "art_34",
+    "TARGET_SR": "SR 235.3",
+    "assigned_articles": ["Art. 7 Abs. 1"],
+    "confidence": "high",
+    "reasoning": "«… sofern dies in Einklang steht mit Artikel 7 Absatz 1 des Bundesgesetzes … SR 235.3 …»; klare Artikelzuordnung."
+  },
+  {
+    "ITEM": 29,
+    "ARTICLE_EID": "art_38",
+    "TARGET_SR": "SR 312.0",
+    "assigned_articles": ["Art. 286 Abs. 2"],
+    "confidence": "high",
+    "reasoning": "«… Straftaten nach Artikel 286 Absatz 2 der Strafprozessordnung SR 312.0.»; eindeutige Verknüpfung."
+  },
+  {
+    "ITEM": 30,
+    "ARTICLE_EID": "art_50",
+    "TARGET_SR": "SR 235.11",
+    "assigned_articles": ["Art. 16"],
+    "confidence": "high",
+    "reasoning": "«… in der Form nach Artikel 16 der Datenschutzverordnung … SR 235.11 (DSV) …»; Art. 16 gehört zur DSV (SR 235.11)."
+  },
+  {
+    "ITEM": 31,
+    "ARTICLE_EID": "art_50",
+    "TARGET_SR": "SR 235.1",
+    "assigned_articles": ["Art. 41"],
+    "confidence": "high",
+    "reasoning": "«… richtet sich nach Artikel 41 des Datenschutzgesetzes … SR 235.1 (DSG).»; direkte Artikelangabe."
+  },
+  {
+    "ITEM": 32,
+    "ARTICLE_EID": "art_51",
+    "TARGET_SR": "SR 235.1",
+    "assigned_articles": ["Art. 25", "Art. 26"],
+    "confidence": "high",
+    "reasoning": "Snippet verweist auf «Artikel 25 DSG» und «Artikel 26 DSG»; DSG = SR 235.1, beide Artikel gehören zu diesem Gesetz."
+  },
+  {
+    "ITEM": 33,
+    "ARTICLE_EID": "art_52",
+    "TARGET_SR": "SR 170.32",
+    "assigned_articles": ["Art. 19a–19c"],
+    "confidence": "high",
+    "reasoning": "«… nach den Artikeln 19a–19c des Verantwortlichkeitsgesetzes … SR 170.32.»; Bereichsangabe gehört zu SR 170.32."
+  },
+  {
+    "ITEM": 34,
+    "ARTICLE_EID": "art_53",
+    "TARGET_SR": "SR 235.11",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "medium",
+    "reasoning": "«der DSV SR 235.11;» ohne Artikelangabe; allgemeiner Verweis auf die Datenschutzverordnung."
+  },
+  {
+    "ITEM": 35,
+    "ARTICLE_EID": "art_53",
+    "TARGET_SR": "SR 128.1",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "medium",
+    "reasoning": "«der Informationssicherheitsverordnung vom 8. November 2023 SR 128.1;» ohne Artikel; generelle Verweisung."
+  },
+  {
+    "ITEM": 36,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": "SR 361",
+    "assigned_articles": ["Art. 15"],
+    "confidence": "high",
+    "reasoning": "«… RIPOL nach Artikel 15 BPI;» und BPI = SR 361 gemäss Preamble; Art. 15 gehört zu SR 361."
+  },
+  {
+    "ITEM": 37,
+    "ARTICLE_EID": "art_6",
+    "TARGET_SR": "SR 311.0",
+    "assigned_articles": ["Art. 66a", "Art. 66abis"],
+    "confidence": "high",
+    "reasoning": "«… Landesverweisungen nach Artikel 66a oder 66abis StGB …»; StGB = SR 311.0, beide Artikel gehören dazu."
+  },
+  {
+    "ITEM": 38,
+    "ARTICLE_EID": "art_6",
+    "TARGET_SR": "SR 361",
+    "assigned_articles": ["Art. 16 Abs. 2", "Art. 16 Abs. 4 Bst. a–j"],
+    "confidence": "high",
+    "reasoning": "Mehrere Verweise: «Artikel 16 Absatz 2 BPI», «Artikel 16 Absatz 4 Buchstaben a–j BPI», «Artikel 16 Absatz 2 Buchstaben d und e BPI»; alle beziehen sich auf BPI = SR 361."
+  },
+  {
+    "ITEM": 39,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": "SR 361",
+    "assigned_articles": ["Art. 16 Abs. 2"],
+    "confidence": "high",
+    "reasoning": "«… Aufgaben nach Artikel 16 Absatz 2 BPI …»; BPI = SR 361, Art. 16 Abs. 2 eindeutig zugeordnet."
+  },
+  {
+    "ITEM": 40,
+    "ARTICLE_EID": "art_50",
+    "TARGET_SR": "SR 361",
+    "assigned_articles": ["Art. 8a"],
+    "confidence": "high",
+    "reasoning": "«Artikel 8a BPI bleibt vorbehalten …»; BPI = SR 361, Art. 8a gehört zu diesem Gesetz."
+  },
+  {
+    "ITEM": 41,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "high",
+    "reasoning": "Verweise nur auf Artikel von EU-Verordnungen; keine SR-Nummer im Kontext, daher reine Selbstreferenz/EU-Bezug."
+  },
+  {
+    "ITEM": 42,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": "SR 361",
+    "assigned_articles": ["Art. 15"],
+    "confidence": "high",
+    "reasoning": "«… RIPOL nach Artikel 15 BPI;»; BPI = SR 361, Art. 15 gehört zu SR 361 (entspricht ITEM 36)."
+  },
+  {
+    "ITEM": 43,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": "SR 142.51",
+    "assigned_articles": ["Art. 1"],
+    "confidence": "high",
+    "reasoning": "«… ZEMIS nach Artikel 1 des Bundesgesetzes … über das Informationssystem für den Ausländer- und den Asylbereich;»; dieses Gesetz ist SR 142.51 (vgl. ITEM 4)."
+  },
+  {
+    "ITEM": 44,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "high",
+    "reasoning": "«Bearbeitungsreglement nach Artikel 3 Absatz 2» bezieht sich auf Art. 3 derselben Verordnung; keine SR-Verweisung."
+  },
+  {
+    "ITEM": 45,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": "SR 331",
+    "assigned_articles": ["Art. 21 Abs. 5"],
+    "confidence": "high",
+    "reasoning": "«(Art. 21 Abs. 5 der VOSTRA-Verordnung …)»; VOSTRA-Verordnung ist SR 331 (vgl. ITEM 7)."
+  },
+  {
+    "ITEM": 46,
+    "ARTICLE_EID": "art_6",
+    "TARGET_SR": "SR 361",
+    "assigned_articles": ["Art. 16 Abs. 2"],
+    "confidence": "high",
+    "reasoning": "«… nach Artikel 16 Absatz 2 BPI …»; BPI = SR 361, Art. 16 Abs. 2 gehört dazu (wie ITEM 38/39)."
+  },
+  {
+    "ITEM": 47,
+    "ARTICLE_EID": "art_6",
+    "TARGET_SR": "SR 361",
+    "assigned_articles": ["Art. 16 Abs. 4 Bst. a–j"],
+    "confidence": "high",
+    "reasoning": "«… Behörden nach Artikel 16 Absatz 4 Buchstaben a–j BPI;»; BPI = SR 361, konkrete Absatz- und Buchstabenangabe."
+  },
+  {
+    "ITEM": 48,
+    "ARTICLE_EID": "art_6",
+    "TARGET_SR": "SR 361",
+    "assigned_articles": ["Art. 16 Abs. 2 Bst. d", "Art. 16 Abs. 2 Bst. e"],
+    "confidence": "high",
+    "reasoning": "«… nach Artikel 16 Absatz 2 Buchstaben d und e BPI …»; BPI = SR 361, beide Buchstaben gehören zu diesem Absatz."
+  },
+  {
+    "ITEM": 49,
+    "ARTICLE_EID": "art_6",
+    "TARGET_SR": "SR 311.0",
+    "assigned_articles": ["Art. 66a", "Art. 66abis"],
+    "confidence": "high",
+    "reasoning": "«… nach Artikel 66a oder 66abis StGB …»; StGB = SR 311.0, beide Artikel gehören dazu (wie ITEM 37)."
+  },
+  {
+    "ITEM": 50,
+    "ARTICLE_EID": "art_7_a",
+    "TARGET_SR": "SR 172.010",
+    "assigned_articles": ["Art. 7a"],
+    "confidence": "high",
+    "reasoning": "«… im Sinne von Artikel 7a des Regierungs- und Verwaltungsorganisationsgesetzes … (RVOG)»; RVOG = SR 172.010 (vgl. ITEM 14)."
+  },
+  {
+    "ITEM": 51,
+    "ARTICLE_EID": "art_7_a",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "high",
+    "reasoning": "Verweise auf Artikel von EU-Verordnungen; keine SR-Nummer, daher keine Zuordnung zu einem SR-Dokument."
+  },
+  {
+    "ITEM": 52,
+    "ARTICLE_EID": "art_7_a",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "high",
+    "reasoning": "Nur EU-Verordnungsartikel genannt; keine SR-Verweisung."
+  },
+  {
+    "ITEM": 53,
+    "ARTICLE_EID": "art_7_a",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "high",
+    "reasoning": "Bezug auf Art. 12 der Verordnung (EU) 2018/1862; kein SR-Bezug."
+  },
+  {
+    "ITEM": 54,
+    "ARTICLE_EID": "art_7_a",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "high",
+    "reasoning": "Nur Artikel von EU-Verordnungen; keine SR-Nummer im Kontext."
+  },
+  {
+    "ITEM": 55,
+    "ARTICLE_EID": "art_7_a",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "high",
+    "reasoning": "Verweis auf Art. 32 Abs. 9 der Verordnung (EU) 2018/1862; kein SR-Dokument."
+  },
+  {
+    "ITEM": 56,
+    "ARTICLE_EID": "art_7_a",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "high",
+    "reasoning": "Nur EU-Verordnungsartikel (2018/1861, 2018/1862); keine SR-Verweisung."
+  },
+  {
+    "ITEM": 57,
+    "ARTICLE_EID": "art_7_a",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "high",
+    "reasoning": "Bezug auf Art. 47 Abs. 4 und Art. 62 Abs. 4 EU-Verordnungen; kein SR-Bezug."
+  },
+  {
+    "ITEM": 58,
+    "ARTICLE_EID": "art_7_a",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "high",
+    "reasoning": "Verweis auf EU-Verordnungen (2018/1861, 2018/1862); keine SR-Nummer."
+  },
+  {
+    "ITEM": 59,
+    "ARTICLE_EID": "art_7_a",
+    "TARGET_SR": "SR 172.010",
+    "assigned_articles": ["Art. 7a"],
+    "confidence": "high",
+    "reasoning": "«… im Sinne von Artikel 7a RVOG …»; RVOG = SR 172.010, Art. 7a eindeutig zugeordnet (wie ITEM 15/16)."
+  },
+  {
+    "ITEM": 60,
+    "ARTICLE_EID": "art_7_a",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "high",
+    "reasoning": "Nur Artikel einer EU-Verordnung genannt; kein SR-Dokument im Satz."
+  },
+  {
+    "ITEM": 61,
+    "ARTICLE_EID": "art_7_a",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "high",
+    "reasoning": "Verweis auf Art. 38 Abs. 3 der Verordnung (EU) 2018/1862; kein SR-Bezug."
+  },
+  {
+    "ITEM": 62,
+    "ARTICLE_EID": "art_7_b",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "high",
+    "reasoning": "Nur EU-Verordnungen (2019/817, 2019/818) erwähnt; keine SR-Nummer."
+  },
+  {
+    "ITEM": 63,
+    "ARTICLE_EID": "art_7_b",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "high",
+    "reasoning": "Bezug auf Art. 28 Abs. 7 EU-Verordnungen; kein SR-Dokument."
+  },
+  {
+    "ITEM": 64,
+    "ARTICLE_EID": "art_7_b",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "high",
+    "reasoning": "Nur EU-Verordnungen genannt; keine SR-Verweisung."
+  },
+  {
+    "ITEM": 65,
+    "ARTICLE_EID": "art_7_b",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "high",
+    "reasoning": "Verweis auf Art. 9 Abs. 7 EU-Verordnungen; kein SR-Bezug."
+  },
+  {
+    "ITEM": 66,
+    "ARTICLE_EID": "art_7_b",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "high",
+    "reasoning": "Bezug auf Art. 13 Abs. 5 EU-Verordnungen; keine SR-Nummer."
+  },
+  {
+    "ITEM": 67,
+    "ARTICLE_EID": "art_7_b",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "high",
+    "reasoning": "Verweis auf Art. 74 Abs. 10 und Art. 78 Abs. 10 EU-Verordnungen; kein SR-Dokument."
+  },
+  {
+    "ITEM": 68,
+    "ARTICLE_EID": "art_9",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "high",
+    "reasoning": "«… nach Artikel 13 Absatz 4 …» bezieht sich auf Artikel derselben Verordnung; keine SR-Nummer."
+  },
+  {
+    "ITEM": 69,
+    "ARTICLE_EID": "art_9",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "high",
+    "reasoning": "«… nach Artikel 40 Absatz 1 …» ist eine interne Verweisstruktur; kein SR-Bezug."
+  },
+  {
+    "ITEM": 70,
+    "ARTICLE_EID": "art_9",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "high",
+    "reasoning": "«… nach Artikel 14 vor.»; interner Artikelverweis."
+  },
+  {
+    "ITEM": 71,
+    "ARTICLE_EID": "art_9",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "high",
+    "reasoning": "«… nach Artikel 42.»; interner Verweis ohne SR-Nummer."
+  },
+  {
+    "ITEM": 72,
+    "ARTICLE_EID": "art_9",
+    "TARGET_SR": "SR 361",
+    "assigned_articles": ["Art. 11", "Art. 11a", "Art. 11b"],
+    "confidence": "medium",
+    "reasoning": "«… nach den Artikeln 11–11b …»; im Kontext des BPI (SR 361). Bereich 11–11b gehört plausibel zum BPI; keine andere SR genannt."
+  },
+  {
+    "ITEM": 73,
+    "ARTICLE_EID": "art_9_b",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "high",
+    "reasoning": "Verweist nur auf Artikel von EU-Verordnungen; kein SR-Dokument."
+  },
+  {
+    "ITEM": 74,
+    "ARTICLE_EID": "art_9_c",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "high",
+    "reasoning": "Nur EU-Verordnungen genannt; keine SR-Nummer."
+  },
+  {
+    "ITEM": 75,
+    "ARTICLE_EID": "art_11",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "high",
+    "reasoning": "Verweis auf EU-Verordnungen (2018/1862, 2018/1861); kein SR-Bezug."
+  },
+  {
+    "ITEM": 76,
+    "ARTICLE_EID": "art_14_b",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "high",
+    "reasoning": "«… wenn die Voraussetzungen nach Artikel 36 Absatz 5 der Verordnung (EU) 2018/1862 erfüllt sind.»; nur EU-Verordnung."
+  },
+  {
+    "ITEM": 77,
+    "ARTICLE_EID": "art_15",
+    "TARGET_SR": "SR 361",
+    "assigned_articles": ["Art. 33"],
+    "confidence": "medium",
+    "reasoning": "«… nach Artikel 33.»; im Kontext der gleichen Verordnung (BPI, SR 361). Artikel 33 gehört zum BPI; keine andere SR genannt."
+  },
+  {
+    "ITEM": 78,
+    "ARTICLE_EID": "art_15",
+    "TARGET_SR": "SR 361",
+    "assigned_articles": ["Art. 26", "Art. 33 Abs. 2 Bst. c"],
+    "confidence": "medium",
+    "reasoning": "«Vorbehalten bleiben die Artikel 26 und 33 Absatz 2 Buchstabe c.»; im Kontext des BPI (SR 361)."
+  },
+  {
+    "ITEM": 79,
+    "ARTICLE_EID": "art_16",
+    "TARGET_SR": "SR 361",
+    "assigned_articles": ["Art. 24", "Art. 25"],
+    "confidence": "medium",
+    "reasoning": "«… Verfahren … (Art. 24 und 25).»; bezieht sich auf Artikel derselben Verordnung (BPI, SR 361)."
+  },
+  {
+    "ITEM": 80,
+    "ARTICLE_EID": "art_17",
+    "TARGET_SR": "SR 741.01",
+    "assigned_articles": ["Art. 89a–89h"],
+    "confidence": "high",
+    "reasoning": "«… IVZ nach den Artikeln 89a–89h des Strassenverkehrsgesetzes …»; dieses Gesetz ist SR 741.01 (vgl. ITEM 17)."
+  },
+  {
+    "ITEM": 81,
+    "ARTICLE_EID": "art_17",
+    "TARGET_SR": "SR 143.1",
+    "assigned_articles": ["Art. 11"],
+    "confidence": "high",
+    "reasoning": "«… ISA nach Artikel 11 des Ausweisgesetzes …»; Ausweisgesetz ist SR 143.1 (vgl. ITEM 18)."
+  },
+  {
+    "ITEM": 82,
+    "ARTICLE_EID": "art_19_d",
+    "TARGET_SR": "SR 361",
+    "assigned_articles": ["Art. 19b Abs. 1"],
+    "confidence": "medium",
+    "reasoning": "«… Behörden nach Artikel 19b Absatz 1 …»; interner Verweis innerhalb derselben Verordnung (BPI, SR 361)."
+  },
+  {
+    "ITEM": 83,
+    "ARTICLE_EID": "art_24",
+    "TARGET_SR": "SR 361",
+    "assigned_articles": ["Art. 14a Abs. 2 Bst. a"],
+    "confidence": "medium",
+    "reasoning": "«… nach Artikel 14a Absatz 2 Buchstabe a …»; interner Artikel der BPI (SR 361)."
+  },
+  {
+    "ITEM": 84,
+    "ARTICLE_EID": "art_25",
+    "TARGET_SR": "SR 361",
+    "assigned_articles": ["Art. 24 Abs. 1"],
+    "confidence": "medium",
+    "reasoning": "«… Behörde nach Artikel 24 Absatz 1 …»; interner Verweis innerhalb der BPI (SR 361)."
+  },
+  {
+    "ITEM": 85,
+    "ARTICLE_EID": "art_26",
+    "TARGET_SR": "SR 361",
+    "assigned_articles": ["Art. 25a"],
+    "confidence": "medium",
+    "reasoning": "«… wenn eine Ausschreibung nach Artikel 25a verborgen wurde.»; Artikel 25a derselben Verordnung (BPI, SR 361)."
+  },
+  {
+    "ITEM": 86,
+    "ARTICLE_EID": "art_29",
+    "TARGET_SR": "SR 361",
+    "assigned_articles": ["Art. 28 Bst. a"],
+    "confidence": "medium",
+    "reasoning": "«… nach Artikel 28 Buchstabe a ausgeschrieben …»; interner Verweis auf Art. 28 Bst. a BPI (SR 361)."
+  },
+  {
+    "ITEM": 87,
+    "ARTICLE_EID": "art_29",
+    "TARGET_SR": "SR 361",
+    "assigned_articles": ["Art. 28 Bst. c"],
+    "confidence": "medium",
+    "reasoning": "«… nach Artikel 28 Buchstabe c …»; interner Verweis auf Art. 28 Bst. c BPI (SR 361)."
+  },
+  {
+    "ITEM": 88,
+    "ARTICLE_EID": "art_29",
+    "TARGET_SR": "SR 361",
+    "assigned_articles": ["Art. 28 Bst. a", "Art. 28 Bst. c"],
+    "confidence": "medium",
+    "reasoning": "«… zu den Personen nach Artikel 28 Buchstaben a und c.»; beide Buchstaben des Art. 28 der BPI (SR 361)."
+  },
+  {
+    "ITEM": 89,
+    "ARTICLE_EID": "art_29",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "high",
+    "reasoning": "Verweis auf Art. 32 der Verordnung (EU) 2018/1862; kein SR-Dokument."
+  },
+  {
+    "ITEM": 90,
+    "ARTICLE_EID": "art_29",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "high",
+    "reasoning": "Bezug auf Art. 42 Abs. 3 und 4 der Verordnung (EU) 2018/1862 und einen EU-Beschluss; kein SR-Bezug."
+  },
+  {
+    "ITEM": 91,
+    "ARTICLE_EID": "art_29",
+    "TARGET_SR": "SR 361",
+    "assigned_articles": ["Art. 14a"],
+    "confidence": "medium",
+    "reasoning": "«… nach Artikel 14a …»; interner Artikel der BPI (SR 361)."
+  },
+  {
+    "ITEM": 92,
+    "ARTICLE_EID": "art_30",
+    "TARGET_SR": "SR 361",
+    "assigned_articles": ["Art. 28 Bst. a", "Art. 28 Bst. c"],
+    "confidence": "medium",
+    "reasoning": "«… zu Personen nach Artikel 28 Buchstaben a und c …»; interner Verweis auf Art. 28 Bst. a und c BPI (SR 361)."
+  },
+  {
+    "ITEM": 93,
+    "ARTICLE_EID": "art_30",
+    "TARGET_SR": "SR 361",
+    "assigned_articles": ["Art. 28 Bst. a"],
+    "confidence": "medium",
+    "reasoning": "«… Personen, die nach Artikel 28 Buchstabe a ausgeschrieben sind …»; interner Artikel der BPI (SR 361)."
+  },
+  {
+    "ITEM": 94,
+    "ARTICLE_EID": "art_31",
+    "TARGET_SR": "SR 361",
+    "assigned_articles": ["Art. 14a"],
+    "confidence": "medium",
+    "reasoning": "«… nach Artikel 14a …»; interner Verweis auf Art. 14a BPI (SR 361)."
+  },
+  {
+    "ITEM": 95,
+    "ARTICLE_EID": "art_33",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "high",
+    "reasoning": "Verweis auf Art. 14b und Art. 36 Abs. 5 der Verordnung 2018/1862; letzterer ist EU-Recht, ersterer interner Artikel; kein SR-Dokument."
+  },
+  {
+    "ITEM": 96,
+    "ARTICLE_EID": "art_34",
+    "TARGET_SR": "SR 361",
+    "assigned_articles": ["Art. 33 Abs. 1"],
+    "confidence": "medium",
+    "reasoning": "«… Gegenstände nach Artikel 33 Absatz 1;»; interner Verweis auf Art. 33 Abs. 1 BPI (SR 361)."
+  },
+  {
+    "ITEM": 97,
+    "ARTICLE_EID": "art_34",
+    "TARGET_SR": "SR 361",
+    "assigned_articles": ["Art. 33 Abs. 1"],
+    "confidence": "medium",
+    "reasoning": "«… nach Artikel 33 Absatz 1;»; ebenfalls interner Verweis auf Art. 33 Abs. 1 BPI (SR 361)."
+  },
+  {
+    "ITEM": 98,
+    "ARTICLE_EID": "art_34",
+    "TARGET_SR": "SR 235.3",
+    "assigned_articles": ["Art. 7 Abs. 1"],
+    "confidence": "high",
+    "reasoning": "Entspricht ITEM 28: «… in Einklang steht mit Artikel 7 Absatz 1 des Bundesgesetzes … SR 235.3 …»."
+  },
+  {
+    "ITEM": 99,
+    "ARTICLE_EID": "art_34",
+    "TARGET_SR": "SR 361",
+    "assigned_articles": ["Art. 14b"],
+    "confidence": "medium",
+    "reasoning": "«… mit einer Ausschreibung nach Artikel 14b verknüpft …»; interner Artikel der BPI (SR 361)."
+  },
+  {
+    "ITEM": 100,
+    "ARTICLE_EID": "art_34",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "high",
+    "reasoning": "Verweis auf Art. 37 Abs. 3–5 der Verordnung (EU) 2018/1862; kein SR-Dokument."
+  },
+  {
+    "ITEM": 101,
+    "ARTICLE_EID": "art_37",
+    "TARGET_SR": "SR 361",
+    "assigned_articles": ["Art. 9 Bst. m", "Art. 9 Bst. n"],
+    "confidence": "medium",
+    "reasoning": "«… nach Artikel 9 Buchstabe m … nach Artikel 9 Buchstabe n.»; interne Buchstaben des Art. 9 BPI (SR 361)."
+  },
+  {
+    "ITEM": 102,
+    "ARTICLE_EID": "art_38",
+    "TARGET_SR": "SR 312.0",
+    "assigned_articles": ["Art. 286 Abs. 2"],
+    "confidence": "high",
+    "reasoning": "Entspricht ITEM 29: «… nach Artikel 286 Absatz 2 der Strafprozessordnung.»; SR 312.0."
+  },
+  {
+    "ITEM": 103,
+    "ARTICLE_EID": "art_40",
+    "TARGET_SR": "SR 361",
+    "assigned_articles": ["Art. 41"],
+    "confidence": "medium",
+    "reasoning": "«… so wendet das SIRENE-Büro das Verfahren nach Artikel 41 an.»; interner Verweis auf Art. 41 BPI (SR 361)."
+  },
+  {
+    "ITEM": 104,
+    "ARTICLE_EID": "art_41",
+    "TARGET_SR": "SR 361",
+    "assigned_articles": ["Art. 9c"],
+    "confidence": "medium",
+    "reasoning": "«… anhand von Artikel 9c und der SIRENE-Handbücher …»; Art. 9c ist interner Artikel der BPI (SR 361)."
+  },
+  {
+    "ITEM": 105,
+    "ARTICLE_EID": "art_43",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "high",
+    "reasoning": "Verweist nur auf EU-Verordnungen (2018/1862, 2018/1861, 2018/1860); kein SR-Dokument."
+  },
+  {
+    "ITEM": 106,
+    "ARTICLE_EID": "art_43",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "high",
+    "reasoning": "Bezug auf Art. 53 Abs. 9 und Art. 39 Abs. 7 EU-Verordnungen; kein SR-Bezug."
+  },
+  {
+    "ITEM": 107,
+    "ARTICLE_EID": "art_44",
+    "TARGET_SR": "SR 361",
+    "assigned_articles": ["Art. 43 Abs. 3 Bst. c–g"],
+    "confidence": "medium",
+    "reasoning": "«… nach Artikel 43 Absatz 3 Buchstaben c–g.»; interner Verweis auf Art. 43 BPI (SR 361)."
+  },
+  {
+    "ITEM": 108,
+    "ARTICLE_EID": "art_44",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "high",
+    "reasoning": "Verweis auf Art. 54 Abs. 4 der Verordnung (EU) 2018/1862; kein SR-Dokument."
+  },
+  {
+    "ITEM": 109,
+    "ARTICLE_EID": "art_44",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "high",
+    "reasoning": "Bezug auf Art. 55 und Art. 40 EU-Verordnungen; kein SR-Bezug."
+  },
+  {
+    "ITEM": 110,
+    "ARTICLE_EID": "art_46_a",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "high",
+    "reasoning": "Verweis auf Art. 15 der Verordnung (EU) 2018/1860; kein SR-Dokument."
+  },
+  {
+    "ITEM": 111,
+    "ARTICLE_EID": "art_47",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "high",
+    "reasoning": "Bezug auf Art. 48 der Verordnung (EU) 2018/1862; kein SR-Bezug."
+  },
+  {
+    "ITEM": 112,
+    "ARTICLE_EID": "art_47",
+    "TARGET_SR": "SR 361",
+    "assigned_articles": ["Art. 23", "Art. 28", "Art. 31", "Art. 34a", "Art. 35"],
+    "confidence": "medium",
+    "reasoning": "«… nach den Artikeln 23, 28, 31, 34a und 35 in das SIS eingegebenen Daten.»; im Kontext der BPI (SR 361), daher interne Artikel dieser Verordnung."
+  },
+  {
+    "ITEM": 113,
+    "ARTICLE_EID": "art_49",
+    "TARGET_SR": "SR 361",
+    "assigned_articles": ["Art. 7 Abs. 1 Bst. a Ziff. 8", "Art. 7 Abs. 1 Bst. hbis", "Art. 7 Abs. 1 Bst. hter", "Art. 7 Abs. 1 Bst. j–l"],
+    "confidence": "medium",
+    "reasoning": "«… nach Artikel 7 Absatz 1 Buchstabe a Ziffer 8, hbis, hter, j–l …»; interner Verweis auf Art. 7 BPI (SR 361)."
+  },
+  {
+    "ITEM": 114,
+    "ARTICLE_EID": "art_49",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "high",
+    "reasoning": "Verweis auf Art. 31 der Verordnung (EU) 2018/1861 und Art. 13 der Verordnung (EU) 2018/1860; kein SR-Dokument."
+  },
+  {
+    "ITEM": 115,
+    "ARTICLE_EID": "art_50",
+    "TARGET_SR": "SR 235.11",
+    "assigned_articles": ["Art. 16"],
+    "confidence": "high",
+    "reasoning": "Entspricht ITEM 30/31-Kontext: «… nach Artikel 16 der Datenschutzverordnung … (DSV)»; DSV = SR 235.11."
+  },
+  {
+    "ITEM": 116,
+    "ARTICLE_EID": "art_51_a",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "high",
+    "reasoning": "Verweis nur auf EU-Verordnungen (2018/1862, 2018/1861, 2018/1860); kein SR-Dokument."
+  },
+  {
+    "ITEM": 117,
+    "ARTICLE_EID": "art_52",
+    "TARGET_SR": "SR 170.32",
+    "assigned_articles": ["Art. 19a–19c"],
+    "confidence": "high",
+    "reasoning": "Entspricht ITEM 33: «… nach den Artikeln 19a–19c des Verantwortlichkeitsgesetzes …»; SR 170.32."
+  },
+  {
+    "ITEM": 118,
+    "ARTICLE_EID": "art_53",
+    "TARGET_SR": "SR 361",
+    "assigned_articles": ["Art. 3 Abs. 2"],
+    "confidence": "medium",
+    "reasoning": "«… im Bearbeitungsreglement nach Artikel 3 Absatz 2 …»; interner Verweis auf Art. 3 Abs. 2 BPI (SR 361)."
+  },
+  {
+    "ITEM": 119,
+    "ARTICLE_EID": "art_53_a",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "high",
+    "reasoning": "Verweis auf Art. 12 der Verordnungen (EU) 2018/1862 und 2018/1861; kein SR-Dokument."
+  }
+]

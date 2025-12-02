@@ -1,0 +1,72 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 732.2",
+    "assigned_articles": [
+      "Art. 24 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Formulierung «gestützt auf Artikel 24 Absatz 1 des Bundesgesetzes ... SR 732.2» verweist eindeutig auf Art. 24 Abs. 1 des genannten Bundesgesetzes über das ENSI."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": "SR 946.512",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Norm verlangt eine Akkreditierung «nach der Akkreditierungs- und Bezeichnungsverordnung ... SR 946.512», ohne konkrete Artikelangabe; es handelt sich um eine generelle Verweisung auf die Verordnung als Ganzes."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": "SR 0.732.011",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Hinweis «Siehe Statut der IAEA (SR 0.732.011)» bezieht sich allgemein auf das Statut; keine spezifischen Artikel werden genannt, daher Gesamtverweisung."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_4_a",
+    "TARGET_SR": "SR 732.1",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Passage «an einem Verfahren nach dem Kernenergiegesetz ... SR 732.1 (KEG)» verweist auf das KEG als Rechtsgrundlage für Verfahren insgesamt, ohne einzelne Artikel zu spezifizieren."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_4_b",
+    "TARGET_SR": "SR 732.1",
+    "assigned_articles": [
+      "Art. 12"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Satz «wo ein Rahmenbewilligungsgesuch nach Artikel 12 KEG SR 732.1 eingereicht wurde» ist Art. 12 ausdrücklich mit dem KEG (SR 732.1) verknüpft; damit klare Zuordnung zu Art. 12 KEG."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_9",
+    "TARGET_SR": "SR 172.021",
+    "assigned_articles": [
+      "Art. 10"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Ausstandspflicht richtet sich «nach Artikel 10 des Bundesgesetzes ... SR 172.021 über das Verwaltungsverfahren»; Art. 10 ist direkt mit diesem Gesetz verknüpft."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_9",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "Dies ist eine artikel_reference ohne explizite SR-Angabe; derselbe Satz wird in ITEM 6 bereits mit SR 172.021 verknüpft. Hier dient der Verweis auf «Artikel 10» als Selbstreferenz innerhalb des aktuellen Dokuments und wird nicht erneut einem externen SR zugeordnet."
+  }
+]

@@ -1,0 +1,306 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 101",
+    "assigned_articles": ["Art. 122"],
+    "confidence": "high",
+    "reasoning": "Die Formulierung «gestützt auf Artikel 122 der Bundesverfassung SR 101» verknüpft den genannten Artikel direkt mit SR 101; eindeutige Zuordnung."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_20",
+    "TARGET_SR": "SR 0.232.121.3",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "high",
+    "reasoning": "Es wird nur «nach dem Abkommen von Locarno … SR 0.232.121.3» erwähnt, ohne konkrete Artikelangabe; dies ist eine generelle Verweisung auf das Abkommen."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_22",
+    "TARGET_SR": "SR 0.232.01",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "high",
+    "reasoning": "Die Pariser Verbandsübereinkunft wird mit mehreren SR-Nummern genannt, aber ohne Artikel; der Kontext (Prioritätsrecht) verweist auf das Übereinkommen als Ganzes, nicht auf bestimmte Artikel."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_22",
+    "TARGET_SR": "0.232.02",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "high",
+    "reasoning": "Gleicher Satz wie bei ITEM 3; SR 0.232.02 ist eine der Fassungen/Teile der Verbandsübereinkunft, ohne Artikelangabe; generelle Verweisung."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_22",
+    "TARGET_SR": "0.232.03",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "high",
+    "reasoning": "Wie bei ITEM 3 und 4: SR 0.232.03 wird nur als Teil der Verbandsübereinkunft genannt, ohne Artikelspezifikation."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_22",
+    "TARGET_SR": "0.232.04",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "high",
+    "reasoning": "Auch hier nur Nennung der SR-Nummer im Rahmen der Verbandsübereinkunft, ohne konkrete Artikel; generelle Verweisung."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_29",
+    "TARGET_SR": "SR 0.232.121.2",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "high",
+    "reasoning": "Der Hinweis «Siehe heute: das Abk. … (SR 0.232.121.2)» ersetzt ein älteres Abkommen durch das neue; es werden keine Artikel genannt, daher allgemeine Verweisung auf das Abkommen."
+  },
+  {
+    "ITEM": 8,
+    "ARTICLE_EID": "art_30",
+    "TARGET_SR": "SR 232.148",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "high",
+    "reasoning": "Die Gebühren «richten sich nach der Gebührenordnung … (SR 232.148)»; es wird kein bestimmter Artikel dieser Verordnung genannt, sondern die Verordnung als Grundlage insgesamt."
+  },
+  {
+    "ITEM": 9,
+    "ARTICLE_EID": "art_35",
+    "TARGET_SR": "SR 220",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "medium",
+    "reasoning": "Es heisst «Klagen nach dem Obligationenrecht SR 220 … entsprechend den Bestimmungen über die Geschäftsführung ohne Auftrag»; die relevanten OR-Artikel (z.B. Art. 419 ff. OR) werden nicht ausdrücklich genannt, daher nur generelle Verweisung, obwohl der Sachbereich eingegrenzt ist."
+  },
+  {
+    "ITEM": 10,
+    "ARTICLE_EID": "art_42",
+    "TARGET_SR": "SR 313.0",
+    "assigned_articles": ["Art. 6", "Art. 7"],
+    "confidence": "high",
+    "reasoning": "Der Satz lautet: «gelten die Artikel 6 und 7 des Bundesgesetzes … SR 313.0 über das Verwaltungsstrafrecht»; die Artikel 6 und 7 werden ausdrücklich dem Verwaltungsstrafrecht (SR 313.0) zugeordnet."
+  },
+  {
+    "ITEM": 11,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": "SR 232.12",
+    "assigned_articles": ["Art. 1"],
+    "confidence": "high",
+    "reasoning": "«kein Design im Sinne von Artikel 1» bezieht sich mangels anderer SR-Nennung auf Art. 1 des eigenen Gesetzes (SR 232.12); interne Selbstverweisung."
+  },
+  {
+    "ITEM": 12,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": "SR 232.12",
+    "assigned_articles": ["Art. 2"],
+    "confidence": "high",
+    "reasoning": "«Voraussetzungen nach Artikel 2» ist eine interne Verweisung auf Art. 2 desselben Gesetzes (SR 232.12)."
+  },
+  {
+    "ITEM": 13,
+    "ARTICLE_EID": "art_11",
+    "TARGET_SR": "SR 232.12",
+    "assigned_articles": ["Art. 9"],
+    "confidence": "high",
+    "reasoning": "«Befugnisse nach Artikel 9» verweist ohne andere SR-Angabe auf Art. 9 des gleichen Gesetzes (SR 232.12)."
+  },
+  {
+    "ITEM": 14,
+    "ARTICLE_EID": "art_12",
+    "TARGET_SR": "SR 232.12",
+    "assigned_articles": ["Art. 26"],
+    "confidence": "high",
+    "reasoning": "«(Art. 26)» ist eine Kurzverweisung; im Kontext ohne andere SR ist dies Art. 26 des eigenen Gesetzes SR 232.12."
+  },
+  {
+    "ITEM": 15,
+    "ARTICLE_EID": "art_13",
+    "TARGET_SR": "SR 232.12",
+    "assigned_articles": ["Art. 31"],
+    "confidence": "high",
+    "reasoning": "«Weiterbehandlungsantrag (Art. 31)» ist eine interne Verweisung auf Art. 31 desselben Gesetzes."
+  },
+  {
+    "ITEM": 16,
+    "ARTICLE_EID": "art_19",
+    "TARGET_SR": "SR 232.12",
+    "assigned_articles": ["Art. 26"],
+    "confidence": "high",
+    "reasoning": "«Aufschub der Veröffentlichung nach Artikel 26» verweist intern auf Art. 26 des Gesetzes SR 232.12."
+  },
+  {
+    "ITEM": 17,
+    "ARTICLE_EID": "art_24",
+    "TARGET_SR": "SR 232.12",
+    "assigned_articles": ["Art. 19 Abs. 1", "Art. 19 Abs. 2"],
+    "confidence": "high",
+    "reasoning": "«formellen Erfordernisse nach Artikel 19 Absätze 1 und 2» ist eine klare interne Verweisung auf diese Absätze in Art. 19 des gleichen Gesetzes."
+  },
+  {
+    "ITEM": 18,
+    "ARTICLE_EID": "art_24",
+    "TARGET_SR": "SR 232.12",
+    "assigned_articles": ["Art. 4 Bst. a", "Art. 4 Bst. d", "Art. 4 Bst. e"],
+    "confidence": "high",
+    "reasoning": "«Ausschlussgrund nach Artikel 4 Buchstaben a, d oder e» verweist auf die genannten Buchstaben von Art. 4 des eigenen Gesetzes."
+  },
+  {
+    "ITEM": 19,
+    "ARTICLE_EID": "art_27",
+    "TARGET_SR": "SR 232.12",
+    "assigned_articles": ["Art. 26"],
+    "confidence": "high",
+    "reasoning": "«Artikel 26 bleibt vorbehalten» ist eine interne Verweisung auf Art. 26 desselben Gesetzes."
+  },
+  {
+    "ITEM": 20,
+    "ARTICLE_EID": "art_27",
+    "TARGET_SR": "SR 232.12",
+    "assigned_articles": ["Art. 2", "Art. 3", "Art. 4", "Art. 5", "Art. 6", "Art. 7", "Art. 8", "Art. 9", "Art. 10", "Art. 11", "Art. 12", "Art. 13", "Art. 14", "Art. 15", "Art. 16", "Art. 17"],
+    "confidence": "high",
+    "reasoning": "«(Art. 2–17)» bezeichnet einen internen Artikelsbereich; gemäss Vorgabe sind Bereiche als aufgelistete Einzelartikel auszugeben."
+  },
+  {
+    "ITEM": 21,
+    "ARTICLE_EID": "art_28",
+    "TARGET_SR": "SR 232.12",
+    "assigned_articles": ["Art. 5"],
+    "confidence": "high",
+    "reasoning": "«Schutzfrist nach Artikel 5» verweist intern auf Art. 5 des Gesetzes SR 232.12."
+  },
+  {
+    "ITEM": 22,
+    "ARTICLE_EID": "art_41_a",
+    "TARGET_SR": "SR 232.12",
+    "assigned_articles": ["Art. 9 Abs. 1bis"],
+    "confidence": "high",
+    "reasoning": "«Handlungen nach Artikel 9 Absatz 1bis» ist eine interne Verweisung auf diesen Absatz in Art. 9 des eigenen Gesetzes."
+  },
+  {
+    "ITEM": 23,
+    "ARTICLE_EID": "art_42",
+    "TARGET_SR": "SR 313.0",
+    "assigned_articles": ["Art. 6", "Art. 7"],
+    "confidence": "high",
+    "reasoning": "Der Text wiederholt sinngemäss ITEM 10: «gelten die Artikel 6 und 7 … über das Verwaltungsstrafrecht»; diese Artikel gehören zu SR 313.0."
+  },
+  {
+    "ITEM": 24,
+    "ARTICLE_EID": "art_46",
+    "TARGET_SR": "SR 232.12",
+    "assigned_articles": ["Art. 47"],
+    "confidence": "high",
+    "reasoning": "«Antrag nach Artikel 47» verweist intern auf Art. 47 des gleichen Gesetzes."
+  },
+  {
+    "ITEM": 25,
+    "ARTICLE_EID": "art_47",
+    "TARGET_SR": "SR 232.12",
+    "assigned_articles": ["Art. 48c", "Art. 49"],
+    "confidence": "high",
+    "reasoning": "«im ordentlichen Verfahren (Art. 48c–49)» bezeichnet einen internen Bereich; gemäss Vorgabe werden die Randartikel des Bereichs (48c und 49) als Liste ausgegeben."
+  },
+  {
+    "ITEM": 26,
+    "ARTICLE_EID": "art_47",
+    "TARGET_SR": "SR 232.12",
+    "assigned_articles": ["Art. 49a"],
+    "confidence": "high",
+    "reasoning": "«im vereinfachten Verfahren (Art. 49a)» ist eine interne Verweisung auf Art. 49a."
+  },
+  {
+    "ITEM": 27,
+    "ARTICLE_EID": "art_47",
+    "TARGET_SR": "SR 232.12",
+    "assigned_articles": ["Art. 48 Abs. 3", "Art. 48 Abs. 4"],
+    "confidence": "high",
+    "reasoning": "«Fristen nach Artikel 48 Absätze 3 und 4» verweist intern auf diese Absätze in Art. 48."
+  },
+  {
+    "ITEM": 28,
+    "ARTICLE_EID": "art_48",
+    "TARGET_SR": "SR 232.12",
+    "assigned_articles": ["Art. 47 Abs. 1"],
+    "confidence": "high",
+    "reasoning": "«aufgrund eines Antrags auf Hilfeleistung nach Artikel 47 Absatz 1» ist eine interne Verweisung auf Art. 47 Abs. 1."
+  },
+  {
+    "ITEM": 29,
+    "ARTICLE_EID": "art_48",
+    "TARGET_SR": "SR 232.12",
+    "assigned_articles": ["Art. 47 Abs. 1", "Art. 47 Abs. 2 Bst. b", "Art. 49a"],
+    "confidence": "high",
+    "reasoning": "Der Satz verweist auf «Artikel 47 Absatz 1», «Art. 47 Abs. 2 Bst. b» und «Artikel 49a»; alle sind interne Artikel des Gesetzes SR 232.12."
+  },
+  {
+    "ITEM": 30,
+    "ARTICLE_EID": "art_48_b",
+    "TARGET_SR": "SR 232.12",
+    "assigned_articles": ["Art. 48 Abs. 1", "Art. 48a Abs. 1"],
+    "confidence": "high",
+    "reasoning": "Es wird auf «Artikel 48 Absatz 1» und «Artikel 48a Absatz 1» verwiesen; beide sind interne Bestimmungen."
+  },
+  {
+    "ITEM": 31,
+    "ARTICLE_EID": "art_48_c",
+    "TARGET_SR": "SR 232.12",
+    "assigned_articles": ["Art. 48 Abs. 1"],
+    "confidence": "high",
+    "reasoning": "«Mitteilung nach Artikel 48 Absatz 1» verweist intern auf Art. 48 Abs. 1."
+  },
+  {
+    "ITEM": 32,
+    "ARTICLE_EID": "art_48_d",
+    "TARGET_SR": "SR 232.12",
+    "assigned_articles": ["Art. 48 Abs. 2", "Art. 48 Abs. 3"],
+    "confidence": "high",
+    "reasoning": "«Fristen nach Artikel 48 Absätze 2 und 3» ist eine interne Verweisung auf diese Absätze."
+  },
+  {
+    "ITEM": 33,
+    "ARTICLE_EID": "art_48_g",
+    "TARGET_SR": "SR 232.12",
+    "assigned_articles": ["Art. 48e", "Art. 48f Abs. 1"],
+    "confidence": "high",
+    "reasoning": "«Proben … nach Artikel 48e» und «Schadenersatzansprüche nach Artikel 48f Absatz 1» verweisen intern auf diese Bestimmungen."
+  },
+  {
+    "ITEM": 34,
+    "ARTICLE_EID": "art_49_a",
+    "TARGET_SR": "SR 232.12",
+    "assigned_articles": ["Art. 47 Abs. 1"],
+    "confidence": "high",
+    "reasoning": "«aufgrund eines Antrags … nach Artikel 47 Absatz 1» ist eine interne Verweisung auf Art. 47 Abs. 1."
+  },
+  {
+    "ITEM": 35,
+    "ARTICLE_EID": "art_49_a",
+    "TARGET_SR": "SR 232.12",
+    "assigned_articles": ["Art. 47 Abs. 2 Bst. b"],
+    "confidence": "high",
+    "reasoning": "«Antrag auf Vernichtung von Kleinsendungen (Art. 47 Abs. 2 Bst. b)» verweist intern auf diese Bestimmung."
+  },
+  {
+    "ITEM": 36,
+    "ARTICLE_EID": "art_49_a",
+    "TARGET_SR": "SR 232.12",
+    "assigned_articles": ["Art. 48 Abs. 3", "Art. 48 Abs. 4", "Art. 48a", "Art. 48b", "Art. 49"],
+    "confidence": "high",
+    "reasoning": "«sinngemäss nach den Artikeln 48 Absätze 3 und 4, 48a, 48b und 49» nennt explizit diese internen Bestimmungen."
+  },
+  {
+    "ITEM": 37,
+    "ARTICLE_EID": "art_49_a",
+    "TARGET_SR": "SR 232.12",
+    "assigned_articles": ["Art. 47 Abs. 3"],
+    "confidence": "high",
+    "reasoning": "«sofern sie dies nach Artikel 47 Absatz 3 verlangt hat» verweist intern auf Art. 47 Abs. 3."
+  },
+  {
+    "ITEM": 38,
+    "ARTICLE_EID": "art_52",
+    "TARGET_SR": "SR 232.12",
+    "assigned_articles": ["Art. 35 Abs. 4"],
+    "confidence": "high",
+    "reasoning": "«Artikel 35 Absatz 4 findet nur auf Lizenzverträge Anwendung …» ist eine interne Verweisung auf Art. 35 Abs. 4 desselben Gesetzes."
+  }
+]

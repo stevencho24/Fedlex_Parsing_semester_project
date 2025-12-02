@@ -1,0 +1,22 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 101",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet mentions only the Bundesverfassung (SR 101) without any specific article number or paragraph; it is a general constitutional limitation clause, so the reference is to the constitution as a whole."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_96",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet refers to 'Artikel 9a' without mentioning any SR number or external act; this is a cross-reference to another article of the same cantonal document, i.e., a self-reference, not an external SR link."
+  }
+]

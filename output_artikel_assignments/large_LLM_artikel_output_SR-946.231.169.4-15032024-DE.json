@@ -1,0 +1,121 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 946.231",
+    "assigned_articles": [
+      "Art. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Formulierung «gestützt auf Artikel 2 des Embargogesetzes … SR 946.231 (EmbG)» verweist eindeutig auf Art. 2 EmbG; keine weiteren Artikel des EmbG werden genannt."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 946.202",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "«Vorbehalten bleiben die Bestimmungen des Güterkontrollgesetzes … SR 946.202» nennt keine bestimmten Artikel; es wird pauschal auf die Bestimmungen des Gesetzes verwiesen."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 514.51",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "«Vorbehalten bleiben die Bestimmungen … des Kriegsmaterialgesetzes … SR 514.51» enthält keinen Artikelhinweis; es handelt sich um einen generellen Verweis auf das ganze Gesetz."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": "SR 170.512.1",
+    "assigned_articles": [
+      "Art. 20 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Hinweistext steht ausdrücklich «in Anwendung von Art. 20 Abs. 2 der Publikationsverordnung … (SR 170.512.1)»; damit ist klar Art. 20 Abs. 2 der Publikationsverordnung gemeint."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": "SR 946.231",
+    "assigned_articles": [
+      "Art. 9",
+      "Art. 10"
+    ],
+    "confidence": "high",
+    "reasoning": "Die SNIPPET-Stellen lauten «wird nach Artikel 9 EmbG bestraft», «wird nach Artikel 10 EmbG bestraft» und «Verstösse nach den Artikeln 9 und 10 EmbG»; EmbG ist in der Präambel als SR 946.231 definiert, somit sind Art. 9 und 10 EmbG (SR 946.231) eindeutig genannt."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 1",
+      "Art. 1a",
+      "Art. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "«… nach den Artikeln 1, 1a und 2» verweist auf andere Bestimmungen derselben Verordnung; kein externes SR wird genannt, daher handelt es sich um interne Selbstverweise auf die Artikel 1, 1a und 2 dieses Erlasses."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 4"
+    ],
+    "confidence": "high",
+    "reasoning": "«… nach Artikel 4» ist ein Verweis auf einen anderen Artikel derselben Verordnung; mangels Nennung eines SR ist dies ein interner Selbstverweis auf Art. 4 des eigenen Erlasses."
+  },
+  {
+    "ITEM": 8,
+    "ARTICLE_EID": "art_6",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 2 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "«… unter die Sperrung nach Artikel 2 Absatz 1 fallen» verweist klar auf Art. 2 Abs. 1 derselben Verordnung; kein externes SR wird erwähnt, daher interner Selbstverweis."
+  },
+  {
+    "ITEM": 9,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 1",
+      "Art. 1a",
+      "Art. 2",
+      "Art. 4",
+      "Art. 9 EmbG"
+    ],
+    "confidence": "medium",
+    "reasoning": "Der Satz enthält zwei Bezugsebenen: Verstösse gegen «Artikel 1, 1a, 2 oder 4» (interne Artikel der Verordnung) werden «nach Artikel 9 EmbG» (externes Gesetz SR 946.231) bestraft. Als artikel_reference-Item ohne TARGET_SR ist primär der interne Strukturbezug relevant (Art. 1, 1a, 2, 4). Der zusätzliche Hinweis auf Art. 9 EmbG wird als Teil der Referenz mit aufgeführt, obwohl er extern ist."
+  },
+  {
+    "ITEM": 10,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 6",
+      "Art. 10 EmbG"
+    ],
+    "confidence": "medium",
+    "reasoning": "«Wer gegen Artikel 6 verstösst, wird nach Artikel 10 EmbG bestraft.» – Artikel 6 ist ein interner Verweis innerhalb der Verordnung; Artikel 10 EmbG ist ein externer Verweis auf das Embargogesetz. Als artikel_reference ohne TARGET_SR wird der interne Artikel 6 erfasst; Art. 10 EmbG wird ergänzend genannt."
+  },
+  {
+    "ITEM": 11,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 9 EmbG",
+      "Art. 10 EmbG"
+    ],
+    "confidence": "high",
+    "reasoning": "«Verstösse nach den Artikeln 9 und 10 EmbG …» verweist ausschließlich auf Artikel 9 und 10 des Embargogesetzes; innerhalb der Verordnung ist dies ein Verweis auf externe Strafbestimmungen, ohne interne Artikelnummern zu nennen."
+  }
+]

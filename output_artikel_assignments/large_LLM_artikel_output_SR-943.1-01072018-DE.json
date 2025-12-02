@@ -1,0 +1,170 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 101",
+    "assigned_articles": [
+      "Art. 95",
+      "Art. 97"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Formulierung «gestützt auf die Artikel 95 und 97 der Bundesverfassung SR 101» verknüpft die genannten Artikel direkt mit SR 101."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 101",
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Hier bezieht sich SR 101 auf den Bundesbeschluss über eine neue Bundesverfassung (Schlussbestimmungen, SchlB). Im Satzteil mit «SR 101 SchlB» werden keine konkreten Artikel genannt, sondern nur «Ziffer II Absatz 2 Buchstabe a». Daher keine Artikelzuweisung innerhalb von SR 101."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 210",
+    "assigned_articles": [],
+    "confidence": "medium",
+    "reasoning": "Die Passage «Bestimmungen des Zivilgesetzbuches SR 210 über die Sammelvermögen» verweist allgemein auf die einschlägigen Regelungen im ZGB, ohne konkrete Artikelnummern zu nennen. Daher allgemeine Dokumentverweisung ohne Artikelzuordnung."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": "SR 822.11",
+    "assigned_articles": [
+      "Art. 29 ff."
+    ],
+    "confidence": "high",
+    "reasoning": "«richtet sich nach Artikel 29 ff. des Arbeitsgesetzes ... SR 822.11» verknüpft Art. 29 ff. syntaktisch eindeutig mit dem Arbeitsgesetz (SR 822.11)."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_11",
+    "TARGET_SR": "SR 680",
+    "assigned_articles": [],
+    "confidence": "medium",
+    "reasoning": "«Die Bestimmungen des Alkoholgesetzes ... SR 680 bleiben vorbehalten» nennt keine konkrete Artikelnummer des Alkoholgesetzes. Es handelt sich um eine generelle Vorbehaltsklausel ohne artikelspezifische Zuordnung."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_14",
+    "TARGET_SR": "SR 311.0",
+    "assigned_articles": [
+      "Art. 333"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Autorennotiztext: «Fassung gemäss Art. 333 des Strafgesetzbuches (SR 311.0)» wird Art. 333 direkt mit dem Strafgesetzbuch SR 311.0 verbunden."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_15",
+    "TARGET_SR": "SR 313.0",
+    "assigned_articles": [
+      "Art. 6",
+      "Art. 7"
+    ],
+    "confidence": "high",
+    "reasoning": "«sind die Artikel 6 und 7 des Bundesgesetzes ... SR 313.0 über das Verwaltungsstrafrecht anwendbar» verknüpft Art. 6 und 7 klar mit SR 313.0."
+  },
+  {
+    "ITEM": 8,
+    "ARTICLE_EID": "art_18",
+    "TARGET_SR": "SR 0.631.121.1",
+    "assigned_articles": [],
+    "confidence": "medium",
+    "reasoning": "«im Sinne des Internationalen Abkommens ... SR 0.631.121.1» verweist auf das Abkommen als Ganzes; keine Artikelnummer wird genannt."
+  },
+  {
+    "ITEM": 9,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Interne Verweisung auf Art. 29 ff. desselben Gesetzes"
+    ],
+    "confidence": "high",
+    "reasoning": "«Artikel 29 ff. des Arbeitsgesetzes vom 13. März 1964» ist bereits in ITEM 4 SR 822.11 zugeordnet; hier handelt es sich um dieselbe externe Verweisung, aber als artikel_reference ohne TARGET_SR. Sie ist keine neue SR-Verknüpfung, sondern wiederholt die bereits erfasste Beziehung."
+  },
+  {
+    "ITEM": 10,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Interne Verweisung auf Art. 4",
+      "Interne Verweisung auf Art. 5"
+    ],
+    "confidence": "high",
+    "reasoning": "«Voraussetzungen nach Artikel 4 oder 5» bezieht sich auf Artikel desselben Gesetzes (keine SR-Nennung im Satz). Damit reine Selbstverweisung innerhalb des Dokuments."
+  },
+  {
+    "ITEM": 11,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Interne Verweisung auf Art. 4 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "«Verweigerung nach Artikel 4 Absatz 1» verweist auf einen Artikel des gleichen Gesetzes; kein externer SR-Bezug im Satz."
+  },
+  {
+    "ITEM": 12,
+    "ARTICLE_EID": "art_8",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Interne Verweisung auf Art. 4 Abs. 1",
+      "Interne Verweisung auf Art. 7 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "«Verweigerung nach Artikel 4 Absatz 1» und «Vorbescheid nach Artikel 7 Absatz 2» sind interne Querverweise innerhalb desselben Gesetzes."
+  },
+  {
+    "ITEM": 13,
+    "ARTICLE_EID": "art_10",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Interne Verweisung auf Art. 7 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "«in Artikel 7 Absatz 2 vorgesehenen Bundesbehörde» ist ein klarer Selbstverweis auf einen anderen Artikel desselben Erlasses."
+  },
+  {
+    "ITEM": 14,
+    "ARTICLE_EID": "art_11",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Interne Verweisung auf Art. 3 Abs. 1 Bst. a"
+    ],
+    "confidence": "high",
+    "reasoning": "«(Art. 3 Abs. 1 Bst. a)» steht ohne Nennung eines anderen SR-Dokuments und bezieht sich damit auf Art. 3 des gleichen Gesetzes."
+  },
+  {
+    "ITEM": 15,
+    "ARTICLE_EID": "art_14",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Interne Verweisung auf Art. 11 Abs. 1",
+      "Interne Verweisung auf Art. 11 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "«Vertrieb ... gegen Einschränkungen oder Verbote nach Artikel 11 Absatz 1 oder 2» verweist auf interne Bestimmungen desselben Gesetzes."
+  },
+  {
+    "ITEM": 16,
+    "ARTICLE_EID": "art_15",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Interne Verweisung auf Art. 6",
+      "Interne Verweisung auf Art. 7"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Text wiederholt die in ITEM 7 bereits als extern (SR 313.0) zugeordneten Artikel 6 und 7 des Verwaltungsstrafrechts, aber hier als artikel_reference ohne TARGET_SR. Es handelt sich nicht um eine neue SR-Verknüpfung, sondern um dieselbe bereits erfasste externe Referenz; innerhalb dieses Dokuments ist es ein Verweis auf die dort genannten externen Normen."
+  },
+  {
+    "ITEM": 17,
+    "ARTICLE_EID": "art_21",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Interne Verweisung auf Art. 5 Abs. 1 Bst. b"
+    ],
+    "confidence": "high",
+    "reasoning": "«Anlagen im Sinne von Artikel 5 Absatz 1 Buchstabe b» verweist auf eine Definition im selben Gesetz; kein anderes SR-Dokument wird genannt."
+  }
+]

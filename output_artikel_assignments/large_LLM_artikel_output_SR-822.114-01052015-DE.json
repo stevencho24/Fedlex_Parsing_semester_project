@@ -1,0 +1,265 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 822.11",
+    "assigned_articles": [
+      "Art. 8",
+      "Art. 40"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet explicitly: 'gestützt auf die Artikel 8 und 40 des Arbeitsgesetzes ... SR 822.11'; both articles are directly and syntactically linked to SR 822.11."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 832.20",
+    "assigned_articles": [
+      "Art. 83"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet: 'sowie gestützt auf Artikel 83 des Unfallversicherungsgesetzes ... SR 832.20'; Art. 83 is directly attributed to the UVG (SR 832.20)."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 814.012",
+    "assigned_articles": [
+      "Anhang 1.1"
+    ],
+    "confidence": "high",
+    "reasoning": "Reference: 'nach dem Anhang 1.1 der Störfallverordnung ... SR 814.012'; the cited unit is Annex 1.1 of SR 814.012, no numbered article mentioned."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 832.321",
+    "assigned_articles": [
+      "Art. 3 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet: 'Mikroorganismen der Gruppe 3 oder 4 nach Artikel 3 Absatz 2 der Verordnung ... SR 832.321'; clear direct marking of Art. 3 Abs. 2 of SR 832.321."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 832.30",
+    "assigned_articles": [
+      "Art. 49 Abs. 2 Ziff. 1",
+      "Art. 49 Abs. 2 Ziff. 2",
+      "Art. 49 Abs. 2 Ziff. 6"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet: 'Arbeitsmitteln im Sinne von Artikel 49 Absatz 2 Ziffern 1, 2 oder 6 der Verordnung ... SR 832.30'; all three specified numbers belong to Art. 49 Abs. 2 of SR 832.30."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_41",
+    "TARGET_SR": "SR 172.010",
+    "assigned_articles": [
+      "Art. 62a",
+      "Art. 62b",
+      "Art. 62c"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet: 'nach den Artikeln 62a–62c des Regierungs- und Verwaltungsorganisationsgesetzes ... SR 172.010'; explicit range 62a–62c of SR 172.010."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 822.114",
+    "assigned_articles": [
+      "Art. 7",
+      "Art. 8"
+    ],
+    "confidence": "high",
+    "reasoning": "Artikelreferenz ohne externes SR; 'Art. 7 und 8 des Gesetzes' refers to the same law (this ordinance’s parent act SR 822.11) but within the context of this document’s internal structure. As per rules, such self-references are treated as internal; here we record them as Art. 7 and 8 of the current SR 822.114."
+  },
+  {
+    "ITEM": 8,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 832.321",
+    "assigned_articles": [
+      "Art. 3 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "This repeats the same wording as ITEM 4 but as artikel_reference; it clearly refers to 'Artikel 3 Absatz 2 der Verordnung ... über ... Mikroorganismen', i.e. Art. 3 Abs. 2 of SR 832.321."
+  },
+  {
+    "ITEM": 9,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 832.30",
+    "assigned_articles": [
+      "Art. 49 Abs. 2 Ziff. 1",
+      "Art. 49 Abs. 2 Ziff. 2",
+      "Art. 49 Abs. 2 Ziff. 6"
+    ],
+    "confidence": "high",
+    "reasoning": "Same content as ITEM 5 but without explicit SR in the snippet; 'Artikel 49 Absatz 2 Ziffern 1, 2 oder 6 der Verordnung ... über die Verhütung von Unfällen und Berufskrankheiten (VUV)' unambiguously points to SR 832.30 Art. 49 Abs. 2 Ziff. 1, 2, 6."
+  },
+  {
+    "ITEM": 10,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": "SR 822.114",
+    "assigned_articles": [
+      "Art. 17 Abs. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet: 'Ausnahmen nach Artikel 17 Absatz 3 bewilligt werden.' No external SR; this is an internal reference within the same document to Art. 17 Abs. 3."
+  },
+  {
+    "ITEM": 11,
+    "ARTICLE_EID": "art_28",
+    "TARGET_SR": "SR 822.11",
+    "assigned_articles": [
+      "Art. 5 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet: 'im Sinne von Artikel 5 Absatz 2 des Gesetzes'; 'Gesetz' is defined in the preamble as the Arbeitsgesetz SR 822.11, so this is Art. 5 Abs. 2 of SR 822.11."
+  },
+  {
+    "ITEM": 12,
+    "ARTICLE_EID": "art_31",
+    "TARGET_SR": "SR 822.11",
+    "assigned_articles": [
+      "Art. 5 Abs. 2 Bst. c"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet: '(Art. 5 Abs. 2 Bst. c des Gesetzes)'; 'Gesetz' = Arbeitsgesetz SR 822.11, so this is Art. 5 Abs. 2 lit. c of SR 822.11."
+  },
+  {
+    "ITEM": 13,
+    "ARTICLE_EID": "art_34",
+    "TARGET_SR": "SR 822.11",
+    "assigned_articles": [
+      "Art. 5 Abs. 2 Bst. a"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet: 'im Fall von Artikel 5 Absatz 2 Buchstabe a des Gesetzes'; again 'Gesetz' = SR 822.11, so Art. 5 Abs. 2 lit. a of SR 822.11."
+  },
+  {
+    "ITEM": 14,
+    "ARTICLE_EID": "art_37",
+    "TARGET_SR": "SR 822.11",
+    "assigned_articles": [
+      "Art. 7 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet: 'nach Artikel 7 Absatz 1 des Gesetzes'; 'Gesetz' is SR 822.11, so Art. 7 Abs. 1 of SR 822.11."
+  },
+  {
+    "ITEM": 15,
+    "ARTICLE_EID": "art_37",
+    "TARGET_SR": "SR 822.11",
+    "assigned_articles": [
+      "Art. 7 Abs. 4"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet: 'nach Artikel 7 Absatz 4 des Gesetzes (koordiniertes Bundesverfahren)'; this is Art. 7 Abs. 4 of SR 822.11."
+  },
+  {
+    "ITEM": 16,
+    "ARTICLE_EID": "art_39",
+    "TARGET_SR": "SR 822.114",
+    "assigned_articles": [
+      "Art. 38 Abs. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet: 'die technischen Einrichtungen nach Artikel 38 Absatz 3 sowie die Beleuchtungsanlagen'; no external SR, so this is an internal reference to Art. 38 Abs. 3 of the same ordinance SR 822.114."
+  },
+  {
+    "ITEM": 17,
+    "ARTICLE_EID": "art_41",
+    "TARGET_SR": "SR 172.010",
+    "assigned_articles": [
+      "Art. 62a",
+      "Art. 62b",
+      "Art. 62c"
+    ],
+    "confidence": "high",
+    "reasoning": "Artikelreferenz mirrors ITEM 6 but without explicit SR; 'Artikeln 62a–62c des Regierungs- und Verwaltungsorganisationsgesetzes (RVOG)' clearly refers to SR 172.010, Arts. 62a–62c."
+  },
+  {
+    "ITEM": 18,
+    "ARTICLE_EID": "art_41",
+    "TARGET_SR": "SR 172.010",
+    "assigned_articles": [
+      "Art. 62a"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet: 'nach Artikel 62a RVOG zu konsultieren'; RVOG is SR 172.010, so this is Art. 62a of SR 172.010."
+  },
+  {
+    "ITEM": 19,
+    "ARTICLE_EID": "art_41",
+    "TARGET_SR": "SR 822.11",
+    "assigned_articles": [
+      "Art. 7",
+      "Art. 8"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet: 'Bauten und Anlagen nach Artikel 7 oder 8 des Gesetzes'; 'Gesetz' = Arbeitsgesetz SR 822.11, so Arts. 7 and 8 of SR 822.11."
+  },
+  {
+    "ITEM": 20,
+    "ARTICLE_EID": "art_42",
+    "TARGET_SR": "SR 822.114",
+    "assigned_articles": [
+      "Art. 37"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet: 'bei der zuständigen Behörde nach Artikel 37 ein schriftliches Gesuch ...'; no external SR, so internal reference to Art. 37 of SR 822.114."
+  },
+  {
+    "ITEM": 21,
+    "ARTICLE_EID": "art_44",
+    "TARGET_SR": "SR 822.114",
+    "assigned_articles": [
+      "Art. 41"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet: 'richtet sich nach Artikel 41, soweit dieser Artikel nichts anderes vorsieht'; internal reference to Art. 41 of the same ordinance SR 822.114."
+  },
+  {
+    "ITEM": 22,
+    "ARTICLE_EID": "art_44",
+    "TARGET_SR": "SR 822.114",
+    "assigned_articles": [
+      "Art. 43 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet: 'verfährt die Leitbehörde nach Artikel 43 Absatz 2'; internal reference to Art. 43 Abs. 2 of SR 822.114."
+  },
+  {
+    "ITEM": 23,
+    "ARTICLE_EID": "art_45",
+    "TARGET_SR": "SR 822.11",
+    "assigned_articles": [
+      "Art. 7",
+      "Art. 8"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet: 'Plangenehmigung und Betriebsbewilligung im Sinne von Artikel 7 oder 8 des Gesetzes'; 'Gesetz' = SR 822.11, so Arts. 7 and 8 of SR 822.11."
+  },
+  {
+    "ITEM": 24,
+    "ARTICLE_EID": "art_46",
+    "TARGET_SR": "SR 822.11",
+    "assigned_articles": [
+      "Art. 51",
+      "Art. 52"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet: 'nach den Artikeln 51 und 52 des Gesetzes zu verfahren'; 'Gesetz' = Arbeitsgesetz SR 822.11, so Arts. 51 and 52 of SR 822.11."
+  },
+  {
+    "ITEM": 25,
+    "ARTICLE_EID": "art_47",
+    "TARGET_SR": "SR 822.114",
+    "assigned_articles": [
+      "Art. 1 Abs. 2 Bst. m"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet: 'nach Artikel 1 Absatz 2 Buchstabe m der Plangenehmigungspflicht unterstellt werden'; no external SR, so internal reference to Art. 1 Abs. 2 lit. m of SR 822.114."
+  }
+]

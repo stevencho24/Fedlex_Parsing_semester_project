@@ -1,0 +1,44 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 232.16",
+    "assigned_articles": [
+      "Art. 7 Abs. 2",
+      "Art. 36 Abs. 3",
+      "Art. 54"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Präambel nennt ausdrücklich: 'gestützt auf die Artikel 7 Absatz 2, 36 Absatz 3 und 54 des Sortenschutzgesetzes ... SR 232.16'; diese Artikel sind direkt und syntaktisch dem genannten SR zugeordnet."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_11",
+    "TARGET_SR": "SR 172.041.1",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Satz wird nur 'die Bestimmungen der Allgemeinen Gebührenverordnung ... SR 172.041.1' allgemein erwähnt, ohne konkrete Artikelangabe; daher handelt es sich um eine generelle Verweisung auf die gesamte Verordnung."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Formulierung 'die Unterlagen nach Artikel 8' enthält keinen SR-Hinweis und steht in einem rein internen Regelungszusammenhang; es handelt sich um eine Selbstverweisung auf Art. 8 derselben Verordnung, nicht auf ein externes SR-Dokument."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Formulierung 'die Sortenbeschreibung nach Artikel 9' verweist ohne Nennung eines SR auf einen anderen Artikel derselben Verordnung; dies ist eine interne Artikelverweisung und kein Verweis auf ein anderes SR."
+  }
+]

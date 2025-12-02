@@ -1,0 +1,184 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 101",
+    "assigned_articles": [
+      "Art. 54 Abs. 1",
+      "Art. 123 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Präambel nennt ausdrücklich «Artikel 54 Absatz 1 und 123 Absatz 1 der Bundesverfassung SR 101»; beide Artikel gehören somit klar zur SR 101."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": "SR 321.0",
+    "assigned_articles": "General reference - entire document",
+    "confidence": "high",
+    "reasoning": "Es wird nur das «Militärstrafgesetz vom 13. Juni 1927 SR 321.0» als Ganzes genannt, ohne konkrete Artikelangabe; daher allgemeine Verweisung auf das gesamte Gesetz."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": "SR 444.1",
+    "assigned_articles": "General reference - entire document",
+    "confidence": "high",
+    "reasoning": "Es wird nur das «Kulturgütertransfergesetz vom 20. Juni 2003 SR 444.1» als Ganzes erwähnt, ohne Artikelangabe; somit allgemeine Verweisung auf das gesamte Gesetz."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": "SR 311.0",
+    "assigned_articles": [
+      "Art. 60 Abs. 1 Bst. b",
+      "Art. 60 Abs. 1 Bst. c",
+      "Art. 73"
+    ],
+    "confidence": "medium",
+    "reasoning": "Im Text wird «Artikel 60 Absatz 1 Buchstaben b und c des Strafgesetzbuches SR 311.0» genannt; in der Autorennote wird erläutert, dass Art. 60 zu Art. 73 wird. Daher sind sowohl die aktuelle als auch die zukünftige Zählung relevant."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": "SR 311.0",
+    "assigned_articles": [
+      "Art. 59 Ziff. 2 Abs. 3",
+      "Art. 71 Abs. 3"
+    ],
+    "confidence": "medium",
+    "reasoning": "Der Text verweist auf «Art. 59 Ziff. 2 Abs. 3 Strafgesetzbuch SR 311.0»; in der Autorennote wird klargestellt, dass diese Bestimmung zu Art. 71 Abs. 3 wird. Beide Fassungen sind daher einschlägig."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_6",
+    "TARGET_SR": "SR 330",
+    "assigned_articles": [
+      "Art. 61"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Formulierung «gemäss Artikel 61 des Strafregistergesetzes … SR 330» verknüpft eindeutig Art. 61 mit SR 330."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_6",
+    "TARGET_SR": "SR 172.021",
+    "assigned_articles": "General reference - entire document",
+    "confidence": "medium",
+    "reasoning": "Es heisst «nach dem Bundesgesetz vom 20. Dezember 1968 SR 172.021 über das Verwaltungsverfahren» ohne konkrete Artikelangabe; dies ist eine generelle Verweisung auf das VwVG als Verfahrensordnung."
+  },
+  {
+    "ITEM": 8,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 4–10"
+    ],
+    "confidence": "high",
+    "reasoning": "«nach den Artikeln 4–10» bezieht sich auf Artikel desselben Gesetzes (interne Verweisung), ohne Bezug zu einem externen SR-Dokument."
+  },
+  {
+    "ITEM": 9,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 60 Abs. 1 Bst. b",
+      "Art. 60 Abs. 1 Bst. c"
+    ],
+    "confidence": "high",
+    "reasoning": "«in Anwendung von Artikel 60 Absatz 1 Buchstaben b und c des Strafgesetzbuches» ist eine inhaltlich identische Wiederholung der bereits bei ITEM 4 erfassten StGB-Verweisung; hier als reine Artikelreferenz innerhalb des Snippets behandelt."
+  },
+  {
+    "ITEM": 10,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 59 Ziff. 2 Abs. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "«(Art. 59 Ziff. 2 Abs. 3 Strafgesetzbuch)» ist eine interne Wiederholung der StGB-Verweisung aus ITEM 5; im Rahmen von artikel_reference als Selbstverweisung ohne neues SR-Ziel zu behandeln."
+  },
+  {
+    "ITEM": 11,
+    "ARTICLE_EID": "art_6",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 61"
+    ],
+    "confidence": "high",
+    "reasoning": "«gemäss Artikel 61 des Strafregistergesetzes …» wiederholt die konkrete Artikelangabe aus ITEM 6; hier als interne Artikelreferenz ohne explizite SR-Verknüpfung geführt."
+  },
+  {
+    "ITEM": 12,
+    "ARTICLE_EID": "art_6",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 4",
+      "Art. 5"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Klammerverweise «(Art. 4)» und «(Art. 5)» beziehen sich klar auf Artikel desselben Gesetzes; keine externe SR-Nennung im Satz."
+  },
+  {
+    "ITEM": 13,
+    "ARTICLE_EID": "art_10",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 4",
+      "Art. 4 Abs. 1 Bst. c"
+    ],
+    "confidence": "high",
+    "reasoning": "Es wird auf «(Art. 4)» sowie «(Art. 4 Abs. 1 Bst. c)» verwiesen; beides sind interne Artikel des gleichen Gesetzes."
+  },
+  {
+    "ITEM": 14,
+    "ARTICLE_EID": "art_10",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 6 Abs. 6"
+    ],
+    "confidence": "high",
+    "reasoning": "«nach Artikel 6 Absatz 6 ergangenen Entscheid» ist eine klare Selbstverweisung auf Art. 6 Abs. 6 desselben Gesetzes."
+  },
+  {
+    "ITEM": 15,
+    "ARTICLE_EID": "art_15",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 5"
+    ],
+    "confidence": "high",
+    "reasoning": "«nach Artikel 5 aufzuteilen» verweist auf Art. 5 des gleichen Gesetzes; kein externer SR-Bezug."
+  },
+  {
+    "ITEM": 16,
+    "ARTICLE_EID": "art_15",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 5 Abs. 1 Bst. a"
+    ],
+    "confidence": "high",
+    "reasoning": "«nach Artikel 5 Absatz 1 Buchstabe a» ist eine interne Verweisung auf eine Unterbestimmung von Art. 5."
+  },
+  {
+    "ITEM": 17,
+    "ARTICLE_EID": "art_15",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 5 Abs. 1 Bst. c"
+    ],
+    "confidence": "high",
+    "reasoning": "«nach Artikel 5 Absatz 1 Buchstabe c» ist ebenfalls eine Selbstverweisung innerhalb desselben Gesetzes."
+  },
+  {
+    "ITEM": 18,
+    "ARTICLE_EID": "art_15",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 4",
+      "Art. 6–10"
+    ],
+    "confidence": "high",
+    "reasoning": "«Die Artikel 4 und 6–10 sind sinngemäss anwendbar» nennt ausdrücklich interne Artikelbereiche; kein externer SR-Zusammenhang."
+  }
+]

@@ -1,0 +1,146 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 101",
+    "assigned_articles": [
+      "Art. 57 Abs. 2",
+      "Art. 87",
+      "Art. 92"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Formulierung «gestützt auf die Artikel 57 Absatz 2, 87 und 92 der Bundesverfassung SR 101» verknüpft die genannten Artikel syntaktisch direkt mit SR 101."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 742.101",
+    "assigned_articles": [
+      "Art. 5",
+      "Art. 9"
+    ],
+    "confidence": "high",
+    "reasoning": "«Konzession nach Artikel 5 oder einer Bewilligung nach Artikel 9 des Eisenbahngesetzes … SR 742.101»; beide Artikel stehen unmittelbar vor der Gesetzesbezeichnung und beziehen sich klar auf SR 742.101."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 745.1",
+    "assigned_articles": [
+      "Art. 6"
+    ],
+    "confidence": "high",
+    "reasoning": "«Konzession nach Artikel 6 des Personenbeförderungsgesetzes … SR 745.1»; der Artikel ist direkt mit dem genannten Gesetz verknüpft."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": "SR 170.32",
+    "assigned_articles": [
+      "Art. 1-18"
+    ],
+    "confidence": "high",
+    "reasoning": "«Die Haftung richtet sich nach den Artikeln 1–18 des Verantwortlichkeitsgesetzes … SR 170.32.»; der Bereich 1–18 ist ausdrücklich genannt und gehört zu SR 170.32."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": "SR 364",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "«… ist das Zwangsanwendungsgesetz … SR 364 anwendbar.»; es werden keine bestimmten Artikel genannt, sondern das Gesetz insgesamt als anwendbar erklärt."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_6",
+    "TARGET_SR": "SR 235.1",
+    "assigned_articles": [
+      "Art. 33-42",
+      "Art. 49-53"
+    ],
+    "confidence": "high",
+    "reasoning": "«… Datenschutzgesetz … SR 235.1, insbesondere die Artikel 33−42 und 49−53.»; beide Artikelbereiche sind ausdrücklich dem Datenschutzgesetz zugeordnet."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_10",
+    "TARGET_SR": "SR 311.0",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "medium",
+    "reasoning": "«Nach dem Strafgesetzbuch SR 311.0 strafbare Handlungen …»; es wird kein bestimmter Artikel genannt, sondern allgemein auf das StGB verwiesen. Mangels Spezifizierung ist von einer generellen Bezugnahme auszugehen."
+  },
+  {
+    "ITEM": 8,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«Artikel 5» und «Artikel 9» erscheinen ohne Nennung eines SR oder Gesetzesnamens im Text; im Kontext von Art. 1 handelt es sich um Verweise auf Artikel desselben Gesetzes (Selbstverweis), nicht auf ein externes SR-Dokument."
+  },
+  {
+    "ITEM": 9,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«Artikel 6 des Personenbeförderungsgesetzes» nennt zwar ein anderes Gesetz, aber ohne SR-Nummer; im Rahmen der Aufgabe für artikel_reference ohne TARGET_SR ist dies als interner Strukturverweis zu behandeln, nicht als SR-Link-Zuordnung."
+  },
+  {
+    "ITEM": 10,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«(Art. 3 Abs. 2)» verweist klar auf einen Artikel desselben Gesetzes; kein externes SR wird genannt, daher Selbstverweis."
+  },
+  {
+    "ITEM": 11,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«(Art. 4 Abs. 2)» ist ein typischer Verweis auf einen anderen Artikel innerhalb desselben Erlasses; kein externer SR-Bezug."
+  },
+  {
+    "ITEM": 12,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "Die artikel_reference-Fassung enthält nur «Artikeln 1–18 des Verantwortlichkeitsgesetzes …» ohne SR; der eigentliche SR-Bezug wurde bereits in ITEM 4 (SR_link_detection) behandelt. Hier ist kein zusätzlicher externer SR-Link zuzuordnen."
+  },
+  {
+    "ITEM": 13,
+    "ARTICLE_EID": "art_6",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«nach Artikel 5 Absatz 3» verweist auf einen Artikel desselben Gesetzes; es wird kein anderes Gesetz oder SR genannt."
+  },
+  {
+    "ITEM": 14,
+    "ARTICLE_EID": "art_6",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "Die artikel_reference-Version nennt «Artikel 33−42 und 49−53» ohne Gesetzesangabe; der externe Bezug zum Datenschutzgesetz SR 235.1 ist bereits in ITEM 6 (SR_link_detection) korrekt zugeordnet, daher ist dieser Eintrag als interner Strukturverweis zu behandeln."
+  }
+]

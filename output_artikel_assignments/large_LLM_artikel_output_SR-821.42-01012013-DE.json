@@ -1,0 +1,73 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 101",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet cites the Bundesverfassung (BV, SR 101) as a whole without mentioning any specific article of the 1999 Constitution; the only article number given (Art. 34ter Abs. 1 lit. b) clearly refers to the old Bundesverfassung [BS 1 3], not to SR 101."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": "SR 273",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "The text refers generically to 'die einschlägigen Bestimmungen des Bundeszivilprozesses SR 273' without specifying any article numbers; this is a blanket reference to the applicable provisions of SR 273."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": "SR 273",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet states that, apart from the provisions of this federal act, 'diejenigen des Bundeszivilprozesses SR 273' apply mutatis mutandis, with no specific article numbers; this is a general reference to the relevant parts of SR 273."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": "SR 821.41",
+    "assigned_articles": [
+      "Art. 32"
+    ],
+    "confidence": "high",
+    "reasoning": "The sentence explicitly states 'Artikel 32 des Bundesgesetzes vom 18. Juni 1914 SR 821.41 ... wird aufgehoben'; Article 32 of SR 821.41 is clearly and directly identified."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "This is an internal reference: 'im Rahmen ihrer Zuständigkeit gemäss Artikel 1' clearly refers to Article 1 of the same federal act (no external SR mentioned in the snippet). As an artikel_reference item, it denotes a self-reference within the current document."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 3",
+      "Art. 4"
+    ],
+    "confidence": "high",
+    "reasoning": "The phrase '(Art. 3 und 4)' appears without any SR or acronym; syntactically it refers to articles of 'dieses Bundesgesetzes', i.e., internal articles 3 and 4 of the same document. This is a self-reference, not tied to an external SR."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": "SR 821.41",
+    "assigned_articles": [
+      "Art. 32"
+    ],
+    "confidence": "high",
+    "reasoning": "This artikel_reference snippet mirrors ITEM 4: 'Artikel 32 des Bundesgesetzes vom 18. Juni 1914 betreffend die Arbeit in den Fabriken' is explicitly Article 32 of that external act, which is identified in ITEM 4 as SR 821.41. Thus it is an outgoing SR link to Art. 32 SR 821.41 rather than a self-reference."
+  }
+]

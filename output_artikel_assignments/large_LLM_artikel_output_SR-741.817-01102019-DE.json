@@ -1,0 +1,42 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 741.81",
+    "assigned_articles": [
+      "Art. 6 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet explicitly states: 'gestützt auf Artikel 6 Absatz 2 des Unfallverhütungsbeitragsgesetzes ... SR 741.81 (UVBG)'; Article 6 paragraph 2 is directly and syntactically linked to SR 741.81."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": "SR 741.811",
+    "assigned_articles": [
+      "Art. 5"
+    ],
+    "confidence": "high",
+    "reasoning": "The sentence reads: '... und Artikel 5 der Verordnung vom 13. Dezember 1976 SR 741.811 ...'; Article 5 is explicitly attributed to the ordinance with SR 741.811."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": "SR 741.81",
+    "assigned_articles": [
+      "Art. 6"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet: '... ergeben sich aus Artikel 6 UVBG und Artikel 5 der Verordnung ...'; UVBG is defined in the preamble as SR 741.81, so 'Artikel 6 UVBG' refers to Art. 6 of SR 741.81. No paragraph is specified here, so only the base article is assigned."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_12",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet 'Artikel 2 Absatz 1 tritt am 1. Januar 2006 in Kraft.' contains no SR reference or acronym; it is a self-reference to Article 2 paragraph 1 of the same document, not to an external SR."
+  }
+]

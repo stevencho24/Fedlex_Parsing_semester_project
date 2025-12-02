@@ -1,0 +1,82 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 173.32",
+    "assigned_articles": [
+      "Art. 16 Abs. 1 Bst. a"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Formulierung «gestützt auf Artikel 16 Absatz 1 Buchstabe a des Verwaltungsgerichtsgesetzes … SR 173.32 (VGG)» verknüpft den genannten Artikel syntaktisch eindeutig mit SR 173.32."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 173.320.2",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Satz verweist allgemein auf das Reglement vom 21. Februar 2008 (SR 173.320.2), ohne einzelne Artikel zu nennen; es handelt sich um einen generellen Verweis auf das gesamte Reglement."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": "SR 152.3",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "«Für Dienstleistungen im Rahmen des Öffentlichkeitsgesetzes … SR 152.3 findet der Tarif im Anhang 1 zur Öffentlichkeitsverordnung … Anwendung.» Es wird das Öffentlichkeitsgesetz als Ganzes als Rechtsgrundlage genannt, ohne spezifische Artikelangabe."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": "SR 152.31",
+    "assigned_articles": [
+      "Anhang 1"
+    ],
+    "confidence": "medium",
+    "reasoning": "Der Tarif «im Anhang 1 zur Öffentlichkeitsverordnung … SR 152.31» wird ausdrücklich genannt. Es handelt sich nicht um einen Artikel, sondern um einen Anhang; daher wird der konkret bezeichnete Anhang 1 als Bezugseinheit angegeben."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": "SR 235.1",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "«Für Dienstleistungen im Rahmen des Datenschutzgesetzes … SR 235.1 bleibt Artikel 19 der Datenschutzverordnung … vorbehalten.» Der genannte Art. 19 gehört zur Datenschutzverordnung (SR 235.11), nicht zum Datenschutzgesetz SR 235.1; zu SR 235.1 wird kein bestimmter Artikel genannt, daher allgemeiner Gesetzesverweis."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": "SR 235.11",
+    "assigned_articles": [
+      "Art. 19"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Satz nennt ausdrücklich «Artikel 19 der Datenschutzverordnung vom 31. August 2022 SR 235.11»; Art. 19 ist damit klar diesem SR-Dokument zugeordnet."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": "SR 170.512",
+    "assigned_articles": [
+      "Art. 12 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Im inneren Hinweistext: «in Anwendung von Art. 12 Abs. 2 des Publikationsgesetzes … (SR 170.512)» wird Art. 12 Abs. 2 direkt mit SR 170.512 verknüpft."
+  },
+  {
+    "ITEM": 8,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 19"
+    ],
+    "confidence": "medium",
+    "reasoning": "Die Stelle «bleibt Artikel 19 der Datenschutzverordnung vom 31. August 2022 vorbehalten» ist eine Selbstreferenz auf einen Artikel einer anderen Verordnung ohne explizite SR-Angabe im Snippet. Aus dem Kontext der übrigen Items (5 und 6) ergibt sich, dass es sich um Art. 19 der Datenschutzverordnung (SR 235.11) handelt; hier wird jedoch nur der genannte Artikel als solcher erfasst, ohne Zuordnung zu einem TARGET_SR."
+  }
+]

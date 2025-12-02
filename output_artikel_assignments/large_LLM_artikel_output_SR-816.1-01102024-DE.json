@@ -1,0 +1,124 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 101",
+    "assigned_articles": [
+      "Art. 95 Abs. 1",
+      "Art. 117 Abs. 1",
+      "Art. 122 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Formulierung «gestützt auf die Artikel 95 Absatz 1, 117 Absatz 1 und 122 Absatz 1 der Bundesverfassung SR 101» verknüpft die genannten Artikel grammatikalisch eindeutig mit SR 101."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": "SR 831.10",
+    "assigned_articles": [
+      "Art. 71"
+    ],
+    "confidence": "high",
+    "reasoning": "«…nach Artikel 71 des Bundesgesetzes … SR 831.10 … (AHVG)»; der Artikel 71 wird direkt als Teil des AHVG (SR 831.10) bezeichnet."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": "SR 831.10",
+    "assigned_articles": [
+      "Art. 50c"
+    ],
+    "confidence": "high",
+    "reasoning": "«die AHV-Nummer nach Artikel 50c AHVG SR 831.10»; Artikel 50c wird ausdrücklich dem AHVG (SR 831.10) zugeordnet."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_24",
+    "TARGET_SR": "SR 311.0",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "«Sofern das Strafgesetzbuch SR 311.0 nicht eine schwerere Strafe vorsieht» verweist allgemein auf das StGB ohne Nennung eines bestimmten Artikels."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«Artikel 3» und «Artikel 71 des Bundesgesetzes … (AHVG)»; der Artikel 71 gehört zu SR 831.10 und ist bereits in ITEM 2 erfasst. «Artikel 3» ist ohne SR-Angabe und bezieht sich auf einen Artikel desselben Gesetzes (Selbstverweis)."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«Artikel 50c AHVG» verweist auf SR 831.10 und ist bereits in ITEM 3 als externer Verweis mit Artikelzuordnung erfasst; hier liegt nur ein weiterer Kontext desselben Fremdartikels vor. Kein neuer SR-Link, der zuzuordnen wäre."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_10",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«Daten nach Artikel 3 Absatz 2» ohne Nennung eines SR-Dokuments; dies ist ein klarer Verweis auf einen anderen Artikel desselben Gesetzes."
+  },
+  {
+    "ITEM": 8,
+    "ARTICLE_EID": "art_10",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«Einwilligungen … nach Artikel 3» ohne SR-Bezug; wiederum ein interner Verweis innerhalb des gleichen Erlasses."
+  },
+  {
+    "ITEM": 9,
+    "ARTICLE_EID": "art_10",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«Zugriffsrechte … nach Artikel 9» ohne Erwähnung eines anderen SR; dies ist ein Selbstverweis auf einen Artikel desselben Gesetzes."
+  },
+  {
+    "ITEM": 10,
+    "ARTICLE_EID": "art_26",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«Die Artikel 20–23 … nach Artikel 27 Absatz 3»; alle genannten Artikel gehören offensichtlich zum selben Erlass, kein externes SR wird genannt."
+  },
+  {
+    "ITEM": 11,
+    "ARTICLE_EID": "art_26_a",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«in Abweichung von Artikel 23a Absatz 3» ohne SR-Angabe; dies ist ein interner Verweis auf einen Artikel desselben Gesetzes."
+  },
+  {
+    "ITEM": 12,
+    "ARTICLE_EID": "art_27",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«Die Artikel 20–23 gelten …»; es werden nur Artikel desselben Erlasses genannt, ohne Bezug auf ein anderes SR-Dokument."
+  }
+]

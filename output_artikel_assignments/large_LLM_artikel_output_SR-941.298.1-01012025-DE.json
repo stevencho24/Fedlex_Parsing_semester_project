@@ -1,0 +1,83 @@
+[
+  {
+    "Item": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 941.20",
+    "assigned_articles": [
+      "Art. 19"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet explicitly states 'gestützt auf Artikel 19 des Messgesetzes ... SR 941.20 (MessG)'; Art. 19 is directly and syntactically linked to SR 941.20."
+  },
+  {
+    "Item": 2,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 941.206",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "The citation 'Verordnung vom 7. Dezember 2012 SR 941.206 über die Zuständigkeiten im Messwesen' contains no article number or range; it refers to the ordinance as a whole."
+  },
+  {
+    "Item": 3,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 941.298.2",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "The text 'Verordnung vom 5. Juli 2006 SR 941.298.2 über die Gebühren des Eidgenössischen Instituts für Metrologie' cites the entire ordinance without specifying any article."
+  },
+  {
+    "Item": 4,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": "SR 941.204",
+    "assigned_articles": [
+      "Art. 35",
+      "Art. 36"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet explicitly mentions 'Kontrollen nach den Artikeln 35 und 36 der Mengenangabeverordnung ... SR 941.204 (MeAV)'; the preposition 'nach' and 'der Mengenangabeverordnung' clearly link Art. 35 and 36 to SR 941.204."
+  },
+  {
+    "Item": 5,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": "SR 941.20",
+    "assigned_articles": [
+      "Art. 12"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet states 'nachträgliche Kontrolle nach Artikel 12 MessG'; 'MessG' is defined in the preamble as SR 941.20, so Art. 12 belongs to SR 941.20."
+  },
+  {
+    "Item": 6,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "This artikel_reference repeats 'Artikel 12 MessG' already assigned in Item 5 to SR 941.20; as an artikel_reference without explicit SR, it functions as an internal/self-reference in the current document context and does not create a new SR link."
+  },
+  {
+    "Item": 7,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet mentions 'Artikeln 35 und 36 der Mengenangabeverordnung (MeAV)', which are already linked to SR 941.204 in Item 4. As an artikel_reference without its own TARGET_SR, it is treated as an internal cross-reference within the current document rather than a new SR assignment."
+  },
+  {
+    "Item": 8,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "The reference 'Artikel 32 MeAV' is to an article of the Mengenangabeverordnung, but here it appears as a bare artikel_reference without an SR link; following the rules, this is treated as an internal/self-reference in the current document, not assigned to an external TARGET_SR."
+  }
+]

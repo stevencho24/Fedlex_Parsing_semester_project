@@ -1,0 +1,154 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 431.112",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "high",
+    "reasoning": "Preamble citation to the Volkszählungsgesetz (SR 431.112) without any article indication; standard blanket legal basis."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": "SR 431.02",
+    "assigned_articles": ["Art. 3 lit. b"],
+    "confidence": "high",
+    "reasoning": "Snippet explicitly refers to 'Artikel 3 Buchstabe b des Registerharmonisierungsgesetzes'; RHG is SR 431.02."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": "SR 431.021",
+    "assigned_articles": ["Art. 2 lit. a", "Art. 2 lit. abis"],
+    "confidence": "high",
+    "reasoning": "Snippet: 'Artikel 2 Buchstaben a und abis der Registerharmonisierungsverordnung'; this ordinance is SR 431.021."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_10",
+    "TARGET_SR": "SR 431.02",
+    "assigned_articles": ["Art. 6 lit. c", "Art. 6 lit. d"],
+    "confidence": "high",
+    "reasoning": "Text: 'nach Artikel 6 Buchstaben c und d RHG'; RHG is SR 431.02, so the cited provisions are Art. 6(c) and 6(d)."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_11",
+    "TARGET_SR": "SR 431.011",
+    "assigned_articles": ["Anhang 1"],
+    "confidence": "high",
+    "reasoning": "The only cited unit is 'Anhang 1 der Bundesstatistikverordnung'; no article is mentioned, so the reference is specifically to Annex 1."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_12",
+    "TARGET_SR": "SR 431.011",
+    "assigned_articles": ["Anhang 1"],
+    "confidence": "high",
+    "reasoning": "Same wording as ITEM 5: 'in Anhang 1 der Bundesstatistikverordnung'; clearly a reference to Annex 1 only."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_13",
+    "TARGET_SR": "SR 431.011",
+    "assigned_articles": ["Anhang 1"],
+    "confidence": "high",
+    "reasoning": "Again: 'in Anhang 1 der Bundesstatistikverordnung'; no article specified, only Annex 1 is referenced."
+  },
+  {
+    "ITEM": 8,
+    "ARTICLE_EID": "art_15",
+    "TARGET_SR": "SR 431.011",
+    "assigned_articles": ["Anhang 1"],
+    "confidence": "high",
+    "reasoning": "Text: 'in Anhang 1 der Bundesstatistikverordnung ... geregelt'; the norm unit is Annex 1, not specific articles."
+  },
+  {
+    "ITEM": 9,
+    "ARTICLE_EID": "art_15",
+    "TARGET_SR": "SR 192.12",
+    "assigned_articles": ["Art. 2 Abs. 2"],
+    "confidence": "high",
+    "reasoning": "Snippet explicitly: 'im Sinne von Artikel 2 Absatz 2 des Gaststaatgesetzes'; Gaststaatgesetz is SR 192.12."
+  },
+  {
+    "ITEM": 10,
+    "ARTICLE_EID": "art_22",
+    "TARGET_SR": "SR 431.011",
+    "assigned_articles": ["Anhang 1"],
+    "confidence": "high",
+    "reasoning": "Again only 'nach Anhang 1 der Bundesstatistikverordnung'; no article-level citation, so Annex 1 is the referenced unit."
+  },
+  {
+    "ITEM": 11,
+    "ARTICLE_EID": "art_25",
+    "TARGET_SR": "SR 431.01",
+    "assigned_articles": ["Art. 14 Abs. 2"],
+    "confidence": "high",
+    "reasoning": "Text: 'nach Artikel 14 Absatz 2 des Bundesstatistikgesetzes'; Bundesstatistikgesetz is SR 431.01."
+  },
+  {
+    "ITEM": 12,
+    "ARTICLE_EID": "art_26",
+    "TARGET_SR": "SR 431.02",
+    "assigned_articles": ["Art. 16 Abs. 3"],
+    "confidence": "high",
+    "reasoning": "Snippet: 'Artikel 16 Absatz 3 RHG ... bleibt vorbehalten'; RHG is SR 431.02, so Art. 16(3) is clearly cited."
+  },
+  {
+    "ITEM": 13,
+    "ARTICLE_EID": "art_31",
+    "TARGET_SR": "SR 431.02",
+    "assigned_articles": ["Art. 4 Abs. 4"],
+    "confidence": "high",
+    "reasoning": "Text: 'nach Artikel 4 Absatz 4 RHG'; RHG corresponds to SR 431.02, so Art. 4(4) is the referenced provision."
+  },
+  {
+    "ITEM": 14,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "high",
+    "reasoning": "Artikel-Referenz ohne explizite SR-Angabe im Satz; dient der Definition im selben Artikel und ist bereits durch ITEM 2 (SR 431.02, Art. 3 lit. b) abgedeckt, daher als Selbstreferenz/kontextinterne Wiederholung behandelt."
+  },
+  {
+    "ITEM": 15,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "high",
+    "reasoning": "Verweist auf 'Artikel 3 Buchstabe c RHG' ohne SR-Nennung; die Zuordnung zu SR 431.02 und Art. 3 lit. c ist bereits über die RHG-Verweise (ITEM 2, 4, 12, 13) kontextualisiert, hier nur interne definitorische Bezugnahme."
+  },
+  {
+    "ITEM": 16,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "high",
+    "reasoning": "Bezieht sich auf 'Artikel 2 Buchstaben a und abis der Registerharmonisierungsverordnung' ohne SR im Satz; diese externe Zuordnung zu SR 431.021, Art. 2 lit. a/abis ist bereits in ITEM 3 mit explizitem SR-Link erfasst, daher hier als interne Wiederholung/Selbstreferenz behandelt."
+  },
+  {
+    "ITEM": 17,
+    "ARTICLE_EID": "art_15",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "high",
+    "reasoning": "Inhaltlich identisch mit ITEM 9, aber ohne SR-Angabe; die externe Verknüpfung zu SR 192.12, Art. 2 Abs. 2 ist dort bereits mit SR-Link hergestellt, daher diese Stelle als interne Wiederholung/Selbstreferenz gewertet."
+  },
+  {
+    "ITEM": 18,
+    "ARTICLE_EID": "art_25",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "high",
+    "reasoning": "Parallel zu ITEM 11, jedoch ohne SR-Nennung; die externe Referenz zu SR 431.01, Art. 14 Abs. 2 ist bereits in ITEM 11 mit explizitem SR-Link erfasst, weshalb diese Stelle als interne Wiederholung/Selbstreferenz gilt."
+  },
+  {
+    "ITEM": 19,
+    "ARTICLE_EID": "art_30",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "high",
+    "reasoning": "Verweist auf 'Artikel 21' ohne Gesetzesangabe; im Kontext handelt es sich um einen Verweis auf einen anderen Artikel derselben Verordnung (interne Normstruktur), nicht auf ein externes SR-Dokument."
+  }
+]

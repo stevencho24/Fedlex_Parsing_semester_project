@@ -1,0 +1,114 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 211.223.13",
+    "assigned_articles": [
+      "Art. 10 Abs. 1",
+      "Art. 18",
+      "Art. 19"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Präambel nennt ausdrücklich: \"gestützt auf die Artikel 10 Absatz 1, 18 und 19 des Bundesgesetzes ... SR 211.223.13 ... (AFZFG)\". Diese Artikelangaben sind direkt mit dem genannten Gesetz (SR 211.223.13) verknüpft."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": "SR 172.010",
+    "assigned_articles": [
+      "Art. 57a"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Satz steht: \"... ist eine ausserparlamentarische Kommission nach Artikel 57a des Regierungs- und Verwaltungsorganisationsgesetzes ... SR 172.010.\" Der Artikel 57a ist grammatikalisch eindeutig diesem Gesetz zugeordnet."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": "SR 152.1",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "medium",
+    "reasoning": "Der Text lautet: \"... richten sich nach den Vorschriften der Archivierungsgesetzgebung des Bundes SR 152.1; 152.11.\" Es werden keine konkreten Artikel genannt, sondern allgemein die Archivierungsgesetzgebung (hier: Bundesgesetz über die Archivierung, SR 152.1). Daher handelt es sich um eine generelle Verweisung auf das ganze Gesetz."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": "152.11",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "medium",
+    "reasoning": "Gleicher Satz wie bei ITEM 3, nun bezogen auf SR 152.11 (Archivierungsverordnung). Es werden keine Artikel genannt, sondern allgemein die \"Archivierungsgesetzgebung des Bundes\". Daher generelle Verweisung auf das gesamte Erlasswerk SR 152.11."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 211.223.13",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet: \"Die für den Vollzug des AFZFG zuständige Behörde ...\". AFZFG ist in der Präambel als SR 211.223.13 definiert. Es wird kein bestimmter Artikel des AFZFG genannt, sondern das Gesetz als Ganzes als Vollzugsgrundlage erwähnt. Daher allgemeine Verweisung auf das gesamte Gesetz."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_6_a",
+    "TARGET_SR": "SR 211.223.13",
+    "assigned_articles": [
+      "Art. 4 Abs. 6"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Satz lautet: \"... Privilegierung nach Artikel 4 Absatz 6 AFZFG ...\". AFZFG = SR 211.223.13. Die Artikelangabe ist direkt mit dem Gesetz verknüpft, somit klare Verweisung auf Art. 4 Abs. 6 AFZFG."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_6_b",
+    "TARGET_SR": "SR 211.223.13",
+    "assigned_articles": [
+      "Art. 2 Buchstabe d"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Snippet: \"... offensichtlich kein Opfer im Sinne von Artikel 2 Buchstabe d AFZFG ist;\". AFZFG = SR 211.223.13. Die Formulierung ordnet Art. 2 Buchstabe d eindeutig diesem Gesetz zu."
+  },
+  {
+    "ITEM": 8,
+    "ARTICLE_EID": "art_9",
+    "TARGET_SR": "SR 211.223.13",
+    "assigned_articles": [
+      "Art. 10 Abs. 4"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet: \"die Archive der Institutionen nach Artikel 10 Absatz 4 AFZFG.\" AFZFG = SR 211.223.13. Die Artikelangabe ist unmittelbar mit dem Gesetz verknüpft, daher klare Verweisung auf Art. 10 Abs. 4 AFZFG."
+  },
+  {
+    "ITEM": 9,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Satz entspricht inhaltlich ITEM 2, enthält aber nur \"nach Artikel 57a des Regierungs- und Verwaltungsorganisationsgesetzes\" ohne explizite SR-Angabe. Im Kontext des XML-Eintrags \"artikel_reference\" dient dies als Selbstreferenz auf einen externen Erlass (SR 172.010), nicht zur erneuten SR-Zuordnung. Gemäss Vorgabe werden solche artikel_reference-Einträge als interne Struktur-/Querverweise behandelt."
+  },
+  {
+    "ITEM": 10,
+    "ARTICLE_EID": "art_6_b",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet: \"... kein Opfer im Sinne von Artikel 2 Buchstabe d AFZFG ist;\". Diese Referenz ist bereits in ITEM 7 als Verweisung auf Art. 2 Buchstabe d AFZFG (SR 211.223.13) erfasst. Als artikel_reference-Eintrag ohne eigene SR-Angabe ist sie hier als interner Querverweis innerhalb des Dokuments zu behandeln, nicht als neue SR-Zuordnung."
+  },
+  {
+    "ITEM": 11,
+    "ARTICLE_EID": "art_9",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet: \"... nach Artikel 10 Absatz 4 AFZFG.\" Diese Verweisung ist bereits in ITEM 8 als Art. 10 Abs. 4 AFZFG (SR 211.223.13) zugeordnet. Als artikel_reference ohne eigene SR wird sie hier als interner Querverweis innerhalb des Dokuments gewertet."
+  }
+]

@@ -1,0 +1,93 @@
+[
+  {
+    "Item": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 916.341",
+    "assigned_articles": [
+      "Art. 5a"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Formulierung «gestützt auf Artikel 5a der Schlachtviehverordnung … SR 916.341» verknüpft den genannten Artikel 5a syntaktisch eindeutig mit der Schlachtviehverordnung (SR 916.341)."
+  },
+  {
+    "Item": 2,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": "SR 817.190.1",
+    "assigned_articles": [
+      "Art. 5"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Satz «… werden nach Artikel 5 der Verordnung des EDI … SR 817.190.1 … präsentiert» steht Artikel 5 unmittelbar bei der genannten Verordnung; damit ist klar, dass Art. 5 dieser Verordnung (SR 817.190.1) gemeint ist."
+  },
+  {
+    "Item": 3,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": "SR 941.210",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "medium",
+    "reasoning": "Die Passage nennt nur die «Messmittelverordnung … SR 941.210» ohne konkrete Artikelangabe; es handelt sich um eine generelle Verweisung auf die Verordnung als Ganzes."
+  },
+  {
+    "Item": 4,
+    "ARTICLE_EID": "art_12",
+    "TARGET_SR": "SR 910.1",
+    "assigned_articles": [
+      "Art. 169"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Text spricht ausdrücklich von «einer Verwaltungsmassnahme nach Artikel 169 des Landwirtschaftsgesetzes … SR 910.1»; Art. 169 ist damit klar dem Landwirtschaftsgesetz (SR 910.1) zugeordnet."
+  },
+  {
+    "Item": 5,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "Hier wird «Artikel 5 der Verordnung des EDI … über die Hygiene beim Schlachten» ohne SR-Angabe erwähnt; der Kontext entspricht inhaltlich Item 2, ist aber als artikel_reference ohne TARGET_SR erfasst und dient der internen Querverweis-Erkennung, nicht als neue SR-Zuordnung."
+  },
+  {
+    "Item": 6,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«die Teile nach den Artikeln 6–9» verweist ohne Nennung eines externen Erlasses auf andere Artikel derselben Verordnung; nach den Regeln ist dies eine reine Selbstreferenz."
+  },
+  {
+    "Item": 7,
+    "ARTICLE_EID": "art_10",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«Andere als die in den Artikeln 6–9 genannten Teile» nennt keine SR-Nummer und bezieht sich auf Artikel derselben Verordnung; somit handelt es sich um eine interne Artikelverweisung."
+  },
+  {
+    "Item": 8,
+    "ARTICLE_EID": "art_12",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«nach Artikel 26 Absatz 1 Buchstabe abis der Schlachtviehverordnung vom 26. November 2003» verweist auf einen Artikel der Schlachtviehverordnung (SR 916.341), die zugleich Grundlage der vorliegenden Verordnung ist; mangels expliziter SR-Verknüpfung im Item und aufgrund der Projektlogik wird dies als Selbstreferenz behandelt."
+  },
+  {
+    "Item": 9,
+    "ARTICLE_EID": "art_12",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 169",
+      "Internal reference within current document"
+    ],
+    "confidence": "medium",
+    "reasoning": "Der Satz nennt «Artikel 169 des Landwirtschaftsgesetzes vom 29. April 1998» ohne SR-Nummer. Inhaltlich entspricht dies der expliziten SR-Verweisung in Item 4 (SR 910.1, Art. 169). Da dieses Item jedoch als artikel_reference ohne TARGET_SR geführt wird, ist es primär eine interne Querverweis-Stelle; zugleich lässt sich aus dem Wortlaut der externe Artikel 169 ableiten. Beides wird ausgewiesen."
+  }
+]

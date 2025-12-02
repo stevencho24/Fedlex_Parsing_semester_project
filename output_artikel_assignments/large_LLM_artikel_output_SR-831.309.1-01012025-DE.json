@@ -1,0 +1,82 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 831.301",
+    "assigned_articles": [
+      "Art. 54a Abs. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Preambel-Satz: 'gestützt auf Artikel 54a Absatz 3 der Verordnung vom 15. Januar 1971 SR 831.301 ...'; der Artikel ist direkt mit dieser Verordnung (SR 831.301) verknüpft."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 837.21",
+    "assigned_articles": [
+      "Art. 13 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "Im gleichen Preambel-Satz: '... und auf Artikel 13 Absatz 1 der Verordnung vom 11. Juni 2021 SR 837.21 ...'; der Artikel ist grammatikalisch eindeutig dieser Verordnung zugeordnet."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 831.30",
+    "assigned_articles": [
+      "Art. 10 Abs. 3 Bst. d"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Satz: '... die nach Artikel 10 Absatz 3 Buchstabe d des Bundesgesetzes vom 6. Oktober 2006 SR 831.30 ...'; der Artikel mit Absatz und Buchstabe ist direkt mit SR 831.30 verknüpft."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 837.2",
+    "assigned_articles": [
+      "Art. 9 Abs. 1 Bst. h"
+    ],
+    "confidence": "high",
+    "reasoning": "Im gleichen Satz: '... und nach Artikel 9 Absatz 1 Buchstabe h des Bundesgesetzes vom 19. Juni 2020 SR 837.2 ...'; der Artikel ist unmittelbar der SR 837.2 zugeordnet."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 832.10",
+    "assigned_articles": [
+      "Art. 61 Abs. 2bis"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Satzende: '... nach dem Bundesgesetz vom 18. März 1994 SR 832.10 über die Krankenversicherung (KVG) ... Massgebend sind die vom EDI nach Artikel 61 Absatz 2bis KVG festgelegten Prämienregionen.'; 'KVG' bezeichnet dieses Gesetz (SR 832.10), daher gehört Art. 61 Abs. 2bis zu SR 832.10."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": "SR 832.102",
+    "assigned_articles": [
+      "Art. 103 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Satz: '... Franchise nach Artikel 103 Absatz 1 der Verordnung vom 27. Juni 1995 SR 832.102 über die Krankenversicherung ...'; der Artikel ist direkt dieser Verordnung zugeordnet."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "artikel_reference ohne explizite SR-Nennung; die genannten Artikel (10 Abs. 3 Bst. d, 9 Abs. 1 Bst. h, 61 Abs. 2bis) sind bereits in Items 3–5 den externen SR zugeordnet. Hier dient die Stelle als Beschreibung der eigenen Regelung; daher Selbstverweis auf andere Gesetze ohne neue SR-Zuordnung."
+  },
+  {
+    "ITEM": 8,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "artikel_reference ohne SR-Angabe: '... nach Artikel 103 Absatz 1 der Verordnung vom 27. Juni 1995 über die Krankenversicherung ...'; diese externe Verweisung ist bereits in Item 6 mit SR 832.102 verknüpft. Hier liegt kein zusätzlicher, eigenständiger SR-Link vor, sondern eine Wiederholung im Fliesstext; daher als interne/kontextuelle Referenz behandelt."
+  }
+]

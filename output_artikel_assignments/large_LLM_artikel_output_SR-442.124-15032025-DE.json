@@ -1,0 +1,165 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 442.1",
+    "assigned_articles": [
+      "Art. 28 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Formulierung «gestützt auf Artikel 28 Absatz 1 des Kulturförderungsgesetzes … SR 442.1 (KFG)» verknüpft den genannten Artikel grammatikalisch eindeutig mit dem KFG (SR 442.1)."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": "SR 442.11",
+    "assigned_articles": [
+      "Art. 6 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Snippet wird ausdrücklich «Artikel 6 Absatz 2 der Kulturförderungsverordnung … SR 442.11» genannt; dieser Artikel gehört damit klar zur SR 442.11."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_9",
+    "TARGET_SR": "SR 442.11",
+    "assigned_articles": [
+      "Art. 6 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Auch hier lautet der Wortlaut «… im Sinne von Artikel 6 Absatz 2 der Kulturförderungsverordnung … SR 442.11»; derselbe Artikel 6 Abs. 2 der SR 442.11 ist eindeutig referenziert."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": "SR 442.1",
+    "assigned_articles": [
+      "Art. 6 Abs. 2 lit. d"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Passage «im Sinne von Artikel 6 Absatz 2 Buchstabe d KFG» bezieht sich über das Akronym KFG (SR 442.1) klar auf Art. 6 Abs. 2 Buchstabe d des Kulturförderungsgesetzes."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": "SR 442.1",
+    "assigned_articles": [
+      "Art. 6 Abs. 2 lit. d"
+    ],
+    "confidence": "high",
+    "reasoning": "Identischer Wortlaut wie bei ITEM 4 («Artikel 6 Absatz 2 Buchstabe d KFG»); wiederum eindeutige Zuordnung zu Art. 6 Abs. 2 lit. d SR 442.1."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_12",
+    "TARGET_SR": "SR 442.1",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "medium",
+    "reasoning": "Es wird nur die «Verordnung des EDI vom 5. Juli 2016 über das Förderungskonzept …» erwähnt; kein bestimmter Artikel dieser Verordnung wird genannt. Die Bezugnahme auf SR 442.1 erfolgt über das Akronym EDI im Preambelkontext, ohne artikelspezifische Angabe."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«Artikel 6 Absatz 2 Buchstabe d KFG» ist bereits in ITEM 4 als Verweis auf SR 442.1 mit Art. 6 Abs. 2 lit. d erfasst; hier handelt es sich um dieselbe inhaltliche Stelle innerhalb des eigenen Artikels, keine neue externe SR-Zuordnung."
+  },
+  {
+    "ITEM": 8,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 3 Abs. 1 lit. d"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Formulierung «gemäss Artikel 3 Absatz 1 Buchstabe d» enthält keinen SR-Hinweis und verweist auf einen anderen Artikel derselben Verordnung; daher reine Selbstreferenz innerhalb des Dokuments."
+  },
+  {
+    "ITEM": 9,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "Inhaltlich identisch mit ITEM 5/7 («Artikel 6 Absatz 2 Buchstabe d KFG»), der externe Bezug zu SR 442.1 und Art. 6 Abs. 2 lit. d ist bereits über die preamble_acronym-Items (4 und 5) abgedeckt; hier nur Wiederholung im Artikeltext."
+  },
+  {
+    "ITEM": 10,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«Artikel 6 Absatz 2 der Kulturförderungsverordnung …» ist bereits in ITEM 2/3 eindeutig SR 442.11 Art. 6 Abs. 2 zugeordnet; dieses artikel_reference-Item spiegelt denselben Satz im Normtext wider und erzeugt keine zusätzliche SR-Zuordnung."
+  },
+  {
+    "ITEM": 11,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 3 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "«Dienstleistungen nach Artikel 3 Absatz 2» verweist ohne SR-Angabe auf einen anderen Artikel derselben Verordnung; daher interne Selbstreferenz."
+  },
+  {
+    "ITEM": 12,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 3 Abs. 1 lit. d"
+    ],
+    "confidence": "high",
+    "reasoning": "«in einer Gesamtsparte nach Artikel 3 Absatz 1 Buchstabe d» ist ein klarer Verweis auf einen Artikel derselben Verordnung; kein externer SR-Bezug."
+  },
+  {
+    "ITEM": 13,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 3 Abs. 2",
+      "Art. 4 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Wendung «Dienstleistungen nach Artikel 3 Absatz 2 und Artikel 4 Absatz 2» enthält keine SR-Referenz und beschreibt interne Querverweise innerhalb derselben Verordnung."
+  },
+  {
+    "ITEM": 14,
+    "ARTICLE_EID": "art_9",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 5 Abs. 1 lit. b",
+      "Art. 5 Abs. 1 lit. c"
+    ],
+    "confidence": "high",
+    "reasoning": "«nach Artikel 5 Absatz 1 Buchstaben b und c» verweist auf Bestimmungen desselben Erlasses; es liegt kein syntaktischer Bezug zu einem SR-Link vor, somit reine Selbstreferenz."
+  },
+  {
+    "ITEM": 15,
+    "ARTICLE_EID": "art_9",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Satz entspricht inhaltlich ITEM 3 (SR_link_detection zu SR 442.11 Art. 6 Abs. 2); diese externe Zuordnung ist dort bereits vorgenommen. Dieses artikel_reference-Item bildet nur den Normtext ohne zusätzlichen SR-Hinweis ab."
+  },
+  {
+    "ITEM": 16,
+    "ARTICLE_EID": "art_13",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 3",
+      "Art. 3 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Verweise «Fördervoraussetzungen nach Artikel 3 dieser Verordnung» und «Dienstleistungen nach Artikel 3 Absatz 2» beziehen sich ausdrücklich auf Artikel derselben Verordnung («dieser Verordnung»); es besteht kein Bezug zu einem externen SR-Dokument."
+  }
+]

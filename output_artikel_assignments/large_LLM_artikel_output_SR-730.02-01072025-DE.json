@@ -1,0 +1,100 @@
+[
+  {
+    "Item": 1,
+    "TARGET_SR": "SR 730.0",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "high",
+    "reasoning": "The snippet cites the Energiegesetz (EnG, SR 730.0) as a general legal basis without mentioning any specific article of that act."
+  },
+  {
+    "Item": 2,
+    "TARGET_SR": "SR 813.1",
+    "assigned_articles": ["Art. 38"],
+    "confidence": "high",
+    "reasoning": "The text explicitly says 'auf Artikel 38 des Chemikaliengesetzes ... SR 813.1'; Art. 38 is directly and uniquely linked to SR 813.1."
+  },
+  {
+    "Item": 3,
+    "TARGET_SR": "SR 814.01",
+    "assigned_articles": ["Art. 39 Abs. 1", "Art. 40"],
+    "confidence": "high",
+    "reasoning": "The snippet refers to 'die Artikel 39 Absatz 1 und 40 des Umweltschutzgesetzes ... SR 814.01'; both articles are clearly attributed to that SR."
+  },
+  {
+    "Item": 4,
+    "TARGET_SR": "SR 946.51",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "high",
+    "reasoning": "The phrase 'in Ausführung des Bundesgesetzes ... SR 946.51 über die technischen Handelshemmnisse' cites the act as a whole; no specific article is mentioned."
+  },
+  {
+    "Item": 5,
+    "TARGET_SR": "SR 946.512",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "high",
+    "reasoning": "The reference 'nach der Akkreditierungs- und Bezeichnungsverordnung ... SR 946.512' is to the ordinance in general; no article number is syntactically linked to the SR."
+  },
+  {
+    "Item": 6,
+    "TARGET_SR": "SR 741.41",
+    "assigned_articles": ["Art. 11 Abs. 2 Bst. a", "Art. 11 Abs. 2 Bst. e", "Art. 11 Abs. 2 Bst. i"],
+    "confidence": "high",
+    "reasoning": "The snippet explicitly mentions 'Artikel 11 Absatz 2 Buchstabe a, e oder i der Verordnung ... SR 741.41 (VTS)'; these letters of Art. 11(2) are directly tied to that SR."
+  },
+  {
+    "Item": 7,
+    "TARGET_SR": "SR 741.41",
+    "assigned_articles": ["Art. 97 Abs. 4"],
+    "confidence": "high",
+    "reasoning": "The text states 'Art. 97 Abs. 4 VTS SR 741.41'; this is a direct marked citation of Art. 97(4) of the VTS."
+  },
+  {
+    "Item": 8,
+    "TARGET_SR": "SR 741.41",
+    "assigned_articles": ["Art. 97 Abs. 5"],
+    "confidence": "high",
+    "reasoning": "The snippet refers to 'gemäss Artikel 97 Absatz 5 VTS SR 741.41'; Art. 97(5) is explicitly and uniquely linked to that SR."
+  },
+  {
+    "Item": 9,
+    "TARGET_SR": "SR 730.0",
+    "assigned_articles": ["Art. 70 Abs. 1 Bst. g", "Art. 70 Abs. 2", "Art. 44 Abs. 3"],
+    "confidence": "high",
+    "reasoning": "The snippet mentions 'Artikel 70 Absätze 1 Buchstabe g und 2 EnG' and 'Artikel 44 Absatz 3 EnG'; EnG is defined in the preamble as SR 730.0, so these provisions belong to that SR."
+  },
+  {
+    "Item": 10,
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Artikel 8 Ziffer 2 of Directive 2009/125/EG is EU law, not a Swiss SR document; no SR link is involved, so this is an external reference only."
+  },
+  {
+    "Item": 11,
+    "TARGET_SR": "SR 741.41",
+    "assigned_articles": ["Art. 11 Abs. 2 Bst. a", "Art. 11 Abs. 2 Bst. e", "Art. 11 Abs. 2 Bst. i"],
+    "confidence": "high",
+    "reasoning": "This artikel_reference repeats the same sentence as Item 6; 'Artikel 11 Absatz 2 Buchstabe a, e oder i der Verordnung ... (VTS)' clearly refers to Art. 11(2)(a),(e),(i) of SR 741.41."
+  },
+  {
+    "Item": 12,
+    "TARGET_SR": "SR 730.0",
+    "assigned_articles": ["Art. 70 Abs. 1 Bst. g", "Art. 70 Abs. 2"],
+    "confidence": "high",
+    "reasoning": "The snippet cites 'Artikel 70 Absätze 1 Buchstabe g und 2 EnG'; via the preamble acronym EnG = SR 730.0, these are provisions of that SR."
+  },
+  {
+    "Item": 13,
+    "TARGET_SR": "SR 730.0",
+    "assigned_articles": ["Art. 44 Abs. 3"],
+    "confidence": "high",
+    "reasoning": "The text 'allfälligen Etiketten nach Artikel 44 Absatz 3 EnG' uses the EnG acronym; from the preamble EnG = SR 730.0, so this is Art. 44(3) of that SR."
+  },
+  {
+    "Item": 14,
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "The reference 'Artikel 12 Absatz 1' is an internal cross-reference within the same ordinance; no SR or acronym is mentioned, so it is a self-reference, not an outgoing SR link."
+  }
+]

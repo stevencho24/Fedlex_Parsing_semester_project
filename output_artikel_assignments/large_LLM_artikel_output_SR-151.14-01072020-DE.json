@@ -1,0 +1,155 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 151.1",
+    "assigned_articles": [
+      "Art. 13d Abs. 2",
+      "Art. 13d Abs. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Satz nennt ausdrücklich «Artikel 13d Absätze 2 und 3 des Gleichstellungsgesetzes … SR 151.1 (GlG)»; beide Absätze gehören daher eindeutig zu SR 151.1."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 221.302",
+    "assigned_articles": [
+      "Art. 4",
+      "Art. 5"
+    ],
+    "confidence": "high",
+    "reasoning": "Formulierung «nach den Artikeln 4 und 5 des Revisionsaufsichtsgesetzes … SR 221.302» verknüpft die Artikel 4 und 5 direkt mit dem Revisionsaufsichtsgesetz (SR 221.302)."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": "SR 172.041.1",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "«Es gelten die Bestimmungen der Allgemeinen Gebührenverordnung … SR 172.041.1.» enthält keinen bestimmten Artikel; es wird die Verordnung insgesamt für anwendbar erklärt."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": "SR 220",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "«die dem Obligationenrecht SR 220 unterstehen» verweist allgemein auf das OR als Rechtsgrundlage ohne konkrete Artikelangabe."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 151.1",
+    "assigned_articles": [
+      "Art. 13e"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Snippet: «Überprüfung der Lohngleichheitsanalyse nach Artikel 13e GlG»; GlG ist in der Präambel als SR 151.1 definiert, daher gehört Art. 13e zu SR 151.1."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": "SR 151.1",
+    "assigned_articles": [
+      "Art. 13c Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Text: «Standard-Analyse-Tool (Art. 13c Abs. 2 GlG)»; GlG = SR 151.1, somit eindeutige Zuordnung zu Art. 13c Abs. 2 dieses Gesetzes."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_8",
+    "TARGET_SR": "SR 151.1",
+    "assigned_articles": [
+      "Art. 13d Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "Formulierung «Revisionsunternehmen nach Artikel 13d Absatz 1 GlG»; GlG = SR 151.1, daher Art. 13d Abs. 1 dieses Gesetzes."
+  },
+  {
+    "ITEM": 8,
+    "ARTICLE_EID": "art_9",
+    "TARGET_SR": "SR 151.1",
+    "assigned_articles": [
+      "Art. 13d Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "Wortlaut identisch strukturiert wie bei ITEM 7: «Revisionsunternehmen nach Artikel 13d Absatz 1 GlG»; wiederum Art. 13d Abs. 1 GlG = SR 151.1."
+  },
+  {
+    "ITEM": 9,
+    "ARTICLE_EID": "art_10",
+    "TARGET_SR": "SR 151.1",
+    "assigned_articles": [
+      "Art. 13a",
+      "Art. 17a Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet nennt «Arbeitgeberinnen und Arbeitgeber nach Artikel 13a GlG» sowie in Klammern «(Art. 17a Abs. 1 GlG)»; beide Artikel gehören zum GlG = SR 151.1."
+  },
+  {
+    "ITEM": 10,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«Artikel 13e GlG» ist bereits in ITEM 5 als externer Verweis auf SR 151.1 erfasst; hier handelt es sich um dieselbe inhaltliche Bezugnahme innerhalb des eigenen Normtextes, kein neuer SR-Link."
+  },
+  {
+    "ITEM": 11,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«nach den Artikeln 4 und 5 des Revisionsaufsichtsgesetzes …» ist bereits in ITEM 2 als Verweis auf SR 221.302 mit Art. 4 und 5 zugeordnet; diese artikel_reference-Stelle spiegelt denselben Kontext und bleibt eine interne Querverweisung."
+  },
+  {
+    "ITEM": 12,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«den Anforderungen nach Artikel 3 Absatz 1 genügen» verweist auf Art. 3 Abs. 1 derselben Verordnung; kein externer SR-Bezug im Satz."
+  },
+  {
+    "ITEM": 13,
+    "ARTICLE_EID": "art_6",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«Ausbildungskurs nach Artikel 4» bezieht sich auf Art. 4 der vorliegenden Verordnung; es wird kein anderes Gesetz oder SR genannt."
+  },
+  {
+    "ITEM": 14,
+    "ARTICLE_EID": "art_8",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«Lohngleichheitsanalysen nach Artikel 7 Absatz 2» ist eine reine Selbstverweisung auf Art. 7 Abs. 2 derselben Verordnung; kein externer SR-Link im Kontext."
+  },
+  {
+    "ITEM": 15,
+    "ARTICLE_EID": "art_9",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "Auch hier «Lohngleichheitsanalyse nach Artikel 7 Absatz 2»; wiederum eine interne Querverweisung auf Art. 7 Abs. 2 der eigenen Verordnung ohne Nennung eines anderen SR."
+  }
+]

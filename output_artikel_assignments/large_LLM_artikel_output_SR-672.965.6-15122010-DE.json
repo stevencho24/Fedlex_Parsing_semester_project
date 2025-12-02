@@ -1,0 +1,23 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 101",
+    "assigned_articles": [
+      "Art. 54 Abs. 1",
+      "Art. 166 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet explicitly cites 'Artikel 54 Absatz 1 und 166 Absatz 2 der Bundesverfassung SR 101'; both articles are directly and syntactically linked to SR 101."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet mentions 'Artikel 141 Absatz 1 Buchstabe d Ziffer 3 der Bundesverfassung' but this item_type is 'artikel_reference' without a TARGET_SR; per rules, such isolated article mentions without an SR link are treated as self-references within the current document context, not assigned to an external SR."
+  }
+]

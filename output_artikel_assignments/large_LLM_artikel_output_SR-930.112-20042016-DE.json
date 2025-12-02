@@ -1,0 +1,254 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 930.11",
+    "assigned_articles": [
+      "Art. 4"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Satzteil zu SR 930.11 heisst es ausdrücklich: «gestützt auf Artikel 4 des Bundesgesetzes ... SR 930.11 über die Produktesicherheit (PrSG)»; Art. 4 ist direkt mit diesem SR verknüpft."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 832.20",
+    "assigned_articles": [
+      "Art. 83 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "Der relevante Teilsatz lautet: «... und auf Artikel 83 Absatz 1 des Bundesgesetzes vom 20. März 1981 SR 832.20 über die Unfallversicherung (UVG)»; Art. 83 Abs. 1 ist klar dem UVG (SR 832.20) zugeordnet."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 734.0",
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Formulierung: «in Ausführung des Elektrizitätsgesetzes vom 24. Juni 1902 SR 734.0 (EleG)»; es wird kein bestimmter Artikel des EleG genannt, sondern das Gesetz als Ganzes. Gemäss Vorgabe ist dies als allgemeine Gesetzesgrundlage ohne konkrete Artikelangabe zu behandeln, daher keine Artikelzuweisung."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 946.51",
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Formulierung: «... und des Bundesgesetzes vom 6. Oktober 1995 SR 946.51 über die technischen Handelshemmnisse (THG)»; auch hier wird kein Artikel genannt, nur das Gesetz insgesamt. Daher keine konkrete Artikelzuweisung."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 930.111",
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Satz: «... gelten ... die Bestimmungen der Verordnung vom 19. Mai 2010 SR 930.111 über die Produktesicherheit (PrSV).» Es wird keine bestimmte Artikelnummer der PrSV genannt; die Wendung «die Bestimmungen» ist eine generelle Verweisung auf die Verordnung als Ganzes. Keine konkreten Artikel ableitbar."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": "SR 946.512",
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Satz: «nach der Akkreditierungs- und Bezeichnungsverordnung vom 17. Juni 1996 SR 946.512 (AkkBV) akkreditiert sein;»; es wird keine Artikelnummer der AkkBV genannt, nur die Verordnung insgesamt. Daher keine Artikelzuweisung."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_6",
+    "TARGET_SR": "SR 930.111",
+    "assigned_articles": [
+      "Art. 19–29"
+    ],
+    "confidence": "high",
+    "reasoning": "Text: «... richtet sich nach den Artikeln 19–29 PrSV SR 930.111.»; die Artikel 19–29 werden ausdrücklich mit der PrSV verknüpft. Gemäss Regeln kann der Bereich als Spannweite «Art. 19–29» wiedergegeben werden."
+  },
+  {
+    "ITEM": 8,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": "SR 930.11",
+    "assigned_articles": [
+      "Art. 6"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet: «Die Bezeichnung technischer Normen richtet sich nach Artikel 6 PrSG.»; PrSG ist in der Präambel als SR 930.11 definiert. «Artikel 6» steht unmittelbar beim Akronym, daher klare Zuordnung zu SR 930.11."
+  },
+  {
+    "ITEM": 9,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": "SR 930.11",
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Text: «... den vom ... WBF gestützt auf das PrSG bezeichneten Kontrollorganen.»; hier wird nur das Gesetz PrSG als Grundlage erwähnt, ohne Artikelangabe. Keine konkrete Artikelreferenz im Sinne der Zuweisungsregeln."
+  },
+  {
+    "ITEM": 10,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "«Artikel 1 der EU-Aufzugsrichtlinie» ist eine Verweisung auf ein externes EU-Rechtsinstrument, nicht auf ein SR-Dokument. Es handelt sich um eine reine Artikelreferenz ohne TARGET_SR; daher als interne Strukturangabe/Verweis auf fremdes Recht zu behandeln, nicht als SR-Link."
+  },
+  {
+    "ITEM": 11,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 2",
+      "Art. 2 Nrn. 13–15"
+    ],
+    "confidence": "high",
+    "reasoning": "Bezieht sich auf «Artikel 2 der EU-Aufzugsrichtlinie» und «Artikel 2 Nummern 13–15» derselben Richtlinie. Dies sind Verweise auf EU-Recht, nicht auf ein SR-Dokument; daher keine SR-Zuweisung, sondern nur Feststellung der genannten Artikel der EU-Richtlinie."
+  },
+  {
+    "ITEM": 12,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 5 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "«... nach Artikel 5 Absatz 1 der EU‑Aufzugsrichtlinie ...»; wiederum Verweis auf EU-Richtlinie, nicht auf ein SR. Als artikel_reference ist dies eine externe Normverweisung ohne TARGET_SR."
+  },
+  {
+    "ITEM": 13,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 5 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "«... nach Artikel 5 Absatz 2 der EU‑Aufzugsrichtlinie ...»; gleich gelagerter Verweis auf EU-Recht, keine SR-Verknüpfung."
+  },
+  {
+    "ITEM": 14,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 14–17"
+    ],
+    "confidence": "high",
+    "reasoning": "«... nach den Artikeln 14–17 der EU‑Aufzugsrichtlinie ...»; es handelt sich um eine Spannweite von Artikeln der EU-Richtlinie, nicht eines SR-Gesetzes. Keine TARGET_SR vorhanden."
+  },
+  {
+    "ITEM": 15,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 19 Abs. 3–5"
+    ],
+    "confidence": "high",
+    "reasoning": "«... gilt Artikel 19 Absätze 3–5 der EU-Aufzugsrichtlinie.»; wiederum Verweis auf EU-Recht, nicht auf ein SR-Dokument."
+  },
+  {
+    "ITEM": 16,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": "SR 946.512",
+    "assigned_articles": [
+      "Art. 24–34c"
+    ],
+    "confidence": "high",
+    "reasoning": "Text: «... richten sich nach dem 3. Kapitel (Art. 24–34c) der AkkBV.»; AkkBV ist in ITEM 6 als SR 946.512 identifiziert. Die Klammer «(Art. 24–34c)» steht direkt bei der Bezeichnung des 3. Kapitels der AkkBV, daher klare Zuordnung dieser Artikelspanne zu SR 946.512."
+  },
+  {
+    "ITEM": 17,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 7"
+    ],
+    "confidence": "high",
+    "reasoning": "«Montagebetriebe: Artikel 7;» bezieht sich offensichtlich auf Artikel 7 derselben Verordnung (interne Systematik). Kein externer SR-Bezug, daher Selbstreferenz innerhalb des Dokuments."
+  },
+  {
+    "ITEM": 18,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 8"
+    ],
+    "confidence": "high",
+    "reasoning": "«Hersteller: Artikel 8;» ist eine interne Verweisung auf Art. 8 der gleichen Verordnung. Keine SR-Verknüpfung."
+  },
+  {
+    "ITEM": 19,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 9"
+    ],
+    "confidence": "high",
+    "reasoning": "«Bevollmächtigte: Artikel 9;» interne Verweisung auf Art. 9 derselben Verordnung; kein externer SR-Bezug."
+  },
+  {
+    "ITEM": 20,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 10"
+    ],
+    "confidence": "high",
+    "reasoning": "«Importeure: Artikel 10;» interne Selbstreferenz auf Art. 10 der Verordnung; keine SR-Zuordnung."
+  },
+  {
+    "ITEM": 21,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 11"
+    ],
+    "confidence": "high",
+    "reasoning": "«Händler: Artikel 11.» verweist auf Art. 11 derselben Verordnung; reine interne Strukturreferenz."
+  },
+  {
+    "ITEM": 22,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 12"
+    ],
+    "confidence": "high",
+    "reasoning": "«... richtet sich nach Artikel 12 der EU-Aufzugsrichtlinie.»; Verweis auf EU-Richtlinie, nicht auf ein SR-Dokument. Daher keine TARGET_SR, nur Feststellung des genannten Artikels der Richtlinie."
+  },
+  {
+    "ITEM": 23,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 13"
+    ],
+    "confidence": "high",
+    "reasoning": "«... richtet sich nach Artikel 13 der EU-Aufzugsrichtlinie.»; wiederum EU-Recht, kein SR-Bezug."
+  },
+  {
+    "ITEM": 24,
+    "ARTICLE_EID": "art_8",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 7 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "«... mindestens die Angaben nach Artikel 7 Absatz 2.»; dies ist eine interne Verweisung auf Art. 7 Abs. 2 derselben Verordnung (kein anderes Gesetz genannt). Selbstreferenz, kein TARGET_SR."
+  },
+  {
+    "ITEM": 25,
+    "ARTICLE_EID": "art_8",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 7 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Wortlaut identisch hinsichtlich der Verweisung: «... mindestens die Angaben nach Artikel 7 Absatz 2 ...»; wiederum interne Selbstreferenz auf Art. 7 Abs. 2 der Verordnung."
+  },
+  {
+    "ITEM": 26,
+    "ARTICLE_EID": "art_10",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 18",
+      "Art. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "Satz: «... oder nach Artikel 18 der Aufzugsverordnung vom 23. Juni 1999 in Verkehr gebracht worden sind und umgebaut oder erneuert werden, gilt Artikel 3 nicht.»; «Artikel 18 der Aufzugsverordnung» verweist auf ein anderes (älteres) schweizerisches Erlasswerk, aber ohne SR-Nummer; «Artikel 3» ist eine Selbstreferenz innerhalb der aktuellen Verordnung. Mangels expliziter SR-Verknüpfung bleibt dies ohne TARGET_SR."
+  }
+]

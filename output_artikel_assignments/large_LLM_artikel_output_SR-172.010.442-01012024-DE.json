@@ -1,0 +1,145 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 172.010",
+    "assigned_articles": [
+      "Art. 57q Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet explicitly cites 'Artikel 57q Absatz 1 des Regierungs- und Verwaltungsorganisationsgesetzes ... SR 172.010 (RVOG)'; this article and paragraph clearly belong to SR 172.010."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": "SR 128.1",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "medium",
+    "reasoning": "The sentence refers generally to 'den Bestimmungen der Informationssicherheitsverordnung ... SR 128.1' without specifying any article or paragraph; thus it is a general reference to the ordinance as a whole."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": "SR 172.010",
+    "assigned_articles": [
+      "Art. 57l Bst. a",
+      "Art. 57l Bst. b",
+      "Art. 57l Bst. c",
+      "Art. 57l Bst. d"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet repeatedly refers to 'Artikel 57l Buchstabe a RVOG', 'Art. 57l Bst. b RVOG', 'Art. 57l Bst. c RVOG' and 'Art. 57l Bst. d RVOG'. Through the acronym RVOG (linked in the preamble to SR 172.010), these are clearly provisions of SR 172.010."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_8",
+    "TARGET_SR": "SR 172.010",
+    "assigned_articles": [
+      "Art. 57m"
+    ],
+    "confidence": "high",
+    "reasoning": "The parenthetical '(Art. 57m RVOG)' directly cites Art. 57m of the RVOG, which the preamble maps to SR 172.010."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_9",
+    "TARGET_SR": "SR 172.010",
+    "assigned_articles": [
+      "Art. 57n"
+    ],
+    "confidence": "high",
+    "reasoning": "The parenthetical '(Art. 57n RVOG)' directly cites Art. 57n of the RVOG, which corresponds to SR 172.010."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_10",
+    "TARGET_SR": "SR 172.010",
+    "assigned_articles": [
+      "Art. 57o Abs. 1 Bst. a"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet '(Art. 57o Abs. 1 Bst. a RVOG)' explicitly identifies article, paragraph and letter of the RVOG, i.e. SR 172.010."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_11",
+    "TARGET_SR": "SR 172.010",
+    "assigned_articles": [
+      "Art. 57o Abs. 1 Bst. a"
+    ],
+    "confidence": "high",
+    "reasoning": "Again '(Art. 57o Abs. 1 Bst. a RVOG)' is a direct citation to the same provision of SR 172.010."
+  },
+  {
+    "ITEM": 8,
+    "ARTICLE_EID": "art_12",
+    "TARGET_SR": "SR 172.010",
+    "assigned_articles": [
+      "Art. 57o Abs. 1 Bst. b"
+    ],
+    "confidence": "high",
+    "reasoning": "The parenthetical '(Art. 57o Abs. 1 Bst. b RVOG)' clearly refers to this specific provision of SR 172.010."
+  },
+  {
+    "ITEM": 9,
+    "ARTICLE_EID": "art_13",
+    "TARGET_SR": "SR 172.010",
+    "assigned_articles": [
+      "Art. 57o Abs. 1 Bst. c–e"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet '(Art. 57o Abs. 1 Bst. c–e RVOG)' cites a range of letters within Art. 57o Abs. 1 of the RVOG, i.e. SR 172.010; the range is preserved as written."
+  },
+  {
+    "ITEM": 10,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": "self",
+    "assigned_articles": [
+      "Art. 57l Bst. a RVOG"
+    ],
+    "confidence": "high",
+    "reasoning": "This artikel_reference line contains 'Artikel 57l Buchstabe a RVOG'. Via the preamble acronym, RVOG is SR 172.010, so this is an external citation to Art. 57l Bst. a of SR 172.010, not a self-reference within the current ordinance."
+  },
+  {
+    "ITEM": 11,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": "self",
+    "assigned_articles": [
+      "Art. 57l Bst. b RVOG"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet has '(Art. 57l Bst. b RVOG)'; again, through RVOG this points to Art. 57l Bst. b of SR 172.010, i.e. an external SR reference."
+  },
+  {
+    "ITEM": 12,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": "self",
+    "assigned_articles": [
+      "Art. 57l Bst. c RVOG"
+    ],
+    "confidence": "high",
+    "reasoning": "The text '(Art. 57l Bst. c RVOG)' is a direct citation to Art. 57l letter c of the RVOG (SR 172.010), not to an article of the present ordinance."
+  },
+  {
+    "ITEM": 13,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": "self",
+    "assigned_articles": [
+      "Art. 57l Bst. d RVOG"
+    ],
+    "confidence": "high",
+    "reasoning": "The line contains '(Art. 57l Bst. d RVOG)', which clearly refers to Art. 57l letter d of the RVOG (SR 172.010)."
+  },
+  {
+    "ITEM": 14,
+    "ARTICLE_EID": "art_11",
+    "TARGET_SR": "self",
+    "assigned_articles": [
+      "Art. 4 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "The phrase 'innerhalb der Fristen nach Artikel 4 Absatz 1' has no SR or acronym marker and refers to another provision of the same ordinance; thus it is an internal self-reference to Art. 4 Abs. 1 of the current document."
+  }
+]

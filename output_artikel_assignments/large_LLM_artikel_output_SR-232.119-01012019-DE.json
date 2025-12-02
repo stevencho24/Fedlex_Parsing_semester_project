@@ -1,0 +1,142 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 232.11",
+    "assigned_articles": [
+      "Art. 50 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Formulierung «gestützt auf Artikel 50 Absatz 2 des Markenschutzgesetzes … SR 232.11 (MSchG)» verweist eindeutig auf Art. 50 Abs. 2 MSchG; Artikel und SR werden direkt syntaktisch verknüpft."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": "SR 0.632.290.131",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "Es wird nur «das ergänzende Abkommen vom 20. Juli 1972 SR 0.632.290.131» als Ganzes vorbehalten; keine spezifischen Artikel oder Absätze dieses Abkommens werden genannt."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_2_d",
+    "TARGET_SR": "SR 232.111",
+    "assigned_articles": [
+      "Art. 52k"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Satz lautet «nach Artikel 52k der Markenschutzverordnung … SR 232.111»; Art. 52k ist unmittelbar mit der genannten Verordnung (SR 232.111) verknüpft."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": "SR 232.11",
+    "assigned_articles": [
+      "Art. 47 Abs. 3ter"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Formulierung «nach Artikel 47 Absatz 3ter MSchG SR 232.11» verknüpft Art. 47 Abs. 3ter direkt mit dem Markenschutzgesetz (SR 232.11)."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": "SR 232.11",
+    "assigned_articles": [
+      "Art. 47 Abs. 3ter"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Snippet «nach Artikel 47 Absatz 3ter MSchG» ist MSchG über die Präambel als SR 232.11 definiert; damit bezieht sich die Artikelangabe eindeutig auf Art. 47 Abs. 3ter SR 232.11."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_8",
+    "TARGET_SR": "SR 232.11",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "medium",
+    "reasoning": "«fallen unter die Strafbestimmungen des MSchG» verweist allgemein auf die Strafbestimmungen des Markenschutzgesetzes; ohne Nennung einzelner Artikel ist nur ein Gesamtverweis auf die strafrechtlichen Regelungen des Gesetzes erkennbar."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_2_b",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«Im Sinne von Artikel 2 Absatz 1 Buchstabe abis» verweist auf einen Artikel 2 derselben Verordnung (interne Systematik); es wird kein externes SR-Dokument genannt."
+  },
+  {
+    "ITEM": 8,
+    "ARTICLE_EID": "art_2_d",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "Hier wird «nach Artikel 52k der Markenschutzverordnung …» ohne SR-Angabe im Snippet zitiert; im Kontext des Dokuments ist dies ein Verweis auf eine andere bundesrätliche Verordnung, nicht auf die eigene. Da diese externe Verordnung bereits in ITEM 3 mit SR 232.111 erfasst ist, handelt es sich bei diesem artikel_reference-Eintrag um eine Wiederholung derselben Stelle und keinen neuen SR-Link; als artikel_reference bleibt er daher als interner Verweis im Sinne der Projektlogik ohne eigene TARGET_SR-Zuordnung."
+  },
+  {
+    "ITEM": 9,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«Die in Artikel 3 Absätze 1 und 4 genannten Bezeichnungen …» verweist auf Artikel 3 derselben Verordnung; kein externes SR-Dokument im Satz."
+  },
+  {
+    "ITEM": 10,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«… die nicht für Schweizer Uhren im Sinne von Artikel 1a bestimmt sind» ist ein Verweis auf Art. 1a derselben Verordnung; keine SR-Nennung, daher reine Selbstreferenz."
+  },
+  {
+    "ITEM": 11,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«Die in Artikel 3 Absätze 1 und 4 genannten Bezeichnungen … im Sinne von Artikel la» (offensichtlich 1a) verweist auf interne Artikel 3 und 1a der gleichen Verordnung; kein externer SR-Bezug."
+  },
+  {
+    "ITEM": 12,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«… nicht für Schweizer Uhren im Sinne von Artikel 1a bestimmt sind» verweist wiederum auf Art. 1a derselben Verordnung; keine externe SR-Referenz."
+  },
+  {
+    "ITEM": 13,
+    "ARTICLE_EID": "art_6",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«Die in Artikel 3 Absätze 1 und 4 genannten Bezeichnungen … im Sinne von Artikel 1a» verweist intern auf Art. 3 und 1a der gleichen Verordnung; kein SR-Dokument genannt."
+  },
+  {
+    "ITEM": 14,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«Ungeachtet der Artikel 3 Absatz 2 sowie 4–6 …» ist eine reine Verweisung auf andere Artikel derselben Verordnung; es fehlt jeder Bezug zu einem externen SR-Dokument."
+  }
+]

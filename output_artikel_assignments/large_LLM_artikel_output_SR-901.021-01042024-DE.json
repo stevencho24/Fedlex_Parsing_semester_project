@@ -1,0 +1,34 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 901.0",
+    "assigned_articles": [
+      "Art. 7 Abs. 3",
+      "Art. 10",
+      "Art. 20"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Formulierung \"gestützt auf die Artikel 7 Absatz 3, 10 und 20 des Bundesgesetzes ... SR 901.0\" verknüpft die genannten Artikel syntaktisch eindeutig mit SR 901.0."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_2_a",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 7 Abs. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Norm lautet \"Gestützt auf Artikel 7 Absatz 3 des Bundesgesetzes über Regionalpolitik\". Dieses Bundesgesetz ist SR 901.0; Art. 7 Abs. 3 ist damit eine Selbstreferenz auf das zitierte Gesetz, nicht auf ein anderes TARGET_SR (kein TARGET_SR im Item vorhanden)."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 8 Abs. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Satz wird \"nach Artikel 8 Absatz 3 des Bundesgesetzes vom 6. Oktober 2006 über Regionalpolitik\" erwähnt. Dieses Bundesgesetz ist SR 901.0; mangels TARGET_SR handelt es sich um eine interne Gesetzesreferenz innerhalb desselben Bundesgesetzes."
+  }
+]

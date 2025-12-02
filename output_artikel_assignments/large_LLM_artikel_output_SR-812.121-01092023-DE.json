@@ -1,0 +1,690 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 101",
+    "assigned_articles": ["Art. 118", "Art. 123"],
+    "confidence": "high",
+    "reasoning": "Snippet explicitly cites 'Artikel 118 und 123 der Bundesverfassung SR 101'; both are directly linked to SR 101."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_1_b",
+    "TARGET_SR": "SR 812.21",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "high",
+    "reasoning": "Reference is to the Heilmittelgesetz as a whole; no specific article is mentioned."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_3_c",
+    "TARGET_SR": "SR 311.0",
+    "assigned_articles": ["Art. 320", "Art. 321"],
+    "confidence": "high",
+    "reasoning": "Text: 'nach den Artikeln 320 und 321 des Strafgesetzbuches SR 311.0' clearly assigns both articles to SR 311.0."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_3_j",
+    "TARGET_SR": "SR 420.1",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "high",
+    "reasoning": "Authorial note: 'Siehe heute: das BG ... (SR 420.1)' refers to the entire research and innovation act, without article numbers."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": "SR 170.512.1",
+    "assigned_articles": ["Art. 20 Abs. 2"],
+    "confidence": "high",
+    "reasoning": "Inside note: 'in Anwendung von Art. 20 Abs. 2 der Publikationsverordnung ... (SR 170.512.1)' directly links this article and paragraph to SR 170.512.1."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_8_a",
+    "TARGET_SR": "SR 641.31",
+    "assigned_articles": ["Art. 4"],
+    "confidence": "high",
+    "reasoning": "Snippet: 'nach Artikel 4 des Tabaksteuergesetzes ... SR 641.31' explicitly cites Art. 4 of that act."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_9",
+    "TARGET_SR": "SR 812.212.1",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "high",
+    "reasoning": "Authorial note identifies 'Arzneimittel-Bewilligungsverordnung ... (SR 812.212.1)' as the referenced ordinance; no article is specified."
+  },
+  {
+    "ITEM": 8,
+    "ARTICLE_EID": "art_9",
+    "TARGET_SR": "SR 170.512",
+    "assigned_articles": ["Art. 12 Abs. 2"],
+    "confidence": "high",
+    "reasoning": "Note: 'in Anwendung von Art. 12 Abs. 2 des Publikationsgesetzes ... (SR 170.512)' clearly ties this paragraph to SR 170.512."
+  },
+  {
+    "ITEM": 9,
+    "ARTICLE_EID": "art_9",
+    "TARGET_SR": "SR 811.11",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "high",
+    "reasoning": "Text: 'gemäss dem Medizinalberufegesetz vom 23. Juni 2006 SR 811.11' refers to the act generally, without article-level citation."
+  },
+  {
+    "ITEM": 10,
+    "ARTICLE_EID": "art_10",
+    "TARGET_SR": "SR 811.11",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "high",
+    "reasoning": "Again 'im Sinne des Medizinalberufegesetzes ... SR 811.11' is a general definitional reference, no article given."
+  },
+  {
+    "ITEM": 11,
+    "ARTICLE_EID": "art_12",
+    "TARGET_SR": "SR 812.212.1",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "high",
+    "reasoning": "Authorial note labels 'Begriff: Arzneimittel-Bewilligungsverordnung ... (SR 812.212.1)'; it defines the term, not a specific article."
+  },
+  {
+    "ITEM": 12,
+    "ARTICLE_EID": "art_12",
+    "TARGET_SR": "SR 170.512",
+    "assigned_articles": ["Art. 12 Abs. 2"],
+    "confidence": "high",
+    "reasoning": "Same wording as item 8: explicit 'Art. 12 Abs. 2 des Publikationsgesetzes ... (SR 170.512)'."
+  },
+  {
+    "ITEM": 13,
+    "ARTICLE_EID": "art_12",
+    "TARGET_SR": "SR 311.0",
+    "assigned_articles": ["Art. 54"],
+    "confidence": "high",
+    "reasoning": "Snippet: 'Artikel 54 des Strafgesetzbuches SR 311.0 bleibt vorbehalten.' directly cites Art. 54 StGB."
+  },
+  {
+    "ITEM": 14,
+    "ARTICLE_EID": "art_16",
+    "TARGET_SR": "SR 812.212.1",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "high",
+    "reasoning": "As in earlier items, the note only identifies the Arzneimittel-Bewilligungsverordnung (SR 812.212.1) generically."
+  },
+  {
+    "ITEM": 15,
+    "ARTICLE_EID": "art_16",
+    "TARGET_SR": "SR 170.512",
+    "assigned_articles": ["Art. 12 Abs. 2"],
+    "confidence": "high",
+    "reasoning": "Same authorial note pattern: 'in Anwendung von Art. 12 Abs. 2 des Publikationsgesetzes ... (SR 170.512)'."
+  },
+  {
+    "ITEM": 16,
+    "ARTICLE_EID": "art_18",
+    "TARGET_SR": "SR 311.0",
+    "assigned_articles": ["Art. 320"],
+    "confidence": "high",
+    "reasoning": "Text: 'Die Geheimhaltungspflicht im Sinne von Artikel 320 des Strafgesetzbuches SR 311.0' clearly links Art. 320 StGB."
+  },
+  {
+    "ITEM": 17,
+    "ARTICLE_EID": "art_18_a",
+    "TARGET_SR": "SR 0.362.31",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "high",
+    "reasoning": "The Schengen association agreement (SR 0.362.31) is cited by title only; no article numbers are mentioned."
+  },
+  {
+    "ITEM": 18,
+    "ARTICLE_EID": "art_18_a",
+    "TARGET_SR": "SR 0.362.33",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "high",
+    "reasoning": "Same long list of Schengen agreements; SR 0.362.33 is referenced as a whole."
+  },
+  {
+    "ITEM": 19,
+    "ARTICLE_EID": "art_18_a",
+    "TARGET_SR": "SR 0.362.32",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "high",
+    "reasoning": "The Iceland/Norway agreement (SR 0.362.32) is cited without article specification."
+  },
+  {
+    "ITEM": 20,
+    "ARTICLE_EID": "art_18_a",
+    "TARGET_SR": "SR 0.362.311",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "high",
+    "reasoning": "The Liechtenstein protocol (SR 0.362.311) is referenced in full; no article-level citation."
+  },
+  {
+    "ITEM": 21,
+    "ARTICLE_EID": "art_19",
+    "TARGET_SR": "SR 311.0",
+    "assigned_articles": ["Art. 6"],
+    "confidence": "high",
+    "reasoning": "Snippet: 'Artikel 6 des Strafgesetzbuches SR 311.0 ist anwendbar.' explicitly names Art. 6."
+  },
+  {
+    "ITEM": 22,
+    "ARTICLE_EID": "art_19_a",
+    "TARGET_SR": "SR 311.0",
+    "assigned_articles": ["Art. 60", "Art. 63"],
+    "confidence": "high",
+    "reasoning": "Text: 'Die Artikel 60 und 63 des Strafgesetzbuchs SR 311.0 gelten sinngemäss.' clearly links both articles."
+  },
+  {
+    "ITEM": 23,
+    "ARTICLE_EID": "art_20",
+    "TARGET_SR": "SR 812.212.1",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "high",
+    "reasoning": "Authorial note again only defines the Arzneimittel-Bewilligungsverordnung (SR 812.212.1) generically."
+  },
+  {
+    "ITEM": 24,
+    "ARTICLE_EID": "art_20",
+    "TARGET_SR": "SR 170.512",
+    "assigned_articles": ["Art. 12 Abs. 2"],
+    "confidence": "high",
+    "reasoning": "Same 'in Anwendung von Art. 12 Abs. 2 des Publikationsgesetzes ... (SR 170.512)' pattern as earlier items."
+  },
+  {
+    "ITEM": 25,
+    "ARTICLE_EID": "art_24",
+    "TARGET_SR": "SR 312.0",
+    "assigned_articles": ["Art. 32"],
+    "confidence": "high",
+    "reasoning": "Snippet: 'kein Gerichtsstand nach Artikel 32 der Strafprozessordnung ... SR 312.0' directly cites Art. 32 StPO."
+  },
+  {
+    "ITEM": 26,
+    "ARTICLE_EID": "art_26",
+    "TARGET_SR": "SR 311.0",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "high",
+    "reasoning": "Phrase 'Die allgemeinen Bestimmungen des Strafgesetzbuches SR 311.0' refers to the general part as a whole, not specific articles."
+  },
+  {
+    "ITEM": 27,
+    "ARTICLE_EID": "art_27",
+    "TARGET_SR": "SR 311.0",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "high",
+    "reasoning": "Refers to 'Die besonderen Bestimmungen des Strafgesetzbuches SR 311.0' as a block; no article numbers."
+  },
+  {
+    "ITEM": 28,
+    "ARTICLE_EID": "art_27",
+    "TARGET_SR": "SR 817.0",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "high",
+    "reasoning": "Mentions 'die Bestimmungen des Lebensmittelgesetzes ... SR 817.0' without specifying articles."
+  },
+  {
+    "ITEM": 29,
+    "ARTICLE_EID": "art_27",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "high",
+    "reasoning": "Text: 'die Strafbestimmungen des Zollgesetzes ... SR 631.0' refers to the penal provisions generally."
+  },
+  {
+    "ITEM": 30,
+    "ARTICLE_EID": "art_27",
+    "TARGET_SR": "SR 641.201",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "high",
+    "reasoning": "Authorial note: 'Siehe heute: die Mehrwertsteuerverordnung ... (SR 641.201).' is a general replacement reference."
+  },
+  {
+    "ITEM": 31,
+    "ARTICLE_EID": "art_28",
+    "TARGET_SR": "SR 313.0",
+    "assigned_articles": ["Art. 6", "Art. 7"],
+    "confidence": "high",
+    "reasoning": "Snippet: 'Die Artikel 6 und 7 des Bundesgesetzes ... SR 313.0 über das Verwaltungsstrafrecht' explicitly names both articles."
+  },
+  {
+    "ITEM": 32,
+    "ARTICLE_EID": "art_28_a",
+    "TARGET_SR": "SR 313.0",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "high",
+    "reasoning": "Here only 'das Bundesgesetz ... SR 313.0 über das Verwaltungsstrafrecht' is cited as the procedural law, without article numbers."
+  },
+  {
+    "ITEM": 33,
+    "ARTICLE_EID": "art_29_b",
+    "TARGET_SR": "SR 360",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "high",
+    "reasoning": "Refers to 'das Bundesgesetz ... SR 360 über kriminalpolizeiliche Zentralstellen des Bundes' as a whole."
+  },
+  {
+    "ITEM": 34,
+    "ARTICLE_EID": "art_29_b",
+    "TARGET_SR": "SR 312.0",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "medium",
+    "reasoning": "Mentions 'die entsprechenden Bestimmungen der Strafprozessordnung ... SR 312.0'; while only certain provisions apply, no specific articles are identified."
+  },
+  {
+    "ITEM": 35,
+    "ARTICLE_EID": "art_29_e",
+    "TARGET_SR": "SR 360",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "high",
+    "reasoning": "Again cites 'gemäss den Bestimmungen des Bundesgesetzes ... SR 360'; no article-level detail."
+  },
+  {
+    "ITEM": 36,
+    "ARTICLE_EID": "art_3_c",
+    "TARGET_SR": "SR 311.0",
+    "assigned_articles": ["Art. 320", "Art. 321"],
+    "confidence": "high",
+    "reasoning": "This repeats the same sentence as item 3 but without the SR number; contextually it is the same cross-reference to StGB 320 and 321."
+  },
+  {
+    "ITEM": 37,
+    "ARTICLE_EID": "art_3_c",
+    "TARGET_SR": "SR 812.121",
+    "assigned_articles": ["Art. 19a"],
+    "confidence": "high",
+    "reasoning": "Reference 'gegen Artikel 19a verstossen' is an internal cross-reference within the same Betäubungsmittelgesetz (SR 812.121)."
+  },
+  {
+    "ITEM": 38,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": "SR 812.121",
+    "assigned_articles": ["Art. 8"],
+    "confidence": "high",
+    "reasoning": "Phrase 'Vorbehalten bleibt Artikel 8.' clearly refers to Art. 8 of the same act (self-reference)."
+  },
+  {
+    "ITEM": 39,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": "SR 812.121",
+    "assigned_articles": ["Art. 2"],
+    "confidence": "high",
+    "reasoning": "Mentions 'nach Artikel 2' without external SR; this is an internal reference to Art. 2 of SR 812.121."
+  },
+  {
+    "ITEM": 40,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": "SR 812.121",
+    "assigned_articles": ["Art. 2", "Art. 4", "Art. 5"],
+    "confidence": "high",
+    "reasoning": "Text: 'nach Artikel 2 ... Bewilligungen nach den Artikeln 4 und 5 erforderlich.' All are internal articles of the same law."
+  },
+  {
+    "ITEM": 41,
+    "ARTICLE_EID": "art_8",
+    "TARGET_SR": "SR 812.121",
+    "assigned_articles": ["Art. 4"],
+    "confidence": "high",
+    "reasoning": "Phrase 'Bewilligung ... gemäss Artikel 4.' is an internal reference to Art. 4 of this act."
+  },
+  {
+    "ITEM": 42,
+    "ARTICLE_EID": "art_8_a",
+    "TARGET_SR": "SR 812.121",
+    "assigned_articles": [
+      "Art. 8 Abs. 1 Bst. d",
+      "Art. 8 Abs. 5",
+      "Art. 11",
+      "Art. 13",
+      "Art. 19 Abs. 1 Bst. f",
+      "Art. 20 Abs. 1 Bst. d",
+      "Art. 20 Abs. 1 Bst. e"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet lists specific internal provisions from the same law that the Bundesrat may deviate from; all are self-references."
+  },
+  {
+    "ITEM": 43,
+    "ARTICLE_EID": "art_8_a",
+    "TARGET_SR": "SR 641.31",
+    "assigned_articles": ["Art. 4"],
+    "confidence": "high",
+    "reasoning": "Same sentence as item 6 but without SR number; 'Artikel 4 des Tabaksteuergesetzes' contextually refers to SR 641.31 Art. 4."
+  },
+  {
+    "ITEM": 44,
+    "ARTICLE_EID": "art_8_b",
+    "TARGET_SR": "SR 812.121",
+    "assigned_articles": ["Art. 29a"],
+    "confidence": "high",
+    "reasoning": "Reference 'der wissenschaftlichen Evaluation nach Artikel 29a' is an internal cross-reference within the same act."
+  },
+  {
+    "ITEM": 45,
+    "ARTICLE_EID": "art_9",
+    "TARGET_SR": "SR 812.121",
+    "assigned_articles": ["Art. 8"],
+    "confidence": "high",
+    "reasoning": "Phrase 'ausgenommen sind Ausnahmebewilligungen nach Artikel 8.' clearly refers to Art. 8 of this law."
+  },
+  {
+    "ITEM": 46,
+    "ARTICLE_EID": "art_12",
+    "TARGET_SR": "SR 812.121",
+    "assigned_articles": ["Art. 9", "Art. 19–22"],
+    "confidence": "high",
+    "reasoning": "Internal references: 'nach Artikel 9' and 'nach den Artikeln 19–22' all belong to the same Betäubungsmittelgesetz."
+  },
+  {
+    "ITEM": 47,
+    "ARTICLE_EID": "art_12",
+    "TARGET_SR": "SR 311.0",
+    "assigned_articles": ["Art. 54"],
+    "confidence": "high",
+    "reasoning": "This mirrors item 13 but without SR number; 'Artikel 54 des Strafgesetzbuches' is clearly StGB Art. 54."
+  },
+  {
+    "ITEM": 48,
+    "ARTICLE_EID": "art_14",
+    "TARGET_SR": "SR 812.121",
+    "assigned_articles": ["Art. 9"],
+    "confidence": "high",
+    "reasoning": "Text: 'eine der in Artikel 9 genannten Personen' is an internal reference to Art. 9 of the same act."
+  },
+  {
+    "ITEM": 49,
+    "ARTICLE_EID": "art_14",
+    "TARGET_SR": "SR 812.121",
+    "assigned_articles": ["Art. 8"],
+    "confidence": "high",
+    "reasoning": "Phrase 'Vorbehalten bleibt Artikel 8.' is a self-reference to Art. 8."
+  },
+  {
+    "ITEM": 50,
+    "ARTICLE_EID": "art_17",
+    "TARGET_SR": "SR 812.121",
+    "assigned_articles": ["Art. 4", "Art. 14 Abs. 2"],
+    "confidence": "high",
+    "reasoning": "Mentions 'Bewilligung gemäss den Artikeln 4 und 14 Absatz 2'; both are internal provisions."
+  },
+  {
+    "ITEM": 51,
+    "ARTICLE_EID": "art_17",
+    "TARGET_SR": "SR 812.121",
+    "assigned_articles": ["Art. 4"],
+    "confidence": "high",
+    "reasoning": "Reference 'Die in Artikel 4 erwähnten Firmen und Personen' is internal to the same law."
+  },
+  {
+    "ITEM": 52,
+    "ARTICLE_EID": "art_17",
+    "TARGET_SR": "SR 812.121",
+    "assigned_articles": ["Art. 9", "Art. 14 Abs. 1"],
+    "confidence": "high",
+    "reasoning": "Mentions 'gemäss Artikel 9 ... oder gemäss Artikel 14 Absatz 1'; both are internal articles."
+  },
+  {
+    "ITEM": 53,
+    "ARTICLE_EID": "art_18",
+    "TARGET_SR": "SR 311.0",
+    "assigned_articles": ["Art. 320"],
+    "confidence": "high",
+    "reasoning": "Same sentence as item 16 but without SR number; 'Artikel 320 des Strafgesetzbuches' is StGB Art. 320."
+  },
+  {
+    "ITEM": 54,
+    "ARTICLE_EID": "art_18_e",
+    "TARGET_SR": "SR 812.121",
+    "assigned_articles": ["Art. 4", "Art. 5", "Art. 8 Abs. 5–8"],
+    "confidence": "high",
+    "reasoning": "Text: 'Bewilligungen nach den Artikeln 4 und 5 und der Ausnahmebewilligungen nach Artikel 8 Absätze 5–8' are all internal references."
+  },
+  {
+    "ITEM": 55,
+    "ARTICLE_EID": "art_18_e",
+    "TARGET_SR": "SR 812.121",
+    "assigned_articles": ["Art. 4", "Art. 5", "Art. 8 Abs. 5–8"],
+    "confidence": "high",
+    "reasoning": "Again refers to 'Verfolgungen ... nach den Artikeln 4, 5 und 8 Absätze 5–8'; same internal set of provisions."
+  },
+  {
+    "ITEM": 56,
+    "ARTICLE_EID": "art_18_e",
+    "TARGET_SR": "SR 812.121",
+    "assigned_articles": ["Art. 8 Abs. 5 Bst. a"],
+    "confidence": "high",
+    "reasoning": "Phrase 'gemäss Artikel 8 Absatz 5 Buchstabe a.' is an internal pinpoint reference."
+  },
+  {
+    "ITEM": 57,
+    "ARTICLE_EID": "art_18_f",
+    "TARGET_SR": "SR 812.121",
+    "assigned_articles": ["Art. 8b"],
+    "confidence": "high",
+    "reasoning": "Reference 'zur Bearbeitung der Daten nach Artikel 8b.' is internal."
+  },
+  {
+    "ITEM": 58,
+    "ARTICLE_EID": "art_18_f",
+    "TARGET_SR": "SR 812.121",
+    "assigned_articles": ["Art. 8b"],
+    "confidence": "high",
+    "reasoning": "Again 'für die Datenerhebung nach Artikel 8b' is an internal cross-reference."
+  },
+  {
+    "ITEM": 59,
+    "ARTICLE_EID": "art_18_f",
+    "TARGET_SR": "SR 812.121",
+    "assigned_articles": ["Art. 8b"],
+    "confidence": "high",
+    "reasoning": "Mentions 'für die Erhebung nach Artikel 8b notwendigen Daten'; same internal article."
+  },
+  {
+    "ITEM": 60,
+    "ARTICLE_EID": "art_18_f",
+    "TARGET_SR": "SR 812.121",
+    "assigned_articles": ["Art. 8b Abs. 2"],
+    "confidence": "high",
+    "reasoning": "Text: 'nach Artikel 8b Absatz 2' is an internal pinpoint reference."
+  },
+  {
+    "ITEM": 61,
+    "ARTICLE_EID": "art_19",
+    "TARGET_SR": "SR 311.0",
+    "assigned_articles": ["Art. 6"],
+    "confidence": "high",
+    "reasoning": "Same as item 21 but without SR number; 'Artikel 6 des Strafgesetzbuches' is StGB Art. 6."
+  },
+  {
+    "ITEM": 62,
+    "ARTICLE_EID": "art_19_a",
+    "TARGET_SR": "SR 812.121",
+    "assigned_articles": ["Art. 19"],
+    "confidence": "high",
+    "reasoning": "Reference 'Widerhandlung im Sinne von Artikel 19' is an internal cross-reference."
+  },
+  {
+    "ITEM": 63,
+    "ARTICLE_EID": "art_19_a",
+    "TARGET_SR": "SR 311.0",
+    "assigned_articles": ["Art. 60", "Art. 63"],
+    "confidence": "high",
+    "reasoning": "Same as item 22 but without SR number; 'Artikel 60 und 63 des Strafgesetzbuchs' are StGB provisions."
+  },
+  {
+    "ITEM": 64,
+    "ARTICLE_EID": "art_20",
+    "TARGET_SR": "SR 812.121",
+    "assigned_articles": ["Art. 3 Abs. 1"],
+    "confidence": "high",
+    "reasoning": "Phrase 'Stoffe nach Artikel 3 Absatz 1' is an internal reference to Art. 3 Abs. 1."
+  },
+  {
+    "ITEM": 65,
+    "ARTICLE_EID": "art_20",
+    "TARGET_SR": "SR 812.121",
+    "assigned_articles": ["Art. 3 Abs. 1", "Art. 7"],
+    "confidence": "high",
+    "reasoning": "Mentions 'Stoffe nach Artikel 3 Absatz 1 sowie Stoffe und Präparate nach Artikel 7'; both internal."
+  },
+  {
+    "ITEM": 66,
+    "ARTICLE_EID": "art_20",
+    "TARGET_SR": "SR 812.121",
+    "assigned_articles": ["Art. 11", "Art. 13"],
+    "confidence": "high",
+    "reasoning": "Text: 'anders als nach Artikel 11 oder 13' clearly refers to internal articles."
+  },
+  {
+    "ITEM": 67,
+    "ARTICLE_EID": "art_20",
+    "TARGET_SR": "SR 812.121",
+    "assigned_articles": ["Art. 11"],
+    "confidence": "high",
+    "reasoning": "Phrase 'anders als nach Artikel 11 verschreibt' is an internal reference."
+  },
+  {
+    "ITEM": 68,
+    "ARTICLE_EID": "art_21",
+    "TARGET_SR": "SR 812.121",
+    "assigned_articles": ["Art. 11 Abs. 1bis", "Art. 16", "Art. 17 Abs. 2", "Art. 17 Abs. 3"],
+    "confidence": "high",
+    "reasoning": "Snippet lists specific internal provisions: 'Artikeln 11 Absatz 1bis, 16 und 17 Absätze 2 und 3'."
+  },
+  {
+    "ITEM": 69,
+    "ARTICLE_EID": "art_23",
+    "TARGET_SR": "SR 812.121",
+    "assigned_articles": ["Art. 19–22"],
+    "confidence": "high",
+    "reasoning": "Reference 'Widerhandlung nach den Artikeln 19–22' is an internal range."
+  },
+  {
+    "ITEM": 70,
+    "ARTICLE_EID": "art_24",
+    "TARGET_SR": "SR 312.0",
+    "assigned_articles": ["Art. 32"],
+    "confidence": "high",
+    "reasoning": "Same as item 25 but without SR number; 'Artikel 32 der Strafprozessordnung' is StPO Art. 32."
+  },
+  {
+    "ITEM": 71,
+    "ARTICLE_EID": "art_27",
+    "TARGET_SR": "SR 812.121",
+    "assigned_articles": ["Art. 19"],
+    "confidence": "high",
+    "reasoning": "Phrase 'nach Artikel 19' refers to Art. 19 of the same law."
+  },
+  {
+    "ITEM": 72,
+    "ARTICLE_EID": "art_28",
+    "TARGET_SR": "SR 313.0",
+    "assigned_articles": ["Art. 6", "Art. 7"],
+    "confidence": "high",
+    "reasoning": "Same as item 31 but without SR number; 'Die Artikel 6 und 7 des Bundesgesetzes ... über das Verwaltungsstrafrecht' are VStrR Arts. 6 and 7."
+  },
+  {
+    "ITEM": 73,
+    "ARTICLE_EID": "art_28",
+    "TARGET_SR": "SR 812.121",
+    "assigned_articles": ["Art. 19 Abs. 2"],
+    "confidence": "high",
+    "reasoning": "Reference 'in Fällen nach Artikel 19 Absatz 2' is an internal pinpoint reference."
+  },
+  {
+    "ITEM": 74,
+    "ARTICLE_EID": "art_28_a",
+    "TARGET_SR": "SR 313.0",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "high",
+    "reasoning": "Same as item 32 but without SR number; 'Für das Verfahren gilt das Bundesgesetz ... über das Verwaltungsstrafrecht' refers to the act generally."
+  },
+  {
+    "ITEM": 75,
+    "ARTICLE_EID": "art_29_a",
+    "TARGET_SR": "SR 812.121",
+    "assigned_articles": ["Art. 18d–18f"],
+    "confidence": "high",
+    "reasoning": "Snippet: 'nach den Artikeln 18d–18f beschafften Daten' is an internal article range."
+  },
+  {
+    "ITEM": 76,
+    "ARTICLE_EID": "art_29_c",
+    "TARGET_SR": "SR 812.121",
+    "assigned_articles": ["Art. 2", "Art. 3 Abs. 1", "Art. 7 Abs. 3"],
+    "confidence": "high",
+    "reasoning": "Text: 'Stoffe nach den Artikeln 2, 3 Absatz 1 und 7 Absatz 3' clearly refers to internal provisions."
+  },
+  {
+    "ITEM": 77,
+    "ARTICLE_EID": "art_29_d",
+    "TARGET_SR": "SR 812.121",
+    "assigned_articles": ["Kap. 1a", "Art. 3c"],
+    "confidence": "medium",
+    "reasoning": "Refers to 'Kap. 1a' and 'Art. 3c' of the same law; chapter reference is structural, article reference is explicit."
+  },
+  {
+    "ITEM": 78,
+    "ARTICLE_EID": "art_29_d",
+    "TARGET_SR": "SR 812.121",
+    "assigned_articles": ["Art. 3e", "Art. 14", "Art. 14a Abs. 1bis"],
+    "confidence": "high",
+    "reasoning": "Snippet: 'Bewilligungen (Art. 3e, 14 und 14a Abs. 1bis)' lists internal provisions."
+  },
+  {
+    "ITEM": 79,
+    "ARTICLE_EID": "art_29_d",
+    "TARGET_SR": "SR 812.121",
+    "assigned_articles": ["Art. 11 Abs. 1bis"],
+    "confidence": "high",
+    "reasoning": "Reference 'Meldungen ... (Art. 11 Abs. 1bis)' is internal."
+  },
+  {
+    "ITEM": 80,
+    "ARTICLE_EID": "art_29_d",
+    "TARGET_SR": "SR 812.121",
+    "assigned_articles": ["Art. 16–18"],
+    "confidence": "high",
+    "reasoning": "Text: 'die Kontrolle (Art. 16–18)' is an internal article range."
+  },
+  {
+    "ITEM": 81,
+    "ARTICLE_EID": "art_29_d",
+    "TARGET_SR": "SR 812.121",
+    "assigned_articles": ["Art. 28", "Art. 12"],
+    "confidence": "high",
+    "reasoning": "Snippet: 'die Strafverfolgung (Art. 28) und den Entzug ... (Art. 12)' clearly refers to internal articles."
+  },
+  {
+    "ITEM": 82,
+    "ARTICLE_EID": "art_29_d",
+    "TARGET_SR": "SR 812.121",
+    "assigned_articles": ["Art. 3e", "Art. 14", "Art. 14a Abs. 1bis"],
+    "confidence": "high",
+    "reasoning": "Again 'Bewilligungen (Art. 3e, 14 und 14a Abs. 1bis)' are internal references."
+  },
+  {
+    "ITEM": 83,
+    "ARTICLE_EID": "art_29_e",
+    "TARGET_SR": "SR 812.121",
+    "assigned_articles": ["Art. 29c Abs. 2"],
+    "confidence": "high",
+    "reasoning": "Text: 'Daten (Art. 29c Abs. 2)' is an internal pinpoint reference."
+  },
+  {
+    "ITEM": 84,
+    "ARTICLE_EID": "art_30",
+    "TARGET_SR": "SR 812.121",
+    "assigned_articles": ["Art. 14a"],
+    "confidence": "high",
+    "reasoning": "Phrase 'Organisationen ... im Sinne von Artikel 14a' is an internal reference."
+  },
+  {
+    "ITEM": 85,
+    "ARTICLE_EID": "art_36_a",
+    "TARGET_SR": "SR 812.121",
+    "assigned_articles": ["Art. 4"],
+    "confidence": "high",
+    "reasoning": "Text: 'keiner Bewilligung ... nach Artikel 4.' clearly refers to Art. 4 of the same act."
+  }
+]

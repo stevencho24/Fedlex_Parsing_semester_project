@@ -1,0 +1,32 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 414.110",
+    "assigned_articles": [
+      "Art. 35ater Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Formulierung \"gestützt auf Artikel 35ater Absatz 2 des ETH-Gesetzes ... SR 414.110\" verknüpft den genannten Artikel syntaktisch eindeutig mit dem zitierten SR-Dokument; damit bezieht sich die Verordnung ausdrücklich auf Art. 35ater Abs. 2 des ETH-Gesetzes (SR 414.110)."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": "SR 414.110.2",
+    "assigned_articles": [
+      "Art. 18"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Satz \"nach Artikel 18 der Geschäftsordnung ETH-Rat ... SR 414.110.2\" steht Artikel 18 unmittelbar vor der Bezeichnung der Geschäftsordnung, die durch SR 414.110.2 identifiziert wird; dies ist ein klarer Fall der direkten Zuordnung des Artikels zu diesem SR."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Interne Selbstreferenz innerhalb des Dokuments (Art. 18)"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Stelle \"nach Artikel 18 der Geschäftsordnung ETH-Rat\" wiederholt den Verweis aus ITEM 2, jedoch ohne explizite SR-Angabe im Snippet. Da hier kein SR genannt wird und der Kontext identisch ist, handelt es sich um eine interne Artikelverweisung innerhalb derselben Regelung, nicht um einen neuen externen SR-Link."
+  }
+]

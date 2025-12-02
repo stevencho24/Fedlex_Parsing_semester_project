@@ -1,0 +1,92 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 410.2",
+    "assigned_articles": [
+      "Art. 1 Abs. 4"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Wortlaut lautet: 'gestützt auf Artikel 1 Absatz 4 des Bildungszusammenarbeitsgesetzes ... SR 410.2 (BiZG)'; damit ist eindeutig Art. 1 Abs. 4 BiZG gemeint."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 101",
+    "assigned_articles": [
+      "Art. 61a Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Snippet steht 'im Sinne von Artikel 61a Absatz 2 der Bundesverfassung SR 101'; dies verweist klar auf Art. 61a Abs. 2 BV (SR 101)."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": "SR 410.2",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Stelle nennt nur die Institution 'EDK' als im BiZG definierte Akteurin, ohne einen bestimmten Artikel des BiZG zu zitieren; es handelt sich um eine allgemeine Bezugnahme auf das BiZG als Ganzes."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": "SR 410.2",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "Auch hier wird 'EDK' lediglich als im BiZG verankerte Institution verwendet, ohne konkrete Artikelangabe; daher allgemeiner Verweis auf das BiZG insgesamt."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_9",
+    "TARGET_SR": "SR 410.2",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "medium",
+    "reasoning": "Der Text spricht vom Inkrafttreten des BiZG ('wenn ... das BiZG in Kraft getreten ist', 'Zeitpunkt des Inkrafttretens des BiZG'), ohne eine bestimmte Norm des BiZG zu nennen; typischerweise wird bei Inkrafttretensregelungen das Gesetz als Ganzes adressiert."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_9",
+    "TARGET_SR": "SR 410.2",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "Die EDK wird wiederum nur als im BiZG verankerte Institution erwähnt; kein konkreter Artikel des BiZG wird genannt, daher allgemeiner Dokumentverweis."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Bezugnahme 'Artikel 61a Absatz 2 der Bundesverfassung' ist bereits in ITEM 2 als Verweis auf SR 101 erfasst; hier liegt lediglich eine Selbstreferenz im Text ohne zusätzliche SR-Zuordnung vor."
+  },
+  {
+    "ITEM": 8,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document (Art. 4)"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Klammer '(Art. 4)' verweist auf einen Artikel derselben Vereinbarung (SR 410.21), nicht auf ein externes SR-Dokument; daher reine interne Artikelverweisung."
+  },
+  {
+    "ITEM": 9,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document (Art. 6)"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Klammer '(Art. 6)' ist ebenfalls eine Selbstreferenz innerhalb derselben Vereinbarung; kein syntaktischer oder semantischer Bezug zu einem externen SR ersichtlich."
+  }
+]

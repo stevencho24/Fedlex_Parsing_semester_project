@@ -1,0 +1,44 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 172.010",
+    "assigned_articles": [
+      "Art. 55",
+      "Art. 57",
+      "Art. 57c Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Satz nennt ausdrücklich: «gestützt auf die Artikel 55, 57 und 57c Absatz 2 des Regierungs- und Verwaltungsorganisationsgesetzes … SR 172.010». Diese Artikel gehören klar zum genannten Gesetz mit SR 172.010."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": "SR 172.010.1",
+    "assigned_articles": [
+      "Art. 8a Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Snippet: «… im Sinne von Artikel 8a Absatz 2 der Regierungs- und Verwaltungsorganisationsverordnung … SR 172.010.1 (RVOV)». Artikel 8a Abs. 2 ist grammatikalisch direkt mit der RVOV (SR 172.010.1) verknüpft."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_10",
+    "TARGET_SR": "SR 172.010.1",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "medium",
+    "reasoning": "Formulierung: «richtet sich nach den Bestimmungen der RVOV SR 172.010.1». Es wird kein bestimmter Artikel genannt, sondern allgemein auf die Bestimmungen der Verordnung verwiesen; daher allgemeine Dokumentverweisung."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet: «… im Sinne von Artikel 8a Absatz 2 der Regierungs- und Verwaltungsorganisationsverordnung … (RVOV).» Hier wird nur «Artikel 8a Absatz 2» ohne explizite SR-Nummer genannt; im Kontext eines artikel_reference-Eintrags ist dies als Verweis innerhalb des aktuellen Dokuments zu behandeln, nicht als erneute Zuordnung zu einer TARGET_SR."
+  }
+]

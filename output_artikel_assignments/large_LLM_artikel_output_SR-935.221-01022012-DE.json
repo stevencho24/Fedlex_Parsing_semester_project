@@ -1,0 +1,42 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 935.22",
+    "assigned_articles": [
+      "Art. 10"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet explicitly states 'gestützt auf Artikel 10 des Bundesgesetzes ... SR 935.22', directly linking Article 10 to SR 935.22."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet refers to 'den Artikeln 2 und 3' without mentioning any SR or external act; this is a self-reference to articles 2 and 3 of the same ordinance."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "The phrase 'Voraussetzungen nach Artikel 4' appears without any SR citation or external law; it clearly refers to Article 4 of the same document."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_9",
+    "TARGET_SR": "SR 935.22",
+    "assigned_articles": [
+      "Art. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet specifies 'Artikel 3 des Bundesgesetzes vom 30. September 2011 über die Förderung von Innovation, Zusammenarbeit und Wissensaufbau im Tourismus', which is the law SR 935.22; thus Article 3 of SR 935.22 is cited."
+  }
+]

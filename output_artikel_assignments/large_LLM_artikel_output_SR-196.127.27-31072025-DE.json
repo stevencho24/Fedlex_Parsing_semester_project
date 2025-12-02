@@ -1,0 +1,27 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 196.1",
+    "assigned_articles": [
+      "Art. 3",
+      "Art. 30"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet explicitly states: 'gestützt auf die Artikel 3 und 30 des Bundesgesetzes ... SR 196.1 ... (SRVG)'. The preposition 'des' links 'Artikel 3 und 30' directly to the cited SR 196.1, so both articles belong to SR 196.1."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": "SR 196.1",
+    "assigned_articles": [
+      "Art. 25",
+      "Art. 26",
+      "Art. 27",
+      "Art. 28",
+      "Art. 29"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet reads: '... nach den Artikeln 25–29 SRVG.' SRVG is defined in the preamble as SR 196.1. The range '25–29' with the acronym 'SRVG' directly marks these as articles of SR 196.1. Expanded as the discrete articles 25 through 29."
+  }
+]

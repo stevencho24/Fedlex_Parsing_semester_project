@@ -1,0 +1,151 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 152.1",
+    "assigned_articles": [
+      "Art. 1 Abs. 1 Bst. d",
+      "Art. 4 Abs. 4"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Präambel nennt ausdrücklich «Artikel 1 Absatz 1 Buchstabe d und 4 Absatz 4 des Archivierungsgesetzes … SR 152.1 (BGA)»; beide Artikel gehören daher zu SR 152.1."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 152.11",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Satz lautet: «Im Übrigen finden das BGA und die Archivierungsverordnung vom 8. September 1999 SR 152.11 Anwendung.» Es wird keine bestimmte Artikelnummer der Archivierungsverordnung genannt; die Verordnung gilt insgesamt ergänzend."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": "SR 235.1",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "medium",
+    "reasoning": "Formulierung: «nach dem Datenschutzgesetz vom 25. September 2020 SR 235.1 archiviert.» Es wird kein bestimmter Artikel des DSG genannt; die Norm verweist pauschal auf das Gesetz als anwendbaren Rechtsrahmen."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_18",
+    "TARGET_SR": "SR 173.110",
+    "assigned_articles": [
+      "Art. 82",
+      "Art. 83",
+      "Art. 84",
+      "Art. 85",
+      "Art. 86",
+      "Art. 87",
+      "Art. 88",
+      "Art. 89"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Text lautet: «Die Beschwerdemöglichkeit richtet sich nach den Artikeln 82−89 des Bundesgerichtsgesetzes … SR 173.110.» Damit ist eine konkrete Artikelspanne im BGG genannt; alle Artikel 82 bis 89 sind erfasst."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_19",
+    "TARGET_SR": "SR 173.118.2",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "«Im Übrigen gilt die Verordnung … SR 173.118.2 über die Verwaltungsgebühren des Bundesgerichts sinngemäss.» Es wird keine bestimmte Bestimmung der Gebührenverordnung genannt; sie gilt sinngemäss insgesamt."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 152.1",
+    "assigned_articles": [
+      "Art. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Klammerangabe «(Art. 1 BGA)» ist eine direkte Artikelzuordnung zum BGA (SR 152.1). Der restliche Satzteil («Im Übrigen finden das BGA … Anwendung») enthält keine weitere konkrete Artikelnummer."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": "SR 152.1",
+    "assigned_articles": [
+      "Art. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Klammerangabe «(Art. 2 BGA)» verweist eindeutig auf Artikel 2 des BGA (SR 152.1); weitere Artikel werden nicht genannt."
+  },
+  {
+    "ITEM": 8,
+    "ARTICLE_EID": "art_10",
+    "TARGET_SR": "SR 152.1",
+    "assigned_articles": [
+      "Art. 9",
+      "Art. 11"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Klammer «(Art. 9 und 11 BGA)» sowie der Text («… nach Artikel 9 BGA … nach Artikel 11 BGA») nennen ausdrücklich die Artikel 9 und 11 des BGA; beide gehören zu SR 152.1."
+  },
+  {
+    "ITEM": 9,
+    "ARTICLE_EID": "art_11",
+    "TARGET_SR": "SR 152.1",
+    "assigned_articles": [
+      "Art. 10"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Klammerangabe «(Art. 10 BGA)» verweist direkt auf Artikel 10 des BGA (SR 152.1)."
+  },
+  {
+    "ITEM": 10,
+    "ARTICLE_EID": "art_12",
+    "TARGET_SR": "SR 152.1",
+    "assigned_articles": [
+      "Art. 12"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Klammerangabe «(Art. 12 BGA)» verweist direkt auf Artikel 12 des BGA (SR 152.1)."
+  },
+  {
+    "ITEM": 11,
+    "ARTICLE_EID": "art_13",
+    "TARGET_SR": "SR 152.1",
+    "assigned_articles": [
+      "Art. 13"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Klammerangabe «(Art. 13 BGA)» verweist direkt auf Artikel 13 des BGA (SR 152.1)."
+  },
+  {
+    "ITEM": 12,
+    "ARTICLE_EID": "art_10",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«… nach Artikel 9 BGA.» bezieht sich auf Artikel 9 des BGA, der bereits in ITEM 8 SR 152.1 zugeordnet wurde. Als artikel_reference ohne explizite SR-Angabe handelt es sich hier um eine interne Querverweisung, keine neue SR-Zuordnung."
+  },
+  {
+    "ITEM": 13,
+    "ARTICLE_EID": "art_10",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«… nach Artikel 11 BGA …» verweist auf Artikel 11 des BGA, der bereits in ITEM 8 SR 152.1 zugeordnet wurde. Als artikel_reference ohne eigene SR-Angabe ist dies eine interne Querverweisung."
+  },
+  {
+    "ITEM": 14,
+    "ARTICLE_EID": "art_18",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Satz nennt «Artikeln 82−89 des Bundesgerichtsgesetzes», was in ITEM 4 bereits SR 173.110 zugeordnet wurde. Diese artikel_reference wiederholt lediglich die dortige externe Verweisung und stellt selbst keine neue SR-Verknüpfung dar."
+  }
+]

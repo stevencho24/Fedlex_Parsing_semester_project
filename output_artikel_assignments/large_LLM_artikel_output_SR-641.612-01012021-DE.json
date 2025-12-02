@@ -1,0 +1,104 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 641.61",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet cites the Mineralölsteuergesetz (SR 641.61) in the preamble as a general legal basis without mentioning any specific article or paragraph."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 641.611",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet cites the Mineralölsteuerverordnung (SR 641.611) in the preamble as a general legal basis; no specific article is referenced."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": "SR 814.318.142.1",
+    "assigned_articles": [
+      "Anhang 4 Ziff. 32"
+    ],
+    "confidence": "high",
+    "reasoning": "The text explicitly refers to 'Anhang 4 Ziffer 32 der Luftreinhalte-Verordnung ... SR 814.318.142.1'; this is a precise annex/number reference within that SR."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_3_b",
+    "TARGET_SR": "SR 745.1",
+    "assigned_articles": [
+      "Art. 28"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet states 'sofern nach Artikel 28 des Personenbeförderungsgesetzes ... SR 745.1 eine Abgeltung ... erfolgt'; Art. 28 is directly and unambiguously linked to SR 745.1."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_8",
+    "TARGET_SR": "SR 641.611",
+    "assigned_articles": [
+      "Art. 59 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet contains '(Art. 59 Abs. 2 MinöStV)'; MinöStV is mapped in the preamble to SR 641.611, so Art. 59 Abs. 2 clearly belongs to that SR."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_9",
+    "TARGET_SR": "SR 641.611",
+    "assigned_articles": [
+      "Art. 61 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "The text defines Waldbewirtschafter 'im Sinne von Artikel 61 Absatz 2 MinöStV'; MinöStV corresponds to SR 641.611, so Art. 61 Abs. 2 is the relevant provision."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_12",
+    "TARGET_SR": "SR 641.61",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "medium",
+    "reasoning": "The snippet mentions the 'Verordnung des EFD ... über die Steuerbegünstigungen und den Verzugszins bei der Mineralölsteuer' and links via acronym EFD to SR 641.61, but no specific article of SR 641.61 is cited; it is a general reference to that legal basis."
+  },
+  {
+    "ITEM": 8,
+    "ARTICLE_EID": "art_3_b",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet refers to 'Artikel 28 des Personenbeförderungsgesetzes' but without an SR number here; the SR linkage to SR 745.1 is already captured in ITEM 4. This item is of type 'artikel_reference' and serves as an internal cross-reference context, not a new SR link."
+  },
+  {
+    "ITEM": 9,
+    "ARTICLE_EID": "art_3_c",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 2",
+      "Art. 3",
+      "Art. 3b"
+    ],
+    "confidence": "high",
+    "reasoning": "The phrase 'nach den Artikeln 2–3b' is a range within the same ordinance; no external SR is mentioned. It is therefore an internal self-reference to its own Articles 2, 3, and 3b."
+  },
+  {
+    "ITEM": 10,
+    "ARTICLE_EID": "art_8",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 59 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "This 'artikel_reference' repeats '(Art. 59 Abs. 2 MinöStV)' already linked to SR 641.611 in ITEM 5. Within the document structure it functions as an internal article citation; the external SR linkage is handled in the corresponding preamble_acronym item."
+  }
+]

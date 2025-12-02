@@ -1,0 +1,178 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 810.212.4",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "high",
+    "reasoning": "The preamble cites the Organzuteilungsverordnung (SR 810.212.4) as a whole without mentioning any specific article; this is a standard blanket legal basis reference."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_6",
+    "TARGET_SR": "SR 810.212.4",
+    "assigned_articles": ["Art. 11"],
+    "confidence": "high",
+    "reasoning": "The snippet explicitly refers to 'eine Mehrfachtransplantation nach Artikel 11 der Organzuteilungsverordnung'; the preposition 'nach' and the naming of the ordinance clearly link Art. 11 to SR 810.212.4."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_9",
+    "TARGET_SR": "SR 810.212.4",
+    "assigned_articles": ["Art. 11"],
+    "confidence": "high",
+    "reasoning": "Same sentence structure as ITEM 2: 'Mehrfachtransplantation nach Artikel 11 der Organzuteilungsverordnung' directly attributes Art. 11 to SR 810.212.4."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_12",
+    "TARGET_SR": "SR 810.212.4",
+    "assigned_articles": ["Art. 11"],
+    "confidence": "high",
+    "reasoning": "Again, 'Mehrfachtransplantation nach Artikel 11 der Organzuteilungsverordnung' clearly links Art. 11 to the cited ordinance SR 810.212.4."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_12_a",
+    "TARGET_SR": "SR 810.212.4",
+    "assigned_articles": ["Art. 11 Abs. 1bis lit. b"],
+    "confidence": "high",
+    "reasoning": "The text specifies 'nach Artikel 11 Absatz 1bis Buchstabe b der Organzuteilungsverordnung'; this is a direct, fully qualified reference to a subsection of Art. 11 in SR 810.212.4."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_16",
+    "TARGET_SR": "SR 810.212.4",
+    "assigned_articles": ["Art. 11"],
+    "confidence": "high",
+    "reasoning": "Identical wording to ITEMS 2–4 regarding 'Mehrfachtransplantation nach Artikel 11 der Organzuteilungsverordnung', so Art. 11 of SR 810.212.4 is clearly intended."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_19",
+    "TARGET_SR": "SR 810.212.4",
+    "assigned_articles": ["Art. 11"],
+    "confidence": "high",
+    "reasoning": "Same explicit construction 'nach Artikel 11 der Organzuteilungsverordnung'; Art. 11 belongs to SR 810.212.4."
+  },
+  {
+    "ITEM": 8,
+    "ARTICLE_EID": "art_21",
+    "TARGET_SR": "SR 810.212.4",
+    "assigned_articles": ["Art. 11"],
+    "confidence": "high",
+    "reasoning": "Again, 'Mehrfachtransplantation nach Artikel 11 der Organzuteilungsverordnung' directly ties Art. 11 to SR 810.212.4."
+  },
+  {
+    "ITEM": 9,
+    "ARTICLE_EID": "art_6",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "high",
+    "reasoning": "Artikel 11 is mentioned without any SR or ordinance name; within an artikel_reference item this indicates a cross-reference to Art. 11 of the same regulation, not to SR 810.212.4 as an external link."
+  },
+  {
+    "ITEM": 10,
+    "ARTICLE_EID": "art_6",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "high",
+    "reasoning": "The reference 'nach Artikel 4 Absatz 1' lacks any SR or external document marker and clearly governs internal allocation rules; it is a self-reference within the same ordinance."
+  },
+  {
+    "ITEM": 11,
+    "ARTICLE_EID": "art_9",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "high",
+    "reasoning": "Same wording as ITEM 9: 'nach Artikel 11 der Organzuteilungsverordnung' here, but in artikel_reference context and without explicit SR, this is treated as an internal cross-reference to Art. 11 of the current document."
+  },
+  {
+    "ITEM": 12,
+    "ARTICLE_EID": "art_9",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "high",
+    "reasoning": "The phrase 'nach Artikel 7 Absatz 1' has no SR or external ordinance name; it is an internal reference to Art. 7 Abs. 1 of the same regulation."
+  },
+  {
+    "ITEM": 13,
+    "ARTICLE_EID": "art_11",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "high",
+    "reasoning": "Reference to 'Artikel 10 Absatz 1' appears in allocation rules and is not syntactically linked to any SR citation; it is an internal cross-reference within the same ordinance."
+  },
+  {
+    "ITEM": 14,
+    "ARTICLE_EID": "art_11_a",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "This sentence contains no 'Art.' or 'Artikel' reference at all; there is therefore no article link to assign."
+  },
+  {
+    "ITEM": 15,
+    "ARTICLE_EID": "art_11_a",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "high",
+    "reasoning": "The phrase 'nach Artikel 11 Absatz 2' is an unqualified article reference with no SR or external ordinance name; it clearly points to Art. 11 Abs. 2 of the same document."
+  },
+  {
+    "ITEM": 16,
+    "ARTICLE_EID": "art_11_b",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "high",
+    "reasoning": "Again, 'nach Artikel 10 Absatz 1' is an internal structural reference; no external SR is mentioned in the snippet."
+  },
+  {
+    "ITEM": 17,
+    "ARTICLE_EID": "art_11_b",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "high",
+    "reasoning": "The wording 'gemäss den Prioritäten nach Artikel 11 Absatz 2' refers back to another provision of the same ordinance; there is no syntactic or semantic link to an external SR."
+  },
+  {
+    "ITEM": 18,
+    "ARTICLE_EID": "art_12",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "high",
+    "reasoning": "Like ITEMS 9 and 11, this repeats 'Mehrfachtransplantation nach Artikel 11 der Organzuteilungsverordnung' but, as an artikel_reference without explicit SR context, it functions as an internal cross-reference to Art. 11 of the same document."
+  },
+  {
+    "ITEM": 19,
+    "ARTICLE_EID": "art_13_a",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "high",
+    "reasoning": "The phrase 'nach Artikel 13' is unqualified and appears in internal allocation rules; it is an internal reference to Art. 13 of the same ordinance."
+  },
+  {
+    "ITEM": 20,
+    "ARTICLE_EID": "art_16",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "high",
+    "reasoning": "Same pattern as ITEMS 9, 11, 18, 21, 22: 'Mehrfachtransplantation nach Artikel 11 der Organzuteilungsverordnung' here is treated as an internal cross-reference to Art. 11 within the current document, not as a separate SR link."
+  },
+  {
+    "ITEM": 21,
+    "ARTICLE_EID": "art_19",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "high",
+    "reasoning": "Again, 'nach Artikel 11 der Organzuteilungsverordnung' in this context is an internal reference to Art. 11 of the same ordinance; no external SR is syntactically invoked."
+  },
+  {
+    "ITEM": 22,
+    "ARTICLE_EID": "art_21",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "high",
+    "reasoning": "Same internal pattern: 'Mehrfachtransplantation nach Artikel 11 der Organzuteilungsverordnung' functions as a cross-reference to Art. 11 within the current regulation, without an explicit external SR link."
+  }
+]

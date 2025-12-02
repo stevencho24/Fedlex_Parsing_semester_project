@@ -1,0 +1,84 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 101",
+    "assigned_articles": [
+      "Art. 4",
+      "Art. 18",
+      "Art. 70"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet explicitly cites 'Artikel 4, 18 und 70 der Bundesverfassung SR 101'; these articles are directly and syntactically linked to SR 101."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": "SR 172.010",
+    "assigned_articles": [
+      "Art. 2 Abs. 1–3"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet: 'nach Artikel 2 Absätze 1–3 des Regierungs- und Verwaltungsorganisationsgesetzes ... SR 172.010'; clear prepositional and appositional link of Art. 2 Abs. 1–3 to SR 172.010."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_10",
+    "TARGET_SR": "SR 170.512",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "medium",
+    "reasoning": "Snippet refers to 'nach dem Publikationsgesetz vom 18. Juni 2004 SR 170.512' without specifying any article; syntactically it cites the law as a whole."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_13",
+    "TARGET_SR": "SR 170.512",
+    "assigned_articles": [
+      "Art. 14 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet: 'Ausnahmen nach Artikel 14 Absatz 2 des Publikationsgesetzes ... SR 170.512'; Art. 14 Abs. 2 is explicitly and directly tied to SR 170.512."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "Artikelreferenz repeats 'Artikel 2 Absätze 1–3 ... (RVOG)' already linked to SR 172.010 in ITEM 2; here it appears without SR and functions as a cross-reference within the current document’s context, so treated as self-reference rather than a new SR assignment."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet: 'nach Artikel 2 Absatz 4 RVOG' contains no explicit SR and is a structural reference within the regulatory text; by the rules, isolated article mentions without SR are self-references."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_13",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet: 'nach Artikel 14 Absatz 2 des Publikationsgesetzes ...' but without SR; the corresponding SR-linked citation is already captured in ITEM 4. This occurrence, lacking explicit SR, is treated as an internal/self-reference."
+  },
+  {
+    "ITEM": 8,
+    "ARTICLE_EID": "art_25",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet: '... nach Artikel 14.' with no SR or acronym; per rules, such isolated article mentions are self-references within the same document."
+  }
+]

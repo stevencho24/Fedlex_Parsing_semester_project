@@ -1,0 +1,32 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 831.101",
+    "assigned_articles": [
+      "Art. 157"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet explicitly cites 'Artikel 157 der Verordnung ... SR 831.101'; the article number is directly and uniquely linked to SR 831.101."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 831.10",
+    "assigned_articles": [
+      "Art. 69 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "The text states 'nach Artikel 69 Absatz 1 des Bundesgesetzes ... SR 831.10 über die Alters- und Hinterlassenenversicherung'; this clearly links Art. 69 Abs. 1 to SR 831.10."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet mentions 'Artikel 69 Absatz 1' without any SR or acronym marker in this item; given that the same sentence is already used in ITEM 2 for the external SR reference, this occurrence functions as an internal cross-reference within the current ordinance rather than a separate SR link."
+  }
+]

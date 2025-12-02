@@ -1,0 +1,186 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 173.41",
+    "assigned_articles": [
+      "Art. 20 Abs. 3 Bst. a"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Präambel nennt ausdrücklich «Artikel 20 Absatz 3 Buchstabe a des Patentgerichtsgesetzes … SR 173.41 (PatGG)»; dieser Artikel ist klar dem PatGG (SR 173.41) zugeordnet."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_10",
+    "TARGET_SR": "SR 272",
+    "assigned_articles": [
+      "Art. 47 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Snippet steht «nach Artikel 47 Absatz 1 der Zivilprozessordnung SR 272»; Art. 47 Abs. 1 gehört damit eindeutig zur ZPO (SR 272)."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": "SR 173.41",
+    "assigned_articles": [
+      "Art. 20 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Formulierung «nach Artikel 20 Absatz 2 PatGG»; das Akronym PatGG ist in der Präambel als SR 173.41 definiert, daher gehört Art. 20 Abs. 2 zu SR 173.41."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": "SR 173.41",
+    "assigned_articles": [
+      "Art. 20 Abs. 3 Bst. a",
+      "Art. 29 Abs. 1",
+      "Art. 20 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Das Snippet enthält drei explizite Verweise mit «PatGG»: «Artikel 20 Absatz 3 Buchstabe a PatGG», «Artikel 29 Absatz 1 PatGG» und zweimal «Artikel 20 Absatz 2 PatGG». Alle beziehen sich auf das in der Präambel definierte PatGG (SR 173.41)."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": "SR 173.41",
+    "assigned_articles": [
+      "Art. 21"
+    ],
+    "confidence": "high",
+    "reasoning": "Text: «nach den Vorgaben von Artikel 21 PatGG»; PatGG ist SR 173.41, somit ist Art. 21 diesem Gesetz zuzuordnen."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_8",
+    "TARGET_SR": "SR 173.41",
+    "assigned_articles": [
+      "Art. 11",
+      "Art. 10"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Snippet: «Beschäftigung … im Sinne von Artikel 11 PatGG» sowie «Unvereinbarkeit nach Artikel 10 PatGG»; beide Artikel gehören zum PatGG (SR 173.41)."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_9",
+    "TARGET_SR": "SR 173.41",
+    "assigned_articles": [
+      "Art. 24 Abs. 1",
+      "Art. 24 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Formulierung «Aufgaben nach Artikel 24 Absätze 1 und 2 PatGG»; damit sind Art. 24 Abs. 1 und 2 des PatGG (SR 173.41) eindeutig genannt."
+  },
+  {
+    "ITEM": 8,
+    "ARTICLE_EID": "art_14",
+    "TARGET_SR": "SR 173.41",
+    "assigned_articles": [
+      "Art. 23"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet: «Einzelrichterliche Entscheide nach Artikel 23 PatGG»; Art. 23 gehört somit zum PatGG (SR 173.41)."
+  },
+  {
+    "ITEM": 9,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Interne Verweisung innerhalb der Verordnung (Art. 20 Abs. 2 PatGG – externes Gesetz, bereits bei anderen Items erfasst)"
+    ],
+    "confidence": "high",
+    "reasoning": "Artikelreferenz-Item ohne TARGET_SR. «nach Artikel 20 Absatz 2 PatGG» verweist auf das externe PatGG (SR 173.41), das bereits durch andere Items (3, 4) abgedeckt ist. Für dieses Item ist daher nur festzuhalten, dass es sich um eine interne Norm der Verordnung handelt, die auf ein bereits erfasstes externes Gesetz verweist; kein neuer SR-Link wird zugeordnet."
+  },
+  {
+    "ITEM": 10,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Interne Verweisung innerhalb der Verordnung (Art. 20 Abs. 2 PatGG – externes Gesetz, bereits bei anderen Items erfasst)"
+    ],
+    "confidence": "high",
+    "reasoning": "Artikelreferenz-Item; der Text entspricht dem bei ITEM 3 erfassten Kontext («Artikel 20 Absatz 2 PatGG»). Es handelt sich um eine interne Bezugnahme der Verordnung auf das bereits zu SR 173.41 zugeordnete PatGG; kein eigenständiger SR-Link."
+  },
+  {
+    "ITEM": 11,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Interne Verweisung innerhalb der Verordnung (Art. 20 Abs. 3 Bst. a PatGG – externes Gesetz, bereits bei anderen Items erfasst)"
+    ],
+    "confidence": "high",
+    "reasoning": "Artikelreferenz-Item mit «Artikel 20 Absatz 3 Buchstabe a PatGG»; dieser Verweis ist bereits im SR-bezogenen Item 4 dem PatGG (SR 173.41) zugeordnet. Hier liegt nur eine interne Wiederholung ohne neuen SR-Link vor."
+  },
+  {
+    "ITEM": 12,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Interne Verweisung innerhalb der Verordnung (Art. 29 Abs. 1 PatGG – externes Gesetz, bereits bei anderen Items erfasst)"
+    ],
+    "confidence": "high",
+    "reasoning": "Artikelreferenz-Item mit «Artikel 29 Absatz 1 PatGG»; dieser Artikel wurde im SR-bezogenen Item 4 bereits SR 173.41 zugeordnet. Dieses Item fügt keinen neuen SR-Link hinzu und ist als interne Bezugnahme zu werten."
+  },
+  {
+    "ITEM": 13,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Interne Verweisung innerhalb der Verordnung (Art. 11 derselben Verordnung)"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet: «Ausstandsgesuche nach Artikel 11» ohne Gesetzesakronym oder SR-Hinweis. Nach den Regeln ist dies eine reine Selbstverweisung innerhalb des aktuellen Erlasses; kein externer SR-Link."
+  },
+  {
+    "ITEM": 14,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Interne Verweisung innerhalb der Verordnung (Art. 20 Abs. 2 PatGG – externes Gesetz, bereits bei anderen Items erfasst)"
+    ],
+    "confidence": "high",
+    "reasoning": "Artikelreferenz-Item mit «Artikel 20 Absatz 2 PatGG»; dieser Verweis ist bereits in Items 3 und 4 SR 173.41 zugeordnet. Hier liegt nur eine interne Wiederholung ohne neuen SR-Link vor."
+  },
+  {
+    "ITEM": 15,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Interne Verweisung innerhalb der Verordnung (Art. 9 derselben Verordnung)"
+    ],
+    "confidence": "high",
+    "reasoning": "Text: «im Sinne von Artikel 9» ohne Gesetzesakronym oder SR-Angabe. Dies ist eine interne Verweisung auf Art. 9 der gleichen Verordnung; kein externer SR-Link."
+  },
+  {
+    "ITEM": 16,
+    "ARTICLE_EID": "art_8",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Interne Verweisung innerhalb der Verordnung (Art. 11 PatGG – externes Gesetz, bereits bei anderen Items erfasst)"
+    ],
+    "confidence": "high",
+    "reasoning": "Artikelreferenz-Item mit «Artikel 11 PatGG»; dieser Artikel des PatGG (SR 173.41) ist bereits über Item 6 SR-gebunden. Dieses Item stellt nur eine interne Wiederholung dar, kein neuer SR-Link."
+  },
+  {
+    "ITEM": 17,
+    "ARTICLE_EID": "art_8",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Interne Verweisung innerhalb der Verordnung (Art. 10 PatGG – externes Gesetz, bereits bei anderen Items erfasst)"
+    ],
+    "confidence": "high",
+    "reasoning": "Artikelreferenz-Item mit «Artikel 10 PatGG»; dieser Artikel des PatGG (SR 173.41) ist bereits in Item 6 kontextuell erfasst. Hier liegt nur eine interne Wiederholung ohne neuen SR-Link vor."
+  },
+  {
+    "ITEM": 18,
+    "ARTICLE_EID": "art_10",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Interne Verweisung innerhalb der Verordnung (Art. 47 Abs. 1 ZPO – externes Gesetz, bereits bei anderen Items erfasst)"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet: «nach Artikel 47 Absatz 1 der Zivilprozessordnung»; der zugehörige SR-Link (SR 272) ist bereits in Item 2 als SR_link_detection mit demselben Kontext erfasst. Dieses artikel_reference-Item ist daher nur eine interne Wiederholung ohne eigenständigen SR-Link."
+  }
+]

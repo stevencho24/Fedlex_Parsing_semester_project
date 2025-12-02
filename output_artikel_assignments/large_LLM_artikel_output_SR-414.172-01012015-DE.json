@@ -1,0 +1,22 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 414.110",
+    "assigned_articles": [
+      "Art. 36 Abs. 4"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet explicitly cites 'Artikel 36 Absatz 4 des ETH-Gesetzes ... SR 414.110'; the article and paragraph are directly linked to the cited SR."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "The reference 'Artikel 36 Absätze 1 und 2 des ETH-Gesetzes' is to the same external law (SR 414.110) as in the preamble, but this item is of type 'artikel_reference' without a TARGET_SR and serves to capture self-references/cross-references. According to the rules, such items output as SR links only when establishing self-references within the current document; here the ETH-Gesetz is external and already handled via the SR_link_detection in the preamble, so this is treated as an internal structural reference context rather than a new SR assignment."
+  }
+]

@@ -1,0 +1,73 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 101",
+    "assigned_articles": [
+      "Art. 69",
+      "Art. 64bis"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet explicitly cites 'die Artikel 69 und 64bis der Bundesverfassung SR 101'; both articles are directly and syntactically linked to SR 101."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": "SR 616.1",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "The reference to SR 616.1 appears only as part of an amendment note ('Fassung gemäss Anhang Ziff. 20 des BG ... (SR 616.1)') without any specific article of SR 616.1 mentioned; it is a general citation to the amending act."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_6",
+    "TARGET_SR": "SR 616.1",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet states 'Aufgehoben durch Anhang Ziff. 20 des Subventionsgesetzes ... (SR 616.1)' with no article number of SR 616.1; it is a general reference to the amending statute."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": "SR 616.1",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "Identical amendment formula as Item 3: repeal 'durch Anhang Ziff. 20 ... (SR 616.1)' without specifying any article; thus only a general document-level reference."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_8",
+    "TARGET_SR": "SR 616.1",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "The wording 'Fassung gemäss Anhang Ziff. 20 des Subventionsgesetzes ... (SR 616.1)' cites SR 616.1 as the amending act without linking any particular article; therefore treat as a general reference."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_9",
+    "TARGET_SR": "SR 311.0",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "medium",
+    "reasoning": "The sentence 'Die Strafverfolgung auf Grund der besonderen Bestimmungen des Strafgesetzbuches SR 311.0 bleibt ... vorbehalten' refers broadly to the special provisions of the Swiss Criminal Code. No specific article is mentioned; the context suggests the whole set of relevant special provisions rather than a single article."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_8",
+    "TARGET_SR": "SR 818.21",
+    "assigned_articles": [
+      "Art. 4"
+    ],
+    "confidence": "high",
+    "reasoning": "This is an internal cross-reference: 'nach Artikel 4 anrechenbaren Ausgaben' clearly refers to Art. 4 of the same act (SR 818.21). No external SR is mentioned in the snippet, so it is a self-reference within the current document."
+  }
+]

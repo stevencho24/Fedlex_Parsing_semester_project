@@ -1,0 +1,33 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 101",
+    "assigned_articles": [
+      "Art. 100 Abs. 1",
+      "Art. 100 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet explicitly states that the previously cited constitutional provisions now correspond to Art. 100 Abs. 1 und 2 der BV (SR 101); these are directly and syntactically linked to SR 101."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": "SR 172.216.1",
+    "assigned_articles": [
+      "Art. 5"
+    ],
+    "confidence": "high",
+    "reasoning": "The authorial note reads: '(Art. 5 der Organisationsverordnung ... – SR 172.216.1; ...)'; Art. 5 is directly marked as belonging to that ordinance, which is identified by SR 172.216.1."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": "SR 172.216.1",
+    "assigned_articles": [
+      "Art. 5"
+    ],
+    "confidence": "high",
+    "reasoning": "Same citation as in ITEM 2 within a longer sentence: '(Art. 5 der Organisationsverordnung ... – SR 172.216.1; ...)'; Art. 5 is explicitly tied to SR 172.216.1."
+  }
+]

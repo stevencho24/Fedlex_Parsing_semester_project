@@ -1,0 +1,74 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 172.220.1",
+    "assigned_articles": [
+      "Art. 37 Abs. 1",
+      "Art. 37 Abs. 4"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Präambel nennt ausdrücklich: «gestützt auf Artikel 37 Absatz 1 und 4 des Bundespersonalgesetzes … SR 172.220.1 (BPG)»; beide Absätze gehören damit klar zum BPG (SR 172.220.1)."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 172.220.111.3",
+    "assigned_articles": [
+      "Art. 1 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Snippet steht: «… nach Artikel 1 Absatz 1 der Bundespersonalverordnung vom 3. Juli 2001 SR 172.220.111.3 (BPV).»; Art. 1 Abs. 1 ist damit direkt dieser BPV (SR 172.220.111.3) zugeordnet."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 172.220.111.4",
+    "assigned_articles": "General reference - entire document",
+    "confidence": "high",
+    "reasoning": "Die Formulierung «… und der Verordnung vom 3. Juli 2001 SR 172.220.111.4 über den Schutz von Personaldaten in der Bundesverwaltung Anwendung» enthält keinen bestimmten Artikel; es wird die Verordnung als Ganzes in Bezug genommen."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": "SR 172.220.111.3",
+    "assigned_articles": [
+      "Art. 17"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Satz lautet: «… Es kann von den Beurteilungsstufen nach Artikel 17 BPV SR 172.220.111.3 abweichen.»; Art. 17 ist damit eindeutig der BPV (SR 172.220.111.3) zugeordnet."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": "SR 172.220.111.3",
+    "assigned_articles": [
+      "Art. 36",
+      "Art. 46",
+      "Art. 48",
+      "Art. 49",
+      "Art. 50",
+      "Art. 39"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Snippet und den zugehörigen Acronym-Stellen werden mehrfach konkrete Artikel der BPV genannt: «Artikel 36 BPV», «Artikeln 46, 48, 49 und 50 BPV», sowie «Artikel 39 BPV». Alle diese Artikel sind syntaktisch direkt mit der BPV (SR 172.220.111.3) verknüpft."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": "SR 172.220.11",
+    "assigned_articles": [
+      "Art. 7"
+    ],
+    "confidence": "high",
+    "reasoning": "Der relevante Teil lautet: «Artikel 7 der Rahmenverordnung BPG vom 20. Dezember 2000 SR 172.220.11 bleibt vorbehalten.»; Art. 7 ist damit klar der Rahmenverordnung BPG (SR 172.220.11) zugeordnet."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "artikel_reference ohne TARGET_SR dient der Erkennung von Selbstverweisen. Der Text «… nach Artikel 1 Absatz 1 der Bundespersonalverordnung … (BPV).» verweist auf Art. 1 Abs. 1 BPV, der bereits in ITEM 2 als externer Verweis zu SR 172.220.111.3 erfasst wurde; es handelt sich nicht um einen zusätzlichen SR-Link, daher keine neue SR-Zuordnung."
+  }
+]

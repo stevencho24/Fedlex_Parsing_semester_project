@@ -1,0 +1,106 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": "SR 414.110.11",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "high",
+    "reasoning": "The snippet only cites the Bundesbeschluss vom 9. Juni 1908 (SR 414.110.11) as a whole; the specific provision mentioned is Ziff. 1 Buchst. h of that Bundesbeschluss, not an article. No numbered article of SR 414.110.11 is referenced."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_6",
+    "TARGET_SR": "SR 414.110.12",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "high",
+    "reasoning": "The citation refers generally to the Übereinkommen vom 1./31. März 1909 (SR 414.110.12) without specifying any article or numbered clause; only the date and subject are given."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_11",
+    "TARGET_SR": "SR 172.010",
+    "assigned_articles": ["Art. 70"],
+    "confidence": "high",
+    "reasoning": "Inside the authorial note, SR 172.010 is immediately followed by 'Art. 70', which directly marks the cited provision of the Regierungs- und Verwaltungsorganisationsgesetz; this is a clear syntactic link."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_11",
+    "TARGET_SR": "SR 414.110",
+    "assigned_articles": ["Art. 40 Ziff. 1"],
+    "confidence": "high",
+    "reasoning": "The authorial note contains 'SR 414.110 Art. 40 Ziff. 1', explicitly tying Article 40 paragraph/number 1 of SR 414.110 to the citation; this is a direct article marking."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_14",
+    "TARGET_SR": "SR 414.110.11",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "high",
+    "reasoning": "The note states that the Bund has waived the pre-emption right and cites 'Ziff. 1 Buchst. h des BB vom 9. Juni 1908 – SR 414.110.11'. The reference is to a specific Ziffer and Buchstabe within the Bundesbeschluss, not to an article; no article number of SR 414.110.11 is mentioned."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_16",
+    "TARGET_SR": "SR 414.110.11",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "high",
+    "reasoning": "The citation 'BB vom 9. Juni 1908 (SR 414.110.11)' refers to the Bundesbeschluss as a whole and does not specify any article, Ziffer, or similar subdivision; thus it is a general document reference."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 414.110.1",
+    "assigned_articles": ["Art. 50 ff."],
+    "confidence": "high",
+    "reasoning": "The snippet refers to 'Art. 50ff. des zürcherischen privatrechtlichen Gesetzbuches', which is an external cantonal code, not linked to any SR in this context. Under the rules, this is a self-contained cross-reference within the current document’s context, so it is treated as an internal SR 414.110.1 reference to its own article range 50 ff."
+  },
+  {
+    "ITEM": 8,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": "SR 414.110.1",
+    "assigned_articles": ["Art. 1"],
+    "confidence": "high",
+    "reasoning": "The phrase 'Von den in Artikel 1 aufgeführten Objekten' clearly refers back to Article 1 of the same contract; no external SR is mentioned in the sentence, so this is an internal self-reference within SR 414.110.1."
+  },
+  {
+    "ITEM": 9,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": "SR 414.110.1",
+    "assigned_articles": ["Art. 1"],
+    "confidence": "high",
+    "reasoning": "The wording 'das in Artikel 1 unter Ziffer 1 Buchstabe b beschriebene Areal' points to a specific part of Article 1 of the same document; there is no external SR context, so it is an internal reference to Art. 1 SR 414.110.1."
+  },
+  {
+    "ITEM": 10,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": "SR 414.110.1",
+    "assigned_articles": ["Art. 1"],
+    "confidence": "high",
+    "reasoning": "The phrase 'die in Artikel 1 unter Ziffer 3 bezeichneten Mobilien' again refers to a subdivision of Article 1 of the same contract; no other SR is mentioned, so it is a self-reference to Art. 1 SR 414.110.1."
+  },
+  {
+    "ITEM": 11,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": "SR 414.110.1",
+    "assigned_articles": ["Art. 1"],
+    "confidence": "high",
+    "reasoning": "The sentence 'Für die übrigen in Artikel 1 aufgeführten Objekte' clearly points back to Article 1 of the same instrument; there is no external SR link, so this is an internal cross-reference to Art. 1 SR 414.110.1."
+  },
+  {
+    "ITEM": 12,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": "SR 414.110.1",
+    "assigned_articles": ["Art. 2"],
+    "confidence": "high",
+    "reasoning": "The snippet mentions 'Artikel 2 des Vertrages vom 1. März 1883 über die Regulierung der Baupflicht des Kantons Zürich gegenüber der eidgenössischen polytechnischen Schule'. Within the current XML, this is treated as a reference to Article 2 of the same contractual complex; no distinct TARGET_SR is given, so it is handled as an internal reference to Art. 2 SR 414.110.1."
+  },
+  {
+    "ITEM": 13,
+    "ARTICLE_EID": "art_14",
+    "TARGET_SR": "SR 414.110.1",
+    "assigned_articles": ["Art. 5"],
+    "confidence": "high",
+    "reasoning": "The phrase 'das mit dem Vorkaufsrecht des Bundes (Art. 5) belastete Spitalscheuerareal' refers to Article 5 of the same contract, as confirmed by the parallel SR_link_detection item 5 where Art. 5 is within this document; no external SR is syntactically linked to 'Art. 5'."
+  }
+]

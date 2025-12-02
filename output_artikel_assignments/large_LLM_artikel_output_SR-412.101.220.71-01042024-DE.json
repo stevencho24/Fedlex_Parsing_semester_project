@@ -1,0 +1,183 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 412.10",
+    "assigned_articles": [
+      "Art. 19"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Preambel-Satz: «gestützt auf Artikel 19 des Berufsbildungsgesetzes … SR 412.10»; der Artikel ist direkt mit dem Gesetz (SR 412.10) verknüpft."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 412.101",
+    "assigned_articles": [
+      "Art. 12"
+    ],
+    "confidence": "high",
+    "reasoning": "«… auf Artikel 12 der Berufsbildungsverordnung … SR 412.101 (BBV)»; Art. 12 ist syntaktisch eindeutig dieser SR-Nummer zugeordnet."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 170.512",
+    "assigned_articles": [
+      "Art. 12 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Autorentext: «in Anwendung von Art. 12 Abs. 2 des Publikationsgesetzes … (SR 170.512)»; klare direkte Zuordnung."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 822.115",
+    "assigned_articles": [
+      "Art. 4a Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "«… auf Artikel 4a Absatz 1 der Jugendarbeitsschutzverordnung … SR 822.115 (ArGV 5)»; der genannte Artikel gehört eindeutig zu SR 822.115."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": "SR 170.512",
+    "assigned_articles": [
+      "Art. 12 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Autorennotiz: «in Anwendung von Art. 12 Abs. 2 des Publikationsgesetzes … (SR 170.512)»; dieselbe Konstellation wie im Preambel, klarer Bezug."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": "SR 412.101.241",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "«Für den allgemeinbildenden Unterricht gilt die Verordnung … SR 412.101.241 …» ohne Artikelangabe; es wird die Verordnung als Ganzes in Bezug genommen."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_18",
+    "TARGET_SR": "SR 412.101.241",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "«… richtet sich nach der Verordnung … SR 412.101.241 …»; wiederum keine konkrete Artikelangabe, allgemeiner Verweis auf die Verordnung."
+  },
+  {
+    "ITEM": 8,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": "SR 412.10",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "medium",
+    "reasoning": "SBFI ist als Akteur («Verordnung des SBFI») genannt; die Autorennotiz verweist auf SR 412.10 (Rechtsgrundlage des SBFI). Kein bestimmter Artikel wird genannt, daher allgemeiner Dokumentverweis."
+  },
+  {
+    "ITEM": 9,
+    "ARTICLE_EID": "art_16",
+    "TARGET_SR": "SR 412.101",
+    "assigned_articles": [
+      "Art. 32"
+    ],
+    "confidence": "high",
+    "reasoning": "«die nach Artikel 32 BBV erforderliche Erfahrung erworben hat»; BBV = SR 412.101 gemäss Preambel, direkter Artikelverweis."
+  },
+  {
+    "ITEM": 10,
+    "ARTICLE_EID": "art_18",
+    "TARGET_SR": "SR 412.10",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "medium",
+    "reasoning": "Wie bei ITEM 8: «Verordnung des SBFI …»; SR 412.10 ist die gesetzliche Grundlage des SBFI, aber kein bestimmter Artikel wird genannt."
+  },
+  {
+    "ITEM": 11,
+    "ARTICLE_EID": "art_20",
+    "TARGET_SR": "SR 412.101",
+    "assigned_articles": [
+      "Art. 33"
+    ],
+    "confidence": "high",
+    "reasoning": "«richtet sich nach Artikel 33 BBV»; BBV = SR 412.101, eindeutiger Artikelverweis."
+  },
+  {
+    "ITEM": 12,
+    "ARTICLE_EID": "art_23",
+    "TARGET_SR": "SR 412.10",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "medium",
+    "reasoning": "«… dem SBFI die entsprechende Änderung zu beantragen»; SR 412.10 ist die Rechtsgrundlage des SBFI, aber kein konkreter Artikel wird im Kontext genannt."
+  },
+  {
+    "ITEM": 13,
+    "ARTICLE_EID": "art_25",
+    "TARGET_SR": "SR 412.10",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "medium",
+    "reasoning": "«Die Verordnung des SBFI vom 5. Dezember 2007 … wird aufgehoben.»; Bezug auf eine SBFI-Verordnung, SR 412.10 als Grundlage, ohne konkrete Artikelangabe."
+  },
+  {
+    "ITEM": 14,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": "self",
+    "assigned_articles": [
+      "Art. 4 Abs. 1",
+      "Art. 4a Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "«In Abweichung von Artikel 4 Absatz 1 ArGV 5 und gemäss den Vorgaben nach Artikel 4a Absatz 1 ArGV 5 …»; ArGV 5 ist SR 822.115, aber hier ohne explizite SR-Nennung im Satz und als interne Regelungsgrundlage der vorliegenden Verordnung verwendet. Gemäss Vorgaben ist dies als Selbstverweis zu behandeln, nicht als Zuweisung zu einem TARGET_SR."
+  },
+  {
+    "ITEM": 15,
+    "ARTICLE_EID": "art_16",
+    "TARGET_SR": "self",
+    "assigned_articles": [
+      "Art. 32"
+    ],
+    "confidence": "high",
+    "reasoning": "«… die nach Artikel 32 BBV erforderliche Erfahrung …»; derselbe Verweis wie in ITEM 9, aber hier als artikel_reference ohne explizite SR-Nennung. Da der Bezug zu SR 412.101 bereits über ITEM 9 abgedeckt ist, wird dies als interner Verweis (self) behandelt."
+  },
+  {
+    "ITEM": 16,
+    "ARTICLE_EID": "art_17",
+    "TARGET_SR": "self",
+    "assigned_articles": [
+      "Art. 4"
+    ],
+    "confidence": "high",
+    "reasoning": "«… dass die Handlungskompetenzen nach Artikel 4 erworben worden sind.»; kein SR-Kontext, klarer Selbstverweis innerhalb derselben Verordnung."
+  },
+  {
+    "ITEM": 17,
+    "ARTICLE_EID": "art_22",
+    "TARGET_SR": "self",
+    "assigned_articles": [
+      "Art. 21 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "«… unter dem Vorbehalt von Artikel 21 Absatz 1, die Erfahrungsnote.»; reiner interner Verweis ohne externen SR-Bezug."
+  },
+  {
+    "ITEM": 18,
+    "ARTICLE_EID": "art_26",
+    "TARGET_SR": "self",
+    "assigned_articles": [
+      "Art. 16-22"
+    ],
+    "confidence": "high",
+    "reasoning": "«Die Bestimmungen … (Art. 16−22) kommen … zur Anwendung.»; dies ist eine interne Artikelspanne innerhalb derselben Verordnung, ohne externen SR-Bezug."
+  }
+]

@@ -1,0 +1,426 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 101",
+    "assigned_articles": ["Art. 92"],
+    "confidence": "high",
+    "reasoning": "Der Wortlaut «gestützt auf Artikel 92 der Bundesverfassung SR 101» verknüpft Art. 92 eindeutig mit SR 101."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": "SR 784.40",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "high",
+    "reasoning": "Es wird nur das Gesetz «SR 784.40 über Radio und Fernsehen (RTVG)» genannt, ohne konkrete Artikelangabe; dies ist eine generelle Verweisung."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": "SR 784.40",
+    "assigned_articles": ["Art. 2"],
+    "confidence": "high",
+    "reasoning": "«Artikel 2 RTVG SR 784.40» bezeichnet ausdrücklich Art. 2 des RTVG."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_6_a",
+    "TARGET_SR": "SR 780.1",
+    "assigned_articles": ["Art. 23 Abs. 1"],
+    "confidence": "high",
+    "reasoning": "Formulierung «nach Artikel 23 Absatz 1 des Bundesgesetzes … SR 780.1» verknüpft Art. 23 Abs. 1 klar mit SR 780.1."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_16",
+    "TARGET_SR": "SR 784.101.1",
+    "assigned_articles": ["Art. 15"],
+    "confidence": "high",
+    "reasoning": "Im Hinweistext: «Siehe heute: Abs. 3 sowie Art. 15 der V … (SR 784.101.1)»; der explizit genannte Art. 15 gehört zu SR 784.101.1. «Abs. 3» ist ohne Artikelangabe und bleibt unzugeordnet."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_23",
+    "TARGET_SR": "SR 784.40",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "high",
+    "reasoning": "«das RTVG SR 784.40» wird als Ganzes genannt, ohne Artikel- oder Absatzangabe; dies ist eine generelle Verweisung."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_24",
+    "TARGET_SR": "SR 172.021",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "medium",
+    "reasoning": "Es wird auf «Bestimmungen des Bundesgesetzes … SR 172.021 über das Verwaltungsverfahren (VwVG)» verwiesen, ohne konkrete Artikel; der Kontext spricht für eine generelle Abweichungsmöglichkeit von mehreren Normen."
+  },
+  {
+    "ITEM": 8,
+    "ARTICLE_EID": "art_28_c",
+    "TARGET_SR": "SR 611.0",
+    "assigned_articles": ["Art. 41a Abs. 2", "Art. 41a Abs. 3"],
+    "confidence": "high",
+    "reasoning": "«Voraussetzungen nach Artikel 41a Absätze 2 und 3 des Finanzhaushaltsgesetzes … SR 611.0» benennt Art. 41a Abs. 2 und 3 ausdrücklich."
+  },
+  {
+    "ITEM": 9,
+    "ARTICLE_EID": "art_31",
+    "TARGET_SR": "SR 946.51",
+    "assigned_articles": ["Art. 3"],
+    "confidence": "high",
+    "reasoning": "Klammerzusatz «(Art. 3 des Bundesgesetzes … SR 946.51 …)» ordnet Art. 3 eindeutig SR 946.51 zu."
+  },
+  {
+    "ITEM": 10,
+    "ARTICLE_EID": "art_36",
+    "TARGET_SR": "SR 711",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "medium",
+    "reasoning": "«Das Verfahren richtet sich nach dem Enteignungsgesetz … SR 711.» ohne Artikelangabe; typischerweise Gesamtverweisung auf das Verfahrensgesetz."
+  },
+  {
+    "ITEM": 11,
+    "ARTICLE_EID": "art_39",
+    "TARGET_SR": "SR 784.40",
+    "assigned_articles": ["Art. 58"],
+    "confidence": "high",
+    "reasoning": "Im Acronym-Snippet: «nach Artikel 58 RTVG»; RTVG ist SR 784.40, somit Art. 58 RTVG = Art. 58 SR 784.40."
+  },
+  {
+    "ITEM": 12,
+    "ARTICLE_EID": "art_39",
+    "TARGET_SR": "SR 192.12",
+    "assigned_articles": ["Art. 2 Abs. 1 Bst. a", "Art. 2 Abs. 1 Bst. b", "Art. 2 Abs. 1 Bst. d–l"],
+    "confidence": "high",
+    "reasoning": "«nach Artikel 2 Absatz 1 Buchstaben a, b und d–l des Gaststaatgesetzes … SR 192.12» nennt diese Buchstaben ausdrücklich."
+  },
+  {
+    "ITEM": 13,
+    "ARTICLE_EID": "art_45_a",
+    "TARGET_SR": "SR 241",
+    "assigned_articles": ["Art. 3 Abs. 1 Bst. o", "Art. 3 Abs. 1 Bst. u", "Art. 3 Abs. 1 Bst. v"],
+    "confidence": "high",
+    "reasoning": "«nach Artikel 3 Absatz 1 Buchstaben o, u und v des Bundesgesetzes … SR 241» verweist klar auf diese Bestimmungen."
+  },
+  {
+    "ITEM": 14,
+    "ARTICLE_EID": "art_46_a",
+    "TARGET_SR": "SR 311.0",
+    "assigned_articles": ["Art. 197 Abs. 4", "Art. 197 Abs. 5"],
+    "confidence": "high",
+    "reasoning": "«nach Artikel 197 Absätze 4 und 5 des Strafgesetzbuchs SR 311.0» benennt diese Absätze ausdrücklich."
+  },
+  {
+    "ITEM": 15,
+    "ARTICLE_EID": "art_47",
+    "TARGET_SR": "SR 510.10",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "medium",
+    "reasoning": "«Bestimmungen des Militärgesetzes … SR 510.10 über die Requisition und … Verfügungsgewalt des Generals» ohne konkrete Artikel; mehrere Normen sind betroffen."
+  },
+  {
+    "ITEM": 16,
+    "ARTICLE_EID": "art_54",
+    "TARGET_SR": "SR 313.0",
+    "assigned_articles": ["Art. 14–18"],
+    "confidence": "high",
+    "reasoning": "«Die Artikel 14–18 des Verwaltungsstrafrechtsgesetzes … SR 313.0 sind anwendbar.» nennt den Artikelsbereich explizit."
+  },
+  {
+    "ITEM": 17,
+    "ARTICLE_EID": "art_55",
+    "TARGET_SR": "SR 313.0",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "medium",
+    "reasoning": "Es wird nur «nach den Vorschriften des Verwaltungsstrafrechtsgesetzes … SR 313.0» gesagt; keine konkrete Artikelangabe, generelle Verweisung."
+  },
+  {
+    "ITEM": 18,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "«Artikel 4 Absatz 1» bezieht sich mangels externer SR-Nennung auf einen Artikel desselben Gesetzes (Selbstverweisung), nicht auf ein anderes SR."
+  },
+  {
+    "ITEM": 19,
+    "ARTICLE_EID": "art_6_a",
+    "TARGET_SR": "SR 780.1",
+    "assigned_articles": ["Art. 23 Abs. 1"],
+    "confidence": "high",
+    "reasoning": "Gleicher Wortlaut wie ITEM 4, nur ohne SR-Nummer im Snippet; durch ITEM 4 ist klar, dass «Artikel 23 Absatz 1 des Bundesgesetzes vom 18. März 2016 betreffend die Überwachung des Post- und Fernmeldeverkehrs» SR 780.1 ist."
+  },
+  {
+    "ITEM": 20,
+    "ARTICLE_EID": "art_12_a_bis",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "«Artikel 59 Absatz 1» wird ohne Gesetzesangabe im selben Gesetz genannt; dies ist eine interne Verweisung."
+  },
+  {
+    "ITEM": 21,
+    "ARTICLE_EID": "art_14",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "«(Art. 16)» ohne Gesetzesangabe verweist auf Art. 16 desselben Erlasses (Selbstverweisung)."
+  },
+  {
+    "ITEM": 22,
+    "ARTICLE_EID": "art_15",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "«nach Artikel 19» ohne Nennung eines anderen Gesetzes ist eine interne Verweisung."
+  },
+  {
+    "ITEM": 23,
+    "ARTICLE_EID": "art_19_a",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "«gilt Artikel 24e» bezieht sich auf einen Artikel desselben Gesetzes."
+  },
+  {
+    "ITEM": 24,
+    "ARTICLE_EID": "art_21",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "«Artikel 11a und 11b» ohne Gesetzesangabe sind interne Artikel des gleichen Erlasses."
+  },
+  {
+    "ITEM": 25,
+    "ARTICLE_EID": "art_21_a",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "«Artikel 11a Absätze 1 und 3 sowie 11b» sind interne Verweisungen im selben Gesetz."
+  },
+  {
+    "ITEM": 26,
+    "ARTICLE_EID": "art_22",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "«Artikel 22a» wird ohne externes Gesetz genannt; dies ist eine Selbstverweisung."
+  },
+  {
+    "ITEM": 27,
+    "ARTICLE_EID": "art_23",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "«(Art. 22 Abs. 2 Bst. c)» verweist auf einen Artikel desselben Gesetzes."
+  },
+  {
+    "ITEM": 28,
+    "ARTICLE_EID": "art_24",
+    "TARGET_SR": "SR 172.021",
+    "assigned_articles": ["Art. 12"],
+    "confidence": "high",
+    "reasoning": "«(Art. 12 VwVG)»; VwVG ist SR 172.021, somit Art. 12 SR 172.021."
+  },
+  {
+    "ITEM": 29,
+    "ARTICLE_EID": "art_24",
+    "TARGET_SR": "SR 172.021",
+    "assigned_articles": ["Art. 13"],
+    "confidence": "high",
+    "reasoning": "«(Art. 13 VwVG)» verweist klar auf Art. 13 SR 172.021."
+  },
+  {
+    "ITEM": 30,
+    "ARTICLE_EID": "art_24",
+    "TARGET_SR": "SR 172.021",
+    "assigned_articles": ["Art. 26–28"],
+    "confidence": "high",
+    "reasoning": "«(Art. 26–28 VwVG)» bezeichnet den Artikelsbereich 26–28 des VwVG (SR 172.021)."
+  },
+  {
+    "ITEM": 31,
+    "ARTICLE_EID": "art_24",
+    "TARGET_SR": "SR 172.021",
+    "assigned_articles": ["Art. 30", "Art. 31"],
+    "confidence": "high",
+    "reasoning": "«(Art. 30 und 31 VwVG)» nennt diese beiden Artikel des VwVG (SR 172.021)."
+  },
+  {
+    "ITEM": 32,
+    "ARTICLE_EID": "art_24",
+    "TARGET_SR": "SR 172.021",
+    "assigned_articles": ["Art. 34", "Art. 35"],
+    "confidence": "high",
+    "reasoning": "«(Art. 34 und 35 VwVG)» verweist auf Art. 34 und 35 SR 172.021."
+  },
+  {
+    "ITEM": 33,
+    "ARTICLE_EID": "art_24_d",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "«Konzessionsvoraussetzungen nach Artikel 23» ohne Gesetzesangabe ist eine interne Verweisung."
+  },
+  {
+    "ITEM": 34,
+    "ARTICLE_EID": "art_27",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "«Die Artikel 13a und 13b … sind anwendbar.» ohne externes Gesetz; dies sind Artikel desselben Erlasses."
+  },
+  {
+    "ITEM": 35,
+    "ARTICLE_EID": "art_28_a",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "«gilt Artikel 24 sinngemäss» verweist intern auf Art. 24 desselben Gesetzes."
+  },
+  {
+    "ITEM": 36,
+    "ARTICLE_EID": "art_28_c",
+    "TARGET_SR": "SR 611.0",
+    "assigned_articles": ["Art. 41a Abs. 2", "Art. 41a Abs. 3"],
+    "confidence": "high",
+    "reasoning": "Gleicher Inhalt wie ITEM 8, nur ohne SR-Nummer im Snippet; durch ITEM 8 ist klar, dass es sich um Art. 41a Abs. 2 und 3 FHG (SR 611.0) handelt."
+  },
+  {
+    "ITEM": 37,
+    "ARTICLE_EID": "art_30_a",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Wiederum «Die Artikel 13a und 13b … sind anwendbar.» ohne externes Gesetz; interne Verweisung."
+  },
+  {
+    "ITEM": 38,
+    "ARTICLE_EID": "art_31",
+    "TARGET_SR": "SR 946.51",
+    "assigned_articles": ["Art. 3"],
+    "confidence": "high",
+    "reasoning": "«(Art. 3 des Bundesgesetzes vom 6. Oktober 1995 über die technischen Handelshemmnisse)»; dieses Gesetz ist SR 946.51, somit Art. 3 SR 946.51."
+  },
+  {
+    "ITEM": 39,
+    "ARTICLE_EID": "art_32_b",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "«Artikel 32a bleibt vorbehalten.» ist eine interne Verweisung auf einen anderen Artikel desselben Gesetzes."
+  },
+  {
+    "ITEM": 40,
+    "ARTICLE_EID": "art_33",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "«nach Artikel 13b» ohne Gesetzesangabe verweist auf einen Artikel desselben Erlasses."
+  },
+  {
+    "ITEM": 41,
+    "ARTICLE_EID": "art_34_a",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "«auf die Artikel 31–34 anwendbar» bezieht sich auf interne Artikel des gleichen Gesetzes."
+  },
+  {
+    "ITEM": 42,
+    "ARTICLE_EID": "art_35_b",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "«Artikel 11b gilt sinngemäss.» ohne externes Gesetz; interne Verweisung."
+  },
+  {
+    "ITEM": 43,
+    "ARTICLE_EID": "art_38",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "«nach Artikel 16» ohne Gesetzesangabe verweist auf Art. 16 desselben Gesetzes."
+  },
+  {
+    "ITEM": 44,
+    "ARTICLE_EID": "art_39",
+    "TARGET_SR": "SR 192.12",
+    "assigned_articles": ["Art. 2 Abs. 1 Bst. a", "Art. 2 Abs. 1 Bst. b", "Art. 2 Abs. 1 Bst. d–l"],
+    "confidence": "high",
+    "reasoning": "Gleicher Inhalt wie ITEM 12, nur ohne SR-Nummer im Snippet; durch ITEM 12 ist klar, dass es sich um Art. 2 Abs. 1 Bst. a, b und d–l Gaststaatgesetz (SR 192.12) handelt."
+  },
+  {
+    "ITEM": 45,
+    "ARTICLE_EID": "art_39_a",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "«Konzessionsgebühren nach Artikel 39» verweist auf einen Artikel desselben Gesetzes (Selbstverweisung)."
+  },
+  {
+    "ITEM": 46,
+    "ARTICLE_EID": "art_45_a",
+    "TARGET_SR": "SR 241",
+    "assigned_articles": ["Art. 3 Abs. 1 Bst. o", "Art. 3 Abs. 1 Bst. u", "Art. 3 Abs. 1 Bst. v"],
+    "confidence": "high",
+    "reasoning": "Gleicher Inhalt wie ITEM 13, nur ohne SR-Nummer im Snippet; durch ITEM 13 ist klar, dass es sich um Art. 3 Abs. 1 Bst. o, u und v UWG (SR 241) handelt."
+  },
+  {
+    "ITEM": 47,
+    "ARTICLE_EID": "art_46_a",
+    "TARGET_SR": "SR 311.0",
+    "assigned_articles": ["Art. 197 Abs. 4", "Art. 197 Abs. 5"],
+    "confidence": "high",
+    "reasoning": "Gleicher Bezug wie ITEM 14: «Artikel 197 Absätze 4 und 5 des Strafgesetzbuchs»; durch ITEM 14 ist klar, dass es sich um SR 311.0 handelt."
+  },
+  {
+    "ITEM": 48,
+    "ARTICLE_EID": "art_46_a",
+    "TARGET_SR": "SR 311.0",
+    "assigned_articles": ["Art. 197 Abs. 4", "Art. 197 Abs. 5"],
+    "confidence": "high",
+    "reasoning": "Mehrfache Nennung «Artikel 197 Absätze 4 und 5 des Strafgesetzbuchs»; in Verbindung mit ITEM 14 eindeutig Art. 197 Abs. 4 und 5 StGB (SR 311.0)."
+  },
+  {
+    "ITEM": 49,
+    "ARTICLE_EID": "art_54",
+    "TARGET_SR": "SR 313.0",
+    "assigned_articles": ["Art. 14–18"],
+    "confidence": "high",
+    "reasoning": "Gleicher Inhalt wie ITEM 16, nur ohne SR-Nummer im Snippet; durch ITEM 16 ist klar, dass es sich um Art. 14–18 VStrR (SR 313.0) handelt."
+  },
+  {
+    "ITEM": 50,
+    "ARTICLE_EID": "art_55",
+    "TARGET_SR": "SR 313.0",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "medium",
+    "reasoning": "Gleicher Inhalt wie ITEM 17, nur ohne SR-Nummer im Snippet; es wird allgemein auf das Verwaltungsstrafrechtsgesetz verwiesen, ohne konkrete Artikel."
+  },
+  {
+    "ITEM": 51,
+    "ARTICLE_EID": "art_60",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "«Artikel 58 Absatz 4» wird ohne Gesetzesangabe genannt; dies ist eine interne Verweisung im selben Erlass."
+  },
+  {
+    "ITEM": 52,
+    "ARTICLE_EID": "art_68_a",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "«Artikel 4 Absatz 1» ist ohne externes Gesetz genannt; interne Verweisung."
+  },
+  {
+    "ITEM": 53,
+    "ARTICLE_EID": "art_70",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Die Aufzählung «Art. 56, 57, 64, 67, 68» bezieht sich auf Inkrafttretensdaten von Artikeln desselben Gesetzes; keine externe SR-Verweisung."
+  }
+]

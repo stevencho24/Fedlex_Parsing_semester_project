@@ -1,0 +1,62 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 946.51",
+    "assigned_articles": [
+      "Art. 16"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet explicitly states: 'gestützt auf Artikel 16 des Bundesgesetzes ... SR 946.51 ... (THG)'; Article 16 is directly and uniquely linked to SR 946.51."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 172.041.1",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "The sentence refers generally to 'die Bestimmungen der Allgemeinen Gebührenverordnung ... SR 172.041.1' without specifying any article or range; this is a blanket applicability clause."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_8",
+    "TARGET_SR": "SR 946.512",
+    "assigned_articles": [
+      "Art. 21"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet states: 'gestützt auf Artikel 21 der Akkreditierungs- und Bezeichnungsverordnung ... SR 946.512 (AkkBV)'; Article 21 is explicitly and syntactically tied to SR 946.512."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_8_a",
+    "TARGET_SR": "SR 946.512",
+    "assigned_articles": [
+      "Anhang 2"
+    ],
+    "confidence": "high",
+    "reasoning": "The text refers to 'die Akkreditierungstypen nach Anhang 2 AkkBV SR 946.512'; no numbered article is mentioned, only Annex 2 of the AkkBV, so the relevant cited unit within SR 946.512 is Anhang 2."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_8",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "This artikel_reference repeats the wording of ITEM 3 but without the SR number; within the local document context it functions as a self-reference to the same external basis already captured in ITEM 3 and does not introduce a new SR link assignment."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_8_a",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet mentions 'Artikeln 6, 7 und 8' with no SR or acronym; by the project rules this is an internal cross-reference within the same ordinance, not a citation to another SR document."
+  }
+]

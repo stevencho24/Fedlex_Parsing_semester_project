@@ -1,0 +1,1472 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 172.220.1",
+    "assigned_articles": ["Art. 37 Abs. 2"],
+    "confidence": "high",
+    "reasoning": "Direkte Formulierung: «gestützt auf Artikel 37 Absatz 2 ... SR 172.220.1 (BPG)»; eindeutige Zuordnung."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 172.220.111.3",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "high",
+    "reasoning": "Nur die Verordnung als Ganzes («Bundespersonalverordnung ... findet Anwendung») wird genannt, ohne Artikelangabe."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 220",
+    "assigned_articles": ["Art. 6 Abs. 5", "Art. 6 Abs. 6"],
+    "confidence": "high",
+    "reasoning": "Snippet: «(Art. 6 Abs. 5 und 6 BPG)» bezieht sich auf BPG, nicht auf OR; zum OR wird kein Artikel genannt → keine OR‑Artikel zuweisen, allgemeiner Verweis auf OR‑Regime."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 412.10",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "medium",
+    "reasoning": "Verweis: «das BG vom 13. Dez. 2002 (SR 412.10) über die Berufsausbildung» ohne Artikel; frühere AS‑Fundstellen betreffen altes Recht, nicht SR 412.10‑Artikel."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_16",
+    "TARGET_SR": "SR 220",
+    "assigned_articles": ["Art. 336c"],
+    "confidence": "high",
+    "reasoning": "Formulierung «nach Artikel 336c OR SR 220» verknüpft explizit Art. 336c mit OR."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_22",
+    "TARGET_SR": "SR 172.220.111.3",
+    "assigned_articles": ["Art. 36"],
+    "confidence": "high",
+    "reasoning": "«gemäss Artikel 36 BPV SR 172.220.111.3»; eindeutige syntaktische Zuordnung."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_36",
+    "TARGET_SR": "SR 830.1",
+    "assigned_articles": ["Art. 7"],
+    "confidence": "high",
+    "reasoning": "«(Art. 7 des BG ... SR 830.1 ...)»; klarer Klammerverweis."
+  },
+  {
+    "ITEM": 8,
+    "ARTICLE_EID": "art_46",
+    "TARGET_SR": "SR 412.10",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "high",
+    "reasoning": "«nach dem Berufsbildungsgesetz ... SR 412.10» ohne Artikelangabe."
+  },
+  {
+    "ITEM": 9,
+    "ARTICLE_EID": "art_52_a",
+    "TARGET_SR": "SR 172.220.111.3",
+    "assigned_articles": ["Anhang 2"],
+    "confidence": "high",
+    "reasoning": "«nach Anhang 2 der BPV SR 172.220.111.3»; Anhang ist die relevante Normeinheit."
+  },
+  {
+    "ITEM": 10,
+    "ARTICLE_EID": "art_52_d_bis",
+    "TARGET_SR": "SR 831.40",
+    "assigned_articles": ["Art. 33a"],
+    "confidence": "high",
+    "reasoning": "«(Art. 33a des BG ... SR 831.40 ...)»; eindeutiger Artikelverweis."
+  },
+  {
+    "ITEM": 11,
+    "ARTICLE_EID": "art_52_d_ter",
+    "TARGET_SR": "SR 831.40",
+    "assigned_articles": ["Art. 33b"],
+    "confidence": "high",
+    "reasoning": "«(Art. 33b BVG SR 831.40)»; klarer Bezug."
+  },
+  {
+    "ITEM": 12,
+    "ARTICLE_EID": "art_52_f",
+    "TARGET_SR": "SR 172.220.111.3",
+    "assigned_articles": ["Anhang 1"],
+    "confidence": "high",
+    "reasoning": "«nach Anhang 1 der BPV SR 172.220.111.3»; Anhang als zitierte Einheit."
+  },
+  {
+    "ITEM": 13,
+    "ARTICLE_EID": "art_58",
+    "TARGET_SR": "SR 312.0",
+    "assigned_articles": ["Art. 302"],
+    "confidence": "high",
+    "reasoning": "«nach Artikel 302 der Strafprozessordnung SR 312.0»; direkter Artikelverweis."
+  },
+  {
+    "ITEM": 14,
+    "ARTICLE_EID": "art_58",
+    "TARGET_SR": "SR 171.10",
+    "assigned_articles": ["Art. 150-156", "Art. 162 Abs. 1 Bst. c"],
+    "confidence": "high",
+    "reasoning": "«Artikel 150−156 in Verbindung mit Artikel 162 Absatz 1 Buchstabe c ... SR 171.10»; beide Einheiten gehören zum ParlG."
+  },
+  {
+    "ITEM": 15,
+    "ARTICLE_EID": "art_60",
+    "TARGET_SR": "SR 172.021",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "high",
+    "reasoning": "«richtet sich ... nach dem Bundesgesetz über das Verwaltungsverfahren ... SR 172.021» ohne Artikelangabe."
+  },
+  {
+    "ITEM": 16,
+    "ARTICLE_EID": "art_61",
+    "TARGET_SR": "SR 172.021",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "high",
+    "reasoning": "Gleiche Struktur wie ITEM 15; allgemeiner Verweis auf VwVG."
+  },
+  {
+    "ITEM": 17,
+    "ARTICLE_EID": "art_64",
+    "TARGET_SR": "SR 170.32",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "high",
+    "reasoning": "«richten sich nach dem Verantwortlichkeitsgesetz ... SR 170.32» ohne Artikelangabe."
+  },
+  {
+    "ITEM": 18,
+    "ARTICLE_EID": "art_65",
+    "TARGET_SR": "SR 170.321",
+    "assigned_articles": ["Art. 7"],
+    "confidence": "high",
+    "reasoning": "«nach Artikel 7 der Verordnung ... SR 170.321 zum Verantwortlichkeitsgesetz»; klarer Artikelbezug."
+  },
+  {
+    "ITEM": 19,
+    "ARTICLE_EID": "art_67_a",
+    "TARGET_SR": "SR 832.10",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "medium",
+    "reasoning": "«im Rahmen des Bundesgesetzes ... SR 832.10 über die Krankenversicherung»; keine Artikel genannt, allgemeine Leistungsdefinition."
+  },
+  {
+    "ITEM": 20,
+    "ARTICLE_EID": "art_67_a",
+    "TARGET_SR": "SR 832.20",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "medium",
+    "reasoning": "«im Rahmen ... des Bundesgesetzes ... SR 832.20 über die Unfallversicherung»; ebenfalls ohne Artikelangabe."
+  },
+  {
+    "ITEM": 21,
+    "ARTICLE_EID": "art_74",
+    "TARGET_SR": "SR 172.220.111.3",
+    "assigned_articles": ["Art. 63"],
+    "confidence": "high",
+    "reasoning": "«richten sich ... nach Artikel 63 BPV SR 172.220.111.3»; eindeutiger Verweis."
+  },
+  {
+    "ITEM": 22,
+    "ARTICLE_EID": "art_76",
+    "TARGET_SR": "SR 220",
+    "assigned_articles": ["Art. 127", "Art. 128"],
+    "confidence": "high",
+    "reasoning": "«nach den Artikeln 127 und 128 OR SR 220»; beide Artikel explizit genannt."
+  },
+  {
+    "ITEM": 23,
+    "ARTICLE_EID": "art_80_a",
+    "TARGET_SR": "SR 151.1",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "high",
+    "reasoning": "«Schlichtungskommission gemäss dem Gleichstellungsgesetz ... SR 151.1»; keine Artikelangabe, es geht um die Kommission als Institution."
+  },
+  {
+    "ITEM": 24,
+    "ARTICLE_EID": "art_80_a",
+    "TARGET_SR": "SR 172.327.1",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "high",
+    "reasoning": "«Bestimmungen der Verordnung ... SR 172.327.1 ... sinngemäss anwendbar»; keine Artikel genannt."
+  },
+  {
+    "ITEM": 25,
+    "ARTICLE_EID": "art_80_b",
+    "TARGET_SR": "SR 172.220.111.4",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "high",
+    "reasoning": "«Bestimmungen der Verordnung ... SR 172.220.111.4 ... sinngemäss anwendbar»; allgemeiner Verweis."
+  },
+  {
+    "ITEM": 26,
+    "ARTICLE_EID": "art_80_c",
+    "TARGET_SR": "SR 152.21",
+    "assigned_articles": ["Art. 4 Abs. 1"],
+    "confidence": "high",
+    "reasoning": "«nicht gemäss Artikel 4 Absatz 1 der Verordnung ... SR 152.21 ... archivierungswürdig»; klarer Artikelverweis."
+  },
+  {
+    "ITEM": 27,
+    "ARTICLE_EID": "art_80_d",
+    "TARGET_SR": "SR 173.110",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "medium",
+    "reasoning": "Nur Gesetzestitel mit SR‑Nummer; kein Artikel genannt, Kontext im Ausschnitt nicht weiterführend."
+  },
+  {
+    "ITEM": 28,
+    "ARTICLE_EID": "art_80_d",
+    "TARGET_SR": "SR 172.010.442",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "high",
+    "reasoning": "«Bestimmungen der Verordnung ... SR 172.010.442 ... sinngemäss anwendbar»; keine Artikelangabe."
+  },
+  {
+    "ITEM": 29,
+    "ARTICLE_EID": "art_80_e",
+    "TARGET_SR": "SR 235.1",
+    "assigned_articles": ["Art. 10"],
+    "confidence": "high",
+    "reasoning": "«im Sinne von Artikel 10 des Datenschutzgesetzes ... SR 235.1 (DSG)»; eindeutiger Artikel."
+  },
+  {
+    "ITEM": 30,
+    "ARTICLE_EID": "art_80_e",
+    "TARGET_SR": "SR 235.11",
+    "assigned_articles": ["Art. 26"],
+    "confidence": "high",
+    "reasoning": "«und Artikel 26 der Datenschutzverordnung ... SR 235.11»; klarer Verweis."
+  },
+  {
+    "ITEM": 31,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": "SR 172.220.1",
+    "assigned_articles": ["Art. 4 Abs. 2 Bst. b"],
+    "confidence": "high",
+    "reasoning": "Klammerverweis «(Art. 4 Abs. 2 Bst. b BPG)»; eindeutig."
+  },
+  {
+    "ITEM": 32,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": "SR 172.220.1",
+    "assigned_articles": ["Art. 4 Abs. 2 Bst. d", "Art. 4 Abs. 2 Bst. g"],
+    "confidence": "high",
+    "reasoning": "«(Art. 4 Abs. 2 Bst. d und g BPG)»; beide Buchstaben gehören zu Art. 4 Abs. 2."
+  },
+  {
+    "ITEM": 33,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": "SR 172.220.1",
+    "assigned_articles": ["Art. 4 Abs. 2 Bst. g"],
+    "confidence": "high",
+    "reasoning": "«(Art. 4 Abs. 2 Bst. g BPG)»; klar."
+  },
+  {
+    "ITEM": 34,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": "SR 172.220.1",
+    "assigned_articles": ["Art. 4 Abs. 2 Bst. i"],
+    "confidence": "high",
+    "reasoning": "«(Art. 4 Abs. 2 Bst. i BPG)»."
+  },
+  {
+    "ITEM": 35,
+    "ARTICLE_EID": "art_6",
+    "TARGET_SR": "SR 172.220.1",
+    "assigned_articles": ["Art. 4 Abs. 2 Bst. k"],
+    "confidence": "high",
+    "reasoning": "«(Art. 4 Abs. 2 Bst. k BPG)»."
+  },
+  {
+    "ITEM": 36,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": "SR 172.220.1",
+    "assigned_articles": ["Art. 4 Abs. 3"],
+    "confidence": "high",
+    "reasoning": "«(Art. 4 Abs. 3 BPG)»."
+  },
+  {
+    "ITEM": 37,
+    "ARTICLE_EID": "art_8",
+    "TARGET_SR": "SR 172.220.1",
+    "assigned_articles": ["Art. 4 Abs. 3"],
+    "confidence": "high",
+    "reasoning": "Identischer Klammerverweis wie ITEM 36."
+  },
+  {
+    "ITEM": 38,
+    "ARTICLE_EID": "art_9",
+    "TARGET_SR": "SR 172.220.1",
+    "assigned_articles": ["Art. 4 Abs. 3"],
+    "confidence": "high",
+    "reasoning": "Ebenfalls «(Art. 4 Abs. 3 BPG)»."
+  },
+  {
+    "ITEM": 39,
+    "ARTICLE_EID": "art_10",
+    "TARGET_SR": "SR 172.220.1",
+    "assigned_articles": ["Art. 4"],
+    "confidence": "medium",
+    "reasoning": "Text spricht von «Zielerreichung des BPG» ohne Artikel; funktional bezieht sich die Zielerreichung auf die Grundsätze in Art. 4 BPG, aber dies ist nicht explizit; daher Zuordnung zu Art. 4 mit mittlerer Sicherheit."
+  },
+  {
+    "ITEM": 40,
+    "ARTICLE_EID": "art_11",
+    "TARGET_SR": "SR 172.220.1",
+    "assigned_articles": ["Art. 7"],
+    "confidence": "high",
+    "reasoning": "«(Art. 7 BPG)»."
+  },
+  {
+    "ITEM": 41,
+    "ARTICLE_EID": "art_12",
+    "TARGET_SR": "SR 172.220.1",
+    "assigned_articles": ["Art. 8 Abs. 3"],
+    "confidence": "high",
+    "reasoning": "«(Art. 8 Abs. 3 BPG)»."
+  },
+  {
+    "ITEM": 42,
+    "ARTICLE_EID": "art_13",
+    "TARGET_SR": "SR 172.220.1",
+    "assigned_articles": ["Art. 8"],
+    "confidence": "high",
+    "reasoning": "«(Art. 8 BPG)»."
+  },
+  {
+    "ITEM": 43,
+    "ARTICLE_EID": "art_14",
+    "TARGET_SR": "SR 172.220.1",
+    "assigned_articles": ["Art. 8"],
+    "confidence": "high",
+    "reasoning": "Ebenfalls «(Art. 8 BPG)»."
+  },
+  {
+    "ITEM": 44,
+    "ARTICLE_EID": "art_15",
+    "TARGET_SR": "SR 172.220.1",
+    "assigned_articles": ["Art. 9 Abs. 1", "Art. 9 Abs. 2", "Art. 10"],
+    "confidence": "high",
+    "reasoning": "Klammer: «(Art. 9 Abs. 1 und 2 BPG)» plus im Text «Kündigungsschutzes nach Artikel 10 BPG»; alle drei sind BPG‑Artikel."
+  },
+  {
+    "ITEM": 45,
+    "ARTICLE_EID": "art_16",
+    "TARGET_SR": "SR 172.220.1",
+    "assigned_articles": ["Art. 12", "Art. 12 Abs. 2", "Art. 12 Abs. 3"],
+    "confidence": "high",
+    "reasoning": "Klammer: «(Art. 12 BPG)» und im Text «Kündigungsfristen nach Artikel 12 Absätze 2 und 3 BPG»."
+  },
+  {
+    "ITEM": 46,
+    "ARTICLE_EID": "art_17",
+    "TARGET_SR": "SR 172.220.1",
+    "assigned_articles": ["Art. 8 Abs. 1", "Art. 13", "Art. 13 Abs. 3", "Art. 10"],
+    "confidence": "high",
+    "reasoning": "Klammer: «(Art. 8 Abs. 1 und Art. 13 BPG)»; Text: «Vorbehalt von Artikel 13 Absatz 3» und «nach den Bestimmungen von Artikel 10 BPG»."
+  },
+  {
+    "ITEM": 47,
+    "ARTICLE_EID": "art_17_a",
+    "TARGET_SR": "SR 172.220.1",
+    "assigned_articles": ["Art. 12 Abs. 2"],
+    "confidence": "high",
+    "reasoning": "«(Art. 12 Abs. 2 BPG)»."
+  },
+  {
+    "ITEM": 48,
+    "ARTICLE_EID": "art_18",
+    "TARGET_SR": "SR 172.220.1",
+    "assigned_articles": ["Art. 19 Abs. 1", "Art. 19 Abs. 2", "Art. 3"],
+    "confidence": "high",
+    "reasoning": "Klammer: «(Art. 19 Abs. 1 und 2 BPG)»; Text: «Arbeitgeber nach Artikel 3 BPG»."
+  },
+  {
+    "ITEM": 49,
+    "ARTICLE_EID": "art_18_a",
+    "TARGET_SR": "SR 172.220.1",
+    "assigned_articles": [
+      "Art. 10 Abs. 3",
+      "Art. 10 Abs. 4",
+      "Art. 10 Abs. 3 Bst. c",
+      "Art. 4 Abs. 3",
+      "Art. 67 Abs. 4"
+    ],
+    "confidence": "high",
+    "reasoning": "Klammer: «(Art. 10 Abs. 3 und 12 Abs. 2 BPG)»; im Text mehrfach «Artikel 10 Absätze 3 und 4 BPG», «Artikel 10 Absatz 3 Buchstabe c BPG», «Artikel 4 Absatz 3» und «Artikel 67 Absatz 4»; Art. 12 Abs. 2 ist bereits in ITEM 47 erfasst, wird hier nicht erneut zugeordnet."
+  },
+  {
+    "ITEM": 50,
+    "ARTICLE_EID": "art_19",
+    "TARGET_SR": "SR 172.220.1",
+    "assigned_articles": ["Art. 14"],
+    "confidence": "high",
+    "reasoning": "Klammer: «(Art. 14 BPG; Art. 26 BGG)»; nur der BPG‑Artikel wird diesem TARGET_SR zugeordnet."
+  },
+  {
+    "ITEM": 51,
+    "ARTICLE_EID": "art_20",
+    "TARGET_SR": "SR 172.220.1",
+    "assigned_articles": ["Art. 10 Abs. 2"],
+    "confidence": "high",
+    "reasoning": "«(Art. 10 Abs. 2 BPG)»."
+  },
+  {
+    "ITEM": 52,
+    "ARTICLE_EID": "art_22",
+    "TARGET_SR": "SR 172.220.1",
+    "assigned_articles": ["Art. 15"],
+    "confidence": "high",
+    "reasoning": "«(Art. 15 BPG)»."
+  },
+  {
+    "ITEM": 53,
+    "ARTICLE_EID": "art_23",
+    "TARGET_SR": "SR 172.220.1",
+    "assigned_articles": ["Art. 15"],
+    "confidence": "high",
+    "reasoning": "Ebenfalls «(Art. 15 BPG)»."
+  },
+  {
+    "ITEM": 54,
+    "ARTICLE_EID": "art_24",
+    "TARGET_SR": "SR 172.220.1",
+    "assigned_articles": ["Art. 15"],
+    "confidence": "high",
+    "reasoning": "«(Art. 15 BPG)»."
+  },
+  {
+    "ITEM": 55,
+    "ARTICLE_EID": "art_24_a",
+    "TARGET_SR": "SR 172.220.1",
+    "assigned_articles": ["Art. 15"],
+    "confidence": "high",
+    "reasoning": "«(Art. 15 BPG)»."
+  },
+  {
+    "ITEM": 56,
+    "ARTICLE_EID": "art_25",
+    "TARGET_SR": "SR 172.220.1",
+    "assigned_articles": ["Art. 15"],
+    "confidence": "high",
+    "reasoning": "«(Art. 15 BPG)»."
+  },
+  {
+    "ITEM": 57,
+    "ARTICLE_EID": "art_26",
+    "TARGET_SR": "SR 172.220.1",
+    "assigned_articles": ["Art. 15"],
+    "confidence": "high",
+    "reasoning": "«(Art. 15 BPG)»."
+  },
+  {
+    "ITEM": 58,
+    "ARTICLE_EID": "art_27",
+    "TARGET_SR": "SR 172.220.1",
+    "assigned_articles": ["Art. 15"],
+    "confidence": "high",
+    "reasoning": "«(Art. 15 BPG)»."
+  },
+  {
+    "ITEM": 59,
+    "ARTICLE_EID": "art_28",
+    "TARGET_SR": "SR 172.220.1",
+    "assigned_articles": ["Art. 15"],
+    "confidence": "high",
+    "reasoning": "«(Art. 15 BPG)»."
+  },
+  {
+    "ITEM": 60,
+    "ARTICLE_EID": "art_29",
+    "TARGET_SR": "SR 172.220.1",
+    "assigned_articles": ["Art. 16"],
+    "confidence": "high",
+    "reasoning": "«(Art. 16 BPG)»."
+  },
+  {
+    "ITEM": 61,
+    "ARTICLE_EID": "art_30",
+    "TARGET_SR": "SR 172.220.1",
+    "assigned_articles": ["Art. 15"],
+    "confidence": "high",
+    "reasoning": "«(Art. 15 BPG)»."
+  },
+  {
+    "ITEM": 62,
+    "ARTICLE_EID": "art_31",
+    "TARGET_SR": "SR 172.220.1",
+    "assigned_articles": ["Art. 15"],
+    "confidence": "high",
+    "reasoning": "«(Art. 15 BPG)»."
+  },
+  {
+    "ITEM": 63,
+    "ARTICLE_EID": "art_32",
+    "TARGET_SR": "SR 172.220.1",
+    "assigned_articles": ["Art. 15"],
+    "confidence": "high",
+    "reasoning": "«(Art. 15 BPG)»."
+  },
+  {
+    "ITEM": 64,
+    "ARTICLE_EID": "art_33",
+    "TARGET_SR": "SR 172.220.1",
+    "assigned_articles": ["Art. 15"],
+    "confidence": "high",
+    "reasoning": "«(Art. 15 BPG)»."
+  },
+  {
+    "ITEM": 65,
+    "ARTICLE_EID": "art_34",
+    "TARGET_SR": "SR 172.220.1",
+    "assigned_articles": ["Art. 15"],
+    "confidence": "high",
+    "reasoning": "«(Art. 15 BPG)»."
+  },
+  {
+    "ITEM": 66,
+    "ARTICLE_EID": "art_35",
+    "TARGET_SR": "SR 172.220.1",
+    "assigned_articles": ["Art. 15"],
+    "confidence": "high",
+    "reasoning": "«(Art. 15 BPG)»."
+  },
+  {
+    "ITEM": 67,
+    "ARTICLE_EID": "art_36",
+    "TARGET_SR": "SR 172.220.1",
+    "assigned_articles": ["Art. 31 Abs. 1", "Art. 31 Abs. 2"],
+    "confidence": "high",
+    "reasoning": "«(Art. 31 Abs. 1 und 2 BPG)»."
+  },
+  {
+    "ITEM": 68,
+    "ARTICLE_EID": "art_37",
+    "TARGET_SR": "SR 172.220.1",
+    "assigned_articles": ["Art. 15"],
+    "confidence": "high",
+    "reasoning": "«(Art. 15 BPG)»."
+  },
+  {
+    "ITEM": 69,
+    "ARTICLE_EID": "art_38",
+    "TARGET_SR": "SR 172.220.1",
+    "assigned_articles": ["Art. 17"],
+    "confidence": "high",
+    "reasoning": "«(Art. 17 BPG)»."
+  },
+  {
+    "ITEM": 70,
+    "ARTICLE_EID": "art_39",
+    "TARGET_SR": "SR 172.220.1",
+    "assigned_articles": ["Art. 17"],
+    "confidence": "high",
+    "reasoning": "«(Art. 17 BPG)»."
+  },
+  {
+    "ITEM": 71,
+    "ARTICLE_EID": "art_40",
+    "TARGET_SR": "SR 172.220.1",
+    "assigned_articles": ["Art. 17"],
+    "confidence": "high",
+    "reasoning": "«(Art. 17 BPG)»."
+  },
+  {
+    "ITEM": 72,
+    "ARTICLE_EID": "art_41",
+    "TARGET_SR": "SR 172.220.1",
+    "assigned_articles": ["Art. 17"],
+    "confidence": "high",
+    "reasoning": "«(Art. 17 BPG)»."
+  },
+  {
+    "ITEM": 73,
+    "ARTICLE_EID": "art_42",
+    "TARGET_SR": "SR 172.220.1",
+    "assigned_articles": ["Art. 17"],
+    "confidence": "high",
+    "reasoning": "«(Art. 17 BPG)»."
+  },
+  {
+    "ITEM": 74,
+    "ARTICLE_EID": "art_43",
+    "TARGET_SR": "SR 172.220.1",
+    "assigned_articles": ["Art. 18 Abs. 1"],
+    "confidence": "high",
+    "reasoning": "«(Art. 18 Abs. 1 BPG)»."
+  },
+  {
+    "ITEM": 75,
+    "ARTICLE_EID": "art_44",
+    "TARGET_SR": "SR 172.220.1",
+    "assigned_articles": ["Art. 18 Abs. 1", "Art. 21 Abs. 1 Bst. c"],
+    "confidence": "high",
+    "reasoning": "«(Art. 18 Abs. 1 und Art. 21 Abs. 1 Bst. c BPG)»."
+  },
+  {
+    "ITEM": 76,
+    "ARTICLE_EID": "art_45",
+    "TARGET_SR": "SR 172.220.1",
+    "assigned_articles": ["Art. 18 Abs. 2"],
+    "confidence": "high",
+    "reasoning": "«(Art. 18 Abs. 2 BPG)»."
+  },
+  {
+    "ITEM": 77,
+    "ARTICLE_EID": "art_46",
+    "TARGET_SR": "SR 172.220.1",
+    "assigned_articles": ["Art. 32 Bst. b"],
+    "confidence": "high",
+    "reasoning": "«(Art. 32 Bst. b BPG)»."
+  },
+  {
+    "ITEM": 78,
+    "ARTICLE_EID": "art_47",
+    "TARGET_SR": "SR 172.220.1",
+    "assigned_articles": ["Art. 32 Bst. c"],
+    "confidence": "high",
+    "reasoning": "«(Art. 32 Bst. c BPG)»."
+  },
+  {
+    "ITEM": 79,
+    "ARTICLE_EID": "art_48",
+    "TARGET_SR": "SR 172.220.1",
+    "assigned_articles": ["Art. 32 Bst. e"],
+    "confidence": "high",
+    "reasoning": "«(Art. 32 Bst. e BPG)»."
+  },
+  {
+    "ITEM": 80,
+    "ARTICLE_EID": "art_49",
+    "TARGET_SR": "SR 172.220.1",
+    "assigned_articles": ["Art. 18 Abs. 2"],
+    "confidence": "high",
+    "reasoning": "«(Art. 18 Abs. 2 BPG)»."
+  },
+  {
+    "ITEM": 81,
+    "ARTICLE_EID": "art_50",
+    "TARGET_SR": "SR 172.220.1",
+    "assigned_articles": ["Art. 19", "Art. 19 Abs. 4", "Art. 3"],
+    "confidence": "high",
+    "reasoning": "Klammer: «(Art. 19 BPG)»; Text: mehrfach «Artikel 19 Absatz 4 BPG» und «Arbeitgeber nach Artikel 3 BPG»."
+  },
+  {
+    "ITEM": 82,
+    "ARTICLE_EID": "art_51",
+    "TARGET_SR": "SR 172.220.1",
+    "assigned_articles": ["Art. 19 Abs. 5"],
+    "confidence": "high",
+    "reasoning": "«(Art. 19 Abs. 5 BPG)»."
+  },
+  {
+    "ITEM": 83,
+    "ARTICLE_EID": "art_52",
+    "TARGET_SR": "SR 172.220.1",
+    "assigned_articles": ["Art. 17", "Art. 18 Abs. 2"],
+    "confidence": "high",
+    "reasoning": "«(Art. 17 und 18 Abs. 2 BPG)»."
+  },
+  {
+    "ITEM": 84,
+    "ARTICLE_EID": "art_52_a",
+    "TARGET_SR": "SR 172.220.1",
+    "assigned_articles": ["Art. 32g Abs. 5"],
+    "confidence": "high",
+    "reasoning": "«(Art. 32g Abs. 5 BPG)»."
+  },
+  {
+    "ITEM": 85,
+    "ARTICLE_EID": "art_52_c",
+    "TARGET_SR": "SR 172.220.1",
+    "assigned_articles": ["Art. 32 Bst. a"],
+    "confidence": "high",
+    "reasoning": "«(Art. 32 Bst. a BPG)»."
+  },
+  {
+    "ITEM": 86,
+    "ARTICLE_EID": "art_52_d",
+    "TARGET_SR": "SR 172.220.1",
+    "assigned_articles": ["Art. 17", "Art. 31 Abs. 5"],
+    "confidence": "high",
+    "reasoning": "«(Art. 17 und 31 Abs. 5 BPG)»."
+  },
+  {
+    "ITEM": 87,
+    "ARTICLE_EID": "art_52_e",
+    "TARGET_SR": "SR 172.220.1",
+    "assigned_articles": ["Art. 32j Abs. 2"],
+    "confidence": "high",
+    "reasoning": "«(Art. 32j Abs. 2 BPG)»."
+  },
+  {
+    "ITEM": 88,
+    "ARTICLE_EID": "art_52_f",
+    "TARGET_SR": "SR 172.220.1",
+    "assigned_articles": ["Art. 32k Abs. 2"],
+    "confidence": "high",
+    "reasoning": "«(Art. 32k Abs. 2 BPG)»."
+  },
+  {
+    "ITEM": 89,
+    "ARTICLE_EID": "art_53",
+    "TARGET_SR": "SR 172.220.1",
+    "assigned_articles": ["Art. 21 Abs. 1 Bst. a", "Art. 24 Abs. 2 Bst. a"],
+    "confidence": "high",
+    "reasoning": "«(Art. 21 Abs. 1 Bst. a und Art. 24 Abs. 2 Bst. a BPG)»."
+  },
+  {
+    "ITEM": 90,
+    "ARTICLE_EID": "art_54",
+    "TARGET_SR": "SR 172.220.1",
+    "assigned_articles": ["Art. 21 Abs. 1 Bst. b"],
+    "confidence": "high",
+    "reasoning": "«(Art. 21 Abs. 1 Bst. b BPG)»."
+  },
+  {
+    "ITEM": 91,
+    "ARTICLE_EID": "art_55",
+    "TARGET_SR": "SR 172.220.1",
+    "assigned_articles": ["Art. 23"],
+    "confidence": "high",
+    "reasoning": "«(Art. 23 BPG)»."
+  },
+  {
+    "ITEM": 92,
+    "ARTICLE_EID": "art_56",
+    "TARGET_SR": "SR 172.220.1",
+    "assigned_articles": ["Art. 21 Abs. 2"],
+    "confidence": "high",
+    "reasoning": "«(Art. 21 Abs. 2 BPG)»."
+  },
+  {
+    "ITEM": 93,
+    "ARTICLE_EID": "art_57",
+    "TARGET_SR": "SR 172.220.1",
+    "assigned_articles": ["Art. 21 Abs. 3"],
+    "confidence": "high",
+    "reasoning": "Klammer: «(Art. 21 Abs. 3 BPG)» und Text: «im Sinne von Artikel 21 Absatz 3 BPG»."
+  },
+  {
+    "ITEM": 94,
+    "ARTICLE_EID": "art_58",
+    "TARGET_SR": "SR 172.220.1",
+    "assigned_articles": ["Art. 22", "Art. 22a Abs. 1", "Art. 22a Abs. 2"],
+    "confidence": "high",
+    "reasoning": "Klammer: «(Art. 22 BPG)»; Text: «Artikel 22a Absätze 1 und 2 BPG»."
+  },
+  {
+    "ITEM": 95,
+    "ARTICLE_EID": "art_60",
+    "TARGET_SR": "SR 172.220.1",
+    "assigned_articles": ["Art. 25"],
+    "confidence": "high",
+    "reasoning": "«(Art. 25 BPG)»."
+  },
+  {
+    "ITEM": 96,
+    "ARTICLE_EID": "art_61",
+    "TARGET_SR": "SR 172.220.1",
+    "assigned_articles": ["Art. 25"],
+    "confidence": "high",
+    "reasoning": "«(Art. 25 BPG)»."
+  },
+  {
+    "ITEM": 97,
+    "ARTICLE_EID": "art_62",
+    "TARGET_SR": "SR 172.220.1",
+    "assigned_articles": ["Art. 25"],
+    "confidence": "high",
+    "reasoning": "«(Art. 25 BPG)»."
+  },
+  {
+    "ITEM": 98,
+    "ARTICLE_EID": "art_63",
+    "TARGET_SR": "SR 172.220.1",
+    "assigned_articles": ["Art. 25"],
+    "confidence": "high",
+    "reasoning": "«(Art. 25 BPG)»."
+  },
+  {
+    "ITEM": 99,
+    "ARTICLE_EID": "art_64",
+    "TARGET_SR": "SR 172.220.1",
+    "assigned_articles": ["Art. 25"],
+    "confidence": "high",
+    "reasoning": "«(Art. 25 BPG)»."
+  },
+  {
+    "ITEM": 100,
+    "ARTICLE_EID": "art_65",
+    "TARGET_SR": "SR 172.220.1",
+    "assigned_articles": ["Art. 25"],
+    "confidence": "high",
+    "reasoning": "«(Art. 25 BPG)»."
+  },
+  {
+    "ITEM": 101,
+    "ARTICLE_EID": "art_66",
+    "TARGET_SR": "SR 172.220.1",
+    "assigned_articles": ["Art. 26"],
+    "confidence": "high",
+    "reasoning": "«(Art. 26 BPG)»."
+  },
+  {
+    "ITEM": 102,
+    "ARTICLE_EID": "art_66_a",
+    "TARGET_SR": "SR 172.220.1",
+    "assigned_articles": ["Art. 25"],
+    "confidence": "high",
+    "reasoning": "«(Art. 25 BPG)»."
+  },
+  {
+    "ITEM": 103,
+    "ARTICLE_EID": "art_67",
+    "TARGET_SR": "SR 172.220.1",
+    "assigned_articles": ["Art. 29", "Art. 15", "Art. 16"],
+    "confidence": "high",
+    "reasoning": "Klammer: «(Art. 29 BPG)»; Text: «nach den Artikeln 15 und 16 BPG»."
+  },
+  {
+    "ITEM": 104,
+    "ARTICLE_EID": "art_67_a",
+    "TARGET_SR": "SR 172.220.1",
+    "assigned_articles": ["Art. 29"],
+    "confidence": "high",
+    "reasoning": "«(Art. 29 BPG)»."
+  },
+  {
+    "ITEM": 105,
+    "ARTICLE_EID": "art_68",
+    "TARGET_SR": "SR 172.220.1",
+    "assigned_articles": ["Art. 29"],
+    "confidence": "high",
+    "reasoning": "«(Art. 29 BPG)»."
+  },
+  {
+    "ITEM": 106,
+    "ARTICLE_EID": "art_69",
+    "TARGET_SR": "SR 172.220.1",
+    "assigned_articles": ["Art. 29 Abs. 3"],
+    "confidence": "high",
+    "reasoning": "«(Art. 29 Abs. 3 BPG)»."
+  },
+  {
+    "ITEM": 107,
+    "ARTICLE_EID": "art_70",
+    "TARGET_SR": "SR 172.220.1",
+    "assigned_articles": ["Art. 29 Abs. 1"],
+    "confidence": "high",
+    "reasoning": "«(Art. 29 Abs. 1 BPG)»."
+  },
+  {
+    "ITEM": 108,
+    "ARTICLE_EID": "art_71",
+    "TARGET_SR": "SR 172.220.1",
+    "assigned_articles": ["Art. 29 Abs. 1"],
+    "confidence": "high",
+    "reasoning": "«(Art. 29 Abs. 1 BPG)»."
+  },
+  {
+    "ITEM": 109,
+    "ARTICLE_EID": "art_72",
+    "TARGET_SR": "SR 172.220.1",
+    "assigned_articles": ["Art. 17 Abs. 4"],
+    "confidence": "high",
+    "reasoning": "«(Art. 17 Abs. 4 BPG)»."
+  },
+  {
+    "ITEM": 110,
+    "ARTICLE_EID": "art_73",
+    "TARGET_SR": "SR 172.220.1",
+    "assigned_articles": ["Art. 29 Abs. 2"],
+    "confidence": "high",
+    "reasoning": "«(Art. 29 Abs. 2 BPG)»."
+  },
+  {
+    "ITEM": 111,
+    "ARTICLE_EID": "art_74",
+    "TARGET_SR": "SR 172.220.1",
+    "assigned_articles": ["Art. 29 Abs. 1"],
+    "confidence": "high",
+    "reasoning": "«(Art. 29 Abs. 1 BPG)»."
+  },
+  {
+    "ITEM": 112,
+    "ARTICLE_EID": "art_75",
+    "TARGET_SR": "SR 172.220.1",
+    "assigned_articles": ["Art. 18 Abs. 2"],
+    "confidence": "high",
+    "reasoning": "«(Art. 18 Abs. 2 BPG)»."
+  },
+  {
+    "ITEM": 113,
+    "ARTICLE_EID": "art_76",
+    "TARGET_SR": "SR 172.220.1",
+    "assigned_articles": ["Art. 34"],
+    "confidence": "high",
+    "reasoning": "«(Art. 34 BPG)»."
+  },
+  {
+    "ITEM": 114,
+    "ARTICLE_EID": "art_77",
+    "TARGET_SR": "SR 172.220.1",
+    "assigned_articles": ["Art. 10", "Art. 19", "Art. 31"],
+    "confidence": "high",
+    "reasoning": "«(Art. 10, 19 und 31 BPG)»."
+  },
+  {
+    "ITEM": 115,
+    "ARTICLE_EID": "art_78",
+    "TARGET_SR": "SR 172.220.1",
+    "assigned_articles": ["Art. 31 Abs. 5"],
+    "confidence": "high",
+    "reasoning": "«(Art. 31 Abs. 5 BPG)»."
+  },
+  {
+    "ITEM": 116,
+    "ARTICLE_EID": "art_78_a",
+    "TARGET_SR": "SR 172.220.1",
+    "assigned_articles": ["Art. 19 Abs. 3", "Art. 31 Abs. 5", "Art. 10 Abs. 3", "Art. 10 Abs. 4"],
+    "confidence": "high",
+    "reasoning": "Klammer: «(Art. 19 Abs. 3 und 31 Abs. 5 BPG)»; Text: «kein Kündigungsgrund nach Artikel 10 Absatz 3 oder 4 BPG»."
+  },
+  {
+    "ITEM": 117,
+    "ARTICLE_EID": "art_79",
+    "TARGET_SR": "SR 172.220.1",
+    "assigned_articles": ["Art. 33", "Art. 33 Abs. 2"],
+    "confidence": "high",
+    "reasoning": "Klammer: «(Art. 33 BPG)»; Text: «mindestens im Umfang von Artikel 33 Absatz 2 BPG»."
+  },
+  {
+    "ITEM": 118,
+    "ARTICLE_EID": "art_80",
+    "TARGET_SR": "SR 172.220.1",
+    "assigned_articles": ["Art. 33 Abs. 4"],
+    "confidence": "high",
+    "reasoning": "«(Art. 33 Abs. 4 BPG)»."
+  },
+  {
+    "ITEM": 119,
+    "ARTICLE_EID": "art_80_b",
+    "TARGET_SR": "SR 172.220.1",
+    "assigned_articles": ["Art. 27"],
+    "confidence": "high",
+    "reasoning": "«(Art. 27 BPG)»."
+  },
+  {
+    "ITEM": 120,
+    "ARTICLE_EID": "art_89",
+    "TARGET_SR": "SR 172.220.1",
+    "assigned_articles": ["Art. 2 Abs. 2", "Art. 2 Abs. 3"],
+    "confidence": "high",
+    "reasoning": "Text: «im Sinne von Artikel 2 Absatz 2 und 3 der Überführungsverordnung BtG-BPG»; diese Verordnung gehört systematisch zum BPG‑Umsetzungsrecht; Artikelangabe ist explizit."
+  },
+  {
+    "ITEM": 121,
+    "ARTICLE_EID": "art_89_a",
+    "TARGET_SR": "SR 172.220.1",
+    "assigned_articles": ["Art. 2"],
+    "confidence": "medium",
+    "reasoning": "Text verweist auf «Verwaltungseinheiten nach Artikel 2 BPG»; Artikelnummer klar, Absatz nicht spezifiziert."
+  },
+  {
+    "ITEM": 122,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "high",
+    "reasoning": "«Art. 6 Abs. 5 und 6 BPG» ist Selbstverweis auf BPG, nicht auf das in derselben Zeile erwähnte OR; kein externer SR‑Bezug."
+  },
+  {
+    "ITEM": 123,
+    "ARTICLE_EID": "art_15",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "high",
+    "reasoning": "«Artikel 10 BPG» ist interner Verweis auf das Bundespersonalgesetz, bereits über BPG‑Preambel abgedeckt."
+  },
+  {
+    "ITEM": 124,
+    "ARTICLE_EID": "art_16",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "high",
+    "reasoning": "«Artikel 12 Absätze 2 und 3 BPG» ist interner BPG‑Verweis."
+  },
+  {
+    "ITEM": 125,
+    "ARTICLE_EID": "art_17",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "high",
+    "reasoning": "Verweise auf «Artikel 13 Absatz 3» und «Artikel 10 BPG» betreffen BPG‑Eigenstruktur."
+  },
+  {
+    "ITEM": 126,
+    "ARTICLE_EID": "art_18",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "high",
+    "reasoning": "«Artikel 3 BPG» ist interner BPG‑Artikel."
+  },
+  {
+    "ITEM": 127,
+    "ARTICLE_EID": "art_18_a",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "high",
+    "reasoning": "Mehrfache Verweise auf «Artikel 10 ... BPG» sind interne BPG‑Referenzen."
+  },
+  {
+    "ITEM": 128,
+    "ARTICLE_EID": "art_18_a",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "high",
+    "reasoning": "«Artikel 4 Absatz 3» und «Artikel 67 Absatz 4» sowie «Artikel 10 ... BPG» sind interne BPG‑Artikel."
+  },
+  {
+    "ITEM": 129,
+    "ARTICLE_EID": "art_24",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "high",
+    "reasoning": "«Die Artikel 36 und 36a bleiben vorbehalten» bezieht sich auf Artikel derselben Verordnung (BGerV), kein externer SR‑Verweis."
+  },
+  {
+    "ITEM": 130,
+    "ARTICLE_EID": "art_36",
+    "TARGET_SR": "SR 830.1",
+    "assigned_articles": ["Art. 7"],
+    "confidence": "high",
+    "reasoning": "«(Art. 7 des BG ... über den Allgemeinen Teil des Sozialversicherungsrechts)»; dies ist derselbe Verweis wie in ITEM 7 und gehört zu SR 830.1."
+  },
+  {
+    "ITEM": 131,
+    "ARTICLE_EID": "art_50",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "high",
+    "reasoning": "«Arbeitgeber nach Artikel 3 BPG» ist interner BPG‑Verweis."
+  },
+  {
+    "ITEM": 132,
+    "ARTICLE_EID": "art_50",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "high",
+    "reasoning": "«nach Artikel 51 Absatz 1» verweist auf Artikel derselben Verordnung."
+  },
+  {
+    "ITEM": 133,
+    "ARTICLE_EID": "art_50",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "high",
+    "reasoning": "«Artikel 19 Absatz 4 BPG» ist interner BPG‑Verweis."
+  },
+  {
+    "ITEM": 134,
+    "ARTICLE_EID": "art_50",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "high",
+    "reasoning": "«Arbeitgeber nach Artikel 3 BPG» erneut interner BPG‑Artikel."
+  },
+  {
+    "ITEM": 135,
+    "ARTICLE_EID": "art_50",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "high",
+    "reasoning": "«(Art. 18)» bezieht sich auf Art. 18 derselben Verordnung, nicht auf externes SR."
+  },
+  {
+    "ITEM": 136,
+    "ARTICLE_EID": "art_50",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "high",
+    "reasoning": "«Arbeitgeber nach Artikel 3 BPG»; interner BPG‑Verweis."
+  },
+  {
+    "ITEM": 137,
+    "ARTICLE_EID": "art_51",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "high",
+    "reasoning": "«nach Artikel 50 Absätze 1, 2 und 3» ist Selbstverweis innerhalb der Verordnung."
+  },
+  {
+    "ITEM": 138,
+    "ARTICLE_EID": "art_52_a",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "high",
+    "reasoning": "Verweise auf «Artikel 26 Absatz 2» und «Artikel 67 Absatz 2 oder 3» betreffen Artikel derselben Verordnung."
+  },
+  {
+    "ITEM": 139,
+    "ARTICLE_EID": "art_52_a",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "medium",
+    "reasoning": "«nach Artikel 77» bezieht sich auf Art. 77 der Verordnung; kein externer SR‑Bezug im Ausschnitt."
+  },
+  {
+    "ITEM": 140,
+    "ARTICLE_EID": "art_52_d_bis",
+    "TARGET_SR": "SR 831.40",
+    "assigned_articles": ["Art. 33a"],
+    "confidence": "high",
+    "reasoning": "Gleicher BVG‑Verweis wie in ITEM 10: «(Art. 33a des BG ... BVG)»."
+  },
+  {
+    "ITEM": 141,
+    "ARTICLE_EID": "art_52_e",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "high",
+    "reasoning": "«Artikel 4 Absatz 2» ist interner Artikel der Verordnung."
+  },
+  {
+    "ITEM": 142,
+    "ARTICLE_EID": "art_57",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "high",
+    "reasoning": "«Artikel 21 Absatz 3 BPG» ist interner BPG‑Verweis."
+  },
+  {
+    "ITEM": 143,
+    "ARTICLE_EID": "art_58",
+    "TARGET_SR": "SR 312.0",
+    "assigned_articles": ["Art. 302"],
+    "confidence": "high",
+    "reasoning": "«Artikel 302 der Strafprozessordnung»; derselbe externe Verweis wie in ITEM 13."
+  },
+  {
+    "ITEM": 144,
+    "ARTICLE_EID": "art_58",
+    "TARGET_SR": "SR 171.10",
+    "assigned_articles": ["Art. 150-156", "Art. 162 Abs. 1 Bst. c"],
+    "confidence": "high",
+    "reasoning": "«Artikel 150−156 in Verbindung mit Artikel 162 Absatz 1 Buchstabe c des Parlamentsgesetzes»; identisch mit ITEM 14."
+  },
+  {
+    "ITEM": 145,
+    "ARTICLE_EID": "art_65",
+    "TARGET_SR": "SR 170.321",
+    "assigned_articles": ["Art. 7"],
+    "confidence": "high",
+    "reasoning": "«nach Artikel 7 der Verordnung ... zum Verantwortlichkeitsgesetz»; entspricht ITEM 18."
+  },
+  {
+    "ITEM": 146,
+    "ARTICLE_EID": "art_67",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "high",
+    "reasoning": "«nach den Artikeln 15 und 16 BPG» sind interne BPG‑Artikel."
+  },
+  {
+    "ITEM": 147,
+    "ARTICLE_EID": "art_67",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "high",
+    "reasoning": "«Artikel 18a Absatz 4» ist Artikel derselben Verordnung."
+  },
+  {
+    "ITEM": 148,
+    "ARTICLE_EID": "art_68",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "high",
+    "reasoning": "«Artikel 67 Absätze 2 und 3» sind interne Artikel."
+  },
+  {
+    "ITEM": 149,
+    "ARTICLE_EID": "art_68",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "high",
+    "reasoning": "«Artikel 67» bezieht sich auf denselben Erlass."
+  },
+  {
+    "ITEM": 150,
+    "ARTICLE_EID": "art_68",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "high",
+    "reasoning": "«Artikel 4» ist interner Artikel der Verordnung."
+  },
+  {
+    "ITEM": 151,
+    "ARTICLE_EID": "art_73",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "high",
+    "reasoning": "«Artikel 36b» ist interner Artikel."
+  },
+  {
+    "ITEM": 152,
+    "ARTICLE_EID": "art_78_a",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "high",
+    "reasoning": "«Leistungen nach Artikel 78» verweist auf Art. 78 derselben Verordnung."
+  },
+  {
+    "ITEM": 153,
+    "ARTICLE_EID": "art_78_a",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "high",
+    "reasoning": "«Artikel 10 Absatz 3 oder 4 BPG» ist interner BPG‑Verweis."
+  },
+  {
+    "ITEM": 154,
+    "ARTICLE_EID": "art_79",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "high",
+    "reasoning": "«Artikel 33 Absatz 2 BPG» ist interner BPG‑Artikel."
+  },
+  {
+    "ITEM": 155,
+    "ARTICLE_EID": "art_80_c",
+    "TARGET_SR": "SR 152.21",
+    "assigned_articles": ["Art. 4 Abs. 1"],
+    "confidence": "high",
+    "reasoning": "«Artikel 4 Absatz 1 der Verordnung ... zum Archivierungsgesetz»; entspricht ITEM 26."
+  },
+  {
+    "ITEM": 156,
+    "ARTICLE_EID": "art_80_e",
+    "TARGET_SR": "SR 235.1",
+    "assigned_articles": ["Art. 10"],
+    "confidence": "high",
+    "reasoning": "«Artikel 10 des Datenschutzgesetzes ... (DSG)»; wie in ITEM 29."
+  },
+  {
+    "ITEM": 157,
+    "ARTICLE_EID": "art_84",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "high",
+    "reasoning": "«(Art. 13)» bezieht sich auf Art. 13 derselben Verordnung."
+  },
+  {
+    "ITEM": 158,
+    "ARTICLE_EID": "art_84",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "high",
+    "reasoning": "«(Art. 17 und 18)» sind interne Artikel."
+  },
+  {
+    "ITEM": 159,
+    "ARTICLE_EID": "art_84",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "high",
+    "reasoning": "«(Art. 25, 26, 32, 33, 34 und 35)» sind interne Artikel."
+  },
+  {
+    "ITEM": 160,
+    "ARTICLE_EID": "art_84",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "high",
+    "reasoning": "«(Art. 37)» interner Artikel."
+  },
+  {
+    "ITEM": 161,
+    "ARTICLE_EID": "art_84",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "high",
+    "reasoning": "«(Art. 42)» interner Artikel."
+  },
+  {
+    "ITEM": 162,
+    "ARTICLE_EID": "art_84",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "high",
+    "reasoning": "«(Art. 46)» interner Artikel."
+  },
+  {
+    "ITEM": 163,
+    "ARTICLE_EID": "art_84",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "high",
+    "reasoning": "«(Art. 50, 51 und 52)» interne Artikel."
+  },
+  {
+    "ITEM": 164,
+    "ARTICLE_EID": "art_84",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "high",
+    "reasoning": "«(Art. 55)» interner Artikel."
+  },
+  {
+    "ITEM": 165,
+    "ARTICLE_EID": "art_84",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "high",
+    "reasoning": "«(Art. 58)» interner Artikel."
+  },
+  {
+    "ITEM": 166,
+    "ARTICLE_EID": "art_84",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "high",
+    "reasoning": "«(Art. 60, 61 und 62)» interne Artikel."
+  },
+  {
+    "ITEM": 167,
+    "ARTICLE_EID": "art_84",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "high",
+    "reasoning": "«(Art. 65)» interner Artikel."
+  },
+  {
+    "ITEM": 168,
+    "ARTICLE_EID": "art_87",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "high",
+    "reasoning": "«(Art. 21 und 23)» sind Artikel derselben Verordnung."
+  },
+  {
+    "ITEM": 169,
+    "ARTICLE_EID": "art_87",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "high",
+    "reasoning": "«(Art. 2 Abs. 6)» interner Artikel."
+  },
+  {
+    "ITEM": 170,
+    "ARTICLE_EID": "art_87",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "high",
+    "reasoning": "«(Art. 33 und 34)» interne Artikel."
+  },
+  {
+    "ITEM": 171,
+    "ARTICLE_EID": "art_87",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "high",
+    "reasoning": "«(Art. 38)» interner Artikel."
+  },
+  {
+    "ITEM": 172,
+    "ARTICLE_EID": "art_87",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "high",
+    "reasoning": "«(Art. 41 Abs. 3)» interner Artikel."
+  },
+  {
+    "ITEM": 173,
+    "ARTICLE_EID": "art_87",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "high",
+    "reasoning": "«(Art. 42)» interner Artikel."
+  },
+  {
+    "ITEM": 174,
+    "ARTICLE_EID": "art_87",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "high",
+    "reasoning": "«(Art. 44)» interner Artikel."
+  },
+  {
+    "ITEM": 175,
+    "ARTICLE_EID": "art_87",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "high",
+    "reasoning": "«(Art. 55)» interner Artikel."
+  },
+  {
+    "ITEM": 176,
+    "ARTICLE_EID": "art_87",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "high",
+    "reasoning": "«(Art. 56)» interner Artikel."
+  },
+  {
+    "ITEM": 177,
+    "ARTICLE_EID": "art_87",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "high",
+    "reasoning": "«(Art. 75)» interner Artikel."
+  },
+  {
+    "ITEM": 178,
+    "ARTICLE_EID": "art_87",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "high",
+    "reasoning": "«(Art. 80)» interner Artikel."
+  },
+  {
+    "ITEM": 179,
+    "ARTICLE_EID": "art_89",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "medium",
+    "reasoning": "«Artikel 2 Absatz 2 und 3 der Überführungsverordnung BtG-BPG» betrifft eine spezielle Überführungsverordnung; im Kontext dieser Verordnung als interne Übergangsregel behandelt."
+  },
+  {
+    "ITEM": 180,
+    "ARTICLE_EID": "art_89_a",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "medium",
+    "reasoning": "«gemäss Artikel 15 Absatz 2» verweist auf Art. 15 derselben Verordnung."
+  },
+  {
+    "ITEM": 181,
+    "ARTICLE_EID": "art_89_a",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "medium",
+    "reasoning": "«Artikel 46 Absatz 5» ist interner Artikel."
+  },
+  {
+    "ITEM": 182,
+    "ARTICLE_EID": "art_89_a",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "medium",
+    "reasoning": "«Artikel 18a» ist interner Artikel."
+  },
+  {
+    "ITEM": 183,
+    "ARTICLE_EID": "art_89_a",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "medium",
+    "reasoning": "«Artikel 67 Absatz 5 des bisherigen Rechts» bezieht sich auf denselben Erlass in alter Fassung; als interne Selbstreferenz behandelt."
+  }
+]

@@ -1,0 +1,74 @@
+[
+  {
+    "Item": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 910.1",
+    "assigned_articles": [
+      "Art. 177 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Formulierung «gestützt auf Artikel 177 Absatz 1 des Landwirtschaftsgesetzes … SR 910.1 (LwG)» verknüpft den genannten Artikel grammatikalisch eindeutig mit SR 910.1."
+  },
+  {
+    "Item": 2,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": "SR 420.1",
+    "assigned_articles": [
+      "Art. 16"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Snippet steht «… nach Artikel 16 des Bundesgesetzes … SR 420.1 über die Förderung der Forschung und der Innovation»; Art. 16 ist direkt dem Gesetz mit SR 420.1 zugeordnet."
+  },
+  {
+    "Item": 3,
+    "ARTICLE_EID": "art_9",
+    "TARGET_SR": "SR 910.11",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Gebühren «richten sich nach der Verordnung … SR 910.11» ohne Nennung einzelner Artikel; dies ist eine generelle Verweisung auf die ganze Verordnung."
+  },
+  {
+    "Item": 4,
+    "ARTICLE_EID": "art_9",
+    "TARGET_SR": "SR 172.041.11",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "Auch hier «richten sich die Gebühren nach der Gebührenverordnung … SR 172.041.11» ohne Artikelangabe; damit allgemeine Verweisung auf das gesamte Erlasswerk."
+  },
+  {
+    "Item": 5,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": "SR 910.1",
+    "assigned_articles": [
+      "Art. 114"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Satz «… nach Artikel 114 LwG» bezieht sich über das im Vorspann definierte Akronym LwG eindeutig auf das Landwirtschaftsgesetz SR 910.1."
+  },
+  {
+    "Item": 6,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«… nach Artikel 16 des Bundesgesetzes vom 14. Dezember 2012 über die Förderung der Forschung und der Innovation» ist eine Wiederholung der Verweisung aus Item 2; hier wird jedoch kein SR genannt, daher handelt es sich im Rahmen des artikel_reference-Typs um eine eigenständige, aber bereits durch Item 2 abgedeckte externe Verweisung. Für diesen Typ wird sie als interne Strukturreferenz des aktuellen Dokuments behandelt."
+  },
+  {
+    "Item": 7,
+    "ARTICLE_EID": "art_14",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 11",
+      "Art. 12",
+      "Art. 13"
+    ],
+    "confidence": "high",
+    "reasoning": "«Finanzhilfen nach den Artikeln 11–13» verweist ohne Nennung eines anderen Erlasses auf Artikel 11 bis 13 desselben Erlasses; dies ist eine interne Verweisung im aktuellen Dokument."
+  }
+]

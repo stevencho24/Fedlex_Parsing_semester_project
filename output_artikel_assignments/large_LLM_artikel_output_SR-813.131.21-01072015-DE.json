@@ -1,0 +1,85 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 813.11",
+    "assigned_articles": [
+      "Art. 66 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Formulierung «gestützt auf Artikel 66 Absatz 2 der Chemikalienverordnung … SR 813.11 (ChemV)» verknüpft den Artikel grammatikalisch eindeutig mit der genannten Verordnung; Art. 66 Abs. 2 gehört somit zu SR 813.11."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_8",
+    "TARGET_SR": "SR 813.153.1",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Passage verweist allgemein auf die Chemikaliengebührenverordnung («bemessen sich nach der Chemikaliengebührenverordnung … SR 813.153.1») ohne Nennung einzelner Artikel; daher ist von einer generellen Verweisung auf die ganze Verordnung auszugehen."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 813.11",
+    "assigned_articles": [
+      "Art. 69",
+      "Art. 64",
+      "Art. 65"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Snippet werden explizit «Artikel 69 ChemV» sowie «die … Vorschriften nach den Artikeln 64 und 65 ChemV» genannt; ChemV ist in der Präambel als SR 813.11 definiert, daher beziehen sich diese Artikel auf SR 813.11."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 813.11",
+    "assigned_articles": [
+      "Art. 69"
+    ],
+    "confidence": "high",
+    "reasoning": "«… nach Artikel 69 ChemV …» nennt einen einzelnen Artikel in Verbindung mit der in der Präambel definierten ChemV (SR 813.11); syntaktisch klar zugeordnet."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 813.11",
+    "assigned_articles": [
+      "Art. 64",
+      "Art. 65"
+    ],
+    "confidence": "high",
+    "reasoning": "«… nach den Artikeln 64 und 65 ChemV.» nennt zwei konkrete Artikel der ChemV; ChemV ist als SR 813.11 definiert, somit gehören Art. 64 und 65 zu SR 813.11."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_5_a",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«… auch wenn die Anforderungen nach Artikel 5 formell erfüllt sind …» verweist ohne Nennung eines SR-Dokuments auf einen Artikel derselben Verordnung; dies ist eine reine Selbstverweisung innerhalb des aktuellen Erlasses."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_6",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«… die das erforderliche Grundwissen nicht gemäss den Artikeln 4 oder 5 nachweisen können …» nennt Artikel 4 und 5 ohne Bezug auf ein anderes SR-Dokument; es handelt sich um interne Artikel derselben Verordnung."
+  },
+  {
+    "ITEM": 8,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«… dass die Bedingungen nach Artikel 6 Absätze 2 und 3 erfüllt sind.» verweist auf einen anderen Artikel (6) derselben Verordnung ohne externes SR; daher reine Selbstreferenz."
+  }
+]

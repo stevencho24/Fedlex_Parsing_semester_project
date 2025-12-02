@@ -1,0 +1,53 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 221.302",
+    "assigned_articles": [
+      "Art. 8 Abs. 5"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Formulierung «gestützt auf Artikel 8 Absatz 5 des Revisionsaufsichtsgesetzes … SR 221.302 (RAG)» verknüpft eindeutig Art. 8 Abs. 5 mit dem RAG (SR 221.302)."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 221.302",
+    "assigned_articles": [
+      "Art. 8 Abs. 1 Bst. b",
+      "Art. 8 Abs. 3 Bst. b"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Snippet werden «(Art. 8 Abs. 1 Bst. b RAG)» und «Artikel 8 Absatz 3 Buchstabe b RAG» ausdrücklich genannt; RAG ist in der Präambel als SR 221.302 definiert."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "interne Verweisung auf Art. 1 derselben Verordnung"
+    ],
+    "confidence": "high",
+    "reasoning": "«nach Artikel 1» bezieht sich ohne Nennung eines anderen Gesetzes auf Art. 1 der vorliegenden Verordnung; keine SR-Verweisung, daher Selbstreferenz."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "interne Verweisung auf Art. 1 derselben Verordnung"
+    ],
+    "confidence": "high",
+    "reasoning": "Auch hier «Anleihensobligationen nach Artikel 1» ohne Gesetzesangabe; dies ist eine interne Verweisung auf Art. 1 der gleichen Verordnung."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "interne Verweisung auf Art. 3 derselben Verordnung"
+    ],
+    "confidence": "high",
+    "reasoning": "«Artikel 3 gilt auch …» verweist klar auf Art. 3 der eigenen Verordnung; kein externer SR‑Bezug."
+  }
+]

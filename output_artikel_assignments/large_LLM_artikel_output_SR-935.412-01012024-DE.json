@@ -1,0 +1,67 @@
+[
+  {
+    "Item": 1,
+    "TARGET_SR": "SR 172.010",
+    "assigned_articles": [
+      "Art. 57hter"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet explicitly cites \"Artikel 57hter des Regierungs- und Verwaltungsorganisationsgesetzes ... SR 172.010 (RVOG)\"; Art. 57hter is directly and uniquely linked to SR 172.010."
+  },
+  {
+    "Item": 2,
+    "TARGET_SR": "SR 935.41",
+    "assigned_articles": [
+      "Art. 38"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet states \"auf Artikel 38 des Bundesgesetzes ... SR 935.41 ... (BPS)\"; Art. 38 is explicitly tied to SR 935.41 in the same clause."
+  },
+  {
+    "Item": 3,
+    "TARGET_SR": "SR 935.411",
+    "assigned_articles": [
+      "Art. 5"
+    ],
+    "confidence": "high",
+    "reasoning": "The text refers to \"privaten Sicherheitsdienstleistungen nach Artikel 5 der Verordnung vom 24. Juni 2015 SR 935.411\"; Art. 5 is clearly attributed to that Verordnung (SR 935.411)."
+  },
+  {
+    "Item": 4,
+    "TARGET_SR": "SR 235.11",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "medium",
+    "reasoning": "The citation is simply \"der Datenschutzverordnung vom 31. August 2022 SR 235.11;\" with no article mentioned; it functions as a general reference to the ordinance as a whole."
+  },
+  {
+    "Item": 5,
+    "TARGET_SR": "SR 128.1",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "medium",
+    "reasoning": "The snippet \"der Informationssicherheitsverordnung vom 8. November 2023 SR 128.1.\" contains no article-level citation, indicating a general reference to the entire ordinance."
+  },
+  {
+    "Item": 6,
+    "TARGET_SR": "SR 935.41",
+    "assigned_articles": [
+      "Art. 10",
+      "Art. 12",
+      "Art. 13",
+      "Art. 14",
+      "Art. 16"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet specifies \"nach den Artikeln 10, 12–14 und 16 BPS\"; BPS is defined in the preamble as SR 935.41, and the range 12–14 is expanded to Arts. 12, 13, and 14."
+  },
+  {
+    "Item": 7,
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "This is an artikel_reference without a TARGET_SR. The phrase \"nach Artikel 5 der Verordnung vom 24. Juni 2015 über die im Ausland erbrachten privaten Sicherheitsdienstleistungen\" refers to Art. 5 of SR 935.411, which is already captured and assigned in Item 3; here it functions as an internal cross-reference within the current document context, not as a new SR link."
+  }
+]

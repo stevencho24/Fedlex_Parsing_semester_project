@@ -1,0 +1,164 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 822.31",
+    "assigned_articles": [
+      "Art. 7",
+      "Art. 9",
+      "Art. 20"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet explicitly cites 'Artikel 7, 9 und 20 des Heimarbeitsgesetzes ... SR 822.31'; these articles are directly linked to the cited SR."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_11",
+    "TARGET_SR": "SR 172.068",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "The reference '(SR 172.068)' appears only as part of the title of the ordinance in the authorial note; no specific article of SR 172.068 is mentioned in the snippet."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_14",
+    "TARGET_SR": "SR 822.321",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet refers to 'Die Ausführungsverordnung vom 28. Juni 1949 SR 822.321' and states that amendments are inserted into that ordinance, without specifying any particular article; thus it is a general document-level reference."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "The phrase 'Artikel 1 Absatz 1 des Gesetzes' refers to Article 1 of the Heimarbeitsgesetz that this ordinance implements; syntactically it is not tied to any external SR citation in the snippet, so it is treated as an internal/self-reference."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "The phrase 'Artikel 1 Absatz 4 des Gesetzes' is an internal reference to Article 1 of the underlying law; no external SR is mentioned in the same syntactic unit."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "'Art. 4 Abs. 1 des Gesetzes' is cited in parentheses without any SR document; this is a self-reference to the governing law, not linked to another SR in the snippet."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "The reference 'Artikel 5 Absatz 1 des Gesetzes' is to another provision of the same law; there is no external SR mentioned, so it is an internal/self-reference."
+  },
+  {
+    "ITEM": 8,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "'Art. 5 Abs. 1 des Gesetzes' in parentheses refers to Article 5 of the same law; no external SR link is present in the snippet."
+  },
+  {
+    "ITEM": 9,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "The phrase 'Artikel 4 Absatz 1 des Gesetzes' is an internal cross-reference within the governing law; there is no syntactic or semantic link to an external SR."
+  },
+  {
+    "ITEM": 10,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "'Art. 4 Abs. 2 des Gesetzes' is cited as part of the internal structure of the law; no external SR document is mentioned in the same sentence."
+  },
+  {
+    "ITEM": 11,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "The reference '(Art. 4 Abs. 3 des Gesetzes)' is clearly an internal citation to another provision of the same law; there is no external SR context."
+  },
+  {
+    "ITEM": 12,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "'Artikel 5 Absatz 1 des Gesetzes' is an internal cross-reference; no SR document is named in the snippet."
+  },
+  {
+    "ITEM": 13,
+    "ARTICLE_EID": "art_6",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "The parenthetical '(Art. 5 Abs. 1 des Gesetzes)' refers to Article 5 of the same law; there is no external SR citation in the same syntactic unit."
+  },
+  {
+    "ITEM": 14,
+    "ARTICLE_EID": "art_11",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "'Artikel 15 Absatz 1 des Gesetzes' is an internal reference to another article of the governing law; no external SR is mentioned."
+  },
+  {
+    "ITEM": 15,
+    "ARTICLE_EID": "art_11",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "The phrase 'Artikel 7 Absatz 1 des Gesetzes' is an internal cross-reference; the snippet contains no SR link to another document."
+  },
+  {
+    "ITEM": 16,
+    "ARTICLE_EID": "art_11",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "Multiple references ('Artikel 15 Absatz 4 des Gesetzes', 'Artikel 2 des Gesetzes', 'Artikel 7 dieser Verordnung') all concern the same law or this ordinance; there is no external SR mentioned, so these are internal/self-references."
+  }
+]

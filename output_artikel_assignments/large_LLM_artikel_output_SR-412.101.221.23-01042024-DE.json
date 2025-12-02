@@ -1,0 +1,184 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 412.10",
+    "assigned_articles": [
+      "Art. 19"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Formulierung «gestützt auf Artikel 19 des Berufsbildungsgesetzes … SR 412.10» verknüpft den Artikel grammatikalisch direkt mit dem genannten Gesetz; damit ist klar, dass Art. 19 dieses Gesetzes (SR 412.10) gemeint ist."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 412.101",
+    "assigned_articles": [
+      "Art. 12"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Satz «… auf Artikel 12 der Berufsbildungsverordnung … SR 412.101 (BBV)» folgt die SR-Nummer unmittelbar auf die Bezeichnung der Verordnung; der genannte Art. 12 gehört damit eindeutig zur SR 412.101."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 170.512",
+    "assigned_articles": [
+      "Art. 12 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Im INSIDE_AUTHORIALNOTE-Text wird ausdrücklich «Art. 12 Abs. 2 des Publikationsgesetzes … (SR 170.512)» genannt; dieser Artikel ist klar der SR 170.512 zugeordnet."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 822.115",
+    "assigned_articles": [
+      "Art. 4a Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Präambel nennt «Artikel 4a Absatz 1 der Jugendarbeitsschutzverordnung … SR 822.115 (ArGV 5)»; damit ist Art. 4a Abs. 1 der ArGV 5 (SR 822.115) eindeutig verknüpft."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": "SR 170.512",
+    "assigned_articles": [
+      "Art. 12 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Im authorialNote-Text wird wiederum «Art. 12 Abs. 2 des Publikationsgesetzes … (SR 170.512)» erwähnt; der Kontext betrifft die Anpassung eines Verweises gestützt auf genau diese Norm, daher ist Art. 12 Abs. 2 der SR 170.512 gemeint."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_8",
+    "TARGET_SR": "SR 412.101.241",
+    "assigned_articles": "General reference - entire document",
+    "confidence": "high",
+    "reasoning": "Der Satz verweist allgemein auf «die Verordnung des SBFI … SR 412.101.241 über die Mindestvorschriften für die Allgemeinbildung in der beruflichen Grundbildung» ohne einzelne Artikel zu nennen; dies ist ein pauschaler Verweis auf die ganze Verordnung."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_15",
+    "TARGET_SR": "SR 412.101.241",
+    "assigned_articles": "General reference - entire document",
+    "confidence": "high",
+    "reasoning": "Auch hier wird die gleiche Verordnung SR 412.101.241 als Ganzes («richtet sich nach der Verordnung … SR 412.101.241») ohne Artikelspezifikation zitiert; daher allgemeiner Dokumentverweis."
+  },
+  {
+    "ITEM": 8,
+    "ARTICLE_EID": "art_8",
+    "TARGET_SR": "SR 412.10",
+    "assigned_articles": "General reference - entire document",
+    "confidence": "medium",
+    "reasoning": "Das Preamble-Akronym SBFI ist im Callback mit SR 412.10 verknüpft, im Snippet wird aber nur die SBFI-Verordnung über Mindestvorschriften erwähnt, deren eigene SR-Nummer 412.101.241 ist. Die Nennung von SBFI dient hier eher als Behördenbezeichnung; es wird kein bestimmter Artikel des Berufsbildungsgesetzes (SR 412.10) genannt. Mangels klarer Artikelnennung wird konservativ ein allgemeiner Dokumentverweis angenommen."
+  },
+  {
+    "ITEM": 9,
+    "ARTICLE_EID": "art_13",
+    "TARGET_SR": "SR 412.101",
+    "assigned_articles": [
+      "Art. 32"
+    ],
+    "confidence": "high",
+    "reasoning": "Das Snippet lautet «die nach Artikel 32 BBV erforderliche Erfahrung erworben hat»; BBV ist in der Präambel als SR 412.101 definiert, somit gehört Art. 32 eindeutig zur SR 412.101."
+  },
+  {
+    "ITEM": 10,
+    "ARTICLE_EID": "art_15",
+    "TARGET_SR": "SR 412.10",
+    "assigned_articles": "General reference - entire document",
+    "confidence": "medium",
+    "reasoning": "Wie bei ITEM 8 wird nur die SBFI-Verordnung über Mindestvorschriften erwähnt; das Preamble-Akronym SBFI ist zwar SR 412.10 zugeordnet, aber im Satz wird kein bestimmter Artikel des Berufsbildungsgesetzes genannt. Daher nur ein impliziter, unspezifischer Bezug – als allgemeiner Dokumentverweis gewertet."
+  },
+  {
+    "ITEM": 11,
+    "ARTICLE_EID": "art_17",
+    "TARGET_SR": "SR 412.101",
+    "assigned_articles": [
+      "Art. 33"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Text sagt: «Die Wiederholung des Qualifikationsverfahrens richtet sich nach Artikel 33 BBV.»; BBV = SR 412.101, somit ist Art. 33 dieser Verordnung klar adressiert."
+  },
+  {
+    "ITEM": 12,
+    "ARTICLE_EID": "art_20",
+    "TARGET_SR": "SR 412.10",
+    "assigned_articles": "General reference - entire document",
+    "confidence": "medium",
+    "reasoning": "Es wird nur die Behörde SBFI erwähnt («dem SBFI die entsprechende Änderung zu beantragen»), ohne explizite Artikelnennung des Berufsbildungsgesetzes (SR 412.10). Der Bezug ist institutionell, nicht artikelspezifisch; daher allgemeiner Verweis mit mittlerer Sicherheit."
+  },
+  {
+    "ITEM": 13,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 4 Abs. 1",
+      "Art. 4a Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "Artikel-Referenz ohne SR; «Artikel 4 Absatz 1 ArGV 5» und «Artikel 4a Absatz 1 ArGV 5» beziehen sich auf die Jugendarbeitsschutzverordnung (SR 822.115), die bereits in der Präambel mit diesen Artikeln verknüpft ist. Da hier kein neues TARGET_SR angegeben ist, handelt es sich um einen externen Verweis; die Aufgabe dieses Typs ist jedoch, die Artikelreferenz selbst zu erfassen. Beide genannten Artikel werden daher als referenzierte Normen ausgegeben."
+  },
+  {
+    "ITEM": 14,
+    "ARTICLE_EID": "art_13",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 32",
+      "Art. 15"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Snippet wird «Artikel 32 BBV» genannt (BBV = SR 412.101) sowie in Klammern «(Art. 15)». «Artikel 32 BBV» ist ein externer Verweis; «(Art. 15)» ist eine Selbstreferenz auf Art. 15 der vorliegenden Verordnung. Da dieser item_type nur die Artikelreferenzen selbst erfasst, werden beide genannten Artikel ausgegeben."
+  },
+  {
+    "ITEM": 15,
+    "ARTICLE_EID": "art_14",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Satz «… dass die Kompetenzen nach Artikel 3 erworben worden sind» verweist ohne SR-Angabe auf einen Artikel innerhalb derselben Verordnung; dies ist eine interne Selbstreferenz auf Art. 3."
+  },
+  {
+    "ITEM": 16,
+    "ARTICLE_EID": "art_19",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 18 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "Formulierung «unter Vorbehalt von Artikel 18 Absatz 1» ohne SR-Angabe; dies ist eine interne Verweisung auf Art. 18 Abs. 1 derselben Verordnung."
+  },
+  {
+    "ITEM": 17,
+    "ARTICLE_EID": "art_22_b",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 14",
+      "Art. 15",
+      "Art. 16",
+      "Art. 17",
+      "Art. 18",
+      "Art. 19"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Klammer «(Art. 14–19)» bezeichnet einen Artikelbereich innerhalb derselben Verordnung. Der Bereich wird als einzelne Artikel 14 bis 19 aufgelöst."
+  },
+  {
+    "ITEM": 18,
+    "ARTICLE_EID": "art_23",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 13",
+      "Art. 14",
+      "Art. 15",
+      "Art. 16",
+      "Art. 17",
+      "Art. 18"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Klammer «(Art. 13–18)» verweist auf einen internen Artikelbereich; dieser wird in die Einzelartikel 13 bis 18 aufgelöst."
+  }
+]

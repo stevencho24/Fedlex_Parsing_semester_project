@@ -1,0 +1,72 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": "SR 251",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet only mentions the Kartellgesetz (SR 251) as a whole without any article numbers or subdivisions; it defines the scope of application by reference to the entire law."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_25",
+    "TARGET_SR": "SR 313.0",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "The Verwaltungsstrafrechtsgesetz (SR 313.0) is cited generically for prosecution and adjudication of offences, with no specific article indicated; this is a blanket reference to the statute."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "The reference '(Art. 15)' is not linked to any SR citation and clearly points to Article 15 of the same law (self-reference), so no external SR is involved."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "All cited articles '(Art. 2)', '(Art. 12)', and '(Art. 15)' appear without any SR or acronym context and are used to navigate within the same act; they are internal cross-references."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_24",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "The mention '(Art. 17)' is syntactically isolated from any SR reference and clearly refers to Article 17 of the current statute, functioning as an internal structural reference."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_26",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "The reference '(Art. 15)' appears alone in the sentence and is used to identify authorities defined earlier in the same law; there is no grammatical or contextual link to an external SR."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_26",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "Again '(Art. 15)' is used to refer back to a provision of the same act defining the competent authorities; no external statute is mentioned in the snippet, so this is a self-reference."
+  }
+]

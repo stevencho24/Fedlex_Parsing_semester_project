@@ -1,0 +1,115 @@
+[
+  {
+    "Item": 1,
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": [
+      "Art. 130"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet explicitly cites 'Artikel 130 des Zollgesetzes ... SR 631.0 (ZG)'; Art. 130 is directly and uniquely linked to SR 631.0."
+  },
+  {
+    "Item": 2,
+    "TARGET_SR": "SR 170.512.1",
+    "assigned_articles": [
+      "Art. 20 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "INSIDE_AUTHORIALNOTE contains 'in Anwendung von Art. 20 Abs. 2 der Publikationsverordnung ... (SR 170.512.1)'; clear direct marking of article and paragraph for this SR."
+  },
+  {
+    "Item": 3,
+    "TARGET_SR": "SR 631.061",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "medium",
+    "reasoning": "The citation refers generally to 'die Datenbearbeitungsverordnung für das BAZG ... (SR 631.061)' without any article number or range; treated as a general reference to the whole ordinance."
+  },
+  {
+    "Item": 4,
+    "TARGET_SR": "SR 955.0",
+    "assigned_articles": [
+      "Art. 23"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet states 'Art. 23 des Geldwäschereigesetzes ... SR 955.0'; direct syntactic link between Art. 23 and SR 955.0."
+  },
+  {
+    "Item": 5,
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": [
+      "Art. 95 Abs. 1bis"
+    ],
+    "confidence": "high",
+    "reasoning": "Preamble acronym ZG = SR 631.0. Snippet: '(Art. 95 Abs. 1bis ZG)'; explicit article and paragraph reference to the Zollgesetz."
+  },
+  {
+    "Item": 6,
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": [
+      "Art. 26"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet: 'anmeldepflichtige Person nach Artikel 26 ZG'; ZG is mapped to SR 631.0, so Art. 26 belongs to this SR."
+  },
+  {
+    "Item": 7,
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": [
+      "Art. 104"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet: 'nach Artikel 104 ZG'; via preamble acronym ZG this is Art. 104 of SR 631.0."
+  },
+  {
+    "Item": 8,
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": [
+      "Art. 127 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet: 'im Sinne von Artikel 127 Absatz 1 ZG'; clearly refers to Art. 127 Abs. 1 of the Zollgesetz (SR 631.0)."
+  },
+  {
+    "Item": 9,
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Snippet mentions only 'Artikel 6' of the current ordinance and a data processing ordinance for the BAZG without an article number; the ZG acronym appears only in the authorial note as the source of the acronym mapping, not as an article citation. No article of SR 631.0 is cited here."
+  },
+  {
+    "Item": 10,
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Snippet: 'Das BAZG führt regelmässig Analysen ...'; no 'Art.' or 'Artikel' of ZG is mentioned. The presence of the acronym mapping in the authorial note does not create an article-level citation; therefore no specific article of SR 631.0 is referenced."
+  },
+  {
+    "Item": 11,
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "artikel_reference item without TARGET_SR. 'Artikel 26 ZG' is already captured in Item 6 as an external reference to SR 631.0. Here the focus is the internal definition of 'auskunftspflichtige Person' in Art. 2 of the current ordinance; per rules, artikel_reference outputs as the SR link itself, i.e., an internal cross-reference, not a new SR assignment."
+  },
+  {
+    "Item": 12,
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 4"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet: 'Informationen zur vorläufigen Beschlagnahme (Art. 4);' with no external SR mentioned; this is a self-reference to Article 4 of the same ordinance. As artikel_reference, it represents an internal link, not an outgoing SR citation."
+  },
+  {
+    "Item": 13,
+    "TARGET_SR": "SR 955.0",
+    "assigned_articles": [
+      "Art. 23"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet: '(Art. 23 des Geldwäschereigesetzes vom 10. Oktober 1997)'; elsewhere (Item 4) the same wording is explicitly tied to SR 955.0. By semantic identity, this artikel_reference points to Art. 23 of SR 955.0."
+  }
+]

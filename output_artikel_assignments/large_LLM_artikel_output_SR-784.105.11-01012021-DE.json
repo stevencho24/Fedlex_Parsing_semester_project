@@ -1,0 +1,62 @@
+[
+  {
+    "Item": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 784.10",
+    "assigned_articles": [
+      "Art. 55 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Formulierung «gestützt auf Artikel 55 Absatz 2 des Fernmeldegesetzes … SR 784.10 (FMG)» verknüpft den genannten Artikel grammatikalisch eindeutig mit SR 784.10."
+  },
+  {
+    "Item": 2,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": "SR 313.0",
+    "assigned_articles": [
+      "Art. 14–17"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Satz nennt ausdrücklich «Widerhandlungen nach den Artikeln 14–17 des Bundesgesetzes … SR 313.0 über das Verwaltungsstrafrecht (VStrR)»; damit beziehen sich die Artikel 14–17 klar auf SR 313.0."
+  },
+  {
+    "Item": 3,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 784.10",
+    "assigned_articles": [
+      "Art. 52",
+      "Art. 53"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Snippet steht «Bei Widerhandlungen nach den Artikeln 52 und 53 FMG …». FMG ist im Vorspann als SR 784.10 definiert; die Artikelangabe steht direkt beim Akronym, daher gehören Art. 52 und 53 zu SR 784.10."
+  },
+  {
+    "Item": 4,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": "SR 784.10",
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Der Text erwähnt nur «Verordnung des UVEK …» und enthält keine Artikelangabe zu SR 784.10; UVEK ist ein Organ, kein Artikelverweis. Daher keine konkreten Artikel zuzuordnen."
+  },
+  {
+    "Item": 5,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 52",
+      "Art. 53"
+    ],
+    "confidence": "high",
+    "reasoning": "Dies ist eine artikel_reference ohne explizite SR-Nennung. Der Kontext («… 52 und 53 FMG …») zeigt, dass es sich um interne Verweise auf Art. 52 und 53 des FMG (dem eigenen Stammgesetz SR 784.10) handelt; somit Selbstreferenz innerhalb des FMG, nicht ein neuer SR-Link."
+  },
+  {
+    "Item": 6,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 14–17"
+    ],
+    "confidence": "high",
+    "reasoning": "Auch hier handelt es sich um artikel_reference. Der Satz verweist auf «Artikeln 14–17 des Bundesgesetzes … über das Verwaltungsstrafrecht (VStrR)»; diese Artikel wurden bereits in Item 2 SR 313.0 zugeordnet. Hier ist es ein inhaltlich gleicher Verweis, aber als interne Artikelreferenz erfasst, daher kein eigener SR-Link, sondern Selbstreferenz auf die bereits zugeordnete Stelle."
+  }
+]

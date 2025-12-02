@@ -1,0 +1,2866 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 142.20",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "high",
+    "reasoning": "Preamble cites the Ausländer- und Integrationsgesetz (AIG) by title and SR number without any specific article of AIG; the only article mentioned (Art. 119) belongs to AsylG, not AIG."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 142.31",
+    "assigned_articles": ["Art. 119"],
+    "confidence": "high",
+    "reasoning": "Snippet explicitly says 'Artikel 119 des Asylgesetzes ... SR 142.31 (AsylG)'; clear direct marking of article and SR."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_8",
+    "TARGET_SR": "SR 143.5",
+    "assigned_articles": ["Art. 4 Abs. 1", "Art. 4 Abs. 2 Bst. a"],
+    "confidence": "high",
+    "reasoning": "Phrase 'gemäss Artikel 4 Absatz 1 oder Absatz 2 Buchstabe a der Verordnung ... SR 143.5' directly links these subdivisions of Art. 4 to SR 143.5."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_14",
+    "TARGET_SR": "SR 943.1",
+    "assigned_articles": ["Art. 2 Abs. 1 Bst. a", "Art. 2 Abs. 1 Bst. b"],
+    "confidence": "high",
+    "reasoning": "Text 'Reisendengewerbe nach Artikel 2 Absatz 1 Buchstaben a und b des Bundesgesetzes ... SR 943.1' clearly attributes these letters of Art. 2 Abs. 1 to SR 943.1."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_19",
+    "TARGET_SR": "SR 0.142.112.681",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "high",
+    "reasoning": "Refers to 'Abkommen vom 21. Juni 1999 SR 0.142.112.681 ... über die Freizügigkeit (FZA)' without any article or annex citation; used only as scope criterion."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_19",
+    "TARGET_SR": "SR 0.632.31",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "high",
+    "reasoning": "Mentions 'Übereinkommen vom 4. Januar 1960 SR 0.632.31 ... (EFTA-Übereinkommen)' with no article-level reference; entire agreement is the reference."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_19_a",
+    "TARGET_SR": "SR 0.142.112.681",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "high",
+    "reasoning": "Condition 'im Rahmen des FZA SR 0.142.112.681' cites the agreement as a whole; no specific article or annex is mentioned."
+  },
+  {
+    "ITEM": 8,
+    "ARTICLE_EID": "art_19_a",
+    "TARGET_SR": "SR 0.632.31",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "high",
+    "reasoning": "Condition 'im Rahmen des ... EFTA-Übereinkommens SR 0.632.31' is a general treaty reference without article detail."
+  },
+  {
+    "ITEM": 9,
+    "ARTICLE_EID": "art_19_b",
+    "TARGET_SR": "SR 0.142.113.672",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "high",
+    "reasoning": "Refers to 'Abkommen vom 25. Februar 2019 SR 0.142.113.672 ... (Abkommen über die erworbenen Rechte)' only by title; no article specified."
+  },
+  {
+    "ITEM": 10,
+    "ARTICLE_EID": "art_20",
+    "TARGET_SR": "SR 0.142.112.681",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "high",
+    "reasoning": "Again uses 'Geltungsbereich des FZA SR 0.142.112.681' as a scope clause; no article or annex cited."
+  },
+  {
+    "ITEM": 11,
+    "ARTICLE_EID": "art_20",
+    "TARGET_SR": "SR 0.632.31",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "high",
+    "reasoning": "Parallel to ITEM 10, 'EFTA-Übereinkommen SR 0.632.31' is cited generically."
+  },
+  {
+    "ITEM": 12,
+    "ARTICLE_EID": "art_20_a",
+    "TARGET_SR": "SR 0.142.112.681",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "high",
+    "reasoning": "Condition 'im Rahmen des FZA SR 0.142.112.681' is a general treaty reference; no article-level detail."
+  },
+  {
+    "ITEM": 13,
+    "ARTICLE_EID": "art_20_a",
+    "TARGET_SR": "SR 0.632.31",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "high",
+    "reasoning": "Same structure as ITEM 12 for the EFTA agreement; no specific article mentioned."
+  },
+  {
+    "ITEM": 14,
+    "ARTICLE_EID": "art_20_b",
+    "TARGET_SR": "SR 0.142.113.672",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "high",
+    "reasoning": "Refers to 'Abkommen über die erworbenen Rechte SR 0.142.113.672' without article; used as status criterion."
+  },
+  {
+    "ITEM": 15,
+    "ARTICLE_EID": "art_22_a",
+    "TARGET_SR": "SR 220",
+    "assigned_articles": ["Art. 360a"],
+    "confidence": "high",
+    "reasoning": "Text explicitly: 'Normalarbeitsvertrags im Sinne von Artikel 360a des Obligationenrechts SR 220'; direct article-SR linkage."
+  },
+  {
+    "ITEM": 16,
+    "ARTICLE_EID": "art_25",
+    "TARGET_SR": "SR 831.30",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "medium",
+    "reasoning": "Mentions 'Bundesgesetz ... SR 831.30 (ELG)' only by title; although conceptually Art. 3 ELG defines entitlement, no specific article is syntactically cited."
+  },
+  {
+    "ITEM": 17,
+    "ARTICLE_EID": "art_29",
+    "TARGET_SR": "SR 141.0",
+    "assigned_articles": ["Art. 27 Abs. 2", "Art. 51 Abs. 1", "Art. 51 Abs. 2"],
+    "confidence": "high",
+    "reasoning": "Phrase 'im Sinne von Artikel 27 Absatz 2 sowie 51 Absätze 1 und 2 des Bürgerrechtsgesetzes ... SR 141.0' clearly ties these subdivisions to SR 141.0."
+  },
+  {
+    "ITEM": 18,
+    "ARTICLE_EID": "art_30",
+    "TARGET_SR": "SR 141.0",
+    "assigned_articles": ["Art. 37"],
+    "confidence": "high",
+    "reasoning": "Citation '(Art. 37 BüG SR 141.0)' directly links Art. 37 to SR 141.0."
+  },
+  {
+    "ITEM": 19,
+    "ARTICLE_EID": "art_36_a",
+    "TARGET_SR": "SR 312.2",
+    "assigned_articles": ["Art. 8"],
+    "confidence": "high",
+    "reasoning": "Text 'nach Artikel 8 des Bundesgesetzes ... SR 312.2' is an explicit article reference."
+  },
+  {
+    "ITEM": 20,
+    "ARTICLE_EID": "art_48",
+    "TARGET_SR": "SR 823.11",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "medium",
+    "reasoning": "Refers to 'Arbeitsvermittlungsgesetz vom 6. Oktober 1989 SR 823.11' without article; the relevant provisions are not specified."
+  },
+  {
+    "ITEM": 21,
+    "ARTICLE_EID": "art_52",
+    "TARGET_SR": "SR 311.0",
+    "assigned_articles": ["Art. 66a", "Art. 66abis"],
+    "confidence": "high",
+    "reasoning": "Snippet: 'Landesverweisung nach Artikel 66a oder 66abis des Strafgesetzbuchs SR 311.0'; direct article-SR mapping."
+  },
+  {
+    "ITEM": 22,
+    "ARTICLE_EID": "art_52",
+    "TARGET_SR": "SR 321.0",
+    "assigned_articles": ["Art. 49a", "Art. 49abis"],
+    "confidence": "high",
+    "reasoning": "Same sentence: 'oder Artikel 49a oder 49abis des Militärstrafgesetzes ... SR 321.0'; clearly tied."
+  },
+  {
+    "ITEM": 23,
+    "ARTICLE_EID": "art_65",
+    "TARGET_SR": "SR 142.312",
+    "assigned_articles": ["Art. 23", "Art. 27"],
+    "confidence": "high",
+    "reasoning": "Phrase 'nach Artikel 23 und 27 der Asylverordnung 2 ... SR 142.312' explicitly cites these articles."
+  },
+  {
+    "ITEM": 24,
+    "ARTICLE_EID": "art_65",
+    "TARGET_SR": "SR 412.10",
+    "assigned_articles": ["Art. 12"],
+    "confidence": "high",
+    "reasoning": "Text 'beruflichen Grundbildung nach Artikel 12 des Berufsbildungsgesetzes ... SR 412.10' directly links Art. 12 to SR 412.10."
+  },
+  {
+    "ITEM": 25,
+    "ARTICLE_EID": "art_65_c",
+    "TARGET_SR": "SR 220",
+    "assigned_articles": ["Art. 360b"],
+    "confidence": "high",
+    "reasoning": "Snippet: 'tripartiten Kommissionen nach Artikel 360b des Obligationenrechts SR 220'; explicit article reference."
+  },
+  {
+    "ITEM": 26,
+    "ARTICLE_EID": "art_69",
+    "TARGET_SR": "SR 210",
+    "assigned_articles": ["Art. 327a", "Art. 327b", "Art. 327c", "Art. 398"],
+    "confidence": "high",
+    "reasoning": "Mentions 'Art. 327a–327c des Zivilgesetzbuchs SR 210' (range) and 'Art. 398 ZGB'; both clearly within SR 210."
+  },
+  {
+    "ITEM": 27,
+    "ARTICLE_EID": "art_70",
+    "TARGET_SR": "SR 311.0",
+    "assigned_articles": ["Art. 59", "Art. 60", "Art. 61", "Art. 63", "Art. 64"],
+    "confidence": "high",
+    "reasoning": "Text 'Massnahmenvollzug nach den Artikeln 59–61, 63 oder 64 des Strafgesetzbuches SR 311.0'; range 59–61 plus 63 and 64 are explicitly tied to SR 311.0."
+  },
+  {
+    "ITEM": 28,
+    "ARTICLE_EID": "art_70",
+    "TARGET_SR": "SR 210",
+    "assigned_articles": ["Art. 426"],
+    "confidence": "high",
+    "reasoning": "Phrase 'in einer Einrichtung nach Artikel 426 ZGB SR 210' clearly links Art. 426 to SR 210."
+  },
+  {
+    "ITEM": 29,
+    "ARTICLE_EID": "art_71_a",
+    "TARGET_SR": "SR 192.121",
+    "assigned_articles": ["Art. 22"],
+    "confidence": "high",
+    "reasoning": "Text 'nach Artikel 22 der Gaststaatverordnung ... SR 192.121 (V‑GSG)' is explicit."
+  },
+  {
+    "ITEM": 30,
+    "ARTICLE_EID": "art_71_b",
+    "TARGET_SR": "SR 0.142.112.681",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "high",
+    "reasoning": "Cites the FZA agreement 'SR 0.142.112.681' only by title; no article or annex mentioned."
+  },
+  {
+    "ITEM": 31,
+    "ARTICLE_EID": "art_71_b",
+    "TARGET_SR": "SR 0.142.113.672",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "high",
+    "reasoning": "Refers to 'Abkommen ... SR 0.142.113.672 über die erworbenen Rechte' generically."
+  },
+  {
+    "ITEM": 32,
+    "ARTICLE_EID": "art_71_b",
+    "TARGET_SR": "SR 192.121",
+    "assigned_articles": ["Art. 17 Abs. 1"],
+    "confidence": "high",
+    "reasoning": "Snippet: 'nach Artikel 17 Absatz 1 V-GSG SR 192.121'; direct article-SR link."
+  },
+  {
+    "ITEM": 33,
+    "ARTICLE_EID": "art_71_d",
+    "TARGET_SR": "SR 0.142.112.681",
+    "assigned_articles": ["Anhang I Art. 4"],
+    "confidence": "high",
+    "reasoning": "Later in snippet_acronym: 'gestützt auf Anhang I Artikel 4 FZA'; this article is part of the FZA (SR 0.142.112.681)."
+  },
+  {
+    "ITEM": 34,
+    "ARTICLE_EID": "art_71_d",
+    "TARGET_SR": "SR 0.142.113.672",
+    "assigned_articles": ["Art. 12"],
+    "confidence": "medium",
+    "reasoning": "The snippet itself is general, but artikel_reference ITEM 301 clarifies that the relevant provision is 'Artikel 12 des Abkommens über die erworbenen Rechte'; by contextual linkage, assign Art. 12."
+  },
+  {
+    "ITEM": 35,
+    "ARTICLE_EID": "art_71_d",
+    "TARGET_SR": "SR 0.142.113.672",
+    "assigned_articles": ["Art. 12"],
+    "confidence": "medium",
+    "reasoning": "Same legal context as ITEM 34 (rights of UK nationals under the Abkommen über die erworbenen Rechte); by cross-reference with ITEM 301, Art. 12 is the operative provision."
+  },
+  {
+    "ITEM": 36,
+    "ARTICLE_EID": "art_71_d",
+    "TARGET_SR": "SR 0.632.31",
+    "assigned_articles": ["Anhang K Anlage 1 Art. 4"],
+    "confidence": "high",
+    "reasoning": "Snippet: 'Anhang K Anlage 1 Artikel 4 des Übereinkommens ... SR 0.632.31'; explicit annex-article reference."
+  },
+  {
+    "ITEM": 37,
+    "ARTICLE_EID": "art_72_c",
+    "TARGET_SR": "SR 221.302.3",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "medium",
+    "reasoning": "Refers to 'Revisionsaufsichtsverordnung ... SR 221.302.3' only as qualification criterion; no specific article cited."
+  },
+  {
+    "ITEM": 38,
+    "ARTICLE_EID": "art_74",
+    "TARGET_SR": "SR 142.311",
+    "assigned_articles": ["Art. 37"],
+    "confidence": "high",
+    "reasoning": "Text: 'gilt Artikel 37 der Asylverordnung 1 ... SR 142.311 sinngemäss'; explicit article reference."
+  },
+  {
+    "ITEM": 39,
+    "ARTICLE_EID": "art_77_b",
+    "TARGET_SR": "SR 121",
+    "assigned_articles": ["Art. 6 Abs. 1 Bst. a Ziff. 1–5"],
+    "confidence": "high",
+    "reasoning": "Snippet: 'nach Artikel 6 Absatz 1 Buchstabe a Ziffern 1–5 des Nachrichtendienstgesetzes ... SR 121'; direct detailed citation."
+  },
+  {
+    "ITEM": 40,
+    "ARTICLE_EID": "art_77_g",
+    "TARGET_SR": "SR 142.205",
+    "assigned_articles": ["Art. 4"],
+    "confidence": "high",
+    "reasoning": "Text: '(Art. 4 VIntA SR 142.205)'; explicit article-SR link."
+  },
+  {
+    "ITEM": 41,
+    "ARTICLE_EID": "art_78",
+    "TARGET_SR": "SR 142.312",
+    "assigned_articles": ["Art. 62", "Art. 63", "Art. 64", "Art. 65", "Art. 66", "Art. 67", "Art. 68", "Art. 69", "Art. 70", "Art. 71", "Art. 72", "Art. 73", "Art. 74", "Art. 75", "Art. 76", "Art. 77", "Art. 78"],
+    "confidence": "high",
+    "reasoning": "Phrase 'Die Artikel 62–78 der Asylverordnung 2 ... SR 142.312' gives a continuous range; expanded here as individual articles."
+  },
+  {
+    "ITEM": 42,
+    "ARTICLE_EID": "art_82_c",
+    "TARGET_SR": "SR 0.142.113.672",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "high",
+    "reasoning": "Again cites 'Abkommen über die erworbenen Rechte SR 0.142.113.672' generically as status criterion."
+  },
+  {
+    "ITEM": 43,
+    "ARTICLE_EID": "art_82_d",
+    "TARGET_SR": "SR 831.30",
+    "assigned_articles": ["Art. 3 Abs. 1", "Art. 14 Abs. 6"],
+    "confidence": "high",
+    "reasoning": "Snippet mentions 'Ergänzungsleistungen nach Artikel 3 Absatz 1 ELG SR 831.30' and later 'Artikel 14 Absatz 6 ELG'; both clearly tied to SR 831.30."
+  },
+  {
+    "ITEM": 44,
+    "ARTICLE_EID": "art_82_f",
+    "TARGET_SR": "SR 210",
+    "assigned_articles": ["Art. 308", "Art. 310", "Art. 311", "Art. 312", "Art. 327a", "Art. 394 Abs. 2", "Art. 398"],
+    "confidence": "high",
+    "reasoning": "Snippet_acronym lists 'Artikel 308 ZGB', 'Artikeln 310–312 und 327a ZGB', and 'Artikeln 394 Absatz 2 und 398 ZGB'; all are provisions of SR 210."
+  },
+  {
+    "ITEM": 45,
+    "ARTICLE_EID": "art_87",
+    "TARGET_SR": "SR 810.12",
+    "assigned_articles": ["Art. 50"],
+    "confidence": "high",
+    "reasoning": "Text: 'DNA-Profile gemäss Artikel 50 des Bundesgesetzes ... SR 810.12'; explicit article reference."
+  },
+  {
+    "ITEM": 46,
+    "ARTICLE_EID": "art_87",
+    "TARGET_SR": "SR 170.512",
+    "assigned_articles": ["Art. 12 Abs. 2"],
+    "confidence": "high",
+    "reasoning": "Same snippet: 'in Anwendung von Art. 12 Abs. 2 des Publikationsgesetzes ... (SR 170.512)'; direct link."
+  },
+  {
+    "ITEM": 47,
+    "ARTICLE_EID": "art_87",
+    "TARGET_SR": "SR 361.3",
+    "assigned_articles": ["Art. 4 Abs. 1 Bst. e"],
+    "confidence": "high",
+    "reasoning": "Snippet: 'nach Artikel 4 Absatz 1 Buchstabe e der Verordnung ... SR 361.3'; explicit."
+  },
+  {
+    "ITEM": 48,
+    "ARTICLE_EID": "art_87",
+    "TARGET_SR": "SR 142.513",
+    "assigned_articles": ["Art. 2", "Art. 4", "Art. 9", "Art. 11", "Art. 16", "Art. 17", "Art. 18", "Art. 19"],
+    "confidence": "high",
+    "reasoning": "Text: 'insbesondere die Artikel 2, 4, 9, 11 sowie 16–19 ZEMIS-Verordnung SR 142.513'; range 16–19 expanded."
+  },
+  {
+    "ITEM": 49,
+    "ARTICLE_EID": "art_87",
+    "TARGET_SR": "SR 142.204",
+    "assigned_articles": ["Art. 4 Abs. 2"],
+    "confidence": "high",
+    "reasoning": "Snippet: 'humanitäres Visum nach Artikel 4 Absatz 2 der Verordnung ... SR 142.204'; explicit."
+  },
+  {
+    "ITEM": 50,
+    "ARTICLE_EID": "art_87_a",
+    "TARGET_SR": "SR 142.314",
+    "assigned_articles": ["Art. 11"],
+    "confidence": "high",
+    "reasoning": "Text: 'nach Artikel 11 der Asylverordnung 3 ... SR 142.314'; direct article reference."
+  },
+  {
+    "ITEM": 51,
+    "ARTICLE_EID": "art_87_b",
+    "TARGET_SR": "SR 142.314",
+    "assigned_articles": ["Art. 11a"],
+    "confidence": "high",
+    "reasoning": "Snippet: 'nach Artikel 11a AsylV 3 SR 142.314'; explicit."
+  },
+  {
+    "ITEM": 52,
+    "ARTICLE_EID": "art_87_c",
+    "TARGET_SR": "SR 170.32",
+    "assigned_articles": ["Art. 19a", "Art. 19b", "Art. 19c"],
+    "confidence": "high",
+    "reasoning": "Text: 'insbesondere nach dessen Artikeln 19a–19c ... SR 170.32'; range expanded."
+  },
+  {
+    "ITEM": 53,
+    "ARTICLE_EID": "art_87_d",
+    "TARGET_SR": "SR 142.314",
+    "assigned_articles": ["Art. 11c", "Art. 12"],
+    "confidence": "high",
+    "reasoning": "Snippet: 'Die Artikel 11c und 12 AsylV 3 SR 142.314 gelten ...'; explicit."
+  },
+  {
+    "ITEM": 54,
+    "ARTICLE_EID": "art_89_a",
+    "TARGET_SR": "SR 235.11",
+    "assigned_articles": ["Art. 9", "Art. 10", "Art. 11", "Art. 12"],
+    "confidence": "high",
+    "reasoning": "Phrase 'Anforderungen der Artikel 9–12 der Datenschutzverordnung ... SR 235.11'; continuous range."
+  },
+  {
+    "ITEM": 55,
+    "ARTICLE_EID": "art_91_c",
+    "TARGET_SR": "SR 831.30",
+    "assigned_articles": ["Art. 3 Abs. 1 Bst. a"],
+    "confidence": "high",
+    "reasoning": "Snippet: 'Ergänzungsleistungen nach Artikel 3 Absatz 1 Buchstabe a ELG SR 831.30'; explicit subdivision."
+  },
+  {
+    "ITEM": 56,
+    "ARTICLE_EID": "art_91_d",
+    "TARGET_SR": "SR 0.142.113.672",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "medium",
+    "reasoning": "Refers generically to 'Abkommen über die erworbenen Rechte SR 0.142.113.672' as status basis; no article specified in this sentence."
+  },
+  {
+    "ITEM": 57,
+    "ARTICLE_EID": "art_1_a",
+    "TARGET_SR": "SR 142.20",
+    "assigned_articles": ["Art. 11 Abs. 2"],
+    "confidence": "high",
+    "reasoning": "Parenthetical '(Art. 11 Abs. 2 AIG)' directly cites the article of AIG (SR 142.20)."
+  },
+  {
+    "ITEM": 58,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": "SR 142.20",
+    "assigned_articles": ["Art. 11 Abs. 2"],
+    "confidence": "high",
+    "reasoning": "Text 'Erwerbstätigkeit nach Artikel 11 Absatz 2 AIG' clearly refers to Art. 11 Abs. 2 of SR 142.20."
+  },
+  {
+    "ITEM": 59,
+    "ARTICLE_EID": "art_6",
+    "TARGET_SR": "SR 142.20",
+    "assigned_articles": ["Art. 17 Abs. 2", "Art. 62", "Art. 90"],
+    "confidence": "high",
+    "reasoning": "Snippet mentions 'Artikel 17 Absatz 2 AIG', 'Artikel 62 AIG', and 'Artikel 90 AIG'; all are within SR 142.20."
+  },
+  {
+    "ITEM": 60,
+    "ARTICLE_EID": "art_8",
+    "TARGET_SR": "SR 142.20",
+    "assigned_articles": ["Art. 13 Abs. 1", "Art. 89", "Art. 90 Bst. c"],
+    "confidence": "high",
+    "reasoning": "Parenthetical '(Art. 13 Abs. 1 AIG)' plus 'Art. 89 und 90 Bst. c AIG' in the same snippet; all clearly tied to AIG."
+  },
+  {
+    "ITEM": 61,
+    "ARTICLE_EID": "art_9",
+    "TARGET_SR": "SR 142.20",
+    "assigned_articles": ["Art. 10", "Art. 5"],
+    "confidence": "high",
+    "reasoning": "Parenthetical '(Art. 10 AIG)' and 'Einreisevoraussetzungen nach Artikel 5 AIG'; both are provisions of SR 142.20."
+  },
+  {
+    "ITEM": 62,
+    "ARTICLE_EID": "art_12",
+    "TARGET_SR": "SR 142.20",
+    "assigned_articles": ["Art. 12 Abs. 3", "Art. 14"],
+    "confidence": "high",
+    "reasoning": "Parenthetical '(Art. 12 Abs. 3 und Art. 14 AIG)' directly lists these AIG provisions."
+  },
+  {
+    "ITEM": 63,
+    "ARTICLE_EID": "art_15",
+    "TARGET_SR": "SR 142.20",
+    "assigned_articles": ["Art. 12 Abs. 3", "Art. 15"],
+    "confidence": "high",
+    "reasoning": "Parenthetical '(Art. 12 Abs. 3 und Art. 15 AIG)' clearly ties both to SR 142.20."
+  },
+  {
+    "ITEM": 64,
+    "ARTICLE_EID": "art_18",
+    "TARGET_SR": "SR 142.20",
+    "assigned_articles": ["Art. 16"],
+    "confidence": "high",
+    "reasoning": "Parenthetical '(Art. 16 AIG)' is a direct article reference."
+  },
+  {
+    "ITEM": 65,
+    "ARTICLE_EID": "art_21",
+    "TARGET_SR": "SR 142.20",
+    "assigned_articles": ["Art. 20"],
+    "confidence": "high",
+    "reasoning": "Parenthetical '(Art. 20 AIG)' clearly refers to Art. 20 AIG."
+  },
+  {
+    "ITEM": 66,
+    "ARTICLE_EID": "art_22",
+    "TARGET_SR": "SR 142.20",
+    "assigned_articles": ["Art. 22"],
+    "confidence": "high",
+    "reasoning": "Parenthetical '(Art. 22 AIG)' is explicit."
+  },
+  {
+    "ITEM": 67,
+    "ARTICLE_EID": "art_22_a",
+    "TARGET_SR": "SR 142.20",
+    "assigned_articles": ["Art. 22 Abs. 3"],
+    "confidence": "high",
+    "reasoning": "Parenthetical '(Art. 22 Abs. 3 AIG)' directly cites this subdivision."
+  },
+  {
+    "ITEM": 68,
+    "ARTICLE_EID": "art_22_b",
+    "TARGET_SR": "SR 142.20",
+    "assigned_articles": ["Art. 26a", "Art. 58a Abs. 1 Bst. a", "Art. 58a Abs. 1 Bst. b"],
+    "confidence": "high",
+    "reasoning": "Parenthetical '(Art. 26a AIG)' plus 'Artikel 58a Absatz 1 Buchstaben a und b AIG' in the same snippet."
+  },
+  {
+    "ITEM": 69,
+    "ARTICLE_EID": "art_23",
+    "TARGET_SR": "SR 142.20",
+    "assigned_articles": ["Art. 27", "Art. 27 Abs. 1 Bst. d"],
+    "confidence": "high",
+    "reasoning": "Parenthetical '(Art. 27 AIG)' and 'Art. 27 Abs. 1 Bst. d AIG' both refer to SR 142.20."
+  },
+  {
+    "ITEM": 70,
+    "ARTICLE_EID": "art_24",
+    "TARGET_SR": "SR 142.20",
+    "assigned_articles": ["Art. 27"],
+    "confidence": "high",
+    "reasoning": "Parenthetical '(Art. 27 AIG)' is explicit."
+  },
+  {
+    "ITEM": 71,
+    "ARTICLE_EID": "art_26",
+    "TARGET_SR": "SR 142.20",
+    "assigned_articles": ["Art. 30 Abs. 1 Bst. a", "Art. 45", "Art. 18 Bst. b", "Art. 22", "Art. 23"],
+    "confidence": "high",
+    "reasoning": "Parenthetical '(Art. 30 Abs. 1 Bst. a und 45 AIG)' plus later references to 'Artikel 18 Buchstabe b AIG', 'Artikel 22 AIG', and 'Artikel 23 AIG'."
+  },
+  {
+    "ITEM": 72,
+    "ARTICLE_EID": "art_27",
+    "TARGET_SR": "SR 142.20",
+    "assigned_articles": ["Art. 46"],
+    "confidence": "high",
+    "reasoning": "Parenthetical '(Art. 46 AIG)' directly cites Art. 46 AIG."
+  },
+  {
+    "ITEM": 73,
+    "ARTICLE_EID": "art_29",
+    "TARGET_SR": "SR 142.20",
+    "assigned_articles": ["Art. 30 Abs. 1 Bst. b", "Art. 42", "Art. 18 Bst. b", "Art. 22", "Art. 24", "Art. 19 Bst. b"],
+    "confidence": "high",
+    "reasoning": "Parenthetical '(Art. 30 Abs. 1 Bst. b AIG)' plus multiple explicit references to AIG articles in the snippet."
+  },
+  {
+    "ITEM": 74,
+    "ARTICLE_EID": "art_30",
+    "TARGET_SR": "SR 142.20",
+    "assigned_articles": ["Art. 30 Abs. 1 Bst. b"],
+    "confidence": "high",
+    "reasoning": "Parenthetical '(Art. 30 Abs. 1 Bst. b AIG; Art. 14 AsylG)' gives the AIG provision; the BüG articles mentioned belong to SR 141.0 and are handled in ITEM 18/195."
+  },
+  {
+    "ITEM": 75,
+    "ARTICLE_EID": "art_30_a",
+    "TARGET_SR": "SR 142.20",
+    "assigned_articles": ["Art. 30 Abs. 1 Bst. b", "Art. 18 Bst. b", "Art. 22", "Art. 58a Abs. 1"],
+    "confidence": "high",
+    "reasoning": "Parenthetical '(Art. 30 Abs. 1 Bst. b AIG; Art. 14 AsylG)' plus explicit references to 'Artikel 18 Buchstabe b AIG', 'Artikel 22 AIG', and 'Artikel 58a Absatz 1 AIG'."
+  },
+  {
+    "ITEM": 76,
+    "ARTICLE_EID": "art_30_a",
+    "TARGET_SR": "SR 142.31",
+    "assigned_articles": ["Art. 14"],
+    "confidence": "high",
+    "reasoning": "Same parenthetical '(...; Art. 14 AsylG)' but here TARGET_SR is AsylG (SR 142.31); thus Art. 14 AsylG applies."
+  },
+  {
+    "ITEM": 77,
+    "ARTICLE_EID": "art_31",
+    "TARGET_SR": "SR 142.20",
+    "assigned_articles": ["Art. 30 Abs. 1 Bst. b", "Art. 50 Abs. 1 Bst. b", "Art. 84 Abs. 5", "Art. 58a Abs. 1", "Art. 58a Abs. 1 Bst. d"],
+    "confidence": "high",
+    "reasoning": "Parenthetical '(Art. 30 Abs. 1 Bst. b , 50 Abs. 1 Bst. b und 84 Abs. 5 AIG; Art. 14 AsylG)' plus later references to Art. 58a Abs. 1 and its letter d."
+  },
+  {
+    "ITEM": 78,
+    "ARTICLE_EID": "art_31",
+    "TARGET_SR": "SR 142.31",
+    "assigned_articles": ["Art. 14", "Art. 43"],
+    "confidence": "high",
+    "reasoning": "Parenthetical includes 'Art. 14 AsylG', and the snippet text refers to 'Artikel 43 AsylG'; both are provisions of SR 142.31."
+  },
+  {
+    "ITEM": 79,
+    "ARTICLE_EID": "art_32",
+    "TARGET_SR": "SR 142.20",
+    "assigned_articles": ["Art. 30 Abs. 1 Bst. b"],
+    "confidence": "high",
+    "reasoning": "Parenthetical '(Art. 30 Abs. 1 Bst. b AIG)' is explicit."
+  },
+  {
+    "ITEM": 80,
+    "ARTICLE_EID": "art_33",
+    "TARGET_SR": "SR 142.20",
+    "assigned_articles": ["Art. 30 Abs. 1 Bst. c"],
+    "confidence": "high",
+    "reasoning": "Parenthetical '(Art. 30 Abs. 1 Bst. c AIG)'."
+  },
+  {
+    "ITEM": 81,
+    "ARTICLE_EID": "art_35",
+    "TARGET_SR": "SR 142.20",
+    "assigned_articles": ["Art. 30 Abs. 1 Bst. e"],
+    "confidence": "high",
+    "reasoning": "Parenthetical '(Art. 30 Abs. 1 Bst. e AIG)'."
+  },
+  {
+    "ITEM": 82,
+    "ARTICLE_EID": "art_36",
+    "TARGET_SR": "SR 142.20",
+    "assigned_articles": ["Art. 30 Abs. 1 Bst. e", "Art. 18 Bst. b", "Art. 22", "Art. 24", "Art. 31", "Art. 83"],
+    "confidence": "high",
+    "reasoning": "Parenthetical plus explicit references to these AIG provisions in the snippet."
+  },
+  {
+    "ITEM": 83,
+    "ARTICLE_EID": "art_36_a",
+    "TARGET_SR": "SR 142.20",
+    "assigned_articles": ["Art. 30 Abs. 1 Bst. e"],
+    "confidence": "high",
+    "reasoning": "Parenthetical '(Art. 30 Abs. 1 Bst. e AIG)'."
+  },
+  {
+    "ITEM": 84,
+    "ARTICLE_EID": "art_37",
+    "TARGET_SR": "SR 142.20",
+    "assigned_articles": ["Art. 30 Abs. 1 Bst. f", "Art. 18 Bst. b", "Art. 20", "Art. 22", "Art. 24"],
+    "confidence": "high",
+    "reasoning": "Parenthetical plus explicit references to these AIG articles."
+  },
+  {
+    "ITEM": 85,
+    "ARTICLE_EID": "art_38",
+    "TARGET_SR": "SR 142.20",
+    "assigned_articles": ["Art. 30 Abs. 1 Bst. g", "Art. 18 Bst. b", "Art. 22"],
+    "confidence": "high",
+    "reasoning": "Parenthetical '(Art. 30 Abs. 1 Bst. g AIG)' and explicit references to Art. 18 Bst. b and Art. 22 AIG."
+  },
+  {
+    "ITEM": 86,
+    "ARTICLE_EID": "art_39",
+    "TARGET_SR": "SR 142.20",
+    "assigned_articles": ["Art. 30 Abs. 1 Bst. g", "Art. 18 Bst. b", "Art. 22", "Art. 24"],
+    "confidence": "high",
+    "reasoning": "Same pattern as ITEM 85 with additional Art. 24 AIG."
+  },
+  {
+    "ITEM": 87,
+    "ARTICLE_EID": "art_40",
+    "TARGET_SR": "SR 142.20",
+    "assigned_articles": ["Art. 30 Abs. 1 Bst. g", "Art. 18 Bst. b", "Art. 22"],
+    "confidence": "high",
+    "reasoning": "Parenthetical plus explicit references."
+  },
+  {
+    "ITEM": 88,
+    "ARTICLE_EID": "art_41",
+    "TARGET_SR": "SR 142.20",
+    "assigned_articles": ["Art. 30 Abs. 1 Bst. g", "Art. 18 Bst. a", "Art. 18 Bst. b", "Art. 20", "Art. 22", "Art. 23", "Art. 24"],
+    "confidence": "high",
+    "reasoning": "Parenthetical and multiple explicit AIG article references."
+  },
+  {
+    "ITEM": 89,
+    "ARTICLE_EID": "art_42",
+    "TARGET_SR": "SR 142.20",
+    "assigned_articles": ["Art. 30 Abs. 1 Bst. g", "Art. 100 Abs. 2 Bst. e"],
+    "confidence": "high",
+    "reasoning": "Parenthetical '(Art. 30 Abs. 1 Bst. g und 100 Abs. 2 Bst. e AIG)'."
+  },
+  {
+    "ITEM": 90,
+    "ARTICLE_EID": "art_43",
+    "TARGET_SR": "SR 142.20",
+    "assigned_articles": ["Art. 30 Abs. 1 Bst. g", "Art. 98 Abs. 2"],
+    "confidence": "high",
+    "reasoning": "Parenthetical '(Art. 30 Abs. 1 Bst. g und 98 Abs. 2 AIG)' plus general reference to 'Zulassungsvoraussetzungen des AIG'."
+  },
+  {
+    "ITEM": 91,
+    "ARTICLE_EID": "art_44",
+    "TARGET_SR": "SR 142.20",
+    "assigned_articles": ["Art. 30 Abs. 1 Bst. g", "Art. 98 Abs. 2"],
+    "confidence": "high",
+    "reasoning": "Same parenthetical as ITEM 90."
+  },
+  {
+    "ITEM": 92,
+    "ARTICLE_EID": "art_45",
+    "TARGET_SR": "SR 142.20",
+    "assigned_articles": ["Art. 30 Abs. 1 Bst. g", "Art. 98 Abs. 2", "Art. 43 Abs. 3", "Art. 22"],
+    "confidence": "high",
+    "reasoning": "Parenthetical plus explicit references to Art. 43 Abs. 3 and Art. 22 AIG."
+  },
+  {
+    "ITEM": 93,
+    "ARTICLE_EID": "art_46",
+    "TARGET_SR": "SR 142.20",
+    "assigned_articles": ["Art. 30 Abs. 1 Bst. h", "Art. 18 Bst. a", "Art. 18 Bst. b", "Art. 20", "Art. 22", "Art. 24"],
+    "confidence": "high",
+    "reasoning": "Parenthetical and explicit AIG references."
+  },
+  {
+    "ITEM": 94,
+    "ARTICLE_EID": "art_48",
+    "TARGET_SR": "SR 142.20",
+    "assigned_articles": ["Art. 30 Abs. 1 Bst. j", "Art. 20"],
+    "confidence": "high",
+    "reasoning": "Parenthetical '(Art. 30 Abs. 1 Bst. j AIG)' and explicit 'Höchstzahlen nach Artikel 20 AIG'."
+  },
+  {
+    "ITEM": 95,
+    "ARTICLE_EID": "art_49",
+    "TARGET_SR": "SR 142.20",
+    "assigned_articles": ["Art. 30 Abs. 1 Bst. k", "Art. 34 Abs. 5", "Art. 18 Bst. b", "Art. 22", "Art. 24"],
+    "confidence": "high",
+    "reasoning": "Parenthetical plus explicit references."
+  },
+  {
+    "ITEM": 96,
+    "ARTICLE_EID": "art_50",
+    "TARGET_SR": "SR 142.20",
+    "assigned_articles": ["Art. 30 Abs. 1 Bst. k", "Art. 18 Bst. b", "Art. 22", "Art. 24"],
+    "confidence": "high",
+    "reasoning": "Same pattern as ITEM 95 without Art. 34 Abs. 5."
+  },
+  {
+    "ITEM": 97,
+    "ARTICLE_EID": "art_51",
+    "TARGET_SR": "SR 142.20",
+    "assigned_articles": ["Art. 30 Abs. 1 Bst. k", "Art. 18 Bst. b", "Art. 22", "Art. 24"],
+    "confidence": "high",
+    "reasoning": "Identical structure to ITEM 96."
+  },
+  {
+    "ITEM": 98,
+    "ARTICLE_EID": "art_52",
+    "TARGET_SR": "SR 142.20",
+    "assigned_articles": ["Art. 30 Abs. 1 Bst. l", "Art. 43", "Art. 18 Bst. b", "Art. 22", "Art. 21"],
+    "confidence": "high",
+    "reasoning": "Parenthetical '(Art. 30 Abs. 1 Bst. l AIG und Art. 43 AsylG)' plus explicit AIG references."
+  },
+  {
+    "ITEM": 99,
+    "ARTICLE_EID": "art_52",
+    "TARGET_SR": "SR 142.31",
+    "assigned_articles": ["Art. 43"],
+    "confidence": "high",
+    "reasoning": "Same parenthetical; here TARGET_SR is AsylG, so 'Art. 43 AsylG' applies."
+  },
+  {
+    "ITEM": 100,
+    "ARTICLE_EID": "art_53",
+    "TARGET_SR": "SR 142.20",
+    "assigned_articles": ["Art. 30 Abs. 1 Bst. l", "Art. 75 Abs. 2", "Art. 18 Bst. b", "Art. 22", "Art. 19 Bst. b", "Art. 19 Bst. c"],
+    "confidence": "high",
+    "reasoning": "Parenthetical plus explicit AIG references; Art. 75 Abs. 2 AsylG belongs to SR 142.31 and is handled in ITEM 101."
+  },
+  {
+    "ITEM": 101,
+    "ARTICLE_EID": "art_53",
+    "TARGET_SR": "SR 142.31",
+    "assigned_articles": ["Art. 75 Abs. 2"],
+    "confidence": "high",
+    "reasoning": "Parenthetical '(... und Art. 75 Abs. 2 AsylG)' with TARGET_SR AsylG."
+  },
+  {
+    "ITEM": 102,
+    "ARTICLE_EID": "art_53_a",
+    "TARGET_SR": "SR 142.20",
+    "assigned_articles": ["Art. 30 Abs. 1 Bst. l", "Art. 43 Abs. 4", "Art. 75 Abs. 4"],
+    "confidence": "medium",
+    "reasoning": "Parenthetical '(Art. 30 Abs. 1 Bst. l AIG; Art. 43 Abs. 4 und 75 Abs. 4 AsylG)' mixes AIG and AsylG; for AIG (TARGET_SR 142.20) only Art. 30 Abs. 1 Bst. l is relevant."
+  },
+  {
+    "ITEM": 103,
+    "ARTICLE_EID": "art_53_a",
+    "TARGET_SR": "SR 142.31",
+    "assigned_articles": ["Art. 43 Abs. 4", "Art. 75 Abs. 4"],
+    "confidence": "high",
+    "reasoning": "Same parenthetical; for AsylG (SR 142.31) the cited articles are 43 Abs. 4 and 75 Abs. 4."
+  },
+  {
+    "ITEM": 104,
+    "ARTICLE_EID": "art_55",
+    "TARGET_SR": "SR 142.20",
+    "assigned_articles": ["Art. 32 Abs. 3"],
+    "confidence": "high",
+    "reasoning": "Parenthetical '(Art. 32 Abs. 3 AIG)'."
+  },
+  {
+    "ITEM": 105,
+    "ARTICLE_EID": "art_56",
+    "TARGET_SR": "SR 142.20",
+    "assigned_articles": ["Art. 32 Abs. 4"],
+    "confidence": "high",
+    "reasoning": "Text 'Kurzaufenthaltsbewilligungen ... (Art. 32 Abs. 4 AIG)'; explicit."
+  },
+  {
+    "ITEM": 106,
+    "ARTICLE_EID": "art_59",
+    "TARGET_SR": "SR 142.20",
+    "assigned_articles": ["Art. 33 Abs. 3"],
+    "confidence": "high",
+    "reasoning": "Snippet: 'Verlängerung der Aufenthaltsbewilligung (Art. 33 Abs. 3 AIG)'; direct."
+  },
+  {
+    "ITEM": 107,
+    "ARTICLE_EID": "art_60",
+    "TARGET_SR": "SR 142.20",
+    "assigned_articles": ["Art. 34 Abs. 2", "Art. 42 Abs. 3", "Art. 43 Abs. 5", "Art. 58a Abs. 1", "Art. 96"],
+    "confidence": "high",
+    "reasoning": "Parenthetical plus explicit 'Integrationskriterien nach Artikel 58a Absatz 1 AIG'."
+  },
+  {
+    "ITEM": 108,
+    "ARTICLE_EID": "art_61",
+    "TARGET_SR": "SR 142.20",
+    "assigned_articles": ["Art. 34 Abs. 3"],
+    "confidence": "high",
+    "reasoning": "Parenthetical '(Art. 34 Abs. 3 AIG)'."
+  },
+  {
+    "ITEM": 109,
+    "ARTICLE_EID": "art_61_a",
+    "TARGET_SR": "SR 142.20",
+    "assigned_articles": ["Art. 34 Abs. 6", "Art. 63 Abs. 2", "Art. 62", "Art. 58a Abs. 1"],
+    "confidence": "high",
+    "reasoning": "Parenthetical '(Art. 34 Abs. 6, 58a Abs. 1 und 63 Abs. 2 AIG)' plus explicit references to Art. 62 and 63 Abs. 2."
+  },
+  {
+    "ITEM": 110,
+    "ARTICLE_EID": "art_62",
+    "TARGET_SR": "SR 142.20",
+    "assigned_articles": ["Art. 34 Abs. 4", "Art. 58a Abs. 1"],
+    "confidence": "high",
+    "reasoning": "Parenthetical '(Art. 34 Abs. 4 und 58a Abs. 1 AIG)' and repeated mention of Art. 58a Abs. 1."
+  },
+  {
+    "ITEM": 111,
+    "ARTICLE_EID": "art_62_a",
+    "TARGET_SR": "SR 142.20",
+    "assigned_articles": ["Art. 63 Abs. 2", "Art. 58b", "Art. 58a Abs. 1", "Art. 33 Abs. 2", "Art. 62 Abs. 1 Bst. d"],
+    "confidence": "high",
+    "reasoning": "Parenthetical '(Art. 63 Abs. 2 AIG)' plus explicit references to these AIG provisions."
+  },
+  {
+    "ITEM": 112,
+    "ARTICLE_EID": "art_63",
+    "TARGET_SR": "SR 142.20",
+    "assigned_articles": ["Art. 41 Abs. 3"],
+    "confidence": "high",
+    "reasoning": "Parenthetical '(Art. 41 Abs. 3 AIG)'."
+  },
+  {
+    "ITEM": 113,
+    "ARTICLE_EID": "art_64",
+    "TARGET_SR": "SR 142.20",
+    "assigned_articles": ["Art. 30 Abs. 1 Bst. l", "Art. 31 Abs. 3", "Art. 85a Abs. 2", "Art. 43", "Art. 61"],
+    "confidence": "medium",
+    "reasoning": "Parenthetical '(Art. 30 Abs. 1 Bst. l, 31 Abs. 3 und 85a Abs. 2 AIG; Art. 43 und 61 AsylG)'; for AIG, the three cited provisions apply; AsylG articles are handled in ITEM 114."
+  },
+  {
+    "ITEM": 114,
+    "ARTICLE_EID": "art_64",
+    "TARGET_SR": "SR 142.31",
+    "assigned_articles": ["Art. 43", "Art. 61"],
+    "confidence": "high",
+    "reasoning": "Same parenthetical; for AsylG, 'Art. 43 und 61 AsylG' are explicit."
+  },
+  {
+    "ITEM": 115,
+    "ARTICLE_EID": "art_65",
+    "TARGET_SR": "SR 142.20",
+    "assigned_articles": ["Art. 31 Abs. 3", "Art. 85a"],
+    "confidence": "high",
+    "reasoning": "Parenthetical '(Art. 31 Abs. 3 und 85a AIG; Art. 61 AsylG)'; AIG provisions are 31 Abs. 3 and 85a."
+  },
+  {
+    "ITEM": 116,
+    "ARTICLE_EID": "art_65",
+    "TARGET_SR": "SR 142.31",
+    "assigned_articles": ["Art. 61"],
+    "confidence": "high",
+    "reasoning": "Same parenthetical; for AsylG, Art. 61 applies."
+  },
+  {
+    "ITEM": 117,
+    "ARTICLE_EID": "art_65_a",
+    "TARGET_SR": "SR 142.20",
+    "assigned_articles": ["Art. 31 Abs. 3", "Art. 85a"],
+    "confidence": "high",
+    "reasoning": "Identical parenthetical as ITEM 115."
+  },
+  {
+    "ITEM": 118,
+    "ARTICLE_EID": "art_65_a",
+    "TARGET_SR": "SR 142.31",
+    "assigned_articles": ["Art. 61"],
+    "confidence": "high",
+    "reasoning": "Same as ITEM 116."
+  },
+  {
+    "ITEM": 119,
+    "ARTICLE_EID": "art_65_b",
+    "TARGET_SR": "SR 142.20",
+    "assigned_articles": ["Art. 31 Abs. 3", "Art. 85a"],
+    "confidence": "high",
+    "reasoning": "Same parenthetical again; AIG provisions apply."
+  },
+  {
+    "ITEM": 120,
+    "ARTICLE_EID": "art_65_b",
+    "TARGET_SR": "SR 142.31",
+    "assigned_articles": ["Art. 61"],
+    "confidence": "high",
+    "reasoning": "AsylG side of the same parenthetical."
+  },
+  {
+    "ITEM": 121,
+    "ARTICLE_EID": "art_65_c",
+    "TARGET_SR": "SR 142.20",
+    "assigned_articles": ["Art. 31 Abs. 3", "Art. 85a", "Art. 61", "Art. 22"],
+    "confidence": "high",
+    "reasoning": "Parenthetical plus explicit 'Art. 22 AIG' in the snippet."
+  },
+  {
+    "ITEM": 122,
+    "ARTICLE_EID": "art_65_c",
+    "TARGET_SR": "SR 142.31",
+    "assigned_articles": ["Art. 61"],
+    "confidence": "high",
+    "reasoning": "AsylG part of the parenthetical."
+  },
+  {
+    "ITEM": 123,
+    "ARTICLE_EID": "art_67",
+    "TARGET_SR": "SR 142.20",
+    "assigned_articles": ["Art. 37", "Art. 37 Abs. 4", "Art. 16"],
+    "confidence": "high",
+    "reasoning": "Parenthetical '(Art. 37 AIG)' and explicit 'Art. 37 Abs. 4 AIG' plus 'Artikel 16' (self-reference within same ordinance, not AIG). Only AIG articles are assigned here."
+  },
+  {
+    "ITEM": 124,
+    "ARTICLE_EID": "art_67_a",
+    "TARGET_SR": "SR 142.20",
+    "assigned_articles": ["Art. 85b Abs. 2 Bst. b"],
+    "confidence": "high",
+    "reasoning": "Parenthetical '(Art. 85b AIG)' and explicit 'Artikel 85b Absatz 2 Buchstabe b AIG'."
+  },
+  {
+    "ITEM": 125,
+    "ARTICLE_EID": "art_71",
+    "TARGET_SR": "SR 142.20",
+    "assigned_articles": ["Art. 41 Abs. 1"],
+    "confidence": "high",
+    "reasoning": "Text 'Ausländerausweise nach Artikel 41 Absatz 1 AIG' and repeated later; both refer to SR 142.20."
+  },
+  {
+    "ITEM": 126,
+    "ARTICLE_EID": "art_71_a",
+    "TARGET_SR": "SR 142.20",
+    "assigned_articles": ["Art. 35", "Art. 41 Abs. 2"],
+    "confidence": "high",
+    "reasoning": "Snippet mentions 'Artikel 35 AIG' and 'Artikel 41 Absatz 2 AIG'; both are AIG provisions."
+  },
+  {
+    "ITEM": 127,
+    "ARTICLE_EID": "art_71_a",
+    "TARGET_SR": "SR 142.31",
+    "assigned_articles": ["Art. 42", "Art. 74"],
+    "confidence": "high",
+    "reasoning": "Snippet: 'Artikel 42 AsylG' and 'Artikel 74 AsylG'; both in SR 142.31."
+  },
+  {
+    "ITEM": 128,
+    "ARTICLE_EID": "art_71_g",
+    "TARGET_SR": "SR 142.20",
+    "assigned_articles": ["Art. 102a Abs. 4"],
+    "confidence": "high",
+    "reasoning": "Text 'nach Artikel 102a Absatz 4 AIG'; explicit."
+  },
+  {
+    "ITEM": 129,
+    "ARTICLE_EID": "art_72_a",
+    "TARGET_SR": "SR 142.20",
+    "assigned_articles": ["Art. 102b"],
+    "confidence": "high",
+    "reasoning": "Snippet: 'nach Artikel 102b AIG'; direct."
+  },
+  {
+    "ITEM": 130,
+    "ARTICLE_EID": "art_72_b",
+    "TARGET_SR": "SR 142.20",
+    "assigned_articles": ["Art. 41b"],
+    "confidence": "high",
+    "reasoning": "Text twice: 'nach Artikel 41b AIG'; explicit."
+  },
+  {
+    "ITEM": 131,
+    "ARTICLE_EID": "art_72_c",
+    "TARGET_SR": "SR 142.20",
+    "assigned_articles": ["Art. 41b"],
+    "confidence": "high",
+    "reasoning": "Again 'Stelle nach Artikel 41b AIG'; same provision."
+  },
+  {
+    "ITEM": 132,
+    "ARTICLE_EID": "art_73_a",
+    "TARGET_SR": "SR 142.20",
+    "assigned_articles": ["Art. 43 Abs. 1 Bst. d", "Art. 44 Abs. 1 Bst. d", "Art. 43 Abs. 2", "Art. 44 Abs. 2"],
+    "confidence": "high",
+    "reasoning": "Parenthetical '(Art. 43 Abs. 1 Bst. d und 44 Abs. 1 Bst. d AIG)' plus explicit 'Artikel 43 Absatz 2 und 44 Absatz 2 AIG'."
+  },
+  {
+    "ITEM": 133,
+    "ARTICLE_EID": "art_73_b",
+    "TARGET_SR": "SR 142.20",
+    "assigned_articles": ["Art. 42 Abs. 3", "Art. 43 Abs. 5", "Art. 42", "Art. 43"],
+    "confidence": "high",
+    "reasoning": "Parenthetical '(Art. 42 Abs. 3 und 43 Abs. 5 AIG)' and explicit 'Artikel 42 oder 43 AIG'."
+  },
+  {
+    "ITEM": 134,
+    "ARTICLE_EID": "art_74",
+    "TARGET_SR": "SR 142.20",
+    "assigned_articles": ["Art. 85c Abs. 1", "Art. 85c Abs. 1 Bst. d"],
+    "confidence": "high",
+    "reasoning": "Parenthetical '(Art. 85c Abs. 1 und 2 AIG)' and repeated 'Artikel 85c Absatz 1 AIG'; letter d is specified in ITEM 135."
+  },
+  {
+    "ITEM": 135,
+    "ARTICLE_EID": "art_74_a",
+    "TARGET_SR": "SR 142.20",
+    "assigned_articles": ["Art. 85c Abs. 1 Bst. d"],
+    "confidence": "high",
+    "reasoning": "Parenthetical '(Art. 85c Abs. 1 Bst. d AIG)'."
+  },
+  {
+    "ITEM": 136,
+    "ARTICLE_EID": "art_75",
+    "TARGET_SR": "SR 142.20",
+    "assigned_articles": ["Art. 47 Abs. 4"],
+    "confidence": "high",
+    "reasoning": "Parenthetical '(Art. 47 Abs. 4 AIG)' and repeated in text."
+  },
+  {
+    "ITEM": 137,
+    "ARTICLE_EID": "art_76",
+    "TARGET_SR": "SR 142.20",
+    "assigned_articles": ["Art. 49"],
+    "confidence": "high",
+    "reasoning": "Parenthetical '(Art. 49 AIG)'."
+  },
+  {
+    "ITEM": 138,
+    "ARTICLE_EID": "art_77",
+    "TARGET_SR": "SR 142.20",
+    "assigned_articles": ["Art. 50 Abs. 1 Bst. a"],
+    "confidence": "high",
+    "reasoning": "Parenthetical '(Art. 50 Abs. 1 Bst. a AIG)' and repeated in text."
+  },
+  {
+    "ITEM": 139,
+    "ARTICLE_EID": "art_77_a",
+    "TARGET_SR": "SR 142.20",
+    "assigned_articles": ["Art. 58a Abs. 1 Bst. a", "Art. 62 Abs. 1 Bst. c", "Art. 63 Abs. 1 Bst. b"],
+    "confidence": "high",
+    "reasoning": "Parenthetical '(Art. 58a Abs. 1 Bst. a, 62 Abs. 1 Bst. c und 63 Abs. 1 Bst. b AIG)'."
+  },
+  {
+    "ITEM": 140,
+    "ARTICLE_EID": "art_77_b",
+    "TARGET_SR": "SR 142.20",
+    "assigned_articles": ["Art. 62 Abs. 1 Bst. c", "Art. 63 Abs. 1 Bst. b"],
+    "confidence": "high",
+    "reasoning": "Parenthetical '(Art. 62 Abs. 1 Bst c und 63 Abs. 1 Bst. b AIG)'."
+  },
+  {
+    "ITEM": 141,
+    "ARTICLE_EID": "art_77_c",
+    "TARGET_SR": "SR 142.20",
+    "assigned_articles": ["Art. 58a Abs. 1 Bst. b"],
+    "confidence": "high",
+    "reasoning": "Parenthetical '(Art. 58a Abs. 1 Bst. b AIG)'."
+  },
+  {
+    "ITEM": 142,
+    "ARTICLE_EID": "art_77_d",
+    "TARGET_SR": "SR 142.20",
+    "assigned_articles": ["Art. 58a Abs. 1 Bst. c"],
+    "confidence": "high",
+    "reasoning": "Parenthetical '(Art. 58a Abs. 1 Bst. c AIG)'."
+  },
+  {
+    "ITEM": 143,
+    "ARTICLE_EID": "art_77_e",
+    "TARGET_SR": "SR 142.20",
+    "assigned_articles": ["Art. 58a Abs. 1 Bst. d"],
+    "confidence": "high",
+    "reasoning": "Parenthetical '(Art. 58a Abs. 1 Bst. d AIG)'."
+  },
+  {
+    "ITEM": 144,
+    "ARTICLE_EID": "art_77_f",
+    "TARGET_SR": "SR 142.20",
+    "assigned_articles": ["Art. 58a Abs. 2", "Art. 58a Abs. 1 Bst. c", "Art. 58a Abs. 1 Bst. d"],
+    "confidence": "high",
+    "reasoning": "Parenthetical '(Art. 58a Abs. 2 AIG)' and explicit reference to 'Integrationskriterien nach Artikel 58a Absatz 1 Buchstaben c und d AIG'."
+  },
+  {
+    "ITEM": 145,
+    "ARTICLE_EID": "art_77_g",
+    "TARGET_SR": "SR 142.20",
+    "assigned_articles": ["Art. 55a", "Art. 58b", "Art. 97 Abs. 3", "Art. 58a Abs. 1", "Art. 58a Abs. 2", "Art. 96 Abs. 1", "Art. 62a"],
+    "confidence": "high",
+    "reasoning": "Parenthetical '(Art. 55a und 58b AIG)' plus multiple explicit AIG references in the snippet."
+  },
+  {
+    "ITEM": 146,
+    "ARTICLE_EID": "art_78",
+    "TARGET_SR": "SR 142.20",
+    "assigned_articles": ["Art. 60"],
+    "confidence": "high",
+    "reasoning": "Parenthetical '(Art. 60 AIG)'."
+  },
+  {
+    "ITEM": 147,
+    "ARTICLE_EID": "art_79",
+    "TARGET_SR": "SR 142.20",
+    "assigned_articles": ["Art. 61", "Art. 61 Abs. 2"],
+    "confidence": "high",
+    "reasoning": "Parenthetical '(Art. 61 AIG)' and explicit 'Artikel 61 Absatz 2 AIG'."
+  },
+  {
+    "ITEM": 148,
+    "ARTICLE_EID": "art_81",
+    "TARGET_SR": "SR 142.20",
+    "assigned_articles": ["Art. 67"],
+    "confidence": "high",
+    "reasoning": "Parenthetical '(Art. 67 AIG)'."
+  },
+  {
+    "ITEM": 149,
+    "ARTICLE_EID": "art_82",
+    "TARGET_SR": "SR 142.20",
+    "assigned_articles": ["Art. 97 Abs. 3 Bst. a", "Art. 97 Abs. 3 Bst. b"],
+    "confidence": "high",
+    "reasoning": "Parenthetical '(Art. 97 Abs. 3 Bst. a und b AIG)'."
+  },
+  {
+    "ITEM": 150,
+    "ARTICLE_EID": "art_82_a",
+    "TARGET_SR": "SR 142.20",
+    "assigned_articles": ["Art. 97 Abs. 3 Bst. c", "Art. 51"],
+    "confidence": "high",
+    "reasoning": "Parenthetical '(Art. 97 Abs. 3 Bst. c AIG)' and explicit 'Zulassungsvorschriften nach Artikel 51 AIG'."
+  },
+  {
+    "ITEM": 151,
+    "ARTICLE_EID": "art_82_b",
+    "TARGET_SR": "SR 142.20",
+    "assigned_articles": ["Art. 97 Abs. 3 Bst. d"],
+    "confidence": "high",
+    "reasoning": "Parenthetical '(Art. 97 Abs. 3 Bst. d AIG)'."
+  },
+  {
+    "ITEM": 152,
+    "ARTICLE_EID": "art_82_c",
+    "TARGET_SR": "SR 142.20",
+    "assigned_articles": ["Art. 97 Abs. 3 Bst. dbis"],
+    "confidence": "high",
+    "reasoning": "Parenthetical '(Art. 97 Abs. 3 Bst. dbis AIG)'."
+  },
+  {
+    "ITEM": 153,
+    "ARTICLE_EID": "art_82_d",
+    "TARGET_SR": "SR 142.20",
+    "assigned_articles": ["Art. 97 Abs. 3 Bst. dter"],
+    "confidence": "high",
+    "reasoning": "Parenthetical '(Art. 97 Abs. 3 Bst. dter AIG)'."
+  },
+  {
+    "ITEM": 154,
+    "ARTICLE_EID": "art_82_e",
+    "TARGET_SR": "SR 142.20",
+    "assigned_articles": ["Art. 97 Abs. 3 Bst. dquater"],
+    "confidence": "high",
+    "reasoning": "Parenthetical '(Art. 97 Abs. 3 Bst. dquater AIG)'."
+  },
+  {
+    "ITEM": 155,
+    "ARTICLE_EID": "art_82_f",
+    "TARGET_SR": "SR 142.20",
+    "assigned_articles": ["Art. 97 Abs. 3 Bst. dquinquies"],
+    "confidence": "high",
+    "reasoning": "Parenthetical '(Art. 97 Abs. 3 Bst. dquinquies AIG)'."
+  },
+  {
+    "ITEM": 156,
+    "ARTICLE_EID": "art_83",
+    "TARGET_SR": "SR 142.20",
+    "assigned_articles": ["Art. 40 Abs. 2", "Art. 18–25", "Art. 26", "Art. 38 Abs. 3"],
+    "confidence": "high",
+    "reasoning": "Parenthetical '(Art. 40 Abs. 2 AIG)' and explicit references to these AIG provisions."
+  },
+  {
+    "ITEM": 157,
+    "ARTICLE_EID": "art_85",
+    "TARGET_SR": "SR 142.20",
+    "assigned_articles": ["Art. 30 Abs. 2", "Art. 99"],
+    "confidence": "high",
+    "reasoning": "Parenthetical '(Art. 30 Abs. 2 und 99 AIG)'."
+  },
+  {
+    "ITEM": 158,
+    "ARTICLE_EID": "art_86",
+    "TARGET_SR": "SR 142.20",
+    "assigned_articles": ["Art. 62", "Art. 34"],
+    "confidence": "high",
+    "reasoning": "Snippet mentions 'Widerrufsgründe nach Artikel 62 AIG' and 'Erteilung der Niederlassungsbewilligung nach Artikel 34 AIG'."
+  },
+  {
+    "ITEM": 159,
+    "ARTICLE_EID": "art_87",
+    "TARGET_SR": "SR 142.20",
+    "assigned_articles": ["Art. 102 Abs. 2", "Art. 68a Abs. 1"],
+    "confidence": "high",
+    "reasoning": "Parenthetical '(Art. 102 Abs. 2 AIG)' and explicit 'Rückkehrentscheids nach Artikel 68a Absatz 1 AIG'."
+  },
+  {
+    "ITEM": 160,
+    "ARTICLE_EID": "art_87_a",
+    "TARGET_SR": "SR 142.20",
+    "assigned_articles": ["Art. 111i", "Art. 111i Abs. 6"],
+    "confidence": "high",
+    "reasoning": "Parenthetical '(Art. 111i AIG)' and explicit 'Artikel 111i Absatz 6 AIG'."
+  },
+  {
+    "ITEM": 161,
+    "ARTICLE_EID": "art_87_a",
+    "TARGET_SR": "SR 142.31",
+    "assigned_articles": ["Art. 102ater"],
+    "confidence": "high",
+    "reasoning": "Snippet: 'nach Artikel 102ater AsylG'; explicit AsylG article."
+  },
+  {
+    "ITEM": 162,
+    "ARTICLE_EID": "art_88",
+    "TARGET_SR": "SR 142.20",
+    "assigned_articles": ["Art. 88", "Art. 88 Abs. 1"],
+    "confidence": "high",
+    "reasoning": "Snippet refers to 'kantonalen Migrationsbehörde (Art. 88 Abs. 1)' and 'Vollzug des AIG'; Art. 88 is clearly the governing provision."
+  },
+  {
+    "ITEM": 163,
+    "ARTICLE_EID": "art_88_a",
+    "TARGET_SR": "SR 142.20",
+    "assigned_articles": ["Art. 64 Abs. 4", "Art. 64a Abs. 3bis", "Art. 73–81"],
+    "confidence": "high",
+    "reasoning": "Parenthetical '(Art. 64 Abs. 4 und 5 und Art. 64a Abs. 3bis AIG)' and explicit 'Zwangsmassnahmen nach den Artikeln 73–81 AIG'."
+  },
+  {
+    "ITEM": 164,
+    "ARTICLE_EID": "art_89_a",
+    "TARGET_SR": "SR 142.20",
+    "assigned_articles": ["Art. 111d Abs. 3"],
+    "confidence": "high",
+    "reasoning": "Snippet: 'im Sinne von Artikel 111d Absatz 3 AIG'; explicit."
+  },
+  {
+    "ITEM": 165,
+    "ARTICLE_EID": "art_8",
+    "TARGET_SR": "SR 142.20",
+    "assigned_articles": ["Art. 89", "Art. 90 Bst. c"],
+    "confidence": "high",
+    "reasoning": "Artikel_reference repeats 'Art. 89 und 90 Bst. c AIG'; these are already assigned in ITEM 60 but correctly refer to AIG."
+  },
+  {
+    "ITEM": 166,
+    "ARTICLE_EID": "art_8",
+    "TARGET_SR": "SR 143.5",
+    "assigned_articles": ["Art. 4 Abs. 1", "Art. 4 Abs. 2 Bst. a"],
+    "confidence": "high",
+    "reasoning": "Self-reference snippet restates the condition already linked in ITEM 3: 'Artikel 4 Absatz 1 oder Absatz 2 Buchstabe a ... (RDV)'; belongs to SR 143.5."
+  },
+  {
+    "ITEM": 167,
+    "ARTICLE_EID": "art_8",
+    "TARGET_SR": "SR 143.5",
+    "assigned_articles": ["Art. 3"],
+    "confidence": "medium",
+    "reasoning": "Refers to 'Reiseausweis für Flüchtlinge gemäss Artikel 3 RDV'; RDV is SR 143.5, so Art. 3 RDV applies."
+  },
+  {
+    "ITEM": 168,
+    "ARTICLE_EID": "art_9",
+    "TARGET_SR": "SR 142.20",
+    "assigned_articles": ["Art. 5"],
+    "confidence": "high",
+    "reasoning": "Self-reference 'Artikel 5 AIG' clearly refers to AIG."
+  },
+  {
+    "ITEM": 169,
+    "ARTICLE_EID": "art_10",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Reference '(Art. 5)' here is to Art. 5 of the same ordinance (self-reference), not tied to an external SR; per rules, treat as internal and do not assign to a TARGET_SR."
+  },
+  {
+    "ITEM": 170,
+    "ARTICLE_EID": "art_10",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "References '(Art. 9)' are internal to the ordinance; no external SR mentioned."
+  },
+  {
+    "ITEM": 171,
+    "ARTICLE_EID": "art_11",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Reference '(Art. 88 Abs. 1)' is to Art. 88 of the same ordinance (definition of kantonale Migrationsbehörde), not to AIG; no SR acronym or number is attached."
+  },
+  {
+    "ITEM": 172,
+    "ARTICLE_EID": "art_12",
+    "TARGET_SR": "SR 142.20",
+    "assigned_articles": ["Art. 5", "Art. 19 Abs. 4 Bst. a", "Art. 19a Abs. 2", "Art. 19b Abs. 2 Bst. a"],
+    "confidence": "high",
+    "reasoning": "All cited provisions (Art. 5, 19, 19a, 19b) are explicitly marked with 'AIG' in the same sentence; they belong to SR 142.20."
+  },
+  {
+    "ITEM": 173,
+    "ARTICLE_EID": "art_12",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Reference '(Art. 5)' here is to Art. 5 of the same ordinance (Einreiseerlaubnis), not to AIG; no SR marker."
+  },
+  {
+    "ITEM": 174,
+    "ARTICLE_EID": "art_12",
+    "TARGET_SR": "SR 142.20",
+    "assigned_articles": ["Art. 19 Abs. 4 Bst. b", "Art. 19b Abs. 2 Bst. b"],
+    "confidence": "high",
+    "reasoning": "Cites 'Art. 19 Abs. 4 Bst. b und 19b Abs. 2 Bst. b' in the context of Einreiseerlaubnis; these are AIG provisions."
+  },
+  {
+    "ITEM": 175,
+    "ARTICLE_EID": "art_13",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Reference 'Artikel 9' is internal to the ordinance; no SR or acronym indicates an external law."
+  },
+  {
+    "ITEM": 176,
+    "ARTICLE_EID": "art_14",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Reference '(Art. 3)' is to the definition article within the same ordinance; no external SR."
+  },
+  {
+    "ITEM": 177,
+    "ARTICLE_EID": "art_14",
+    "TARGET_SR": "SR 943.1",
+    "assigned_articles": ["Art. 2 Abs. 1 Bst. a", "Art. 2 Abs. 1 Bst. b"],
+    "confidence": "high",
+    "reasoning": "Same Reisendengewerbe reference as ITEM 4; belongs to SR 943.1."
+  },
+  {
+    "ITEM": 178,
+    "ARTICLE_EID": "art_15",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "References '(Art. 17)' are internal to the ordinance; no SR marker."
+  },
+  {
+    "ITEM": 179,
+    "ARTICLE_EID": "art_16",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Reference 'Artikel 17' is internal; no external SR."
+  },
+  {
+    "ITEM": 180,
+    "ARTICLE_EID": "art_20_a",
+    "TARGET_SR": "SR 142.20",
+    "assigned_articles": ["Art. 19a Abs. 2"],
+    "confidence": "high",
+    "reasoning": "Cites 'Artikel 19a Absatz 2' in the context of Höchstzahlen; this is an AIG provision."
+  },
+  {
+    "ITEM": 181,
+    "ARTICLE_EID": "art_21",
+    "TARGET_SR": "SR 142.20",
+    "assigned_articles": ["Art. 19–20b"],
+    "confidence": "high",
+    "reasoning": "Reference '(Art. 19–20b)' is explicitly to AIG articles in the same context; they belong to SR 142.20."
+  },
+  {
+    "ITEM": 182,
+    "ARTICLE_EID": "art_22_a",
+    "TARGET_SR": "SR 220",
+    "assigned_articles": ["Art. 360a"],
+    "confidence": "high",
+    "reasoning": "Same OR reference as ITEM 15; SR 220, Art. 360a."
+  },
+  {
+    "ITEM": 183,
+    "ARTICLE_EID": "art_22_b",
+    "TARGET_SR": "SR 142.20",
+    "assigned_articles": ["Art. 58a Abs. 1 Bst. a", "Art. 58a Abs. 1 Bst. b"],
+    "confidence": "high",
+    "reasoning": "Explicit 'Artikel 58a Absatz 1 Buchstaben a und b AIG'; AIG provisions."
+  },
+  {
+    "ITEM": 184,
+    "ARTICLE_EID": "art_23",
+    "TARGET_SR": "SR 142.20",
+    "assigned_articles": ["Art. 27 Abs. 1 Bst. d"],
+    "confidence": "high",
+    "reasoning": "Explicit '(Art. 27 Abs. 1 Bst. d AIG)'; AIG."
+  },
+  {
+    "ITEM": 185,
+    "ARTICLE_EID": "art_23",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Reference 'Artikeln 38−40' is to articles of the same ordinance; no external SR."
+  },
+  {
+    "ITEM": 186,
+    "ARTICLE_EID": "art_26",
+    "TARGET_SR": "SR 142.20",
+    "assigned_articles": ["Art. 18 Bst. b"],
+    "confidence": "high",
+    "reasoning": "Explicit 'Artikel 18 Buchstabe b AIG'; AIG."
+  },
+  {
+    "ITEM": 187,
+    "ARTICLE_EID": "art_26",
+    "TARGET_SR": "SR 142.20",
+    "assigned_articles": ["Art. 22"],
+    "confidence": "high",
+    "reasoning": "Explicit 'Artikel 22 AIG'; AIG."
+  },
+  {
+    "ITEM": 188,
+    "ARTICLE_EID": "art_26",
+    "TARGET_SR": "SR 142.20",
+    "assigned_articles": ["Art. 23"],
+    "confidence": "high",
+    "reasoning": "Explicit 'Artikel 23 AIG'; AIG."
+  },
+  {
+    "ITEM": 189,
+    "ARTICLE_EID": "art_29",
+    "TARGET_SR": "SR 142.20",
+    "assigned_articles": ["Art. 42"],
+    "confidence": "high",
+    "reasoning": "Explicit 'Artikel 42 AIG'; AIG."
+  },
+  {
+    "ITEM": 190,
+    "ARTICLE_EID": "art_29",
+    "TARGET_SR": "SR 142.20",
+    "assigned_articles": ["Art. 18 Bst. b"],
+    "confidence": "high",
+    "reasoning": "Explicit 'Artikel 18 Buchstabe b AIG'; AIG."
+  },
+  {
+    "ITEM": 191,
+    "ARTICLE_EID": "art_29",
+    "TARGET_SR": "SR 142.20",
+    "assigned_articles": ["Art. 22"],
+    "confidence": "high",
+    "reasoning": "Explicit 'Artikel 22 AIG'; AIG."
+  },
+  {
+    "ITEM": 192,
+    "ARTICLE_EID": "art_29",
+    "TARGET_SR": "SR 142.20",
+    "assigned_articles": ["Art. 24"],
+    "confidence": "high",
+    "reasoning": "Explicit 'Artikel 24 AIG'; AIG."
+  },
+  {
+    "ITEM": 193,
+    "ARTICLE_EID": "art_29",
+    "TARGET_SR": "SR 142.20",
+    "assigned_articles": ["Art. 19 Bst. b"],
+    "confidence": "high",
+    "reasoning": "Explicit '(Art. 19 Bst. b AIG)'; AIG."
+  },
+  {
+    "ITEM": 194,
+    "ARTICLE_EID": "art_29",
+    "TARGET_SR": "SR 142.20",
+    "assigned_articles": ["Art. 24"],
+    "confidence": "high",
+    "reasoning": "Again 'Artikel 24 AIG'; AIG."
+  },
+  {
+    "ITEM": 195,
+    "ARTICLE_EID": "art_30",
+    "TARGET_SR": "SR 141.0",
+    "assigned_articles": ["Art. 37", "Art. 36", "Art. 42"],
+    "confidence": "high",
+    "reasoning": "References '(Art. 37 BüG)', 'Artikel 36 des BüG', and 'Artikel 42 des BüG'; all are provisions of SR 141.0."
+  },
+  {
+    "ITEM": 196,
+    "ARTICLE_EID": "art_30",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Reference 'Artikel 29 Absätze 2 oder 3' is to Art. 29 of the same ordinance; no external SR."
+  },
+  {
+    "ITEM": 197,
+    "ARTICLE_EID": "art_30",
+    "TARGET_SR": "SR 142.20",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "medium",
+    "reasoning": "Sentence 'gelten die allgemeinen Zulassungsvoraussetzungen des AIG' invokes AIG as a whole; no specific article is cited."
+  },
+  {
+    "ITEM": 198,
+    "ARTICLE_EID": "art_30_a",
+    "TARGET_SR": "SR 142.20",
+    "assigned_articles": ["Art. 18 Bst. b"],
+    "confidence": "high",
+    "reasoning": "Explicit 'Artikel 18 Buchstabe b AIG'; AIG."
+  },
+  {
+    "ITEM": 199,
+    "ARTICLE_EID": "art_30_a",
+    "TARGET_SR": "SR 142.20",
+    "assigned_articles": ["Art. 22"],
+    "confidence": "high",
+    "reasoning": "Explicit 'Artikel 22 AIG'; AIG."
+  },
+  {
+    "ITEM": 200,
+    "ARTICLE_EID": "art_30_a",
+    "TARGET_SR": "SR 142.20",
+    "assigned_articles": ["Art. 58a Abs. 1"],
+    "confidence": "high",
+    "reasoning": "Explicit 'Artikel 58a Absatz 1 AIG'; AIG."
+  },
+  {
+    "ITEM": 201,
+    "ARTICLE_EID": "art_30_a",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Reference 'Artikel 31' is to Art. 31 of the same ordinance; no external SR."
+  },
+  {
+    "ITEM": 202,
+    "ARTICLE_EID": "art_30_a",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Again 'Artikel 31' is internal; no SR marker."
+  },
+  {
+    "ITEM": 203,
+    "ARTICLE_EID": "art_31",
+    "TARGET_SR": "SR 142.20",
+    "assigned_articles": ["Art. 58a Abs. 1"],
+    "confidence": "high",
+    "reasoning": "Explicit 'Artikel 58a Absatz 1 AIG'; AIG."
+  },
+  {
+    "ITEM": 204,
+    "ARTICLE_EID": "art_31",
+    "TARGET_SR": "SR 142.31",
+    "assigned_articles": ["Art. 43"],
+    "confidence": "high",
+    "reasoning": "Explicit 'Artikel 43 AsylG'; AsylG."
+  },
+  {
+    "ITEM": 205,
+    "ARTICLE_EID": "art_31",
+    "TARGET_SR": "SR 142.20",
+    "assigned_articles": ["Art. 84 Abs. 5"],
+    "confidence": "high",
+    "reasoning": "Explicit 'Artikel 84 Absatz 5 AIG'; AIG."
+  },
+  {
+    "ITEM": 206,
+    "ARTICLE_EID": "art_32",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Reference 'Artikel 29 Absätze 2 oder 3' is internal to the ordinance; no external SR."
+  },
+  {
+    "ITEM": 207,
+    "ARTICLE_EID": "art_35",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Only internal references (Art. 88 Abs. 1, Art. 35) and no SR; self-referential."
+  },
+  {
+    "ITEM": 208,
+    "ARTICLE_EID": "art_36",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "References '(Art. 88 Abs. 1)' and '(Art. 35)' are internal; no external SR."
+  },
+  {
+    "ITEM": 209,
+    "ARTICLE_EID": "art_36",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Reference 'Artikel 35 Absatz 3' is internal; no SR."
+  },
+  {
+    "ITEM": 210,
+    "ARTICLE_EID": "art_36",
+    "TARGET_SR": "SR 142.20",
+    "assigned_articles": ["Art. 18 Bst. b"],
+    "confidence": "high",
+    "reasoning": "Explicit 'Artikel 18 Buchstabe b AIG'; AIG."
+  },
+  {
+    "ITEM": 211,
+    "ARTICLE_EID": "art_36",
+    "TARGET_SR": "SR 142.20",
+    "assigned_articles": ["Art. 22"],
+    "confidence": "high",
+    "reasoning": "Explicit 'Artikel 22 AIG'; AIG."
+  },
+  {
+    "ITEM": 212,
+    "ARTICLE_EID": "art_36",
+    "TARGET_SR": "SR 142.20",
+    "assigned_articles": ["Art. 24"],
+    "confidence": "high",
+    "reasoning": "Explicit 'Artikel 24 AIG'; AIG."
+  },
+  {
+    "ITEM": 213,
+    "ARTICLE_EID": "art_36",
+    "TARGET_SR": "SR 142.20",
+    "assigned_articles": ["Art. 31", "Art. 83"],
+    "confidence": "high",
+    "reasoning": "Explicit '(Art. 31)' and '(Art. 83 AIG)'; Art. 31 is internal to the ordinance, but 'Art. 83 AIG' belongs to SR 142.20."
+  },
+  {
+    "ITEM": 214,
+    "ARTICLE_EID": "art_36_a",
+    "TARGET_SR": "SR 312.2",
+    "assigned_articles": ["Art. 8"],
+    "confidence": "high",
+    "reasoning": "Same ZeugSG reference as ITEM 19; SR 312.2, Art. 8."
+  },
+  {
+    "ITEM": 215,
+    "ARTICLE_EID": "art_36_a",
+    "TARGET_SR": "SR 312.2",
+    "assigned_articles": ["Art. 28"],
+    "confidence": "high",
+    "reasoning": "Explicit 'Artikel 28 ZeugSG'; ZeugSG is SR 312.2."
+  },
+  {
+    "ITEM": 216,
+    "ARTICLE_EID": "art_36_a",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Reference 'Artikel 29 Absätze 2 oder 3' is internal to the ordinance; no external SR."
+  },
+  {
+    "ITEM": 217,
+    "ARTICLE_EID": "art_37",
+    "TARGET_SR": "SR 142.20",
+    "assigned_articles": ["Art. 18 Bst. b"],
+    "confidence": "high",
+    "reasoning": "Explicit 'Artikel 18 Buchstabe b AIG'; AIG."
+  },
+  {
+    "ITEM": 218,
+    "ARTICLE_EID": "art_37",
+    "TARGET_SR": "SR 142.20",
+    "assigned_articles": ["Art. 20"],
+    "confidence": "high",
+    "reasoning": "Explicit 'Artikel 20 AIG'; AIG."
+  },
+  {
+    "ITEM": 219,
+    "ARTICLE_EID": "art_37",
+    "TARGET_SR": "SR 142.20",
+    "assigned_articles": ["Art. 22"],
+    "confidence": "high",
+    "reasoning": "Explicit 'Artikel 22 AIG'; AIG."
+  },
+  {
+    "ITEM": 220,
+    "ARTICLE_EID": "art_37",
+    "TARGET_SR": "SR 142.20",
+    "assigned_articles": ["Art. 24"],
+    "confidence": "high",
+    "reasoning": "Explicit 'Art. 24 AIG'; AIG."
+  },
+  {
+    "ITEM": 221,
+    "ARTICLE_EID": "art_38",
+    "TARGET_SR": "SR 142.20",
+    "assigned_articles": ["Art. 18 Bst. b"],
+    "confidence": "high",
+    "reasoning": "Explicit 'Artikel 18 Buchstabe b AIG'; AIG."
+  },
+  {
+    "ITEM": 222,
+    "ARTICLE_EID": "art_38",
+    "TARGET_SR": "SR 142.20",
+    "assigned_articles": ["Art. 22"],
+    "confidence": "high",
+    "reasoning": "Explicit 'Artikel 22 AIG'; AIG."
+  },
+  {
+    "ITEM": 223,
+    "ARTICLE_EID": "art_39",
+    "TARGET_SR": "SR 142.20",
+    "assigned_articles": ["Art. 18 Bst. b"],
+    "confidence": "high",
+    "reasoning": "Explicit 'Artikel 18 Buchstabe b AIG'; AIG."
+  },
+  {
+    "ITEM": 224,
+    "ARTICLE_EID": "art_39",
+    "TARGET_SR": "SR 142.20",
+    "assigned_articles": ["Art. 22"],
+    "confidence": "high",
+    "reasoning": "Explicit 'Artikel 22 AIG'; AIG."
+  },
+  {
+    "ITEM": 225,
+    "ARTICLE_EID": "art_39",
+    "TARGET_SR": "SR 142.20",
+    "assigned_articles": ["Art. 24"],
+    "confidence": "high",
+    "reasoning": "Explicit 'Artikel 24 AIG'; AIG."
+  },
+  {
+    "ITEM": 226,
+    "ARTICLE_EID": "art_40",
+    "TARGET_SR": "SR 142.20",
+    "assigned_articles": ["Art. 18 Bst. b"],
+    "confidence": "high",
+    "reasoning": "Explicit 'Artikel 18 Buchstabe b AIG'; AIG."
+  },
+  {
+    "ITEM": 227,
+    "ARTICLE_EID": "art_40",
+    "TARGET_SR": "SR 142.20",
+    "assigned_articles": ["Art. 22"],
+    "confidence": "high",
+    "reasoning": "Explicit 'Artikel 22 AIG'; AIG."
+  },
+  {
+    "ITEM": 228,
+    "ARTICLE_EID": "art_41",
+    "TARGET_SR": "SR 142.20",
+    "assigned_articles": ["Art. 18 Bst. a"],
+    "confidence": "high",
+    "reasoning": "Explicit 'Artikel 18 Buchstabe a AIG'; AIG."
+  },
+  {
+    "ITEM": 229,
+    "ARTICLE_EID": "art_41",
+    "TARGET_SR": "SR 142.20",
+    "assigned_articles": ["Art. 18 Bst. b"],
+    "confidence": "high",
+    "reasoning": "Explicit 'Artikel 18 Buchstabe b AIG'; AIG."
+  },
+  {
+    "ITEM": 230,
+    "ARTICLE_EID": "art_41",
+    "TARGET_SR": "SR 142.20",
+    "assigned_articles": ["Art. 20"],
+    "confidence": "high",
+    "reasoning": "Explicit 'Artikel 20 AIG'; AIG."
+  },
+  {
+    "ITEM": 231,
+    "ARTICLE_EID": "art_41",
+    "TARGET_SR": "SR 142.20",
+    "assigned_articles": ["Art. 22"],
+    "confidence": "high",
+    "reasoning": "Explicit 'Artikel 22 AIG'; AIG."
+  },
+  {
+    "ITEM": 232,
+    "ARTICLE_EID": "art_41",
+    "TARGET_SR": "SR 142.20",
+    "assigned_articles": ["Art. 23"],
+    "confidence": "high",
+    "reasoning": "Explicit 'Artikel 23 AIG'; AIG."
+  },
+  {
+    "ITEM": 233,
+    "ARTICLE_EID": "art_41",
+    "TARGET_SR": "SR 142.20",
+    "assigned_articles": ["Art. 24"],
+    "confidence": "high",
+    "reasoning": "Explicit 'Artikel 24 AIG'; AIG."
+  },
+  {
+    "ITEM": 234,
+    "ARTICLE_EID": "art_45",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "References '(Art. 43 Abs. 2)' and 'Artikel 43 Absatz 1 Buchstaben a und b' are to articles of the same ordinance, not to AIG; no SR marker."
+  },
+  {
+    "ITEM": 235,
+    "ARTICLE_EID": "art_45",
+    "TARGET_SR": "SR 142.20",
+    "assigned_articles": ["Art. 22"],
+    "confidence": "high",
+    "reasoning": "Explicit 'Artikel 22 AIG'; AIG."
+  },
+  {
+    "ITEM": 236,
+    "ARTICLE_EID": "art_46",
+    "TARGET_SR": "SR 142.20",
+    "assigned_articles": ["Art. 18 Bst. a"],
+    "confidence": "high",
+    "reasoning": "Explicit 'Artikel 18 Buchstabe a AIG'; AIG."
+  },
+  {
+    "ITEM": 237,
+    "ARTICLE_EID": "art_46",
+    "TARGET_SR": "SR 142.20",
+    "assigned_articles": ["Art. 18 Bst. b"],
+    "confidence": "high",
+    "reasoning": "Explicit 'Artikel 18 Buchstabe b AIG'; AIG."
+  },
+  {
+    "ITEM": 238,
+    "ARTICLE_EID": "art_46",
+    "TARGET_SR": "SR 142.20",
+    "assigned_articles": ["Art. 20"],
+    "confidence": "high",
+    "reasoning": "Explicit 'Artikel 20 AIG'; AIG."
+  },
+  {
+    "ITEM": 239,
+    "ARTICLE_EID": "art_46",
+    "TARGET_SR": "SR 142.20",
+    "assigned_articles": ["Art. 22"],
+    "confidence": "high",
+    "reasoning": "Explicit 'Artikel 22 AIG'; AIG."
+  },
+  {
+    "ITEM": 240,
+    "ARTICLE_EID": "art_46",
+    "TARGET_SR": "SR 142.20",
+    "assigned_articles": ["Art. 24"],
+    "confidence": "high",
+    "reasoning": "Explicit 'Artikel 24 AIG'; AIG."
+  },
+  {
+    "ITEM": 241,
+    "ARTICLE_EID": "art_48",
+    "TARGET_SR": "SR 142.20",
+    "assigned_articles": ["Art. 20"],
+    "confidence": "high",
+    "reasoning": "Explicit 'Artikel 20 AIG'; AIG."
+  },
+  {
+    "ITEM": 242,
+    "ARTICLE_EID": "art_49",
+    "TARGET_SR": "SR 142.20",
+    "assigned_articles": ["Art. 34 Abs. 5"],
+    "confidence": "high",
+    "reasoning": "Explicit '(Art. 34 Abs. 5 AIG)'; AIG."
+  },
+  {
+    "ITEM": 243,
+    "ARTICLE_EID": "art_49",
+    "TARGET_SR": "SR 142.20",
+    "assigned_articles": ["Art. 18 Bst. b"],
+    "confidence": "high",
+    "reasoning": "Explicit 'Artikel 18 Buchstabe b AIG'; AIG."
+  },
+  {
+    "ITEM": 244,
+    "ARTICLE_EID": "art_49",
+    "TARGET_SR": "SR 142.20",
+    "assigned_articles": ["Art. 22"],
+    "confidence": "high",
+    "reasoning": "Explicit 'Artikel 22 AIG'; AIG."
+  },
+  {
+    "ITEM": 245,
+    "ARTICLE_EID": "art_49",
+    "TARGET_SR": "SR 142.20",
+    "assigned_articles": ["Art. 24"],
+    "confidence": "high",
+    "reasoning": "Explicit 'Art. 24 AIG'; AIG."
+  },
+  {
+    "ITEM": 246,
+    "ARTICLE_EID": "art_50",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Reference '(Art. 88 Abs. 1)' is internal; no external SR."
+  },
+  {
+    "ITEM": 247,
+    "ARTICLE_EID": "art_50",
+    "TARGET_SR": "SR 142.20",
+    "assigned_articles": ["Art. 18 Bst. b"],
+    "confidence": "high",
+    "reasoning": "Explicit 'Artikel 18 Buchstabe b AIG'; AIG."
+  },
+  {
+    "ITEM": 248,
+    "ARTICLE_EID": "art_50",
+    "TARGET_SR": "SR 142.20",
+    "assigned_articles": ["Art. 22"],
+    "confidence": "high",
+    "reasoning": "Explicit 'Artikel 22 AIG'; AIG."
+  },
+  {
+    "ITEM": 249,
+    "ARTICLE_EID": "art_50",
+    "TARGET_SR": "SR 142.20",
+    "assigned_articles": ["Art. 24"],
+    "confidence": "high",
+    "reasoning": "Explicit 'Artikel 24 AIG'; AIG."
+  },
+  {
+    "ITEM": 250,
+    "ARTICLE_EID": "art_51",
+    "TARGET_SR": "SR 142.20",
+    "assigned_articles": ["Art. 18 Bst. b"],
+    "confidence": "high",
+    "reasoning": "Explicit 'Artikel 18 Buchstabe b AIG'; AIG."
+  },
+  {
+    "ITEM": 251,
+    "ARTICLE_EID": "art_51",
+    "TARGET_SR": "SR 142.20",
+    "assigned_articles": ["Art. 22"],
+    "confidence": "high",
+    "reasoning": "Explicit 'Artikel 22 AIG'; AIG."
+  },
+  {
+    "ITEM": 252,
+    "ARTICLE_EID": "art_51",
+    "TARGET_SR": "SR 142.20",
+    "assigned_articles": ["Art. 24"],
+    "confidence": "high",
+    "reasoning": "Explicit 'Artikel 24 AIG'; AIG."
+  },
+  {
+    "ITEM": 253,
+    "ARTICLE_EID": "art_52",
+    "TARGET_SR": "SR 142.31",
+    "assigned_articles": ["Art. 43"],
+    "confidence": "high",
+    "reasoning": "Explicit '(Art. 43 Abs. 1–3 AsylG)'; AsylG."
+  },
+  {
+    "ITEM": 254,
+    "ARTICLE_EID": "art_52",
+    "TARGET_SR": "SR 142.20",
+    "assigned_articles": ["Art. 18 Bst. b"],
+    "confidence": "high",
+    "reasoning": "Explicit 'Artikel 18 Buchstabe b AIG'; AIG."
+  },
+  {
+    "ITEM": 255,
+    "ARTICLE_EID": "art_52",
+    "TARGET_SR": "SR 142.20",
+    "assigned_articles": ["Art. 22"],
+    "confidence": "high",
+    "reasoning": "Explicit 'Artikel 22 AIG'; AIG."
+  },
+  {
+    "ITEM": 256,
+    "ARTICLE_EID": "art_52",
+    "TARGET_SR": "SR 142.20",
+    "assigned_articles": ["Art. 21"],
+    "confidence": "high",
+    "reasoning": "Explicit 'Artikel 21 AIG'; AIG."
+  },
+  {
+    "ITEM": 257,
+    "ARTICLE_EID": "art_52",
+    "TARGET_SR": "SR 311.0",
+    "assigned_articles": ["Art. 66a", "Art. 66abis"],
+    "confidence": "high",
+    "reasoning": "Explicit 'Artikel 66a oder 66abis des Strafgesetzbuchs'; SR 311.0."
+  },
+  {
+    "ITEM": 258,
+    "ARTICLE_EID": "art_53",
+    "TARGET_SR": "SR 142.20",
+    "assigned_articles": ["Art. 18 Bst. b"],
+    "confidence": "high",
+    "reasoning": "Explicit 'Artikel 18 Buchstabe b AIG'; AIG."
+  },
+  {
+    "ITEM": 259,
+    "ARTICLE_EID": "art_53",
+    "TARGET_SR": "SR 142.20",
+    "assigned_articles": ["Art. 22"],
+    "confidence": "high",
+    "reasoning": "Explicit 'Artikel 22 AIG'; AIG."
+  },
+  {
+    "ITEM": 260,
+    "ARTICLE_EID": "art_53",
+    "TARGET_SR": "SR 142.20",
+    "assigned_articles": ["Art. 19 Bst. b", "Art. 19 Bst. c"],
+    "confidence": "high",
+    "reasoning": "Explicit 'Artikel 19 Buchstaben b und c AIG'; AIG."
+  },
+  {
+    "ITEM": 261,
+    "ARTICLE_EID": "art_56",
+    "TARGET_SR": "SR 142.20",
+    "assigned_articles": ["Art. 19 Abs. 4 Bst. a", "Art. 19b Abs. 2 Bst. a"],
+    "confidence": "high",
+    "reasoning": "Explicit 'Artikel 19 Absatz 4 Buchstabe a oder Artikel 19b Absatz 2 Buchstabe a'; AIG."
+  },
+  {
+    "ITEM": 262,
+    "ARTICLE_EID": "art_56",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "References '(Art. 48)', '(Art. 23 und 24)', '(Art. 42)' are internal to the ordinance; no external SR."
+  },
+  {
+    "ITEM": 263,
+    "ARTICLE_EID": "art_57",
+    "TARGET_SR": "SR 142.20",
+    "assigned_articles": ["Art. 19 Abs. 4 Bst. a", "Art. 19b Abs. 2 Bst. a"],
+    "confidence": "high",
+    "reasoning": "Explicit 'Art. 19 Abs. 4 Bst. a und 19b Abs. 2 Bst. a'; AIG."
+  },
+  {
+    "ITEM": 264,
+    "ARTICLE_EID": "art_57",
+    "TARGET_SR": "SR 142.20",
+    "assigned_articles": ["Art. 19 Abs. 1", "Art. 19b Abs. 1"],
+    "confidence": "high",
+    "reasoning": "Explicit 'Art. 19 Abs. 1 und 19b Abs. 1'; AIG."
+  },
+  {
+    "ITEM": 265,
+    "ARTICLE_EID": "art_57",
+    "TARGET_SR": "SR 142.20",
+    "assigned_articles": ["Art. 19 Abs. 4 Bst. b", "Art. 19b Abs. 2 Bst. b"],
+    "confidence": "high",
+    "reasoning": "Explicit 'Art. 19 Abs. 4 Bst. b und 19b Abs. 2 Bst. b'; AIG."
+  },
+  {
+    "ITEM": 266,
+    "ARTICLE_EID": "art_57",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Reference '(Art. 42)' is to Art. 42 of the same ordinance; no external SR."
+  },
+  {
+    "ITEM": 267,
+    "ARTICLE_EID": "art_58",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Reference '(Art. 8)' is internal; no external SR."
+  },
+  {
+    "ITEM": 268,
+    "ARTICLE_EID": "art_60",
+    "TARGET_SR": "SR 142.20",
+    "assigned_articles": ["Art. 58a Abs. 1"],
+    "confidence": "high",
+    "reasoning": "Explicit 'Artikel 58a Absatz 1 AIG'; AIG."
+  },
+  {
+    "ITEM": 269,
+    "ARTICLE_EID": "art_61_a",
+    "TARGET_SR": "SR 142.20",
+    "assigned_articles": ["Art. 34 Abs. 6", "Art. 63 Abs. 2"],
+    "confidence": "high",
+    "reasoning": "Explicit '(Art. 34 Abs. 6 AIG)' and 'Artikel 63 Absatz 2 AIG'; AIG."
+  },
+  {
+    "ITEM": 270,
+    "ARTICLE_EID": "art_61_a",
+    "TARGET_SR": "SR 142.20",
+    "assigned_articles": ["Art. 62", "Art. 63 Abs. 2"],
+    "confidence": "high",
+    "reasoning": "Explicit 'Artikel 62 oder 63 Absatz 2 AIG'; AIG."
+  },
+  {
+    "ITEM": 271,
+    "ARTICLE_EID": "art_61_a",
+    "TARGET_SR": "SR 142.20",
+    "assigned_articles": ["Art. 58a Abs. 1"],
+    "confidence": "high",
+    "reasoning": "Explicit 'Artikel 58a Absatz 1 AIG'; AIG."
+  },
+  {
+    "ITEM": 272,
+    "ARTICLE_EID": "art_62",
+    "TARGET_SR": "SR 142.20",
+    "assigned_articles": ["Art. 58a Abs. 1"],
+    "confidence": "high",
+    "reasoning": "Explicit 'Artikel 58a Absatz 1 AIG'; AIG."
+  },
+  {
+    "ITEM": 273,
+    "ARTICLE_EID": "art_62_a",
+    "TARGET_SR": "SR 142.20",
+    "assigned_articles": ["Art. 58b"],
+    "confidence": "high",
+    "reasoning": "Explicit 'Artikel 58b AIG'; AIG."
+  },
+  {
+    "ITEM": 274,
+    "ARTICLE_EID": "art_62_a",
+    "TARGET_SR": "SR 142.20",
+    "assigned_articles": ["Art. 58a Abs. 1"],
+    "confidence": "high",
+    "reasoning": "Explicit '(Art. 58a Abs. 1 AIG)'; AIG."
+  },
+  {
+    "ITEM": 275,
+    "ARTICLE_EID": "art_62_a",
+    "TARGET_SR": "SR 142.20",
+    "assigned_articles": ["Art. 33 Abs. 2"],
+    "confidence": "high",
+    "reasoning": "Explicit '(Art. 33 Abs. 2 AIG)'; AIG."
+  },
+  {
+    "ITEM": 276,
+    "ARTICLE_EID": "art_62_a",
+    "TARGET_SR": "SR 142.20",
+    "assigned_articles": ["Art. 62 Abs. 1 Bst. d"],
+    "confidence": "high",
+    "reasoning": "Explicit '(Art. 62 Abs. 1 Bst. d AIG)'; AIG."
+  },
+  {
+    "ITEM": 277,
+    "ARTICLE_EID": "art_63",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Reference '(Art. 88 Abs. 1)' is internal; no external SR."
+  },
+  {
+    "ITEM": 278,
+    "ARTICLE_EID": "art_64",
+    "TARGET_SR": "SR 142.31",
+    "assigned_articles": ["Art. 43"],
+    "confidence": "high",
+    "reasoning": "Explicit '(Art. 43 Abs. 1–3 AsylG)'; AsylG."
+  },
+  {
+    "ITEM": 279,
+    "ARTICLE_EID": "art_64",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Reference 'Artikel 53 Absatz 1' is internal to the ordinance; no external SR."
+  },
+  {
+    "ITEM": 280,
+    "ARTICLE_EID": "art_64",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "References 'Artikel 65–65c' are internal; no external SR."
+  },
+  {
+    "ITEM": 281,
+    "ARTICLE_EID": "art_65",
+    "TARGET_SR": "SR 142.312",
+    "assigned_articles": ["Art. 23", "Art. 27"],
+    "confidence": "high",
+    "reasoning": "Same AsylV 2 reference as ITEM 23; SR 142.312, Arts. 23 and 27."
+  },
+  {
+    "ITEM": 282,
+    "ARTICLE_EID": "art_65_a",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Reference 'Artikel 65 Absätze 2–4 und 6' is internal; no external SR."
+  },
+  {
+    "ITEM": 283,
+    "ARTICLE_EID": "art_65_b",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Reference 'Artikel 83' is internal to the ordinance; no external SR."
+  },
+  {
+    "ITEM": 284,
+    "ARTICLE_EID": "art_65_c",
+    "TARGET_SR": "SR 142.20",
+    "assigned_articles": ["Art. 22"],
+    "confidence": "high",
+    "reasoning": "Explicit '(Art. 22 AIG)'; AIG."
+  },
+  {
+    "ITEM": 285,
+    "ARTICLE_EID": "art_65_c",
+    "TARGET_SR": "SR 220",
+    "assigned_articles": ["Art. 360b"],
+    "confidence": "high",
+    "reasoning": "Explicit 'Artikel 360b des Obligationenrechts'; SR 220."
+  },
+  {
+    "ITEM": 286,
+    "ARTICLE_EID": "art_67",
+    "TARGET_SR": "SR 142.20",
+    "assigned_articles": ["Art. 37 Abs. 4"],
+    "confidence": "high",
+    "reasoning": "Explicit '(Art. 37 Abs. 4 AIG)'; AIG."
+  },
+  {
+    "ITEM": 287,
+    "ARTICLE_EID": "art_67_a",
+    "TARGET_SR": "SR 142.20",
+    "assigned_articles": ["Art. 85b Abs. 2 Bst. b"],
+    "confidence": "high",
+    "reasoning": "Explicit 'Artikel 85b Absatz 2 Buchstabe b AIG'; AIG."
+  },
+  {
+    "ITEM": 288,
+    "ARTICLE_EID": "art_68",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Reference '(Artikel 36 Absatz 2)' is internal; no external SR."
+  },
+  {
+    "ITEM": 289,
+    "ARTICLE_EID": "art_69",
+    "TARGET_SR": "SR 210",
+    "assigned_articles": ["Art. 327a", "Art. 327b", "Art. 327c", "Art. 398"],
+    "confidence": "high",
+    "reasoning": "Same ZGB references as ITEM 26; SR 210."
+  },
+  {
+    "ITEM": 290,
+    "ARTICLE_EID": "art_71",
+    "TARGET_SR": "SR 142.20",
+    "assigned_articles": ["Art. 41 Abs. 1"],
+    "confidence": "high",
+    "reasoning": "Explicit 'Artikel 41 Absatz 1 AIG'; AIG."
+  },
+  {
+    "ITEM": 291,
+    "ARTICLE_EID": "art_71",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Reference '(Art. 12 Abs. 1)' is internal; no external SR."
+  },
+  {
+    "ITEM": 292,
+    "ARTICLE_EID": "art_71",
+    "TARGET_SR": "SR 142.20",
+    "assigned_articles": ["Art. 19 Abs. 4 Bst. b", "Art. 19b Abs. 2 Bst. b"],
+    "confidence": "high",
+    "reasoning": "Explicit 'Art. 19 Abs. 4 Bst. b und Art. 19b Abs. 2 Bst. b'; AIG."
+  },
+  {
+    "ITEM": 293,
+    "ARTICLE_EID": "art_71_a",
+    "TARGET_SR": "SR 142.20",
+    "assigned_articles": ["Art. 35"],
+    "confidence": "high",
+    "reasoning": "Explicit 'Artikel 35 AIG'; AIG."
+  },
+  {
+    "ITEM": 294,
+    "ARTICLE_EID": "art_71_a",
+    "TARGET_SR": "SR 142.31",
+    "assigned_articles": ["Art. 42"],
+    "confidence": "high",
+    "reasoning": "Explicit 'Artikel 42 AsylG'; AsylG."
+  },
+  {
+    "ITEM": 295,
+    "ARTICLE_EID": "art_71_a",
+    "TARGET_SR": "SR 142.20",
+    "assigned_articles": ["Art. 41 Abs. 2"],
+    "confidence": "high",
+    "reasoning": "Explicit 'Artikel 41 Absatz 2 AIG'; AIG."
+  },
+  {
+    "ITEM": 296,
+    "ARTICLE_EID": "art_71_a",
+    "TARGET_SR": "SR 142.31",
+    "assigned_articles": ["Art. 74"],
+    "confidence": "high",
+    "reasoning": "Explicit 'Artikel 74 AsylG'; AsylG."
+  },
+  {
+    "ITEM": 297,
+    "ARTICLE_EID": "art_71_a",
+    "TARGET_SR": "SR 192.121",
+    "assigned_articles": ["Art. 22"],
+    "confidence": "high",
+    "reasoning": "Explicit 'Artikel 22 der Gaststaatverordnung'; SR 192.121."
+  },
+  {
+    "ITEM": 298,
+    "ARTICLE_EID": "art_71_a",
+    "TARGET_SR": "SR 192.121",
+    "assigned_articles": ["Art. 17 Abs. 1"],
+    "confidence": "high",
+    "reasoning": "Explicit 'Artikel 17 Absatz 1 V-GSG'; SR 192.121."
+  },
+  {
+    "ITEM": 299,
+    "ARTICLE_EID": "art_71_a",
+    "TARGET_SR": "SR 142.31",
+    "assigned_articles": ["Art. 42"],
+    "confidence": "high",
+    "reasoning": "Explicit 'Artikel 42 AsylG'; AsylG."
+  },
+  {
+    "ITEM": 300,
+    "ARTICLE_EID": "art_71_b",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Reference 'Artikel 71a Absatz 1' is internal to the ordinance; no external SR."
+  },
+  {
+    "ITEM": 301,
+    "ARTICLE_EID": "art_71_d",
+    "TARGET_SR": "SR 0.142.113.672",
+    "assigned_articles": ["Art. 12"],
+    "confidence": "high",
+    "reasoning": "Explicit 'Artikel 12 des Abkommens über die erworbenen Rechte'; SR 0.142.113.672."
+  },
+  {
+    "ITEM": 302,
+    "ARTICLE_EID": "art_72_a",
+    "TARGET_SR": "SR 142.20",
+    "assigned_articles": ["Art. 102b"],
+    "confidence": "high",
+    "reasoning": "Explicit 'Artikel 102b AIG'; AIG."
+  },
+  {
+    "ITEM": 303,
+    "ARTICLE_EID": "art_72_b",
+    "TARGET_SR": "SR 142.20",
+    "assigned_articles": ["Art. 41b"],
+    "confidence": "high",
+    "reasoning": "Explicit 'Artikel 41b AIG'; AIG."
+  },
+  {
+    "ITEM": 304,
+    "ARTICLE_EID": "art_72_b",
+    "TARGET_SR": "SR 142.20",
+    "assigned_articles": ["Art. 41b"],
+    "confidence": "high",
+    "reasoning": "Same 'Artikel 41b AIG'; AIG."
+  },
+  {
+    "ITEM": 305,
+    "ARTICLE_EID": "art_72_c",
+    "TARGET_SR": "SR 142.20",
+    "assigned_articles": ["Art. 41b"],
+    "confidence": "high",
+    "reasoning": "Explicit 'Artikel 41b AIG'; AIG."
+  },
+  {
+    "ITEM": 306,
+    "ARTICLE_EID": "art_72_c",
+    "TARGET_SR": "SR 142.20",
+    "assigned_articles": ["Art. 41b"],
+    "confidence": "high",
+    "reasoning": "Same as ITEM 305."
+  },
+  {
+    "ITEM": 307,
+    "ARTICLE_EID": "art_73_a",
+    "TARGET_SR": "SR 142.20",
+    "assigned_articles": ["Art. 43 Abs. 2", "Art. 44 Abs. 2"],
+    "confidence": "high",
+    "reasoning": "Explicit 'Artikel 43 Absatz 2 und 44 Absatz 2 AIG'; AIG."
+  },
+  {
+    "ITEM": 308,
+    "ARTICLE_EID": "art_73_a",
+    "TARGET_SR": "SR 142.20",
+    "assigned_articles": ["Art. 43", "Art. 44"],
+    "confidence": "high",
+    "reasoning": "Explicit 'Artikel 43 oder 44 AIG'; AIG."
+  },
+  {
+    "ITEM": 309,
+    "ARTICLE_EID": "art_73_b",
+    "TARGET_SR": "SR 142.20",
+    "assigned_articles": ["Art. 42", "Art. 43"],
+    "confidence": "high",
+    "reasoning": "Explicit 'Artikel 42 oder 43 AIG'; AIG."
+  },
+  {
+    "ITEM": 310,
+    "ARTICLE_EID": "art_74",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Reference '(Art. 88 Abs. 1)' is internal; no external SR."
+  },
+  {
+    "ITEM": 311,
+    "ARTICLE_EID": "art_74",
+    "TARGET_SR": "SR 142.20",
+    "assigned_articles": ["Art. 85c Abs. 1"],
+    "confidence": "high",
+    "reasoning": "Explicit 'Artikel 85c Absatz 1 AIG'; AIG."
+  },
+  {
+    "ITEM": 312,
+    "ARTICLE_EID": "art_74",
+    "TARGET_SR": "SR 142.311",
+    "assigned_articles": ["Art. 37"],
+    "confidence": "high",
+    "reasoning": "Explicit 'Artikel 37 der Asylverordnung 1'; SR 142.311."
+  },
+  {
+    "ITEM": 313,
+    "ARTICLE_EID": "art_75",
+    "TARGET_SR": "SR 142.20",
+    "assigned_articles": ["Art. 47 Abs. 4"],
+    "confidence": "high",
+    "reasoning": "Explicit 'Artikel 47 Absatz 4 AIG'; AIG."
+  },
+  {
+    "ITEM": 314,
+    "ARTICLE_EID": "art_77",
+    "TARGET_SR": "SR 142.20",
+    "assigned_articles": ["Art. 50 Abs. 1 Bst. a"],
+    "confidence": "high",
+    "reasoning": "Explicit 'Artikel 50 Absatz 1 Buchstabe a AIG'; AIG."
+  },
+  {
+    "ITEM": 315,
+    "ARTICLE_EID": "art_77_b",
+    "TARGET_SR": "SR 121",
+    "assigned_articles": ["Art. 6 Abs. 1 Bst. a Ziff. 1–5"],
+    "confidence": "high",
+    "reasoning": "Same Nachrichtendienstgesetz reference as ITEM 39; SR 121."
+  },
+  {
+    "ITEM": 316,
+    "ARTICLE_EID": "art_77_f",
+    "TARGET_SR": "SR 142.20",
+    "assigned_articles": ["Art. 58a Abs. 1 Bst. c", "Art. 58a Abs. 1 Bst. d"],
+    "confidence": "high",
+    "reasoning": "Explicit 'Artikel 58a Absatz 1 Buchstaben c und d AIG'; AIG."
+  },
+  {
+    "ITEM": 317,
+    "ARTICLE_EID": "art_77_g",
+    "TARGET_SR": "SR 142.20",
+    "assigned_articles": ["Art. 97 Abs. 3"],
+    "confidence": "high",
+    "reasoning": "Explicit 'Artikel 97 Absatz 3 AIG'; AIG."
+  },
+  {
+    "ITEM": 318,
+    "ARTICLE_EID": "art_77_g",
+    "TARGET_SR": "SR 142.20",
+    "assigned_articles": ["Art. 58a Abs. 1", "Art. 58a Abs. 2"],
+    "confidence": "high",
+    "reasoning": "Explicit 'Artikel 58a Absatz 1 AIG' and '(Art. 58a Abs. 2 AIG)'; AIG."
+  },
+  {
+    "ITEM": 319,
+    "ARTICLE_EID": "art_77_g",
+    "TARGET_SR": "SR 142.205",
+    "assigned_articles": ["Art. 4"],
+    "confidence": "high",
+    "reasoning": "Explicit '(Art. 4 VIntA)'; SR 142.205."
+  },
+  {
+    "ITEM": 320,
+    "ARTICLE_EID": "art_77_g",
+    "TARGET_SR": "SR 142.20",
+    "assigned_articles": ["Art. 62a"],
+    "confidence": "high",
+    "reasoning": "Explicit '(Art. 62a)'; context shows this is AIG Art. 62a (Rückstufung)."
+  },
+  {
+    "ITEM": 321,
+    "ARTICLE_EID": "art_77_g",
+    "TARGET_SR": "SR 142.20",
+    "assigned_articles": ["Art. 96 Abs. 1"],
+    "confidence": "high",
+    "reasoning": "Explicit '(Art. 96 Abs. 1 AIG)'; AIG."
+  },
+  {
+    "ITEM": 322,
+    "ARTICLE_EID": "art_78",
+    "TARGET_SR": "SR 142.312",
+    "assigned_articles": ["Art. 62", "Art. 63", "Art. 64", "Art. 65", "Art. 66", "Art. 67", "Art. 68", "Art. 69", "Art. 70", "Art. 71", "Art. 72", "Art. 73", "Art. 74", "Art. 75", "Art. 76", "Art. 77", "Art. 78"],
+    "confidence": "high",
+    "reasoning": "Same AsylV 2 range as ITEM 41; SR 142.312."
+  },
+  {
+    "ITEM": 323,
+    "ARTICLE_EID": "art_79",
+    "TARGET_SR": "SR 142.20",
+    "assigned_articles": ["Art. 61 Abs. 2"],
+    "confidence": "high",
+    "reasoning": "Explicit 'Artikel 61 Absatz 2 AIG'; AIG."
+  },
+  {
+    "ITEM": 324,
+    "ARTICLE_EID": "art_79",
+    "TARGET_SR": "SR 142.20",
+    "assigned_articles": ["Art. 61 Abs. 2"],
+    "confidence": "high",
+    "reasoning": "Explicit '(Art. 61 Abs. 2 AIG)'; same provision."
+  },
+  {
+    "ITEM": 325,
+    "ARTICLE_EID": "art_82_a",
+    "TARGET_SR": "SR 142.20",
+    "assigned_articles": ["Art. 51"],
+    "confidence": "high",
+    "reasoning": "Explicit 'Artikel 51 AIG'; AIG."
+  },
+  {
+    "ITEM": 326,
+    "ARTICLE_EID": "art_82_g",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "References to EU regulations (Verordnung (EU) Nr. 604/2013, Verordnung (EG) Nr. 1560/2003) are not SR documents; per project scope, no SR assignment."
+  },
+  {
+    "ITEM": 327,
+    "ARTICLE_EID": "art_83",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Reference '(Art. 88 Abs. 1)' is internal; no external SR."
+  },
+  {
+    "ITEM": 328,
+    "ARTICLE_EID": "art_83",
+    "TARGET_SR": "SR 142.20",
+    "assigned_articles": ["Art. 18–25"],
+    "confidence": "high",
+    "reasoning": "Explicit 'Artikeln 18–25 AIG'; AIG range."
+  },
+  {
+    "ITEM": 329,
+    "ARTICLE_EID": "art_83",
+    "TARGET_SR": "SR 142.20",
+    "assigned_articles": ["Art. 26"],
+    "confidence": "high",
+    "reasoning": "Explicit 'Artikel 26 AIG'; AIG."
+  },
+  {
+    "ITEM": 330,
+    "ARTICLE_EID": "art_83",
+    "TARGET_SR": "SR 142.20",
+    "assigned_articles": ["Art. 38 Abs. 3"],
+    "confidence": "high",
+    "reasoning": "Explicit 'Artikel 38 Absatz 3 AIG'; AIG."
+  },
+  {
+    "ITEM": 331,
+    "ARTICLE_EID": "art_83_a",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "References to 'Richtlinie 2001/40/EG' and 'Artikel 6 Absatz 1 des Schengener Grenzkodex' are EU instruments, not SR; no SR assignment."
+  },
+  {
+    "ITEM": 332,
+    "ARTICLE_EID": "art_83_a",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "References to 'Richtlinie 2001/40/EG' and 'Entscheidung 2004/191/EG' are EU law; outside SR scope."
+  },
+  {
+    "ITEM": 333,
+    "ARTICLE_EID": "art_85",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Reference '(Art. 83)' is internal to the ordinance; no external SR."
+  },
+  {
+    "ITEM": 334,
+    "ARTICLE_EID": "art_85",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "References '(Art. 83)' and '(Art. 88 Abs. 1)' are internal; no external SR."
+  },
+  {
+    "ITEM": 335,
+    "ARTICLE_EID": "art_86",
+    "TARGET_SR": "SR 142.20",
+    "assigned_articles": ["Art. 62"],
+    "confidence": "high",
+    "reasoning": "Explicit 'Artikel 62 AIG'; AIG."
+  },
+  {
+    "ITEM": 336,
+    "ARTICLE_EID": "art_86",
+    "TARGET_SR": "SR 142.20",
+    "assigned_articles": ["Art. 34"],
+    "confidence": "high",
+    "reasoning": "Explicit 'Artikel 34 AIG'; AIG."
+  },
+  {
+    "ITEM": 337,
+    "ARTICLE_EID": "art_86",
+    "TARGET_SR": "SR 142.20",
+    "assigned_articles": ["Art. 62"],
+    "confidence": "high",
+    "reasoning": "Explicit 'Artikel 62 AIG'; AIG."
+  },
+  {
+    "ITEM": 338,
+    "ARTICLE_EID": "art_86",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "References '(Art. 5)' and '(Artikel 85 Absatz 2)' are internal to the ordinance; no external SR."
+  },
+  {
+    "ITEM": 339,
+    "ARTICLE_EID": "art_87",
+    "TARGET_SR": "SR 810.12",
+    "assigned_articles": ["Art. 50"],
+    "confidence": "high",
+    "reasoning": "Explicit 'Artikel 50 des Bundesgesetzes ... über genetische Untersuchungen beim Menschen'; SR 810.12."
+  },
+  {
+    "ITEM": 340,
+    "ARTICLE_EID": "art_87",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Reference 'Artikel 6 Absatz 1 des Schengener Grenzkodex' is to EU law, not an SR document."
+  },
+  {
+    "ITEM": 341,
+    "ARTICLE_EID": "art_87",
+    "TARGET_SR": "SR 142.20",
+    "assigned_articles": ["Art. 68a Abs. 1"],
+    "confidence": "high",
+    "reasoning": "Explicit 'Artikel 68a Absatz 1 AIG'; AIG."
+  },
+  {
+    "ITEM": 342,
+    "ARTICLE_EID": "art_87",
+    "TARGET_SR": "SR 361.3",
+    "assigned_articles": ["Art. 4 Abs. 1 Bst. e"],
+    "confidence": "high",
+    "reasoning": "Same as ITEM 47; SR 361.3."
+  },
+  {
+    "ITEM": 343,
+    "ARTICLE_EID": "art_87",
+    "TARGET_SR": "SR 361.3",
+    "assigned_articles": ["Art. 4 Abs. 1 Bst. h"],
+    "confidence": "high",
+    "reasoning": "Explicit 'Artikel 4 Absatz 1 Buchstabe h der Verordnung ...'; SR 361.3."
+  },
+  {
+    "ITEM": 344,
+    "ARTICLE_EID": "art_87",
+    "TARGET_SR": "SR 361.3",
+    "assigned_articles": ["Art. 4 Abs. 1 Bst. h"],
+    "confidence": "high",
+    "reasoning": "Same provision as ITEM 343."
+  },
+  {
+    "ITEM": 345,
+    "ARTICLE_EID": "art_87",
+    "TARGET_SR": "SR 142.513",
+    "assigned_articles": ["Art. 2", "Art. 4", "Art. 9", "Art. 11", "Art. 16", "Art. 17", "Art. 18", "Art. 19"],
+    "confidence": "high",
+    "reasoning": "Same ZEMIS-Verordnung reference as ITEM 48; SR 142.513."
+  },
+  {
+    "ITEM": 346,
+    "ARTICLE_EID": "art_87",
+    "TARGET_SR": "SR 142.513",
+    "assigned_articles": ["Anhang 1"],
+    "confidence": "medium",
+    "reasoning": "Mentions 'Anhang 1 der ZEMIS-Verordnung'; annex belongs to SR 142.513; no specific article, so annex as unit."
+  },
+  {
+    "ITEM": 347,
+    "ARTICLE_EID": "art_87",
+    "TARGET_SR": "SR 142.204",
+    "assigned_articles": ["Art. 4 Abs. 2"],
+    "confidence": "high",
+    "reasoning": "Same humanitäres Visum reference as ITEM 49; SR 142.204."
+  },
+  {
+    "ITEM": 348,
+    "ARTICLE_EID": "art_87_a",
+    "TARGET_SR": "SR 142.314",
+    "assigned_articles": ["Art. 11"],
+    "confidence": "high",
+    "reasoning": "Same AsylV 3 Art. 11 reference as ITEM 50."
+  },
+  {
+    "ITEM": 349,
+    "ARTICLE_EID": "art_87_b",
+    "TARGET_SR": "SR 142.314",
+    "assigned_articles": ["Art. 11a"],
+    "confidence": "high",
+    "reasoning": "Same AsylV 3 Art. 11a reference as ITEM 51."
+  },
+  {
+    "ITEM": 350,
+    "ARTICLE_EID": "art_87_c",
+    "TARGET_SR": "SR 170.32",
+    "assigned_articles": ["Art. 19a", "Art. 19b", "Art. 19c"],
+    "confidence": "high",
+    "reasoning": "Same Verantwortlichkeitsgesetz reference as ITEM 52."
+  },
+  {
+    "ITEM": 351,
+    "ARTICLE_EID": "art_87_d",
+    "TARGET_SR": "SR 142.314",
+    "assigned_articles": ["Art. 11c", "Art. 12"],
+    "confidence": "high",
+    "reasoning": "Same AsylV 3 reference as ITEM 53."
+  },
+  {
+    "ITEM": 352,
+    "ARTICLE_EID": "art_88_a",
+    "TARGET_SR": "SR 142.20",
+    "assigned_articles": ["Art. 64 Abs. 4", "Art. 64a Abs. 3bis"],
+    "confidence": "high",
+    "reasoning": "Explicit 'Artikel 64 Absatz 4 oder Artikel 64a Absatz 3bis AIG'; AIG."
+  },
+  {
+    "ITEM": 353,
+    "ARTICLE_EID": "art_88_a",
+    "TARGET_SR": "SR 142.20",
+    "assigned_articles": ["Art. 73–81"],
+    "confidence": "high",
+    "reasoning": "Explicit 'Artikeln 73–81 AIG'; AIG range."
+  },
+  {
+    "ITEM": 354,
+    "ARTICLE_EID": "art_90_a",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Reference 'Artikel 13a' is internal to the ordinance; no external SR."
+  },
+  {
+    "ITEM": 355,
+    "ARTICLE_EID": "art_90_a",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "References 'Artikel 63 oder 72' are internal; no external SR."
+  },
+  {
+    "ITEM": 356,
+    "ARTICLE_EID": "art_91_c",
+    "TARGET_SR": "SR 142.20",
+    "assigned_articles": ["Art. 77d Abs. 1 Bst. d", "Art. 22a"],
+    "confidence": "medium",
+    "reasoning": "Refers to 'Artikel 77d Absatz 1 Buchstabe d' and 'Artikel 22a'; context shows these are articles of the same ordinance, not AIG; no SR marker, so no external assignment."
+  },
+  {
+    "ITEM": 357,
+    "ARTICLE_EID": "art_91_c",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "References 'Artikel 82b' are internal; no external SR."
+  },
+  {
+    "ITEM": 358,
+    "ARTICLE_EID": "art_91_d",
+    "TARGET_SR": "SR 0.142.113.672",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "medium",
+    "reasoning": "Refers generically to 'Abkommen über die erworbenen Rechte'; no specific article is cited in this sentence, though Art. 12 is relevant elsewhere."
+  }
+]

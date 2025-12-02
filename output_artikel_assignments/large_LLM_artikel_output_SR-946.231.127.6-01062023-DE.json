@@ -1,0 +1,233 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 946.231",
+    "assigned_articles": [
+      "Art. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Formulierung «gestützt auf Artikel 2 des Embargogesetzes … SR 946.231 (EmbG)» verweist eindeutig auf Art. 2 EmbG; keine weiteren Artikel des EmbG werden genannt."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": "SR 946.202",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "Es wird nur «die Bestimmungen des Güterkontrollgesetzes … SR 946.202» erwähnt, ohne konkrete Artikelangabe; dies ist ein genereller Verweis auf das ganze Gesetz."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": "SR 514.51",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "Es wird nur «die Bestimmungen des Kriegsmaterialgesetzes … SR 514.51» erwähnt, ohne Artikelnummer; daher allgemeiner Gesetzesverweis."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_16",
+    "TARGET_SR": "SR 170.512.1",
+    "assigned_articles": [
+      "Art. 20 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Autorentext steht ausdrücklich «in Anwendung von Art. 20 Abs. 2 der Publikationsverordnung … (SR 170.512.1)»; klare Zuordnung zu Art. 20 Abs. 2 PublV."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_17",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": [
+      "Art. 26"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Satz lautet «Anmeldepflichtige Personen nach Artikel 26 des Zollgesetzes … SR 631.0»; damit ist eindeutig Art. 26 des Zollgesetzes gemeint."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_19",
+    "TARGET_SR": "SR 946.231",
+    "assigned_articles": [
+      "Art. 9",
+      "Art. 10"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Snippet wird dreimal explizit auf «Artikel 9 EmbG» und «Artikel 10 EmbG» verwiesen; andere EmbG-Artikel werden nicht genannt."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«… einschliesslich der Personen … nach Artikel 9 Absatz 1» bezieht sich ohne SR-Nennung auf einen Artikel derselben Verordnung; daher Selbstverweis."
+  },
+  {
+    "ITEM": 8,
+    "ARTICLE_EID": "art_10",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«… von der Sperrung nach Artikel 9 betroffenen …» verweist auf Art. 9 derselben Verordnung; kein externes SR genannt."
+  },
+  {
+    "ITEM": 9,
+    "ARTICLE_EID": "art_16",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Aufzählung «nach den Artikeln 3–14, … 15 … 18» betrifft die in dieser Verordnung geregelten Massnahmen; keine externe Rechtsquelle."
+  },
+  {
+    "ITEM": 10,
+    "ARTICLE_EID": "art_16",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«… Vollzug der Massnahmen nach Artikel 15a» ist ein klarer Verweis auf einen eigenen Artikel der Verordnung."
+  },
+  {
+    "ITEM": 11,
+    "ARTICLE_EID": "art_16",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«… Vollzug der Massnahmen nach Artikel 15» bezieht sich auf Art. 15 derselben Verordnung; kein SR-Kontext."
+  },
+  {
+    "ITEM": 12,
+    "ARTICLE_EID": "art_16",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«… Vollzug der Massnahmen nach den Artikeln 2–2b» verweist auf interne Artikelnummern; keine externe Gesetzesangabe."
+  },
+  {
+    "ITEM": 13,
+    "ARTICLE_EID": "art_17",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "Hier wird «Artikel 26 des Zollgesetzes» erwähnt, aber ohne SR-Angabe; im Rahmen des Typs artikel_reference dient dies der internen Struktur, nicht als SR-Link."
+  },
+  {
+    "ITEM": 14,
+    "ARTICLE_EID": "art_18",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«… unter die Sperrung nach Artikel 9 Absätze 1 und 2 fallen» ist ein Verweis auf Art. 9 derselben Verordnung; kein externer SR-Bezug."
+  },
+  {
+    "ITEM": 15,
+    "ARTICLE_EID": "art_19",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«Wer gegen die Artikel 2–15a oder 22 Absätze 1–5 verstösst» beschreibt interne Tatbestände dieser Verordnung; der anschliessende Verweis auf EmbG ist im separaten preamble_acronym-Item abgedeckt."
+  },
+  {
+    "ITEM": 16,
+    "ARTICLE_EID": "art_19",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«Wer gegen Artikel 17 Absatz 2 oder 3, Artikel 18 oder Artikel 22 Absatz 6 verstösst» verweist auf interne Artikel; der Bezug zu EmbG ist wiederum im preamble_acronym-Item erfasst."
+  },
+  {
+    "ITEM": 17,
+    "ARTICLE_EID": "art_19",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«Verstösse nach den Artikeln 9 und 10 EmbG» enthält zwar EmbG, aber dieses EmbG-SR ist bereits im preamble_acronym-Item 6 mit Art. 9 und 10 zugeordnet; hier geht es um interne Verweisstruktur."
+  },
+  {
+    "ITEM": 18,
+    "ARTICLE_EID": "art_22",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«… Beteiligungen und Beziehungen nach Artikel 11 Absatz 2» verweist auf Art. 11 Abs. 2 derselben Verordnung; kein SR-Hinweis."
+  },
+  {
+    "ITEM": 19,
+    "ARTICLE_EID": "art_22",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«… Bankkonten nach Artikel 10a Absätze 1 und 2» ist ein interner Verweis auf Art. 10a der Verordnung."
+  },
+  {
+    "ITEM": 20,
+    "ARTICLE_EID": "art_22_a",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«Das Verbot nach Artikel 2a Absatz 1» bezieht sich auf einen Artikel derselben Verordnung; kein externer Gesetzesbezug."
+  },
+  {
+    "ITEM": 21,
+    "ARTICLE_EID": "art_22_a",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«… anstelle der Höchstzahl … nach Artikel 7 Absatz 5 Buchstabe a» ist ein interner Verweis auf Art. 7 Abs. 5 lit. a der Verordnung."
+  },
+  {
+    "ITEM": 22,
+    "ARTICLE_EID": "art_22_a",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«Das Verbot nach Artikel 7a Absatz 2bis» verweist auf Art. 7a Abs. 2bis derselben Verordnung; keine SR-Nennung."
+  },
+  {
+    "ITEM": 23,
+    "ARTICLE_EID": "art_22_a",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«… Joint Ventures … nach Artikel 8a» ist ein Verweis auf Art. 8a der Verordnung; kein externer Rechtsakt genannt."
+  }
+]

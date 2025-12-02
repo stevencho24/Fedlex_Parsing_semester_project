@@ -1,0 +1,45 @@
+[
+  {
+    "Item": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 415.01",
+    "assigned_articles": [
+      "Art. 60",
+      "Art. 61",
+      "Art. 62 Abs. 6",
+      "Art. 63 Abs. 4"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Formulierung nennt ausdrücklich «Artikel 60, 61, 62 Absatz 6, 63 Absatz 4 der Sportförderungsverordnung … SR 415.01 (SpoFöV)»; alle genannten Artikel sind damit eindeutig der SpoFöV (SR 415.01) zugeordnet."
+  },
+  {
+    "Item": 2,
+    "ARTICLE_EID": "art_11",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Interne Verweisung innerhalb des aktuellen Erlasses (Art. 14)"
+    ],
+    "confidence": "high",
+    "reasoning": "Es wird nur «Artikel 14» ohne Gesetzesabkürzung oder SR-Nachweis erwähnt; syntaktisch handelt es sich um eine interne Verweisung auf Art. 14 desselben Erlasses, kein Bezug zu einem externen SR-Dokument."
+  },
+  {
+    "Item": 3,
+    "ARTICLE_EID": "art_14",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Interne Verweisung innerhalb des aktuellen Erlasses (Art. 11 Abs. 4)"
+    ],
+    "confidence": "high",
+    "reasoning": "«Kandidatinnen und Kandidaten nach Artikel 11 Absatz 4» verweist ohne Abkürzung oder SR-Angabe auf eine Bestimmung im selben Erlass; daher reine Selbstverweisung."
+  },
+  {
+    "Item": 4,
+    "ARTICLE_EID": "art_19",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Interne Verweisung innerhalb des aktuellen Erlasses (Art. 18 Abs. 3)"
+    ],
+    "confidence": "high",
+    "reasoning": "«… nach Artikel 18 Absatz 3» steht ohne Nennung eines anderen Gesetzes oder einer SR-Nummer und ist damit eine interne Verweisung auf Art. 18 Abs. 3 des aktuellen Erlasses."
+  }
+]

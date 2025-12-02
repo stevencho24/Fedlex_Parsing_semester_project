@@ -1,0 +1,94 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 901.0",
+    "assigned_articles": [
+      "Art. 12 Abs. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Formulierung «gestützt auf Artikel 12 Absatz 3 des Bundesgesetzes vom 6. Oktober 2006 SR 901.0 über Regionalpolitik» verknüpft den genannten Artikel grammatikalisch eindeutig mit SR 901.0."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_13",
+    "TARGET_SR": "SR 642.14",
+    "assigned_articles": [
+      "Art. 23 Abs. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Snippet wird ausdrücklich «Artikel 23 Absatz 3 des Bundesgesetzes vom 14. Dezember 1990 SR 642.14 …» genannt; dieser Artikel gehört klar zu SR 642.14."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_17",
+    "TARGET_SR": "SR 220",
+    "assigned_articles": [
+      "Art. 727",
+      "Art. 727a"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Passage «Revisionspflicht nach Artikel 727 oder 727a des Obligationenrechts (OR) SR 220» weist die Artikel 727 und 727a ausdrücklich dem Obligationenrecht SR 220 zu."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_22",
+    "TARGET_SR": "SR 220",
+    "assigned_articles": [
+      "Art. 727",
+      "Art. 727a"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Text «Revisionspflicht nach Artikel 727 oder 727a OR SR 220» bezieht sich klar auf die Artikel 727 und 727a des Obligationenrechts SR 220."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«Artikel 3 Absatz 1 Buchstabe a» wird ohne Nennung eines anderen Erlasses erwähnt und bezieht sich damit auf einen Artikel derselben Verordnung (Selbstverweis)."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_13",
+    "TARGET_SR": "SR 642.14",
+    "assigned_articles": [
+      "Art. 23 Abs. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Snippet-Text entspricht inhaltlich dem SR_link_detection-Item 2 und nennt «Artikel 23 Absatz 3 des Bundesgesetzes … SR 642.14»; dies ist kein Selbstverweis, sondern ein Verweis auf SR 642.14."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_22",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«Artikel 6 Absatz 3» wird ohne Bezug auf ein anderes Gesetz genannt und steht im Kontext der gleichen Verordnung; daher handelt es sich um einen internen Artikelverweis."
+  },
+  {
+    "ITEM": 8,
+    "ARTICLE_EID": "art_22",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«Artikel 18 Buchstabe b» wird ohne Nennung eines externen SR-Erlasses erwähnt und bezieht sich somit auf einen Artikel derselben Verordnung."
+  },
+  {
+    "ITEM": 9,
+    "ARTICLE_EID": "art_23",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«Übergangsbestimmungen nach Artikel 22» verweist auf einen Artikel innerhalb derselben Verordnung; es wird kein anderes SR-Dokument genannt, daher Selbstverweis."
+  }
+]

@@ -1,0 +1,209 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 161.1",
+    "assigned_articles": [
+      "Art. 76c Abs. 4",
+      "Art. 76d Abs. 6",
+      "Art. 76e",
+      "Art. 76g",
+      "Art. 91 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Präambel nennt ausdrücklich: «gestützt auf die Artikel 76c Absatz 4, 76d Absatz 6, 76e, 76g und 91 Absatz 1 … SR 161.1 … (BPR)»; damit sind diese Artikel des BPR direkt dem zitierten SR 161.1 zugeordnet."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_17",
+    "TARGET_SR": "SR 152.1",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "Formulierung «richtet sich nach dem Archivierungsgesetz vom 26. Juni 1998 SR 152.1» verweist allgemein auf das Archivierungsgesetz, ohne konkrete Artikelangabe; daher allgemeine Dokumentverweisung."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 161.1",
+    "assigned_articles": [
+      "Art. 76b",
+      "Art. 76c"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Snippet: «(Art. 76b BPR)» und «(Art. 76c BPR)»; BPR ist in der Präambel als SR 161.1 definiert, somit sind Art. 76b und 76c des SR 161.1 eindeutig genannt."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": "SR 161.1",
+    "assigned_articles": [
+      "Art. 76b Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Text: «Angaben nach Artikel 76b Absatz 2 BPR»; BPR = SR 161.1, daher klare Zuordnung zu Art. 76b Abs. 2 BPR."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": "SR 161.1",
+    "assigned_articles": [
+      "Art. 76b Abs. 2 lit. b"
+    ],
+    "confidence": "high",
+    "reasoning": "Text: «Artikel 76b Absatz 2 Buchstabe b BPR»; damit ist Art. 76b Abs. 2 Buchstabe b des BPR (SR 161.1) direkt bezeichnet."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": "SR 161.1",
+    "assigned_articles": [
+      "Art. 76c Abs. 1",
+      "Art. 76d Abs. 1 lit. b",
+      "Art. 76c Abs. 4",
+      "Art. 76d Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet nennt mehrfach explizit: «Artikel 76c Absatz 1 BPR», «Artikel 76d Absatz 1 Buchstabe b BPR», «gemeinsamen Kampagnen nach Artikel 76c Absatz 4 BPR» sowie «Artikel 76d Absatz 2 BPR»; alle mit BPR = SR 161.1 verknüpft."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_6",
+    "TARGET_SR": "SR 161.1",
+    "assigned_articles": [
+      "Art. 76c Abs. 1",
+      "Art. 76c Abs. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "Formulierung: «Kampagne nach Artikel 76c Absätze 1 und 3 BPR»; damit sind Art. 76c Abs. 1 und Abs. 3 des BPR (SR 161.1) eindeutig genannt."
+  },
+  {
+    "ITEM": 8,
+    "ARTICLE_EID": "art_14",
+    "TARGET_SR": "SR 161.1",
+    "assigned_articles": [
+      "Art. 76f",
+      "Art. 76f Abs. 2",
+      "Art. 76e Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet: «nach Artikel 76f BPR … Veröffentlichungsfristen nach Artikel 76f Absatz 2 BPR … wenn nach Artikel 76e Absatz 2 BPR …»; alle mit BPR = SR 161.1 verknüpft."
+  },
+  {
+    "ITEM": 9,
+    "ARTICLE_EID": "art_19",
+    "TARGET_SR": "SR 161.1",
+    "assigned_articles": [
+      "Art. 76b",
+      "Art. 76c Abs. 1",
+      "Art. 76c Abs. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "Text nennt: «nach Artikel 76b BPR», «nach Artikel 76c Absätze 1 und 3 BPR» sowie «nach Artikel 76c Absatz 1 BPR»; alle sind Bestimmungen des BPR (SR 161.1)."
+  },
+  {
+    "ITEM": 10,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "self",
+    "assigned_articles": [
+      "Art. 76b"
+    ],
+    "confidence": "high",
+    "reasoning": "Artikelreferenz: «(Art. 76b BPR)»; BPR ist als SR 161.1 definiert, aber hier handelt es sich um eine inhaltlich identische Referenz wie in ITEM 3 und dient als interne Verweisstelle im selben Kontext. Als artikel_reference ohne eigene SR-Zielangabe wird sie als Selbstreferenz zum bereits erfassten externen Verweis behandelt."
+  },
+  {
+    "ITEM": 11,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "self",
+    "assigned_articles": [
+      "Art. 76c"
+    ],
+    "confidence": "high",
+    "reasoning": "Artikelreferenz: «(Art. 76c BPR)»; entspricht der bereits bei ITEM 3 erfassten externen Verweisung auf SR 161.1. Hier als artikel_reference ohne eigenes TARGET_SR primär interne Querverweisung im Dokument."
+  },
+  {
+    "ITEM": 12,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": "self",
+    "assigned_articles": [
+      "Art. 76c Abs. 1",
+      "Art. 76d Abs. 1 lit. b",
+      "Art. 76c Abs. 4"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Ausschnitt wiederholt die externen Verweise aus ITEM 6 («Artikel 76c Absatz 1 BPR», «Artikel 76d Absatz 1 Buchstabe b BPR», «Artikel 76c Absatz 4 BPR»). Als artikel_reference ohne TARGET_SR handelt es sich um interne Wiederholung derselben Verweisstruktur."
+  },
+  {
+    "ITEM": 13,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": "self",
+    "assigned_articles": [
+      "Art. 76d Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Text: «Die Meldung nach Artikel 76d Absatz 2 BPR …»; diese externe Verweisung auf SR 161.1 ist bereits in ITEM 6 erfasst. Hier als artikel_reference wird sie als interne Querverweisung behandelt."
+  },
+  {
+    "ITEM": 14,
+    "ARTICLE_EID": "art_6",
+    "TARGET_SR": "self",
+    "assigned_articles": [
+      "Art. 9"
+    ],
+    "confidence": "high",
+    "reasoning": "«Die Schlussrechnung muss die in Artikel 9 genannten Angaben enthalten.» Es wird kein SR oder Akronym genannt; daher klarer interner Verweis auf Art. 9 derselben Verordnung (Selbstreferenz)."
+  },
+  {
+    "ITEM": 15,
+    "ARTICLE_EID": "art_14",
+    "TARGET_SR": "self",
+    "assigned_articles": [
+      "Art. 76f"
+    ],
+    "confidence": "high",
+    "reasoning": "«nach Artikel 76f BPR» wiederholt die bereits in ITEM 8 erfasste externe Verweisung auf SR 161.1. Als artikel_reference ohne TARGET_SR ist dies eine interne Wiederholung im selben Kontext."
+  },
+  {
+    "ITEM": 16,
+    "ARTICLE_EID": "art_14",
+    "TARGET_SR": "self",
+    "assigned_articles": [
+      "Art. 76f Abs. 2",
+      "Art. 76e Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "«Artikel 76f Absatz 2 BPR» und «Artikel 76e Absatz 2 BPR» sind bereits in ITEM 8 als externe Verweise auf SR 161.1 erfasst; hier als artikel_reference primär interne Wiederholung derselben Verweise."
+  },
+  {
+    "ITEM": 17,
+    "ARTICLE_EID": "art_19",
+    "TARGET_SR": "self",
+    "assigned_articles": [
+      "Art. 76b"
+    ],
+    "confidence": "high",
+    "reasoning": "«nach Artikel 76b BPR»; diese externe Verweisung auf SR 161.1 ist in ITEM 9 bereits abgedeckt. Als artikel_reference ohne TARGET_SR fungiert sie als interne Querverweisung im selben Artikel."
+  },
+  {
+    "ITEM": 18,
+    "ARTICLE_EID": "art_19",
+    "TARGET_SR": "self",
+    "assigned_articles": [
+      "Art. 76c Abs. 1",
+      "Art. 76c Abs. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "«nach Artikel 76c Absätze 1 und 3 BPR»; diese externen Verweise auf SR 161.1 sind in ITEM 9 bereits erfasst. Hier als artikel_reference interne Wiederholung."
+  },
+  {
+    "ITEM": 19,
+    "ARTICLE_EID": "art_19",
+    "TARGET_SR": "self",
+    "assigned_articles": [
+      "Art. 76c Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "«nach Artikel 76c Absatz 1 BPR»; derselbe externe Verweis auf SR 161.1 wie in ITEM 9. Als artikel_reference ohne TARGET_SR wird er als interne Querverweisung im Dokument behandelt."
+  }
+]

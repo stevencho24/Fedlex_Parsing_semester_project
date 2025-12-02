@@ -1,0 +1,570 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 101",
+    "assigned_articles": [
+      "Art. 64 Abs. 1",
+      "Art. 64 Abs. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet explicitly cites 'Artikel 64 Absätze 1 und 3 der Bundesverfassung SR 101'; both paragraphs belong to SR 101."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": "SR 420.2",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "Reference is to 'das Innosuisse-Gesetz ... SR 420.2' as a whole; no specific article is mentioned."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": "SR 414.20",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "Cites 'Hochschulförderungs- und -koordinationsgesetz ... SR 414.20 (HFKG)' generally without article numbers."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": "SR 414.20",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "medium",
+    "reasoning": "Phrase 'Beiträge nach dem HFKG SR 414.20' refers to contributions governed by the HFKG in general; no specific article or chapter is indicated in the snippet."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_12",
+    "TARGET_SR": "SR 616.1",
+    "assigned_articles": [
+      "Art. 37",
+      "Art. 38",
+      "Art. 23"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet: 'Straftaten nach Artikel 37 oder 38 des Subventionsgesetzes ... im Bereich der Forschungsförderung' and later Art. 23 is used for Auszahlung in the same law elsewhere; Art. 37 und 38 are explicitly cited here, and Art. 23 is functionally tied to Auszahlung of Bundesbeiträge under the same Subventionsgesetz in this context."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_12",
+    "TARGET_SR": "SR 313.0",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "medium",
+    "reasoning": "Refers to 'Bundesgesetz ... über das Verwaltungsstrafrecht SR 313.0' as the applicable penal framework; no specific article is mentioned."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_13",
+    "TARGET_SR": "SR 172.021",
+    "assigned_articles": [
+      "Art. 10",
+      "Art. 26",
+      "Art. 27",
+      "Art. 28",
+      "Art. 29",
+      "Art. 30",
+      "Art. 31",
+      "Art. 32",
+      "Art. 33",
+      "Art. 34",
+      "Art. 35",
+      "Art. 36",
+      "Art. 37",
+      "Art. 38"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet explicitly: 'den Anforderungen nach den Artikeln 10 und 26–38 des Verwaltungsverfahrensgesetzes ... SR 172.021'; includes Art. 10 and the full range 26–38."
+  },
+  {
+    "ITEM": 8,
+    "ARTICLE_EID": "art_19",
+    "TARGET_SR": "SR 420.2",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "Mentions 'Innosuisse-Gesetz ... SR 420.2' as the legal basis for Innosuisse; no article numbers are given."
+  },
+  {
+    "ITEM": 9,
+    "ARTICLE_EID": "art_24",
+    "TARGET_SR": "SR 616.1",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "medium",
+    "reasoning": "States 'gelten die Vorgaben des Subventionsgesetzes ... SR 616.1' for innovation funding; applies the law generally without specifying articles."
+  },
+  {
+    "ITEM": 10,
+    "ARTICLE_EID": "art_25",
+    "TARGET_SR": "SR 616.1",
+    "assigned_articles": [
+      "Art. 37",
+      "Art. 38"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet: 'Straftaten nach Artikel 37 oder 38 des Subventionsgesetzes ... SR 616.1 im Bereich der Innovationsförderung'; Art. 37 und 38 are explicitly tied to SR 616.1."
+  },
+  {
+    "ITEM": 11,
+    "ARTICLE_EID": "art_25",
+    "TARGET_SR": "SR 313.0",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "medium",
+    "reasoning": "Again refers to 'Bundesgesetz ... über das Verwaltungsstrafrecht SR 313.0' as the applicable penal code; no article specified."
+  },
+  {
+    "ITEM": 12,
+    "ARTICLE_EID": "art_37",
+    "TARGET_SR": "SR 616.1",
+    "assigned_articles": [
+      "Art. 23"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet: 'Die Auszahlung ... erfolgt nach Artikel 23 des Subventionsgesetzes ... SR 616.1'; clear direct reference to Art. 23."
+  },
+  {
+    "ITEM": 13,
+    "ARTICLE_EID": "art_40",
+    "TARGET_SR": "SR 414.20",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "medium",
+    "reasoning": "Refers to 'Koordination nach dem HFKG SR 414.20' in general; no specific article or chapter is mentioned."
+  },
+  {
+    "ITEM": 14,
+    "ARTICLE_EID": "art_46",
+    "TARGET_SR": "SR 414.20",
+    "assigned_articles": [
+      "Kapitel 8 (Art. 45–52)"
+    ],
+    "confidence": "medium",
+    "reasoning": "Snippet: 'Beiträge nach dem 8. Kapitel des HFKG SR 414.20'; the 8th chapter of HFKG comprises its own article range; reference is to that chapter as a unit rather than a single article."
+  },
+  {
+    "ITEM": 15,
+    "ARTICLE_EID": "art_46",
+    "TARGET_SR": "SR 414.110",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "medium",
+    "reasoning": "Mentions 'ETH-Gesetz ... SR 414.110' as the framework for procedures; no article numbers are given."
+  },
+  {
+    "ITEM": 16,
+    "ARTICLE_EID": "art_53",
+    "TARGET_SR": "SR 414.20",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "medium",
+    "reasoning": "Refers to 'Empfängerinnen und Empfänger von Beiträgen nach dem HFKG SR 414.20'; generic reference to contribution rules under HFKG."
+  },
+  {
+    "ITEM": 17,
+    "ARTICLE_EID": "art_53",
+    "TARGET_SR": "SR 414.110",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "medium",
+    "reasoning": "Refers to 'ETH-Gesetz ... SR 414.110' in general for contribution recipients; no specific article is cited."
+  },
+  {
+    "ITEM": 18,
+    "ARTICLE_EID": "art_54",
+    "TARGET_SR": "SR 172.010",
+    "assigned_articles": [
+      "Art. 57a Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet: 'Kommission im Sinne von Artikel 57a Absatz 1 des Regierungs- und Verwaltungsorganisationsgesetzes ... SR 172.010'; explicit article and paragraph."
+  },
+  {
+    "ITEM": 19,
+    "ARTICLE_EID": "art_57",
+    "TARGET_SR": "SR 414.20",
+    "assigned_articles": [
+      "Art. 5 Bst. b Ziff. 2",
+      "Art. 5 Bst. b Ziff. 3",
+      "Art. 6 Abs. 1 Bst. b",
+      "Art. 6 Abs. 1 Bst. c",
+      "Art. 24 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet: 'Bis zum Inkrafttreten des HFKG SR 414.20 bleiben die Artikel 5 Buchstabe b Ziffern 2 und 3, 6 Absatz 1 Buchstaben b und c sowie 24 Absatz 2 ... anwendbar.' These are clearly specific provisions of HFKG."
+  },
+  {
+    "ITEM": 20,
+    "ARTICLE_EID": "art_58",
+    "TARGET_SR": "SR 414.20",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "low",
+    "reasoning": "States that certain provisions are set in force 'gleichzeitig mit dem HFKG SR 414.20'; the snippet itself does not enumerate the HFKG articles, only timing; treat as general linkage to the act’s entry into force."
+  },
+  {
+    "ITEM": 21,
+    "ARTICLE_EID": "art_58",
+    "TARGET_SR": "SR 414.20",
+    "assigned_articles": [
+      "Art. 4 Bst. c Ziff. 2",
+      "Art. 7 Abs. 1 Bst. b",
+      "Art. 46 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet: 'Artikel 4 Buchstabe c Ziffer 2, 7 Absatz 1 Buchstabe b und 46 Absatz 2 werden gleichzeitig mit dem HFKG SR 414.20 ... in Kraft gesetzt (Art. 58 Abs. 3).' These are specific HFKG provisions tied to SR 414.20."
+  },
+  {
+    "ITEM": 22,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "Refers to '(HFKG)' without SR number; 'Art. 15' at the end is clearly an article of the current law (Forschungs- und Innovationsförderungsgesetz), not of HFKG."
+  },
+  {
+    "ITEM": 23,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document (Art. 4)"
+    ],
+    "confidence": "high",
+    "reasoning": "Phrase 'Forschungsorgane nach Artikel 4' refers to Art. 4 of the same act; no external SR mentioned."
+  },
+  {
+    "ITEM": 24,
+    "ARTICLE_EID": "art_11",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document (Art. 4 Bst. a Ziff. 2)"
+    ],
+    "confidence": "high",
+    "reasoning": "Explicitly 'Artikel 4 Buchstabe a Ziffer 2' with no external law; internal structural reference."
+  },
+  {
+    "ITEM": 25,
+    "ARTICLE_EID": "art_11",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document (Art. 4 Bst. a Ziff. 2)"
+    ],
+    "confidence": "high",
+    "reasoning": "Again 'Artikel 4 Buchstabe a Ziffer 2' in same law; no SR context."
+  },
+  {
+    "ITEM": 26,
+    "ARTICLE_EID": "art_12",
+    "TARGET_SR": "SR 616.1",
+    "assigned_articles": [
+      "Art. 37",
+      "Art. 38"
+    ],
+    "confidence": "high",
+    "reasoning": "Matches ITEM 5 context: 'Artikel 37 oder 38 des Subventionsgesetzes ...'; clearly refers to those articles of SR 616.1."
+  },
+  {
+    "ITEM": 27,
+    "ARTICLE_EID": "art_13",
+    "TARGET_SR": "SR 172.021",
+    "assigned_articles": [
+      "Art. 10",
+      "Art. 26",
+      "Art. 27",
+      "Art. 28",
+      "Art. 29",
+      "Art. 30",
+      "Art. 31",
+      "Art. 32",
+      "Art. 33",
+      "Art. 34",
+      "Art. 35",
+      "Art. 36",
+      "Art. 37",
+      "Art. 38"
+    ],
+    "confidence": "high",
+    "reasoning": "Same sentence as ITEM 7 but without SR number; 'Verwaltungsverfahrensgesetz ... (VwVG)' unambiguously refers to SR 172.021; articles 10 and 26–38 belong to that law."
+  },
+  {
+    "ITEM": 28,
+    "ARTICLE_EID": "art_13",
+    "TARGET_SR": "SR 172.021",
+    "assigned_articles": [
+      "Art. 11b"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet: 'ist Artikel 11b VwVG anwendbar'; VwVG is SR 172.021; direct article citation."
+  },
+  {
+    "ITEM": 29,
+    "ARTICLE_EID": "art_16",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document (Art. 6 Abs. 1 Bst. a, c; Abs. 3, 4)"
+    ],
+    "confidence": "high",
+    "reasoning": "Refers to 'Artikel 6 Absätze 1 Buchstaben a und c sowie 3 und 4' with no external law; internal cross-reference."
+  },
+  {
+    "ITEM": 30,
+    "ARTICLE_EID": "art_19",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document (Art. 7 Abs. 3)"
+    ],
+    "confidence": "high",
+    "reasoning": "Mentions 'Artikel 7 Absatz 3' only; no SR or external act; internal."
+  },
+  {
+    "ITEM": 31,
+    "ARTICLE_EID": "art_19",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document (Art. 12 Abs. 2–4)"
+    ],
+    "confidence": "high",
+    "reasoning": "Refers to 'Artikel 12 Absätze 2–4' of the same law; no external SR."
+  },
+  {
+    "ITEM": 32,
+    "ARTICLE_EID": "art_20_a",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document (Art. 19; Art. 20 Abs. 1–2)"
+    ],
+    "confidence": "high",
+    "reasoning": "Mentions 'Artikel 19' and 'Artikel 20 Absatz 1 oder 2' without naming another law; internal structure."
+  },
+  {
+    "ITEM": 33,
+    "ARTICLE_EID": "art_21",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document (Art. 19)"
+    ],
+    "confidence": "high",
+    "reasoning": "Refers to 'Innovationsprojekten nach Artikel 19'; internal cross-reference."
+  },
+  {
+    "ITEM": 34,
+    "ARTICLE_EID": "art_22",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document (Art. 19–21)"
+    ],
+    "confidence": "high",
+    "reasoning": "Phrase 'Instrumente nach den Artikeln 19–21' clearly refers to articles of the same act."
+  },
+  {
+    "ITEM": 35,
+    "ARTICLE_EID": "art_22",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document (Art. 28 Abs. 2 Bst. c)"
+    ],
+    "confidence": "high",
+    "reasoning": "Mentions 'Artikel 28 Absatz 2 Buchstabe c' with no external law; internal."
+  },
+  {
+    "ITEM": 36,
+    "ARTICLE_EID": "art_22_a",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document (Art. 19–21)"
+    ],
+    "confidence": "high",
+    "reasoning": "Again 'Instrumente nach den Artikeln 19–21'; internal reference."
+  },
+  {
+    "ITEM": 37,
+    "ARTICLE_EID": "art_23",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document (Art. 15 Abs. 3 Bst. c; Art. 36 Bst. c)"
+    ],
+    "confidence": "high",
+    "reasoning": "References 'Art. 15 Abs. 3 Bst. c' and 'Artikel 36 Buchstabe c' of the same law; no external SR."
+  },
+  {
+    "ITEM": 38,
+    "ARTICLE_EID": "art_25",
+    "TARGET_SR": "SR 616.1",
+    "assigned_articles": [
+      "Art. 37",
+      "Art. 38"
+    ],
+    "confidence": "high",
+    "reasoning": "Same wording as ITEM 10 but without SR number; 'Subventionsgesetz vom 5. Oktober 1990' is SR 616.1; articles 37 and 38 are explicitly cited."
+  },
+  {
+    "ITEM": 39,
+    "ARTICLE_EID": "art_32",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document (Art. 7 Abs. 1)"
+    ],
+    "confidence": "high",
+    "reasoning": "Refers to 'ordentliche Förderung nach Artikel 7 Absatz 1'; internal."
+  },
+  {
+    "ITEM": 40,
+    "ARTICLE_EID": "art_33",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document (Art. 7 Abs. 1; Art. 33 Abs. 2 Bst. b)"
+    ],
+    "confidence": "high",
+    "reasoning": "Mentions 'Artikel 7 Absatz 1' and 'Absatz 2 Buchstabe b' of Art. 33; internal structure."
+  },
+  {
+    "ITEM": 41,
+    "ARTICLE_EID": "art_33",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document (Art. 32 Abs. 2)"
+    ],
+    "confidence": "high",
+    "reasoning": "Refers to 'Bundesbeschluss nach Artikel 32 Absatz 2'; internal."
+  },
+  {
+    "ITEM": 42,
+    "ARTICLE_EID": "art_34",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document (Art. 32 Abs. 2; Art. 33 Abs. 2 Bst. b)"
+    ],
+    "confidence": "high",
+    "reasoning": "Mentions 'Artikel 32 Absatz 2' and 'Artikel 33 Absatz 2 Buchstabe b'; internal."
+  },
+  {
+    "ITEM": 43,
+    "ARTICLE_EID": "art_36",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document (Art. 33 Abs. 2 Bst. b)"
+    ],
+    "confidence": "high",
+    "reasoning": "Refers to 'verantwortlichen Institution nach Artikel 33 Absatz 2 Buchstabe b'; internal."
+  },
+  {
+    "ITEM": 44,
+    "ARTICLE_EID": "art_37",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document (Art. 48)"
+    ],
+    "confidence": "high",
+    "reasoning": "Mentions '(Art. 48)' with no external law; internal cross-reference."
+  },
+  {
+    "ITEM": 45,
+    "ARTICLE_EID": "art_37",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document (Art. 15)"
+    ],
+    "confidence": "high",
+    "reasoning": "Refers to '(Art. 15)' of the same act; internal."
+  },
+  {
+    "ITEM": 46,
+    "ARTICLE_EID": "art_37",
+    "TARGET_SR": "SR 616.1",
+    "assigned_articles": [
+      "Art. 23"
+    ],
+    "confidence": "high",
+    "reasoning": "Same sentence as ITEM 12 but without SR number; 'Subventionsgesetz vom 5. Oktober 1990' is SR 616.1; explicitly 'Artikel 23'."
+  },
+  {
+    "ITEM": 47,
+    "ARTICLE_EID": "art_42",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document (Art. 45 Abs. 3)"
+    ],
+    "confidence": "high",
+    "reasoning": "Refers to '(Art. 45 Abs. 3)' with no external law; internal."
+  },
+  {
+    "ITEM": 48,
+    "ARTICLE_EID": "art_53",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document (Art. 50)"
+    ],
+    "confidence": "high",
+    "reasoning": "Mentions 'im Sinne von Artikel 50'; internal cross-reference."
+  },
+  {
+    "ITEM": 49,
+    "ARTICLE_EID": "art_54",
+    "TARGET_SR": "SR 172.010",
+    "assigned_articles": [
+      "Art. 57a Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "Same wording as ITEM 18 but without SR number; 'Regierungs- und Verwaltungsorganisationsgesetz vom 21. März 1997' is SR 172.010; explicit 'Artikel 57a Absatz 1'."
+  },
+  {
+    "ITEM": 50,
+    "ARTICLE_EID": "art_57_a",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document (Art. 20 Abs. 2 Bst. a; Art. 20 Abs. 3; Art. 21)"
+    ],
+    "confidence": "high",
+    "reasoning": "Refers to 'Artikel 20 Absätze 2 Buchstabe a sowie 3' and 'Artikel 21' with no external law; internal."
+  },
+  {
+    "ITEM": 51,
+    "ARTICLE_EID": "art_58",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document (Art. 4 Bst. c Ziff. 2)"
+    ],
+    "confidence": "high",
+    "reasoning": "Lists 'Artikel 4 Buchstabe c Ziffer 2;' as part of internal entry-into-force clause; no external SR."
+  },
+  {
+    "ITEM": 52,
+    "ARTICLE_EID": "art_58",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document (Art. 7 Abs. 1 Bst. b)"
+    ],
+    "confidence": "high",
+    "reasoning": "Lists 'Artikel 7 Absatz 1 Buchstabe b;' internal provision."
+  },
+  {
+    "ITEM": 53,
+    "ARTICLE_EID": "art_58",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document (Art. 46 Abs. 2)"
+    ],
+    "confidence": "high",
+    "reasoning": "Lists 'Artikel 46 Absatz 2.' internal provision."
+  }
+]

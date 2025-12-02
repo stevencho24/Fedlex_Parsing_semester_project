@@ -1,0 +1,64 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 101",
+    "assigned_articles": [
+      "Art. 112b Abs. 3",
+      "Art. 197 Ziff. 4"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Snippet-Formulierung «gestützt auf die Artikel 112b Absatz 3 und 197 Ziffer 4 der Bundesverfassung SR 101» verknüpft beide Artikel grammatikalisch eindeutig mit der Bundesverfassung (SR 101)."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": "SR 831.26",
+    "assigned_articles": [
+      "Art. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "«Grundsatz nach Artikel 2» bezieht sich ohne Nennung eines anderen Erlasses auf einen Artikel innerhalb desselben Erlasses (SR-831.26-01012017-DE.xml). Daher handelt es sich um eine Selbstreferenz auf Art. 2 dieses Erlasses."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_6",
+    "TARGET_SR": "SR 831.26",
+    "assigned_articles": [
+      "Art. 5 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "«Voraussetzungen nach Artikel 5 Absatz 1» steht ohne Bezug zu einem anderen SR-Dokument und beschreibt interne Voraussetzungen; dies ist eine Selbstreferenz auf Art. 5 Abs. 1 des gleichen Erlasses."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_6",
+    "TARGET_SR": "SR 831.26",
+    "assigned_articles": [
+      "Art. 5 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "Auch hier wird «Voraussetzungen nach Artikel 5 Absatz 1» ohne externen SR-Bezug verwendet; syntaktisch ist klar, dass es sich um denselben internen Artikel 5 Abs. 1 des Erlasses SR 831.26 handelt."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": "SR 831.26",
+    "assigned_articles": [
+      "Art. 5 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Formulierung «welche die Voraussetzungen nach Artikel 5 Absatz 1 erfüllt» verweist wiederum ohne Nennung eines anderen Gesetzes auf interne Anerkennungsvoraussetzungen; dies ist eine Selbstreferenz auf Art. 5 Abs. 1 des gleichen Erlasses."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_10",
+    "TARGET_SR": "SR 831.26",
+    "assigned_articles": [
+      "Art. 197 Ziff. 4",
+      "Art. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Der erste Bezug «gemäss Artikel 197 Ziffer 4 der Bundesverfassung» ist klar als externer Verweis auf BV (SR 101) erkennbar, wird hier aber im Rahmen der Selbstreferenz-Erkennung des Erlasses SR 831.26 mitgeführt. Zusätzlich verweist «im Sinne von Artikel 2» ohne SR-Nennung auf den internen Art. 2 des gleichen Erlasses."
+  }
+]

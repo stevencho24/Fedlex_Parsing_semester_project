@@ -1,0 +1,34 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 101",
+    "assigned_articles": [
+      "Art. 54 Abs. 1",
+      "Art. 166 Abs. 2",
+      "Art. 141 Abs. 1 lit. d Ziff. 3"
+    ],
+    "confidence": "medium",
+    "reasoning": "The snippet explicitly cites Art. 54 Abs. 1 and Art. 166 Abs. 2 BV (SR 101). Additionally, Artikel 141 Absatz 1 Buchstabe d Ziffer 3 BV is cited in ITEM 3 as a self-reference to the Bundesverfassung (SR 101). Since all these provisions belong to the same SR 101 and are part of the constitutional basis for the decision, they are assigned here to SR 101."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 0.672.916.31",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet refers to the protocol amending the agreement identified only by its SR number 0.672.916.31, without mentioning any specific article. This is a general approval of the agreement as a whole; therefore it is treated as a general reference to the entire document."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": "SR 101",
+    "assigned_articles": [
+      "Art. 141 Abs. 1 lit. d Ziff. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet explicitly mentions 'Artikel 141 Absatz 1 Buchstabe d Ziffer 3 der Bundesverfassung'. The Bundesverfassung is SR 101, so this is a direct reference to Art. 141 Abs. 1 lit. d Ziff. 3 SR 101."
+  }
+]

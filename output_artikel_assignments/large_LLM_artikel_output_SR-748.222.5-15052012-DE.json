@@ -1,0 +1,134 @@
+[
+  {
+    "Item": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 748.01",
+    "assigned_articles": [
+      "Art. 25"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet explicitly cites 'Artikel 25 der Luftfahrtverordnung ... SR 748.01'; Art. 25 is directly and uniquely linked to SR 748.01."
+  },
+  {
+    "Item": 2,
+    "ARTICLE_EID": "art_1_a",
+    "TARGET_SR": "SR 0.748.127.192.68",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "The context refers to the air transport agreement (Abkommen vom 21. Juni 1999, SR 0.748.127.192.68) as a whole via 'gemäss Ziffer 3 des Anhangs zum Abk. ... (SR 0.748.127.192.68)' without mentioning any specific article; thus it is a general reference."
+  },
+  {
+    "Item": 3,
+    "ARTICLE_EID": "art_13",
+    "TARGET_SR": "SR 172.021",
+    "assigned_articles": [
+      "Art. 10"
+    ],
+    "confidence": "high",
+    "reasoning": "The sentence reads 'Artikel 10 des Bundesgesetzes ... SR 172.021'; Art. 10 is explicitly tied to the Verwaltungsverfahrensgesetz (SR 172.021)."
+  },
+  {
+    "Item": 4,
+    "ARTICLE_EID": "art_17",
+    "TARGET_SR": "SR 832.20",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "medium",
+    "reasoning": "The text refers to 'gestützt auf das Bundesgesetz ... SR 832.20 über die Unfallversicherung' only as the legal basis for agreed tariffs, without specifying any article; treated as a general reference to the UVG."
+  },
+  {
+    "Item": 5,
+    "ARTICLE_EID": "art_20",
+    "TARGET_SR": "SR 172.021",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "medium",
+    "reasoning": "Phrase 'Das Beschwerderecht nach dem Verwaltungsverfahrensgesetz SR 172.021 bleibt vorbehalten' invokes the appeal regime of the Verwaltungsverfahrensgesetz as a whole; no particular article is named."
+  },
+  {
+    "Item": 6,
+    "ARTICLE_EID": "art_21_a",
+    "TARGET_SR": "SR 748.0",
+    "assigned_articles": [
+      "Art. 91 Abs. 1 lit. i"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet explicitly states 'Artikel 91 Absatz 1 Buchstabe i des Luftfahrtgesetzes ... SR 748.0'; this is a direct, unambiguous article-level citation."
+  },
+  {
+    "Item": 7,
+    "ARTICLE_EID": "art_12",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 18"
+    ],
+    "confidence": "high",
+    "reasoning": "This is an internal cross-reference: 'gemäss Artikel 18' clearly refers to Art. 18 of the same ordinance; no external SR is mentioned in the clause, so it is a self-reference within SR 748.222.5."
+  },
+  {
+    "Item": 8,
+    "ARTICLE_EID": "art_13",
+    "TARGET_SR": "SR 172.021",
+    "assigned_articles": [
+      "Art. 10"
+    ],
+    "confidence": "high",
+    "reasoning": "The artikel_reference snippet repeats the same sentence as Item 3, referring to 'Artikel 10 des Bundesgesetzes ... (Verwaltungsverfahrensgesetz)'; this is an external reference to Art. 10 VwVG (SR 172.021), not a self-reference."
+  },
+  {
+    "Item": 9,
+    "ARTICLE_EID": "art_14",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 21a"
+    ],
+    "confidence": "high",
+    "reasoning": "The phrase 'strafrechtliche Folgen insbesondere nach Artikel 21a bleiben vorbehalten' refers to Art. 21a of the same ordinance; no SR or external act is named, so this is an internal self-reference."
+  },
+  {
+    "Item": 10,
+    "ARTICLE_EID": "art_21",
+    "TARGET_SR": "SR 172.021",
+    "assigned_articles": [
+      "Art. 63",
+      "Art. 64",
+      "Art. 65"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet states 'Die Bestimmungen der Artikel 63, 64 und 65 des Verwaltungsverfahrensgesetzes finden ... Anwendung'; these articles belong to the Verwaltungsverfahrensgesetz (SR 172.021)."
+  },
+  {
+    "Item": 11,
+    "ARTICLE_EID": "art_21_a",
+    "TARGET_SR": "SR 748.0",
+    "assigned_articles": [
+      "Art. 91 Abs. 1 lit. i"
+    ],
+    "confidence": "high",
+    "reasoning": "The artikel_reference text mirrors Item 6 but without the SR number; it clearly refers to 'Artikel 91 Absatz 1 Buchstabe i des Luftfahrtgesetzes', i.e., Art. 91 Abs. 1 lit. i LFG (SR 748.0)."
+  },
+  {
+    "Item": 12,
+    "ARTICLE_EID": "art_22",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 7"
+    ],
+    "confidence": "high",
+    "reasoning": "The parenthetical '(Art. 7)' refers to Article 7 of the same ordinance (category A Vertrauensarzt); no external SR is present, so this is an internal self-reference."
+  },
+  {
+    "Item": 13,
+    "ARTICLE_EID": "art_23",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 3 Abs. 4–6"
+    ],
+    "confidence": "medium",
+    "reasoning": "The snippet cites 'Artikel 3 Absätze 4–6 des Reglements vom 2. Dezember 1960 ...'; the underlying SR number is not provided in the available context, so the reference is captured only at article level without assigning it to a specific SR."
+  }
+]

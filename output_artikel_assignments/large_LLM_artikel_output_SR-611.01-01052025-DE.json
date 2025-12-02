@@ -1,0 +1,986 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 611.0",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "high",
+    "reasoning": "Preamble cites the Finanzhaushaltgesetz (SR 611.0) as a whole without any article indication."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 171.10",
+    "assigned_articles": ["Art. 142 Abs. 2", "Art. 142 Abs. 3"],
+    "confidence": "high",
+    "reasoning": "Snippet explicitly mentions 'Artikel 142 Absätze 2 und 3 des Parlamentsgesetzes ... SR 171.10'."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": "SR 171.10",
+    "assigned_articles": ["Art. 146 Abs. 4"],
+    "confidence": "high",
+    "reasoning": "Snippet contains '(Art. 146 Abs. 4 ParlG SR 171.10)'; direct marking links article and SR."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_13",
+    "TARGET_SR": "SR 611.051",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "high",
+    "reasoning": "Refers to the Verordnung SR 611.051 by title and date only; no article is mentioned."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_18",
+    "TARGET_SR": "SR 170.512.1",
+    "assigned_articles": ["Art. 20 Abs. 2"],
+    "confidence": "high",
+    "reasoning": "Authorial note: 'in Anwendung von Art. 20 Abs. 2 der Publikationsverordnung ... (SR 170.512.1)'; clear linkage."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_42",
+    "TARGET_SR": "SR 172.056.15",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "high",
+    "reasoning": "Cites 'der Verordnung ... SR 172.056.15 über die Organisation ...'; no specific article indicated."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_42",
+    "TARGET_SR": "SR 172.010.21",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "high",
+    "reasoning": "Cites 'der Verordnung ... SR 172.010.21 über das Immobilienmanagement ...'; no article specified."
+  },
+  {
+    "ITEM": 8,
+    "ARTICLE_EID": "art_42",
+    "TARGET_SR": "SR 172.215.1",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "high",
+    "reasoning": "Cites 'der Organisationsverordnung ... SR 172.215.1 ...'; again no article reference."
+  },
+  {
+    "ITEM": 9,
+    "ARTICLE_EID": "art_43",
+    "TARGET_SR": "SR 172.220.1",
+    "assigned_articles": ["Art. 27"],
+    "confidence": "high",
+    "reasoning": "Snippet: '(Art. 27 des Bundespersonalgesetzes ... SR 172.220.1)'; direct article marking."
+  },
+  {
+    "ITEM": 10,
+    "ARTICLE_EID": "art_43",
+    "TARGET_SR": "SR 172.010.59",
+    "assigned_articles": ["Art. 13"],
+    "confidence": "high",
+    "reasoning": "Snippet: '(Art. 13 der Verordnung ... SR 172.010.59 ...)'; explicit article reference."
+  },
+  {
+    "ITEM": 11,
+    "ARTICLE_EID": "art_47",
+    "TARGET_SR": "SR 172.220.111.4",
+    "assigned_articles": ["Art. 34"],
+    "confidence": "high",
+    "reasoning": "Snippet: 'Artikel 34 der Verordnung ... SR 172.220.111.4'; direct link."
+  },
+  {
+    "ITEM": 12,
+    "ARTICLE_EID": "art_67",
+    "TARGET_SR": "SR 172.041.1",
+    "assigned_articles": ["Art. 12 Abs. 2–4"],
+    "confidence": "high",
+    "reasoning": "Snippet: 'Artikel 12 Absätze 2–4 ... SR 172.041.1'; explicit range of paragraphs."
+  },
+  {
+    "ITEM": 13,
+    "ARTICLE_EID": "art_72_a",
+    "TARGET_SR": "SR 172.121",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "high",
+    "reasoning": "Refers to 'Bundesgesetz ... SR 172.121' without any article; whole act is context."
+  },
+  {
+    "ITEM": 14,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 611.0",
+    "assigned_articles": ["Art. 2"],
+    "confidence": "high",
+    "reasoning": "Parenthetical '(Art. 2 FHG)' directly ties Art. 2 to SR 611.0."
+  },
+  {
+    "ITEM": 15,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": "SR 611.0",
+    "assigned_articles": ["Art. 5 Bst. b"],
+    "confidence": "high",
+    "reasoning": "Snippet '(Art. 5 Bst. b FHG)' clearly specifies article and letter."
+  },
+  {
+    "ITEM": 16,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": "SR 611.0",
+    "assigned_articles": ["Art. 19"],
+    "confidence": "high",
+    "reasoning": "Parenthetical '(Art. 19 FHG)' unambiguously refers to Art. 19 FHG."
+  },
+  {
+    "ITEM": 17,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": "SR 611.0",
+    "assigned_articles": ["Art. 19"],
+    "confidence": "high",
+    "reasoning": "Same parenthetical '(Art. 19 FHG)' as previous; applies to SR 611.0."
+  },
+  {
+    "ITEM": 18,
+    "ARTICLE_EID": "art_6",
+    "TARGET_SR": "SR 611.0",
+    "assigned_articles": ["Art. 19"],
+    "confidence": "high",
+    "reasoning": "Again '(Art. 19 FHG)'; direct marking."
+  },
+  {
+    "ITEM": 19,
+    "ARTICLE_EID": "art_9",
+    "TARGET_SR": "SR 611.0",
+    "assigned_articles": ["Art. 20"],
+    "confidence": "high",
+    "reasoning": "Snippet '(Art. 20 FHG)' clearly links to Art. 20 FHG."
+  },
+  {
+    "ITEM": 20,
+    "ARTICLE_EID": "art_10",
+    "TARGET_SR": "SR 611.0",
+    "assigned_articles": ["Art. 21 ff.", "Art. 63 Abs. 2 Bst. d"],
+    "confidence": "high",
+    "reasoning": "Parenthetical '(Art. 21 ff. und 63 Abs. 2 Bst. d FHG)' explicitly lists these references; 'ff.' kept as range notation."
+  },
+  {
+    "ITEM": 21,
+    "ARTICLE_EID": "art_11",
+    "TARGET_SR": "SR 611.0",
+    "assigned_articles": ["Art. 21 Abs. 1"],
+    "confidence": "high",
+    "reasoning": "Snippet '(Art. 21 Abs. 1 FHG)' directly specifies article and paragraph."
+  },
+  {
+    "ITEM": 22,
+    "ARTICLE_EID": "art_12",
+    "TARGET_SR": "SR 611.0",
+    "assigned_articles": ["Art. 22"],
+    "confidence": "high",
+    "reasoning": "Parenthetical '(Art. 22 FHG)' clearly refers to Art. 22 FHG."
+  },
+  {
+    "ITEM": 23,
+    "ARTICLE_EID": "art_13",
+    "TARGET_SR": "SR 611.0",
+    "assigned_articles": ["Art. 23"],
+    "confidence": "high",
+    "reasoning": "Snippet '(Art. 23 FHG)' unambiguously points to Art. 23."
+  },
+  {
+    "ITEM": 24,
+    "ARTICLE_EID": "art_14",
+    "TARGET_SR": "SR 611.0",
+    "assigned_articles": ["Art. 24"],
+    "confidence": "high",
+    "reasoning": "Parenthetical '(Art. 24 FHG)' is a direct article citation; the later 'Artikel 24 FHG' in the same snippet confirms this."
+  },
+  {
+    "ITEM": 25,
+    "ARTICLE_EID": "art_15",
+    "TARGET_SR": "SR 611.0",
+    "assigned_articles": ["Art. 25"],
+    "confidence": "high",
+    "reasoning": "Snippet '(Art. 25 FHG)' clearly ties to Art. 25."
+  },
+  {
+    "ITEM": 26,
+    "ARTICLE_EID": "art_16",
+    "TARGET_SR": "SR 611.0",
+    "assigned_articles": ["Art. 27"],
+    "confidence": "high",
+    "reasoning": "Parenthetical '(Art. 27 FHG)' directly marks the article."
+  },
+  {
+    "ITEM": 27,
+    "ARTICLE_EID": "art_18",
+    "TARGET_SR": "SR 611.0",
+    "assigned_articles": ["Art. 29", "Art. 13–18"],
+    "confidence": "high",
+    "reasoning": "Snippet begins '(Art. 29 FHG)' and later mentions '(Art. 13–18 FHG)'; both are syntactically linked to FHG."
+  },
+  {
+    "ITEM": 28,
+    "ARTICLE_EID": "art_19",
+    "TARGET_SR": "SR 611.0",
+    "assigned_articles": ["Art. 31", "Art. 57 Abs. 4", "Art. 57 Abs. 2"],
+    "confidence": "high",
+    "reasoning": "Parenthetical '(Art. 31 und 57 Abs. 4 FHG)' plus later '(Art. 57 Abs. 2 FHG)' in same context; all refer to SR 611.0."
+  },
+  {
+    "ITEM": 29,
+    "ARTICLE_EID": "art_20",
+    "TARGET_SR": "SR 611.0",
+    "assigned_articles": ["Art. 30", "Art. 33", "Art. 35", "Art. 36"],
+    "confidence": "high",
+    "reasoning": "Snippet '(Art. 30, 33, 35 und 36 FHG)' lists four distinct articles connected by 'und'."
+  },
+  {
+    "ITEM": 30,
+    "ARTICLE_EID": "art_21",
+    "TARGET_SR": "SR 611.0",
+    "assigned_articles": ["Art. 32"],
+    "confidence": "high",
+    "reasoning": "Parenthetical '(Art. 32 FHG)' directly marks Art. 32."
+  },
+  {
+    "ITEM": 31,
+    "ARTICLE_EID": "art_22",
+    "TARGET_SR": "SR 611.0",
+    "assigned_articles": ["Art. 32", "Art. 58", "Art. 12 Abs. 4"],
+    "confidence": "high",
+    "reasoning": "Snippet starts '(Art. 32 und 58 FHG)' and later 'Artikel 12 Absatz 4 FHG'; 'Artikeln 18 und 21' lack FHG marker and are self-references within the same ordinance."
+  },
+  {
+    "ITEM": 32,
+    "ARTICLE_EID": "art_23",
+    "TARGET_SR": "SR 611.0",
+    "assigned_articles": ["Art. 32 Abs. 2"],
+    "confidence": "high",
+    "reasoning": "Parenthetical '(Art. 32 Abs. 2 FHG)' clearly specifies the paragraph."
+  },
+  {
+    "ITEM": 33,
+    "ARTICLE_EID": "art_24",
+    "TARGET_SR": "SR 611.0",
+    "assigned_articles": ["Art. 33", "Art. 34", "Art. 36 Abs. 1"],
+    "confidence": "high",
+    "reasoning": "Snippet '(Art. 33 und 34 FHG)' plus 'Artikel 36 Absatz 1 FHG' in same sentence; all grammatically tied to FHG."
+  },
+  {
+    "ITEM": 34,
+    "ARTICLE_EID": "art_25",
+    "TARGET_SR": "SR 611.0",
+    "assigned_articles": ["Art. 34"],
+    "confidence": "high",
+    "reasoning": "Parenthetical '(Art. 34 FHG)' directly marks Art. 34."
+  },
+  {
+    "ITEM": 35,
+    "ARTICLE_EID": "art_26",
+    "TARGET_SR": "SR 611.0",
+    "assigned_articles": ["Art. 37"],
+    "confidence": "high",
+    "reasoning": "Snippet '(Art. 37 FHG)' clearly refers to Art. 37."
+  },
+  {
+    "ITEM": 36,
+    "ARTICLE_EID": "art_27",
+    "TARGET_SR": "SR 611.0",
+    "assigned_articles": ["Art. 33–37", "Art. 36 Abs. 2", "Art. 36"],
+    "confidence": "high",
+    "reasoning": "Parenthetical '(Art. 33–37 FHG)' plus later 'Artikel 36 Absatz 2 FHG' and 'Artikel 36 FHG'; all explicitly tied to FHG."
+  },
+  {
+    "ITEM": 37,
+    "ARTICLE_EID": "art_27_a",
+    "TARGET_SR": "SR 611.0",
+    "assigned_articles": ["Art. 30a Abs. 2", "Art. 30a Abs. 3", "Art. 13 Abs. 2", "Art. 15"],
+    "confidence": "high",
+    "reasoning": "Parenthetical '(Art. 30a Abs. 2 und 3 FHG)' plus 'Artikeln 13 Absatz 2 und 15 FHG' in same snippet; all explicitly marked with FHG."
+  },
+  {
+    "ITEM": 38,
+    "ARTICLE_EID": "art_27_b",
+    "TARGET_SR": "SR 611.0",
+    "assigned_articles": ["Art. 3 Abs. 7", "Art. 19 Abs. 1 Bst. d", "Art. 29 Abs. 2", "Art. 29 Abs. 3"],
+    "confidence": "high",
+    "reasoning": "Snippet '(Art. 3 Abs. 7, 19 Abs. 1 Bst. d sowie 29 Abs. 2 und 3 FHG)' lists four distinct references."
+  },
+  {
+    "ITEM": 39,
+    "ARTICLE_EID": "art_27_c",
+    "TARGET_SR": "SR 611.0",
+    "assigned_articles": ["Art. 30a Abs. 5"],
+    "confidence": "high",
+    "reasoning": "Parenthetical '(Art. 30a Abs. 5 FHG)' and repeated 'Artikel 30a Absatz 5 FHG' in text; same provision."
+  },
+  {
+    "ITEM": 40,
+    "ARTICLE_EID": "art_27_d",
+    "TARGET_SR": "SR 611.0",
+    "assigned_articles": ["Art. 30a"],
+    "confidence": "high",
+    "reasoning": "Snippet '(Art. 30a FHG)' directly cites Art. 30a."
+  },
+  {
+    "ITEM": 41,
+    "ARTICLE_EID": "art_27_e",
+    "TARGET_SR": "SR 611.0",
+    "assigned_articles": ["Art. 30a"],
+    "confidence": "high",
+    "reasoning": "Again '(Art. 30a FHG)'; same direct citation."
+  },
+  {
+    "ITEM": 42,
+    "ARTICLE_EID": "art_27_f",
+    "TARGET_SR": "SR 611.0",
+    "assigned_articles": ["Art. 32a"],
+    "confidence": "high",
+    "reasoning": "Snippet '(Art. 32a FHG)' clearly refers to Art. 32a."
+  },
+  {
+    "ITEM": 43,
+    "ARTICLE_EID": "art_27_g",
+    "TARGET_SR": "SR 611.0",
+    "assigned_articles": ["Art. 32a"],
+    "confidence": "high",
+    "reasoning": "Same parenthetical '(Art. 32a FHG)'; direct link."
+  },
+  {
+    "ITEM": 44,
+    "ARTICLE_EID": "art_27_h",
+    "TARGET_SR": "SR 611.0",
+    "assigned_articles": ["Art. 32a"],
+    "confidence": "high",
+    "reasoning": "Again '(Art. 32a FHG)'; unambiguous."
+  },
+  {
+    "ITEM": 45,
+    "ARTICLE_EID": "art_27_i",
+    "TARGET_SR": "SR 611.0",
+    "assigned_articles": ["Art. 30a", "Art. 32a"],
+    "confidence": "high",
+    "reasoning": "Snippet '(Art. 30a und 32a FHG)' lists both articles connected by 'und'."
+  },
+  {
+    "ITEM": 46,
+    "ARTICLE_EID": "art_28",
+    "TARGET_SR": "SR 611.0",
+    "assigned_articles": ["Art. 38"],
+    "confidence": "high",
+    "reasoning": "Parenthetical '(Art. 38 FHG)' directly marks Art. 38."
+  },
+  {
+    "ITEM": 47,
+    "ARTICLE_EID": "art_29",
+    "TARGET_SR": "SR 611.0",
+    "assigned_articles": ["Art. 38"],
+    "confidence": "high",
+    "reasoning": "Same '(Art. 38 FHG)' reference; applies to SR 611.0."
+  },
+  {
+    "ITEM": 48,
+    "ARTICLE_EID": "art_30",
+    "TARGET_SR": "SR 611.0",
+    "assigned_articles": ["Art. 38"],
+    "confidence": "high",
+    "reasoning": "Again '(Art. 38 FHG)'; direct citation."
+  },
+  {
+    "ITEM": 49,
+    "ARTICLE_EID": "art_31",
+    "TARGET_SR": "SR 611.0",
+    "assigned_articles": ["Art. 38"],
+    "confidence": "high",
+    "reasoning": "Parenthetical '(Art. 38 FHG)' clearly refers to Art. 38."
+  },
+  {
+    "ITEM": 50,
+    "ARTICLE_EID": "art_32",
+    "TARGET_SR": "SR 611.0",
+    "assigned_articles": ["Art. 38"],
+    "confidence": "high",
+    "reasoning": "Same '(Art. 38 FHG)' reference."
+  },
+  {
+    "ITEM": 51,
+    "ARTICLE_EID": "art_33",
+    "TARGET_SR": "SR 611.0",
+    "assigned_articles": ["Art. 63 Abs. 2 Bst. a"],
+    "confidence": "high",
+    "reasoning": "Snippet '(Art. 63 Abs. 2 Bst. a FHG)' explicitly specifies article, paragraph, and letter."
+  },
+  {
+    "ITEM": 52,
+    "ARTICLE_EID": "art_34",
+    "TARGET_SR": "SR 611.0",
+    "assigned_articles": ["Art. 38"],
+    "confidence": "high",
+    "reasoning": "Parenthetical '(Art. 38 FHG)' again; direct link."
+  },
+  {
+    "ITEM": 53,
+    "ARTICLE_EID": "art_35",
+    "TARGET_SR": "SR 611.0",
+    "assigned_articles": ["Art. 38"],
+    "confidence": "high",
+    "reasoning": "Same '(Art. 38 FHG)' citation."
+  },
+  {
+    "ITEM": 54,
+    "ARTICLE_EID": "art_36",
+    "TARGET_SR": "SR 611.0",
+    "assigned_articles": ["Art. 39"],
+    "confidence": "high",
+    "reasoning": "Snippet '(Art. 39 FHG)' clearly refers to Art. 39."
+  },
+  {
+    "ITEM": 55,
+    "ARTICLE_EID": "art_37",
+    "TARGET_SR": "SR 611.0",
+    "assigned_articles": ["Art. 39"],
+    "confidence": "high",
+    "reasoning": "Again '(Art. 39 FHG)'; direct article reference."
+  },
+  {
+    "ITEM": 56,
+    "ARTICLE_EID": "art_39",
+    "TARGET_SR": "SR 611.0",
+    "assigned_articles": ["Art. 39"],
+    "confidence": "high",
+    "reasoning": "Same '(Art. 39 FHG)' citation."
+  },
+  {
+    "ITEM": 57,
+    "ARTICLE_EID": "art_40",
+    "TARGET_SR": "SR 611.0",
+    "assigned_articles": ["Art. 40 Abs. 1–3"],
+    "confidence": "high",
+    "reasoning": "Snippet '(Art. 40 Abs. 1–3 FHG)' explicitly gives the paragraph range."
+  },
+  {
+    "ITEM": 58,
+    "ARTICLE_EID": "art_41",
+    "TARGET_SR": "SR 611.0",
+    "assigned_articles": ["Art. 40 Abs. 4"],
+    "confidence": "high",
+    "reasoning": "Parenthetical '(Art. 40 Abs. 4 FHG)' clearly marks this provision."
+  },
+  {
+    "ITEM": 59,
+    "ARTICLE_EID": "art_49",
+    "TARGET_SR": "SR 611.0",
+    "assigned_articles": ["Art. 39"],
+    "confidence": "high",
+    "reasoning": "Snippet '(Art. 39 FHG)' again; direct link."
+  },
+  {
+    "ITEM": 60,
+    "ARTICLE_EID": "art_50",
+    "TARGET_SR": "SR 611.0",
+    "assigned_articles": ["Art. 39"],
+    "confidence": "high",
+    "reasoning": "Same '(Art. 39 FHG)' reference."
+  },
+  {
+    "ITEM": 61,
+    "ARTICLE_EID": "art_51",
+    "TARGET_SR": "SR 611.0",
+    "assigned_articles": ["Art. 39"],
+    "confidence": "high",
+    "reasoning": "Again '(Art. 39 FHG)'; unambiguous."
+  },
+  {
+    "ITEM": 62,
+    "ARTICLE_EID": "art_52",
+    "TARGET_SR": "SR 611.0",
+    "assigned_articles": ["Art. 39", "Art. 57 Abs. 1"],
+    "confidence": "high",
+    "reasoning": "Snippet '(Art. 39 und 57 Abs. 1 FHG)' lists both references connected by 'und'."
+  },
+  {
+    "ITEM": 63,
+    "ARTICLE_EID": "art_53",
+    "TARGET_SR": "SR 611.0",
+    "assigned_articles": ["Art. 48"],
+    "confidence": "high",
+    "reasoning": "Parenthetical '(Art. 48 FHG)' clearly refers to Art. 48."
+  },
+  {
+    "ITEM": 64,
+    "ARTICLE_EID": "art_61",
+    "TARGET_SR": "SR 611.0",
+    "assigned_articles": ["Art. 52"],
+    "confidence": "high",
+    "reasoning": "Snippet '(Art. 52 FHG)' directly marks Art. 52."
+  },
+  {
+    "ITEM": 65,
+    "ARTICLE_EID": "art_62",
+    "TARGET_SR": "SR 611.0",
+    "assigned_articles": ["Art. 53"],
+    "confidence": "high",
+    "reasoning": "Parenthetical '(Art. 53 FHG)' clearly refers to Art. 53."
+  },
+  {
+    "ITEM": 66,
+    "ARTICLE_EID": "art_65",
+    "TARGET_SR": "SR 611.0",
+    "assigned_articles": ["Art. 57", "Art. 59 Abs. 1"],
+    "confidence": "high",
+    "reasoning": "Snippet '(Art. 57 und 59 Abs. 1 FHG)' lists both references."
+  },
+  {
+    "ITEM": 67,
+    "ARTICLE_EID": "art_66",
+    "TARGET_SR": "SR 611.0",
+    "assigned_articles": ["Art. 57", "Art. 59 Abs. 1"],
+    "confidence": "high",
+    "reasoning": "Same '(Art. 57 und 59 Abs. 1 FHG)' as previous item."
+  },
+  {
+    "ITEM": 68,
+    "ARTICLE_EID": "art_67",
+    "TARGET_SR": "SR 611.0",
+    "assigned_articles": ["Art. 57"],
+    "confidence": "high",
+    "reasoning": "Parenthetical '(Art. 57 FHG)' clearly refers to Art. 57."
+  },
+  {
+    "ITEM": 69,
+    "ARTICLE_EID": "art_68",
+    "TARGET_SR": "SR 611.0",
+    "assigned_articles": ["Art. 59"],
+    "confidence": "high",
+    "reasoning": "Snippet '(Art. 59 FHG)' directly marks Art. 59."
+  },
+  {
+    "ITEM": 70,
+    "ARTICLE_EID": "art_69",
+    "TARGET_SR": "SR 611.0",
+    "assigned_articles": ["Art. 59"],
+    "confidence": "high",
+    "reasoning": "Again '(Art. 59 FHG)'; same reference."
+  },
+  {
+    "ITEM": 71,
+    "ARTICLE_EID": "art_70",
+    "TARGET_SR": "SR 611.0",
+    "assigned_articles": ["Art. 60"],
+    "confidence": "high",
+    "reasoning": "Parenthetical '(Art. 60 FHG)' clearly refers to Art. 60."
+  },
+  {
+    "ITEM": 72,
+    "ARTICLE_EID": "art_70_a",
+    "TARGET_SR": "SR 611.0",
+    "assigned_articles": ["Art. 60"],
+    "confidence": "high",
+    "reasoning": "Same '(Art. 60 FHG)' citation."
+  },
+  {
+    "ITEM": 73,
+    "ARTICLE_EID": "art_71",
+    "TARGET_SR": "SR 611.0",
+    "assigned_articles": ["Art. 60"],
+    "confidence": "high",
+    "reasoning": "Again '(Art. 60 FHG)'; direct link."
+  },
+  {
+    "ITEM": 74,
+    "ARTICLE_EID": "art_72",
+    "TARGET_SR": "SR 611.0",
+    "assigned_articles": ["Art. 60a Abs. 1"],
+    "confidence": "high",
+    "reasoning": "Snippet '(Art. 60a Abs. 1 FHG)' clearly specifies article and paragraph."
+  },
+  {
+    "ITEM": 75,
+    "ARTICLE_EID": "art_72_a",
+    "TARGET_SR": "SR 611.0",
+    "assigned_articles": ["Art. 60a Abs. 3"],
+    "confidence": "high",
+    "reasoning": "Parenthetical '(Art. 60a Abs. 3 FHG)' directly marks this provision."
+  },
+  {
+    "ITEM": 76,
+    "ARTICLE_EID": "art_72_b",
+    "TARGET_SR": "SR 611.0",
+    "assigned_articles": ["Art. 60b"],
+    "confidence": "high",
+    "reasoning": "Snippet '(Art. 60b FHG)' and later 'Artikel 60b Absatz 4 FHG' both refer to Art. 60b; article-level assignment is Art. 60b."
+  },
+  {
+    "ITEM": 77,
+    "ARTICLE_EID": "art_72_d",
+    "TARGET_SR": "SR 611.0",
+    "assigned_articles": ["Art. 60c Abs. 6"],
+    "confidence": "high",
+    "reasoning": "Parenthetical '(Art. 60c Abs. 6 FHG)' clearly specifies the provision."
+  },
+  {
+    "ITEM": 78,
+    "ARTICLE_EID": "art_73",
+    "TARGET_SR": "SR 611.0",
+    "assigned_articles": ["Art. 61"],
+    "confidence": "high",
+    "reasoning": "Snippet '(Art. 61 FHG)' directly refers to Art. 61."
+  },
+  {
+    "ITEM": 79,
+    "ARTICLE_EID": "art_74",
+    "TARGET_SR": "SR 611.0",
+    "assigned_articles": ["Art. 62"],
+    "confidence": "high",
+    "reasoning": "Parenthetical '(Art. 62 FHG)' clearly marks Art. 62."
+  },
+  {
+    "ITEM": 80,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "high",
+    "reasoning": "Artikel 142 ParlG is already linked to SR 171.10 in ITEM 2; here, without SR marker, it functions as part of that external citation and does not create a new SR link. No additional SR assignment."
+  },
+  {
+    "ITEM": 81,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "high",
+    "reasoning": "Art. 146 Abs. 4 ParlG is already assigned to SR 171.10 in ITEM 3; this is the same external reference, not a new SR link. No new SR to assign."
+  },
+  {
+    "ITEM": 82,
+    "ARTICLE_EID": "art_6",
+    "TARGET_SR": "self",
+    "assigned_articles": ["Art. 18", "Art. 19"],
+    "confidence": "high",
+    "reasoning": "No SR mentioned; 'Art. 18 und 19' refer to articles of the same ordinance (internal cross-reference)."
+  },
+  {
+    "ITEM": 83,
+    "ARTICLE_EID": "art_6",
+    "TARGET_SR": "self",
+    "assigned_articles": ["Art. 21", "Art. 22"],
+    "confidence": "high",
+    "reasoning": "Again no SR; 'Art. 21 und 22' are internal articles of this ordinance."
+  },
+  {
+    "ITEM": 84,
+    "ARTICLE_EID": "art_6",
+    "TARGET_SR": "self",
+    "assigned_articles": ["Art. 27a–27c"],
+    "confidence": "high",
+    "reasoning": "Range 'Art. 27a–27c' without SR marker; internal structure reference."
+  },
+  {
+    "ITEM": 85,
+    "ARTICLE_EID": "art_6",
+    "TARGET_SR": "self",
+    "assigned_articles": ["Art. 4–6"],
+    "confidence": "high",
+    "reasoning": "‘Der Bundesrat erlässt Weisungen zu den Artikeln 4–6.’ clearly refers to articles of the same ordinance."
+  },
+  {
+    "ITEM": 86,
+    "ARTICLE_EID": "art_14",
+    "TARGET_SR": "SR 611.0",
+    "assigned_articles": ["Art. 24"],
+    "confidence": "high",
+    "reasoning": "Contains 'Artikel 24 FHG'; FHG is preamble acronym for SR 611.0, so Art. 24 belongs to SR 611.0."
+  },
+  {
+    "ITEM": 87,
+    "ARTICLE_EID": "art_18",
+    "TARGET_SR": "SR 611.0",
+    "assigned_articles": ["Art. 13–18"],
+    "confidence": "high",
+    "reasoning": "Snippet '(Art. 13–18 FHG)' explicitly ties the range to FHG (SR 611.0)."
+  },
+  {
+    "ITEM": 88,
+    "ARTICLE_EID": "art_19",
+    "TARGET_SR": "SR 611.0",
+    "assigned_articles": ["Art. 57 Abs. 2"],
+    "confidence": "high",
+    "reasoning": "Contains '(Art. 57 Abs. 2 FHG)'; FHG maps to SR 611.0."
+  },
+  {
+    "ITEM": 89,
+    "ARTICLE_EID": "art_19",
+    "TARGET_SR": "self",
+    "assigned_articles": ["Art. 54"],
+    "confidence": "high",
+    "reasoning": "‘Die Grundsätze für die Rechnungslegung (Art. 54) gelten sinngemäss.’ has no SR marker; Art. 54 is an internal article of this ordinance."
+  },
+  {
+    "ITEM": 90,
+    "ARTICLE_EID": "art_21",
+    "TARGET_SR": "self",
+    "assigned_articles": ["Art. 27b", "Art. 27d"],
+    "confidence": "high",
+    "reasoning": "No SR mentioned; 'Artikeln 27b und 27d' are internal cross-references within the same ordinance."
+  },
+  {
+    "ITEM": 91,
+    "ARTICLE_EID": "art_22",
+    "TARGET_SR": "SR 611.0",
+    "assigned_articles": ["Art. 12 Abs. 4"],
+    "confidence": "high",
+    "reasoning": "Phrase 'Artikel 12 Absatz 4 FHG' explicitly links this article to FHG (SR 611.0); 'Artikeln 18 und 21' lack FHG and are internal."
+  },
+  {
+    "ITEM": 92,
+    "ARTICLE_EID": "art_24",
+    "TARGET_SR": "SR 611.0",
+    "assigned_articles": ["Art. 36 Abs. 1"],
+    "confidence": "high",
+    "reasoning": "Contains 'Artikel 36 Absatz 1 FHG'; FHG is SR 611.0."
+  },
+  {
+    "ITEM": 93,
+    "ARTICLE_EID": "art_27",
+    "TARGET_SR": "SR 611.0",
+    "assigned_articles": ["Art. 36 Abs. 2"],
+    "confidence": "high",
+    "reasoning": "Snippet 'Artikel 36 Absatz 2 FHG' clearly ties to FHG (SR 611.0)."
+  },
+  {
+    "ITEM": 94,
+    "ARTICLE_EID": "art_27",
+    "TARGET_SR": "SR 611.0",
+    "assigned_articles": ["Art. 36"],
+    "confidence": "high",
+    "reasoning": "Phrase 'Artikel 36 FHG' explicitly links to FHG (SR 611.0)."
+  },
+  {
+    "ITEM": 95,
+    "ARTICLE_EID": "art_27_a",
+    "TARGET_SR": "SR 611.0",
+    "assigned_articles": ["Art. 13 Abs. 2", "Art. 15"],
+    "confidence": "high",
+    "reasoning": "Snippet 'Artikeln 13 Absatz 2 und 15 FHG' clearly refers to these FHG provisions."
+  },
+  {
+    "ITEM": 96,
+    "ARTICLE_EID": "art_27_c",
+    "TARGET_SR": "SR 611.0",
+    "assigned_articles": ["Art. 30a Abs. 5"],
+    "confidence": "high",
+    "reasoning": "Contains 'Artikel 30a Absatz 5 FHG'; FHG is SR 611.0."
+  },
+  {
+    "ITEM": 97,
+    "ARTICLE_EID": "art_27_c",
+    "TARGET_SR": "self",
+    "assigned_articles": ["Art. 27b"],
+    "confidence": "high",
+    "reasoning": "Reference 'Artikel 27b Buchstabe c' has no SR marker; it is an internal article of the same ordinance."
+  },
+  {
+    "ITEM": 98,
+    "ARTICLE_EID": "art_27_d",
+    "TARGET_SR": "self",
+    "assigned_articles": ["Art. 27b"],
+    "confidence": "high",
+    "reasoning": "‘Für jede Leistungsgruppe werden die Angaben nach Artikel 27b ausgewiesen.’ is a pure internal cross-reference."
+  },
+  {
+    "ITEM": 99,
+    "ARTICLE_EID": "art_27_e",
+    "TARGET_SR": "self",
+    "assigned_articles": ["Art. 27b"],
+    "confidence": "high",
+    "reasoning": "‘Angaben nach Artikel 27b Buchstaben a–c’ refers to internal article 27b; no SR mentioned."
+  },
+  {
+    "ITEM": 100,
+    "ARTICLE_EID": "art_27_i",
+    "TARGET_SR": "self",
+    "assigned_articles": ["Art. 27a–27h", "Art. 27d", "Art. 27e"],
+    "confidence": "high",
+    "reasoning": "All referenced articles (27a–27h, 27d, 27e) are within the same ordinance; no external SR indicated."
+  },
+  {
+    "ITEM": 101,
+    "ARTICLE_EID": "art_28",
+    "TARGET_SR": "self",
+    "assigned_articles": ["Art. 32 Abs. 2"],
+    "confidence": "high",
+    "reasoning": "‘Weisungen der Finanzverwaltung (Art. 32 Abs. 2)’ has no SR marker; Art. 32 is an internal article."
+  },
+  {
+    "ITEM": 102,
+    "ARTICLE_EID": "art_28",
+    "TARGET_SR": "self",
+    "assigned_articles": ["Art. 54"],
+    "confidence": "high",
+    "reasoning": "‘Die Grundsätze für die Rechnungslegung (Art. 54) gelten sinngemäss.’ refers to internal Art. 54; no SR given."
+  },
+  {
+    "ITEM": 103,
+    "ARTICLE_EID": "art_43",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "high",
+    "reasoning": "Art. 27 BPG and Art. 13 of the Verordnung are already linked to SR 172.220.1 and SR 172.010.59 in ITEMS 9 and 10; here they appear without SR markers and do not create new SR assignments."
+  },
+  {
+    "ITEM": 104,
+    "ARTICLE_EID": "art_47",
+    "TARGET_SR": "self",
+    "assigned_articles": ["Art. 43"],
+    "confidence": "high",
+    "reasoning": "‘Bekanntgabe ... nach Artikel 43’ clearly refers to Art. 43 of the same ordinance; no SR mentioned."
+  },
+  {
+    "ITEM": 105,
+    "ARTICLE_EID": "art_47",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "high",
+    "reasoning": "Artikel 34 of the Verordnung über den Schutz von Personendaten des Bundespersonals is already linked to SR 172.220.111.4 in ITEM 11; this repeats that external reference without SR marker."
+  },
+  {
+    "ITEM": 106,
+    "ARTICLE_EID": "art_67",
+    "TARGET_SR": "SR 172.041.1",
+    "assigned_articles": ["Art. 12 Abs. 2–4"],
+    "confidence": "high",
+    "reasoning": "Same content as ITEM 12 but without explicit SR; context and wording show it refers to the Allgemeine Gebührenverordnung SR 172.041.1, Art. 12 Abs. 2–4."
+  },
+  {
+    "ITEM": 107,
+    "ARTICLE_EID": "art_72_b",
+    "TARGET_SR": "SR 611.0",
+    "assigned_articles": ["Art. 60b Abs. 4"],
+    "confidence": "high",
+    "reasoning": "‘Artikel 60b Absatz 4 FHG’ explicitly ties this to FHG (SR 611.0)."
+  },
+  {
+    "ITEM": 108,
+    "ARTICLE_EID": "art_75",
+    "TARGET_SR": "self",
+    "assigned_articles": ["Art. 18 Abs. 3"],
+    "confidence": "high",
+    "reasoning": "‘Eingabeverfahren ... (Art. 18 Abs. 3)’ has no SR marker; internal article reference."
+  },
+  {
+    "ITEM": 109,
+    "ARTICLE_EID": "art_75",
+    "TARGET_SR": "self",
+    "assigned_articles": ["Art. 27i"],
+    "confidence": "high",
+    "reasoning": "‘Steuerung ... (Art. 27i)’ refers to internal Art. 27i; no SR given."
+  },
+  {
+    "ITEM": 110,
+    "ARTICLE_EID": "art_75",
+    "TARGET_SR": "self",
+    "assigned_articles": ["Art. 31"],
+    "confidence": "high",
+    "reasoning": "‘Aufbewahrung ... (Art. 31)’ is an internal cross-reference."
+  },
+  {
+    "ITEM": 111,
+    "ARTICLE_EID": "art_75",
+    "TARGET_SR": "self",
+    "assigned_articles": ["Art. 32 Abs. 2"],
+    "confidence": "high",
+    "reasoning": "‘Ausgestaltung ... (Art. 32 Abs. 2)’ refers to internal Art. 32 Abs. 2."
+  },
+  {
+    "ITEM": 112,
+    "ARTICLE_EID": "art_75",
+    "TARGET_SR": "self",
+    "assigned_articles": ["Art. 33"],
+    "confidence": "high",
+    "reasoning": "‘Kontierung (Art. 33)’ is an internal article reference."
+  },
+  {
+    "ITEM": 113,
+    "ARTICLE_EID": "art_75",
+    "TARGET_SR": "self",
+    "assigned_articles": ["Art. 34"],
+    "confidence": "high",
+    "reasoning": "‘Inventare ... (Art. 34)’ refers to internal Art. 34."
+  },
+  {
+    "ITEM": 114,
+    "ARTICLE_EID": "art_75",
+    "TARGET_SR": "self",
+    "assigned_articles": ["Art. 36 Abs. 2"],
+    "confidence": "high",
+    "reasoning": "‘internes Kontrollsystem (Art. 36 Abs. 2)’ is an internal cross-reference."
+  },
+  {
+    "ITEM": 115,
+    "ARTICLE_EID": "art_75",
+    "TARGET_SR": "self",
+    "assigned_articles": ["Art. 37"],
+    "confidence": "high",
+    "reasoning": "‘Unterschriftenregelung (Art. 37)’ refers to internal Art. 37."
+  },
+  {
+    "ITEM": 116,
+    "ARTICLE_EID": "art_75",
+    "TARGET_SR": "self",
+    "assigned_articles": ["Art. 41"],
+    "confidence": "high",
+    "reasoning": "‘Vergütungen ... (Art. 41)’ is an internal article reference."
+  },
+  {
+    "ITEM": 117,
+    "ARTICLE_EID": "art_75",
+    "TARGET_SR": "self",
+    "assigned_articles": ["Art. 49"],
+    "confidence": "high",
+    "reasoning": "‘Sicherstellungen (Art. 49)’ refers to internal Art. 49."
+  },
+  {
+    "ITEM": 118,
+    "ARTICLE_EID": "art_75",
+    "TARGET_SR": "self",
+    "assigned_articles": ["Art. 50 Abs. 3"],
+    "confidence": "high",
+    "reasoning": "‘Risikotragung ... (Art. 50 Abs. 3)’ is an internal cross-reference."
+  },
+  {
+    "ITEM": 119,
+    "ARTICLE_EID": "art_75",
+    "TARGET_SR": "self",
+    "assigned_articles": ["Art. 52 Abs. 2"],
+    "confidence": "high",
+    "reasoning": "‘Leasingverträge (Art. 52 Abs. 2)’ refers to internal Art. 52 Abs. 2."
+  },
+  {
+    "ITEM": 120,
+    "ARTICLE_EID": "art_75",
+    "TARGET_SR": "self",
+    "assigned_articles": ["Art. 53"],
+    "confidence": "high",
+    "reasoning": "‘Bilanzierungs- ... (Art. 53)’ is an internal article reference."
+  },
+  {
+    "ITEM": 121,
+    "ARTICLE_EID": "art_75",
+    "TARGET_SR": "self",
+    "assigned_articles": ["Art. 67–69"],
+    "confidence": "high",
+    "reasoning": "‘Inkasso ... (Art. 67–69)’ refers to a range of internal articles."
+  },
+  {
+    "ITEM": 122,
+    "ARTICLE_EID": "art_75",
+    "TARGET_SR": "self",
+    "assigned_articles": ["Art. 70a"],
+    "confidence": "high",
+    "reasoning": "‘Fremdwährungsrisiken (Art. 70a)’ is an internal cross-reference."
+  },
+  {
+    "ITEM": 123,
+    "ARTICLE_EID": "art_78",
+    "TARGET_SR": "self",
+    "assigned_articles": ["Art. 72a Abs. 2 Bst. f"],
+    "confidence": "high",
+    "reasoning": "‘Wohnsitz ... (Art. 72a Abs. 2 Bst. f)’ refers to an article of the same ordinance; no external SR mentioned."
+  }
+]

@@ -1,0 +1,42 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 101",
+    "assigned_articles": [
+      "Art. 122"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Präambel nennt ausdrücklich «gestützt auf Artikel 122 der Bundesverfassung SR 101»; damit ist klar, dass Art. 122 der BV (SR 101) die Rechtsgrundlage bildet."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«Artikel 7 bleibt vorbehalten» verweist ohne Nennung eines SR oder Akronyms auf einen anderen Artikel derselben Verordnung; dies ist eine reine Selbstreferenz und kein Verweis auf ein externes SR."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«nach Artikel 8 zugestimmt hat» enthält keinen Hinweis auf ein anderes Gesetz oder eine SR-Nummer; syntaktisch handelt es sich um einen Verweis auf einen weiteren Artikel desselben Erlasses."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_10",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«nach Artikel 2 Absatz 2» steht ohne Bezug zu einem externen SR-Dokument und beschreibt die interne Systematik des Erlasses; daher reine Selbstreferenz."
+  }
+]

@@ -1,0 +1,130 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 0.725.151",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "high",
+    "reasoning": "The snippet mentions only the Abkommen as a whole (SR 0.725.151) without any article-level citation or numbering; it is a general reference to the treaty."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_6",
+    "TARGET_SR": "SR 0.725.151",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "high",
+    "reasoning": "The liability is described as arising from the Abkommen SR 0.725.151 in general; no specific article or paragraph of the treaty is cited."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": "SR 0.725.151",
+    "assigned_articles": ["Art. 1"],
+    "confidence": "high",
+    "reasoning": "The text explicitly refers to 'Artikel 1 des ... Abkommens SR 0.725.151'; this is a direct article-level citation within the referenced SR."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": "SR 170.512.1",
+    "assigned_articles": ["Art. 4a"],
+    "confidence": "high",
+    "reasoning": "Inside the authorial note: 'gemäss Art. 4a der Publikationsverordnung ... (SR 170.512.1)'; the preposition 'der' and the parenthetical SR clearly link Art. 4a to SR 170.512.1."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_8",
+    "TARGET_SR": "SR 0.725.151",
+    "assigned_articles": ["Art. 2"],
+    "confidence": "high",
+    "reasoning": "The snippet states 'die in Artikel 2 des Abkommens ... SR 0.725.151 vorgesehen ist'; this directly links Article 2 of the treaty SR 0.725.151."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_9",
+    "TARGET_SR": "SR 0.725.151",
+    "assigned_articles": ["Art. 3"],
+    "confidence": "high",
+    "reasoning": "The text refers to 'die in Artikel 3 des Abkommens ... SR 0.725.151 vorgesehen sind'; this is an explicit citation of Article 3 of that SR."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_10",
+    "TARGET_SR": "SR 0.725.151",
+    "assigned_articles": ["Art. 3"],
+    "confidence": "high",
+    "reasoning": "The phrase 'im Sinne von Artikel 3 des Abkommens ... SR 0.725.151' clearly cites Article 3 of the referenced treaty."
+  },
+  {
+    "ITEM": 8,
+    "ARTICLE_EID": "art_11",
+    "TARGET_SR": "SR 0.725.151",
+    "assigned_articles": ["Art. 9"],
+    "confidence": "high",
+    "reasoning": "The snippet mentions 'gemäss Artikel 9 des Abkommens ... SR 0.725.151'; this is a direct reference to Article 9 of that SR."
+  },
+  {
+    "ITEM": 9,
+    "ARTICLE_EID": "art_12",
+    "TARGET_SR": "SR 0.725.151",
+    "assigned_articles": ["Art. 10"],
+    "confidence": "high",
+    "reasoning": "The text refers to 'gemäss Artikel 10 des Abkommens ... SR 0.725.151'; this explicitly cites Article 10 of the treaty."
+  },
+  {
+    "ITEM": 10,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 4", "Art. 5"],
+    "confidence": "high",
+    "reasoning": "This is an internal cross-reference: 'deren wesentlichste in den Artikeln 4 und 5 aufgeführt sind' clearly refers to Articles 4 and 5 of the same document, not to an external SR."
+  },
+  {
+    "ITEM": 11,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 1"],
+    "confidence": "high",
+    "reasoning": "The phrase 'das in Artikel 1 des ... Abkommens vorgesehen ist' mirrors ITEM 3 but without the SR marker; syntactically it is a self-reference to Article 1 of the same Abkommen as understood in context, not a new SR link."
+  },
+  {
+    "ITEM": 12,
+    "ARTICLE_EID": "art_8",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 2"],
+    "confidence": "high",
+    "reasoning": "The snippet cites 'Artikel 2 des Abkommens'; in this artikel_reference context and without an SR marker, it functions as an internal reference to Article 2 of the same Abkommen already discussed."
+  },
+  {
+    "ITEM": 13,
+    "ARTICLE_EID": "art_9",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 3"],
+    "confidence": "high",
+    "reasoning": "The text mentions 'Artikel 3 des Abkommens'; as an artikel_reference with no SR, this is an internal cross-reference to Article 3 of the same treaty context."
+  },
+  {
+    "ITEM": 14,
+    "ARTICLE_EID": "art_10",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 3"],
+    "confidence": "high",
+    "reasoning": "The phrase 'im Sinne von Artikel 3 des Abkommens' is an internal reference to Article 3 of the same Abkommen; no external SR is indicated."
+  },
+  {
+    "ITEM": 15,
+    "ARTICLE_EID": "art_11",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 9"],
+    "confidence": "high",
+    "reasoning": "The snippet cites 'gemäss Artikel 9 des Abkommens'; in this context it is a self-reference to Article 9 of the same treaty, not tied to a separate SR."
+  },
+  {
+    "ITEM": 16,
+    "ARTICLE_EID": "art_12",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 10"],
+    "confidence": "high",
+    "reasoning": "The text refers to 'gemäss Artikel 10 des Abkommens'; as an artikel_reference without SR, this is an internal reference to Article 10 of the same Abkommen."
+  }
+]

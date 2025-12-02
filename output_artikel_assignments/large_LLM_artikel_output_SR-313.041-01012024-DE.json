@@ -1,0 +1,222 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": [
+      "Art. 110 Abs. 3",
+      "Art. 112 Abs. 5",
+      "Art. 130"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Formulierung \"gestützt auf die Artikel 110 Absatz 3, 112 Absatz 5 und 130 des Zollgesetzes ... SR 631.0\" verknüpft diese Artikel syntaktisch eindeutig mit dem Zollgesetz (SR 631.0)."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 313.0",
+    "assigned_articles": [
+      "Art. 107"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Satzteil \"auf Artikel 107 des Bundesgesetzes vom 22. März 1974 SR 313.0 über das Verwaltungsstrafrecht (VStrR)\" bezieht sich der genannte Artikel 107 klar auf SR 313.0."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 351.1",
+    "assigned_articles": [
+      "Art. 111"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Passus \"und auf Artikel 111 des Rechtshilfegesetzes vom 20. März 1981 SR 351.1\" ordnet Art. 111 eindeutig dem Rechtshilfegesetz (SR 351.1) zu."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": "SR 235.11",
+    "assigned_articles": [
+      "Art. 6"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Wendung \"Bearbeitungsreglement nach Artikel 6 der Datenschutzverordnung ... SR 235.11\" verknüpft Art. 6 direkt mit der DSV (SR 235.11)."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_8",
+    "TARGET_SR": "SR 631.061",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Text \"Siehe heute: die Datenverarbeitungsverordnung BAZG ... (SR 631.061).\" nennt keine bestimmten Artikel, sondern verweist allgemein auf die Verordnung; daher Gesamtverweis."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_14",
+    "TARGET_SR": "SR 235.1",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "medium",
+    "reasoning": "Formulierung \"richten sich ... nach dem Datenschutzgesetz ... SR 235.1\" ohne Artikelangabe; es handelt sich um einen generellen Verweis auf das DSG."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_14",
+    "TARGET_SR": "SR 172.021",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "medium",
+    "reasoning": "Die Rechte richten sich \"nach den Bestimmungen des Verwaltungsverfahrensgesetzes ... SR 172.021\" ohne konkrete Artikel; syntaktisch allgemeiner Gesetzesverweis."
+  },
+  {
+    "ITEM": 8,
+    "ARTICLE_EID": "art_17",
+    "TARGET_SR": "SR 152.1",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "medium",
+    "reasoning": "Die Ablieferung richtet sich \"nach den Bestimmungen des Archivierungsgesetzes ... SR 152.1\"; keine Artikelnummern genannt, daher Gesamtverweis."
+  },
+  {
+    "ITEM": 9,
+    "ARTICLE_EID": "art_18",
+    "TARGET_SR": "SR 235.11",
+    "assigned_articles": [
+      "Art. 1",
+      "Art. 2",
+      "Art. 3",
+      "Art. 4",
+      "Art. 6"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Satz \"gelten die Artikel 1–4 und 6 DSV SR 235.11\" werden die Artikel explizit mit der DSV (SR 235.11) verbunden; der Bereich 1–4 wird als einzelne Artikel interpretiert."
+  },
+  {
+    "ITEM": 10,
+    "ARTICLE_EID": "art_18",
+    "TARGET_SR": "SR 128.1",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Formulierung \"die Bestimmungen der Informationssicherheitsverordnung ... SR 128.1\" enthält keine Artikelangabe; es ist ein genereller Verweis auf die Verordnung."
+  },
+  {
+    "ITEM": 11,
+    "ARTICLE_EID": "art_14",
+    "TARGET_SR": "SR 351.1",
+    "assigned_articles": [
+      "Art. 18d",
+      "Art. 36"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Satz \"richten sich ... nach den Artikeln 18d und 36 VStrR\" nennt die Artikel explizit in Verbindung mit VStrR, das im Preambel-Callback als SR 351.1 definiert ist."
+  },
+  {
+    "ITEM": 12,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 6"
+    ],
+    "confidence": "high",
+    "reasoning": "Artikelreferenz \"nach Artikel 6 der Datenschutzverordnung (DSV)\" bezieht sich auf ein externes Gesetz (DSV), nicht auf die eigene Verordnung; daher als SR-Link-ähnliche Referenz zu Art. 6 der DSV, ohne konkrete SR-Nummer im Item."
+  },
+  {
+    "ITEM": 13,
+    "ARTICLE_EID": "art_6",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 4"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Klammer \"(Art. 4)\" ohne Gesetzesangabe verweist auf einen Artikel derselben Verordnung; reine Selbstreferenz innerhalb des Dokuments."
+  },
+  {
+    "ITEM": 14,
+    "ARTICLE_EID": "art_6",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 4 Bst. a",
+      "Art. 4 Bst. b"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Formulierung \"Aufgaben nach Artikel 4 Buchstaben a und b\" ohne Gesetzesnennung ist eine interne Verweisung auf Art. 4 derselben Verordnung."
+  },
+  {
+    "ITEM": 15,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 16",
+      "Art. 17"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Wendung \"nach Massgabe von Artikel 16 und 17\" ohne externes Gesetz ist eine interne Verweisung auf die eigenen Artikel 16 und 17."
+  },
+  {
+    "ITEM": 16,
+    "ARTICLE_EID": "art_10",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 4 Bst. a",
+      "Art. 5 Bst. a",
+      "Art. 5 Bst. b",
+      "Art. 5 Bst. d",
+      "Art. 5 Bst. e",
+      "Art. 5 Bst. f",
+      "Art. 5 Bst. j",
+      "Art. 5 Bst. m"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Bezüge \"(Art. 4 Bst. a)\" und \"Daten nach Artikel 5 Buchstaben a, b, d–f, j und m\" sind interne Verweise auf Artikel derselben Verordnung; kein externes SR genannt."
+  },
+  {
+    "ITEM": 17,
+    "ARTICLE_EID": "art_10",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 4 Bst. a",
+      "Art. 5 Bst. a",
+      "Art. 5 Bst. b",
+      "Art. 5 Bst. d",
+      "Art. 5 Bst. e",
+      "Art. 5 Bst. f",
+      "Art. 5 Bst. m"
+    ],
+    "confidence": "high",
+    "reasoning": "Auch hier verweisen \"(Art. 4 Bst. a)\" und \"Daten nach Artikel 5 Buchstaben a, b, d–f und m\" auf interne Artikel; keine SR-Verknüpfung."
+  },
+  {
+    "ITEM": 18,
+    "ARTICLE_EID": "art_13",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 5 Bst. a",
+      "Art. 5 Bst. b",
+      "Art. 5 Bst. d",
+      "Art. 5 Bst. e",
+      "Art. 5 Bst. f",
+      "Art. 5 Bst. g",
+      "Art. 5 Bst. m",
+      "Art. 4 Bst. a",
+      "Art. 4 Bst. b"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Formulierung \"Daten nach Artikel 5 Buchstaben a, b, d–g und m\" sowie \"im Rahmen von Artikel 4 Buchstaben a und b\" sind interne Verweise auf die eigenen Artikel 4 und 5."
+  },
+  {
+    "ITEM": 19,
+    "ARTICLE_EID": "art_15",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 12"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Satz \"Der Unterstützungs- und Kontrolldienst nach Artikel 12\" verweist ohne Gesetzesangabe auf Art. 12 derselben Verordnung; reine Selbstreferenz."
+  }
+]

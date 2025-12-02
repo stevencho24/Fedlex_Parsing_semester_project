@@ -1,0 +1,122 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 101",
+    "assigned_articles": [
+      "Art. 131 Abs. 1 lit. d"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Formulierung «gestützt auf Artikel 131 Absatz 1 Buchstabe d der Bundesverfassung SR 101» verweist eindeutig auf einen bestimmten Artikel der Bundesverfassung; Artikel, Absatz und Buchstabe sind ausdrücklich genannt."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": "SR 632.10",
+    "assigned_articles": [
+      "Anhang"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Snippet steht «Zolltarifnummern ... SR 632.10 Anhang»; es wird kein bestimmter Artikel, sondern der Anhang des Zolltarifgesetzes bzw. -tarifs referenziert. Daher Zuordnung zum Anhang ohne konkrete Artikelnummer."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_12",
+    "TARGET_SR": "SR 641.81",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "medium",
+    "reasoning": "Formulierung «nach dem Schwerverkehrsabgabegesetz vom 19. Dezember 1997 SR 641.81» nennt keinen bestimmten Artikel, sondern das Gesetz als Ganzes. Mangels weiterer Spezifizierung ist von einer generellen Gesetzesverweisung auszugehen."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_18",
+    "TARGET_SR": "SR 281.1",
+    "assigned_articles": [
+      "Art. 274"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Text lautet «Arrestbefehl im Sinne von Artikel 274 des Bundesgesetzes vom 11. April 1889 SR 281.1 über Schuldbetreibung und Konkurs»; damit ist klar, dass Art. 274 SchKG (SR 281.1) gemeint ist."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_32",
+    "TARGET_SR": "SR 172.021",
+    "assigned_articles": [
+      "Art. 51 ff."
+    ],
+    "confidence": "high",
+    "reasoning": "Im Snippet steht «(Art. 51 ff. des Verwaltungsverfahrensgesetzes ... SR 172.021)»; dies verweist ausdrücklich auf Art. 51 ff. VwVG. Die übliche juristische Kurzform wird als Bereichsangabe übernommen."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_36",
+    "TARGET_SR": "SR 313.0",
+    "assigned_articles": [
+      "Art. 14–16"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Satz «Vorbehalten bleiben die Artikel 14–16 des Verwaltungsstrafrechtsgesetzes ... SR 313.0» nennt explizit die Artikel 14–16 VStrR; daher direkte Zuordnung dieses Artikelbereichs."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_40",
+    "TARGET_SR": "SR 313.0",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "low",
+    "reasoning": "Der Kontext-Snippet enthält nur «SR 313.0» ohne weiteren Text; mangels erkennbarer Artikelangabe oder thematischer Einbettung kann kein bestimmter Artikel zugeordnet werden, weshalb von einer unspezifischen Gesetzesverweisung auszugehen ist."
+  },
+  {
+    "ITEM": 8,
+    "ARTICLE_EID": "art_18",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 274"
+    ],
+    "confidence": "high",
+    "reasoning": "Dies ist eine artikel_reference ohne explizite SR-Angabe, aber der Text entspricht wörtlich dem Snippet von ITEM 4, wo klar ist, dass es sich um Art. 274 SchKG (SR 281.1) handelt. Hier wird derselbe externe Artikel referenziert, nicht ein interner Artikel des eigenen Erlasses."
+  },
+  {
+    "ITEM": 9,
+    "ARTICLE_EID": "art_24",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 30 (interner Verweis)"
+    ],
+    "confidence": "high",
+    "reasoning": "Formulierung «nach Artikel 30» ohne Nennung eines Gesetzes oder einer SR-Nummer in unmittelbarer Nähe spricht für einen Verweis auf einen anderen Artikel desselben Erlasses; daher als interner Selbstverweis qualifiziert."
+  },
+  {
+    "ITEM": 10,
+    "ARTICLE_EID": "art_32",
+    "TARGET_SR": "SR 172.021",
+    "assigned_articles": [
+      "Art. 51 ff."
+    ],
+    "confidence": "high",
+    "reasoning": "Der Text «(Art. 51 ff. des Verwaltungsverfahrensgesetzes vom 20. Dez. 1968)» ist identisch mit dem Kontext von ITEM 5, wo die SR-Nummer 172.021 explizit genannt ist. Es handelt sich um denselben externen Verweis auf Art. 51 ff. VwVG."
+  },
+  {
+    "ITEM": 11,
+    "ARTICLE_EID": "art_36",
+    "TARGET_SR": "SR 313.0",
+    "assigned_articles": [
+      "Art. 14–16"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Snippet-Text entspricht inhaltlich demjenigen von ITEM 6, nur ohne explizite SR-Nummer; dort ist klar, dass es um die Artikel 14–16 des Verwaltungsstrafrechtsgesetzes (SR 313.0) geht. Somit gleicher externer Verweis."
+  },
+  {
+    "ITEM": 12,
+    "ARTICLE_EID": "art_38",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 29 (interner Verweis)"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Wendung «Wer die in Artikel 29 vorgeschriebenen Aufzeichnungen ...» enthält keine SR- oder Gesetzesangabe und steht im Kontext des gleichen Erlasses; dies ist ein typischer interner Verweis auf einen anderen Artikel desselben Gesetzes."
+  }
+]

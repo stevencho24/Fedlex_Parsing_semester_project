@@ -1,0 +1,240 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 101",
+    "assigned_articles": [
+      "Art. 69 Abs. 2",
+      "Art. 95 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Präambel nennt ausdrücklich «Artikel 69 Absatz 2 und 95 Absatz 1 der Bundesverfassung SR 101»; beide Artikel gehören somit klar zur SR 101."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 0.444.1",
+    "assigned_articles": "General reference - entire document",
+    "confidence": "high",
+    "reasoning": "Im Satzteil «in Ausführung des Übereinkommens vom 14. November 1970 SR 0.444.1 …» wird das Übereinkommen als Ganzes genannt; keine spezifischen Artikel dieses Übereinkommens werden erwähnt."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 0.444.2",
+    "assigned_articles": "General reference - entire document",
+    "confidence": "high",
+    "reasoning": "Der Text spricht von «des Übereinkommens vom 2. November 2001 SR 0.444.2 …» ohne Artikelangabe; dies ist eine generelle Bezugnahme auf das gesamte Übereinkommen."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_11",
+    "TARGET_SR": "SR 172.021",
+    "assigned_articles": [
+      "Art. 6",
+      "Art. 7"
+    ],
+    "confidence": "low",
+    "reasoning": "Im Snippet wird nur «nach den Bestimmungen des Bundesgesetzes vom 20. Dezember 1968 SR 172.021 über das Verwaltungsverfahren» erwähnt, ohne konkrete Artikel. Systematisch regeln im VwVG die Art. 6 und 7 die Parteistellung, auf die sich der Begriff «Partei» typischerweise stützt. Da dies jedoch nicht ausdrücklich genannt ist, ist die Zuordnung spekulativ und mit niedriger Sicherheit."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_14_a",
+    "TARGET_SR": "SR 442.1",
+    "assigned_articles": [
+      "Art. 27"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Satz lautet: «… richtet sich nach Artikel 27 des Kulturförderungsgesetzes vom 11. Dezember 2009 SR 442.1.»; Art. 27 ist direkt mit dem Gesetz SR 442.1 verknüpft."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_16",
+    "TARGET_SR": "SR 220",
+    "assigned_articles": [
+      "Art. 962 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Es heisst: «Artikel 962 Absatz 2 des Obligationenrechts SR 220 gilt sinngemäss.»; der Artikel ist eindeutig dem OR (SR 220) zugeordnet."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_23",
+    "TARGET_SR": "SR 351.1",
+    "assigned_articles": [
+      "Art. 3 Abs. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "Formulierung: «… Delikte im Sinne von Artikel 3 Absatz 3 des Rechtshilfegesetzes vom 20. März 1981 SR 351.1»; der genannte Artikel gehört klar zum Rechtshilfegesetz SR 351.1."
+  },
+  {
+    "ITEM": 8,
+    "ARTICLE_EID": "art_24",
+    "TARGET_SR": "SR 210",
+    "assigned_articles": [
+      "Art. 724"
+    ],
+    "confidence": "high",
+    "reasoning": "Text: «Grabungsfunde im Sinne von Artikel 724 des Zivilgesetzbuches SR 210»; Art. 724 ZGB ist eindeutig mit SR 210 verknüpft."
+  },
+  {
+    "ITEM": 9,
+    "ARTICLE_EID": "art_26",
+    "TARGET_SR": "SR 313.0",
+    "assigned_articles": [
+      "Art. 6",
+      "Art. 7"
+    ],
+    "confidence": "high",
+    "reasoning": "Es heisst: «gelten die Artikel 6 und 7 des Bundesgesetzes vom 22. März 1974 SR 313.0 über das Verwaltungsstrafrecht.»; beide Artikel sind ausdrücklich diesem Gesetz zugeordnet."
+  },
+  {
+    "ITEM": 10,
+    "ARTICLE_EID": "art_28",
+    "TARGET_SR": "SR 311.0",
+    "assigned_articles": [
+      "Art. 69",
+      "Art. 70",
+      "Art. 71",
+      "Art. 72"
+    ],
+    "confidence": "high",
+    "reasoning": "Formulierung: «nach den Artikeln 69–72 des Strafgesetzbuchs SR 311.0»; der Bereich 69–72 ist ein klarer Artikelsbereich innerhalb des StGB."
+  },
+  {
+    "ITEM": 11,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "«Artikel 1 der UNESCO-Konvention 1970» und «Artikel 1 Absatz 1 Buchstabe a des UNESCO-Übereinkommens 2001» werden ohne SR-Nummer genannt; sie beziehen sich auf die in der Präambel verknüpften Übereinkommen (SR 0.444.1 und SR 0.444.2), aber hier fehlt eine explizite SR-Zuordnung. Gemäss Regeln ist dies als Selbst- bzw. kontextinterne Referenz ohne TARGET_SR zu behandeln."
+  },
+  {
+    "ITEM": 12,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "«Artikel 4 der UNESCO-Konvention 1970» wird ohne SR-Nummer erwähnt; syntaktisch kein direkter Bezug zu einem SR-Link im selben Snippet. Daher als interne/kontextuelle Referenz ohne Zuordnung zu einem TARGET_SR zu werten."
+  },
+  {
+    "ITEM": 13,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "«Artikel 18» ist eine reine Selbstreferenz innerhalb des vorliegenden Gesetzes (keine SR-Nummer, kein externer Kontext)."
+  },
+  {
+    "ITEM": 14,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "«Artikel 7» und «Artikel 8 Absatz 1 Buchstabe a» werden ohne Gesetzesangabe oder SR-Nummer genannt; sie beziehen sich auf Bestimmungen desselben Gesetzes (interne Struktur)."
+  },
+  {
+    "ITEM": 15,
+    "ARTICLE_EID": "art_4_a",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "«Artikel 2 Absatz 1» ist klar eine Selbstreferenz innerhalb des gleichen Gesetzes; kein externer SR-Bezug im Satz."
+  },
+  {
+    "ITEM": 16,
+    "ARTICLE_EID": "art_8",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "«Artikel 9 der UNESCO-Konvention 1970» wird ohne SR-Nummer genannt; obwohl die Konvention in der Präambel mit SR 0.444.1 verknüpft ist, fehlt hier die explizite syntaktische Verbindung zu einer SR-Angabe. Nach Vorgabe daher als interne/kontextuelle Referenz ohne TARGET_SR zu behandeln."
+  },
+  {
+    "ITEM": 17,
+    "ARTICLE_EID": "art_14_a",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Dies ist derselbe Satz wie bei ITEM 5, aber ohne explizite SR-Nummer im Snippet. Als artikel_reference dient er der Selbstreferenz; die eigentliche SR-Verknüpfung wurde bereits in ITEM 5 (SR_link_detection) behandelt."
+  },
+  {
+    "ITEM": 18,
+    "ARTICLE_EID": "art_16",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Der Satz entspricht inhaltlich ITEM 6, jedoch ohne SR-Nummer im Snippet. Hier handelt es sich um eine interne Wiederholung; die externe Zuordnung zu SR 220 wurde bereits bei ITEM 6 vorgenommen."
+  },
+  {
+    "ITEM": 19,
+    "ARTICLE_EID": "art_18",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "«(Art. 3)» verweist auf einen Artikel desselben Gesetzes; keine SR-Nummer oder externes Gesetz genannt."
+  },
+  {
+    "ITEM": 20,
+    "ARTICLE_EID": "art_18",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "«(Art. 10–13)» ist ein Bereich von Artikeln innerhalb des gleichen Gesetzes; kein externer SR-Bezug."
+  },
+  {
+    "ITEM": 21,
+    "ARTICLE_EID": "art_18",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "«(Art. 16 und 17)» verweist auf interne Artikel des vorliegenden Gesetzes; keine SR-Nummer im Kontext."
+  },
+  {
+    "ITEM": 22,
+    "ARTICLE_EID": "art_23",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Inhaltlich identisch mit ITEM 7, aber ohne SR-Nummer im Snippet. Als artikel_reference ist dies eine interne Formulierung; die externe Zuordnung zu SR 351.1 wurde bereits bei ITEM 7 vorgenommen."
+  },
+  {
+    "ITEM": 23,
+    "ARTICLE_EID": "art_24",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Inhaltlich identisch mit ITEM 8, jedoch ohne SR-Nummer im Snippet. Hier nur Selbstreferenz; die externe Verknüpfung zu SR 210 wurde in ITEM 8 abgedeckt."
+  },
+  {
+    "ITEM": 24,
+    "ARTICLE_EID": "art_25",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "«(Art. 16)» ist eine interne Verweisung auf einen Artikel desselben Gesetzes; kein externer SR-Bezug."
+  },
+  {
+    "ITEM": 25,
+    "ARTICLE_EID": "art_25",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "«(Art. 17)» verweist auf einen internen Artikel; keine SR-Nummer oder externes Gesetz genannt."
+  },
+  {
+    "ITEM": 26,
+    "ARTICLE_EID": "art_26",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Inhaltlich gleich wie ITEM 9, aber ohne SR-Nummer im Snippet. Als artikel_reference ist dies eine interne Formulierung; die externe Zuordnung zu SR 313.0 wurde bereits bei ITEM 9 vorgenommen."
+  },
+  {
+    "ITEM": 27,
+    "ARTICLE_EID": "art_28",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Inhaltlich gleich wie ITEM 10, jedoch ohne SR-Nummer im Snippet. Hier nur Selbstreferenz; die externe Verknüpfung zu SR 311.0 und den Art. 69–72 wurde in ITEM 10 vorgenommen."
+  }
+]

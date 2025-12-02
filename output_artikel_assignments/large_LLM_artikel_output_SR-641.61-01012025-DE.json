@@ -1,0 +1,272 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 101",
+    "assigned_articles": [
+      "Art. 86",
+      "Art. 131 Abs. 1 Bst. e",
+      "Art. 131 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Formulierung «gestützt auf Artikel 86 sowie 131 Absatz 1 Buchstabe e und 2 der Bundesverfassung SR 101» verknüpft die genannten Verfassungsbestimmungen syntaktisch direkt mit SR 101."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": "SR 632.10",
+    "assigned_articles": [
+      "Anhang (Zolltarifnummer 2707)"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Snippet wird «Zolltarifnummer 2707 SR 632.10 Anhang» genannt; es handelt sich um einen Verweis auf den Anhang des Zolltarifgesetzes, nicht auf einen bestimmten Artikel."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_17",
+    "TARGET_SR": "SR 192.12",
+    "assigned_articles": [
+      "Art. 2 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Text lautet «institutionellen Begünstigten nach Artikel 2 Absatz 1 des Gaststaatgesetzes … SR 192.12»; Art. 2 Abs. 1 ist klar dem Gaststaatgesetz (SR 192.12) zugeordnet."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_21",
+    "TARGET_SR": "SR 235.1",
+    "assigned_articles": [
+      "Art. 21"
+    ],
+    "confidence": "high",
+    "reasoning": "«… nach Artikel 21 des Datenschutzgesetzes … SR 235.1» verknüpft Art. 21 direkt mit dem DSG (SR 235.1)."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_23",
+    "TARGET_SR": "SR 281.1",
+    "assigned_articles": [
+      "Art. 274"
+    ],
+    "confidence": "high",
+    "reasoning": "«… Arrestbefehl im Sinne von Artikel 274 des Bundesgesetzes über Schuldbetreibung und Konkurs … SR 281.1» ordnet Art. 274 eindeutig dem SchKG (SR 281.1) zu."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_34",
+    "TARGET_SR": "SR 172.021",
+    "assigned_articles": [
+      "Art. 51 ff."
+    ],
+    "confidence": "high",
+    "reasoning": "«(Art. 51 ff. Verwaltungsverfahrensgesetz … SR 172.021)» ist ein direkter Verweis auf Art. 51 ff. VwVG innerhalb von SR 172.021."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_38",
+    "TARGET_SR": "SR 313.0",
+    "assigned_articles": [
+      "Art. 14–16"
+    ],
+    "confidence": "high",
+    "reasoning": "«Vorbehalten bleiben die Artikel 14–16 des Verwaltungsstrafrechtsgesetzes … SR 313.0» verknüpft die Artikel 14–16 klar mit dem VStrR (SR 313.0)."
+  },
+  {
+    "ITEM": 8,
+    "ARTICLE_EID": "art_42",
+    "TARGET_SR": "SR 313.0",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "low",
+    "reasoning": "Das Snippet enthält nur «SR 313.0» ohne Kontext oder Artikelangabe; mangels syntaktischer Verknüpfung zu bestimmten Artikeln ist von einem allgemeinen Dokumentverweis auszugehen."
+  },
+  {
+    "ITEM": 9,
+    "ARTICLE_EID": "art_2_a",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document (Art. 2 Abs. 3 Bst. d)"
+    ],
+    "confidence": "high",
+    "reasoning": "Es wird «… nach Artikel 2 Absatz 3 Buchstabe d.» ohne Nennung eines SR zitiert; dies ist eine Selbstreferenz innerhalb derselben Verordnung."
+  },
+  {
+    "ITEM": 10,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document (Art. 1)",
+      "Internal reference within current document (Art. 2 Abs. 1)",
+      "Internal reference within current document (Art. 2 Abs. 2)"
+    ],
+    "confidence": "high",
+    "reasoning": "«… nach den Artikeln 1 und 2 Absätze 1 und 2 im Inland» verweist ohne SR-Angabe auf Artikel derselben Verordnung."
+  },
+  {
+    "ITEM": 11,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document (Art. 27–32)"
+    ],
+    "confidence": "high",
+    "reasoning": "«(Art. 27–32)» steht ohne Bezug zu einem externen SR-Dokument; es handelt sich um interne Artikel der vorliegenden Regelung."
+  },
+  {
+    "ITEM": 12,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document (Art. 32)"
+    ],
+    "confidence": "high",
+    "reasoning": "«(Art. 32)» ist ein isolierter Artikelverweis ohne SR-Nennung und damit eine Selbstreferenz."
+  },
+  {
+    "ITEM": 13,
+    "ARTICLE_EID": "art_12_c",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document (Art. 12b Abs. 1)",
+      "Internal reference within current document (Art. 12b Abs. 3)"
+    ],
+    "confidence": "high",
+    "reasoning": "«… Anforderungen nach Artikel 12b Absätze 1 und 3 …» verweist auf einen Artikel mit Buchstaben derselben Verordnung; kein externes SR genannt."
+  },
+  {
+    "ITEM": 14,
+    "ARTICLE_EID": "art_12_c",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document (Art. 12b Abs. 1)",
+      "Internal reference within current document (Art. 12b Abs. 3)"
+    ],
+    "confidence": "high",
+    "reasoning": "Gleiche Formulierung wie in ITEM 13; wiederum reine Selbstreferenz auf Art. 12b Abs. 1 und 3 der eigenen Verordnung."
+  },
+  {
+    "ITEM": 15,
+    "ARTICLE_EID": "art_12_e",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document (Art. 12a)",
+      "Internal reference within current document (Art. 12b)"
+    ],
+    "confidence": "high",
+    "reasoning": "«… nach den Artikeln 12a und 12b …» nennt keine SR-Nummer und bezieht sich auf benachbarte Artikel derselben Norm."
+  },
+  {
+    "ITEM": 16,
+    "ARTICLE_EID": "art_12_e",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document (Anhang 1)",
+      "Internal reference within current document (Art. 12 Abs. 2)"
+    ],
+    "confidence": "high",
+    "reasoning": "«… die in Anhang 1 und Artikel 12 Absatz 2 enthaltenen Steuersätze …» sind interne Strukturverweise ohne externes SR."
+  },
+  {
+    "ITEM": 17,
+    "ARTICLE_EID": "art_15",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document (Art. 14 Abs. 2)"
+    ],
+    "confidence": "high",
+    "reasoning": "«… Verpflichtungen nach Artikel 14 Absatz 2 …» verweist auf einen Artikel derselben Verordnung; kein externer Gesetzesverweis."
+  },
+  {
+    "ITEM": 18,
+    "ARTICLE_EID": "art_17",
+    "TARGET_SR": "SR 192.12",
+    "assigned_articles": [
+      "Art. 2 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "Inhaltlich identisch mit ITEM 3, jedoch ohne SR im Snippet; aufgrund der Parallelstelle mit explizitem SR-Link (ITEM 3) ist klar, dass Art. 2 Abs. 1 Gaststaatgesetz (SR 192.12) gemeint ist."
+  },
+  {
+    "ITEM": 19,
+    "ARTICLE_EID": "art_17",
+    "TARGET_SR": "SR 192.12",
+    "assigned_articles": [
+      "Art. 2 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "«… begünstigten Personen nach Artikel 2 Absatz 2 des Gaststaatgesetzes …» nennt das Gaststaatgesetz ausdrücklich; Art. 2 Abs. 2 gehört zu SR 192.12."
+  },
+  {
+    "ITEM": 20,
+    "ARTICLE_EID": "art_20_a",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document (Art. 12b Abs. 1)",
+      "Internal reference within current document (Art. 12b Abs. 3)"
+    ],
+    "confidence": "high",
+    "reasoning": "«… welche die Anforderungen nach Artikel 12b Absätze 1 und 3 erfüllen» ist ein interner Verweis auf Art. 12b derselben Verordnung."
+  },
+  {
+    "ITEM": 21,
+    "ARTICLE_EID": "art_20_a",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document (Art. 12b Abs. 1)",
+      "Internal reference within current document (Art. 12b Abs. 3)"
+    ],
+    "confidence": "high",
+    "reasoning": "Gleiche Bezugnahme auf «Artikel 12b Absätze 1 und 3» wie in ITEM 20; wiederum interne Selbstreferenz."
+  },
+  {
+    "ITEM": 22,
+    "ARTICLE_EID": "art_21",
+    "TARGET_SR": "SR 235.1",
+    "assigned_articles": [
+      "Art. 21"
+    ],
+    "confidence": "high",
+    "reasoning": "«… nach Artikel 21 des Datenschutzgesetzes vom 25. September 2020» entspricht exakt dem in ITEM 4 mit SR-Link belegten Verweis; Art. 21 DSG (SR 235.1) ist gemeint."
+  },
+  {
+    "ITEM": 23,
+    "ARTICLE_EID": "art_23",
+    "TARGET_SR": "SR 281.1",
+    "assigned_articles": [
+      "Art. 274"
+    ],
+    "confidence": "high",
+    "reasoning": "«… im Sinne von Artikel 274 des Bundesgesetzes über Schuldbetreibung und Konkurs …» entspricht dem durch ITEM 5 mit SR 281.1 belegten Verweis; Art. 274 SchKG (SR 281.1) ist betroffen."
+  },
+  {
+    "ITEM": 24,
+    "ARTICLE_EID": "art_34",
+    "TARGET_SR": "SR 172.021",
+    "assigned_articles": [
+      "Art. 51 ff."
+    ],
+    "confidence": "high",
+    "reasoning": "«(Art. 51 ff. Verwaltungsverfahrensgesetz …)» ist der gleiche Verweis wie in ITEM 6, wo SR 172.021 explizit genannt wird; daher Art. 51 ff. VwVG (SR 172.021)."
+  },
+  {
+    "ITEM": 25,
+    "ARTICLE_EID": "art_38",
+    "TARGET_SR": "SR 313.0",
+    "assigned_articles": [
+      "Art. 14–16"
+    ],
+    "confidence": "high",
+    "reasoning": "«Vorbehalten bleiben die Artikel 14–16 des Verwaltungsstrafrechtsgesetzes …» entspricht dem durch ITEM 7 mit SR 313.0 belegten Verweis; somit Art. 14–16 VStrR (SR 313.0)."
+  },
+  {
+    "ITEM": 26,
+    "ARTICLE_EID": "art_40",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document (Art. 31)"
+    ],
+    "confidence": "high",
+    "reasoning": "«… die in Artikel 31 vorgeschriebenen Aufzeichnungen …» verweist ohne SR-Angabe auf einen Artikel derselben Verordnung; daher Selbstreferenz."
+  }
+]

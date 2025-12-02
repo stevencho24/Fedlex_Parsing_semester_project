@@ -1,0 +1,20 @@
+[
+  {
+    "Item": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 910.1",
+    "assigned_articles": [
+      "Art. 177"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet explicitly states 'gestützt auf Artikel 177 des Landwirtschaftsgesetzes ... SR 910.1 (LwG)', directly linking Article 177 to SR 910.1."
+  },
+  {
+    "Item": 2,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "The reference 'Artikel 1 Absatz 1 Buchstabe a' appears without any SR or acronym context and clearly refers to another article within the same document, so it is a self-reference and not assigned to an external SR."
+  }
+]

@@ -1,0 +1,225 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 101",
+    "assigned_articles": [
+      "Art. 63 Abs. 1",
+      "Art. 92",
+      "Art. 95 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Präambel nennt ausdrücklich: «gestützt auf die Artikel 63 Absatz 1, 92 und 95 Absatz 1 der Bundesverfassung SR 101»; diese Artikel gehören klar zur Bundesverfassung (SR 101)."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 745.1",
+    "assigned_articles": [
+      "Art. 6",
+      "Art. 7",
+      "Art. 8"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Snippet: «nach den Artikeln 6–8 des Personenbeförderungsgesetzes ... SR 745.1»; die Artikelangabe steht direkt bei der Gesetzesbezeichnung mit SR-Nummer, somit beziehen sich Art. 6–8 auf SR 745.1."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": "SR 741.01",
+    "assigned_articles": [
+      "Art. 7 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "Formulierung: «jedes Fahrzeug im Sinne von Artikel 7 Absatz 1 des Strassenverkehrsgesetzes ... SR 741.01»; der Artikel ist unmittelbar mit dem genannten Gesetz verknüpft."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": "SR 0.740.72",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "Es wird nur «das Abkommen vom 21. Juni 1999 SR 0.740.72 ... (Landverkehrsabkommen)» als Ganzes erwähnt, ohne konkrete Artikel; daher allgemeine Verweisung auf das gesamte Abkommen."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_3_a",
+    "TARGET_SR": "SR 0.740.72",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "Text: «ausserhalb des Anwendungsbereichs des Landverkehrsabkommens SR 0.740.72»; es wird auf den Anwendungsbereich des Abkommens insgesamt Bezug genommen, ohne Artikelangabe."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_3_a",
+    "TARGET_SR": "SR 0.740.1",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "«gestützt auf das Protokoll vom 17. Oktober 1953 SR 0.740.1 ...»; keine Artikelnummern genannt, daher allgemeine Verweisung auf das Protokoll als Ganzes."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_8_a",
+    "TARGET_SR": "SR 0.740.72",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "«dem Landverkehrsabkommen SR 0.740.72, den gestützt darauf erlassenen Vorschriften ...»; es wird auf das Abkommen als Rechtsgrundlage insgesamt verwiesen, ohne einzelne Artikel."
+  },
+  {
+    "ITEM": 8,
+    "ARTICLE_EID": "art_12",
+    "TARGET_SR": "SR 313.0",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "medium",
+    "reasoning": "«Das Verfahren richtet sich nach dem Bundesgesetz ... SR 313.0 über das Verwaltungsstrafrecht.»; typischerweise wird das VStrR als Ganzes für das Verfahren herangezogen, ohne spezifische Artikelangabe im Text."
+  },
+  {
+    "ITEM": 9,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 6",
+      "Art. 7",
+      "Art. 8"
+    ],
+    "confidence": "high",
+    "reasoning": "artikel_reference ohne explizite SR; derselbe Satz erscheint in ITEM 2, wo klar ist, dass sich «Artikeln 6–8 des Personenbeförderungsgesetzes» auf SR 745.1 beziehen. Hier handelt es sich um dieselbe externe Verweisung, nicht um eine Selbstreferenz."
+  },
+  {
+    "ITEM": 10,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 7 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "Satz entspricht inhaltlich ITEM 3, wo «Artikel 7 Absatz 1 des Strassenverkehrsgesetzes ... SR 741.01» genannt wird. Auch hier ist es eine externe Verweisung auf Art. 7 Abs. 1 SVG, nicht auf einen Artikel des eigenen Gesetzes."
+  },
+  {
+    "ITEM": 11,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": "SR 744.10",
+    "assigned_articles": [
+      "Art. 5"
+    ],
+    "confidence": "high",
+    "reasoning": "«zuverlässig sein (Art. 5);» ohne Gesetzesangabe im selben Satz; im Kontext der internen Systematik ist dies eine Selbstreferenz auf Art. 5 des vorliegenden Gesetzes (SR 744.10)."
+  },
+  {
+    "ITEM": 12,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": "SR 744.10",
+    "assigned_articles": [
+      "Art. 6"
+    ],
+    "confidence": "high",
+    "reasoning": "«finanziell leistungsfähig sein (Art. 6);» ohne externes Gesetz; syntaktisch eine interne Verweisung auf Art. 6 desselben Gesetzes SR 744.10."
+  },
+  {
+    "ITEM": 13,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": "SR 744.10",
+    "assigned_articles": [
+      "Art. 7"
+    ],
+    "confidence": "high",
+    "reasoning": "«fachlich geeignet sein (Art. 7);» ebenfalls ohne SR- oder Gesetzesangabe; im Kontext von Art. 4 sind dies interne Verweise auf Art. 7 des eigenen Gesetzes."
+  },
+  {
+    "ITEM": 14,
+    "ARTICLE_EID": "art_9",
+    "TARGET_SR": "SR 744.10",
+    "assigned_articles": [
+      "Art. 5 Abs. 1 Bst. a",
+      "Art. 5 Abs. 1 Bst. b"
+    ],
+    "confidence": "high",
+    "reasoning": "«Straftaten nach Artikel 5 Absatz 1 Buchstabe a oder b»; kein anderes Gesetz genannt, daher Verweis auf Art. 5 Abs. 1 lit. a und b des gleichen Gesetzes SR 744.10."
+  },
+  {
+    "ITEM": 15,
+    "ARTICLE_EID": "art_9",
+    "TARGET_SR": "SR 744.10",
+    "assigned_articles": [
+      "Art. 8 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "«Feststellung im Rahmen einer Prüfung nach Artikel 8 Absatz 1»; ohne externe SR, somit interne Verweisung auf Art. 8 Abs. 1 des eigenen Gesetzes."
+  },
+  {
+    "ITEM": 16,
+    "ARTICLE_EID": "art_9_a",
+    "TARGET_SR": "SR 744.10",
+    "assigned_articles": [
+      "Art. 9 Abs. 2",
+      "Art. 9 Abs. 3 Bst. a",
+      "Art. 9 Abs. 3 Bst. d",
+      "Art. 9 Abs. 3 Bst. e"
+    ],
+    "confidence": "high",
+    "reasoning": "«Daten nach Artikel 9 Absätze 2 und 3 Buchstaben a, d und e»; klar interne Verweisung auf die genannten Absätze und Buchstaben von Art. 9 desselben Gesetzes."
+  },
+  {
+    "ITEM": 17,
+    "ARTICLE_EID": "art_9_a",
+    "TARGET_SR": "SR 744.10",
+    "assigned_articles": [
+      "Art. 9 Abs. 2",
+      "Art. 9 Abs. 3 Bst. a",
+      "Art. 9 Abs. 3 Bst. d",
+      "Art. 9 Abs. 3 Bst. e"
+    ],
+    "confidence": "high",
+    "reasoning": "Wortlaut identisch hinsichtlich der Verweisung: «Daten nach Artikel 9 Absätze 2 und 3 Buchstaben a, d und e»; wiederum interne Verweise auf Art. 9 des eigenen Gesetzes."
+  },
+  {
+    "ITEM": 18,
+    "ARTICLE_EID": "art_11",
+    "TARGET_SR": "SR 744.10",
+    "assigned_articles": [
+      "Art. 8a"
+    ],
+    "confidence": "high",
+    "reasoning": "«gegen das Verbot nach Artikel 8a verstösst»; keine externe SR, daher interner Verweis auf Art. 8a des Gesetzes SR 744.10."
+  },
+  {
+    "ITEM": 19,
+    "ARTICLE_EID": "art_12",
+    "TARGET_SR": "SR 744.10",
+    "assigned_articles": [
+      "Art. 11"
+    ],
+    "confidence": "high",
+    "reasoning": "«Verstössen gegen Artikel 11»; wiederum ohne externes Gesetz, somit Selbstreferenz auf Art. 11 desselben Gesetzes."
+  },
+  {
+    "ITEM": 20,
+    "ARTICLE_EID": "art_12_a",
+    "TARGET_SR": "SR 744.10",
+    "assigned_articles": [
+      "Art. 3 Abs. 1bis Bst. b"
+    ],
+    "confidence": "high",
+    "reasoning": "«Strassentransportunternehmen nach Artikel 3 Absatz 1bis Buchstabe b»; klar interne Verweisung auf Art. 3 Abs. 1bis lit. b des eigenen Gesetzes."
+  },
+  {
+    "ITEM": 21,
+    "ARTICLE_EID": "art_12_a",
+    "TARGET_SR": "SR 744.10",
+    "assigned_articles": [
+      "Art. 9a Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "«für den Informationsaustausch nach Artikel 9a Absatz 2 erforderlichen Abkommen»; keine externe SR, daher interner Verweis auf Art. 9a Abs. 2 des Gesetzes SR 744.10."
+  }
+]

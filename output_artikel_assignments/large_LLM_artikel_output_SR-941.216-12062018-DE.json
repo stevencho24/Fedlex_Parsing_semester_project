@@ -1,0 +1,67 @@
+[
+  {
+    "Item": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 941.210",
+    "assigned_articles": [
+      "Art. 5 Abs. 2",
+      "Art. 8 Abs. 2",
+      "Art. 16 Abs. 2",
+      "Art. 17 Abs. 2",
+      "Art. 24 Abs. 3",
+      "Art. 33"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Präambel nennt ausdrücklich: \"gestützt auf die Artikel 5 Absatz 2, 8 Absatz 2, 16 Absatz 2, 17 Absatz 2, 24 Absatz 3 und 33 der Messmittelverordnung ... SR 941.210\"; alle genannten Artikel sind daher eindeutig dieser SR zugeordnet."
+  },
+  {
+    "Item": 2,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": "SR 941.210",
+    "assigned_articles": [
+      "Anhang 1"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Satz verweist auf \"Anhang 1 der Messmittelverordnung\"; es wird kein bestimmter Artikel genannt, sondern explizit der Anhang. Daher Zuordnung zu Anhang 1 der SR 941.210."
+  },
+  {
+    "Item": 3,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": "SR 941.210",
+    "assigned_articles": [
+      "Anhang 5"
+    ],
+    "confidence": "high",
+    "reasoning": "Es heisst \"Ersteichung nach Anhang 5 der Messmittelverordnung\"; damit ist klar der Anhang 5 der SR 941.210 gemeint, ohne weitere Artikelangabe."
+  },
+  {
+    "Item": 4,
+    "ARTICLE_EID": "art_6",
+    "TARGET_SR": "SR 941.210",
+    "assigned_articles": [
+      "Anhang 7 Ziff. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Text nennt \"Nacheichung nach Anhang 7 Ziffer 1 der Messmittelverordnung\"; dies ist eine eindeutige Verweisung auf Anhang 7 Ziffer 1 der SR 941.210."
+  },
+  {
+    "Item": 5,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 5 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Formulierung \"nach Artikel 5 Absatz 2\" steht ohne Nennung einer SR oder eines Akonyms im selben Satz und bezieht sich syntaktisch nur auf die eigene Verordnung; dies ist eine interne Selbstverweisung auf Art. 5 Abs. 2 derselben Verordnung, nicht auf eine andere SR."
+  },
+  {
+    "Item": 6,
+    "ARTICLE_EID": "art_8",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 4"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Wendung \"sofern sie den Anforderungen nach Artikel 4 genügen\" enthält keine SR- oder Akonymangabe und bildet eine typische interne Strukturverweisung; sie bezieht sich auf Art. 4 der eigenen Verordnung und nicht auf ein externes SR-Dokument."
+  }
+]

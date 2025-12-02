@@ -1,0 +1,54 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 172.220.1",
+    "assigned_articles": [
+      "Art. 39 Abs. 3",
+      "Art. 42 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Satz nennt ausdrücklich «die Artikel 39 Absatz 3 und 42 Absatz 2 des Bundespersonalgesetzes … SR 172.220.1 (BPG)»; beide Artikel sind direkt und eindeutig diesem SR zugeordnet."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 172.220.11",
+    "assigned_articles": [
+      "Art. 8 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Rahmenverordnung SR 172.220.11 wird genannt, danach heisst es «In Abweichung von Artikel 8 Absatz 1 dieser Verordnung …». «dieser Verordnung» bezieht sich syntaktisch auf die zuvor genannte Rahmenverordnung SR 172.220.11, somit gehört Art. 8 Abs. 1 zu diesem SR."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": "SR 172.221.10",
+    "assigned_articles": [
+      "Art. 6 Abs. 3",
+      "Art. 14a"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Satz «Die Artikel 6 Absatz 3 und 14a des Beamtengesetzes … SR 172.221.10 bleiben weiterhin in Kraft.» werden die Artikel 6 Abs. 3 und 14a ausdrücklich dem Beamtengesetz SR 172.221.10 zugeordnet."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«Artikel 8 Absatz 1 dieser Verordnung» ist eine Selbstverweisung innerhalb derselben Verordnung (SR 172.220.116). Es wird kein anderes SR genannt; daher handelt es sich um eine interne Artikelreferenz und nicht um eine Zuweisung zu einem externen TARGET_SR."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Text nennt «Die Artikel 6 Absatz 3 und 14a des Beamtengesetzes … bleiben weiterhin in Kraft.»; diese externe Zuordnung zu SR 172.221.10 wurde bereits in ITEM 3 als SR_link_detection erfasst. Hier als artikel_reference ohne TARGET_SR dient die Stelle nur zur Erkennung von Artikelverweisen; es ist keine zusätzliche externe Zuweisung vorzunehmen, sondern eine interne Strukturreferenz im aktuellen Dokument."
+  }
+]

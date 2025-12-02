@@ -1,0 +1,62 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 101",
+    "assigned_articles": [
+      "Art. 173 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet explicitly states: 'Der genannten Bestimmung entspricht Artikel 173 Absatz 2 der neuen Bundesverfassung ... (SR 101)'; the article is syntactically and semantically linked to SR 101."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 172.220.1",
+    "assigned_articles": [
+      "Art. 40 Ziff. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Inside the authorial note: 'Fassung gemäss Art. 40 Ziff. 2 des Bundespersonalgesetzes ... (SR 172.220.1)'; the article reference is directly and exclusively tied to SR 172.220.1."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 173.110",
+    "assigned_articles": [
+      "Anhang Ziff. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "The note reads: 'Fassung gemäss Anhang Ziff. 3 des Bundesgerichtsgesetzes ... (SR 173.110)'; this is a modification clause referring specifically to Annex number 3 of SR 173.110, not to a particular article."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 172.220.1",
+    "assigned_articles": [
+      "Art. 40 Ziff. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "The text: 'Aufgehoben durch Art. 40 Ziff. 2 des Bundespersonalgesetzes ... (SR 172.220.1)' clearly links Art. 40 Ziff. 2 to SR 172.220.1 via direct marking."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_2_a",
+    "TARGET_SR": "SR 173.110",
+    "assigned_articles": [
+      "Anhang Ziff. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "The note: 'Eingefügt durch Anhang Ziff. 3 des Bundesgerichtsgesetzes ... (SR 173.110)' again refers specifically to Annex number 3 of SR 173.110 as the legal basis."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": "SR 831.40",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "medium",
+    "reasoning": "The sentence refers generically to 'dem Bundesgesetz vom 25. Juni 1982 SR 831.40 über die berufliche Alters‑, Hinterlassenen- und Invalidenvorsorge' without specifying any article; it is a general citation of the BVG as a whole."
+  }
+]

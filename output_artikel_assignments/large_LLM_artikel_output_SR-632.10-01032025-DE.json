@@ -1,0 +1,109 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 101",
+    "assigned_articles": [
+      "Art. 101",
+      "Art. 133"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Formulierung \"gestützt auf die Artikel 101 und 133 der Bundesverfassung SR 101\" verknüpft beide Artikel direkt und ausdrücklich mit der Bundesverfassung (SR 101)."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": "SR 946.201",
+    "assigned_articles": [
+      "Art. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Satzteil \"nach Artikel 2 des Bundesgesetzes vom 25. Juni 1982 SR 946.201 über aussenwirtschaftliche Massnahmen\" wird Art. 2 ausdrücklich diesem Gesetz (SR 946.201) zugeordnet."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_9",
+    "TARGET_SR": "SR 0.632.11",
+    "assigned_articles": [
+      "Art. 16"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Wendung \"nach Artikel 16 des Internationalen Übereinkommens ... SR 0.632.11\" ordnet Art. 16 klar dem Übereinkommen SR 0.632.11 zu."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_10",
+    "TARGET_SR": "SR 910.1",
+    "assigned_articles": [
+      "Art. 20",
+      "Art. 21",
+      "Art. 22"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Text spricht von \"in den Artikeln 20–22 des Landwirtschaftsgesetzes ... SR 910.1\"; damit sind die Artikel 20 bis 22 dieses Gesetzes eindeutig mit SR 910.1 verknüpft."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Artikel 2 wird erwähnt, aber ohne Nennung eines SR oder Gesetzestitels im unmittelbaren Satzteil (der Gesetzestitel steht nur in der Variante mit SR-Link in ITEM 2). Nach den Regeln gilt dies hier als interne Selbstreferenz innerhalb des aktuellen Dokuments, nicht als Zuweisung zu einem externen SR."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_9",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Artikel 16 des Übereinkommens wird erwähnt, aber ohne explizite SR-Angabe im Snippet (anders als in ITEM 3). Damit ist syntaktisch kein SR verknüpft; nach den Vorgaben ist dies als Selbstreferenz bzw. externe Referenz ohne SR-Zuordnung zu behandeln."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_9",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Die Bezugnahme \"gemäss Artikel 3 Absatz 1 Buchstabe c dieses Übereinkommens\" ist klar eine interne Verweisung innerhalb desselben Übereinkommens; es wird kein SR-Dokument genannt. Daher keine Zuweisung zu einem TARGET_SR."
+  },
+  {
+    "ITEM": 8,
+    "ARTICLE_EID": "art_10",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Es werden \"Artikel 13 Absatz 1 ... dieses Gesetzes\" sowie \"Artikeln 20–22 des Landwirtschaftsgesetzes\" erwähnt, jedoch ohne SR-Nummer. Die Struktur zeigt interne bzw. inhaltliche Verweise, aber keine explizite SR-Verknüpfung im Snippet; daher Selbstreferenzen ohne TARGET_SR."
+  },
+  {
+    "ITEM": 9,
+    "ARTICLE_EID": "art_10",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "\"Artikel 4 Absatz 3 Buchstabe c\" wird ohne Nennung eines SR oder Gesetzestitels erwähnt und mit \"dieses Gesetzes\" im Kontext von Art. 10 verknüpft; dies ist eine interne Verweisung innerhalb des aktuellen Gesetzes."
+  },
+  {
+    "ITEM": 10,
+    "ARTICLE_EID": "art_12",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Die Formulierung \"gemäss Artikel 3\" bezieht sich ohne weitere Spezifikation auf einen Artikel desselben Gesetzes; es wird kein externes SR-Dokument genannt. Damit liegt eine reine Selbstreferenz vor."
+  },
+  {
+    "ITEM": 11,
+    "ARTICLE_EID": "art_13",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "\"(Art. 4 Abs. 1)\" ist eine Kurzverweisung innerhalb desselben Gesetzes (Art. 13 lit. a verweist auf Art. 4 Abs. 1 desselben Erlasses). Es gibt keinen Hinweis auf ein anderes SR-Dokument."
+  },
+  {
+    "ITEM": 12,
+    "ARTICLE_EID": "art_13",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Die Verweisung \"nach den Artikeln 4–7 und 9a oder nach dem 6. Abschnitt\" betrifft ausschliesslich interne Struktur des aktuellen Gesetzes; es wird kein SR-Dokument genannt. Daher handelt es sich um Selbstreferenzen ohne TARGET_SR."
+  }
+]

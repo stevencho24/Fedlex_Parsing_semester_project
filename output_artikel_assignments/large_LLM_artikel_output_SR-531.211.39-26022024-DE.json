@@ -1,0 +1,42 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 531.11",
+    "assigned_articles": [
+      "Art. 21"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet explicitly cites 'Artikel 21 der Verordnung ... SR 531.11'; the article number is directly and uniquely linked to SR 531.11."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_8",
+    "TARGET_SR": "SR 531",
+    "assigned_articles": [
+      "Art. 45"
+    ],
+    "confidence": "high",
+    "reasoning": "The text states 'gestützt auf Artikel 45 des Landesversorgungsgesetzes ... SR 531 (LVG)'; Article 45 is syntactically and semantically attributed to SR 531."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_9",
+    "TARGET_SR": "SR 531",
+    "assigned_articles": [
+      "Art. 49"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet reads 'nach Artikel 49 LVG SR 531 bestraft'; Article 49 is directly associated with LVG, which is identified as SR 531."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_8",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "This is an artikel_reference item without an SR citation; 'Artikel 45 des Landesversorgungsgesetzes ... (LVG)' repeats the same external reference already captured in ITEM 2 and functions here as a self-reference context within the current document, not as a new SR link assignment."
+  }
+]

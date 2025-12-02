@@ -1,0 +1,232 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 101",
+    "assigned_articles": [
+      "Art. 123 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet explicitly states: 'Der genannten Bestimmung entspricht heute der Art. 123 Abs. 2 der BV ... (SR 101)'; the article is syntactically and semantically linked to SR 101."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": "SR 311.0",
+    "assigned_articles": [
+      "Art. 37"
+    ],
+    "confidence": "high",
+    "reasoning": "Phrase '(Art. 37 des Strafgesetzbuches SR 311.0 – StGB)' directly links Art. 37 to SR 311.0 in the same parenthetical citation."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": "SR 311.0",
+    "assigned_articles": [
+      "Art. 100bis"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet and acronym context both contain '(Art. 100bis StGB SR 311.0)'; Art. 100bis is explicitly attributed to the Strafgesetzbuch with SR 311.0."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": "SR 210",
+    "assigned_articles": [
+      "Art. 397a"
+    ],
+    "confidence": "high",
+    "reasoning": "Text 'in Anwendung von Artikel 397a des Zivilgesetzbuches SR 210' clearly assigns Art. 397a to the ZGB with SR 210."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_8",
+    "TARGET_SR": "SR 311.0",
+    "assigned_articles": [
+      "Art. 397bis Abs. 4"
+    ],
+    "confidence": "high",
+    "reasoning": "Citation '(Art. 397bis Abs. 4 StGB SR 311.0)' directly links Art. 397bis Abs. 4 to SR 311.0."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_19_a",
+    "TARGET_SR": "SR 311.1",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "medium",
+    "reasoning": "The phrase 'nach dem Jugendstrafgesetz vom 20. Juni 2003 SR 311.1' cites the Jugendstrafgesetz as a whole without specifying any article; treated as a general reference."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "Artikel 37 StGB is mentioned without an SR number and in a list defining categories of institutions in Art. 2 of the current ordinance; this is a cross-reference to the Strafgesetzbuch, not to a TARGET_SR in this item. As there is no TARGET_SR, it is treated as an internal/self-reference context for this parsing task."
+  },
+  {
+    "ITEM": 8,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "References 'Art. 37bis und 39 StGB' without an explicit SR link in this item; syntactically a cross-reference to the Strafgesetzbuch but, per rules, without TARGET_SR this is handled as an internal/self-reference for the current document."
+  },
+  {
+    "ITEM": 9,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "Mentions 'Art. 42–44 StGB' only; no SR document is cited in this snippet, so under the specification this is treated as an internal reference within the current document structure."
+  },
+  {
+    "ITEM": 10,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "Contains 'Art. 100bis StGB' without any SR link; per rules for artikel_reference with no TARGET_SR, this is considered an internal/self-reference context."
+  },
+  {
+    "ITEM": 11,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "Lists 'Art. 40, 42–44 und 100bis StGB' but no SR is mentioned; syntactically separate from any SR_link_detection, so treated as internal reference within the current document."
+  },
+  {
+    "ITEM": 12,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "References 'Art. 38, 41 und 45 StGB' only; no explicit SR context, so by the project rules this is an internal cross-reference rather than an assignment to an external TARGET_SR."
+  },
+  {
+    "ITEM": 13,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "Mentions 'Art. 82 ff. und 89 ff. StGB' without an SR link; again, artikel_reference with no TARGET_SR is treated as internal/self-reference for this task."
+  },
+  {
+    "ITEM": 14,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "Refers to 'Artikel 1' with no SR document; clearly an internal reference to Art. 1 of the same ordinance."
+  },
+  {
+    "ITEM": 15,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "Reference 'Artikel 2' appears in a condition about the same federal contribution scheme; no SR cited, so it is an internal cross-reference."
+  },
+  {
+    "ITEM": 16,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "Contains 'Artikel 82 ff. und 89 ff. des Strafgesetzbuches' and 'Artikel 397a des Zivilgesetzbuches' but no SR numbers; as an artikel_reference item without TARGET_SR, it is treated as internal/self-reference context for this parsing step."
+  },
+  {
+    "ITEM": 17,
+    "ARTICLE_EID": "art_6",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "Refers to 'Artikel 3' in the sense of applying its conditions; clearly an internal reference within the same ordinance, with no external SR cited."
+  },
+  {
+    "ITEM": 18,
+    "ARTICLE_EID": "art_13",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "Mentions 'Artikel 8' as another provision on contributions; no SR context, so it is an internal cross-reference."
+  },
+  {
+    "ITEM": 19,
+    "ARTICLE_EID": "art_15",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "States 'Das Ergänzungsgesuch ist nach Artikel 13 einzureichen'; this is a procedural cross-reference within the same ordinance, with no SR cited."
+  },
+  {
+    "ITEM": 20,
+    "ARTICLE_EID": "art_16_a",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "Parenthetical '(Art. 16 Abs. 2)' clearly refers to another paragraph of the same article; no external SR, so internal reference."
+  },
+  {
+    "ITEM": 21,
+    "ARTICLE_EID": "art_17",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "Refers to 'Artikel 1' in describing support for efforts under that article; this is an internal structural reference within the ordinance."
+  },
+  {
+    "ITEM": 22,
+    "ARTICLE_EID": "art_18",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "Mentions 'Aufgaben nach Artikel 1'; again, a clear internal reference to the ordinance's own Art. 1, with no SR document cited."
+  },
+  {
+    "ITEM": 23,
+    "ARTICLE_EID": "art_19_a",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "Refers to 'Artikel 5' in the same sentence as the SR 311.1 citation in the corresponding SR_link_detection item, but this artikel_reference item itself has no TARGET_SR; per rules, it is treated as an internal reference within the current document."
+  }
+]

@@ -1,0 +1,75 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 0.747.224.011",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet cites the convention (Übereinkommen) with its SR number as the basis for the ordinance but does not mention any specific articles of the convention; the listed articles (29, 30 Abs. 2, 56 Abs. 2, 58 Abs. 1) clearly belong to the Bundesgesetz über die Binnenschifffahrt, not to the convention."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 747.201",
+    "assigned_articles": [
+      "Art. 29",
+      "Art. 30 Abs. 2",
+      "Art. 56 Abs. 2",
+      "Art. 58 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "The phrase 'gestützt auf die Artikel 29, 30 Absatz 2, 56 Absatz 2 und 58 Absatz 1 des Bundesgesetzes ... SR 747.201 über die Binnenschifffahrt' directly links these articles to SR 747.201 via 'des Bundesgesetzes ... SR 747.201'; clear syntactic attribution."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 0.747.224.011",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "Art. 1 states the territorial scope: 'Das Übereinkommen gilt ...'; this is a general applicability statement and does not single out any specific article of the convention."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": "SR 0.747.224.011",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "Art. 2 assigns implementation responsibility: 'Die Kantone ... vollziehen das Übereinkommen und diese Verordnung.' This refers to the convention as a whole, without specifying particular provisions."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": "SR 0.747.224.011",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "medium",
+    "reasoning": "Art. 3 twice mentions 'Einrichtungen gemäss Übereinkommen' and the cantons' responsibility for such facilities. While the convention likely contains specific provisions on facilities, no article numbers are cited and there is no syntactic marker tying to a particular article; treated as a general reference."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": "SR 0.747.224.011",
+    "assigned_articles": [
+      "Art. 9"
+    ],
+    "confidence": "high",
+    "reasoning": "The text explicitly states '(Art. 9 des Übereinkommens)', directly linking Art. 9 to the convention identified as SR 0.747.224.011; clear direct marking."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_9",
+    "TARGET_SR": "SR 0.747.224.011",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "Art. 9 regulates entry into force: 'tritt gleichzeitig mit dem Übereinkommen in Kraft.' This is a temporal coordination with the convention as a whole, not a citation of a specific article."
+  }
+]

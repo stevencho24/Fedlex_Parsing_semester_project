@@ -1,0 +1,93 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "art_27",
+    "TARGET_SR": "SR 101",
+    "assigned_articles": [
+      "Art. 141 Abs. 1",
+      "Art. 160 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Snippet werden ausdrücklich «Art. 141 Abs. 1 BV» und «Art. 160 Abs. 1 BV» genannt; BV ist die Bundesverfassung (SR 101). Beide Artikel sind daher klar dem TARGET_SR SR 101 zuzuordnen."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_30",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 20 Ziff. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "«Artikel 20 Ziffer 1» wird ohne Nennung eines anderen Erlasses erwähnt und bezieht sich damit auf einen Artikel derselben kantonalen Verfassung; es handelt sich um eine reine Selbstreferenz innerhalb des Dokuments."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_30",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 7ter"
+    ],
+    "confidence": "high",
+    "reasoning": "«Artikel 7ter der Kantonsverfassung» verweist auf einen anderen Artikel derselben Kantonsverfassung; kein anderes SR wird genannt, daher ist dies eine interne Selbstreferenz."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_33",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 16"
+    ],
+    "confidence": "high",
+    "reasoning": "«nach Artikel 16 stimmberechtigten» verweist auf einen Artikel derselben Verfassung; mangels Nennung eines anderen Erlasses ist dies eine interne Selbstreferenz."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_33",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 22"
+    ],
+    "confidence": "high",
+    "reasoning": "«gemäss Artikel 22» steht ohne Bezug zu einem anderen SR-Dokument und bezeichnet einen Artikel derselben Kantonsverfassung; daher interne Selbstreferenz."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_35",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 30"
+    ],
+    "confidence": "high",
+    "reasoning": "«die nach Artikel 30 von gleichzeitiger Wahlfähigkeit ausgeschlossen sind» verweist auf einen Artikel derselben Verfassung; kein externes SR genannt, somit Selbstreferenz."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_46",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 16"
+    ],
+    "confidence": "high",
+    "reasoning": "«nach Artikel 16 Stimmfähigen» verweist wiederum auf denselben internen Artikel 16 der Kantonsverfassung; keine externe SR-Verknüpfung."
+  },
+  {
+    "ITEM": 8,
+    "ARTICLE_EID": "art_48",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 7bis"
+    ],
+    "confidence": "high",
+    "reasoning": "«Bestimmungen von Artikel 7bis» bezieht sich auf einen Artikel derselben Verfassung; es wird kein anderes Gesetz oder SR genannt, daher interne Selbstreferenz."
+  },
+  {
+    "ITEM": 9,
+    "ARTICLE_EID": "disp_u1/art_4",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 22 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "«nach Artikel 22 Absatz 2» verweist auf einen Artikel derselben Kantonsverfassung; keine externe SR-Referenz vorhanden, somit Selbstreferenz."
+  }
+]

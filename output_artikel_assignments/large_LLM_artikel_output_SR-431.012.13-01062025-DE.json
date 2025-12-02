@@ -1,0 +1,86 @@
+[
+  {
+    "Item": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 431.011",
+    "assigned_articles": [
+      "Art. 29 Abs. 3",
+      "Art. 30 Abs. 3",
+      "Art. 39 Abs. 7"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Satz nennt ausdrücklich: «gestützt auf die Artikel 29 Absatz 3, 30 Absatz 3 und 39 Absatz 7 der Bundesstatistikverordnung … SR 431.011 (BStatV)»; diese Artikel gehören klar zur BStatV (SR 431.011)."
+  },
+  {
+    "Item": 2,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": "SR 431.011",
+    "assigned_articles": [
+      "Art. 39 Abs. 1",
+      "Art. 39 Abs. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Snippet stehen zwei direkte Verweise mit Acronym: «(Art. 39 Abs. 1 BStatV)» und «nach Artikel 39 Absatz 3 BStatV»; beide beziehen sich syntaktisch klar auf die Bundesstatistikverordnung SR 431.011."
+  },
+  {
+    "Item": 3,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": "SR 431.011",
+    "assigned_articles": [
+      "Art. 39 Abs. 4"
+    ],
+    "confidence": "high",
+    "reasoning": "Formulierung: «die Aufgaben nach Artikel 39 Absatz 4 BStatV»; Artikel und Absatz werden explizit mit dem Kürzel BStatV (SR 431.011) verbunden."
+  },
+  {
+    "Item": 4,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": "SR 431.011",
+    "assigned_articles": [
+      "Art. 30 Abs. 2 Bst. c",
+      "Art. 30 Abs. 2 Bst. e"
+    ],
+    "confidence": "high",
+    "reasoning": "Das Snippet enthält zwei eindeutige Verweise: «nach Artikel 30 Absatz 2 Buchstabe c BStatV» und «nach Artikel 30 Absatz 2 Buchstabe e BStatV»; beide sind klar der BStatV (SR 431.011) zugeordnet."
+  },
+  {
+    "Item": 5,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": "SR 431.011",
+    "assigned_articles": [
+      "Art. 39 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Stelle «(Art. 39 Abs. 1 BStatV)» ist ein direkt markierter Verweis mit Acronym auf die Bundesstatistikverordnung SR 431.011; keine Anzeichen für eine Selbstreferenz."
+  },
+  {
+    "Item": 6,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": "SR 431.011",
+    "assigned_articles": [
+      "Art. 39 Abs. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "Formulierung «die Nachweise nach Artikel 39 Absatz 3 BStatV» verknüpft Artikel und Absatz unmittelbar mit der BStatV (SR 431.011); syntaktisch klarer externer Verweis."
+  },
+  {
+    "Item": 7,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": "SR 431.011",
+    "assigned_articles": [
+      "Art. 30 Abs. 2 Bst. c"
+    ],
+    "confidence": "high",
+    "reasoning": "«nach Artikel 30 Absatz 2 Buchstabe c BStatV» ist ein expliziter Artikelverweis mit Acronym auf die BStatV (SR 431.011); derselbe Bezug wie in Item 4, hier isoliert auf Buchstabe c."
+  },
+  {
+    "Item": 8,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": "SR 431.011",
+    "assigned_articles": [
+      "Art. 30 Abs. 2 Bst. e"
+    ],
+    "confidence": "high",
+    "reasoning": "«nach Artikel 30 Absatz 2 Buchstabe e BStatV» verweist eindeutig auf Art. 30 Abs. 2 Buchstabe e der BStatV (SR 431.011); klarer externer Verweis, keine Selbstreferenz."
+  }
+]

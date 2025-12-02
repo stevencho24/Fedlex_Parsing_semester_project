@@ -1,0 +1,94 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 151.3",
+    "assigned_articles": [
+      "Art. 15",
+      "Art. 23"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet explicitly cites 'Artikel 15 und 23 des Behindertengleichstellungsgesetzes ... SR 151.3 (BehiG)'; both articles are grammatically linked to SR 151.3."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": "SR 742.101",
+    "assigned_articles": [
+      "Art. 39 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "Phrase 'Nebenbetriebe gemäss Artikel 39 Absatz 1 des Eisenbahngesetzes ... SR 742.101' directly links Art. 39 Abs. 1 to the Eisenbahngesetz (SR 742.101)."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_3_a",
+    "TARGET_SR": "SR 742.141.1",
+    "assigned_articles": [
+      "Art. 15a Abs. 1 Bst. a"
+    ],
+    "confidence": "high",
+    "reasoning": "Text 'nach Artikel 15a Absatz 1 Buchstabe a der Eisenbahnverordnung ... SR 742.141.1' clearly attributes this specific article and subdivision to SR 742.141.1."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_24",
+    "TARGET_SR": "SR 616.1",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet only mentions 'das Subventionsgesetz vom 5. Oktober 1990 SR 616.1' without any article number; this is a general reference to the whole statute."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": "SR 151.3",
+    "assigned_articles": [
+      "Art. 3 Bst. b",
+      "Art. 3 Bst. e"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet contains '(Art. 3 Bst. b BehiG)' and '(Art. 3 Bst. e BehiG)'; BehiG is SR 151.3 per preamble_callback, so these are explicit article references within SR 151.3."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "Artikel_reference without SR; '(Art. 3 Bst. b BehiG)' refers to SR 151.3 but that link is already captured in item 5. Within this document’s context, this functions as an internal cross-reference and should not be newly assigned to a TARGET_SR."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "Similar to item 6, '(Art. 3 Bst. e BehiG)' is already linked to SR 151.3 in item 5; here it is a repeated internal cross-reference, not a new SR assignment."
+  },
+  {
+    "ITEM": 8,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet 'Nebenbetriebe gemäss Artikel 39 Absatz 1 des Eisenbahngesetzes vom 20. Dezember 1957;' is the same legal idea as item 2 but without the explicit SR number. Since item 2 already assigns Art. 39 Abs. 1 to SR 742.101, this occurrence is treated as an internal/self-reference within the current document."
+  },
+  {
+    "ITEM": 9,
+    "ARTICLE_EID": "art_3_a",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet repeats 'Artikel 15a Absatz 1 Buchstabe a der Eisenbahnverordnung ...' which is already assigned to SR 742.141.1 in item 3. As an artikel_reference without its own TARGET_SR, it functions as an internal cross-reference rather than a new outgoing SR link."
+  }
+]

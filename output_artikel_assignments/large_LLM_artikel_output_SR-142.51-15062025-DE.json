@@ -1,0 +1,516 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 101",
+    "assigned_articles": ["Art. 121 Abs. 1"],
+    "confidence": "high",
+    "reasoning": "Die Formulierung «gestützt auf Artikel 121 Absatz 1 der Bundesverfassung SR 101» verknüpft den genannten Artikel grammatikalisch eindeutig mit SR 101."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 142.20",
+    "assigned_articles": [
+      "Art. 9a",
+      "Art. 92a",
+      "Art. 101",
+      "Art. 102",
+      "Art. 102c–102e",
+      "Art. 109k–109m",
+      "Art. 111a–111d"
+    ],
+    "confidence": "high",
+    "reasoning": "«Die Artikel 9a, 92a, 101, 102, 102c–102e, 109k–109m und 111a–111d des Ausländer- und Integrationsgesetzes … SR 142.20 (AIG)» nennt explizit diese Artikel des AIG."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 142.31",
+    "assigned_articles": [
+      "Art. 96–99",
+      "Art. 102–102abis",
+      "Art. 102b–102e"
+    ],
+    "confidence": "high",
+    "reasoning": "«die Artikel 96–99, 102–102abis und 102b–102e des Asylgesetzes … SR 142.31 (AsylG)» verweist klar auf diese Artikel des AsylG."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 141.0",
+    "assigned_articles": ["Art. 44"],
+    "confidence": "high",
+    "reasoning": "«sowie Artikel 44 des Bürgerrechtsgesetzes … SR 141.0 (BüG)» nennt einen bestimmten Artikel dieses Gesetzes."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": "SR 142.20",
+    "assigned_articles": [
+      "Art. 68a Abs. 1–2",
+      "Art. 109f"
+    ],
+    "confidence": "medium",
+    "reasoning": "Im Snippet selbst wird nur allgemein «im Rahmen der Vorschriften des AIG» gesagt (generelle Verweisung). In snippet_acronym erscheinen jedoch «Verfügungen nach Artikel 68a Absätze 1 und 2 AIG» sowie «Rückkehr nach Artikel 109f AIG». Diese stehen im selben Artikel und Kontext des AIG und sind klar als AIG-Artikel markiert; sie werden daher diesem SR zugeordnet."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": "SR 0.142.112.681",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "high",
+    "reasoning": "Es wird nur das Abkommen vom 21. Juni 1999 (Freizügigkeitsabkommen) als Ganzes genannt, ohne Artikelangabe."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": "SR 0.632.31",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "high",
+    "reasoning": "«des Abkommens vom 21. Juni 2001 SR 0.632.31 zur Änderung des EFTA-Übereinkommens» verweist nur auf das Abkommen insgesamt."
+  },
+  {
+    "ITEM": 8,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": "SR 141.0",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "high",
+    "reasoning": "«die Erfüllung der Aufgaben nach dem BüG SR 141.0» ist eine generelle Verweisung ohne Artikelnummer."
+  },
+  {
+    "ITEM": 9,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": "SR 823.20",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "high",
+    "reasoning": "«nach dem Entsendegesetz … SR 823.20» enthält keine konkrete Artikelangabe."
+  },
+  {
+    "ITEM": 10,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": "SR 142.31",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "high",
+    "reasoning": "«gemäss AsylG SR 142.31» ist eine pauschale Bezugnahme auf das Asylgesetz."
+  },
+  {
+    "ITEM": 11,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": "SR 311.0",
+    "assigned_articles": ["Art. 66a", "Art. 66abis"],
+    "confidence": "high",
+    "reasoning": "«Entfernungs- und Fernhaltemassnahmen nach dem … Strafgesetzbuch (StGB) SR 311.0» wird im selben Artikelkontext mit «Landesverweisung nach Artikel 66a oder 66abis StGB» (artikel_reference 42, 49, 52) konkretisiert; diese Artikel gehören zum StGB."
+  },
+  {
+    "ITEM": 12,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": "SR 321.0",
+    "assigned_articles": ["Art. 49a", "Art. 49abis"],
+    "confidence": "high",
+    "reasoning": "Im Kontext werden «Artikel 49a oder 49abis MStG» genannt (artikel_reference 42, 49, 52); diese sind eindeutig Artikel des Militärstrafgesetzes SR 321.0."
+  },
+  {
+    "ITEM": 13,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": "SR 831.10",
+    "assigned_articles": ["Art. 50c"],
+    "confidence": "high",
+    "reasoning": "Das Snippet nennt ausdrücklich «Die AHV-Nummer nach Artikel 50c des Bundesgesetzes … SR 831.10»."
+  },
+  {
+    "ITEM": 14,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": "SR 235.1",
+    "assigned_articles": ["Art. 5 Bst. c"],
+    "confidence": "high",
+    "reasoning": "«besonders schützenswerte Personendaten nach Artikel 5 Buchstabe c … SR 235.1 (DSG)» verweist klar auf diesen Absatz."
+  },
+  {
+    "ITEM": 15,
+    "ARTICLE_EID": "art_6",
+    "TARGET_SR": "SR 235.1",
+    "assigned_articles": ["Art. 25", "Art. 41 Abs. 2 Bst. a"],
+    "confidence": "high",
+    "reasoning": "Im Snippet werden «Art. 25 DSG SR 235.1» und «Art. 41 Abs. 2 Bst. a DSG» genannt; beide gehören zum DSG."
+  },
+  {
+    "ITEM": 16,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": "SR 235.1",
+    "assigned_articles": ["Art. 6 Abs. 5"],
+    "confidence": "high",
+    "reasoning": "«(Art. 6 Abs. 5 DSG SR 235.1)» ist eine eindeutige Artikelangabe."
+  },
+  {
+    "ITEM": 17,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": "SR 0.142.115.143",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "high",
+    "reasoning": "Es wird nur die Vereinbarung vom 6. November 1963 SR 0.142.115.143 als Ganzes erwähnt."
+  },
+  {
+    "ITEM": 18,
+    "ARTICLE_EID": "art_8_a",
+    "TARGET_SR": "SR 142.20",
+    "assigned_articles": ["Art. 109f"],
+    "confidence": "high",
+    "reasoning": "«für die Durchführung der Rückkehr nach Artikel 109f AIG SR 142.20» nennt explizit diesen Artikel."
+  },
+  {
+    "ITEM": 19,
+    "ARTICLE_EID": "art_9",
+    "TARGET_SR": "SR 311.0",
+    "assigned_articles": ["Art. 66a", "Art. 66abis"],
+    "confidence": "high",
+    "reasoning": "«Landesverweisung nach Artikel 66a oder 66abis des Strafgesetzbuchs (StGB) SR 311.0» verweist direkt auf diese StGB-Artikel."
+  },
+  {
+    "ITEM": 20,
+    "ARTICLE_EID": "art_9",
+    "TARGET_SR": "SR 321.0",
+    "assigned_articles": ["Art. 49a", "Art. 49abis"],
+    "confidence": "high",
+    "reasoning": "«Landesverweisung … Artikel 49a oder 49abis des Militärstrafgesetzes … SR 321.0» nennt diese Artikel ausdrücklich."
+  },
+  {
+    "ITEM": 21,
+    "ARTICLE_EID": "art_9",
+    "TARGET_SR": "SR 361",
+    "assigned_articles": ["Art. 15"],
+    "confidence": "high",
+    "reasoning": "«nach Artikel 15 des Bundesgesetzes … SR 361 über die polizeilichen Informationssysteme des Bundes (BPI)» ist eine klare Artikelverweisung."
+  },
+  {
+    "ITEM": 22,
+    "ARTICLE_EID": "art_9",
+    "TARGET_SR": "SR 210",
+    "assigned_articles": ["Art. 97a Abs. 1"],
+    "confidence": "high",
+    "reasoning": "«nach Artikel 97a Absatz 1 des Zivilgesetzbuches SR 210» benennt diesen Artikel des ZGB."
+  },
+  {
+    "ITEM": 23,
+    "ARTICLE_EID": "art_9",
+    "TARGET_SR": "SR 211.231",
+    "assigned_articles": ["Art. 6 Abs. 2"],
+    "confidence": "high",
+    "reasoning": "«Artikel 6 Absatz 2 des Partnerschaftsgesetzes … SR 211.231» verweist eindeutig auf diesen Artikel."
+  },
+  {
+    "ITEM": 24,
+    "ARTICLE_EID": "art_9",
+    "TARGET_SR": "SR 312.2",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "high",
+    "reasoning": "«gemäss dem Bundesgesetz … SR 312.2 über den ausserprozessualen Zeugenschutz» ohne Artikelangabe → Gesamtverweisung."
+  },
+  {
+    "ITEM": 25,
+    "ARTICLE_EID": "art_9",
+    "TARGET_SR": "SR 121",
+    "assigned_articles": ["Art. 6 Abs. 1 Bst. a"],
+    "confidence": "high",
+    "reasoning": "«nach Artikel 6 Absatz 1 Buchstabe a des Nachrichtendienstgesetzes … SR 121 (NDG)» nennt diesen Artikel."
+  },
+  {
+    "ITEM": 26,
+    "ARTICLE_EID": "art_9",
+    "TARGET_SR": "SR 141.0",
+    "assigned_articles": ["Art. 14 Bst. d"],
+    "confidence": "high",
+    "reasoning": "«nach Artikel 14 Buchstabe d BüG SR 141.0» ist eine direkte Artikelverweisung."
+  },
+  {
+    "ITEM": 27,
+    "ARTICLE_EID": "art_9",
+    "TARGET_SR": "SR 142.20",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "medium",
+    "reasoning": "«nach dem AIG SR 142.20» ist eine generelle Bezugnahme ohne konkrete Artikel; andere AIG-Artikel im Dokument sind nicht grammatikalisch mit dieser Stelle verknüpft."
+  },
+  {
+    "ITEM": 28,
+    "ARTICLE_EID": "art_9",
+    "TARGET_SR": "SR 142.31",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "medium",
+    "reasoning": "«und dem AsylG SR 142.31» ist ebenfalls eine pauschale Verweisung ohne Artikelangabe."
+  },
+  {
+    "ITEM": 29,
+    "ARTICLE_EID": "art_11",
+    "TARGET_SR": "SR 142.20",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "medium",
+    "reasoning": "«mit der Erfüllung von Aufgaben nach dem AIG SR 142.20» verweist allgemein auf das Gesetz; keine konkrete Artikelnummer im selben Satzteil."
+  },
+  {
+    "ITEM": 30,
+    "ARTICLE_EID": "art_11",
+    "TARGET_SR": "SR 142.31",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "medium",
+    "reasoning": "«Aufgaben nach dem … AsylG SR 142.31» ist eine generelle Verweisung."
+  },
+  {
+    "ITEM": 31,
+    "ARTICLE_EID": "art_11",
+    "TARGET_SR": "SR 141.0",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "medium",
+    "reasoning": "«Aufgaben nach dem … BüG SR 141.0» ohne Artikelangabe → Gesamtverweisung."
+  },
+  {
+    "ITEM": 32,
+    "ARTICLE_EID": "art_12",
+    "TARGET_SR": "SR 142.20",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "medium",
+    "reasoning": "«für die sie nach dem AIG SR 142.20 … zuständig sind» nennt keine bestimmten Artikel; andere AIG-Artikel im Dokument sind nicht syntaktisch verknüpft."
+  },
+  {
+    "ITEM": 33,
+    "ARTICLE_EID": "art_12",
+    "TARGET_SR": "SR 142.31",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "medium",
+    "reasoning": "«nach dem … AsylG SR 142.31» ist ebenfalls allgemein gehalten."
+  },
+  {
+    "ITEM": 34,
+    "ARTICLE_EID": "art_12",
+    "TARGET_SR": "SR 141.0",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "medium",
+    "reasoning": "«nach dem … BüG SR 141.0» ohne Artikelangabe."
+  },
+  {
+    "ITEM": 35,
+    "ARTICLE_EID": "art_13",
+    "TARGET_SR": "SR 431.01",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "high",
+    "reasoning": "«gemäss dem Bundesstatistikgesetz vom 9. Oktober 1992 SR 431.01» verweist auf das Gesetz insgesamt."
+  },
+  {
+    "ITEM": 36,
+    "ARTICLE_EID": "art_13",
+    "TARGET_SR": "SR 142.31",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "medium",
+    "reasoning": "«nach dem AsylG SR 142.31 übertragenen Aufgaben» ist eine generelle Bezugnahme ohne Artikel."
+  },
+  {
+    "ITEM": 37,
+    "ARTICLE_EID": "art_15",
+    "TARGET_SR": "SR 235.1",
+    "assigned_articles": ["Art. 16", "Art. 17"],
+    "confidence": "high",
+    "reasoning": "«richtet sich nach den Artikeln 16 und 17 DSG SR 235.1» nennt diese DSG-Artikel ausdrücklich."
+  },
+  {
+    "ITEM": 38,
+    "ARTICLE_EID": "art_15",
+    "TARGET_SR": "SR 142.20",
+    "assigned_articles": [
+      "Art. 102c–102e",
+      "Art. 109k",
+      "Art. 109l",
+      "Art. 111a–111d"
+    ],
+    "confidence": "high",
+    "reasoning": "«den Artikeln 102c–102e, 109k, 109l und 111a–111d AIG SR 142.20» verweist klar auf diese AIG-Artikel."
+  },
+  {
+    "ITEM": 39,
+    "ARTICLE_EID": "art_15",
+    "TARGET_SR": "SR 142.31",
+    "assigned_articles": [
+      "Art. 97",
+      "Art. 98",
+      "Art. 102abis",
+      "Art. 102b",
+      "Art. 102c"
+    ],
+    "confidence": "high",
+    "reasoning": "«sowie den Artikeln 97, 98, 102abis, 102b und 102c AsylG SR 142.31» nennt diese AsylG-Artikel."
+  },
+  {
+    "ITEM": 40,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "artikel_reference ohne TARGET_SR; die genannten Artikel (AIG, AsylG, BüG) sind bereits in Items 2–4 den jeweiligen SR zugeordnet. Hier handelt es sich um eine Wiederholung derselben Verweisung im Normtext; keine neue SR-Verknüpfung."
+  },
+  {
+    "ITEM": 41,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "«Artikeln 85–87 des AsylG» ist eine Verweisung auf ein anderes Gesetz (SR 142.31), aber diese Artikel wurden bereits in Item 3/39 dem AsylG zugeordnet; als artikel_reference ohne TARGET_SR bleibt dies eine externe Querverweisung ohne eigene SR-Zuordnung."
+  },
+  {
+    "ITEM": 42,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": "SR 311.0",
+    "assigned_articles": ["Art. 66a", "Art. 66abis"],
+    "confidence": "high",
+    "reasoning": "«Artikeln 66a oder 66abis StGB» sind Artikel des Strafgesetzbuchs SR 311.0; diese wurden in Items 11 und 19 bereits mit SR 311.0 verknüpft. Hier liegt eine inhaltlich gleiche, explizite Verweisung vor, daher wird sie als SR-Link zu SR 311.0 gewertet."
+  },
+  {
+    "ITEM": 43,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": "SR 311.0",
+    "assigned_articles": ["Art. 66a Abs. 2–3"],
+    "confidence": "high",
+    "reasoning": "«obligatorischen Landesverweisung nach Artikel 66a Absätze 2 und 3 StGB» verweist klar auf diese Absätze des StGB SR 311.0."
+  },
+  {
+    "ITEM": 44,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": "SR 831.10",
+    "assigned_articles": ["Art. 50c"],
+    "confidence": "high",
+    "reasoning": "«AHV-Nummer nach Artikel 50c des Bundesgesetzes … über die Alters- und Hinterlassenenversicherung» ist identisch mit Item 13 und verweist auf Art. 50c AHVG SR 831.10."
+  },
+  {
+    "ITEM": 45,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "«Artikel 3 Absätze 2 und 3» bezieht sich auf Artikel desselben Erlasses (interne Strukturverweisung); kein externes SR."
+  },
+  {
+    "ITEM": 46,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": "SR 235.1",
+    "assigned_articles": ["Art. 5 Bst. c"],
+    "confidence": "high",
+    "reasoning": "«Artikel 5 Buchstabe c des Datenschutzgesetzes … (DSG)» ist eine explizite Verweisung auf das DSG SR 235.1, konsistent mit Item 14."
+  },
+  {
+    "ITEM": 47,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Verweist nur auf «Artikel 9 Absatz 1 … sowie Absatz 2 …» desselben Erlasses; reine Selbstreferenz."
+  },
+  {
+    "ITEM": 48,
+    "ARTICLE_EID": "art_8_a",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "«Artikel 4 Absatz 1 Buchstabe d» ist eine interne Verweisung innerhalb des gleichen Gesetzes."
+  },
+  {
+    "ITEM": 49,
+    "ARTICLE_EID": "art_9",
+    "TARGET_SR": "SR 311.0",
+    "assigned_articles": ["Art. 66a", "Art. 66abis"],
+    "confidence": "high",
+    "reasoning": "«Artikel 66a oder 66abis des Strafgesetzbuchs (StGB)» verweist auf SR 311.0; deckungsgleich mit Items 19 und 42."
+  },
+  {
+    "ITEM": 50,
+    "ARTICLE_EID": "art_9",
+    "TARGET_SR": "SR 361",
+    "assigned_articles": ["Art. 15"],
+    "confidence": "high",
+    "reasoning": "«nach Artikel 15 des Bundesgesetzes … über die polizeilichen Informationssysteme des Bundes (BPI)» verweist auf SR 361, konsistent mit Item 21."
+  },
+  {
+    "ITEM": 51,
+    "ARTICLE_EID": "art_9",
+    "TARGET_SR": "SR 210",
+    "assigned_articles": ["Art. 97a Abs. 1"],
+    "confidence": "high",
+    "reasoning": "«Artikel 97a Absatz 1 des Zivilgesetzbuches» verweist auf das ZGB SR 210, wie in Item 22."
+  },
+  {
+    "ITEM": 52,
+    "ARTICLE_EID": "art_9",
+    "TARGET_SR": "SR 311.0",
+    "assigned_articles": ["Art. 66a", "Art. 66abis"],
+    "confidence": "high",
+    "reasoning": "«Artikel 66a oder 66abis StGB» ist wiederum eine Verweisung auf das Strafgesetzbuch SR 311.0."
+  },
+  {
+    "ITEM": 53,
+    "ARTICLE_EID": "art_9",
+    "TARGET_SR": "SR 361",
+    "assigned_articles": ["Art. 15"],
+    "confidence": "high",
+    "reasoning": "«Kontrolle der Eingaben im automatisierten Polizeifahndungssystem nach Artikel 15 BPI» verweist auf denselben Artikel des BPI SR 361 wie Item 21/50."
+  },
+  {
+    "ITEM": 54,
+    "ARTICLE_EID": "art_9",
+    "TARGET_SR": "SR 210",
+    "assigned_articles": ["Art. 97a Abs. 1"],
+    "confidence": "high",
+    "reasoning": "Inhaltlich identisch mit Item 51: Verweisung auf Art. 97a Abs. 1 ZGB SR 210."
+  },
+  {
+    "ITEM": 55,
+    "ARTICLE_EID": "art_10",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "«Artikel 9» bezieht sich auf einen Artikel desselben Erlasses; reine Selbstreferenz."
+  },
+  {
+    "ITEM": 56,
+    "ARTICLE_EID": "art_10",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Auch hier nur Verweisung auf «Artikel 9» des gleichen Gesetzes."
+  },
+  {
+    "ITEM": 57,
+    "ARTICLE_EID": "art_13",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "«Behörden nach Artikel 9 Absatz 1» ist eine interne Verweisung."
+  },
+  {
+    "ITEM": 58,
+    "ARTICLE_EID": "art_13",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "«beauftragten Dritten nach Artikel 11» verweist auf einen Artikel desselben Erlasses."
+  },
+  {
+    "ITEM": 59,
+    "ARTICLE_EID": "art_13",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "«Behörden nach Artikel 9 Absatz 2» ist wiederum eine Selbstreferenz."
+  },
+  {
+    "ITEM": 60,
+    "ARTICLE_EID": "art_13",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "«beauftragten Dritten nach Artikel 11» – interne Strukturverweisung."
+  },
+  {
+    "ITEM": 61,
+    "ARTICLE_EID": "art_18_a",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "«Artikel 4 Absatz 1 Buchstabe c und 8a» bezieht sich auf Artikel desselben Erlasses; keine externe SR-Verknüpfung."
+  }
+]

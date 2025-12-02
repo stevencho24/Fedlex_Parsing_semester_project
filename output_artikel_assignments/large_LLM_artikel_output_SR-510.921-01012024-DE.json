@@ -1,0 +1,22 @@
+[
+  {
+    "Item": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 510.10",
+    "assigned_articles": [
+      "Art. 100 Abs. 4"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet explicitly cites 'Artikel 100 Absatz 4 des Militärgesetzes ... SR 510.10 (MG)'; Art. 100 Abs. 4 is directly and syntactically linked to SR 510.10."
+  },
+  {
+    "Item": 2,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": "SR 510.10",
+    "assigned_articles": [
+      "Art. 76 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet states 'Im Aktivdienst nach Artikel 76 Absatz 1 MG'; MG is defined in the preamble as SR 510.10, so Art. 76 Abs. 1 clearly belongs to SR 510.10."
+  }
+]

@@ -1,0 +1,32 @@
+[
+  {
+    "Item": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 641.81",
+    "assigned_articles": [
+      "Art. 11a Abs. 4"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet explicitly states: 'gestützt auf Artikel 11a Absatz 4 des Schwerverkehrsabgabegesetzes ... SR 641.81'; this directly links Art. 11a Abs. 4 to SR 641.81."
+  },
+  {
+    "Item": 2,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": "SR 641.811.423",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet refers to the 'EETS- und Tankkarten-Anbieter-Verordnung EFD vom 11. Februar 2020 SR 641.811.423' as a whole, with no specific article mentioned; thus it is a general reference to the entire ordinance."
+  },
+  {
+    "Item": 3,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": "SR 641.81",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "low",
+    "reasoning": "The item is a preamble_acronym reference where 'BAZG' is defined in the preamble as linked to SR 641.81, but the snippet itself contains no article citation or syntactic connection to a specific provision of SR 641.81; it merely mentions the authority (BAZG). Therefore, at most a very general, implicit reference to the underlying act can be assumed, without identifiable articles."
+  }
+]

@@ -1,0 +1,156 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 101",
+    "assigned_articles": [
+      "Art. 74",
+      "Art. 84",
+      "Art. 85"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet explicitly cites 'Artikel 74, 84 und 85 der Bundesverfassung SR 101'; these articles are directly and syntactically linked to SR 101."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_14",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": [
+      "Art. 76"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet: 'Artikel 76 des Zollgesetzes ... SR 631.0'; Article 76 is directly attributed to the Zollgesetz (SR 631.0)."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_14",
+    "TARGET_SR": "SR 281.1",
+    "assigned_articles": [
+      "Art. 80 ff."
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet: 'im Sinne der Artikel 80 ff. des Bundesgesetzes ... SR 281.1'; the reference 'Artikel 80 ff.' clearly belongs to SR 281.1."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_16",
+    "TARGET_SR": "SR 313.0",
+    "assigned_articles": [
+      "Art. 30"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet: 'richtet sich nach Artikel 30 des Bundesgesetzes ... SR 313.0'; Article 30 is explicitly linked to SR 313.0."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_19",
+    "TARGET_SR": "SR 742.140",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet refers to 'dem Bahninfrastrukturfonds nach dem Bahninfrastrukturfondsgesetz ... SR 742.140' without any article number; this is a general citation of the whole act."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_19_a",
+    "TARGET_SR": "SR 725.116.2",
+    "assigned_articles": [
+      "Art. 14"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet: 'nach Artikel 14 des Bundesgesetzes ... SR 725.116.2'; Article 14 is explicitly and syntactically tied to SR 725.116.2."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_22",
+    "TARGET_SR": "SR 313.0",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet: 'werden nach dem Bundesgesetz ... SR 313.0 über das Verwaltungsstrafrecht verfolgt'; no specific article is mentioned, so it is a general reference to the act."
+  },
+  {
+    "ITEM": 8,
+    "ARTICLE_EID": "art_24",
+    "TARGET_SR": "SR 101",
+    "assigned_articles": [
+      "Art. 196 Ziff. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Inside authorial note: 'Siehe heute Art. 196 Ziff. 2 der BV ... (SR 101)'; this clearly links Art. 196 Ziff. 2 to SR 101."
+  },
+  {
+    "ITEM": 9,
+    "ARTICLE_EID": "art_8",
+    "TARGET_SR": "SR 641.81",
+    "assigned_articles": [
+      "Art. 6 Abs. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "Artikel_reference within the same document (SR 641.81): 'im Sinne von Artikel 6 Absatz 3'; no external SR is mentioned, so it is a self-reference to Art. 6 Abs. 3 of SR 641.81."
+  },
+  {
+    "ITEM": 10,
+    "ARTICLE_EID": "art_14",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": [
+      "Art. 76"
+    ],
+    "confidence": "high",
+    "reasoning": "This artikel_reference sentence matches ITEM 2, which explicitly ties 'Artikel 76 des Zollgesetzes' to SR 631.0; thus it refers to Art. 76 SR 631.0, not an internal article."
+  },
+  {
+    "ITEM": 11,
+    "ARTICLE_EID": "art_14",
+    "TARGET_SR": "SR 281.1",
+    "assigned_articles": [
+      "Art. 80 ff."
+    ],
+    "confidence": "high",
+    "reasoning": "This artikel_reference sentence matches ITEM 3, which explicitly ties 'Artikel 80 ff. des Bundesgesetzes ...' to SR 281.1; therefore it refers to Art. 80 ff. SR 281.1."
+  },
+  {
+    "ITEM": 12,
+    "ARTICLE_EID": "art_16",
+    "TARGET_SR": "SR 313.0",
+    "assigned_articles": [
+      "Art. 30"
+    ],
+    "confidence": "high",
+    "reasoning": "This artikel_reference sentence matches ITEM 4, which explicitly links 'Artikel 30 des Bundesgesetzes ...' to SR 313.0; hence it refers to Art. 30 SR 313.0."
+  },
+  {
+    "ITEM": 13,
+    "ARTICLE_EID": "art_19_a",
+    "TARGET_SR": "SR 725.116.2",
+    "assigned_articles": [
+      "Art. 14"
+    ],
+    "confidence": "high",
+    "reasoning": "This artikel_reference sentence matches ITEM 6, which explicitly ties 'Artikel 14 des Bundesgesetzes ...' to SR 725.116.2; thus it refers to Art. 14 SR 725.116.2."
+  },
+  {
+    "ITEM": 14,
+    "ARTICLE_EID": "art_24",
+    "TARGET_SR": "SR 101",
+    "assigned_articles": [
+      "Art. 21 Abs. 8",
+      "Art. 196 Ziff. 2"
+    ],
+    "confidence": "medium",
+    "reasoning": "The snippet refers to 'Artikel 21 der Übergangsbestimmungen der Bundesverfassung' and its Absatz 8. Historically these Übergangsbestimmungen are now contained in Art. 196 BV (SR 101). In combination with ITEM 8 ('Siehe heute Art. 196 Ziff. 2 SR 101'), this points to Art. 196 Ziff. 2 BV; the operative rule is in former Art. 21 Abs. 8 of the transitional provisions, now Art. 196 Ziff. 2, so both are noted."
+  },
+  {
+    "ITEM": 15,
+    "ARTICLE_EID": "art_26",
+    "TARGET_SR": "SR 641.81",
+    "assigned_articles": [
+      "Art. 11 Abs. 2",
+      "Art. 23"
+    ],
+    "confidence": "high",
+    "reasoning": "This is an internal temporal provision listing 'Artikel 11 Absatz 2' and 'Artikel 23' with their dates of entry into force; no external SR is mentioned, so these are self-references within SR 641.81."
+  }
+]

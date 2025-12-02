@@ -1,0 +1,405 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 811.11",
+    "assigned_articles": [
+      "Art. 51 Abs. 5"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Formulierung «gestützt auf Artikel 51 Absatz 5 des Medizinalberufegesetzes ... SR 811.11 (MedBG)» verknüpft den genannten Artikel grammatikalisch eindeutig mit SR 811.11."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": "SR 811.112.0",
+    "assigned_articles": "General reference - entire document",
+    "confidence": "high",
+    "reasoning": "Es wird nur «nach den Anhängen 1–3a der Verordnung vom 27. Juni 2007 SR 811.112.0» erwähnt, ohne konkrete Artikelangabe; die Verordnung wird insgesamt bzw. über ihre Anhänge referenziert."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": "SR 832.10",
+    "assigned_articles": "General reference - entire document",
+    "confidence": "high",
+    "reasoning": "Die Wendung «nach dem Bundesgesetz vom 18. März 1994 SR 832.10 über die Krankenversicherung» enthält keine Artikelangabe; es handelt sich um eine generelle Gesetzesreferenz."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_6",
+    "TARGET_SR": "SR 916.402",
+    "assigned_articles": [
+      "Art. 1 lit. b",
+      "Art. 1 lit. c"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Text nennt ausdrücklich «nach Artikel 1 Buchstaben b und c der Verordnung ... SR 916.402»; beide Buchstaben gehören zu Art. 1 dieser Verordnung."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_6",
+    "TARGET_SR": "SR 812.212.27",
+    "assigned_articles": [
+      "Art. 20"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Formulierung «nach Artikel 20 der Tierarzneimittelverordnung ... SR 812.212.27» verknüpft Art. 20 eindeutig mit dieser Verordnung."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": "SR 812.121.1",
+    "assigned_articles": [
+      "Art. 66 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "«zur Selbstdispensation nach Artikel 66 Absatz 2 der Betäubungsmittelkontrollverordnung ... SR 812.121.1» ist eine klare, direkt zugeordnete Artikelangabe."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_13",
+    "TARGET_SR": "SR 170.512",
+    "assigned_articles": [
+      "Art. 12 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Authorialnote-Text: «in Anwendung von Art. 12 Abs. 2 des Publikationsgesetzes ... (SR 170.512)»; Art. 12 Abs. 2 ist explizit mit SR 170.512 verknüpft."
+  },
+  {
+    "ITEM": 8,
+    "ARTICLE_EID": "art_13",
+    "TARGET_SR": "SR 170.512",
+    "assigned_articles": [
+      "Art. 12 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Gleiche Formulierung wie bei ITEM 7; erneut explizite Nennung von «Art. 12 Abs. 2 ... (SR 170.512)»."
+  },
+  {
+    "ITEM": 9,
+    "ARTICLE_EID": "art_18",
+    "TARGET_SR": "SR 172.041.1",
+    "assigned_articles": "General reference - entire document",
+    "confidence": "high",
+    "reasoning": "«Im Übrigen gelten die Bestimmungen der Allgemeinen Gebührenverordnung ... SR 172.041.1.» verweist pauschal auf die Verordnung, ohne einzelne Artikel zu nennen."
+  },
+  {
+    "ITEM": 10,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": "SR 811.11",
+    "assigned_articles": [
+      "Art. 15 Abs. 1",
+      "Art. 21 Abs. 1",
+      "Art. 36 Abs. 3",
+      "Art. 35 Abs. 1",
+      "Art. 33a Abs. 2 lit. a"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Snippet nennt mehrfach explizit «Artikel 15 Absatz 1 MedBG», «Artikel 21 Absatz 1 MedBG», «Artikel 36 Absatz 3 MedBG», «Artikel 35 Absatz 1 MedBG» und «Artikel 33a Absatz 2 Buchstabe a MedBG»; MedBG ist SR 811.11 gemäss Preamble-Akronym."
+  },
+  {
+    "ITEM": 11,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": "SR 811.11",
+    "assigned_articles": [
+      "Art. 54 Abs. 3",
+      "Art. 54"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Text enthält «nach Artikel 54 Absatz 3 MedBG» sowie «nach den Bestimmungen von Artikel 54 MedBG»; beide Verweise beziehen sich auf SR 811.11 (MedBG)."
+  },
+  {
+    "ITEM": 12,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": "SR 811.11",
+    "assigned_articles": [
+      "Art. 35 Abs. 1",
+      "Art. 35 Abs. 2",
+      "Art. 35",
+      "Art. 52 Abs. 1 lit. b"
+    ],
+    "confidence": "medium",
+    "reasoning": "Der Snippet nennt «Artikel 35 Absätze 1 und 2 MedBG», «Artikel 35 MedBG» und «Artikel 52 Absatz 1 Buchstabe b MedBG». Für «Artikel 35 MedBG» ist unklar, ob Abs. 1–2 oder die Norm insgesamt gemeint ist; daher werden sowohl die Absätze als auch der Artikel allgemein aufgeführt."
+  },
+  {
+    "ITEM": 13,
+    "ARTICLE_EID": "art_11",
+    "TARGET_SR": "SR 811.11",
+    "assigned_articles": "General reference - entire document",
+    "confidence": "medium",
+    "reasoning": "«im Rahmen des MedBG erforderlich» bezieht sich allgemein auf das Medizinalberufegesetz (SR 811.11), ohne konkrete Artikel; dies ist eine generelle Gesetzesreferenz."
+  },
+  {
+    "ITEM": 14,
+    "ARTICLE_EID": "art_13",
+    "TARGET_SR": "SR 811.11",
+    "assigned_articles": [
+      "Art. 53 Abs. 1",
+      "Art. 53 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Snippet nennt ausdrücklich «Artikel 53 Absatz 1 MedBG» und «Artikel 53 Absatz 2 MedBG»; MedBG = SR 811.11."
+  },
+  {
+    "ITEM": 15,
+    "ARTICLE_EID": "art_20",
+    "TARGET_SR": "SR 811.11",
+    "assigned_articles": "General reference - entire document",
+    "confidence": "medium",
+    "reasoning": "«Die Registerverordnung MedBG ... wird aufgehoben.» bezieht sich auf eine Verordnung zum MedBG, nicht auf bestimmte Artikel des MedBG selbst; der Bezug zu SR 811.11 ist nur über das Akronym gegeben und ohne Artikelangabe, daher als generelle Referenz gewertet."
+  },
+  {
+    "ITEM": 16,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 15 Abs. 1",
+      "Art. 21 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "Interne Verweisung innerhalb des Dokuments: «nach Artikel 15 Absatz 1 MedBG» und «nach Artikel 21 Absatz 1 MedBG»; dies sind Selbstverweise auf das MedBG (SR 811.11), aber als artikel_reference ohne TARGET_SR handelt es sich um interne Strukturverweise."
+  },
+  {
+    "ITEM": 17,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 36 Abs. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "«nach Artikel 36 Absatz 3 MedBG» ist ein interner Verweis auf Art. 36 Abs. 3 des MedBG innerhalb desselben Gesetzes."
+  },
+  {
+    "ITEM": 18,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 35 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "«nach Artikel 35 Absatz 1 MedBG» verweist intern auf Art. 35 Abs. 1 des MedBG; kein externer SR-Bezug."
+  },
+  {
+    "ITEM": 19,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 33a Abs. 2 lit. a"
+    ],
+    "confidence": "high",
+    "reasoning": "«nach Artikel 33a Absatz 2 Buchstabe a MedBG» ist ein klarer interner Artikelverweis innerhalb des MedBG."
+  },
+  {
+    "ITEM": 20,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 7 Abs. 6"
+    ],
+    "confidence": "high",
+    "reasoning": "«nach Artikel 7 Absatz 6» bezieht sich auf einen Artikel derselben Verordnung (Registerverordnung), da kein externes SR genannt wird; daher Selbstverweis."
+  },
+  {
+    "ITEM": 21,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 54 Abs. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "«nach Artikel 54 Absatz 3 MedBG» ist ein interner Verweis auf das MedBG; als artikel_reference ohne TARGET_SR wird dies als Selbstverweis behandelt."
+  },
+  {
+    "ITEM": 22,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 7 Abs. 6"
+    ],
+    "confidence": "high",
+    "reasoning": "«nach Artikel 7 Absatz 6» erneut als interner Verweis auf denselben Artikel der Verordnung; keine SR-Nennung."
+  },
+  {
+    "ITEM": 23,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 54"
+    ],
+    "confidence": "high",
+    "reasoning": "«nach den Bestimmungen von Artikel 54 MedBG» ist ein interner Verweis auf Art. 54 MedBG; kein externer SR-Kontext im Satz."
+  },
+  {
+    "ITEM": 24,
+    "ARTICLE_EID": "art_6",
+    "TARGET_SR": "SR 916.402",
+    "assigned_articles": [
+      "Art. 1 lit. b",
+      "Art. 1 lit. c"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Snippet wiederholt die Formulierung aus ITEM 4 ohne explizite SR-Nummer, verweist aber klar auf dieselbe Verordnung vom 16. November 2011; daher Art. 1 lit. b und c der SR 916.402."
+  },
+  {
+    "ITEM": 25,
+    "ARTICLE_EID": "art_6",
+    "TARGET_SR": "SR 812.212.27",
+    "assigned_articles": [
+      "Art. 20"
+    ],
+    "confidence": "high",
+    "reasoning": "Entspricht inhaltlich ITEM 5: «nach Artikel 20 der Tierarzneimittelverordnung vom 18. August 2004»; diese Verordnung ist SR 812.212.27."
+  },
+  {
+    "ITEM": 26,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": "SR 812.121.1",
+    "assigned_articles": [
+      "Art. 66 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Gleicher Inhalt wie ITEM 6: «nach Artikel 66 Absatz 2 der Betäubungsmittelkontrollverordnung ... (BetmKV)»; dies ist Art. 66 Abs. 2 SR 812.121.1."
+  },
+  {
+    "ITEM": 27,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": "SR 812.121.1",
+    "assigned_articles": [
+      "Art. 75 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "«nach Artikel 75 Absatz 1 BetmKV» verweist eindeutig auf Art. 75 Abs. 1 der Betäubungsmittelkontrollverordnung (SR 812.121.1)."
+  },
+  {
+    "ITEM": 28,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 35 Abs. 1",
+      "Art. 35 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "«nach Artikel 35 Absätze 1 und 2 MedBG» ist ein interner Verweis auf das MedBG; als artikel_reference ohne TARGET_SR wird dies als Selbstverweis behandelt."
+  },
+  {
+    "ITEM": 29,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 35"
+    ],
+    "confidence": "high",
+    "reasoning": "«nach Artikel 35 MedBG» ist ein weiterer interner Verweis auf denselben Artikel des MedBG."
+  },
+  {
+    "ITEM": 30,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 52 Abs. 1 lit. b"
+    ],
+    "confidence": "high",
+    "reasoning": "«nach Artikel 52 Absatz 1 Buchstabe b MedBG» ist ein interner Verweis auf Art. 52 Abs. 1 lit. b des MedBG."
+  },
+  {
+    "ITEM": 31,
+    "ARTICLE_EID": "art_11",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 3",
+      "Art. 4",
+      "Art. 5",
+      "Art. 6",
+      "Art. 7",
+      "Art. 8"
+    ],
+    "confidence": "high",
+    "reasoning": "«nach den Artikeln 3–8» bezeichnet einen Artikelbereich innerhalb derselben Verordnung; es handelt sich um interne Strukturverweise auf Art. 3 bis 8."
+  },
+  {
+    "ITEM": 32,
+    "ARTICLE_EID": "art_13",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 7 Abs. 6"
+    ],
+    "confidence": "high",
+    "reasoning": "«nach Artikel 7 Absatz 6» verweist auf denselben Artikel der Verordnung; kein externer SR-Kontext."
+  },
+  {
+    "ITEM": 33,
+    "ARTICLE_EID": "art_14",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 7 Abs. 6"
+    ],
+    "confidence": "high",
+    "reasoning": "Auch hier «nach Artikel 7 Absatz 6» als interner Verweis auf denselben Artikel der Verordnung."
+  },
+  {
+    "ITEM": 34,
+    "ARTICLE_EID": "art_14",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 7 Abs. 6"
+    ],
+    "confidence": "high",
+    "reasoning": "Wiederholung des internen Verweises «nach Artikel 7 Absatz 6» innerhalb derselben Verordnung."
+  },
+  {
+    "ITEM": 35,
+    "ARTICLE_EID": "art_15",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 3",
+      "Art. 4",
+      "Art. 5",
+      "Art. 6",
+      "Art. 7",
+      "Art. 8"
+    ],
+    "confidence": "high",
+    "reasoning": "«nach den Artikeln 3–8» bezeichnet erneut den internen Artikelbereich 3 bis 8 derselben Verordnung."
+  },
+  {
+    "ITEM": 36,
+    "ARTICLE_EID": "art_17",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 11"
+    ],
+    "confidence": "high",
+    "reasoning": "«nach Artikel 11» verweist auf einen Artikel derselben Verordnung; kein externer SR-Bezug."
+  },
+  {
+    "ITEM": 37,
+    "ARTICLE_EID": "art_18",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 11 Abs. 1 lit. b"
+    ],
+    "confidence": "high",
+    "reasoning": "«nach Artikel 11 Absatz 1 Buchstabe b» ist ein interner Verweis auf eine Bestimmung derselben Verordnung."
+  },
+  {
+    "ITEM": 38,
+    "ARTICLE_EID": "art_18",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 11 Abs. 1 lit. a"
+    ],
+    "confidence": "high",
+    "reasoning": "«nach Artikel 11 Absatz 1 Buchstabe a» ist ebenfalls ein interner Verweis auf dieselbe Normstruktur."
+  },
+  {
+    "ITEM": 39,
+    "ARTICLE_EID": "art_18",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 11 Abs. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "«nach Artikel 11 Absatz 3» verweist intern auf Abs. 3 von Art. 11 derselben Verordnung."
+  }
+]

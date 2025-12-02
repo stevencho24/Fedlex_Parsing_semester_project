@@ -1,0 +1,112 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 832.20",
+    "assigned_articles": [
+      "Art. 83 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Formulierung \"gestützt auf Artikel 83 Absatz 2 des Unfallversicherungsgesetzes ... SR 832.20\" verknüpft den genannten Artikel grammatikalisch eindeutig mit dem UVG (SR 832.20)."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 822.11",
+    "assigned_articles": [
+      "Art. 40"
+    ],
+    "confidence": "high",
+    "reasoning": "Im gleichen Satz: \"... und auf Artikel 40 des Arbeitsgesetzes vom 13. März 1964 SR 822.11\"; der Artikel 40 ist direkt dem Arbeitsgesetz (SR 822.11) zugeordnet."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 811.112.0",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "medium",
+    "reasoning": "Die Passage verweist auf die Verordnung über Diplome, Ausbildung, Weiterbildung und Berufsausübung in den universitären Medizinalberufen (SR 811.112.0), ohne einen bestimmten Artikel zu nennen; es handelt sich um eine allgemeine Verweisnorm auf das gesamte Regelwerk."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_9",
+    "TARGET_SR": "SR 170.512.1",
+    "assigned_articles": [
+      "Art. 16 Abs. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Autorentext steht: \"in Anwendung von Art. 16 Abs. 3 der Publikationsverordnung ... (SR 170.512.1)\"; der Artikel ist explizit dieser Verordnung zugeordnet."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 822.116",
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "„Weiterbildung ... nach Artikel 4 erworben“ bezieht sich mangels anderer SR‑Nennung auf Art. 4 derselben Verordnung (SR 822.116); es liegt eine reine Selbstverweisung vor."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 822.116",
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "„Weiterbildung ... nach Artikel 5 erworben“ steht ohne externen SR‑Bezug und verweist damit auf Art. 5 der eigenen Verordnung (SR 822.116)."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 822.116",
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "„Weiterbildung ... nach Artikel 6 erworben“ ist eine interne Verweisung auf Art. 6 derselben Verordnung (SR 822.116), da kein anderes Gesetz im Kontext genannt wird."
+  },
+  {
+    "ITEM": 8,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": "SR 822.116",
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "„Grundausbildung und Berufspraxis nach Artikel 1“ verweist auf Art. 1 des gleichen Erlasses; es gibt keinen Hinweis auf ein anderes SR‑Dokument."
+  },
+  {
+    "ITEM": 9,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": "SR 822.116",
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "„anerkannte Weiterbildungskurse (Art. 9)“ ist eine Kurzverweisung auf Art. 9 derselben Verordnung; kein externer SR‑Bezug im Satz."
+  },
+  {
+    "ITEM": 10,
+    "ARTICLE_EID": "art_9",
+    "TARGET_SR": "SR 822.116",
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "„Koordinationskommission nach Artikel 85 des Unfallversicherungsgesetzes ...“ nennt zwar Art. 85 UVG (SR 832.20), der Artikelverweis im Item‑Typ „artikel_reference“ zielt aber auf die interne Struktur; hier wird kein neues SR‑Link‑Objekt erzeugt, sondern der Kontext von Art. 9 der eigenen Verordnung beschrieben."
+  },
+  {
+    "ITEM": 11,
+    "ARTICLE_EID": "art_11",
+    "TARGET_SR": "SR 822.116",
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "„Entscheide des Bundesamtes nach Artikel 9“ ist eine interne Verweisung auf Art. 9 derselben Verordnung (SR 822.116); es wird kein anderes SR‑Dokument genannt."
+  }
+]

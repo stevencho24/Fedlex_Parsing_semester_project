@@ -1,0 +1,127 @@
+[
+  {
+    "Item": 1,
+    "source_article": "preamble",
+    "target_SR": "SR 642.11",
+    "assigned_articles": [
+      "Art. 199"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet explicitly cites 'Artikel 199 des Bundesgesetzes ... SR 642.11'; clear direct marking of the article belonging to SR 642.11."
+  },
+  {
+    "Item": 2,
+    "source_article": "art_1",
+    "target_SR": "SR 642.116",
+    "assigned_articles": "General reference - entire document",
+    "confidence": "high",
+    "reasoning": "The snippet only names the 'Liegenschaftskostenverordnung vom 24. August 1992 SR 642.116' without any article number or range; thus it is a general reference to the whole ordinance."
+  },
+  {
+    "Item": 3,
+    "source_article": "art_1",
+    "target_SR": "SR 642.11",
+    "assigned_articles": [
+      "Art. 14 Abs. 3 lit. d"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet states 'Abzüge bei der Steuerberechnung nach Artikel 14 Absatz 3 Buchstabe d DBG'; DBG is SR 642.11 per preamble, so this is a direct marked reference to Art. 14 Abs. 3 lit. d DBG."
+  },
+  {
+    "Item": 4,
+    "source_article": "art_2",
+    "target_SR": "SR 642.11",
+    "assigned_articles": [
+      "Art. 35",
+      "Art. 213"
+    ],
+    "confidence": "high",
+    "reasoning": "The text 'Sozialabzüge nach den Artikeln 35 und 213 DBG' clearly links both article numbers to DBG (SR 642.11); coordinated by 'und' within the same phrase."
+  },
+  {
+    "Item": 5,
+    "source_article": "art_3",
+    "target_SR": "SR 642.11",
+    "assigned_articles": [
+      "Art. 14 Abs. 3 lit. d",
+      "Art. 7 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet mentions 'Artikel 14 Absatz 3 Buchstabe d DBG' and 'Artikel 7 Absatz 1 DBG'; both are explicitly tied to DBG (SR 642.11)."
+  },
+  {
+    "Item": 6,
+    "source_article": "art_4",
+    "target_SR": "SR 642.11",
+    "assigned_articles": [
+      "Art. 14 Abs. 5",
+      "Art. 1",
+      "Art. 7 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet contains: 'Artikel 14 Absatz 5 DBG', 'Artikel 1 Absatz 1' (of the same DBG context), and 'Artikel 7 Absatz 1 DBG'. All are syntactically linked to DBG (SR 642.11)."
+  },
+  {
+    "Item": 7,
+    "source_article": "art_5",
+    "target_SR": "SR 642.11",
+    "assigned_articles": [
+      "Art. 131",
+      "Art. 14 Abs. 3–5"
+    ],
+    "confidence": "high",
+    "reasoning": "The sentence refers to 'Artikel 131 DBG' and 'Artikel 14 Absätze 3–5 DBG'; both are clearly attributed to DBG (SR 642.11). The range is kept as 'Abs. 3–5' as expressed."
+  },
+  {
+    "Item": 8,
+    "source_article": "art_7",
+    "target_SR": "SR 642.11",
+    "assigned_articles": [
+      "Art. 14 Abs. 5"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet states 'Artikel 14 Absatz 5 DBG ... anwendbar'; DBG is SR 642.11, so this is a direct reference to Art. 14 Abs. 5 DBG."
+  },
+  {
+    "Item": 9,
+    "source_article": "art_1",
+    "target_SR": "self",
+    "assigned_articles": [
+      "Art. 14 Abs. 3 lit. d"
+    ],
+    "confidence": "high",
+    "reasoning": "artikel_reference without explicit SR; however, 'Artikel 14 Absatz 3 Buchstabe d DBG' is clearly an external reference to DBG (SR 642.11). As an artikel_reference item, it is treated as a self SR-link capturing that cross-reference; the cited article is Art. 14 Abs. 3 lit. d."
+  },
+  {
+    "Item": 10,
+    "source_article": "art_4",
+    "target_SR": "self",
+    "assigned_articles": [
+      "Art. 14 Abs. 5",
+      "Art. 1 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet mentions 'Artikel 14 Absatz 5 DBG' (external, DBG) and 'Artikel 1 Absatz 1' (internal to the current ordinance). As an artikel_reference, it records both article references present in the sentence."
+  },
+  {
+    "Item": 11,
+    "source_article": "art_4",
+    "target_SR": "self",
+    "assigned_articles": [
+      "Art. 14 Abs. 5",
+      "Art. 7 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "The line contains 'Artikel 14 Absatz 5 DBG' and 'Artikel 7 Absatz 1 DBG'; both are article references captured by this artikel_reference item."
+  },
+  {
+    "Item": 12,
+    "source_article": "art_7",
+    "target_SR": "self",
+    "assigned_articles": [
+      "Art. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet refers to 'Artikel 1 der Verordnung vom 15. März 1993 über die Besteuerung nach dem Aufwand bei der direkten Bundessteuer.' This is an article reference to Art. 1 of that named ordinance; as no SR number is given, it is treated as an external article reference captured by this artikel_reference item."
+  }
+]

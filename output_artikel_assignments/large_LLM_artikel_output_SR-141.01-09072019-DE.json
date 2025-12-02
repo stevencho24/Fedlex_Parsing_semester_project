@@ -1,0 +1,611 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 141.0",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "high",
+    "reasoning": "Preamble cites the Bürgerrechtsgesetz (BüG) as legal basis without mentioning any specific article; standard blanket reference to the whole act."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": "SR 121",
+    "assigned_articles": ["Art. 6 Abs. 1 Bst. a Ziff. 1–5"],
+    "confidence": "high",
+    "reasoning": "Snippet explicitly refers to 'Artikel 6 Absatz 1 Buchstabe a Ziffern 1–5 des Nachrichtendienstgesetzes'; this is directly linked to SR 121."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_24",
+    "TARGET_SR": "SR 172.041.1",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "high",
+    "reasoning": "Formulation 'gelten die Bestimmungen der Allgemeinen Gebührenverordnung' imports the AVGebV as a whole; no specific articles are mentioned."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_26",
+    "TARGET_SR": "SR 191.11",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "high",
+    "reasoning": "Reference to the EDA-Gebührenverordnung as the basis for fees, without any article numbers; applies the ordinance generally."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_30",
+    "TARGET_SR": "SR 311.0",
+    "assigned_articles": [
+      "Art. 266",
+      "Art. 266bis",
+      "Art. 272–274",
+      "Art. 275",
+      "Art. 275bis",
+      "Art. 275ter"
+    ],
+    "confidence": "high",
+    "reasoning": "Text lists specific Strafgesetzbuch provisions 'Artikel 266, 266bis, 272–274, 275, 275bis und 275ter'; all belong to SR 311.0."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 141.0",
+    "assigned_articles": ["Art. 11 Bst. b"],
+    "confidence": "high",
+    "reasoning": "Parenthetical citation '(Art. 11 Bst. b BüG)' directly ties Art. 11 lit. b of BüG to this provision."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": "SR 141.0",
+    "assigned_articles": ["Art. 11 Bst. b"],
+    "confidence": "high",
+    "reasoning": "Snippet '(Art. 11 Bst. b BüG)' clearly and solely cites Art. 11 letter b BüG."
+  },
+  {
+    "ITEM": 8,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": "SR 141.0",
+    "assigned_articles": [
+      "Art. 11 Bst. c",
+      "Art. 20 Abs. 2",
+      "Art. 26 Abs. 1 Bst. e"
+    ],
+    "confidence": "high",
+    "reasoning": "Parenthesis '(Art. 11 Bst. c, 20 Abs. 2 und 26 Abs. 1 Bst. e BüG)' lists three distinct BüG provisions, all syntactically linked to BüG."
+  },
+  {
+    "ITEM": 9,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": "SR 141.0",
+    "assigned_articles": [
+      "Art. 12 Abs. 1 Bst. a",
+      "Art. 20 Abs. 1",
+      "Art. 26 Abs. 1 Bst. c"
+    ],
+    "confidence": "high",
+    "reasoning": "Citation '(Art. 12 Abs. 1 Bst. a, 20 Abs. 1 und 26 Abs. 1 Bst. c BüG)' clearly enumerates three BüG provisions."
+  },
+  {
+    "ITEM": 10,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": "SR 141.0",
+    "assigned_articles": [
+      "Art. 12 Abs. 1 Bst. b",
+      "Art. 20 Abs. 1",
+      "Art. 26 Abs. 1 Bst. d"
+    ],
+    "confidence": "high",
+    "reasoning": "Parenthetical reference '(Art. 12 Abs. 1 Bst. b, 20 Abs. 1 und 26 Abs. 1 Bst. d BüG)' directly links these BüG provisions."
+  },
+  {
+    "ITEM": 11,
+    "ARTICLE_EID": "art_6",
+    "TARGET_SR": "SR 141.0",
+    "assigned_articles": [
+      "Art. 12 Abs. 1 Bst. c",
+      "Art. 20 Abs. 1",
+      "Art. 26 Abs. 1 Bst. a"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet '(Art. 12 Abs. 1 Bst. c, 20 Abs. 1 und 26 Abs. 1 Bst. a BüG)' lists three BüG provisions tied to this article."
+  },
+  {
+    "ITEM": 12,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": "SR 141.0",
+    "assigned_articles": [
+      "Art. 12 Abs. 1 Bst. d",
+      "Art. 20 Abs. 1",
+      "Art. 26 Abs. 1 Bst. a"
+    ],
+    "confidence": "high",
+    "reasoning": "Parenthesis '(Art. 12 Abs. 1 Bst. d, 20 Abs. 1 und 26 Abs. 1 Bst. a BüG)' clearly enumerates these BüG provisions."
+  },
+  {
+    "ITEM": 13,
+    "ARTICLE_EID": "art_8",
+    "TARGET_SR": "SR 141.0",
+    "assigned_articles": [
+      "Art. 12 Abs. 1 Bst. e",
+      "Art. 26 Abs. 1 Bst. a",
+      "Art. 12 Bst. e"
+    ],
+    "confidence": "medium",
+    "reasoning": "Parenthesis cites 'Art. 12 Abs. 1 Bst. e und 26 Abs. 1 Bst. a BüG'. The sentence then refers to 'Artikel 12 Buchstabe e BüG' without paragraph; context suggests the same provision, but wording differs slightly, so it is listed separately with medium confidence."
+  },
+  {
+    "ITEM": 14,
+    "ARTICLE_EID": "art_9",
+    "TARGET_SR": "SR 141.0",
+    "assigned_articles": ["Art. 12 Abs. 2"],
+    "confidence": "high",
+    "reasoning": "Snippet '(Art. 12 Abs. 2 BüG)' is an unambiguous reference to Art. 12 para. 2 BüG."
+  },
+  {
+    "ITEM": 15,
+    "ARTICLE_EID": "art_11",
+    "TARGET_SR": "SR 141.0",
+    "assigned_articles": [
+      "Art. 21 Abs. 2 Bst. b",
+      "Art. 26 Abs. 1 Bst. b",
+      "Art. 51 Abs. 1",
+      "Art. 51 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Parenthesis '(Art. 21 Abs. 2 Bst. b, 26 Abs. 1 Bst. b und 51 Abs. 1 und 2 BüG)' clearly lists these BüG provisions."
+  },
+  {
+    "ITEM": 16,
+    "ARTICLE_EID": "art_12",
+    "TARGET_SR": "SR 141.0",
+    "assigned_articles": [
+      "Art. 18 Abs. 2",
+      "Art. 13 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Parenthesis cites 'Art. 18 Abs. 2 BüG'; main text refers to 'Zusicherung nach Artikel 13 Absatz 2 BüG'; both are syntactically tied to BüG."
+  },
+  {
+    "ITEM": 17,
+    "ARTICLE_EID": "art_13",
+    "TARGET_SR": "SR 141.0",
+    "assigned_articles": [
+      "Art. 14 Abs. 1",
+      "Art. 14 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet '(Art. 14 Abs. 1 und 2 BüG)' explicitly refers to both paragraphs of Art. 14 BüG."
+  },
+  {
+    "ITEM": 18,
+    "ARTICLE_EID": "art_14",
+    "TARGET_SR": "SR 141.0",
+    "assigned_articles": [
+      "Art. 25 Abs. 2",
+      "Art. 29 Abs. 2",
+      "Art. 34 Abs. 2",
+      "Art. 51 Abs. 1",
+      "Art. 51 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Parenthesis '(Art. 25 Abs. 2, 29 Abs. 2, 34 Abs. 2 und 51 Abs. 1 und 2 BüG)' lists five BüG provisions."
+  },
+  {
+    "ITEM": 19,
+    "ARTICLE_EID": "art_15",
+    "TARGET_SR": "SR 141.0",
+    "assigned_articles": [
+      "Art. 25 Abs. 2",
+      "Art. 29 Abs. 2",
+      "Art. 51 Abs. 1",
+      "Art. 51 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet '(Art. 25 Abs. 2, 29 Abs. 2 und 51 Abs. 1 und 2 BüG)' clearly enumerates these BüG provisions."
+  },
+  {
+    "ITEM": 20,
+    "ARTICLE_EID": "art_15_a",
+    "TARGET_SR": "SR 141.0",
+    "assigned_articles": [
+      "Art. 24a",
+      "Art. 24a Abs. 1 Bst. a"
+    ],
+    "confidence": "high",
+    "reasoning": "Parenthesis '(Art. 24a BüG)' plus main text 'Artikel 24a Absatz 1 Buchstabe a BüG' both refer to Art. 24a; the latter specifies paragraph and letter."
+  },
+  {
+    "ITEM": 21,
+    "ARTICLE_EID": "art_15_b",
+    "TARGET_SR": "SR 141.0",
+    "assigned_articles": ["Art. 24a"],
+    "confidence": "high",
+    "reasoning": "Snippet '(Art. 24a BüG)' is a straightforward reference to Art. 24a BüG without further subdivision."
+  },
+  {
+    "ITEM": 22,
+    "ARTICLE_EID": "art_16",
+    "TARGET_SR": "SR 141.0",
+    "assigned_articles": ["Art. 33 Abs. 2"],
+    "confidence": "high",
+    "reasoning": "Parenthesis '(Art. 33 Abs. 2 BüG)' clearly cites Art. 33 para. 2 BüG."
+  },
+  {
+    "ITEM": 23,
+    "ARTICLE_EID": "art_17",
+    "TARGET_SR": "SR 141.0",
+    "assigned_articles": [
+      "Art. 34 Abs. 3",
+      "Art. 9 Abs. 1 Bst. a",
+      "Art. 9 Abs. 1 Bst. b",
+      "Art. 9 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Parenthesis '(Art. 34 Abs. 3 BüG)' plus bullet points citing 'Art. 9 Abs. 1 Bst. a BüG' and 'Art. 9 Abs. 1 Bst. b und Abs. 2 BüG' all relate to BüG."
+  },
+  {
+    "ITEM": 24,
+    "ARTICLE_EID": "art_18",
+    "TARGET_SR": "SR 141.0",
+    "assigned_articles": [
+      "Art. 34 Abs. 3",
+      "Art. 21–24",
+      "Art. 26",
+      "Art. 51"
+    ],
+    "confidence": "high",
+    "reasoning": "Parenthesis '(Art. 34 Abs. 3 BüG)' and subsequent phrase 'nach den Artikeln 21–24, 26 und 51 BüG' clearly tie these BüG provisions to the context."
+  },
+  {
+    "ITEM": 25,
+    "ARTICLE_EID": "art_19",
+    "TARGET_SR": "SR 141.0",
+    "assigned_articles": [
+      "Art. 34 Abs. 3",
+      "Art. 11",
+      "Art. 21 Abs. 2",
+      "Art. 26",
+      "Art. 51"
+    ],
+    "confidence": "high",
+    "reasoning": "Parenthesis '(Art. 34 Abs. 3 BüG)' plus references to 'Art. 11' (implicitly BüG in this context) and 'Artikeln 21 Absatz 2, 26 und 51 BüG' all concern BüG."
+  },
+  {
+    "ITEM": 26,
+    "ARTICLE_EID": "art_20",
+    "TARGET_SR": "SR 141.0",
+    "assigned_articles": [
+      "Art. 34 Abs. 3",
+      "Art. 21"
+    ],
+    "confidence": "high",
+    "reasoning": "Parenthesis '(Art. 34 Abs. 3 BüG)' and explicit mention '(Art. 21 BüG)' both refer to BüG provisions."
+  },
+  {
+    "ITEM": 27,
+    "ARTICLE_EID": "art_21",
+    "TARGET_SR": "SR 141.0",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "medium",
+    "reasoning": "Text speaks generally of 'Anwendung des BüG' without specifying articles; it concerns the whole act as applicable, so treated as a general reference."
+  },
+  {
+    "ITEM": 28,
+    "ARTICLE_EID": "art_22",
+    "TARGET_SR": "SR 141.0",
+    "assigned_articles": [
+      "Art. 25 Abs. 2",
+      "Art. 29 Abs. 2",
+      "Art. 34 Abs. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "Parenthesis '(Art. 25 Abs. 2, 29 Abs. 2 und 34 Abs. 3 BüG)' clearly lists these BüG provisions."
+  },
+  {
+    "ITEM": 29,
+    "ARTICLE_EID": "art_25",
+    "TARGET_SR": "SR 141.0",
+    "assigned_articles": [
+      "Art. 35 Abs. 1",
+      "Art. 35 Abs. 2",
+      "Art. 21"
+    ],
+    "confidence": "high",
+    "reasoning": "Parenthesis '(Art. 35 Abs. 1 und 2 BüG)' plus explicit mention 'nach Artikel 21 BüG' both refer to BüG provisions."
+  },
+  {
+    "ITEM": 30,
+    "ARTICLE_EID": "art_27",
+    "TARGET_SR": "SR 141.0",
+    "assigned_articles": ["Art. 35 Abs. 3"],
+    "confidence": "high",
+    "reasoning": "Snippet '(Art. 35 Abs. 3 BüG)' is a direct citation of Art. 35 para. 3 BüG."
+  },
+  {
+    "ITEM": 31,
+    "ARTICLE_EID": "art_29",
+    "TARGET_SR": "SR 141.0",
+    "assigned_articles": ["Art. 40"],
+    "confidence": "high",
+    "reasoning": "Parenthesis '(Art. 40 BüG)' clearly refers to Art. 40 BüG."
+  },
+  {
+    "ITEM": 32,
+    "ARTICLE_EID": "art_30",
+    "TARGET_SR": "SR 141.0",
+    "assigned_articles": ["Art. 42"],
+    "confidence": "high",
+    "reasoning": "Snippet '(Art. 42 BüG)' is an explicit reference to Art. 42 BüG."
+  },
+  {
+    "ITEM": 33,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 6 Abs. 1 Bst. a Ziff. 1–5 (SR 121)"
+    ],
+    "confidence": "high",
+    "reasoning": "This repeats the SR 121 reference from ITEM 2 but as a plain artikel_reference; it clearly points to Art. 6 Abs. 1 lit. a nos. 1–5 NDG, not to an internal article of the current ordinance."
+  },
+  {
+    "ITEM": 34,
+    "ARTICLE_EID": "art_8",
+    "TARGET_SR": "SR 141.0",
+    "assigned_articles": ["Art. 12 Bst. e"],
+    "confidence": "high",
+    "reasoning": "Phrase 'Artikel 12 Buchstabe e BüG' explicitly links to BüG; this is an external reference, not a self-reference within the ordinance."
+  },
+  {
+    "ITEM": 35,
+    "ARTICLE_EID": "art_9",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 6",
+      "Art. 7",
+      "Art. 11 Abs. 1 Bst. b"
+    ],
+    "confidence": "high",
+    "reasoning": "References 'Artikeln 6, 7 und 11 Absatz 1 Buchstabe b' without SR or acronym; these are internal articles of the same ordinance, so treated as self-references."
+  },
+  {
+    "ITEM": 36,
+    "ARTICLE_EID": "art_12",
+    "TARGET_SR": "SR 141.0",
+    "assigned_articles": ["Art. 13 Abs. 2"],
+    "confidence": "high",
+    "reasoning": "Explicit 'Artikel 13 Absatz 2 BüG' ties this to BüG; external reference, not internal."
+  },
+  {
+    "ITEM": 37,
+    "ARTICLE_EID": "art_15_a",
+    "TARGET_SR": "SR 141.0",
+    "assigned_articles": ["Art. 24a Abs. 1 Bst. a"],
+    "confidence": "high",
+    "reasoning": "Text 'Artikel 24a Absatz 1 Buchstabe a BüG' clearly refers to BüG; external SR reference."
+  },
+  {
+    "ITEM": 38,
+    "ARTICLE_EID": "art_17",
+    "TARGET_SR": "SR 141.0",
+    "assigned_articles": ["Art. 9 Abs. 1 Bst. a"],
+    "confidence": "high",
+    "reasoning": "Citation '(Art. 9 Abs. 1 Bst. a BüG)' explicitly links to BüG; external reference."
+  },
+  {
+    "ITEM": 39,
+    "ARTICLE_EID": "art_17",
+    "TARGET_SR": "SR 141.0",
+    "assigned_articles": [
+      "Art. 9 Abs. 1 Bst. b",
+      "Art. 9 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet '(Art. 9 Abs. 1 Bst. b und Abs. 2 BüG)' clearly refers to BüG provisions."
+  },
+  {
+    "ITEM": 40,
+    "ARTICLE_EID": "art_17",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 4"],
+    "confidence": "high",
+    "reasoning": "Reference '(Art. 4)' lacks SR or acronym; in context of the ordinance, this is an internal cross-reference to Art. 4 of the same document."
+  },
+  {
+    "ITEM": 41,
+    "ARTICLE_EID": "art_17",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 5"],
+    "confidence": "high",
+    "reasoning": "Reference '(Art. 5)' without SR or acronym is an internal cross-reference to Art. 5 of the ordinance."
+  },
+  {
+    "ITEM": 42,
+    "ARTICLE_EID": "art_17",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 6"],
+    "confidence": "high",
+    "reasoning": "Reference '(Art. 6)' is an internal reference to Art. 6 of the same ordinance."
+  },
+  {
+    "ITEM": 43,
+    "ARTICLE_EID": "art_17",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 7"],
+    "confidence": "high",
+    "reasoning": "Reference '(Art. 7)' is an internal cross-reference within the ordinance."
+  },
+  {
+    "ITEM": 44,
+    "ARTICLE_EID": "art_17",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 8"],
+    "confidence": "high",
+    "reasoning": "Reference '(Art. 8)' is an internal reference to Art. 8 of the ordinance."
+  },
+  {
+    "ITEM": 45,
+    "ARTICLE_EID": "art_17",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 2"],
+    "confidence": "high",
+    "reasoning": "Reference '(Art. 2)' appears without SR or acronym; in this context it is an internal article of the same ordinance."
+  },
+  {
+    "ITEM": 46,
+    "ARTICLE_EID": "art_17",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 6",
+      "Art. 7",
+      "Art. 9"
+    ],
+    "confidence": "high",
+    "reasoning": "Phrase 'Artikeln 6 und 7 ... (Art. 9)' lacks SR; these are internal cross-references to Arts. 6, 7, and 9 of the ordinance."
+  },
+  {
+    "ITEM": 47,
+    "ARTICLE_EID": "art_18",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 17"],
+    "confidence": "high",
+    "reasoning": "Reference '(Art. 17)' is clearly to the preceding article of the same ordinance; no SR or acronym present."
+  },
+  {
+    "ITEM": 48,
+    "ARTICLE_EID": "art_18",
+    "TARGET_SR": "SR 141.0",
+    "assigned_articles": [
+      "Art. 21–24",
+      "Art. 26",
+      "Art. 51"
+    ],
+    "confidence": "high",
+    "reasoning": "Phrase 'nach den Artikeln 21–24, 26 und 51 BüG' explicitly ties these BüG provisions to the context; external SR reference."
+  },
+  {
+    "ITEM": 49,
+    "ARTICLE_EID": "art_19",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 4"],
+    "confidence": "high",
+    "reasoning": "Reference '(Art. 4)' without SR or acronym is an internal cross-reference to Art. 4 of the ordinance."
+  },
+  {
+    "ITEM": 50,
+    "ARTICLE_EID": "art_19",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 5"],
+    "confidence": "high",
+    "reasoning": "Reference '(Art. 5)' is an internal reference to Art. 5 of the same ordinance."
+  },
+  {
+    "ITEM": 51,
+    "ARTICLE_EID": "art_19",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 7"],
+    "confidence": "high",
+    "reasoning": "Reference '(Art. 7)' is an internal cross-reference within the ordinance."
+  },
+  {
+    "ITEM": 52,
+    "ARTICLE_EID": "art_19",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 8"],
+    "confidence": "high",
+    "reasoning": "Reference '(Art. 8)' is an internal reference to Art. 8 of the ordinance."
+  },
+  {
+    "ITEM": 53,
+    "ARTICLE_EID": "art_19",
+    "TARGET_SR": "SR 141.0",
+    "assigned_articles": [
+      "Art. 11",
+      "Art. 21 Abs. 2",
+      "Art. 26",
+      "Art. 51"
+    ],
+    "confidence": "high",
+    "reasoning": "Phrase 'Art. 11' in context of BüG plus 'Artikeln 21 Absatz 2, 26 und 51 BüG' clearly refer to BüG provisions; external SR reference."
+  },
+  {
+    "ITEM": 54,
+    "ARTICLE_EID": "art_19",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 7",
+      "Art. 11 Abs. 1 Bst. b",
+      "Art. 9"
+    ],
+    "confidence": "high",
+    "reasoning": "References to 'Artikeln 7 und 11 Absatz 1 Buchstabe b' and '(Art. 9)' lack SR or acronym; they are internal cross-references within the ordinance."
+  },
+  {
+    "ITEM": 55,
+    "ARTICLE_EID": "art_20",
+    "TARGET_SR": "SR 141.0",
+    "assigned_articles": ["Art. 21"],
+    "confidence": "high",
+    "reasoning": "Reference '(Art. 21 BüG)' explicitly ties to Art. 21 BüG; external SR reference."
+  },
+  {
+    "ITEM": 56,
+    "ARTICLE_EID": "art_25",
+    "TARGET_SR": "SR 141.0",
+    "assigned_articles": ["Art. 21"],
+    "confidence": "high",
+    "reasoning": "Phrase 'nach Artikel 21 BüG' clearly refers to Art. 21 BüG."
+  },
+  {
+    "ITEM": 57,
+    "ARTICLE_EID": "art_28",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 25 Abs. 1", "Art. 25 Abs. 3"],
+    "confidence": "high",
+    "reasoning": "Reference 'Artikel 25 Absätze 1 und 3' has no SR or acronym; these are internal cross-references to Art. 25 paras. 1 and 3 of the ordinance."
+  },
+  {
+    "ITEM": 58,
+    "ARTICLE_EID": "art_28",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 27 Abs. 2"],
+    "confidence": "high",
+    "reasoning": "Reference '(Art. 27 Abs. 2)' is an internal cross-reference to Art. 27 para. 2 of the same ordinance."
+  },
+  {
+    "ITEM": 59,
+    "ARTICLE_EID": "art_30",
+    "TARGET_SR": "SR 311.0",
+    "assigned_articles": [
+      "Art. 266",
+      "Art. 266bis",
+      "Art. 272–274",
+      "Art. 275",
+      "Art. 275bis",
+      "Art. 275ter"
+    ],
+    "confidence": "high",
+    "reasoning": "This repeats the Strafgesetzbuch list from ITEM 5 but without explicit SR number; the mention '(StGB)' identifies SR 311.0 and the same articles 266, 266bis, 272–274, 275, 275bis, 275ter."
+  },
+  {
+    "ITEM": 60,
+    "ARTICLE_EID": "art_30",
+    "TARGET_SR": "SR 311.0",
+    "assigned_articles": [
+      "Art. 264",
+      "Art. 264a",
+      "Art. 264c",
+      "Art. 264d–264h"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet cites 'Völkermord (Art. 264 StGB), ... (Art. 264a StGB), ... (Art. 264c StGB) ... (Art. 264d–264h StGB)'; all are provisions of the Strafgesetzbuch SR 311.0."
+  },
+  {
+    "ITEM": 61,
+    "ARTICLE_EID": "art_30",
+    "TARGET_SR": "SR 311.0",
+    "assigned_articles": ["Art. 296"],
+    "confidence": "high",
+    "reasoning": "Reference '(Art. 296 StGB)' clearly points to Art. 296 of the Strafgesetzbuch SR 311.0."
+  }
+]

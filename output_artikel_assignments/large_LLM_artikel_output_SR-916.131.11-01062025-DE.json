@@ -1,0 +1,73 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 910.1",
+    "assigned_articles": [
+      "Art. 177 Abs. 1",
+      "Art. 185 Abs. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet explicitly cites 'Artikel 177 Absatz 1 und 185 Absatz 3 des Landwirtschaftsgesetzes ... SR 910.1'; both articles are directly and syntactically linked to SR 910.1."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_9",
+    "TARGET_SR": "SR 431.011",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "The sentence refers generally to 'die Bundesstatistikverordnung vom 30. April 2025 SR 431.011' without mentioning any specific article; thus it is a general citation of the whole ordinance."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "Reference 'Beiträge nach Artikel 1' has no SR or acronym context and clearly points to another article of the same ordinance; therefore it is a self-reference within the current document, not to an external SR."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "Reference 'Beiträge nach Artikel 2' appears without any SR link or external law indication and thus refers to Article 2 of the same ordinance (self-reference)."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "The phrase 'Beiträge nach Artikel 1' is used in regulatory language within the ordinance and is not syntactically tied to any SR citation; it refers to Article 1 of the same document."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "The phrase 'Beiträge nach Artikel 2' is an internal cross-reference; no external SR or acronym is mentioned in the snippet, so it points to Article 2 of the same ordinance."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_8",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "The reference to 'den Artikeln 1 und 2' is purely internal document structure language without any SR context; it clearly refers to Articles 1 and 2 of the same ordinance."
+  }
+]

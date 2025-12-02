@@ -1,0 +1,60 @@
+[
+  {
+    "Item": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 814.711",
+    "assigned_articles": [
+      "Art. 9 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Formulierung «gestützt auf Artikel 9 Absatz 2 der Verordnung ... SR 814.711» verknüpft den genannten Artikel grammatikalisch eindeutig mit der zitierten Verordnung SR 814.711."
+  },
+  {
+    "Item": 2,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": "SR 814.711",
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Im Snippet wird lediglich das Kürzel «EDI» verwendet, das im Vorspann als zuständiges Departement (gestützt auf SR 814.711) definiert ist. Es werden aber keine konkreten Artikel der SR 814.711 genannt; der Bezug ist nur institutionell. Daher keine spezifische Artikelzuordnung."
+  },
+  {
+    "Item": 3,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "interne Verweisung auf Art. 2 derselben Verordnung"
+    ],
+    "confidence": "high",
+    "reasoning": "«Änderungen der Unterlagen nach Artikel 2» verweist ohne Nennung eines SR-Dokuments auf einen anderen Artikel innerhalb derselben Verordnung (Selbstverweisung), nicht auf eine externe SR."
+  },
+  {
+    "Item": 4,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "interne Verweisung auf Art. 7 Abs. 2 derselben Verordnung"
+    ],
+    "confidence": "high",
+    "reasoning": "«nach Artikel 7 Absatz 2 V-NISSG» bezieht sich auf Art. 7 Abs. 2 des Bundesgesetzes V-NISSG (SR 814.71), nicht auf die Ziel-SR 814.711. Da kein TARGET_SR gegeben ist und der Bezug klar extern ist, handelt es sich nicht um eine Selbstverweisung innerhalb SR 814.711."
+  },
+  {
+    "Item": 5,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "interne Verweisung auf Art. 3a derselben Verordnung"
+    ],
+    "confidence": "high",
+    "reasoning": "«Evaluationen nach Artikel 3a» steht ohne Nennung eines SR-Dokuments und ist syntaktisch als interne Verweisung innerhalb derselben Verordnung zu verstehen."
+  },
+  {
+    "Item": 6,
+    "ARTICLE_EID": "art_4_a",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "interne Verweisung auf Art. 3a derselben Verordnung"
+    ],
+    "confidence": "high",
+    "reasoning": "Auch hier «Evaluationen nach Artikel 3a» ohne SR-Nennung; dies ist eine weitere interne Verweisung auf Art. 3a derselben Verordnung, nicht auf ein anderes SR-Dokument."
+  }
+]

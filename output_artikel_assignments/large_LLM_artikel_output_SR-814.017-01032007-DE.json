@@ -1,0 +1,132 @@
+[
+  {
+    "Item": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 814.01",
+    "assigned_articles": [
+      "Art. 46 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet explicitly cites 'Artikel 46 Absatz 2 des Bundesgesetzes ... SR 814.01 über den Umweltschutz (USG)'; this article reference is directly and syntactically linked to SR 814.01."
+  },
+  {
+    "Item": 2,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": "SR 814.610",
+    "assigned_articles": [
+      "Art. 2 Abs. 2 Bst. a"
+    ],
+    "confidence": "high",
+    "reasoning": "The text defines 'Sonderabfall' as 'Abfall im Sinne von Artikel 2 Absatz 2 Buchstabe a der Verordnung ... SR 814.610 über den Verkehr mit Abfällen'; the article, paragraph and letter are explicitly tied to SR 814.610."
+  },
+  {
+    "Item": 3,
+    "ARTICLE_EID": "art_9",
+    "TARGET_SR": "SR 152.3",
+    "assigned_articles": [
+      "Art. 7"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet states that the relevant interests are 'die in Artikel 7 des Öffentlichkeitsgesetzes ... SR 152.3 aufgeführten Interessen'; Art. 7 is clearly and directly attributed to SR 152.3."
+  },
+  {
+    "Item": 4,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "This artikel_reference repeats the definition of 'Sonderabfall' but without mentioning SR 814.610; per rules, without an explicit SR link it is treated as a self-reference within the current ordinance, not as a new SR link."
+  },
+  {
+    "Item": 5,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document (Art. 5 Abs. 1)"
+    ],
+    "confidence": "high",
+    "reasoning": "The reference 'Informationen nach Artikel 5 Absatz 1' has no SR document mentioned and clearly points to another article of the same ordinance; thus it is an internal self-reference."
+  },
+  {
+    "Item": 6,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document (Art. 5 Abs. 1)"
+    ],
+    "confidence": "high",
+    "reasoning": "The phrase 'die nicht vertraulichen Informationen nach Artikel 5 Absatz 1' contains no SR citation and refers to Art. 5 Abs. 1 of the same ordinance; it is an internal cross-reference."
+  },
+  {
+    "Item": 7,
+    "ARTICLE_EID": "art_8",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document (Art. 4)"
+    ],
+    "confidence": "high",
+    "reasoning": "The reference 'Meldedatums nach Artikel 4' is made without any SR indication and clearly concerns Art. 4 of the same ordinance; therefore it is a self-reference."
+  },
+  {
+    "Item": 8,
+    "ARTICLE_EID": "art_9",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document (Art. 5 Abs. 1)"
+    ],
+    "confidence": "high",
+    "reasoning": "The phrase 'Informationen nach Artikel 5 Absatz 1' again lacks any SR context and refers to Art. 5 Abs. 1 of this ordinance; it is an internal article cross-reference."
+  },
+  {
+    "Item": 9,
+    "ARTICLE_EID": "art_9",
+    "TARGET_SR": "SR 152.3",
+    "assigned_articles": [
+      "Art. 7"
+    ],
+    "confidence": "high",
+    "reasoning": "This artikel_reference mirrors the SR_link_detection in Item 3: 'die in Artikel 7 des Öffentlichkeitsgesetzes ... aufgeführten Interessen'. From Item 3 we know this is Art. 7 of SR 152.3; thus it is an outgoing SR link to that article."
+  },
+  {
+    "Item": 10,
+    "ARTICLE_EID": "art_10",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document (Art. 5 Abs. 3)"
+    ],
+    "confidence": "high",
+    "reasoning": "The parenthetical '(Art. 5 Abs. 3)' appears without any SR citation and clearly refers to Art. 5 Abs. 3 of the same ordinance; it is a self-reference."
+  },
+  {
+    "Item": 11,
+    "ARTICLE_EID": "art_10",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document (Art. 4)"
+    ],
+    "confidence": "high",
+    "reasoning": "The phrase 'Meldedatums nach Artikel 4' has no associated SR and refers to Art. 4 of this ordinance; it is an internal cross-reference."
+  },
+  {
+    "Item": 12,
+    "ARTICLE_EID": "art_13",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document (Art. 5 Abs. 1)"
+    ],
+    "confidence": "high",
+    "reasoning": "The reference 'Meldung nach Artikel 5 Absatz 1' is made without any SR context and points to Art. 5 Abs. 1 of the same ordinance; it is a self-reference."
+  },
+  {
+    "Item": 13,
+    "ARTICLE_EID": "art_13",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document (Art. 9)"
+    ],
+    "confidence": "high",
+    "reasoning": "The phrase 'werden diese Daten nach Artikel 9 behandelt' contains no SR citation and refers to Art. 9 of this ordinance; it is an internal article cross-reference."
+  }
+]

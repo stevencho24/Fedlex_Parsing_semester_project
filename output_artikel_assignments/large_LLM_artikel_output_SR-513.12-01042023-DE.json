@@ -1,0 +1,104 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 513.1",
+    "assigned_articles": [
+      "Art. 4 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Formulierung «gestützt auf Artikel 4 Absatz 2 der Armeeorganisation … SR 513.1» verknüpft den genannten Artikel grammatikalisch eindeutig mit der zitierten SR 513.1."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": "SR 512.21",
+    "assigned_articles": [
+      "Art. 72 Abs. 2 Bst. b Ziff. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Satz «in Abweichung von Artikel 72 Absatz 2 Buchstabe b Ziffer 1 der Verordnung … SR 512.21» wird der Artikel mit der genannten Verordnung (VMDP, SR 512.21) direkt verbunden."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_8",
+    "TARGET_SR": "SR 510.10",
+    "assigned_articles": [
+      "Art. 6"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Passage «Personen nach Artikel 6 des Militärgesetzes … SR 510.10» ordnet Art. 6 klar dem Militärgesetz (SR 510.10) zu."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_13",
+    "TARGET_SR": "SR 512.21",
+    "assigned_articles": [
+      "Art. 72 Abs. 2 Bst. b Ziff. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "«in Abweichung von Artikel 72 Absatz 2 Buchstabe b Ziffer 1 VMDP SR 512.21» stellt eine unmittelbare Zuordnung dieses Artikels zur VMDP (SR 512.21) dar."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_14",
+    "TARGET_SR": "SR 510.911",
+    "assigned_articles": [
+      "Art. 4 Abs. 2",
+      "Anhang 1a Ziff. 1.10.1"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Formulierung «in Abweichung von Artikel 4 Absatz 2 und Anhang 1a Ziffer 1.10.1 der Verordnung … SR 510.911» verknüpft sowohl Art. 4 Abs. 2 als auch Anhang 1a Ziff. 1.10.1 eindeutig mit SR 510.911."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 72 Abs. 2 Bst. b Ziff. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "Dies ist eine inhaltlich identische Selbstreferenz wie ITEM 2, jedoch ohne explizite SR-Angabe im Satz. Der Artikel 72 Abs. 2 Bst. b Ziff. 1 bezieht sich hier auf dieselbe externe Verordnung (VMDP, SR 512.21), nicht auf das eigene Dokument."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 109 Abs. 3"
+    ],
+    "confidence": "medium",
+    "reasoning": "«in Abweichung von Artikel 109 Absatz 3 VMDP» verweist auf einen Artikel der VMDP (SR 512.21), obwohl die SR-Nummer hier nicht wiederholt wird. Es handelt sich um einen externen Verweis; mangels expliziter SR im Snippet wird er als Artikelangabe ohne TARGET_SR ausgegeben."
+  },
+  {
+    "ITEM": 8,
+    "ARTICLE_EID": "art_8",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 6"
+    ],
+    "confidence": "high",
+    "reasoning": "«Personen nach Artikel 6 des Militärgesetzes vom 3. Februar 1995» ist derselbe externe Verweis wie in ITEM 3 (SR 510.10), hier jedoch ohne SR-Nummer im Snippet; daher nur die Artikelangabe ohne TARGET_SR."
+  },
+  {
+    "ITEM": 9,
+    "ARTICLE_EID": "art_12",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 11"
+    ],
+    "confidence": "high",
+    "reasoning": "«Dienstleistung nach Artikel 11» bezieht sich ersichtlich auf einen Artikel derselben Verordnung (interne Selbstreferenz), da kein anderes Gesetz oder eine SR-Nummer genannt wird."
+  },
+  {
+    "ITEM": 10,
+    "ARTICLE_EID": "art_14",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 4 Abs. 2",
+      "Anhang 1a Ziff. 1.10.1"
+    ],
+    "confidence": "high",
+    "reasoning": "Inhaltlich identisch zu ITEM 5, jedoch ohne explizite SR-Nummer im Snippet. Der Verweis auf «Artikel 4 Absatz 2 und Anhang 1a Ziffer 1.10.1 der Verordnung vom 16. Dezember 2009 über militärische und andere Informationssysteme im VBS» ist ein externer Verweis; hier werden nur die Artikel-/Anhangstellen ohne TARGET_SR ausgegeben."
+  }
+]

@@ -1,0 +1,90 @@
+[
+  {
+    "Item": 1,
+    "TARGET_SR": "SR 745.1",
+    "assigned_articles": [
+      "Art. 13 Abs. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Formulierung «gestützt auf Artikel 13 Absatz 3 des Personenbeförderungsgesetzes … SR 745.1 (PBG)» verknüpft eindeutig Art. 13 Abs. 3 mit SR 745.1."
+  },
+  {
+    "Item": 2,
+    "TARGET_SR": "SR 742.123",
+    "assigned_articles": [
+      "Art. 1 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Snippet steht «auf Strecken nach Artikel 1 Absatz 1 der Verordnung vom 13. Mai 2020 SR 742.123 über die Trassenvergabestelle»; Art. 1 Abs. 1 ist damit klar dieser Verordnung (SR 742.123) zugeordnet."
+  },
+  {
+    "Item": 3,
+    "TARGET_SR": "SR 745.16",
+    "assigned_articles": "General reference - entire document",
+    "confidence": "high",
+    "reasoning": "Es wird nur «nach der Verordnung vom 16. Oktober 2024 SR 745.16 …» erwähnt, ohne konkrete Artikelangabe; dies ist eine generelle Verweisungsformel auf die ganze Verordnung."
+  },
+  {
+    "Item": 4,
+    "TARGET_SR": "SR 742.122",
+    "assigned_articles": [
+      "Art. 11b Abs. 6"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Passage «Vorbehalten bleibt Artikel 11b Absatz 6 der Eisenbahn-Netzzugangsverordnung … SR 742.122» ordnet Art. 11b Abs. 6 eindeutig der SR 742.122 zu."
+  },
+  {
+    "Item": 5,
+    "TARGET_SR": "SR 745.1",
+    "assigned_articles": [
+      "Art. 6"
+    ],
+    "confidence": "high",
+    "reasoning": "«eine Personenbeförderungskonzession nach Artikel 6 PBG»; PBG ist im Vorspann als SR 745.1 definiert, somit bezieht sich Art. 6 auf SR 745.1."
+  },
+  {
+    "Item": 6,
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 6"
+    ],
+    "confidence": "high",
+    "reasoning": "artikel_reference ohne explizite SR-Nennung; «Artikel 6 PBG» verweist wie in Item 5 auf Art. 6 des Personenbeförderungsgesetzes (SR 745.1), ist hier aber primär eine Querverweisung im aktuellen Dokument."
+  },
+  {
+    "Item": 7,
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 11–13"
+    ],
+    "confidence": "high",
+    "reasoning": "«unter Vorbehalt der Artikel 11–13» ist eine interne Selbstverweisung auf die eigenen Artikel 11 bis 13 der vorliegenden Verordnung; keine externe SR wird genannt."
+  },
+  {
+    "Item": 8,
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 1 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "«auf Strecken nach Artikel 1 Absatz 1 der Verordnung vom 13. Mai 2020 über die Trassenvergabestelle»; dies ist eine Verweisung auf Art. 1 Abs. 1 der Verordnung SR 742.123, aber im Typ artikel_reference ohne explizite SR-Angabe als Querverweis erfasst."
+  },
+  {
+    "Item": 9,
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 9 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "«Wer Daten nach Artikel 9 Absatz 1 kommerziell nutzt …» ist eine interne Verweisung auf Art. 9 Abs. 1 derselben Verordnung; keine externe SR wird genannt."
+  },
+  {
+    "Item": 10,
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 11b Abs. 6"
+    ],
+    "confidence": "high",
+    "reasoning": "«Vorbehalten bleibt Artikel 11b Absatz 6 der Eisenbahn-Netzzugangsverordnung vom 25. November 1998.»; dies verweist auf Art. 11b Abs. 6 der Eisenbahn-Netzzugangsverordnung (SR 742.122), hier jedoch als artikel_reference ohne explizite SR im Snippet erfasst."
+  }
+]

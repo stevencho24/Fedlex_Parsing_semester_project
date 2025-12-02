@@ -1,0 +1,402 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 101",
+    "assigned_articles": ["Art. 191a"],
+    "confidence": "high",
+    "reasoning": "Snippet explicitly cites 'Artikel 191a der Bundesverfassung SR 101'; direct syntactic link between article and SR."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_23",
+    "TARGET_SR": "SR 142.31",
+    "assigned_articles": ["Art. 111"],
+    "confidence": "high",
+    "reasoning": "Snippet: 'Artikel 111 des Asylgesetzes ... SR 142.31'; clear direct marking of article to this SR."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_23",
+    "TARGET_SR": "SR 121",
+    "assigned_articles": ["Art. 29", "Art. 31", "Art. 41"],
+    "confidence": "high",
+    "reasoning": "Snippet: 'den Artikeln 29, 31 und 41 des Nachrichtendienstgesetzes ... SR 121'; explicit list of articles tied to NDG."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_23",
+    "TARGET_SR": "SR 142.20",
+    "assigned_articles": ["Art. 108dbis Abs. 5"],
+    "confidence": "high",
+    "reasoning": "Snippet: 'Artikel 108dbis Absatz 5 des Ausländer- und Integrationsgesetzes ... SR 142.20'; explicit article and paragraph."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_27_a",
+    "TARGET_SR": "SR 173.110",
+    "assigned_articles": ["Art. 25a Abs. 3"],
+    "confidence": "high",
+    "reasoning": "Snippet: 'gemäss Artikel 25a Absatz 3 des Bundesgerichtsgesetzes ... SR 173.110'; direct prepositional attribution."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_27_b",
+    "TARGET_SR": "SR 172.010",
+    "assigned_articles": ["Art. 57i–57q"],
+    "confidence": "high",
+    "reasoning": "Snippet: 'die Artikel 57i–57q des Regierungs- und Verwaltungsorganisationsgesetzes ... SR 172.010'; explicit article range linked to SR."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_30",
+    "TARGET_SR": "SR 152.3",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "high",
+    "reasoning": "Sentence: 'Das Öffentlichkeitsgesetz ... SR 152.3 gilt sinngemäss ...'; no specific articles mentioned, law applied as a whole."
+  },
+  {
+    "ITEM": 8,
+    "ARTICLE_EID": "art_30",
+    "TARGET_SR": "SR 711",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "high",
+    "reasoning": "Snippet: '... nach dem Bundesgesetz vom 20. Juni 1930 SR 711 über die Enteignung erfüllt.'; no article numbers, reference is to the Enteignungsgesetz generally."
+  },
+  {
+    "ITEM": 9,
+    "ARTICLE_EID": "art_31",
+    "TARGET_SR": "SR 172.021",
+    "assigned_articles": ["Art. 5"],
+    "confidence": "high",
+    "reasoning": "Snippet: 'Verfügungen nach Artikel 5 des Bundesgesetzes ... SR 172.021 über das Verwaltungsverfahren'; clear article-to-SR link."
+  },
+  {
+    "ITEM": 10,
+    "ARTICLE_EID": "art_33",
+    "TARGET_SR": "SR 951.11",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "medium",
+    "reasoning": "Refers to 'nach dem Nationalbankgesetz ... SR 951.11' without article; context is type of decision (Amtsenthebung), not a specific provision."
+  },
+  {
+    "ITEM": 11,
+    "ARTICLE_EID": "art_33",
+    "TARGET_SR": "SR 956.1",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "medium",
+    "reasoning": "Refers to 'nach dem Finanzmarktaufsichtsgesetz ... SR 956.1' with no article; used as legal basis category, not pinpointed article."
+  },
+  {
+    "ITEM": 12,
+    "ARTICLE_EID": "art_33",
+    "TARGET_SR": "SR 196.1",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "medium",
+    "reasoning": "Phrase 'gestützt auf das Bundesgesetz ... SR 196.1 über die Sperrung ...'; no article specified, general statutory basis."
+  },
+  {
+    "ITEM": 13,
+    "ARTICLE_EID": "art_33",
+    "TARGET_SR": "SR 121",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "medium",
+    "reasoning": "Snippet: 'das Verbot von Tätigkeiten nach dem NDG SR 121'; no article cited; NDG is referenced as a whole for this type of prohibition."
+  },
+  {
+    "ITEM": 14,
+    "ARTICLE_EID": "art_33",
+    "TARGET_SR": "SR 122.1",
+    "assigned_articles": ["Art. 1 Abs. 2"],
+    "confidence": "high",
+    "reasoning": "Text: 'das Verbot von Organisationen und Gruppierungen nach Artikel 1 Absatz 2 des Bundesgesetzes ... SR 122.1'; explicit article and paragraph."
+  },
+  {
+    "ITEM": 15,
+    "ARTICLE_EID": "art_33",
+    "TARGET_SR": "SR 941.27",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "medium",
+    "reasoning": "Refers to 'nach dem Bundesgesetz ... SR 941.27 über das Eidgenössische Institut für Metrologie'; no article specified."
+  },
+  {
+    "ITEM": 16,
+    "ARTICLE_EID": "art_33",
+    "TARGET_SR": "SR 221.302",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "medium",
+    "reasoning": "Refers to 'nach dem Revisionsaufsichtsgesetz ... SR 221.302'; no article number; general legal framework."
+  },
+  {
+    "ITEM": 17,
+    "ARTICLE_EID": "art_33",
+    "TARGET_SR": "SR 812.21",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "medium",
+    "reasoning": "Refers to 'nach dem Heilmittelgesetz ... SR 812.21'; no specific article; general statutory basis."
+  },
+  {
+    "ITEM": 18,
+    "ARTICLE_EID": "art_33",
+    "TARGET_SR": "SR 830.2",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "medium",
+    "reasoning": "Refers to 'nach dem Ausgleichsfondsgesetz ... SR 830.2'; no article; general reference."
+  },
+  {
+    "ITEM": 19,
+    "ARTICLE_EID": "art_33",
+    "TARGET_SR": "SR 425.1",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "medium",
+    "reasoning": "Refers to 'nach dem Bundesgesetz ... SR 425.1 über das Schweizerische Institut für Rechtsvergleichung'; no article specified."
+  },
+  {
+    "ITEM": 20,
+    "ARTICLE_EID": "art_33",
+    "TARGET_SR": "SR 742.101",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "medium",
+    "reasoning": "Refers to 'nach dem Eisenbahngesetz ... SR 742.101'; no article; general legal framework."
+  },
+  {
+    "ITEM": 21,
+    "ARTICLE_EID": "art_35",
+    "TARGET_SR": "SR 196.1",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "medium",
+    "reasoning": "Phrase 'nach dem Bundesgesetz ... SR 196.1 über die Sperrung ...'; no article; law used as general basis for such requests."
+  },
+  {
+    "ITEM": 22,
+    "ARTICLE_EID": "art_36_b",
+    "TARGET_SR": "SR 121",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "medium",
+    "reasoning": "Text: 'Genehmigung von Beschaffungsmassnahmen nach dem NDG SR 121'; no article; NDG cited as whole for this measure type."
+  },
+  {
+    "ITEM": 23,
+    "ARTICLE_EID": "art_37",
+    "TARGET_SR": "SR 172.021",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "high",
+    "reasoning": "Sentence: 'Das Verfahren ... richtet sich nach dem VwVG SR 172.021, soweit dieses Gesetz nichts anderes bestimmt.'; clear general procedural reference."
+  },
+  {
+    "ITEM": 24,
+    "ARTICLE_EID": "art_38",
+    "TARGET_SR": "SR 173.110",
+    "assigned_articles": ["General reference - entire document (Ausstandsbestimmungen)"],
+    "confidence": "medium",
+    "reasoning": "Refers to 'Die Bestimmungen des Bundesgerichtsgesetzes ... SR 173.110 über den Ausstand'; no specific articles, but a subset (Ausstand) of the law; treated as general reference to that part."
+  },
+  {
+    "ITEM": 25,
+    "ARTICLE_EID": "art_40",
+    "TARGET_SR": "SR 0.101",
+    "assigned_articles": ["Art. 6 Abs. 1"],
+    "confidence": "high",
+    "reasoning": "Snippet: 'im Sinne von Artikel 6 Absatz 1 der Europäischen Menschenrechtskonvention ... SR 0.101'; explicit article and paragraph."
+  },
+  {
+    "ITEM": 26,
+    "ARTICLE_EID": "art_44",
+    "TARGET_SR": "SR 273",
+    "assigned_articles": ["Art. 3–73", "Art. 79–85"],
+    "confidence": "high",
+    "reasoning": "Text: 'nach den Artikeln 3–73 und 79–85 des Bundesgesetzes ... SR 273 über den Bundeszivilprozess'; explicit article ranges."
+  },
+  {
+    "ITEM": 27,
+    "ARTICLE_EID": "art_44",
+    "TARGET_SR": "SR 172.021",
+    "assigned_articles": ["Art. 63–65"],
+    "confidence": "high",
+    "reasoning": "Snippet: 'richten sich nach den Artikeln 63–65 VwVG SR 172.021'; explicit article range tied to SR."
+  },
+  {
+    "ITEM": 28,
+    "ARTICLE_EID": "art_45",
+    "TARGET_SR": "SR 173.110",
+    "assigned_articles": ["Art. 121–128"],
+    "confidence": "high",
+    "reasoning": "Text: 'gelten die Artikel 121–128 des Bundesgerichtsgesetzes ... SR 173.110 sinngemäss'; explicit range."
+  },
+  {
+    "ITEM": 29,
+    "ARTICLE_EID": "art_47",
+    "TARGET_SR": "SR 172.021",
+    "assigned_articles": ["Art. 67 Abs. 3"],
+    "confidence": "high",
+    "reasoning": "Snippet: 'findet Artikel 67 Absatz 3 VwVG SR 172.021 Anwendung'; explicit article and paragraph."
+  },
+  {
+    "ITEM": 30,
+    "ARTICLE_EID": "art_48",
+    "TARGET_SR": "SR 173.110",
+    "assigned_articles": ["Art. 129"],
+    "confidence": "high",
+    "reasoning": "Text: 'gilt Artikel 129 des Bundesgerichtsgesetzes ... SR 173.110 sinngemäss'; explicit article."
+  },
+  {
+    "ITEM": 31,
+    "ARTICLE_EID": "art_50",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "medium",
+    "reasoning": "Pure register note: 'SR 631.0. Die hiernach aufgeführte Änd. ...'; no article context; refers to the act as a whole for amendment insertion."
+  },
+  {
+    "ITEM": 32,
+    "ARTICLE_EID": "art_51",
+    "TARGET_SR": "SR 362",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "low",
+    "reasoning": "Only 'SR 362' is given without surrounding legal text; treated as a generic reference to the entire act."
+  },
+  {
+    "ITEM": 33,
+    "ARTICLE_EID": "art_51",
+    "TARGET_SR": "SR 642.11",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "medium",
+    "reasoning": "Register-style note: 'SR 642.11. Die hiernach aufgeführte Änd. ...'; no article; whole Erlass referenced."
+  },
+  {
+    "ITEM": 34,
+    "ARTICLE_EID": "art_52",
+    "TARGET_SR": "SR 961.01",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "medium",
+    "reasoning": "Register note: 'SR 961.01. Die hiernach aufgeführte Änd. ...'; no article; entire ordinance referenced."
+  },
+  {
+    "ITEM": 35,
+    "ARTICLE_EID": "art_15",
+    "TARGET_SR": "self",
+    "assigned_articles": ["Art. 18"],
+    "confidence": "high",
+    "reasoning": "Artikelreferenz: '(Art. 18)' without external SR; by rule this is an internal cross-reference within the same act."
+  },
+  {
+    "ITEM": 36,
+    "ARTICLE_EID": "art_17",
+    "TARGET_SR": "self",
+    "assigned_articles": ["Art. 25"],
+    "confidence": "high",
+    "reasoning": "Phrase 'vorbehalten bleibt Artikel 25;' with no SR; internal reference to another article of the same law."
+  },
+  {
+    "ITEM": 37,
+    "ARTICLE_EID": "art_22",
+    "TARGET_SR": "self",
+    "assigned_articles": ["Art. 31–36", "Art. 45–48"],
+    "confidence": "high",
+    "reasoning": "Refers to 'Verfahren nach den Artikeln 31–36 oder 45–48' without SR; clearly internal article ranges."
+  },
+  {
+    "ITEM": 38,
+    "ARTICLE_EID": "art_23",
+    "TARGET_SR": "SR 142.31",
+    "assigned_articles": ["Art. 111"],
+    "confidence": "high",
+    "reasoning": "Matches SR_link_detection item 2: 'Artikel 111 des Asylgesetzes ...'; this artikel_reference is the same external citation to SR 142.31."
+  },
+  {
+    "ITEM": 39,
+    "ARTICLE_EID": "art_23",
+    "TARGET_SR": "SR 121",
+    "assigned_articles": ["Art. 29", "Art. 31", "Art. 41"],
+    "confidence": "high",
+    "reasoning": "Matches SR_link_detection item 3: 'den Artikeln 29, 31 und 41 des Nachrichtendienstgesetzes ... (NDG)'; external reference to SR 121."
+  },
+  {
+    "ITEM": 40,
+    "ARTICLE_EID": "art_23",
+    "TARGET_SR": "SR 142.20",
+    "assigned_articles": ["Art. 108dbis Abs. 5"],
+    "confidence": "high",
+    "reasoning": "Matches SR_link_detection item 4: 'Artikel 108dbis Absatz 5 des Ausländer- und Integrationsgesetzes ...'; external reference to SR 142.20."
+  },
+  {
+    "ITEM": 41,
+    "ARTICLE_EID": "art_27_a",
+    "TARGET_SR": "SR 173.110",
+    "assigned_articles": ["Art. 25a Abs. 3"],
+    "confidence": "high",
+    "reasoning": "Same sentence as item 5 but without SR number; by context it is the Bundesgerichtsgesetz (SR 173.110), article 25a paragraph 3."
+  },
+  {
+    "ITEM": 42,
+    "ARTICLE_EID": "art_27_b",
+    "TARGET_SR": "SR 172.010",
+    "assigned_articles": ["Art. 57i–57q"],
+    "confidence": "high",
+    "reasoning": "Same content as item 6: 'Artikel 57i–57q des Regierungs- und Verwaltungsorganisationsgesetzes'; external reference to SR 172.010."
+  },
+  {
+    "ITEM": 43,
+    "ARTICLE_EID": "art_31",
+    "TARGET_SR": "SR 172.021",
+    "assigned_articles": ["Art. 5"],
+    "confidence": "high",
+    "reasoning": "Same as item 9: 'Verfügungen nach Artikel 5 des Bundesgesetzes ... über das Verwaltungsverfahren (VwVG)'; external reference to SR 172.021."
+  },
+  {
+    "ITEM": 44,
+    "ARTICLE_EID": "art_32",
+    "TARGET_SR": "self",
+    "assigned_articles": ["Art. 33 Buchst. c–f"],
+    "confidence": "high",
+    "reasoning": "Refers to 'Artikel 33 Buchstaben c–f' without SR; this is an internal reference to article 33 of the same act."
+  },
+  {
+    "ITEM": 45,
+    "ARTICLE_EID": "art_35",
+    "TARGET_SR": "self",
+    "assigned_articles": ["Art. 33 Buchst. h"],
+    "confidence": "high",
+    "reasoning": "Refers to 'Artikel 33 Buchstabe h' with no SR; internal cross-reference within the same law."
+  },
+  {
+    "ITEM": 46,
+    "ARTICLE_EID": "art_36",
+    "TARGET_SR": "self",
+    "assigned_articles": ["Art. 33"],
+    "confidence": "high",
+    "reasoning": "Phrase 'einer in Artikel 33 erwähnten Behörde'; no SR; internal reference to article 33."
+  },
+  {
+    "ITEM": 47,
+    "ARTICLE_EID": "art_40",
+    "TARGET_SR": "SR 0.101",
+    "assigned_articles": ["Art. 6 Abs. 1"],
+    "confidence": "high",
+    "reasoning": "Same content as item 25 but without SR number; clearly EMRK article 6 paragraph 1 (SR 0.101)."
+  },
+  {
+    "ITEM": 48,
+    "ARTICLE_EID": "art_44",
+    "TARGET_SR": "SR 273",
+    "assigned_articles": ["Art. 3–73", "Art. 79–85"],
+    "confidence": "high",
+    "reasoning": "Same as item 26: 'nach den Artikeln 3–73 und 79–85 des Bundesgesetzes ... über den Bundeszivilprozess'; external reference to SR 273."
+  },
+  {
+    "ITEM": 49,
+    "ARTICLE_EID": "art_45",
+    "TARGET_SR": "SR 173.110",
+    "assigned_articles": ["Art. 121–128"],
+    "confidence": "high",
+    "reasoning": "Same as item 28: 'gelten die Artikel 121–128 des Bundesgerichtsgesetzes ...'; external reference to SR 173.110."
+  },
+  {
+    "ITEM": 50,
+    "ARTICLE_EID": "art_48",
+    "TARGET_SR": "SR 173.110",
+    "assigned_articles": ["Art. 129"],
+    "confidence": "high",
+    "reasoning": "Same as item 30: 'gilt Artikel 129 des Bundesgerichtsgesetzes ...'; external reference to SR 173.110."
+  }
+]

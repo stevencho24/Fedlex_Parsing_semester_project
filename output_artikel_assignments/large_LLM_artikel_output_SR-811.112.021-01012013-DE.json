@@ -1,0 +1,97 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 811.112.0",
+    "assigned_articles": [
+      "Art. 8"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Formulierung «gestützt auf Artikel 8 der Verordnung … SR 811.112.0» verweist eindeutig auf Art. 8 dieser Verordnung; syntaktisch ist der Artikel direkt mit der genannten SR-Verordnung verknüpft."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": "SR 170.512.1",
+    "assigned_articles": [
+      "Art. 16 Abs. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "Im INSIDE_AUTHORIALNOTE steht «in Anwendung von Art. 16 Abs. 3 der Publikationsverordnung … (SR 170.512.1)»; damit ist Art. 16 Abs. 3 dieser SR eindeutig genannt."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": "SR 811.11",
+    "assigned_articles": [
+      "Art. 26",
+      "Art. 27",
+      "Art. 28",
+      "Art. 29",
+      "Art. 30",
+      "Art. 31"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Text spricht von «gemäss den Artikeln 26–31 des Medizinalberufegesetzes … SR 811.11 (MedBG)»; der Artikelsbereich 26–31 gehört damit klar zum MedBG (SR 811.11)."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_6",
+    "TARGET_SR": "SR 172.021",
+    "assigned_articles": [
+      "Art. 10"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Passage «nach Artikel 10 des Bundesgesetzes vom 20. Dezember 1968 SR 172.021 über das Verwaltungsverfahren» verknüpft Art. 10 eindeutig mit dem Verwaltungsverfahrensgesetz (SR 172.021)."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_9",
+    "TARGET_SR": "SR 311.0",
+    "assigned_articles": [
+      "Art. 320"
+    ],
+    "confidence": "high",
+    "reasoning": "Formulierung «nach Artikel 320 des Strafgesetzbuches SR 311.0»; Art. 320 ist klar dem Strafgesetzbuch (SR 311.0) zugeordnet."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«gemäss den Artikeln 26–31 des Medizinalberufegesetzes … (MedBG)» ist bereits in ITEM 3 als Verweis auf SR 811.11 mit Art. 26–31 erfasst; hier liegt kein zusätzlicher SR-Link vor, sondern eine Wiederholung derselben externen Verweisung im Fliesstext, daher als interner Verweis im aktuellen Dokument zu behandeln."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«nach Artikel 48 Absatz 1 MedBG» verweist auf Art. 48 Abs. 1 des Medizinalberufegesetzes; dieser externe Verweis auf SR 811.11 ist jedoch nicht als eigener SR_link_detection erfasst und wird im Rahmen der SR-Link-Items abgedeckt. Gemäss Vorgabe sind artikel_reference ohne klar neue SR-Zuordnung als interne Strukturverweise des aktuellen Dokuments zu behandeln."
+  },
+  {
+    "ITEM": 8,
+    "ARTICLE_EID": "art_6",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«nach Artikel 10 des Bundesgesetzes vom 20. Dezember 1968 über das Verwaltungsverfahren» entspricht inhaltlich dem bereits in ITEM 4 mit SR 172.021 verknüpften Verweis; als artikel_reference ohne eigenen SR-Link ist dies als interner Verweis im Dokument zu qualifizieren."
+  },
+  {
+    "ITEM": 9,
+    "ARTICLE_EID": "art_9",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«nach Artikel 320 des Strafgesetzbuches» wiederholt den in ITEM 5 mit SR 311.0 verknüpften Verweis; da hier kein separater SR-Link vorliegt und der Inhalt bereits abgedeckt ist, wird dies als interner Verweis innerhalb des aktuellen Dokuments behandelt."
+  }
+]

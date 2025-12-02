@@ -1,0 +1,107 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 510.10",
+    "assigned_articles": [
+      "Art. 41 Abs. 3",
+      "Art. 54",
+      "Art. 55 Abs. 3",
+      "Art. 150 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "Die genannten Artikel (41 Abs. 3, 54, 55 Abs. 3 und 150 Abs. 1) werden ausdrücklich als Artikel des Militärgesetzes bezeichnet, zu dem unmittelbar danach SR 510.10 angegeben wird."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 172.220.1",
+    "assigned_articles": [
+      "Art. 37 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "Im relevanten Teilsatz wird «Artikel 37 Absatz 1 des Bundespersonalgesetzes ... SR 172.220.1 (BPG)» genannt; dieser Artikel ist klar dem BPG mit SR 172.220.1 zugeordnet."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 510.30",
+    "assigned_articles": [
+      "Art. 17 Abs. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Satzteil «auf Artikel 17 Absatz 3 der Verordnung der Bundesversammlung ... SR 510.30 über die Verwaltung der Armee» ordnet Art. 17 Abs. 3 eindeutig der Verordnung SR 510.30 zu."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_8",
+    "TARGET_SR": "SR 512.21",
+    "assigned_articles": [
+      "Art. 44"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Satz steht «Auslandurlaub nach Artikel 44 der Verordnung ... SR 512.21 über die Militärdienstpflicht»; Art. 44 ist damit klar dieser Verordnung (SR 512.21) zugeordnet."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_19",
+    "TARGET_SR": "SR 172.220.111.3",
+    "assigned_articles": [
+      "Art. 17",
+      "Art. 48"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Formulierung «Entschädigung nach Artikel 17 oder ... Sonderzulage nach Artikel 48 der Bundespersonalverordnung ... SR 172.220.111.3» weist beide Artikel ausdrücklich der Bundespersonalverordnung mit dieser SR-Nummer zu."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_19",
+    "TARGET_SR": "SR 172.220.1",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "medium",
+    "reasoning": "Die Passage «Leistungen nach BPG» verweist nur auf das Bundespersonalgesetz als Ganzes (BPG = SR 172.220.1), ohne konkrete Artikelangabe; daher allgemeine Dokumentverweisung."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_8",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«Auslandurlaub nach Artikel 44 der Verordnung vom 22. November 2017 über die Militärdienstpflicht» ist identisch mit dem Kontext von ITEM 4; der Artikel 44 gehört zu SR 512.21, nicht zur vorliegenden Verordnung (SR 512.271). Da dieses ITEM jedoch als artikel_reference ohne TARGET_SR geführt wird, handelt es sich hier um die Erfassung derselben Textstelle als allgemeine Artikelreferenz; die eigentliche SR-Zuordnung wurde bereits in ITEM 4 vorgenommen."
+  },
+  {
+    "ITEM": 8,
+    "ARTICLE_EID": "art_10",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«Artikel 11» wird ohne Nennung eines anderen Erlasses erwähnt und bezieht sich syntaktisch auf die Anwendung nach dem Ausscheiden; dies ist eine Verweisung auf einen anderen Artikel derselben Verordnung (Selbstverweisung)."
+  },
+  {
+    "ITEM": 9,
+    "ARTICLE_EID": "art_15",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Klammerverweise «(Art. 8)» und «(Art. 10–14)» enthalten keine SR- oder Gesetzesbezeichnung und stehen im Kontext der Weiterverwendung innerhalb derselben Verordnung; sie sind daher interne Artikelverweise (Selbstreferenzen)."
+  },
+  {
+    "ITEM": 10,
+    "ARTICLE_EID": "art_19",
+    "TARGET_SR": "SR 172.220.111.3",
+    "assigned_articles": [
+      "Art. 17",
+      "Art. 48"
+    ],
+    "confidence": "high",
+    "reasoning": "Dies ist dieselbe inhaltliche Passage wie bei ITEM 5, nur ohne explizite SR-Nummer im Snippet. Aus ITEM 5 ist klar, dass sich «Artikel 17» und «Artikel 48 der Bundespersonalverordnung vom 3. Juli 2001» auf SR 172.220.111.3 beziehen; daher identische Artikelzuordnung."
+  }
+]

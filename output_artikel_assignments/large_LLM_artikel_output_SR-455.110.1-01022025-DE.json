@@ -1,0 +1,96 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 455.1",
+    "assigned_articles": [
+      "Art. 209 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Formulierung «gestützt auf Artikel 209 Absatz 1 der Tierschutzverordnung … SR 455.1 (TSchV)» verweist eindeutig auf Art. 209 Abs. 1 der TSchV; Artikel und Absatz sind direkt mit der genannten SR verknüpft."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_8",
+    "TARGET_SR": "SR 455.1",
+    "assigned_articles": [
+      "Anhang 1 Tabelle 7 Ziff. 31",
+      "Art. 61 Abs. 6 Bst. a–d"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Snippet werden «Anhang 1 Tabelle 7 Ziffer 31 TSchV» sowie «Artikel 61 Absatz 6 Buchstaben a–d TSchV» ausdrücklich genannt; beide Bezüge sind klar der TSchV (SR 455.1) zugeordnet."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_10",
+    "TARGET_SR": "SR 455.1",
+    "assigned_articles": [
+      "Anhang 1 Tabelle 1 Ziff. 31"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Passage «nach Anhang 1 Tabelle 1 Ziffer 31 TSchV» verweist eindeutig auf diese konkrete Anhangsbestimmung der TSchV."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_15",
+    "TARGET_SR": "SR 455.1",
+    "assigned_articles": [
+      "Anhang 1 Tabelle 1 Ziff. 12"
+    ],
+    "confidence": "high",
+    "reasoning": "Es wird ausdrücklich «nach Anhang 1 Tabelle 1 Ziffer 12 TSchV» genannt; dies ist eine klar zuordenbare Bestimmung der TSchV."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_16",
+    "TARGET_SR": "SR 455.1",
+    "assigned_articles": [
+      "Anhang 1 Tabelle 1 Ziff. 322",
+      "Anhang 1 Tabelle 1 Ziff. 323"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Formulierung «nach Anhang 1 Tabelle 1 Ziffern 322 und 323 TSchV» nennt zwei konkrete Ziffern des Anhangs der TSchV, die damit eindeutig zugeordnet sind."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_25",
+    "TARGET_SR": "SR 455.1",
+    "assigned_articles": [
+      "Anhang 1 Tabelle 3 Anmerkung 8",
+      "Anhang 1 Tabelle 3 Ziff. 32",
+      "Anhang 1 Tabelle 3 Ziff. 321–323"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Text werden «Anhang 1 Tabelle 3 Anmerkung 8 TSchV» sowie «Anhang 1 Tabelle 3 Ziffern 32 und 321–323 TSchV» ausdrücklich genannt; alle diese Anhangsstellen gehören zur TSchV."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_32",
+    "TARGET_SR": "SR 455.1",
+    "assigned_articles": [
+      "Art. 61 Abs. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Wendung «extreme Witterungs- und Bodenverhältnisse nach Artikel 61 Absatz 3 TSchV» verweist klar auf Art. 61 Abs. 3 der TSchV."
+  },
+  {
+    "ITEM": 8,
+    "ARTICLE_EID": "art_34_b",
+    "TARGET_SR": "SR 455.1",
+    "assigned_articles": [
+      "Anhang 1 Tabelle 9‑1 Ziff. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Es wird «begehbare Fläche nach Anhang 1 Tabelle 9‑1 Ziffer 2 TSchV» genannt; dies ist eine spezifische Bestimmung des Anhangs der TSchV."
+  },
+  {
+    "ITEM": 9,
+    "ARTICLE_EID": "art_8",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 61 Abs. 6 Bst. a–d"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Satz «Ausnahmen vom Auslauf für Equiden nach Artikel 61 Absatz 6 Buchstaben a–d TSchV …» ist eine reine Artikelverweisung innerhalb der TSchV; mangels expliziter SR-Verknüpfung im Item-Typ artikel_reference handelt es sich um eine Selbstreferenz ohne neues TARGET_SR."
+  }
+]

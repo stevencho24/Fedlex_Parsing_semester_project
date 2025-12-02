@@ -1,0 +1,53 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 443.1",
+    "assigned_articles": [
+      "Art. 8",
+      "Art. 26 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Formulierung «gestützt auf die Artikel 8 und 26 Absatz 2 des Filmgesetzes … SR 443.1 (FiG)» verknüpft die genannten Artikel syntaktisch eindeutig mit dem Filmgesetz SR 443.1."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_9",
+    "TARGET_SR": "SR 172.010",
+    "assigned_articles": [
+      "Art. 57"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Snippet steht «(Art. 57 des Regierungs- und Verwaltungsorganisationsgesetzes … SR 172.010)»; Art. 57 ist direkt dem genannten Gesetz SR 172.010 zugeordnet."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": "SR 443.1",
+    "assigned_articles": [
+      "Art. 2 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Passage «Schweizer Filme gemäss Artikel 2 Absatz 2 FiG» verweist explizit auf Art. 2 Abs. 2 des Filmgesetzes; FiG ist im Preambel-Callback als SR 443.1 definiert."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_9",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "Dies ist ein artikel_reference ohne explizite SR-Angabe im Snippet; der Verweis «Art. 57 des Regierungs- und Verwaltungsorganisationsgesetzes» ist bereits in ITEM 2 als externer SR-Link erfasst. Hier dient der Eintrag nur zur Erfassung der Selbstreferenzstruktur und begründet keinen neuen SR-Link."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_11",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«… nach Artikel 4 Absatz 2bis zweiter Satz» verweist ohne Nennung eines Gesetzes auf einen anderen Artikel derselben Verordnung; mangels SR-Bezug ist dies eine reine interne Selbstreferenz."
+  }
+]

@@ -1,0 +1,88 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 941.210",
+    "assigned_articles": [
+      "Art. 5 Abs. 2",
+      "Art. 8 Abs. 2",
+      "Art. 11 Abs. 2",
+      "Art. 24 Abs. 3",
+      "Art. 33"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Präambel nennt ausdrücklich: «gestützt auf die Artikel 5 Absatz 2, 8 Absatz 2, 11 Absatz 2, 24 Absatz 3 und 33 der Messmittelverordnung … SR 941.210 (MessMV)»; diese Artikel gehören daher eindeutig zur SR 941.210."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": "SR 941.210",
+    "assigned_articles": [
+      "Anhang 1"
+    ],
+    "confidence": "medium",
+    "reasoning": "Im Snippet: «… nach Anhang 1 MessMV …». Es wird kein bestimmter Artikel der MessMV genannt, sondern nur der Anhang. Daher Zuordnung als Verweis auf Anhang 1 der SR 941.210."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": "SR 941.210",
+    "assigned_articles": [
+      "Anhang 2"
+    ],
+    "confidence": "medium",
+    "reasoning": "Im Snippet: «… nach einem der folgenden Verfahren nach Anhang 2 MessMV bewertet …». Es wird kein Artikel, sondern explizit Anhang 2 der MessMV (SR 941.210) genannt."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_6",
+    "TARGET_SR": "SR 941.210",
+    "assigned_articles": [
+      "Anhang 7 Ziff. 5",
+      "Anhang 7 Ziff. 8"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Snippet: «… Verfahren … nach Anhang 7 Ziffer 5 MessMV …» sowie «… nach Anhang 7 Ziffer 8 MessMV …». Beide Stellen beziehen sich klar auf Anhang 7 Ziff. 5 und 8 der MessMV (SR 941.210)."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": "SR 941.210",
+    "assigned_articles": [
+      "Art. 21 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Snippet: «Zusätzlich zur Verantwortung nach Artikel 21 Absatz 1 MessMV …». Der Artikel ist direkt mit der Abkürzung MessMV verknüpft, somit Art. 21 Abs. 1 der SR 941.210."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_6",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 8"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet: «… die Einhaltung der Fehlergrenzen nach Artikel 8 …». Es wird keine SR oder Abkürzung genannt; der Verweis bezieht sich daher auf den internen Art. 8 derselben Verordnung (Selbstverweis), nicht auf SR 941.210."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_9",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 5",
+      "Art. 8"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet: «… welche die Voraussetzungen nach Artikel 5 nicht erfüllen … Fehlergrenzen nach Artikel 8 …». Es fehlt jede Nennung einer externen SR; die Artikel sind daher interne Verweise innerhalb derselben Verordnung."
+  },
+  {
+    "ITEM": 8,
+    "ARTICLE_EID": "art_9",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 8"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet: «… wenn sie … die Fehlergrenzen nach Artikel 8 nicht einhalten.» Ohne SR- oder Abkürzungsangabe ist dies ein Selbstverweis auf den Art. 8 der vorliegenden Verordnung."
+  }
+]

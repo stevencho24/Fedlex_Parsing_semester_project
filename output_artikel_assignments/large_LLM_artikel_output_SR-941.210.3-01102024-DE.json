@@ -1,0 +1,103 @@
+[
+  {
+    "Item": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 941.210",
+    "assigned_articles": [
+      "Art. 5 Abs. 2",
+      "Art. 8 Abs. 2",
+      "Art. 16 Abs. 2",
+      "Art. 24 Abs. 3",
+      "Art. 33"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Präambel nennt ausdrücklich: «gestützt auf die Artikel 5 Absatz 2, 8 Absatz 2, 16 Absatz 2, 24 Absatz 3 und 33 der Messmittelverordnung … SR 941.210». Diese Artikel gehören syntaktisch eindeutig zur Messmittelverordnung (SR 941.210)."
+  },
+  {
+    "Item": 2,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": "SR 814.318.142.1",
+    "assigned_articles": [
+      "Art. 13"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Satz steht: «… nach Artikel 13 der Luftreinhalte-Verordnung … SR 814.318.142.1 (LRV)». Der Artikel 13 ist direkt mit der LRV verknüpft und bezieht sich damit auf SR 814.318.142.1."
+  },
+  {
+    "Item": 3,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": "SR 814.318.142.1",
+    "assigned_articles": [
+      "Anhang 3 Ziff. 1 Abs. 1",
+      "Anhang 5 Ziff. 11 Abs. 1",
+      "Anhang 5 Ziff. 31 Abs. 1",
+      "Anhang 5 Ziff. 41 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Definitionen verweisen jeweils mit der Abkürzung LRV auf Anhänge der Luftreinhalte-Verordnung: «nach Anhang 3 Ziffer 1 Absatz 1 LRV», «nach Anhang 5 Ziffer 11 Absatz 1 LRV», «nach Anhang 5 Ziffer 31 Absatz 1 LRV», «nach Anhang 5 Ziffer 41 Absatz 1 LRV». LRV ist im selben Kontext als SR 814.318.142.1 ausgewiesen, daher gehören diese Anhangstellen zu dieser SR."
+  },
+  {
+    "Item": 4,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": "SR 941.210",
+    "assigned_articles": [
+      "Anhang 1"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Satz lautet: «… müssen die grundlegenden Anforderungen nach Anhang 1 der Messmittelverordnung … erfüllen.» Die Messmittelverordnung ist im Präambel-Callback eindeutig SR 941.210; der genannte Anhang 1 gehört somit zu SR 941.210."
+  },
+  {
+    "Item": 5,
+    "ARTICLE_EID": "art_6",
+    "TARGET_SR": "SR 941.210",
+    "assigned_articles": [
+      "Anhang 7 Ziff. 1",
+      "Anhang 7 Ziff. 7",
+      "Anhang 7 Ziff. 8"
+    ],
+    "confidence": "high",
+    "reasoning": "Mehrfach wird formuliert: «… nach Anhang 7 Ziffer 1 der Messmittelverordnung …», «… nach Anhang 7 Ziffer 7 der Messmittelverordnung …», «… nach Anhang 7 Ziffer 8 der Messmittelverordnung …». Die Messmittelverordnung ist SR 941.210, daher sind diese Anhangziffern diesem Erlass zuzuordnen."
+  },
+  {
+    "Item": 6,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": "SR 941.210",
+    "assigned_articles": [
+      "Anhang 1"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Text verweist auf «die grundlegenden Anforderungen nach Anhang 1 der Messmittelverordnung». Aufgrund des Präambel-Akronyms ist klar, dass die Messmittelverordnung SR 941.210 ist; der Anhang 1 gehört somit zu dieser SR."
+  },
+  {
+    "Item": 7,
+    "ARTICLE_EID": "art_8",
+    "TARGET_SR": "SR 941.210",
+    "assigned_articles": [
+      "Anhang 5"
+    ],
+    "confidence": "high",
+    "reasoning": "Es heisst: «… einer Ersteichung nach Anhang 5 der Messmittelverordnung …». Die Messmittelverordnung ist SR 941.210, daher ist der genannte Anhang 5 dieser SR zugeordnet."
+  },
+  {
+    "Item": 8,
+    "ARTICLE_EID": "art_9",
+    "TARGET_SR": "SR 941.210",
+    "assigned_articles": [
+      "Anhang 7 Ziff. 1",
+      "Anhang 7 Ziff. 7",
+      "Anhang 7 Ziff. 8"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Artikel nennt dreimal Bestimmungen der Messmittelverordnung: «Anhang 7 Ziffer 1», «Anhang 7 Ziffer 7» und «Anhang 7 Ziffer 8 der Messmittelverordnung». Diese gehören syntaktisch eindeutig zur Messmittelverordnung (SR 941.210)."
+  },
+  {
+    "Item": 9,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Interne Verweisung innerhalb der aktuellen Verordnung auf Art. 13 LRV; keine zusätzliche SR-Zuordnung"
+    ],
+    "confidence": "high",
+    "reasoning": "Dies ist ein artikel_reference-Eintrag ohne TARGET_SR. Der Text wiederholt die Formulierung aus Item 2 («… nach Artikel 13 der Luftreinhalte-Verordnung … (LRV)»). Die Zuordnung von Art. 13 LRV zu SR 814.318.142.1 wurde bereits in Item 2 vorgenommen; hier handelt es sich um dieselbe inhaltliche Verweisung, daher keine neue SR-Verknüpfung."
+  }
+]

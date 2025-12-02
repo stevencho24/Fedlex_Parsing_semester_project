@@ -1,0 +1,261 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 101",
+    "assigned_articles": [
+      "Art. 173 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Formulierung «gestützt auf Artikel 173 Absatz 2 der Bundesverfassung SR 101» verknüpft den genannten Artikel grammatikalisch eindeutig mit SR 101."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": "SR 172.021",
+    "assigned_articles": "General reference - entire document",
+    "confidence": "high",
+    "reasoning": "Es wird nur das Verwaltungsverfahrensgesetz als Ganzes («ist ... anwendbar») genannt, ohne spezifische Artikelangabe; daher allgemeine Verweisung auf das gesamte Gesetz."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_5_a",
+    "TARGET_SR": "SR 235.1",
+    "assigned_articles": "General reference - entire document",
+    "confidence": "medium",
+    "reasoning": "Die Datenschutzbestimmungen müssen dem Schutzniveau des Datenschutzgesetzes insgesamt entsprechen; kein bestimmter Artikel wird genannt, es geht um das generelle Schutzniveau."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_8",
+    "TARGET_SR": "SR 935.61",
+    "assigned_articles": "General reference - entire document",
+    "confidence": "medium",
+    "reasoning": "Das Anwaltsgesetz wird als Grundlage für die Vertretungsberechtigung genannt, ohne konkrete Artikelangabe; die Bezugnahme ist pauschal auf das Gesetz."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_13",
+    "TARGET_SR": "SR 313.0",
+    "assigned_articles": [
+      "Art. 42",
+      "Art. 45",
+      "Art. 46",
+      "Art. 47",
+      "Art. 48",
+      "Art. 49",
+      "Art. 50 Abs. 1",
+      "Art. 50 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Satz nennt ausdrücklich «Artikel 42 sowie 45–50 Absätze 1 und 2 ... SR 313.0»; damit sind diese Artikel und Absätze des Verwaltungsstrafrechts direkt zugeordnet."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_15",
+    "TARGET_SR": "SR 172.021",
+    "assigned_articles": [
+      "Art. 27"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Wendung «nach Artikel 27 VwVG SR 172.021» verknüpft Art. 27 eindeutig mit dem VwVG (SR 172.021)."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_19",
+    "TARGET_SR": "SR 172.021",
+    "assigned_articles": [
+      "Art. 48",
+      "Art. 55 Abs. 2",
+      "Art. 55 Abs. 3",
+      "Art. 55 Abs. 4"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Snippet wird «Artikel 48 VwVG SR 172.021» genannt; in snippet_acronym zusätzlich «Artikel 55 Absätze 2–4 VwVG». Beide Bezüge sind klar dem VwVG (SR 172.021) zugeordnet."
+  },
+  {
+    "ITEM": 8,
+    "ARTICLE_EID": "art_22_b",
+    "TARGET_SR": "SR 172.021",
+    "assigned_articles": [
+      "Art. 48"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Formulierung «nach Artikel 48 VwVG SR 172.021» ordnet Art. 48 eindeutig dem VwVG (SR 172.021) zu."
+  },
+  {
+    "ITEM": 9,
+    "ARTICLE_EID": "art_22_l",
+    "TARGET_SR": "SR 313.0",
+    "assigned_articles": "General reference - entire document",
+    "confidence": "medium",
+    "reasoning": "Es heisst nur, dass das Bundesgesetz über das Verwaltungsstrafrecht anwendbar ist, ohne einzelne Artikel zu nennen; daher allgemeine Verweisung auf das Gesetz."
+  },
+  {
+    "ITEM": 10,
+    "ARTICLE_EID": "art_24",
+    "TARGET_SR": "SR 672.2",
+    "assigned_articles": "General reference - entire document",
+    "confidence": "medium",
+    "reasoning": "Der Bundesbeschluss SR 672.2 wird als Grundlage der Ausführungsbestimmungen erwähnt, ohne konkrete Artikelangabe; die Verweisung ist pauschal."
+  },
+  {
+    "ITEM": 11,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": "SR 651.1",
+    "assigned_articles": [
+      "Art. 22a Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "«Artikel 22a Absatz 1 VwVG» ist ein Verweis auf ein anderes Gesetz (SR 172.021) und betrifft nicht die Ziel-SR dieses Dokuments; als artikel_reference ohne SR-Nennung ist dies eine Selbstverweisung innerhalb des VwVG-Kontexts und wird daher nicht als externer Link gewertet. Für die eigene SR (651.1) entsteht hier kein neuer SR-Link; der Eintrag bleibt als interner Verweis gekennzeichnet."
+  },
+  {
+    "ITEM": 12,
+    "ARTICLE_EID": "art_8",
+    "TARGET_SR": "SR 651.1",
+    "assigned_articles": [
+      "Art. 9",
+      "Art. 10",
+      "Art. 11",
+      "Art. 12"
+    ],
+    "confidence": "high",
+    "reasoning": "«nach den Artikeln 9–12» bezieht sich mangels anderer SR-Nennung auf Artikel desselben Gesetzes (Selbstverweisung innerhalb SR 651.1)."
+  },
+  {
+    "ITEM": 13,
+    "ARTICLE_EID": "art_13",
+    "TARGET_SR": "SR 651.1",
+    "assigned_articles": [
+      "Art. 8 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "«nach Artikel 8 Absatz 2» verweist ohne andere SR-Angabe auf einen Artikel desselben Gesetzes (interner Verweis innerhalb SR 651.1)."
+  },
+  {
+    "ITEM": 14,
+    "ARTICLE_EID": "art_13",
+    "TARGET_SR": "SR 313.0",
+    "assigned_articles": [
+      "Art. 42",
+      "Art. 45",
+      "Art. 46",
+      "Art. 47",
+      "Art. 48",
+      "Art. 49",
+      "Art. 50 Abs. 1",
+      "Art. 50 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Dieser artikel_reference-Satz ist identisch mit ITEM 5 und verweist auf «Artikel 42 sowie 45–50 Absätze 1 und 2 ... über das Verwaltungsstrafrecht». Da diese Artikel bereits in ITEM 5 SR 313.0 zugeordnet wurden, handelt es sich hier um denselben externen Verweis; die Zuordnung bleibt gleich."
+  },
+  {
+    "ITEM": 15,
+    "ARTICLE_EID": "art_14",
+    "TARGET_SR": "SR 651.1",
+    "assigned_articles": [
+      "Art. 19 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "«nach Artikel 19 Absatz 2» erfolgt ohne Nennung einer anderen SR und bezieht sich daher auf einen Artikel desselben Gesetzes (interner Verweis innerhalb SR 651.1)."
+  },
+  {
+    "ITEM": 16,
+    "ARTICLE_EID": "art_14_a",
+    "TARGET_SR": "SR 651.1",
+    "assigned_articles": [
+      "Art. 16"
+    ],
+    "confidence": "high",
+    "reasoning": "«über das vereinfachte Verfahren nach Artikel 16» verweist ohne andere SR-Angabe auf einen Artikel desselben Gesetzes (Selbstverweisung)."
+  },
+  {
+    "ITEM": 17,
+    "ARTICLE_EID": "art_15",
+    "TARGET_SR": "SR 172.021",
+    "assigned_articles": [
+      "Art. 27"
+    ],
+    "confidence": "high",
+    "reasoning": "«nach Artikel 27 VwVG» ist ein klarer Verweis auf Art. 27 des VwVG (SR 172.021); dies entspricht inhaltlich ITEM 6 und ist kein neuer Artikel für eine andere SR."
+  },
+  {
+    "ITEM": 18,
+    "ARTICLE_EID": "art_22_b",
+    "TARGET_SR": "SR 651.1",
+    "assigned_articles": [
+      "Art. 21a Abs. 2",
+      "Art. 21a Abs. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "«Im Übrigen gilt Artikel 21a Absätze 2 und 3 sinngemäss» verweist ohne andere SR-Nennung auf interne Artikel des gleichen Gesetzes (SR 651.1)."
+  },
+  {
+    "ITEM": 19,
+    "ARTICLE_EID": "art_22_c",
+    "TARGET_SR": "SR 651.1",
+    "assigned_articles": [
+      "Art. 15"
+    ],
+    "confidence": "high",
+    "reasoning": "«gilt Artikel 15 sinngemäss» ist ein interner Verweis innerhalb desselben Gesetzes, da keine andere SR genannt wird."
+  },
+  {
+    "ITEM": 20,
+    "ARTICLE_EID": "art_22_d",
+    "TARGET_SR": "SR 651.1",
+    "assigned_articles": [
+      "Art. 16",
+      "Art. 17",
+      "Art. 19",
+      "Art. 20"
+    ],
+    "confidence": "high",
+    "reasoning": "«gelten die Artikel 16, 17, 19 und 20 sinngemäss» bezieht sich mangels anderer SR-Angabe auf Artikel desselben Gesetzes (interne Verweisung)."
+  },
+  {
+    "ITEM": 21,
+    "ARTICLE_EID": "art_22_j",
+    "TARGET_SR": "SR 651.1",
+    "assigned_articles": [
+      "Art. 9",
+      "Art. 10"
+    ],
+    "confidence": "medium",
+    "reasoning": "«zur Herausgabe der Informationen nach Artikel 9 oder 10» verweist ohne andere SR-Nennung auf interne Artikel des gleichen Gesetzes; es handelt sich um eine Selbstverweisung innerhalb SR 651.1."
+  },
+  {
+    "ITEM": 22,
+    "ARTICLE_EID": "art_22_k",
+    "TARGET_SR": "SR 651.1",
+    "assigned_articles": [
+      "Art. 21a Abs. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "«gegen das Informationsverbot nach Artikel 21a Absatz 3 verstösst» ist ein interner Verweis auf einen Artikel desselben Gesetzes (SR 651.1)."
+  },
+  {
+    "ITEM": 23,
+    "ARTICLE_EID": "art_24_a",
+    "TARGET_SR": "SR 651.1",
+    "assigned_articles": [
+      "Art. 6 Abs. 2bis",
+      "Art. 14a"
+    ],
+    "confidence": "high",
+    "reasoning": "«Die Artikel 6 Absatz 2bis und 14a gelten ...» verweist ohne andere SR-Angabe auf interne Artikel des vorliegenden Gesetzes (SR 651.1)."
+  },
+  {
+    "ITEM": 24,
+    "ARTICLE_EID": "art_24_a",
+    "TARGET_SR": "SR 651.1",
+    "assigned_articles": [
+      "Art. 14 Abs. 1",
+      "Art. 14 Abs. 2",
+      "Art. 15 Abs. 2",
+      "Art. 21a"
+    ],
+    "confidence": "high",
+    "reasoning": "«Die Artikel 14 Absätze 1 und 2, 15 Absatz 2 sowie 21a ... des vorliegenden Gesetzes» bezeichnet ausdrücklich interne Artikel des gleichen Gesetzes (SR 651.1)."
+  }
+]

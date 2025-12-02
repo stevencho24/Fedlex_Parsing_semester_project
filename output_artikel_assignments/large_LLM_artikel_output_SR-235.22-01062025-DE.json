@@ -1,0 +1,175 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 235.2",
+    "assigned_articles": [
+      "Art. 29 Abs. 1 Bst. a"
+    ],
+    "confidence": "high",
+    "reasoning": "Im selben Satz: «gestützt auf Artikel 29 Absatz 1 Buchstabe a des Bundesgesetzes … SR 235.2». Der Artikel ist direkt mit dem genannten Bundesgesetz (SR 235.2) verknüpft."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 195.1",
+    "assigned_articles": [
+      "Art. 63 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Im selben Satz: «… und Artikel 63 Absatz 2 des Auslandschweizergesetzes … SR 195.1 (ASG)». Der Artikel ist grammatikalisch eindeutig diesem Gesetz zugeordnet."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": "SR 831.10",
+    "assigned_articles": [
+      "Art. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Formulierung: «… nach Artikel 2 des Bundesgesetzes … SR 831.10 über die Alters- und Hinterlassenenversicherung (AHVG)». Direkte Zuordnung von Art. 2 zu SR 831.10."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": "SR 831.111",
+    "assigned_articles": [
+      "Art. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "Satzteil: «… und Artikel 3 der Verordnung vom 26. Mai 1961 SR 831.111 über die freiwillige Alters-, Hinterlassenen- und Invalidenversicherung.» Art. 3 gehört klar zur Verordnung SR 831.111."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_6",
+    "TARGET_SR": "SR 210",
+    "assigned_articles": [
+      "Art. 39"
+    ],
+    "confidence": "high",
+    "reasoning": "Text: «Personenstandsregister (Art. 39 des Zivilgesetzbuchs SR 210)». Art. 39 ist ausdrücklich dem ZGB (SR 210) zugeordnet."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_6",
+    "TARGET_SR": "SR 831.101",
+    "assigned_articles": [
+      "Art. 133bis",
+      "Art. 134quater"
+    ],
+    "confidence": "high",
+    "reasoning": "Formulierung: «… nach den Artikeln 133bis und 134quater der Verordnung vom 31. Oktober 1947 SR 831.101 über die Alters- und Hinterlassenenversicherung …». Beide Artikel sind direkt dieser Verordnung zugeordnet."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_8",
+    "TARGET_SR": "SR 431.011",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "«im Rahmen der Bundesstatistikverordnung vom 30. April 2025 SR 431.011» ohne Nennung einzelner Artikel; es handelt sich um eine generelle Verweisnorm auf die ganze Verordnung."
+  },
+  {
+    "ITEM": 8,
+    "ARTICLE_EID": "art_8",
+    "TARGET_SR": "SR 431.021",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "«… und der Registerharmonisierungsverordnung vom 21. November 2007 SR 431.021» ohne Artikelspezifizierung; daher allgemeiner Verweis auf die Verordnung."
+  },
+  {
+    "ITEM": 9,
+    "ARTICLE_EID": "art_12",
+    "TARGET_SR": "SR 852.12",
+    "assigned_articles": [
+      "Art. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "Satz: «… zur Erfüllung der Aufgaben nach Artikel 3 der Verordnung vom 18. Juni 2021 SR 852.12 …». Art. 3 ist klar dieser Verordnung zugeordnet."
+  },
+  {
+    "ITEM": 10,
+    "ARTICLE_EID": "art_14",
+    "TARGET_SR": "SR 235.11",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "«der Datenschutzverordnung vom 31. August 2022 SR 235.11» ohne Artikelangabe; es wird die Verordnung als Ganzes referenziert."
+  },
+  {
+    "ITEM": 11,
+    "ARTICLE_EID": "art_14",
+    "TARGET_SR": "SR 128.1",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "«der Informationssicherheitsverordnung vom 8. November 2023 SR 128.1» ohne konkrete Artikel; allgemeiner Verweis auf die Verordnung."
+  },
+  {
+    "ITEM": 12,
+    "ARTICLE_EID": "art_6",
+    "TARGET_SR": "SR 195.1",
+    "assigned_articles": [
+      "Art. 12 Abs. 4",
+      "Art. 13 Abs. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "Text: «(Art. 12 Abs. 4 ASG)» und «(Art. 13 Abs. 3 ASG)»; ASG ist in der Präambel als SR 195.1 definiert. Beide Artikel sind explizit mit diesem Gesetz verknüpft."
+  },
+  {
+    "ITEM": 13,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": "self",
+    "assigned_articles": [
+      "Art. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "«… nach Artikel 2 des Bundesgesetzes vom 20. Dezember 1946 …» ist eine Wiederholung der externen Verweisung aus ITEM 3, dient hier aber als Zitat im eigenen Artikel. Für die interne Struktur dieses Dokuments ist es eine externe Referenz; im Sinne der Aufgabe (artikel_reference ohne TARGET_SR) wird sie als Verweis auf Art. 2 des zitierten Gesetzes erfasst, ohne neues SR-Ziel."
+  },
+  {
+    "ITEM": 14,
+    "ARTICLE_EID": "art_6",
+    "TARGET_SR": "SR 210",
+    "assigned_articles": [
+      "Art. 39"
+    ],
+    "confidence": "high",
+    "reasoning": "«(Art. 39 des Zivilgesetzbuchs)» entspricht inhaltlich ITEM 5; dort ist SR 210 explizit genannt. Aufgrund der identischen Formulierung ist klar, dass Art. 39 ZGB (SR 210) gemeint ist."
+  },
+  {
+    "ITEM": 15,
+    "ARTICLE_EID": "art_6",
+    "TARGET_SR": "SR 831.101",
+    "assigned_articles": [
+      "Art. 133bis",
+      "Art. 134quater"
+    ],
+    "confidence": "high",
+    "reasoning": "«nach den Artikeln 133bis und 134quater der Verordnung vom 31. Oktober 1947 über die Alters- und Hinterlassenenversicherung» entspricht dem Wortlaut von ITEM 6, wo SR 831.101 explizit genannt ist; daher gleiche Zuordnung."
+  },
+  {
+    "ITEM": 16,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": "self",
+    "assigned_articles": [
+      "Art. 5"
+    ],
+    "confidence": "high",
+    "reasoning": "«Die Personen nach Artikel 5 …» bezieht sich auf einen anderen Artikel derselben Verordnung (interne Selbstreferenz). Kein externer SR-Bezug; daher Zuordnung als interner Verweis auf Art. 5 des aktuellen Dokuments."
+  },
+  {
+    "ITEM": 17,
+    "ARTICLE_EID": "art_12",
+    "TARGET_SR": "SR 852.12",
+    "assigned_articles": [
+      "Art. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "«… nach Artikel 3 der Verordnung vom 18. Juni 2021 über die konsularischen Informationssysteme …» ist identisch zur Formulierung in ITEM 9, wo SR 852.12 explizit genannt ist; daher gleicher externer Artikelverweis."
+  }
+]

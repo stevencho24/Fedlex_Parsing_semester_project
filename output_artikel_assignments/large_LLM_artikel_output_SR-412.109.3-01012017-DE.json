@@ -1,0 +1,53 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 172.010",
+    "assigned_articles": [
+      "Art. 46a"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet explicitly cites 'Artikel 46a des Regierungs- und Verwaltungsorganisationsgesetzes ... SR 172.010'; Art. 46a is directly and uniquely linked to SR 172.010 in the same clause."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 412.10",
+    "assigned_articles": [
+      "Art. 65 Abs. 1",
+      "Art. 67"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet states 'auf die Artikel 65 Absatz 1 und 67 des Berufsbildungsgesetzes ... SR 412.10'; both article numbers are syntactically tied to the Berufsbildungsgesetz identified as SR 412.10."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 414.20",
+    "assigned_articles": [
+      "Art. 70 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "The text reads 'sowie auf Artikel 70 Absatz 2 des Hochschulförderungs- und ‑koordinationsgesetzes ... SR 414.20'; Art. 70 Abs. 2 is clearly attributed to SR 414.20 in the same phrase."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": "SR 172.041.1",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "The clause 'gelten die Bestimmungen der Allgemeinen Gebührenverordnung vom 8. September 2004 SR 172.041.1' refers generically to the provisions of that ordinance without specifying any article; thus it is a general reference to the whole SR 172.041.1."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_4_a",
+    "TARGET_SR": "SR 172.044.13",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "The sentence 'werden Gebühren nach der Verordnung vom 3. November 2010 SR 172.044.13 ... erhoben' cites the ordinance as a whole as the fee basis, with no individual articles mentioned; this is a general reference to the entire SR 172.044.13."
+  }
+]

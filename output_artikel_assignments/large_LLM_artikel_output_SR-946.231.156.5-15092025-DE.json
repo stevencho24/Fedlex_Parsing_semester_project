@@ -1,0 +1,95 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 946.231",
+    "assigned_articles": [
+      "Art. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet explicitly states 'gestützt auf Artikel 2 des Embargogesetzes ... SR 946.231 (EmbG)'; Art. 2 is directly and syntactically linked to SR 946.231."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": "SR 946.231",
+    "assigned_articles": [
+      "Art. 9",
+      "Art. 10"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet contains 'wird nach Artikel 9 EmbG bestraft', 'wird nach Artikel 10 EmbG bestraft' and 'Verstösse nach den Artikeln 9 und 10 EmbG'; all these articles are explicitly tied to EmbG (SR 946.231)."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 2",
+      "Art. 4"
+    ],
+    "confidence": "high",
+    "reasoning": "The sentence 'Massnahmen nach den Artikeln 2 und 4' refers to articles within the same ordinance (no SR or EmbG mentioned). This is an internal self-reference to its own Art. 2 and Art. 4, not to an external SR."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "The phrase 'Ein- und Durchreiseverbots nach Artikel 3' clearly refers to Art. 3 of the same ordinance; there is no external SR or EmbG marker, so it is an internal self-reference."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_6",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 2 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "The wording 'Sperrung nach Artikel 2 Absatz 1' is an internal reference to Art. 2 Abs. 1 of the current ordinance; no external SR or EmbG is mentioned."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_6",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 2 Abs. 5"
+    ],
+    "confidence": "high",
+    "reasoning": "The phrase 'Gutschriften nach Artikel 2 Absatz 5' refers to Art. 2 Abs. 5 of the same ordinance; again, no external SR or EmbG is present, so it is a self-reference."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": "SR 946.231",
+    "assigned_articles": [
+      "Art. 9"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet 'wird nach Artikel 9 EmbG bestraft' explicitly links Art. 9 to EmbG; via the preamble acronym EmbG = SR 946.231, this is a direct citation of Art. 9 of SR 946.231."
+  },
+  {
+    "ITEM": 8,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": "SR 946.231",
+    "assigned_articles": [
+      "Art. 10"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet 'wird nach Artikel 10 EmbG bestraft' explicitly links Art. 10 to EmbG; with EmbG defined as SR 946.231, this is a direct citation of Art. 10 of SR 946.231."
+  },
+  {
+    "ITEM": 9,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": "SR 946.231",
+    "assigned_articles": [
+      "Art. 9",
+      "Art. 10"
+    ],
+    "confidence": "high",
+    "reasoning": "The wording 'Verstösse nach den Artikeln 9 und 10 EmbG' explicitly associates both Art. 9 and Art. 10 with EmbG; EmbG is mapped to SR 946.231, so both articles belong to that SR."
+  }
+]

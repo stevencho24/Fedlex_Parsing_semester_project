@@ -1,0 +1,99 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 510.10",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet mentions 'das Militärgesetz vom 3. Febr. 1995 (SR 510.10)' without any specific article number or range syntactically linked to SR 510.10; all detailed article references in the authorial note relate to the older Militärorganisation and other acts, not to SR 510.10 itself."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 510.30",
+    "assigned_articles": [
+      "Art. 34",
+      "Art. 167"
+    ],
+    "confidence": "high",
+    "reasoning": "The text 'die Artikel 34 und 167 des Beschlusses der Bundesversammlung vom 30. März 1949 SR 510.30' directly links articles 34 and 167 to the act identified as SR 510.30; this is a clear prepositional attribution to that SR."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_6",
+    "TARGET_SR": "SR 170.512.1",
+    "assigned_articles": [
+      "Art. 16 Abs. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "The authorial note states 'in Anwendung von Art. 16 Abs. 3 der Publikationsverordnung ... (SR 170.512.1)', which explicitly and syntactically ties Art. 16 Abs. 3 to the Publikationsverordnung identified as SR 170.512.1."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_12",
+    "TARGET_SR": "SR 321.0",
+    "assigned_articles": [
+      "Art. 107"
+    ],
+    "confidence": "high",
+    "reasoning": "The sentence 'nach Massgabe von Artikel 107 des Militärstrafgesetzes SR 321.0 geahndet' clearly attributes Article 107 to the Militärstrafgesetz, which is identified as SR 321.0; this is a direct marking within the same clause."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_12",
+    "TARGET_SR": "SR 311.0",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "medium",
+    "reasoning": "The phrase 'gemäss den einschlägigen Bestimmungen des Strafgesetzbuches SR 311.0' refers generally to the relevant provisions of the Strafgesetzbuch without specifying any article numbers; no syntactic link to a particular article is present."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_9",
+    "TARGET_SR": "SR 510.35",
+    "assigned_articles": [
+      "Art. 18"
+    ],
+    "confidence": "high",
+    "reasoning": "This is an internal reference: 'gemäss Artikel 18' appears without any external SR or act name, and thus refers to Article 18 of the same ordinance (SR 510.35) in which art_9 is located."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_12",
+    "TARGET_SR": "SR 510.35",
+    "assigned_articles": [
+      "Art. 107"
+    ],
+    "confidence": "high",
+    "reasoning": "Although this artikel_reference snippet omits the SR number, it clearly repeats the cross-reference to 'Artikel 107 des Militärstrafgesetzes' that is explicitly tied to SR 321.0 in ITEM 4; within the structure of this ordinance (SR 510.35), it is an internal cross-reference to that external article, so we record the cited article number while the SR context is known from the parallel SR_link_detection."
+  },
+  {
+    "ITEM": 8,
+    "ARTICLE_EID": "art_20",
+    "TARGET_SR": "SR 510.35",
+    "assigned_articles": [
+      "Art. 16"
+    ],
+    "confidence": "medium",
+    "reasoning": "The snippet refers to 'Artikel 16 der Verordnung vom 26. Juni 1934 über Vollziehung des Bundesgesetzes betreffend den Militärpflichtersatz'; this is a cross-reference to Article 16 of another ordinance, but no SR number is provided in the snippet. Within the current document (SR 510.35), this functions as an outgoing reference; we can reliably extract only the article number 16."
+  },
+  {
+    "ITEM": 9,
+    "ARTICLE_EID": "art_21",
+    "TARGET_SR": "SR 510.35",
+    "assigned_articles": [
+      "Art. 13",
+      "Art. 14",
+      "Art. 15",
+      "Art. 16",
+      "Art. 17",
+      "Art. 18",
+      "Art. 19"
+    ],
+    "confidence": "high",
+    "reasoning": "The phrase 'mit Ausnahme der Artikel 13–19' is a range referring to articles within the same ordinance; as no external SR is mentioned, this is a self-reference to Articles 13 through 19 of SR 510.35, expanded as individual articles."
+  }
+]

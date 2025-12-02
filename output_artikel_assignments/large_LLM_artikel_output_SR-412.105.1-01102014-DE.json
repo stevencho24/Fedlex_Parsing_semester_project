@@ -1,0 +1,93 @@
+[
+  {
+    "Item": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 412.10",
+    "assigned_articles": [
+      "Art. 34 Abs. 1",
+      "Art. 65"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet explicitly cites 'Artikel 34 Absatz 1 und 65 des Berufsbildungsgesetzes ... SR 412.10 (BBG)'; both articles are grammatically linked to the cited SR."
+  },
+  {
+    "Item": 2,
+    "ARTICLE_EID": "art_6",
+    "TARGET_SR": "SR 412.101",
+    "assigned_articles": [
+      "Art. 41"
+    ],
+    "confidence": "high",
+    "reasoning": "The SR 412.101 (BBV) citation is introduced as 'Artikel 41 der Berufsbildungsverordnung ... SR 412.101 (BBV)'; Art. 41 is directly and exclusively linked to this SR in the same clause."
+  },
+  {
+    "Item": 3,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": "SR 412.101",
+    "assigned_articles": [
+      "Art. 12",
+      "Art. 26",
+      "Art. 41",
+      "Art. 49"
+    ],
+    "confidence": "high",
+    "reasoning": "Within the snippets tied to BBV (SR 412.101), the following are explicitly marked with the acronym BBV and thus belong to this SR: 'Art. 12 BBV', 'Art. 26 BBV', 'Artikel 41 BBV', and 'Art. 49 BBV'."
+  },
+  {
+    "Item": 4,
+    "ARTICLE_EID": "art_6",
+    "TARGET_SR": "SR 412.10",
+    "assigned_articles": [
+      "Art. 29 Abs. 3",
+      "Art. 46 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet: 'gestützt auf Artikel 29 Absatz 3 BBG und auf Artikel 46 Absatz 2 BBG ...'; BBG is SR 412.10 per preamble, so both cited articles and paragraphs belong to SR 412.10."
+  },
+  {
+    "Item": 5,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": "SR 412.10",
+    "assigned_articles": [
+      "Art. 19",
+      "Art. 28 Abs. 2",
+      "Art. 28 Abs. 3",
+      "Art. 29 Abs. 3",
+      "Art. 46 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "All BBG references in the snippet are explicitly marked with 'BBG', which is SR 412.10: 'Art. 19 BBG', 'Art. 28 Abs. 2 und 3 BBG', 'Artikel 29 Absatz 3 BBG', and 'Artikel 46 Absatz 2 BBG'."
+  },
+  {
+    "Item": 6,
+    "ARTICLE_EID": "art_6",
+    "TARGET_SR": "self",
+    "assigned_articles": [
+      "Art. 29 Abs. 3",
+      "Art. 46 Abs. 2",
+      "Art. 41"
+    ],
+    "confidence": "medium",
+    "reasoning": "This is an artikel_reference without explicit SR; 'Artikel 29 Absatz 3' and 'Artikel 46 Absatz 2' refer to BBG (SR 412.10) and 'Artikel 41' to BBV (SR 412.101) in other items, but here they appear as internal cross-references in the same syntactic structure without SR markers. Following the rule to default to self-reference when ambiguous, they are treated as internal references within the current document."
+  },
+  {
+    "Item": 7,
+    "ARTICLE_EID": "art_6",
+    "TARGET_SR": "self",
+    "assigned_articles": [
+      "Art. 49"
+    ],
+    "confidence": "medium",
+    "reasoning": "Snippet: 'die Rahmenlehrpläne gemäss Artikel 49 BBV.'; although 'BBV' points to SR 412.101 in other items, this artikel_reference lacks an explicit SR link and functions as an internal structural reference, so it is treated as self-reference."
+  },
+  {
+    "Item": 8,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": "self",
+    "assigned_articles": [
+      "Art. 8"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet: 'Verzeichnis nach Artikel 8'; no SR is mentioned, and the context clearly refers to another article ('Artikel 8') within the same ordinance, making this a straightforward internal self-reference."
+  }
+]

@@ -1,0 +1,210 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 748.0",
+    "assigned_articles": [
+      "Art. 6a",
+      "Art. 75"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Formulierung «gestützt auf die Artikel 6a und 75 des Luftfahrtgesetzes … SR 748.0» verknüpft die genannten Artikel syntaktisch eindeutig mit dem Luftfahrtgesetz (SR 748.0)."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 0.748.411",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "Das Übereinkommen von Montreal (SR 0.748.411) wird als Ganzes («Übereinkommen …») genannt; im selben Satz werden keine spezifischen Artikel dieses Übereinkommens erwähnt."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 0.748.127.192.68",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "Das Luftverkehrsabkommen (SR 0.748.127.192.68) wird nur über den Anhang («gemäss Anhang Ziff. 7 …») als Referenzrahmen für EU-Verordnungen erwähnt; keine konkreten Artikel des Abkommens werden genannt."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_11",
+    "TARGET_SR": "SR 220",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "medium",
+    "reasoning": "Formulierung «nach den Regeln des Obligationenrechts SR 220» verweist allgemein auf das OR als Rechtsgrundlage; es werden keine bestimmten OR-Artikel im Kontext genannt."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_16",
+    "TARGET_SR": "SR 0.748.0",
+    "assigned_articles": [
+      "Art. 18",
+      "Art. 38"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Snippet nennt ausdrücklich «Anhang 18 zum Übereinkommen vom 7. Dezember 1944 SR 0.748.0» sowie «Vorbehalten sind die nach Artikel 38 dieses Übereinkommens gemeldeten Abweichungen»; beide Artikel gehören zum Übereinkommen von Chicago (SR 0.748.0)."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_16_b",
+    "TARGET_SR": "SR 0.748.127.192.68",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "Das Luftverkehrsabkommen (SR 0.748.127.192.68) wird nur über «Ziff. 3 des Anhangs» als massgebliche Fassung erwähnt; konkrete Artikel des Abkommens werden nicht genannt."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_18",
+    "TARGET_SR": "SR 0.818.61",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "Das Internationale Abkommen vom 10. Februar 1937 (SR 0.818.61) wird als Ganzes («Bestimmungen des … Abkommens») vorbehalten; keine Artikelangabe im Text."
+  },
+  {
+    "ITEM": 8,
+    "ARTICLE_EID": "art_18",
+    "TARGET_SR": "SR 0.818.62",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "Das Übereinkommen vom 26. Okt. 1973 über die Leichenbeförderung (SR 0.818.62) wird nur als Ganzes («Siehe auch das Übereink.») erwähnt; keine spezifischen Artikel werden genannt."
+  },
+  {
+    "ITEM": 9,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "self",
+    "assigned_articles": [
+      "Art. 16",
+      "Art. 16b",
+      "Art. 16c"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Wendung «nach Artikel 16 einschliesslich … (Art. 16b und 16c)» enthält keine externe SR-Angabe und bezieht sich damit auf Artikel derselben Verordnung; es handelt sich um interne Selbstverweise."
+  },
+  {
+    "ITEM": 10,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": "self",
+    "assigned_articles": [
+      "Art. 6",
+      "Art. 10",
+      "Art. 11",
+      "Art. 12",
+      "Art. 13",
+      "Art. 14",
+      "Art. 15",
+      "Art. 16",
+      "Art. 22 Abs. 4",
+      "Art. 22 Abs. 6",
+      "Art. 23",
+      "Art. 25",
+      "Art. 26",
+      "Art. 27",
+      "Art. 29",
+      "Art. 30",
+      "Art. 32",
+      "Art. 36",
+      "Art. 37",
+      "Art. 49",
+      "Art. 50",
+      "Art. 51",
+      "Art. 52"
+    ],
+    "confidence": "high",
+    "reasoning": "Aufzählung «die Artikel 6, 10–16, 22 Absätze 4 und 6, 23, 25–27, 29, 30, 32, 36, 37 und 49–52» ohne Nennung eines anderen Gesetzes; daher interne Artikel der gleichen Verordnung, inklusive Auflösung der Bereiche 10–16 und 49–52."
+  },
+  {
+    "ITEM": 11,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": "self",
+    "assigned_articles": [
+      "Art. 9 Abs. 4",
+      "Art. 19 Abs. 2",
+      "Art. 20 Abs. 4"
+    ],
+    "confidence": "high",
+    "reasoning": "Formulierung «in den Artikeln 9 Absatz 4, 19 Absatz 2 und 20 Absatz 4 dieser Verordnung» kennzeichnet klar interne Verweise innerhalb derselben Verordnung."
+  },
+  {
+    "ITEM": 12,
+    "ARTICLE_EID": "art_9",
+    "TARGET_SR": "SR 0.748.411",
+    "assigned_articles": [
+      "Art. 18 Abs. 4"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Satz «Artikel 18 Absatz 4 des Übereinkommens von Montreal ist sinngemäss anwendbar» verweist explizit auf Art. 18 Abs. 4 des Übereinkommens von Montreal (SR 0.748.411)."
+  },
+  {
+    "ITEM": 13,
+    "ARTICLE_EID": "art_16",
+    "TARGET_SR": "SR 0.748.0",
+    "assigned_articles": [
+      "Art. 38"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Text wird «Artikel 38 dieses Übereinkommens» genannt; das zuvor genannte Übereinkommen ist das von 1944 (SR 0.748.0), sodass Art. 38 dieses Übereinkommens gemeint ist."
+  },
+  {
+    "ITEM": 14,
+    "ARTICLE_EID": "art_16_b",
+    "TARGET_SR": "self",
+    "assigned_articles": [
+      "Art. 16 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "«gemäss den Vorgaben von Artikel 16 Absatz 1» enthält keine externe SR-Angabe und bezieht sich damit auf Art. 16 Abs. 1 derselben Verordnung."
+  },
+  {
+    "ITEM": 15,
+    "ARTICLE_EID": "art_16_c",
+    "TARGET_SR": "self",
+    "assigned_articles": [
+      "Art. 16b Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "«Der Arbeitgeber gemäss Artikel 16b Absatz 1» verweist intern auf Art. 16b Abs. 1 derselben Verordnung; kein externes SR wird genannt."
+  },
+  {
+    "ITEM": 16,
+    "ARTICLE_EID": "art_16_d",
+    "TARGET_SR": "self",
+    "assigned_articles": [
+      "Art. 16d Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "«Informationen gemäss Artikel 16d Absatz 2» ist ein klarer Selbstverweis auf Art. 16d Abs. 2 derselben Verordnung."
+  },
+  {
+    "ITEM": 17,
+    "ARTICLE_EID": "art_16_e",
+    "TARGET_SR": "self",
+    "assigned_articles": [
+      "Art. 16d Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "«die nach Artikel 16d Absatz 2 erhaltenen Daten» verweist intern auf Art. 16d Abs. 2 derselben Verordnung."
+  },
+  {
+    "ITEM": 18,
+    "ARTICLE_EID": "art_16_e",
+    "TARGET_SR": "self",
+    "assigned_articles": [
+      "Art. 16d Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "«Überprüfung der Deklaration nach Artikel 16d Absatz 1» ist ein interner Verweis auf Art. 16d Abs. 1 derselben Verordnung."
+  }
+]

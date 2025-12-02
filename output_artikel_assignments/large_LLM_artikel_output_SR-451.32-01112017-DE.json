@@ -1,0 +1,149 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 451",
+    "assigned_articles": [
+      "Art. 18a Abs. 1",
+      "Art. 18a Abs. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Formulierung «gestützt auf Artikel 18a Absätze 1 und 3 des Bundesgesetzes ... SR 451 ... (NHG)» verknüpft die genannten Absätze direkt mit SR 451 (NHG)."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 101",
+    "assigned_articles": [
+      "Art. 78 Abs. 5"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Snippet: «Artikel 78 Absatz 5 der Bundesverfassung SR 101»; der Artikel ist ausdrücklich mit der SR-Nummer verbunden."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": "SR 170.512",
+    "assigned_articles": [
+      "Art. 5 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "Text: «(Art. 5 Abs. 1 des Publikationsgesetzes ... SR 170.512)»; klare direkte Zuordnung."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": "SR 813.11",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "medium",
+    "reasoning": "Es wird nur «im Sinne der Chemikalienverordnung vom 5. Juni 2015 SR 813.11» erwähnt, ohne konkrete Artikelangabe; die Verordnung dient als Begriffsgrundlage, daher allgemeine Verweischarakter."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": "SR 813.12",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "medium",
+    "reasoning": "Formulierung «Biozidprodukten im Sinne der Biozidprodukteverordnung vom 18. Mai 2005 SR 813.12» ohne Artikelangabe; allgemeiner begriffsbestimmender Verweis."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": "SR 700",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "medium",
+    "reasoning": "«Nutzungszonen, die dem Raumplanungsgesetz vom 22. Juni 1979 SR 700 entsprechen» verweist auf das Gesetz als Ganzes; kein bestimmter Artikel genannt."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_11",
+    "TARGET_SR": "SR 451.1",
+    "assigned_articles": [
+      "Art. 18",
+      "Art. 19"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet: «richten sich nach den Artikeln 18 und 19 der Verordnung vom 16. Januar 1991 SR 451.1»; die Artikel sind explizit dieser Verordnung zugeordnet."
+  },
+  {
+    "ITEM": 8,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«Artikel 78 Absatz 5 der Bundesverfassung» ist bereits in ITEM 2 eindeutig SR 101 zugeordnet; hier handelt es sich um dieselbe externe Referenz, kein neuer SR-Link. Für den Zweck dieses Typs ist es eine Wiederholung und keine zusätzliche Zuweisung."
+  },
+  {
+    "ITEM": 9,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«Art. 5 Abs. 1 des Publikationsgesetzes ...» ist bereits in ITEM 3 SR 170.512 zugeordnet; dieser artikel_reference bringt keinen neuen externen Bezug, sondern wiederholt denselben Kontext."
+  },
+  {
+    "ITEM": 10,
+    "ARTICLE_EID": "art_6",
+    "TARGET_SR": "self",
+    "assigned_articles": [
+      "Art. 3 Abs. 1",
+      "Art. 5"
+    ],
+    "confidence": "high",
+    "reasoning": "«Die Massnahmen nach den Artikeln 3 Absatz 1 und 5» bezieht sich syntaktisch ohne Nennung eines anderen Gesetzes auf Artikel derselben Verordnung; daher interne Selbstverweisung."
+  },
+  {
+    "ITEM": 11,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": "self",
+    "assigned_articles": [
+      "Art. 5"
+    ],
+    "confidence": "high",
+    "reasoning": "«sofern sie mit Artikel 5 vereinbar sind» enthält keinen externen SR-Hinweis; es handelt sich um einen Verweis auf Art. 5 derselben Verordnung."
+  },
+  {
+    "ITEM": 12,
+    "ARTICLE_EID": "art_9",
+    "TARGET_SR": "self",
+    "assigned_articles": [
+      "Art. 5",
+      "Art. 7",
+      "Art. 8"
+    ],
+    "confidence": "high",
+    "reasoning": "«Massnahmen nach den Artikeln 5, 7 und 8» ohne Nennung eines anderen Erlasses; klar interne Verweisung innerhalb derselben Verordnung."
+  },
+  {
+    "ITEM": 13,
+    "ARTICLE_EID": "art_10",
+    "TARGET_SR": "self",
+    "assigned_articles": [
+      "Art. 3 Abs. 1",
+      "Art. 5"
+    ],
+    "confidence": "high",
+    "reasoning": "«nach den Artikeln 3 Absatz 1 und 5 erforderlichen Massnahmen» verweist ohne SR-Angabe auf interne Artikel der vorliegenden Verordnung."
+  },
+  {
+    "ITEM": 14,
+    "ARTICLE_EID": "art_11",
+    "TARGET_SR": "SR 451.1",
+    "assigned_articles": [
+      "Art. 18",
+      "Art. 19"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Text entspricht inhaltlich ITEM 7: «richten sich nach den Artikeln 18 und 19 der Verordnung vom 16. Januar 1991 über den Natur- und Heimatschutz»; diese Verordnung ist SR 451.1, somit externe Verweisung auf deren Art. 18 und 19."
+  }
+]

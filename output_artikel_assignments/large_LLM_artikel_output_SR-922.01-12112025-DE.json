@@ -1,0 +1,482 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 922.0",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "high",
+    "reasoning": "Das Jagdgesetz wird ohne konkrete Artikelangabe als gesetzliche Grundlage der Verordnung genannt; keine spezifischen Artikel des SR 922.0 werden im Zusammenhang mit der SR-Nummer erwähnt."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 814.01",
+    "assigned_articles": ["Art. 29f Abs. 2 Bst. a", "Art. 29f Abs. 2 Bst. c", "Art. 29f Abs. 2 Bst. d"],
+    "confidence": "high",
+    "reasoning": "Im selben Satzteil wie die SR-Nummer wird ausdrücklich auf «Artikel 29f Absatz 2 Buchstaben a, c und d des Umweltschutzgesetzes» verwiesen; diese Artikelangabe bezieht sich syntaktisch direkt auf SR 814.01."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 455",
+    "assigned_articles": ["Art. 32 Abs. 1"],
+    "confidence": "high",
+    "reasoning": "Der Satzteil mit der SR-Nummer nennt «Artikel 32 Absatz 1 des Tierschutzgesetzes» unmittelbar vor «SR 455»; damit ist klar, dass Art. 32 Abs. 1 zum SR 455 gehört."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_1_b",
+    "TARGET_SR": "SR 455.1",
+    "assigned_articles": ["Art. 177 Abs. 1bis"],
+    "confidence": "high",
+    "reasoning": "Formulierung «im Sinne von Artikel 177 Absatz 1bis der Tierschutzverordnung ... SR 455.1 (TSchV)» verknüpft den Artikel eindeutig mit der genannten Verordnung."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_4_b",
+    "TARGET_SR": "SR 921.01",
+    "assigned_articles": ["Art. 31"],
+    "confidence": "high",
+    "reasoning": "Es heisst «Konzepte zur Verhütung von Wildschäden nach Artikel 31 Waldverordnung ... SR 921.01»; Art. 31 ist direkt mit der Waldverordnung verknüpft."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": "SR 453.0",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "high",
+    "reasoning": "Die Verordnung SR 453.0 wird nur als Ganzes («Verordnung ... SR 453.0 über den Verkehr ...») vorbehalten, ohne konkrete Artikelangabe."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_8_b",
+    "TARGET_SR": "SR 170.512",
+    "assigned_articles": ["Art. 5 Abs. 1 Bst. c"],
+    "confidence": "high",
+    "reasoning": "Der Text nennt «(Art. 5 Abs. 1 Bst. c des Publikationsgesetzes ... SR 170.512)»; die Artikelangabe gehört syntaktisch zu diesem Gesetz."
+  },
+  {
+    "ITEM": 8,
+    "ARTICLE_EID": "art_10",
+    "TARGET_SR": "SR 916.40",
+    "assigned_articles": ["Art. 45b"],
+    "confidence": "high",
+    "reasoning": "Formulierung «Tierverkehrsdatenbank gemäss Artikel 45b des Tierseuchengesetzes ... SR 916.40 (TSG)» verknüpft Art. 45b eindeutig mit SR 916.40."
+  },
+  {
+    "ITEM": 9,
+    "ARTICLE_EID": "art_10_b",
+    "TARGET_SR": "SR 910.13",
+    "assigned_articles": ["Art. 47b Abs. 4"],
+    "confidence": "high",
+    "reasoning": "Es wird «ein einzelbetriebliches Herdenschutzkonzept gemäss Artikel 47b Absatz 4 der Direktzahlungsverordnung ... SR 910.13 (DZV)» genannt; Art. 47b Abs. 4 gehört zu SR 910.13."
+  },
+  {
+    "ITEM": 10,
+    "ARTICLE_EID": "art_10_d",
+    "TARGET_SR": "SR 916.40",
+    "assigned_articles": ["Art. 30 Abs. 2"],
+    "confidence": "high",
+    "reasoning": "«Datenbank nach Artikel 30 Absatz 2 TSG SR 916.40»; der Artikel ist direkt mit dem TSG (SR 916.40) verbunden."
+  },
+  {
+    "ITEM": 11,
+    "ARTICLE_EID": "art_10_d",
+    "TARGET_SR": "SR 455.1",
+    "assigned_articles": ["Art. 73 Abs. 1"],
+    "confidence": "high",
+    "reasoning": "«(Art. 73 Abs. 1 TSchV SR 455.1)» ist eine klassische kombinierte Artikel- und SR-Zitierung."
+  },
+  {
+    "ITEM": 12,
+    "ARTICLE_EID": "art_10_f",
+    "TARGET_SR": "SR 910.13",
+    "assigned_articles": ["Art. 47b"],
+    "confidence": "high",
+    "reasoning": "«Zusatzbeitrag gemäss Artikel 47b DZV SR 910.13»; der Artikel ist direkt mit der DZV verknüpft, Absatz wird nicht genannt."
+  },
+  {
+    "ITEM": 13,
+    "ARTICLE_EID": "art_10_i",
+    "TARGET_SR": "SR 910.1",
+    "assigned_articles": ["Art. 165c"],
+    "confidence": "high",
+    "reasoning": "«Agrarinformationssystem ... nach Artikel 165c des Landwirtschaftsgesetzes ... SR 910.1»; eindeutige Zuordnung."
+  },
+  {
+    "ITEM": 14,
+    "ARTICLE_EID": "art_10_i",
+    "TARGET_SR": "SR 916.40",
+    "assigned_articles": ["Art. 30 Abs. 2", "Art. 45b"],
+    "confidence": "high",
+    "reasoning": "snippet_acronym nennt «Hundedatenbank ... nach Artikel 30 Absatz 2 TSG» und «Tierverkehrsdatenbank ... nach Artikel 45b TSG»; dieselben Stellen werden mit «TSG SR 916.40» verknüpft."
+  },
+  {
+    "ITEM": 15,
+    "ARTICLE_EID": "art_15_a",
+    "TARGET_SR": "SR 172.010",
+    "assigned_articles": ["Art. 62a", "Art. 62b"],
+    "confidence": "high",
+    "reasoning": "«gelten die Artikel 62a und 62b des Regierungs- und Verwaltungsorganisationsgesetzes ... SR 172.010»; beide Artikel gehören zu SR 172.010."
+  },
+  {
+    "ITEM": 16,
+    "ARTICLE_EID": "art_18",
+    "TARGET_SR": "SR 510.620",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "medium",
+    "reasoning": "Es wird nur auf den Anhang 1 der Geoinformationsverordnung SR 510.620 verwiesen, ohne konkrete Artikel; daher allgemeine Dokumentreferenz."
+  },
+  {
+    "ITEM": 17,
+    "ARTICLE_EID": "art_3_bis",
+    "TARGET_SR": "SR 922.0",
+    "assigned_articles": ["Art. 5"],
+    "confidence": "high",
+    "reasoning": "Der Text spricht zweimal von «Artikel 5 des Jagdgesetzes»; das Jagdgesetz ist SR 922.0 gemäss Preamble-Akronym."
+  },
+  {
+    "ITEM": 18,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": "SR 922.0",
+    "assigned_articles": ["Art. 12 Abs. 4"],
+    "confidence": "high",
+    "reasoning": "«nach Artikel 12 Absatz 4 des Jagdgesetzes»; das Jagdgesetz ist SR 922.0."
+  },
+  {
+    "ITEM": 19,
+    "ARTICLE_EID": "art_4_a",
+    "TARGET_SR": "SR 922.0",
+    "assigned_articles": ["Art. 7a"],
+    "confidence": "high",
+    "reasoning": "«Fortpflanzungsgemeinschaften ... nach Artikel 7a des Jagdgesetzes»; eindeutige Verknüpfung."
+  },
+  {
+    "ITEM": 20,
+    "ARTICLE_EID": "art_4_b",
+    "TARGET_SR": "SR 922.0",
+    "assigned_articles": ["Art. 7a"],
+    "confidence": "high",
+    "reasoning": "Mehrfach «nach Artikel 7a des Jagdgesetzes» im Kontext der Wolfsregulierung."
+  },
+  {
+    "ITEM": 21,
+    "ARTICLE_EID": "art_4_c",
+    "TARGET_SR": "SR 922.0",
+    "assigned_articles": ["Art. 12 Abs. 4bis"],
+    "confidence": "high",
+    "reasoning": "«Regulierung von Wölfen nach Artikel 12 Absatz 4bis des Jagdgesetzes»; klarer Bezug."
+  },
+  {
+    "ITEM": 22,
+    "ARTICLE_EID": "art_4_d",
+    "TARGET_SR": "SR 922.0",
+    "assigned_articles": ["Art. 7a Abs. 3"],
+    "confidence": "high",
+    "reasoning": "«nach Artikel 7a Absatz 3 des Jagdgesetzes»; Absatz ist ausdrücklich genannt."
+  },
+  {
+    "ITEM": 23,
+    "ARTICLE_EID": "art_9_b",
+    "TARGET_SR": "SR 922.0",
+    "assigned_articles": ["Art. 12 Abs. 2"],
+    "confidence": "high",
+    "reasoning": "«Massnahmen nach Artikel 12 Absatz 2 des Jagdgesetzes»; eindeutige Zuordnung."
+  },
+  {
+    "ITEM": 24,
+    "ARTICLE_EID": "art_9_d",
+    "TARGET_SR": "SR 922.0",
+    "assigned_articles": ["Art. 12 Abs. 2"],
+    "confidence": "high",
+    "reasoning": "«Abschussbewilligung nach Artikel 12 Absatz 2 des Jagdgesetzes»; derselbe Artikel."
+  },
+  {
+    "ITEM": 25,
+    "ARTICLE_EID": "art_10",
+    "TARGET_SR": "SR 922.0",
+    "assigned_articles": ["Art. 13 Abs. 5"],
+    "confidence": "high",
+    "reasoning": "«Schäden ... nach Artikel 13 Absatz 5 des Jagdgesetzes»; klarer Bezug."
+  },
+  {
+    "ITEM": 26,
+    "ARTICLE_EID": "art_10_h",
+    "TARGET_SR": "SR 922.0",
+    "assigned_articles": ["Art. 12 Abs. 5 Bst. b"],
+    "confidence": "high",
+    "reasoning": "«Objekten gemäss Artikel 12 Absatz 5 Buchstabe b des Jagdgesetzes»; Buchstabe b ist ausdrücklich genannt."
+  },
+  {
+    "ITEM": 27,
+    "ARTICLE_EID": "art_12",
+    "TARGET_SR": "SR 922.0",
+    "assigned_articles": ["Art. 11 Abs. 1", "Art. 11 Abs. 2", "Art. 11a"],
+    "confidence": "high",
+    "reasoning": "Es wird auf «Artikel 11 Absätze 1 und 2 des Jagdgesetzes» sowie «Artikel 11a des Jagdgesetzes» verwiesen; alle gehören zu SR 922.0."
+  },
+  {
+    "ITEM": 28,
+    "ARTICLE_EID": "art_15",
+    "TARGET_SR": "SR 922.0",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "medium",
+    "reasoning": "«Inkrafttreten des Jagdgesetzes» ohne Artikelangabe; es geht um das Gesetz als Ganzes, nicht um eine bestimmte Norm."
+  },
+  {
+    "ITEM": 29,
+    "ARTICLE_EID": "art_15_a",
+    "TARGET_SR": "SR 922.0",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "medium",
+    "reasoning": "Überschrift «Vollzug des Jagdgesetzes durch den Bund»; kein bestimmter Artikel genannt, allgemeiner Gesetzesbezug."
+  },
+  {
+    "ITEM": 30,
+    "ARTICLE_EID": "art_17",
+    "TARGET_SR": "SR 922.0",
+    "assigned_articles": ["Art. 20 Abs. 1"],
+    "confidence": "high",
+    "reasoning": "«Jagdberichtigung nach Artikel 20 Absatz 1 des Jagdgesetzes»; eindeutige Artikelangabe."
+  },
+  {
+    "ITEM": 31,
+    "ARTICLE_EID": "art_18",
+    "TARGET_SR": "SR 922.0",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "medium",
+    "reasoning": "«Aufsicht über den Vollzug des Jagdgesetzes» ohne Artikelangabe; allgemeiner Bezug auf das Gesetz."
+  },
+  {
+    "ITEM": 32,
+    "ARTICLE_EID": "art_1_b",
+    "TARGET_SR": "SR 922.01",
+    "assigned_articles": ["Art. 1b"],
+    "confidence": "high",
+    "reasoning": "Dies ist eine Selbstreferenz innerhalb der vorliegenden Verordnung (Artikel 1b); kein externer SR-Bezug, daher Zuordnung zur eigenen SR-Nummer der Verordnung (SR 922.01) als Strukturartikel."
+  },
+  {
+    "ITEM": 33,
+    "ARTICLE_EID": "art_3_bis",
+    "TARGET_SR": "SR 922.0",
+    "assigned_articles": ["Art. 5"],
+    "confidence": "high",
+    "reasoning": "«Artikel 5 des Jagdgesetzes»; Jagdgesetz ist SR 922.0, daher externer Bezug, nicht Selbstreferenz."
+  },
+  {
+    "ITEM": 34,
+    "ARTICLE_EID": "art_3_bis",
+    "TARGET_SR": "SR 922.0",
+    "assigned_articles": ["Art. 5"],
+    "confidence": "high",
+    "reasoning": "Auch hier «Artikel 5 des Jagdgesetzes»; gleicher externer Bezug wie bei ITEM 33."
+  },
+  {
+    "ITEM": 35,
+    "ARTICLE_EID": "art_4_b",
+    "TARGET_SR": "SR 922.0",
+    "assigned_articles": ["Art. 7a"],
+    "confidence": "high",
+    "reasoning": "«nach Artikel 7a des Jagdgesetzes regulieren»; klarer externer Verweis auf SR 922.0."
+  },
+  {
+    "ITEM": 36,
+    "ARTICLE_EID": "art_4_b",
+    "TARGET_SR": "SR 921.01",
+    "assigned_articles": ["Art. 31"],
+    "confidence": "high",
+    "reasoning": "«Wildschäden nach Artikel 31 Waldverordnung vom 30. November 1992»; Waldverordnung ist SR 921.01."
+  },
+  {
+    "ITEM": 37,
+    "ARTICLE_EID": "art_4_b",
+    "TARGET_SR": "SR 922.01",
+    "assigned_articles": ["Art. 10b Abs. 2 Bst. a", "Art. 10b Abs. 2 Bst. b", "Art. 10b Abs. 2 Bst. c", "Art. 10b Abs. 2 Bst. d"],
+    "confidence": "high",
+    "reasoning": "«Massnahmen ... nach Artikel 10b Absatz 2 Buchstaben a–d» bezieht sich auf Artikel 10b derselben Verordnung; daher Selbstreferenz innerhalb SR 922.01."
+  },
+  {
+    "ITEM": 38,
+    "ARTICLE_EID": "art_4_b",
+    "TARGET_SR": "SR 922.01",
+    "assigned_articles": ["Art. 4c", "Art. 9c"],
+    "confidence": "high",
+    "reasoning": "«nach den Artikeln 4c sowie 9c erlegt»; dies sind andere Artikel derselben Verordnung, also interne Strukturverweise."
+  },
+  {
+    "ITEM": 39,
+    "ARTICLE_EID": "art_4_c",
+    "TARGET_SR": "SR 922.0",
+    "assigned_articles": ["Art. 12 Abs. 4bis"],
+    "confidence": "high",
+    "reasoning": "«Schaden nach Artikel 12 Absatz 4bis des Jagdgesetzes»; externer Verweis auf SR 922.0."
+  },
+  {
+    "ITEM": 40,
+    "ARTICLE_EID": "art_4_c",
+    "TARGET_SR": "SR 922.01",
+    "assigned_articles": ["Art. 4b Abs. 4"],
+    "confidence": "high",
+    "reasoning": "«Verhalten gemäss Artikel 4b Absatz 4»; dies ist ein interner Verweis auf einen Absatz derselben Verordnung."
+  },
+  {
+    "ITEM": 41,
+    "ARTICLE_EID": "art_4_c",
+    "TARGET_SR": "SR 922.01",
+    "assigned_articles": ["Art. 4 Abs. 2"],
+    "confidence": "high",
+    "reasoning": "«Angaben nach Artikel 4 Absatz 2»; ebenfalls interner Verweis auf einen anderen Artikel der Verordnung."
+  },
+  {
+    "ITEM": 42,
+    "ARTICLE_EID": "art_8",
+    "TARGET_SR": "SR 922.01",
+    "assigned_articles": ["Art. 13 Abs. 4"],
+    "confidence": "high",
+    "reasoning": "«(Art. 13 Abs. 4)» ohne Gesetzesangabe steht im Kontext der eigenen Verordnung; daher Selbstreferenz auf Art. 13 Abs. 4 derselben Verordnung."
+  },
+  {
+    "ITEM": 43,
+    "ARTICLE_EID": "art_8_b",
+    "TARGET_SR": "SR 170.512",
+    "assigned_articles": ["Art. 5 Abs. 1 Bst. c"],
+    "confidence": "high",
+    "reasoning": "«(Art. 5 Abs. 1 Bst. c des Publikationsgesetzes ...)»; externer Verweis auf SR 170.512, konsistent mit ITEM 7."
+  },
+  {
+    "ITEM": 44,
+    "ARTICLE_EID": "art_9_c",
+    "TARGET_SR": "SR 922.01",
+    "assigned_articles": ["Art. 4b Abs. 1"],
+    "confidence": "high",
+    "reasoning": "«in Abweichung von Artikel 4b Absatz 1»; interner Verweis auf denselben Erlass."
+  },
+  {
+    "ITEM": 45,
+    "ARTICLE_EID": "art_10",
+    "TARGET_SR": "SR 922.0",
+    "assigned_articles": ["Art. 13 Abs. 5"],
+    "confidence": "high",
+    "reasoning": "«nach Artikel 13 Absatz 5 des Jagdgesetzes»; externer Verweis auf SR 922.0, konsistent mit ITEM 25."
+  },
+  {
+    "ITEM": 46,
+    "ARTICLE_EID": "art_10",
+    "TARGET_SR": "SR 916.40",
+    "assigned_articles": ["Art. 45b"],
+    "confidence": "high",
+    "reasoning": "«Tierverkehrsdatenbank gemäss Artikel 45b des Tierseuchengesetzes ... (TSG)»; externer Verweis auf SR 916.40, konsistent mit ITEM 8."
+  },
+  {
+    "ITEM": 47,
+    "ARTICLE_EID": "art_10_a",
+    "TARGET_SR": "SR 922.01",
+    "assigned_articles": ["Art. 10 Abs. 1"],
+    "confidence": "high",
+    "reasoning": "«Tierarten nach Artikel 10 Absatz 1»; interner Verweis auf Artikel 10 derselben Verordnung."
+  },
+  {
+    "ITEM": 48,
+    "ARTICLE_EID": "art_10_a",
+    "TARGET_SR": "SR 922.01",
+    "assigned_articles": ["Art. 4bis", "Art. 9bis"],
+    "confidence": "high",
+    "reasoning": "«soweit nicht bereits durch die Artikel 4bis und 9bis geregelt»; dies sind interne Artikel der Verordnung."
+  },
+  {
+    "ITEM": 49,
+    "ARTICLE_EID": "art_10_b",
+    "TARGET_SR": "SR 910.13",
+    "assigned_articles": ["Art. 47b Abs. 4"],
+    "confidence": "high",
+    "reasoning": "«gemäss Artikel 47b Absatz 4 der Direktzahlungsverordnung ... (DZV)»; externer Verweis auf SR 910.13, konsistent mit ITEM 9 und 12."
+  },
+  {
+    "ITEM": 50,
+    "ARTICLE_EID": "art_10_d",
+    "TARGET_SR": "SR 455.1",
+    "assigned_articles": ["Art. 73 Abs. 1"],
+    "confidence": "high",
+    "reasoning": "«(Art. 73 Abs. 1 TSchV)»; externer Verweis auf die Tierschutzverordnung SR 455.1, konsistent mit ITEM 11."
+  },
+  {
+    "ITEM": 51,
+    "ARTICLE_EID": "art_10_d",
+    "TARGET_SR": "SR 455.1",
+    "assigned_articles": ["Art. 79"],
+    "confidence": "high",
+    "reasoning": "«(Art. 79 TSchV)»; ebenfalls externer Verweis auf SR 455.1."
+  },
+  {
+    "ITEM": 52,
+    "ARTICLE_EID": "art_10_e",
+    "TARGET_SR": "SR 922.01",
+    "assigned_articles": ["Art. 10b Abs. 2", "Art. 10b Abs. 3"],
+    "confidence": "high",
+    "reasoning": "«Massnahmen ... gemäss Artikel 10b fachgerecht umsetzen»; im Kontext der Verordnung ist klar, dass Art. 10b Abs. 2 und 3 derselben Verordnung gemeint sind."
+  },
+  {
+    "ITEM": 53,
+    "ARTICLE_EID": "art_10_f",
+    "TARGET_SR": "SR 922.01",
+    "assigned_articles": ["Art. 10b Abs. 2", "Art. 10b Abs. 3"],
+    "confidence": "high",
+    "reasoning": "«Massnahmen ... gemäss Artikel 10b Absätze 2 und 3»; interner Verweis auf die eigenen Bestimmungen."
+  },
+  {
+    "ITEM": 54,
+    "ARTICLE_EID": "art_10_f",
+    "TARGET_SR": "SR 922.01",
+    "assigned_articles": ["Art. 10d Abs. 2"],
+    "confidence": "high",
+    "reasoning": "«Herdenschutzhunden gemäss Artikel 10d Absatz 2»; interner Verweis auf Art. 10d derselben Verordnung."
+  },
+  {
+    "ITEM": 55,
+    "ARTICLE_EID": "art_10_g",
+    "TARGET_SR": "SR 922.01",
+    "assigned_articles": ["Art. 10h Abs. 1 Bst. a", "Art. 10h Abs. 1 Bst. b", "Art. 10h Abs. 1 Bst. d", "Art. 10h Abs. 1 Bst. g"],
+    "confidence": "high",
+    "reasoning": "«Schutzmassnahmen nach Artikel 10h Absatz 1 Buchstaben a, b, d und g»; alle genannten Buchstaben beziehen sich auf denselben internen Artikel."
+  },
+  {
+    "ITEM": 56,
+    "ARTICLE_EID": "art_10_i",
+    "TARGET_SR": "SR 910.1",
+    "assigned_articles": ["Art. 165c"],
+    "confidence": "high",
+    "reasoning": "«nach Artikel 165c des Landwirtschaftsgesetzes»; externer Verweis auf SR 910.1, konsistent mit ITEM 13."
+  },
+  {
+    "ITEM": 57,
+    "ARTICLE_EID": "art_12",
+    "TARGET_SR": "SR 922.0",
+    "assigned_articles": ["Art. 11 Abs. 1", "Art. 11 Abs. 2"],
+    "confidence": "high",
+    "reasoning": "«Schutzgebieten nach Artikel 11 Absätze 1 und 2 des Jagdgesetzes»; externer Verweis auf SR 922.0."
+  },
+  {
+    "ITEM": 58,
+    "ARTICLE_EID": "art_12",
+    "TARGET_SR": "SR 922.0",
+    "assigned_articles": ["Art. 11 Abs. 1", "Art. 11 Abs. 2", "Art. 11a"],
+    "confidence": "high",
+    "reasoning": "«Schutzgebieten nach Artikel 11 Absätze 1 und 2 des Jagdgesetzes sowie Wildtierkorridoren nach Artikel 11a des Jagdgesetzes»; alle genannten Artikel gehören zu SR 922.0."
+  },
+  {
+    "ITEM": 59,
+    "ARTICLE_EID": "art_15_a",
+    "TARGET_SR": "SR 172.010",
+    "assigned_articles": ["Art. 62a", "Art. 62b"],
+    "confidence": "high",
+    "reasoning": "«gelten die Artikel 62a und 62b des Regierungs- und Verwaltungsorganisationsgesetzes»; externer Verweis auf SR 172.010, konsistent mit ITEM 15."
+  },
+  {
+    "ITEM": 60,
+    "ARTICLE_EID": "art_18",
+    "TARGET_SR": "SR 922.01",
+    "assigned_articles": ["Art. 10 Abs. 1", "Art. 10 Abs. 3", "Art. 11 Abs. 1"],
+    "confidence": "high",
+    "reasoning": "«Verfügungen nach den Artikeln 10 Absätze 1 und 3 sowie 11 Absatz 1»; dies sind interne Artikel der vorliegenden Verordnung."
+  }
+]

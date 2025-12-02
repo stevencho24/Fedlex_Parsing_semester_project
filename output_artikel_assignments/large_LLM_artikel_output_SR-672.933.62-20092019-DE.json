@@ -1,0 +1,43 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 101",
+    "assigned_articles": [
+      "Art. 54 Abs. 1",
+      "Art. 166 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Formulierung «gestützt auf die Artikel 54 Absatz 1 und 166 Absatz 2 der Bundesverfassung SR 101» verknüpft beide Artikel syntaktisch eindeutig mit der Bundesverfassung (SR 101)."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 0.672.933.61",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Satz nennt nur das Protokoll und das Abkommen mit Angabe der SR-Nummer, ohne konkrete Artikel oder Absätze zu zitieren; es handelt sich um eine Genehmigungsnorm für das gesamte Abkommen/Protokoll."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 0.672.933.61",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "Inhaltlich identische Genehmigungsformel wie bei ITEM 2, wiederum ohne Nennung einzelner Artikel; die SR-Nummer bezeichnet das Abkommen insgesamt."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": "SR 672.933.62",
+    "assigned_articles": [
+      "Art. 141 Abs. 1 Bst. d Ziff. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "«nach Artikel 141 Absatz 1 Buchstabe d Ziffer 3 der Bundesverfassung» ist eine explizite Verweisung auf die Bundesverfassung (SR 101). Da artikel_reference-Items als Selbstverweise des aktuellen Erlasses auszugeben sind, wird hier der interne Artikel des vorliegenden Erlasses (Art. 4 SR 672.933.62) als Träger der Verweisung erfasst; der genannte Artikel der BV wird im Wortlaut übernommen."
+  }
+]

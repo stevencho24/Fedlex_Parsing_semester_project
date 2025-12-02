@@ -1,0 +1,219 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 101",
+    "assigned_articles": [
+      "Art. 34septies Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Formulierung \"gestützt auf Artikel 34septies Absatz 2 der Bundesverfassung SR 101\" verknüpft den genannten Artikel direkt und eindeutig mit SR 101."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": "SR 220",
+    "assigned_articles": "General reference - entire document",
+    "confidence": "medium",
+    "reasoning": "Im Satz \"Der Rahmenmietvertrag darf jedoch von folgenden Bestimmungen des Obligationenrechtes SR 220 nicht abweichen:\" werden zwar Bestimmungen angekündigt, aber im gegebenen Snippet keine konkreten Artikelnummern des OR genannt; die nachfolgenden artikel_reference-Items beziehen sich auf das aktuelle Dokument, nicht explizit auf SR 220."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_12",
+    "TARGET_SR": "SR 172.010",
+    "assigned_articles": [
+      "Art. 7a"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Text lautet: \"Für das Verfahren gilt Artikel 7a des Verwaltungsorganisationsgesetzes SR 172.010.\" Damit ist klar, dass Art. 7a dieses Gesetzes (SR 172.010) gemeint ist."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_13",
+    "TARGET_SR": "SR 281.1",
+    "assigned_articles": [
+      "Art. 80"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Snippet: \"... Urteilen im Sinne von Artikel 80 des Bundesgesetzes über Schuldbetreibung und Konkurs SR 281.1\" wird Art. 80 ausdrücklich diesem Gesetz (SR 281.1) zugeordnet."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_17",
+    "TARGET_SR": "SR 173.110",
+    "assigned_articles": "General reference - entire document",
+    "confidence": "high",
+    "reasoning": "Formulierung \"Das Bundesrechtspflegegesetz SR 173.110 wird wie folgt geändert:\" ist eine generelle Änderungsklausel ohne Bezug auf bestimmte Artikel; sie betrifft das Gesetz als Ganzes."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 266l–266o"
+    ],
+    "confidence": "high",
+    "reasoning": "artikel_reference ohne expliziten SR-Bezug; \"Artikel 266l–266o (Form der Kündigung)\" sind interne Verweisungen innerhalb des zitierten Obligationenrechts-Kontexts, aber im aktuellen Dokument als Selbstreferenz behandelt."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 269",
+      "Art. 269d"
+    ],
+    "confidence": "high",
+    "reasoning": "Selbstreferenz im Kontext; \"Artikel 269 und 269d\" werden ohne erneute Nennung eines SR-Dokuments aufgeführt und gelten daher als interne Artikelverweise."
+  },
+  {
+    "ITEM": 8,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 270e"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Verweis \"Artikel 270e\" steht isoliert ohne SR-Nennung und ist damit eine interne Artikelreferenz im Sinne der Projektlogik."
+  },
+  {
+    "ITEM": 9,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 271",
+      "Art. 273 Abs. 1",
+      "Art. 273 Abs. 4",
+      "Art. 273 Abs. 5",
+      "Art. 273a Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Struktur \"Artikel 271, 273 Absätze 1, 4 und 5 und Artikel 273a Absatz 1\" nennt mehrere Artikel und Absätze; mangels explizitem SR-Bezug werden sie als Selbstreferenzen behandelt."
+  },
+  {
+    "ITEM": 10,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 274–274g"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Bereichsverweis \"Artikel 274–274g\" ist ein interner Artikelbereich ohne Nennung eines SR-Dokuments und daher Selbstreferenz."
+  },
+  {
+    "ITEM": 11,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 270",
+      "Art. 269d",
+      "Art. 270 Abs. 2"
+    ],
+    "confidence": "medium",
+    "reasoning": "Im Satz werden \"Artikel 270 des Obligationenrechts\" und \"Formulars nach Artikel 269d\" sowie in Klammern \"(Art. 270 Abs. 2)\" erwähnt. Da kein expliziter SR-Link im Snippet steht, werden diese als interne Verweise im aktuellen Dokumentskontext gewertet."
+  },
+  {
+    "ITEM": 12,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 270a",
+      "Art. 270b"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Kurzverweise \"(Art. 270a)\" und \"(Art. 270b)\" stehen ohne SR-Nennung und sind damit Selbstreferenzen im Sinne der Parsing-Regeln."
+  },
+  {
+    "ITEM": 13,
+    "ARTICLE_EID": "art_6",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "\"Artikel 3\" bezieht sich auf einen Artikel desselben Erlasses (Prüfung, ob der Rahmenmietvertrag den Erfordernissen nach Artikel 3 genügt); kein externer SR-Bezug im Satz."
+  },
+  {
+    "ITEM": 14,
+    "ARTICLE_EID": "art_6",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 10"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Klammerverweis \"(Art. 10)\" ist eine typische interne Verweisung auf einen anderen Artikel desselben Erlasses; kein SR-Dokument genannt."
+  },
+  {
+    "ITEM": 15,
+    "ARTICLE_EID": "art_8",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 3",
+      "Art. 6"
+    ],
+    "confidence": "high",
+    "reasoning": "Formulierung \"Voraussetzungen nach den Artikeln 3 und 6\" verweist auf andere Artikel des gleichen Erlasses; kein externer SR-Bezug."
+  },
+  {
+    "ITEM": 16,
+    "ARTICLE_EID": "art_11",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 9"
+    ],
+    "confidence": "high",
+    "reasoning": "\"in den Presseorganen nach Artikel 9\" ist eine interne Verweisung auf Art. 9 desselben Erlasses; kein SR-Link im Satz."
+  },
+  {
+    "ITEM": 17,
+    "ARTICLE_EID": "art_11",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 9"
+    ],
+    "confidence": "high",
+    "reasoning": "Auch hier \"in den Presseorganen nach Artikel 9\"; identische interne Verweisung wie in ITEM 16."
+  },
+  {
+    "ITEM": 18,
+    "ARTICLE_EID": "art_12",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 7a"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Satz lautet hier ohne SR: \"Für das Verfahren gilt Artikel 7a des Verwaltungsorganisationsgesetzes.\" Da der explizite SR-Link in ITEM 3 behandelt wurde, ist dies im Rahmen von artikel_reference als Verweis auf denselben Artikel, aber ohne erneute SR-Zuordnung zu werten."
+  },
+  {
+    "ITEM": 19,
+    "ARTICLE_EID": "art_13",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 80"
+    ],
+    "confidence": "high",
+    "reasoning": "Analog zu ITEM 4, jedoch ohne expliziten SR-Link im Snippet; als artikel_reference wird \"Artikel 80\" hier als bereits extern zugeordnet betrachtet und intern referenziert."
+  },
+  {
+    "ITEM": 20,
+    "ARTICLE_EID": "art_14",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 11 Abs. 2",
+      "Art. 11 Abs. 3",
+      "Art. 11 Abs. 4"
+    ],
+    "confidence": "high",
+    "reasoning": "\"Artikel 11 Absätze 2, 3 und 4\" ist eine klare interne Verweisung auf verschiedene Absätze desselben Artikels im aktuellen Erlass."
+  },
+  {
+    "ITEM": 21,
+    "ARTICLE_EID": "art_15",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 6–14"
+    ],
+    "confidence": "high",
+    "reasoning": "\"Die Artikel 6–14 gelten sinngemäss\" ist ein interner Bereichsverweis auf mehrere Artikel desselben Erlasses; kein externer SR-Bezug vorhanden."
+  }
+]

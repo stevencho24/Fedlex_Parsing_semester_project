@@ -1,0 +1,42 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 101",
+    "assigned_articles": [
+      "Art. 84"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Präambel nennt ausdrücklich «gestützt auf Artikel 84 der Bundesverfassung SR 101»; Art. 84 ist damit klar dem SR‑101‑Verweis zugeordnet."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 0.740.72",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "Das Abkommen «SR 0.740.72» wird nur als Ganzes («in Ausführung des Abkommens vom 21. Juni 1999 SR 0.740.72 …») erwähnt; es wird kein bestimmter Artikel dieses Abkommens genannt."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": "SR 725.14",
+    "assigned_articles": [
+      "Art. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Snippet steht «(Art. 2 des BG vom 17. Juni 1994 SR 725.14 …)»; der Artikel 2 wird direkt mit dem Gesetz SR 725.14 verknüpft."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "Artikelreferenz ohne explizite SR‑Nennung; «Art. 2 des BG vom 17. Juni 1994 …» ist hier als reine Artikelreferenz erfasst, während die Zuordnung zu SR 725.14 bereits in ITEM 3 mit SR_link_detection erfolgt. Daher handelt es sich aus Sicht dieses Item-Typs um eine interne/selbständige Referenz, nicht um eine neue SR‑Zuordnung."
+  }
+]

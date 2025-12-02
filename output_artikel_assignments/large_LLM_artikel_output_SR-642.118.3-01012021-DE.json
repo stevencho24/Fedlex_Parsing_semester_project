@@ -1,0 +1,76 @@
+[
+  {
+    "Item": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 642.11",
+    "assigned_articles": [
+      "Art. 26"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet explicitly says: 'gestützt auf Artikel 26 des Bundesgesetzes ... SR 642.11 über die direkte Bundessteuer (DBG)'; Art. 26 is grammatically and semantically linked to SR 642.11."
+  },
+  {
+    "Item": 2,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 642.118",
+    "assigned_articles": [
+      "Art. 1 lit. a"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet states: '... sowie Artikel 1 Buchstabe a der Verordnung vom 18. Dezember 1991 SR 642.118 über Kompetenzzuweisungen ...'; Article 1 letter a is directly attributed to SR 642.118."
+  },
+  {
+    "Item": 3,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 642.118.1",
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "The snippet refers to 'die Berufskostenverordnung vom 10. Februar 1993 SR 642.118.1' as a whole without mentioning any specific article; this is a general reference to the document, so no particular articles can be assigned."
+  },
+  {
+    "Item": 4,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": "SR 642.118",
+    "assigned_articles": [
+      "Art. 89",
+      "Art. 89a",
+      "Art. 99a"
+    ],
+    "confidence": "high",
+    "reasoning": "Item type is preamble_acronym with TARGET_SR = SR 642.118 (DBG). The snippet text contains '(Art. 89, 89a und 99a DBG)'; by direct marking with the acronym DBG (mapped in the preamble to SR 642.118), these articles clearly belong to SR 642.118."
+  },
+  {
+    "Item": 5,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 26 Abs. 1 lit. c"
+    ],
+    "confidence": "high",
+    "reasoning": "artikel_reference item without TARGET_SR; it captures a self-reference within the current document context. The snippet states 'im Sinne von Artikel 26 Absatz 1 Buchstabe c DBG.' This is an internal cross-reference to Art. 26 Abs. 1 lit. c of the cited DBG, but per rules for artikel_reference, this item represents the SR link itself as a self-reference, so the article mentioned is extracted as such."
+  },
+  {
+    "Item": 6,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 2 Abs. 1 lit. b",
+      "Art. 2 Abs. 2 lit. b",
+      "Art. 2 Abs. 1",
+      "Art. 2 Abs. 2 lit. a",
+      "Art. 2 Abs. 2 lit. b"
+    ],
+    "confidence": "medium",
+    "reasoning": "This artikel_reference snippet refers only to provisions 'Artikel 2 Absatz 1 Buchstabe b oder Absatz 2 Buchstabe b' and 'Artikel 2 Absatz 1 oder Absatz 2 Buchstaben a und b' without any SR mentioned, so it is a self-reference within the same ordinance (SR 642.118.3). All explicitly mentioned internal articles and paragraphs are extracted."
+  },
+  {
+    "Item": 7,
+    "ARTICLE_EID": "art_4_a",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 1 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet reads: '... Expatriates nach Artikel 1 Absatz 1 in der Fassung vom 3. Oktober 2000 ...'; no external SR is cited, so this is a self-reference within the same document to Art. 1 Abs. 1, which is therefore extracted."
+  }
+]

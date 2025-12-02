@@ -1,0 +1,74 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": "SR 981.1",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Formulierung 'die Bestimmungen ... der Vollziehungsverordnung SR 981.1 gelten sinngemäss' verweist pauschal auf die gesamte Verordnung, ohne einzelne Artikel zu nennen."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_9",
+    "TARGET_SR": "SR 172.021",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Hinweis 'in Abweichung vom Verwaltungsverfahrensgesetz ... SR 172.021' nennt keinen bestimmten Artikel; es handelt sich um einen generellen Verweis auf das Verwaltungsverfahrensgesetz."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_12",
+    "TARGET_SR": "SR 983.1",
+    "assigned_articles": [
+      "Art. 7",
+      "Art. 8"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Text nennt ausdrücklich 'die Artikel 7 und 8 des Bundesbeschlusses ... SR 983.1'; diese Artikel sind klar dem zitierten Erlass zugeordnet."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_13",
+    "TARGET_SR": "SR 983.1",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Aufgabenübertragung wird 'nach dem Bundesbeschluss ... SR 983.1' beschrieben, ohne konkrete Artikelangabe; dies ist ein globaler Verweis auf den Bundesbeschluss."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 5 Abs. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Klammer '(Art. 5 Abs. 3)' steht ohne Nennung eines anderen Erlasses und bezieht sich damit auf einen Artikel desselben Gesetzes (Selbstverweis)."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Formulierung 'nach Artikel 2' enthält keinen Hinweis auf ein anderes SR-Dokument und verweist daher auf Artikel 2 desselben Gesetzes (interner Verweis)."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_12",
+    "TARGET_SR": "SR 983.1",
+    "assigned_articles": [
+      "Art. 7",
+      "Art. 8"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Text nennt 'die Artikel 7 und 8 des Bundesbeschlusses vom 13. Juni 1957 ...', was in Verbindung mit ITEM 3 eindeutig den Bundesbeschluss SR 983.1 betrifft; es handelt sich um denselben externen Verweis auf Art. 7 und 8 dieses Erlasses."
+  }
+]

@@ -1,0 +1,153 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 151.34",
+    "assigned_articles": [
+      "Art. 8"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Formulierung «gestützt auf Artikel 8 der Verordnung ... SR 151.34» weist eindeutig darauf hin, dass Art. 8 der Verordnung SR 151.34 die Rechtsgrundlage bildet."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 742.101",
+    "assigned_articles": [
+      "7a. Abschnitt"
+    ],
+    "confidence": "medium",
+    "reasoning": "Es wird ausdrücklich auf «die Bestimmungen des 7a. Abschnitts des Eisenbahngesetzes ... SR 742.101 (EBG)» verwiesen. Ein konkreter Artikel wird nicht genannt, sondern der ganze Abschnitt; daher Abschnittsangabe statt einzelner Artikel."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 742.141.1",
+    "assigned_articles": [
+      "1a. Kapitel",
+      "Anhang 7"
+    ],
+    "confidence": "medium",
+    "reasoning": "Der Satz nennt «des 1a. Kapitels und des Anhangs 7 der Eisenbahnverordnung ... SR 742.141.1 (EBV)». Es werden keine Einzelartikel, sondern ein Kapitel und ein Anhang als massgebend bezeichnet."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 151.3",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "medium",
+    "reasoning": "Es heisst, die Bestimmungen dieser Verordnung seien anwendbar, soweit sie nicht den Bestimmungen des Behindertengleichstellungsgesetzes SR 151.3 über die Verhältnismässigkeit widersprechen. Kein bestimmter Artikel wird genannt; es geht um das Verhältnismässigkeitsprinzip im Gesetz insgesamt."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": "SR 742.141.1",
+    "assigned_articles": [
+      "Art. 15a Abs. 1 Bst. a"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Text lautet «interoperablen Strecken nach Artikel 15a Absatz 1 Buchstabe a EBV SR 742.141.1». Die Artikelangabe ist direkt mit der Abkürzung EBV verknüpft, die sich auf SR 742.141.1 bezieht."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": "SR 742.141.11",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "medium",
+    "reasoning": "«Ausführungsbestimmungen ... SR 742.141.11 zur Eisenbahnverordnung» nennt keine konkreten Artikel, sondern verweist pauschal auf die Ausführungsbestimmungen als Ganzes."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": "SR 747.201.7",
+    "assigned_articles": [
+      "Art. 6 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Formulierung «Artikel 6 Absatz 2 der Schiffbauverordnung ... SR 747.201.7» verknüpft eindeutig Art. 6 Abs. 2 mit der genannten SR-Nummer."
+  },
+  {
+    "ITEM": 8,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": "SR 741.21",
+    "assigned_articles": [
+      "Art. 65 Abs. 5"
+    ],
+    "confidence": "high",
+    "reasoning": "Es heisst «Parkfelder nach Artikel 65 Absatz 5 der Signalisationsverordnung ... SR 741.21». Artikel und Absatz sind klar der Signalisationsverordnung zugeordnet."
+  },
+  {
+    "ITEM": 9,
+    "ARTICLE_EID": "art_20",
+    "TARGET_SR": "SR 151.34",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "low",
+    "reasoning": "«... und schlägt dem UVEK entsprechende Massnahmen vor.» UVEK ist als Akteur (Departement) gemeint, nicht als Verordnung SR 151.34. Die SR-Verknüpfung stammt nur aus der Preamble-Akronym-Tabelle; im Satz selbst gibt es keinen Normverweis. Daher keine konkrete Artikelzuordnung und nur eine formale, sehr unsichere Dokumentreferenz."
+  },
+  {
+    "ITEM": 10,
+    "ARTICLE_EID": "art_21",
+    "TARGET_SR": "SR 151.34",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "low",
+    "reasoning": "«Die Verordnung des UVEK ... wird aufgehoben.» Auch hier bezeichnet UVEK das Departement, nicht die Verordnung SR 151.34. Es fehlt jede syntaktische Kopplung zwischen einem Artikel und der SR; daher nur eine formale, sehr unsichere Dokumentreferenz ohne Artikelangabe."
+  },
+  {
+    "ITEM": 11,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Zeile «Artikel 6 Absatz 2 der Schiffbauverordnung ...» ist bereits in ITEM 7 mit SR 747.201.7 verknüpft. Als artikel_reference ohne SR dient sie hier nur der internen Erfassung; der externe Bezug ist schon abgedeckt."
+  },
+  {
+    "ITEM": 12,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«... Parkfelder nach Artikel 65 Absatz 5 der Signalisationsverordnung ...» ist in ITEM 8 bereits mit SR 741.21 verknüpft. Diese artikel_reference erfasst denselben Satz ohne SR-Angabe und stellt daher nur eine interne Referenz dar."
+  },
+  {
+    "ITEM": 13,
+    "ARTICLE_EID": "art_14",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«Für die Türdrücker ... gilt Artikel 9 Absatz 4 (3.9.1.2).» Es wird kein externes Gesetz oder eine SR-Nummer genannt; dies ist eine Verweisung auf einen anderen Artikel innerhalb derselben Verordnung."
+  },
+  {
+    "ITEM": 14,
+    "ARTICLE_EID": "art_14",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«Für die Piktogramme ... gilt Artikel 5 Absatz 2 ...» ohne Nennung einer SR-Nummer. Die Struktur und der Kontext sprechen für eine interne Verweisung innerhalb des gleichen Erlasses."
+  },
+  {
+    "ITEM": 15,
+    "ARTICLE_EID": "art_19",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«Im Seilbahnverkehr gilt Artikel 5 für die Notrufsysteme.» Es wird kein externes Gesetz erwähnt; dies ist eine reine Selbstverweisung auf Art. 5 derselben Verordnung."
+  }
+]

@@ -1,0 +1,993 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 941.31",
+    "assigned_articles": [
+      "Art. 59"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet explicitly cites 'Artikel 59 des Bundesgesetzes ... SR 941.31'; direct syntactic link between article number and this SR."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 172.220.1",
+    "assigned_articles": "General reference - entire document",
+    "confidence": "high",
+    "reasoning": "The only explicit article number is 'Artikel 4 der Beamtenordnung I'; the SR 172.220.1 (Bundespersonalgesetz) is mentioned as 'Siehe heute' without any specific article; thus it is a general reference to the whole act."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": "SR 172.220.1",
+    "assigned_articles": "General reference - entire document",
+    "confidence": "high",
+    "reasoning": "Same structure as ITEM 2: explicit article number belongs to the old Beamtenordnung I; SR 172.220.1 is only referenced generically as the current law, without article specification."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_22",
+    "TARGET_SR": "SR 172.010.1",
+    "assigned_articles": [
+      "Art. 8g Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "Authorial note: 'Heute: Amtsdauer von vier Jahren (Art. 8g Abs. 1 der ... Verordnung ... (SR 172.010.1)'; clear direct marking of article and paragraph for this SR."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_29_b",
+    "TARGET_SR": "SR 955.0",
+    "assigned_articles": "General reference - entire document",
+    "confidence": "medium",
+    "reasoning": "The snippet refers to 'Pflichten nach dem Geldwäschereigesetz ... SR 955.0 (GwG)' without specifying articles; obligations are broad and no article numbers are syntactically linked to the SR."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_34_a",
+    "TARGET_SR": "SR 955.0",
+    "assigned_articles": [
+      "Art. 12 Bst. bter"
+    ],
+    "confidence": "high",
+    "reasoning": "Text: 'im Rahmen der Aufsicht nach Artikel 12 Buchstabe bter GwG SR 955.0'; article and letter are directly followed by the GwG acronym and SR, so Art. 12 Bst. bter clearly belongs to SR 955.0."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_34_b",
+    "TARGET_SR": "SR 955.0",
+    "assigned_articles": [
+      "Art. 3",
+      "Art. 4",
+      "Art. 5",
+      "Art. 6",
+      "Art. 7",
+      "Art. 8"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet: 'Sorgfaltspflichten nach den Artikeln 3–8 GwG SR 955.0'; the range 3–8 is explicitly tied to GwG, which is SR 955.0; expanded as individual articles."
+  },
+  {
+    "ITEM": 8,
+    "ARTICLE_EID": "art_34_e",
+    "TARGET_SR": "SR 235.1",
+    "assigned_articles": "General reference - entire document",
+    "confidence": "medium",
+    "reasoning": "Refers to 'das Bundesgesetz ... SR 235.1 über den Datenschutz' as the governing law for data subject rights, without any article numbers; broad applicability suggests a general reference."
+  },
+  {
+    "ITEM": 9,
+    "ARTICLE_EID": "art_34_g",
+    "TARGET_SR": "SR 235.11",
+    "assigned_articles": [
+      "Art. 1",
+      "Art. 2",
+      "Art. 3",
+      "Art. 4",
+      "Art. 6"
+    ],
+    "confidence": "high",
+    "reasoning": "Text: 'gelten die Artikel 1–4 und 6 der Datenschutzverordnung ... SR 235.11'; explicit range and additional article are syntactically linked to this SR."
+  },
+  {
+    "ITEM": 10,
+    "ARTICLE_EID": "art_34_g",
+    "TARGET_SR": "SR 128.1",
+    "assigned_articles": "General reference - entire document",
+    "confidence": "medium",
+    "reasoning": "The sentence mentions 'die Informationssicherheitsverordnung ... SR 128.1' without any article numbers; it is cited as a whole for information security requirements."
+  },
+  {
+    "ITEM": 11,
+    "ARTICLE_EID": "art_34_i",
+    "TARGET_SR": "SR 152.1",
+    "assigned_articles": "General reference - entire document",
+    "confidence": "medium",
+    "reasoning": "The Archivierungsgesetz SR 152.1 is referenced as the general legal framework for archiving; no specific article is mentioned."
+  },
+  {
+    "ITEM": 12,
+    "ARTICLE_EID": "art_126",
+    "TARGET_SR": "SR 0.941.31",
+    "assigned_articles": "General reference - entire document",
+    "confidence": "high",
+    "reasoning": "International convention 'Übereinkommen ... SR 0.941.31' is cited by title only; no internal article numbers are referenced."
+  },
+  {
+    "ITEM": 13,
+    "ARTICLE_EID": "art_126",
+    "TARGET_SR": "SR 0.941.316.3",
+    "assigned_articles": "General reference - entire document",
+    "confidence": "high",
+    "reasoning": "Bilateral agreement 'Abkommen ... SR 0.941.316.3' is cited as a whole; no specific articles indicated."
+  },
+  {
+    "ITEM": 14,
+    "ARTICLE_EID": "art_126",
+    "TARGET_SR": "SR 0.941.333.2",
+    "assigned_articles": "General reference - entire document",
+    "confidence": "high",
+    "reasoning": "Briefwechsel 'SR 0.941.333.2' is referenced generically; no article-level citation present."
+  },
+  {
+    "ITEM": 15,
+    "ARTICLE_EID": "art_126",
+    "TARGET_SR": "SR 0.941.334.91",
+    "assigned_articles": "General reference - entire document",
+    "confidence": "high",
+    "reasoning": "Abkommen 'SR 0.941.334.91' is cited by title; no internal article numbers are mentioned."
+  },
+  {
+    "ITEM": 16,
+    "ARTICLE_EID": "art_126",
+    "TARGET_SR": "SR 0.941.345.4",
+    "assigned_articles": "General reference - entire document",
+    "confidence": "high",
+    "reasoning": "Abkommen 'SR 0.941.345.4' is referenced as a whole; no specific provisions cited."
+  },
+  {
+    "ITEM": 17,
+    "ARTICLE_EID": "art_126",
+    "TARGET_SR": "SR 0.941.366.5",
+    "assigned_articles": "General reference - entire document",
+    "confidence": "high",
+    "reasoning": "Abkommen 'SR 0.941.366.5' is cited without article numbers; treated as a general reference."
+  },
+  {
+    "ITEM": 18,
+    "ARTICLE_EID": "art_126",
+    "TARGET_SR": "SR 0.941.347.0",
+    "assigned_articles": "General reference - entire document",
+    "confidence": "high",
+    "reasoning": "Abkommen 'SR 0.941.347.0' is referenced by title only; no article-level detail."
+  },
+  {
+    "ITEM": 19,
+    "ARTICLE_EID": "art_168_a",
+    "TARGET_SR": "SR 955.0",
+    "assigned_articles": "General reference - entire document",
+    "confidence": "medium",
+    "reasoning": "Sentence: 'Im Übrigen finden die Bestimmungen des Geldwäschereigesetzes ... SR 955.0 Anwendung.'; this is a blanket incorporation of the GwG without specifying particular articles."
+  },
+  {
+    "ITEM": 20,
+    "ARTICLE_EID": "art_168_c",
+    "TARGET_SR": "SR 220",
+    "assigned_articles": "General reference - entire document",
+    "confidence": "medium",
+    "reasoning": "Refers to 'Vorschriften des Obligationenrechts SR 220' on commercial bookkeeping; no specific article numbers are given in the snippet."
+  },
+  {
+    "ITEM": 21,
+    "ARTICLE_EID": "art_186",
+    "TARGET_SR": "SR 941.319",
+    "assigned_articles": "General reference - entire document",
+    "confidence": "medium",
+    "reasoning": "The newer Verordnung 'SR 941.319' is cited as the applicable fee regulation; no particular article is mentioned in relation to this SR."
+  },
+  {
+    "ITEM": 22,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 4"
+    ],
+    "confidence": "high",
+    "reasoning": "Self-reference within the same document: 'gemäss Artikel 4 der Beamtenordnung I ...'; no external SR is mentioned in this snippet, so it is an internal article reference."
+  },
+  {
+    "ITEM": 23,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 6"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet '(Art. 6)' clearly refers to Article 6 of the current ordinance; no SR context, thus internal self-reference."
+  },
+  {
+    "ITEM": 24,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 7"
+    ],
+    "confidence": "high",
+    "reasoning": "Parenthetical '(Art. 7)' is an internal cross-reference to Article 7 of the same document; no external SR indicated."
+  },
+  {
+    "ITEM": 25,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 9"
+    ],
+    "confidence": "high",
+    "reasoning": "Parenthetical '(Art. 9)' is an internal reference; no SR or acronym linking it to another act."
+  },
+  {
+    "ITEM": 26,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 4 Bst. a"
+    ],
+    "confidence": "high",
+    "reasoning": "Reference '(Art. 4 Bst. a)' is to a provision within the same ordinance; no external law is mentioned."
+  },
+  {
+    "ITEM": 27,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 4 Bst. n"
+    ],
+    "confidence": "high",
+    "reasoning": "Internal reference '(Art. 4 Bst. n)'; syntactically not tied to any SR."
+  },
+  {
+    "ITEM": 28,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 4"
+    ],
+    "confidence": "high",
+    "reasoning": "Again 'gemäss Artikel 4 der Beamtenordnung I'; within this ordinance’s context and without SR, treated as internal reference."
+  },
+  {
+    "ITEM": 29,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 18",
+      "Art. 19",
+      "Art. 33",
+      "Art. 34",
+      "Art. 19 Abs. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "All cited articles are in parentheses without any SR or external acronym; they refer to provisions of the same ordinance."
+  },
+  {
+    "ITEM": 30,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 69",
+      "Art. 70",
+      "Art. 71",
+      "Art. 72",
+      "Art. 73",
+      "Art. 74",
+      "Art. 75"
+    ],
+    "confidence": "high",
+    "reasoning": "Range 'Art. 69–75' with no SR context; internal cross-reference expanded to individual articles."
+  },
+  {
+    "ITEM": 31,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 81",
+      "Art. 82",
+      "Art. 83",
+      "Art. 84",
+      "Art. 85",
+      "Art. 86",
+      "Art. 87",
+      "Art. 88",
+      "Art. 89",
+      "Art. 90",
+      "Art. 91",
+      "Art. 92",
+      "Art. 93",
+      "Art. 94",
+      "Art. 95",
+      "Art. 96",
+      "Art. 97",
+      "Art. 98",
+      "Art. 99",
+      "Art. 100",
+      "Art. 101",
+      "Art. 102",
+      "Art. 103",
+      "Art. 104",
+      "Art. 105",
+      "Art. 106",
+      "Art. 107",
+      "Art. 108",
+      "Art. 109",
+      "Art. 110",
+      "Art. 111",
+      "Art. 112",
+      "Art. 113",
+      "Art. 114",
+      "Art. 115",
+      "Art. 116",
+      "Art. 117",
+      "Art. 118",
+      "Art. 119",
+      "Art. 120",
+      "Art. 121",
+      "Art. 122",
+      "Art. 123"
+    ],
+    "confidence": "medium",
+    "reasoning": "Range 'Art. 81–123' appears as internal reference; expanded to all articles in the range, assuming continuous numbering."
+  },
+  {
+    "ITEM": 32,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 22",
+      "Art. 25"
+    ],
+    "confidence": "high",
+    "reasoning": "Parenthetical '(Art. 22 und 25)' with no SR; internal cross-references."
+  },
+  {
+    "ITEM": 33,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 29",
+      "Art. 29a",
+      "Art. 29e",
+      "Art. 34",
+      "Art. 42bis"
+    ],
+    "confidence": "high",
+    "reasoning": "References '(Art. 29, 29a, 29e und 34)' and 'Artikel 42bis des Gesetzes'; 'des Gesetzes' here refers to the underlying Edelmetallgesetz that this ordinance executes, but no SR is given in the snippet, so treated as internal/self-reference context."
+  },
+  {
+    "ITEM": 34,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 165",
+      "Art. 166a",
+      "Art. 166b"
+    ],
+    "confidence": "high",
+    "reasoning": "Parenthetical '(Art. 165, 166a und 166b)' without SR; internal references."
+  },
+  {
+    "ITEM": 35,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 173",
+      "Art. 174",
+      "Art. 175",
+      "Art. 176",
+      "Art. 177",
+      "Art. 178"
+    ],
+    "confidence": "high",
+    "reasoning": "Range 'Art. 173–178' is internal; expanded to individual articles."
+  },
+  {
+    "ITEM": 36,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 113",
+      "Art. 114"
+    ],
+    "confidence": "high",
+    "reasoning": "Parenthetical '(Art. 113 und 114)' with no SR; internal cross-reference."
+  },
+  {
+    "ITEM": 37,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 15 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Reference '(Art. 15 Abs. 2)' is clearly internal; no external law mentioned."
+  },
+  {
+    "ITEM": 38,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 172a",
+      "Art. 172c"
+    ],
+    "confidence": "high",
+    "reasoning": "Parenthetical '(Art. 172a und 172c)' is an internal reference within the same ordinance."
+  },
+  {
+    "ITEM": 39,
+    "ARTICLE_EID": "art_14",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 13–17 des Gesetzes",
+      "Art. 32 des Gesetzes"
+    ],
+    "confidence": "medium",
+    "reasoning": "References 'Art. 13–17 des Gesetzes' and 'Art. 32 des Gesetzes'; 'des Gesetzes' refers to the underlying Edelmetallgesetz, but no SR is given here; treated as internal/self-reference to the base act in this context."
+  },
+  {
+    "ITEM": 40,
+    "ARTICLE_EID": "art_17",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 113",
+      "Art. 114"
+    ],
+    "confidence": "high",
+    "reasoning": "Parenthetical '(Art. 113 und 114)' with no SR; internal reference."
+  },
+  {
+    "ITEM": 41,
+    "ARTICLE_EID": "art_17",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 30"
+    ],
+    "confidence": "high",
+    "reasoning": "Phrase 'macht Artikel 30 Regel' is an internal cross-reference to Article 30 of the same ordinance."
+  },
+  {
+    "ITEM": 42,
+    "ARTICLE_EID": "art_28",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 165",
+      "Art. 165a",
+      "Art. 165b",
+      "Art. 165c"
+    ],
+    "confidence": "medium",
+    "reasoning": "Range 'Artikel 165–165c' is internal; expanded to 165, 165a, 165b, 165c assuming standard lettering."
+  },
+  {
+    "ITEM": 43,
+    "ARTICLE_EID": "art_29_b",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 3–8 GwG"
+    ],
+    "confidence": "high",
+    "reasoning": "Here 'Artikeln 3–8 GwG' refers to the external Geldwäschereigesetz, but no SR is present in this snippet; per rules, without explicit SR link in the same syntactic unit, treat as self-reference context for this document’s use of those provisions."
+  },
+  {
+    "ITEM": 44,
+    "ARTICLE_EID": "art_29_c",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 29 Abs. 3",
+      "Art. 29 Abs. 4"
+    ],
+    "confidence": "high",
+    "reasoning": "Internal reference 'Artikel 29 Absätze 3 und 4'; no SR mentioned."
+  },
+  {
+    "ITEM": 45,
+    "ARTICLE_EID": "art_29_e",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 42bis des Gesetzes"
+    ],
+    "confidence": "medium",
+    "reasoning": "Refers to 'Artikel 42bis des Gesetzes'; 'des Gesetzes' is the underlying Edelmetallgesetz; no SR in snippet, so treated as internal/base-act reference."
+  },
+  {
+    "ITEM": 46,
+    "ARTICLE_EID": "art_30",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 173",
+      "Art. 174",
+      "Art. 175",
+      "Art. 176"
+    ],
+    "confidence": "high",
+    "reasoning": "Parenthetical '(Art. 173–176)' is internal; expanded to individual articles."
+  },
+  {
+    "ITEM": 47,
+    "ARTICLE_EID": "art_30",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 30 Abs. 1 des Gesetzes"
+    ],
+    "confidence": "medium",
+    "reasoning": "Reference 'Art. 30 Abs. 1 des Gesetzes' points to the base Edelmetallgesetz; no SR in snippet, so treated as internal/base-act reference."
+  },
+  {
+    "ITEM": 48,
+    "ARTICLE_EID": "art_34_a",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 12 Bst. bter GwG",
+      "Art. 42ter des Gesetzes"
+    ],
+    "confidence": "medium",
+    "reasoning": "Internal text mirrors ITEM 6 but without SR; 'Artikel 12 Buchstabe bter GwG' and 'Artikel 42ter des Gesetzes' are cited; without explicit SR, treated as internal/external references without SR assignment."
+  },
+  {
+    "ITEM": 49,
+    "ARTICLE_EID": "art_34_b",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 3–8 GwG"
+    ],
+    "confidence": "high",
+    "reasoning": "Same content as ITEM 7 but without SR; 'Artikeln 3–8 GwG' is an external act reference but no SR is present, so no SR assignment here."
+  },
+  {
+    "ITEM": 50,
+    "ARTICLE_EID": "art_34_c",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 34b"
+    ],
+    "confidence": "high",
+    "reasoning": "Reference 'Artikel 34b' is clearly internal to this ordinance."
+  },
+  {
+    "ITEM": 51,
+    "ARTICLE_EID": "art_34_f",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 34a Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Reference 'Artikel 34a Absatz 2' is internal; no SR context."
+  },
+  {
+    "ITEM": 52,
+    "ARTICLE_EID": "art_34_g",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 1",
+      "Art. 2",
+      "Art. 3",
+      "Art. 4",
+      "Art. 6"
+    ],
+    "confidence": "medium",
+    "reasoning": "Text mirrors ITEM 9 but without explicit SR; 'Artikel 1–4 und 6 der Datenschutzverordnung' refers to SR 235.11, but since SR is not in this snippet, per rules this is treated as an internal-style reference without SR assignment."
+  },
+  {
+    "ITEM": 53,
+    "ARTICLE_EID": "art_34_h",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 34b Abs. 2 Bst. c",
+      "Art. 34b Abs. 2 Bst. d"
+    ],
+    "confidence": "high",
+    "reasoning": "Reference 'Artikel 34b Absatz 2 Buchstaben c und d' is internal to this ordinance."
+  },
+  {
+    "ITEM": 54,
+    "ARTICLE_EID": "art_35",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 3 Abs. 1 des Gesetzes"
+    ],
+    "confidence": "medium",
+    "reasoning": "Refers to 'Artikel 3 Absatz 1 des Gesetzes'; 'des Gesetzes' is the base Edelmetallgesetz; no SR in snippet, so internal/base-act reference."
+  },
+  {
+    "ITEM": 55,
+    "ARTICLE_EID": "art_35_a",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 1 Abs. 3 Bst. b des Gesetzes"
+    ],
+    "confidence": "medium",
+    "reasoning": "Reference 'Artikel 1 Absatz 3 Buchstabe b des Gesetzes'; again to the base act without SR; treated as internal/base-act reference."
+  },
+  {
+    "ITEM": 56,
+    "ARTICLE_EID": "art_36",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 7 Abs. 2 des Gesetzes"
+    ],
+    "confidence": "medium",
+    "reasoning": "Reference '(Art. 7 Abs. 2 des Gesetzes)' is to the underlying act; no SR present."
+  },
+  {
+    "ITEM": 57,
+    "ARTICLE_EID": "art_37",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 7 Abs. 2 des Gesetzes"
+    ],
+    "confidence": "medium",
+    "reasoning": "Same pattern as ITEM 56; internal/base-act reference."
+  },
+  {
+    "ITEM": 58,
+    "ARTICLE_EID": "art_58",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 30"
+    ],
+    "confidence": "high",
+    "reasoning": "Reference 'Das in Artikel 30 vorgesehene Prüfer-Schmelzerzeichen' is clearly internal to this ordinance."
+  },
+  {
+    "ITEM": 59,
+    "ARTICLE_EID": "art_82",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 13 Abs. 1 des Gesetzes"
+    ],
+    "confidence": "medium",
+    "reasoning": "Reference 'Artikel 13 Absatz 1 des Gesetzes' is to the base act; no SR present."
+  },
+  {
+    "ITEM": 60,
+    "ARTICLE_EID": "art_100",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 17 Abs. 1 des Gesetzes"
+    ],
+    "confidence": "medium",
+    "reasoning": "Reference '(Art. 17 Abs. 1 des Gesetzes)' is to the underlying act; no SR in snippet."
+  },
+  {
+    "ITEM": 61,
+    "ARTICLE_EID": "art_101",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 93",
+      "Art. 95"
+    ],
+    "confidence": "high",
+    "reasoning": "Reference 'Artikel 93 und 95' is internal to this ordinance."
+  },
+  {
+    "ITEM": 62,
+    "ARTICLE_EID": "art_122",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 84",
+      "Art. 85",
+      "Art. 86",
+      "Art. 87",
+      "Art. 88",
+      "Art. 89",
+      "Art. 90",
+      "Art. 91",
+      "Art. 92",
+      "Art. 93",
+      "Art. 94",
+      "Art. 95",
+      "Art. 96",
+      "Art. 97",
+      "Art. 98",
+      "Art. 99",
+      "Art. 100",
+      "Art. 101",
+      "Art. 102",
+      "Art. 103",
+      "Art. 104",
+      "Art. 105",
+      "Art. 106",
+      "Art. 107",
+      "Art. 108",
+      "Art. 109",
+      "Art. 110",
+      "Art. 111",
+      "Art. 112",
+      "Art. 113",
+      "Art. 114",
+      "Art. 115",
+      "Art. 116",
+      "Art. 117",
+      "Art. 118",
+      "Art. 119",
+      "Art. 120"
+    ],
+    "confidence": "medium",
+    "reasoning": "Range 'Artikeln 84–120' is internal; expanded to individual articles assuming continuous numbering."
+  },
+  {
+    "ITEM": 63,
+    "ARTICLE_EID": "art_131",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 43 Abs. 6",
+      "Art. 91",
+      "Art. 92",
+      "Art. 93",
+      "Art. 94",
+      "Art. 95",
+      "Art. 96"
+    ],
+    "confidence": "medium",
+    "reasoning": "References 'Artikel 43 Absatz 6 sowie 91–96'; all are internal to this ordinance."
+  },
+  {
+    "ITEM": 64,
+    "ARTICLE_EID": "art_134",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 20 Abs. 5 des Gesetzes"
+    ],
+    "confidence": "medium",
+    "reasoning": "Reference 'Artikel 20 Absatz 5 des Gesetzes' is to the base act; no SR present."
+  },
+  {
+    "ITEM": 65,
+    "ARTICLE_EID": "art_135",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 21 Abs. 3 des Gesetzes"
+    ],
+    "confidence": "medium",
+    "reasoning": "Reference '(Art. 21 Abs. 3 des Gesetzes)' is to the underlying act; no SR in snippet."
+  },
+  {
+    "ITEM": 66,
+    "ARTICLE_EID": "art_138",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 82 Abs. 4"
+    ],
+    "confidence": "high",
+    "reasoning": "Reference 'Artikel 82 Absatz 4' is internal to this ordinance."
+  },
+  {
+    "ITEM": 67,
+    "ARTICLE_EID": "art_139",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 131"
+    ],
+    "confidence": "high",
+    "reasoning": "Reference 'gilt Artikel 131' is internal."
+  },
+  {
+    "ITEM": 68,
+    "ARTICLE_EID": "art_140",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 126",
+      "Art. 127",
+      "Art. 128",
+      "Art. 22 Abs. 2 des Gesetzes"
+    ],
+    "confidence": "medium",
+    "reasoning": "References 'Art. 126–128' (internal range) and '(Art. 22 Abs. 2 des Gesetzes)' (base act); no SR present."
+  },
+  {
+    "ITEM": 69,
+    "ARTICLE_EID": "art_140",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 129",
+      "Art. 130",
+      "Art. 131",
+      "Art. 132"
+    ],
+    "confidence": "medium",
+    "reasoning": "Range 'Artikeln 129–132' is internal; expanded to individual articles."
+  },
+  {
+    "ITEM": 70,
+    "ARTICLE_EID": "art_141",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 6–9 des Gesetzes"
+    ],
+    "confidence": "medium",
+    "reasoning": "Reference 'gemäss den Artikeln 6–9 des Gesetzes' is to the base act; no SR present."
+  },
+  {
+    "ITEM": 71,
+    "ARTICLE_EID": "art_141",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 129",
+      "Art. 130",
+      "Art. 131",
+      "Art. 132"
+    ],
+    "confidence": "medium",
+    "reasoning": "Range 'Artikeln 129–132' is internal; expanded."
+  },
+  {
+    "ITEM": 72,
+    "ARTICLE_EID": "art_165_a",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 25 Abs. 2 des Gesetzes",
+      "Art. 25 Abs. 3 des Gesetzes"
+    ],
+    "confidence": "medium",
+    "reasoning": "Reference 'Artikel 25 Absätze 2 und 3 des Gesetzes' is to the base act; no SR present."
+  },
+  {
+    "ITEM": 73,
+    "ARTICLE_EID": "art_166_a",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 25 des Gesetzes",
+      "Art. 168–168c"
+    ],
+    "confidence": "medium",
+    "reasoning": "Refers to 'Artikel 25 des Gesetzes' (base act) and 'Artikeln 168–168c' (internal range)."
+  },
+  {
+    "ITEM": 74,
+    "ARTICLE_EID": "art_168_b",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 168a Abs. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "Reference 'Artikel 168a Absatz 3' is internal."
+  },
+  {
+    "ITEM": 75,
+    "ARTICLE_EID": "art_168_c",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 168a Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Reference 'Artikel 168a Absatz 2' is internal."
+  },
+  {
+    "ITEM": 76,
+    "ARTICLE_EID": "art_168_c",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 33"
+    ],
+    "confidence": "high",
+    "reasoning": "Reference 'Artikel 33' is internal to this ordinance."
+  },
+  {
+    "ITEM": 77,
+    "ARTICLE_EID": "art_172_b",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 31a Abs. 3 des Gesetzes"
+    ],
+    "confidence": "medium",
+    "reasoning": "Reference 'Artikel 31a Absatz 3 des Gesetzes' is to the base act; no SR present."
+  },
+  {
+    "ITEM": 78,
+    "ARTICLE_EID": "art_172_c",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 165c",
+      "Art. 166",
+      "Art. 166a",
+      "Art. 166b"
+    ],
+    "confidence": "medium",
+    "reasoning": "Range 'Artikel 165c, 166, 166a und 166b' is internal; all are articles of this ordinance."
+  },
+  {
+    "ITEM": 79,
+    "ARTICLE_EID": "art_172_d",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 168"
+    ],
+    "confidence": "high",
+    "reasoning": "Reference 'gilt Artikel 168 sinngemäss' is internal."
+  },
+  {
+    "ITEM": 80,
+    "ARTICLE_EID": "art_172_e",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 168a",
+      "Art. 168b"
+    ],
+    "confidence": "high",
+    "reasoning": "Reference 'gelten Artikel 168a und 168b sinngemäss' is internal."
+  },
+  {
+    "ITEM": 81,
+    "ARTICLE_EID": "art_172_f",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 168d"
+    ],
+    "confidence": "high",
+    "reasoning": "Reference 'gilt Artikel 168d sinngemäss' is internal."
+  },
+  {
+    "ITEM": 82,
+    "ARTICLE_EID": "art_174",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 32 Abs. 2 des Gesetzes"
+    ],
+    "confidence": "medium",
+    "reasoning": "Reference '(Art. 32 Abs. 2 des Gesetzes)' is to the base act; no SR present."
+  },
+  {
+    "ITEM": 83,
+    "ARTICLE_EID": "art_174",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 91",
+      "Art. 93",
+      "Art. 95"
+    ],
+    "confidence": "high",
+    "reasoning": "Reference 'Artikel 91, 93 und 95' is internal."
+  },
+  {
+    "ITEM": 84,
+    "ARTICLE_EID": "art_175",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 169",
+      "Art. 171",
+      "Art. 181"
+    ],
+    "confidence": "high",
+    "reasoning": "References 'Artikeln 169 und 171' and '(Art. 181)'; all internal to this ordinance."
+  },
+  {
+    "ITEM": 85,
+    "ARTICLE_EID": "art_177",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 100",
+      "Art. 101"
+    ],
+    "confidence": "high",
+    "reasoning": "Reference 'nach den Artikeln 100 und 101' is internal."
+  },
+  {
+    "ITEM": 86,
+    "ARTICLE_EID": "art_180",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 179"
+    ],
+    "confidence": "high",
+    "reasoning": "Reference 'Artikel 179 ist entsprechend anwendbar' is internal."
+  },
+  {
+    "ITEM": 87,
+    "ARTICLE_EID": "art_190",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 1 des Bundesgesetzes über Kontrollierung und Garantie des Feingehalts der Gold- und Silberwaren"
+    ],
+    "confidence": "medium",
+    "reasoning": "Reference 'Ausführung von Artikel 1 des Bundesgesetzes ...' is to an older base act; no SR is given in the snippet, so treated as an internal/base-act style reference without SR assignment."
+  }
+]

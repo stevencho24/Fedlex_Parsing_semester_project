@@ -1,0 +1,218 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 818.33",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "high",
+    "reasoning": "Preamble cites the Krebsregistrierungsgesetz (KRG) as a whole without mentioning any specific article; standard blanket legal basis reference."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_11",
+    "TARGET_SR": "SR 431.011",
+    "assigned_articles": ["Anhang 1"],
+    "confidence": "high",
+    "reasoning": "Snippet explicitly refers to 'medizinische Statistik der Krankenhäuser nach Anhang 1 der Bundesstatistikverordnung'; this is a reference to Annex 1 of SR 431.011, not to numbered articles."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_6",
+    "TARGET_SR": "SR 818.33",
+    "assigned_articles": ["Art. 1–4", "Art. 3 Abs. 1 Bst. a–e"],
+    "confidence": "high",
+    "reasoning": "Phrase 'Daten nach den Artikeln 1–4' and 'einschliesslich der Daten nach Artikel 3 Absatz 1 Buchstaben a–e KRG' directly and unambiguously link these provisions to the KRG."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_13",
+    "TARGET_SR": "SR 818.33",
+    "assigned_articles": ["Art. 5"],
+    "confidence": "high",
+    "reasoning": "Text 'zusätzlich zu den Inhalten nach Artikel 5 KRG' clearly cites Article 5 of the KRG."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_19",
+    "TARGET_SR": "SR 818.33",
+    "assigned_articles": ["Art. 9 Abs. 2"],
+    "confidence": "high",
+    "reasoning": "Reference 'nach Artikel 9 Absatz 2 KRG' explicitly points to Article 9 paragraph 2 of the KRG."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_21",
+    "TARGET_SR": "SR 818.33",
+    "assigned_articles": ["Art. 12"],
+    "confidence": "high",
+    "reasoning": "Snippet states 'Daten nach Artikel 12 KRG'; direct and specific citation."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_25",
+    "TARGET_SR": "SR 818.33",
+    "assigned_articles": ["Art. 16"],
+    "confidence": "high",
+    "reasoning": "Phrase 'Gesundheitsberichterstattung nach Artikel 16 KRG' clearly refers to Article 16 of the KRG."
+  },
+  {
+    "ITEM": 8,
+    "ARTICLE_EID": "art_32",
+    "TARGET_SR": "SR 818.33",
+    "assigned_articles": ["Art. 2"],
+    "confidence": "high",
+    "reasoning": "Text 'Zwecken nach Artikel 2 KRG' is an explicit reference to Article 2 of the KRG."
+  },
+  {
+    "ITEM": 9,
+    "ARTICLE_EID": "art_33",
+    "TARGET_SR": "SR 818.33",
+    "assigned_articles": ["Art. 2"],
+    "confidence": "high",
+    "reasoning": "Again refers to 'Zwecken nach Artikel 2 KRG'; same clear linkage to Article 2 KRG."
+  },
+  {
+    "ITEM": 10,
+    "ARTICLE_EID": "art_41",
+    "TARGET_SR": "SR 818.33",
+    "assigned_articles": ["Art. 3", "Art. 4"],
+    "confidence": "high",
+    "reasoning": "First sentence: 'Meldepflicht nach den Artikeln 3 und 4 KRG'; explicit reference to Articles 3 and 4. The later generic mention 'nach dem KRG' is a general reference but does not add specific further articles."
+  },
+  {
+    "ITEM": 11,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document: Art. 13"],
+    "confidence": "high",
+    "reasoning": "No SR cited; '(Art. 13)' without acronym or external context indicates a cross-reference to Article 13 of the same ordinance."
+  },
+  {
+    "ITEM": 12,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document: Art. 13"],
+    "confidence": "high",
+    "reasoning": "Identical snippet as ITEM 11; again a self-reference to Article 13 of this ordinance."
+  },
+  {
+    "ITEM": 13,
+    "ARTICLE_EID": "art_6",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document: Art. 15 Abs. 2"],
+    "confidence": "high",
+    "reasoning": "Phrase 'nach Artikel 15 Absatz 2' with no external SR or acronym; clearly refers to Article 15 paragraph 2 of the same document."
+  },
+  {
+    "ITEM": 14,
+    "ARTICLE_EID": "art_13",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document: Art. 17 Abs. 1"],
+    "confidence": "high",
+    "reasoning": "Reference 'Karenzfrist nach Artikel 17 Absatz 1' is an internal cross-reference; no external SR mentioned."
+  },
+  {
+    "ITEM": 15,
+    "ARTICLE_EID": "art_15",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document: Art. 17 Abs. 2 Bst. a", "Internal reference within current document: Art. 26"],
+    "confidence": "high",
+    "reasoning": "Contains '(Art. 17 Abs. 2 Bst. a)' and 'nach Artikel 26'; both are internal article references within the same ordinance."
+  },
+  {
+    "ITEM": 16,
+    "ARTICLE_EID": "art_15",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document: Art. 14 Abs. 2"],
+    "confidence": "high",
+    "reasoning": "Phrase 'vernichtet die Daten nach Artikel 14 Absatz 2' clearly refers to Article 14 paragraph 2 of this ordinance."
+  },
+  {
+    "ITEM": 17,
+    "ARTICLE_EID": "art_16",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document: Art. 14", "Internal reference within current document: Art. 15 Abs. 1"],
+    "confidence": "high",
+    "reasoning": "Text 'gelten die Artikel 14 und 15 Absatz 1 sinngemäss' is an internal cross-reference to Articles 14 and 15(1) of the same document."
+  },
+  {
+    "ITEM": 18,
+    "ARTICLE_EID": "art_18",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document: Art. 26"],
+    "confidence": "high",
+    "reasoning": "Reference 'Informationssystems nach Artikel 26' is internal; no external SR or acronym present."
+  },
+  {
+    "ITEM": 19,
+    "ARTICLE_EID": "art_27",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document: Art. 15 Abs. 4"],
+    "confidence": "high",
+    "reasoning": "Phrase 'Angaben nach Artikel 15 Absatz 4' clearly points to Article 15 paragraph 4 of the same ordinance."
+  },
+  {
+    "ITEM": 20,
+    "ARTICLE_EID": "art_32",
+    "TARGET_SR": "SR 818.33",
+    "assigned_articles": ["Art. 2"],
+    "confidence": "high",
+    "reasoning": "This repeats the content of ITEM 8: 'Zwecken nach Artikel 2 KRG'; explicit external reference to Article 2 KRG (SR 818.33), not an internal article."
+  },
+  {
+    "ITEM": 21,
+    "ARTICLE_EID": "art_39",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document: Art. 10–12", "Internal reference within current document: Art. 19–22"],
+    "confidence": "high",
+    "reasoning": "Text 'Fristen nach den Artikeln 10–12 und 19–22' refers to article ranges within the same ordinance; no external SR mentioned."
+  },
+  {
+    "ITEM": 22,
+    "ARTICLE_EID": "art_41",
+    "TARGET_SR": "SR 818.33",
+    "assigned_articles": ["Art. 3", "Art. 4"],
+    "confidence": "high",
+    "reasoning": "Contains 'Meldepflicht nach den Artikeln 3 und 4 KRG'; explicit external reference to Articles 3 and 4 of the KRG (SR 818.33)."
+  },
+  {
+    "ITEM": 23,
+    "ARTICLE_EID": "art_41",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document: Art. 26"],
+    "confidence": "high",
+    "reasoning": "Phrase 'im Informationssystem nach Artikel 26 eintragen' is an internal cross-reference; no SR or acronym indicating an external law."
+  },
+  {
+    "ITEM": 24,
+    "ARTICLE_EID": "art_41",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document: Art. 26", "Internal reference within current document: Art. 15 Abs. 3–4"],
+    "confidence": "high",
+    "reasoning": "Mentions 'Informationssystem nach Artikel 26' and 'Artikel 15 Absätze 3 und 4 gilt sinngemäss'; both are internal references within the ordinance."
+  },
+  {
+    "ITEM": 25,
+    "ARTICLE_EID": "art_41",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document: Art. 10", "Internal reference within current document: Art. 20 Abs. 2"],
+    "confidence": "high",
+    "reasoning": "Text 'Daten nach den Artikeln 10 und 20 Absatz 2' refers to internal articles 10 and 20(2); no external SR context."
+  },
+  {
+    "ITEM": 26,
+    "ARTICLE_EID": "art_41",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document: Art. 21 Abs. 2–3"],
+    "confidence": "high",
+    "reasoning": "Phrase 'Artikel 21 Absätze 2 und 3 gilt sinngemäss' is an internal cross-reference to Article 21(2–3) of this ordinance."
+  },
+  {
+    "ITEM": 27,
+    "ARTICLE_EID": "art_42",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document: Art. 36–38", "Internal reference within current document: Art. 40", "Internal reference within current document: Anhang 2 Ziff. 2"],
+    "confidence": "high",
+    "reasoning": "Entry into force clause 'Die Artikel 36–38 und 40 (Anhang 2 Ziff. 2)' clearly concerns internal provisions and annex of the same ordinance."
+  }
+]

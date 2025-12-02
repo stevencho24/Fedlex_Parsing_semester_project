@@ -1,0 +1,180 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 412.10",
+    "assigned_articles": [
+      "Art. 19"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Formulierung «gestützt auf Artikel 19 des Berufsbildungsgesetzes … SR 412.10» verknüpft eindeutig Art. 19 mit SR 412.10."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 412.101",
+    "assigned_articles": [
+      "Art. 12"
+    ],
+    "confidence": "high",
+    "reasoning": "«auf Artikel 12 der Berufsbildungsverordnung … SR 412.101 (BBV)» weist klar Art. 12 der BBV dem SR 412.101 zu."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 170.512",
+    "assigned_articles": [
+      "Art. 12 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Im authorialNote-Text: «in Anwendung von Art. 12 Abs. 2 des Publikationsgesetzes … (SR 170.512)»; Art. 12 Abs. 2 ist direkt mit SR 170.512 verknüpft."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 822.115",
+    "assigned_articles": [
+      "Art. 4a Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "«auf Artikel 4a Absatz 1 der Jugendarbeitsschutzverordnung … SR 822.115 (ArGV 5)»; Art. 4a Abs. 1 gehört eindeutig zu SR 822.115."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": "SR 170.512",
+    "assigned_articles": [
+      "Art. 12 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Einschub: «in Anwendung von Art. 12 Abs. 2 des Publikationsgesetzes … (SR 170.512)» verknüpft Art. 12 Abs. 2 mit SR 170.512; die übrigen Artikel (4, 4a ArGV 5) gehören zu einem anderen Erlass."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_8",
+    "TARGET_SR": "SR 412.101.241",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "«gilt die Verordnung … SR 412.101.241 über die Mindestvorschriften …» zitiert die Verordnung als Ganzes ohne konkrete Artikelangabe."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_15",
+    "TARGET_SR": "SR 412.101.241",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "Auch hier: «richtet sich nach der Verordnung … SR 412.101.241 …» ohne Nennung einzelner Artikel; daher Gesamtverweis."
+  },
+  {
+    "ITEM": 8,
+    "ARTICLE_EID": "art_8",
+    "TARGET_SR": "SR 412.10",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "medium",
+    "reasoning": "Die Abkürzung SBFI ist im Preambel mit SR 412.10 verknüpft; im Snippet wird aber nur die SBFI-Verordnung über Mindestvorschriften erwähnt, ohne konkrete Artikel. Mangels genauerer Angabe wird der Verweis als genereller Dokumentverweis gewertet."
+  },
+  {
+    "ITEM": 9,
+    "ARTICLE_EID": "art_13",
+    "TARGET_SR": "SR 412.101",
+    "assigned_articles": [
+      "Art. 32"
+    ],
+    "confidence": "high",
+    "reasoning": "«die nach Artikel 32 BBV erforderliche Erfahrung erworben hat»; BBV ist SR 412.101, somit gehört Art. 32 zu SR 412.101."
+  },
+  {
+    "ITEM": 10,
+    "ARTICLE_EID": "art_15",
+    "TARGET_SR": "SR 412.10",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "medium",
+    "reasoning": "Wie bei ITEM 8: Bezug auf die SBFI-Verordnung über Mindestvorschriften, über die Preambel-Akronym-Zuordnung SR 412.10, ohne konkrete Artikelangabe."
+  },
+  {
+    "ITEM": 11,
+    "ARTICLE_EID": "art_17",
+    "TARGET_SR": "SR 412.101",
+    "assigned_articles": [
+      "Art. 33"
+    ],
+    "confidence": "high",
+    "reasoning": "«richtet sich nach Artikel 33 BBV»; BBV = SR 412.101, daher Art. 33 dieses Erlasses."
+  },
+  {
+    "ITEM": 12,
+    "ARTICLE_EID": "art_20",
+    "TARGET_SR": "SR 412.10",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "low",
+    "reasoning": "SBFI wird als Behörde genannt («dem SBFI die entsprechende Änderung zu beantragen»). Über das Preambel-Akronym ist SBFI mit SR 412.10 verknüpft, aber es wird kein bestimmter Artikel des Berufsbildungsgesetzes genannt; der Bezug ist institutionell, nicht artikelspezifisch."
+  },
+  {
+    "ITEM": 13,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 4 Abs. 1",
+      "Art. 4a Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "«In Abweichung von Artikel 4 Absatz 1 ArGV 5 und gemäss den Vorgaben nach Artikel 4a Absatz 1 ArGV 5 …» sind reine Selbstverweise auf Artikel derselben Verordnung (ArGV 5) ohne explizite SR-Nennung im Satz; daher interne Artikelreferenzen des aktuellen Dokuments."
+  },
+  {
+    "ITEM": 14,
+    "ARTICLE_EID": "art_13",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 32",
+      "Art. 15"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Satz enthält «Artikel 32 BBV» (externer Verweis, aber SR bereits in ITEM 9 erfasst) und «(Art. 15)» als internen Verweis auf Art. 15 derselben Verordnung; als artikel_reference-Output werden die genannten Artikelnummern des aktuellen Kontextes aufgeführt."
+  },
+  {
+    "ITEM": 15,
+    "ARTICLE_EID": "art_14",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 3 Abs. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "«Kompetenzen nach Artikel 3 Absatz 3» ist ein klarer Selbstverweis auf Art. 3 Abs. 3 derselben Verordnung; kein externer SR-Bezug im Satz."
+  },
+  {
+    "ITEM": 16,
+    "ARTICLE_EID": "art_19",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 18 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "«unter dem Vorbehalt von Artikel 18 Absatz 1» verweist intern auf Art. 18 Abs. 1 des gleichen Erlasses; keine SR-Nennung im Satz."
+  },
+  {
+    "ITEM": 17,
+    "ARTICLE_EID": "art_21",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 13",
+      "Art. 14",
+      "Art. 15",
+      "Art. 16",
+      "Art. 17",
+      "Art. 18",
+      "Art. 19"
+    ],
+    "confidence": "high",
+    "reasoning": "«(Art. 13–19)» ist eine interne Artikelspanne; diese wird als Liste der einzelnen Artikel 13 bis 19 des aktuellen Dokuments wiedergegeben."
+  }
+]

@@ -1,0 +1,22 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 172.220.1",
+    "assigned_articles": [
+      "Art. 32e Abs. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet explicitly states: 'gestützt auf Artikel 32e Absatz 3 des Bundespersonalgesetzes ... SR 172.220.1 (BPG)'. The article reference 'Artikel 32e Absatz 3' is syntactically and semantically linked to the Bundespersonalgesetz identified as SR 172.220.1."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 172.220.11",
+    "assigned_articles": [
+      "Art. 2 Abs. 4"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet states: '... und Artikel 2 Absatz 4 der Rahmenverordnung vom 20. Dezember 2000 SR 172.220.11 zum Bundespersonalgesetz (Rahmenverordnung BPG)'. Here 'Artikel 2 Absatz 4' is directly attributed to the Rahmenverordnung identified as SR 172.220.11, so Art. 2 Abs. 4 belongs to SR 172.220.11."
+  }
+]

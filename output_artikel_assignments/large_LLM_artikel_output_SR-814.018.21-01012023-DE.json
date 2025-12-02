@@ -1,0 +1,61 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 814.018",
+    "assigned_articles": [
+      "Art. 4 Abs. 6"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Formulierung «gestützt auf Artikel 4 Absatz 6 der Verordnung ... SR 814.018 ... (VOCV)» verknüpft den genannten Artikel syntaktisch eindeutig mit der zitierten SR 814.018."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 170.512.1",
+    "assigned_articles": [
+      "Art. 16 Abs. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "Im INSIDE_AUTHORIALNOTE steht «in Anwendung von Art. 16 Abs. 3 der Publikationsverordnung ... (SR 170.512.1)»; Artikel und SR werden direkt zusammen genannt."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 814.018",
+    "assigned_articles": "General reference - entire document",
+    "confidence": "high",
+    "reasoning": "Der Ausschnitt erwähnt nur die VOCV als Ganzes («Unterstützung des Vollzugs der VOCV») ohne konkrete Artikelangabe; die Verknüpfung zur SR 814.018 erfolgt allein über das Akronym."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": "SR 814.018",
+    "assigned_articles": [
+      "Art. 10",
+      "Art. 9"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Text nennt explizit «VOC-Bilanzen nach Artikel 10 VOCV» und «VOC nach Artikel 9 VOCV»; das Akronym VOCV ist im Vorspann als SR 814.018 definiert, daher gehören Art. 9 und 10 zu dieser SR."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 10"
+    ],
+    "confidence": "high",
+    "reasoning": "artikel_reference ohne TARGET_SR; der Satz «... nach Artikel 10 VOCV» verweist auf einen anderen Erlass (VOCV), nicht auf einen Artikel der vorliegenden Verordnung. Es handelt sich daher um einen externen Verweis, nicht um eine Selbstreferenz."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 9"
+    ],
+    "confidence": "high",
+    "reasoning": "Wie bei ITEM 5 ist «... nach Artikel 9 VOCV» ein Verweis auf die VOCV (SR 814.018) und nicht auf einen Artikel des aktuellen Erlasses; damit ist es kein Selbstverweis, sondern ein externer Artikelverweis ohne TARGET_SR."
+  }
+]

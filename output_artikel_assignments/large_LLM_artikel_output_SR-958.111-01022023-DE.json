@@ -1,0 +1,1043 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 954.1",
+    "assigned_articles": ["Art. 51 Abs. 2"],
+    "confidence": "high",
+    "reasoning": "Direkte Formulierung: «gestützt auf Artikel 51 Absatz 2 des Finanzinstitutsgesetzes … SR 954.1 (FINIG)»; Art. 51 Abs. 2 ist eindeutig diesem SR zugeordnet."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 954.11",
+    "assigned_articles": ["Art. 74 Abs. 4"],
+    "confidence": "high",
+    "reasoning": "Formulierung: «Artikel 74 Absatz 4 der Finanzinstitutsverordnung … SR 954.11 (FINIV)»; Art. 74 Abs. 4 gehört klar zu SR 954.11."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 958.1",
+    "assigned_articles": ["Art. 39 Abs. 2", "Art. 101 Abs. 1", "Art. 101 Abs. 2", "Art. 123 Abs. 1", "Art. 123 Abs. 2", "Art. 135 Abs. 4"],
+    "confidence": "high",
+    "reasoning": "«die Artikel 39 Absatz 2, 101 Absätze 1 und 2, 123 Absätze 1 und 2 sowie 135 Absatz 4 des Finanzmarktinfrastrukturgesetzes … SR 958.1 (FinfraG)»; alle genannten Artikel sind explizit FinfraG zugeordnet."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 958.11",
+    "assigned_articles": ["Art. 36 Abs. 4"],
+    "confidence": "high",
+    "reasoning": "«Artikel 36 Absatz 4 der Finanzmarktinfrastrukturverordnung … SR 958.11 (FinfraV)»; eindeutige Zuordnung."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_8",
+    "TARGET_SR": "SR 172.021.2",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "high",
+    "reasoning": "Nur der Titel der Verordnung wird genannt («Verordnung … SR 172.021.2»), ohne Artikelangabe; daher Gesamtverweis."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_16",
+    "TARGET_SR": "SR 950.1",
+    "assigned_articles": ["Art. 71"],
+    "confidence": "high",
+    "reasoning": "«nach Artikel 71 des Finanzdienstleistungsgesetzes … SR 950.1 (FIDLEG)»; Art. 71 ist klar FIDLEG zugeordnet."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_18",
+    "TARGET_SR": "SR 951.31",
+    "assigned_articles": ["Art. 5 Abs. 1", "Art. 2 Abs. 1 Bst. d", "Art. 13 Abs. 2 Bst. a–d", "Art. 15 Abs. 1 Bst. e", "Art. 120 Abs. 1"],
+    "confidence": "high",
+    "reasoning": "Im Klammerzusatz werden explizit KAG-Artikel genannt: «Art. 5 Abs. 1 i. V. m. Art. 2 Abs. 1 Bst. d FINIG, Art. 13 Abs. 2 a–d KAG sowie Art. 15 Abs. 1 Bst. e i. V. m. Art. 120 Abs. 1 KAG»; diese gehören zum Kollektivanlagengesetz SR 951.31."
+  },
+  {
+    "ITEM": 8,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 954.1",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "medium",
+    "reasoning": "FINMA ist als Aufsichtsbehörde in SR 954.1 (FINMAG) geregelt, aber im Snippet wird kein bestimmter Artikel des FINMAG genannt; es handelt sich um eine funktionale Bezugnahme auf die Behörde, nicht auf eine konkrete Norm."
+  },
+  {
+    "ITEM": 9,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 954.1",
+    "assigned_articles": ["Art. 74"],
+    "confidence": "high",
+    "reasoning": "«die nach Artikel 74 FINIV und Artikel 36 FinfraV aufgezeichnet werden müssen»; FINIV ist SR 954.11, aber das Target_SR hier ist FINIG (SR 954.1). Die Artikelangabe bezieht sich syntaktisch auf FINIV/FinfraV, nicht auf FINIG. Für FINIG selbst wird kein Artikel genannt; daher keine Artikelzuordnung zu SR 954.1 über diesen Satz. Allerdings FINIG wird nur als Qualifikation der Wertpapierhäuser verwendet. Somit: Generaler Gesetzesbezug ohne konkrete Artikel; da keine explizite FINIG-Artikelangabe vorliegt, bleibt es bei «General reference - entire document» statt Art. 74 (das gehört zu FINIV).",
+    "note": "Korrektur innerhalb der Begründung: Art. 74 gehört zu SR 954.11, nicht zu SR 954.1; daher keine konkrete Artikelzuordnung möglich."
+  },
+  {
+    "ITEM": 10,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": "SR 954.1",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "medium",
+    "reasoning": "FINIG wird nur als Qualifikation der Wertpapierhäuser erwähnt; die konkreten Artikelangaben (Art. 75 FINIV, Art. 37 FinfraV) gehören zu anderen SR. Kein FINIG-Artikel genannt."
+  },
+  {
+    "ITEM": 11,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": "SR 954.11",
+    "assigned_articles": ["Art. 75"],
+    "confidence": "high",
+    "reasoning": "«sämtliche Abschlüsse nach Artikel 75 FINIV»; FINIV ist SR 954.11, daher klare Zuordnung zu Art. 75."
+  },
+  {
+    "ITEM": 12,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": "SR 958.11",
+    "assigned_articles": ["Art. 37"],
+    "confidence": "high",
+    "reasoning": "«Artikel 37 FinfraV»; FinfraV ist SR 958.11, somit Art. 37 FinfraV."
+  },
+  {
+    "ITEM": 13,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": "SR 954.1",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "medium",
+    "reasoning": "FINIG wird nur als Qualifikation («Wertpapierhäuser nach FINIG»); kein bestimmter FINIG-Artikel genannt."
+  },
+  {
+    "ITEM": 14,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": "SR 954.11",
+    "assigned_articles": ["Art. 75 Abs. 1 Bst. d"],
+    "confidence": "high",
+    "reasoning": "Klammer: «Art. 37 Abs. 1 Bst. d FinfraV und Art. 75 Abs. 1 Bst. d FINIV»; FINIV ist SR 954.11, daher Art. 75 Abs. 1 Bst. d."
+  },
+  {
+    "ITEM": 15,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": "SR 958.11",
+    "assigned_articles": ["Art. 37 Abs. 1 Bst. d"],
+    "confidence": "high",
+    "reasoning": "Mehrfaches Zitat: «Art. 37 Abs. 1 Bst. d FinfraV …»; FinfraV ist SR 958.11; BEHV gehört zu einem anderen SR und wird hier nicht berücksichtigt."
+  },
+  {
+    "ITEM": 16,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": "SR 954.1",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "medium",
+    "reasoning": "FINMA wird als Behörde genannt; keine konkrete Norm des FINMAG (SR 954.1) wird zitiert."
+  },
+  {
+    "ITEM": 17,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": "SR 954.11",
+    "assigned_articles": ["Art. 75 Abs. 2"],
+    "confidence": "high",
+    "reasoning": "«Abschlüsse in Derivaten nach Artikel 75 Absatz 2 FINIV»; FINIV ist SR 954.11."
+  },
+  {
+    "ITEM": 18,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": "SR 958.11",
+    "assigned_articles": ["Art. 37 Abs. 2"],
+    "confidence": "high",
+    "reasoning": "«Artikel 37 Absatz 2 FinfraV»; FinfraV ist SR 958.11."
+  },
+  {
+    "ITEM": 19,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": "SR 954.1",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "medium",
+    "reasoning": "FINMA wird mehrfach als Behörde erwähnt; keine konkrete FINMAG-Bestimmung genannt."
+  },
+  {
+    "ITEM": 20,
+    "ARTICLE_EID": "art_8",
+    "TARGET_SR": "SR 954.1",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "medium",
+    "reasoning": "FINMA nur als Adressat der Eröffnung; kein Artikel des FINMAG genannt."
+  },
+  {
+    "ITEM": 21,
+    "ARTICLE_EID": "art_8",
+    "TARGET_SR": "SR 958.1",
+    "assigned_articles": ["Art. 123 Abs. 1", "Art. 139 Abs. 5"],
+    "confidence": "high",
+    "reasoning": "Klammer: «(Art. 123 Abs. 1, 139 Abs. 5 FinfraG)»; beide Artikel gehören zu SR 958.1."
+  },
+  {
+    "ITEM": 22,
+    "ARTICLE_EID": "art_9",
+    "TARGET_SR": "SR 958.1",
+    "assigned_articles": ["Art. 123 Abs. 1"],
+    "confidence": "high",
+    "reasoning": "Klammer: «(Art. 123 Abs. 1 FinfraG)»."
+  },
+  {
+    "ITEM": 23,
+    "ARTICLE_EID": "art_10",
+    "TARGET_SR": "SR 958.1",
+    "assigned_articles": ["Art. 120 Abs. 1", "Art. 120 Abs. 3", "Art. 123 Abs. 1"],
+    "confidence": "high",
+    "reasoning": "Klammer nennt «Art. 120 Abs. 1 und 3, 123 Abs. 1 FinfraG»; im Text werden Art. 120 Abs. 1 und 3 nochmals erläutert."
+  },
+  {
+    "ITEM": 24,
+    "ARTICLE_EID": "art_11",
+    "TARGET_SR": "SR 958.1",
+    "assigned_articles": ["Art. 120 Abs. 5", "Art. 123 Abs. 1"],
+    "confidence": "high",
+    "reasoning": "Klammer: «(Art. 120 Abs. 5, 123 Abs. 1 FinfraG)»."
+  },
+  {
+    "ITEM": 25,
+    "ARTICLE_EID": "art_12",
+    "TARGET_SR": "SR 958.1",
+    "assigned_articles": ["Art. 120 Abs. 1", "Art. 121", "Art. 123 Abs. 1"],
+    "confidence": "high",
+    "reasoning": "Klammer: «(Art. 120 Abs. 1, 121, 123 Abs. 1 FinfraG)»."
+  },
+  {
+    "ITEM": 26,
+    "ARTICLE_EID": "art_13",
+    "TARGET_SR": "SR 958.1",
+    "assigned_articles": ["Art. 120 Abs. 1", "Art. 120 Abs. 3", "Art. 123 Abs. 1"],
+    "confidence": "high",
+    "reasoning": "Klammer: «(Art. 120 Abs. 1, 3 und 4, 123 Abs. 1 FinfraG)»; im Text werden Abs. 1 und 3 konkret erläutert. Abs. 4 wird nur im Klammerverweis genannt, gehört aber ebenfalls dazu."
+  },
+  {
+    "ITEM": 27,
+    "ARTICLE_EID": "art_13",
+    "TARGET_SR": "SR 958.11",
+    "assigned_articles": ["Art. 115 Abs. 3"],
+    "confidence": "high",
+    "reasoning": "«Veröffentlichung gemäss Artikel 115 Absatz 3 FinfraV»; FinfraV ist SR 958.11."
+  },
+  {
+    "ITEM": 28,
+    "ARTICLE_EID": "art_14",
+    "TARGET_SR": "SR 958.1",
+    "assigned_articles": ["Art. 120 Abs. 1", "Art. 120 Abs. 3", "Art. 123 Abs. 1"],
+    "confidence": "high",
+    "reasoning": "Klammer: «(Art. 120 Abs. 1 und 3, 123 Abs. 1 FinfraG)»; im Text wird Art. 120 Abs. 3 nochmals erwähnt."
+  },
+  {
+    "ITEM": 29,
+    "ARTICLE_EID": "art_14",
+    "TARGET_SR": "SR 958.11",
+    "assigned_articles": ["Art. 115 Abs. 3"],
+    "confidence": "high",
+    "reasoning": "«Veröffentlichung gemäss Artikel 115 Absatz 3 FinfraV»; klarer Bezug."
+  },
+  {
+    "ITEM": 30,
+    "ARTICLE_EID": "art_15",
+    "TARGET_SR": "SR 958.1",
+    "assigned_articles": ["Art. 120 Abs. 1", "Art. 120 Abs. 4", "Art. 120 Abs. 5", "Art. 123 Abs. 1"],
+    "confidence": "high",
+    "reasoning": "Klammer: «(Art. 120 Abs. 1, 4 und 5, 123 Abs. 1 FinfraG)»; im Text wird Abs. 1 mehrfach erwähnt."
+  },
+  {
+    "ITEM": 31,
+    "ARTICLE_EID": "art_16",
+    "TARGET_SR": "SR 958.1",
+    "assigned_articles": ["Art. 120 Abs. 1", "Art. 120 Abs. 4", "Art. 123 Abs. 1"],
+    "confidence": "high",
+    "reasoning": "Klammer: «(Art. 120 Abs. 1 und 4, 123 Abs. 1 FinfraG)»; Text verweist auf Art. 120 Abs. 1."
+  },
+  {
+    "ITEM": 32,
+    "ARTICLE_EID": "art_17",
+    "TARGET_SR": "SR 958.1",
+    "assigned_articles": ["Art. 120 Abs. 1", "Art. 123 Abs. 1"],
+    "confidence": "high",
+    "reasoning": "Klammer: «(Art. 120 Abs. 1, 123 Abs. 1 FinfraG)»; Text verweist auf Art. 120 Abs. 1."
+  },
+  {
+    "ITEM": 33,
+    "ARTICLE_EID": "art_18",
+    "TARGET_SR": "SR 954.1",
+    "assigned_articles": ["Art. 5 Abs. 1", "Art. 2 Abs. 1 Bst. d"],
+    "confidence": "high",
+    "reasoning": "Im Klammerzusatz: «Art. 5 Abs. 1 i. V. m. Art. 2 Abs. 1 Bst. d FINIG …»; FINIG ist SR 954.1."
+  },
+  {
+    "ITEM": 34,
+    "ARTICLE_EID": "art_18",
+    "TARGET_SR": "SR 958.1",
+    "assigned_articles": ["Art. 120 Abs. 1", "Art. 121", "Art. 123 Abs. 1"],
+    "confidence": "high",
+    "reasoning": "Klammer: «(Art. 120 Abs. 1, 121, 123 Abs. 1 FinfraG)»; Text verweist mehrfach auf Art. 120 Abs. 1."
+  },
+  {
+    "ITEM": 35,
+    "ARTICLE_EID": "art_19",
+    "TARGET_SR": "SR 954.1",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "medium",
+    "reasoning": "FINIG wird nur als Qualifikation der Institute erwähnt; keine konkrete FINIG-Norm genannt."
+  },
+  {
+    "ITEM": 36,
+    "ARTICLE_EID": "art_19",
+    "TARGET_SR": "SR 958.1",
+    "assigned_articles": ["Art. 123 Abs. 2"],
+    "confidence": "high",
+    "reasoning": "Klammer: «(Art. 123 Abs. 2 FinfraG)»."
+  },
+  {
+    "ITEM": 37,
+    "ARTICLE_EID": "art_20",
+    "TARGET_SR": "SR 958.1",
+    "assigned_articles": ["Art. 123 Abs. 1", "Art. 134 Abs. 1", "Art. 134 Abs. 3", "Art. 134 Abs. 5"],
+    "confidence": "high",
+    "reasoning": "Klammer: «(Art. 123 Abs. 1 FinfraG)»; im Text: «gestützt auf Artikel 134 Absatz 5 FinfraG», «Personen gemäss Artikel 134 Absatz 1 FinfraG», «Artikel 134 Absatz 3 FinfraG»."
+  },
+  {
+    "ITEM": 38,
+    "ARTICLE_EID": "art_21",
+    "TARGET_SR": "SR 958.1",
+    "assigned_articles": ["Art. 123 Abs. 1", "Art. 123 Abs. 3"],
+    "confidence": "high",
+    "reasoning": "Klammer: «(Art. 123 Abs. 1 und 3 FinfraG)»."
+  },
+  {
+    "ITEM": 39,
+    "ARTICLE_EID": "art_22",
+    "TARGET_SR": "SR 958.1",
+    "assigned_articles": ["Art. 120 Abs. 3", "Art. 121", "Art. 123 Abs. 1"],
+    "confidence": "high",
+    "reasoning": "Klammer: «(Art. 123 Abs. 1 FinfraG)»; Text verweist auf Art. 120 Abs. 3 und Art. 121 FinfraG."
+  },
+  {
+    "ITEM": 40,
+    "ARTICLE_EID": "art_23",
+    "TARGET_SR": "SR 958.1",
+    "assigned_articles": ["Art. 123 Abs. 1"],
+    "confidence": "high",
+    "reasoning": "Klammer: «(Art. 123 Abs. 1 FinfraG)»."
+  },
+  {
+    "ITEM": 41,
+    "ARTICLE_EID": "art_24",
+    "TARGET_SR": "SR 958.1",
+    "assigned_articles": ["Art. 123 Abs. 1"],
+    "confidence": "high",
+    "reasoning": "Klammer: «(Art. 123 Abs. 1 FinfraG)»."
+  },
+  {
+    "ITEM": 42,
+    "ARTICLE_EID": "art_25",
+    "TARGET_SR": "SR 958.1",
+    "assigned_articles": ["Art. 123 Abs. 1", "Art. 124"],
+    "confidence": "high",
+    "reasoning": "Klammer: «(Art. 123 Abs. 1, 124 FinfraG)»."
+  },
+  {
+    "ITEM": 43,
+    "ARTICLE_EID": "art_26",
+    "TARGET_SR": "SR 958.1",
+    "assigned_articles": ["Art. 123 Abs. 1", "Art. 123 Abs. 2", "Art. 124"],
+    "confidence": "high",
+    "reasoning": "Klammer: «(Art. 123 Abs. 1 und 2, 124 FinfraG)»."
+  },
+  {
+    "ITEM": 44,
+    "ARTICLE_EID": "art_27",
+    "TARGET_SR": "SR 954.1",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "medium",
+    "reasoning": "FINMA wird als Genehmigungsbehörde erwähnt; keine konkrete FINMAG-Norm genannt."
+  },
+  {
+    "ITEM": 45,
+    "ARTICLE_EID": "art_27",
+    "TARGET_SR": "SR 958.1",
+    "assigned_articles": ["Art. 123", "Art. 124"],
+    "confidence": "high",
+    "reasoning": "Klammer: «(Art. 123, 124 FinfraG)»; ohne Absätze, daher Grundartikel."
+  },
+  {
+    "ITEM": 46,
+    "ARTICLE_EID": "art_28",
+    "TARGET_SR": "SR 954.1",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "medium",
+    "reasoning": "Mehrfache Erwähnung der FINMA als Entscheidbehörde; keine konkrete FINMAG-Bestimmung genannt."
+  },
+  {
+    "ITEM": 47,
+    "ARTICLE_EID": "art_28",
+    "TARGET_SR": "SR 958.1",
+    "assigned_articles": ["Art. 123", "Art. 124"],
+    "confidence": "high",
+    "reasoning": "Klammer: «(Art. 123, 124 FinfraG)»."
+  },
+  {
+    "ITEM": 48,
+    "ARTICLE_EID": "art_29",
+    "TARGET_SR": "SR 954.1",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "medium",
+    "reasoning": "FINMA wird nur als anweisende Behörde erwähnt; kein Artikel des FINMAG genannt."
+  },
+  {
+    "ITEM": 49,
+    "ARTICLE_EID": "art_29",
+    "TARGET_SR": "SR 958.1",
+    "assigned_articles": ["Art. 8", "Art. 31", "Art. 123 Abs. 1"],
+    "confidence": "high",
+    "reasoning": "Klammer: «(Art. 8, 31, 123 Abs. 1 FinfraG)»."
+  },
+  {
+    "ITEM": 50,
+    "ARTICLE_EID": "art_30",
+    "TARGET_SR": "SR 958.1",
+    "assigned_articles": ["Art. 135 Abs. 4", "Art. 135", "Art. 125–134", "Art. 136–141", "Art. 152", "Art. 163"],
+    "confidence": "high",
+    "reasoning": "Klammer: «(Art. 135 Abs. 4 FinfraG)»; Text: «Neben Artikel 135 FinfraG … Artikel 125–134, 136–141, 152 sowie 163 FinfraG»; Ranges als Spannweite belassen."
+  },
+  {
+    "ITEM": 51,
+    "ARTICLE_EID": "art_31",
+    "TARGET_SR": "SR 958.1",
+    "assigned_articles": ["Art. 135 Abs. 1", "Art. 135 Abs. 4"],
+    "confidence": "high",
+    "reasoning": "Klammer: «(Art. 135 Abs. 1 und 4 FinfraG)»; Text verweist auf Art. 135 Abs. 1."
+  },
+  {
+    "ITEM": 52,
+    "ARTICLE_EID": "art_32",
+    "TARGET_SR": "SR 958.1",
+    "assigned_articles": ["Art. 135 Abs. 1", "Art. 135 Abs. 4", "Art. 120 Abs. 5"],
+    "confidence": "high",
+    "reasoning": "Klammer: «(Art. 135 Abs. 1 und 4 FinfraG)»; Text: «gelten Artikel 120 Absatz 5 FinfraG …»."
+  },
+  {
+    "ITEM": 53,
+    "ARTICLE_EID": "art_33",
+    "TARGET_SR": "SR 958.1",
+    "assigned_articles": ["Art. 135 Abs. 1", "Art. 135 Abs. 4", "Art. 136 Abs. 2"],
+    "confidence": "high",
+    "reasoning": "Klammer: «(Art. 135 Abs. 1 und 4, 136 Abs. 2 FinfraG)»."
+  },
+  {
+    "ITEM": 54,
+    "ARTICLE_EID": "art_34",
+    "TARGET_SR": "SR 958.1",
+    "assigned_articles": ["Art. 135 Abs. 1", "Art. 135 Abs. 4"],
+    "confidence": "high",
+    "reasoning": "Klammer: «(Art. 135 Abs. 1 und 4 FinfraG)»."
+  },
+  {
+    "ITEM": 55,
+    "ARTICLE_EID": "art_35",
+    "TARGET_SR": "SR 958.1",
+    "assigned_articles": ["Art. 135 Abs. 1", "Art. 135 Abs. 4", "Art. 130 Abs. 2"],
+    "confidence": "high",
+    "reasoning": "Klammer: «(Art. 135 Abs. 1 und 4 FinfraG)»; Text: «Nachfrist im Sinne von Artikel 130 Absatz 2 FinfraG»."
+  },
+  {
+    "ITEM": 56,
+    "ARTICLE_EID": "art_36",
+    "TARGET_SR": "SR 958.1",
+    "assigned_articles": ["Art. 135 Abs. 4", "Art. 136 Abs. 2", "Art. 163"],
+    "confidence": "high",
+    "reasoning": "Klammer: «(Art. 135 Abs. 4, 136 Abs. 2, 163 FinfraG)»; Text verweist auf Art. 163 und 136 Abs. 2."
+  },
+  {
+    "ITEM": 57,
+    "ARTICLE_EID": "art_37",
+    "TARGET_SR": "SR 958.1",
+    "assigned_articles": ["Art. 135 Abs. 4"],
+    "confidence": "high",
+    "reasoning": "Klammer: «(Art. 135 Abs. 4 FinfraG)»; Text verweist auf Art. 135."
+  },
+  {
+    "ITEM": 58,
+    "ARTICLE_EID": "art_38",
+    "TARGET_SR": "SR 958.1",
+    "assigned_articles": ["Art. 135 Abs. 1", "Art. 135 Abs. 4", "Art. 136 Abs. 2"],
+    "confidence": "high",
+    "reasoning": "Klammer: «(Art. 135 Abs. 1 und 4, 136 Abs. 2 FinfraG)»."
+  },
+  {
+    "ITEM": 59,
+    "ARTICLE_EID": "art_39",
+    "TARGET_SR": "SR 958.1",
+    "assigned_articles": ["Art. 135 Abs. 1", "Art. 135 Abs. 4"],
+    "confidence": "high",
+    "reasoning": "Klammer: «(Art. 135 Abs. 1 und 4 FinfraG)»."
+  },
+  {
+    "ITEM": 60,
+    "ARTICLE_EID": "art_40",
+    "TARGET_SR": "SR 954.1",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "medium",
+    "reasoning": "FINIG wird nur als Qualifikation der Institute erwähnt; keine konkrete FINIG-Norm genannt."
+  },
+  {
+    "ITEM": 61,
+    "ARTICLE_EID": "art_40",
+    "TARGET_SR": "SR 958.1",
+    "assigned_articles": ["Art. 135 Abs. 4", "Art. 136"],
+    "confidence": "high",
+    "reasoning": "Klammer: «(Art. 135 Abs. 4, 136 FinfraG)»; Text verweist auf Art. 136 Abs. 2."
+  },
+  {
+    "ITEM": 62,
+    "ARTICLE_EID": "art_41",
+    "TARGET_SR": "SR 958.1",
+    "assigned_articles": ["Art. 135", "Art. 136 Abs. 1", "Art. 136 Abs. 2"],
+    "confidence": "high",
+    "reasoning": "Klammer: «(Art. 135, 136 Abs. 1 FinfraG)»; Text verweist mehrfach auf Art. 136 Abs. 1 und 2."
+  },
+  {
+    "ITEM": 63,
+    "ARTICLE_EID": "art_42",
+    "TARGET_SR": "SR 958.1",
+    "assigned_articles": ["Art. 135 Abs. 2", "Art. 135 Abs. 3", "Art. 135 Abs. 4", "Art. 128 Abs. 1"],
+    "confidence": "high",
+    "reasoning": "Klammer: «(Art. 135 Abs. 2–4 FinfraG)»; Text verweist auf Art. 135 Abs. 2 Bst. a und Art. 128 Abs. 1 FinfraG."
+  },
+  {
+    "ITEM": 64,
+    "ARTICLE_EID": "art_43",
+    "TARGET_SR": "SR 958.1",
+    "assigned_articles": ["Art. 135 Abs. 2", "Art. 135 Abs. 3", "Art. 135 Abs. 4", "Art. 128"],
+    "confidence": "high",
+    "reasoning": "Klammer: «(Art. 135 Abs. 2–4 FinfraG)»; Text verweist auf Art. 135 Abs. 2 Bst. b, Abs. 3 und 4 sowie Art. 128 FinfraG."
+  },
+  {
+    "ITEM": 65,
+    "ARTICLE_EID": "art_44",
+    "TARGET_SR": "SR 958.1",
+    "assigned_articles": ["Art. 135 Abs. 2", "Art. 135 Abs. 3", "Art. 135 Abs. 4"],
+    "confidence": "high",
+    "reasoning": "Klammer: «(Art. 135 Abs. 2–4 FinfraG)»; keine weiteren spezifischen Artikel im Snippet."
+  },
+  {
+    "ITEM": 66,
+    "ARTICLE_EID": "art_45",
+    "TARGET_SR": "SR 958.1",
+    "assigned_articles": ["Art. 135 Abs. 2", "Art. 135 Abs. 3", "Art. 135 Abs. 4"],
+    "confidence": "high",
+    "reasoning": "Klammer: «(Art. 135 Abs. 2–4 FinfraG)»."
+  },
+  {
+    "ITEM": 67,
+    "ARTICLE_EID": "art_46",
+    "TARGET_SR": "SR 958.1",
+    "assigned_articles": ["Art. 135 Abs. 2", "Art. 135 Abs. 3", "Art. 135 Abs. 4"],
+    "confidence": "high",
+    "reasoning": "Klammer: «(Art. 135 Abs. 2–4 FinfraG)»."
+  },
+  {
+    "ITEM": 68,
+    "ARTICLE_EID": "art_47",
+    "TARGET_SR": "SR 958.1",
+    "assigned_articles": ["Art. 135 Abs. 2", "Art. 135 Abs. 3", "Art. 135 Abs. 4"],
+    "confidence": "high",
+    "reasoning": "Klammer: «(Art. 135 Abs. 2–4 FinfraG)»."
+  },
+  {
+    "ITEM": 69,
+    "ARTICLE_EID": "art_48",
+    "TARGET_SR": "SR 954.1",
+    "assigned_articles": ["Art. 39 Abs. 1"],
+    "confidence": "high",
+    "reasoning": "Klammer: «(Art. 122, 123 Abs. 1 FinfraG; Art. 39 Abs. 1 FINMAG)»; FINMAG ist SR 954.1, daher Art. 39 Abs. 1."
+  },
+  {
+    "ITEM": 70,
+    "ARTICLE_EID": "art_48",
+    "TARGET_SR": "SR 958.1",
+    "assigned_articles": ["Art. 122", "Art. 123 Abs. 1"],
+    "confidence": "high",
+    "reasoning": "Klammer: «(Art. 122, 123 Abs. 1 FinfraG; …)»; hier nur FinfraG-Teile relevant."
+  },
+  {
+    "ITEM": 71,
+    "ARTICLE_EID": "art_50",
+    "TARGET_SR": "SR 958.1",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "medium",
+    "reasoning": "Es wird allgemein auf das Inkrafttreten des FinfraG Bezug genommen, ohne konkrete Artikelangabe."
+  },
+  {
+    "ITEM": 72,
+    "ARTICLE_EID": "art_50_a",
+    "TARGET_SR": "SR 954.1",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "low",
+    "reasoning": "«Artikel 10 Absatz 2 FinfraV-FINMA» gehört systematisch zu FinfraV-FINMA (SR 958.11), nicht zu SR 954.1; der Bezug zu SR 954.1 erfolgt nur über die FINMA als Behörde, ohne konkrete FINMAG-Norm."
+  },
+  {
+    "ITEM": 73,
+    "ARTICLE_EID": "art_50_a",
+    "TARGET_SR": "SR 958.11",
+    "assigned_articles": ["Art. 10 Abs. 2"],
+    "confidence": "high",
+    "reasoning": "«Artikel 10 Absatz 2 FinfraV-FINMA»; FinfraV-FINMA ist eine FINMA-Verordnung zur FinfraV, systematisch SR 958.11 zugeordnet."
+  },
+  {
+    "ITEM": 74,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": "SR 958.11",
+    "assigned_articles": ["Art. 37 Abs. 1 Bst. d"],
+    "confidence": "high",
+    "reasoning": "Artikelreferenz: «Art. 37 Abs. 1 Bst. d FinfraV»; FinfraV ist SR 958.11. BEHV gehört zu einem anderen SR und wird hier nicht zugeordnet."
+  },
+  {
+    "ITEM": 75,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "«Artikel 6 Absatz 2» ohne Gesetzesangabe; im Kontext handelt es sich um einen inneren Verweis innerhalb derselben Verordnung (SR 958.111). Daher Selbstreferenz, kein externer SR-Link."
+  },
+  {
+    "ITEM": 76,
+    "ARTICLE_EID": "art_10",
+    "TARGET_SR": "SR 958.1",
+    "assigned_articles": ["Art. 120 Abs. 1"],
+    "confidence": "high",
+    "reasoning": "«Artikel 120 Absatz 1 FinfraG»; FinfraG ist SR 958.1. Dieser Artikel ist bereits in Item 23 erfasst; hier handelt es sich um denselben externen Bezug."
+  },
+  {
+    "ITEM": 77,
+    "ARTICLE_EID": "art_10",
+    "TARGET_SR": "SR 958.1",
+    "assigned_articles": ["Art. 120 Abs. 3"],
+    "confidence": "high",
+    "reasoning": "«Artikel 120 Absatz 3 FinfraG»; externer Bezug zu SR 958.1, konsistent mit Item 23."
+  },
+  {
+    "ITEM": 78,
+    "ARTICLE_EID": "art_13",
+    "TARGET_SR": "SR 958.1",
+    "assigned_articles": ["Art. 120 Abs. 1"],
+    "confidence": "high",
+    "reasoning": "«Artikel 120 Absatz 1 FinfraG»; externer Bezug zu SR 958.1, bereits in Item 26 abgedeckt."
+  },
+  {
+    "ITEM": 79,
+    "ARTICLE_EID": "art_13",
+    "TARGET_SR": "SR 958.1",
+    "assigned_articles": ["Art. 120 Abs. 3"],
+    "confidence": "high",
+    "reasoning": "«Artikel 120 Absatz 3 FinfraG»; externer Bezug zu SR 958.1, ebenfalls in Item 26 enthalten."
+  },
+  {
+    "ITEM": 80,
+    "ARTICLE_EID": "art_14",
+    "TARGET_SR": "SR 958.1",
+    "assigned_articles": ["Art. 120 Abs. 3"],
+    "confidence": "high",
+    "reasoning": "«Stimmrechte nach Artikel 120 Absatz 3 FinfraG»; externer Bezug zu SR 958.1, bereits in Item 28 erfasst."
+  },
+  {
+    "ITEM": 81,
+    "ARTICLE_EID": "art_14",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Verweise «Art. 15 Abs. 2 …» beziehen sich auf Art. 15 derselben Verordnung (SR 958.111); reine Selbstreferenzen ohne externes SR."
+  },
+  {
+    "ITEM": 82,
+    "ARTICLE_EID": "art_15",
+    "TARGET_SR": "SR 958.1",
+    "assigned_articles": ["Art. 120 Abs. 1"],
+    "confidence": "high",
+    "reasoning": "«Gesellschaften gemäss Artikel 120 Absatz 1 FinfraG»; externer Bezug zu SR 958.1, bereits in Item 30 enthalten."
+  },
+  {
+    "ITEM": 83,
+    "ARTICLE_EID": "art_15",
+    "TARGET_SR": "SR 958.1",
+    "assigned_articles": ["Art. 120 Abs. 1"],
+    "confidence": "high",
+    "reasoning": "«Grenzwerte nach Artikel 120 Absatz 1 FinfraG»; externer Bezug zu SR 958.1, ebenfalls in Item 30."
+  },
+  {
+    "ITEM": 84,
+    "ARTICLE_EID": "art_16",
+    "TARGET_SR": "SR 958.1",
+    "assigned_articles": ["Art. 120 Abs. 1"],
+    "confidence": "high",
+    "reasoning": "«Grenzwert nach Artikel 120 Absatz 1 FinfraG»; externer Bezug zu SR 958.1, bereits in Item 31."
+  },
+  {
+    "ITEM": 85,
+    "ARTICLE_EID": "art_16",
+    "TARGET_SR": "SR 950.1",
+    "assigned_articles": ["Art. 71"],
+    "confidence": "high",
+    "reasoning": "«Artikel 71 des Finanzdienstleistungsgesetzes … (FIDLEG)»; FIDLEG ist SR 950.1, konsistent mit Item 6."
+  },
+  {
+    "ITEM": 86,
+    "ARTICLE_EID": "art_16",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Verweise «Artikel 14 Absatz 1 …», «Artikel 15 …» ohne Gesetzesangabe; im Kontext sind dies interne Artikel der gleichen Verordnung (SR 958.111)."
+  },
+  {
+    "ITEM": 87,
+    "ARTICLE_EID": "art_16",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "«Artikel 22 Absätze …» bezieht sich auf Art. 22 derselben Verordnung; reine Selbstreferenz."
+  },
+  {
+    "ITEM": 88,
+    "ARTICLE_EID": "art_17",
+    "TARGET_SR": "SR 958.1",
+    "assigned_articles": ["Art. 120 Abs. 1"],
+    "confidence": "high",
+    "reasoning": "«Grenzwerts gemäss Artikel 120 Absatz 1 FinfraG»; externer Bezug zu SR 958.1, bereits in Item 32."
+  },
+  {
+    "ITEM": 89,
+    "ARTICLE_EID": "art_18",
+    "TARGET_SR": "SR 958.1",
+    "assigned_articles": ["Art. 120 Abs. 1"],
+    "confidence": "high",
+    "reasoning": "«Meldepflichten gemäss Artikel 120 Absatz 1 FinfraG»; externer Bezug zu SR 958.1, in Item 34 enthalten."
+  },
+  {
+    "ITEM": 90,
+    "ARTICLE_EID": "art_18",
+    "TARGET_SR": "SR 958.1",
+    "assigned_articles": ["Art. 120 Abs. 1"],
+    "confidence": "high",
+    "reasoning": "Wiederholung: «Meldepflichten gemäss Artikel 120 Absatz 1 FinfraG»; externer Bezug zu SR 958.1."
+  },
+  {
+    "ITEM": 91,
+    "ARTICLE_EID": "art_19",
+    "TARGET_SR": "SR 950.1",
+    "assigned_articles": ["Art. 71"],
+    "confidence": "high",
+    "reasoning": "«Artikel 71 FIDLEG»; FIDLEG ist SR 950.1, konsistent mit Items 6 und 85."
+  },
+  {
+    "ITEM": 92,
+    "ARTICLE_EID": "art_20",
+    "TARGET_SR": "SR 958.1",
+    "assigned_articles": ["Art. 134 Abs. 5"],
+    "confidence": "high",
+    "reasoning": "«gestützt auf Artikel 134 Absatz 5 FinfraG»; externer Bezug zu SR 958.1, bereits in Item 37."
+  },
+  {
+    "ITEM": 93,
+    "ARTICLE_EID": "art_20",
+    "TARGET_SR": "SR 958.1",
+    "assigned_articles": ["Art. 134 Abs. 1"],
+    "confidence": "high",
+    "reasoning": "«Personen gemäss Artikel 134 Absatz 1 FinfraG»; externer Bezug zu SR 958.1."
+  },
+  {
+    "ITEM": 94,
+    "ARTICLE_EID": "art_20",
+    "TARGET_SR": "SR 958.1",
+    "assigned_articles": ["Art. 134 Abs. 3"],
+    "confidence": "high",
+    "reasoning": "«Artikel 134 Absatz 3 FinfraG»; externer Bezug zu SR 958.1."
+  },
+  {
+    "ITEM": 95,
+    "ARTICLE_EID": "art_22",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "«Beteiligungsderivate nach Artikel 15» bezieht sich auf Art. 15 derselben Verordnung; reine Selbstreferenz."
+  },
+  {
+    "ITEM": 96,
+    "ARTICLE_EID": "art_22",
+    "TARGET_SR": "SR 958.1",
+    "assigned_articles": ["Art. 120 Abs. 3"],
+    "confidence": "high",
+    "reasoning": "«(Artikel 120 Absatz 3 FinfraG)»; externer Bezug zu SR 958.1."
+  },
+  {
+    "ITEM": 97,
+    "ARTICLE_EID": "art_22",
+    "TARGET_SR": "SR 958.1",
+    "assigned_articles": ["Art. 120 Abs. 3"],
+    "confidence": "high",
+    "reasoning": "«in Fällen von Artikel 120 Absatz 3 FinfraG»; externer Bezug zu SR 958.1."
+  },
+  {
+    "ITEM": 98,
+    "ARTICLE_EID": "art_22",
+    "TARGET_SR": "SR 958.1",
+    "assigned_articles": ["Art. 121"],
+    "confidence": "high",
+    "reasoning": "«Angaben gemäss Artikel 121 FinfraG»; externer Bezug zu SR 958.1."
+  },
+  {
+    "ITEM": 99,
+    "ARTICLE_EID": "art_22",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "«Beteiligungsderivaten nach Artikel 15»; interner Verweis auf Art. 15 derselben Verordnung."
+  },
+  {
+    "ITEM": 100,
+    "ARTICLE_EID": "art_22",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Ebenfalls nur «Artikel 15» ohne Gesetzesangabe; interner Verweis."
+  },
+  {
+    "ITEM": 101,
+    "ARTICLE_EID": "art_22",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "«Artikel 18 Absatz 3» und «Artikel 18 Absatz 5» beziehen sich auf Artikel derselben Verordnung; Selbstreferenz."
+  },
+  {
+    "ITEM": 102,
+    "ARTICLE_EID": "art_22",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "«Artikel 17» und «Artikel 15» ohne Gesetzesangabe; interne Artikel der Verordnung."
+  },
+  {
+    "ITEM": 103,
+    "ARTICLE_EID": "art_22",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "«Art. 11» ohne Gesetzesangabe; interner Verweis auf Art. 11 derselben Verordnung."
+  },
+  {
+    "ITEM": 104,
+    "ARTICLE_EID": "art_25",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "«Artikel 22» ohne Gesetzesangabe; interner Verweis."
+  },
+  {
+    "ITEM": 105,
+    "ARTICLE_EID": "art_27",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "«Art. 21» und «Art. 26» ohne Gesetzesangabe; interne Verweise innerhalb derselben Verordnung."
+  },
+  {
+    "ITEM": 106,
+    "ARTICLE_EID": "art_28",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "«Art. 21», «Art. 26» und «Artikel 22» ohne Gesetzesangabe; reine Selbstreferenzen."
+  },
+  {
+    "ITEM": 107,
+    "ARTICLE_EID": "art_30",
+    "TARGET_SR": "SR 958.1",
+    "assigned_articles": ["Art. 135", "Art. 125–134", "Art. 136–141", "Art. 152", "Art. 163"],
+    "confidence": "high",
+    "reasoning": "«Neben Artikel 135 FinfraG … Artikel 125–134, 136–141, 152 sowie 163 FinfraG»; externer Bezug zu SR 958.1, konsistent mit Item 50."
+  },
+  {
+    "ITEM": 108,
+    "ARTICLE_EID": "art_31",
+    "TARGET_SR": "SR 958.1",
+    "assigned_articles": ["Art. 135 Abs. 1"],
+    "confidence": "high",
+    "reasoning": "«Grenzwert nach Artikel 135 Absatz 1 FinfraG»; externer Bezug zu SR 958.1, bereits in Item 51."
+  },
+  {
+    "ITEM": 109,
+    "ARTICLE_EID": "art_32",
+    "TARGET_SR": "SR 958.1",
+    "assigned_articles": ["Art. 120 Abs. 5"],
+    "confidence": "high",
+    "reasoning": "«Artikel 120 Absatz 5 FinfraG»; externer Bezug zu SR 958.1, bereits in Item 52."
+  },
+  {
+    "ITEM": 110,
+    "ARTICLE_EID": "art_33",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "«Artikel 12 Absatz 1» ohne Gesetzesangabe; interner Verweis auf Art. 12 derselben Verordnung."
+  },
+  {
+    "ITEM": 111,
+    "ARTICLE_EID": "art_35",
+    "TARGET_SR": "SR 958.1",
+    "assigned_articles": ["Art. 130 Abs. 2"],
+    "confidence": "high",
+    "reasoning": "«Nachfrist im Sinne von Artikel 130 Absatz 2 FinfraG»; externer Bezug zu SR 958.1, bereits in Item 55."
+  },
+  {
+    "ITEM": 112,
+    "ARTICLE_EID": "art_36",
+    "TARGET_SR": "SR 958.1",
+    "assigned_articles": ["Art. 163", "Art. 136 Abs. 2"],
+    "confidence": "high",
+    "reasoning": "«Übergangsregelung von Artikel 163 FinfraG» und «Artikel 136 Absatz 2 FinfraG»; externer Bezug zu SR 958.1, bereits in Item 56."
+  },
+  {
+    "ITEM": 113,
+    "ARTICLE_EID": "art_37",
+    "TARGET_SR": "SR 958.1",
+    "assigned_articles": ["Art. 135"],
+    "confidence": "high",
+    "reasoning": "«Angebot nach Artikel 135 FinfraG»; externer Bezug zu SR 958.1, bereits in Item 57."
+  },
+  {
+    "ITEM": 114,
+    "ARTICLE_EID": "art_40",
+    "TARGET_SR": "SR 958.1",
+    "assigned_articles": ["Art. 136 Abs. 2"],
+    "confidence": "high",
+    "reasoning": "«Artikel 136 Absatz 2 FinfraG»; externer Bezug zu SR 958.1, bereits in Item 61."
+  },
+  {
+    "ITEM": 115,
+    "ARTICLE_EID": "art_41",
+    "TARGET_SR": "SR 958.1",
+    "assigned_articles": ["Art. 136 Abs. 1"],
+    "confidence": "high",
+    "reasoning": "«Artikel 136 Absatz 1 FinfraG»; externer Bezug zu SR 958.1, bereits in Item 62."
+  },
+  {
+    "ITEM": 116,
+    "ARTICLE_EID": "art_41",
+    "TARGET_SR": "SR 958.1",
+    "assigned_articles": ["Art. 136 Abs. 1"],
+    "confidence": "high",
+    "reasoning": "Wiederholter Verweis: «Artikel 136 Absatz 1 FinfraG»; externer Bezug zu SR 958.1."
+  },
+  {
+    "ITEM": 117,
+    "ARTICLE_EID": "art_41",
+    "TARGET_SR": "SR 958.1",
+    "assigned_articles": ["Art. 136 Abs. 1"],
+    "confidence": "high",
+    "reasoning": "«Artikel 136 Absatz 1 Buchstabe a FinfraG»; externer Bezug zu SR 958.1."
+  },
+  {
+    "ITEM": 118,
+    "ARTICLE_EID": "art_41",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "«Art. 32» ohne Gesetzesangabe; interner Verweis auf Art. 32 derselben Verordnung."
+  },
+  {
+    "ITEM": 119,
+    "ARTICLE_EID": "art_41",
+    "TARGET_SR": "SR 958.1",
+    "assigned_articles": ["Art. 136 Abs. 2"],
+    "confidence": "high",
+    "reasoning": "«Artikel 136 Absatz 2 FinfraG»; externer Bezug zu SR 958.1."
+  },
+  {
+    "ITEM": 120,
+    "ARTICLE_EID": "art_42",
+    "TARGET_SR": "SR 958.1",
+    "assigned_articles": ["Art. 135 Abs. 2"],
+    "confidence": "high",
+    "reasoning": "«Artikel 135 Absatz 2 Buchstabe a FinfraG»; externer Bezug zu SR 958.1."
+  },
+  {
+    "ITEM": 121,
+    "ARTICLE_EID": "art_42",
+    "TARGET_SR": "SR 958.1",
+    "assigned_articles": ["Art. 128 Abs. 1"],
+    "confidence": "high",
+    "reasoning": "«Prüfstelle nach Artikel 128 Absatz 1 FinfraG»; externer Bezug zu SR 958.1."
+  },
+  {
+    "ITEM": 122,
+    "ARTICLE_EID": "art_43",
+    "TARGET_SR": "SR 958.1",
+    "assigned_articles": ["Art. 135 Abs. 2"],
+    "confidence": "high",
+    "reasoning": "«Artikel 135 Absatz 2 Buchstabe b FinfraG»; externer Bezug zu SR 958.1."
+  },
+  {
+    "ITEM": 123,
+    "ARTICLE_EID": "art_43",
+    "TARGET_SR": "SR 958.1",
+    "assigned_articles": ["Art. 135 Abs. 3"],
+    "confidence": "high",
+    "reasoning": "«Artikel 135 Absatz 3 FinfraG»; externer Bezug zu SR 958.1."
+  },
+  {
+    "ITEM": 124,
+    "ARTICLE_EID": "art_43",
+    "TARGET_SR": "SR 958.1",
+    "assigned_articles": ["Art. 128"],
+    "confidence": "high",
+    "reasoning": "«Prüfstelle (Art. 128 FinfraG)»; externer Bezug zu SR 958.1."
+  },
+  {
+    "ITEM": 125,
+    "ARTICLE_EID": "art_44",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "«Art. 32 in Verbindung mit Artikel 11 Buchstabe c» ohne Gesetzesangabe; interne Verweise innerhalb derselben Verordnung."
+  },
+  {
+    "ITEM": 126,
+    "ARTICLE_EID": "art_46",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "«Artikel 42 Absätze 2–4» ohne Gesetzesangabe; interner Verweis auf Art. 42 derselben Verordnung."
+  },
+  {
+    "ITEM": 127,
+    "ARTICLE_EID": "art_47",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "«dieses Abschnitts (Art. 40–44)»; reine interne Strukturverweise."
+  },
+  {
+    "ITEM": 128,
+    "ARTICLE_EID": "art_50",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "«Artikel 24 Absatz 2» ohne Gesetzesangabe; interner Verweis auf Art. 24 derselben Verordnung."
+  },
+  {
+    "ITEM": 129,
+    "ARTICLE_EID": "art_50_b",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "«Artikel 3 Absatz 1 Buchstaben c und e» ohne Gesetzesangabe; interner Verweis."
+  },
+  {
+    "ITEM": 130,
+    "ARTICLE_EID": "art_50_b",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "«Artikel 5 Absatz 5» ohne Gesetzesangabe; interner Verweis auf Art. 5 derselben Verordnung."
+  }
+]

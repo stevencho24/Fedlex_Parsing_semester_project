@@ -1,0 +1,167 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 173.71",
+    "assigned_articles": [
+      "Art. 9 Abs. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Formulierung «gestützt auf Artikel 9 Absatz 3 des Strafbehördenorganisationsgesetzes … SR 173.71 (StBOG)» verweist eindeutig auf Art. 9 Abs. 3 StBOG."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": "SR 312.0",
+    "assigned_articles": "General reference - entire document",
+    "confidence": "high",
+    "reasoning": "«gemäss der Strafprozessordnung SR 312.0 (StPO)» nennt keinen bestimmten Artikel; es handelt sich um eine generelle Verweisung auf die StPO als Ganzes."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": "SR 312.0",
+    "assigned_articles": "General reference - entire document",
+    "confidence": "high",
+    "reasoning": "Mehrfachformulierung «sämtliche Aufgaben … gemäss der StPO SR 312.0 wahrnehmen» ohne Nennung einzelner Artikel; klarer Gesamtverweis auf die StPO."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_10",
+    "TARGET_SR": "SR 311.0",
+    "assigned_articles": "General reference - entire document",
+    "confidence": "medium",
+    "reasoning": "«Straftaten des Strafgesetzbuchs SR 311.0 (StGB), die gemäss Artikel 23 Absatz 1 … StPO …»; der konkrete Artikelbezug (Art. 23 Abs. 1) gehört zur StPO, nicht zum StGB. Für das StGB wird kein bestimmter Artikel genannt, daher Gesamtverweis."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_10",
+    "TARGET_SR": "SR 312.0",
+    "assigned_articles": [
+      "Art. 23 Abs. 1",
+      "Art. 23 Abs. 2",
+      "Art. 24 Abs. 1",
+      "Art. 24 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Snippet und den zugehörigen Kontextzeilen werden explizit «Artikel 23 Absatz 1 … StPO», «Art. 23 Abs. 2 StPO», «Artikel 24 Absatz 1 StPO» und «Artikel 24 Absatz 2 StPO» genannt; alle beziehen sich auf die StPO (SR 312.0)."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_10",
+    "TARGET_SR": "SR 958.1",
+    "assigned_articles": [
+      "Art. 156 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "«Straftaten des Finanzmarktinfrastrukturgesetzes … SR 958.1 (FinfraG), die gemäss Artikel 156 Absatz 1 FinfraG …»; Art. 156 Abs. 1 ist ausdrücklich dem FinfraG zugeordnet."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_10",
+    "TARGET_SR": "SR 351.1",
+    "assigned_articles": "General reference - entire document",
+    "confidence": "medium",
+    "reasoning": "«gemäss dem Rechtshilfegesetz vom 20. März 1981 SR 351.1 (IRSG)» enthält keinen bestimmten Artikel; es ist ein genereller Verweis auf das IRSG."
+  },
+  {
+    "ITEM": 8,
+    "ARTICLE_EID": "art_14",
+    "TARGET_SR": "SR 312.4",
+    "assigned_articles": "General reference - entire document",
+    "confidence": "medium",
+    "reasoning": "«unter das Bundesgesetz … SR 312.4 über die Teilung eingezogener Vermögenswerte fallen» nennt keinen Artikel; Gesamtverweis auf das Gesetz."
+  },
+  {
+    "ITEM": 9,
+    "ARTICLE_EID": "art_14",
+    "TARGET_SR": "SR 312.0",
+    "assigned_articles": [
+      "Art. 266 Abs. 5"
+    ],
+    "confidence": "high",
+    "reasoning": "«vorzeitige Verwertung … nach Artikel 266 Absatz 5 StPO SR 312.0» verweist klar auf Art. 266 Abs. 5 StPO."
+  },
+  {
+    "ITEM": 10,
+    "ARTICLE_EID": "art_16",
+    "TARGET_SR": "SR 351.1",
+    "assigned_articles": [
+      "Art. 67a"
+    ],
+    "confidence": "high",
+    "reasoning": "«die unaufgeforderte Übermittlung nach Artikel 67a IRSG SR 351.1» benennt eindeutig Art. 67a IRSG."
+  },
+  {
+    "ITEM": 11,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": "SR 173.71",
+    "assigned_articles": [
+      "Art. 13 Abs. 1 Bst. a",
+      "Art. 13 Abs. 2",
+      "Art. 10 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet enthält «Weisungsbefugnisse nach Artikel 13 Absätze 1 Buchstabe a und 2 StBOG» sowie «Im Vertretungsfall (Art. 10 Abs. 2 StBOG)»; beide Bezüge gehören zum StBOG (SR 173.71)."
+  },
+  {
+    "ITEM": 12,
+    "ARTICLE_EID": "art_14",
+    "TARGET_SR": "SR 173.71",
+    "assigned_articles": [
+      "Art. 75"
+    ],
+    "confidence": "high",
+    "reasoning": "«vollzieht die Entscheide … nach Artikel 75 StBOG» verweist eindeutig auf Art. 75 StBOG."
+  },
+  {
+    "ITEM": 13,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«Artikel 13 Absätze 1 Buchstabe a und 2 StBOG» ist bereits in ITEM 11 als Verweis auf SR 173.71 erfasst; hier handelt es sich um dieselbe Stelle innerhalb des Dokuments, daher keine neue SR-Zuordnung, sondern interner Verweis."
+  },
+  {
+    "ITEM": 14,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«(Art. 10 Abs. 2 StBOG)» ist bereits in ITEM 11 als Verweis auf SR 173.71 berücksichtigt; dieser artikel_reference spiegelt denselben externen Bezug wider und dient hier nur als interne Querverweisung."
+  },
+  {
+    "ITEM": 15,
+    "ARTICLE_EID": "art_10",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«Artikel 156 Absatz 1 FinfraG» ist bereits in ITEM 6 als Verweis auf SR 958.1 zugeordnet; dieser artikel_reference ist lediglich die Textzeile dazu und stellt keinen zusätzlichen SR-Link dar."
+  },
+  {
+    "ITEM": 16,
+    "ARTICLE_EID": "art_16",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«gemäss Artikel 4 Absatz 4 direkt» verweist auf Art. 4 Abs. 4 derselben Verordnung (kein SR genannt, klar interne Selbstreferenz)."
+  },
+  {
+    "ITEM": 17,
+    "ARTICLE_EID": "art_21",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«nach Artikel 5 Absatz 1 Buchstaben a–c wählbar» verweist auf Art. 5 Abs. 1 Bst. a–c des gleichen Erlasses; es wird kein externes SR-Dokument genannt, daher reine Selbstreferenz."
+  }
+]

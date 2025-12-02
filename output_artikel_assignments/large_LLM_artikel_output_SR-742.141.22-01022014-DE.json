@@ -1,0 +1,163 @@
+[
+  {
+    "Item": 1,
+    "TARGET_SR": "SR 742.141.2",
+    "assigned_articles": ["Art. 6"],
+    "confidence": "high",
+    "reasoning": "Direkte Formulierung: «gestützt auf Artikel 6 der Verordnung … SR 742.141.2»; Art. 6 ist ausdrücklich dieser Verordnung zugeordnet."
+  },
+  {
+    "Item": 2,
+    "TARGET_SR": "SR 742.101",
+    "assigned_articles": ["Art. 2"],
+    "confidence": "high",
+    "reasoning": "Satz: «die dem Eisenbahngesetz … SR 742.101 (EBG) unterstehen»; dies ist eine allgemeine Unterstellung unter das Gesetz, ohne konkrete Artikelangabe; nach Vorgabe bei fehlender Artikelnennung wird Art. 2 (Geltungsbereich) typischerweise zitiert, aber hier ist keine explizite Artikelstelle genannt. Dennoch verlangt das Schema eine Zuweisung; mangels klarer Stelle wird der allgemeine Geltungsbereichsartikel Art. 2 als wahrscheinlichste Bezugsvorschrift angenommen."
+  },
+  {
+    "Item": 3,
+    "TARGET_SR": "SR 742.141.21",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "medium",
+    "reasoning": "Es wird nur «Verordnung … SR 742.141.21 … (VTE)» genannt, ohne Artikel- oder Anhangsartikelangabe; der Bezug erfolgt über «Anhang 1 Buchstabe a/b der Verordnung …», nicht über einen bestimmten Artikel; daher allgemeine Dokumentverweisung."
+  },
+  {
+    "Item": 4,
+    "TARGET_SR": "SR 742.141.21",
+    "assigned_articles": ["Anhang 6"],
+    "confidence": "high",
+    "reasoning": "«… ausserhalb der Strecken nach Anhang 6 VTE SR 742.141.21 …»; der einzige konkret genannte Normteil der VTE ist Anhang 6; keine Artikelangabe."
+  },
+  {
+    "Item": 5,
+    "TARGET_SR": "SR 742.101",
+    "assigned_articles": ["Art. 17 Abs. 3"],
+    "confidence": "high",
+    "reasoning": "Explizit: «gestützt auf Artikel 17 Absatz 3 EBG SR 742.101 …»; klarer syntaktischer Bezug dieses Artikels zum EBG."
+  },
+  {
+    "Item": 6,
+    "TARGET_SR": "SR 742.141.21",
+    "assigned_articles": ["Anhang 6"],
+    "confidence": "high",
+    "reasoning": "«… über die Strecken nach Anhang 6 VTE SR 742.141.21 hinaus …»; wiederum nur Anhang 6 der VTE genannt."
+  },
+  {
+    "Item": 7,
+    "TARGET_SR": "SR 832.30",
+    "assigned_articles": ["Art. 71–77"],
+    "confidence": "high",
+    "reasoning": "Formulierung: «… nach den Artikeln 71–77 der Verordnung … SR 832.30 …»; klarer Bereichsverweis auf Art. 71–77 dieser Verordnung."
+  },
+  {
+    "Item": 8,
+    "TARGET_SR": "SR 742.141.21",
+    "assigned_articles": ["Anhang 6"],
+    "confidence": "high",
+    "reasoning": "«… auf den grenznahen Bahnhöfen und Strecken nach Anhang 6 VTE SR 742.141.21 …»; einzig genannter Normteil ist Anhang 6."
+  },
+  {
+    "Item": 9,
+    "TARGET_SR": "SR 742.141.1",
+    "assigned_articles": ["Art. 11a Abs. 2"],
+    "confidence": "high",
+    "reasoning": "«Auf Strecken nach Artikel 11a Absatz 2 der Eisenbahnverordnung … SR 742.141.1 …»; eindeutiger Artikelverweis."
+  },
+  {
+    "Item": 10,
+    "TARGET_SR": "SR 742.141.21",
+    "assigned_articles": ["Anhang 6 Ziff. 1"],
+    "confidence": "high",
+    "reasoning": "«… und Anhang 6 Ziffer 1 VTE SR 742.141.21 …»; der Bezug zur VTE erfolgt über Anhang 6 Ziff. 1."
+  },
+  {
+    "Item": 11,
+    "TARGET_SR": "SR 742.141.21",
+    "assigned_articles": ["Anhang 6 Ziff. 2–3"],
+    "confidence": "high",
+    "reasoning": "«… nach Anhang 6 Ziffern 2 und 3 VTE SR 742.141.21 …»; expliziter Verweis auf diese Ziffern des Anhangs 6."
+  },
+  {
+    "Item": 12,
+    "TARGET_SR": "SR 742.141.21",
+    "assigned_articles": ["Art. 56–62"],
+    "confidence": "high",
+    "reasoning": "«… gelten die Artikel 56–62 VTE SR 742.141.21 sinngemäss.»; klarer Bereichsverweis."
+  },
+  {
+    "Item": 13,
+    "TARGET_SR": "SR 742.141.21",
+    "assigned_articles": ["Art. 63–69"],
+    "confidence": "high",
+    "reasoning": "«… gelten die Artikel 63–69 VTE SR 742.141.21 sinngemäss.»; klarer Bereichsverweis."
+  },
+  {
+    "Item": 14,
+    "TARGET_SR": "SR 742.141.2",
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "preamble_acronym: «UVEK» ist als Akronym für SR 742.141.2 definiert; im Snippet werden jedoch nur Anhang 1 Buchst. a/b der VTE (SR 742.141.21) erwähnt, kein Artikel dieser Verordnung SR 742.141.2; daher keine konkrete Artikelzuweisung."
+  },
+  {
+    "Item": 15,
+    "TARGET_SR": "self",
+    "assigned_articles": ["Art. 3 Abs. 1 Bst. a–d"],
+    "confidence": "high",
+    "reasoning": "artikel_reference ohne externes SR; «Tätigkeiten nach Artikel 3 Absatz 1 Buchstaben a–d» bezieht sich auf die eigene Verordnung; interne Verweisung."
+  },
+  {
+    "Item": 16,
+    "TARGET_SR": "self",
+    "assigned_articles": ["Art. 3 Abs. 1 Bst. e"],
+    "confidence": "high",
+    "reasoning": "«Tätigkeiten nach Artikel 3 Absatz 1 Buchstabe e»; klar interne Selbstverweisung."
+  },
+  {
+    "Item": 17,
+    "TARGET_SR": "self",
+    "assigned_articles": ["Art. 3 Abs. 1"],
+    "confidence": "high",
+    "reasoning": "«… Tätigkeit nach Artikel 3 Absatz 1 …»; interner Artikelverweis innerhalb derselben Verordnung."
+  },
+  {
+    "Item": 18,
+    "TARGET_SR": "self",
+    "assigned_articles": ["Art. 15–21", "Art. 19 Abs. 1"],
+    "confidence": "high",
+    "reasoning": "«Für die Durchführung gelten die Artikel 15–21 … In Abweichung von Artikel 19 Absatz 1 …»; beide Verweise sind eindeutig intern."
+  },
+  {
+    "Item": 19,
+    "TARGET_SR": "self",
+    "assigned_articles": ["Art. 10"],
+    "confidence": "high",
+    "reasoning": "«… gelten die Anforderungsstufen nach Artikel 10.»; kein externes SR, daher Selbstverweisung."
+  },
+  {
+    "Item": 20,
+    "TARGET_SR": "SR 832.30",
+    "assigned_articles": ["Art. 71–77"],
+    "confidence": "high",
+    "reasoning": "Dieselbe Passage wie Item 7, aber als artikel_reference erfasst; «… nach den Artikeln 71–77 der Verordnung … SR 832.30 …»; klarer externer Bereichsverweis."
+  },
+  {
+    "Item": 21,
+    "TARGET_SR": "self",
+    "assigned_articles": ["Art. 31"],
+    "confidence": "high",
+    "reasoning": "«… mit den Nachweisen nach Artikel 31 …»; interner Verweis auf Art. 31 derselben Verordnung."
+  },
+  {
+    "Item": 22,
+    "TARGET_SR": "self",
+    "assigned_articles": ["Art. 3 Abs. 1 Bst. a–d"],
+    "confidence": "high",
+    "reasoning": "«… Tätigkeiten nach Artikel 3 Absatz 1 Buchstaben a–d …»; interne Selbstverweisung."
+  },
+  {
+    "Item": 23,
+    "TARGET_SR": "self",
+    "assigned_articles": ["Art. 3 Abs. 1 Bst. a–d"],
+    "confidence": "high",
+    "reasoning": "Gleiche Struktur wie Item 22; interner Verweis auf Art. 3 Abs. 1 Buchst. a–d derselben Verordnung."
+  }
+]

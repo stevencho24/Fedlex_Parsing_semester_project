@@ -1,0 +1,111 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 362",
+    "assigned_articles": [
+      "Art. 1 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet explicitly cites 'Artikel 1 Absatz 2 des Bundesbeschlusses ... SR 362'; this article and paragraph clearly belong to SR 362."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 0.362.31",
+    "assigned_articles": "General reference - entire document",
+    "confidence": "high",
+    "reasoning": "The citation refers to the Schengen Association Agreement (SAA) as a whole ('im Geltungsbereich des Abkommens ... SR 0.362.31') without mentioning any specific article; thus it is a general reference to the entire agreement."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 0.142.392.68",
+    "assigned_articles": "General reference - entire document",
+    "confidence": "high",
+    "reasoning": "The snippet refers to the Dublin Association Agreement (DAA) as a whole ('im Geltungsbereich des Abkommens ... SR 0.142.392.68') with no specific article indicated; therefore it is a general reference to the entire agreement."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": "SR 0.362.31",
+    "assigned_articles": "General reference - entire document",
+    "confidence": "high",
+    "reasoning": "The text speaks of 'die internationalen Verpflichtungen der Schweiz aus dem SAA SR 0.362.31' without specifying particular provisions; this is a general reference to all obligations under the SAA, i.e., the document as a whole."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": "SR 0.142.392.68",
+    "assigned_articles": "General reference - entire document",
+    "confidence": "high",
+    "reasoning": "The phrase 'die internationalen Verpflichtungen der Schweiz aus dem ... DAA SR 0.142.392.68' refers to obligations under the DAA generally, with no article numbers; this is a document-level reference."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": "SR 0.362.31",
+    "assigned_articles": "General reference - entire document",
+    "confidence": "high",
+    "reasoning": "The snippet mentions 'die Umsetzung von Rechtsakten und Massnahmen in den Anwendungsbereichen des SAA SR 0.362.31' without any article citation; it concerns the agreement’s application area in general, so it is a general reference."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": "SR 0.142.392.68",
+    "assigned_articles": "General reference - entire document",
+    "confidence": "high",
+    "reasoning": "The text parallels the SAA reference and speaks of 'den Anwendungsbereichen ... des DAA SR 0.142.392.68' with no specific article; this is a general reference to the DAA."
+  },
+  {
+    "ITEM": 8,
+    "ARTICLE_EID": "art_10",
+    "TARGET_SR": "SR 0.362.31",
+    "assigned_articles": [
+      "Art. 9 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet explicitly states 'im Sinne von Artikel 9 Absatz 1 SAA SR 0.362.31'; this clearly links Art. 9 Abs. 1 to SR 0.362.31."
+  },
+  {
+    "ITEM": 9,
+    "ARTICLE_EID": "art_10",
+    "TARGET_SR": "SR 0.142.392.68",
+    "assigned_articles": [
+      "Art. 6 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "The text explicitly cites 'Artikel 6 Absatz 1 DAA SR 0.142.392.68'; this article and paragraph are clearly part of SR 0.142.392.68."
+  },
+  {
+    "ITEM": 10,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 7 SAA",
+      "Art. 4 DAA"
+    ],
+    "confidence": "high",
+    "reasoning": "This is an artikel_reference item without a TARGET_SR. The snippet refers to 'Artikel 7 SAA und Artikel 4 DAA'; these are external articles in the SAA and DAA, not self-references within the current SR 362.1 document. As such, they are recorded as cross-references rather than assigned to a specific TARGET_SR here."
+  },
+  {
+    "ITEM": 11,
+    "ARTICLE_EID": "art_8",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 5 Abs. 1 (interne Verweisung)"
+    ],
+    "confidence": "high",
+    "reasoning": "The phrase 'nach Artikel 5 Absatz 1' appears without any external SR or acronym; within the context of the ordinance, this is an internal cross-reference to its own Art. 5 Abs. 1, not to another SR document."
+  },
+  {
+    "ITEM": 12,
+    "ARTICLE_EID": "art_11",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 4 Abs. 3 (interne Verweisung)"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet 'gemäss Artikel 4 Absatz 3' contains no external SR or acronym; syntactically it is a self-reference to Art. 4 Abs. 3 of the same ordinance, not to another SR document."
+  }
+]

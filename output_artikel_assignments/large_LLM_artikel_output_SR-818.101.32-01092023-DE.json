@@ -1,0 +1,289 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 818.101",
+    "assigned_articles": [
+      "Art. 16 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Satz nennt ausdrücklich «Artikel 16 Absatz 2 des Epidemiengesetzes … SR 818.101 (EpG)»; eindeutige Zuordnung dieses Artikels zu SR 818.101."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 832.102",
+    "assigned_articles": [
+      "Art. 62"
+    ],
+    "confidence": "high",
+    "reasoning": "Formulierung «Analysen der Grundversorgung nach Artikel 62 der Verordnung … SR 832.102 über die Krankenversicherung»; Art. 62 ist klar dieser Verordnung zugeordnet."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": "SR 832.10",
+    "assigned_articles": [
+      "Art. 52 Abs. 1 Bst. a Ziff. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "Text: «gestützt auf Artikel 52 Absatz 1 Buchstabe a Ziffer 1 des Bundesgesetzes … SR 832.10 über die Krankenversicherung (KVG)»; eindeutige Verknüpfung."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_6",
+    "TARGET_SR": "SR 811.11",
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Es wird nur «nach dem Medizinalberufegesetz … SR 811.11 (MedBG)» erwähnt, ohne Artikelangabe; daher allgemeine Gesetzesreferenz ohne spezifischen Artikel."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": "SR 414.20",
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Hinweis auf «nach dem … Gesetz … SR 414.20 (HFKG) akkreditierten … Hochschule» ohne Artikelnummer; somit allgemeine Verweis auf das HFKG."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": "SR 811.11",
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "«eine abgeschlossene universitäre Ausbildung nach dem MedBG SR 811.11»; keine Artikel- oder Absatzangabe, daher nur generelle Gesetzesreferenz."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_8",
+    "TARGET_SR": "SR 412.10",
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "«Abschlüsse nach dem Berufsbildungsgesetz … SR 412.10 (BBG)» ohne konkrete Artikel; allgemeiner Verweis auf das BBG."
+  },
+  {
+    "ITEM": 8,
+    "ARTICLE_EID": "art_8",
+    "TARGET_SR": "SR 414.20",
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "«Studium einer nach dem HFKG SR 414.20 akkreditierten … Hochschule»; keine Artikelnummer, daher allgemeine Referenz auf das HFKG."
+  },
+  {
+    "ITEM": 9,
+    "ARTICLE_EID": "art_8",
+    "TARGET_SR": "SR 811.11",
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "«Ausbildung nach dem MedBG SR 811.11» ohne Artikelangabe; somit nur genereller Gesetzesverweis."
+  },
+  {
+    "ITEM": 10,
+    "ARTICLE_EID": "art_14",
+    "TARGET_SR": "SR 946.512",
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "«nach der Akkreditierungs- und Bezeichnungsverordnung vom 17. Juni 1996 SR 946.512» ohne Artikel; allgemeine Verordnung als Ganzes, keine spezifische Norm genannt."
+  },
+  {
+    "ITEM": 11,
+    "ARTICLE_EID": "art_24",
+    "TARGET_SR": "SR 812.214.5",
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "«nach der Heilmittel-Gebührenverordnung … SR 812.214.5» ohne Artikelangabe; allgemeiner Verweis auf die Verordnung."
+  },
+  {
+    "ITEM": 12,
+    "ARTICLE_EID": "art_13",
+    "TARGET_SR": "SR 818.101",
+    "assigned_articles": [
+      "Art. 12 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "«Meldevorgangs nach Artikel 12 Absatz 2 EpG»; EpG ist SR 818.101 gemäss Präambel; klare Zuordnung."
+  },
+  {
+    "ITEM": 13,
+    "ARTICLE_EID": "art_15",
+    "TARGET_SR": "SR 818.101",
+    "assigned_articles": [
+      "Art. 12 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "«Meldepflichten nach Artikel 12 Absatz 2 EpG»; wiederum eindeutige Bezugnahme auf Art. 12 Abs. 2 EpG (SR 818.101)."
+  },
+  {
+    "ITEM": 14,
+    "ARTICLE_EID": "art_18",
+    "TARGET_SR": "SR 818.101",
+    "assigned_articles": [
+      "Art. 17"
+    ],
+    "confidence": "high",
+    "reasoning": "«Referenzzentren oder … nach Artikel 17 EpG»; EpG = SR 818.101; klarer Verweis auf Art. 17."
+  },
+  {
+    "ITEM": 15,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 62"
+    ],
+    "confidence": "high",
+    "reasoning": "Selber Satz wie bei ITEM 2, aber hier ohne explizite SR-Angabe; «Artikel 62 der Verordnung vom 27. Juni 1995 über die Krankenversicherung» ist die Verordnung SR 832.102. Da dies jedoch ein artikel_reference ohne TARGET_SR ist, handelt es sich um einen ausgehenden Verweis; SR bleibt daher leer/null, Artikelangabe wird als externer Verweis festgehalten."
+  },
+  {
+    "ITEM": 16,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 52 Abs. 1 Bst. a Ziff. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "«gestützt auf Artikel 52 Absatz 1 Buchstabe a Ziffer 1 … über die Krankenversicherung (KVG)»; dies ist Art. 52 Abs. 1 Bst. a Ziff. 1 KVG (SR 832.10). Als artikel_reference ohne TARGET_SR wird nur der Artikel als externer Verweis erfasst."
+  },
+  {
+    "ITEM": 17,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 52 Abs. 1 Bst. a Ziff. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "«nicht gestützt auf Artikel 52 Absatz 1 Buchstabe a Ziffer 1 KVG geregelt»; gleicher externe Artikel wie in ITEM 16, hier erneut als externer Verweis ohne TARGET_SR."
+  },
+  {
+    "ITEM": 18,
+    "ARTICLE_EID": "art_11",
+    "TARGET_SR": "SR 818.101.32",
+    "assigned_articles": [
+      "Art. 5"
+    ],
+    "confidence": "high",
+    "reasoning": "«Qualifikation … nach Artikel 5» bezieht sich auf einen Artikel derselben Verordnung (SR 818.101.32); klarer interner Selbstverweis."
+  },
+  {
+    "ITEM": 19,
+    "ARTICLE_EID": "art_11",
+    "TARGET_SR": "SR 818.101.32",
+    "assigned_articles": [
+      "Art. 8"
+    ],
+    "confidence": "high",
+    "reasoning": "«Personal nach Artikel 8»; ebenfalls interner Verweis auf Art. 8 derselben Verordnung."
+  },
+  {
+    "ITEM": 20,
+    "ARTICLE_EID": "art_12",
+    "TARGET_SR": "SR 818.101.32",
+    "assigned_articles": [
+      "Art. 4",
+      "Art. 5",
+      "Art. 6",
+      "Art. 7",
+      "Art. 8",
+      "Art. 9",
+      "Art. 10"
+    ],
+    "confidence": "high",
+    "reasoning": "«Voraussetzungen nach den Artikeln 4–10»; dies ist ein Bereich interner Artikel derselben Verordnung; Bereich in Einzelartikel aufgelöst."
+  },
+  {
+    "ITEM": 21,
+    "ARTICLE_EID": "art_12",
+    "TARGET_SR": "SR 818.101.32",
+    "assigned_articles": [
+      "Art. 5",
+      "Art. 6",
+      "Art. 7"
+    ],
+    "confidence": "high",
+    "reasoning": "«(Art. 5–7)»; klarer interner Bereichsverweis auf die Artikel 5 bis 7 derselben Verordnung."
+  },
+  {
+    "ITEM": 22,
+    "ARTICLE_EID": "art_12",
+    "TARGET_SR": "SR 818.101.32",
+    "assigned_articles": [
+      "Art. 11 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "«Angaben nach Artikel 11 Absatz 2»; interner Verweis auf Art. 11 Abs. 2 derselben Verordnung."
+  },
+  {
+    "ITEM": 23,
+    "ARTICLE_EID": "art_14",
+    "TARGET_SR": "SR 818.101.32",
+    "assigned_articles": [
+      "Art. 13"
+    ],
+    "confidence": "high",
+    "reasoning": "«periodischen Inspektionen nach Artikel 13»; interner Selbstverweis auf Art. 13 der Verordnung."
+  },
+  {
+    "ITEM": 24,
+    "ARTICLE_EID": "art_15",
+    "TARGET_SR": "SR 818.101.32",
+    "assigned_articles": [
+      "Art. 16",
+      "Art. 17",
+      "Art. 18",
+      "Art. 19",
+      "Art. 20",
+      "Art. 21"
+    ],
+    "confidence": "high",
+    "reasoning": "«Pflichten nach den Artikeln 16–20 sowie die Anforderungen nach Artikel 21»; interner Bereichsverweis auf 16–20 plus Art. 21 derselben Verordnung."
+  },
+  {
+    "ITEM": 25,
+    "ARTICLE_EID": "art_15",
+    "TARGET_SR": "SR 818.101",
+    "assigned_articles": [
+      "Art. 12 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "«Meldepflichten nach Artikel 12 Absatz 2 EpG»; EpG = SR 818.101; externer Verweis auf Art. 12 Abs. 2 EpG."
+  },
+  {
+    "ITEM": 26,
+    "ARTICLE_EID": "art_17",
+    "TARGET_SR": "SR 818.101.32",
+    "assigned_articles": [
+      "Art. 10"
+    ],
+    "confidence": "high",
+    "reasoning": "«nach Artikel 10 erforderliche Qualitätsmanagementsystem»; interner Verweis auf Art. 10 derselben Verordnung."
+  },
+  {
+    "ITEM": 27,
+    "ARTICLE_EID": "art_17",
+    "TARGET_SR": "SR 818.101.32",
+    "assigned_articles": [
+      "Art. 10"
+    ],
+    "confidence": "high",
+    "reasoning": "Auch hier «nach Artikel 10 erforderliche Qualitätsmanagementsystem»; wiederum interner Selbstverweis auf Art. 10."
+  },
+  {
+    "ITEM": 28,
+    "ARTICLE_EID": "art_20",
+    "TARGET_SR": "SR 818.101.32",
+    "assigned_articles": [
+      "Art. 11 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "«Änderung von Angaben nach Artikel 11 Absatz 2»; interner Verweis auf Art. 11 Abs. 2 derselben Verordnung."
+  },
+  {
+    "ITEM": 29,
+    "ARTICLE_EID": "art_28",
+    "TARGET_SR": "SR 818.101",
+    "assigned_articles": [
+      "Art. 5 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "«Anerkennungen nach Artikel 5 Absatz 1 des Epidemiengesetzes vom 18. Dezember 1970»; dies bezieht sich auf das frühere EpG (ebenfalls SR 818.101, alte Fassung); klarer Verweis auf Art. 5 Abs. 1."
+  }
+]

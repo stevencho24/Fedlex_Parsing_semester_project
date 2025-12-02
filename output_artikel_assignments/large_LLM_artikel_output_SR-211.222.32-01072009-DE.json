@@ -1,0 +1,96 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 101",
+    "assigned_articles": [
+      "Art. 122"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet explicitly states 'gestützt auf Artikel 122 der Bundesverfassung SR 101'; the preposition and apposition clearly link Art. 122 to SR 101."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 0.211.230.02",
+    "assigned_articles": "General reference - entire document",
+    "confidence": "high",
+    "reasoning": "The text 'in Ausführung des Haager Übereinkommens vom 25. Oktober 1980 SR 0.211.230.02 über die zivilrechtlichen Aspekte internationaler Kindesentführung' cites the convention as a whole without mentioning any specific article."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 0.211.230.01",
+    "assigned_articles": "General reference - entire document",
+    "confidence": "high",
+    "reasoning": "The phrase 'des Europäischen Übereinkommens vom 20. Mai 1980 SR 0.211.230.01 über die Anerkennung und Vollstreckung ...' refers to the entire convention; no article numbers are given."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 0.211.231.011",
+    "assigned_articles": "General reference - entire document",
+    "confidence": "high",
+    "reasoning": "The snippet 'in Ausführung des Haager Übereinkommens vom 19. Oktober 1996 SR 0.211.231.011 ...' cites the whole convention; there is no specific article reference syntactically tied to the SR."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 0.211.232.1",
+    "assigned_articles": "General reference - entire document",
+    "confidence": "high",
+    "reasoning": "The wording 'des Haager Übereinkommens vom 13. Januar 2000 SR 0.211.232.1 über den internationalen Schutz von Erwachsenen' is a general reference to the convention without any article-level citation."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "The phrase 'nach Artikel 3' is an internal cross-reference within the same ordinance; no external SR is mentioned in the snippet, so this is a self-reference to Art. 3 of SR 211.222.32."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 1 Abs. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "The text 'Soweit Artikel 1 Absatz 3 nichts anderes bestimmt' clearly refers to another provision of the same document; there is no SR link, so it is an internal reference to Art. 1 Abs. 3."
+  },
+  {
+    "ITEM": 8,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 40 Abs. 3 HKsÜ",
+      "Art. 38 Abs. 3 HEsÜ"
+    ],
+    "confidence": "medium",
+    "reasoning": "The snippet mentions 'Artikel 40 Absatz 3 des HKsÜ und Artikel 38 Absatz 3 des HEsÜ'. These are articles of the Hague conventions (external SRs), but the concrete SR numbers are not present in this line. As item_type is 'artikel_reference' with no TARGET_SR, this is treated as cross-reference information only, capturing the cited articles with their convention acronyms."
+  },
+  {
+    "ITEM": 9,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 13 Abs. 1 lit. b HKÜ"
+    ],
+    "confidence": "medium",
+    "reasoning": "The phrase 'nach Artikel 13 Absatz 1 Buchstabe b HKÜ' refers to a specific provision of the Hague Child Abduction Convention. No SR number is given here and no TARGET_SR is defined for this item, so it is recorded as an external article reference with the convention acronym."
+  },
+  {
+    "ITEM": 10,
+    "ARTICLE_EID": "art_14",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 26 HKÜ",
+      "Art. 5 Abs. 3 ESÜ"
+    ],
+    "confidence": "medium",
+    "reasoning": "The snippet states 'Artikel 26 HKÜ und Artikel 5 Absatz 3 ESÜ sind ... anwendbar.' These are explicit references to specific articles of the HKÜ and ESÜ conventions. As no TARGET_SR is present, they are treated as external cross-references identified by acronym."
+  }
+]

@@ -1,0 +1,140 @@
+[
+  {
+    "Item": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 741.71",
+    "assigned_articles": [
+      "Art. 7 Abs. 5",
+      "Art. 11 Abs. 4",
+      "Art. 12b Abs. 3",
+      "Art. 18 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Präambel nennt ausdrücklich: «gestützt auf die Artikel 7 Absatz 5, 11 Absatz 4, 12b Absatz 3 und 18 Absatz 1 … SR 741.71 (NSAG)»; alle genannten Artikel gehören damit direkt zum NSAG (SR 741.71)."
+  },
+  {
+    "Item": 2,
+    "ARTICLE_EID": "art_10",
+    "TARGET_SR": "SR 631.061",
+    "assigned_articles": [
+      "Anhang 72a"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Satz lautet: «… richtet sich nach Anhang 72a der Datenbearbeitungsverordnung für das BAZG vom 23. August 2017 SR 631.061.»; der einzige konkret genannte Normteil ist Anhang 72a dieser Verordnung."
+  },
+  {
+    "Item": 3,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": "SR 741.71",
+    "assigned_articles": [
+      "Art. 6a",
+      "Art. 9",
+      "Art. 9a",
+      "Art. 12a–12f"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Klammerzusatz steht «(Art. 6a, 9 und 9a NSAG)» und im Text «… nach den Artikeln 12a–12f NSAG …»; alle diese Artikel werden ausdrücklich mit dem NSAG (SR 741.71) verknüpft."
+  },
+  {
+    "Item": 4,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": "SR 741.71",
+    "assigned_articles": [
+      "Art. 7",
+      "Art. 7 Abs. 4"
+    ],
+    "confidence": "high",
+    "reasoning": "Klammerzusatz «(Art. 7 NSAG)» und im Satz «… nach Artikel 7 Absatz 4 NSAG …»; damit sind sowohl der Grundartikel 7 als auch konkret dessen Absatz 4 des NSAG referenziert."
+  },
+  {
+    "Item": 5,
+    "ARTICLE_EID": "art_6",
+    "TARGET_SR": "SR 741.71",
+    "assigned_articles": [
+      "Art. 9a Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Klammerzusatz «(Art. 9a Abs. 1 NSAG)» verweist eindeutig auf Art. 9a Abs. 1 NSAG."
+  },
+  {
+    "Item": 6,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": "SR 741.71",
+    "assigned_articles": [
+      "Art. 11",
+      "Art. 14 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "Klammerzusatz «(Art. 11 NSAG)» und im Text «… nach Artikel 14 Absatz 1 NSAG …»; beide Artikel gehören zum NSAG (SR 741.71)."
+  },
+  {
+    "Item": 7,
+    "ARTICLE_EID": "art_8",
+    "TARGET_SR": "SR 741.71",
+    "assigned_articles": [
+      "Art. 11"
+    ],
+    "confidence": "high",
+    "reasoning": "Der einzige Hinweis lautet «(Art. 11 NSAG)»; damit wird Art. 11 NSAG referenziert."
+  },
+  {
+    "Item": 8,
+    "ARTICLE_EID": "art_9",
+    "TARGET_SR": "SR 741.71",
+    "assigned_articles": [
+      "Art. 14"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Klammerzusatz «(Art. 14 NSAG)» verweist eindeutig auf Art. 14 NSAG; kein Absatz ist genannt."
+  },
+  {
+    "Item": 9,
+    "ARTICLE_EID": "art_10",
+    "TARGET_SR": "SR 741.71",
+    "assigned_articles": [
+      "Art. 12a–12f"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Klammerzusatz «(Art. 12a–12f NSAG)» nennt explizit den Artikelsbereich 12a bis 12f des NSAG."
+  },
+  {
+    "Item": 10,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": "self",
+    "assigned_articles": [
+      "Art. 12a–12f"
+    ],
+    "confidence": "high",
+    "reasoning": "artikel_reference ohne externes SR; «… nach den Artikeln 12a–12f NSAG …» ist eine inhaltliche Selbstreferenz innerhalb des NSAG, nicht zu einem anderen SR-Dokument. Daher als interne Verweisung (self) mit den Artikeln 12a–12f."
+  },
+  {
+    "Item": 11,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": "self",
+    "assigned_articles": [
+      "Art. 7 Abs. 4"
+    ],
+    "confidence": "high",
+    "reasoning": "«… nach Artikel 7 Absatz 4 NSAG …»; kein anderes SR genannt, daher interne Verweisung innerhalb des NSAG (self) auf Art. 7 Abs. 4."
+  },
+  {
+    "Item": 12,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": "self",
+    "assigned_articles": [
+      "Art. 14 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "«… nach Artikel 14 Absatz 1 NSAG …»; wiederum nur NSAG, kein anderes SR, somit Selbstreferenz auf Art. 14 Abs. 1 NSAG."
+  },
+  {
+    "Item": 13,
+    "ARTICLE_EID": "art_9",
+    "TARGET_SR": "self",
+    "assigned_articles": [
+      "Art. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "«… entsprechend den Vorgaben nach Artikel 3 an das Fahrzeug anzubringen.»; kein SR oder Akronym, daher reine interne Verweisung innerhalb derselben Verordnung auf Art. 3."
+  }
+]

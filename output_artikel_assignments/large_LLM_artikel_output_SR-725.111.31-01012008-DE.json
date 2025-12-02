@@ -1,0 +1,153 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 725.111",
+    "assigned_articles": [
+      "Art. 33"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Satzteil 'gestützt auf Artikel 33 der Nationalstrassenverordnung ... SR 725.111 (NSV)' verweist ausdrücklich auf Artikel 33 der NSV; syntaktisch klar mit dieser SR verknüpft."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 725.116.21",
+    "assigned_articles": [
+      "Art. 6"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Satzteil 'und Artikel 6 der Verordnung ... SR 725.116.21 ... (MinVV)' verweist ausdrücklich auf Artikel 6 der MinVV; eindeutige direkte Zuordnung."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": "SR 725.11",
+    "assigned_articles": [
+      "Art. 38"
+    ],
+    "confidence": "high",
+    "reasoning": "Formulierung 'richtet sich nach Artikel 38 des Bundesgesetzes ... SR 725.11 über die Nationalstrassen (NSG)' verknüpft Art. 38 eindeutig mit SR 725.11."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": "SR 725.11",
+    "assigned_articles": [
+      "Art. 45"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Klammerzusatz '(Art. 45 NSG SR 725.11 )' ist Art. 45 direkt mit NSG/SR 725.11 verbunden; lokale Acronym-Definition bestätigt dies."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": "SR 725.116.2",
+    "assigned_articles": [
+      "Art. 11 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Text: 'nach Artikel 11 Absatz 2 des Bundesgesetzes ... SR 725.116.2 über die Verwendung der zweckgebundenen Mineralölsteuer (MinVG)'; klare direkte Nennung von Art. 11 Abs. 2 dieser SR."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_14",
+    "TARGET_SR": "SR 172.31",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "medium",
+    "reasoning": "Es wird nur 'die in der Kommissionenverordnung vom 3. Juni 1996 SR 172.31 enthaltenen Ansätze' erwähnt, ohne konkrete Artikelangabe; daher allgemeiner Verweis auf die Verordnung insgesamt."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_14",
+    "TARGET_SR": "SR 711.3",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "medium",
+    "reasoning": "Formulierung 'die über die in der Verordnung vom 10. Juli 1968 SR 711.3 ... enthaltenen Ansätze hinausgehen' nennt keine spezifischen Artikel; es handelt sich um einen generellen Bezug auf die Verordnung."
+  },
+  {
+    "ITEM": 8,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 725.111",
+    "assigned_articles": [
+      "Art. 20",
+      "Art. 27"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet enthält 'der nach Artikel 20 NSV vereinbarte Kaufpreis' und '(Art. 27 NSV)'; NSV ist in der Präambel als SR 725.111 definiert, daher gehören Art. 20 und 27 zu dieser SR."
+  },
+  {
+    "ITEM": 9,
+    "ARTICLE_EID": "art_10",
+    "TARGET_SR": "SR 725.111",
+    "assigned_articles": [
+      "Art. 45"
+    ],
+    "confidence": "high",
+    "reasoning": "Text: 'gehen nach Artikel 45 NSV ins Eigentum des Bundes über.'; NSV = SR 725.111 gemäss Präambel, somit eindeutiger Verweis auf Art. 45 dieser Verordnung."
+  },
+  {
+    "ITEM": 10,
+    "ARTICLE_EID": "art_15",
+    "TARGET_SR": "SR 725.111",
+    "assigned_articles": [
+      "Art. 34"
+    ],
+    "confidence": "high",
+    "reasoning": "Klammerzusatz '(Art. 34 NSV)' verweist direkt auf Artikel 34 der NSV; NSV ist als SR 725.111 definiert."
+  },
+  {
+    "ITEM": 11,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 20"
+    ],
+    "confidence": "high",
+    "reasoning": "Artikelreferenz 'Artikel 20 NSV' bezieht sich auf die in der Präambel definierte NSV (SR 725.111). Da diese Referenz bereits in ITEM 8 als externer Verweis zugeordnet wurde, handelt es sich hier um dieselbe externe Artikelreferenz; kein neuer SR-Link, sondern Wiederholung."
+  },
+  {
+    "ITEM": 12,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 27"
+    ],
+    "confidence": "high",
+    "reasoning": "Klammer '(Art. 27 NSV)' verweist auf denselben externen Artikel 27 NSV (SR 725.111) wie in ITEM 8; daher keine neue SR-Zuordnung, sondern Wiederholung einer bereits erfassten externen Referenz."
+  },
+  {
+    "ITEM": 13,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 38"
+    ],
+    "confidence": "high",
+    "reasoning": "Text wiederholt 'Artikel 38 ... (NSG)', der in ITEM 3 bereits eindeutig SR 725.11 zugeordnet wurde; hier keine neue SR-Link-Information, sondern dieselbe externe Artikelreferenz."
+  },
+  {
+    "ITEM": 14,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "Formulierung 'Artikel 1 gilt sinngemäss.' bezieht sich auf Artikel 1 derselben Verordnung (interne Selbstreferenz); kein externer SR-Bezug."
+  },
+  {
+    "ITEM": 15,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 11 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Wiederholung der Formulierung 'nach Artikel 11 Absatz 2 des Bundesgesetzes ... (MinVG)', die in ITEM 5 bereits SR 725.116.2 zugeordnet wurde; hier keine neue SR-Link-Information, sondern dieselbe externe Artikelreferenz."
+  }
+]

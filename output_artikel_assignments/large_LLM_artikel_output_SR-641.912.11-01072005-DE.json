@@ -1,0 +1,30 @@
+[
+  {
+    "Item": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 641.91",
+    "assigned_articles": [
+      "Art. 5 Abs. 4"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet explicitly cites 'Artikel 5 Absatz 4 des Zinsbesteuerungsgesetzes ... SR 641.91 (ZBStG)'; the article number and paragraph are directly linked to the cited SR."
+  },
+  {
+    "Item": 2,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 642.212",
+    "assigned_articles": "General reference - entire document",
+    "confidence": "high",
+    "reasoning": "The snippet refers generally to 'die Verordnung vom 29. November 1996 SR 642.212 über die Verzinsung ausstehender Verrechnungssteuern' without mentioning any specific article; thus it is a general reference to the whole ordinance."
+  },
+  {
+    "Item": 3,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 5 Abs. 4"
+    ],
+    "confidence": "high",
+    "reasoning": "This is an artikel_reference item (self-reference within the current document context). The snippet contains 'Artikel 5 Absatz 4 des Zinsbesteuerungsgesetzes'; no external SR is syntactically linked here, so it is treated as an internal reference to Art. 5 Abs. 4 of the current law."
+  }
+]

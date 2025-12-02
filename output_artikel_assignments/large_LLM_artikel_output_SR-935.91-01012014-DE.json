@@ -1,0 +1,114 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 101",
+    "assigned_articles": [
+      "Art. 63 Abs. 1",
+      "Art. 95",
+      "Art. 97"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Formulierung «gestützt auf die Artikel 63 Absatz 1, 95 und 97 der Bundesverfassung SR 101» verknüpft die genannten Artikel syntaktisch direkt mit SR 101; daher klare Zuordnung dieser drei BV-Artikel."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": "SR 412.10",
+    "assigned_articles": [
+      "Art. 43"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Snippet steht «… nach Artikel 43 des Berufsbildungsgesetzes … SR 412.10». Artikel 43 ist unmittelbar mit dem Berufsbildungsgesetz (SR 412.10) verbunden; damit eindeutige Zuordnung zu Art. 43 BBG."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": "SR 412.10",
+    "assigned_articles": [
+      "Art. 43"
+    ],
+    "confidence": "high",
+    "reasoning": "Auch hier lautet der Text «… nach Artikel 43 des Berufsbildungsgesetzes … SR 412.10». Die gleiche syntaktische Struktur wie bei ITEM 2; daher ebenfalls klare Zuordnung zu Art. 43 BBG."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«… nach Artikel 43 des Berufsbildungsgesetzes …» nennt keinen SR-Link im Snippet und bezieht sich auf dieselbe Passage wie ITEM 2, ist hier aber als artikel_reference ohne TARGET_SR erfasst. Gemäss Regeln ist dies als Selbstverweis bzw. interner Kontext des aktuellen Dokuments zu behandeln, nicht als neue SR-Zuordnung."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«… Aktivitäten nach Artikel 1 Absatz 2 Buchstaben c–e …» verweist offensichtlich auf Art. 1 desselben Gesetzes; kein externer SR-Kontext vorhanden, daher reine Selbstreferenz innerhalb des aktuellen Dokuments."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "Inhaltlich identisch strukturiert zu ITEM 4, aber in Art. 5. Der Verweis «nach Artikel 43 des Berufsbildungsgesetzes» ist bereits über ITEM 3 mit SR 412.10 verknüpft; als artikel_reference ohne TARGET_SR ist dies hier als interner Verweis/Selbstreferenz zu werten."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_6",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«… Aktivitäten nach Artikel 1 Absatz 2 Buchstaben c–e anbieten …» verweist auf Art. 1 desselben Gesetzes; kein externer SR-Hinweis, daher interne Artikelverweisung."
+  },
+  {
+    "ITEM": 8,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«… nach den Artikeln 4 und 5 erfüllen …» bezieht sich auf andere Artikel desselben Gesetzes; es wird kein anderes SR-Dokument genannt, somit reine Selbstreferenz."
+  },
+  {
+    "ITEM": 9,
+    "ARTICLE_EID": "art_9",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«… Aktivitäten nach Artikel 1 Absatz 2 Buchstaben c–e anbieten …» ist wiederum ein Verweis auf Art. 1 des aktuellen Gesetzes; kein externer SR-Bezug vorhanden."
+  },
+  {
+    "ITEM": 10,
+    "ARTICLE_EID": "art_15",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«… Aktivitäten nach Artikel 1 Absatz 2 Buchstaben c–e anbietet.» verweist intern auf Art. 1; es fehlt jeglicher Hinweis auf ein anderes SR-Dokument, daher Selbstreferenz."
+  },
+  {
+    "ITEM": 11,
+    "ARTICLE_EID": "art_19",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«… Betriebe, die Aktivitäten nach Artikel 1 Absatz 2 Buchstaben c–e anbieten …» ist wiederum ein Verweis auf Art. 1 desselben Gesetzes; kein externer SR-Link, somit interne Artikelreferenz."
+  }
+]

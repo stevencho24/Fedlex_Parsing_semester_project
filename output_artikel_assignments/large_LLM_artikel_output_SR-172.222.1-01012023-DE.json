@@ -1,0 +1,342 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 101",
+    "assigned_articles": [
+      "Art. 113 Abs. 1",
+      "Art. 173 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Formulierung «gestützt auf die Artikel 113 Absatz 1 und 173 Absatz 2 der Bundesverfassung SR 101» verknüpft die genannten Artikel grammatikalisch eindeutig mit SR 101."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": "SR 831.40",
+    "assigned_articles": "General reference - entire document",
+    "confidence": "high",
+    "reasoning": "Es wird nur «dem Bundesgesetz vom 25. Juni 1982 SR 831.40 … (BVG)» genannt, ohne konkrete Artikelangabe; daher allgemeine Gesetzesverweisung."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": "SR 831.42",
+    "assigned_articles": "General reference - entire document",
+    "confidence": "high",
+    "reasoning": "«dem Freizügigkeitsgesetz vom 17. Dezember 1993 SR 831.42 (FZG)» ohne Artikelangabe; allgemeine Verweisung auf das ganze Gesetz."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": "SR 172.220.1",
+    "assigned_articles": [
+      "Art. 32b"
+    ],
+    "confidence": "high",
+    "reasoning": "«Arbeitgeber nach Artikel 32b des Bundespersonalgesetzes … SR 172.220.1 (BPG)»; der Artikel 32b ist direkt mit dem BPG (SR 172.220.1) verknüpft."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": "SR 830.1",
+    "assigned_articles": [
+      "Art. 72",
+      "Art. 73",
+      "Art. 74",
+      "Art. 75"
+    ],
+    "confidence": "high",
+    "reasoning": "«richten sich nach den Artikeln 72–75 des Bundesgesetzes … SR 830.1»; der Bereich 72–75 gehört eindeutig zu SR 830.1."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_10",
+    "TARGET_SR": "SR 831.40",
+    "assigned_articles": [
+      "Art. 53 Abs. 1",
+      "Art. 52a Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet und acronym-Kontext nennen «Artikel 53 Absatz 1 BVG» sowie im Hinweis «Siehe … Art. 52a Abs. 1 BVG»; BVG ist SR 831.40."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_11",
+    "TARGET_SR": "SR 172.220.1",
+    "assigned_articles": [
+      "Art. 35 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "«Bestimmung der internen Beschwerdeinstanz nach Artikel 35 Absatz 1 BPG SR 172.220.1»; direkte Zuordnung."
+  },
+  {
+    "ITEM": 8,
+    "ARTICLE_EID": "art_12",
+    "TARGET_SR": "SR 172.220.1",
+    "assigned_articles": [
+      "Art. 32a Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "«… nach Artikel 32a Absatz 2 BPG SR 172.220.1 …»; der andere genannte Artikel 4 Abs. 2 bezieht sich ausdrücklich auf «dieses Gesetz» (Selbstverweisung) und nicht auf das BPG."
+  },
+  {
+    "ITEM": 9,
+    "ARTICLE_EID": "art_14",
+    "TARGET_SR": "SR 172.220.1",
+    "assigned_articles": "General reference - entire document",
+    "confidence": "medium",
+    "reasoning": "«unterstehen dem BPG SR 172.220.1» ohne Artikelangabe; allgemeine Unterstellung unter das BPG, keine konkrete Norm genannt."
+  },
+  {
+    "ITEM": 10,
+    "ARTICLE_EID": "art_18",
+    "TARGET_SR": "SR 831.42",
+    "assigned_articles": "General reference - entire document",
+    "confidence": "medium",
+    "reasoning": "«Die Freizügigkeitsleistung nach dem FZG SR 831.42»; FZG wird als Ganzes referenziert, kein bestimmter Artikel genannt."
+  },
+  {
+    "ITEM": 11,
+    "ARTICLE_EID": "art_21",
+    "TARGET_SR": "SR 172.222.034.1",
+    "assigned_articles": [
+      "Art. 74"
+    ],
+    "confidence": "high",
+    "reasoning": "«gemäss Artikel 74 der Verordnung … SR 172.222.034.1»; eindeutige Verknüpfung von Art. 74 mit dieser Verordnung."
+  },
+  {
+    "ITEM": 12,
+    "ARTICLE_EID": "art_23",
+    "TARGET_SR": "SR 172.220.1",
+    "assigned_articles": [
+      "Art. 32b Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "«(Art. 32b Abs. 1 BPG SR 172.220.1)»; klare Artikel- und Absatzangabe zum BPG."
+  },
+  {
+    "ITEM": 13,
+    "ARTICLE_EID": "art_24_a",
+    "TARGET_SR": "SR 831.40",
+    "assigned_articles": "General reference - entire document",
+    "confidence": "medium",
+    "reasoning": "«Unterdeckung im Sinne des BVG SR 831.40»; es wird auf den Begriff der Unterdeckung im BVG verwiesen, ohne konkrete Artikelnummer."
+  },
+  {
+    "ITEM": 14,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 32b"
+    ],
+    "confidence": "high",
+    "reasoning": "«Arbeitgeber nach Artikel 32b des Bundespersonalgesetzes … (BPG)»; dies ist eine Selbstverweisung auf denselben externen Artikel wie in ITEM 4, aber ohne explizite SR-Angabe. Da kein SR im Satz steht, gilt sie nach den Regeln als interne/strukturbezogene Referenz; kein TARGET_SR zuzuordnen."
+  },
+  {
+    "ITEM": 15,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 72",
+      "Art. 73",
+      "Art. 74",
+      "Art. 75"
+    ],
+    "confidence": "high",
+    "reasoning": "Wiederholung des Inhalts von ITEM 5, aber als artikel_reference ohne SR-Nennung; nach Vorgabe ist dies als Selbstverweisung/Strukturhinweis zu behandeln, nicht als erneute SR-Zuordnung."
+  },
+  {
+    "ITEM": 16,
+    "ARTICLE_EID": "art_6",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 10 Bst. a"
+    ],
+    "confidence": "high",
+    "reasoning": "«Die Kassenkommission (Art. 10 Bst. a) regelt:» verweist auf einen Artikel desselben Gesetzes; keine externe SR-Verknüpfung."
+  },
+  {
+    "ITEM": 17,
+    "ARTICLE_EID": "art_8",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 7 Abs. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "«… Vorsorgewerke ohne Arbeitnehmende (Art. 7 Abs. 3);» klar interne Artikelverweisung innerhalb des Dokuments."
+  },
+  {
+    "ITEM": 18,
+    "ARTICLE_EID": "art_11",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 8 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "«… Rückstellungen nach Artikel 8 Absatz 2;» interne Verweisung, kein SR im Kontext."
+  },
+  {
+    "ITEM": 19,
+    "ARTICLE_EID": "art_11",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 7 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "«… gemeinschaftlicher Vorsorgewerke (Art. 7 Abs. 2);» interne Strukturverweisung."
+  },
+  {
+    "ITEM": 20,
+    "ARTICLE_EID": "art_11",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 15 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "«… Anlagestrategien (Art. 15 Abs. 2);» Verweis auf anderen Artikel desselben Gesetzes."
+  },
+  {
+    "ITEM": 21,
+    "ARTICLE_EID": "art_11",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 6 Abs. 4"
+    ],
+    "confidence": "high",
+    "reasoning": "«… Datenbearbeitungsreglement (Art. 6 Abs. 4);» interne Normverweisung."
+  },
+  {
+    "ITEM": 22,
+    "ARTICLE_EID": "art_15",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 7 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "«… nach Artikel 7 Absatz 1;» Selbstverweisung innerhalb des Dokuments."
+  },
+  {
+    "ITEM": 23,
+    "ARTICLE_EID": "art_15",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 7 Abs. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "«… nach Artikel 7 Absatz 3;» ebenfalls interne Verweisung."
+  },
+  {
+    "ITEM": 24,
+    "ARTICLE_EID": "art_15",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 8 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "«… insbesondere die Rückstellungen nach Artikel 8 Absatz 2 …»; interne Strukturverweisung."
+  },
+  {
+    "ITEM": 25,
+    "ARTICLE_EID": "art_15",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 7 Abs. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "«Bei Vorsorgewerken nach Artikel 7 Absatz 3 …»; interner Verweis, kein SR im Satz."
+  },
+  {
+    "ITEM": 26,
+    "ARTICLE_EID": "art_17",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 8 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "«Die Rückstellungen nach Artikel 8 Absatz 2 …»; interne Normverweisung."
+  },
+  {
+    "ITEM": 27,
+    "ARTICLE_EID": "art_18",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 71 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "«… deren Rechte durch Artikel 71 Absatz 1 der Verordnung … (PKB-Statuten) geregelt werden …»; Verweis auf eine andere, aber ohne SR bezeichnete Verordnung; mangels SR gilt dies als nicht zuzuordnende externe SR, sondern als allgemeine Verordnungserwähnung im Sinne der Regeln."
+  },
+  {
+    "ITEM": 28,
+    "ARTICLE_EID": "art_19",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 59 Abs. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "«… gestützt auf Artikel 59 Absatz 3 der PKB-Statuten …»; wiederum Verweis auf PKB-Statuten ohne SR-Angabe, daher keine TARGET_SR-Zuordnung."
+  },
+  {
+    "ITEM": 29,
+    "ARTICLE_EID": "art_20",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 19 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "«… nach Artikel 19 Absatz 1 …»; interne Verweisung innerhalb desselben Gesetzes."
+  },
+  {
+    "ITEM": 30,
+    "ARTICLE_EID": "art_20",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 19 Abs. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "«… (Art. 19 Abs. 3) …»; ebenfalls interne Normverweisung."
+  },
+  {
+    "ITEM": 31,
+    "ARTICLE_EID": "art_21",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 74"
+    ],
+    "confidence": "high",
+    "reasoning": "Inhaltlich identisch mit ITEM 11, aber ohne explizite SR-Nennung; nach Vorgabe ist dies als artikel_reference eine Wiederholung/Strukturangabe, nicht als neue SR-Zuordnung."
+  },
+  {
+    "ITEM": 32,
+    "ARTICLE_EID": "art_24",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 24a"
+    ],
+    "confidence": "high",
+    "reasoning": "«… Sanierungsbeiträge nach Artikel 24a …»; interner Verweis auf einen anderen Artikel desselben Gesetzes."
+  },
+  {
+    "ITEM": 33,
+    "ARTICLE_EID": "art_26",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 11"
+    ],
+    "confidence": "high",
+    "reasoning": "«… nimmt die bisherige Kassenkommission die Aufgaben nach Artikel 11 dieses Gesetzes wahr.»; klar interne Selbstverweisung."
+  },
+  {
+    "ITEM": 34,
+    "ARTICLE_EID": "art_29",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 26",
+      "Art. 32e Abs. 3 BPG",
+      "Art. 41a Abs. 1 BPG"
+    ],
+    "confidence": "medium",
+    "reasoning": "«Artikel 26 sowie Anhang (Art. 32e Abs. 3 und 41a Abs. 1 BPG)»; Art. 26 ist interner Artikel, die beiden BPG-Artikel sind externe, aber ohne explizite SR-Nummer. Nach den Regeln mangels SR im Satz als interne/strukturbezogene Referenzen zu behandeln, ohne TARGET_SR."
+  }
+]

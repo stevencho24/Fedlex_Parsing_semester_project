@@ -1,0 +1,75 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 734.0",
+    "assigned_articles": [
+      "Art. 3",
+      "Art. 3a",
+      "Art. 3b",
+      "Art. 21 Ziff. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Formulierung «gestützt auf die Artikel 3, 3a, 3b und 21 Ziffer 2 des Elektrizitätsgesetzes … SR 734.0» verknüpft die genannten Artikel direkt und eindeutig mit SR 734.0."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": "SR 734.1",
+    "assigned_articles": [
+      "Art. 8a Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "«Genehmigung von Schwachstromanlagen nach Artikel 8a Absatz 1 der Schwachstromverordnung … SR 734.1» enthält eine klare direkte Zuordnung von Art. 8a Abs. 1 zur Schwachstromverordnung SR 734.1."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_9",
+    "TARGET_SR": "SR 172.041.0",
+    "assigned_articles": [
+      "Allgemeine Verweisung – gesamtes Regelwerk / keine bestimmte Norm"
+    ],
+    "confidence": "medium",
+    "reasoning": "Die Passage verweist allgemein auf die Verordnung über Kosten und Entschädigungen im Verwaltungsverfahren (SR 172.041.0), ohne einen bestimmten Artikel zu nennen; es handelt sich um eine generelle Rechtsgrundlagenverweisung."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_12",
+    "TARGET_SR": "SR 281.1",
+    "assigned_articles": [
+      "Art. 80"
+    ],
+    "confidence": "high",
+    "reasoning": "«… im Sinne von Artikel 80 des Schuldbetreibungs- und Konkursgesetzes SR 281.1» verknüpft Art. 80 syntaktisch eindeutig mit dem Schuldbetreibungs- und Konkursgesetz SR 281.1."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Interne Verweisung innerhalb des aktuellen Erlasses (Art. 8a Abs. 1 der Schwachstromverordnung wird bereits in ITEM 2 SR 734.1 zugeordnet)"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Satz wiederholt die Formulierung aus ITEM 2, jedoch ohne explizite Nennung von SR 734.1; im Dokumentkontext ist dies eine inhaltliche Wiederholung/Erklärung und keine neue, eigenständige SR-Verknüpfung."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_6",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Interne Verweisung auf Art. 2 Abs. 1 Bst. a–f des gleichen Erlasses"
+    ],
+    "confidence": "high",
+    "reasoning": "«… nach Artikel 2 Absatz 1 Buchstaben a–f» enthält keinen Hinweis auf ein anderes SR-Dokument; dies ist eine reine Selbstverweisung innerhalb des aktuellen Erlasses."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_12",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Interne Verweisung; die externe Norm (Art. 80 SchKG, SR 281.1) ist bereits in ITEM 4 als SR-Link erfasst"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Text wiederholt inhaltlich die Aussage aus ITEM 4, jedoch ohne explizite SR-Angabe; im Sinne der Vorgaben ist dies eine interne Bezugnahme, während die eigentliche SR-Verknüpfung bereits durch ITEM 4 abgedeckt ist."
+  }
+]

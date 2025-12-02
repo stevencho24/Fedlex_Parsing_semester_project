@@ -1,0 +1,63 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 172.010",
+    "assigned_articles": [
+      "Art. 46a"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Formulierung «gestützt auf Artikel 46a des Regierungs- und Verwaltungsorganisationsgesetzes … SR 172.010» verknüpft den genannten Artikel direkt mit dem Gesetz SR 172.010; damit ist klar, dass Art. 46a dieses Gesetzes gemeint ist."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": "SR 172.041.1",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Satz «… gelten die Bestimmungen der Allgemeinen Gebührenverordnung … SR 172.041.1 (AllgGebV)» verweist pauschal auf die Bestimmungen der AllgGebV, ohne einzelne Artikel zu nennen; dies ist ein genereller Verweis auf die Verordnung als Ganzes."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": "SR 172.041.1",
+    "assigned_articles": [
+      "Art. 6 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Snippet heisst es «… zusätzlich zu den Auslagen nach Artikel 6 Absatz 2 AllgGebV SR 172.041.1 …»; der Artikel mit Absatzangabe ist unmittelbar mit der Abkürzung AllgGebV und der SR-Nummer verknüpft, daher gehört Art. 6 Abs. 2 zur AllgGebV (SR 172.041.1)."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": "SR 172.041.1",
+    "assigned_articles": [
+      "Art. 3 Abs. 2",
+      "Art. 13"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Text nennt «Artikel 3 Absatz 2 AllgGebV SR 172.041.1» und «Artikel 13 AllgGebV» im selben Satz; beide Artikel werden syntaktisch mit der AllgGebV verknüpft, für den ersten zusätzlich explizit mit der SR-Nummer. Damit beziehen sich Art. 3 Abs. 2 und Art. 13 auf SR 172.041.1."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Referenz «Artikel 6 Absatz 2 AllgGebV» erscheint hier ohne SR-Nummer; dieselbe Passage ist bereits in ITEM 3 mit explizitem Bezug zu SR 172.041.1 erfasst. Gemäss Vorgabe sind artikel_reference-Einträge, deren Artikel bereits einem externen SR zugeordnet wurden, als Selbst- bzw. interne Referenzen des aktuellen Dokuments zu behandeln."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Referenz «Artikel 3 Absatz 2 AllgGebV … Artikel 13 AllgGebV» ist in ITEM 4 bereits mit explizitem SR-Bezug (SR 172.041.1) erfasst. Als artikel_reference ohne eigene SR-Angabe und mit bereits zugeordneten Artikeln ist sie hier als interne Selbstreferenz des aktuellen Dokuments zu werten."
+  }
+]

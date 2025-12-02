@@ -1,0 +1,32 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "annex_u1/lvl_u1/art_2",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet says 'aus dem in Artikel 1 genannten Vertrage', which clearly refers to Article 1 of the same document. No external SR is mentioned, so this is an internal self-reference."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "annex_u1/lvl_u1/art_6",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 5"
+    ],
+    "confidence": "high",
+    "reasoning": "The text mentions 'den nach Artikel 5 zu berechnenden einfachen Zinsen' and 'den Drittel, den der Kanton Genf nach genanntem Artikel schuldet', both pointing to Article 5 of the same act. No external SR context is present."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "annex_u1/lvl_u1/art_10",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "The phrase 'des im vorstehenden Artikel 1 erwähnten Vertrages' is a clear internal reference to Article 1 of the same document. There is no SR link or other law cited."
+  }
+]

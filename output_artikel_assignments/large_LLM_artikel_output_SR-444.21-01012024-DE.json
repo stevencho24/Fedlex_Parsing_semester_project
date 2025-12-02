@@ -1,0 +1,86 @@
+[
+  {
+    "Item": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 172.010",
+    "assigned_articles": [
+      "Art. 57c Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Formulierung «gestützt auf Artikel 57c Absatz 2 des Regierungs- und Verwaltungsorganisationsgesetzes … SR 172.010 (RVOG)» verknüpft den genannten Artikel direkt mit SR 172.010."
+  },
+  {
+    "Item": 2,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 172.010.1",
+    "assigned_articles": [
+      "Art. 8a Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Satz steht «… mit beratender Funktion nach Artikel 8a Absatz 2 der Regierungs- und Verwaltungsorganisationsverordnung … SR 172.010.1 (RVOV)»; Art. 8a Abs. 2 ist damit ausdrücklich dieser Verordnung zugeordnet."
+  },
+  {
+    "Item": 3,
+    "ARTICLE_EID": "art_15",
+    "TARGET_SR": "SR 172.010.1",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "«Die Mitglieder der Kommission werden nach der RVOV SR 172.010.1 entschädigt.» enthält keinen konkreten Artikelverweis; es handelt sich um eine generelle Verweisung auf die Entschädigungsregelung der gesamten Verordnung."
+  },
+  {
+    "Item": 4,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«… mit beratender Funktion nach Artikel 8a Absatz 2 der Regierungs- und Verwaltungsorganisationsverordnung … (RVOV).» enthält zwar einen Artikelverweis, aber keinen SR-Hinweis; dies ist eine Wiederholung der in Item 2 bereits erfassten externen Verweisung und wird hier als reine Artikelreferenz ohne neue SR-Zuordnung gewertet."
+  },
+  {
+    "Item": 5,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 2 Buchstabe c",
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«… Einzelfälle nach Artikel 2 Buchstabe c …» verweist offensichtlich auf Art. 2 lit. c derselben Verordnung; kein externer SR-Bezug im Satz."
+  },
+  {
+    "Item": 6,
+    "ARTICLE_EID": "art_10",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 2 Buchstabe c",
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«… Empfehlungen nach Artikel 2 Buchstabe c …» ist ein innerer Verweis auf Art. 2 lit. c des gleichen Erlasses; kein SR genannt."
+  },
+  {
+    "Item": 7,
+    "ARTICLE_EID": "art_10",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 2 Buchstabe c",
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«Für jeden Einzelfall nach Artikel 2 Buchstabe c …» bezieht sich wiederum auf Art. 2 lit. c derselben Verordnung; keine externe SR-Verknüpfung."
+  },
+  {
+    "Item": 8,
+    "ARTICLE_EID": "art_10",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 2 Buchstabe c",
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«Entscheide zu Empfehlungen nach Artikel 2 Buchstabe c …» ist ein weiterer interner Verweis auf Art. 2 lit. c des eigenen Erlasses; kein Hinweis auf ein anderes SR-Dokument."
+  }
+]

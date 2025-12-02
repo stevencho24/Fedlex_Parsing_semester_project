@@ -1,0 +1,72 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 101",
+    "assigned_articles": [
+      "Art. 173 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Formulierung «gestützt auf Artikel 173 Absatz 2 der Bundesverfassung SR 101» verknüpft den genannten Artikel grammatikalisch eindeutig mit SR 101."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_9",
+    "TARGET_SR": "SR 431.03",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Snippet wird nur «Bundesgesetz vom 18. Juni 2010 SR 431.03 über die Unternehmens-Identifikationsnummer» genannt, ohne konkrete Artikelangabe; es handelt sich um eine allgemeine Gesetzesverweisung."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_18",
+    "TARGET_SR": "SR 152.3",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "Es wird auf das «Öffentlichkeitsgesetz vom 17. Dezember 2004 SR 152.3» als Ganzes Bezug genommen; kein bestimmter Artikel wird genannt."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_15",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«nach Artikel 10» verweist ohne SR- oder Gesetzesangabe auf einen anderen Artikel derselben Verordnung; daher reine Selbstverweisung."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_16",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«nach Artikel 9 Absatz 2» steht ohne Nennung eines externen Gesetzes; dies ist ein Verweis auf einen Artikel derselben Verordnung."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_22",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«Der 3. Abschnitt (Art. 6–8)» beschreibt den Geltungsbereich innerhalb derselben Verordnung; Art. 6–8 sind interne Artikel."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_22",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Aufzählung «Art. 9, 10, 12–20 und 22 Abs. 1 und 2 … Art. 1–8, 21 und 22 Abs. 3 … Art. 11» betrifft ausschliesslich Artikel derselben Verordnung; keine externe SR-Verweisung."
+  }
+]

@@ -1,0 +1,626 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 101",
+    "assigned_articles": [
+      "Art. 39 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Formulierung «gestützt auf Artikel 39 Absatz 1 der Bundesverfassung SR 101» verknüpft den genannten Artikel grammatikalisch eindeutig mit SR 101."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_16",
+    "TARGET_SR": "SR 431.112",
+    "assigned_articles": [
+      "Art. 13"
+    ],
+    "confidence": "high",
+    "reasoning": "Im selben Dokument (Art. 16, ITEM 14) steht «nach Artikel 13 des Volkszählungsgesetzes vom 22. Juni 2007»; dieses Gesetz ist SR 431.112. Damit ist klar, dass Art. 13 dieses Gesetzes gemeint ist."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_60",
+    "TARGET_SR": "SR 311.0",
+    "assigned_articles": [
+      "Art. 282",
+      "Art. 281"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Satz nennt ausdrücklich «Art. 282 des Strafgesetzbuches, StGB SR 311.0» und «Art. 281 StGB». Beide Artikel gehören zum Strafgesetzbuch SR 311.0."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_68",
+    "TARGET_SR": "SR 311.0",
+    "assigned_articles": [
+      "Art. 282",
+      "Art. 281"
+    ],
+    "confidence": "high",
+    "reasoning": "Auch hier werden «Art. 282 StGB SR 311.0» und «Art. 281 StGB» im selben Satz genannt; beide sind Artikel des Strafgesetzbuches SR 311.0."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_75_a",
+    "TARGET_SR": "SR 171.10",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "medium",
+    "reasoning": "Es heisst nur «gelten die Bestimmungen des Parlamentsgesetzes vom 13. Dezember 2002 SR 171.10» ohne konkrete Artikelangabe; dies ist eine generelle Verweisung auf das Parlamentsgesetz."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_76_a",
+    "TARGET_SR": "SR 210",
+    "assigned_articles": [
+      "Art. 60–79"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Wendung «im Sinne der Artikel 60–79 des Zivilgesetzbuches SR 210» verknüpft die Artikelspanne 60–79 ausdrücklich mit dem ZGB (SR 210)."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_79",
+    "TARGET_SR": "SR 172.021",
+    "assigned_articles": [
+      "Art. 34–38",
+      "Art. 61 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Text nennt «Verfügungen nach den Artikeln 34–38 und 61 Absatz 2 des Verwaltungsverfahrensgesetzes ... SR 172.021»; damit sind diese Bestimmungen des VwVG eindeutig SR 172.021 zugeordnet."
+  },
+  {
+    "ITEM": 8,
+    "ARTICLE_EID": "art_80",
+    "TARGET_SR": "SR 173.110",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "medium",
+    "reasoning": "Formulierung «nach Massgabe des Bundesgerichtsgesetzes vom 17. Juni 2005 SR 173.110» ohne Nennung einzelner Artikel; dies ist eine generelle Verweisung auf das BGG."
+  },
+  {
+    "ITEM": 9,
+    "ARTICLE_EID": "art_83",
+    "TARGET_SR": "SR 173.110",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "medium",
+    "reasoning": "Der Schlusssatz «Siehe heute: das Bundesgerichtsgesetz vom 17. Juni 2005 (SR 173.110).» verweist allgemein auf das BGG, ohne bestimmte Artikel zu nennen; die zahlreichen Artikelangaben davor betreffen das alte Bundesrechtspflegegesetz, nicht SR 173.110."
+  },
+  {
+    "ITEM": 10,
+    "ARTICLE_EID": "art_86",
+    "TARGET_SR": "SR 173.110",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "medium",
+    "reasoning": "«richtet sich ... nach dem Bundesgerichtsgesetz ... SR 173.110» ist eine pauschale Verweisung auf das BGG ohne konkrete Artikelangabe."
+  },
+  {
+    "ITEM": 11,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«Artikel 136 Absatz 1 BV» verweist auf die Bundesverfassung (SR 101), aber ohne explizite SR-Nennung im Satz; im Sinne der Vorgaben ist dies als Selbstreferenz/anderes Gesetz ohne TARGET_SR zu behandeln."
+  },
+  {
+    "ITEM": 12,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«Artikel 8a» ist ein Artikel desselben Gesetzes (kein SR-Kontext im Satz); daher interne Selbstreferenz."
+  },
+  {
+    "ITEM": 13,
+    "ARTICLE_EID": "art_14",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«(Art. 79 Abs. 3)» verweist auf einen anderen Artikel desselben Gesetzes; keine SR-Nennung, somit Selbstreferenz."
+  },
+  {
+    "ITEM": 14,
+    "ARTICLE_EID": "art_16",
+    "TARGET_SR": "SR 431.112",
+    "assigned_articles": [
+      "Art. 13"
+    ],
+    "confidence": "high",
+    "reasoning": "«nach Artikel 13 des Volkszählungsgesetzes vom 22. Juni 2007»; dieses Gesetz ist SR 431.112 (vgl. ITEM 2), daher Art. 13 SR 431.112."
+  },
+  {
+    "ITEM": 15,
+    "ARTICLE_EID": "art_19",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«Artikel 193 Absatz 3 der Bundesverfassung» verweist auf BV (SR 101), aber ohne explizite SR-Angabe; nach Vorgaben als externe, hier nicht zuzuordnende Referenz zu behandeln."
+  },
+  {
+    "ITEM": 16,
+    "ARTICLE_EID": "art_24",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«(Art. 76a)» ist ein Verweis auf einen Artikel desselben Gesetzes; reine Selbstreferenz."
+  },
+  {
+    "ITEM": 17,
+    "ARTICLE_EID": "art_29",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«(Art. 32a)» verweist auf einen internen Artikel; kein SR-Kontext."
+  },
+  {
+    "ITEM": 18,
+    "ARTICLE_EID": "art_31",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«(Art. 29 Abs. 4)» ist ein Verweis innerhalb desselben Gesetzes."
+  },
+  {
+    "ITEM": 19,
+    "ARTICLE_EID": "art_34",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«(Art. 33 Abs. 2)» verweist auf einen anderen Artikel desselben Gesetzes."
+  },
+  {
+    "ITEM": 20,
+    "ARTICLE_EID": "art_36",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«(Art. 29 Abs. 4)» ist eine interne Artikelverweisung."
+  },
+  {
+    "ITEM": 21,
+    "ARTICLE_EID": "art_39",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«(Art. 37)» bezieht sich auf einen Artikel desselben Gesetzes."
+  },
+  {
+    "ITEM": 22,
+    "ARTICLE_EID": "art_41",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«Artikel 40 Absatz 2» ist eine interne Normverweisung ohne SR-Bezug."
+  },
+  {
+    "ITEM": 23,
+    "ARTICLE_EID": "art_42",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«nach den Artikeln 40 und 41» sowie «Artikel 37 Absätze 2 und 2bis» sind alles interne Artikel desselben Gesetzes."
+  },
+  {
+    "ITEM": 24,
+    "ARTICLE_EID": "art_44",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«nach Artikel 56» verweist auf einen internen Artikel."
+  },
+  {
+    "ITEM": 25,
+    "ARTICLE_EID": "art_45",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«nach Artikel 56 Absatz 3» ist eine interne Verweisung."
+  },
+  {
+    "ITEM": 26,
+    "ARTICLE_EID": "art_51",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«Die Artikel 47–49 gelten auch ...» bezieht sich auf Artikel desselben Gesetzes."
+  },
+  {
+    "ITEM": 27,
+    "ARTICLE_EID": "art_52",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«(Art. 77 Abs. 2)» ist ein interner Verweis."
+  },
+  {
+    "ITEM": 28,
+    "ARTICLE_EID": "art_56",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«(Art. 24 Abs. 1)» und «(Art. 24 Abs. 3)» verweisen auf interne Bestimmungen."
+  },
+  {
+    "ITEM": 29,
+    "ARTICLE_EID": "art_56",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«(Art. 22 und Art. 29)» sowie «nach Artikel 45» sind interne Verweise."
+  },
+  {
+    "ITEM": 30,
+    "ARTICLE_EID": "art_66",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«nach Artikel 60» verweist auf einen Artikel desselben Gesetzes."
+  },
+  {
+    "ITEM": 31,
+    "ARTICLE_EID": "art_68",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«im Sinne von Artikel 73» ist eine interne Verweisung."
+  },
+  {
+    "ITEM": 32,
+    "ARTICLE_EID": "art_68",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«Artikel 60 Absatz 2» bezieht sich auf denselben Erlass."
+  },
+  {
+    "ITEM": 33,
+    "ARTICLE_EID": "art_70",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Verweise «(Art. 61)», «(Art. 62)» und «(Art. 63)» sind interne Artikelverweise."
+  },
+  {
+    "ITEM": 34,
+    "ARTICLE_EID": "art_72",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«nach Artikel 68» ist ein interner Verweis."
+  },
+  {
+    "ITEM": 35,
+    "ARTICLE_EID": "art_73_a",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«nach Artikel 15 Absatz 1» verweist auf einen Artikel desselben Gesetzes."
+  },
+  {
+    "ITEM": 36,
+    "ARTICLE_EID": "art_75",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "medium",
+    "reasoning": "Die Verweise «Art. 139 Abs. 3 und Art. 194 Abs. 2 BV» etc. betreffen die Bundesverfassung (SR 101), werden aber ohne explizite SR-Nennung zitiert; nach den Regeln als externe, hier nicht zuzuordnende Referenzen zu behandeln."
+  },
+  {
+    "ITEM": 37,
+    "ARTICLE_EID": "art_75_a",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«nach Artikel 15 Absatz 1» ist ein interner Verweis."
+  },
+  {
+    "ITEM": 38,
+    "ARTICLE_EID": "art_76_a",
+    "TARGET_SR": "SR 210",
+    "assigned_articles": [
+      "Art. 60–79"
+    ],
+    "confidence": "high",
+    "reasoning": "Dies ist derselbe inhaltliche Satz wie bei ITEM 6, nur ohne explizite SR-Nennung; aus ITEM 6 ergibt sich, dass die Artikel 60–79 des ZGB (SR 210) gemeint sind."
+  },
+  {
+    "ITEM": 39,
+    "ARTICLE_EID": "art_76_d",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«nach Artikel 76b» verweist auf einen anderen Artikel desselben Gesetzes."
+  },
+  {
+    "ITEM": 40,
+    "ARTICLE_EID": "art_76_d",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«im Sinne von Artikel 76c Absatz 2 Buchstabe b» ist eine interne Verweisung."
+  },
+  {
+    "ITEM": 41,
+    "ARTICLE_EID": "art_76_d",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "Auch hier ist «Artikel 76c Absatz 2 Buchstabe b» ein interner Artikel."
+  },
+  {
+    "ITEM": 42,
+    "ARTICLE_EID": "art_76_d",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«nach Artikel 76c Absatz 2 Buchstabe b» verweist intern."
+  },
+  {
+    "ITEM": 43,
+    "ARTICLE_EID": "art_76_e",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«nach den Artikeln 76b und 76c» sind interne Verweise."
+  },
+  {
+    "ITEM": 44,
+    "ARTICLE_EID": "art_76_f",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«nach Artikel 76e» ist ein interner Verweis."
+  },
+  {
+    "ITEM": 45,
+    "ARTICLE_EID": "art_76_f",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«nach Artikel 76d Absatz 1 Buchstabe a» verweist intern."
+  },
+  {
+    "ITEM": 46,
+    "ARTICLE_EID": "art_76_f",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«nach Artikel 76d Absatz 1 Buchstaben b und c» ist eine interne Verweisung."
+  },
+  {
+    "ITEM": 47,
+    "ARTICLE_EID": "art_76_f",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«die nach Artikel 76d Absatz 2 unverzüglich zu melden sind» verweist intern."
+  },
+  {
+    "ITEM": 48,
+    "ARTICLE_EID": "art_76_h",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«nach den Artikeln 76b und 76c» sind interne Artikelverweise."
+  },
+  {
+    "ITEM": 49,
+    "ARTICLE_EID": "art_76_h",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«nach Artikel 76d Absatz 4» verweist intern."
+  },
+  {
+    "ITEM": 50,
+    "ARTICLE_EID": "art_76_h",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "Mehrere interne Verweise: «nach Artikel 76c Absatz 3», «nach Artikel 76d Absatz 1 Buchstabe c»."
+  },
+  {
+    "ITEM": 51,
+    "ARTICLE_EID": "art_76_i",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«nach den Artikeln 76b und 76c» sind interne Verweise."
+  },
+  {
+    "ITEM": 52,
+    "ARTICLE_EID": "art_76_i",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "Auch hier «nach den Artikeln 76b und 76c» als interne Verweisung."
+  },
+  {
+    "ITEM": 53,
+    "ARTICLE_EID": "art_76_i",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«nach Artikel 76b» verweist intern."
+  },
+  {
+    "ITEM": 54,
+    "ARTICLE_EID": "art_76_i",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«nach Artikel 76e Absatz 3» ist ein interner Verweis."
+  },
+  {
+    "ITEM": 55,
+    "ARTICLE_EID": "art_76_i",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«nach Artikel 76g» verweist auf einen Artikel desselben Gesetzes."
+  },
+  {
+    "ITEM": 56,
+    "ARTICLE_EID": "art_76_j",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«nach den Artikeln 76b–76d» sind interne Artikelverweise."
+  },
+  {
+    "ITEM": 57,
+    "ARTICLE_EID": "art_76_j",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«nach Artikel 76h Absätze 3–5» verweist intern."
+  },
+  {
+    "ITEM": 58,
+    "ARTICLE_EID": "art_77",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "Alle genannten Artikel («2–4», «5 Absätze 3 und 6», «62 und 63») gehören zum selben Gesetz; keine SR-Nennung."
+  },
+  {
+    "ITEM": 59,
+    "ARTICLE_EID": "art_79",
+    "TARGET_SR": "SR 172.021",
+    "assigned_articles": [
+      "Art. 34–38",
+      "Art. 61 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Dies ist die gleiche inhaltliche Norm wie bei ITEM 7, nur ohne explizite SR-Nennung; aus ITEM 7 ergibt sich, dass es sich um Art. 34–38 und 61 Abs. 2 VwVG (SR 172.021) handelt."
+  },
+  {
+    "ITEM": 60,
+    "ARTICLE_EID": "art_80",
+    "TARGET_SR": "SR 173.110",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "medium",
+    "reasoning": "«nach Massgabe des Bundesgerichtsgesetzes vom 17. Juni 2005» verweist allgemein auf das BGG; keine konkrete Artikelangabe."
+  },
+  {
+    "ITEM": 61,
+    "ARTICLE_EID": "art_80",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Verweise «(Art. 66 Abs. 1 und Art. 72 Abs. 1)» betreffen interne Artikel; kein SR-Kontext."
+  },
+  {
+    "ITEM": 62,
+    "ARTICLE_EID": "art_80",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«(Art. 69 Abs. 1)» und «(Art. 69 Abs. 2)» sind interne Artikelverweise."
+  }
+]

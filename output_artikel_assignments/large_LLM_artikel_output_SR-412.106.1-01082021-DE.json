@@ -1,0 +1,32 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 412.106",
+    "assigned_articles": [
+      "Art. 35"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet explicitly states 'gestützt auf Artikel 35 des EHB-Gesetzes ... SR 412.106'; Article 35 is directly and syntactically linked to SR 412.106."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_6",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet refers to 'Artikel 16 und 16a der EHB-Verordnung vom 14. September 2005', which is a different ordinance, not the current SR 412.106. As item_type is 'artikel_reference' and no TARGET_SR is given, this is treated as an internal/self-reference context for the current document, not an assignment to an external SR."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet 'Artikel 5 Absatz 2 tritt am 1. Januar 2022 in Kraft.' clearly refers to another provision within the same document. As an 'artikel_reference' without TARGET_SR, it is a self-reference and not an outgoing SR link."
+  }
+]

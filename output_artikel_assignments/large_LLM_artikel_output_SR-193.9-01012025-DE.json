@@ -1,0 +1,125 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 101",
+    "assigned_articles": [
+      "Art. 54 Abs. 1",
+      "Art. 173 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Präambel nennt ausdrücklich «Artikel 54 Absatz 1 und 173 Absatz 2 der Bundesverfassung SR 101»; beide Artikel gehören damit klar zur SR 101."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 974.0",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Ausschnitt nennt nur das Bundesgesetz SR 974.0 mit seinem Titel, ohne konkrete Artikelangabe; dies ist eine generelle Verweisgrundlage auf das ganze Gesetz."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 510.10",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "Auch hier wird lediglich das Bundesgesetz SR 510.10 mit Titel erwähnt, ohne Artikel; dies ist ein allgemeiner Verweis auf das gesamte Gesetz."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_9",
+    "TARGET_SR": "SR 235.2",
+    "assigned_articles": [
+      "Art. 18-20"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Satz lautet: «gelten die Artikel 18–20 des Bundesgesetzes ... SR 235.2 ... sinngemäss»; damit ist klar, dass die Art. 18–20 dieses Gesetzes gemeint sind."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_10_c",
+    "TARGET_SR": "SR 210",
+    "assigned_articles": [
+      "Art. 60-79"
+    ],
+    "confidence": "high",
+    "reasoning": "Formulierung: «insbesondere die Artikel 60−79» des Zivilgesetzbuches SR 210; der Bereich 60–79 ZGB ist ausdrücklich genannt und gehört zu SR 210."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "«Massnahmen nach Artikel 3» bezieht sich auf Art. 3 desselben Gesetzes (interne Selbstverweisung); kein externer SR-Bezug."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "«Massnahmen nach Artikel 3» ist wiederum eine interne Verweisung auf Art. 3 des eigenen Erlasses; kein Zusammenhang mit einem externen SR-Link."
+  },
+  {
+    "ITEM": 8,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Die «Massnahmen nach Artikel 3» sind intern definiert; der Satz enthält keinen Hinweis auf ein anderes SR-Dokument."
+  },
+  {
+    "ITEM": 9,
+    "ARTICLE_EID": "art_6",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Auch hier ist «Massnahmen nach Artikel 3» eine Selbstverweisung innerhalb desselben Gesetzes; kein externer SR-Bezug."
+  },
+  {
+    "ITEM": 10,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "«Massnahmen nach Artikel 3» verweist intern auf Art. 3; keine Nennung eines anderen Gesetzes oder SR, daher reine Selbstreferenz."
+  },
+  {
+    "ITEM": 11,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "«den Zielen gemäss Artikel 2» bezieht sich auf Art. 2 desselben Erlasses; es wird kein externes SR-Dokument genannt."
+  },
+  {
+    "ITEM": 12,
+    "ARTICLE_EID": "art_9",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "«Massnahmen nach Artikel 3» ist intern; der weitere Teil des Satzes verweist zwar auf ein anderes Gesetz, aber dieser externe Bezug ist bereits in ITEM 4 als SR-Link erfasst. Hier geht es nur um die interne Artikelreferenz."
+  },
+  {
+    "ITEM": 13,
+    "ARTICLE_EID": "art_10",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "«Zielen gemäss Artikel 2» ist eine interne Verweisung auf Art. 2 des gleichen Gesetzes; kein externer SR-Bezug."
+  },
+  {
+    "ITEM": 14,
+    "ARTICLE_EID": "art_10_c",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "«die Artikel 60−79» werden ohne Gesetzesangabe genannt; im Kontext des Artikels ist dies eine Selbstreferenz auf die bereits in ITEM 5 mit SR 210 verknüpfte Stelle. Da hier kein SR genannt wird, ist dies als interne Strukturverweisung zu behandeln, nicht als neuer externer SR-Link."
+  }
+]

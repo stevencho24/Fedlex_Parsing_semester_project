@@ -1,0 +1,105 @@
+[
+  {
+    "Item": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 817.0",
+    "assigned_articles": [
+      "Art. 35",
+      "Art. 37"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Formulierung «gestützt auf die Artikel 35 und 37 des Lebensmittelgesetzes … SR 817.0 (LMG)» verweist ausdrücklich auf diese beiden Artikel des LMG."
+  },
+  {
+    "Item": 2,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": "SR 916.402",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Verordnung SR 916.402 wird nur als Ganzes («die Anforderungen der Verordnung … SR 916.402») erwähnt; keine spezifischen Artikel werden genannt."
+  },
+  {
+    "Item": 3,
+    "ARTICLE_EID": "art_6",
+    "TARGET_SR": "SR 510.518.1",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Anlageschutzverordnung SR 510.518.1 wird pauschal als Rechtsgrundlage für die Bewilligung genannt; es werden keine bestimmten Artikel dieser Verordnung zitiert."
+  },
+  {
+    "Item": 4,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": "SR 817.0",
+    "assigned_articles": [
+      "Art. 16 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Snippet steht «bewilligten Schlachtanlagen im Sinne von Artikel 16 Absatz 1 LMG»; LMG ist in der Präambel als SR 817.0 definiert, daher klarer Verweis auf Art. 16 Abs. 1 LMG."
+  },
+  {
+    "Item": 5,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": "SR 817.0",
+    "assigned_articles": [
+      "Art. 28",
+      "Art. 29",
+      "Art. 30",
+      "Art. 31",
+      "Art. 31 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Das Snippet nennt mehrfach «Artikel 28–31 LMG», «Artikeln 28–30 LMG» und «Artikel 31 Absatz 2 LMG». LMG ist SR 817.0; damit sind die Artikel 28–31 sowie speziell Art. 31 Abs. 2 eindeutig referenziert."
+  },
+  {
+    "Item": 6,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": "self",
+    "assigned_articles": [
+      "Art. 28",
+      "Art. 29",
+      "Art. 30",
+      "Art. 31"
+    ],
+    "confidence": "high",
+    "reasoning": "«Massnahmen im Sinne der Artikel 28–31 LMG» ist eine inhaltliche Bezugnahme innerhalb derselben Bestimmung; hier wird kein neues SR-Dokument verknüpft, sondern auf die bereits über LMG (SR 817.0) bekannten externen Artikel verwiesen. Als artikel_reference ohne explizite SR-Angabe ist dies als Selbstreferenz-Kontext zu behandeln."
+  },
+  {
+    "Item": 7,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": "self",
+    "assigned_articles": [
+      "Art. 28",
+      "Art. 29",
+      "Art. 30"
+    ],
+    "confidence": "high",
+    "reasoning": "«bei Massnahmen nach den Artikeln 28–30 LMG» verweist auf dieselben externen LMG-Artikel wie bereits in Item 5; als artikel_reference ohne eigene SR-Angabe ist dies eine interne Bezugnahme im Dokumentskontext."
+  },
+  {
+    "Item": 8,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": "self",
+    "assigned_articles": [
+      "Art. 31 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "«bei Verwarnungen nach Artikel 31 Absatz 2 LMG» nennt explizit Art. 31 Abs. 2 LMG; im Rahmen von artikel_reference ohne TARGET_SR ist dies als interne Verweisstruktur zu werten."
+  },
+  {
+    "Item": 9,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": "self",
+    "assigned_articles": [
+      "Art. 28",
+      "Art. 29",
+      "Art. 30",
+      "Art. 31"
+    ],
+    "confidence": "high",
+    "reasoning": "«Massnahmen nach den Artikeln 28–31 LMG» wiederholt die bereits erfasste Spannweite; als artikel_reference ohne explizite SR-Verknüpfung handelt es sich um eine Selbstreferenz-Kontextangabe."
+  }
+]

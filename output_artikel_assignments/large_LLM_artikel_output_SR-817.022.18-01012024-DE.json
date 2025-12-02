@@ -1,0 +1,23 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 817.02",
+    "assigned_articles": [
+      "Art. 12 Abs. 2bis",
+      "Art. 12 Abs. 3 Bst. c"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet explicitly cites 'Artikel 12 Absätze 2bis und 3 Buchstabe c' of the Lebensmittel- und Gebrauchsgegenständeverordnung, immediately followed by 'SR 817.02'. This is a direct syntactic and semantic link of these paragraphs to SR 817.02."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet 'Die Artikel 1 und 2 gelten bis zum 31. Dezember 2023.' mentions only articles of the current regulation without any SR reference or acronym. Under the rules, this is a self-reference within the same document, not tied to an external SR."
+  }
+]

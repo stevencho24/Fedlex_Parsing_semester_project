@@ -1,0 +1,306 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 943.1",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "high",
+    "reasoning": "Im Preambel-Satz wird nur das Bundesgesetz über das Gewerbe der Reisenden (SR 943.1) als Ganzes genannt, ohne Artikelangabe; syntaktisch kein Bezug zu bestimmten Artikeln."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 930.11",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "high",
+    "reasoning": "Das Bundesgesetz über die Produktesicherheit (SR 930.11) wird im Preambel-Satz nur als Grundlage in Ausführung genannt, ohne Artikelangabe."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 946.51",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "high",
+    "reasoning": "Das Bundesgesetz über die technischen Handelshemmnisse (SR 946.51) wird im Preambel-Satz nur als Ausführungsgesetz erwähnt, ohne konkrete Artikel."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_12",
+    "TARGET_SR": "SR 170.512.1",
+    "assigned_articles": ["Art. 20 Abs. 2"],
+    "confidence": "high",
+    "reasoning": "Im Autorentext steht ausdrücklich: \"in Anwendung von Art. 20 Abs. 2 der Publikationsverordnung ... (SR 170.512.1)\"; klare direkte Zuordnung."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_12",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": ["Art. 100"],
+    "confidence": "high",
+    "reasoning": "Der Satzteil \"gestützt auf Artikel 100 des Zollgesetzes ... SR 631.0\" verknüpft Art. 100 syntaktisch direkt mit dem Zollgesetz (SR 631.0)."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_22",
+    "TARGET_SR": "SR 946.512",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "medium",
+    "reasoning": "Formulierung \"nach der Akkreditierungs- und Bezeichnungsverordnung vom 17. Juni 1996 SR 946.512\" ohne Artikelangabe; es geht um das Akkreditierungssystem insgesamt, kein bestimmter Artikel genannt."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_29",
+    "TARGET_SR": "SR 152.1",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "medium",
+    "reasoning": "Das Archivierungsgesetz (SR 152.1) wird pauschal vorbehalten, ohne konkrete Artikel; typische generelle Verweisung auf das Archivrecht."
+  },
+  {
+    "ITEM": 8,
+    "ARTICLE_EID": "art_30",
+    "TARGET_SR": "SR 0.631.121.1",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "medium",
+    "reasoning": "Es wird auf das Internationale Abkommen vom 3. November 1923 (SR 0.631.121.1) als Ganzes Bezug genommen (Definition der internationalen Gewerbelegitimationskarte), ohne Artikelangabe."
+  },
+  {
+    "ITEM": 9,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": "SR 930.11",
+    "assigned_articles": ["Art. 2 Abs. 1 Bst. a", "Art. 2 Abs. 1 Bst. b"],
+    "confidence": "high",
+    "reasoning": "Text: \"im Sinne von Artikel 2 Absatz 1 Buchstabe a oder b des Gesetzes\"; das Gesetz ist in der Präambel als SR 930.11 definiert; beide Buchstaben werden explizit genannt."
+  },
+  {
+    "ITEM": 10,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": "SR 930.11",
+    "assigned_articles": ["Art. 4 Abs. 2"],
+    "confidence": "high",
+    "reasoning": "Formulierung \"in Artikel 4 Absatz 2 des Gesetzes\"; das Gesetz = SR 930.11 gemäss Präambel-Akronym."
+  },
+  {
+    "ITEM": 11,
+    "ARTICLE_EID": "art_8",
+    "TARGET_SR": "SR 930.11",
+    "assigned_articles": ["Art. 4 Abs. 1"],
+    "confidence": "high",
+    "reasoning": "Es heisst \"Verweigerung der Bewilligung nach Artikel 4 Absatz 1 des Gesetzes\"; klarer Bezug auf Art. 4 Abs. 1 SR 930.11."
+  },
+  {
+    "ITEM": 12,
+    "ARTICLE_EID": "art_9",
+    "TARGET_SR": "SR 930.11",
+    "assigned_articles": ["Art. 4"],
+    "confidence": "high",
+    "reasoning": "Satz: \"wenn die Voraussetzungen nach Artikel 4 des Gesetzes erfüllt sind\"; kein Absatz genannt, daher Gesamtartikel 4."
+  },
+  {
+    "ITEM": 13,
+    "ARTICLE_EID": "art_10",
+    "TARGET_SR": "SR 930.11",
+    "assigned_articles": ["Art. 4 Abs. 1", "Art. 4 Abs. 3bis"],
+    "confidence": "high",
+    "reasoning": "Erwähnt werden \"Artikel 4 Absatz 1 des Gesetzes\" und in Klammern \"Art. 4 Abs. 3bis des Gesetzes\"; beide gehören zu SR 930.11."
+  },
+  {
+    "ITEM": 14,
+    "ARTICLE_EID": "art_10_a",
+    "TARGET_SR": "SR 930.11",
+    "assigned_articles": ["Art. 4 Abs. 1", "Art. 4 Abs. 3bis", "Art. 10 Abs. 1 Bst. b"],
+    "confidence": "high",
+    "reasoning": "Snippet nennt: \"Artikel 4 Absatz 1 des Gesetzes\", \"Art. 4 Abs. 3bis des Gesetzes\" und \"Art. 10 Abs. 1 Bst. b des Gesetzes\"; alle beziehen sich auf SR 930.11."
+  },
+  {
+    "ITEM": 15,
+    "ARTICLE_EID": "art_12",
+    "TARGET_SR": "SR 930.11",
+    "assigned_articles": ["Art. 4"],
+    "confidence": "high",
+    "reasoning": "Formulierung \"Bewilligungsunterlagen nach Artikel 4 des Gesetzes\"; damit ist Art. 4 SR 930.11 gemeint, ohne Absatzspezifikation."
+  },
+  {
+    "ITEM": 16,
+    "ARTICLE_EID": "art_14",
+    "TARGET_SR": "SR 930.11",
+    "assigned_articles": ["Art. 8"],
+    "confidence": "high",
+    "reasoning": "Text: \"wenn die Voraussetzungen nach Artikel 8 des Gesetzes erfüllt sind\"; eindeutiger Bezug auf Art. 8 SR 930.11."
+  },
+  {
+    "ITEM": 17,
+    "ARTICLE_EID": "art_15",
+    "TARGET_SR": "SR 930.11",
+    "assigned_articles": ["Art. 4 Abs. 1"],
+    "confidence": "high",
+    "reasoning": "Es heisst \"Verweigerung nach Artikel 4 Absatz 1 des Gesetzes\"; klarer Verweis auf Art. 4 Abs. 1 SR 930.11."
+  },
+  {
+    "ITEM": 18,
+    "ARTICLE_EID": "art_16",
+    "TARGET_SR": "SR 930.11",
+    "assigned_articles": ["Art. 10 Abs. 1"],
+    "confidence": "high",
+    "reasoning": "Mehrfach: \"wenn die Voraussetzungen nach Artikel 10 Absatz 1 des Gesetzes erfüllt sind\"; alle Nennungen beziehen sich auf denselben Absatz."
+  },
+  {
+    "ITEM": 19,
+    "ARTICLE_EID": "art_17",
+    "TARGET_SR": "SR 930.11",
+    "assigned_articles": ["Art. 10 Abs. 1"],
+    "confidence": "high",
+    "reasoning": "Satz: \"wenn die Bedingungen nach Artikel 10 Absatz 1 des Gesetzes erfüllt sind\"; eindeutiger Bezug."
+  },
+  {
+    "ITEM": 20,
+    "ARTICLE_EID": "art_20",
+    "TARGET_SR": "SR 930.11",
+    "assigned_articles": ["Art. 5 Abs. 2"],
+    "confidence": "high",
+    "reasoning": "Formulierung \"in Artikel 5 Absatz 2 des Gesetzes verlangten Dokumente\"; klarer Verweis auf Art. 5 Abs. 2 SR 930.11."
+  },
+  {
+    "ITEM": 21,
+    "ARTICLE_EID": "art_25",
+    "TARGET_SR": "SR 930.11",
+    "assigned_articles": ["Art. 5"],
+    "confidence": "high",
+    "reasoning": "Text: \"wesentliche Änderungen in den Bewilligungsunterlagen nach Artikel 5 des Gesetzes\"; bezieht sich auf Art. 5 SR 930.11 insgesamt."
+  },
+  {
+    "ITEM": 22,
+    "ARTICLE_EID": "art_26",
+    "TARGET_SR": "SR 930.11",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "high",
+    "reasoning": "Formulierung \"den Vollzug des Gesetzes\" ohne Artikelangabe; es geht um das Gesetz als Ganzes (SR 930.11)."
+  },
+  {
+    "ITEM": 23,
+    "ARTICLE_EID": "art_31",
+    "TARGET_SR": "SR 930.11",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "high",
+    "reasoning": "Übergangsbestimmung: \"Inkrafttreten des Gesetzes\" und Bewilligungspflicht \"nach den Anforderungen des Gesetzes\"; keine spezifischen Artikel genannt, sondern das Gesetz insgesamt."
+  },
+  {
+    "ITEM": 24,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Artikelreferenz wiederholt den in ITEM 9 bereits zu SR 930.11 zugeordneten Verweis auf Art. 2 Abs. 1 Bst. a/b; hier handelt es sich um dieselbe Bezugnahme innerhalb des eigenen Dokuments, kein neuer externer SR-Link."
+  },
+  {
+    "ITEM": 25,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "\"(Art. 22)\" verweist auf einen anderen Artikel derselben Verordnung (interne Strukturreferenz); kein Zusammenhang mit einem externen SR-Dokument."
+  },
+  {
+    "ITEM": 26,
+    "ARTICLE_EID": "art_10_a",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Verweis \"Artikel 4 Absatz 1 des Gesetzes\" ist bereits in ITEM 11/13/14 als Bezug zu SR 930.11 erfasst; hier nur Wiederholung im eigenen Normtext, keine neue SR-Zuordnung."
+  },
+  {
+    "ITEM": 27,
+    "ARTICLE_EID": "art_10_a",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Verweis auf \"Artikel 10 Absatz 2\" und \"Art. 4 Abs. 3bis des Gesetzes\" betrifft interne Systematik des Gesetzes SR 930.11, die bereits über preamble_acronym-Items abgedeckt ist; kein eigenständiger SR-Link."
+  },
+  {
+    "ITEM": 28,
+    "ARTICLE_EID": "art_10_a",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "\"Art. 10 Abs. 1 Bst. b des Gesetzes\" ist bereits in ITEM 14 als Teil der Zuordnung zu SR 930.11 erfasst; hier nur interne Wiederholung."
+  },
+  {
+    "ITEM": 29,
+    "ARTICLE_EID": "art_12",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Der Satz enthält keinen expliziten SR-Verweis; der Bezug auf das Zollgesetz mit Art. 100 ist bereits in ITEM 5 (SR_link_detection) SR 631.0 zugeordnet; hier nur der Fliesstext ohne neue SR-Angabe."
+  },
+  {
+    "ITEM": 30,
+    "ARTICLE_EID": "art_15",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Verweis \"nach den in Artikel 11 umschriebenen Anforderungen\" ist eine reine Selbstreferenz innerhalb derselben Verordnung; kein externer SR-Bezug."
+  },
+  {
+    "ITEM": 31,
+    "ARTICLE_EID": "art_16",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Verweis auf \"Artikel 10 Absatz 1 des Gesetzes\" ist bereits über die preamble_acronym-Items (z.B. ITEM 18) SR 930.11 zugeordnet; hier keine neue SR-Verknüpfung."
+  },
+  {
+    "ITEM": 32,
+    "ARTICLE_EID": "art_16",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Auch hier nur Wiederholung des Bezugs auf \"Artikel 10 Absatz 1 des Gesetzes\"; dieser Bezug ist bereits SR 930.11 zugeordnet, keine zusätzliche SR-Referenz."
+  },
+  {
+    "ITEM": 33,
+    "ARTICLE_EID": "art_20",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Verweis \"nach den Vorschriften nach Artikel 6\" betrifft einen anderen Artikel derselben Verordnung; kein externer SR-Link."
+  },
+  {
+    "ITEM": 34,
+    "ARTICLE_EID": "art_25",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Verweise auf \"Artikeln 20, 21 und 24\" sind interne Querverweise innerhalb der Verordnung; kein Bezug zu einem anderen SR-Dokument."
+  },
+  {
+    "ITEM": 35,
+    "ARTICLE_EID": "art_31",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "\"Nachweis der Sicherheit nach Artikel 21\" ist ein interner Verweis auf einen Artikel derselben Verordnung; keine SR-Nennung im Satz."
+  },
+  {
+    "ITEM": 36,
+    "ARTICLE_EID": "art_31",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Auch hier: \"Nachweis ... nach Artikel 21\" verweist nur intern; kein SR-Link im Text."
+  },
+  {
+    "ITEM": 37,
+    "ARTICLE_EID": "art_31",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Verweise auf \"Artikel 23 Absatz 3\" und \"(Art. 22)\" betreffen interne Artikel der Verordnung; kein externer SR-Bezug."
+  },
+  {
+    "ITEM": 38,
+    "ARTICLE_EID": "art_31",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "\"Artikel 23 Absatz 3\" ist ebenfalls ein interner Artikelverweis; der Satz enthält keinen SR-Hinweis und ist daher reine Selbstreferenz."
+  }
+]

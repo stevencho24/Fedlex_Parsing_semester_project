@@ -1,0 +1,66 @@
+[
+  {
+    "Item": 1,
+    "TARGET_SR": "SR 916.020",
+    "assigned_articles": [
+      "Art. 4 Abs. 4",
+      "Art. 5 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Formulierung \"gestützt auf die Artikel 4 Absatz 4 und 5 Absatz 1 der Verordnung ... SR 916.020 über die Primärproduktion\" verknüpft diese Artikel syntaktisch eindeutig mit SR 916.020."
+  },
+  {
+    "Item": 2,
+    "TARGET_SR": "SR 916.307",
+    "assigned_articles": [
+      "Art. 42 Abs. 6"
+    ],
+    "confidence": "high",
+    "reasoning": "Im selben Satzteil: \"sowie auf Artikel 42 Absatz 6 der Futtermittel-Verordnung ... SR 916.307\"; der Artikel ist direkt dieser Verordnung zugeordnet."
+  },
+  {
+    "Item": 3,
+    "TARGET_SR": "SR 817.022.16",
+    "assigned_articles": [
+      "Anhang 6"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Satz verweist auf \"Anhang 6 der Verordnung des EDI ... SR 817.022.16\"; es werden keine Artikel, sondern explizit der Anhang 6 dieser Verordnung genannt."
+  },
+  {
+    "Item": 4,
+    "TARGET_SR": "SR 817.022.16",
+    "assigned_articles": [
+      "Anhang 6"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Wendung \"in Anhang 6 LIV SR 817.022.16 genannten Erzeugnisse\" ordnet Anhang 6 eindeutig der LIV (SR 817.022.16) zu; weitere Artikelangaben fehlen."
+  },
+  {
+    "Item": 5,
+    "TARGET_SR": "SR 916.351.021.1",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "medium",
+    "reasoning": "Formulierung \"gelten die Vorschriften der Verordnung ... SR 916.351.021.1\" ohne konkrete Artikel- oder Anhangsangabe; es handelt sich um eine generelle Verweisung auf die Verordnung."
+  },
+  {
+    "Item": 6,
+    "TARGET_SR": "SR 812.212.27",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "medium",
+    "reasoning": "Der Text verweist allgemein auf \"die Bestimmungen der Verordnung ... SR 812.212.27\" ohne Nennung einzelner Artikel; daher als generelle Dokumentverweisung zu werten."
+  },
+  {
+    "Item": 7,
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Bezugnahme \"Artikel 8\" und \"dem 4. Kapitel der Futtermittel-Verordnung\" erfolgt ohne explizite SR-Nummer im Satz; im Kontext eines artikel_reference-Eintrags ist dies als Selbstverweisung bzw. interne Strukturverweisung des aktuellen Dokuments zu interpretieren, nicht als Zuweisung zu einer externen SR."
+  }
+]

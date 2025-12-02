@@ -1,0 +1,32 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 414.110",
+    "assigned_articles": [
+      "Art. 25 Abs. 1 Bst. h"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Formulierung «gestützt auf Artikel 25 Absatz 1 Buchstabe h des ETH-Gesetzes … SR 414.110» verknüpft den genannten Artikel syntaktisch eindeutig mit SR 414.110."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_15",
+    "TARGET_SR": "SR 172.220.113",
+    "assigned_articles": [
+      "Art. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Snippet steht «(Art. 2 Personalverordnung ETH-Bereich)» direkt bei der Nennung der Personalverordnung ETH-Bereich SR 172.220.113; Art. 2 gehört somit eindeutig zu dieser SR."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_15",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Referenz «(Art. 2 Personalverordnung ETH-Bereich)» wiederholt lediglich die bereits bei ITEM 2 erfasste externe Verweisstruktur; als artikel_reference ohne explizite SR-Angabe ist sie hier als Selbstreferenz/Kontext innerhalb des aktuellen Dokuments zu behandeln und nicht erneut einer TARGET_SR zuzuordnen."
+  }
+]

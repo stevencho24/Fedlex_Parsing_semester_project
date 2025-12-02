@@ -1,0 +1,187 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 101",
+    "assigned_articles": [
+      "Art. 86 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Formulierung «gestützt auf Artikel 86 Absatz 2 der Bundesverfassung SR 101» verweist ausdrücklich auf diesen konkreten Verfassungsartikel."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": "SR 641.81",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Satz wird nur das «Schwerverkehrsabgabegesetz vom 19. Dezember 1997 SR 641.81» als Ganzes genannt, ohne Artikelangabe; es handelt sich um eine generelle Gesetzesverweisung."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_10",
+    "TARGET_SR": "SR 725.116.2",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Wendung «nach den Bestimmungen des Bundesgesetzes vom 22. März 1985 SR 725.116.2» verweist pauschal auf das Gesetz, ohne einzelne Artikel zu spezifizieren."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_11",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": [
+      "Art. 3 Abs. 5"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Text nennt ausdrücklich «nach Artikel 3 Absatz 5 des Zollgesetzes vom 18. März 2005 SR 631.0»; dieser Artikel ist klar dem Zollgesetz (SR 631.0) zugeordnet."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_12_g",
+    "TARGET_SR": "SR 313.0",
+    "assigned_articles": [
+      "Art. 30"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Formulierung «richtet sich nach Artikel 30 des Bundesgesetzes vom 22. März 1974 SR 313.0 über das Verwaltungsstrafrecht» verweist eindeutig auf Art. 30 dieses Gesetzes."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_14",
+    "TARGET_SR": "SR 311.0",
+    "assigned_articles": [
+      "Art. 245"
+    ],
+    "confidence": "high",
+    "reasoning": "«Artikel 245 des Strafgesetzbuchs SR 311.0 ist anwendbar.» benennt klar Art. 245 StGB als anwendbare Norm."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_15",
+    "TARGET_SR": "SR 311.0",
+    "assigned_articles": [
+      "Art. 245"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Satz «Verstösse gegen Artikel 245 des Strafgesetzbuchs SR 311.0» wird wiederum ausdrücklich Art. 245 StGB genannt; derselbe Artikel ist dem StGB (SR 311.0) zugeordnet."
+  },
+  {
+    "ITEM": 8,
+    "ARTICLE_EID": "art_15",
+    "TARGET_SR": "SR 314.1",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "«gilt das Ordnungsbussengesetz vom 18. März 2016 SR 314.1» verweist ohne Artikelangabe auf das Ordnungsbussengesetz insgesamt."
+  },
+  {
+    "ITEM": 9,
+    "ARTICLE_EID": "art_15",
+    "TARGET_SR": "SR 313.0",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Wendung «nach dem Bundesgesetz vom 22. März 1974 SR 313.0 über das Verwaltungsstrafrecht» enthält keine konkrete Artikelnummer; es ist eine generelle Verweisung auf das Verwaltungsstrafrecht."
+  },
+  {
+    "ITEM": 10,
+    "ARTICLE_EID": "art_10",
+    "TARGET_SR": "SR 741.71",
+    "assigned_articles": [
+      "Art. 19"
+    ],
+    "confidence": "high",
+    "reasoning": "«gemäss Artikel 19» bezieht sich mangels anderer SR-Nennung auf einen Artikel derselben Verordnung (SR 741.71); es handelt sich um eine interne Selbstverweisung auf Art. 19."
+  },
+  {
+    "ITEM": 11,
+    "ARTICLE_EID": "art_11",
+    "TARGET_SR": "SR 741.71",
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Obwohl «Artikel 3 Absatz 5 des Zollgesetzes» erwähnt wird, ist dies bereits in ITEM 4 als Verweisung auf SR 631.0 erfasst; hier dient der Satz nur als Kontext für die interne Struktur und begründet keine neue SR-741.71‑Selbstverweisung."
+  },
+  {
+    "ITEM": 12,
+    "ARTICLE_EID": "art_11",
+    "TARGET_SR": "SR 741.71",
+    "assigned_articles": [
+      "Art. 4"
+    ],
+    "confidence": "high",
+    "reasoning": "«für die nach Artikel 4 keine Abgabe entrichtet werden muss» verweist ohne andere SR-Nennung auf Art. 4 derselben Verordnung (SR 741.71)."
+  },
+  {
+    "ITEM": 13,
+    "ARTICLE_EID": "art_12_b",
+    "TARGET_SR": "SR 741.71",
+    "assigned_articles": [
+      "Art. 14"
+    ],
+    "confidence": "high",
+    "reasoning": "«Übertretungen nach Artikel 14» ist eine interne Verweisung innerhalb derselben Verordnung auf Art. 14."
+  },
+  {
+    "ITEM": 14,
+    "ARTICLE_EID": "art_12_g",
+    "TARGET_SR": "SR 741.71",
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Der Satz verweist auf «Artikel 30 des Bundesgesetzes ... über das Verwaltungsstrafrecht», was bereits in ITEM 5 als Verweisung auf SR 313.0 erfasst ist; für SR 741.71 entsteht hier keine zusätzliche Selbstverweisung."
+  },
+  {
+    "ITEM": 15,
+    "ARTICLE_EID": "art_12_h",
+    "TARGET_SR": "SR 741.71",
+    "assigned_articles": [
+      "Art. 14",
+      "Art. 17"
+    ],
+    "confidence": "high",
+    "reasoning": "«Übertretung nach Artikel 14» und «richtet sich die Verjährung nach Artikel 17» sind interne Verweisungen auf die Artikel 14 und 17 derselben Verordnung."
+  },
+  {
+    "ITEM": 16,
+    "ARTICLE_EID": "art_14",
+    "TARGET_SR": "SR 741.71",
+    "assigned_articles": [
+      "Art. 7"
+    ],
+    "confidence": "high",
+    "reasoning": "«entgegen den Vorschriften nach Artikel 7 verwendet» verweist ohne andere SR-Nennung auf Art. 7 der Verordnung SR 741.71."
+  },
+  {
+    "ITEM": 17,
+    "ARTICLE_EID": "art_14",
+    "TARGET_SR": "SR 741.71",
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "«Artikel 245 des Strafgesetzbuchs» ist eine Verweisung auf SR 311.0, die bereits in ITEM 6/7 abgedeckt ist; für SR 741.71 liegt hier keine Selbstverweisung vor."
+  },
+  {
+    "ITEM": 18,
+    "ARTICLE_EID": "art_15",
+    "TARGET_SR": "SR 741.71",
+    "assigned_articles": [
+      "Art. 11 Abs. 1 Bst. a"
+    ],
+    "confidence": "high",
+    "reasoning": "«(Art. 11 Abs. 1 Bst. a)» ist eine interne Verweisung auf denselben Erlass; mangels anderer SR-Nennung bezieht sie sich auf Art. 11 Abs. 1 Buchstabe a der Verordnung SR 741.71."
+  },
+  {
+    "ITEM": 19,
+    "ARTICLE_EID": "art_16",
+    "TARGET_SR": "SR 741.71",
+    "assigned_articles": [
+      "Art. 11 Abs. 1 Bst. b"
+    ],
+    "confidence": "high",
+    "reasoning": "«(Art. 11 Abs. 1 Bst. b)» verweist intern auf Art. 11 Abs. 1 Buchstabe b derselben Verordnung (SR 741.71)."
+  }
+]

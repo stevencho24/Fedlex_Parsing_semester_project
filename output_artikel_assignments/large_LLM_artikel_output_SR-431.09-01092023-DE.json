@@ -1,0 +1,239 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 431.01",
+    "assigned_articles": [
+      "Art. 20 Abs. 2",
+      "Art. 21"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Satz nennt ausdrücklich «Artikel 20 Absatz 2 und 21 des Bundesstatistikgesetzes … SR 431.01 (BStatG)»; beide Artikel gehören daher eindeutig zu SR 431.01."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 431.03",
+    "assigned_articles": [
+      "Art. 11 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Snippet steht «nach Artikel 11 Absatz 2 des Bundesgesetzes … SR 431.03 über die Unternehmens-Identifikationsnummer»; Art. 11 Abs. 2 ist damit klar diesem SR zugeordnet."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_13",
+    "TARGET_SR": "SR 172.021",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "Formulierung «Das Verfahren richtet sich nach dem Bundesgesetz … SR 172.021 über das Verwaltungsverfahren» ohne Artikelangabe; dies ist eine generelle Verweisnorm auf das gesamte Verwaltungsverfahrensgesetz."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_18",
+    "TARGET_SR": "SR 172.010.1",
+    "assigned_articles": [
+      "Art. 6"
+    ],
+    "confidence": "high",
+    "reasoning": "Text: «nach Artikel 6 der Regierungs- und Verwaltungsorganisationsverordnung … SR 172.010.1»; Art. 6 ist eindeutig mit dieser Verordnung verknüpft."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_19",
+    "TARGET_SR": "SR 172.010.1",
+    "assigned_articles": [
+      "Art. 6"
+    ],
+    "confidence": "high",
+    "reasoning": "Gleicher Satz wie bei ITEM 4; der Verweis «nach Artikel 6 … SR 172.010.1» gilt auch hier."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 431.01",
+    "assigned_articles": [
+      "Art. 18",
+      "Art. 18 Abs. 1",
+      "Art. 19 Abs. 1",
+      "Art. 19 Abs. 2",
+      "Art. 19 Abs. 3",
+      "Art. 20 Abs. 2",
+      "Art. 4 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Snippet listet explizit mehrere Bestimmungen des BStatG: «(Art. 18 BStatG)», «(Art. 18 Abs. 1 BStatG)», «(Art. 19 Abs. 1 BStatG)», «(Art. 19 Abs. 2 BStatG)», «(Art. 19 Abs. 3 BStatG)», «(Art. 20 Abs. 2 BStatG)», «(Art. 4 Abs. 2 BStatG)»; alle gehören zu SR 431.01."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_18",
+    "TARGET_SR": "SR 431.01",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "medium",
+    "reasoning": "«die dem BStatG ganz oder teilweise unterstellten Statistikstellen» verwendet nur das Akronym für das Gesetz ohne Artikelangabe; es handelt sich um eine generelle Bezugnahme auf das Bundesstatistikgesetz, nicht auf bestimmte Artikel."
+  },
+  {
+    "ITEM": 8,
+    "ARTICLE_EID": "art_19",
+    "TARGET_SR": "SR 431.01",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "medium",
+    "reasoning": "Identischer Kontext wie bei ITEM 7; «dem BStatG … unterstellten Statistikstellen» verweist allgemein auf das Gesetz SR 431.01 ohne konkrete Artikel."
+  },
+  {
+    "ITEM": 9,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«nach Artikel 2 Absatz 1 BStatG» steht ohne explizite SR-Angabe; aufgrund der Preamble-Definition von BStatG = SR 431.01 wäre es ein externer Verweis, wird aber bereits in ITEM 6 als SR-Link mit Artikeln erfasst. Hier dient der Eintrag nur als allgemeine Selbstreferenzstruktur im Dokument und wird nicht erneut als SR-Link ausgegeben."
+  },
+  {
+    "ITEM": 10,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 431.01",
+    "assigned_articles": [
+      "Art. 18"
+    ],
+    "confidence": "high",
+    "reasoning": "«Veröffentlichungen (Art. 18 BStatG)»; direkter Klammerverweis mit Akronym, das in der Präambel SR 431.01 zugeordnet ist."
+  },
+  {
+    "ITEM": 11,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 431.01",
+    "assigned_articles": [
+      "Art. 18 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "«(Art. 18 Abs. 1 BStatG)» ist ein eindeutiger Verweis auf Art. 18 Abs. 1 des BStatG (SR 431.01)."
+  },
+  {
+    "ITEM": 12,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 431.01",
+    "assigned_articles": [
+      "Art. 19 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "«(Art. 19 Abs. 1 BStatG)» verweist klar auf Art. 19 Abs. 1 BStatG in SR 431.01."
+  },
+  {
+    "ITEM": 13,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 431.01",
+    "assigned_articles": [
+      "Art. 19 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "«(Art. 19 Abs. 2 BStatG)» ist ein expliziter Artikelverweis auf SR 431.01."
+  },
+  {
+    "ITEM": 14,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 431.01",
+    "assigned_articles": [
+      "Art. 19 Abs. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "«(Art. 19 Abs. 3 BStatG)» nennt eindeutig Art. 19 Abs. 3 des BStatG (SR 431.01)."
+  },
+  {
+    "ITEM": 15,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 431.01",
+    "assigned_articles": [
+      "Art. 20 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "«(Art. 20 Abs. 2 BStatG)» ist ein klarer Verweis auf Art. 20 Abs. 2 BStatG in SR 431.01."
+  },
+  {
+    "ITEM": 16,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 431.01",
+    "assigned_articles": [
+      "Art. 4 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "«(Art. 4 Abs. 2 BStatG)» verweist direkt auf Art. 4 Abs. 2 des BStatG (SR 431.01)."
+  },
+  {
+    "ITEM": 17,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 431.03",
+    "assigned_articles": [
+      "Art. 11 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "«Auskünfte zu Sammelabfragen der UID nach Artikel 11 Absatz 2 des Bundesgesetzes vom 18. Juni 2010 über die Unternehmens-Identifikationsnummer»; dies ist derselbe Kontext wie ITEM 2 und bezieht sich auf Art. 11 Abs. 2 SR 431.03."
+  },
+  {
+    "ITEM": 18,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«Dienstleistung nach Artikel 1» verweist auf Art. 1 derselben Verordnung; kein externes SR-Dokument wird genannt, daher reine Selbstreferenz."
+  },
+  {
+    "ITEM": 19,
+    "ARTICLE_EID": "art_8",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«Auslagen nach Artikel 9» bezieht sich auf Art. 9 der gleichen Verordnung; es fehlt jeglicher SR-Hinweis, somit interne Artikelverweisung."
+  },
+  {
+    "ITEM": 20,
+    "ARTICLE_EID": "art_15",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«Dienstleistungen nach Artikel 1 Buchstaben b–e» verweist auf interne Untergliederungen von Art. 1; kein externes Gesetz oder SR wird genannt."
+  },
+  {
+    "ITEM": 21,
+    "ARTICLE_EID": "art_18",
+    "TARGET_SR": "SR 172.010.1",
+    "assigned_articles": [
+      "Art. 6"
+    ],
+    "confidence": "high",
+    "reasoning": "«die Verwaltungseinheiten des Bundes nach Artikel 6 der Regierungs- und Verwaltungsorganisationsverordnung vom 25. November 1998»; dieselbe Formulierung wie bei ITEM 4/5, daher Verweis auf Art. 6 SR 172.010.1."
+  },
+  {
+    "ITEM": 22,
+    "ARTICLE_EID": "art_19",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«Dienstleistungen nach Artikel 1 Buchstaben b–e» ist eine reine Binnenverweisung innerhalb der Verordnung; kein SR-Dokument wird erwähnt."
+  },
+  {
+    "ITEM": 23,
+    "ARTICLE_EID": "art_19",
+    "TARGET_SR": "SR 172.010.1",
+    "assigned_articles": [
+      "Art. 6"
+    ],
+    "confidence": "high",
+    "reasoning": "Wie bei ITEM 21: «Verwaltungseinheiten des Bundes nach Artikel 6 der Regierungs- und Verwaltungsorganisationsverordnung …» verweist klar auf Art. 6 SR 172.010.1."
+  }
+]

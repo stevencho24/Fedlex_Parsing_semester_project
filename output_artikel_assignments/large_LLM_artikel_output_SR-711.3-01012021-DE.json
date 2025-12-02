@@ -1,0 +1,36 @@
+[
+  {
+    "Item": 1,
+    "SOURCE_ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 711",
+    "ASSIGNED_ARTIKEL": [],
+    "CONFIDENCE": "high",
+    "REASONING": "Die Präambel nennt nur «Artikel 113 des Bundesgesetzes ... SR 711 über die Enteignung (EntG)», ohne dass der Artikel syntaktisch mit der SR-Angabe verknüpft ist; es handelt sich um die Bezeichnung des Erlassfundaments, nicht um eine Artikelnennung innerhalb des zitierten SR-711-Erlasses. Daher keine Artikelzuweisung zur TARGET_SR."
+  },
+  {
+    "Item": 2,
+    "SOURCE_ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 172.041.1",
+    "ASSIGNED_ARTIKEL": [],
+    "CONFIDENCE": "high",
+    "REASONING": "Die Norm verweist allgemein auf die Allgemeine Gebührenverordnung (SR 172.041.1), ohne konkrete Artikel («Art.» oder «Artikel») dieser Verordnung zu nennen. Gemäss Vorgaben wird in solchen Fällen kein spezifischer Artikel zugewiesen."
+  },
+  {
+    "Item": 3,
+    "SOURCE_ARTICLE_EID": "art_3",
+    "TARGET_SR": "SR 734.24",
+    "ASSIGNED_ARTIKEL": [
+      "Art. 6-13"
+    ],
+    "CONFIDENCE": "high",
+    "REASONING": "Im Snippet heisst es ausdrücklich: «richtet sich nach den Artikeln 6–13 der Verordnung ... SR 734.24». Die Artikelangabe steht im selben Satz und ist syntaktisch direkt der genannten Verordnung zugeordnet. Damit beziehen sich die Artikel 6–13 eindeutig auf SR 734.24."
+  },
+  {
+    "Item": 4,
+    "SOURCE_ARTICLE_EID": "art_3",
+    "TARGET_SR": null,
+    "ASSIGNED_ARTIKEL": [],
+    "CONFIDENCE": "high",
+    "REASONING": "artikel_reference-Element ohne TARGET_SR. Der Text wiederholt den Verweis «Artikeln 6–13 der Verordnung ... über das Eidgenössische Starkstrominspektorat», der bereits in Item 3 mit SR 734.24 verknüpft wurde. Als reine Selbstreferenz-Erfassung wird hier kein eigener SR-Link ausgegeben."
+  }
+]

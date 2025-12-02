@@ -1,0 +1,131 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 420.1",
+    "assigned_articles": [
+      "Art. 27 Abs. 1",
+      "Art. 29 Abs. 2",
+      "Art. 56"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Präambel nennt ausdrücklich: «gestützt auf die Artikel 27 Absatz 1, 29 Absatz 2 und 56 des Bundesgesetzes … SR 420.1 … (FIFG)». Diese Artikel sind direkt und syntaktisch dem FIFG (SR 420.1) zugeordnet."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_16",
+    "TARGET_SR": "SR 420.11",
+    "assigned_articles": [
+      "Art. 47",
+      "Art. 49"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Satz «… richten sich nach den Artikeln 47 und 49 der Forschungs- und Innovationsförderungsverordnung … SR 420.11 (V-FIFG)» werden die Artikel 47 und 49 ausdrücklich dieser Verordnung SR 420.11 zugeordnet."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_19",
+    "TARGET_SR": "SR 420.11",
+    "assigned_articles": [
+      "Art. 46",
+      "Art. 47",
+      "Art. 48",
+      "Art. 49"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Text lautet: «… richten sich nach den Artikeln 46–49 V-FIFG SR 420.11.» Die Spanne 46–49 bezieht sich klar auf die Verordnung V-FIFG (SR 420.11); daher werden die Einzelartikel 46, 47, 48 und 49 zugeordnet."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": "SR 420.1",
+    "assigned_articles": [
+      "Art. 4 Buchst. c Ziff. 1",
+      "Art. 4 Buchst. c Ziff. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Passage «… nach Artikel 4 Buchstabe c Ziffer 1 und 2 FIFG …» verweist explizit auf Art. 4 lit. c Ziff. 1 und 2 des FIFG; FIFG ist in der Präambel als SR 420.1 definiert."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": "SR 420.1",
+    "assigned_articles": [
+      "Art. 4 Buchst. c Ziff. 1",
+      "Art. 4 Buchst. c Ziff. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Auch hier: «… nach Artikel 4 Buchstabe c Ziffer 1 und 2 FIFG.» Der Artikel ist direkt mit dem FIFG (SR 420.1) verknüpft; es handelt sich um dieselbe konkrete Verweisung wie in Art. 3."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_19",
+    "TARGET_SR": "SR 420.1",
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Der Schnipsel lautet: «… richten sich nach den Artikeln 46–49 V-FIFG.» Diese Artikel gehören zur Verordnung V-FIFG (SR 420.11), nicht zum FIFG (SR 420.1). Es gibt im Satz keinen Artikelhinweis, der syntaktisch mit SR 420.1/FIFG verknüpft wäre; daher keine Artikelzuordnung zu SR 420.1."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 4"
+    ],
+    "confidence": "high",
+    "reasoning": "«… nach Artikel 4 Buchstabe c Ziffer 1 und 2 FIFG …» ist eine interne Verweisung innerhalb des gleichen Gesetzes (FIFG) und bezieht sich auf Art. 4 dieses Dokuments. Da kein externes SR genannt wird, handelt es sich um eine Selbstreferenz; SR bleibt daher leer/null."
+  },
+  {
+    "ITEM": 8,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 4"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Satz verweist erneut auf «Artikel 4 Buchstabe c Ziffer 1 und 2 FIFG». Dies ist wiederum eine interne Verweisung auf Art. 4 desselben Gesetzes; kein externer SR-Bezug im Satz, daher Selbstreferenz ohne TARGET_SR."
+  },
+  {
+    "ITEM": 9,
+    "ARTICLE_EID": "art_9",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 8 Abs. 2",
+      "Art. 8 Abs. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "«… nach den in Artikel 8 Absätze 2 und 3 genannten Vorgaben …» verweist klar auf Art. 8 Abs. 2 und 3 desselben Erlasses. Es wird kein anderes SR-Dokument genannt; daher interne Selbstreferenz."
+  },
+  {
+    "ITEM": 10,
+    "ARTICLE_EID": "art_12",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 9 Abs. 2",
+      "Art. 9 Abs. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "«Das Entscheidverfahren richtet sich nach Artikel 9 Absätze 2 und 3.» Dies ist eine eindeutige interne Verweisung auf Art. 9 Abs. 2 und 3 des gleichen Erlasses; kein externer SR-Bezug vorhanden."
+  },
+  {
+    "ITEM": 11,
+    "ARTICLE_EID": "art_14",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 13"
+    ],
+    "confidence": "high",
+    "reasoning": "«… die Berücksichtigung des Zwecks nach Artikel 13 im Arbeitsprogramm des ISSI» verweist auf Art. 13 desselben Dokuments. Es wird kein anderes SR genannt; daher interne Selbstreferenz."
+  },
+  {
+    "ITEM": 12,
+    "ARTICLE_EID": "art_16",
+    "TARGET_SR": "SR 420.11",
+    "assigned_articles": [
+      "Art. 47",
+      "Art. 49"
+    ],
+    "confidence": "high",
+    "reasoning": "«… richten sich nach den Artikeln 47 und 49 der Forschungs- und Innovationsförderungsverordnung … (V-FIFG).» Die Artikel 47 und 49 sind syntaktisch eindeutig dieser Verordnung SR 420.11 zugeordnet; dies deckt sich mit ITEM 2."
+  }
+]

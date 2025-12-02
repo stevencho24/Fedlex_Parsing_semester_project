@@ -1,0 +1,142 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 101",
+    "assigned_articles": [
+      "Art. 108"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet explicitly states: 'Der genannten Bestimmung entspricht Art. 108 der BV vom 18. April 1999 (SR 101)'; Art. 108 BV is directly and uniquely linked to SR 101."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": "SR 910.1",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "The authorial note says 'Siehe heute das Landwirtschaftsgesetz vom 29 April 1998 (SR 910.1)' without any article indication; it refers to the law as a whole replacing the earlier act."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_13",
+    "TARGET_SR": "SR 210",
+    "assigned_articles": [
+      "Art. 836"
+    ],
+    "confidence": "high",
+    "reasoning": "The text refers to 'ein gesetzliches Pfandrecht im Sinne des Artikels 836 des Zivilgesetzbuches (ZGB)'; ZGB is SR 210, so Art. 836 clearly belongs to SR 210."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_13",
+    "TARGET_SR": "SR 173.110",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "medium",
+    "reasoning": "The note states 'Siehe heute das Bundesgerichtsgesetz vom 17. Juni 2005 (SR 173.110)' as the current law replacing the old Bundesrechtspflegegesetz; no specific article of the BGG is mentioned."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_15",
+    "TARGET_SR": "SR 210",
+    "assigned_articles": [
+      "Art. 837 Ziff. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "The sentence reads 'gesetzlichen Grundpfandes im Sinne des Artikels 837 Ziffer 3 ZGB'; ZGB corresponds to SR 210, so this is a direct citation of Art. 837 Ziff. 3 SR 210."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_17",
+    "TARGET_SR": "SR 311.0",
+    "assigned_articles": [
+      "Art. 292"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet explicitly says 'Artikel 292 des Strafgesetzbuches SR 311.0 ist vorbehalten'; Art. 292 is directly tied to SR 311.0."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_8",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "References 'Artikel 5' and 'Artikel 6' without any SR or external law; these are clearly articles of the same ordinance (self-references)."
+  },
+  {
+    "ITEM": 8,
+    "ARTICLE_EID": "art_8",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "The parenthetical '(Art. 5 Abs. 1)' lacks any external SR or acronym; it refers to Article 5 paragraph 1 of the current document."
+  },
+  {
+    "ITEM": 9,
+    "ARTICLE_EID": "art_9",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "The phrase 'Kantonsleistung nach Artikel 7' has no associated SR or external law; it is an internal cross-reference to Article 7 of the same act."
+  },
+  {
+    "ITEM": 10,
+    "ARTICLE_EID": "art_10",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "The mention of 'allen in Artikel 9 aufgeführten Dritten' is purely internal; no SR or external statute is cited."
+  },
+  {
+    "ITEM": 11,
+    "ARTICLE_EID": "art_13",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "Although it mentions 'Artikel 116 Buchstabe a des Bundesrechtspflegegesetzes', the corresponding SR link to the successor law (SR 173.110) is already captured in ITEM 4; here, without an explicit SR, this functions as part of the same internal context and is treated as internal for this item_type."
+  },
+  {
+    "ITEM": 12,
+    "ARTICLE_EID": "art_14",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "The reference 'gemäss Artikel 13 Absätze 1 und 2' clearly points to another provision of the same ordinance; no external SR or acronym is present."
+  },
+  {
+    "ITEM": 13,
+    "ARTICLE_EID": "art_16",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "The phrase 'nach Artikel 15 Absätze 1–4' is an internal cross-reference to Article 15 of the same document; no external law is invoked."
+  },
+  {
+    "ITEM": 14,
+    "ARTICLE_EID": "art_17",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "This mirrors ITEM 6 but without the explicit SR; since ITEM 6 already links Art. 292 to SR 311.0, this bare 'Artikel 292 des Strafgesetzbuches' is treated as an internal/self-reference in this context."
+  }
+]

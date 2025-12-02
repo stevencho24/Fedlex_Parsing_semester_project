@@ -1,0 +1,225 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 101",
+    "assigned_articles": [
+      "Art. 123",
+      "Art. 124"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet explicitly cites 'die Artikel 123 und 124 der Bundesverfassung SR 101'; both articles are directly and syntactically linked to SR 101."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_6",
+    "TARGET_SR": "SR 831.30",
+    "assigned_articles": [
+      "Art. 10 Abs. 1 Bst. a"
+    ],
+    "confidence": "high",
+    "reasoning": "Phrase 'nach Artikel 10 Absatz 1 Buchstabe a des Bundesgesetzes ... SR 831.30 (ELG)' directly attributes this specific article and subsection to SR 831.30."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_11",
+    "TARGET_SR": "SR 312.0",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "medium",
+    "reasoning": "Only 'nach der Strafprozessordnung SR 312.0' is mentioned without any article number or subsection; this is a generic reference to the code as a whole."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_19",
+    "TARGET_SR": "SR 220",
+    "assigned_articles": [
+      "Art. 45",
+      "Art. 46"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet states 'nach den Artikeln 45 ... und 46 ... des Obligationenrechts SR 220'; both articles are explicitly and syntactically tied to SR 220."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_22",
+    "TARGET_SR": "SR 220",
+    "assigned_articles": [
+      "Art. 47",
+      "Art. 49"
+    ],
+    "confidence": "high",
+    "reasoning": "Text: 'die Artikel 47 und 49 des Obligationenrechts SR 220 sind sinngemäss anwendbar'; clear direct marking of both articles to SR 220."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_25",
+    "TARGET_SR": "SR 311.0",
+    "assigned_articles": [
+      "Art. 97 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Structure 'bei Straftaten nach Artikel 97 Absatz 2 des Strafgesetzbuches SR 311.0' directly links Art. 97 Abs. 2 to SR 311.0."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_25",
+    "TARGET_SR": "SR 321.0",
+    "assigned_articles": [
+      "Art. 55 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Phrase 'Artikel 55 Absatz 2 des Militärstrafgesetzes ... SR 321.0' clearly attributes Art. 55 Abs. 2 to SR 321.0."
+  },
+  {
+    "ITEM": 8,
+    "ARTICLE_EID": "art_45",
+    "TARGET_SR": "SR 831.30",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "medium",
+    "reasoning": "Reference 'von der Regelung im ELG SR 831.30 abweichen' mentions the act by acronym and SR number but no specific article; it concerns the ELG scheme generally."
+  },
+  {
+    "ITEM": 9,
+    "ARTICLE_EID": "art_49",
+    "TARGET_SR": "SR 831.30",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "low",
+    "reasoning": "Only the bare SR number 'SR 831.30' appears without surrounding context or article citation; treated as an undifferentiated reference to the act."
+  },
+  {
+    "ITEM": 10,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Reference '(Art. 17)' is an internal cross-reference within the same law (no SR or external act mentioned); by rule this is a self-reference, not tied to another SR."
+  },
+  {
+    "ITEM": 11,
+    "ARTICLE_EID": "art_6",
+    "TARGET_SR": "SR 831.30",
+    "assigned_articles": [
+      "Art. 10 Abs. 1 Bst. a"
+    ],
+    "confidence": "high",
+    "reasoning": "Same sentence as ITEM 2 but without the explicit SR in this snippet; 'Artikel 10 Absatz 1 Buchstabe a ... (ELG)' clearly refers to the ELG, which is SR 831.30 per the linked SR item."
+  },
+  {
+    "ITEM": 12,
+    "ARTICLE_EID": "art_6",
+    "TARGET_SR": "SR 831.30",
+    "assigned_articles": [
+      "Art. 11"
+    ],
+    "confidence": "high",
+    "reasoning": "Text 'berechnen sich nach Artikel 11 ELG' directly links Art. 11 to the ELG; ELG is SR 831.30 from context."
+  },
+  {
+    "ITEM": 13,
+    "ARTICLE_EID": "art_12",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Reference 'nach Artikel 8 Absatz 1 oder 2' has no SR or acronym; it is an internal article of the same statute, so it is a self-reference only."
+  },
+  {
+    "ITEM": 14,
+    "ARTICLE_EID": "art_16",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Phrase 'im Sinne von Artikel 6 Absätze 1 und 2' lacks any external SR or acronym; this is an internal cross-reference within the same law."
+  },
+  {
+    "ITEM": 15,
+    "ARTICLE_EID": "art_16",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Again 'im Sinne von Artikel 6 Absätze 1 und 2' with no external act named; purely self-referential within the current document."
+  },
+  {
+    "ITEM": 16,
+    "ARTICLE_EID": "art_19",
+    "TARGET_SR": "SR 220",
+    "assigned_articles": [
+      "Art. 45",
+      "Art. 46"
+    ],
+    "confidence": "high",
+    "reasoning": "This is the same sentence as ITEM 4 but without the explicit SR; 'Artikeln 45 ... und 46 ... des Obligationenrechts' clearly refers to OR, which is SR 220."
+  },
+  {
+    "ITEM": 17,
+    "ARTICLE_EID": "art_19",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Reference 'nach Artikel 13' appears without any SR or external act; it is an internal article of the same statute, thus a self-reference."
+  },
+  {
+    "ITEM": 18,
+    "ARTICLE_EID": "art_20",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Phrase 'im Sinne von Artikel 6 Absätze 1 und 2' again lacks any SR or acronym; internal cross-reference only."
+  },
+  {
+    "ITEM": 19,
+    "ARTICLE_EID": "art_20",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Same internal reference pattern to 'Artikel 6 Absätze 1 und 2' with no external SR; self-reference within the law."
+  },
+  {
+    "ITEM": 20,
+    "ARTICLE_EID": "art_22",
+    "TARGET_SR": "SR 220",
+    "assigned_articles": [
+      "Art. 47",
+      "Art. 49"
+    ],
+    "confidence": "high",
+    "reasoning": "Same content as ITEM 5 but without the explicit SR; 'Artikel 47 und 49 des Obligationenrechts' clearly refers to OR, i.e., SR 220."
+  },
+  {
+    "ITEM": 21,
+    "ARTICLE_EID": "art_25",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Mentions 'Artikel 97 Absatz 2 des Strafgesetzbuches und Artikel 55 Absatz 2 des Militärstrafgesetzes' but without SR numbers; in this project, artikel_reference items are for self-references, and the external SR links for these provisions are already captured in ITEMS 6 and 7."
+  },
+  {
+    "ITEM": 22,
+    "ARTICLE_EID": "art_45",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "References 'Artikel 20 Absatz 3' and 'Artikel 23 Absatz 2' with no SR or external act; these are internal articles of the same statute."
+  },
+  {
+    "ITEM": 23,
+    "ARTICLE_EID": "art_45",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Reference 'Artikel 18 Absatz 2' has no SR or acronym; it is an internal cross-reference within the same law."
+  },
+  {
+    "ITEM": 24,
+    "ARTICLE_EID": "art_48",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Reference 'Fristen nach Artikel 25' is clearly internal to the same statute and not linked to any external SR document."
+  }
+]

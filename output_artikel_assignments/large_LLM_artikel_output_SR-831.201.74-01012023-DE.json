@@ -1,0 +1,132 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 831.201",
+    "assigned_articles": [
+      "Art. 98 Abs. 1 Bst. a"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Formulierung «gestützt auf Artikel 98 Absatz 1 Buchstabe a der Verordnung … SR 831.201 über die Invalidenversicherung (IVV)» verknüpft den genannten Artikel grammatikalisch eindeutig mit der IVV (SR 831.201)."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": "SR 831.20",
+    "assigned_articles": "General reference - entire document",
+    "confidence": "high",
+    "reasoning": "Im Satz wird nur das Bundesgesetz über die Invalidenversicherung (IVG, SR 831.20) als Ganzes erwähnt («nach dem Bundesgesetz … SR 831.20 über die Invalidenversicherung (IVG)»), ohne konkrete Artikelangabe; daher handelt es sich um eine generelle Gesetzesverweisung."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": "SR 831.201",
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Das Kürzel «BSV» ist eine im Vorspann definierte Abkürzung für das Bundesamt für Sozialversicherungen und bezeichnet eine Behörde, nicht einen Artikel der IVV. Es wird kein Artikel der SR 831.201 genannt; daher keine artikelbezogene Verweisung."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_8",
+    "TARGET_SR": "SR 831.201",
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Auch hier bezeichnet «BSV» die Behörde (Bundesamt für Sozialversicherungen). Es gibt im Snippet keine Nennung von «Art.» oder «Artikel» in Verbindung mit der IVV; somit keine konkrete Artikelverweisung auf SR 831.201."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_9",
+    "TARGET_SR": "SR 831.201",
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Das Snippet enthält nur interne Verweise («Artikel 7 Absätze 3 und 4», «Artikel 2») und die Behörde «BSV». Diese Artikel gehören zum vorliegenden Erlass (Selbstverweise), nicht zur IVV; es wird kein Artikel der SR 831.201 genannt."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_10",
+    "TARGET_SR": "SR 831.201",
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Es wird lediglich auf «vom BSV nach Artikel 7 anerkannt» und «Vereinbarung nach Artikel 8» Bezug genommen; dies sind interne Artikel des aktuellen Erlasses. Eine konkrete Artikelangabe der IVV (SR 831.201) fehlt."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_14",
+    "TARGET_SR": "SR 831.201",
+    "assigned_articles": [
+      "Art. 90 Abs. 2–5"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Satz «Artikel 90 Absätze 2–5 IVV ist anwendbar» verweist explizit auf Art. 90 Abs. 2–5 der IVV; die IVV ist SR 831.201 gemäss Preambel-Akronym «IVV»."
+  },
+  {
+    "ITEM": 8,
+    "ARTICLE_EID": "art_15_a",
+    "TARGET_SR": "SR 831.201",
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Das Snippet enthält nur interne Verweise («Artikel 8», «Artikel 7») und die Behörde «BSV». Es gibt keine explizite Nennung eines Artikels der IVV (SR 831.201); daher keine artikelbezogene Zuweisung."
+  },
+  {
+    "ITEM": 9,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 3 Abs. 2 Bst. a–c"
+    ],
+    "confidence": "high",
+    "reasoning": "«gemäss Artikel 3 Absatz 2 Buchstaben a–c» bezieht sich auf einen Artikel innerhalb desselben Erlasses (interne Strukturverweisung) und nicht auf ein externes SR-Dokument; daher Selbstverweis ohne TARGET_SR."
+  },
+  {
+    "ITEM": 10,
+    "ARTICLE_EID": "art_6",
+    "TARGET_SR": "SR 831.20",
+    "assigned_articles": [
+      "Art. 58"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Klammerzusatz «(Art. 58 IVG)» wird Art. 58 des IVG genannt; das IVG ist SR 831.20. Dies ist eine direkte, syntaktisch verknüpfte Artikelverweisung."
+  },
+  {
+    "ITEM": 11,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 4 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "«während einer Verlängerung nach Artikel 4 Absatz 2» verweist auf einen Artikel desselben Erlasses; es wird kein externes SR genannt, somit handelt es sich um eine interne Selbstverweisung ohne TARGET_SR."
+  },
+  {
+    "ITEM": 12,
+    "ARTICLE_EID": "art_9",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 7 Abs. 3",
+      "Art. 7 Abs. 4"
+    ],
+    "confidence": "high",
+    "reasoning": "«Voraussetzungen nach Artikel 7 Absätze 3 und 4» sind interne Bestimmungen des aktuellen Erlasses; kein externer SR-Bezug, daher Selbstverweis."
+  },
+  {
+    "ITEM": 13,
+    "ARTICLE_EID": "art_9",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "«Modelle nach Artikel 2» verweist auf einen Artikel innerhalb desselben Erlasses; es wird kein anderes SR-Dokument genannt, somit interner Selbstverweis."
+  },
+  {
+    "ITEM": 14,
+    "ARTICLE_EID": "art_15_a",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 8",
+      "Art. 7"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Verweise «Vereinbarung nach Artikel 8» und «Voraussetzungen nach Artikel 7» betreffen interne Artikel des vorliegenden Erlasses; es liegt kein syntaktischer oder semantischer Bezug zu einem externen SR vor."
+  }
+]

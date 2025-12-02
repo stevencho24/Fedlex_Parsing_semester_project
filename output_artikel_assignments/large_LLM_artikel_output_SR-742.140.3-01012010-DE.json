@@ -1,0 +1,64 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 101",
+    "assigned_articles": [
+      "Art. 81",
+      "Art. 87",
+      "Art. 196 Ziff. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "Im selben Satz wie die SR-Referenz wird ausdrücklich auf «die Artikel 81, 87 und 196 Ziffer 3 der Bundesverfassung SR 101» abgestellt; diese Artikel gehören damit klar zur Bundesverfassung (SR 101)."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 0.742.140.334.97",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Vereinbarung vom 5. November 1999 wird als Ganzes («in Ausführung der Vereinbarung vom 5. November 1999 SR 0.742.140.334.97 …») genannt; es werden keine bestimmten Artikel dieser Vereinbarung erwähnt, daher handelt es sich um eine generelle Verweisung auf das gesamte Abkommen."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 0.742.140.313.69",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Vereinbarung vom 6. September 1996 wird als Ganzes («in Ausführung der Vereinbarung vom 6. September 1996 SR 0.742.140.313.69 …») zitiert; es werden keine konkreten Artikel dieser Vereinbarung genannt, weshalb von einer generellen Verweisung auf das gesamte Abkommen auszugehen ist."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": "SR 742.101",
+    "assigned_articles": [
+      "Art. 18"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Satz heisst es «nach Artikel 18 des Eisenbahngesetzes vom 20. Dezember 1957 SR 742.101»; der Artikel 18 ist damit grammatikalisch eindeutig dem Eisenbahngesetz (SR 742.101) zugeordnet."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_11",
+    "TARGET_SR": "SR 742.101",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Formulierung «richten sich nach dem Eisenbahngesetz vom 20. Dezember 1957 SR 742.101» verweist ohne Nennung einzelner Artikel auf das Gesetz als Ganzes; es liegt eine generelle Rechtsgrundlagenverweisung vor."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": "SR 742.101",
+    "assigned_articles": [
+      "Art. 18"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Satz lautet «… nachdem die Plangenehmigungen nach Artikel 18 des Eisenbahngesetzes vom 20. Dezember 1957 rechtskräftig geworden sind.»; aus dem Parallel-Snippet mit expliziter SR-Referenz (ITEM 4) ergibt sich, dass dieser Artikel 18 zum Eisenbahngesetz SR 742.101 gehört. Daher ist dies keine Selbstverweisung, sondern eine Verweisung auf Art. 18 SR 742.101."
+  }
+]

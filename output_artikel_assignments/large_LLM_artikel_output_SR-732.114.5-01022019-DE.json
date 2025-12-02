@@ -1,0 +1,92 @@
+[
+  {
+    "Item": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 732.11",
+    "assigned_articles": [
+      "Art. 44 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet explicitly cites 'Artikel 44 Absatz 2 der Kernenergieverordnung ... SR 732.11 (KEV)'; clear direct marking linking Art. 44 Abs. 2 to SR 732.11."
+  },
+  {
+    "Item": 2,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 732.11",
+    "assigned_articles": [
+      "Art. 44 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "Text: 'gemäss Art. 44 Abs. 1 KEV'; KEV is defined as SR 732.11, so Art. 44 Abs. 1 belongs to SR 732.11."
+  },
+  {
+    "Item": 3,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": "SR 732.11",
+    "assigned_articles": [
+      "Art. 44 Abs. 1 Bst. a",
+      "Anhang 6 Ziff. 2",
+      "Art. 6"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet and acronym contexts contain: 'Art. 44 Abs. 1 Bst. a KEV', 'Anhang 6 Ziffer 2 der KEV', and 'Artikel 6 KEV'; all are explicitly tied to KEV = SR 732.11."
+  },
+  {
+    "Item": 4,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 732.11",
+    "assigned_articles": [
+      "Art. 44 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "Same sentence as Item 2: 'gemäss Art. 44 Abs. 1 KEV'; this preamble_acronym item reflects the same explicit reference to Art. 44 Abs. 1 KEV (SR 732.11)."
+  },
+  {
+    "Item": 5,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": "SR 732.11",
+    "assigned_articles": [
+      "Art. 44 Abs. 1 Bst. a",
+      "Anhang 6 Ziff. 2",
+      "Art. 6"
+    ],
+    "confidence": "high",
+    "reasoning": "Combined snippet mentions 'Art. 44 Abs. 1 Bst. a KEV', 'Anhang 6 Ziffer 2 der KEV' (twice), and 'Artikel 6 KEV'; all clearly belong to KEV = SR 732.11."
+  },
+  {
+    "Item": 6,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": "SR 732.11",
+    "assigned_articles": [
+      "Anhang 4 Ziff. 3.1 Bst. a"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet: 'nach Anhang 4 Ziffer 3.1 Buchstabe a KEV'; KEV is SR 732.11, so this is a direct reference to its Annex 4, section 3.1(a)."
+  },
+  {
+    "Item": 7,
+    "ARTICLE_EID": "art_6",
+    "TARGET_SR": "SR 732.11",
+    "assigned_articles": [
+      "Anhang 4 Ziff. 3.1 Bst. a"
+    ],
+    "confidence": "high",
+    "reasoning": "Identical legal structure as Item 6: 'nach Anhang 4 Ziffer 3.1 Buchstabe a KEV'; again a direct reference to Annex 4 section 3.1(a) of SR 732.11."
+  },
+  {
+    "Item": 8,
+    "ARTICLE_EID": "art_6_a",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Artikelreferenz only: 'Artikel 4' and 'Artikeln 5 und 6' with no SR or acronym context; by the rules this is an internal self-reference within the same document, not an outgoing SR link, so no TARGET_SR assignment."
+  },
+  {
+    "Item": 9,
+    "ARTICLE_EID": "art_8_a",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Artikelreferenz only: 'Artikeln 7 und 8' without any SR context; this is a self-reference to articles of the current ordinance, not to another SR document, so no external SR/article assignment."
+  }
+]

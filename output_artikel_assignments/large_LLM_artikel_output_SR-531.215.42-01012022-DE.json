@@ -1,0 +1,55 @@
+[
+  {
+    "Item": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 531",
+    "assigned_articles": [
+      "Art. 7 Abs. 1",
+      "Art. 8 Abs. 2",
+      "Art. 57 Abs. 1",
+      "Art. 60 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet explicitly cites 'Artikel 7 Absatz 1, 8 Absatz 2, 57 Absatz 1 und 60 Absatz 2 des Landesversorgungsgesetzes ... SR 531 (LVG)'; these articles are directly and syntactically linked to SR 531."
+  },
+  {
+    "Item": 2,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": "SR 641.61",
+    "assigned_articles": [
+      "Art. 4 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "The text 'Wer im Sinne von Artikel 4 Absatz 1 des Mineralölsteuergesetzes ... SR 641.61' clearly links Art. 4 Abs. 1 to the Mineralölsteuergesetz with SR 641.61."
+  },
+  {
+    "Item": 3,
+    "ARTICLE_EID": "art_6",
+    "TARGET_SR": "SR 170.512.1",
+    "assigned_articles": [
+      "Art. 20 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "The authorial note states 'in Anwendung von Art. 20 Abs. 2 der Publikationsverordnung ... (SR 170.512.1)', directly attributing Art. 20 Abs. 2 to SR 170.512.1."
+  },
+  {
+    "Item": 4,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": "SR 531",
+    "assigned_articles": [
+      "Art. 16 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet contains '(Art. 16 Abs. 1 LVG)' and LVG is defined in the preamble as SR 531; thus Art. 16 Abs. 1 belongs to SR 531."
+  },
+  {
+    "Item": 5,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet mentions 'Artikel 4 Absatz 1' without any SR or acronym context; by the rules this is a self-reference within the current document, not tied to an external SR."
+  }
+]

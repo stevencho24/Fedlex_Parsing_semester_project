@@ -1,0 +1,52 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 837.0",
+    "assigned_articles": [
+      "Art. 59cbis Abs. 5"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet explicitly cites 'Artikel 59cbis Absatz 5 des Arbeitslosenversicherungsgesetzes ... SR 837.0 (AVIG)'; this article and paragraph clearly belong to SR 837.0."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 837.02",
+    "assigned_articles": [
+      "Art. 98a"
+    ],
+    "confidence": "high",
+    "reasoning": "The sentence refers to 'Artikel 98a der Arbeitslosenversicherungsverordnung ... SR 837.02 (AVIV)'; Art. 98a is directly and uniquely linked to SR 837.02."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 837.0",
+    "assigned_articles": [
+      "Art. 65-71d"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet mentions 'Die speziellen Massnahmen nach den Artikeln 65–71d AVIG'; AVIG is SR 837.0 per the preamble acronym, so the range 65–71d belongs to SR 837.0. No other articles of SR 837.0 are mentioned here."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": "SR 837.0",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "medium",
+    "reasoning": "The snippet only names 'Die Verordnung des WBF vom 26. August 2008 über die Vergütung von arbeitsmarktlichen Massnahmen' and uses the preamble acronym WBF mapped to SR 837.0, but no specific article numbers are cited; this is a general reference to the ordinance as a whole."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "The phrase 'Beträge nach Artikel 2 Absatz 1' has no SR or acronym context and clearly refers to Art. 2 Abs. 1 of the same ordinance; thus it is a self-reference within the current document, not an external SR link."
+  }
+]

@@ -1,0 +1,135 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 813.1",
+    "assigned_articles": [
+      "Art. 5 Abs. 2 Bst. a"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Satzteil zur SR 813.1 lautet: «gestützt auf Artikel 5 Absatz 2 Buchstabe a des Chemikaliengesetzes … SR 813.1 (ChemG)»; Art. 5 Abs. 2 Bst. a ist grammatisch direkt mit dem ChemG/SR 813.1 verknüpft."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 814.01",
+    "assigned_articles": [
+      "Art. 26 Abs. 3",
+      "Art. 38 Abs. 3",
+      "Art. 39 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "Der relevante Teil lautet: «… auf die Artikel 26 Absatz 3, 38 Absatz 3 und 39 Absatz 1 des Umweltschutzgesetzes … SR 814.01 (USG) …»; alle drei Artikel werden ausdrücklich dem USG/SR 814.01 zugeordnet."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 812.21",
+    "assigned_articles": [
+      "Art. 11 Abs. 2 Bst. a"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Satzteil zur SR 812.21 lautet: «… sowie Artikel 11 Absatz 2 Buchstabe a des Heilmittelgesetzes … SR 812.21 (HMG)»; Art. 11 Abs. 2 Bst. a ist klar dem HMG/SR 812.21 zugeordnet."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": "SR 170.512.1",
+    "assigned_articles": [
+      "Art. 16 Abs. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Autorentext steht: «in Anwendung von Art. 16 Abs. 3 der Publikationsverordnung vom 17. Nov. 2004 (SR 170.512.1)»; Art. 16 Abs. 3 ist direkt mit der Publikationsverordnung/SR 170.512.1 verknüpft."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_9",
+    "TARGET_SR": "SR 946.512",
+    "assigned_articles": [
+      "Art. 14"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Text lautet: «… nach Artikel 14 der Verordnung vom 17. Juni 1996 SR 946.512 über Akkreditierung und Bezeichnung …»; Art. 14 ist eindeutig dieser Verordnung/SR 946.512 zugeordnet."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_8",
+    "TARGET_SR": "SR 813.1",
+    "assigned_articles": [
+      "Art. 4 Abs. 1 Bst. h"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Stelle lautet: «Die Anmeldestelle nach Artikel 4 Absatz 1 Buchstabe h des ChemG …»; ChemG ist im Vorspann als SR 813.1 definiert, daher gehört Art. 4 Abs. 1 Bst. h zu SR 813.1."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "interne Verweisung: Art. 14",
+      "interne Verweisung: Art. 8"
+    ],
+    "confidence": "high",
+    "reasoning": "«… in das Verzeichnis (Art. 14) … bei der Anmeldestelle (Art. 8) …»; es wird nur auf Artikel derselben Verordnung verwiesen, kein externes SR-Dokument genannt. Daher reine Selbstverweise."
+  },
+  {
+    "ITEM": 8,
+    "ARTICLE_EID": "art_6",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "interne Verweisung: Art. 5 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "«… verlangt sie die Angaben nach Artikel 5 Absatz 2. Die Liste nach Artikel 5 Absatz 2 …»; beide Verweise beziehen sich auf einen Artikel derselben Verordnung, ohne externes SR, also Selbstverweise."
+  },
+  {
+    "ITEM": 9,
+    "ARTICLE_EID": "art_9",
+    "TARGET_SR": "SR 946.512",
+    "assigned_articles": [
+      "Art. 14"
+    ],
+    "confidence": "high",
+    "reasoning": "Der artikel_reference-Satz wiederholt die Formulierung aus ITEM 5: «… nach Artikel 14 der Verordnung vom 17. Juni 1996 über Akkreditierung und Bezeichnung …»; diese Verordnung ist in ITEM 5 explizit als SR 946.512 ausgewiesen. Daher ist Art. 14 dieser SR zuzuordnen, nicht Selbstverweis."
+  },
+  {
+    "ITEM": 10,
+    "ARTICLE_EID": "art_11",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "interne Verweisung: Art. 10"
+    ],
+    "confidence": "high",
+    "reasoning": "«… sowie über die Verfügungen nach Artikel 10.»; es wird nur auf einen anderen Artikel derselben Verordnung verwiesen, ohne externes SR-Dokument."
+  },
+  {
+    "ITEM": 11,
+    "ARTICLE_EID": "art_17",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "interne Verweisung: Art. 16 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "«… nach Artikel 16 Absatz 2;»; dies ist ein Verweis auf einen anderen Artikel derselben Verordnung, kein externes SR genannt."
+  },
+  {
+    "ITEM": 12,
+    "ARTICLE_EID": "art_17",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "interne Verweisung: Art. 15"
+    ],
+    "confidence": "high",
+    "reasoning": "«Die Angaben des Verzeichnisses nach Artikel 15 …»; auch hier nur ein interner Verweis innerhalb derselben Verordnung, ohne Bezug zu einem anderen SR."
+  },
+  {
+    "ITEM": 13,
+    "ARTICLE_EID": "art_18",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "interne Verweisung: Art. 8"
+    ],
+    "confidence": "high",
+    "reasoning": "«… entsprechend ihren Zuständigkeitsbereichen (Art. 8).»; der Klammerzusatz verweist auf Art. 8 derselben Verordnung, kein externes SR-Dokument im Satz."
+  }
+]

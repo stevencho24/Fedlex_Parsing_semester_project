@@ -1,0 +1,303 @@
+[
+  {
+    "Item": 1,
+    "TARGET_SR": "SR 910.1",
+    "assigned_articles": ["Art. 177 Abs. 1"],
+    "confidence": "high",
+    "reasoning": "Snippet explicitly cites 'Artikel 177 Absatz 1 des Landwirtschaftgesetzes ... SR 910.1 (LwG)'; this article reference is grammatically linked to the SR."
+  },
+  {
+    "Item": 2,
+    "TARGET_SR": "SR 910.18",
+    "assigned_articles": ["Art. 5 Abs. 2"],
+    "confidence": "high",
+    "reasoning": "Inside authorial note: 'Siehe jedoch die Ausnahmeregelung in Art. 5 Abs. 2 der Bio-Verordnung ... (SR 910.18)'; direct marking connects Art. 5 Abs. 2 to SR 910.18."
+  },
+  {
+    "Item": 3,
+    "TARGET_SR": "SR 910.13",
+    "assigned_articles": ["Art. 11-25"],
+    "confidence": "high",
+    "reasoning": "Snippet: 'der ökologische Leistungsnachweis nach den Artikeln 11–25 der Direktzahlungsverordnung ... SR 910.13 (DZV)'; the range 11–25 is explicitly tied to the DZV."
+  },
+  {
+    "Item": 4,
+    "TARGET_SR": "SR 916.344",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "medium",
+    "reasoning": "Only 'die Bestimmungen der Höchstbestandesverordnung ... SR 916.344' is mentioned without specific articles; treated as a general reference."
+  },
+  {
+    "Item": 5,
+    "TARGET_SR": "SR 910.18",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "medium",
+    "reasoning": "Refers to 'die Bestimmungen ... der Bio-Verordnung ... SR 910.18' without article numbers; interpreted as a general reference to the Bio-Verordnung."
+  },
+  {
+    "Item": 6,
+    "TARGET_SR": "SR 921.0",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "medium",
+    "reasoning": "Phrase 'Waldgesetz ... SR 921.0' with no article specified; context is definitional (what counts as Wald), so it likely relies on the law as a whole."
+  },
+  {
+    "Item": 7,
+    "TARGET_SR": "SR 221.213.2",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "medium",
+    "reasoning": "Snippet: 'Pachtvertrag gemäss den massgebenden Bestimmungen des LPG SR 221.213.2'; no specific article cited, reference is to the relevant provisions generally."
+  },
+  {
+    "Item": 8,
+    "TARGET_SR": "SR 700.1",
+    "assigned_articles": ["Art. 32c Abs. 1 Bst. a", "Art. 32c Abs. 1 Bst. c"],
+    "confidence": "high",
+    "reasoning": "Snippet explicitly: 'nach Artikel 32c Absatz 1 Buchstabe a oder c der Raumplanungsverordnung ... SR 700.1 (RPV)'; direct marking to these provisions."
+  },
+  {
+    "Item": 9,
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": ["Art. 43"],
+    "confidence": "high",
+    "reasoning": "Snippet: 'nach Artikel 43 des Zollgesetzes ... SR 631.0'; clear direct reference."
+  },
+  {
+    "Item": 10,
+    "TARGET_SR": "SR 910.13",
+    "assigned_articles": ["Art. 106 Abs. 2 Bst. f", "Art. 106 Abs. 2 Bst. g", "Art. 106 Abs. 3"],
+    "confidence": "high",
+    "reasoning": "Snippet: 'nach Artikel 106 Absätze 2 Buchstaben f und g sowie 3 DZV SR 910.13'; explicit linkage of these paragraphs to the DZV."
+  },
+  {
+    "Item": 11,
+    "TARGET_SR": "SR 921.01",
+    "assigned_articles": ["Art. 2"],
+    "confidence": "high",
+    "reasoning": "Snippet: 'bestockten Weiden ... nach Artikel 2 der Waldverordnung ... SR 921.01'; direct article citation."
+  },
+  {
+    "Item": 12,
+    "TARGET_SR": "SR 912.1",
+    "assigned_articles": ["Art. 1 Abs. 2"],
+    "confidence": "high",
+    "reasoning": "Snippet: 'nach Artikel 1 Absatz 2 der Landwirtschaftlichen Zonen-Verordnung ... SR 912.1'; explicit article and paragraph."
+  },
+  {
+    "Item": 13,
+    "TARGET_SR": "SR 916.307",
+    "assigned_articles": ["Art. 3 Abs. 1"],
+    "confidence": "medium",
+    "reasoning": "Snippet: 'nach Artikel 3 Absatz l der Futtermittel-Verordnung ... SR 916.307'; 'l' is a typographical variant of '1' in this context; treated as Art. 3 Abs. 1."
+  },
+  {
+    "Item": 14,
+    "TARGET_SR": "SR 211.412.11",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "medium",
+    "reasoning": "Refers to 'Bundesgesetz ... SR 211.412.11 über das bäuerliche Bodenrecht (BGBB)' without article; used as a general legal framework for 'landwirtschaftliches Gewerbe'."
+  },
+  {
+    "Item": 15,
+    "TARGET_SR": "SR 211.412.11",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "medium",
+    "reasoning": "Snippet: 'mehrere Gewerbe nach BGBB SR 211.412.11'; no specific article; general reliance on the BGBB definition of 'Gewerbe'."
+  },
+  {
+    "Item": 16,
+    "TARGET_SR": "SR 910.1",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "high",
+    "reasoning": "Preamble acronym item: 'Begriffe gelten für das LwG'; no specific article; the definitions apply to the entire Landwirtschaftsgesetz."
+  },
+  {
+    "Item": 17,
+    "TARGET_SR": "SR 910.1",
+    "assigned_articles": ["2. Titel"],
+    "confidence": "high",
+    "reasoning": "Snippet: 'Produkte nach dem 2. Titel des LwG'; this is a title-level reference within SR 910.1, not to a specific article; captured as '2. Titel'."
+  },
+  {
+    "Item": 18,
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "high",
+    "reasoning": "Artikel 3 refers to '(Art. 15)' without any SR; this is a cross-reference to another article of the same ordinance (self-reference)."
+  },
+  {
+    "Item": 19,
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "high",
+    "reasoning": "'Nutztiere (Art. 27)' in Art. 3; no external SR; internal article cross-reference."
+  },
+  {
+    "Item": 20,
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "high",
+    "reasoning": "'Tierhaltungen nach Artikel 11 umfasst'; no SR mentioned; internal reference to Art. 11 of the same document."
+  },
+  {
+    "Item": 21,
+    "TARGET_SR": "SR 910.13",
+    "assigned_articles": ["Art. 11-25"],
+    "confidence": "high",
+    "reasoning": "Although item_type is artikel_reference, the snippet explicitly cites 'Artikeln 11–25 der Direktzahlungsverordnung ... (DZV)'; by direct marking these belong to SR 910.13."
+  },
+  {
+    "Item": 22,
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "high",
+    "reasoning": "'Gemeinschaftsform nach den Artikeln 10 oder 12'; no SR; internal references to Arts. 10 and 12 of this ordinance."
+  },
+  {
+    "Item": 23,
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "high",
+    "reasoning": "'Gemeinschaftsweiden (Art. 25)' in Art. 8; no external SR; self-reference."
+  },
+  {
+    "Item": 24,
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "high",
+    "reasoning": "'Sömmerungsweiden (Art. 26)' in Art. 9; internal cross-reference."
+  },
+  {
+    "Item": 25,
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "high",
+    "reasoning": "'Bewirtschafter ... nach Artikel 2'; refers to Art. 2 of the same ordinance; no SR present."
+  },
+  {
+    "Item": 26,
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "high",
+    "reasoning": "References '(Art. 24)' and '(Art. 6)' in definitional text; both are articles of this ordinance; no external SR."
+  },
+  {
+    "Item": 27,
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "high",
+    "reasoning": "'Dauergrünflächen (Art. 19)' in Art. 14; internal article reference."
+  },
+  {
+    "Item": 28,
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "high",
+    "reasoning": "'Flächen nach Artikel 14 Buchstaben a, d und e'; clearly refers to Art. 14 of the same document."
+  },
+  {
+    "Item": 29,
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "high",
+    "reasoning": "'Flächen nach Artikel 14 Absatz 1 Buchstabe a, b, d oder e'; internal cross-reference to Art. 14."
+  },
+  {
+    "Item": 30,
+    "TARGET_SR": "SR 700.1",
+    "assigned_articles": ["Art. 32c Abs. 1 Bst. a", "Art. 32c Abs. 1 Bst. c"],
+    "confidence": "high",
+    "reasoning": "Even though item_type is artikel_reference, the snippet cites 'Artikel 32c Absatz 1 Buchstabe a oder c der Raumplanungsverordnung ... (RPV)'; by prepositional attribution this belongs to SR 700.1."
+  },
+  {
+    "Item": 31,
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "high",
+    "reasoning": "Conditions refer to 'Flächen nach Artikel 14 Absatz 1 ...'; no SR; internal reference to Art. 14."
+  },
+  {
+    "Item": 32,
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": ["Art. 43"],
+    "confidence": "high",
+    "reasoning": "Snippet: 'nach Artikel 43 des Zollgesetzes ...'; although item_type is artikel_reference, the structure clearly links Art. 43 to the Zollgesetz (SR 631.0) as in item 9."
+  },
+  {
+    "Item": 33,
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "high",
+    "reasoning": "Mentions '(Art. 24)' only; no SR; internal reference to Art. 24 of this ordinance."
+  },
+  {
+    "Item": 34,
+    "TARGET_SR": "SR 921.01",
+    "assigned_articles": ["Art. 2"],
+    "confidence": "high",
+    "reasoning": "Text: 'nach Artikel 2 der Waldverordnung vom 30. November 1992'; same wording as item 11 but without SR number; by context this is the Waldverordnung SR 921.01, Art. 2."
+  },
+  {
+    "Item": 35,
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "high",
+    "reasoning": "Defines 'Grünfläche' via '(Art. 18 Abs. 3)' and '(Art. 19)'; both are internal articles; no external SR."
+  },
+  {
+    "Item": 36,
+    "TARGET_SR": "SR 912.1",
+    "assigned_articles": ["Art. 1 Abs. 2"],
+    "confidence": "high",
+    "reasoning": "Same sentence as item 12 but without explicit SR; 'Landwirtschaftlichen Zonen-Verordnung vom 7. Dezember 1998' is SR 912.1; article is 1 Abs. 2."
+  },
+  {
+    "Item": 37,
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "high",
+    "reasoning": "Refers to 'Gemeinschaftsweidebetrieb (Art. 8)'; internal cross-reference."
+  },
+  {
+    "Item": 38,
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "high",
+    "reasoning": "Refers to 'Sömmerungsbetrieb (Art. 9)'; internal article reference."
+  },
+  {
+    "Item": 39,
+    "TARGET_SR": "SR 916.307",
+    "assigned_articles": ["Art. 3 Abs. 1"],
+    "confidence": "high",
+    "reasoning": "Same structure as item 13 but without SR; 'Futtermittel-Verordnung vom 26. Oktober 2011' is SR 916.307; article is 3 Abs. 1."
+  },
+  {
+    "Item": 40,
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "high",
+    "reasoning": "References 'Artikel 6 Absatz 2bis' and 'Artikel 32'; both are provisions of the same ordinance; no external SR."
+  },
+  {
+    "Item": 41,
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "high",
+    "reasoning": "Mentions 'Artikeln 6–12' as conditions checked by the canton; these are internal articles of this ordinance."
+  },
+  {
+    "Item": 42,
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "high",
+    "reasoning": "Refers to 'Artikel 6 Absatz 1 Buchstabe b'; internal cross-reference."
+  },
+  {
+    "Item": 43,
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "high",
+    "reasoning": "Mentions 'Betriebszweiggemeinschaften nach Artikel 12'; internal reference to Art. 12 of the same ordinance."
+  }
+]

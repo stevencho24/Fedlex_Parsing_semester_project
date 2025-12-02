@@ -1,0 +1,90 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 232.21",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "high",
+    "reasoning": "Preamble cites the Wappenschutzgesetz (WSchG) by title and SR number only, without any specific article; this is a generic legal basis reference to the whole act."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": "SR 941.210",
+    "assigned_articles": ["Anhang 6 Ziff. 1.1–1.3", "Anhang 5 Ziff. 2.2", "Anhang 7 Ziff. 1.2"],
+    "confidence": "high",
+    "reasoning": "Snippet explicitly links the cited SR 941.210 (MessMV) to specific annex provisions: Anhang 6 Ziff. 1.1–1.3, Anhang 5 Ziff. 2.2, and Anhang 7 Ziff. 1.2; no other articles or annexes are mentioned."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": "SR 941.311",
+    "assigned_articles": ["Anhang II Ziff. 1"],
+    "confidence": "high",
+    "reasoning": "Snippet states 'die Garantiepunzen nach Anhang II Ziffer 1 der Edelmetallkontrollverordnung ... SR 941.311'; this is a direct reference to Anhang II Ziff. 1 of that ordinance."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": "SR 946.512",
+    "assigned_articles": ["Anhang 4"],
+    "confidence": "high",
+    "reasoning": "Snippet refers to 'die Akkreditierungszeichen nach Anhang 4 der Akkreditierungs- und Bezeichnungsverordnung ... SR 946.512'; clearly and solely cites Anhang 4."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_9",
+    "TARGET_SR": "SR 232.111",
+    "assigned_articles": ["Art. 54a", "Art. 55–57"],
+    "confidence": "high",
+    "reasoning": "Text: 'die Artikel 54a und 55–57 der Verordnung ... SR 232.111 ... anwendbar'; the articles are explicitly tied to that SR. The range 55–57 is kept as a range as allowed by the specification."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 232.21",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "high",
+    "reasoning": "Article 1 mentions 'das WSchG und dieser Verordnung' without any article numbers; it defines competence for all administrative tasks arising from the WSchG, implying a general reference to the act as a whole."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": "SR 232.21",
+    "assigned_articles": ["Art. 4"],
+    "confidence": "high",
+    "reasoning": "Snippet: 'Als andere Hoheitszeichen der Eidgenossenschaft nach Artikel 4 WSchG gelten:'; 'Artikel 4' is directly followed by the acronym WSchG, which the preamble maps to SR 232.21, so this is Art. 4 of SR 232.21."
+  },
+  {
+    "ITEM": 8,
+    "ARTICLE_EID": "art_8",
+    "TARGET_SR": "SR 232.21",
+    "assigned_articles": ["Art. 20", "Art. 21", "Art. 22"],
+    "confidence": "high",
+    "reasoning": "Snippet: 'die Berechtigten nach Artikel 20, 21 oder 22 WSchG'; the three article numbers are explicitly associated with WSchG, which is SR 232.21 per the preamble acronym."
+  },
+  {
+    "ITEM": 9,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "This is an artikel_reference without a TARGET_SR. The phrase 'Artikel 33 MessMV' clearly refers to Art. 33 of the Messmittelverordnung (SR 941.210), but that relationship is already captured in ITEM 2 (SR_link_detection) for SR 941.210. As per instructions, artikel_reference is used to catch self-references not already used; here the cross-reference is external and already linked, so no new SR link is created."
+  },
+  {
+    "ITEM": 10,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 7–9"],
+    "confidence": "high",
+    "reasoning": "Snippet: 'Die Artikel 7–9 gelten für Hilfeleistungen ...'; no external SR or acronym is mentioned, and this describes the scope of provisions within the same ordinance. This is an internal self-reference to Articles 7–9 of the current document, so it is not assigned to any external SR."
+  },
+  {
+    "ITEM": 11,
+    "ARTICLE_EID": "art_9",
+    "TARGET_SR": "SR 232.111",
+    "assigned_articles": ["Art. 54a", "Art. 55–57"],
+    "confidence": "high",
+    "reasoning": "This artikel_reference snippet is the same sentence as ITEM 5 and refers to 'Artikel 54a und 55–57 der Verordnung ... über den Schutz von Marken und Herkunftsangaben', which is SR 232.111. Since the SR link is explicit in the underlying article and already captured in ITEM 5, we mirror that assignment here to reflect the external SR link with the same articles."
+  }
+]

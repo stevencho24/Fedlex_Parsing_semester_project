@@ -1,0 +1,391 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 101",
+    "assigned_articles": [
+      "Art. 119 Abs. 2",
+      "Art. 122 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet explicitly cites 'Artikel 119 Absatz 2 und 122 Absatz 1 der Bundesverfassung SR 101'; both articles are grammatically linked to SR 101."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": "SR 210",
+    "assigned_articles": [
+      "Art. 252",
+      "Art. 253",
+      "Art. 254",
+      "Art. 255",
+      "Art. 256",
+      "Art. 257",
+      "Art. 258",
+      "Art. 259",
+      "Art. 260",
+      "Art. 261",
+      "Art. 262",
+      "Art. 263"
+    ],
+    "confidence": "high",
+    "reasoning": "Phrase 'Artikel 252–263 des Zivilgesetzbuchs SR 210 (ZGB)' directly links the range 252–263 to SR 210; expanded as continuous articles 252 through 263."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_6_a",
+    "TARGET_SR": "SR 810.12",
+    "assigned_articles": [
+      "Art. 24"
+    ],
+    "confidence": "high",
+    "reasoning": "Text 'nach Artikel 24 des Bundesgesetzes ... SR 810.12 über genetische Untersuchungen beim Menschen (GUMG)' clearly attributes Art. 24 to SR 810.12."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_6_b",
+    "TARGET_SR": "SR 810.12",
+    "assigned_articles": [
+      "Art. 7",
+      "Art. 8",
+      "Art. 9",
+      "Art. 10",
+      "Art. 11",
+      "Art. 12",
+      "Art. 39 lit. b",
+      "Art. 43 Abs. 3",
+      "Art. 45"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet and acronym context list 'Artikel 7 und 8 GUMG', 'Artikel 9 GUMG', 'Artikel 10–12 GUMG', and 'Artikel 39 Buchstabe b, 43 Absatz 3 und 45 GUMG'; all are explicitly tied to GUMG = SR 810.12."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_8",
+    "TARGET_SR": "SR 810.12",
+    "assigned_articles": [
+      "Art. 28 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "Formulation 'Bewilligung nach Artikel 28 Absatz 1 GUMG SR 810.12' directly links Art. 28 Abs. 1 to SR 810.12."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_16",
+    "TARGET_SR": "SR 810.31",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "medium",
+    "reasoning": "Only 'Bestimmungen des Stammzellenforschungsgesetzes ... SR 810.31' is mentioned without specific articles; treated as a general reference to the act."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_16",
+    "TARGET_SR": "SR 810.21",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "medium",
+    "reasoning": "Text refers to 'Bestimmungen ... des Transplantationsgesetzes ... SR 810.21' without article numbers; interpreted as a general reference to the whole statute."
+  },
+  {
+    "ITEM": 8,
+    "ARTICLE_EID": "art_22",
+    "TARGET_SR": "SR 210",
+    "assigned_articles": [
+      "Art. 95"
+    ],
+    "confidence": "high",
+    "reasoning": "Phrase 'kein Ehehindernis nach Artikel 95 ZGB SR 210' clearly associates Art. 95 with SR 210."
+  },
+  {
+    "ITEM": 9,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "Artikel 252–263 des Zivilgesetzbuchs (ZGB) is already captured and linked to SR 210 in ITEM 2; this artikel_reference line duplicates that context and functions as an internal textual reference, not a new SR link."
+  },
+  {
+    "ITEM": 10,
+    "ARTICLE_EID": "art_5_a",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 22 Abs. 4"
+    ],
+    "confidence": "high",
+    "reasoning": "Reference 'Vorbehalten bleibt Artikel 22 Absatz 4.' clearly points to another article within the same law; no external SR is mentioned, so it is an internal self-reference."
+  },
+  {
+    "ITEM": 11,
+    "ARTICLE_EID": "art_6_a",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 6"
+    ],
+    "confidence": "high",
+    "reasoning": "The phrase 'zusätzlich zur Information und Beratung nach Artikel 6' refers to Art. 6 of the current act; no external SR context is present."
+  },
+  {
+    "ITEM": 12,
+    "ARTICLE_EID": "art_6_a",
+    "TARGET_SR": "SR 810.12",
+    "assigned_articles": [
+      "Art. 24"
+    ],
+    "confidence": "high",
+    "reasoning": "This artikel_reference snippet repeats 'Artikel 24 des Bundesgesetzes ... über genetische Untersuchungen beim Menschen (GUMG)', which in ITEM 3 is tied to SR 810.12; thus Art. 24 of SR 810.12 is the relevant external article."
+  },
+  {
+    "ITEM": 13,
+    "ARTICLE_EID": "art_9",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 8 Abs. 1 lit. a"
+    ],
+    "confidence": "high",
+    "reasoning": "Reference 'Bewilligung nach Artikel 8 Absatz 1 Buchstabe a' clearly points to an internal provision (Art. 8) of the same statute; no external SR is indicated."
+  },
+  {
+    "ITEM": 14,
+    "ARTICLE_EID": "art_10",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 8 Abs. 1 lit. b"
+    ],
+    "confidence": "high",
+    "reasoning": "Similar to ITEM 13, 'Bewilligung nach Artikel 8 Absatz 1 Buchstabe b' is an internal cross-reference within the same law."
+  },
+  {
+    "ITEM": 15,
+    "ARTICLE_EID": "art_11",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 8 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "The phrase 'Bewilligung nach Artikel 8 Absatz 1' refers to Art. 8 of the current act; no external SR is mentioned."
+  },
+  {
+    "ITEM": 16,
+    "ARTICLE_EID": "art_14_a",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 11 Abs. 2 lit. b",
+      "Art. 5a Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet explicitly cites 'Artikel 11 Absatz 2 Buchstabe b' and 'Artikel 5a Absatz 2'; both are provisions of the same statute and function as internal cross-references."
+  },
+  {
+    "ITEM": 17,
+    "ARTICLE_EID": "art_14_a",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 8 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "Reference 'Bewilligung nach Artikel 8 Absatz 1' is clearly to an internal article of the same law; no external SR context."
+  },
+  {
+    "ITEM": 18,
+    "ARTICLE_EID": "art_18",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 27"
+    ],
+    "confidence": "high",
+    "reasoning": "Citation '(Art. 27)' appears without any SR or acronym linking to another act; it therefore refers to Art. 27 of the current statute."
+  },
+  {
+    "ITEM": 19,
+    "ARTICLE_EID": "art_20",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 24 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Reference 'Artikel 24 Absatz 2' is internal; no external SR is mentioned in the snippet."
+  },
+  {
+    "ITEM": 20,
+    "ARTICLE_EID": "art_20",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 22 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "The phrase 'dass Artikel 22 Absatz 2 eingehalten wird' is an internal cross-reference to Art. 22 of the same law."
+  },
+  {
+    "ITEM": 21,
+    "ARTICLE_EID": "art_23",
+    "TARGET_SR": "SR 210",
+    "assigned_articles": [
+      "Art. 261 ff."
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet explicitly mentions '(Art. 261 ff. ZGB)'; ZGB is SR 210, so this is a reference to Art. 261 and following of SR 210."
+  },
+  {
+    "ITEM": 22,
+    "ARTICLE_EID": "art_25",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 24"
+    ],
+    "confidence": "high",
+    "reasoning": "Reference 'Daten nach Artikel 24' is internal to the same act; no external SR is present."
+  },
+  {
+    "ITEM": 23,
+    "ARTICLE_EID": "art_27",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 24 Abs. 2 lit. a",
+      "Art. 24 Abs. 2 lit. d"
+    ],
+    "confidence": "high",
+    "reasoning": "Citation '(Art. 24 Abs. 2 Bst. a und d)' clearly refers to internal subparagraphs of Art. 24; no external statute is invoked."
+  },
+  {
+    "ITEM": 24,
+    "ARTICLE_EID": "art_27",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 24 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Reference '(Art. 24 Abs. 2)' is an internal cross-reference to Art. 24 of the same law."
+  },
+  {
+    "ITEM": 25,
+    "ARTICLE_EID": "art_37",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 3 Abs. 2 lit. a",
+      "Art. 3 Abs. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "The phrase 'entgegen Artikel 3 Absätze 2 Buchstabe a und 3' refers to internal provisions of the same statute; no external SR is mentioned."
+  },
+  {
+    "ITEM": 26,
+    "ARTICLE_EID": "art_37",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 15",
+      "Art. 16",
+      "Art. 42"
+    ],
+    "confidence": "high",
+    "reasoning": "Reference 'entgegen den Artikeln 15, 16 und 42' is clearly internal; it lists several articles of the same act."
+  },
+  {
+    "ITEM": 27,
+    "ARTICLE_EID": "art_37",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 17 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "Citation 'entgegen Artikel 17 Absatz 1' is an internal cross-reference; no external SR context."
+  },
+  {
+    "ITEM": 28,
+    "ARTICLE_EID": "art_37",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 8 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "Phrase 'Bewilligung nach Artikel 8 Absatz 1' again refers to the internal Art. 8 of the same law."
+  },
+  {
+    "ITEM": 29,
+    "ARTICLE_EID": "art_37",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 22 Abs. 1–3"
+    ],
+    "confidence": "high",
+    "reasoning": "Reference 'entgegen Artikel 22 Absätze 1–3' is an internal range within Art. 22; no external SR is indicated."
+  },
+  {
+    "ITEM": 30,
+    "ARTICLE_EID": "art_37",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 24"
+    ],
+    "confidence": "high",
+    "reasoning": "Citation 'nach Artikel 24 vorgeschriebenen Daten' is an internal reference to Art. 24 of the same statute."
+  },
+  {
+    "ITEM": 31,
+    "ARTICLE_EID": "art_40",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 8 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "Reference 'Bewilligung nach Artikel 8 Absatz 1' is internal; no external SR is present."
+  },
+  {
+    "ITEM": 32,
+    "ARTICLE_EID": "art_41",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 18",
+      "Art. 24",
+      "Art. 25",
+      "Art. 26",
+      "Art. 27"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet 'Die Artikel 18 und 24–27 gelten auch ...' lists internal articles; 24–27 is a continuous range, expanded here."
+  },
+  {
+    "ITEM": 33,
+    "ARTICLE_EID": "art_41",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 27"
+    ],
+    "confidence": "high",
+    "reasoning": "Phrase 'in sinngemässer Anwendung von Artikel 27' is an internal cross-reference to Art. 27."
+  },
+  {
+    "ITEM": 34,
+    "ARTICLE_EID": "art_42",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 11"
+    ],
+    "confidence": "high",
+    "reasoning": "Sentence ends with 'Artikel 11 ist anwendbar.'; this is an internal reference to Art. 11 of the same law."
+  },
+  {
+    "ITEM": 35,
+    "ARTICLE_EID": "art_43",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 23"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet 'Artikel 23 gilt auch ...' refers to Art. 23 of the same statute; no external SR is mentioned."
+  },
+  {
+    "ITEM": 36,
+    "ARTICLE_EID": "art_43_a",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 14a Abs. 4"
+    ],
+    "confidence": "high",
+    "reasoning": "Reference 'nach Artikel 14a Absatz 4' is an internal cross-reference to Art. 14a of the same law."
+  }
+]

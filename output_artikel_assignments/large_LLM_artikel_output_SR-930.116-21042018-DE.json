@@ -1,0 +1,211 @@
+[
+  {
+    "Item": 1,
+    "source_article_eid": "preamble",
+    "links": [
+      {
+        "target_sr": "SR 930.11",
+        "assigned_articles": [
+          "Art. 4"
+        ],
+        "confidence": "high",
+        "reasoning": "The snippet explicitly says 'gestützt auf Artikel 4 des Bundesgesetzes ... SR 930.11 über die Produktesicherheit (PrSG)'; Art. 4 is directly linked to SR 930.11."
+      }
+    ]
+  },
+  {
+    "Item": 2,
+    "source_article_eid": "preamble",
+    "links": [
+      {
+        "target_sr": "SR 832.20",
+        "assigned_articles": [
+          "Art. 83 Abs. 1"
+        ],
+        "confidence": "high",
+        "reasoning": "The text states 'auf Artikel 83 Absatz 1 des Bundesgesetzes vom 20. März 1981 SR 832.20 über die Unfallversicherung'; this clearly ties Art. 83 Abs. 1 to SR 832.20."
+      }
+    ]
+  },
+  {
+    "Item": 3,
+    "source_article_eid": "preamble",
+    "links": [
+      {
+        "target_sr": "SR 734.0",
+        "assigned_articles": [],
+        "confidence": "high",
+        "reasoning": "The snippet only mentions 'in Ausführung des Elektrizitätsgesetzes vom 24. Juni 1902 SR 734.0' without any article number; this is a general reference to the entire act."
+      }
+    ]
+  },
+  {
+    "Item": 4,
+    "source_article_eid": "preamble",
+    "links": [
+      {
+        "target_sr": "SR 946.51",
+        "assigned_articles": [],
+        "confidence": "high",
+        "reasoning": "The text reads 'des Bundesgesetzes vom 6. Oktober 1995 SR 946.51 über die technischen Handelshemmnisse' with no article specified; this is a general reference to SR 946.51."
+      }
+    ]
+  },
+  {
+    "Item": 5,
+    "source_article_eid": "art_1",
+    "links": [
+      {
+        "target_sr": "SR 930.111",
+        "assigned_articles": [],
+        "confidence": "high",
+        "reasoning": "The sentence refers to 'die Bestimmungen der Verordnung vom 19. Mai 2010 SR 930.111 über die Produktesicherheit (PrSV)' without any article indication; it invokes the PrSV as a whole."
+      }
+    ]
+  },
+  {
+    "Item": 6,
+    "source_article_eid": "art_3",
+    "links": [
+      {
+        "target_sr": "SR 946.512",
+        "assigned_articles": [],
+        "confidence": "high",
+        "reasoning": "The phrase 'nach der Akkreditierungs- und Bezeichnungsverordnung vom 17. Juni 1996 SR 946.512 (AkkBV) akkreditiert' cites the AkkBV generally; no article is mentioned."
+      }
+    ]
+  },
+  {
+    "Item": 7,
+    "source_article_eid": "art_6",
+    "links": [
+      {
+        "target_sr": "SR 930.111",
+        "assigned_articles": [
+          "Art. 19–29"
+        ],
+        "confidence": "high",
+        "reasoning": "The snippet states 'richtet sich nach den Artikeln 19–29 PrSV SR 930.111'; the range 19–29 is explicitly tied to PrSV, i.e. SR 930.111."
+      }
+    ]
+  },
+  {
+    "Item": 8,
+    "source_article_eid": "art_5",
+    "links": [
+      {
+        "target_sr": "SR 832.20",
+        "assigned_articles": [
+          "Art. 6"
+        ],
+        "confidence": "high",
+        "reasoning": "Using the preamble acronym, PrSG = SR 832.20. The text says 'richtet sich nach Artikel 6 PrSG'; thus Art. 6 belongs to SR 832.20."
+      }
+    ]
+  },
+  {
+    "Item": 9,
+    "source_article_eid": "art_1",
+    "links": [],
+    "confidence": "high",
+    "reasoning": "The reference 'Artikel 1 Absätze 1–5 der EU-Gasgeräte-Verordnung' concerns an EU regulation, not a Swiss SR document; no SR link is involved, so this is an internal/foreign reference only."
+  },
+  {
+    "Item": 10,
+    "source_article_eid": "art_1",
+    "links": [],
+    "confidence": "high",
+    "reasoning": "All article mentions ('Artikel 2 der EU-Gasgeräte-Verordnung', 'Artikel 2 Nummern 23–25') refer to the EU Gas Appliances Regulation, not to any SR; therefore they are not assigned to an SR."
+  },
+  {
+    "Item": 11,
+    "source_article_eid": "art_2",
+    "links": [],
+    "confidence": "high",
+    "reasoning": "The citation 'Artikel 5 der EU-Gasgeräte-Verordnung' clearly points to the EU regulation; there is no SR context, so it is treated as an external (non‑SR) reference."
+  },
+  {
+    "Item": 12,
+    "source_article_eid": "art_3",
+    "links": [],
+    "confidence": "high",
+    "reasoning": "The range 'Artikeln 13–15 der EU-Gasgeräte-Verordnung' is again to the EU regulation; no SR is mentioned in the same syntactic unit, so no SR assignment is made."
+  },
+  {
+    "Item": 13,
+    "source_article_eid": "art_3",
+    "links": [],
+    "confidence": "high",
+    "reasoning": "Both 'Artikel 17 Absätze 3 und 4 der EU-Gasgeräte-Verordnung' and the earlier 'Artikel 2' reference are to the EU regulation; they are not tied to any SR document."
+  },
+  {
+    "Item": 14,
+    "source_article_eid": "art_3",
+    "links": [],
+    "confidence": "high",
+    "reasoning": "The mention 'Artikel 18 der EU-Gasgeräte-Verordnung' is explicitly to the EU regulation; there is no SR link, so it remains an external reference."
+  },
+  {
+    "Item": 15,
+    "source_article_eid": "art_3",
+    "links": [
+      {
+        "target_sr": "SR 946.512",
+        "assigned_articles": [
+          "Art. 24–34c"
+        ],
+        "confidence": "high",
+        "reasoning": "The snippet refers to 'dem 3. Kapitel (Art. 24– 34c) der AkkBV'; AkkBV is defined earlier as SR 946.512. The article range 24–34c is therefore assigned to SR 946.512."
+      }
+    ]
+  },
+  {
+    "Item": 16,
+    "source_article_eid": "art_4",
+    "links": [],
+    "confidence": "high",
+    "reasoning": "The bare reference 'Artikel 7;' has no SR context and clearly points to another article within the same ordinance; it is an internal self‑reference only."
+  },
+  {
+    "Item": 17,
+    "source_article_eid": "art_4",
+    "links": [],
+    "confidence": "high",
+    "reasoning": "Similarly, 'Artikel 8;' appears without any SR or acronym; it is an internal reference to Art. 8 of the current document."
+  },
+  {
+    "Item": 18,
+    "source_article_eid": "art_4",
+    "links": [],
+    "confidence": "high",
+    "reasoning": "'Artikel 9;' is mentioned in isolation, with no SR or external law named; it is a self‑reference within the same ordinance."
+  },
+  {
+    "Item": 19,
+    "source_article_eid": "art_4",
+    "links": [],
+    "confidence": "high",
+    "reasoning": "'Artikel 10.' is likewise an internal cross‑reference to another article of this ordinance; no SR is involved."
+  },
+  {
+    "Item": 20,
+    "source_article_eid": "art_4",
+    "links": [],
+    "confidence": "high",
+    "reasoning": "The phrase 'Artikel 11 der EU-Gasgeräte-Verordnung' clearly refers to the EU regulation; there is no SR mentioned, so no SR assignment is made."
+  },
+  {
+    "Item": 21,
+    "source_article_eid": "art_4",
+    "links": [],
+    "confidence": "high",
+    "reasoning": "The citation 'Artikel 12 der EU-Gasgeräte-Verordnung' is again to the EU regulation; without an SR context, it remains an external reference only."
+  },
+  {
+    "Item": 22,
+    "source_article_eid": "art_9",
+    "links": [],
+    "confidence": "high",
+    "reasoning": "The reference 'Artikel 3 Absatz 5 tritt am 6. November 2017 in Kraft.' is clearly to an article of the same ordinance (entry‑into‑force clause); it is a self‑reference, not tied to any SR."
+  }
+]

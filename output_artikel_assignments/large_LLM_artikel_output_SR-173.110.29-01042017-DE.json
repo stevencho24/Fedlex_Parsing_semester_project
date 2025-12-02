@@ -1,0 +1,65 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 173.110",
+    "assigned_articles": [
+      "Art. 42 Abs. 4",
+      "Art. 60 Abs. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet explicitly cites 'Artikel 42 Absatz 4 und 60 Absatz 3 des Bundesgerichtsgesetzes ... SR 173.110 (BGG)'; both articles are grammatically and semantically linked to SR 173.110."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": "SR 943.03",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "The text refers generically to 'das Bundesgesetz vom 18. März 2016 SR 943.03 über Zertifizierungsdienste im Bereich der elektronischen Signatur' without mentioning any specific article; thus it is a general reference to the whole act."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_8",
+    "TARGET_SR": "SR 173.110.131",
+    "assigned_articles": [
+      "Art. 47 Abs. 4",
+      "Art. 47 Abs. 5"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet states 'nach Artikel 47 Absätze 4 und 5 des Reglements vom 20. November 2006 SR 173.110.131'; the preposition 'nach' and the specification of the Reglement with its SR clearly link Art. 47 paras. 4 and 5 to SR 173.110.131."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": "SR 173.110",
+    "assigned_articles": [
+      "Art. 39 Abs. 2",
+      "Art. 60 Abs. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "The parenthetical citation '(Art. 39 Abs. 2 und 60 Abs. 3 BGG)' explicitly ties these provisions to BGG, which the preamble callback maps to SR 173.110."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_8",
+    "TARGET_SR": "SR 173.110",
+    "assigned_articles": [
+      "Art. 44 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet contains '(Art. 44 Abs. 2 BGG)'; BGG is mapped in the preamble to SR 173.110, so Art. 44 para. 2 belongs to SR 173.110."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_8",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "This artikel_reference mentions 'Artikel 47 Absätze 4 und 5 des Reglements vom 20. November 2006' without an SR number; in context it repeats the self-reference to another article of the cited Reglement and does not introduce a new SR link, so it is treated as an internal structural reference rather than an outgoing SR assignment."
+  }
+]

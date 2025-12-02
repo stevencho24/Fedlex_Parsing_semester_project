@@ -1,0 +1,43 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 531",
+    "assigned_articles": [
+      "Art. 5 Abs. 4",
+      "Art. 57 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Formulierung «gestützt auf die Artikel 5 Absatz 4 und 57 Absatz 1 des Landesversorgungsgesetzes … SR 531» verknüpft die genannten Artikel syntaktisch eindeutig mit SR 531."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«Artikel 2 Absatz 1» wird ohne Nennung eines SR oder Gesetzes zitiert und bezieht sich damit auf einen Artikel derselben Verordnung (Selbstverweis)."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "Auch hier wird «Artikel 2 Absatz 1» ohne Gesetzes- oder SR-Angabe erwähnt; dies ist ein interner Verweis innerhalb derselben Verordnung."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Ausdruck «Artikel 2 Absatz 1» steht wiederum ohne Bezug zu einem externen SR-Dokument und ist daher als Selbstverweis auf einen Artikel derselben Verordnung zu werten."
+  }
+]

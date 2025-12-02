@@ -1,0 +1,115 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 946.231",
+    "assigned_articles": [
+      "Art. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Formulierung «gestützt auf Artikel 2 des Embargogesetzes … SR 946.231 (EmbG)» verweist ausdrücklich auf Art. 2 EmbG; syntaktisch klarer Bezug zwischen Artikelangabe und SR."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 946.202",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Snippet wird nur das Güterkontrollgesetz (SR 946.202) als Ganzes genannt («Bestimmungen des Güterkontrollgesetzes … SR 946.202»), ohne konkrete Artikelangabe; daher allgemeine Verweisung auf das gesamte Gesetz."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 514.51",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "Es wird lediglich das Kriegsmaterialgesetz mit seiner SR-Nummer («… Kriegsmaterialgesetz … SR 514.51») erwähnt, ohne Artikel; dies ist eine generelle Verweisung auf das ganze Gesetz."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": "SR 170.512.1",
+    "assigned_articles": [
+      "Art. 20 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Bezeichnung «in Anwendung von Art. 20 Abs. 2 der Publikationsverordnung … (SR 170.512.1)» verknüpft den genannten Artikel syntaktisch eindeutig mit der Publikationsverordnung; damit ist Art. 20 Abs. 2 dieser SR gemeint."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": "SR 946.231",
+    "assigned_articles": [
+      "Art. 9",
+      "Art. 10"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Snippet zu Art. 7 wird dreimal ausdrücklich auf «Artikel 9 EmbG», «Artikel 10 EmbG» sowie «Artikeln 9 und 10 EmbG» verwiesen; EmbG ist in der Präambel als SR 946.231 definiert, daher klare Zuordnung zu Art. 9 und 10 EmbG."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": "self",
+    "assigned_articles": [
+      "Art. 1",
+      "Art. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "«… Vollzug der Zwangsmassnahmen nach den Artikeln 1 und 2.» enthält keine SR-Nummer oder Abkürzung eines anderen Erlasses; es handelt sich um interne Verweise auf die Art. 1 und 2 derselben Verordnung."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": "self",
+    "assigned_articles": [
+      "Art. 4"
+    ],
+    "confidence": "high",
+    "reasoning": "«… Ein- und Durchreiseverbots nach Artikel 4.» nennt keinen externen Erlass; syntaktisch ist dies ein interner Verweis auf Art. 4 der vorliegenden Verordnung."
+  },
+  {
+    "ITEM": 8,
+    "ARTICLE_EID": "art_6",
+    "TARGET_SR": "self",
+    "assigned_articles": [
+      "Art. 2 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "«… unter die Sperrung nach Artikel 2 Absatz 1 fallen …» verweist ohne SR-Nummer auf eine Bestimmung innerhalb desselben Erlasses; daher interner Bezug auf Art. 2 Abs. 1 der Verordnung."
+  },
+  {
+    "ITEM": 9,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": "SR 946.231",
+    "assigned_articles": [
+      "Art. 9"
+    ],
+    "confidence": "high",
+    "reasoning": "«… wird nach Artikel 9 EmbG bestraft.»; EmbG ist als SR 946.231 definiert, und der Artikel wird direkt mit der Abkürzung verbunden; eindeutiger Verweis auf Art. 9 EmbG."
+  },
+  {
+    "ITEM": 10,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": "SR 946.231",
+    "assigned_articles": [
+      "Art. 10"
+    ],
+    "confidence": "high",
+    "reasoning": "«… wird nach Artikel 10 EmbG bestraft.»; wiederum direkte Verbindung von Artikelnummer und EmbG (SR 946.231); klarer Verweis auf Art. 10 EmbG."
+  },
+  {
+    "ITEM": 11,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": "SR 946.231",
+    "assigned_articles": [
+      "Art. 9",
+      "Art. 10"
+    ],
+    "confidence": "high",
+    "reasoning": "«Verstösse nach den Artikeln 9 und 10 EmbG …» nennt beide Artikel explizit in Verbindung mit EmbG (SR 946.231); daher Zuordnung zu Art. 9 und 10 EmbG."
+  }
+]

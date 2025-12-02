@@ -1,0 +1,22 @@
+[
+  {
+    "Item": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 832.20",
+    "assigned_articles": [
+      "Art. 56 Abs. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet explicitly cites 'Artikel 56 Absatz 3 des Unfallversicherungsgesetzes (UVG) SR 832.20'; this article and paragraph are directly linked to SR 832.20."
+  },
+  {
+    "Item": 2,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 832.20",
+    "assigned_articles": [
+      "Art. 56 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet states 'kein Vertrag nach Artikel 56 Absatz 1 UVG'; UVG is mapped in the preamble to SR 832.20, so Art. 56 Abs. 1 clearly belongs to SR 832.20."
+  }
+]

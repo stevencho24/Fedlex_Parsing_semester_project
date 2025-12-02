@@ -1,0 +1,114 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 101",
+    "assigned_articles": [
+      "Art. 173 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Formulierung «gestützt auf Artikel 173 Absatz 2 der Bundesverfassung SR 101» verknüpft den genannten Artikel grammatikalisch eindeutig mit SR 101."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": "SR 172.021",
+    "assigned_articles": [
+      "Art. 5"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Snippet steht «im Sinn von Artikel 5 des Bundesgesetzes vom 20. Dezember 1968 SR 172.021 über das Verwaltungsverfahren». Artikel 5 ist klar dem Verwaltungsverfahrensgesetz (SR 172.021) zugeordnet."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": "SR 235.1",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Satz «richtet sich nach dem Datenschutzgesetz vom 25. September 2020 SR 235.1 (DSG)» verweist allgemein auf das DSG ohne Nennung einzelner Artikel."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_9",
+    "TARGET_SR": "SR 235.1",
+    "assigned_articles": [
+      "Art. 36"
+    ],
+    "confidence": "high",
+    "reasoning": "«… sind für Personendaten nach Artikel 36 DSG SR 235.1 … zu beurteilen»; Artikel 36 wird explizit mit dem DSG (SR 235.1) verbunden."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_9",
+    "TARGET_SR": "SR 172.010",
+    "assigned_articles": [
+      "Art. 57s"
+    ],
+    "confidence": "high",
+    "reasoning": "«… und für Daten juristischer Personen nach Artikel 57s des Regierungs- und Verwaltungsorganisationsgesetzes … SR 172.010 …»; Art. 57s ist klar diesem Gesetz zugeordnet."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_15",
+    "TARGET_SR": "SR 172.021",
+    "assigned_articles": [
+      "Art. 5"
+    ],
+    "confidence": "high",
+    "reasoning": "«… den Erlass einer Verfügung nach Artikel 5 des Verwaltungsverfahrensgesetzes … SR 172.021 verlangen.»; Artikel 5 wird ausdrücklich mit SR 172.021 verknüpft."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«… Verfügungen im Sinn von Artikel 5 des Bundesgesetzes … (Verwaltungsverfahrensgesetz)» wiederholt den Verweis aus ITEM 2, ist aber hier als artikel_reference ohne SR-Angabe eine Selbstreferenz-Kontextzeile des aktuellen Dokuments."
+  },
+  {
+    "ITEM": 8,
+    "ARTICLE_EID": "art_13",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 11"
+    ],
+    "confidence": "high",
+    "reasoning": "«… die nach Artikel 11 angehört worden ist …» bezieht sich auf einen Artikel 11 desselben Gesetzes; kein externes SR wird genannt, daher interne Selbstreferenz."
+  },
+  {
+    "ITEM": 9,
+    "ARTICLE_EID": "art_15",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 5"
+    ],
+    "confidence": "high",
+    "reasoning": "«… den Erlass einer Verfügung nach Artikel 5 des Verwaltungsverfahrensgesetzes … verlangen.»; hier fehlt die SR-Angabe, der Kontext entspricht aber ITEM 6. Als artikel_reference ist dies eine interne Bezugnahme auf den externen Art. 5 VwVG, jedoch ohne explizite SR-Verknüpfung, daher als interne Referenz des aktuellen Dokuments behandelt."
+  },
+  {
+    "ITEM": 10,
+    "ARTICLE_EID": "art_17",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 13",
+      "Art. 15"
+    ],
+    "confidence": "high",
+    "reasoning": "«In Schlichtungsverfahren (Art. 13) und Verfahren auf Erlass einer Verfügung (Art. 15)…»; beide Artikelnummern sind ohne Gesetzesangabe und beziehen sich auf Artikel desselben Gesetzes."
+  },
+  {
+    "ITEM": 11,
+    "ARTICLE_EID": "art_18",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 13",
+      "Art. 14"
+    ],
+    "confidence": "high",
+    "reasoning": "«Er leitet das Schlichtungsverfahren (Art. 13) und gibt … eine Empfehlung ab (Art. 14).»; beide Verweise sind interne Artikel des aktuellen Gesetzes ohne externes SR."
+  }
+]

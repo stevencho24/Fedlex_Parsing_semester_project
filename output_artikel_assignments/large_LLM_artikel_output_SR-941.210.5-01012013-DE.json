@@ -1,0 +1,324 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 941.210",
+    "assigned_articles": [
+      "Art. 5 Abs. 2",
+      "Art. 8 Abs. 2",
+      "Art. 16 Abs. 2",
+      "Art. 17 Abs. 2",
+      "Art. 24 Abs. 3",
+      "Art. 33"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Präambel nennt ausdrücklich: «gestützt auf die Artikel 5 Absatz 2, 8 Absatz 2, 16 Absatz 2, 17 Absatz 2, 24 Absatz 3 und 33 der Messmittelverordnung ... (MessMV)». Diese Artikel gehören syntaktisch eindeutig zur MessMV (SR 941.210)."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 814.501",
+    "assigned_articles": [
+      "Art. 64",
+      "Art. 112"
+    ],
+    "confidence": "high",
+    "reasoning": "In derselben Präambel heisst es «sowie die Artikel 64 und 112 der Strahlenschutzverordnung ... (StSV)». Die Artikel 64 und 112 sind damit klar der StSV (SR 814.501) zugeordnet."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": "SR 814.501",
+    "assigned_articles": [
+      "Art. 69",
+      "Art. 104"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Schnipsel nennt «Arbeitsbereichen der Typen A und B nach Artikel 69 StSV» sowie «Überwachung der Ortsdosisleistungen in der Umwelt nach Artikel 104 StSV». Beide Artikelangaben sind direkt mit «StSV» markiert und gehören daher zu SR 814.501."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": "SR 941.210",
+    "assigned_articles": [
+      "Anhang 1",
+      "Anhang 5",
+      "Anhang 7 Ziff. 1",
+      "Anhang 7 Ziff. 4",
+      "Anhang 7 Ziff. 5"
+    ],
+    "confidence": "medium",
+    "reasoning": "Der Text verweist nur auf «Anhang 1 MessMV». Es werden keine Artikelnummern genannt. Da die MessMV systematisch die Anforderungen und Eichungen in den Anhängen 1, 5 und 7 (inkl. Ziffern) regelt, ist nur eine allgemeine Zuordnung zu diesen Anhängen möglich; konkrete Artikel werden nicht genannt."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": "SR 941.210",
+    "assigned_articles": [
+      "Anhang 5"
+    ],
+    "confidence": "medium",
+    "reasoning": "Es wird «Ersteichung nach Anhang 5 MessMV» erwähnt, ohne konkrete Artikel. Damit liegt nur ein Anhang‑, nicht ein Artikelverweis vor."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_6",
+    "TARGET_SR": "SR 941.210",
+    "assigned_articles": [
+      "Anhang 7 Ziff. 1"
+    ],
+    "confidence": "medium",
+    "reasoning": "Der Verweis lautet «nach Anhang 7 Ziffer 1 MessMV». Es werden keine Artikel genannt, nur eine spezifische Ziffer im Anhang."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": "SR 941.210",
+    "assigned_articles": [
+      "Anhang 1"
+    ],
+    "confidence": "medium",
+    "reasoning": "Es wird «die grundlegenden Anforderungen nach Anhang 1 MessMV» genannt; keine Artikelnummern."
+  },
+  {
+    "ITEM": 8,
+    "ARTICLE_EID": "art_8",
+    "TARGET_SR": "SR 941.210",
+    "assigned_articles": [
+      "Anhang 5"
+    ],
+    "confidence": "medium",
+    "reasoning": "Verweis auf «Ersteichung nach Anhang 5 MessMV» ohne Artikelangabe."
+  },
+  {
+    "ITEM": 9,
+    "ARTICLE_EID": "art_9",
+    "TARGET_SR": "SR 941.210",
+    "assigned_articles": [
+      "Anhang 7 Ziff. 1",
+      "Anhang 7 Ziff. 5"
+    ],
+    "confidence": "medium",
+    "reasoning": "Der Text nennt «nach Anhang 7 Ziffer 1 MessMV» und «nach Anhang 7 Ziffer 5 MessMV». Es handelt sich um Ziffern in einem Anhang, nicht um Artikel."
+  },
+  {
+    "ITEM": 10,
+    "ARTICLE_EID": "art_10",
+    "TARGET_SR": "SR 941.210",
+    "assigned_articles": [
+      "Anhang 1"
+    ],
+    "confidence": "medium",
+    "reasoning": "Es wird nur «Anhang 1 MessMV» erwähnt; keine Artikelnummern."
+  },
+  {
+    "ITEM": 11,
+    "ARTICLE_EID": "art_11",
+    "TARGET_SR": "SR 941.210",
+    "assigned_articles": [
+      "Anhang 5"
+    ],
+    "confidence": "medium",
+    "reasoning": "Verweis auf «Ersteichung nach Anhang 5 MessMV» ohne konkrete Artikel."
+  },
+  {
+    "ITEM": 12,
+    "ARTICLE_EID": "art_12",
+    "TARGET_SR": "SR 941.210",
+    "assigned_articles": [
+      "Anhang 7 Ziff. 4",
+      "Anhang 7 Ziff. 1"
+    ],
+    "confidence": "medium",
+    "reasoning": "Der Schnipsel nennt «Vergleichsmessung nach Anhang 7 Ziffer 4 MessMV» und «nach Anhang 7 Ziffer 1 MessMV». Es sind Ziffern im Anhang, keine Artikel."
+  },
+  {
+    "ITEM": 13,
+    "ARTICLE_EID": "art_13",
+    "TARGET_SR": "SR 941.210",
+    "assigned_articles": [
+      "Anhang 1"
+    ],
+    "confidence": "medium",
+    "reasoning": "Verweis auf «grundlegenden Anforderungen nach Anhang 1 MessMV»; keine Artikelnummern."
+  },
+  {
+    "ITEM": 14,
+    "ARTICLE_EID": "art_14",
+    "TARGET_SR": "SR 941.210",
+    "assigned_articles": [
+      "Anhang 5"
+    ],
+    "confidence": "medium",
+    "reasoning": "Es wird «Ersteichung nach Anhang 5 MessMV» genannt; keine Artikel."
+  },
+  {
+    "ITEM": 15,
+    "ARTICLE_EID": "art_15",
+    "TARGET_SR": "SR 941.210",
+    "assigned_articles": [
+      "Anhang 7 Ziff. 1",
+      "Anhang 7 Ziff. 5"
+    ],
+    "confidence": "medium",
+    "reasoning": "Der Text verweist auf «Anhang 7 Ziffer 1 MessMV» und «Anhang 7 Ziffer 5 MessMV»; dies sind Anhangziffern."
+  },
+  {
+    "ITEM": 16,
+    "ARTICLE_EID": "art_16",
+    "TARGET_SR": "SR 941.210",
+    "assigned_articles": [
+      "Anhang 1"
+    ],
+    "confidence": "medium",
+    "reasoning": "Verweis auf «grundlegenden Anforderungen nach Anhang 1 MessMV»; keine Artikelangabe."
+  },
+  {
+    "ITEM": 17,
+    "ARTICLE_EID": "art_17",
+    "TARGET_SR": "SR 941.210",
+    "assigned_articles": [
+      "Anhang 5"
+    ],
+    "confidence": "medium",
+    "reasoning": "Es wird «Ersteichung nach Anhang 5 MessMV» genannt; keine Artikelnummern."
+  },
+  {
+    "ITEM": 18,
+    "ARTICLE_EID": "art_18",
+    "TARGET_SR": "SR 941.210",
+    "assigned_articles": [
+      "Anhang 7 Ziff. 1"
+    ],
+    "confidence": "medium",
+    "reasoning": "Verweis auf «Anhang 7 Ziffer 1 MessMV»; keine Artikel."
+  },
+  {
+    "ITEM": 19,
+    "ARTICLE_EID": "art_19",
+    "TARGET_SR": "SR 941.210",
+    "assigned_articles": [
+      "Anhang 1"
+    ],
+    "confidence": "medium",
+    "reasoning": "Es wird «grundlegenden Anforderungen nach Anhang 1 MessMV» erwähnt; keine Artikelnummern."
+  },
+  {
+    "ITEM": 20,
+    "ARTICLE_EID": "art_20",
+    "TARGET_SR": "SR 941.210",
+    "assigned_articles": [
+      "Anhang 5"
+    ],
+    "confidence": "medium",
+    "reasoning": "Verweis auf «Ersteichung nach Anhang 5 MessMV»; keine Artikelangabe."
+  },
+  {
+    "ITEM": 21,
+    "ARTICLE_EID": "art_21",
+    "TARGET_SR": "SR 941.210",
+    "assigned_articles": [
+      "Anhang 7 Ziff. 1"
+    ],
+    "confidence": "medium",
+    "reasoning": "Es wird «Anhang 7 Ziffer 1 MessMV» genannt; keine Artikelnummern."
+  },
+  {
+    "ITEM": 22,
+    "ARTICLE_EID": "art_22",
+    "TARGET_SR": "SR 941.210",
+    "assigned_articles": [
+      "Anhang 1"
+    ],
+    "confidence": "medium",
+    "reasoning": "Verweis auf «grundlegenden Anforderungen nach Anhang 1 MessMV»; keine Artikel."
+  },
+  {
+    "ITEM": 23,
+    "ARTICLE_EID": "art_23",
+    "TARGET_SR": "SR 941.210",
+    "assigned_articles": [
+      "Anhang 5"
+    ],
+    "confidence": "medium",
+    "reasoning": "Es wird «Ersteichung nach Anhang 5 MessMV» erwähnt; keine Artikelnummern."
+  },
+  {
+    "ITEM": 24,
+    "ARTICLE_EID": "art_24",
+    "TARGET_SR": "SR 941.210",
+    "assigned_articles": [
+      "Anhang 7 Ziff. 1"
+    ],
+    "confidence": "medium",
+    "reasoning": "Verweis auf «Anhang 7 Ziffer 1 MessMV»; keine Artikelangabe."
+  },
+  {
+    "ITEM": 25,
+    "ARTICLE_EID": "art_25",
+    "TARGET_SR": "SR 941.210",
+    "assigned_articles": [
+      "Anhang 1"
+    ],
+    "confidence": "medium",
+    "reasoning": "Es wird «grundlegenden Anforderungen nach Anhang 1 MessMV» genannt; keine Artikelnummern."
+  },
+  {
+    "ITEM": 26,
+    "ARTICLE_EID": "art_26",
+    "TARGET_SR": "SR 941.210",
+    "assigned_articles": [
+      "Anhang 5"
+    ],
+    "confidence": "medium",
+    "reasoning": "Verweis auf «ordentlichen Zulassung nach Anhang 5 MessMV»; keine Artikel."
+  },
+  {
+    "ITEM": 27,
+    "ARTICLE_EID": "art_27",
+    "TARGET_SR": "SR 941.210",
+    "assigned_articles": [
+      "Anhang 7 Ziff. 4"
+    ],
+    "confidence": "medium",
+    "reasoning": "Der Text nennt «Vergleichsmessung nach Anhang 7 Ziffer 4 MessMV»; keine Artikelnummern."
+  },
+  {
+    "ITEM": 28,
+    "ARTICLE_EID": "art_28",
+    "TARGET_SR": "SR 941.210",
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Der Satz «Die Verordnung des EJPD vom 29. November 2008 über Radonmessmittel wird aufgehoben.» enthält keinen Artikelverweis auf die MessMV (SR 941.210); er bezieht sich auf eine andere Verordnung. Daher keine Artikelzuordnung zu SR 941.210."
+  },
+  {
+    "ITEM": 29,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 69 StSV"
+    ],
+    "confidence": "high",
+    "reasoning": "artikel_reference ohne TARGET_SR. Der Schnipsel nennt «nach Artikel 69 StSV»; dies ist ein Verweis auf die Strahlenschutzverordnung (SR 814.501), nicht auf die eigene Verordnung. Da bei artikel_reference das SR-Feld das Ziel-SR sein soll, aber hier keines vorgegeben ist, wird nur der referenzierte Artikel als solcher ausgewiesen."
+  },
+  {
+    "ITEM": 30,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 104 StSV"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Schnipsel nennt «nach Artikel 104 StSV»; dies ist wiederum ein Verweis auf die Strahlenschutzverordnung (SR 814.501). Als artikel_reference ohne TARGET_SR wird der referenzierte Artikel ausgewiesen."
+  },
+  {
+    "ITEM": 31,
+    "ARTICLE_EID": "art_29",
+    "TARGET_SR": "SR 941.210.5",
+    "assigned_articles": [
+      "Art. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "«Messmittel ... nach Artikel 2 Buchstaben a–g» ist eine reine Selbstreferenz innerhalb derselben Verordnung (SR 941.210.5). Bei artikel_reference ohne externes SR ist dies als interner Verweis auf Art. 2 des eigenen Erlasses zu qualifizieren."
+  }
+]

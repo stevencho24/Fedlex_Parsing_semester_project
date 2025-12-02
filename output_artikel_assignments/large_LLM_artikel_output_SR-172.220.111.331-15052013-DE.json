@@ -1,0 +1,45 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 172.220.111.3",
+    "assigned_articles": [
+      "Art. 34a Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Formulierung \"gestützt auf Artikel 34a Absatz 2 der Bundespersonalverordnung ... SR 172.220.111.3 (BPV)\" verknüpft den genannten Artikel syntaktisch eindeutig mit der BPV (SR 172.220.111.3)."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 172.220.111.3",
+    "assigned_articles": [
+      "Art. 33 Abs. 1 Bst. a",
+      "Art. 33 Abs. 1 Bst. c",
+      "Art. 116c Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Snippet werden \"Artikel 33 Absatz 1 Buchstaben a und c BPV\" sowie \"Artikel 116c Absatz 2 BPV\" ausdrücklich mit der Abkürzung BPV verknüpft, die in der Präambel als SR 172.220.111.3 definiert ist. Damit beziehen sich diese Artikel klar auf die BPV."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 33 Abs. 1 Bst. a",
+      "Art. 33 Abs. 1 Bst. c"
+    ],
+    "confidence": "high",
+    "reasoning": "Es handelt sich um eine Wiederholung der Verweisung aus ITEM 2 innerhalb desselben Artikels: \"Artikel 33 Absatz 1 Buchstaben a und c BPV\". Diese Verweisung ist bereits in ITEM 2 als Bezug auf SR 172.220.111.3 erfasst; hier liegt funktional eine interne Wiederholung derselben externen Verweisung vor, ohne neuen SR-Bezug."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 116c Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Auch hier wird die bereits in ITEM 2 erfasste Verweisung \"Artikel 116c Absatz 2 BPV\" wiederholt. Sie ist kontextuell dieselbe externe Verweisung auf die BPV (SR 172.220.111.3) und bringt keinen zusätzlichen, neuen SR-Bezug; daher als interne Wiederholung dieser Verweisung behandelt."
+  }
+]

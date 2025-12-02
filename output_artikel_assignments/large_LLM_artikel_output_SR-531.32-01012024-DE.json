@@ -1,0 +1,93 @@
+[
+  {
+    "Item": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 531",
+    "assigned_articles": [
+      "Art. 29",
+      "Art. 57 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Präambel nennt ausdrücklich: «gestützt auf die Artikel 29 und 57 Absatz 1 des Landesversorgungsgesetzes … SR 531 (LVG)»; beide Artikel gehören damit klar zum LVG (SR 531)."
+  },
+  {
+    "Item": 2,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 817.0",
+    "assigned_articles": [
+      "Art. 5 lit. a"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Snippet steht: «… nach Artikel 5 Buchstabe a des Lebensmittelgesetzes … SR 817.0»; Art. 5 lit. a ist grammatikalisch direkt mit dem Lebensmittelgesetz (SR 817.0) verknüpft."
+  },
+  {
+    "Item": 3,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": "SR 128.1",
+    "assigned_articles": [
+      "Art. 19 lit. f"
+    ],
+    "confidence": "high",
+    "reasoning": "Formulierung: «… nach Artikel 19 Buchstabe f der Informationssicherheitsverordnung … SR 128.1 (ISV)»; Art. 19 lit. f wird eindeutig dieser Verordnung (SR 128.1) zugeordnet."
+  },
+  {
+    "Item": 4,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": "SR 128.1",
+    "assigned_articles": [
+      "Art. 19 lit. f"
+    ],
+    "confidence": "high",
+    "reasoning": "«Es wird nach Artikel 19 Buchstabe f ISV SR 128.1 als VERTRAULICH klassifiziert.»; Artikelangabe und SR werden in derselben Konstruktion verknüpft, daher Art. 19 lit. f ISV = SR 128.1."
+  },
+  {
+    "Item": 5,
+    "ARTICLE_EID": "art_8",
+    "TARGET_SR": "SR 128.1",
+    "assigned_articles": [
+      "Art. 19 lit. f"
+    ],
+    "confidence": "high",
+    "reasoning": "«Die Dokumentation wird nach Artikel 19 Buchstabe f ISV SR 128.1 als VERTRAULICH klassifiziert.»; wiederum direkte Zuordnung von Art. 19 lit. f zur ISV (SR 128.1)."
+  },
+  {
+    "Item": 6,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 531",
+    "assigned_articles": [
+      "Art. 2 lit. b"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet: «… (Art. 2 Bst. b LVG).»; LVG ist in der Präambel als SR 531 definiert, daher bezieht sich Art. 2 lit. b LVG auf SR 531."
+  },
+  {
+    "Item": 7,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«… nach Artikel 5 Buchstabe a des Lebensmittelgesetzes …» enthält zwar eine Artikelnummer, aber keinen expliziten SR‑Verweis im Snippet dieses artikel_reference‑Items; im Sinne der Vorgaben ist dies als Selbstverweis/Strukturhinweis zu behandeln und nicht erneut einem TARGET_SR zuzuordnen."
+  },
+  {
+    "Item": 8,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«… nach Artikel 19 Buchstabe f der Informationssicherheitsverordnung … (ISV) …»; als artikel_reference ohne SR‑Angabe im Item ist dies als interne/strukturelle Verweisung zu werten, die SR‑Zuordnung wurde bereits in Item 3 vorgenommen."
+  },
+  {
+    "Item": 9,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "«… nach Artikel 2 nicht anders sichergestellt werden …» verweist ohne Gesetzesangabe auf einen anderen Artikel derselben Verordnung; gemäss Regeln ist dies eine Selbstreferenz innerhalb des aktuellen Dokuments (Art. 2 dieser Verordnung), nicht auf ein externes SR."
+  }
+]

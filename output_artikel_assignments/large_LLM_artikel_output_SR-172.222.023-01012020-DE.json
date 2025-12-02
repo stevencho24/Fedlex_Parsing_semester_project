@@ -1,0 +1,319 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 172.220.1",
+    "assigned_articles": [
+      "Art. 27d Abs. 1 Bst. b",
+      "Art. 32 Bst. e"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Präambel nennt ausdrücklich: «Artikel 27d Absatz 1 Buchstabe b und 32 Buchstabe e des Bundespersonalgesetzes … SR 172.220.1». Beide Artikelangaben sind direkt mit dem Bundespersonalgesetz (SR 172.220.1) verknüpft."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 611.0",
+    "assigned_articles": [
+      "Art. 52"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Satz: «… ein Spezialfonds im Sinne von Artikel 52 des Finanzhaushaltgesetzes … SR 611.0.» ist Art. 52 grammatikalisch direkt dem Finanzhaushaltgesetz (SR 611.0) zugeordnet."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": "SR 172.010.1",
+    "assigned_articles": [
+      "Art. 6"
+    ],
+    "confidence": "high",
+    "reasoning": "Formulierung: «Verwaltungseinheiten nach Artikel 6 der Regierungs- und Verwaltungsorganisationsverordnung … SR 172.010.1;» verknüpft Art. 6 eindeutig mit der genannten Verordnung (SR 172.010.1)."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": "SR 171.10",
+    "assigned_articles": [
+      "Art. 64"
+    ],
+    "confidence": "high",
+    "reasoning": "«Parlamentsdienste nach Artikel 64 des Parlamentsgesetzes … SR 171.10;» weist Art. 64 klar dem Parlamentsgesetz (SR 171.10) zu."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": "SR 173.71",
+    "assigned_articles": [
+      "Art. 22 Abs. 2",
+      "Art. 27 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Dokumenttext (artikel_reference Items 15 und 16) wird die Bundesanwaltschaft und das Sekretariat der Aufsichtsbehörde jeweils «nach Artikel 22 Absatz 2» bzw. «nach Artikel 27 Absatz 2 des Strafbehördenorganisationsgesetzes» bezeichnet. Das Strafbehördenorganisationsgesetz ist SR 173.71; beide Artikelangaben beziehen sich daher auf SR 173.71."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": "SR 173.32",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "medium",
+    "reasoning": "Satz: «… Bundesverwaltungsgericht nach dem Verwaltungsgerichtsgesetz vom 17. Juni 2005 SR 173.32 …» enthält keine konkrete Artikelangabe zum Verwaltungsgerichtsgesetz. Es handelt sich um eine allgemeine Gesetzesnennung ohne Artikelspezifizierung."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": "SR 173.41",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "medium",
+    "reasoning": "«… Bundespatentgericht nach dem Patentgerichtsgesetz vom 20. März 2009 SR 173.41;» nennt das Patentgerichtsgesetz nur als Ganzes, ohne Artikelangabe. Daher allgemeine Verweisung auf das gesamte Gesetz."
+  },
+  {
+    "ITEM": 8,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": "SR 173.110",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "medium",
+    "reasoning": "«Bundesgericht nach dem Bundesgerichtsgesetz vom 17. Juni 2005 SR 173.110;» enthält keine konkrete Artikelreferenz. Es ist eine generelle Bezugnahme auf das Bundesgerichtsgesetz."
+  },
+  {
+    "ITEM": 9,
+    "ARTICLE_EID": "art_6",
+    "TARGET_SR": "SR 172.220.111.3",
+    "assigned_articles": [
+      "Art. 99 Abs. 3 Bst. b"
+    ],
+    "confidence": "high",
+    "reasoning": "«Bussen nach Artikel 99 Absatz 3 Buchstabe b der Bundespersonalverordnung … SR 172.220.111.3;» verknüpft Art. 99 Abs. 3 Bst. b eindeutig mit der Bundespersonalverordnung (SR 172.220.111.3)."
+  },
+  {
+    "ITEM": 10,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": "SR 611.01",
+    "assigned_articles": [
+      "Art. 70 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "«… richtet sich nach Artikel 70 Absatz 2 der Finanzhaushaltverordnung vom 5. April 2006 SR 611.01.» ordnet Art. 70 Abs. 2 klar der Finanzhaushaltverordnung (SR 611.01) zu."
+  },
+  {
+    "ITEM": 11,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 52"
+    ],
+    "confidence": "high",
+    "reasoning": "Dies ist eine Selbstreferenz-Zeile ohne explizite SR-Angabe, aber in Kombination mit Item 2 (SR_link_detection) ist klar, dass «Artikel 52 des Finanzhaushaltgesetzes» sich auf SR 611.0 bezieht. Hier wird lediglich der Artikel 52 genannt; es ist keine neue SR-Verknüpfung, sondern die bereits erfasste zu SR 611.0."
+  },
+  {
+    "ITEM": 12,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "«… unterstützt Personen nach Artikel 3 …» verweist auf Art. 3 derselben Verordnung (interne Selbstreferenz). Keine Verbindung zu einem externen SR-Dokument."
+  },
+  {
+    "ITEM": 13,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 6"
+    ],
+    "confidence": "high",
+    "reasoning": "«… nach Artikel 6 der Regierungs- und Verwaltungsorganisationsverordnung …» ist bereits in Item 3 mit SR 172.010.1 verknüpft. Diese Zeile ist die gleiche inhaltsgleiche Passage ohne SR-Angabe und stellt keine zusätzliche, neue Verknüpfung dar."
+  },
+  {
+    "ITEM": 14,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 64"
+    ],
+    "confidence": "high",
+    "reasoning": "«… nach Artikel 64 des Parlamentsgesetzes …» entspricht der Passage aus Item 4, die bereits mit SR 171.10 verknüpft wurde. Hier liegt nur die interne Textzeile ohne SR-Link vor; keine neue SR-Zuordnung."
+  },
+  {
+    "ITEM": 15,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 22 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "«… nach Artikel 22 Absatz 2 des Strafbehördenorganisationsgesetzes;» ist eine Selbstreferenzzeile. Über Item 5 (SR_link_detection zu SR 173.71) ist klar, dass dieser Artikel zu SR 173.71 gehört; hier wird aber kein neues SR genannt."
+  },
+  {
+    "ITEM": 16,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 27 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "«… nach Artikel 27 Absatz 2 des Strafbehördenorganisationsgesetzes;» analog zu Item 15: interne Textstelle, deren SR-Zuordnung (SR 173.71) bereits über Item 5 erfolgt. Kein eigenständiger SR-Link."
+  },
+  {
+    "ITEM": 17,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 4 Abs. 3 Bst. c",
+      "Art. 4 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "«… nach Artikel 4 Absatz 3 Buchstabe c … sowie … nach Absatz 1 und Artikel 4 Absatz 2 …» bezieht sich ausschließlich auf Artikel und Absätze derselben Verordnung (Art. 4 und Art. 5). Es gibt keinen Hinweis auf ein externes SR-Dokument."
+  },
+  {
+    "ITEM": 18,
+    "ARTICLE_EID": "art_6",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 99 Abs. 3 Bst. b"
+    ],
+    "confidence": "high",
+    "reasoning": "«… nach Artikel 99 Absatz 3 Buchstabe b der Bundespersonalverordnung …» ist die gleiche inhaltliche Referenz wie in Item 9, wo SR 172.220.111.3 bereits zugeordnet wurde. Hier liegt nur die interne Zeile ohne expliziten SR-Link vor."
+  },
+  {
+    "ITEM": 19,
+    "ARTICLE_EID": "art_6",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 4"
+    ],
+    "confidence": "high",
+    "reasoning": "«… für die Erbringung von Leistungen nach Artikel 4 …» ist eine reine Selbstreferenz auf Art. 4 derselben Verordnung, ohne Bezug zu einem anderen SR."
+  },
+  {
+    "ITEM": 20,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 6"
+    ],
+    "confidence": "high",
+    "reasoning": "«… Unterstützungsfonds nach Artikel 6 …» verweist intern auf Art. 6 derselben Verordnung. Kein externer Gesetzesbezug."
+  },
+  {
+    "ITEM": 21,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 70 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "«… richtet sich nach Artikel 70 Absatz 2 der Finanzhaushaltverordnung …» ist die gleiche Textpassage wie in Item 10, wo SR 611.01 bereits zugeordnet wurde. Hier wird kein zusätzliches SR genannt; es ist die interne Zeile ohne den expliziten Link."
+  },
+  {
+    "ITEM": 22,
+    "ARTICLE_EID": "art_8",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 14"
+    ],
+    "confidence": "high",
+    "reasoning": "«… Aufwand der Geschäftsstelle nach Artikel 14 …» ist eine interne Verweisung auf Art. 14 derselben Verordnung. Kein externer SR-Bezug."
+  },
+  {
+    "ITEM": 23,
+    "ARTICLE_EID": "art_8",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 4 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "«… Beratungsaufwand der PSB nach Artikel 4 Absatz 2 …» verweist auf einen Absatz innerhalb derselben Verordnung. Keine externe SR-Verknüpfung."
+  },
+  {
+    "ITEM": 24,
+    "ARTICLE_EID": "art_8",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 10 Bst. c"
+    ],
+    "confidence": "high",
+    "reasoning": "«… Sachverständige nach Artikel 10 Buchstabe c.» ist eine interne Verweisung auf Art. 10 derselben Verordnung."
+  },
+  {
+    "ITEM": 25,
+    "ARTICLE_EID": "art_10",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 4 Abs. 3 Bst. a",
+      "Art. 4 Abs. 3 Bst. b",
+      "Art. 4 Abs. 3 Bst. c"
+    ],
+    "confidence": "high",
+    "reasoning": "«… Gesuche nach Artikel 4 Absatz 3 Buchstabe a und b … sowie … nach Artikel 4 Absatz 3 Buchstabe c;» sind reine interne Verweise auf Art. 4 derselben Verordnung."
+  },
+  {
+    "ITEM": 26,
+    "ARTICLE_EID": "art_14",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 4 Abs. 3 Bst. a",
+      "Art. 4 Abs. 3 Bst. b"
+    ],
+    "confidence": "high",
+    "reasoning": "«… Gesuche nach Artikel 4 Absatz 3 Buchstaben a und b …» verweist intern auf Art. 4 derselben Verordnung."
+  },
+  {
+    "ITEM": 27,
+    "ARTICLE_EID": "art_15",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 14 Abs. 1 Bst. a"
+    ],
+    "confidence": "high",
+    "reasoning": "«… nach Artikel 14 Absatz 1 Buchstabe a …» ist eine interne Verweisung auf Art. 14 derselben Verordnung."
+  },
+  {
+    "ITEM": 28,
+    "ARTICLE_EID": "art_18",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 10 Bst. a"
+    ],
+    "confidence": "high",
+    "reasoning": "«… das Leistungsreglement (Art. 10 Bst. a);» verweist auf Art. 10 derselben Verordnung. Klammerverweis ohne externes SR."
+  },
+  {
+    "ITEM": 29,
+    "ARTICLE_EID": "art_18",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 10 Bst. d"
+    ],
+    "confidence": "high",
+    "reasoning": "«… die Geschäftsordnung (Art. 10 Bst. d);» ist ebenfalls ein interner Klammerverweis auf Art. 10 derselben Verordnung."
+  },
+  {
+    "ITEM": 30,
+    "ARTICLE_EID": "art_18",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 10 Bst. g"
+    ],
+    "confidence": "high",
+    "reasoning": "«… den Voranschlag (Art. 10 Bst. g);» verweist intern auf Art. 10 derselben Verordnung."
+  },
+  {
+    "ITEM": 31,
+    "ARTICLE_EID": "art_18",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 10 Bst. g",
+      "Art. 17 Bst. c"
+    ],
+    "confidence": "high",
+    "reasoning": "«… Jahresrechnung … (Art. 10 Bst. g) … und … Revisionsstelle (Art. 17 Bst. c).» sind interne Verweise auf Art. 10 und Art. 17 derselben Verordnung."
+  }
+]

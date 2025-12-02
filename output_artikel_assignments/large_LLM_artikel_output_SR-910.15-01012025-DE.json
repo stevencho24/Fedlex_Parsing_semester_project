@@ -1,0 +1,210 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 910.1",
+    "assigned_articles": [
+      "Art. 177",
+      "Art. 181 Abs. 1bis"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Formulierung «gestützt auf die Artikel 177 und 181 Absatz 1bis des Landwirtschaftsgesetzes … SR 910.1» verknüpft die genannten Artikel grammatikalisch eindeutig mit SR 910.1."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 916.020",
+    "assigned_articles": [
+      "Art. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Satz «… die nach Artikel 3 der Verordnung … SR 916.020 … zu registrieren sind» bezieht sich «Artikel 3» klar auf die genannte Verordnung SR 916.020."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 814.201",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Passage nennt nur den Titel «Gewässerschutzverordnung … SR 814.201» ohne Artikelangabe; dies ist eine allgemeine Verweisaufnahme der ganzen Verordnung."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 910.13",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "«Direktzahlungsverordnung … SR 910.13 (DZV);» ist eine reine Titelnennung ohne Artikel; damit allgemeiner Dokumentverweis."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 910.17",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "«Einzelkulturbeitragsverordnung … SR 910.17;» enthält keine Artikelangabe; es handelt sich um einen generellen Verweis auf die Verordnung."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 814.318.142.1",
+    "assigned_articles": [
+      "Anhang 2 Ziff. 55"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Text nennt ausdrücklich «Luftreinhalte-Verordnung … SR 814.318.142.1, Anhang 2 Ziffer 55.»; damit ist die konkret zitierte Stelle Anhang 2 Ziff. 55 dieser Verordnung."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": "SR 946.512",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "«… gestützt auf die Akkreditierungs- und Bezeichnungsverordnung … SR 946.512 …» verweist ohne Artikelangabe auf die Verordnung als Rechtsgrundlage; kein bestimmter Artikel wird genannt."
+  },
+  {
+    "ITEM": 8,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": "SR 817.032",
+    "assigned_articles": [
+      "Art. 10 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Satz enthält «… oder nach Artikel 10 Absatz 1 der Verordnung vom 27. Mai 2020 SR 817.032 …»; «Artikel 10 Absatz 1» ist grammatikalisch eindeutig dieser Verordnung zugeordnet."
+  },
+  {
+    "ITEM": 9,
+    "ARTICLE_EID": "art_8",
+    "TARGET_SR": "SR 817.032",
+    "assigned_articles": [
+      "Art. 10 Abs. 1",
+      "Art. 8"
+    ],
+    "confidence": "high",
+    "reasoning": "Die INSIDE-Notiz nennt «Verordnungen nach Artikel 10 Absatz 1 der MNKPV SR 817.032.»; damit ist Art. 10 Abs. 1 der MNKPV (SR 817.032) direkt verknüpft. Im snippet_acronym wird zusätzlich «… zusätzlichen Kontrollen nach Artikel 8 MNKPV» erwähnt, was ebenfalls auf dieselbe Verordnung bezogen ist; beide Artikel gehören somit zu SR 817.032."
+  },
+  {
+    "ITEM": 10,
+    "ARTICLE_EID": "art_9_a",
+    "TARGET_SR": "SR 910.13",
+    "assigned_articles": [
+      "Art. 55 Abs. 1 Bst. q",
+      "Art. 70",
+      "Art. 71",
+      "Art. 71a–71e",
+      "Art. 75a",
+      "Art. 82b",
+      "Art. 82c"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Formulierung «Beiträge nach den Artikeln 55 Absatz 1 Buchstabe q, 70, 71, 71a–71e, 75a, 82b und 82c DZV SR 910.13» weist alle genannten Artikel explizit der DZV (SR 910.13) zu."
+  },
+  {
+    "ITEM": 11,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«… die nach Artikel 3 der Verordnung … über die Primärproduktion zu registrieren sind.» bezieht sich auf Art. 3 der externen Verordnung SR 916.020, ist aber bereits in ITEM 2 als SR-Link erfasst; hier liegt kein neuer SR-Link, sondern die gleiche inhaltliche Bezugnahme vor, daher keine zusätzliche SR-Zuordnung."
+  },
+  {
+    "ITEM": 12,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«… Verordnungen nach Artikel 1 Absatz 2 …» verweist auf Art. 1 Abs. 2 derselben Verordnung (aktuelles Dokument); es wird kein externes SR genannt."
+  },
+  {
+    "ITEM": 13,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "Auch hier «… Bestimmungen der Verordnungen nach Artikel 1 Absatz 2 …» ist eine reine Selbstverweisung auf Art. 1 Abs. 2 des aktuellen Erlasses."
+  },
+  {
+    "ITEM": 14,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«… Verordnungen nach Artikel 1 Absatz 2 Buchstaben b, c und e …» verweist intern auf Art. 1 Abs. 2 Bst. b, c, e derselben Verordnung; kein externes SR im Satz."
+  },
+  {
+    "ITEM": 15,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«… Verordnung nach Artikel 1 Absatz 2 Buchstabe a …» ist wiederum eine Selbstverweisung auf Art. 1 Abs. 2 Bst. a des aktuellen Erlasses."
+  },
+  {
+    "ITEM": 16,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«… sofern die Verordnungen nach Artikel 1 Absatz 2 keine abweichenden Bestimmungen enthalten.» bezieht sich intern auf Art. 1 Abs. 2; kein SR-Dokument genannt."
+  },
+  {
+    "ITEM": 17,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«… aufgrund der Kriterien nach Artikel 4 Absatz 1 Buchstaben b und d …» verweist auf Art. 4 Abs. 1 Bst. b und d derselben Verordnung; keine externe SR-Referenz."
+  },
+  {
+    "ITEM": 18,
+    "ARTICLE_EID": "art_6",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«… gelten die Bestimmungen der Artikel 2–5 nicht.» ist eine reine interne Artikelkette (Art. 2–5 des aktuellen Erlasses)."
+  },
+  {
+    "ITEM": 19,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Satz enthält sowohl «Verordnung nach Artikel 1 Absatz 2 dieser Verordnung» (Selbstverweisung) als auch «Artikel 10 Absatz 1 der Verordnung … (MNKPV)»; letzteres ist bereits in ITEM 8 als SR-Link zu SR 817.032 erfasst. Dieser artikel_reference-Eintrag dient nur der internen Struktur und erzeugt keinen neuen SR-Link."
+  },
+  {
+    "ITEM": 20,
+    "ARTICLE_EID": "art_8",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«a. Verordnungen nach Artikel 1 Absatz 2;» verweist intern auf Art. 1 Abs. 2 des gleichen Erlasses; kein externes SR-Dokument wird genannt."
+  }
+]

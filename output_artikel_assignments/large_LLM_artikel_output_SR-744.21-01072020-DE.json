@@ -1,0 +1,112 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 101",
+    "assigned_articles": [
+      "Art. 81",
+      "Art. 82",
+      "Art. 87",
+      "Art. 92",
+      "Art. 122",
+      "Art. 123"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Satzteil in der authorialNote lautet: \"Den genannten Bestimmungen entsprechen heute die Art. 81, 82, 87, 92, 122 und 123 der BV ... (SR 101).\" Die genannten Artikel sind ausdrücklich der BV (SR 101) zugeordnet."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": "SR 711",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "Formulierung: \"nach Massgabe des Bundesgesetzes ... SR 711 über die Enteignung\" ohne Nennung einzelner Artikel; es wird das Enteignungsgesetz als Ganzes als Rechtsgrundlage herangezogen."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": "SR 745.1",
+    "assigned_articles": [
+      "Art. 6",
+      "Art. 7",
+      "Art. 8"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Snippet: \"nach den Artikeln 6–8 des Personenbeförderungsgesetzes ... SR 745.1\". Die Artikelangabe steht direkt mit der Gesetzesbezeichnung und dem SR-Link in einem Satz; damit sind Art. 6–8 des SR 745.1 eindeutig zugeordnet."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_11",
+    "TARGET_SR": "SR 742.101",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "Text: \"Das Plangenehmigungsverfahren richtet sich nach dem Eisenbahngesetz ... SR 742.101.\" Es werden keine bestimmten Artikel genannt; das Verfahren richtet sich generell nach dem Eisenbahngesetz."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_15",
+    "TARGET_SR": "SR 741.01",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "Formulierung: \"nach den Bestimmungen des Strassenverkehrsgesetzes (SR 741.01).\" ohne Artikelangabe; es wird auf die Haftpflichtbestimmungen des SVG insgesamt verwiesen, nicht auf einzelne Artikel."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_15",
+    "TARGET_SR": "SR 734.0",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "Text: \"nach den Bestimmungen des Bundesgesetzes ... SR 734.0 betreffend die Schwach- und Starkstromanlagen.\" Keine Artikelnummern; allgemeiner Verweis auf das Gesetz."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_18",
+    "TARGET_SR": "SR 741.01",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "medium",
+    "reasoning": "Es heisst: \"Die Strafbestimmungen des BG ... über den Strassenverkehr (SR 741.01) ... finden Anwendung, mit Ausnahme ...\". Es werden keine konkreten Artikel genannt, sondern die Strafbestimmungen als Kategorie. Mangels genauerer Angabe wird der Verweis als genereller Bezug auf die strafrechtlichen Bestimmungen des SVG gewertet."
+  },
+  {
+    "ITEM": 8,
+    "ARTICLE_EID": "art_18",
+    "TARGET_SR": "SR 742.101",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "medium",
+    "reasoning": "Formulierung: \"Die Bestimmungen, insbesondere die Strafbestimmungen, des Eisenbahngesetzes ... SR 742.101 ... gelten sinngemäss.\" Es werden keine Artikelnummern genannt; der Verweis betrifft die einschlägigen Bestimmungen des Eisenbahngesetzes insgesamt."
+  },
+  {
+    "ITEM": 9,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "Dies ist ein artikel_reference ohne SR-Link. Der Satz verweist auf \"Artikeln 6–8 des Personenbeförderungsgesetzes\"; der SR-Bezug (SR 745.1) ist bereits in ITEM 3 erfasst. Hier handelt es sich um die gleiche inhaltliche Passage ohne expliziten SR-Link, daher als interne/kontextuelle Referenz im aktuellen Dokument zu behandeln, nicht als neue SR-Zuordnung."
+  },
+  {
+    "ITEM": 10,
+    "ARTICLE_EID": "art_11_a",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 12",
+      "Art. 13",
+      "Art. 14",
+      "Art. 15"
+    ],
+    "confidence": "high",
+    "reasoning": "Satz: \"Die Artikel 12–15 bleiben vorbehalten.\" Es wird kein externes Gesetz genannt; dies ist eine reine Selbstreferenz auf die Artikel 12–15 desselben Erlasses."
+  }
+]

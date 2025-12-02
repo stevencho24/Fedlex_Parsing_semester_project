@@ -1,0 +1,1640 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 101",
+    "assigned_articles": ["Art. 123"],
+    "confidence": "high",
+    "reasoning": "Formulierung «gestützt auf Artikel 123 der Bundesverfassung (BV) SR 101» verknüpft den Artikel grammatikalisch direkt mit SR 101."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": "SR 831.10",
+    "assigned_articles": ["Art. 50c"],
+    "confidence": "high",
+    "reasoning": "«nach Artikel 50c des Bundesgesetzes … SR 831.10 über die Alters- und Hinterlassenenversicherung»; Artikel steht unmittelbar vor der SR-Nennung und bezieht sich klar auf dieses Gesetz."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_6",
+    "TARGET_SR": "SR 312.1",
+    "assigned_articles": ["Art. 6 Abs. 1 Bst. b", "Art. 6 Abs. 1 Bst. c", "Art. 7"],
+    "confidence": "high",
+    "reasoning": "«Jugendstrafbehörden im Sinne der Artikel 6 Absatz 1 Buchstaben b und c sowie 7 der Jugendstrafprozessordnung … SR 312.1 (JStPO)»; die genannten Artikel gehören zur JStPO (SR 312.1)."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_6",
+    "TARGET_SR": "SR 312.0",
+    "assigned_articles": ["Art. 12 Bst. c"],
+    "confidence": "high",
+    "reasoning": "«Übertretungsstrafbehörden im Sinne von Artikel 12 Buchstabe c der Strafprozessordnung (StPO) SR 312.0»; direkte Zuordnung."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_18",
+    "TARGET_SR": "SR 321.0",
+    "assigned_articles": ["Art. 81 Abs. 3", "Art. 81 Abs. 4"],
+    "confidence": "high",
+    "reasoning": "«gemäss Artikel 81 Absatz 3 oder 4 des Militärstrafgesetzes … SR 321.0 (MStG)»; beide Absätze sind ausdrücklich genannt."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_18",
+    "TARGET_SR": "SR 311.0",
+    "assigned_articles": ["Art. 52"],
+    "confidence": "high",
+    "reasoning": "«Schuldsprüche unter Absehen von einer Bestrafung nach Artikel 52 des Strafgesetzbuchs (StGB) SR 311.0»; klarer Bezug."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_18",
+    "TARGET_SR": "SR 311.1",
+    "assigned_articles": ["Art. 25"],
+    "confidence": "high",
+    "reasoning": "«Freiheitsentzug (Art. 25 Jugendstrafgesetz … SR 311.1 [JStG])»; eindeutige Verknüpfung."
+  },
+  {
+    "ITEM": 8,
+    "ARTICLE_EID": "art_19",
+    "TARGET_SR": "SR 0.351.1",
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Es wird nur das Europäische Übereinkommen SR 0.351.1 als Ganzes erwähnt («gemäss dem Europäischen Übereinkommen … SR 0.351.1»), ohne Artikelangabe; daher allgemeine Dokumentverweisung."
+  },
+  {
+    "ITEM": 9,
+    "ARTICLE_EID": "art_19",
+    "TARGET_SR": "SR 311.0",
+    "assigned_articles": ["Art. 40–43", "Art. 34", "Art. 42", "Art. 37", "Art. 43", "Art. 107", "Art. 59–61", "Art. 64 Abs. 1", "Art. 64 Abs. 1bis", "Art. 67", "Art. 67b"],
+    "confidence": "high",
+    "reasoning": "Mehrere StGB-Verweise mit «analog Art. … StGB SR 311.0»; alle genannten Artikel bzw. Artikelspannen gehören zu SR 311.0."
+  },
+  {
+    "ITEM": 10,
+    "ARTICLE_EID": "art_19",
+    "TARGET_SR": "SR 321.0",
+    "assigned_articles": ["Art. 50"],
+    "confidence": "high",
+    "reasoning": "«Tätigkeitsverbot (analog Art. 67 StGB und Art. 50 MStG SR 321.0)»; Art. 50 MStG ist klar dem MStG (SR 321.0) zugeordnet."
+  },
+  {
+    "ITEM": 11,
+    "ARTICLE_EID": "art_19",
+    "TARGET_SR": "SR 311.1",
+    "assigned_articles": ["Art. 25"],
+    "confidence": "high",
+    "reasoning": "«Freiheitsentzug (analog Art. 25 JStG SR 311.1)»; eindeutige Zuordnung."
+  },
+  {
+    "ITEM": 12,
+    "ARTICLE_EID": "art_20",
+    "TARGET_SR": "SR 311.0",
+    "assigned_articles": ["Art. 67", "Art. 67b"],
+    "confidence": "high",
+    "reasoning": "«Tätigkeitsverbot oder Kontakt- und Rayonverbot nach StGB SR 311.0 oder MStG»; die Verbote sind im StGB in Art. 67 und 67b geregelt."
+  },
+  {
+    "ITEM": 13,
+    "ARTICLE_EID": "art_20",
+    "TARGET_SR": "SR 321.0",
+    "assigned_articles": ["Art. 50", "Art. 50b"],
+    "confidence": "high",
+    "reasoning": "Gleiche Satzstruktur wie bei StGB, hier «… oder MStG SR 321.0»; Tätigkeitsverbot und Kontakt-/Rayonverbot sind im MStG in Art. 50 und 50b geregelt."
+  },
+  {
+    "ITEM": 14,
+    "ARTICLE_EID": "art_24",
+    "TARGET_SR": "SR 312.0",
+    "assigned_articles": ["Art. 309 Abs. 1", "Art. 309 Abs. 4"],
+    "confidence": "high",
+    "reasoning": "«Art. 309 Abs. 1 StPO SR 312.0» und im Kontext auch «Art. 309 Abs. 4 StPO»; beide gehören zur Strafprozessordnung SR 312.0."
+  },
+  {
+    "ITEM": 15,
+    "ARTICLE_EID": "art_24",
+    "TARGET_SR": "SR 322.1",
+    "assigned_articles": ["Art. 103 Abs. 1"],
+    "confidence": "high",
+    "reasoning": "«Art. 103 Abs. 1 des Militärstrafprozesses … SR 322.1»; direkter Bezug."
+  },
+  {
+    "ITEM": 16,
+    "ARTICLE_EID": "art_24",
+    "TARGET_SR": "SR 313.0",
+    "assigned_articles": ["Art. 38 Abs. 1"],
+    "confidence": "high",
+    "reasoning": "«Art. 38 Abs. 1 des Bundesgesetzes … über das Verwaltungsstrafrecht SR 313.0»; klar zugeordnet."
+  },
+  {
+    "ITEM": 17,
+    "ARTICLE_EID": "art_30",
+    "TARGET_SR": "SR 311.1",
+    "assigned_articles": ["Art. 25"],
+    "confidence": "high",
+    "reasoning": "«12 Jahre bei Freiheitsentzug nach Artikel 25 JStG SR 311.1»; eindeutige Verknüpfung."
+  },
+  {
+    "ITEM": 18,
+    "ARTICLE_EID": "art_30",
+    "TARGET_SR": "SR 311.0",
+    "assigned_articles": [
+      "Art. 111",
+      "Art. 112",
+      "Art. 122",
+      "Art. 140 Ziff. 4",
+      "Art. 182 Abs. 2",
+      "Art. 185 Ziff. 2",
+      "Art. 185 Ziff. 3",
+      "Art. 187 Ziff. 1",
+      "Art. 189 Abs. 3",
+      "Art. 190",
+      "Art. 191",
+      "Art. 221 Abs. 2",
+      "Art. 264–264j",
+      "Art. 59–61",
+      "Art. 64",
+      "Art. 63",
+      "Art. 65",
+      "Art. 67 Abs. 1",
+      "Art. 67 Abs. 2",
+      "Art. 67 Abs. 3",
+      "Art. 67 Abs. 4",
+      "Art. 64 Abs. 3",
+      "Art. 64c Abs. 6"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Snippet und den zugehörigen Kontextstellen werden zahlreiche StGB-Bestimmungen explizit genannt (Straftatbestände und Massnahmen); alle gehören zu SR 311.0."
+  },
+  {
+    "ITEM": 19,
+    "ARTICLE_EID": "art_30",
+    "TARGET_SR": "SR 321.0",
+    "assigned_articles": [
+      "Art. 108–114",
+      "Art. 115",
+      "Art. 116",
+      "Art. 121",
+      "Art. 132 Ziff. 4",
+      "Art. 151c Ziff. 2",
+      "Art. 151c Ziff. 3",
+      "Art. 153 Abs. 2",
+      "Art. 154",
+      "Art. 155",
+      "Art. 156 Ziff. 1",
+      "Art. 160 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "«MStG SR 321.0 : Artikel 108–114, 115, 116, 121, 132 Ziffer 4, 151c Ziffer 2 und 3, 153 Absatz 2, 154, 155, 156 Ziffer 1 und 160 Absatz 2.»; alle explizit dem MStG zugeordnet."
+  },
+  {
+    "ITEM": 20,
+    "ARTICLE_EID": "art_38",
+    "TARGET_SR": "SR 311.1",
+    "assigned_articles": ["Art. 25"],
+    "confidence": "high",
+    "reasoning": "«10 Jahre bei Freiheitsentzug nach Artikel 25 JStG SR 311.1»; klarer Bezug."
+  },
+  {
+    "ITEM": 21,
+    "ARTICLE_EID": "art_38",
+    "TARGET_SR": "SR 311.0",
+    "assigned_articles": [
+      "Art. 59–61",
+      "Art. 64",
+      "Art. 63",
+      "Art. 67 Abs. 1",
+      "Art. 67b",
+      "Art. 64 Abs. 3",
+      "Art. 64c Abs. 6",
+      "Art. 46"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Kontext werden Massnahmen nach den Artikeln 59–61, 64, 63, Tätigkeitsverbote nach Art. 67, Kontakt-/Rayonverbote nach Art. 67b sowie Art. 64 Abs. 3, 64c Abs. 6 und Art. 46 StGB erwähnt; alle gehören zu SR 311.0."
+  },
+  {
+    "ITEM": 22,
+    "ARTICLE_EID": "art_38",
+    "TARGET_SR": "SR 321.0",
+    "assigned_articles": ["Art. 50 Abs. 1"],
+    "confidence": "high",
+    "reasoning": "«Artikel 50 Absatz 1 MStG SR 321.0»; direkter Verweis."
+  },
+  {
+    "ITEM": 23,
+    "ARTICLE_EID": "art_40",
+    "TARGET_SR": "SR 311.1",
+    "assigned_articles": ["Art. 3 Abs. 2"],
+    "confidence": "high",
+    "reasoning": "«gemischten Urteilen im Sinne von Artikel 3 Absatz 2 JStG SR 311.1»; eindeutige Zuordnung."
+  },
+  {
+    "ITEM": 24,
+    "ARTICLE_EID": "art_40",
+    "TARGET_SR": "SR 311.0",
+    "assigned_articles": ["Art. 38 Abs. 3", "Art. 67 Abs. 1"],
+    "confidence": "high",
+    "reasoning": "«nach Artikel 38 Absatz 3 …» und «Tätigkeitsverbots nach Artikel 67 Absatz 1 StGB SR 311.0»; beide Bestimmungen gehören zum StGB."
+  },
+  {
+    "ITEM": 25,
+    "ARTICLE_EID": "art_40",
+    "TARGET_SR": "SR 321.0",
+    "assigned_articles": ["Art. 50 Abs. 1"],
+    "confidence": "high",
+    "reasoning": "«Artikel 50 Absatz 1 MStG SR 321.0»; klarer Bezug."
+  },
+  {
+    "ITEM": 26,
+    "ARTICLE_EID": "art_42",
+    "TARGET_SR": "SR 311.0",
+    "assigned_articles": ["Art. 67 Abs. 2", "Art. 67 Abs. 3", "Art. 67 Abs. 4", "Art. 67b"],
+    "confidence": "high",
+    "reasoning": "Im Snippet und Kontext: «Tätigkeitsverbot nach Artikel 67 Absatz 2, 3 oder 4 StGB SR 311.0» und «Kontakt- und Rayonverbot nach Artikel 67b StGB»; alle zu SR 311.0."
+  },
+  {
+    "ITEM": 27,
+    "ARTICLE_EID": "art_42",
+    "TARGET_SR": "SR 321.0",
+    "assigned_articles": ["Art. 50 Abs. 2", "Art. 50 Abs. 3", "Art. 50 Abs. 4", "Art. 50b"],
+    "confidence": "high",
+    "reasoning": "«Artikel 50 Absatz 2, 3 oder 4 MStG SR 321.0» und im Kontext «Art. 50b MStG»; alle gehören zum MStG."
+  },
+  {
+    "ITEM": 28,
+    "ARTICLE_EID": "art_42",
+    "TARGET_SR": "SR 311.1",
+    "assigned_articles": ["Art. 16a Abs. 1"],
+    "confidence": "high",
+    "reasoning": "«Tätigkeitsverbot nach Artikel 16a Absatz 1 JStG SR 311.1»; eindeutige Verknüpfung."
+  },
+  {
+    "ITEM": 29,
+    "ARTICLE_EID": "art_45",
+    "TARGET_SR": "SR 312.1",
+    "assigned_articles": ["Art. 6 Abs. 1 Bst. b", "Art. 6 Abs. 1 Bst. c", "Art. 7"],
+    "confidence": "high",
+    "reasoning": "«Jugendstrafbehörden im Sinne von Art. 6 Abs. 1 Bst. b und c und Art. 7 JStPO SR 312.1»; direkte Zuordnung."
+  },
+  {
+    "ITEM": 30,
+    "ARTICLE_EID": "art_45",
+    "TARGET_SR": "SR 312.0",
+    "assigned_articles": ["Art. 12 Bst. c", "Art. 23", "Art. 24", "Art. 27 Abs. 2"],
+    "confidence": "high",
+    "reasoning": "«Art. 12 Bst. c StPO SR 312.0» und im Kontext «Art. 23, 24 und 27 Abs. 2 StPO»; alle gehören zur Strafprozessordnung."
+  },
+  {
+    "ITEM": 31,
+    "ARTICLE_EID": "art_45",
+    "TARGET_SR": "SR 311.0",
+    "assigned_articles": ["Art. 355a"],
+    "confidence": "high",
+    "reasoning": "«in Anwendung von Art. 355a StGB SR 311.0»; klarer Bezug."
+  },
+  {
+    "ITEM": 32,
+    "ARTICLE_EID": "art_45",
+    "TARGET_SR": "SR 362.2",
+    "assigned_articles": ["Art. 7"],
+    "confidence": "high",
+    "reasoning": "«in Anwendung von Art. 7 des Schengen-Informationsaustausch-Gesetzes … SR 362.2 (SIaG)»; eindeutige Verknüpfung."
+  },
+  {
+    "ITEM": 33,
+    "ARTICLE_EID": "art_46",
+    "TARGET_SR": "SR 360",
+    "assigned_articles": ["Art. 1", "Art. 2 Bst. c"],
+    "confidence": "high",
+    "reasoning": "«Straftaten nach Art. 1 des Bundesgesetzes … SR 360 … (ZentG)» und im Kontext «Art. 2 Bst. c ZentG»; beide gehören zu SR 360."
+  },
+  {
+    "ITEM": 34,
+    "ARTICLE_EID": "art_46",
+    "TARGET_SR": "SR 955.0",
+    "assigned_articles": [],
+    "confidence": "medium",
+    "reasoning": "«Meldungen nach dem Geldwäschereigesetz … SR 955.0 (GwG)» ohne Artikelangabe; allgemeine Gesetzesverweisung."
+  },
+  {
+    "ITEM": 35,
+    "ARTICLE_EID": "art_46",
+    "TARGET_SR": "SR 311.0",
+    "assigned_articles": ["Art. 355a", "Art. 16–19", "Art. 354"],
+    "confidence": "high",
+    "reasoning": "Snippet: «Europol, in Anwendung von Art. 355a StGB SR 311.0»; Kontext: «Art. 16–19 des DNA-Profil-Gesetzes … sowie … nach Art. 354 StGB»; Art. 355a und 354 gehören zu SR 311.0, DNA-Artikel zu einem anderen SR und werden hier nicht zugeordnet."
+  },
+  {
+    "ITEM": 36,
+    "ARTICLE_EID": "art_46",
+    "TARGET_SR": "SR 362.2",
+    "assigned_articles": ["Art. 7"],
+    "confidence": "high",
+    "reasoning": "«in Anwendung von Art. 7 SIaG SR 362.2»; direkter Bezug."
+  },
+  {
+    "ITEM": 37,
+    "ARTICLE_EID": "art_46",
+    "TARGET_SR": "SR 142.20",
+    "assigned_articles": [],
+    "confidence": "medium",
+    "reasoning": "«nach dem Ausländer- und Integrationsgesetz … SR 142.20 (AIG)»; keine konkrete Artikelangabe, allgemeiner Gesetzesverweis."
+  },
+  {
+    "ITEM": 38,
+    "ARTICLE_EID": "art_46",
+    "TARGET_SR": "SR 120",
+    "assigned_articles": ["Art. 22 Abs. 1"],
+    "confidence": "high",
+    "reasoning": "«im Sinne von Art. 22 Abs. 1 des Bundesgesetzes … SR 120 (BWIS)»; klarer Artikelverweis."
+  },
+  {
+    "ITEM": 39,
+    "ARTICLE_EID": "art_46",
+    "TARGET_SR": "SR 361",
+    "assigned_articles": ["Art. 9"],
+    "confidence": "high",
+    "reasoning": "«nach Art. 9 des Bundesgesetzes … SR 361 (BPI)»; eindeutige Zuordnung."
+  },
+  {
+    "ITEM": 40,
+    "ARTICLE_EID": "art_46",
+    "TARGET_SR": "SR 363",
+    "assigned_articles": ["Art. 16–19"],
+    "confidence": "high",
+    "reasoning": "«nach den Art. 16–19 des DNA-Profil-Gesetzes … SR 363»; die Spanne 16–19 gehört zu SR 363."
+  },
+  {
+    "ITEM": 41,
+    "ARTICLE_EID": "art_46",
+    "TARGET_SR": "SR 312.2",
+    "assigned_articles": [],
+    "confidence": "medium",
+    "reasoning": "«gemäss dem Bundesgesetz … SR 312.2 über den ausserprozessualen Zeugenschutz» ohne Artikelangabe; allgemeiner Verweis."
+  },
+  {
+    "ITEM": 42,
+    "ARTICLE_EID": "art_46",
+    "TARGET_SR": "SR 941.42",
+    "assigned_articles": [],
+    "confidence": "medium",
+    "reasoning": "«nach dem Vorläuferstoffgesetz … SR 941.42»; keine Artikel genannt, daher allgemeine Dokumentverweisung."
+  },
+  {
+    "ITEM": 43,
+    "ARTICLE_EID": "art_46",
+    "TARGET_SR": "SR 121",
+    "assigned_articles": ["Art. 6 Abs. 1"],
+    "confidence": "high",
+    "reasoning": "«nach Art. 6 Abs. 1 des Nachrichtendienstgesetzes … SR 121 (NDG)»; klarer Artikelverweis."
+  },
+  {
+    "ITEM": 44,
+    "ARTICLE_EID": "art_46",
+    "TARGET_SR": "SR 748.0",
+    "assigned_articles": ["Art. 108b"],
+    "confidence": "high",
+    "reasoning": "«nach Artikel 108b des Luftfahrtgesetzes … SR 748.0»; eindeutige Zuordnung."
+  },
+  {
+    "ITEM": 45,
+    "ARTICLE_EID": "art_46",
+    "TARGET_SR": "SR 128",
+    "assigned_articles": ["Art. 31 Abs. 2"],
+    "confidence": "high",
+    "reasoning": "«nach Artikel 31 Absatz 2 des Informationssicherheitsgesetzes … SR 128 (ISG)»; direkter Bezug."
+  },
+  {
+    "ITEM": 46,
+    "ARTICLE_EID": "art_46",
+    "TARGET_SR": "SR 120",
+    "assigned_articles": [],
+    "confidence": "low",
+    "reasoning": "Text wirkt redaktionell («(ISG): SR 120 :»), ohne klaren syntaktischen Bezug eines Artikels zu SR 120; keine explizite Artikelangabe, daher nur allgemeiner, unsicherer Verweis."
+  },
+  {
+    "ITEM": 47,
+    "ARTICLE_EID": "art_46",
+    "TARGET_SR": "SR 510.10",
+    "assigned_articles": [],
+    "confidence": "medium",
+    "reasoning": "«nach dem Militärgesetz … SR 510.10» ohne Artikelangabe; allgemeiner Gesetzesverweis."
+  },
+  {
+    "ITEM": 48,
+    "ARTICLE_EID": "art_46",
+    "TARGET_SR": "SR 142.31",
+    "assigned_articles": [],
+    "confidence": "medium",
+    "reasoning": "«nach dem Asylgesetz … SR 142.31 (AsylG)»; keine Artikel genannt, allgemeiner Verweis."
+  },
+  {
+    "ITEM": 49,
+    "ARTICLE_EID": "art_46",
+    "TARGET_SR": "SR 510.10",
+    "assigned_articles": [],
+    "confidence": "medium",
+    "reasoning": "«nach dem Militärgesetz … SR 510.10 (MG)»; wiederum ohne Artikelangabe, allgemeiner Verweis."
+  },
+  {
+    "ITEM": 50,
+    "ARTICLE_EID": "art_46",
+    "TARGET_SR": "SR 935.41",
+    "assigned_articles": ["Art. 2"],
+    "confidence": "medium",
+    "reasoning": "Im Kontext wird auf «Sicherheitsunternehmen nach Art. 2 BPS» Bezug genommen; BPS ist SR 935.41, daher Art. 2 dieses Gesetzes."
+  },
+  {
+    "ITEM": 51,
+    "ARTICLE_EID": "art_46",
+    "TARGET_SR": "SR 431.01",
+    "assigned_articles": [],
+    "confidence": "medium",
+    "reasoning": "«nach dem Bundesstatistikgesetz … SR 431.01 (BStatG)» ohne Artikelangabe; allgemeiner Verweis."
+  },
+  {
+    "ITEM": 52,
+    "ARTICLE_EID": "art_46",
+    "TARGET_SR": "SR 824.0",
+    "assigned_articles": [],
+    "confidence": "medium",
+    "reasoning": "«nach dem Zivildienstgesetz … SR 824.0 (ZDG)»; keine Artikel genannt, allgemeiner Verweis."
+  },
+  {
+    "ITEM": 53,
+    "ARTICLE_EID": "art_47",
+    "TARGET_SR": "SR 741.01",
+    "assigned_articles": [],
+    "confidence": "medium",
+    "reasoning": "«nach dem Strassenverkehrsgesetz … SR 741.01»; ohne konkrete Artikel, allgemeiner Gesetzesverweis."
+  },
+  {
+    "ITEM": 54,
+    "ARTICLE_EID": "art_47",
+    "TARGET_SR": "SR 520.1",
+    "assigned_articles": [],
+    "confidence": "medium",
+    "reasoning": "«nach dem Bevölkerungs- und Zivilschutzgesetz … SR 520.1»; keine Artikelangabe."
+  },
+  {
+    "ITEM": 55,
+    "ARTICLE_EID": "art_47",
+    "TARGET_SR": "SR 220",
+    "assigned_articles": ["Art. 928a Abs. 2bis"],
+    "confidence": "high",
+    "reasoning": "«nach Artikel 928a Absatz 2bis des Obligationenrechts (OR) SR 220»; klarer Artikelverweis."
+  },
+  {
+    "ITEM": 56,
+    "ARTICLE_EID": "art_48",
+    "TARGET_SR": "SR 514.54",
+    "assigned_articles": [],
+    "confidence": "medium",
+    "reasoning": "«nach dem Waffengesetz … SR 514.54 (WG)»; keine Artikel genannt, allgemeiner Verweis."
+  },
+  {
+    "ITEM": 57,
+    "ARTICLE_EID": "art_51",
+    "TARGET_SR": "SR 210",
+    "assigned_articles": ["Art. 429", "Art. 316 Abs. 2", "Art. 316 Abs. 1bis"],
+    "confidence": "high",
+    "reasoning": "Snippet und Kontext nennen «Art. 429 ZGB», «Art. 316 Abs. 2 ZGB», «Art. 316 Abs. 1bis ZGB SR 210»; alle gehören zum ZGB."
+  },
+  {
+    "ITEM": 58,
+    "ARTICLE_EID": "art_51",
+    "TARGET_SR": "SR 415.0",
+    "assigned_articles": ["Art. 10"],
+    "confidence": "high",
+    "reasoning": "«nach Art. 10 des Sportförderungsgesetzes … SR 415.0»; eindeutige Zuordnung."
+  },
+  {
+    "ITEM": 59,
+    "ARTICLE_EID": "art_52",
+    "TARGET_SR": "SR 0.101",
+    "assigned_articles": [],
+    "confidence": "medium",
+    "reasoning": "«im Sinne der Konvention … SR 0.101 (EMRK)»; keine Artikelangabe, allgemeiner Verweis auf die EMRK."
+  },
+  {
+    "ITEM": 60,
+    "ARTICLE_EID": "art_57",
+    "TARGET_SR": "SR 312.1",
+    "assigned_articles": ["Art. 6 Abs. 1 Bst. b", "Art. 6 Abs. 1 Bst. c"],
+    "confidence": "high",
+    "reasoning": "«Jugendstrafbehörden im Sinne von Artikel 6 Absatz 1 Buchstaben b und c JStPO SR 312.1»; klare Zuordnung."
+  },
+  {
+    "ITEM": 61,
+    "ARTICLE_EID": "art_57",
+    "TARGET_SR": "SR 121",
+    "assigned_articles": ["Art. 9"],
+    "confidence": "high",
+    "reasoning": "«Behörden nach Artikel 9 NDG SR 121»; direkter Artikelverweis."
+  },
+  {
+    "ITEM": 62,
+    "ARTICLE_EID": "art_57",
+    "TARGET_SR": "SR 235.1",
+    "assigned_articles": ["Art. 41"],
+    "confidence": "high",
+    "reasoning": "«nach Artikel 41 des Datenschutzgesetzes … SR 235.1»; eindeutige Verknüpfung."
+  },
+  {
+    "ITEM": 63,
+    "ARTICLE_EID": "art_58",
+    "TARGET_SR": "SR 431.01",
+    "assigned_articles": [],
+    "confidence": "medium",
+    "reasoning": "«nach dem BStatG SR 431.01»; keine Artikelangabe, allgemeiner Verweis."
+  },
+  {
+    "ITEM": 64,
+    "ARTICLE_EID": "art_59",
+    "TARGET_SR": "SR 510.10",
+    "assigned_articles": [],
+    "confidence": "medium",
+    "reasoning": "«nach dem MG SR 510.10»; ohne konkrete Artikel, allgemeiner Gesetzesverweis."
+  },
+  {
+    "ITEM": 65,
+    "ARTICLE_EID": "art_59",
+    "TARGET_SR": "SR 520.1",
+    "assigned_articles": [],
+    "confidence": "medium",
+    "reasoning": "«nach dem Bevölkerungs- und Zivilschutzgesetz … SR 520.1»; keine Artikelangabe."
+  },
+  {
+    "ITEM": 66,
+    "ARTICLE_EID": "art_60",
+    "TARGET_SR": "SR 311.0",
+    "assigned_articles": ["Art. 67e"],
+    "confidence": "high",
+    "reasoning": "«Fahrverbot im Sinne von Artikel 67e StGB SR 311.0»; klarer Artikelverweis."
+  },
+  {
+    "ITEM": 67,
+    "ARTICLE_EID": "art_60",
+    "TARGET_SR": "SR 321.0",
+    "assigned_articles": ["Art. 50e"],
+    "confidence": "high",
+    "reasoning": "«Artikel 50e MStG SR 321.0»; eindeutige Zuordnung."
+  },
+  {
+    "ITEM": 68,
+    "ARTICLE_EID": "art_60",
+    "TARGET_SR": "SR 170.512.1",
+    "assigned_articles": ["Art. 20 Abs. 2"],
+    "confidence": "high",
+    "reasoning": "«in Anwendung von Art. 20 Abs. 2 der Publikationsverordnung … (SR 170.512.1)»; direkter Artikelverweis."
+  },
+  {
+    "ITEM": 69,
+    "ARTICLE_EID": "art_61",
+    "TARGET_SR": "SR 312.4",
+    "assigned_articles": [],
+    "confidence": "medium",
+    "reasoning": "«nach dem Bundesgesetz … SR 312.4 über die Teilung eingezogener Vermögenswerte»; keine Artikelangabe, allgemeiner Verweis."
+  },
+  {
+    "ITEM": 70,
+    "ARTICLE_EID": "art_62",
+    "TARGET_SR": "SR 142.20",
+    "assigned_articles": [],
+    "confidence": "medium",
+    "reasoning": "«für den Vollzug des AIG SR 142.20»; AIG ist SR 142.20, aber ohne Artikelangabe."
+  },
+  {
+    "ITEM": 71,
+    "ARTICLE_EID": "art_62",
+    "TARGET_SR": "SR 141.0",
+    "assigned_articles": [],
+    "confidence": "medium",
+    "reasoning": "«Bürgerrechtsgesetzes vom 20. Juni 2014 SR 141.0»; keine Artikel genannt."
+  },
+  {
+    "ITEM": 72,
+    "ARTICLE_EID": "art_62",
+    "TARGET_SR": "SR 142.31",
+    "assigned_articles": [],
+    "confidence": "medium",
+    "reasoning": "«des AsylG SR 142.31»; allgemeiner Verweis ohne Artikel."
+  },
+  {
+    "ITEM": 73,
+    "ARTICLE_EID": "art_63",
+    "TARGET_SR": "SR 514.54",
+    "assigned_articles": ["Art. 32a Abs. 2"],
+    "confidence": "high",
+    "reasoning": "«Informationssystem … nach Artikel 32a Absatz 2 WG … SR 514.54»; klarer Artikelverweis."
+  },
+  {
+    "ITEM": 74,
+    "ARTICLE_EID": "art_64",
+    "TARGET_SR": "SR 0.351.1",
+    "assigned_articles": [],
+    "confidence": "medium",
+    "reasoning": "«gestützt auf das Europäische Übereinkommen … SR 0.351.1»; keine Artikelangabe, allgemeiner Verweis."
+  },
+  {
+    "ITEM": 75,
+    "ARTICLE_EID": "art_64",
+    "TARGET_SR": "SR 0.101",
+    "assigned_articles": [],
+    "confidence": "medium",
+    "reasoning": "«im Sinne der EMRK SR 0.101»; keine konkrete Artikelangabe, allgemeiner Verweis."
+  },
+  {
+    "ITEM": 76,
+    "ARTICLE_EID": "art_64_a",
+    "TARGET_SR": "SR 220",
+    "assigned_articles": ["Art. 928a Abs. 2bis", "Art. 928b"],
+    "confidence": "high",
+    "reasoning": "«Prüfung nach Artikel 928a Absatz 2bis OR SR 220» und «Datenbank Personen nach Artikel 928b OR»; beide Artikel gehören zum OR (SR 220)."
+  },
+  {
+    "ITEM": 77,
+    "ARTICLE_EID": "art_66",
+    "TARGET_SR": "SR 210",
+    "assigned_articles": ["Art. 45a"],
+    "confidence": "high",
+    "reasoning": "«Personenstandsregister nach Artikel 45a ZGB SR 210»; eindeutige Zuordnung."
+  },
+  {
+    "ITEM": 78,
+    "ARTICLE_EID": "art_70",
+    "TARGET_SR": "SR 311.1",
+    "assigned_articles": ["Art. 14", "Art. 15 Abs. 1"],
+    "confidence": "high",
+    "reasoning": "«ambulante Behandlung nach Artikel 14 JStG SR 311.1 oder eine Unterbringung nach Artikel 15 Absatz 1 JStG»; beide Artikel gehören zum JStG."
+  },
+  {
+    "ITEM": 79,
+    "ARTICLE_EID": "art_46",
+    "TARGET_SR": "SR 101",
+    "assigned_articles": ["Art. 121 Abs. 2"],
+    "confidence": "high",
+    "reasoning": "«Ausweisungsentscheiden nach Art. 121 Abs. 2 BV»; BV ist SR 101, daher Art. 121 Abs. 2 SR 101."
+  },
+  {
+    "ITEM": 80,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 25"],
+    "confidence": "high",
+    "reasoning": "«(Art. 25)» bezieht sich auf einen Artikel innerhalb desselben Gesetzes (VOSTRA-Gesetz); keine externe SR-Verknüpfung."
+  },
+  {
+    "ITEM": 81,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 6 Abs. 3", "Art. 6 Abs. 2", "Art. 7 Abs. 1"],
+    "confidence": "high",
+    "reasoning": "Alle genannten Artikel beziehen sich auf Bestimmungen desselben Gesetzes; keine externe SR-Verweisung."
+  },
+  {
+    "ITEM": 82,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 10 Abs. 3 Bst. b", "Art. 10 Abs. 6"],
+    "confidence": "high",
+    "reasoning": "Interne Verweise auf Art. 10 des eigenen Gesetzes; kein externer SR-Bezug."
+  },
+  {
+    "ITEM": 83,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 10 Abs. 4"],
+    "confidence": "high",
+    "reasoning": "«(Art. 10 Abs. 4)» ist ein Selbstverweis innerhalb des Gesetzes."
+  },
+  {
+    "ITEM": 84,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 58–64"],
+    "confidence": "high",
+    "reasoning": "«gemäss den Artikeln 58–64»; interne Strukturverweise."
+  },
+  {
+    "ITEM": 85,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 26", "Art. 49"],
+    "confidence": "high",
+    "reasoning": "Verweise auf Artikel desselben Gesetzes; keine externe SR-Nennung."
+  },
+  {
+    "ITEM": 86,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 6 Abs. 2", "Art. 7 Abs. 2"],
+    "confidence": "high",
+    "reasoning": "Interne Artikelverweise ohne Bezug zu einem anderen SR."
+  },
+  {
+    "ITEM": 87,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 7 Abs. 3"],
+    "confidence": "high",
+    "reasoning": "Selbstverweis innerhalb des Gesetzes."
+  },
+  {
+    "ITEM": 88,
+    "ARTICLE_EID": "art_6",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Hier werden «Artikel 6 … sowie 7 der Jugendstrafprozessordnung» erwähnt; diese externen Artikel sind bereits in ITEM 3/29 SR-zugeordnet; dieser artikel_reference dient nur der internen Struktur und erzeugt keinen neuen SR-Link."
+  },
+  {
+    "ITEM": 89,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 19"],
+    "confidence": "high",
+    "reasoning": "«im Sinne von Artikel 19» bezieht sich auf Art. 19 desselben Gesetzes."
+  },
+  {
+    "ITEM": 90,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 6 Abs. 3"],
+    "confidence": "high",
+    "reasoning": "Interner Verweis auf Art. 6 Abs. 3 des Gesetzes."
+  },
+  {
+    "ITEM": 91,
+    "ARTICLE_EID": "art_8",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 3–6"],
+    "confidence": "high",
+    "reasoning": "«(Art. 3–6)» sind interne Artikel des gleichen Gesetzes."
+  },
+  {
+    "ITEM": 92,
+    "ARTICLE_EID": "art_9",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 3 Abs. 2 Bst. g"],
+    "confidence": "high",
+    "reasoning": "Interner Verweis; kein externer SR."
+  },
+  {
+    "ITEM": 93,
+    "ARTICLE_EID": "art_11",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 3–5"],
+    "confidence": "high",
+    "reasoning": "Selbstverweis auf registerführende Behörden im selben Gesetz."
+  },
+  {
+    "ITEM": 94,
+    "ARTICLE_EID": "art_16",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 18 Abs. 1", "Art. 19 Bst. d Ziff. 1"],
+    "confidence": "high",
+    "reasoning": "Interne Verweise auf Art. 18 und 19 des Gesetzes."
+  },
+  {
+    "ITEM": 95,
+    "ARTICLE_EID": "art_16",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 18 Abs. 2", "Art. 18 Abs. 3", "Art. 19 Bst. d Ziff. 2"],
+    "confidence": "high",
+    "reasoning": "Ebenfalls interne Strukturverweise."
+  },
+  {
+    "ITEM": 96,
+    "ARTICLE_EID": "art_18",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Die zahlreichen StGB- und MStG-Verweise (Art. 81, 52, 59–61, 63, 64, 67, 67b, 67e, 48, 49, 50 etc.) sind bereits in SR_link_detection-Items 5, 6, 9, 10 abgedeckt; dieser artikel_reference ist rein beschreibend und erzeugt keinen neuen SR-Link."
+  },
+  {
+    "ITEM": 97,
+    "ARTICLE_EID": "art_18",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Verweise auf JStG-Artikel (25, 15, 14, 16a) sind bereits in Items 7, 11, 17, 20, 78 etc. SR-zugeordnet; hier nur interne Beschreibung."
+  },
+  {
+    "ITEM": 98,
+    "ARTICLE_EID": "art_18",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Bezieht sich auf JStG-Artikel 16a, die schon in Items 28, 42, 97, 98 SR-zugeordnet sind; kein neuer SR-Link."
+  },
+  {
+    "ITEM": 99,
+    "ARTICLE_EID": "art_20",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 16 Abs. 1 Bst. a", "Art. 16 Abs. 2 Bst. a"],
+    "confidence": "high",
+    "reasoning": "Interne Verweise auf Art. 16 des Gesetzes."
+  },
+  {
+    "ITEM": 100,
+    "ARTICLE_EID": "art_20",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 17"],
+    "confidence": "high",
+    "reasoning": "Interner Verweis."
+  },
+  {
+    "ITEM": 101,
+    "ARTICLE_EID": "art_20",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 38 Abs. 4 Bst. d"],
+    "confidence": "high",
+    "reasoning": "Verweis auf Art. 38 desselben Gesetzes."
+  },
+  {
+    "ITEM": 102,
+    "ARTICLE_EID": "art_20",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 30 Abs. 2 Bst. n", "Art. 30 Abs. 2 Bst. a–m"],
+    "confidence": "high",
+    "reasoning": "Interne Strukturverweise."
+  },
+  {
+    "ITEM": 103,
+    "ARTICLE_EID": "art_22",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 18", "Art. 21"],
+    "confidence": "high",
+    "reasoning": "Interne Verweise auf Grundurteile und nachträgliche Entscheide."
+  },
+  {
+    "ITEM": 104,
+    "ARTICLE_EID": "art_22",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 19", "Art. 21"],
+    "confidence": "high",
+    "reasoning": "Interne Strukturverweise."
+  },
+  {
+    "ITEM": 105,
+    "ARTICLE_EID": "art_23",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 20 Abs. 2"],
+    "confidence": "high",
+    "reasoning": "Interner Verweis."
+  },
+  {
+    "ITEM": 106,
+    "ARTICLE_EID": "art_24",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 16 Abs. 1 Bst. b", "Art. 16 Abs. 2 Bst. b"],
+    "confidence": "high",
+    "reasoning": "Interne Strukturverweise."
+  },
+  {
+    "ITEM": 107,
+    "ARTICLE_EID": "art_24",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 17"],
+    "confidence": "high",
+    "reasoning": "Interner Verweis."
+  },
+  {
+    "ITEM": 108,
+    "ARTICLE_EID": "art_25",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 57", "Art. 3 Abs. 2 Bst. g"],
+    "confidence": "high",
+    "reasoning": "Beide Verweise beziehen sich auf das eigene Gesetz."
+  },
+  {
+    "ITEM": 109,
+    "ARTICLE_EID": "art_27",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 41", "Art. 42"],
+    "confidence": "high",
+    "reasoning": "Interne Verweise auf Privatauszug und Sonderprivatauszug."
+  },
+  {
+    "ITEM": 110,
+    "ARTICLE_EID": "art_27",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 55 Abs. 4"],
+    "confidence": "high",
+    "reasoning": "Interner Verweis."
+  },
+  {
+    "ITEM": 111,
+    "ARTICLE_EID": "art_29",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 66", "Art. 65"],
+    "confidence": "high",
+    "reasoning": "Interne Verweise auf andere Artikel des Gesetzes."
+  },
+  {
+    "ITEM": 112,
+    "ARTICLE_EID": "art_30",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 25"],
+    "confidence": "high",
+    "reasoning": "Hier ist Art. 25 JStG gemeint, der bereits in Items 7, 17, 20 SR-zugeordnet ist; dieser artikel_reference erzeugt keinen neuen SR-Link."
+  },
+  {
+    "ITEM": 113,
+    "ARTICLE_EID": "art_30",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 25"],
+    "confidence": "high",
+    "reasoning": "Ebenfalls Verweis auf Art. 25 JStG; SR-Zuordnung bereits vorhanden."
+  },
+  {
+    "ITEM": 114,
+    "ARTICLE_EID": "art_30",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 14"],
+    "confidence": "high",
+    "reasoning": "Verweis auf Art. 14 JStG; SR-Zuordnung in Items 78, 97, 135 bereits erfolgt."
+  },
+  {
+    "ITEM": 115,
+    "ARTICLE_EID": "art_31",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 21", "Art. 23", "Art. 22", "Art. 16"],
+    "confidence": "high",
+    "reasoning": "Alle Verweise sind intern."
+  },
+  {
+    "ITEM": 116,
+    "ARTICLE_EID": "art_32",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 24"],
+    "confidence": "high",
+    "reasoning": "Interner Verweis."
+  },
+  {
+    "ITEM": 117,
+    "ARTICLE_EID": "art_33",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 25"],
+    "confidence": "high",
+    "reasoning": "Interner Verweis."
+  },
+  {
+    "ITEM": 118,
+    "ARTICLE_EID": "art_33",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 26"],
+    "confidence": "high",
+    "reasoning": "Interner Verweis."
+  },
+  {
+    "ITEM": 119,
+    "ARTICLE_EID": "art_33",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 27"],
+    "confidence": "high",
+    "reasoning": "Interner Verweis."
+  },
+  {
+    "ITEM": 120,
+    "ARTICLE_EID": "art_34",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 29–33"],
+    "confidence": "high",
+    "reasoning": "Interne Verweise."
+  },
+  {
+    "ITEM": 121,
+    "ARTICLE_EID": "art_34",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 25", "Art. 33 Bst. a"],
+    "confidence": "high",
+    "reasoning": "Interne Strukturverweise."
+  },
+  {
+    "ITEM": 122,
+    "ARTICLE_EID": "art_35",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 43–56", "Art. 37–42"],
+    "confidence": "high",
+    "reasoning": "Interne Verweise auf Zugangsprofile und Auszüge."
+  },
+  {
+    "ITEM": 123,
+    "ARTICLE_EID": "art_36",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 37–42"],
+    "confidence": "high",
+    "reasoning": "Interne Verweise."
+  },
+  {
+    "ITEM": 124,
+    "ARTICLE_EID": "art_37",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 17"],
+    "confidence": "high",
+    "reasoning": "Interner Verweis."
+  },
+  {
+    "ITEM": 125,
+    "ARTICLE_EID": "art_37",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 18–20"],
+    "confidence": "high",
+    "reasoning": "Interne Verweise."
+  },
+  {
+    "ITEM": 126,
+    "ARTICLE_EID": "art_37",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 21"],
+    "confidence": "high",
+    "reasoning": "Interner Verweis."
+  },
+  {
+    "ITEM": 127,
+    "ARTICLE_EID": "art_37",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 22", "Art. 45 Abs. 2", "Art. 52 Abs. 3"],
+    "confidence": "high",
+    "reasoning": "Interne Strukturverweise."
+  },
+  {
+    "ITEM": 128,
+    "ARTICLE_EID": "art_37",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 24"],
+    "confidence": "high",
+    "reasoning": "Interner Verweis."
+  },
+  {
+    "ITEM": 129,
+    "ARTICLE_EID": "art_37",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 23"],
+    "confidence": "high",
+    "reasoning": "Interner Verweis."
+  },
+  {
+    "ITEM": 130,
+    "ARTICLE_EID": "art_37",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 29–32"],
+    "confidence": "high",
+    "reasoning": "Interne Verweise."
+  },
+  {
+    "ITEM": 131,
+    "ARTICLE_EID": "art_38",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 37 Abs. 1", "Art. 22 Abs. 1"],
+    "confidence": "high",
+    "reasoning": "Interne Strukturverweise."
+  },
+  {
+    "ITEM": 132,
+    "ARTICLE_EID": "art_38",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 23"],
+    "confidence": "high",
+    "reasoning": "Interner Verweis."
+  },
+  {
+    "ITEM": 133,
+    "ARTICLE_EID": "art_38",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 25"],
+    "confidence": "high",
+    "reasoning": "Verweis auf Art. 25 JStG; SR-Zuordnung bereits in Items 7, 17, 20 etc.; hier kein neuer SR-Link."
+  },
+  {
+    "ITEM": 134,
+    "ARTICLE_EID": "art_38",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 25"],
+    "confidence": "high",
+    "reasoning": "Ebenfalls Verweis auf Art. 25 JStG; SR-Zuordnung bereits vorhanden."
+  },
+  {
+    "ITEM": 135,
+    "ARTICLE_EID": "art_38",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 14"],
+    "confidence": "high",
+    "reasoning": "Verweis auf Art. 14 JStG; SR-Zuordnung bereits in Items 78, 97, 135."
+  },
+  {
+    "ITEM": 136,
+    "ARTICLE_EID": "art_39",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 38"],
+    "confidence": "high",
+    "reasoning": "Interner Verweis."
+  },
+  {
+    "ITEM": 137,
+    "ARTICLE_EID": "art_40",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 17"],
+    "confidence": "high",
+    "reasoning": "Interner Verweis."
+  },
+  {
+    "ITEM": 138,
+    "ARTICLE_EID": "art_40",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 18 Abs. 1"],
+    "confidence": "high",
+    "reasoning": "Interner Verweis."
+  },
+  {
+    "ITEM": 139,
+    "ARTICLE_EID": "art_40",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 19 Bst. d Ziff. 1"],
+    "confidence": "high",
+    "reasoning": "Interner Verweis."
+  },
+  {
+    "ITEM": 140,
+    "ARTICLE_EID": "art_40",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 18 Abs. 2", "Art. 18 Abs. 3", "Art. 19 Bst. d Ziff. 2"],
+    "confidence": "high",
+    "reasoning": "Interne Verweise; JStG-Artikel sind bereits SR-zugeordnet in anderen Items."
+  },
+  {
+    "ITEM": 141,
+    "ARTICLE_EID": "art_40",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 21", "Art. 22 Abs. 2"],
+    "confidence": "high",
+    "reasoning": "Interne Strukturverweise."
+  },
+  {
+    "ITEM": 142,
+    "ARTICLE_EID": "art_40",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 24"],
+    "confidence": "high",
+    "reasoning": "Interner Verweis."
+  },
+  {
+    "ITEM": 143,
+    "ARTICLE_EID": "art_40",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 23"],
+    "confidence": "high",
+    "reasoning": "Interner Verweis."
+  },
+  {
+    "ITEM": 144,
+    "ARTICLE_EID": "art_40",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 16a Abs. 2"],
+    "confidence": "high",
+    "reasoning": "Verweis auf Art. 16a Abs. 2 JStG; SR-Zuordnung bereits in Items 28, 42, 97, 98."
+  },
+  {
+    "ITEM": 145,
+    "ARTICLE_EID": "art_41",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 40", "Art. 24"],
+    "confidence": "high",
+    "reasoning": "Interne Verweise."
+  },
+  {
+    "ITEM": 146,
+    "ARTICLE_EID": "art_42",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 17"],
+    "confidence": "high",
+    "reasoning": "Interner Verweis."
+  },
+  {
+    "ITEM": 147,
+    "ARTICLE_EID": "art_42",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 18 Abs. 2", "Art. 18 Abs. 3", "Art. 19 Bst. d Ziff. 2"],
+    "confidence": "high",
+    "reasoning": "Interne Verweise; JStG-Artikel bereits SR-zugeordnet."
+  },
+  {
+    "ITEM": 148,
+    "ARTICLE_EID": "art_42",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 21", "Art. 22 Abs. 2"],
+    "confidence": "high",
+    "reasoning": "Interne Strukturverweise."
+  },
+  {
+    "ITEM": 149,
+    "ARTICLE_EID": "art_42",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 23"],
+    "confidence": "high",
+    "reasoning": "Interner Verweis."
+  },
+  {
+    "ITEM": 150,
+    "ARTICLE_EID": "art_43",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 3", "Art. 16–27"],
+    "confidence": "high",
+    "reasoning": "Interne Verweise."
+  },
+  {
+    "ITEM": 151,
+    "ARTICLE_EID": "art_44",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 25"],
+    "confidence": "high",
+    "reasoning": "Interner Verweis."
+  },
+  {
+    "ITEM": 152,
+    "ARTICLE_EID": "art_44",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 26"],
+    "confidence": "high",
+    "reasoning": "Interner Verweis."
+  },
+  {
+    "ITEM": 153,
+    "ARTICLE_EID": "art_44",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 27"],
+    "confidence": "high",
+    "reasoning": "Interner Verweis."
+  },
+  {
+    "ITEM": 154,
+    "ARTICLE_EID": "art_45",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 37"],
+    "confidence": "high",
+    "reasoning": "Interner Verweis auf Behördenauszug 1."
+  },
+  {
+    "ITEM": 155,
+    "ARTICLE_EID": "art_45",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "«Art. 7 des Schengen-Informationsaustausch-Gesetzes (SIaG)» ist bereits in Items 32 und 36 SR-zugeordnet; dieser artikel_reference wiederholt nur den externen Verweis."
+  },
+  {
+    "ITEM": 156,
+    "ARTICLE_EID": "art_45",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 22 Abs. 1"],
+    "confidence": "high",
+    "reasoning": "Interner Verweis."
+  },
+  {
+    "ITEM": 157,
+    "ARTICLE_EID": "art_46",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 38"],
+    "confidence": "high",
+    "reasoning": "Interner Verweis auf Behördenauszug 2."
+  },
+  {
+    "ITEM": 158,
+    "ARTICLE_EID": "art_46",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "«Art. 1 … (ZentG)» ist bereits in ITEM 33 SR-zugeordnet; hier nur Wiederholung."
+  },
+  {
+    "ITEM": 159,
+    "ARTICLE_EID": "art_46",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "«Art. 2 Bst. c ZentG» ist bereits im Kontext von ITEM 33 SR-zugeordnet; kein neuer SR-Link."
+  },
+  {
+    "ITEM": 160,
+    "ARTICLE_EID": "art_46",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "«Art. 7 SIaG» ist bereits in Items 32 und 36 SR-zugeordnet."
+  },
+  {
+    "ITEM": 161,
+    "ARTICLE_EID": "art_46",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "«AIG» und «Art. 121 Abs. 2 BV» sind bereits in Items 37 und 79 SR-zugeordnet; hier nur Wiederholung."
+  },
+  {
+    "ITEM": 162,
+    "ARTICLE_EID": "art_46",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "«Art. 22 Abs. 1 … (BWIS)» ist bereits in ITEM 38 SR-zugeordnet."
+  },
+  {
+    "ITEM": 163,
+    "ARTICLE_EID": "art_46",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "«Art. 9 … (BPI)» ist bereits in ITEM 39 SR-zugeordnet."
+  },
+  {
+    "ITEM": 164,
+    "ARTICLE_EID": "art_46",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "«Art. 6 Abs. 1 NDG» ist bereits in ITEM 43 SR-zugeordnet."
+  },
+  {
+    "ITEM": 165,
+    "ARTICLE_EID": "art_46",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "«Art. 12 Abs. 1 Bst. d NDG» ist Teil desselben NDG-Kontexts wie Items 43, 61, 164; SR-Zuordnung bereits vorhanden."
+  },
+  {
+    "ITEM": 166,
+    "ARTICLE_EID": "art_46",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 9"],
+    "confidence": "high",
+    "reasoning": "Interner Verweis auf Art. 9 NDG; SR-Zuordnung zu SR 121 bereits in ITEM 61."
+  },
+  {
+    "ITEM": 167,
+    "ARTICLE_EID": "art_46",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "«Art. 6 Abs. 1 NDG» bereits in ITEM 43 SR-zugeordnet."
+  },
+  {
+    "ITEM": 168,
+    "ARTICLE_EID": "art_46",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "«Artikel 108b des Luftfahrtgesetzes» bereits in ITEM 44 SR-zugeordnet."
+  },
+  {
+    "ITEM": 169,
+    "ARTICLE_EID": "art_46",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 31 Abs. 2"],
+    "confidence": "high",
+    "reasoning": "Interner Verweis auf Art. 31 Abs. 2 ISG; SR-Zuordnung zu SR 128 bereits in ITEM 45."
+  },
+  {
+    "ITEM": 170,
+    "ARTICLE_EID": "art_46",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 2"],
+    "confidence": "high",
+    "reasoning": "«Sicherheitsunternehmen nach Art. 2 BPS»; Art. 2 BPS ist bereits in ITEM 50 SR-zugeordnet."
+  },
+  {
+    "ITEM": 171,
+    "ARTICLE_EID": "art_47",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 39"],
+    "confidence": "high",
+    "reasoning": "Interner Verweis auf Behördenauszug 3."
+  },
+  {
+    "ITEM": 172,
+    "ARTICLE_EID": "art_48",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 40"],
+    "confidence": "high",
+    "reasoning": "Interner Verweis auf Behördenauszug 4."
+  },
+  {
+    "ITEM": 173,
+    "ARTICLE_EID": "art_50",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 37"],
+    "confidence": "high",
+    "reasoning": "Interner Verweis."
+  },
+  {
+    "ITEM": 174,
+    "ARTICLE_EID": "art_51",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 38"],
+    "confidence": "high",
+    "reasoning": "Interner Verweis."
+  },
+  {
+    "ITEM": 175,
+    "ARTICLE_EID": "art_51",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "«Art. 10 des Sportförderungsgesetzes» ist bereits in ITEM 58 SR-zugeordnet; hier nur Wiederholung."
+  },
+  {
+    "ITEM": 176,
+    "ARTICLE_EID": "art_52",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 22 Abs. 1"],
+    "confidence": "high",
+    "reasoning": "Interner Verweis."
+  },
+  {
+    "ITEM": 177,
+    "ARTICLE_EID": "art_53",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 43–52"],
+    "confidence": "high",
+    "reasoning": "Interner Verweis."
+  },
+  {
+    "ITEM": 178,
+    "ARTICLE_EID": "art_54",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 41"],
+    "confidence": "high",
+    "reasoning": "Interner Verweis."
+  },
+  {
+    "ITEM": 179,
+    "ARTICLE_EID": "art_55",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 54"],
+    "confidence": "high",
+    "reasoning": "Interner Verweis."
+  },
+  {
+    "ITEM": 180,
+    "ARTICLE_EID": "art_57",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 16–26", "Art. 27"],
+    "confidence": "high",
+    "reasoning": "Interne Verweise."
+  },
+  {
+    "ITEM": 181,
+    "ARTICLE_EID": "art_57",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 25"],
+    "confidence": "high",
+    "reasoning": "Interner Verweis."
+  },
+  {
+    "ITEM": 182,
+    "ARTICLE_EID": "art_57",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "«Artikel 6 Absatz 1 … JStPO» ist bereits in Items 3 und 60 SR-zugeordnet; hier nur Wiederholung."
+  },
+  {
+    "ITEM": 183,
+    "ARTICLE_EID": "art_57",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 45 Abs. 1 Bst. e", "Art. 46 Bst. a"],
+    "confidence": "high",
+    "reasoning": "Interne Verweise."
+  },
+  {
+    "ITEM": 184,
+    "ARTICLE_EID": "art_57",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 45 Abs. 1 Bst. f", "Art. 46 Bst. d"],
+    "confidence": "high",
+    "reasoning": "Interne Verweise."
+  },
+  {
+    "ITEM": 185,
+    "ARTICLE_EID": "art_57",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 45 Abs. 1 Bst. c"],
+    "confidence": "high",
+    "reasoning": "Interner Verweis."
+  },
+  {
+    "ITEM": 186,
+    "ARTICLE_EID": "art_57",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "«Artikel 41 des Datenschutzgesetzes» ist bereits in ITEM 62 SR-zugeordnet; hier Wiederholung."
+  },
+  {
+    "ITEM": 187,
+    "ARTICLE_EID": "art_61",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 22 Abs. 1"],
+    "confidence": "high",
+    "reasoning": "Interner Verweis."
+  },
+  {
+    "ITEM": 188,
+    "ARTICLE_EID": "art_62",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 18", "Art. 20"],
+    "confidence": "high",
+    "reasoning": "Interne Verweise."
+  },
+  {
+    "ITEM": 189,
+    "ARTICLE_EID": "art_62",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 24"],
+    "confidence": "high",
+    "reasoning": "Interner Verweis."
+  },
+  {
+    "ITEM": 190,
+    "ARTICLE_EID": "art_62",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 24"],
+    "confidence": "high",
+    "reasoning": "Doppelter interner Verweis."
+  },
+  {
+    "ITEM": 191,
+    "ARTICLE_EID": "art_62",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 20 Abs. 3 Bst. a"],
+    "confidence": "high",
+    "reasoning": "Interner Verweis."
+  },
+  {
+    "ITEM": 192,
+    "ARTICLE_EID": "art_64_a",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 928a Abs. 2bis", "Art. 928b"],
+    "confidence": "high",
+    "reasoning": "Verweise auf OR-Artikel; SR-Zuordnung zu SR 220 bereits in Items 55 und 76."
+  },
+  {
+    "ITEM": 193,
+    "ARTICLE_EID": "art_67",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 55 Abs. 1–2"],
+    "confidence": "high",
+    "reasoning": "Interner Verweis."
+  },
+  {
+    "ITEM": 194,
+    "ARTICLE_EID": "art_67",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 55 Abs. 4"],
+    "confidence": "high",
+    "reasoning": "Interner Verweis."
+  },
+  {
+    "ITEM": 195,
+    "ARTICLE_EID": "art_70",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 14", "Art. 15 Abs. 1"],
+    "confidence": "high",
+    "reasoning": "Verweise auf JStG-Artikel; SR-Zuordnung bereits in Items 78, 97, 135."
+  },
+  {
+    "ITEM": 196,
+    "ARTICLE_EID": "art_70",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 22 Abs. 2"],
+    "confidence": "high",
+    "reasoning": "Interner Verweis."
+  },
+  {
+    "ITEM": 197,
+    "ARTICLE_EID": "art_70",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 13 Abs. 3"],
+    "confidence": "high",
+    "reasoning": "Interner Verweis."
+  },
+  {
+    "ITEM": 198,
+    "ARTICLE_EID": "art_70",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 22 Abs. 1"],
+    "confidence": "high",
+    "reasoning": "Interner Verweis."
+  },
+  {
+    "ITEM": 199,
+    "ARTICLE_EID": "art_72",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 65"],
+    "confidence": "high",
+    "reasoning": "Interner Verweis auf einen Artikel desselben Gesetzes."
+  }
+]

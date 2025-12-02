@@ -1,0 +1,52 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 172.010",
+    "assigned_articles": [
+      "Art. 62 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet explicitly cites 'Artikel 62 Absatz 1 des Verwaltungsorganisationsgesetzes SR 172.010'; this article reference is syntactically and semantically linked to SR 172.010."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 513.61",
+    "assigned_articles": [
+      "Art. 10 Abs. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet cites 'Artikel 10 Absatz 3 des Bundesratsbeschlusses vom 19. Mai 1971 SR 513.61 über den Sicherheitsdienst der Armee'; the article reference directly belongs to SR 513.61."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 510.717",
+    "assigned_articles": [
+      "Art. 1 Abs. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "The text refers to 'Artikel 1 Absatz 3 der Verordnung vom 5. Dezember 1978 SR 510.717 über die Motorfahrzeuge des Sicherheitsdienstes der Armee und ihre Führer'; this clearly links Art. 1 Abs. 3 to SR 510.717."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet mentions 'Artikel 1 Absatz 3 der Verordnung vom 5. Dezember 1978 über die Motorfahrzeuge des Sicherheitsdienstes der Armee und ihre Führer' without an SR number; in this context it functions as a self-reference pattern already captured with SR linkage in ITEM 3, so this occurrence is treated as an internal reference within the current document rather than a new SR link assignment."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "References to 'Artikel 2 Absatz 3' and 'Artikel 3 Absatz 6' appear without any SR citation and clearly concern provisions of the same ordinance; they are therefore internal cross-references within the current document, not links to an external SR."
+  }
+]

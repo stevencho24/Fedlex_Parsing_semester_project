@@ -1,0 +1,331 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 810.30",
+    "assigned_articles": [
+      "Art. 49 Abs. 1",
+      "Art. 49 Abs. 2",
+      "Art. 53 Abs. 3",
+      "Art. 59 Abs. 6",
+      "Art. 60 Abs. 2",
+      "Art. 65"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Präambel nennt ausdrücklich: «gestützt auf die Artikel 49 Absätze 1 und 2, 53 Absatz 3, 59 Absatz 6, 60 Absatz 2 und 65 des Humanforschungsgesetzes … SR 810.30 (HFG)»; alle genannten Artikel gehören daher zu SR 810.30."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_6",
+    "TARGET_SR": "SR 810.305",
+    "assigned_articles": [
+      "Art. 19 Abs. 1",
+      "Art. 20 Abs. 1",
+      "Art. 49 Abs. 1",
+      "Art. 61 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Snippet: «klinische Versuche der Kategorie A nach den Artikeln 19 Absatz 1, 20 Absatz 1, 49 Absatz 1 und 61 Absatz 1 der Verordnung … SR 810.305 über klinische Versuche (KlinV)»; die Artikelangaben stehen direkt bei der genannten Verordnung, somit gehören sie zu SR 810.305."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_6",
+    "TARGET_SR": "SR 810.306",
+    "assigned_articles": [
+      "Art. 6 Abs. 2 Bst. a",
+      "Art. 6a Abs. 1 Bst. a"
+    ],
+    "confidence": "high",
+    "reasoning": "Text: «nach Artikel 6 Absatz 2 Buchstabe a und Artikel 6a Absatz 1 Buchstabe a der Verordnung vom 1. Juli 2020 SR 810.306 über klinische Versuche mit Medizinprodukten»; beide Artikel sind grammatikalisch eindeutig dieser Verordnung (SR 810.306) zugeordnet."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_6",
+    "TARGET_SR": "SR 810.301",
+    "assigned_articles": [
+      "Art. 7 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet: «Forschungsprojekte mit Personen der Kategorie A nach Artikel 7 Absatz 1 der Humanforschungsverordnung vom 20. September 2013 SR 810.301»; der Artikel 7 Abs. 1 wird direkt mit der Humanforschungsverordnung SR 810.301 verknüpft."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_11_a",
+    "TARGET_SR": "SR 810.305",
+    "assigned_articles": [
+      "Art. 67"
+    ],
+    "confidence": "high",
+    "reasoning": "Formulierung: «das Betreiben des Portals nach Artikel 67 KlinV SR 810.305»; «KlinV» ist die Verordnung SR 810.305, somit bezieht sich Art. 67 auf SR 810.305."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_12",
+    "TARGET_SR": "SR 235.1",
+    "assigned_articles": [
+      "Art. 16 Abs. 1",
+      "Art. 16 Abs. 2",
+      "Art. 17"
+    ],
+    "confidence": "high",
+    "reasoning": "Im ersten Satz: «… angemessenen Schutz nach Artikel 16 Absatz 1 des Datenschutzgesetzes … SR 235.1 (DSG)»; im zweiten Satz wird auf «hinreichende Garantien» Bezug genommen, ohne neue Artikelangabe. In den späteren artikel_reference-Items zu Art. 12 wird ausdrücklich «Abweichend von Artikel 16 Absätze 1 und 2 DSG» und «… Garantien nach Artikel 16 Absatz 2 DSG oder die Anwendung einer Ausnahme nach Artikel 17 DSG» genannt. Zusammengenommen ergibt sich, dass Art. 16 Abs. 1 und 2 sowie Art. 17 DSG (SR 235.1) einschlägig sind."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_6",
+    "TARGET_SR": "SR 810.30",
+    "assigned_articles": [
+      "Art. 32",
+      "Art. 33",
+      "Art. 34",
+      "Art. 37 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet: «… nach den Artikeln 32 und 33 HFG …; … nach Artikel 34 HFG …; … nach Artikel 37 Absatz 2 HFG»; HFG ist in der Präambel als SR 810.30 definiert, daher gehören diese Artikel zu SR 810.30."
+  },
+  {
+    "ITEM": 8,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": "SR 810.30",
+    "assigned_articles": [
+      "Art. 32",
+      "Art. 33",
+      "Art. 48"
+    ],
+    "confidence": "high",
+    "reasoning": "Text: «… nach den Artikeln 32 und 33 HFG …; … nach Artikel 48 HFG.»; HFG = SR 810.30 gemäss Präambel, somit sind Art. 32, 33 und 48 dem SR 810.30 zuzuordnen."
+  },
+  {
+    "ITEM": 9,
+    "ARTICLE_EID": "art_10",
+    "TARGET_SR": "SR 810.30",
+    "assigned_articles": [
+      "Art. 55 Abs. 1",
+      "Art. 55 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet: «… Koordinationsstelle … nach Artikel 55 Absatz 1 HFG; … Richtlinien … nach Artikel 55 Absatz 2 HFG»; HFG = SR 810.30, daher Art. 55 Abs. 1 und 2 dieses Gesetzes."
+  },
+  {
+    "ITEM": 10,
+    "ARTICLE_EID": "art_11",
+    "TARGET_SR": "SR 810.30",
+    "assigned_articles": [
+      "Art. 59 Abs. 1",
+      "Art. 59 Abs. 2",
+      "Art. 59 Abs. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Snippet: «… nach Artikel 59 Absätze 1 und 2 HFG …» sowie «… in Anwendung von Artikel 59 Absatz 3 HFG …»; HFG = SR 810.30, somit sind Art. 59 Abs. 1–3 betroffen."
+  },
+  {
+    "ITEM": 11,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 1 Abs. 1 Bst. a Ziff. 1–3"
+    ],
+    "confidence": "high",
+    "reasoning": "«Die Mitglieder nach Artikel 1 Absatz 1 Buchstabe a Ziffern 1–3 …»; es wird kein externes SR genannt, daher handelt es sich um eine Selbstreferenz innerhalb derselben Verordnung (Art. 1)."
+  },
+  {
+    "ITEM": 12,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 6",
+      "Art. 7"
+    ],
+    "confidence": "high",
+    "reasoning": "«Vorbehalten bleiben die Artikel 6 und 7.»; keine SR-Angabe, somit interner Verweis auf die eigenen Artikel 6 und 7."
+  },
+  {
+    "ITEM": 13,
+    "ARTICLE_EID": "art_6",
+    "TARGET_SR": "SR 810.305",
+    "assigned_articles": [
+      "Art. 19 Abs. 1",
+      "Art. 20 Abs. 1",
+      "Art. 49 Abs. 1",
+      "Art. 61 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "Inhaltlich identisch mit ITEM 2, nur ohne explizite SR im Snippet, aber mit Verweis «… der Verordnung … über klinische Versuche (KlinV)»; KlinV ist SR 810.305 (aus ITEM 2 ersichtlich). Die Artikelangaben gehören daher zu SR 810.305."
+  },
+  {
+    "ITEM": 14,
+    "ARTICLE_EID": "art_6",
+    "TARGET_SR": "SR 810.306",
+    "assigned_articles": [
+      "Art. 6 Abs. 2 Bst. a",
+      "Art. 6a Abs. 1 Bst. a"
+    ],
+    "confidence": "high",
+    "reasoning": "Entspricht inhaltlich ITEM 3: «… nach Artikel 6 Absatz 2 Buchstabe a und Artikel 6a Absatz 1 Buchstabe a der Verordnung vom 1. Juli 2020 über klinische Versuche mit Medizinprodukten …»; diese Verordnung ist SR 810.306, somit gehören die Artikel dorthin."
+  },
+  {
+    "ITEM": 15,
+    "ARTICLE_EID": "art_6",
+    "TARGET_SR": "SR 810.301",
+    "assigned_articles": [
+      "Art. 7 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "«… nach Artikel 7 Absatz 1 der Humanforschungsverordnung vom 20. September 2013»; diese Verordnung ist SR 810.301 (vgl. ITEM 4), daher ist Art. 7 Abs. 1 SR 810.301 zuzuordnen."
+  },
+  {
+    "ITEM": 16,
+    "ARTICLE_EID": "art_6",
+    "TARGET_SR": "SR 810.30",
+    "assigned_articles": [
+      "Art. 32",
+      "Art. 33"
+    ],
+    "confidence": "high",
+    "reasoning": "«… nach den Artikeln 32 und 33 HFG …»; HFG ist in der Präambel als SR 810.30 definiert, somit gehören Art. 32 und 33 zu SR 810.30."
+  },
+  {
+    "ITEM": 17,
+    "ARTICLE_EID": "art_6",
+    "TARGET_SR": "SR 810.30",
+    "assigned_articles": [
+      "Art. 34"
+    ],
+    "confidence": "high",
+    "reasoning": "«… nach Artikel 34 HFG …»; HFG = SR 810.30, daher Art. 34 dieses Gesetzes."
+  },
+  {
+    "ITEM": 18,
+    "ARTICLE_EID": "art_6",
+    "TARGET_SR": "SR 810.30",
+    "assigned_articles": [
+      "Art. 37 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "«… nach Artikel 37 Absatz 2 HFG»; HFG = SR 810.30, somit Art. 37 Abs. 2 SR 810.30."
+  },
+  {
+    "ITEM": 19,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": "SR 810.30",
+    "assigned_articles": [
+      "Art. 32",
+      "Art. 33"
+    ],
+    "confidence": "high",
+    "reasoning": "«… nach den Artikeln 32 und 33 HFG …»; HFG = SR 810.30, daher Art. 32 und 33 dieses Gesetzes."
+  },
+  {
+    "ITEM": 20,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": "SR 810.30",
+    "assigned_articles": [
+      "Art. 48"
+    ],
+    "confidence": "high",
+    "reasoning": "«… nach Artikel 48 HFG.»; HFG = SR 810.30, somit Art. 48 SR 810.30."
+  },
+  {
+    "ITEM": 21,
+    "ARTICLE_EID": "art_9",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 10"
+    ],
+    "confidence": "high",
+    "reasoning": "«… meldet der Koordinationsstelle nach Artikel 10 die zuständige Ethikkommission.»; kein externes SR, daher interner Verweis auf Art. 10 derselben Verordnung."
+  },
+  {
+    "ITEM": 22,
+    "ARTICLE_EID": "art_10",
+    "TARGET_SR": "SR 810.30",
+    "assigned_articles": [
+      "Art. 55 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "«… nach Artikel 55 Absatz 1 HFG;»; HFG = SR 810.30, somit Art. 55 Abs. 1 dieses Gesetzes."
+  },
+  {
+    "ITEM": 23,
+    "ARTICLE_EID": "art_10",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 10a"
+    ],
+    "confidence": "high",
+    "reasoning": "«… die nach Artikel 10a an Dritte ausgelagerten Koordinationsaufgaben;»; kein SR genannt, daher interner Verweis auf Art. 10a derselben Verordnung."
+  },
+  {
+    "ITEM": 24,
+    "ARTICLE_EID": "art_10",
+    "TARGET_SR": "SR 810.30",
+    "assigned_articles": [
+      "Art. 55 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "«… nach Artikel 55 Absatz 2 HFG;»; HFG = SR 810.30, somit Art. 55 Abs. 2 dieses Gesetzes."
+  },
+  {
+    "ITEM": 25,
+    "ARTICLE_EID": "art_11",
+    "TARGET_SR": "SR 810.30",
+    "assigned_articles": [
+      "Art. 59 Abs. 1",
+      "Art. 59 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "«… nach Artikel 59 Absätze 1 und 2 HFG bekannt gibt …»; HFG = SR 810.30, daher Art. 59 Abs. 1 und 2 dieses Gesetzes."
+  },
+  {
+    "ITEM": 26,
+    "ARTICLE_EID": "art_11",
+    "TARGET_SR": "SR 810.30",
+    "assigned_articles": [
+      "Art. 59 Abs. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "«Sollen Daten in Anwendung von Artikel 59 Absatz 3 HFG veröffentlicht werden …»; HFG = SR 810.30, somit Art. 59 Abs. 3 SR 810.30."
+  },
+  {
+    "ITEM": 27,
+    "ARTICLE_EID": "art_11_a",
+    "TARGET_SR": "SR 810.305",
+    "assigned_articles": [
+      "Art. 67"
+    ],
+    "confidence": "high",
+    "reasoning": "«… nach Artikel 67 KlinV.»; KlinV ist die Verordnung über klinische Versuche SR 810.305 (vgl. Items 2 und 5), daher Art. 67 SR 810.305."
+  },
+  {
+    "ITEM": 28,
+    "ARTICLE_EID": "art_12",
+    "TARGET_SR": "SR 235.1",
+    "assigned_articles": [
+      "Art. 16 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "«… angemessenen Schutz nach Artikel 16 Absatz 1 des Datenschutzgesetzes … (DSG)»; DSG = SR 235.1, somit Art. 16 Abs. 1 SR 235.1."
+  },
+  {
+    "ITEM": 29,
+    "ARTICLE_EID": "art_12",
+    "TARGET_SR": "SR 235.1",
+    "assigned_articles": [
+      "Art. 16 Abs. 1",
+      "Art. 16 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "«Abweichend von Artikel 16 Absätze 1 und 2 DSG …»; DSG = SR 235.1, daher Art. 16 Abs. 1 und 2 dieses Gesetzes."
+  },
+  {
+    "ITEM": 30,
+    "ARTICLE_EID": "art_12",
+    "TARGET_SR": "SR 235.1",
+    "assigned_articles": [
+      "Art. 16 Abs. 2",
+      "Art. 17"
+    ],
+    "confidence": "high",
+    "reasoning": "«… die Garantien nach Artikel 16 Absatz 2 DSG oder die Anwendung einer Ausnahme nach Artikel 17 DSG …»; DSG = SR 235.1, somit Art. 16 Abs. 2 und Art. 17 SR 235.1."
+  }
+]

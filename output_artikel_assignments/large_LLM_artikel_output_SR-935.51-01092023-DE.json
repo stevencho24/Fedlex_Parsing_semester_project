@@ -1,0 +1,394 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 101",
+    "assigned_articles": ["Art. 106"],
+    "confidence": "high",
+    "reasoning": "Snippet explicitly cites 'Artikel 106 der Bundesverfassung SR 101'; direct syntactic link between article number and SR 101."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 956.1",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "high",
+    "reasoning": "Reference is to the Finanzmarktaufsichtsgesetz SR 956.1 as a whole; no specific article mentioned."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 241",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "high",
+    "reasoning": "Refers generally to the Bundesgesetz gegen den unlauteren Wettbewerb SR 241 without any article indication."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_48",
+    "TARGET_SR": "SR 220",
+    "assigned_articles": ["General reference - entire document (insbesondere 32. Titel)"],
+    "confidence": "high",
+    "reasoning": "Cites 'die Vorschriften des zweiunddreissigsten Titels des Obligationenrechts SR 220 (OR)'; this is a title-level reference, not to specific articles."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_49",
+    "TARGET_SR": "SR 220",
+    "assigned_articles": ["Art. 727"],
+    "confidence": "high",
+    "reasoning": "Snippet states 'Grenzwerte nach Artikel 727 OR SR 220'; clear direct marking of article 727 of OR."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_67",
+    "TARGET_SR": "SR 955.0",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "high",
+    "reasoning": "States that entities 'unterstehen dem Geldwäschereigesetz ... SR 955.0 (GwG)'; no specific article is singled out."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_68",
+    "TARGET_SR": "SR 955.0",
+    "assigned_articles": ["Art. 3 Abs. 1"],
+    "confidence": "high",
+    "reasoning": "Phrase 'nach Artikel 3 Absatz 1 GwG SR 955.0' directly links article and SR; clear prepositional attribution."
+  },
+  {
+    "ITEM": 8,
+    "ARTICLE_EID": "art_88",
+    "TARGET_SR": "SR 784.10",
+    "assigned_articles": ["Art. 4"],
+    "confidence": "high",
+    "reasoning": "Snippet: 'im Sinne von Artikel 4 des Fernmeldegesetzes ... SR 784.10'; explicit article number tied to that SR."
+  },
+  {
+    "ITEM": 9,
+    "ARTICLE_EID": "art_102",
+    "TARGET_SR": "SR 311.0",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "high",
+    "reasoning": "Refers to 'Verbrechen und Vergehen nach dem Strafgesetzbuch SR 311.0 (StGB)' without specifying articles; broad reference to the code."
+  },
+  {
+    "ITEM": 10,
+    "ARTICLE_EID": "art_111",
+    "TARGET_SR": "SR 311.0",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "high",
+    "reasoning": "Mentions 'nach dem StGB SR 311.0' generically; no article or range indicated."
+  },
+  {
+    "ITEM": 11,
+    "ARTICLE_EID": "art_115",
+    "TARGET_SR": "SR 172.021",
+    "assigned_articles": ["Art. 5", "Art. 44"],
+    "confidence": "high",
+    "reasoning": "Text: 'Verfügungen im Sinne der Artikel 5 und 44 des Verwaltungsverfahrensgesetzes ... SR 172.021'; both articles are explicitly linked to that SR."
+  },
+  {
+    "ITEM": 12,
+    "ARTICLE_EID": "art_131",
+    "TARGET_SR": "SR 955.0",
+    "assigned_articles": ["General reference - entire document (insbesondere 2. Kapitel)"],
+    "confidence": "medium",
+    "reasoning": "Refers to 'im 2. Kapitel des GwG SR 955.0'; chapter-level reference without specific article numbers."
+  },
+  {
+    "ITEM": 13,
+    "ARTICLE_EID": "art_133",
+    "TARGET_SR": "SR 313.0",
+    "assigned_articles": ["Art. 6"],
+    "confidence": "high",
+    "reasoning": "Snippet: 'nach Artikel 6 des Bundesgesetzes ... SR 313.0 über das Verwaltungsstrafrecht'; direct marking of Art. 6 VStrR."
+  },
+  {
+    "ITEM": 14,
+    "ARTICLE_EID": "art_134",
+    "TARGET_SR": "SR 313.0",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "high",
+    "reasoning": "States 'ist das VStrR SR 313.0 anwendbar' without article specification; applies the act as a whole."
+  },
+  {
+    "ITEM": 15,
+    "ARTICLE_EID": "art_9",
+    "TARGET_SR": "SR 935.51",
+    "assigned_articles": ["Art. 8 Abs. 1 Bst. a Ziff. 1–4", "Art. 8 Abs. 1 Bst. b–d"],
+    "confidence": "high",
+    "reasoning": "Internal reference: 'Voraussetzungen nach Artikel 8 Absatz 1 Buchstaben a Ziffern 1–4 und b–d'; clearly self-referential within SR 935.51."
+  },
+  {
+    "ITEM": 16,
+    "ARTICLE_EID": "art_18",
+    "TARGET_SR": "SR 935.51",
+    "assigned_articles": ["Art. 17"],
+    "confidence": "high",
+    "reasoning": "Internal cross-reference 'Anforderungen nach Artikel 17'; no external SR mentioned, so it refers to Art. 17 of the same act."
+  },
+  {
+    "ITEM": 17,
+    "ARTICLE_EID": "art_20",
+    "TARGET_SR": "SR 935.51",
+    "assigned_articles": ["Art. 105", "Art. 113"],
+    "confidence": "high",
+    "reasoning": "Mentions '(Art. 105)' and '(Art. 113)' without other SR context; these are internal articles of SR 935.51."
+  },
+  {
+    "ITEM": 18,
+    "ARTICLE_EID": "art_34",
+    "TARGET_SR": "SR 935.51",
+    "assigned_articles": ["Art. 129"],
+    "confidence": "high",
+    "reasoning": "Phrase 'Vorbehalten ist eine Verwendung nach Artikel 129' is an internal reference; no external law cited."
+  },
+  {
+    "ITEM": 19,
+    "ARTICLE_EID": "art_34",
+    "TARGET_SR": "SR 935.51",
+    "assigned_articles": ["Art. 33 Abs. 1 Bst. b"],
+    "confidence": "high",
+    "reasoning": "Refers to 'Artikel 33 Absatz 1 Buchstabe b'; internal structure of the same statute."
+  },
+  {
+    "ITEM": 20,
+    "ARTICLE_EID": "art_35",
+    "TARGET_SR": "SR 935.51",
+    "assigned_articles": ["Art. 129"],
+    "confidence": "high",
+    "reasoning": "Same wording as Item 18: 'Verwendung nach Artikel 129'; internal reference within SR 935.51."
+  },
+  {
+    "ITEM": 21,
+    "ARTICLE_EID": "art_38",
+    "TARGET_SR": "SR 935.51",
+    "assigned_articles": ["Art. 48", "Art. 49 Abs. 3", "Art. 49 Abs. 4"],
+    "confidence": "high",
+    "reasoning": "Internal reference 'nach den Artikeln 48 und 49 Absätze 3 und 4'; no external SR, so these are articles of SR 935.51."
+  },
+  {
+    "ITEM": 22,
+    "ARTICLE_EID": "art_39",
+    "TARGET_SR": "SR 935.51",
+    "assigned_articles": ["Art. 29", "Art. 30", "Art. 31"],
+    "confidence": "high",
+    "reasoning": "Range 'gelten die Artikel 29–31 sinngemäss' is clearly internal; interpreted as Arts. 29, 30, 31 of the same act."
+  },
+  {
+    "ITEM": 23,
+    "ARTICLE_EID": "art_41",
+    "TARGET_SR": "SR 935.51",
+    "assigned_articles": [
+      "Art. 32",
+      "Art. 33",
+      "Art. 34 Abs. 3",
+      "Art. 34 Abs. 4",
+      "Art. 34 Abs. 5",
+      "Art. 34 Abs. 6",
+      "Art. 34 Abs. 7",
+      "Art. 37",
+      "Art. 38",
+      "Art. 39",
+      "Art. 40"
+    ],
+    "confidence": "medium",
+    "reasoning": "Lists 'Die Artikel 32, 33, 34 Absätze 3–7 sowie die Artikel 37–40 gelten nicht ...'; internal references; range 34 Abs. 3–7 expanded and 37–40 expanded."
+  },
+  {
+    "ITEM": 24,
+    "ARTICLE_EID": "art_48",
+    "TARGET_SR": "SR 220",
+    "assigned_articles": ["Art. 962a"],
+    "confidence": "high",
+    "reasoning": "Refers to 'Rechnungslegungsstandards nach Artikel 962a OR'; OR is SR 220, so this is Art. 962a SR 220."
+  },
+  {
+    "ITEM": 25,
+    "ARTICLE_EID": "art_62",
+    "TARGET_SR": "SR 935.51",
+    "assigned_articles": ["Art. 78", "Art. 80"],
+    "confidence": "high",
+    "reasoning": "Internal reference 'Massnahmen nach den Artikeln 78 und 80'; no external SR context."
+  },
+  {
+    "ITEM": 26,
+    "ARTICLE_EID": "art_62",
+    "TARGET_SR": "SR 935.51",
+    "assigned_articles": ["Art. 78", "Art. 80"],
+    "confidence": "high",
+    "reasoning": "Again 'Massnahmen nach den Artikeln 78 und 80'; same internal articles as in Item 25."
+  },
+  {
+    "ITEM": 27,
+    "ARTICLE_EID": "art_65",
+    "TARGET_SR": "SR 935.51",
+    "assigned_articles": ["Art. 64 Abs. 2"],
+    "confidence": "high",
+    "reasoning": "Mentions 'Organisationen nach Artikel 64 Absatz 2'; internal cross-reference."
+  },
+  {
+    "ITEM": 28,
+    "ARTICLE_EID": "art_67",
+    "TARGET_SR": "SR 955.0",
+    "assigned_articles": ["Art. 3", "Art. 4", "Art. 5", "Art. 6", "Art. 7"],
+    "confidence": "high",
+    "reasoning": "Phrase 'Sorgfaltspflichten nach den Artikeln 3–7 GwG'; GwG is SR 955.0; range 3–7 expanded."
+  },
+  {
+    "ITEM": 29,
+    "ARTICLE_EID": "art_68",
+    "TARGET_SR": "SR 955.0",
+    "assigned_articles": ["Art. 3 Abs. 1"],
+    "confidence": "high",
+    "reasoning": "Internal wording 'nach Artikel 3 Absatz 1 GwG'; GwG is SR 955.0; same article as in Item 7 but here without explicit SR in snippet."
+  },
+  {
+    "ITEM": 30,
+    "ARTICLE_EID": "art_88",
+    "TARGET_SR": "SR 784.10",
+    "assigned_articles": ["Art. 4"],
+    "confidence": "high",
+    "reasoning": "Refers to 'Artikel 4 des Fernmeldegesetzes vom 30. April 1997'; Fernmeldegesetz is SR 784.10; same linkage as in Item 8."
+  },
+  {
+    "ITEM": 31,
+    "ARTICLE_EID": "art_91",
+    "TARGET_SR": "SR 935.51",
+    "assigned_articles": ["Art. 86 Abs. 4", "Art. 89 Abs. 2"],
+    "confidence": "high",
+    "reasoning": "Internal reference 'nach den Artikeln 86 Absatz 4 und 89 Absatz 2'; no external SR mentioned."
+  },
+  {
+    "ITEM": 32,
+    "ARTICLE_EID": "art_93",
+    "TARGET_SR": "SR 935.51",
+    "assigned_articles": ["Art. 88 Abs. 3"],
+    "confidence": "high",
+    "reasoning": "Refers to 'Beschwerde ... nach Artikel 88 Absatz 3'; internal article of the same act."
+  },
+  {
+    "ITEM": 33,
+    "ARTICLE_EID": "art_98",
+    "TARGET_SR": "SR 935.51",
+    "assigned_articles": ["Art. 24"],
+    "confidence": "high",
+    "reasoning": "Mentions 'Verfügungen der interkantonalen Behörde nach Artikel 24'; internal cross-reference."
+  },
+  {
+    "ITEM": 34,
+    "ARTICLE_EID": "art_104",
+    "TARGET_SR": "SR 935.51",
+    "assigned_articles": ["Art. 130", "Art. 131", "Art. 132", "Art. 133"],
+    "confidence": "high",
+    "reasoning": "States 'Straftaten nach den Artikeln 130–133'; internal range expanded to 130–133."
+  },
+  {
+    "ITEM": 35,
+    "ARTICLE_EID": "art_108",
+    "TARGET_SR": "SR 935.51",
+    "assigned_articles": ["Art. 1 Abs. 2", "Art. 1 Abs. 3"],
+    "confidence": "medium",
+    "reasoning": "Refers to 'Bereichen nach Artikel 1 Absätze 2 und 3'; internal reference; specific letters within those paragraphs are not specified."
+  },
+  {
+    "ITEM": 36,
+    "ARTICLE_EID": "art_108",
+    "TARGET_SR": "SR 935.51",
+    "assigned_articles": ["Art. 16"],
+    "confidence": "high",
+    "reasoning": "Mentions 'Verfügungen der ESBK nach Artikel 16'; internal article."
+  },
+  {
+    "ITEM": 37,
+    "ARTICLE_EID": "art_115",
+    "TARGET_SR": "SR 172.021",
+    "assigned_articles": ["Art. 5", "Art. 44"],
+    "confidence": "high",
+    "reasoning": "Same wording as Item 11 but without explicit SR in snippet; context from Item 11 shows these are Art. 5 and 44 VwVG (SR 172.021)."
+  },
+  {
+    "ITEM": 38,
+    "ARTICLE_EID": "art_124",
+    "TARGET_SR": "SR 935.51",
+    "assigned_articles": ["Art. 132"],
+    "confidence": "high",
+    "reasoning": "Internal reference 'Strafverfolgung nach Artikel 132'; clearly within the same act."
+  },
+  {
+    "ITEM": 39,
+    "ARTICLE_EID": "art_128",
+    "TARGET_SR": "SR 935.51",
+    "assigned_articles": ["Art. 127"],
+    "confidence": "high",
+    "reasoning": "Refers to 'zuständigen Stellen nach Artikel 127'; internal cross-reference."
+  },
+  {
+    "ITEM": 40,
+    "ARTICLE_EID": "art_131",
+    "TARGET_SR": "SR 935.51",
+    "assigned_articles": ["Art. 130 Abs. 1 Bst. a"],
+    "confidence": "high",
+    "reasoning": "Phrase 'anderen Geldspiele als diejenigen nach Artikel 130 Absatz 1 Buchstabe a'; internal reference to a specific letter in Art. 130."
+  },
+  {
+    "ITEM": 41,
+    "ARTICLE_EID": "art_131",
+    "TARGET_SR": "SR 935.51",
+    "assigned_articles": ["Art. 72 Abs. 1", "Art. 72 Abs. 2", "Art. 80", "Art. 80 Abs. 3"],
+    "confidence": "high",
+    "reasoning": "Mentions 'gesetzliche Alter nach Artikel 72 Absätze 1 und 2' and 'gestützt auf Artikel 80' plus 'Schwellenwert im Sinne von Artikel 80 Absatz 3'; all internal."
+  },
+  {
+    "ITEM": 42,
+    "ARTICLE_EID": "art_133",
+    "TARGET_SR": "SR 313.0",
+    "assigned_articles": ["Art. 6"],
+    "confidence": "high",
+    "reasoning": "Same substantive sentence as Item 13 but without SR number; context shows 'Artikel 6 ... über das Verwaltungsstrafrecht (VStrR)' refers to Art. 6 SR 313.0."
+  },
+  {
+    "ITEM": 43,
+    "ARTICLE_EID": "art_133",
+    "TARGET_SR": "SR 313.0",
+    "assigned_articles": ["Art. 6", "Art. 7"],
+    "confidence": "high",
+    "reasoning": "Snippet: 'Die Artikel 6 und 7 VStrR gelten ...'; VStrR is SR 313.0; both articles explicitly cited."
+  },
+  {
+    "ITEM": 44,
+    "ARTICLE_EID": "art_142",
+    "TARGET_SR": "SR 935.51",
+    "assigned_articles": ["Art. 141"],
+    "confidence": "high",
+    "reasoning": "Internal reference 'Veranstalterbewilligung nach Artikel 141'; no external SR."
+  },
+  {
+    "ITEM": 45,
+    "ARTICLE_EID": "art_143",
+    "TARGET_SR": "SR 935.51",
+    "assigned_articles": ["Art. 141"],
+    "confidence": "high",
+    "reasoning": "Again 'Veranstalterbewilligung nach Artikel 141'; internal cross-reference."
+  },
+  {
+    "ITEM": 46,
+    "ARTICLE_EID": "art_143",
+    "TARGET_SR": "SR 935.51",
+    "assigned_articles": ["Art. 141 Abs. 1"],
+    "confidence": "high",
+    "reasoning": "Refers specifically to 'Zeitraum nach Artikel 141 Absatz 1'; internal article and paragraph."
+  },
+  {
+    "ITEM": 47,
+    "ARTICLE_EID": "art_146",
+    "TARGET_SR": "SR 935.51",
+    "assigned_articles": [
+      "Art. 1–85 (Inkrafttreten: 1. Januar 2019)",
+      "Art. 94–146 (Inkrafttreten: 1. Januar 2019)",
+      "Art. 86–93 (Inkrafttreten: 1. Juli 2019)"
+    ],
+    "confidence": "high",
+    "reasoning": "Provision sets entry-into-force dates for ranges 'Art. 1–85 und 94–146' and 'Art. 86–93'; all are internal articles of SR 935.51, grouped by effective date."
+  }
+]

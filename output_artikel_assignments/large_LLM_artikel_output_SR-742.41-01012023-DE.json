@@ -1,0 +1,201 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 101",
+    "assigned_articles": [
+      "Art. 81a",
+      "Art. 87",
+      "Art. 122 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Präambel nennt ausdrücklich: «gestützt auf die Artikel 81a, 87 und 122 Absatz 1 der Bundesverfassung SR 101»; diese Artikel gehören damit klar zur BV (SR 101)."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": "SR 700",
+    "assigned_articles": [
+      "Art. 13"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Satz steht: «ein Konzept nach Artikel 13 des Raumplanungsgesetzes ... SR 700»; Art. 13 ist direkt mit dem RPG (SR 700) verknüpft."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": "SR 742.101",
+    "assigned_articles": [
+      "Art. 62 Abs. 1 Bst. e"
+    ],
+    "confidence": "high",
+    "reasoning": "Formulierung: «nach Artikel 62 Absatz 1 Buchstabe e des Eisenbahngesetzes ... SR 742.101 (EBG)»; der genannte Artikel gehört eindeutig zum EBG (SR 742.101)."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": "SR 711",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "Es heisst nur «nach dem Bundesgesetz ... SR 711 über die Enteignung» ohne Artikelangabe; dies ist eine generelle Verweisung auf das Enteignungsgesetz als Ganzes."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_6",
+    "TARGET_SR": "SR 510.10",
+    "assigned_articles": [
+      "Art. 119"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Text lautet: «im Rahmen der nationalen Sicherheitskooperation nach Artikel 119 des Militärgesetzes ... SR 510.10»; Art. 119 ist klar dem MG (SR 510.10) zugeordnet."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": "SR 742.101",
+    "assigned_articles": [
+      "Art. 40b",
+      "Art. 40c",
+      "Art. 40d",
+      "Art. 40e",
+      "Art. 40f"
+    ],
+    "confidence": "high",
+    "reasoning": "Satz: «gelten die Artikel 40b–40f EBG SR 742.101»; die Spannweite 40b–40f bezieht sich ausdrücklich auf das EBG (SR 742.101)."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_11",
+    "TARGET_SR": "SR 742.101",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "medium",
+    "reasoning": "«richten sich nach dem EBG SR 742.101» ohne konkrete Artikel; dies ist eine generelle Unterstellung unter das EBG, ohne klar bestimmbare Einzelartikel."
+  },
+  {
+    "ITEM": 8,
+    "ARTICLE_EID": "art_13",
+    "TARGET_SR": "SR 742.101",
+    "assigned_articles": [
+      "Art. 18w"
+    ],
+    "confidence": "high",
+    "reasoning": "Es wird gefragt, ob «eine Betriebsbewilligung nach Artikel 18w EBG SR 742.101 erforderlich ist»; Art. 18w gehört damit eindeutig zum EBG (SR 742.101)."
+  },
+  {
+    "ITEM": 9,
+    "ARTICLE_EID": "art_23",
+    "TARGET_SR": "SR 742.101",
+    "assigned_articles": [
+      "Art. 40abis Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "Im snippet_acronym steht: «Über Streitigkeiten nach Artikel 40abis Absatz 1 EBG entscheidet ...»; dieser Artikel ist Teil des EBG (SR 742.101) und im selben Kontext wie die genannte Anwendung des EBG."
+  },
+  {
+    "ITEM": 10,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 13"
+    ],
+    "confidence": "high",
+    "reasoning": "Dies ist die gleiche Passage wie ITEM 2 ohne explizite SR-Angabe; sie verweist auf «Artikel 13 des Raumplanungsgesetzes». Da im Dokumentkontext RPG = SR 700 ist, handelt es sich um Art. 13 RPG; hier jedoch als reine Artikelreferenz ohne explizite SR-Zuordnung."
+  },
+  {
+    "ITEM": 11,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 62 Abs. 1 Bst. e"
+    ],
+    "confidence": "high",
+    "reasoning": "Entspricht inhaltlich ITEM 3: «nach Artikel 62 Absatz 1 Buchstabe e des Eisenbahngesetzes ... (EBG)»; reine Artikelreferenz innerhalb des Textes, ohne zusätzliche SR-Verknüpfung in diesem Item."
+  },
+  {
+    "ITEM": 12,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 62 Abs. 1 Bst. f"
+    ],
+    "confidence": "high",
+    "reasoning": "«der Freiverlade nach Artikel 62 Absatz 1 Buchstabe f EBG»; klarer Verweis auf Art. 62 Abs. 1 lit. f des EBG, hier als interne Artikelreferenz erfasst."
+  },
+  {
+    "ITEM": 13,
+    "ARTICLE_EID": "art_6",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 119"
+    ],
+    "confidence": "high",
+    "reasoning": "Gleicher Satz wie ITEM 5 ohne SR-Angabe: «nach Artikel 119 des Militärgesetzes ...»; verweist intern auf Art. 119 MG."
+  },
+  {
+    "ITEM": 14,
+    "ARTICLE_EID": "art_8",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "«insbesondere das Konzept nach Artikel 3»; im Kontext des gleichen Erlasses ist dies eine Selbstverweisung auf Art. 3 desselben Dokuments."
+  },
+  {
+    "ITEM": 15,
+    "ARTICLE_EID": "art_11",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "«im Konzept nach Artikel 3»; wiederum eine interne Verweisung auf Art. 3 der vorliegenden Verordnung."
+  },
+  {
+    "ITEM": 16,
+    "ARTICLE_EID": "art_23",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 15"
+    ],
+    "confidence": "high",
+    "reasoning": "«die Pflicht zur Anschlussgewährung (Art. 15)»; Klammerverweis auf Art. 15 desselben Erlasses."
+  },
+  {
+    "ITEM": 17,
+    "ARTICLE_EID": "art_23",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 8",
+      "Art. 9",
+      "Art. 10"
+    ],
+    "confidence": "high",
+    "reasoning": "«finanzielle Förderung nach den Artikeln 8–10»; Spannweite 8–10 als interne Artikel des gleichen Dokuments."
+  },
+  {
+    "ITEM": 18,
+    "ARTICLE_EID": "art_24",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 5 Abs. 1",
+      "Art. 6 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "«Ausführungsvorschrift zu Artikel 5 Absatz 1 oder Artikel 6 Absatz 2»; beide Artikel gehören zur vorliegenden Verordnung."
+  },
+  {
+    "ITEM": 19,
+    "ARTICLE_EID": "art_28",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 9"
+    ],
+    "confidence": "high",
+    "reasoning": "«Artikel 9 gilt bis ...»; eindeutige Selbstverweisung auf Art. 9 desselben Erlasses."
+  }
+]

@@ -1,0 +1,95 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 732.1",
+    "assigned_articles": [
+      "Art. 22 Abs. 2 lit. b",
+      "Art. 23 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Präambel nennt ausdrücklich: 'gestützt auf die Artikel 22 Absatz 2 Buchstabe b und 23 Absatz 2 des Kernenergiegesetzes ... SR 732.1'; beide Artikel gehören somit klar zu SR 732.1."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_15",
+    "TARGET_SR": "SR 412.10",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Snippet wird nur das Berufsbildungsgesetz (SR 412.10) als Ganzes erwähnt ('gemäss Berufsbildungsgesetz vom 13. Dezember 2002 SR 412.10'), ohne konkrete Artikelangabe; daher allgemeine Verweis auf das gesamte Gesetz."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_16",
+    "TARGET_SR": "SR 732.143.1",
+    "assigned_articles": [
+      "Art. 37"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Text lautet: 'Dokumentation nach Artikel 37 der Verordnung vom 9. Juni 2006 SR 732.143.1 ... (VAPK)'; Art. 37 ist grammatikalisch direkt dieser Verordnung zugeordnet."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_17",
+    "TARGET_SR": "SR 732.143.1",
+    "assigned_articles": [
+      "Art. 37"
+    ],
+    "confidence": "high",
+    "reasoning": "Auch hier: 'Dokumentation nach Artikel 37 VAPK SR 732.143.1'; die Abkürzung VAPK ist für diese Verordnung definiert, Art. 37 ist eindeutig dieser SR zugeordnet."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_18",
+    "TARGET_SR": "SR 235.1",
+    "assigned_articles": [
+      "Art. 5 lit. c"
+    ],
+    "confidence": "high",
+    "reasoning": "Das Snippet spricht von 'besonders schützenswerte Daten nach Artikel 5 Buchstaben c des Datenschutzgesetzes ... SR 235.1'; damit ist klar Art. 5 lit. c DSG (SR 235.1) gemeint."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_9",
+    "TARGET_SR": "SR 732.143.2",
+    "assigned_articles": [
+      "Art. 3 Abs. 1 lit. a–f, h"
+    ],
+    "confidence": "high",
+    "reasoning": "Es wird auf 'Massnahmen nach Artikel 3 Absatz 1 Buchstaben a–f und h' verwiesen, ohne externe SR-Nennung; dies ist eine innerverordnungsbezogene Selbstreferenz innerhalb SR 732.143.2."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_16",
+    "TARGET_SR": "SR 732.143.1",
+    "assigned_articles": [
+      "Art. 37"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Artikelverweis lautet 'nach Artikel 37 der Verordnung vom 9. Juni 2006 über die Anforderungen an das Personal von Kernanlagen (VAPK)'; VAPK ist SR 732.143.1, somit ist Art. 37 dieser Verordnung gemeint."
+  },
+  {
+    "ITEM": 8,
+    "ARTICLE_EID": "art_18",
+    "TARGET_SR": "SR 235.1",
+    "assigned_articles": [
+      "Art. 5 lit. c"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Satz nennt 'besonders schützenswerte Daten nach Artikel 5 Buchstaben c des Datenschutzgesetzes vom 25. September 2020'; dies ist derselbe Bezug wie in ITEM 5, also Art. 5 lit. c DSG (SR 235.1)."
+  },
+  {
+    "ITEM": 9,
+    "ARTICLE_EID": "art_20",
+    "TARGET_SR": "SR 732.143.2",
+    "assigned_articles": [
+      "Art. 15 Abs. 1 lit. a",
+      "Art. 15 Abs. 2 lit. a",
+      "Art. 15 Abs. 3 lit. a"
+    ],
+    "confidence": "high",
+    "reasoning": "Formulierung: 'ist Artikel 15 Absatz 1 Buchstabe a, 2 Buchstabe a und 3 Buchstabe a nicht anwendbar'; mangels externer SR ist dies eine Selbstreferenz auf Art. 15 derselben Verordnung (SR 732.143.2) mit den genannten Absätzen und Buchstaben."
+  }
+]

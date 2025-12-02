@@ -1,0 +1,52 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 173.71",
+    "assigned_articles": [
+      "Art. 27 Abs. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet explicitly cites 'Artikel 27 Absatz 3 des Strafbehördenorganisationsgesetzes ... SR 173.71 (StBOG)'; this is a direct, prepositionally linked article reference to SR 173.71."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_14",
+    "TARGET_SR": "SR 311.0",
+    "assigned_articles": [
+      "Art. 320 Ziff. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "The text states '(Art. 320 Ziff. 2 des Strafgesetzbuches SR 311.0)'; the article and number are directly marked as belonging to SR 311.0."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_15",
+    "TARGET_SR": "SR 172.121.2",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet refers generally to 'die Verordnung ... SR 172.121.2' without mentioning any specific article or paragraph; this is a document-level reference."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 173.71",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "The sentence contrasts this ordinance with what is 'durch das StBOG festgelegt'; 'StBOG' (SR 173.71) is cited only as the governing statute without any article indication, so it is a general reference."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_14",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "This artikel_reference repeats the same sentence as ITEM 2 but without the SR number; it is a self-reference within the current document’s text to 'Art. 320 Ziff. 2 des Strafgesetzbuches' and does not newly establish or modify any SR link assignment."
+  }
+]

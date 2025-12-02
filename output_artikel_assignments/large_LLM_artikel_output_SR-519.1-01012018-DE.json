@@ -1,0 +1,166 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 172.220.1",
+    "assigned_articles": [
+      "Art. 37 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet: 'gestützt auf Artikel 37 Absatz 1 des Bundespersonalgesetzes ... SR 172.220.1 (BPG)'; Art. 37 Abs. 1 is explicitly linked to BPG/SR 172.220.1."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 510.10",
+    "assigned_articles": [
+      "Art. 150 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet: '... und auf Artikel 150 Absatz 1 des Militärgesetzes ... SR 510.10 (MG)'; Art. 150 Abs. 1 is explicitly linked to MG/SR 510.10."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": "SR 172.220.111.3",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet states that, unless otherwise provided, the employment relationship is governed by the provisions of the Bundespersonalverordnung (BPV) SR 172.220.111.3 without specifying articles; this is a blanket reference to the whole ordinance."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": "SR 172.220.111.310.2",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "Similarly, the Verordnung des VBS über das militärische Personal SR 172.220.111.310.2 is cited as the governing regulation without article-level detail; this is a general reference."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_6",
+    "TARGET_SR": "SR 512.21",
+    "assigned_articles": [
+      "Art. 75"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet: 'richtet sich nach Artikel 75 der Verordnung vom 22. November 2017 SR 512.21 über die Militärdienstpflicht'; Art. 75 is explicitly tied to SR 512.21."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_12",
+    "TARGET_SR": "SR 172.220.141.1",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "The Vorsorgereglement SR 172.220.141.1 is referenced as the basis for insurance coverage 'nach den Bestimmungen des Vorsorgereglements' without article numbers; this is a general reference."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_13",
+    "TARGET_SR": "SR 833.1",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "The Bundesgesetz über die Militärversicherung SR 833.1 is cited generically ('nach dem Bundesgesetz ... SR 833.1') with no specific article; treat as a reference to the law as a whole."
+  },
+  {
+    "ITEM": 8,
+    "ARTICLE_EID": "art_16",
+    "TARGET_SR": "SR 172.220.111.3",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "medium",
+    "reasoning": "The phrase 'Zusätzlich zum Anspruch aus dem BPG und der BPV SR 172.220.111.3' refers to the entitlement arising from the BPV as a whole; no specific article is mentioned, so it is a general reference."
+  },
+  {
+    "ITEM": 9,
+    "ARTICLE_EID": "art_18",
+    "TARGET_SR": "SR 172.220.111.31",
+    "assigned_articles": [
+      "Art. 45",
+      "Art. 46",
+      "Art. 47 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet: 'Diese werden nach den Artikeln 45, 46 und 47 Absatz 1 der Verordnung ... SR 172.220.111.31 ... berechnet.' The articles 45, 46 and 47 Abs. 1 are explicitly linked to this SR."
+  },
+  {
+    "ITEM": 10,
+    "ARTICLE_EID": "art_22",
+    "TARGET_SR": "SR 321.0",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "medium",
+    "reasoning": "The Militärstrafgesetz SR 321.0 is cited generally for criminal responsibility without article numbers; context does not narrow it to specific provisions, so treat as a general reference."
+  },
+  {
+    "ITEM": 11,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 510.10",
+    "assigned_articles": [
+      "Art. 69 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet: '... nach Artikel 69 Absatz 2 MG eingesetzt wird;' and MG is defined in the preamble as SR 510.10; thus Art. 69 Abs. 2 belongs to SR 510.10."
+  },
+  {
+    "ITEM": 12,
+    "ARTICLE_EID": "art_16",
+    "TARGET_SR": "SR 172.220.1",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "medium",
+    "reasoning": "The phrase 'Anspruch aus dem BPG' uses the acronym BPG (SR 172.220.1) without specifying an article; it refers to the entitlement under the BPG generally, so no single article can be isolated."
+  },
+  {
+    "ITEM": 13,
+    "ARTICLE_EID": "art_22",
+    "TARGET_SR": "SR 510.10",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "medium",
+    "reasoning": "Snippet: '... richten sich ... nach dem MG und dem Militärstrafgesetz ...'; MG is SR 510.10, but no article is given and the reference is to the overall regime for liability and responsibility; treat as general."
+  },
+  {
+    "ITEM": 14,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "Artikel 69 Abs. 2 MG is already assigned to SR 510.10 via item 11; this artikel_reference line itself does not introduce a new SR link and functions as an internal cross-reference contextually tied to the same citation."
+  },
+  {
+    "ITEM": 15,
+    "ARTICLE_EID": "art_6",
+    "TARGET_SR": "SR 512.21",
+    "assigned_articles": [
+      "Art. 75"
+    ],
+    "confidence": "high",
+    "reasoning": "Artikel 75 in this snippet is clearly the same citation as in item 5, where it is explicitly linked to SR 512.21; thus this artikel_reference refers to Art. 75 of SR 512.21."
+  },
+  {
+    "ITEM": 16,
+    "ARTICLE_EID": "art_18",
+    "TARGET_SR": "SR 172.220.111.31",
+    "assigned_articles": [
+      "Art. 45",
+      "Art. 46",
+      "Art. 47 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "The artikel_reference text mirrors item 9, where Articles 45, 46 and 47 Abs. 1 are explicitly tied to SR 172.220.111.31; this is the same external reference."
+  }
+]

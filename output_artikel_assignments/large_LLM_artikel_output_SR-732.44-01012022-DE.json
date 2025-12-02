@@ -1,0 +1,326 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 101",
+    "assigned_articles": [
+      "Art. 90"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet explicitly cites 'Artikel 90 der Bundesverfassung SR 101'; no other BV provisions mentioned."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 0.732.44",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "The Pariser Übereinkommen (SR 0.732.44) is cited as a whole 'in Ausführung des Übereinkommens ... SR 0.732.44'; no specific articles indicated."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 0.732.440",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "The Brüsseler Zusatzübereinkommen (SR 0.732.440) is referenced generically as a basis for the law; no article-level citation appears."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 0.732.441",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "The Gemeinsame Protokoll (SR 0.732.441) is cited in full 'SR 0.732.441 ... (Gemeinsames Protokoll)'; no specific article is mentioned."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 291",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet refers to 'Bundesgesetz ... über das Internationale Privatrecht' (SR 291) with no article numbers; it reserves any 'abweichende Bestimmungen' generally."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 220",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "Article 1 states that, subsidiarily, 'die Vorschriften des Obligationenrechts SR 220' apply; this is a blanket reference to the OR, not to specific provisions."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": "SR 220",
+    "assigned_articles": [
+      "Art. 41 ff.",
+      "Art. 44 Abs. 1"
+    ],
+    "confidence": "medium",
+    "reasoning": "The text specifies that damage and satisfaction are governed by 'die Bestimmungen des Obligationenrechts ... über unerlaubte Handlungen' and explicitly excludes 'Artikel 44 Absatz 2 des Obligationenrechts'. Unerlaubte Handlungen correspond to Art. 41 ff. OR; Art. 44 Abs. 2 OR is mentioned as inapplicable, so the relevant OR basis is Art. 41 ff. and Art. 44 Abs. 1."
+  },
+  {
+    "ITEM": 8,
+    "ARTICLE_EID": "art_30",
+    "TARGET_SR": "SR 313.0",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "The Verwaltungsstrafrecht (SR 313.0) is cited as the procedural framework for prosecuting offences; no particular article is singled out."
+  },
+  {
+    "ITEM": 9,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 1-15 (Pariser Übereinkommen)"
+    ],
+    "confidence": "high",
+    "reasoning": "Self-reference type: '(Art. 1–15)' clearly refers to Articles 1–15 of the Pariser Übereinkommen, not to the present SR 732.44; no SR link is present in this snippet."
+  },
+  {
+    "ITEM": 10,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 1 Abs. (a) (Pariser Übereinkommen)"
+    ],
+    "confidence": "high",
+    "reasoning": "The phrase 'Artikel 1 Absatz (a) des Pariser Übereinkommens' is an external reference to that convention, not to the current act; no TARGET_SR is given, so this remains an external, non-assigned self-reference context."
+  },
+  {
+    "ITEM": 11,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 1 Abs. (a) Ziff. (ix) (Pariser Übereinkommen)"
+    ],
+    "confidence": "high",
+    "reasoning": "The citation '(Art. 1 Abs. (a) Ziff. (ix) des Pariser Übereinkommens)' clearly points to that convention; there is no SR context in this item, so it is treated as an external self-reference."
+  },
+  {
+    "ITEM": 12,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 44 Abs. 2 OR (SR 220)"
+    ],
+    "confidence": "high",
+    "reasoning": "This artikel_reference repeats that 'Artikel 44 Absatz 2 des Obligationenrechts' is not applicable. It is a cross-reference to OR, not to another SR link in this document; no TARGET_SR is attached to this item."
+  },
+  {
+    "ITEM": 13,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 5 (Brüsseler Zusatzübereinkommen)",
+      "Art. 6 Abs. (f) Ziff. (ii) (Pariser Übereinkommen)"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet explicitly mentions 'Artikel 5 des Brüsseler Zusatzübereinkommens' and 'Artikel 6 Absatz (f) Ziffer (ii) des Pariser Übereinkommens'; both are external convention provisions, not internal articles of SR 732.44."
+  },
+  {
+    "ITEM": 14,
+    "ARTICLE_EID": "art_8",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 3 Abs. (b) Ziff. (i)-(ii) (Brüsseler Zusatzübereinkommen)"
+    ],
+    "confidence": "high",
+    "reasoning": "The reference is to 'Artikel 3 Absatz (b) Ziffer (i) und (ii) des Brüsseler Zusatzübereinkommens'; this is an external treaty reference without a TARGET_SR in this item."
+  },
+  {
+    "ITEM": 15,
+    "ARTICLE_EID": "art_8",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 7 Abs. (b) (Pariser Übereinkommen)"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet cites 'Artikel 7 Absatz (b) des Pariser Übereinkommens'; again an external convention article, not tied to a TARGET_SR here."
+  },
+  {
+    "ITEM": 16,
+    "ARTICLE_EID": "art_8",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 7 Abs. (c) (Pariser Übereinkommen)"
+    ],
+    "confidence": "high",
+    "reasoning": "The parenthetical '(Art. 7 Abs. (c) Pariser Übereinkommen)' is a direct reference to that convention; no internal SR link is involved."
+  },
+  {
+    "ITEM": 17,
+    "ARTICLE_EID": "art_9",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 8 (dieses Gesetzes)"
+    ],
+    "confidence": "high",
+    "reasoning": "References to 'Artikel 8 Absatz 2' and 'Artikel 8 Absatz 3' clearly concern Article 8 of the present act (SR 732.44); this is an internal self-reference within the same document."
+  },
+  {
+    "ITEM": 18,
+    "ARTICLE_EID": "art_10",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 8 (dieses Gesetzes)"
+    ],
+    "confidence": "high",
+    "reasoning": "The phrase 'bis zu den in Artikel 8 genannten Beträgen' refers to Article 8 of the same statute; no external SR is mentioned."
+  },
+  {
+    "ITEM": 19,
+    "ARTICLE_EID": "art_10",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 8 (dieses Gesetzes)",
+      "Art. 9 Abs. 3 (dieses Gesetzes)"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet mentions 'Artikel 8' and '(Art. 9 Abs. 3)'; both are clearly internal articles of SR 732.44, functioning as self-references."
+  },
+  {
+    "ITEM": 20,
+    "ARTICLE_EID": "art_11",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 8 (dieses Gesetzes)",
+      "Art. 5 Abs. 1 (dieses Gesetzes)"
+    ],
+    "confidence": "high",
+    "reasoning": "References to 'Artikel 8' and 'Artikel 5 Absatz 1' are to provisions of the same act; no external SR context is present."
+  },
+  {
+    "ITEM": 21,
+    "ARTICLE_EID": "art_12",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 10 (dieses Gesetzes)",
+      "Art. 11 (dieses Gesetzes)"
+    ],
+    "confidence": "high",
+    "reasoning": "The phrase 'aus den Artikeln 10 und 11' clearly refers to internal articles of SR 732.44; this is a pure self-reference."
+  },
+  {
+    "ITEM": 22,
+    "ARTICLE_EID": "art_13",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 12 (dieses Gesetzes)",
+      "Art. 15 Abs. 1 (dieses Gesetzes)"
+    ],
+    "confidence": "high",
+    "reasoning": "References to 'Artikel 12' and 'Artikel 15 Absatz 1' are internal to the same law; no external SR is cited."
+  },
+  {
+    "ITEM": 23,
+    "ARTICLE_EID": "art_13",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 10 (dieses Gesetzes)",
+      "Art. 11 (dieses Gesetzes)",
+      "Art. 3 Abs. (b) Ziff. (iii) (Brüsseler Zusatzübereinkommen)"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet mentions internal Articles 10 and 11 of this act and additionally 'Artikel 3 Absatz (b) Ziffer (iii) des Brüsseler Zusatzübereinkommens', which is an external treaty provision."
+  },
+  {
+    "ITEM": 24,
+    "ARTICLE_EID": "art_14",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 8 (dieses Gesetzes)"
+    ],
+    "confidence": "high",
+    "reasoning": "The phrase 'bis zu den in Artikel 8 genannten Beträgen' is an internal reference to Article 8 of SR 732.44."
+  },
+  {
+    "ITEM": 25,
+    "ARTICLE_EID": "art_15",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 3 Abs. (b) Ziff. (ii) (Brüsseler Zusatzübereinkommen)",
+      "Art. 3 Abs. (b) Ziff. (iii) (Brüsseler Zusatzübereinkommen)"
+    ],
+    "confidence": "high",
+    "reasoning": "Both cited provisions ('Artikel 3 Absatz (b) Ziffer (ii)' and '(iii) des Brüsseler Zusatzübereinkommens') are external treaty articles."
+  },
+  {
+    "ITEM": 26,
+    "ARTICLE_EID": "art_15",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 10 Abs. (c) (Brüsseler Zusatzübereinkommen)"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet refers to 'das Rückgriffsrecht nach Artikel 10 Absatz (c) dieses Übereinkommens', clearly meaning the Brüsseler Zusatzübereinkommen."
+  },
+  {
+    "ITEM": 27,
+    "ARTICLE_EID": "art_25",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 8 (dieses Gesetzes)",
+      "Art. 15 (dieses Gesetzes)"
+    ],
+    "confidence": "high",
+    "reasoning": "The phrase 'in den Artikeln 8 und 15 genannten Deckungssummen' refers to internal Articles 8 and 15 of SR 732.44; the rest of the sentence mentions general principles of the Pariser and Brüsseler Übereinkommen without specific article numbers."
+  },
+  {
+    "ITEM": 28,
+    "ARTICLE_EID": "art_27",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 3 Abs. (b) Ziff. (iii) (Brüsseler Zusatzübereinkommen)"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet cites 'Artikel 3 Absatz (b) Ziffer (iii) des Brüsseler Zusatzübereinkommens'; this is an external treaty article."
+  },
+  {
+    "ITEM": 29,
+    "ARTICLE_EID": "art_27",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 7 Abs. (a) (Pariser Übereinkommen)",
+      "Art. 7 Abs. (b)-(e) (Pariser Übereinkommen)",
+      "Art. 2 Abs. (a) Ziff. (iv) (Pariser Übereinkommen)",
+      "Art. 7 Abs. (g) (Pariser Übereinkommen)"
+    ],
+    "confidence": "medium",
+    "reasoning": "The text refers to 'Artikel 7 Absatz (a) des Pariser Übereinkommens', 'Artikel 7 Absatz (b) bis (e) dieses Übereinkommens', and 'Artikel 2 Absatz (a) Ziffer (iv) und 7 Absatz (g) des Pariser Übereinkommens'; all are external convention provisions."
+  },
+  {
+    "ITEM": 30,
+    "ARTICLE_EID": "art_30",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 28 (dieses Gesetzes)",
+      "Art. 29 (dieses Gesetzes)"
+    ],
+    "confidence": "high",
+    "reasoning": "The phrase 'Widerhandlungen nach Artikel 28 und 29' clearly refers to internal Articles 28 and 29 of SR 732.44; the subsequent reference to the Verwaltungsstrafrecht is handled in ITEM 8."
+  },
+  {
+    "ITEM": 31,
+    "ARTICLE_EID": "art_31",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 1 Abs. (a) Ziff. (viii) (Pariser Übereinkommen)"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet cites 'Artikel 1 Absatz (a) Ziffer (viii) des Pariser Übereinkommens'; this is an external convention article, not an internal self-reference."
+  }
+]

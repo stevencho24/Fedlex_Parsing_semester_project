@@ -1,0 +1,85 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 101",
+    "assigned_articles": [
+      "Art. 164 Abs. 1 Bst. g"
+    ],
+    "confidence": "high",
+    "reasoning": "Im authorialNote-Teil steht ausdrücklich: «Art. 164 Abs. 1 Bst. g der Bundesverfassung ... (SR 101)». Dieser Artikel ist direkt mit SR 101 verknüpft; andere im Satz genannte Artikel (79, 83) beziehen sich auf die alte Bundesverfassung (BS 1 3) und nicht auf SR 101."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": "SR 822.11",
+    "assigned_articles": [
+      "Art. 35a"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Satzteil «Artikel 35a des Arbeitsgesetzes vom 13. März 1964 SR 822.11» verknüpft Art. 35a syntaktisch direkt mit dem Arbeitsgesetz (SR 822.11)."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": "SR 834.1",
+    "assigned_articles": [
+      "Art. 16c",
+      "Art. 16d",
+      "Art. 16j",
+      "Art. 16k"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Satz «sowie die Artikel 16c, 16d, 16j und 16k des Erwerbsersatzgesetzes vom 25. September 1952 SR 834.1» werden diese Artikel unmittelbar dem Erwerbsersatzgesetz (SR 834.1) zugeordnet."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_6_a",
+    "TARGET_SR": "SR 172.220.1",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "medium",
+    "reasoning": "Formulierung «gemäss Bundespersonalgesetz vom 24. März 2000 SR 172.220.1» verweist allgemein auf das Bundespersonalgesetz, ohne bestimmte Artikel zu nennen; daher als Gesamtverweis zu behandeln."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_6_a",
+    "TARGET_SR": "SR 836.2",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "medium",
+    "reasoning": "«eine Anschlussvereinbarung gemäss Familienzulagengesetz vom 24. März 2006 SR 836.2» enthält keinen artikelspezifischen Hinweis; es handelt sich um einen generellen Verweis auf das Familienzulagengesetz."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": "SR 831.40",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "medium",
+    "reasoning": "Die Passage «im Sinne des Bundesgesetzes vom 25. Juni 1982 SR 831.40 über die berufliche Alters-, Hinterlassenen- und Invalidenvorsorge» definiert lediglich den Begriff der Vorsorgeeinrichtung nach diesem Gesetz, ohne konkrete Artikel zu zitieren."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_8",
+    "TARGET_SR": "SR 171.211",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "medium",
+    "reasoning": "«Die Verordnung ... SR 171.211 ... regelt die Einzelheiten» verweist pauschal auf die gesamte Verordnung zum Parlamentsressourcengesetz, ohne einzelne Artikel zu spezifizieren."
+  },
+  {
+    "ITEM": 8,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Ausschnitt wiederholt nur die bereits in den Items 2 und 3 ausgewerteten Artikelzitate, enthält aber keinen neuen SR-Verweis; es handelt sich um eine allgemeine Artikelreferenz im Kontext des eigenen Dokuments, nicht um einen eigenständigen SR-Link."
+  }
+]

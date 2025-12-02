@@ -1,0 +1,121 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 235.2",
+    "assigned_articles": [
+      "Art. 29"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Formulierung «gestützt auf Artikel 29 des Bundesgesetzes vom 18. Dezember 2020 SR 235.2 …» verknüpft eindeutig Art. 29 mit SR 235.2."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 172.220.1",
+    "assigned_articles": [
+      "Art. 27 Abs. 5"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Passage «… und auf Artikel 27 Absatz 5 des Bundespersonalgesetzes vom 24. März 2000 SR 172.220.1» ordnet Art. 27 Abs. 5 klar dem Bundespersonalgesetz (SR 172.220.1) zu."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": "SR 172.220.111.343.3",
+    "assigned_articles": [
+      "Art. 3 lit. a"
+    ],
+    "confidence": "high",
+    "reasoning": "«… nach Artikel 3 Buchstabe a der Verordnung … SR 172.220.111.343.3» verweist explizit auf Art. 3 lit. a dieser Verordnung."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_9",
+    "TARGET_SR": "SR 172.220.111.343.3",
+    "assigned_articles": [
+      "Art. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "«… in den Karrieren nach Artikel 2 VBPV-EDA SR 172.220.111.343.3» ist ein klarer Verweis auf Art. 2 der VBPV-EDA."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_10",
+    "TARGET_SR": "SR 172.220.111.343.3",
+    "assigned_articles": [
+      "Art. 3 lit. a"
+    ],
+    "confidence": "high",
+    "reasoning": "«… nach Artikel 3 Buchstabe a VBPV-EDA SR 172.220.111.343.3» verweist eindeutig auf Art. 3 lit. a der VBPV-EDA."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "«… nach Artikel 3 Buchstabe a der Verordnung des EDA … (VBPV-EDA);» ist ein Verweis auf Art. 3 lit. a der VBPV-EDA, der bereits in ITEM 3 mit derselben Formulierung und explizitem SR-Link SR 172.220.111.343.3 erfasst wurde. Hier liegt kein neuer SR-Link vor; es handelt sich um denselben externen Verweis, daher keine zusätzliche SR-Zuordnung."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": "SR 172.220.111.343.3",
+    "assigned_articles": [
+      "Art. 3 lit. b"
+    ],
+    "confidence": "high",
+    "reasoning": "«… nach Artikel 3 Buchstabe b VBPV-EDA;» bezieht sich syntaktisch auf die VBPV-EDA, deren SR-Nummer (SR 172.220.111.343.3) im selben Kontext (Art. 4) bereits mit Art. 3 lit. a verknüpft ist. Daher ist Art. 3 lit. b derselben Verordnung zuzuordnen."
+  },
+  {
+    "ITEM": 8,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": "SR 172.220.111.343.3",
+    "assigned_articles": [
+      "Art. 3 lit. d",
+      "Art. 3 lit. e"
+    ],
+    "confidence": "high",
+    "reasoning": "«… nach Artikel 3 Buchstaben d und e VBPV-EDA …» verweist klar auf Art. 3 lit. d und e der VBPV-EDA; diese Verordnung ist im selben Artikelkontext bereits als SR 172.220.111.343.3 identifiziert."
+  },
+  {
+    "ITEM": 9,
+    "ARTICLE_EID": "art_6",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "«… für Daten nach Artikel 5 Absatz 1 Buchstabe c …» ist ein rein interner Verweis innerhalb derselben Verordnung (Art. 5 Abs. 1 lit. c). Es wird kein externes SR-Dokument genannt; daher Selbstreferenz ohne SR-Zuordnung."
+  },
+  {
+    "ITEM": 10,
+    "ARTICLE_EID": "art_8",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "«… nach dem Zeitpunkt … nicht mehr unter die Personenkategorien nach Artikel 4 Absatz 1 fallen.» verweist auf Art. 4 Abs. 1 derselben Verordnung. Kein externes SR wird genannt; daher Selbstreferenz."
+  },
+  {
+    "ITEM": 11,
+    "ARTICLE_EID": "art_12",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "«… für alle Daten nach Artikel 11 …» ist ein interner Verweis auf Art. 11 des gleichen Erlasses, ohne Bezug zu einem anderen SR-Dokument."
+  },
+  {
+    "ITEM": 12,
+    "ARTICLE_EID": "art_13",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "«… nicht mehr unter die Personenkategorie nach Artikel 10 Absatz 1 fallen.» verweist intern auf Art. 10 Abs. 1 derselben Verordnung; kein externer SR-Bezug."
+  },
+  {
+    "ITEM": 13,
+    "ARTICLE_EID": "art_17",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Die Verweise «… nach Artikel 16 Absatz 1 Buchstabe b …» und «… nach Artikel 16 Absatz 1 Buchstabe a …» betreffen Art. 16 Abs. 1 lit. a und b derselben Verordnung. Es wird kein anderes SR-Dokument genannt; daher reine Selbstreferenzen."
+  }
+]

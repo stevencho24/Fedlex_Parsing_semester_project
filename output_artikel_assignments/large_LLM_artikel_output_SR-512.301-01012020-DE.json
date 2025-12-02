@@ -1,0 +1,82 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 512.30",
+    "assigned_articles": [
+      "Art. 19"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Formulierung «gestützt auf Artikel 19 der Verordnung vom 26. November 2003 SR 512.30 … (VATV)» verweist eindeutig auf Art. 19 der VATV (SR 512.30). Artikel und SR stehen in derselben präpositionalen Konstruktion; damit ist Art. 19 klar diesem SR zugeordnet."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": "SR 512.311",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Satz «Für den Bezug von Leihwaffen gelten die Bestimmungen der Schiessverordnung des VBS … SR 512.311.» nennt keine bestimmten Artikel der Schiessverordnung. Es handelt sich um eine generelle Verweisung auf die gesamte Verordnung SR 512.311."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": "SR 512.30",
+    "assigned_articles": [
+      "Art. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Snippet steht «… nach Artikel 3 VATV.» Die Abkürzung VATV ist im Vorspann als SR 512.30 definiert. Die präpositionale Fügung «nach Artikel 3 VATV» verknüpft Art. 3 eindeutig mit SR 512.30."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": "SR 512.30",
+    "assigned_articles": [
+      "Art. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "Gleicher Satz wie bei ITEM 3; hier wird die gleiche Stelle über das Preambel-Akronym VATV erfasst. «Artikel 3 VATV» verweist klar auf Art. 3 der VATV (SR 512.30)."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": "SR 512.30",
+    "assigned_articles": [
+      "Art. 4"
+    ],
+    "confidence": "high",
+    "reasoning": "Das Snippet lautet «Die Ausbildungsmodule nach Artikel 4 VATV dauern maximal zwei Tage.» Die Wendung «Artikel 4 VATV» ist eine direkte Artikelangabe zur VATV (SR 512.30); damit ist Art. 4 eindeutig diesem SR zugeordnet."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": "SR 512.30",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Text «Für den Bezug von Leihwaffen gelten die Bestimmungen der Schiessverordnung des VBS vom 11. Dezember 2003.» enthält keine Artikelangabe und bezieht sich inhaltlich auf die Schiessverordnung (SR 512.311), nicht auf die VATV. Das Preambel-Akronym VBS (SR 512.30) steht hier nur als Behördenbezeichnung; es besteht kein syntaktischer Bezug zwischen einem Artikel und SR 512.30. Daher liegt für SR 512.30 nur eine unspezifische, faktisch nicht intendierte Verweisung vor, die als generelle Referenz ohne konkrete Artikel zu behandeln ist."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_11",
+    "TARGET_SR": "SR 512.30",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Satz «… sind dem Schadenzentrum VBS zu melden.» wird VBS lediglich als Bezeichnung des Departements/Schadenzentrums verwendet. Es gibt keine Artikelangabe und keinen grammatikalischen Bezug zu SR 512.30; somit liegt keine konkrete Artikelverweisung vor. Für SR 512.30 ist daher höchstens eine unspezifische, dokumentweite Referenz anzunehmen."
+  },
+  {
+    "ITEM": 8,
+    "ARTICLE_EID": "art_13",
+    "TARGET_SR": "SR 512.30",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Satz «Die Verordnung des VBS vom 4. Dezember 2003 über die ausserdienstliche Tätigkeit in den militärischen Gesellschaften und Dachverbänden wird aufgehoben.» nennt keine Artikel und verwendet «VBS» nur als Herausgeberbezeichnung. Es besteht kein syntaktischer Bezug zwischen einem Artikel und SR 512.30; daher ist keine spezifische Artikelzuordnung möglich und die Referenz bleibt allgemein auf das Dokument bezogen."
+  }
+]

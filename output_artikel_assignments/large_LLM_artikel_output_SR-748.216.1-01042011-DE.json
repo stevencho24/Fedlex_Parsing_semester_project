@@ -1,0 +1,71 @@
+[
+  {
+    "Item": 1,
+    "TARGET_SR": "SR 748.0",
+    "assigned_articles": [
+      "Art. 59 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Formulierung «gestützt auf Artikel 59 Absatz 2 des Luftfahrtgesetzes ... SR 748.0 (LFG)» verknüpft den genannten Artikel grammatikalisch eindeutig mit SR 748.0."
+  },
+  {
+    "Item": 2,
+    "TARGET_SR": "SR 748.01",
+    "assigned_articles": [
+      "Art. 12"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Passage «... und auf Artikel 12 der Luftfahrtverordnung vom 14. November 1973 SR 748.01» ordnet Art. 12 klar der Luftfahrtverordnung (SR 748.01) zu."
+  },
+  {
+    "Item": 3,
+    "TARGET_SR": "SR 748.215.1",
+    "assigned_articles": "General reference - entire document",
+    "confidence": "high",
+    "reasoning": "Der Hinweis «Siehe heute: die V vom 18. Sept. 1995 über die Lufttüchtigkeit von Luftfahrzeugen (SR 748.215.1).» nennt keine spezifischen Artikel dieser Verordnung, sondern verweist allgemein auf die heutige Fassung; daher allgemeine Dokumentverweisung."
+  },
+  {
+    "Item": 4,
+    "TARGET_SR": "SR 748.0",
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Es handelt sich um eine preamble_acronym-Verwendung von «BAZL» als Behörde; im Snippet werden keine Artikel des Luftfahrtgesetzes genannt oder syntaktisch mit SR 748.0 verknüpft."
+  },
+  {
+    "Item": 5,
+    "TARGET_SR": "SR 748.0",
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Das Snippet beschreibt Befugnisse des BAZL; es enthält keine Artikelangabe (Art./Artikel) zum Luftfahrtgesetz, daher keine Zuordnung zu bestimmten Artikeln von SR 748.0."
+  },
+  {
+    "Item": 6,
+    "TARGET_SR": "SR 748.0",
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Die Stelle erwähnt nur das BAZL ohne Artikelzitat; es liegt keine grammatikalische Verknüpfung zu bestimmten Artikeln von SR 748.0 vor."
+  },
+  {
+    "Item": 7,
+    "TARGET_SR": "SR 748.0",
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Auch hier wird lediglich das BAZL genannt; es gibt keine explizite oder implizite Artikelreferenz zum Luftfahrtgesetz."
+  },
+  {
+    "Item": 8,
+    "TARGET_SR": "SR 748.0",
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Die Formulierung «durch eine vom BAZL anerkannte Stelle» enthält keine Artikelnummern und keine syntaktische Kopplung an bestimmte Bestimmungen des Luftfahrtgesetzes."
+  },
+  {
+    "Item": 9,
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 7"
+    ],
+    "confidence": "high",
+    "reasoning": "artikel_reference ohne TARGET_SR: «gemäss Artikel 7 der Verordnung des EVED vom 8. Juli 1985 ...» ist eine Selbstreferenzstruktur; Art. 7 bezieht sich auf diese andere Verordnung, nicht auf ein im Datensatz genanntes SR-Ziel. Daher wird nur der erkannte Artikel als interner Verweis ausgegeben, ohne Zuordnung zu einem TARGET_SR."
+  }
+]

@@ -1,0 +1,52 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 101",
+    "assigned_articles": [
+      "Art. 76 Abs. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Formulierung «gestützt auf Artikel 76 Absatz 3 der Bundesverfassung SR 101» verknüpft den genannten Artikel syntaktisch eindeutig mit SR 101; damit ist klar, dass Art. 76 Abs. 3 der Bundesverfassung gemeint ist."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_16",
+    "TARGET_SR": "SR 220",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "medium",
+    "reasoning": "Der Satz verweist allgemein auf «die Bestimmungen des Obligationenrechts SR 220 über die unerlaubten Handlungen», ohne konkrete Artikelnummern zu nennen. Es handelt sich um eine generelle Verweisung auf den Deliktsrechtsteil des OR; mangels genauerer Angabe wird dies als allgemeine Dokumentverweisung behandelt."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_31",
+    "TARGET_SR": "SR 313.0",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "medium",
+    "reasoning": "«Das Bundesgesetz ... SR 313.0 über das Verwaltungsstrafrecht findet Anwendung» verweist pauschal auf das Verwaltungsstrafrecht, ohne einzelne Artikel zu spezifizieren; daher ist von einer generellen Verweisung auf das ganze Gesetz auszugehen."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«Die Aufsichtsbehörde des Bundes (Art. 22) kann» enthält nur eine Artikelnummer ohne SR- oder Gesetzesangabe; im Kontext handelt es sich um einen Querverweis auf Art. 22 desselben Gesetzes (Selbstverweisung), nicht auf ein externes SR-Dokument."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_24",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Wendung «von den Artikeln 22 und 23 abweicht» nennt Artikel ohne Gesetzes- oder SR-Bezeichnung; syntaktisch ist dies eine interne Verweisung auf andere Bestimmungen desselben Erlasses, nicht auf ein anderes SR."
+  }
+]

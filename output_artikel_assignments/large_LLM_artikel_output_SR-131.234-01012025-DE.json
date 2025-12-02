@@ -1,0 +1,162 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "art_174_A",
+    "TARGET_SR": "SR 170.512",
+    "assigned_articles": [
+      "Art. 12 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Satz lautet: \"in Anwendung von Art. 12 Abs. 2 des Publikationsgesetzes ... (SR 170.512)\". Die Präposition \"von\" und der Genitiv \"des Publikationsgesetzes\" verknüpfen eindeutig Art. 12 Abs. 2 mit SR 170.512."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_63",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 62 Abs. 1 Bst. b",
+      "Art. 62 Abs. 1 Bst. c"
+    ],
+    "confidence": "high",
+    "reasoning": "Es wird auf \"Artikel 62 Absatz 1 Buchstabe b oder c\" verwiesen, ohne Nennung eines anderen Erlasses; dies ist eine interne Verweisnorm innerhalb derselben Verfassung bzw. desselben Gesetzes."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_71",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 58",
+      "Art. 59"
+    ],
+    "confidence": "high",
+    "reasoning": "Formulierung \"Die Artikel 58 und 59 sind anwendbar\" ohne Bezug auf ein anderes SR; damit handelt es sich um eine Selbstreferenz auf Artikel 58 und 59 desselben Erlasses."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_75",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 74 Abs. 1 Bst. b",
+      "Art. 74 Abs. 1 Bst. c"
+    ],
+    "confidence": "high",
+    "reasoning": "Verweis \"Artikel 74 Absatz 1 Buchstabe b oder c\" ohne Nennung eines anderen SR-Dokuments; daher interne Verweisung innerhalb desselben Normtexts."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_77",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 68"
+    ],
+    "confidence": "high",
+    "reasoning": "\"Artikel 68 ist anwendbar\" steht ohne externen SR-Bezug; dies ist eine Selbstreferenz auf Art. 68 desselben Erlasses."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_114",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 103"
+    ],
+    "confidence": "high",
+    "reasoning": "\"Artikel 103 ist anwendbar\" verweist ohne weitere Spezifikation auf einen Artikel im selben Dokument; keine externe SR-Verknüpfung erkennbar."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_223",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 131"
+    ],
+    "confidence": "high",
+    "reasoning": "\"Artikel 131 gilt sinngemäss ...\" ist eine typische interne Verweisung; kein anderes Gesetz oder SR wird genannt."
+  },
+  {
+    "ITEM": 8,
+    "ARTICLE_EID": "art_224",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 229 Abs. 2",
+      "Art. 231"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Satz nennt explizit \"Artikel 229 Absatz 2 und Artikel 231\" ohne externen Erlass; dies sind interne Artikel derselben Verfassung."
+  },
+  {
+    "ITEM": 9,
+    "ARTICLE_EID": "art_228",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 48 Abs. 4"
+    ],
+    "confidence": "high",
+    "reasoning": "\"gestützt auf Artikel 48 Absatz 4 entziehen\" verweist auf eine Bestimmung im selben Erlass; kein SR oder anderer Gesetzestitel wird genannt."
+  },
+  {
+    "ITEM": 10,
+    "ARTICLE_EID": "art_230",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 67 Abs. 2 Bst. b"
+    ],
+    "confidence": "high",
+    "reasoning": "\"Die Gesetzgebung nach Artikel 67 Absatz 2 Buchstabe b\" ist eine interne Verweisung auf Art. 67 Abs. 2 lit. b derselben Verfassung."
+  },
+  {
+    "ITEM": 11,
+    "ARTICLE_EID": "art_230",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 1 Bst. b Ziff. 2",
+      "Art. 1 Bst. b Ziff. 3",
+      "Art. 83 Abs. 3",
+      "Art. 83 Abs. 4",
+      "Art. 88",
+      "Art. 89",
+      "Art. 90",
+      "Art. 117 Abs. 3",
+      "Art. 121",
+      "Art. 122"
+    ],
+    "confidence": "medium",
+    "reasoning": "Der Satz zählt Bestimmungen des Gerichtsorganisationsgesetzes auf: \"nämlich die Artikel 1 Buchstabe b Ziffern 2 und 3, 83 Absätze 3 und 4, 88–90, 117 Absatz 3, 121 und 122\". Es wird aber kein SR-Titel oder eine SR-Nummer genannt; im Kontext dieser Verfassung ist dies eine Übergangsbestimmung, die auf kantonales Ausführungsgesetz verweist. Mangels expliziter SR-Verknüpfung wird dies als interne/kontextuelle Referenz ohne TARGET_SR behandelt, die genannten Artikel werden jedoch vollständig extrahiert (inkl. Auflösung des Bereichs 88–90)."
+  },
+  {
+    "ITEM": 12,
+    "ARTICLE_EID": "art_230",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 10",
+      "Art. 17 Abs. 1",
+      "Art. 26"
+    ],
+    "confidence": "medium",
+    "reasoning": "Formulierung: \"die Artikel 10, 17 Absatz 1 und 26 des Ausführungsgesetzes ...\". Es wird kein SR-Dokument genannt; daher keine Zuordnung zu einem TARGET_SR, aber klare Identifikation der genannten Artikel."
+  },
+  {
+    "ITEM": 13,
+    "ARTICLE_EID": "art_231",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 56 Abs. 1",
+      "Art. 57 Abs. 1",
+      "Art. 67 Abs. 1",
+      "Art. 71 Abs. 1",
+      "Art. 77 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Satz nennt \"nach den Artikeln 56 Absatz 1, 57 Absatz 1, 67 Absatz 1, 71 Absatz 1 und 77 Absatz 1\"; dies sind interne Bestimmungen derselben Verfassung, ohne externes SR."
+  },
+  {
+    "ITEM": 14,
+    "ARTICLE_EID": "art_235",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 138",
+      "Art. 139"
+    ],
+    "confidence": "high",
+    "reasoning": "\"Ausführungsbestimmungen zu den Artikeln 138 und 139\" verweist auf interne Artikel derselben Verfassung; kein anderes Gesetz oder SR wird erwähnt."
+  }
+]

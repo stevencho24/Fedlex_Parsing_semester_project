@@ -1,0 +1,173 @@
+[
+  {
+    "Item": 1,
+    "item_type": "SR_link_detection",
+    "TARGET_SR": "SR 824.0",
+    "assigned_articles": [
+      "Art. 80 Abs. 4"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Formulierung \"gestützt auf Artikel 80 Absatz 4 des Zivildienstgesetzes ... SR 824.0 (ZDG)\" verknüpft eindeutig Art. 80 Abs. 4 mit SR 824.0."
+  },
+  {
+    "Item": 2,
+    "item_type": "SR_link_detection",
+    "TARGET_SR": "SR 235.1",
+    "assigned_articles": [
+      "Art. 33"
+    ],
+    "confidence": "high",
+    "reasoning": "Im selben Satz: \"... und auf Artikel 33 des Datenschutzgesetzes ... SR 235.1\"; Art. 33 wird syntaktisch direkt dem Datenschutzgesetz (SR 235.1) zugeordnet."
+  },
+  {
+    "Item": 3,
+    "item_type": "SR_link_detection",
+    "TARGET_SR": "SR 824.01",
+    "assigned_articles": [
+      "Art. 111b"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet: \"... nach Artikel 111b der Zivildienstverordnung ... SR 824.01 (ZDV)\"; Art. 111b ist ausdrücklich dieser Verordnung zugeordnet."
+  },
+  {
+    "Item": 4,
+    "item_type": "SR_link_detection",
+    "TARGET_SR": "SR 220",
+    "assigned_articles": [
+      "Art. 336c Abs. 1 Bst. a"
+    ],
+    "confidence": "high",
+    "reasoning": "Text: \"... nach Artikel 336c Absatz 1 Buchstabe a des Obligationenrechts SR 220\"; klare direkte Zuordnung."
+  },
+  {
+    "Item": 5,
+    "item_type": "preamble_acronym",
+    "TARGET_SR": "SR 824.0",
+    "assigned_articles": [
+      "Art. 46",
+      "Art. 47"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet nennt \"Artikel 46 ZDG\" und \"Artikel 47 ZDG\"; ZDG ist in der Präambel als SR 824.0 definiert."
+  },
+  {
+    "Item": 6,
+    "item_type": "preamble_acronym",
+    "TARGET_SR": "SR 824.0",
+    "assigned_articles": [
+      "Art. 52-61",
+      "Art. 26",
+      "Art. 62"
+    ],
+    "confidence": "high",
+    "reasoning": "Es werden \"Artikeln 52–61 ZDG\", \"Art. 26 ZDG\" und \"Art. 62 ZDG\" genannt; alle beziehen sich über das Präambel-Akronym ZDG auf SR 824.0. Der Bereich 52–61 wird als Spannweite belassen."
+  },
+  {
+    "Item": 7,
+    "item_type": "preamble_acronym",
+    "TARGET_SR": "SR 824.0",
+    "assigned_articles": [
+      "Art. 5",
+      "Art. 80 Abs. 2",
+      "Art. 80 Abs. 1bis",
+      "Art. 80b Abs. 1 Bst. a–m"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet: \"... zu den Zwecken nach Artikel 5; ... nach Artikel 80 Absatz 2 ZDG ... nach Artikel 80 Absatz 1bis ZDG ... nach Artikel 80b Absatz 1 Buchstaben a–m ZDG\"; alle mit ZDG (SR 824.0) verknüpft."
+  },
+  {
+    "Item": 8,
+    "item_type": "artikel_reference",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 111b",
+      "Art. 68",
+      "Art. 46",
+      "Art. 47"
+    ],
+    "confidence": "high",
+    "reasoning": "Interne Referenzen im selben Dokumentkontext: Art. 111b ZDV (SR 824.01) ist bereits in Item 3 mit externer SR-Verknüpfung erfasst; hier dient der Eintrag als Selbstreferenzsammlung. Art. 68, 46 und 47 ZDG sind bereits in Items 3 und 5/6 über ZDG (SR 824.0) abgedeckt. Daher handelt es sich um interne/selbstreferenzielle Artikelangaben ohne neue SR-Zuordnung."
+  },
+  {
+    "Item": 9,
+    "item_type": "artikel_reference",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 52-61"
+    ],
+    "confidence": "high",
+    "reasoning": "„nach den Artikeln 52–61 ZDG“; diese Spannweite ist bereits in Item 6 als Bezug zu SR 824.0 erfasst, hier nur Selbstreferenz im Dokument."
+  },
+  {
+    "Item": 10,
+    "item_type": "artikel_reference",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 26"
+    ],
+    "confidence": "high",
+    "reasoning": "„(Art. 26 ZDG)“; derselbe Verweis ist in Item 6 schon SR 824.0 zugeordnet, daher hier interne Selbstreferenz ohne neue SR-Zuordnung."
+  },
+  {
+    "Item": 11,
+    "item_type": "artikel_reference",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 62"
+    ],
+    "confidence": "high",
+    "reasoning": "„(Art. 62 ZDG)“; dieser Verweis ist bereits in Item 6 mit SR 824.0 verknüpft, hier nur interne Referenz."
+  },
+  {
+    "Item": 12,
+    "item_type": "artikel_reference",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 5"
+    ],
+    "confidence": "high",
+    "reasoning": "„... zu den Zwecken nach Artikel 5;“ ohne explizite SR-Nennung im gleichen Satzteil; im Kontext des Dokuments ist dies eine Selbstreferenz auf Art. 5 der vorliegenden Verordnung."
+  },
+  {
+    "Item": 13,
+    "item_type": "artikel_reference",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 80 Abs. 2",
+      "Art. 80 Abs. 1bis"
+    ],
+    "confidence": "high",
+    "reasoning": "„nach Artikel 80 Absatz 2 ZDG ... nach Artikel 80 Absatz 1bis ZDG“; diese Verweise sind bereits in Item 7 über das Präambel-Akronym ZDG SR 824.0 zugeordnet, hier interne Wiederholung."
+  },
+  {
+    "Item": 14,
+    "item_type": "artikel_reference",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 80b Abs. 1 Bst. a–m"
+    ],
+    "confidence": "high",
+    "reasoning": "„den Stellen nach Artikel 80b Absatz 1 Buchstaben a–m ZDG“; derselbe Verweis ist in Item 7 schon SR 824.0 zugeordnet, hier Selbstreferenz."
+  },
+  {
+    "Item": 15,
+    "item_type": "artikel_reference",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 336c Abs. 1 Bst. a"
+    ],
+    "confidence": "high",
+    "reasoning": "„nach Artikel 336c Absatz 1 Buchstabe a des Obligationenrechts;“; derselbe Verweis ist in Item 4 bereits SR 220 zugeordnet, hier interne Wiederholung ohne neue SR-Verknüpfung."
+  },
+  {
+    "Item": 16,
+    "item_type": "artikel_reference",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 4",
+      "Art. 6 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "„nach den Artikeln 4 und 6 Absatz 1“ bezieht sich klar auf Artikel derselben Verordnung (keine SR-Nennung im Satz), somit reine Selbstreferenz innerhalb des Dokuments."
+  }
+]

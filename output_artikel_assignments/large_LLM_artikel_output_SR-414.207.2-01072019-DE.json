@@ -1,0 +1,87 @@
+[
+  {
+    "Item": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 414.20",
+    "assigned_articles": [
+      "Art. 42",
+      "Art. 43",
+      "Art. 44 Abs. 4"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet explicitly cites 'Artikel 42, 43 und 44 Absatz 4 des Hochschulförderungs- und ‑koordinationsgesetzes ... SR 414.20 (HFKG)'; these articles are directly and syntactically linked to SR 414.20."
+  },
+  {
+    "Item": 2,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 414.20",
+    "assigned_articles": [
+      "Art. 43",
+      "Art. 44",
+      "Art. 42"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet states 'gemäss Artikel 43 HFKG', 'gemäss Artikel 44 HFKG' and 'gemäss Artikel 42 HFKG'; HFKG is defined in the preamble as SR 414.20, so these are explicit article references to that SR."
+  },
+  {
+    "Item": 3,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 43"
+    ],
+    "confidence": "high",
+    "reasoning": "The line 'gemäss Artikel 43 HFKG' clearly refers to Art. 43 of HFKG. However, this item_type is 'artikel_reference' without TARGET_SR, so it is treated as a cross-reference only; no SR assignment is made here (self-reference handling)."
+  },
+  {
+    "Item": 4,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 44"
+    ],
+    "confidence": "high",
+    "reasoning": "The line 'gemäss Artikel 44 HFKG' clearly refers to Art. 44 of HFKG. As an 'artikel_reference' item, it records an internal article cross-reference without assigning it to a TARGET_SR."
+  },
+  {
+    "Item": 5,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 42"
+    ],
+    "confidence": "high",
+    "reasoning": "The line 'gemäss Artikel 42 HFKG' clearly refers to Art. 42 of HFKG. Being an 'artikel_reference' item, it is treated as an internal article cross-reference without SR linkage here."
+  },
+  {
+    "Item": 6,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 6"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet 'Weichen einzelne Werte gemäss Artikel 6 erheblich vom Durchschnitt ab ...' is a self-reference within the same document to Art. 6; no external SR is mentioned, so it is an internal article cross-reference only."
+  },
+  {
+    "Item": 7,
+    "ARTICLE_EID": "art_9",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 8"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet 'den Anteil der Forschungskosten gemäss Artikel 8' refers to Art. 8 of the same document; no SR context is present, so this is an internal cross-reference."
+  },
+  {
+    "Item": 8,
+    "ARTICLE_EID": "art_9",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 4 Abs. 2",
+      "Art. 4 Abs. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet mentions 'gemäss Artikel 4 Absatz 2' and 'gemäss Artikel 4 Absatz 3'; without any SR reference in the same syntactic unit, these are self-references to internal articles of the current document."
+  }
+]

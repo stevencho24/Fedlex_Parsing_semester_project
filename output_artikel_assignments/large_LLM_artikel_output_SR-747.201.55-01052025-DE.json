@@ -1,0 +1,22 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 747.201.5",
+    "assigned_articles": [
+      "Art. 11 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet explicitly states 'gestützt auf Artikel 11 Absatz 1 der Verordnung ... SR 747.201.5', directly linking Art. 11 Abs. 1 to SR 747.201.5."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "The phrase 'nach Artikel 7' appears without any SR or external document reference, so it is a self-reference to Art. 7 of the same SR 747.201.55 document, not to another SR."
+  }
+]

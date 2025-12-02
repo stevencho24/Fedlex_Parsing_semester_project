@@ -1,0 +1,85 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 101",
+    "assigned_articles": [
+      "Art. 103"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Formulierung «gestützt auf Artikel 103 der Bundesverfassung SR 101» verknüpft den genannten Artikel grammatikalisch eindeutig mit SR 101."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": "SR 952.0",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Snippet wird nur das «Bankengesetz vom 8. November 1934 SR 952.0» als Ganzes genannt, ohne konkrete Artikelangabe; dies ist eine generelle Gesetzesverweisung."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_6",
+    "TARGET_SR": "SR 837.0",
+    "assigned_articles": [
+      "Art. 71a",
+      "Art. 71b",
+      "Art. 71c",
+      "Art. 71d"
+    ],
+    "confidence": "high",
+    "reasoning": "«Vorbehalten bleiben die Artikel 71a–71d des Arbeitslosenversicherungsgesetzes … SR 837.0» nennt explizit die Artikel 71a bis 71d dieses Gesetzes; der Bereich 71a–71d wird als die vier Einzelartikel verstanden."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_6",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "Dies ist derselbe Satz wie bei ITEM 3, jedoch ohne explizite SR-Nennung; die Artikelangabe «71a–71d» bezieht sich hier auf das bereits im selben Kontext genannte externe Gesetz und ist damit keine neue, eigenständige SR-Verknüpfung, sondern eine Wiederholung der dortigen Verweisung."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_8",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«… nach Artikel 5 Absatz 2» verweist ohne Gesetzesangabe auf einen anderen Artikel desselben Erlasses; mangels SR-Bezug ist dies eine reine Selbstverweisung."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_8",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«… nach Artikel 6 Absatz 2 profitieren» nennt keinen externen Erlass; syntaktisch handelt es sich um eine interne Verweisung innerhalb des gleichen Gesetzes."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_9",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«… welche die Voraussetzungen nach den Artikeln 3 und 4 erfüllen» enthält keine SR- oder Gesetzesangabe; dies ist eine Verweisung auf andere Artikel desselben Erlasses."
+  },
+  {
+    "ITEM": 8,
+    "ARTICLE_EID": "art_15",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Angabe «Art. 1–12» und «Art. 13–15» betrifft das Inkrafttreten der eigenen Artikel dieses Erlasses; es liegt keine Verweisung auf ein anderes SR-Dokument vor."
+  }
+]

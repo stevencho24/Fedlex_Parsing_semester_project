@@ -1,0 +1,42 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 510.10",
+    "assigned_articles": [
+      "Art. 150 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet explicitly cites 'Artikel 150 Absatz 1 des Militärgesetzes ... SR 510.10'; Art. 150 Abs. 1 is directly and syntactically linked to SR 510.10."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 513.74",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "The text refers generally to the Verordnung SR 513.74 without mentioning any specific article or range; it establishes that the whole ordinance governs the situation."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_8",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "Artikel 6 Abs. 3 is mentioned without any SR or acronym; by the project rules this is a self-reference to another article of the same SR 513.75 document, not to an external SR."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_8",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "Again, 'Artikel 6 Absatz 3' appears with no external SR context; syntactically it is an internal cross-reference within the same legal act (SR 513.75)."
+  }
+]

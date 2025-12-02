@@ -1,0 +1,1136 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 101",
+    "assigned_articles": [
+      "Art. 87",
+      "Art. 92"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet explicitly cites 'Artikel 87 und 92 der Bundesverfassung SR 101'; both articles are directly linked to SR 101."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_3_a",
+    "TARGET_SR": "SR 170.32",
+    "assigned_articles": "General reference - entire document",
+    "confidence": "medium",
+    "reasoning": "Refers generically to 'das Verantwortlichkeitsgesetz vom 14. März 1958 SR 170.32' without specifying any article; applies the act as a whole."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_6_a",
+    "TARGET_SR": "SR 0.748.0",
+    "assigned_articles": "General reference - entire document",
+    "confidence": "medium",
+    "reasoning": "Mentions the Chicago Convention (SR 0.748.0) and its annexes in general; no specific article is indicated."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_11_a",
+    "TARGET_SR": "SR 0.748.0",
+    "assigned_articles": "General reference - entire document",
+    "confidence": "medium",
+    "reasoning": "Refers to the 'Ziele des Übereinkommens ... SR 0.748.0' as a whole; no article-level citation."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_21_a",
+    "TARGET_SR": "SR 364",
+    "assigned_articles": "General reference - entire document",
+    "confidence": "medium",
+    "reasoning": "States 'Das Zwangsanwendungsgesetz ... SR 364 ist anwendbar' without article numbers; invokes the statute generally."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_21_c",
+    "TARGET_SR": "SR 235.1",
+    "assigned_articles": "General reference - entire document",
+    "confidence": "medium",
+    "reasoning": "Refers to 'nach dem Datenschutzgesetz ... SR 235.1' in general; no specific article is grammatically tied."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_21_e",
+    "TARGET_SR": "SR 152.1",
+    "assigned_articles": [
+      "Art. 6"
+    ],
+    "confidence": "high",
+    "reasoning": "Both SR_link_detection and artikel_reference snippets say 'nach Artikel 6 des Archivierungsgesetzes ... SR 152.1'; clear direct marking of Art. 6."
+  },
+  {
+    "ITEM": 8,
+    "ARTICLE_EID": "art_25",
+    "TARGET_SR": "SR 172.010",
+    "assigned_articles": [
+      "Art. 57a",
+      "Art. 57b",
+      "Art. 57c",
+      "Art. 57d",
+      "Art. 57e",
+      "Art. 57f",
+      "Art. 57g"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet: 'nach den Artikeln 57a–57g des Regierungs- und Verwaltungsorganisationsgesetzes ... SR 172.010'; explicit article range tied to SR 172.010."
+  },
+  {
+    "ITEM": 9,
+    "ARTICLE_EID": "art_25",
+    "TARGET_SR": "SR 742.101",
+    "assigned_articles": [
+      "Art. 15a"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet: 'Kommission nach Artikel 15a des Eisenbahngesetzes ... SR 742.101'; direct marking of Art. 15a."
+  },
+  {
+    "ITEM": 10,
+    "ARTICLE_EID": "art_26",
+    "TARGET_SR": "SR 172.021",
+    "assigned_articles": "General reference - entire document",
+    "confidence": "medium",
+    "reasoning": "States 'ist das Verwaltungsverfahrensgesetz ... SR 172.021 anwendbar' without specifying articles; general applicability."
+  },
+  {
+    "ITEM": 11,
+    "ARTICLE_EID": "art_36_d",
+    "TARGET_SR": "SR 172.010",
+    "assigned_articles": [
+      "Art. 62b"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet: 'richtet sich nach Artikel 62b des Regierungs- und Verwaltungsorganisationsgesetzes ... SR 172.010'; explicit article reference."
+  },
+  {
+    "ITEM": 12,
+    "ARTICLE_EID": "art_36_d",
+    "TARGET_SR": "SR 172.021",
+    "assigned_articles": "General reference - entire document",
+    "confidence": "medium",
+    "reasoning": "Refers to 'Verwaltungsverfahrensgesetz ... SR 172.021' generically; no article specified."
+  },
+  {
+    "ITEM": 13,
+    "ARTICLE_EID": "art_36_e",
+    "TARGET_SR": "SR 711",
+    "assigned_articles": [
+      "Art. 27",
+      "Art. 28",
+      "Art. 29",
+      "Art. 30",
+      "Art. 31",
+      "Art. 32",
+      "Art. 33",
+      "Art. 34",
+      "Art. 35",
+      "Art. 36",
+      "Art. 37",
+      "Art. 38",
+      "Art. 39",
+      "Art. 40",
+      "Art. 41",
+      "Art. 42",
+      "Art. 43",
+      "Art. 44"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet: 'Die Artikel 27–44 EntG sind nicht anwendbar.' with EntG = SR 711; explicit range 27–44 of SR 711."
+  },
+  {
+    "ITEM": 14,
+    "ARTICLE_EID": "art_37",
+    "TARGET_SR": "SR 700",
+    "assigned_articles": "General reference - entire document",
+    "confidence": "medium",
+    "reasoning": "Cites 'Bundesgesetz ... SR 700 über die Raumplanung' without article numbers; general requirement of a spatial plan."
+  },
+  {
+    "ITEM": 15,
+    "ARTICLE_EID": "art_37_a",
+    "TARGET_SR": "SR 172.021",
+    "assigned_articles": "General reference - entire document",
+    "confidence": "medium",
+    "reasoning": "States 'richtet sich nach dem Verwaltungsverfahrensgesetz ... SR 172.021'; no specific article indicated."
+  },
+  {
+    "ITEM": 16,
+    "ARTICLE_EID": "art_37_a",
+    "TARGET_SR": "SR 711",
+    "assigned_articles": "General reference - entire document",
+    "confidence": "medium",
+    "reasoning": "Refers to 'Vorschriften des EntG SR 711' in general; no article-level limitation."
+  },
+  {
+    "ITEM": 17,
+    "ARTICLE_EID": "art_37_f",
+    "TARGET_SR": "SR 172.021",
+    "assigned_articles": "General reference - entire document",
+    "confidence": "medium",
+    "reasoning": "Again generic reference to 'Verwaltungsverfahrensgesetz ... SR 172.021' without article numbers."
+  },
+  {
+    "ITEM": 18,
+    "ARTICLE_EID": "art_37_f",
+    "TARGET_SR": "SR 711",
+    "assigned_articles": [
+      "Art. 33"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet: 'Begehren nach Artikel 33 EntG' with EntG = SR 711; explicit article 33."
+  },
+  {
+    "ITEM": 19,
+    "ARTICLE_EID": "art_37_g",
+    "TARGET_SR": "SR 172.010",
+    "assigned_articles": [
+      "Art. 62b"
+    ],
+    "confidence": "high",
+    "reasoning": "Same wording as ITEM 11: 'nach Artikel 62b ... SR 172.010'; clearly Art. 62b."
+  },
+  {
+    "ITEM": 20,
+    "ARTICLE_EID": "art_37_k",
+    "TARGET_SR": "SR 711",
+    "assigned_articles": "General reference - entire document",
+    "confidence": "medium",
+    "reasoning": "Refers to 'nach den Bestimmungen des EntG SR 711' for the Einigungs- und Schätzungsverfahren; no specific articles singled out."
+  },
+  {
+    "ITEM": 21,
+    "ARTICLE_EID": "art_37_t",
+    "TARGET_SR": "SR 711",
+    "assigned_articles": [
+      "Art. 15"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet: 'Artikel 15 EntG SR 711 gilt sinngemäss'; direct marking of Art. 15."
+  },
+  {
+    "ITEM": 22,
+    "ARTICLE_EID": "art_44",
+    "TARGET_SR": "SR 711",
+    "assigned_articles": "General reference - entire document",
+    "confidence": "medium",
+    "reasoning": "States 'richtet sich das Verfahren nach dem EntG SR 711' without article numbers; general procedural reference."
+  },
+  {
+    "ITEM": 23,
+    "ARTICLE_EID": "art_68",
+    "TARGET_SR": "SR 220",
+    "assigned_articles": "General reference - entire document",
+    "confidence": "medium",
+    "reasoning": "Refers to 'Bestimmungen des Obligationenrechts SR 220 über die unerlaubten Handlungen'; no specific articles are named."
+  },
+  {
+    "ITEM": 24,
+    "ARTICLE_EID": "art_77",
+    "TARGET_SR": "SR 832.20",
+    "assigned_articles": "General reference - entire document",
+    "confidence": "medium",
+    "reasoning": "Mentions 'Unfallversicherungsgesetz ... SR 832.20' only to define insured persons; no article-level citation."
+  },
+  {
+    "ITEM": 25,
+    "ARTICLE_EID": "art_77",
+    "TARGET_SR": "SR 830.1",
+    "assigned_articles": [
+      "Art. 72",
+      "Art. 73",
+      "Art. 74",
+      "Art. 75"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet: 'Rückgriff nach den Artikeln 72–75 des Bundesgesetzes ... SR 830.1'; explicit range 72–75."
+  },
+  {
+    "ITEM": 26,
+    "ARTICLE_EID": "art_79",
+    "TARGET_SR": "SR 220",
+    "assigned_articles": "General reference - entire document",
+    "confidence": "medium",
+    "reasoning": "States 'gelten die Bestimmungen des Obligationenrechtes SR 220' without specifying articles; general fallback to OR."
+  },
+  {
+    "ITEM": 27,
+    "ARTICLE_EID": "art_89",
+    "TARGET_SR": "SR 311.0",
+    "assigned_articles": [
+      "Art. 4 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet: 'Artikel 4 Absatz 2 des Strafgesetzbuchs SR 311.0 findet Anwendung'; explicit article and paragraph."
+  },
+  {
+    "ITEM": 28,
+    "ARTICLE_EID": "art_89_a",
+    "TARGET_SR": "SR 311.0",
+    "assigned_articles": [
+      "Art. 4 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Same explicit wording: 'Artikel 4 Absatz 2 des Strafgesetzbuches SR 311.0 ist anwendbar.'"
+  },
+  {
+    "ITEM": 29,
+    "ARTICLE_EID": "art_91",
+    "TARGET_SR": "SR 514.54",
+    "assigned_articles": [
+      "Art. 4 Abs. 1",
+      "Art. 4 Abs. 6"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet: 'im Sinne von Artikel 4 Absatz 1 beziehungsweise Absatz 6 des Waffengesetzes ... SR 514.54'; both paragraphs of Art. 4 are directly cited."
+  },
+  {
+    "ITEM": 30,
+    "ARTICLE_EID": "art_91_bis",
+    "TARGET_SR": "SR 313.0",
+    "assigned_articles": [
+      "Art. 14",
+      "Art. 15",
+      "Art. 16",
+      "Art. 17",
+      "Art. 18"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet: '(Art. 14–18) sind anwendbar.' within reference to Verwaltungsstrafrechtsgesetz SR 313.0; explicit range 14–18."
+  },
+  {
+    "ITEM": 31,
+    "ARTICLE_EID": "art_96",
+    "TARGET_SR": "SR 311.0",
+    "assigned_articles": [
+      "Art. 4",
+      "Art. 5",
+      "Art. 6",
+      "Art. 7"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet: 'oder die Artikel 4–7 des Strafgesetzbuchs SR 311.0'; explicit range 4–7."
+  },
+  {
+    "ITEM": 32,
+    "ARTICLE_EID": "art_97",
+    "TARGET_SR": "SR 311.0",
+    "assigned_articles": [
+      "Art. 6 Abs. 3",
+      "Art. 6 Abs. 4"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet: 'Artikel 6 Absätze 3 und 4 des Strafgesetzbuchs SR 311.0 ist anwendbar.'; explicit paragraphs."
+  },
+  {
+    "ITEM": 33,
+    "ARTICLE_EID": "art_98",
+    "TARGET_SR": "SR 313.0",
+    "assigned_articles": "General reference - entire document",
+    "confidence": "medium",
+    "reasoning": "Refers to 'Verfahrensvorschriften des Verwaltungsstrafrechtsgesetzes ... SR 313.0' generally; no specific articles mentioned."
+  },
+  {
+    "ITEM": 34,
+    "ARTICLE_EID": "art_99",
+    "TARGET_SR": "SR 313.0",
+    "assigned_articles": [
+      "Art. 39",
+      "Art. 40",
+      "Art. 45",
+      "Art. 46",
+      "Art. 47",
+      "Art. 48",
+      "Art. 49",
+      "Art. 50",
+      "Art. 51",
+      "Art. 52"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet: 'Die Artikel 39, 40 und 45–52 des Verwaltungsstrafrechtsgesetzes ... SR 313.0'; explicit list and range."
+  },
+  {
+    "ITEM": 35,
+    "ARTICLE_EID": "art_100",
+    "TARGET_SR": "SR 120",
+    "assigned_articles": [
+      "Art. 13a Abs. 1 Bst. b Ziff. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet: 'im Sinne von Artikel 13a Absatz 1 Buchstabe b Ziffer 1 des Bundesgesetzes ... SR 120'; explicit detailed article reference, even though later noted as no longer in force."
+  },
+  {
+    "ITEM": 36,
+    "ARTICLE_EID": "art_100",
+    "TARGET_SR": "SR 121",
+    "assigned_articles": [
+      "Art. 19 Abs. 2 Bst. a"
+    ],
+    "confidence": "high",
+    "reasoning": "Authorial note: 'Siehe heute: Art. 19 Abs. 2 Bst. a des Nachrichtendienstgesetzes ... (SR 121).'; explicit replacement article."
+  },
+  {
+    "ITEM": 37,
+    "ARTICLE_EID": "art_100",
+    "TARGET_SR": "SR 311.0",
+    "assigned_articles": [
+      "Art. 111",
+      "Art. 112",
+      "Art. 113",
+      "Art. 122",
+      "Art. 134",
+      "Art. 139",
+      "Art. 140",
+      "Art. 156",
+      "Art. 183",
+      "Art. 185",
+      "Art. 221",
+      "Art. 223",
+      "Art. 224",
+      "Art. 225",
+      "Art. 226",
+      "Art. 226ter"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet lists 'Artikeln 111–113, 122, 134, 139, 140, 156, 183, 185, 221 und 223–226ter des Strafgesetzbuchs SR 311.0'; all enumerated articles belong to SR 311.0."
+  },
+  {
+    "ITEM": 38,
+    "ARTICLE_EID": "art_100",
+    "TARGET_SR": "SR 812.121",
+    "assigned_articles": [
+      "Art. 19 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet: 'strafbare Handlungen nach Artikel 19 Absatz 2 des Betäubungsmittelgesetzes ... SR 812.121'; explicit article and paragraph."
+  },
+  {
+    "ITEM": 39,
+    "ARTICLE_EID": "art_100",
+    "TARGET_SR": "SR 941.41",
+    "assigned_articles": [
+      "Art. 37"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet: 'strafbare Handlungen nach Artikel 37 des Sprengstoffgesetzes ... SR 941.41'; explicit article."
+  },
+  {
+    "ITEM": 40,
+    "ARTICLE_EID": "art_100",
+    "TARGET_SR": "SR 514.54",
+    "assigned_articles": [
+      "Art. 33"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet: 'strafbare Handlungen nach Artikel 33 des Waffengesetzes ... SR 514.54.'; explicit article."
+  },
+  {
+    "ITEM": 41,
+    "ARTICLE_EID": "art_100_bis",
+    "TARGET_SR": "SR 170.32",
+    "assigned_articles": "General reference - entire document",
+    "confidence": "medium",
+    "reasoning": "Refers to 'Bestimmungen des Verantwortlichkeitsgesetzes ... SR 170.32' without article numbers; general liability regime."
+  },
+  {
+    "ITEM": 42,
+    "ARTICLE_EID": "art_103",
+    "TARGET_SR": "SR 0.748.127.192.68",
+    "assigned_articles": [
+      "Art. 13"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet: 'ob mit Artikel 13 des Abkommens ... SR 0.748.127.192.68 ... vereinbar sind'; explicit article 13."
+  },
+  {
+    "ITEM": 43,
+    "ARTICLE_EID": "art_107_a",
+    "TARGET_SR": "SR 235.1",
+    "assigned_articles": [
+      "Art. 16"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet: 'wenn die Voraussetzungen nach Artikel 16 des Datenschutzgesetzes ... SR 235.1 erfüllt sind.'; explicit article 16."
+  },
+  {
+    "ITEM": 44,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": "self",
+    "assigned_articles": [
+      "Art. 52",
+      "Art. 56"
+    ],
+    "confidence": "high",
+    "reasoning": "Artikel_reference within same law: 'gemäss Artikel 52 ... und mit den in Artikel 56 verlangten Ausweisen'; internal cross-reference, not tied to an external SR."
+  },
+  {
+    "ITEM": 45,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": "self",
+    "assigned_articles": [
+      "Art. 51",
+      "Art. 108"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet: '(Art. 51 und 108)'; both are internal articles of the same statute."
+  },
+  {
+    "ITEM": 46,
+    "ARTICLE_EID": "art_3_a",
+    "TARGET_SR": "self",
+    "assigned_articles": [
+      "Art. 40b Abs. 4"
+    ],
+    "confidence": "high",
+    "reasoning": "Refers to 'Übertragungsverbot nach Artikel 40b Absatz 4' with no external SR; internal article of the same law."
+  },
+  {
+    "ITEM": 47,
+    "ARTICLE_EID": "art_20",
+    "TARGET_SR": "self",
+    "assigned_articles": [
+      "Art. 23 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "Phrase 'gilt Artikel 23 Absatz 1' without external act; internal reference."
+  },
+  {
+    "ITEM": 48,
+    "ARTICLE_EID": "art_21_e",
+    "TARGET_SR": "SR 152.1",
+    "assigned_articles": [
+      "Art. 6"
+    ],
+    "confidence": "high",
+    "reasoning": "Matches ITEM 7 context: 'nach Artikel 6 des Archivierungsgesetzes ...'; article is tied to SR 152.1, not self."
+  },
+  {
+    "ITEM": 49,
+    "ARTICLE_EID": "art_25",
+    "TARGET_SR": "SR 172.010",
+    "assigned_articles": [
+      "Art. 57a",
+      "Art. 57b",
+      "Art. 57c",
+      "Art. 57d",
+      "Art. 57e",
+      "Art. 57f",
+      "Art. 57g"
+    ],
+    "confidence": "high",
+    "reasoning": "Same sentence as ITEM 8 but without SR number; clearly refers to 'Regierungs- und Verwaltungsorganisationsgesetz', which in ITEM 8 is linked to SR 172.010."
+  },
+  {
+    "ITEM": 50,
+    "ARTICLE_EID": "art_25",
+    "TARGET_SR": "SR 742.101",
+    "assigned_articles": [
+      "Art. 15a"
+    ],
+    "confidence": "high",
+    "reasoning": "Same wording as ITEM 9 but without SR; 'Eisenbahngesetz vom 20. Dezember 1957' is SR 742.101, and Art. 15a is explicitly cited."
+  },
+  {
+    "ITEM": 51,
+    "ARTICLE_EID": "art_26_b",
+    "TARGET_SR": "self",
+    "assigned_articles": [
+      "Art. 26 Abs. 1",
+      "Art. 26 Abs. 2",
+      "Art. 26 Abs. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "Refers to 'Artikel 26 Absätze 1–3' with no external law; internal procedural cross-reference."
+  },
+  {
+    "ITEM": 52,
+    "ARTICLE_EID": "art_28",
+    "TARGET_SR": "self",
+    "assigned_articles": [
+      "Art. 27"
+    ],
+    "confidence": "high",
+    "reasoning": "Mentions 'Betriebsbewilligung nach Artikel 27' without naming another act; internal article."
+  },
+  {
+    "ITEM": 53,
+    "ARTICLE_EID": "art_28",
+    "TARGET_SR": "self",
+    "assigned_articles": [
+      "Art. 27",
+      "Art. 29"
+    ],
+    "confidence": "high",
+    "reasoning": "Refers to 'Artikel 27 oder 29' as obligations; clearly internal to the same statute."
+  },
+  {
+    "ITEM": 54,
+    "ARTICLE_EID": "art_30",
+    "TARGET_SR": "self",
+    "assigned_articles": [
+      "Art. 29"
+    ],
+    "confidence": "high",
+    "reasoning": "Mentions 'Betriebsbewilligung nach Artikel 29' with no external SR; internal reference."
+  },
+  {
+    "ITEM": 55,
+    "ARTICLE_EID": "art_36_d",
+    "TARGET_SR": "SR 172.010",
+    "assigned_articles": [
+      "Art. 62b"
+    ],
+    "confidence": "high",
+    "reasoning": "Same sentence as ITEM 11/19 but without SR; 'Regierungs- und Verwaltungsorganisationsgesetz' is SR 172.010, and Art. 62b is explicitly cited."
+  },
+  {
+    "ITEM": 56,
+    "ARTICLE_EID": "art_36_e",
+    "TARGET_SR": "SR 711",
+    "assigned_articles": [
+      "Art. 27",
+      "Art. 28",
+      "Art. 29",
+      "Art. 30",
+      "Art. 31",
+      "Art. 32",
+      "Art. 33",
+      "Art. 34",
+      "Art. 35",
+      "Art. 36",
+      "Art. 37",
+      "Art. 38",
+      "Art. 39",
+      "Art. 40",
+      "Art. 41",
+      "Art. 42",
+      "Art. 43",
+      "Art. 44"
+    ],
+    "confidence": "high",
+    "reasoning": "Same wording as ITEM 13 but without SR; 'EntG' is defined there as SR 711, and 'Artikel 27–44 EntG' are explicitly excluded."
+  },
+  {
+    "ITEM": 57,
+    "ARTICLE_EID": "art_37_f",
+    "TARGET_SR": "SR 711",
+    "assigned_articles": [
+      "Art. 33"
+    ],
+    "confidence": "high",
+    "reasoning": "Same as ITEM 18 but without SR; 'Artikel 33 EntG' clearly refers to Art. 33 of SR 711."
+  },
+  {
+    "ITEM": 58,
+    "ARTICLE_EID": "art_37_g",
+    "TARGET_SR": "SR 172.010",
+    "assigned_articles": [
+      "Art. 62b"
+    ],
+    "confidence": "high",
+    "reasoning": "Same as ITEM 19 but without SR; 'Regierungs- und Verwaltungsorganisationsgesetz' contextually SR 172.010, Art. 62b."
+  },
+  {
+    "ITEM": 59,
+    "ARTICLE_EID": "art_37_k",
+    "TARGET_SR": "SR 711",
+    "assigned_articles": [
+      "Art. 76"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet: 'Im übrigen gilt Artikel 76 EntG.'; EntG is SR 711, so Art. 76 of SR 711."
+  },
+  {
+    "ITEM": 60,
+    "ARTICLE_EID": "art_37_t",
+    "TARGET_SR": "SR 711",
+    "assigned_articles": [
+      "Art. 15"
+    ],
+    "confidence": "high",
+    "reasoning": "Same as ITEM 21 but without SR; 'Artikel 15 EntG' refers to Art. 15 of SR 711."
+  },
+  {
+    "ITEM": 61,
+    "ARTICLE_EID": "art_40_f",
+    "TARGET_SR": "self",
+    "assigned_articles": [
+      "Art. 37",
+      "Art. 37a",
+      "Art. 37b",
+      "Art. 37c",
+      "Art. 37d",
+      "Art. 37e",
+      "Art. 37f",
+      "Art. 37g",
+      "Art. 37h",
+      "Art. 37i",
+      "Art. 37j",
+      "Art. 37k",
+      "Art. 37l",
+      "Art. 37m",
+      "Art. 37n",
+      "Art. 37o",
+      "Art. 37p",
+      "Art. 37q",
+      "Art. 37r",
+      "Art. 37s",
+      "Art. 37t"
+    ],
+    "confidence": "medium",
+    "reasoning": "Refers to 'Die Artikel 37–37t sind sinngemäss anwendbar.'; this is clearly an internal range within the same law, not tied to an external SR."
+  },
+  {
+    "ITEM": 62,
+    "ARTICLE_EID": "art_44_b",
+    "TARGET_SR": "self",
+    "assigned_articles": [
+      "Art. 42",
+      "Art. 43",
+      "Art. 44",
+      "Art. 47"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet: 'finden die Artikel 42–44 und 47 keine Anwendung.'; internal articles of the same statute."
+  },
+  {
+    "ITEM": 63,
+    "ARTICLE_EID": "art_45",
+    "TARGET_SR": "self",
+    "assigned_articles": [
+      "Art. 44 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "Refers to 'Entschädigungen nach Artikel 44 Absatz 1'; internal cross-reference."
+  },
+  {
+    "ITEM": 64,
+    "ARTICLE_EID": "art_48",
+    "TARGET_SR": "self",
+    "assigned_articles": [
+      "Art. 45",
+      "Art. 47"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet: 'Die Artikel 45 und 47 bleiben vorbehalten.'; internal articles."
+  },
+  {
+    "ITEM": 65,
+    "ARTICLE_EID": "art_51",
+    "TARGET_SR": "self",
+    "assigned_articles": [
+      "Art. 2",
+      "Art. 108"
+    ],
+    "confidence": "high",
+    "reasoning": "Refers to '(Art. 2 und 108)' in context of same law; internal references."
+  },
+  {
+    "ITEM": 66,
+    "ARTICLE_EID": "art_64",
+    "TARGET_SR": "self",
+    "assigned_articles": [
+      "Art. 70",
+      "Art. 71"
+    ],
+    "confidence": "high",
+    "reasoning": "Mentions 'gemäss den Artikeln 70 und 71 verpflichtet ist'; internal articles."
+  },
+  {
+    "ITEM": 67,
+    "ARTICLE_EID": "art_65",
+    "TARGET_SR": "self",
+    "assigned_articles": [
+      "Art. 70",
+      "Art. 71"
+    ],
+    "confidence": "high",
+    "reasoning": "Same internal reference to 'Artikeln 70 und 71' as in ITEM 66."
+  },
+  {
+    "ITEM": 68,
+    "ARTICLE_EID": "art_70",
+    "TARGET_SR": "self",
+    "assigned_articles": [
+      "Art. 71"
+    ],
+    "confidence": "high",
+    "reasoning": "Phrase 'Vorbehalten bleibt Artikel 71.'; internal article."
+  },
+  {
+    "ITEM": 69,
+    "ARTICLE_EID": "art_77",
+    "TARGET_SR": "SR 830.1",
+    "assigned_articles": [
+      "Art. 72",
+      "Art. 73",
+      "Art. 74",
+      "Art. 75"
+    ],
+    "confidence": "high",
+    "reasoning": "Same as ITEM 25 but without SR; 'Bundesgesetz ... über den Allgemeinen Teil des Sozialversicherungsrechts' is SR 830.1, and 'Artikeln 72–75' are explicitly cited."
+  },
+  {
+    "ITEM": 70,
+    "ARTICLE_EID": "art_79",
+    "TARGET_SR": "SR 220",
+    "assigned_articles": "General reference - entire document",
+    "confidence": "medium",
+    "reasoning": "Same as ITEM 26 but without SR; 'Obligationenrecht' is SR 220, referenced generally without article numbers."
+  },
+  {
+    "ITEM": 71,
+    "ARTICLE_EID": "art_86",
+    "TARGET_SR": "self",
+    "assigned_articles": [
+      "Art. 80",
+      "Art. 81",
+      "Art. 82",
+      "Art. 83",
+      "Art. 84",
+      "Art. 85"
+    ],
+    "confidence": "medium",
+    "reasoning": "Refers to 'Bestimmungen der Artikel 80–85'; internal range within the same law."
+  },
+  {
+    "ITEM": 72,
+    "ARTICLE_EID": "art_88",
+    "TARGET_SR": "self",
+    "assigned_articles": [
+      "Art. 7"
+    ],
+    "confidence": "high",
+    "reasoning": "Mentions 'aufgrund von Artikel 7 verfügten Verkehrssperre'; internal article."
+  },
+  {
+    "ITEM": 73,
+    "ARTICLE_EID": "art_88",
+    "TARGET_SR": "self",
+    "assigned_articles": [
+      "Art. 18"
+    ],
+    "confidence": "high",
+    "reasoning": "Refers to 'in Artikel 18 aufgestellten Vorschriften'; internal article."
+  },
+  {
+    "ITEM": 74,
+    "ARTICLE_EID": "art_89",
+    "TARGET_SR": "self",
+    "assigned_articles": [
+      "Art. 59"
+    ],
+    "confidence": "high",
+    "reasoning": "Mentions 'ohne die in Artikel 59 vorgeschriebenen Kennzeichen'; internal article."
+  },
+  {
+    "ITEM": 75,
+    "ARTICLE_EID": "art_89",
+    "TARGET_SR": "SR 311.0",
+    "assigned_articles": [
+      "Art. 4 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Same as ITEM 27 but without SR; 'Artikel 4 Absatz 2 des Strafgesetzbuchs' refers to SR 311.0 Art. 4 Abs. 2."
+  },
+  {
+    "ITEM": 76,
+    "ARTICLE_EID": "art_89_a",
+    "TARGET_SR": "SR 311.0",
+    "assigned_articles": [
+      "Art. 4 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Same as ITEM 28 but without SR; 'Artikel 4 Absatz 2 des Strafgesetzbuches' is SR 311.0 Art. 4 Abs. 2."
+  },
+  {
+    "ITEM": 77,
+    "ARTICLE_EID": "art_91",
+    "TARGET_SR": "self",
+    "assigned_articles": [
+      "Art. 36c"
+    ],
+    "confidence": "high",
+    "reasoning": "Refers to 'Betriebsreglement nach Artikel 36c'; internal article."
+  },
+  {
+    "ITEM": 78,
+    "ARTICLE_EID": "art_91",
+    "TARGET_SR": "self",
+    "assigned_articles": [
+      "Art. 36c"
+    ],
+    "confidence": "high",
+    "reasoning": "Again 'Betriebsreglement nach Artikel 36c'; internal reference."
+  },
+  {
+    "ITEM": 79,
+    "ARTICLE_EID": "art_91",
+    "TARGET_SR": "SR 514.54",
+    "assigned_articles": [
+      "Art. 4 Abs. 1",
+      "Art. 4 Abs. 6"
+    ],
+    "confidence": "high",
+    "reasoning": "Same as ITEM 29 but without SR; 'Artikel 4 Absatz 1 beziehungsweise Absatz 6 des Waffengesetzes' refers to SR 514.54 Art. 4 Abs. 1 und 6."
+  },
+  {
+    "ITEM": 80,
+    "ARTICLE_EID": "art_91_bis",
+    "TARGET_SR": "SR 313.0",
+    "assigned_articles": [
+      "Art. 14",
+      "Art. 15",
+      "Art. 16",
+      "Art. 17",
+      "Art. 18"
+    ],
+    "confidence": "high",
+    "reasoning": "Same as ITEM 30 but without SR; '(Art. 14–18)' of Verwaltungsstrafrechtsgesetz = SR 313.0."
+  },
+  {
+    "ITEM": 81,
+    "ARTICLE_EID": "art_93",
+    "TARGET_SR": "self",
+    "assigned_articles": [
+      "Art. 28",
+      "Art. 30",
+      "Art. 37"
+    ],
+    "confidence": "high",
+    "reasoning": "Refers to 'auf Grund von Artikel 28, 30 oder 37 erteilte Konzession'; internal articles."
+  },
+  {
+    "ITEM": 82,
+    "ARTICLE_EID": "art_96",
+    "TARGET_SR": "SR 311.0",
+    "assigned_articles": [
+      "Art. 4",
+      "Art. 5",
+      "Art. 6",
+      "Art. 7"
+    ],
+    "confidence": "high",
+    "reasoning": "Same as ITEM 31 but without SR; 'Artikel 4–7 des Strafgesetzbuchs' refers to SR 311.0."
+  },
+  {
+    "ITEM": 83,
+    "ARTICLE_EID": "art_97",
+    "TARGET_SR": "self",
+    "assigned_articles": [
+      "Art. 91 Abs. 1 Bst. g"
+    ],
+    "confidence": "high",
+    "reasoning": "Refers to 'Übertretungen nach Artikel 91 Absatz 1 Buchstabe g'; internal article and paragraph."
+  },
+  {
+    "ITEM": 84,
+    "ARTICLE_EID": "art_97",
+    "TARGET_SR": "SR 311.0",
+    "assigned_articles": [
+      "Art. 6 Abs. 3",
+      "Art. 6 Abs. 4"
+    ],
+    "confidence": "high",
+    "reasoning": "Same as ITEM 32 but without SR; 'Artikel 6 Absätze 3 und 4 des Strafgesetzbuchs' refers to SR 311.0."
+  },
+  {
+    "ITEM": 85,
+    "ARTICLE_EID": "art_98",
+    "TARGET_SR": "SR 313.0",
+    "assigned_articles": "General reference - entire document",
+    "confidence": "medium",
+    "reasoning": "Same as ITEM 33 but without SR; 'Verfahrensvorschriften des Verwaltungsstrafrechtsgesetzes' refers generally to SR 313.0."
+  },
+  {
+    "ITEM": 86,
+    "ARTICLE_EID": "art_99",
+    "TARGET_SR": "SR 313.0",
+    "assigned_articles": [
+      "Art. 39",
+      "Art. 40",
+      "Art. 45",
+      "Art. 46",
+      "Art. 47",
+      "Art. 48",
+      "Art. 49",
+      "Art. 50",
+      "Art. 51",
+      "Art. 52"
+    ],
+    "confidence": "high",
+    "reasoning": "Same as ITEM 34 but without SR; 'Artikel 39, 40 und 45–52 des Verwaltungsstrafrechtsgesetzes' are articles of SR 313.0."
+  },
+  {
+    "ITEM": 87,
+    "ARTICLE_EID": "art_100",
+    "TARGET_SR": "self",
+    "assigned_articles": [
+      "Art. 92 Bst. a"
+    ],
+    "confidence": "high",
+    "reasoning": "Refers to 'Ausweisen im Sinne von Artikel 92 Buchstabe a'; internal article and letter."
+  },
+  {
+    "ITEM": 88,
+    "ARTICLE_EID": "art_100",
+    "TARGET_SR": "SR 120",
+    "assigned_articles": [
+      "Art. 13a Abs. 1 Bst. b Ziff. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "Same as ITEM 35 but without SR; 'Artikel 13a Absatz 1 Buchstabe b Ziffer 1 des Bundesgesetzes ... über Massnahmen zur Wahrung der inneren Sicherheit' refers to SR 120."
+  },
+  {
+    "ITEM": 89,
+    "ARTICLE_EID": "art_100",
+    "TARGET_SR": "SR 311.0",
+    "assigned_articles": [
+      "Art. 111",
+      "Art. 112",
+      "Art. 113",
+      "Art. 122",
+      "Art. 134",
+      "Art. 139",
+      "Art. 140",
+      "Art. 156",
+      "Art. 183",
+      "Art. 185",
+      "Art. 221",
+      "Art. 223",
+      "Art. 224",
+      "Art. 225",
+      "Art. 226",
+      "Art. 226ter"
+    ],
+    "confidence": "high",
+    "reasoning": "Same as ITEM 37 but without SR; list of Strafgesetzbuch articles refers to SR 311.0."
+  },
+  {
+    "ITEM": 90,
+    "ARTICLE_EID": "art_100",
+    "TARGET_SR": "SR 812.121",
+    "assigned_articles": [
+      "Art. 19 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Same as ITEM 38 but without SR; 'Artikel 19 Absatz 2 des Betäubungsmittelgesetzes' refers to SR 812.121."
+  },
+  {
+    "ITEM": 91,
+    "ARTICLE_EID": "art_100",
+    "TARGET_SR": "SR 941.41",
+    "assigned_articles": [
+      "Art. 37"
+    ],
+    "confidence": "high",
+    "reasoning": "Same as ITEM 39 but without SR; 'Artikel 37 des Sprengstoffgesetzes' refers to SR 941.41."
+  },
+  {
+    "ITEM": 92,
+    "ARTICLE_EID": "art_100",
+    "TARGET_SR": "SR 514.54",
+    "assigned_articles": [
+      "Art. 33"
+    ],
+    "confidence": "high",
+    "reasoning": "Same as ITEM 40 but without SR; 'Artikel 33 des Waffengesetzes' refers to SR 514.54."
+  },
+  {
+    "ITEM": 93,
+    "ARTICLE_EID": "art_103",
+    "TARGET_SR": "SR 0.748.127.192.68",
+    "assigned_articles": [
+      "Art. 13"
+    ],
+    "confidence": "high",
+    "reasoning": "Same as ITEM 42 but without SR; 'Artikel 13 des Abkommens ... über den Luftverkehr' refers to SR 0.748.127.192.68."
+  },
+  {
+    "ITEM": 94,
+    "ARTICLE_EID": "art_103",
+    "TARGET_SR": "self",
+    "assigned_articles": [
+      "Art. 101",
+      "Art. 102",
+      "Art. 102a"
+    ],
+    "confidence": "high",
+    "reasoning": "Refers to 'nach den Artikeln 101, 102 und 102a dieses Gesetzes'; clearly internal articles."
+  },
+  {
+    "ITEM": 95,
+    "ARTICLE_EID": "art_106",
+    "TARGET_SR": "self",
+    "assigned_articles": [
+      "Art. 64",
+      "Art. 65",
+      "Art. 66",
+      "Art. 67",
+      "Art. 68",
+      "Art. 69",
+      "Art. 70",
+      "Art. 71",
+      "Art. 72",
+      "Art. 73",
+      "Art. 74",
+      "Art. 77",
+      "Art. 78",
+      "Art. 79"
+    ],
+    "confidence": "medium",
+    "reasoning": "Snippet: 'ausschliesslich gemäss den Artikeln 64–74 und 77–79 dieses Gesetzes.'; internal range and additional articles."
+  },
+  {
+    "ITEM": 96,
+    "ARTICLE_EID": "art_107_a",
+    "TARGET_SR": "SR 235.1",
+    "assigned_articles": [
+      "Art. 16"
+    ],
+    "confidence": "high",
+    "reasoning": "Same as ITEM 43 but without SR; 'Artikel 16 des Datenschutzgesetzes' refers to SR 235.1."
+  },
+  {
+    "ITEM": 97,
+    "ARTICLE_EID": "art_107_a",
+    "TARGET_SR": "self",
+    "assigned_articles": [
+      "Art. 100 Abs. 2",
+      "Art. 100 Abs. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "Refers to 'gestützt auf Artikel 100 Absätze 2 und 3'; internal paragraphs of Art. 100."
+  },
+  {
+    "ITEM": 98,
+    "ARTICLE_EID": "art_107_b",
+    "TARGET_SR": "self",
+    "assigned_articles": [
+      "Art. 52"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet: 'im schweizerischen Luftfahrzeugregister (Art. 52 ff.)'; 'Art. 52 ff.' is an internal reference to Art. 52 and following."
+  },
+  {
+    "ITEM": 99,
+    "ARTICLE_EID": "art_108_c",
+    "TARGET_SR": "self",
+    "assigned_articles": [
+      "Art. 108b Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Refers to 'Daten nach Artikel 108b Absatz 2'; internal article and paragraph."
+  },
+  {
+    "ITEM": 100,
+    "ARTICLE_EID": "art_108_c",
+    "TARGET_SR": "self",
+    "assigned_articles": [
+      "Art. 108b Abs. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "Refers to 'Verfügung nach Artikel 108b Absatz 3'; internal article and paragraph."
+  }
+]

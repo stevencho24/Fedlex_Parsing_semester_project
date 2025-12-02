@@ -1,0 +1,85 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 220",
+    "assigned_articles": [
+      "Art. 962a Abs. 5"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Formulierung \"gestützt auf Artikel 962a Absatz 5 des Obligationenrechts (OR) SR 220\" verknüpft den genannten Artikel syntaktisch eindeutig mit SR 220."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 952.0",
+    "assigned_articles": [
+      "Art. 6b Abs. 1",
+      "Art. 6b Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Satzteil \"auf Artikel 6b Absätze 1 und 2 des Bankengesetzes vom 8. November 1934 SR 952.0\" werden die Absätze 1 und 2 von Art. 6b direkt dem Bankengesetz (SR 952.0) zugeordnet."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 954.1",
+    "assigned_articles": [
+      "Art. 48"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Passus \"auf Artikel 48 des Finanzinstitutsgesetzes vom 15. Juni 2018 SR 954.1\" ordnet Art. 48 eindeutig dem Finanzinstitutsgesetz (SR 954.1) zu."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 951.31",
+    "assigned_articles": [
+      "Art. 87"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Wendung \"auf Artikel 87 des Kollektivanlagengesetzes vom 23. Juni 2006 SR 951.31\" verknüpft Art. 87 klar mit dem Kollektivanlagengesetz (SR 951.31)."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": "SR 951.31",
+    "assigned_articles": [
+      "Art. 91",
+      "Art. 118i Abs. 6"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Satz steht: \"(Art. 91 und 118i Abs. 6 KAG)\"; KAG ist zuvor als Kollektivanlagengesetz (SR 951.31) definiert. Damit beziehen sich Art. 91 und Art. 118i Abs. 6 eindeutig auf SR 951.31."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 220",
+    "assigned_articles": [
+      "Art. 957"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Stelle \"gemäss Artikel 957 OR\" verwendet das im Vorspann definierte Akronym OR für SR 220; Art. 957 ist damit klar dem Obligationenrecht (SR 220) zugeordnet."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Interne Verweisung: Art. 25–42 der Bankenverordnung"
+    ],
+    "confidence": "high",
+    "reasoning": "Es wird \"(Art. 25–42 der Bankenverordnung vom 30. April 2014)\" erwähnt, ohne Bezug zu einem im Datensatz als TARGET_SR erfassten SR-Link; dies ist eine eigenständige Verweisung auf die Bankenverordnung und damit eine interne/andere SR-Referenz, nicht auf ein hier angegebenes TARGET_SR."
+  },
+  {
+    "ITEM": 8,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": "SR 951.31",
+    "assigned_articles": [
+      "Art. 91",
+      "Art. 118i Abs. 6"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Text lautet: \"(Art. 91 und 118i Abs. 6 KAG)\"; KAG ist das Kollektivanlagengesetz (SR 951.31). Die Artikelangaben sind syntaktisch direkt mit diesem Gesetz verknüpft."
+  }
+]

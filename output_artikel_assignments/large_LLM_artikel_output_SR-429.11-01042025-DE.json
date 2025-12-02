@@ -1,0 +1,138 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 429.1",
+    "assigned_articles": [
+      "Art. 2 Abs. 1",
+      "Art. 3 Abs. 1",
+      "Art. 3 Abs. 5",
+      "Art. 5 Abs. 2",
+      "Art. 5a Abs. 2",
+      "Art. 7"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Präambel nennt ausdrücklich: Artikel 2 Absatz 1, 3 Absätze 1 und 5, 5 Absatz 2, 5a Absatz 2 sowie 7 des Bundesgesetzes SR 429.1 (MetG). Alle diese Artikelangaben sind syntaktisch direkt dem genannten Gesetz zugeordnet."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": "SR 520.12",
+    "assigned_articles": [
+      "Art. 3 Abs. 1 Bst. a Ziff. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Satz: \"... nach Artikel 3 Absatz 1 Buchstabe a Ziffer 2 der Verordnung ... SR 520.12 über den Bevölkerungsschutz\" wird der Artikel mit vollständiger Struktur (Art. 3 Abs. 1 Bst. a Ziff. 2) eindeutig dieser Verordnung zugeordnet."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_6",
+    "TARGET_SR": "SR 172.041.1",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "Formulierung: \"gelten die Bestimmungen der Allgemeinen Gebührenverordnung ... SR 172.041.1\" ohne Nennung einzelner Artikel. Es handelt sich um eine generelle Verweisung auf die gesamte Verordnung."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_12",
+    "TARGET_SR": "SR 0.429.5",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "Das Übereinkommen SR 0.429.5 wird nur als Ganzes bezeichnet (Titel + SR-Nummer), ohne konkrete Artikelangabe. Daher allgemeine Dokumentverweisung."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_12",
+    "TARGET_SR": "SR 0.425.43",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "Auch hier wird das Übereinkommen SR 0.425.43 nur als Ganzes genannt, ohne Artikel- oder Absatzangaben."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_12",
+    "TARGET_SR": "SR 0.425.44",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "Das Abkommen SR 0.425.44 wird lediglich mit Titel und SR-Nummer erwähnt; keine spezifischen Artikel werden genannt."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": "SR 429.1",
+    "assigned_articles": [
+      "Art. 3 Abs. 3 Bst. a",
+      "Art. 3 Abs. 3 Bst. b"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Snippet: \"... gemäss Artikel 3 Absatz 3 Buchstabe a MetG; ... gemäss Artikel 3 Absatz 3 Buchstabe b MetG;\" wird MetG in der Präambel als SR 429.1 definiert. Die Artikelangaben sind syntaktisch direkt mit MetG verknüpft."
+  },
+  {
+    "ITEM": 8,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 3 Abs. 3 Bst. a"
+    ],
+    "confidence": "high",
+    "reasoning": "Reiner Artikelverweis innerhalb des eigenen Dokuments: \"gemäss Artikel 3 Absatz 3 Buchstabe a MetG\". Dies ist eine Selbstreferenz auf das MetG (SR 429.1), aber dieser item_type ist artikel_reference ohne TARGET_SR, daher als interne Artikelreferenz ohne externe SR-Zuordnung zu behandeln."
+  },
+  {
+    "ITEM": 9,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 3 Abs. 3 Bst. b"
+    ],
+    "confidence": "high",
+    "reasoning": "Wie bei ITEM 8: \"gemäss Artikel 3 Absatz 3 Buchstabe b MetG\" ist eine interne Verweisung auf einen Artikel des MetG; kein neuer externer SR-Link, daher als Selbstreferenz erfasst."
+  },
+  {
+    "ITEM": 10,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 3 Abs. 1 Bst. a Ziff. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Satz verweist auf \"Artikel 3 Absatz 1 Buchstabe a Ziffer 2 der Verordnung vom 11. November 2020 über den Bevölkerungsschutz\". Diese Verordnung ist bereits in ITEM 2 mit SR 520.12 verknüpft; hier handelt es sich jedoch um artikel_reference ohne TARGET_SR, also wird nur die Artikelstruktur als interne Referenz erfasst."
+  },
+  {
+    "ITEM": 11,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 2 Bst. a"
+    ],
+    "confidence": "high",
+    "reasoning": "Formulierung: \"... mit einem im Vergleich zu Artikel 2 Buchstabe a erhöhten Servicegrad.\" Dies ist eindeutig eine Selbstreferenz auf einen anderen Buchstaben desselben Erlasses (Art. 2 Bst. a)."
+  },
+  {
+    "ITEM": 12,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 8–12"
+    ],
+    "confidence": "high",
+    "reasoning": "Text: \"... nicht eine der Bestimmungen nach Artikel 8–12 einschlägig ist ...\". Dies ist ein Bereichsverweis auf die eigenen Artikel 8 bis 12 des gleichen Erlasses."
+  },
+  {
+    "ITEM": 13,
+    "ARTICLE_EID": "art_13",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 8"
+    ],
+    "confidence": "high",
+    "reasoning": "Text: \"... nach Artikel 8 beschafft.\" Dies ist eine interne Verweisung auf Artikel 8 desselben Dokuments, ohne Bezug zu einem externen SR."
+  }
+]

@@ -1,0 +1,98 @@
+[
+  {
+    "Item": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 830.1",
+    "assigned_articles": [
+      "Art. 81"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet explicitly cites 'Artikel 81 des Bundesgesetzes ... SR 830.1 über den Allgemeinen Teil des Sozialversicherungsrechts (ATSG)'; this article is syntactically linked to SR 830.1."
+  },
+  {
+    "Item": 2,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 831.10",
+    "assigned_articles": [
+      "Art. 154 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet explicitly cites 'Artikel 154 Absatz 2 des Bundesgesetzes vom 20. Dezember 1946 SR 831.10 über die Alters- und Hinterlassenenversicherung (AHVG)'; this article is syntactically linked to SR 831.10."
+  },
+  {
+    "Item": 3,
+    "ARTICLE_EID": "art_8",
+    "TARGET_SR": "SR 831.101",
+    "assigned_articles": [
+      "Art. 122",
+      "Art. 123",
+      "Art. 125"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet: 'gelten die Artikel 122, 123 und 125 der Verordnung ... SR 831.101 über die Alters- und Hinterlassenenversicherung (AHVV)'; the listed articles are directly attributed to this SR."
+  },
+  {
+    "Item": 4,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": "SR 831.10",
+    "assigned_articles": [
+      "Art. 26 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet: 'Zinsen werden vorbehältlich Artikel 26 Absatz 2 ATSG keine geleistet.' ATSG is mapped in the preamble to SR 831.10; the article reference is syntactically tied to the acronym, so Art. 26 Abs. 2 belongs to SR 831.10."
+  },
+  {
+    "Item": 5,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": "SR 831.10",
+    "assigned_articles": [
+      "Art. 29quinquies Abs. 3 Bst. c",
+      "Art. 21 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet mentions 'Artikel 29quinquies Absatz 3 Buchstabe c AHVG' and 'Artikel 21 Absatz 1 AHVG'. AHVG is mapped to SR 831.10 in the preamble; both article references are explicitly tied to that acronym."
+  },
+  {
+    "Item": 6,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 29quinquies Abs. 3 Bst. c"
+    ],
+    "confidence": "medium",
+    "reasoning": "artikel_reference without TARGET_SR. The snippet repeats 'Artikel 29quinquies Absatz 3 Buchstabe c AHVG', which is already assigned in Item 5 to SR 831.10. As an artikel_reference, it primarily functions as an internal cross-reference; no new SR link is created here."
+  },
+  {
+    "Item": 7,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 21 Abs. 1"
+    ],
+    "confidence": "medium",
+    "reasoning": "artikel_reference without TARGET_SR. The snippet repeats 'Artikel 21 Absatz 1 AHVG', already assigned in Item 5 to SR 831.10. Here it serves as an internal cross-reference; no separate SR assignment is made."
+  },
+  {
+    "Item": 8,
+    "ARTICLE_EID": "art_8",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 122",
+      "Art. 123",
+      "Art. 125"
+    ],
+    "confidence": "medium",
+    "reasoning": "artikel_reference without TARGET_SR. The snippet repeats 'Artikel 122, 123 und 125 ... (AHVV)', which are already assigned in Item 3 to SR 831.101. This functions as an internal cross-reference; no new SR link is inferred."
+  },
+  {
+    "Item": 9,
+    "ARTICLE_EID": "art_8",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 138",
+      "Art. 139"
+    ],
+    "confidence": "medium",
+    "reasoning": "Snippet: '(Art. 138 und 139 AHVV)'. As artikel_reference, it indicates a cross-reference to AHVV articles but no explicit SR number is present here. Given prior context (Item 3) these are likely Art. 138 and 139 of SR 831.101, but since no TARGET_SR is provided and per rules ambiguous cases default to self-reference, no SR is assigned."
+  }
+]

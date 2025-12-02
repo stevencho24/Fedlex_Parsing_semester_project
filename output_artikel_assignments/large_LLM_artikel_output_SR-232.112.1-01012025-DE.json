@@ -1,0 +1,187 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 232.11",
+    "assigned_articles": [
+      "Art. 48 Abs. 4",
+      "Art. 48b Abs. 1",
+      "Art. 48b Abs. 4",
+      "Art. 50"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet explicitly cites 'Artikel 48 Absatz 4, 48b Absätze 1 und 4 sowie 50 des Markenschutzgesetzes ... SR 232.11 (MSchG)'; all these articles are grammatically linked to the named law."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": [
+      "Art. 43"
+    ],
+    "confidence": "high",
+    "reasoning": "Phrase 'nach Artikel 43 des Zollgesetzes ... SR 631.0' directly links Art. 43 to the cited SR."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": "SR 817.02",
+    "assigned_articles": [
+      "Art. 2 Abs. 1 Ziff. 22–24"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet: 'nach Artikel 2 Absatz 1 Ziffern 22–24 der ... Verordnung ... SR 817.02 (LGV)' clearly attributes this specific provision to SR 817.02."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": "SR 817.02",
+    "assigned_articles": [
+      "Art. 36"
+    ],
+    "confidence": "high",
+    "reasoning": "Text: 'im Verzeichnis der Zutaten nach Artikel 36 LGV SR 817.02' directly associates Art. 36 LGV with SR 817.02."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_7_a",
+    "TARGET_SR": "SR 910.1",
+    "assigned_articles": [
+      "Art. 14 Abs. 1 Bst. a",
+      "Art. 15 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet: 'im Sinne der Artikel 14 Absatz 1 Buchstabe a und 15 Absatz 2 des Landwirtschaftsgesetzes ... SR 910.1' clearly ties both cited provisions to SR 910.1."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 232.11",
+    "assigned_articles": [
+      "Art. 48b Abs. 2–4"
+    ],
+    "confidence": "high",
+    "reasoning": "Phrase 'nach Artikel 48b Absätze 2–4 MSchG' explicitly refers to these paragraphs of Art. 48b of SR 232.11."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": "SR 232.11",
+    "assigned_articles": [
+      "Art. 48 Abs. 4"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet: 'Naturprodukten nach Artikel 48 Absatz 4 MSchG' directly links Art. 48 Abs. 4 to SR 232.11."
+  },
+  {
+    "ITEM": 8,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": "SR 232.11",
+    "assigned_articles": [
+      "Art. 48b Abs. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "Text: 'Feststellungen nach Artikel 48b Absatz 3 MSchG' clearly cites this specific paragraph of Art. 48b."
+  },
+  {
+    "ITEM": 9,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": "SR 232.11",
+    "assigned_articles": [
+      "Art. 48b Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet: 'Prozentsätze nach Artikel 48b Absatz 2 MSchG' explicitly refers to Art. 48b Abs. 2 of SR 232.11."
+  },
+  {
+    "ITEM": 10,
+    "ARTICLE_EID": "art_7_a",
+    "TARGET_SR": "SR 232.11",
+    "assigned_articles": [
+      "Art. 48b Abs. 4"
+    ],
+    "confidence": "high",
+    "reasoning": "Text: 'nach Massgabe von Artikel 48b Absatz 4 MSchG' clearly cites this paragraph of Art. 48b."
+  },
+  {
+    "ITEM": 11,
+    "ARTICLE_EID": "art_8",
+    "TARGET_SR": "SR 232.11",
+    "assigned_articles": [
+      "Art. 48b Abs. 3 Bst. b"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet: 'wie lange dieses nach Artikel 48b Absatz 3 Buchstabe b MSchG ...' explicitly identifies Art. 48b Abs. 3 lit. b."
+  },
+  {
+    "ITEM": 12,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 48b Abs. 2–4"
+    ],
+    "confidence": "high",
+    "reasoning": "This is an artikel_reference repeating the same wording as ITEM 6; it is a self-reference within the current document to the external law already captured there, not a new SR link. It refers to Art. 48b Abs. 2–4 MSchG but functions as internal context, so no TARGET_SR is assigned here."
+  },
+  {
+    "ITEM": 13,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 43"
+    ],
+    "confidence": "high",
+    "reasoning": "Self-contained sentence in the article text mirroring ITEM 2; 'nach Artikel 43 des Zollgesetzes' is part of the same external citation already linked via SR_link_detection. As artikel_reference, it is treated as internal reference context without assigning TARGET_SR."
+  },
+  {
+    "ITEM": 14,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 2 Abs. 1 Ziff. 22–24"
+    ],
+    "confidence": "high",
+    "reasoning": "Repeats the same clause as ITEM 3 ('nach Artikel 2 Absatz 1 Ziffern 22–24 ... (LGV)'). It is an internal repetition of that external reference; no separate TARGET_SR is set for artikel_reference items."
+  },
+  {
+    "ITEM": 15,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 3 Abs. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "Phrase 'Wasser, das nach Artikel 3 Absatz 3 ...' clearly refers to another article within the same ordinance (self-reference). No external SR is mentioned, so this is an internal cross-reference only."
+  },
+  {
+    "ITEM": 16,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 3 Abs. 4"
+    ],
+    "confidence": "high",
+    "reasoning": "Text 'Produkte, die nach Artikel 3 Absatz 4 ...' is an internal reference to Art. 3 Abs. 4 of the same document; no SR context is present."
+  },
+  {
+    "ITEM": 17,
+    "ARTICLE_EID": "art_7_a",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 14 Abs. 1 Bst. a",
+      "Art. 15 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "This mirrors ITEM 5 but as artikel_reference; it cites 'Artikel 14 Absatz 1 Buchstabe a und 15 Absatz 2 des Landwirtschaftsgesetzes'. As per rules, artikel_reference captures the textual cross-reference, while the external SR link is already handled in ITEM 5, so no TARGET_SR is assigned here."
+  },
+  {
+    "ITEM": 18,
+    "ARTICLE_EID": "art_10_a",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 7a Abs. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet: 'nach Artikel 7a Absatz 3' clearly refers to another article within the same ordinance (self-reference). No external SR is mentioned, so it remains an internal cross-reference."
+  }
+]

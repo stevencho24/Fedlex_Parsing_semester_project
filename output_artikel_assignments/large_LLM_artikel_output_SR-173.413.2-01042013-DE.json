@@ -1,0 +1,73 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 173.41",
+    "assigned_articles": [
+      "Art. 20 Abs. 3 Bst. a",
+      "Art. 33"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Präambel nennt ausdrücklich: «gestützt auf die Artikel 20 Absatz 3 Buchstabe a und 33 des Patentgerichtsgesetzes … SR 173.41 (PatGG)». Beide Artikel werden direkt diesem Gesetz (SR 173.41) zugeordnet."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": "SR 173.41",
+    "assigned_articles": [
+      "Art. 32"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Snippet: «Die nach Artikel 32 PatGG … zustehende Parteientschädigung». Das Akronym PatGG ist in der Präambel als SR 173.41 definiert, daher bezieht sich «Artikel 32 PatGG» auf Art. 32 SR 173.41."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_9",
+    "TARGET_SR": "SR 173.41",
+    "assigned_articles": [
+      "Art. 29 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Snippet: «… nach Artikel 29 Absatz 1 PatGG …». PatGG ist SR 173.41, somit ist der zitierte Artikel Art. 29 Abs. 1 SR 173.41."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Interne Verweisung innerhalb derselben Verordnung auf Art. 5"
+    ],
+    "confidence": "high",
+    "reasoning": "«… innerhalb der Beträge nach Artikel 5 …» verweist ohne Gesetzesabkürzung oder SR-Angabe auf einen Artikel derselben Verordnung. Es besteht kein syntaktischer Bezug zu einem externen SR, daher Selbstverweisung und keine Zuordnung zu einem TARGET_SR."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_8",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Interne Verweisung innerhalb derselben Verordnung auf Art. 5"
+    ],
+    "confidence": "high",
+    "reasoning": "«… kann die Entschädigung nach Artikel 5 überschritten … werden.» Ohne Gesetzesabkürzung; klar interne Strukturverweisung auf Art. 5 derselben Verordnung, kein Bezug zu einem externen SR."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_9",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Interne Verweisung innerhalb derselben Verordnung auf Art. 3 Bst. a"
+    ],
+    "confidence": "high",
+    "reasoning": "«… als notwendige Auslagen im Sinne von Artikel 3 Buchstabe a geltend zu machen.» Keine Nennung eines Gesetzes oder SR; dies ist eine interne Verweisung auf Art. 3 lit. a derselben Verordnung."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_10",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Interne Verweisung innerhalb derselben Verordnung auf Art. 5"
+    ],
+    "confidence": "high",
+    "reasoning": "«… richtet sich nach Artikel 5.» Auch hier fehlt jede Gesetzesabkürzung oder SR-Nummer; es handelt sich um eine Selbstverweisung auf Art. 5 der gleichen Verordnung, nicht auf ein externes SR."
+  }
+]

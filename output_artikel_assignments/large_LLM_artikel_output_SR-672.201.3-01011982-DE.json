@@ -1,0 +1,57 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 672.201",
+    "assigned_articles": [
+      "Art. 6 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Formulierung «gestützt auf Artikel 6 Absatz 2 der Verordnung vom 22. August 1967 SR 672.201» verknüpft den Artikel grammatikalisch eindeutig mit der genannten Verordnung SR 672.201."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 0.672.913.62",
+    "assigned_articles": [
+      "Art. 10 Abs. 6",
+      "Art. 10 Abs. 4"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Snippet wird «im Sinne des Artikels 10 Absatz 6 des Abkommens … SR 0.672.913.62» genannt; in der authorialNote wird klargestellt «Heute: im Sinne des Art. 10 Abs. 4.»; beide Verweise beziehen sich auf dasselbe Abkommen SR 0.672.913.62."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 6 Abs. 1",
+      "Art. 10 Abs. 6"
+    ],
+    "confidence": "high",
+    "reasoning": "Es handelt sich um eine reine Artikelreferenz ohne explizite SR-Nennung im Snippet. «Artikel 6 Absatz 1 der Verordnung des Bundesrates» und «Artikels 10 Absatz 6 des Abkommens» sind inhaltlich Selbstverweise auf die im Dokument bereits eingeführten Grundlagen (Verordnung SR 672.201 und Abkommen SR 0.672.913.62), nicht auf einen neuen TARGET_SR. Daher als interne Artikelreferenzen ohne TARGET_SR behandelt."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 4 Abs. 3",
+      "Art. 4 Abs. 4",
+      "Art. 4 Abs. 9",
+      "Art. 10 Abs. 2–5"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Satz verweist auf «Artikels 4 Absätze 3, 4 und 9 des Abkommens» sowie «Artikel 10 Absätze 2–5 des Abkommens». Es wird kein SR im Snippet genannt; syntaktisch sind dies Verweise innerhalb des bereits bekannten Abkommens, also interne/kontextuelle Artikelreferenzen ohne neuen TARGET_SR."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 10 Abs. 2–5"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Text «wenn Artikel 10 Absätze 2–5 des Abkommens anzuwenden wären» verweist wiederum auf Bestimmungen des bereits eingeführten Abkommens, ohne eine neue SR-Nummer zu nennen. Daher als interne Artikelreferenz ohne TARGET_SR zu behandeln."
+  }
+]

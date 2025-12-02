@@ -1,0 +1,165 @@
+[
+  {
+    "Item": 1,
+    "TARGET_SR": "SR 748.0",
+    "assigned_articles": [
+      "Art. 57 Abs. 1",
+      "Art. 57 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet explicitly cites 'Artikel 57 Absätze 1 und 2 des Luftfahrtgesetzes ... SR 748.0'; direct syntactic link between the article numbers and the cited SR."
+  },
+  {
+    "Item": 2,
+    "TARGET_SR": "SR 0.748.127.192.68",
+    "assigned_articles": [
+      "Ziff. 3 Anhang"
+    ],
+    "confidence": "high",
+    "reasoning": "The only pinpoint reference is 'Ziffer 3 des Anhangs zum Abkommen ... SR 0.748.127.192.68'; no other articles or paragraphs of this SR are mentioned."
+  },
+  {
+    "Item": 3,
+    "TARGET_SR": "SR 748.215.1",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "medium",
+    "reasoning": "The snippet refers generically to 'die Verordnung ... SR 748.215.1 über die Lufttüchtigkeit von Luftfahrzeugen (VLL)' without specifying any article or paragraph; treat as a general reference."
+  },
+  {
+    "Item": 4,
+    "TARGET_SR": "SR 0.748.127.192.68",
+    "assigned_articles": [
+      "Ziff. 3 Anhang"
+    ],
+    "confidence": "high",
+    "reasoning": "Inside authorial note: 'Gemäss Ziff. 3 des Anhangs des Luftverkehrsabkommens (SR 0.748.127.192.68)'; this is a direct pinpoint to Ziffer 3 of the Annex of that SR."
+  },
+  {
+    "Item": 5,
+    "TARGET_SR": "SR 0.748.127.192.68",
+    "assigned_articles": [
+      "Ziff. 3 Anhang"
+    ],
+    "confidence": "high",
+    "reasoning": "Again explicitly 'Gemäss Ziff. 3 des Anhangs des Luftverkehrsabkommens (SR 0.748.127.192.68)'; no other article-level reference present."
+  },
+  {
+    "Item": 6,
+    "TARGET_SR": "SR 0.748.127.192.68",
+    "assigned_articles": [
+      "Ziff. 3 Anhang"
+    ],
+    "confidence": "high",
+    "reasoning": "The authorial note states 'Gemäss Ziff. 3 des Anhangs zum Luftverkehrsabkommen (SR 0.748.127.192.68).'; clear pinpoint to that annex provision."
+  },
+  {
+    "Item": 7,
+    "TARGET_SR": "SR 0.748.127.192.68",
+    "assigned_articles": [
+      "Ziff. 3 Anhang"
+    ],
+    "confidence": "high",
+    "reasoning": "Same construction: 'Gemäss Ziff. 3 des Anhangs des Luftverkehrsabkommens (SR 0.748.127.192.68).'; no other article numbers tied to this SR."
+  },
+  {
+    "Item": 8,
+    "TARGET_SR": "SR 748.215.1",
+    "assigned_articles": [
+      "Art. 37 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet and acronym context: 'eine Freigabebescheinigung nach Artikel 37 Absatz 1 VLL ... SR 748.215.1'; direct marking of article and paragraph for that SR."
+  },
+  {
+    "Item": 9,
+    "TARGET_SR": "SR 0.748.127.192.68",
+    "assigned_articles": [
+      "Ziff. 3 Anhang"
+    ],
+    "confidence": "high",
+    "reasoning": "Authorial note: 'Gemäss Ziff. 3 des Anhangs des Luftverkehrsabkommens (SR 0.748.127.192.68)'; explicit pinpoint to that annex provision."
+  },
+  {
+    "Item": 10,
+    "TARGET_SR": "SR 748.0",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "medium",
+    "reasoning": "Preamble acronym item: 'Verordnung des UVEK ... (VLL)' is linked via acronym UVEK to SR 748.0 in the callback, but no specific article of SR 748.0 is mentioned; treat as a general reference to the underlying law."
+  },
+  {
+    "Item": 11,
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "Artikel 8 is cited without any SR or acronym; this is a cross-reference to another article of the same ordinance (self-reference)."
+  },
+  {
+    "Item": 12,
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "Again 'Artikel 8' with no external SR context; syntactically an internal reference within the current document."
+  },
+  {
+    "Item": 13,
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "Reference 'Artikel 8 Buchstabe c.' appears without any SR or external law name; clearly refers to article 8 of this ordinance."
+  },
+  {
+    "Item": 14,
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference innerhalb des aktuellen Dokuments (Art. 7, 8, 13, 14)"
+    ],
+    "confidence": "high",
+    "reasoning": "The phrase 'gelten sinngemäss die Artikel 7, 8, 13 und 14' lists only article numbers with no SR or external act; these are internal cross-references."
+  },
+  {
+    "Item": 15,
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference innerhalb des aktuellen Dokuments (Art. 8)"
+    ],
+    "confidence": "high",
+    "reasoning": "Reference to 'Artikel 8' with no external SR; self-reference to article 8 of the same ordinance."
+  },
+  {
+    "Item": 16,
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference innerhalb des aktuellen Dokuments (Art. 13)"
+    ],
+    "confidence": "high",
+    "reasoning": "The wording 'im Sinne von Artikel 13' is purely internal; no SR or external law is mentioned."
+  },
+  {
+    "Item": 17,
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference innerhalb des aktuellen Dokuments (Art. 7 Abs. 3)"
+    ],
+    "confidence": "high",
+    "reasoning": "Reference 'Artikel 7 Absatz 3' appears without any external SR; it points to paragraph 3 of article 7 of this ordinance."
+  },
+  {
+    "Item": 18,
+    "TARGET_SR": "SR 748.0",
+    "assigned_articles": [
+      "Art. 92"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet: 'in Anwendung von Artikel 92 des Bundesgesetzes vom 21. Dezember 1948 über die Luftfahrt.' This is the Luftfahrtgesetz, which in this file is SR 748.0; direct syntactic link between Art. 92 and that SR."
+  }
+]

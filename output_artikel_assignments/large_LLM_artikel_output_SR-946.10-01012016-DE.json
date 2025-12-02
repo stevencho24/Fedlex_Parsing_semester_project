@@ -1,0 +1,261 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 101",
+    "assigned_articles": [
+      "Art. 100 Abs. 1",
+      "Art. 101 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Formulierung «gestützt auf die Artikel 100 Absatz 1 und 101 Absatz 1 der Bundesverfassung SR 101» verknüpft beide Artikel grammatikalisch eindeutig mit der Bundesverfassung (SR 101)."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_20",
+    "TARGET_SR": "SR 220",
+    "assigned_articles": [
+      "Art. 104"
+    ],
+    "confidence": "high",
+    "reasoning": "«… mit Verzugszins nach Artikel 104 des Obligationenrechts SR 220 …»; Artikel 104 ist direkt mit dem Obligationenrecht (SR 220) verbunden."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_23",
+    "TARGET_SR": "SR 220",
+    "assigned_articles": [
+      "Art. 752–760"
+    ],
+    "confidence": "high",
+    "reasoning": "«(Art. 752–760 des Obligationenrechts SR 220)» nennt explizit die Artikel 752–760 des Obligationenrechts; die Klammer steht unmittelbar bei der SR‑Angabe."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_23",
+    "TARGET_SR": "SR 170.32",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "«Das Verantwortlichkeitsgesetz vom 14. März 1958 SR 170.32 findet keine Anwendung.» enthält keinen bestimmten Artikel; es wird das Gesetz als Ganzes ausgeschlossen."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_24",
+    "TARGET_SR": "SR 172.220.1",
+    "assigned_articles": [
+      "Art. 6a Abs. 1–5"
+    ],
+    "confidence": "high",
+    "reasoning": "«gilt Artikel 6a Absätze 1–5 des Bundespersonalgesetzes … SR 172.220.1 sinngemäss» verknüpft Art. 6a Abs. 1–5 eindeutig mit dem Bundespersonalgesetz (SR 172.220.1)."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_27",
+    "TARGET_SR": "SR 220",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "«wird nach Obligationenrecht SR 220 angestellt» nennt keinen bestimmten Artikel; es handelt sich um eine generelle Verweisung auf das Obligationenrecht."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_27",
+    "TARGET_SR": "SR 172.220.1",
+    "assigned_articles": [
+      "Art. 4",
+      "Art. 5"
+    ],
+    "confidence": "high",
+    "reasoning": "«berücksichtigt … die Artikel 4 und 5 des Bundespersonalgesetzes … SR 172.220.1»; beide Artikel sind direkt dem Bundespersonalgesetz zugeordnet."
+  },
+  {
+    "ITEM": 8,
+    "ARTICLE_EID": "art_27_a",
+    "TARGET_SR": "SR 312.0",
+    "assigned_articles": [
+      "Art. 113 Abs. 1",
+      "Art. 168",
+      "Art. 169"
+    ],
+    "confidence": "high",
+    "reasoning": "«nach den Artikeln 113 Absatz 1, 168 und 169 der Strafprozessordnung SR 312.0»; alle drei Artikel werden ausdrücklich der Strafprozessordnung zugeordnet."
+  },
+  {
+    "ITEM": 9,
+    "ARTICLE_EID": "art_36",
+    "TARGET_SR": "SR 311.0",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "medium",
+    "reasoning": "«die besonderen Bestimmungen des Strafgesetzbuches SR 311.0» verweist auf einen unbestimmten Teil («besondere Bestimmungen») ohne konkrete Artikel; mangels genauerer Angabe wird das Gesetz generell referenziert."
+  },
+  {
+    "ITEM": 10,
+    "ARTICLE_EID": "art_40",
+    "TARGET_SR": "SR 220",
+    "assigned_articles": [
+      "Art. 333"
+    ],
+    "confidence": "high",
+    "reasoning": "«… und Artikel 333 des Obligationenrechts SR 220»; Art. 333 ist klar mit dem Obligationenrecht verknüpft."
+  },
+  {
+    "ITEM": 11,
+    "ARTICLE_EID": "art_13",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 6"
+    ],
+    "confidence": "high",
+    "reasoning": "«… nach Artikel 6 vereinbar ist.» enthält keinen SR‑Hinweis; es handelt sich um eine Selbstverweisung innerhalb desselben Gesetzes auf Art. 6."
+  },
+  {
+    "ITEM": 12,
+    "ARTICLE_EID": "art_20",
+    "TARGET_SR": "SR 220",
+    "assigned_articles": [
+      "Art. 104"
+    ],
+    "confidence": "high",
+    "reasoning": "Dieselbe Passage wie bei ITEM 2, jedoch ohne explizite SR‑Angabe im Snippet; aus ITEM 2 ist klar, dass «Artikel 104 des Obligationenrechts» SR 220 meint."
+  },
+  {
+    "ITEM": 13,
+    "ARTICLE_EID": "art_23",
+    "TARGET_SR": "SR 220",
+    "assigned_articles": [
+      "Art. 752–760"
+    ],
+    "confidence": "high",
+    "reasoning": "Entspricht inhaltlich ITEM 3; «(Art. 752–760 des Obligationenrechts)» ist eine Verweisung auf diese Artikel des OR (SR 220)."
+  },
+  {
+    "ITEM": 14,
+    "ARTICLE_EID": "art_24",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 34"
+    ],
+    "confidence": "high",
+    "reasoning": "«unter Vorbehalt der Kompetenzen des Bundesrates nach Artikel 34» verweist ohne SR‑Angabe auf einen anderen Artikel desselben Gesetzes; daher interne Selbstverweisung auf Art. 34."
+  },
+  {
+    "ITEM": 15,
+    "ARTICLE_EID": "art_24",
+    "TARGET_SR": "SR 172.220.1",
+    "assigned_articles": [
+      "Art. 6a Abs. 1–5"
+    ],
+    "confidence": "high",
+    "reasoning": "Gleicher Inhalt wie ITEM 5, nur ohne SR‑Angabe im Snippet; aus ITEM 5 folgt, dass «Artikel 6a Absätze 1–5 des Bundespersonalgesetzes» SR 172.220.1 betrifft."
+  },
+  {
+    "ITEM": 16,
+    "ARTICLE_EID": "art_25",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 7 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "«… in den Organisationen nach Artikel 7 Absatz 2.»; kein SR‑Hinweis, daher Verweisung auf Art. 7 Abs. 2 desselben Gesetzes."
+  },
+  {
+    "ITEM": 17,
+    "ARTICLE_EID": "art_27",
+    "TARGET_SR": "SR 172.220.1",
+    "assigned_articles": [
+      "Art. 4",
+      "Art. 5"
+    ],
+    "confidence": "high",
+    "reasoning": "Inhaltlich wie ITEM 7; «die Artikel 4 und 5 des Bundespersonalgesetzes» beziehen sich auf SR 172.220.1."
+  },
+  {
+    "ITEM": 18,
+    "ARTICLE_EID": "art_27",
+    "TARGET_SR": "SR 172.220.1",
+    "assigned_articles": [
+      "Art. 6a Abs. 1–5"
+    ],
+    "confidence": "high",
+    "reasoning": "«gilt Artikel 6a Absätze 1–5 des Bundespersonalgesetzes … sinngemäss.»; aus den anderen Stellen (ITEM 5, 15) ist klar, dass dies Art. 6a Abs. 1–5 BPG (SR 172.220.1) ist."
+  },
+  {
+    "ITEM": 19,
+    "ARTICLE_EID": "art_27_a",
+    "TARGET_SR": "SR 312.0",
+    "assigned_articles": [
+      "Art. 113 Abs. 1",
+      "Art. 168",
+      "Art. 169"
+    ],
+    "confidence": "high",
+    "reasoning": "Entspricht ITEM 8 ohne SR‑Angabe im Snippet; «Artikeln 113 Absatz 1, 168 und 169 der Strafprozessordnung» sind Artikel der StPO (SR 312.0)."
+  },
+  {
+    "ITEM": 20,
+    "ARTICLE_EID": "art_28",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 4",
+      "Art. 11"
+    ],
+    "confidence": "high",
+    "reasoning": "«… im Rahmen ihrer Aufgabenerfüllung nach den Artikeln 4 und 11»; ohne SR‑Hinweis ist dies eine interne Verweisung auf Art. 4 und 11 desselben Gesetzes."
+  },
+  {
+    "ITEM": 21,
+    "ARTICLE_EID": "art_35",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 6"
+    ],
+    "confidence": "high",
+    "reasoning": "«… die Einhaltung der Grundsätze der Geschäftspolitik nach Artikel 6 …»; kein externes Gesetz genannt, daher Selbstverweisung auf Art. 6."
+  },
+  {
+    "ITEM": 22,
+    "ARTICLE_EID": "art_36",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 19 Abs. 2",
+      "Art. 20"
+    ],
+    "confidence": "high",
+    "reasoning": "«… nach den Artikeln 19 Absatz 2 zweiter Satz und 20 entzieht»; ohne SR‑Angabe sind dies interne Verweisungen auf Art. 19 Abs. 2 und Art. 20 desselben Gesetzes."
+  },
+  {
+    "ITEM": 23,
+    "ARTICLE_EID": "art_36",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 16 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "«… nach Artikel 16 Absatz 2 nicht nachkommt»; keine SR‑Angabe, daher interner Verweis auf Art. 16 Abs. 2."
+  },
+  {
+    "ITEM": 24,
+    "ARTICLE_EID": "art_36",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 19 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "«… nach Artikel 19 Absatz 2 erster Satz nicht nachkommt.»; wiederum ohne SR‑Hinweis, somit Selbstverweisung auf Art. 19 Abs. 2."
+  },
+  {
+    "ITEM": 25,
+    "ARTICLE_EID": "art_40",
+    "TARGET_SR": "SR 220",
+    "assigned_articles": [
+      "Art. 333"
+    ],
+    "confidence": "high",
+    "reasoning": "Inhaltlich wie ITEM 10; «Artikel 333 des Obligationenrechts» verweist auf Art. 333 OR (SR 220)."
+  }
+]

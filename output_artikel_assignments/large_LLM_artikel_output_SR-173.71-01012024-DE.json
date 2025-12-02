@@ -1,0 +1,429 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 101",
+    "assigned_articles": [
+      "Art. 123 Abs. 1",
+      "Art. 173 Abs. 2",
+      "Art. 191a Abs. 1",
+      "Art. 191a Abs. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "Die SNIPPET-Formulierung nennt ausdrücklich: \"Artikel 123 Absatz 1, 173 Absatz 2 und 191a Absätze 1 und 3 der Bundesverfassung SR 101\"; diese Artikel gehören syntaktisch eindeutig zur Bundesverfassung (SR 101)."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 312.0",
+    "assigned_articles": "General reference - entire document",
+    "confidence": "high",
+    "reasoning": "Es wird nur die Strafprozessordnung vom 5. Oktober 2007 (StPO, SR 312.0) als Ganzes erwähnt, ohne konkrete Artikelangabe; daher allgemeine Verweisung auf das gesamte Gesetz."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_6",
+    "TARGET_SR": "SR 170.32",
+    "assigned_articles": "General reference - entire document",
+    "confidence": "medium",
+    "reasoning": "Formulierung \"haftet nach dem Verantwortlichkeitsgesetz vom 14. März 1958 SR 170.32\" ohne Nennung einzelner Artikel; typische pauschale Anwendung des Verantwortlichkeitsgesetzes."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_18",
+    "TARGET_SR": "SR 173.110",
+    "assigned_articles": [
+      "Art. 25a Abs. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "SNIPPET: \"gemäss Artikel 25a Absatz 3 des Bundesgerichtsgesetzes ... SR 173.110\"; direkter syntaktischer Bezug von Art. 25a Abs. 3 auf das BGG (SR 173.110)."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_28",
+    "TARGET_SR": "SR 312.0",
+    "assigned_articles": "General reference - entire document",
+    "confidence": "medium",
+    "reasoning": "Es heisst \"Die Bestimmungen der StPO SR 312.0 über den Ausstand ...\"; welche Bestimmungen konkret gemeint sind, wird nicht durch Artikelnummern präzisiert."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_31",
+    "TARGET_SR": "SR 172.021",
+    "assigned_articles": "General reference - entire document",
+    "confidence": "medium",
+    "reasoning": "Formulierung \"das Verfahren richtet sich nach dem Verwaltungsverfahrensgesetz ... SR 172.021\" ohne Artikelangabe; pauschale Verweisung auf das VwVG."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_35",
+    "TARGET_SR": "SR 313.0",
+    "assigned_articles": "General reference - entire document",
+    "confidence": "medium",
+    "reasoning": "Es wird \"das Bundesgesetz ... SR 313.0 über das Verwaltungsstrafrecht\" als Grundlage für Überweisungen genannt, ohne konkrete Artikel; allgemeine Anwendung des VStrR."
+  },
+  {
+    "ITEM": 8,
+    "ARTICLE_EID": "art_36",
+    "TARGET_SR": "SR 312.0",
+    "assigned_articles": [
+      "Art. 19 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "SNIPPET: \"in den Fällen von Artikel 19 Absatz 2 StPO SR 312.0\"; eindeutige Zuordnung von Art. 19 Abs. 2 zur StPO (SR 312.0)."
+  },
+  {
+    "ITEM": 9,
+    "ARTICLE_EID": "art_37",
+    "TARGET_SR": "SR 312.0",
+    "assigned_articles": "General reference - entire document",
+    "confidence": "medium",
+    "reasoning": "Die StPO SR 312.0 wird als Ganzes herangezogen (\"für welche die StPO ... als zuständig bezeichnet\"), ohne einzelne Artikel zu nennen."
+  },
+  {
+    "ITEM": 10,
+    "ARTICLE_EID": "art_37",
+    "TARGET_SR": "SR 351.1",
+    "assigned_articles": "General reference - entire document",
+    "confidence": "low",
+    "reasoning": "Nur das Rechtshilfegesetz SR 351.1 wird genannt, ohne Artikel; mangels Kontext keine Eingrenzung auf bestimmte Bestimmungen möglich."
+  },
+  {
+    "ITEM": 11,
+    "ARTICLE_EID": "art_37",
+    "TARGET_SR": "SR 351.20",
+    "assigned_articles": "General reference - entire document",
+    "confidence": "low",
+    "reasoning": "Verweis auf das Bundesgesetz SR 351.20 über Zusammenarbeit mit internationalen Gerichten ohne Artikelangabe; pauschale Verweisung."
+  },
+  {
+    "ITEM": 12,
+    "ARTICLE_EID": "art_37",
+    "TARGET_SR": "SR 351.6",
+    "assigned_articles": "General reference - entire document",
+    "confidence": "low",
+    "reasoning": "Verweis auf das Bundesgesetz SR 351.6 über Zusammenarbeit mit dem Internationalen Strafgerichtshof ohne konkrete Artikel."
+  },
+  {
+    "ITEM": 13,
+    "ARTICLE_EID": "art_37",
+    "TARGET_SR": "SR 351.93",
+    "assigned_articles": "General reference - entire document",
+    "confidence": "low",
+    "reasoning": "Verweis auf das Bundesgesetz SR 351.93 zum Staatsvertrag mit den USA ohne Artikelangabe; allgemeine Bezugnahme."
+  },
+  {
+    "ITEM": 14,
+    "ARTICLE_EID": "art_37",
+    "TARGET_SR": "SR 313.0",
+    "assigned_articles": "General reference - entire document",
+    "confidence": "medium",
+    "reasoning": "Formulierung \"Beschwerden, die ihnen das Bundesgesetz ... SR 313.0 ... zuweist\"; das Zuweisungssystem ergibt sich aus mehreren Bestimmungen, aber keine expliziten Artikel werden genannt."
+  },
+  {
+    "ITEM": 15,
+    "ARTICLE_EID": "art_37",
+    "TARGET_SR": "SR 120",
+    "assigned_articles": "General reference - entire document",
+    "confidence": "low",
+    "reasoning": "Verweis auf das Bundesgesetz SR 120 über Massnahmen zur Wahrung der inneren Sicherheit ohne Artikelangabe."
+  },
+  {
+    "ITEM": 16,
+    "ARTICLE_EID": "art_37",
+    "TARGET_SR": "SR 360",
+    "assigned_articles": "General reference - entire document",
+    "confidence": "low",
+    "reasoning": "Verweis auf das Bundesgesetz SR 360 über kriminalpolizeiliche Zentralstellen ohne konkrete Artikel."
+  },
+  {
+    "ITEM": 17,
+    "ARTICLE_EID": "art_37",
+    "TARGET_SR": "SR 935.51",
+    "assigned_articles": "General reference - entire document",
+    "confidence": "medium",
+    "reasoning": "Es geht um \"Konflikte über die Zuständigkeit nach dem Geldspielgesetz ... SR 935.51\"; die Zuständigkeitsregeln verteilen sich über mehrere Bestimmungen, ohne dass einzelne genannt werden."
+  },
+  {
+    "ITEM": 18,
+    "ARTICLE_EID": "art_39",
+    "TARGET_SR": "SR 312.0",
+    "assigned_articles": "General reference - entire document",
+    "confidence": "medium",
+    "reasoning": "Das Verfahren richtet sich \"nach der StPO SR 312.0\" insgesamt; keine Artikelangabe im Satz."
+  },
+  {
+    "ITEM": 19,
+    "ARTICLE_EID": "art_39",
+    "TARGET_SR": "SR 313.0",
+    "assigned_articles": "General reference - entire document",
+    "confidence": "medium",
+    "reasoning": "SNIPPET: \"auf sie ist das Bundesgesetz ... SR 313.0 über das Verwaltungsstrafrecht anwendbar\"; keine konkrete Artikelnummer, allgemeine Anwendung."
+  },
+  {
+    "ITEM": 20,
+    "ARTICLE_EID": "art_39",
+    "TARGET_SR": "SR 172.021",
+    "assigned_articles": "General reference - entire document",
+    "confidence": "medium",
+    "reasoning": "Verweis \"auf sie sind das Verwaltungsverfahrensgesetz ... SR 172.021 ... anwendbar\"; keine Artikel genannt."
+  },
+  {
+    "ITEM": 21,
+    "ARTICLE_EID": "art_39",
+    "TARGET_SR": "SR 172.220.1",
+    "assigned_articles": "General reference - entire document",
+    "confidence": "medium",
+    "reasoning": "Verweis auf das Bundespersonalgesetz SR 172.220.1 ohne Artikelangabe; pauschale Geltung."
+  },
+  {
+    "ITEM": 22,
+    "ARTICLE_EID": "art_39",
+    "TARGET_SR": "SR 171.10",
+    "assigned_articles": [
+      "Art. 58 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "Im INSIDE_AUTHORIALNOTE: \"(Art. 58 Abs. 1 ParlG; SR 171.10)\"; direkter Bezug von Art. 58 Abs. 1 auf das Parlamentsgesetz (SR 171.10)."
+  },
+  {
+    "ITEM": 23,
+    "ARTICLE_EID": "art_40",
+    "TARGET_SR": "SR 171.10",
+    "assigned_articles": [
+      "Art. 58 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "Wortlaut identisch mit ITEM 22: \"(Art. 58 Abs. 1 ParlG; SR 171.10)\"; wiederum eindeutige Zuordnung."
+  },
+  {
+    "ITEM": 24,
+    "ARTICLE_EID": "art_40",
+    "TARGET_SR": "SR 173.110",
+    "assigned_articles": [
+      "Art. 121",
+      "Art. 122",
+      "Art. 123",
+      "Art. 124",
+      "Art. 125",
+      "Art. 126",
+      "Art. 127",
+      "Art. 128",
+      "Art. 129"
+    ],
+    "confidence": "high",
+    "reasoning": "SNIPPET: \"gelten die Artikel 121–129 des Bundesgerichtsgesetzes ... SR 173.110 sinngemäss\"; explizite Nennung eines Artikelspektrums 121–129 des BGG."
+  },
+  {
+    "ITEM": 25,
+    "ARTICLE_EID": "art_53",
+    "TARGET_SR": "SR 171.10",
+    "assigned_articles": [
+      "Art. 58 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "INSIDE_AUTHORIALNOTE: \"(Art. 58 Abs. 1 ParlG; SR 171.10)\"; klarer Bezug auf Art. 58 Abs. 1 ParlG."
+  },
+  {
+    "ITEM": 26,
+    "ARTICLE_EID": "art_55",
+    "TARGET_SR": "SR 312.0",
+    "assigned_articles": [
+      "Art. 21 Abs. 2",
+      "Art. 56 lit. b"
+    ],
+    "confidence": "high",
+    "reasoning": "SNIPPET: \"vorbehalten bleiben die Artikel 21 Absatz 2 und 56 Buchstabe b StPO SR 312.0\"; beide Artikel sind ausdrücklich der StPO zugeordnet."
+  },
+  {
+    "ITEM": 27,
+    "ARTICLE_EID": "art_62_a",
+    "TARGET_SR": "SR 172.010",
+    "assigned_articles": [
+      "Art. 57i",
+      "Art. 57j",
+      "Art. 57k",
+      "Art. 57l",
+      "Art. 57m",
+      "Art. 57n",
+      "Art. 57o",
+      "Art. 57p",
+      "Art. 57q"
+    ],
+    "confidence": "high",
+    "reasoning": "SNIPPET: \"die Artikel 57i–57q des Regierungs- und Verwaltungsorganisationsgesetzes ... SR 172.010\"; explizite Nennung eines Artikelspektrums 57i–57q RVOG."
+  },
+  {
+    "ITEM": 28,
+    "ARTICLE_EID": "art_64",
+    "TARGET_SR": "SR 152.3",
+    "assigned_articles": "General reference - entire document",
+    "confidence": "medium",
+    "reasoning": "Satz: \"Das Öffentlichkeitsgesetz ... SR 152.3 gilt sinngemäss\"; keine konkrete Artikelangabe, allgemeine Geltung."
+  },
+  {
+    "ITEM": 29,
+    "ARTICLE_EID": "art_65",
+    "TARGET_SR": "SR 312.0",
+    "assigned_articles": [
+      "Art. 18 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "SNIPPET: \"gemäss Artikel 18 Absatz 1 StPO SR 312.0\"; eindeutige Zuordnung von Art. 18 Abs. 1 zur StPO."
+  },
+  {
+    "ITEM": 30,
+    "ARTICLE_EID": "art_74",
+    "TARGET_SR": "SR 312.0",
+    "assigned_articles": [
+      "Art. 31",
+      "Art. 32",
+      "Art. 33",
+      "Art. 34",
+      "Art. 35",
+      "Art. 36"
+    ],
+    "confidence": "high",
+    "reasoning": "SNIPPET: \"in Anwendung der Artikel 31–36 StPO SR 312.0\"; explizite Nennung eines Artikelspektrums 31–36 der StPO."
+  },
+  {
+    "ITEM": 31,
+    "ARTICLE_EID": "art_78",
+    "TARGET_SR": "SR 173.110",
+    "assigned_articles": [
+      "Art. 25a Abs. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "SNIPPET: \"die gestützt auf Artikel 25a Absatz 3 des Bundesgerichtsgesetzes ... SR 173.110 abgeschlossene Vereinbarung\"; direkter Bezug auf Art. 25a Abs. 3 BGG."
+  },
+  {
+    "ITEM": 32,
+    "ARTICLE_EID": "art_6",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 4"
+    ],
+    "confidence": "high",
+    "reasoning": "artikel_reference ohne TARGET_SR; \"Artikel 4\" steht ohne Gesetzesabkürzung im selben Satz wie die Selbstnorm (Art. 6 des aktuellen Gesetzes) und bezieht sich damit auf einen internen Artikel dieses Gesetzes; daher reine Selbstreferenz, kein SR-Link."
+  },
+  {
+    "ITEM": 33,
+    "ARTICLE_EID": "art_6",
+    "TARGET_SR": "SR 170.32",
+    "assigned_articles": [
+      "Art. 10 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "SNIPPET: \"Artikel 10 Absatz 1 des Verantwortlichkeitsgesetzes vom 14. März 1958\"; durch die Gesetzesbezeichnung ist klar, dass Art. 10 Abs. 1 zum Verantwortlichkeitsgesetz (SR 170.32) gehört. Dieser Artikel wurde in ITEM 3 noch nicht konkretisiert, daher hier als SR-Link zu SR 170.32 zu erfassen."
+  },
+  {
+    "ITEM": 34,
+    "ARTICLE_EID": "art_18",
+    "TARGET_SR": "SR 173.110",
+    "assigned_articles": [
+      "Art. 25a Abs. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "SNIPPET: \"gemäss Artikel 25a Absatz 3 des Bundesgerichtsgesetzes vom 17. Juni 2005\"; identische inhaltliche Verweisung wie in ITEM 4, klar auf BGG (SR 173.110) bezogen."
+  },
+  {
+    "ITEM": 35,
+    "ARTICLE_EID": "art_39",
+    "TARGET_SR": "SR 313.0",
+    "assigned_articles": "General reference - entire document",
+    "confidence": "medium",
+    "reasoning": "SNIPPET: \"auf sie ist das Bundesgesetz ... über das Verwaltungsstrafrecht anwendbar\"; das Gesetz ist das VStrR (SR 313.0), aber ohne konkrete Artikel; daher pauschale Verweisung. Die genannten \"Artikeln 35 Abs. 2 und 37 Abs. 2 lit. b\" sind interne Artikel des aktuellen Gesetzes, nicht des VStrR."
+  },
+  {
+    "ITEM": 36,
+    "ARTICLE_EID": "art_39",
+    "TARGET_SR": "SR 172.021",
+    "assigned_articles": "General reference - entire document",
+    "confidence": "medium",
+    "reasoning": "SNIPPET: \"auf sie sind das Verwaltungsverfahrensgesetz vom 20. Dezember 1968 ... anwendbar\"; das ist das VwVG (SR 172.021), ohne Artikelangabe; die genannte Artikelstruktur (Art. 37 Abs. 2 lit. a) ist intern und gehört nicht zum VwVG."
+  },
+  {
+    "ITEM": 37,
+    "ARTICLE_EID": "art_39",
+    "TARGET_SR": "SR 172.220.1",
+    "assigned_articles": "General reference - entire document",
+    "confidence": "medium",
+    "reasoning": "SNIPPET: \"auf sie sind das Bundespersonalgesetz vom 24. März 2000 und das Verwaltungsverfahrensgesetz ... anwendbar\"; das Bundespersonalgesetz ist SR 172.220.1, ohne Artikelangabe; interne Artikelnummern beziehen sich auf das aktuelle Gesetz."
+  },
+  {
+    "ITEM": 38,
+    "ARTICLE_EID": "art_39",
+    "TARGET_SR": "SR 172.021",
+    "assigned_articles": "General reference - entire document",
+    "confidence": "medium",
+    "reasoning": "SNIPPET: \"auf sie ist das Verwaltungsverfahrensgesetz anwendbar\"; wiederum pauschale Verweisung auf das VwVG (SR 172.021), ohne Artikelangabe; \"Artikel 37 Absatz 2 Buchstaben e–g\" ist interne Selbstreferenz."
+  },
+  {
+    "ITEM": 39,
+    "ARTICLE_EID": "art_40",
+    "TARGET_SR": "SR 173.110",
+    "assigned_articles": [
+      "Art. 121",
+      "Art. 122",
+      "Art. 123",
+      "Art. 124",
+      "Art. 125",
+      "Art. 126",
+      "Art. 127",
+      "Art. 128",
+      "Art. 129"
+    ],
+    "confidence": "high",
+    "reasoning": "SNIPPET: \"gelten die Artikel 121–129 des Bundesgerichtsgesetzes vom 17. Juni 2005 sinngemäss\"; dies ist eine explizite Verweisung auf die Art. 121–129 BGG (SR 173.110) und entspricht inhaltlich ITEM 24."
+  },
+  {
+    "ITEM": 40,
+    "ARTICLE_EID": "art_53",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 73"
+    ],
+    "confidence": "high",
+    "reasoning": "SNIPPET: \"Entschädigungen nach Artikel 73\" ohne Gesetzesabkürzung; im Kontext handelt es sich um einen internen Artikel des gleichen Gesetzes (Art. 73 dieses Erlasses). Keine Verbindung zu einem externen SR, daher reine Selbstreferenz."
+  },
+  {
+    "ITEM": 41,
+    "ARTICLE_EID": "art_62_a",
+    "TARGET_SR": "SR 172.010",
+    "assigned_articles": [
+      "Art. 57i",
+      "Art. 57j",
+      "Art. 57k",
+      "Art. 57l",
+      "Art. 57m",
+      "Art. 57n",
+      "Art. 57o",
+      "Art. 57p",
+      "Art. 57q"
+    ],
+    "confidence": "high",
+    "reasoning": "SNIPPET: \"die Artikel 57i–57q des Regierungs- und Verwaltungsorganisationsgesetzes vom 21. März 1997\"; das RVOG ist SR 172.010, und die Artikel 57i–57q werden explizit genannt. Entspricht der Verweisung in ITEM 27."
+  },
+  {
+    "ITEM": 42,
+    "ARTICLE_EID": "art_64",
+    "TARGET_SR": "SR 152.3",
+    "assigned_articles": [
+      "Art. 13",
+      "Art. 14",
+      "Art. 15"
+    ],
+    "confidence": "high",
+    "reasoning": "SNIPPET: \"kein Schlichtungsverfahren nach den Artikeln 13–15 des Öffentlichkeitsgesetzes vom 17. Dezember 2004\"; das Öffentlichkeitsgesetz ist SR 152.3, und die Artikel 13–15 werden ausdrücklich genannt."
+  },
+  {
+    "ITEM": 43,
+    "ARTICLE_EID": "art_78",
+    "TARGET_SR": "SR 173.110",
+    "assigned_articles": [
+      "Art. 25a Abs. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "SNIPPET: \"die gestützt auf Artikel 25a Absatz 3 des Bundesgerichtsgesetzes vom 17. Juni 2005 abgeschlossene Vereinbarung\"; wie in ITEM 31 klarer Bezug auf Art. 25a Abs. 3 BGG (SR 173.110)."
+  }
+]

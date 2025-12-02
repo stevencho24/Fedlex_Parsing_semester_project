@@ -1,0 +1,206 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 101",
+    "assigned_articles": [
+      "Art. 68 Abs. 1",
+      "Art. 69 Abs. 2",
+      "Art. 92",
+      "Art. 93",
+      "Art. 101 Abs. 2",
+      "Art. 102",
+      "Art. 113",
+      "Art. 114 Abs. 1",
+      "Art. 117 Abs. 1",
+      "Art. 118 Abs. 2 Bst. b",
+      "Art. 121 Abs. 1",
+      "Art. 122",
+      "Art. 123",
+      "Art. 133"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Präambel nennt ausdrücklich mehrere Artikel der Bundesverfassung (BV) mit Absätzen und Buchstaben, die alle syntaktisch durch 'der Bundesverfassung (BV) SR 101' zugeordnet sind."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_9",
+    "TARGET_SR": "SR 281.1",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "Es wird nur das Bundesgesetz über Schuldbetreibung und Konkurs (SchKG) als Ganzes genannt, ohne konkrete Artikelangabe; der Bundesrat kann allgemein davon abweichende Bestimmungen erlassen."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_9",
+    "TARGET_SR": "SR 220",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "Das Obligationenrecht wird ohne Artikelangabe erwähnt; der Kontext spricht von abweichenden Bestimmungen vom OR insgesamt, nicht von bestimmten Artikeln."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_12_a",
+    "TARGET_SR": "SR 831.10",
+    "assigned_articles": [
+      "Art. 50c"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Satzteil 'die AHV-Nummer nach Artikel 50c des Bundesgesetzes ... über die Alters- und Hinterlassenenversicherung' verweist klar auf Art. 50c AHVG (SR 831.10)."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_12_b",
+    "TARGET_SR": "SR 616.1",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "medium",
+    "reasoning": "Es heisst 'nach dem Subventionsgesetz vom 5. Oktober 1990', ohne konkrete Artikel. Das Subventionsgesetz wird typischerweise als Ganzes als Rechtsgrundlage für Rückforderungen herangezogen; mangels Spezifizierung wird eine allgemeine Verweisung angenommen."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_17",
+    "TARGET_SR": "SR 837.0",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "Das Arbeitslosenversicherungsgesetz (AVIG) wird ohne Artikelangabe genannt; der Bundesrat kann allgemein davon abweichende Bestimmungen erlassen."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_21",
+    "TARGET_SR": "SR 101",
+    "assigned_articles": [
+      "Art. 165 Abs. 1",
+      "Art. 141 Abs. 1 Bst. b"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Text werden 'Art. 165 Abs. 1 BV' und 'Art. 141 Abs. 1 Bst. b BV' ausdrücklich genannt; BV ist in der Präambel als SR 101 definiert."
+  },
+  {
+    "ITEM": 8,
+    "ARTICLE_EID": "art_12_a",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Verweise 'nach Artikel 12' und 'nach Artikel 50c des Bundesgesetzes ... über die Alters- und Hinterlassenenversicherung' erscheinen ohne explizite SR-Zuordnung im Snippet. 'Artikel 12' ist eine Selbstreferenz innerhalb des vorliegenden Gesetzes; der Verweis auf Art. 50c AHVG ist bereits in ITEM 4 SR 831.10 zugeordnet und wird hier nicht erneut als SR-Link behandelt."
+  },
+  {
+    "ITEM": 9,
+    "ARTICLE_EID": "art_12_a",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Ausdruck 'nach Artikel 12' bezieht sich auf einen Artikel desselben Gesetzes; es wird kein externes SR-Dokument genannt."
+  },
+  {
+    "ITEM": 10,
+    "ARTICLE_EID": "art_19",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Formulierung 'nach Artikel 12' verweist auf einen anderen Artikel desselben Gesetzes; es fehlt jeder Bezug zu einem externen SR."
+  },
+  {
+    "ITEM": 11,
+    "ARTICLE_EID": "art_21",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "‚Artikel 15‘ ist ein Artikel des gleichen Gesetzes (Inkrafttretens- und Übergangsbestimmungen); keine SR-Verknüpfung."
+  },
+  {
+    "ITEM": 12,
+    "ARTICLE_EID": "art_21",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "‚Die Artikel 1 und 17 Buchstaben a–c‘ sind interne Artikel; es wird kein externes Gesetz genannt."
+  },
+  {
+    "ITEM": 13,
+    "ARTICLE_EID": "art_21",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "‚Artikel 15‘ ist ein Artikel desselben Gesetzes; typischer Übergangsbestimmungstext ohne externen SR-Bezug."
+  },
+  {
+    "ITEM": 14,
+    "ARTICLE_EID": "art_21",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "‚Artikel 1 nach Absatz 4‘ bezieht sich auf einen internen Artikel; keine Nennung eines anderen Erlasses oder SR."
+  },
+  {
+    "ITEM": 15,
+    "ARTICLE_EID": "art_21",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "‚Artikel 17 Buchstaben a und c‘ sind interne Bestimmungen; der Kontext ist rein innergesetzlich."
+  },
+  {
+    "ITEM": 16,
+    "ARTICLE_EID": "art_21",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "‚Artikel 9 Buchstabe c‘ ist ein Artikel desselben Gesetzes; keine externe SR-Verweisung."
+  },
+  {
+    "ITEM": 17,
+    "ARTICLE_EID": "art_21",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "‚Artikel 17 Buchstabe e‘ ist eine interne Norm; der Text regelt deren Inkrafttreten und Geltungsdauer."
+  },
+  {
+    "ITEM": 18,
+    "ARTICLE_EID": "art_21",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "‚Artikel 15 nach Absatz 5‘ ist ein interner Verweis; kein syntaktischer Bezug zu einem SR-Dokument."
+  },
+  {
+    "ITEM": 19,
+    "ARTICLE_EID": "art_21",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "‚Artikel 15 nach Absatz 10‘ ist ebenfalls ein interner Artikelverweis innerhalb desselben Gesetzes; keine externe SR-Referenz."
+  }
+]

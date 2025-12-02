@@ -1,0 +1,74 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 832.121",
+    "assigned_articles": [
+      "Art. 10 Abs. 5",
+      "Art. 11 Abs. 2",
+      "Art. 13 Abs. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Präambel nennt ausdrücklich: «gestützt auf die Artikel 10 Absatz 5, 11 Absatz 2 und 13 Absatz 3 der Krankenversicherungsaufsichtsverordnung … SR 832.121 (KVAV)»; diese Artikel sind direkt und syntaktisch der KVAV (SR 832.121) zugeordnet."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 170.512",
+    "assigned_articles": [
+      "Art. 12 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Im INSIDE_AUTHORIALNOTE steht: «in Anwendung von Art. 12 Abs. 2 des Publikationsgesetzes vom 18. Juni 2004 (SR 170.512)»; Art. 12 Abs. 2 ist damit klar dem Publikationsgesetz SR 170.512 zugeordnet."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": "SR 832.12",
+    "assigned_articles": [
+      "Art. 28"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Snippet lautet: «die Rückversicherung nach Artikel 28 des Krankenversicherungsaufsichtsgesetzes … SR 832.12 (KVAG).»; «Artikel 28» steht unmittelbar bei der Bezeichnung des KVAG und bezieht sich daher auf Art. 28 KVAG (SR 832.12)."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": "SR 170.512",
+    "assigned_articles": [
+      "Art. 12 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Im INSIDE_AUTHORIALNOTE: «in Anwendung von Art. 12 Abs. 2 des Publikationsgesetzes vom 18. Juni 2004 (SR 170.512)»; der genannte Artikel ist direkt mit SR 170.512 verknüpft. Die übrigen Artikelangaben (Art. 28 KVAG) gehören zu einem anderen SR (832.12) und nicht zu SR 170.512."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 832.121",
+    "assigned_articles": [
+      "Art. 10 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Snippet: «Als vergleichbare Aktiven im Sinne von Artikel 10 Absatz 2 KVAV …»; KVAV ist in der Präambel als SR 832.121 definiert, und die Formulierung «Artikel 10 Absatz 2 KVAV» ordnet Art. 10 Abs. 2 eindeutig der KVAV (SR 832.121) zu."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_9",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Interne Verweisung innerhalb des Dokuments (Art. 8)"
+    ],
+    "confidence": "high",
+    "reasoning": "«… zusammen mit dem elektronischen Formular nach Artikel 8 jährlich …»; es wird kein externes SR genannt, sondern nur ein anderer Artikel («Artikel 8») derselben Verordnung. Nach den Regeln ist dies eine Selbstreferenz innerhalb des aktuellen Dokuments, nicht einem externen SR zuzuordnen."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_10",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Interne Verweisung innerhalb des Dokuments (Art. 9)"
+    ],
+    "confidence": "high",
+    "reasoning": "«… den Zeitpunkt der Einreichung des Berichts nach Artikel 9 …»; wiederum keine Nennung eines SR, sondern Verweis auf einen anderen Artikel derselben Verordnung. Damit handelt es sich um eine interne Artikelverweisung ohne Bezug zu einem externen SR."
+  }
+]

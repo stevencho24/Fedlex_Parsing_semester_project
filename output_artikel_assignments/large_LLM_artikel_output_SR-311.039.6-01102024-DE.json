@@ -1,0 +1,124 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 311.0",
+    "assigned_articles": [
+      "Art. 386 Abs. 4"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Formulierung «gestützt auf Artikel 386 Absatz 4 des Strafgesetzbuchs SR 311.0» verknüpft den genannten Artikel eindeutig mit SR 311.0."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 121",
+    "assigned_articles": [
+      "Art. 19 Abs. 2 Bst. a",
+      "Art. 19 Abs. 2 Bst. e"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Snippet steht «im Sinne von Artikel 19 Absatz 2 Buchstaben a und e des Nachrichtendienstgesetzes … SR 121»; damit sind diese beiden Buchstaben des genannten Artikels des NDG eindeutig SR 121 zugeordnet."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": "SR 514.54",
+    "assigned_articles": [
+      "Art. 4 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Passage «die Ausbildung an Waffen nach Artikel 4 Absatz 1 des Waffengesetzes … SR 514.54» ordnet Art. 4 Abs. 1 klar dem Waffengesetz (SR 514.54) zu."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": "SR 616.1",
+    "assigned_articles": [
+      "Art. 13 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "«gestützt auf Artikel 13 Absatz 2 des Subventionsgesetzes … SR 616.1 (SuG)» ist eine eindeutige Zuordnung dieses Artikels zum Subventionsgesetz SR 616.1."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_9",
+    "TARGET_SR": "SR 616.1",
+    "assigned_articles": [
+      "Allgemeine Verweisung – gesamtes Gesetz (SuG)"
+    ],
+    "confidence": "medium",
+    "reasoning": "«Das Verfahren … richtet sich nach den Bestimmungen des SuG SR 616.1.» nennt keine konkreten Artikel, sondern verweist pauschal auf die Bestimmungen des Subventionsgesetzes; daher allgemeine Gesetzesverweisung."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Interne Verweisung innerhalb der vorliegenden Verordnung (Art. 19 Abs. 2 Bst. a und e NDG bereits in ITEM 2 SR 121 zugeordnet)"
+    ],
+    "confidence": "high",
+    "reasoning": "Dieses Snippet ist der gleiche Satz wie in ITEM 2, jedoch ohne explizite SR-Nennung; die konkrete Zuordnung zu SR 121 und Art. 19 Abs. 2 Bst. a und e wurde bereits über ITEM 2 (SR_link_detection) vorgenommen. Hier handelt es sich um eine artikel_reference ohne zusätzliche externe SR-Verknüpfung."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Interne Verweisung innerhalb der vorliegenden Verordnung (Art. 4 Abs. 1 Waffengesetz bereits in ITEM 3 SR 514.54 zugeordnet)"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Text wiederholt die Formulierung zu «Artikel 4 Absatz 1 des Waffengesetzes», jedoch ohne SR-Angabe; die externe Zuordnung zu SR 514.54 wurde bereits in ITEM 3 vorgenommen. Diese artikel_reference dient nur der internen Bezugnahme im Verordnungstext."
+  },
+  {
+    "ITEM": 8,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Interne Verweisung innerhalb der vorliegenden Verordnung (Art. 13 Abs. 2 SuG bereits in ITEM 4 SR 616.1 zugeordnet)",
+      "Art. 11 Abs. 6 (Selbstverweisung innerhalb der Verordnung)"
+    ],
+    "confidence": "high",
+    "reasoning": "Das Snippet verweist einerseits auf «(Art. 11 Abs. 6)» als klar interne Selbstverweisung, andererseits auf «Artikel 13 Absatz 2 des Subventionsgesetzes … (SuG)», der bereits in ITEM 4 SR 616.1 zugeordnet wurde. Keine neue externe SR-Zuordnung erforderlich."
+  },
+  {
+    "ITEM": 9,
+    "ARTICLE_EID": "art_9",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 16 Abs. 1 SuG (bereits als Teil von SR 616.1 erfasst, interne Bezugnahme im Kontext dieser Verordnung)"
+    ],
+    "confidence": "high",
+    "reasoning": "«einer Verfügung nach Artikel 16 Absatz 1 SuG» verweist auf einen Artikel des Subventionsgesetzes, dessen SR (616.1) bereits über andere Items (4, 5) angebunden ist; hier nur artikel_reference ohne eigene SR_link_detection."
+  },
+  {
+    "ITEM": 10,
+    "ARTICLE_EID": "art_9",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 16 Abs. 2 SuG (bereits als Teil von SR 616.1 erfasst, interne Bezugnahme im Kontext dieser Verordnung)"
+    ],
+    "confidence": "high",
+    "reasoning": "«eines öffentlich-rechtlichen Vertrags nach Artikel 16 Absatz 2 SuG» ist ebenfalls eine Bezugnahme auf das Subventionsgesetz; die SR-Verknüpfung (616.1) ist bereits über andere Items hergestellt, daher hier nur interne artikel_reference."
+  },
+  {
+    "ITEM": 11,
+    "ARTICLE_EID": "art_10",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 4 Bst. a (Selbstverweisung innerhalb der Verordnung)"
+    ],
+    "confidence": "high",
+    "reasoning": "«Massnahmen nach Artikel 4 Buchstabe a» verweist eindeutig auf einen Buchstaben desselben Verordnungsartikels; es wird kein externes Gesetz oder SR genannt, somit reine Selbstverweisung."
+  },
+  {
+    "ITEM": 12,
+    "ARTICLE_EID": "art_16",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 10 Abs. 1 (Selbstverweisung innerhalb der Verordnung)"
+    ],
+    "confidence": "high",
+    "reasoning": "«die zeitliche Vorgabe von Artikel 10 Absatz 1» bezieht sich auf einen anderen Artikel derselben Verordnung; es fehlt jeglicher Bezug zu einem externen SR-Dokument, daher Selbstverweisung."
+  }
+]

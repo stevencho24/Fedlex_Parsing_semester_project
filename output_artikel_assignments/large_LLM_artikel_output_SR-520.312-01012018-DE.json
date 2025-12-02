@@ -1,0 +1,22 @@
+[
+  {
+    "Item": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 520.31",
+    "assigned_articles": [
+      "Art. 7 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet explicitly states: «gestützt auf Artikel 7 Absatz 1 der Verordnung ... SR 520.31 ... (KGSV)». The prepositional phrase links Artikel 7 Absatz 1 directly to the cited Verordnung SR 520.31, so Art. 7 Abs. 1 clearly belongs to SR 520.31."
+  },
+  {
+    "Item": 2,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet mentions «Haager Abkommen, 1954 (Art. 16 und 17)» without any SR reference or acronym tied to a TARGET_SR. These article numbers are part of the Hague Convention, not linked syntactically to SR 520.31 or another SR in this context. Under the rules, this is treated as a self-contained citation to another instrument, not assignable to a TARGET_SR, and functions as an internal-style reference within the current document’s context."
+  }
+]

@@ -1,0 +1,138 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 817.0",
+    "assigned_articles": [
+      "Art. 10 Abs. 3 Bst. a",
+      "Art. 44"
+    ],
+    "confidence": "high",
+    "reasoning": "Im selben Satz: «gestützt auf die Artikel 10 Absatz 3 Buchstabe a und 44 des Lebensmittelgesetzes … SR 817.0»; die genannten Artikel sind klar diesem Gesetz (SR 817.0) zugeordnet."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 910.1",
+    "assigned_articles": [
+      "Art. 159a",
+      "Art. 177",
+      "Art. 181 Abs. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "Formulierung: «gestützt auf die Artikel 159a, 177 und 181 Absatz 3 des Landwirtschaftsgesetzes … SR 910.1»; die Artikelangaben stehen direkt bei der Nennung des Landwirtschaftsgesetzes, daher gehören sie zu SR 910.1."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": "SR 919.117.71",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Verordnung SR 919.117.71 wird nur als Ganzes («Verordnung … über Informationssysteme im Bereich der Landwirtschaft») erwähnt, ohne konkrete Artikelangabe; daher allgemeine Verweis auf das gesamte Dokument."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": "SR 910.91",
+    "assigned_articles": [
+      "Art. 15",
+      "Art. 14 Abs. 1 Bst. e"
+    ],
+    "confidence": "high",
+    "reasoning": "Satz: «… nach Artikel 15 der landwirtschaftlichen Begriffsverordnung … SR 910.91 (LBV) und 10 Aren … nach Artikel 14 Absatz 1 Buchstabe e LBV»; beide Artikelangaben beziehen sich syntaktisch auf dieselbe Verordnung (LBV = SR 910.91)."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": "SR 916.401",
+    "assigned_articles": [
+      "Art. 7",
+      "Art. 18a",
+      "Art. 21"
+    ],
+    "confidence": "high",
+    "reasoning": "Formulierung: «der Betrieb muss nicht nach Artikel 7, 18a oder 21 der Tierseuchenverordnung … SR 916.401 registriert werden»; die Artikel stehen unmittelbar bei der Nennung der Tierseuchenverordnung, daher klare Zuordnung."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_8",
+    "TARGET_SR": "SR 817.032",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "«Die Kontrollen richten sich nach der Verordnung … SR 817.032 …» ohne Artikelangabe; es wird die Verordnung als Ganzes als Rechtsgrundlage für die Kontrollen herangezogen."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_8",
+    "TARGET_SR": "SR 172.021",
+    "assigned_articles": [
+      "Art. 10"
+    ],
+    "confidence": "high",
+    "reasoning": "Satz: «In den Fällen nach Artikel 10 des Bundesgesetzes … SR 172.021 …»; der Artikel ist direkt mit dem genannten Bundesgesetz verknüpft."
+  },
+  {
+    "ITEM": 8,
+    "ARTICLE_EID": "art_9",
+    "TARGET_SR": "SR 916.351.0",
+    "assigned_articles": [
+      "Art. 16"
+    ],
+    "confidence": "high",
+    "reasoning": "Formulierung: «Vorbehalten bleibt Artikel 16 der Milchprüfungsverordnung … SR 916.351.0.»; der genannte Artikel ist eindeutig dieser Verordnung zugeordnet."
+  },
+  {
+    "ITEM": 9,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«Artikel 15 … (LBV)» und «Artikel 14 Absatz 1 Buchstabe e LBV» sind bereits in ITEM 4 als Verweise auf SR 910.91 erfasst; hier handelt es sich um denselben Satz ohne explizite SR-Nennung, daher keine neue SR-Zuordnung, sondern Wiederholung/Interner Kontext."
+  },
+  {
+    "ITEM": 10,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«Artikel 7, 18a oder 21 der Tierseuchenverordnung» ist derselbe Inhalt wie in ITEM 5, wo die SR 916.401 explizit genannt wird; hier nur die artikel_reference-Variante ohne SR, daher keine zusätzliche SR-Zuordnung."
+  },
+  {
+    "ITEM": 11,
+    "ARTICLE_EID": "art_8",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«Artikel 10 des Bundesgesetzes … über was Verwaltungsstrafverfahren» entspricht inhaltlich ITEM 7, wo SR 172.021 explizit verknüpft ist; diese artikel_reference-Stelle fügt keine neue SR-Verknüpfung hinzu."
+  },
+  {
+    "ITEM": 12,
+    "ARTICLE_EID": "art_9",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«Artikel 16 der Milchprüfungsverordnung …» ist derselbe Verweis wie in ITEM 8, wo SR 916.351.0 genannt wird; hier nur ohne SR, daher als interne Wiederholung zu behandeln."
+  },
+  {
+    "ITEM": 13,
+    "ARTICLE_EID": "art_11",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 4–6 (self-reference)"
+    ],
+    "confidence": "high",
+    "reasoning": "«Bestimmungen nach den Artikeln 4−6» enthält keine SR- oder Gesetzesangabe und bezieht sich typischerweise auf Artikel desselben Erlasses (SR 916.020); daher reine Selbstreferenz ohne externe SR-Zuordnung."
+  }
+]

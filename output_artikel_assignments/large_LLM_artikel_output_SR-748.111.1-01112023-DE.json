@@ -1,0 +1,51 @@
+[
+  {
+    "Item": 1,
+    "TARGET_SR": "SR 748.0",
+    "assigned_articles": [
+      "Art. 12 Abs. 1",
+      "Art. 21 Abs. 1",
+      "Art. 40 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Formulierung \"gestützt auf die Artikel 12 Absatz 1, 21 Absatz 1 und 40 Absatz 1 des Luftfahrtgesetzes ... (LFG) SR 748.0\" verknüpft diese Artikel syntaktisch eindeutig mit SR 748.0."
+  },
+  {
+    "Item": 2,
+    "TARGET_SR": "SR 510.10",
+    "assigned_articles": [
+      "Art. 150 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "Im selben Satzteil: \"und auf den Artikel 150 Absatz 1 des Militärgesetzes ... SR 510.10\"; der Artikel steht direkt beim Gesetz mit SR 510.10."
+  },
+  {
+    "Item": 3,
+    "TARGET_SR": "SR 0.748.0",
+    "assigned_articles": [
+      "Art. 1",
+      "Art. 3 lit. c"
+    ],
+    "confidence": "high",
+    "reasoning": "Text: \"in Ausführung der Artikel 1 und 3 Buchstabe c des Übereinkommens ... SR 0.748.0\"; beide Artikel werden ausdrücklich diesem Übereinkommen zugeordnet."
+  },
+  {
+    "Item": 4,
+    "TARGET_SR": "SR 0.748.0",
+    "assigned_articles": [
+      "Anhänge (Normen)",
+      "insb. Anhang 2"
+    ],
+    "confidence": "medium",
+    "reasoning": "Es werden keine Artikel, sondern \"Normen der Anhänge\" und \"Empfehlungen des Anhanges 2\" des Übereinkommens SR 0.748.0 genannt; daher nur allgemeine Anhangs‑/Normenreferenz."
+  },
+  {
+    "Item": 5,
+    "TARGET_SR": "SR 748.0",
+    "assigned_articles": [
+      "Art. 7"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet: \"gestützt auf Artikel 7 LFG\"; LFG ist in der Präambel als SR 748.0 definiert, somit klarer Bezug auf Art. 7 dieses Gesetzes."
+  }
+]

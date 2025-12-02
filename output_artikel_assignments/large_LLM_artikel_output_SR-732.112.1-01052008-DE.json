@@ -1,0 +1,32 @@
+[
+  {
+    "Item": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 732.11",
+    "assigned_articles": [
+      "Art. 9 Abs. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet explicitly cites 'Artikel 9 Absatz 3 der Kernenergieverordnung ... SR 732.11 (KEV)'; Art. 9 Abs. 3 is directly and grammatically linked to SR 732.11."
+  },
+  {
+    "Item": 2,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": "SR 732.11",
+    "assigned_articles": [
+      "Art. 6"
+    ],
+    "confidence": "high",
+    "reasoning": "The text says 'Die Aufsichtsbehörde gemäss Artikel 6 der KEV'; KEV is defined as SR 732.11 in the preamble, so Art. 6 clearly belongs to SR 732.11."
+  },
+  {
+    "Item": 3,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": "SR 732.11",
+    "assigned_articles": [
+      "Anhang 2"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet states 'Anforderungen nach Anhang 2 der KEV'; KEV = SR 732.11, and the cited unit is its Annex 2 rather than a numbered article, so the correct assignment is to Anhang 2 of SR 732.11."
+  }
+]

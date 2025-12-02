@@ -1,0 +1,135 @@
+[
+  {
+    "Item": 1,
+    "TARGET_SR": "SR 812.21",
+    "assigned_articles": ["Art. 65 Abs. 5"],
+    "confidence": "high",
+    "reasoning": "Snippet explicitly cites 'Artikel 65 Absatz 5 des Heilmittelgesetzes ... SR 812.21 (HMG)'; this article clearly belongs to SR 812.21."
+  },
+  {
+    "Item": 2,
+    "TARGET_SR": "SR 810.21",
+    "assigned_articles": ["Art. 49"],
+    "confidence": "high",
+    "reasoning": "The sentence refers to 'Transplantatprodukten nach Artikel 49 des Transplantationsgesetzes ... SR 810.21'; Art. 49 is syntactically linked to the Transplantationsgesetz identified by SR 810.21."
+  },
+  {
+    "Item": 3,
+    "TARGET_SR": "SR 818.101",
+    "assigned_articles": ["Art. 16"],
+    "confidence": "high",
+    "reasoning": "The snippet mentions 'nach Artikel 16 des Epidemiengesetzes ... SR 818.101'; Art. 16 is directly attributed to the Epidemiengesetz with that SR number."
+  },
+  {
+    "Item": 4,
+    "TARGET_SR": "SR 812.121",
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "The Betäubungsmittelgesetz is mentioned without any article number ('... sowie nach dem Betäubungsmittelgesetz ... SR 812.121'); no article can be assigned, so no specific articles are listed."
+  },
+  {
+    "Item": 5,
+    "TARGET_SR": "SR 172.041.1",
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "The Allgemeine Gebührenverordnung (AllgGebV, SR 172.041.1) is cited generically ('gelten die Bestimmungen der Allgemeinen Gebührenverordnung ...'); no specific article is mentioned in this sentence."
+  },
+  {
+    "Item": 6,
+    "TARGET_SR": "SR 812.212.21",
+    "assigned_articles": ["Art. 7"],
+    "confidence": "high",
+    "reasoning": "The snippet states '(Art. 7 der Arzneimittelverordnung ... SR 812.212.21)'; Art. 7 is explicitly and syntactically tied to this SR."
+  },
+  {
+    "Item": 7,
+    "TARGET_SR": "SR 812.212.23",
+    "assigned_articles": ["Art. 4"],
+    "confidence": "high",
+    "reasoning": "The text refers to 'wichtige Humanarzneimittel ... nach Artikel 4 der Verordnung ... SR 812.212.23'; Art. 4 is clearly linked to this SR."
+  },
+  {
+    "Item": 8,
+    "TARGET_SR": "SR 172.041.1",
+    "assigned_articles": ["Art. 6"],
+    "confidence": "high",
+    "reasoning": "The phrase 'Neben den Auslagen nach Artikel 6 AllgGebV SR 172.041.1' directly associates Art. 6 with the Allgemeine Gebührenverordnung (SR 172.041.1)."
+  },
+  {
+    "Item": 9,
+    "TARGET_SR": "SR 812.21",
+    "assigned_articles": ["Art. 13", "Art. 14 Abs. 1 Bst. abis", "Art. 14 Abs. 1 Bst. ater", "Art. 14 Abs. 1 Bst. aquater"],
+    "confidence": "high",
+    "reasoning": "The snippet repeatedly mentions 'Verfahren nach den Artikeln 13 und 14 HMG' and specifies 'Artikel 13 HMG', 'Artikel 14 Absatz 1 Buchstabe abis oder ater HMG', and 'Artikel 14 Absatz 1 Buchstabe aquater HMG'; all clearly belong to HMG (SR 812.21)."
+  },
+  {
+    "Item": 10,
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "This artikel_reference sentence lists 'Artikel 49 des Transplantationsgesetzes', 'Artikel 16 des Epidemiengesetzes' and an unspecified Betäubungsmittelgesetz article, but no SR is mentioned in this snippet itself; by the rules, without an explicit SR link in the same syntactic unit, these are treated as self-references or external without assignment."
+  },
+  {
+    "Item": 11,
+    "TARGET_SR": "SR 812.212.21",
+    "assigned_articles": ["Art. 7"],
+    "confidence": "high",
+    "reasoning": "This repeats the reference '(Art. 7 der Arzneimittelverordnung vom 21. September 2018)' which, in the corresponding SR_link_detection item, is tied to SR 812.212.21; thus it is a cross-reference to Art. 7 of SR 812.212.21, not an internal article."
+  },
+  {
+    "Item": 12,
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "The phrase 'Zuschlägen nach Artikel 5' has no SR or acronym context; it clearly refers to Art. 5 of the same ordinance (self-reference), so no external SR link is assigned."
+  },
+  {
+    "Item": 13,
+    "TARGET_SR": "SR 812.212.23",
+    "assigned_articles": ["Art. 4"],
+    "confidence": "high",
+    "reasoning": "This repeats 'nach Artikel 4 der Verordnung ... (VAZV)'; via the SR_link_detection item 7, that Verordnung is SR 812.212.23, so this is a reference to Art. 4 of SR 812.212.23."
+  },
+  {
+    "Item": 14,
+    "TARGET_SR": "SR 812.212.23",
+    "assigned_articles": ["Art. 8"],
+    "confidence": "high",
+    "reasoning": "The snippet 'wichtige Tierarzneimittel ... nach Artikel 8 VAZV' uses the same acronym VAZV as in Item 13, which is SR 812.212.23; thus Art. 8 is attributed to SR 812.212.23."
+  },
+  {
+    "Item": 15,
+    "TARGET_SR": "SR 812.21",
+    "assigned_articles": ["Art. 13"],
+    "confidence": "high",
+    "reasoning": "The sentence 'in Anwendung von Artikel 13 HMG' uses the preamble-defined acronym HMG = SR 812.21; therefore Art. 13 belongs to SR 812.21."
+  },
+  {
+    "Item": 16,
+    "TARGET_SR": "SR 812.21",
+    "assigned_articles": ["Art. 14 Abs. 1 Bst. abis", "Art. 14 Abs. 1 Bst. ater"],
+    "confidence": "high",
+    "reasoning": "The snippet cites 'Artikel 14 Absatz 1 Buchstabe abis oder ater HMG'; HMG is SR 812.21, so these are specific letters within Art. 14 Abs. 1 of SR 812.21."
+  },
+  {
+    "Item": 17,
+    "TARGET_SR": "SR 812.21",
+    "assigned_articles": ["Art. 14 Abs. 1 Bst. aquater"],
+    "confidence": "high",
+    "reasoning": "The sentence cites 'Artikel 14 Absatz 1 Buchstabe aquater HMG'; again HMG = SR 812.21, so this is Art. 14 Abs. 1 letter aquater of SR 812.21."
+  },
+  {
+    "Item": 18,
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "The reference 'Zuschläge nach Artikel 5' appears without any SR or external acronym; it is an internal cross-reference within the same ordinance, so no external SR assignment is made."
+  },
+  {
+    "Item": 19,
+    "TARGET_SR": "SR 172.041.1",
+    "assigned_articles": ["Art. 6"],
+    "confidence": "high",
+    "reasoning": "The phrase 'Neben den Auslagen nach Artikel 6 AllgGebV' uses the acronym AllgGebV, which in Item 5 is explicitly tied to SR 172.041.1; thus this is a reference to Art. 6 of SR 172.041.1."
+  }
+]

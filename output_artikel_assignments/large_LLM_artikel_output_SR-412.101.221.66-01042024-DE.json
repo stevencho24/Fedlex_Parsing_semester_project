@@ -1,0 +1,240 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 412.10",
+    "assigned_articles": [
+      "Art. 19"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet: 'gestützt auf Artikel 19 des Berufsbildungsgesetzes ... SR 412.10'; Art. 19 is explicitly linked to SR 412.10 by direct marking and prepositional structure."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 412.101",
+    "assigned_articles": [
+      "Art. 12"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet: 'auf Artikel 12 der Berufsbildungsverordnung ... SR 412.101 (BBV)'; Art. 12 is explicitly attributed to the BBV (SR 412.101)."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 170.512",
+    "assigned_articles": [
+      "Art. 12 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Inside authorial note: 'in Anwendung von Art. 12 Abs. 2 des Publikationsgesetzes ... (SR 170.512)'; clear direct marking of article and paragraph to SR 170.512."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 822.115",
+    "assigned_articles": [
+      "Art. 4a Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet: 'auf Artikel 4a Absatz 1 der Jugendarbeitsschutzverordnung ... SR 822.115 (ArGV 5)'; Art. 4a Abs. 1 is explicitly linked to SR 822.115."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": "SR 170.512",
+    "assigned_articles": [
+      "Art. 12 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Inside authorial note repeats: 'in Anwendung von Art. 12 Abs. 2 des Publikationsgesetzes ... (SR 170.512)'; same explicit linkage as in preamble item 3."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_9",
+    "TARGET_SR": "SR 412.101.241",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet: 'gilt die Verordnung des SBFI vom 27. April 2006 SR 412.101.241 über die Mindestvorschriften ...'; no specific article cited, reference is to the ordinance as a whole."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_16",
+    "TARGET_SR": "SR 412.101.241",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet: 'richtet sich nach der Verordnung des SBFI ... SR 412.101.241 ...'; again only the ordinance as such is cited, without article numbers."
+  },
+  {
+    "ITEM": 8,
+    "ARTICLE_EID": "art_8",
+    "TARGET_SR": "SR 412.10",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "medium",
+    "reasoning": "Preamble acronym SBFI→SR 412.10; snippet mentions 'vom SBFI genehmigt', i.e. the authority, not a specific article. No article number syntactically tied to the SR, so treat as a general institutional reference to the underlying act."
+  },
+  {
+    "ITEM": 9,
+    "ARTICLE_EID": "art_9",
+    "TARGET_SR": "SR 412.10",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "medium",
+    "reasoning": "SBFI (SR 412.10) appears as the issuing authority of another ordinance; no article of SR 412.10 is mentioned or grammatically linked, so only a general institutional reference."
+  },
+  {
+    "ITEM": 10,
+    "ARTICLE_EID": "art_10",
+    "TARGET_SR": "SR 412.101",
+    "assigned_articles": [
+      "Art. 44 Abs. 1 Bst. a",
+      "Art. 44 Abs. 1 Bst. b"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet: 'im Sinne von Artikel 44 Absatz 1 Buchstaben a und b BBV'; BBV is SR 412.101, and the article plus paragraph and letters are explicitly tied to it."
+  },
+  {
+    "ITEM": 11,
+    "ARTICLE_EID": "art_14",
+    "TARGET_SR": "SR 412.101",
+    "assigned_articles": [
+      "Art. 32"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet: 'die nach Artikel 32 BBV erforderliche Erfahrung erworben hat'; BBV is SR 412.101, so Art. 32 clearly belongs to that SR."
+  },
+  {
+    "ITEM": 12,
+    "ARTICLE_EID": "art_16",
+    "TARGET_SR": "SR 412.10",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "medium",
+    "reasoning": "Same wording as item 7 but via acronym SBFI; SBFI (SR 412.10) is only mentioned as authority, no article number is syntactically connected."
+  },
+  {
+    "ITEM": 13,
+    "ARTICLE_EID": "art_18",
+    "TARGET_SR": "SR 412.101",
+    "assigned_articles": [
+      "Art. 33"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet: 'richtet sich nach Artikel 33 BBV'; BBV is SR 412.101, so Art. 33 is explicitly referenced."
+  },
+  {
+    "ITEM": 14,
+    "ARTICLE_EID": "art_21",
+    "TARGET_SR": "SR 412.10",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "medium",
+    "reasoning": "SBFI (SR 412.10) is mentioned as approving and amending authority; references to 'Artikel 8' and 'Artikel 4' are internal to the current ordinance, not to SR 412.10. Thus only a general institutional reference to SR 412.10."
+  },
+  {
+    "ITEM": 15,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": "SR 412.101.221.66",
+    "assigned_articles": [
+      "Art. 4"
+    ],
+    "confidence": "high",
+    "reasoning": "Artikel_reference without external SR; by default this is a self-reference within the current document (SR 412.101.221.66). '... nach Artikel 4 beschrieben' clearly refers to Art. 4 of the same ordinance."
+  },
+  {
+    "ITEM": 16,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": "SR 822.115",
+    "assigned_articles": [
+      "Art. 4 Abs. 1",
+      "Art. 4a Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet: 'Artikel 4 Absatz 1 ArGV 5' and 'Artikel 4a Absatz 1 ArGV 5'; ArGV 5 is the Jugendarbeitsschutzverordnung SR 822.115, so both cited articles with paragraphs belong to that SR."
+  },
+  {
+    "ITEM": 17,
+    "ARTICLE_EID": "art_8",
+    "TARGET_SR": "SR 412.101.221.66",
+    "assigned_articles": [
+      "Art. 4"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet: 'Handlungskompetenzen nach Artikel 4'; no external SR or acronym; this is an internal cross-reference to Art. 4 of the same ordinance (SR 412.101.221.66)."
+  },
+  {
+    "ITEM": 18,
+    "ARTICLE_EID": "art_14",
+    "TARGET_SR": "SR 412.101",
+    "assigned_articles": [
+      "Art. 32"
+    ],
+    "confidence": "high",
+    "reasoning": "Within the snippet: 'die nach Artikel 32 BBV erforderliche Erfahrung erworben hat'; BBV is SR 412.101, so Art. 32 belongs to that SR. The later '(Artikel 16)' is an internal reference to the present ordinance, not to SR 412.101."
+  },
+  {
+    "ITEM": 19,
+    "ARTICLE_EID": "art_15",
+    "TARGET_SR": "SR 412.101.221.66",
+    "assigned_articles": [
+      "Art. 4"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet: 'dass die Handlungskompetenzen nach Artikel 4 erworben worden sind'; no external SR; this is a self-reference to Art. 4 of the current ordinance."
+  },
+  {
+    "ITEM": 20,
+    "ARTICLE_EID": "art_20",
+    "TARGET_SR": "SR 412.101.221.66",
+    "assigned_articles": [
+      "Art. 19 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet: 'unter dem Vorbehalt von Artikel 19 Absatz 1'; no external SR; this is an internal reference to Art. 19 Abs. 1 of the same ordinance."
+  },
+  {
+    "ITEM": 21,
+    "ARTICLE_EID": "art_21",
+    "TARGET_SR": "SR 412.101.221.66",
+    "assigned_articles": [
+      "Art. 8"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet: 'Sie passt den Bildungsplan nach Artikel 8 ... an'; no external SR; internal cross-reference to Art. 8 of the current ordinance."
+  },
+  {
+    "ITEM": 22,
+    "ARTICLE_EID": "art_21",
+    "TARGET_SR": "SR 412.101.221.66",
+    "assigned_articles": [
+      "Art. 4"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet: 'namentlich die Handlungskompetenzen nach Artikel 4, betreffen'; again no external SR; internal reference to Art. 4 of the same ordinance."
+  },
+  {
+    "ITEM": 23,
+    "ARTICLE_EID": "art_24",
+    "TARGET_SR": "SR 412.101.221.66",
+    "assigned_articles": [
+      "Art. 14",
+      "Art. 15",
+      "Art. 16",
+      "Art. 17",
+      "Art. 18",
+      "Art. 19",
+      "Art. 20"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet: 'Die Bestimmungen über Qualifikationsverfahren, Ausweise und Titel (Art. 14–20) ...'; no external SR; this is a range of internal articles 14 through 20 of the current ordinance, expanded explicitly."
+  }
+]

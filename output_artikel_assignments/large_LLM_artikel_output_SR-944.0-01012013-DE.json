@@ -1,0 +1,62 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 101",
+    "assigned_articles": [
+      "Art. 97"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet explicitly states: 'Der genannten Bestimmung entspricht heute Art. 97 der BV ... (SR 101)'; Art. 97 is directly and uniquely linked to SR 101."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_12",
+    "TARGET_SR": "SR 313.0",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "The text says: 'gilt das Verwaltungsstrafrechtsgesetz SR 313.0' without any article numbers; this is a blanket applicability clause for the whole Verwaltungsstrafrechtsgesetz."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "The reference 'Artikel 5 Absatz 1 Buchstabe b' has no SR or acronym context and clearly points to another provision of the same act; it is a self-reference, not an external SR link."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_8",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "The parenthetical '(Art. 4)' appears without any SR or external law acronym; it refers to Article 4 of the same ordinance/statute, i.e., an internal cross-reference."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_11",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "Again '(Art. 4)' is mentioned without any SR or acronym; syntactically it is an internal reference to Article 4 of the current document, not to another SR."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_11",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "The phrase 'Artikel 8 Absatz 2' lacks any SR or external-law marker and is used in regulatory language about duties; it clearly refers to Article 8 paragraph 2 of the same act."
+  }
+]

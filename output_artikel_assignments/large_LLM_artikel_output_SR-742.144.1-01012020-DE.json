@@ -1,0 +1,174 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 742.144",
+    "assigned_articles": [
+      "Art. 4 Abs. 2–5",
+      "Art. 7 Abs. 4",
+      "Art. 7a Abs. 2",
+      "Art. 11"
+    ],
+    "confidence": "high",
+    "reasoning": "Im selben Satz wie SR 742.144 werden ausdrücklich die Artikel 4 Absätze 2–5, 7 Absatz 4, 7a Absatz 2 und 11 des Bundesgesetzes über die Lärmsanierung der Eisenbahnen (BGLE) genannt; diese sind syntaktisch direkt diesem Gesetz zugeordnet."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 814.01",
+    "assigned_articles": [
+      "Art. 12",
+      "Art. 16 Abs. 2",
+      "Art. 39 Abs. 1",
+      "Art. 39 Abs. 1bis"
+    ],
+    "confidence": "high",
+    "reasoning": "Im selben Satz wie SR 814.01 (USG) werden ausdrücklich die Artikel 12, 16 Absatz 2 und 39 Absätze 1 und 1bis des Umweltschutzgesetzes genannt; diese sind syntaktisch direkt dem USG zugeordnet."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": "SR 814.41",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Lärmschutz-Verordnung (LSV, SR 814.41) wird generell als anwendbar erklärt („gilt die Lärmschutz-Verordnung …“), ohne Nennung einzelner Artikel; dies ist eine generelle Verweisnorm."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": "SR 814.41",
+    "assigned_articles": [
+      "Art. 37a Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Satz verweist ausdrücklich auf „Artikel 37a Absatz 1 LSV SR 814.41“; dieser Artikel ist klar der LSV zugeordnet."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_8",
+    "TARGET_SR": "SR 616.1",
+    "assigned_articles": [
+      "Art. 11 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "Es heisst „Beitragsgesuch nach Artikel 11 Absatz 1 des Subventionsgesetzes … SR 616.1“; Art. 11 Abs. 1 ist damit eindeutig dem Subventionsgesetz zugeordnet."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 742.144",
+    "assigned_articles": [
+      "Art. 4 Abs. 2",
+      "Art. 4 Abs. 3",
+      "Art. 7a",
+      "Art. 10a"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Snippet werden „Art. 4 Abs. 2 und 3 BGLE“, „Art. 7a BGLE“ und „Art. 10a BGLE“ genannt; BGLE ist in der Präambel als SR 742.144 definiert, daher gehören diese Artikel zu SR 742.144."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": "SR 814.01",
+    "assigned_articles": [
+      "Art. 61 Abs. 1 Bst. a"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Text lautet „Busse nach Artikel 61 Absatz 1 Buchstabe a USG“; USG ist in der Präambel als SR 814.01 definiert, somit ist Art. 61 Abs. 1 Bst. a diesem Gesetz zuzuordnen."
+  },
+  {
+    "ITEM": 8,
+    "ARTICLE_EID": "art_9",
+    "TARGET_SR": "SR 742.144",
+    "assigned_articles": [
+      "Art. 10a Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "Es wird auf „Finanzhilfen nach Artikel 10a Absatz 1 BGLE“ verwiesen; BGLE = SR 742.144, daher Art. 10a Abs. 1 dieses Gesetzes."
+  },
+  {
+    "ITEM": 9,
+    "ARTICLE_EID": "art_13",
+    "TARGET_SR": "SR 742.144",
+    "assigned_articles": [
+      "Art. 7a"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Satz spricht von „ergänzender Massnahmen nach Artikel 7a BGLE“; BGLE = SR 742.144, somit Art. 7a dieses Gesetzes."
+  },
+  {
+    "ITEM": 10,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 742.144.1",
+    "assigned_articles": [
+      "Art. 4 Abs. 2",
+      "Art. 4 Abs. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "„Art. 4 Abs. 2 und 3 BGLE“ verweist auf das Bundesgesetz BGLE (SR 742.144), nicht auf die vorliegende Verordnung SR 742.144.1. Innerhalb der Verordnung ist dies daher ein ausgehender Verweis auf ein anderes SR; als Selbstreferenz zur Verordnung ist er nicht zu werten."
+  },
+  {
+    "ITEM": 11,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 742.144.1",
+    "assigned_articles": [
+      "Art. 7a"
+    ],
+    "confidence": "high",
+    "reasoning": "„Art. 7a BGLE“ bezeichnet einen Artikel des BGLE (SR 742.144). Für die vorliegende Verordnung SR 742.144.1 ist dies ein externer Verweis, keine Selbstreferenz."
+  },
+  {
+    "ITEM": 12,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 742.144.1",
+    "assigned_articles": [
+      "Art. 10a"
+    ],
+    "confidence": "high",
+    "reasoning": "„Art. 10a BGLE“ gehört zum BGLE (SR 742.144). Innerhalb der Verordnung SR 742.144.1 ist dies ein externer Verweis, nicht ein Verweis auf einen eigenen Artikel."
+  },
+  {
+    "ITEM": 13,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": "SR 742.144.1",
+    "assigned_articles": [
+      "Art. 37a Abs. 1",
+      "Art. 8 Abs. 2",
+      "Art. 8 Abs. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Satz nennt „Artikel 37a Absatz 1 LSV“ und „Artikel 8 Absätze 2 und 3 LSV“; LSV ist SR 814.41. Für die vorliegende Verordnung SR 742.144.1 sind dies ausgehende Verweise auf ein anderes SR, keine internen Artikel der Verordnung."
+  },
+  {
+    "ITEM": 14,
+    "ARTICLE_EID": "art_8",
+    "TARGET_SR": "SR 742.144.1",
+    "assigned_articles": [
+      "Art. 11 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "„Artikel 11 Absatz 1 des Subventionsgesetzes“ verweist auf das Subventionsgesetz (SR 616.1). Innerhalb der Verordnung SR 742.144.1 ist dies ein externer Verweis; es gibt keinen Hinweis, dass Art. 11 Abs. 1 ein Artikel der Verordnung wäre."
+  },
+  {
+    "ITEM": 15,
+    "ARTICLE_EID": "art_9",
+    "TARGET_SR": "SR 742.144.1",
+    "assigned_articles": [
+      "Art. 4"
+    ],
+    "confidence": "medium",
+    "reasoning": "„der Emissionsgrenzwert nach Artikel 4“ steht ohne Gesetzesabkürzung; im Kontext der Verordnung ist dies mit hoher Wahrscheinlichkeit ein Verweis auf Art. 4 der vorliegenden Verordnung SR 742.144.1 und damit eine interne Selbstreferenz."
+  },
+  {
+    "ITEM": 16,
+    "ARTICLE_EID": "art_17",
+    "TARGET_SR": "SR 742.144.1",
+    "assigned_articles": [
+      "Art. 4"
+    ],
+    "confidence": "high",
+    "reasoning": "„Artikel 4 tritt am 1. Januar 2020 in Kraft“ ist eine typische Schluss- bzw. Inkrafttretensbestimmung, die sich auf einen Artikel derselben Verordnung bezieht; mangels anderer Gesetzesangabe ist dies klar eine Selbstreferenz auf Art. 4 der Verordnung SR 742.144.1."
+  }
+]

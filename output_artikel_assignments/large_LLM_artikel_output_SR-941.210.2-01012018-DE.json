@@ -1,0 +1,118 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 941.210",
+    "assigned_articles": [
+      "Art. 5 Abs. 2",
+      "Art. 8 Abs. 2",
+      "Art. 11 Abs. 2",
+      "Art. 16 Abs. 2",
+      "Art. 24 Abs. 3",
+      "Art. 33"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Präambel nennt ausdrücklich: «gestützt auf die Artikel 5 Absatz 2, 8 Absatz 2, 11 Absatz 2, 16 Absatz 2, 24 Absatz 3 und 33 der Messmittelverordnung … SR 941.210». Direkte Zuordnung dieser Artikel zur Messmittelverordnung (SR 941.210)."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": "SR 680.11",
+    "assigned_articles": [
+      "Art. 3 Abs. 1 Bst. c"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Satz: «Landwirtschaftliche Brennereien nach Artikel 3 Absatz 1 Buchstabe c der Alkoholverordnung … SR 680.11 (AlkV)» ist Art. 3 Abs. 1 Bst. c syntaktisch direkt mit der Alkoholverordnung (SR 680.11) verknüpft."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": "SR 941.210",
+    "assigned_articles": [
+      "Art. 9"
+    ],
+    "confidence": "high",
+    "reasoning": "Formulierung: «gemäss Artikel 9 der Messmittelverordnung»; die Messmittelverordnung ist SR 941.210. Direkte Präposition-Artikel-Zuordnung."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": "SR 941.210",
+    "assigned_articles": "General reference - entire document",
+    "confidence": "high",
+    "reasoning": "«Messmittel … die der Messmittelverordnung unterstehen» enthält keinen bestimmten Artikel; es wird die Verordnung als Ganzes als Rechtsgrundlage herangezogen."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_8",
+    "TARGET_SR": "SR 941.210",
+    "assigned_articles": [
+      "Anhang 1"
+    ],
+    "confidence": "high",
+    "reasoning": "«… die grundlegenden Anforderungen nach Anhang 1 der Messmittelverordnung …» verweist spezifisch auf Anhang 1 der Messmittelverordnung (SR 941.210); Anhänge werden als eigenständige Normteile erfasst."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_9",
+    "TARGET_SR": "SR 941.210",
+    "assigned_articles": [
+      "Anhang 5"
+    ],
+    "confidence": "high",
+    "reasoning": "«… nach Anhang 5 der Messmittelverordnung …» ist ein klarer Verweis auf Anhang 5 der Messmittelverordnung (SR 941.210)."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_10",
+    "TARGET_SR": "SR 941.210",
+    "assigned_articles": [
+      "Anhang 1",
+      "Anhang 2"
+    ],
+    "confidence": "high",
+    "reasoning": "«… die grundlegenden Anforderungen nach Anhang 1 der Messmittelverordnung und nach Anhang 2 der vorliegenden Verordnung …»; nur Anhang 1 gehört zur Messmittelverordnung (SR 941.210). Anhang 2 bezieht sich auf die vorliegende Verordnung und ist Selbstverweis, daher nicht dem TARGET_SR zugeordnet."
+  },
+  {
+    "ITEM": 8,
+    "ARTICLE_EID": "art_11",
+    "TARGET_SR": "SR 941.210",
+    "assigned_articles": [
+      "Art. 10",
+      "Anhang 2"
+    ],
+    "confidence": "medium",
+    "reasoning": "«… mit den folgenden Verfahren nach Anhang 2 der Messmittelverordnung bewertet …»; der Text nennt «die grundlegenden Anforderungen nach Artikel 10» ohne Aktenzeichen, aber im Kontext der Messmittelverordnung ist dies plausibel als Art. 10 Messmittelverordnung zu verstehen. Anhang 2 ist ausdrücklich der Messmittelverordnung zugeordnet. Leichte Unsicherheit, ob Art. 10 sich auf die vorliegende oder die Messmittelverordnung bezieht, daher mittlere Sicherheit."
+  },
+  {
+    "ITEM": 9,
+    "ARTICLE_EID": "art_12",
+    "TARGET_SR": "SR 941.210",
+    "assigned_articles": [
+      "Anhang 7 Ziff. 7",
+      "Anhang 7 Ziff. 4"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Satz nennt zweimal: «nach Anhang 7 Ziffer 7 der Messmittelverordnung» und «nach Anhang 7 Ziffer 4 der Messmittelverordnung»; beide gehören eindeutig zur Messmittelverordnung (SR 941.210)."
+  },
+  {
+    "ITEM": 10,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 3 Abs. 1 Bst. c"
+    ],
+    "confidence": "high",
+    "reasoning": "artikel_reference ohne TARGET_SR; der Text ist identisch mit ITEM 2 und verweist auf «Artikel 3 Absatz 1 Buchstabe c der Alkoholverordnung (AlkV)». Dies ist ein externer Verweis auf SR 680.11, kein Selbstverweis auf die vorliegende Verordnung."
+  },
+  {
+    "ITEM": 11,
+    "ARTICLE_EID": "art_15",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 13"
+    ],
+    "confidence": "high",
+    "reasoning": "«… ohne Kennzeichnung nach Artikel 13 verwendet werden …»; mangels Nennung eines anderen Erlasses ist dies ein interner Verweis auf Art. 13 derselben Verordnung (Selbstreferenz)."
+  }
+]

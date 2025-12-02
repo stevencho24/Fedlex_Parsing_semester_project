@@ -1,0 +1,32 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 251",
+    "assigned_articles": [
+      "Art. 60"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet explicitly cites 'Artikel 60 des Kartellgesetzes ... SR 251 (KG)'; Art. 60 is directly and uniquely linked to SR 251."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": "SR 251",
+    "assigned_articles": [
+      "Art. 7"
+    ],
+    "confidence": "high",
+    "reasoning": "The text states '... oder von Artikel 7 KG erfasst wird'; 'KG' is defined in the preamble as SR 251, so this is a direct reference to Art. 7 of SR 251."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": "SR 251",
+    "assigned_articles": [
+      "Art. 5 Abs. 4"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet reads 'Vertikale Abreden, die nicht von Artikel 5 Absatz 4 KG erfasst werden'; 'KG' refers to SR 251, so this is a clear citation of Art. 5 Abs. 4 of SR 251."
+  }
+]

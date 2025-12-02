@@ -1,0 +1,42 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 510.62",
+    "assigned_articles": [
+      "Art. 14 Abs. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Formulierung «gestützt auf Artikel 14 Absatz 3 … SR 510.62 … (GeoIG)» verknüpft den Artikel grammatikalisch eindeutig mit dem genannten Bundesgesetz SR 510.62."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 510.620",
+    "assigned_articles": [
+      "Art. 42"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Formulierung «… und Artikel 42 der Verordnung vom 21. Mai 2008 SR 510.620 über Geoinformation (GeoIV)» verknüpft den Artikel 42 eindeutig mit der Verordnung SR 510.620."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Interne Verweisung innerhalb des aktuellen Erlasses (Art. 14 GeoIG und Art. 37 ff. GeoIV)"
+    ],
+    "confidence": "high",
+    "reasoning": "Es wird auf «Art. 14 GeoIG» und «Art. 37 ff. GeoIV» verwiesen, ohne explizite SR-Nummer im selben Satz. Diese Verweise sind inhaltlich auf bereits im Vorspann definierte Akten (GeoIG/GeoIV) bezogen und dienen als Sachnormverweise, nicht als neue SR-Link-Zuweisung."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Interne Verweisung innerhalb des aktuellen Erlasses (Art. 40 GeoIV)"
+    ],
+    "confidence": "high",
+    "reasoning": "«Für die Weitergabe an Dritte gilt Art. 40 GeoIV.» nennt nur den Artikel und die Abkürzung der Verordnung, aber keine SR-Nummer im selben syntaktischen Kontext; dies ist eine reine Sachverweisung auf GeoIV, keine neue SR-Link-Zuweisung."
+  }
+]

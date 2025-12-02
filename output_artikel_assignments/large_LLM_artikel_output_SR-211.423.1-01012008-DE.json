@@ -1,0 +1,114 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 210",
+    "assigned_articles": [
+      "Art. 885"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet explicitly states 'in Ausführung von Artikel 885 des Zivilgesetzbuches SR 210'; Art. 885 is directly and syntactically linked to SR 210."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 281.1",
+    "assigned_articles": [
+      "Art. 16"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet states 'Artikel 16 des Schuldbetreibungs- und Konkursgesetzes ... SR 281.1'; Art. 16 is explicitly and directly tied to SR 281.1."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 210",
+    "assigned_articles": [
+      "Art. 885"
+    ],
+    "confidence": "high",
+    "reasoning": "The text reads 'in Artikel 885 des Zivilgesetzbuches SR 210'; Art. 885 is clearly attributed to SR 210 in the same clause."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_37_44",
+    "TARGET_SR": "SR 211.412.110",
+    "assigned_articles": [
+      "Art. 6 Bst. d"
+    ],
+    "confidence": "high",
+    "reasoning": "The authorial note says 'Aufgehoben durch Art. 6 Bst. d der Verordnung ... (SR 211.412.110)'; Art. 6 letter d is explicitly the provision in SR 211.412.110 effecting the repeal."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Artikel 885 is mentioned without an SR or acronym in this snippet; it is a cross-reference to an external law (ZGB) but this item_type is 'artikel_reference' and no TARGET_SR is given. Per rules, this is treated as a self/external reference without assigning it to a specific SR."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_17",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "The snippet refers to 'Artikel 12 Absatz 4 und 13 Absatz 2' without any SR or acronym; these are internal articles of the same ordinance. As an 'artikel_reference' item, it represents internal self-reference, not a link to another SR."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_20",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Reference to 'Artikel 12' appears without any SR context; syntactically it is an internal cross-reference within the same document. No external SR assignment is made."
+  },
+  {
+    "ITEM": 8,
+    "ARTICLE_EID": "art_24",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Again 'Artikel 12' is mentioned without an SR or acronym; this is an internal reference within the ordinance, not tied to an external SR."
+  },
+  {
+    "ITEM": 9,
+    "ARTICLE_EID": "art_24",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "The mention of 'Artikel 18' lacks any SR or external law marker; it is an internal article reference. Per rules, artikel_reference items without SR context are treated as self-references."
+  },
+  {
+    "ITEM": 10,
+    "ARTICLE_EID": "art_26",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "The parenthetical '(Art. 6 Abs. 1)' clearly refers to an article of the same ordinance (use of the same form); no SR or external acronym is present, so it is an internal self-reference only."
+  },
+  {
+    "ITEM": 11,
+    "ARTICLE_EID": "art_27",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "The snippet mentions 'Artikeln 106 und 107 des Schuldbetreibungs- und Konkursgesetzes vom 11. April 1889' but does not include 'SR 281.1' or another SR marker here. As an artikel_reference item without TARGET_SR, this is treated as a reference to another law without assigning it to a specific SR in this output."
+  },
+  {
+    "ITEM": 12,
+    "ARTICLE_EID": "art_35",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "The parenthetical '(Art. 9–11)' refers to articles of the same ordinance (internal structure). No SR or external acronym is present, so it is a self-reference only."
+  },
+  {
+    "ITEM": 13,
+    "ARTICLE_EID": "art_48",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "The phrase 'Die Artikel 45–47' clearly concerns internal provisions of this ordinance (entry into force clause). There is no SR context; thus it is an internal self-reference, not an external SR link."
+  }
+]

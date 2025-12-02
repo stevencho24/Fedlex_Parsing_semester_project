@@ -1,0 +1,650 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 101",
+    "assigned_articles": [
+      "Art. 26",
+      "Art. 36",
+      "Art. 104",
+      "Art. 122"
+    ],
+    "confidence": "high",
+    "reasoning": "INSIDE_AUTHORIALNOTE states: 'Den genannten Bestimmungen entsprechen heute die Art. 26, 36, 104 und 122 der BV ... (SR 101)'; these articles are explicitly and directly linked to SR 101."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": "SR 700",
+    "assigned_articles": [
+      "Art. 15"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet: 'ausserhalb einer Bauzone nach Artikel 15 des Raumplanungsgesetzes ... SR 700'; Art. 15 is explicitly tied to the cited SR."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_8",
+    "TARGET_SR": "SR 221.213.2",
+    "assigned_articles": [
+      "Art. 31 Abs. 2 Bst. e",
+      "Art. 31 Abs. 2 Bst. f"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet refers to 'Artikel 31 Absatz 2 Buchstaben e und f des Bundesgesetzes ... SR 221.213.2'; clear direct marking of article and subsections."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_34",
+    "TARGET_SR": "SR 210",
+    "assigned_articles": [
+      "Art. 837",
+      "Art. 839 ff."
+    ],
+    "confidence": "medium",
+    "reasoning": "Snippet: 'gelten die Bestimmungen des Zivilgesetzbuches (ZGB) ... über das Pfandrecht der Handwerker und Unternehmer.' This refers to the ZGB section on the Handwerker- und Unternehmerpfandrecht, which is located in Art. 837 ff. ZGB. Exact article span is not specified; main starting article and following are indicated."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_36",
+    "TARGET_SR": "SR 210",
+    "assigned_articles": [
+      "Art. 242",
+      "Art. 243"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet: 'bleiben die Artikel 242 und 243 ZGB SR 210 vorbehalten.' Direct citation of these ZGB articles."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_37",
+    "TARGET_SR": "SR 210",
+    "assigned_articles": [
+      "Art. 213"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet: 'bleibt Artikel 213 ZGB SR 210 ... vorbehalten.' Explicit direct reference."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_40",
+    "TARGET_SR": "SR 210",
+    "assigned_articles": [
+      "Art. 169"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet: 'bleibt Artikel 169 ZGB SR 210 vorbehalten.' Explicit direct reference."
+  },
+  {
+    "ITEM": 8,
+    "ARTICLE_EID": "art_41",
+    "TARGET_SR": "SR 210",
+    "assigned_articles": [
+      "Art. 626–632",
+      "Art. 522–533"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet: 'Bestimmungen ... (Art. 626–632 und Art. 522–533 ZGB SR 210)'; two explicit article ranges in ZGB."
+  },
+  {
+    "ITEM": 9,
+    "ARTICLE_EID": "art_47",
+    "TARGET_SR": "SR 221.213.2",
+    "assigned_articles": [
+      "Art. 7",
+      "Art. 8",
+      "Art. 9"
+    ],
+    "confidence": "low",
+    "reasoning": "Snippet: 'die gesetzliche Mindestpachtdauer nach den Bestimmungen des Bundesgesetzes ... SR 221.213.2 über die landwirtschaftliche Pacht'. The exact article numbers on Mindestpachtdauer are not given; based on the structure of the Pachtgesetz they are around early articles (e.g. 7–9). As no explicit article is cited, this is effectively a general reference to the provisions on Mindestpachtdauer; concrete enumeration here is approximate."
+  },
+  {
+    "ITEM": 10,
+    "ARTICLE_EID": "art_49",
+    "TARGET_SR": "SR 210",
+    "assigned_articles": [
+      "Art. 682"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet: 'jeder andere Miteigentümer nach Artikel 682 ZGB SR 210.' Direct article citation."
+  },
+  {
+    "ITEM": 11,
+    "ARTICLE_EID": "art_60",
+    "TARGET_SR": "SR 700",
+    "assigned_articles": [
+      "Art. 16a"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet: 'Baute ... die nach Artikel 16a des Raumplanungsgesetzes ... SR 700 bewilligt werden müsste.' Clear direct marking."
+  },
+  {
+    "ITEM": 12,
+    "ARTICLE_EID": "art_62",
+    "TARGET_SR": "SR 221.301",
+    "assigned_articles": "General reference - entire document",
+    "confidence": "medium",
+    "reasoning": "Snippet: 'Fusion oder Spaltung nach dem Fusionsgesetz ... SR 221.301'; no specific article is mentioned, only the act as a whole."
+  },
+  {
+    "ITEM": 13,
+    "ARTICLE_EID": "art_64",
+    "TARGET_SR": "SR 700",
+    "assigned_articles": [
+      "Art. 24"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet: 'Bewilligung für eine nach Artikel 24 des Raumplanungsgesetzes ... SR 700 zulässige ... Nutzung'; explicit article reference."
+  },
+  {
+    "ITEM": 14,
+    "ARTICLE_EID": "art_72",
+    "TARGET_SR": "SR 210",
+    "assigned_articles": [
+      "Art. 973"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet: 'Rechte gutgläubiger Dritter (Art. 973 ZGB SR 210)'; direct citation."
+  },
+  {
+    "ITEM": 15,
+    "ARTICLE_EID": "art_74",
+    "TARGET_SR": "SR 210",
+    "assigned_articles": [
+      "Art. 798 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet: '(Gesamtpfand; Art. 798 Abs. 1 ZGB SR 210)'; explicit article and paragraph."
+  },
+  {
+    "ITEM": 16,
+    "ARTICLE_EID": "art_75",
+    "TARGET_SR": "SR 210",
+    "assigned_articles": [
+      "Art. 808",
+      "Art. 810",
+      "Art. 836",
+      "Art. 820",
+      "Art. 821",
+      "Art. 837",
+      "Art. 961 Abs. 1 Ziff. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet lists multiple ZGB provisions: 'Artikeln 808 und 810 ZGB', '(Art. 836 ZGB)', '(Art. 820 und 821 ZGB)', 'Artikeln 837 und 961 Absatz 1 Ziffer 1 ZGB'; all are clearly tied to SR 210."
+  },
+  {
+    "ITEM": 17,
+    "ARTICLE_EID": "art_75",
+    "TARGET_SR": "SR 910.1",
+    "assigned_articles": "General reference - entire document",
+    "confidence": "medium",
+    "reasoning": "Snippet: 'Darlehen, die nach dem Landwirtschaftsgesetz ... SR 910.1 als Betriebshilfe oder Investitionskredite gewährt werden'; no specific article is cited, only the act as a whole in relation to such loans."
+  },
+  {
+    "ITEM": 18,
+    "ARTICLE_EID": "art_78",
+    "TARGET_SR": "SR 210",
+    "assigned_articles": [
+      "Art. 33a SchlT"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet: '(Art. 33a SchlT ZGB SR 210)'; explicit reference to Art. 33a of the SchlT zum ZGB."
+  },
+  {
+    "ITEM": 19,
+    "ARTICLE_EID": "art_85",
+    "TARGET_SR": "SR 700",
+    "assigned_articles": [
+      "Art. 21 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet: 'Nutzungsplanes im Sinne von Artikel 21 Absatz 2 des Raumplanungsgesetzes ... SR 700'; direct marking."
+  },
+  {
+    "ITEM": 20,
+    "ARTICLE_EID": "art_89",
+    "TARGET_SR": "SR 173.110",
+    "assigned_articles": [
+      "Art. 82–89"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet: 'nach den Artikeln 82–89 des Bundesgerichtsgesetzes ... SR 173.110'; explicit article range."
+  },
+  {
+    "ITEM": 21,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Artikelreferenz wiederholt den Inhalt von ITEM 2, verweist aber ohne SR-Angabe auf 'Artikel 15 des Raumplanungsgesetzes'; dies ist eine Selbstreferenz im Dokument, nicht eine neue SR-Zuordnung."
+  },
+  {
+    "ITEM": 22,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Verweist auf 'Artikel 15 Absatz 2 und 51 Absatz 2' ohne Nennung eines SR; interne Verweisung innerhalb desselben Gesetzes."
+  },
+  {
+    "ITEM": 23,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Verweist auf 'Art. 57' und 'Art. 2 Abs. 3' ohne SR; reine Selbstreferenzen."
+  },
+  {
+    "ITEM": 24,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Verweist auf 'Artikel 8' ohne SR; interne Strukturverweisung."
+  },
+  {
+    "ITEM": 25,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Verweist auf 'Artikel 7' ohne SR; Selbstreferenz im Gesetz."
+  },
+  {
+    "ITEM": 26,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Verweist auf 'Art. 2' ohne SR; interne Verweisung."
+  },
+  {
+    "ITEM": 27,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Verweist auf mehrere Artikel ('21, 36 Abs. 2, 42 Abs. 2, 47 Abs. 2, 49 Abs. 2') ohne SR; alles Selbstreferenzen."
+  },
+  {
+    "ITEM": 28,
+    "ARTICLE_EID": "art_8",
+    "TARGET_SR": "SR 221.213.2",
+    "assigned_articles": [
+      "Art. 31 Abs. 2 Bst. e",
+      "Art. 31 Abs. 2 Bst. f"
+    ],
+    "confidence": "high",
+    "reasoning": "Gleicher Text wie ITEM 3, aber als artikel_reference ohne SR; semantisch dieselbe externe Verweisung auf das Bundesgesetz über die landwirtschaftliche Pacht. Da ITEM 3 diese Zuordnung bereits trägt, wird dies als Wiederholung betrachtet und hier keine neue SR-Zuordnung vorgenommen; im Sinne der Vorgabe bleibt es jedoch eine Selbstreferenz im aktuellen Parsing-Kontext, daher keine TARGET_SR-Zuordnung."
+  },
+  {
+    "ITEM": 29,
+    "ARTICLE_EID": "art_23",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Verweist auf 'Artikel 65' ohne SR; interne Verweisung."
+  },
+  {
+    "ITEM": 30,
+    "ARTICLE_EID": "art_23",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Verweist auf 'Art. 60' ohne SR; Selbstreferenz."
+  },
+  {
+    "ITEM": 31,
+    "ARTICLE_EID": "art_24",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Wie ITEM 29, aber in anderem Artikel; weiterhin interne Verweisung auf Art. 65."
+  },
+  {
+    "ITEM": 32,
+    "ARTICLE_EID": "art_24",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Wie ITEM 30, interne Verweisung auf Art. 60."
+  },
+  {
+    "ITEM": 33,
+    "ARTICLE_EID": "art_25",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Verweist auf 'Artikel 11 Absatz 3' ohne SR; Selbstreferenz."
+  },
+  {
+    "ITEM": 34,
+    "ARTICLE_EID": "art_26",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Verweist auf 'Artikel 11 Absatz 1' ohne SR; interne Verweisung."
+  },
+  {
+    "ITEM": 35,
+    "ARTICLE_EID": "art_29",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Verweist auf 'Artikel 28' ohne SR; Selbstreferenz."
+  },
+  {
+    "ITEM": 36,
+    "ARTICLE_EID": "art_29",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Verweist auf 'Art. 2 Abs. 2 Bst. a' ohne SR; interne Strukturverweisung."
+  },
+  {
+    "ITEM": 37,
+    "ARTICLE_EID": "art_29",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Verweist auf 'Artikel 28' ohne SR; Selbstreferenz."
+  },
+  {
+    "ITEM": 38,
+    "ARTICLE_EID": "art_32",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Verweist auf 'Art. 66' ohne SR; interne Verweisung."
+  },
+  {
+    "ITEM": 39,
+    "ARTICLE_EID": "art_37",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Verweist auf 'Art. 52' ohne SR; Selbstreferenz."
+  },
+  {
+    "ITEM": 40,
+    "ARTICLE_EID": "art_38",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Verweist auf 'Art. 20 Abs. 2, Art. 22, Art. 23, Art. 24' ohne SR; interne Verweisungen."
+  },
+  {
+    "ITEM": 41,
+    "ARTICLE_EID": "art_51",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Verweist auf 'Art. 17 Abs. 2' ohne SR; Selbstreferenz."
+  },
+  {
+    "ITEM": 42,
+    "ARTICLE_EID": "art_54",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Verweist auf 'Artikel 65' ohne SR; interne Verweisung."
+  },
+  {
+    "ITEM": 43,
+    "ARTICLE_EID": "art_54",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Verweist auf 'Art. 60' ohne SR; Selbstreferenz."
+  },
+  {
+    "ITEM": 44,
+    "ARTICLE_EID": "art_55",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Wie ITEM 42, interne Verweisung auf Art. 65."
+  },
+  {
+    "ITEM": 45,
+    "ARTICLE_EID": "art_55",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Wie ITEM 43, interne Verweisung auf Art. 60."
+  },
+  {
+    "ITEM": 46,
+    "ARTICLE_EID": "art_59",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Verweist auf 'Art. 57' ohne SR; Selbstreferenz."
+  },
+  {
+    "ITEM": 47,
+    "ARTICLE_EID": "art_60",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Wiederholt den Inhalt von ITEM 11, aber ohne SR; hier als interne Verweisung behandelt."
+  },
+  {
+    "ITEM": 48,
+    "ARTICLE_EID": "art_60",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Verweist auf 'Art. 11 Abs. 2' ohne SR; Selbstreferenz."
+  },
+  {
+    "ITEM": 49,
+    "ARTICLE_EID": "art_64",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Wiederholt den Inhalt von ITEM 13, aber ohne SR; hier als interne Verweisung behandelt."
+  },
+  {
+    "ITEM": 50,
+    "ARTICLE_EID": "art_64",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Verweist auf 'Art. 66' ohne SR; Selbstreferenz."
+  },
+  {
+    "ITEM": 51,
+    "ARTICLE_EID": "art_65",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Verweist auf 'Artikel 63' ohne SR; interne Verweisung."
+  },
+  {
+    "ITEM": 52,
+    "ARTICLE_EID": "art_70",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Verweist auf 'Art. 58' und 'Art. 61–69' ohne SR; Selbstreferenzen."
+  },
+  {
+    "ITEM": 53,
+    "ARTICLE_EID": "art_72",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Verweist auf 'Art. 71' ohne SR; interne Verweisung."
+  },
+  {
+    "ITEM": 54,
+    "ARTICLE_EID": "art_73",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Verweist auf 'Artikel 75 Absatz 1' ohne SR; Selbstreferenz."
+  },
+  {
+    "ITEM": 55,
+    "ARTICLE_EID": "art_76",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Verweist auf 'Artikeln 77 und 78' ohne SR; interne Verweisungen."
+  },
+  {
+    "ITEM": 56,
+    "ARTICLE_EID": "art_83",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Verweist auf 'Art. 90 Bst. a' ohne SR; Selbstreferenz."
+  },
+  {
+    "ITEM": 57,
+    "ARTICLE_EID": "art_83",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Verweist auf 'Art. 90 Bst. b' ohne SR; interne Verweisung."
+  },
+  {
+    "ITEM": 58,
+    "ARTICLE_EID": "art_83",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Verweist auf 'Art. 88' ohne SR; Selbstreferenz."
+  },
+  {
+    "ITEM": 59,
+    "ARTICLE_EID": "art_85",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Wiederholt den Inhalt von ITEM 19, aber ohne SR; hier als interne Verweisung behandelt."
+  },
+  {
+    "ITEM": 60,
+    "ARTICLE_EID": "art_86",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Verweist auf 'Art. 2' ohne SR; Selbstreferenz."
+  },
+  {
+    "ITEM": 61,
+    "ARTICLE_EID": "art_86",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Ebenfalls Verweis auf 'Art. 2' ohne SR; interne Verweisung."
+  },
+  {
+    "ITEM": 62,
+    "ARTICLE_EID": "art_87",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Verweist auf 'Artikel 76' ohne SR; Selbstreferenz."
+  },
+  {
+    "ITEM": 63,
+    "ARTICLE_EID": "art_88",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Verweist auf 'Art. 80 Abs. 1' und 'Art. 87' ohne SR; interne Verweisungen."
+  },
+  {
+    "ITEM": 64,
+    "ARTICLE_EID": "art_89",
+    "TARGET_SR": "SR 173.110",
+    "assigned_articles": [
+      "Art. 82–89"
+    ],
+    "confidence": "high",
+    "reasoning": "Gleicher Inhalt wie ITEM 20, aber ohne explizite SR-Angabe im Snippet; semantisch klar dieselbe Verweisung auf die Art. 82–89 BGG. Da ITEM 20 diese Zuordnung bereits trägt, wird dies als Wiederholung betrachtet; im Rahmen der Parsing-Regeln bleibt es jedoch eine Selbstreferenz ohne neue TARGET_SR-Zuordnung."
+  },
+  {
+    "ITEM": 65,
+    "ARTICLE_EID": "art_90",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Verweist auf 'Artikeln 60, 63, 64 und 65' ohne SR; interne Verweisungen."
+  },
+  {
+    "ITEM": 66,
+    "ARTICLE_EID": "art_90",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Verweist auf 'Artikel 83 Absatz 3' ohne SR; Selbstreferenz."
+  },
+  {
+    "ITEM": 67,
+    "ARTICLE_EID": "art_90",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Verweist auf 'Artikel 76 Absatz 2' ohne SR; interne Verweisung."
+  },
+  {
+    "ITEM": 68,
+    "ARTICLE_EID": "art_90",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Verweist auf 'Artikel 86' ohne SR; Selbstreferenz."
+  },
+  {
+    "ITEM": 69,
+    "ARTICLE_EID": "art_90",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Verweist auf 'Art. 87' ohne SR; interne Verweisung."
+  },
+  {
+    "ITEM": 70,
+    "ARTICLE_EID": "art_91",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Verweist auf 'Artikeln 10 Absatz 2 und 86 Absatz 2' ohne SR; Selbstreferenzen."
+  },
+  {
+    "ITEM": 71,
+    "ARTICLE_EID": "art_91",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Verweist auf 'Artikel 79' ohne SR; interne Verweisung."
+  },
+  {
+    "ITEM": 72,
+    "ARTICLE_EID": "art_94",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Verweist auf 'Art. 29 Abs. 1 Bst. c' ohne SR; Selbstreferenz."
+  },
+  {
+    "ITEM": 73,
+    "ARTICLE_EID": "art_95_a",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Verweist auf 'Artikel 94 und 95' ohne SR; interne Verweisungen."
+  },
+  {
+    "ITEM": 74,
+    "ARTICLE_EID": "art_95_b",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Verweist auf 'Artikel 94 und 95' ohne SR; Selbstreferenzen."
+  }
+]

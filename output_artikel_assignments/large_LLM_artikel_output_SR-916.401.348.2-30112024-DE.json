@@ -1,0 +1,47 @@
+[
+  {
+    "Item": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 916.401",
+    "assigned_articles": [
+      "Art. 50 Abs. 3",
+      "Art. 239e Abs. 2",
+      "Art. 239e Abs. 3",
+      "Art. 239f"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Formulierung «gestützt auf die Artikel 50 Absatz 3, 239e Absätze 2 und 3 und 239f der Tierseuchenverordnung … SR 916.401» verknüpft alle genannten Artikel syntaktisch eindeutig mit der Tierseuchenverordnung SR 916.401."
+  },
+  {
+    "Item": 2,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": "SR 916.443.111",
+    "assigned_articles": [
+      "Anhang 1"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Satzteil «richten sich nach Anhang 1 der Verordnung des EDI vom 18. November 2015 SR 916.443.111 …» ist Anhang 1 direkt dieser Verordnung zugeordnet; weitere Artikelangaben (47, 48) beziehen sich auf eine andere Verordnung und gehören nicht zu SR 916.443.111."
+  },
+  {
+    "Item": 3,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": "SR 916.443.10",
+    "assigned_articles": [
+      "Art. 47",
+      "Art. 48"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Passus «… sowie Nordirland und die Artikel 47 und 48 Verordnung vom 18. November 2015 SR 916.443.10 über die Ein‑, Durch- und Ausfuhr …» ordnet die Artikel 47 und 48 syntaktisch der Verordnung SR 916.443.10 zu."
+  },
+  {
+    "Item": 4,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 47",
+      "Art. 48"
+    ],
+    "confidence": "medium",
+    "reasoning": "Die artikel_reference-Stelle nennt «die Artikel 47 und 48 … über die Ein‑, Durch- und Ausfuhr von Tieren und Tierprodukten im Verkehr mit Drittstaaten». Aufgrund des identischen Wortlauts zu Item 3 ist dies eine Verweisung auf Art. 47 und 48 der in Art. 3 genannten Drittstaaten-Verordnung (SR 916.443.10), nicht auf das vorliegende Dokument selbst."
+  }
+]

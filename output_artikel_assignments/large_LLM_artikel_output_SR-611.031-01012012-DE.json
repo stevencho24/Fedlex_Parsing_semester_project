@@ -1,0 +1,52 @@
+[
+  {
+    "Item": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 611.0",
+    "assigned_articles": [
+      "Art. 52 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Formulierung \"gestützt auf Artikel 52 Absatz 2 des Finanzhaushaltgesetzes ... SR 611.0 (FHG)\" verknüpft eindeutig Art. 52 Abs. 2 mit SR 611.0."
+  },
+  {
+    "Item": 2,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": "SR 172.010.1",
+    "assigned_articles": [
+      "Art. 8a Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Satz \"... nach Artikel 8a Absatz 2 der Regierungs- und Verwaltungsorganisationsverordnung ... SR 172.010.1 (RVOV)\" ist Art. 8a Abs. 2 grammatikalisch direkt der RVOV/SR 172.010.1 zugeordnet."
+  },
+  {
+    "Item": 3,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": "SR 172.010.1",
+    "assigned_articles": [
+      "Art. 8n Abs. 1 lit. c"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Text \"nach Artikel 8n Absatz 1 Buchstabe c der RVOV SR 172.010.1\" weist Art. 8n Abs. 1 Buchstabe c eindeutig der RVOV (SR 172.010.1) zu."
+  },
+  {
+    "Item": 4,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 611.0",
+    "assigned_articles": [
+      "Art. 52"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Passage \"... bildet einen Spezialfonds des Bundes nach Artikel 52 FHG\" verwendet das im Vorspann definierte Akronym FHG für SR 611.0; Art. 52 ist damit Art. 52 FHG (SR 611.0). Absatz wird nicht genannt."
+  },
+  {
+    "Item": 5,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Stelle \"... nach Artikel 8a Absatz 2 der Regierungs- und Verwaltungsorganisationsverordnung ... (RVOV)\" enthält zwar einen Artikelverweis, aber keinen expliziten SR-Link; sie wiederholt inhaltlich Item 2 und dient hier als Selbstreferenz im Dokument, nicht als neue Zuordnung zu einem TARGET_SR."
+  }
+]

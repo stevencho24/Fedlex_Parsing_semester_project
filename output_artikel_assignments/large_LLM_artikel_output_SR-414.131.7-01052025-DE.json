@@ -1,0 +1,144 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 414.110",
+    "assigned_articles": [
+      "Art. 34d Abs. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet explicitly cites 'Artikel 34d Absatz 3 des ETH-Gesetzes ... SR 414.110'; this article and paragraph clearly belong to SR 414.110."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_23",
+    "TARGET_SR": "SR 172.058.41",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "The text refers generally to 'die Verordnung ... SR 172.058.41' without specifying any article; it applies the whole Parkverordnung subsidiarily."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_24",
+    "TARGET_SR": "SR 172.058.41",
+    "assigned_articles": [
+      "Art. 3",
+      "Art. 3 Abs. 3 Bst. a"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet states 'Die Zuteilungskriterien nach Artikel 3 der Parkverordnung ... Artikel 3 Absatz 3 Buchstabe a gilt auch ...'; both references are syntactically tied to the Parkverordnung SR 172.058.41."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_25",
+    "TARGET_SR": "SR 172.058.41",
+    "assigned_articles": [
+      "Art. 5 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "The sentence refers to 'von den in Artikel 5 Absatz 2 der Parkverordnung SR 172.058.41 genannten Ansätzen'; this directly links Art. 5 Abs. 2 to SR 172.058.41."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "The reference 'nach Artikel 2 Absatz 1' has no SR or external law mentioned; it clearly points to another article (Art. 2 Abs. 1) of the same ordinance."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "Again 'nach Artikel 2 Absatz 1' appears without any SR context; this is a self-reference to Art. 2 Abs. 1 of the current document."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_6",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "The phrase 'nach Artikel 2 Absatz 1' is used with no external SR; it refers internally to Art. 2 Abs. 1 of this ordinance."
+  },
+  {
+    "ITEM": 8,
+    "ARTICLE_EID": "art_6",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "The wording 'nach Artikel 2 Absatz 1' again lacks any SR or external law; it is an internal cross-reference to Art. 2 Abs. 1."
+  },
+  {
+    "ITEM": 9,
+    "ARTICLE_EID": "art_6_a",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "The plural 'nach den Artikeln 2–6' refers to a range of articles within the same ordinance; no external SR is mentioned, so this is purely internal."
+  },
+  {
+    "ITEM": 10,
+    "ARTICLE_EID": "art_6_a",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "The phrase 'die Schuldgelder nach den Artikeln 2–6' again clearly concerns internal articles of this ordinance; there is no syntactic or semantic link to an external SR."
+  },
+  {
+    "ITEM": 11,
+    "ARTICLE_EID": "art_12",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "The reference 'Dienstleistung nach Artikel 11 Absatz 1' is to another provision of the same document; no external law or SR is cited."
+  },
+  {
+    "ITEM": 12,
+    "ARTICLE_EID": "art_24",
+    "TARGET_SR": "SR 172.058.41",
+    "assigned_articles": [
+      "Art. 3",
+      "Art. 3 Abs. 3 Bst. a"
+    ],
+    "confidence": "high",
+    "reasoning": "This artikel_reference snippet mirrors the SR_link_detection context for Art. 24: 'Artikel 3 der Parkverordnung' and 'Artikel 3 Absatz 3 Buchstabe a' are clearly references to the Parkverordnung SR 172.058.41, not internal articles."
+  },
+  {
+    "ITEM": 13,
+    "ARTICLE_EID": "art_24",
+    "TARGET_SR": "SR 172.058.41",
+    "assigned_articles": [
+      "Art. 3 Abs. 3 Bst. d"
+    ],
+    "confidence": "high",
+    "reasoning": "The text 'nach Artikel 3 Absatz 3 Buchstabe d der Parkverordnung' explicitly ties this article and paragraph to the Parkverordnung, i.e. SR 172.058.41."
+  },
+  {
+    "ITEM": 14,
+    "ARTICLE_EID": "art_25",
+    "TARGET_SR": "SR 172.058.41",
+    "assigned_articles": [
+      "Art. 5 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "The phrase 'von den in Artikel 5 Absatz 2 der Parkverordnung genannten Ansätzen' clearly refers to Art. 5 Abs. 2 of the Parkverordnung SR 172.058.41, not to an internal article."
+  }
+]

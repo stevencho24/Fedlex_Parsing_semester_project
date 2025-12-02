@@ -1,0 +1,170 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 531",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "high",
+    "reasoning": "Preamble cites the Landesversorgungsgesetz (LVG, SR 531) as a whole without mentioning any specific article; standard blanket legal basis formulation."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_8",
+    "TARGET_SR": "SR 170.512.1",
+    "assigned_articles": ["Art. 20 Abs. 2"],
+    "confidence": "high",
+    "reasoning": "Authorial note explicitly states: 'in Anwendung von Art. 20 Abs. 2 der Publikationsverordnung ... (SR 170.512.1)'; clear direct marking of article and paragraph."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_16",
+    "TARGET_SR": "SR 221.411",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "medium",
+    "reasoning": "Snippet refers generally to 'Vorschriften der Handelsregisterverordnung ... SR 221.411' without any article indication; no syntactic link to a specific provision."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_34",
+    "TARGET_SR": "SR 220",
+    "assigned_articles": ["Art. 485"],
+    "confidence": "high",
+    "reasoning": "Text: 'Retentionsrecht nach Artikel 485 des Obligationenrechts SR 220'; article number is directly tied to the cited SR via prepositional phrase."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_6",
+    "TARGET_SR": "SR 531",
+    "assigned_articles": ["Art. 46 Abs. 1", "Art. 46 Abs. 3"],
+    "confidence": "high",
+    "reasoning": "Phrase 'Verfügungen nach Artikel 46 Absätze 1 und 3 LVG'; LVG is SR 531 from preamble; both specified paragraphs belong to that SR."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_14",
+    "TARGET_SR": "SR 531",
+    "assigned_articles": ["Art. 14"],
+    "confidence": "high",
+    "reasoning": "Parenthetical '(Art. 14 LVG)' directly links article 14 to LVG (SR 531)."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_17",
+    "TARGET_SR": "SR 531",
+    "assigned_articles": ["Art. 16 Abs. 1"],
+    "confidence": "high",
+    "reasoning": "Reference '(Art. 16 Abs. 1 LVG)' clearly specifies article and paragraph of LVG (SR 531)."
+  },
+  {
+    "ITEM": 8,
+    "ARTICLE_EID": "art_26",
+    "TARGET_SR": "SR 531",
+    "assigned_articles": ["Art. 31"],
+    "confidence": "high",
+    "reasoning": "Text 'Interventionsmassnahmen nach Artikel 31 LVG' explicitly ties article 31 to LVG (SR 531)."
+  },
+  {
+    "ITEM": 9,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "high",
+    "reasoning": "Reference 'Art. 7 Abs. 3' has no SR or acronym; by rule this is a self-reference to another article of the same ordinance."
+  },
+  {
+    "ITEM": 10,
+    "ARTICLE_EID": "art_6",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "high",
+    "reasoning": "Same sentence as ITEM 5 but here treated as artikel_reference; 'Artikel 46 Absätze 1 und 3 LVG' is already assigned to SR 531 in ITEM 5, so this is considered covered and functions as internal cross-reference context."
+  },
+  {
+    "ITEM": 11,
+    "ARTICLE_EID": "art_10",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "high",
+    "reasoning": "Phrase 'nach Artikel 8 Absatz 1' lacks any SR or acronym; per rules this is a self-reference within the same document."
+  },
+  {
+    "ITEM": 12,
+    "ARTICLE_EID": "art_11",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "high",
+    "reasoning": "Reference 'nach Artikel 8 Absatz 1' again appears without SR; clearly an internal article of this ordinance."
+  },
+  {
+    "ITEM": 13,
+    "ARTICLE_EID": "art_17",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "high",
+    "reasoning": "Contains '(Art. 16 Abs. 1 LVG)' which is already linked to SR 531 in ITEM 7; as artikel_reference its role is to show internal cross-reference usage, not a new SR link."
+  },
+  {
+    "ITEM": 14,
+    "ARTICLE_EID": "art_33",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "high",
+    "reasoning": "Reference to 'Artikel 34 Absatz 2' has no SR or acronym; by default this is an internal article of the same ordinance."
+  },
+  {
+    "ITEM": 15,
+    "ARTICLE_EID": "art_34",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "high",
+    "reasoning": "Here 'Artikel 485 des Obligationenrechts' is the same cross-reference already assigned to SR 220 in ITEM 4; this artikel_reference item is treated as internal structural reference, not a new SR assignment."
+  },
+  {
+    "ITEM": 16,
+    "ARTICLE_EID": "art_36",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "high",
+    "reasoning": "'gilt Artikel 31 sinngemäss' has no SR or acronym; clearly refers to article 31 of this ordinance."
+  },
+  {
+    "ITEM": 17,
+    "ARTICLE_EID": "art_38",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "high",
+    "reasoning": "'gelten die Artikel 32 und 33 sinngemäss' is a classic internal cross-reference; no external SR mentioned."
+  },
+  {
+    "ITEM": 18,
+    "ARTICLE_EID": "art_39",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "high",
+    "reasoning": "'berechnet sich nach Artikel 35 Absatz 1' lacks any SR; internal reference to article 35 of the same document."
+  },
+  {
+    "ITEM": 19,
+    "ARTICLE_EID": "art_40",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "high",
+    "reasoning": "Range 'Artikel 36–39' is a set of internal articles; no external SR context provided."
+  },
+  {
+    "ITEM": 20,
+    "ARTICLE_EID": "art_43",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "high",
+    "reasoning": "Reference 'nach Artikel 42' is internal; no SR or acronym present to link it to another document."
+  },
+  {
+    "ITEM": 21,
+    "ARTICLE_EID": "art_44",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "high",
+    "reasoning": "'Die Forderungen nach Artikel 34 Buchstaben a–d' clearly refers to article 34 of this ordinance; no external SR mentioned."
+  }
+]

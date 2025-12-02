@@ -1,0 +1,188 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 941.20",
+    "assigned_articles": [
+      "Art. 5",
+      "Art. 7 Abs. 2",
+      "Art. 8 Abs. 2",
+      "Art. 9 Abs. 2",
+      "Art. 9 Abs. 3",
+      "Art. 11",
+      "Art. 13 Abs. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "Die genannten Artikel (5, 7 Abs. 2, 8 Abs. 2, 9 Abs. 2 und 3, 11, 13 Abs. 3) werden ausdrücklich als Artikel des Messgesetzes (MessG, SR 941.20) bezeichnet."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 946.51",
+    "assigned_articles": "General reference - entire document",
+    "confidence": "high",
+    "reasoning": "Das Bundesgesetz über die technischen Handelshemmnisse (THG, SR 946.51) wird ohne konkrete Artikelangabe als Ausführungsgesetz genannt; keine spezifischen Artikel werden syntaktisch mit SR 946.51 verknüpft."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 0.946.526.81",
+    "assigned_articles": "General reference - entire document",
+    "confidence": "high",
+    "reasoning": "Das Abkommen SR 0.946.526.81 wird als Ganzes erwähnt („Abkommen ... über die gegenseitige Anerkennung von Konformitätsbewertungen“), ohne Bezug auf bestimmte Artikel."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_12",
+    "TARGET_SR": "SR 946.512",
+    "assigned_articles": [
+      "Art. 25"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Satz wird ausdrücklich auf „Artikel 25 der Akkreditierungs- und Bezeichnungsverordnung ... SR 946.512 (AkkBV)“ verwiesen; klare syntaktische Zuordnung."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_12_a",
+    "TARGET_SR": "SR 946.512",
+    "assigned_articles": "General reference - entire document",
+    "confidence": "medium",
+    "reasoning": "Formulierung „Sie ist gemäss der AkkBV SR 946.512 akkreditiert.“ enthält keine konkrete Artikelangabe; es handelt sich um eine generelle Bezugnahme auf die Akkreditierungsordnung als Ganzes."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_28",
+    "TARGET_SR": "SR 311.0",
+    "assigned_articles": [
+      "Art. 248"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Text nennt ausdrücklich „Artikel 248 des Strafgesetzbuches SR 311.0“; eindeutige Verknüpfung dieses Artikels mit SR 311.0."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_28",
+    "TARGET_SR": "SR 941.20",
+    "assigned_articles": [
+      "Art. 20",
+      "Art. 21",
+      "Art. 22",
+      "Art. 23",
+      "Art. 24"
+    ],
+    "confidence": "high",
+    "reasoning": "„Strafbestimmungen der Artikel 20–24 MessG“ bezieht sich auf das Messgesetz (MessG = SR 941.20); der Bereich 20–24 wird als zusammenhängende Artikelgruppe genannt."
+  },
+  {
+    "ITEM": 8,
+    "ARTICLE_EID": "art_28",
+    "TARGET_SR": "SR 0.946.526.81",
+    "assigned_articles": "General reference - entire document",
+    "confidence": "low",
+    "reasoning": "Im Satz wird „Artikel 23–30 THG“ erwähnt; THG ist das Bundesgesetz über die technischen Handelshemmnisse (SR 946.51), nicht das Abkommen SR 0.946.526.81. Für SR 0.946.526.81 wird im Snippet kein Artikel genannt; die Zuordnung erfolgt nur über das Preambel-Akronym THG, das aber eigentlich SR 946.51 meint. Mangels klarer Artikelangabe wird eine allgemeine Referenz angenommen."
+  },
+  {
+    "ITEM": 9,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": "self",
+    "assigned_articles": [
+      "Art. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "„Messmittel nach Artikel 3“ ist eine reine Binnenverweisung innerhalb derselben Verordnung; kein externer SR-Bezug im Satz."
+  },
+  {
+    "ITEM": 10,
+    "ARTICLE_EID": "art_6",
+    "TARGET_SR": "self",
+    "assigned_articles": [
+      "Art. 7"
+    ],
+    "confidence": "high",
+    "reasoning": "„technischen Normen oder normativen Dokumenten nach Artikel 7“ verweist auf einen anderen Artikel derselben Verordnung; keine externe SR-Nennung."
+  },
+  {
+    "ITEM": 11,
+    "ARTICLE_EID": "art_6",
+    "TARGET_SR": "self",
+    "assigned_articles": [
+      "Art. 7"
+    ],
+    "confidence": "high",
+    "reasoning": "Auch hier „nach Artikel 7“ als Binnenverweisung; kein Zusammenhang mit einem externen SR-Dokument."
+  },
+  {
+    "ITEM": 12,
+    "ARTICLE_EID": "art_12",
+    "TARGET_SR": "SR 946.512",
+    "assigned_articles": [
+      "Art. 25"
+    ],
+    "confidence": "high",
+    "reasoning": "„Voraussetzungen nach Artikel 25 der Akkreditierungs- und Bezeichnungsverordnung ... (AkkBV)“; derselbe externe Bezug wie bei ITEM 4, klar auf SR 946.512 Art. 25 gerichtet."
+  },
+  {
+    "ITEM": 13,
+    "ARTICLE_EID": "art_12_a",
+    "TARGET_SR": "self",
+    "assigned_articles": [
+      "Art. 12"
+    ],
+    "confidence": "high",
+    "reasoning": "„... nach Artikel 12 zuständigen Behörde“ ist eine Verweisung auf Art. 12 derselben Verordnung; kein externer SR-Bezug."
+  },
+  {
+    "ITEM": 14,
+    "ARTICLE_EID": "art_13",
+    "TARGET_SR": "self",
+    "assigned_articles": [
+      "Art. 11"
+    ],
+    "confidence": "high",
+    "reasoning": "„Konformitätsbewertungsverfahren nach Artikel 11“ verweist auf einen Artikel innerhalb derselben Verordnung; keine externe SR-Nennung."
+  },
+  {
+    "ITEM": 15,
+    "ARTICLE_EID": "art_17",
+    "TARGET_SR": "self",
+    "assigned_articles": [
+      "Art. 16"
+    ],
+    "confidence": "high",
+    "reasoning": "„Zulassungsverfahren nach Artikel 16“ ist eine interne Artikelverweisung; kein externer SR-Bezug."
+  },
+  {
+    "ITEM": 16,
+    "ARTICLE_EID": "art_20",
+    "TARGET_SR": "self",
+    "assigned_articles": [
+      "Art. 5",
+      "Art. 6",
+      "Art. 7",
+      "Art. 8",
+      "Art. 9"
+    ],
+    "confidence": "high",
+    "reasoning": "„Anforderungen der Artikel 5–9“ bezeichnet einen Artikelbereich innerhalb derselben Verordnung; reine Selbstreferenz."
+  },
+  {
+    "ITEM": 17,
+    "ARTICLE_EID": "art_21",
+    "TARGET_SR": "self",
+    "assigned_articles": [
+      "Art. 24"
+    ],
+    "confidence": "high",
+    "reasoning": "„Verfahren ... nach Artikel 24“ verweist auf einen Artikel derselben Verordnung; kein externer SR-Bezug."
+  },
+  {
+    "ITEM": 18,
+    "ARTICLE_EID": "art_22",
+    "TARGET_SR": "self",
+    "assigned_articles": [
+      "Art. 21"
+    ],
+    "confidence": "high",
+    "reasoning": "„Pflichten nach Artikel 21“ ist eine interne Verweisung innerhalb des gleichen Erlasses; keine Verbindung zu einem anderen SR-Dokument."
+  }
+]

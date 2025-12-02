@@ -1,0 +1,134 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 172.010",
+    "assigned_articles": [
+      "Art. 47 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Formulierung «gestützt auf Artikel 47 Absatz 2 … SR 172.010 (RVOG)» verknüpft den Artikel eindeutig mit dem RVOG; präpositionale Zuordnung und direkte Nennung von Artikel und Absatz."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 172.010.1",
+    "assigned_articles": [
+      "Art. 28"
+    ],
+    "confidence": "high",
+    "reasoning": "«in Ausführung von Artikel 28 der Regierungs- und Verwaltungsorganisationsverordnung … SR 172.010.1 (RVOV)»; klarer syntaktischer Bezug von Art. 28 zur RVOV."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 101",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "Es wird nur «im Rahmen von Bundesverfassung SR 101» erwähnt, ohne konkrete Artikelangabe; dies ist eine generelle Bezugnahme auf die Bundesverfassung als Ganzes."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 172.081",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "medium",
+    "reasoning": "Die Wendung «nach der Sprachdiensteverordnung … SR 172.081» nennt keinen bestimmten Artikel; es handelt sich um eine generelle Verweisnorm auf die Verordnung insgesamt."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": "SR 172.081",
+    "assigned_articles": [
+      "Art. 10 Abs. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "«nach Artikel 10 Absatz 3 der Sprachdiensteverordnung … SR 172.081»; direkter, präpositional verknüpfter Hinweis auf Art. 10 Abs. 3 dieser Verordnung."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": "SR 441.11",
+    "assigned_articles": [
+      "Art. 2 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "«(Art. 2 Abs. 2 Sprachenverordnung … SR 441.11)»; Artikel- und Absatzangabe steht unmittelbar mit der SR-Nummer in derselben Klammer."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_4_a",
+    "TARGET_SR": "SR 172.019.1",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "medium",
+    "reasoning": "«erfüllt die Aufgaben nach der Digitalisierungsverordnung … SR 172.019.1» ohne Artikelangabe; typischer globaler Aufgabenverweis auf die Verordnung insgesamt."
+  },
+  {
+    "ITEM": 8,
+    "ARTICLE_EID": "art_8",
+    "TARGET_SR": "SR 0.172.030.4",
+    "assigned_articles": [
+      "Art. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "«die Ausstellung der Apostille nach Artikel 2 des Haager Übereinkommens … SR 0.172.030.4»; klarer Bezug von Art. 2 auf das genannte Übereinkommen mit dieser SR-Nummer."
+  },
+  {
+    "ITEM": 9,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 172.010",
+    "assigned_articles": [
+      "Art. 30",
+      "Art. 32–34"
+    ],
+    "confidence": "high",
+    "reasoning": "«Sie nimmt die Funktionen nach den Artikeln 30 und 32–34 RVOG wahr»; RVOG ist in der Präambel als SR 172.010 definiert, und die Artikelangaben sind direkt mit dem Akronym verknüpft."
+  },
+  {
+    "ITEM": 10,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": "SR 172.010.1",
+    "assigned_articles": [
+      "Art. 11",
+      "Art. 12"
+    ],
+    "confidence": "high",
+    "reasoning": "«Neben den allgemeinen Grundsätzen … (Art. 11 und 12 RVOV)»; RVOV ist als SR 172.010.1 definiert, und die Artikel stehen unmittelbar beim Akronym."
+  },
+  {
+    "ITEM": 11,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 10 Abs. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "Selbstreferenz-Typ ohne TARGET_SR. Der Satz nennt «Artikel 10 Absatz 3 der Sprachdiensteverordnung»; dies ist derselbe Verweis wie in ITEM 5 (SR 172.081), aber hier als reine Artikelreferenz innerhalb des Dokuments erfasst."
+  },
+  {
+    "ITEM": 12,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 2 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Selbstreferenz ohne TARGET_SR; «(Art. 2 Abs. 2 Sprachenverordnung …)» entspricht dem Verweis in ITEM 6 (SR 441.11), wird hier jedoch nur als interne Artikelreferenz im Text festgehalten."
+  },
+  {
+    "ITEM": 13,
+    "ARTICLE_EID": "art_8",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "«nach Artikel 2 des Haager Übereinkommens …»; dies ist die gleiche inhaltliche Bezugnahme wie in ITEM 8 (SR 0.172.030.4), hier aber als reine Artikelreferenz ohne explizite SR-Zuordnung im Item."
+  }
+]

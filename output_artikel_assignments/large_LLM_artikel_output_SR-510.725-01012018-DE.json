@@ -1,0 +1,32 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": "SR 741.272",
+    "assigned_articles": [
+      "Allgemeine Verweisung – gesamtes Regelwerk, insbesondere Anhänge 1 und 2"
+    ],
+    "confidence": "medium",
+    "reasoning": "Die Norm verweist auf die Durchgangsstrassenverordnung insgesamt und konkret auf deren Anhänge 1 und 2, ohne einzelne Artikel zu nennen. Daher ist nur eine allgemeine, nicht artikelbezogene Verweisung möglich; die Erwähnung der Anhänge rechtfertigt keinen Rückschluss auf bestimmte Artikelnummern."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_8",
+    "TARGET_SR": "SR 512.21",
+    "assigned_articles": [
+      "Allgemeine Verweisung – gesamtes Regelwerk"
+    ],
+    "confidence": "medium",
+    "reasoning": "Die Bestimmungen der Verordnung über die Militärdienstpflicht werden pauschal herangezogen („gelten die Bestimmungen der Verordnung … SR 512.21“), ohne konkrete Artikelangabe oder nähere Eingrenzung. Damit liegt eine generelle Verweisung auf die Verordnung als Ganzes vor."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Interne Verweisung innerhalb des aktuellen Erlasses (Art. 5 ff.)"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Formulierung „nach den Artikeln 5 ff.“ erfolgt ohne Nennung eines SR-Titels oder einer Abkürzung eines anderen Erlasses. Nach den Vorgaben ist dies als Selbstverweisung auf andere Artikel desselben Erlasses zu qualifizieren und nicht als Verweis auf ein externes SR-Dokument."
+  }
+]

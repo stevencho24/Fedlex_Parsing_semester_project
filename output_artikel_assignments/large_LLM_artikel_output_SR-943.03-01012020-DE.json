@@ -1,0 +1,248 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 101",
+    "assigned_articles": [
+      "Art. 95 Abs. 1",
+      "Art. 122 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Formulierung «gestützt auf die Artikel 95 Absatz 1 und 122 Absatz 1 der Bundesverfassung SR 101» verknüpft die genannten Artikel grammatikalisch eindeutig mit SR 101."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": "SR 431.03",
+    "assigned_articles": [
+      "Art. 3 Abs. 1 Bst. c"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Snippet steht «nach Artikel 3 Absatz 1 Buchstabe c des Bundesgesetzes ... SR 431.03 über die Unternehmens-Identifikationsnummer (UIDG)»; der Artikel ist direkt mit diesem Gesetz verknüpft."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": "SR 946.51",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Wendung «nach der Bundesgesetzgebung über die technischen Handelshemmnisse SR 946.51, SR 946.511, SR 946.512, SR 946.513.7» verweist pauschal auf die gesamte Gesetzgebung; keine spezifischen Artikel werden genannt."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": "SR 946.511",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "Gleiche Formulierung wie bei ITEM 3; SR 946.511 wird nur als Teil der gesamten Gesetzgebung ohne Artikelangabe erwähnt."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": "SR 946.512",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "Gleiche pauschale Bezugnahme auf die Bundesgesetzgebung über die technischen Handelshemmnisse; keine Artikelnummern zu SR 946.512."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": "SR 946.513.7",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "Auch hier nur eine generelle Nennung im Rahmen der «Bundesgesetzgebung über die technischen Handelshemmnisse» ohne konkrete Artikel."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": "SR 431.03",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "medium",
+    "reasoning": "Der Text lautet «die Unternehmens-Identifikationsnummer nach dem UIDG SR 431.03»; es wird keine bestimmte Artikelstelle des UIDG genannt, sondern nur das Gesetz als Grundlage der UID-Nummer."
+  },
+  {
+    "ITEM": 8,
+    "ARTICLE_EID": "art_16",
+    "TARGET_SR": "SR 946.51",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "Formulierung «nach den Regeln der Bundesgesetzgebung über die technischen Handelshemmnisse SR 946.51, 946.511, 946.512, 946.513.7» ist eine generelle Verweisung ohne Artikelangabe."
+  },
+  {
+    "ITEM": 9,
+    "ARTICLE_EID": "art_16",
+    "TARGET_SR": "946.511",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "Wie bei ITEM 8: pauschale Bezugnahme auf die gesamte Regelung, keine konkrete Artikelnummer."
+  },
+  {
+    "ITEM": 10,
+    "ARTICLE_EID": "art_16",
+    "TARGET_SR": "946.512",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "Gleiche pauschale Formulierung; keine spezifischen Artikel zu SR 946.512 genannt."
+  },
+  {
+    "ITEM": 11,
+    "ARTICLE_EID": "art_16",
+    "TARGET_SR": "946.513.7",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "Auch hier nur generelle Nennung im Rahmen der Bundesgesetzgebung über technische Handelshemmnisse."
+  },
+  {
+    "ITEM": 12,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 943.03",
+    "assigned_articles": [
+      "Art. 17",
+      "Art. 18"
+    ],
+    "confidence": "high",
+    "reasoning": "«mit Ausnahme der Haftung nach den Artikeln 17 und 18» bezieht sich mangels anderer SR-Angabe auf Artikel 17 und 18 desselben Gesetzes (SR 943.03)."
+  },
+  {
+    "ITEM": 13,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": "SR 943.03",
+    "assigned_articles": [
+      "Art. 6"
+    ],
+    "confidence": "high",
+    "reasoning": "«unter Verwendung einer sicheren Signaturerstellungseinheit nach Artikel 6» ist eine interne Verweisung auf Art. 6 des eigenen Gesetzes."
+  },
+  {
+    "ITEM": 14,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": "SR 943.03",
+    "assigned_articles": [
+      "Art. 6"
+    ],
+    "confidence": "high",
+    "reasoning": "Auch hier «unter Verwendung einer sicheren Siegelerstellungseinheit nach Artikel 6»; keine Verknüpfung mit SR 431.03, daher Selbstverweisung auf Art. 6."
+  },
+  {
+    "ITEM": 15,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": "SR 943.03",
+    "assigned_articles": [
+      "Art. 7"
+    ],
+    "confidence": "high",
+    "reasoning": "«das die Anforderungen nach Artikel 7 erfüllt» ist eine interne Verweisung auf Art. 7 desselben Gesetzes."
+  },
+  {
+    "ITEM": 16,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": "SR 943.03",
+    "assigned_articles": [
+      "Art. 8"
+    ],
+    "confidence": "high",
+    "reasoning": "«das die Anforderungen nach Artikel 8 erfüllt» verweist intern auf Art. 8 des eigenen Gesetzes."
+  },
+  {
+    "ITEM": 17,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": "SR 943.03",
+    "assigned_articles": [
+      "Art. 17",
+      "Art. 14 Abs. 2",
+      "Art. 14 Abs. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "Es werden «Haftungsansprüchen aus Artikel 17» sowie «Kosten, welche aus den in Artikel 14 Absätze 2 und 3 vorgesehenen Massnahmen» erwähnt; dies sind interne Verweisungen auf diese Bestimmungen."
+  },
+  {
+    "ITEM": 18,
+    "ARTICLE_EID": "art_8",
+    "TARGET_SR": "SR 943.03",
+    "assigned_articles": [
+      "Art. 7 Abs. 2 Bst. b"
+    ],
+    "confidence": "high",
+    "reasoning": "«Anstelle des Hinweises nach Artikel 7 Absatz 2 Buchstabe b» ist eine klare interne Verweisung auf diese konkrete Bestimmung."
+  },
+  {
+    "ITEM": 19,
+    "ARTICLE_EID": "art_9",
+    "TARGET_SR": "SR 943.03",
+    "assigned_articles": [
+      "Art. 7 Abs. 3 Bst. a"
+    ],
+    "confidence": "high",
+    "reasoning": "«(Art. 7 Abs. 3 Bst. a)» ist eine interne Klammerverweisung auf Art. 7 Abs. 3 Buchstabe a desselben Gesetzes."
+  },
+  {
+    "ITEM": 20,
+    "ARTICLE_EID": "art_9",
+    "TARGET_SR": "SR 943.03",
+    "assigned_articles": [
+      "Art. 7 Abs. 3 Bst. b"
+    ],
+    "confidence": "high",
+    "reasoning": "«(Art. 7 Abs. 3 Bst. b)» verweist intern auf Art. 7 Abs. 3 Buchstabe b."
+  },
+  {
+    "ITEM": 21,
+    "ARTICLE_EID": "art_11",
+    "TARGET_SR": "SR 943.03",
+    "assigned_articles": [
+      "Art. 7 Abs. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "«Angaben nach Artikel 7 Absatz 3» ist eine interne Verweisung auf Art. 7 Abs. 3 des gleichen Gesetzes."
+  },
+  {
+    "ITEM": 22,
+    "ARTICLE_EID": "art_16",
+    "TARGET_SR": "SR 943.03",
+    "assigned_articles": [
+      "Art. 14 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "«Artikel 14 Absatz 2 findet Anwendung» ist eine eindeutige interne Verweisung auf Art. 14 Abs. 2."
+  },
+  {
+    "ITEM": 23,
+    "ARTICLE_EID": "art_17",
+    "TARGET_SR": "SR 943.03",
+    "assigned_articles": [
+      "Art. 7 Abs. 3 Bst. c",
+      "Art. 7 Abs. 3 Bst. d"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Klammer «(Art. 7 Abs. 3 Bst. c und d)» verweist intern auf diese beiden Buchstaben von Art. 7 Abs. 3."
+  },
+  {
+    "ITEM": 24,
+    "ARTICLE_EID": "art_18",
+    "TARGET_SR": "SR 943.03",
+    "assigned_articles": [
+      "Art. 17 Abs. 2",
+      "Art. 17 Abs. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "«Artikel 17 Absätze 2 und 3 gilt sinngemäss» ist eine interne Verweisung auf diese beiden Absätze von Art. 17."
+  }
+]

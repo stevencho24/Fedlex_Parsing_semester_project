@@ -1,0 +1,55 @@
+[
+  {
+    "Item": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 831.42",
+    "assigned_articles": [
+      "Art. 22b Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Formulierung \"gestützt auf Artikel 22b Absatz 1 des Freizügigkeitsgesetzes ... SR 831.42 (FZG)\" verknüpft den genannten Artikel grammatikalisch eindeutig mit dem zitierten Gesetz SR 831.42."
+  },
+  {
+    "Item": 2,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 831.42",
+    "assigned_articles": [
+      "Art. 22b",
+      "Art. 22b Abs. 2",
+      "Art. 22b Abs. 2 Bst. b",
+      "Art. 22b Abs. 2 Bst. a"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Snippet werden mehrfach explizit \"Artikel 22b FZG\", \"Artikel 22b Absatz 2 FZG\" sowie \"Artikel 22b Absatz 2 Buchstabe b FZG\" und \"Artikel 22b Absatz 2 Buchstabe a FZG\" genannt; FZG ist im Vorspann als SR 831.42 definiert, sodass alle diese Artikelstellen zu SR 831.42 gehören."
+  },
+  {
+    "Item": 3,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Interne Verweisung innerhalb des aktuellen Erlasses (Art. 22b FZG bereits bei Item 2 SR 831.42 zugeordnet)"
+    ],
+    "confidence": "high",
+    "reasoning": "Das Snippet enthält nur \"Artikel 22b FZG\" ohne erneute SR-Nennung. Diese Stelle ist bereits in Item 2 als Verweisung auf SR 831.42 Art. 22b erfasst; hier handelt es sich um eine inhaltlich identische, interne Bezugnahme im selben Kontext, daher keine neue SR-Zuordnung."
+  },
+  {
+    "Item": 4,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Interne Verweisung innerhalb des aktuellen Erlasses (Art. 22b Abs. 2 FZG bereits bei Item 2 SR 831.42 zugeordnet)"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Passage verweist auf \"Artikel 22b Absatz 2 FZG\" ohne zusätzliche SR-Angabe. Diese konkrete Artikelstelle wurde in Item 2 bereits eindeutig SR 831.42 zugeordnet; hier liegt lediglich eine wiederholte interne Bezugnahme vor."
+  },
+  {
+    "Item": 5,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Interne Verweisung innerhalb des aktuellen Erlasses (Art. 22b Abs. 2 Bst. b und a FZG bereits bei Item 2 SR 831.42 zugeordnet)"
+    ],
+    "confidence": "high",
+    "reasoning": "Das Snippet nennt \"Artikel 22b Absatz 2 Buchstabe b FZG\" und \"Artikel 22b Absatz 2 Buchstabe a FZG\". Beide Unterbestimmungen wurden in Item 2 bereits SR 831.42 zugeordnet; hier handelt es sich um dieselben Verweisungen im Rahmen desselben Artikels, daher als Selbstreferenz ohne neue SR-Zuordnung zu behandeln."
+  }
+]

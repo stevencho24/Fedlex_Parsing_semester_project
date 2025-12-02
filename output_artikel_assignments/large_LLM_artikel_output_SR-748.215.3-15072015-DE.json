@@ -1,0 +1,172 @@
+[
+  {
+    "Item": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 748.0",
+    "assigned_articles": [
+      "Art. 58 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet explicitly cites 'Artikel 58 Absatz 2 des Luftfahrtgesetzes ... SR 748.0'; clear direct marking linking this article and paragraph to SR 748.0."
+  },
+  {
+    "Item": 2,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 0.748.127.192.68",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "The citation refers to the Luftverkehrsabkommen as a whole ('Abkommen ... SR 0.748.127.192.68') without mentioning any specific article; thus it is a general reference."
+  },
+  {
+    "Item": 3,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 0.748.0",
+    "assigned_articles": [
+      "Art. 38"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet ends with 'vorbehalten bleiben die von der Schweiz nach Artikel 38 des Übereinkommens gemeldeten Abweichungen.' In context, 'Übereinkommen' is the Chicago-Übereinkommen (SR 0.748.0); Art. 38 is explicitly cited and grammatically linked to that convention."
+  },
+  {
+    "Item": 4,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": "SR 0.748.0",
+    "assigned_articles": [
+      "Anhang 16 Band I Kap. 10 Ziff. 10.2–10.6"
+    ],
+    "confidence": "high",
+    "reasoning": "The text specifies 'Band I Kapitel 10 Ziffern 10.2–10.6 des Anhangs 16 zum Chicago-Übereinkommen SR 0.748.0'; this is a direct reference to those annex provisions of SR 0.748.0."
+  },
+  {
+    "Item": 5,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": "SR 814.318.142.1",
+    "assigned_articles": [
+      "Anhang 5"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet requires use of fuel 'gemäss Anhang 5 der Luftreinhalte-Verordnung ... SR 814.318.142.1'; this clearly links Anhang 5 to that SR."
+  },
+  {
+    "Item": 6,
+    "ARTICLE_EID": "art_3_a",
+    "TARGET_SR": "SR 0.748.0",
+    "assigned_articles": [
+      "Anhang 16 Band I Kap. 10 Ziff. 10.2–10.6"
+    ],
+    "confidence": "high",
+    "reasoning": "Same structure as Item 4: 'Band I Kapitel 10 Ziffern 10.2–10.6 des Anhangs 16 zum Chicago-Übereinkommen SR 0.748.0'; directly tied to that annex of SR 0.748.0."
+  },
+  {
+    "Item": 7,
+    "ARTICLE_EID": "art_3_a",
+    "TARGET_SR": "SR 814.318.142.1",
+    "assigned_articles": [
+      "Anhang 5"
+    ],
+    "confidence": "high",
+    "reasoning": "Identical wording to Item 5 but for Tragschrauber; 'gemäss Anhang 5 der Luftreinhalte-Verordnung ... SR 814.318.142.1' clearly cites Anhang 5."
+  },
+  {
+    "Item": 8,
+    "ARTICLE_EID": "art_3_b",
+    "TARGET_SR": "SR 0.748.0",
+    "assigned_articles": [
+      "Anhang 16 Band I Kap. 10 Ziff. 10.2–10.6"
+    ],
+    "confidence": "high",
+    "reasoning": "Again explicitly: 'Band I Kapitel 10 Ziffern 10.2–10.6 des Anhangs 16 zum Chicago-Übereinkommen SR 0.748.0'; same annex provisions as Items 4 and 6."
+  },
+  {
+    "Item": 9,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": "SR 0.748.0",
+    "assigned_articles": [
+      "Anhang 16 Band I Kap. 6"
+    ],
+    "confidence": "high",
+    "reasoning": "The aircraft must have a noise approval 'nach Band I Kapitel 6 des Anhangs 16 zum Chicago-Übereinkommen SR 0.748.0'; this is a direct annex chapter reference."
+  },
+  {
+    "Item": 10,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": "SR 0.748.0",
+    "assigned_articles": [
+      "Anhang 16 Band I"
+    ],
+    "confidence": "high",
+    "reasoning": "The text contrasts Lärmzeugnisse 'nach den Vorgaben ... oder von Anhang 16 Band I zum Chicago-Übereinkommen SR 0.748.0'; it cites Band I of Annex 16 generally, without narrower chapter/section."
+  },
+  {
+    "Item": 11,
+    "ARTICLE_EID": "art_6",
+    "TARGET_SR": "SR 0.748.0",
+    "assigned_articles": [
+      "Anhang 16 Band I Teil II Kap. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet refers to 'den Normen von Anhang 16 Band I Teil II Kapitel 3 des Chicago-Übereinkommens SR 0.748.0'; this is a precise annex part and chapter reference."
+  },
+  {
+    "Item": 12,
+    "ARTICLE_EID": "art_8",
+    "TARGET_SR": "SR 748.0",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "The sentence only identifies 'Die Verordnung des UVEK ...' and notes its repeal; 'UVEK' is mapped to SR 748.0 in the preamble, but no specific article or annex of SR 748.0 is mentioned, so it is a general reference."
+  },
+  {
+    "Item": 13,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "Artikel 38 in this snippet refers to the Chicago-Übereinkommen itself, but this relation is already captured in Item 3 as an SR link; here, as an 'artikel_reference' without explicit SR, it functions as a cross-reference and does not introduce a new SR assignment."
+  },
+  {
+    "Item": 14,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "The phrase 'den in Artikel 1 Absatz 2 aufgeführten Bestimmungen' clearly refers to Article 1 paragraph 2 of the same ordinance; no external SR is mentioned in this syntactic unit."
+  },
+  {
+    "Item": 15,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "Reference to 'Artikel 3' is an internal cross-reference within the same ordinance; there is no SR or acronym linking it to another document."
+  },
+  {
+    "Item": 16,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "The mention of 'Artikel 3a beziehungsweise 3b' is clearly to other provisions of this ordinance; no external SR context is present."
+  },
+  {
+    "Item": 17,
+    "ARTICLE_EID": "art_9",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "The phrase 'nach Artikel 2' refers to Article 2 of the same ordinance; there is no syntactic or semantic link to an external SR document in this snippet."
+  }
+]

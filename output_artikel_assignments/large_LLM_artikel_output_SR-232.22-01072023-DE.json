@@ -1,0 +1,170 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 0.518.12",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "high",
+    "reasoning": "The preamble mentions the Geneva Conventions of 12 August 1949 and lists several SR numbers without any specific article citations; this is a general execution basis for the whole convention."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "0.518.23",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "high",
+    "reasoning": "Same preamble sentence as ITEM 1, listing SR 0.518.23 as part of the Geneva Conventions without any article-level specification."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "0.518.51",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "high",
+    "reasoning": "Same preamble context as ITEMS 1–2; SR 0.518.51 is cited as one of the Geneva Conventions, with no article numbers mentioned."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 101",
+    "assigned_articles": ["Art. 122"],
+    "confidence": "high",
+    "reasoning": "The snippet explicitly says 'gestützt auf Artikel 122 der Bundesverfassung SR 101'; Art. 122 BV is clearly and directly linked to SR 101."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 0.518.12",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "high",
+    "reasoning": "Art. 1 lists the Geneva Convention SR 0.518.12 by title and date as an object of implementation; no specific article within that convention is mentioned."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 0.518.23",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "high",
+    "reasoning": "Art. 1 similarly lists SR 0.518.23 by title and subject matter; the reference is to the convention as a whole, without article-level detail."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 0.518.523",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "high",
+    "reasoning": "The provision refers to 'das Schutzzeichen des dritten Zusatzprotokolls ... SR 0.518.523' as a whole protocol; no specific article of the protocol is cited."
+  },
+  {
+    "ITEM": 8,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": "SR 0.518.51",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "high",
+    "reasoning": "Art. 2 refers to 'das unter den Schutz des Genfer Abkommens ... SR 0.518.51 ... gestellte Personal und Material'; this is a general reference to the convention’s protection regime, not to a specific article."
+  },
+  {
+    "ITEM": 9,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": "SR 0.518.12",
+    "assigned_articles": ["Art. 23"],
+    "confidence": "high",
+    "reasoning": "The snippet explicitly states 'gemäss Artikel 23 des Genfer Abkommens ... SR 0.518.12'; Art. 23 is directly and unambiguously linked to SR 0.518.12."
+  },
+  {
+    "ITEM": 10,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": "SR 0.518.51",
+    "assigned_articles": ["Art. 14"],
+    "confidence": "high",
+    "reasoning": "The same sentence continues 'oder gemäss Artikel 14 des Genfer Abkommens ... SR 0.518.51'; Art. 14 is explicitly tied to SR 0.518.51."
+  },
+  {
+    "ITEM": 11,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": "SR 0.518.523",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "high",
+    "reasoning": "Art. 4 mentions 'das Schutzzeichen des dritten Zusatzprotokolls ... SR 0.518.523' without specifying any article; it concerns the protocol’s emblem generally."
+  },
+  {
+    "ITEM": 12,
+    "ARTICLE_EID": "art_8",
+    "TARGET_SR": "SR 311.0",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "medium",
+    "reasoning": "The text says 'Die allgemeinen Bestimmungen des Strafgesetzbuches SR 311.0 sind ... anwendbar'; this points to the general part of the Swiss Criminal Code (Arts. 1–110), but no specific article is named, so it is treated as a general reference."
+  },
+  {
+    "ITEM": 13,
+    "ARTICLE_EID": "art_8",
+    "TARGET_SR": "SR 321.0",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "medium",
+    "reasoning": "The provision reserves 'die Bestimmungen des Militärstrafgesetzes ... SR 321.0 betreffend die Verletzung des Völkerrechts im Kriege'; it refers to the relevant offence provisions as a group, without pinpointing individual articles."
+  },
+  {
+    "ITEM": 14,
+    "ARTICLE_EID": "art_12",
+    "TARGET_SR": "SR 0.518.523",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "high",
+    "reasoning": "Art. 12 extends the application of Articles 5 and 7–11 of the present law to various emblems including 'das Schutzzeichen des dritten Zusatzprotokolls ... SR 0.518.523'; the protocol is cited as a whole, with no article numbers."
+  },
+  {
+    "ITEM": 15,
+    "ARTICLE_EID": "art_12",
+    "TARGET_SR": "SR 0.518.521",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "high",
+    "reasoning": "The sentence refers to 'der Schutz der Genfer Abkommen und gegebenenfalls ihrer Zusatzprotokolle SR 0.518.521; 0.518.522'; these are cited collectively as the additional protocols, without article-level specification."
+  },
+  {
+    "ITEM": 16,
+    "ARTICLE_EID": "art_12",
+    "TARGET_SR": "0.518.522",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "high",
+    "reasoning": "Same sentence as ITEM 15; SR 0.518.522 is mentioned together with SR 0.518.521 as additional protocols, with no specific articles indicated."
+  },
+  {
+    "ITEM": 17,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "This artikel_reference repeats the sentence from Art. 3 but omits the SR markers; 'Artikel 23' and 'Artikel 14' here are already captured and assigned in ITEMS 9 and 10. As per instructions, no new SR link is created and no additional assignment is needed."
+  },
+  {
+    "ITEM": 18,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "The reference 'gemäss Artikel 1' clearly points to Art. 1 of the same law (internal cross-reference). No external SR is mentioned in this snippet, so it is treated purely as a self-reference."
+  },
+  {
+    "ITEM": 19,
+    "ARTICLE_EID": "art_8",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "The phrase 'dieses Gesetzes oder des in Artikel 4 Absatz 2 vorgesehenen Reglements' refers to Art. 4 Abs. 2 of the same act. There is no external SR context; this is an internal structural reference only."
+  },
+  {
+    "ITEM": 20,
+    "ARTICLE_EID": "art_9",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "The wording 'eine der in Artikel 8 unter Strafe gestellten Handlungen' refers to Art. 8 of the same statute. No SR document is mentioned, so this remains an internal cross-reference."
+  },
+  {
+    "ITEM": 21,
+    "ARTICLE_EID": "art_12",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "The phrase 'Die Artikel 5 und 7–11 sind sinngemäss anwendbar' refers to other articles within the same law. No external SR is cited in this snippet; it is a self-referential structural provision."
+  }
+]

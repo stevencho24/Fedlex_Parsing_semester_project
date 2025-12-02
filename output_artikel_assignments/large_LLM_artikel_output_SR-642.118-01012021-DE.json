@@ -1,0 +1,62 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 642.11",
+    "assigned_articles": [
+      "Art. 199"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Formulierung «gestützt auf Artikel 199 des Bundesgesetzes ... SR 642.11» verknüpft eindeutig Art. 199 mit dem DBG (SR 642.11)."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 642.11",
+    "assigned_articles": [
+      "Art. 26",
+      "Art. 83-100",
+      "Art. 107",
+      "Art. 136-139",
+      "Art. 196 Abs. 3",
+      "Art. 161 Abs. 1",
+      "Art. 161 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Snippet werden mehrfach ausdrücklich Artikel des DBG genannt: «Art. 26 DBG», «Art. 83–100, 107, 136–139, 196 Abs. 3 DBG», «Art. 161 Abs. 1 DBG» und «Art. 161 Abs. 2 DGB» (offensichtlicher Tippfehler, gemeint DBG). Alle sind direkt mit dem DBG (SR 642.11) markiert."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 26 DBG"
+    ],
+    "confidence": "high",
+    "reasoning": "Dies ist eine Selbstreferenz-Wiederholung des bereits in ITEM 2 zu SR 642.11 zugeordneten Artikels. Als artikel_reference ohne eigene TARGET_SR handelt es sich um eine interne Verweisung innerhalb des DBG-Kontexts; der zitierte Artikel ist «Art. 26 DBG»."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 83-100 DBG",
+      "Art. 107 DBG",
+      "Art. 136-139 DBG",
+      "Art. 196 Abs. 3 DBG"
+    ],
+    "confidence": "high",
+    "reasoning": "Das Snippet nennt «Art. 83–100, 107, 136–139, 196 Abs. 3 DBG». Als artikel_reference ohne TARGET_SR ist dies eine interne Verweisung; alle genannten Artikel gehören zum DBG und sind bereits in ITEM 2 SR 642.11 zugeordnet."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 161 Abs. 1 DBG",
+      "Art. 161 Abs. 2 DBG"
+    ],
+    "confidence": "high",
+    "reasoning": "Das Snippet verweist auf «Art. 161 Abs. 1 DBG» und «Art. 161 Abs. 2 DGB» (offensichtlich DBG). Als artikel_reference ohne TARGET_SR handelt es sich um interne Verweise; beide Absätze von Art. 161 DBG sind bereits in ITEM 2 SR 642.11 zugeordnet."
+  }
+]

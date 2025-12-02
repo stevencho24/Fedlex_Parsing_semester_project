@@ -1,0 +1,119 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 220",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "high",
+    "reasoning": "The preamble cites the sixth section of the thirty‑second title of the Obligationenrecht (OR) and then gives only the SR number without any specific article numbers; this is a general legal basis reference to the OR as a whole."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 220",
+    "assigned_articles": [
+      "Art. 964a",
+      "Art. 964b"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet explicitly contains the parenthetical '(Art. 964a–964c OR)' and then refers to 'Artikel 964a OR' and 'Artikel 964b OR'. These are direct, acronym‑marked references to OR, so Art. 964a and 964b OR must be assigned to SR 220."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": "SR 220",
+    "assigned_articles": [
+      "Art. 964b Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet begins with '(Art. 964b Abs. 1 OR)' and twice mentions 'Artikel 964b Absatz 1 OR'. All article mentions are explicitly tied to OR, so Art. 964b Abs. 1 OR is clearly the cited provision of SR 220."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": "SR 220",
+    "assigned_articles": [
+      "Art. 964b Abs. 1",
+      "Art. 964b Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet consists solely of '(Art. 964b Abs. 1 und 2 OR)'. Both paragraphs 1 and 2 of Art. 964b OR are directly and exclusively linked to OR, so both must be assigned to SR 220."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": "SR 220",
+    "assigned_articles": [
+      "Art. 964c Abs. 2 Ziff. 1",
+      "Art. 964a",
+      "Art. 964b",
+      "Art. 964c"
+    ],
+    "confidence": "high",
+    "reasoning": "The parenthetical '(Art. 964c Abs. 2 Ziff. 1 OR)' directly cites Art. 964c Abs. 2 Ziff. 1 OR. The text then requires publication 'nach den Artikeln 964a–964c OR' and later refers again to 'Artikel 964c Absatz 2 Ziffer 1 OR'. All these article numbers are explicitly marked with 'OR', so Art. 964c Abs. 2 Ziff. 1, as well as Arts. 964a–964c OR, belong to SR 220."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 964a",
+      "Art. 964b"
+    ],
+    "confidence": "high",
+    "reasoning": "This is an artikel_reference (self‑reference). The snippet cites 'Artikel 964a OR' and 'Artikel 964b OR'. These are internal cross‑references to provisions of the OR already captured in item 2; here they function as self‑references within the current ordinance, not as a new SR link, so no TARGET_SR is set but the referenced articles are 964a and 964b."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 3",
+      "Art. 964b Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "The sentence refers to 'Artikel 3' (which, given ARTICLE_EID art_2, is another article of the same ordinance) and to 'Artikel 964b Absatz 1 OR'. Both are internal cross‑references: Art. 3 of this ordinance and Art. 964b Abs. 1 OR, already linked to SR 220 in item 3. As artikel_reference, this item records self‑references, so no TARGET_SR is assigned."
+  },
+  {
+    "ITEM": 8,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet says 'nicht gemäss Artikel 3', clearly pointing to Article 3 of the same ordinance (no acronym or SR mentioned). This is a pure internal self‑reference, so only Art. 3 is assigned and no external TARGET_SR is involved."
+  },
+  {
+    "ITEM": 9,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 964b Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "The text refers to 'Artikel 964b Absatz 1 OR'. The acronym OR ties this to the Obligationenrecht, but as an artikel_reference item its role is to capture that art_2 internally cross‑refers to Art. 964b Abs. 1 OR, which is already linked to SR 220 elsewhere. Thus it is treated as a self‑reference context, without assigning a TARGET_SR here."
+  },
+  {
+    "ITEM": 10,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 964a",
+      "Art. 964b",
+      "Art. 964c"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet cites 'nach den Artikeln 964a–964c OR'. This is an internal cross‑reference from Art. 4 of the ordinance to the OR provisions 964a–964c. As artikel_reference, it records self‑reference relationships; the articles referenced are 964a, 964b, and 964c, but no new TARGET_SR is assigned."
+  },
+  {
+    "ITEM": 11,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 964c Abs. 2 Ziff. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "The sentence mentions 'Artikel 964c Absatz 2 Ziffer 1 OR'. This is a cross‑reference from Art. 4 of the ordinance to that specific OR provision. Since this is an artikel_reference item, it is treated as a self‑reference context, listing Art. 964c Abs. 2 Ziff. 1 as the referenced article without assigning a TARGET_SR."
+  }
+]

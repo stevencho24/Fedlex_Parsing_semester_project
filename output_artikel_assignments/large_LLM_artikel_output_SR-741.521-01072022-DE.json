@@ -1,0 +1,261 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 741.01",
+    "assigned_articles": [
+      "Art. 15 Abs. 4",
+      "Art. 15 Abs. 5",
+      "Art. 25 Abs. 2 Bst. b",
+      "Art. 25 Abs. 2 Bst. d",
+      "Art. 103 Abs. 1",
+      "Art. 106 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Präambel nennt ausdrücklich die Artikel 15 Absätze 4 und 5, 25 Absatz 2 Buchstaben b und d, 103 Absatz 1 und 106 Absatz 1 des Strassenverkehrsgesetzes SR 741.01; alle diese Artikel sind syntaktisch direkt mit dem genannten Gesetz verknüpft."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": "SR 170.512.1",
+    "assigned_articles": [
+      "Art. 20 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Autorentext steht: 'in Anwendung von Art. 20 Abs. 2 der Publikationsverordnung ... (SR 170.512.1)'; der Artikel ist unmittelbar mit der genannten SR verknüpft."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": "SR 741.11",
+    "assigned_articles": [
+      "Art. 86 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Formulierung: 'gemäss Artikel 86 Absatz 2 der Verkehrsregelnverordnung ... SR 741.11 (VRV)'; direkter syntaktischer Bezug des Artikels 86 Abs. 2 auf die VRV/SR 741.11."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": "SR 170.512",
+    "assigned_articles": [
+      "Art. 12 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Hinweistext: 'Der Verweis wurde in Anwendung von Art. 12 Abs. 2 des Publikationsgesetzes ... (SR 170.512) ... angepasst'; Art. 12 Abs. 2 ist klar dem Publikationsgesetz SR 170.512 zugeordnet."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_9",
+    "TARGET_SR": "SR 741.51",
+    "assigned_articles": [
+      "Art. 24c Bst. e"
+    ],
+    "confidence": "high",
+    "reasoning": "Text: 'Art. 24c Bst. e der Verkehrszulassungsverordnung ... SR 741.51, VZV'; der Artikel mit Buchstabe e ist explizit dieser Verordnung zugeordnet."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_11",
+    "TARGET_SR": "SR 741.51",
+    "assigned_articles": [
+      "Art. 6 Abs. 1 Bst. e",
+      "Art. 14 Abs. 2",
+      "Art. 14 Abs. 3",
+      "Anhang 12 Ziff. I"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Snippet und in snippet_acronym werden 'Art. 6 Abs. 1 Bst. e VZV', 'Art. 14 Abs. 2', 'Artikel 14 Absatz 3' sowie 'Anhang 12 Ziffer I VZV' genannt; VZV ist im selben Kontext als SR 741.51 identifiziert, daher gehören diese Normen zu SR 741.51."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_13",
+    "TARGET_SR": "SR 744.103",
+    "assigned_articles": [
+      "dritter Abschnitt"
+    ],
+    "confidence": "medium",
+    "reasoning": "Es wird kein einzelner Artikel, sondern 'der dritte Abschnitt der Verordnung ... SR 744.103' genannt. Damit ist ein ganzer Abschnitt der Verordnung referenziert, ohne weitere Artikelpräzisierung."
+  },
+  {
+    "ITEM": 8,
+    "ARTICLE_EID": "art_14",
+    "TARGET_SR": "SR 741.51",
+    "assigned_articles": [
+      "Anhang 12 Ziff. V"
+    ],
+    "confidence": "high",
+    "reasoning": "Formulierung: 'Anforderungen an ein Prüfungsfahrzeug ... (Anhang 12 Ziff. V VZV SR 741.51)'; der Anhang mit Ziffer V ist eindeutig der VZV/SR 741.51 zugeordnet."
+  },
+  {
+    "ITEM": 9,
+    "ARTICLE_EID": "art_15",
+    "TARGET_SR": "SR 741.51",
+    "assigned_articles": [
+      "Art. 23"
+    ],
+    "confidence": "high",
+    "reasoning": "Text: 'richtet sich nach Artikel 23 VZV SR 741.51'; Artikel 23 ist direkt mit der VZV verknüpft."
+  },
+  {
+    "ITEM": 10,
+    "ARTICLE_EID": "art_23",
+    "TARGET_SR": "SR 741.51",
+    "assigned_articles": [
+      "Art. 20 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Text: 'die Ausbildungsbewilligung nach Artikel 20 Absatz 2 VZV SR 741.51'; der Artikel ist klar der VZV zugeordnet."
+  },
+  {
+    "ITEM": 11,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 86 Abs. 2",
+      "Art. 87 Abs. 1",
+      "Art. 87 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Artikelreferenzen 'Artikel 86 Absatz 2 der Verkehrsregelnverordnung ... (VRV)' sowie 'Artikel 87 Absätze 1 und 2 VRV' beziehen sich auf die VRV (SR 741.11), nicht auf die aktuelle Verordnung; daher handelt es sich um einen externen Verweis, nicht um eine Selbstreferenz."
+  },
+  {
+    "ITEM": 12,
+    "ARTICLE_EID": "art_6",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 10–15"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Formulierung 'nach den Artikeln 10–15' bezieht sich auf Artikel derselben Verordnung (interne Struktur, keine SR-Nennung im Satz); daher reine Selbstreferenz als Artikelspektrum 10–15."
+  },
+  {
+    "ITEM": 13,
+    "ARTICLE_EID": "art_6",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 10–15"
+    ],
+    "confidence": "high",
+    "reasoning": "Wie bei ITEM 12: 'nach den Artikeln 10–15' ohne Bezug auf ein anderes Gesetz; interne Artikel der vorliegenden Verordnung."
+  },
+  {
+    "ITEM": 14,
+    "ARTICLE_EID": "art_9",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 16–20"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Wendung 'Weiterbildung nach den Artikeln 16–20' verweist auf Artikel derselben Verordnung; keine externe SR-Verknüpfung im Satz."
+  },
+  {
+    "ITEM": 15,
+    "ARTICLE_EID": "art_9",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 13 Abs. 1",
+      "Art. 13 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Es wird 'eine Prüfung nach Artikel 13 Absatz 1 oder 2' erwähnt; mangels SR-Bezug handelt es sich um interne Verweisungen auf Art. 13 Abs. 1 und 2 derselben Verordnung."
+  },
+  {
+    "ITEM": 16,
+    "ARTICLE_EID": "art_9",
+    "TARGET_SR": "SR 741.51",
+    "assigned_articles": [
+      "Art. 24c Bst. e"
+    ],
+    "confidence": "high",
+    "reasoning": "Hier: 'Art. 24c Bst. e der Verkehrszulassungsverordnung ... (VZV)'; aus anderen Items ist klar, dass VZV SR 741.51 ist. Der Artikel gehört somit zu SR 741.51, nicht zur vorliegenden Verordnung."
+  },
+  {
+    "ITEM": 17,
+    "ARTICLE_EID": "art_13",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 12 Abs. 4"
+    ],
+    "confidence": "high",
+    "reasoning": "Verweis 'nach Artikel 12 Absatz 4' ohne Nennung einer anderen SR; dies ist eine interne Bezugnahme auf Art. 12 Abs. 4 derselben Verordnung."
+  },
+  {
+    "ITEM": 18,
+    "ARTICLE_EID": "art_13",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 12 Abs. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "Analog zu ITEM 17: 'nach Artikel 12 Absatz 3' ist eine interne Selbstreferenz auf Art. 12 Abs. 3 der aktuellen Verordnung."
+  },
+  {
+    "ITEM": 19,
+    "ARTICLE_EID": "art_14_bis",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 12 Abs. 1 Bst. b",
+      "Art. 14 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Die genannten Teile der Theorie- und praktischen Prüfung ('Artikel 12 Absatz 1 Buchstabe b' und 'Artikel 14 Absatz 2') sind interne Bestimmungen derselben Verordnung; kein externer SR-Bezug."
+  },
+  {
+    "ITEM": 20,
+    "ARTICLE_EID": "art_15",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 14 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Klammer 'Art. 14 Abs. 2' verweist auf einen Artikel derselben Verordnung; keine andere SR im Satz genannt."
+  },
+  {
+    "ITEM": 21,
+    "ARTICLE_EID": "art_21",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 23"
+    ],
+    "confidence": "high",
+    "reasoning": "Formulierung 'Lehrkräfte nach Artikel 23' bezieht sich auf Art. 23 der vorliegenden Verordnung; es fehlt jeder Hinweis auf ein anderes Gesetz."
+  },
+  {
+    "ITEM": 22,
+    "ARTICLE_EID": "art_27_a",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 16–20"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Weiterbildung 'nach den Artikeln 16‒20' ist eine interne Verweisung auf die Artikel 16 bis 20 derselben Verordnung; kein externer SR-Bezug."
+  },
+  {
+    "ITEM": 23,
+    "ARTICLE_EID": "art_27_a",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 16–20"
+    ],
+    "confidence": "high",
+    "reasoning": "Gleiche Struktur wie ITEM 22: 'Weiterbildung nach den Artikeln 16‒20' als interne Artikelkette 16–20 der aktuellen Verordnung."
+  },
+  {
+    "ITEM": 24,
+    "ARTICLE_EID": "art_28",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 2–20",
+      "Art. 24",
+      "Art. 25",
+      "Art. 26 Abs. 1 Bst. a",
+      "Art. 26 Abs. 1 Bst. b",
+      "Art. 26 Abs. 1 Bst. e",
+      "Art. 26 Abs. 1 Bst. g",
+      "Art. 27"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Inkrafttretensbestimmung zählt explizit interne Artikel und Absätze der Verordnung auf ('Artikel 2–20, 24, 25, 26 Absatz 1 Buchstaben a, b, e, und g sowie Artikel 27'); dies sind reine Selbstreferenzen ohne Bezug auf eine andere SR."
+  }
+]

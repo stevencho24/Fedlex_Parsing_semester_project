@@ -1,0 +1,370 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 101",
+    "assigned_articles": ["Art. 118b Abs. 1"],
+    "confidence": "high",
+    "reasoning": "Die Formulierung «gestützt auf Artikel 118b Absatz 1 der Bundesverfassung SR 101» verknüpft den genannten Artikel grammatikalisch eindeutig mit SR 101."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": "SR 810.31",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "high",
+    "reasoning": "Es wird nur das Stammzellenforschungsgesetz als Ganzes («nach dem Stammzellenforschungsgesetz … SR 810.31») ohne konkrete Artikelangabe zitiert."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_2_a",
+    "TARGET_SR": "SR 810.12",
+    "assigned_articles": ["Art. 54"],
+    "confidence": "high",
+    "reasoning": "Der Satz lautet «… nach Artikel 54 des Bundesgesetzes … SR 810.12 … (GUMG)»; Art. 54 ist klar dem GUMG/SR 810.12 zugeordnet."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_19",
+    "TARGET_SR": "SR 220",
+    "assigned_articles": ["Art. 60"],
+    "confidence": "high",
+    "reasoning": "«Die Ersatzansprüche verjähren nach Artikel 60 des Obligationenrechts SR 220» verknüpft Art. 60 direkt mit dem OR (SR 220)."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_19",
+    "TARGET_SR": "SR 170.32",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "high",
+    "reasoning": "Es wird das Verantwortlichkeitsgesetz als Ganzes («das Verantwortlichkeitsgesetz vom 14. März 1958 SR 170.32») ohne Artikelangabe für anwendbar erklärt."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_36",
+    "TARGET_SR": "SR 810.21",
+    "assigned_articles": ["Art. 8"],
+    "confidence": "high",
+    "reasoning": "«… richtet sich nach Artikel 8 des Transplantationsgesetzes … SR 810.21» ordnet Art. 8 eindeutig dem Transplantationsgesetz zu."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_42",
+    "TARGET_SR": "SR 235.1",
+    "assigned_articles": ["Art. 16", "Art. 17"],
+    "confidence": "high",
+    "reasoning": "«wenn die Anforderungen der Artikel 16 und 17 des Datenschutzgesetzes … SR 235.1 erfüllt sind»; beide Artikel werden explizit dem DSG zugeordnet."
+  },
+  {
+    "ITEM": 8,
+    "ARTICLE_EID": "art_62",
+    "TARGET_SR": "SR 311.0",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "high",
+    "reasoning": "«Sofern keine schwerere strafbare Handlung nach dem Strafgesetzbuch SR 311.0 vorliegt» verweist allgemein auf das StGB ohne konkrete Artikel."
+  },
+  {
+    "ITEM": 9,
+    "ARTICLE_EID": "art_64",
+    "TARGET_SR": "SR 313.0",
+    "assigned_articles": ["Art. 6", "Art. 7", "Art. 15"],
+    "confidence": "high",
+    "reasoning": "«Die Artikel 6 und 7 … sowie 15 … des Bundesgesetzes … SR 313.0 … sind anwendbar» nennt die drei Artikel ausdrücklich im Zusammenhang mit SR 313.0."
+  },
+  {
+    "ITEM": 10,
+    "ARTICLE_EID": "art_2_a",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Artikel 54 wird erwähnt, aber ohne explizite SR-Nummer im Snippet; der Bezug zu SR 810.12 ist bereits in ITEM 3 erfasst. Hier handelt es sich um eine Wiederholung derselben Norm, daher Selbstreferenz-Kontext und kein neuer SR-Link."
+  },
+  {
+    "ITEM": 11,
+    "ARTICLE_EID": "art_19",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "«Artikel 60 des Obligationenrechts» wird ohne SR-Nummer genannt; der zugehörige externe Verweis mit SR 220 ist bereits in ITEM 4 abgedeckt. Diese Stelle ist eine parallele Formulierung ohne neue SR-Verknüpfung."
+  },
+  {
+    "ITEM": 12,
+    "ARTICLE_EID": "art_27",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "«Artikel 26 ist nicht anwendbar» bezieht sich offensichtlich auf einen Artikel desselben Gesetzes; keine SR-Nummer oder externes Gesetz genannt."
+  },
+  {
+    "ITEM": 13,
+    "ARTICLE_EID": "art_28",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "«Artikel 11 Absatz 2 ist nicht anwendbar» ist eine interne Verweisung innerhalb des gleichen Gesetzes; kein externer SR-Bezug."
+  },
+  {
+    "ITEM": 14,
+    "ARTICLE_EID": "art_32",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "«Für die Einwilligung gelten die Artikel 16 und 22–24 sinngemäss» verweist auf andere Artikel desselben Gesetzes; keine SR-Nummer oder externes Gesetz."
+  },
+  {
+    "ITEM": 15,
+    "ARTICLE_EID": "art_32",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Wie ITEM 14: Verweis auf «Artikel 16 und 22–24» ohne externes Gesetz; klar interne Systematik."
+  },
+  {
+    "ITEM": 16,
+    "ARTICLE_EID": "art_32",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "«Für den Widerspruch gelten die Artikel 22–24 sinngemäss» ist eine reine Selbstreferenz innerhalb des Gesetzes."
+  },
+  {
+    "ITEM": 17,
+    "ARTICLE_EID": "art_33",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "«Artikel 16 und 22–24» werden ohne externes Gesetz genannt; interne Verweisung."
+  },
+  {
+    "ITEM": 18,
+    "ARTICLE_EID": "art_33",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "«Für den Widerspruch gelten die Artikel 22–24 sinngemäss»; wiederum nur interne Artikel, kein SR-Bezug."
+  },
+  {
+    "ITEM": 19,
+    "ARTICLE_EID": "art_34",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "«nach den Artikeln 32 und 33» verweist auf andere Artikel desselben Gesetzes; keine externe SR-Referenz."
+  },
+  {
+    "ITEM": 20,
+    "ARTICLE_EID": "art_36",
+    "TARGET_SR": "SR 810.21",
+    "assigned_articles": ["Art. 8"],
+    "confidence": "high",
+    "reasoning": "Inhaltlich identisch mit ITEM 6, nur ohne explizite SR-Nummer im Snippet. Da in ITEM 6 derselbe Satz mit «SR 810.21» steht, ist klar, dass «Artikel 8 des Transplantationsgesetzes» Art. 8 SR 810.21 meint."
+  },
+  {
+    "ITEM": 21,
+    "ARTICLE_EID": "art_39",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "«Für die Einwilligung gelten die Artikel 16 und 22–24 sinngemäss»; interne Artikel, kein externes Gesetz genannt."
+  },
+  {
+    "ITEM": 22,
+    "ARTICLE_EID": "art_40",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "«Für die Einwilligung gilt Artikel 16 sinngemäss» ist eine Selbstreferenz auf einen Artikel desselben Gesetzes."
+  },
+  {
+    "ITEM": 23,
+    "ARTICLE_EID": "art_42",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "«Artikel 16 und 22–24 sowie 32» sind interne Artikelnummern ohne Bezug auf ein anderes Gesetz; keine SR-Nummer."
+  },
+  {
+    "ITEM": 24,
+    "ARTICLE_EID": "art_42",
+    "TARGET_SR": "SR 235.1",
+    "assigned_articles": ["Art. 16", "Art. 17"],
+    "confidence": "high",
+    "reasoning": "«die Anforderungen der Artikel 16 und 17 des Datenschutzgesetzes vom 25. September 2020»; durch ITEM 7 ist klar, dass dies das DSG SR 235.1 ist, und die Artikel werden ausdrücklich genannt."
+  },
+  {
+    "ITEM": 25,
+    "ARTICLE_EID": "art_44",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "«Die Artikel 41–43 sind sinngemäss anwendbar»; reine interne Verweisung innerhalb desselben Gesetzes."
+  },
+  {
+    "ITEM": 26,
+    "ARTICLE_EID": "art_45",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "«(Art. 34)» bezieht sich auf Art. 34 desselben Gesetzes; keine externe SR-Referenz."
+  },
+  {
+    "ITEM": 27,
+    "ARTICLE_EID": "art_47",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "«nach Artikel 34» ist eine interne Verweisung; kein anderes Gesetz oder SR genannt."
+  },
+  {
+    "ITEM": 28,
+    "ARTICLE_EID": "art_49",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "«nach Artikel 56a» verweist auf einen Artikel desselben Gesetzes; keine SR-Nummer."
+  },
+  {
+    "ITEM": 29,
+    "ARTICLE_EID": "art_49",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "«nach Artikel 32 sowie … nach Artikel 33» sind interne Artikelverweise; kein externes Gesetz erwähnt."
+  },
+  {
+    "ITEM": 30,
+    "ARTICLE_EID": "art_62",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "«(Art. 45)» ist ein Verweis auf einen Artikel desselben Gesetzes; keine SR-Nummer."
+  },
+  {
+    "ITEM": 31,
+    "ARTICLE_EID": "art_62",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Die zahlreichen Artikelangaben (Art. 16, 17, 18 Abs. 3 usw.) beziehen sich auf Bestimmungen dieses Gesetzes; kein externes Gesetz oder SR genannt."
+  },
+  {
+    "ITEM": 32,
+    "ARTICLE_EID": "art_62",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "«(Art. 25)» ist eine interne Verweisung; keine externe SR-Referenz."
+  },
+  {
+    "ITEM": 33,
+    "ARTICLE_EID": "art_62",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "«(Art. 39 Abs. 3, 40 Abs. 2)» verweist auf Artikel desselben Gesetzes; kein anderes Gesetz genannt."
+  },
+  {
+    "ITEM": 34,
+    "ARTICLE_EID": "art_63",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "«nach Artikel 62 Absatz 1 Buchstabe a» ist eine interne Verweisung innerhalb desselben Gesetzes."
+  },
+  {
+    "ITEM": 35,
+    "ARTICLE_EID": "art_63",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "«(Art. 14)» bezieht sich auf einen Artikel desselben Gesetzes; keine SR-Nummer."
+  },
+  {
+    "ITEM": 36,
+    "ARTICLE_EID": "art_63",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "«(Art. 32, 33)» und «Artikel 34» sind interne Artikelverweise; kein externes Gesetz genannt."
+  },
+  {
+    "ITEM": 37,
+    "ARTICLE_EID": "art_63",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "«(Art. 41)» verweist auf einen Artikel desselben Gesetzes; keine SR-Nummer."
+  },
+  {
+    "ITEM": 38,
+    "ARTICLE_EID": "art_64",
+    "TARGET_SR": "SR 313.0",
+    "assigned_articles": ["Art. 6", "Art. 7", "Art. 15"],
+    "confidence": "high",
+    "reasoning": "Inhaltlich identisch mit ITEM 9, nur ohne SR-Nummer im Snippet. Durch ITEM 9 ist klar, dass es sich um Art. 6, 7 und 15 des Verwaltungsstrafrechts SR 313.0 handelt."
+  },
+  {
+    "ITEM": 39,
+    "ARTICLE_EID": "art_64",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "«nach Artikel 62 Absatz 1 … oder 63 Absatz 1» sind interne Verweise auf Artikel desselben Gesetzes; kein externes Gesetz genannt."
+  },
+  {
+    "ITEM": 40,
+    "ARTICLE_EID": "art_65",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "«(Art. 10)» ist ein interner Artikelverweis; keine SR-Nummer oder externes Gesetz."
+  },
+  {
+    "ITEM": 41,
+    "ARTICLE_EID": "art_65",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "«(Art. 19)» und «(Art. 20)» verweisen auf Artikel desselben Gesetzes; kein externer SR-Bezug."
+  },
+  {
+    "ITEM": 42,
+    "ARTICLE_EID": "art_65",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "«(Art. 20)» ist wiederum ein interner Verweis; keine SR-Nummer."
+  },
+  {
+    "ITEM": 43,
+    "ARTICLE_EID": "art_65",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "«(Art. 49)» verweist auf einen Artikel desselben Gesetzes; kein externes Gesetz genannt."
+  },
+  {
+    "ITEM": 44,
+    "ARTICLE_EID": "art_67",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "«nach Artikel 45 Absatz 1 Buchstabe a» ist eine interne Verweisung; keine SR-Nummer."
+  },
+  {
+    "ITEM": 45,
+    "ARTICLE_EID": "art_67",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "«nach Artikel 45 Absatz 1» verweist auf denselben Erlass; kein externes Gesetz oder SR genannt."
+  },
+  {
+    "ITEM": 46,
+    "ARTICLE_EID": "art_67",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "«nach Artikel 56» ist ein interner Artikelverweis innerhalb des Gesetzes; keine SR-Nummer."
+  }
+]

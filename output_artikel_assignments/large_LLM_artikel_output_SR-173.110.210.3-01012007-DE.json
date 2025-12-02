@@ -1,0 +1,41 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 173.110",
+    "assigned_articles": [
+      "Art. 15 Abs. 1 Bst. a",
+      "Art. 68 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Formulierung \"gestützt auf die Artikel 15 Absatz 1 Buchstabe a und 68 Absatz 2 des Bundesgerichtsgesetzes ... SR 173.110 (BGG)\" verknüpft beide Artikel grammatikalisch eindeutig mit dem genannten Gesetz (BGG/SR 173.110)."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 173.110",
+    "assigned_articles": [
+      "Art. 68"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Snippet steht \"Die nach Art. 68 BGG ...\"; die Abkürzung BGG ist im Vorspann eindeutig SR 173.110 zugeordnet, daher bezieht sich Art. 68 auf SR 173.110."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_10",
+    "TARGET_SR": "SR 173.110",
+    "assigned_articles": [
+      "Art. 64"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Snippet steht \"(Art. 64 BGG)\"; BGG ist als SR 173.110 definiert, somit verweist Art. 64 auf SR 173.110."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Die Bezugnahme \"(Art. 4 und 5)\" erfolgt ohne Nennung eines Gesetzes oder einer SR-Nummer und steht in einem rein internen Regelungskontext des gleichen Reglements. Nach den Vorgaben ist dies als Selbstverweis innerhalb des aktuellen Dokuments zu behandeln und nicht einem externen TARGET_SR zuzuordnen."
+  }
+]

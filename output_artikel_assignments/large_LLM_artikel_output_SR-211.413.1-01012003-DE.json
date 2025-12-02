@@ -1,0 +1,200 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 210",
+    "assigned_articles": [
+      "Art. 715"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Formulierung \"gestützt auf Artikel 715 des Zivilgesetzbuches SR 210\" verknüpft den Artikel 715 syntaktisch direkt mit SR 210; damit ist klar, dass Art. 715 ZGB gemeint ist."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 221.214.1",
+    "assigned_articles": [
+      "Art. 15",
+      "Art. 16"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Satzteil \"auf die Artikel 15 und 16 des Bundesgesetzes ... SR 221.214.1 über den Konsumkredit (KKG)\" werden die Artikel 15 und 16 ausdrücklich diesem Gesetz (KKG, SR 221.214.1) zugeordnet."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 281.1",
+    "assigned_articles": [
+      "Art. 15"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Wendung \"in Anwendung des Artikels 15 des Bundesgesetzes vom 11. April 1889 SR 281.1 über Schuldbetreibung und Konkurs\" ordnet Art. 15 eindeutig dem SchKG (SR 281.1) zu."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_15",
+    "TARGET_SR": "SR 281.33",
+    "assigned_articles": [
+      "Art. 4 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Text lautet: \"Im übrigen gilt Artikel 4 Absatz 2 der Verordnung ... Siehe heute die V ... (SR 281.33).\" Damit ist klar, dass Art. 4 Abs. 2 der heutigen Verordnung SR 281.33 gemeint ist."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": "SR 221.214.1",
+    "assigned_articles": [
+      "Art. 15 Abs. 1",
+      "Art. 16"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Snippet: \"der Vertrag die in Artikel 15 Absatz 1 KKG angeführten Bestimmungen einhält; ... den Vertrag nicht gemäss Artikel 16 KKG widerrufen\"; KKG ist per Preamble SR 221.214.1, somit sind Art. 15 Abs. 1 und Art. 16 dieses Gesetzes betroffen."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 21"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Bezugnahme \"(vgl. Art. 21 hienach)\" ist eine reine Selbstverweisung innerhalb derselben Verordnung; kein externer SR-Bezug, daher Selbstreferenz auf Art. 21 des eigenen Erlasses."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 1 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "\"(Art. 1 Abs. 2)\" verweist auf einen Absatz des eigenen Art. 1; es wird kein anderes Gesetz genannt, daher interne Selbstreferenz."
+  },
+  {
+    "ITEM": 8,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 15"
+    ],
+    "confidence": "high",
+    "reasoning": "\"(Art. 15)\" steht ohne Nennung eines SR oder Gesetzes im selben Dokument; dies ist eine interne Verweisung auf Art. 15 der vorliegenden Verordnung."
+  },
+  {
+    "ITEM": 9,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": "SR 221.214.1",
+    "assigned_articles": [
+      "Art. 15 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Satz nennt \"Artikel 15 Absatz 1 KKG\"; KKG ist in der Präambel als SR 221.214.1 definiert, somit ist Art. 15 Abs. 1 dieses Gesetzes gemeint."
+  },
+  {
+    "ITEM": 10,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": "SR 221.214.1",
+    "assigned_articles": [
+      "Art. 16"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Formulierung \"gemäss Artikel 16 KKG\" bezieht sich auf das Konsumkreditgesetz (KKG = SR 221.214.1); damit ist Art. 16 dieses Gesetzes betroffen."
+  },
+  {
+    "ITEM": 11,
+    "ARTICLE_EID": "art_4_bis",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 4"
+    ],
+    "confidence": "high",
+    "reasoning": "\"(Art. 4)\" verweist auf den unmittelbar zuvor geregelten Art. 4 derselben Verordnung; kein externer SR-Kontext, daher interne Selbstreferenz."
+  },
+  {
+    "ITEM": 12,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 4 Ziff. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Wendung \"im Sinn von Artikel 4 Ziffer 1 hievor\" ist eine klassische interne Verweisung auf eine Ziffer innerhalb von Art. 4 des gleichen Erlasses."
+  },
+  {
+    "ITEM": 13,
+    "ARTICLE_EID": "art_9",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 7 Bst. c–i"
+    ],
+    "confidence": "high",
+    "reasoning": "\"(Art. 7 Bst. c–i)\" bezieht sich auf Buchstaben innerhalb von Art. 7 derselben Verordnung; kein anderes Gesetz oder SR wird genannt."
+  },
+  {
+    "ITEM": 14,
+    "ARTICLE_EID": "art_13",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 4"
+    ],
+    "confidence": "high",
+    "reasoning": "\"(Art. 4)\" steht ohne weitere Gesetzesangabe im Kontext der Verordnung; dies ist eine interne Verweisung auf Art. 4 des eigenen Erlasses."
+  },
+  {
+    "ITEM": 15,
+    "ARTICLE_EID": "art_15",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 2",
+      "Art. 4",
+      "Art. 4bis",
+      "Art. 5",
+      "Art. 7 Bst. f",
+      "Art. 10",
+      "Art. 12"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Aufzählung \"in den Artikeln 2, 4, 4bis, 5, 7 Buchstabe f, 10 und 12 erwähnten Aktenstücke\" betrifft ausschliesslich Artikel derselben Verordnung; es wird kein externes Gesetz genannt."
+  },
+  {
+    "ITEM": 16,
+    "ARTICLE_EID": "art_15",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 4 Abs. 2"
+    ],
+    "confidence": "medium",
+    "reasoning": "Der Satz verweist auf \"Artikel 4 Absatz 2 der Verordnung vom 14. März 1938 über die Aufbewahrung der Betreibungs- und Konkursakten\". In Item 4 wird klargestellt, dass die heutige Fassung dieser Verordnung SR 281.33 ist; hier fehlt jedoch die explizite SR-Angabe. Mangels direkter SR-Nennung wird dies als Verweis auf eine externe Verordnung verstanden, aber ohne eindeutige Zuordnung im Snippet selbst; daher keine TARGET_SR, nur der Artikel wird genannt."
+  },
+  {
+    "ITEM": 17,
+    "ARTICLE_EID": "art_16_bis",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 4"
+    ],
+    "confidence": "medium",
+    "reasoning": "Es heisst \"Art. 4 der dort angeführten V\" im Zusammenhang mit dem Kreisschreiben Nr. 31; dies verweist auf Art. 4 einer externen Verordnung, deren SR im Snippet nicht genannt ist. Mangels expliziter SR-Zuordnung wird nur der Artikel als solcher erfasst."
+  },
+  {
+    "ITEM": 18,
+    "ARTICLE_EID": "art_16_bis",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 4"
+    ],
+    "confidence": "high",
+    "reasoning": "\"(Art. 4)\" bezieht sich hier auf die \"schriftlichen Anmeldungen (Art. 4)\" innerhalb derselben Verordnung; klar interne Selbstverweisung auf Art. 4 des Erlasses."
+  },
+  {
+    "ITEM": 19,
+    "ARTICLE_EID": "art_19",
+    "TARGET_SR": "SR 281.1",
+    "assigned_articles": [
+      "Art. 16 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Text nennt \"Artikel 16 Absatz 2 des Bundesgesetzes vom 11. April 1889 über Schuldbetreibung und Konkurs\"; dieses Bundesgesetz ist das SchKG (SR 281.1), somit ist Art. 16 Abs. 2 SchKG gemeint."
+  }
+]

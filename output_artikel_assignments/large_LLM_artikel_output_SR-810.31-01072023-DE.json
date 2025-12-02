@@ -1,0 +1,276 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 101",
+    "assigned_articles": [
+      "Art. 119"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Formulierung «gestützt auf Artikel 119 der Bundesverfassung SR 101» verknüpft den genannten Artikel direkt mit SR 101; klarer syntaktischer Bezug."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": "SR 810.11",
+    "assigned_articles": [
+      "Art. 29 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Snippet steht «(Art. 29 Abs. 1 des Fortpflanzungsmedizingesetzes ... SR 810.11)»; der Artikel ist unmittelbar mit dem genannten Gesetz verknüpft."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_11",
+    "TARGET_SR": "SR 810.30",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "Es wird nur das Humanforschungsgesetz SR 810.30 insgesamt genannt («richten sich nach dem Humanforschungsgesetz ... SR 810.30»), ohne konkrete Artikelangabe."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_26",
+    "TARGET_SR": "SR 313.0",
+    "assigned_articles": [
+      "Art. 6",
+      "Art. 7",
+      "Art. 15"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Satz nennt ausdrücklich «Die Artikel 6 und 7 ... sowie 15 ... des Bundesgesetzes ... SR 313.0»; alle drei Artikel gehören eindeutig zu SR 313.0."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "Artikel 29 Abs. 1 wird ohne SR‑Bezug genannt; im Kontext von Art. 3 handelt es sich um eine Parallelfassung zu ITEM 2, aber hier ohne explizite SR‑Verknüpfung, daher Selbstverweisstruktur im Dokument, kein neuer SR‑Link."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«Art. 35 Abs. 1 des Fortpflanzungsmedizingesetzes ...» wird ohne SR‑Nummer erwähnt; mangels expliziter SR‑Verknüpfung ist dies als inhaltlicher Verweis im Text, nicht als maschinell zuzuordnender SR‑Link zu behandeln."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«Art. 36 Abs. 1 des Fortpflanzungsmedizingesetzes ...» erscheint ohne SR‑Nummer; analog zu ITEM 6 kein expliziter SR‑Bezug, daher Selbstreferenzstruktur im Dokument."
+  },
+  {
+    "ITEM": 8,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«Bewilligung ... nach Artikel 11» verweist offensichtlich auf Art. 11 desselben Gesetzes; kein anderes SR genannt, daher interner Artikelverweis."
+  },
+  {
+    "ITEM": 9,
+    "ARTICLE_EID": "art_9",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«Bewilligung nach Artikel 7 oder 8» bezieht sich auf Artikel desselben Erlasses; es fehlt jeder Hinweis auf ein anderes SR‑Dokument."
+  },
+  {
+    "ITEM": 10,
+    "ARTICLE_EID": "art_9",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "Verweise auf «Artikel 4» und «Artikel 11» stehen ohne SR‑Angabe und im Kontext der Systematik dieses Gesetzes; daher interne Artikelverweise."
+  },
+  {
+    "ITEM": 11,
+    "ARTICLE_EID": "art_10",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«Stammzellengewinnung nach Artikel 7 oder 8» ist ein klarer Verweis auf andere Artikel desselben Gesetzes; kein externer SR‑Bezug."
+  },
+  {
+    "ITEM": 12,
+    "ARTICLE_EID": "art_17",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«nach Artikel 5» bezieht sich auf einen Artikel innerhalb desselben Erlasses; es wird kein anderes Gesetz oder SR genannt."
+  },
+  {
+    "ITEM": 13,
+    "ARTICLE_EID": "art_17",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Aufzählung «nach den Artikeln 7, 8, 10 und 15» ist rein interne Systematik; kein externer SR‑Verweis im Satz."
+  },
+  {
+    "ITEM": 14,
+    "ARTICLE_EID": "art_17",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "Verweise auf «Artikel 9» sowie «Artikeln 10 und 15» betreffen ersichtlich Bestimmungen desselben Gesetzes; kein SR‑Dokument genannt."
+  },
+  {
+    "ITEM": 15,
+    "ARTICLE_EID": "art_17",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«nach den Artikeln 13 und 16» ist ein interner Verweis; es fehlt jeder syntaktische Bezug zu einem SR‑Link."
+  },
+  {
+    "ITEM": 16,
+    "ARTICLE_EID": "art_17",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«nach Artikel 18» verweist auf einen Artikel desselben Erlasses; kein anderes Gesetz oder SR wird erwähnt."
+  },
+  {
+    "ITEM": 17,
+    "ARTICLE_EID": "art_17",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«Gebühren nach Artikel 22» ist ein typischer interner Gebührenverweis; kein externer SR‑Bezug vorhanden."
+  },
+  {
+    "ITEM": 18,
+    "ARTICLE_EID": "art_24",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«(Art. 3 Abs. 1)» steht ohne Gesetzesangabe; im Kontext von Art. 24 handelt es sich um einen Verweis auf Art. 3 Abs. 1 desselben Gesetzes."
+  },
+  {
+    "ITEM": 19,
+    "ARTICLE_EID": "art_24",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«(Art. 3 Abs. 2)» ist analog zu ITEM 18 ein interner Verweis auf Art. 3 Abs. 2 des gleichen Erlasses."
+  },
+  {
+    "ITEM": 20,
+    "ARTICLE_EID": "art_24",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«(Art. 4)» verweist ohne weitere Kennzeichnung auf Art. 4 desselben Gesetzes; kein SR‑Dokument genannt."
+  },
+  {
+    "ITEM": 21,
+    "ARTICLE_EID": "art_24",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«(Art. 5)» ist ein interner Verweis auf Art. 5 des gleichen Erlasses; es fehlt jeder externe SR‑Bezug."
+  },
+  {
+    "ITEM": 22,
+    "ARTICLE_EID": "art_24",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«(Art. 7, 8, 10 und 15)» listet mehrere Artikel ohne Gesetzesangabe; im Kontext der Strafbestimmung sind dies interne Artikel des Stammzellengesetzes."
+  },
+  {
+    "ITEM": 23,
+    "ARTICLE_EID": "art_25",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«(Art. 6)» verweist auf eine Vorschrift über Unabhängigkeit innerhalb desselben Gesetzes; kein anderes SR‑Dokument wird genannt."
+  },
+  {
+    "ITEM": 24,
+    "ARTICLE_EID": "art_25",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«(Art. 9, 10, 13, 15 und 16)» sind interne Verweise auf Pflichten- und Meldebestimmungen dieses Gesetzes; kein externer SR‑Bezug."
+  },
+  {
+    "ITEM": 25,
+    "ARTICLE_EID": "art_25",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«(Art. 14)» bezieht sich auf eine Verbotsnorm des gleichen Erlasses; es wird kein anderes Gesetz oder SR erwähnt."
+  },
+  {
+    "ITEM": 26,
+    "ARTICLE_EID": "art_25",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«(Art. 20)» ist ein Verweis auf die Mitwirkungspflicht innerhalb desselben Gesetzes; kein externer SR‑Link vorhanden."
+  },
+  {
+    "ITEM": 27,
+    "ARTICLE_EID": "art_26",
+    "TARGET_SR": "SR 313.0",
+    "assigned_articles": [
+      "Art. 6",
+      "Art. 7",
+      "Art. 15"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Text nennt explizit «Die Artikel 6 und 7 ... sowie 15 ... des Bundesgesetzes ... über das Verwaltungsstrafrecht»; dies ist derselbe Inhalt wie in ITEM 4 und eindeutig SR 313.0 zuzuordnen."
+  }
+]

@@ -1,0 +1,67 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 172.220.111.7",
+    "assigned_articles": [
+      "Art. 3",
+      "Art. 4"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet explicitly states: 'gestützt auf die Artikel 3 und 4 der Verordnung ... SR 172.220.111.7', directly linking Articles 3 and 4 to SR 172.220.111.7."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 172.220.111.7",
+    "assigned_articles": [
+      "Art. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "The text says: 'für das Personal nach Artikel 1 der Verordnung ... SR 172.220.111.7', so Article 1 clearly belongs to SR 172.220.111.7."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 172.220.111.31",
+    "assigned_articles": [],
+    "confidence": "medium",
+    "reasoning": "The snippet refers generally to 'die Bestimmungen der Verordnung ... SR 172.220.111.31' without mentioning any specific article; this is a general reference to the document, so no concrete articles can be assigned."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": "SR 172.220.111.3",
+    "assigned_articles": [
+      "Art. 36"
+    ],
+    "confidence": "high",
+    "reasoning": "The sentence reads: 'nach Artikel 36 der Bundespersonalverordnung ... SR 172.220.111.3', directly linking Article 36 to SR 172.220.111.3."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "This is an artikel_reference item capturing 'Artikel 1 der Verordnung ... über das Unterhaltsreinigungspersonal'. The same reference is already linked to SR 172.220.111.7 in ITEM 2; here it functions as an internal/self-reference within the current document, not as a new SR link."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "This artikel_reference snippet ('Artikel 36 der Bundespersonalverordnung') corresponds to the external SR link in ITEM 4, where Art. 36 is already assigned to SR 172.220.111.3. In this context it is just the textual article mention, not a separate SR assignment."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 3 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet refers to 'Maximallohn nach Artikel 3 Absatz 2' without naming an external SR; this clearly points to Article 3 paragraph 2 of the same ordinance, i.e., an internal self-reference within the current document."
+  }
+]

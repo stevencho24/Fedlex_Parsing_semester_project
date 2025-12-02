@@ -1,0 +1,152 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 101",
+    "assigned_articles": [
+      "Art. 92"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Formulierung «gestützt auf Artikel 92 der Bundesverfassung SR 101» verknüpft den genannten Artikel direkt mit SR 101."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": "SR 951.26",
+    "assigned_articles": [
+      "Art. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Satzteil «nach Massgabe von Artikel 3 des Covid‑19-Solidarbürgschaftsgesetzes … SR 951.26» wird Art. 3 ausdrücklich diesem Gesetz (SR 951.26) zugeordnet."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": "SR 220",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "«gelten … die aktienrechtlichen Vorschriften des Obligationenrechts SR 220» verweist pauschal auf die aktienrechtlichen Vorschriften des OR, ohne einzelne Artikel zu nennen."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_9",
+    "TARGET_SR": "SR 783.0",
+    "assigned_articles": [
+      "Art. 4 Abs. 3 Bst. c"
+    ],
+    "confidence": "high",
+    "reasoning": "«… nach Artikel 4 Absatz 3 Buchstabe c des Postgesetzes … SR 783.0» ordnet diese konkrete Bestimmung eindeutig dem Postgesetz (SR 783.0) zu."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_9",
+    "TARGET_SR": "SR 172.220.1",
+    "assigned_articles": [
+      "Art. 6a Abs. 1–5"
+    ],
+    "confidence": "high",
+    "reasoning": "«Artikel 6a Absätze 1–5 des Bundespersonalgesetzes … SR 172.220.1» benennt die anzuwendenden Absätze ausdrücklich."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_11",
+    "TARGET_SR": "SR 170.32",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "«Das Verantwortlichkeitsgesetz … SR 170.32 findet keine Anwendung» nennt keinen bestimmten Artikel, sondern schliesst das Gesetz insgesamt aus."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_13",
+    "TARGET_SR": "SR 220",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "medium",
+    "reasoning": "«… nimmt seine weiteren Aufgaben nach dem Obligationenrecht SR 220 und den Statuten wahr» verweist allgemein auf das OR als Rechtsgrundlage ohne konkrete Artikelangabe."
+  },
+  {
+    "ITEM": 8,
+    "ARTICLE_EID": "art_13",
+    "TARGET_SR": "SR 221.301",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "«die Bestimmungen des Fusionsgesetzes … SR 221.301 nicht anwendbar» betrifft das Fusionsgesetz als Ganzes; keine Artikel werden spezifiziert."
+  },
+  {
+    "ITEM": 9,
+    "ARTICLE_EID": "art_14",
+    "TARGET_SR": "SR 221.301",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "medium",
+    "reasoning": "«die Bestimmungen des Fusionsgesetzes … SR 221.301 sinngemäss anwendbar» verweist pauschal auf das Gesetz; einzelne Bestimmungen können ausgenommen werden, werden aber hier nicht nummernmässig genannt."
+  },
+  {
+    "ITEM": 10,
+    "ARTICLE_EID": "art_17",
+    "TARGET_SR": "SR 783.0",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "medium",
+    "reasoning": "«Es tritt zusammen mit dem Postgesetz … SR 783.0 in Kraft» ist ein Inkrafttretensverweis auf das Postgesetz insgesamt, ohne konkrete Artikel."
+  },
+  {
+    "ITEM": 11,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Referenz «Artikel 3 des Covid‑19-Solidarbürgschaftsgesetzes» ist bereits in ITEM 2 eindeutig SR 951.26 zugeordnet; dieser artikel_reference-Eintrag dupliziert nur die Textstelle und begründet keinen neuen SR-Link."
+  },
+  {
+    "ITEM": 12,
+    "ARTICLE_EID": "art_9",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«Artikel 4 Absatz 3 Buchstabe c des Postgesetzes vom 17. Dezember 2010» ist bereits in ITEM 4 als Verweis auf SR 783.0 erfasst; hier liegt lediglich die gleiche Textpassage ohne explizite SR-Angabe vor."
+  },
+  {
+    "ITEM": 13,
+    "ARTICLE_EID": "art_9",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«Artikel 6a Absätze 1–5 des Bundespersonalgesetzes …» ist in ITEM 5 schon mit SR 172.220.1 verknüpft; dieser artikel_reference-Eintrag wiederholt nur die interne Bezugnahme."
+  },
+  {
+    "ITEM": 14,
+    "ARTICLE_EID": "art_15",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«Artikel 20 Absatz 2 Buchstabe b des Postorganisationsgesetzes vom 30. April 1997» verweist auf ein anderes Gesetz (Postorganisationsgesetz), zu dem in den SR_link_detection-Einträgen kein SR-Link vorhanden ist; mangels expliziter SR-Verknüpfung wird dies als interner/sonstiger Verweis ohne TARGET_SR behandelt."
+  },
+  {
+    "ITEM": 15,
+    "ARTICLE_EID": "art_15",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«Artikel 13 Absatz 7 sowie Artikel 14 Absatz 5» beziehen sich auf Artikel desselben Gesetzes (SR 783.1); es wird kein externes SR genannt, daher handelt es sich um reine Selbstverweise innerhalb des Dokuments."
+  }
+]

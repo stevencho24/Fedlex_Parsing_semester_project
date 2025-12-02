@@ -1,0 +1,32 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 142.281",
+    "assigned_articles": [
+      "Art. 15l Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet explicitly states: 'gestützt auf Artikel 15l Absatz 2 der Verordnung ... SR 142.281 ... (VVWAL)'. The article and paragraph are directly linked to SR 142.281 by the phrase 'der Verordnung ... SR 142.281', so Art. 15l Abs. 2 clearly belongs to this SR."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": "SR 142.281",
+    "assigned_articles": [
+      "Art. 15k"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet reads: 'Die Höhe des Bundesbeitrags richtet sich nach Artikel 15k VVWAL.' VVWAL is defined in the preamble as SR 142.281. The preposition 'nach' governs 'Artikel 15k VVWAL', directly attributing Art. 15k to the VVWAL (SR 142.281)."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_8",
+    "TARGET_SR": "SR 142.281",
+    "assigned_articles": [
+      "Art. 15k"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet is identical to ITEM 2: 'Die Höhe des Bundesbeitrags richtet sich nach Artikel 15k VVWAL.' With VVWAL mapped to SR 142.281, Art. 15k is clearly and directly attributed to that SR."
+  }
+]

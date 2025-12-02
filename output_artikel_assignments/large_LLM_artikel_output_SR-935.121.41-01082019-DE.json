@@ -1,0 +1,162 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 935.121",
+    "assigned_articles": [
+      "Art. 15 Abs. 1 Bst. a"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Formulierung «gestützt auf Artikel 15 Absatz 1 Buchstabe a der Verordnung … SR 935.121» verknüpft den genannten Artikel direkt mit der Ziel-SR; damit ist klar, dass Art. 15 Abs. 1 lit. a der Verordnung SR 935.121 gemeint ist."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 220",
+    "assigned_articles": [
+      "Art. 829"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Snippet steht «im Sinne von Artikel 829 des Obligationenrechts SR 220 (OR)»; der Artikel 829 wird explizit dem Obligationenrecht (SR 220) zugeordnet."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 935.12",
+    "assigned_articles": [
+      "Art. 828–920"
+    ],
+    "confidence": "medium",
+    "reasoning": "Der Satz nennt das Bundesgesetz SR 935.12 und anschliessend die Bestimmungen des OR (Art. 828–920). Die Artikelangabe bezieht sich syntaktisch auf das OR (SR 220), nicht auf SR 935.12. Für SR 935.12 wird kein bestimmter Artikel genannt, sondern nur das Gesetz als Ganzes erwähnt. Daher wird für SR 935.12 eine allgemeine, nicht artikelspezifische Bezugnahme angenommen und die explizite Artikelspanne nicht zu SR 935.12 zugeordnet."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_9",
+    "TARGET_SR": "SR 220",
+    "assigned_articles": [
+      "Art. 846 Abs. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "«nach Artikel 846 Absatz 3 OR SR 220» verknüpft den Artikel direkt mit SR 220; klarer Verweis auf Art. 846 Abs. 3 OR."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_14",
+    "TARGET_SR": "SR 220",
+    "assigned_articles": [
+      "Art. 728 Abs. 2–6"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Klammer «(Art. 728 Abs. 2–6 OR SR 220)» ordnet die Artikelspanne eindeutig dem Obligationenrecht SR 220 zu."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_20",
+    "TARGET_SR": "SR 935.12",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "medium",
+    "reasoning": "Formulierung «Unter Vorbehalt der durch das Gesetz SR 935.12 … eingeräumten Befugnisse» nennt das Gesetz nur generell ohne Artikelangabe; es liegt eine allgemeine Gesetzesverweisung ohne spezifische Artikelzuordnung vor."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_22",
+    "TARGET_SR": "SR 220",
+    "assigned_articles": [
+      "Art. 860 Abs. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "«nach Artikel 860 Absatz 3 OR SR 220» ist ein direkter, syntaktisch klarer Verweis auf Art. 860 Abs. 3 OR."
+  },
+  {
+    "ITEM": 8,
+    "ARTICLE_EID": "art_25",
+    "TARGET_SR": "SR 935.12",
+    "assigned_articles": [
+      "Art. 17"
+    ],
+    "confidence": "high",
+    "reasoning": "«richtet sich nach Artikel 17 des Gesetzes SR 935.12» verknüpft Art. 17 unmittelbar mit dem genannten Gesetz; damit ist Art. 17 des Bundesgesetzes SR 935.12 gemeint."
+  },
+  {
+    "ITEM": 9,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 935.121",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "low",
+    "reasoning": "Das Snippet enthält nur die Firma «Schweizerische Gesellschaft für Hotelkredit SGH»; es wird kein Artikel genannt. Die Verknüpfung zu SR 935.121 erfolgt allein über das im Präambel-Callback definierte Akronym SGH, ohne artikelspezifische Angabe."
+  },
+  {
+    "ITEM": 10,
+    "ARTICLE_EID": "art_22",
+    "TARGET_SR": "SR 935.121",
+    "assigned_articles": [
+      "Art. 15 Abs. 1 Bst. d"
+    ],
+    "confidence": "high",
+    "reasoning": "«der Betrag nach Artikel 15 Absatz 1 Buchstabe d der Verordnung»; die Verordnung ist in der Präambel als SR 935.121 definiert, daher klarer Bezug auf Art. 15 Abs. 1 lit. d der Verordnung SR 935.121."
+  },
+  {
+    "ITEM": 11,
+    "ARTICLE_EID": "art_27",
+    "TARGET_SR": "SR 935.121",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "low",
+    "reasoning": "«Die Statuten der SGH vom 4. Mai 2005 werden aufgehoben.» enthält keine Artikelangabe; SGH ist nur als Körperschaft bezeichnet. Die Verbindung zu SR 935.121 erfolgt über das Akronym, ohne konkrete Artikelreferenz."
+  },
+  {
+    "ITEM": 12,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "artikel_reference ohne TARGET_SR; «Artikel 829 des Obligationenrechts (OR)» ist bereits in ITEM 2 als externer Verweis zu SR 220 erfasst. Hier dient der Eintrag nur der Erfassung der Artikelnennung und stellt keinen zusätzlichen SR-Link dar."
+  },
+  {
+    "ITEM": 13,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "artikel_reference ohne TARGET_SR; die Spanne «(Art. 828–920)» bezieht sich auf das OR und ist bereits kontextuell in ITEM 3 abgedeckt. Es handelt sich um eine wiedergegebene Artikelnennung ohne eigenständigen neuen SR-Link."
+  },
+  {
+    "ITEM": 14,
+    "ARTICLE_EID": "art_15",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 24 Abs. 1–2 (self-reference)"
+    ],
+    "confidence": "high",
+    "reasoning": "«Für den Beschluss auf Auflösung der Gesellschaft ist Artikel 24 Absätze 1 und 2 massgebend.» verweist ohne Nennung einer externen SR auf einen anderen Artikel derselben Statuten; daher interne Selbstreferenz."
+  },
+  {
+    "ITEM": 15,
+    "ARTICLE_EID": "art_22",
+    "TARGET_SR": "SR 935.121",
+    "assigned_articles": [
+      "Art. 15 Abs. 1 Bst. d"
+    ],
+    "confidence": "high",
+    "reasoning": "«der Betrag nach Artikel 15 Absatz 1 Buchstabe d der Verordnung»; die Verordnung ist in der Präambel als SR 935.121 definiert. Dies ist derselbe Kontext wie ITEM 10, nun als artikel_reference erfasst; klarer Verweis auf Art. 15 Abs. 1 lit. d SR 935.121."
+  },
+  {
+    "ITEM": 16,
+    "ARTICLE_EID": "art_25",
+    "TARGET_SR": "SR 935.12",
+    "assigned_articles": [
+      "Art. 17"
+    ],
+    "confidence": "high",
+    "reasoning": "«Das Liquidationsverfahren richtet sich nach Artikel 17 des Gesetzes.»; im selben Dokument wird dieses Gesetz explizit als SR 935.12 bezeichnet (vgl. ITEM 8). Daher ist Art. 17 des Gesetzes SR 935.12 gemeint; dies ist die artikel_reference-Entsprechung zu ITEM 8."
+  }
+]

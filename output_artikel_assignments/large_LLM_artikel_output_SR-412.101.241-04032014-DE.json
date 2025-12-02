@@ -1,0 +1,72 @@
+[
+  {
+    "Item": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 170.512.1",
+    "assigned_articles": [
+      "Art. 16 Abs. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet explicitly states 'in Anwendung von Art. 16 Abs. 3 der Publikationsverordnung ... (SR 170.512.1)'; the article is directly linked to this SR."
+  },
+  {
+    "Item": 2,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 412.101",
+    "assigned_articles": [
+      "Art. 19"
+    ],
+    "confidence": "high",
+    "reasoning": "The text 'gestützt auf Artikel 19 der Berufsbildungsverordnung ... SR 412.101 (BBV)' directly attributes Article 19 to SR 412.101."
+  },
+  {
+    "Item": 3,
+    "ARTICLE_EID": "art_15",
+    "TARGET_SR": "SR 172.010.1",
+    "assigned_articles": [
+      "Art. 8a ff."
+    ],
+    "confidence": "high",
+    "reasoning": "The authorial note says 'Siehe heute: die Art. 8a ff. RVOV (SR 172.010.1)', clearly linking the range starting at Art. 8a ('ff.') of SR 172.010.1."
+  },
+  {
+    "Item": 4,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 412.101",
+    "assigned_articles": [
+      "Art. 19 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet refers to 'besonderen Bedürfnissen gemäss Artikel 19 Absatz 2 BBV'; BBV is mapped to SR 412.101 in the preamble, so Art. 19 Abs. 2 belongs to SR 412.101."
+  },
+  {
+    "Item": 5,
+    "ARTICLE_EID": "art_15",
+    "TARGET_SR": "SR 170.512.1",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "medium",
+    "reasoning": "The sentence only mentions the authority 'SBFI' (mapped to SR 170.512.1) without any article citation or contextual pointer to a specific provision; treated as a general institutional reference."
+  },
+  {
+    "Item": 6,
+    "ARTICLE_EID": "art_16",
+    "TARGET_SR": "SR 170.512.1",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "medium",
+    "reasoning": "The phrase 'Sie stellt dem SBFI Anträge zur Aktualisierung.' references the authority SBFI (SR 170.512.1) but contains no article or subsection indication; interpreted as a general reference to the institution and its legal basis."
+  },
+  {
+    "Item": 7,
+    "ARTICLE_EID": "art_8",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "The reference 'nach Artikel 7' has no associated SR or acronym and clearly points to another article of the same ordinance; it is a self-reference within the current document, not an external SR link."
+  }
+]

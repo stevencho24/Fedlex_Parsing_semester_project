@@ -1,0 +1,12 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 173.32",
+    "assigned_articles": [
+      "Art. 16 Abs. 1 Bst. a"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet explicitly cites \"Artikel 16 Absatz 1 Buchstabe a des Verwaltungsgerichtsgesetzes ... SR 173.32\". This article reference is syntactically and semantically linked to SR 173.32. The subsequent reference to \"Artikel 1 Buchstabe a und 16 Absatz 5 des Geschäftsreglements ...\" concerns a different act (the Geschäftsreglement for the Bundesverwaltungsgericht), not SR 173.32, so those are not assigned to the TARGET_SR."
+  }
+]

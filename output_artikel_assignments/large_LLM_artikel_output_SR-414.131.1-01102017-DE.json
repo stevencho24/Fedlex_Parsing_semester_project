@@ -1,0 +1,42 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 510.10",
+    "assigned_articles": [
+      "Art. 150 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Formulierung \"gestützt auf Artikel 150 Absatz 1 des Militärgesetzes ... SR 510.10\" verknüpft den genannten Artikel eindeutig mit SR 510.10."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_6",
+    "TARGET_SR": "SR 172.220.111.3",
+    "assigned_articles": [
+      "Art. 115"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Satz \"gestützt auf Artikel 115 der Bundespersonalverordnung ... SR 172.220.111.3\" wird Art. 115 ausdrücklich dieser Verordnung zugeordnet."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_10",
+    "TARGET_SR": "SR 412.10",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "medium",
+    "reasoning": "Der Satz verweist allgemein auf das Berufsbildungsgesetz (SR 412.10), ohne einen bestimmten Artikel zu nennen; daher ist nur eine generelle Gesetzesverweisung erkennbar."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_6",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "Artikel 115 wird ohne Nennung eines SR-Zitats erwähnt; im Kontext eines artikel_reference-Eintrags ist dies als innerdokumentarische Selbstverweisung zu verstehen, nicht als Verweis auf ein anderes SR."
+  }
+]

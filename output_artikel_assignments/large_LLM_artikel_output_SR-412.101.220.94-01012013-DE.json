@@ -1,0 +1,187 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 412.10",
+    "assigned_articles": [
+      "Art. 19"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet: 'gestützt auf Artikel 19 des Berufsbildungsgesetzes ... SR 412.10 (BBG)'; Art. 19 is explicitly linked to SR 412.10."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 412.101",
+    "assigned_articles": [
+      "Art. 12"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet: '... und auf Artikel 12 der Berufsbildungsverordnung ... SR 412.101 (BBV)'; Art. 12 is explicitly linked to SR 412.101."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_11",
+    "TARGET_SR": "SR 412.101.241",
+    "assigned_articles": "General reference - entire document",
+    "confidence": "high",
+    "reasoning": "Snippet refers generally to 'Verordnung ... SR 412.101.241 über Mindestvorschriften für die Allgemeinbildung'; no specific article cited."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_23",
+    "TARGET_SR": "SR 172.31",
+    "assigned_articles": "General reference - entire document",
+    "confidence": "high",
+    "reasoning": "Snippet: 'Kommissionenverordnung vom 3. Juni 1996 SR 172.31'; no article number mentioned, only the ordinance as a whole."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_10",
+    "TARGET_SR": "SR 412.10",
+    "assigned_articles": "General reference - entire document",
+    "confidence": "medium",
+    "reasoning": "Preamble acronym item: 'vom SBFI genehmigt'; SBFI is the authority under SR 412.10, but no article of SR 412.10 is cited in the snippet."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_11",
+    "TARGET_SR": "SR 412.10",
+    "assigned_articles": "General reference - entire document",
+    "confidence": "medium",
+    "reasoning": "Preamble acronym item: 'Verordnung des SBFI ...'; SBFI is linked to SR 412.10 generally, without a specific article reference."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_12",
+    "TARGET_SR": "SR 412.101",
+    "assigned_articles": [
+      "Art. 44 Abs. 1 Bst. a",
+      "Art. 44 Abs. 1 Bst. b"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet: 'fachlichen Mindestanforderungen im Sinne von Artikel 44 Absatz 1 Buchstaben a und b BBV'; BBV = SR 412.101, so these are explicit article references."
+  },
+  {
+    "ITEM": 8,
+    "ARTICLE_EID": "art_16",
+    "TARGET_SR": "SR 412.101",
+    "assigned_articles": [
+      "Art. 32"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet: 'die nach Artikel 32 BBV erforderliche Erfahrung'; BBV = SR 412.101, so Art. 32 clearly belongs to SR 412.101."
+  },
+  {
+    "ITEM": 9,
+    "ARTICLE_EID": "art_20",
+    "TARGET_SR": "SR 412.101",
+    "assigned_articles": [
+      "Art. 33"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet: 'Die Wiederholung des Qualifikationsverfahrens richtet sich nach Artikel 33 BBV'; BBV = SR 412.101, explicit reference."
+  },
+  {
+    "ITEM": 10,
+    "ARTICLE_EID": "art_23",
+    "TARGET_SR": "SR 412.10",
+    "assigned_articles": "General reference - entire document",
+    "confidence": "medium",
+    "reasoning": "Snippet mentions 'Bildungsplan nach Artikel 10' and 'Handlungskompetenzen nach den Artikeln 4–6' which are internal articles of the current ordinance, while SBFI (SR 412.10) appears only as approving authority; no specific article of SR 412.10 is grammatically linked."
+  },
+  {
+    "ITEM": 11,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 4",
+      "Art. 5",
+      "Art. 6"
+    ],
+    "confidence": "high",
+    "reasoning": "Artikel_reference within same document: 'Handlungskompetenzen nach den Artikeln 4–6'; this is an internal reference to Arts. 4–6 of the current ordinance, not to an external SR."
+  },
+  {
+    "ITEM": 12,
+    "ARTICLE_EID": "art_10",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 4",
+      "Art. 5",
+      "Art. 6"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet: 'Handlungskompetenzen nach den Artikeln 4–6'; internal cross-reference to Arts. 4–6 of the same ordinance."
+  },
+  {
+    "ITEM": 13,
+    "ARTICLE_EID": "art_16",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 32",
+      "Art. 18"
+    ],
+    "confidence": "high",
+    "reasoning": "Artikel_reference item: 'nach Artikel 32 BBV' (already externally assigned in ITEM 8) and 'Abschlussprüfung (Artikel 18)'; here, 'Artikel 18' is an internal reference to Art. 18 of the current ordinance."
+  },
+  {
+    "ITEM": 14,
+    "ARTICLE_EID": "art_17",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 4",
+      "Art. 5",
+      "Art. 6"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet: 'Handlungskompetenzen nach den Artikeln 4–6'; internal reference to Arts. 4–6 of this ordinance."
+  },
+  {
+    "ITEM": 15,
+    "ARTICLE_EID": "art_22",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 21 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet: 'unter dem Vorbehalt von Artikel 21 Absatz 1'; this is a self-reference to Art. 21 Abs. 1 of the same ordinance."
+  },
+  {
+    "ITEM": 16,
+    "ARTICLE_EID": "art_23",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 10"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet: 'Bildungsplan nach Artikel 10'; internal reference to Art. 10 of the current ordinance."
+  },
+  {
+    "ITEM": 17,
+    "ARTICLE_EID": "art_23",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 4",
+      "Art. 5",
+      "Art. 6"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet: 'Handlungskompetenzen nach den Artikeln 4–6'; internal reference to Arts. 4–6 of this ordinance."
+  },
+  {
+    "ITEM": 18,
+    "ARTICLE_EID": "art_26",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 16",
+      "Art. 17",
+      "Art. 18",
+      "Art. 19",
+      "Art. 20",
+      "Art. 21"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet: 'Bestimmungen ... (Art. 16–21)'; this is an internal range reference to Arts. 16–21 of the same ordinance."
+  }
+]

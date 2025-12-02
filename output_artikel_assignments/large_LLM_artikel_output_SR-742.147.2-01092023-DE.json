@@ -1,0 +1,100 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 742.101",
+    "assigned_articles": [
+      "Art. 16b Abs. 6"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Formulierung «gestützt auf Artikel 16b Absatz 6 des Eisenbahngesetzes … SR 742.101» verknüpft den genannten Artikel grammatikalisch eindeutig mit dem genannten SR; damit ist klar, dass Art. 16b Abs. 6 des Eisenbahngesetzes (SR 742.101) gemeint ist."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 745.1",
+    "assigned_articles": [
+      "Art. 55 Abs. 6"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Passage «… und Artikel 55 Absatz 6 des Personenbeförderungsgesetzes … SR 745.1 (PBG)» ordnet Art. 55 Abs. 6 eindeutig dem Personenbeförderungsgesetz mit der SR-Nummer 745.1 zu."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": "SR 311.0",
+    "assigned_articles": [
+      "Art. 179quater"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Satz «(Art. 179quater Strafgesetzbuch SR 311.0)» steht die Artikelangabe direkt vor der Gesetzesbezeichnung und der SR-Nummer; Art. 179quater gehört damit klar zum Strafgesetzbuch SR 311.0."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_6",
+    "TARGET_SR": "SR 235.1",
+    "assigned_articles": [
+      "Art. 33",
+      "Art. 34",
+      "Art. 35",
+      "Art. 36",
+      "Art. 37",
+      "Art. 38",
+      "Art. 39",
+      "Art. 40",
+      "Art. 41",
+      "Art. 42"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Formulierung «Datenschutzgesetz … SR 235.1, insbesondere die Artikel 33–42» bezieht sich ausdrücklich auf die Artikel 33 bis 42 dieses Gesetzes; der Bereich 33–42 wird daher als vollständige Artikelliste des DSG (SR 235.1) übernommen."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 745.1",
+    "assigned_articles": [
+      "Art. 2 Abs. 2 Bst. b"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Stelle «(Art. 2 Abs. 2 Bst. b PBG)» verwendet das im Vorspann definierte Akronym PBG für SR 745.1; damit ist klar, dass Art. 2 Abs. 2 Buchstabe b des Personenbeförderungsgesetzes (SR 745.1) gemeint ist."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Interne Verweisung innerhalb des Strafgesetzbuchs; SR-Zuordnung bereits in ITEM 3 erfasst"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Formulierung «(Art. 179quater Strafgesetzbuch)» ist eine Wiederholung der in ITEM 3 bereits mit SR 311.0 verknüpften Norm. Als artikel_reference ohne explizite SR-Angabe dient sie hier nur als Selbstverweis; keine neue SR-Verknüpfung erforderlich."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 5 (interne Verweisung innerhalb derselben Verordnung)"
+    ],
+    "confidence": "high",
+    "reasoning": "«Bekanntgabe nach Artikel 5» verweist ohne Gesetzesangabe auf einen anderen Artikel derselben Verordnung; mangels externer SR-Referenz ist dies eine reine Selbstverweisung innerhalb des aktuellen Erlasses."
+  },
+  {
+    "ITEM": 8,
+    "ARTICLE_EID": "art_6",
+    "TARGET_SR": "SR 235.1",
+    "assigned_articles": [
+      "Art. 33",
+      "Art. 34",
+      "Art. 35",
+      "Art. 36",
+      "Art. 37",
+      "Art. 38",
+      "Art. 39",
+      "Art. 40",
+      "Art. 41",
+      "Art. 42"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Text «Datenschutzgesetz … insbesondere die Artikel 33–42» ist identisch mit ITEM 4; dort ist das DSG ausdrücklich mit SR 235.1 verknüpft. Die Artikel 33–42 sind daher als Verweis auf SR 235.1 zu verstehen und werden entsprechend zugeordnet."
+  }
+]

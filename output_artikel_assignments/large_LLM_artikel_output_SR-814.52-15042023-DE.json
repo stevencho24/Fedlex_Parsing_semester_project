@@ -1,0 +1,63 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 814.50",
+    "assigned_articles": [
+      "Art. 20",
+      "Art. 47"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Formulierung \"gestützt auf die Artikel 20 und 47 des Strahlenschutzgesetzes ... SR 814.50\" verknüpft die genannten Artikel direkt und eindeutig mit SR 814.50."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_8",
+    "TARGET_SR": "SR 520.17",
+    "assigned_articles": [
+      "Art. 2 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Snippet steht \"nach Artikel 2 Absatz 1 der Verordnung ... SR 520.17\"; der Artikel ist grammatikalisch klar dieser Verordnung zugeordnet."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_8",
+    "TARGET_SR": "SR 520.12",
+    "assigned_articles": [
+      "Anhang 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Es heisst \"nach Anhang 2 der Bevölkerungsschutzverordnung ... SR 520.12\"; der genannte Anhang ist eindeutig Teil der zitierten Verordnung."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": "self",
+    "assigned_articles": [
+      "Art. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Wendung \"in Ergänzung zur vorsorglichen Verteilung nach Artikel 3\" enthält keinen SR-Hinweis und beschreibt eine interne Verweisung innerhalb derselben Verordnung."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": "self",
+    "assigned_articles": [
+      "Art. 8"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Formulierung \"ab Anordnung nach Artikel 8\" erfolgt ohne Bezug auf ein anderes Gesetz oder eine andere Verordnung; dies ist eine Selbstverweisung innerhalb des gleichen Erlasses."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_8",
+    "TARGET_SR": "SR 520.17",
+    "assigned_articles": [
+      "Art. 2 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Satz lautet vollständig \"nach Artikel 2 Absatz 1 der Verordnung ... (VBSTB)\"; dies ist dieselbe in ITEM 2 behandelte Verordnung SR 520.17, und der Artikel ist klar zugeordnet."
+  }
+]

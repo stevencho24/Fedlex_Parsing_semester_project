@@ -1,0 +1,218 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 811.22",
+    "assigned_articles": [
+      "Art. 8 Abs. 3",
+      "Art. 8 Abs. 4"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet explicitly cites 'Artikel 8 Absätze 3 und 4' of the Bundesgesetz SR 811.22; both paragraphs belong to that SR."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": "SR 832.10",
+    "assigned_articles": [
+      "Art. 49a"
+    ],
+    "confidence": "high",
+    "reasoning": "The phrase 'nach Artikel 49a des Bundesgesetzes ... SR 832.10 über die Krankenversicherung (KVG)' directly links Art. 49a to SR 832.10."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": "SR 616.1",
+    "assigned_articles": [
+      "Art. 16 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "The text 'nach Artikel 16 Absatz 2 des Subventionsgesetzes ... SR 616.1 (SuG)' clearly attributes Art. 16 Abs. 2 to SR 616.1."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_10",
+    "TARGET_SR": "SR 412.10",
+    "assigned_articles": [
+      "Art. 53 Abs. 2 lit. a"
+    ],
+    "confidence": "high",
+    "reasoning": "The wording 'nach Artikel 53 Absatz 2 Buchstabe a des Berufsbildungsgesetzes ... SR 412.10' explicitly ties this provision to SR 412.10."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_13",
+    "TARGET_SR": "SR 616.1",
+    "assigned_articles": [
+      "Art. 16 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "The sentence 'nach Artikel 16 Absatz 2 SuG SR 616.1' directly links Art. 16 Abs. 2 of the Subventionsgesetz to SR 616.1."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "self",
+    "assigned_articles": [
+      "Art. 5",
+      "Art. 6",
+      "Art. 7"
+    ],
+    "confidence": "medium",
+    "reasoning": "Reference to 'den Artikeln 5–7 des Bundesgesetzes über die Förderung der Ausbildung im Bereich der Pflege' concerns the parent law SR 811.22, but no SR is mentioned here; treated as internal reference to that law rather than to an external TARGET_SR."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": "self",
+    "assigned_articles": [
+      "Art. 5"
+    ],
+    "confidence": "medium",
+    "reasoning": "The phrase 'nach Artikel 5 des Bundesgesetzes über die Förderung der Ausbildung im Bereich der Pflege' refers to Art. 5 of the parent law (SR 811.22) without an explicit SR link; classified as self-reference within the legislative context."
+  },
+  {
+    "ITEM": 8,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": "SR 832.10",
+    "assigned_articles": [
+      "Art. 49a"
+    ],
+    "confidence": "high",
+    "reasoning": "This mirrors ITEM 2 without the explicit SR number but with the same wording 'Artikel 49a des Bundesgesetzes ... über die Krankenversicherung (KVG)'; by context it is Art. 49a KVG (SR 832.10)."
+  },
+  {
+    "ITEM": 9,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": "self",
+    "assigned_articles": [
+      "Art. 8 Abs. 5"
+    ],
+    "confidence": "medium",
+    "reasoning": "Refers to 'Artikel 8 Absatz 5 des Bundesgesetzes über die Förderung der Ausbildung im Bereich der Pflege' (the parent law SR 811.22) without an SR citation; treated as internal reference to that law."
+  },
+  {
+    "ITEM": 10,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": "self",
+    "assigned_articles": [
+      "Art. 7"
+    ],
+    "confidence": "medium",
+    "reasoning": "Mentions 'Artikel 7 des Bundesgesetzes über die Förderung der Ausbildung im Bereich der Pflege' (again SR 811.22) with no SR link; considered an internal reference to the governing law."
+  },
+  {
+    "ITEM": 11,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": "self",
+    "assigned_articles": [
+      "Art. 7 Abs. 1 lit. a"
+    ],
+    "confidence": "medium",
+    "reasoning": "The text 'Artikel 7 Absatz 1 Buchstabe a des Bundesgesetzes über die Förderung der Ausbildung im Bereich der Pflege' points to a specific paragraph of the parent law (SR 811.22) without explicit SR; treated as internal reference."
+  },
+  {
+    "ITEM": 12,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": "self",
+    "assigned_articles": [
+      "Art. 8 Abs. 5"
+    ],
+    "confidence": "medium",
+    "reasoning": "Same structure as ITEM 9: 'Artikel 8 Absatz 5 des Bundesgesetzes über die Förderung der Ausbildung im Bereich der Pflege' refers to the parent law SR 811.22 without SR link; internal reference."
+  },
+  {
+    "ITEM": 13,
+    "ARTICLE_EID": "art_6",
+    "TARGET_SR": "self",
+    "assigned_articles": [
+      "Art. 2",
+      "Art. 3",
+      "Art. 4",
+      "Art. 5"
+    ],
+    "confidence": "medium",
+    "reasoning": "The phrase 'nach den Artikeln 2–5 des Bundesgesetzes über die Förderung der Ausbildung im Bereich der Pflege' is a range within the parent law (SR 811.22); no external SR mentioned, so treated as internal reference to that law."
+  },
+  {
+    "ITEM": 14,
+    "ARTICLE_EID": "art_6",
+    "TARGET_SR": "self",
+    "assigned_articles": [
+      "Art. 7"
+    ],
+    "confidence": "medium",
+    "reasoning": "Refers to 'Artikel 7 des Bundesgesetzes über die Förderung der Ausbildung im Bereich der Pflege' (SR 811.22) without SR link; internal reference to the parent law."
+  },
+  {
+    "ITEM": 15,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": "SR 616.1",
+    "assigned_articles": [
+      "Art. 16 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Matches ITEM 3 contextually: 'öffentlich-rechtlichen Vertrags nach Artikel 16 Absatz 2 des Subventionsgesetzes ... (SuG)' clearly refers to Art. 16 Abs. 2 SuG (SR 616.1)."
+  },
+  {
+    "ITEM": 16,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": "SR 616.1",
+    "assigned_articles": [
+      "Art. 28"
+    ],
+    "confidence": "high",
+    "reasoning": "The clause 'richtet sich sinngemäss nach Artikel 28 SuG' uses the same SuG acronym as in ITEMS 3 and 15; SuG is SR 616.1, so this is Art. 28 SR 616.1."
+  },
+  {
+    "ITEM": 17,
+    "ARTICLE_EID": "art_10",
+    "TARGET_SR": "self",
+    "assigned_articles": [
+      "Art. 2"
+    ],
+    "confidence": "medium",
+    "reasoning": "Refers to 'Artikel 2 des Bundesgesetzes über die Förderung der Ausbildung im Bereich der Pflege' (parent law SR 811.22) without SR link; internal reference to that law."
+  },
+  {
+    "ITEM": 18,
+    "ARTICLE_EID": "art_10",
+    "TARGET_SR": "SR 412.10",
+    "assigned_articles": [
+      "Art. 53 Abs. 2 lit. a"
+    ],
+    "confidence": "high",
+    "reasoning": "Same legal provision as in ITEM 4: 'Artikel 53 Absatz 2 Buchstabe a des Berufsbildungsgesetzes vom 13. Dezember 2002' is Art. 53 Abs. 2 lit. a BBG (SR 412.10)."
+  },
+  {
+    "ITEM": 19,
+    "ARTICLE_EID": "art_12",
+    "TARGET_SR": "self",
+    "assigned_articles": [
+      "Art. 6"
+    ],
+    "confidence": "medium",
+    "reasoning": "The phrase 'Artikel 6 des Bundesgesetzes über die Förderung der Ausbildung im Bereich der Pflege' refers to the parent law SR 811.22 without SR link; treated as internal reference."
+  },
+  {
+    "ITEM": 20,
+    "ARTICLE_EID": "art_13",
+    "TARGET_SR": "SR 616.1",
+    "assigned_articles": [
+      "Art. 16 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Same wording as ITEM 5: 'öffentlich-rechtlichen Vertrags nach Artikel 16 Absatz 2 SuG' clearly points to Art. 16 Abs. 2 of SuG (SR 616.1)."
+  },
+  {
+    "ITEM": 21,
+    "ARTICLE_EID": "art_13",
+    "TARGET_SR": "SR 616.1",
+    "assigned_articles": [
+      "Art. 28"
+    ],
+    "confidence": "high",
+    "reasoning": "Parallel to ITEM 16: 'richtet sich sinngemäss nach Artikel 28 SuG' refers to Art. 28 of the Subventionsgesetz, which is SR 616.1."
+  }
+]

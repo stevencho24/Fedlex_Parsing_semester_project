@@ -1,0 +1,170 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 831.10",
+    "assigned_articles": [
+      "Art. 9bis",
+      "Art. 10 Abs. 1",
+      "Art. 33ter"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Preambel-Satz: \"gestützt auf die Artikel 9bis, 10 Absatz 1 und 33ter des Bundesgesetzes ... SR 831.10 ... (AHVG)\". Die genannten Artikel stehen direkt vor der Bezeichnung des Gesetzes und der SR-Nummer; syntaktisch klar zugeordnet."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 831.20",
+    "assigned_articles": [
+      "Art. 3 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "Textteil: \"auf Artikel 3 Absatz 1 des Bundesgesetzes vom 19. Juni 1959 SR 831.20 über die Invalidenversicherung (IVG)\". Der Artikel 3 Abs. 1 ist unmittelbar mit dem Gesetz und der SR-Nummer verknüpft."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 834.1",
+    "assigned_articles": [
+      "Art. 16a Abs. 2",
+      "Art. 16f Abs. 1",
+      "Art. 27 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Formulierung: \"auf die Artikel 16a Absatz 2, 16f Absatz 1 und 27 Absatz 2 des Erwerbsersatzgesetzes ... SR 834.1 (EOG)\". Die drei Artikel sind explizit als Grundlage dieses Gesetzes mit SR 834.1 genannt."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 831.10",
+    "assigned_articles": [
+      "Art. 8 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet: \"obere Grenze nach Artikel 8 Absatz 1 AHVG ... untere Grenze nach Artikel 8 Absatz 1 AHVG\". Beide Verweise beziehen sich auf denselben Artikel 8 Abs. 1 AHVG (SR 831.10)."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": "SR 831.10",
+    "assigned_articles": [
+      "Art. 8 Abs. 2",
+      "Art. 10 Abs. 1",
+      "Art. 2 Abs. 4",
+      "Art. 2 Abs. 5"
+    ],
+    "confidence": "high",
+    "reasoning": "Es werden mehrfach konkrete Bestimmungen des AHVG genannt: \"Artikel 8 Absatz 2 AHVG\" (zweimal), \"Artikel 10 Absatz 1 AHVG\" sowie \"Artikel 2 Absätze 4 und 5 AHVG\". Alle sind klar mit AHVG (SR 831.10) markiert."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": "SR 831.10",
+    "assigned_articles": [
+      "Art. 34 Abs. 5"
+    ],
+    "confidence": "high",
+    "reasoning": "Text: \"volle Altersrente nach Artikel 34 Absatz 5 AHVG\". Der Artikel ist eindeutig mit AHVG (SR 831.10) verbunden."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": "SR 831.10",
+    "assigned_articles": [
+      "Art. 33ter Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet: \"Dieser entspricht nach Artikel 33ter Absatz 2 AHVG dem Mittelwert aus:\". Die Norm nennt explizit Art. 33ter Abs. 2 AHVG."
+  },
+  {
+    "ITEM": 8,
+    "ARTICLE_EID": "art_6",
+    "TARGET_SR": "SR 831.20",
+    "assigned_articles": [
+      "Art. 3 Abs. 1bis"
+    ],
+    "confidence": "high",
+    "reasoning": "Formulierung: \"Mindestbeitrag nach Artikel 3 Absatz 1bis IVG\". Das IVG ist SR 831.20; der Artikel ist klar zugeordnet."
+  },
+  {
+    "ITEM": 9,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": "SR 834.1",
+    "assigned_articles": [
+      "Art. 16a",
+      "Art. 16f Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet: \"Gesamtentschädigung nach Artikel 16a EOG ... Entschädigung nach Artikel 16f Absatz 1 EOG\". Beide Bestimmungen gehören zum EOG (SR 834.1)."
+  },
+  {
+    "ITEM": 10,
+    "ARTICLE_EID": "art_9",
+    "TARGET_SR": "SR 834.1",
+    "assigned_articles": [
+      "Art. 27 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Text: \"Mindestbeitrag ... nach Artikel 27 Absatz 2 EOG\". EOG ist SR 834.1; der Artikel ist eindeutig."
+  },
+  {
+    "ITEM": 11,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "self",
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "Artikelreferenz ohne explizite SR-Nennung; der Kontext der Verordnung verweist intern auf AHVG-Bestimmungen, aber nach den Regeln gelten solche isolierten Artikelangaben ohne direkte SR-Verknüpfung als Selbstverweis der aktuellen Verordnung."
+  },
+  {
+    "ITEM": 12,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "self",
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "Wie bei ITEM 11: \"Artikel 8 Absatz 1 AHVG\" erscheint ohne unmittelbare SR-Angabe im Snippet; nach den Vorgaben ist dies als interne Struktur-/Selbstreferenz der vorliegenden Verordnung zu behandeln."
+  },
+  {
+    "ITEM": 13,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": "self",
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Referenz \"Artikel 8 Absatz 2 AHVG\" steht ohne SR-Link im Snippet. Gemäss Regel: isolierte Artikelangaben ohne syntaktische Kopplung an eine SR-Nummer werden als Selbstreferenz des Dokuments gewertet."
+  },
+  {
+    "ITEM": 14,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": "self",
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "Mehrere Artikelangaben (8 Abs. 2, 10 Abs. 1, 2 Abs. 4 und 5 AHVG) erscheinen ohne explizite SR-Verknüpfung im Snippet; nach den Projektregeln sind solche artikel_reference-Einträge als interne Verweisstruktur des aktuellen Erlasses zu behandeln."
+  },
+  {
+    "ITEM": 15,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": "self",
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "Referenz \"Artikel 16a EOG\" ohne SR-Link im Snippet; obwohl materiell auf EOG verweist, ist dies im Typ artikel_reference als Selbstreferenz des aktuellen Dokuments zu klassifizieren."
+  },
+  {
+    "ITEM": 16,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": "self",
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "Analog zu ITEM 15: \"Artikel 16f Absatz 1 EOG\" wird ohne explizite SR-Nennung im Snippet erwähnt; nach den Vorgaben ist dies als interne Artikelverweisung des vorliegenden Erlasses zu behandeln."
+  }
+]

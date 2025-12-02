@@ -1,0 +1,144 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 251",
+    "assigned_articles": [
+      "Art. 53a"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Formulierung «gestützt auf Artikel 53a des Kartellgesetzes … SR 251 (KG)» verknüpft den genannten Artikel direkt mit SR 251; damit ist klar, dass Art. 53a des KG (SR 251) gemeint ist."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 611.010",
+    "assigned_articles": [
+      "Art. 4"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Satzteil «sowie auf Artikel 4 des Bundesgesetzes vom 4. Oktober 1974 SR 611.010» wird Art. 4 ausdrücklich genannt und unmittelbar mit SR 611.010 verbunden; der Hinweis «Dieser Art. ist heute nicht mehr in Kraft» bezieht sich ebenfalls auf diesen Artikel."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 313.32",
+    "assigned_articles": "General reference - entire document",
+    "confidence": "high",
+    "reasoning": "Die Gebühren «richten sich nach den Bestimmungen der Verordnung … SR 313.32»; es werden keine bestimmten Artikel dieser Verordnung genannt, sondern die Verordnung insgesamt als Gebührenordnung herangezogen."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_1_a",
+    "TARGET_SR": "SR 172.041.1",
+    "assigned_articles": "General reference - entire document",
+    "confidence": "high",
+    "reasoning": "Formulierung «gelten die Bestimmungen der Allgemeinen Gebührenverordnung … SR 172.041.1 (AllgGebV)» verweist pauschal auf die Bestimmungen der AllgGebV, ohne einzelne Artikel zu spezifizieren."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": "SR 172.041.1",
+    "assigned_articles": [
+      "Art. 6"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Satz nennt ausdrücklich «die Auslagen gemäss Artikel 6 AllgGebV SR 172.041.1»; damit ist klar, dass Art. 6 der AllgGebV (SR 172.041.1) gemeint ist."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 251",
+    "assigned_articles": [
+      "Art. 26-30",
+      "Art. 49a Abs. 3 Bst. a",
+      "Art. 32-38",
+      "Art. 54",
+      "Art. 55"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Ausschnitt nennt mehrfach explizit Bestimmungen des Kartellgesetzes (KG, SR 251): «Artikeln 26–30», «Artikel 49a Absatz 3 Buchstabe a», «Artikeln 32–38», «Artikeln 54 und 55 KG». Alle diese Artikelangaben sind syntaktisch direkt mit KG verknüpft und damit Art. des SR 251."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": "SR 251",
+    "assigned_articles": [
+      "Art. 26-30"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Text «ein Verfahren nach den Artikeln 26–30 KG» verweist eindeutig auf die Artikel 26–30 des Kartellgesetzes (KG, SR 251)."
+  },
+  {
+    "ITEM": 8,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 26-30"
+    ],
+    "confidence": "high",
+    "reasoning": "«nach den Artikeln 26–30 des Kartellgesetzes (KG)» ist eine Verweisung auf das Kartellgesetz (SR 251). Da diese Artikel bereits in ITEM 6 als zu SR 251 gehörig erfasst sind, handelt es sich hier um eine Wiederholung derselben externen Verweisung; im Rahmen von artikel_reference wird dies als Verweis auf Art. 26–30 KG erkannt, aber kein neuer SR-Link angelegt."
+  },
+  {
+    "ITEM": 9,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 49a Abs. 3 Bst. a"
+    ],
+    "confidence": "high",
+    "reasoning": "«nach Artikel 49a Absatz 3 Buchstabe a KG» verweist auf eine bereits in ITEM 6 als zu SR 251 gehörig identifizierte Bestimmung; hier liegt eine Wiederholung derselben externen Verweisung vor, daher als interner Verweis im Kontext dieses Dokuments behandelt."
+  },
+  {
+    "ITEM": 10,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 32-38"
+    ],
+    "confidence": "high",
+    "reasoning": "«nach den Artikeln 32–38 KG» ist wiederum ein Verweis auf das Kartellgesetz (SR 251), der bereits in ITEM 6 als externer Verweis erfasst wurde; hier wird er im Rahmen von artikel_reference als derselbe Artikelsatz erkannt."
+  },
+  {
+    "ITEM": 11,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 54",
+      "Art. 55"
+    ],
+    "confidence": "high",
+    "reasoning": "«gemäss den Artikeln 54 und 55 KG» verweist auf Art. 54 und 55 des Kartellgesetzes (SR 251), die bereits in ITEM 6 als externe Verweisung zugeordnet wurden; dieser artikel_reference-Eintrag wiederholt diese Verweisung im Fliesstext."
+  },
+  {
+    "ITEM": 12,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "«… Dienstleistungen nach Artikel 1 veranlasst» ist ein klarer Selbstverweis auf den unmittelbar vorangehenden Art. 1 derselben Verordnung; es wird kein anderes SR-Dokument genannt, daher handelt es sich um eine interne Artikelverweisung innerhalb des aktuellen Erlasses."
+  },
+  {
+    "ITEM": 13,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 26-30"
+    ],
+    "confidence": "high",
+    "reasoning": "«ein Verfahren nach den Artikeln 26–30 KG» verweist auf dieselben Bestimmungen des Kartellgesetzes (SR 251) wie bereits in ITEM 7; im Rahmen von artikel_reference wird dies als Verweis auf Art. 26–30 KG erkannt, ohne neuen SR-Link."
+  },
+  {
+    "ITEM": 14,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 4",
+      "Art. 6"
+    ],
+    "confidence": "high",
+    "reasoning": "«Neben dem Aufwand nach Artikel 4 … gemäss Artikel 6 AllgGebV» enthält zwei Verweise: Art. 4 bezieht sich auf den vorangehenden Artikel derselben Verordnung (interne Selbstverweisung), Art. 6 AllgGebV verweist auf Art. 6 der Allgemeinen Gebührenverordnung (SR 172.041.1), der bereits in ITEM 5 als externer Verweis zugeordnet wurde."
+  }
+]

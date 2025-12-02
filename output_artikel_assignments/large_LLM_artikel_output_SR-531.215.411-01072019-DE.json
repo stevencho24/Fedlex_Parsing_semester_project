@@ -1,0 +1,22 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 531.215.41",
+    "assigned_articles": [
+      "Art. 6 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet explicitly states 'gestützt auf Artikel 6 Absatz 1 der Mineralölpflichtlagerverordnung ... SR 531.215.41'; Article 6 paragraph 1 is directly and syntactically linked to SR 531.215.41."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "The reference 'nach Artikel 3 Buchstaben a–d' appears without any SR or acronym context and clearly refers to another article of the same ordinance; thus it is a self-reference within the current document, not tied to an external SR."
+  }
+]

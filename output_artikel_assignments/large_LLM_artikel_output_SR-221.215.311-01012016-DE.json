@@ -1,0 +1,261 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 101",
+    "assigned_articles": [
+      "Art. 110"
+    ],
+    "confidence": "high",
+    "reasoning": "INSIDE_AUTHORIALNOTE states: 'Dieser Bestimmung entspricht Art. 110 der Bundesverfassung ... (SR 101)'; Art. 110 is explicitly tied to SR 101."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 220",
+    "assigned_articles": [
+      "Art. 323",
+      "Art. 357",
+      "Art. 341 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet and INSIDE_AUTHORIALNOTE link 'Artikel 323 des Obligationenrechts' to SR 220 and explain that this former Art. 323 corresponds today to Art. 357 and Art. 341 Abs. 1; all three are explicitly associated with SR 220."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 220",
+    "assigned_articles": [
+      "Art. 323ter",
+      "Art. 357b"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet refers to 'Artikel 323ter des Obligationenrechts' and the authorial note clarifies that this article corresponds today to Art. 357b; both are clearly tied to SR 220."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_1_a",
+    "TARGET_SR": "SR 220",
+    "assigned_articles": [
+      "Art. 360b"
+    ],
+    "confidence": "high",
+    "reasoning": "The sentence 'nach Artikel 360b des Obligationenrechts SR 220' directly links Art. 360b to SR 220."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": "SR 220",
+    "assigned_articles": [
+      "Art. 323quater",
+      "Art. 358"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet mentions 'Artikel 323quater des Obligationenrechts' and the note states that this corresponds today to Art. 358; both are explicitly associated with SR 220."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": "SR 220",
+    "assigned_articles": [
+      "Art. 323ter Abs. 1 Bst. b",
+      "Art. 357b Abs. 1 Bst. b"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet cites 'Artikel 323ter Absatz 1 Buchstabe b des Obligationenrechts' and the note explains that this corresponds today to 'Art. 357b Abs. 1 Bst. b'; both are clearly tied to SR 220."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": "SR 220",
+    "assigned_articles": [
+      "Art. 323",
+      "Art. 357",
+      "Art. 341 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet refers to 'Artikel 323 des Obligationenrechts' and the note states that this former article corresponds today to Art. 357 and Art. 341 Abs. 1; all are explicitly linked to SR 220."
+  },
+  {
+    "ITEM": 8,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": "SR 220",
+    "assigned_articles": [
+      "Art. 323ter Abs. 1",
+      "Art. 357b Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet mentions 'Artikel 323ter Absatz 1 des Obligationenrechts' and the note clarifies that this corresponds today to 'Art. 357b Abs. 1'; both are clearly associated with SR 220."
+  },
+  {
+    "ITEM": 9,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": "SR 220",
+    "assigned_articles": [
+      "Art. 323ter Abs. 1 Bst. b",
+      "Art. 357b Abs. 1 Bst. b"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet cites 'Artikel 323ter Absatz 1 Buchstabe b des Obligationenrechts' and the note states that this corresponds today to 'Art. 357b Abs. 1 Bst. b'; both are explicitly tied to SR 220."
+  },
+  {
+    "ITEM": 10,
+    "ARTICLE_EID": "art_15",
+    "TARGET_SR": "SR 281.1",
+    "assigned_articles": [
+      "Art. 80"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet: 'gerichtlichen Urteilen im Sinne von Artikel 80 des Schuldbetreibungs- und Konkursgesetzes SR 281.1'; Art. 80 is directly and uniquely linked to SR 281.1."
+  },
+  {
+    "ITEM": 11,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "Artikel 323 and 323ter are mentioned without an SR marker in this snippet; the same sentence appears with explicit SR 220 in SR_link_detection items 2 and 3. Here, as an artikel_reference item, it functions as a cross-reference within the current document context, not as a new SR link."
+  },
+  {
+    "ITEM": 12,
+    "ARTICLE_EID": "art_1_a",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "Artikel 360b des Obligationenrechts is cited without an SR marker in this artikel_reference snippet; the corresponding SR linkage to SR 220 is already captured in SR_link_detection item 4. This item represents an internal cross-reference only."
+  },
+  {
+    "ITEM": 13,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "Reference 'nach Artikel 1a' clearly points to Art. 1a of the same act; no external SR or acronym context is present, so it is a self-reference within the current document."
+  },
+  {
+    "ITEM": 14,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "Artikel 323quater des Obligationenrechts appears here without explicit SR; the external linkage to SR 220 and Art. 323quater is already handled in SR_link_detection item 5. This occurrence is treated as an internal cross-reference."
+  },
+  {
+    "ITEM": 15,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "Artikel 323ter Absatz 1 Buchstabe b des Obligationenrechts is mentioned without SR; the external SR 220 linkage is already captured in SR_link_detection item 6. Here it functions as an internal reference in the article text."
+  },
+  {
+    "ITEM": 16,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "Artikel 323 and 323ter des Obligationenrechts are cited without SR markers; their association with SR 220 is already covered in SR_link_detection items 7 and 8. This snippet is an internal cross-reference."
+  },
+  {
+    "ITEM": 17,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "Artikel 323ter Absatz 1 Buchstabe b des Obligationenrechts is referenced without SR; the external SR 220 linkage is already handled in SR_link_detection item 9. This is a self-reference within the document."
+  },
+  {
+    "ITEM": 18,
+    "ARTICLE_EID": "art_8",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "The phrase 'gemäss den Artikeln 2 und 3' clearly refers to Articles 2 and 3 of the same act; no SR or external law is mentioned, so this is purely internal."
+  },
+  {
+    "ITEM": 19,
+    "ARTICLE_EID": "art_11",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "Reference to 'Artikel 2 Ziffern 1 und 2' is to provisions within the same statute; there is no SR or external law context, so it is an internal cross-reference."
+  },
+  {
+    "ITEM": 20,
+    "ARTICLE_EID": "art_13",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "The phrase 'Artikel 18 Absatz 2' refers to another article of the same law; no external SR is mentioned, so this is an internal reference."
+  },
+  {
+    "ITEM": 21,
+    "ARTICLE_EID": "art_14",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "References to 'Artikeln 17 und 18' are clearly to internal articles of the same act; there is no SR or external law indicated."
+  },
+  {
+    "ITEM": 22,
+    "ARTICLE_EID": "art_15",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "Artikel 80 des Schuldbetreibungs- und Konkursgesetzes is mentioned here without SR; the external SR 281.1 linkage is already captured in SR_link_detection item 10. This occurrence is treated as an internal cross-reference in the article text."
+  },
+  {
+    "ITEM": 23,
+    "ARTICLE_EID": "art_18",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "References to 'Artikel 5 Absatz 1' and 'Artikel 5 Absatz 2' clearly concern provisions of the same statute; no external SR is present, so these are internal references."
+  },
+  {
+    "ITEM": 24,
+    "ARTICLE_EID": "art_20",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "The ranges 'Artikeln 8–11 und 14–18' and 'Artikeln 5 Absatz 2 und 6' all refer to articles within the same act; there is no external SR context, so they are internal cross-references."
+  },
+  {
+    "ITEM": 25,
+    "ARTICLE_EID": "art_20",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "References to 'Artikeln 5 Absatz 2 und 6' again concern internal provisions of the same law; no SR or external law is mentioned, so this is an internal reference."
+  }
+]

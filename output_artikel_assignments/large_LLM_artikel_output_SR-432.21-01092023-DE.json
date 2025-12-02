@@ -1,0 +1,32 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 101",
+    "assigned_articles": [
+      "Art. 69 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Formulierung «gestützt auf Artikel 69 Absatz 2 der Bundesverfassung SR 101» verknüpft den genannten Artikel syntaktisch eindeutig mit SR 101."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_12",
+    "TARGET_SR": "SR 616.1",
+    "assigned_articles": [
+      "Art. 16 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Snippet steht «im Sinne von Artikel 16 Absatz 2 des Subventionsgesetzes ... SR 616.1»; damit ist klar, dass Art. 16 Abs. 2 dem Subventionsgesetz SR 616.1 zugeordnet ist."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_12",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Interne Verweisung innerhalb des aktuellen Erlasses (Art. 16 Abs. 2 eines anderen Gesetzes wird erwähnt, aber ohne explizite SR-Zuordnung in diesem Snippet; die explizite SR-Zuordnung erfolgt bereits in ITEM 2)."
+    ],
+    "confidence": "high",
+    "reasoning": "Das Snippet wiederholt die Formulierung aus ITEM 2, jedoch ohne Nennung der SR-Nummer. Gemäss Vorgabe für artikel_reference ist dies primär als Selbst- bzw. interne Referenz zu behandeln, da die eigentliche SR-Zuordnung bereits in einem SR_link_detection-Item (ITEM 2) erfolgt."
+  }
+]

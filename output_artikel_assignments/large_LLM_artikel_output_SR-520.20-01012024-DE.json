@@ -1,0 +1,64 @@
+[
+  {
+    "Item": 1,
+    "SOURCE_ARTICLE_EID": "preamble",
+    "LINKED_SR": "SR 520.1",
+    "LINKED_ARTIKEL": [],
+    "RELATIONSHIP_TYPE": "SR_link_detection",
+    "ASSIGNMENT_TYPE": "general_reference",
+    "CONFIDENCE": "high",
+    "REASONING": "The snippet cites the Bevölkerungs- und Zivilschutzgesetz (BZG) with SR 520.1 in the preamble without mentioning any specific article; this is a general legal basis reference to the entire act."
+  },
+  {
+    "Item": 2,
+    "SOURCE_ARTICLE_EID": "art_1",
+    "LINKED_SR": "SR 520.1",
+    "LINKED_ARTIKEL": [
+      "Art. 67",
+      "Art. 61 Abs. 3"
+    ],
+    "RELATIONSHIP_TYPE": "preamble_acronym",
+    "ASSIGNMENT_TYPE": "specific_articles",
+    "CONFIDENCE": "high",
+    "REASONING": "The sentence explicitly refers to 'Schutzanlagen nach Artikel 67 BZG' and 'Liegestellen ... nach Artikel 61 Absatz 3 BZG'; both articles are directly and unambiguously linked to BZG (SR 520.1)."
+  },
+  {
+    "Item": 3,
+    "SOURCE_ARTICLE_EID": "art_3",
+    "LINKED_SR": "SR 520.1",
+    "LINKED_ARTIKEL": [
+      "Art. 46 Abs. 1 Bst. a",
+      "Art. 46 Abs. 2"
+    ],
+    "RELATIONSHIP_TYPE": "preamble_acronym",
+    "ASSIGNMENT_TYPE": "specific_articles",
+    "CONFIDENCE": "high",
+    "REASONING": "The snippet states 'gestützt auf Artikel 46 Absatz 1 Buchstabe a oder Absatz 2 BZG'; both provisions are clearly attributed to BZG (SR 520.1)."
+  },
+  {
+    "Item": 4,
+    "SOURCE_ARTICLE_EID": "art_12",
+    "LINKED_SR": "SR 520.1",
+    "LINKED_ARTIKEL": [
+      "Art. 83 Abs. 1",
+      "Art. 83 Abs. 4"
+    ],
+    "RELATIONSHIP_TYPE": "preamble_acronym",
+    "ASSIGNMENT_TYPE": "specific_articles",
+    "CONFIDENCE": "high",
+    "REASONING": "The text specifies 'Artikel 83 Absätze 1 und 4 BZG'; these are explicit references to two paragraphs of Art. 83 of BZG (SR 520.1)."
+  },
+  {
+    "Item": 5,
+    "SOURCE_ARTICLE_EID": "art_3",
+    "LINKED_SR": null,
+    "LINKED_ARTIKEL": [
+      "Art. 46 Abs. 1 Bst. a",
+      "Art. 46 Abs. 2"
+    ],
+    "RELATIONSHIP_TYPE": "artikel_reference",
+    "ASSIGNMENT_TYPE": "self_reference_within_document",
+    "CONFIDENCE": "high",
+    "REASONING": "This item repeats the same clause as Item 3 but without an explicit SR; it is an internal article reference within the current document’s context and not a new outgoing SR link."
+  }
+]

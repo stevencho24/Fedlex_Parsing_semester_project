@@ -1,0 +1,645 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": [
+      "Art. 2 Abs. 2",
+      "Art. 8 Abs. 1 Bst. a",
+      "Art. 2 Bst. a",
+      "Art. 130"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Präambel nennt ausdrücklich: «Artikel 2 Absatz 2, 8 Absatz 1 Buchstabe a, 2 Buchstabe a und 130 des Zollgesetzes … SR 631.0»; alle diese Artikel gehören daher zum Zollgesetz SR 631.0."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 192.12",
+    "assigned_articles": [
+      "Art. 2 Abs. 1 Bst. a",
+      "Art. 2 Abs. 1 Bst. b",
+      "Art. 2 Abs. 1 Bst. c",
+      "Art. 2 Abs. 1 Bst. i",
+      "Art. 2 Abs. 1 Bst. j",
+      "Art. 2 Abs. 1 Bst. k",
+      "Art. 2 Abs. 1 Bst. l",
+      "Art. 2 Abs. 1 Bst. m"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Satz definiert «internationale Organisation» als «institutionelle Begünstigte nach Artikel 2 Absatz 1 Buchstaben a, b, c, i, j, k, l und m des Gaststaatgesetzes … SR 192.12»; damit sind genau diese Buchstaben von Art. 2 Abs. 1 des Gaststaatgesetzes gemeint."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_18_a",
+    "TARGET_SR": "SR 192.12",
+    "assigned_articles": [
+      "Art. 2 Abs. 1 Bst. h"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Text: «… internationale Konferenzen nach Artikel 2 Absatz 1 Buchstabe h des Gaststaatgesetzes … SR 192.12»; eindeutig Verweis auf Art. 2 Abs. 1 Bst. h Gaststaatgesetz."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_22",
+    "TARGET_SR": "SR 631.01",
+    "assigned_articles": [
+      "Art. 14"
+    ],
+    "confidence": "high",
+    "reasoning": "Formulierung: «… werden gestützt auf Artikel 14 der Zollverordnung vom 1. November 2006 SR 631.01 abgabenfrei zugelassen.»; Art. 14 ist klar der Zollverordnung SR 631.01 zugeordnet."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_23",
+    "TARGET_SR": "SR 631.01",
+    "assigned_articles": [
+      "Art. 14"
+    ],
+    "confidence": "high",
+    "reasoning": "Identischer Satz wie bei ITEM 4; auch hier bezieht sich «Artikel 14 der Zollverordnung … SR 631.01» eindeutig auf Art. 14 SR 631.01."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_29",
+    "TARGET_SR": "SR 170.512.1",
+    "assigned_articles": [
+      "Art. 20 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Authorialnote-Text: «… in Anwendung von Art. 20 Abs. 2 der Publikationsverordnung … (SR 170.512.1)»; Art. 20 Abs. 2 ist grammatikalisch direkt mit der Publikationsverordnung SR 170.512.1 verknüpft."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_42",
+    "TARGET_SR": "SR 210",
+    "assigned_articles": [
+      "Art. 23 ff."
+    ],
+    "confidence": "high",
+    "reasoning": "Der Satz lautet: «… bestimmt sich dieser nach den Artikeln 23 ff. des Zivilgesetzbuches SR 210.»; dies ist ein Bereichsverweis auf Art. 23 ff. ZGB, ohne weitere Spezifizierung."
+  },
+  {
+    "ITEM": 8,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«Artikel 2 Absatz 1 Buchstaben a, b, c, i, j, k, l und m des Gaststaatgesetzes» verweist auf das Gaststaatgesetz, aber ohne Nennung von SR oder Akronym; im Kontext dieses Items (artikel_reference) ist dies kein neuer SR-Link, sondern eine Wiederholung des in ITEM 2 bereits erfassten externen Verweises. Hier wird nur der Artikel des fremden Gesetzes genannt, ohne explizite SR-Verknüpfung im Snippet; nach Vorgabe daher als Selbst-/interner Verweis zu behandeln."
+  },
+  {
+    "ITEM": 9,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 21",
+      "Art. 24",
+      "Art. 27–29"
+    ],
+    "confidence": "high",
+    "reasoning": "«… richtet sich nach den Bestimmungen der Artikel 21, 24 und 27–29.» bezieht sich offensichtlich auf Artikel derselben Verordnung; kein externes SR genannt, daher Selbstreferenz."
+  },
+  {
+    "ITEM": 10,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 3 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "«… ohne das in Artikel 3 Absatz 2 erwähnte besondere Anmeldeformular …»; kein SR oder anderes Gesetz genannt, somit interner Verweis auf Art. 3 Abs. 2 der eigenen Verordnung."
+  },
+  {
+    "ITEM": 11,
+    "ARTICLE_EID": "art_6",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 32"
+    ],
+    "confidence": "high",
+    "reasoning": "«Die Veräusserung solcher Gegenstände richtet sich nach Artikel 32.»; ohne externes SR, daher interner Verweis auf Art. 32 derselben Verordnung."
+  },
+  {
+    "ITEM": 12,
+    "ARTICLE_EID": "art_6",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 21",
+      "Art. 24",
+      "Art. 27–29"
+    ],
+    "confidence": "high",
+    "reasoning": "«… richtet sich nach den Artikeln 21, 24 und 27–29.»; wiederum nur interne Artikelangaben ohne SR, also Selbstreferenz."
+  },
+  {
+    "ITEM": 13,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 3",
+      "Art. 6"
+    ],
+    "confidence": "high",
+    "reasoning": "«… ist Artikel 3 auf Sendungen anwendbar, die an die in Artikel 6 genannten Personen adressiert sind.»; beide Artikel gehören zur gleichen Verordnung, kein externes SR."
+  },
+  {
+    "ITEM": 14,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": [
+      "Art. 36"
+    ],
+    "confidence": "high",
+    "reasoning": "«Das Recht auf Beschau nach Artikel 36 des Zollgesetzes vom 18. März 2005 bleibt vorbehalten.»; durch «des Zollgesetzes» ist Art. 36 klar dem Zollgesetz SR 631.0 zugeordnet."
+  },
+  {
+    "ITEM": 15,
+    "ARTICLE_EID": "art_9",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 32"
+    ],
+    "confidence": "high",
+    "reasoning": "«Die Veräusserung solcher Gegenstände richtet sich nach Artikel 32.»; kein anderes Gesetz erwähnt, daher interner Verweis."
+  },
+  {
+    "ITEM": 16,
+    "ARTICLE_EID": "art_9",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 23–25",
+      "Art. 27"
+    ],
+    "confidence": "high",
+    "reasoning": "«… richtet sich nach den Artikeln 23–25 und 27.»; reine interne Artikelangaben ohne SR."
+  },
+  {
+    "ITEM": 17,
+    "ARTICLE_EID": "art_10",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 7 Abs. 4"
+    ],
+    "confidence": "high",
+    "reasoning": "«Das Vorgehen richtet sich nach Artikel 7 Absatz 4.»; interner Verweis, kein externes Gesetz genannt."
+  },
+  {
+    "ITEM": 18,
+    "ARTICLE_EID": "art_10",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": [
+      "Art. 36"
+    ],
+    "confidence": "high",
+    "reasoning": "«Das Recht auf Beschau nach Artikel 36 des Zollgesetzes vom 18. März 2005 bleibt vorbehalten.»; wie bei ITEM 14 klarer Verweis auf Art. 36 Zollgesetz SR 631.0."
+  },
+  {
+    "ITEM": 19,
+    "ARTICLE_EID": "art_11",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 26"
+    ],
+    "confidence": "high",
+    "reasoning": "«… richtet sich nach Artikel 26.»; kein externes SR, daher interner Artikelverweis."
+  },
+  {
+    "ITEM": 20,
+    "ARTICLE_EID": "art_12",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 1–5"
+    ],
+    "confidence": "high",
+    "reasoning": "«… wenn die Artikel 1–5 eingehalten werden.»; Bereichsverweis innerhalb derselben Verordnung."
+  },
+  {
+    "ITEM": 21,
+    "ARTICLE_EID": "art_13",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 6 Abs. 1",
+      "Art. 8 Abs. 1 Bst. a",
+      "Art. 8 Abs. 4",
+      "Art. 8 Abs. 5"
+    ],
+    "confidence": "high",
+    "reasoning": "Klammerverweis «(Art. 6 Abs. 1 und 8 Abs. 1 Bst. a, 4 und 5)» ohne Nennung eines anderen Gesetzes; daher interne Artikel derselben Verordnung."
+  },
+  {
+    "ITEM": 22,
+    "ARTICLE_EID": "art_13",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 6 Abs. 2",
+      "Art. 8 Abs. 1 Bst. b",
+      "Art. 8 Abs. 2–5"
+    ],
+    "confidence": "high",
+    "reasoning": "Klammerverweis «(Art. 6 Abs. 2 und 8 Abs. 1 Bst. b und 2–5)»; wiederum interne Artikel, kein externes SR."
+  },
+  {
+    "ITEM": 23,
+    "ARTICLE_EID": "art_13",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 9"
+    ],
+    "confidence": "high",
+    "reasoning": "«… die in Artikel 9 vorgesehen sind.»; interner Verweis."
+  },
+  {
+    "ITEM": 24,
+    "ARTICLE_EID": "art_13",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 7",
+      "Art. 8",
+      "Art. 10"
+    ],
+    "confidence": "high",
+    "reasoning": "«Das Verfahren richtet sich nach den Artikeln 7, 8 und 10.»; interne Artikelangaben."
+  },
+  {
+    "ITEM": 25,
+    "ARTICLE_EID": "art_15",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 6 Abs. 1",
+      "Art. 8 Abs. 1 Bst. a",
+      "Art. 8 Abs. 4",
+      "Art. 8 Abs. 5"
+    ],
+    "confidence": "high",
+    "reasoning": "Klammerverweis «(Art. 6 Abs. 1 und 8 Abs. 1 Bst. a, 4 und 5)»; interne Artikel derselben Verordnung."
+  },
+  {
+    "ITEM": 26,
+    "ARTICLE_EID": "art_15",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 28",
+      "Art. 29"
+    ],
+    "confidence": "high",
+    "reasoning": "«… Treibstoff abgabenfrei zu beziehen (Art. 28 und 29).»; interne Artikelangaben."
+  },
+  {
+    "ITEM": 27,
+    "ARTICLE_EID": "art_16",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 28",
+      "Art. 29"
+    ],
+    "confidence": "high",
+    "reasoning": "«… Treibstoff abgabenfrei zu beziehen (Art. 28 und 29).»; ebenfalls interne Verweise."
+  },
+  {
+    "ITEM": 28,
+    "ARTICLE_EID": "art_17",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 14"
+    ],
+    "confidence": "high",
+    "reasoning": "«Es gilt Artikel 14.»; interner Verweis."
+  },
+  {
+    "ITEM": 29,
+    "ARTICLE_EID": "art_18",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 28",
+      "Art. 29"
+    ],
+    "confidence": "high",
+    "reasoning": "«… Treibstoff abgabenfrei zu beziehen (Art. 28 und 29).»; interne Artikel."
+  },
+  {
+    "ITEM": 30,
+    "ARTICLE_EID": "art_18",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 28",
+      "Art. 29"
+    ],
+    "confidence": "high",
+    "reasoning": "Gleiche Struktur wie ITEM 29; interne Verweise auf Art. 28 und 29."
+  },
+  {
+    "ITEM": 31,
+    "ARTICLE_EID": "art_18",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 28",
+      "Art. 29"
+    ],
+    "confidence": "high",
+    "reasoning": "«… Treibstoff abgabenfrei zu beziehen (Art. 28 und 29).»; wiederum interne Artikel."
+  },
+  {
+    "ITEM": 32,
+    "ARTICLE_EID": "art_18_a",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 17",
+      "Art. 18",
+      "Art. 2 Abs. 1 Bst. h"
+    ],
+    "confidence": "medium",
+    "reasoning": "«… finden die Artikel 17 und 18 analog auf internationale Konferenzen nach Artikel 2 Absatz 1 Buchstabe h des Gaststaatgesetzes … Anwendung.»; Art. 17 und 18 sind interne Artikel der Verordnung, Art. 2 Abs. 1 Bst. h gehört zum Gaststaatgesetz. Da hier kein SR explizit genannt ist und der item_type artikel_reference ist, werden alle als in diesem Kontext referenzierte Artikel aufgeführt, aber ohne Zuordnung zu einem TARGET_SR."
+  },
+  {
+    "ITEM": 33,
+    "ARTICLE_EID": "art_20",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 6 Abs. 1",
+      "Art. 8 Abs. 1 Bst. a",
+      "Art. 8 Abs. 4",
+      "Art. 8 Abs. 5"
+    ],
+    "confidence": "high",
+    "reasoning": "Klammerverweis «(Art. 6 Abs. 1 und 8 Abs. 1 Bst. a, 4 und 5)»; interne Artikel."
+  },
+  {
+    "ITEM": 34,
+    "ARTICLE_EID": "art_20",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 28",
+      "Art. 29"
+    ],
+    "confidence": "high",
+    "reasoning": "«… Treibstoff abgabenfrei zu beziehen (Art. 28 und 29).»; interne Verweise."
+  },
+  {
+    "ITEM": 35,
+    "ARTICLE_EID": "art_21",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 1 Abs. 1",
+      "Art. 1 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "«Für Motorräder, Kleinmotorräder und Motorfahrräder gilt Artikel 1 Absätze 1 und 2.»; interner Verweis."
+  },
+  {
+    "ITEM": 36,
+    "ARTICLE_EID": "art_22",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 6",
+      "Art. 13 Abs. 1",
+      "Art. 13 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "«Die in den Artikeln 6 und 13 Absätze 1 und 2 genannten Personen …»; interne Artikelangaben."
+  },
+  {
+    "ITEM": 37,
+    "ARTICLE_EID": "art_22",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 24 Abs. 3",
+      "Art. 21",
+      "Art. 22"
+    ],
+    "confidence": "high",
+    "reasoning": "«… die Abtretung gemäss Artikel 24 Absatz 3 oder die endgültige Wiederausfuhr eines nach den Artikeln 21 und 22 abgabenfrei zugelassenen Motorfahrzeugs …»; alles interne Verweise."
+  },
+  {
+    "ITEM": 38,
+    "ARTICLE_EID": "art_22",
+    "TARGET_SR": "SR 631.01",
+    "assigned_articles": [
+      "Art. 14"
+    ],
+    "confidence": "high",
+    "reasoning": "«… werden gestützt auf Artikel 14 der Zollverordnung vom 1. November 2006 abgabenfrei zugelassen.»; in Verbindung mit den SR_link_detection-Items 4 und 5 ist klar, dass dieser Art. 14 zur Zollverordnung SR 631.01 gehört."
+  },
+  {
+    "ITEM": 39,
+    "ARTICLE_EID": "art_22",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 6 Abs. 1",
+      "Art. 6 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "«Für Motorräder, Kleinmotorräder und Motorfahrräder gilt Artikel 6 Absätze 1 und 2.»; interner Verweis."
+  },
+  {
+    "ITEM": 40,
+    "ARTICLE_EID": "art_23",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 9",
+      "Art. 13 Abs. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "«Die in den Artikeln 9 und 13 Absatz 3 genannten Personen …»; interne Artikel."
+  },
+  {
+    "ITEM": 41,
+    "ARTICLE_EID": "art_23",
+    "TARGET_SR": "SR 631.01",
+    "assigned_articles": [
+      "Art. 14"
+    ],
+    "confidence": "high",
+    "reasoning": "Gleicher Wortlaut wie bei ITEM 38/4/5; Art. 14 der Zollverordnung vom 1. November 2006 ist Art. 14 SR 631.01."
+  },
+  {
+    "ITEM": 42,
+    "ARTICLE_EID": "art_23",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 9 Abs. 1",
+      "Art. 9 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "«Für Motorräder, Kleinmotorräder und Motorfahrräder gilt Artikel 9 Absätze 1 und 2.»; interner Verweis."
+  },
+  {
+    "ITEM": 43,
+    "ARTICLE_EID": "art_24",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 21–23"
+    ],
+    "confidence": "high",
+    "reasoning": "«… gestützt auf die Artikel 21–23 …»; Bereichsverweis innerhalb derselben Verordnung."
+  },
+  {
+    "ITEM": 44,
+    "ARTICLE_EID": "art_24",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 21",
+      "Art. 22",
+      "Art. 23"
+    ],
+    "confidence": "high",
+    "reasoning": "«Nach den Artikeln 21, 22 oder 23 abgabenfrei zugelassene Motorfahrzeuge …»; interne Artikel."
+  },
+  {
+    "ITEM": 45,
+    "ARTICLE_EID": "art_25",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 22",
+      "Art. 23"
+    ],
+    "confidence": "high",
+    "reasoning": "«… eines nach Artikel 22 oder 23 abgabenfrei zugelassenen Motorfahrzeugs …»; interne Verweise."
+  },
+  {
+    "ITEM": 46,
+    "ARTICLE_EID": "art_25",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 24 Abs. 4"
+    ],
+    "confidence": "high",
+    "reasoning": "«… können die in Artikel 24 Absatz 4 vorgesehenen Ermässigungen gewährt werden.»; interner Verweis."
+  },
+  {
+    "ITEM": 47,
+    "ARTICLE_EID": "art_26",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 17",
+      "Art. 18"
+    ],
+    "confidence": "high",
+    "reasoning": "«… die von den in den Artikeln 17 und 18 bezeichneten … eingeführt werden …»; interne Artikel."
+  },
+  {
+    "ITEM": 48,
+    "ARTICLE_EID": "art_26",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 24 Abs. 4"
+    ],
+    "confidence": "high",
+    "reasoning": "«Artikel 24 Absatz 4 ist auf solche Fahrzeuge nicht anwendbar.»; interner Verweis."
+  },
+  {
+    "ITEM": 49,
+    "ARTICLE_EID": "art_27",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 21",
+      "Art. 22",
+      "Art. 23",
+      "Art. 26"
+    ],
+    "confidence": "high",
+    "reasoning": "«Ist ein nach den Artikeln 21, 22, 23 oder 26 abgabenfrei zugelassenes Motorfahrzeug …»; interne Artikel."
+  },
+  {
+    "ITEM": 50,
+    "ARTICLE_EID": "art_28",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 18 Abs. 1",
+      "Art. 18 Abs. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "«… die in Artikel 18 Absätze 1 und 3 genannten Beamten …»; interner Verweis."
+  },
+  {
+    "ITEM": 51,
+    "ARTICLE_EID": "art_28",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 15 Abs. 1",
+      "Art. 18 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "«… die in den Artikeln 15 Absatz 1 und 18 Absatz 2 genannten Vorsitzenden …»; interne Artikel."
+  },
+  {
+    "ITEM": 52,
+    "ARTICLE_EID": "art_28",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 15 Abs. 2",
+      "Art. 15 Abs. 3",
+      "Art. 18 Abs. 5"
+    ],
+    "confidence": "high",
+    "reasoning": "«… die in Artikel 15 Absatz 2 genannten Delegationschefs sowie die in den Artikeln 15 Absatz 3 und 18 Absatz 5 genannten Delegierten …»; interne Verweise."
+  },
+  {
+    "ITEM": 53,
+    "ARTICLE_EID": "art_28",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 16 Abs. 2",
+      "Art. 18 Abs. 8"
+    ],
+    "confidence": "high",
+    "reasoning": "«… die mit Missionen der internationalen Organisationen betrauten Experten (Art. 16 Abs. 2 und 18 Abs. 8);»; interne Artikel."
+  },
+  {
+    "ITEM": 54,
+    "ARTICLE_EID": "art_28",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 20 Abs. 1",
+      "Art. 20 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "«… die in Artikel 20 Absätze 1 und 2 genannten Chefs und Mitglieder von Sondermissionen …»; interne Verweise."
+  },
+  {
+    "ITEM": 55,
+    "ARTICLE_EID": "art_29",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 28 Bst. e–h"
+    ],
+    "confidence": "high",
+    "reasoning": "«… für die in Artikel 28 Buchstaben e–h genannten Berechtigten …»; interner Verweis auf Art. 28 Bst. e–h."
+  },
+  {
+    "ITEM": 56,
+    "ARTICLE_EID": "art_29",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 28 Bst. e–h",
+      "Art. 28 Bst. i"
+    ],
+    "confidence": "high",
+    "reasoning": "«… für die in Artikel 28 Buchstaben e–h genannten Berechtigten …, 4. für die Berechtigten nach Artikel 28 Buchstabe i;»; interne Verweise."
+  },
+  {
+    "ITEM": 57,
+    "ARTICLE_EID": "art_32",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 6 Abs. 1",
+      "Art. 6 Abs. 2",
+      "Art. 8 Abs. 1 Bst. b",
+      "Art. 8 Abs. 2–4",
+      "Art. 9"
+    ],
+    "confidence": "high",
+    "reasoning": "«… die nach den Artikeln 6 Absätze 1 und 2, 8 Absätze 1 Buchstabe b und 2–4 und Artikel 9 abgabenfrei zugelassenen Gegenstände …»; interne Artikel."
+  },
+  {
+    "ITEM": 58,
+    "ARTICLE_EID": "art_42",
+    "TARGET_SR": "SR 210",
+    "assigned_articles": [
+      "Art. 23 ff."
+    ],
+    "confidence": "high",
+    "reasoning": "«… bestimmt sich dieser nach den Artikeln 23 ff. des Zivilgesetzbuches.»; in Verbindung mit ITEM 7 ist klar, dass dies Art. 23 ff. ZGB (SR 210) meint."
+  }
+]

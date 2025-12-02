@@ -1,0 +1,35 @@
+[
+  {
+    "Item": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 531",
+    "assigned_articles": [
+      "Art. 7 Abs. 1",
+      "Art. 8 Abs. 2",
+      "Art. 57 Abs. 1",
+      "Art. 60 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet explicitly cites 'Artikel 7 Absatz 1, 8 Absatz 2, 57 Absatz 1 und 60 Absatz 2 des Landesversorgungsgesetzes ... SR 531 (LVG)'; these articles are directly and syntactically linked to SR 531."
+  },
+  {
+    "Item": 2,
+    "ARTICLE_EID": "art_6",
+    "TARGET_SR": "SR 531",
+    "assigned_articles": [
+      "Art. 16 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "The phrase '(Art. 16 Abs. 1 LVG)' directly follows the article number and acronym LVG, which the preamble maps to SR 531; thus Art. 16 Abs. 1 belongs to SR 531."
+  },
+  {
+    "Item": 3,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet 'Verpflichtungen nach Artikel 2 Absatz 3 Buchstabe b' contains an article reference without any SR or acronym context; by the rules this is a self-reference to another article within the same document, not to an external SR."
+  }
+]

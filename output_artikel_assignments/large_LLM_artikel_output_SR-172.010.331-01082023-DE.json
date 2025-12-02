@@ -1,0 +1,33 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 172.010",
+    "assigned_articles": [
+      "Art. 43 Abs. 2",
+      "Art. 47 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet explicitly states: 'gestützt auf die Artikel 43 Absatz 2 und 47 Absatz 2 des Regierungs- und Verwaltungsorganisationsgesetzes ... SR 172.010 (RVOG)'; both articles are directly and syntactically linked to SR 172.010."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet only refers to 'Artikel 2 Absatz 1', 'Artikel 2 Absatz 2' and 'Artikel 2 Absatz 1 Buchstabe e' without any SR or external law indication; these are self-references to articles of the same ordinance."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "The phrase 'Verwaltungseinheiten nach Artikel 2' contains an isolated article mention with no SR or external law context; it clearly refers to Article 2 of the same document, i.e., an internal cross-reference."
+  }
+]

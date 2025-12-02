@@ -1,0 +1,84 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 220",
+    "assigned_articles": [
+      "Art. 202 Abs. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Formulierung \"in Ausführung von Artikel 202 Absatz 3 des Obligationenrechts (OR) SR 220\" verweist ausdrücklich auf Art. 202 Abs. 3 OR; dies ist der einzige genannte Artikel des OR im Zusammenhang mit SR 220."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": "SR 173.110.3",
+    "assigned_articles": [
+      "Art. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Einschub steht: \"(Art. 1 des BG vom 21. Juni 1963 über den Fristenlauf an Samstagen – SR 173.110.3)\"; damit ist klar, dass Art. 1 dieses Bundesgesetzes (SR 173.110.3) gemeint ist."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_9",
+    "TARGET_SR": "SR 272",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Zivilprozessordnung wird nur als Ganzes genannt (\"nach der Zivilprozessordnung vom 19. Dezember 2008 SR 272 (ZPO)\") ohne konkrete Artikelangabe; daher handelt es sich um eine generelle Verweisung auf die ZPO insgesamt."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_15",
+    "TARGET_SR": "SR 272",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "medium",
+    "reasoning": "Der Satz lautet: \"Auf die Gewährleistungsprozesse der Artikel 2 und 3 ist die ZPO SR 272 anwendbar.\" Es wird kein bestimmter Artikel der ZPO genannt, sondern die ZPO als anwendbares Verfahrensrecht insgesamt; mangels Spezifizierung wird dies als generelle Verweisung auf die ZPO gewertet."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 220",
+    "assigned_articles": [
+      "Art. 198"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Snippet steht: \"(Art. 198 OR)\"; das OR ist über das Preambel-Akronym eindeutig SR 220 zugeordnet, somit bezieht sich die Verweisung auf Art. 198 OR (SR 220)."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": "SR 220",
+    "assigned_articles": [
+      "Art. 91 ff.",
+      "Art. 202 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Text enthält zwei explizite OR-Verweise: \"(Art. 91ff. OR)\" und \"(Art. 202 Abs. 1 OR)\". Über das Preambel-Akronym ist OR = SR 220, daher sind Art. 91 ff. OR und Art. 202 Abs. 1 OR den Artikeln von SR 220 zuzuordnen."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_17",
+    "TARGET_SR": "SR 220",
+    "assigned_articles": [
+      "Art. 237",
+      "Art. 238"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Snippet steht: \"(Art. 237 und 238 OR)\"; OR ist über das Preambel-Akronym SR 220, somit verweisen diese Nennungen auf Art. 237 und Art. 238 OR (SR 220)."
+  },
+  {
+    "ITEM": 8,
+    "ARTICLE_EID": "art_6",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Satz \"Auf Begehren des Käufers (Art. 2 Abs. 1 und Art. 3) ...\" nennt Artikel ohne Gesetzesabkürzung oder SR-Nummer; sie beziehen sich daher auf Artikel 2 und 3 derselben Verordnung (Selbstverweisung) und nicht auf ein externes SR-Dokument."
+  }
+]

@@ -1,0 +1,114 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 946.231",
+    "assigned_articles": [
+      "Art. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet explicitly states 'gestützt auf Artikel 2 des Embargogesetzes ... SR 946.231 (EmbG)', directly linking Art. 2 to SR 946.231."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": "SR 142.204",
+    "assigned_articles": [
+      "Art. 38"
+    ],
+    "confidence": "high",
+    "reasoning": "The text says 'nach Artikel 38 der Verordnung ... SR 142.204 über die Einreise und die Visumerteilung', clearly attributing Art. 38 to SR 142.204."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": "SR 946.231",
+    "assigned_articles": [
+      "Art. 9",
+      "Art. 10"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet refers to 'Artikel 9 EmbG', 'Artikel 10 EmbG' and 'Artikeln 9 und 10 EmbG'. EmbG is defined in the preamble as SR 946.231, so these are Art. 9 and Art. 10 of SR 946.231."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet mentions 'Artikel 38 der Verordnung ... über die Einreise und die Visumerteilung' but without an SR marker here; the SR linkage is handled in ITEM 2. As an artikel_reference item without explicit SR, this is treated as an internal structural reference for this task."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "Refers to 'Artikel 2 und 4' with no SR or acronym; by the rules this is a self-reference to articles within the same ordinance."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "Refers to 'Artikel 3' only, with no SR context; this is an internal cross-reference within the same document."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_6",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "Mentions 'Artikel 2 Absatz 1' without any SR or acronym; per rules this is a self-reference to the ordinance’s own Art. 2 Abs. 1."
+  },
+  {
+    "ITEM": 8,
+    "ARTICLE_EID": "art_6",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "Mentions 'Artikel 2 Absatz 3ter' with no SR context; this is an internal reference to another provision of the same ordinance."
+  },
+  {
+    "ITEM": 9,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": "SR 946.231",
+    "assigned_articles": [
+      "Art. 9"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet says 'wird nach Artikel 9 EmbG bestraft'; EmbG is mapped to SR 946.231, so this is Art. 9 of SR 946.231."
+  },
+  {
+    "ITEM": 10,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": "SR 946.231",
+    "assigned_articles": [
+      "Art. 10"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet says 'wird nach Artikel 10 EmbG bestraft'; EmbG refers to SR 946.231, so this is Art. 10 of SR 946.231."
+  },
+  {
+    "ITEM": 11,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": "SR 946.231",
+    "assigned_articles": [
+      "Art. 9",
+      "Art. 10"
+    ],
+    "confidence": "high",
+    "reasoning": "The text 'Verstösse nach den Artikeln 9 und 10 EmbG' clearly refers to Arts. 9 and 10 of EmbG, which is SR 946.231."
+  }
+]

@@ -1,0 +1,42 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 814.91",
+    "assigned_articles": [
+      "Art. 22 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet explicitly states: 'gestützt auf Artikel 22 Absatz 1 des Gentechnikgesetzes ... SR 814.91'; the article and paragraph are directly and syntactically linked to SR 814.91."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 172.010",
+    "assigned_articles": [
+      "Art. 57c Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet states: '... und auf Artikel 57c Absatz 2 des Regierungs- und Verwaltungsorganisationsgesetzes ... SR 172.010'; the cited article and paragraph are directly attributed to SR 172.010."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 172.010.1",
+    "assigned_articles": [
+      "Art. 8a Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "The sentence reads: '... im Sinne von Artikel 8a Absatz 2 der Regierungs- und Verwaltungsorganisationsverordnung ... SR 172.010.1.' The article reference is in the same clause and clearly linked to SR 172.010.1."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 8a Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "This is an artikel_reference without explicit SR; it repeats the self-reference 'Artikel 8a Absatz 2 der Regierungs- und Verwaltungsorganisationsverordnung'. It refers to another article of the cited ordinance, functioning as an internal cross-reference rather than an outgoing SR link."
+  }
+]

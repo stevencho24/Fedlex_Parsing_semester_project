@@ -1,0 +1,73 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 112.1",
+    "assigned_articles": [
+      "Ziff. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet explicitly cites 'SR 112.1 Ziff. 2' in the authorial note; no other article or paragraph numbers are mentioned in connection with SR 112.1."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_8",
+    "TARGET_SR": "SR 112.1",
+    "assigned_articles": [
+      "Ziff. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "The authorial note reads 'SR 112.1 Ziff. 2', clearly indicating that the reference is to number 2 within SR 112.1; no additional or different article identifiers are present."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 6"
+    ],
+    "confidence": "high",
+    "reasoning": "The phrase 'im Artikel 6 von der Einwohnergemeinde reservierten Einrichtungen' is an internal cross-reference within the same document; no external SR or acronym is mentioned, so this is a self-reference to Art. 6 of the current act."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 5"
+    ],
+    "confidence": "high",
+    "reasoning": "The text refers to 'Artikel 5 der Übereinkunft vom 29. Januar 1872 zwischen Staat und Gemeinde Bern'. This is an article of another agreement identified only by date and parties, not by an SR number; under the rules, without an SR context this is treated as an internal/other-document reference, not assignable to a TARGET_SR."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "The phrase 'der ihr durch Artikel 3 eingeräumten Befugnis' clearly refers to Art. 3 of the same document; there is no SR citation or external law mentioned in the same syntactic unit."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 1",
+      "Art. 4"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet mentions 'im Artikel 1 Buchstaben a, b, c' and 'im ersten und zweiten Absatz des Artikels 4'; both are structural references within the same act, with no external SR or acronym present."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "The phrase 'die im Artikel 2 vorgesehene Summe' is a cross-reference to Art. 2 of the same document; again, no SR or external law is cited in the sentence."
+  }
+]

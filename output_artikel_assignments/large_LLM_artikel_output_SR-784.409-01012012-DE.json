@@ -1,0 +1,135 @@
+[
+  {
+    "Item": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 784.40",
+    "assigned_articles": [
+      "Art. 85 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Formulierung «gestützt auf Artikel 85 Absatz 2 … SR 784.40 … (RTVG)» verknüpft den Artikel eindeutig mit dem RTVG."
+  },
+  {
+    "Item": 2,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": "SR 152.3",
+    "assigned_articles": [
+      "Art. 10 ff."
+    ],
+    "confidence": "high",
+    "reasoning": "«… im Sinne von Artikel 10 ff. des Öffentlichkeitsgesetzes … SR 152.3» nennt explizit Art. 10 ff. dieses Gesetzes."
+  },
+  {
+    "Item": 3,
+    "ARTICLE_EID": "art_9",
+    "TARGET_SR": "SR 172.021",
+    "assigned_articles": [
+      "Art. 10"
+    ],
+    "confidence": "high",
+    "reasoning": "«… gemäss Artikel 10 des Bundesgesetzes … SR 172.021 … (VwVG)» verweist klar auf Art. 10 VwVG."
+  },
+  {
+    "Item": 4,
+    "ARTICLE_EID": "art_20",
+    "TARGET_SR": "SR 172.021",
+    "assigned_articles": [
+      "Art. 71"
+    ],
+    "confidence": "high",
+    "reasoning": "«… gemäss Artikel 71 VwVG SR 172.021» verknüpft Art. 71 eindeutig mit dem VwVG."
+  },
+  {
+    "Item": 5,
+    "ARTICLE_EID": "art_11",
+    "TARGET_SR": "SR 784.40",
+    "assigned_articles": [
+      "Art. 97 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "«… Beratung gemäss Artikel 97 Absatz 1 RTVG»; RTVG ist SR 784.40 gemäss Präambel."
+  },
+  {
+    "Item": 6,
+    "ARTICLE_EID": "art_17",
+    "TARGET_SR": "SR 784.40",
+    "assigned_articles": [
+      "Art. 93 Abs. 5"
+    ],
+    "confidence": "high",
+    "reasoning": "«… Antrag stellt … (Art. 93 Abs. 5 RTVG)»; RTVG = SR 784.40."
+  },
+  {
+    "Item": 7,
+    "ARTICLE_EID": "art_18",
+    "TARGET_SR": "SR 784.40",
+    "assigned_articles": [
+      "Art. 91 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "«… Ombudsstellen … gemäss Artikel 91 Absatz 1 RTVG»; RTVG = SR 784.40."
+  },
+  {
+    "Item": 8,
+    "ARTICLE_EID": "art_19",
+    "TARGET_SR": "SR 784.40",
+    "assigned_articles": [
+      "Art. 92",
+      "Art. 93"
+    ],
+    "confidence": "high",
+    "reasoning": "«… Beanstandungsverfahren im Sinne der Artikel 92 und 93 RTVG» nennt beide Artikel ausdrücklich."
+  },
+  {
+    "Item": 9,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Interne Verweisung innerhalb des aktuellen Erlasses oder auf bereits zugewiesene SR-Referenz; kein neuer externer SR-Bezug."
+    ],
+    "confidence": "high",
+    "reasoning": "Der Satz wiederholt den bereits bei Item 2 mit SR 152.3 verknüpften Verweis auf Art. 10 ff. Öffentlichkeitsgesetz; als artikel_reference dient er nur der internen Struktur, kein zusätzlicher SR-Zuordnungsbedarf."
+  },
+  {
+    "Item": 10,
+    "ARTICLE_EID": "art_9",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Interne Verweisung innerhalb des aktuellen Erlasses oder auf bereits zugewiesene SR-Referenz; kein neuer externer SR-Bezug."
+    ],
+    "confidence": "high",
+    "reasoning": "Der Text entspricht inhaltlich Item 3, wo Art. 10 VwVG bereits SR 172.021 zugeordnet wurde; hier nur Wiederholung als artikel_reference."
+  },
+  {
+    "Item": 11,
+    "ARTICLE_EID": "art_15",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 11 Abs. 1 (Selbstverweisung innerhalb des aktuellen Erlasses)"
+    ],
+    "confidence": "high",
+    "reasoning": "«… gemäss Artikel 11 Absatz 1» ohne Gesetzesangabe; syntaktisch klar als Verweis auf einen eigenen Artikel des Erlasses, kein externer SR-Bezug."
+  },
+  {
+    "Item": 12,
+    "ARTICLE_EID": "art_18",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 12 Abs. 1 (Selbstverweisung innerhalb des aktuellen Erlasses)"
+    ],
+    "confidence": "high",
+    "reasoning": "«… richten sich nach Artikel 12 Absatz 1» ohne Nennung eines Gesetzes; typische interne Strukturverweisung."
+  },
+  {
+    "Item": 13,
+    "ARTICLE_EID": "art_20",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 8",
+      "Art. 9",
+      "Art. 12–16 (Selbstverweis-Bereich innerhalb des aktuellen Erlasses)"
+    ],
+    "confidence": "high",
+    "reasoning": "«Die Verfahrensregeln nach den Artikeln 8, 9 und 12–16» nennt nur Artikelnummern ohne Gesetz; dies sind interne Artikel des gleichen Erlasses, kein externer SR-Bezug."
+  }
+]

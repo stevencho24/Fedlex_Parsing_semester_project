@@ -1,0 +1,32 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 101",
+    "assigned_articles": [
+      "Art. 66"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet explicitly cites 'Artikel 66 der Bundesverfassung SR 101'; the article number is directly linked to the cited SR document."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_6",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet refers to 'Artikel 4' without mentioning any SR or external act; by the project rules this is a self-reference to another article of the same document, not to an external SR."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_9",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet refers to 'Artikel 2 Absatz 1' with no SR or external law indicated; syntactically and contextually this is an internal cross-reference within the same act."
+  }
+]

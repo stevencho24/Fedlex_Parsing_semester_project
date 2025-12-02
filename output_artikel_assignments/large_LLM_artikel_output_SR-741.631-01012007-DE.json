@@ -1,0 +1,75 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 741.01",
+    "assigned_articles": [
+      "Art. 8",
+      "Art. 57",
+      "Art. 103",
+      "Art. 106"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet explicitly cites 'Artikel 8, 57, 103 und 106 des Strassenverkehrsgesetzes ... SR 741.01'; these articles are directly and syntactically linked to SR 741.01."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 741.41",
+    "assigned_articles": [
+      "Anhang 4"
+    ],
+    "confidence": "high",
+    "reasoning": "The phrase 'Zeichen nach Anhang 4 der Verordnung ... SR 741.41' directly links Annex 4 to SR 741.41; no numbered article is mentioned, only the annex."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": "SR 741.41",
+    "assigned_articles": [
+      "Anhang 4"
+    ],
+    "confidence": "high",
+    "reasoning": "The text 'Zeichen nach Anhang 4 VTS SR 741.41' syntactically connects Annex 4 with SR 741.41 via the acronym VTS; again only the annex, no specific article number."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": "SR 311.0",
+    "assigned_articles": [
+      "Art. 333"
+    ],
+    "confidence": "high",
+    "reasoning": "Inside the authorial note: 'Fassung gemäss Art. 333 des Strafgesetzbuches (SR 311.0)'; Art. 333 is explicitly and directly attributed to SR 311.0."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": "SR 741.631",
+    "assigned_articles": [
+      "Art. 1 Abs. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "Artikelreferenz within the same document: 'Betrieben nach Artikel 1 Absatz 3' clearly refers to Art. 1 Abs. 3 of the current ordinance (SR 741.631), not to an external SR."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": "SR 741.631",
+    "assigned_articles": [
+      "Art. 1 Abs. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "Phrase 'Betriebs gemäss Artikel 1 Absatz 3' is an internal cross-reference to Art. 1 Abs. 3 of the same ordinance (SR 741.631); no external SR is mentioned."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": "SR 741.631",
+    "assigned_articles": [
+      "Art. 1 Abs. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "The requirement 'Nachweis gemäss Artikel 1 Absatz 3' again points internally to Art. 1 Abs. 3 of the current document (SR 741.631); syntactically isolated from any other SR."
+  }
+]

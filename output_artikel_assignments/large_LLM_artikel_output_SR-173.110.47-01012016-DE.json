@@ -1,0 +1,53 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 173.110",
+    "assigned_articles": [
+      "Art. 112 Abs. 4"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet explicitly states 'gestützt auf Artikel 112 Absatz 4 des Bundesgerichtsgesetzes ... SR 173.110 (BGG)'; the article number and paragraph are directly and uniquely linked to SR 173.110."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": "SR 700",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "The text refers generically to 'in Anwendung des Raumplanungsgesetzes vom 22. Juni 1979 SR 700' without mentioning any specific article or paragraph; this is a general citation of the statute as a whole."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 173.110",
+    "assigned_articles": [
+      "Art. 72 Abs. 2 lit. b",
+      "Art. 78 Abs. 2 lit. b"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet reads 'Beschwerde in Zivilsachen nach Artikel 72 Absatz 2 Buchstabe b BGG; ... Beschwerde in Strafsachen nach Artikel 78 Absatz 2 Buchstabe b BGG;'. BGG is mapped in the preamble to SR 173.110, and both article references are explicitly tied to BGG."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "This artikel_reference repeats the phrase 'Beschwerde in Zivilsachen nach Artikel 72 Absatz 2 Buchstabe b BGG;'. The cross-reference to Art. 72 Abs. 2 lit. b BGG has already been captured and assigned to SR 173.110 in ITEM 3; here it functions as an internal repetition within the same article context rather than a new SR link."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "This artikel_reference repeats 'Beschwerde in Strafsachen nach Artikel 78 Absatz 2 Buchstabe b BGG;'. The reference to Art. 78 Abs. 2 lit. b BGG is already assigned to SR 173.110 in ITEM 3; here it serves as an internal cross-reference within the same article rather than a distinct outgoing SR citation."
+  }
+]

@@ -1,0 +1,32 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 831.26",
+    "assigned_articles": [
+      "Art. 9 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet explicitly states 'gestützt auf Artikel 9 Absatz 2 des Bundesgesetzes ... SR 831.26 ... (IFEG)'; Article 9 paragraph 2 is directly and syntactically linked to SR 831.26."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 831.26",
+    "assigned_articles": [
+      "Art. 9"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet says 'Beschwerdeberechtigt nach Artikel 9 IFEG'; IFEG is defined in the preamble as SR 831.26, and Article 9 is directly attributed to that act without paragraph specification."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": "SR 831.26",
+    "assigned_articles": [
+      "Art. 9"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet says 'Organisationen, welche die Voraussetzungen nach Artikel 9 IFEG erfüllen'; again, IFEG = SR 831.26 and Article 9 is explicitly cited as belonging to that statute."
+  }
+]

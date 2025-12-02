@@ -1,0 +1,81 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 916.40",
+    "assigned_articles": [
+      "Art. 11a"
+    ],
+    "confidence": "high",
+    "reasoning": "Im selben Satz: «gestützt auf Artikel 11a des Tierseuchengesetzes … SR 916.40»; der Artikel ist direkt mit dem genannten Gesetz (SR 916.40) verknüpft."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 910.1",
+    "assigned_articles": [
+      "Art. 177 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "Im selben Satz: «… und auf Artikel 177 Absatz 1 des Landwirtschaftsgesetzes … SR 910.1»; der Artikel ist grammatikalisch eindeutig diesem Gesetz zugeordnet."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_10",
+    "TARGET_SR": "SR 916.401",
+    "assigned_articles": [
+      "Art. 312"
+    ],
+    "confidence": "high",
+    "reasoning": "Satz: «… nach der Tierseuchenverordnung … SR 916.401 (TSV) … die nach Artikel 312 TSV anerkannt sind.»; «Artikel 312 TSV» bezieht sich klar auf dieselbe Verordnung SR 916.401."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 3–16"
+    ],
+    "confidence": "high",
+    "reasoning": "«… nach den Artikeln 3−16 erfüllen.»; kein anderes Gesetz oder SR im Satz genannt, daher interne Selbstverweisung innerhalb derselben Verordnung, nicht auf ein externes SR-Dokument."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_10",
+    "TARGET_SR": "SR 916.401",
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Diese Zeile dupliziert inhaltlich ITEM 3 (Artikel 312 TSV in Bezug auf die Tierseuchenverordnung SR 916.401). Der Artikel 312 wurde bereits bei ITEM 3 dem Ziel-SR zugeordnet; hier handelt es sich um dieselbe externe Verweisung, daher keine zusätzliche neue Artikelzuordnung nötig."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_14",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 7–11"
+    ],
+    "confidence": "high",
+    "reasoning": "«… Leistungen nach den Artikeln 7−11 …»; kein SR oder anderes Gesetz erwähnt, daher klar interne Artikel der vorliegenden Verordnung (Selbstverweisung)."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_14",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 9",
+      "Art. 11"
+    ],
+    "confidence": "high",
+    "reasoning": "«… Leistungen nach den Artikeln 9 und 11 …»; wiederum kein externes SR genannt, somit interne Artikel derselben Verordnung."
+  },
+  {
+    "ITEM": 8,
+    "ARTICLE_EID": "art_25",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 6 Abs. 2 Bst. a–c"
+    ],
+    "confidence": "high",
+    "reasoning": "«… Leistungen nach Artikel 6 Absatz 2 Buchstaben a−c …»; keine Nennung eines anderen Gesetzes oder SR, daher interne Selbstverweisung auf einen Artikel der gleichen Verordnung."
+  }
+]

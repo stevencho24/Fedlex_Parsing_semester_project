@@ -1,0 +1,52 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 101",
+    "assigned_articles": [
+      "Art. 54"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet explicitly states 'gestützt auf Artikel 54 der Bundesverfassung SR 101'; Article 54 is directly and syntactically linked to SR 101."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": "SR 172.056.1",
+    "assigned_articles": [
+      "Art. 9"
+    ],
+    "confidence": "high",
+    "reasoning": "The phrase 'im Sinne von Artikel 9 des Bundesgesetzes ... SR 172.056.1 über das öffentliche Beschaffungswesen' clearly links Article 9 to SR 172.056.1."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": "SR 616.1",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "The sentence 'gilt das Subventionsgesetz vom 5. Oktober 1990 SR 616.1' refers to the Subventionsgesetz as a whole without specifying any article; thus it is a general reference to the entire document."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": "SR 172.056.1",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "medium",
+    "reasoning": "The text requires the beauftragte Organisation 'die Bestimmungen des Bundesgesetzes ... SR 172.056.1 ... zu befolgen' without naming specific articles; this is a general obligation to follow the procurement law as a whole."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "This artikel_reference repeats the phrase 'im Sinne von Artikel 9 des Bundesgesetzes vom 21. Juni 2019 über das öffentliche Beschaffungswesen' already captured and assigned to SR 172.056.1 in ITEM 2. As an artikel_reference item without explicit SR, and given the project rules, it is treated as an internal/self-reference rather than creating a new SR assignment."
+  }
+]

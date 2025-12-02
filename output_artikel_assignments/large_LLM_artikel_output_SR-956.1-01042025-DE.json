@@ -1,0 +1,586 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 101",
+    "assigned_articles": ["Art. 95", "Art. 98"],
+    "confidence": "high",
+    "reasoning": "Snippet explicitly cites 'Artikel 95 und 98 der Bundesverfassung SR 101'; both articles are directly and syntactically linked to SR 101."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 211.423.4",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "high",
+    "reasoning": "Preamble-style citation of the Pfandbriefgesetz with SR number only; no specific article mentioned."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 221.229.1",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "high",
+    "reasoning": "Citation of Versicherungsvertragsgesetz with SR number only; no article specified."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 951.31",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "high",
+    "reasoning": "Citation of Kollektivanlagengesetz with SR number only; no article specified."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 952.0",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "high",
+    "reasoning": "Citation of Bankengesetz with SR number only; no article specified."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 954.1",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "high",
+    "reasoning": "Citation of Finanzinstitutsgesetz with SR number only; no article specified."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 955.0",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "high",
+    "reasoning": "Citation of Geldwäschereigesetz with SR number only; no article specified."
+  },
+  {
+    "ITEM": 8,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 961.01",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "high",
+    "reasoning": "Citation of Versicherungsaufsichtsgesetz with SR number only; no article specified."
+  },
+  {
+    "ITEM": 9,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 958.1",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "high",
+    "reasoning": "Citation of Finanzmarktinfrastrukturgesetz with SR number only; no article specified."
+  },
+  {
+    "ITEM": 10,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 950.1",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "high",
+    "reasoning": "Citation of Finanzdienstleistungsgesetz with SR number only; no article specified."
+  },
+  {
+    "ITEM": 11,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": "SR 951.31",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "medium",
+    "reasoning": "Refers to 'die kollektiven Kapitalanlagen nach dem Kollektivanlagengesetz ... SR 951.31' as a whole regulatory framework; no specific article is mentioned."
+  },
+  {
+    "ITEM": 12,
+    "ARTICLE_EID": "art_9",
+    "TARGET_SR": "SR 172.220.1",
+    "assigned_articles": ["Art. 6a"],
+    "confidence": "high",
+    "reasoning": "Snippet: 'Artikel 6a des Bundespersonalgesetzes ... SR 172.220.1 gilt sinngemäss.' Direct article designation with SR."
+  },
+  {
+    "ITEM": 13,
+    "ARTICLE_EID": "art_13",
+    "TARGET_SR": "SR 172.220.1",
+    "assigned_articles": ["Art. 6a"],
+    "confidence": "high",
+    "reasoning": "Same wording as ITEM 12: explicit 'Artikel 6a des Bundespersonalgesetzes ... SR 172.220.1'."
+  },
+  {
+    "ITEM": 14,
+    "ARTICLE_EID": "art_15",
+    "TARGET_SR": "SR 954.1",
+    "assigned_articles": ["Art. 75 Abs. 5"],
+    "confidence": "high",
+    "reasoning": "Inside authorial note: 'Siehe Art. 75 Abs. 5 des Finanzinstitutsgesetzes ... (SR 954.1)'; clear direct marking."
+  },
+  {
+    "ITEM": 15,
+    "ARTICLE_EID": "art_15",
+    "TARGET_SR": "SR 952.0",
+    "assigned_articles": ["Art. 1a", "Art. 1b"],
+    "confidence": "high",
+    "reasoning": "Snippet mentions 'Artikel 1a des Bankengesetzes ... SR 952.0' and later 'Artikel 1b des Bankengesetzes'; both are syntactically tied to the Bankengesetz, which is SR 952.0."
+  },
+  {
+    "ITEM": 16,
+    "ARTICLE_EID": "art_15",
+    "TARGET_SR": "SR 954.1",
+    "assigned_articles": ["Art. 2 Abs. 1 Bst. e", "Art. 2 Abs. 1 Bst. c", "Art. 2 Abs. 1 Bst. d"],
+    "confidence": "high",
+    "reasoning": "Snippet: 'Artikel 2 Absatz 1 Buchstabe e des Finanzinstitutsgesetzes ... SR 954.1' and 'Artikel 2 Absatz 1 Buchstaben c und d des Finanzinstitutsgesetzes'; all refer to Art. 2 Abs. 1 with letters e, c, d of the same act."
+  },
+  {
+    "ITEM": 17,
+    "ARTICLE_EID": "art_15",
+    "TARGET_SR": "SR 211.423.4",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "medium",
+    "reasoning": "Refers to 'nach dem Pfandbriefgesetz vom 25. Juni 1930 SR 211.423.4' without specifying an article; used as a category of supervised entities."
+  },
+  {
+    "ITEM": 18,
+    "ARTICLE_EID": "art_15",
+    "TARGET_SR": "SR 958.1",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "medium",
+    "reasoning": "Refers to 'nach dem Finanzmarktinfrastrukturgesetz ... SR 958.1' generically; no article number given."
+  },
+  {
+    "ITEM": 19,
+    "ARTICLE_EID": "art_15",
+    "TARGET_SR": "SR 951.31",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "medium",
+    "reasoning": "Refers to 'nach dem Kollektivanlagengesetz ... SR 951.31' generically; no article specified."
+  },
+  {
+    "ITEM": 20,
+    "ARTICLE_EID": "art_15",
+    "TARGET_SR": "SR 961.01",
+    "assigned_articles": ["Art. 41 Abs. 1"],
+    "confidence": "high",
+    "reasoning": "Snippet: 'ungebundene Versicherungsvermittlerinnen ... nach Artikel 41 Absatz 1 VAG'; VAG is defined as Versicherungsaufsichtsgesetz SR 961.01 in the same sentence."
+  },
+  {
+    "ITEM": 21,
+    "ARTICLE_EID": "art_15",
+    "TARGET_SR": "SR 955.0",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "medium",
+    "reasoning": "Refers to 'nach dem Geldwäschereigesetz ... SR 955.0 (GwG)' as a whole; no specific article mentioned in this sentence."
+  },
+  {
+    "ITEM": 22,
+    "ARTICLE_EID": "art_19",
+    "TARGET_SR": "SR 170.32",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "medium",
+    "reasoning": "Responsibility 'richtet sich ... nach dem Verantwortlichkeitsgesetz ... SR 170.32'; no article specified, entire act is the basis."
+  },
+  {
+    "ITEM": 23,
+    "ARTICLE_EID": "art_23",
+    "TARGET_SR": "SR 235.1",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "medium",
+    "reasoning": "Profiling 'nach dem Datenschutzgesetz ... SR 235.1'; no specific article cited."
+  },
+  {
+    "ITEM": 24,
+    "ARTICLE_EID": "art_24",
+    "TARGET_SR": "SR 221.302",
+    "assigned_articles": ["Art. 9a"],
+    "confidence": "high",
+    "reasoning": "Explicit: 'nach Artikel 9a des Revisionsaufsichtsgesetzes ... SR 221.302'."
+  },
+  {
+    "ITEM": 25,
+    "ARTICLE_EID": "art_24",
+    "TARGET_SR": "SR 220",
+    "assigned_articles": ["Art. 730b Abs. 2"],
+    "confidence": "high",
+    "reasoning": "Explicit: 'Artikel 730b Absatz 2 des Obligationenrechts SR 220'."
+  },
+  {
+    "ITEM": 26,
+    "ARTICLE_EID": "art_35",
+    "TARGET_SR": "SR 311.0",
+    "assigned_articles": ["Art. 70", "Art. 71", "Art. 72"],
+    "confidence": "high",
+    "reasoning": "Snippet: 'nach den Artikeln 70–72 des Strafgesetzbuches SR 311.0'; clear range of articles in StGB."
+  },
+  {
+    "ITEM": 27,
+    "ARTICLE_EID": "art_39",
+    "TARGET_SR": "SR 832.12",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "medium",
+    "reasoning": "Refers to 'nach dem Krankenversicherungsaufsichtsgesetz ... SR 832.12' as the legal framework; no article specified."
+  },
+  {
+    "ITEM": 28,
+    "ARTICLE_EID": "art_42_a",
+    "TARGET_SR": "SR 172.021",
+    "assigned_articles": ["Art. 16"],
+    "confidence": "high",
+    "reasoning": "Explicit: 'eine Befragung nach Artikel 16 des Verwaltungsverfahrensgesetzes ... SR 172.021 verweigern.'"
+  },
+  {
+    "ITEM": 29,
+    "ARTICLE_EID": "art_43_a",
+    "TARGET_SR": "SR 954.1",
+    "assigned_articles": ["Art. 17"],
+    "confidence": "high",
+    "reasoning": "Explicit: 'Vermögensverwalter und Trustees nach Artikel 17 des Finanzinstitutsgesetzes ... SR 954.1'."
+  },
+  {
+    "ITEM": 30,
+    "ARTICLE_EID": "art_43_a",
+    "TARGET_SR": "SR 955.0",
+    "assigned_articles": ["Art. 2 Abs. 3", "Art. 24"],
+    "confidence": "high",
+    "reasoning": "Snippet: 'Finanzintermediäre nach Artikel 2 Absatz 3 des Geldwäschereigesetzes ... SR 955.0 ... sofern ... nach Artikel 24 GwG'; both articles belong to GwG (SR 955.0)."
+  },
+  {
+    "ITEM": 31,
+    "ARTICLE_EID": "art_43_b",
+    "TARGET_SR": "SR 954.1",
+    "assigned_articles": ["Art. 17"],
+    "confidence": "high",
+    "reasoning": "Same construction as ITEM 29: 'nach Artikel 17 des Finanzinstitutsgesetzes ... SR 954.1'."
+  },
+  {
+    "ITEM": 32,
+    "ARTICLE_EID": "art_43_e",
+    "TARGET_SR": "SR 955.0",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "medium",
+    "reasoning": "Refers generically to 'Selbstregulierungsorganisation nach dem GwG SR 955.0'; no article specified."
+  },
+  {
+    "ITEM": 33,
+    "ARTICLE_EID": "art_43_k",
+    "TARGET_SR": "SR 221.302",
+    "assigned_articles": ["Art. 6"],
+    "confidence": "high",
+    "reasoning": "Explicit: 'als Revisorin nach Artikel 6 des Revisionsaufsichtsgesetzes ... SR 221.302'."
+  },
+  {
+    "ITEM": 34,
+    "ARTICLE_EID": "art_44",
+    "TARGET_SR": "SR 955.0",
+    "assigned_articles": ["Art. 24 Abs. 1"],
+    "confidence": "high",
+    "reasoning": "Explicit: 'Anschluss an eine Selbstregulierungsorganisation nach Artikel 24 Absatz 1 GwG SR 955.0'."
+  },
+  {
+    "ITEM": 35,
+    "ARTICLE_EID": "art_49",
+    "TARGET_SR": "SR 313.0",
+    "assigned_articles": ["Art. 7"],
+    "confidence": "high",
+    "reasoning": "Explicit: '(Art. 7 des BG ... SR 313.0 über das Verwaltungsstrafrecht)'."
+  },
+  {
+    "ITEM": 36,
+    "ARTICLE_EID": "art_50",
+    "TARGET_SR": "SR 313.0",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "medium",
+    "reasoning": "States that the Bundesgesetz über das Verwaltungsstrafrecht SR 313.0 is anwendbar as a whole; no specific article cited in this sentence."
+  },
+  {
+    "ITEM": 37,
+    "ARTICLE_EID": "art_53",
+    "TARGET_SR": "SR 172.021",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "medium",
+    "reasoning": "Procedural clause: 'nach den Bestimmungen des Bundesgesetzes ... SR 172.021 über das Verwaltungsverfahren'; refers to the act generally."
+  },
+  {
+    "ITEM": 38,
+    "ARTICLE_EID": "art_9",
+    "TARGET_SR": "SR 172.220.1",
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Self-standing artikel_reference duplicating ITEM 12 without SR number; the article assignment to SR 172.220.1 Art. 6a is already captured in ITEM 12. This item represents the SR link itself and does not add a new external SR assignment."
+  },
+  {
+    "ITEM": 39,
+    "ARTICLE_EID": "art_13",
+    "TARGET_SR": "SR 172.220.1",
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Same sentence as ITEM 13 but without explicit SR; external link to SR 172.220.1 Art. 6a already handled in ITEM 13, so this is treated as the internal reference line."
+  },
+  {
+    "ITEM": 40,
+    "ARTICLE_EID": "art_15",
+    "TARGET_SR": "SR 952.0",
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Repeats the content of ITEM 15 (Bankengesetz Art. 1a, 1b) and ITEMs 16–17 as artikel_reference; external SR assignments are already captured in those SR_link_detection items."
+  },
+  {
+    "ITEM": 41,
+    "ARTICLE_EID": "art_15",
+    "TARGET_SR": "SR 961.01",
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Parallels ITEM 20 (VAG SR 961.01, Art. 41 Abs. 1) but without SR number; external assignment already made there."
+  },
+  {
+    "ITEM": 42,
+    "ARTICLE_EID": "art_24",
+    "TARGET_SR": "SR 956.1",
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Reference '(Art. 1 Abs. 1)' clearly points to Article 1 paragraph 1 of the current FINMAG (SR 956.1); this is an internal self-reference, not an outgoing SR link."
+  },
+  {
+    "ITEM": 43,
+    "ARTICLE_EID": "art_24",
+    "TARGET_SR": "SR 221.302",
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Duplicates ITEM 24 textually but without SR number; the external link to SR 221.302 Art. 9a is already captured in ITEM 24."
+  },
+  {
+    "ITEM": 44,
+    "ARTICLE_EID": "art_24",
+    "TARGET_SR": "SR 956.1",
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Reference 'Artikel 24a' is to another article within the same act (FINMAG SR 956.1); purely internal cross-reference."
+  },
+  {
+    "ITEM": 45,
+    "ARTICLE_EID": "art_24",
+    "TARGET_SR": "SR 220",
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Duplicates ITEM 25 but without SR number; external assignment to OR SR 220 Art. 730b Abs. 2 already handled there."
+  },
+  {
+    "ITEM": 46,
+    "ARTICLE_EID": "art_35",
+    "TARGET_SR": "SR 311.0",
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Duplicates ITEM 26 without SR number; external assignment to StGB SR 311.0 Arts. 70–72 already captured."
+  },
+  {
+    "ITEM": 47,
+    "ARTICLE_EID": "art_42_a",
+    "TARGET_SR": "SR 172.021",
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Same sentence as ITEM 28 but without SR number; external assignment to VwVG SR 172.021 Art. 16 already made."
+  },
+  {
+    "ITEM": 48,
+    "ARTICLE_EID": "art_42_a",
+    "TARGET_SR": "SR 172.021",
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Refers to 'Artikel 28 des Verwaltungsverfahrensgesetzes'; external SR 172.021 is already linked in ITEM 37 as general reference; this line functions as an internal citation context."
+  },
+  {
+    "ITEM": 49,
+    "ARTICLE_EID": "art_42_a",
+    "TARGET_SR": "SR 172.021",
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Mentions 'Artikel 22a des Verwaltungsverfahrensgesetzes'; again, SR 172.021 is already connected; this is additional internal context."
+  },
+  {
+    "ITEM": 50,
+    "ARTICLE_EID": "art_42_b",
+    "TARGET_SR": "SR 956.1",
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Reference 'Artikel 6' is clearly to Article 6 of the same act (FINMAG SR 956.1); internal self-reference."
+  },
+  {
+    "ITEM": 51,
+    "ARTICLE_EID": "art_42_c",
+    "TARGET_SR": "SR 956.1",
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Refers to 'Artikel 42 Absatz 2'; this is an internal cross-reference within FINMAG (SR 956.1)."
+  },
+  {
+    "ITEM": 52,
+    "ARTICLE_EID": "art_42_c",
+    "TARGET_SR": "SR 956.1",
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Refers to 'Artikel 29 Absatz 2'; again an internal article of the same act (SR 956.1)."
+  },
+  {
+    "ITEM": 53,
+    "ARTICLE_EID": "art_43",
+    "TARGET_SR": "SR 956.1",
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Refers to 'Artikel 42 Absatz 2'; internal cross-reference within FINMAG."
+  },
+  {
+    "ITEM": 54,
+    "ARTICLE_EID": "art_43",
+    "TARGET_SR": "SR 956.1",
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Refers to 'Artikel 42a'; clearly another article of the same act; internal reference only."
+  },
+  {
+    "ITEM": 55,
+    "ARTICLE_EID": "art_43_a",
+    "TARGET_SR": "SR 954.1",
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Duplicates ITEM 29 without SR number; external assignment to SR 954.1 Art. 17 already captured."
+  },
+  {
+    "ITEM": 56,
+    "ARTICLE_EID": "art_43_a",
+    "TARGET_SR": "SR 955.0",
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Duplicates ITEM 30 without SR number; external assignment to SR 955.0 Arts. 2 Abs. 3 and 24 already captured."
+  },
+  {
+    "ITEM": 57,
+    "ARTICLE_EID": "art_43_b",
+    "TARGET_SR": "SR 954.1",
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Duplicates ITEM 31 without SR number; external assignment to SR 954.1 Art. 17 already captured."
+  },
+  {
+    "ITEM": 58,
+    "ARTICLE_EID": "art_43_g",
+    "TARGET_SR": "SR 956.1",
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Refers to 'Artikel 19'; this is Article 19 of the same act (FINMAG SR 956.1); internal reference."
+  },
+  {
+    "ITEM": 59,
+    "ARTICLE_EID": "art_43_i",
+    "TARGET_SR": "SR 956.1",
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Refers to 'Artikel 24a'; internal article of FINMAG; no external SR."
+  },
+  {
+    "ITEM": 60,
+    "ARTICLE_EID": "art_43_i",
+    "TARGET_SR": "SR 956.1",
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Refers to 'Artikeln 29–37'; these are articles of the same act; internal cross-reference."
+  },
+  {
+    "ITEM": 61,
+    "ARTICLE_EID": "art_43_j",
+    "TARGET_SR": "SR 956.1",
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Refers to 'Artikel 23'; internal article of FINMAG; self-reference."
+  },
+  {
+    "ITEM": 62,
+    "ARTICLE_EID": "art_43_k",
+    "TARGET_SR": "SR 221.302",
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Parallels ITEM 33 but with slightly different wording and without SR number; external assignment to SR 221.302 Art. 6 already captured."
+  },
+  {
+    "ITEM": 63,
+    "ARTICLE_EID": "art_43_k",
+    "TARGET_SR": "SR 221.302",
+    "assigned_articles": [],
+    "confidence": "medium",
+    "reasoning": "Refers to 'Artikel 5 des Revisionsaufsichtsgesetzes'; same external act SR 221.302, but this specific article is not separately linked via SR_link_detection. However, as an artikel_reference without explicit SR, and given the project rules, it is treated as contextual internal reference rather than a new SR assignment."
+  },
+  {
+    "ITEM": 64,
+    "ARTICLE_EID": "art_43_k",
+    "TARGET_SR": "SR 956.1",
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Refers to 'Artikel 24 Absätze 2–5 und 24a–28a'; all are internal articles of FINMAG; self-reference only."
+  },
+  {
+    "ITEM": 65,
+    "ARTICLE_EID": "art_44",
+    "TARGET_SR": "SR 955.0",
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Duplicates ITEM 34 without SR number; external assignment to SR 955.0 Art. 24 Abs. 1 already captured."
+  },
+  {
+    "ITEM": 66,
+    "ARTICLE_EID": "art_46",
+    "TARGET_SR": "SR 956.1",
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Refers to 'Artikel 27'; clearly an internal article of the same act; no external SR."
+  },
+  {
+    "ITEM": 67,
+    "ARTICLE_EID": "art_49",
+    "TARGET_SR": "SR 313.0",
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Duplicates ITEM 35 but without SR number; external assignment to SR 313.0 Art. 7 already captured."
+  },
+  {
+    "ITEM": 68,
+    "ARTICLE_EID": "art_49",
+    "TARGET_SR": "SR 313.0",
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Refers to 'Artikel 6 des Bundesgesetzes ... über das Verwaltungsstrafrecht'; same act SR 313.0 already linked; this is additional contextual reference."
+  },
+  {
+    "ITEM": 69,
+    "ARTICLE_EID": "art_50",
+    "TARGET_SR": "SR 313.0",
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Refers to 'Artikel 73–83 des Bundesgesetzes ... über das Verwaltungsstrafrecht'; SR 313.0 already linked in ITEM 36; this is further internal detail of that external act, not a new SR link."
+  },
+  {
+    "ITEM": 70,
+    "ARTICLE_EID": "art_55",
+    "TARGET_SR": "SR 956.1",
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Refers to 'Artikel 7 Absatz 2'; this is an internal article of FINMAG; self-reference."
+  },
+  {
+    "ITEM": 71,
+    "ARTICLE_EID": "art_58",
+    "TARGET_SR": "SR 956.1",
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Refers to 'Artikel 43c Absatz 1'; internal article of the same act; no external SR."
+  },
+  {
+    "ITEM": 72,
+    "ARTICLE_EID": "art_59",
+    "TARGET_SR": "SR 956.1",
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Refers to 'Artikel 58 Absatz 1'; internal cross-reference within FINMAG."
+  },
+  {
+    "ITEM": 73,
+    "ARTICLE_EID": "art_61",
+    "TARGET_SR": "SR 956.1",
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Complex entry listing multiple articles (4, 7, 8, 9, 10–14, 17–21, 53–55, 58, 59) of the same act with dates; purely internal structure, not an outgoing SR link."
+  }
+]

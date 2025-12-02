@@ -1,0 +1,40 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 611.010",
+    "assigned_articles": [
+      "Art. 4"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet explicitly states 'gestützt auf Artikel 4 des Bundesgesetzes vom 4. Oktober 1974 SR 611.010'; Article 4 is directly linked to SR 611.010."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 172.010",
+    "assigned_articles": [
+      "Art. 46a"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet says 'Heute: Art. 46a des Regierungs- und Verwaltungsorganisationsgesetzes vom 21. März 1997 (SR 172.010)'; Article 46a is explicitly attributed to SR 172.010."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": "SR 172.311",
+    "assigned_articles": "General reference - entire document",
+    "confidence": "medium",
+    "reasoning": "The citation refers to 'die V vom 12. Dez. 1996 über die Taggelder und Vergütungen der Mitglieder ausserparlamentarischer Kommissionen (SR 172.311)' without mentioning any specific article; thus it is treated as a general reference to the ordinance as a whole."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "This is an internal cross-reference: 'Münzen nach Artikel 1' clearly refers to Article 1 of the same document. No external SR is mentioned, so it is a self-reference within the current SR 941.11."
+  }
+]

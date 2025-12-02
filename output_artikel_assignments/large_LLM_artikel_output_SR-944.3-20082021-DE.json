@@ -1,0 +1,43 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 101",
+    "assigned_articles": [
+      "Art. 31sexies",
+      "Art. 64"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet explicitly cites 'die Artikel 31sexies und 64 der Bundesverfassung SR 101'; both articles are directly and syntactically linked to SR 101."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "The reference 'nach Artikel 17' appears without any SR or acronym; by the project rules this is a self-reference to Art. 17 of the same SR 944.3 document, not to an external SR."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_6",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "The phrase 'nach Artikel 7' has no associated SR citation or acronym in the snippet; it therefore refers to Art. 7 of the current SR 944.3, i.e., an internal cross-reference."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_11",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "The wording 'die Ansprüche nach Artikel 10' lacks any SR or external law marker; under the contextual rules this is a self-reference to Art. 10 of the same document."
+  }
+]

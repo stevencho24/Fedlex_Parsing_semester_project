@@ -1,0 +1,32 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "art_115",
+    "TARGET_SR": "SR 101",
+    "assigned_articles": [
+      "Art. 90"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Satz lautet: \"Dieser Bestimmung entspricht heute Art. 90 der BV vom 18. April 1999 (SR 101).\" Art. 90 ist direkt mit der BV (SR 101) verknüpft; andere Artikelangaben (Art. 24quinquies alte BV, Art. 1 BB) gehören nicht zu SR 101."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_157",
+    "TARGET_SR": "SR 312.0",
+    "assigned_articles": [
+      "Art. 453 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Satz: \"... im Sinne von Artikel 453 Absatz 1 der Schweizerischen Strafprozessordnung SR 312.0 ...\" wird Art. 453 Abs. 1 ausdrücklich der Schweizerischen Strafprozessordnung (SR 312.0) zugeordnet."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_157",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "interne Verweisung: Art. 453 Abs. 1 derselben zitierten Strafprozessordnung; keine neue SR-Zuordnung"
+    ],
+    "confidence": "high",
+    "reasoning": "Dies ist ein artikel_reference ohne TARGET_SR und wiederholt inhaltlich die Formulierung aus ITEM 2 (Artikel 453 Absatz 1 der Schweizerischen Strafprozessordnung), also eine inhaltliche Selbstreferenz innerhalb desselben Kontextes; es entsteht keine zusätzliche, eigenständige SR-Verknüpfung."
+  }
+]

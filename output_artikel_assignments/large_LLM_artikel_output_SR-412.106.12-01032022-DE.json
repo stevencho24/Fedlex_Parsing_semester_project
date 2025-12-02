@@ -1,0 +1,155 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 412.106",
+    "assigned_articles": [
+      "Art. 6 Abs. 3",
+      "Art. 7 Abs. 6"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Präambel nennt ausdrücklich: 'gestützt auf die Artikel 6 Absatz 3 und 7 Absatz 6 des EHB-Gesetzes ... SR 412.106'; beide Artikel gehören somit klar zum genannten Gesetz (SR 412.106)."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 412.101",
+    "assigned_articles": [
+      "Art. 45 Bst. c"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Snippet steht: '(Art. 45 Bst. c der Berufsbildungsverordnung ... SR 412.101, BBV)'; die Artikelangabe ist direkt mit der Verordnung SR 412.101 verknüpft."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 412.101.61",
+    "assigned_articles": [
+      "Art. 13 Abs. 1 Bst. b"
+    ],
+    "confidence": "high",
+    "reasoning": "Formulierung: 'Art. 13 Abs. 1 Bst. b der Verordnung des WBF ... SR 412.101.61'; der Artikel ist syntaktisch eindeutig dieser SR-Nummer zugeordnet."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": "SR 412.101",
+    "assigned_articles": [
+      "Art. 50"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet und snippet_acronym enthalten '(Art. 50 BBV)'; BBV ist die Berufsbildungsverordnung SR 412.101, somit gehört Art. 50 zu SR 412.101."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": "SR 412.101.61",
+    "assigned_articles": [
+      "Art. 13 Abs. 1 Bst. b"
+    ],
+    "confidence": "high",
+    "reasoning": "Text: 'Artikel 13 Absatz 1 Buchstabe b MiVo-HF SR 412.101.61.'; der genannte Artikel ist unmittelbar mit SR 412.101.61 verknüpft."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 45 Bst. c"
+    ],
+    "confidence": "medium",
+    "reasoning": "Artikelreferenz '(Art. 45 Bst. c ... , BBV)' verweist auf Art. 45 Bst. c der BBV. Die SR-Nummer wird hier nicht genannt, ist aber kontextuell dieselbe wie in ITEM 2 (SR 412.101). Da dieses Item als artikel_reference ohne TARGET_SR geführt wird, handelt es sich primär um eine externe Verweisung; SR bleibt hier formell offen."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 46 Abs. 2 Bst. b"
+    ],
+    "confidence": "medium",
+    "reasoning": "Die Zeile nennt '(Art. 46 Abs. 2 Bst. b BBV)'; dies ist ein Verweis auf Art. 46 Abs. 2 Bst. b der Berufsbildungsverordnung. Kein expliziter SR-Link im Snippet, daher als reine Artikelreferenz ohne TARGET_SR behandelt."
+  },
+  {
+    "ITEM": 8,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 46 Abs. 3 Bst. a",
+      "Art. 46 Abs. 3 Bst. c"
+    ],
+    "confidence": "medium",
+    "reasoning": "Formulierung: '(Art. 46 Abs. 3 Bst. a und c BBV)'; beide Buchstaben a und c des Absatzes 3 von Art. 46 werden genannt. Es handelt sich um eine externe BBV-Referenz ohne explizite SR-Nummer in diesem Item."
+  },
+  {
+    "ITEM": 9,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 46 Abs. 3 Bst. c"
+    ],
+    "confidence": "medium",
+    "reasoning": "Snippet: '(Art. 46 Abs. 3 Bst. c BBV)'; klarer Verweis auf diesen Buchstaben des Artikels 46 der BBV, jedoch ohne explizite SR-Nummer in diesem Item."
+  },
+  {
+    "ITEM": 10,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 46 Abs. 3 Bst. b"
+    ],
+    "confidence": "medium",
+    "reasoning": "Text: '(Art. 46 Abs. 3 Bst. b BBV)'; verweist auf Art. 46 Abs. 3 Buchstabe b der BBV. Keine SR-Nummer im Snippet, daher nur Artikelangabe."
+  },
+  {
+    "ITEM": 11,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 46 Abs. 3"
+    ],
+    "confidence": "medium",
+    "reasoning": "Formulierung: '(Art. 46 Abs. 3 BBV)'; es wird der ganze Absatz 3 des Art. 46 der BBV zitiert, ohne Buchstabenangabe. Wiederum keine explizite SR-Nummer in diesem Item."
+  },
+  {
+    "ITEM": 12,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 13 Abs. 1 Bst. b"
+    ],
+    "confidence": "medium",
+    "reasoning": "Die Zeile nennt '(Art. 13 Abs. 1 Bst. b der Verordnung des WBF ... [MiVo-HF])'; dies entspricht demselben Artikel wie in ITEM 3, jedoch ohne explizite SR-Nummer in diesem artikel_reference-Item."
+  },
+  {
+    "ITEM": 13,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 1 Bst. a–e"
+    ],
+    "confidence": "high",
+    "reasoning": "Interne Selbstreferenz: 'nach Artikel 1 Buchstaben a–e'; dies bezieht sich auf die Buchstaben a–e von Art. 1 derselben Verordnung (SR 412.106.12). Als Selbstverweis ohne externes SR zu behandeln."
+  },
+  {
+    "ITEM": 14,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 45–47"
+    ],
+    "confidence": "medium",
+    "reasoning": "Text: 'Artikel 45–47 BBV;'; dies ist ein Bereichsverweis auf die Artikel 45 bis 47 der BBV. Da kein SR im Snippet steht und es sich um eine artikel_reference handelt, wird nur der Artikelsbereich angegeben."
+  },
+  {
+    "ITEM": 15,
+    "ARTICLE_EID": "art_18",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 16",
+      "Art. 17"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Norm verweist auf 'die angerechneten Studienleistungen nach Artikel 16 und ... Kompetenzen nach Artikel 17'; dies sind interne Verweise auf Art. 16 und 17 derselben Verordnung (Selbstreferenz, kein externes SR)."
+  }
+]

@@ -1,0 +1,174 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 312.5",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "high",
+    "reasoning": "Preamble cites the Opferhilfegesetz (OHG) only by title and SR number without any article indication; this is a generic legal basis reference."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 831.30",
+    "assigned_articles": ["Art. 11 Abs. 1", "Art. 11 Abs. 3"],
+    "confidence": "high",
+    "reasoning": "Snippet explicitly: 'Artikel 11 Absätze 1 und 3 des Bundesgesetzes ... SR 831.30'; both paragraphs of Art. 11 are directly tied to the cited SR."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": "SR 831.30",
+    "assigned_articles": [
+      "Art. 10 Abs. 1 Bst. a Ziff. 2",
+      "Art. 11 Abs. 1 Bst. a",
+      "Art. 11 Abs. 1 Bst. c"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet: 'Artikel 10 Absatz 1 Buchstabe a Ziffer 2 ELG' and 'Artikel 11 Absatz 1 Buchstabe a und c ELG'; ELG is SR 831.30, so these are the referenced provisions."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": "SR 831.30",
+    "assigned_articles": ["Art. 10"],
+    "confidence": "medium",
+    "reasoning": "The phrase '(2 x Betrag ELG)' refers to the 'massgebende Betrag für den allgemeinen Lebensbedarf', which in ELG is defined in Art. 10; no other specific article is mentioned, so Art. 10 is the most plausible underlying provision."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_6",
+    "TARGET_SR": "SR 831.30",
+    "assigned_articles": ["Art. 10"],
+    "confidence": "medium",
+    "reasoning": "As in ITEM 4, 'Betrag ELG' denotes the statutory basic amount for general living costs, which is regulated in Art. 10 ELG; no other article is textually cited."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_11",
+    "TARGET_SR": "SR 0.312.5",
+    "assigned_articles": ["Art. 12"],
+    "confidence": "high",
+    "reasoning": "Snippet: 'nach Artikel 12 des Europäischen Übereinkommens ... SR 0.312.5'; direct prepositional link between Art. 12 and the cited convention."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 312.5",
+    "assigned_articles": ["Art. 6"],
+    "confidence": "high",
+    "reasoning": "Parenthetical '(Art. 6 OHG)' clearly and exclusively cites Art. 6 of OHG (SR 312.5)."
+  },
+  {
+    "ITEM": 8,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": "SR 312.5",
+    "assigned_articles": ["Art. 6"],
+    "confidence": "high",
+    "reasoning": "Same parenthetical '(Art. 6 OHG)' applies to this article; direct article-level reference."
+  },
+  {
+    "ITEM": 9,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": "SR 312.5",
+    "assigned_articles": ["Art. 16 Bst. b"],
+    "confidence": "high",
+    "reasoning": "Snippet '(Art. 16 Bst. b OHG)' explicitly specifies letter b of Art. 16 OHG."
+  },
+  {
+    "ITEM": 10,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": "SR 312.5",
+    "assigned_articles": ["Art. 18"],
+    "confidence": "high",
+    "reasoning": "Parenthetical '(Art. 18 OHG)' is a direct citation of Art. 18 OHG."
+  },
+  {
+    "ITEM": 11,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": "SR 312.5",
+    "assigned_articles": ["Art. 19 Abs. 3"],
+    "confidence": "high",
+    "reasoning": "Snippet '(Art. 19 Abs. 3 OHG)' clearly identifies paragraph 3 of Art. 19 OHG."
+  },
+  {
+    "ITEM": 12,
+    "ARTICLE_EID": "art_6",
+    "TARGET_SR": "SR 312.5",
+    "assigned_articles": ["Art. 20 Abs. 2 Bst. b"],
+    "confidence": "high",
+    "reasoning": "Parenthetical '(Art. 20 Abs. 2 Bst. b OHG)' directly specifies the cited provision."
+  },
+  {
+    "ITEM": 13,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": "SR 312.5",
+    "assigned_articles": ["Art. 21"],
+    "confidence": "high",
+    "reasoning": "Snippet '(Art. 21 OHG)' is an unambiguous reference to Art. 21 OHG."
+  },
+  {
+    "ITEM": 14,
+    "ARTICLE_EID": "art_8",
+    "TARGET_SR": "SR 312.5",
+    "assigned_articles": ["Art. 31"],
+    "confidence": "high",
+    "reasoning": "Parenthetical '(Art. 31 OHG)' clearly cites Art. 31 OHG."
+  },
+  {
+    "ITEM": 15,
+    "ARTICLE_EID": "art_9",
+    "TARGET_SR": "SR 312.5",
+    "assigned_articles": ["Art. 32", "Art. 32 Abs. 1"],
+    "confidence": "high",
+    "reasoning": "Snippet begins with '(Art. 32 OHG)' and continues 'Über Abgeltungen im Sinne von Artikel 32 Absatz 1 OHG'; both the article as a whole and specifically paragraph 1 are referenced."
+  },
+  {
+    "ITEM": 16,
+    "ARTICLE_EID": "art_10",
+    "TARGET_SR": "SR 312.5",
+    "assigned_articles": ["Art. 33"],
+    "confidence": "high",
+    "reasoning": "Parenthetical '(Art. 33 OHG)' is a direct citation of Art. 33 OHG."
+  },
+  {
+    "ITEM": 17,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "high",
+    "reasoning": "Artikelreferenz repeats the same ELG citation as ITEM 2 but without SR marker; per rules, artikel_reference without explicit SR is treated as self-reference within the current ordinance, not as a new SR link."
+  },
+  {
+    "ITEM": 18,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "high",
+    "reasoning": "References to 'Artikel 11 Absatz 1 Buchstabe a ELG', 'Artikel 11 Absatz 1 Buchstaben d–h ELG' and 'Artikel 9 Absatz 1 ELG' occur without an SR citation in this snippet; they function as internal cross-references in the context of the already-established ELG link."
+  },
+  {
+    "ITEM": 19,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "high",
+    "reasoning": "The mention of 'Artikel 11 Absatz 1 Buchstabe c ELG' appears in isolation from any SR marker; by the specification, this is treated as an internal reference rather than a separate SR link assignment."
+  },
+  {
+    "ITEM": 20,
+    "ARTICLE_EID": "art_9",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "high",
+    "reasoning": "The phrase 'Artikel 32 Absatz 1 OHG' is already captured and linked to SR 312.5 in ITEM 15; here it appears without an SR marker and serves as an internal cross-reference within the same ordinance."
+  },
+  {
+    "ITEM": 21,
+    "ARTICLE_EID": "art_11",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "high",
+    "reasoning": "This repeats the reference to 'Artikel 12 des Europäischen Übereinkommens ...' that is already linked to SR 0.312.5 in ITEM 6; without an SR marker, it is treated as an internal cross-reference per the rules."
+  }
+]

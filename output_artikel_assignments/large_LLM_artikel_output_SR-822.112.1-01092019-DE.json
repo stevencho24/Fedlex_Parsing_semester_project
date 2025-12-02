@@ -1,0 +1,42 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 822.112",
+    "assigned_articles": [
+      "Art. 26a Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Formulierung \"gestützt auf die Artikel 26a Absatz 2 der Verordnung 2 ... SR 822.112\" verknüpft den genannten Artikel syntaktisch eindeutig mit der Verordnung 2 zum Arbeitsgesetz (SR 822.112)."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 822.11",
+    "assigned_articles": [
+      "Art. 27 Abs. 1ter"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Snippet heisst es \"gemäss Artikel 27 Absatz 1ter des Arbeitsgesetzes ... SR 822.11 (ArG)\"; Artikel und Absatz werden direkt mit dem Arbeitsgesetz (SR 822.11) verbunden."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Interne Verweisung innerhalb des aktuellen Erlasses (Art. 27 Abs. 1ter ArG), bereits bei ITEM 2 SR 822.11 zugeordnet"
+    ],
+    "confidence": "high",
+    "reasoning": "artikel_reference ohne explizite SR-Angabe; der Text wiederholt die Formulierung aus ITEM 2. Die dortige Zuordnung zu SR 822.11 (Art. 27 Abs. 1ter) ist bereits erfolgt, daher handelt es sich hier um eine interne/duplizierte Referenz, nicht um eine neue SR-Zuordnung."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Interne Verweisung innerhalb des aktuellen Erlasses (Art. 27 Abs. 1ter ArG), bereits bei ITEM 2 SR 822.11 zugeordnet"
+    ],
+    "confidence": "high",
+    "reasoning": "Auch hier nur \"Artikel 27 Absatz 1ter ArG\" ohne neue SR-Nennung; inhaltlich dieselbe externe Norm wie in ITEM 2. Daher als Selbst-/interne Referenz behandelt und nicht erneut einem TARGET_SR zugeordnet."
+  }
+]

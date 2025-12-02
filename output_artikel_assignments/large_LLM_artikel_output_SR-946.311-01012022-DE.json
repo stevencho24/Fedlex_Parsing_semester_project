@@ -1,0 +1,174 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 946.31",
+    "assigned_articles": [
+      "Art. 6 Abs. 1",
+      "Art. 11 Abs. 2",
+      "Art. 11 Abs. 3",
+      "Art. 19 Abs. 3",
+      "Art. 20 Abs. 1",
+      "Art. 24 Abs. 2",
+      "Art. 25 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Präambel nennt ausdrücklich: «gestützt auf die Artikel 6 Absatz 1, 11 Absätze 2 und 3, 19 Absatz 3, 20 Absatz 1, 24 Absatz 2 und 25 Absatz 1 der Verordnung … SR 946.31 … (VUB)»; alle genannten Artikel gehören daher zur VUB (SR 946.31)."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": "SR 632.10",
+    "assigned_articles": [
+      "Anhang"
+    ],
+    "confidence": "medium",
+    "reasoning": "Im Snippet: «Kapitel 84–92 des Harmonisierten Systems SR 632.10 Anhang bestimmt …». Es wird kein bestimmter Artikel, sondern der Anhang des Zolltarifgesetzes (SR 632.10) genannt. Daher Zuordnung zum Anhang ohne spezifische Artikelnummer."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_8",
+    "TARGET_SR": "SR 632.421.0",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "low",
+    "reasoning": "Der Text verweist historisch auf «den Artikeln 1 und 9 Absatz 2 der Freihandelsverordnung vom 8. März 2002» und anschliessend: «Siehe heute der Freihandelsverordnung 1 vom 18. Juni 2008 (SR 632.421.0).» Die konkrete Artikelangabe (Art. 1 und 9 Abs. 2) bezieht sich auf die alte Verordnung; für die neue Verordnung (SR 632.421.0) werden keine bestimmten Artikel genannt. Daher nur eine allgemeine Dokumentverweisung."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_8",
+    "TARGET_SR": "SR 632.319",
+    "assigned_articles": [
+      "Art. 1",
+      "Art. 4"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet: «den Artikeln 1 und 4 der Freihandelsverordnung 2 vom 27. Juni 1995 SR 632.319;». Die Artikel 1 und 4 sind grammatikalisch direkt dieser Verordnung mit SR 632.319 zugeordnet."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_8",
+    "TARGET_SR": "SR 946.39",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "low",
+    "reasoning": "Es heisst: «den Artikeln 20–37 der Ursprungsregelnverordnung vom 17. April 1996 … Siehe heute: die V vom 30. März 2011 (SR 946.39).» Die Artikel 20–37 gehören zur alten Ursprungsregelnverordnung; für die neue Verordnung SR 946.39 werden keine konkreten Artikel genannt. Daher allgemeine Verweisung."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": "SR 946.31",
+    "assigned_articles": [
+      "Art. 11 Abs. 1 Bst. c",
+      "Art. 11 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet: «… gelten im Sinne von Artikel 11 Absatz 1 Buchstabe c VUB …» und «… im Sinne von Artikel 11 Absatz 2 VUB …». VUB ist in der Präambel als SR 946.31 definiert; die genannten Artikel gehören daher zu SR 946.31."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": "SR 946.31",
+    "assigned_articles": [
+      "Art. 17"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet: «… die als Vordokumente nach Artikel 17 VUB dienen …». VUB = SR 946.31; der Artikel 17 ist direkt mit der VUB verknüpft."
+  },
+  {
+    "ITEM": 8,
+    "ARTICLE_EID": "art_8",
+    "TARGET_SR": "SR 946.31",
+    "assigned_articles": [
+      "Art. 17"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet: «… einer Inlandbeglaubigung nach Artikel 17 VUB …». Wiederum direkte Zuordnung von Art. 17 zur VUB (SR 946.31)."
+  },
+  {
+    "ITEM": 9,
+    "ARTICLE_EID": "art_9",
+    "TARGET_SR": "SR 946.31",
+    "assigned_articles": [
+      "Art. 20"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet: «… Vereinbarungen im Sinne von Artikel 20 VUB …». Der Artikel 20 gehört damit eindeutig zur VUB (SR 946.31)."
+  },
+  {
+    "ITEM": 10,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 11 Abs. 1 Bst. c",
+      "Art. 11 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "artikel_reference ohne TARGET_SR. Der Text entspricht demjenigen aus ITEM 6 und verweist auf «Artikel 11 Absatz 1 Buchstabe c VUB» und «Artikel 11 Absatz 2 VUB». Da VUB in der Präambel als SR 946.31 definiert ist, handelt es sich um eine Verweisung auf Art. 11 Abs. 1 Bst. c und Art. 11 Abs. 2 VUB (SR 946.31), nicht um eine Selbstreferenz innerhalb der vorliegenden Verordnung."
+  },
+  {
+    "ITEM": 11,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 11 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet: «… im Sinne von Artikel 11 Absatz 2 VUB …». Auch hier ist VUB die externe Verordnung SR 946.31; der Verweis gilt Art. 11 Abs. 2 VUB und ist keine Selbstreferenz."
+  },
+  {
+    "ITEM": 12,
+    "ARTICLE_EID": "art_8",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 17"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet: «… Inlandbeglaubigung nach Artikel 17 VUB …». VUB = SR 946.31; der Artikel 17 gehört zu dieser externen Verordnung. Daher externe SR-Verweisung, nicht Selbstreferenz."
+  },
+  {
+    "ITEM": 13,
+    "ARTICLE_EID": "art_8",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 1",
+      "Art. 9 Abs. 2"
+    ],
+    "confidence": "medium",
+    "reasoning": "Snippet: «den Artikeln 1 und 9 Absatz 2 der Freihandelsverordnung vom 8. März 2002;». Es wird eine andere Verordnung («Freihandelsverordnung vom 8. März 2002») genannt; die Artikel 1 und 9 Abs. 2 gehören zu dieser externen Verordnung, nicht zum eigenen Erlass. Mangels SR-Nummer bleibt TARGET_SR formal unbekannt, aber es ist klar eine externe Referenz."
+  },
+  {
+    "ITEM": 14,
+    "ARTICLE_EID": "art_8",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 1",
+      "Art. 4"
+    ],
+    "confidence": "medium",
+    "reasoning": "Snippet: «den Artikeln 1 und 4 der Freihandelsverordnung 2 vom 27. Juni 1995;». Auch hier wird eine andere Verordnung («Freihandelsverordnung 2») genannt; die Artikel 1 und 4 gehören zu dieser externen Verordnung. Keine Selbstreferenz."
+  },
+  {
+    "ITEM": 15,
+    "ARTICLE_EID": "art_8",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 20-37"
+    ],
+    "confidence": "medium",
+    "reasoning": "Snippet: «den Artikeln 20–37 der Ursprungsregelnverordnung vom 17. April 1996.» Die Artikel 20–37 gehören zur genannten Ursprungsregelnverordnung, also zu einem anderen Erlass. Daher externe Referenz; als Bereich «Art. 20–37» zusammengefasst."
+  },
+  {
+    "ITEM": 16,
+    "ARTICLE_EID": "art_11",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 8 Abs. 3",
+      "Art. 8 Abs. 4"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet: «… nach Artikel 8 Absätze 3 und 4 vorliegen …». Es wird kein anderer Erlass oder eine Abkürzung wie VUB genannt; daher handelt es sich um eine interne Selbstreferenz innerhalb derselben Verordnung (Art. 8 Abs. 3 und 4 des aktuellen Erlasses)."
+  }
+]

@@ -1,0 +1,124 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 101",
+    "assigned_articles": [
+      "Art. 95 Abs. 1",
+      "Art. 125"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Präambel nennt ausdrücklich: 'gestützt auf die Artikel 95 Absatz 1 und 125 der Bundesverfassung SR 101'; beide Artikel gehören damit klar zur SR 101."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": "SR 0.941.291",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Snippet wird nur der 'Vertrag vom 20. Mai 1875 SR 0.941.291 über die Errichtung eines internationalen Mass- und Gewichtsbureaus' als Ganzes erwähnt, ohne konkrete Artikelangabe; daher allgemeine Verweisung auf das gesamte Übereinkommen."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_22",
+    "TARGET_SR": "SR 946.51",
+    "assigned_articles": [
+      "Art. 23–28"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Text lautet: 'gelten die Strafbestimmungen der Artikel 23–28 des Bundesgesetzes ... SR 946.51 über die technischen Handelshemmnisse'; damit ist eindeutig der Artikelsbereich 23–28 dieses Gesetzes gemeint."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_23",
+    "TARGET_SR": "SR 313.0",
+    "assigned_articles": [
+      "Art. 6",
+      "Art. 7"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Snippet: 'sind die Artikel 6 und 7 des Bundesgesetzes ... SR 313.0 über das Verwaltungsstrafrecht anwendbar'; die Artikel 6 und 7 werden direkt diesem Gesetz zugeordnet."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "Verweis 'nach Artikel 3 Absatz 1' ohne Nennung eines anderen Erlasses oder SR; dies ist eine innergesetzliche Selbstverweisung innerhalb desselben Dokuments."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_10",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Formulierung 'nach den Artikeln 8 Absatz 2 und 9 Absatz 3' enthält keine SR- oder Gesetzesangabe; es handelt sich um Verweise auf andere Artikel desselben Gesetzes."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_12",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Spanne 'Artikel 7–11' wird ohne externen Gesetzesverweis genannt; dies sind klar interne Artikel des vorliegenden Erlasses."
+  },
+  {
+    "ITEM": 8,
+    "ARTICLE_EID": "art_18",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Verweis 'nach Artikel 16 Absatz 1' steht ohne Bezug auf eine andere SR; somit innerer Artikelverweis im gleichen Gesetz."
+  },
+  {
+    "ITEM": 9,
+    "ARTICLE_EID": "art_19",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Wendung 'nach den Artikeln 16 und 18' verweist auf Bestimmungen desselben Erlasses; kein externer SR-Bezug vorhanden."
+  },
+  {
+    "ITEM": 10,
+    "ARTICLE_EID": "art_19",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Bezugnahme 'Personen nach Artikel 18 Absatz 3' erfolgt ohne Nennung eines anderen Gesetzes; dies ist eine Selbstverweisung innerhalb des aktuellen Dokuments."
+  },
+  {
+    "ITEM": 11,
+    "ARTICLE_EID": "art_22",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "Obwohl 'Artikel 23–28 des Bundesgesetzes ... über die technischen Handelshemmnisse' erwähnt werden, fehlt hier die explizite SR-Angabe; im Kontext des Dokuments ist dies die inhaltlich gleiche Passage wie bei ITEM 3, aber als artikel_reference klassifiziert und damit als Querverweis innerhalb des aktuellen Textes zu verstehen, nicht als neue SR-Zuordnung."
+  },
+  {
+    "ITEM": 12,
+    "ARTICLE_EID": "art_23",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Satz verweist auf 'Artikel 6 und 7 des Bundesgesetzes ... über das Verwaltungsstrafrecht' ohne SR-Nummer; analog zu ITEM 4 ist dies hier als innerdokumentarischer Verweis auf bereits eingeführte externe Strafnormen zu werten, nicht als eigenständige SR-Link-Zuweisung."
+  }
+]

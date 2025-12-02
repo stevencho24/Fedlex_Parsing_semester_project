@@ -1,0 +1,24 @@
+[
+  {
+    "Item": 1,
+    "ARTICLE_EID": "preamble",
+    "item_type": "SR_link_detection",
+    "TARGET_SR": "SR 170.512.1",
+    "assigned_articles": [
+      "Art. 16 Abs. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet explicitly states 'in Anwendung von Art. 16 Abs. 3 der Publikationsverordnung ... (SR 170.512.1)'; the article reference is directly and syntactically linked to the cited SR."
+  },
+  {
+    "Item": 2,
+    "ARTICLE_EID": "preamble",
+    "item_type": "SR_link_detection",
+    "TARGET_SR": "SR 916.010",
+    "assigned_articles": [
+      "Art. 7 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "The text 'gestützt auf Artikel 7 Absatz 2 der Verordnung ... SR 916.010 ... (LAfV)' clearly attributes Article 7 paragraph 2 to SR 916.010; this is a direct prepositional and semantic link."
+  }
+]

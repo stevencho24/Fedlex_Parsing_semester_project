@@ -1,0 +1,62 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 172.010",
+    "assigned_articles": [
+      "Art. 62"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Formulierung «gestützt auf Artikel 62 des Verwaltungsorganisationsgesetzes SR 172.010» verknüpft den genannten Artikel direkt und eindeutig mit SR 172.010."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": "SR 974.01",
+    "assigned_articles": [
+      "Art. 26"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Snippet steht «(Art. 26 der Verordnung vom 12. Dez. 1977 SR 974.01 …)»; der Artikel ist syntaktisch unmittelbar mit dieser Verordnung verknüpft."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_6",
+    "TARGET_SR": "SR 974.01",
+    "assigned_articles": [
+      "Anhang 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Text verweist auf «… nach der Verordnung vom 12. Dezember 1977 SR 974.01 …, Anhang 2, …». Es wird kein bestimmter Artikel, sondern explizit der Anhang 2 dieser Verordnung genannt."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_9",
+    "TARGET_SR": "SR 974.01",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "medium",
+    "reasoning": "Formulierung «… nach der Verordnung vom 12. Dezember 1977 SR 974.01 … zustehen» ohne Nennung einzelner Artikel; dies ist eine generelle Bezugnahme auf die Verordnung."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 8 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "«unter Vorbehalt von Artikel 8 Absatz 2» ist eine reine Binnenverweisung innerhalb derselben Verordnung (kein SR genannt); daher Selbstreferenz auf Art. 8 Abs. 2 des aktuellen Erlasses."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": "SR 974.01",
+    "assigned_articles": [
+      "Art. 26"
+    ],
+    "confidence": "high",
+    "reasoning": "«(Art. 26 der Verordnung vom 12. Dez. 1977 über die internationale Entwicklungszusammenarbeit und humanitäre Hilfe)» ist eine eindeutige Verweisung auf Art. 26 der in ITEM 2 bereits identifizierten Verordnung SR 974.01."
+  }
+]

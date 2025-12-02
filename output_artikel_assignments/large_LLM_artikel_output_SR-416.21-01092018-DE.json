@@ -1,0 +1,53 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 416.2",
+    "assigned_articles": [
+      "Art. 10"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet explicitly states 'gestützt auf Artikel 10 des Bundesgesetzes ... SR 416.2', directly linking Art. 10 to SR 416.2."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_6",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document (Art. 8)"
+    ],
+    "confidence": "high",
+    "reasoning": "The phrase 'nach Artikel 8' has no SR or acronym context and clearly refers to another article of the same ordinance; thus it is a self-reference, not an external SR link."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document (Art. 3 Abs. 2 Bst. a Ziff. 1)",
+      "Internal reference within current document (Art. 3 Abs. 2 Bst. a Ziff. 2)"
+    ],
+    "confidence": "high",
+    "reasoning": "References 'Art. 3 Abs. 2 Bst. a Ziff. 1' and 'Art. 3 Abs. 2 Bst. a Ziff. 2' appear without any SR indication and are part of the internal structure of the same ordinance."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document (Art. 3 Abs. 2 Bst. b)"
+    ],
+    "confidence": "high",
+    "reasoning": "The citation '(Art. 3 Abs. 2 Bst. b)' lacks any SR or external law marker and therefore refers to an article within the same document."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document (Art. 3 Abs. 3)"
+    ],
+    "confidence": "high",
+    "reasoning": "The reference '(Art. 3 Abs. 3)' is syntactically isolated from any SR citation and thus is an internal cross-reference within the ordinance."
+  }
+]

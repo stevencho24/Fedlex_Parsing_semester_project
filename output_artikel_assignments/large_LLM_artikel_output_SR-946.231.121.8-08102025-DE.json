@@ -1,0 +1,94 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 946.231",
+    "assigned_articles": [
+      "Art. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Formulierung «gestützt auf Artikel 2 des Embargogesetzes … SR 946.231 (EmbG)» verknüpft den genannten Artikel direkt mit dem EmbG; damit ist klar, dass Art. 2 EmbG (SR 946.231) gemeint ist."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": "SR 170.512.1",
+    "assigned_articles": [
+      "Art. 20 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Satz «in Anwendung von Art. 20 Abs. 2 der Publikationsverordnung … (SR 170.512.1)» steht der Artikel unmittelbar vor der Nennung der Publikationsverordnung mit SR-Nummer; syntaktisch klarer Bezug von Art. 20 Abs. 2 auf SR 170.512.1."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": "SR 946.231",
+    "assigned_articles": [
+      "Art. 9",
+      "Art. 10"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Snippet werden «Artikel 9 EmbG», «Artikel 10 EmbG» sowie «Artikeln 9 und 10 EmbG» genannt; EmbG ist im Vorspann als SR 946.231 definiert. Damit beziehen sich Art. 9 und Art. 10 eindeutig auf SR 946.231."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«… nach Artikel 1» verweist ohne SR- oder Gesetzesangabe auf einen Artikel derselben Verordnung; dies ist eine reine Selbstreferenz innerhalb des aktuellen Dokuments."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«… unter die Sperrung nach Artikel 1 Absatz 1 fallen» enthält keinen Gesetzes- oder SR-Hinweis; der Verweis richtet sich auf Art. 1 Abs. 1 derselben Verordnung und ist damit eine interne Selbstreferenz."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«Gutschriften nach Artikel 1 Absatz 5» steht ohne Bezug zu einem externen SR-Dokument; es handelt sich um einen Verweis auf Art. 1 Abs. 5 der vorliegenden Verordnung (Selbstreferenz)."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": "SR 946.231",
+    "assigned_articles": [
+      "Art. 9"
+    ],
+    "confidence": "high",
+    "reasoning": "«… wird nach Artikel 9 EmbG bestraft» nennt explizit Artikel 9 des Embargogesetzes; EmbG ist im Vorspann als SR 946.231 definiert, daher klarer Bezug auf Art. 9 SR 946.231."
+  },
+  {
+    "ITEM": 8,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": "SR 946.231",
+    "assigned_articles": [
+      "Art. 10"
+    ],
+    "confidence": "high",
+    "reasoning": "«… wird nach Artikel 10 EmbG bestraft» verweist ausdrücklich auf Artikel 10 des Embargogesetzes; EmbG = SR 946.231, somit Art. 10 SR 946.231."
+  },
+  {
+    "ITEM": 9,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": "SR 946.231",
+    "assigned_articles": [
+      "Art. 9",
+      "Art. 10"
+    ],
+    "confidence": "high",
+    "reasoning": "«Verstösse nach den Artikeln 9 und 10 EmbG …» nennt beide Artikel in Verbindung mit EmbG; aufgrund der Preambel ist EmbG SR 946.231, sodass Art. 9 und Art. 10 dieses Gesetzes gemeint sind."
+  }
+]

@@ -1,0 +1,72 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 101",
+    "assigned_articles": [
+      "Art. 54 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Formulierung «gestützt auf Artikel 54 Absatz 1 der Bundesverfassung SR 101» verknüpft den genannten Artikel grammatikalisch direkt mit SR 101; damit ist klar, dass Art. 54 Abs. 1 der Bundesverfassung gemeint ist."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 0.105.1",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "Das Fakultativprotokoll wird nur als Ganzes («Fakultativprotokolls vom 18. Dezember 2002 SR 0.105.1») genannt; es werden keine bestimmten Artikel dieses Protokolls erwähnt."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 0.105",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "Es heisst «aus dem Übereinkommen vom 10. Dezember 1984 SR 0.105 gegen Folter ... entstehen»; dies ist eine allgemeine Bezugnahme auf das Übereinkommen, ohne Nennung einzelner Artikel."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_10",
+    "TARGET_SR": "SR 235.1",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Satz verweist auf «das Datenschutzgesetz vom 25. September 2020 SR 235.1» als Ganzes; es werden keine spezifischen Artikel des DSG genannt."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_11",
+    "TARGET_SR": "SR 311.0",
+    "assigned_articles": [
+      "Art. 320"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Formulierung «Amtsgeheimnis nach Artikel 320 des Strafgesetzbuches SR 311.0» verknüpft Art. 320 direkt mit dem Strafgesetzbuch (SR 311.0)."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_11",
+    "TARGET_SR": "SR 311.0",
+    "assigned_articles": [
+      "Art. 320"
+    ],
+    "confidence": "high",
+    "reasoning": "Dies ist dieselbe Textpassage wie bei ITEM 5, jedoch ohne explizite SR-Angabe; durch den Parallelbezug zu ITEM 5 ist klar, dass «Artikel 320 des Strafgesetzbuches» Art. 320 StGB (SR 311.0) meint."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_11",
+    "TARGET_SR": "SR 311.0",
+    "assigned_articles": [
+      "Art. 321"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Wendung «Berufsgeheimnis nach Artikel 321 des Strafgesetzbuches» bezeichnet eindeutig Art. 321 StGB im Strafgesetzbuch (SR 311.0); andere SR-Bezüge sind im Satz nicht vorhanden."
+  }
+]

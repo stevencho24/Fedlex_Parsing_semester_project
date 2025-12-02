@@ -1,0 +1,49 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 814.01",
+    "assigned_articles": [
+      "Art. 32abis Abs. 2 zweiter Satz"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Satz nennt ausdrücklich «Artikel 32abis Absatz 2 zweiter Satz des Umweltschutzgesetzes … SR 814.01»; damit ist klar, dass genau diese Bestimmung des SR 814.01 gemeint ist."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 814.621",
+    "assigned_articles": [
+      "Art. 9"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Snippet steht «… nach Artikel 9 der Verordnung vom 5. Juli 2000 SR 814.621 über Getränkeverpackungen (VGV) …»; Art. 9 ist damit direkt dieser Verordnung (SR 814.621) zugeordnet."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": "SR 814.621",
+    "assigned_articles": [
+      "Art. 9",
+      "Art. 10",
+      "Art. 11",
+      "Art. 12",
+      "Art. 13",
+      "Art. 14",
+      "Art. 16",
+      "Art. 17"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Text lautet «… die Artikel 9–14, 16 und 17 VGV SR 814.621 treten … in Kraft.»; damit werden die Artikel 9 bis 14 sowie 16 und 17 der VGV (SR 814.621) explizit genannt. Der Bereich 9–14 wird als einzelne Artikel 9–14 aufgelöst."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Interne Verweisung innerhalb des aktuellen Dokuments"
+    ],
+    "confidence": "high",
+    "reasoning": "Es handelt sich um eine artikel_reference ohne SR-Angabe: «… nach Artikel 9 der Verordnung vom 5. Juli 2000 über Getränkeverpackungen (VGV) …». Diese Stelle entspricht inhaltlich ITEM 2, wo derselbe Satz mit explizitem SR-Link (SR 814.621) vorkommt. Als artikel_reference ist sie primär als Selbstverweisung/Querverweis im aktuellen Dokument zu behandeln, nicht als neue SR-Zuordnung."
+  }
+]

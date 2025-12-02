@@ -1,0 +1,115 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 101",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "high",
+    "reasoning": "The snippet merely mentions the Bundesverfassung with its SR number, without any article-level citation or contextual limitation to specific provisions."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_38",
+    "TARGET_SR": "SR 101",
+    "assigned_articles": [
+      "Art. 45",
+      "Art. 136",
+      "Art. 140",
+      "Art. 141",
+      "Art. 151",
+      "Art. 159",
+      "Art. 160",
+      "Art. 165"
+    ],
+    "confidence": "high",
+    "reasoning": "The authorial note explicitly states: \"Den genannten Bestimmungen entsprechen heute die Art. 45, 136, 140, 141, 151, 159, 160 und 165 der BV ... (SR 101).\" These articles are directly and unambiguously linked to SR 101."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_20",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "high",
+    "reasoning": "References \"den Artikeln 15, 16, 17, 18 und 19\" with no SR or external law mentioned; this clearly concerns other articles of the same cantonal constitution."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_31",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document (Art. 42 Abs. 2)"],
+    "confidence": "high",
+    "reasoning": "The parenthetical \"(Art. 42 Abs. 2)\" is an internal cross-reference; no external SR or other act is cited in the snippet."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_33",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document (Art. 34 Abs. 2, Art. 35 Abs. 1)"],
+    "confidence": "high",
+    "reasoning": "Mentions \"Artikeln 34 Absatz 2 und 35 Absatz 1\" without any external SR context; syntactically and semantically this is an internal reference to other provisions of the same constitution."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_38",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document (Art. 31–35, Art. 100–106)"],
+    "confidence": "high",
+    "reasoning": "The clause \"Vorbehalten bleiben die Artikel 31–35 und 100–106\" refers to numbered articles of the same document; no external statute or SR is mentioned."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_38",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document (Art. 86, 89, 89bis, 93 of the earlier Bundesverfassung)"],
+    "confidence": "medium",
+    "reasoning": "The snippet refers to \"Artikeln 86, 89, 89bis und 93 der Bundesverfassung\" but without an SR number or explicit link to the current BV (SR 101). In this extraction it functions as a descriptive reference to federal provisions, not as a structured SR link; per instructions, absent a TARGET_SR this is treated as non-assigned/self-reference."
+  },
+  {
+    "ITEM": 8,
+    "ARTICLE_EID": "art_42",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document (Art. 32 Abs. 2)"],
+    "confidence": "high",
+    "reasoning": "The parenthetical \"(Art. 32 Abs. 2)\" clearly points to another article of the same cantonal constitution; no external SR is present."
+  },
+  {
+    "ITEM": 9,
+    "ARTICLE_EID": "art_106",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document (Art. 102, Art. 105)"],
+    "confidence": "high",
+    "reasoning": "The phrase \"in Vollziehung der Artikel 102 und 105\" refers to other provisions of the same document; there is no external SR citation."
+  },
+  {
+    "ITEM": 10,
+    "ARTICLE_EID": "art_108",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document (bisheriger Art. 30 der Kantonsverfassung)"],
+    "confidence": "high",
+    "reasoning": "Mentions \"bisherigen Artikel 30 der Kantonsverfassung\"; this is an internal historical reference to the same constitutional text, not to an external SR document."
+  },
+  {
+    "ITEM": 11,
+    "ARTICLE_EID": "art_108",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document (Art. 31–35, Art. 101–107 der Kantonsverfassung)"],
+    "confidence": "high",
+    "reasoning": "The snippet speaks of \"alten Artikeln 31–35\" and \"bisherigen Artikeln 101–107 der Kantonsverfassung\"; these are internal transitional references within the same constitution."
+  },
+  {
+    "ITEM": 12,
+    "ARTICLE_EID": "art_108",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document (Art. 49, 50, 55, 56, 57, neuer Art. 90)"],
+    "confidence": "high",
+    "reasoning": "All cited provisions (49, 50, 55, 56, 57, 90) are explicitly described as articles of the Kantonsverfassung; no external SR is involved."
+  },
+  {
+    "ITEM": 13,
+    "ARTICLE_EID": "art_109",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document (Art. 49, 50, 55, 56, 57, 60 Abs. 2–3, 89 Abs. 1, 91, 93–99, Art. 90 Abs. 1)"],
+    "confidence": "high",
+    "reasoning": "The snippet lists numerous \"bisherigen\" articles of the Kantonsverfassung and refers to \"vom neuen Artikel 90 Absatz 1 vorgesehenen Gesetz\"; all are internal constitutional provisions, not external SR articles."
+  }
+]

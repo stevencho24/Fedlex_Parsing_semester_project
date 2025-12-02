@@ -1,0 +1,115 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 101",
+    "assigned_articles": [
+      "Art. 67 Abs. 2",
+      "Art. 95 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Formulierung «gestützt auf Artikel 67 Absatz 2 und 95 Absatz 1 der Bundesverfassung SR 101» verknüpft beide Artikel grammatikalisch eindeutig mit der Bundesverfassung (SR 101)."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": "SR 935.51",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Satz nennt nur das Geldspielgesetz (SR 935.51) ohne konkrete Artikelangabe («gelten ausschliesslich die Bestimmungen des Geldspielgesetzes»), daher handelt es sich um eine generelle Verweisung auf das ganze Gesetz."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": "SR 784.40",
+    "assigned_articles": [
+      "Art. 2 lit. d",
+      "Art. 61a",
+      "Art. 25 Abs. 3 lit. b"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Snippet werden explizit «Artikel 2 Buchstabe d», «Artikel 61a» und «Artikel 25 Absatz 3 Buchstabe b» des RTVG genannt; das RTVG ist durch SR 784.40 eindeutig identifiziert."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "Es wird zwar auf Artikel 2, 61a und 25 Abs. 3 lit. b RTVG verwiesen, aber ohne explizite SR-Angabe im Snippet; im Rahmen der Regeln ist dies als Selbst- bzw. interne Strukturreferenz zu behandeln, nicht als neuer SR-Link."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_16",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«nach den Artikeln 10–14» verweist ohne Nennung eines anderen Gesetzes auf Artikel derselben Erlassstruktur; syntaktisch keine Verbindung zu einem externen SR-Dokument."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_16",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "Auch hier «nach den Artikeln 10–14» ohne Bezug auf ein anderes Gesetz; gemäss Vorgabe als interne Artikelverweisung des aktuellen Erlasses zu qualifizieren."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_16",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "Gleiche Formulierung «nach den Artikeln 10–14» wie in den vorangehenden Sätzen; wiederum keine SR-Nennung, daher Selbstreferenz innerhalb des Dokuments."
+  },
+  {
+    "ITEM": 8,
+    "ARTICLE_EID": "art_19",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«zu den Elementen nach Artikel 11 Buchstaben a–h» verweist auf einen Artikel 11 desselben Gesetzes; es fehlt jede explizite Verknüpfung mit einem externen SR, somit interne Strukturreferenz."
+  },
+  {
+    "ITEM": 9,
+    "ARTICLE_EID": "art_32",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«Gebühren nach Artikel 33» steht ohne Nennung eines anderen Erlasses; Artikel 33 gehört damit zum gleichen Gesetz, also interne Verweisung."
+  },
+  {
+    "ITEM": 10,
+    "ARTICLE_EID": "art_32",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«gestützt auf Artikel 19» bezieht sich auf den im selben Gesetz enthaltenen Artikel 19; kein externer SR-Kontext, daher Selbstreferenz."
+  },
+  {
+    "ITEM": 11,
+    "ARTICLE_EID": "art_41",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Aufzählung «Artikel 1–5, 9–13, 15–19, 29, 32, 37–39 sowie 41» betrifft ausschliesslich Artikel dieses Erlasses (Inkrafttretensbestimmung); keine Verbindung zu einem anderen SR-Dokument."
+  }
+]

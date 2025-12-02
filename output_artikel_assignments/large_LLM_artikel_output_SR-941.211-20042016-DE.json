@@ -1,0 +1,127 @@
+[
+  {
+    "Item": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 941.210",
+    "assigned_articles": [
+      "Art. 5 Abs. 2",
+      "Art. 8 Abs. 2",
+      "Art. 11 Abs. 2",
+      "Art. 16 Abs. 2",
+      "Art. 17 Abs. 2",
+      "Art. 24 Abs. 3",
+      "Art. 33"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Präambel nennt ausdrücklich: \"gestützt auf die Artikel 5 Absatz 2, 8 Absatz 2, 11 Absatz 2, 16 Absatz 2, 17 Absatz 2, 24 Absatz 3 und 33 der Messmittelverordnung ... SR 941.210\"; alle genannten Artikel gehören daher zur Messmittelverordnung (SR 941.210)."
+  },
+  {
+    "Item": 2,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": "SR 941.210",
+    "assigned_articles": [
+      "Anhang 1",
+      "Anhang 1 Ziff. 9.1"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Snippet wird zweimal ausdrücklich auf \"Anhang 1 der Messmittelverordnung\" sowie auf \"Anhang 1 Ziffer 9.1 der Messmittelverordnung\" Bezug genommen; diese Anhänge gehören systematisch zur Messmittelverordnung SR 941.210."
+  },
+  {
+    "Item": 3,
+    "ARTICLE_EID": "art_6",
+    "TARGET_SR": "SR 941.210",
+    "assigned_articles": [
+      "Anhang 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Text spricht von Verfahren \"nach Anhang 2 der Messmittelverordnung\"; damit ist klar der Anhang 2 der SR 941.210 gemeint."
+  },
+  {
+    "Item": 4,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": "SR 941.210",
+    "assigned_articles": [
+      "Anhang 1"
+    ],
+    "confidence": "high",
+    "reasoning": "Es heisst: \"die grundlegenden Anforderungen nach Anhang 1 der Messmittelverordnung\"; dieser Anhang 1 gehört zur SR 941.210."
+  },
+  {
+    "Item": 5,
+    "ARTICLE_EID": "art_8",
+    "TARGET_SR": "SR 941.210",
+    "assigned_articles": [
+      "Anhang 5"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Ersteichung erfolgt \"nach Anhang 5 der Messmittelverordnung\"; damit ist Anhang 5 der SR 941.210 eindeutig zugeordnet."
+  },
+  {
+    "Item": 6,
+    "ARTICLE_EID": "art_9",
+    "TARGET_SR": "SR 941.210",
+    "assigned_articles": [
+      "Anhang 7 Ziff. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Nach­eichung erfolgt \"nach Anhang 7 Ziffer 1 der Messmittelverordnung\"; diese Stelle liegt im Anhang 7 der SR 941.210."
+  },
+  {
+    "Item": 7,
+    "ARTICLE_EID": "art_10",
+    "TARGET_SR": "SR 941.210",
+    "assigned_articles": [
+      "Anhang 1"
+    ],
+    "confidence": "high",
+    "reasoning": "Es wird auf \"die grundlegenden Anforderungen nach Anhang 1 der Messmittelverordnung\" verwiesen; dieser Anhang 1 gehört zur SR 941.210."
+  },
+  {
+    "Item": 8,
+    "ARTICLE_EID": "art_11",
+    "TARGET_SR": "SR 941.210",
+    "assigned_articles": [
+      "Anhang 5 Ziff. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Ersteichung erfolgt \"nach Anhang 5 Ziffer 2 der Messmittelverordnung\"; damit ist Anhang 5 Ziff. 2 der SR 941.210 klar bezeichnet."
+  },
+  {
+    "Item": 9,
+    "ARTICLE_EID": "art_12",
+    "TARGET_SR": "SR 941.210",
+    "assigned_articles": [
+      "Anhang 7 Ziff. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Nach­eichung erfolgt \"nach Anhang 7 Ziffer 1 der Messmittelverordnung\"; diese Bestimmung liegt im Anhang 7 der SR 941.210."
+  },
+  {
+    "Item": 10,
+    "ARTICLE_EID": "art_13",
+    "TARGET_SR": "SR 941.210",
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Der Artikel hebt eine Verordnung des EJPD auf; es wird kein Artikel oder Anhang der Messmittelverordnung (SR 941.210) genannt, sondern nur das EJPD als Erlassgeber. Daher keine konkrete Artikel-/Anhangszuordnung zur SR 941.210."
+  },
+  {
+    "Item": 11,
+    "ARTICLE_EID": "art_14",
+    "TARGET_SR": "SR 941.210",
+    "assigned_articles": [
+      "Anhang 5 Ziff. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Es heisst: \"nach Anhang 5 Ziffer 2 der Messmittelverordnung erstgeeicht\"; damit ist Anhang 5 Ziff. 2 der SR 941.210 eindeutig betroffen."
+  },
+  {
+    "Item": 12,
+    "ARTICLE_EID": "art_12",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 2"
+    ],
+    "confidence": "medium",
+    "reasoning": "Der Satz \"Für Raummasse nach Artikel 2 Buchstabe c ...\" verweist auf einen Artikel 2 mit Buchstabe c. Im Kontext handelt es sich um eine interne Verweisung innerhalb derselben Verordnung (SR 941.211), nicht auf die Messmittelverordnung SR 941.210. Daher wird dies als Selbstverweis (Art. 2 der aktuellen Verordnung) behandelt und keinem externen TARGET_SR zugeordnet."
+  }
+]

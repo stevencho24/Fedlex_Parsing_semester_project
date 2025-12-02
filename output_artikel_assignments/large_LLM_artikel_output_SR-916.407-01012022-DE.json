@@ -1,0 +1,138 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 916.40",
+    "assigned_articles": [
+      "Art. 45a Abs. 3",
+      "Art. 53 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Formulierung «gestützt auf die Artikel 45a Absatz 3 und 53 Absatz 1 des Tierseuchengesetzes ... SR 916.40» verknüpft die genannten Artikel grammatikalisch eindeutig mit dem genannten Gesetz (SR 916.40)."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 916.441.22",
+    "assigned_articles": [
+      "Art. 22",
+      "Art. 23",
+      "Art. 24"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Snippet: «... die nach den Artikeln 22–24 der Verordnung vom 25. Mai 2011 SR 916.441.22 über tierische Nebenprodukte (VTNP) ...»; die Artikelangabe steht direkt bei der Verordnung, daher beziehen sich Art. 22–24 auf SR 916.441.22."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": "SR 916.404.1",
+    "assigned_articles": [
+      "Art. 11 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Formulierung «nach Artikel 11 Absatz 2 der Verordnung vom 3. November 2021 SR 916.404.1 ...»; der Artikel ist unmittelbar mit dieser Verordnung verknüpft."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": "SR 916.404.1",
+    "assigned_articles": [
+      "Art. 29b"
+    ],
+    "confidence": "high",
+    "reasoning": "Text: «... die Erstregistrierung nach Artikel 29b der TVD-Verordnung vom 26. Oktober 2011 SR 916.404.1 ...»; Art. 29b ist klar dieser Verordnung zugeordnet."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": "SR 916.441.22",
+    "assigned_articles": [
+      "Art. 36 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet und snippet_acronym enthalten «die Anforderungen nach Artikel 36 Absatz 2 VTNP ... SR 916.441.22»; VTNP ist die Verordnung SR 916.441.22, daher gehört Art. 36 Abs. 2 zu dieser SR."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": "SR 916.404.1",
+    "assigned_articles": [
+      "Anhang 2"
+    ],
+    "confidence": "high",
+    "reasoning": "«... mit den fälligen Gebühren nach Anhang 2 IdTVD-V SR 916.404.1 ...»; der Anhang 2 ist ausdrücklich der IdTVD-Verordnung (SR 916.404.1) zugeordnet. Es wird kein bestimmter Artikel, sondern der Anhang zitiert."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": "SR 916.401",
+    "assigned_articles": [
+      "Art. 38a"
+    ],
+    "confidence": "high",
+    "reasoning": "«... mit den Schlachtabgaben nach Artikel 38a der Tierseuchenverordnung vom 27. Juni 1995 SR 916.401 ...»; Art. 38a ist direkt mit der Tierseuchenverordnung SR 916.401 verknüpft."
+  },
+  {
+    "ITEM": 8,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 22",
+      "Art. 23",
+      "Art. 24"
+    ],
+    "confidence": "high",
+    "reasoning": "artikel_reference spiegelt denselben Satz wie ITEM 2 ohne explizite SR-Nummer, aber mit «Verordnung vom 25. Mai 2011 über tierische Nebenprodukte (VTNP)». Aus ITEM 2 ist klar, dass dies SR 916.441.22 ist. Hier handelt es sich jedoch um eine Wiederholung derselben externen Verweisstruktur, nicht um eine neue interne Selbstreferenz."
+  },
+  {
+    "ITEM": 9,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 11 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Text: «... der Tiergeschichtenstatus nach Artikel 11 Absatz 2 der Verordnung vom 3. November 2021 über die Identitas AG und die Tierverkehrsdatenbank (IdTVD-V) ...». Dies ist derselbe externe Verweis wie in ITEM 3 (SR 916.404.1), hier aber als artikel_reference ohne SR. Es ist kein Selbstverweis auf die eigene Verordnung."
+  },
+  {
+    "ITEM": 10,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 29b",
+      "Art. 11 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet enthält «Erstregistrierung nach Artikel 29b der TVD-Verordnung vom 26. Oktober 2011» und «Tiergeschichtenstatus nach Artikel 11 Absatz 2 IdTVD-V». Beide Bezüge sind extern (TVD-Verordnung und IdTVD-V) und entsprechen den externen Verweisen aus ITEM 4 und ITEM 3; keine Selbstreferenz."
+  },
+  {
+    "ITEM": 11,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 38a"
+    ],
+    "confidence": "high",
+    "reasoning": "«... mit den Schlachtabgaben nach Artikel 38a der Tierseuchenverordnung vom 27. Juni 1995 ...»; dies ist derselbe externe Verweis wie in ITEM 7 (SR 916.401), hier ohne SR-Nummer. Kein interner Selbstverweis."
+  },
+  {
+    "ITEM": 12,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 2 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "«... ist die Meldung der Geburt nach Artikel 2 Absatz 2 nicht erforderlich.» Es wird kein anderes Gesetz oder Verordnung genannt; syntaktisch handelt es sich um einen Verweis auf einen Artikel derselben Verordnung (Selbstreferenz)."
+  },
+  {
+    "ITEM": 13,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 2 Abs. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "«... ist die Tiergeschichte nach Artikel 2 Absatz 3 nicht erforderlich.» Auch hier fehlt jede Nennung eines anderen Erlasses; daher ist dies ein interner Verweis auf einen Artikel derselben Verordnung (Selbstreferenz)."
+  }
+]

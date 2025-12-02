@@ -1,0 +1,247 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 747.30",
+    "assigned_articles": [
+      "Art. 11"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet explicitly cites 'Artikel 11 des Seeschifffahrtsgesetzes ... SR 747.30'; clear direct marking linking Art. 11 to SR 747.30."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": "SR 172.041.1",
+    "assigned_articles": "General reference - entire document",
+    "confidence": "high",
+    "reasoning": "The sentence refers generally to 'die Bestimmungen der Allgemeinen Gebührenverordnung ... SR 172.041.1' without specifying any article; thus it is a general reference to the whole ordinance."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": "SR 172.041.1",
+    "assigned_articles": [
+      "Art. 6"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet states 'neben den Kosten nach Artikel 6 AllgGebV SR 172.041.1'; 'Artikel 6' is directly marked with the acronym of the cited ordinance, so Art. 6 belongs to SR 172.041.1."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_8_a",
+    "TARGET_SR": "SR 747.321.7",
+    "assigned_articles": "General reference - entire document",
+    "confidence": "low",
+    "reasoning": "Only the SR number appears ('SR 747.321.7') without any surrounding context or article indication; treat as an undifferentiated citation of the document."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_10",
+    "TARGET_SR": "SR 747.11",
+    "assigned_articles": [
+      "Art. 20"
+    ],
+    "confidence": "high",
+    "reasoning": "The text mentions 'Artikel 20 des Bundesgesetzes vom 28. September 1923 SR 747.11 über das Schiffsregister'; direct syntactic link between 'Artikel 20' and the SR 747.11 citation."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_13",
+    "TARGET_SR": "SR 747.11",
+    "assigned_articles": [
+      "Art. 19",
+      "Art. 20"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet reads 'Art. 19 und 20 des BG vom 28. Sept. 1923 SR 747.11 über das Schiffsregister'; both articles are explicitly tied to the same federal act identified by SR 747.11."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 1",
+      "Art. 13",
+      "Art. 16"
+    ],
+    "confidence": "high",
+    "reasoning": "This is an internal cross-reference within the same ordinance: '... nach Artikel 1 ... Vorbehalten bleiben die Artikel 13 und 16.' No external SR is mentioned, so it refers to articles of the current document."
+  },
+  {
+    "ITEM": 8,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 6"
+    ],
+    "confidence": "high",
+    "reasoning": "The phrase 'neben den Kosten nach Artikel 6 AllgGebV' refers to Art. 6 of the Allgemeine Gebührenverordnung, but the SR for AllgGebV is handled in item 3; here, as an artikel_reference without SR, it is treated as a cross-reference to that external act, not to the current document. Since this type outputs as the SR link itself only when linking internally and no SR is present, it is best classified as an internal reference placeholder to Art. 6 AllgGebV without assigning a TARGET_SR."
+  },
+  {
+    "ITEM": 9,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 4 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet states '... wird nach Artikel 4 Absatz 2 verrechnet.' No SR is mentioned, so this is a self-reference to Art. 4 Abs. 2 of the same ordinance."
+  },
+  {
+    "ITEM": 10,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 35 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "The phrase 'nach Artikel 35 Absatz 1 des Seeschifffahrtsgesetzes' clearly refers to Art. 35 Abs. 1 of the Seeschifffahrtsgesetz (SR 747.30), but since this item_type is artikel_reference without explicit SR, it is treated as a cross-reference to another law rather than an internal article; no TARGET_SR is set here."
+  },
+  {
+    "ITEM": 11,
+    "ARTICLE_EID": "art_8",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 66"
+    ],
+    "confidence": "high",
+    "reasoning": "The parenthetical '(Art. 66 Seeschifffahrtsgesetz)' is a citation to Art. 66 of the Seeschifffahrtsgesetz; as an artikel_reference without SR, it is recorded as an external article reference."
+  },
+  {
+    "ITEM": 12,
+    "ARTICLE_EID": "art_8_a",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 19 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "The text 'Anerkennung einer Prüfungsstelle nach Artikel 19 Absatz 2' is an internal reference within the same ordinance (no SR mentioned), so it points to Art. 19 Abs. 2 of this document."
+  },
+  {
+    "ITEM": 13,
+    "ARTICLE_EID": "art_10",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 36",
+      "Art. 20"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet mentions 'Artikel 36 Seeschifffahrtsgesetz' and 'Artikel 20 des Bundesgesetzes vom 28. September 1923 über das Schiffsregister'; both are external articles (Seeschifffahrtsgesetz and Schiffsregistergesetz) referenced from the current ordinance."
+  },
+  {
+    "ITEM": 14,
+    "ARTICLE_EID": "art_10",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 39",
+      "Art. 19 Abs. 2",
+      "Art. 20 Abs. 2",
+      "Art. 20 Abs. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "The text cites 'Artikel 39 Seeschifffahrtsgesetz' and 'Artikeln 19 Absatz 2 und 20 Absätze 2 und 3 des Bundesgesetzes vom 28. September 1923 über das Schiffsregister'; these are external article references, not internal self-references."
+  },
+  {
+    "ITEM": 15,
+    "ARTICLE_EID": "art_13",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 19",
+      "Art. 20"
+    ],
+    "confidence": "high",
+    "reasoning": "The parenthetical '(Art. 19 und 20 des BG vom 28. Sept. 1923 über das Schiffsregister)' clearly refers to Arts. 19 and 20 of that federal act; again, external references captured by this artikel_reference."
+  },
+  {
+    "ITEM": 16,
+    "ARTICLE_EID": "art_13",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 36",
+      "Art. 20"
+    ],
+    "confidence": "high",
+    "reasoning": "The clause 'mit Ausnahme der Fälle nach Artikel 36 Seeschifffahrtsgesetz und Artikel 20 des Bundesgesetzes vom 28. September 1923 über das Schiffsregister' cites Art. 36 of the Seeschifffahrtsgesetz and Art. 20 of the Schiffsregistergesetz as external references."
+  },
+  {
+    "ITEM": 17,
+    "ARTICLE_EID": "art_14",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 43 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "The parenthetical '(Art. 43 Abs. 2 Seeschifffahrtsgesetz)' is a citation to Art. 43 Abs. 2 of the Seeschifffahrtsgesetz; no internal SR context, so treated as an external article reference."
+  },
+  {
+    "ITEM": 18,
+    "ARTICLE_EID": "art_14",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 43 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Again '(Art. 43 Abs. 2 Seeschifffahrtsgesetz)' appears; same external article reference as in item 17."
+  },
+  {
+    "ITEM": 19,
+    "ARTICLE_EID": "art_14",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 120"
+    ],
+    "confidence": "high",
+    "reasoning": "The parenthetical '(Art. 120 Seeschifffahrtsgesetz)' cites Art. 120 of the Seeschifffahrtsgesetz; external reference."
+  },
+  {
+    "ITEM": 20,
+    "ARTICLE_EID": "art_15",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 65"
+    ],
+    "confidence": "high",
+    "reasoning": "The parenthetical '(Art. 65 Seeschifffahrtsgesetz)' is a citation to Art. 65 of the Seeschifffahrtsgesetz; external reference."
+  },
+  {
+    "ITEM": 21,
+    "ARTICLE_EID": "art_16",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 59"
+    ],
+    "confidence": "high",
+    "reasoning": "The parenthetical '(Art. 59 Seeschifffahrtsgesetz)' cites Art. 59 of the Seeschifffahrtsgesetz; external reference."
+  },
+  {
+    "ITEM": 22,
+    "ARTICLE_EID": "art_16",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 81"
+    ],
+    "confidence": "high",
+    "reasoning": "The parenthetical '(Art. 81 Seeschifffahrtsgesetz)' cites Art. 81 of the Seeschifffahrtsgesetz; external reference."
+  },
+  {
+    "ITEM": 23,
+    "ARTICLE_EID": "art_16",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 59"
+    ],
+    "confidence": "high",
+    "reasoning": "The parenthetical '(Art. 59 Seeschifffahrtsgesetz)' again cites Art. 59 of the Seeschifffahrtsgesetz; external reference."
+  },
+  {
+    "ITEM": 24,
+    "ARTICLE_EID": "art_16",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 82 Abs. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "The parenthetical '(Art. 82 Abs. 3 Seeschifffahrtsgesetz)' cites Art. 82 Abs. 3 of the Seeschifffahrtsgesetz; external reference."
+  }
+]

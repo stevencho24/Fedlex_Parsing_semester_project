@@ -1,0 +1,72 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 172.010",
+    "assigned_articles": [
+      "Art. 46a"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet explicitly cites 'Artikel 46a des Regierungs- und Verwaltungsorganisationsgesetzes ... SR 172.010'; the article number is directly linked to the cited SR."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 170.512",
+    "assigned_articles": [
+      "Art. 19 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet explicitly cites 'Artikel 19 Absatz 1 des Publikationsgesetzes ... SR 170.512'; this article and paragraph are clearly attributed to the cited SR."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": "SR 172.041.1",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "The sentence states that, where this ordinance has no special rules, the provisions of the Allgemeine Gebührenverordnung apply, followed by 'SR 172.041.1' without any article number; this is a blanket reference to the whole ordinance."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": "SR 172.041.1",
+    "assigned_articles": [
+      "Art. 6 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet refers to 'Auslagen im Sinne von Artikel 6 Absatz 2 der Allgemeinen Gebührenverordnung ... SR 172.041.1'; the article and paragraph are syntactically and semantically tied to the cited SR."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": "SR 172.010.1",
+    "assigned_articles": [
+      "Art. 7 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet cites 'gemäss Artikel 7 Absatz 1 der Regierungs- und Verwaltungsorganisationsverordnung ... SR 172.010.1'; this clearly links Art. 7 Abs. 1 to the referenced SR."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "This is an artikel_reference item without an SR; 'Artikel 6 Absatz 2' here mirrors the external citation in ITEM 4 but, per instructions, artikel_reference is used to capture self-references within the same document and does not create a new SR link."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "This artikel_reference item repeats 'Artikel 7 Absatz 1' without an SR in the snippet; according to the rules, isolated article mentions without an SR are treated as internal references within the current document, not as links to the external SR 172.010.1."
+  }
+]

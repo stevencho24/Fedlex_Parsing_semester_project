@@ -1,0 +1,42 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 0.946.294.541",
+    "assigned_articles": [
+      "Art. 5"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet explicitly states 'in Ausführung von Artikel 5 des Handelsvertrages ... SR 0.946.294.541', directly linking Art. 5 to this SR."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 0.946.294.541.40",
+    "assigned_articles": [
+      "Art. 3 Ziff. II"
+    ],
+    "confidence": "medium",
+    "reasoning": "The snippet refers to 'Artikel 3 des Fünften Zusatzprotokolles ... [AS 1983 30. SR 0.946.294.541.40 Ziff. II]'; the only structured subdivision mentioned is 'Ziff. II', so it is interpreted as Art. 3, Ziffer II of this SR."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 0.946.294.541.4",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "The text only mentions 'des Abkommens vom 25. April 1961 SR 0.946.294.541.4' without any article number or subdivision; this is a reference to the agreement as a whole."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 170.512.1",
+    "assigned_articles": [
+      "Art. 16 Abs. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "The authorial note states 'in Anwendung von Art. 16 Abs. 3 der Publikationsverordnung ... (SR 170.512.1)', directly and unambiguously linking this article and paragraph to the cited SR."
+  }
+]

@@ -1,0 +1,82 @@
+[
+  {
+    "Item": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 910.1",
+    "assigned_articles": [
+      "Art. 136 Abs. 4",
+      "Art. 136 Abs. 5",
+      "Art. 177 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Präambel nennt ausdrücklich: 'gestützt auf die Artikel 136 Absätze 4 und 5 sowie 177 Absatz 1 des Landwirtschaftsgesetzes ... SR 910.1 (LwG)'; diese Artikel sind direkt und syntaktisch dem LwG (SR 910.1) zugeordnet."
+  },
+  {
+    "Item": 2,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": "SR 910.1",
+    "assigned_articles": [
+      "Art. 136 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Snippet: 'nach Artikel 136 Absatz 1 LwG'; das Akronym LwG ist in der Präambel eindeutig SR 910.1 zugeordnet, daher gehört Art. 136 Abs. 1 zum LwG (SR 910.1)."
+  },
+  {
+    "Item": 3,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": "SR 910.1",
+    "assigned_articles": [
+      "Art. 136 Abs. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Snippet: 'Beratungszentrale nach Artikel 136 Absatz 3 LwG.'; LwG verweist gemäss Präambel auf SR 910.1, somit ist Art. 136 Abs. 3 dem SR 910.1 zuzuordnen."
+  },
+  {
+    "Item": 4,
+    "ARTICLE_EID": "art_11",
+    "TARGET_SR": "SR 910.1",
+    "assigned_articles": [
+      "Art. 93 Abs. 1 Bst. c",
+      "Art. 77a",
+      "Art. 77b"
+    ],
+    "confidence": "high",
+    "reasoning": "Das Snippet nennt: '... Projekte zur regionalen Entwicklung nach Artikel 93 Absatz 1 Buchstabe c LwG und Ressourcenprojekte nach den Artikeln 77a und 77b LwG.'; alle genannten Artikel sind explizit mit LwG verknüpft, welches in der Präambel SR 910.1 ist."
+  },
+  {
+    "Item": 5,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 136 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "Artikelreferenz: 'nach Artikel 136 Absatz 1 LwG'; dies ist eine inhaltlich identische Selbstreferenz wie in Item 2, verweist aber auf ein anderes Gesetz (LwG/SR 910.1), nicht auf die eigene Verordnung. Da kein TARGET_SR vorhanden ist, handelt es sich um einen externen Verweis; der genannte Artikel ist Art. 136 Abs. 1 LwG."
+  },
+  {
+    "Item": 6,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 136 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "Auch hier: 'der Personen nach Artikel 136 Absatz 1 LwG;'; wiederum klarer externer Verweis auf das Landwirtschaftsgesetz. Ohne TARGET_SR wird nur der referenzierte Artikel selbst ausgewiesen: Art. 136 Abs. 1."
+  },
+  {
+    "Item": 7,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Die Formulierung 'Die Institutionen nach Artikel 1 Buchstabe a' verweist auf einen Artikel derselben Verordnung (interne Struktur, kein Gesetzesakronym oder SR-Hinweis). Gemäss Regeln sind solche internen Strukturverweise als Selbstreferenz zu behandeln; es wird daher kein externes SR und kein externer Artikel zugeordnet."
+  },
+  {
+    "Item": 8,
+    "ARTICLE_EID": "art_8",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Die Verweise 'Leistungsvereinbarung nach Artikel 5 Absatz 4' und 'Aufgaben nach Artikel 4' beziehen sich offensichtlich auf Artikel derselben Verordnung (keine Nennung eines anderen Gesetzes oder Akronyms). Dies sind interne Selbstreferenzen; daher keine Zuweisung zu einem externen SR-Dokument."
+  }
+]

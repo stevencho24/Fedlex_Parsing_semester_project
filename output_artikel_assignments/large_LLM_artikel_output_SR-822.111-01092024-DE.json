@@ -1,0 +1,730 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 822.11",
+    "assigned_articles": ["Art. 40"],
+    "confidence": "high",
+    "reasoning": "Im Preambeltext: «gestützt auf Artikel 40 des Arbeitsgesetzes ... SR 822.11»; der Artikel ist direkt mit SR 822.11 verknüpft."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 832.20",
+    "assigned_articles": ["Art. 83 Abs. 2"],
+    "confidence": "high",
+    "reasoning": "«Artikel 83 Absatz 2 des Bundesgesetzes ... SR 832.20 über die Unfallversicherung (UVG)»; eindeutige Zuordnung."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 235.1",
+    "assigned_articles": ["Art. 33"],
+    "confidence": "high",
+    "reasoning": "«Artikel 33 des Datenschutzgesetzes ... SR 235.1 (DSG)»; klarer Bezug."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_41",
+    "TARGET_SR": "SR 822.115",
+    "assigned_articles": ["Art. 12 Abs. 1", "Art. 13 Abs. 1"],
+    "confidence": "high",
+    "reasoning": "«Voraussetzungen nach den Artikeln 12 Absatz 1 und 13 Absatz 1 der Jugendarbeitsschutzverordnung ... SR 822.115»; beide Artikel gehören zu dieser Verordnung."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_45",
+    "TARGET_SR": "SR 832.30",
+    "assigned_articles": ["Art. 50 Abs. 3"],
+    "confidence": "high",
+    "reasoning": "«gestützt auf Artikel 50 Absatz 3 der Verordnung ... SR 832.30 über die Unfallverhütung»; direkter Verweis."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_45",
+    "TARGET_SR": "SR 741.51",
+    "assigned_articles": ["Art. 27"],
+    "confidence": "high",
+    "reasoning": "«verkehrsmedizinischen Untersuchung nach Artikel 27 der Verkehrszulassungsverordnung ... SR 741.51»; klarer Bezug."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_63",
+    "TARGET_SR": "SR 832.30",
+    "assigned_articles": ["Art. 11a ff."],
+    "confidence": "high",
+    "reasoning": "«nach den Grundsätzen der Artikel 11a ff. der Verordnung ... SR 832.30»; die Artikelkette gehört zu dieser Verordnung."
+  },
+  {
+    "ITEM": 8,
+    "ARTICLE_EID": "art_63",
+    "TARGET_SR": "SR 822.113",
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Nur «die Vorschriften der Verordnung 3 ... SR 822.113» ohne Artikelangabe; daher allgemeiner Dokumentverweis ohne konkrete Artikel."
+  },
+  {
+    "ITEM": 9,
+    "ARTICLE_EID": "art_67",
+    "TARGET_SR": "SR 822.14",
+    "assigned_articles": ["Art. 5–7"],
+    "confidence": "high",
+    "reasoning": "«nach den Grundsätzen der Artikel 5–7 des Mitwirkungsgesetzes ... SR 822.14»; Bereichsangabe gehört zu diesem Gesetz."
+  },
+  {
+    "ITEM": 10,
+    "ARTICLE_EID": "art_75",
+    "TARGET_SR": "SR 172.010",
+    "assigned_articles": ["Art. 62a–62c"],
+    "confidence": "high",
+    "reasoning": "«koordinierten Bundesverfahren nach Artikel 62a–62c des Regierungs- und Verwaltungsorganisationsgesetzes ... SR 172.010»; eindeutiger Bereichsverweis."
+  },
+  {
+    "ITEM": 11,
+    "ARTICLE_EID": "art_85",
+    "TARGET_SR": "SR 822.113",
+    "assigned_articles": ["Art. 24a"],
+    "confidence": "high",
+    "reasoning": "«Aufgaben nach Artikel 24a der Verordnung 3 ... SR 822.113»; klarer Artikelverweis."
+  },
+  {
+    "ITEM": 12,
+    "ARTICLE_EID": "art_85",
+    "TARGET_SR": "SR 813.1",
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "«nach dem Chemikaliengesetz ... SR 813.1 (ChemG)» ohne Artikelnummer; allgemeiner Gesetzesverweis."
+  },
+  {
+    "ITEM": 13,
+    "ARTICLE_EID": "art_85",
+    "TARGET_SR": "SR 813.11",
+    "assigned_articles": ["Art. 48"],
+    "confidence": "high",
+    "reasoning": "«insbesondere betreffend meldepflichtige Chemikalien nach Artikel 48 der Chemikalienverordnung ... SR 813.11»; direkter Artikelbezug."
+  },
+  {
+    "ITEM": 14,
+    "ARTICLE_EID": "art_85",
+    "TARGET_SR": "SR 814.81",
+    "assigned_articles": ["Anhang 1.17"],
+    "confidence": "high",
+    "reasoning": "«Verbote nach Anhang 1.17 der Chemikalien-Risikoreduktions-Verordnung ... SR 814.81»; Anhang ist die relevante Normeinheit."
+  },
+  {
+    "ITEM": 15,
+    "ARTICLE_EID": "art_85",
+    "TARGET_SR": "SR 813.12",
+    "assigned_articles": ["Art. 34 Abs. 1"],
+    "confidence": "high",
+    "reasoning": "«Daten nach Artikel 34 Absatz 1 der Biozidprodukteverordnung ... SR 813.12»; klarer Verweis."
+  },
+  {
+    "ITEM": 16,
+    "ARTICLE_EID": "art_85",
+    "TARGET_SR": "SR 916.161",
+    "assigned_articles": ["Art. 52 Abs. 3"],
+    "confidence": "high",
+    "reasoning": "«Daten nach Artikel 52 Absatz 3 der Pflanzenschutzmittelverordnung ... SR 916.161»; eindeutiger Artikel."
+  },
+  {
+    "ITEM": 17,
+    "ARTICLE_EID": "art_73_a",
+    "TARGET_SR": "SR 832.20",
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "«Höchstbetrags des versicherten Verdiensts nach dem UVG»; keine konkrete Artikelnummer des UVG genannt, nur Gesetz als Ganzes."
+  },
+  {
+    "ITEM": 18,
+    "ARTICLE_EID": "art_85",
+    "TARGET_SR": "SR 832.20",
+    "assigned_articles": ["Art. 96"],
+    "confidence": "high",
+    "reasoning": "Im Klammerzusatz «(Art. 44b ArG, Art. 96 UVG)»; Art. 96 gehört zum UVG (SR 832.20)."
+  },
+  {
+    "ITEM": 19,
+    "ARTICLE_EID": "art_87",
+    "TARGET_SR": "SR 832.20",
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "«Vollzug des Gesetzes oder des UVG»; UVG wird nur als Ganzes erwähnt, ohne Artikelangabe."
+  },
+  {
+    "ITEM": 20,
+    "ARTICLE_EID": "art_89",
+    "TARGET_SR": "SR 235.1",
+    "assigned_articles": ["Art. 33", "Art. 44–46"],
+    "confidence": "medium",
+    "reasoning": "Klammerzusatz «(Art. 33 DSG, Art. 44–46 ArG)»; Art. 33 DSG gehört sicher zu SR 235.1. Die nachfolgende Passage verweist allgemein auf «Bestimmungen des DSG»; die im Klammerzusatz genannten ArG-Artikel gehören nicht zu SR 235.1."
+  },
+  {
+    "ITEM": 21,
+    "ARTICLE_EID": "art_90",
+    "TARGET_SR": "SR 235.1",
+    "assigned_articles": [],
+    "confidence": "medium",
+    "reasoning": "«richtet sich nach dem DSG» ohne konkrete Artikel; Strafbestimmungen liegen zwar in bestimmten DSG-Artikeln, werden aber nicht genannt, daher allgemeiner Verweis."
+  },
+  {
+    "ITEM": 22,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": "SR 822.11",
+    "assigned_articles": ["Art. 2 Abs. 1 Bst. b"],
+    "confidence": "high",
+    "reasoning": "«unter Vorbehalt von Artikel 2 Absatz 1 Buchstabe b des Gesetzes»; das «Gesetz» ist im Dokument als ArG (SR 822.11) definiert."
+  },
+  {
+    "ITEM": 23,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": "SR 822.11",
+    "assigned_articles": ["Art. 2 Abs. 1 Bst. b"],
+    "confidence": "high",
+    "reasoning": "Gleiche Formulierung wie bei ITEM 22; interner Verweis auf ArG."
+  },
+  {
+    "ITEM": 24,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": "SR 822.11",
+    "assigned_articles": ["Art. 4", "Art. 4a"],
+    "confidence": "high",
+    "reasoning": "«Die Artikel 4 und 4a bleiben vorbehalten.»; reine Selbstreferenz innerhalb des ArG."
+  },
+  {
+    "ITEM": 25,
+    "ARTICLE_EID": "art_13",
+    "TARGET_SR": "SR 822.11",
+    "assigned_articles": ["Art. 15 Abs. 2"],
+    "confidence": "high",
+    "reasoning": "«sowie Artikel 15 Absatz 2.»; im Kontext des Gesetzes (ArG) eindeutig interne Norm."
+  },
+  {
+    "ITEM": 26,
+    "ARTICLE_EID": "art_17",
+    "TARGET_SR": "SR 822.11",
+    "assigned_articles": ["Art. 33"],
+    "confidence": "high",
+    "reasoning": "«für deren Bemessung Artikel 33 anwendbar.»; mangels anderer SR-Bezüge ist dies ein interner Verweis im ArG."
+  },
+  {
+    "ITEM": 27,
+    "ARTICLE_EID": "art_18",
+    "TARGET_SR": "SR 822.11",
+    "assigned_articles": ["Art. 15"],
+    "confidence": "high",
+    "reasoning": "«zusätzliche Pause gemäss Artikel 15 des Gesetzes»; das Gesetz ist ArG."
+  },
+  {
+    "ITEM": 28,
+    "ARTICLE_EID": "art_18",
+    "TARGET_SR": "SR 822.11",
+    "assigned_articles": ["Art. 15 Abs. 2"],
+    "confidence": "high",
+    "reasoning": "«Arbeitsplatz im Sinne von Artikel 15 Absatz 2 des Gesetzes»; interner ArG-Verweis."
+  },
+  {
+    "ITEM": 29,
+    "ARTICLE_EID": "art_19",
+    "TARGET_SR": "SR 822.11",
+    "assigned_articles": ["Art. 21 Abs. 2"],
+    "confidence": "high",
+    "reasoning": "«Ruhezeit ... nach Artikel 21 Absatz 2»; ohne anderes SR ist dies ein ArG-Artikel."
+  },
+  {
+    "ITEM": 30,
+    "ARTICLE_EID": "art_19",
+    "TARGET_SR": "SR 822.11",
+    "assigned_articles": ["Art. 15a Abs. 2", "Art. 25"],
+    "confidence": "high",
+    "reasoning": "«nach Artikel 15a Absatz 2 des Gesetzes ... Überzeiteinsätzen nach Artikel 25»; beide Artikel gehören zum ArG."
+  },
+  {
+    "ITEM": 31,
+    "ARTICLE_EID": "art_19",
+    "TARGET_SR": "SR 822.11",
+    "assigned_articles": ["Art. 14"],
+    "confidence": "high",
+    "reasoning": "«Piketteinsätze nach Artikel 14»; interner Verweis im ArG."
+  },
+  {
+    "ITEM": 32,
+    "ARTICLE_EID": "art_20",
+    "TARGET_SR": "SR 822.11",
+    "assigned_articles": ["Art. 26"],
+    "confidence": "high",
+    "reasoning": "«Sonderfällen nach Artikel 26.»; ohne andere SR ist dies ein ArG-Artikel."
+  },
+  {
+    "ITEM": 33,
+    "ARTICLE_EID": "art_20",
+    "TARGET_SR": "SR 822.11",
+    "assigned_articles": ["Art. 20a Abs. 1"],
+    "confidence": "high",
+    "reasoning": "«Feiertag im Sinne von Artikel 20a Absatz 1 des Gesetzes»; interner ArG-Verweis."
+  },
+  {
+    "ITEM": 34,
+    "ARTICLE_EID": "art_24",
+    "TARGET_SR": "SR 822.11",
+    "assigned_articles": ["Art. 11"],
+    "confidence": "high",
+    "reasoning": "«Ausgleich ... nach Artikel 11 des Gesetzes»; ArG-intern."
+  },
+  {
+    "ITEM": 35,
+    "ARTICLE_EID": "art_25",
+    "TARGET_SR": "SR 822.11",
+    "assigned_articles": ["Art. 26", "Art. 12 Abs. 1 Bst. a", "Art. 12 Abs. 1 Bst. b", "Art. 10"],
+    "confidence": "high",
+    "reasoning": "«Unter Vorbehalt von Artikel 26 ... Überzeitarbeit nach Artikel 12 Absatz 1 Buchstaben a und b ... nur ... nach Artikel 10 des Gesetzes»; alle Normen sind ArG-Artikel."
+  },
+  {
+    "ITEM": 36,
+    "ARTICLE_EID": "art_25",
+    "TARGET_SR": "SR 822.11",
+    "assigned_articles": ["Art. 13 Abs. 2"],
+    "confidence": "high",
+    "reasoning": "«Ausgleich ... nach Artikel 13 Absatz 2 des Gesetzes»; interner ArG-Verweis."
+  },
+  {
+    "ITEM": 37,
+    "ARTICLE_EID": "art_26",
+    "TARGET_SR": "SR 822.11",
+    "assigned_articles": ["Art. 20 Abs. 3"],
+    "confidence": "high",
+    "reasoning": "«Vorbehalten bleibt Artikel 20 Absatz 3 des Gesetzes.»; ArG-intern."
+  },
+  {
+    "ITEM": 38,
+    "ARTICLE_EID": "art_27",
+    "TARGET_SR": "SR 822.11",
+    "assigned_articles": ["Art. 17 Abs. 3", "Art. 19 Abs. 3", "Art. 24 Abs. 3"],
+    "confidence": "high",
+    "reasoning": "«im Sinne von Artikel 17 Absatz 3, 19 Absatz 3 und 24 Absatz 3 des Gesetzes»; alle im ArG."
+  },
+  {
+    "ITEM": 39,
+    "ARTICLE_EID": "art_27",
+    "TARGET_SR": "SR 822.11",
+    "assigned_articles": ["Art. 17 Abs. 4"],
+    "confidence": "high",
+    "reasoning": "«im Sinne von Artikel 17 Absatz 4 des Gesetzes»; ArG-intern."
+  },
+  {
+    "ITEM": 40,
+    "ARTICLE_EID": "art_28",
+    "TARGET_SR": "SR 822.11",
+    "assigned_articles": ["Art. 17 Abs. 2", "Art. 19 Abs. 2", "Art. 24 Abs. 2"],
+    "confidence": "high",
+    "reasoning": "«im Sinne von Artikel 17 Absatz 2, 19 Absatz 2 und 24 Absatz 2»; alle ArG-Artikel."
+  },
+  {
+    "ITEM": 41,
+    "ARTICLE_EID": "art_28",
+    "TARGET_SR": "SR 822.11",
+    "assigned_articles": ["Art. 17 Abs. 2", "Art. 19 Abs. 2", "Art. 24 Abs. 2"],
+    "confidence": "high",
+    "reasoning": "Wiederholung derselben Normenkette «im Sinne von Artikel 17 Absatz 2, 19 Absatz 2 und 24 Absatz 2 des Gesetzes»; ArG."
+  },
+  {
+    "ITEM": 42,
+    "ARTICLE_EID": "art_29",
+    "TARGET_SR": "SR 822.11",
+    "assigned_articles": ["Art. 17a Abs. 2"],
+    "confidence": "high",
+    "reasoning": "«gemäss Artikel 17a Absatz 2 des Gesetzes»; interner ArG-Verweis."
+  },
+  {
+    "ITEM": 43,
+    "ARTICLE_EID": "art_30",
+    "TARGET_SR": "SR 822.11",
+    "assigned_articles": ["Art. 25 Abs. 3"],
+    "confidence": "high",
+    "reasoning": "«ohne Wechsel mit Tagesarbeit nach Artikel 25 Absatz 3 des Gesetzes»; ArG-intern."
+  },
+  {
+    "ITEM": 44,
+    "ARTICLE_EID": "art_30",
+    "TARGET_SR": "SR 822.11",
+    "assigned_articles": ["Art. 25 Abs. 3"],
+    "confidence": "high",
+    "reasoning": "Gleicher Verweis «nach Artikel 25 Absatz 3 des Gesetzes»; ArG."
+  },
+  {
+    "ITEM": 45,
+    "ARTICLE_EID": "art_30",
+    "TARGET_SR": "SR 822.11",
+    "assigned_articles": ["Art. 29 Abs. 1 Bst. a–d"],
+    "confidence": "high",
+    "reasoning": "«Voraussetzungen nach Artikel 29 Absatz 1 Buchstaben a–d»; interner Verweis."
+  },
+  {
+    "ITEM": 46,
+    "ARTICLE_EID": "art_30",
+    "TARGET_SR": "SR 822.11",
+    "assigned_articles": ["Art. 25"],
+    "confidence": "high",
+    "reasoning": "«keine Überzeitarbeit nach Artikel 25 leisten»; ArG-intern."
+  },
+  {
+    "ITEM": 47,
+    "ARTICLE_EID": "art_32",
+    "TARGET_SR": "SR 822.11",
+    "assigned_articles": ["Art. 17b Abs. 3 Bst. a", "Art. 17b Abs. 3 Bst. b"],
+    "confidence": "high",
+    "reasoning": "«Zeitzuschlag nach Artikel 17b Absatz 3 Buchstaben a und b des Gesetzes»; ArG-Artikel."
+  },
+  {
+    "ITEM": 48,
+    "ARTICLE_EID": "art_32",
+    "TARGET_SR": "SR 822.11",
+    "assigned_articles": ["Art. 17b Abs. 3 Bst. c"],
+    "confidence": "high",
+    "reasoning": "«nach Artikel 17b Absatz 3 Buchstabe c des Gesetzes»; interner Verweis."
+  },
+  {
+    "ITEM": 49,
+    "ARTICLE_EID": "art_34",
+    "TARGET_SR": "SR 822.11",
+    "assigned_articles": ["Art. 25"],
+    "confidence": "high",
+    "reasoning": "«Überzeitarbeit nach Artikel 25 ist nur ... zulässig»; ArG-intern."
+  },
+  {
+    "ITEM": 50,
+    "ARTICLE_EID": "art_34",
+    "TARGET_SR": "SR 822.11",
+    "assigned_articles": ["Art. 25"],
+    "confidence": "high",
+    "reasoning": "Wiederholung des Verweises auf «Überzeitarbeit nach Artikel 25»; ArG."
+  },
+  {
+    "ITEM": 51,
+    "ARTICLE_EID": "art_38",
+    "TARGET_SR": "SR 822.11",
+    "assigned_articles": ["Art. 9"],
+    "confidence": "high",
+    "reasoning": "«wöchentliche Höchstarbeitszeit nach Artikel 9 des Gesetzes»; ArG-intern."
+  },
+  {
+    "ITEM": 52,
+    "ARTICLE_EID": "art_38",
+    "TARGET_SR": "SR 822.11",
+    "assigned_articles": ["Art. 37", "Art. 38"],
+    "confidence": "high",
+    "reasoning": "«sofern die Artikel 37 und 38 nichts anderes bestimmen»; interne Artikel der gleichen Verordnung/Gesetzeskomplexes (ArG-Regelungswerk)."
+  },
+  {
+    "ITEM": 53,
+    "ARTICLE_EID": "art_39",
+    "TARGET_SR": "SR 822.11",
+    "assigned_articles": ["Art. 37", "Art. 38"],
+    "confidence": "high",
+    "reasoning": "«sind die Artikel 37 und 38 nicht anwendbar»; interne Normen."
+  },
+  {
+    "ITEM": 54,
+    "ARTICLE_EID": "art_39",
+    "TARGET_SR": "SR 822.11",
+    "assigned_articles": ["Art. 25"],
+    "confidence": "high",
+    "reasoning": "«nicht zu Überzeitarbeit nach Artikel 25 herangezogen werden»; ArG-intern."
+  },
+  {
+    "ITEM": 55,
+    "ARTICLE_EID": "art_40",
+    "TARGET_SR": "SR 822.11",
+    "assigned_articles": ["Art. 17", "Art. 19"],
+    "confidence": "high",
+    "reasoning": "«Vorübergehend ist Nacht- oder Sonntagsarbeit im Sinne von Artikel 17 beziehungsweise Artikel 19 des Gesetzes»; interne ArG-Artikel."
+  },
+  {
+    "ITEM": 56,
+    "ARTICLE_EID": "art_40",
+    "TARGET_SR": "SR 822.11",
+    "assigned_articles": ["Art. 27 Abs. 2"],
+    "confidence": "high",
+    "reasoning": "«Arbeitseinsätze nach Artikel 27 Absatz 2»; interner Verweis."
+  },
+  {
+    "ITEM": 57,
+    "ARTICLE_EID": "art_41",
+    "TARGET_SR": "SR 822.11",
+    "assigned_articles": ["Art. 49 Abs. 2"],
+    "confidence": "high",
+    "reasoning": "«Artikel 49 Absatz 2 des Gesetzes bleibt vorbehalten»; ArG-intern."
+  },
+  {
+    "ITEM": 58,
+    "ARTICLE_EID": "art_41",
+    "TARGET_SR": "SR 822.11",
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "«Artikeln 12 Absatz 1 und 13 Absatz 1 der Jugendarbeitsschutzverordnung»; diese Artikel gehören zu SR 822.115, nicht zum eigenen SR 822.11, daher Selbstreferenz im Sinne der Aufgabe und nicht dem TARGET_SR zuzuordnen."
+  },
+  {
+    "ITEM": 59,
+    "ARTICLE_EID": "art_43",
+    "TARGET_SR": "SR 822.11",
+    "assigned_articles": ["Art. 29", "Art. 30", "Art. 45"],
+    "confidence": "high",
+    "reasoning": "«medizinische Untersuchung nach den Artikeln 29, 30 und 45»; interne Artikel der gleichen Verordnung/Gesetzes."
+  },
+  {
+    "ITEM": 60,
+    "ARTICLE_EID": "art_43",
+    "TARGET_SR": "SR 822.11",
+    "assigned_articles": ["Art. 17c"],
+    "confidence": "high",
+    "reasoning": "«Beratung nach Artikel 17c des Gesetzes»; ArG-intern."
+  },
+  {
+    "ITEM": 61,
+    "ARTICLE_EID": "art_43",
+    "TARGET_SR": "SR 822.11",
+    "assigned_articles": ["Art. 42 Abs. 4"],
+    "confidence": "high",
+    "reasoning": "«Sachverständige nach Artikel 42 Absatz 4 des Gesetzes»; interner ArG-Verweis."
+  },
+  {
+    "ITEM": 62,
+    "ARTICLE_EID": "art_45",
+    "TARGET_SR": "SR 832.30",
+    "assigned_articles": ["Art. 50 Abs. 3"],
+    "confidence": "high",
+    "reasoning": "«gestützt auf Artikel 50 Absatz 3 der Verordnung ... über die Unfallverhütung»; diese Verordnung ist SR 832.30, wie in ITEM 5 explizit verknüpft."
+  },
+  {
+    "ITEM": 63,
+    "ARTICLE_EID": "art_45",
+    "TARGET_SR": "SR 741.51",
+    "assigned_articles": ["Art. 27"],
+    "confidence": "high",
+    "reasoning": "«Untersuchung ... nach Artikel 27 der Verkehrszulassungsverordnung»; diese ist SR 741.51, wie in ITEM 6 explizit verknüpft."
+  },
+  {
+    "ITEM": 64,
+    "ARTICLE_EID": "art_46",
+    "TARGET_SR": "SR 822.11",
+    "assigned_articles": ["Art. 36"],
+    "confidence": "high",
+    "reasoning": "«Erziehungs- oder Betreuungspflichten nach Artikel 36 des Gesetzes»; ArG-intern."
+  },
+  {
+    "ITEM": 65,
+    "ARTICLE_EID": "art_61",
+    "TARGET_SR": "SR 822.11",
+    "assigned_articles": ["Art. 15"],
+    "confidence": "high",
+    "reasoning": "«zusätzlich zu den Pausen nach Artikel 15 des Gesetzes»; interner ArG-Verweis."
+  },
+  {
+    "ITEM": 66,
+    "ARTICLE_EID": "art_62",
+    "TARGET_SR": "SR 822.11",
+    "assigned_articles": ["Art. 64 Abs. 3", "Art. 65"],
+    "confidence": "high",
+    "reasoning": "«nach Artikel 64 Absatz 3 beziehungsweise nach Artikel 65 zu verfahren»; interne Artikel."
+  },
+  {
+    "ITEM": 67,
+    "ARTICLE_EID": "art_63",
+    "TARGET_SR": "SR 832.30",
+    "assigned_articles": ["Art. 11a ff."],
+    "confidence": "high",
+    "reasoning": "«nach den Grundsätzen der Artikel 11a ff. der Verordnung ... über die Verhütung von Unfällen und Berufskrankheiten»; diese Verordnung ist SR 832.30 (vgl. ITEM 7)."
+  },
+  {
+    "ITEM": 68,
+    "ARTICLE_EID": "art_63",
+    "TARGET_SR": "SR 822.11",
+    "assigned_articles": ["Art. 62"],
+    "confidence": "high",
+    "reasoning": "«Betrieb ... nach Artikel 62»; interner Verweis im eigenen Regelwerk."
+  },
+  {
+    "ITEM": 69,
+    "ARTICLE_EID": "art_63",
+    "TARGET_SR": "SR 822.11",
+    "assigned_articles": ["Art. 62 Abs. 4"],
+    "confidence": "high",
+    "reasoning": "«Vorschriften nach Artikel 62 Absatz 4»; interner ArG-/Verordnungsartikel."
+  },
+  {
+    "ITEM": 70,
+    "ARTICLE_EID": "art_64",
+    "TARGET_SR": "SR 822.11",
+    "assigned_articles": ["Art. 62 Abs. 4"],
+    "confidence": "high",
+    "reasoning": "«Gefahrenpotenzial nach Artikel 62 Absatz 4»; interner Verweis."
+  },
+  {
+    "ITEM": 71,
+    "ARTICLE_EID": "art_65",
+    "TARGET_SR": "SR 822.11",
+    "assigned_articles": ["Art. 64 Abs. 3"],
+    "confidence": "high",
+    "reasoning": "«Versetzung nach Artikel 64 Absatz 3»; interne Norm."
+  },
+  {
+    "ITEM": 72,
+    "ARTICLE_EID": "art_67",
+    "TARGET_SR": "SR 822.14",
+    "assigned_articles": ["Art. 5–7"],
+    "confidence": "high",
+    "reasoning": "«nach den Grundsätzen der Artikel 5–7 des Mitwirkungsgesetzes»; dieses Gesetz ist SR 822.14 (vgl. ITEM 9)."
+  },
+  {
+    "ITEM": 73,
+    "ARTICLE_EID": "art_69",
+    "TARGET_SR": "SR 822.11",
+    "assigned_articles": ["Art. 47 Abs. 1 Bst. b"],
+    "confidence": "high",
+    "reasoning": "«nach Artikel 47 Absatz 1 Buchstabe b des Gesetzes»; ArG-intern."
+  },
+  {
+    "ITEM": 74,
+    "ARTICLE_EID": "art_70",
+    "TARGET_SR": "SR 822.11",
+    "assigned_articles": ["Art. 17e"],
+    "confidence": "high",
+    "reasoning": "«Massnahmen im Sinne von Artikel 17e des Gesetzes»; interner ArG-Artikel."
+  },
+  {
+    "ITEM": 75,
+    "ARTICLE_EID": "art_73",
+    "TARGET_SR": "SR 822.11",
+    "assigned_articles": ["Art. 10", "Art. 16", "Art. 18"],
+    "confidence": "high",
+    "reasoning": "«Abweichungen ... nach den Artikeln 10, 16 und 18 des Gesetzes»; ArG-intern."
+  },
+  {
+    "ITEM": 76,
+    "ARTICLE_EID": "art_73",
+    "TARGET_SR": "SR 822.11",
+    "assigned_articles": ["Art. 17b Abs. 2", "Art. 17b Abs. 3"],
+    "confidence": "high",
+    "reasoning": "«Zeitzuschlag nach Artikel 17b Absätze 2 und 3 des Gesetzes»; ArG-Artikel."
+  },
+  {
+    "ITEM": 77,
+    "ARTICLE_EID": "art_73_a",
+    "TARGET_SR": "SR 822.11",
+    "assigned_articles": ["Art. 73 Abs. 1 Bst. c–e", "Art. 73 Abs. 1 Bst. h"],
+    "confidence": "high",
+    "reasoning": "«Angaben nach Artikel 73 Absatz 1 Buchstaben c–e und h»; interne Verweise."
+  },
+  {
+    "ITEM": 78,
+    "ARTICLE_EID": "art_73_b",
+    "TARGET_SR": "SR 822.11",
+    "assigned_articles": ["Art. 73 Abs. 1 Bst. c–e"],
+    "confidence": "high",
+    "reasoning": "«Angaben nach Artikel 73 Absatz 1 Buchstaben c–e»; interner Verweis."
+  },
+  {
+    "ITEM": 79,
+    "ARTICLE_EID": "art_75",
+    "TARGET_SR": "SR 822.11",
+    "assigned_articles": ["Art. 7 Abs. 4"],
+    "confidence": "high",
+    "reasoning": "«Plangenehmigungsverfahren nach den Artikeln 7 und 8 des Gesetzes»; hier ist mit «Gesetz» das ArG gemeint; Art. 7 Abs. 4 wird in ITEM 85/87 nochmals explizit genannt."
+  },
+  {
+    "ITEM": 80,
+    "ARTICLE_EID": "art_80",
+    "TARGET_SR": "SR 822.11",
+    "assigned_articles": ["Art. 41 Abs. 1"],
+    "confidence": "high",
+    "reasoning": "«nach Artikel 41 Absatz 1 des Gesetzes bezeichneten Vollzugsbehörden»; ArG-intern."
+  },
+  {
+    "ITEM": 81,
+    "ARTICLE_EID": "art_80",
+    "TARGET_SR": "SR 822.11",
+    "assigned_articles": ["Art. 20a Abs. 1"],
+    "confidence": "high",
+    "reasoning": "«Feiertage nach Artikel 20a Absatz 1 des Gesetzes»; interner ArG-Artikel."
+  },
+  {
+    "ITEM": 82,
+    "ARTICLE_EID": "art_80",
+    "TARGET_SR": "SR 822.11",
+    "assigned_articles": ["Art. 51 Abs. 2", "Art. 51 Abs. 3", "Art. 52", "Art. 53"],
+    "confidence": "high",
+    "reasoning": "«nach den Artikeln 51 Absätze 2 und 3 sowie 52 und 53 des Gesetzes»; alle ArG-intern."
+  },
+  {
+    "ITEM": 83,
+    "ARTICLE_EID": "art_82",
+    "TARGET_SR": "SR 822.11",
+    "assigned_articles": ["Art. 44"],
+    "confidence": "high",
+    "reasoning": "«Schweigepflicht nach Artikel 44 des Gesetzes»; ArG-Artikel."
+  },
+  {
+    "ITEM": 84,
+    "ARTICLE_EID": "art_83",
+    "TARGET_SR": "SR 822.11",
+    "assigned_articles": ["Art. 44a Abs. 2"],
+    "confidence": "high",
+    "reasoning": "«Einwilligung ... nach Artikel 44a Absatz 2 des Gesetzes»; interner Verweis."
+  },
+  {
+    "ITEM": 85,
+    "ARTICLE_EID": "art_85",
+    "TARGET_SR": "SR 822.11",
+    "assigned_articles": ["Art. 7 Abs. 4"],
+    "confidence": "high",
+    "reasoning": "«Plangenehmigungsverfahren nach Artikel 7 Absatz 4 des Gesetzes»; ArG-intern."
+  },
+  {
+    "ITEM": 86,
+    "ARTICLE_EID": "art_85",
+    "TARGET_SR": "SR 822.113",
+    "assigned_articles": ["Art. 24a"],
+    "confidence": "high",
+    "reasoning": "«Aufgaben nach Artikel 24a der Verordnung 3 ... zum Arbeitsgesetz»; diese Verordnung ist SR 822.113 (vgl. ITEM 11)."
+  },
+  {
+    "ITEM": 87,
+    "ARTICLE_EID": "art_85",
+    "TARGET_SR": "SR 822.11",
+    "assigned_articles": ["Art. 7 Abs. 4"],
+    "confidence": "high",
+    "reasoning": "«Verfahren nach Artikel 7 Absatz 4 des Gesetzes»; wieder interner ArG-Verweis."
+  },
+  {
+    "ITEM": 88,
+    "ARTICLE_EID": "art_85",
+    "TARGET_SR": "SR 813.1",
+    "assigned_articles": ["Art. 27"],
+    "confidence": "high",
+    "reasoning": "«Register über Stoffe und Zubereitungen nach Artikel 27 ChemG»; ChemG ist SR 813.1, Art. 27 ist dort verortet. Die weiteren DSG-/Verordnungsartikel gehören zu anderen SR (813.11, 813.12, 916.161), die in separaten Items bereits zugeordnet sind."
+  },
+  {
+    "ITEM": 89,
+    "ARTICLE_EID": "art_86",
+    "TARGET_SR": "SR 822.11",
+    "assigned_articles": ["Art. 85 Abs. 2"],
+    "confidence": "high",
+    "reasoning": "«Daten nach Artikel 85 Absatz 2»; interner Verweis."
+  },
+  {
+    "ITEM": 90,
+    "ARTICLE_EID": "art_86",
+    "TARGET_SR": "SR 822.11",
+    "assigned_articles": ["Art. 5 Abs. 2"],
+    "confidence": "high",
+    "reasoning": "«nach welchem Buchstaben von Artikel 5 Absatz 2 des Gesetzes»; ArG-intern."
+  },
+  {
+    "ITEM": 91,
+    "ARTICLE_EID": "art_94",
+    "TARGET_SR": "SR 822.11",
+    "assigned_articles": ["Art. 83–91"],
+    "confidence": "high",
+    "reasoning": "«Bestimmungen des 8. Kapitels ... (Art. 83–91)»; reine Selbstreferenz auf eigene Artikel."
+  }
+]

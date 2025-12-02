@@ -1,0 +1,46 @@
+[
+  {
+    "Item": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 916.20",
+    "assigned_articles": [
+      "Art. 22",
+      "Art. 23",
+      "Art. 32",
+      "Art. 34",
+      "Art. 36"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Formulierung «gestützt auf die Artikel 22, 23, 32, 34 und 36 der Pflanzengesundheitsverordnung … SR 916.20 (PGesV)» verknüpft die genannten Artikel direkt und eindeutig mit der PGesV (SR 916.20)."
+  },
+  {
+    "Item": 2,
+    "ARTICLE_EID": "art_2_a",
+    "TARGET_SR": "SR 916.201",
+    "assigned_articles": [
+      "Allgemeine Verweisung – gesamtes Dokument"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Snippet wird nur «Anhang 7 der Verordnung des WBF und des UVEK … SR 916.201» genannt, ohne konkrete Artikelangabe; es handelt sich um eine pauschale Bezugnahme auf den Anhang bzw. die Verordnung als Ganzes."
+  },
+  {
+    "Item": 3,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": "SR 916.201",
+    "assigned_articles": [
+      "Allgemeine Verweisung – gesamtes Dokument"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Text verweist auf «Anhang 1 PGesV-WBF-UVEK SR 916.201», ohne bestimmte Artikel zu nennen; damit liegt eine allgemeine, anhangsbezogene Verweisung auf die Verordnung SR 916.201 vor."
+  },
+  {
+    "Item": 4,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": "SR 916.20",
+    "assigned_articles": [
+      "Allgemeine Verweisung – gesamtes Dokument"
+    ],
+    "confidence": "high",
+    "reasoning": "Die preamble_acronym-Referenz nutzt das in der Präambel definierte Akronym PGesV für SR 916.20; im Satz wird jedoch kein bestimmter Artikel der PGesV genannt, sondern nur «nach Anhang 1 PGesV-WBF-UVEK», weshalb von einer allgemeinen Verweisung auf das Regelwerk auszugehen ist."
+  }
+]

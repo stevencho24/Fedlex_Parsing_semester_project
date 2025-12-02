@@ -1,0 +1,32 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 641.31",
+    "assigned_articles": [
+      "Art. 27"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Wortlaut lautet: 'gestützt auf Artikel 27 des Bundesgesetzes ... SR 641.31 über die Tabakbesteuerung'; damit ist eindeutig Art. 27 des Gesetzes SR 641.31 gemeint."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 641.311",
+    "assigned_articles": [
+      "Art. 24"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Satz steht: '... nach Artikel 24 der Tabaksteuerverordnung vom 15. Dezember 1969 SR 641.311 ...'; der Artikel 24 wird direkt mit der Tabaksteuerverordnung SR 641.311 verknüpft."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 916.116.4",
+    "assigned_articles": [
+      "Art. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "Dies ist ein 'artikel_reference'-Eintrag ohne explizite SR-Nennung; er wiederholt den gleichen Satz wie ITEM 2, jedoch ohne SR-Angabe. Gemäss Vorgabe sind solche Verweise als Selbstverweise innerhalb des aktuellen Dokuments zu behandeln. Da ARTICLE_EID 'art_1' ist und kein anderer Artikel genannt wird, handelt es sich um den eigenen Artikel 1 der Verordnung SR 916.116.4."
+  }
+]

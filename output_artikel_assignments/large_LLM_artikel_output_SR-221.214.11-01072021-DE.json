@@ -1,0 +1,128 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 221.214.1",
+    "assigned_articles": [
+      "Art. 14",
+      "Art. 23 Abs. 3",
+      "Art. 40 Abs. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Preambel-Satz werden ausdrücklich die Artikel 14, 23 Absatz 3 und 40 Absatz 3 des Bundesgesetzes über den Konsumkredit (KKG, SR 221.214.1) als Rechtsgrundlage genannt; syntaktisch direkt mit dem Gesetz verknüpft."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 172.010",
+    "assigned_articles": [
+      "Art. 8 Abs. 1",
+      "Art. 8 Abs. 4",
+      "Art. 47 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Im gleichen Preambel-Satz werden nach der Konjunktion „und“ die Artikel 8 Absätze 1 und 4 sowie 47 Absatz 2 des Regierungs- und Verwaltungsorganisationsgesetzes (SR 172.010) genannt; klare präpositionale Zuordnung zu diesem Gesetz."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_6",
+    "TARGET_SR": "SR 412.10",
+    "assigned_articles": "General reference - entire document",
+    "confidence": "high",
+    "reasoning": "Der Verweis lautet nur „nach dem Berufsbildungsgesetz vom 13. Dezember 2002 SR 412.10“ ohne Nennung einzelner Artikel; es handelt sich um eine generelle Gesetzesreferenz."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 221.214.1",
+    "assigned_articles": [
+      "Art. 9 Abs. 2 lit. b"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Satz spricht vom „Zinssatz nach Artikel 9 Absatz 2 Buchstabe b KKG“; das KKG ist über das Preambel-Akronym eindeutig SR 221.214.1, und die Artikelangabe ist vollständig."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": "SR 221.214.1",
+    "assigned_articles": [
+      "Art. 23 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "Es wird ausdrücklich auf die „Informationsstelle für Konsumkredit nach Artikel 23 Absatz 1 KKG“ Bezug genommen; KKG = SR 221.214.1 gemäss Preambel."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": "SR 221.214.1",
+    "assigned_articles": [
+      "Art. 28",
+      "Art. 29",
+      "Art. 30"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Formulierung „für die Kreditfähigkeitsprüfung nach den Artikeln 28−30 KKG“ bezeichnet einen geschlossenen Artikelbereich im KKG; dieser wird als die drei Einzelartikel 28, 29 und 30 verstanden."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_3_a",
+    "TARGET_SR": "SR 221.214.1",
+    "assigned_articles": [
+      "Art. 23 Abs. 2",
+      "Art. 23 Abs. 4"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Snippet werden zwei KKG-Verweise genannt: „(Art. 23 Abs. 2 KKG)“ und „(Art. 23 Abs. 4 KKG)“; beide sind direkt mit dem KKG (SR 221.214.1) verbunden."
+  },
+  {
+    "ITEM": 8,
+    "ARTICLE_EID": "art_7_a",
+    "TARGET_SR": "SR 221.214.1",
+    "assigned_articles": "General reference - entire document",
+    "confidence": "medium",
+    "reasoning": "Der Satz spricht allgemein von „Schadenfälle[n] eines Jahres, die auf eine Verletzung des KKG zurückgehen“, ohne konkrete Artikel zu nennen; dies ist eine generelle Bezugnahme auf das KKG als Ganzes."
+  },
+  {
+    "ITEM": 9,
+    "ARTICLE_EID": "art_7_b",
+    "TARGET_SR": "SR 221.214.1",
+    "assigned_articles": "General reference - entire document",
+    "confidence": "medium",
+    "reasoning": "Formulierung „Forderungen aus dem KKG“ verweist pauschal auf Ansprüche, die sich aus dem KKG ergeben, ohne einzelne Bestimmungen zu spezifizieren; daher allgemeine Gesetzesreferenz."
+  },
+  {
+    "ITEM": 10,
+    "ARTICLE_EID": "art_3_a",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 23 Abs. 2 KKG"
+    ],
+    "confidence": "high",
+    "reasoning": "artikel_reference ohne TARGET_SR; der Text nennt „(Art. 23 Abs. 2 KKG)“. Dies ist ein Verweis auf einen anderen Erlass (KKG), nicht eine Selbstreferenz innerhalb der Verordnung, daher als externer SR-Link zu verstehen, aber ohne explizite SR-Nummer im Item bleibt TARGET_SR leer."
+  },
+  {
+    "ITEM": 11,
+    "ARTICLE_EID": "art_3_a",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 23 Abs. 4 KKG"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Satz enthält „(Art. 23 Abs. 4 KKG)“. Wie bei ITEM 10 handelt es sich um einen Verweis auf das KKG als externen Erlass; mangels TARGET_SR im Item wird nur der Artikel des zitierten Gesetzes angegeben."
+  },
+  {
+    "ITEM": 12,
+    "ARTICLE_EID": "art_11",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 4",
+      "Art. 5",
+      "Art. 6",
+      "Art. 7",
+      "Art. 8",
+      "Art. 9"
+    ],
+    "confidence": "high",
+    "reasoning": "„Die Artikel 4–9 treten am 1. Januar 2004 in Kraft.“ ist eine klassische Selbstreferenz auf Artikel derselben Verordnung; der Bereich 4–9 wird als die Einzelartikel 4 bis 9 verstanden."
+  }
+]

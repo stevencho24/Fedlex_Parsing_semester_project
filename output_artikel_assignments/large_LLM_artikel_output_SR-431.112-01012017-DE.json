@@ -1,0 +1,62 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 101",
+    "assigned_articles": [
+      "Art. 65"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Formulierung «gestützt auf Artikel 65 der Bundesverfassung SR 101» verknüpft den genannten Artikel direkt mit SR 101; damit ist klar, dass Art. 65 der Bundesverfassung (SR 101) gemeint ist."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": "SR 431.02",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Satz nennt nur das Registerharmonisierungsgesetz (RHG, SR 431.02) und «die dazugehörigen Ausführungsbestimmungen», ohne konkrete Artikelangabe; dies ist eine generelle Verweisnorm auf das ganze Gesetz."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_12",
+    "TARGET_SR": "SR 431.02",
+    "assigned_articles": [
+      "Art. 16 Abs. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Snippet steht ausdrücklich «Artikel 16 Absatz 3 RHG SR 431.02 bleibt vorbehalten»; damit ist klar, dass Art. 16 Abs. 3 des RHG (SR 431.02) gemeint ist."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_12",
+    "TARGET_SR": "SR 311.0",
+    "assigned_articles": [
+      "Art. 320"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Text lautet «untersteht dem Amtsgeheimnis nach Artikel 320 des Strafgesetzbuches SR 311.0»; Art. 320 StGB gehört zu SR 311.0, somit ist der Artikel eindeutig zugeordnet."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_15",
+    "TARGET_SR": "SR 431.01",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "Es wird nur das Bundesstatistikgesetz (SR 431.01) als Ganzes («die Bestimmungen des Bundesstatistikgesetzes … und die dazugehörigen Ausführungsbestimmungen») erwähnt, ohne konkrete Artikel; dies ist ein genereller Verweis auf das gesamte Gesetz."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_12",
+    "TARGET_SR": "SR 311.0",
+    "assigned_articles": [
+      "Art. 320"
+    ],
+    "confidence": "high",
+    "reasoning": "Diese artikel_reference wiederholt inhaltlich den Verweis aus ITEM 4 («Amtsgeheimnis nach Artikel 320 des Strafgesetzbuches»). Da dort SR 311.0 explizit genannt ist, ist klar, dass es sich um Art. 320 StGB (SR 311.0) handelt; hier wird derselbe externe Artikel referenziert."
+  }
+]

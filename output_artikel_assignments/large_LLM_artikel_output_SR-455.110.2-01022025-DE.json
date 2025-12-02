@@ -1,0 +1,167 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 455.1",
+    "assigned_articles": [
+      "Art. 179 Abs. 3",
+      "Art. 179a Abs. 2",
+      "Art. 209 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Formulierung «gestützt auf die Artikel 179 Absatz 3, 179a Absatz 2 und 209 Absatz 1 der Tierschutzverordnung … SR 455.1 (TSchV)» verknüpft die genannten Artikel grammatikalisch eindeutig mit der TSchV (SR 455.1)."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 817.190",
+    "assigned_articles": [
+      "Art. 3 lit. b"
+    ],
+    "confidence": "high",
+    "reasoning": "«Schlachtvieh nach Artikel 3 Buchstabe b der Verordnung … SR 817.190 … (VSFK)»; Artikel und Buchstabe werden direkt dieser Verordnung zugeordnet."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 455.1",
+    "assigned_articles": [
+      "Art. 2 Abs. 3 lit. n"
+    ],
+    "confidence": "high",
+    "reasoning": "«… beim Schlachten nach Artikel 2 Absatz 3 Buchstabe n TSchV»; TSchV ist SR 455.1, der Artikel ist ausdrücklich mit der Abkürzung verknüpft."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_17",
+    "TARGET_SR": "SR 455.1",
+    "assigned_articles": [
+      "Anhang 1"
+    ],
+    "confidence": "high",
+    "reasoning": "«… wenn sie nach Anhang 1 TSchV untergebracht werden.» Der Anhang 1 wird ausdrücklich der TSchV (SR 455.1) zugeordnet."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_18",
+    "TARGET_SR": "SR 455.1",
+    "assigned_articles": [
+      "Anhang 4"
+    ],
+    "confidence": "high",
+    "reasoning": "«… Mindestraumbedarf nach Anhang 4 TSchV …»; der Anhang 4 gehört klar zur TSchV (SR 455.1)."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_19",
+    "TARGET_SR": "SR 455.1",
+    "assigned_articles": [
+      "Art. 3-14",
+      "Anhang 1",
+      "Art. 181 Abs. 7"
+    ],
+    "confidence": "high",
+    "reasoning": "Im ersten Satz: «gelten die Artikel 3–14 und Anhang 1 TSchV»; im zweiten Satz: «… nach Artikel 181 Absatz 7 TSchV …». Alle genannten Einheiten sind ausdrücklich der TSchV (SR 455.1) zugeordnet. Der Bereich 3–14 wird als Spannencitation übernommen."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_26",
+    "TARGET_SR": "SR 455.1",
+    "assigned_articles": [
+      "Anhang 2 Tabelle 7"
+    ],
+    "confidence": "high",
+    "reasoning": "«… nach Anhang 2 Tabelle 7 TSchV.» Der konkrete Anhang mit Tabelle wird direkt der TSchV (SR 455.1) zugeordnet."
+  },
+  {
+    "ITEM": 8,
+    "ARTICLE_EID": "art_29",
+    "TARGET_SR": "SR 455.1",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "«Die Verordnung des BLV vom 12. August 2010 über den Tierschutz beim Schlachten wird aufgehoben.» Die TSchV (SR 455.1) wird hier nur über das Preambel-Akronym BLV als Rechtsgrundlage der Aufhebungsverordnung implizit referenziert, ohne konkrete Artikelangabe; daher allgemeine Dokumentverweisung."
+  },
+  {
+    "ITEM": 9,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 3 lit. b"
+    ],
+    "confidence": "high",
+    "reasoning": "«… nach Artikel 3 Buchstabe b der Verordnung … (VSFK)» ist eine externe Verweisung auf die VSFK (SR 817.190), nicht auf das eigene SR 455.110.2. Daher Selbstreferenz im Sinne des Projekts ausgeschlossen; Artikelangabe bleibt als reine Artikelnennung ohne TARGET_SR."
+  },
+  {
+    "ITEM": 10,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 3 lit. c"
+    ],
+    "confidence": "high",
+    "reasoning": "«Hausgeflügel nach Artikel 3 Buchstabe c VSFK» verweist auf die VSFK, nicht auf das eigene Dokument; somit keine Zuordnung zu einem TARGET_SR, aber klare Artikelnennung."
+  },
+  {
+    "ITEM": 11,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 3 lit. d"
+    ],
+    "confidence": "high",
+    "reasoning": "«Laufvögeln nach Artikel 3 Buchstabe d VSFK» ist eine externe Verweisung; im Rahmen von artikel_reference daher als interne Strukturreferenz des zitierten Dokuments zu behandeln, ohne TARGET_SR im aktuellen Kontext."
+  },
+  {
+    "ITEM": 12,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 3 lit. e"
+    ],
+    "confidence": "high",
+    "reasoning": "«Gehegewild nach Artikel 3 Buchstabe e VSFK»; gleiches Muster wie bei den anderen VSFK-Verweisen, keine Verknüpfung mit einem TARGET_SR im aktuellen Dokument."
+  },
+  {
+    "ITEM": 13,
+    "ARTICLE_EID": "art_19",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 3-14"
+    ],
+    "confidence": "high",
+    "reasoning": "«… so gelten die Artikel 3–14 und Anhang 1 TSchV.» Dies ist eine Verweisung auf Artikel innerhalb der TSchV (SR 455.1), nicht auf das eigene SR 455.110.2; als artikel_reference daher Selbstreferenz im Sinne des Projekts (interne Struktur eines anderen Dokuments), ohne TARGET_SR."
+  },
+  {
+    "ITEM": 14,
+    "ARTICLE_EID": "art_19",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 181 Abs. 7"
+    ],
+    "confidence": "high",
+    "reasoning": "«… nach Artikel 181 Absatz 7 TSchV …» verweist auf einen Artikel der TSchV; im Typ artikel_reference ohne expliziten SR-Link ist dies als Verweis auf ein anderes Dokument zu verstehen, nicht als Selbstreferenz des aktuellen SR."
+  },
+  {
+    "ITEM": 15,
+    "ARTICLE_EID": "art_28",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 6",
+      "Art. 12"
+    ],
+    "confidence": "high",
+    "reasoning": "«… nach Artikel 6, … nach Artikel 12 …»; es wird kein anderes SR oder eine Abkürzung genannt, daher handelt es sich um interne Verweise innerhalb derselben Verordnung (SR 455.110.2). Als artikel_reference ohne TARGET_SR zu führen."
+  },
+  {
+    "ITEM": 16,
+    "ARTICLE_EID": "art_30",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 24 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "«… nach Artikel 24 Absatz 2, Anhang 6 Ziffer 1 sowie Anhang 7 …»; mangels Nennung eines anderen SR ist dies ein interner Verweis innerhalb des aktuellen Dokuments. Als artikel_reference bleibt es eine Selbstreferenz ohne TARGET_SR."
+  }
+]

@@ -1,0 +1,33 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 101",
+    "assigned_articles": [
+      "Art. 54 Abs. 1",
+      "Art. 166 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Formulierung «gestützt auf die Artikel 54 Absatz 1 und 166 Absatz 2 der Bundesverfassung SR 101» verknüpft die genannten Artikel syntaktisch eindeutig mit der Bundesverfassung (SR 101); beide Artikel gehören somit zu SR 101."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 0.672.931.41",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Ausschnitt spricht allgemein vom «Abkommen vom 23. November 1973 SR 0.672.931.41 … zur Vermeidung der Doppelbesteuerung» ohne Nennung einzelner Artikel; dies ist eine generelle Verweisung auf das gesamte Abkommen."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Stelle «nach Artikel 141 Absatz 1 Buchstabe d Ziffer 3 der Bundesverfassung» verweist auf einen Artikel der Bundesverfassung (SR 101), jedoch ist bei artikel_reference kein TARGET_SR angegeben und der Bezug dient als externe Normgrundlage, nicht als SR-Link dieses Dokuments; daher wird sie als interne/kontextuelle Artikelverweisung des aktuellen Dokuments behandelt, ohne Zuordnung zu einem TARGET_SR."
+  }
+]

@@ -1,0 +1,613 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 142.20",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "high",
+    "reasoning": "Preamble cites the AIG as legal basis without any specific article numbers; applies as a general statutory basis."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 0.142.112.681",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "high",
+    "reasoning": "Preamble references the Freizügigkeitsabkommen as a whole; no specific article indicated."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 0.632.31",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "high",
+    "reasoning": "Preamble cites the EFTA-Übereinkommen generally as execution basis; no article-level citation."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 0.142.113.672",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "high",
+    "reasoning": "Abkommen über die erworbenen Rechte is cited as a whole treaty; no specific provisions mentioned."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 0.946.293.671.2",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "high",
+    "reasoning": "Abkommen über die Mobilität von Dienstleistungserbringern is referenced generally; no article numbers."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": "SR 142.201",
+    "assigned_articles": ["Art. 43 Abs. 1 Bst. a–d", "Art. 43 Abs. 2", "Art. 43 Abs. 3"],
+    "confidence": "high",
+    "reasoning": "Snippet explicitly: \"Artikel 43 Absätze 1 Buchstaben a–d, 2 und 3 der Verordnung ... (VZAE)\"; clearly tied to SR 142.201."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": "SR 142.201",
+    "assigned_articles": ["Art. 60–63"],
+    "confidence": "high",
+    "reasoning": "Text: \"die Artikel 60–63 VZAE\"; direct range reference to VZAE (SR 142.201)."
+  },
+  {
+    "ITEM": 8,
+    "ARTICLE_EID": "art_6",
+    "TARGET_SR": "SR 142.201",
+    "assigned_articles": ["Art. 71–72"],
+    "confidence": "high",
+    "reasoning": "Snippet: \"nach den Artikeln 71–72 VZAE\"; explicit range within SR 142.201."
+  },
+  {
+    "ITEM": 9,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": "SR 142.204",
+    "assigned_articles": ["Art. 8", "Art. 9"],
+    "confidence": "high",
+    "reasoning": "Text: \"Bestimmungen ... der Artikel 8 und 9 der Verordnung vom 15. August 2018\"; that Verordnung is SR 142.204."
+  },
+  {
+    "ITEM": 10,
+    "ARTICLE_EID": "art_9",
+    "TARGET_SR": "SR 142.201",
+    "assigned_articles": ["Art. 9", "Art. 10", "Art. 12", "Art. 13", "Art. 15", "Art. 16"],
+    "confidence": "high",
+    "reasoning": "Snippet: \"Artikel 9, 10, 12, 13, 15 und 16 VZAE\"; all explicitly tied to VZAE (SR 142.201)."
+  },
+  {
+    "ITEM": 11,
+    "ARTICLE_EID": "art_9",
+    "TARGET_SR": "SR 823.20",
+    "assigned_articles": ["Art. 6"],
+    "confidence": "high",
+    "reasoning": "Phrase \"nach Artikel 6 des Bundesgesetzes ... (SR 823.20)\"; direct single-article citation."
+  },
+  {
+    "ITEM": 12,
+    "ARTICLE_EID": "art_9",
+    "TARGET_SR": "SR 823.201",
+    "assigned_articles": ["Art. 6"],
+    "confidence": "high",
+    "reasoning": "Text: \"nach Artikel 6 der Verordnung vom 21. Mai 2003 SR 823.201\"; explicit article 6 of that ordinance."
+  },
+  {
+    "ITEM": 13,
+    "ARTICLE_EID": "art_9",
+    "TARGET_SR": "SR 142.513",
+    "assigned_articles": ["Art. 5"],
+    "confidence": "high",
+    "reasoning": "Snippet: \"gilt Artikel 5 der ZEMIS-Verordnung ... SR 142.513\"; clear single-article reference."
+  },
+  {
+    "ITEM": 14,
+    "ARTICLE_EID": "art_15",
+    "TARGET_SR": "SR 142.201",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "medium",
+    "reasoning": "Refers generically to \"die Bestimmungen ... der VZAE\" without article numbers; treat as general reference to SR 142.201."
+  },
+  {
+    "ITEM": 15,
+    "ARTICLE_EID": "art_16",
+    "TARGET_SR": "SR 831.30",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "medium",
+    "reasoning": "Authorial note: \"Siehe heute: das BG ... (SR 831.30).\" No specific article; general reference to the Ergänzungsleistungsgesetz."
+  },
+  {
+    "ITEM": 16,
+    "ARTICLE_EID": "art_28",
+    "TARGET_SR": "SR 142.201",
+    "assigned_articles": ["Art. 83", "Art. 85"],
+    "confidence": "high",
+    "reasoning": "Snippet: \"sowie den Artikeln 83 und 85 VZAE\"; explicit articles in SR 142.201."
+  },
+  {
+    "ITEM": 17,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 0.142.112.681",
+    "assigned_articles": ["Art. 10", "Anhang K Art. 10"],
+    "confidence": "high",
+    "reasoning": "Parenthetical: \"Art. 10 Freizügigkeitsabkommen und Art. 10 Anhang K EFTA-Übereinkommen\"; for SR 0.142.112.681, Art. 10 is explicitly cited."
+  },
+  {
+    "ITEM": 18,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 0.632.31",
+    "assigned_articles": ["Anhang K Art. 10"],
+    "confidence": "high",
+    "reasoning": "Same parenthetical; for the EFTA-Übereinkommen (SR 0.632.31) the relevant part is \"Art. 10 Anhang K\"."
+  },
+  {
+    "ITEM": 19,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": "SR 0.142.112.681",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "medium",
+    "reasoning": "Refers broadly to \"Bestimmungen des Freizügigkeitsabkommens\" on family reunification without article numbers."
+  },
+  {
+    "ITEM": 20,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": "SR 0.632.31",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "medium",
+    "reasoning": "Multiple generic mentions of \"Bestimmungen ... des EFTA-Übereinkommens\"; no specific article or annex cited."
+  },
+  {
+    "ITEM": 21,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": "SR 0.632.31",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "low",
+    "reasoning": "Snippet only defines scope of this Verordnung and mentions EFTA generally; no syntactic link to a specific EFTA article."
+  },
+  {
+    "ITEM": 22,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": "SR 0.142.112.681",
+    "assigned_articles": [
+      "Anhang I Art. 6",
+      "Anhang I Art. 7",
+      "Anhang I Art. 12",
+      "Anhang I Art. 13",
+      "Anhang I Art. 20",
+      "Anhang I Art. 24"
+    ],
+    "confidence": "high",
+    "reasoning": "Parenthetical: \"Art. 6, 7, 12, 13, 20 und 24 Anhang I Freizügigkeitsabkommen\"; all explicitly tied to SR 0.142.112.681."
+  },
+  {
+    "ITEM": 23,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": "SR 0.632.31",
+    "assigned_articles": [
+      "Anhang K Anlage 1 Art. 6",
+      "Anhang K Anlage 1 Art. 7",
+      "Anhang K Anlage 1 Art. 11",
+      "Anhang K Anlage 1 Art. 12",
+      "Anhang K Anlage 1 Art. 19",
+      "Anhang K Anlage 1 Art. 23"
+    ],
+    "confidence": "high",
+    "reasoning": "Same parenthetical; for EFTA-Übereinkommen the cited provisions are \"Art. 6, 7, 11, 12, 19 und 23 Anhang K Anlage 1\"."
+  },
+  {
+    "ITEM": 24,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": "SR 142.20",
+    "assigned_articles": ["Art. 34"],
+    "confidence": "high",
+    "reasoning": "Text: \"gestützt auf Artikel 34 AIG\"; direct single-article reference in AIG (SR 142.20)."
+  },
+  {
+    "ITEM": 25,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": "SR 0.632.31",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "low",
+    "reasoning": "Snippet only mentions EFTA contextually in heading; no explicit EFTA article or annex is cited."
+  },
+  {
+    "ITEM": 26,
+    "ARTICLE_EID": "art_6",
+    "TARGET_SR": "SR 0.142.112.681",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "medium",
+    "reasoning": "Refers to persons with a permit \"gestützt auf das Freizügigkeitsabkommen\"; no specific article indicated."
+  },
+  {
+    "ITEM": 27,
+    "ARTICLE_EID": "art_6",
+    "TARGET_SR": "SR 0.632.31",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "medium",
+    "reasoning": "Same generic reference to EFTA-Übereinkommen-based permits; no article-level citation."
+  },
+  {
+    "ITEM": 28,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": "SR 0.142.112.681",
+    "assigned_articles": ["Anhang I Art. 1"],
+    "confidence": "high",
+    "reasoning": "Parenthetical: \"Anhang I Art. 1 Freizügigkeitsabkommen\"; explicit annex article."
+  },
+  {
+    "ITEM": 29,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": "SR 0.632.31",
+    "assigned_articles": ["Anhang K Art. 1"],
+    "confidence": "high",
+    "reasoning": "Same parenthetical; for EFTA-Übereinkommen the relevant is \"Anhang K Art. 1\"."
+  },
+  {
+    "ITEM": 30,
+    "ARTICLE_EID": "art_9",
+    "TARGET_SR": "SR 142.20",
+    "assigned_articles": ["Art. 10–15"],
+    "confidence": "high",
+    "reasoning": "Snippet: \"gelten die Artikel 10–15 AIG\"; explicit range in AIG (SR 142.20)."
+  },
+  {
+    "ITEM": 31,
+    "ARTICLE_EID": "art_9",
+    "TARGET_SR": "SR 0.142.112.681",
+    "assigned_articles": [
+      "Anhang I Art. 1 Abs. 1",
+      "Anhang I Art. 27 Abs. 2",
+      "Art. 10 Abs. 2c",
+      "Art. 10 Abs. 4c"
+    ],
+    "confidence": "high",
+    "reasoning": "Parenthetical: \"Anhang I Art. 1 Abs. 1 und 27 Abs. 2 i. V. m. Art. 10 Abs. 2c und 4c Freizügigkeitsabkommen\"; all explicitly tied to SR 0.142.112.681."
+  },
+  {
+    "ITEM": 32,
+    "ARTICLE_EID": "art_13",
+    "TARGET_SR": "SR 0.142.112.681",
+    "assigned_articles": ["Art. 5"],
+    "confidence": "high",
+    "reasoning": "Parenthetical: \"Art. 5 Freizügigkeitsabkommen\"; direct article citation."
+  },
+  {
+    "ITEM": 33,
+    "ARTICLE_EID": "art_13",
+    "TARGET_SR": "SR 0.632.31",
+    "assigned_articles": ["Anhang K Art. 5"],
+    "confidence": "high",
+    "reasoning": "Same parenthetical; for EFTA-Übereinkommen the cited is \"Art. 5 Anhang K\"."
+  },
+  {
+    "ITEM": 34,
+    "ARTICLE_EID": "art_14",
+    "TARGET_SR": "SR 0.632.31",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "low",
+    "reasoning": "Only mentions absence of a Dienstleistungsabkommen and EFTA nationals; no explicit EFTA-Übereinkommen article."
+  },
+  {
+    "ITEM": 35,
+    "ARTICLE_EID": "art_15",
+    "TARGET_SR": "SR 142.20",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "medium",
+    "reasoning": "Generic: \"Bestimmungen des AIG\"; no specific AIG articles in this sentence."
+  },
+  {
+    "ITEM": 36,
+    "ARTICLE_EID": "art_15",
+    "TARGET_SR": "SR 0.142.112.681",
+    "assigned_articles": ["Anhang I Art. 20"],
+    "confidence": "high",
+    "reasoning": "Parenthetical: \"Art. 20 Anhang I Freizügigkeitsabkommen\"; explicit annex article."
+  },
+  {
+    "ITEM": 37,
+    "ARTICLE_EID": "art_15",
+    "TARGET_SR": "SR 0.632.31",
+    "assigned_articles": ["Anhang K Anlage 1 Art. 19"],
+    "confidence": "high",
+    "reasoning": "Same parenthetical; for EFTA-Übereinkommen: \"Art. 19 Anhang K Anlage 1\"."
+  },
+  {
+    "ITEM": 38,
+    "ARTICLE_EID": "art_16",
+    "TARGET_SR": "SR 0.142.112.681",
+    "assigned_articles": ["Anhang I Art. 24"],
+    "confidence": "high",
+    "reasoning": "Parenthetical: \"Art. 24 Anhang I Freizügigkeitsabkommen\"; explicit."
+  },
+  {
+    "ITEM": 39,
+    "ARTICLE_EID": "art_16",
+    "TARGET_SR": "SR 0.632.31",
+    "assigned_articles": ["Anhang K Art. 23"],
+    "confidence": "high",
+    "reasoning": "Parenthetical: \"Art. 23 Anhang K EFTA-Übereinkommen\"; explicit annex article."
+  },
+  {
+    "ITEM": 40,
+    "ARTICLE_EID": "art_17",
+    "TARGET_SR": "SR 0.142.112.681",
+    "assigned_articles": ["Anhang I Art. 24"],
+    "confidence": "high",
+    "reasoning": "Parenthetical: \"Art. 24 Anhang I Freizügigkeitsabkommen\"; same as in art. 16 but applied here."
+  },
+  {
+    "ITEM": 41,
+    "ARTICLE_EID": "art_17",
+    "TARGET_SR": "SR 0.632.31",
+    "assigned_articles": ["Anhang K Anlage 1 Art. 23"],
+    "confidence": "high",
+    "reasoning": "Parenthetical: \"Art. 23 Anhang K Anlage 1 EFTA-Übereinkommen\"; explicit."
+  },
+  {
+    "ITEM": 42,
+    "ARTICLE_EID": "art_18",
+    "TARGET_SR": "SR 0.142.112.681",
+    "assigned_articles": ["Anhang I Art. 2"],
+    "confidence": "high",
+    "reasoning": "Parenthetical: \"Art. 2 Anhang I Freizügigkeitsabkommen\"; explicit."
+  },
+  {
+    "ITEM": 43,
+    "ARTICLE_EID": "art_18",
+    "TARGET_SR": "SR 0.632.31",
+    "assigned_articles": ["Anhang K Anlage 1 Art. 2"],
+    "confidence": "high",
+    "reasoning": "Parenthetical: \"Art. 2 Anhang K Anlage 1 EFTA-Übereinkommen\"; explicit."
+  },
+  {
+    "ITEM": 44,
+    "ARTICLE_EID": "art_19",
+    "TARGET_SR": "SR 0.142.112.681",
+    "assigned_articles": ["Anhang I Art. 23"],
+    "confidence": "high",
+    "reasoning": "Parenthetical: \"Art. 23 Anhang I Freizügigkeitsabkommen\"; explicit."
+  },
+  {
+    "ITEM": 45,
+    "ARTICLE_EID": "art_19",
+    "TARGET_SR": "SR 0.632.31",
+    "assigned_articles": ["Anhang K Anlage 1 Art. 22"],
+    "confidence": "high",
+    "reasoning": "Parenthetical: \"Art. 22 Anhang K Anlage 1 EFTA-Übereinkommen\"; explicit."
+  },
+  {
+    "ITEM": 46,
+    "ARTICLE_EID": "art_20",
+    "TARGET_SR": "SR 0.142.112.681",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "medium",
+    "reasoning": "Refers generically to conditions \"nach dem Freizügigkeitsabkommen\" for non-economically active persons; no article numbers."
+  },
+  {
+    "ITEM": 47,
+    "ARTICLE_EID": "art_20",
+    "TARGET_SR": "SR 0.632.31",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "medium",
+    "reasoning": "Same generic reference to EFTA-Übereinkommen; no specific provision cited."
+  },
+  {
+    "ITEM": 48,
+    "ARTICLE_EID": "art_22",
+    "TARGET_SR": "SR 0.142.112.681",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "medium",
+    "reasoning": "Mentions right of residence \"nach den Bestimmungen des Freizügigkeitsabkommens\"; no article-level detail."
+  },
+  {
+    "ITEM": 49,
+    "ARTICLE_EID": "art_22",
+    "TARGET_SR": "SR 0.632.31",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "medium",
+    "reasoning": "Parallel generic reference to EFTA-Übereinkommen; no specific article."
+  },
+  {
+    "ITEM": 50,
+    "ARTICLE_EID": "art_23",
+    "TARGET_SR": "SR 142.20",
+    "assigned_articles": ["Art. 63"],
+    "confidence": "high",
+    "reasoning": "Snippet: \"gilt Artikel 63 AIG\"; explicit single-article reference."
+  },
+  {
+    "ITEM": 51,
+    "ARTICLE_EID": "art_23",
+    "TARGET_SR": "SR 0.142.112.681",
+    "assigned_articles": ["Anhang I Art. 6 Abs. 6"],
+    "confidence": "high",
+    "reasoning": "Parenthetical: \"Anhang I Art. 6 Abs. 6 Freizügigkeitsabkommen\"; explicit."
+  },
+  {
+    "ITEM": 52,
+    "ARTICLE_EID": "art_23",
+    "TARGET_SR": "SR 0.632.31",
+    "assigned_articles": ["Anhang K Anlage 1 Art. 6 Abs. 6"],
+    "confidence": "high",
+    "reasoning": "Parenthetical: \"Anhang K Anlage 1 Art. 6 Abs. 6 EFTA-Übereinkommen\"; explicit."
+  },
+  {
+    "ITEM": 53,
+    "ARTICLE_EID": "art_24",
+    "TARGET_SR": "SR 142.20",
+    "assigned_articles": ["Art. 60–68"],
+    "confidence": "high",
+    "reasoning": "Snippet: \"nach den Artikeln 60–68 AIG\"; explicit range in AIG."
+  },
+  {
+    "ITEM": 54,
+    "ARTICLE_EID": "art_24",
+    "TARGET_SR": "SR 0.142.112.681",
+    "assigned_articles": ["Anhang I Art. 5"],
+    "confidence": "high",
+    "reasoning": "Parenthetical: \"Art. 5 Anhang I Freizügigkeitsabkommen\"; explicit."
+  },
+  {
+    "ITEM": 55,
+    "ARTICLE_EID": "art_24",
+    "TARGET_SR": "SR 0.632.31",
+    "assigned_articles": ["Anhang K Anlage 1 Art. 5"],
+    "confidence": "high",
+    "reasoning": "Parenthetical: \"Art. 5 Anhang K Anlage 1 EFTA-Übereinkommen\"; explicit."
+  },
+  {
+    "ITEM": 56,
+    "ARTICLE_EID": "art_25",
+    "TARGET_SR": "SR 0.142.112.681",
+    "assigned_articles": ["Anhang I Art. 5"],
+    "confidence": "high",
+    "reasoning": "Same parenthetical as art. 24; again \"Art. 5 Anhang I Freizügigkeitsabkommen\"."
+  },
+  {
+    "ITEM": 57,
+    "ARTICLE_EID": "art_25",
+    "TARGET_SR": "SR 0.632.31",
+    "assigned_articles": ["Anhang K Anlage 1 Art. 5"],
+    "confidence": "high",
+    "reasoning": "Same parenthetical; \"Art. 5 Anhang K Anlage 1 EFTA-Übereinkommen\"."
+  },
+  {
+    "ITEM": 58,
+    "ARTICLE_EID": "art_28",
+    "TARGET_SR": "SR 0.632.31",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "low",
+    "reasoning": "Snippet only mentions EFTA-Übereinkommen contextually; the concrete article references (AIG, VZAE) belong to other SR numbers."
+  },
+  {
+    "ITEM": 59,
+    "ARTICLE_EID": "art_29",
+    "TARGET_SR": "SR 0.632.31",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "low",
+    "reasoning": "Only uses \"nach Artikel 20\" as self-reference within this Verordnung; no explicit EFTA-Übereinkommen article."
+  },
+  {
+    "ITEM": 60,
+    "ARTICLE_EID": "art_32",
+    "TARGET_SR": "SR 142.20",
+    "assigned_articles": ["Art. 122"],
+    "confidence": "high",
+    "reasoning": "Snippet: \"richten sich nach Artikel 122 AIG\"; explicit article in AIG."
+  },
+  {
+    "ITEM": 61,
+    "ARTICLE_EID": "art_36",
+    "TARGET_SR": "SR 0.142.112.681",
+    "assigned_articles": ["Art. 10", "Anhang K Art. 10"],
+    "confidence": "high",
+    "reasoning": "Parenthetical: \"Art. 10 Freizügigkeitsabkommen und Art. 10 Anhang K EFTA-Übereinkommen\"; for SR 0.142.112.681, Art. 10 is explicitly cited."
+  },
+  {
+    "ITEM": 62,
+    "ARTICLE_EID": "art_36",
+    "TARGET_SR": "SR 0.632.31",
+    "assigned_articles": ["Anhang K Art. 10"],
+    "confidence": "high",
+    "reasoning": "Same parenthetical; for EFTA-Übereinkommen the relevant is \"Art. 10 Anhang K\"."
+  },
+  {
+    "ITEM": 63,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": "SR 142.203",
+    "assigned_articles": [
+      "Art. 4 Abs. 3bis",
+      "Art. 8",
+      "Art. 10–12",
+      "Art. 14 Abs. 2",
+      "Art. 21",
+      "Art. 27",
+      "Art. 38"
+    ],
+    "confidence": "high",
+    "reasoning": "Artikel_reference within the same Verordnung (SR 142.203). Lists internal articles excluded for UK nationals; self-references to this SR."
+  },
+  {
+    "ITEM": 64,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": "SR 142.203",
+    "assigned_articles": ["Art. 9 Abs. 1bis", "Art. 32a Abs. 1"],
+    "confidence": "high",
+    "reasoning": "Refers to \"Artikel 9 Absatz 1bis\" and \"Artikel 32a Absatz 1\" without external SR; internal cross-references within SR 142.203."
+  },
+  {
+    "ITEM": 65,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": "SR 142.204",
+    "assigned_articles": ["Art. 8", "Art. 9"],
+    "confidence": "high",
+    "reasoning": "This repeats the same sentence as ITEM 9; \"Artikel 8 und 9 der Verordnung vom 15. August 2018\" (SR 142.204)."
+  },
+  {
+    "ITEM": 66,
+    "ARTICLE_EID": "art_9",
+    "TARGET_SR": "SR 823.20",
+    "assigned_articles": ["Art. 6"],
+    "confidence": "high",
+    "reasoning": "Refers to \"Artikel 6 des Bundesgesetzes ...\" which is SR 823.20; internal article_reference mirrors ITEM 11."
+  },
+  {
+    "ITEM": 67,
+    "ARTICLE_EID": "art_9",
+    "TARGET_SR": "SR 823.20",
+    "assigned_articles": ["Art. 6 Abs. 4"],
+    "confidence": "high",
+    "reasoning": "Text: \"Artikel 6 Absatz 4 des Bundesgesetzes ...\"; clearly article 6 paragraph 4 of SR 823.20."
+  },
+  {
+    "ITEM": 68,
+    "ARTICLE_EID": "art_9",
+    "TARGET_SR": "SR 142.513",
+    "assigned_articles": ["Art. 5"],
+    "confidence": "high",
+    "reasoning": "Refers to \"Artikel 5 der ZEMIS-Verordnung\" which is SR 142.513; matches ITEM 13."
+  },
+  {
+    "ITEM": 69,
+    "ARTICLE_EID": "art_15",
+    "TARGET_SR": "SR 142.203",
+    "assigned_articles": ["Art. 2 Abs. 3", "Art. 4"],
+    "confidence": "high",
+    "reasoning": "Mentions \"Personen nach Artikel 2 Absatz 3\" and \"Bewilligung ... nach Artikel 4\" without external SR; internal cross-references within this Verordnung (SR 142.203)."
+  },
+  {
+    "ITEM": 70,
+    "ARTICLE_EID": "art_29",
+    "TARGET_SR": "SR 142.203",
+    "assigned_articles": ["Art. 20"],
+    "confidence": "high",
+    "reasoning": "Phrase \"nach Artikel 20\" with no external SR; internal reference to article 20 of the same SR 142.203."
+  },
+  {
+    "ITEM": 71,
+    "ARTICLE_EID": "art_29",
+    "TARGET_SR": "SR 142.203",
+    "assigned_articles": ["Art. 28"],
+    "confidence": "high",
+    "reasoning": "\"Kontrolle der Bewilligungen nach Artikel 28\"; internal reference to article 28 of this Verordnung."
+  },
+  {
+    "ITEM": 72,
+    "ARTICLE_EID": "art_32_a",
+    "TARGET_SR": "SR 142.203",
+    "assigned_articles": ["Art. 9 Abs. 1bis"],
+    "confidence": "high",
+    "reasoning": "Penalty clause: \"Meldepflicht nach Artikel 9 Absatz 1bis\"; internal reference within SR 142.203."
+  },
+  {
+    "ITEM": 73,
+    "ARTICLE_EID": "art_32_a",
+    "TARGET_SR": "SR 142.203",
+    "assigned_articles": ["Art. 9 Abs. 3"],
+    "confidence": "high",
+    "reasoning": "Penalty clause: \"Meldepflicht nach Artikel 9 Absatz 3\"; again an internal cross-reference within the same SR."
+  }
+]

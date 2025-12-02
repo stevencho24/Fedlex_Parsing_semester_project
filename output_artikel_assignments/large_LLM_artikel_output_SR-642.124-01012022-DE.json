@@ -1,0 +1,163 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 642.11",
+    "assigned_articles": [
+      "Art. 161-164",
+      "Art. 168"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Formulierung \"gestützt auf die Artikel 161–164 und 168 des Bundesgesetzes ... SR 642.11\" verknüpft die genannten Artikel syntaktisch eindeutig mit SR 642.11."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 642.118",
+    "assigned_articles": [
+      "Art. 1 lit. c"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Satzteil \"sowie auf Artikel 1 Buchstabe c der Verordnung vom 18. Dezember 1991 SR 642.118\" ist Art. 1 lit. c direkt dieser Verordnung zugeordnet."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": "SR 631.014",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "medium",
+    "reasoning": "Die Wendung \"richtet sich nach der Zinssatzverordnung EFD ... SR 631.014\" verweist allgemein auf die Verordnung, ohne bestimmte Artikel zu nennen."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": "SR 631.014",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "medium",
+    "reasoning": "Auch hier \"richtet sich nach der Zinssatzverordnung ... SR 631.014\" ohne Artikelnennung; daher allgemeiner Dokumentverweis."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": "SR 631.014",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "medium",
+    "reasoning": "Gleiche Struktur wie bei ITEM 3 und 4; keine spezifischen Artikel der Zinssatzverordnung genannt."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 642.11",
+    "assigned_articles": [
+      "Art. 162 Abs. 1",
+      "Art. 161 Abs. 3",
+      "Art. 161 Abs. 4",
+      "Art. 79 Abs. 2",
+      "Art. 151 Abs. 1",
+      "Art. 185"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Snippet werden explizit \"Artikel 162 Absatz 1 DBG\", \"Artikel 161 Absätze 3 und 4 DBG\", \"Art. 79 Abs. 2 DBG\" sowie in Klammern \"Art. 151 Abs. 1 DBG\" und \"Artikel 185 DBG\" genannt; DBG steht gemäss Preamble für SR 642.11."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": "SR 642.11",
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Das Snippet erwähnt nur die Zinssatzverordnung EFD, nicht das DBG; es gibt keine Artikelnennung zum DBG/SR 642.11. Daher keine Artikelzuweisung."
+  },
+  {
+    "ITEM": 8,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": "SR 642.11",
+    "assigned_articles": [
+      "Art. 151 Abs. 1",
+      "Art. 185"
+    ],
+    "confidence": "high",
+    "reasoning": "Es werden \"Art. 151 Abs. 1 DBG\" und \"Artikel 185 DBG\" ausdrücklich genannt; DBG verweist auf SR 642.11."
+  },
+  {
+    "ITEM": 9,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": "SR 642.11",
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Das Snippet bezieht sich nur auf die Zinssatzverordnung EFD; es werden keine Artikel des DBG/SR 642.11 erwähnt."
+  },
+  {
+    "ITEM": 10,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": "SR 642.11",
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Auch hier nur Bezug auf die Zinssatzverordnung EFD; keine DBG-Artikel im Text."
+  },
+  {
+    "ITEM": 11,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "„Artikel 162 Absatz 1 DBG\" verweist auf ein anderes Gesetz (DBG), nicht auf die eigene Verordnung; als artikel_reference ohne TARGET_SR ist dies ein externer Verweis, aber im Rahmen dieser Aufgabe als Selbstreferenz des aktuellen Dokuments zu behandeln."
+  },
+  {
+    "ITEM": 12,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "„Artikel 161 Absätze 3 und 4 DBG\" ist wiederum ein Verweis auf das DBG; im Kontext artikel_reference ohne explizite SR-Zuordnung als interne Strukturreferenz des aktuellen Dokuments zu klassifizieren."
+  },
+  {
+    "ITEM": 13,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "„Art. 79 Abs. 2 DBG\" ist ein externer Gesetzesverweis; mangels TARGET_SR und gemäss Vorgabe werden artikel_reference-Einträge als interne Verweisstruktur des aktuellen Dokuments behandelt."
+  },
+  {
+    "ITEM": 14,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "„nach Artikel 4\" enthält keine Gesetzesabkürzung und verweist damit auf Art. 4 derselben Verordnung; klare Selbstreferenz innerhalb des Dokuments."
+  },
+  {
+    "ITEM": 15,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "„Art. 151 Abs. 1 DBG\" ist ein Verweis auf das DBG; als artikel_reference ohne TARGET_SR wird dies im Rahmen der Selbstreferenz-Logik des aktuellen Dokuments geführt."
+  },
+  {
+    "ITEM": 16,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "„Artikel 185 DBG\" verweist auf das DBG; auch hier handelt es sich um einen externen Gesetzesverweis, der in diesem item_type als interne Referenzstruktur des aktuellen Dokuments behandelt wird."
+  }
+]

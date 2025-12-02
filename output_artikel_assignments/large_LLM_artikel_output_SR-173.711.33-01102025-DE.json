@@ -1,0 +1,153 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 173.71",
+    "assigned_articles": [
+      "Art. 63 Abs. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Präambel nennt ausdrücklich «Artikel 63 Absatz 3 des Strafbehördenorganisationsgesetzes … SR 173.71 (StBOG)»; Art. 63 Abs. 3 gehört damit klar zu SR 173.71."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": "SR 312.0",
+    "assigned_articles": [
+      "Art. 84 Abs. 1",
+      "Art. 84 Abs. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Satz «im Sinne von Artikel 84 Absätze 1 und 3 der Strafprozessordnung SR 312.0 (StPO)» werden die Absätze 1 und 3 von Art. 84 der StPO direkt mit SR 312.0 verknüpft."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_8",
+    "TARGET_SR": "SR 152.3",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "Formulierung «richtet sich nach dem Öffentlichkeitsgesetz vom 17. Dezember 2004 SR 152.3» verweist allgemein auf das Öffentlichkeitsgesetz ohne konkrete Artikelangabe; daher Gesamtverweis."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_8",
+    "TARGET_SR": "SR 173.713.161",
+    "assigned_articles": [
+      "Art. 22"
+    ],
+    "confidence": "high",
+    "reasoning": "«nach Artikel 22 des Organisationsreglement BStGer … SR 173.713.161» verknüpft Art. 22 syntaktisch eindeutig mit dem genannten Reglement (SR 173.713.161)."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_8",
+    "TARGET_SR": "SR 152.12",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "«nach dem Reglement vom 17. Januar 2006 SR 152.12 über die Archivierung …» enthält keine Artikelnummer; es handelt sich um einen generellen Verweis auf das Archivierungsreglement."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_8",
+    "TARGET_SR": "SR 312.0",
+    "assigned_articles": [
+      "Art. 194"
+    ],
+    "confidence": "high",
+    "reasoning": "«entscheidet das Generalsekretariat gemäss Artikel 194 StPO SR 312.0» ordnet Art. 194 ausdrücklich der Strafprozessordnung (SR 312.0) zu; die weiteren Artikel 101 und 102 werden ohne SR-Nennung als Selbstverweise behandelt."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_10",
+    "TARGET_SR": "SR 312.0",
+    "assigned_articles": [
+      "Art. 71"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Passage «(Art. 71 StPO SR 312.0)» ist ein klassischer Klammerverweis; Art. 71 gehört damit eindeutig zur Strafprozessordnung SR 312.0."
+  },
+  {
+    "ITEM": 8,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": "SR 173.71",
+    "assigned_articles": [
+      "Art. 63 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Text «(Art. 63 Abs. 1 StBOG)» wird Art. 63 Abs. 1 des StBOG zitiert; StBOG ist in der Präambel als SR 173.71 definiert."
+  },
+  {
+    "ITEM": 9,
+    "ARTICLE_EID": "art_6",
+    "TARGET_SR": "SR 173.71",
+    "assigned_articles": [
+      "Art. 63 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "«(Art. 63 Abs. 2 StBOG)» verweist klar auf Art. 63 Abs. 2 des StBOG; dieses Gesetz ist als SR 173.71 identifiziert."
+  },
+  {
+    "ITEM": 10,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«Artikel 84 Absätze 1 und 3 der Strafprozessordnung (StPO)» wiederholt den Verweis aus ITEM 2, enthält aber keine SR-Angabe; im Rahmen von artikel_reference ohne SR gilt dies als interner Verweis bzw. bereits durch SR-Link erfasst."
+  },
+  {
+    "ITEM": 11,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«… nach Artikel 6» nennt nur eine Artikelnummer ohne Gesetzesangabe; dies bezieht sich auf Art. 6 derselben Verordnung und ist damit ein Selbstverweis."
+  },
+  {
+    "ITEM": 12,
+    "ARTICLE_EID": "art_8",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«nach Artikel 22 des Organisationsreglement BStGer …» ist in artikel_reference ohne SR-Link erfasst; der konkrete SR-Bezug (SR 173.713.161) wurde bereits in ITEM 4 zugeordnet, hier verbleibt es als interner Strukturverweis."
+  },
+  {
+    "ITEM": 13,
+    "ARTICLE_EID": "art_12",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«… die Bestimmungen nach Artikel 9 einzuhalten …» verweist auf Art. 9 derselben Verordnung; keine externe SR-Nennung, daher Selbstverweis."
+  },
+  {
+    "ITEM": 14,
+    "ARTICLE_EID": "art_14",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«… die Artikel 12 und 13 gelten dabei sinngemäss» nennt nur Artikelnummern ohne Gesetzesangabe; dies sind interne Verweise innerhalb des gleichen Reglements."
+  },
+  {
+    "ITEM": 15,
+    "ARTICLE_EID": "art_18",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«… Sanktionen nach Artikel 17 …» verweist auf Art. 17 derselben Verordnung; mangels SR-Bezug ist dies ein reiner Selbstverweis."
+  }
+]

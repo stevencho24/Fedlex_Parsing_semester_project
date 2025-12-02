@@ -1,0 +1,54 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 613.1",
+    "assigned_articles": [
+      "Art. 2",
+      "Art. 3",
+      "Art. 4"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet explicitly states 'gestützt auf die Artikel 2–4 des Bundesgesetzes ... SR 613.1', so Articles 2 through 4 of SR 613.1 are directly cited."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": "SR 613.12",
+    "assigned_articles": [
+      "Art. 4"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet says 'In Anwendung von Artikel 4 der Verordnung ... SR 613.12', clearly linking Article 4 to SR 613.12."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_6",
+    "TARGET_SR": "SR 616.1",
+    "assigned_articles": "General reference - entire document",
+    "confidence": "medium",
+    "reasoning": "The text refers generally to 'die Bestimmungen des Subventionsgesetzes ... SR 616.1' without specifying any article; this is a document-level reference."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 1",
+      "Art. 2",
+      "Art. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "This is an internal reference: 'Gestützt auf die Artikel 1–3' clearly refers to Articles 1–3 of the same ordinance (self-reference), not to an external SR."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 4"
+    ],
+    "confidence": "high",
+    "reasoning": "This is an internal reference: 'In Anwendung von Artikel 4 der Verordnung ...' refers to Article 4 of the same ordinance; the external SR 613.12 is not mentioned in this snippet."
+  }
+]

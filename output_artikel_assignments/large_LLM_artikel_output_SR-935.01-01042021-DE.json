@@ -1,0 +1,62 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 101",
+    "assigned_articles": [
+      "Art. 95 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Formulierung «gestützt auf Artikel 95 Absatz 1 der Bundesverfassung SR 101» verknüpft den genannten Artikel syntaktisch direkt mit SR 101; damit ist klar, dass Art. 95 Abs. 1 der Bundesverfassung (SR 101) gemeint ist."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 0.142.112.681",
+    "assigned_articles": [
+      "Anhang III"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Satzteil «in Ausführung von Anhang III des Abkommens … SR 0.142.112.681» wird ausdrücklich Anhang III dieses Abkommens genannt; dieser Anhang ist die konkret herangezogene Rechtsgrundlage innerhalb des Freizügigkeitsabkommens."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 0.632.31",
+    "assigned_articles": [
+      "Anhang K"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Text lautet «… nach Anhang K des Übereinkommens vom 4. Januar 1960 SR 0.632.31 …»; damit ist klar, dass Anhang K dieses Übereinkommens (SR 0.632.31) die einschlägige Bestimmung ist."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 0.142.112.681",
+    "assigned_articles": [
+      "Anhang III"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Stelle «nach Anhang III des Freizügigkeitsabkommens» bezieht sich über das im Präambel-Callback definierte Akronym eindeutig auf SR 0.142.112.681; genannt wird spezifisch Anhang III dieses Abkommens."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 7"
+    ],
+    "confidence": "medium",
+    "reasoning": "«Artikel 7 der Richtlinie 2005/36/EG» verweist auf eine Bestimmung innerhalb der EU-Richtlinie, nicht auf ein SR-Dokument; mangels zugeordnetem TARGET_SR handelt es sich um einen externen Normverweis ohne SR-Zuordnung, aber mit klar genanntem Artikel der Richtlinie."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 5 Abs. 1"
+    ],
+    "confidence": "medium",
+    "reasoning": "Die Formulierung «eine der Voraussetzungen nach Artikel 5 Absatz 1» ist ein innerdokumentarischer Verweis auf Art. 5 Abs. 1 derselben Verordnung (SR 935.01); es wird kein anderes SR genannt, daher Selbstreferenz ohne TARGET_SR."
+  }
+]

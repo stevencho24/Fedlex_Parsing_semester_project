@@ -1,0 +1,22 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 161.1",
+    "assigned_articles": [
+      "Art. 16 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet states: 'gestützt auf Artikel 16 Absatz 2 des Bundesgesetzes ... SR 161.1 ... (BPR)'. The article reference 'Artikel 16 Absatz 2' is syntactically and semantically linked to the cited SR 161.1 (BPR) as its governing law. Therefore, Art. 16 Abs. 2 of SR 161.1 is clearly referenced."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 161.1",
+    "assigned_articles": [
+      "Art. 17"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet reads: '... wird die Sitzverteilung entsprechend Artikel 17 BPR wie folgt festgelegt'. 'BPR' is defined in the preamble as SR 161.1, and 'Artikel 17' is directly followed by this acronym, so Art. 17 of SR 161.1 is explicitly cited."
+  }
+]

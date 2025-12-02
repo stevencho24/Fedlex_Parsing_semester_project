@@ -1,0 +1,42 @@
+[
+  {
+    "Item": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 512.271",
+    "assigned_articles": [
+      "Art. 20"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet explicitly cites 'Artikel 20 der Militärflugdienstverordnung ... SR 512.271 (MFV)'; Art. 20 is syntactically and semantically linked to SR 512.271."
+  },
+  {
+    "Item": 2,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 748.01",
+    "assigned_articles": [
+      "Art. 25 Abs. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet explicitly cites 'Artikel 25 Absatz 3 der Luftfahrtverordnung ... SR 748.01 (LFV)'; Art. 25 Abs. 3 is directly attributed to SR 748.01."
+  },
+  {
+    "Item": 3,
+    "ARTICLE_EID": "art_13",
+    "TARGET_SR": "SR 512.271",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "medium",
+    "reasoning": "The snippet mentions 'Verordnung des VBS ... über das Fliegerärztliche Institut' and the acronym VBS is mapped in the preamble to SR 512.271, but no specific article number of SR 512.271 is cited; it is a general reference to that ordinance."
+  },
+  {
+    "Item": 4,
+    "ARTICLE_EID": "art_12",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "The phrase 'nach Artikel 2 Absatz 2' appears without any SR or acronym context; by the rules this is a self-reference to Art. 2 Abs. 2 of the same document, not to an external SR."
+  }
+]

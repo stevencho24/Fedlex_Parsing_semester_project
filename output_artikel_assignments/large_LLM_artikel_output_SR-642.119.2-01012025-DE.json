@@ -1,0 +1,201 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 642.11",
+    "assigned_articles": [
+      "Art. 14 Abs. 6",
+      "Art. 39 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Präambel nennt ausdrücklich: «gestützt auf die Artikel 14 Absatz 6 und 39 Absatz 2 des Bundesgesetzes ... SR 642.11 ... (DBG)»; beide Artikel sind klar dem DBG (SR 642.11) zugeordnet."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": "SR 642.11",
+    "assigned_articles": [
+      "Art. 36 Abs. 1",
+      "Art. 36 Abs. 2",
+      "Art. 36 Abs. 2bis"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Snippet werden dreimal konkrete Bestimmungen des DBG genannt: «Artikel 36 Absatz 1 DBG», «Artikel 36 Absatz 2 DBG» und «Artikel 36 Absatz 2bis DBG»; alle sind direkt mit dem DBG (SR 642.11) verknüpft."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": "SR 642.11",
+    "assigned_articles": [
+      "Art. 33 Abs. 1 Bst. g Ziff. 1",
+      "Art. 33 Abs. 1 Bst. i Einleitungsteil",
+      "Art. 33 Abs. 1 Bst. j Einleitungsteil",
+      "Art. 33 Abs. 2",
+      "Art. 33 Abs. 3",
+      "Art. 33 Abs. 4"
+    ],
+    "confidence": "high",
+    "reasoning": "Das Snippet verweist mehrfach auf «Artikel 33 Absatz 1 Buchstabe g Ziffer 1 DBG», «... Buchstabe i Einleitungsteil DBG», «... Buchstabe j Einleitungsteil DBG» sowie «Artikel 33 Absatz 2/3/4 DBG»; alle diese Bestimmungen gehören zum DBG (SR 642.11)."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": "SR 642.11",
+    "assigned_articles": [
+      "Art. 35 Abs. 1 Bst. a",
+      "Art. 35 Abs. 1 Bst. b"
+    ],
+    "confidence": "high",
+    "reasoning": "Das Snippet nennt: «Sozialabzüge nach Artikel 35 Absatz 1 Buchstaben a und b DBG»; beide Buchstaben a und b von Art. 35 Abs. 1 DBG sind damit eindeutig referenziert."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": "SR 642.11",
+    "assigned_articles": [
+      "Art. 14 Abs. 3 Bst. a"
+    ],
+    "confidence": "high",
+    "reasoning": "Formulierung: «Der Betrag nach Artikel 14 Absatz 3 Buchstabe a DBG ...»; dies verweist klar auf Art. 14 Abs. 3 Buchstabe a DBG."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_6",
+    "TARGET_SR": "SR 642.11",
+    "assigned_articles": [
+      "Art. 24 Bst. ibis"
+    ],
+    "confidence": "high",
+    "reasoning": "Text: «Der Betrag nach Artikel 24 Buchstabe ibis DBG ...»; damit ist eindeutig Art. 24 Buchstabe ibis DBG gemeint."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": "SR 642.11",
+    "assigned_articles": [
+      "Art. 26 Abs. 1 Bst. a"
+    ],
+    "confidence": "high",
+    "reasoning": "Text: «Der Betrag nach Artikel 26 Absatz 1 Buchstabe a DBG ...»; dies ist eine klare Verweisung auf Art. 26 Abs. 1 Buchstabe a DBG."
+  },
+  {
+    "ITEM": 8,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "artikel_reference ohne explizite SR-Nennung; «Artikel 36 Absatz 1 DBG» ist bereits in ITEM 2 dem DBG (SR 642.11) zugeordnet. Hier dient der Verweis der internen inhaltlichen Beschreibung desselben Zusammenhangs und wird nicht erneut als eigenständiger SR-Link gewertet."
+  },
+  {
+    "ITEM": 9,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "Wie bei ITEM 8: «Artikel 36 Absatz 2 DBG» ist bereits in ITEM 2 DBG (SR 642.11) zugeordnet; dieser artikel_reference ergänzt nur den internen Kontext von Art. 2 der Verordnung."
+  },
+  {
+    "ITEM": 10,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«Artikel 36 Absatz 2bis DBG» ist schon in ITEM 2 DBG (SR 642.11) zugeordnet; dieser artikel_reference stellt lediglich eine interne Wiederholung im selben Artikel dar."
+  },
+  {
+    "ITEM": 11,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«Artikel 33 Absatz 1 Buchstabe g Ziffer 1 DBG» ist bereits in ITEM 3 DBG (SR 642.11) zugeordnet; hier nur interne Bezugnahme innerhalb von Art. 3."
+  },
+  {
+    "ITEM": 12,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«Artikel 33 Absatz 1 Buchstabe i Einleitungsteil DBG» ist schon in ITEM 3 DBG (SR 642.11) zugeordnet; dieser artikel_reference wiederholt denselben externen Bezug intern."
+  },
+  {
+    "ITEM": 13,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«Artikel 33 Absatz 1 Buchstabe j Einleitungsteil DBG» ist in ITEM 3 DBG (SR 642.11) zugeordnet; hier nur interne Wiederholung im selben Artikel."
+  },
+  {
+    "ITEM": 14,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«Artikel 33 Absatz 2 DBG» ist bereits in ITEM 3 DBG (SR 642.11) zugeordnet; dieser artikel_reference ist eine interne Bezugnahme ohne neuen SR-Link."
+  },
+  {
+    "ITEM": 15,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Satz verweist auf «Aufwendungen nach den Artikeln 26–31» und «allgemeinen Abzüge nach Absatz 1 Buchstaben d–f» ohne Nennung eines SR oder Akronyms; dies sind typische Selbstverweise innerhalb des DBG-Kontexts der Verordnung, daher als interne Referenz zu behandeln."
+  },
+  {
+    "ITEM": 16,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«Artikel 33 Absatz 3 DBG» ist schon in ITEM 3 DBG (SR 642.11) zugeordnet; dieser artikel_reference wiederholt nur den bereits erfassten externen Bezug."
+  },
+  {
+    "ITEM": 17,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«Artikel 33 Absatz 4 DBG» ist bereits in ITEM 3 DBG (SR 642.11) zugeordnet; hier liegt lediglich eine interne Wiederholung im selben Artikel vor."
+  },
+  {
+    "ITEM": 18,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Text nennt «Artikel 24 Buchstaben ibis–j» und «Artikel 24 Buchstabe ibis» ohne explizite SR-Nennung; im Kontext von Art. 3, der bereits DBG-Bestimmungen 24 und 33 adressiert, handelt es sich um interne inhaltliche Verweise, nicht um neue SR-Link-Zuweisungen."
+  },
+  {
+    "ITEM": 19,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Ausschnitt verweist auf «Unterhaltsbeiträge nach Artikel 33 Absatz 1 Buchstabe c» ohne SR-Nennung; da Art. 4 bereits DBG-Sozialabzüge regelt, ist dies ein interner Verweis im Rahmen derselben Materie, nicht ein neuer externer SR-Link."
+  }
+]

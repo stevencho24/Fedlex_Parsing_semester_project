@@ -1,0 +1,114 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 172.220.111.3",
+    "assigned_articles": [
+      "Art. 18a Abs. 1",
+      "Art. 18a Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet explicitly cites 'Artikel 18a Absätze 1 und 2 der Bundespersonalverordnung ... SR 172.220.111.3 (BPV)'; both paragraphs of Art. 18a clearly belong to SR 172.220.111.3."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": "SR 172.220.111.31",
+    "assigned_articles": [
+      "Art. 37"
+    ],
+    "confidence": "high",
+    "reasoning": "The text 'die Unterbrechung der Ferien (Art. 37 der Verordnung des EFD ... SR 172.220.111.31 ...)' directly links Art. 37 to the cited SR 172.220.111.31."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": "SR 172.220.111.3",
+    "assigned_articles": [
+      "Art. 67 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet states 'Ferienanspruch gemäss Artikel 67 Absatz 1 BPV'; BPV is SR 172.220.111.3 per preamble, so Art. 67 Abs. 1 belongs to that SR."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": "SR 172.220.111.3",
+    "assigned_articles": [
+      "Art. 52a"
+    ],
+    "confidence": "high",
+    "reasoning": "The phrase 'Lohngarantie nach Art. 52a BPV' directly associates Art. 52a with BPV, which is SR 172.220.111.3."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": "SR 172.220.111.3",
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "The snippet concerns 'Art. 37 der Verordnung des EFD ... VBPV', which belongs to SR 172.220.111.31, not to SR 172.220.111.3. There is no article of SR 172.220.111.3 cited in this sentence, so no articles are assigned to the target SR."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": "SR 172.220.111.3",
+    "assigned_articles": [
+      "Art. 67 Abs. 1",
+      "Art. 67 Abs. 2",
+      "Art. 67 Abs. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet explicitly mentions 'Artikel 67 Absatz 1 BPV' and 'den Ferienbezug (Art. 67 Abs. 2 und 3 BPV)'; BPV is SR 172.220.111.3, so these three paragraphs of Art. 67 are assigned."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 67 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "Artikel-reference item without TARGET_SR; it refers to 'Artikel 67 Absatz 1 BPV'. This is a cross-reference to Art. 67 Abs. 1 of BPV (SR 172.220.111.3), not an internal article of the current ordinance."
+  },
+  {
+    "ITEM": 8,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 67 Abs. 2",
+      "Art. 67 Abs. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "The line 'den Ferienbezug (Art. 67 Abs. 2 und 3 BPV)' cites paragraphs 2 and 3 of Art. 67 BPV, i.e., external cross-references to BPV, not self-references within this ordinance."
+  },
+  {
+    "ITEM": 9,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 37"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet cites 'Art. 37 der Verordnung des EFD ... VBPV'; this is a reference to Art. 37 of the separate VBPV (SR 172.220.111.31), not to an article of the current document."
+  },
+  {
+    "ITEM": 10,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 39"
+    ],
+    "confidence": "high",
+    "reasoning": "The text 'Art. 39 VBPV' clearly refers to Art. 39 of the VBPV, an external ordinance, so it is not a self-reference within this document."
+  },
+  {
+    "ITEM": 11,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 61 Abs. 2ter"
+    ],
+    "confidence": "high",
+    "reasoning": "The phrase 'Artikel 61 Abs. 2ter VBPV' refers to Art. 61 paragraph 2ter of the VBPV, again an external cross-reference rather than an internal article of the present ordinance."
+  }
+]

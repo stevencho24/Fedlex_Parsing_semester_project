@@ -1,0 +1,822 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 142.20",
+    "assigned_articles": ["Art. 124"],
+    "confidence": "high",
+    "reasoning": "Im selben Satz: 'gestützt auf Artikel 124 des Ausländer- und Integrationsgesetzes ... SR 142.20 (AIG)'; der Artikel ist direkt dem AIG zugeordnet."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 170.512",
+    "assigned_articles": ["Art. 12 Abs. 2"],
+    "confidence": "high",
+    "reasoning": "Im Autorentext: 'in Anwendung von Art. 12 Abs. 2 des Publikationsgesetzes ... (SR 170.512)'; eindeutige Zuordnung."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 142.31",
+    "assigned_articles": ["Art. 119"],
+    "confidence": "high",
+    "reasoning": "Formulierung: 'auf Artikel 119 des Asylgesetzes ... SR 142.31 (AsylG)'; direkter Bezug."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 172.010",
+    "assigned_articles": ["Art. 48a Abs. 1"],
+    "confidence": "high",
+    "reasoning": "Text: 'sowie auf Artikel 48a Absatz 1 des Regierungs- und Verwaltungsorganisationsgesetzes ... SR 172.010 (RVOG)'; klarer Bezug."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 311.0",
+    "assigned_articles": ["Art. 66a", "Art. 66abis"],
+    "confidence": "high",
+    "reasoning": "Satz: 'Landesverweisung nach Artikel 66a oder 66abis des Strafgesetzbuchs SR 311.0'; beide Artikel gehören zum StGB."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 321.0",
+    "assigned_articles": ["Art. 49a", "Art. 49abis"],
+    "confidence": "high",
+    "reasoning": "Satz: 'oder Artikel 49a oder 49abis des Militärstrafgesetzes ... SR 321.0'; direkte Zuordnung."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": "SR 142.314",
+    "assigned_articles": ["Art. 10a–10i"],
+    "confidence": "high",
+    "reasoning": "Formulierung: 'in Verbindung mit den Artikeln 10a bis 10i der Asylverordnung 3 ... SR 142.314'; Bereichsangabe."
+  },
+  {
+    "ITEM": 8,
+    "ARTICLE_EID": "art_11",
+    "TARGET_SR": "SR 364.3",
+    "assigned_articles": ["Art. 28 Abs. 1"],
+    "confidence": "high",
+    "reasoning": "Text: 'Festlegung der Vollzugsstufe nach Artikel 28 Absatz 1 der Zwangsanwendungsverordnung ... SR 364.3'; klarer Bezug."
+  },
+  {
+    "ITEM": 9,
+    "ARTICLE_EID": "art_15_e_bis",
+    "TARGET_SR": "SR 631.062",
+    "assigned_articles": ["Art. 7 Abs. 3"],
+    "confidence": "high",
+    "reasoning": "Satz: 'nach Artikel 7 Absatz 3 der Verordnung vom 29. Juni 2022 SR 631.062 ... (ViZG)'; eindeutige Verknüpfung."
+  },
+  {
+    "ITEM": 10,
+    "ARTICLE_EID": "art_15_e_ter",
+    "TARGET_SR": "SR 170.32",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "medium",
+    "reasoning": "Nur das Gesetz ('nach dem Verantwortlichkeitsgesetz ... SR 170.32') wird genannt, ohne Artikelangabe; daher allgemeine Verweisung."
+  },
+  {
+    "ITEM": 11,
+    "ARTICLE_EID": "art_15_e_ter",
+    "TARGET_SR": "SR 311.0",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "medium",
+    "reasoning": "Formulierung 'untersteht dem Strafgesetzbuch SR 311.0' ohne Artikel; allgemeine Unterstellung unter das StGB."
+  },
+  {
+    "ITEM": 12,
+    "ARTICLE_EID": "art_15_e_quinquies",
+    "TARGET_SR": "SR 631.062",
+    "assigned_articles": ["dritter Abschnitt"],
+    "confidence": "high",
+    "reasoning": "Text: 'Bestimmungen des dritten Abschnitts der ViZG SR 631.062'; Abschnittsverweis, kein Einzelartikel."
+  },
+  {
+    "ITEM": 13,
+    "ARTICLE_EID": "art_15_j",
+    "TARGET_SR": "SR 341",
+    "assigned_articles": ["Art. 3 Abs. 1 Bst. a–e"],
+    "confidence": "high",
+    "reasoning": "Satz: 'Voraussetzungen nach Artikel 3 Absatz 1 Buchstaben a–e des Bundesgesetzes ... SR 341'; klarer Artikelverweis."
+  },
+  {
+    "ITEM": 14,
+    "ARTICLE_EID": "art_15_l",
+    "TARGET_SR": "SR 341",
+    "assigned_articles": ["Art. 4 Abs. 2"],
+    "confidence": "high",
+    "reasoning": "Klammer: '(Art. 4 Abs. 2 LSMG SR 341)'; eindeutige Zuordnung."
+  },
+  {
+    "ITEM": 15,
+    "ARTICLE_EID": "art_15_m",
+    "TARGET_SR": "SR 341.1",
+    "assigned_articles": [
+      "Art. 12 Abs. 2",
+      "Art. 13",
+      "Art. 15",
+      "Art. 19 Abs. 2–4",
+      "Art. 20",
+      "Art. 20b"
+    ],
+    "confidence": "high",
+    "reasoning": "Aufzählung: 'Artikel 12 Absatz 2 ..., Artikel 13 ..., Artikel 15 ..., Artikel 19 Absätze 2–4 ..., Artikel 20 ..., Artikel 20b ... der Verordnung ... SR 341.1'; alle gehören zur LSMV."
+  },
+  {
+    "ITEM": 16,
+    "ARTICLE_EID": "art_15_n",
+    "TARGET_SR": "SR 341",
+    "assigned_articles": ["Art. 12 Abs. 1–2"],
+    "confidence": "high",
+    "reasoning": "Text: 'Artikel 12 Absätze 1 und 2 LSMG SR 341'; beide Absätze des gleichen Artikels."
+  },
+  {
+    "ITEM": 17,
+    "ARTICLE_EID": "art_15_o",
+    "TARGET_SR": "SR 341.1",
+    "assigned_articles": ["Art. 25–33"],
+    "confidence": "high",
+    "reasoning": "Formulierung: 'nach den Artikeln 25–33 LSMV SR 341.1'; Bereichsangabe innerhalb derselben Verordnung."
+  },
+  {
+    "ITEM": 18,
+    "ARTICLE_EID": "art_21",
+    "TARGET_SR": "SR 142.311",
+    "assigned_articles": ["Art. 21", "Art. 22"],
+    "confidence": "high",
+    "reasoning": "Satz: 'richtet sich nach den Artikeln 21 und 22 der Asylverordnung 1 ... SR 142.311'; beide Artikel explizit genannt."
+  },
+  {
+    "ITEM": 19,
+    "ARTICLE_EID": "art_26_a",
+    "TARGET_SR": "SR 143.5",
+    "assigned_articles": ["Art. 7", "Art. 4 Abs. 4"],
+    "confidence": "high",
+    "reasoning": "Text: 'Rückreisevisum nach Artikel 7 der Verordnung ... SR 143.5 ... oder ... nach Artikel 4 Absatz 4 RDV'; beide Artikel gehören zur RDV."
+  },
+  {
+    "ITEM": 20,
+    "ARTICLE_EID": "art_26_c",
+    "TARGET_SR": "SR 170.512",
+    "assigned_articles": ["Art. 12 Abs. 2"],
+    "confidence": "high",
+    "reasoning": "Autorennotiz: 'in Anwendung von Art. 12 Abs. 2 des Publikationsgesetzes ... (SR 170.512)'; klarer Einzelartikel."
+  },
+  {
+    "ITEM": 21,
+    "ARTICLE_EID": "art_26_h",
+    "TARGET_SR": "SR 142.312",
+    "assigned_articles": ["Art. 55–61"],
+    "confidence": "high",
+    "reasoning": "Satz: 'Die Artikel 55–61 der Asylverordnung 2 ... SR 142.312 ... sind anwendbar'; Bereichsangabe."
+  },
+  {
+    "ITEM": 22,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 142.20",
+    "assigned_articles": ["Art. 71 Abs. 1", "Art. 71 Abs. 1 Bst. a–b", "Art. 71"],
+    "confidence": "high",
+    "reasoning": "Klammer '(Art. 71 AIG)' als Marginalie und im Text 'nach Artikel 71 Absatz 1 AIG, insbesondere ... Buchstaben a und b'; Hauptverweis ist Art. 71 Abs. 1 inkl. Buchstaben, zusätzlich genereller Art. 71 aus der Klammer."
+  },
+  {
+    "ITEM": 23,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": "SR 142.20",
+    "assigned_articles": ["Art. 71 Bst. a"],
+    "confidence": "medium",
+    "reasoning": "Klammer '(Art. 71 Bst. AIG)' ist offensichtlich verstümmelt; im Kontext der Verordnung ist Art. 2 typischerweise der Ausführung zu Art. 71 Buchstabe a AIG. Daher Zuordnung zu Art. 71 Buchstabe a."
+  },
+  {
+    "ITEM": 24,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": "SR 142.31",
+    "assigned_articles": ["Art. 26c", "Art. 26d"],
+    "confidence": "high",
+    "reasoning": "Text nennt 'Artikel 26c AsylG' und 'Artikel 26d AsylG'; beide gehören zum AsylG (SR 142.31)."
+  },
+  {
+    "ITEM": 25,
+    "ARTICLE_EID": "art_2_a",
+    "TARGET_SR": "SR 142.20",
+    "assigned_articles": ["Art. 73–78"],
+    "confidence": "high",
+    "reasoning": "Formulierung: 'Zwangsmassnahmen nach Artikel 73–78 AIG'; Bereichsangabe innerhalb des AIG."
+  },
+  {
+    "ITEM": 26,
+    "ARTICLE_EID": "art_2_a",
+    "TARGET_SR": "SR 142.31",
+    "assigned_articles": ["Art. 26c", "Art. 26b"],
+    "confidence": "high",
+    "reasoning": "Satz nennt 'Artikel 26c AsylG' und 'Artikel 26b AsylG'; beide sind Artikel des AsylG."
+  },
+  {
+    "ITEM": 27,
+    "ARTICLE_EID": "art_2_b",
+    "TARGET_SR": "SR 142.20",
+    "assigned_articles": ["Art. 75–78"],
+    "confidence": "high",
+    "reasoning": "Text: 'Personen, die sich gestützt auf Artikel 75–78 AIG in Haft befinden'; Bereichsangabe im AIG."
+  },
+  {
+    "ITEM": 28,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": "SR 142.31",
+    "assigned_articles": ["Art. 45", "Art. 47 Abs. 3"],
+    "confidence": "high",
+    "reasoning": "Satz: 'Wegweisungsverfügung nach Artikel 45 AsylG ... Das Verfahren richtet sich nach den Artikel 47 Absatz 3 AsylG'; beide Artikel gehören zum AsylG."
+  },
+  {
+    "ITEM": 29,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": "SR 142.31",
+    "assigned_articles": ["Art. 97 Abs. 2"],
+    "confidence": "high",
+    "reasoning": "Klammer '(Art. 97 Abs. 2 AsylG)'; eindeutiger Einzelartikel."
+  },
+  {
+    "ITEM": 30,
+    "ARTICLE_EID": "art_4_a",
+    "TARGET_SR": "SR 142.20",
+    "assigned_articles": ["Art. 100 Abs. 2 Bst. b"],
+    "confidence": "high",
+    "reasoning": "Text: 'im Sinne von Artikel 100 Absatz 2 Buchstabe b des AIG'; klarer Verweis."
+  },
+  {
+    "ITEM": 31,
+    "ARTICLE_EID": "art_4_a",
+    "TARGET_SR": "SR 172.010",
+    "assigned_articles": ["Art. 48a"],
+    "confidence": "high",
+    "reasoning": "Klammer '(Art. 48a RVOG)'; Einzelartikel im RVOG."
+  },
+  {
+    "ITEM": 32,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": "SR 142.20",
+    "assigned_articles": ["Art. 71 Bst. b"],
+    "confidence": "high",
+    "reasoning": "Klammer '(Art. 71 Bst. b AIG)'; direkter Verweis auf Buchstabe b."
+  },
+  {
+    "ITEM": 33,
+    "ARTICLE_EID": "art_6",
+    "TARGET_SR": "SR 142.20",
+    "assigned_articles": ["Art. 71 Bst. c"],
+    "confidence": "high",
+    "reasoning": "Klammer '(Art. 71 Bst. c AIG)'; direkter Verweis auf Buchstabe c."
+  },
+  {
+    "ITEM": 34,
+    "ARTICLE_EID": "art_11_a",
+    "TARGET_SR": "SR 142.31",
+    "assigned_articles": ["Art. 92 Abs. 2"],
+    "confidence": "high",
+    "reasoning": "Text: 'für die in Artikel 92 Absatz 2 AsylG aufgeführten Personenkategorien'; klarer Artikelverweis."
+  },
+  {
+    "ITEM": 35,
+    "ARTICLE_EID": "art_12",
+    "TARGET_SR": "SR 142.20",
+    "assigned_articles": [
+      "Art. 109f–109j",
+      "Art. 109i",
+      "Art. 109g Abs. 2 Bst. a",
+      "Art. 109g Abs. 2 Bst. h"
+    ],
+    "confidence": "high",
+    "reasoning": "Klammer '(Art. 109f–109j AIG)' plus Text 'Beauftragte Dritte nach Artikel 109i AIG ... (Art. 109g Abs. 2 Bst. a AIG) ... (Art. 109g Abs. 2 Bst. h AIG)'; alle Verweise gehören zum AIG."
+  },
+  {
+    "ITEM": 36,
+    "ARTICLE_EID": "art_15",
+    "TARGET_SR": "SR 142.20",
+    "assigned_articles": ["Art. 82 Abs. 2", "Art. 73 Abs. 1 Bst. a–b", "Art. 75–78"],
+    "confidence": "high",
+    "reasoning": "Klammer '(Art. 82 Abs. 2 AIG)' und im Text 'nach Artikel 73 Absatz 1 Buchstaben a und b AIG' sowie 'nach den Artikeln 75–78 AIG'; alle im AIG."
+  },
+  {
+    "ITEM": 37,
+    "ARTICLE_EID": "art_15_a",
+    "TARGET_SR": "SR 142.20",
+    "assigned_articles": ["Art. 82 Abs. 3 Bst. b", "Art. 73 Abs. 1 Bst. c"],
+    "confidence": "high",
+    "reasoning": "Klammer '(Art. 82 Abs. 3 Bst. b AIG)' und Text 'nach Artikel 73 Absatz 1 Buchstabe c AIG'; beide im AIG."
+  },
+  {
+    "ITEM": 38,
+    "ARTICLE_EID": "art_15_a_bis",
+    "TARGET_SR": "SR 142.20",
+    "assigned_articles": ["Art. 73", "Art. 75–78"],
+    "confidence": "high",
+    "reasoning": "Text: 'Haft nach den Artikeln 73 und 75–78 AIG'; Bereichsangabe im AIG."
+  },
+  {
+    "ITEM": 39,
+    "ARTICLE_EID": "art_15_d",
+    "TARGET_SR": "SR 142.20",
+    "assigned_articles": ["Art. 71a Abs. 1"],
+    "confidence": "high",
+    "reasoning": "Formulierung: 'nach Artikel 71a Absatz 1 AIG vergütbaren Kosten'; klarer Einzelartikel."
+  },
+  {
+    "ITEM": 40,
+    "ARTICLE_EID": "art_15_e",
+    "TARGET_SR": "SR 142.20",
+    "assigned_articles": ["Art. 71abis Abs. 2"],
+    "confidence": "high",
+    "reasoning": "Text: 'gestützt auf Artikel 71abis Absatz 2 AIG'; eindeutiger Verweis."
+  },
+  {
+    "ITEM": 41,
+    "ARTICLE_EID": "art_15_e_quater",
+    "TARGET_SR": "SR 142.20",
+    "assigned_articles": ["Art. 109h Bst. a"],
+    "confidence": "high",
+    "reasoning": "Satz: 'gemäss Artikel 109h Buchstabe a AIG'; klarer Einzelverweis."
+  },
+  {
+    "ITEM": 42,
+    "ARTICLE_EID": "art_15_f",
+    "TARGET_SR": "SR 142.20",
+    "assigned_articles": ["Art. 71abis Abs. 1"],
+    "confidence": "high",
+    "reasoning": "Klammer '(Art. 71abis Abs. 1 AIG)'; eindeutiger Artikel."
+  },
+  {
+    "ITEM": 43,
+    "ARTICLE_EID": "art_15_g",
+    "TARGET_SR": "SR 142.20",
+    "assigned_articles": ["Art. 71abis Abs. 2"],
+    "confidence": "high",
+    "reasoning": "Klammer '(Art. 71abis Abs. 2 AIG)'; eindeutiger Artikel."
+  },
+  {
+    "ITEM": 44,
+    "ARTICLE_EID": "art_15_h",
+    "TARGET_SR": "SR 142.20",
+    "assigned_articles": ["Art. 71abis Abs. 2"],
+    "confidence": "high",
+    "reasoning": "Identische Klammer '(Art. 71abis Abs. 2 AIG)'; gleicher Artikel."
+  },
+  {
+    "ITEM": 45,
+    "ARTICLE_EID": "art_15_i",
+    "TARGET_SR": "SR 142.20",
+    "assigned_articles": ["Art. 71abis"],
+    "confidence": "high",
+    "reasoning": "Klammer '(Art. 71abis AIG)' ohne Absatzangabe; genereller Verweis auf diesen Artikel."
+  },
+  {
+    "ITEM": 46,
+    "ARTICLE_EID": "art_15_j",
+    "TARGET_SR": "SR 142.20",
+    "assigned_articles": ["Art. 82 Abs. 1"],
+    "confidence": "high",
+    "reasoning": "Klammer '(Art. 82 Abs. 1 AIG)'; eindeutiger Artikel."
+  },
+  {
+    "ITEM": 47,
+    "ARTICLE_EID": "art_15_k",
+    "TARGET_SR": "SR 142.20",
+    "assigned_articles": ["Art. 82 Abs. 1"],
+    "confidence": "high",
+    "reasoning": "Klammer '(Art. 82 Abs. 1 AIG)'; gleicher Artikel wie bei ITEM 46."
+  },
+  {
+    "ITEM": 48,
+    "ARTICLE_EID": "art_15_n",
+    "TARGET_SR": "SR 142.20",
+    "assigned_articles": ["Art. 82 Abs. 1"],
+    "confidence": "high",
+    "reasoning": "Klammer '(Art. 82 Abs. 1 AIG)'; identischer Verweis."
+  },
+  {
+    "ITEM": 49,
+    "ARTICLE_EID": "art_15_o",
+    "TARGET_SR": "SR 142.20",
+    "assigned_articles": ["Art. 82 Abs. 1"],
+    "confidence": "high",
+    "reasoning": "Klammer '(Art. 82 Abs. 1 AIG)'; identischer Verweis."
+  },
+  {
+    "ITEM": 50,
+    "ARTICLE_EID": "art_15_q",
+    "TARGET_SR": "SR 142.20",
+    "assigned_articles": ["Art. 71b Abs. 1 Bst. a–c"],
+    "confidence": "high",
+    "reasoning": "Text: 'Stellen nach Artikel 71b Absatz 1 Buchstaben a–c AIG'; klarer Verweis."
+  },
+  {
+    "ITEM": 51,
+    "ARTICLE_EID": "art_15_r",
+    "TARGET_SR": "SR 142.20",
+    "assigned_articles": ["Art. 71b Abs. 1 Bst. a–b"],
+    "confidence": "high",
+    "reasoning": "Satz: 'Stellen nach Artikel 71b Absatz 1 Buchstaben a und b AIG'; eindeutiger Bezug."
+  },
+  {
+    "ITEM": 52,
+    "ARTICLE_EID": "art_15_s",
+    "TARGET_SR": "SR 142.20",
+    "assigned_articles": ["Art. 71b Abs. 1 Bst. a–b"],
+    "confidence": "high",
+    "reasoning": "Text: 'Stellen nach Artikel 71b Absatz 1 Buchstaben a und b AIG'; gleicher Verweis wie in ITEM 51."
+  },
+  {
+    "ITEM": 53,
+    "ARTICLE_EID": "art_16",
+    "TARGET_SR": "SR 142.20",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "medium",
+    "reasoning": "Formulierung 'soweit nach dem AIG nicht die Kantone dafür zuständig sind' ohne konkrete Artikel; generelle Bezugnahme auf das AIG."
+  },
+  {
+    "ITEM": 54,
+    "ARTICLE_EID": "art_18",
+    "TARGET_SR": "SR 142.20",
+    "assigned_articles": ["Art. 83 Abs. 5"],
+    "confidence": "high",
+    "reasoning": "Klammer '(Art. 83 Abs. 5 AIG)'; eindeutiger Artikel."
+  },
+  {
+    "ITEM": 55,
+    "ARTICLE_EID": "art_26",
+    "TARGET_SR": "SR 142.20",
+    "assigned_articles": ["Art. 83 Abs. 2–4"],
+    "confidence": "high",
+    "reasoning": "Text: 'gemäss Artikel 83 Absätze 2–4 AIG'; klarer Bereichsverweis."
+  },
+  {
+    "ITEM": 56,
+    "ARTICLE_EID": "art_26_a",
+    "TARGET_SR": "SR 142.20",
+    "assigned_articles": ["Art. 84 Abs. 4"],
+    "confidence": "high",
+    "reasoning": "Formulierung: 'nach Artikel 84 Absatz 4 AIG'; eindeutiger Artikel."
+  },
+  {
+    "ITEM": 57,
+    "ARTICLE_EID": "art_26_b",
+    "TARGET_SR": "SR 142.20",
+    "assigned_articles": ["Art. 64", "Art. 2 Abs. 2–3"],
+    "confidence": "high",
+    "reasoning": "Klammer '(Art. 64 AIG)' und im Text 'unter Vorbehalt von Artikel 2 Absätze 2 und 3 AIG'; beide im AIG."
+  },
+  {
+    "ITEM": 58,
+    "ARTICLE_EID": "art_26_c",
+    "TARGET_SR": "SR 142.20",
+    "assigned_articles": ["Art. 64 Abs. 2"],
+    "confidence": "high",
+    "reasoning": "Klammer '(Art. 64 Abs. 2 AIG)'; eindeutiger Artikel."
+  },
+  {
+    "ITEM": 59,
+    "ARTICLE_EID": "art_26_d",
+    "TARGET_SR": "SR 142.20",
+    "assigned_articles": ["Art. 64b"],
+    "confidence": "high",
+    "reasoning": "Klammer '(Art. 64b AIG)'; eindeutiger Artikel."
+  },
+  {
+    "ITEM": 60,
+    "ARTICLE_EID": "art_26_e",
+    "TARGET_SR": "SR 142.20",
+    "assigned_articles": ["Art. 64f Abs. 2"],
+    "confidence": "high",
+    "reasoning": "Klammer '(Art. 64f Abs. 2 AIG)'; eindeutiger Artikel."
+  },
+  {
+    "ITEM": 61,
+    "ARTICLE_EID": "art_26_g",
+    "TARGET_SR": "SR 142.20",
+    "assigned_articles": ["Art. 67 Abs. 1–2"],
+    "confidence": "high",
+    "reasoning": "Text: 'nach Artikel 67 Absätze 1 und 2 AIG'; klarer Bereichsverweis."
+  },
+  {
+    "ITEM": 62,
+    "ARTICLE_EID": "art_26_g",
+    "TARGET_SR": "SR 142.31",
+    "assigned_articles": ["Art. 111c Abs. 1"],
+    "confidence": "high",
+    "reasoning": "Satz: 'Mehrfachgesuch nach Artikel 111c Absatz 1 AsylG'; eindeutiger Artikel."
+  },
+  {
+    "ITEM": 63,
+    "ARTICLE_EID": "art_26_h",
+    "TARGET_SR": "SR 142.20",
+    "assigned_articles": ["Art. 87 Abs. 2"],
+    "confidence": "high",
+    "reasoning": "Klammer '(Art. 87 Abs. 2 AIG; Art. 92 Abs. 2 AsylG)'; für AIG-Teil ist Art. 87 Abs. 2 relevant."
+  },
+  {
+    "ITEM": 64,
+    "ARTICLE_EID": "art_26_h",
+    "TARGET_SR": "SR 142.31",
+    "assigned_articles": ["Art. 92 Abs. 2", "Art. 55–61", "Art. 111c Abs. 2"],
+    "confidence": "high",
+    "reasoning": "Klammer nennt 'Art. 92 Abs. 2 AsylG'; Text verweist zusätzlich auf 'Artikel 55–61 der Asylverordnung 2' (separate SR 142.312, nicht diesem TARGET_SR zuzuordnen) und 'nach Artikel 111c Absatz 2 AsylG'. Für SR 142.31 sind Art. 92 Abs. 2 und Art. 111c Abs. 2 relevant; Art. 55–61 gehören zu SR 142.312 und werden hier nicht nochmals zugeordnet."
+  },
+  {
+    "ITEM": 65,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "high",
+    "reasoning": "Verweist auf 'Artikel 66a oder 66abis des Strafgesetzbuchs' und 'Artikel 49a oder 49abis des Militärstrafgesetzes'; diese Artikel sind bereits in ITEMS 5 und 6 SR-gebunden. Innerhalb dieses Dokuments ist es ein Verweis auf externe Gesetze, kein zusätzlicher SR-Link; als artikel_reference dient er der internen Kontextabbildung."
+  },
+  {
+    "ITEM": 66,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "high",
+    "reasoning": "Verweist auf 'Artikel 71 Absatz 1 AIG'; dieser Artikel ist bereits in ITEM 22 SR-gebunden. Hier nur interne Wiederholung im Text."
+  },
+  {
+    "ITEM": 67,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "high",
+    "reasoning": "Verweist auf 'Artikel 26c AsylG', der bereits in ITEM 24 SR-gebunden ist; hier nur Textwiederholung."
+  },
+  {
+    "ITEM": 68,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "high",
+    "reasoning": "Verweist auf 'Artikel 26d AsylG', der in ITEM 24 SR-gebunden ist; interne Wiederholung."
+  },
+  {
+    "ITEM": 69,
+    "ARTICLE_EID": "art_2_a",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "high",
+    "reasoning": "Verweist auf 'Artikel 26c AsylG', bereits in ITEM 24 SR-gebunden; kein neuer externer Link."
+  },
+  {
+    "ITEM": 70,
+    "ARTICLE_EID": "art_2_a",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "high",
+    "reasoning": "Verweist auf 'Artikel 26b AsylG', bereits in ITEM 26 SR-gebunden; interne Wiederholung."
+  },
+  {
+    "ITEM": 71,
+    "ARTICLE_EID": "art_2_a",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "high",
+    "reasoning": "Verweist auf 'Artikel 73–78 AIG', die in ITEMS 25, 27, 36, 38 SR-gebunden sind; interner Verweis."
+  },
+  {
+    "ITEM": 72,
+    "ARTICLE_EID": "art_2_a",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "medium",
+    "reasoning": "Verweist auf 'Artikel 59a Absatz 2bis AsylV 2'; diese Verordnung (AsylV 2) ist in ITEMS 21 und 64 bereits über SR 142.312 angebunden. Hier nur interner Kontext, kein neuer SR-Link."
+  },
+  {
+    "ITEM": 73,
+    "ARTICLE_EID": "art_2_b",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "medium",
+    "reasoning": "Verweist auf 'Artikel 59a Absatz 2bis AsylV 2' und 'Artikel 59abis AsylV 2'; AsylV 2 ist bereits über SR 142.312 angebunden (ITEMS 21, 64)."
+  },
+  {
+    "ITEM": 74,
+    "ARTICLE_EID": "art_11",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "high",
+    "reasoning": "Verweist auf 'Artikel 28 Absatz 1 der Zwangsanwendungsverordnung'; dieser Artikel ist in ITEM 8 bereits SR-gebunden (SR 364.3)."
+  },
+  {
+    "ITEM": 75,
+    "ARTICLE_EID": "art_11_a",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "high",
+    "reasoning": "Verweist auf 'Artikel 92 Absatz 2 AsylG', der in ITEMS 34 und 64 bereits SR-gebunden ist; interner Verweis."
+  },
+  {
+    "ITEM": 76,
+    "ARTICLE_EID": "art_12",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "high",
+    "reasoning": "Verweist auf 'Artikel 109i AIG', der in ITEM 35 bereits SR-gebunden ist; interner Verweis."
+  },
+  {
+    "ITEM": 77,
+    "ARTICLE_EID": "art_12",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "high",
+    "reasoning": "Verweist auf 'Art. 109g Abs. 2 Bst. a AIG', der in ITEM 35 SR-gebunden ist; Wiederholung."
+  },
+  {
+    "ITEM": 78,
+    "ARTICLE_EID": "art_12",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "high",
+    "reasoning": "Verweist auf 'Art. 109g Abs. 2 Bst. h AIG', ebenfalls in ITEM 35 SR-gebunden; Wiederholung."
+  },
+  {
+    "ITEM": 79,
+    "ARTICLE_EID": "art_15",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "high",
+    "reasoning": "Verweist auf 'Artikel 73 Absatz 1 ...' und 'Artikeln 75–78 AIG', die in ITEMS 36, 38 bereits SR-gebunden sind; interner Verweis."
+  },
+  {
+    "ITEM": 80,
+    "ARTICLE_EID": "art_15_a",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "high",
+    "reasoning": "Verweist auf '(Art. 82 Abs. 3 Bst. b AIG)', der in ITEM 37 SR-gebunden ist; Wiederholung."
+  },
+  {
+    "ITEM": 81,
+    "ARTICLE_EID": "art_15_a",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "high",
+    "reasoning": "Verweist auf 'Artikel 73 Absatz 1 Buchstabe c AIG', der in ITEM 37 SR-gebunden ist; interner Verweis."
+  },
+  {
+    "ITEM": 82,
+    "ARTICLE_EID": "art_15_b_bis",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "medium",
+    "reasoning": "Verweist auf 'Artikeln 56 und 57 der Verordnung (EU) 2019/1896'; dies ist EU-Recht, kein SR-Dokument; daher keine SR-Zuordnung, nur interner Kontext."
+  },
+  {
+    "ITEM": 83,
+    "ARTICLE_EID": "art_15_b_bis",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "medium",
+    "reasoning": "Verweist auf 'Artikel 51 Absatz 3 und Artikel 57 Absatz 9 der Verordnung (EU) 2019/1896'; wiederum EU-Recht, kein SR-Link."
+  },
+  {
+    "ITEM": 84,
+    "ARTICLE_EID": "art_15_c",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "medium",
+    "reasoning": "Verweist auf 'Artikel 62 der Verordnung (EU) 2019/1896'; EU-Recht, kein SR-Dokument."
+  },
+  {
+    "ITEM": 85,
+    "ARTICLE_EID": "art_15_d",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "medium",
+    "reasoning": "Verweist auf 'Artikel 62 der Verordnung (EU) 2019/1896'; EU-Recht, bereits in ITEM 84 erwähnt."
+  },
+  {
+    "ITEM": 86,
+    "ARTICLE_EID": "art_15_d",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "medium",
+    "reasoning": "Verweist auf 'Artikel 45 und Artikel 56 Absatz 2 der Verordnung (EU) 2019/1896'; EU-Recht, kein SR-Link."
+  },
+  {
+    "ITEM": 87,
+    "ARTICLE_EID": "art_15_e",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "medium",
+    "reasoning": "Verweist auf 'Artikel 62 der Verordnung (EU) 2019/1896'; EU-Recht, bereits in ITEMS 84, 85 erwähnt."
+  },
+  {
+    "ITEM": 88,
+    "ARTICLE_EID": "art_15_e_bis",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "high",
+    "reasoning": "Verweist auf 'Artikeln 15c–15e' derselben Verordnung (interne Artikel dieser Verordnung); keine SR-Verknüpfung."
+  },
+  {
+    "ITEM": 89,
+    "ARTICLE_EID": "art_15_e_bis",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "high",
+    "reasoning": "Verweist auf 'Artikel 7 Absatz 3 der Verordnung ... (ViZG)'; dieser Artikel ist in ITEM 9 bereits SR-gebunden (SR 631.062)."
+  },
+  {
+    "ITEM": 90,
+    "ARTICLE_EID": "art_15_j",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "high",
+    "reasoning": "Verweist auf 'Artikel 3 Absatz 1 Buchstaben a–e ... (LSMG)'; dieser Artikel ist in ITEM 13 bereits SR-gebunden (SR 341)."
+  },
+  {
+    "ITEM": 91,
+    "ARTICLE_EID": "art_15_m",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "high",
+    "reasoning": "Wiederholt die Aufzählung der Artikel 12 Abs. 2, 13, 15, 19 Abs. 2–4, 20, 20b LSMV, die in ITEM 15 bereits SR-gebunden sind."
+  },
+  {
+    "ITEM": 92,
+    "ARTICLE_EID": "art_15_q",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "high",
+    "reasoning": "Verweist auf 'Artikel 71b Absatz 1 Buchstaben a–c AIG' und 'Artikel 15p'; Art. 71b ist in ITEM 50 SR-gebunden, Art. 15p ist interner Artikel dieser Verordnung."
+  },
+  {
+    "ITEM": 93,
+    "ARTICLE_EID": "art_15_q",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "high",
+    "reasoning": "Verweist auf 'Artikel 15p' (interner Artikel) und 'Artikel 71b Absatz 1 Buchstaben a und b AIG', der in ITEM 51 SR-gebunden ist."
+  },
+  {
+    "ITEM": 94,
+    "ARTICLE_EID": "art_15_s",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "high",
+    "reasoning": "Verweist auf 'Artikel 15p' (interner Artikel); keine neue SR-Verknüpfung."
+  },
+  {
+    "ITEM": 95,
+    "ARTICLE_EID": "art_21",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "high",
+    "reasoning": "Verweist auf 'Artikeln 21 und 22 der Asylverordnung 1'; diese sind in ITEM 18 bereits SR-gebunden (SR 142.311)."
+  },
+  {
+    "ITEM": 96,
+    "ARTICLE_EID": "art_26_a",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "high",
+    "reasoning": "Verweist auf 'Artikel 7 ... RDV' und 'Artikel 4 Absatz 4 RDV'; diese sind in ITEM 19 bereits SR-gebunden (SR 143.5)."
+  },
+  {
+    "ITEM": 97,
+    "ARTICLE_EID": "art_26_a",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "high",
+    "reasoning": "Wiederholt 'Artikel 7 RDV' und 'Artikel 4 Absatz 4 RDV'; bereits in ITEM 19 SR-gebunden."
+  },
+  {
+    "ITEM": 98,
+    "ARTICLE_EID": "art_26_b",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "high",
+    "reasoning": "Verweist auf 'Artikel 2 Absätze 2 und 3 AIG', die in ITEM 57 SR-gebunden sind; interner Verweis."
+  },
+  {
+    "ITEM": 99,
+    "ARTICLE_EID": "art_26_h",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "high",
+    "reasoning": "Verweist auf 'Artikel 92 Absatz 2 AsylG' und 'Artikel 55–61 der Asylverordnung 2'; diese sind in ITEMS 64 und 21 bereits SR-gebunden (SR 142.31 bzw. SR 142.312)."
+  },
+  {
+    "ITEM": 100,
+    "ARTICLE_EID": "art_26_h",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "high",
+    "reasoning": "Verweist auf 'Artikel 111c Absatz 2 AsylG', der in ITEM 64 bereits SR-gebunden ist; interner Verweis."
+  },
+  {
+    "ITEM": 101,
+    "ARTICLE_EID": "art_28",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "medium",
+    "reasoning": "Verweist auf 'nach Artikel 26 dieser Verordnung'; dies ist ein interner Artikel derselben Verordnung (SR 142.281), kein externer SR-Link."
+  }
+]

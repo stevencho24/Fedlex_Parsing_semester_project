@@ -1,0 +1,54 @@
+[
+  {
+    "Item": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 510.626",
+    "assigned_articles": [
+      "Art. 2 Abs. 2",
+      "Art. 10 Abs. 2",
+      "Art. 20 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Die SNIPPET-Formulierung nennt ausdrücklich: \"Artikel 2 Absatz 2, 10 Absatz 2 und 20 Absatz 2 der Landesvermessungsverordnung ... SR 510.626 (LVV)\". Damit sind diese drei Artikel klar der LVV (SR 510.626) zugeordnet."
+  },
+  {
+    "Item": 2,
+    "ARTICLE_EID": "art_8",
+    "TARGET_SR": "SR 510.62",
+    "assigned_articles": [
+      "Art. 22 Abs. 2 Bst. c"
+    ],
+    "confidence": "high",
+    "reasoning": "Im SNIPPET steht: \"(Art. 22 Abs. 2 Bst. c des Geoinformationsgesetzes ... SR 510.62)\". Die Artikelangabe steht direkt vor der Gesetzesbezeichnung und der SR-Nummer, somit gehört Art. 22 Abs. 2 Bst. c eindeutig zum Geoinformationsgesetz SR 510.62."
+  },
+  {
+    "Item": 3,
+    "ARTICLE_EID": "art_8",
+    "TARGET_SR": "SR 510.626",
+    "assigned_articles": [
+      "Art. 7"
+    ],
+    "confidence": "high",
+    "reasoning": "SNIPPET: \"... ausgehend von den topografischen Informationen der Landesvermessung (Art. 7 LVV) ...\". Die Abkürzung LVV ist in der Präambel als SR 510.626 definiert; die direkte Markierung \"Art. 7 LVV\" weist Art. 7 eindeutig der LVV (SR 510.626) zu."
+  },
+  {
+    "Item": 4,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 3 Abs. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Stelle \"... über die Positionierungsdienste nach Artikel 3 Absatz 3;\" enthält keinen Gesetzesnamen oder SR-Hinweis und steht als interne Verweisung innerhalb derselben Verordnung. Nach den Regeln ist dies eine Selbstreferenz auf Art. 3 Abs. 3 des aktuellen Erlasses, nicht auf ein externes SR-Dokument."
+  },
+  {
+    "Item": 5,
+    "ARTICLE_EID": "art_8",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 22 Abs. 2 Bst. c"
+    ],
+    "confidence": "high",
+    "reasoning": "Der SNIPPET-Text wiederholt die Passage mit \"(Art. 22 Abs. 2 Bst. c des Geoinformationsgesetzes vom 5. Okt. 2007)\", jedoch ohne SR-Nummer. Da hier kein SR-Link genannt wird, handelt es sich im Rahmen des Typs artikel_reference um die Erfassung der Artikelstelle selbst; sie verweist auf Art. 22 Abs. 2 Bst. c des Geoinformationsgesetzes, aber ohne explizite SR-Zuordnung im Text. Nach Vorgabe bleibt dies eine inhaltliche Artikelreferenz ohne TARGET_SR."
+  }
+]

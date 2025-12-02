@@ -1,0 +1,32 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 170.512.1",
+    "assigned_articles": [
+      "Art. 16 Abs. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "Die INSIDE_AUTHORIALNOTE nennt ausdrücklich 'Art. 16 Abs. 3 der Publikationsverordnung ... (SR 170.512.1)'; der Artikel ist direkt mit dieser SR verknüpft."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 843.1",
+    "assigned_articles": [
+      "Art. 51"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Snippet steht 'gestützt auf Artikel 51 der Verordnung ... SR 843.1'; der Artikel 51 ist syntaktisch eindeutig dieser Verordnung (SR 843.1) zugeordnet."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Bezugnahme 'nach Artikel 2' erfolgt ohne Nennung einer SR oder eines Gesetzes/Akronyms und steht im Kontext der materiellen Regelung; dies ist eine Selbstreferenz auf Art. 2 desselben Erlasses, nicht auf ein externes SR-Dokument."
+  }
+]

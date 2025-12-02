@@ -1,0 +1,84 @@
+[
+  {
+    "Item": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 916.121.10",
+    "assigned_articles": [
+      "Art. 19"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet explicitly cites 'Artikel 19 der Verordnung ... SR 916.121.10'; Art. 19 is directly and syntactically linked to this SR."
+  },
+  {
+    "Item": 2,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 916.01",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "The text refers to 'Anhang 3 der Agrareinfuhrverordnung vom 26. Oktober 2011 SR 916.01' without mentioning any specific article; this is a general reference to the ordinance (in particular its Annex 3), not to a specific article."
+  },
+  {
+    "Item": 3,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": "SR 916.121.10",
+    "assigned_articles": [
+      "Art. 4 Abs. 1 Bst. b"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet states 'nach Artikel 4 Absatz 1 Buchstabe b VEAGOG'; VEAGOG is defined as SR 916.121.10 in the preamble, so this clearly refers to Art. 4 Abs. 1 lit. b of SR 916.121.10."
+  },
+  {
+    "Item": 4,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": "SR 916.121.10",
+    "assigned_articles": [
+      "Art. 5 Abs. 1 Bst. b",
+      "Art. 5 Abs. 3 Bst. b"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet mentions 'Artikel 5 Absätze 1 und 3 Buchstabe b VEAGOG'; this unambiguously refers to Art. 5 para. 1 lit. b and Art. 5 para. 3 lit. b of SR 916.121.10."
+  },
+  {
+    "Item": 5,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": "SR 916.121.10",
+    "assigned_articles": [
+      "Art. 6 Abs. 1 Bst. a",
+      "Art. 11 Abs. 1 Bst. b"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet contains two explicit references: 'Artikel 6 Absatz 1 Buchstabe a VEAGOG' and 'Artikel 11 Absatz 1 Buchstabe b VEAGOG'; both are clearly tied to VEAGOG = SR 916.121.10."
+  },
+  {
+    "Item": 6,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": "SR 916.121.10",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "medium",
+    "reasoning": "The sentence 'Die VEAGOG-Freigabeverordnung vom 12. Januar 2000 wird aufgehoben.' refers to the VEAGOG-Freigabeverordnung as a whole and does not specify any article; it is a general reference to that ordinance (linked via the VEAGOG acronym to SR 916.121.10)."
+  },
+  {
+    "Item": 7,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "This artikel_reference item cites 'Artikel 6 Absatz 1 Buchstabe a VEAGOG' but has no TARGET_SR; the article reference is already captured and assigned to SR 916.121.10 in Item 5. Here it functions as an internal cross-reference within the current document’s context, not as a new SR link assignment."
+  },
+  {
+    "Item": 8,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "This artikel_reference item cites 'Artikel 11 Absatz 1 Buchstabe b VEAGOG' without a TARGET_SR; that citation is already linked to SR 916.121.10 in Item 5. Thus, this is treated as an internal cross-reference within the same document rather than a separate SR assignment."
+  }
+]

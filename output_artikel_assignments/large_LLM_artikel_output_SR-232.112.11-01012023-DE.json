@@ -1,0 +1,33 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 232.112.1",
+    "assigned_articles": [
+      "Art. 8",
+      "Art. 9 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet explicitly states: 'gestützt auf die Artikel 8 und 9 Absatz 1 der Verordnung ... SR 232.112.1 ... (HasLV)'. The articles 8 and 9 Abs. 1 are directly and syntactically linked to this SR via 'der Verordnung ... SR 232.112.1', so both belong to SR 232.112.1."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_2_a",
+    "TARGET_SR": "SR 910.18",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet refers to 'nach der Bio-Verordnung vom 22. September 1997 SR 910.18' without mentioning any specific article or article range. There is no syntactic link between an article number and SR 910.18, so this is treated as a general reference to the entire Bio-Verordnung."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 232.112.1",
+    "assigned_articles": [
+      "Art. 8"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet reads: 'Die Naturprodukte nach Artikel 8 HasLV ...'. 'HasLV' is defined in the preamble as SR 232.112.1. The construction 'Artikel 8 HasLV' directly marks Art. 8 as belonging to HasLV (SR 232.112.1), so Art. 8 of SR 232.112.1 is clearly referenced."
+  }
+]

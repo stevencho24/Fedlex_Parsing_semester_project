@@ -1,0 +1,56 @@
+[
+  {
+    "Item": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 842",
+    "assigned_articles": [
+      "Art. 8 Abs. 2",
+      "Art. 16 Abs. 2",
+      "Art. 24 Abs. 4"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Satz nennt ausdrücklich: «gestützt auf die Artikel 8 Absatz 2, 16 Absatz 2 und 24 Absatz 4 des Bundesgesetzes … SR 842 … (WFG)»; diese Artikel gehören damit klar zum Gesetz SR 842."
+  },
+  {
+    "Item": 2,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 842",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "Das Kürzel «BWO» wird im Vorspann als Teil des Bundesgesetzes SR 842 (WFG) definiert. Im Snippet von Art. 1 wird kein bestimmter Artikel des WFG genannt, sondern nur das Bundesamt als Akteur; dies ist eine allgemeine Bezugnahme auf das Gesetz als Ganzes."
+  },
+  {
+    "Item": 3,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": "SR 842",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "Auch hier verweist «BWO» lediglich auf das im Vorspann definierte Bundesamt nach WFG (SR 842), ohne eine konkrete Artikelnummer des WFG zu nennen; daher allgemeine Gesetzesreferenz."
+  },
+  {
+    "Item": 4,
+    "ARTICLE_EID": "art_6",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document: Art. 3",
+      "Internal reference within current document: Art. 4"
+    ],
+    "confidence": "high",
+    "reasoning": "Formulierung «Kostenlimiten nach den Artikeln 3 und 4» ohne Nennung eines anderen Erlasses; syntaktisch handelt es sich um eine Selbstverweisung auf die Artikel 3 und 4 derselben Verordnung (SR 842.4), nicht auf SR 842."
+  },
+  {
+    "Item": 5,
+    "ARTICLE_EID": "art_6",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document: Art. 3",
+      "Internal reference within current document: Art. 4"
+    ],
+    "confidence": "high",
+    "reasoning": "Wie bei Item 4 verweist «nach den Artikeln 3 und 4» ohne SR‑Angabe auf interne Bestimmungen derselben Verordnung; daher Selbstreferenz auf Art. 3 und 4 des aktuellen Erlasses."
+  }
+]

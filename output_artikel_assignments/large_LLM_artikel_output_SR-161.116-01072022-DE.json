@@ -1,0 +1,180 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 161.11",
+    "assigned_articles": [
+      "Art. 27e Abs. 1bis",
+      "Art. 27g Abs. 2",
+      "Art. 27i Abs. 3",
+      "Art. 27l Abs. 3",
+      "Art. 27l Abs. 4"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Präambel nennt ausdrücklich: 'Artikel 27e Absatz 1bis, 27g Absatz 2, 27i Absatz 3 und 27l Absätze 3 und 4 der Verordnung ... SR 161.11 über die politischen Rechte (VPR)'; alle genannten Artikel und Absätze gehören somit eindeutig zur SR 161.11."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_15",
+    "TARGET_SR": "SR 161.11",
+    "assigned_articles": [
+      "Art. 27e"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Snippet: 'Den Gesuchen nach Artikel 27e VPR ...'; das Kürzel VPR ist in der Präambel als SR 161.11 definiert, daher bezieht sich 'Artikel 27e VPR' eindeutig auf Art. 27e der SR 161.11."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_17",
+    "TARGET_SR": "SR 161.11",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "medium",
+    "reasoning": "Der Satz 'Die Verordnung der BK vom 13. Dezember 2013 über die elektronische Stimmabgabe wird aufgehoben.' erwähnt zwar die BK (in der Präambel als SR 161.11 verknüpft), nennt aber keinen bestimmten Artikel dieser Verordnung; es handelt sich um eine pauschale Aufhebung ohne artikelspezifische Nennung."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 11 Abs. 2 Bst. a"
+    ],
+    "confidence": "high",
+    "reasoning": "Formulierung '... Drittkomponenten nach Artikel 11 Absatz 2 Buchstabe a ...' ist eine reine Binnenverweisung innerhalb derselben Verordnung (keine SR-Angabe oder Akronym); daher Selbstreferenz auf Art. 11 Abs. 2 lit. a des aktuellen Erlasses."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 8"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Text: '... der vertrauenswürdige Systemteil (Art. 8) ...'; keine SR- oder Akronymangabe, klarer Verweis auf einen anderen Artikel derselben Verordnung, somit interne Selbstreferenz auf Art. 8."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_6",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 5"
+    ],
+    "confidence": "high",
+    "reasoning": "Formulierung 'Für die Stichhaltigkeit der Beweise nach Artikel 5 massgebend ...'; ohne SR- oder Akronymkontext, daher Verweis auf Art. 5 derselben Verordnung (interne Selbstreferenz)."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_6",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 5 Abs. 2",
+      "Art. 5 Abs. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "Text: '... Beweise nach Artikel 5 Absätze 2 und 3;'; dies ist eine interne Verweisung auf Art. 5 Abs. 2 und 3 der gleichen Verordnung, ohne Bezug zu einem externen SR-Dokument."
+  },
+  {
+    "ITEM": 8,
+    "ARTICLE_EID": "art_6",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 5 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Text: '... Beweise nach Artikel 5 Absatz 2;'; wiederum reine Binnenverweisung auf Art. 5 Abs. 2 derselben Verordnung."
+  },
+  {
+    "ITEM": 9,
+    "ARTICLE_EID": "art_6",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 5 Abs. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "Text: '... Beweise nach Artikel 5 Absatz 3.'; interne Verweisung auf Art. 5 Abs. 3 des aktuellen Erlasses."
+  },
+  {
+    "ITEM": 10,
+    "ARTICLE_EID": "art_8",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 6",
+      "Art. 7"
+    ],
+    "confidence": "high",
+    "reasoning": "Text: 'Beweise sind auch dann stichhaltig (Art. 6) und das Stimmgeheimnis ist auch dann gewahrt (Art. 7) ...'; beide Artikelangaben stehen ohne SR- oder Akronymzusatz und beziehen sich damit auf Art. 6 und 7 derselben Verordnung."
+  },
+  {
+    "ITEM": 11,
+    "ARTICLE_EID": "art_12",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 11"
+    ],
+    "confidence": "high",
+    "reasoning": "Text: 'Die nach Artikel 11 offenzulegenden Unterlagen ...'; keine externe SR-Nennung, daher Selbstreferenz auf Art. 11 der aktuellen Verordnung."
+  },
+  {
+    "ITEM": 12,
+    "ARTICLE_EID": "art_13",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 11"
+    ],
+    "confidence": "high",
+    "reasoning": "Text: '... Mängeln in den offengelegten Unterlagen nach Artikel 11;'; wiederum interne Verweisung auf Art. 11 derselben Verordnung."
+  },
+  {
+    "ITEM": 13,
+    "ARTICLE_EID": "art_14",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 5"
+    ],
+    "confidence": "high",
+    "reasoning": "Text: '... gestützt auf die Beweise nach Artikel 5 ...'; dies ist eine Binnenverweisung auf Art. 5 des aktuellen Erlasses."
+  },
+  {
+    "ITEM": 14,
+    "ARTICLE_EID": "art_15",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 4"
+    ],
+    "confidence": "high",
+    "reasoning": "Text: '... Risikobeurteilungen nach Artikel 4 ...'; ohne SR- oder Akronymangabe, daher interner Verweis auf Art. 4 derselben Verordnung."
+  },
+  {
+    "ITEM": 15,
+    "ARTICLE_EID": "art_15",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 10 Abs. 2",
+      "Art. 10 Abs. 4"
+    ],
+    "confidence": "high",
+    "reasoning": "Text: '... Prüfungen nach Artikel 10 Absatz 2 ... Offenlegung nach Artikel 10 Absatz 4;'; beide sind interne Verweise auf Art. 10 Abs. 2 und 4 der aktuellen Verordnung."
+  },
+  {
+    "ITEM": 16,
+    "ARTICLE_EID": "art_15",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 11",
+      "Art. 13"
+    ],
+    "confidence": "high",
+    "reasoning": "Text: '... Offenlegung der Unterlagen nach Artikel 11 und zu Hinweisen aus der Öffentlichkeit nach Artikel 13;'; beide Artikelangaben sind ohne SR-Kontext und damit Selbstreferenzen auf Art. 11 und 13 derselben Verordnung."
+  },
+  {
+    "ITEM": 17,
+    "ARTICLE_EID": "art_15",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 16 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Text: '... Ausnahmen nach Artikel 16 Absatz 2.'; dies ist eine interne Verweisung auf Art. 16 Abs. 2 des aktuellen Erlasses, ohne Bezug zu einem externen SR-Dokument."
+  }
+]

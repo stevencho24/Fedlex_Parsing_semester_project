@@ -1,0 +1,72 @@
+[
+  {
+    "Item": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 510.10",
+    "assigned_articles": [
+      "Art. 100 Abs. 4"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet explicitly cites 'Artikel 100 Absatz 4 des Militärgesetzes ... SR 510.10 (MG)'; this article reference is directly and syntactically linked to SR 510.10."
+  },
+  {
+    "Item": 2,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": "SR 120",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "The paragraph states that the provisions of the cited act (SR 120) are applicable but does not specify any article or range; thus it is a general reference to the whole act."
+  },
+  {
+    "Item": 3,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": "SR 322.1",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet refers generally to 'des Militärstrafprozesses vom 23. März 1979 SR 322.1' without any article indication; this is a blanket applicability clause, so it is a general reference."
+  },
+  {
+    "Item": 4,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": "SR 235.1",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "The text mentions 'des Datenschutzgesetzes vom 25. September 2020 SR 235.1' with no article numbers; it is a general applicability reference to the entire data protection act."
+  },
+  {
+    "Item": 5,
+    "ARTICLE_EID": "art_6",
+    "TARGET_SR": "SR 814.01",
+    "assigned_articles": [
+      "Art. 10"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet states 'im Sinne von Artikel 10 des Umweltschutzgesetzes vom 7. Oktober 1983 SR 814.01'; 'Artikel 10' is syntactically and semantically linked to SR 814.01."
+  },
+  {
+    "Item": 6,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 510.10",
+    "assigned_articles": [
+      "Art. 100 Abs. 1 lit. c"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet reads 'nach Artikel 100 Absatz 1 Buchstabe c MG'; MG is defined in the preamble as SR 510.10, so this clearly refers to Art. 100 Abs. 1 lit. c of SR 510.10."
+  },
+  {
+    "Item": 7,
+    "ARTICLE_EID": "art_6",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "This is an artikel_reference item without any SR citation; 'Artikel 10 des Umweltschutzgesetzes' here mirrors the external reference in Item 5 but, per rules, artikel_reference defaults to self-reference/internal structure when no explicit SR link is present."
+  }
+]

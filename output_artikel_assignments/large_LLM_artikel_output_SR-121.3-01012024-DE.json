@@ -1,0 +1,98 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 121",
+    "assigned_articles": [
+      "Art. 79 Abs. 4",
+      "Art. 80 Abs. 2 lit. b",
+      "Art. 82 Abs. 5",
+      "Art. 82 Abs. 6",
+      "Art. 84"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Preambel-Satz werden ausdrücklich die Artikel 79 Abs. 4, 80 Abs. 2 Buchst. b, 82 Abs. 5 und 6 sowie 84 des Nachrichtendienstgesetzes (SR 121) als Rechtsgrundlagen genannt; sie stehen syntaktisch direkt beim Gesetzesnamen und damit eindeutig zu SR 121."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 510.10",
+    "assigned_articles": [
+      "Art. 150 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "Im selben Preambel-Satz wird nach der Aufzählung der NDG-Artikel separat «Artikel 150 Absatz 1 des Militärgesetzes ... SR 510.10» genannt; dieser Artikel ist klar dem Militärgesetz (SR 510.10) zugeordnet."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_16",
+    "TARGET_SR": "SR 510.292",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Satz verweist nur allgemein auf «die Bestimmungen der Verordnung vom 17. Oktober 2012 SR 510.292 über die elektronische Kriegsführung und die Funkaufklärung», ohne einzelne Artikel zu nennen; dies ist eine generelle Verweisnorm auf die ganze Verordnung."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": "SR 121",
+    "assigned_articles": [
+      "Art. 81 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Snippet wird «Organe der parlamentarischen Oberaufsicht nach Artikel 81 Absatz 1 NDG» genannt; NDG ist in der Präambel als SR 121 definiert, sodass Art. 81 Abs. 1 eindeutig zu SR 121 gehört."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_11",
+    "TARGET_SR": "SR 121",
+    "assigned_articles": [
+      "Art. 82 Abs. 4"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Text spricht von «Gesuche nach Artikel 82 Absatz 4 NDG»; NDG verweist gemäss Präambel auf SR 121, somit ist Art. 82 Abs. 4 dem SR 121 zuzuordnen."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_12",
+    "TARGET_SR": "SR 121",
+    "assigned_articles": [
+      "Art. 46 Abs. 1",
+      "Art. 46 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Es wird kontrolliert, ob die Daten «in Übereinstimmung mit Artikel 46 Absätze 1 und 2 NDG» bearbeitet werden; diese Absätze gehören zum NDG (SR 121)."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_14",
+    "TARGET_SR": "SR 121",
+    "assigned_articles": [
+      "Art. 79 Abs. 3",
+      "Art. 78 Abs. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "Im ersten Satz werden «Empfehlungen und Anträge nach Artikel 79 Absatz 3 NDG» erwähnt, im zweiten Satz der «jährliche Bericht nach Artikel 78 Absatz 3 NDG»; beide Artikel gehören zum NDG (SR 121)."
+  },
+  {
+    "ITEM": 8,
+    "ARTICLE_EID": "art_14",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«Artikel 79 Absatz 3 NDG» ist bereits in ITEM 7 eindeutig als Verweis auf SR 121 erfasst; hier handelt es sich um dieselbe Textstelle, die als artikel_reference nur die Artikelnummer hervorhebt. Gemäss Vorgabe werden solche ohne neuen SR-Bezug als interne Strukturverweise des aktuellen Dokuments behandelt."
+  },
+  {
+    "ITEM": 9,
+    "ARTICLE_EID": "art_14",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«Artikel 78 Absatz 3 NDG» ist ebenfalls bereits in ITEM 7 als Verweis auf SR 121 zugeordnet; diese artikel_reference wiederholt nur die interne Artikelangabe ohne eigenen SR-Kontext und gilt daher als interner Verweis innerhalb des aktuellen Dokuments."
+  }
+]

@@ -1,0 +1,252 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 101",
+    "assigned_articles": [
+      "Art. 54 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Formulierung \"gestützt auf Artikel 54 Absatz 1 der Bundesverfassung SR 101\" weist eindeutig Artikel 54 Absatz 1 der Bundesverfassung (SR 101) zu."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": "SR 351.1",
+    "assigned_articles": [
+      "Art. 2 lit. a"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Satz steht \"nach Artikel 2 Buchstabe a des Rechtshilfegesetzes ... SR 351.1\"; damit ist klar Art. 2 lit. a des Rechtshilfegesetzes (SR 351.1) gemeint."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": "SR 311.0",
+    "assigned_articles": [
+      "Art. 321"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Passage \"dem Berufsgeheimnis nach Artikel 321 des Strafgesetzbuchs SR 311.0\" verweist eindeutig auf Art. 321 StGB (SR 311.0)."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_8",
+    "TARGET_SR": "SR 281.1",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "Es wird nur \"nach den Bestimmungen des Bundesgesetzes ... SR 281.1 über Schuldbetreibung und Konkurs\" erwähnt, ohne konkrete Artikelangabe; daher allgemeine Verweisung auf das ganze Gesetz."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_13",
+    "TARGET_SR": "SR 955.0",
+    "assigned_articles": [
+      "Art. 30",
+      "Art. 31 lit. b",
+      "Art. 31 lit. c",
+      "Art. 32 Abs. 3",
+      "Art. 30 Abs. 4 lit. a Ziff. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Text nennt ausdrücklich \"Artikel 30, 31 Buchstaben b und c sowie 32 Absatz 3\" sowie separat \"Artikel 30 Absatz 4 Buchstabe a Ziffer 1\" des Geldwäschereigesetzes (SR 955.0)."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_21",
+    "TARGET_SR": "SR 172.021",
+    "assigned_articles": [
+      "Art. 55 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Formulierung \"Artikel 55 Absatz 2 des Verwaltungsverfahrensgesetzes ... SR 172.021\" verweist eindeutig auf Art. 55 Abs. 2 VwVG."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_22",
+    "TARGET_SR": "SR 351.1",
+    "assigned_articles": [
+      "Art. 2 lit. a"
+    ],
+    "confidence": "high",
+    "reasoning": "Es heisst \"aufgrund von Artikel 2 Buchstabe a des Rechtshilfegesetzes ... SR 351.1\"; damit ist klar Art. 2 lit. a Rechtshilfegesetz gemeint."
+  },
+  {
+    "ITEM": 8,
+    "ARTICLE_EID": "art_28",
+    "TARGET_SR": "SR 313.0",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Satz lautet \"ist das Bundesgesetz ... SR 313.0 über das Verwaltungsstrafrecht anwendbar\" ohne Artikelangabe; dies ist eine generelle Verweisung auf das Verwaltungsstrafrecht insgesamt."
+  },
+  {
+    "ITEM": 9,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Stelle wiederholt die Formulierung aus ITEM 2, jedoch ohne SR-Angabe; sie verweist auf \"Artikel 2 Buchstabe a des Rechtshilfegesetzes\" als externes Gesetz, dient hier aber nur als Wiederholung im eigenen Gesetzestext. Da diese externe Verweisung bereits in ITEM 2 SR-gebunden ist, wird diese Nennung als interner Kontextverweis des aktuellen Dokuments behandelt."
+  },
+  {
+    "ITEM": 10,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "„Wenn die Sperrung nach Artikel 3 in Form einer Verordnung ... angeordnet wird“ bezieht sich eindeutig auf Art. 3 desselben Gesetzes; keine SR-Angabe, daher reine Selbstverweisung."
+  },
+  {
+    "ITEM": 11,
+    "ARTICLE_EID": "art_6",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "„Die Sperrung nach Artikel 3“ ist ein klarer Verweis auf Art. 3 des eigenen Gesetzes; keine externe SR-Verknüpfung."
+  },
+  {
+    "ITEM": 12,
+    "ARTICLE_EID": "art_6",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "„Die gemäss Artikel 4 gesperrten Vermögenswerte“ und „nach Artikel 4 verhängten Sperrungsverfügung“ verweisen auf Art. 4 desselben Gesetzes; es wird kein anderes SR-Dokument genannt."
+  },
+  {
+    "ITEM": 13,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "„unter eine Sperrungsmassnahme nach Artikel 3 fallen“ ist ein interner Verweis auf Art. 3 des aktuellen Gesetzes; keine SR-Referenz."
+  },
+  {
+    "ITEM": 14,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "„dem Berufsgeheimnis nach Artikel 321 des Strafgesetzbuchs untersteht“ wiederholt zwar die externe Norm, aber ohne SR-Angabe und ohne neue Verknüpfung; die eigentliche SR-Zuordnung zu SR 311.0 erfolgt bereits in ITEM 3. Hier wird nur der interne Normtext ohne explizite SR-Verknüpfung wiedergegeben."
+  },
+  {
+    "ITEM": 15,
+    "ARTICLE_EID": "art_10",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document",
+      "Art. 17",
+      "Art. 18",
+      "Art. 19"
+    ],
+    "confidence": "high",
+    "reasoning": "„Für diese Rückerstattung gelten die Artikel 17–19 sinngemäss“ ist ein klarer Verweis auf die eigenen Artikel 17 bis 19; keine externe SR-Nennung. Die Range 17–19 wird als Art. 17, 18, 19 des aktuellen Gesetzes verstanden."
+  },
+  {
+    "ITEM": 16,
+    "ARTICLE_EID": "art_13",
+    "TARGET_SR": "SR 955.0",
+    "assigned_articles": [
+      "Art. 30",
+      "Art. 31 lit. b",
+      "Art. 31 lit. c",
+      "Art. 32 Abs. 3",
+      "Art. 30 Abs. 4 lit. a Ziff. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "Dies ist derselbe inhaltliche Satz wie in ITEM 5, jedoch ohne explizite SR-Angabe im Snippet. Aufgrund der identischen Formulierung und des bekannten Zusammenhangs mit dem Geldwäschereigesetz (SR 955.0) werden dieselben Artikel zugeordnet."
+  },
+  {
+    "ITEM": 17,
+    "ARTICLE_EID": "art_14",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "„vom Bundesrat nach Artikel 4 im Hinblick auf eine Einziehung gesperrt wurden“ verweist auf Art. 4 des eigenen Gesetzes; keine externe SR-Referenz."
+  },
+  {
+    "ITEM": 18,
+    "ARTICLE_EID": "art_21",
+    "TARGET_SR": "SR 172.021",
+    "assigned_articles": [
+      "Art. 55 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Inhaltlich identisch mit ITEM 6, nur ohne explizite SR-Nennung im Snippet. Es geht um „Artikel 55 Absatz 2 des Verwaltungsverfahrensgesetzes“, das in ITEM 6 eindeutig SR 172.021 zugeordnet ist; daher gleiche Artikelzuordnung."
+  },
+  {
+    "ITEM": 19,
+    "ARTICLE_EID": "art_22",
+    "TARGET_SR": "SR 351.1",
+    "assigned_articles": [
+      "Art. 2 lit. a"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Text entspricht inhaltlich ITEM 7 („aufgrund von Artikel 2 Buchstabe a des Rechtshilfegesetzes ...“). Dort ist die SR-Nummer 351.1 explizit genannt; daher wird hier derselbe Artikel des Rechtshilfegesetzes zugeordnet."
+  },
+  {
+    "ITEM": 20,
+    "ARTICLE_EID": "art_22",
+    "TARGET_SR": "SR 351.1",
+    "assigned_articles": [
+      "Art. 2 lit. a"
+    ],
+    "confidence": "high",
+    "reasoning": "„gestützt auf Artikel 2 Buchstabe a des Rechtshilfegesetzes abgelehnt werden muss“ verweist wiederum auf denselben Artikel 2 lit. a des Rechtshilfegesetzes (SR 351.1), wie in ITEM 2 und 7."
+  },
+  {
+    "ITEM": 21,
+    "ARTICLE_EID": "art_26",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "„Melde- und Auskunftspflicht nach Artikel 7“ ist ein interner Verweis auf Art. 7 des eigenen Gesetzes; keine externe SR-Verknüpfung."
+  },
+  {
+    "ITEM": 22,
+    "ARTICLE_EID": "art_28",
+    "TARGET_SR": "SR 313.0",
+    "assigned_articles": [
+      "Art. 73",
+      "Art. 74",
+      "Art. 75",
+      "Art. 76",
+      "Art. 77",
+      "Art. 78",
+      "Art. 79",
+      "Art. 80",
+      "Art. 81",
+      "Art. 82"
+    ],
+    "confidence": "medium",
+    "reasoning": "„Die Artikel 73–82 des Bundesgesetzes über das Verwaltungsstrafrecht gelten sinngemäss.\" Das Verwaltungsstrafrecht ist SR 313.0 (vgl. ITEM 8). Die Range 73–82 wird als Art. 73 bis 82 dieses Gesetzes verstanden. Die Zuordnung zur SR-Nummer erfolgt kontextuell über die bekannte Abkürzung; daher mittlere, aber solide Sicherheit."
+  },
+  {
+    "ITEM": 23,
+    "ARTICLE_EID": "art_32",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "„nach Artikel 2 des Bundesgesetzes vom 1. Oktober 2010 (RuVG) ... oder gestützt auf Artikel 184 Absatz 3 der Bundesverfassung gesperrt sind, ... einer nach Artikel 4 angeordneten Sperrung gleichgestellt\" enthält zwar externe Gesetze (RuVG, BV), aber ohne SR-Nummern im Snippet und ohne Verknüpfung zu einem TARGET_SR-Feld. Im Rahmen dieses Dokuments wird dies als interne Regelung mit Verweis auf eigene Art. 4 behandelt; daher Selbstreferenz."
+  }
+]

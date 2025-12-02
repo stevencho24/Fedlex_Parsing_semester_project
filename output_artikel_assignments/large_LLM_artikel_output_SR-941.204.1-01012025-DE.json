@@ -1,0 +1,240 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 170.512",
+    "assigned_articles": [
+      "Art. 12 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "INSIDE_AUTHORIALNOTE explicitly states 'in Anwendung von Art. 12 Abs. 2 des Publikationsgesetzes ... (SR 170.512)'; clear direct marking linking this article and paragraph to SR 170.512."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 941.204",
+    "assigned_articles": [
+      "Art. 3 Abs. 4",
+      "Art. 5 Abs. 2",
+      "Art. 8 Abs. 3",
+      "Art. 10 Abs. 3",
+      "Art. 10 Abs. 4",
+      "Art. 22 Abs. 3",
+      "Art. 23",
+      "Art. 24 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet lists 'Artikel 3 Absatz 4, 5 Absatz 2, 8 Absatz 3, 10 Absätze 3 und 4, 22 Absatz 3, 23, 24 Absatz 2 der Mengenangabeverordnung ... SR 941.204 (MeAV)'; syntactically all these articles belong to the cited MeAV (SR 941.204)."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": "SR 817.022.17",
+    "assigned_articles": [
+      "Anhang 6 Ziff. 13",
+      "Anhang 6 Ziff. 16"
+    ],
+    "confidence": "high",
+    "reasoning": "The text refers to 'Anhang 6 Ziffern 13 und 16 der Verordnung ... SR 817.022.17'; these are annex provisions rather than numbered articles, but they are the specific cited units within SR 817.022.17."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": "SR 817.0",
+    "assigned_articles": [
+      "Art. 4"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet says 'Lebensmitteln nach Artikel 4 des Lebensmittelgesetzes vom 20. Juni 2014 SR 817.0'; direct marking links Art. 4 to SR 817.0."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": "SR 817.06",
+    "assigned_articles": [
+      "Art. 2 lit. d"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet refers to 'Tabakerzeugnissen nach Artikel 2 Buchstabe d der Tabakverordnung vom 27. Oktober 2004 SR 817.06'; clear direct marking of Art. 2 letter d of SR 817.06."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 941.204",
+    "assigned_articles": [
+      "Art. 3 Abs. 4"
+    ],
+    "confidence": "high",
+    "reasoning": "The preamble_acronym snippet begins with '(Art. 3 Abs. 4 MeAV)' and MeAV is SR 941.204; this is the governing provision for the deviation described, so Art. 3 Abs. 4 of SR 941.204 is clearly cited."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": "SR 941.204",
+    "assigned_articles": [
+      "Art. 5 Abs. 2",
+      "Art. 10 Abs. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet starts with '(Art. 5 Abs. 2 MeAV)' and continues '... nach Artikel 10 Absatz 3 MeAV ...'; both references are explicitly tied to MeAV (SR 941.204)."
+  },
+  {
+    "ITEM": 8,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": "SR 941.204",
+    "assigned_articles": [
+      "Art. 5 Abs. 2",
+      "Art. 5 Abs. 1",
+      "Art. 4 Abs. 3",
+      "Art. 19"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet begins '(Art. 5 Abs. 2 MeAV)' and within the same context mentions 'Artikel 5 Absatz 1 MeAV', 'Artikel 4 Absatz 3 MeAV' and 'Artikel 19 MeAV'; all are syntactically linked to MeAV (SR 941.204)."
+  },
+  {
+    "ITEM": 9,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": "SR 941.204",
+    "assigned_articles": [
+      "Art. 8 Abs. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet '(Art. 8 Abs. 3 MeAV) ... Werden Speisen nach Artikel 8 Absatz 3 MeAV ...' clearly and repeatedly cites Art. 8 Abs. 3 of MeAV (SR 941.204)."
+  },
+  {
+    "ITEM": 10,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": "SR 941.204",
+    "assigned_articles": [
+      "Art. 10 Abs. 3",
+      "Art. 10 Abs. 4"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet '(Art. 10 Abs. 3 und 4 MeAV)' directly lists both paragraphs 3 and 4 of Art. 10 MeAV (SR 941.204)."
+  },
+  {
+    "ITEM": 11,
+    "ARTICLE_EID": "art_6",
+    "TARGET_SR": "SR 941.204",
+    "assigned_articles": [
+      "Art. 22 Abs. 3",
+      "Art. 22 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet begins '(Art. 22 Abs. 3 MeAV)' and later refers to 'Artikel 22 Absatz 1 MeAV'; both are explicit references within MeAV (SR 941.204)."
+  },
+  {
+    "ITEM": 12,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": "SR 941.204",
+    "assigned_articles": [
+      "Art. 23"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet is simply '(Art. 23 MeAV)'; this directly cites Art. 23 of MeAV (SR 941.204)."
+  },
+  {
+    "ITEM": 13,
+    "ARTICLE_EID": "art_8",
+    "TARGET_SR": "SR 941.204",
+    "assigned_articles": [
+      "Art. 24 Abs. 2",
+      "Art. 24 Abs. 1",
+      "Art. 35"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet begins '(Art. 24 Abs. 2 MeAV)' and then mentions 'Artikel 24 Absatz 1 MeAV' and 'Artikel 35 MeAV'; all are clearly tied to MeAV (SR 941.204)."
+  },
+  {
+    "ITEM": 14,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 3 Abs. 2 MeAV"
+    ],
+    "confidence": "high",
+    "reasoning": "artikel_reference without explicit SR, but 'Artikel 3 Absatz 2 MeAV' uses the preamble-defined acronym MeAV = SR 941.204; this is an outgoing reference to Art. 3 Abs. 2 of SR 941.204."
+  },
+  {
+    "ITEM": 15,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 10 Abs. 3 MeAV"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet cites 'Artikel 10 Absatz 3 MeAV'; via the preamble acronym, this is Art. 10 Abs. 3 of SR 941.204, an external reference from the current ordinance."
+  },
+  {
+    "ITEM": 16,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 5 Abs. 1 MeAV"
+    ],
+    "confidence": "high",
+    "reasoning": "The text 'Artikel 5 Absatz 1 MeAV' clearly refers to Art. 5 Abs. 1 of MeAV (SR 941.204); this is not a self-reference but a cross-reference to the base ordinance."
+  },
+  {
+    "ITEM": 17,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 4 Abs. 3 MeAV"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet 'Artikel 4 Absatz 3 MeAV' is an explicit citation of Art. 4 Abs. 3 of MeAV (SR 941.204)."
+  },
+  {
+    "ITEM": 18,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 19 MeAV"
+    ],
+    "confidence": "high",
+    "reasoning": "The text 'Artikel 19 MeAV' is a direct reference to Art. 19 of MeAV (SR 941.204)."
+  },
+  {
+    "ITEM": 19,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 8 Abs. 3 MeAV"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet 'Artikel 8 Absatz 3 MeAV' clearly cites Art. 8 Abs. 3 of MeAV (SR 941.204)."
+  },
+  {
+    "ITEM": 20,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 4 SR 817.0",
+      "Art. 2 lit. d SR 817.06"
+    ],
+    "confidence": "high",
+    "reasoning": "This artikel_reference line mirrors the SR_link_detection items 4 and 5: 'Artikel 4 des Lebensmittelgesetzes' (SR 817.0) and 'Artikel 2 Buchstabe d der Tabakverordnung' (SR 817.06); both are external references, not self-references."
+  },
+  {
+    "ITEM": 21,
+    "ARTICLE_EID": "art_6",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 22 Abs. 1 MeAV"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet 'Artikel 22 Absatz 1 MeAV' is an explicit citation of Art. 22 Abs. 1 of MeAV (SR 941.204)."
+  },
+  {
+    "ITEM": 22,
+    "ARTICLE_EID": "art_8",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 24 Abs. 1 MeAV",
+      "Art. 35 MeAV"
+    ],
+    "confidence": "high",
+    "reasoning": "The text cites 'Artikel 24 Absatz 1 MeAV' and 'Artikel 35 MeAV'; both are provisions of MeAV (SR 941.204) and are external references from the current ordinance."
+  }
+]

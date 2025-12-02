@@ -1,0 +1,74 @@
+[
+  {
+    "Item": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 812.21",
+    "assigned_articles": [
+      "Art. 4 Abs. 2",
+      "Art. 52 Abs. 4",
+      "Art. 82 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Präambel nennt ausdrücklich: «gestützt auf die Artikel 4 Absatz 2, 52 Absatz 4 und 82 Absatz 2 des Heilmittelgesetzes ... SR 812.21 (HMG)»; diese Artikel gehören daher klar zum genannten SR."
+  },
+  {
+    "Item": 2,
+    "ARTICLE_EID": "art_2_a",
+    "TARGET_SR": "SR 812.212.1",
+    "assigned_articles": [
+      "Art. 9"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Satzteil «Erhebungen gemäss Artikel 9 der Arzneimittel-Bewilligungsverordnung vom 14. November 2018 SR 812.212.1» ist Art. 9 direkt dieser Verordnung zugeordnet; syntaktisch klarer Bezug."
+  },
+  {
+    "Item": 3,
+    "ARTICLE_EID": "art_2_a",
+    "TARGET_SR": "SR 170.512",
+    "assigned_articles": [
+      "Art. 12 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Einschub «in Anwendung von Art. 12 Abs. 2 des Publikationsgesetzes vom 18. Juni 2004 (SR 170.512)» folgt die SR-Angabe unmittelbar auf die Artikelangabe; Art. 12 Abs. 2 gehört somit zu SR 170.512."
+  },
+  {
+    "Item": 4,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": "SR 0.812.21",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "Formulierung «gemäss dem Übereinkommen vom 22. Juli 1964 SR 0.812.21» ohne Nennung einzelner Artikel; es handelt sich um einen Verweis auf das Übereinkommen als Ganzes."
+  },
+  {
+    "Item": 5,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": "SR 170.512",
+    "assigned_articles": [
+      "Art. 5"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Satz lautet: «... veröffentlicht sie nach Artikel 5 des Publikationsgesetzes vom 18. Juni 2004 SR 170.512.»; Art. 5 ist eindeutig dem Publikationsgesetz (SR 170.512) zugeordnet."
+  },
+  {
+    "Item": 6,
+    "ARTICLE_EID": "art_2_a",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«... nach Artikel 2 Absatz 1 einbezogen.» enthält keine SR-Angabe und verweist damit auf Art. 2 Abs. 1 der vorliegenden Verordnung; dies ist eine Selbstreferenz, kein externer SR-Verweis."
+  },
+  {
+    "Item": 7,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": "SR 170.512",
+    "assigned_articles": [
+      "Art. 5"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Text «... nach Artikel 5 des Publikationsgesetzes vom 18. Juni 2004.» entspricht inhaltlich dem SR-Link in Item 5; Artikel 5 ist syntaktisch dem Publikationsgesetz zugeordnet, das durch andere Items eindeutig als SR 170.512 identifiziert ist."
+  }
+]

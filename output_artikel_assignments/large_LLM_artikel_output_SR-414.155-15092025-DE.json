@@ -1,0 +1,62 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 414.110.37",
+    "assigned_articles": [
+      "Art. 25"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet explicitly states 'gestützt auf Artikel 25 der ETHZ-ETHL-Verordnung ... SR 414.110.37'; Article 25 is directly and uniquely linked to SR 414.110.37."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_6",
+    "TARGET_SR": "SR 414.110.422.3",
+    "assigned_articles": [
+      "Art. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "The text says 'in Besitz eines Ausweises nach Artikel 1 der Verordnung ... SR 414.110.422.3'; Article 1 is explicitly tied to this SR in the same clause."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_14",
+    "TARGET_SR": "SR 414.110.422.3",
+    "assigned_articles": [
+      "Art. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "Same construction as ITEM 2: 'Ausweises nach Artikel 1 der Verordnung ... SR 414.110.422.3'; Article 1 clearly belongs to SR 414.110.422.3."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_6",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet mentions 'Artikel 1 der Verordnung ... über die Zulassung zur Eidgenössischen Technischen Hochschule Lausanne' but without an SR number; in this context as an artikel_reference item, it functions as a self-reference pattern already covered by ITEMS 2 and 3, not as a new SR link."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "The phrase 'nach Artikel 5' has no associated SR or external law mentioned; it clearly refers to Article 5 of the same ordinance (self-reference)."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_14",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "Like ITEM 4, this repeats 'Artikel 1 der Verordnung ... über die Zulassung ...' without an SR number; as an artikel_reference item it is an internal structural reference, with the external SR linkage already captured in ITEM 3."
+  }
+]

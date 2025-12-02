@@ -1,0 +1,46 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 811.212",
+    "assigned_articles": [
+      "Art. 10"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet explicitly cites 'Artikel 10 der Gesundheitsberufekompetenzverordnung ... SR 811.212 (GesBKV)'; Art. 10 is directly and syntactically linked to SR 811.212."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 811.21",
+    "assigned_articles": "General reference - entire document",
+    "confidence": "high",
+    "reasoning": "Snippet refers to the Gesundheitsberufegesetz SR 811.21 in general ('legt Standards ... nach dem Gesundheitsberufegesetz ... fest') without mentioning a specific article; thus it is a general document-level reference."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": "SR 811.21",
+    "assigned_articles": [
+      "Art. 7"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet states 'Voraussetzungen nach Artikel 7 GesBG SR 811.21'; Art. 7 is explicitly and directly attributed to SR 811.21."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": "SR 811.212",
+    "assigned_articles": "General reference - entire document",
+    "confidence": "medium",
+    "reasoning": "The text mentions 'berufsspezifischen Kompetenzen nach der GesBKV' where GesBKV is the ordinance SR 811.212, but no specific article or article range is indicated; it refers to the competence framework of the ordinance as a whole."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": "SR 811.212",
+    "assigned_articles": "General reference - entire document",
+    "confidence": "medium",
+    "reasoning": "Snippet says 'berufsspezifischen Kompetenzen der GesBKV' without any article number; it points to the competence provisions of the ordinance in general rather than to a specific article."
+  }
+]

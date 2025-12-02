@@ -1,0 +1,22 @@
+[
+  {
+    "Item": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 641.811",
+    "assigned_articles": [
+      "Art. 98 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet explicitly cites 'Artikel 98 Absatz 1 der Schwerverkehrsabgabeverordnung ... SR 641.811'; this is a direct, syntactically linked article reference to the target SR."
+  },
+  {
+    "Item": 2,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": "SR 641.811",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "Article 2 only mentions the Verordnung des EFD identified by the acronym mapping as SR 641.811, without any article numbers or internal subdivisions; therefore it is a general reference to the whole ordinance."
+  }
+]

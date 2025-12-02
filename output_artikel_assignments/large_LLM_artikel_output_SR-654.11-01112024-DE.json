@@ -1,0 +1,90 @@
+[
+  {
+    "Item": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 654.1",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "high",
+    "reasoning": "The preamble cites SR 654.1 (ALBAG) as the legal basis without mentioning any specific article; this is a generic reference to the whole act."
+  },
+  {
+    "Item": 2,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 654.1",
+    "assigned_articles": ["Art. 3 Abs. 1"],
+    "confidence": "high",
+    "reasoning": "Snippet explicitly states '(Art. 3 Abs. 1 ALBAG)', directly linking Article 3 paragraph 1 to SR 654.1."
+  },
+  {
+    "Item": 3,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": "SR 654.1",
+    "assigned_articles": ["Art. 3 Abs. 2"],
+    "confidence": "high",
+    "reasoning": "Snippet explicitly states '(Art. 3 Abs. 2 ALBAG)', directly linking Article 3 paragraph 2 to SR 654.1."
+  },
+  {
+    "Item": 4,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": "SR 654.1",
+    "assigned_articles": ["Art. 6"],
+    "confidence": "high",
+    "reasoning": "Snippet explicitly states '(Art. 6 ALBAG)', directly linking Article 6 to SR 654.1."
+  },
+  {
+    "Item": 5,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": "SR 654.1",
+    "assigned_articles": ["Art. 8 Abs. 1"],
+    "confidence": "high",
+    "reasoning": "Snippet explicitly states '(Art. 8 Abs. 1 ALBAG)', directly linking Article 8 paragraph 1 to SR 654.1."
+  },
+  {
+    "Item": 6,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": "SR 654.1",
+    "assigned_articles": ["Art. 13 Abs. 2", "Art. 15 Abs. 1", "Art. 2 Bst. e"],
+    "confidence": "high",
+    "reasoning": "The authorial note cites '(Art. 13 Abs. 2 und 15 Abs. 1 ALBAG)', and the sentence text refers to 'nach Artikel 2 Buchstabe e ALBAG'; all three are explicitly and syntactically linked to ALBAG (SR 654.1)."
+  },
+  {
+    "Item": 7,
+    "ARTICLE_EID": "art_6",
+    "TARGET_SR": "SR 654.1",
+    "assigned_articles": ["Art. 18 Abs. 1"],
+    "confidence": "high",
+    "reasoning": "Snippet explicitly states '(Art. 18 Abs. 1 ALBAG)', directly linking Article 18 paragraph 1 to SR 654.1."
+  },
+  {
+    "Item": 8,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": "SR 654.1",
+    "assigned_articles": ["Art. 18 Abs. 4 Bst. b"],
+    "confidence": "high",
+    "reasoning": "Snippet explicitly states '(Art. 18 Abs. 4 Bst. b ALBAG)', directly linking Article 18 paragraph 4 letter b to SR 654.1."
+  },
+  {
+    "Item": 9,
+    "ARTICLE_EID": "art_8",
+    "TARGET_SR": "SR 654.1",
+    "assigned_articles": ["Art. 18 Abs. 4 Bst. d"],
+    "confidence": "high",
+    "reasoning": "Snippet explicitly states '(Art. 18 Abs. 4 Bst. d ALBAG)', directly linking Article 18 paragraph 4 letter d to SR 654.1."
+  },
+  {
+    "Item": 10,
+    "ARTICLE_EID": "art_9",
+    "TARGET_SR": "SR 654.1",
+    "assigned_articles": ["Art. 24 Abs. 1"],
+    "confidence": "high",
+    "reasoning": "Snippet explicitly states '(Art. 24 Abs. 1 ALBAG)', directly linking Article 24 paragraph 1 to SR 654.1."
+  },
+  {
+    "Item": 11,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "high",
+    "reasoning": "The phrase 'nach Artikel 2 Buchstabe e ALBAG' appears without an explicit SR link in this item and functions as a cross-reference within the same ordinance; the ALBAG link and article assignment to SR 654.1 are already captured in Item 6, so here it is treated as an internal/self-reference."
+  }
+]

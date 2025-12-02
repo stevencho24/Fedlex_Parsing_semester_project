@@ -1,0 +1,157 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 910.1",
+    "assigned_articles": [
+      "Art. 46 Abs. 1",
+      "Art. 46 Abs. 3",
+      "Art. 47 Abs. 2",
+      "Art. 177 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Präambel nennt ausdrücklich: «gestützt auf die Artikel 46 Absätze 1 und 3, 47 Absatz 2 und 177 Absatz 1 des Landwirtschaftsgesetzes … SR 910.1 (LwG)»; diese Artikel gehören klar zum LwG (SR 910.1)."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": "SR 910.13",
+    "assigned_articles": [
+      "Anhang 1 Ziff. 2.1.5"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Satz wird direkt auf «Anhang 1 Ziffer 2.1.5 der Direktzahlungsverordnung … SR 910.13» verwiesen; damit ist die konkrete Norm innerhalb der SR 910.13 eindeutig bestimmt."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": "SR 910.1",
+    "assigned_articles": [
+      "Art. 46 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Text lautet: «… im Sinne von Artikel 46 Absatz 2 LwG …»; LwG ist in der Präambel als SR 910.1 definiert, somit bezieht sich die Stelle auf Art. 46 Abs. 2 SR 910.1."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": "self",
+    "assigned_articles": [
+      "Art. 2",
+      "Art. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "«… die in den Artikeln 2 und 3 genannten Zahlen …»; es wird kein anderes Gesetz oder eine SR-Nummer genannt, daher handelt es sich um interne Verweise innerhalb derselben Verordnung."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": "self",
+    "assigned_articles": [
+      "Art. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "«… höhere Bestände als diejenigen nach Artikel 2.»; kein externer SR-Bezug, somit interner Verweis auf Art. 2 derselben Verordnung."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_10",
+    "TARGET_SR": "self",
+    "assigned_articles": [
+      "Art. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "«… höhere Bestände als diejenigen nach Artikel 2 …»; wiederum kein anderes Gesetz genannt, daher Selbstverweis."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_11",
+    "TARGET_SR": "self",
+    "assigned_articles": [
+      "Art. 10"
+    ],
+    "confidence": "high",
+    "reasoning": "«… Bewilligung nach Artikel 10 …»; es wird nur auf einen anderen Artikel derselben Verordnung Bezug genommen."
+  },
+  {
+    "ITEM": 8,
+    "ARTICLE_EID": "art_12",
+    "TARGET_SR": "self",
+    "assigned_articles": [
+      "Art. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "«… höhere Bestände als diejenigen nach Artikel 2 …»; kein externer SR-Hinweis, daher interner Artikelverweis."
+  },
+  {
+    "ITEM": 9,
+    "ARTICLE_EID": "art_13",
+    "TARGET_SR": "self",
+    "assigned_articles": [
+      "Art. 10",
+      "Art. 12",
+      "Art. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "«Betrieben nach den Artikeln 10 und 12 … der Bestände nach Artikel 2.»; alle genannten Artikel gehören ersichtlich zur gleichen Verordnung."
+  },
+  {
+    "ITEM": 10,
+    "ARTICLE_EID": "art_14",
+    "TARGET_SR": "self",
+    "assigned_articles": [
+      "Art. 10 Abs. 2 Bst. a",
+      "Art. 10 Abs. 2 Bst. f",
+      "Art. 12 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "«… insbesondere die kantonalen schriftlichen Bestätigungen nach Artikel 10 Absatz 2 Buchstaben a und f beziehungsweise Artikel 12 Absatz 2.»; alle Verweise sind klar interne Strukturverweise."
+  },
+  {
+    "ITEM": 11,
+    "ARTICLE_EID": "art_15",
+    "TARGET_SR": "self",
+    "assigned_articles": [
+      "Art. 10 Abs. 2 Bst. d",
+      "Art. 12"
+    ],
+    "confidence": "high",
+    "reasoning": "«… Abnahmevertrag nach Artikel 10 Absatz 2 Buchstabe d … Die Bewilligung für Betriebe nach Artikel 12 …»; wiederum nur interne Artikel der gleichen Verordnung."
+  },
+  {
+    "ITEM": 12,
+    "ARTICLE_EID": "art_21",
+    "TARGET_SR": "self",
+    "assigned_articles": [
+      "Art. 2",
+      "Art. 3",
+      "Art. 4",
+      "Art. 5",
+      "Art. 10",
+      "Art. 12"
+    ],
+    "confidence": "high",
+    "reasoning": "«… Bestände nach den Artikeln 2 und 3 oder … jene nach Artikel 4 … als das BLW vorgängig gestützt auf Artikel 5, 10 oder 12 …»; alle genannten Artikel sind interne Bestimmungen."
+  },
+  {
+    "ITEM": 13,
+    "ARTICLE_EID": "art_24",
+    "TARGET_SR": "self",
+    "assigned_articles": [
+      "Art. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "«… Bestände halten dürfen, die höher sind als diejenigen nach Artikel 2 …»; kein externer SR-Bezug, daher interner Verweis."
+  },
+  {
+    "ITEM": 14,
+    "ARTICLE_EID": "art_24",
+    "TARGET_SR": "self",
+    "assigned_articles": [
+      "Art. 2",
+      "Art. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "«… auf die Bestände nach den Artikeln 2 und 3 …»; wiederum reine Selbstreferenz innerhalb derselben Verordnung."
+  }
+]

@@ -1,0 +1,117 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 152.3",
+    "assigned_articles": [
+      "Art. 2 Abs. 3",
+      "Art. 10 Abs. 2",
+      "Art. 10 Abs. 4",
+      "Art. 17 Abs. 3",
+      "Art. 21"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet explicitly cites 'Artikel 2 Absatz 3, 10 Absätze 2 und 4, 17 Absatz 3 und 21 des Bundesgesetzes ... SR 152.3 (BGÖ)'; all these articles grammatically belong to SR 152.3."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_1_a",
+    "TARGET_SR": "SR 955.0",
+    "assigned_articles": [
+      "Art. 12 lit. bter"
+    ],
+    "confidence": "high",
+    "reasoning": "Phrase 'als Aufsichtsbehörde im Sinne von Artikel 12 Buchstabe bter des Geldwäschereigesetzes ... SR 955.0' directly links Art. 12 lit. bter to SR 955.0."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_1_a",
+    "TARGET_SR": "SR 941.31",
+    "assigned_articles": [
+      "Art. 42ter",
+      "Art. 36 Abs. 2 lit. g"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet: 'in Verbindung mit Artikel 42ter des Edelmetallkontrollgesetzes ... SR 941.31 (EMKG) und von Artikel 36 Absatz 2 Buchstabe g EMKG'; both articles are clearly attributed to EMKG = SR 941.31."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": "SR 172.010",
+    "assigned_articles": [
+      "Art. 62f"
+    ],
+    "confidence": "high",
+    "reasoning": "Text 'nach Artikel 62f des Regierungs- und Verwaltungsorganisationsgesetzes ... SR 172.010' directly associates Art. 62f with SR 172.010."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_14",
+    "TARGET_SR": "SR 172.041.1",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "Formulation 'gelten die Bestimmungen der Allgemeinen Gebührenverordnung ... SR 172.041.1' cites the ordinance as a whole without specifying articles; this is a general reference."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_17",
+    "TARGET_SR": "SR 172.010.1",
+    "assigned_articles": [
+      "Art. 22"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet: 'richtet sich nach Artikel 22 der Regierungs- und Verwaltungsorganisationsverordnung ... SR 172.010.1'; Art. 22 is explicitly tied to SR 172.010.1."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_1_a",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "artikel_reference without SR; 'Artikel 12 Buchstabe bter', 'Artikel 42ter', 'Artikel 36 Absatz 2 Buchstabe g' appear as part of the same sentence but here are captured generically. As this item_type is for self-references and no SR is mentioned, it is treated as an internal structural reference, not as a new SR link."
+  },
+  {
+    "ITEM": 8,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "artikel_reference with 'Artikel 62f' but no SR in this snippet; the external SR link is already captured in ITEM 4. Per rules, ambiguous/isolated article mentions default to self-reference within the current document."
+  },
+  {
+    "ITEM": 9,
+    "ARTICLE_EID": "art_13",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "medium",
+    "reasoning": "Refers to 'Verfügung nach Artikel 15 BGÖ'. BGÖ is the base act of the current ordinance (SR 152.3), but this item has no explicit SR and artikel_reference is meant for self-references. The specific cross-SR link to SR 152.3 is already covered in ITEM 1; here it functions as an internal reference in the context of this ordinance."
+  },
+  {
+    "ITEM": 10,
+    "ARTICLE_EID": "art_13",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "medium",
+    "reasoning": "Mentions 'Artikel 7 Absatz 1 BGÖ' without an explicit SR. The BGÖ link to SR 152.3 is handled in the preamble (ITEM 1). As an artikel_reference without SR, this is treated as an internal reference within the document’s regulatory context."
+  },
+  {
+    "ITEM": 11,
+    "ARTICLE_EID": "art_17",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "Contains 'Artikel 22 der Regierungs- und Verwaltungsorganisationsverordnung' but no SR; the external SR 172.010.1 with Art. 22 is already captured in ITEM 6. This duplicate textual reference, as artikel_reference, is classified as an internal cross-reference."
+  }
+]

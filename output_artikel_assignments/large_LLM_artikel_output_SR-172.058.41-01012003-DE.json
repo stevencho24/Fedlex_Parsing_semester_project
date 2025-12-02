@@ -1,0 +1,43 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 172.220.1",
+    "assigned_articles": [
+      "Art. 32 lit. d",
+      "Art. 32 lit. e"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Formulierung \"gestützt auf Artikel 32 Buchstaben d und e des Bundespersonalgesetzes ... SR 172.220.1\" verknüpft Artikel und SR eindeutig; es handelt sich um eine direkte Zitierung von Art. 32 lit. d und e BPG."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": "SR 172.010.21",
+    "assigned_articles": [
+      "Art. 6"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Satz \"das nach Artikel 6 der Verordnung vom 14. Dezember 1998 SR 172.010.21 ... zuständige Bau- und Liegenschaftsorgan\" ist \"Artikel 6\" grammatikalisch direkt dieser Verordnung zugeordnet; damit ist Art. 6 der Verordnung über das Immobilienmanagement und die Logistik des Bundes (SR 172.010.21) gemeint."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Die Stelle \"nach Artikel 6 der Verordnung vom 14. Dezember 1998 über das Immobilienmanagement und die Logistik des Bundes\" ist bereits in ITEM 2 als Verweis auf Art. 6 SR 172.010.21 erfasst. Als artikel_reference ohne eigene TARGET_SR dient sie nur der internen Erfassung; es liegt kein zusätzlicher, neuer Artikelverweis zu einem anderen SR vor."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": "self",
+    "assigned_articles": [
+      "Art. 3 Abs. 2 lit. d",
+      "Art. 3 Abs. 3 lit. d",
+      "Art. 3 Abs. 3 lit. e"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Formulierung \"Parkplätze, die nach Artikel 3 Absatz 2 Buchstabe d sowie Artikel 3 Absatz 3 Buchstaben d und e zugeteilt werden\" enthält nur interne Verweise innerhalb derselben Verordnung (keine SR-Nennung im Satz). Gemäss Vorgabe sind solche als Selbstverweise zu behandeln; daher Zuordnung als interne Artikel 3 Abs. 2 lit. d sowie 3 Abs. 3 lit. d und e."
+  }
+]

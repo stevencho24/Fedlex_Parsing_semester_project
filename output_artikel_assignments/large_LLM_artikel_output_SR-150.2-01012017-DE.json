@@ -1,0 +1,66 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 101",
+    "assigned_articles": [
+      "Art. 54 Abs. 1",
+      "Art. 121 Abs. 1",
+      "Art. 122 Abs. 1",
+      "Art. 123 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Formulierung «gestützt auf die Artikel 54 Absatz 1, 121 Absatz 1, 122 Absatz 1 und 123 Absatz 1 der Bundesverfassung SR 101» verknüpft die genannten Artikel syntaktisch eindeutig mit SR 101."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 0.103.3",
+    "assigned_articles": [
+      "Art. 17 Abs. 3",
+      "Art. 18 Abs. 1"
+    ],
+    "confidence": "medium",
+    "reasoning": "Das Ziel-SR ist das Internationale Übereinkommen (SR 0.103.3). In Art. 3 wird ausdrücklich «Artikel 17 Absatz 3 des Übereinkommens» genannt, in Art. 9 «Artikel 18 Absatz 1 des Übereinkommens». Beide Bezüge sind syntaktisch klar dem Übereinkommen zugeordnet und damit diesem SR zuzuweisen."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": "SR 312.0",
+    "assigned_articles": [
+      "Art. 214 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Snippet steht «gemäss Artikel 214 Absatz 2 der Strafprozessordnung SR 312.0»; der Artikel ist direkt mit der Strafprozessordnung (SR 312.0) verbunden."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": "self",
+    "assigned_articles": [
+      "Art. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "«Artikel 17 Absatz 3 des Übereinkommens» verweist auf das externe Übereinkommen (SR 0.103.3), nicht auf die eigene Verordnung SR 150.2. Innerhalb der eigenen Systematik ist dies lediglich ein interner Kontext in Art. 3; es entsteht kein zusätzlicher SR-Link. Daher als Selbstreferenz des aktuellen Dokuments (Art. 3) zu behandeln."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": "SR 312.0",
+    "assigned_articles": [
+      "Art. 214 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Dies ist derselbe inhaltliche Satz wie bei ITEM 3, nur ohne explizite Nennung von SR 312.0 im Snippet. Aus dem bereits erkannten SR-Link (ITEM 3) folgt, dass «Artikel 214 Absatz 2 der Strafprozessordnung» Art. 214 Abs. 2 StPO (SR 312.0) meint."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_9",
+    "TARGET_SR": "self",
+    "assigned_articles": [
+      "Art. 9"
+    ],
+    "confidence": "high",
+    "reasoning": "«Artikel 18 Absatz 1 des Übereinkommens» bezieht sich auf das externe Übereinkommen (SR 0.103.3). Für die eigene Verordnung SR 150.2 ist dies lediglich ein Verweis innerhalb des Inhalts von Art. 9; es entsteht kein neuer SR-Link. Daher als Selbstreferenz des aktuellen Dokuments (Art. 9) zu behandeln."
+  }
+]

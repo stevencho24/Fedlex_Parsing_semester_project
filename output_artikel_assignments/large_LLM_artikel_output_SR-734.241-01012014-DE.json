@@ -1,0 +1,23 @@
+[
+  {
+    "Item": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 734.0",
+    "assigned_articles": [
+      "Art. 57 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet explicitly cites 'Artikel 57 Absatz 2 des Elektrizitätsgesetzes ... SR 734.0 (EleG)'; this article clearly belongs to SR 734.0."
+  },
+  {
+    "Item": 2,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 734.0",
+    "assigned_articles": [
+      "Art. 55",
+      "Art. 56"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet states 'Widerhandlungen gegen die Artikel 55 und 56 EleG'; EleG is defined in the preamble as SR 734.0, so Articles 55 and 56 are articles of SR 734.0."
+  }
+]

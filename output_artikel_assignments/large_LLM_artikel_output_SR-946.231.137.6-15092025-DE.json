@@ -1,0 +1,115 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 946.231",
+    "assigned_articles": [
+      "Art. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet explicitly states 'gestützt auf Artikel 2 des Embargogesetzes ... SR 946.231 (EmbG)'; Art. 2 is directly and syntactically linked to SR 946.231."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": "SR 142.204",
+    "assigned_articles": [
+      "Art. 38"
+    ],
+    "confidence": "high",
+    "reasoning": "The text says 'nach Artikel 38 der Verordnung ... SR 142.204 über die Einreise und die Visumerteilung'; Art. 38 is clearly attributed to SR 142.204."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": "SR 946.231",
+    "assigned_articles": [
+      "Art. 9",
+      "Art. 10"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet refers to 'Artikel 9 EmbG' and 'Artikel 10 EmbG' and then 'Artikeln 9 und 10 EmbG'; EmbG is defined in the preamble as SR 946.231, so these are Art. 9 and Art. 10 of SR 946.231."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "The reference 'Artikel 38 der Verordnung vom 15. August 2018 über die Einreise und die Visumerteilung' is already captured and linked to SR 142.204 in ITEM 2; here, as an artikel_reference without SR marker, it functions as a cross-reference within the current document context rather than a new SR link."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 2",
+      "Art. 4"
+    ],
+    "confidence": "high",
+    "reasoning": "The phrase 'den Vollzug der Artikel 2 und 4' clearly refers to Articles 2 and 4 of the same ordinance; no external SR or acronym is mentioned, so this is an internal self-reference."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet 'Ein- und Durchreiseverbots nach Artikel 3' refers to Article 3 of the current ordinance; there is no SR or external law indicated, so it is an internal article reference."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_6",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 2 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "The wording 'nach Artikel 2 Absatz 1' is a clear reference to Article 2 paragraph 1 of the same ordinance; no external SR or acronym is present."
+  },
+  {
+    "ITEM": 8,
+    "ARTICLE_EID": "art_6",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 2 Abs. 3ter"
+    ],
+    "confidence": "high",
+    "reasoning": "The phrase 'Gutschriften nach Artikel 2 Absatz 3ter' clearly points to Article 2 paragraph 3ter of the current ordinance; again, no external SR is mentioned."
+  },
+  {
+    "ITEM": 9,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": "SR 946.231",
+    "assigned_articles": [
+      "Art. 9"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet 'wird nach Artikel 9 EmbG bestraft' explicitly links Article 9 of EmbG; EmbG is mapped in the preamble to SR 946.231, so this is Art. 9 of SR 946.231."
+  },
+  {
+    "ITEM": 10,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": "SR 946.231",
+    "assigned_articles": [
+      "Art. 10"
+    ],
+    "confidence": "high",
+    "reasoning": "The text 'wird nach Artikel 10 EmbG bestraft' clearly refers to Article 10 of EmbG; via the preamble acronym, EmbG corresponds to SR 946.231."
+  },
+  {
+    "ITEM": 11,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": "SR 946.231",
+    "assigned_articles": [
+      "Art. 9",
+      "Art. 10"
+    ],
+    "confidence": "high",
+    "reasoning": "The phrase 'Verstösse nach den Artikeln 9 und 10 EmbG' explicitly mentions Articles 9 and 10 of EmbG; EmbG is defined as SR 946.231, so both articles belong to that SR."
+  }
+]

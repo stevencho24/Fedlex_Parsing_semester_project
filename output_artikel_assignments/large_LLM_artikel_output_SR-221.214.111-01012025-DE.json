@@ -1,0 +1,48 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 221.214.11",
+    "assigned_articles": [
+      "Art. 1 Abs. 4"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Formulierung \"gestützt auf Artikel 1 Absatz 4 der Verordnung vom 6. November 2002 SR 221.214.11\" verknüpft den genannten Artikel grammatikalisch eindeutig mit der genannten Verordnung (SR 221.214.11)."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 221.214.1",
+    "assigned_articles": [
+      "Art. 9 Abs. 2 lit. b",
+      "Art. 9",
+      "Art. 10",
+      "Art. 11"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Satz wird zunächst \"Artikel 9 Absatz 2 Buchstabe b des Bundesgesetzes ... SR 221.214.1\" genannt; zudem werden in Klammern \"Art. 9 KKG\", \"Art. 10 KKG\" und \"Art. 11 KKG\" aufgeführt. Das KKG ist SR 221.214.1, daher beziehen sich alle diese Artikelangaben auf SR 221.214.1."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 9 Abs. 2 lit. b",
+      "Art. 9",
+      "Art. 10",
+      "Art. 11"
+    ],
+    "confidence": "high",
+    "reasoning": "Dies ist eine Wiederholung des Inhalts von ITEM 2 ohne explizite SR-Nennung, aber mit denselben Formulierungen (Art. 9 Abs. 2 lit. b, Art. 9, Art. 10, Art. 11 KKG). Es handelt sich um Verweise auf das KKG (SR 221.214.1), jedoch als artikel_reference ohne TARGET_SR; daher werden nur die referenzierten Artikel selbst erfasst, ohne Zuordnung zu einem TARGET_SR."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 12"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Satz nennt \"(Art. 12 KKG)\". Im Kontext des Dokuments steht KKG für das Konsumkreditgesetz (SR 221.214.1). Als artikel_reference ohne TARGET_SR wird hier der interne Artikelverweis \"Art. 12\" erfasst, ohne Zuordnung zu einem TARGET_SR."
+  }
+]

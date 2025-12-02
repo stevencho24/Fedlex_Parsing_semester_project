@@ -1,0 +1,226 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 232.11",
+    "assigned_articles": [
+      "Art. 50a"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet explicitly cites 'Artikel 50a des Markenschutzgesetzes ... SR 232.11'; the article number and SR are directly linked in the same phrase."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 172.010.31",
+    "assigned_articles": [
+      "Art. 13"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet states 'auf Artikel 13 des Bundesgesetzes ... SR 172.010.31'; 'Artikel 13' is syntactically tied to this SR reference."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_9",
+    "TARGET_SR": "SR 172.021",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "medium",
+    "reasoning": "The text refers to 'nach dem Verwaltungsverfahrensgesetz vom 20. Dezember 1968 SR 172.021' without mentioning a specific article; this is a general citation of the Act."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_13",
+    "TARGET_SR": "SR 172.021",
+    "assigned_articles": [
+      "Art. 30a"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet says 'nach Artikel 30a des Verwaltungsverfahrensgesetzes vom 20. Dezember 1968 SR 172.021'; 'Artikel 30a' is explicitly and directly linked to this SR."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_14",
+    "TARGET_SR": "SR 232.148",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "medium",
+    "reasoning": "The phrase 'nach der Gebührenordnung vom 28. April 1997 SR 232.148' cites the ordinance as a whole; no specific article is indicated."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_15",
+    "TARGET_SR": "SR 946.512",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "medium",
+    "reasoning": "The citation 'nach der Akkreditierungs- und Bezeichnungsverordnung vom 17. Juni 1996 SR 946.512' contains no article number; it is a general reference to the ordinance."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "The reference 'Artikel 6' appears without any SR or acronym; it clearly points to Art. 6 of the same ordinance, i.e., a self-reference."
+  },
+  {
+    "ITEM": 8,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document",
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet mentions 'Artikel 18' and implicitly the current article; no external SR is present, so both are internal cross-references within this ordinance."
+  },
+  {
+    "ITEM": 9,
+    "ARTICLE_EID": "art_6",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document",
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "References to 'Artikel 15' and 'Artikel 18' are not tied to any SR or external act; they are articles of the same ordinance."
+  },
+  {
+    "ITEM": 10,
+    "ARTICLE_EID": "art_8",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "The range 'den Artikeln 2–6' is given without any SR or acronym; this is an internal structural reference to articles 2–6 of the same document."
+  },
+  {
+    "ITEM": 11,
+    "ARTICLE_EID": "art_8",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "The phrase 'nach Artikel 3 Absatz 2' lacks any external SR; it refers to Art. 3 Abs. 2 of this ordinance."
+  },
+  {
+    "ITEM": 12,
+    "ARTICLE_EID": "art_8",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "The reference 'Artikel 11 Absatz 4' is not connected to any SR; it is an internal cross-reference within the same legal text."
+  },
+  {
+    "ITEM": 13,
+    "ARTICLE_EID": "art_9",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "The mention of 'Artikel 4 Absatz 6' is purely internal; no external SR or acronym is present in the clause."
+  },
+  {
+    "ITEM": 14,
+    "ARTICLE_EID": "art_9",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document",
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "Both occurrences of 'Artikel 2' in this sentence refer to the definitional provision within the same ordinance; there is no external SR context."
+  },
+  {
+    "ITEM": 15,
+    "ARTICLE_EID": "art_10",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document",
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "The references to 'Artikel 15' and 'Artikel 18' are internal; the snippet concerns certification and control bodies defined in this ordinance, with no external SR mentioned."
+  },
+  {
+    "ITEM": 16,
+    "ARTICLE_EID": "art_12",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "The phrase 'vorbehaltlich einer Löschung nach Artikel 13' clearly points to Art. 13 of the same ordinance; no external law is cited."
+  },
+  {
+    "ITEM": 17,
+    "ARTICLE_EID": "art_13",
+    "TARGET_SR": "SR 172.021",
+    "assigned_articles": [
+      "Art. 30a"
+    ],
+    "confidence": "high",
+    "reasoning": "This snippet repeats the wording from ITEM 4: 'nach Artikel 30a des Verwaltungsverfahrensgesetzes vom 20. Dezember 1968'; Art. 30a VwVG (SR 172.021) is explicitly cited."
+  },
+  {
+    "ITEM": 18,
+    "ARTICLE_EID": "art_16",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "The reference 'Artikel 6 Absatz 2 Buchstabe a' is not linked to any SR; it is an internal reference to a provision of this ordinance."
+  },
+  {
+    "ITEM": 19,
+    "ARTICLE_EID": "art_16",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "The mention of 'Artikel 17' is an internal cross-reference; there is no external SR or acronym indicating another act."
+  },
+  {
+    "ITEM": 20,
+    "ARTICLE_EID": "art_19",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "The phrase 'nach Artikel 6 Absatz 2 Buchstabe b' refers to a specific paragraph and letter within this ordinance; no external SR is present."
+  },
+  {
+    "ITEM": 21,
+    "ARTICLE_EID": "art_20",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "The reference to 'Artikel 21' concerns transitional periods 'nach Artikel 21' of the same ordinance; there is no indication of an external statute."
+  },
+  {
+    "ITEM": 22,
+    "ARTICLE_EID": "art_21",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference innerhalb current document"
+    ],
+    "confidence": "high",
+    "reasoning": "The phrase 'nach Artikel 10' clearly refers to Art. 10 of this ordinance (change of the specification); no SR or external law is mentioned."
+  }
+]

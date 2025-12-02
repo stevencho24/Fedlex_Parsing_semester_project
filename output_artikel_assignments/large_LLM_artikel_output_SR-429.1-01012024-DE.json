@@ -1,0 +1,89 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 101",
+    "assigned_articles": [
+      "Art. 64",
+      "Art. 74",
+      "Art. 76",
+      "Art. 87",
+      "Art. 118",
+      "Art. 173"
+    ],
+    "confidence": "high",
+    "reasoning": "Die INSIDE_AUTHORIALNOTE formuliert ausdrücklich: \"Den genannten Bestimmungen entsprechen heute die Art. 64, 74, 76, 87, 118 und 173 der BV ... (SR 101)\", womit diese Artikel der BV (SR 101) direkt zugeordnet werden."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": "SR 172.019",
+    "assigned_articles": [
+      "Art. 10 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "Im SNIPPET steht: \"die Daten nach Artikel 10 Absatz 1 des Bundesgesetzes ... SR 172.019 ... (EMBAG)\", womit Art. 10 Abs. 1 eindeutig dem EMBAG (SR 172.019) zugeordnet wird."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": "SR 429.1",
+    "assigned_articles": [
+      "Art. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Formulierung \"Aufgaben nach Artikel 1\" erfolgt ohne Nennung eines anderen Erlasses und bezieht sich damit auf den eigenen Gesetzestext (SR-429.1-...). Es handelt sich um eine Selbstreferenz auf Art. 1 desselben Erlasses."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": "SR 429.1",
+    "assigned_articles": [
+      "Art. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "Auch hier: \"im Rahmen der Bundesaufgaben nach Artikel 1\" ohne externen SR‑Verweis; syntaktisch klar als interner Verweis auf Art. 1 des gleichen Gesetzes (SR 429.1)."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": "SR 172.019",
+    "assigned_articles": [
+      "Art. 10 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Satz nennt explizit \"Artikel 10 Absatz 1 des Bundesgesetzes ... (EMBAG)\", das in einem anderen Item eindeutig als SR 172.019 identifiziert ist; daher Zuordnung zu Art. 10 Abs. 1 EMBAG."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": "SR 429.1",
+    "assigned_articles": [
+      "Art. 1 Bst. c",
+      "Art. 1 Bst. e",
+      "Art. 1 Bst. h"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Wendung \"im Rahmen der Aufgaben nach Artikel 1 Buchstaben c, e und h\" verweist ohne externen Erlass auf interne Struktur; damit Selbstreferenz auf Art. 1 Buchst. c, e und h des gleichen Erlasses (SR 429.1)."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": "SR 172.019",
+    "assigned_articles": [
+      "Art. 10 Abs. 2 Bst. c"
+    ],
+    "confidence": "high",
+    "reasoning": "Im SNIPPET steht \"(Art. 10 Abs. 2 Bst. c EMBAG)\"; EMBAG ist das Bundesgesetz SR 172.019, somit klarer Verweis auf Art. 10 Abs. 2 Buchst. c EMBAG."
+  },
+  {
+    "ITEM": 8,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": "SR 429.1",
+    "assigned_articles": [
+      "Art. 1 Bst. d"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Formulierung \"nach Artikel 1 Buchstabe d\" ohne externen SR‑Hinweis ist eine interne Verweisung auf Art. 1 Buchst. d des gleichen Erlasses (SR 429.1)."
+  }
+]

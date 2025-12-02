@@ -1,0 +1,93 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 161.1",
+    "assigned_articles": [
+      "Art. 91 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Formulierung «gestützt auf Artikel 91 Absatz 1 des Bundesgesetzes … SR 161.1 … (BPR)» verknüpft den genannten Artikel syntaktisch eindeutig mit dem BPR (SR 161.1)."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_6_a",
+    "TARGET_SR": "SR 431.112.1",
+    "assigned_articles": [
+      "Art. 19 lit. a"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Satz «… nach Artikel 19 Buchstabe a der Volkszählungsverordnung … SR 431.112.1» wird Art. 19 lit. a ausdrücklich dieser Verordnung (SR 431.112.1) zugeordnet."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_6",
+    "TARGET_SR": "SR 161.1",
+    "assigned_articles": [
+      "Art. 77"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Wendung «Beschwerdemöglichkeit nach Artikel 77 BPR» bezieht sich klar auf Art. 77 des BPR, wobei BPR im Vorspann als SR 161.1 definiert ist."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_8_b",
+    "TARGET_SR": "SR 161.1",
+    "assigned_articles": [
+      "Art. 24 Abs. 1",
+      "Art. 22 Abs. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Snippet werden «Art. 24 Abs. 1 BPR» und «Art. 22 Abs. 3 BPR» genannt; BPR ist als SR 161.1 definiert, daher gehören beide Artikel zu SR 161.1."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_13",
+    "TARGET_SR": "SR 161.1",
+    "assigned_articles": [
+      "Art. 77"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Text «Beschwerdemöglichkeit nach Artikel 77 BPR» verweist eindeutig auf Art. 77 des BPR (SR 161.1)."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_16",
+    "TARGET_SR": "SR 161.1",
+    "assigned_articles": [
+      "Art. 56 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Formulierung «Bei Ergänzungswahlen (Art. 56 Abs. 1 BPR)» kennzeichnet Art. 56 Abs. 1 ausdrücklich als Norm des BPR (SR 161.1)."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_19",
+    "TARGET_SR": "SR 161.1",
+    "assigned_articles": [
+      "Art. 62 Abs. 4"
+    ],
+    "confidence": "high",
+    "reasoning": "«Gesamtbescheinigung nach Artikel 62 Absatz 4 BPR» ist ein klarer Verweis auf Art. 62 Abs. 4 des BPR (SR 161.1)."
+  },
+  {
+    "ITEM": 8,
+    "ARTICLE_EID": "art_6_a",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "Hier wird nur «Artikel 19 Buchstabe a der Volkszählungsverordnung» ohne SR-Angabe erwähnt; im Kontext des Projekts und mangels expliziter SR-Verknüpfung ist dies als interne/selbständige Artikelreferenz zu behandeln, nicht als erneute Zuordnung zu SR 431.112.1."
+  },
+  {
+    "ITEM": 9,
+    "ARTICLE_EID": "art_27_b",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«Zulassung nach Artikel 27e Absatz 1bis» verweist auf einen anderen Artikel derselben Verordnung; es wird kein externes SR-Dokument genannt, daher handelt es sich um eine Selbstreferenz innerhalb des aktuellen Erlasses."
+  }
+]

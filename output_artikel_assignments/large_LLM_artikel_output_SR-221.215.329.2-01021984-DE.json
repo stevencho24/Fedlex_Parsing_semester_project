@@ -1,0 +1,49 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 220",
+    "assigned_articles": [
+      "Art. 359a"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet explicitly states 'gestützt auf Artikel 359a des Obligationenrechts SR 220'; the preposition and wording clearly link Art. 359a to SR 220."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_11",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 4",
+      "Art. 14",
+      "Art. 15",
+      "Art. 16"
+    ],
+    "confidence": "high",
+    "reasoning": "This is an artikel_reference item without any SR mentioned; the cited articles (4, 14, 15, 16) are internal cross-references within the same document, not tied to an external SR."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_13",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 4",
+      "Art. 11",
+      "Art. 14",
+      "Art. 15",
+      "Art. 16"
+    ],
+    "confidence": "high",
+    "reasoning": "Artikel_reference with no SR context; the phrase 'gemäss den Artikeln 4, 11, 14, 15 und 16' clearly refers to other provisions of the same ordinance, so these are internal self-references."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_15",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 16"
+    ],
+    "confidence": "high",
+    "reasoning": "Artikel_reference with no SR mentioned; 'unter Vorbehalt von Artikel 16' is a standard internal cross-reference within the same document, not linked to an external SR."
+  }
+]

@@ -1,0 +1,193 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 442.1",
+    "assigned_articles": [
+      "Art. 46"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Satz nennt ausdrücklich «Artikel 46 des Kulturförderungsgesetzes … SR 442.1 (KFG)»; Art. 46 ist damit klar dem KFG (SR 442.1) zugeordnet."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_10",
+    "TARGET_SR": "SR 172.010.1",
+    "assigned_articles": [
+      "Art. 8a Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Formulierung «im Sinne von Artikel 8a Absatz 2 der Regierungs- und Verwaltungsorganisationsverordnung … SR 172.010.1» verknüpft Art. 8a Abs. 2 eindeutig mit SR 172.010.1."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_11",
+    "TARGET_SR": "SR 172.010",
+    "assigned_articles": [
+      "Art. 57"
+    ],
+    "confidence": "high",
+    "reasoning": "«… als Beratungsgremien im Sinne von Artikel 57 des Regierungs- und Verwaltungsorganisationsgesetzes … SR 172.010»; Art. 57 ist klar diesem Gesetz (SR 172.010) zugeordnet."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_12",
+    "TARGET_SR": "SR 172.021",
+    "assigned_articles": [
+      "Art. 10"
+    ],
+    "confidence": "high",
+    "reasoning": "«gilt Artikel 10 des Bundesgesetzes … SR 172.021 über das Verwaltungsverfahren»; Art. 10 gehört eindeutig zu SR 172.021."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_2_a",
+    "TARGET_SR": "SR 442.1",
+    "assigned_articles": [
+      "Art. 9",
+      "Art. 9 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet enthält mehrfach «Artikel 9 KFG» sowie «Artikel 9 Absatz 1 KFG»; KFG ist in der Präambel als SR 442.1 definiert. Beide Verweise gehören daher zu SR 442.1."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": "SR 442.1",
+    "assigned_articles": [
+      "Art. 10"
+    ],
+    "confidence": "high",
+    "reasoning": "Klammerverweis «(Art. 10 KFG)»; KFG ist SR 442.1, somit klarer Bezug auf Art. 10 dieses Gesetzes."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": "SR 442.1",
+    "assigned_articles": [
+      "Art. 11"
+    ],
+    "confidence": "high",
+    "reasoning": "Klammerverweis «(Art. 11 KFG)»; eindeutig Art. 11 des KFG (SR 442.1)."
+  },
+  {
+    "ITEM": 8,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": "SR 442.1",
+    "assigned_articles": [
+      "Art. 13"
+    ],
+    "confidence": "high",
+    "reasoning": "Klammerverweis «(Art. 13 KFG)»; eindeutig Art. 13 des KFG (SR 442.1)."
+  },
+  {
+    "ITEM": 9,
+    "ARTICLE_EID": "art_6",
+    "TARGET_SR": "SR 442.1",
+    "assigned_articles": [
+      "Art. 14"
+    ],
+    "confidence": "high",
+    "reasoning": "Klammerverweis «(Art. 14 KFG)»; eindeutig Art. 14 des KFG (SR 442.1)."
+  },
+  {
+    "ITEM": 10,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": "SR 442.1",
+    "assigned_articles": [
+      "Art. 16"
+    ],
+    "confidence": "high",
+    "reasoning": "Klammerverweis «(Art. 16 KFG)»; eindeutig Art. 16 des KFG (SR 442.1)."
+  },
+  {
+    "ITEM": 11,
+    "ARTICLE_EID": "art_8",
+    "TARGET_SR": "SR 442.1",
+    "assigned_articles": [
+      "Art. 19"
+    ],
+    "confidence": "high",
+    "reasoning": "Klammerverweis «(Art. 19 KFG)»; eindeutig Art. 19 des KFG (SR 442.1)."
+  },
+  {
+    "ITEM": 12,
+    "ARTICLE_EID": "art_9",
+    "TARGET_SR": "SR 442.1",
+    "assigned_articles": [
+      "Art. 20"
+    ],
+    "confidence": "high",
+    "reasoning": "Klammerverweis «(Art. 20 KFG)»; eindeutig Art. 20 des KFG (SR 442.1)."
+  },
+  {
+    "ITEM": 13,
+    "ARTICLE_EID": "art_2_a",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "interne Verweisung: Art. 9 KFG (SR 442.1)"
+    ],
+    "confidence": "high",
+    "reasoning": "Artikelreferenz ohne explizite SR-Angabe; «Artikel 9 KFG» ist bereits in Item 5 als Art. 9 SR 442.1 erfasst. Hier handelt es sich um dieselbe externe Norm, aber der Typ ist artikel_reference, daher als interne/externe Verweisung beschrieben, ohne neues TARGET_SR zu setzen."
+  },
+  {
+    "ITEM": 14,
+    "ARTICLE_EID": "art_2_a",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "interne Verweisung: Art. 9 KFG (SR 442.1)"
+    ],
+    "confidence": "high",
+    "reasoning": "Wie bei Item 13: «Artikel 9 KFG» verweist auf Art. 9 des KFG (SR 442.1), der bereits über die preamble_acronym/SR_link erfasst ist; hier nur interne/externe Bezugnahme ohne eigenes TARGET_SR."
+  },
+  {
+    "ITEM": 15,
+    "ARTICLE_EID": "art_2_a",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "interne Verweisung: Art. 9 Abs. 1 KFG (SR 442.1)"
+    ],
+    "confidence": "high",
+    "reasoning": "«Artikel 9 Absatz 1 KFG» ist bereits in Item 5 als Art. 9 Abs. 1 SR 442.1 zugeordnet; dieser artikel_reference ergänzt nur die interne/externe Bezugnahme, ohne neues TARGET_SR."
+  },
+  {
+    "ITEM": 16,
+    "ARTICLE_EID": "art_10",
+    "TARGET_SR": "SR 172.010.1",
+    "assigned_articles": [
+      "Art. 8a Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Dieser artikel_reference-Satz ist inhaltlich identisch mit Item 2 (SR_link_detection) und verweist auf «Artikel 8a Absatz 2 der … Verordnung»; damit Selbstreferenz zur bereits zugeordneten Norm Art. 8a Abs. 2 SR 172.010.1."
+  },
+  {
+    "ITEM": 17,
+    "ARTICLE_EID": "art_11",
+    "TARGET_SR": "SR 172.010",
+    "assigned_articles": [
+      "Art. 57"
+    ],
+    "confidence": "high",
+    "reasoning": "Inhaltlich identisch mit Item 3; «Artikel 57 des Regierungs- und Verwaltungsorganisationsgesetzes» ist bereits als Art. 57 SR 172.010 zugeordnet; hier Selbstreferenz auf dieselbe externe Norm."
+  },
+  {
+    "ITEM": 18,
+    "ARTICLE_EID": "art_12",
+    "TARGET_SR": "SR 172.021",
+    "assigned_articles": [
+      "Art. 10"
+    ],
+    "confidence": "high",
+    "reasoning": "Inhaltlich identisch mit Item 4; «Artikel 10 des Bundesgesetzes … über das Verwaltungsverfahren» ist bereits als Art. 10 SR 172.021 zugeordnet; artikel_reference spiegelt diese externe Verweisung."
+  },
+  {
+    "ITEM": 19,
+    "ARTICLE_EID": "art_13",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "interne Verweisung: Art. 10 und Art. 11 derselben Verordnung (SR 442.11)"
+    ],
+    "confidence": "high",
+    "reasoning": "«… Fördermassnahmen nach den Artikeln 10 und 11» ohne Gesetzes- oder SR-Angabe; im Kontext handelt es sich um Artikel derselben Verordnung (interne Strukturverweisung), nicht um ein anderes SR-Dokument. Daher keine Zuordnung zu einem TARGET_SR."
+  }
+]

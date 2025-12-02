@@ -1,0 +1,72 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": "SR 170.512.1",
+    "assigned_articles": [
+      "Art. 16 Abs. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "Die INSIDE_AUTHORIALNOTE nennt ausdrücklich «in Anwendung von Art. 16 Abs. 3 der Publikationsverordnung … (SR 170.512.1)»; der Artikel ist direkt mit der genannten SR verknüpft."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_9",
+    "TARGET_SR": "SR 173.32",
+    "assigned_articles": [
+      "Anhang Ziff. 74"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Fassung beruht «gemäss Anhang Ziff. 74 des Verwaltungsgerichtsgesetzes … (SR 173.32)»; es wird keine Einzelbestimmung (Art.) genannt, sondern die Übergangs-/Änderungsbestimmung im Anhang."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_10",
+    "TARGET_SR": "SR 961.01",
+    "assigned_articles": [
+      "Anhang Ziff. II 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Änderung stützt sich auf «Anhang Ziff. II 2 des Versicherungsaufsichtsgesetzes … (SR 961.01)»; dies ist die konkret genannte Bestimmung innerhalb der SR."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_10",
+    "TARGET_SR": "SR 956.1",
+    "assigned_articles": [
+      "Anhang Ziff. 11"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Fassung beruht «gemäss Anhang Ziff. 11 des Finanzmarktaufsichtsgesetzes … (SR 956.1)»; der Anhangpunkt ist die einzige konkret genannte Norm dieser SR."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_10",
+    "TARGET_SR": "SR 961.01",
+    "assigned_articles": [
+      "Art. 86"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Satz lautet: «Artikel 86 des Versicherungsaufsichtsgesetzes … SR 961.01 ist anwendbar.»; damit ist eindeutig Art. 86 der SR 961.01 gemeint."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_10",
+    "TARGET_SR": "SR 956.1",
+    "assigned_articles": [
+      "Anhang Ziff. 11"
+    ],
+    "confidence": "high",
+    "reasoning": "Wie bei ITEM 4: «Fassung gemäss Anhang Ziff. 11 des Finanzmarktaufsichtsgesetzes … (SR 956.1)»; derselbe Anhangpunkt ist die relevante Bestimmung."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_10",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Interne Verweisung innerhalb des aktuellen Erlasses"
+    ],
+    "confidence": "high",
+    "reasoning": "Die SNIPPET nennt «Artikel 86 des Versicherungsaufsichtsgesetzes … ist anwendbar.» ohne explizite SR-Angabe; diese Verweisung ist bereits in ITEM 5 mit SR 961.01 verknüpft. Hier liegt eine Selbstreferenz-/Kontextzeile im selben Artikel vor, keine neue SR-Zuordnung."
+  }
+]

@@ -1,0 +1,49 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "art_82",
+    "TARGET_SR": "SR 101",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "low",
+    "reasoning": "The snippet mentions the Bundesverfassung (SR 101) and, in the same sentence, lists articles 86, 89, 89bis and 93, but these article numbers are not syntactically linked to SR 101; they refer to provisions of the (old) federal constitution in BS/AS, not explicitly to the current SR 101 text. There is no clear grammatical marker (such as 'Art. 86 ... BV (SR 101)') tying these article numbers to SR 101. Therefore, the SR link is treated as a general reference to the Federal Constitution without specific article assignment."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_82",
+    "TARGET_SR": "SR 101",
+    "assigned_articles": [
+      "Art. 45",
+      "Art. 136",
+      "Art. 140",
+      "Art. 141",
+      "Art. 151",
+      "Art. 159",
+      "Art. 160",
+      "Art. 165"
+    ],
+    "confidence": "high",
+    "reasoning": "Inside the authorial note it states: 'Den genannten Bestimmungen entsprechen heute die Art. 45, 136, 140, 141, 151, 159, 160 und 165 der BV vom 18. April 1999 (SR 101).' The article numbers are directly and explicitly attributed to the BV with the parenthetical '(SR 101)', creating a clear syntactic and semantic link between these articles and SR 101."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_131",
+    "TARGET_SR": "SR 311.0",
+    "assigned_articles": [
+      "Art. 282"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet reads: '... dass sich strafbar macht, wer das Ergebnis einer Unterschriftensammlung für ein Referendum fälscht (Art. 282 StGB SR 311.0).' Here 'Art. 282' is immediately followed by the acronym 'StGB' and the SR number 'SR 311.0' within the same parenthetical, which is a direct marking that Art. 282 belongs to SR 311.0."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_82",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet '... (Art. 86, 89, 89bis und 93);' appears without any SR or external law reference in the same syntactic unit. According to the rules, isolated article mentions without an SR context are treated as self-references to articles within the current document, not as links to an external SR."
+  }
+]

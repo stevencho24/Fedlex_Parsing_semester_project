@@ -1,0 +1,143 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 101",
+    "assigned_articles": [
+      "Art. 95"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Formulierung «gestützt auf Artikel 95 der Bundesverfassung SR 101» verknüpft den genannten Artikel direkt mit SR 101; damit ist klar, dass Art. 95 der Bundesverfassung (SR 101) gemeint ist."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 0.232.149.514",
+    "assigned_articles": [
+      "Art. 8"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Satz «richtet sich nach Artikel 8 des Patentschutzvertrags ... SR 0.232.149.514» wird Art. 8 ausdrücklich diesem Vertrag zugeordnet; syntaktisch klarer Bezug auf Art. 8 des SR 0.232.149.514."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 935.62",
+    "assigned_articles": [
+      "Art. 8"
+    ],
+    "confidence": "high",
+    "reasoning": "Artikelreferenz «Artikel 8 des Patentschutzvertrags ...» wiederholt inhaltlich die in ITEM 2 bereits mit SR 0.232.149.514 verknüpfte Norm; hier liegt jedoch kein expliziter SR‑Verweis vor, daher handelt es sich im Kontext des Dokuments SR 935.62 um eine ausgehende Verweisung auf Art. 8 des genannten Staatsvertrags, während die Artikelzählung (Art. 8) selbst im eigenen Dokument SR 935.62 als interne Referenz erfasst wird."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": "SR 935.62",
+    "assigned_articles": [
+      "Art. 4",
+      "Art. 5"
+    ],
+    "confidence": "high",
+    "reasoning": "«(Art. 4 und 5)» steht ohne SR‑Angabe und bezieht sich damit auf Artikel desselben Erlasses; es handelt sich um eine interne Verweisung auf Art. 4 und Art. 5 von SR 935.62."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": "SR 935.62",
+    "assigned_articles": [
+      "Art. 6",
+      "Art. 7"
+    ],
+    "confidence": "high",
+    "reasoning": "«(Art. 6 und 7)» ist ohne Nennung eines anderen SR‑Titels formuliert und verweist daher auf die eigenen Artikel 6 und 7 des Erlasses SR 935.62."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": "SR 935.62",
+    "assigned_articles": [
+      "Art. 9"
+    ],
+    "confidence": "high",
+    "reasoning": "«(Art. 9)» ohne weitere Spezifikation ist eine typische Selbstverweisung innerhalb desselben Erlasses; gemeint ist Art. 9 von SR 935.62."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": "SR 935.62",
+    "assigned_articles": [
+      "Art. 11 ff."
+    ],
+    "confidence": "high",
+    "reasoning": "«(Art. 11 ff.)» verweist auf eine Artikelgruppe im selben Erlass; mangels anderer SR‑Angabe ist dies eine interne Verweisung auf Art. 11 ff. von SR 935.62."
+  },
+  {
+    "ITEM": 8,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": "SR 935.62",
+    "assigned_articles": [
+      "Art. 2 Bst. a"
+    ],
+    "confidence": "high",
+    "reasoning": "«Artikel 2 Buchstabe a» ist ohne externen SR‑Hinweis formuliert und bezieht sich damit auf Art. 2 lit. a des gleichen Erlasses SR 935.62."
+  },
+  {
+    "ITEM": 9,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": "SR 935.62",
+    "assigned_articles": [
+      "Art. 2 Bst. b"
+    ],
+    "confidence": "high",
+    "reasoning": "«Artikel 2 Buchstabe b» ist eine interne Verweisung auf Art. 2 lit. b des Erlasses SR 935.62, da kein anderes SR genannt wird."
+  },
+  {
+    "ITEM": 10,
+    "ARTICLE_EID": "art_9",
+    "TARGET_SR": "SR 935.62",
+    "assigned_articles": [
+      "Art. 2 Bst. c",
+      "Art. 11 ff."
+    ],
+    "confidence": "high",
+    "reasoning": "Die Formulierung «nach Artikel 2 Buchstabe c» und der Klammerzusatz «(Art. 11 ff.)» enthalten keine externen SR‑Angaben; beide Verweise beziehen sich daher auf interne Normen (Art. 2 lit. c sowie Art. 11 ff. von SR 935.62)."
+  },
+  {
+    "ITEM": 11,
+    "ARTICLE_EID": "art_12",
+    "TARGET_SR": "SR 935.62",
+    "assigned_articles": [
+      "Art. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "«Voraussetzungen nach Artikel 2» ist eine typische interne Verweisung ohne Nennung eines anderen Erlasses; gemeint ist Art. 2 von SR 935.62."
+  },
+  {
+    "ITEM": 12,
+    "ARTICLE_EID": "art_12",
+    "TARGET_SR": "SR 935.62",
+    "assigned_articles": [
+      "Art. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Auch hier verweist «Voraussetzungen nach Artikel 2» ohne externen SR‑Hinweis auf denselben Erlass; interne Verweisung auf Art. 2 von SR 935.62."
+  },
+  {
+    "ITEM": 13,
+    "ARTICLE_EID": "art_16",
+    "TARGET_SR": "SR 935.62",
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "«Artikel 9 des liechtensteinischen Gesetzes ...» bezieht sich auf ein ausländisches (liechtensteinisches) Gesetz, nicht auf ein SR‑Erlass; daher keine Artikelzuordnung zu einem SR‑Titel, sondern reine externe (nicht‑SR) Verweisung."
+  },
+  {
+    "ITEM": 14,
+    "ARTICLE_EID": "art_19",
+    "TARGET_SR": "SR 935.62",
+    "assigned_articles": [
+      "Art. 5 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "«ausländischen Hochschulabschluss nach Artikel 5 Absatz 1» erfolgt ohne Nennung eines anderen SR‑Titels und ist damit eine interne Verweisung auf Art. 5 Abs. 1 des Erlasses SR 935.62."
+  }
+]

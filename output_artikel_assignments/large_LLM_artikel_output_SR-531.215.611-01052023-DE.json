@@ -1,0 +1,32 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 531.215.61",
+    "assigned_articles": [
+      "Art. 5 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet explicitly cites 'Artikel 5 Absatz 1 der Saatgutpflichtlagerverordnung ... SR 531.215.61'; this is a direct, syntactically linked article reference to the target SR."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": "SR 916.151.1",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "The sentence requires that the quality of stored goods comply with the provisions of the WBF-Vermehrungsmaterialverordnung (SR 916.151.1) as a whole; no specific article numbers are mentioned or implied."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": "SR 531.215.61",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "medium",
+    "reasoning": "The acronym 'WBF' in this context designates the department issuing the Vermehrungsmaterialverordnung, not a specific article of SR 531.215.61. The snippet contains no article numbers syntactically linked to SR 531.215.61, so this is treated as a general institutional reference rather than to particular provisions."
+  }
+]

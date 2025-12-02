@@ -1,0 +1,115 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 946.231",
+    "assigned_articles": [
+      "Art. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Formulierung «gestützt auf Artikel 2 des Embargogesetzes … SR 946.231 (EmbG)» verknüpft den genannten Artikel direkt mit dem EmbG; damit ist klar, dass Art. 2 EmbG (SR 946.231) gemeint ist."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 946.202",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Satz «Vorbehalten bleiben die Bestimmungen des Güterkontrollgesetzes … SR 946.202» wird kein bestimmter Artikel genannt; es wird pauschal auf die Bestimmungen des Gesetzes verwiesen, daher allgemeine Dokumentverweisung."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 514.51",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "«… und des Kriegsmaterialgesetzes … SR 514.51» nennt keinen konkreten Artikel, sondern verweist generell auf das Gesetz; somit allgemeine Verweisung auf das gesamte Dokument."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": "SR 170.512.1",
+    "assigned_articles": [
+      "Art. 20 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Bezeichnung «in Anwendung von Art. 20 Abs. 2 der Publikationsverordnung … (SR 170.512.1)» verknüpft den Artikel unmittelbar mit der genannten Verordnung; eindeutig Art. 20 Abs. 2 dieser SR."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": "SR 946.231",
+    "assigned_articles": [
+      "Art. 9",
+      "Art. 10"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Snippet wird ausdrücklich auf «Artikel 9 EmbG», «Artikel 10 EmbG» sowie «Verstösse nach den Artikeln 9 und 10 EmbG» Bezug genommen; EmbG ist in der Präambel als SR 946.231 definiert, daher sind Art. 9 und 10 dieser SR gemeint."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 1",
+      "Art. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "«… nach den Artikeln 1 und 2» steht ohne Gesetzesabkürzung oder SR-Verweis im Kontext der Verordnung selbst; dies sind interne Verweise auf die eigenen Artikel 1 und 2 des gleichen Erlasses."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 4"
+    ],
+    "confidence": "high",
+    "reasoning": "«… nach Artikel 4» erfolgt ohne Nennung eines anderen Gesetzes; syntaktisch klar als interner Verweis auf Art. 4 derselben Verordnung zu verstehen."
+  },
+  {
+    "ITEM": 8,
+    "ARTICLE_EID": "art_6",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 2 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "«… unter die Sperrung nach Artikel 2 Absatz 1 fallen» enthält keinen externen SR-Hinweis; es handelt sich um einen Selbstverweis auf Art. 2 Abs. 1 der vorliegenden Verordnung."
+  },
+  {
+    "ITEM": 9,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": "SR 946.231",
+    "assigned_articles": [
+      "Art. 9"
+    ],
+    "confidence": "high",
+    "reasoning": "«… wird nach Artikel 9 EmbG bestraft» nennt explizit das EmbG; aus der Präambel ist EmbG = SR 946.231, somit ist Art. 9 dieser SR gemeint."
+  },
+  {
+    "ITEM": 10,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": "SR 946.231",
+    "assigned_articles": [
+      "Art. 10"
+    ],
+    "confidence": "high",
+    "reasoning": "«… wird nach Artikel 10 EmbG bestraft» verweist ausdrücklich auf das EmbG; EmbG ist SR 946.231, daher ist Art. 10 dieser SR gemeint."
+  },
+  {
+    "ITEM": 11,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": "SR 946.231",
+    "assigned_articles": [
+      "Art. 9",
+      "Art. 10"
+    ],
+    "confidence": "high",
+    "reasoning": "«Verstösse nach den Artikeln 9 und 10 EmbG» nennt beide Artikel des EmbG; EmbG ist SR 946.231, somit sind Art. 9 und 10 dieser SR betroffen."
+  }
+]

@@ -1,0 +1,32 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 412.106",
+    "assigned_articles": [
+      "Art. 31 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Formulierung «gestützt auf Artikel 31 Absatz 2 des EHB-Gesetzes … SR 412.106» verknüpft den genannten Artikel grammatikalisch eindeutig mit dem zitierten SR-Dokument; damit ist klar, dass Art. 31 Abs. 2 des SR 412.106 gemeint ist."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 31 Abs. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "«… richtet sich die Massnahme nach Artikel 31 Absatz 3 des EHB-Gesetzes.» bezieht sich auf das EHB-Gesetz (SR 412.106), das bereits in der Präambel explizit mit dieser Bezeichnung verknüpft wurde; damit ist dies eine Verweisung auf Art. 31 Abs. 3 SR 412.106. Da item_type = artikel_reference ist, wird dies als SR-Link (Selbstreferenz auf das zitierte Gesetz) erfasst."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_8",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 2 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "«… insbesondere bei Verstössen nach Artikel 2 Absatz 1.» enthält keinen Gesetzesnamen oder SR-Hinweis und steht im Kontext der Verordnung selbst; dies ist daher eine interne Selbstverweisung auf Art. 2 Abs. 1 derselben Verordnung, nicht auf ein anderes SR-Dokument."
+  }
+]

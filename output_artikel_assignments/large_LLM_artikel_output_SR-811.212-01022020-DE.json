@@ -1,0 +1,74 @@
+[
+  {
+    "Item": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 811.21",
+    "assigned_articles": [
+      "Art. 5",
+      "Art. 32"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Formulierung «gestützt auf die Artikel 5 und 32 des Gesundheitsberufegesetzes … SR 811.21 (GesBG)» verknüpft die Artikel 5 und 32 syntaktisch eindeutig mit dem GesBG (SR 811.21)."
+  },
+  {
+    "Item": 2,
+    "ARTICLE_EID": "art_9",
+    "TARGET_SR": "SR 414.20",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "Es wird nur das Hochschulförderungs- und -koordinationsgesetz SR 414.20 als Ganzes genannt, ohne konkrete Artikelangabe; daher handelt es sich um eine generelle Verweisung auf das gesamte Gesetz."
+  },
+  {
+    "Item": 3,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 811.21",
+    "assigned_articles": [
+      "Art. 2 Abs. 2 Bst. a",
+      "Art. 7 Bst. c"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Snippet werden ausdrücklich «Artikel 2 Absatz 2 Buchstabe a GesBG» und «Artikel 7 Buchstabe c GesBG» genannt; GesBG ist in der Präambel als SR 811.21 definiert."
+  },
+  {
+    "Item": 4,
+    "ARTICLE_EID": "art_9",
+    "TARGET_SR": "SR 811.21",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "medium",
+    "reasoning": "Die Wendung «Gesundheitsberufe nach GesBG» verweist allgemein auf die im GesBG geregelten Gesundheitsberufe, ohne konkrete Artikelangabe; daher als generelle Verweisung gewertet."
+  },
+  {
+    "Item": 5,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«… nach Artikel 2 Absatz 2 Buchstabe a GesBG» ist eine Wiederholung der bereits bei Item 3 erfassten externen Verweisung auf SR 811.21; hier als artikel_reference ohne TARGET_SR handelt es sich funktional um eine interne Querverweisung im selben Kontext und wird nicht erneut als SR-Link zugeordnet."
+  },
+  {
+    "Item": 6,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«… zur Konkretisierung von Artikel 7 Buchstabe c GesBG» wiederholt die bereits bei Item 3 erfasste externe Verweisung; als artikel_reference ohne eigenen SR-Kontext ist dies eine interne Querverweisung und wird nicht zusätzlich einem TARGET_SR zugeordnet."
+  },
+  {
+    "Item": 7,
+    "ARTICLE_EID": "art_10",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Formulierung «die in den Artikeln 2–8 aufgeführten Kompetenzen» verweist klar auf Artikel derselben Verordnung (Art. 2–8 dieser SR 811.212), ohne Bezug zu einem externen SR-Dokument; daher reine Selbstreferenz."
+  }
+]

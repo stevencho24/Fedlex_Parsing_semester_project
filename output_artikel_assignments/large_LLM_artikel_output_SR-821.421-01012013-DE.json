@@ -1,0 +1,84 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 821.42",
+    "assigned_articles": [
+      "Art. 7 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Formulierung «gestützt auf Artikel 7 Absatz 2 des Bundesgesetzes … SR 821.42» verknüpft den genannten Artikel syntaktisch eindeutig mit SR 821.42."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_6",
+    "TARGET_SR": "SR 173.110",
+    "assigned_articles": [
+      "Art. 34",
+      "Art. 35",
+      "Art. 36"
+    ],
+    "confidence": "high",
+    "reasoning": "«Die Artikel 34–36 des Bundesgerichtsgesetzes … SR 173.110 sind sinngemäss anwendbar.» Der Artikelsbereich 34–36 wird ausdrücklich diesem Gesetz zugeordnet."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«Artikel 5 Absatz 2 des Gesetzes» verweist ohne Nennung einer SR-Nummer auf das im Dokument definierte Gesetz; dies ist eine Selbstreferenz innerhalb desselben Erlasses."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«Artikel 1 Absatz 2 des Gesetzes» steht ohne Bezug zu einer externen SR-Nummer und bezeichnet Bestimmungen des eigenen Gesetzes; damit interne Selbstreferenz."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_6",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "In dieser artikel_reference-Fassung wird nur «Artikel 34–36 des Bundesgerichtsgesetzes» ohne explizite SR-Nummer erwähnt; die eindeutige Zuordnung zu SR 173.110 erfolgt bereits im separaten SR_link_detection-Item 2. Dieses Vorkommen dient hier als interner Verweis und wird nicht erneut einer TARGET_SR zugeordnet."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_13",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«Artikel 1 Absatz 2 des Gesetzes» verweist auf eine Bestimmung desselben Gesetzes ohne externe SR-Angabe; daher Selbstreferenz."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_14",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«die Artikel 10, 11 Absatz 2, 12 und 13» werden ohne Gesetzes- oder SR-Bezeichnung genannt und beziehen sich auf Artikel der vorliegenden Verordnung bzw. des zugrunde liegenden Gesetzes; klar interne Querverweise."
+  },
+  {
+    "ITEM": 8,
+    "ARTICLE_EID": "art_15",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "medium",
+    "reasoning": "«Artikel 116bis der Verordnung des Bundesrates vom 3. Oktober 1919 über den Vollzug des Bundesgesetzes betreffend die Arbeit in den Fabriken» nennt zwar einen konkreten Artikel, aber keine SR-Nummer; als artikel_reference-Item ohne TARGET_SR wird dies als Verweis auf einen anderen Erlass ohne explizite SR-Zuordnung behandelt. Mangels SR-Kontext wird kein spezifischer SR-Artikel zugeordnet."
+  }
+]

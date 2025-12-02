@@ -1,0 +1,32 @@
+[
+  {
+    "Item": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 832.10",
+    "assigned_articles": [
+      "Art. 61 Abs. 2bis"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet explicitly cites 'Artikel 61 Absatz 2bis des Bundesgesetzes ... SR 832.10 über die Krankenversicherung (KVG)'; this article is grammatically and semantically linked to SR 832.10."
+  },
+  {
+    "Item": 2,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": "SR 832.10",
+    "assigned_articles": [
+      "Art. 61 Abs. 2bis"
+    ],
+    "confidence": "high",
+    "reasoning": "The text refers to 'gemäss Artikel 61 Absatz 2bis KVG'; KVG is defined in the preamble as SR 832.10, so Art. 61 Abs. 2bis clearly belongs to SR 832.10."
+  },
+  {
+    "Item": 3,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": "SR 832.10",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet only mentions 'Die Verordnung des EDI ... über die Prämienregionen' with an SR 832.10 link via the preamble acronym EDI, but no specific article of SR 832.10 is cited; this is a general reference to the underlying act."
+  }
+]

@@ -1,0 +1,82 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 818.101.1",
+    "assigned_articles": [
+      "Art. 19"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet explicitly cites 'Artikel 19 der Epidemienverordnung ... SR 818.101.1 (EpV)'; Art. 19 is directly and syntactically linked to the cited SR."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_6",
+    "TARGET_SR": "SR 0.818.103",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "The citation refers to the International Health Regulations (2005) as a whole ('Anlage 2 der Internationalen Gesundheitsvorschriften (2005) ... SR 0.818.103 (IGV)') without mentioning any specific article; thus it is a general reference."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": "SR 818.101.1",
+    "assigned_articles": [
+      "Art. 12 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet states '(Art. 12 Abs. 2 EpV)'; EpV is mapped in the preamble to SR 818.101.1, so this clearly refers to Art. 12 Abs. 2 of SR 818.101.1."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_5_a",
+    "TARGET_SR": "SR 818.101.1",
+    "assigned_articles": [
+      "Art. 12 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Identical wording to ITEM 3: '(Art. 12 Abs. 2 EpV)'; EpV corresponds to SR 818.101.1, so the reference is to Art. 12 Abs. 2 of that SR."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_17",
+    "TARGET_SR": "SR 818.101.1",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "medium",
+    "reasoning": "The snippet only mentions 'Die Verordnung des EDI vom 13. Januar 1999 über Arzt- und Labormeldungen wird aufgehoben.' with an SR link to SR 818.101.1 via the preamble acronym EDI, but no article number is given; treated as a general reference to that SR."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet '... (Art. 12 Abs. 2 EpV);' is already captured and assigned to SR 818.101.1 in ITEMS 3 and 4. As an artikel_reference without explicit SR, it functions here as an internal/self-reference context and does not create a new SR link."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "The phrase '... die Angaben nach Artikel 2 Absätze 2 und 3 übermitteln.' clearly refers to another article (Art. 2) within the same ordinance; no external SR is mentioned, so this is an internal self-reference."
+  },
+  {
+    "ITEM": 8,
+    "ARTICLE_EID": "art_5_a",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "Same text as ITEM 6 and already linked to SR 818.101.1 via preamble_acronym items; as an artikel_reference without its own SR context, it is treated as an internal/self-reference rather than a new SR link."
+  }
+]

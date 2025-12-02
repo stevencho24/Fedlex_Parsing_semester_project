@@ -1,0 +1,84 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 0.916.111.311",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet in the preamble merely notes that the earlier agreement is now superseded by the Internationales Getreide-Abkommen von 1995 (SR 0.916.111.311). No specific article numbers of SR 0.916.111.311 are mentioned or grammatically linked; it is a general reference to the agreement as a whole."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 0.916.111.311",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "Within Art. 1 the authorial note again states that the former Weizenabkommen is now the Internationales Getreide-Abkommen von 1995 (SR 0.916.111.311). The only explicit article reference in the sentence is to Artikel 24 of a different Verordnung (SR 974.01). There is no syntactic or semantic link between any article number and SR 0.916.111.311, so this is a general document-level reference."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 974.01",
+    "assigned_articles": [
+      "Art. 24"
+    ],
+    "confidence": "high",
+    "reasoning": "The sentence reads: \"... IKEH) gemäss Artikel 24 der Verordnung vom 12. Dezember 1977 SR 974.01 über die internationale Entwicklungszusammenarbeit ...\". The preposition \"gemäss\" governs \"Artikel 24\" and the apposition \"der Verordnung ... SR 974.01\" clearly identifies that Art. 24 belongs to SR 974.01."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 170.512.1",
+    "assigned_articles": [
+      "Art. 16 Abs. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "The authorial note states: \"in Anwendung von Art. 16 Abs. 3 der Publikationsverordnung vom 17. Nov. 2004 (SR 170.512.1)\". The article designation \"Art. 16 Abs. 3\" is directly followed by the title and SR number of the Publikationsverordnung, so Art. 16 Abs. 3 clearly belongs to SR 170.512.1."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 170.512.1",
+    "assigned_articles": [
+      "Art. 16 Abs. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "The note is parallel to Item 4: \"in Anwendung von Art. 16 Abs. 3 der Publikationsverordnung vom 17. Nov. 2004 (SR 170.512.1)\". Again, \"Art. 16 Abs. 3\" is explicitly tied to the Publikationsverordnung identified as SR 170.512.1."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": "SR 974.01",
+    "assigned_articles": [
+      "Art. 16 Abs. 2",
+      "Anhang 2"
+    ],
+    "confidence": "high",
+    "reasoning": "The text says: \"Die Finanzkompetenzen richten sich nach Artikel 16 Absatz 2 und Anhang 2 der Verordnung vom 12. Dezember 1977 SR 974.01 ...\". The preposition \"nach\" governs both \"Artikel 16 Absatz 2\" and \"Anhang 2\", and these are followed in the same noun phrase by the identification of the Verordnung as SR 974.01. Thus Art. 16 Abs. 2 and Annex 2 of SR 974.01 are clearly referenced."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 24"
+    ],
+    "confidence": "high",
+    "reasoning": "This artikel_reference snippet repeats the sentence from Art. 1: \"... IKEH) gemäss Artikel 24 der Verordnung vom 12. Dezember 1977 über die internationale Entwicklungszusammenarbeit ...\". From Item 3 we know this is Art. 24 of SR 974.01. As an artikel_reference item it represents a cross-reference to another legal act, not a self-reference within the current SR; therefore it is recorded here as an external article reference without assigning it to a TARGET_SR in this item."
+  },
+  {
+    "ITEM": 8,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 16 Abs. 2",
+      "Anhang 2"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet: \"Die Finanzkompetenzen richten sich nach Artikel 16 Absatz 2 und Anhang 2 der Verordnung vom 12. Dezember 1977 über die internationale Entwicklungszusammenarbeit ...\" mirrors Item 6. These are references to Art. 16 Abs. 2 and Annex 2 of SR 974.01. As an artikel_reference item, it captures this external cross-reference; no self-reference within the current document is indicated."
+  }
+]

@@ -1,0 +1,32 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 830.2",
+    "assigned_articles": [
+      "Art. 13 Abs. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Formulierung \"gestützt auf Artikel 13 Absatz 3 des Ausgleichsfondsgesetzes ... SR 830.2\" verknüpft den genannten Artikel eindeutig mit SR 830.2."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 831.10",
+    "assigned_articles": [
+      "Art. 71 Abs. 1bis"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Snippet steht \"nach Artikel 71 Absatz 1bis des Bundesgesetzes ... SR 831.10 über die Alters- und Hinterlassenenversicherung\"; damit ist klar, dass Art. 71 Abs. 1bis zum Gesetz SR 831.10 gehört."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Interne Verweisung innerhalb des aktuellen Dokuments (Art. 71 Abs. 1bis eines externen Gesetzes wird erwähnt, aber ohne explizite SR-Zuordnung in diesem Item-Typ)"
+    ],
+    "confidence": "medium",
+    "reasoning": "Dieses artikel_reference-Item wiederholt inhaltlich die Passage aus ITEM 2, verweist aber ohne explizite SR-Angabe auf \"Artikel 71 Absatz 1bis\". Da die SR-Zuordnung bereits im SR_link_detection-Item 2 erfolgt ist und hier kein neues, eigenständiges SR-Zitat vorliegt, wird dies als interne/kontextuelle Wiederholung gewertet und nicht als neue SR-Verknüpfung ausgegeben."
+  }
+]

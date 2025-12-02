@@ -1,0 +1,22 @@
+[
+  {
+    "Item": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 442.1",
+    "assigned_articles": [
+      "Art. 28 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet explicitly states: 'gestützt auf Artikel 28 Absatz 1 des Kulturförderungsgesetzes ... SR 442.1 (KFG)'; this directly links Art. 28 Abs. 1 to SR 442.1."
+  },
+  {
+    "Item": 2,
+    "ARTICLE_EID": "art_13",
+    "TARGET_SR": "SR 442.1",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "low",
+    "reasoning": "The snippet mentions the 'Verordnung des EDI ...' being repealed but contains no article citation or other syntactic link to specific provisions of SR 442.1; via the preamble acronym EDI it only indicates a general institutional reference, so this is treated as a general reference to the document."
+  }
+]

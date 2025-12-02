@@ -1,0 +1,57 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 172.010",
+    "assigned_articles": [
+      "Art. 43 Abs. 2",
+      "Art. 47 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Satz nennt ausdrücklich «die Artikel 43 Absatz 2 und 47 Absatz 2 des Regierungs- und Verwaltungsorganisationsgesetzes … SR 172.010»; beide Artikel sind damit klar diesem SR zugeordnet."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 441.1",
+    "assigned_articles": "General reference - entire document",
+    "confidence": "high",
+    "reasoning": "Das Sprachengesetz (SR 441.1) wird ohne konkrete Artikelangabe («in Ausführung des Sprachengesetzes … SR 441.1») zitiert; es handelt sich um eine generelle gesetzliche Grundlage ohne Bezug zu bestimmten Artikeln."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": "SR 441.11",
+    "assigned_articles": [
+      "Art. 2 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Satz steht «Weisungen nach Artikel 2 Absatz 2 der Sprachenverordnung … SR 441.11»; der Artikel wird direkt mit der Sprachenverordnung (SR 441.11) verknüpft."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_13",
+    "TARGET_SR": "SR 441.11",
+    "assigned_articles": [
+      "Art. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Text lautet «richtet sich nach Artikel 3 der Sprachenverordnung … SR 441.11»; Art. 3 ist damit eindeutig dieser Verordnung zugeordnet."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Dies ist eine artikel_reference ohne explizite SR-Nennung; «Artikel 2 Absatz 2 der Sprachenverordnung vom 4. Juni 2010» entspricht inhaltlich bereits der Zuweisung in ITEM 3 zu SR 441.11 und stellt hier nur eine Wiederholung derselben externen Verweisstruktur dar, keine zusätzliche selbständige SR-Verknüpfung."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_13",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Als artikel_reference ohne SR-Angabe wiederholt der Satz («Artikel 3 der Sprachenverordnung vom 4. Juni 2010») lediglich den bereits in ITEM 4 zu SR 441.11 zugeordneten Verweis; es liegt keine neue, eigenständige SR-Zuordnung vor."
+  }
+]

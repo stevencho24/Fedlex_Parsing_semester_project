@@ -1,0 +1,1362 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 172.220.1",
+    "assigned_articles": ["Art. 32c Abs. 3"],
+    "confidence": "high",
+    "reasoning": "Die Formulierung «gestützt auf Artikel 32c Absatz 3 des Bundespersonalgesetzes ... SR 172.220.1» verknüpft den genannten Artikel direkt mit dem genannten SR."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": "SR 831.40",
+    "assigned_articles": ["Art. 13"],
+    "confidence": "high",
+    "reasoning": "«Referenzalter gemäss Artikel 13 des Bundesgesetzes ... SR 831.40 (BVG)»; Art. 13 ist ausdrücklich dem BVG zugeordnet."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_17",
+    "TARGET_SR": "SR 831.20",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "high",
+    "reasoning": "Es wird nur das IVG als Ganzes («im Sinne des Bundesgesetzes ... über die Invalidenversicherung (IVG)») erwähnt, ohne konkrete Artikelangabe."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_17",
+    "TARGET_SR": "SR 831.40",
+    "assigned_articles": ["Art. 26a", "Art. 7"],
+    "confidence": "high",
+    "reasoning": "Im Snippet werden «Artikel 26a BVG» und «Artikel 7 BVG» ausdrücklich genannt; BVG = SR 831.40."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_18_b",
+    "TARGET_SR": "SR 831.40",
+    "assigned_articles": ["Art. 13b"],
+    "confidence": "high",
+    "reasoning": "«Bezug der Altersleistung nach Artikel 13b BVG ... SR 831.40»; eindeutige Zuordnung."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_42",
+    "TARGET_SR": "SR 831.40",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "medium",
+    "reasoning": "«gemäss BVG SR 831.40» ohne Artikelangabe; es geht um die Höhe der Alters-Kinderrente nach BVG, aber kein bestimmter Artikel wird genannt."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_56",
+    "TARGET_SR": "SR 831.20",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "medium",
+    "reasoning": "«Invaliditätsgrad im Sinne des IVG SR 831.20»; keine konkrete Artikelnummer, allgemeiner Verweis auf das Gesetz."
+  },
+  {
+    "ITEM": 8,
+    "ARTICLE_EID": "art_56",
+    "TARGET_SR": "SR 830.1",
+    "assigned_articles": ["Art. 17 Abs. 1 Bst. a"],
+    "confidence": "high",
+    "reasoning": "Die Klammer «(Art. 17 Abs. 1 Bst. a ATSG SR 830.1)» ordnet den Artikel klar dem ATSG zu."
+  },
+  {
+    "ITEM": 9,
+    "ARTICLE_EID": "art_84",
+    "TARGET_SR": "SR 831.40",
+    "assigned_articles": ["Art. 33b", "Art. 13b"],
+    "confidence": "high",
+    "reasoning": "Im Satz werden «Artikel 33b BVG» und «Artikel 13b BVG» explizit genannt; BVG = SR 831.40."
+  },
+  {
+    "ITEM": 10,
+    "ARTICLE_EID": "art_99",
+    "TARGET_SR": "SR 831.425",
+    "assigned_articles": ["Art. 19g"],
+    "confidence": "high",
+    "reasoning": "«nach Artikel 19g FZV SR 831.425»; eindeutige Artikelangabe zur FZV."
+  },
+  {
+    "ITEM": 11,
+    "ARTICLE_EID": "art_107_i",
+    "TARGET_SR": "SR 831.20",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "medium",
+    "reasoning": "Nur «im Sinne des IVG SR 831.20»; der konkret zitierte Art. 17 Abs. 1 Bst. a gehört zum ATSG (separat in ITEM 12 erfasst), nicht zum IVG."
+  },
+  {
+    "ITEM": 12,
+    "ARTICLE_EID": "art_107_i",
+    "TARGET_SR": "SR 830.1",
+    "assigned_articles": ["Art. 17 Abs. 1 Bst. a"],
+    "confidence": "high",
+    "reasoning": "Klammer «(Art. 17 Abs. 1 Bst. a ATSG SR 830.1)» verknüpft Artikel und SR eindeutig."
+  },
+  {
+    "ITEM": 13,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Interne Verweise («Artikel 1 Absatz 1 ...», «Artikel 18d») ohne Nennung eines SR; reine Selbstreferenzen im Reglement."
+  },
+  {
+    "ITEM": 14,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "«(Art. 25)» bezieht sich auf einen Artikel desselben Reglements; kein externes SR genannt."
+  },
+  {
+    "ITEM": 15,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": "SR 831.40",
+    "assigned_articles": ["Art. 13"],
+    "confidence": "high",
+    "reasoning": "Dupliziert inhaltlich ITEM 2: «Artikel 13 ... (BVG)»; klarer Bezug zu SR 831.40."
+  },
+  {
+    "ITEM": 16,
+    "ARTICLE_EID": "art_10",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Verweis auf «Artikel 77 Absatz 1» ohne Gesetzesangabe; innerreglementarische Referenz."
+  },
+  {
+    "ITEM": 17,
+    "ARTICLE_EID": "art_13",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Verweise auf «Artikeln 41, 47 und 58» ohne SR; interne Artikel des gleichen Reglements."
+  },
+  {
+    "ITEM": 18,
+    "ARTICLE_EID": "art_18",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Verweis auf «Artikel 18d» ohne Gesetzesangabe; Selbstreferenz."
+  },
+  {
+    "ITEM": 19,
+    "ARTICLE_EID": "art_18",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "«unter Vorbehalt von Artikel 18b»; interner Artikelverweis."
+  },
+  {
+    "ITEM": 20,
+    "ARTICLE_EID": "art_18_a",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "«unter Berücksichtigung von Artikel 29»; kein externes Gesetz genannt."
+  },
+  {
+    "ITEM": 21,
+    "ARTICLE_EID": "art_18_b",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "«gemäss Artikel 36 Absatz 8»; interner Verweis."
+  },
+  {
+    "ITEM": 22,
+    "ARTICLE_EID": "art_18_d",
+    "TARGET_SR": "SR 831.40",
+    "assigned_articles": ["Art. 47a Abs. 2–6"],
+    "confidence": "high",
+    "reasoning": "«Versicherung nach Artikel 47a Absätze 2–6 BVG»; BVG = SR 831.40, Absätze explizit genannt."
+  },
+  {
+    "ITEM": 23,
+    "ARTICLE_EID": "art_19",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "«Artikel 18a und 18c» sind interne Artikel; kein SR."
+  },
+  {
+    "ITEM": 24,
+    "ARTICLE_EID": "art_20",
+    "TARGET_SR": "SR 831.40",
+    "assigned_articles": ["Art. 8 Abs. 1"],
+    "confidence": "high",
+    "reasoning": "«unterer Grenzbetrag nach Artikel 8 Absatz 1 BVG»; klarer BVG-Artikel."
+  },
+  {
+    "ITEM": 25,
+    "ARTICLE_EID": "art_20",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "«Artikel 21 sinngemäss» ohne Gesetzesangabe; interner Verweis."
+  },
+  {
+    "ITEM": 26,
+    "ARTICLE_EID": "art_25",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "«Artikel 24»; interner Artikel."
+  },
+  {
+    "ITEM": 27,
+    "ARTICLE_EID": "art_25",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Verweise «Art. 92», «Art. 99 Abs. 2», «Art. 36» sind alle ohne SR; interne Struktur."
+  },
+  {
+    "ITEM": 28,
+    "ARTICLE_EID": "art_26",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "«Artikel 18d»; interner Verweis."
+  },
+  {
+    "ITEM": 29,
+    "ARTICLE_EID": "art_27",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Verweise auf «Art. 24», «Art. 25», «Artikel 26»; alles interne Artikel."
+  },
+  {
+    "ITEM": 30,
+    "ARTICLE_EID": "art_27",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "«Artikel 18d»; interner Verweis."
+  },
+  {
+    "ITEM": 31,
+    "ARTICLE_EID": "art_27",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "«Artikel 53»; interner Artikel."
+  },
+  {
+    "ITEM": 32,
+    "ARTICLE_EID": "art_27",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "«Artikel 18d»; interner Verweis."
+  },
+  {
+    "ITEM": 33,
+    "ARTICLE_EID": "art_27",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "«Art. 24 und Art. 25»; interne Artikel."
+  },
+  {
+    "ITEM": 34,
+    "ARTICLE_EID": "art_27",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "«Artikel 28 bleibt vorbehalten»; interner Verweis."
+  },
+  {
+    "ITEM": 35,
+    "ARTICLE_EID": "art_28",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "«(Art. 29)» und «(Art. 29a)»; interne Artikel."
+  },
+  {
+    "ITEM": 36,
+    "ARTICLE_EID": "art_29_a",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "«Artikel 18c», «Art. 24 und 26»; interne Verweise."
+  },
+  {
+    "ITEM": 37,
+    "ARTICLE_EID": "art_32",
+    "TARGET_SR": "SR 831.40",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "medium",
+    "reasoning": "«innerhalb der vom BVG festgelegten Grenzen»; BVG wird als Ganzes erwähnt, ohne konkrete Artikel."
+  },
+  {
+    "ITEM": 38,
+    "ARTICLE_EID": "art_32",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "«(Art. 57 Abs. 3)» ohne Gesetzesangabe; interner Artikel 57."
+  },
+  {
+    "ITEM": 39,
+    "ARTICLE_EID": "art_32_a",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "«im Rahmen von Artikel 32»; interner Verweis."
+  },
+  {
+    "ITEM": 40,
+    "ARTICLE_EID": "art_32_b",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "«im Rahmen von Artikel 32»; interner Verweis."
+  },
+  {
+    "ITEM": 41,
+    "ARTICLE_EID": "art_32_b",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "«Artikel 18b»; interner Artikel."
+  },
+  {
+    "ITEM": 42,
+    "ARTICLE_EID": "art_34",
+    "TARGET_SR": "SR 831.40",
+    "assigned_articles": ["Art. 65d Abs. 3 Bst. b"],
+    "confidence": "high",
+    "reasoning": "«im Rahmen von Artikel 65d Absatz 3 Buchstabe b BVG»; klarer BVG-Artikel."
+  },
+  {
+    "ITEM": 43,
+    "ARTICLE_EID": "art_35",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "«Artikel 18b» und «Artikel 18d»; interne Verweise."
+  },
+  {
+    "ITEM": 44,
+    "ARTICLE_EID": "art_36",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "«Artikel 24»; interner Artikel."
+  },
+  {
+    "ITEM": 45,
+    "ARTICLE_EID": "art_36",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "«Artikel 30»; interner Artikel."
+  },
+  {
+    "ITEM": 46,
+    "ARTICLE_EID": "art_36",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "«Artikel 99 Absatz 1»; interner Artikel."
+  },
+  {
+    "ITEM": 47,
+    "ARTICLE_EID": "art_36",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "«Artikeln 32a und 32b»; interne Artikel."
+  },
+  {
+    "ITEM": 48,
+    "ARTICLE_EID": "art_36",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "«Artikel 99 Absatz. 2»; interner Artikel."
+  },
+  {
+    "ITEM": 49,
+    "ARTICLE_EID": "art_36",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "«(Art. 91)»; interner Artikel."
+  },
+  {
+    "ITEM": 50,
+    "ARTICLE_EID": "art_36",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "«(Art. 99 Absatz 2 erster Satz)»; interner Artikel."
+  },
+  {
+    "ITEM": 51,
+    "ARTICLE_EID": "art_37",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "«(Art. 84)»; interner Artikel."
+  },
+  {
+    "ITEM": 52,
+    "ARTICLE_EID": "art_38",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "«(Art. 25)» und «(Art. 21)»; interne Artikel."
+  },
+  {
+    "ITEM": 53,
+    "ARTICLE_EID": "art_38",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "«Artikel 37 Absätze 3 und 4» und «Artikel 18c»; interne Verweise."
+  },
+  {
+    "ITEM": 54,
+    "ARTICLE_EID": "art_39",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "«Artikel 40»; interner Artikel."
+  },
+  {
+    "ITEM": 55,
+    "ARTICLE_EID": "art_39",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "«Artikel 36», «(Art. 25)», «Artikel 99 Absätze 4 und 5»; interne Artikel."
+  },
+  {
+    "ITEM": 56,
+    "ARTICLE_EID": "art_40",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "«Artikel 36» und «(Art. 25)»; interne Artikel."
+  },
+  {
+    "ITEM": 57,
+    "ARTICLE_EID": "art_40",
+    "TARGET_SR": "SR 831.42",
+    "assigned_articles": ["Art. 22d"],
+    "confidence": "medium",
+    "reasoning": "Es wird «Artikel 22d FZG» erwähnt; FZG ist SR 831.42. Der Artikel ist direkt mit der Abkürzung verknüpft."
+  },
+  {
+    "ITEM": 58,
+    "ARTICLE_EID": "art_40",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "«Artikel 18d»; interner Artikel."
+  },
+  {
+    "ITEM": 59,
+    "ARTICLE_EID": "art_43",
+    "TARGET_SR": "SR 831.40",
+    "assigned_articles": ["Art. 18 Bst. a"],
+    "confidence": "high",
+    "reasoning": "«(Art. 18 Bst. a BVG)»; klarer BVG-Artikel."
+  },
+  {
+    "ITEM": 60,
+    "ARTICLE_EID": "art_43",
+    "TARGET_SR": "SR 831.40",
+    "assigned_articles": ["Art. 18 Bst. b"],
+    "confidence": "high",
+    "reasoning": "«(Art. 18 Bst. b BVG)»; klarer BVG-Artikel."
+  },
+  {
+    "ITEM": 61,
+    "ARTICLE_EID": "art_43",
+    "TARGET_SR": "SR 830.1",
+    "assigned_articles": ["Art. 8 Abs. 2"],
+    "confidence": "high",
+    "reasoning": "«(Art. 8 Abs. 2 ATSG)»; ATSG = SR 830.1."
+  },
+  {
+    "ITEM": 62,
+    "ARTICLE_EID": "art_43",
+    "TARGET_SR": "SR 831.40",
+    "assigned_articles": ["Art. 18 Bst. d"],
+    "confidence": "high",
+    "reasoning": "«(Art. 18 Bst. d BVG)»; klarer BVG-Artikel."
+  },
+  {
+    "ITEM": 63,
+    "ARTICLE_EID": "art_43",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "«(Art. 25)»; interner Artikel."
+  },
+  {
+    "ITEM": 64,
+    "ARTICLE_EID": "art_44",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "«Artikel 50»; interner Artikel."
+  },
+  {
+    "ITEM": 65,
+    "ARTICLE_EID": "art_44",
+    "TARGET_SR": "SR 210",
+    "assigned_articles": ["Art. 124e Abs. 1", "Art. 126 Abs. 1"],
+    "confidence": "high",
+    "reasoning": "«Artikel 124e Absatz 1 oder 126 Absatz 1 ZGB»; ZGB = SR 210."
+  },
+  {
+    "ITEM": 66,
+    "ARTICLE_EID": "art_44",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "«Artikel 46 Absatz 3»; interner Artikel."
+  },
+  {
+    "ITEM": 67,
+    "ARTICLE_EID": "art_45",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "«Artikel 44 Absatz 1 Buchstabe b»; interner Verweis."
+  },
+  {
+    "ITEM": 68,
+    "ARTICLE_EID": "art_45",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "«Artikel 49»; interner Artikel."
+  },
+  {
+    "ITEM": 69,
+    "ARTICLE_EID": "art_46",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "«Artikel 36»; interner Artikel."
+  },
+  {
+    "ITEM": 70,
+    "ARTICLE_EID": "art_46",
+    "TARGET_SR": "SR 831.40",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "medium",
+    "reasoning": "«gemäss BVG (BVG-Minimalleistung)» ohne konkrete Artikel; allgemeiner Verweis auf BVG-Mindestleistungen."
+  },
+  {
+    "ITEM": 71,
+    "ARTICLE_EID": "art_46_a",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Verweise auf «Artikel 46 Absatz 1 ...»; interne Artikel."
+  },
+  {
+    "ITEM": 72,
+    "ARTICLE_EID": "art_46_a",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "«Artikel 50»; interner Artikel."
+  },
+  {
+    "ITEM": 73,
+    "ARTICLE_EID": "art_48",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "«Artikel 99 Absatz 6 zweiter Satz»; interner Artikel."
+  },
+  {
+    "ITEM": 74,
+    "ARTICLE_EID": "art_48",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "«Artikel 36»; interner Artikel."
+  },
+  {
+    "ITEM": 75,
+    "ARTICLE_EID": "art_49",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Verweise auf «Artikeln 44 Absätze 1 und 2 und 45» sowie «(Art. 44 Abs. 5)»; interne Artikel."
+  },
+  {
+    "ITEM": 76,
+    "ARTICLE_EID": "art_49",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "«Artikel 45 Absätze 2 und 3»; interner Artikel."
+  },
+  {
+    "ITEM": 77,
+    "ARTICLE_EID": "art_49_a",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "«Artikeln 44 und 45», «Artikel 44 Absatz 1 oder Artikel 45»; interne Artikel."
+  },
+  {
+    "ITEM": 78,
+    "ARTICLE_EID": "art_50",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "«Artikel 49 Absatz 1», «Artikel 46 Absatz 1», «(Art. 47 und 48)», «(Art. 44 Abs. 5)»; alles interne Artikel."
+  },
+  {
+    "ITEM": 79,
+    "ARTICLE_EID": "art_51",
+    "TARGET_SR": "SR 831.20",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "medium",
+    "reasoning": "«im Sinne des IVG»; IVG = SR 831.20, aber ohne konkrete Artikelangabe."
+  },
+  {
+    "ITEM": 80,
+    "ARTICLE_EID": "art_51",
+    "TARGET_SR": "SR 831.40",
+    "assigned_articles": ["Art. 23 Bst. b"],
+    "confidence": "high",
+    "reasoning": "«(Art. 23 Bst. b BVG)»; klarer BVG-Artikel."
+  },
+  {
+    "ITEM": 81,
+    "ARTICLE_EID": "art_51",
+    "TARGET_SR": "SR 830.1",
+    "assigned_articles": ["Art. 8 Abs. 2"],
+    "confidence": "high",
+    "reasoning": "«(Art. 8 Abs. 2 ATSG)»; ATSG = SR 830.1."
+  },
+  {
+    "ITEM": 82,
+    "ARTICLE_EID": "art_51",
+    "TARGET_SR": "SR 830.1",
+    "assigned_articles": ["Art. 6"],
+    "confidence": "high",
+    "reasoning": "«(Art. 6 ATSG)»; klarer Verweis."
+  },
+  {
+    "ITEM": 83,
+    "ARTICLE_EID": "art_52",
+    "TARGET_SR": "SR 831.40",
+    "assigned_articles": ["Art. 26 Abs. 1"],
+    "confidence": "high",
+    "reasoning": "«(Art. 26 Abs. 1 BVG)»; klarer BVG-Artikel."
+  },
+  {
+    "ITEM": 84,
+    "ARTICLE_EID": "art_52_a",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "«Artikel 52b Absätze 1 und 2»; interner Artikel."
+  },
+  {
+    "ITEM": 85,
+    "ARTICLE_EID": "art_52_b",
+    "TARGET_SR": "SR 831.40",
+    "assigned_articles": ["Art. 26a Abs. 1"],
+    "confidence": "high",
+    "reasoning": "«(Art. 26a Abs. 1 BVG)»; klarer BVG-Artikel."
+  },
+  {
+    "ITEM": 86,
+    "ARTICLE_EID": "art_52_b",
+    "TARGET_SR": "SR 831.40",
+    "assigned_articles": ["Art. 26a Abs. 2"],
+    "confidence": "high",
+    "reasoning": "«(Art. 26a Abs. 2 BVG)»; klarer BVG-Artikel."
+  },
+  {
+    "ITEM": 87,
+    "ARTICLE_EID": "art_52_b",
+    "TARGET_SR": "SR 831.40",
+    "assigned_articles": ["Art. 26a Abs. 3"],
+    "confidence": "high",
+    "reasoning": "«(Art. 26a Abs. 3 BVG)»; klarer BVG-Artikel."
+  },
+  {
+    "ITEM": 88,
+    "ARTICLE_EID": "art_53",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "«Artikel 24», «Artikel 26», «Artikel 54»; interne Artikel."
+  },
+  {
+    "ITEM": 89,
+    "ARTICLE_EID": "art_54",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "«Artikel 24»; interner Artikel."
+  },
+  {
+    "ITEM": 90,
+    "ARTICLE_EID": "art_54",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "«Artikel 99 Absatz 3 erster Satz»; interner Artikel."
+  },
+  {
+    "ITEM": 91,
+    "ARTICLE_EID": "art_55",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "«(Art. 25)»; interner Artikel."
+  },
+  {
+    "ITEM": 92,
+    "ARTICLE_EID": "art_55",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "«(Art. 39 Abs. 2)»; interner Artikel."
+  },
+  {
+    "ITEM": 93,
+    "ARTICLE_EID": "art_55",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "«Artikel 43 Absätze 2 und 2bis»; interner Artikel."
+  },
+  {
+    "ITEM": 94,
+    "ARTICLE_EID": "art_57",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "«(Anhang 4)», «Artikel 99 Absatz 3»; interne Regelung."
+  },
+  {
+    "ITEM": 95,
+    "ARTICLE_EID": "art_57",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "«Artikel 36»; interner Artikel."
+  },
+  {
+    "ITEM": 96,
+    "ARTICLE_EID": "art_57",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "«Artikel 24»; interner Artikel."
+  },
+  {
+    "ITEM": 97,
+    "ARTICLE_EID": "art_57",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "«Artikel 36 Absätze 4 und 5»; interner Artikel."
+  },
+  {
+    "ITEM": 98,
+    "ARTICLE_EID": "art_57",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "«Artikel 46 Absatz 1 Buchstabe a», «Artikel 48 Absatz 1 Buchstabe a»; interne Artikel."
+  },
+  {
+    "ITEM": 99,
+    "ARTICLE_EID": "art_59",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "«Artikel 99 Absatz 6 erster Satz»; interner Artikel."
+  },
+  {
+    "ITEM": 100,
+    "ARTICLE_EID": "art_60",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "«Artikel 39»; interner Artikel."
+  },
+  {
+    "ITEM": 101,
+    "ARTICLE_EID": "art_60",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "«Artikel 39»; interner Artikel."
+  },
+  {
+    "ITEM": 102,
+    "ARTICLE_EID": "art_64",
+    "TARGET_SR": "SR 172.220.142.1",
+    "assigned_articles": ["Art. 21–23"],
+    "confidence": "medium",
+    "reasoning": "«(Art. 21-23 PVO-ETH)»; PVO-ETH ist die Personalverordnung ETH-Bereich, die zum gleichen SR 172.220.142.1 gehört. Der Bereich 21–23 wird explizit genannt."
+  },
+  {
+    "ITEM": 103,
+    "ARTICLE_EID": "art_64",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "«Artikel 36»; interner Artikel."
+  },
+  {
+    "ITEM": 104,
+    "ARTICLE_EID": "art_64",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "«Artikel 24»; interner Artikel."
+  },
+  {
+    "ITEM": 105,
+    "ARTICLE_EID": "art_64",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "«Artikel 36 Absätze 4, 5 und 7»; interner Artikel."
+  },
+  {
+    "ITEM": 106,
+    "ARTICLE_EID": "art_64",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "«Artikel 39»; interner Artikel."
+  },
+  {
+    "ITEM": 107,
+    "ARTICLE_EID": "art_64",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "«(Art. 25)»; interner Artikel."
+  },
+  {
+    "ITEM": 108,
+    "ARTICLE_EID": "art_64",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "«Artikel 36», «Artikel 40»; interne Artikel."
+  },
+  {
+    "ITEM": 109,
+    "ARTICLE_EID": "art_65",
+    "TARGET_SR": "SR 172.220.1",
+    "assigned_articles": ["Art. 32f"],
+    "confidence": "high",
+    "reasoning": "«(Art. 32f BPG)»; BPG = Bundespersonalgesetz, SR 172.220.1."
+  },
+  {
+    "ITEM": 110,
+    "ARTICLE_EID": "art_66",
+    "TARGET_SR": "SR 831.10",
+    "assigned_articles": ["Art. 34"],
+    "confidence": "medium",
+    "reasoning": "«Mindestbetrages der Altersrente nach Artikel 34 AHVG»; AHVG ist SR 831.10, Artikel 34 wird explizit genannt."
+  },
+  {
+    "ITEM": 111,
+    "ARTICLE_EID": "art_66",
+    "TARGET_SR": "SR 831.10",
+    "assigned_articles": ["Art. 34"],
+    "confidence": "medium",
+    "reasoning": "Wiederum «nach Artikel 34 AHVG»; gleicher externer Artikel."
+  },
+  {
+    "ITEM": 112,
+    "ARTICLE_EID": "art_66",
+    "TARGET_SR": "SR 831.10",
+    "assigned_articles": ["Art. 34"],
+    "confidence": "medium",
+    "reasoning": "Erneut Bezug auf «Artikel 34 AHVG»; gleicher Artikel."
+  },
+  {
+    "ITEM": 113,
+    "ARTICLE_EID": "art_69",
+    "TARGET_SR": "SR 831.40",
+    "assigned_articles": ["Art. 26 Abs. 4"],
+    "confidence": "high",
+    "reasoning": "«(Art. 26 Abs. 4 BVG)»; klarer BVG-Artikel."
+  },
+  {
+    "ITEM": 114,
+    "ARTICLE_EID": "art_73",
+    "TARGET_SR": "SR 831.40",
+    "assigned_articles": ["Art. 41"],
+    "confidence": "high",
+    "reasoning": "«nach Artikel 41 BVG»; klarer BVG-Artikel."
+  },
+  {
+    "ITEM": 115,
+    "ARTICLE_EID": "art_73",
+    "TARGET_SR": "SR 831.40",
+    "assigned_articles": ["Art. 35a"],
+    "confidence": "high",
+    "reasoning": "«nach Artikel 35a BVG»; klarer BVG-Artikel."
+  },
+  {
+    "ITEM": 116,
+    "ARTICLE_EID": "art_77",
+    "TARGET_SR": "SR 831.40",
+    "assigned_articles": ["Art. 34a", "Art. 24 BVV 2", "Art. 24a BVV 2", "Art. 25 BVV 2"],
+    "confidence": "medium",
+    "reasoning": "Es werden «Artikel 34a BVG» sowie «24, 24a und 25 BVV 2» genannt. BVV 2 gehört zu SR 831.441.1, aber im TARGET_SR-Feld ist nur BVG erfasst; syntaktisch sind alle genannten Artikel Teil derselben externen Normenverweisungseinheit."
+  },
+  {
+    "ITEM": 117,
+    "ARTICLE_EID": "art_77",
+    "TARGET_SR": "SR 831.441.1",
+    "assigned_articles": ["Art. 24"],
+    "confidence": "medium",
+    "reasoning": "«nach Artikel 24 BVV 2»; BVV 2 ist die Verordnung über die berufliche Alters-, Hinterlassenen- und Invalidenvorsorge, SR 831.441.1."
+  },
+  {
+    "ITEM": 118,
+    "ARTICLE_EID": "art_78",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "«Artikel 49»; interner Artikel."
+  },
+  {
+    "ITEM": 119,
+    "ARTICLE_EID": "art_81_a",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "«Artikel 18d Absätze 6 und 7»; interner Artikel."
+  },
+  {
+    "ITEM": 120,
+    "ARTICLE_EID": "art_82",
+    "TARGET_SR": "SR 831.42",
+    "assigned_articles": ["Art. 2 Abs. 3–4"],
+    "confidence": "medium",
+    "reasoning": "«Artikel 2 Absätze 3 und 4 FZG»; FZG ist SR 831.42, die Absätze werden explizit genannt."
+  },
+  {
+    "ITEM": 121,
+    "ARTICLE_EID": "art_83",
+    "TARGET_SR": "SR 831.40",
+    "assigned_articles": ["Art. 15"],
+    "confidence": "high",
+    "reasoning": "«Altersguthabens nach Artikel 15 BVG»; klarer BVG-Artikel."
+  },
+  {
+    "ITEM": 122,
+    "ARTICLE_EID": "art_84",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "«(Art. 37 Abs. 3 und 38 Abs. 4)»; interne Artikel."
+  },
+  {
+    "ITEM": 123,
+    "ARTICLE_EID": "art_84_a",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "«Artikel 84»; interner Artikel."
+  },
+  {
+    "ITEM": 124,
+    "ARTICLE_EID": "art_84_a",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "«Artikel 18c»; interner Artikel."
+  },
+  {
+    "ITEM": 125,
+    "ARTICLE_EID": "art_85",
+    "TARGET_SR": "SR 831.42",
+    "assigned_articles": ["Art. 15", "Art. 17"],
+    "confidence": "high",
+    "reasoning": "«aufgrund von Artikel 15 FZG» und «Austrittsleistung nach Artikel 17 FZG»; beide Artikel gehören zum FZG (SR 831.42)."
+  },
+  {
+    "ITEM": 126,
+    "ARTICLE_EID": "art_85",
+    "TARGET_SR": "SR 831.42",
+    "assigned_articles": ["Art. 17"],
+    "confidence": "high",
+    "reasoning": "«Mindestbetrag nach Artikel 17 FZG»; klarer FZG-Artikel."
+  },
+  {
+    "ITEM": 127,
+    "ARTICLE_EID": "art_85",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "«(Art. 24 und 25)»; interne Artikel."
+  },
+  {
+    "ITEM": 128,
+    "ARTICLE_EID": "art_85",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "«Artikel 87»; interner Artikel."
+  },
+  {
+    "ITEM": 129,
+    "ARTICLE_EID": "art_85",
+    "TARGET_SR": "SR 831.42",
+    "assigned_articles": ["Art. 17 Abs. 2 Bst. f"],
+    "confidence": "high",
+    "reasoning": "«(Art. 17 Abs. 2 Bst. f FZG)»; klarer FZG-Artikel."
+  },
+  {
+    "ITEM": 130,
+    "ARTICLE_EID": "art_85",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Verweise auf «Artikel 18a», «Artikel 18c», «Artikel 18d»; interne Artikel."
+  },
+  {
+    "ITEM": 131,
+    "ARTICLE_EID": "art_86",
+    "TARGET_SR": "SR 831.425",
+    "assigned_articles": ["Art. 7"],
+    "confidence": "high",
+    "reasoning": "«nach Artikel 7 FZV»; FZV = SR 831.425."
+  },
+  {
+    "ITEM": 132,
+    "ARTICLE_EID": "art_88",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "«Artikel 36»; interner Artikel."
+  },
+  {
+    "ITEM": 133,
+    "ARTICLE_EID": "art_88",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "«Artikel 85 Absatz 2»; interner Artikel, der seinerseits FZG zitiert, aber hier wird kein neues SR eingeführt."
+  },
+  {
+    "ITEM": 134,
+    "ARTICLE_EID": "art_88",
+    "TARGET_SR": "SR 831.40",
+    "assigned_articles": ["Art. 15"],
+    "confidence": "high",
+    "reasoning": "«Altersguthabens gemäss Artikel 15 BVG»; klarer BVG-Artikel."
+  },
+  {
+    "ITEM": 135,
+    "ARTICLE_EID": "art_88",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "«Artikeln 91–97»; interne Artikel."
+  },
+  {
+    "ITEM": 136,
+    "ARTICLE_EID": "art_88",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "«Artikeln 91 und 94»; interne Artikel."
+  },
+  {
+    "ITEM": 137,
+    "ARTICLE_EID": "art_88",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "«Artikel 99 Absatz 1»; interner Artikel."
+  },
+  {
+    "ITEM": 138,
+    "ARTICLE_EID": "art_91",
+    "TARGET_SR": "SR 831.411",
+    "assigned_articles": ["Art. 1–4"],
+    "confidence": "high",
+    "reasoning": "«im Sinne der Artikel 1–4 WEFV»; WEFV (Wohneigentumsförderungsverordnung) ist SR 831.411, und die Artikel 1–4 werden explizit genannt."
+  },
+  {
+    "ITEM": 139,
+    "ARTICLE_EID": "art_91",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "«Artikel 18d»; interner Artikel."
+  },
+  {
+    "ITEM": 140,
+    "ARTICLE_EID": "art_93",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "«Artikel 36 Absatz 2 Buchstabe e»; interner Artikel."
+  },
+  {
+    "ITEM": 141,
+    "ARTICLE_EID": "art_96",
+    "TARGET_SR": "SR 831.411",
+    "assigned_articles": ["Art. 1 Abs. 1 Bst. b"],
+    "confidence": "high",
+    "reasoning": "«nach Artikel 1 Absatz 1 Buchstabe b WEFV»; klarer WEFV-Artikel."
+  },
+  {
+    "ITEM": 142,
+    "ARTICLE_EID": "art_99",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "«Artikel 32 Absatz 4»; interner Artikel."
+  },
+  {
+    "ITEM": 143,
+    "ARTICLE_EID": "art_99",
+    "TARGET_SR": "SR 831.441.1",
+    "assigned_articles": ["Art. 19 Abs. 2–3"],
+    "confidence": "high",
+    "reasoning": "«Artikel 19 Absätze 2 und 3 BVV 2»; BVV 2 = SR 831.441.1."
+  },
+  {
+    "ITEM": 144,
+    "ARTICLE_EID": "art_99",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Verweise auf «Artikel 46 Absatz 1 Buchstabe b» und «Artikel 48 Absatz 1 Buchstabe b»; interne Artikel."
+  },
+  {
+    "ITEM": 145,
+    "ARTICLE_EID": "art_100",
+    "TARGET_SR": "SR 831.40",
+    "assigned_articles": ["Art. 73", "Art. 73 Abs. 1 Bst. a–d"],
+    "confidence": "medium",
+    "reasoning": "«nach Artikel 73 BVG» und «Artikel 73 Absatz 1 Buchstaben a–d BVG»; beide Bezüge betreffen denselben BVG-Artikel."
+  },
+  {
+    "ITEM": 146,
+    "ARTICLE_EID": "art_100",
+    "TARGET_SR": "SR 173.110",
+    "assigned_articles": ["Art. 86 Abs. 1 Bst. d"],
+    "confidence": "high",
+    "reasoning": "«(Art. 86 Abs. 1 Bst. d BGG)»; BGG = Bundesgerichtsgesetz, SR 173.110."
+  },
+  {
+    "ITEM": 147,
+    "ARTICLE_EID": "art_102",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "medium",
+    "reasoning": "Verweise auf «Artikel 32 der EVK-Statuten» und «Artikel 43 der PKB-Statuten»; dies sind Statuten, keine SR-Gesetze. Kein SR genannt."
+  },
+  {
+    "ITEM": 148,
+    "ARTICLE_EID": "art_102",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "«(Art. 75)»; interner Artikel."
+  },
+  {
+    "ITEM": 149,
+    "ARTICLE_EID": "art_102",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "«(Art. 43–48)»; interne Artikel."
+  },
+  {
+    "ITEM": 150,
+    "ARTICLE_EID": "art_102",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "«(Art. 44 Abs. 4, 45 Abs. 7 und 47 Abs. 3 und 4)»; interne Artikel."
+  },
+  {
+    "ITEM": 151,
+    "ARTICLE_EID": "art_102",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "«(Art. 34 und 35)»; interne Artikel."
+  },
+  {
+    "ITEM": 152,
+    "ARTICLE_EID": "art_102",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "«(Art. 77)»; interner Artikel."
+  },
+  {
+    "ITEM": 153,
+    "ARTICLE_EID": "art_103",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "medium",
+    "reasoning": "Verweise auf EVK- und PKB-Statuten; keine SR-Gesetze genannt."
+  },
+  {
+    "ITEM": 154,
+    "ARTICLE_EID": "art_104",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Verweise auf «Art. 62», «Art. 51», «Art. 63», «Art. 57»; interne Artikel."
+  },
+  {
+    "ITEM": 155,
+    "ARTICLE_EID": "art_104",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "«Art. 62 Abs. 6 und 52a»; interne Artikel."
+  },
+  {
+    "ITEM": 156,
+    "ARTICLE_EID": "art_105",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "medium",
+    "reasoning": "Verweise auf «Artikel 46 PKBV 1» und «Artikel 27 Absatz 3 PKBV 2»; PKBV sind Vorsorgereglemente, keine SR-Gesetze."
+  },
+  {
+    "ITEM": 157,
+    "ARTICLE_EID": "art_107_a",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "«Artikel 102 Absatz 2»; interner Artikel."
+  },
+  {
+    "ITEM": 158,
+    "ARTICLE_EID": "art_107_a",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "«Artikel 102 Absatz 4 Buchstabe b»; interner Artikel."
+  },
+  {
+    "ITEM": 159,
+    "ARTICLE_EID": "art_107_b",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "«Artikel 102 Absatz 2»; interner Artikel."
+  },
+  {
+    "ITEM": 160,
+    "ARTICLE_EID": "art_107_b",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "«Artikel 102 Absatz 4 Buchstabe b»; interner Artikel."
+  },
+  {
+    "ITEM": 161,
+    "ARTICLE_EID": "art_107_c",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "«Artikel 107»; interner Artikel."
+  },
+  {
+    "ITEM": 162,
+    "ARTICLE_EID": "art_107_c",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "«Artikel 107»; interner Artikel."
+  },
+  {
+    "ITEM": 163,
+    "ARTICLE_EID": "art_107_c",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "«Artikel 102 Absatz 1», «Artikel 99 Absätze 3–5»; interne Artikel."
+  },
+  {
+    "ITEM": 164,
+    "ARTICLE_EID": "art_107_e",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "«Artikel 55 Absatz 1 Buchstabe b»; interner Artikel."
+  },
+  {
+    "ITEM": 165,
+    "ARTICLE_EID": "art_107_e",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "«Artikel 55 Absatz 1 Buchstabe a»; interner Artikel."
+  },
+  {
+    "ITEM": 166,
+    "ARTICLE_EID": "art_107_f",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "«Artikel 102 Absatz 2»; interner Artikel."
+  },
+  {
+    "ITEM": 167,
+    "ARTICLE_EID": "art_107_f",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "«Artikel 102 Absatz 4 Buchstabe b»; interner Artikel."
+  },
+  {
+    "ITEM": 168,
+    "ARTICLE_EID": "art_107_h",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "«Artikel 93 Absatz 1»; interner Artikel."
+  },
+  {
+    "ITEM": 169,
+    "ARTICLE_EID": "art_107_i",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "«Artikel 52b Absätze 1 und 2»; interner Artikel."
+  },
+  {
+    "ITEM": 170,
+    "ARTICLE_EID": "art_107_j",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "«Artikel 60»; interner Artikel."
+  }
+]

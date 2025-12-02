@@ -1,0 +1,634 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 170.512",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "high",
+    "reasoning": "Preamble cites the Publikationsgesetz (PublG) as legal basis without any specific article; syntactically no article number is linked to SR 170.512."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 171.10",
+    "assigned_articles": ["Art. 22 Abs. 4"],
+    "confidence": "high",
+    "reasoning": "Phrase 'Artikel 22 Absatz 4 des Parlamentsgesetzes ... SR 171.10' directly links Art. 22 Abs. 4 to SR 171.10."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 974.0",
+    "assigned_articles": ["Art. 10"],
+    "confidence": "high",
+    "reasoning": "Text 'Artikel 10 des Bundesgesetzes ... SR 974.0' clearly attributes Art. 10 to SR 974.0."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 974.1",
+    "assigned_articles": ["Art. 12 Abs. 2"],
+    "confidence": "high",
+    "reasoning": "Citation 'Artikel 12 Absatz 2 des Bundesgesetzes ... SR 974.1' explicitly ties Art. 12 Abs. 2 to SR 974.1."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 193.9",
+    "assigned_articles": ["Art. 8"],
+    "confidence": "high",
+    "reasoning": "Snippet states 'Artikel 8 des Bundesgesetzes ... SR 193.9', so Art. 8 belongs to SR 193.9."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 510.10",
+    "assigned_articles": ["Art. 48a Abs. 1", "Art. 66b Abs. 2", "Art. 109b"],
+    "confidence": "high",
+    "reasoning": "The Militärgesetz (MG, SR 510.10) is cited with 'Artikel 48a Absatz 1', 'Artikel 66b Absatz 2' and 'Artikel 109b MG'; all three are explicitly linked to the same act and thus to SR 510.10."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": "SR 172.010",
+    "assigned_articles": ["Art. 7a Abs. 2", "Art. 7a Abs. 3"],
+    "confidence": "high",
+    "reasoning": "Text '(Art. 7a Abs. 2 und 3 ... SR 172.010, RVOG)' clearly associates Art. 7a Abs. 2 und 3 with SR 172.010."
+  },
+  {
+    "ITEM": 8,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": "SR 172.010",
+    "assigned_articles": ["Art. 7c Abs. 3", "Art. 7c Abs. 4", "Art. 7d Abs. 2", "Art. 7d Abs. 3"],
+    "confidence": "high",
+    "reasoning": "Formulation 'Verordnungen, die nach Artikel 7c Absatz 3 oder 4 oder nach Artikel 7d Absatz 2 oder 3 RVOG ... SR 172.010' directly links these four provisions of the RVOG to SR 172.010."
+  },
+  {
+    "ITEM": 9,
+    "ARTICLE_EID": "art_20",
+    "TARGET_SR": "SR 172.010",
+    "assigned_articles": ["Art. 8 Abs. 1"],
+    "confidence": "high",
+    "reasoning": "Phrase 'nach Artikel 8 Absatz 1 RVOG SR 172.010' explicitly attributes Art. 8 Abs. 1 to SR 172.010."
+  },
+  {
+    "ITEM": 10,
+    "ARTICLE_EID": "art_33",
+    "TARGET_SR": "SR 172.061",
+    "assigned_articles": ["Art. 3 Abs. 2"],
+    "confidence": "high",
+    "reasoning": "Citation '(Art. 3 Abs. 2 Vernehmlassungsgesetz ... SR 172.061)' clearly refers to Art. 3 Abs. 2 of SR 172.061."
+  },
+  {
+    "ITEM": 11,
+    "ARTICLE_EID": "art_39",
+    "TARGET_SR": "SR 171.10",
+    "assigned_articles": ["Art. 149"],
+    "confidence": "high",
+    "reasoning": "Text 'nach Artikel 149 des Parlamentsgesetzes ... SR 171.10' directly links Art. 149 to SR 171.10."
+  },
+  {
+    "ITEM": 12,
+    "ARTICLE_EID": "art_40",
+    "TARGET_SR": "SR 172.010.1",
+    "assigned_articles": ["Art. 4"],
+    "confidence": "high",
+    "reasoning": "Snippet '(Art. 4 der Regierungs- und Verwaltungsorganisationsverordnung ... SR 172.010.1, RVOV)' clearly assigns Art. 4 to SR 172.010.1."
+  },
+  {
+    "ITEM": 13,
+    "ARTICLE_EID": "art_41",
+    "TARGET_SR": "SR 172.010.1",
+    "assigned_articles": ["Art. 5"],
+    "confidence": "high",
+    "reasoning": "Both occurrences '(Art. 5 RVOV SR 172.010.1)' and '(Art. 5 RVOV)' in the same context refer to Art. 5 of SR 172.010.1."
+  },
+  {
+    "ITEM": 14,
+    "ARTICLE_EID": "art_42",
+    "TARGET_SR": "SR 101",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "high",
+    "reasoning": "The sentence 'Änderungen der Bundesverfassung SR 101' refers to the Federal Constitution as a whole; no specific article is mentioned."
+  },
+  {
+    "ITEM": 15,
+    "ARTICLE_EID": "art_51",
+    "TARGET_SR": "SR 172.041.11",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "medium",
+    "reasoning": "Reference 'Gebührenverordnung Publikationen ... SR 172.041.11' is to the ordinance generally; no article is specified in the snippet."
+  },
+  {
+    "ITEM": 16,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 170.512",
+    "assigned_articles": ["Art. 3 Abs. 1 Bst. b"],
+    "confidence": "high",
+    "reasoning": "Text explicitly cites '(Art. 3 Abs. 1 Bst. b PublG)'; PublG is SR 170.512 per preamble acronym."
+  },
+  {
+    "ITEM": 17,
+    "ARTICLE_EID": "art_8",
+    "TARGET_SR": "SR 170.512",
+    "assigned_articles": ["Art. 10 Abs. 1"],
+    "confidence": "high",
+    "reasoning": "Both occurrences 'nach Artikel 10 Absatz 1 PublG' clearly refer to Art. 10 Abs. 1 of SR 170.512."
+  },
+  {
+    "ITEM": 18,
+    "ARTICLE_EID": "art_10",
+    "TARGET_SR": "SR 170.512",
+    "assigned_articles": ["Art. 7 Abs. 1"],
+    "confidence": "high",
+    "reasoning": "Phrase 'in Artikel 7 Absatz 1 PublG festgelegte Frist' directly links Art. 7 Abs. 1 to SR 170.512."
+  },
+  {
+    "ITEM": 19,
+    "ARTICLE_EID": "art_11",
+    "TARGET_SR": "SR 170.512",
+    "assigned_articles": ["Art. 7 Abs. 1"],
+    "confidence": "high",
+    "reasoning": "Again 'Frist nach Artikel 7 Absatz 1 PublG' clearly cites Art. 7 Abs. 1 of SR 170.512."
+  },
+  {
+    "ITEM": 20,
+    "ARTICLE_EID": "art_13",
+    "TARGET_SR": "SR 170.512",
+    "assigned_articles": ["Art. 5 Abs. 1"],
+    "confidence": "high",
+    "reasoning": "Both clauses mention 'Artikel 5 Absatz 1 PublG', so Art. 5 Abs. 1 of SR 170.512 is the cited provision."
+  },
+  {
+    "ITEM": 21,
+    "ARTICLE_EID": "art_14",
+    "TARGET_SR": "SR 170.512",
+    "assigned_articles": ["Art. 5 Abs. 1", "Art. 5 Abs. 2"],
+    "confidence": "high",
+    "reasoning": "Snippet distinguishes 'Artikel 5 Absatz 1 PublG' and 'Artikel 5 Absatz 2 PublG'; both are explicitly tied to SR 170.512."
+  },
+  {
+    "ITEM": 22,
+    "ARTICLE_EID": "art_16",
+    "TARGET_SR": "SR 170.512",
+    "assigned_articles": ["Art. 5 Abs. 1", "Art. 5 Abs. 2"],
+    "confidence": "high",
+    "reasoning": "Both 'Veröffentlichung durch Verweis nach Artikel 5 Absatz 1 PublG' and 'nach Artikel 5 Absatz 2 PublG' are cited; both belong to SR 170.512."
+  },
+  {
+    "ITEM": 23,
+    "ARTICLE_EID": "art_17",
+    "TARGET_SR": "SR 170.512",
+    "assigned_articles": ["Art. 7 Abs. 4", "Art. 18"],
+    "confidence": "high",
+    "reasoning": "First clause cites 'Artikel 7 Absatz 4 PublG'; later 'Einsichtnahmestellen nach Artikel 18 PublG'; both are explicit references within SR 170.512."
+  },
+  {
+    "ITEM": 24,
+    "ARTICLE_EID": "art_19",
+    "TARGET_SR": "SR 170.512",
+    "assigned_articles": ["Art. 18"],
+    "confidence": "high",
+    "reasoning": "Sentence 'Einsichtnahmestellen nach Artikel 18 PublG' clearly refers to Art. 18 of SR 170.512."
+  },
+  {
+    "ITEM": 25,
+    "ARTICLE_EID": "art_20",
+    "TARGET_SR": "SR 170.512",
+    "assigned_articles": ["Art. 12 Abs. 1"],
+    "confidence": "high",
+    "reasoning": "Text 'Fehler, die nach Artikel 12 Absatz 1 PublG formlos berichtigt werden' explicitly cites Art. 12 Abs. 1 of SR 170.512."
+  },
+  {
+    "ITEM": 26,
+    "ARTICLE_EID": "art_21",
+    "TARGET_SR": "SR 170.512",
+    "assigned_articles": ["Art. 3"],
+    "confidence": "high",
+    "reasoning": "Parenthetical '(Art. 3 PublG)' directly links Art. 3 to SR 170.512."
+  },
+  {
+    "ITEM": 27,
+    "ARTICLE_EID": "art_22",
+    "TARGET_SR": "SR 170.512",
+    "assigned_articles": ["Art. 13 Abs. 2"],
+    "confidence": "high",
+    "reasoning": "Both occurrences 'Texte, die nach Artikel 13 Absatz 2 PublG veröffentlicht werden' and 'Texte nach Artikel 13 Absatz 2 PublG' clearly refer to Art. 13 Abs. 2 of SR 170.512."
+  },
+  {
+    "ITEM": 28,
+    "ARTICLE_EID": "art_23",
+    "TARGET_SR": "SR 170.512",
+    "assigned_articles": ["Art. 13 Abs. 3"],
+    "confidence": "high",
+    "reasoning": "Parenthetical '(Art. 13 Abs. 3 PublG)' explicitly cites Art. 13 Abs. 3 of SR 170.512."
+  },
+  {
+    "ITEM": 29,
+    "ARTICLE_EID": "art_26",
+    "TARGET_SR": "SR 170.512",
+    "assigned_articles": ["Art. 13a"],
+    "confidence": "high",
+    "reasoning": "Phrase 'zusätzlich zu den Texten nach Artikel 13a PublG' clearly refers to Art. 13a of SR 170.512."
+  },
+  {
+    "ITEM": 30,
+    "ARTICLE_EID": "art_27",
+    "TARGET_SR": "SR 170.512",
+    "assigned_articles": ["Art. 5 Abs. 1"],
+    "confidence": "high",
+    "reasoning": "Text 'Liste der Texte, die nach Artikel 5 Absatz 1 PublG durch Verweis veröffentlicht wurden' explicitly cites Art. 5 Abs. 1 of SR 170.512."
+  },
+  {
+    "ITEM": 31,
+    "ARTICLE_EID": "art_30",
+    "TARGET_SR": "SR 170.512",
+    "assigned_articles": ["Art. 5 Abs. 1", "Art. 13 Abs. 3"],
+    "confidence": "high",
+    "reasoning": "Clause 'Texte, die nach den Artikeln 5 Absatz 1 und 13 Absatz 3 PublG durch Verweis veröffentlicht werden' clearly links both provisions to SR 170.512."
+  },
+  {
+    "ITEM": 32,
+    "ARTICLE_EID": "art_33",
+    "TARGET_SR": "SR 170.512",
+    "assigned_articles": ["Art. 14 Abs. 2"],
+    "confidence": "high",
+    "reasoning": "Phrase 'Ausnahme ... im Sinne von Artikel 14 Absatz 2 PublG' explicitly cites Art. 14 Abs. 2 of SR 170.512."
+  },
+  {
+    "ITEM": 33,
+    "ARTICLE_EID": "art_33_a",
+    "TARGET_SR": "SR 170.512",
+    "assigned_articles": ["Art. 14 Abs. 6"],
+    "confidence": "high",
+    "reasoning": "Text 'Veröffentlichung in weiteren Sprachen im Sinne von Artikel 14 Absatz 6 PublG' clearly refers to Art. 14 Abs. 6 of SR 170.512."
+  },
+  {
+    "ITEM": 34,
+    "ARTICLE_EID": "art_35",
+    "TARGET_SR": "SR 170.512",
+    "assigned_articles": ["Art. 5 Abs. 1", "Art. 13 Abs. 3"],
+    "confidence": "high",
+    "reasoning": "Sentence 'Texte ... die durch Verweis nach den Artikeln 5 Absatz 1 und 13 Absatz 3 PublG veröffentlicht werden' explicitly cites both provisions."
+  },
+  {
+    "ITEM": 35,
+    "ARTICLE_EID": "art_36",
+    "TARGET_SR": "SR 170.512",
+    "assigned_articles": ["Art. 5 Abs. 1", "Art. 13 Abs. 3"],
+    "confidence": "high",
+    "reasoning": "Both occurrences 'nach den Artikeln 5 Absatz 1 und 13 Absatz 3 PublG' in the snippet clearly refer to these two provisions of SR 170.512."
+  },
+  {
+    "ITEM": 36,
+    "ARTICLE_EID": "art_38",
+    "TARGET_SR": "SR 170.512",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "medium",
+    "reasoning": "Phrase 'Veröffentlichungen nach dem PublG' refers generically to all publications under the act; no specific article is mentioned."
+  },
+  {
+    "ITEM": 37,
+    "ARTICLE_EID": "art_39",
+    "TARGET_SR": "SR 170.512",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "medium",
+    "reasoning": "Text 'Texte dem PublG unterliegend' is a general reference to the scope of the act without specifying particular articles."
+  },
+  {
+    "ITEM": 38,
+    "ARTICLE_EID": "art_40",
+    "TARGET_SR": "SR 170.512",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "medium",
+    "reasoning": "Reference 'übrige ... nach dem PublG zu veröffentlichenden Texte' is generic; no article numbers are syntactically linked."
+  },
+  {
+    "ITEM": 39,
+    "ARTICLE_EID": "art_43",
+    "TARGET_SR": "SR 170.512",
+    "assigned_articles": ["Art. 16a"],
+    "confidence": "high",
+    "reasoning": "Introductory phrase 'Im Sinne von Artikel 16a PublG bedeuten:' explicitly cites Art. 16a of SR 170.512."
+  },
+  {
+    "ITEM": 40,
+    "ARTICLE_EID": "art_44",
+    "TARGET_SR": "SR 170.512",
+    "assigned_articles": ["Art. 13 Abs. 1 Bst. g", "Art. 13 Abs. 2"],
+    "confidence": "high",
+    "reasoning": "Text 'Texte nach Artikel 13 Absätze 1 Buchstabe g und 2 PublG' clearly refers to these two specific subdivisions of Art. 13."
+  },
+  {
+    "ITEM": 41,
+    "ARTICLE_EID": "art_45",
+    "TARGET_SR": "SR 170.512",
+    "assigned_articles": ["Art. 5 Abs. 1"],
+    "confidence": "high",
+    "reasoning": "Phrase 'Texte, die nach Artikel 5 Absatz 1 PublG durch Verweis veröffentlicht werden' explicitly cites Art. 5 Abs. 1 of SR 170.512."
+  },
+  {
+    "ITEM": 42,
+    "ARTICLE_EID": "art_47",
+    "TARGET_SR": "SR 170.512",
+    "assigned_articles": ["Art. 19 Abs. 1"],
+    "confidence": "high",
+    "reasoning": "Text 'Publikationsplattform nach Artikel 19 Absatz 1 PublG' clearly refers to Art. 19 Abs. 1 of SR 170.512."
+  },
+  {
+    "ITEM": 43,
+    "ARTICLE_EID": "art_49",
+    "TARGET_SR": "SR 170.512",
+    "assigned_articles": ["Art. 5 Abs. 1"],
+    "confidence": "high",
+    "reasoning": "Again 'Texte, die nach Artikel 5 Absatz 1 PublG durch Verweis veröffentlicht werden' explicitly cites Art. 5 Abs. 1."
+  },
+  {
+    "ITEM": 44,
+    "ARTICLE_EID": "art_50",
+    "TARGET_SR": "SR 170.512",
+    "assigned_articles": ["Art. 18", "Art. 7 Abs. 4", "Art. 5 Abs. 1", "Art. 13 Abs. 3"],
+    "confidence": "high",
+    "reasoning": "Snippet mentions 'Stellen nach Artikel 18 PublG', 'Veröffentlichungen nach Artikel 7 Absatz 4 PublG' and 'Texte, die nach den Artikeln 5 Absatz 1 und 13 Absatz 3 PublG durch Verweis veröffentlicht werden'; all are explicit references within SR 170.512."
+  },
+  {
+    "ITEM": 45,
+    "ARTICLE_EID": "art_52",
+    "TARGET_SR": "SR 170.512",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "medium",
+    "reasoning": "Formulations 'Veröffentlichung nach dem PublG' and 'Veröffentlichungen nach dem PublG' are generic; no specific article numbers are given."
+  },
+  {
+    "ITEM": 46,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "high",
+    "reasoning": "Artikel 22 Absatz 4 is mentioned without SR or acronym; context matches ITEM 2 where this is external (SR 171.10), but here no SR is given, so within this detection type it functions as an internal cross-reference and is not newly assigned to an SR."
+  },
+  {
+    "ITEM": 47,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "high",
+    "reasoning": "Refers to 'Artikel 10 des Bundesgesetzes vom 19. März 1976' but without SR; the corresponding SR link and assignment are already captured in ITEM 3, so this artikel_reference is treated as internal/self-reference for linking purposes."
+  },
+  {
+    "ITEM": 48,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "high",
+    "reasoning": "Mentions 'Artikel 12 Absatz 2 des Bundesgesetzes vom 30. September 2016'; external SR 974.1 is already handled in ITEM 4, so this adds no new SR linkage and is treated as internal reference."
+  },
+  {
+    "ITEM": 49,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "high",
+    "reasoning": "Refers to 'Artikel 8 des Bundesgesetzes vom 19. Dezember 2003'; external SR 193.9 is already linked in ITEM 5, so this is an internal cross-reference instance."
+  },
+  {
+    "ITEM": 50,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "high",
+    "reasoning": "Mentions 'Artikel 48a Absatz 1 des Militärgesetzes (MG)'; SR 510.10 and this article are already assigned in ITEM 6, so this occurrence is treated as internal/self-reference."
+  },
+  {
+    "ITEM": 51,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "high",
+    "reasoning": "Refers to 'Artikel 66b Absatz 2 MG'; the external linkage to SR 510.10 is already captured in ITEM 6, so this is an internal repetition."
+  },
+  {
+    "ITEM": 52,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "high",
+    "reasoning": "Mentions 'Artikel 109b MG'; again, SR 510.10 and this article are already assigned in ITEM 6, so this is an internal cross-reference."
+  },
+  {
+    "ITEM": 53,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "high",
+    "reasoning": "Contains '(Art. 7a Abs. 2 und 3 ... RVOG)' and '(Art. 3 Abs. 3 PublG)' but without explicit SR numbers; both external SR linkages are already handled in ITEMS 7 and 16, so this serves as internal referencing only."
+  },
+  {
+    "ITEM": 54,
+    "ARTICLE_EID": "art_8",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "high",
+    "reasoning": "Refers to 'Artikel 10 Absatz 1 PublG'; SR 170.512 and this article are already assigned in ITEM 17, so this is an internal cross-reference."
+  },
+  {
+    "ITEM": 55,
+    "ARTICLE_EID": "art_8",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "high",
+    "reasoning": "Again 'Artikel 10 Absatz 1 PublG'; external linkage already captured, so this is internal."
+  },
+  {
+    "ITEM": 56,
+    "ARTICLE_EID": "art_13",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "high",
+    "reasoning": "Refers to 'Artikel 5 Absatz 1 PublG'; SR 170.512 and this article are already assigned in ITEM 20, so this is internal."
+  },
+  {
+    "ITEM": 57,
+    "ARTICLE_EID": "art_13",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "high",
+    "reasoning": "Second sentence again cites 'Artikel 5 Absatz 1 PublG'; external linkage already handled, so internal."
+  },
+  {
+    "ITEM": 58,
+    "ARTICLE_EID": "art_14",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "high",
+    "reasoning": "Mentions 'Artikel 5 Absatz 1 PublG'; SR linkage already in ITEM 21, so this is internal."
+  },
+  {
+    "ITEM": 59,
+    "ARTICLE_EID": "art_14",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "high",
+    "reasoning": "Mentions 'Artikel 5 Absatz 2 PublG'; external linkage already captured in ITEM 21, so internal."
+  },
+  {
+    "ITEM": 60,
+    "ARTICLE_EID": "art_14",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "high",
+    "reasoning": "Again 'Artikel 5 Absatz 2 PublG'; already linked to SR 170.512, so this is internal."
+  },
+  {
+    "ITEM": 61,
+    "ARTICLE_EID": "art_16",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "high",
+    "reasoning": "Refers to 'Artikel 5 Absatz 1 PublG'; external linkage already in ITEM 22, so internal."
+  },
+  {
+    "ITEM": 62,
+    "ARTICLE_EID": "art_16",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "high",
+    "reasoning": "Refers to 'Artikel 5 Absatz 2 PublG'; already linked in ITEM 22, so internal."
+  },
+  {
+    "ITEM": 63,
+    "ARTICLE_EID": "art_17",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "high",
+    "reasoning": "Mentions 'Artikel 7 Absatz 4 PublG'; external linkage already captured in ITEM 23, so internal."
+  },
+  {
+    "ITEM": 64,
+    "ARTICLE_EID": "art_17",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "high",
+    "reasoning": "Refers to 'Artikel 18 PublG'; already linked in ITEM 23, so internal."
+  },
+  {
+    "ITEM": 65,
+    "ARTICLE_EID": "art_22",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "high",
+    "reasoning": "Mentions 'Artikel 13 Absatz 2 PublG'; external linkage already in ITEM 27, so internal."
+  },
+  {
+    "ITEM": 66,
+    "ARTICLE_EID": "art_27",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "high",
+    "reasoning": "Refers to 'Artikel 5 Absatz 1 PublG'; already linked in ITEM 30, so internal."
+  },
+  {
+    "ITEM": 67,
+    "ARTICLE_EID": "art_33",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "high",
+    "reasoning": "Contains '(Art. 3 Abs. 2 Vernehmlassungsgesetz ... )'; the SR 172.061 linkage and article assignment are already in ITEM 10, so this is internal."
+  },
+  {
+    "ITEM": 68,
+    "ARTICLE_EID": "art_36",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "high",
+    "reasoning": "Refers to 'Artikeln 5 Absatz 1 und 13 Absatz 3 PublG'; both already linked in ITEM 35, so internal."
+  },
+  {
+    "ITEM": 69,
+    "ARTICLE_EID": "art_36",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "high",
+    "reasoning": "Again cites 'Artikeln 5 Absatz 1 und 13 Absatz 3 PublG'; external linkage already handled, so internal."
+  },
+  {
+    "ITEM": 70,
+    "ARTICLE_EID": "art_39",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "high",
+    "reasoning": "Mentions 'Artikel 149 des Parlamentsgesetzes'; SR 171.10 and Art. 149 are already assigned in ITEM 11, so this is internal."
+  },
+  {
+    "ITEM": 71,
+    "ARTICLE_EID": "art_40",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "high",
+    "reasoning": "Contains '(Art. 4 der ... RVOV)'; SR 172.010.1 and Art. 4 are already assigned in ITEM 12, so internal."
+  },
+  {
+    "ITEM": 72,
+    "ARTICLE_EID": "art_43",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "medium",
+    "reasoning": "Refers to 'Artikel 44 Absatz 2' without SR or acronym; context suggests an internal article of the same ordinance (self-reference), not an external SR link."
+  },
+  {
+    "ITEM": 73,
+    "ARTICLE_EID": "art_49",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "high",
+    "reasoning": "Mentions 'Artikel 5 Absatz 1 PublG'; external linkage already captured in ITEM 43, so internal."
+  },
+  {
+    "ITEM": 74,
+    "ARTICLE_EID": "art_50",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "high",
+    "reasoning": "Refers to 'Artikel 18 PublG'; already linked in ITEM 44, so internal."
+  },
+  {
+    "ITEM": 75,
+    "ARTICLE_EID": "art_50",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "high",
+    "reasoning": "Mentions 'Artikel 7 Absatz 4 PublG'; already linked in ITEM 44, so internal."
+  },
+  {
+    "ITEM": 76,
+    "ARTICLE_EID": "art_50",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "high",
+    "reasoning": "Refers to 'Artikeln 5 Absatz 1 und 13 Absatz 3 PublG'; both already linked in ITEM 44, so internal."
+  },
+  {
+    "ITEM": 77,
+    "ARTICLE_EID": "art_51",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "medium",
+    "reasoning": "Mentions 'Artikeln 35 und 36' without SR or acronym; these are clearly articles of the same ordinance (self-reference), not external SR links."
+  },
+  {
+    "ITEM": 78,
+    "ARTICLE_EID": "art_52",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "medium",
+    "reasoning": "Range '(Art. 39‒41)' is given without SR; these are internal articles of the same ordinance, serving as self-references."
+  },
+  {
+    "ITEM": 79,
+    "ARTICLE_EID": "art_52",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "medium",
+    "reasoning": "Range '(Art. 43‒46)' is likewise internal to the same document; no SR or acronym indicates an external act."
+  }
+]

@@ -1,0 +1,430 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 613.2",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "high",
+    "reasoning": "Preamble cites the FiLaG as legal basis without mentioning any specific article; standard blanket reference to the whole act."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": "SR 431.011",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "high",
+    "reasoning": "Reference is to the Bundesstatistikverordnung as a whole as basis for the Finanzstatistik; no article is specified or implied."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": "SR 642.11",
+    "assigned_articles": ["Art. 196 Abs. 1"],
+    "confidence": "high",
+    "reasoning": "Snippet explicitly cites 'Artikel 196 Absatz 1 des Bundesgesetzes ... über die direkte Bundessteuer (DBG)'; this article clearly belongs to SR 642.11."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_6",
+    "TARGET_SR": "SR 642.11",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "medium",
+    "reasoning": "Text refers generically to 'steuerbares Einkommen nach DBG' without an article; the detailed rule (threshold for Ehepaare) is in a later sentence outside the SR-marked snippet, so only a general DBG reference is safely attributable here."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": "SR 642.11",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "medium",
+    "reasoning": "Refers to persons 'gemäss DBG' without specifying provisions; used as general definitional basis for taxable persons under the DBG."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_8",
+    "TARGET_SR": "SR 642.11",
+    "assigned_articles": ["Art. 83 ff.", "Art. 91 ff."],
+    "confidence": "high",
+    "reasoning": "Snippet explicitly mentions 'gemäss den Artikeln 83 ff. und 91 ff. DBG'; these are clearly DBG provisions within SR 642.11."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_9",
+    "TARGET_SR": "SR 642.11",
+    "assigned_articles": ["Art. 83", "Art. 91", "Art. 93"],
+    "confidence": "high",
+    "reasoning": "Acronym snippet lists 'Artikel 83 DBG', 'Artikel 93 DBG' and 'Artikel 91 DBG' as the governing provisions; all are DBG articles in SR 642.11."
+  },
+  {
+    "ITEM": 8,
+    "ARTICLE_EID": "art_15",
+    "TARGET_SR": "SR 642.11",
+    "assigned_articles": ["Art. 58"],
+    "confidence": "high",
+    "reasoning": "Snippet: 'steuerbaren Reingewinn nach Artikel 58 DBG'; direct, explicit article reference within DBG (SR 642.11)."
+  },
+  {
+    "ITEM": 9,
+    "ARTICLE_EID": "art_17",
+    "TARGET_SR": "SR 642.14",
+    "assigned_articles": ["Art. 28 Abs. 2–4"],
+    "confidence": "high",
+    "reasoning": "Text cites 'Artikel 28 Absätze 2–4 des Bundesgesetzes ... (StHG)'; this is clearly Art. 28 paras. 2–4 of SR 642.14."
+  },
+  {
+    "ITEM": 10,
+    "ARTICLE_EID": "art_17",
+    "TARGET_SR": "SR 642.11",
+    "assigned_articles": ["Art. 58"],
+    "confidence": "high",
+    "reasoning": "Refers to 'steuerbaren Reingewinns gemäss Artikel 58 DBG'; unambiguously Art. 58 DBG in SR 642.11."
+  },
+  {
+    "ITEM": 11,
+    "ARTICLE_EID": "art_19",
+    "TARGET_SR": "SR 642.14",
+    "assigned_articles": ["Art. 28 Abs. 2–4"],
+    "confidence": "high",
+    "reasoning": "Snippet: 'juristische Personen nach Artikel 28 Absätze 2–4 StHG'; direct reference to Art. 28 paras. 2–4 StHG (SR 642.14)."
+  },
+  {
+    "ITEM": 12,
+    "ARTICLE_EID": "art_20",
+    "TARGET_SR": "SR 642.14",
+    "assigned_articles": ["Art. 28 Abs. 2", "Art. 28 Abs. 3", "Art. 28 Abs. 4"],
+    "confidence": "high",
+    "reasoning": "Acronym snippet enumerates 'Artikel 28 Absatz 2/3/4 StHG'; all are explicit provisions of SR 642.14."
+  },
+  {
+    "ITEM": 13,
+    "ARTICLE_EID": "art_20_a",
+    "TARGET_SR": "SR 642.11",
+    "assigned_articles": ["Art. 58"],
+    "confidence": "high",
+    "reasoning": "DBG part of the sentence: 'steuerbaren Reingewinn nach Artikel 58 DBG ... nach DBG'; only explicit DBG article is Art. 58 in SR 642.11."
+  },
+  {
+    "ITEM": 14,
+    "ARTICLE_EID": "art_20_a",
+    "TARGET_SR": "SR 642.14",
+    "assigned_articles": ["Art. 24b"],
+    "confidence": "high",
+    "reasoning": "Second sentence cites 'Artikel 24b des Bundesgesetzes ... (StHG)'; this is Art. 24b StHG in SR 642.14."
+  },
+  {
+    "ITEM": 15,
+    "ARTICLE_EID": "art_20_b",
+    "TARGET_SR": "SR 642.14",
+    "assigned_articles": ["Art. 24b"],
+    "confidence": "high",
+    "reasoning": "Refers to 'Gewinne aus Patenten ... nach Artikel 24b StHG'; explicit article in SR 642.14."
+  },
+  {
+    "ITEM": 16,
+    "ARTICLE_EID": "art_27",
+    "TARGET_SR": "SR 431.01",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "high",
+    "reasoning": "Cites the Bundesstatistikgesetz by date and SR number without any article; used as general legal basis for statistics."
+  },
+  {
+    "ITEM": 17,
+    "ARTICLE_EID": "art_27",
+    "TARGET_SR": "SR 431.112",
+    "assigned_articles": ["Art. 16"],
+    "confidence": "medium",
+    "reasoning": "Authorial note '[AS 1999 917. 2007 6743 Art. 16]. Siehe heute: das BG ... (SR 431.112).' indicates that the relevant provision is Art. 16 of the newer census act; thus Art. 16 SR 431.112 is contextually linked."
+  },
+  {
+    "ITEM": 18,
+    "ARTICLE_EID": "art_34",
+    "TARGET_SR": "SR 431.011",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "high",
+    "reasoning": "Mentions 'Statistik der Sozialhilfeempfängerinnen ... nach der Bundesstatistikverordnung ... SR 431.011' without article; refers to the ordinance as a whole as statistical basis."
+  },
+  {
+    "ITEM": 19,
+    "ARTICLE_EID": "art_34",
+    "TARGET_SR": "SR 831.30",
+    "assigned_articles": ["Art. 13 Abs. 1"],
+    "confidence": "high",
+    "reasoning": "Snippet explicitly: 'gemäss Artikel 13 Absatz 1 des Bundesgesetzes ... SR 831.30'; direct article and paragraph reference."
+  },
+  {
+    "ITEM": 20,
+    "ARTICLE_EID": "art_57_b",
+    "TARGET_SR": "SR 642.14",
+    "assigned_articles": ["Art. 28 Abs. 2–4"],
+    "confidence": "high",
+    "reasoning": "Text: 'besonderen Steuerstatus nach Artikel 28 Absätze 2–4 StHG ...'; clear reference to Art. 28 paras. 2–4 StHG in SR 642.14."
+  },
+  {
+    "ITEM": 21,
+    "ARTICLE_EID": "art_22_a",
+    "TARGET_SR": "SR 613.2",
+    "assigned_articles": ["Art. 3a Abs. 2 Bst. b", "Art. 3a Abs. 2 Bst. a"],
+    "confidence": "high",
+    "reasoning": "Snippet mentions 'Progression nach Artikel 3a Absatz 2 Buchstabe b FiLaG' and 'Mindestausstattung (Art. 3a Abs. 2 Bst. a FiLaG)'; both are explicit FiLaG provisions."
+  },
+  {
+    "ITEM": 22,
+    "ARTICLE_EID": "art_38",
+    "TARGET_SR": "SR 613.2",
+    "assigned_articles": ["Art. 9 Abs. 2bis"],
+    "confidence": "high",
+    "reasoning": "Text: 'Erhöhung der Beiträge nach Artikel 9 Absatz 2bis FiLaG'; direct article and paragraph reference within FiLaG."
+  },
+  {
+    "ITEM": 23,
+    "ARTICLE_EID": "art_46",
+    "TARGET_SR": "SR 613.2",
+    "assigned_articles": [
+      "Art. 3a Abs. 2 Bst. a",
+      "Art. 9",
+      "Art. 19 Abs. 4",
+      "Art. 18 Abs. 3",
+      "Art. 11"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet lists FiLaG provisions: 'Art. 3a Abs. 2 Bst. a', 'Art. 9', 'Art. 19 Abs. 4' and later 'Artikel 18 Absatz 3 in Verbindung mit Artikel 11 FiLaG'; all are clearly tied to SR 613.2."
+  },
+  {
+    "ITEM": 24,
+    "ARTICLE_EID": "art_55",
+    "TARGET_SR": "SR 613.2",
+    "assigned_articles": [
+      "Art. 3",
+      "Art. 4",
+      "Art. 5",
+      "Art. 6",
+      "Art. 7",
+      "Art. 8",
+      "Art. 9",
+      "Art. 23"
+    ],
+    "confidence": "high",
+    "reasoning": "Phrase 'den Artikeln 3–9 und 23 FiLaG' refers to a range and a single article; expanded to Arts. 3–9 plus Art. 23 of SR 613.2."
+  },
+  {
+    "ITEM": 25,
+    "ARTICLE_EID": "art_56_a",
+    "TARGET_SR": "SR 613.2",
+    "assigned_articles": ["Art. 19c Abs. 2"],
+    "confidence": "high",
+    "reasoning": "Snippet: 'Mitteln nach Artikel 19c Absatz 2 FiLaG'; explicit FiLaG article and paragraph."
+  },
+  {
+    "ITEM": 26,
+    "ARTICLE_EID": "art_57_b",
+    "TARGET_SR": "SR 613.2",
+    "assigned_articles": ["Art. 23a Abs. 1", "Art. 20a"],
+    "confidence": "high",
+    "reasoning": "Mentions 'Faktoren Beta nach Artikel 23a Absatz 1 FiLaG' and 'Reduktion des Volumens nach Artikel 23a Absatz 1 FiLaG ... werden nach Artikel 20a dieser Verordnung gewichtet'; both are FiLaG provisions (Art. 23a Abs. 1) and a cross-reference to Art. 20a of this ordinance, but only the FiLaG article is tied to SR 613.2; Art. 20a is internal and not assigned to SR 613.2."
+  },
+  {
+    "ITEM": 27,
+    "ARTICLE_EID": "art_57_e",
+    "TARGET_SR": "SR 613.2",
+    "assigned_articles": ["Art. 23a Abs. 4"],
+    "confidence": "high",
+    "reasoning": "Text: 'Ergänzungsbeiträge nach Artikel 23a Absatz 4 FiLaG'; explicit FiLaG provision."
+  },
+  {
+    "ITEM": 28,
+    "ARTICLE_EID": "art_57_f",
+    "TARGET_SR": "SR 613.2",
+    "assigned_articles": ["Art. 4"],
+    "confidence": "high",
+    "reasoning": "Snippet: 'Leistungen des Bundes an den Ressourcenausgleich nach Artikel 4 FiLaG'; direct article reference."
+  },
+  {
+    "ITEM": 29,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Artikelreferenz reproduces the DBG citation already captured in ITEM 3 (Art. 196 Abs. 1 DBG, SR 642.11); it is an internal repetition, not a new SR link, so no separate SR assignment."
+  },
+  {
+    "ITEM": 30,
+    "ARTICLE_EID": "art_10",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Reference 'nach Artikel 2 Absatz 3' clearly points to another article within the same ordinance; no external SR is mentioned, so this is a pure self-reference."
+  },
+  {
+    "ITEM": 31,
+    "ARTICLE_EID": "art_13",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Same structure as ITEM 30: 'nach Artikel 2 Absatz 3' is an internal cross-reference within this ordinance; no SR context."
+  },
+  {
+    "ITEM": 32,
+    "ARTICLE_EID": "art_17",
+    "TARGET_SR": "SR 642.14",
+    "assigned_articles": ["Art. 28 Abs. 2–4"],
+    "confidence": "high",
+    "reasoning": "This artikel_reference line mirrors ITEM 9, citing 'Artikel 28 Absätze 2–4 ... (StHG)'; it clearly refers to Art. 28 paras. 2–4 of SR 642.14."
+  },
+  {
+    "ITEM": 33,
+    "ARTICLE_EID": "art_19",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Refers to 'steuerbaren Einkünfte nach Artikel 17' without any act name or SR; this is an internal reference to Art. 17 of the same ordinance."
+  },
+  {
+    "ITEM": 34,
+    "ARTICLE_EID": "art_20_a",
+    "TARGET_SR": "SR 642.14",
+    "assigned_articles": ["Art. 24b Abs. 3", "Art. 25a"],
+    "confidence": "high",
+    "reasoning": "Snippet: 'Forschungs- und Entwicklungsaufwand nach Artikel 24b Absatz 3 StHG ... ohne ... Abzug nach Artikel 25a StHG'; both are explicit StHG provisions in SR 642.14."
+  },
+  {
+    "ITEM": 35,
+    "ARTICLE_EID": "art_20_b",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Refers only to 'Artikel 2 Absatz 3' within the same ordinance; no external law or SR is mentioned, so it is a self-reference."
+  },
+  {
+    "ITEM": 36,
+    "ARTICLE_EID": "art_22_a",
+    "TARGET_SR": "SR 613.2",
+    "assigned_articles": ["Art. 3a Abs. 2 Bst. b"],
+    "confidence": "high",
+    "reasoning": "Explicitly: 'Progression nach Artikel 3a Absatz 2 Buchstabe b FiLaG'; direct FiLaG article reference."
+  },
+  {
+    "ITEM": 37,
+    "ARTICLE_EID": "art_22_a",
+    "TARGET_SR": "SR 613.2",
+    "assigned_articles": ["Art. 3a Abs. 2 Bst. a"],
+    "confidence": "high",
+    "reasoning": "Text: 'Mindestausstattung (Art. 3a Abs. 2 Bst. a FiLaG)'; explicit FiLaG provision."
+  },
+  {
+    "ITEM": 38,
+    "ARTICLE_EID": "art_23",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Refers to 'Artikel 22a' without naming an external act; this is an internal cross-reference within the same ordinance."
+  },
+  {
+    "ITEM": 39,
+    "ARTICLE_EID": "art_24",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Same as ITEM 38: 'Artikel 22a' is an internal article; no SR or external law is mentioned."
+  },
+  {
+    "ITEM": 40,
+    "ARTICLE_EID": "art_34",
+    "TARGET_SR": "SR 831.30",
+    "assigned_articles": ["Art. 13 Abs. 1"],
+    "confidence": "high",
+    "reasoning": "This repeats the EL reference from ITEM 19: 'Artikel 13 Absatz 1 des Bundesgesetzes ... über Ergänzungsleistungen ...'; clearly Art. 13 Abs. 1 SR 831.30."
+  },
+  {
+    "ITEM": 41,
+    "ARTICLE_EID": "art_46",
+    "TARGET_SR": "SR 613.2",
+    "assigned_articles": [
+      "Art. 3a Abs. 2 Bst. a",
+      "Art. 9",
+      "Art. 19 Abs. 4"
+    ],
+    "confidence": "high",
+    "reasoning": "This line lists the same FiLaG provisions as the first part of ITEM 23: 'Art. 3a Abs. 2 Bst. a FiLaG', 'Art. 9 FiLaG', 'Art. 19 Abs. 4 FiLaG'; all belong to SR 613.2."
+  },
+  {
+    "ITEM": 42,
+    "ARTICLE_EID": "art_46",
+    "TARGET_SR": "SR 613.2",
+    "assigned_articles": ["Art. 18 Abs. 3", "Art. 11"],
+    "confidence": "high",
+    "reasoning": "Refers to 'Artikel 18 Absatz 3 in Verbindung mit Artikel 11 FiLaG'; both are FiLaG provisions in SR 613.2."
+  },
+  {
+    "ITEM": 43,
+    "ARTICLE_EID": "art_55",
+    "TARGET_SR": "SR 613.2",
+    "assigned_articles": [
+      "Art. 3",
+      "Art. 4",
+      "Art. 5",
+      "Art. 6",
+      "Art. 7",
+      "Art. 8",
+      "Art. 9",
+      "Art. 23"
+    ],
+    "confidence": "high",
+    "reasoning": "Same phrase as ITEM 24: 'den Artikeln 3–9 und 23 FiLaG'; expanded to individual FiLaG articles."
+  },
+  {
+    "ITEM": 44,
+    "ARTICLE_EID": "art_57_a",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "References 'Artikel 21 Absatz 2' and internal structural units ('1. Titel 1. Kapitel ... Abschnitt 6a') of this ordinance; no external SR or act is mentioned."
+  },
+  {
+    "ITEM": 45,
+    "ARTICLE_EID": "art_57_b",
+    "TARGET_SR": "SR 613.2",
+    "assigned_articles": ["Art. 23a Abs. 1"],
+    "confidence": "high",
+    "reasoning": "Refers to 'Reduktion des Volumens nach Artikel 23a Absatz 1 FiLaG'; explicit FiLaG provision in SR 613.2. The additional 'Artikel 20a dieser Verordnung' is internal and not tied to SR 613.2."
+  },
+  {
+    "ITEM": 46,
+    "ARTICLE_EID": "art_57_c",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Mentions 'Artikel 57b' only; this is an internal article of the same ordinance, with no external SR context."
+  },
+  {
+    "ITEM": 47,
+    "ARTICLE_EID": "art_57_c",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Again only 'Artikel 57b Absatz 1' is cited; purely internal cross-reference within this ordinance."
+  },
+  {
+    "ITEM": 48,
+    "ARTICLE_EID": "art_57_c",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Refers to 'Artikel 19 Absätze 5 und 6 in der Fassung vom 1. Januar 2016' without naming an external act; context indicates internal article numbering of this ordinance, not an SR-cited law."
+  },
+  {
+    "ITEM": 49,
+    "ARTICLE_EID": "art_57_c",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Reference 'Artikel 57b' is internal; no external SR or act is mentioned."
+  },
+  {
+    "ITEM": 50,
+    "ARTICLE_EID": "art_57_d",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Refers to 'Artikel 20b Absatz 1' only; this is an internal article of the same ordinance, with no external SR context."
+  }
+]

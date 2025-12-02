@@ -1,0 +1,78 @@
+[
+  {
+    "Item": 1,
+    "TARGET_SR": "SR 814.501",
+    "assigned_articles": [
+      "Art. 124 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet explicitly cites 'Artikel 124 Absatz 2 der Strahlenschutzverordnung ... SR 814.501'; this article clearly belongs to SR 814.501."
+  },
+  {
+    "Item": 2,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": "SR 814.50",
+    "assigned_articles": [
+      "Art. 20 Abs. 2 lit. b"
+    ],
+    "confidence": "high",
+    "reasoning": "The sentence part governed by SR 814.50 reads 'gestützt auf Artikel 20 Absatz 2 Buchstabe b des Strahlenschutzgesetzes ... SR 814.50'; this directly links Art. 20 Abs. 2 lit. b to SR 814.50."
+  },
+  {
+    "Item": 3,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": "SR 814.501",
+    "assigned_articles": [
+      "Art. 120"
+    ],
+    "confidence": "high",
+    "reasoning": "Within the same sentence, the clause 'sowie Artikel 120 der Strahlenschutzverordnung ... SR 814.501' clearly attributes Art. 120 to SR 814.501."
+  },
+  {
+    "Item": 4,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": "SR 814.501",
+    "assigned_articles": [
+      "Art. 124 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet states 'Versicherungsansprüche nach Artikel 124 Absatz 1 der Strahlenschutzverordnung ... SR 814.501'; this is a direct, explicit article reference to SR 814.501."
+  },
+  {
+    "Item": 5,
+    "ARTICLE_EID": "art_6",
+    "TARGET_SR": "SR 814.501",
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "This is a preamble_acronym item where 'VBS' (defined in the preamble with SR 814.501) is used only as the name of the department; no article numbers of SR 814.501 are mentioned, so no specific articles can be assigned."
+  },
+  {
+    "Item": 6,
+    "ARTICLE_EID": "art_8",
+    "TARGET_SR": "SR 814.501",
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Again a preamble_acronym use of 'VBS' linked to SR 814.501; the sentence contains no article citation of SR 814.501, only the institutional actor, so no articles are assignable."
+  },
+  {
+    "Item": 7,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 20 Abs. 2 lit. b",
+      "Art. 120"
+    ],
+    "confidence": "high",
+    "reasoning": "This artikel_reference snippet repeats the same sentence as Items 2 and 3, mentioning 'Artikel 20 Absatz 2 Buchstabe b des Strahlenschutzgesetzes' and 'Artikel 120 der Strahlenschutzverordnung'. These are cross-references to external laws (SR 814.50 and SR 814.501) rather than self-references within the current document, so they are listed here as the referenced articles without tying them to a TARGET_SR."
+  },
+  {
+    "Item": 8,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 124 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet cites 'Artikel 124 Absatz 1 der Strahlenschutzverordnung vom 22. Juni 1994', which is an external reference (to SR 814.501, as seen in Item 4). As an artikel_reference item, it records this cross-reference article without assigning it to a TARGET_SR."
+  }
+]

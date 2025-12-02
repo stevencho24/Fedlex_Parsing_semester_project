@@ -1,0 +1,23 @@
+[
+  {
+    "Item": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 314.1",
+    "assigned_articles": [
+      "Art. 5 Abs. 1",
+      "Art. 15"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet explicitly states 'gestützt auf die Artikel 5 Absatz 1 und 15 des Ordnungsbussengesetzes ... SR 314.1 (OBG)'; both article numbers are syntactically and semantically linked to SR 314.1."
+  },
+  {
+    "Item": 2,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 741.01",
+    "assigned_articles": [
+      "Anhang 1"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet specifies 'Übertretungen nach dem Strassenverkehrsgesetz ... SR 741.01: Anhang 1;'; the only cited unit of SR 741.01 is Annex 1, with no individual articles mentioned."
+  }
+]

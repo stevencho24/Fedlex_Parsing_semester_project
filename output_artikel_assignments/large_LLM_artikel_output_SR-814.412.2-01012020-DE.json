@@ -1,0 +1,106 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 814.41",
+    "assigned_articles": [
+      "Art. 5"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Formulierung «gestützt auf Artikel 5 der Lärmschutz-Verordnung ... SR 814.41 (LSV)» verknüpft den genannten Artikel 5 syntaktisch eindeutig mit der LSV (SR 814.41)."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 946.51",
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Im Satzteil zur THG-Verweisung («in Ausführung des Bundesgesetzes ... SR 946.51 über die technischen Handelshemmnisse (THG)») wird kein bestimmter Artikel des THG genannt; es handelt sich um eine generelle Gesetzesgrundlage ohne artikelspezifische Angabe."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": "SR 946.512",
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Die Akkreditierungs- und Bezeichnungsverordnung (AkkBV, SR 946.512) wird nur als Ganzes erwähnt («nach der ... Verordnung ... SR 946.512 (AkkBV) akkreditiert sein»); kein Artikel dieser Verordnung wird im Kontext genannt."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_12",
+    "TARGET_SR": "SR 170.512.1",
+    "assigned_articles": [
+      "Art. 20 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Autorennotiz-Text steht ausdrücklich «in Anwendung von Art. 20 Abs. 2 der Publikationsverordnung ... (SR 170.512.1)»; der Artikel ist direkt mit der genannten Verordnung verknüpft."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_14",
+    "TARGET_SR": "SR 172.041.1",
+    "assigned_articles": [
+      "Art. 6 Abs. 2 Bst. a"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Satz lautet «über die Auslagen nach Artikel 6 Absatz 2 Buchstabe a der Allgemeinen Gebührenverordnung ... SR 172.041.1 (AllgGebV) hinaus»; damit ist Art. 6 Abs. 2 lit. a der AllgGebV (SR 172.041.1) eindeutig adressiert."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_14",
+    "TARGET_SR": "SR 814.014",
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Die Gebührenverordnung BAFU (SR 814.014) wird pauschal erwähnt («gelten die Bestimmungen der Gebührenverordnung BAFU ... SR 814.014»), ohne Nennung einzelner Artikel; dies ist eine generelle Verweisung auf die Verordnung als Ganzes."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": "SR 946.51",
+    "assigned_articles": [
+      "Art. 18 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Snippet steht «(Art. 18 Abs. 2 THG)»; THG ist in der Präambel als SR 946.51 definiert, sodass Art. 18 Abs. 2 eindeutig diesem Gesetz zugeordnet ist."
+  },
+  {
+    "ITEM": 8,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 5"
+    ],
+    "confidence": "high",
+    "reasoning": "«ein Konformitätsbewertungsverfahren nach Artikel 5» bezieht sich mangels externer SR-Nennung auf einen internen Artikel derselben Verordnung; es handelt sich um eine Selbstverweisung auf Art. 5 des aktuellen Erlasses."
+  },
+  {
+    "ITEM": 9,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 8"
+    ],
+    "confidence": "high",
+    "reasoning": "«eine Konformitätserklärung nach Artikel 8» verweist ohne externe SR-Angabe auf einen Artikel innerhalb desselben Dokuments; dies ist eine interne Verweisung auf Art. 8 der vorliegenden Verordnung."
+  },
+  {
+    "ITEM": 10,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 5"
+    ],
+    "confidence": "high",
+    "reasoning": "«aufgrund der Verfahren nach Artikel 5» steht ohne Bezug zu einem anderen SR-Dokument; syntaktisch ist dies eine Selbstverweisung auf Art. 5 der gleichen Verordnung."
+  },
+  {
+    "ITEM": 11,
+    "ARTICLE_EID": "art_14",
+    "TARGET_SR": "SR 172.041.1",
+    "assigned_articles": [
+      "Art. 6 Abs. 2 Bst. a"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Text wiederholt die Formulierung aus ITEM 5 («nach Artikel 6 Absatz 2 Buchstabe a der Allgemeinen Gebührenverordnung ... (AllgGebV)»). In Verbindung mit ITEM 5 ist klar, dass es sich um Art. 6 Abs. 2 lit. a der AllgGebV (SR 172.041.1) handelt."
+  }
+]

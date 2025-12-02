@@ -1,0 +1,55 @@
+[
+  {
+    "Item": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 642.14",
+    "assigned_articles": [
+      "Art. 74"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet explicitly cites 'Artikel 74 des Bundesgesetzes ... SR 642.14 ... (StHG)'; Art. 74 is directly and uniquely linked to SR 642.14."
+  },
+  {
+    "Item": 2,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": "SR 642.14",
+    "assigned_articles": [
+      "Art. 22 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "The text states '(Art. 22 Abs. 1 StHG)'; StHG is defined in the preamble as SR 642.14, so this is a direct reference to Art. 22 Abs. 1 of SR 642.14."
+  },
+  {
+    "Item": 3,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": "SR 642.14",
+    "assigned_articles": [
+      "Art. 8 Abs. 4",
+      "Art. 12 Abs. 3 Bst. d",
+      "Art. 12 Abs. 3 Bst. e",
+      "Art. 24 Abs. 4"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet mentions 'nach den Artikeln 8 Absatz 4, 12 Absatz 3 Buchstaben d und e und 24 Absatz 4 StHG'; StHG is SR 642.14, so these are explicit article and paragraph references within that SR."
+  },
+  {
+    "Item": 4,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "This is an internal cross-reference: 'Artikel 2' is cited without any SR or acronym, so it refers to Art. 2 of the same document (self-reference), not to an external SR."
+  },
+  {
+    "Item": 5,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": "SR 642.14",
+    "assigned_articles": [
+      "Art. 22 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet contains '(Art. 22 Abs. 1 StHG)'; via the preamble acronym, StHG = SR 642.14, so this is a cross-reference to Art. 22 Abs. 1 of SR 642.14 rather than a purely internal article of the current ordinance."
+  }
+]

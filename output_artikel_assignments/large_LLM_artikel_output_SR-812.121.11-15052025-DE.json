@@ -1,0 +1,126 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 812.121.1",
+    "assigned_articles": [
+      "Art. 3 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Formulierung «gestützt auf Artikel 3 Absatz 1 der Verordnung … SR 812.121.1 über die Betäubungsmittelkontrolle (BetmKV)» verweist eindeutig auf Art. 3 Abs. 1 der BetmKV."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 812.121",
+    "assigned_articles": [
+      "Art. 2a",
+      "Art. 7"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Snippet heisst es «… nach Artikel 2a und Artikel 7 des Betäubungsmittelgesetzes … SR 812.121 (BetmG)»; beide Artikel sind ausdrücklich dem BetmG zugeordnet."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": "SR 812.121.1",
+    "assigned_articles": [
+      "Art. 3 Abs. 2 Bst. a–d",
+      "Art. 3 Abs. 2 Bst. e",
+      "Art. 3 Abs. 2 Bst. f",
+      "Art. 3 Abs. 2 Bst. g"
+    ],
+    "confidence": "high",
+    "reasoning": "Mehrfach wird «nach Artikel 3 Absatz 2 Buchstaben a–d/e/f/g BetmKV» genannt; BetmKV ist in der Präambel als SR 812.121.1 definiert, daher beziehen sich alle genannten Buchstaben von Art. 3 Abs. 2 auf SR 812.121.1."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": "SR 812.121.1",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "medium",
+    "reasoning": "Das Snippet erwähnt nur, dass das Institut dem EDI Anträge auf Anpassungen stellt; es wird kein bestimmter Artikel der BetmKV genannt. Die Bezugnahme auf EDI (als in der Präambel mit SR 812.121.1 verknüpft) ist funktional, ohne konkrete Artikelangabe, daher als allgemeine Verweisung auf die Verordnung gewertet."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Interner Verweis innerhalb des aktuellen Dokuments"
+    ],
+    "confidence": "high",
+    "reasoning": "«… nach Artikel 2a und Artikel 7 des Betäubungsmittelgesetzes … (BetmG)» wiederholt den externen Verweis aus ITEM 2, dient hier aber als reine Artikelreferenz ohne explizite SR-Nennung; im Rahmen von artikel_reference wird dies als inhaltlicher Querverweis behandelt, nicht als neue SR-Zuordnung."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Interner Verweis innerhalb des aktuellen Dokuments"
+    ],
+    "confidence": "high",
+    "reasoning": "«… nach den Artikeln 2a und 7 BetmG …» ist eine weitere Wiederholung derselben externen Artikel, jedoch ohne SR-Angabe; als artikel_reference bleibt dies ein inhaltlicher Verweis, keine neue SR-Verknüpfung."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Interner Verweis innerhalb des aktuellen Dokuments"
+    ],
+    "confidence": "high",
+    "reasoning": "«… nach Artikel 2a BetmG …» verweist erneut auf denselben externen Artikel wie bereits in ITEM 2/5/6; ohne explizite SR im Snippet wird dies als interner Artikelverweis klassifiziert."
+  },
+  {
+    "ITEM": 8,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Interner Verweis innerhalb des aktuellen Dokuments"
+    ],
+    "confidence": "high",
+    "reasoning": "«(Art. 3 Abs. 2 BetmG)» ist ein weiterer Verweis auf das Betäubungsmittelgesetz, aber als artikel_reference ohne SR-Kontext; gemäss Vorgabe werden solche isolierten Artikelangaben als Selbst- bzw. interne Verweise behandelt."
+  },
+  {
+    "ITEM": 9,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Interner Verweis innerhalb des aktuellen Dokuments"
+    ],
+    "confidence": "high",
+    "reasoning": "«… nach Artikel 3 Absatz 2 Buchstaben a–d BetmKV …» steht hier ohne explizite SR-Nennung; da derselbe Bezug bereits in ITEM 3 mit SR 812.121.1 aufgelöst wurde, wird dieser artikel_reference als interner Querverweis gewertet."
+  },
+  {
+    "ITEM": 10,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Interner Verweis innerhalb des aktuellen Dokuments"
+    ],
+    "confidence": "high",
+    "reasoning": "«… nach Artikel 3 Absatz 2 Buchstabe e BetmKV …» wiederholt den bereits in ITEM 3 zugeordneten externen Artikel; als artikel_reference ohne SR bleibt es ein interner Verweis."
+  },
+  {
+    "ITEM": 11,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Interner Verweis innerhalb des aktuellen Dokuments"
+    ],
+    "confidence": "high",
+    "reasoning": "«… nach Artikel 3 Absatz 2 Buchstabe f BetmKV …» ist ebenfalls eine Wiederholung des in ITEM 3 erfassten Bezugs; daher als interner Querverweis eingestuft."
+  },
+  {
+    "ITEM": 12,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Interner Verweis innerhalb des aktuellen Dokuments"
+    ],
+    "confidence": "high",
+    "reasoning": "«… nach Artikel 3 Absatz 2 Buchstabe g BetmKV …» entspricht inhaltlich dem bereits in ITEM 3 zugeordneten externen Artikel; als artikel_reference ohne SR wird dies als interner Verweis behandelt."
+  }
+]

@@ -1,0 +1,124 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 172.010",
+    "assigned_articles": [
+      "Art. 46a"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet explicitly states 'gestützt auf Artikel 46a des Regierungs- und Verwaltungsorganisationsgesetzes ... SR 172.010'; Art. 46a is directly and uniquely linked to SR 172.010."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": "SR 741.511",
+    "assigned_articles": [
+      "Art. 32",
+      "Anhang 3"
+    ],
+    "confidence": "high",
+    "reasoning": "The sentence says 'richten sich nach Artikel 32 und Anhang 3 der Verordnung ... SR 741.511'; both Article 32 and Annex 3 are syntactically governed by the same prepositional phrase referring to this SR."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": "SR 172.041.1",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "The text refers generally to 'die Bestimmungen der Allgemeinen Gebührenverordnung ... SR 172.041.1' without specifying any article; this is a blanket reference to the ordinance as a whole."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": "SR 451.13",
+    "assigned_articles": [
+      "Art. 3 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet states 'Daten des Bundesinventars nach Artikel 3 Absatz 1 der Verordnung ... SR 451.13'; Article 3 paragraph 1 is explicitly and directly tied to SR 451.13."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": "SR 741.57",
+    "assigned_articles": [
+      "Art. 11 Abs. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "The sentence specifies 'die nach Artikel 11 Absatz 3 der Verordnung ... SR 741.57'; Article 11 paragraph 3 is clearly attributed to this SR."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": "SR 172.010.1",
+    "assigned_articles": [
+      "Art. 6"
+    ],
+    "confidence": "high",
+    "reasoning": "The text reads 'nach Artikel 6 der Regierungs- und Verwaltungsorganisationsverordnung ... SR 172.010.1'; Article 6 is explicitly linked to this ordinance."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": "SR 741.58",
+    "assigned_articles": [
+      "Art. 5 Abs. 1",
+      "Art. 7 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet mentions 'nach den Artikeln 5 Absatz 1 und 7 Absatz 1 der Verordnung ... SR 741.58'; both articles with their respective paragraphs are directly governed by the same reference to this SR."
+  },
+  {
+    "ITEM": 8,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "This artikel_reference snippet duplicates the text of ITEM 2 but without the SR number; the article 'Artikel 32' here is already assigned to SR 741.511 in ITEM 2. Within this detection type and per rules, it functions as a self-reference context in the current document rather than a new SR link."
+  },
+  {
+    "ITEM": 9,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "This repeats the content of ITEM 4 without the explicit SR; 'Artikel 3 Absatz 1' is already linked to SR 451.13 in ITEM 4. Here it serves as an internal cross-reference, not a separate SR assignment."
+  },
+  {
+    "ITEM": 10,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "This mirrors ITEM 5 but omits the SR number; 'Artikel 11 Absatz 3' has already been assigned to SR 741.57. Under the rules, this is treated as a self-reference within the same document."
+  },
+  {
+    "ITEM": 11,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "This snippet corresponds to ITEM 6 without the explicit SR; 'Artikel 6 der Regierungs- und Verwaltungsorganisationsverordnung' is already tied to SR 172.010.1. Here it is an internal cross-reference only."
+  },
+  {
+    "ITEM": 12,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "This repeats the structure of ITEM 7 without the SR; 'Artikeln 5 Absatz 1 und 7 Absatz 1' are already assigned to SR 741.58. In this artikel_reference context, they function as internal references within the current document."
+  }
+]

@@ -1,0 +1,256 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 941.20",
+    "assigned_articles": [
+      "Art. 13 Abs. 3",
+      "Art. 14 Abs. 2–4",
+      "Art. 18 Abs. 2",
+      "Art. 19"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Artikel werden ausdrücklich als «Artikel 13 Absatz 3, 14 Absätze 2–4, 18 Absatz 2 und 19 des Messgesetzes … SR 941.20» genannt; klare direkte Zuordnung zu SR 941.20."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 946.51",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "Formulierung «in Ausführung des Bundesgesetzes … SR 946.51 über die technischen Handelshemmnisse (THG)» ohne konkrete Artikelangabe; daher allgemeine Verweis auf das ganze Gesetz."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 812.212.21",
+    "assigned_articles": [
+      "Art. 41",
+      "Art. 42"
+    ],
+    "confidence": "high",
+    "reasoning": "«… nach den Artikeln 41 und 42 der Arzneimittelverordnung … SR 812.212.21»; die Artikel stehen direkt bei der Verordnungsbezeichnung mit SR-Nummer."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": "SR 941.202",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "«… nach der Einheitenverordnung vom 23. November 1994 SR 941.202 …» ohne Artikelangabe; allgemeiner Verweis auf die Verordnung."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": "SR 941.210",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "«… die den Anforderungen der Messmittelverordnung vom 15. Februar 2006 SR 941.210 … genügen»; keine konkrete Artikelstelle, sondern genereller Anforderungen-Verweis."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_6",
+    "TARGET_SR": "SR 941.210",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "Gleiche Struktur wie ITEM 5: allgemeiner Verweis auf die Messmittelverordnung SR 941.210 ohne Artikelangabe."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_8",
+    "TARGET_SR": "SR 941.210",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "«… Schankgefässen … die den Anforderungen der Messmittelverordnung … SR 941.210 … genügen»; keine spezifischen Artikel genannt."
+  },
+  {
+    "ITEM": 8,
+    "ARTICLE_EID": "art_9",
+    "TARGET_SR": "SR 941.210",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "«… müssen … den Anforderungen der Messmittelverordnung … SR 941.210 … genügen»; wiederum nur genereller Normverweis."
+  },
+  {
+    "ITEM": 9,
+    "ARTICLE_EID": "art_33",
+    "TARGET_SR": "SR 941.210",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "«… Messmittel … die den Anforderungen der Messmittelverordnung … SR 941.210 … genügen»; keine Artikelnummern, daher Gesamtverweis."
+  },
+  {
+    "ITEM": 10,
+    "ARTICLE_EID": "art_37",
+    "TARGET_SR": "SR 941.298.1",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "«… richtet sich nach der Eichgebührenverordnung vom 23. November 2005 SR 941.298.1 …»; Gebührenordnung als Ganzes, keine Artikel genannt."
+  },
+  {
+    "ITEM": 11,
+    "ARTICLE_EID": "art_37",
+    "TARGET_SR": "SR 941.298.2",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "«… und nach der Verordnung vom 5. Juli 2006 SR 941.298.2 über die Gebühren …»; allgemeiner Verweis auf die Gebührenverordnung ohne Artikelangabe."
+  },
+  {
+    "ITEM": 12,
+    "ARTICLE_EID": "art_35",
+    "TARGET_SR": "SR 946.51",
+    "assigned_articles": [
+      "Art. 19"
+    ],
+    "confidence": "high",
+    "reasoning": "«Weitere Massnahmen nach Artikel 19 THG bleiben vorbehalten.»; THG ist per Präambel SR 946.51, Artikel 19 ist direkt mit dem Gesetz verknüpft."
+  },
+  {
+    "ITEM": 13,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "Wiederholt den Inhalt von ITEM 3, aber ohne SR-Angabe; im Rahmen von artikel_reference ist dies eine Selbstreferenz innerhalb des aktuellen Dokuments, nicht ein neuer SR-Link."
+  },
+  {
+    "ITEM": 14,
+    "ARTICLE_EID": "art_7_a",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«… wenn eine Fertigpackung nach Artikel 2 Buchstabe b vorliegt.»; kein externes Gesetz genannt, daher Verweis auf Art. 2 lit. b derselben Verordnung."
+  },
+  {
+    "ITEM": 15,
+    "ARTICLE_EID": "art_15",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«… Konformitätskennzeichen nach Artikel 12 …»; ohne SR-Kontext, somit interner Verweis auf Art. 12 der eigenen Verordnung."
+  },
+  {
+    "ITEM": 16,
+    "ARTICLE_EID": "art_22",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«… zulässige Minusabweichung nach Artikel 19 Absätze 3 und 3bis …»; kein externes Gesetz, daher interner Verweis auf Art. 19 derselben Verordnung."
+  },
+  {
+    "ITEM": 17,
+    "ARTICLE_EID": "art_22",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "Gleicher Kontext wie ITEM 16: Bezug auf «Artikel 19 Absätze 3 und 3bis» ohne SR; interne Normverweisung."
+  },
+  {
+    "ITEM": 18,
+    "ARTICLE_EID": "art_22",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "Erneut «… zulässige Minusabweichung nach Artikel 19 Absätze 3 und 3bis …»; klar interne Verweisung."
+  },
+  {
+    "ITEM": 19,
+    "ARTICLE_EID": "art_24",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "medium",
+    "reasoning": "«… mit dem Zeichen nach Artikel 3 der Richtlinie 76/211/EWG …»; dies ist EU-Recht, nicht als SR-Link erfasst. Mangels SR-Kontext wird es als externe, aber im Rahmen dieser Aufgabe nicht zuzuordnende Referenz behandelt; kein TARGET_SR, daher keine SR-Artikelzuordnung."
+  },
+  {
+    "ITEM": 20,
+    "ARTICLE_EID": "art_26",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«… gelten abweichend von Artikel 19 …»; ohne SR-Angabe, somit interner Verweis auf Art. 19 derselben Verordnung."
+  },
+  {
+    "ITEM": 21,
+    "ARTICLE_EID": "art_32",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«… das europäische Konformitätskennzeichen (Art. 12) …»; Art. 12 ist Artikel der eigenen Verordnung, kein externer SR-Bezug."
+  },
+  {
+    "ITEM": 22,
+    "ARTICLE_EID": "art_32",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "Wiederum «… Konformitätskennzeichen (Art. 12) …»; interne Verweisung auf Art. 12."
+  },
+  {
+    "ITEM": 23,
+    "ARTICLE_EID": "art_33",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«… die den Anforderungen nach den Artikeln 28–31 genügen.»; ohne SR-Kontext, daher Verweis auf Art. 28–31 derselben Verordnung."
+  },
+  {
+    "ITEM": 24,
+    "ARTICLE_EID": "art_33",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«… für die zuständige Stelle (Art. 34) …»; Art. 34 ist ein Artikel der eigenen Verordnung; keine externe SR-Verweisung."
+  },
+  {
+    "ITEM": 25,
+    "ARTICLE_EID": "art_37",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«… Kontrollen nach den Artikeln 35 und 36 …»; diese Artikel gehören zur gleichen Verordnung; der nachfolgende SR-Bezug ist bereits in ITEM 10/11 abgedeckt."
+  }
+]

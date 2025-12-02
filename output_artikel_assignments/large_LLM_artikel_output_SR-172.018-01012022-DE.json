@@ -1,0 +1,70 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 101",
+    "assigned_articles": [
+      "Art. 182"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet explains that the former Article 102 Ziffer 5 BV corresponds today to Art. 182 BV of the Federal Constitution (SR 101). The only article of SR 101 explicitly mentioned is Art. 182."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 172.010",
+    "assigned_articles": "General reference - entire document",
+    "confidence": "high",
+    "reasoning": "The authorial note lists numerous AS references and then states: 'Siehe heute: das Regierungs- und Verwaltungsorganisationsgesetz vom 21. März 1997 (SR 172.010).' No specific article of SR 172.010 is cited; the law is referenced as a whole as the current legal basis."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 2 Abs. 1 lit. b"
+    ],
+    "confidence": "high",
+    "reasoning": "The phrase 'gemäss Artikel 2 Absatz 1 Buchstabe b' is an internal cross-reference within the same ordinance to its own Article 2 paragraph 1 letter b. No external SR is mentioned in the snippet, so this is a self-reference."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 2 Abs. 1 lit. a"
+    ],
+    "confidence": "high",
+    "reasoning": "The text 'gemäss Artikel 2 Absatz 1 Buchstabe a' clearly refers to Article 2 paragraph 1 letter a of the same document. There is no SR citation, so it is an internal reference."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 2 Abs. 1 lit. b"
+    ],
+    "confidence": "high",
+    "reasoning": "Again, 'gemäss Artikel 2 Absatz 1 Buchstabe b' points to Article 2 paragraph 1 letter b of the current ordinance. No external SR is syntactically linked; this is a self-reference."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 2 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "The wording 'gemäss Artikel 2 Absatz 2' refers to Article 2 paragraph 2 of the same legal act. There is no mention of another SR document in the sentence, so it is an internal article reference."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_6",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "The phrase 'gemäss Artikel 3' refers to Article 3 of the same ordinance, delimiting competences of other federal offices. No external SR is present; this is an internal cross-reference."
+  }
+]

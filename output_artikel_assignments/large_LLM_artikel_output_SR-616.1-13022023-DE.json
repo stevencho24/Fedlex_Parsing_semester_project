@@ -1,0 +1,218 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": "SR 192.12",
+    "assigned_articles": ["Art. 19"],
+    "confidence": "high",
+    "reasoning": "Der Satz spricht ausdrücklich von «Unterstützungsmassnahmen nach Artikel 19 des Gaststaatgesetzes ... SR 192.12»; Art. 19 ist direkt mit dem genannten Gesetz (SR 192.12) verknüpft."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_15_b",
+    "TARGET_SR": "SR 172.056.1",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "high",
+    "reasoning": "Es wird nur das Bundesgesetz über das öffentliche Beschaffungswesen (SR 172.056.1) als Ganzes genannt, ohne konkrete Artikelangabe; der Verweis betrifft das Beschaffungsrecht ausserhalb des Staatsvertragsbereichs insgesamt."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_15_b",
+    "TARGET_SR": "SR 170.512",
+    "assigned_articles": ["Art. 13 Abs. 1 Bst. g"],
+    "confidence": "high",
+    "reasoning": "Formulierung «nach Artikel 13 Absatz 1 Buchstabe g des Publikationsgesetzes ... SR 170.512» verknüpft eindeutig Art. 13 Abs. 1 lit. g mit dem Publikationsgesetz (SR 170.512)."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_30",
+    "TARGET_SR": "SR 313.0",
+    "assigned_articles": ["Art. 12"],
+    "confidence": "high",
+    "reasoning": "Der Text nennt ausdrücklich «Rückforderungen nach Artikel 12 des Verwaltungsstrafrechtsgesetzes ... SR 313.0»; Art. 12 ist klar dem VStrR (SR 313.0) zugeordnet."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_37",
+    "TARGET_SR": "SR 313.0",
+    "assigned_articles": ["Art. 14", "Art. 15", "Art. 16", "Art. 17", "Art. 18"],
+    "confidence": "high",
+    "reasoning": "Es heisst «gelten die Artikel 14–18 des Verwaltungsstrafrechtsgesetzes ... SR 313.0»; der Bereich 14–18 ist ein klassischer Artikelsbereich und bezieht sich vollständig auf SR 313.0."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_39",
+    "TARGET_SR": "SR 313.0",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "high",
+    "reasoning": "Formulierung «werden nach dem Verwaltungsstrafrechtsgesetz ... SR 313.0 ... verfolgt und beurteilt» enthält keine konkrete Artikelnummer; es geht um die Anwendung des VStrR als Ganzes auf das Verfahren."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Dies ist eine artikel_reference-Stelle; der Verweis «nach Artikel 19 des Gaststaatgesetzes» ist bereits in ITEM 1 als externer SR-Link (SR 192.12, Art. 19) erfasst. Hier handelt es sich nur um die gleiche Textstelle ohne explizite SR-Nennung; kein neuer SR-Link."
+  },
+  {
+    "ITEM": 8,
+    "ARTICLE_EID": "art_10",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Alle genannten Artikel (3 Abs. 2 Bst. b, 35 Abs. 1, 23) beziehen sich syntaktisch auf «des vorliegenden Gesetzes»; es wird kein anderes Gesetz oder SR genannt. Reine Selbstverweise."
+  },
+  {
+    "ITEM": 9,
+    "ARTICLE_EID": "art_15",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "«(Art. 17 Abs. 1 zweiter Satz; Art. 20 Abs. 1)» steht ohne Gesetzesangabe und im Kontext der gleichen Norm; dies sind interne Verweise innerhalb des vorliegenden Gesetzes."
+  },
+  {
+    "ITEM": 10,
+    "ARTICLE_EID": "art_15_b",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "«Artikel 13 Absatz 1 Buchstabe g des Publikationsgesetzes ...» ist derselbe Verweis wie in ITEM 3, wo der SR-Link SR 170.512 bereits zugeordnet wurde. Diese artikel_reference-Stelle ist nur die Textversion ohne SR-Angabe; kein zusätzlicher externer Link."
+  },
+  {
+    "ITEM": 11,
+    "ARTICLE_EID": "art_15_b",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "«nach den Artikeln 14–40 des vorliegenden Gesetzes» ist ausdrücklich als Verweis auf das eigene Gesetz formuliert; keine andere SR oder Gesetzesbezeichnung, daher reine Selbstreferenz."
+  },
+  {
+    "ITEM": 12,
+    "ARTICLE_EID": "art_17",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "«unter Vorbehalt von Artikel 23» nennt keinen Gesetzestitel; im Kontext des Artikels ist klar, dass es sich um einen Artikel desselben Gesetzes handelt. Kein externer SR-Bezug."
+  },
+  {
+    "ITEM": 13,
+    "ARTICLE_EID": "art_18",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "«nach Artikel 15» erfolgt ohne Nennung eines anderen Gesetzes; syntaktisch ein interner Verweis innerhalb des vorliegenden Erlasses."
+  },
+  {
+    "ITEM": 14,
+    "ARTICLE_EID": "art_19",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "«Vorbehalten bleibt Artikel 16 Absatz 3.» enthält keine Gesetzesbezeichnung; im Kontext des Artikels ist dies ein Selbstverweis auf einen anderen Artikel desselben Gesetzes."
+  },
+  {
+    "ITEM": 15,
+    "ARTICLE_EID": "art_19",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "«dessen Inhalt sich nach Artikel 17 oder 20a richtet» verweist nur auf andere Artikelnummern ohne Gesetzesangabe; dies sind interne Strukturverweise."
+  },
+  {
+    "ITEM": 16,
+    "ARTICLE_EID": "art_20",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "«Für den Inhalt des Antrages und des Vertrages gilt Artikel 17.» ist ein klarer Selbstverweis; kein anderes Gesetz oder SR wird erwähnt."
+  },
+  {
+    "ITEM": 17,
+    "ARTICLE_EID": "art_20",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Die Verweise auf «Artikel 18», «Artikel 18 Absatz 2» und «Artikel 19» stehen alle ohne Gesetzesangabe und im Kontext des «vorliegenden» Regelwerks; interne Verweise."
+  },
+  {
+    "ITEM": 18,
+    "ARTICLE_EID": "art_20_a",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "«Artikel 23 ist ... nicht anwendbar» ist ein Verweis innerhalb desselben Gesetzes; keine externe SR oder Gesetzesbezeichnung."
+  },
+  {
+    "ITEM": 19,
+    "ARTICLE_EID": "art_22",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "«(Art. 13)» steht in Klammern ohne Gesetzesangabe; im Kontext des Artikels ist dies ein interner Verweis auf Art. 13 desselben Erlasses."
+  },
+  {
+    "ITEM": 20,
+    "ARTICLE_EID": "art_30",
+    "TARGET_SR": "SR 313.0",
+    "assigned_articles": ["Art. 12"],
+    "confidence": "high",
+    "reasoning": "Dies ist die artikel_reference-Version derselben Passage wie in ITEM 4; dort ist der SR-Link SR 313.0 explizit. Der Verweis «Artikel 12 des Verwaltungsstrafrechtsgesetzes» gehört daher zu SR 313.0, Art. 12."
+  },
+  {
+    "ITEM": 21,
+    "ARTICLE_EID": "art_31",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "«Artikel 30 gilt sinngemäss ...» bezieht sich auf einen Artikel desselben Gesetzes; keine externe Gesetzes- oder SR-Nennung."
+  },
+  {
+    "ITEM": 22,
+    "ARTICLE_EID": "art_32",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "«Artikel 29 Absatz 3» wird ohne Gesetzesangabe erwähnt; im Kontext ist dies ein interner Verweis auf Art. 29 Abs. 3 des vorliegenden Gesetzes."
+  },
+  {
+    "ITEM": 23,
+    "ARTICLE_EID": "art_37",
+    "TARGET_SR": "SR 313.0",
+    "assigned_articles": ["Art. 14", "Art. 15", "Art. 16", "Art. 17", "Art. 18"],
+    "confidence": "high",
+    "reasoning": "Dies ist die artikel_reference-Version derselben Formulierung wie in ITEM 5; dort ist der SR-Link SR 313.0 explizit. Der Bereich «Artikel 14–18 des Verwaltungsstrafrechtsgesetzes» gehört daher zu SR 313.0."
+  },
+  {
+    "ITEM": 24,
+    "ARTICLE_EID": "art_39",
+    "TARGET_SR": "SR 313.0",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "high",
+    "reasoning": "Textlich identisch mit ITEM 6, nur ohne explizite SR-Angabe; dort ist klargestellt, dass es um das Verwaltungsstrafrechtsgesetz (SR 313.0) als Ganzes geht. Kein bestimmter Artikel genannt."
+  },
+  {
+    "ITEM": 25,
+    "ARTICLE_EID": "art_39",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "«Widerhandlungen nach Artikel 37 oder 38» sind interne Verweise auf Strafbestimmungen desselben Gesetzes; keine externe SR oder Gesetzesbezeichnung."
+  },
+  {
+    "ITEM": 26,
+    "ARTICLE_EID": "art_40",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "«Artikel 11 Absätze 2 und 3» wird ohne Gesetzesangabe erwähnt; im Kontext des Artikels ist dies ein Selbstverweis auf Art. 11 desselben Erlasses."
+  },
+  {
+    "ITEM": 27,
+    "ARTICLE_EID": "art_40",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "«Artikel 11 Absatz 3» wird wiederum ohne Gesetzesangabe genannt; syntaktisch klarer interner Verweis innerhalb des vorliegenden Gesetzes."
+  }
+]

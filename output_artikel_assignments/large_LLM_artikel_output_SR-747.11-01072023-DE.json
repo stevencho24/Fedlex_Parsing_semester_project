@@ -1,0 +1,520 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 101",
+    "assigned_articles": [
+      "Art. 87",
+      "Art. 122 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet explicitly cites 'Artikel 87 und 122 Absatz 1 der Bundesverfassung SR 101'; both articles are grammatically linked to SR 101."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 0.747.224.101",
+    "assigned_articles": [
+      "Art. 2 Abs. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "Phrase 'Artikel 2 Absatz 3 der revidierten Rheinschifffahrtsakte ... SR 0.747.224.101' directly links this article and paragraph to the cited SR."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_6",
+    "TARGET_SR": "SR 742.211",
+    "assigned_articles": "General reference - entire document",
+    "confidence": "high",
+    "reasoning": "The citation 'Bundesgesetz vom 25. September 1917 SR 742.211 über Verpfändung und Zwangsliquidation ...' names the whole act without specifying any article."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_28",
+    "TARGET_SR": "SR 210",
+    "assigned_articles": [
+      "Art. 955",
+      "Art. 961",
+      "Art. 963–966",
+      "Art. 967 Abs. 1–2",
+      "Art. 969–971",
+      "Art. 973–977"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet lists specific ZGB provisions: 'Die Artikel 955, 961, 963–966, 967 Absätze 1 und 2, 969–971, 973–977 des Zivilgesetzbuches SR 210'; all are clearly attributed to SR 210."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_32",
+    "TARGET_SR": "SR 220",
+    "assigned_articles": [
+      "Art. 13 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Text 'Artikel 13 Absatz 2 des Obligationenrechtes SR 220 ist nicht anwendbar' directly ties Art. 13 Abs. 2 to SR 220."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_35",
+    "TARGET_SR": "SR 210",
+    "assigned_articles": "General reference - entire document",
+    "confidence": "medium",
+    "reasoning": "Refers generically to 'die Vorschriften des Zivilgesetzbuches SR 210 über das Fahrniseigentum' without naming specific articles; Fahrniseigentum spans multiple provisions, so treat as a general reference."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_36",
+    "TARGET_SR": "SR 210",
+    "assigned_articles": "General reference - entire document",
+    "confidence": "medium",
+    "reasoning": "Refers broadly to 'die Vorschriften des Zivilgesetzbuches SR 210 über die Nutzniessung' with no article numbers; Nutzniessung is regulated in several ZGB articles, so this is a general thematic reference."
+  },
+  {
+    "ITEM": 8,
+    "ARTICLE_EID": "art_46",
+    "TARGET_SR": "SR 210",
+    "assigned_articles": [
+      "Art. 808 Abs. 1–2",
+      "Art. 809",
+      "Art. 810 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet: 'wie sie die Artikel 808 Absätze 1 und 2, 809 und 810 Absatz 1 des Zivilgesetzbuches SR 210 ... einräumen'; these provisions are explicitly linked to SR 210."
+  },
+  {
+    "ITEM": 9,
+    "ARTICLE_EID": "art_47",
+    "TARGET_SR": "SR 210",
+    "assigned_articles": [
+      "Art. 813–815"
+    ],
+    "confidence": "high",
+    "reasoning": "Text: 'Die Vorschriften der Artikel 813–815 des Zivilgesetzbuches SR 210 ...'; the range is clearly attributed to SR 210."
+  },
+  {
+    "ITEM": 10,
+    "ARTICLE_EID": "art_48",
+    "TARGET_SR": "SR 210",
+    "assigned_articles": [
+      "Art. 816–819"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet: 'nach den Artikeln 816–819 des Zivilgesetzbuches SR 210'; explicit range tied to SR 210."
+  },
+  {
+    "ITEM": 11,
+    "ARTICLE_EID": "art_53_bis",
+    "TARGET_SR": "SR 210",
+    "assigned_articles": [
+      "Art. 808 Abs. 3",
+      "Art. 810 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Text: 'gemäss den Artikeln 808 Absatz 3 und 810 Absatz 2 des Zivilgesetzbuches SR 210'; both articles and paragraphs are clearly linked to SR 210."
+  },
+  {
+    "ITEM": 12,
+    "ARTICLE_EID": "art_56",
+    "TARGET_SR": "SR 281.1",
+    "assigned_articles": [
+      "Art. 95 Abs. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "Phrase 'Artikel 95 Absatz 3 des Schuldbetreibungs- und Konkursgesetzes ... SR 281.1' directly attributes Art. 95 Abs. 3 to SR 281.1."
+  },
+  {
+    "ITEM": 13,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 2 Abs. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "Self-reference item: 'Artikel 2 Absatz 3 der revidierten Rheinschifffahrtsakte ...' clearly refers to Art. 2 Abs. 3 of that external act; this article is not used in any previous artikel_reference item, so it is captured here as a cross-reference."
+  },
+  {
+    "ITEM": 14,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 4 Abs. 2–3"
+    ],
+    "confidence": "high",
+    "reasoning": "Self-reference: 'Bescheinigung nach Artikel 4 Absätze 2 und 3 dieses Gesetzes' refers to internal Art. 4 paragraphs 2–3 of the current act; not previously captured as a self-reference."
+  },
+  {
+    "ITEM": 15,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 4 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet: 'weitere Voraussetzungen von Artikel 4 Absatz 1 erfüllen' is an internal cross-reference to Art. 4 Abs. 1 of the same law; no external SR is mentioned."
+  },
+  {
+    "ITEM": 16,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 4 Abs. 2–3"
+    ],
+    "confidence": "high",
+    "reasoning": "Refers to 'Voraussetzungen von Artikel 4 Absätze 2 und 3'; internal reference to Art. 4 paras. 2–3 of this act."
+  },
+  {
+    "ITEM": 17,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 4"
+    ],
+    "confidence": "high",
+    "reasoning": "Text: 'das Schiff, das die Voraussetzungen von Artikel 4 erfüllt'; internal reference to Art. 4 of the same statute."
+  },
+  {
+    "ITEM": 18,
+    "ARTICLE_EID": "art_8",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 4"
+    ],
+    "confidence": "high",
+    "reasoning": "Refers to 'Schiff, das die in Artikel 4 genannten Voraussetzungen erfüllt'; internal cross-reference to Art. 4."
+  },
+  {
+    "ITEM": 19,
+    "ARTICLE_EID": "art_8",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 4"
+    ],
+    "confidence": "high",
+    "reasoning": "Phrase 'ob die Voraussetzungen von Artikel 4 vorhanden sind' is an internal reference to Art. 4."
+  },
+  {
+    "ITEM": 20,
+    "ARTICLE_EID": "art_10",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 4 Abs. 2–3"
+    ],
+    "confidence": "high",
+    "reasoning": "Mentions 'Bescheinigung nach Artikel 4 Absätze 2 und 3'; internal reference to Art. 4 paras. 2–3."
+  },
+  {
+    "ITEM": 21,
+    "ARTICLE_EID": "art_10",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 15"
+    ],
+    "confidence": "high",
+    "reasoning": "Text: 'Bezeichnung als bedingte Anmeldung gemäss Artikel 15'; internal cross-reference to Art. 15."
+  },
+  {
+    "ITEM": 22,
+    "ARTICLE_EID": "art_10",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 7"
+    ],
+    "confidence": "high",
+    "reasoning": "Refers to 'von den gemäss Artikel 7 zur Anmeldung Verpflichteten'; internal reference to Art. 7."
+  },
+  {
+    "ITEM": 23,
+    "ARTICLE_EID": "art_11",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 10 Abs. 2 Ziff. 1–7, 8, 9"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet: 'Angaben nach Artikel 10 Absatz 2 Ziffern 1–7, 8 und 9'; internal reference to specific parts of Art. 10."
+  },
+  {
+    "ITEM": 24,
+    "ARTICLE_EID": "art_11",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 10 Abs. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "Refers to 'Veränderungen gemäss Artikel 10 Absatz 3'; internal cross-reference to Art. 10 Abs. 3."
+  },
+  {
+    "ITEM": 25,
+    "ARTICLE_EID": "art_14",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 37"
+    ],
+    "confidence": "high",
+    "reasoning": "Text: 'bei dem nach Artikel 37 zuständigen Richter'; internal reference to Art. 37."
+  },
+  {
+    "ITEM": 26,
+    "ARTICLE_EID": "art_16",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 53bis"
+    ],
+    "confidence": "high",
+    "reasoning": "Mentions 'gesetzliche Pfandrechte ohne Eintragung ... (Art. 53bis)'; internal reference to Art. 53bis of this act."
+  },
+  {
+    "ITEM": 27,
+    "ARTICLE_EID": "art_18",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 16 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet: 'veröffentlicht gemäss Artikel 16 Absatz 1 die Übertragung'; internal reference to Art. 16 Abs. 1."
+  },
+  {
+    "ITEM": 28,
+    "ARTICLE_EID": "art_19",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 4",
+      "Art. 7 Abs. 2–3"
+    ],
+    "confidence": "high",
+    "reasoning": "Refers to 'Voraussetzungen nach Artikel 4' and 'Artikel 7 Absätze 2 und 3 finden Anwendung'; both are internal cross-references."
+  },
+  {
+    "ITEM": 29,
+    "ARTICLE_EID": "art_20",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 7 Abs. 2–3"
+    ],
+    "confidence": "high",
+    "reasoning": "Text: 'Artikel 7 Absätze 2 und 3 finden Anwendung'; internal reference to Art. 7 paras. 2–3."
+  },
+  {
+    "ITEM": 30,
+    "ARTICLE_EID": "art_21",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 22"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet: 'von dem ihm durch Artikel 22 eingeräumten Rechte'; internal cross-reference to Art. 22."
+  },
+  {
+    "ITEM": 31,
+    "ARTICLE_EID": "art_22",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 4"
+    ],
+    "confidence": "high",
+    "reasoning": "Refers to 'Schiffe, die die Voraussetzungen von Artikel 4 nicht erfüllen'; internal reference to Art. 4."
+  },
+  {
+    "ITEM": 32,
+    "ARTICLE_EID": "art_23",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 13–22"
+    ],
+    "confidence": "high",
+    "reasoning": "Text: 'im Verfahren gemäss den Artikeln 13–22'; internal range reference to Arts. 13–22."
+  },
+  {
+    "ITEM": 33,
+    "ARTICLE_EID": "art_24",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 26 Abs. 1 Ziff. 1–3"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet: 'die in Artikel 26 Absatz 1 Ziffern 1–3 genannten Rechte'; internal reference to Art. 26 Abs. 1 Ziff. 1–3."
+  },
+  {
+    "ITEM": 34,
+    "ARTICLE_EID": "art_28",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 955",
+      "Art. 961",
+      "Art. 963–966",
+      "Art. 967 Abs. 1–2",
+      "Art. 969–971",
+      "Art. 973–977"
+    ],
+    "confidence": "high",
+    "reasoning": "Self-reference version of ITEM 4: 'Die Artikel 955, 961, 963–966, 967 Absätze 1 und 2, 969–971, 973–977 des Zivilgesetzbuches' are external ZGB provisions; this line is not yet covered by another artikel_reference item, so it is captured here as a cross-reference."
+  },
+  {
+    "ITEM": 35,
+    "ARTICLE_EID": "art_32",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 13 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Self-reference version of ITEM 5: 'Artikel 13 Absatz 2 des Obligationenrechtes ist nicht anwendbar' refers to OR Art. 13 Abs. 2; not previously used in an artikel_reference item."
+  },
+  {
+    "ITEM": 36,
+    "ARTICLE_EID": "art_35",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 19–22"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet: 'durch Streichung des Schiffes (Art. 19–22)' is an internal range reference to Arts. 19–22 of this act."
+  },
+  {
+    "ITEM": 37,
+    "ARTICLE_EID": "art_36",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 32 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Text: 'bedarf es eines schriftlichen Vertrages (Art. 32 Abs. 2)' clearly refers internally to Art. 32 Abs. 2."
+  },
+  {
+    "ITEM": 38,
+    "ARTICLE_EID": "art_41",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 32 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet: 'Artikel 32 Absatz 2 ist anwendbar'; internal reference to Art. 32 Abs. 2."
+  },
+  {
+    "ITEM": 39,
+    "ARTICLE_EID": "art_46",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 808 Abs. 1–2",
+      "Art. 809",
+      "Art. 810 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "Self-reference version of ITEM 8: 'Artikel 808 Absätze 1 und 2, 809 und 810 Absatz 1 des Zivilgesetzbuches' are external ZGB provisions; this line is not yet covered by another artikel_reference item."
+  },
+  {
+    "ITEM": 40,
+    "ARTICLE_EID": "art_47",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 813–815"
+    ],
+    "confidence": "high",
+    "reasoning": "Self-reference version of ITEM 9: 'Artikel 813–815 des Zivilgesetzbuches' are external ZGB provisions; captured here as a cross-reference."
+  },
+  {
+    "ITEM": 41,
+    "ARTICLE_EID": "art_48",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 816–819"
+    ],
+    "confidence": "high",
+    "reasoning": "Self-reference version of ITEM 10: 'Artikeln 816–819 des Zivilgesetzbuches' are external ZGB provisions; captured here as a cross-reference."
+  },
+  {
+    "ITEM": 42,
+    "ARTICLE_EID": "art_51",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 38–50"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet: 'Die Artikel 38–50 dieses Gesetzes' is an internal range reference to Arts. 38–50."
+  },
+  {
+    "ITEM": 43,
+    "ARTICLE_EID": "art_53_bis",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 38",
+      "Art. 51"
+    ],
+    "confidence": "high",
+    "reasoning": "Text: 'nach Artikel 38 und den gesetzlichen Pfandrechten nach Artikel 51 im Range vorgeht'; internal references to Arts. 38 and 51."
+  },
+  {
+    "ITEM": 44,
+    "ARTICLE_EID": "art_53_bis",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 808 Abs. 3",
+      "Art. 810 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Self-reference version of ITEM 11: 'gemäss den Artikeln 808 Absatz 3 und 810 Absatz 2 des Zivilgesetzbuches' are external ZGB provisions; captured here as a cross-reference."
+  },
+  {
+    "ITEM": 45,
+    "ARTICLE_EID": "art_54",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 54 Abs. 1–2",
+      "Art. 57–61"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet: 'Auf das Verfahren finden die Artikel 54 Absätze 1 und 2 und 57–61 entsprechende Anwendung'; internal references to these provisions of the same act."
+  },
+  {
+    "ITEM": 46,
+    "ARTICLE_EID": "art_56",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 95 Abs. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "Self-reference version of ITEM 12: 'Artikel 95 Absatz 3 des Schuldbetreibungs- und Konkursgesetzes' is an external reference to SchKG Art. 95 Abs. 3."
+  },
+  {
+    "ITEM": 47,
+    "ARTICLE_EID": "art_59",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 57"
+    ],
+    "confidence": "high",
+    "reasoning": "Text: 'Während der Dauer der Verwaltung ist Artikel 57 anwendbar'; internal reference to Art. 57."
+  },
+  {
+    "ITEM": 48,
+    "ARTICLE_EID": "art_62",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 7",
+      "Art. 10",
+      "Art. 18",
+      "Art. 19",
+      "Art. 20"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet: 'Wer die in den Artikeln 7, 10, 18, 19 und 20 aufgestellte Anmeldepflicht verletzt'; internal references to these articles."
+  },
+  {
+    "ITEM": 49,
+    "ARTICLE_EID": "art_67",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 4 Abs. 2–3"
+    ],
+    "confidence": "high",
+    "reasoning": "Text: 'neuen Voraussetzungen nach Artikel 4 Absätze 2 und 3'; internal reference to Art. 4 paras. 2–3."
+  },
+  {
+    "ITEM": 50,
+    "ARTICLE_EID": "art_67",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 19"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet: 'so ist das Schiff nach Artikel 19 im Schiffsregister zu streichen'; internal reference to Art. 19."
+  }
+]

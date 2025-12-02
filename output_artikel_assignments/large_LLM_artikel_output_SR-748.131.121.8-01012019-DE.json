@@ -1,0 +1,83 @@
+[
+  {
+    "Item": 1,
+    "SOURCE_ARTICLE_EID": "preamble",
+    "LINKED_SR": "SR 748.131.1",
+    "LINKED_ARTIKEL": [
+      "Art. 29c Abs. 4",
+      "Art. 29d Abs. 3"
+    ],
+    "RELATION_TYPE": "SR_link_detection",
+    "CONFIDENCE": "high",
+    "REASONING": "Die Formulierung \"gestützt auf die Artikel 29c Absatz 4 und 29d Absatz 3 der Verordnung ... SR 748.131.1\" verknüpft die genannten Artikel syntaktisch eindeutig mit der genannten Verordnung (VIL, SR 748.131.1)."
+  },
+  {
+    "Item": 2,
+    "SOURCE_ARTICLE_EID": "art_9",
+    "LINKED_SR": "SR 742.161",
+    "LINKED_ARTIKEL": [
+      "Art. 1 Abs. 1 lit. b",
+      "Art. 3 lit. b"
+    ],
+    "RELATION_TYPE": "SR_link_detection",
+    "CONFIDENCE": "high",
+    "REASONING": "Im Satz \"... im Sinne von Artikel 1 Absatz 1 Buchstabe b und Artikel 3 Buchstabe b der Verordnung ... SR 742.161\" werden die Artikel 1 Abs. 1 lit. b und 3 lit. b ausdrücklich dieser Verordnung (SR 742.161) zugeordnet."
+  },
+  {
+    "Item": 3,
+    "SOURCE_ARTICLE_EID": "art_10",
+    "LINKED_SR": "SR 631.01",
+    "LINKED_ARTIKEL": [
+      "Art. 142 Abs. 2"
+    ],
+    "RELATION_TYPE": "SR_link_detection",
+    "CONFIDENCE": "high",
+    "REASONING": "Die Passage \"(Art. 142 Abs. 2 der Zollverordnung ... SR 631.01)\" weist Art. 142 Abs. 2 eindeutig der Zollverordnung SR 631.01 zu."
+  },
+  {
+    "Item": 4,
+    "SOURCE_ARTICLE_EID": "art_14_a",
+    "LINKED_SR": "SR 748.0",
+    "LINKED_ARTIKEL": [
+      "Art. 91 Abs. 1 lit. i"
+    ],
+    "RELATION_TYPE": "SR_link_detection",
+    "CONFIDENCE": "high",
+    "REASONING": "Formulierung \"wird nach Artikel 91 Absatz 1 Buchstabe i des Luftfahrtgesetzes ... SR 748.0 bestraft\" verknüpft Art. 91 Abs. 1 lit. i klar mit SR 748.0."
+  },
+  {
+    "Item": 5,
+    "SOURCE_ARTICLE_EID": "art_9",
+    "LINKED_SR": null,
+    "LINKED_ARTIKEL": [
+      "Art. 1 Abs. 1 lit. b",
+      "Art. 3 lit. b"
+    ],
+    "RELATION_TYPE": "artikel_reference",
+    "CONFIDENCE": "high",
+    "REASONING": "Dies ist die gleiche Textpassage wie bei Item 2, jedoch ohne explizite SR-Angabe. Die Artikel 1 Abs. 1 lit. b und 3 lit. b beziehen sich hier auf die in Item 2 bereits mit SR 742.161 verknüpfte Verordnung; im Rahmen von artikel_reference bleibt es aber eine externe Verweisstruktur ohne TARGET_SR."
+  },
+  {
+    "Item": 6,
+    "SOURCE_ARTICLE_EID": "art_10",
+    "LINKED_SR": null,
+    "LINKED_ARTIKEL": [
+      "Art. 142 Abs. 2"
+    ],
+    "RELATION_TYPE": "artikel_reference",
+    "CONFIDENCE": "high",
+    "REASONING": "Die Stelle \"(Art. 142 Abs. 2 der Zollverordnung vom 1. November 2006)\" entspricht semantisch Item 3; hier wird Art. 142 Abs. 2 als externer Artikel genannt, aber ohne explizite SR im Snippet dieses artikel_reference-Eintrags."
+  },
+  {
+    "Item": 7,
+    "SOURCE_ARTICLE_EID": "art_14_a",
+    "LINKED_SR": null,
+    "LINKED_ARTIKEL": [
+      "Art. 5 Abs. 2",
+      "Art. 91 Abs. 1 lit. i"
+    ],
+    "RELATION_TYPE": "artikel_reference",
+    "CONFIDENCE": "high",
+    "REASONING": "Der Satz verweist auf \"Artikel 5 Absatz 2\" (interne Selbstreferenz innerhalb derselben Verordnung SR 748.131.121.8) und auf \"Artikel 91 Absatz 1 Buchstabe i des Luftfahrtgesetzes\" (externer Verweis, in Item 4 mit SR 748.0 verknüpft). Als artikel_reference werden beide Artikel als referenzierte Artikel erfasst, ohne TARGET_SR."
+  }
+]

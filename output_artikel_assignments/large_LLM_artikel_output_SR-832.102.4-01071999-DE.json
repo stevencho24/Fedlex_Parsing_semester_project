@@ -1,0 +1,82 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 832.10",
+    "assigned_articles": [
+      "Art. 58 Abs. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Formulierung «gestützt auf Artikel 58 Absatz 3 des Bundesgesetzes ... SR 832.10» verknüpft den genannten Artikel grammatikalisch eindeutig mit dem Gesetz SR 832.10."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 832.102",
+    "assigned_articles": [
+      "Art. 77 Abs. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Passage «... und Artikel 77 Absatz 3 der Verordnung vom 27. Juni 1995 SR 832.102 über die Krankenversicherung» ordnet Art. 77 Abs. 3 klar der Verordnung SR 832.102 zu."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 832.112.31",
+    "assigned_articles": [
+      "Art. 12 lit. o Ziff. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Satz wird ausdrücklich auf «Artikel 12 Buchstabe o Ziffer 2 der Verordnung ... SR 832.112.31» Bezug genommen; dieser Artikel gehört damit eindeutig zu SR 832.112.31."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_10",
+    "TARGET_SR": "SR 170.512.1",
+    "assigned_articles": [
+      "Art. 4a"
+    ],
+    "confidence": "high",
+    "reasoning": "Im authorialNote-Text heisst es «gemäss Art. 4a der Publikationsverordnung ... – SR 170.512.1 –»; Art. 4a ist damit klar dieser Verordnung zugeordnet."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "«Artikel 12 Buchstabe o Ziffer 2 der Verordnung vom 29. September 1995 über Leistungen in der obligatorischen Krankenpflegeversicherung» ist bereits in ITEM 3 eindeutig SR 832.112.31 zugeordnet; hier handelt es sich um dieselbe externe Verweisung, kein zusätzlicher SR-Link und keine neue Selbstreferenz."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "«Artikel 3» verweist auf einen Artikel derselben Verordnung (interne Selbstreferenz); es wird kein anderes SR-Dokument genannt."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Die «Artikel 4, 7 und 10» sind Artikel derselben Verordnung; es fehlt jeder Bezug zu einem externen SR, daher reine Selbstreferenzen."
+  },
+  {
+    "ITEM": 8,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "«Artikel 10» bezieht sich auf einen anderen Artikel innerhalb derselben Verordnung; kein externer SR-Bezug vorhanden."
+  },
+  {
+    "ITEM": 9,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "«Artikel 6» ist ein Artikel derselben Verordnung; es wird kein anderes SR-Dokument erwähnt, somit interne Selbstreferenz ohne SR-Zuordnung."
+  }
+]

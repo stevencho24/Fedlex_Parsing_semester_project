@@ -1,0 +1,33 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 101",
+    "assigned_articles": [
+      "Art. 54 Abs. 1",
+      "Art. 166 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Präambel nennt ausdrücklich «die Artikel 54 Absatz 1 und 166 Absatz 2 der Bundesverfassung SR 101»; beide Artikel sind damit klar diesem SR-Dokument zugeordnet."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 0.672.954.51",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Satz genehmigt das Abkommen als Ganzes («Das Abkommen ... wird genehmigt.»), ohne einzelne Artikel des Abkommens zu nennen; daher handelt es sich um eine generelle Verweisung auf das gesamte Abkommen."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«Artikel 141 Absatz 1 Buchstabe d Ziffer 3 der Bundesverfassung» verweist auf einen Artikel der Bundesverfassung (SR 101), jedoch ist dies ein artikel_reference-Eintrag ohne TARGET_SR und ohne vorherige Zuordnung dieses Artikels zu SR 101 in einem SR_link_detection- oder preamble_acronym-Item; gemäss Vorgabe ist dies als Selbst- bzw. interne Referenz des aktuellen Dokuments zu behandeln und nicht als neue SR-Verknüpfung auszugeben."
+  }
+]

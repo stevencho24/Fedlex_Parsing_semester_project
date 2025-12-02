@@ -1,0 +1,121 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 946.231",
+    "assigned_articles": [
+      "Art. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet explicitly states 'gestützt auf Artikel 2 des Embargogesetzes ... SR 946.231 (EmbG)'; Art. 2 is directly and syntactically linked to SR 946.231."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_18",
+    "TARGET_SR": "SR 170.512.1",
+    "assigned_articles": [
+      "Art. 20 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "The authorial note reads 'in Anwendung von Art. 20 Abs. 2 der Publikationsverordnung ... (SR 170.512.1)'; the article reference and SR are in the same prepositional phrase, so Art. 20 Abs. 2 clearly belongs to SR 170.512.1."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_20",
+    "TARGET_SR": "SR 946.231",
+    "assigned_articles": [
+      "Art. 9",
+      "Art. 10"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet states 'wird nach Artikel 9 EmbG bestraft' and 'wird nach Artikel 10 EmbG bestraft'; EmbG is defined in the preamble as SR 946.231, so Art. 9 and Art. 10 of EmbG belong to SR 946.231."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_18",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 2–9",
+      "Art. 10–14",
+      "Art. 16"
+    ],
+    "confidence": "high",
+    "reasoning": "This is an internal cross-reference within the same ordinance: 'Zwangsmassnahmen nach den Artikeln 2–9, 10–14 und 16.' No external SR is mentioned, so it is a self-reference to articles of the current document, not to another SR."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_18",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 15"
+    ],
+    "confidence": "high",
+    "reasoning": "The phrase 'Massnahmen nach Artikel 15' refers to another provision of the same ordinance. There is no SR or acronym linking it to an external act, so it is an internal article reference."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_18",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 17"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet 'Ein- und Durchreiseverbot nach Artikel 17' clearly points to another article of the same ordinance; no external SR is present, so this is a self-reference."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_18",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 9a"
+    ],
+    "confidence": "high",
+    "reasoning": "The wording 'Zwangsmassnahmen nach Artikel 9a' is an internal reference to article 9a of the current ordinance; there is no syntactic or semantic link to an external SR."
+  },
+  {
+    "ITEM": 8,
+    "ARTICLE_EID": "art_19",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 10 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "The phrase 'Sperrung nach Artikel 10 Absatz 1' refers to paragraph 1 of article 10 of the same ordinance; no external SR is cited, so it is an internal structural reference."
+  },
+  {
+    "ITEM": 9,
+    "ARTICLE_EID": "art_19",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 10 Abs. 4"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet 'Gutschriften nach Artikel 10 Absatz 4' points to paragraph 4 of article 10 within the same document; again, no SR is mentioned, so this is a self-reference."
+  },
+  {
+    "ITEM": 10,
+    "ARTICLE_EID": "art_20",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 2",
+      "Art. 2a",
+      "Art. 6",
+      "Art. 9a",
+      "Art. 10",
+      "Art. 16",
+      "Art. 17"
+    ],
+    "confidence": "high",
+    "reasoning": "The clause 'Wer gegen Artikel 2, 2a, 6, 9a, 10, 16 oder 17 verstösst' lists internal provisions of the same ordinance; the subsequent 'wird nach Artikel 9 EmbG bestraft' concerns SR 946.231 but is handled in item 3. Here, only the internal articles 2, 2a, 6, 9a, 10, 16, 17 are being referenced."
+  },
+  {
+    "ITEM": 11,
+    "ARTICLE_EID": "art_20",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 19"
+    ],
+    "confidence": "high",
+    "reasoning": "The phrase 'Wer gegen Artikel 19 verstösst' is an internal reference to article 19 of the same ordinance; the punishment 'nach Artikel 10 EmbG' (SR 946.231) is already captured in item 3, so this item concerns only the self-reference to Art. 19."
+  }
+]

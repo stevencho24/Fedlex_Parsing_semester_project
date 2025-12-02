@@ -1,0 +1,32 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 171.10",
+    "assigned_articles": [
+      "Art. 59"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet explicitly states 'gestützt auf Artikel 59 des Parlamentsgesetzes ... SR 171.10 (ParlG)'; Article 59 is directly and syntactically linked to SR 171.10."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_6",
+    "TARGET_SR": "SR 171.10",
+    "assigned_articles": [
+      "Art. 58 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet reads 'Im Sinne von Artikel 58 Absatz 1 ParlG'; 'ParlG' is defined in the preamble as SR 171.10, so Article 58 paragraph 1 clearly belongs to SR 171.10."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": "SR 171.10",
+    "assigned_articles": [
+      "Art. 58 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet reads 'Im Sinne von Artikel 58 Absatz 2 ParlG'; 'ParlG' refers to SR 171.10, so Article 58 paragraph 2 is unambiguously an article of SR 171.10."
+  }
+]

@@ -1,0 +1,42 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 414.20",
+    "assigned_articles": [
+      "Art. 73 Abs. 4"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Preambel-Satz wird ausdrücklich «gestützt auf Artikel 73 Absatz 4 des Hochschulförderungs- und -koordinationsgesetzes … SR 414.20» formuliert. Der Artikel ist direkt mit dem Gesetz SR 414.20 verknüpft (direkte Markierung und präpositionale Zuordnung)."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 414.201",
+    "assigned_articles": [
+      "Art. 58 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "Im gleichen Preambel-Satz heisst es «… und auf Artikel 58 Absatz 1 der Verordnung vom 23. November 2016 SR 414.201 zum Hochschulförderungs- und -koordinationsgesetz». Der Artikel 58 Abs. 1 ist damit eindeutig SR 414.201 zugeordnet."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": "SR 414.20",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "low",
+    "reasoning": "Das Kürzel WBF ist im Preambel mit SR 414.20 verknüpft, im Snippet von Art. 4 wird jedoch nur das «Staatssekretariat für Bildung, Forschung und Innovation» und das «WBF» erwähnt, ohne jegliche Artikelangabe oder klaren syntaktischen Bezug zu einem bestimmten Artikel des SR 414.20. Daher ist nur eine unspezifische, dokumentweite Bezugnahme annehmbar."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": "SR 414.20",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "low",
+    "reasoning": "Art. 5 erwähnt «Die Verordnung des WBF vom 2. September 2005 über die Zulassung zu Fachhochschulstudien» und hebt diese auf. Über das im Preambel definierte Kürzel WBF besteht zwar ein Bezug zu SR 414.20, es werden aber keine konkreten Artikel genannt und kein enger syntaktischer Bezug zu einem bestimmten Artikel hergestellt. Daher nur eine allgemeine Dokumentverweisung."
+  }
+]

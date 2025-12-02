@@ -1,0 +1,2389 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 101",
+    "assigned_articles": ["Art. 123 Abs. 1"],
+    "confidence": "high",
+    "reasoning": "Die Formulierung «gestützt auf Artikel 123 Absatz 1 der Bundesverfassung SR 101» verknüpft den genannten Artikel grammatikalisch eindeutig mit SR 101."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_8",
+    "TARGET_SR": "SR 311.0",
+    "assigned_articles": ["Art. 52", "Art. 53", "Art. 54"],
+    "confidence": "high",
+    "reasoning": "«unter den Voraussetzungen der Artikel 52, 53 und 54 des Strafgesetzbuches SR 311.0» ist eine direkte Zuordnung dieser Artikel zum StGB."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_19",
+    "TARGET_SR": "SR 311.0",
+    "assigned_articles": ["Art. 64", "Art. 59"],
+    "confidence": "high",
+    "reasoning": "Im Satz werden «Verwahrung nach Artikel 64 StGB» und «Behandlung nach Artikel 59 StGB» ausdrücklich genannt; beide gehören zum StGB (SR 311.0)."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_23",
+    "TARGET_SR": "SR 311.0",
+    "assigned_articles": "General reference - entire document",
+    "confidence": "medium",
+    "reasoning": "Es wird nur allgemein auf «Straftaten des StGB SR 311.0» verwiesen, ohne konkrete Artikelangabe."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_24",
+    "TARGET_SR": "SR 311.0",
+    "assigned_articles": [
+      "Art. 260ter",
+      "Art. 260quinquies",
+      "Art. 260sexies",
+      "Art. 305bis",
+      "Art. 305ter",
+      "Art. 322ter",
+      "Art. 322quater",
+      "Art. 322quinquies",
+      "Art. 322sexies",
+      "Art. 322septies"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Straftaten werden als «nach den Artikeln 260ter, 260quinquies, 260sexies, 305bis, 305ter und 322ter–322septies StGB SR 311.0» bezeichnet; der Bereich 322ter–322septies wird als Artikelfolge interpretiert."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_35",
+    "TARGET_SR": "SR 311.0",
+    "assigned_articles": ["Art. 28"],
+    "confidence": "high",
+    "reasoning": "«Straftat nach Artikel 28 StGB SR 311.0» verweist eindeutig auf Art. 28 StGB."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_36",
+    "TARGET_SR": "SR 311.0",
+    "assigned_articles": ["Art. 163", "Art. 164", "Art. 165", "Art. 166", "Art. 167", "Art. 168", "Art. 169", "Art. 170", "Art. 171"],
+    "confidence": "high",
+    "reasoning": "«Straftaten nach den Artikeln 163–171 StGB SR 311.0» nennt einen geschlossenen Artikelsbereich, der vollständig zuzuordnen ist."
+  },
+  {
+    "ITEM": 8,
+    "ARTICLE_EID": "art_73",
+    "TARGET_SR": "SR 311.0",
+    "assigned_articles": ["Art. 292"],
+    "confidence": "high",
+    "reasoning": "Die Schweigepflicht wird «unter Hinweis auf Artikel 292 StGB SR 311.0» angeordnet; klarer Einzelartikelverweis."
+  },
+  {
+    "ITEM": 9,
+    "ARTICLE_EID": "art_82",
+    "TARGET_SR": "SR 311.0",
+    "assigned_articles": ["Art. 64", "Art. 59"],
+    "confidence": "high",
+    "reasoning": "Wie bei ITEM 3: explizite Nennung von Art. 64 und Art. 59 StGB im Zusammenhang mit SR 311.0."
+  },
+  {
+    "ITEM": 10,
+    "ARTICLE_EID": "art_86",
+    "TARGET_SR": "SR 943.03",
+    "assigned_articles": "General reference - entire document",
+    "confidence": "medium",
+    "reasoning": "Es heisst «gemäss Bundesgesetz ... SR 943.03 über die elektronische Signatur» ohne konkrete Artikelangabe; allgemeiner Gesetzesverweis."
+  },
+  {
+    "ITEM": 11,
+    "ARTICLE_EID": "art_96",
+    "TARGET_SR": "SR 120",
+    "assigned_articles": ["Art. 14", "Art. 20"],
+    "confidence": "high",
+    "reasoning": "«die Artikel 14 und 20 des Bundesgesetzes ... SR 120» verknüpft diese Artikel direkt mit SR 120."
+  },
+  {
+    "ITEM": 12,
+    "ARTICLE_EID": "art_96",
+    "TARGET_SR": "SR 121",
+    "assigned_articles": ["Art. 19", "Art. 20"],
+    "confidence": "high",
+    "reasoning": "«die Artikel 19 und 20 des Nachrichtendienstgesetzes ... SR 121» ist ein klarer Artikelnachweis."
+  },
+  {
+    "ITEM": 13,
+    "ARTICLE_EID": "art_96",
+    "TARGET_SR": "SR 361",
+    "assigned_articles": "General reference - entire document",
+    "confidence": "medium",
+    "reasoning": "Es wird nur von «den Vorschriften des Bundesgesetzes ... SR 361» gesprochen, ohne Artikelangabe."
+  },
+  {
+    "ITEM": 14,
+    "ARTICLE_EID": "art_96",
+    "TARGET_SR": "SR 360",
+    "assigned_articles": "General reference - entire document",
+    "confidence": "medium",
+    "reasoning": "Analog zu ITEM 13: allgemeiner Verweis auf das Gesetz SR 360 ohne Artikel."
+  },
+  {
+    "ITEM": 15,
+    "ARTICLE_EID": "art_99",
+    "TARGET_SR": "SR 360",
+    "assigned_articles": "General reference - entire document",
+    "confidence": "medium",
+    "reasoning": "«Vorschriften des Bundesgesetzes ... SR 360» ohne Artikelspezifikation."
+  },
+  {
+    "ITEM": 16,
+    "ARTICLE_EID": "art_99",
+    "TARGET_SR": "SR 361",
+    "assigned_articles": "General reference - entire document",
+    "confidence": "medium",
+    "reasoning": "«Vorschriften des Bundesgesetzes ... SR 361» ohne konkrete Artikel."
+  },
+  {
+    "ITEM": 17,
+    "ARTICLE_EID": "art_110",
+    "TARGET_SR": "SR 943.03",
+    "assigned_articles": "General reference - entire document",
+    "confidence": "medium",
+    "reasoning": "Wie bei ITEM 10: allgemeiner Verweis auf das Signaturgesetz SR 943.03 ohne Artikel."
+  },
+  {
+    "ITEM": 18,
+    "ARTICLE_EID": "art_121",
+    "TARGET_SR": "SR 311.0",
+    "assigned_articles": ["Art. 110 Abs. 1"],
+    "confidence": "high",
+    "reasoning": "«Angehörigen im Sinne von Artikel 110 Absatz 1 StGB SR 311.0» ist ein eindeutiger Verweis auf Art. 110 Abs. 1 StGB."
+  },
+  {
+    "ITEM": 19,
+    "ARTICLE_EID": "art_127",
+    "TARGET_SR": "SR 935.61",
+    "assigned_articles": "General reference - entire document",
+    "confidence": "medium",
+    "reasoning": "Es wird nur auf das Anwaltsgesetz SR 935.61 als Ganzes Bezug genommen, ohne Artikelangabe."
+  },
+  {
+    "ITEM": 20,
+    "ARTICLE_EID": "art_165",
+    "TARGET_SR": "SR 311.0",
+    "assigned_articles": ["Art. 292"],
+    "confidence": "high",
+    "reasoning": "«unter Hinweis auf die Strafdrohung von Artikel 292 StGB SR 311.0» ist ein klarer Einzelartikelverweis."
+  },
+  {
+    "ITEM": 21,
+    "ARTICLE_EID": "art_168",
+    "TARGET_SR": "SR 211.222.338",
+    "assigned_articles": ["Art. 4", "Art. 5", "Art. 6", "Art. 7", "Art. 8", "Art. 9", "Art. 10", "Art. 11"],
+    "confidence": "high",
+    "reasoning": "Der Einschub «Art. 4–11 der V ... (SR 211.222.338)» nennt explizit den Artikelsbereich 4–11 dieser Verordnung."
+  },
+  {
+    "ITEM": 22,
+    "ARTICLE_EID": "art_168",
+    "TARGET_SR": "SR 311.0",
+    "assigned_articles": ["Art. 111", "Art. 112", "Art. 113", "Art. 122", "Art. 124", "Art. 140", "Art. 184", "Art. 185", "Art. 187", "Art. 189", "Art. 190", "Art. 191"],
+    "confidence": "high",
+    "reasoning": "Die Straftaten werden als «nach den Artikeln 111–113, 122, 124, 140, 184, 185, 187, 189, 190 oder 191 StGB SR 311.0» bezeichnet; Bereich 111–113 wird als drei Einzelartikel verstanden."
+  },
+  {
+    "ITEM": 23,
+    "ARTICLE_EID": "art_170",
+    "TARGET_SR": "SR 311.0",
+    "assigned_articles": ["Art. 110 Abs. 3"],
+    "confidence": "high",
+    "reasoning": "«Beamtinnen und Beamte im Sinne von Artikel 110 Absatz 3 StGB SR 311.0» verweist eindeutig auf Art. 110 Abs. 3 StGB."
+  },
+  {
+    "ITEM": 24,
+    "ARTICLE_EID": "art_171",
+    "TARGET_SR": "SR 311.0",
+    "assigned_articles": ["Art. 321 Ziff. 2"],
+    "confidence": "high",
+    "reasoning": "«nach Artikel 321 Ziffer 2 StGB SR 311.0» ist ein klarer Verweis auf Art. 321 Ziff. 2 StGB."
+  },
+  {
+    "ITEM": 25,
+    "ARTICLE_EID": "art_171",
+    "TARGET_SR": "SR 935.61",
+    "assigned_articles": "General reference - entire document",
+    "confidence": "medium",
+    "reasoning": "«Das Anwaltsgesetz ... SR 935.61 bleibt vorbehalten» ist ein pauschaler Gesetzesverweis ohne Artikel."
+  },
+  {
+    "ITEM": 26,
+    "ARTICLE_EID": "art_172",
+    "TARGET_SR": "SR 311.0",
+    "assigned_articles": [
+      "Art. 111",
+      "Art. 112",
+      "Art. 113",
+      "Art. 187",
+      "Art. 189",
+      "Art. 190",
+      "Art. 191",
+      "Art. 197 Abs. 4",
+      "Art. 260ter",
+      "Art. 260quinquies",
+      "Art. 260sexies",
+      "Art. 305bis",
+      "Art. 305ter",
+      "Art. 322ter",
+      "Art. 322quater",
+      "Art. 322quinquies",
+      "Art. 322sexies",
+      "Art. 322septies"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Text nennt «Tötungsdelikte im Sinne der Artikel 111–113 StGB» sowie «Straftaten nach den Artikeln 187, 189, 190, 191, 197 Absatz 4, 260ter, 260quinquies, 260sexies, 305bis, 305ter und 322ter–322septies StGB»; alle diese Artikel gehören zu SR 311.0."
+  },
+  {
+    "ITEM": 27,
+    "ARTICLE_EID": "art_172",
+    "TARGET_SR": "SR 812.121",
+    "assigned_articles": ["Art. 19 Abs. 2"],
+    "confidence": "high",
+    "reasoning": "«Straftaten nach Artikel 19 Absatz 2 des Betäubungsmittelgesetzes ... SR 812.121» verweist klar auf Art. 19 Abs. 2 BetmG."
+  },
+  {
+    "ITEM": 28,
+    "ARTICLE_EID": "art_173",
+    "TARGET_SR": "SR 311.0",
+    "assigned_articles": ["Art. 321bis"],
+    "confidence": "high",
+    "reasoning": "«Artikel 321bis StGB SR 311.0» ist ein eindeutiger Einzelartikelverweis."
+  },
+  {
+    "ITEM": 29,
+    "ARTICLE_EID": "art_173",
+    "TARGET_SR": "SR 210",
+    "assigned_articles": ["Art. 139 Abs. 3"],
+    "confidence": "high",
+    "reasoning": "«Artikel 139 Absatz 3 des Zivilgesetzbuchs SR 210» benennt den Artikel ausdrücklich; Hinweis auf Aufhebung ändert die Zuordnung nicht."
+  },
+  {
+    "ITEM": 30,
+    "ARTICLE_EID": "art_173",
+    "TARGET_SR": "SR 857.5",
+    "assigned_articles": ["Art. 2"],
+    "confidence": "high",
+    "reasoning": "«Artikel 2 des Bundesgesetzes ... SR 857.5» ist ein klarer Verweis."
+  },
+  {
+    "ITEM": 31,
+    "ARTICLE_EID": "art_173",
+    "TARGET_SR": "SR 312.5",
+    "assigned_articles": ["Art. 11"],
+    "confidence": "high",
+    "reasoning": "«Artikel 11 des Opferhilfegesetzes ... SR 312.5» benennt den Artikel direkt."
+  },
+  {
+    "ITEM": 32,
+    "ARTICLE_EID": "art_173",
+    "TARGET_SR": "SR 812.121",
+    "assigned_articles": ["Art. 3c Abs. 4"],
+    "confidence": "high",
+    "reasoning": "«Artikel 3c Absatz 4 BetmG SR 812.121» ist ein eindeutiger Verweis."
+  },
+  {
+    "ITEM": 33,
+    "ARTICLE_EID": "art_176",
+    "TARGET_SR": "SR 311.0",
+    "assigned_articles": ["Art. 292"],
+    "confidence": "high",
+    "reasoning": "«unter Hinweis auf Artikel 292 StGB SR 311.0» verweist klar auf Art. 292 StGB."
+  },
+  {
+    "ITEM": 34,
+    "ARTICLE_EID": "art_177",
+    "TARGET_SR": "SR 311.0",
+    "assigned_articles": ["Art. 307"],
+    "confidence": "high",
+    "reasoning": "«Strafbarkeit eines falschen Zeugnisses nach Artikel 307 StGB SR 311.0» ist ein eindeutiger Artikelverweis."
+  },
+  {
+    "ITEM": 35,
+    "ARTICLE_EID": "art_184",
+    "TARGET_SR": "SR 311.0",
+    "assigned_articles": ["Art. 307"],
+    "confidence": "high",
+    "reasoning": "«Straffolgen eines falschen Gutachtens nach Artikel 307 StGB SR 311.0» verweist auf denselben Artikel 307 StGB."
+  },
+  {
+    "ITEM": 36,
+    "ARTICLE_EID": "art_231",
+    "TARGET_SR": "SR 311.0",
+    "assigned_articles": ["Art. 292"],
+    "confidence": "high",
+    "reasoning": "«unter Hinweis auf die Strafdrohung von Artikel 292 StGB SR 311.0» ist ein klarer Verweis."
+  },
+  {
+    "ITEM": 37,
+    "ARTICLE_EID": "art_240",
+    "TARGET_SR": "SR 311.0",
+    "assigned_articles": ["Art. 73"],
+    "confidence": "high",
+    "reasoning": "«in sinngemässer Anwendung von Artikel 73 StGB SR 311.0» verweist eindeutig auf Art. 73 StGB."
+  },
+  {
+    "ITEM": 38,
+    "ARTICLE_EID": "art_251",
+    "TARGET_SR": "SR 311.0",
+    "assigned_articles": ["Art. 111", "Art. 112", "Art. 113", "Art. 122", "Art. 124", "Art. 140", "Art. 184", "Art. 185", "Art. 187", "Art. 189", "Art. 190", "Art. 191"],
+    "confidence": "high",
+    "reasoning": "Die Formulierung entspricht ITEM 22; dieselben StGB-Artikel werden genannt und gehören zu SR 311.0."
+  },
+  {
+    "ITEM": 39,
+    "ARTICLE_EID": "art_255",
+    "TARGET_SR": "SR 363",
+    "assigned_articles": ["Art. 10"],
+    "confidence": "high",
+    "reasoning": "«Informationssystem nach Artikel 10 des DNA-Profil-Gesetzes ... SR 363» verweist klar auf Art. 10 des Gesetzes SR 363."
+  },
+  {
+    "ITEM": 40,
+    "ARTICLE_EID": "art_258_a",
+    "TARGET_SR": "SR 311.0",
+    "assigned_articles": [
+      "Art. 111",
+      "Art. 112",
+      "Art. 113",
+      "Art. 118 Abs. 2",
+      "Art. 122",
+      "Art. 124",
+      "Art. 140",
+      "Art. 156 Ziff. 2",
+      "Art. 156 Ziff. 3",
+      "Art. 156 Ziff. 4",
+      "Art. 182",
+      "Art. 184",
+      "Art. 185",
+      "Art. 187",
+      "Art. 189 Abs. 1",
+      "Art. 189 Abs. 3",
+      "Art. 190 Abs. 1",
+      "Art. 190 Abs. 3",
+      "Art. 191",
+      "Art. 260ter",
+      "Art. 264",
+      "Art. 264a",
+      "Art. 264b",
+      "Art. 264c",
+      "Art. 264d",
+      "Art. 264e",
+      "Art. 264f",
+      "Art. 264g",
+      "Art. 264h",
+      "Art. 264i",
+      "Art. 264j",
+      "Art. 264k",
+      "Art. 264l"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Norm zählt explizit die StGB-Artikel «111−113, 118 Absatz 2, 122, 124, 140, 156 Ziffern 2−4, 182, 184, 185, 187, 189 Absätze 1 und 3, 190 Absätze 1 und 3, 191, 260ter oder 264−264l StGB SR 311.0» auf; der Bereich 264−264l wird als fortlaufende Artikelreihe interpretiert."
+  },
+  {
+    "ITEM": 41,
+    "ARTICLE_EID": "art_258_a",
+    "TARGET_SR": "SR 363",
+    "assigned_articles": ["Art. 2a"],
+    "confidence": "high",
+    "reasoning": "«Suchlauf nach Verwandtschaftsbezug nach Artikel 2a des DNA-Profil-Gesetzes ... SR 363» verweist eindeutig auf Art. 2a SR 363."
+  },
+  {
+    "ITEM": 42,
+    "ARTICLE_EID": "art_258_b",
+    "TARGET_SR": "SR 363",
+    "assigned_articles": ["Art. 2b"],
+    "confidence": "high",
+    "reasoning": "«Phänotypisierung nach Artikel 2b des DNA-Profil-Gesetzes ... SR 363» ist ein klarer Einzelartikelverweis."
+  },
+  {
+    "ITEM": 43,
+    "ARTICLE_EID": "art_258_b",
+    "TARGET_SR": "SR 311.0",
+    "assigned_articles": [
+      "Art. 111",
+      "Art. 112",
+      "Art. 113",
+      "Art. 118 Abs. 2",
+      "Art. 122",
+      "Art. 124",
+      "Art. 140",
+      "Art. 156 Ziff. 2",
+      "Art. 156 Ziff. 3",
+      "Art. 156 Ziff. 4",
+      "Art. 182",
+      "Art. 184",
+      "Art. 185",
+      "Art. 187",
+      "Art. 189 Abs. 1",
+      "Art. 189 Abs. 3",
+      "Art. 190 Abs. 1",
+      "Art. 190 Abs. 3",
+      "Art. 191",
+      "Art. 260ter",
+      "Art. 264",
+      "Art. 264a",
+      "Art. 264b",
+      "Art. 264c",
+      "Art. 264d",
+      "Art. 264e",
+      "Art. 264f",
+      "Art. 264g",
+      "Art. 264h",
+      "Art. 264i",
+      "Art. 264j",
+      "Art. 264k",
+      "Art. 264l"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Wortlaut entspricht demjenigen von ITEM 40, nun mit explizitem Zusatz «StGB SR 311.0»; dieselben StGB-Artikel sind betroffen."
+  },
+  {
+    "ITEM": 44,
+    "ARTICLE_EID": "art_259",
+    "TARGET_SR": "SR 363",
+    "assigned_articles": "General reference - entire document",
+    "confidence": "medium",
+    "reasoning": "«Im Übrigen findet das DNA-Profil-Gesetz ... SR 363 Anwendung» ist ein genereller Gesetzesverweis ohne Artikel."
+  },
+  {
+    "ITEM": 45,
+    "ARTICLE_EID": "art_261",
+    "TARGET_SR": "SR 363",
+    "assigned_articles": ["Art. 16", "Art. 17", "Art. 18"],
+    "confidence": "high",
+    "reasoning": "«Löschung von DNA-Profilen nach den Artikeln 16–18 des DNA-Profil-Gesetzes ... SR 363» nennt explizit den Artikelsbereich 16–18."
+  },
+  {
+    "ITEM": 46,
+    "ARTICLE_EID": "art_263",
+    "TARGET_SR": "SR 311.0",
+    "assigned_articles": ["Art. 71"],
+    "confidence": "high",
+    "reasoning": "«Ersatzforderungen des Staates gemäss Artikel 71 StGB SR 311.0» verweist eindeutig auf Art. 71 StGB."
+  },
+  {
+    "ITEM": 47,
+    "ARTICLE_EID": "art_264",
+    "TARGET_SR": "SR 935.61",
+    "assigned_articles": "General reference - entire document",
+    "confidence": "medium",
+    "reasoning": "Es wird nur auf das Anwaltsgesetz SR 935.61 als Ganzes Bezug genommen, ohne Artikelangabe."
+  },
+  {
+    "ITEM": 48,
+    "ARTICLE_EID": "art_265",
+    "TARGET_SR": "SR 311.0",
+    "assigned_articles": ["Art. 292"],
+    "confidence": "high",
+    "reasoning": "«auf die Strafdrohung von Artikel 292 StGB SR 311.0» ist ein klarer Verweis auf Art. 292 StGB."
+  },
+  {
+    "ITEM": 49,
+    "ARTICLE_EID": "art_266",
+    "TARGET_SR": "SR 281.1",
+    "assigned_articles": "General reference - entire document",
+    "confidence": "medium",
+    "reasoning": "«nach den Bestimmungen des Bundesgesetzes ... SR 281.1 ... (SchKG)» ist ein allgemeiner Gesetzesverweis ohne konkrete Artikel."
+  },
+  {
+    "ITEM": 50,
+    "ARTICLE_EID": "art_268",
+    "TARGET_SR": "SR 281.1",
+    "assigned_articles": ["Art. 92", "Art. 93", "Art. 94"],
+    "confidence": "high",
+    "reasoning": "«Vermögenswerte, die nach den Artikeln 92–94 SchKG SR 281.1 nicht pfändbar sind» nennt explizit den Artikelsbereich 92–94."
+  },
+  {
+    "ITEM": 51,
+    "ARTICLE_EID": "art_269",
+    "TARGET_SR": "SR 311.0",
+    "assigned_articles": [
+      "Art. 111",
+      "Art. 112",
+      "Art. 113",
+      "Art. 115",
+      "Art. 118 Abs. 2",
+      "Art. 122",
+      "Art. 124",
+      "Art. 127",
+      "Art. 129",
+      "Art. 135",
+      "Art. 138",
+      "Art. 139",
+      "Art. 140",
+      "Art. 143",
+      "Art. 144 Abs. 3",
+      "Art. 144bis Ziff. 1 Abs. 2",
+      "Art. 144bis Ziff. 2 Abs. 2",
+      "Art. 146",
+      "Art. 147",
+      "Art. 148",
+      "Art. 156",
+      "Art. 157 Ziff. 2",
+      "Art. 158 Ziff. 1 Abs. 3",
+      "Art. 158 Ziff. 2",
+      "Art. 160",
+      "Art. 163 Ziff. 1",
+      "Art. 180",
+      "Art. 181",
+      "Art. 182",
+      "Art. 183",
+      "Art. 184",
+      "Art. 185",
+      "Art. 185bis",
+      "Art. 187",
+      "Art. 188",
+      "Art. 189",
+      "Art. 190",
+      "Art. 191",
+      "Art. 193",
+      "Art. 193a",
+      "Art. 195",
+      "Art. 196",
+      "Art. 197",
+      "Art. 220",
+      "Art. 221 Abs. 1",
+      "Art. 221 Abs. 2",
+      "Art. 223 Ziff. 1",
+      "Art. 224 Abs. 1",
+      "Art. 226",
+      "Art. 226bis",
+      "Art. 226ter",
+      "Art. 227 Ziff. 1 Abs. 1",
+      "Art. 228 Ziff. 1 Abs. 1",
+      "Art. 230bis",
+      "Art. 231",
+      "Art. 232 Ziff. 1",
+      "Art. 233 Ziff. 1",
+      "Art. 234 Abs. 1",
+      "Art. 237 Ziff. 1",
+      "Art. 240 Abs. 1",
+      "Art. 242",
+      "Art. 244",
+      "Art. 251 Ziff. 1",
+      "Art. 258",
+      "Art. 259 Abs. 1",
+      "Art. 260bis",
+      "Art. 260ter",
+      "Art. 260quater",
+      "Art. 260quinquies",
+      "Art. 260sexies",
+      "Art. 261bis",
+      "Art. 264",
+      "Art. 265",
+      "Art. 266",
+      "Art. 267",
+      "Art. 271",
+      "Art. 272 Ziff. 2",
+      "Art. 273",
+      "Art. 274 Ziff. 1 Abs. 2",
+      "Art. 285",
+      "Art. 301",
+      "Art. 303 Ziff. 1",
+      "Art. 305",
+      "Art. 305bis Ziff. 2",
+      "Art. 310",
+      "Art. 312",
+      "Art. 314",
+      "Art. 317 Ziff. 1",
+      "Art. 319",
+      "Art. 322ter",
+      "Art. 322quater",
+      "Art. 322septies"
+    ],
+    "confidence": "high",
+    "reasoning": "Der lange Katalog «StGB SR 311.0: Artikel 111–113, 115, 118 Absatz 2, ... 322septies» listet alle betroffenen StGB-Artikel explizit auf; Bereiche (z.B. 138–140, 180–185bis, 264–267) werden als vollständige Sequenzen interpretiert."
+  },
+  {
+    "ITEM": 52,
+    "ARTICLE_EID": "art_269",
+    "TARGET_SR": "SR 170.512",
+    "assigned_articles": ["Art. 12 Abs. 2"],
+    "confidence": "high",
+    "reasoning": "Im Einschub heisst es «in Anwendung von Art. 12 Abs. 2 des Publikationsgesetzes ... (SR 170.512)»; dies ist ein klarer Verweis auf Art. 12 Abs. 2 dieses Gesetzes."
+  },
+  {
+    "ITEM": 53,
+    "ARTICLE_EID": "art_269",
+    "TARGET_SR": "SR 142.20",
+    "assigned_articles": ["Art. 116 Abs. 3", "Art. 118 Abs. 3"],
+    "confidence": "high",
+    "reasoning": "«Ausländer- und Integrationsgesetz ... SR 142.20: Artikel 116 Absatz 3 und 118 Absatz 3» nennt die Artikel explizit."
+  },
+  {
+    "ITEM": 54,
+    "ARTICLE_EID": "art_269",
+    "TARGET_SR": "SR 211.221.31",
+    "assigned_articles": ["Art. 24"],
+    "confidence": "high",
+    "reasoning": "«... SR 211.221.31 ...: Artikel 24» ist ein eindeutiger Einzelartikelverweis."
+  },
+  {
+    "ITEM": 55,
+    "ARTICLE_EID": "art_269",
+    "TARGET_SR": "SR 514.51",
+    "assigned_articles": ["Art. 33 Abs. 2"],
+    "confidence": "high",
+    "reasoning": "«Kriegsmaterialgesetz ... SR 514.51: Artikel 33 Absatz 2» benennt den Artikel klar."
+  },
+  {
+    "ITEM": 56,
+    "ARTICLE_EID": "art_269",
+    "TARGET_SR": "SR 732.1",
+    "assigned_articles": ["Art. 88 Abs. 1", "Art. 88 Abs. 2", "Art. 89 Abs. 1", "Art. 89 Abs. 2", "Art. 90 Abs. 1"],
+    "confidence": "high",
+    "reasoning": "«Kernenergiegesetz ... SR 732.1: Artikel 88 Absätze 1 und 2, 89 Absätze 1 und 2 und 90 Absatz 1» nennt diese Absätze ausdrücklich."
+  },
+  {
+    "ITEM": 57,
+    "ARTICLE_EID": "art_269",
+    "TARGET_SR": "SR 812.121",
+    "assigned_articles": ["Art. 19 Abs. 2", "Art. 20 Abs. 2"],
+    "confidence": "high",
+    "reasoning": "«BetmG SR 812.121: Artikel 19 Absatz 2 sowie 20 Absatz 2» ist ein klarer Verweis."
+  },
+  {
+    "ITEM": 58,
+    "ARTICLE_EID": "art_269",
+    "TARGET_SR": "SR 814.01",
+    "assigned_articles": ["Art. 60 Abs. 1 Bst. g", "Art. 60 Abs. 1 Bst. h", "Art. 60 Abs. 1 Bst. i", "Art. 60 Abs. 1 Bst. m", "Art. 60 Abs. 1 Bst. o", "Art. 60 Abs. 1bis"],
+    "confidence": "high",
+    "reasoning": "«Umweltschutzgesetz ... SR 814.01: Artikel 60 Absatz 1 Buchstaben g–i, m und o sowie Absatz 1bis» nennt diese Bestimmungen ausdrücklich."
+  },
+  {
+    "ITEM": 59,
+    "ARTICLE_EID": "art_269",
+    "TARGET_SR": "SR 946.202",
+    "assigned_articles": ["Art. 14 Abs. 2"],
+    "confidence": "high",
+    "reasoning": "«Güterkontrollgesetz ... SR 946.202: Artikel 14 Absatz 2» ist ein eindeutiger Verweis."
+  },
+  {
+    "ITEM": 60,
+    "ARTICLE_EID": "art_269",
+    "TARGET_SR": "SR 415.0",
+    "assigned_articles": ["Art. 22 Abs. 2", "Art. 25a Abs. 3"],
+    "confidence": "high",
+    "reasoning": "«Sportförderungsgesetz ... SR 415.0: Artikel 22 Absatz 2 und 25a Absatz 3» nennt beide Bestimmungen."
+  },
+  {
+    "ITEM": 61,
+    "ARTICLE_EID": "art_269",
+    "TARGET_SR": "SR 958.1",
+    "assigned_articles": ["Art. 154", "Art. 155"],
+    "confidence": "high",
+    "reasoning": "«Finanzmarktinfrastrukturgesetz ... SR 958.1: Artikel 154 und 155» ist ein klarer Artikelnachweis."
+  },
+  {
+    "ITEM": 62,
+    "ARTICLE_EID": "art_269",
+    "TARGET_SR": "SR 514.54",
+    "assigned_articles": ["Art. 33 Abs. 3"],
+    "confidence": "high",
+    "reasoning": "«Waffengesetz ... SR 514.54: Artikel 33 Absatz 3» benennt den Artikel eindeutig."
+  },
+  {
+    "ITEM": 63,
+    "ARTICLE_EID": "art_269",
+    "TARGET_SR": "SR 812.21",
+    "assigned_articles": ["Art. 86 Abs. 2", "Art. 86 Abs. 3"],
+    "confidence": "high",
+    "reasoning": "«Heilmittelgesetz ... SR 812.21: Artikel 86 Absätze 2 und 3» ist ein klarer Verweis."
+  },
+  {
+    "ITEM": 64,
+    "ARTICLE_EID": "art_269",
+    "TARGET_SR": "SR 935.51",
+    "assigned_articles": ["Art. 130 Abs. 2", "Art. 130 Abs. 1 Bst. a"],
+    "confidence": "high",
+    "reasoning": "«Geldspielgesetz ... SR 935.51: Artikel 130 Absatz 2 für die Straftaten nach Artikel 130 Absatz 1 Buchstabe a» bezieht sich auf beide Bestimmungen."
+  },
+  {
+    "ITEM": 65,
+    "ARTICLE_EID": "art_269",
+    "TARGET_SR": "SR 121",
+    "assigned_articles": ["Art. 74 Abs. 4"],
+    "confidence": "high",
+    "reasoning": "«Nachrichtendienstgesetz ... SR 121: Artikel 74 Absatz 4» ist ein eindeutiger Verweis."
+  },
+  {
+    "ITEM": 66,
+    "ARTICLE_EID": "art_269",
+    "TARGET_SR": "SR 322.1",
+    "assigned_articles": ["Art. 70 Abs. 2"],
+    "confidence": "high",
+    "reasoning": "«in Artikel 70 Absatz 2 des Militärstrafprozesses ... SR 322.1 aufgeführten Straftaten» verweist klar auf Art. 70 Abs. 2 dieses Gesetzes."
+  },
+  {
+    "ITEM": 67,
+    "ARTICLE_EID": "art_273",
+    "TARGET_SR": "SR 780.1",
+    "assigned_articles": ["Art. 8 Bst. b"],
+    "confidence": "high",
+    "reasoning": "«gemäss Artikel 8 Buchstabe b des Bundesgesetzes ... SR 780.1 (BÜPF)» ist ein eindeutiger Verweis."
+  },
+  {
+    "ITEM": 68,
+    "ARTICLE_EID": "art_274",
+    "TARGET_SR": "SR 780.1",
+    "assigned_articles": ["Art. 3"],
+    "confidence": "high",
+    "reasoning": "«Dienst ... nach Artikel 3 BÜPF SR 780.1» verweist klar auf Art. 3 BÜPF."
+  },
+  {
+    "ITEM": 69,
+    "ARTICLE_EID": "art_278",
+    "TARGET_SR": "SR 780.1",
+    "assigned_articles": ["Art. 35", "Art. 36"],
+    "confidence": "high",
+    "reasoning": "«Überwachung nach den Artikeln 35 und 36 BÜPF SR 780.1» nennt diese beiden Artikel ausdrücklich."
+  },
+  {
+    "ITEM": 70,
+    "ARTICLE_EID": "art_286",
+    "TARGET_SR": "SR 311.0",
+    "assigned_articles": [
+      "Art. 111",
+      "Art. 112",
+      "Art. 113",
+      "Art. 122",
+      "Art. 124",
+      "Art. 129",
+      "Art. 135",
+      "Art. 138",
+      "Art. 139",
+      "Art. 140",
+      "Art. 143 Abs. 1",
+      "Art. 144 Abs. 3",
+      "Art. 144bis Ziff. 1 Abs. 2",
+      "Art. 144bis Ziff. 2 Abs. 2",
+      "Art. 146 Abs. 1",
+      "Art. 146 Abs. 2",
+      "Art. 147 Abs. 1",
+      "Art. 147 Abs. 2",
+      "Art. 148",
+      "Art. 156",
+      "Art. 160",
+      "Art. 182",
+      "Art. 183",
+      "Art. 184",
+      "Art. 185",
+      "Art. 185bis",
+      "Art. 187",
+      "Art. 188",
+      "Art. 189",
+      "Art. 190",
+      "Art. 191",
+      "Art. 193",
+      "Art. 193a",
+      "Art. 195",
+      "Art. 196",
+      "Art. 197 Abs. 3",
+      "Art. 197 Abs. 4",
+      "Art. 197 Abs. 5",
+      "Art. 221 Abs. 1",
+      "Art. 221 Abs. 2",
+      "Art. 223 Ziff. 1",
+      "Art. 224 Abs. 1",
+      "Art. 226bis",
+      "Art. 226ter",
+      "Art. 227 Ziff. 1 Abs. 1",
+      "Art. 228 Ziff. 1 Abs. 1",
+      "Art. 230bis",
+      "Art. 231",
+      "Art. 232 Ziff. 1",
+      "Art. 233 Ziff. 1",
+      "Art. 234 Abs. 1",
+      "Art. 237 Ziff. 1",
+      "Art. 240 Abs. 1",
+      "Art. 242",
+      "Art. 244 Abs. 2",
+      "Art. 251 Ziff. 1",
+      "Art. 260bis",
+      "Art. 260ter",
+      "Art. 260quater",
+      "Art. 260quinquies",
+      "Art. 260sexies",
+      "Art. 264",
+      "Art. 265",
+      "Art. 266",
+      "Art. 267",
+      "Art. 271",
+      "Art. 272 Ziff. 2",
+      "Art. 273",
+      "Art. 274 Ziff. 1 Abs. 2",
+      "Art. 301",
+      "Art. 305bis Ziff. 2",
+      "Art. 310",
+      "Art. 322ter",
+      "Art. 322quater",
+      "Art. 322septies"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Katalog «StGB SR 311.0: Artikel 111–113, 122, 124, 129, ... 322septies» listet alle betroffenen StGB-Artikel; Bereiche (z.B. 182–185bis, 260bis–260sexies, 264–267) werden als vollständige Sequenzen interpretiert."
+  },
+  {
+    "ITEM": 71,
+    "ARTICLE_EID": "art_286",
+    "TARGET_SR": "SR 142.20",
+    "assigned_articles": ["Art. 116 Abs. 3", "Art. 118 Abs. 3"],
+    "confidence": "high",
+    "reasoning": "Wortlaut wie ITEM 53, nun im Kontext von Art. 286; dieselben Artikel des SR 142.20 sind betroffen."
+  },
+  {
+    "ITEM": 72,
+    "ARTICLE_EID": "art_286",
+    "TARGET_SR": "SR 211.221.31",
+    "assigned_articles": ["Art. 24"],
+    "confidence": "high",
+    "reasoning": "Entspricht ITEM 54 im Kontext von Art. 286; klarer Verweis auf Art. 24 SR 211.221.31."
+  },
+  {
+    "ITEM": 73,
+    "ARTICLE_EID": "art_286",
+    "TARGET_SR": "SR 514.51",
+    "assigned_articles": ["Art. 33 Abs. 2"],
+    "confidence": "high",
+    "reasoning": "Wie ITEM 55, nun im Rahmen von Art. 286; Verweis bleibt derselbe."
+  },
+  {
+    "ITEM": 74,
+    "ARTICLE_EID": "art_286",
+    "TARGET_SR": "SR 732.1",
+    "assigned_articles": ["Art. 88 Abs. 1", "Art. 88 Abs. 2", "Art. 89 Abs. 1", "Art. 89 Abs. 2", "Art. 90 Abs. 1"],
+    "confidence": "high",
+    "reasoning": "Wie ITEM 56, nun im Kontext von Art. 286; dieselben Artikel des Kernenergiegesetzes."
+  },
+  {
+    "ITEM": 75,
+    "ARTICLE_EID": "art_286",
+    "TARGET_SR": "SR 812.121",
+    "assigned_articles": ["Art. 19 Abs. 2", "Art. 20 Abs. 2"],
+    "confidence": "high",
+    "reasoning": "Wie ITEM 57, nun im Rahmen von Art. 286; Verweis auf dieselben BetmG-Artikel."
+  },
+  {
+    "ITEM": 76,
+    "ARTICLE_EID": "art_286",
+    "TARGET_SR": "SR 946.202",
+    "assigned_articles": ["Art. 14 Abs. 2"],
+    "confidence": "high",
+    "reasoning": "Wie ITEM 59, nun im Kontext von Art. 286; klarer Verweis auf Art. 14 Abs. 2 SR 946.202."
+  },
+  {
+    "ITEM": 77,
+    "ARTICLE_EID": "art_286",
+    "TARGET_SR": "SR 415.0",
+    "assigned_articles": ["Art. 22 Abs. 2", "Art. 25a Abs. 3"],
+    "confidence": "high",
+    "reasoning": "Wie ITEM 60, nun im Rahmen von Art. 286; dieselben Artikel des Sportförderungsgesetzes."
+  },
+  {
+    "ITEM": 78,
+    "ARTICLE_EID": "art_286",
+    "TARGET_SR": "SR 514.54",
+    "assigned_articles": ["Art. 33 Abs. 3"],
+    "confidence": "high",
+    "reasoning": "Wie ITEM 62, nun im Kontext von Art. 286; Verweis auf Art. 33 Abs. 3 Waffengesetz."
+  },
+  {
+    "ITEM": 79,
+    "ARTICLE_EID": "art_286",
+    "TARGET_SR": "SR 812.21",
+    "assigned_articles": ["Art. 86 Abs. 2", "Art. 86 Abs. 3"],
+    "confidence": "high",
+    "reasoning": "Wie ITEM 63, nun im Rahmen von Art. 286; dieselben Heilmittelgesetz-Artikel."
+  },
+  {
+    "ITEM": 80,
+    "ARTICLE_EID": "art_286",
+    "TARGET_SR": "SR 935.51",
+    "assigned_articles": ["Art. 130 Abs. 2", "Art. 130 Abs. 1 Bst. a"],
+    "confidence": "high",
+    "reasoning": "Wie ITEM 64, nun im Kontext von Art. 286; Verweis auf Art. 130 Abs. 2 und Abs. 1 Bst. a SR 935.51."
+  },
+  {
+    "ITEM": 81,
+    "ARTICLE_EID": "art_286",
+    "TARGET_SR": "SR 121",
+    "assigned_articles": ["Art. 74 Abs. 4"],
+    "confidence": "high",
+    "reasoning": "Wie ITEM 65, nun im Rahmen von Art. 286; klarer Verweis auf Art. 74 Abs. 4 SR 121."
+  },
+  {
+    "ITEM": 82,
+    "ARTICLE_EID": "art_286",
+    "TARGET_SR": "SR 322.1",
+    "assigned_articles": ["Art. 70 Abs. 2"],
+    "confidence": "high",
+    "reasoning": "Wie ITEM 66, nun im Kontext der verdeckten Ermittlung; Verweis bleibt Art. 70 Abs. 2 SR 322.1."
+  },
+  {
+    "ITEM": 83,
+    "ARTICLE_EID": "art_294",
+    "TARGET_SR": "SR 311.0",
+    "assigned_articles": ["Art. 197 Abs. 4", "Art. 197 Abs. 5"],
+    "confidence": "high",
+    "reasoning": "«nach Artikel 197 Absätze 4 und 5 StGB SR 311.0» nennt diese beiden Absätze ausdrücklich."
+  },
+  {
+    "ITEM": 84,
+    "ARTICLE_EID": "art_294",
+    "TARGET_SR": "SR 812.121",
+    "assigned_articles": ["Art. 19", "Art. 20", "Art. 21", "Art. 22"],
+    "confidence": "high",
+    "reasoning": "«nach den Artikeln 19 sowie 20–22 BetmG SR 812.121» umfasst Art. 19 sowie den Bereich 20–22."
+  },
+  {
+    "ITEM": 85,
+    "ARTICLE_EID": "art_316",
+    "TARGET_SR": "SR 311.0",
+    "assigned_articles": ["Art. 53"],
+    "confidence": "high",
+    "reasoning": "«Strafbefreiung wegen Wiedergutmachung nach Artikel 53 StGB SR 311.0» verweist eindeutig auf Art. 53 StGB."
+  },
+  {
+    "ITEM": 86,
+    "ARTICLE_EID": "art_346",
+    "TARGET_SR": "SR 311.0",
+    "assigned_articles": ["Art. 69", "Art. 70", "Art. 71", "Art. 72", "Art. 73"],
+    "confidence": "high",
+    "reasoning": "«beantragten Einziehung (Art. 69–73 StGB SR 311.0)» nennt den Artikelsbereich 69–73 StGB."
+  },
+  {
+    "ITEM": 87,
+    "ARTICLE_EID": "art_352",
+    "TARGET_SR": "SR 311.0",
+    "assigned_articles": ["Art. 66", "Art. 67e", "Art. 67f", "Art. 67g", "Art. 67h", "Art. 67i", "Art. 67j", "Art. 68", "Art. 69", "Art. 70", "Art. 71", "Art. 72", "Art. 73"],
+    "confidence": "medium",
+    "reasoning": "«Massnahme nach den Artikeln 66 und 67e–73 StGB SR 311.0» umfasst Art. 66 sowie den Bereich 67e–73. Die Zwischenartikel 67f–67j und 68–73 werden als fortlaufende Reihe interpretiert; mangels exakter Aufzählung ist die Zuordnung der Unterartikel (67f–67j) mit mittlerer Sicherheit anzunehmen."
+  },
+  {
+    "ITEM": 88,
+    "ARTICLE_EID": "art_372",
+    "TARGET_SR": "SR 311.0",
+    "assigned_articles": ["Art. 66"],
+    "confidence": "high",
+    "reasoning": "«Friedensbürgschaft nach Artikel 66 StGB SR 311.0» verweist klar auf Art. 66 StGB."
+  },
+  {
+    "ITEM": 89,
+    "ARTICLE_EID": "art_373",
+    "TARGET_SR": "SR 311.0",
+    "assigned_articles": ["Art. 66"],
+    "confidence": "high",
+    "reasoning": "«die in Artikel 66 StGB SR 311.0 genannten Massnahmen» ist ein eindeutiger Verweis auf Art. 66 StGB."
+  },
+  {
+    "ITEM": 90,
+    "ARTICLE_EID": "art_374",
+    "TARGET_SR": "SR 311.0",
+    "assigned_articles": ["Art. 19 Abs. 4", "Art. 263", "Art. 59", "Art. 60", "Art. 61", "Art. 63", "Art. 64", "Art. 67", "Art. 67b", "Art. 67e"],
+    "confidence": "high",
+    "reasoning": "Der Text nennt «Artikel 19 Absatz 4 oder 263 StGB» sowie «Massnahme nach den Artikeln 59–61, 63, 64, 67, 67b oder 67e StGB SR 311.0»; alle diese Bestimmungen gehören zu SR 311.0."
+  },
+  {
+    "ITEM": 91,
+    "ARTICLE_EID": "art_382",
+    "TARGET_SR": "SR 311.0",
+    "assigned_articles": ["Art. 110 Abs. 1"],
+    "confidence": "high",
+    "reasoning": "«Angehörigen im Sinne von Artikel 110 Absatz 1 StGB SR 311.0» verweist eindeutig auf Art. 110 Abs. 1 StGB."
+  },
+  {
+    "ITEM": 92,
+    "ARTICLE_EID": "art_406",
+    "TARGET_SR": "SR 311.0",
+    "assigned_articles": ["Art. 66", "Art. 67", "Art. 68", "Art. 69", "Art. 70", "Art. 71", "Art. 72", "Art. 73"],
+    "confidence": "high",
+    "reasoning": "«Massnahmen im Sinne der Artikel 66–73 StGB SR 311.0» umfasst den Artikelsbereich 66–73 StGB."
+  },
+  {
+    "ITEM": 93,
+    "ARTICLE_EID": "art_410",
+    "TARGET_SR": "SR 0.101",
+    "assigned_articles": "General reference - entire document",
+    "confidence": "medium",
+    "reasoning": "Es wird nur auf die EMRK «SR 0.101» als Ganzes Bezug genommen, ohne konkrete Artikelangabe."
+  },
+  {
+    "ITEM": 94,
+    "ARTICLE_EID": "art_439",
+    "TARGET_SR": "SR 311.0",
+    "assigned_articles": "General reference - entire document",
+    "confidence": "medium",
+    "reasoning": "«besondere Regelungen ... im StGB SR 311.0» ist ein pauschaler Verweis auf das Strafgesetzbuch ohne Artikelspezifikation."
+  },
+  {
+    "ITEM": 95,
+    "ARTICLE_EID": "art_442",
+    "TARGET_SR": "SR 281.1",
+    "assigned_articles": "General reference - entire document",
+    "confidence": "medium",
+    "reasoning": "«nach den Bestimmungen des SchKG SR 281.1 eingetrieben» verweist allgemein auf das Schuldbetreibungs- und Konkursgesetz."
+  },
+  {
+    "ITEM": 96,
+    "ARTICLE_EID": "art_443",
+    "TARGET_SR": "SR 281.1",
+    "assigned_articles": "General reference - entire document",
+    "confidence": "medium",
+    "reasoning": "«nach Massgabe ... des SchKG SR 281.1 vollstreckt» ist ebenfalls ein allgemeiner Gesetzesverweis ohne Artikel."
+  },
+  {
+    "ITEM": 97,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": "SR 312.0",
+    "assigned_articles": ["Art. 14"],
+    "confidence": "high",
+    "reasoning": "«Gesetzliche Weisungsbefugnisse nach Artikel 14 gegenüber den Strafverfolgungsbehörden» bezieht sich mangels anderer SR-Angabe auf einen internen Artikel der Strafprozessordnung (SR 312.0)."
+  },
+  {
+    "ITEM": 98,
+    "ARTICLE_EID": "art_8",
+    "TARGET_SR": "SR 311.0",
+    "assigned_articles": ["Art. 52", "Art. 53", "Art. 54"],
+    "confidence": "high",
+    "reasoning": "Entspricht inhaltlich ITEM 2, jedoch ohne explizite SR-Angabe; «des Strafgesetzbuches (StGB)» meint SR 311.0."
+  },
+  {
+    "ITEM": 99,
+    "ARTICLE_EID": "art_23",
+    "TARGET_SR": "SR 311.0",
+    "assigned_articles": ["Art. 140", "Art. 156", "Art. 189", "Art. 190"],
+    "confidence": "high",
+    "reasoning": "Die Aufzählung «Artikel 140, 156, 189 und 190» bezieht sich auf Straftaten des StGB; im Kontext von Art. 23 StPO ist klar, dass es sich um SR 311.0 handelt."
+  },
+  {
+    "ITEM": 100,
+    "ARTICLE_EID": "art_23",
+    "TARGET_SR": "SR 311.0",
+    "assigned_articles": ["Art. 137", "Art. 138", "Art. 139", "Art. 140", "Art. 141", "Art. 144", "Art. 160", "Art. 172ter"],
+    "confidence": "high",
+    "reasoning": "«die Straftaten der Artikel 137–141, 144, 160 und 172ter» sind typische StGB-Delikte; im Kontext von Art. 23 StPO ist SR 311.0 gemeint."
+  },
+  {
+    "ITEM": 101,
+    "ARTICLE_EID": "art_23",
+    "TARGET_SR": "SR 311.0",
+    "assigned_articles": ["Art. 185"],
+    "confidence": "high",
+    "reasoning": "«die Geiselnahme nach Artikel 185» ist ein StGB-Delikt; Bezug auf SR 311.0."
+  },
+  {
+    "ITEM": 102,
+    "ARTICLE_EID": "art_23",
+    "TARGET_SR": "SR 311.0",
+    "assigned_articles": ["Art. 224", "Art. 225", "Art. 226", "Art. 226bis", "Art. 226ter"],
+    "confidence": "high",
+    "reasoning": "«die Verbrechen und Vergehen der Artikel 224–226ter» sind StGB-Artikel; Bereich 224–226ter wird vollständig erfasst."
+  },
+  {
+    "ITEM": 103,
+    "ARTICLE_EID": "art_23",
+    "TARGET_SR": "SR 311.0",
+    "assigned_articles": ["Art. 329", "Art. 331"],
+    "confidence": "high",
+    "reasoning": "«die Übertretungen der Artikel 329 und 331» bezieht sich auf StGB-Übertretungen; SR 311.0."
+  },
+  {
+    "ITEM": 104,
+    "ARTICLE_EID": "art_25",
+    "TARGET_SR": "SR 312.0",
+    "assigned_articles": ["Art. 23", "Art. 23 Abs. 1 Bst. g"],
+    "confidence": "medium",
+    "reasoning": "«Bundesgerichtsbarkeit nach Artikel 23» und «Strafsachen nach Artikel 23 Absatz 1 Buchstabe g» sind interne Verweise innerhalb der StPO (SR 312.0)."
+  },
+  {
+    "ITEM": 105,
+    "ARTICLE_EID": "art_25",
+    "TARGET_SR": "SR 312.0",
+    "assigned_articles": ["Art. 24"],
+    "confidence": "high",
+    "reasoning": "«Bundesgerichtsbarkeit nach Artikel 24» ist ein klarer interner Verweis auf Art. 24 StPO."
+  },
+  {
+    "ITEM": 106,
+    "ARTICLE_EID": "art_27",
+    "TARGET_SR": "SR 312.0",
+    "assigned_articles": ["Art. 25", "Art. 26"],
+    "confidence": "high",
+    "reasoning": "«zum Entscheid nach Artikel 25 oder 26 zu unterbreiten» sind interne Verweise innerhalb der StPO."
+  },
+  {
+    "ITEM": 107,
+    "ARTICLE_EID": "art_29",
+    "TARGET_SR": "SR 312.0",
+    "assigned_articles": ["Art. 25", "Art. 33", "Art. 34", "Art. 35", "Art. 36", "Art. 37", "Art. 38"],
+    "confidence": "high",
+    "reasoning": "«so gehen die Artikel 25 und 33–38 vor» sind interne Artikel der StPO; Bereich 33–38 wird vollständig erfasst."
+  },
+  {
+    "ITEM": 108,
+    "ARTICLE_EID": "art_34",
+    "TARGET_SR": "SR 312.0",
+    "assigned_articles": ["Art. 39", "Art. 40", "Art. 41", "Art. 42"],
+    "confidence": "high",
+    "reasoning": "«Gerichtsstandsverfahrens nach den Artikeln 39–42» verweist auf interne StPO-Artikel."
+  },
+  {
+    "ITEM": 109,
+    "ARTICLE_EID": "art_36",
+    "TARGET_SR": "SR 312.0",
+    "assigned_articles": ["Art. 31", "Art. 32", "Art. 33", "Art. 34", "Art. 35"],
+    "confidence": "high",
+    "reasoning": "«bestimmt er sich nach den Artikeln 31–35» sind interne StPO-Verweise."
+  },
+  {
+    "ITEM": 110,
+    "ARTICLE_EID": "art_37",
+    "TARGET_SR": "SR 312.0",
+    "assigned_articles": ["Art. 376", "Art. 377", "Art. 378"],
+    "confidence": "high",
+    "reasoning": "«Selbstständige Einziehungen (Art. 376–378)» verweist auf interne Artikel der StPO."
+  },
+  {
+    "ITEM": 111,
+    "ARTICLE_EID": "art_38",
+    "TARGET_SR": "SR 312.0",
+    "assigned_articles": ["Art. 31", "Art. 32", "Art. 33", "Art. 34", "Art. 35", "Art. 36", "Art. 37"],
+    "confidence": "high",
+    "reasoning": "«anderen als den in den Artikeln 31–37 vorgesehenen Gerichtsstand» sind interne StPO-Artikel."
+  },
+  {
+    "ITEM": 112,
+    "ARTICLE_EID": "art_40",
+    "TARGET_SR": "SR 312.0",
+    "assigned_articles": ["Art. 31", "Art. 32", "Art. 33", "Art. 34", "Art. 35", "Art. 36", "Art. 37"],
+    "confidence": "high",
+    "reasoning": "Auch hier wird auf «in den Artikeln 31–37 vorgesehenen Gerichtsstand» verwiesen; interne StPO-Artikel."
+  },
+  {
+    "ITEM": 113,
+    "ARTICLE_EID": "art_41",
+    "TARGET_SR": "SR 312.0",
+    "assigned_articles": ["Art. 39 Abs. 2", "Art. 38 Abs. 1"],
+    "confidence": "high",
+    "reasoning": "«Entscheidung ... (Art. 39 Abs. 2)» und «abwichenden Gerichtsstand ... (Art. 38 Abs. 1)» sind interne Verweise."
+  },
+  {
+    "ITEM": 114,
+    "ARTICLE_EID": "art_42",
+    "TARGET_SR": "SR 312.0",
+    "assigned_articles": ["Art. 38", "Art. 39", "Art. 40", "Art. 41"],
+    "confidence": "high",
+    "reasoning": "«Ein nach den Artikeln 38–41 festgelegter Gerichtsstand» verweist auf interne StPO-Artikel."
+  },
+  {
+    "ITEM": 115,
+    "ARTICLE_EID": "art_47",
+    "TARGET_SR": "SR 312.0",
+    "assigned_articles": ["Art. 45"],
+    "confidence": "high",
+    "reasoning": "«Kosten ... für Unterstützung im Sinne von Artikel 45» ist ein interner Verweis."
+  },
+  {
+    "ITEM": 116,
+    "ARTICLE_EID": "art_50",
+    "TARGET_SR": "SR 312.0",
+    "assigned_articles": ["Art. 208"],
+    "confidence": "high",
+    "reasoning": "«Vorführungsbefehl (Art. 208)» verweist auf einen internen Artikel der StPO."
+  },
+  {
+    "ITEM": 117,
+    "ARTICLE_EID": "art_52",
+    "TARGET_SR": "SR 312.0",
+    "assigned_articles": ["Art. 426", "Art. 427"],
+    "confidence": "high",
+    "reasoning": "«nach Massgabe der Artikel 426 und 427» sind interne Kostenbestimmungen der StPO."
+  },
+  {
+    "ITEM": 118,
+    "ARTICLE_EID": "art_59",
+    "TARGET_SR": "SR 312.0",
+    "assigned_articles": ["Art. 56 Bst. a", "Art. 56 Bst. f", "Art. 56 Bst. b", "Art. 56 Bst. c", "Art. 56 Bst. d", "Art. 56 Bst. e"],
+    "confidence": "high",
+    "reasoning": "Es wird auf «Ausstandsgrund nach Artikel 56 Buchstabe a oder f» sowie «Artikel 56 Buchstaben b–e» verwiesen; alles interne StPO-Bestimmungen."
+  },
+  {
+    "ITEM": 119,
+    "ARTICLE_EID": "art_68",
+    "TARGET_SR": "SR 312.0",
+    "assigned_articles": ["Art. 73", "Art. 105", "Art. 182", "Art. 183", "Art. 184", "Art. 185", "Art. 186", "Art. 187", "Art. 188", "Art. 189", "Art. 190", "Art. 191"],
+    "confidence": "high",
+    "reasoning": "«Bestimmungen über Sachverständige (Art. 73, 105, 182–191)» sind interne StPO-Artikel; Bereich 182–191 wird vollständig erfasst."
+  },
+  {
+    "ITEM": 120,
+    "ARTICLE_EID": "art_71",
+    "TARGET_SR": "SR 312.0",
+    "assigned_articles": ["Art. 64 Abs. 1"],
+    "confidence": "high",
+    "reasoning": "«können nach Artikel 64 Absatz 1 mit Ordnungsbusse bestraft werden» verweist auf eine interne Ordnungsbussenbestimmung der StPO."
+  },
+  {
+    "ITEM": 121,
+    "ARTICLE_EID": "art_78_a",
+    "TARGET_SR": "SR 312.0",
+    "assigned_articles": ["Art. 78"],
+    "confidence": "high",
+    "reasoning": "«gegenüber den allgemeinen Regeln (Art. 78)» ist ein interner Verweis."
+  },
+  {
+    "ITEM": 122,
+    "ARTICLE_EID": "art_96",
+    "TARGET_SR": "SR 120",
+    "assigned_articles": ["Art. 14", "Art. 20"],
+    "confidence": "high",
+    "reasoning": "Entspricht ITEM 11, nun als interner Listenpunkt; dieselben Artikel des SR 120."
+  },
+  {
+    "ITEM": 123,
+    "ARTICLE_EID": "art_96",
+    "TARGET_SR": "SR 121",
+    "assigned_articles": ["Art. 19", "Art. 20"],
+    "confidence": "high",
+    "reasoning": "Entspricht ITEM 12, nun ohne SR-Angabe im Snippet; Kontext von Art. 96 verweist auf das NDG (SR 121)."
+  },
+  {
+    "ITEM": 124,
+    "ARTICLE_EID": "art_99",
+    "TARGET_SR": "SR 312.0",
+    "assigned_articles": ["Art. 103"],
+    "confidence": "high",
+    "reasoning": "«bestimmt sich nach Artikel 103» ist ein interner Verweis."
+  },
+  {
+    "ITEM": 125,
+    "ARTICLE_EID": "art_101",
+    "TARGET_SR": "SR 312.0",
+    "assigned_articles": ["Art. 108"],
+    "confidence": "high",
+    "reasoning": "«Artikel 108 bleibt vorbehalten» ist ein interner Verweis."
+  },
+  {
+    "ITEM": 126,
+    "ARTICLE_EID": "art_111",
+    "TARGET_SR": "SR 312.0",
+    "assigned_articles": ["Art. 323", "Art. 410", "Art. 411", "Art. 412", "Art. 413", "Art. 414", "Art. 415"],
+    "confidence": "high",
+    "reasoning": "«Urteil im Sinne des Artikels 323 oder der Artikel 410–415» sind interne StPO-Artikel; Bereich 410–415 wird vollständig erfasst."
+  },
+  {
+    "ITEM": 127,
+    "ARTICLE_EID": "art_117",
+    "TARGET_SR": "SR 312.0",
+    "assigned_articles": ["Art. 70 Abs. 1 Bst. a", "Art. 74 Abs. 4", "Art. 152 Abs. 1"],
+    "confidence": "high",
+    "reasoning": "«(Art. 70 Abs. 1 Bst. a, 74 Abs. 4, 152 Abs. 1)» sind interne StPO-Verweise."
+  },
+  {
+    "ITEM": 128,
+    "ARTICLE_EID": "art_117",
+    "TARGET_SR": "SR 312.0",
+    "assigned_articles": ["Art. 70 Abs. 2", "Art. 152 Abs. 2"],
+    "confidence": "high",
+    "reasoning": "«(Art. 70 Abs. 2, 152 Abs. 2)» sind interne StPO-Artikel."
+  },
+  {
+    "ITEM": 129,
+    "ARTICLE_EID": "art_117",
+    "TARGET_SR": "SR 312.0",
+    "assigned_articles": ["Art. 152", "Art. 153", "Art. 154"],
+    "confidence": "high",
+    "reasoning": "«(Art. 152–154)» verweist auf den Artikelsbereich 152–154 StPO."
+  },
+  {
+    "ITEM": 130,
+    "ARTICLE_EID": "art_117",
+    "TARGET_SR": "SR 312.0",
+    "assigned_articles": ["Art. 169 Abs. 4"],
+    "confidence": "high",
+    "reasoning": "«(Art. 169 Abs. 4)» ist ein interner Verweis."
+  },
+  {
+    "ITEM": 131,
+    "ARTICLE_EID": "art_117",
+    "TARGET_SR": "SR 312.0",
+    "assigned_articles": ["Art. 305", "Art. 330 Abs. 3"],
+    "confidence": "high",
+    "reasoning": "«(Art. 305 und 330 Abs. 3)» sind interne StPO-Artikel."
+  },
+  {
+    "ITEM": 132,
+    "ARTICLE_EID": "art_117",
+    "TARGET_SR": "SR 312.0",
+    "assigned_articles": ["Art. 335 Abs. 4"],
+    "confidence": "high",
+    "reasoning": "«(Art. 335 Abs. 4)» ist ein interner Verweis."
+  },
+  {
+    "ITEM": 133,
+    "ARTICLE_EID": "art_117",
+    "TARGET_SR": "SR 312.0",
+    "assigned_articles": ["Art. 154 Abs. 4"],
+    "confidence": "high",
+    "reasoning": "«(Art. 154 Abs. 4)» ist ein interner Verweis."
+  },
+  {
+    "ITEM": 134,
+    "ARTICLE_EID": "art_117",
+    "TARGET_SR": "SR 312.0",
+    "assigned_articles": ["Art. 154 Abs. 2", "Art. 154 Abs. 3", "Art. 154 Abs. 4"],
+    "confidence": "high",
+    "reasoning": "«(Art. 154 Abs. 2–4)» umfasst die Absätze 2 bis 4 von Art. 154 StPO."
+  },
+  {
+    "ITEM": 135,
+    "ARTICLE_EID": "art_117",
+    "TARGET_SR": "SR 312.0",
+    "assigned_articles": ["Art. 319 Abs. 2"],
+    "confidence": "high",
+    "reasoning": "«(Art. 319 Abs. 2)» ist ein interner Verweis."
+  },
+  {
+    "ITEM": 136,
+    "ARTICLE_EID": "art_122",
+    "TARGET_SR": "SR 312.0",
+    "assigned_articles": ["Art. 119 Abs. 2 Bst. b"],
+    "confidence": "high",
+    "reasoning": "«Erklärung nach Artikel 119 Absatz 2 Buchstabe b» ist ein interner Verweis."
+  },
+  {
+    "ITEM": 137,
+    "ARTICLE_EID": "art_123",
+    "TARGET_SR": "SR 312.0",
+    "assigned_articles": ["Art. 119"],
+    "confidence": "high",
+    "reasoning": "«Erklärung nach Artikel 119» ist ein interner Verweis."
+  },
+  {
+    "ITEM": 138,
+    "ARTICLE_EID": "art_123",
+    "TARGET_SR": "SR 312.0",
+    "assigned_articles": ["Art. 331 Abs. 2"],
+    "confidence": "high",
+    "reasoning": "«gemäss Artikel 331 Absatz 2» ist ein interner Verweis."
+  },
+  {
+    "ITEM": 139,
+    "ARTICLE_EID": "art_129",
+    "TARGET_SR": "SR 312.0",
+    "assigned_articles": ["Art. 127 Abs. 5", "Art. 130"],
+    "confidence": "high",
+    "reasoning": "«Rechtsbeistand im Sinne von Artikel 127 Absatz 5» und «unter Vorbehalt von Artikel 130» sind interne Verweise."
+  },
+  {
+    "ITEM": 140,
+    "ARTICLE_EID": "art_130",
+    "TARGET_SR": "SR 312.0",
+    "assigned_articles": ["Art. 358", "Art. 359", "Art. 360", "Art. 361", "Art. 362"],
+    "confidence": "high",
+    "reasoning": "«abgekürztes Verfahren (Art. 358–362)» verweist auf den Artikelsbereich 358–362 StPO."
+  },
+  {
+    "ITEM": 141,
+    "ARTICLE_EID": "art_137",
+    "TARGET_SR": "SR 312.0",
+    "assigned_articles": ["Art. 133", "Art. 134"],
+    "confidence": "high",
+    "reasoning": "«richten sich ... nach den Artikeln 133 und 134» sind interne Verweise."
+  },
+  {
+    "ITEM": 142,
+    "ARTICLE_EID": "art_138",
+    "TARGET_SR": "SR 312.0",
+    "assigned_articles": ["Art. 135"],
+    "confidence": "high",
+    "reasoning": "«richtet sich ... nach Artikel 135» ist ein interner Verweis."
+  },
+  {
+    "ITEM": 143,
+    "ARTICLE_EID": "art_141",
+    "TARGET_SR": "SR 312.0",
+    "assigned_articles": ["Art. 140"],
+    "confidence": "high",
+    "reasoning": "«in Verletzung von Artikel 140 erhoben» ist ein interner Verweis."
+  },
+  {
+    "ITEM": 144,
+    "ARTICLE_EID": "art_147",
+    "TARGET_SR": "SR 312.0",
+    "assigned_articles": ["Art. 159"],
+    "confidence": "high",
+    "reasoning": "«richtet sich nach Artikel 159» ist ein interner Verweis."
+  },
+  {
+    "ITEM": 145,
+    "ARTICLE_EID": "art_148",
+    "TARGET_SR": "SR 312.0",
+    "assigned_articles": ["Art. 147 Abs. 4"],
+    "confidence": "high",
+    "reasoning": "«Artikel 147 Absatz 4 ist anwendbar» ist ein interner Verweis."
+  },
+  {
+    "ITEM": 146,
+    "ARTICLE_EID": "art_149",
+    "TARGET_SR": "SR 312.0",
+    "assigned_articles": ["Art. 168 Abs. 1", "Art. 168 Abs. 2", "Art. 168 Abs. 3"],
+    "confidence": "high",
+    "reasoning": "«Verhältnis nach Artikel 168 Absätze 1–3» verweist auf interne Bestimmungen zum Zeugnisverweigerungsrecht."
+  },
+  {
+    "ITEM": 147,
+    "ARTICLE_EID": "art_149",
+    "TARGET_SR": "SR 312.0",
+    "assigned_articles": ["Art. 154 Abs. 2", "Art. 154 Abs. 4"],
+    "confidence": "high",
+    "reasoning": "«Schutzmassnahmen nach Artikel 154 Absätze 2 und 4» sind interne Verweise."
+  },
+  {
+    "ITEM": 148,
+    "ARTICLE_EID": "art_152",
+    "TARGET_SR": "SR 312.0",
+    "assigned_articles": ["Art. 149 Abs. 2 Bst. b", "Art. 149 Abs. 2 Bst. d"],
+    "confidence": "high",
+    "reasoning": "«Schutzmassnahmen nach Artikel 149 Absatz 2 Buchstaben b und d» sind interne Verweise."
+  },
+  {
+    "ITEM": 149,
+    "ARTICLE_EID": "art_166",
+    "TARGET_SR": "SR 312.0",
+    "assigned_articles": ["Art. 178"],
+    "confidence": "high",
+    "reasoning": "«Einvernahme als Auskunftsperson nach Artikel 178» ist ein interner Verweis."
+  },
+  {
+    "ITEM": 150,
+    "ARTICLE_EID": "art_169",
+    "TARGET_SR": "SR 312.0",
+    "assigned_articles": ["Art. 168 Abs. 1", "Art. 168 Abs. 2", "Art. 168 Abs. 3", "Art. 168 Abs. 4"],
+    "confidence": "high",
+    "reasoning": "Es wird auf «Artikel 168 Absätze 1–3» und «Artikel 168 Absatz 4» verwiesen; interne StPO-Bestimmungen."
+  },
+  {
+    "ITEM": 151,
+    "ARTICLE_EID": "art_169",
+    "TARGET_SR": "SR 312.0",
+    "assigned_articles": ["Art. 168 Abs. 1", "Art. 168 Abs. 2", "Art. 168 Abs. 3"],
+    "confidence": "high",
+    "reasoning": "Auch hier wird auf «Artikel 168 Absätze 1–3» Bezug genommen; interner Verweis."
+  },
+  {
+    "ITEM": 152,
+    "ARTICLE_EID": "art_173",
+    "TARGET_SR": "SR 210",
+    "assigned_articles": ["Art. 139 Abs. 3"],
+    "confidence": "high",
+    "reasoning": "Entspricht ITEM 29, nun ohne SR im Snippet; Kontext von Art. 173 StPO verweist auf das ZGB (SR 210)."
+  },
+  {
+    "ITEM": 153,
+    "ARTICLE_EID": "art_173",
+    "TARGET_SR": "SR 857.5",
+    "assigned_articles": ["Art. 2"],
+    "confidence": "high",
+    "reasoning": "Entspricht ITEM 30; Verweis auf Art. 2 SR 857.5."
+  },
+  {
+    "ITEM": 154,
+    "ARTICLE_EID": "art_173",
+    "TARGET_SR": "SR 312.5",
+    "assigned_articles": ["Art. 11"],
+    "confidence": "high",
+    "reasoning": "Entspricht ITEM 31; Verweis auf Art. 11 SR 312.5."
+  },
+  {
+    "ITEM": 155,
+    "ARTICLE_EID": "art_173",
+    "TARGET_SR": "SR 812.121",
+    "assigned_articles": ["Art. 3c Abs. 4"],
+    "confidence": "high",
+    "reasoning": "Entspricht ITEM 32; Verweis auf Art. 3c Abs. 4 BetmG (SR 812.121)."
+  },
+  {
+    "ITEM": 156,
+    "ARTICLE_EID": "art_179",
+    "TARGET_SR": "SR 312.0",
+    "assigned_articles": ["Art. 142 Abs. 2"],
+    "confidence": "high",
+    "reasoning": "«Einvernahme als Zeugin oder Zeuge gemäss Artikel 142 Absatz 2» ist ein interner Verweis."
+  },
+  {
+    "ITEM": 157,
+    "ARTICLE_EID": "art_180",
+    "TARGET_SR": "SR 312.0",
+    "assigned_articles": ["Art. 178 Bst. b", "Art. 178 Bst. c", "Art. 178 Bst. d", "Art. 178 Bst. e", "Art. 178 Bst. f", "Art. 178 Bst. g"],
+    "confidence": "high",
+    "reasoning": "«Auskunftspersonen nach Artikel 178 Buchstaben b–g» verweist auf interne Buchstaben von Art. 178 StPO."
+  },
+  {
+    "ITEM": 158,
+    "ARTICLE_EID": "art_180",
+    "TARGET_SR": "SR 312.0",
+    "assigned_articles": ["Art. 178 Bst. a", "Art. 176"],
+    "confidence": "high",
+    "reasoning": "«Privatklägerschaft (Art. 178 Bst. a)» und «mit Ausnahme von Artikel 176» sind interne Verweise."
+  },
+  {
+    "ITEM": 159,
+    "ARTICLE_EID": "art_183",
+    "TARGET_SR": "SR 312.0",
+    "assigned_articles": ["Art. 56"],
+    "confidence": "high",
+    "reasoning": "«Ausstandsgründe nach Artikel 56» ist ein interner Verweis."
+  },
+  {
+    "ITEM": 160,
+    "ARTICLE_EID": "art_214",
+    "TARGET_SR": "SR 312.0",
+    "assigned_articles": ["Art. 237 Abs. 2 Bst. c", "Art. 237 Abs. 2 Bst. g"],
+    "confidence": "high",
+    "reasoning": "«Ersatzmassnahme nach Artikel 237 Absatz 2 Buchstabe c oder g» sind interne Verweise."
+  },
+  {
+    "ITEM": 161,
+    "ARTICLE_EID": "art_218",
+    "TARGET_SR": "SR 312.0",
+    "assigned_articles": ["Art. 200"],
+    "confidence": "high",
+    "reasoning": "«nur nach Massgabe von Artikel 200 Gewalt anwenden» ist ein interner Verweis."
+  },
+  {
+    "ITEM": 162,
+    "ARTICLE_EID": "art_219",
+    "TARGET_SR": "SR 312.0",
+    "assigned_articles": ["Art. 158"],
+    "confidence": "high",
+    "reasoning": "«im Sinne von Artikel 158 über ihre Rechte» ist ein interner Verweis."
+  },
+  {
+    "ITEM": 163,
+    "ARTICLE_EID": "art_219",
+    "TARGET_SR": "SR 312.0",
+    "assigned_articles": ["Art. 159"],
+    "confidence": "high",
+    "reasoning": "«in Anwendung von Artikel 159» ist ein interner Verweis."
+  },
+  {
+    "ITEM": 164,
+    "ARTICLE_EID": "art_219",
+    "TARGET_SR": "SR 312.0",
+    "assigned_articles": ["Art. 217 Abs. 3"],
+    "confidence": "high",
+    "reasoning": "«Person im Sinne von Artikel 217 Absatz 3» ist ein interner Verweis."
+  },
+  {
+    "ITEM": 165,
+    "ARTICLE_EID": "art_222",
+    "TARGET_SR": "SR 312.0",
+    "assigned_articles": ["Art. 233"],
+    "confidence": "high",
+    "reasoning": "«Vorbehalten bleibt Artikel 233» ist ein interner Verweis."
+  },
+  {
+    "ITEM": 166,
+    "ARTICLE_EID": "art_228",
+    "TARGET_SR": "SR 312.0",
+    "assigned_articles": ["Art. 226 Abs. 2", "Art. 226 Abs. 3", "Art. 226 Abs. 4", "Art. 226 Abs. 5"],
+    "confidence": "high",
+    "reasoning": "«Im Übrigen ist Artikel 226 Absätze 2–5 sinngemäss anwendbar» ist ein interner Verweis."
+  },
+  {
+    "ITEM": 167,
+    "ARTICLE_EID": "art_229",
+    "TARGET_SR": "SR 312.0",
+    "assigned_articles": ["Art. 224"],
+    "confidence": "high",
+    "reasoning": "«in sinngemässer Anwendung von Artikel 224 ein Haftverfahren» ist ein interner Verweis."
+  },
+  {
+    "ITEM": 168,
+    "ARTICLE_EID": "art_229",
+    "TARGET_SR": "SR 312.0",
+    "assigned_articles": ["Art. 225", "Art. 226"],
+    "confidence": "high",
+    "reasoning": "«sinngemäss nach den Artikeln 225 und 226» sind interne Verweise."
+  },
+  {
+    "ITEM": 169,
+    "ARTICLE_EID": "art_229",
+    "TARGET_SR": "SR 312.0",
+    "assigned_articles": ["Art. 227"],
+    "confidence": "high",
+    "reasoning": "«sinngemäss nach Artikel 227» ist ein interner Verweis."
+  },
+  {
+    "ITEM": 170,
+    "ARTICLE_EID": "art_230",
+    "TARGET_SR": "SR 312.0",
+    "assigned_articles": ["Art. 228"],
+    "confidence": "high",
+    "reasoning": "«Bestimmungen von Artikel 228 sinngemäss» ist ein interner Verweis."
+  },
+  {
+    "ITEM": 171,
+    "ARTICLE_EID": "art_248",
+    "TARGET_SR": "SR 312.0",
+    "assigned_articles": ["Art. 264"],
+    "confidence": "high",
+    "reasoning": "«dürften aufgrund von Artikel 264 nicht beschlagnahmt werden» ist ein interner Verweis."
+  },
+  {
+    "ITEM": 172,
+    "ARTICLE_EID": "art_255",
+    "TARGET_SR": "SR 363",
+    "assigned_articles": ["Art. 10"],
+    "confidence": "high",
+    "reasoning": "Entspricht ITEM 39, nun ohne SR im Snippet; klarer Verweis auf Art. 10 SR 363."
+  },
+  {
+    "ITEM": 173,
+    "ARTICLE_EID": "art_256",
+    "TARGET_SR": "SR 312.0",
+    "assigned_articles": ["Art. 258b"],
+    "confidence": "high",
+    "reasoning": "«Phänotypisierung nach Artikel 258b» ist ein interner Verweis innerhalb der StPO."
+  },
+  {
+    "ITEM": 174,
+    "ARTICLE_EID": "art_258_b",
+    "TARGET_SR": "SR 363",
+    "assigned_articles": ["Art. 2b"],
+    "confidence": "high",
+    "reasoning": "Entspricht ITEM 42, nun ohne SR im Snippet; klarer Verweis auf Art. 2b SR 363."
+  },
+  {
+    "ITEM": 175,
+    "ARTICLE_EID": "art_261",
+    "TARGET_SR": "SR 363",
+    "assigned_articles": ["Art. 16", "Art. 17", "Art. 18"],
+    "confidence": "high",
+    "reasoning": "Entspricht ITEM 45, nun ohne SR im Snippet; Verweis auf Art. 16–18 SR 363."
+  },
+  {
+    "ITEM": 176,
+    "ARTICLE_EID": "art_264",
+    "TARGET_SR": "SR 312.0",
+    "assigned_articles": ["Art. 170", "Art. 171", "Art. 172", "Art. 173"],
+    "confidence": "high",
+    "reasoning": "«Personen, die nach den Artikeln 170–173 das Zeugnis verweigern können» sind interne StPO-Artikel."
+  },
+  {
+    "ITEM": 177,
+    "ARTICLE_EID": "art_269",
+    "TARGET_SR": "SR 142.20",
+    "assigned_articles": ["Art. 116 Abs. 3", "Art. 118 Abs. 3"],
+    "confidence": "high",
+    "reasoning": "Entspricht ITEM 53, nun ohne SR im Snippet; Verweis auf dieselben Artikel des AIG (SR 142.20)."
+  },
+  {
+    "ITEM": 178,
+    "ARTICLE_EID": "art_269",
+    "TARGET_SR": "SR 211.221.31",
+    "assigned_articles": ["Art. 24"],
+    "confidence": "high",
+    "reasoning": "Entspricht ITEM 54; Verweis auf Art. 24 SR 211.221.31."
+  },
+  {
+    "ITEM": 179,
+    "ARTICLE_EID": "art_269",
+    "TARGET_SR": "SR 514.51",
+    "assigned_articles": ["Art. 33 Abs. 2", "Art. 34", "Art. 35", "Art. 35a", "Art. 35b"],
+    "confidence": "high",
+    "reasoning": "«Artikel 33 Absatz 2 und 34–35b» umfasst Art. 33 Abs. 2 sowie den Bereich 34–35b des Kriegsmaterialgesetzes (SR 514.51)."
+  },
+  {
+    "ITEM": 180,
+    "ARTICLE_EID": "art_269",
+    "TARGET_SR": "SR 732.1",
+    "assigned_articles": ["Art. 88 Abs. 1", "Art. 88 Abs. 2", "Art. 89 Abs. 1", "Art. 89 Abs. 2", "Art. 90 Abs. 1"],
+    "confidence": "high",
+    "reasoning": "Entspricht ITEM 56; Verweis auf dieselben Kernenergiegesetz-Artikel."
+  },
+  {
+    "ITEM": 181,
+    "ARTICLE_EID": "art_269",
+    "TARGET_SR": "SR 812.121",
+    "assigned_articles": ["Art. 19 Abs. 2", "Art. 20 Abs. 2"],
+    "confidence": "high",
+    "reasoning": "Entspricht ITEM 57; Verweis auf dieselben BetmG-Artikel."
+  },
+  {
+    "ITEM": 182,
+    "ARTICLE_EID": "art_269",
+    "TARGET_SR": "SR 814.01",
+    "assigned_articles": ["Art. 60 Abs. 1 Bst. g", "Art. 60 Abs. 1 Bst. h", "Art. 60 Abs. 1 Bst. i", "Art. 60 Abs. 1 Bst. m", "Art. 60 Abs. 1 Bst. o", "Art. 60 Abs. 1bis"],
+    "confidence": "high",
+    "reasoning": "Entspricht ITEM 58; Verweis auf dieselben USG-Bestimmungen."
+  },
+  {
+    "ITEM": 183,
+    "ARTICLE_EID": "art_269",
+    "TARGET_SR": "SR 946.202",
+    "assigned_articles": ["Art. 14 Abs. 2"],
+    "confidence": "high",
+    "reasoning": "Entspricht ITEM 59; Verweis auf Art. 14 Abs. 2 SR 946.202."
+  },
+  {
+    "ITEM": 184,
+    "ARTICLE_EID": "art_269",
+    "TARGET_SR": "SR 415.0",
+    "assigned_articles": ["Art. 22 Abs. 2", "Art. 25a Abs. 3"],
+    "confidence": "high",
+    "reasoning": "Entspricht ITEM 60; Verweis auf dieselben Sportförderungsgesetz-Artikel."
+  },
+  {
+    "ITEM": 185,
+    "ARTICLE_EID": "art_269",
+    "TARGET_SR": "SR 958.1",
+    "assigned_articles": ["Art. 154", "Art. 155"],
+    "confidence": "high",
+    "reasoning": "Entspricht ITEM 61; Verweis auf Art. 154 und 155 SR 958.1."
+  },
+  {
+    "ITEM": 186,
+    "ARTICLE_EID": "art_269",
+    "TARGET_SR": "SR 514.54",
+    "assigned_articles": ["Art. 33 Abs. 3"],
+    "confidence": "high",
+    "reasoning": "Entspricht ITEM 62; Verweis auf Art. 33 Abs. 3 Waffengesetz."
+  },
+  {
+    "ITEM": 187,
+    "ARTICLE_EID": "art_269",
+    "TARGET_SR": "SR 812.21",
+    "assigned_articles": ["Art. 86 Abs. 2", "Art. 86 Abs. 3"],
+    "confidence": "high",
+    "reasoning": "Entspricht ITEM 63; Verweis auf dieselben Heilmittelgesetz-Artikel."
+  },
+  {
+    "ITEM": 188,
+    "ARTICLE_EID": "art_269",
+    "TARGET_SR": "SR 935.51",
+    "assigned_articles": ["Art. 130 Abs. 2", "Art. 130 Abs. 1 Bst. a"],
+    "confidence": "high",
+    "reasoning": "Entspricht ITEM 64; Verweis auf Art. 130 Abs. 2 und Abs. 1 Bst. a SR 935.51."
+  },
+  {
+    "ITEM": 189,
+    "ARTICLE_EID": "art_269",
+    "TARGET_SR": "SR 121",
+    "assigned_articles": ["Art. 74 Abs. 4"],
+    "confidence": "high",
+    "reasoning": "Entspricht ITEM 65; Verweis auf Art. 74 Abs. 4 SR 121."
+  },
+  {
+    "ITEM": 190,
+    "ARTICLE_EID": "art_269",
+    "TARGET_SR": "SR 322.1",
+    "assigned_articles": ["Art. 70 Abs. 2"],
+    "confidence": "high",
+    "reasoning": "Entspricht ITEM 66; Verweis auf Art. 70 Abs. 2 SR 322.1."
+  },
+  {
+    "ITEM": 191,
+    "ARTICLE_EID": "art_269_bis",
+    "TARGET_SR": "SR 312.0",
+    "assigned_articles": ["Art. 269"],
+    "confidence": "high",
+    "reasoning": "«Voraussetzungen von Artikel 269 erfüllt» ist ein interner Verweis."
+  },
+  {
+    "ITEM": 192,
+    "ARTICLE_EID": "art_269_bis",
+    "TARGET_SR": "SR 312.0",
+    "assigned_articles": ["Art. 269"],
+    "confidence": "high",
+    "reasoning": "«Überwachung ... nach Artikel 269» ist ein interner Verweis."
+  },
+  {
+    "ITEM": 193,
+    "ARTICLE_EID": "art_269_ter",
+    "TARGET_SR": "SR 312.0",
+    "assigned_articles": ["Art. 269 Abs. 1", "Art. 269 Abs. 3"],
+    "confidence": "high",
+    "reasoning": "«Bedingungen von Artikel 269 Absätze 1 und 3» sind interne Verweise."
+  },
+  {
+    "ITEM": 194,
+    "ARTICLE_EID": "art_269_ter",
+    "TARGET_SR": "SR 312.0",
+    "assigned_articles": ["Art. 286 Abs. 2"],
+    "confidence": "high",
+    "reasoning": "«Verfolgung einer in Artikel 286 Absatz 2 genannten Straftat» ist ein interner Verweis."
+  },
+  {
+    "ITEM": 195,
+    "ARTICLE_EID": "art_269_ter",
+    "TARGET_SR": "SR 312.0",
+    "assigned_articles": ["Art. 269"],
+    "confidence": "high",
+    "reasoning": "«Überwachung ... nach Artikel 269» ist ein interner Verweis."
+  },
+  {
+    "ITEM": 196,
+    "ARTICLE_EID": "art_271",
+    "TARGET_SR": "SR 312.0",
+    "assigned_articles": ["Art. 170", "Art. 171", "Art. 172", "Art. 173"],
+    "confidence": "high",
+    "reasoning": "«in den Artikeln 170–173 genannten Berufsgruppe» sind interne StPO-Artikel."
+  },
+  {
+    "ITEM": 197,
+    "ARTICLE_EID": "art_271",
+    "TARGET_SR": "SR 312.0",
+    "assigned_articles": ["Art. 170", "Art. 171", "Art. 172", "Art. 173"],
+    "confidence": "high",
+    "reasoning": "Auch hier wird auf «in den Artikeln 170–173 genannte Person» verwiesen; interne StPO-Artikel."
+  },
+  {
+    "ITEM": 198,
+    "ARTICLE_EID": "art_273",
+    "TARGET_SR": "SR 312.0",
+    "assigned_articles": ["Art. 269 Abs. 1 Bst. b", "Art. 269 Abs. 1 Bst. c"],
+    "confidence": "high",
+    "reasoning": "«Voraussetzungen nach Artikel 269 Absatz 1 Buchstaben b und c» sind interne Verweise."
+  },
+  {
+    "ITEM": 199,
+    "ARTICLE_EID": "art_273",
+    "TARGET_SR": "SR 780.1",
+    "assigned_articles": ["Art. 8 Bst. b"],
+    "confidence": "high",
+    "reasoning": "Entspricht ITEM 67; Verweis auf Art. 8 Bst. b BÜPF (SR 780.1)."
+  },
+  {
+    "ITEM": 200,
+    "ARTICLE_EID": "art_273",
+    "TARGET_SR": "SR 780.1",
+    "assigned_articles": ["Art. 19 Abs. 1 Bst. b"],
+    "confidence": "high",
+    "reasoning": "«gemäss Artikel 19 Absatz 1 Buchstabe b BÜPF» verweist auf Art. 19 Abs. 1 Bst. b SR 780.1."
+  },
+  {
+    "ITEM": 201,
+    "ARTICLE_EID": "art_279",
+    "TARGET_SR": "SR 312.0",
+    "assigned_articles": ["Art. 270 Bst. b"],
+    "confidence": "high",
+    "reasoning": "«Drittpersonen nach Artikel 270 Buchstabe b» ist ein interner Verweis."
+  },
+  {
+    "ITEM": 202,
+    "ARTICLE_EID": "art_279",
+    "TARGET_SR": "SR 312.0",
+    "assigned_articles": ["Art. 393", "Art. 394", "Art. 395", "Art. 396", "Art. 397"],
+    "confidence": "high",
+    "reasoning": "«Beschwerde nach den Artikel 393–397» verweist auf den Artikelsbereich 393–397 StPO."
+  },
+  {
+    "ITEM": 203,
+    "ARTICLE_EID": "art_281",
+    "TARGET_SR": "SR 312.0",
+    "assigned_articles": ["Art. 170", "Art. 171", "Art. 172", "Art. 173"],
+    "confidence": "high",
+    "reasoning": "«in den Artikeln 170–173 genannten Berufsgruppen» sind interne StPO-Artikel."
+  },
+  {
+    "ITEM": 204,
+    "ARTICLE_EID": "art_281",
+    "TARGET_SR": "SR 312.0",
+    "assigned_articles": ["Art. 269", "Art. 270", "Art. 271", "Art. 272", "Art. 273", "Art. 274", "Art. 275", "Art. 276", "Art. 277", "Art. 278", "Art. 279"],
+    "confidence": "high",
+    "reasoning": "«nach den Artikeln 269–279» verweist auf den internen Bereich 269–279 StPO."
+  },
+  {
+    "ITEM": 205,
+    "ARTICLE_EID": "art_285",
+    "TARGET_SR": "SR 312.0",
+    "assigned_articles": ["Art. 279 Abs. 1", "Art. 279 Abs. 2"],
+    "confidence": "high",
+    "reasoning": "«nach Massgabe von Artikel 279 Absätze 1 und 2» ist ein interner Verweis."
+  },
+  {
+    "ITEM": 206,
+    "ARTICLE_EID": "art_285",
+    "TARGET_SR": "SR 312.0",
+    "assigned_articles": ["Art. 393", "Art. 394", "Art. 395", "Art. 396", "Art. 397"],
+    "confidence": "high",
+    "reasoning": "«Beschwerde nach den Artikeln 393–397» verweist auf denselben Bereich wie ITEM 202."
+  },
+  {
+    "ITEM": 207,
+    "ARTICLE_EID": "art_286",
+    "TARGET_SR": "SR 142.20",
+    "assigned_articles": ["Art. 116 Abs. 3", "Art. 118 Abs. 3"],
+    "confidence": "high",
+    "reasoning": "Entspricht ITEM 71; Verweis auf dieselben AIG-Artikel."
+  },
+  {
+    "ITEM": 208,
+    "ARTICLE_EID": "art_286",
+    "TARGET_SR": "SR 211.221.31",
+    "assigned_articles": ["Art. 24"],
+    "confidence": "high",
+    "reasoning": "Entspricht ITEM 72; Verweis auf Art. 24 SR 211.221.31."
+  },
+  {
+    "ITEM": 209,
+    "ARTICLE_EID": "art_286",
+    "TARGET_SR": "SR 514.51",
+    "assigned_articles": ["Art. 33 Abs. 2", "Art. 34", "Art. 35", "Art. 35a", "Art. 35b"],
+    "confidence": "high",
+    "reasoning": "Entspricht ITEM 73 und 179; Verweis auf Art. 33 Abs. 2 und 34–35b SR 514.51."
+  },
+  {
+    "ITEM": 210,
+    "ARTICLE_EID": "art_286",
+    "TARGET_SR": "SR 732.1",
+    "assigned_articles": ["Art. 88 Abs. 1", "Art. 88 Abs. 2", "Art. 89 Abs. 1", "Art. 89 Abs. 2", "Art. 90 Abs. 1"],
+    "confidence": "high",
+    "reasoning": "Entspricht ITEM 74; Verweis auf dieselben Kernenergiegesetz-Artikel."
+  },
+  {
+    "ITEM": 211,
+    "ARTICLE_EID": "art_286",
+    "TARGET_SR": "SR 812.121",
+    "assigned_articles": ["Art. 19 Abs. 2", "Art. 20 Abs. 2"],
+    "confidence": "high",
+    "reasoning": "Entspricht ITEM 75; Verweis auf dieselben BetmG-Artikel."
+  },
+  {
+    "ITEM": 212,
+    "ARTICLE_EID": "art_286",
+    "TARGET_SR": "SR 946.202",
+    "assigned_articles": ["Art. 14 Abs. 2"],
+    "confidence": "high",
+    "reasoning": "Entspricht ITEM 76; Verweis auf Art. 14 Abs. 2 SR 946.202."
+  },
+  {
+    "ITEM": 213,
+    "ARTICLE_EID": "art_286",
+    "TARGET_SR": "SR 415.0",
+    "assigned_articles": ["Art. 22 Abs. 2", "Art. 25a Abs. 3"],
+    "confidence": "high",
+    "reasoning": "Entspricht ITEM 77; Verweis auf dieselben Sportförderungsgesetz-Artikel."
+  },
+  {
+    "ITEM": 214,
+    "ARTICLE_EID": "art_286",
+    "TARGET_SR": "SR 514.54",
+    "assigned_articles": ["Art. 33 Abs. 3"],
+    "confidence": "high",
+    "reasoning": "Entspricht ITEM 78; Verweis auf Art. 33 Abs. 3 Waffengesetz."
+  },
+  {
+    "ITEM": 215,
+    "ARTICLE_EID": "art_286",
+    "TARGET_SR": "SR 812.21",
+    "assigned_articles": ["Art. 86 Abs. 2", "Art. 86 Abs. 3"],
+    "confidence": "high",
+    "reasoning": "Entspricht ITEM 79; Verweis auf dieselben Heilmittelgesetz-Artikel."
+  },
+  {
+    "ITEM": 216,
+    "ARTICLE_EID": "art_286",
+    "TARGET_SR": "SR 935.51",
+    "assigned_articles": ["Art. 130 Abs. 2", "Art. 130 Abs. 1 Bst. a"],
+    "confidence": "high",
+    "reasoning": "Entspricht ITEM 80; Verweis auf Art. 130 Abs. 2 und Abs. 1 Bst. a SR 935.51."
+  },
+  {
+    "ITEM": 217,
+    "ARTICLE_EID": "art_286",
+    "TARGET_SR": "SR 121",
+    "assigned_articles": ["Art. 74 Abs. 4"],
+    "confidence": "high",
+    "reasoning": "Entspricht ITEM 81; Verweis auf Art. 74 Abs. 4 SR 121."
+  },
+  {
+    "ITEM": 218,
+    "ARTICLE_EID": "art_286",
+    "TARGET_SR": "SR 322.1",
+    "assigned_articles": ["Art. 70 Abs. 2"],
+    "confidence": "high",
+    "reasoning": "Entspricht ITEM 82; Verweis auf Art. 70 Abs. 2 SR 322.1."
+  },
+  {
+    "ITEM": 219,
+    "ARTICLE_EID": "art_294",
+    "TARGET_SR": "SR 812.121",
+    "assigned_articles": ["Art. 19", "Art. 20", "Art. 21", "Art. 22"],
+    "confidence": "high",
+    "reasoning": "Entspricht ITEM 84; Verweis auf Art. 19 sowie 20–22 BetmG (SR 812.121)."
+  },
+  {
+    "ITEM": 220,
+    "ARTICLE_EID": "art_298",
+    "TARGET_SR": "SR 312.0",
+    "assigned_articles": ["Art. 393", "Art. 394", "Art. 395", "Art. 396", "Art. 397"],
+    "confidence": "high",
+    "reasoning": "«Beschwerde nach den Artikeln 393–397» verweist auf den internen Beschwerdebereich."
+  },
+  {
+    "ITEM": 221,
+    "ARTICLE_EID": "art_298_a",
+    "TARGET_SR": "SR 312.0",
+    "assigned_articles": ["Art. 285a"],
+    "confidence": "high",
+    "reasoning": "«Legende im Sinne von Artikel 285a» ist ein interner Verweis."
+  },
+  {
+    "ITEM": 222,
+    "ARTICLE_EID": "art_298_c",
+    "TARGET_SR": "SR 312.0",
+    "assigned_articles": ["Art. 287", "Art. 287 Abs. 1 Bst. b"],
+    "confidence": "high",
+    "reasoning": "«gilt Artikel 287 sinngemäss» und «Personen nach Artikel 287 Absatz 1 Buchstabe b» sind interne Verweise."
+  },
+  {
+    "ITEM": 223,
+    "ARTICLE_EID": "art_298_c",
+    "TARGET_SR": "SR 312.0",
+    "assigned_articles": ["Art. 291", "Art. 292", "Art. 293", "Art. 294"],
+    "confidence": "high",
+    "reasoning": "«gelten die Artikel 291–294 sinngemäss» verweist auf diesen internen Bereich."
+  },
+  {
+    "ITEM": 224,
+    "ARTICLE_EID": "art_298_d",
+    "TARGET_SR": "SR 312.0",
+    "assigned_articles": ["Art. 298 Abs. 1", "Art. 298 Abs. 3"],
+    "confidence": "high",
+    "reasoning": "«gilt Artikel 298 Absätze 1 und 3 sinngemäss» ist ein interner Verweis."
+  },
+  {
+    "ITEM": 225,
+    "ARTICLE_EID": "art_302",
+    "TARGET_SR": "SR 312.0",
+    "assigned_articles": ["Art. 113 Abs. 1", "Art. 168", "Art. 169", "Art. 180 Abs. 1"],
+    "confidence": "high",
+    "reasoning": "«Personen, die nach den Artikeln 113 Absatz 1, 168, 169 und 180 Absatz 1 ... berechtigt sind» sind interne StPO-Artikel."
+  },
+  {
+    "ITEM": 226,
+    "ARTICLE_EID": "art_305",
+    "TARGET_SR": "SR 311.0",
+    "assigned_articles": ["Art. 92a"],
+    "confidence": "high",
+    "reasoning": "«Recht nach Artikel 92a StGB» verweist auf eine Bestimmung des Strafgesetzbuches (SR 311.0)."
+  },
+  {
+    "ITEM": 227,
+    "ARTICLE_EID": "art_309",
+    "TARGET_SR": "SR 312.0",
+    "assigned_articles": ["Art. 307 Abs. 1"],
+    "confidence": "high",
+    "reasoning": "«im Sinne von Artikel 307 Absatz 1 durch die Polizei informiert» ist ein interner Verweis."
+  },
+  {
+    "ITEM": 228,
+    "ARTICLE_EID": "art_310",
+    "TARGET_SR": "SR 312.0",
+    "assigned_articles": ["Art. 8"],
+    "confidence": "high",
+    "reasoning": "«aus den in Artikel 8 genannten Gründen» verweist auf Art. 8 StPO."
+  },
+  {
+    "ITEM": 229,
+    "ARTICLE_EID": "art_311",
+    "TARGET_SR": "SR 312.0",
+    "assigned_articles": ["Art. 309 Abs. 3"],
+    "confidence": "high",
+    "reasoning": "«Artikel 309 Absatz 3 ist anwendbar» ist ein interner Verweis."
+  },
+  {
+    "ITEM": 230,
+    "ARTICLE_EID": "art_320",
+    "TARGET_SR": "SR 312.0",
+    "assigned_articles": ["Art. 80", "Art. 81"],
+    "confidence": "high",
+    "reasoning": "«richten sich nach den Artikeln 80 und 81» sind interne Verweise."
+  },
+  {
+    "ITEM": 231,
+    "ARTICLE_EID": "art_321",
+    "TARGET_SR": "SR 312.0",
+    "assigned_articles": ["Art. 84", "Art. 85", "Art. 86", "Art. 87", "Art. 88"],
+    "confidence": "high",
+    "reasoning": "«Im Übrigen sind die Artikel 84–88 sinngemäss anwendbar» verweist auf diesen internen Bereich."
+  },
+  {
+    "ITEM": 232,
+    "ARTICLE_EID": "art_329",
+    "TARGET_SR": "SR 312.0",
+    "assigned_articles": ["Art. 320"],
+    "confidence": "high",
+    "reasoning": "«Artikel 320 ist sinngemäss anwendbar» ist ein interner Verweis."
+  },
+  {
+    "ITEM": 233,
+    "ARTICLE_EID": "art_330",
+    "TARGET_SR": "SR 312.0",
+    "assigned_articles": ["Art. 305"],
+    "confidence": "high",
+    "reasoning": "«Artikel 305 ist sinngemäss anwendbar» ist ein interner Verweis."
+  },
+  {
+    "ITEM": 234,
+    "ARTICLE_EID": "art_332",
+    "TARGET_SR": "SR 312.0",
+    "assigned_articles": ["Art. 316"],
+    "confidence": "high",
+    "reasoning": "«nach Massgabe von Artikel 316» ist ein interner Verweis."
+  },
+  {
+    "ITEM": 235,
+    "ARTICLE_EID": "art_340",
+    "TARGET_SR": "SR 312.0",
+    "assigned_articles": ["Art. 333"],
+    "confidence": "high",
+    "reasoning": "«unter Vorbehalt von Artikel 333» ist ein interner Verweis."
+  },
+  {
+    "ITEM": 236,
+    "ARTICLE_EID": "art_351",
+    "TARGET_SR": "SR 312.0",
+    "assigned_articles": ["Art. 84"],
+    "confidence": "high",
+    "reasoning": "«nach den Bestimmungen von Artikel 84» ist ein interner Verweis."
+  },
+  {
+    "ITEM": 237,
+    "ARTICLE_EID": "art_356",
+    "TARGET_SR": "SR 312.0",
+    "assigned_articles": ["Art. 392"],
+    "confidence": "high",
+    "reasoning": "«Artikel 392 sinngemäss anwendbar» ist ein interner Verweis."
+  },
+  {
+    "ITEM": 238,
+    "ARTICLE_EID": "art_360",
+    "TARGET_SR": "SR 312.0",
+    "assigned_articles": ["Art. 325", "Art. 326"],
+    "confidence": "high",
+    "reasoning": "«Angaben nach den Artikeln 325 und 326» sind interne Verweise."
+  },
+  {
+    "ITEM": 239,
+    "ARTICLE_EID": "art_364",
+    "TARGET_SR": "SR 312.0",
+    "assigned_articles": ["Art. 363 Abs. 1", "Art. 390"],
+    "confidence": "high",
+    "reasoning": "«Verfahren vor dem Gericht (Art. 363 Abs. 1)» und «für das schriftliche Verfahren gilt sinngemäss Artikel 390» sind interne Verweise."
+  },
+  {
+    "ITEM": 240,
+    "ARTICLE_EID": "art_364_a",
+    "TARGET_SR": "SR 312.0",
+    "assigned_articles": ["Art. 222", "Art. 223", "Art. 224", "Art. 225", "Art. 226", "Art. 227", "Art. 228"],
+    "confidence": "high",
+    "reasoning": "«richtet sich sinngemäss nach den Artikeln 222–228» verweist auf diesen internen Bereich."
+  },
+  {
+    "ITEM": 241,
+    "ARTICLE_EID": "art_364_b",
+    "TARGET_SR": "SR 312.0",
+    "assigned_articles": ["Art. 364a Abs. 1"],
+    "confidence": "high",
+    "reasoning": "«unter den Voraussetzungen von Artikel 364a Absatz 1» ist ein interner Verweis."
+  },
+  {
+    "ITEM": 242,
+    "ARTICLE_EID": "art_364_b",
+    "TARGET_SR": "SR 312.0",
+    "assigned_articles": ["Art. 224", "Art. 225", "Art. 226"],
+    "confidence": "high",
+    "reasoning": "«in sinngemässer Anwendung von Artikel 224» und «Verfahren richtet sich sinngemäss nach den Artikeln 225 und 226» sind interne Verweise."
+  },
+  {
+    "ITEM": 243,
+    "ARTICLE_EID": "art_364_b",
+    "TARGET_SR": "SR 312.0",
+    "assigned_articles": ["Art. 227"],
+    "confidence": "high",
+    "reasoning": "«richtet sich das Verfahren sinngemäss nach Artikel 227» ist ein interner Verweis."
+  },
+  {
+    "ITEM": 244,
+    "ARTICLE_EID": "art_364_b",
+    "TARGET_SR": "SR 312.0",
+    "assigned_articles": ["Art. 222", "Art. 230", "Art. 231", "Art. 232", "Art. 233"],
+    "confidence": "high",
+    "reasoning": "«gelten die Artikel 222 und 230–233 sinngemäss» verweist auf diesen internen Bereich."
+  },
+  {
+    "ITEM": 245,
+    "ARTICLE_EID": "art_371",
+    "TARGET_SR": "SR 312.0",
+    "assigned_articles": ["Art. 368 Abs. 1"],
+    "confidence": "high",
+    "reasoning": "«im Sinne von Artikel 368 Absatz 1 zu informieren» ist ein interner Verweis."
+  },
+  {
+    "ITEM": 246,
+    "ARTICLE_EID": "art_378",
+    "TARGET_SR": "SR 312.0",
+    "assigned_articles": ["Art. 267 Abs. 3", "Art. 267 Abs. 4", "Art. 267 Abs. 5", "Art. 267 Abs. 6"],
+    "confidence": "high",
+    "reasoning": "«Artikel 267 Absätze 3–6 ist sinngemäss anwendbar» ist ein interner Verweis."
+  },
+  {
+    "ITEM": 247,
+    "ARTICLE_EID": "art_383",
+    "TARGET_SR": "SR 312.0",
+    "assigned_articles": ["Art. 136"],
+    "confidence": "high",
+    "reasoning": "«Artikel 136 bleibt vorbehalten» ist ein interner Verweis."
+  },
+  {
+    "ITEM": 248,
+    "ARTICLE_EID": "art_401",
+    "TARGET_SR": "SR 312.0",
+    "assigned_articles": ["Art. 399 Abs. 3", "Art. 399 Abs. 4"],
+    "confidence": "high",
+    "reasoning": "«richtet sich sinngemäss nach Artikel 399 Absätze 3 und 4» ist ein interner Verweis."
+  },
+  {
+    "ITEM": 249,
+    "ARTICLE_EID": "art_403",
+    "TARGET_SR": "SR 312.0",
+    "assigned_articles": ["Art. 398"],
+    "confidence": "high",
+    "reasoning": "«Berufung sei im Sinne von Artikel 398 unzulässig» ist ein interner Verweis."
+  },
+  {
+    "ITEM": 250,
+    "ARTICLE_EID": "art_405",
+    "TARGET_SR": "SR 312.0",
+    "assigned_articles": ["Art. 337 Abs. 3", "Art. 337 Abs. 4"],
+    "confidence": "high",
+    "reasoning": "«in den in Artikel 337 Absätze 3 und 4 vorgesehenen Fällen» ist ein interner Verweis."
+  },
+  {
+    "ITEM": 251,
+    "ARTICLE_EID": "art_406",
+    "TARGET_SR": "SR 312.0",
+    "assigned_articles": ["Art. 390 Abs. 2", "Art. 390 Abs. 3", "Art. 390 Abs. 4"],
+    "confidence": "high",
+    "reasoning": "«richtet sich nach Artikel 390 Absätze 2–4» ist ein interner Verweis."
+  },
+  {
+    "ITEM": 252,
+    "ARTICLE_EID": "art_410",
+    "TARGET_SR": "SR 0.101",
+    "assigned_articles": ["Art. 44", "Art. 39"],
+    "confidence": "high",
+    "reasoning": "«endgültigen Urteil (Art. 44 EMRK)» und «gütliche Einigung (Art. 39 EMRK)» sind Verweise auf die EMRK (SR 0.101)."
+  },
+  {
+    "ITEM": 253,
+    "ARTICLE_EID": "art_411",
+    "TARGET_SR": "SR 312.0",
+    "assigned_articles": ["Art. 410 Abs. 1 Bst. b", "Art. 410 Abs. 2"],
+    "confidence": "high",
+    "reasoning": "«Gesuche nach Artikel 410 Absatz 1 Buchstabe b und 2» sind interne Verweise."
+  },
+  {
+    "ITEM": 254,
+    "ARTICLE_EID": "art_412",
+    "TARGET_SR": "SR 312.0",
+    "assigned_articles": ["Art. 388"],
+    "confidence": "high",
+    "reasoning": "«soweit sie nicht nach Artikel 388 der Verfahrensleitung obliegen» ist ein interner Verweis."
+  },
+  {
+    "ITEM": 255,
+    "ARTICLE_EID": "art_415",
+    "TARGET_SR": "SR 312.0",
+    "assigned_articles": ["Art. 436 Abs. 4"],
+    "confidence": "high",
+    "reasoning": "«richten sich nach Artikel 436 Absatz 4» ist ein interner Verweis."
+  },
+  {
+    "ITEM": 256,
+    "ARTICLE_EID": "art_426",
+    "TARGET_SR": "SR 312.0",
+    "assigned_articles": ["Art. 135 Abs. 4"],
+    "confidence": "high",
+    "reasoning": "«vorbehalten bleibt Artikel 135 Absatz 4» ist ein interner Verweis."
+  },
+  {
+    "ITEM": 257,
+    "ARTICLE_EID": "art_427",
+    "TARGET_SR": "SR 312.0",
+    "assigned_articles": ["Art. 426 Abs. 2"],
+    "confidence": "high",
+    "reasoning": "«nicht nach Artikel 426 Absatz 2 kostenpflichtig» ist ein interner Verweis."
+  },
+  {
+    "ITEM": 258,
+    "ARTICLE_EID": "art_430",
+    "TARGET_SR": "SR 312.0",
+    "assigned_articles": ["Art. 428 Abs. 2"],
+    "confidence": "high",
+    "reasoning": "«wenn die Voraussetzungen von Artikel 428 Absatz 2 erfüllt sind» ist ein interner Verweis."
+  },
+  {
+    "ITEM": 259,
+    "ARTICLE_EID": "art_433",
+    "TARGET_SR": "SR 312.0",
+    "assigned_articles": ["Art. 426 Abs. 2"],
+    "confidence": "high",
+    "reasoning": "«beschuldigte Person nach Artikel 426 Absatz 2 kostenpflichtig» ist ein interner Verweis."
+  },
+  {
+    "ITEM": 260,
+    "ARTICLE_EID": "art_434",
+    "TARGET_SR": "SR 312.0",
+    "assigned_articles": ["Art. 433 Abs. 2"],
+    "confidence": "high",
+    "reasoning": "«Artikel 433 Absatz 2 ist sinngemäss anwendbar» ist ein interner Verweis."
+  },
+  {
+    "ITEM": 261,
+    "ARTICLE_EID": "art_436",
+    "TARGET_SR": "SR 312.0",
+    "assigned_articles": ["Art. 429", "Art. 430", "Art. 431", "Art. 432", "Art. 433", "Art. 434"],
+    "confidence": "high",
+    "reasoning": "«richten sich nach den Artikeln 429–434» verweist auf diesen internen Bereich."
+  },
+  {
+    "ITEM": 262,
+    "ARTICLE_EID": "art_436",
+    "TARGET_SR": "SR 312.0",
+    "assigned_articles": ["Art. 409"],
+    "confidence": "high",
+    "reasoning": "«Entscheid nach Artikel 409» ist ein interner Verweis."
+  },
+  {
+    "ITEM": 263,
+    "ARTICLE_EID": "art_440",
+    "TARGET_SR": "SR 312.0",
+    "assigned_articles": ["Art. 439 Abs. 3"],
+    "confidence": "high",
+    "reasoning": "«wenn eine der Voraussetzungen nach Artikel 439 Absatz 3 erfüllt ist» ist ein interner Verweis."
+  },
+  {
+    "ITEM": 264,
+    "ARTICLE_EID": "art_441",
+    "TARGET_SR": "SR 312.0",
+    "assigned_articles": ["Art. 431"],
+    "confidence": "high",
+    "reasoning": "«in sinngemässer Anwendung von Artikel 431» ist ein interner Verweis."
+  },
+  {
+    "ITEM": 265,
+    "ARTICLE_EID": "art_455",
+    "TARGET_SR": "SR 312.0",
+    "assigned_articles": ["Art. 453"],
+    "confidence": "high",
+    "reasoning": "«Für Einsprachen gegen Strafbefehle gilt Artikel 453 sinngemäss» ist ein interner Verweis."
+  }
+]

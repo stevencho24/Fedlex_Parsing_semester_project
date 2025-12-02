@@ -1,0 +1,50 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 101",
+    "assigned_articles": [
+      "Art. 110 Abs. 1 Bst. a"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Formulierung «gestützt auf Artikel 110 Absatz 1 Buchstabe a der Bundesverfassung SR 101» verknüpft den genannten Artikel grammatikalisch eindeutig mit SR 101."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_13",
+    "TARGET_SR": "SR 311.0",
+    "assigned_articles": "General reference - entire document",
+    "confidence": "high",
+    "reasoning": "Der Satzteil «Es gelten die allgemeinen Bestimmungen des Strafgesetzbuches SR 311.0» verweist pauschal auf die allgemeinen Bestimmungen des StGB, ohne konkrete Artikel zu nennen; daher ist von einer generellen Verweisung auf das Gesetz auszugehen."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_13",
+    "TARGET_SR": "SR 313.0",
+    "assigned_articles": [
+      "Art. 6"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Wendung «Artikel 6 des Verwaltungsstrafrechtsgesetzes vom 22. März 1974 SR 313.0» ordnet Art. 6 eindeutig dem Verwaltungsstrafrechtsgesetz (SR 313.0) zu."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_15",
+    "TARGET_SR": "SR 172.216.1",
+    "assigned_articles": [
+      "Art. 5"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Einschub «(Art. 5 der Organisationsverordnung ... – SR 172.216.1 ...)» wird Art. 5 ausdrücklich der Organisationsverordnung mit der SR-Nummer 172.216.1 zugeordnet."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_13",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Satz «Es gelten die allgemeinen Bestimmungen des Strafgesetzbuches und Artikel 6 des Verwaltungsstrafrechtsgesetzes vom 22. März 1974.» wiederholt inhaltlich die Verweisung aus Art. 13, jedoch ohne explizite SR-Nummern; im Kontext des Dokuments handelt es sich um eine interne Verweisstruktur, nicht um eine neue, eigenständige SR-Zuordnung."
+  }
+]

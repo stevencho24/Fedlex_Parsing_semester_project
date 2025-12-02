@@ -1,0 +1,706 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 101",
+    "assigned_articles": ["Art. 123 Abs. 1"],
+    "confidence": "high",
+    "reasoning": "Die Formulierung «gestützt auf Artikel 123 Absatz 1 der Bundesverfassung SR 101» verknüpft den genannten Artikel direkt mit SR 101."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": "SR 311.0",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "high",
+    "reasoning": "Es wird nur «die allgemeinen Bestimmungen des Strafgesetzbuches SR 311.0» erwähnt, ohne konkrete Artikelangabe; dies ist eine generelle Verweisung auf das ganze Gesetzesteil."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_9",
+    "TARGET_SR": "SR 311.0",
+    "assigned_articles": ["Art. 68", "Art. 49"],
+    "confidence": "high",
+    "reasoning": "Snippet nennt ausdrücklich «Artikel 68 des Strafgesetzbuches SR 311.0. Heute: von Art. 49.»; beide Artikel gehören zum StGB (SR 311.0)."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_21",
+    "TARGET_SR": "SR 311.0",
+    "assigned_articles": ["Art. 66a", "Art. 66abis"],
+    "confidence": "high",
+    "reasoning": "Die Wendung «Landesverweisung nach Artikel 66a oder 66abis des Strafgesetzbuchs SR 311.0» verknüpft diese Artikel klar mit SR 311.0."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_22",
+    "TARGET_SR": "SR 312.0",
+    "assigned_articles": ["Art. 31–37"],
+    "confidence": "high",
+    "reasoning": "«nach den Artikeln 31–37 der Strafprozessordnung ... SR 312.0 (StPO)» ist eine direkte Bereichsverweisung auf diese Artikel der StPO."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_23",
+    "TARGET_SR": "SR 312.1",
+    "assigned_articles": ["Art. 10"],
+    "confidence": "high",
+    "reasoning": "«nach Artikel 10 der Jugendstrafprozessordnung ... SR 312.1» verknüpft Art. 10 eindeutig mit SR 312.1."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_25",
+    "TARGET_SR": "SR 173.71",
+    "assigned_articles": ["Art. 73"],
+    "confidence": "high",
+    "reasoning": "«nach Artikel 73 des Strafbehördenorganisationsgesetzes ... SR 173.71» ist eine klare Einzelartikelverweisung."
+  },
+  {
+    "ITEM": 8,
+    "ARTICLE_EID": "art_30",
+    "TARGET_SR": "SR 312.0",
+    "assigned_articles": ["Art. 171–173", "Art. 43–48"],
+    "confidence": "high",
+    "reasoning": "Snippet und snippet_acronym nennen «Berufsgeheimnisse im Sinne der Artikel 171–173 StPO» sowie «Im Übrigen ... Artikel 43–48 StPO»; StPO ist SR 312.0."
+  },
+  {
+    "ITEM": 9,
+    "ARTICLE_EID": "art_31",
+    "TARGET_SR": "SR 172.021",
+    "assigned_articles": ["Art. 20–24"],
+    "confidence": "high",
+    "reasoning": "«gelten die Artikel 20–24 des Verwaltungsverfahrensgesetzes ... SR 172.021» ist eine direkte Bereichsverweisung."
+  },
+  {
+    "ITEM": 10,
+    "ARTICLE_EID": "art_31",
+    "TARGET_SR": "SR 312.0",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "medium",
+    "reasoning": "«Die Fristen im gerichtlichen Verfahren richten sich nach der StPO SR 312.0.» ohne Artikelangabe; generelle Verweisung auf die Fristenregelung der StPO."
+  },
+  {
+    "ITEM": 11,
+    "ARTICLE_EID": "art_36",
+    "TARGET_SR": "SR 172.021",
+    "assigned_articles": ["Art. 26–28"],
+    "confidence": "high",
+    "reasoning": "«Die Artikel 26–28 des Verwaltungsverfahrensgesetzes ... SR 172.021 gelten sinngemäss.» benennt den Bereich klar."
+  },
+  {
+    "ITEM": 12,
+    "ARTICLE_EID": "art_41",
+    "TARGET_SR": "SR 312.0",
+    "assigned_articles": ["Art. 163–166", "Art. 168–176"],
+    "confidence": "high",
+    "reasoning": "«Artikel 163–166 und 168–176 StPO SR 312.0» sind ausdrücklich genannt."
+  },
+  {
+    "ITEM": 13,
+    "ARTICLE_EID": "art_41",
+    "TARGET_SR": "SR 273",
+    "assigned_articles": ["Art. 48"],
+    "confidence": "high",
+    "reasoning": "«Artikel 48 des Bundesgesetzes ... SR 273 über den Bundeszivilprozess» verknüpft Art. 48 mit SR 273."
+  },
+  {
+    "ITEM": 14,
+    "ARTICLE_EID": "art_41",
+    "TARGET_SR": "SR 311.0",
+    "assigned_articles": ["Art. 292"],
+    "confidence": "high",
+    "reasoning": "«unter Hinweis auf Artikel 292 des Strafgesetzbuches SR 311.0» ist eine eindeutige Einzelartikelverweisung."
+  },
+  {
+    "ITEM": 15,
+    "ARTICLE_EID": "art_43",
+    "TARGET_SR": "SR 312.0",
+    "assigned_articles": ["Art. 183–185", "Art. 187", "Art. 189", "Art. 191"],
+    "confidence": "high",
+    "reasoning": "Snippet nennt diese Artikel der StPO explizit; StPO ist SR 312.0."
+  },
+  {
+    "ITEM": 16,
+    "ARTICLE_EID": "art_43",
+    "TARGET_SR": "SR 273",
+    "assigned_articles": ["Art. 61"],
+    "confidence": "high",
+    "reasoning": "«Artikel 61 des Bundesgesetzes ... SR 273 über den Bundeszivilprozess» verknüpft Art. 61 mit SR 273."
+  },
+  {
+    "ITEM": 17,
+    "ARTICLE_EID": "art_46",
+    "TARGET_SR": "SR 935.61",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "medium",
+    "reasoning": "Es wird nur «nach dem Anwaltsgesetz ... SR 935.61» ohne Artikelangabe verwiesen; generelle Bezugnahme auf das Gesetz."
+  },
+  {
+    "ITEM": 18,
+    "ARTICLE_EID": "art_58",
+    "TARGET_SR": "SR 312.0",
+    "assigned_articles": ["Art. 234–236"],
+    "confidence": "high",
+    "reasoning": "«nach den Artikeln 234–236 StPO SR 312.0» ist eine klare Bereichsverweisung."
+  },
+  {
+    "ITEM": 19,
+    "ARTICLE_EID": "art_60",
+    "TARGET_SR": "SR 312.0",
+    "assigned_articles": ["Art. 238–240"],
+    "confidence": "high",
+    "reasoning": "«gelten die Artikel 238–240 StPO SR 312.0 sinngemäss» benennt die Artikelgruppe ausdrücklich."
+  },
+  {
+    "ITEM": 20,
+    "ARTICLE_EID": "art_73",
+    "TARGET_SR": "SR 311.0",
+    "assigned_articles": ["Art. 66a", "Art. 66abis"],
+    "confidence": "high",
+    "reasoning": "Gleiche Formulierung wie bei ITEM 4: «nach Artikel 66a oder 66abis des Strafgesetzbuchs SR 311.0»."
+  },
+  {
+    "ITEM": 21,
+    "ARTICLE_EID": "art_73",
+    "TARGET_SR": "SR 312.0",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "medium",
+    "reasoning": "«Eine Untersuchung gemäss StPO SR 312.0 findet nicht statt» verweist allgemein auf die StPO ohne Artikelangabe."
+  },
+  {
+    "ITEM": 22,
+    "ARTICLE_EID": "art_80",
+    "TARGET_SR": "SR 312.0",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "medium",
+    "reasoning": "«die Rechtsmittel der StPO SR 312.0» ist eine generelle Verweisung auf das Rechtsmittelrecht der StPO ohne konkrete Artikel."
+  },
+  {
+    "ITEM": 23,
+    "ARTICLE_EID": "art_82",
+    "TARGET_SR": "SR 312.0",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "medium",
+    "reasoning": "«die entsprechenden Vorschriften der StPO SR 312.0» ohne Artikelangabe; generelle Bezugnahme."
+  },
+  {
+    "ITEM": 24,
+    "ARTICLE_EID": "art_89",
+    "TARGET_SR": "SR 312.0",
+    "assigned_articles": ["Art. 379–392", "Art. 410–415"],
+    "confidence": "high",
+    "reasoning": "Snippet nennt diese Artikelbereiche der StPO ausdrücklich."
+  },
+  {
+    "ITEM": 25,
+    "ARTICLE_EID": "art_93",
+    "TARGET_SR": "SR 311.0",
+    "assigned_articles": ["Art. 59 Ziff. 1 Abs. 2", "Art. 70 Abs. 1"],
+    "confidence": "high",
+    "reasoning": "Text verweist auf «Artikel 59 Ziffer 1 Absatz 2 des Strafgesetzbuches SR 311.0. Heute: nach Art. 70 Abs. 1.»; beide Stellen gehören zu SR 311.0."
+  },
+  {
+    "ITEM": 26,
+    "ARTICLE_EID": "art_93",
+    "TARGET_SR": "SR 172.021",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "medium",
+    "reasoning": "«Verfügung nach dem Bundesgesetz ... SR 172.021 über das Verwaltungsverfahren» ohne Artikelangabe; generelle Verweisung auf das VwVG."
+  },
+  {
+    "ITEM": 27,
+    "ARTICLE_EID": "art_97",
+    "TARGET_SR": "SR 312.0",
+    "assigned_articles": ["Art. 417–428"],
+    "confidence": "high",
+    "reasoning": "«nach den Artikeln 417–428 StPO SR 312.0» ist eine klare Bereichsverweisung."
+  },
+  {
+    "ITEM": 28,
+    "ARTICLE_EID": "art_104",
+    "TARGET_SR": "SR 641.411.1",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "medium",
+    "reasoning": "«Siehe heute: die Biersteuerverordnung ... (SR 641.411.1).» ohne Artikelangabe; allgemeiner Verweis auf die Verordnung."
+  },
+  {
+    "ITEM": 29,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": "SR 313.0",
+    "assigned_articles": ["Art. 6"],
+    "confidence": "high",
+    "reasoning": "«nach Artikel 6 strafbaren Personen» bezieht sich mangels anderer SR-Angabe auf einen Artikel desselben Gesetzes (SR 313.0)."
+  },
+  {
+    "ITEM": 30,
+    "ARTICLE_EID": "art_9",
+    "TARGET_SR": "SR 313.0",
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "«Artikel 68 des Strafgesetzbuches» verweist auf SR 311.0, ist aber bereits in ITEM 3 mit SR 311.0 erfasst; hier keine neue SR-313.0-Selbstverweisung."
+  },
+  {
+    "ITEM": 31,
+    "ARTICLE_EID": "art_18",
+    "TARGET_SR": "SR 313.0",
+    "assigned_articles": ["Art. 14–17"],
+    "confidence": "high",
+    "reasoning": "«stehen sie in den Artikeln 14–17 dem Gemeinwesen ... gleich» ist eine interne Bereichsverweisung innerhalb desselben Gesetzes (SR 313.0)."
+  },
+  {
+    "ITEM": 32,
+    "ARTICLE_EID": "art_21",
+    "TARGET_SR": "SR 313.0",
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "«nach Artikel 66a oder 66abis des Strafgesetzbuchs» verweist auf SR 311.0 und ist bereits in ITEM 4/20 mit SR 311.0 abgedeckt; keine zusätzliche Selbstverweisung zu SR 313.0."
+  },
+  {
+    "ITEM": 33,
+    "ARTICLE_EID": "art_22",
+    "TARGET_SR": "SR 312.0",
+    "assigned_articles": ["Art. 31–37"],
+    "confidence": "high",
+    "reasoning": "«nach den Artikeln 31–37 der Strafprozessordnung ... (StPO)» ist eine klare Verweisung auf diese Artikel der StPO (SR 312.0); deckt sich mit ITEM 5."
+  },
+  {
+    "ITEM": 34,
+    "ARTICLE_EID": "art_22",
+    "TARGET_SR": "SR 312.0",
+    "assigned_articles": ["Art. 40 Abs. 2"],
+    "confidence": "high",
+    "reasoning": "«Artikel 40 Absatz 2 StPO gilt sinngemäss.» verweist eindeutig auf Art. 40 Abs. 2 der StPO (SR 312.0)."
+  },
+  {
+    "ITEM": 35,
+    "ARTICLE_EID": "art_23",
+    "TARGET_SR": "SR 313.0",
+    "assigned_articles": ["Art. 73–83"],
+    "confidence": "high",
+    "reasoning": "«die Artikel 73–83 dieses Gesetzes gelten sinngemäss» ist eine interne Bereichsverweisung innerhalb SR 313.0."
+  },
+  {
+    "ITEM": 36,
+    "ARTICLE_EID": "art_23",
+    "TARGET_SR": "SR 312.1",
+    "assigned_articles": ["Art. 10"],
+    "confidence": "high",
+    "reasoning": "«nach Artikel 10 der Jugendstrafprozessordnung» verweist auf SR 312.1; dies ist bereits in ITEM 6 mit SR 312.1 erfasst."
+  },
+  {
+    "ITEM": 37,
+    "ARTICLE_EID": "art_25",
+    "TARGET_SR": "SR 173.71",
+    "assigned_articles": ["Art. 73"],
+    "confidence": "high",
+    "reasoning": "«nach Artikel 73 des Strafbehördenorganisationsgesetzes» verweist auf SR 173.71; entspricht ITEM 7."
+  },
+  {
+    "ITEM": 38,
+    "ARTICLE_EID": "art_26",
+    "TARGET_SR": "SR 313.0",
+    "assigned_articles": ["Art. 45 ff."],
+    "confidence": "medium",
+    "reasoning": "«Gegen Zwangsmassnahmen (Art. 45 ff.) ...» ist eine interne Verweisung auf spätere Artikel desselben Gesetzes (SR 313.0); Bereichsangabe als «Art. 45 ff.» belassen."
+  },
+  {
+    "ITEM": 39,
+    "ARTICLE_EID": "art_27",
+    "TARGET_SR": "SR 313.0",
+    "assigned_articles": ["Art. 26"],
+    "confidence": "high",
+    "reasoning": "«Soweit nicht die Beschwerde nach Artikel 26 gegeben ist» verweist intern auf Art. 26 desselben Gesetzes."
+  },
+  {
+    "ITEM": 40,
+    "ARTICLE_EID": "art_28",
+    "TARGET_SR": "SR 313.0",
+    "assigned_articles": ["Art. 27 Abs. 2", "Art. 51 Abs. 5", "Art. 59 Abs. 3"],
+    "confidence": "high",
+    "reasoning": "Alle genannten Artikel (27 Abs. 2, 51 Abs. 5, 59 Abs. 3) sind ohne andere SR-Angabe interne Verweisungen innerhalb SR 313.0."
+  },
+  {
+    "ITEM": 41,
+    "ARTICLE_EID": "art_28",
+    "TARGET_SR": "SR 313.0",
+    "assigned_articles": ["Art. 27 Abs. 3"],
+    "confidence": "high",
+    "reasoning": "«vorbehalten bleibt Artikel 27 Absatz 3» ist eine interne Verweisung auf Art. 27 Abs. 3 desselben Gesetzes."
+  },
+  {
+    "ITEM": 42,
+    "ARTICLE_EID": "art_29",
+    "TARGET_SR": "SR 313.0",
+    "assigned_articles": ["Art. 27 Abs. 3"],
+    "confidence": "high",
+    "reasoning": "«(Art. 27 Abs. 3)» bezieht sich auf denselben Gesetzestext; interne Verweisung."
+  },
+  {
+    "ITEM": 43,
+    "ARTICLE_EID": "art_31",
+    "TARGET_SR": "SR 172.021",
+    "assigned_articles": ["Art. 20–24"],
+    "confidence": "high",
+    "reasoning": "«Artikel 20–24 des Verwaltungsverfahrensgesetzes ...» verweist auf SR 172.021; entspricht ITEM 9/46."
+  },
+  {
+    "ITEM": 44,
+    "ARTICLE_EID": "art_33",
+    "TARGET_SR": "SR 313.0",
+    "assigned_articles": ["Art. 32 Abs. 2 Bst. a"],
+    "confidence": "high",
+    "reasoning": "«in Artikel 32 Absatz 2 Buchstabe a genannten Personen» ist eine interne Verweisung innerhalb SR 313.0."
+  },
+  {
+    "ITEM": 45,
+    "ARTICLE_EID": "art_33",
+    "TARGET_SR": "SR 173.71",
+    "assigned_articles": ["Art. 25 Abs. 1"],
+    "confidence": "high",
+    "reasoning": "«unter Vorbehalt der Beschwerde ... (Art. 25 Abs. 1)» bezieht sich auf die Beschwerdekammer des Bundesstrafgerichts; diese Zuständigkeit ist im Strafbehördenorganisationsgesetz (SR 173.71) geregelt, wo Art. 25 Abs. 1 die Beschwerde vorsieht."
+  },
+  {
+    "ITEM": 46,
+    "ARTICLE_EID": "art_36",
+    "TARGET_SR": "SR 172.021",
+    "assigned_articles": ["Art. 26–28"],
+    "confidence": "high",
+    "reasoning": "«Die Artikel 26–28 des Verwaltungsverfahrensgesetzes ... gelten sinngemäss.» verweist auf SR 172.021; identisch mit ITEM 11."
+  },
+  {
+    "ITEM": 47,
+    "ARTICLE_EID": "art_37",
+    "TARGET_SR": "SR 313.0",
+    "assigned_articles": ["Art. 61"],
+    "confidence": "high",
+    "reasoning": "«nach Artikel 61 das Schlussprotokoll» ist eine interne Verweisung innerhalb SR 313.0."
+  },
+  {
+    "ITEM": 48,
+    "ARTICLE_EID": "art_37",
+    "TARGET_SR": "SR 313.0",
+    "assigned_articles": ["Art. 65"],
+    "confidence": "high",
+    "reasoning": "«Vorschriften von Artikel 65 über den Strafbescheid» ist eine interne Verweisung auf Art. 65 desselben Gesetzes."
+  },
+  {
+    "ITEM": 49,
+    "ARTICLE_EID": "art_50",
+    "TARGET_SR": "SR 173.71",
+    "assigned_articles": ["Art. 25 Abs. 1"],
+    "confidence": "high",
+    "reasoning": "«Beschwerdekammer des Bundesstrafgerichts ... (Art. 25 Abs. 1)» verweist wie in ITEM 45 auf Art. 25 Abs. 1 StBOG (SR 173.71)."
+  },
+  {
+    "ITEM": 50,
+    "ARTICLE_EID": "art_51",
+    "TARGET_SR": "SR 313.0",
+    "assigned_articles": ["Art. 52"],
+    "confidence": "high",
+    "reasoning": "«wenn ein Haftgrund nach Artikel 52 angenommen werden muss» ist eine interne Verweisung auf Art. 52 desselben Gesetzes."
+  },
+  {
+    "ITEM": 51,
+    "ARTICLE_EID": "art_51",
+    "TARGET_SR": "SR 313.0",
+    "assigned_articles": ["Art. 19 Abs. 4"],
+    "confidence": "high",
+    "reasoning": "«oder der nach Artikel 19 Absatz 4 Zugeführte» verweist intern auf Art. 19 Abs. 4."
+  },
+  {
+    "ITEM": 52,
+    "ARTICLE_EID": "art_51",
+    "TARGET_SR": "SR 313.0",
+    "assigned_articles": ["Art. 26"],
+    "confidence": "high",
+    "reasoning": "«Der Entscheid kann mit Beschwerde angefochten werden (Art. 26).» ist eine interne Verweisung auf Art. 26."
+  },
+  {
+    "ITEM": 53,
+    "ARTICLE_EID": "art_53",
+    "TARGET_SR": "SR 313.0",
+    "assigned_articles": ["Art. 22"],
+    "confidence": "high",
+    "reasoning": "«die nach Artikel 22 zuständige kantonale Gerichtsbehörde» verweist intern auf Art. 22."
+  },
+  {
+    "ITEM": 54,
+    "ARTICLE_EID": "art_55",
+    "TARGET_SR": "SR 313.0",
+    "assigned_articles": ["Art. 51 Abs. 4"],
+    "confidence": "high",
+    "reasoning": "«sofern dieser nicht bereits einvernommen wurde (Art. 51 Abs. 4)» ist eine interne Verweisung."
+  },
+  {
+    "ITEM": 55,
+    "ARTICLE_EID": "art_55",
+    "TARGET_SR": "SR 313.0",
+    "assigned_articles": ["Art. 51 Abs. 6"],
+    "confidence": "high",
+    "reasoning": "«so gilt Artikel 51 Absatz 6 sinngemäss.» verweist intern auf Art. 51 Abs. 6."
+  },
+  {
+    "ITEM": 56,
+    "ARTICLE_EID": "art_57",
+    "TARGET_SR": "SR 313.0",
+    "assigned_articles": ["Art. 52 Abs. 1 Bst. b"],
+    "confidence": "high",
+    "reasoning": "«Eine nach Artikel 52 Absatz 1 Buchstabe b verfügte Untersuchungshaft» ist eine interne Verweisung."
+  },
+  {
+    "ITEM": 57,
+    "ARTICLE_EID": "art_59",
+    "TARGET_SR": "SR 313.0",
+    "assigned_articles": ["Art. 51 Abs. 5", "Art. 51 Abs. 6"],
+    "confidence": "high",
+    "reasoning": "«die Vorschriften von Artikel 51 Absätze 5 und 6 gelten sinngemäss.» verweist intern auf diese Absätze."
+  },
+  {
+    "ITEM": 58,
+    "ARTICLE_EID": "art_60",
+    "TARGET_SR": "SR 313.0",
+    "assigned_articles": ["Art. 52 Abs. 1 Bst. a"],
+    "confidence": "high",
+    "reasoning": "«auf Grund von Artikel 52 Absatz 1 Buchstabe a zu verhaften wäre» ist eine interne Verweisung."
+  },
+  {
+    "ITEM": 59,
+    "ARTICLE_EID": "art_62",
+    "TARGET_SR": "SR 313.0",
+    "assigned_articles": ["Art. 21 Abs. 1", "Art. 21 Abs. 3"],
+    "confidence": "high",
+    "reasoning": "«(Art. 21 Abs. 1 und 3)» verweist intern auf diese Absätze."
+  },
+  {
+    "ITEM": 60,
+    "ARTICLE_EID": "art_63",
+    "TARGET_SR": "SR 313.0",
+    "assigned_articles": ["Art. 62"],
+    "confidence": "high",
+    "reasoning": "«neu gemäss Artikel 62» ist eine interne Verweisung."
+  },
+  {
+    "ITEM": 61,
+    "ARTICLE_EID": "art_64",
+    "TARGET_SR": "SR 313.0",
+    "assigned_articles": ["Art. 12 Abs. 3"],
+    "confidence": "high",
+    "reasoning": "«Mithaftung nach Artikel 12 Absatz 3» verweist intern auf Art. 12 Abs. 3."
+  },
+  {
+    "ITEM": 62,
+    "ARTICLE_EID": "art_66",
+    "TARGET_SR": "SR 313.0",
+    "assigned_articles": ["Art. 64"],
+    "confidence": "high",
+    "reasoning": "«Artikel 64 gilt sinngemäss.» ist eine interne Verweisung."
+  },
+  {
+    "ITEM": 63,
+    "ARTICLE_EID": "art_70",
+    "TARGET_SR": "SR 313.0",
+    "assigned_articles": ["Art. 63 Abs. 2"],
+    "confidence": "high",
+    "reasoning": "«wenn im Verfahren nach Artikel 63 Absatz 2 ...» verweist intern auf Art. 63 Abs. 2."
+  },
+  {
+    "ITEM": 64,
+    "ARTICLE_EID": "art_70",
+    "TARGET_SR": "SR 313.0",
+    "assigned_articles": ["Art. 64"],
+    "confidence": "high",
+    "reasoning": "«gelten die Vorschriften von Artikel 64 ... sinngemäss.» verweist intern auf Art. 64."
+  },
+  {
+    "ITEM": 65,
+    "ARTICLE_EID": "art_73",
+    "TARGET_SR": "SR 311.0",
+    "assigned_articles": ["Art. 66a", "Art. 66abis"],
+    "confidence": "high",
+    "reasoning": "Entspricht inhaltlich ITEM 20: Verweisung auf Art. 66a und 66abis StGB (SR 311.0)."
+  },
+  {
+    "ITEM": 66,
+    "ARTICLE_EID": "art_77",
+    "TARGET_SR": "SR 313.0",
+    "assigned_articles": ["Art. 63 Abs. 3"],
+    "confidence": "high",
+    "reasoning": "«Artikel 63 Absatz 3 gilt sinngemäss.» ist eine interne Verweisung."
+  },
+  {
+    "ITEM": 67,
+    "ARTICLE_EID": "art_79",
+    "TARGET_SR": "SR 313.0",
+    "assigned_articles": ["Art. 12 Abs. 3"],
+    "confidence": "high",
+    "reasoning": "Wie bei ITEM 61: «Mithaftung nach Artikel 12 Absatz 3» verweist intern auf Art. 12 Abs. 3."
+  },
+  {
+    "ITEM": 68,
+    "ARTICLE_EID": "art_79",
+    "TARGET_SR": "SR 313.0",
+    "assigned_articles": ["Art. 99", "Art. 101"],
+    "confidence": "high",
+    "reasoning": "«(Art. 99 und 101)» sind interne Verweisungen auf diese Artikel desselben Gesetzes."
+  },
+  {
+    "ITEM": 69,
+    "ARTICLE_EID": "art_84",
+    "TARGET_SR": "SR 313.0",
+    "assigned_articles": ["Art. 84–88"],
+    "confidence": "high",
+    "reasoning": "«gelten die Vorschriften der Artikel 84–88 sinngemäss.» ist eine interne Bereichsverweisung."
+  },
+  {
+    "ITEM": 70,
+    "ARTICLE_EID": "art_87",
+    "TARGET_SR": "SR 313.0",
+    "assigned_articles": ["Art. 21 Abs. 1", "Art. 21 Abs. 3"],
+    "confidence": "high",
+    "reasoning": "«(Art. 21 Abs. 1 und 3)» verweist intern auf diese Absätze."
+  },
+  {
+    "ITEM": 71,
+    "ARTICLE_EID": "art_87",
+    "TARGET_SR": "SR 313.0",
+    "assigned_articles": ["Art. 64"],
+    "confidence": "high",
+    "reasoning": "«gilt Artikel 64 ... sinngemäss.» ist eine interne Verweisung."
+  },
+  {
+    "ITEM": 72,
+    "ARTICLE_EID": "art_87",
+    "TARGET_SR": "SR 313.0",
+    "assigned_articles": ["Art. 72"],
+    "confidence": "high",
+    "reasoning": "«gemäss Artikel 72» verweist intern auf Art. 72."
+  },
+  {
+    "ITEM": 73,
+    "ARTICLE_EID": "art_87",
+    "TARGET_SR": "SR 313.0",
+    "assigned_articles": ["Art. 84"],
+    "confidence": "high",
+    "reasoning": "«Revisionsgrundes im Sinne von Artikel 84.» ist eine interne Verweisung."
+  },
+  {
+    "ITEM": 74,
+    "ARTICLE_EID": "art_88",
+    "TARGET_SR": "SR 173.71",
+    "assigned_articles": ["Art. 25 Abs. 1"],
+    "confidence": "high",
+    "reasoning": "«Beschwerde ... (Art. 25 Abs. 1)» verweist wie zuvor auf Art. 25 Abs. 1 StBOG (SR 173.71)."
+  },
+  {
+    "ITEM": 75,
+    "ARTICLE_EID": "art_91",
+    "TARGET_SR": "SR 313.0",
+    "assigned_articles": ["Art. 10"],
+    "confidence": "high",
+    "reasoning": "«nach Artikel 10 in Haft oder Einschliessung umgewandelt» ist eine interne Verweisung auf Art. 10."
+  },
+  {
+    "ITEM": 76,
+    "ARTICLE_EID": "art_91",
+    "TARGET_SR": "SR 313.0",
+    "assigned_articles": ["Art. 22", "Art. 23 Abs. 2"],
+    "confidence": "high",
+    "reasoning": "«(Art. 22 und 23 Abs. 2)» sind interne Verweisungen auf diese Bestimmungen."
+  },
+  {
+    "ITEM": 77,
+    "ARTICLE_EID": "art_93",
+    "TARGET_SR": "SR 313.0",
+    "assigned_articles": ["Art. 92"],
+    "confidence": "high",
+    "reasoning": "«nach Artikel 92 verwerteten Gegenständen» verweist intern auf Art. 92."
+  },
+  {
+    "ITEM": 78,
+    "ARTICLE_EID": "art_93",
+    "TARGET_SR": "SR 172.021",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "medium",
+    "reasoning": "«Verfügung nach dem Bundesgesetz ... über das Verwaltungsverfahren» verweist auf SR 172.021 ohne Artikelangabe; generelle Verweisung, wie in ITEM 26."
+  },
+  {
+    "ITEM": 79,
+    "ARTICLE_EID": "art_96",
+    "TARGET_SR": "SR 173.71",
+    "assigned_articles": ["Art. 25 Abs. 1"],
+    "confidence": "high",
+    "reasoning": "«Beschwerde ... (Art. 25 Abs. 1)» verweist wiederum auf Art. 25 Abs. 1 StBOG (SR 173.71)."
+  },
+  {
+    "ITEM": 80,
+    "ARTICLE_EID": "art_98",
+    "TARGET_SR": "SR 313.0",
+    "assigned_articles": ["Art. 20 Abs. 3"],
+    "confidence": "high",
+    "reasoning": "«nach Artikel 20 Absatz 3» ist eine interne Verweisung."
+  },
+  {
+    "ITEM": 81,
+    "ARTICLE_EID": "art_98",
+    "TARGET_SR": "SR 173.71",
+    "assigned_articles": ["Art. 25 Abs. 1"],
+    "confidence": "high",
+    "reasoning": "«Beschwerde ... (Art. 25 Abs. 1)» verweist auf Art. 25 Abs. 1 StBOG (SR 173.71)."
+  },
+  {
+    "ITEM": 82,
+    "ARTICLE_EID": "art_100",
+    "TARGET_SR": "SR 313.0",
+    "assigned_articles": ["Art. 99 Abs. 2"],
+    "confidence": "high",
+    "reasoning": "«nach Artikel 99 Absatz 2» ist eine interne Verweisung."
+  },
+  {
+    "ITEM": 83,
+    "ARTICLE_EID": "art_100",
+    "TARGET_SR": "SR 173.71",
+    "assigned_articles": ["Art. 25 Abs. 1"],
+    "confidence": "high",
+    "reasoning": "«Beschwerde ... (Art. 25 Abs. 1)» verweist erneut auf Art. 25 Abs. 1 StBOG (SR 173.71)."
+  },
+  {
+    "ITEM": 84,
+    "ARTICLE_EID": "art_101",
+    "TARGET_SR": "SR 313.0",
+    "assigned_articles": ["Art. 99"],
+    "confidence": "high",
+    "reasoning": "«Im gerichtlichen Verfahren gilt Artikel 99 sinngemäss.» ist eine interne Verweisung."
+  },
+  {
+    "ITEM": 85,
+    "ARTICLE_EID": "art_102",
+    "TARGET_SR": "SR 313.0",
+    "assigned_articles": ["Art. 99", "Art. 101"],
+    "confidence": "high",
+    "reasoning": "«nach Artikel 99 oder 101 auszurichtenden Entschädigungen» verweist intern auf diese Artikel."
+  },
+  {
+    "ITEM": 86,
+    "ARTICLE_EID": "art_102",
+    "TARGET_SR": "SR 173.71",
+    "assigned_articles": ["Art. 25 Abs. 1"],
+    "confidence": "high",
+    "reasoning": "«Beschwerde ... (Art. 25 Abs. 1)» verweist wiederum auf Art. 25 Abs. 1 StBOG (SR 173.71)."
+  },
+  {
+    "ITEM": 87,
+    "ARTICLE_EID": "art_103",
+    "TARGET_SR": "SR 313.0",
+    "assigned_articles": ["Art. 34 Abs. 2"],
+    "confidence": "high",
+    "reasoning": "«Artikel 34 Absatz 2 ist anwendbar.» ist eine interne Verweisung."
+  },
+  {
+    "ITEM": 88,
+    "ARTICLE_EID": "art_106",
+    "TARGET_SR": "SR 312.0",
+    "assigned_articles": [],
+    "confidence": "low",
+    "reasoning": "Es wird auf Artikel 293 oder 324 des aufgehobenen Bundesstrafrechtspflegegesetzes verwiesen; dieses Gesetz ist nicht SR 312.0 (StPO). Keine eindeutige Zuordnung zu einem aktuellen SR-Dokument im Snippet, daher keine Artikelzuweisung."
+  }
+]

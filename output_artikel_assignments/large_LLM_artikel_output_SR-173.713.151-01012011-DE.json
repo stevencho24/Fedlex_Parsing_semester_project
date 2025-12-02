@@ -1,0 +1,105 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 173.71",
+    "assigned_articles": [
+      "Art. 45 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Formulierung «gestützt auf Artikel 45 Absatz 2 des Strafbehördenorganisationsgesetzes … SR 173.71 (StBOG)» verweist eindeutig auf Art. 45 Abs. 2 StBOG; keine weiteren Artikel des StBOG werden im Satz genannt."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 173.71",
+    "assigned_articles": [
+      "Art. 44 Abs. 1",
+      "Art. 44 Abs. 4",
+      "Art. 44 Abs. 5"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Snippet werden mehrfach «Artikel 44 Absatz 1 StBOG», «Artikel 44 Absatz 4 StBOG» und «Artikel 44 Absatz 5 StBOG» genannt. Alle diese Artikelangaben sind direkt mit dem Akronym StBOG verknüpft und beziehen sich damit eindeutig auf SR 173.71."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": "SR 173.71",
+    "assigned_articles": [
+      "Art. 44 Abs. 5",
+      "Art. 45 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Klammerangabe «(Art. 44 Abs. 5 und 45 Abs. 1 StBOG)» enthält zwei explizite Artikelverweise mit Akronym StBOG; beide gehören zu SR 173.71."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": "SR 173.71",
+    "assigned_articles": [
+      "Art. 45 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Klammerangabe «(Art. 45 Abs. 1 StBOG)» verweist eindeutig und ausschliesslich auf Art. 45 Abs. 1 StBOG."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": "SR 173.71",
+    "assigned_articles": [
+      "Art. 45 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "Auch hier lautet die Klammerangabe «(Art. 45 Abs. 1 StBOG)»; damit ist klar, dass Art. 45 Abs. 1 StBOG (SR 173.71) gemeint ist."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Interne Verweisung innerhalb des aktuellen Erlasses auf Art. 44 Abs. 1 StBOG (SR 173.71); kein neuer SR-Link"
+    ],
+    "confidence": "high",
+    "reasoning": "item_type ist «artikel_reference» ohne TARGET_SR. Der Text verweist auf «Artikel 44 Absatz 1 StBOG», was bereits in ITEM 2 als Bezug zu SR 173.71 erfasst ist. Es handelt sich um eine inhaltliche Selbstreferenz/Erklärung, kein eigenständiger neuer SR-Link."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Interne Verweisung innerhalb des aktuellen Erlasses auf Art. 44 Abs. 4 StBOG (SR 173.71); kein neuer SR-Link"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Satz enthält «im Sinne von Artikel 44 Absatz 4 StBOG». Diese Verweisung auf StBOG ist bereits in ITEM 2 als externer Bezug zu SR 173.71 erfasst; hier liegt nur eine interne inhaltliche Bezugnahme vor."
+  },
+  {
+    "ITEM": 8,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Interne Verweisung innerhalb des aktuellen Erlasses auf Art. 44 Abs. 5 StBOG (SR 173.71); kein neuer SR-Link"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Text nennt «im Sinne von Artikel 44 Absatz 5 StBOG». Diese externe Norm (SR 173.71) ist bereits über ITEM 2/3 erfasst; hier wird sie nur intern erläutert."
+  },
+  {
+    "ITEM": 9,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Interne Verweisung innerhalb des aktuellen Erlasses auf Art. 44 Abs. 5 StBOG (SR 173.71); kein neuer SR-Link"
+    ],
+    "confidence": "high",
+    "reasoning": "Auch hier wird «im Sinne von Artikel 44 Absatz 5 StBOG» verwendet. Es handelt sich um dieselbe bereits erfasste externe Norm; der Verweis ist intern/selbstreferenziell im Kontext dieses Reglements."
+  },
+  {
+    "ITEM": 10,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Interne Verweisung auf Artikel 3 dieses Reglements; keine Verweisung auf ein anderes SR-Dokument"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Formulierung «nach Artikel 3 dieses Reglements» ist klar als innerer Verweis innerhalb desselben Erlasses gekennzeichnet; es wird kein anderes SR und kein externes Gesetz genannt."
+  }
+]

@@ -1,0 +1,53 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 832.30",
+    "assigned_articles": [
+      "Art. 8",
+      "Art. 105 Bst. a"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet explicitly cites 'Artikel 8 der Verordnung ... SR 832.30 Art. 105 Bst. a'. Both article indications are syntactically tied to SR 832.30 in the same reference."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 832.30",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "The citation 'die V ... über die Unfallverhütung (SR 832.30)' names only the ordinance as a whole without any article numbers; it is a general applicability reference."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": "SR 832.202",
+    "assigned_articles": [
+      "Anhang 1"
+    ],
+    "confidence": "high",
+    "reasoning": "The text refers to 'den im Anhang 1 zur V ... über die Unfallversicherung (SR 832.202) ... genannten Stoffen'; Anhang 1 is explicitly and syntactically linked to SR 832.202."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": "SR 832.321.11",
+    "assigned_articles": [
+      "Art. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "This is an internal cross-reference: 'Artikel 1 der Verordnung ... über Berufskrankheiten' is the same ordinance as the current document (no external SR mentioned in the snippet). It therefore refers to Art. 1 of SR 832.321.11."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": "SR 832.321.11",
+    "assigned_articles": [
+      "Art. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "The phrase 'Kollektivschutz im Sinne von Artikel 3' clearly refers to the immediately preceding article of the same ordinance; no external SR is mentioned, so it is an internal reference to Art. 3 of SR 832.321.11."
+  }
+]

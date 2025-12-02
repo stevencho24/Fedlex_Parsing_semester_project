@@ -1,0 +1,415 @@
+[
+  {
+    "Item": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 101",
+    "assigned_articles": [
+      "Art. 54",
+      "Art. 95",
+      "Art. 101"
+    ],
+    "confidence": "high",
+    "reasoning": "INSIDE_AUTHORIALNOTE states: 'Den genannten Bestimmungen entsprechen heute die Art. 54, 95 und 101 der BV ... (SR 101)'; these articles are explicitly tied to SR 101."
+  },
+  {
+    "Item": 2,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 0.632.31",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet cites 'Abkommen vom 21. Juni 2001 SR 0.632.31 ...'; no specific article or annex article is mentioned, so it is a general reference to the agreement."
+  },
+  {
+    "Item": 3,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 0.632.401",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet cites 'Abkommen vom 22. Juli 1972 SR 0.632.401 ...'; no article numbers are given, so it is a general reference to the agreement."
+  },
+  {
+    "Item": 4,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 0.632.20",
+    "assigned_articles": [
+      "Anhang 1A.6"
+    ],
+    "confidence": "high",
+    "reasoning": "INSIDE_AUTHORIALNOTE explicitly reads 'SR 0.632.20 Anhang 1A.6'; the cited unit is the annex, not specific articles, so the annex designation is the correct assignment."
+  },
+  {
+    "Item": 5,
+    "ARTICLE_EID": "art_16_e",
+    "TARGET_SR": "SR 171.10",
+    "assigned_articles": [
+      "Art. 58 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "The sentence '(Art. 58 Abs. 1 ParlG; SR 171.10)' directly links Art. 58 Abs. 1 to ParlG (SR 171.10)."
+  },
+  {
+    "Item": 6,
+    "ARTICLE_EID": "art_16_e",
+    "TARGET_SR": "SR 817.0",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "The reference is 'nach dem Lebensmittelgesetz vom 20. Juni 2014 SR 817.0'; no article is specified, so it is a general reference to the law."
+  },
+  {
+    "Item": 7,
+    "ARTICLE_EID": "art_18",
+    "TARGET_SR": "SR 172.216.1",
+    "assigned_articles": [
+      "Art. 5",
+      "Art. 16"
+    ],
+    "confidence": "high",
+    "reasoning": "INSIDE_AUTHORIALNOTE: 'Heute: «Staatssekretariat für Wirtschaft (SECO)» (Art. 5 der Organisationsverordnung ... – SR 172.216.1; AS 2000 187 Art. 16)'. Art. 5 is explicitly tied to SR 172.216.1; 'AS 2000 187 Art. 16' is a reference to the amending act in the Official Compilation, not to SR 172.216.1 itself. However, syntactically both article numbers are within the same parenthetical citation; to remain conservative but inclusive, both Art. 5 (of SR 172.216.1) and Art. 16 (as cited in the same construction) are listed."
+  },
+  {
+    "Item": 8,
+    "ARTICLE_EID": "art_19",
+    "TARGET_SR": "SR 172.021",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "The text 'Das Bundesgesetz vom 20. Dezember 1968 SR 172.021 über das Verwaltungsverfahren ist anwendbar.' cites the VwVG as a whole without article-level specification."
+  },
+  {
+    "Item": 9,
+    "ARTICLE_EID": "art_20",
+    "TARGET_SR": "SR 171.10",
+    "assigned_articles": [
+      "Art. 58 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "INSIDE_AUTHORIALNOTE repeats the same formula as Item 5: '(Art. 58 Abs. 1 ParlG; SR 171.10)'; Art. 58 Abs. 1 is clearly attributed to SR 171.10."
+  },
+  {
+    "Item": 10,
+    "ARTICLE_EID": "art_29",
+    "TARGET_SR": "SR 311.0",
+    "assigned_articles": [
+      "Art. 69 ff."
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet states 'nach den Artikeln 69 ff. des Strafgesetzbuches SR 311.0'; 'Artikeln 69 ff.' is explicitly linked to the Strafgesetzbuch (SR 311.0)."
+  },
+  {
+    "Item": 11,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 3",
+      "Art. 19"
+    ],
+    "confidence": "high",
+    "reasoning": "artikel_reference without external SR; 'Die Artikel 3 und 19 gelten ...' clearly refers to internal articles of the same act."
+  },
+  {
+    "Item": 12,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 4"
+    ],
+    "confidence": "high",
+    "reasoning": "Internal cross-reference: 'Soweit Artikel 4 nicht etwas Abweichendes erfordert ...' refers to Art. 4 of the same document."
+  },
+  {
+    "Item": 13,
+    "ARTICLE_EID": "art_14",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 10 Abs. 3 Bst. a",
+      "Art. 11 Bst. a"
+    ],
+    "confidence": "high",
+    "reasoning": "The phrase 'nach den Artikeln 10 Absatz 3 Buchstabe a und 11 Buchstabe a' is an internal reference to those provisions of the same act."
+  },
+  {
+    "Item": 14,
+    "ARTICLE_EID": "art_15",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 14"
+    ],
+    "confidence": "high",
+    "reasoning": "Internal reference: 'Gegenstände nach Artikel 14' clearly points to Art. 14 of the same law."
+  },
+  {
+    "Item": 15,
+    "ARTICLE_EID": "art_16_a",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 4 Abs. 3",
+      "Art. 4 Abs. 4"
+    ],
+    "confidence": "high",
+    "reasoning": "The wording 'nach Artikel 4 Absätze 3 und 4' refers to two paragraphs within Art. 4 of the same act."
+  },
+  {
+    "Item": 16,
+    "ARTICLE_EID": "art_16_b",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 16a Abs. 1 Bst. a"
+    ],
+    "confidence": "high",
+    "reasoning": "Internal: 'gemäss Artikel 16a Absatz 1 Buchstabe a' refers to a subparagraph of Art. 16a."
+  },
+  {
+    "Item": 17,
+    "ARTICLE_EID": "art_16_c",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 16a Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "Internal: 'für die Artikel 16a Absatz 1 gilt' clearly references that paragraph of Art. 16a."
+  },
+  {
+    "Item": 18,
+    "ARTICLE_EID": "art_16_d",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 16a Abs. 1 Bst. a"
+    ],
+    "confidence": "high",
+    "reasoning": "Internal: 'nachweist, dass das Lebensmittel den technischen Vorschriften nach Artikel 16a Absatz 1 Buchstabe a entspricht' refers to that specific internal provision."
+  },
+  {
+    "Item": 19,
+    "ARTICLE_EID": "art_16_d",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 4 Abs. 4 Bst. a–e"
+    ],
+    "confidence": "high",
+    "reasoning": "Internal: 'nach Artikel 4 Absatz 4 Buchstaben a–e' is a reference to the internal risk criteria provision."
+  },
+  {
+    "Item": 20,
+    "ARTICLE_EID": "art_16_e",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 4a"
+    ],
+    "confidence": "high",
+    "reasoning": "Short internal reference 'c. nach Artikel 4a.' clearly points to Art. 4a of the same act."
+  },
+  {
+    "Item": 21,
+    "ARTICLE_EID": "art_16_e",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 4a Abs. 1 Bst. b"
+    ],
+    "confidence": "high",
+    "reasoning": "Internal: 'Abweichend von Artikel 4a Absatz 1 Buchstabe b ...' specifies the exact internal paragraph and letter."
+  },
+  {
+    "Item": 22,
+    "ARTICLE_EID": "art_19",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 4 Abs. 4 Bst. a–e"
+    ],
+    "confidence": "high",
+    "reasoning": "Internal: 'überwiegende öffentliche Interessen nach Artikel 4 Absatz 4 Buchstaben a–e' refers to the same internal risk clause."
+  },
+  {
+    "Item": 23,
+    "ARTICLE_EID": "art_19",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 4 Abs. 4 Bst. a–e"
+    ],
+    "confidence": "high",
+    "reasoning": "Again an internal reference to 'überwiegende öffentliche Interessen nach Artikel 4 Absatz 4 Buchstaben a–e'."
+  },
+  {
+    "Item": 24,
+    "ARTICLE_EID": "art_19",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 4 Abs. 4 Bst. a–e"
+    ],
+    "confidence": "high",
+    "reasoning": "Same internal clause referenced: 'nach Artikel 4 Absatz 4 Buchstaben a–e'."
+  },
+  {
+    "Item": 25,
+    "ARTICLE_EID": "art_20",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 16a Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "Internal: 'Produkt, das nach Artikel 16a Absatz 1 in Verkehr gebracht wurde' refers to that internal provision."
+  },
+  {
+    "Item": 26,
+    "ARTICLE_EID": "art_20",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 16a Abs. 1 Bst. a"
+    ],
+    "confidence": "high",
+    "reasoning": "Internal: 'den technischen Vorschriften nach Artikel 16a Absatz 1 Buchstabe a' specifies the internal subparagraph."
+  },
+  {
+    "Item": 27,
+    "ARTICLE_EID": "art_20",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 16b",
+      "Art. 20 Abs. 1 Bst. a"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet mentions 'Produktes, das nach Artikel 16b in Verkehr gebracht wurde' and 'Nachweis gemäss Absatz 1 Buchstabe a'; both are internal references (Art. 16b and Art. 20 Abs. 1 Bst. a)."
+  },
+  {
+    "Item": 28,
+    "ARTICLE_EID": "art_20",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 19 Abs. 1",
+      "Art. 19 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Internal: 'Befugnisse nach Artikel 19 Absätze 1 und 2' clearly refers to those paragraphs of Art. 19."
+  },
+  {
+    "Item": 29,
+    "ARTICLE_EID": "art_20",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 4 Abs. 4 Bst. a–e",
+      "Art. 19"
+    ],
+    "confidence": "high",
+    "reasoning": "Internal references: 'im Sinne von Artikel 4 Absatz 4 Buchstaben a–e' and 'Massnahmen nach Artikel 19'."
+  },
+  {
+    "Item": 30,
+    "ARTICLE_EID": "art_20",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 19 Abs. 7"
+    ],
+    "confidence": "high",
+    "reasoning": "Internal: 'Allgemeinverfügung nach Artikel 19 Absatz 7' refers to that specific paragraph."
+  },
+  {
+    "Item": 31,
+    "ARTICLE_EID": "art_20_a",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 19 Abs. 7",
+      "Art. 20"
+    ],
+    "confidence": "high",
+    "reasoning": "Internal: 'Allgemeinverfügungen nach den Artikeln 19 Absatz 7 und 20' clearly references those internal provisions."
+  },
+  {
+    "Item": 32,
+    "ARTICLE_EID": "art_26",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 23",
+      "Art. 24",
+      "Art. 25"
+    ],
+    "confidence": "high",
+    "reasoning": "Internal: 'nach den in Buchstabe a und in den Artikeln 23–25 aufgeführten Tatbeständen' refers to the internal penal provisions Art. 23–25."
+  },
+  {
+    "Item": 33,
+    "ARTICLE_EID": "art_27",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 23",
+      "Art. 24",
+      "Art. 25",
+      "Art. 26",
+      "Art. 28"
+    ],
+    "confidence": "high",
+    "reasoning": "Internal: 'Die Artikel 23–26 und 28 gelten auch für ausländische Urkunden.' refers to that range and Art. 28 of the same act."
+  },
+  {
+    "Item": 34,
+    "ARTICLE_EID": "art_28_a",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 16c"
+    ],
+    "confidence": "high",
+    "reasoning": "Internal: 'ohne eine Bewilligung nach Artikel 16c ... in Verkehr bringt' clearly references Art. 16c."
+  },
+  {
+    "Item": 35,
+    "ARTICLE_EID": "art_28_a",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 16c"
+    ],
+    "confidence": "high",
+    "reasoning": "Internal: 'an eine Bewilligung nach Artikel 16c geknüpfte Bedingungen' again refers to Art. 16c."
+  },
+  {
+    "Item": 36,
+    "ARTICLE_EID": "art_28_a",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 16c"
+    ],
+    "confidence": "high",
+    "reasoning": "Internal: 'eine Bewilligung nach Artikel 16c durch falsche Angaben erschleicht' refers to the same internal article."
+  },
+  {
+    "Item": 37,
+    "ARTICLE_EID": "art_29",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 23",
+      "Art. 24",
+      "Art. 25",
+      "Art. 26",
+      "Art. 27",
+      "Art. 28",
+      "Art. 69 ff. StGB"
+    ],
+    "confidence": "high",
+    "reasoning": "Internal part: 'strafbare Handlungen nach den Artikeln 23–28' refers to internal penal provisions. The external StGB reference is handled in Item 10; here, as a pure artikel_reference, both the internal range and the external 'Artikeln 69 ff. des Strafgesetzbuches' are mentioned in the snippet, so both are listed."
+  },
+  {
+    "Item": 38,
+    "ARTICLE_EID": "art_31",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 16a Abs. 2",
+      "Art. 20"
+    ],
+    "confidence": "high",
+    "reasoning": "Internal: 'Produkte, die keinen Zugang ... im Sinne der Artikel 16a Absatz 2 und 20 haben' refers to those internal provisions."
+  },
+  {
+    "Item": 39,
+    "ARTICLE_EID": "art_31",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 16d Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Internal: 'rechtskräftigen Allgemeinverfügungen nach Artikel 16d Absatz 2' clearly references that paragraph."
+  }
+]

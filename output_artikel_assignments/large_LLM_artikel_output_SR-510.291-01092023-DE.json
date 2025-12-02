@@ -1,0 +1,120 @@
+[
+  {
+    "Item": 1,
+    "SOURCE_SR": "SR 510.291",
+    "TARGET_SR": "SR 510.10",
+    "assigned_articles": [
+      "Art. 99"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet explicitly cites 'Artikel 99 des Militärgesetzes ... SR 510.10 (MG)'; Art. 99 is directly and uniquely linked to SR 510.10."
+  },
+  {
+    "Item": 2,
+    "SOURCE_SR": "SR 510.291",
+    "TARGET_SR": "SR 121",
+    "assigned_articles": "General reference - entire document",
+    "confidence": "high",
+    "reasoning": "The sentence refers to 'nach dem Nachrichtendienstgesetz vom 25. September 2015 SR 121' without any article number or range; thus it is a general reference to the whole act."
+  },
+  {
+    "Item": 3,
+    "SOURCE_SR": "SR 510.291",
+    "TARGET_SR": "SR 510.10",
+    "assigned_articles": [
+      "Art. 99 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet states 'nach Artikel 99 Absatz 1 MG'; MG is defined as SR 510.10 in the preamble, so this is a direct reference to Art. 99 Abs. 1 MG."
+  },
+  {
+    "Item": 4,
+    "SOURCE_SR": "SR 510.291",
+    "TARGET_SR": "SR 510.10",
+    "assigned_articles": [
+      "Art. 99 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "The text reads 'nach Artikel 99 Absatz 2 MG'; MG = SR 510.10, so it clearly refers to Art. 99 Abs. 2 MG."
+  },
+  {
+    "Item": 5,
+    "SOURCE_SR": "SR 510.291",
+    "TARGET_SR": "SR 510.10",
+    "assigned_articles": [
+      "Art. 99 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet mentions 'nach Artikel 99 Absatz 2 MG'; again MG is SR 510.10, so the reference is to Art. 99 Abs. 2 MG."
+  },
+  {
+    "Item": 6,
+    "SOURCE_SR": "SR 510.291",
+    "TARGET_SR": "SR 510.10",
+    "assigned_articles": [
+      "Art. 99"
+    ],
+    "confidence": "high",
+    "reasoning": "The sentence says 'nach Artikel 99 MG' without paragraph; MG is SR 510.10, so it is a reference to Art. 99 MG in general."
+  },
+  {
+    "Item": 7,
+    "SOURCE_SR": "SR 510.291",
+    "TARGET_SR": "SR 510.10",
+    "assigned_articles": [
+      "Art. 99"
+    ],
+    "confidence": "high",
+    "reasoning": "Identical structure to Item 6: 'nach Artikel 99 MG'; MG = SR 510.10, so it refers to Art. 99 MG as a whole."
+  },
+  {
+    "Item": 8,
+    "SOURCE_SR": "SR 510.291",
+    "TARGET_SR": "SR 510.10",
+    "assigned_articles": [
+      "Art. 99 Abs. 5"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet explicitly cites 'Artikel 99 Absatz 5 MG'; MG is SR 510.10, so this is a direct reference to Art. 99 Abs. 5 MG."
+  },
+  {
+    "Item": 9,
+    "SOURCE_SR": "SR 510.291",
+    "TARGET_SR": "SR 510.10",
+    "assigned_articles": [
+      "Art. 99 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "This artikel_reference repeats the wording from Item 3: 'nach Artikel 99 Absatz 1 MG'; MG = SR 510.10, so it clearly refers to Art. 99 Abs. 1 MG."
+  },
+  {
+    "Item": 10,
+    "SOURCE_SR": "SR 510.291",
+    "TARGET_SR": "SR 510.10",
+    "assigned_articles": [
+      "Art. 99 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet mentions 'nach Artikel 99 Absatz 1 MG'; MG is SR 510.10, so this is a direct citation of Art. 99 Abs. 1 MG."
+  },
+  {
+    "Item": 11,
+    "SOURCE_SR": "SR 510.291",
+    "TARGET_SR": "SR 510.291",
+    "assigned_articles": [
+      "Art. 8"
+    ],
+    "confidence": "high",
+    "reasoning": "The phrase 'nach Artikel 8 bearbeitete Personendaten' has no external SR or acronym context; it is an internal cross-reference within the same ordinance SR 510.291 to its own Art. 8."
+  },
+  {
+    "Item": 12,
+    "SOURCE_SR": "SR 510.291",
+    "TARGET_SR": "SR 510.291",
+    "assigned_articles": [
+      "Art. 8"
+    ],
+    "confidence": "high",
+    "reasoning": "Same structure as Item 11: 'nach Artikel 8 bearbeitete Personendaten' without any external SR marker, so it is a self-reference to Art. 8 of SR 510.291."
+  }
+]

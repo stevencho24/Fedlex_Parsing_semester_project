@@ -1,0 +1,158 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 817.02",
+    "assigned_articles": [
+      "Art. 16 lit. a",
+      "Art. 17 Abs. 3",
+      "Art. 17 Abs. 5",
+      "Art. 95 Abs. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Präambel nennt ausdrücklich: 'Artikel 16 Buchstabe a, 17 Absätze 3 und 5 sowie 95 Absatz 3 ... SR 817.02 (LGV)'. Direkte Zuordnung dieser Artikel zur LGV."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 817.02",
+    "assigned_articles": [
+      "Art. 15 Abs. 1 lit. a–j",
+      "Art. 15 Abs. 1 lit. k"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Snippet: '... nach Artikel 15 Absatz 1 Buchstaben a–j LGV; ... nach Artikel 15 Absatz 1 Buchstabe k LGV;'. Beide Verweise sind klar mit LGV verknüpft."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": "SR 817.02",
+    "assigned_articles": [
+      "Art. 15 Abs. 1 lit. a–j",
+      "Art. 17 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet enthält: '... nach Artikel 15 Absatz 1 Buchstaben a–j LGV, das nach Artikel 17 Absatz 1 LGV beurteilt wird ...' sowie '... dass das neuartige Lebensmittel Artikel 17 Absatz 1 LGV entspricht;'. Beide Artikel sind explizit der LGV zugeordnet."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": "SR 817.02",
+    "assigned_articles": [
+      "Art. 17 Abs. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "Text: '... nach Artikel 17 Absatz 3 LGV ...'. Direkter, eindeutiger Verweis auf Art. 17 Abs. 3 LGV."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": "SR 817.02",
+    "assigned_articles": [
+      "Art. 17 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet: 'die Voraussetzungen gemäss Artikel 17 Absatz 1 LGV erfüllt sind.' Klare Zuordnung zu Art. 17 Abs. 1 LGV."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": "SR 817.02",
+    "assigned_articles": [
+      "Art. 17 Abs. 4"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet: 'Die Allgemeinverfügung nach Artikel 17 Absatz 4 LGV ...'. Eindeutiger Bezug auf Art. 17 Abs. 4 LGV."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_6",
+    "TARGET_SR": "SR 817.02",
+    "assigned_articles": [
+      "Art. 17 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet: '... die Anforderungen nach Artikel 17 Absatz 1 LGV erfüllt,'. Direkter Verweis auf Art. 17 Abs. 1 LGV."
+  },
+  {
+    "ITEM": 8,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Interne Verweisung innerhalb des aktuellen Erlasses (Art. 15 Abs. 1 lit. a–j LGV, bereits bei ITEM 2 SR 817.02 zugeordnet)"
+    ],
+    "confidence": "high",
+    "reasoning": "item_type=artikel_reference ohne TARGET_SR. 'Artikel 15 Absatz 1 Buchstaben a–j LGV' ist bereits in ITEM 2 als Verweis auf SR 817.02 erfasst; hier handelt es sich um dieselbe Textstelle, daher nur Selbstreferenz/Redundanz, keine neue SR-Zuordnung."
+  },
+  {
+    "ITEM": 9,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Interne Verweisung innerhalb des aktuellen Erlasses (Art. 15 Abs. 1 lit. k LGV, bereits bei ITEM 2 SR 817.02 zugeordnet)"
+    ],
+    "confidence": "high",
+    "reasoning": "artikel_reference; 'Artikel 15 Absatz 1 Buchstabe k LGV' ist bereits in ITEM 2 als LGV-Artikel zu SR 817.02 zugeordnet. Hier keine neue externe SR-Verknüpfung, sondern Wiederholung derselben Stelle."
+  },
+  {
+    "ITEM": 10,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Interne Verweisung innerhalb des aktuellen Erlasses (Art. 15 Abs. 1 lit. a–j und Art. 17 Abs. 1 LGV, bereits bei ITEM 3 SR 817.02 zugeordnet)"
+    ],
+    "confidence": "high",
+    "reasoning": "artikel_reference; das Snippet entspricht inhaltlich dem bei ITEM 3 (preamble_acronym) bereits ausgewerteten Kontext zu SR 817.02. Die Artikel 15 Abs. 1 lit. a–j und 17 Abs. 1 LGV sind dort schon extern zugeordnet; hier nur Selbstreferenz."
+  },
+  {
+    "ITEM": 11,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Interne Verweisung innerhalb des aktuellen Erlasses (Art. 17 Abs. 1 LGV, bereits bei ITEM 3 und 5 SR 817.02 zugeordnet)"
+    ],
+    "confidence": "high",
+    "reasoning": "artikel_reference; '... dass das neuartige Lebensmittel Artikel 17 Absatz 1 LGV entspricht;' ist Teil des bereits bei ITEM 3 analysierten Kontextes. Kein neuer externer SR-Bezug."
+  },
+  {
+    "ITEM": 12,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Interne Verweisung auf Art. 3 Abs. 2 lit. e des gleichen Erlasses"
+    ],
+    "confidence": "high",
+    "reasoning": "Verweis 'Artikel 3 Absatz 2 Buchstabe e' ohne Nennung eines SR oder einer Abkürzung wie LGV; syntaktisch klar als innerdokumentarische Strukturreferenz zu verstehen."
+  },
+  {
+    "ITEM": 13,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Interne Verweisung innerhalb des aktuellen Erlasses (Art. 17 Abs. 1 LGV, bereits bei ITEM 5 SR 817.02 zugeordnet)"
+    ],
+    "confidence": "high",
+    "reasoning": "artikel_reference; 'Artikel 17 Absatz 1 LGV' ist bereits in ITEM 5 als externer Verweis zu SR 817.02 erfasst. Hier nur Wiederholung derselben Bezugnahme im gleichen Kontext."
+  },
+  {
+    "ITEM": 14,
+    "ARTICLE_EID": "art_6",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Interne Verweisung auf Art. 17 Abs. 1 LGV (bereits bei ITEM 7 SR 817.02 zugeordnet)",
+      "Interne Verweisung auf Art. 4 des gleichen Erlasses"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet: '... wenn:1. ein neuartiges Lebensmittel die Anforderungen nach Artikel 17 Absatz 1 LGV erfüllt,2. ein neuartiges traditionelles Lebensmittel die Anforderungen nach Artikel 4 erfüllt;'. Art. 17 Abs. 1 LGV ist bereits bei ITEM 7 SR 817.02 zugeordnet; Art. 4 ist eine reine Selbstreferenz ohne SR-Nennung."
+  },
+  {
+    "ITEM": 15,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Interne Verweisung auf Art. 35 Abs. 2 der Verordnung (EU) 2015/2283 (kein SR-Dokument, daher keine SR-Zuordnung)"
+    ],
+    "confidence": "high",
+    "reasoning": "Verweis richtet sich auf eine EU-Verordnung ('Verordnung (EU) 2015/2283'), nicht auf ein schweizerisches SR-Dokument. Mangels TARGET_SR und SR-Bezeichnung ist dies keine SR-Verknüpfung, sondern ein ausländischer Rechtsverweis."
+  }
+]

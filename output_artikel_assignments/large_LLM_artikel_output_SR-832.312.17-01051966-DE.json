@@ -1,0 +1,106 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 832.10",
+    "assigned_articles": [
+      "Art. 131"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Formulierung \"gestützt auf Artikel 131 des Bundesgesetzes vom 13. Juni 1911 SR 832.10\" verweist klar auf Art. 131 des damaligen Kranken- und Unfallversicherungsgesetzes (heute KVG). Der Hinweis auf die heutige Entsprechung in SR 832.20 ändert nichts an der ursprünglichen Rechtsgrundlage."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 832.20",
+    "assigned_articles": [
+      "Art. 83"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Hinweistext: \"Dem aufgehobenen Art. 131 (BS 8 281) entspricht heute Art. 83 des Unfallversicherungsgesetzes (SR 832.20).\" wird ausdrücklich Art. 83 UVG genannt; dieser gehört zu SR 832.20."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 832.10",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Satz spricht allgemein von der obligatorischen Unfallversicherung gemäss Bundesgesetz vom 13. Juni 1911 (SR 832.10), ohne konkrete Artikelangabe. Es handelt sich um eine generelle Verweisung auf das damalige Kranken- und Unfallversicherungsgesetz."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 832.20",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Passage \"Siehe heute das Unfallversicherungsgesetz (SR 832.20).\" verweist ohne Artikelangabe auf das UVG als Ganzes; daher ist dies eine allgemeine Dokumentverweisung."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_20",
+    "TARGET_SR": "SR 832.10",
+    "assigned_articles": [
+      "Art. 66",
+      "Art. 103"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Hauptsatz: \"... gemäss den Artikeln 66 und 103 des Bundesgesetzes vom 13. Juni 1911 SR 832.10 ...\" werden die Artikel 66 und 103 ausdrücklich diesem Gesetz zugeordnet; der Hinweis in der authorialNote auf ihre Aufhebung ändert die Zuordnung nicht."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_20",
+    "TARGET_SR": "SR 832.20",
+    "assigned_articles": [
+      "Art. 92",
+      "Art. 112",
+      "Art. 113"
+    ],
+    "confidence": "high",
+    "reasoning": "Die authorialNote enthält: \"Siehe heute die Art. 92, 112 und 113 des Unfallversicherungsgesetzes (SR 832.20).\"; diese Artikel werden klar dem UVG (SR 832.20) zugeordnet."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_11",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Wendung \"der in Artikel 10 vorgeschriebene Gehalt\" verweist ohne Nennung eines SR auf einen anderen Artikel derselben Verordnung; syntaktisch klar als interne Selbstverweisung."
+  },
+  {
+    "ITEM": 8,
+    "ARTICLE_EID": "art_12",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "Auch hier verweist \"der in Artikel 10 vorgeschriebene Gehalt\" ohne Gesetzesangabe auf einen Artikel derselben Verordnung; keine Verbindung zu einem externen SR-Dokument."
+  },
+  {
+    "ITEM": 9,
+    "ARTICLE_EID": "art_13",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "Formulierung \"gelten ... die Vorschriften von Artikel 10\" ist eine typische interne Verweisung innerhalb derselben Verordnung; kein SR oder Gesetzestitel im selben Satz."
+  },
+  {
+    "ITEM": 10,
+    "ARTICLE_EID": "art_20",
+    "TARGET_SR": "SR 832.10",
+    "assigned_articles": [
+      "Art. 66",
+      "Art. 103"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Satz nennt \"den Artikeln 66 und 103 des Bundesgesetzes vom 13. Juni 1911 über die Kranken- und Unfallversicherung\"; dieses Gesetz ist SR 832.10, und die Artikel werden direkt diesem Gesetz zugeordnet."
+  }
+]

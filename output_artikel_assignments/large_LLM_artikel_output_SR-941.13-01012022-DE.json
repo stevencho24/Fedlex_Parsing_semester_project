@@ -1,0 +1,73 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 101",
+    "assigned_articles": [
+      "Art. 54 Abs. 1",
+      "Art. 99"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Formulierung «gestützt auf die Artikel 54 Absatz 1 und 99 der Bundesverfassung SR 101» verknüpft beide Artikel syntaktisch direkt mit SR 101; daher klare Zuordnung."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_8",
+    "TARGET_SR": "SR 611.0",
+    "assigned_articles": [
+      "Art. 21"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Satz «nach Massgabe von Artikel 21 des Finanzhaushaltgesetzes … SR 611.0» wird Art. 21 ausdrücklich dem Finanzhaushaltgesetz (SR 611.0) zugeordnet; eindeutige direkte Markierung."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_6",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«Im Fall von Artikel 2 Absatz 1» verweist ohne Nennung eines SR-Dokuments auf einen anderen Artikel derselben Verordnung; daher reine Selbstreferenz."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_6",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Verweise «nach Artikel 3» und «nach Artikel 8 Absatz 2» enthalten keinen Bezug zu einem externen SR; sie betreffen interne Artikel derselben Verordnung."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_6",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«nach Artikel 4» steht ohne SR- oder Gesetzesangabe und ist damit ein Verweis auf einen Artikel innerhalb des gleichen Erlasses."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_8",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«nach den Artikeln 2 und 4» nennt keine externe Rechtsquelle; es handelt sich um interne Artikel der vorliegenden Verordnung."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_8",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Satz verweist auf «Artikel 3» derselben Verordnung; das Finanzhaushaltgesetz wird ohne Artikelangabe erwähnt, aber der Artikelverweis selbst ist rein intern."
+  }
+]

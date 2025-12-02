@@ -1,0 +1,80 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 831.201",
+    "assigned_articles": [
+      "Art. 98 Abs. 1 Bst. a"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Formulierung «gestützt auf Artikel 98 Absatz 1 Buchstabe a der Verordnung ... SR 831.201 über die Invalidenversicherung (IVV)» verknüpft den genannten Artikel syntaktisch eindeutig mit der zitierten Verordnung SR 831.201."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": "SR 831.20",
+    "assigned_articles": [
+      "Art. 3a",
+      "Art. 3b",
+      "Art. 3c",
+      "Art. 7d",
+      "Art. 14a",
+      "Art. 14b",
+      "Art. 14c",
+      "Art. 14d",
+      "Art. 14e",
+      "Art. 14f",
+      "Art. 14g",
+      "Art. 14h",
+      "Art. 14i",
+      "Art. 14j",
+      "Art. 14k",
+      "Art. 14l",
+      "Art. 14m",
+      "Art. 14n",
+      "Art. 14o",
+      "Art. 14p",
+      "Art. 14q",
+      "Art. 14r",
+      "Art. 14s",
+      "Art. 14t",
+      "Art. 14u",
+      "Art. 14v",
+      "Art. 14w",
+      "Art. 14x",
+      "Art. 14y",
+      "Art. 14z",
+      "Art. 15",
+      "Art. 16",
+      "Art. 17",
+      "Art. 18",
+      "Art. 18a",
+      "Art. 18b",
+      "Art. 18c"
+    ],
+    "confidence": "medium",
+    "reasoning": "Der Satz nennt ausdrücklich «Leistungen der Invalidenversicherung nach den Artikeln 3a–3c, 7d und 14a–18c des Bundesgesetzes ... SR 831.20 (IVG)». Die Artikelangaben sind direkt mit dem IVG verknüpft. Der Bereich 3a–3c und 14a–18c wird als durchgehender Bereich verstanden; mangels gegenteiliger Information wird der gesamte Bereich 14a–18c (einschliesslich der dazwischenliegenden Grundartikel) abgebildet."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": "SR 831.20",
+    "assigned_articles": [
+      "Art. 57 Abs. 1 Bst. a–e"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Snippet heisst es «... nach Artikel 57 Absatz 1 Buchstaben a–e IVG SR 831.20 ...». Artikel, Absatz und Buchstaben werden unmittelbar mit «IVG SR 831.20» verbunden, womit klar ist, dass sich Art. 57 Abs. 1 Bst. a–e auf SR 831.20 beziehen."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 3a–3c",
+      "Art. 7d",
+      "Art. 14a–18c"
+    ],
+    "confidence": "high",
+    "reasoning": "Dies ist ein artikel_reference-Snippet, das denselben Inhalt wie ITEM 2 ohne explizite SR-Nummer wiedergibt. Es handelt sich um eine Selbstreferenz innerhalb des Dokuments, nicht um eine neue Zuordnung zu einem externen SR; daher wird kein TARGET_SR gesetzt, aber die im Satz genannten Artikelbereiche werden als interne Verweisziele erfasst."
+  }
+]

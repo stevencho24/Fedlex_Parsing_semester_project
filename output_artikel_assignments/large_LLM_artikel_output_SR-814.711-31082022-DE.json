@@ -1,0 +1,97 @@
+[
+  {
+    "Item": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 814.71",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "The preamble cites SR 814.71 (NISSG) as the legal basis without mentioning any specific article; this is a standard blanket reference to the entire act."
+  },
+  {
+    "Item": 2,
+    "ARTICLE_EID": "art_25",
+    "TARGET_SR": "SR 170.512.1",
+    "assigned_articles": [
+      "Art. 20 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "The authorial note explicitly states 'in Anwendung von Art. 20 Abs. 2 der Publikationsverordnung ... (SR 170.512.1)'; the article and SR are directly linked in the same phrase."
+  },
+  {
+    "Item": 3,
+    "ARTICLE_EID": "art_26",
+    "TARGET_SR": "SR 172.041.1",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "The sentence 'Im Übrigen gelten die Bestimmungen der Allgemeinen Gebührenverordnung ... SR 172.041.1.' refers to the fee ordinance as a whole, with no specific article indicated."
+  },
+  {
+    "Item": 4,
+    "ARTICLE_EID": "art_29",
+    "TARGET_SR": "SR 812.213",
+    "assigned_articles": [
+      "Anhang 6 Ziff. 1 Bst. b",
+      "Anhang 6 Ziff. 1 Bst. c",
+      "Anhang 6 Ziff. 2 Bst. b",
+      "Anhang 6 Ziff. 2 Bst. c"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet states that the use of certain lasers 'richtet sich ... nach Anhang 6 Ziffer 1 Buchstaben b und c sowie Ziffer 2 Buchstaben b und c MepV SR 812.213'; these annex provisions are explicitly tied to the cited SR."
+  },
+  {
+    "Item": 5,
+    "ARTICLE_EID": "art_12",
+    "TARGET_SR": "self",
+    "assigned_articles": [
+      "Art. 16 Abs. 1 Bst. a",
+      "Art. 16 Abs. 1 Bst. b"
+    ],
+    "confidence": "high",
+    "reasoning": "The reference 'nach Artikel 16 Absatz 1 Buchstabe a ... oder ... Buchstabe b' has no external SR mentioned and clearly refers to internal provisions of the same ordinance; thus it is a self-reference."
+  },
+  {
+    "Item": 6,
+    "ARTICLE_EID": "art_13",
+    "TARGET_SR": "self",
+    "assigned_articles": [
+      "Art. 16 Abs. 1 Bst. b"
+    ],
+    "confidence": "high",
+    "reasoning": "The phrase 'Sachkundenachweis nach Artikel 16 Absatz 1 Buchstabe b' appears without any SR citation and functions as an internal cross-reference within the same document."
+  },
+  {
+    "Item": 7,
+    "ARTICLE_EID": "art_14",
+    "TARGET_SR": "self",
+    "assigned_articles": [
+      "Art. 12",
+      "Art. 13"
+    ],
+    "confidence": "high",
+    "reasoning": "The wording 'Sachkundebestätigung oder Sachkundenachweis nach den Artikeln 12 oder 13' lacks any external SR and clearly points to other articles of the same ordinance; it is an internal reference."
+  },
+  {
+    "Item": 8,
+    "ARTICLE_EID": "art_24",
+    "TARGET_SR": "self",
+    "assigned_articles": [
+      "Art. 14 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "The reference 'nach Artikel 14 Absatz 2' is not syntactically linked to any SR citation and therefore refers to Article 14 paragraph 2 of the current ordinance."
+  },
+  {
+    "Item": 9,
+    "ARTICLE_EID": "art_29",
+    "TARGET_SR": "self",
+    "assigned_articles": [
+      "Art. 5"
+    ],
+    "confidence": "high",
+    "reasoning": "The phrase 'ohne Sachkundenachweis gemäss Artikel 5 durchgeführt' appears in a sentence that, outside the authorial note, contains no SR citation; it is an internal cross-reference to Article 5 of the same ordinance."
+  }
+]

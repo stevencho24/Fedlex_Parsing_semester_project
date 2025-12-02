@@ -1,0 +1,165 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 101",
+    "assigned_articles": [
+      "Art. 191a Abs. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Formulierung \"gestützt auf Artikel 191a Absatz 3 der Bundesverfassung SR 101\" verweist eindeutig auf einen bestimmten Absatz dieses Artikels der Bundesverfassung."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_5_a",
+    "TARGET_SR": "SR 172.010",
+    "assigned_articles": [
+      "Art. 57i–57q"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Satz nennt ausdrücklich \"die Artikel 57i–57q des Regierungs- und Verwaltungsorganisationsgesetzes ... SR 172.010\"; die Artikel sind direkt mit dem Gesetz verknüpft."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_23",
+    "TARGET_SR": "SR 232.14",
+    "assigned_articles": [
+      "Art. 40d"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Klagen beziehen sich \"nach Artikel 40d des Patentgesetzes ... SR 232.14\"; damit ist klar, dass Art. 40d des Patentgesetzes gemeint ist."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_24",
+    "TARGET_SR": "SR 172.220.1",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "Es wird nur das Bundespersonalgesetz SR 172.220.1 als Ganzes genannt, ohne konkrete Artikel; der Verweis betrifft das Gesetz insgesamt."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_27",
+    "TARGET_SR": "SR 272",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "Formulierung \"richtet sich nach der Zivilprozessordnung ... SR 272\" ohne Artikelangabe; es handelt sich um eine generelle Verweisung auf die ZPO als Ganzes, soweit nichts anderes bestimmt ist."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_27",
+    "TARGET_SR": "SR 232.14",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "medium",
+    "reasoning": "Es heisst \"soweit das Patentgesetz ... SR 232.14 oder dieses Gesetz nichts anderes bestimmt\"; es wird kein bestimmter Artikel genannt, sondern das Patentgesetz generell als abweichende Spezialregelung. Daher Gesamtverweis."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_29",
+    "TARGET_SR": "SR 935.62",
+    "assigned_articles": [
+      "Art. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Parteivertretung wird auf \"Patentanwältinnen oder Patentanwälte im Sinne von Artikel 2 des Patentanwaltsgesetzes ... SR 935.62\" gestützt; klarer Bezug auf Art. 2 dieses Gesetzes."
+  },
+  {
+    "ITEM": 8,
+    "ARTICLE_EID": "art_39",
+    "TARGET_SR": "SR 232.14",
+    "assigned_articles": [
+      "Art. 40d"
+    ],
+    "confidence": "high",
+    "reasoning": "Das Verfahren betrifft \"eine Lizenz nach Artikel 40d des Patentgesetzes ... SR 232.14\"; eindeutiger Verweis auf Art. 40d."
+  },
+  {
+    "ITEM": 9,
+    "ARTICLE_EID": "art_39",
+    "TARGET_SR": "SR 272",
+    "assigned_articles": [
+      "Art. 130"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Klage ist \"in einer der Formen nach Artikel 130 der Zivilprozessordnung SR 272\" zu stellen; damit ist Art. 130 ZPO klar zugeordnet."
+  },
+  {
+    "ITEM": 10,
+    "ARTICLE_EID": "art_5_a",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 57i–57q"
+    ],
+    "confidence": "high",
+    "reasoning": "Artikelreferenz wiederholt die Formulierung aus ITEM 2: \"die Artikel 57i–57q des Regierungs- und Verwaltungsorganisationsgesetzes\". Dies ist eine Selbstreferenz innerhalb des Dokuments, nicht ein neuer SR-Link; sie verweist auf dieselben externen Artikel, ist aber als artikel_reference typisiert und daher als interne Strukturreferenz zu behandeln."
+  },
+  {
+    "ITEM": 11,
+    "ARTICLE_EID": "art_23",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Stelle \"Klagen auf Erteilung einer Lizenz nach Artikel 40d des Patentgesetzes\" entspricht dem externen Verweis in ITEM 3. Als artikel_reference ohne explizite SR-Angabe dient sie hier der internen Beschreibung des Streitgegenstands und ist primär Selbstreferenz; der externe Bezug zu SR 232.14 ist bereits über ITEM 3 abgedeckt."
+  },
+  {
+    "ITEM": 12,
+    "ARTICLE_EID": "art_29",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Formulierung \"im Sinne von Artikel 2 des Patentanwaltsgesetzes\" entspricht dem externen SR-Link in ITEM 7. Als artikel_reference ohne SR ist sie hier als interne Wiederholung/Strukturhinweis zu werten, nicht als neuer SR-Link."
+  },
+  {
+    "ITEM": 13,
+    "ARTICLE_EID": "art_29",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "Auch hier \"im Sinne von Artikel 2 des Patentanwaltsgesetzes\"; dieselbe Konstellation wie ITEM 12. Ohne explizite SR-Angabe und bereits durch ITEM 7 abgedeckt, daher Selbstreferenz im Dokument."
+  },
+  {
+    "ITEM": 14,
+    "ARTICLE_EID": "art_32",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "\"nach dem Tarif (Art. 33)\" verweist offensichtlich auf Art. 33 desselben Gesetzes (Tarifregelung). Es wird kein anderes SR genannt; dies ist eine reine interne Artikelverweisung."
+  },
+  {
+    "ITEM": 15,
+    "ARTICLE_EID": "art_39",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Passage entspricht dem Kontext von ITEM 8 und 9, verweist aber nur allgemein auf \"Artikel 40d des Patentgesetzes\" und \"Artikel 130 der Zivilprozessordnung\" ohne SR-Angabe. Da die externen SR-Links bereits in ITEM 8 (SR 232.14) und ITEM 9 (SR 272) erfasst sind, ist dies als interne Wiederholung/Selbstreferenz zu behandeln."
+  },
+  {
+    "ITEM": 16,
+    "ARTICLE_EID": "art_42",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 21",
+      "Art. 23",
+      "Art. 26–32",
+      "Art. 34–41"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Inkrafttretensbestimmung nennt ausdrücklich \"Die Art. 21, 23, 26–32 und 34–41\"; dies sind interne Artikel des gleichen Gesetzes. Es wird kein externes SR genannt, daher reine interne Strukturreferenz."
+  }
+]

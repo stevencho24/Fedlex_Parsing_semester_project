@@ -1,0 +1,42 @@
+[
+  {
+    "Item": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 442.1",
+    "assigned_articles": [
+      "Art. 28 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Formulierung \"gestützt auf Artikel 28 Absatz 1 des Kulturförderungsgesetzes ... SR 442.1 (KFG)\" verknüpft den genannten Artikel grammatikalisch eindeutig mit dem KFG (SR 442.1)."
+  },
+  {
+    "Item": 2,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": "SR 442.1",
+    "assigned_articles": [
+      "Art. 12 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Snippet steht \"nach Artikel 12 Absatz 2 KFG\"; das Akronym KFG ist im Vorspann eindeutig SR 442.1 zugeordnet, daher bezieht sich Art. 12 Abs. 2 auf SR 442.1."
+  },
+  {
+    "Item": 3,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Wendung \"nach Artikel 5\" erfolgt ohne Nennung eines SR oder Akronyms und bezieht sich damit auf einen anderen Artikel derselben Verordnung (Selbstverweisung), nicht auf ein externes SR."
+  },
+  {
+    "Item": 4,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Wendung \"nach Artikel 6\" steht ohne Bezug zu einem SR-Dokument und ist syntaktisch eine interne Verweisung innerhalb derselben Verordnung."
+  }
+]

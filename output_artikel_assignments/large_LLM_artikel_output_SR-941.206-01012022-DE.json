@@ -1,0 +1,328 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 941.20",
+    "assigned_articles": [
+      "Art. 16 Abs. 2",
+      "Art. 18 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet explicitly cites 'Artikel 16 Absatz 2 und 18 Absatz 2 des Messgesetzes ... SR 941.20'; both articles are grammatically linked to the cited SR."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": "SR 941.210",
+    "assigned_articles": "General reference - entire document",
+    "confidence": "high",
+    "reasoning": "The citation refers to 'die Messmittelverordnung ... SR 941.210 (MessMV)' as a whole; no specific article or range of articles of MessMV is mentioned."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": "SR 941.204",
+    "assigned_articles": [
+      "Art. 34 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "Text: 'nach Artikel 34 Absatz 1 der Mengenangabeverordnung ... SR 941.204 (MeAV)'; clear direct marking of article and paragraph for that SR."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": "SR 941.210",
+    "assigned_articles": [
+      "Art. 17",
+      "Art. 24",
+      "Art. 29"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet and acronym contexts repeatedly mention 'Artikel 17 MessMV', 'Artikel 24 MessMV', 'Artikel 29 MessMV'; MessMV is SR 941.210, so these three articles belong to that SR."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": "SR 941.204",
+    "assigned_articles": [
+      "Art. 34 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet: 'nicht nach Artikel 34 Absatz 1 MeAV einer anderen Stelle übertragen ist'; MeAV is SR 941.204, so Art. 34 Abs. 1 is directly linked."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": "SR 941.298.1",
+    "assigned_articles": "General reference - entire document",
+    "confidence": "medium",
+    "reasoning": "Refers generically to 'die Eichgebührenverordnung ... SR 941.298.1 (EichGebV)' without specifying any article; no syntactic link to a particular provision."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_8",
+    "TARGET_SR": "SR 941.210",
+    "assigned_articles": [
+      "Art. 28 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "Sentence: 'Das METAS leitet die Massnahmen nach Artikel 28 Absatz 1 MessMV SR 941.210 ein.'; explicit article and paragraph tied to MessMV/SR 941.210."
+  },
+  {
+    "ITEM": 8,
+    "ARTICLE_EID": "art_8",
+    "TARGET_SR": "SR 941.204",
+    "assigned_articles": [
+      "Art. 35 Abs. 4",
+      "Art. 35 Abs. 5",
+      "Art. 35 Abs. 6"
+    ],
+    "confidence": "high",
+    "reasoning": "Text: 'richten sich nach Artikel 35 Absätze 4–6 MeAV SR 941.204'; range of paragraphs 4–6 within Art. 35 of MeAV clearly linked to that SR."
+  },
+  {
+    "ITEM": 9,
+    "ARTICLE_EID": "art_11",
+    "TARGET_SR": "SR 941.204",
+    "assigned_articles": [
+      "Art. 34 Abs. 2",
+      "Art. 34 Abs. 3",
+      "Art. 34 Abs. 4",
+      "Art. 34 Abs. 5"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet: 'Aufgaben nach Artikel 34 Absätze 2–5 MeAV SR 941.204'; explicitly references Art. 34 paragraphs 2 through 5 of that SR."
+  },
+  {
+    "ITEM": 10,
+    "ARTICLE_EID": "art_12",
+    "TARGET_SR": "SR 941.210",
+    "assigned_articles": [
+      "2. Kapitel 4. Abschnitt",
+      "Art. 17",
+      "Art. 24",
+      "Art. 18",
+      "Art. 29"
+    ],
+    "confidence": "medium",
+    "reasoning": "First part cites 'nach dem 2. Kapitel 4. Abschnitt der MessMV SR 941.210', a structural unit rather than a numbered article; later acronym snippets in the same item explicitly mention 'Artikel 17', 'Artikel 24', 'Artikel 18', 'Artikel 29 MessMV'. All are syntactically tied to MessMV, i.e., SR 941.210."
+  },
+  {
+    "ITEM": 11,
+    "ARTICLE_EID": "art_15",
+    "TARGET_SR": "SR 941.210",
+    "assigned_articles": "General reference - entire document",
+    "confidence": "medium",
+    "reasoning": "Phrase 'Vollzug der MessMV SR 941.210' refers to implementation of the ordinance as a whole; no specific article or section is mentioned."
+  },
+  {
+    "ITEM": 12,
+    "ARTICLE_EID": "art_17",
+    "TARGET_SR": "SR 170.512.1",
+    "assigned_articles": [
+      "Art. 20 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "INSIDE_AUTHORIALNOTE: 'in Anwendung von Art. 20 Abs. 2 der Publikationsverordnung ... (SR 170.512.1)'; clear direct marking of article and paragraph."
+  },
+  {
+    "ITEM": 13,
+    "ARTICLE_EID": "art_18",
+    "TARGET_SR": "SR 946.51",
+    "assigned_articles": [
+      "Art. 22"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet: 'im Rahmen von Artikel 22 des Bundesgesetzes ... SR 946.51 über die technischen Handelshemmnisse'; explicit reference to Art. 22 of that SR."
+  },
+  {
+    "ITEM": 14,
+    "ARTICLE_EID": "art_19",
+    "TARGET_SR": "SR 941.210",
+    "assigned_articles": [
+      "Art. 17",
+      "Art. 24",
+      "Art. 29"
+    ],
+    "confidence": "high",
+    "reasoning": "Text: '(Art. 17, 24 und 29 MessMV SR 941.210)'; direct marking of three articles of MessMV, which is SR 941.210."
+  },
+  {
+    "ITEM": 15,
+    "ARTICLE_EID": "art_22",
+    "TARGET_SR": "SR 941.210",
+    "assigned_articles": [
+      "Anhang 6 Ziff. 2.3"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet: 'Identifikation nach Anhang 6 Ziffer 2.3 MessMV SR 941.210'; explicitly ties Annex 6 section 2.3 of MessMV to that SR."
+  },
+  {
+    "ITEM": 16,
+    "ARTICLE_EID": "art_27",
+    "TARGET_SR": "SR 172.021",
+    "assigned_articles": "General reference - entire document",
+    "confidence": "medium",
+    "reasoning": "Refers generically to 'das Verwaltungsverfahrensgesetz ... SR 172.021' without specifying an article; context is that procedures follow the VwVG as a whole."
+  },
+  {
+    "ITEM": 17,
+    "ARTICLE_EID": "art_29",
+    "TARGET_SR": "SR 941.298.1",
+    "assigned_articles": "General reference - entire document",
+    "confidence": "medium",
+    "reasoning": "Citation 'nach der EichGebV SR 941.298.1' is to the ordinance generally; no article or section is mentioned in the snippet."
+  },
+  {
+    "ITEM": 18,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 4"
+    ],
+    "confidence": "high",
+    "reasoning": "Internal reference: 'Für die Aufgaben nach Artikel 4 bestimmen sie ...'; no external SR mentioned, so this is a self-reference within the same document to Art. 4."
+  },
+  {
+    "ITEM": 19,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": "SR 941.20",
+    "assigned_articles": [
+      "Art. 17 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Reference '(Art. 17 Abs. 2 MessG)' clearly points to Art. 17 Abs. 2 of the Messgesetz, which in this context is SR 941.20; this is an outgoing SR link, not a self-reference."
+  },
+  {
+    "ITEM": 20,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": "SR 941.204",
+    "assigned_articles": [
+      "Art. 34 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "Sentence: 'nach Artikel 34 Absatz 1 der Mengenangabeverordnung ... (MeAV)'; MeAV is SR 941.204, so Art. 34 Abs. 1 belongs to that SR."
+  },
+  {
+    "ITEM": 21,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": "SR 941.20",
+    "assigned_articles": [
+      "Art. 12"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet: 'nachträgliche Kontrolle nach Artikel 12 MessG'; MessG is the Messgesetz SR 941.20, so this cites Art. 12 of that SR."
+  },
+  {
+    "ITEM": 22,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 2 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Internal cross-reference: 'nach Artikel 2 Absatz 2 ...'; no external SR is mentioned, so it refers to Art. 2 Abs. 2 of the same ordinance."
+  },
+  {
+    "ITEM": 23,
+    "ARTICLE_EID": "art_6",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 4",
+      "Art. 8"
+    ],
+    "confidence": "high",
+    "reasoning": "Phrase 'nach den Artikeln 4 und 8' with no SR context; these are internal references to Articles 4 and 8 of the current document."
+  },
+  {
+    "ITEM": 24,
+    "ARTICLE_EID": "art_11",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "Text: 'für die nicht nach Artikel 3 die Kantone zuständig sind'; no external SR, so this is a self-reference to Art. 3 of the same ordinance."
+  },
+  {
+    "ITEM": 25,
+    "ARTICLE_EID": "art_13",
+    "TARGET_SR": "SR 941.20",
+    "assigned_articles": [
+      "Art. 12"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet: 'nachträgliche Kontrollen (Art. 12 MessG)'; MessG is SR 941.20, so this cites Art. 12 of that SR."
+  },
+  {
+    "ITEM": 26,
+    "ARTICLE_EID": "art_13",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 11"
+    ],
+    "confidence": "high",
+    "reasoning": "Internal reference '(Art. 11)' without SR; clearly points to Article 11 of the same document."
+  },
+  {
+    "ITEM": 27,
+    "ARTICLE_EID": "art_13",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 3",
+      "Art. 15"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet: '(Art. 3), soweit ... im Programm nach Artikel 15 vorsieht.'; both Art. 3 and Art. 15 are mentioned without any SR, so they are internal articles."
+  },
+  {
+    "ITEM": 28,
+    "ARTICLE_EID": "art_16",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 2 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Text: 'vom Kanton nach Artikel 2 Absatz 2 bestimmte Eichmeisterinnen ...'; no SR given, so this is a self-reference to Art. 2 Abs. 2 of the same ordinance."
+  },
+  {
+    "ITEM": 29,
+    "ARTICLE_EID": "art_18",
+    "TARGET_SR": "SR 946.51",
+    "assigned_articles": [
+      "Art. 22"
+    ],
+    "confidence": "high",
+    "reasoning": "Same content as ITEM 13 but without explicit SR in this snippet; in context of the document, 'Bundesgesetz ... über die technischen Handelshemmnisse' is SR 946.51 and the article cited is 22."
+  },
+  {
+    "ITEM": 30,
+    "ARTICLE_EID": "art_21",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 20"
+    ],
+    "confidence": "high",
+    "reasoning": "Internal reference: 'Voraussetzungen nach Artikel 20 erfüllt'; no SR mentioned, so it refers to Art. 20 of the same document."
+  },
+  {
+    "ITEM": 31,
+    "ARTICLE_EID": "art_31",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 22 Abs. 4"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet: 'richtet sich nach Artikel 22 Absatz 4.'; no external SR, so this is a self-reference to Art. 22 Abs. 4 of the same ordinance."
+  },
+  {
+    "ITEM": 32,
+    "ARTICLE_EID": "art_31",
+    "TARGET_SR": "SR 941.298.2",
+    "assigned_articles": [
+      "Art. 14 Abs. 1"
+    ],
+    "confidence": "medium",
+    "reasoning": "Refers to 'Artikel 14 Absatz 1 der Eichstellenverordnung vom 15. Februar 2006'; that Eichstellenverordnung is a separate ordinance on metrological offices. Based on Swiss metrology regulations, this is most plausibly SR 941.298.2, and the cited provision is Art. 14 Abs. 1."
+  }
+]

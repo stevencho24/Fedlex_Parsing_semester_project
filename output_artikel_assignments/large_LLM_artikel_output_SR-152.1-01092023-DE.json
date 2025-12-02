@@ -1,0 +1,102 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 101",
+    "assigned_articles": [
+      "Art. 173 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet explicitly states: 'Dieser Bestimmung entspricht Art. 173 Abs. 2 der Bundesverfassung ... (SR 101)'; the article is directly and uniquely linked to SR 101."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 172.010",
+    "assigned_articles": [
+      "Art. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "The text says 'nach Artikel 2 des Regierungs- und Verwaltungsorganisationsgesetzes ... SR 172.010'; 'Artikel 2' is syntactically and semantically tied to that SR."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_15",
+    "TARGET_SR": "SR 235.1",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "medium",
+    "reasoning": "The paragraph refers generally to 'den Bestimmungen des Datenschutzgesetzes ... SR 235.1' without specifying any article or range; it invokes the law as a whole."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_23",
+    "TARGET_SR": "SR 311.0",
+    "assigned_articles": [
+      "Art. 333"
+    ],
+    "confidence": "high",
+    "reasoning": "The authorial note reads 'Fassung gemäss Art. 333 des Strafgesetzbuches (SR 311.0)'; Art. 333 is explicitly and directly attributed to SR 311.0."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet mentions 'Artikel 2 des Regierungs- und Verwaltungsorganisationsgesetzes' but without an SR or acronym; this is already captured in ITEM 2 with SR 172.010. Here, as an artikel_reference item without TARGET_SR, it functions as an internal cross-reference context and not a new SR link."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_6",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "Reference to 'Artikel 1 Absatz 1' has no associated SR or acronym and clearly points to Article 1 of the same act; per rules, this is a self-reference."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "The phrase 'in Artikel 1 Absatz 1 genannten Stellen' refers back to Article 1 of the same law; no external SR context is present."
+  },
+  {
+    "ITEM": 8,
+    "ARTICLE_EID": "art_9",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "References to 'Artikel 11 und 12' are internal cross-references within the same statute; there is no SR or acronym linking them to another document."
+  },
+  {
+    "ITEM": 9,
+    "ARTICLE_EID": "art_11",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "The clause 'Vorbehalten bleibt Artikel 12' is a standard internal reference to another article of the same act; no external SR is mentioned."
+  },
+  {
+    "ITEM": 10,
+    "ARTICLE_EID": "art_13",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "The references to 'Artikel 9, 11 oder 12 Absatz 1' are clearly to other provisions of the same law; there is no syntactic or semantic link to an external SR document."
+  }
+]

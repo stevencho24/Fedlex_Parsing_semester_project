@@ -1,0 +1,27 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 172.220.1",
+    "assigned_articles": [
+      "Art. 32e Abs. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet explicitly cites 'Artikel 32e Absatz 3 des Bundespersonalgesetzes ... SR 172.220.1 (BPG)'; this article and paragraph are directly and syntactically linked to the cited SR."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": "SR 172.220.1",
+    "assigned_articles": [
+      "Art. 2 Abs. 1 Bst. a",
+      "Art. 2 Abs. 1 Bst. b",
+      "Art. 2 Abs. 1 Bst. f",
+      "Art. 2 Abs. 1 Bst. g",
+      "Art. 3 Abs. 2",
+      "Art. 37 Abs. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet refers to 'Verwaltungseinheiten nach Artikel 2 Absatz 1 Buchstaben a, b, f und g BPG' and to entities 'die ... nach den Artikeln 3 Absatz 2 und 37 Absatz 3 BPG dem BPG unterstellt sind.' All these article and paragraph references are explicitly tied to BPG, which the preamble maps to SR 172.220.1."
+  }
+]

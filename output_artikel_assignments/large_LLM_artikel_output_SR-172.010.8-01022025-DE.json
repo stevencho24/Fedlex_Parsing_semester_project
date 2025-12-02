@@ -1,0 +1,62 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 172.010",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Präambel nennt nur das Regierungs- und Verwaltungsorganisationsgesetz (RVOG, SR 172.010) ohne konkrete Artikelangabe; syntaktisch ist es eine generelle gesetzliche Grundlage («gestützt auf …»), daher allgemeine Verweisung auf das ganze Gesetz."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_12",
+    "TARGET_SR": "SR 520.1",
+    "assigned_articles": [
+      "Art. 18–21"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Satz verweist ausdrücklich auf «die Artikeln 18–21 des Bevölkerungs- und Zivilschutzgesetzes … SR 520.1»; die Artikelangabe steht direkt bei der Gesetzesbezeichnung, daher klare Zuordnung dieser Artikelspanne zu SR 520.1."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_17",
+    "TARGET_SR": "SR 101",
+    "assigned_articles": [
+      "Art. 180 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Snippet heisst es «gemäss Artikel 180 Absatz 2 der Bundesverfassung SR 101»; Artikelnummer und Absatz sind unmittelbar mit der SR-Angabe verknüpft, daher eindeutige Zuordnung zu Art. 180 Abs. 2 BV (SR 101)."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«… nach Artikel 3 Absatz 1» verweist ohne Nennung eines anderen Gesetzes oder einer SR-Nummer auf einen Artikel innerhalb derselben Verordnung; syntaktisch klar als Selbstverweisung zu verstehen."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_12",
+    "TARGET_SR": "SR 520.1",
+    "assigned_articles": [
+      "Art. 18–21"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Text entspricht inhaltlich der SR_link_detection-Position (ITEM 2), nur ohne explizite SR-Nummer; dort ist klargestellt, dass es sich um das Bevölkerungs- und Zivilschutzgesetz SR 520.1 handelt. Die Formulierung «gemäss den Artikeln 18–21 des Bevölkerungs- und Zivilschutzgesetzes» ist eine direkte Artikelangabe zu diesem Gesetz."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_17",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«Artikel 180 Absatz 2 der Bundesverfassung» und «Artikeln 10 und 11 RVOG» sind hier reine Artikelzitate ohne SR-Nummern; die explizite Zuordnung zu SR 101 bzw. SR 172.010 erfolgt bereits in ITEM 3 bzw. über die Präambel. Innerhalb dieses artikel_reference-Eintrags liegt keine neue SR-Verknüpfung vor, sondern nur die Wiedergabe derselben Verweise; daher als interne/kontextuelle Referenz im aktuellen Dokument behandelt, ohne neues TARGET_SR."
+  }
+]

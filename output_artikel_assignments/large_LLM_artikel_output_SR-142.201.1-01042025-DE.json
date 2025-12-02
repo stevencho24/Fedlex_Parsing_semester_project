@@ -1,0 +1,368 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 142.20",
+    "assigned_articles": [
+      "Art. 30 Abs. 2",
+      "Art. 99"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet: 'gestützt auf die Artikel 30 Absatz 2 und 99 des Ausländer- und Integrationsgesetzes ... SR 142.20 (AIG)'; both articles are explicitly and syntactically linked to SR 142.20."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 170.512",
+    "assigned_articles": [
+      "Art. 12 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "INSIDE_AUTHORIALNOTE: 'in Anwendung von Art. 12 Abs. 2 des Publikationsgesetzes ... (SR 170.512)'; direct marking of article and SR."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 142.201",
+    "assigned_articles": [
+      "Art. 85"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet: 'und auf Artikel 85 der Verordnung ... SR 142.201 ... (VZAE)'; clear prepositional attribution of Art. 85 to SR 142.201."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": "SR 0.101",
+    "assigned_articles": [
+      "Art. 8"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet: 'gestützt auf Artikel 8 der Konvention ... SR 0.101'; Art. 8 is explicitly tied to the cited convention."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": "SR 0.142.112.681",
+    "assigned_articles": [
+      "Anhang I Art. 4"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet: '(Anhang I Art. 4 des Abk. ... SR 0.142.112.681 ...)'; the only article reference linked to this SR is Annex I Art. 4."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_6",
+    "TARGET_SR": "SR 0.142.112.681",
+    "assigned_articles": [
+      "Anhang I Art. 3 Abs. 1",
+      "Anhang I Art. 3 Abs. 2 Bst. a",
+      "Anhang I Art. 3 Abs. 1",
+      "Anhang I Art. 3 Abs. 2 Bst. b",
+      "Anhang I Art. 24 Abs. 1"
+    ],
+    "confidence": "medium",
+    "reasoning": "SR_link_with_local_acronym item: all snippet_acronym lines refer to 'Anhang I Art. 3 Abs. 1 und 2 Bst. a FZA', 'Art. 3 Abs. 1 und 2 Bst. b von Anhang I FZA', and 'Anhang I Art. 24 Abs. 1 FZA'. FZA is the cited SR 0.142.112.681. Both Abs. 1 and 2 are mentioned; Bst. a/b only for Abs. 2. Duplicated mentions are kept as separate entries as they are distinct textual references."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 142.20",
+    "assigned_articles": [
+      "Art. 19",
+      "Art. 23 Abs. 3 Bst. b",
+      "Art. 23 Abs. 3 Bst. c",
+      "Art. 26",
+      "Art. 26a",
+      "Art. 30 Abs. 1 Bst. f",
+      "Art. 30 Abs. 1 Bst. j"
+    ],
+    "confidence": "high",
+    "reasoning": "preamble_acronym item with AIG=SR 142.20; snippet explicitly lists these provisions with 'AIG'. All are syntactically tied to the acronym."
+  },
+  {
+    "ITEM": 8,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": "SR 142.20",
+    "assigned_articles": [
+      "Art. 29",
+      "Art. 28",
+      "Art. 48"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet: '(Art. 29 AIG); ... (Art. 28 AIG); ... (Art. 48 AIG);' with AIG=SR 142.20; direct marking."
+  },
+  {
+    "ITEM": 9,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": "SR 142.20",
+    "assigned_articles": [
+      "Art. 34 Abs. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet: 'nach Artikel 34 Absatz 3 AIG'; AIG=SR 142.20; explicit article and paragraph."
+  },
+  {
+    "ITEM": 10,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": "SR 142.20",
+    "assigned_articles": [
+      "Art. 50"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet: '(Art. 50 AIG)'; AIG=SR 142.20; direct marking."
+  },
+  {
+    "ITEM": 11,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": "SR 142.201",
+    "assigned_articles": [
+      "Art. 23 Abs. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet: '(Art. 23 Abs. 3 VZAE)'; VZAE=SR 142.201; explicit article and paragraph."
+  },
+  {
+    "ITEM": 12,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": "SR 142.20",
+    "assigned_articles": [
+      "Art. 30 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet: '(Art. 30 Abs. 2 AIG)'; AIG=SR 142.20; direct marking."
+  },
+  {
+    "ITEM": 13,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": "SR 142.201",
+    "assigned_articles": [
+      "Art. 29",
+      "Art. 30",
+      "Art. 30a",
+      "Art. 31",
+      "Art. 32",
+      "Art. 33",
+      "Art. 36",
+      "Art. 36a",
+      "Art. 49",
+      "Art. 51",
+      "Art. 43 Abs. 1 Bst. f"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet lists multiple VZAE provisions explicitly: 'Art. 29 VZAE', 'Art. 30 VZAE', 'Art. 30a VZAE', 'Art. 31 VZAE', 'Art. 32 VZAE', 'Art. 33 VZAE', 'Art. 36 VZAE', 'Art. 36a VZAE', 'Art. 49 VZAE', 'Art. 51 VZAE', and 'Art. 43 Abs. 1 Bst. f VZAE'. All are tied to SR 142.201."
+  },
+  {
+    "ITEM": 14,
+    "ARTICLE_EID": "art_6",
+    "TARGET_SR": "SR 142.20",
+    "assigned_articles": [
+      "Art. 47",
+      "Art. 42 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet: '... nach Artikel 47 AIG ... (Art. 42 Abs. 2 AIG); ... (Art. 42 Abs. 2 AIG);'; both references are to AIG=SR 142.20."
+  },
+  {
+    "ITEM": 15,
+    "ARTICLE_EID": "art_6",
+    "TARGET_SR": "SR 142.201",
+    "assigned_articles": [
+      "Art. 73"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet: '... nach Artikel 47 AIG und Artikel 73 VZAE;'; only Art. 73 is linked to VZAE=SR 142.201."
+  },
+  {
+    "ITEM": 16,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "artikel_reference item; all article mentions (Art. 19 AIG, Art. 23 Abs. 3 Bst. b/c AIG, Art. 26 AIG, Art. 26a AIG, Art. 30 Abs. 1 Bst. f/j AIG) are already captured in ITEM 7 (preamble_acronym) for SR 142.20. This item represents internal cross-references and does not create a new SR link; per rules, treat as self-reference and do not assign to an external TARGET_SR."
+  },
+  {
+    "ITEM": 17,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "artikel_reference; '(Art. 29 AIG)' is already assigned to SR 142.20 in ITEM 8. This is an internal repetition; no new SR link."
+  },
+  {
+    "ITEM": 18,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "artikel_reference; '(Art. 28 AIG)' already covered in ITEM 8 for SR 142.20. Self-reference only."
+  },
+  {
+    "ITEM": 19,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "artikel_reference; '(Art. 48 AIG)' already assigned in ITEM 8. No new external SR assignment."
+  },
+  {
+    "ITEM": 20,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "artikel_reference; 'Artikel 34 Absatz 3 AIG' already linked to SR 142.20 in ITEM 9. Internal cross-reference only."
+  },
+  {
+    "ITEM": 21,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "artikel_reference; 'Artikel 8 der Konvention ...' corresponds to SR 0.101 Art. 8 already assigned in ITEM 4. This is a repetition of that citation, not a new SR_link_detection item, so no separate SR assignment here."
+  },
+  {
+    "ITEM": 22,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "artikel_reference; '(Art. 23 Abs. 3 VZAE)' already assigned to SR 142.201 in ITEM 11. Internal repetition."
+  },
+  {
+    "ITEM": 23,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "artikel_reference; '(Art. 50 AIG)' already linked to SR 142.20 in ITEM 10. No new SR assignment."
+  },
+  {
+    "ITEM": 24,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "artikel_reference; 'Anhang I Art. 4 ... FZA' corresponds to SR 0.142.112.681 Art. 4 of Annex I already assigned in ITEM 5. This is a parallel internal reference."
+  },
+  {
+    "ITEM": 25,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "medium",
+    "reasoning": "artikel_reference; 'Anhang I Art. 3 Abs. 6 FZA' refers to the same FZA (SR 0.142.112.681) as in ITEM 6, but Art. 3 Abs. 6 was not explicitly assigned there. However, this item type has no TARGET_SR and functions as an internal cross-reference. Per instructions, artikel_reference outputs represent the SR link itself only when not already covered; here the SR is already linked via ITEM 6, so no new external assignment."
+  },
+  {
+    "ITEM": 26,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "artikel_reference; '(Art. 29 VZAE)' already assigned to SR 142.201 in ITEM 13. Internal repetition."
+  },
+  {
+    "ITEM": 27,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "artikel_reference; '(Art. 30 VZAE)' already assigned to SR 142.201 in ITEM 13."
+  },
+  {
+    "ITEM": 28,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "artikel_reference; '(Art. 30a VZAE)' already assigned to SR 142.201 in ITEM 13."
+  },
+  {
+    "ITEM": 29,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "artikel_reference; '(Art. 31 VZAE)' already assigned to SR 142.201 in ITEM 13."
+  },
+  {
+    "ITEM": 30,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "artikel_reference; '(Art. 32 VZAE)' already assigned to SR 142.201 in ITEM 13."
+  },
+  {
+    "ITEM": 31,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "artikel_reference; '(Art. 33 VZAE)' already assigned to SR 142.201 in ITEM 13."
+  },
+  {
+    "ITEM": 32,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "artikel_reference; '(Art. 36 VZAE)' already assigned to SR 142.201 in ITEM 13."
+  },
+  {
+    "ITEM": 33,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "artikel_reference; '(Art. 36a VZAE)' already assigned to SR 142.201 in ITEM 13."
+  },
+  {
+    "ITEM": 34,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "artikel_reference; '(Art. 49 VZAE)' already assigned to SR 142.201 in ITEM 13."
+  },
+  {
+    "ITEM": 35,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "artikel_reference; '(Art. 51 VZAE)' already assigned to SR 142.201 in ITEM 13."
+  },
+  {
+    "ITEM": 36,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "artikel_reference; 'Art. 43 Abs. 1 Bst. f VZAE' already assigned to SR 142.201 in ITEM 13."
+  },
+  {
+    "ITEM": 37,
+    "ARTICLE_EID": "art_6",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "artikel_reference; 'Artikel 47 AIG' and 'Artikel 73 VZAE' are already covered by ITEMS 14 (Art. 47 AIG) and 15 (Art. 73 VZAE). This line is an internal restatement."
+  },
+  {
+    "ITEM": 38,
+    "ARTICLE_EID": "art_6",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "artikel_reference; '(Art. 42 Abs. 2 AIG)' already assigned to SR 142.20 in ITEM 14. Internal repetition."
+  },
+  {
+    "ITEM": 39,
+    "ARTICLE_EID": "art_6",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "artikel_reference; second occurrence of '(Art. 42 Abs. 2 AIG)' in same context as ITEM 38; already assigned in ITEM 14."
+  }
+]

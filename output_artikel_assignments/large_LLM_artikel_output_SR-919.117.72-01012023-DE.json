@@ -1,0 +1,68 @@
+[
+  {
+    "Item": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 910.1",
+    "assigned_articles": [
+      "Art. 9",
+      "Art. 177 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet explicitly cites 'Artikel 9 und 177 Absatz 1 des Landwirtschaftsgesetzes ... SR 910.1 (LwG)'; both articles are directly and syntactically linked to SR 910.1."
+  },
+  {
+    "Item": 2,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": "SR 910.1",
+    "assigned_articles": [
+      "Art. 8"
+    ],
+    "confidence": "high",
+    "reasoning": "The text states 'die Bedingungen von Artikel 8 LwG erfüllt'; 'LwG' is defined in the preamble as SR 910.1, so this is a direct reference to Art. 8 of SR 910.1."
+  },
+  {
+    "Item": 3,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": "SR 910.1",
+    "assigned_articles": [
+      "Art. 14",
+      "Art. 15",
+      "Art. 16",
+      "Art. 63"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet refers to 'Produkte, die nach den Artikeln 14–16 und 63 LwG gekennzeichnet sind'; 'LwG' = SR 910.1, and the range 14–16 plus 63 are clearly tied to that act."
+  },
+  {
+    "Item": 4,
+    "ARTICLE_EID": "art_8",
+    "TARGET_SR": "self",
+    "assigned_articles": [
+      "Art. 4",
+      "Art. 5",
+      "Art. 6"
+    ],
+    "confidence": "high",
+    "reasoning": "The phrase 'Voraussetzungen nach den Artikeln 4–6' appears without any SR or acronym; by the project rules this is an internal reference within the same ordinance, so it refers to its own Arts. 4–6."
+  },
+  {
+    "Item": 5,
+    "ARTICLE_EID": "art_8",
+    "TARGET_SR": "self",
+    "assigned_articles": [
+      "Art. 1 Abs. 1 Bst. f"
+    ],
+    "confidence": "high",
+    "reasoning": "The text 'Selbsthilfemassnahme nach Artikel 1 Absatz 1 Buchstabe f' has no external SR context and clearly points to Art. 1 of the same document, paragraph 1, letter f."
+  },
+  {
+    "Item": 6,
+    "ARTICLE_EID": "art_11",
+    "TARGET_SR": "self",
+    "assigned_articles": [
+      "Art. 13"
+    ],
+    "confidence": "high",
+    "reasoning": "The wording 'Berichterstattung nach Artikel 13' lacks any SR or acronym and thus, under the self-reference rules, refers to Art. 13 of the current ordinance."
+  }
+]

@@ -1,0 +1,30 @@
+[
+  {
+    "Item": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 811.112.0",
+    "assigned_articles": [
+      "Art. 11 Abs. 6"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Satz lautet: «gestützt auf Artikel 11 Absatz 6 der Verordnung vom 27. Juni 2007 SR 811.112.0 ...». Artikelnummer und Absatz werden direkt mit der genannten Verordnung (SR 811.112.0) verknüpft; dies ist eine eindeutige, präpositionale Zuordnung."
+  },
+  {
+    "Item": 2,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": "SR 811.11",
+    "assigned_articles": [
+      "Art. 25 Abs. 1 lit. b"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Snippet: «gemäss Artikel 25 Absatz 1 Buchstabe b des Medizinalberufegesetzes ... SR 811.11 (MedBG)». Artikel 25 Abs. 1 lit. b wird ausdrücklich als Bestandteil des Medizinalberufegesetzes (SR 811.11) genannt; klare syntaktische Verknüpfung."
+  },
+  {
+    "Item": 3,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Das Snippet enthält «Artikel 25 Absatz 1 Buchstabe b des Medizinalberufegesetzes ... (MedBG)» und «Weiterbildungsgänge nach Artikel 2», aber keinen expliziten SR-Verweis. Gemäss Vorgabe für artikel_reference ohne TARGET_SR ist dies als Selbstverweis bzw. interner Verweis zu behandeln und nicht als neue SR-Verknüpfung auszugeben; die relevanten SR-bezogenen Artikel (Art. 25 Abs. 1 lit. b MedBG) wurden bereits in Item 2 erfasst."
+  }
+]

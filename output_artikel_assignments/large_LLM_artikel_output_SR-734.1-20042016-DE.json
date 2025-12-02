@@ -1,0 +1,303 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 734.0",
+    "assigned_articles": [
+      "Art. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet explicitly cites 'Artikel 3 des Elektrizitätsgesetzes (EleG)'; this article is grammatically linked to SR 734.0 in the same clause."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 742.141.1",
+    "assigned_articles": [
+      "Art. 42 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "Phrase 'elektrische Anlagen nach Artikel 42 Absatz 1 der Eisenbahnverordnung ... SR 742.141.1' directly links Art. 42 Abs. 1 to this SR."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": "SR 734.2",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "Only the title 'Verordnung ... SR 734.2 über elektrische Starkstromanlagen' is cited without any article indication; this is a general reference."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": "SR 734.31",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "Citation 'Verordnung ... SR 734.31 über elektrische Leitungen' contains no article or paragraph; treated as a general reference."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": "SR 742.141.1",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet names 'die Eisenbahnverordnung ... SR 742.141.1' without specifying any article; thus it is a document-level reference."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": "SR 734.26",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "medium",
+    "reasoning": "Historical AS references mention 'Art. 29', but that concerns the old version; the operative part 'Siehe heute: die V ... (SR 734.26)' does not specify articles, so only a general reference to the current ordinance is appropriate."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": "SR 734.27",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "medium",
+    "reasoning": "As with ITEM 6, the AS citations include article numbers for repealed versions; the decisive 'Siehe heute: die V ... (SR 734.27)' is article‑unspecific, so it is a general reference."
+  },
+  {
+    "ITEM": 8,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": "SR 734.5",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "Text: 'gelten die Bestimmungen der Verordnung ... SR 734.5' refers to the ordinance as a whole; no specific article is mentioned."
+  },
+  {
+    "ITEM": 9,
+    "ARTICLE_EID": "art_8_a",
+    "TARGET_SR": "SR 734.25",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet describes that the approval procedure follows the ordinance 'SR 734.25' without any article reference; this is a general procedural reference."
+  },
+  {
+    "ITEM": 10,
+    "ARTICLE_EID": "art_10",
+    "TARGET_SR": "SR 734.2",
+    "assigned_articles": [
+      "Art. 54"
+    ],
+    "confidence": "high",
+    "reasoning": "Sentence explicitly: 'Spannungsgrenzwerte nach Artikel 54 der Starkstromverordnung ... SR 734.2'; clear syntactic link between Art. 54 and SR 734.2."
+  },
+  {
+    "ITEM": 11,
+    "ARTICLE_EID": "art_11",
+    "TARGET_SR": "SR 734.27",
+    "assigned_articles": [
+      "Art. 5"
+    ],
+    "confidence": "high",
+    "reasoning": "Text: 'technischen Vorschriften nach Artikel 5 der Niederspannungs-Installationsverordnung ... (SR 734.27)'; Art. 5 is directly attributed to this SR."
+  },
+  {
+    "ITEM": 12,
+    "ARTICLE_EID": "art_14",
+    "TARGET_SR": "SR 832.30",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "Clause 'gilt die Verordnung ... SR 832.30' invokes the accident‑prevention ordinance generally; no article is specified."
+  },
+  {
+    "ITEM": 13,
+    "ARTICLE_EID": "art_24_a",
+    "TARGET_SR": "SR 734.24",
+    "assigned_articles": [
+      "2. Abschnitt"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet: 'Die Gebühren bemessen sich nach dem 2. Abschnitt der Verordnung ... SR 734.24'; the cited unit is the second section, not individual articles."
+  },
+  {
+    "ITEM": 14,
+    "ARTICLE_EID": "art_24_a",
+    "TARGET_SR": "SR 742.102",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "medium",
+    "reasoning": "The AS note lists several articles of the old Gebührenverordnung; the operative 'Siehe heute: die V ... (SR 742.102)' does not specify articles, so only a general reference to the current ordinance is justified."
+  },
+  {
+    "ITEM": 15,
+    "ARTICLE_EID": "art_25",
+    "TARGET_SR": "SR 173.51",
+    "assigned_articles": [
+      "Anhang Ziff. 12"
+    ],
+    "confidence": "high",
+    "reasoning": "INSIDE_AUTHORIALNOTE: 'SR 173.51 Anhang Ziff. 12'; this is a direct pinpoint reference to Annex number 12 of SR 173.51."
+  },
+  {
+    "ITEM": 16,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": "SR 734.0",
+    "assigned_articles": [
+      "Art. 2 Abs. 1",
+      "Art. 2 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet defines 'Schwachstromanlage' and 'Starkstromanlage' explicitly as 'Nach Artikel 2 Absatz 1 EleG' and 'Nach Artikel 2 Absatz 2 EleG'; EleG is mapped in the preamble to SR 734.0."
+  },
+  {
+    "ITEM": 17,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "Artikel 42 Abs. 1 Eisenbahnverordnung is already captured in ITEM 2 with SR 742.141.1; this artikel_reference line merely repeats that external citation and does not create a new SR link."
+  },
+  {
+    "ITEM": 18,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 734.0",
+    "assigned_articles": [
+      "Art. 21"
+    ],
+    "confidence": "high",
+    "reasoning": "Reference '(Art. 21 EleG)' uses the preamble acronym EleG (SR 734.0) and clearly points to Art. 21 of that act."
+  },
+  {
+    "ITEM": 19,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": "SR 734.0",
+    "assigned_articles": [
+      "Art. 2 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "Text: 'Nach Artikel 2 Absatz 1 EleG'; EleG is SR 734.0; this is an explicit cross‑reference to Art. 2 Abs. 1."
+  },
+  {
+    "ITEM": 20,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": "SR 734.0",
+    "assigned_articles": [
+      "Art. 2 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Text: 'Nach Artikel 2 Absatz 2 EleG'; via the EleG acronym this is Art. 2 Abs. 2 of SR 734.0."
+  },
+  {
+    "ITEM": 21,
+    "ARTICLE_EID": "art_8_a",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "Phrase 'nach Artikel 10' has no SR or acronym; it refers to Art. 10 of the same ordinance (self‑reference)."
+  },
+  {
+    "ITEM": 22,
+    "ARTICLE_EID": "art_9",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "Reference 'nach Artikel 10' is unqualified by any SR or acronym and thus points to Art. 10 of the present ordinance."
+  },
+  {
+    "ITEM": 23,
+    "ARTICLE_EID": "art_9",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "Again 'die Grenzwerte nach Artikel 10' without external marker; this is an internal cross‑reference."
+  },
+  {
+    "ITEM": 24,
+    "ARTICLE_EID": "art_10",
+    "TARGET_SR": "SR 734.2",
+    "assigned_articles": [
+      "Art. 54"
+    ],
+    "confidence": "high",
+    "reasoning": "This artikel_reference line mirrors ITEM 10: 'Artikel 54 der Starkstromverordnung ...'; it is an external reference to Art. 54 SR 734.2, not a self‑reference."
+  },
+  {
+    "ITEM": 25,
+    "ARTICLE_EID": "art_11",
+    "TARGET_SR": "SR 734.27",
+    "assigned_articles": [
+      "Art. 5"
+    ],
+    "confidence": "high",
+    "reasoning": "Mirrors ITEM 11: 'Artikel 5 der Niederspannungs-Installationsverordnung ... (SR 734.27)'; external reference to Art. 5 SR 734.27."
+  },
+  {
+    "ITEM": 26,
+    "ARTICLE_EID": "art_12",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "Reference 'nach Artikel 10' is not tied to any SR or acronym; it clearly points to Art. 10 of the same ordinance."
+  },
+  {
+    "ITEM": 27,
+    "ARTICLE_EID": "art_12",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "Phrase 'Grenzwerte nach Artikel 10' again lacks any external marker; internal cross‑reference."
+  },
+  {
+    "ITEM": 28,
+    "ARTICLE_EID": "art_12",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "Text 'die in Artikel 10 zugelassenen Werte' is an internal reference to Art. 10 of this ordinance."
+  },
+  {
+    "ITEM": 29,
+    "ARTICLE_EID": "art_13",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "Reference 'nach Artikel 9' has no SR or acronym; it refers to Art. 9 of the same document."
+  },
+  {
+    "ITEM": 30,
+    "ARTICLE_EID": "art_24",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "Phrase 'die Anlage nach Artikel 22' is an internal cross‑reference to Art. 22 of this ordinance; no external SR is mentioned."
+  }
+]

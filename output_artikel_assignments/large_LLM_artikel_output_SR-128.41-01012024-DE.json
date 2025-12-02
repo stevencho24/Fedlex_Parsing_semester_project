@@ -1,0 +1,502 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 128",
+    "assigned_articles": [
+      "Art. 73",
+      "Art. 84 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Formulierung «gestützt auf die Artikel 73 und 84 Absatz 1 des Informationssicherheitsgesetzes … SR 128 (ISG)» verknüpft die genannten Artikel syntaktisch eindeutig mit SR 128."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 172.010.1",
+    "assigned_articles": [
+      "Art. 7"
+    ],
+    "confidence": "high",
+    "reasoning": "«… nach Artikel 7 der Regierungs- und Verwaltungsorganisationsverordnung … SR 172.010.1»; der Artikel ist direkt mit der genannten Verordnung verknüpft."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 172.010",
+    "assigned_articles": [
+      "Art. 2 Abs. 3",
+      "Art. 2 Abs. 4"
+    ],
+    "confidence": "high",
+    "reasoning": "«… nach Artikel 2 Absatz 3 des … Gesetzes … SR 172.010 (RVOG) und Organisationen nach Artikel 2 Absatz 4 RVOG …»; beide Artikel 2 Abs. 3 und 2 Abs. 4 beziehen sich auf dasselbe Gesetz SR 172.010."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 128.1",
+    "assigned_articles": [
+      "Art. 2 Abs. 2",
+      "Art. 2 Abs. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "«… richtet sich nach Artikel 2 Absätze 2 und 3 der Informationssicherheitsverordnung … SR 128.1 (ISV).»; klare Zuordnung der Absätze 2 und 3 von Art. 2 zur ISV."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": "SR 128.1",
+    "assigned_articles": [
+      "Art. 37"
+    ],
+    "confidence": "high",
+    "reasoning": "«… nach Artikel 37 ISV SR 128.1 …»; der Artikel ist unmittelbar mit der ISV (SR 128.1) verbunden."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": "SR 128.1",
+    "assigned_articles": "General reference - entire document",
+    "confidence": "high",
+    "reasoning": "«… richten sich nach den Bestimmungen der ISV SR 128.1 …»; es wird auf die Bestimmungen der ganzen Verordnung verwiesen, ohne einzelne Artikel zu nennen."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": "SR 128.31",
+    "assigned_articles": "General reference - entire document",
+    "confidence": "high",
+    "reasoning": "«… und der Verordnung vom 8. November 2023 SR 128.31 über die Personensicherheitsprüfungen.»; keine konkrete Artikelangabe, allgemeiner Verweis auf die Verordnung."
+  },
+  {
+    "ITEM": 8,
+    "ARTICLE_EID": "art_9",
+    "TARGET_SR": "SR 121",
+    "assigned_articles": [
+      "Art. 6 Abs. 1 Bst. a"
+    ],
+    "confidence": "high",
+    "reasoning": "«… nach Artikel 6 Absatz 1 Buchstabe a des Nachrichtendienstgesetzes … SR 121 …»; eindeutige syntaktische Zuordnung."
+  },
+  {
+    "ITEM": 9,
+    "ARTICLE_EID": "art_11",
+    "TARGET_SR": "SR 172.056.1",
+    "assigned_articles": [
+      "Art. 44"
+    ],
+    "confidence": "high",
+    "reasoning": "«… nach Artikel 44 des Bundesgesetzes … SR 172.056.1 über das öffentliche Beschaffungswesen (BöB) …»; klarer Bezug auf Art. 44 BöB."
+  },
+  {
+    "ITEM": 10,
+    "ARTICLE_EID": "art_18",
+    "TARGET_SR": "SR 172.056.1",
+    "assigned_articles": [
+      "Art. 44"
+    ],
+    "confidence": "high",
+    "reasoning": "«… Widerruf des Zuschlags im Sinne von Artikel 44 BöB SR 172.056.1 …»; Art. 44 BöB ist direkt mit SR 172.056.1 verknüpft."
+  },
+  {
+    "ITEM": 11,
+    "ARTICLE_EID": "art_19",
+    "TARGET_SR": "SR 172.041.1",
+    "assigned_articles": "General reference - entire document",
+    "confidence": "medium",
+    "reasoning": "«Im Übrigen gilt die Allgemeine Gebührenverordnung … SR 172.041.1.»; pauschaler Verweis auf die Verordnung ohne Artikelangabe."
+  },
+  {
+    "ITEM": 12,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 128",
+    "assigned_articles": [
+      "Art. 2",
+      "Art. 49",
+      "Art. 73",
+      "Art. 49–73",
+      "Art. 70",
+      "Art. 2 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet enthält mehrere explizite Verweise mit ISG-Akronym: «(Art. 2, 49 und 73 ISG)», «… nach den Artikeln 49–73 ISG», «… nach Artikel 70 ISG», «… nach Artikel 2 Absatz 1 ISG»; alle sind syntaktisch mit ISG (SR 128) verknüpft."
+  },
+  {
+    "ITEM": 13,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": "SR 128",
+    "assigned_articles": [
+      "Art. 50",
+      "Art. 87"
+    ],
+    "confidence": "high",
+    "reasoning": "«(Art. 50 ISG) … Die völkerrechtlichen Verträge nach Artikel 87 ISG …»; beide Artikel sind ausdrücklich mit ISG verbunden."
+  },
+  {
+    "ITEM": 14,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": "SR 128",
+    "assigned_articles": [
+      "Art. 51 Abs. 2",
+      "Art. 83"
+    ],
+    "confidence": "high",
+    "reasoning": "«(Art. 51 Abs. 2 ISG) … nach Artikel 83 ISG.»; beide Verweise tragen das ISG-Akronym."
+  },
+  {
+    "ITEM": 15,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": "SR 128",
+    "assigned_articles": [
+      "Art. 52",
+      "Art. 2 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "«(Art. 52 ISG) … nach Artikel 2 Absatz 1 ISG …»; klare Zuordnung zu ISG."
+  },
+  {
+    "ITEM": 16,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": "SR 128",
+    "assigned_articles": [
+      "Art. 53",
+      "Art. 66"
+    ],
+    "confidence": "high",
+    "reasoning": "«(Art. 53 ISG) … nach Artikel 66 ISG …»; beide Artikel explizit mit ISG verknüpft."
+  },
+  {
+    "ITEM": 17,
+    "ARTICLE_EID": "art_6",
+    "TARGET_SR": "SR 128",
+    "assigned_articles": [
+      "Art. 52 Abs. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "Parenthetischer Verweis «(Art. 52 Abs. 3 ISG)»; eindeutige Zuordnung."
+  },
+  {
+    "ITEM": 18,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": "SR 128",
+    "assigned_articles": [
+      "Art. 54"
+    ],
+    "confidence": "high",
+    "reasoning": "Parenthetischer Verweis «(Art. 54 ISG)»; eindeutige Zuordnung."
+  },
+  {
+    "ITEM": 19,
+    "ARTICLE_EID": "art_8",
+    "TARGET_SR": "SR 128",
+    "assigned_articles": [
+      "Art. 55"
+    ],
+    "confidence": "high",
+    "reasoning": "Parenthetischer Verweis «(Art. 55 ISG)»; eindeutige Zuordnung."
+  },
+  {
+    "ITEM": 20,
+    "ARTICLE_EID": "art_9",
+    "TARGET_SR": "SR 128",
+    "assigned_articles": [
+      "Art. 56"
+    ],
+    "confidence": "high",
+    "reasoning": "Parenthetischer Verweis «(Art. 56 ISG)»; eindeutige Zuordnung."
+  },
+  {
+    "ITEM": 21,
+    "ARTICLE_EID": "art_10",
+    "TARGET_SR": "SR 128",
+    "assigned_articles": [
+      "Art. 57",
+      "Art. 58"
+    ],
+    "confidence": "high",
+    "reasoning": "«(Art. 57 und 58 ISG)»; beide Artikel sind ausdrücklich genannt."
+  },
+  {
+    "ITEM": 22,
+    "ARTICLE_EID": "art_11",
+    "TARGET_SR": "SR 128",
+    "assigned_articles": [
+      "Art. 57",
+      "Art. 58",
+      "Art. 70 Abs. 3",
+      "Art. 71 Abs. 1 Bst. a"
+    ],
+    "confidence": "high",
+    "reasoning": "Parenthese «(Art. 57 und 58 ISG)» sowie im Text «unter Vorbehalt der Artikel 70 Absatz 3 und 71 Absatz 1 Buchstabe a ISG»; alle mit ISG verknüpft."
+  },
+  {
+    "ITEM": 23,
+    "ARTICLE_EID": "art_12",
+    "TARGET_SR": "SR 128",
+    "assigned_articles": [
+      "Art. 59 Abs. 2",
+      "Art. 59 Abs. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "«(Art. 59 Abs. 2 und 3 ISG)»; beide Absätze sind explizit genannt."
+  },
+  {
+    "ITEM": 24,
+    "ARTICLE_EID": "art_14",
+    "TARGET_SR": "SR 128",
+    "assigned_articles": [
+      "Art. 59 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "«(Art. 59 Abs. 1 ISG)»; eindeutige Zuordnung."
+  },
+  {
+    "ITEM": 25,
+    "ARTICLE_EID": "art_15",
+    "TARGET_SR": "SR 128",
+    "assigned_articles": [
+      "Art. 60"
+    ],
+    "confidence": "high",
+    "reasoning": "«(Art. 60 ISG)»; eindeutige Zuordnung."
+  },
+  {
+    "ITEM": 26,
+    "ARTICLE_EID": "art_16",
+    "TARGET_SR": "SR 128",
+    "assigned_articles": [
+      "Art. 61",
+      "Art. 62"
+    ],
+    "confidence": "high",
+    "reasoning": "«(Art. 61 und 62 ISG)»; beide Artikel explizit genannt."
+  },
+  {
+    "ITEM": 27,
+    "ARTICLE_EID": "art_17",
+    "TARGET_SR": "SR 128",
+    "assigned_articles": [
+      "Art. 63 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "«(Art. 63 Abs. 2 ISG)»; eindeutige Zuordnung."
+  },
+  {
+    "ITEM": 28,
+    "ARTICLE_EID": "art_19",
+    "TARGET_SR": "SR 128",
+    "assigned_articles": [
+      "Art. 66"
+    ],
+    "confidence": "high",
+    "reasoning": "«(Art. 66 ISG)»; eindeutige Zuordnung."
+  },
+  {
+    "ITEM": 29,
+    "ARTICLE_EID": "art_20",
+    "TARGET_SR": "SR 128",
+    "assigned_articles": [
+      "Art. 67"
+    ],
+    "confidence": "high",
+    "reasoning": "«(Art. 67 ISG)»; eindeutige Zuordnung."
+  },
+  {
+    "ITEM": 30,
+    "ARTICLE_EID": "art_21",
+    "TARGET_SR": "SR 128",
+    "assigned_articles": [
+      "Art. 68",
+      "Art. 58 Abs. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "Parenthese «(Art. 68 ISG)» sowie im Text «Artikel 58 Absatz 3 ISG bleibt vorbehalten.»; beide Verweise gehören zu ISG."
+  },
+  {
+    "ITEM": 31,
+    "ARTICLE_EID": "art_22",
+    "TARGET_SR": "SR 128",
+    "assigned_articles": [
+      "Art. 70"
+    ],
+    "confidence": "high",
+    "reasoning": "«(Art. 70 ISG)»; eindeutige Zuordnung."
+  },
+  {
+    "ITEM": 32,
+    "ARTICLE_EID": "art_23",
+    "TARGET_SR": "SR 128",
+    "assigned_articles": [
+      "Art. 73 Bst. e"
+    ],
+    "confidence": "high",
+    "reasoning": "«(Art. 73 Bst. e ISG)»; eindeutige Zuordnung."
+  },
+  {
+    "ITEM": 33,
+    "ARTICLE_EID": "art_24",
+    "TARGET_SR": "SR 128",
+    "assigned_articles": [
+      "Art. 55–57"
+    ],
+    "confidence": "high",
+    "reasoning": "«… nach den Artikeln 55–57 ISG …»; Bereichsangabe klar mit ISG verknüpft."
+  },
+  {
+    "ITEM": 34,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 49–73"
+    ],
+    "confidence": "high",
+    "reasoning": "«… nach den Artikeln 49–73 ISG;» ist ein Verweis auf das ISG, wurde aber bereits in ITEM 12 (preamble_acronym) SR-zugeordnet; hier handelt es sich um eine interne Wiederholung, daher als Selbstreferenz ohne neue SR-Zuordnung behandelt."
+  },
+  {
+    "ITEM": 35,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 70"
+    ],
+    "confidence": "high",
+    "reasoning": "«… nach Artikel 70 ISG;» ist bereits in ITEM 12 als Verweis auf SR 128 erfasst; diese artikel_reference-Stelle dient nur der internen Struktur und erhält keine zusätzliche SR-Zuordnung."
+  },
+  {
+    "ITEM": 36,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 2 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "«… nach Artikel 2 Absatz 1 ISG;» ist in ITEM 12 schon SR 128 zugeordnet; hier nur Selbstreferenz innerhalb derselben Kontextpassage."
+  },
+  {
+    "ITEM": 37,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 7"
+    ],
+    "confidence": "high",
+    "reasoning": "«… nach Artikel 7 der Regierungs- und Verwaltungsorganisationsverordnung …» entspricht dem bereits in ITEM 2 SR 172.010.1 zugeordneten Verweis; diese artikel_reference-Zeile wiederholt nur denselben Kontext."
+  },
+  {
+    "ITEM": 38,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 2 Abs. 3",
+      "Art. 2 Abs. 4",
+      "Art. 2 Abs. 2",
+      "Art. 2 Abs. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Satz wiederholt die in ITEM 3 (RVOG, SR 172.010, Art. 2 Abs. 3 und 4) und ITEM 4 (ISV, SR 128.1, Art. 2 Abs. 2 und 3) bereits zugeordneten Verweise; als artikel_reference ist dies eine Selbstreferenz ohne neue SR-Zuordnung."
+  },
+  {
+    "ITEM": 39,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 87"
+    ],
+    "confidence": "high",
+    "reasoning": "«… nach Artikel 87 ISG …» ist bereits in ITEM 13 als Verweis auf SR 128 erfasst; hier nur interne Wiederholung, daher keine zusätzliche SR-Zuordnung."
+  },
+  {
+    "ITEM": 40,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 83"
+    ],
+    "confidence": "high",
+    "reasoning": "«… nach Artikel 83 ISG.» wurde in ITEM 14 schon SR 128 zugeordnet; diese artikel_reference-Stelle ist eine Selbstreferenz."
+  },
+  {
+    "ITEM": 41,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 2 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "«… nach Artikel 2 Absatz 1 ISG …» ist in ITEM 15 bereits SR 128 zugeordnet; hier nur interne Wiederholung."
+  },
+  {
+    "ITEM": 42,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 66"
+    ],
+    "confidence": "high",
+    "reasoning": "«… nach Artikel 66 ISG benötigt.» wurde in ITEM 16 schon SR 128 zugeordnet; diese artikel_reference-Zeile ist eine Selbstreferenz."
+  },
+  {
+    "ITEM": 43,
+    "ARTICLE_EID": "art_9",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 6 Abs. 1 Bst. a"
+    ],
+    "confidence": "high",
+    "reasoning": "«… nach Artikel 6 Absatz 1 Buchstabe a des Nachrichtendienstgesetzes …» ist in ITEM 8 bereits SR 121 zugeordnet; hier nur Wiederholung im artikel_reference-Kontext."
+  },
+  {
+    "ITEM": 44,
+    "ARTICLE_EID": "art_11",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 10 Abs. 1",
+      "Art. 70 Abs. 3",
+      "Art. 71 Abs. 1 Bst. a",
+      "Art. 44"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Satz enthält interne Verweise (Art. 10 Abs. 1 derselben Verordnung) sowie bereits in ITEM 22 (Art. 70 Abs. 3, 71 Abs. 1 Bst. a ISG) und ITEM 9 (Art. 44 BöB, SR 172.056.1) zugeordnete SR-Verweise; als artikel_reference werden diese nicht erneut SR-zugeordnet."
+  },
+  {
+    "ITEM": 45,
+    "ARTICLE_EID": "art_13",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 12 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "«… (Art. 12 Abs. 1).» verweist offensichtlich auf einen Artikel derselben Verordnung; kein externer SR-Bezug im Satz, daher reine Selbstreferenz."
+  },
+  {
+    "ITEM": 46,
+    "ARTICLE_EID": "art_18",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 44"
+    ],
+    "confidence": "high",
+    "reasoning": "«… im Sinne von Artikel 44 BöB hat;» ist bereits in ITEM 10 SR 172.056.1 zugeordnet; hier nur Wiederholung im artikel_reference-Kontext."
+  },
+  {
+    "ITEM": 47,
+    "ARTICLE_EID": "art_21",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 20",
+      "Art. 58 Abs. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "«… so ist Artikel 20 sinngemäss anwendbar. Artikel 58 Absatz 3 ISG bleibt vorbehalten.»; Art. 20 ist klar eine Selbstreferenz innerhalb derselben Verordnung, Art. 58 Abs. 3 ISG wurde bereits in ITEM 30 SR 128 zugeordnet; daher keine neue SR-Zuordnung."
+  },
+  {
+    "ITEM": 48,
+    "ARTICLE_EID": "art_24",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 19 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "«Die Höhe der Gebühren richtet sich nach Artikel 19 Absatz 2.»; es wird nur auf einen anderen Artikel derselben Verordnung verwiesen, ohne externes SR im Satz; reine Selbstreferenz."
+  }
+]

@@ -1,0 +1,88 @@
+[
+  {
+    "Item": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 941.210",
+    "assigned_articles": [
+      "Art. 5 Abs. 2",
+      "Art. 16 Abs. 2",
+      "Art. 17 Abs. 2",
+      "Art. 24 Abs. 3",
+      "Art. 33"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Satz nennt ausdrücklich: «gestützt auf die Artikel 5 Absatz 2, 16 Absatz 2, 17 Absatz 2, 24 Absatz 3 und 33 der Messmittelverordnung … SR 941.210». Direkte Zuordnung dieser Artikel zur Messmittelverordnung."
+  },
+  {
+    "Item": 2,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": "SR 741.41",
+    "assigned_articles": [
+      "Art. 55"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Snippet: «… nach Artikel 55 der Verordnung vom 19. Juni 1995 SR 741.41 …». Präposition «nach» und die Formulierung «Artikel 55 der Verordnung … SR 741.41» verknüpfen Art. 55 eindeutig mit SR 741.41."
+  },
+  {
+    "Item": 3,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": "SR 741.013.1",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "Formulierung: «… müssen sie den Anforderungen der Verordnung des ASTRA vom 22. Mai 2008 SR 741.013.1 zur Strassenverkehrskontrollverordnung genügen.» Es wird kein bestimmter Artikel genannt, sondern die Verordnung als Ganzes; daher allgemeine Verweis auf das gesamte Dokument."
+  },
+  {
+    "Item": 4,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": "SR 941.210",
+    "assigned_articles": [
+      "Anhang 1",
+      "Anhang 1 Ziff. 1.3.3"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet enthält: «… die grundlegenden Anforderungen nach Anhang 1 der Messmittelverordnung …» sowie «… Anforderungen der Klasse E2 beziehungsweise E3 nach Anhang 1 Ziffer 1.3.3 der Messmittelverordnung …». Beide Anhänge sind ausdrücklich der Messmittelverordnung (SR 941.210) zugeordnet."
+  },
+  {
+    "Item": 5,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": "SR 941.210",
+    "assigned_articles": [
+      "Anhang 5",
+      "Anhang 5 Ziff. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Text: «… einer Ersteichung nach Anhang 5 der Messmittelverordnung» und «… Ersteichung nach Anhang 5 Ziffer 2 der Messmittelverordnung.» Beide Anhangsverweise sind klar der Messmittelverordnung (SR 941.210) zugeordnet."
+  },
+  {
+    "Item": 6,
+    "ARTICLE_EID": "art_6",
+    "TARGET_SR": "SR 941.210",
+    "assigned_articles": [
+      "Anhang 7 Ziff. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "Formulierung: «… nach Anhang 7 Ziffer 1 der Messmittelverordnung …». Direkte Zuweisung von Anhang 7 Ziff. 1 zur Messmittelverordnung (SR 941.210)."
+  },
+  {
+    "Item": 7,
+    "ARTICLE_EID": "art_8",
+    "TARGET_SR": "SR 941.210",
+    "assigned_articles": [
+      "Anhang 5 Ziff. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet: «… der Ersteichung nach Anhang 5 Ziffer 2 der Messmittelverordnung unterzogen werden.» Der genannte Anhang ist ausdrücklich Teil der Messmittelverordnung (SR 941.210)."
+  },
+  {
+    "Item": 8,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "Dies ist ein artikel_reference ohne TARGET_SR. Der Text wiederholt den Verweis aus Item 2 («… nach Artikel 55 der Verordnung vom 19. Juni 1995 über die technischen Anforderungen an Strassenfahrzeuge.»), dient hier aber als interner Querverweis im eigenen Dokument. Da der Artikel 55 nicht erneut syntaktisch mit SR 741.41 verknüpft wird und der Zweck von artikel_reference interne Bezüge sind, wird dies als Selbstverweis innerhalb des aktuellen Dokuments behandelt, nicht als neue SR-Zuordnung."
+  }
+]

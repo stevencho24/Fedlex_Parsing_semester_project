@@ -1,0 +1,22 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": "SR 161.1",
+    "assigned_articles": [
+      "Art. 89 lit. b"
+    ],
+    "confidence": "high",
+    "reasoning": "In the authorial note, SR 161.1 is directly followed by 'Art. 89 Bst. b', which explicitly links Article 89 letter b to SR 161.1. No other article numbers are syntactically connected to SR 161.1 in the snippet."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet mentions 'Artikel 2' without any SR citation or acronym linking it to an external SR. This is a self-reference to another article of the same document, not to a separate SR."
+  }
+]

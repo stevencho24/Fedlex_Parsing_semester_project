@@ -1,0 +1,52 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 810.21",
+    "assigned_articles": [
+      "Art. 67 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Formulierung «gestützt auf Artikel 67 Absatz 2 des Transplantationsgesetzes … SR 810.21» verknüpft den genannten Artikel syntaktisch eindeutig mit SR 810.21."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": "SR 172.041.1",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Norm verweist allgemein auf die «Bestimmungen der Allgemeinen Gebührenverordnung … SR 172.041.1», ohne einzelne Artikel zu nennen; dies ist ein globaler Verweis auf die Verordnung."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": "SR 172.041.1",
+    "assigned_articles": [
+      "Art. 5 Abs. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Satz «Für Verwaltungshandlungen nach Artikel 5 Absatz 3 AllgGebV SR 172.041.1» ordnet Art. 5 Abs. 3 ausdrücklich der AllgGebV (SR 172.041.1) zu."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": "SR 810.215.7",
+    "assigned_articles": [
+      "Art. 5 Abs. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "Dies ist die gleiche Textstelle wie bei ITEM 3, jedoch ohne explizite SR-Angabe. Aufgrund der Parallelstelle mit SR-Nennung (ITEM 3) ist klar, dass «Artikel 5 Absatz 3 AllgGebV» auf Art. 5 Abs. 3 der AllgGebV (SR 172.041.1) verweist; als artikel_reference wird hier der Link selbst abgebildet."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": "SR 810.215.7",
+    "assigned_articles": [
+      "Art. 35-39"
+    ],
+    "confidence": "medium",
+    "reasoning": "Der Satz verweist auf «die Artikel 35–39 der Verordnung vom 26. Juni 1996 über die Kontrolle von Transplantaten». Die konkrete SR-Nummer dieser Verordnung ist im Ausschnitt nicht genannt, aber syntaktisch ist klar, dass die Artikel 35–39 zu dieser externen Verordnung gehören. Als artikel_reference wird der Verweisbereich Art. 35–39 erfasst."
+  }
+]

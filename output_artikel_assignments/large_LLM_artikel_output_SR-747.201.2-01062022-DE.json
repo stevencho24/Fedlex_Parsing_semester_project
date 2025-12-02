@@ -1,0 +1,94 @@
+[
+  {
+    "Item": 1,
+    "SOURCE_SR": "SR 747.201.2",
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 747.201",
+    "assigned_articles": [
+      "Art. 56 Abs. 2bis"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Formulierung \"gestützt auf Artikel 56 Absatz 2bis des Bundesgesetzes ... SR 747.201 ... (BSG)\" verknüpft den genannten Artikel grammatikalisch eindeutig mit dem Binnenschifffahrtsgesetz (BSG, SR 747.201)."
+  },
+  {
+    "Item": 2,
+    "SOURCE_SR": "SR 747.201.2",
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 747.201.1",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Satz verweist allgemein auf die Verordnung vom 8. November 1978 (SR 747.201.1), ohne bestimmte Artikel zu nennen; es handelt sich um eine generelle Geltungsanordnung."
+  },
+  {
+    "Item": 3,
+    "SOURCE_SR": "SR 747.201.2",
+    "ARTICLE_EID": "art_8",
+    "TARGET_SR": "SR 747.201.1",
+    "assigned_articles": [
+      "Art. 134",
+      "Art. 134a"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Formulierung \"gelten die Artikel 134 und 134a der Binnenschifffahrtsverordnung ... SR 747.201.1\" ordnet diese beiden Artikel ausdrücklich der genannten Verordnung zu."
+  },
+  {
+    "Item": 4,
+    "SOURCE_SR": "SR 747.201.2",
+    "ARTICLE_EID": "art_13",
+    "TARGET_SR": "SR 514.31",
+    "assigned_articles": [
+      "Art. 19",
+      "Art. 20",
+      "Art. 21",
+      "Art. 22"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Text lautet: \"Im Übrigen gelten die Artikel 19–22 der Verordnung vom 23. Februar 2005 SR 514.31 ...\"; damit ist klar, dass die Artikel 19 bis 22 dieser Verordnung gemeint sind."
+  },
+  {
+    "Item": 5,
+    "SOURCE_SR": "SR 747.201.2",
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 747.201",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Passage \"ausführende Bestimmungen zum BSG\" verwendet das im Vorspann definierte Akronym BSG (SR 747.201) ohne konkrete Artikelangabe; es handelt sich um einen generellen Gesetzesbezug."
+  },
+  {
+    "Item": 6,
+    "SOURCE_SR": "SR 747.201.2",
+    "ARTICLE_EID": "art_11",
+    "TARGET_SR": "SR 747.201",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "medium",
+    "reasoning": "Die Wendung \"wenn ein Entzugsgrund gemäss BSG vorliegt\" verweist auf die Entzugsgründe im Binnenschifffahrtsgesetz (SR 747.201), nennt aber keinen bestimmten Artikel; mangels expliziter Zuordnung ist von einem allgemeinen Gesetzesbezug auszugehen."
+  },
+  {
+    "Item": 7,
+    "SOURCE_SR": "SR 747.201.2",
+    "ARTICLE_EID": "art_8",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "Diese Stelle wiederholt inhaltsgleich die Regelung aus Item 3, jedoch ohne explizite SR-Angabe; die Artikel 134 und 134a werden hier als Teil der bereits zitierten Binnenschifffahrtsverordnung erwähnt, die SR-Verknüpfung wurde jedoch schon in Item 3 hergestellt. Daher handelt es sich hier um eine interne Wiederholung/Referenz und nicht um eine neue SR-Zuordnung."
+  },
+  {
+    "Item": 8,
+    "SOURCE_SR": "SR 747.201.2",
+    "ARTICLE_EID": "art_13",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Text entspricht inhaltlich der Passage aus Item 4, jedoch ohne explizite Nennung von SR 514.31; die Zuordnung der Artikel 19–22 zu SR 514.31 wurde bereits in Item 4 vorgenommen. Hier liegt daher lediglich eine interne Wiederholung ohne eigenständige SR-Verknüpfung vor."
+  }
+]

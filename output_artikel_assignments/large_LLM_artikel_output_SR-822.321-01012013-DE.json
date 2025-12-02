@@ -1,0 +1,42 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "art_10",
+    "TARGET_SR": "SR 170.512.1",
+    "assigned_articles": [
+      "Art. 16 Abs. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "Im INSIDE_AUTHORIALNOTE steht ausdrücklich: 'in Anwendung von Art. 16 Abs. 3 der Publikationsverordnung ... (SR 170.512.1)'; der Artikel ist direkt mit der genannten SR verknüpft."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Formulierung 'Artikel 2 des Bundesbeschlusses' verweist auf Art. 2 des zugrunde liegenden Bundesbeschlusses bzw. der eigenen Rechtsgrundlage, ohne Nennung einer SR-Nummer; es handelt sich um eine Selbstreferenz, nicht um einen Verweis auf ein anderes SR-Dokument."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_8",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Verweis 'Artikel 7' steht ohne Bezug zu einer SR-Nummer oder einem anderen Erlass und bezieht sich damit auf Art. 7 derselben Verordnung; dies ist eine interne Artikelverweisung."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_9",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Wendung 'Auflagen gemäss Artikel 6' erfolgt ohne Nennung einer SR-Nummer oder eines anderen Erlasses und beschreibt Pflichten innerhalb derselben Verordnung; daher liegt eine Selbstreferenz auf Art. 6 des eigenen Erlasses vor."
+  }
+]

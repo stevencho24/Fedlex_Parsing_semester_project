@@ -1,0 +1,466 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 220",
+    "assigned_articles": ["Art. 181"],
+    "confidence": "high",
+    "reasoning": "Direkte Nennung: '(Art. 181 Obligationenrecht, OR SR 220)' – Art. 181 gehört eindeutig zum OR (SR 220)."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 221.301",
+    "assigned_articles": "General reference - entire document",
+    "confidence": "high",
+    "reasoning": "Das Fusionsgesetz wird nur als Ganzes ('nach dem Fusionsgesetz vom 3. Oktober 2003 SR 221.301 (FusG)') ohne konkrete Artikelangabe zitiert."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": "SR 210",
+    "assigned_articles": ["Art. 23", "Art. 24 Abs. 1", "Art. 25", "Art. 26"],
+    "confidence": "high",
+    "reasoning": "Explizite Formulierung: 'nach den Artikeln 23, 24 Absatz 1, 25 und 26 des Zivilgesetzbuchs (ZGB) SR 210' – alle genannten Artikel gehören zum ZGB."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": "SR 142.203",
+    "assigned_articles": ["Art. 4 Abs. 1", "Art. 5"],
+    "confidence": "high",
+    "reasoning": "Im Satz: 'Kurzaufenthalts‑, Aufenthalts‑ oder Niederlassungsbewilligung EU-EFTA (Art. 4 Abs. 1 und Art. 5 der V ... SR 142.203 ...)' werden Art. 4 Abs. 1 und Art. 5 ausdrücklich dieser Verordnung zugeordnet."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": "SR 142.20",
+    "assigned_articles": ["Art. 34"],
+    "confidence": "high",
+    "reasoning": "Formulierung: '(Art. 34 des Ausländer- und Integrationsgesetzes ... SR 142.20 (AIG))' – Art. 34 wird klar dem AIG (SR 142.20) zugewiesen."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": "SR 170.512",
+    "assigned_articles": ["Art. 12 Abs. 2"],
+    "confidence": "high",
+    "reasoning": "Im authorial note: 'in Anwendung von Art. 12 Abs. 2 des Publikationsgesetzes ... (SR 170.512)' – eindeutige Zuordnung dieses Artikels zum Publikationsgesetz."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": "SR 210",
+    "assigned_articles": ["Art. 23", "Art. 24 Abs. 1", "Art. 25", "Art. 26"],
+    "confidence": "high",
+    "reasoning": "Wortlaut: 'bestimmt sich nach den Artikeln 23, 24 Absatz 1, 25 und 26 ZGB SR 210' – dieselben ZGB-Artikel wie in ITEM 3, klar dem ZGB zugeordnet."
+  },
+  {
+    "ITEM": 8,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": "SR 142.20",
+    "assigned_articles": ["Art. 33"],
+    "confidence": "high",
+    "reasoning": "Text: 'die gültige Aufenthaltsbewilligung zur Wohnsitznahme (Art. 33 AIG SR 142.20)' – Art. 33 wird explizit dem AIG (SR 142.20) zugeordnet."
+  },
+  {
+    "ITEM": 9,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": "SR 192.121",
+    "assigned_articles": "General reference - entire document",
+    "confidence": "high",
+    "reasoning": "Die Passage 'Fassung gemäss Anhang Ziff. 5 der Gaststaatverordnung ... (SR 192.121)' ist eine Änderungsnotiz ohne konkrete Artikelangabe; sie verweist auf die Verordnung insgesamt bzw. deren Anhang."
+  },
+  {
+    "ITEM": 10,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": "SR 192.12",
+    "assigned_articles": ["Art. 2 Abs. 1"],
+    "confidence": "high",
+    "reasoning": "Im Satz: 'institutioneller Begünstigter nach Artikel 2 Absatz 1 des Gaststaatgesetzes ... SR 192.12' – Art. 2 Abs. 1 gehört eindeutig zum Gaststaatgesetz (SR 192.12)."
+  },
+  {
+    "ITEM": 11,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": "SR 210",
+    "assigned_articles": ["Art. 712d ff."],
+    "confidence": "high",
+    "reasoning": "Formulierung: '(Art. 712d ff. ZGB SR 210)' – direkte Verknüpfung der Artikelgruppe 712d ff. mit dem ZGB (SR 210)."
+  },
+  {
+    "ITEM": 12,
+    "ARTICLE_EID": "art_15",
+    "TARGET_SR": "SR 192.12",
+    "assigned_articles": ["3. Kapitel"],
+    "confidence": "medium",
+    "reasoning": "Es heisst: 'nach dem 3. Kapitel des Gaststaatgesetzes ... SR 192.12'; kein Einzelartikel, sondern ein Kapitel des Gesetzes wird referenziert. Daher Kapitelangabe, nicht einzelne Artikel."
+  },
+  {
+    "ITEM": 13,
+    "ARTICLE_EID": "art_15",
+    "TARGET_SR": "SR 192.121",
+    "assigned_articles": "General reference - entire document",
+    "confidence": "high",
+    "reasoning": "Text: 'werden in der Gaststaatverordnung ... SR 192.121 geregelt' – die Verordnung als Ganzes wird als Regelungsort genannt, ohne konkrete Artikel."
+  },
+  {
+    "ITEM": 14,
+    "ARTICLE_EID": "art_15",
+    "TARGET_SR": "SR 192.121",
+    "assigned_articles": "General reference - entire document",
+    "confidence": "high",
+    "reasoning": "Kombination aus allgemeiner Verweis ('werden in der Gaststaatverordnung ... geregelt') und Änderungsnotiz ('Fassung gemäss Anhang Ziff. 5 ... (SR 192.121)'). Keine spezifischen Artikel genannt."
+  },
+  {
+    "ITEM": 15,
+    "ARTICLE_EID": "art_18",
+    "TARGET_SR": "SR 210",
+    "assigned_articles": ["Art. 9"],
+    "confidence": "high",
+    "reasoning": "Klarer Wortlaut: '(Art. 9 ZGB SR 210)' – Art. 9 gehört zum ZGB (SR 210)."
+  },
+  {
+    "ITEM": 16,
+    "ARTICLE_EID": "art_18",
+    "TARGET_SR": "SR 220",
+    "assigned_articles": ["Art. 685", "Art. 790", "Art. 835", "Art. 686"],
+    "confidence": "medium",
+    "reasoning": "Im Text: '(Art. 685 OR SR 220. Siehe heute Art. 686.), ... (Art. 790 OR) ... (Art. 835 OR)'. Art. 685, 790 und 835 sind ausdrücklich dem OR zugeordnet; der Hinweis 'Siehe heute Art. 686.' bezieht sich auf die aktuelle Nummerierung im OR, daher wird Art. 686 zusätzlich berücksichtigt."
+  },
+  {
+    "ITEM": 17,
+    "ARTICLE_EID": "art_18_a",
+    "TARGET_SR": "SR 142.203",
+    "assigned_articles": ["Art. 4 Abs. 1"],
+    "confidence": "high",
+    "reasoning": "Formulierung: '(Art. 4 Abs. 1 VFP SR 142.203)' – Art. 4 Abs. 1 gehört eindeutig zur VFP (SR 142.203)."
+  },
+  {
+    "ITEM": 18,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 4 Abs. 1 Bst. e", "Art. 2 Abs. 2 Bst. a"],
+    "confidence": "high",
+    "reasoning": "Reine Selbstverweisung innerhalb des BewG: 'Art. 4 Abs. 1 Bst. e BewG' und 'Artikel 2 Absatz 2 Buchstabe a BewG'; kein anderes SR-Dokument genannt, daher interne Artikel des BewG."
+  },
+  {
+    "ITEM": 19,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 4 Abs. 1 Bst. g"],
+    "confidence": "high",
+    "reasoning": "Selbstverweis: '(Art. 4 Abs. 1 Bst. g BewG)' bezieht sich auf das gleiche Gesetz (BewG), kein externes SR verknüpft."
+  },
+  {
+    "ITEM": 20,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 5 Abs. 1 Bst. a Ziff. 2"],
+    "confidence": "high",
+    "reasoning": "Verweis 'nach Artikel 5 Absatz 1 Buchstabe a Ziffer 2 BewG' ist eindeutig eine interne Norm des BewG."
+  },
+  {
+    "ITEM": 21,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": "SR 142.203",
+    "assigned_articles": ["Art. 4 Abs. 1", "Art. 5"],
+    "confidence": "high",
+    "reasoning": "Dieselbe Passage wie ITEM 4, aber als artikel_reference erfasst: '(Art. 4 Abs. 1 und Art. 5 der V ... VFP)' – diese Artikel gehören zur VFP (SR 142.203), nicht zum BewG."
+  },
+  {
+    "ITEM": 22,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 5 Abs. 3"],
+    "confidence": "high",
+    "reasoning": "Verweis '(Art. 5 Abs. 3)' ohne anderes SR im Satz; im Kontext des BewG ist dies eine interne Bestimmung des BewG."
+  },
+  {
+    "ITEM": 23,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 2 Abs. 2 Bst. a"],
+    "confidence": "high",
+    "reasoning": "Formulierung 'im Sinne von Artikel 2 Absatz 2 Buchstabe a BewG' – klarer Selbstverweis innerhalb des BewG."
+  },
+  {
+    "ITEM": 24,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 8 Abs. 3"],
+    "confidence": "high",
+    "reasoning": "Verweis '(Art. 8 Abs. 3 BewG)' – interne Norm des BewG, kein anderes SR genannt."
+  },
+  {
+    "ITEM": 25,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 9 Abs. 3", "Art. 21 Abs. 2"],
+    "confidence": "high",
+    "reasoning": "Beide Verweise '(Art. 9 Abs. 3 BewG)' und '(Art. 21 Abs. 2)' stehen im Kontext des BewG; keine externe SR-Referenz, daher interne Artikel."
+  },
+  {
+    "ITEM": 26,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": "SR 192.12",
+    "assigned_articles": ["Art. 2 Abs. 1"],
+    "confidence": "high",
+    "reasoning": "Text: 'nach Artikel 2 Absatz 1 des Gaststaatgesetzes vom 22. Juni 2007' – wie in ITEM 10; Art. 2 Abs. 1 gehört zu SR 192.12."
+  },
+  {
+    "ITEM": 27,
+    "ARTICLE_EID": "art_6",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 9 Abs. 1 Bst. c"],
+    "confidence": "high",
+    "reasoning": "Verweis '(Art. 9 Abs. 1 Bst. c BewG)' – interne Bestimmung des BewG, kein anderes SR im Satz."
+  },
+  {
+    "ITEM": 28,
+    "ARTICLE_EID": "art_8",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 2 Abs. 2 Bst. b", "Art. 7 Bst. j Ziff. 1", "Art. 7 Bst. j Ziff. 2", "Art. 8 Abs. 3", "Art. 9 Abs. 1 Bst. c", "Art. 9 Abs. 2"],
+    "confidence": "high",
+    "reasoning": "Alle genannten Stellen ('Art. 2 Abs. 2 Bst. b, 7 Bst. j Ziff. 1 und 2, 8 Abs. 3 sowie 9 Abs. 1 Bst. c und Abs. 2 BewG') sind interne Normen des BewG."
+  },
+  {
+    "ITEM": 29,
+    "ARTICLE_EID": "art_9",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 11", "Art. 39"],
+    "confidence": "high",
+    "reasoning": "Klammerverweis '(Art. 11 und 39 BewG)' – beide Artikel gehören zum BewG."
+  },
+  {
+    "ITEM": 30,
+    "ARTICLE_EID": "art_10",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 9 Abs. 1 Bst. c"],
+    "confidence": "high",
+    "reasoning": "Verweis 'im Sinne von Artikel 9 Absatz 1 Buchstabe c BewG' – interne Norm des BewG."
+  },
+  {
+    "ITEM": 31,
+    "ARTICLE_EID": "art_10",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 9 Abs. 1 Bst. c"],
+    "confidence": "high",
+    "reasoning": "Auch hier 'Zweitwohnungen im Sinne von Artikel 9 Absatz 1 Buchstabe c BewG' – interner Verweis im BewG."
+  },
+  {
+    "ITEM": 32,
+    "ARTICLE_EID": "art_10",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 7 Bst. d", "Art. 7 Bst. g", "Art. 18 Abs. 1"],
+    "confidence": "high",
+    "reasoning": "Klammer: '(Art. 7 Bst. d und g BewG); ... (Art. 18 Abs. 1 BewG)' – alle genannten Normen sind interne Artikel des BewG."
+  },
+  {
+    "ITEM": 33,
+    "ARTICLE_EID": "art_11",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 9 Abs. 1 Bst. c", "Art. 12 Bst. d"],
+    "confidence": "high",
+    "reasoning": "Verweise 'im Sinne von Artikel 9 Absatz 1 Buchstabe c BewG' und '(Art. 12 Bst. d BewG)' – interne Bestimmungen des BewG."
+  },
+  {
+    "ITEM": 34,
+    "ARTICLE_EID": "art_11",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 14"],
+    "confidence": "high",
+    "reasoning": "Klammer '(Art. 14 BewG)' – interner Artikel des BewG."
+  },
+  {
+    "ITEM": 35,
+    "ARTICLE_EID": "art_11",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 9 Abs. 1 Bst. c"],
+    "confidence": "high",
+    "reasoning": "Verweis 'Zweitwohnungen im Sinne von Artikel 9 Absatz 1 Buchstabe c BewG' – interne Norm des BewG."
+  },
+  {
+    "ITEM": 36,
+    "ARTICLE_EID": "art_11",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 7"],
+    "confidence": "high",
+    "reasoning": "Klammer '(Art. 7)' ohne anderes SR; im Kontext der Verordnung ist dies ein Selbstverweis auf Art. 7 derselben Verordnung, nicht auf ein externes Gesetz."
+  },
+  {
+    "ITEM": 37,
+    "ARTICLE_EID": "art_11",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 14 Abs. 4"],
+    "confidence": "high",
+    "reasoning": "Klammer '(Art. 14 Abs. 4 BewG)' – interner Artikel des BewG."
+  },
+  {
+    "ITEM": 38,
+    "ARTICLE_EID": "art_12",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 14 Abs. 2"],
+    "confidence": "high",
+    "reasoning": "Klammer '(Art. 14 Abs. 2 BewG)' – interne Norm des BewG."
+  },
+  {
+    "ITEM": 39,
+    "ARTICLE_EID": "art_15",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 2", "Art. 4–7", "Art. 17 Abs. 1"],
+    "confidence": "high",
+    "reasoning": "Verweise '(Art. 2 und 4–7 BewG)' und '(Art. 17 Abs. 1 BewG)' – alle sind interne Bestimmungen des BewG; der Bereich 4–7 wird als Artikelspektrum verstanden."
+  },
+  {
+    "ITEM": 40,
+    "ARTICLE_EID": "art_15",
+    "TARGET_SR": "SR 192.121",
+    "assigned_articles": "General reference - entire document",
+    "confidence": "high",
+    "reasoning": "Satzteil: 'werden in der Gaststaatverordnung vom 7. Dezember 2007 geregelt' – wie in ITEM 13; allgemeiner Verweis auf die Verordnung (SR 192.121) ohne konkrete Artikel."
+  },
+  {
+    "ITEM": 41,
+    "ARTICLE_EID": "art_15",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 18", "Art. 19"],
+    "confidence": "high",
+    "reasoning": "Klammer '(Art. 18 und 19 BewG)' – interne Artikel des BewG."
+  },
+  {
+    "ITEM": 42,
+    "ARTICLE_EID": "art_15",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 22 Abs. 2"],
+    "confidence": "high",
+    "reasoning": "Klammer '(Art. 22 Abs. 2 BewG)' – interne Norm des BewG."
+  },
+  {
+    "ITEM": 43,
+    "ARTICLE_EID": "art_16",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 15 Abs. 2"],
+    "confidence": "high",
+    "reasoning": "Klammer '(Art. 15 Abs. 2 BewG)' – interner Verweis im BewG."
+  },
+  {
+    "ITEM": 44,
+    "ARTICLE_EID": "art_17",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 17 Abs. 3", "Art. 20 Abs. 4", "Art. 24 Abs. 3"],
+    "confidence": "high",
+    "reasoning": "Klammer '(Art. 17 Abs. 3, 20 Abs. 4 und 24 Abs. 3 BewG)' – alle genannten Bestimmungen gehören zum BewG."
+  },
+  {
+    "ITEM": 45,
+    "ARTICLE_EID": "art_18",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 18a", "Art. 18b", "Art. 18 Abs. 1", "Art. 18 Abs. 2", "Art. 19 Abs. 2", "Art. 15 Abs. 3 Bst. a"],
+    "confidence": "high",
+    "reasoning": "Verweise 'unter Vorbehalt der Artikel 18a und 18b', '(Art. 18 Abs. 1 und 2 sowie 19 Abs. 2 BewG; Art. 15 Abs. 3 Bst. a)' – alles interne Normen des BewG bzw. dieser Verordnung (Art. 18a/b)."
+  },
+  {
+    "ITEM": 46,
+    "ARTICLE_EID": "art_18",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 18a"],
+    "confidence": "high",
+    "reasoning": "Klammer '(Art. 18a)' ohne SR; im Kontext der Verordnung ist dies ein Selbstverweis auf Art. 18a derselben Verordnung."
+  },
+  {
+    "ITEM": 47,
+    "ARTICLE_EID": "art_18_a",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 2 Abs. 2 Bst. a", "Art. 18 Abs. 1"],
+    "confidence": "high",
+    "reasoning": "Verweise 'nach Artikel 2 Absatz 2 Buchstabe a BewG' und '(Art. 18 Abs. 1)' – interne Normen des BewG bzw. der Verordnung (Art. 18)."
+  },
+  {
+    "ITEM": 48,
+    "ARTICLE_EID": "art_18_a",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 2 Abs. 2 Bst. b"],
+    "confidence": "high",
+    "reasoning": "Verweis 'nach Artikel 2 Absatz 2 Buchstabe b BewG' – interne Bestimmung des BewG."
+  },
+  {
+    "ITEM": 49,
+    "ARTICLE_EID": "art_18_a",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 5 Abs. 2", "Art. 5 Abs. 3"],
+    "confidence": "high",
+    "reasoning": "Klammern '(Art. 5 Abs. 2)' und '(Art. 5 Abs. 3)' ohne anderes SR; im Kontext des BewG sind dies interne Artikel des BewG."
+  },
+  {
+    "ITEM": 50,
+    "ARTICLE_EID": "art_18_a",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 7 Bst. j Ziff. 1", "Art. 7 Bst. j Ziff. 2"],
+    "confidence": "high",
+    "reasoning": "Verweis '(Art. 7 Bst. j Ziff. 1 und 2 BewG)' – interne Normen des BewG."
+  },
+  {
+    "ITEM": 51,
+    "ARTICLE_EID": "art_18_b",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 18 Abs. 1", "Art. 4 Abs. 1 Bst. b", "Art. 4 Abs. 1 Bst. e", "Art. 1 Abs. 1 Bst. a", "Art. 1 Abs. 1 Bst. b", "Art. 2 Abs. 2 Bst. a"],
+    "confidence": "high",
+    "reasoning": "Klammern '(Art. 18 Abs. 1)', '(Art. 4 Abs. 1 Bst. b und e BewG; Art. 1 Abs. 1 Bst. a und b)', sowie 'Artikel 2 Absatz 2 Buchstabe a BewG' – alles interne Normen des BewG bzw. der Verordnung (Art. 1)."
+  },
+  {
+    "ITEM": 52,
+    "ARTICLE_EID": "art_19",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 4 Abs. 1 Bst. c"],
+    "confidence": "high",
+    "reasoning": "Klammer '(Art. 4 Abs. 1 Bst. c BewG)' – interne Bestimmung des BewG."
+  },
+  {
+    "ITEM": 53,
+    "ARTICLE_EID": "art_19",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 8 Abs. 1 Bst. b", "Art. 11 Abs. 4"],
+    "confidence": "high",
+    "reasoning": "Klammern '(Art. 8 Abs. 1 Bst. b BewG)' und '(Art. 11 Abs. 4)' – interne Normen des BewG."
+  },
+  {
+    "ITEM": 54,
+    "ARTICLE_EID": "art_19",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 8 Abs. 1 Bst. c"],
+    "confidence": "high",
+    "reasoning": "Klammer '(Art. 8 Abs. 1 Bst. c BewG)' – interne Bestimmung des BewG."
+  },
+  {
+    "ITEM": 55,
+    "ARTICLE_EID": "art_19",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 9 Abs. 1 Bst. a"],
+    "confidence": "high",
+    "reasoning": "Klammer '(Art. 9 Abs. 1 Bst. a BewG)' – interne Norm des BewG."
+  },
+  {
+    "ITEM": 56,
+    "ARTICLE_EID": "art_19",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 9 Abs. 1 Bst. c"],
+    "confidence": "high",
+    "reasoning": "Verweis 'Zweitwohnung im Sinne von Artikel 9 Absatz 1 Buchstabe c BewG' – interne Bestimmung des BewG."
+  },
+  {
+    "ITEM": 57,
+    "ARTICLE_EID": "art_19",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 22 Abs. 1", "Art. 24 Abs. 1"],
+    "confidence": "high",
+    "reasoning": "Klammer '(Art. 22 Abs. 1 und 24 Abs. 1 BewG)' – interne Artikel des BewG."
+  },
+  {
+    "ITEM": 58,
+    "ARTICLE_EID": "art_20",
+    "TARGET_SR": null,
+    "assigned_articles": ["Art. 24 Abs. 3"],
+    "confidence": "high",
+    "reasoning": "Klammer '(Art. 24 Abs. 3 BewG)' – interne Norm des BewG."
+  }
+]

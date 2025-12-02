@@ -1,0 +1,65 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 817.02",
+    "assigned_articles": [
+      "Art. 10 Abs. 4 Bst. e",
+      "Art. 95 Abs. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Preambel-Satz werden ausdrücklich «Artikel 10 Absatz 4 Buchstabe e und 95 Absatz 3 der Lebensmittel- und Gebrauchsgegenständeverordnung … SR 817.02» genannt; beide Artikel gehören daher klar zur zitierten Verordnung SR 817.02."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 817.022.15",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Satz spricht allgemein von «Kontaminanten nach der Kontaminantenverordnung des EDI … SR 817.022.15» ohne einzelne Artikel zu nennen; dies ist eine generelle Verweisungsformel auf die ganze Verordnung."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": "SR 916.307",
+    "assigned_articles": [
+      "Art. 3 Abs. 2 Bst. h",
+      "Art. 25 Abs. 1 Bst. b",
+      "Art. 25 Abs. 1 Bst. e"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Satz werden «Artikel 3 Absatz 2 Buchstabe h und Artikel 25 Absatz 1 Buchstaben b und e der Futtermittel-Verordnung … SR 916.307 (FMV)» ausdrücklich genannt; diese Artikel gehören eindeutig zur SR 916.307."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": "SR 812.212.27",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "medium",
+    "reasoning": "Es wird auf «die Listen a und b von Anhang 2 der Tierarzneimittelverordnung … SR 812.212.27» Bezug genommen, ohne konkrete Artikelnummern zu nennen; der Verweis betrifft funktional die Regelungen zu diesen Listen, lässt sich aber nicht auf bestimmte Artikel eingrenzen und ist daher als genereller Dokumentverweis zu behandeln."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 817.02",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "Die präambelbasierte Abkürzung «EDI» ist hier nur Teil der Bezeichnung «Kontaminantenverordnung des EDI …;»; es werden keine Artikel dieser Verordnung genannt, sodass der Bezug als allgemeiner Verweis auf die gesamte SR 817.02 zu werten ist."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Satz wiederholt die Formulierung aus ITEM 3, verweist aber nur auf «Artikel 3 Absatz 2 Buchstabe h und Artikel 25 Absatz 1 Buchstaben b und e der Futtermittel-Verordnung (FMV)» ohne explizite SR-Angabe; dies ist eine inhaltlich externe, aber im aktuellen Dokument als reine Artikelzitation ohne SR-Link erfasste Referenz und daher als interne Querverweisung im Sinne des artikel_reference-Typs zu behandeln."
+  }
+]

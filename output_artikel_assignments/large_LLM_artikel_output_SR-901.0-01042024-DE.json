@@ -1,0 +1,102 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 101",
+    "assigned_articles": [
+      "Art. 103"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet explicitly cites 'Artikel 103 der Bundesverfassung SR 101'; this article is syntactically and semantically linked to SR 101."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_12",
+    "TARGET_SR": "SR 642.14",
+    "assigned_articles": [
+      "Art. 23 Abs. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet states 'Steuererleichterungen nach Artikel 23 Absatz 3 des Bundesgesetzes ... SR 642.14'; Article 23 paragraph 3 is directly attributed to SR 642.14."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "The reference 'Artikel 4' is an internal article of the same law; no external SR is mentioned, so this is a self-reference and not an SR link."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_9",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "The range 'Artikeln 4–7' clearly refers to articles within the same document; there is no associated SR citation, so it is purely internal."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_10",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "The citation '(Art. 4 Abs. 2 Bst. b und 7 Abs. 2 Bst. a)' refers to other provisions of the same act; no external SR is present, so these are self-references."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_11",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "The phrase 'nach den Artikeln 4–7' refers to internal articles of the current law; there is no SR context, so no external article assignment applies."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_12",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Although 'Artikel 23 Absatz 3' of another federal act is mentioned, the SR number (642.14) is not present in this snippet; under the given rules and available context this is treated as an internal cross-reference, not an SR_link_detection item."
+  },
+  {
+    "ITEM": 8,
+    "ARTICLE_EID": "art_14",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "The reference 'Artikel 13' is to another article of the same statute; no SR document is cited, so it is an internal reference only."
+  },
+  {
+    "ITEM": 9,
+    "ARTICLE_EID": "art_21",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "The snippet mentions 'Artikel 7' of the same law and a separate named federal act (IHG) without an SR number; the article reference is internal and there is no explicit SR link to assign articles to."
+  },
+  {
+    "ITEM": 10,
+    "ARTICLE_EID": "art_25",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "The citation 'Artikel 14 IHG' refers to an article of another act but no SR identifier is given in this item; per the rules, without an explicit SR link this remains an internal-style reference for our purposes."
+  },
+  {
+    "ITEM": 11,
+    "ARTICLE_EID": "art_25",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "The reference 'Artikel 6a des Bundesbeschlusses ...' is to another instrument but again without an SR number; there is no TARGET_SR context, so no SR article assignment is made."
+  },
+  {
+    "ITEM": 12,
+    "ARTICLE_EID": "art_26",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "The dates 'Art. 14 und 22' clearly concern articles of the same law (entry into force provisions); no external SR is cited, so these are self-references only."
+  }
+]

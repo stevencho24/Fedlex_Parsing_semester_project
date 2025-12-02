@@ -1,0 +1,94 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 946.231",
+    "assigned_articles": [
+      "Art. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Formulierung «gestützt auf Artikel 2 des Embargogesetzes … SR 946.231 (EmbG)» verknüpft eindeutig Art. 2 mit dem EmbG (SR 946.231)."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": "SR 170.512.1",
+    "assigned_articles": [
+      "Art. 20 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Autorennotiztext steht «in Anwendung von Art. 20 Abs. 2 der Publikationsverordnung … (SR 170.512.1)»; der Artikel ist direkt mit dieser SR verknüpft."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_6",
+    "TARGET_SR": "SR 946.231",
+    "assigned_articles": [
+      "Art. 9",
+      "Art. 10"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Snippet: «wird nach Artikel 9 EmbG bestraft» und «wird nach Artikel 10 EmbG bestraft» sowie «Verstösse nach den Artikeln 9 und 10 EmbG»; EmbG ist in der Präambel als SR 946.231 definiert."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "interne Verweisung auf Art. 1 derselben Verordnung"
+    ],
+    "confidence": "high",
+    "reasoning": "«Zwangsmassnahmen nach Artikel 1» bezieht sich ohne Nennung einer anderen SR auf Art. 1 der aktuellen Verordnung (SR 946.231.10); daher reine Selbstverweisung, keine externe SR-Zuordnung."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "interne Verweisung auf Art. 3 derselben Verordnung"
+    ],
+    "confidence": "high",
+    "reasoning": "«Ein- und Durchreiseverbot nach Artikel 3» erfolgt ohne Bezug auf ein anderes Gesetz; dies ist eine interne Verweisung innerhalb derselben Verordnung."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "interne Verweisung auf Art. 1 Abs. 1 derselben Verordnung"
+    ],
+    "confidence": "high",
+    "reasoning": "«Sperrung nach Artikel 1 Absatz 1» ist eine strukturelle Bezugnahme innerhalb des gleichen Erlasses; keine externe SR wird genannt."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_6",
+    "TARGET_SR": "SR 946.231",
+    "assigned_articles": [
+      "Art. 9"
+    ],
+    "confidence": "high",
+    "reasoning": "«wird nach Artikel 9 EmbG bestraft»; EmbG ist als SR 946.231 definiert, der Artikel ist direkt mit diesem Gesetz verknüpft."
+  },
+  {
+    "ITEM": 8,
+    "ARTICLE_EID": "art_6",
+    "TARGET_SR": "SR 946.231",
+    "assigned_articles": [
+      "Art. 10"
+    ],
+    "confidence": "high",
+    "reasoning": "«wird nach Artikel 10 EmbG bestraft»; EmbG verweist gemäss Präambel auf SR 946.231, somit klare Artikelzuordnung."
+  },
+  {
+    "ITEM": 9,
+    "ARTICLE_EID": "art_6",
+    "TARGET_SR": "SR 946.231",
+    "assigned_articles": [
+      "Art. 9",
+      "Art. 10"
+    ],
+    "confidence": "high",
+    "reasoning": "«Verstösse nach den Artikeln 9 und 10 EmbG» nennt beide Artikel ausdrücklich im Zusammenhang mit EmbG (SR 946.231)."
+  }
+]

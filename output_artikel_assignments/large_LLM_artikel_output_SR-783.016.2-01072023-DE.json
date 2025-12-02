@@ -1,0 +1,33 @@
+[
+  {
+    "Item": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 783.01",
+    "assigned_articles": [
+      "Art. 61 Abs. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet explicitly cites 'Artikel 61 Absatz 3 der Postverordnung ... SR 783.01 (VPG)'; Art. 61 Abs. 3 is directly and grammatically linked to SR 783.01."
+  },
+  {
+    "Item": 2,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 783.01",
+    "assigned_articles": [
+      "Art. 3",
+      "Art. 8"
+    ],
+    "confidence": "high",
+    "reasoning": "The text states '(Art. 3 und 8 VPG)'; both article numbers are immediately followed by the acronym VPG, which the preamble maps to SR 783.01, so both belong to that SR."
+  },
+  {
+    "Item": 3,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": "SR 783.01",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "This is a preamble_acronym item where 'PostCom' (mapped in the preamble to SR 783.01) is mentioned, but no specific article numbers of SR 783.01 appear in the snippet; thus it is an unspecific, general reference to the Postverordnung as a whole."
+  }
+]

@@ -1,0 +1,34 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 143.1",
+    "assigned_articles": [
+      "Art. 5 Abs. 2",
+      "Art. 15 lit. d",
+      "Art. 16"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Satz nennt ausdrücklich: 'Artikel 5 Absatz 2, 15 Buchstabe d und 16 des Ausweisgesetzes ... SR 143.1'; diese Artikel gehören daher klar zum genannten SR."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": "SR 143.11",
+    "assigned_articles": [
+      "Art. 17a"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Snippet steht: 'Die nach Artikel 17a Ausweisverordnung ... SR 143.11 vorgesehene Frist ...'; Art. 17a ist damit eindeutig dem SR 143.11 zugeordnet."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 17a"
+    ],
+    "confidence": "high",
+    "reasoning": "Dies ist eine Selbstreferenz innerhalb desselben Dokuments ('Artikel 17a Ausweisverordnung'), ohne explizite SR-Nennung. Der Artikelverweis ist bereits in ITEM 2 mit SR 143.11 verknüpft; hier bleibt es eine interne Artikelreferenz ohne neues TARGET_SR."
+  }
+]

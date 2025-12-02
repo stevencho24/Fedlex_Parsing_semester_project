@@ -1,0 +1,202 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 101",
+    "assigned_articles": [
+      "Art. 54 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Formulierung «gestützt auf Artikel 54 Absatz 1 der Bundesverfassung SR 101» verknüpft eindeutig Art. 54 Abs. 1 mit SR 101."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": "SR 351.1",
+    "assigned_articles": [
+      "Art. 3 Abs. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Snippet steht «im Sinne von Artikel 3 Absatz 3 des Rechtshilfegesetzes ... SR 351.1»; dieser Artikel ist klar dem Rechtshilfegesetz (SR 351.1) zugeordnet."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_11",
+    "TARGET_SR": "SR 514.51",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "Es wird nur «Tatbestand des Kriegsmaterialgesetzes vom 13. Dezember 1996 SR 514.51» erwähnt, ohne konkrete Artikelangabe; dies ist eine generelle Verweisung auf das Gesetz."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_11",
+    "TARGET_SR": "SR 946.202",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "Formulierung «Tatbestand des ... Güterkontrollgesetzes ... SR 946.202» ohne Artikelangabe; damit allgemeine Verweisung auf das gesamte Gesetz."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_11",
+    "TARGET_SR": "SR 732.1",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "Es heisst «Tatbestand des ... Kernenergiegesetzes ... SR 732.1» ohne Nennung einzelner Artikel; dies ist eine generelle Gesetzesverweisung."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_11",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": [
+      "Art. 120"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Text nennt ausdrücklich «Tatbestand eines Bannbruchs nach Artikel 120 des Zollgesetzes ... SR 631.0»; Art. 120 ist klar dem Zollgesetz (SR 631.0) zugeordnet."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_12",
+    "TARGET_SR": "SR 313.0",
+    "assigned_articles": [
+      "Art. 6"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet: «ist Artikel 6 des Bundesgesetzes ... SR 313.0 ... anwendbar»; Art. 6 gehört eindeutig zum Verwaltungsstrafrecht (SR 313.0)."
+  },
+  {
+    "ITEM": 8,
+    "ARTICLE_EID": "art_13",
+    "TARGET_SR": "SR 312.4",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "Es wird nur «unter Vorbehalt des Bundesgesetzes ... SR 312.4 ...» erwähnt, ohne konkrete Artikel; dies ist eine generelle Verweisung auf das Gesetz."
+  },
+  {
+    "ITEM": 9,
+    "ARTICLE_EID": "art_14",
+    "TARGET_SR": "SR 313.0",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "Formulierung «Das Bundesgesetz ... SR 313.0 ... ist anwendbar» ohne Artikelangabe; damit allgemeine Geltung des Verwaltungsstrafrechts."
+  },
+  {
+    "ITEM": 10,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«Artikel 184 Absatz 3 der Bundesverfassung» verweist auf die BV (SR 101), aber ohne explizite SR-Nennung im Snippet; im Rahmen der Regeln ohne TARGET_SR wird dies als externe, nicht zuzuordnende Verweisung behandelt, während keine Selbstverweisung auf das eigene Gesetz vorliegt."
+  },
+  {
+    "ITEM": 11,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«Verordnungen nach Artikel 2 Absatz 3» bezieht sich auf Art. 2 Abs. 3 desselben Gesetzes; keine andere SR wird genannt, daher interne Selbstverweisung."
+  },
+  {
+    "ITEM": 12,
+    "ARTICLE_EID": "art_6",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "Auch hier «Verordnungen nach Artikel 2 Absatz 3» ohne externen SR‑Bezug; dies ist ein Verweis auf Art. 2 Abs. 3 des eigenen Gesetzes."
+  },
+  {
+    "ITEM": 13,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«Verordnungen nach Artikel 2 Absatz 3» verweist wiederum auf Art. 2 Abs. 3 des gleichen Gesetzes; keine externe SR‑Nennung."
+  },
+  {
+    "ITEM": 14,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«Artikel 3 Absatz 3 des Rechtshilfegesetzes ...» ist ein externer Verweis (SR 351.1), aber ohne explizite SR‑Angabe in diesem Snippet und ohne TARGET_SR; im Rahmen dieses item_typs wird er nicht einem SR zugeordnet und ist keine Selbstverweisung."
+  },
+  {
+    "ITEM": 15,
+    "ARTICLE_EID": "art_9",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«Verordnungen nach Artikel 2 Absatz 3» verweist intern auf Art. 2 Abs. 3 desselben Gesetzes; keine andere SR genannt."
+  },
+  {
+    "ITEM": 16,
+    "ARTICLE_EID": "art_10",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«nach den Artikeln 3 und 4 Absatz 1» bezieht sich auf Art. 3 und 4 Abs. 1 des eigenen Gesetzes; es wird kein anderes Gesetz erwähnt."
+  },
+  {
+    "ITEM": 17,
+    "ARTICLE_EID": "art_10",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«unter Hinweis auf die Strafdrohung dieses Artikels» ist eine Selbstverweisung auf Art. 10 selbst; keine externe SR‑Nennung."
+  },
+  {
+    "ITEM": 18,
+    "ARTICLE_EID": "art_11",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«Artikel 120 des Zollgesetzes» ist ein externer Verweis (SR 631.0), aber ohne explizite SR‑Angabe in diesem Snippet und ohne TARGET_SR; zusätzlich «Absatz 1 bleibt vorbehalten» verweist intern auf Abs. 1 von Art. 11."
+  },
+  {
+    "ITEM": 19,
+    "ARTICLE_EID": "art_12",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«Artikel 6 des Bundesgesetzes ... über das Verwaltungsstrafrecht» ist ein externer Verweis (SR 313.0), aber ohne SR‑Angabe und ohne TARGET_SR; keine Selbstverweisung auf andere Artikel des eigenen Gesetzes."
+  },
+  {
+    "ITEM": 20,
+    "ARTICLE_EID": "art_16",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«Verordnungen nach Artikel 2 Absatz 3» verweist wiederum auf Art. 2 Abs. 3 des gleichen Gesetzes; es wird kein anderes Gesetz genannt."
+  }
+]

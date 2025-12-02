@@ -1,0 +1,34 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 101",
+    "assigned_articles": [
+      "Art. 54 Abs. 1",
+      "Art. 166 Abs. 2",
+      "Art. 141 Abs. 1 Bst. d Ziff. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "In the preamble snippet, the Bundesverfassung (SR 101) is explicitly cited together with Art. 54 Abs. 1 and Art. 166 Abs. 2. Additionally, Art. 141 Abs. 1 Bst. d Ziff. 3 BV is referenced in Artikel 4 (ITEM 3) as the constitutional basis for the referendum; this is also a reference to SR 101 and must be included because the preamble SR reference applies to the whole act."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 0.672.931.41",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet refers to the Abkommen SR 0.672.931.41 as a whole (the double taxation agreement) without mentioning any specific article or paragraph; it is a blanket approval of a protocol amending the agreement, so the citation is to the entire document."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": "SR 101",
+    "assigned_articles": [
+      "Art. 141 Abs. 1 Bst. d Ziff. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "Artikel 4 explicitly mentions 'Artikel 141 Absatz 1 Buchstabe d Ziffer 3 der Bundesverfassung'; the Bundesverfassung is SR 101, so this is a direct reference to Art. 141 Abs. 1 Bst. d Ziff. 3 SR 101 rather than an internal self-reference."
+  }
+]

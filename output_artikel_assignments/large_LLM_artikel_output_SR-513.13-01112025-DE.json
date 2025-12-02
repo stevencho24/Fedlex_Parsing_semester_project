@@ -1,0 +1,51 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 513.1",
+    "assigned_articles": [
+      "Art. 4 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Formulierung «gestützt auf Artikel 4 Absatz 2 der Armeeorganisation … SR 513.1» verknüpft den genannten Artikel syntaktisch eindeutig mit SR 513.1."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 510.10",
+    "assigned_articles": [
+      "Art. 103 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Passage «… und Artikel 103 Absatz 1 des Militärgesetzes … SR 510.10» ordnet Art. 103 Abs. 1 klar dem Militärgesetz (SR 510.10) zu."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_6",
+    "TARGET_SR": "SR 512.21",
+    "assigned_articles": "General reference - entire document",
+    "confidence": "medium",
+    "reasoning": "Es wird nur «nach der Verordnung vom 22. November 2017 SR 512.21 über die Militärdienstpflicht (VMDP)» erwähnt, ohne konkrete Artikelangabe; daher handelt es sich um eine generelle Verweisgrundlage."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_8",
+    "TARGET_SR": "SR 512.21",
+    "assigned_articles": [
+      "Art. 47",
+      "Art. 55 Abs. 4"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Satz «in Abweichung von Artikel 47 und 55 Absatz 4 VMDP SR 512.21» werden die Artikel 47 und 55 Abs. 4 ausdrücklich mit der VMDP (SR 512.21) verknüpft."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Interner Verweis innerhalb des aktuellen Dokuments auf Art. 6"
+    ],
+    "confidence": "high",
+    "reasoning": "«Personen nach Artikel 6 des Militärgesetzes vom 3. Februar 1995» nennt zwar das Militärgesetz, aber ohne SR-Nummer; im Kontext eines artikel_reference-Eintrags ohne TARGET_SR ist dies als Selbstverweis auf Art. 6 der vorliegenden Verordnung zu verstehen, nicht als SR-Link."
+  }
+]

@@ -1,0 +1,42 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 173.41",
+    "assigned_articles": [
+      "Art. 20 Abs. 3 Bst. a"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet explicitly cites 'Artikel 20 Absatz 3 Buchstabe a des Patentgerichtsgesetzes ... SR 173.41 (PatGG)'; this article reference is syntactically and semantically linked to SR 173.41."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 173.413.2",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "The text refers generally to 'das Reglement vom 28. September 2011 SR 173.413.2 über die Prozesskosten beim Bundespatentgericht' without mentioning any specific article or annex; thus it is a general reference to the whole regulation."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": "SR 152.3",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet states 'Für Dienstleistungen im Rahmen des Öffentlichkeitsgesetzes ... SR 152.3 findet der Tarif in Anhang 1 der Öffentlichkeitsverordnung ... Anwendung.' The SR 152.3 citation designates the underlying law as a whole; no specific article of SR 152.3 is mentioned."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": "SR 152.31",
+    "assigned_articles": [
+      "Anhang 1"
+    ],
+    "confidence": "high",
+    "reasoning": "The sentence specifies that 'der Tarif in Anhang 1 der Öffentlichkeitsverordnung ... SR 152.31 Anwendung' findet. The only concretely identified structural unit of SR 152.31 is Annex 1; no individual articles are cited."
+  }
+]

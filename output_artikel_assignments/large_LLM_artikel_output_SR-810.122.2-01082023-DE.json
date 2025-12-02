@@ -1,0 +1,198 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 810.12",
+    "assigned_articles": [
+      "Art. 53 Abs. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet explicitly cites 'Artikel 53 Absatz 3 ... SR 810.12 ... (GUMG)'; this article and paragraph clearly belong to SR 810.12."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": "SR 363",
+    "assigned_articles": [
+      "Art. 8 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "The text states 'nach Artikel 8 Absatz 1 des DNA-Profil-Gesetzes ... SR 363'; Art. 8 Abs. 1 is directly and syntactically linked to SR 363."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": "SR 946.512",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "medium",
+    "reasoning": "The citation 'gemäss der Akkreditierungs- und Bezeichnungsverordnung vom 17. Juni 1996 SR 946.512' refers to the ordinance as a whole; no specific article of SR 946.512 is mentioned in the snippet."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_20",
+    "TARGET_SR": "SR 946.513.7",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "medium",
+    "reasoning": "The phrase 'nach der Verordnung vom 10. März 2006 SR 946.513.7 über die Gebühren ...' cites the entire fees ordinance; no article number is given or implied."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_20",
+    "TARGET_SR": "SR 172.041.1",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "medium",
+    "reasoning": "The sentence 'Im Übrigen gilt die Allgemeine Gebührenverordnung vom 8. September 2004 SR 172.041.1.' applies the general fees ordinance as a whole; no specific article is referenced."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 810.12",
+    "assigned_articles": [
+      "Art. 47",
+      "Art. 48",
+      "Art. 49",
+      "Art. 50",
+      "Art. 51",
+      "Art. 52",
+      "Art. 53"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet refers to 'nach den Artikeln 47–53 GUMG'; GUMG is SR 810.12 per the preamble. The range 47–53 is interpreted as the consecutive articles 47 through 53 of SR 810.12."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_12_b",
+    "TARGET_SR": "SR 810.12",
+    "assigned_articles": [
+      "Art. 48 Abs. 1 lit. b"
+    ],
+    "confidence": "high",
+    "reasoning": "The text defines 'Nächste Angehörige nach Artikel 48 Absatz 1 Buchstabe b GUMG'; this clearly points to Art. 48 para. 1 letter b of GUMG (SR 810.12)."
+  },
+  {
+    "ITEM": 8,
+    "ARTICLE_EID": "art_18",
+    "TARGET_SR": "SR 810.12",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "medium",
+    "reasoning": "The phrase 'gegen die Pflichten ... nach dem GUMG' refers generically to obligations under GUMG (SR 810.12) without specifying particular articles; no article numbers are present in the snippet."
+  },
+  {
+    "ITEM": 9,
+    "ARTICLE_EID": "art_19",
+    "TARGET_SR": "SR 810.12",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "medium",
+    "reasoning": "The SAS must report 'Verstösse gegen die Pflichten ... nach dem GUMG'; this is a general reference to duties under GUMG (SR 810.12) with no specific article cited."
+  },
+  {
+    "ITEM": 10,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "This artikel_reference repeats the internal text of Art. 1 and mentions 'Artikeln 47–53 GUMG' but has no SR context attached in this item; it is an internal cross-reference already captured via the preamble_acronym item 6, so it is treated as a self-reference within the current document rather than a new SR link."
+  },
+  {
+    "ITEM": 11,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet cites 'Artikel 8 Absatz 1 des DNA-Profil-Gesetzes' and 'Artikel 53 Absatz 1 GUMG' but this item_type is artikel_reference without TARGET_SR; these references are already handled in SR_link_detection (item 2) and preamble_acronym logic, so here it functions as an internal structural reference."
+  },
+  {
+    "ITEM": 12,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "The phrase 'für einen der Geltungsbereiche nach Artikel 5' clearly refers to Art. 5 of the same ordinance; no external SR is mentioned in this item, so it is a self-reference."
+  },
+  {
+    "ITEM": 13,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "The text 'nach Artikel 6 erforderliche Ausbildung' refers to Art. 6 of the current document; there is no SR citation, so this is an internal cross-reference."
+  },
+  {
+    "ITEM": 14,
+    "ARTICLE_EID": "art_6",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "The mention of 'Geltungsbereich von Artikel 5 Buchstabe a' points to Art. 5 lit. a of the same ordinance; no external SR is involved."
+  },
+  {
+    "ITEM": 15,
+    "ARTICLE_EID": "art_6",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "Similarly, 'Geltungsbereich von Artikel 5 Buchstabe b' is a reference to Art. 5 lit. b of this ordinance; it is an internal structural reference only."
+  },
+  {
+    "ITEM": 16,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet cites 'Akkreditierung nach Artikel 4 Absatz 1 Buchstabe a'; this clearly refers to Art. 4 para. 1 lit. a of the same document, with no external SR context."
+  },
+  {
+    "ITEM": 17,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "The phrase 'Voraussetzungen nach Artikel 6' is an internal reference to Art. 6 of this ordinance; no SR link is present."
+  },
+  {
+    "ITEM": 18,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "The text 'Konzept nach Artikel 16b Absatz 3' refers to Art. 16b para. 3 of the same ordinance; again, no external SR is cited."
+  },
+  {
+    "ITEM": 19,
+    "ARTICLE_EID": "art_12_a",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "The requirement that documentation be attached 'dem Gutachten nach Artikel 16' is a reference to Art. 16 of this ordinance; it is purely an internal cross-reference without any SR link."
+  }
+]

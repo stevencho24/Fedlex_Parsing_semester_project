@@ -1,0 +1,52 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 944.0",
+    "assigned_articles": [
+      "Art. 13"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet explicitly states 'gestützt auf Artikel 13 des Bundesgesetzes ... SR 944.0', directly linking Art. 13 to SR 944.0."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "The reference 'Artikel 5 Absatz 1 KIG' clearly points to Art. 5 Abs. 1 of the external law KIG (SR 944.0), but this item is of type 'artikel_reference' without TARGET_SR and serves to capture self-references within the current ordinance; per instructions, such external linkage is handled in SR_link_detection/preamble_acronym items, so this is treated as an internal structural reference for this document."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_4_a",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "The phrase 'Konsumentenorganisationen nach Artikel 1 Absatz 1' refers to Art. 1 Abs. 1 of the same ordinance; no SR is mentioned in the snippet, so this is an internal cross-reference."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "The wording 'Konsumentenorganisationen im Sinne von Artikel 1 Absatz 1' is a classic internal reference to Art. 1 Abs. 1 of the same ordinance; no external SR context is present."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "The reference 'Organisationen nach Artikel 2' points to Art. 2 of the same ordinance; there is no SR citation or acronym linking it to another SR document, so it is an internal article cross-reference."
+  }
+]

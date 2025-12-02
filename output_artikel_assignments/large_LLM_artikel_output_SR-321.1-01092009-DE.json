@@ -1,0 +1,34 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 101",
+    "assigned_articles": [
+      "Art. 60 Abs. 1",
+      "Art. 121 Abs. 1",
+      "Art. 123 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet explicitly cites 'Artikel 60 Absatz 1, 121 Absatz 1 und 123 Absatz 1 der Bundesverfassung SR 101'; these articles are directly and syntactically linked to SR 101."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "The phrase 'im Zusammenhang mit Handlungen nach Artikel 2' contains no SR reference and clearly refers to another article of the same act; per rules this is a self-reference, not an external SR link."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "The wording 'Handlungen nach Artikel 2' again appears without any SR citation and functions as an internal cross-reference within the same statute, so it is not assigned to an external SR."
+  }
+]

@@ -1,0 +1,170 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 414.110.37",
+    "assigned_articles": [
+      "Art. 3 Abs. 1 Bst. b"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Formulierung «gestützt auf Artikel 3 Absatz 1 Buchstabe b der ETHZ-ETHL-Verordnung … SR 414.110.37» verweist explizit auf diesen konkreten Artikel der genannten Verordnung."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 414.133.1",
+    "assigned_articles": "General reference - entire document",
+    "confidence": "high",
+    "reasoning": "Die Doktoratsverordnung ETH Zürich (SR 414.133.1) wird nur als Ganzes erwähnt («soweit … keine abweichenden Bestimmungen enthalten sind»), ohne konkrete Artikelangabe; daher allgemeiner Verweis auf die gesamte Verordnung."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_13",
+    "TARGET_SR": "SR 414.138.1",
+    "assigned_articles": "General reference - entire document",
+    "confidence": "high",
+    "reasoning": "Die Disziplinarordnung ETH Zürich (SR 414.138.1) wird pauschal als Rechtsgrundlage für Sanktionen genannt, ohne einzelne Artikel zu spezifizieren."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_14",
+    "TARGET_SR": "SR 414.131.52",
+    "assigned_articles": [
+      "Art. 43 Abs. 6"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Satz nennt ausdrücklich «Artikel 43 Absatz 6 der Zulassungsverordnung ETH Zürich … SR 414.131.52»; damit ist der Verweis eindeutig auf diesen Artikel beschränkt."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_15",
+    "TARGET_SR": "SR 414.131.52",
+    "assigned_articles": "General reference - entire document",
+    "confidence": "medium",
+    "reasoning": "Formulierung «Es gilt die Zulassungsverordnung ETH Zürich … SR 414.131.52» verweist auf die Verordnung als Ganzes; mangels Nennung einzelner Artikel ist keine engere Eingrenzung möglich."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_27",
+    "TARGET_SR": "SR 414.131.52",
+    "assigned_articles": [
+      "Art. 33 Bst. b"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Text nennt ausdrücklich «Artikel 33 Buchstabe b der Zulassungsverordnung ETH Zürich … SR 414.131.52»; klarer Einzelverweis."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_29",
+    "TARGET_SR": "SR 172.021",
+    "assigned_articles": [
+      "Art. 26"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Einsichtnahme richtet sich «nach Artikel 26 des Verwaltungsverfahrensgesetzes … SR 172.021»; eindeutiger Verweis auf Art. 26 VwVG."
+  },
+  {
+    "ITEM": 8,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 414.110.37",
+    "assigned_articles": "General reference - entire document",
+    "confidence": "low",
+    "reasoning": "Die Schulleitung (SR 414.110.37) wird nur als Organ genannt, das abweichende Bestimmungen erlassen kann; es werden keine konkreten Artikel dieser Verordnung zitiert. Der Bezug ist funktional, nicht artikelspezifisch."
+  },
+  {
+    "ITEM": 9,
+    "ARTICLE_EID": "art_31",
+    "TARGET_SR": "SR 414.110.37",
+    "assigned_articles": "General reference - entire document",
+    "confidence": "low",
+    "reasoning": "Die Schulleitung (SR 414.110.37) wird als Adressat eines Antrags erwähnt; es gibt keinen Hinweis auf bestimmte Artikel der ETHZ-ETHL-Verordnung."
+  },
+  {
+    "ITEM": 10,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 3",
+      "Art. 6",
+      "Art. 8–10",
+      "Art. 13",
+      "Art. 14",
+      "Art. 23",
+      "Art. 29",
+      "Art. 30"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Norm regelt die interne Geltung anderer Artikel derselben Verordnung («gelten die Artikel 3, 6, 8–10, 13, 14, 23, 29 und 30 dieser Verordnung»). Es handelt sich um reine Selbstverweise ohne Bezug zu einem externen SR-Dokument."
+  },
+  {
+    "ITEM": 11,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 9 Abs. 1",
+      "Art. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "Verweise «nach Artikel 9 Absatz 1» und «nach Artikel 3» beziehen sich auf Artikel derselben Verordnung; kein externes SR genannt, daher reine Selbstreferenzen."
+  },
+  {
+    "ITEM": 12,
+    "ARTICLE_EID": "art_9",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 10 Abs. 4"
+    ],
+    "confidence": "high",
+    "reasoning": "«so gilt Artikel 10 Absatz 4» ist ein klarer Verweis auf einen anderen Artikel derselben Verordnung; kein externer SR-Bezug."
+  },
+  {
+    "ITEM": 13,
+    "ARTICLE_EID": "art_14",
+    "TARGET_SR": "SR 414.131.52",
+    "assigned_articles": [
+      "Art. 43 Abs. 6"
+    ],
+    "confidence": "high",
+    "reasoning": "Auch ohne SR-Nummer im Snippet ist aus dem Parallelfall (ITEM 4) ersichtlich, dass «Artikel 43 Absatz 6 der Zulassungsverordnung ETH Zürich vom 30. November 2010» SR 414.131.52 meint; identischer inhaltlicher Verweis."
+  },
+  {
+    "ITEM": 14,
+    "ARTICLE_EID": "art_17",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 19"
+    ],
+    "confidence": "high",
+    "reasoning": "«Prüfung nach Artikel 19» ist ein interner Verweis auf einen Artikel derselben Verordnung; kein externes SR-Dokument im Kontext."
+  },
+  {
+    "ITEM": 15,
+    "ARTICLE_EID": "art_27",
+    "TARGET_SR": "SR 414.131.52",
+    "assigned_articles": [
+      "Art. 33 Bst. b"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Text nennt «Artikel 33 Buchstabe b der Zulassungsverordnung ETH Zürich vom 30. November 2010»; wie bei ITEM 6 ist dies eindeutig Art. 33 Bst. b SR 414.131.52."
+  },
+  {
+    "ITEM": 16,
+    "ARTICLE_EID": "art_27",
+    "TARGET_SR": "SR 414.131.52",
+    "assigned_articles": [
+      "Art. 43 Abs. 7"
+    ],
+    "confidence": "high",
+    "reasoning": "«Vorbehalten bleibt … nach Artikel 43 Absatz 7 der Zulassungsverordnung ETH Zürich vom 30. November 2010» verweist klar auf Art. 43 Abs. 7 SR 414.131.52."
+  },
+  {
+    "ITEM": 17,
+    "ARTICLE_EID": "art_29",
+    "TARGET_SR": "SR 172.021",
+    "assigned_articles": [
+      "Art. 26"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Wortlaut entspricht inhaltlich ITEM 7 («Artikel 26 des Verwaltungsverfahrensgesetzes vom 20. Dezember 1968»); dies ist Art. 26 SR 172.021."
+  }
+]

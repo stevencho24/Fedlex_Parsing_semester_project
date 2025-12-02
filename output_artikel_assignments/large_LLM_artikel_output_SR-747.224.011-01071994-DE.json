@@ -1,0 +1,82 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 0.747.203",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "high",
+    "reasoning": "The snippet cites the convention as a whole ('Übereinkommen ... über die Eichung von Binnenschiffen (Übereinkommen)') without specifying any article or annex; thus it is a general reference to SR 0.747.203."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 747.11",
+    "assigned_articles": ["Art. 66 Abs. 2"],
+    "confidence": "high",
+    "reasoning": "The text 'gestützt auf Artikel 66 Absatz 2 des Bundesgesetzes vom 28. September 1923 SR 747.11' directly links Art. 66 Abs. 2 to SR 747.11; this is an explicit prepositional attribution."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 747.201",
+    "assigned_articles": ["Art. 56"],
+    "confidence": "high",
+    "reasoning": "The authorial note states 'Der genannten Bestimmung entspricht heute Art. 56 des BG vom 3. Okt. 1975 über die Binnenschifffahrt (SR 747.201).'; Art. 56 is explicitly tied to SR 747.201."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": "SR 170.512.1",
+    "assigned_articles": ["Art. 16 Abs. 3"],
+    "confidence": "high",
+    "reasoning": "The note reads 'in Anwendung von Art. 16 Abs. 3 der Publikationsverordnung ... (SR 170.512.1)'; Art. 16 Abs. 3 is explicitly attributed to SR 170.512.1."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 0.747.203",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "high",
+    "reasoning": "Art. 1 states that for the calibration of certain ships 'die Bestimmungen des Übereinkommens und seiner Anlage und Anhänge ... Anwendung' finden; this invokes the convention and its annexes in general, without pinpointing specific articles."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": "SR 0.747.203",
+    "assigned_articles": ["Anhang 1"],
+    "confidence": "high",
+    "reasoning": "The snippet requires that the calibration certificate correspond to 'dem Muster in Anhang 1 zum Übereinkommen'; this is a specific reference to Annex 1 of SR 0.747.203 rather than to numbered articles."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_6",
+    "TARGET_SR": "SR 0.747.203",
+    "assigned_articles": ["Anlage Art. 4", "Anlage Art. 5"],
+    "confidence": "high",
+    "reasoning": "The text mentions fees 'nach Artikel 4 der Anlage zum Übereinkommen' and 'nach Artikel 5 der Anlage zum Übereinkommen'; these are clearly Art. 4 and Art. 5 of the Annex (Anlage) to SR 0.747.203."
+  },
+  {
+    "ITEM": 8,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "high",
+    "reasoning": "The phrase 'der in Artikel 1 genannten Schiffe' refers to Art. 1 of the same ordinance; no external SR or acronym context is present, so this is a self-reference within the current document."
+  },
+  {
+    "ITEM": 9,
+    "ARTICLE_EID": "art_6",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "high",
+    "reasoning": "The line 'für die Eichung und Nacheichung nach Artikel 4 der Anlage zum Übereinkommen' repeats the internal reference already linked via the preamble acronym item; syntactically it is an internal cross-reference within the fee provision, not a new SR link."
+  },
+  {
+    "ITEM": 10,
+    "ARTICLE_EID": "art_6",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "high",
+    "reasoning": "Similarly, 'nach Artikel 5 der Anlage zum Übereinkommen' is an internal cross-reference within the same ordinance’s fee rule; the external SR linkage to the convention is already captured in the preamble_acronym item."
+  }
+]

@@ -1,0 +1,60 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 916.20",
+    "assigned_articles": [
+      "Art. 3 lit. b",
+      "Art. 5 Abs. 2",
+      "Art. 16",
+      "Art. 22",
+      "Art. 23",
+      "Art. 31 Abs. 1",
+      "Art. 32",
+      "Art. 34",
+      "Art. 36"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Präambel nennt ausdrücklich: «gestützt auf die Artikel 3 Buchstabe b, 5 Absatz 2, 16, 22, 23, 31 Absatz 1, 32, 34 und 36 der Pflanzengesundheitsverordnung … SR 916.20 (PGesV)»; alle genannten Artikel gehören daher zu SR 916.20."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": "SR 916.201",
+    "assigned_articles": [
+      "Anhang 1"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Satz wird nur «nach Anhang 1 der Verordnung … SR 916.201» genannt; es werden keine Artikel dieser Verordnung erwähnt. Der relevante Bezug ist daher der Anhang 1 der SR 916.201."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_5_a",
+    "TARGET_SR": "SR 916.201",
+    "assigned_articles": [
+      "Anhang 7"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Kontext spricht von «Erfüllung der in Anhang 7 PGesV-WBF-UVEK SR 916.201 festgelegten Voraussetzungen»; damit wird spezifisch Anhang 7 der SR 916.201 referenziert, ohne Nennung einzelner Artikel."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_5_a",
+    "TARGET_SR": "SR 916.20",
+    "assigned_articles": [
+      "Allgemeiner Verweis – gesamtes Dokument"
+    ],
+    "confidence": "medium",
+    "reasoning": "Die Stelle erwähnt nur das Kürzel «PGesV» (SR 916.20) im Zusammenhang mit der Bezeichnung «PGesV-WBF-UVEK», ohne konkrete Artikel- oder Anhangsangabe der PGesV; daher ist nur ein allgemeiner Dokumentverweis erkennbar."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_6",
+    "TARGET_SR": "SR 916.20",
+    "assigned_articles": [
+      "Allgemeiner Verweis – gesamtes Dokument"
+    ],
+    "confidence": "low",
+    "reasoning": "Der Satz nennt «Verordnung des BLW …»; das Kürzel BLW ist im Präambel-Callback mit SR 916.20 verknüpft, jedoch ohne konkrete Artikelangabe. Inhaltlich dürfte es sich eher um eine BLW-Verordnung handeln, nicht um einzelne Artikel der PGesV; mangels klarer Artikelzuordnung wird ein allgemeiner Verweis auf SR 916.20 angenommen."
+  }
+]

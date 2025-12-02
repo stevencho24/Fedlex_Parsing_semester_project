@@ -1,0 +1,40 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 172.010",
+    "assigned_articles": [
+      "Art. 8",
+      "Art. 9 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Formulierung «gestützt auf die Artikel 8 und 9 Absatz 1 des Regierungs- und Verwaltungsorganisationsgesetzes ... SR 172.010» verknüpft die genannten Artikel syntaktisch eindeutig mit SR 172.010."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 172.010.1",
+    "assigned_articles": [
+      "Art. 11 lit. c",
+      "Art. 30 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Passage «in Ausführung der Artikel 11 Buchstabe c und 30 Absatz 1 der Regierungs- und Verwaltungsorganisationsverordnung ... SR 172.010.1» ordnet diese Artikel klar der genannten Verordnung SR 172.010.1 zu."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "«Artikel 2 Absatz 1 Buchstabe b und Artikel 4 dieser Verordnung» sind reine Selbstverweise innerhalb derselben Verordnung; es wird kein externes SR genannt. Daher kein TARGET_SR und keine Zuweisung zu einem externen SR."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Der Verweis «Artikel 4 Absatz 1 Buchstabe c» erfolgt ohne Nennung eines SR-Dokuments und bezieht sich syntaktisch auf «dieser Verordnung». Es handelt sich um eine interne Artikelverweisung, nicht um einen Link zu einem anderen SR."
+  }
+]

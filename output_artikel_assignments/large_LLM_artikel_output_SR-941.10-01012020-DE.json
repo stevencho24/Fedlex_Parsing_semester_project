@@ -1,0 +1,54 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 101",
+    "assigned_articles": [
+      "Art. 99",
+      "Art. 122 Abs. 1",
+      "Art. 123 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Präambel nennt ausdrücklich: «gestützt auf die Artikel 99, 122 Absatz 1 und 123 Absatz 1 der Bundesverfassung SR 101»; diese Artikel gehören syntaktisch klar zur Bundesverfassung (SR 101)."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_10",
+    "TARGET_SR": "SR 951.11",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Snippet wird nur auf das heutige Bundesgesetz vom 3. Okt. 2003 (SR 951.11) verwiesen («Siehe heute das BG ... (SR 951.11)»), ohne Nennung einzelner Artikel; dies ist ein allgemeiner Verweis auf das ganze Gesetz."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_11",
+    "TARGET_SR": "SR 311.0",
+    "assigned_articles": [
+      "Art. 333"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Hinweis lautet: «Fassung gemäss Art. 333 des Strafgesetzbuches (SR 311.0)»; Art. 333 ist direkt mit dem Strafgesetzbuch (SR 311.0) verknüpft und eindeutig als maßgebliche Norm genannt."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_9",
+    "TARGET_SR": "SR 941.10",
+    "assigned_articles": [
+      "Art. 8"
+    ],
+    "confidence": "high",
+    "reasoning": "«Vorbehalten bleibt Artikel 8.» bezieht sich mangels anderer SR-Nennung auf einen Artikel desselben Gesetzes (SR 941.10). Es handelt sich um eine interne Selbstverweisung auf Art. 8 dieses Gesetzes."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_11",
+    "TARGET_SR": "SR 941.10",
+    "assigned_articles": [
+      "Art. 99"
+    ],
+    "confidence": "medium",
+    "reasoning": "Der Satz verweist auf «Artikel 99 der Bundesverfassung», jedoch ohne explizite SR-Angabe. Nach den Projektregeln werden solche isolierten Artikelzitate ohne SR im Kontext des aktuellen Dokuments als Selbstverweise erfasst; zugleich ist semantisch klar, dass es sich materiell um Art. 99 BV (SR 101) handelt. Da kein SR im Snippet steht, wird der Verweis als interner Bezug im Rahmen von SR 941.10 mit der genannten Artikelnummer wiedergegeben."
+  }
+]

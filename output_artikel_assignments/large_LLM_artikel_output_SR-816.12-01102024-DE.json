@@ -1,0 +1,44 @@
+[
+  {
+    "Item": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 816.1",
+    "assigned_articles": [
+      "Art. 23a Abs. 2",
+      "Art. 24a Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Formulierung «gestützt auf Artikel 23a Absatz 2 und 24a Absatz 2 des Bundesgesetzes … SR 816.1 (EPDG)» verknüpft beide Artikel grammatikalisch eindeutig mit SR 816.1."
+  },
+  {
+    "Item": 2,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 816.1",
+    "assigned_articles": [
+      "Art. 7a Abschnitt (Gesamtabschnitt)"
+    ],
+    "confidence": "medium",
+    "reasoning": "Der Satz «… nach dem 7a. Abschnitt des EPDG» verweist auf den gesamten 7a. Abschnitt des EPDG (SR 816.1), ohne einzelne Artikel zu nennen; daher wird der Abschnitt als Ganzes referenziert."
+  },
+  {
+    "Item": 3,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 6 (interne Verweis innerhalb derselben Verordnung)"
+    ],
+    "confidence": "high",
+    "reasoning": "«e. einen Hinweis auf die Meldepflicht nach Artikel 6.» enthält keinen SR‑Verweis oder Akronymbezug; dies ist ein rein interner Artikelverweis innerhalb der vorliegenden Verordnung."
+  },
+  {
+    "Item": 4,
+    "ARTICLE_EID": "art_10",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 1–7",
+      "Art. 9"
+    ],
+    "confidence": "high",
+    "reasoning": "«Die Artikel 1–7 und 9 gelten …» verweist nur auf andere Artikel derselben Verordnung, ohne Bezug zu einem externen SR‑Dokument."
+  }
+]

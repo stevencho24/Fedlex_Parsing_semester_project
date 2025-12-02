@@ -1,0 +1,160 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 211.432.2",
+    "assigned_articles": [
+      "Art. 4 Abs. 2",
+      "Art. 5 Abs. 2",
+      "Art. 6 Abs. 1",
+      "Art. 24 Abs. 3",
+      "Art. 31 Abs. 2",
+      "Art. 36 Abs. 2–3",
+      "Art. 44 Abs. 2",
+      "Art. 46b Abs. 2",
+      "Art. 51 Abs. 3",
+      "Art. 56 Abs. 4",
+      "Art. 57a Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "Die genannten Artikel und Absätze werden direkt mit der Verordnung SR 211.432.2 (VAV) verknüpft: «…der Verordnung … SR 211.432.2 … (VAV)»."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": "SR 431.841",
+    "assigned_articles": [
+      "Art. 2 Bst. b",
+      "Art. 7 Abs. 1 Bst. a–b",
+      "Art. 7 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Satz werden explizit «Artikeln 2 Buchstabe b und 7 Absatz 1 Buchstaben a und b sowie Absatz 2 der Verordnung … SR 431.841» genannt; diese gehören eindeutig zur genannten Verordnung."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": "SR 510.620",
+    "assigned_articles": [
+      "Art. 9–11"
+    ],
+    "confidence": "high",
+    "reasoning": "Formulierung «im Sinne der Artikel 9–11 der Geoinformationsverordnung … SR 510.620» verknüpft die Artikel 9–11 klar mit der GeoIV (SR 510.620)."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_21",
+    "TARGET_SR": "SR 510.620",
+    "assigned_articles": [
+      "Art. 16 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "«Archivierungskonzept nach Artikel 16 Absatz 2 GeoIV SR 510.620»; der Artikel ist syntaktisch direkt der GeoIV zugeordnet."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": "SR 211.432.2",
+    "assigned_articles": [
+      "Art. 7"
+    ],
+    "confidence": "high",
+    "reasoning": "«Plans für das Grundbuch (Art. 7 VAV)»; VAV ist in der Präambel als SR 211.432.2 definiert, daher gehört Art. 7 zu SR 211.432.2."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_29",
+    "TARGET_SR": "SR 211.432.2",
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Die zitierten Artikel («Artikel 5 …, 61 …, 77 und 89–108») gehören zur Technischen Verordnung des VBS (TVAV), nicht zur VAV (SR 211.432.2). Die SR-Verknüpfung stammt nur aus dem VBS‑Acronym, ohne Artikelangabe zur VAV."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_31",
+    "TARGET_SR": "SR 211.432.2",
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Es wird lediglich festgestellt, dass die Technische Verordnung des VBS aufgehoben wird; keine Artikel der VAV (SR 211.432.2) werden genannt."
+  },
+  {
+    "ITEM": 8,
+    "ARTICLE_EID": "art_32",
+    "TARGET_SR": "SR 211.432.2",
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Bezug auf «Datenmodell … nach Artikel 7 und Anhang A der TVAV»; diese Normen gehören zur TVAV, nicht zur VAV (SR 211.432.2). Keine Artikelangabe zur VAV selbst."
+  },
+  {
+    "ITEM": 9,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "«Artikeln 2 … und 7 … der Verordnung vom 9. Juni 2017 über das eidgenössische Gebäude- und Wohnungsregister»; dies ist eine Selbstreferenz zur in ITEM 2 bereits mit SR 431.841 verknüpften Verordnung, kein neuer SR‑Link in diesem artikel_reference‑Eintrag."
+  },
+  {
+    "ITEM": 10,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "«(Art. 6)» bezieht sich auf einen Artikel derselben Verordnung (interne Struktur). Kein externer SR‑Bezug im Satz; daher reine Selbstreferenz."
+  },
+  {
+    "ITEM": 11,
+    "ARTICLE_EID": "art_6",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "«(Art. 13)» verweist auf einen anderen Artikel derselben Verordnung (interne Querverweisung), ohne Nennung eines SR‑Dokuments."
+  },
+  {
+    "ITEM": 12,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "«(Art. 23)» ist eine interne Verweisung innerhalb der aktuellen Verordnung; kein externer SR‑Bezug im Satz."
+  },
+  {
+    "ITEM": 13,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "«Artikel 9–11 der Geoinformationsverordnung … (GeoIV)» ist eine inhaltlich identische Selbstreferenz zu ITEM 3, wo bereits SR 510.620 zugeordnet wurde. Dieser artikel_reference‑Eintrag erzeugt keinen eigenen SR‑Link."
+  },
+  {
+    "ITEM": 14,
+    "ARTICLE_EID": "art_20",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "«Instrument nach Artikel 11 Absatz 1» verweist auf einen Artikel derselben Verordnung; kein SR‑Dokument wird genannt, somit interne Selbstreferenz."
+  },
+  {
+    "ITEM": 15,
+    "ARTICLE_EID": "art_20",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "«nach Artikel 5 Absatz 1 Buchstabe c» ist eine interne Verweisung innerhalb der Verordnung; es fehlt jeder Bezug zu einem externen SR‑Dokument."
+  },
+  {
+    "ITEM": 16,
+    "ARTICLE_EID": "art_26",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "«(Art. 6 Bst. d)» verweist auf einen anderen Artikel derselben Verordnung; der Standard eCH‑0131 ist kein SR‑Dokument. Daher reine Selbstreferenz."
+  },
+  {
+    "ITEM": 17,
+    "ARTICLE_EID": "art_27",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "«im vereinfachten Geodatenmodell (Art. 13)» ist eine interne Verweisung auf Art. 13 derselben Verordnung; kein externer SR‑Bezug vorhanden."
+  }
+]

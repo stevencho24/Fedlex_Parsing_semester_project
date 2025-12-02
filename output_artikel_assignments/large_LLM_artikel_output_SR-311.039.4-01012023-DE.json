@@ -1,0 +1,62 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 311.0",
+    "assigned_articles": [
+      "Art. 386 Abs. 4"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Formulierung «gestützt auf Artikel 386 Absatz 4 des Strafgesetzbuchs SR 311.0» verknüpft eindeutig den genannten Artikel mit dem Strafgesetzbuch (SR 311.0)."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": "SR 616.1",
+    "assigned_articles": [
+      "Art. 13 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Satz «gestützt auf Artikel 13 Absatz 2 des Subventionsgesetzes vom 5. Oktober 1990 SR 616.1 (SuG)» wird Art. 13 Abs. 2 ausdrücklich dem Subventionsgesetz SR 616.1 zugeordnet."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_9",
+    "TARGET_SR": "SR 616.1",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "«Das Verfahren ... richtet sich nach den Bestimmungen des SuG SR 616.1.» verweist allgemein auf das gesamte Subventionsgesetz, ohne bestimmte Artikel zu nennen."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Stelle «Artikel 13 Absatz 2 des Subventionsgesetzes ... (SuG)» ist bereits in ITEM 2 als Verweis auf SR 616.1 erfasst; hier liegt derselbe externe Verweis vor, aber ohne explizite SR-Nennung im Snippet. Gemäss Vorgabe für artikel_reference und zur Vermeidung von Doppelzuordnung wird dies als interner Verweis im aktuellen Dokument behandelt."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_9",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "medium",
+    "reasoning": "«einer Verfügung nach Artikel 16 Absatz 1 SuG» verweist auf Art. 16 Abs. 1 des Subventionsgesetzes. Die SR-Nummer (SR 616.1) wird im Snippet nicht genannt; nach den Regeln für artikel_reference und mangels expliziter SR-Verknüpfung wird dies als interner Verweis im aktuellen Dokument behandelt, obwohl sachlich klar ist, dass SuG SR 616.1 meint."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_9",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "medium",
+    "reasoning": "«eines Vertrags nach Artikel 16 Absatz 2 SuG» verweist auf Art. 16 Abs. 2 des Subventionsgesetzes. Wie bei ITEM 5 fehlt im Snippet eine explizite SR-Nennung; daher wird der Verweis gemäss Vorgaben für artikel_reference als interne Verweisung im aktuellen Dokument klassifiziert."
+  }
+]

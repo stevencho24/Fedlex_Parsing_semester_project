@@ -1,0 +1,104 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 150.2",
+    "assigned_articles": [
+      "Art. 4 Abs. 3",
+      "Art. 9 Abs. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Präambel nennt ausdrücklich: 'gestützt auf die Artikel 4 Absatz 3 und 9 Absatz 3 des Bundesgesetzes ... SR 150.2'. Beide Artikel mit Absatzangaben gehören klar zum Gesetz SR 150.2."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": "SR 312.0",
+    "assigned_articles": [
+      "Art. 214 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Satz: '... nach Artikel 214 Absatz 2 der Strafprozessordnung SR 312.0 ...' wird der Artikel mit Absatz direkt der Strafprozessordnung (SR 312.0) zugeordnet."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_10",
+    "TARGET_SR": "SR 235.1",
+    "assigned_articles": [
+      "Art. 38"
+    ],
+    "confidence": "high",
+    "reasoning": "Formulierung: '... richtet sich nach Artikel 38 des Datenschutzgesetzes ... SR 235.1 ...'. Artikel 38 ist grammatikalisch eindeutig dem Datenschutzgesetz SR 235.1 zugeordnet."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_10",
+    "TARGET_SR": "SR 152.1",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "medium",
+    "reasoning": "Der Satzteil mit SR 152.1 lautet: '... und nach den Vorschriften des Archivierungsgesetzes vom 26. Juni 1998 SR 152.1.' Es wird kein bestimmter Artikel des Archivierungsgesetzes genannt, sondern allgemein 'die Vorschriften'. Daher allgemeine Verweisung auf das ganze Gesetz."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 150.2",
+    "assigned_articles": [
+      "Art. 4 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Text: '... im Sinne von Artikel 4 Absatz 2 des Gesetzes wahr.' Das 'Gesetz' ist in der Präambel als SR 150.2 definiert; Artikel- und Absatzangabe sind eindeutig."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": "SR 150.2",
+    "assigned_articles": [
+      "Art. 6 Abs. 2",
+      "Art. 6 Abs. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "Formulierung: '... nach Artikel 6 Absätze 2 und 3 des Gesetzes.' Das 'Gesetz' ist SR 150.2; beide Absätze 2 und 3 von Art. 6 werden ausdrücklich genannt."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": "SR 150.2",
+    "assigned_articles": [
+      "Art. 6 Abs. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "Text: 'Zusätzlich zu den in Artikel 6 Absatz 3 des Gesetzes genannten Angaben ...'. Das 'Gesetz' ist SR 150.2; es wird nur Art. 6 Abs. 3 genannt."
+  },
+  {
+    "ITEM": 8,
+    "ARTICLE_EID": "art_6",
+    "TARGET_SR": "SR 150.2",
+    "assigned_articles": [
+      "Art. 7 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Formulierung: '... nach Artikel 7 Absatz 2 des Gesetzes ...'. Das 'Gesetz' ist SR 150.2; Artikel- und Absatzangabe sind klar."
+  },
+  {
+    "ITEM": 9,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "artikel_reference ohne SR-Kontext: '... nach Artikel 214 Absatz 2 der Strafprozessordnung ...' ist dieselbe Stelle wie bei ITEM 2, verweist aber hier nur als Strukturhinweis. Da SR 312.0 bereits über ITEM 2 erfasst ist, wird dies als interner Verweis im aktuellen Dokument behandelt, nicht als neue SR-Zuordnung."
+  },
+  {
+    "ITEM": 10,
+    "ARTICLE_EID": "art_10",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "artikel_reference spiegelt denselben Satz wie die SR_link_detection-Items 3 und 4, jedoch ohne explizite SR-Angaben. Dient der internen Strukturreferenz; die eigentlichen SR-Zuordnungen (SR 235.1 und SR 152.1) sind bereits in Items 3 und 4 abgedeckt."
+  }
+]

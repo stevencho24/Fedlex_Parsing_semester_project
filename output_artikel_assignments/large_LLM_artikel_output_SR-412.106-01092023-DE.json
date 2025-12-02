@@ -1,0 +1,249 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 101",
+    "assigned_articles": [
+      "Art. 63 Abs. 1",
+      "Art. 63a Abs. 1 zweiter Satz"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet explicitly cites 'Artikel 63 Absatz 1 und 63a Absatz 1 zweiter Satz der Bundesverfassung SR 101'; both articles are grammatically linked to SR 101."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 414.20",
+    "assigned_articles": [
+      "Art. 28 Abs. 1 Bst. a"
+    ],
+    "confidence": "high",
+    "reasoning": "Direct prepositional attribution: 'gemäss Artikel 28 Absatz 1 Buchstabe a des ... Gesetzes ... SR 414.20 (HFKG)'; article phrase clearly modifies the HFKG citation."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": "SR 412.10",
+    "assigned_articles": [
+      "Art. 1 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet: 'nach Artikel 1 Absatz 1 des Berufsbildungsgesetzes ... SR 412.10 (BBG)'; article and SR are in the same noun phrase, so Art. 1 Abs. 1 belongs to SR 412.10."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": "SR 412.10",
+    "assigned_articles": [
+      "6. Kapitel"
+    ],
+    "confidence": "high",
+    "reasoning": "Reference is to 'dem 6. Kapitel BBG SR 412.10'; no specific article numbers, but a specific chapter of SR 412.10 is cited."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": "SR 414.20",
+    "assigned_articles": [
+      "Art. 30 Abs. 1 Bst. a Ziff. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet: 'im Sinne von Artikel 30 Absatz 1 Buchstabe a Ziffer 2 HFKG SR 414.20'; article phrase directly governs the HFKG reference."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_9",
+    "TARGET_SR": "SR 220",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "Formulation 'die Bestimmungen des Obligationenrechts (OR) SR 220 sinngemäss' cites the OR as a whole without any article or chapter specification."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_10",
+    "TARGET_SR": "SR 172.220.1",
+    "assigned_articles": [
+      "Art. 32d Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet: 'im Sinne von Artikel 32d Absatz 2 des Bundespersonalgesetzes ... SR 172.220.1 (BPG)'; explicit article and paragraph tied to BPG."
+  },
+  {
+    "ITEM": 8,
+    "ARTICLE_EID": "art_14",
+    "TARGET_SR": "SR 172.220.1",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "medium",
+    "reasoning": "Text: 'unterstehen dem BPG SR 172.220.1, soweit ...'; no specific article or chapter is mentioned, so it is a general subjection to the whole BPG."
+  },
+  {
+    "ITEM": 9,
+    "ARTICLE_EID": "art_15",
+    "TARGET_SR": "SR 220",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "medium",
+    "reasoning": "Snippet: 'dem OR SR 220 unterstellen'; no article or chapter specified, indicating a general application of the OR."
+  },
+  {
+    "ITEM": 10,
+    "ARTICLE_EID": "art_16",
+    "TARGET_SR": "SR 172.220.1",
+    "assigned_articles": [
+      "Art. 32a–32m",
+      "Art. 32b Abs. 2",
+      "Art. 32d Abs. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "First sentence cites 'nach den Bestimmungen der Artikel 32a–32m BPG SR 172.220.1'; second snippet sentence (same context) mentions 'Artikel 32b Absatz 2 BPG' and 'Artikel 32d Absatz 3 BPG'. All are clearly tied to BPG/SR 172.220.1."
+  },
+  {
+    "ITEM": 11,
+    "ARTICLE_EID": "art_20",
+    "TARGET_SR": "SR 419.1",
+    "assigned_articles": [
+      "Art. 9"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet: 'nach den Grundsätzen von Artikel 9 des Bundesgesetzes ... SR 419.1 über die Weiterbildung'; direct article-to-SR linkage."
+  },
+  {
+    "ITEM": 12,
+    "ARTICLE_EID": "art_33",
+    "TARGET_SR": "SR 831.10",
+    "assigned_articles": [
+      "Art. 50c"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet: 'nach Artikel 50c des Bundesgesetzes ... SR 831.10 über die Alters- und Hinterlassenenversicherung'; explicit article reference attached to SR 831.10."
+  },
+  {
+    "ITEM": 13,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "This artikel_reference repeats the same external citation as ITEM 2 (Art. 28 Abs. 1 Bst. a HFKG) but without SR number; that article is already assigned to SR 414.20 in ITEM 2. Here it functions as the SR link itself and does not introduce a new SR assignment."
+  },
+  {
+    "ITEM": 14,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Repeats the same wording as ITEM 3 ('Artikel 1 Absatz 1 des Berufsbildungsgesetzes ... (BBG)'); the linkage to SR 412.10 is already captured in ITEM 3. This is not a new SR link but the same citation without SR number."
+  },
+  {
+    "ITEM": 15,
+    "ARTICLE_EID": "art_10",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Contains 'Artikel 32d Absatz 2 des Bundespersonalgesetzes ... (BPG)', which is the same citation assigned to SR 172.220.1 in ITEM 7. As artikel_reference, it is not a separate outgoing SR link."
+  },
+  {
+    "ITEM": 16,
+    "ARTICLE_EID": "art_10",
+    "TARGET_SR": "SR 412.106",
+    "assigned_articles": [
+      "Art. 19"
+    ],
+    "confidence": "high",
+    "reasoning": "Internal cross-reference: 'Abgeltung nach Artikel 19'; no external SR mentioned, so it refers to Art. 19 of the current act SR 412.106."
+  },
+  {
+    "ITEM": 17,
+    "ARTICLE_EID": "art_11",
+    "TARGET_SR": "SR 412.106",
+    "assigned_articles": [
+      "Art. 10 Abs. 2 Bst. e"
+    ],
+    "confidence": "high",
+    "reasoning": "Phrase 'Personen nach Artikel 10 Absatz 2 Buchstabe e' clearly refers to another provision within the same law; no external SR context."
+  },
+  {
+    "ITEM": 18,
+    "ARTICLE_EID": "art_12",
+    "TARGET_SR": "SR 412.106",
+    "assigned_articles": [
+      "Art. 22 Abs. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "Reference '(Art. 22 Abs. 3)' is isolated with no external SR; by default it is a self-reference within SR 412.106."
+  },
+  {
+    "ITEM": 19,
+    "ARTICLE_EID": "art_19",
+    "TARGET_SR": "SR 412.106",
+    "assigned_articles": [
+      "Art. 4 Abs. 1–3",
+      "Art. 4 Abs. 5"
+    ],
+    "confidence": "high",
+    "reasoning": "Text: 'Aufgaben nach Artikel 4 Absätze 1–3 und 5'; no external SR, so it points to internal Art. 4 paragraphs of the same act."
+  },
+  {
+    "ITEM": 20,
+    "ARTICLE_EID": "art_20",
+    "TARGET_SR": "SR 412.106",
+    "assigned_articles": [
+      "Art. 28"
+    ],
+    "confidence": "high",
+    "reasoning": "Reference 'gewerblichen Leistungen nach Artikel 28' is internal; no SR cited, so it is Art. 28 of SR 412.106."
+  },
+  {
+    "ITEM": 21,
+    "ARTICLE_EID": "art_20",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "This artikel_reference duplicates the external citation already handled in ITEM 11 (Art. 9 SR 419.1). As per rules, artikel_reference items that mirror an SR_link_detection do not create a new SR link."
+  },
+  {
+    "ITEM": 22,
+    "ARTICLE_EID": "art_21",
+    "TARGET_SR": "SR 412.106",
+    "assigned_articles": [
+      "Art. 28"
+    ],
+    "confidence": "high",
+    "reasoning": "Phrase 'gewerbliche Leistungen nach Artikel 28' again refers internally to Art. 28 of the same law; no external SR present."
+  },
+  {
+    "ITEM": 23,
+    "ARTICLE_EID": "art_26",
+    "TARGET_SR": "SR 412.106",
+    "assigned_articles": [
+      "Art. 28"
+    ],
+    "confidence": "high",
+    "reasoning": "Text: 'gewerblichen Leistungen nach Artikel 28' with no SR; consistent with prior internal references to Art. 28 of SR 412.106."
+  },
+  {
+    "ITEM": 24,
+    "ARTICLE_EID": "art_33",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Duplicates the external citation already assigned in ITEM 12 (Art. 50c SR 831.10); as artikel_reference, it does not introduce a new SR link."
+  },
+  {
+    "ITEM": 25,
+    "ARTICLE_EID": "art_38",
+    "TARGET_SR": "SR 412.106",
+    "assigned_articles": [
+      "Art. 1–13",
+      "Art. 16–38",
+      "Art. 14",
+      "Art. 15"
+    ],
+    "confidence": "medium",
+    "reasoning": "Inkrafttretensbestimmung listing 'Artikel 1–13 und 16–38' and separately 'Artikel 14 und 15'; all clearly refer to articles of the present act SR 412.106. Represented as two ranges and two single articles."
+  }
+]

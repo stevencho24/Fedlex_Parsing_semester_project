@@ -1,0 +1,156 @@
+[
+  {
+    "Item": 1,
+    "TARGET_SR": "SR 281.1",
+    "assigned_articles": ["Art. 15"],
+    "confidence": "high",
+    "reasoning": "Die Formulierung \"in Anwendung von Artikel 15 des Schuldbetreibungs- und Konkursgesetzes SR 281.1 (SchKG)\" verknüpft eindeutig Art. 15 mit SR 281.1."
+  },
+  {
+    "Item": 2,
+    "TARGET_SR": "SR 221.229.1",
+    "assigned_articles": ["Art. 56"],
+    "confidence": "high",
+    "reasoning": "Im Satz steht \"dass er nach Artikel 56 des Bundesgesetzes ... SR 221.229.1 ... (VVG)\"; Art. 56 wird klar diesem Gesetz zugeordnet."
+  },
+  {
+    "Item": 3,
+    "TARGET_SR": "SR 221.229.1",
+    "assigned_articles": ["Art. 54"],
+    "confidence": "high",
+    "reasoning": "Die Klammer \"(Art. 54 VVG SR 221.229.1)\" weist Art. 54 ausdrücklich dem VVG (SR 221.229.1) zu."
+  },
+  {
+    "Item": 4,
+    "TARGET_SR": "SR 221.229.1",
+    "assigned_articles": ["Art. 80"],
+    "confidence": "high",
+    "reasoning": "Die Klammer \"(Art. 80 VVG SR 221.229.1)\" verknüpft Art. 80 eindeutig mit dem VVG (SR 221.229.1)."
+  },
+  {
+    "Item": 5,
+    "TARGET_SR": "SR 221.229.1",
+    "assigned_articles": ["Art. 79 Abs. 2"],
+    "confidence": "high",
+    "reasoning": "Die Passage \"(Art. 79 Abs. 2 VVG SR 221.229.1)\" ordnet Art. 79 Abs. 2 klar dem VVG zu."
+  },
+  {
+    "Item": 6,
+    "TARGET_SR": "SR 221.229.1",
+    "assigned_articles": ["Art. 79 Abs. 2", "Art. 80"],
+    "confidence": "high",
+    "reasoning": "Im Text: \"gemäss Artikel 79 Absatz 2 oder Artikel 80 VVG SR 221.229.1\"; beide Artikel werden explizit mit VVG (SR 221.229.1) verbunden."
+  },
+  {
+    "Item": 7,
+    "TARGET_SR": "SR 221.229.1",
+    "assigned_articles": ["Art. 79 Abs. 2", "Art. 80"],
+    "confidence": "high",
+    "reasoning": "Formulierung \"nach den Bestimmungen der Artikel 79 Absatz 2 und 80 VVG SR 221.229.1\" verknüpft beide Artikel mit SR 221.229.1."
+  },
+  {
+    "Item": 8,
+    "TARGET_SR": "SR 281.32",
+    "assigned_articles": ["Art. 61"],
+    "confidence": "high",
+    "reasoning": "Der Satz nennt \"Artikel 61 der Verordnung vom 13. Juli 1911 SR 281.32\"; Art. 61 gehört somit zu SR 281.32."
+  },
+  {
+    "Item": 9,
+    "TARGET_SR": "SR 221.229.1",
+    "assigned_articles": ["Art. 92"],
+    "confidence": "high",
+    "reasoning": "Die Wendung \"gemäss Artikel 92 VVG SR 221.229.1\" weist Art. 92 eindeutig dem VVG (SR 221.229.1) zu."
+  },
+  {
+    "Item": 10,
+    "TARGET_SR": "SR 221.229.1",
+    "assigned_articles": ["Art. 86"],
+    "confidence": "high",
+    "reasoning": "Im Text: \"gemäss Artikel 86 VVG SR 221.229.1\"; Art. 86 ist klar dem VVG zugeordnet."
+  },
+  {
+    "Item": 11,
+    "TARGET_SR": "SR 221.229.1",
+    "assigned_articles": ["Art. 81"],
+    "confidence": "high",
+    "reasoning": "Die Formulierung \"Die in Artikel 81 VVG SR 221.229.1 vorgesehene Bescheinigung\" verknüpft Art. 81 mit SR 221.229.1."
+  },
+  {
+    "Item": 12,
+    "TARGET_SR": "SR 281.1",
+    "assigned_articles": ["Art. 96", "Art. 116"],
+    "confidence": "high",
+    "reasoning": "Die SNIPPET-Passage nennt \"gemäss Artikel 96 SchKG\" und \"in Artikel 116 SchKG\"; SchKG ist in der Präambel als SR 281.1 definiert."
+  },
+  {
+    "Item": 13,
+    "TARGET_SR": "SR 281.1",
+    "assigned_articles": ["Art. 285ff."],
+    "confidence": "high",
+    "reasoning": "Der Text verweist auf \"Artikel 285ff. SchKG\"; SchKG ist SR 281.1, und die ff.-Angabe bezeichnet eine Artikelgruppe ab Art. 285."
+  },
+  {
+    "Item": 14,
+    "TARGET_SR": "SR 281.1",
+    "assigned_articles": ["Art. 106–108"],
+    "confidence": "high",
+    "reasoning": "Es heisst \"nach den Artikeln 106–108 SchKG\"; SchKG ist SR 281.1, und der Bereich 106–108 ist klar bezeichnet."
+  },
+  {
+    "Item": 15,
+    "TARGET_SR": "SR 281.1",
+    "assigned_articles": ["Art. 260"],
+    "confidence": "high",
+    "reasoning": "Die Passage nennt \"nach Artikel 260 SchKG\"; SchKG ist SR 281.1."
+  },
+  {
+    "Item": 16,
+    "TARGET_SR": "SR 281.1",
+    "assigned_articles": ["Art. 256"],
+    "confidence": "high",
+    "reasoning": "Im Text: \"im Sinn von Artikel 256 SchKG\"; SchKG ist SR 281.1."
+  },
+  {
+    "Item": 17,
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Artikelreferenz \"Artikel 56 ... über den Versicherungsvertrag (VVG)\"; dies ist eine Selbstreferenz zu SR 221.229.1, nicht zum eigenen SR 281.51. Da kein TARGET_SR vorliegt, wird kein SR-Link ausgegeben."
+  },
+  {
+    "Item": 18,
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Verweist auf \"Artikel 5 Absatz 2\" derselben Verordnung; reine interne Selbstreferenz ohne Bezug zu einem anderen SR."
+  },
+  {
+    "Item": 19,
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Bezug auf \"Artikel 4 Absatz 1\" der eigenen Verordnung; keine externe SR-Verknüpfung."
+  },
+  {
+    "Item": 20,
+    "TARGET_SR": "SR 281.32",
+    "assigned_articles": ["Art. 61"],
+    "confidence": "high",
+    "reasoning": "Die artikel_reference-SNIPPET wiederholt den Verweis auf \"Artikel 61 der Verordnung vom 13. Juli 1911 über die Geschäftsführung der Konkursämter\"; diese Verordnung ist SR 281.32, wie in Item 8 explizit verknüpft."
+  },
+  {
+    "Item": 21,
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Verweist auf \"Artikel 15 dieser Verordnung\"; klar interne Selbstreferenz innerhalb derselben Verordnung, kein anderes SR-Dokument."
+  },
+  {
+    "Item": 22,
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Die Formulierung \"Vorschriften der Artikel 4–11 dieser Verordnung\" zeigt eine reine interne Strukturverweisung ohne externes SR."
+  }
+]

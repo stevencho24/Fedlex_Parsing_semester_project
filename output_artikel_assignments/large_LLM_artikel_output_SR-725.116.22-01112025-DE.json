@@ -1,0 +1,188 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 725.116.2",
+    "assigned_articles": [
+      "Art. 37a Abs. 2",
+      "Art. 37b Abs. 3",
+      "Art. 37c Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet explicitly cites 'Artikel 37a Absatz 2, 37b Absatz 3 und 37c Absatz 2 ... SR 725.116.2 (MinVG)'; these articles are grammatically linked to the named SR."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 748.03",
+    "assigned_articles": "General reference - entire document",
+    "confidence": "high",
+    "reasoning": "The citation refers to the Verordnung SR 748.03 (VFAL) as a whole ('nach der Verordnung ... SR 748.03') without mentioning any specific article; no article numbers are present in the snippet."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 748.132.1",
+    "assigned_articles": [
+      "Art. 29",
+      "Art. 30"
+    ],
+    "confidence": "high",
+    "reasoning": "The text states 'nach den Artikeln 29 und 30 der Verordnung ... SR 748.132.1'; the articles are directly and syntactically linked to this SR."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": "SR 616.1",
+    "assigned_articles": "General reference - entire document",
+    "confidence": "high",
+    "reasoning": "Sentence 'Das Subventionsgesetz ... SR 616.1 ist anwendbar.' applies the entire Subventionsgesetz; no specific article is mentioned."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": "SR 748.03",
+    "assigned_articles": [
+      "Art. 4 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet explicitly mentions 'Artikel 4 Absatz 1 VFAL'; VFAL is the SR 748.03 regulation, so Art. 4 Abs. 1 is clearly tied to this SR."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 725.116.2",
+    "assigned_articles": [
+      "Art. 37a Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "Text: 'Massnahmen nach Artikel 37a Absatz 1 MinVG'; MinVG is SR 725.116.2 per preamble, and the article reference is explicitly linked to it."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": "SR 725.116.2",
+    "assigned_articles": [
+      "Art. 37a"
+    ],
+    "confidence": "high",
+    "reasoning": "Phrase 'Verteilschlüssels nach Artikel 37a MinVG' clearly ties Art. 37a of MinVG (SR 725.116.2) to the citation; no paragraph specified."
+  },
+  {
+    "ITEM": 8,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": "SR 725.116.2",
+    "assigned_articles": [
+      "Art. 37d",
+      "Art. 37e",
+      "Art. 37f"
+    ],
+    "confidence": "high",
+    "reasoning": "Both sentences refer to 'Massnahmen nach den Artikeln 37d–37f MinVG'; MinVG is SR 725.116.2, and the range 37d–37f is explicitly attributed to it."
+  },
+  {
+    "ITEM": 9,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": "SR 725.116.2",
+    "assigned_articles": [
+      "Art. 37a Abs. 3",
+      "Art. 37d",
+      "Art. 37e",
+      "Art. 37f"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet mentions 'Schwerpunkte nach Artikel 37a Absatz 3 MinVG' and 'Massnahmen nach den Artikeln 37d, 37e und 37f ... MinVG'; all are explicitly linked to MinVG (SR 725.116.2)."
+  },
+  {
+    "ITEM": 10,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "self",
+    "assigned_articles": [
+      "Art. 6",
+      "Art. 7",
+      "Art. 8",
+      "Art. 9",
+      "Art. 10 Abs. 1",
+      "Art. 10 Abs. 3",
+      "Art. 10 Abs. 4"
+    ],
+    "confidence": "high",
+    "reasoning": "No external SR is mentioned; 'Die Artikel 6, 7, 8, 9, 10 Absätze 1, 3 und 4 gelten nicht' clearly refers to internal articles of the same ordinance."
+  },
+  {
+    "ITEM": 11,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 748.132.1",
+    "assigned_articles": [
+      "Art. 29",
+      "Art. 30"
+    ],
+    "confidence": "high",
+    "reasoning": "This is the same sentence as ITEM 3 without the SR number but with 'Verordnung vom 18. Dezember 1995 über den Flugsicherungsdienst'; by context and identical wording, Art. 29 und 30 belong to that external SR 748.132.1, not to the current document."
+  },
+  {
+    "ITEM": 12,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": "SR 725.116.2",
+    "assigned_articles": [
+      "Art. 37d",
+      "Art. 37e",
+      "Art. 37f"
+    ],
+    "confidence": "high",
+    "reasoning": "The phrase 'Massnahmen nach den Artikeln 37d–37f MinVG' is an external reference to MinVG (SR 725.116.2), not internal structure; range 37d–37f is explicitly given."
+  },
+  {
+    "ITEM": 13,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": "SR 725.116.2",
+    "assigned_articles": [
+      "Art. 37d",
+      "Art. 37e",
+      "Art. 37f"
+    ],
+    "confidence": "high",
+    "reasoning": "Same external formulation 'Massnahmen nach den Artikeln 37d–37f MinVG'; again clearly pointing to MinVG (SR 725.116.2)."
+  },
+  {
+    "ITEM": 14,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": "SR 725.116.2",
+    "assigned_articles": [
+      "Art. 37a Abs. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "Sentence: 'legt die Schwerpunkte nach Artikel 37a Absatz 3 MinVG fest'; explicit external reference to MinVG (SR 725.116.2) and to Art. 37a Abs. 3."
+  },
+  {
+    "ITEM": 15,
+    "ARTICLE_EID": "art_8",
+    "TARGET_SR": "self",
+    "assigned_articles": [
+      "Art. 7 Abs. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "No SR or acronym is mentioned; 'Massnahmen nach Artikel 7 Absatz 3' is an internal cross-reference within the same ordinance."
+  },
+  {
+    "ITEM": 16,
+    "ARTICLE_EID": "art_9",
+    "TARGET_SR": "self",
+    "assigned_articles": [
+      "Art. 4",
+      "Art. 8"
+    ],
+    "confidence": "high",
+    "reasoning": "Phrase 'Anforderungen nach den Artikeln 4 und 8' lacks any external SR marker and clearly refers to other provisions of the same ordinance."
+  },
+  {
+    "ITEM": 17,
+    "ARTICLE_EID": "art_13",
+    "TARGET_SR": "self",
+    "assigned_articles": [
+      "Art. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "Reference '(Art. 3)' in parentheses with no SR or acronym; this is a self-reference to Article 3 of the same document."
+  }
+]

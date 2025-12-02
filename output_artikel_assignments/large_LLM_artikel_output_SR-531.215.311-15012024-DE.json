@@ -1,0 +1,32 @@
+[
+  {
+    "Item": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 531.215.31",
+    "assigned_articles": [
+      "Art. 4 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Formulierung «gestützt auf Artikel 4 Absatz 1 der Verordnung vom 10. Mai 2017 SR 531.215.31 …» verknüpft den genannten Artikel grammatikalisch eindeutig mit der genannten Verordnung (SR 531.215.31)."
+  },
+  {
+    "Item": 2,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": "SR 531.215.311",
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«Art. 2 Abs. 3 der Verordnung vom 10. Mai 2017 über die Pflichtlagerhaltung von Arzneimitteln» bezieht sich auf die Stammverordnung SR 531.215.31, nicht auf die vorliegende Ausführungsverordnung SR 531.215.311. Da in diesem Item kein TARGET_SR gesetzt ist und der Artikelverweis ohne SR-Angabe im Fliesstext steht, handelt es sich aus Sicht des aktuellen Dokuments um eine interne/kontextuelle Referenz, nicht um eine neue Zuordnung zu einem TARGET_SR."
+  },
+  {
+    "Item": 3,
+    "ARTICLE_EID": "art_10",
+    "TARGET_SR": "SR 531.215.311",
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Wendung «nach den Artikeln 4–7» enthält keine SR- oder Aküonym-Angabe und steht in einem rein internen Regelungskontext; sie verweist damit auf andere Artikel derselben Verordnung (SR 531.215.311). Gemäss Vorgabe sind solche isolierten Artikelangaben als Selbstverweise des aktuellen Dokuments zu behandeln."
+  }
+]

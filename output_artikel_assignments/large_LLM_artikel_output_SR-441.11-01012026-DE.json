@@ -1,0 +1,346 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 441.1",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "high",
+    "reasoning": "Preamble citation to the Sprachengesetz (SpG) without any specific article mentioned; standard blanket legal basis."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_6",
+    "TARGET_SR": "SR 172.220.111.3",
+    "assigned_articles": ["Art. 1 Abs. 1"],
+    "confidence": "high",
+    "reasoning": "Snippet explicitly refers to \"Verwaltungseinheiten nach Artikel 1 Absatz 1 der Bundespersonalverordnung\"; this article and paragraph clearly belong to the cited BPV (SR 172.220.111.3)."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": "SR 172.220.111.3",
+    "assigned_articles": ["Art. 1 Abs. 1 Bst. a", "Art. 1 Abs. 1 Bst. b"],
+    "confidence": "high",
+    "reasoning": "Formulation \"Verwaltungseinheiten nach Artikel 1 Absatz 1 Buchstaben a und b BPV\" directly ties these letters of Art. 1 Abs. 1 to the BPV (SR 172.220.111.3)."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_8",
+    "TARGET_SR": "SR 172.220.111.3",
+    "assigned_articles": ["Art. 4 Abs. 4"],
+    "confidence": "high",
+    "reasoning": "Text states \"nach Artikel 4 Absatz 4 BPV\"; this is a direct, unambiguous reference to Art. 4 Abs. 4 of SR 172.220.111.3."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_28",
+    "TARGET_SR": "SR 616.1",
+    "assigned_articles": ["Art. 13 Abs. 2"],
+    "confidence": "high",
+    "reasoning": "Snippet: \"gestützt auf Artikel 13 Absatz 2 des Subventionsgesetzes\"; the Subventionsgesetz is SR 616.1, so this clearly points to Art. 13 Abs. 2 of that act."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 441.1",
+    "assigned_articles": ["Art. 4 Abs. 2", "2. Abschnitt (systematische Verweisungen)"],
+    "confidence": "medium",
+    "reasoning": "The snippet contains an explicit parenthetical \"(Art. 4 Abs. 2 SpG)\" and multiple references to \"Fällen nach Artikel 4 Absatz 2 SpG\" and \"Bestimmungen des 2. Abschnitts SpG\". Art. 4 Abs. 2 is clearly cited; the references to the 2nd section are broader systematic references rather than to a single article."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": "SR 441.1",
+    "assigned_articles": ["Art. 7"],
+    "confidence": "high",
+    "reasoning": "Parenthetical \"(Art. 7 SpG)\" directly and exclusively links this item to Art. 7 of the Sprachengesetz."
+  },
+  {
+    "ITEM": 8,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": "SR 441.1",
+    "assigned_articles": ["Art. 11"],
+    "confidence": "high",
+    "reasoning": "Parenthetical \"(Art. 11 SpG)\" is a standard marginal note indicating that this regulatory provision is based on Art. 11 SpG."
+  },
+  {
+    "ITEM": 9,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": "SR 441.1",
+    "assigned_articles": ["Art. 12 Abs. 2"],
+    "confidence": "high",
+    "reasoning": "Snippet \"(Art. 12 Abs. 2 SpG)\" clearly and exclusively cites Art. 12 Abs. 2 of the Sprachengesetz."
+  },
+  {
+    "ITEM": 10,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": "SR 441.1",
+    "assigned_articles": ["Art. 13"],
+    "confidence": "high",
+    "reasoning": "Parenthetical \"(Art. 13 SpG)\" directly ties this provision to Art. 13 SpG."
+  },
+  {
+    "ITEM": 11,
+    "ARTICLE_EID": "art_6",
+    "TARGET_SR": "SR 441.1",
+    "assigned_articles": ["Art. 9", "Art. 20"],
+    "confidence": "high",
+    "reasoning": "Snippet \"(Art. 9 und 20 SpG)\" lists both articles with the SpG acronym; both must be assigned."
+  },
+  {
+    "ITEM": 12,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": "SR 441.1",
+    "assigned_articles": ["Art. 20 Abs. 2"],
+    "confidence": "high",
+    "reasoning": "Only the SpG part is relevant for this TARGET_SR: \"Art. 20 Abs. 2 SpG\"; the additional reference to BPG concerns a different SR and is not assigned here."
+  },
+  {
+    "ITEM": 13,
+    "ARTICLE_EID": "art_8",
+    "TARGET_SR": "SR 441.1",
+    "assigned_articles": ["Art. 20 Abs. 1"],
+    "confidence": "high",
+    "reasoning": "Again, only the SpG portion applies: \"Art. 20 Abs. 1 SpG\"; the BPG reference is external to SR 441.1."
+  },
+  {
+    "ITEM": 14,
+    "ARTICLE_EID": "art_8_a",
+    "TARGET_SR": "SR 441.1",
+    "assigned_articles": ["Art. 20 Abs. 1", "Art. 20 Abs. 2"],
+    "confidence": "high",
+    "reasoning": "Parenthetical \"(Art. 20 Abs. 1 und 2 SpG)\" explicitly includes both paragraphs; both are to be assigned."
+  },
+  {
+    "ITEM": 15,
+    "ARTICLE_EID": "art_8_b",
+    "TARGET_SR": "SR 441.1",
+    "assigned_articles": ["Art. 20 Abs. 1", "Art. 20 Abs. 2"],
+    "confidence": "high",
+    "reasoning": "Identical parenthetical \"(Art. 20 Abs. 1 und 2 SpG)\"; same assignment as for ITEM 14."
+  },
+  {
+    "ITEM": 16,
+    "ARTICLE_EID": "art_8_c",
+    "TARGET_SR": "SR 441.1",
+    "assigned_articles": ["Art. 20 Abs. 1", "Art. 20 Abs. 2"],
+    "confidence": "high",
+    "reasoning": "Same explicit reference \"(Art. 20 Abs. 1 und 2 SpG)\"; both paragraphs apply."
+  },
+  {
+    "ITEM": 17,
+    "ARTICLE_EID": "art_8_d",
+    "TARGET_SR": "SR 441.1",
+    "assigned_articles": ["Art. 20 Abs. 1", "Art. 20 Abs. 2"],
+    "confidence": "high",
+    "reasoning": "Again, \"(Art. 20 Abs. 1 und 2 SpG)\"; both paragraphs are clearly cited."
+  },
+  {
+    "ITEM": 18,
+    "ARTICLE_EID": "art_9",
+    "TARGET_SR": "SR 441.1",
+    "assigned_articles": ["Art. 14"],
+    "confidence": "high",
+    "reasoning": "Parenthetical \"(Art. 14 SpG)\" directly links to Art. 14 of the Sprachengesetz."
+  },
+  {
+    "ITEM": 19,
+    "ARTICLE_EID": "art_10",
+    "TARGET_SR": "SR 441.1",
+    "assigned_articles": ["Art. 16 Bst. a", "Art. 16 Bst. b"],
+    "confidence": "high",
+    "reasoning": "Snippet \"(Art. 16 Bst. a und b SpG)\" explicitly lists letters a and b of Art. 16; both must be assigned."
+  },
+  {
+    "ITEM": 20,
+    "ARTICLE_EID": "art_11",
+    "TARGET_SR": "SR 441.1",
+    "assigned_articles": ["Art. 16 Bst. c"],
+    "confidence": "high",
+    "reasoning": "Parenthetical \"(Art. 16 Bst. c SpG)\" clearly refers to letter c of Art. 16."
+  },
+  {
+    "ITEM": 21,
+    "ARTICLE_EID": "art_12",
+    "TARGET_SR": "SR 441.1",
+    "assigned_articles": ["Art. 17"],
+    "confidence": "high",
+    "reasoning": "Snippet \"(Art. 17 SpG)\" is a direct, unambiguous reference."
+  },
+  {
+    "ITEM": 22,
+    "ARTICLE_EID": "art_13",
+    "TARGET_SR": "SR 441.1",
+    "assigned_articles": ["Art. 18 Bst. a"],
+    "confidence": "high",
+    "reasoning": "Parenthetical \"(Art. 18 Bst. a SpG)\" clearly ties to letter a of Art. 18."
+  },
+  {
+    "ITEM": 23,
+    "ARTICLE_EID": "art_14",
+    "TARGET_SR": "SR 441.1",
+    "assigned_articles": ["Art. 18 Bst. b"],
+    "confidence": "high",
+    "reasoning": "Snippet \"(Art. 18 Bst. b SpG)\"; only this letter is cited."
+  },
+  {
+    "ITEM": 24,
+    "ARTICLE_EID": "art_15",
+    "TARGET_SR": "SR 441.1",
+    "assigned_articles": ["Art. 18 Bst. c"],
+    "confidence": "high",
+    "reasoning": "Parenthetical \"(Art. 18 Bst. c SpG)\"; direct link to that letter."
+  },
+  {
+    "ITEM": 25,
+    "ARTICLE_EID": "art_16",
+    "TARGET_SR": "SR 441.1",
+    "assigned_articles": ["Art. 19"],
+    "confidence": "high",
+    "reasoning": "Snippet \"(Art. 19 SpG)\"; straightforward assignment."
+  },
+  {
+    "ITEM": 26,
+    "ARTICLE_EID": "art_18",
+    "TARGET_SR": "SR 441.1",
+    "assigned_articles": ["Art. 22 Abs. 1 Bst. a"],
+    "confidence": "high",
+    "reasoning": "Parenthetical \"(Art. 22 Abs. 1 Bst. a SpG)\"; clearly specifies paragraph and letter."
+  },
+  {
+    "ITEM": 27,
+    "ARTICLE_EID": "art_19",
+    "TARGET_SR": "SR 441.1",
+    "assigned_articles": ["Art. 22 Abs. 1 Bst. b"],
+    "confidence": "high",
+    "reasoning": "Snippet \"(Art. 22 Abs. 1 Bst. b SpG)\"; direct reference."
+  },
+  {
+    "ITEM": 28,
+    "ARTICLE_EID": "art_20",
+    "TARGET_SR": "SR 441.1",
+    "assigned_articles": ["Art. 22 Abs. 1 Bst. c"],
+    "confidence": "high",
+    "reasoning": "Parenthetical \"(Art. 22 Abs. 1 Bst. c SpG)\"; unambiguous."
+  },
+  {
+    "ITEM": 29,
+    "ARTICLE_EID": "art_21",
+    "TARGET_SR": "SR 441.1",
+    "assigned_articles": ["Art. 22 Abs. 2"],
+    "confidence": "high",
+    "reasoning": "Snippet \"(Art. 22 Abs. 2 SpG)\"; clearly identifies the paragraph."
+  },
+  {
+    "ITEM": 30,
+    "ARTICLE_EID": "art_22",
+    "TARGET_SR": "SR 441.1",
+    "assigned_articles": ["Art. 22 Abs. 1 Bst. a", "Art. 22 Abs. 1 Bst. c"],
+    "confidence": "high",
+    "reasoning": "Parenthetical \"(Art. 22 Abs. 1 Bst. a und c SpG)\"; both letters a and c of Art. 22 Abs. 1 are cited."
+  },
+  {
+    "ITEM": 31,
+    "ARTICLE_EID": "art_23",
+    "TARGET_SR": "SR 441.1",
+    "assigned_articles": ["Art. 22 Abs. 1 Bst. b"],
+    "confidence": "high",
+    "reasoning": "Snippet \"(Art. 22 Abs. 1 Bst. b SpG)\"; direct reference."
+  },
+  {
+    "ITEM": 32,
+    "ARTICLE_EID": "art_24",
+    "TARGET_SR": "SR 441.1",
+    "assigned_articles": ["Art. 22a"],
+    "confidence": "high",
+    "reasoning": "Parenthetical \"(Art. 22a SpG)\"; clearly refers to Art. 22a."
+  },
+  {
+    "ITEM": 33,
+    "ARTICLE_EID": "art_25",
+    "TARGET_SR": "SR 441.1",
+    "assigned_articles": ["Art. 22a"],
+    "confidence": "high",
+    "reasoning": "Same parenthetical \"(Art. 22a SpG)\" as ITEM 32; same assignment."
+  },
+  {
+    "ITEM": 34,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "self",
+    "assigned_articles": ["Art. 4 Abs. 2"],
+    "confidence": "high",
+    "reasoning": "This is an artikel_reference without an external SR; \"Artikel 4 Absatz 2 SpG\" refers to Art. 4 Abs. 2 of the same act (SR 441.11’s parent SpG context). As no separate TARGET_SR is given here, it is treated as an internal/self-reference within the governing SpG framework."
+  },
+  {
+    "ITEM": 35,
+    "ARTICLE_EID": "art_6",
+    "TARGET_SR": "SR 172.220.111.3",
+    "assigned_articles": ["Art. 1 Abs. 1"],
+    "confidence": "high",
+    "reasoning": "This artikel_reference repeats the same sentence as ITEM 2; \"Artikel 1 Absatz 1 der Bundespersonalverordnung\" is already contextually tied to SR 172.220.111.3 and is not a self-reference."
+  },
+  {
+    "ITEM": 36,
+    "ARTICLE_EID": "art_8",
+    "TARGET_SR": "self",
+    "assigned_articles": ["Art. 6 Abs. 1"],
+    "confidence": "high",
+    "reasoning": "\"Die Arbeitgeber nach Artikel 6 Absatz 1\" clearly refers to Art. 6 Abs. 1 of the same ordinance (internal cross-reference); no external SR is mentioned in this syntactic unit."
+  },
+  {
+    "ITEM": 37,
+    "ARTICLE_EID": "art_8_d",
+    "TARGET_SR": "self",
+    "assigned_articles": ["Art. 7 Abs. 1"],
+    "confidence": "high",
+    "reasoning": "\"Verwaltungseinheiten nach Artikel 7 Absatz 1\" is an internal reference to Art. 7 Abs. 1 of the same document; no external SR context is present."
+  },
+  {
+    "ITEM": 38,
+    "ARTICLE_EID": "art_8_d",
+    "TARGET_SR": "self",
+    "assigned_articles": ["Art. 7 Abs. 1"],
+    "confidence": "high",
+    "reasoning": "Again, \"Verwaltungseinheiten nach Artikel 7 Absatz 1\" appears without any external SR; this is a self-reference within the same ordinance."
+  },
+  {
+    "ITEM": 39,
+    "ARTICLE_EID": "art_8_d",
+    "TARGET_SR": "self",
+    "assigned_articles": ["Art. 6–8"],
+    "confidence": "high",
+    "reasoning": "The phrase \"Umsetzung der Artikel 6–8 innerhalb ihrer Verwaltungseinheiten\" is a pure internal cross-reference to the range of articles 6 to 8 of the same document."
+  },
+  {
+    "ITEM": 40,
+    "ARTICLE_EID": "art_15",
+    "TARGET_SR": "self",
+    "assigned_articles": ["Art. 14 Abs. 1"],
+    "confidence": "high",
+    "reasoning": "\"im Sinne von Artikel 14 Absatz 1\" refers to Art. 14 Abs. 1 of the same ordinance; no external SR is mentioned, so this is an internal reference."
+  },
+  {
+    "ITEM": 41,
+    "ARTICLE_EID": "art_16",
+    "TARGET_SR": "self",
+    "assigned_articles": ["Art. 14"],
+    "confidence": "high",
+    "reasoning": "\"Finanzhilfen nach Artikel 14\" clearly points to Art. 14 of the same document; syntactically isolated from any SR citation."
+  },
+  {
+    "ITEM": 42,
+    "ARTICLE_EID": "art_27",
+    "TARGET_SR": "self",
+    "assigned_articles": ["Art. 10", "Art. 11"],
+    "confidence": "high",
+    "reasoning": "\"Förderung nach den Artikeln 10 und 11\" is an internal reference to articles 10 and 11 of the same ordinance; no external SR is present in the sentence."
+  },
+  {
+    "ITEM": 43,
+    "ARTICLE_EID": "art_28",
+    "TARGET_SR": "SR 616.1",
+    "assigned_articles": ["Art. 13 Abs. 2"],
+    "confidence": "high",
+    "reasoning": "This artikel_reference sentence is the same as ITEM 5 but without the explicit SR number; \"Artikel 13 Absatz 2 des Subventionsgesetzes\" is contextually the same external reference to SR 616.1, Art. 13 Abs. 2, not a self-reference."
+  }
+]

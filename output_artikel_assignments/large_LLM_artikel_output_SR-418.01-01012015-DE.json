@@ -1,0 +1,222 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 418.0",
+    "assigned_articles": [
+      "Art. 7 Abs. 3 zweiter Satz",
+      "Art. 8 Abs. 4",
+      "Art. 10 Abs. 5",
+      "Art. 15 Abs. 2",
+      "Art. 20 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "Die genannten Artikel und Absätze werden ausdrücklich als Rechtsgrundlage des Schweizerschulengesetzes (SSchG, SR 418.0) aufgeführt."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": "SR 616.1",
+    "assigned_articles": [
+      "Art. 13 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Formulierung „gestützt auf Artikel 13 Absatz 2 des Subventionsgesetzes … SR 616.1“ verknüpft eindeutig Art. 13 Abs. 2 mit SR 616.1."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_16",
+    "TARGET_SR": "SR 831.40",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "medium",
+    "reasoning": "Es wird nur das Bundesgesetz über die berufliche Alters-, Hinterlassenen- und Invalidenvorsorge (SR 831.40) als Ganzes erwähnt, ohne konkrete Artikelangabe."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_23",
+    "TARGET_SR": "SR 172.010.1",
+    "assigned_articles": [
+      "Art. 8a Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Kommission wird als ständige Verwaltungskommission „im Sinne von Artikel 8a Absatz 2 der Regierungs- und Verwaltungsorganisationsverordnung … SR 172.010.1“ bezeichnet; klare Zuordnung."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 418.0",
+    "assigned_articles": [
+      "Art. 5"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Definitionsartikel wird ausdrücklich auf „berufliche Grundbildung nach Artikel 5 SSchG“ verwiesen; SSchG ist SR 418.0 gemäss Präambel."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": "SR 418.0",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "medium",
+    "reasoning": "Es wird allgemein auf „Anerkennungsvoraussetzungen nach SSchG“ Bezug genommen, ohne konkrete Artikelnummern zu nennen."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_12",
+    "TARGET_SR": "SR 418.0",
+    "assigned_articles": [
+      "Art. 8–10",
+      "Art. 11",
+      "Art. 14 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "„Gesuche nach den Artikeln 8–10“ und „Trägerschaft nach Artikel 14 Absatz 1 SSchG“ sowie „Gesuche nach Artikel 11“ sind explizite Verweise auf diese Bestimmungen des SSchG."
+  },
+  {
+    "ITEM": 8,
+    "ARTICLE_EID": "art_17",
+    "TARGET_SR": "SR 418.0",
+    "assigned_articles": [
+      "Art. 8"
+    ],
+    "confidence": "high",
+    "reasoning": "Die zu versichernden Personen werden als solche „die nach Artikel 8 SSchG zu versichern sind“ beschrieben; eindeutiger Einzelverweis."
+  },
+  {
+    "ITEM": 9,
+    "ARTICLE_EID": "art_19",
+    "TARGET_SR": "SR 418.0",
+    "assigned_articles": [
+      "Art. 14"
+    ],
+    "confidence": "high",
+    "reasoning": "Das Logo kennzeichnet „andere Formen … gemäss Artikel 14 SSchG“; klarer Bezug auf Art. 14 SSchG."
+  },
+  {
+    "ITEM": 10,
+    "ARTICLE_EID": "art_22",
+    "TARGET_SR": "SR 418.0",
+    "assigned_articles": [
+      "Art. 3–6",
+      "Art. 14"
+    ],
+    "confidence": "high",
+    "reasoning": "Es werden ausdrücklich „Voraussetzungen für die Anerkennung nach den Artikeln 3–6 SSchG“ und „Voraussetzungen für eine Finanzhilfe nach Artikel 14 SSchG“ genannt."
+  },
+  {
+    "ITEM": 11,
+    "ARTICLE_EID": "art_23",
+    "TARGET_SR": "SR 418.0",
+    "assigned_articles": [
+      "Art. 21 Abs. 1",
+      "Art. 3",
+      "Art. 4–6",
+      "Art. 14"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Klammerzusatz „(Art. 21 Abs. 1 SSchG)“ sowie die nachfolgenden Aufzählungen mit „nach Artikel 3 SSchG“, „nach den Artikeln 4–6 SSchG“ und „(Art. 14 SSchG)“ verweisen explizit auf diese Normen."
+  },
+  {
+    "ITEM": 12,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 5"
+    ],
+    "confidence": "high",
+    "reasoning": "„berufliche Grundbildung nach Artikel 5 SSchG“ ist ein interner Verweis auf Art. 5 des SSchG (SR 418.0), also Selbstreferenz innerhalb des gleichen Gesetzes."
+  },
+  {
+    "ITEM": 13,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 13 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Satz entspricht dem bei ITEM 2 analysierten Verweis auf „Artikel 13 Absatz 2 des Subventionsgesetzes“; hier als reine Artikelreferenz ohne explizite SR-Angabe, daher Verweis auf externes Gesetz, nicht als TARGET_SR zuzuordnen."
+  },
+  {
+    "ITEM": 14,
+    "ARTICLE_EID": "art_13",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 8–10"
+    ],
+    "confidence": "high",
+    "reasoning": "„Bei Gesuchen nach den Artikeln 8–10“ bezieht sich auf andere Artikel derselben Verordnung; klare interne Selbstreferenz."
+  },
+  {
+    "ITEM": 15,
+    "ARTICLE_EID": "art_19",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 14"
+    ],
+    "confidence": "high",
+    "reasoning": "„gemäss Artikel 14 SSchG“ verweist auf Art. 14 des SSchG (SR 418.0); im Kontext der Verordnung als Verweis auf das zugrunde liegende Gesetz, nicht auf ein anderes TARGET_SR-Objekt."
+  },
+  {
+    "ITEM": 16,
+    "ARTICLE_EID": "art_23",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 8a Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "„im Sinne von Artikel 8a Absatz 2 der Regierungs- und Verwaltungsorganisationsverordnung“ ist ein externer Verweis auf die RVOV (SR 172.010.1), bereits bei ITEM 4 als SR-Link erfasst; hier reine Artikelreferenz ohne eigene TARGET_SR-Zuordnung."
+  },
+  {
+    "ITEM": 17,
+    "ARTICLE_EID": "art_23",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "„Anerkennung einer neuen Schweizerschule nach Artikel 3 SSchG“ ist ein interner Verweis auf Art. 3 SSchG (SR 418.0); Selbstreferenz im Sinne des Projekts."
+  },
+  {
+    "ITEM": 18,
+    "ARTICLE_EID": "art_23",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 4–6"
+    ],
+    "confidence": "high",
+    "reasoning": "„nach den Artikeln 4–6 SSchG“ verweist auf mehrere aufeinanderfolgende Artikel desselben Gesetzes; interne Selbstreferenz."
+  },
+  {
+    "ITEM": 19,
+    "ARTICLE_EID": "art_23",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 4–6"
+    ],
+    "confidence": "high",
+    "reasoning": "Auch hier „nach den Artikel 4–6 SSchG“; gleicher interner Verweis wie bei ITEM 18."
+  },
+  {
+    "ITEM": 20,
+    "ARTICLE_EID": "art_23",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 5 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "„Prioritätenordnung des EDI nach Artikel 5 Absatz 2“ bezieht sich auf Art. 5 Abs. 2 derselben Verordnung; reine Selbstreferenz."
+  },
+  {
+    "ITEM": 21,
+    "ARTICLE_EID": "art_23",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 14"
+    ],
+    "confidence": "high",
+    "reasoning": "„(Art. 14 SSchG)“ ist ein expliziter Verweis auf Art. 14 des SSchG (SR 418.0); im Rahmen der artikel_reference-Logik als interner Gesetzesverweis ohne eigene TARGET_SR-Zuweisung zu behandeln."
+  }
+]

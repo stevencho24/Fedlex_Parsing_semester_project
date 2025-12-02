@@ -1,0 +1,32 @@
+[
+  {
+    "Item": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 442.1",
+    "assigned_articles": [
+      "Art. 28 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet explicitly cites 'Artikel 28 Absatz 1 des Kulturförderungsgesetzes ... SR 442.1'; this directly links Art. 28 Abs. 1 to SR 442.1."
+  },
+  {
+    "Item": 2,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": "SR 442.1",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "low",
+    "reasoning": "The snippet refers to a Verordnung des EDI and contains no article citation or acronym usage that can be syntactically or semantically tied to SR 442.1; the SR appears only as the preamble acronym mapping for EDI, so no specific article can be assigned."
+  },
+  {
+    "Item": 3,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": "SR 442.125",
+    "assigned_articles": [
+      "Art. 3 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "This is a self-reference within the same document: 'nach Artikel 3 Absatz 2' clearly refers to Art. 3 Abs. 2 of the current SR 442.125, with no other SR mentioned in the snippet."
+  }
+]

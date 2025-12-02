@@ -1,0 +1,101 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 941.210",
+    "assigned_articles": [
+      "Art. 5 Abs. 2",
+      "Art. 8 Abs. 2",
+      "Art. 11 Abs. 2",
+      "Art. 16 Abs. 2",
+      "Art. 17 Abs. 2",
+      "Art. 24 Abs. 3",
+      "Art. 33"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Präambel nennt ausdrücklich: «gestützt auf die Artikel 5 Absatz 2, 8 Absatz 2, 11 Absatz 2, 16 Absatz 2, 17 Absatz 2, 24 Absatz 3 und 33 der Messmittelverordnung … SR 941.210». Alle genannten Artikel gehören daher zur Messmittelverordnung (SR 941.210)."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_6",
+    "TARGET_SR": "SR 941.210",
+    "assigned_articles": [
+      "Anhang 1",
+      "Anhang 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Ausschnitt verweist mehrfach auf «Anhang 1 der Messmittelverordnung». Anhänge sind Bestandteil der Messmittelverordnung (SR 941.210). Es werden keine Artikelnummern genannt, sondern nur Anhang 1 als Quelle der grundlegenden Anforderungen; zusätzlich wird «Anhang 2 der vorliegenden Verordnung» erwähnt, der nicht zur SR 941.210 gehört. Daher werden für SR 941.210 nur die relevanten Anhänge (Anhang 1; die Formulierung «nach den Anhängen 1 und 2 der vorliegenden Verordnung» betrifft nicht SR 941.210) berücksichtigt. Da der Kontext der Konformitätsbewertung in Art. 7 auf «Anhang 2 der Messmittelverordnung» verweist, ist ersichtlich, dass auch Anhang 2 der Messmittelverordnung Teil der herangezogenen Regelung ist; deshalb werden Anhang 1 und 2 der Messmittelverordnung als zugeordnete Teile erfasst."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": "SR 941.210",
+    "assigned_articles": [
+      "Anhang 2",
+      "Anhang 5"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Text lautet: «… nach einem der folgenden Verfahren nach Anhang 2 der Messmittelverordnung …; … ordentliche Zulassung und Ersteichung nach Anhang 5 der Messmittelverordnung.» Beide Anhänge werden ausdrücklich der Messmittelverordnung (SR 941.210) zugeordnet."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_8",
+    "TARGET_SR": "SR 941.210",
+    "assigned_articles": [
+      "Anhang 7 Ziff. 1",
+      "Anhang 7 Ziff. 5"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Ausschnitt verweist auf «Anhang 7 Ziffer 1 der Messmittelverordnung» sowie «Anhang 7 Ziffer 5 der Messmittelverordnung». Beide Stellen gehören als spezifische Ziffern des Anhangs 7 zur Messmittelverordnung (SR 941.210)."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_9",
+    "TARGET_SR": "SR 941.210",
+    "assigned_articles": [
+      "Art. 21 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "Formulierung: «Zusätzlich zur Verantwortung nach Artikel 21 Absatz 1 der Messmittelverordnung …». Der Artikel ist klar mit der Messmittelverordnung (SR 941.210) verknüpft."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_10",
+    "TARGET_SR": "SR 941.210",
+    "assigned_articles": [
+      "Art. 29 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Text nennt «Beanstandungen im Sinne von Artikel 29 Absatz 1 der Messmittelverordnung». Damit ist eindeutig Art. 29 Abs. 1 der Messmittelverordnung (SR 941.210) gemeint."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_11",
+    "TARGET_SR": "SR 941.210",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "medium",
+    "reasoning": "«Die Wiegegeräteverordnung des EJPD vom 15. August 1986 wird aufgehoben.» Die Präambel ordnet das Akronym EJPD der Messmittelverordnung (SR 941.210) zu, hier wird jedoch nicht auf bestimmte Artikel oder Anhänge der Messmittelverordnung verwiesen, sondern auf eine andere Verordnung, die aufgehoben wird. Es liegt lediglich ein allgemeiner Bezug zur Messmittelverordnung über das Akronym vor, ohne konkrete Artikelangabe."
+  },
+  {
+    "ITEM": 8,
+    "ARTICLE_EID": "art_12",
+    "TARGET_SR": "SR 941.210",
+    "assigned_articles": [
+      "Anhang 5 Ziff. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Text spricht von der Ersteichung «nach Anhang 5 Ziffer 2 der Messmittelverordnung». Damit ist eindeutig Anhang 5 Ziff. 2 der Messmittelverordnung (SR 941.210) gemeint."
+  },
+  {
+    "ITEM": 9,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 6"
+    ],
+    "confidence": "high",
+    "reasoning": "Dies ist ein artikel_reference ohne TARGET_SR. Der Satz lautet: «… nach Artikel 6 wird … bewertet …». Es handelt sich um eine Selbstreferenz innerhalb derselben Verordnung (Art. 7 verweist auf Art. 6 derselben Verordnung), nicht um einen Bezug zur Messmittelverordnung (SR 941.210). Daher wird Art. 6 als interner Artikel der aktuellen Verordnung erfasst und kein TARGET_SR zugeordnet."
+  }
+]

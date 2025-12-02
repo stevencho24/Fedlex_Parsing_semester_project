@@ -1,0 +1,62 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 210",
+    "assigned_articles": [
+      "Art. 715"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet says 'gestützt auf Artikel 715 des Zivilgesetzbuches SR 210'; the article number is directly and syntactically linked to SR 210."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 281.1",
+    "assigned_articles": [
+      "Art. 15"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet says 'in Anwendung von Artikel 15 des Schuldbetreibungs- und Konkursgesetzes SR 281.1'; Art. 15 is explicitly attributed to the Schuldbetreibungs- und Konkursgesetz, which is SR 281.1."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": "SR 281.35",
+    "assigned_articles": [
+      "Art. 63 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "Inside the authorial note: 'AS 1996 2937 Art. 63 Abs. 1]. Siehe heute: die Gebührenverordnung ... (SR 281.35)'. The amendment reference Art. 63 Abs. 1 belongs to the Gebührenverordnung cited as SR 281.35 in the same syntactic unit."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": "SR 211.413.1",
+    "assigned_articles": [
+      "Art. 13"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet: 'Die Löschung erfolgt nach Massgabe von Artikel 13 der Verordnung ... SR 211.413.1 ...'; Article 13 is directly linked to that Verordnung, which is SR 211.413.1."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "The phrase 'nach Artikel 3' has no SR or external law named; it clearly refers to Article 3 of the same ordinance (self-reference), not to an external SR document."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet refers to 'Artikel 13 der Verordnung des Bundesgerichtes ...' without an SR number; in this context and item_type=artikel_reference, it is treated as an internal structural reference within the current document rather than an external SR link."
+  }
+]

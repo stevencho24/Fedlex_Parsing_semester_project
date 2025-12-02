@@ -1,0 +1,33 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 172.220.111.3",
+    "assigned_articles": [
+      "Art. 52 Abs. 5",
+      "Art. 53 lit. c"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet explicitly states: 'gestützt auf die Artikel 52 Absatz 5 und 53 Buchstabe c der Bundespersonalverordnung ... SR 172.220.111.3 (BPV)'. Both article numbers are directly and syntactically linked to the cited SR document."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 172.220.111.3",
+    "assigned_articles": [
+      "Art. 36"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet reads: '... zu einer Lohnklasse (LK) nach Artikel 36 BPV.' BPV is defined in the preamble as SR 172.220.111.3, and 'Artikel 36 BPV' clearly refers to Art. 36 of that SR."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 172.220.111.3",
+    "assigned_articles": [
+      "Art. 36"
+    ],
+    "confidence": "high",
+    "reasoning": "Identical snippet as ITEM 2, but keyed to the BPV acronym. 'nach Artikel 36 BPV' unambiguously refers to Art. 36 of SR 172.220.111.3."
+  }
+]

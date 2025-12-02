@@ -1,0 +1,392 @@
+[
+  {
+    "Item": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 810.31",
+    "assigned_articles": ["Art. 17"],
+    "confidence": "high",
+    "reasoning": "The snippet explicitly cites 'Artikel 17 des Stammzellenforschungsgesetzes ... SR 810.31 (StFG)'; Art. 17 is grammatically linked to SR 810.31."
+  },
+  {
+    "Item": 2,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": "SR 810.30",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "high",
+    "reasoning": "The Humanforschungsgesetz (HFG, SR 810.30) is mentioned without any article number; 'Artikel 17' clearly refers to another law (StFG), so no specific HFG article is linked."
+  },
+  {
+    "Item": 3,
+    "ARTICLE_EID": "art_13",
+    "TARGET_SR": "SR 810.30",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "high",
+    "reasoning": "Same context as Item 2: HFG (SR 810.30) is cited generically, with no article number attached; 'Artikel 17' is not syntactically tied to HFG."
+  },
+  {
+    "Item": 4,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 810.31",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "medium",
+    "reasoning": "The phrase 'unter den im StFG enthaltenen Voraussetzungen' refers broadly to the conditions in the Stammzellenforschungsgesetz without specifying particular articles."
+  },
+  {
+    "Item": 5,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": "SR 810.31",
+    "assigned_articles": [
+      "Art. 5 Abs. 3",
+      "Art. 4",
+      "Art. 9 Abs. 1 Bst. c"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet explicitly mentions 'Artikel 5 Absatz 3 StFG', 'Artikel 4 StFG' and 'Artikel 9 Absatz 1 Buchstabe c StFG'; all are directly marked with the StFG acronym."
+  },
+  {
+    "Item": 6,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": "SR 810.31",
+    "assigned_articles": [
+      "Art. 7",
+      "Art. 18"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet contains '(Art. 7 StFG)' and 'Register nach Artikel 18 StFG'; both articles are explicitly tied to StFG."
+  },
+  {
+    "Item": 7,
+    "ARTICLE_EID": "art_6",
+    "TARGET_SR": "SR 810.31",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "medium",
+    "reasoning": "Refers generically to 'Bewilligungsvoraussetzungen nach dem StFG' without specifying particular articles; no syntactic link to a numbered provision."
+  },
+  {
+    "Item": 8,
+    "ARTICLE_EID": "art_8",
+    "TARGET_SR": "SR 810.31",
+    "assigned_articles": ["Art. 8"],
+    "confidence": "high",
+    "reasoning": "The parenthetical '(Art. 8 StFG)' directly marks Art. 8 as belonging to StFG."
+  },
+  {
+    "Item": 9,
+    "ARTICLE_EID": "art_9",
+    "TARGET_SR": "SR 810.31",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "medium",
+    "reasoning": "Again a generic reference to 'Bewilligungsvoraussetzungen nach dem StFG' with no article numbers; treated as a general citation."
+  },
+  {
+    "Item": 10,
+    "ARTICLE_EID": "art_11",
+    "TARGET_SR": "SR 810.31",
+    "assigned_articles": [
+      "Art. 10",
+      "Art. 7",
+      "Art. 8"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet includes '(Art. 10 StFG)' and 'nach Artikel 7 oder 8 StFG'; all three articles are explicitly linked to StFG."
+  },
+  {
+    "Item": 11,
+    "ARTICLE_EID": "art_12",
+    "TARGET_SR": "SR 810.31",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "medium",
+    "reasoning": "Same wording as Items 7 and 9: generic 'Bewilligungsvoraussetzungen nach dem StFG' without article numbers."
+  },
+  {
+    "Item": 12,
+    "ARTICLE_EID": "art_13",
+    "TARGET_SR": "SR 810.31",
+    "assigned_articles": ["Art. 15"],
+    "confidence": "high",
+    "reasoning": "The parenthetical '(Art. 15 StFG)' directly associates Art. 15 with StFG."
+  },
+  {
+    "Item": 13,
+    "ARTICLE_EID": "art_14",
+    "TARGET_SR": "SR 810.31",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "medium",
+    "reasoning": "Generic 'Bewilligungsvoraussetzungen nach dem StFG' with no specific article numbers."
+  },
+  {
+    "Item": 14,
+    "ARTICLE_EID": "art_15",
+    "TARGET_SR": "SR 810.31",
+    "assigned_articles": ["Art. 15"],
+    "confidence": "high",
+    "reasoning": "The snippet explicitly contains '(Art. 15 StFG)', directly linking Art. 15 to StFG."
+  },
+  {
+    "Item": 15,
+    "ARTICLE_EID": "art_16",
+    "TARGET_SR": "SR 810.31",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "medium",
+    "reasoning": "Again only a generic reference to 'Bewilligungsvoraussetzungen nach dem StFG' without numbered provisions."
+  },
+  {
+    "Item": 16,
+    "ARTICLE_EID": "art_17",
+    "TARGET_SR": "SR 810.31",
+    "assigned_articles": ["Art. 11"],
+    "confidence": "high",
+    "reasoning": "The parenthetical '(Art. 11 StFG)' directly marks Art. 11 as belonging to StFG."
+  },
+  {
+    "Item": 17,
+    "ARTICLE_EID": "art_18",
+    "TARGET_SR": "SR 810.31",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "medium",
+    "reasoning": "Refers broadly to 'Voraussetzungen ... nach dem StFG' without specifying article numbers."
+  },
+  {
+    "Item": 18,
+    "ARTICLE_EID": "art_28",
+    "TARGET_SR": "SR 810.31",
+    "assigned_articles": [
+      "Art. 18",
+      "Art. 9 Abs. 1 Bst. c"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet mentions 'Register nach Artikel 18 StFG' and 'Artikel 9 Absatz 1 Buchstabe c StFG'; both are explicitly tied to StFG."
+  },
+  {
+    "Item": 19,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": "SR 810.311",
+    "assigned_articles": [
+      "Art. 5 Abs. 3",
+      "Art. 3 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "This is an internal reference within the current ordinance (SR 810.311): 'Artikel 5 Absatz 3' and 'Artikel 3 Absatz 2' are not linked to an external SR but to articles of this same document."
+  },
+  {
+    "Item": 20,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": "SR 810.311",
+    "assigned_articles": ["Art. 4"],
+    "confidence": "high",
+    "reasoning": "Internal reference 'Artikel 4' without any external SR marker; it clearly points to Art. 4 of the current ordinance."
+  },
+  {
+    "Item": 21,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": "SR 810.311",
+    "assigned_articles": ["Art. 27"],
+    "confidence": "high",
+    "reasoning": "The phrase 'in Artikel 27 vorgesehenen Massnahmen' is an internal cross-reference to Art. 27 of the same document."
+  },
+  {
+    "Item": 22,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": "SR 810.31",
+    "assigned_articles": ["Art. 9 Abs. 1 Bst. c"],
+    "confidence": "high",
+    "reasoning": "Here 'Artikel 9 Absatz 1 Buchstabe c StFG' is explicitly marked with the StFG acronym, so it refers to Art. 9 Abs. 1 lit. c of SR 810.31, not to the current ordinance."
+  },
+  {
+    "Item": 23,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": "SR 810.311",
+    "assigned_articles": ["Art. 3 Abs. 1"],
+    "confidence": "high",
+    "reasoning": "Internal reference 'Artikel 3 Absatz 1' with no external SR; it points to Art. 3 Abs. 1 of the current ordinance."
+  },
+  {
+    "Item": 24,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": "SR 810.311",
+    "assigned_articles": ["Art. 2"],
+    "confidence": "high",
+    "reasoning": "The wording 'dass es nach Artikel 2 aufgeklärt worden ist' is a self-reference to Art. 2 of the same ordinance."
+  },
+  {
+    "Item": 25,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": "SR 810.31",
+    "assigned_articles": ["Art. 7"],
+    "confidence": "high",
+    "reasoning": "The parenthetical '(Art. 7 StFG)' clearly links Art. 7 to the Stammzellenforschungsgesetz (SR 810.31), not to the current ordinance."
+  },
+  {
+    "Item": 26,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": "SR 810.311",
+    "assigned_articles": ["Art. 17"],
+    "confidence": "high",
+    "reasoning": "The phrase 'wie sie nach Artikel 17 ... eingereicht wurde' lacks any external SR or acronym; by the critical rule, this is a self-reference to Art. 17 of the current ordinance."
+  },
+  {
+    "Item": 27,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": "SR 810.31",
+    "assigned_articles": ["Art. 18"],
+    "confidence": "high",
+    "reasoning": "The wording 'Register nach Artikel 18 StFG' explicitly ties Art. 18 to StFG (SR 810.31)."
+  },
+  {
+    "Item": 28,
+    "ARTICLE_EID": "art_11",
+    "TARGET_SR": "SR 810.31",
+    "assigned_articles": ["Art. 10"],
+    "confidence": "high",
+    "reasoning": "The parenthetical '(Art. 10 StFG)' directly associates Art. 10 with the Stammzellenforschungsgesetz."
+  },
+  {
+    "Item": 29,
+    "ARTICLE_EID": "art_11",
+    "TARGET_SR": "SR 810.31",
+    "assigned_articles": [
+      "Art. 7",
+      "Art. 8"
+    ],
+    "confidence": "high",
+    "reasoning": "The phrase 'die nach Artikel 7 oder 8 StFG erteilte Bewilligung' explicitly links both Art. 7 and Art. 8 to StFG."
+  },
+  {
+    "Item": 30,
+    "ARTICLE_EID": "art_13",
+    "TARGET_SR": "SR 810.311",
+    "assigned_articles": ["Art. 29 Abs. 1 Bst. b"],
+    "confidence": "high",
+    "reasoning": "Reference 'Artikel 29 Absatz 1 Buchstabe b' has no external SR marker and thus is an internal cross-reference to Art. 29 Abs. 1 lit. b of the current ordinance."
+  },
+  {
+    "Item": 31,
+    "ARTICLE_EID": "art_15",
+    "TARGET_SR": "SR 810.311",
+    "assigned_articles": ["Art. 29 Abs. 1 Bst. b"],
+    "confidence": "high",
+    "reasoning": "Same internal reference pattern as Item 30: 'Artikel 29 Absatz 1 Buchstabe b' refers to the ordinance’s own Art. 29 Abs. 1 lit. b."
+  },
+  {
+    "Item": 32,
+    "ARTICLE_EID": "art_20",
+    "TARGET_SR": "SR 810.311",
+    "assigned_articles": [
+      "Art. 5",
+      "Art. 13"
+    ],
+    "confidence": "high",
+    "reasoning": "The phrase 'Bewilligungsverfahren nach Artikel 5 oder 13' is an internal reference to Arts. 5 and 13 of the same ordinance; no external SR is mentioned."
+  },
+  {
+    "Item": 33,
+    "ARTICLE_EID": "art_20",
+    "TARGET_SR": "SR 810.311",
+    "assigned_articles": ["Art. 17"],
+    "confidence": "high",
+    "reasoning": "The wording 'wie sie nach Artikel 17 bei der zuständigen Ethikkommission eingereicht wurde' lacks any external SR; it is a self-reference to Art. 17 of the ordinance."
+  },
+  {
+    "Item": 34,
+    "ARTICLE_EID": "art_25",
+    "TARGET_SR": "SR 810.311",
+    "assigned_articles": ["Art. 29 Abs. 1 Bst. b"],
+    "confidence": "high",
+    "reasoning": "Internal cross-reference 'Artikel 29 Absatz 1 Buchstabe b' with no external SR; it points to the ordinance’s own Art. 29 Abs. 1 lit. b."
+  },
+  {
+    "Item": 35,
+    "ARTICLE_EID": "art_25",
+    "TARGET_SR": "SR 810.311",
+    "assigned_articles": ["Art. 29 Abs. 1 Bst. b"],
+    "confidence": "high",
+    "reasoning": "Same internal reference as Item 34; still clearly Art. 29 Abs. 1 lit. b of the current ordinance."
+  },
+  {
+    "Item": 36,
+    "ARTICLE_EID": "art_26",
+    "TARGET_SR": "SR 810.311",
+    "assigned_articles": ["Art. 29 Abs. 1 Bst. b"],
+    "confidence": "high",
+    "reasoning": "The phrase 'Charakterisierung nach Artikel 29 Absatz 1 Buchstabe b' is an internal reference to Art. 29 Abs. 1 lit. b of this ordinance."
+  },
+  {
+    "Item": 37,
+    "ARTICLE_EID": "art_28",
+    "TARGET_SR": "SR 810.31",
+    "assigned_articles": ["Art. 18"],
+    "confidence": "high",
+    "reasoning": "The wording 'Register nach Artikel 18 StFG' explicitly ties Art. 18 to the Stammzellenforschungsgesetz (SR 810.31)."
+  },
+  {
+    "Item": 38,
+    "ARTICLE_EID": "art_28",
+    "TARGET_SR": "SR 810.31",
+    "assigned_articles": ["Art. 9 Abs. 1 Bst. c"],
+    "confidence": "high",
+    "reasoning": "The phrase 'nach Artikel 9 Absatz 1 Buchstabe c StFG' clearly refers to Art. 9 Abs. 1 lit. c of StFG."
+  },
+  {
+    "Item": 39,
+    "ARTICLE_EID": "art_29",
+    "TARGET_SR": "SR 810.311",
+    "assigned_articles": [
+      "Art. 5",
+      "Art. 8",
+      "Art. 13",
+      "Art. 20"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet lists 'Artikel 5, 8 oder 13' and 'Meldung nach Artikel 20'; all are internal references to articles of the same ordinance."
+  },
+  {
+    "Item": 40,
+    "ARTICLE_EID": "art_29",
+    "TARGET_SR": "SR 810.311",
+    "assigned_articles": ["Art. 25 Abs. 3 Bst. c", "Art. 25 Abs. 4"],
+    "confidence": "high",
+    "reasoning": "The wording 'Artikel 25 Absätze 3 Buchstabe c und 4' is an internal reference to Art. 25 para. 3 lit. c and para. 4 of the ordinance."
+  },
+  {
+    "Item": 41,
+    "ARTICLE_EID": "art_30",
+    "TARGET_SR": "SR 810.311",
+    "assigned_articles": ["Art. 31"],
+    "confidence": "high",
+    "reasoning": "The phrase 'nach den Ansätzen in Artikel 31 bemessen' is a self-reference to Art. 31 of the same ordinance."
+  },
+  {
+    "Item": 42,
+    "ARTICLE_EID": "art_30",
+    "TARGET_SR": "SR 810.311",
+    "assigned_articles": ["Art. 31"],
+    "confidence": "high",
+    "reasoning": "Again 'Dienstleistungen, die in Artikel 31 nicht ausdrücklich genannt sind' clearly refers to Art. 31 of this ordinance."
+  },
+  {
+    "Item": 43,
+    "ARTICLE_EID": "art_34",
+    "TARGET_SR": "SR 810.311",
+    "assigned_articles": [
+      "Art. 5",
+      "Art. 8",
+      "Art. 11",
+      "Art. 13",
+      "Art. 15"
+    ],
+    "confidence": "high",
+    "reasoning": "The list 'Bewilligungsverfahren nach den Artikeln 5, 8, 11, 13 und 15' is an internal enumeration of articles of the same ordinance."
+  },
+  {
+    "Item": 44,
+    "ARTICLE_EID": "art_34",
+    "TARGET_SR": "SR 810.311",
+    "assigned_articles": [
+      "Art. 20",
+      "Art. 23",
+      "Art. 24"
+    ],
+    "confidence": "high",
+    "reasoning": "The phrase 'Melde- und Berichterstattungspflichten nach den Artikeln 20, 23 und 24' is an internal reference to these articles of the ordinance."
+  }
+]

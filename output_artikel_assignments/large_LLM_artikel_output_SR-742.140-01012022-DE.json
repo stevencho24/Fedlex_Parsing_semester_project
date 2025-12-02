@@ -1,0 +1,112 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 101",
+    "assigned_articles": [
+      "Art. 87a"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Formulierung «gestützt auf Artikel 87a der Bundesverfassung SR 101» verknüpft den genannten Artikel direkt mit SR 101; damit ist klar, dass Art. 87a BV (SR 101) gemeint ist."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 611.0",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Satz nennt nur das Finanzhaushaltgesetz SR 611.0 als Ganzes («ist subsidiär anwendbar») ohne konkrete Artikelangabe; dies ist eine generelle Verweisnorm auf das gesamte Gesetz."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": "SR 742.101",
+    "assigned_articles": [
+      "Art. 9o Abs. 1 lit. b"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Snippet steht «die Abgeltungen nach Artikel 9o Absatz 1 Buchstabe b des Eisenbahngesetzes … SR 742.101 (EBG)»; der genannte Artikel ist eindeutig dem EBG (SR 742.101) zugeordnet."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": "SR 742.101",
+    "assigned_articles": [
+      "Art. 37"
+    ],
+    "confidence": "high",
+    "reasoning": "Text: «Vergütung für die Systemaufgaben nach Artikel 37 EBG SR 742.101.»; die Präposition «nach» und das unmittelbar folgende «Artikel 37 EBG» verknüpfen Art. 37 klar mit SR 742.101."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_6",
+    "TARGET_SR": "SR 742.101",
+    "assigned_articles": [
+      "Art. 58"
+    ],
+    "confidence": "high",
+    "reasoning": "Text: «… richten sich nach Artikel 58 EBG SR 742.101.»; der Artikel ist direkt mit dem EBG (SR 742.101) verbunden."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "Es wird «Artikel 87a Absatz 2 Buchstabe d der Bundesverfassung» erwähnt, jedoch ohne SR-Angabe im Snippet; dies ist eine materielle Verfassungsnorm, aber im Rahmen der Regeln ohne expliziten SR-Bezug als Selbst-/interne Referenz des Dokuments zu behandeln."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Verweise «Artikel 9o Absatz 1 Buchstabe b des Eisenbahngesetzes … (EBG)» und «Artikel 37 EBG» erscheinen hier ohne SR-Nummer; die eigentliche SR-Zuordnung zu SR 742.101 wurde bereits in Items 3–5 mit explizitem SR-Link erfasst. Nach Vorgabe sind solche isolierten Artikelangaben ohne SR im Satz als interne bzw. bereits abgedeckte Referenzen zu behandeln."
+  },
+  {
+    "ITEM": 8,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "Es werden «Artikeln 87a Absatz 2 Buchstabe d und 196 Ziffer 3 Absatz 2 der Bundesverfassung» genannt, jedoch ohne SR-Link im Snippet; gemäss Regeln sind solche isolierten Artikelverweise ohne explizite SR-Verknüpfung als Selbst-/interne Referenzen zu werten."
+  },
+  {
+    "ITEM": 9,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«nach Artikel 4 Absatz 1 Buchstabe a» verweist offensichtlich auf einen anderen Artikel derselben Verordnung; es wird kein anderes Gesetz oder eine SR-Nummer genannt, daher klar interne Selbstreferenz."
+  },
+  {
+    "ITEM": 10,
+    "ARTICLE_EID": "art_11",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Verweise «Einlagen nach Artikel 87a Absatz 2 Buchstabe a» und «Artikel 196 Ziffer 3 Absatz 2 der Bundesverfassung» erscheinen ohne SR-Link; nach den Vorgaben sind solche isolierten Verfassungsartikel hier als interne bzw. nicht einem TARGET_SR zuzuordnende Referenzen zu behandeln."
+  },
+  {
+    "ITEM": 11,
+    "ARTICLE_EID": "art_12",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«In Abweichung von Artikel 7 Absatz 1» verweist auf einen Artikel derselben Verordnung; es gibt keinen Hinweis auf ein anderes Gesetz oder eine SR-Nummer, somit handelt es sich um eine reine Selbstreferenz."
+  }
+]

@@ -1,0 +1,42 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 414.110",
+    "assigned_articles": [
+      "Art. 28 Abs. 4 Bst. b"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Formulierung \"gestützt auf Artikel 28 Absatz 4 Buchstabe b ... SR 414.110\" verknüpft den genannten Artikel eindeutig mit dem ETH-Gesetz (SR 414.110)."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_12",
+    "TARGET_SR": "SR 414.142",
+    "assigned_articles": [
+      "Art. 25 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Snippet steht \"(Art. 25 Abs. 2 der ETHL-Dozentenverordnung ... SR 414.142)\", womit Art. 25 Abs. 2 klar dieser Verordnung (SR 414.142) zugeordnet wird."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_12",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "Artikelreferenz ohne expliziten SR‑Hinweis; \"Art. 25 Abs. 2\" erscheint hier als Wiederholung der bereits in ITEM 2 mit SR 414.142 verknüpften Stelle, dient aber im Dokumentkontext als interne Verweisstruktur. Kein neuer externer SR‑Link."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_15",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "\"Artikel 14 Absatz 4\" wird ohne Nennung eines SR zitiert und bezieht sich syntaktisch auf einen anderen Artikel derselben Verordnung; daher handelt es sich um eine reine Selbstreferenz innerhalb des aktuellen Dokuments."
+  }
+]

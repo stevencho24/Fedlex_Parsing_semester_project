@@ -1,0 +1,24 @@
+[
+  {
+    "Item": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 910.18",
+    "assigned_articles": [
+      "Art. 23 Abs. 1",
+      "Art. 23a Abs. 2",
+      "Art. 24 Abs. 6"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Snippet-Formulierung «gestützt auf die Artikel 23 Absatz 1, 23a Absatz 2 und 24 Absatz 6 der Bio-Verordnung … SR 910.18» verknüpft die genannten Artikel grammatikalisch eindeutig mit der Bio-Verordnung (SR 910.18)."
+  },
+  {
+    "Item": 2,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Stelle «Die nach Artikel 23a Absatz 2 der Bio-Verordnung … anerkannten Zertifizierungsstellen» verweist zwar auf Art. 23a Abs. 2 der Bio-Verordnung (SR 910.18), jedoch ist dieser externe Bezug bereits im Preambel-Item 1 mit derselben Artikelstelle erfasst. Gemäss Vorgabe für artikel_reference ist hier primär eine Selbstreferenz-/Strukturangabe des aktuellen Dokuments zu kennzeichnen, daher keine neue TARGET_SR-Zuordnung."
+  }
+]

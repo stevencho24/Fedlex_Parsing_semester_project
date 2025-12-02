@@ -1,0 +1,153 @@
+[
+  {
+    "Item": 1,
+    "source_article_eid": "preamble",
+    "target_SR": "SR 412.10",
+    "assigned_articles": [
+      "Art. 19"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet: 'gestützt auf Artikel 19 des Berufsbildungsgesetzes ... SR 412.10'; Art. 19 is explicitly linked to SR 412.10 by title and SR number."
+  },
+  {
+    "Item": 2,
+    "source_article_eid": "preamble",
+    "target_SR": "SR 412.101",
+    "assigned_articles": [
+      "Art. 12"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet: 'auf Artikel 12 der Berufsbildungsverordnung ... SR 412.101 (BBV)'; Art. 12 is directly attributed to the BBV with that SR."
+  },
+  {
+    "Item": 3,
+    "source_article_eid": "preamble",
+    "target_SR": "SR 170.512",
+    "assigned_articles": [
+      "Art. 12 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "INSIDE_AUTHORIALNOTE: 'in Anwendung von Art. 12 Abs. 2 des Publikationsgesetzes ... (SR 170.512)'; clear direct marking of article and paragraph for this SR."
+  },
+  {
+    "Item": 4,
+    "source_article_eid": "preamble",
+    "target_SR": "SR 822.115",
+    "assigned_articles": [
+      "Art. 4a Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet: 'auf Artikel 4a Absatz 1 der Jugendarbeitsschutzverordnung ... SR 822.115 (ArGV 5)'; article and paragraph explicitly tied to this SR."
+  },
+  {
+    "Item": 5,
+    "source_article_eid": "art_5",
+    "target_SR": "SR 170.512",
+    "assigned_articles": [
+      "Art. 12 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "INSIDE_AUTHORIALNOTE repeats: 'in Anwendung von Art. 12 Abs. 2 des Publikationsgesetzes ... (SR 170.512)'; same explicit reference as in preamble item 3."
+  },
+  {
+    "Item": 6,
+    "source_article_eid": "art_11",
+    "target_SR": "SR 412.101",
+    "assigned_articles": [
+      "Art. 32"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet: 'Sie hat die nach Artikel 32 BBV erforderliche Erfahrung erworben.'; BBV is SR 412.101 per preamble, and Art. 32 is directly marked with that acronym."
+  },
+  {
+    "Item": 7,
+    "source_article_eid": "art_14",
+    "target_SR": "SR 412.101",
+    "assigned_articles": [
+      "Art. 33"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet: 'Die Wiederholung des Qualifikationsverfahrens richtet sich nach Artikel 33 BBV.'; BBV = SR 412.101, so Art. 33 belongs to that SR."
+  },
+  {
+    "Item": 8,
+    "source_article_eid": "art_16",
+    "target_SR": "SR 412.10",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet mentions 'dem SBFI' (the authority under SR 412.10) but no specific article; this is a general institutional reference to the SBFI and thus to the law as a whole."
+  },
+  {
+    "Item": 9,
+    "source_article_eid": "art_17",
+    "target_SR": "SR 412.10",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet: 'Die Verordnung des SBFI ... wird aufgehoben.'; refers to a specific ordinance issued by SBFI, not to a particular article of SR 412.10; treat as general reference to the SBFI’s legal basis."
+  },
+  {
+    "Item": 10,
+    "source_article_eid": "art_3",
+    "target_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet: '... nach Artikel 2 Absatz 1.' with no SR or acronym; this is a self-reference to Art. 2 Abs. 1 of the same ordinance."
+  },
+  {
+    "Item": 11,
+    "source_article_eid": "art_4",
+    "target_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "Same pattern as Item 10: '... nach Artikel 2 Absatz 1.' without SR; internal cross-reference to Art. 2 Abs. 1 of this document."
+  },
+  {
+    "Item": 12,
+    "source_article_eid": "art_5",
+    "target_SR": "SR 822.115",
+    "assigned_articles": [
+      "Art. 4 Abs. 1",
+      "Art. 4a Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet: 'In Abweichung von Artikel 4 Absatz 1 ArGV 5 und gemäss den Vorgaben nach Artikel 4a Absatz 1 ArGV 5 ...'; ArGV 5 is the Jugendarbeitsschutzverordnung SR 822.115, so both cited articles belong to that SR."
+  },
+  {
+    "Item": 13,
+    "source_article_eid": "art_11",
+    "target_SR": "SR 412.101",
+    "assigned_articles": [
+      "Art. 32"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet includes: 'Sie hat die nach Artikel 32 BBV erforderliche Erfahrung erworben.'; BBV = SR 412.101; this duplicates the same external reference as Item 6 and is clearly to Art. 32 BBV."
+  },
+  {
+    "Item": 14,
+    "source_article_eid": "art_12",
+    "target_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet: '... nach der Verordnung und dem Rahmenlehrplan nach Artikel 2 Absatz 1 erworben wurden.'; 'Artikel 2 Absatz 1' has no SR or external acronym, so it is an internal reference to Art. 2 Abs. 1 of this ordinance."
+  },
+  {
+    "Item": 15,
+    "source_article_eid": "art_13",
+    "target_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet: '... nach der Verordnung nach Artikel 2 Absatz 1 Buchstabe a.'; again 'Artikel 2 Absatz 1' without SR, so this is a self-reference to Art. 2 Abs. 1 lit. a of the same document."
+  }
+]

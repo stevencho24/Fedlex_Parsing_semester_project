@@ -1,0 +1,122 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 195.1",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Satz verweist allgemein auf das Auslandschweizergesetz (SR 195.1), ohne einzelne Artikel oder Absätze zu nennen; es handelt sich um eine generelle Rechtsgrundlage."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 142.31",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Unterstützung bestimmter Personengruppen richtet sich nach «besonderen Erlassen SR 142.31, 855.1 des Bundes»; es werden keine konkreten Artikel genannt, sondern das Gesetz als Ganzes als Rechtsgrundlage bezeichnet."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "855.1",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "Wie bei SR 142.31 wird SR 855.1 nur als besonderer Erlass des Bundes erwähnt, ohne Artikelspezifizierung; daher allgemeine Dokumentverweisung."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_18",
+    "TARGET_SR": "SR 141.0",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "medium",
+    "reasoning": "Formulierung «Ersatz ... nach besonderen Erlassen Vgl. SR 141.0, 142.31, 852.1» verweist pauschal auf diese Erlasse; keine Artikelangabe oder syntaktische Verknüpfung mit bestimmten Artikeln ersichtlich."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_18",
+    "TARGET_SR": "142.31",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "medium",
+    "reasoning": "Gleicher Kontext wie bei SR 141.0: pauschaler Verweis auf den Erlass SR 142.31 ohne Artikelspezifizierung."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_18",
+    "TARGET_SR": "852.1",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "medium",
+    "reasoning": "Auch SR 852.1 wird nur im Rahmen eines allgemeinen Verweises auf «besondere Erlasse» genannt; keine konkreten Artikel im Text."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_22",
+    "TARGET_SR": "SR 142.20",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Satz stellt fest, dass die Heimschaffung im BG über die Ausländerinnen und Ausländer (SR 142.20) nicht mehr vorgesehen ist; es wird kein bestimmter Artikel dieses Gesetzes genannt, sondern das Gesetz insgesamt als Referenz herangezogen."
+  },
+  {
+    "ITEM": 8,
+    "ARTICLE_EID": "art_25",
+    "TARGET_SR": "SR 210",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "Es heisst, dass Beiträge «nach dem Zivilgesetzbuch SR 210» auf das Gemeinwesen übergegangen sind; dies ist ein genereller Verweis auf das ZGB ohne Nennung einzelner Artikel."
+  },
+  {
+    "ITEM": 9,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": "SR 851.1",
+    "assigned_articles": [
+      "Art. 4"
+    ],
+    "confidence": "high",
+    "reasoning": "«am Ort nach Artikel 4» ist eine reine Selbstverweisung innerhalb desselben Erlasses (SR 851.1); kein externer SR-Bezug im Satz, daher interne Artikelreferenz auf Art. 4 des eigenen Gesetzes."
+  },
+  {
+    "ITEM": 10,
+    "ARTICLE_EID": "art_20",
+    "TARGET_SR": "SR 851.1",
+    "assigned_articles": [
+      "Art. 13"
+    ],
+    "confidence": "high",
+    "reasoning": "«so gilt Artikel 13 sinngemäss» verweist klar auf einen anderen Artikel desselben Erlasses; mangels SR-Nennung ist dies eine interne Selbstreferenz auf Art. 13 von SR 851.1."
+  },
+  {
+    "ITEM": 11,
+    "ARTICLE_EID": "art_28",
+    "TARGET_SR": "SR 851.1",
+    "assigned_articles": [
+      "Art. 10 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "«Richtigstellung im Sinne von Artikel 10 Absatz 2» ist eine explizite Selbstverweisung auf Art. 10 Abs. 2 desselben Gesetzes; kein externer SR im Kontext."
+  },
+  {
+    "ITEM": 12,
+    "ARTICLE_EID": "art_32",
+    "TARGET_SR": "SR 851.1",
+    "assigned_articles": [
+      "Art. 7 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "«nach Artikel 7 Absatz 2» verweist auf eine Bestimmung innerhalb desselben Erlasses; ohne andere SR-Angabe ist dies eine interne Referenz auf Art. 7 Abs. 2 von SR 851.1."
+  }
+]

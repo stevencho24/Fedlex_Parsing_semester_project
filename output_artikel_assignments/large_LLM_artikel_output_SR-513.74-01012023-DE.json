@@ -1,0 +1,73 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 510.10",
+    "assigned_articles": [
+      "Art. 48d Abs. 7",
+      "Art. 150 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Formulierung «gestützt auf die Artikel 48d Absatz 7 und 150 Absatz 1 des Militärgesetzes … SR 510.10» verknüpft die genannten Artikel syntaktisch eindeutig mit SR 510.10."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": "SR 513.75",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Snippet wird nur auf die Verordnung vom 21. Nov. 2018 (SR 513.75) als Ganzes verwiesen, ohne Nennung einzelner Artikel; daher allgemeine Dokumentverweisung."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": "SR 121",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Text nennt das Nachrichtendienstgesetz (SR 121) ohne spezifische Artikelangabe; dies ist eine generelle Verweisung auf das Gesetz insgesamt."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": "SR 513.74",
+    "assigned_articles": [
+      "Art. 4 Abs. 5"
+    ],
+    "confidence": "high",
+    "reasoning": "«dringlichen Gesuchen nach Artikel 4 Absatz 5» bezieht sich mangels anderer SR-Nennung auf einen Artikel derselben Verordnung (SR 513.74); es handelt sich um eine interne Selbstverweisung."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_9",
+    "TARGET_SR": "SR 513.74",
+    "assigned_articles": [
+      "Art. 8 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "«Zusätzliches Armeematerial nach Artikel 8 Absatz 2» verweist ohne externe SR-Angabe auf einen anderen Artikel derselben Verordnung (SR 513.74); somit interne Selbstverweisung."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_13",
+    "TARGET_SR": "SR 513.74",
+    "assigned_articles": [
+      "Art. 9 Abs. 5"
+    ],
+    "confidence": "high",
+    "reasoning": "«Vollzug von Artikel 9 Absatz 5» ist eine klassische interne Verweisung innerhalb derselben Verordnung (SR 513.74), da kein anderes SR-Dokument genannt wird."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_15",
+    "TARGET_SR": "SR 513.74",
+    "assigned_articles": [
+      "Art. 9 Abs. 5"
+    ],
+    "confidence": "high",
+    "reasoning": "«Artikel 9 Absatz 5 ist nur anwendbar …» verweist auf einen Artikel derselben Verordnung (SR 513.74); es liegt eine interne Selbstverweisung ohne externes SR vor."
+  }
+]

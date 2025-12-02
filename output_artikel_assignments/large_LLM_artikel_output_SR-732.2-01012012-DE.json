@@ -1,0 +1,122 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 101",
+    "assigned_articles": [
+      "Art. 90"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Formulierung «gestützt auf Artikel 90 der Bundesverfassung SR 101» verknüpft den genannten Artikel direkt mit SR 101; damit ist klar, dass Art. 90 der Bundesverfassung (SR 101) gemeint ist."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_6",
+    "TARGET_SR": "SR 172.220.1",
+    "assigned_articles": [
+      "Art. 6a Abs. 1–5"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Satz heisst es «gilt Artikel 6a Absätze 1–5 des Bundespersonalgesetzes … SR 172.220.1 sinngemäss»; Artikel- und Absatzangabe stehen unmittelbar beim Gesetz mit SR-Nummer, daher eindeutige Zuordnung zu SR 172.220.1."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_9",
+    "TARGET_SR": "SR 172.220.1",
+    "assigned_articles": [
+      "Art. 6a Abs. 1–5"
+    ],
+    "confidence": "high",
+    "reasoning": "Wortlaut identisch strukturiert wie bei ITEM 2: «gilt Artikel 6a Absätze 1–5 des Bundespersonalgesetzes … SR 172.220.1 sinngemäss»; damit ist wiederum Art. 6a Abs. 1–5 BPG (SR 172.220.1) gemeint."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_11",
+    "TARGET_SR": "SR 732.1",
+    "assigned_articles": [
+      "Art. 83"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Passage lautet «richtet sich nach Artikel 83 des Kernenergiegesetzes … SR 732.1»; der Artikel 83 ist direkt mit dem Kernenergiegesetz verknüpft, dessen SR-Nummer 732.1 im Autorennachweis steht."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_11",
+    "TARGET_SR": "SR 814.50",
+    "assigned_articles": [
+      "Art. 42"
+    ],
+    "confidence": "high",
+    "reasoning": "Im gleichen Satz wird «Artikel 42 des Strahlenschutzgesetzes … SR 814.50» genannt; damit ist klar, dass Art. 42 zum Strahlenschutzgesetz mit SR 814.50 gehört."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_16",
+    "TARGET_SR": "SR 170.32",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "medium",
+    "reasoning": "Es heisst nur «nach dem Verantwortlichkeitsgesetz vom 14. März 1958 SR 170.32» ohne konkrete Artikelangabe; dies ist eine generelle Verweisung auf das Gesetz als Ganzes."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_19",
+    "TARGET_SR": "SR 172.021",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "medium",
+    "reasoning": "Formulierung «nach den Bestimmungen des Bundesgesetzes … SR 172.021 über das Verwaltungsverfahren» verweist pauschal auf die Bestimmungen des VwVG, ohne einzelne Artikel zu nennen."
+  },
+  {
+    "ITEM": 8,
+    "ARTICLE_EID": "art_6",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "Dies ist ein artikel_reference-Eintrag ohne SR-Angabe; der Text wiederholt die Verweisung auf Art. 6a BPG, die bereits in ITEM 2 SR 172.220.1 zugeordnet wurde. Hier dient er nur als Erfassung der Selbstreferenz im Dokument und bildet keinen eigenen SR-Link."
+  },
+  {
+    "ITEM": 9,
+    "ARTICLE_EID": "art_9",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "Auch hier artikel_reference ohne SR; der Satz entspricht inhaltlich ITEM 3, wo die Verweisung auf Art. 6a BPG (SR 172.220.1) bereits als externer Link erfasst ist. Dieser Eintrag ist daher nur eine interne Wiederholung ohne eigenständige SR-Zuordnung."
+  },
+  {
+    "ITEM": 10,
+    "ARTICLE_EID": "art_11",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Text nennt «Artikel 83 des Kernenergiegesetzes» und «Artikel 42 des Strahlenschutzgesetzes», die in ITEM 4 (SR 732.1) und ITEM 5 (SR 814.50) bereits als SR_link_detection mit Artikeln zugeordnet wurden. Dieser artikel_reference-Eintrag erfasst nur die interne Textstelle."
+  },
+  {
+    "ITEM": 11,
+    "ARTICLE_EID": "art_13",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«… für die Erfüllung der Aufgaben nach Artikel 2.» verweist ohne SR-Angabe auf einen anderen Artikel desselben Erlasses; dies ist eine reine Selbstreferenz innerhalb des Dokuments."
+  },
+  {
+    "ITEM": 12,
+    "ARTICLE_EID": "art_26",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Inkrafttretensbestimmung listet verschiedene Artikel und Absätze («Artikel 5 Buchstabe a, 6, 9 Absatz 2, 16, 18 Absätze 2 und 3, 24, 25 Ziffer 2 (Artikel 71)») des eigenen Erlasses auf, ohne Bezug zu einem externen SR; daher handelt es sich um interne Strukturverweise."
+  }
+]

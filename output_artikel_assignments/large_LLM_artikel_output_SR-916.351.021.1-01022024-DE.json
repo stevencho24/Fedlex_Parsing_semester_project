@@ -1,0 +1,76 @@
+[
+  {
+    "Item": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 916.351.0",
+    "assigned_articles": [
+      "Art. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Satz lautet: \"gestützt auf Artikel 2 der Milchprüfungsverordnung ... SR 916.351.0\". Artikel 2 ist direkt mit dieser Verordnung (SR 916.351.0) verknüpft; syntaktisch ist \"Artikel 2\" das Bezugsobjekt zu \"der Milchprüfungsverordnung ... SR 916.351.0\"."
+  },
+  {
+    "Item": 2,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 916.020",
+    "assigned_articles": [
+      "Art. 7 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Snippet: \"... und Artikel 7 Absatz 1 der Verordnung vom 23. November 2005 SR 916.020 über die Primärproduktion\". Artikel 7 Absatz 1 ist klar grammatikalisch dieser Verordnung (SR 916.020) zugeordnet."
+  },
+  {
+    "Item": 3,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": "SR 916.350.2",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "medium",
+    "reasoning": "Der Text verweist auf \"Artikel 3 der Milchpreisstützungsverordnung vom 7. Dezember 1998\" und anschliessend: \"Siehe heute: die Milchpreisstützungsverordnung vom 25. Juni 2008 (SR 916.350.2).\" Die konkrete Artikelnummer (Art. 3) bezieht sich auf die alte Fassung; die neue Verordnung wird nur als Ganzes genannt, ohne explizite Artikelangabe. Daher wird der Verweis als allgemeiner Dokumentverweis auf SR 916.350.2 gewertet."
+  },
+  {
+    "Item": 4,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": "SR 812.212.27",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "medium",
+    "reasoning": "Snippet: \"Bei der Behandlung mit Arzneimitteln müssen die Anforderungen der Tierarzneimittelverordnung vom 18. August 2004 SR 812.212.27 eingehalten werden.\" Es werden keine bestimmten Artikel genannt; die Anforderungen der gesamten Verordnung sind einzuhalten. Daher allgemeiner Verweis auf das ganze Dokument."
+  },
+  {
+    "Item": 5,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "„nach Artikel 3 der Milchpreisstützungsverordnung ... produziert“: Diese Artikelangabe ist bereits in Item 3 im Kontext der externen SR 916.350.2 erfasst. Hier liegt derselbe Satz ohne SR-Nennung vor; nach den Regeln ist mangels expliziter SR-Zuordnung und wegen Doppelung zur SR_link_detection von Item 3 von einer internen bzw. bereits abgedeckten Referenz auszugehen."
+  },
+  {
+    "Item": 6,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": "SR 812.212.27",
+    "assigned_articles": [
+      "Art. 25",
+      "Art. 26",
+      "Art. 27",
+      "Art. 28",
+      "Art. 29"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet: \"Die Aufzeichnungen richten sich nach den Artikeln 25–29 der Tierarzneimittelverordnung vom 18. August 2004.\" Diese Formulierung verknüpft die Artikel 25–29 syntaktisch direkt mit der Tierarzneimittelverordnung, die in Item 4 als SR 812.212.27 identifiziert ist. Es handelt sich um eine explizite Artikelbereichsangabe zu dieser SR."
+  },
+  {
+    "Item": 7,
+    "ARTICLE_EID": "art_9",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "„Wenn die Milch den Anforderungen von Artikel 8 nicht entspricht ...“: Es wird keine SR genannt, und Artikel 8 ist offensichtlich ein Artikel derselben Verordnung. Nach den Regeln ist dies eine reine Selbstreferenz innerhalb des aktuellen Dokuments."
+  }
+]

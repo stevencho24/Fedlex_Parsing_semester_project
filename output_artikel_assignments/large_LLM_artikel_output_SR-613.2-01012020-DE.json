@@ -1,0 +1,134 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 101",
+    "assigned_articles": [
+      "Art. 47",
+      "Art. 48",
+      "Art. 50",
+      "Art. 135"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet explicitly cites 'Artikel 47, 48, 50 und 135 der Bundesverfassung SR 101'; these articles are directly and syntactically linked to SR 101."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": "SR 642.11",
+    "assigned_articles": "General reference - entire document",
+    "confidence": "high",
+    "reasoning": "The snippet refers generically to 'dem Bundesgesetz vom 14. Dezember 1990 SR 642.11 über die direkte Bundessteuer' without any article number; thus it is a general citation of the whole act."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": "SR 642.14",
+    "assigned_articles": [
+      "Art. 24b"
+    ],
+    "confidence": "high",
+    "reasoning": "The text distinguishes 'Gewinnen nach Artikel 24b des Bundesgesetzes ... SR 642.14 ... (StHG)'; 'Artikel 24b' is explicitly and syntactically tied to SR 642.14."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_23_a",
+    "TARGET_SR": "SR 642.14",
+    "assigned_articles": [
+      "Art. 28 Abs. 2–4"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet speaks of 'juristischen Personen nach Artikel 28 Absätze 2–4 StHG SR 642.14 bisherigen Rechts'; 'Artikel 28 Absätze 2–4' is directly linked to StHG, i.e. SR 642.14."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 24b"
+    ],
+    "confidence": "high",
+    "reasoning": "This artikel_reference repeats the sentence from ITEM 3 but without the SR marker; 'Artikel 24b des Bundesgesetzes ... (StHG)' clearly refers to Art. 24b StHG (SR 642.14). As no TARGET_SR field exists for artikel_reference items, this is treated as a self-reference link to Art. 24b of the cited external act."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_10",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 48a Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet cites 'Artikel 48a Absatz 1 der Bundesverfassung'; this is a cross-reference to Art. 48a Abs. 1 BV (SR 101). As no explicit SR is present in this item, it is treated as an outgoing reference to that article."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_10",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 14",
+      "Art. 15"
+    ],
+    "confidence": "high",
+    "reasoning": "The sentence 'Die Verpflichtung erfolgt in Form der Allgemeinverbindlicherklärung (Art. 14) oder der Beteiligungspflicht (Art. 15)' clearly refers to internal articles 14 and 15 of the same act; no external SR context is present, so this is an internal self-reference."
+  },
+  {
+    "ITEM": 8,
+    "ARTICLE_EID": "art_14",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 48a Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet cites 'Artikel 48a Absatz 1 der Bundesverfassung'; this is a cross-reference to Art. 48a Abs. 1 BV (SR 101). No explicit SR field is present here, so it is treated as an outgoing reference to that constitutional article."
+  },
+  {
+    "ITEM": 9,
+    "ARTICLE_EID": "art_19_a",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 3a Abs. 2 Bst. a"
+    ],
+    "confidence": "high",
+    "reasoning": "The phrase 'In Abweichung von Artikel 3a Absatz 2 Buchstabe a' is an internal reference to Art. 3a Abs. 2 lit. a of the same act; no external SR is mentioned, so it is a self-reference."
+  },
+  {
+    "ITEM": 10,
+    "ARTICLE_EID": "art_19_b",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 18 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet 'In Abweichung von Artikel 18 Absatz 1' clearly refers to Art. 18 Abs. 1 of the same act; no external SR context, so this is an internal self-reference."
+  },
+  {
+    "ITEM": 11,
+    "ARTICLE_EID": "art_23_a",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 3 Abs. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "The text mentions 'bei der Berechnung des Ressourcenpotenzials nach Artikel 3 Absatz 3'; this is an internal reference to Art. 3 Abs. 3 of the same act; no external SR is indicated."
+  },
+  {
+    "ITEM": 12,
+    "ARTICLE_EID": "art_23_a",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 3a Abs. 2 Bst. a"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet cites 'Mindestausstattung nach Artikel 3a Absatz 2 Buchstabe a'; this is an internal cross-reference to Art. 3a Abs. 2 lit. a of the same act; no external SR is present."
+  },
+  {
+    "ITEM": 13,
+    "ARTICLE_EID": "art_24",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 20"
+    ],
+    "confidence": "high",
+    "reasoning": "The line 'Datum des Inkrafttretens: 1. Januar 2008 Art. 20: 1. April 2005' contains an internal reference to Art. 20 of the same act in the context of entry into force; no external SR is mentioned."
+  }
+]

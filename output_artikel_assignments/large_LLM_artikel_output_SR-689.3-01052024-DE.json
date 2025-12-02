@@ -1,0 +1,43 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 680",
+    "assigned_articles": [
+      "Art. 70 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Formulierung «gestützt auf die Artikel 70 Absatz 1 des Alkoholgesetzes … SR 680» verknüpft den genannten Artikel syntaktisch eindeutig mit SR 680."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 831.10",
+    "assigned_articles": [
+      "Art. 103",
+      "Art. 104"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Satzteil «… an die Alters- und Hinterlassenenversicherung nach den Artikeln 103 und 104 des Bundesgesetzes vom 20. Dezember 1946 SR 831.10 über die Alters- und Hinterlassenenversicherung …» werden die Artikel 103 und 104 ausdrücklich diesem Gesetz (SR 831.10) zugeordnet."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 831.20",
+    "assigned_articles": [
+      "Art. 78"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Satzteil «… sowie an die Invalidenversicherung nach Artikel 78 des Bundesgesetzes vom 19. Juni 1959 SR 831.20 über die Invalidenversicherung …» wird Artikel 78 klar dem Gesetz SR 831.20 zugeordnet."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Interne Verweisung innerhalb des aktuellen Dokuments"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Ausschnitt enthält nur Verweise auf Artikel anderer Gesetze (AHVG, IVG), die bereits in den Items 2 und 3 über SR-Verknüpfungen erfasst sind. Es wird kein Artikel des eigenen Erlasses genannt; daher handelt es sich hier nicht um eine zusätzliche SR-Verknüpfung, sondern um bereits abgedeckte externe Gesetzesartikel."
+  }
+]

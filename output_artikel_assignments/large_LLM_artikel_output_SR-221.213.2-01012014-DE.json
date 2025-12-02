@@ -1,0 +1,269 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 101",
+    "assigned_articles": [
+      "Art. 104",
+      "Art. 122"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet explicitly states: 'Den genannten Bestimmungen entsprechen heute Art. 104 und 122 der BV ... (SR 101)'; these two articles are directly and uniquely linked to SR 101."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 211.412.11",
+    "assigned_articles": [
+      "Art. 5",
+      "Art. 7 Abs. 1",
+      "Art. 7 Abs. 2",
+      "Art. 7 Abs. 3",
+      "Art. 7 Abs. 5"
+    ],
+    "confidence": "high",
+    "reasoning": "The phrase 'im Sinne der Artikel 5 und 7 Absätze 1, 2, 3 und 5 des Bundesgesetzes ... SR 211.412.11' grammatically ties these specific articles and paragraphs to the cited BGBB (SR 211.412.11)."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_2_a",
+    "TARGET_SR": "SR 700",
+    "assigned_articles": [
+      "Art. 15"
+    ],
+    "confidence": "high",
+    "reasoning": "The text 'in einer Bauzone nach Artikel 15 des Raumplanungsgesetzes ... SR 700' directly attributes Art. 15 to the Raumplanungsgesetz (SR 700)."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_16",
+    "TARGET_SR": "SR 700",
+    "assigned_articles": [
+      "Art. 15"
+    ],
+    "confidence": "high",
+    "reasoning": "Same syntactic structure as ITEM 3: 'in einer Bauzone nach Artikel 15 des Raumplanungsgesetzes ... SR 700' clearly links Art. 15 to SR 700."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_16",
+    "TARGET_SR": "SR 211.412.11",
+    "assigned_articles": [
+      "Art. 2 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "The clause 'für die nicht in den Geltungsbereich des BGBB SR 211.412.11 fallenden Grundstücke ... nach Artikel 2 Absatz 2 BGBB' shows that 'Artikel 2 Absatz 2' belongs to BGBB (SR 211.412.11)."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_27",
+    "TARGET_SR": "SR 700",
+    "assigned_articles": [
+      "Art. 15"
+    ],
+    "confidence": "high",
+    "reasoning": "Again 'in einer Bauzone nach Artikel 15 des Raumplanungsgesetzes ... SR 700' directly connects Art. 15 to SR 700."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_27",
+    "TARGET_SR": "SR 211.412.11",
+    "assigned_articles": [
+      "Art. 2 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Parallel to ITEM 5: 'nicht in den Geltungsbereich des BGBB SR 211.412.11 ... nach Artikel 2 Absatz 2 BGBB' clearly assigns Art. 2 Abs. 2 to SR 211.412.11."
+  },
+  {
+    "ITEM": 8,
+    "ARTICLE_EID": "art_31",
+    "TARGET_SR": "SR 700",
+    "assigned_articles": [
+      "Art. 15"
+    ],
+    "confidence": "high",
+    "reasoning": "The phrase 'in einer Bauzone nach Artikel 15 des Raumplanungsgesetzes SR 700' directly links Art. 15 to SR 700."
+  },
+  {
+    "ITEM": 9,
+    "ARTICLE_EID": "art_31",
+    "TARGET_SR": "SR 211.412.11",
+    "assigned_articles": [
+      "Art. 11 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "The parenthetical '(Art. 11 Abs. 2 des BG vom 4. Okt. 1991 SR 211.412.11 über das bäuerliche Bodenrecht)' explicitly attributes Art. 11 Abs. 2 to SR 211.412.11."
+  },
+  {
+    "ITEM": 10,
+    "ARTICLE_EID": "art_37",
+    "TARGET_SR": "SR 211.412.11",
+    "assigned_articles": [
+      "Art. 10"
+    ],
+    "confidence": "high",
+    "reasoning": "The wording 'Verzinsung des Ertragswerts nach Artikel 10 BGBB SR 211.412.11' directly associates Art. 10 with BGBB (SR 211.412.11)."
+  },
+  {
+    "ITEM": 11,
+    "ARTICLE_EID": "art_38",
+    "TARGET_SR": "SR 211.412.11",
+    "assigned_articles": [
+      "Art. 10"
+    ],
+    "confidence": "high",
+    "reasoning": "Inside the authorial note: 'Heute: von Art. 10 des BG vom 4. Okt. 1991 ... (SR 211.412.11).' This explicitly links Art. 10 to SR 211.412.11."
+  },
+  {
+    "ITEM": 12,
+    "ARTICLE_EID": "art_47",
+    "TARGET_SR": "SR 272",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "medium",
+    "reasoning": "The sentence refers generically to 'die Bestimmungen der Zivilprozessordnung ... SR 272' without specifying any article; thus it is a general reference to the ZPO as a whole."
+  },
+  {
+    "ITEM": 13,
+    "ARTICLE_EID": "art_60_b",
+    "TARGET_SR": "SR 700",
+    "assigned_articles": [
+      "Art. 15"
+    ],
+    "confidence": "high",
+    "reasoning": "The clause 'in einer Bauzone nach Artikel 15 des Raumplanungsgesetzes ... SR 700' again directly ties Art. 15 to SR 700."
+  },
+  {
+    "ITEM": 14,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "artikel_reference item without SR; 'Artikel 5 und 7 Absätze 1, 2, 3 und 5' here are already externally assigned to SR 211.412.11 in ITEM 2. Within this context they function as a citation to that external law, but this item type is for self-references, so it is treated as internal for the current document."
+  },
+  {
+    "ITEM": 15,
+    "ARTICLE_EID": "art_2_a",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "The phrase 'nach Artikel 15 des Raumplanungsgesetzes' lacks an explicit SR in this snippet; per rules, without explicit SR link in the same syntactic unit, this is treated as a self-reference context for the current document."
+  },
+  {
+    "ITEM": 16,
+    "ARTICLE_EID": "art_2_a",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "Same structure as ITEM 15: 'nach Artikel 15 des Raumplanungsgesetzes' without SR marker in this item, so it is considered an internal/self-reference for this parsing task."
+  },
+  {
+    "ITEM": 17,
+    "ARTICLE_EID": "art_22_b",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 21a"
+    ],
+    "confidence": "high",
+    "reasoning": "This artikel_reference clearly points to 'Artikel 21a' of the same act; no external SR is mentioned, so it is an internal cross-reference within the current document."
+  },
+  {
+    "ITEM": 18,
+    "ARTICLE_EID": "art_22_b",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 22 Abs. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "Refers to 'Artikel 22 Absatz 3' with no external SR; this is a self-reference to another provision of the same law."
+  },
+  {
+    "ITEM": 19,
+    "ARTICLE_EID": "art_22_b",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 22a"
+    ],
+    "confidence": "high",
+    "reasoning": "Mentions 'Artikel 22a' without any SR; clearly an internal cross-reference within the same statute."
+  },
+  {
+    "ITEM": 20,
+    "ARTICLE_EID": "art_31",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "The phrase 'in einer Bauzone nach Artikel 15 des Raumplanungsgesetzes' appears without an SR citation in this snippet; per rules, this is treated as an internal/self-reference context."
+  },
+  {
+    "ITEM": 21,
+    "ARTICLE_EID": "art_31",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 11 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "The parenthetical 'Art. 11 Abs. 2 des BG vom 4. Okt. 1991 über das bäuerliche Bodenrecht' is an article citation; in this artikel_reference context (no explicit SR field), it is treated as an internal cross-reference for the current document parsing, even though substantively it points to BGBB."
+  },
+  {
+    "ITEM": 22,
+    "ARTICLE_EID": "art_38",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 6"
+    ],
+    "confidence": "high",
+    "reasoning": "Refers to 'Artikel 6 des Bundesgesetzes vom 12. Dezember 1940 ...'; as an artikel_reference item without SR, this is handled as an internal-style cross-reference to that cited article."
+  },
+  {
+    "ITEM": 23,
+    "ARTICLE_EID": "art_60_a",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 1 Abs. 1 Bst. b"
+    ],
+    "confidence": "high",
+    "reasoning": "The parenthetical '(Art. 1 Abs. 1 Bst. b)' is a clear internal cross-reference to another provision of the same act; no external SR is present."
+  },
+  {
+    "ITEM": 24,
+    "ARTICLE_EID": "art_60_b",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "Again 'in einer Bauzone nach Artikel 15 des Raumplanungsgesetzes' without explicit SR in this item; per instructions, ambiguous/implicit external links default to self-reference."
+  },
+  {
+    "ITEM": 25,
+    "ARTICLE_EID": "art_60_b",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 1 Abs. 1 Bst. b"
+    ],
+    "confidence": "high",
+    "reasoning": "Same internal reference as ITEM 23: '(Art. 1 Abs. 1 Bst. b)' clearly points to another article of the same law."
+  },
+  {
+    "ITEM": 26,
+    "ARTICLE_EID": "art_61",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 36–46",
+      "Art. 54 Abs. 1",
+      "Art. 59 Ziff. 4"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet lists 'Art. 36–46, 54 Absatz 1 ... und 59 Ziffer 4'; as an artikel_reference item, these are internal structural references within the same document, including an article range and specific provisions."
+  }
+]

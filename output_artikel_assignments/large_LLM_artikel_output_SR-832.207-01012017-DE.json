@@ -1,0 +1,91 @@
+[
+  {
+    "Item": 1,
+    "SOURCE_ARTICLE_EID": "preamble",
+    "LINKED_SR": "SR 832.20",
+    "ASSIGNED_ARTIKEL": [
+      "Art. 63 Abs. 5 lit. b"
+    ],
+    "CONFIDENCE": "high",
+    "REASONING": "Die Präambel nennt ausdrücklich «gestützt auf Artikel 63 Absatz 5 Buchstabe b … SR 832.20 … (UVG)»; Art. 63 Abs. 5 lit. b UVG ist damit direkt und eindeutig dem zitierten SR 832.20 zugeordnet."
+  },
+  {
+    "Item": 2,
+    "SOURCE_ARTICLE_EID": "art_2",
+    "LINKED_SR": "SR 830.1",
+    "ASSIGNED_ARTIKEL": [
+      "Art. 78"
+    ],
+    "CONFIDENCE": "high",
+    "REASONING": "Im Snippet steht «(Art. 78 des BG vom 6. Okt. 2000 SR 830.1 über den Allgemeinen Teil des Sozialversicherungsrechts …)»; Art. 78 ist damit ausdrücklich dem BG ATSG (SR 830.1) zugeordnet."
+  },
+  {
+    "Item": 3,
+    "SOURCE_ARTICLE_EID": "art_2",
+    "LINKED_SR": "SR 170.32",
+    "ASSIGNED_ARTIKEL": [
+      "Art. 7"
+    ],
+    "CONFIDENCE": "high",
+    "REASONING": "Das Snippet nennt «… und Art. 7 des Verantwortlichkeitsgesetzes vom 14. März 1958 SR 170.32»; Art. 7 ist klar dem Verantwortlichkeitsgesetz (SR 170.32) zugeordnet."
+  },
+  {
+    "Item": 4,
+    "SOURCE_ARTICLE_EID": "art_2",
+    "LINKED_SR": "SR 832.20",
+    "ASSIGNED_ARTIKEL": [
+      "Art. 63 Abs. 5 lit. a–f, h",
+      "Art. 88 Abs. 2"
+    ],
+    "CONFIDENCE": "medium",
+    "REASONING": "Der Text lautet: «Der Suva-Rat erfüllt die Aufgaben nach Artikel 63 Absatz 5 Buchstaben a–f und h UVG. ... Antragstellung an den Bundesrat gemäss Artikel 88 Absatz 2 UVG …». Beide Artikelangaben stehen jeweils direkt mit «UVG» (Preambel-Akronym für SR 832.20) in derselben Wortgruppe. Damit sind Art. 63 Abs. 5 lit. a–f, h und Art. 88 Abs. 2 UVG dem SR 832.20 zuzuordnen. Die Zusammenfassung der Buchstaben a–f, h in einer Spanne ist leicht abstrahiert, aber sachlich korrekt."
+  },
+  {
+    "Item": 5,
+    "SOURCE_ARTICLE_EID": "art_4",
+    "LINKED_SR": "SR 832.20",
+    "ASSIGNED_ARTIKEL": [
+      "Art. 63 Abs. 5 lit. g, i–m"
+    ],
+    "CONFIDENCE": "medium",
+    "REASONING": "Das Snippet: «… erfüllt die Aufgaben nach Artikel 63 Absatz 5 Buchstaben g und i–m UVG.»; «UVG» verweist gemäss Präambel auf SR 832.20. Damit sind Art. 63 Abs. 5 lit. g sowie i–m UVG diesem SR zugeordnet. Die Zusammenfassung der Buchstaben i–m als Bereich ist eine formale Verdichtung."
+  },
+  {
+    "Item": 6,
+    "SOURCE_ARTICLE_EID": "art_10",
+    "LINKED_SR": "SR 832.20",
+    "ASSIGNED_ARTIKEL": [
+      "Art. 64"
+    ],
+    "CONFIDENCE": "high",
+    "REASONING": "Im Snippet steht: «… neben den Aufgaben nach Artikel 64 UVG …»; «UVG» ist das in der Präambel definierte Akronym für SR 832.20, somit ist Art. 64 UVG eindeutig diesem SR zugeordnet."
+  },
+  {
+    "Item": 7,
+    "SOURCE_ARTICLE_EID": "art_2",
+    "LINKED_SR": "SR 832.207",
+    "ASSIGNED_ARTIKEL": [
+      "Art. 63 Abs. 5 lit. a–f, h UVG"
+    ],
+    "CONFIDENCE": "medium",
+    "REASONING": "Dies ist ein artikel_reference ohne externen SR-Link; standardmässig wäre es eine Selbstreferenz. Der Text verweist jedoch auf «Artikel 63 Absatz 5 Buchstaben a–f und h UVG». Da «UVG» in der Präambel als SR 832.20 definiert ist, handelt es sich materiell um einen Verweis auf Art. 63 Abs. 5 lit. a–f, h UVG (SR 832.20). Als SR-Link dieses Dokuments (SR 832.207) wird hier die interne Verweisstruktur abgebildet; der genannte Artikel gehört aber inhaltlich zu SR 832.20 und ist bereits bei Item 4 erfasst. Deshalb wird er hier als interner Verweis mit derselben Artikelangabe gekennzeichnet."
+  },
+  {
+    "Item": 8,
+    "SOURCE_ARTICLE_EID": "art_2",
+    "LINKED_SR": "SR 832.207",
+    "ASSIGNED_ARTIKEL": [
+      "Art. 88 Abs. 2 UVG"
+    ],
+    "CONFIDENCE": "medium",
+    "REASONING": "Artikel_reference ohne expliziten SR-Link; der Text lautet «… gemäss Artikel 88 Absatz 2 UVG …». Über das Präambel-Akronym ist klar, dass Art. 88 Abs. 2 UVG zu SR 832.20 gehört und bereits bei Item 4 zugeordnet wurde. Innerhalb des vorliegenden Dokuments (SR 832.207) ist dies ein interner Verweis auf denselben externen Artikel; daher wird Art. 88 Abs. 2 UVG hier nochmals als referenzierter Artikel ausgewiesen."
+  },
+  {
+    "Item": 9,
+    "SOURCE_ARTICLE_EID": "art_2",
+    "LINKED_SR": "SR 832.207",
+    "ASSIGNED_ARTIKEL": [],
+    "CONFIDENCE": "high",
+    "REASONING": "Das Snippet enthält «(Art. 78 des BG vom 6. Okt. 2000 … und Art. 7 des Verantwortlichkeitsgesetzes …)», also Verweise auf Art. 78 ATSG (SR 830.1) und Art. 7 VG (SR 170.32). Diese Artikel wurden bereits in Items 2 und 3 den jeweiligen SR zugeordnet. Innerhalb dieses artikel_reference-Eintrags liegt keine zusätzliche, neue Selbstreferenz auf einen Artikel des eigenen SR 832.207 vor; daher werden hier keine eigenen Artikel des Dokuments zugeordnet."
+  }
+]

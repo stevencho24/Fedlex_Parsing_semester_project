@@ -1,0 +1,125 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 817.02",
+    "assigned_articles": [
+      "Art. 47 Abs. 5",
+      "Art. 66 Abs. 4",
+      "Art. 92",
+      "Art. 95 Abs. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Präambel nennt ausdrücklich: «gestützt auf die Artikel 47 Absatz 5, 66 Absatz 4, 92 und 95 Absatz 3 … SR 817.02 (LGV)»; alle genannten Artikel gehören daher zur LGV (SR 817.02)."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 930.11",
+    "assigned_articles": [
+      "Art. 1 Abs. 4"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Snippet: «gebrauchtes Spielzeug im Sinne von Artikel 1 Absatz 4 des Bundesgesetzes … SR 930.11 über die Produktesicherheit»; der Artikel ist direkt mit SR 930.11 verknüpft."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_17",
+    "TARGET_SR": "SR 946.512",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "Formulierung: «nach der Akkreditierungs- und Bezeichnungsverordnung vom 17. Juni 1996 SR 946.512 akkreditiert sein»; kein bestimmter Artikel wird genannt, es geht um die Akkreditierung nach der Verordnung insgesamt."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_17",
+    "TARGET_SR": "SR 946.51",
+    "assigned_articles": [
+      "Art. 18 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Text: «… den Anforderungen nach Artikel 18 Absatz 2 des Bundesgesetzes vom 6. Oktober 1995 SR 946.51 über die technischen Handelshemmnisse genügen.»; eindeutige Zuordnung zu Art. 18 Abs. 2 THG (SR 946.51)."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 817.02",
+    "assigned_articles": [
+      "Art. 65"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet: «Diese Verordnung gilt für Spielzeug nach Artikel 65 LGV.»; LGV ist SR 817.02 gemäss Präambel, daher Verweis auf Art. 65 LGV."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": "SR 817.02",
+    "assigned_articles": [
+      "Art. 66 Abs. 1–3"
+    ],
+    "confidence": "high",
+    "reasoning": "Text: «die allgemeinen Sicherheitsanforderungen nach Artikel 66 Absätze 1–3 LGV»; LGV = SR 817.02, somit Verweis auf Art. 66 Abs. 1–3 LGV."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "Gleicher Inhalt wie ITEM 2, aber ohne explizite SR-Nennung im Snippet; als artikel_reference ohne SR-Kontext ist dies eine Wiederholung der bereits zu SR 930.11 zugeordneten Stelle und wird hier als interne Referenz der aktuellen Verordnung behandelt."
+  },
+  {
+    "ITEM": 8,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "Inhaltlich identisch mit ITEM 6, aber als artikel_reference ohne explizite SR-Angabe; die Zuordnung zu SR 817.02/Art. 66 Abs. 1–3 ist bereits bei ITEM 6 erfolgt, daher hier nur Selbstverweis innerhalb der Verordnung."
+  },
+  {
+    "ITEM": 9,
+    "ARTICLE_EID": "art_11",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 12"
+    ],
+    "confidence": "high",
+    "reasoning": "«… die Baumusterprüfung nach Artikel 12 in Verbindung mit dem Verfahren …»; kein externes SR genannt, daher Verweis auf Art. 12 derselben Verordnung (interne Struktur)."
+  },
+  {
+    "ITEM": 10,
+    "ARTICLE_EID": "art_12",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 9"
+    ],
+    "confidence": "high",
+    "reasoning": "«… gemeinsam mit der Herstellerin die nach Artikel 9 durchgeführte Sicherheitsbewertung.»; ohne SR-Kontext ist dies ein Verweis auf Art. 9 der aktuellen Verordnung."
+  },
+  {
+    "ITEM": 11,
+    "ARTICLE_EID": "art_17",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 18 Abs. 2"
+    ],
+    "confidence": "medium",
+    "reasoning": "Text entspricht inhaltlich ITEM 4, wo klar SR 946.51 genannt wird. Als artikel_reference ohne SR-Angabe wird dies formal als interner Verweis erfasst, verweist aber materiell auf Art. 18 Abs. 2 THG; mangels expliziter SR-Nennung hier nur mittlere Sicherheit."
+  },
+  {
+    "ITEM": 12,
+    "ARTICLE_EID": "art_18",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 10"
+    ],
+    "confidence": "high",
+    "reasoning": "«… die technischen Unterlagen nach Artikel 10 erstellt werden.»; kein SR im Kontext, daher klarer Selbstverweis auf Art. 10 derselben Verordnung."
+  }
+]

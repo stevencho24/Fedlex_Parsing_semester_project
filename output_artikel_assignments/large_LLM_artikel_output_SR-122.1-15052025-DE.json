@@ -1,0 +1,33 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 101",
+    "assigned_articles": [
+      "Art. 123 Abs. 1",
+      "Art. 173 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Formulierung \"gestützt auf die Artikel 123 Absatz 1 und 173 Absatz 2 der Bundesverfassung SR 101\" verknüpft die genannten Artikel syntaktisch eindeutig mit der Bundesverfassung (SR 101); beide Artikelangaben stehen direkt vor der SR-Nennung und gehören daher zu SR 101."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 311.0",
+    "assigned_articles": [
+      "Art. 260ter Abs. 1 Bst. a Ziff. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Snippet heisst es \"nach Artikel 260ter Absatz 1 Buchstabe a Ziffer 2 des Strafgesetzbuchs SR 311.0\"; der Artikel wird unmittelbar mit dem Strafgesetzbuch verknüpft, das durch SR 311.0 bezeichnet ist. Damit ist klar, dass Art. 260ter Abs. 1 Bst. a Ziff. 2 zum StGB (SR 311.0) gehört."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 260ter Abs. 1 Bst. a Ziff. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Formulierung \"nach Artikel 260ter Absatz 1 Buchstabe a Ziffer 2 des Strafgesetzbuchs\" ist eine Wiederholung der Referenz aus ITEM 2, jedoch ohne explizite SR-Nummer. Sie verweist auf denselben externen Artikel des Strafgesetzbuchs; als artikel_reference ohne TARGET_SR wird hier nur der referenzierte Artikel selbst ausgewiesen, ohne eine SR-Zuordnung vorzunehmen."
+  }
+]

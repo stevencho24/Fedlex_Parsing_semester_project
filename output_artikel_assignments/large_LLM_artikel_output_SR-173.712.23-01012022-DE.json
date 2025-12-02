@@ -1,0 +1,72 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 173.71",
+    "assigned_articles": [
+      "Art. 22 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Formulierung \"gestützt auf Artikel 22 Absatz 1 des Strafbehördenorganisationsgesetzes ... SR 173.71 (StBOG)\" verknüpft den genannten Artikel syntaktisch eindeutig mit SR 173.71."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_6",
+    "TARGET_SR": "SR 172.220.111.3",
+    "assigned_articles": [
+      "Art. 36"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Satz \"in der Lohnklasse 36 nach Artikel 36 der Bundespersonalverordnung ... SR 172.220.111.3 (BPV)\" folgt die SR-Angabe direkt auf die Bezeichnung der Verordnung; \"Artikel 36\" ist damit klar dieser SR zugeordnet."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_14",
+    "TARGET_SR": "SR 311.0",
+    "assigned_articles": [
+      "Art. 320 Ziff. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Passage \"(Art. 320 Ziff. 2 des Strafgesetzbuches SR 311.0)\" nennt explizit Artikel und Ziffer des Strafgesetzbuches; diese stehen unmittelbar bei der SR-Angabe und gehören daher zu SR 311.0."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": "SR 173.71",
+    "assigned_articles": [
+      "Art. 20 Abs. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Satz \"Die Amtsdauer richtet sich nach Artikel 20 Absatz 3 StBOG\" verweist über das Akronym StBOG (im Vorspann als SR 173.71 definiert) eindeutig auf Art. 20 Abs. 3 dieser SR."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_6",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document or to BPV without explicit SR-link in this item"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Stelle \"nach Artikel 36 der Bundespersonalverordnung ... (BPV)\" wiederholt den bereits in ITEM 2 erfassten Verweis auf Art. 36 BPV. Da hier kein SR-Fundstellenlink angegeben ist und der Artikel bereits über ITEM 2 SR 172.220.111.3 zugeordnet wurde, handelt es sich für diesen item_type um eine interne/duplizierte Referenz, nicht um eine neue SR-Zuordnung."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_6",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document or to BPV without explicit SR-link in this item"
+    ],
+    "confidence": "medium",
+    "reasoning": "Die Formulierung \"Leistungsprämien nach Artikel 49 BPV\" verweist offensichtlich auf Art. 49 der Bundespersonalverordnung (BPV). In diesem item fehlt jedoch ein expliziter SR-Link; die Zuordnung zu SR 172.220.111.3 ergibt sich nur kontextuell aus anderen Items. Gemäss Vorgabe für artikel_reference ohne eigenen SR-Link wird dies als interne bzw. kontextabhängige Referenz behandelt, nicht als eigenständige SR-Zuordnung."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_14",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document or to StGB without explicit SR-link in this item"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Passage \"(Art. 320 Ziff. 2 des Strafgesetzbuches)\" entspricht inhaltlich dem in ITEM 3 bereits mit SR 311.0 verknüpften Verweis. Da hier kein SR-Link im Item vorhanden ist und der Bezug zu SR 311.0 nur über Kontext hergestellt werden kann, wird dies als interne/duplizierte Referenz gewertet, nicht als neue SR-Zuordnung."
+  }
+]

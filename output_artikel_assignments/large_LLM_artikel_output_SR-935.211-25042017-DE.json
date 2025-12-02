@@ -1,0 +1,93 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 935.21",
+    "assigned_articles": [
+      "Art. 4 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Formulierung «gestützt auf Artikel 4 Absatz 2 des Bundesgesetzes … SR 935.21» verweist eindeutig auf Art. 4 Abs. 2 des Gesetzes über Schweiz Tourismus."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_10",
+    "TARGET_SR": "SR 220",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "«untersteht dem Obligationenrecht SR 220» verweist allgemein auf das Obligationenrecht ohne Nennung bestimmter Artikel."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_10",
+    "TARGET_SR": "SR 172.220.12",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "medium",
+    "reasoning": "«die entsprechenden Vorgaben der Kaderlohnverordnung … SR 172.220.12 sinngemäss anwendbar» nennt keine konkreten Artikel; es handelt sich um eine generelle Verweisung auf die Verordnung."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_14",
+    "TARGET_SR": "SR 220",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "«untersteht dem Obligationenrecht SR 220» ist eine pauschale Unterstellung unter das OR ohne Artikelangabe."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_15",
+    "TARGET_SR": "SR 220",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "medium",
+    "reasoning": "«die Vorschriften des Obligationenrechts SR 220 zur ordentlichen Revision» deutet zwar auf den Revisionsabschnitt, nennt aber keine konkreten Artikel; daher als allgemeine, thematisch begrenzte, aber nicht artikelscharfe Verweisung behandelt."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_18",
+    "TARGET_SR": "SR 220",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "medium",
+    "reasoning": "«Für die Buchführung und die Bilanzierung sind die Vorschriften des Obligationenrechts SR 220 anwendbar» verweist auf die Rechnungslegungsvorschriften, ohne bestimmte Artikel zu nennen; daher allgemeine, sachlich eingegrenzte, aber nicht artikelscharfe Verweisung."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_19",
+    "TARGET_SR": "SR 172.220.111.3",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "medium",
+    "reasoning": "Die Bezugnahme auf die Bundespersonalverordnung SR 172.220.111.3 («Lohnklasse 34–37») nennt keinen Artikel; es ist eine pauschale Bezugnahme auf deren Lohnklassensystem."
+  },
+  {
+    "ITEM": 8,
+    "ARTICLE_EID": "art_20",
+    "TARGET_SR": "SR 172.220.12",
+    "assigned_articles": [
+      "Art. 5",
+      "Art. 9 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Satz nennt ausdrücklich «nach den Artikeln 5 und 9 Absatz 2 der Kaderlohnverordnung … SR 172.220.12»; diese Artikel sind klar dem genannten SR zugeordnet."
+  },
+  {
+    "ITEM": 9,
+    "ARTICLE_EID": "art_20",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "artikel_reference ohne SR; die Verweise «Artikeln 5 und 9 Absatz 2» sowie «Artikel 5 der Kaderlohnverordnung» stehen hier ohne explizite SR-Angabe und dienen als Wiederholung der bereits in ITEM 8 zugeordneten externen Verweise. Im Sinne der Regeln wird dies als interne/kontextuelle Referenz im aktuellen Dokument behandelt, nicht als neue SR-Verknüpfung."
+  }
+]

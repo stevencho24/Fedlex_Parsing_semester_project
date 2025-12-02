@@ -1,0 +1,28 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 951.11",
+    "assigned_articles": [
+      "Art. 31 Abs. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet explicitly cites 'Artikel 31 Absatz 3 des Nationalbankgesetzes ... SR 951.11 (NGB)'; this article reference is directly and syntactically linked to SR 951.11."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "The snippet contains 'Art. 31 Abs. 3 NBG', which refers to the external law SR 951.11, but this article reference is already captured and assigned in ITEM 1. As an artikel_reference item without TARGET_SR, and given the prior assignment, no new SR link is created here."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "The snippet mentions 'Artikel 31 Absatz 2 NBG', again referring to SR 951.11. However, as an artikel_reference item with no TARGET_SR, its role is to show cross-references. It does not introduce a new SR link distinct from the already established NBG reference, so no separate SR assignment is made."
+  }
+]

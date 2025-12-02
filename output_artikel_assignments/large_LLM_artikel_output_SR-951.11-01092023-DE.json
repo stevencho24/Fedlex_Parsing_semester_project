@@ -1,0 +1,436 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 101",
+    "assigned_articles": [
+      "Art. 99",
+      "Art. 100",
+      "Art. 123"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet explicitly cites 'Artikel 99, 100 und 123 der Bundesverfassung SR 101'; these articles are directly linked to SR 101."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": "SR 220",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "Reference is to 'die aktienrechtlichen Vorschriften des Obligationenrechts (OR) SR 220' without specific article numbers; this is a general applicability clause."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_14",
+    "TARGET_SR": "SR 235.1",
+    "assigned_articles": [
+      "Art. 39"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet: 'Artikel 39 des Datenschutzgesetzes ... SR 235.1 (DSG)'; clear direct marking of Art. 39 to SR 235.1."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_15",
+    "TARGET_SR": "SR 954.1",
+    "assigned_articles": [
+      "Art. 2 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "Phrase 'Finanzinstitute nach Artikel 2 Absatz 1 des Finanzinstitutsgesetzes ... SR 954.1' directly links Art. 2 Abs. 1 to SR 954.1."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_15",
+    "TARGET_SR": "SR 951.31",
+    "assigned_articles": [
+      "Art. 13 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet: 'Bewilligungsträger nach Artikel 13 Absatz 2 des Kollektivanlagengesetzes ... SR 951.31'; Art. 13 Abs. 2 is clearly tied to SR 951.31."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_16",
+    "TARGET_SR": "SR 235.1",
+    "assigned_articles": [
+      "Art. 39"
+    ],
+    "confidence": "high",
+    "reasoning": "Text 'ungeachtet von Artikel 39 DSG SR 235.1' directly associates Art. 39 with SR 235.1."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_19",
+    "TARGET_SR": "SR 958.1",
+    "assigned_articles": [
+      "Art. 22"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet: 'DLT-Handelssysteme nach Artikel 22 des Finanzmarktinfrastrukturgesetzes ... SR 958.1 (FinfraG)'; Art. 22 is explicitly linked to SR 958.1."
+  },
+  {
+    "ITEM": 8,
+    "ARTICLE_EID": "art_20",
+    "TARGET_SR": "SR 958.1",
+    "assigned_articles": [
+      "Art. 73a"
+    ],
+    "confidence": "high",
+    "reasoning": "Phrase 'DLT-Handelssysteme nach Artikel 73a FinfraG SR 958.1' clearly ties Art. 73a to SR 958.1."
+  },
+  {
+    "ITEM": 9,
+    "ARTICLE_EID": "art_20",
+    "TARGET_SR": "SR 958.1",
+    "assigned_articles": [
+      "Art. 84"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet: 'nach Artikel 84 FinfraG SR 958.1 beauftragte Prüfgesellschaften'; Art. 84 is directly marked as belonging to SR 958.1."
+  },
+  {
+    "ITEM": 10,
+    "ARTICLE_EID": "art_23",
+    "TARGET_SR": "SR 958.1",
+    "assigned_articles": [
+      "Art. 23"
+    ],
+    "confidence": "high",
+    "reasoning": "Text 'nach Artikel 23 FinfraG SR 958.1' explicitly links Art. 23 to SR 958.1."
+  },
+  {
+    "ITEM": 11,
+    "ARTICLE_EID": "art_24",
+    "TARGET_SR": "SR 313.0",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "medium",
+    "reasoning": "Reference is to 'nach den Vorschriften des Bundesgesetzes ... SR 313.0 über das Verwaltungsstrafrecht' without specific articles; it invokes the VStrR as a whole for procedure."
+  },
+  {
+    "ITEM": 12,
+    "ARTICLE_EID": "art_24",
+    "TARGET_SR": "SR 956.1",
+    "assigned_articles": [
+      "Art. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet: 'Finanzmarktgesetze nach Artikel 1 des Finanzmarktaufsichtsgesetzes ... SR 956.1'; Art. 1 is clearly tied to SR 956.1."
+  },
+  {
+    "ITEM": 13,
+    "ARTICLE_EID": "art_26",
+    "TARGET_SR": "SR 952.0",
+    "assigned_articles": [
+      "Art. 3a"
+    ],
+    "confidence": "high",
+    "reasoning": "Text 'Kantonalbanken im Sinne von Artikel 3a des Bankengesetzes ... SR 952.0' directly links Art. 3a to SR 952.0."
+  },
+  {
+    "ITEM": 14,
+    "ARTICLE_EID": "art_29",
+    "TARGET_SR": "SR 220",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "medium",
+    "reasoning": "Reference to 'den Vorschriften des zweiunddreissigsten Titels des OR SR 220 über die kaufmännische Buchführung und Rechnungslegung' concerns a whole title; no specific articles are named."
+  },
+  {
+    "ITEM": 15,
+    "ARTICLE_EID": "art_42",
+    "TARGET_SR": "SR 172.220.1",
+    "assigned_articles": [
+      "Art. 6a Abs. 1–6"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet: 'Artikel 6a Absätze 1–6 des Bundespersonalgesetzes ... SR 172.220.1'; explicit range within Art. 6a is tied to SR 172.220.1."
+  },
+  {
+    "ITEM": 16,
+    "ARTICLE_EID": "art_47",
+    "TARGET_SR": "SR 220",
+    "assigned_articles": [
+      "Art. 727b"
+    ],
+    "confidence": "high",
+    "reasoning": "Text 'im Sinne von Artikel 727b OR SR 220' clearly associates Art. 727b with SR 220."
+  },
+  {
+    "ITEM": 17,
+    "ARTICLE_EID": "art_51",
+    "TARGET_SR": "SR 170.32",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "medium",
+    "reasoning": "Reference is to 'das Bundesgesetz ... SR 170.32 über die Verantwortlichkeit des Bundes ...' without article numbers; it imports the general liability regime."
+  },
+  {
+    "ITEM": 18,
+    "ARTICLE_EID": "art_52",
+    "TARGET_SR": "SR 952.0",
+    "assigned_articles": [
+      "Art. 8"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet: 'nach Artikel 8 des Bankengesetzes ... SR 952.0' directly links Art. 8 to SR 952.0."
+  },
+  {
+    "ITEM": 19,
+    "ARTICLE_EID": "art_52",
+    "TARGET_SR": "SR 958.1",
+    "assigned_articles": [
+      "Art. 23",
+      "Art. 25"
+    ],
+    "confidence": "high",
+    "reasoning": "Text 'nach den Artikeln 23 und 25 FinfraG SR 958.1' explicitly associates Arts. 23 and 25 with SR 958.1."
+  },
+  {
+    "ITEM": 20,
+    "ARTICLE_EID": "art_52",
+    "TARGET_SR": "SR 281.1",
+    "assigned_articles": [
+      "Art. 80"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet: 'im Sinne von Artikel 80 des Bundesgesetzes ... SR 281.1 über Schuldbetreibung und Konkurs'; Art. 80 is clearly tied to SR 281.1."
+  },
+  {
+    "ITEM": 21,
+    "ARTICLE_EID": "art_6",
+    "TARGET_SR": "SR 951.11",
+    "assigned_articles": [
+      "Art. 5 Abs. 1",
+      "Art. 5 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Artikelreferenz 'nach Artikel 5 Absätze 1 und 2' refers to provisions within the same law (SR 951.11); no external SR is mentioned."
+  },
+  {
+    "ITEM": 22,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": "SR 951.11",
+    "assigned_articles": [
+      "Art. 5"
+    ],
+    "confidence": "high",
+    "reasoning": "Phrase 'gemäss Artikel 5' is an internal reference within the Nationalbankgesetz (SR 951.11); no other SR context."
+  },
+  {
+    "ITEM": 23,
+    "ARTICLE_EID": "art_9",
+    "TARGET_SR": "SR 951.11",
+    "assigned_articles": [
+      "Art. 5 Abs. 1",
+      "Art. 5 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Reference 'nach Artikel 5 Absätze 1 und 2' clearly points to internal articles of the same act SR 951.11."
+  },
+  {
+    "ITEM": 24,
+    "ARTICLE_EID": "art_14",
+    "TARGET_SR": "SR 951.11",
+    "assigned_articles": [
+      "Art. 16 Abs. 4",
+      "Art. 16 Abs. 4bis",
+      "Art. 50a",
+      "Art. 50b"
+    ],
+    "confidence": "high",
+    "reasoning": "The clause 'ungeachtet der Artikel 16 Absätze 4 und 4bis, 50a und 50b des vorliegenden Gesetzes' is explicitly self-referential ('des vorliegenden Gesetzes' = SR 951.11)."
+  },
+  {
+    "ITEM": 25,
+    "ARTICLE_EID": "art_15",
+    "TARGET_SR": "SR 951.11",
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Snippet contains 'Artikel 2 Absatz 1 des Finanzinstitutsgesetzes' and 'Artikel 13 Absatz 2 des Kollektivanlagengesetzes', which belong to SR 954.1 and SR 951.31 respectively and are already captured in items 4 and 5; no additional internal self-reference beyond the current article."
+  },
+  {
+    "ITEM": 26,
+    "ARTICLE_EID": "art_16",
+    "TARGET_SR": "SR 951.11",
+    "assigned_articles": [
+      "Art. 14 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Reference 'an die in Artikel 14 Absatz 2 genannten Behörden' is clearly to another provision of the same law SR 951.11."
+  },
+  {
+    "ITEM": 27,
+    "ARTICLE_EID": "art_16_a",
+    "TARGET_SR": "SR 951.11",
+    "assigned_articles": [
+      "Art. 5 Abs. 2 Bst. e"
+    ],
+    "confidence": "high",
+    "reasoning": "Text 'gemäss Artikel 5 Absatz 2 Buchstabe e' is an internal cross-reference within SR 951.11."
+  },
+  {
+    "ITEM": 28,
+    "ARTICLE_EID": "art_19",
+    "TARGET_SR": "SR 951.11",
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "The only article reference is 'Artikel 22 des Finanzmarktinfrastrukturgesetzes (FinfraG)', which belongs to SR 958.1 and is already assigned in item 7; no internal self-reference."
+  },
+  {
+    "ITEM": 29,
+    "ARTICLE_EID": "art_20",
+    "TARGET_SR": "SR 951.11",
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Reference 'Artikel 73a FinfraG' belongs to SR 958.1 and is handled in item 8; no additional internal article reference."
+  },
+  {
+    "ITEM": 30,
+    "ARTICLE_EID": "art_20",
+    "TARGET_SR": "SR 951.11",
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Reference 'Artikel 84 FinfraG' is external (SR 958.1) and already captured in item 9; no internal article of SR 951.11 is cited."
+  },
+  {
+    "ITEM": 31,
+    "ARTICLE_EID": "art_23",
+    "TARGET_SR": "SR 951.11",
+    "assigned_articles": [
+      "Art. 23",
+      "Art. 21 Bst. b"
+    ],
+    "confidence": "high",
+    "reasoning": "First reference 'nach Artikel 23 FinfraG' is external (SR 958.1, item 10). The phrase 'Artikel 21 Buchstabe b dieses Gesetzes' is an internal self-reference to SR 951.11; also, the current article (Art. 23) is mentioned as 'die besonderen Anforderungen nach Artikel 23 FinfraG', but that is external; thus only Art. 21 Bst. b is internal."
+  },
+  {
+    "ITEM": 32,
+    "ARTICLE_EID": "art_24",
+    "TARGET_SR": "SR 951.11",
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Reference 'Art. 7 des BG ... über das Verwaltungsstrafrecht' belongs to SR 313.0 and is already covered in item 11; no internal article of SR 951.11 is cited."
+  },
+  {
+    "ITEM": 33,
+    "ARTICLE_EID": "art_24",
+    "TARGET_SR": "SR 951.11",
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Reference 'Artikel 6 des Bundesgesetzes ... über das Verwaltungsstrafrecht' is external (SR 313.0); no self-reference to SR 951.11."
+  },
+  {
+    "ITEM": 34,
+    "ARTICLE_EID": "art_24",
+    "TARGET_SR": "SR 951.11",
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Reference 'Artikel 1 des Finanzmarktaufsichtsgesetzes' is external (SR 956.1, item 12); no internal article of SR 951.11 is mentioned."
+  },
+  {
+    "ITEM": 35,
+    "ARTICLE_EID": "art_26",
+    "TARGET_SR": "SR 951.11",
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Reference 'Artikel 3a des Bankengesetzes' is external (SR 952.0, item 13); no internal self-reference."
+  },
+  {
+    "ITEM": 36,
+    "ARTICLE_EID": "art_42",
+    "TARGET_SR": "SR 951.11",
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Reference 'Artikel 6a Absätze 1–6 des Bundespersonalgesetzes' is external (SR 172.220.1, item 15); no internal article of SR 951.11 is cited."
+  },
+  {
+    "ITEM": 37,
+    "ARTICLE_EID": "art_45",
+    "TARGET_SR": "SR 951.11",
+    "assigned_articles": [
+      "Art. 43"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet 'Ersatzwahlen nach Artikel 43 vorzunehmen' is a clear internal cross-reference within the same act SR 951.11."
+  },
+  {
+    "ITEM": 38,
+    "ARTICLE_EID": "art_46",
+    "TARGET_SR": "SR 951.11",
+    "assigned_articles": [
+      "Art. 7"
+    ],
+    "confidence": "high",
+    "reasoning": "Phrase 'erfüllt die Rechenschaftspflicht gemäss Artikel 7' refers to Art. 7 of the same law SR 951.11."
+  },
+  {
+    "ITEM": 39,
+    "ARTICLE_EID": "art_50_a",
+    "TARGET_SR": "SR 951.11",
+    "assigned_articles": [
+      "Art. 5"
+    ],
+    "confidence": "high",
+    "reasoning": "Text 'Zur Erfüllung ihrer Aufgaben nach Artikel 5' is an internal reference to Art. 5 of SR 951.11."
+  },
+  {
+    "ITEM": 40,
+    "ARTICLE_EID": "art_50_b",
+    "TARGET_SR": "SR 951.11",
+    "assigned_articles": [
+      "Art. 5"
+    ],
+    "confidence": "high",
+    "reasoning": "Again 'zur Erfüllung ihrer Aufgaben nach Artikel 5' clearly refers to Art. 5 of the same act SR 951.11."
+  },
+  {
+    "ITEM": 41,
+    "ARTICLE_EID": "art_52",
+    "TARGET_SR": "SR 951.11",
+    "assigned_articles": [
+      "Art. 15",
+      "Art. 16a",
+      "Art. 18",
+      "Art. 20",
+      "Art. 22",
+      "Art. 23"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet: 'Entscheide nach den Artikeln 15, 16a, 18, 20, 22 und 23 dieses Gesetzes' is explicitly self-referential to these articles within SR 951.11."
+  },
+  {
+    "ITEM": 42,
+    "ARTICLE_EID": "art_52",
+    "TARGET_SR": "SR 951.11",
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Reference 'Artikel 80 des Bundesgesetzes ... über Schuldbetreibung und Konkurs' is external (SR 281.1, item 20); no internal article of SR 951.11 is cited."
+  },
+  {
+    "ITEM": 43,
+    "ARTICLE_EID": "art_53",
+    "TARGET_SR": "SR 951.11",
+    "assigned_articles": [
+      "Art. 31"
+    ],
+    "confidence": "high",
+    "reasoning": "Phrase 'Vereinbarung über die Gewinnausschüttung nach Artikel 31' is an internal cross-reference to Art. 31 of SR 951.11."
+  },
+  {
+    "ITEM": 44,
+    "ARTICLE_EID": "art_59",
+    "TARGET_SR": "SR 951.11",
+    "assigned_articles": [
+      "Art. 4 Anhang Ziff. II 5"
+    ],
+    "confidence": "medium",
+    "reasoning": "Snippet is a transitional provision: 'Anhang Ziff. II 5 Art. 4'; this refers to Art. 4 of an annexed amendment within the same legislative context; treated as an internal structural reference."
+  }
+]

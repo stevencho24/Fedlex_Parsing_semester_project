@@ -1,0 +1,120 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 101",
+    "assigned_articles": [
+      "Art. 87",
+      "Art. 92",
+      "Art. 110"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Präambel nennt ausdrücklich «gestützt auf die Artikel 87, 92 und 110 der Bundesverfassung SR 101»; diese Artikel gehören damit klar zur SR 101."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 742.101",
+    "assigned_articles": [
+      "Art. 5"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Satzteil «über eine Konzession nach Artikel 5 des Eisenbahngesetzes ... SR 742.101» ist Art. 5 grammatikalisch direkt dem Eisenbahngesetz (SR 742.101) zugeordnet."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 745.1",
+    "assigned_articles": [
+      "Art. 6",
+      "Art. 7",
+      "Art. 8"
+    ],
+    "confidence": "high",
+    "reasoning": "Formulierung «Konzession oder Bewilligung nach den Artikeln 6–8 des Personenbeförderungsgesetzes ... SR 745.1»; der Artikelsbereich 6–8 bezieht sich eindeutig auf das Personenbeförderungsgesetz (SR 745.1)."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_16",
+    "TARGET_SR": "SR 822.11",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "medium",
+    "reasoning": "Es heisst allgemein «gelten die Sonderschutzvorschriften des Arbeitsgesetzes ... SR 822.11» ohne Nennung bestimmter Artikel; dies ist eine generelle Verweisung auf das Arbeitsgesetz."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_17",
+    "TARGET_SR": "SR 822.11",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "medium",
+    "reasoning": "Die Passage «gelten die Bestimmungen des Arbeitsgesetzes ... SR 822.11» verweist ohne Artikelsangabe pauschal auf das Gesetz; daher allgemeine Dokumentverweisung."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_24",
+    "TARGET_SR": "SR 311.0",
+    "assigned_articles": [
+      "Art. 333"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Autorentext steht «Fassung gemäss Art. 333 des Strafgesetzbuches (SR 311.0)»; Art. 333 ist explizit dem Strafgesetzbuch SR 311.0 zugeordnet."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_25",
+    "TARGET_SR": "SR 311.0",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "medium",
+    "reasoning": "Formulierung «Die besonderen Bestimmungen des Strafgesetzbuches SR 311.0 bleiben vorbehalten» nennt keine konkreten Artikel und verweist auf die besonderen Bestimmungen insgesamt."
+  },
+  {
+    "ITEM": 8,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 5",
+      "Art. 6",
+      "Art. 7",
+      "Art. 8"
+    ],
+    "confidence": "high",
+    "reasoning": "artikel_reference ohne TARGET_SR; der Satz nennt «Artikel 5» sowie «Artikeln 6–8». Diese beziehen sich auf externe Gesetze (Eisenbahngesetz, Personenbeförderungsgesetz), nicht auf das vorliegende Gesetz; daher als interne Querverweise des Snippets erfasst, aber ohne Zuordnung zu einer bestimmten SR."
+  },
+  {
+    "ITEM": 9,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "«... die in einem Unternehmen nach Artikel 1 beschäftigt werden» ist eine klassische Selbstverweisung innerhalb desselben Gesetzes auf Art. 1; kein externer SR-Bezug."
+  },
+  {
+    "ITEM": 10,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 4 Abs. 3",
+      "Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Text verweist auf «Artikel 4 Absatz 3» und «gemäss Absatz 2»; beides sind interne Verweise innerhalb desselben Gesetzes (Art. 4 Abs. 3 und Art. 5 Abs. 2)."
+  },
+  {
+    "ITEM": 11,
+    "ARTICLE_EID": "art_28",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 66"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Aufhebungsartikel wird u.a. «Artikel 66 des Bundesgesetzes vom 13. März 1964 über die Arbeit in Industrie, Gewerbe und Handel» genannt; dies ist ein Verweis auf Art. 66 dieses anderen Bundesgesetzes, ohne explizite SR-Nummer, daher als Artikelangabe ohne TARGET_SR erfasst."
+  }
+]

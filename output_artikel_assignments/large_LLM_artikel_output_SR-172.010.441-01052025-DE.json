@@ -1,0 +1,132 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 172.010",
+    "assigned_articles": [
+      "Art. 57hter"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Formulierung «gestützt auf Artikel 57hter des Regierungs- und Verwaltungsorganisationsgesetzes … SR 172.010 (RVOG)» verknüpft den genannten Artikel direkt mit dem Gesetz SR 172.010."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 172.010.1",
+    "assigned_articles": [
+      "Art. 7"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Snippet steht «nach Artikel 7 der Regierungs- und Verwaltungsorganisationsverordnung … SR 172.010.1 (RVOV)»; Artikel 7 ist damit eindeutig dieser Verordnung zugeordnet."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 172.019.1",
+    "assigned_articles": [
+      "Art. 11 Abs. 4"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Passage «die Stellen nach Artikel 11 Absatz 4 der Digitalisierungsverordnung … SR 172.019.1» weist klar auf Art. 11 Abs. 4 dieser Verordnung hin."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": "SR 172.010.1",
+    "assigned_articles": [
+      "Art. 22"
+    ],
+    "confidence": "high",
+    "reasoning": "«… im Sinne von Artikel 22 RVOV SR 172.010.1 …» verbindet Art. 22 ausdrücklich mit der RVOV (SR 172.010.1)."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_11",
+    "TARGET_SR": "SR 128.1",
+    "assigned_articles": [
+      "Art. 19"
+    ],
+    "confidence": "high",
+    "reasoning": "«Informationen, die nach Artikel 19 der Informationssicherheitsverordnung … SR 128.1 …» nennt Art. 19 direkt in Bezug auf SR 128.1."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": "SR 172.010",
+    "assigned_articles": [
+      "Art. 57h"
+    ],
+    "confidence": "high",
+    "reasoning": "Die preamble_acronym-Stelle lautet «… im Sinne von Artikel 57h RVOG …»; RVOG ist in der Präambel als SR 172.010 definiert, somit gehört Art. 57h zu SR 172.010."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "Artikel 7 bezieht sich hier auf die Regierungs- und Verwaltungsorganisationsverordnung (RVOV), die bereits in ITEM 2 mit SR 172.010.1 verknüpft ist; dieser artikel_reference dient nur der Wiederholung ohne neue SR-Zuordnung."
+  },
+  {
+    "ITEM": 8,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "Artikel 11 Absatz 4 der Digitalisierungsverordnung ist bereits in ITEM 3 mit SR 172.019.1 verknüpft; der artikel_reference wiederholt lediglich diese Angabe ohne zusätzliche SR-Verknüpfung."
+  },
+  {
+    "ITEM": 9,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 172.010.1",
+    "assigned_articles": [
+      "Art. 7a"
+    ],
+    "confidence": "high",
+    "reasoning": "«… Verwaltungseinheiten der dezentralen Bundesverwaltung nach Artikel 7a RVOV …»; RVOV ist die Regierungs- und Verwaltungsorganisationsverordnung (SR 172.010.1), daher gehört Art. 7a zu SR 172.010.1."
+  },
+  {
+    "ITEM": 10,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Verweis «(Art. 10)» erfolgt ohne Nennung eines Gesetzes oder einer Verordnung und bezieht sich syntaktisch auf einen Artikel derselben Verordnung; daher reine Selbstreferenz."
+  },
+  {
+    "ITEM": 11,
+    "ARTICLE_EID": "art_11",
+    "TARGET_SR": "SR 128.1",
+    "assigned_articles": [
+      "Art. 19"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Text entspricht inhaltlich ITEM 5, nur ohne explizite SR-Angabe; «Artikel 19 der Informationssicherheitsverordnung» ist dieselbe Norm wie in ITEM 5 (SR 128.1, Art. 19)."
+  },
+  {
+    "ITEM": 12,
+    "ARTICLE_EID": "art_11",
+    "TARGET_SR": "SR 128.1",
+    "assigned_articles": [
+      "Art. 20"
+    ],
+    "confidence": "high",
+    "reasoning": "«Artikel 20 der Informationssicherheitsverordnung» steht im selben Kontext wie Artikel 19 der Informationssicherheitsverordnung (ITEM 5/11), die eindeutig SR 128.1 ist; daher Zuordnung zu SR 128.1, Art. 20."
+  },
+  {
+    "ITEM": 13,
+    "ARTICLE_EID": "art_21",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«… auch wenn die Voraussetzungen nach Artikel 3 Absatz 2 nicht erfüllt sind …» enthält keinen Hinweis auf ein anderes SR-Dokument; es handelt sich um einen Verweis auf Art. 3 Abs. 2 derselben Verordnung."
+  }
+]

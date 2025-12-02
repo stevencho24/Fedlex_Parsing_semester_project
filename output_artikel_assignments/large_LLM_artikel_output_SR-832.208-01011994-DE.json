@@ -1,0 +1,35 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 832.20",
+    "assigned_articles": [
+      "Art. 87 Abs. 1",
+      "Art. 88 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Formulierung «gestützt auf die Artikel 87 Absatz 1 und 88 Absatz 2 des Unfallversicherungsgesetzes SR 832.20» verknüpft die genannten Artikel syntaktisch eindeutig mit SR 832.20."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 832.30",
+    "assigned_articles": [
+      "Art. 2 Abs. 2",
+      "Art. 2 Abs. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Snippet heisst es «nach Artikel 2 Absätze 2 und 3 der Verordnung ... SR 832.30 über die Verhütung von Unfällen und Berufskrankheiten»; damit sind Art. 2 Abs. 2 und 3 der Verordnung SR 832.30 direkt und eindeutig zugeordnet."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 2 Abs. 2",
+      "Art. 2 Abs. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "Dies ist eine reine Artikelreferenz ohne explizite SR-Nennung; sie wiederholt den Verweis aus ITEM 2 («Artikel 2 Absätze 2 und 3 der Verordnung ... über die Verhütung von Unfällen und Berufskrankheiten»). Mangels expliziter SR-Angabe ist dies als interne/kontextuelle Referenz zu verstehen; die genannten Artikel werden jedoch korrekt als Art. 2 Abs. 2 und 3 erkannt."
+  }
+]

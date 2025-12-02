@@ -1,0 +1,72 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 101",
+    "assigned_articles": [
+      "Art. 173 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Formulierung \"gestützt auf Artikel 173 Absatz 2 der Bundesverfassung SR 101\" verknüpft den genannten Artikel syntaktisch eindeutig mit SR 101."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_6",
+    "TARGET_SR": "SR 613.2",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Snippet wird nur das Bundesgesetz über den Finanz- und Lastenausgleich (SR 613.2) als Ganzes genannt, ohne spezifische Artikelangabe; daher handelt es sich um eine generelle Verweisung auf das gesamte Gesetz."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_14",
+    "TARGET_SR": "SR 172.010",
+    "assigned_articles": [
+      "Art. 8 Abs. 5"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Text lautet \"nach Artikel 8 Absatz 5 des Regierungs- und Verwaltungsorganisationsgesetzes ... SR 172.010\"; Artikel und Absatz sind direkt und eindeutig diesem Gesetz zugeordnet."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_8",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "Es wird lediglich \"Artikel 19\" ohne Gesetzesangabe erwähnt; dies ist eine innergesetzliche Selbstverweisung innerhalb desselben Erlasses (SR 614.0), nicht auf ein anderes SR-Dokument."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_14",
+    "TARGET_SR": "SR 172.010",
+    "assigned_articles": [
+      "Art. 8 Abs. 5"
+    ],
+    "confidence": "high",
+    "reasoning": "Inhaltlich identisch mit ITEM 3, nur ohne explizite Nennung der SR-Nummer im Snippet; \"Artikel 8 Absatz 5 des Regierungs- und Verwaltungsorganisationsgesetzes vom 21. März 1997\" bezieht sich klar auf Art. 8 Abs. 5 RVOG (SR 172.010)."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_17",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Verweise \"Artikel 16 Absatz 1\" und \"Art. 12\" erfolgen ohne Nennung eines anderen Gesetzes; sie beziehen sich auf Artikel desselben Erlasses (SR 614.0) und stellen reine Selbstverweise dar."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_17",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Verweis \"Artikel 16 Absatz 2\" enthält keine Gesetzesangabe und steht im Kontext desselben Gesetzes; somit handelt es sich um eine innergesetzliche Selbstverweisung innerhalb von SR 614.0."
+  }
+]

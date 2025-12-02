@@ -1,0 +1,92 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 101",
+    "assigned_articles": [
+      "Art. 76 Abs. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Formulierung «gestützt auf Artikel 76 Absatz 3 der Bundesverfassung SR 101» verknüpft den genannten Artikel grammatikalisch eindeutig mit SR 101."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": "SR 814.20",
+    "assigned_articles": [
+      "Art. 4 lit. n"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Snippet steht «nach Artikel 4 Buchstabe n des Gewässerschutzgesetzes ... SR 814.20»; Artikel und Buchstabe werden direkt diesem Gesetz zugeordnet."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": "SR 814.20",
+    "assigned_articles": [
+      "Art. 37"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Passage «nach Artikel 37 des Gewässerschutzgesetzes ... SR 814.20» ordnet Art. 37 klar dem Gewässerschutzgesetz (SR 814.20) zu."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_17",
+    "TARGET_SR": "SR 711",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "Es wird nur «das Bundesgesetz vom 20. Juni 1930 SR 711 über die Enteignung» als Ganzes für anwendbar erklärt; kein bestimmter Artikel wird genannt."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«Artikel 4 Buchstabe n des Gewässerschutzgesetzes» ist bereits in ITEM 2 eindeutig SR 814.20 zugeordnet; hier fehlt die SR-Angabe und der Kontext ist identisch, daher handelt es sich um dieselbe externe Norm und kein neuer SR-Link. Als artikel_reference ohne eigene SR-Verknüpfung ist dies eine interne Referenz im aktuellen Dokument."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«Artikel 37 des Gewässerschutzgesetzes» entspricht exakt der in ITEM 3 mit SR 814.20 verknüpften Stelle; hier wird ohne erneute SR-Nennung auf dieselbe externe Norm Bezug genommen. Als artikel_reference ohne TARGET_SR ist dies eine interne Querverweisung im aktuellen Dokument."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_9",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 6 (internal reference within current document)"
+    ],
+    "confidence": "high",
+    "reasoning": "«Abgeltungen nach Artikel 6» bezieht sich ersichtlich auf Art. 6 derselben Verordnung; es wird kein anderes Gesetz oder SR genannt."
+  },
+  {
+    "ITEM": 8,
+    "ARTICLE_EID": "art_9",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 7 (internal reference within current document)"
+    ],
+    "confidence": "high",
+    "reasoning": "«Finanzhilfen nach Artikel 7» verweist auf Art. 7 des eigenen Erlasses; es fehlt jeder Hinweis auf ein anderes SR-Dokument."
+  },
+  {
+    "ITEM": 9,
+    "ARTICLE_EID": "art_12",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 3 Abs. 2 (internal reference within current document)"
+    ],
+    "confidence": "high",
+    "reasoning": "«Projekte im Sinne von Artikel 3 Absatz 2» ist eine typische Selbstverweisung innerhalb derselben Verordnung; kein externes SR wird erwähnt."
+  }
+]

@@ -1,0 +1,302 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": "SR 952.0",
+    "assigned_articles": [
+      "Art. 3 Abs. 4"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Satz nennt ausdrücklich «Artikel 3 Absatz 4 des Bundesgesetzes ... SR 952.0»; damit ist klar, dass Art. 3 Abs. 4 des Bankengesetzes (SR 952.0) gemeint ist."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_26",
+    "TARGET_SR": "SR 210",
+    "assigned_articles": [
+      "Art. 899",
+      "Art. 900",
+      "Art. 901"
+    ],
+    "confidence": "high",
+    "reasoning": "Es heisst «nach den Artikeln 899–901 des Schweizerischen Zivilgesetzbuches SR 210»; die Spanne 899–901 bezieht sich klar auf das ZGB (SR 210)."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_38_a",
+    "TARGET_SR": "SR 221.302",
+    "assigned_articles": [
+      "Art. 9a Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "Formulierung «nach Artikel 9a Absatz 1 des Revisionsaufsichtsgesetzes ... SR 221.302» verknüpft Art. 9a Abs. 1 eindeutig mit SR 221.302."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_38_a",
+    "TARGET_SR": "SR 956.1",
+    "assigned_articles": [
+      "Art. 24"
+    ],
+    "confidence": "high",
+    "reasoning": "Im selben Satz: «mit einer Prüfung nach Artikel 24 des Finanzmarktaufsichtsgesetzes ... SR 956.1»; Art. 24 gehört damit klar zum FINMAG (SR 956.1)."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_38_a",
+    "TARGET_SR": "SR 220",
+    "assigned_articles": [
+      "Allgemeine Verweisung – Obligationenrecht (keine bestimmte Norm genannt)"
+    ],
+    "confidence": "medium",
+    "reasoning": "Es wird nur auf «die Grundsätze der ordentlichen Revision des Obligationenrechts SR 220» verwiesen, ohne konkrete Artikelangabe; daher allgemeine, nicht artikelspezifische Verweisung."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_39",
+    "TARGET_SR": "SR 956.1",
+    "assigned_articles": [
+      "Art. 33",
+      "Art. 34",
+      "Art. 35",
+      "Art. 37"
+    ],
+    "confidence": "high",
+    "reasoning": "Text: «Die Artikel 33–35 und 37 des Finanzmarktaufsichtsgesetzes ... SR 956.1 finden keine Anwendung.»; die genannten Artikel gehören eindeutig zum FINMAG (SR 956.1)."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_42",
+    "TARGET_SR": "SR 952.0",
+    "assigned_articles": [
+      "Art. 25",
+      "Art. 26",
+      "Art. 27",
+      "Art. 28",
+      "Art. 29",
+      "Art. 30",
+      "Art. 31",
+      "Art. 32",
+      "Art. 33",
+      "Art. 34",
+      "Art. 35",
+      "Art. 36",
+      "Art. 37",
+      "Art. 37a",
+      "Art. 37b",
+      "Art. 37c",
+      "Art. 37d",
+      "Art. 37e",
+      "Art. 37f",
+      "Art. 37g"
+    ],
+    "confidence": "medium",
+    "reasoning": "Die Norm verweist auf «Artikel 25–37g des Bankengesetzes ... SR 952.0». Systematisch umfasst dies die Artikel 25 bis 37g; die Liste enthält alle Nummern und Buchstabenvarianten im Bereich 25–37g."
+  },
+  {
+    "ITEM": 8,
+    "ARTICLE_EID": "art_45",
+    "TARGET_SR": "SR 311.0",
+    "assigned_articles": [
+      "Art. 333"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Autorennachweis: «Fassung gemäss Art. 333 des Strafgesetzbuches (SR 311.0)»; damit ist Art. 333 StGB eindeutig genannt."
+  },
+  {
+    "ITEM": 9,
+    "ARTICLE_EID": "art_46",
+    "TARGET_SR": "SR 311.0",
+    "assigned_articles": [
+      "Art. 285"
+    ],
+    "confidence": "high",
+    "reasoning": "Formulierung «nach Artikel 285 des Schweizerischen Strafgesetzbuches SR 311.0» verknüpft Art. 285 klar mit dem StGB (SR 311.0)."
+  },
+  {
+    "ITEM": 10,
+    "ARTICLE_EID": "art_52",
+    "TARGET_SR": "SR 210",
+    "assigned_articles": [
+      "Art. 916",
+      "Art. 917",
+      "Art. 918"
+    ],
+    "confidence": "high",
+    "reasoning": "Es heisst «Artikel 916–918 des Schweizerischen Zivilgesetzbuches SR 210 aufgehoben»; die Spanne 916–918 gehört zum ZGB (SR 210)."
+  },
+  {
+    "ITEM": 11,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Interne Verweisung innerhalb des aktuellen Gesetzes (Art. 3 Abs. 4 dieses Erlasses)"
+    ],
+    "confidence": "high",
+    "reasoning": "Gleicher Wortlaut wie ITEM 1, aber ohne SR-Angabe; hier als artikel_reference ohne expliziten SR-Link, daher als Selbstverweisung auf Art. 3 Abs. 4 des eigenen Gesetzes zu verstehen."
+  },
+  {
+    "ITEM": 12,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Interne Verweisung auf Art. 11 und Art. 12 dieses Gesetzes"
+    ],
+    "confidence": "high",
+    "reasoning": "«nach den Artikeln 11 und 12» ohne Nennung eines anderen Erlasses; syntaktisch klar interne Verweisung auf die eigenen Artikel 11 und 12."
+  },
+  {
+    "ITEM": 13,
+    "ARTICLE_EID": "art_6",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Interne Verweisung auf Art. 11 und Art. 12 dieses Gesetzes"
+    ],
+    "confidence": "high",
+    "reasoning": "Auch hier «nach den Artikeln 11 und 12» ohne SR-Bezug; damit interne Verweisung auf die Artikel 11 und 12 desselben Gesetzes."
+  },
+  {
+    "ITEM": 14,
+    "ARTICLE_EID": "art_11",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Interne Verweisung auf Art. 19 dieses Gesetzes"
+    ],
+    "confidence": "high",
+    "reasoning": "«Deckung gemäss Artikel 19» ohne externen Erlass; dies ist eine Selbstverweisung auf Art. 19 des aktuellen Erlasses."
+  },
+  {
+    "ITEM": 15,
+    "ARTICLE_EID": "art_11",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Interne Verweisung auf Art. 26 dieses Gesetzes"
+    ],
+    "confidence": "high",
+    "reasoning": "«Darlehen mit Deckung gemäss Artikel 26» ohne SR-Nennung; interne Verweisung auf Art. 26 des gleichen Gesetzes."
+  },
+  {
+    "ITEM": 16,
+    "ARTICLE_EID": "art_14",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Interne Verweisung auf Art. 11, Art. 12 und Art. 5 Ziff. 2 dieses Gesetzes"
+    ],
+    "confidence": "high",
+    "reasoning": "Es werden «Artikeln 11 und 12» sowie «Artikel 5 Ziffer 2» genannt, ohne externen Erlass; daher reine Selbstverweise innerhalb des Gesetzes."
+  },
+  {
+    "ITEM": 17,
+    "ARTICLE_EID": "art_25",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Interne Verweisung auf Art. 14–23 dieses Gesetzes"
+    ],
+    "confidence": "high",
+    "reasoning": "«Die Artikel 14–23 gelten auch ...» ohne SR-Bezug; dies betrifft die Artikel 14 bis 23 desselben Erlasses."
+  },
+  {
+    "ITEM": 18,
+    "ARTICLE_EID": "art_26",
+    "TARGET_SR": "SR 210",
+    "assigned_articles": [
+      "Art. 899",
+      "Art. 900",
+      "Art. 901"
+    ],
+    "confidence": "high",
+    "reasoning": "Gleicher Kontext wie ITEM 2, aber ohne SR im Text; durch ITEM 2 ist klar, dass «Artikeln 899–901 des Schweizerischen Zivilgesetzbuches» sich auf SR 210 bezieht."
+  },
+  {
+    "ITEM": 19,
+    "ARTICLE_EID": "art_27",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Interne Verweisung auf Art. 42 dieses Gesetzes"
+    ],
+    "confidence": "high",
+    "reasoning": "«... nach Artikel 42.» ohne Nennung eines anderen Erlasses; dies ist eine Selbstverweisung auf Art. 42 des Pfandbriefgesetzes."
+  },
+  {
+    "ITEM": 20,
+    "ARTICLE_EID": "art_31",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Interne Verweisung auf Art. 26 dieses Gesetzes"
+    ],
+    "confidence": "high",
+    "reasoning": "«Darlehen nach Artikel 26» ohne SR; interne Verweisung auf Art. 26 des gleichen Gesetzes."
+  },
+  {
+    "ITEM": 21,
+    "ARTICLE_EID": "art_35",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Interne Verweisung auf Art. 32 dieses Gesetzes"
+    ],
+    "confidence": "high",
+    "reasoning": "«die nach Artikel 32 zu erlassenden Vorschriften»; kein externer Erlass genannt, daher Selbstverweisung auf Art. 32 des Erlasses."
+  },
+  {
+    "ITEM": 22,
+    "ARTICLE_EID": "art_38_a",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Externe Verweisungen auf Art. 9a Abs. 1 SR 221.302 und Art. 24 SR 956.1; dieser artikel_reference-Eintrag selbst dient nur der Textwiedergabe"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Satz verweist auf Art. 9a Abs. 1 Revisionsaufsichtsgesetz (SR 221.302) und Art. 24 FINMAG (SR 956.1). Diese externen Bezüge sind bereits in den SR_link_detection-Items 3 und 4 erfasst; als artikel_reference ohne eigenen TARGET_SR ist hier keine zusätzliche SR-Zuordnung nötig."
+  },
+  {
+    "ITEM": 23,
+    "ARTICLE_EID": "art_39",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Externe Verweisungen auf Art. 33–35 und 37 SR 956.1; dieser artikel_reference-Eintrag selbst dient nur der Textwiedergabe"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Text entspricht inhaltlich ITEM 6, wo SR 956.1 explizit genannt ist. Die Zuordnung der Artikel 33–35 und 37 zu SR 956.1 erfolgt dort; hier als artikel_reference ohne TARGET_SR keine zusätzliche SR-Zuordnung."
+  },
+  {
+    "ITEM": 24,
+    "ARTICLE_EID": "art_42",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Externe Verweisung auf Art. 25–37g SR 952.0; dieser artikel_reference-Eintrag selbst dient nur der Textwiedergabe"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Wortlaut entspricht ITEM 7, wo SR 952.0 explizit verknüpft ist. Die Artikel 25–37g werden dort SR 952.0 zugeordnet; hier als artikel_reference ohne TARGET_SR keine neue SR-Zuordnung."
+  },
+  {
+    "ITEM": 25,
+    "ARTICLE_EID": "art_46",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Interne Verweisung auf Art. 10 dieses Gesetzes"
+    ],
+    "confidence": "high",
+    "reasoning": "«den nach Artikel 10 zulässigen Betrag» ohne externen Erlass; dies ist eine Selbstverweisung auf Art. 10 des Pfandbriefgesetzes."
+  },
+  {
+    "ITEM": 26,
+    "ARTICLE_EID": "art_46",
+    "TARGET_SR": "SR 311.0",
+    "assigned_articles": [
+      "Art. 285"
+    ],
+    "confidence": "high",
+    "reasoning": "Gleicher Inhalt wie ITEM 9, aber ohne SR im Text; durch ITEM 9 ist klar, dass «Artikel 285 des Schweizerischen Strafgesetzbuches» Art. 285 StGB (SR 311.0) meint."
+  },
+  {
+    "ITEM": 27,
+    "ARTICLE_EID": "art_52",
+    "TARGET_SR": "SR 210",
+    "assigned_articles": [
+      "Art. 916",
+      "Art. 917",
+      "Art. 918"
+    ],
+    "confidence": "high",
+    "reasoning": "Entspricht ITEM 10 ohne SR-Angabe; dort ist klargestellt, dass die Artikel 916–918 des ZGB (SR 210) aufgehoben werden. Diese Zuordnung wird hier übernommen."
+  }
+]

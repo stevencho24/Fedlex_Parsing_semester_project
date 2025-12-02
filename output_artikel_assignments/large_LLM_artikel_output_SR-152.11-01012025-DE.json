@@ -1,0 +1,200 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 152.1",
+    "assigned_articles": [
+      "Art. 24"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet explicitly states: 'gestützt auf Artikel 24 des Archivierungsgesetzes ... SR 152.1 (Gesetz, BGA)'; Art. 24 is directly and uniquely linked to SR 152.1."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_22",
+    "TARGET_SR": "SR 172.021",
+    "assigned_articles": "General reference - entire document",
+    "confidence": "high",
+    "reasoning": "The text says: 'Das Verfahren richtet sich nach den Bestimmungen des Bundesgesetzes ... SR 172.021 über das Verwaltungsverfahren.' No specific article of SR 172.021 is mentioned; it refers to the procedural law as a whole."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_24",
+    "TARGET_SR": "SR 172.021",
+    "assigned_articles": "General reference - entire document",
+    "confidence": "high",
+    "reasoning": "Identical legal construction as ITEM 2: 'Das Verfahren richtet sich nach den Bestimmungen des Bundesgesetzes ... SR 172.021 über das Verwaltungsverfahren.' No article number is tied to SR 172.021."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 1 Abs. 1 Bst. b–d und g"
+    ],
+    "confidence": "high",
+    "reasoning": "The phrase 'nach Artikel 1 Absatz 1 Buchstaben b–d und g des Gesetzes' clearly refers to Article 1 of the same underlying Gesetz (SR 152.1), not to an external SR; this is an internal self-reference within the governing law."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 1 Abs. 1 Bst. e"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet 'nach Artikel 1 Absatz 1 Buchstabe e des Gesetzes' is an internal reference to Article 1 of the same Gesetz; no external SR is mentioned in the same syntactic unit."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 1 Abs. 1 Bst. h"
+    ],
+    "confidence": "high",
+    "reasoning": "The wording 'im Sinne von Artikel 1 Absatz 1 Buchstabe h des Gesetzes' is a self-reference to Article 1 of the same law; there is no SR citation to link this to another document."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 12"
+    ],
+    "confidence": "high",
+    "reasoning": "The phrase 'nach Artikel 12 des Gesetzes' refers to Article 12 of the same Gesetz (SR 152.1); it is an internal structural reference, not tied to a separate SR."
+  },
+  {
+    "ITEM": 8,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 1 Abs. 1 Bst. h",
+      "Art. 2 Abs. 3 der Verordnung",
+      "Art. 1 Abs. 1 Bst. d"
+    ],
+    "confidence": "medium",
+    "reasoning": "The snippet contains several internal references: 'nach Artikel 1 Absatz 1 Buchstabe h des Gesetzes', 'nach Artikel 2 Absatz 3 der Verordnung', and 'nach Artikel 1 Absatz 1 Buchstabe d des Gesetzes (Anhang 1)'. All are self-references within the same regulatory framework (Gesetz SR 152.1 and this Verordnung), with no external SR mentioned."
+  },
+  {
+    "ITEM": 9,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 8 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "The text 'wenn die Voraussetzungen nach Artikel 8 Absatz 1 gegeben sind' clearly refers to Article 8 of the same Verordnung; there is no SR citation, so this is an internal cross-reference."
+  },
+  {
+    "ITEM": 10,
+    "ARTICLE_EID": "art_8",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 1 Abs. 1 Bst. d",
+      "Art. 1 Abs. 1 Bst. e",
+      "Art. 1 Abs. 1 Bst. h"
+    ],
+    "confidence": "high",
+    "reasoning": "The phrase 'Selbstständig archivierende Stellen nach Artikel 1 Absatz 1 Buchstaben d, e und h des Gesetzes' is an internal reference to Article 1 of the same Gesetz; no external SR is present."
+  },
+  {
+    "ITEM": 11,
+    "ARTICLE_EID": "art_10",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 9",
+      "Art. 11",
+      "Art. 12"
+    ],
+    "confidence": "high",
+    "reasoning": "The wording 'nach Ablauf der Schutzfristen nach den Artikeln 9, 11 und 12 des Gesetzes' refers to multiple articles of the same Gesetz; this is a classic internal multi-article reference."
+  },
+  {
+    "ITEM": 12,
+    "ARTICLE_EID": "art_12",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 11",
+      "Art. 13"
+    ],
+    "confidence": "high",
+    "reasoning": "The sentence 'Vor Ablauf der Schutzfrist ist eine Publikation nur nach Massgabe der Artikel 11 und 13 des Gesetzes zulässig' clearly cites Articles 11 and 13 of the same Gesetz; no external SR is mentioned."
+  },
+  {
+    "ITEM": 13,
+    "ARTICLE_EID": "art_14",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 11",
+      "Art. 11",
+      "Art. 13",
+      "Art. 12 Abs. 2"
+    ],
+    "confidence": "medium",
+    "reasoning": "The snippet mentions 'verlängerte Schutzfrist nach Artikel 11 des Gesetzes', 'nach den Artikeln 11 und 13 des Gesetzes verkürzt' and 'nach Artikel 12 Absatz 2 des Gesetzes verlängert'. All are internal references to the same Gesetz; there is some repetition of Art. 11 but all remain self-references."
+  },
+  {
+    "ITEM": 14,
+    "ARTICLE_EID": "art_14",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 9"
+    ],
+    "confidence": "high",
+    "reasoning": "The phrase 'ordentliche Schutzfrist nach Artikel 9 des Gesetzes' is an internal reference to Article 9 of the same Gesetz; no external SR is syntactically linked."
+  },
+  {
+    "ITEM": 15,
+    "ARTICLE_EID": "art_14",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 12 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "The wording 'Bestände mit besonderen Schutzfristen nach Artikel 12 Absatz 1 des Gesetzes' clearly refers to Article 12 of the same Gesetz; this is an internal cross-reference."
+  },
+  {
+    "ITEM": 16,
+    "ARTICLE_EID": "art_16",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 11"
+    ],
+    "confidence": "high",
+    "reasoning": "The phrase 'während der verlängerten Schutzfrist nach Artikel 11 des Gesetzes' is an internal reference to Article 11 of the same Gesetz; no external SR is present."
+  },
+  {
+    "ITEM": 17,
+    "ARTICLE_EID": "art_18",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 11 Abs. 1",
+      "Art. 11 Abs. 2",
+      "Art. 16 Abs. 1"
+    ],
+    "confidence": "medium",
+    "reasoning": "The snippet cites 'verlängerten Schutzfrist nach Artikel 11 Absätze 1 und 2 des Gesetzes' and 'wenn die Voraussetzungen nach Artikel 16 Absatz 1 erfüllt sind'; both are internal references within the same Gesetz/Verordnung framework."
+  },
+  {
+    "ITEM": 18,
+    "ARTICLE_EID": "art_18",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 11 Abs. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "The text 'nicht-personenbezogene Nachforschung nach Artikel 11 Absatz 3 des Gesetzes' clearly refers to Article 11 paragraph 3 of the same Gesetz; no external SR is cited."
+  },
+  {
+    "ITEM": 19,
+    "ARTICLE_EID": "art_22",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 15 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "The phrase 'Vorbehalten bleibt das Verfahren nach Artikel 15 Absatz 1 des Gesetzes' is an internal reference to Article 15 of the same Gesetz; the separate mention of the Verwaltungsverfahrensgesetz (SR 172.021) is handled in ITEM 2 as an external SR link."
+  }
+]

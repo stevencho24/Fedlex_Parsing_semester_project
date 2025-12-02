@@ -1,0 +1,92 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": "SR 210",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "medium",
+    "reasoning": "Die Stelle verweist allgemein auf die Bestimmungen des Zivilgesetzbuches über Fahrnis zum Schutz des gutgläubigen Erwerbs, ohne konkrete Artikelnummern zu nennen; daher ist nur eine generelle Verweisung auf das ZGB erkennbar."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": "SR 531",
+    "assigned_articles": [
+      "Art. 37"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Text nennt ausdrücklich „Artikel 37 des Landesversorgungsgesetzes … SR 531“, womit klar ist, dass Art. 37 dieses Gesetzes gemeint ist."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": "SR 748.217.11",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "Es wird auf die Vollziehungsverordnung vom 2. September 1960 (SR 748.217.11) insgesamt verwiesen („soweit … diese … etwas anderes vorsehen“), ohne einzelne Artikel zu spezifizieren."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_9",
+    "TARGET_SR": "SR 748.0",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "medium",
+    "reasoning": "Die Formulierung „gemäss den Vollziehungsbestimmungen zum Luftfahrtgesetz … SR 748.0“ verweist auf die Vollziehungsbestimmungen des Luftfahrtgesetzes im Allgemeinen; konkrete Artikel werden nicht genannt."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_12",
+    "TARGET_SR": "SR 210",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "medium",
+    "reasoning": "„unterliegt … den Bestimmungen des Zivilgesetzbuches SR 210 über Fahrnis“ ist eine generelle Verweisung auf die Fahrnis-Regelungen des ZGB ohne Nennung bestimmter Artikel."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_52",
+    "TARGET_SR": "SR 748.217.11",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Zwangsvollstreckung richtet sich nach den Regeln, „soweit nicht … in der Vollziehungsverordnung … SR 748.217.11 etwas anderes bestimmt wird“; dies ist eine pauschale Verweisung auf die Verordnung ohne Artikelangabe."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_63",
+    "TARGET_SR": "SR 748.217.11",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "Es wird auf Pflichten „durch die Vollziehungsverordnung … SR 748.217.11 zu diesem Gesetz“ verwiesen; die Norm nennt keine bestimmten Artikel, sondern die Verordnung als Ganzes als Grundlage der Pflichten."
+  },
+  {
+    "ITEM": 8,
+    "ARTICLE_EID": "art_65",
+    "TARGET_SR": "SR 313.0",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "„Das Verwaltungsstrafrechtsgesetz … SR 313.0 findet Anwendung“ ist eine klassische Generalklausel, die das gesamte Verwaltungsstrafrecht anwendbar erklärt, ohne einzelne Artikel herauszugreifen."
+  },
+  {
+    "ITEM": 9,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Stelle nennt „Artikel 37 des Landesversorgungsgesetzes …“ ohne SR-Angabe; derselbe Kontext erscheint in ITEM 2, wo Art. 37 explizit SR 531 zugeordnet ist. Da ITEM 9 als artikel_reference ohne TARGET_SR geführt wird, handelt es sich hier um eine Wiederholung derselben Verweisung und nicht um eine neue SR-Zuordnung."
+  }
+]

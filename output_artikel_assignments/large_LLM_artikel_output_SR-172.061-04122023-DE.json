@@ -1,0 +1,104 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 101",
+    "assigned_articles": [
+      "Art. 147"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Formulierung «gestützt auf Artikel 147 der Bundesverfassung SR 101» verknüpft den genannten Artikel syntaktisch eindeutig mit SR 101."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_6_a",
+    "TARGET_SR": "SR 171.10",
+    "assigned_articles": [
+      "Art. 141 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Satz «… nach Artikel 141 Absatz 2 des Parlamentsgesetzes … SR 171.10» wird der Artikel mit Absatz direkt dem Parlamentsgesetz (SR 171.10) zugeordnet."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_9",
+    "TARGET_SR": "SR 152.3",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Satz nennt nur «Das Öffentlichkeitsgesetz … SR 152.3» ohne konkrete Artikelangabe; es handelt sich um einen generellen Ausschluss des ganzen Gesetzes."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "«Artikel 164 Absatz 1 der Bundesverfassung» ist eine Selbstreferenz innerhalb der zitierten Verfassung (SR 101) und kein neuer SR-Link; dieser Artikel wurde bereits bei ITEM 1 erfasst."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Die Verweise «Artikel 140 Absatz 1 Buchstabe b» und «Artikel 141 Absatz 1 Buchstabe d Ziffer 3 der Bundesverfassung» betreffen interne Verfassungsartikel (SR 101), die im Rahmen der artikel_reference-Erfassung als Selbstverweise gelten und nicht einem neuen TARGET_SR zugeordnet werden."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_3_a",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Die genannten Bestimmungen («Artikel 165 der Bundesverfassung», «Artikel 173 Absatz 1 Buchstabe c», «Artikel 184 Absatz 3», «Artikel 185 Absatz 3 der Bundesverfassung») sind interne Verweise auf SR 101 ohne eigenen SR-Link in diesem Item; sie bleiben Selbstreferenzen."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "«Vorhaben nach Artikel 3 Absatz 1» verweist nur auf einen Artikel derselben Verordnung; es gibt keinen Bezug zu einem externen SR-Dokument."
+  },
+  {
+    "ITEM": 8,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "«Vorhaben nach Artikel 3 Absatz 2» ist ebenfalls ein interner Verweis innerhalb des aktuellen Erlasses ohne externen SR-Bezug."
+  },
+  {
+    "ITEM": 9,
+    "ARTICLE_EID": "art_6_a",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Der Text wiederholt den Verweis auf «Artikel 141 Absatz 2 des Parlamentsgesetzes» ohne Nennung von SR 171.10; als artikel_reference ist dies ein interner Querverweis zu einem bereits in ITEM 2 erfassten SR-Link und wird daher nicht erneut einem TARGET_SR zugeordnet."
+  },
+  {
+    "ITEM": 10,
+    "ARTICLE_EID": "art_9",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "«Artikel 7 Absatz 2» bezieht sich nur auf einen Artikel derselben Verordnung; kein externer SR-Link im selben syntaktischen Kontext."
+  },
+  {
+    "ITEM": 11,
+    "ARTICLE_EID": "art_9",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "«(Art. 8 Abs. 2)» ist ein klarer Selbstverweis auf einen anderen Artikel des gleichen Erlasses; es besteht kein Zusammenhang mit einem externen SR-Dokument."
+  },
+  {
+    "ITEM": 12,
+    "ARTICLE_EID": "art_10",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "«Artikel 3a Absatz 1 Buchstabe c» verweist intern auf einen Artikel derselben Verordnung; es wird kein SR-Dokument genannt, daher bleibt es eine Selbstreferenz."
+  }
+]

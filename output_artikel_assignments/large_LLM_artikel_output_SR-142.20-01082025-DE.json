@@ -1,0 +1,2964 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 101",
+    "assigned_articles": ["Art. 121 Abs. 1"],
+    "confidence": "high",
+    "reasoning": "Snippet: 'gestützt auf Artikel 121 Absatz 1 der Bundesverfassung SR 101' – direkte Zuordnung von Artikel und Absatz zur SR 101."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": "SR 0.142.112.681",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "high",
+    "reasoning": "Abkommen über die Freizügigkeit wird als Ganzes herangezogen; keine konkrete Artikelangabe."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": "SR 0.632.31",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "high",
+    "reasoning": "EFTA-Übereinkommen wird als Ganzes erwähnt; kein bestimmter Artikel genannt."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": "SR 311.0",
+    "assigned_articles": ["Art. 66a", "Art. 66abis"],
+    "confidence": "high",
+    "reasoning": "Formulierung 'nach Artikel 66a oder 66abis des Strafgesetzbuchs (StGB) SR 311.0' verknüpft diese Artikel explizit mit SR 311.0."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": "SR 321.0",
+    "assigned_articles": ["Art. 49a", "Art. 49abis"],
+    "confidence": "high",
+    "reasoning": "Text: 'Artikel 49a oder 49abis des Militärstrafgesetzes ... SR 321.0 (MStG)' – direkte Artikelzuordnung."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_6",
+    "TARGET_SR": "SR 172.021",
+    "assigned_articles": ["Art. 63"],
+    "confidence": "high",
+    "reasoning": "Snippet nennt 'Artikel 63 des Verwaltungsverfahrensgesetzes ... SR 172.021' – eindeutige Verknüpfung."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_30",
+    "TARGET_SR": "SR 142.31",
+    "assigned_articles": ["Art. 43", "Art. 75"],
+    "confidence": "high",
+    "reasoning": "Es heisst 'Art. 43 des Asylgesetzes ... SR 142.31, AsylG' und 'Art. 75 AsylG'; beide Artikel gehören zum AsylG (SR 142.31)."
+  },
+  {
+    "ITEM": 8,
+    "ARTICLE_EID": "art_31",
+    "TARGET_SR": "SR 311.0",
+    "assigned_articles": ["Art. 66a", "Art. 66abis"],
+    "confidence": "high",
+    "reasoning": "Formulierung 'Landesverweisung nach Artikel 66a oder 66abis StGB SR 311.0' – klare Zuordnung."
+  },
+  {
+    "ITEM": 9,
+    "ARTICLE_EID": "art_31",
+    "TARGET_SR": "SR 321.0",
+    "assigned_articles": ["Art. 49a", "Art. 49abis"],
+    "confidence": "high",
+    "reasoning": "Text: 'Artikel 49a oder 49abis MStG SR 321.0' – direkte Verknüpfung."
+  },
+  {
+    "ITEM": 10,
+    "ARTICLE_EID": "art_31",
+    "TARGET_SR": "SR 142.31",
+    "assigned_articles": ["Art. 61"],
+    "confidence": "high",
+    "reasoning": "Satz: 'Artikel 61 AsylG SR 142.31 gilt sinngemäss.' – eindeutige Artikelangabe."
+  },
+  {
+    "ITEM": 11,
+    "ARTICLE_EID": "art_41_b",
+    "TARGET_SR": "SR 120.4",
+    "assigned_articles": ["Art. 6"],
+    "confidence": "medium",
+    "reasoning": "Im authorial note wird auf 'Verordnung ... über die Personensicherheitsprüfungen (SR 120.4)' verwiesen; im Haupttext 'Sicherheitsüberprüfungen im Sinne von Artikel 6 der Verordnung ...' – naheliegend, dass Art. 6 dieser Verordnung gemeint ist."
+  },
+  {
+    "ITEM": 12,
+    "ARTICLE_EID": "art_43",
+    "TARGET_SR": "SR 831.30",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "medium",
+    "reasoning": "Es wird nur 'nach dem Bundesgesetz ... SR 831.30 über Ergänzungsleistungen ... (ELG)' erwähnt, ohne Artikel; allgemeiner Verweis auf das ELG."
+  },
+  {
+    "ITEM": 13,
+    "ARTICLE_EID": "art_44",
+    "TARGET_SR": "SR 831.30",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "medium",
+    "reasoning": "Formulierung 'nach dem ELG SR 831.30' ohne Artikelangabe; allgemeiner Gesetzesverweis."
+  },
+  {
+    "ITEM": 14,
+    "ARTICLE_EID": "art_45",
+    "TARGET_SR": "SR 831.30",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "medium",
+    "reasoning": "Wie bei ITEM 13: 'nach dem ELG SR 831.30' ohne konkrete Artikel."
+  },
+  {
+    "ITEM": 15,
+    "ARTICLE_EID": "art_45_a",
+    "TARGET_SR": "SR 210",
+    "assigned_articles": ["Art. 105 Ziff. 5", "Art. 105a", "Art. 106"],
+    "confidence": "high",
+    "reasoning": "Text nennt 'Artikel 105 Ziffer 5 oder 105a ... (ZGB) SR 210' und 'Artikel 106 ZGB'; alle gehören zum ZGB (SR 210)."
+  },
+  {
+    "ITEM": 16,
+    "ARTICLE_EID": "art_50",
+    "TARGET_SR": "SR 312.5",
+    "assigned_articles": ["Art. 1 Abs. 1"],
+    "confidence": "high",
+    "reasoning": "Es heisst 'Opfer im Sinne von Artikel 1 Absatz 1 des Opferhilfegesetzes ... SR 312.5' – klare Zuordnung."
+  },
+  {
+    "ITEM": 17,
+    "ARTICLE_EID": "art_58",
+    "TARGET_SR": "SR 142.31",
+    "assigned_articles": ["Art. 88", "Art. 89"],
+    "confidence": "high",
+    "reasoning": "Snippet: 'nach den Artikeln 88 und 89 AsylG SR 142.31' – beide Artikel explizit mit AsylG (SR 142.31) verknüpft."
+  },
+  {
+    "ITEM": 18,
+    "ARTICLE_EID": "art_59",
+    "TARGET_SR": "SR 0.142.30",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "high",
+    "reasoning": "Abkommen über die Rechtsstellung der Flüchtlinge wird ohne Artikelangabe zitiert; Gesamtverweis."
+  },
+  {
+    "ITEM": 19,
+    "ARTICLE_EID": "art_59",
+    "TARGET_SR": "SR 0.142.40",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "high",
+    "reasoning": "Übereinkommen über die Rechtsstellung der Staatenlosen wird ohne Artikelangabe erwähnt."
+  },
+  {
+    "ITEM": 20,
+    "ARTICLE_EID": "art_59",
+    "TARGET_SR": "SR 311.0",
+    "assigned_articles": ["Art. 66a", "Art. 66abis"],
+    "confidence": "high",
+    "reasoning": "Formulierung 'Landesverweisung nach Artikel 66a oder 66abis StGB SR 311.0' – eindeutige Artikel."
+  },
+  {
+    "ITEM": 21,
+    "ARTICLE_EID": "art_59",
+    "TARGET_SR": "SR 321.0",
+    "assigned_articles": ["Art. 49a", "Art. 49abis"],
+    "confidence": "high",
+    "reasoning": "Text: 'Artikel 49a oder 49abis MStG SR 321.0' – klare Zuordnung."
+  },
+  {
+    "ITEM": 22,
+    "ARTICLE_EID": "art_59_a",
+    "TARGET_SR": "SR 142.51",
+    "assigned_articles": ["Art. 4 Abs. 1 Bst. g"],
+    "confidence": "high",
+    "reasoning": "Es wird 'Die in Artikel 4 Absatz 1 Buchstabe g des Bundesgesetzes ... SR 142.51 ... genannten Daten' genannt – direkter Verweis."
+  },
+  {
+    "ITEM": 23,
+    "ARTICLE_EID": "art_59_a",
+    "TARGET_SR": "SR 143.1",
+    "assigned_articles": ["Art. 2a"],
+    "confidence": "high",
+    "reasoning": "Satz: 'Artikel 2a des Ausweisgesetzes ... SR 143.1 (AwG) gilt sinngemäss.' – eindeutige Artikelangabe."
+  },
+  {
+    "ITEM": 24,
+    "ARTICLE_EID": "art_59_b",
+    "TARGET_SR": "SR 143.1",
+    "assigned_articles": ["Art. 6a"],
+    "confidence": "high",
+    "reasoning": "Text: 'Artikel 6a AwG SR 143.1 gilt sinngemäss.' – klarer Bezug."
+  },
+  {
+    "ITEM": 25,
+    "ARTICLE_EID": "art_60",
+    "TARGET_SR": "SR 142.31",
+    "assigned_articles": ["Art. 93 Abs. 1 Bst. a"],
+    "confidence": "high",
+    "reasoning": "Formulierung 'Rückkehrberatung nach Artikel 93 Absatz 1 Buchstabe a AsylG SR 142.31' – eindeutige Zuordnung."
+  },
+  {
+    "ITEM": 26,
+    "ARTICLE_EID": "art_61",
+    "TARGET_SR": "SR 311.0",
+    "assigned_articles": ["Art. 66a", "Art. 66abis"],
+    "confidence": "high",
+    "reasoning": "Satz: 'Landesverweisung nach Artikel 66a StGB SR 311.0 oder Artikel 49a MStG' – Art. 66a (und im Kontext 66abis) des StGB."
+  },
+  {
+    "ITEM": 27,
+    "ARTICLE_EID": "art_61",
+    "TARGET_SR": "SR 321.0",
+    "assigned_articles": ["Art. 49a"],
+    "confidence": "high",
+    "reasoning": "Text: 'Artikel 49a MStG SR 321.0' – expliziter Artikel."
+  },
+  {
+    "ITEM": 28,
+    "ARTICLE_EID": "art_61_a",
+    "TARGET_SR": "SR 0.142.112.681",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "high",
+    "reasoning": "Abkommen über die Freizügigkeit (FZA) wird ohne Artikelangabe erwähnt."
+  },
+  {
+    "ITEM": 29,
+    "ARTICLE_EID": "art_61_a",
+    "TARGET_SR": "SR 0.632.31",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "high",
+    "reasoning": "EFTA-Übereinkommen wird ohne konkrete Artikel zitiert."
+  },
+  {
+    "ITEM": 30,
+    "ARTICLE_EID": "art_62",
+    "TARGET_SR": "SR 311.0",
+    "assigned_articles": ["Art. 59", "Art. 60", "Art. 61", "Art. 64"],
+    "confidence": "high",
+    "reasoning": "Formulierung 'strafrechtliche Massnahme im Sinne der Artikel 59–61 oder 64 StGB SR 311.0' – umfasst diese vier Artikel."
+  },
+  {
+    "ITEM": 31,
+    "ARTICLE_EID": "art_62",
+    "TARGET_SR": "SR 141.0",
+    "assigned_articles": ["Art. 36"],
+    "confidence": "high",
+    "reasoning": "Text: 'Nichtigerklärung gemäss Artikel 36 des Bürgerrechtsgesetzes ... SR 141.0' – eindeutige Zuordnung."
+  },
+  {
+    "ITEM": 32,
+    "ARTICLE_EID": "art_63",
+    "TARGET_SR": "SR 141.0",
+    "assigned_articles": ["Art. 36"],
+    "confidence": "high",
+    "reasoning": "Gleiche Formulierung wie bei ITEM 31; derselbe Artikel 36 BüG (SR 141.0)."
+  },
+  {
+    "ITEM": 33,
+    "ARTICLE_EID": "art_65",
+    "TARGET_SR": "SR 142.31",
+    "assigned_articles": ["Art. 22"],
+    "confidence": "high",
+    "reasoning": "Satz: 'Einreichung eines Asylgesuchs (Art. 22 AsylG SR 142.31)' – klarer Artikelverweis."
+  },
+  {
+    "ITEM": 34,
+    "ARTICLE_EID": "art_68_a",
+    "TARGET_SR": "SR 311.0",
+    "assigned_articles": ["Art. 66a", "Art. 66abis"],
+    "confidence": "high",
+    "reasoning": "Text: 'Landesverweisung nach Artikel 66a oder 66abis StGB SR 311.0' – eindeutige Artikel."
+  },
+  {
+    "ITEM": 35,
+    "ARTICLE_EID": "art_68_a",
+    "TARGET_SR": "SR 321.0",
+    "assigned_articles": ["Art. 49a", "Art. 49abis"],
+    "confidence": "high",
+    "reasoning": "Formulierung 'Artikel 49a oder 49abis MStG SR 321.0' – direkte Zuordnung."
+  },
+  {
+    "ITEM": 36,
+    "ARTICLE_EID": "art_68_a",
+    "TARGET_SR": "SR 142.31",
+    "assigned_articles": ["Art. 44", "Art. 45"],
+    "confidence": "high",
+    "reasoning": "Satz: 'Wegweisung mit Vollzugsanordnung nach den Artikeln 44 und 45 AsylG SR 142.31' – beide Artikel gehören zum AsylG."
+  },
+  {
+    "ITEM": 37,
+    "ARTICLE_EID": "art_68_b",
+    "TARGET_SR": "SR 170.512.1",
+    "assigned_articles": ["Art. 20 Abs. 2"],
+    "confidence": "high",
+    "reasoning": "Authorial note: 'in Anwendung von Art. 20 Abs. 2 der Publikationsverordnung ... (SR 170.512.1)' – klarer Artikelverweis."
+  },
+  {
+    "ITEM": 38,
+    "ARTICLE_EID": "art_69",
+    "TARGET_SR": "SR 311.0",
+    "assigned_articles": ["Art. 66a", "Art. 66abis"],
+    "confidence": "high",
+    "reasoning": "Text: 'Landesverweisung nach Artikel 66a oder 66abis StGB SR 311.0' – eindeutige Artikel."
+  },
+  {
+    "ITEM": 39,
+    "ARTICLE_EID": "art_69",
+    "TARGET_SR": "SR 321.0",
+    "assigned_articles": ["Art. 49a", "Art. 49abis"],
+    "confidence": "high",
+    "reasoning": "Formulierung 'Artikel 49a oder 49abis MStG SR 321.0' – direkte Zuordnung."
+  },
+  {
+    "ITEM": 40,
+    "ARTICLE_EID": "art_71",
+    "TARGET_SR": "SR 311.0",
+    "assigned_articles": ["Art. 66a", "Art. 66abis"],
+    "confidence": "high",
+    "reasoning": "Satz: 'Landesverweisung nach Artikel 66a oder 66abis StGB SR 311.0' – klarer Bezug."
+  },
+  {
+    "ITEM": 41,
+    "ARTICLE_EID": "art_71",
+    "TARGET_SR": "SR 321.0",
+    "assigned_articles": ["Art. 49a", "Art. 49abis"],
+    "confidence": "high",
+    "reasoning": "Text: 'Artikel 49a oder 49abis MStG SR 321.0' – eindeutige Artikel."
+  },
+  {
+    "ITEM": 42,
+    "ARTICLE_EID": "art_74",
+    "TARGET_SR": "SR 142.31",
+    "assigned_articles": ["Art. 24a"],
+    "confidence": "high",
+    "reasoning": "Formulierung 'besonderen Zentrum nach Artikel 24a AsylG SR 142.31' – direkter Artikelverweis."
+  },
+  {
+    "ITEM": 43,
+    "ARTICLE_EID": "art_75",
+    "TARGET_SR": "SR 311.0",
+    "assigned_articles": ["Art. 66a", "Art. 66abis"],
+    "confidence": "high",
+    "reasoning": "Text: 'Landesverweisung nach Artikel 66a oder 66abis StGB SR 311.0' – eindeutige Artikel."
+  },
+  {
+    "ITEM": 44,
+    "ARTICLE_EID": "art_75",
+    "TARGET_SR": "SR 321.0",
+    "assigned_articles": ["Art. 49a", "Art. 49abis"],
+    "confidence": "high",
+    "reasoning": "Formulierung 'Artikel 49a oder 49abis MStG SR 321.0' – klare Zuordnung."
+  },
+  {
+    "ITEM": 45,
+    "ARTICLE_EID": "art_76",
+    "TARGET_SR": "SR 311.0",
+    "assigned_articles": ["Art. 66a", "Art. 66abis"],
+    "confidence": "high",
+    "reasoning": "Satz: 'Landesverweisung nach Artikel 66a oder 66abis StGB SR 311.0' – eindeutige Artikel."
+  },
+  {
+    "ITEM": 46,
+    "ARTICLE_EID": "art_76",
+    "TARGET_SR": "SR 321.0",
+    "assigned_articles": ["Art. 49a", "Art. 49abis"],
+    "confidence": "high",
+    "reasoning": "Text: 'Artikel 49a oder 49abis MStG SR 321.0' – direkter Verweis."
+  },
+  {
+    "ITEM": 47,
+    "ARTICLE_EID": "art_76",
+    "TARGET_SR": "SR 142.31",
+    "assigned_articles": ["Art. 8 Abs. 1 Bst. a", "Art. 47 Abs. 1"],
+    "confidence": "high",
+    "reasoning": "Formulierung 'Artikel 8 Absatz 1 Buchstabe a oder Artikel 47 Absatz 1 AsylG SR 142.31' – beide Artikel gehören zum AsylG."
+  },
+  {
+    "ITEM": 48,
+    "ARTICLE_EID": "art_76_a",
+    "TARGET_SR": "SR 142.31",
+    "assigned_articles": ["Art. 8 Abs. 1 Bst. a"],
+    "confidence": "high",
+    "reasoning": "Text: 'Mitwirkungspflicht nach Artikel 8 Absatz 1 Buchstabe a AsylG SR 142.31' – eindeutiger Artikel."
+  },
+  {
+    "ITEM": 49,
+    "ARTICLE_EID": "art_78",
+    "TARGET_SR": "SR 311.0",
+    "assigned_articles": ["Art. 66a", "Art. 66abis"],
+    "confidence": "high",
+    "reasoning": "Satz: 'Landesverweisung nach Artikel 66a oder 66abis StGB SR 311.0' – klare Artikelzuordnung."
+  },
+  {
+    "ITEM": 50,
+    "ARTICLE_EID": "art_78",
+    "TARGET_SR": "SR 321.0",
+    "assigned_articles": ["Art. 49a", "Art. 49abis"],
+    "confidence": "high",
+    "reasoning": "Formulierung 'Artikel 49a oder 49abis MStG SR 321.0' – eindeutige Artikel."
+  },
+  {
+    "ITEM": 51,
+    "ARTICLE_EID": "art_80",
+    "TARGET_SR": "SR 142.31",
+    "assigned_articles": ["Art. 46 Abs. 1bis"],
+    "confidence": "high",
+    "reasoning": "Text: 'gestützt auf Artikel 46 Absatz 1bis dritter Satz AsylG SR 142.31' – klarer Artikelverweis."
+  },
+  {
+    "ITEM": 52,
+    "ARTICLE_EID": "art_80_a",
+    "TARGET_SR": "SR 142.31",
+    "assigned_articles": ["Art. 46 Abs. 1bis"],
+    "confidence": "high",
+    "reasoning": "Gleiche Formulierung wie ITEM 51; derselbe Artikel 46 Abs. 1bis AsylG."
+  },
+  {
+    "ITEM": 53,
+    "ARTICLE_EID": "art_81",
+    "TARGET_SR": "SR 0.107",
+    "assigned_articles": ["Art. 37"],
+    "confidence": "high",
+    "reasoning": "Satz: 'nach Artikel 37 des Übereinkommens ... SR 0.107 über die Rechte des Kindes' – eindeutige Zuordnung."
+  },
+  {
+    "ITEM": 54,
+    "ARTICLE_EID": "art_82",
+    "TARGET_SR": "SR 341",
+    "assigned_articles": ["2. Abschnitt", "6. Abschnitt"],
+    "confidence": "medium",
+    "reasoning": "Es wird '2. und 6. Abschnitt des Bundesgesetzes ... SR 341' genannt; keine Einzelartikel, sondern Abschnitte – als solche übernommen."
+  },
+  {
+    "ITEM": 55,
+    "ARTICLE_EID": "art_82",
+    "TARGET_SR": "SR 142.31",
+    "assigned_articles": ["Art. 65"],
+    "confidence": "high",
+    "reasoning": "Text: 'Flüchtlinge, die nach Artikel 65 AsylG SR 142.31 ausgewiesen werden.' – klarer Artikelverweis."
+  },
+  {
+    "ITEM": 56,
+    "ARTICLE_EID": "art_83",
+    "TARGET_SR": "SR 311.0",
+    "assigned_articles": ["Art. 59", "Art. 60", "Art. 61", "Art. 64"],
+    "confidence": "high",
+    "reasoning": "Formulierung 'strafrechtliche Massnahme im Sinne der Artikel 59–61 oder 64 StGB SR 311.0' – umfasst diese vier Artikel."
+  },
+  {
+    "ITEM": 57,
+    "ARTICLE_EID": "art_83",
+    "TARGET_SR": "SR 142.31",
+    "assigned_articles": ["Art. 53", "Art. 54"],
+    "confidence": "high",
+    "reasoning": "Text: 'Asylausschlussgründe nach Artikel 53 und 54 AsylG SR 142.31' – beide Artikel gehören zum AsylG."
+  },
+  {
+    "ITEM": 58,
+    "ARTICLE_EID": "art_83",
+    "TARGET_SR": "SR 321.0",
+    "assigned_articles": ["Art. 49a", "Art. 49abis"],
+    "confidence": "high",
+    "reasoning": "Formulierung 'Artikel 49a oder 49abis MStG SR 321.0' – eindeutige Artikel."
+  },
+  {
+    "ITEM": 59,
+    "ARTICLE_EID": "art_85",
+    "TARGET_SR": "SR 142.31",
+    "assigned_articles": ["Art. 27"],
+    "confidence": "high",
+    "reasoning": "Satz: 'Artikel 27 AsylG SR 142.31 sinngemäss anwendbar.' – klarer Artikelverweis."
+  },
+  {
+    "ITEM": 60,
+    "ARTICLE_EID": "art_85_a",
+    "TARGET_SR": "SR 142.31",
+    "assigned_articles": ["Art. 61"],
+    "confidence": "high",
+    "reasoning": "Text: 'Für vorläufig aufgenommene Flüchtlinge gilt Artikel 61 AsylG SR 142.31.' – eindeutige Zuordnung."
+  },
+  {
+    "ITEM": 61,
+    "ARTICLE_EID": "art_85_c",
+    "TARGET_SR": "SR 831.30",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "medium",
+    "reasoning": "Formulierung 'nach dem ELG SR 831.30' ohne Artikelangabe; allgemeiner Verweis auf das ELG."
+  },
+  {
+    "ITEM": 62,
+    "ARTICLE_EID": "art_85_c",
+    "TARGET_SR": "SR 210",
+    "assigned_articles": ["Art. 105 Ziff. 5", "Art. 105a", "Art. 106"],
+    "confidence": "high",
+    "reasoning": "Text nennt 'Artikel 105 Ziffer 5 oder 105a ZGB SR 210' und 'Artikel 106 ZGB'; beide gehören zum ZGB."
+  },
+  {
+    "ITEM": 63,
+    "ARTICLE_EID": "art_86",
+    "TARGET_SR": "SR 142.31",
+    "assigned_articles": ["Art. 80a", "Art. 81", "Art. 82", "Art. 83", "Art. 84"],
+    "confidence": "high",
+    "reasoning": "Formulierung 'Die Artikel 80a–84 AsylG SR 142.31 ... sind anwendbar.' – umfasst Art. 80a bis 84."
+  },
+  {
+    "ITEM": 64,
+    "ARTICLE_EID": "art_86",
+    "TARGET_SR": "SR 311.0",
+    "assigned_articles": ["Art. 66a", "Art. 66abis"],
+    "confidence": "high",
+    "reasoning": "Text: 'Landesverweisung nach Artikel 66a oder 66abis StGB SR 311.0' – eindeutige Artikel."
+  },
+  {
+    "ITEM": 65,
+    "ARTICLE_EID": "art_86",
+    "TARGET_SR": "SR 321.0",
+    "assigned_articles": ["Art. 49a", "Art. 49abis"],
+    "confidence": "high",
+    "reasoning": "Formulierung 'Artikel 49a oder 49abis MStG SR 321.0' – klare Zuordnung."
+  },
+  {
+    "ITEM": 66,
+    "ARTICLE_EID": "art_86",
+    "TARGET_SR": "SR 832.10",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "medium",
+    "reasoning": "Es wird 'Bundesgesetz ... SR 832.10 über die Krankenversicherung' ohne Artikelangabe erwähnt; allgemeiner Verweis."
+  },
+  {
+    "ITEM": 67,
+    "ARTICLE_EID": "art_87",
+    "TARGET_SR": "SR 142.31",
+    "assigned_articles": ["Art. 88 Abs. 1", "Art. 88 Abs. 2", "Art. 89"],
+    "confidence": "high",
+    "reasoning": "Text: 'Pauschale nach den Artikeln 88 Absätze 1 und 2 und 89 des AsylG SR 142.31' – explizite Artikelangaben."
+  },
+  {
+    "ITEM": 68,
+    "ARTICLE_EID": "art_87",
+    "TARGET_SR": "SR 311.0",
+    "assigned_articles": ["Art. 66a", "Art. 66abis"],
+    "confidence": "high",
+    "reasoning": "Formulierung 'Landesverweisung nach Artikel 66a oder 66abis StGB SR 311.0' – eindeutige Artikel."
+  },
+  {
+    "ITEM": 69,
+    "ARTICLE_EID": "art_87",
+    "TARGET_SR": "SR 321.0",
+    "assigned_articles": ["Art. 49a", "Art. 49abis"],
+    "confidence": "high",
+    "reasoning": "Text: 'Artikel 49a oder 49abis MStG SR 321.0' – klare Zuordnung."
+  },
+  {
+    "ITEM": 70,
+    "ARTICLE_EID": "art_88",
+    "TARGET_SR": "SR 142.31",
+    "assigned_articles": ["Art. 86", "Art. 112a"],
+    "confidence": "high",
+    "reasoning": "Satz: 'Sonderabgabe ... nach Artikel 86 AsylG SR 142.31' und 'Artikel 112a AsylG' – beide Artikel gehören zum AsylG."
+  },
+  {
+    "ITEM": 71,
+    "ARTICLE_EID": "art_92_a",
+    "TARGET_SR": "SR 235.1",
+    "assigned_articles": ["Art. 19"],
+    "confidence": "high",
+    "reasoning": "Text: 'nach Artikel 19 des Datenschutzgesetzes ... SR 235.1 (DSG)' – eindeutige Zuordnung."
+  },
+  {
+    "ITEM": 72,
+    "ARTICLE_EID": "art_93",
+    "TARGET_SR": "SR 142.31",
+    "assigned_articles": ["Art. 22"],
+    "confidence": "high",
+    "reasoning": "Formulierung 'Einreise ... nach Artikel 22 AsylG SR 142.31 bewilligt' – klarer Artikelverweis."
+  },
+  {
+    "ITEM": 73,
+    "ARTICLE_EID": "art_97",
+    "TARGET_SR": "SR 822.41",
+    "assigned_articles": ["Art. 11", "Art. 12"],
+    "confidence": "high",
+    "reasoning": "Text: 'gelten die Art. 11 und 12 des BG ... (SR 822.41)' – explizite Artikelangabe."
+  },
+  {
+    "ITEM": 74,
+    "ARTICLE_EID": "art_97",
+    "TARGET_SR": "SR 831.30",
+    "assigned_articles": ["Art. 26a"],
+    "confidence": "high",
+    "reasoning": "Snippet verweist auf 'in Anwendung von Artikel 26a ELG ... SR 831.30'; dieser Artikel gehört zum ELG."
+  },
+  {
+    "ITEM": 75,
+    "ARTICLE_EID": "art_98",
+    "TARGET_SR": "SR 192.12",
+    "assigned_articles": ["Art. 2 Abs. 2"],
+    "confidence": "high",
+    "reasoning": "Text: 'Personen, die nach Artikel 2 Absatz 2 des Gaststaatgesetzes ... SR 192.12 ... begünstigt sind.' – eindeutiger Artikel."
+  },
+  {
+    "ITEM": 76,
+    "ARTICLE_EID": "art_98_a",
+    "TARGET_SR": "SR 364",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "medium",
+    "reasoning": "Es heisst 'Das Zwangsanwendungsgesetz ... SR 364 ist anwendbar.' ohne Artikelangabe; allgemeiner Verweis."
+  },
+  {
+    "ITEM": 77,
+    "ARTICLE_EID": "art_102_c",
+    "TARGET_SR": "SR 235.1",
+    "assigned_articles": ["Art. 16"],
+    "confidence": "high",
+    "reasoning": "Formulierung 'sofern die Voraussetzungen nach Artikel 16 DSG SR 235.1 erfüllt sind.' – klarer Artikelverweis."
+  },
+  {
+    "ITEM": 78,
+    "ARTICLE_EID": "art_102_e",
+    "TARGET_SR": "SR 351.1",
+    "assigned_articles": ["Art. 2"],
+    "confidence": "high",
+    "reasoning": "Text: 'Artikel 2 des Rechtshilfegesetzes ... SR 351.1 gilt sinngemäss.' – eindeutige Zuordnung."
+  },
+  {
+    "ITEM": 79,
+    "ARTICLE_EID": "art_108_d",
+    "TARGET_SR": "SR 172.021",
+    "assigned_articles": ["Art. 11b Abs. 1", "Art. 22a", "Art. 24"],
+    "confidence": "high",
+    "reasoning": "Snippet: 'Die Artikel 11b Absatz 1, 22a und 24 VwVG SR 172.021 sind nicht anwendbar.' – alle drei Artikel gehören zum VwVG."
+  },
+  {
+    "ITEM": 80,
+    "ARTICLE_EID": "art_108_d_bis",
+    "TARGET_SR": "SR 172.021",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "medium",
+    "reasoning": "Es heisst 'richtet sich nach dem VwVG SR 172.021'; keine konkrete Artikelangabe – allgemeiner Verweis."
+  },
+  {
+    "ITEM": 81,
+    "ARTICLE_EID": "art_108_d_bis",
+    "TARGET_SR": "SR 173.32",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "medium",
+    "reasoning": "Formulierung 'Verwaltungsgerichtsgesetz vom 17. Juni 2005 SR 173.32' ohne Artikel; Gesamtverweis."
+  },
+  {
+    "ITEM": 82,
+    "ARTICLE_EID": "art_108_d_ter",
+    "TARGET_SR": "SR 172.021",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "medium",
+    "reasoning": "Text: 'auf einem der Übermittlungswege nach dem VwVG SR 172.021' – keine konkrete Artikelangabe."
+  },
+  {
+    "ITEM": 83,
+    "ARTICLE_EID": "art_108_d_quinquies",
+    "TARGET_SR": "SR 172.021",
+    "assigned_articles": ["Art. 65"],
+    "confidence": "high",
+    "reasoning": "Satz: 'Antrag auf unentgeltliche Rechtspflege nach Artikel 65 VwVG SR 172.021 bleibt vorbehalten.' – eindeutiger Artikel."
+  },
+  {
+    "ITEM": 84,
+    "ARTICLE_EID": "art_108_d_quinquies",
+    "TARGET_SR": "SR 943.03",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "medium",
+    "reasoning": "Es wird das Bundesgesetz über die elektronische Signatur SR 943.03 ohne Artikelangabe erwähnt; allgemeiner Verweis."
+  },
+  {
+    "ITEM": 85,
+    "ARTICLE_EID": "art_108_f_bis",
+    "TARGET_SR": "SR 172.021",
+    "assigned_articles": ["Art. 108d Abs. 5 (abweichende Bestimmungen vom VwVG)"],
+    "confidence": "low",
+    "reasoning": "Snippet verweist auf 'vom VwVG SR 172.021 abweichende Bestimmungen nach Artikel 108d Absatz 5'; dies ist ein Artikel des vorliegenden Gesetzes, nicht des VwVG. Der Bezug zu SR 172.021 ist allgemein; keine konkrete VwVG-Bestimmung genannt. Daher nur allgemeiner Bezug, hier als erläuternder Hinweis belassen."
+  },
+  {
+    "ITEM": 86,
+    "ARTICLE_EID": "art_109_c",
+    "TARGET_SR": "SR 361",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "medium",
+    "reasoning": "Text: 'nach dem Bundesgesetz ... SR 361 über die polizeilichen Informationssysteme des Bundes' ohne Artikelangabe; Gesamtverweis."
+  },
+  {
+    "ITEM": 87,
+    "ARTICLE_EID": "art_109_c",
+    "TARGET_SR": "SR 120",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "medium",
+    "reasoning": "Formulierung 'nach dem Bundesgesetz ... SR 120 über Massnahmen zur Wahrung der inneren Sicherheit' ohne Artikel; allgemeiner Verweis."
+  },
+  {
+    "ITEM": 88,
+    "ARTICLE_EID": "art_109_c",
+    "TARGET_SR": "SR 210",
+    "assigned_articles": ["Art. 97a Abs. 1"],
+    "confidence": "high",
+    "reasoning": "Text: 'Umgehung des Ausländerrechts nach Artikel 97a Absatz 1 ZGB SR 210' – eindeutiger Artikel."
+  },
+  {
+    "ITEM": 89,
+    "ARTICLE_EID": "art_109_c",
+    "TARGET_SR": "SR 211.231",
+    "assigned_articles": ["Art. 6 Abs. 2"],
+    "confidence": "high",
+    "reasoning": "Formulierung 'Artikel 6 Absatz 2 des Partnerschaftsgesetzes ... SR 211.231' – klarer Artikelverweis."
+  },
+  {
+    "ITEM": 90,
+    "ARTICLE_EID": "art_109_f",
+    "TARGET_SR": "SR 311.0",
+    "assigned_articles": ["Art. 66a", "Art. 66abis"],
+    "confidence": "high",
+    "reasoning": "Text: 'Landesverweisung nach Artikel 66a oder 66abis StGB SR 311.0' – eindeutige Artikel."
+  },
+  {
+    "ITEM": 91,
+    "ARTICLE_EID": "art_109_f",
+    "TARGET_SR": "SR 321.0",
+    "assigned_articles": ["Art. 49a", "Art. 49abis"],
+    "confidence": "high",
+    "reasoning": "Formulierung 'Artikel 49a oder 49abis MStG SR 321.0' – klare Zuordnung."
+  },
+  {
+    "ITEM": 92,
+    "ARTICLE_EID": "art_109_g",
+    "TARGET_SR": "SR 142.51",
+    "assigned_articles": ["Art. 4 Abs. 1 Bst. d"],
+    "confidence": "high",
+    "reasoning": "Text: 'nach Artikel 4 Absatz 1 Buchstabe d des Bundesgesetzes ... SR 142.51' – eindeutiger Artikel."
+  },
+  {
+    "ITEM": 93,
+    "ARTICLE_EID": "art_109_i",
+    "TARGET_SR": "SR 142.31",
+    "assigned_articles": ["Art. 93 Abs. 1 Bst. a", "Art. 93 Abs. 3"],
+    "confidence": "high",
+    "reasoning": "Formulierung 'Rückkehrberatungsstellen (Art. 93 Abs. 1 Bst. a AsylG SR 142.31) sowie internationalen Organisationen (Art. 93 Abs. 3 AsylG)' – beide Artikel gehören zum AsylG."
+  },
+  {
+    "ITEM": 94,
+    "ARTICLE_EID": "art_109_k",
+    "TARGET_SR": "SR 142.31",
+    "assigned_articles": ["Art. 102b", "Art. 102c", "Art. 102e"],
+    "confidence": "high",
+    "reasoning": "Text: 'sind die Artikel 102b, 102c und 102e AsylG SR 142.31 anwendbar.' – explizite Artikelangabe."
+  },
+  {
+    "ITEM": 95,
+    "ARTICLE_EID": "art_110_c",
+    "TARGET_SR": "SR 361",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "medium",
+    "reasoning": "Formulierung 'nach dem Bundesgesetz ... SR 361' ohne Artikel; allgemeiner Verweis."
+  },
+  {
+    "ITEM": 96,
+    "ARTICLE_EID": "art_111_d",
+    "TARGET_SR": "SR 235.1",
+    "assigned_articles": ["Art. 16 Abs. 1", "Art. 6 Abs. 6", "Art. 6 Abs. 7"],
+    "confidence": "high",
+    "reasoning": "Snippet verweist auf 'Artikel 16 Absatz 1 DSG SR 235.1' sowie in der Acronym-Stelle auf 'Artikel 6 Absatz 6 und gegebenenfalls Absatz 7 DSG'; alle gehören zum DSG."
+  },
+  {
+    "ITEM": 97,
+    "ARTICLE_EID": "art_111_j",
+    "TARGET_SR": "SR 311.0",
+    "assigned_articles": [
+      "Art. 258",
+      "Art. 259",
+      "Art. 260",
+      "Art. 260bis",
+      "Art. 260ter",
+      "Art. 260quater",
+      "Art. 260quinquies",
+      "Art. 260sexies",
+      "Art. 275ter"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet listet explizit mehrere StGB-Artikel (258, 259, 260, 260bis, 260ter, 260quater, 260quinquies, 260sexies, 275ter) und verweist auf StGB SR 311.0."
+  },
+  {
+    "ITEM": 98,
+    "ARTICLE_EID": "art_111_j",
+    "TARGET_SR": "SR 121",
+    "assigned_articles": ["Art. 74"],
+    "confidence": "high",
+    "reasoning": "Text: 'Organisationsverbot (Art. 74 des Nachrichtendienstgesetzes ... SR 121)' – eindeutiger Artikel."
+  },
+  {
+    "ITEM": 99,
+    "ARTICLE_EID": "art_111_j",
+    "TARGET_SR": "SR 362.2",
+    "assigned_articles": ["Anhang 1"],
+    "confidence": "medium",
+    "reasoning": "Formulierung 'die in Anhang 1 des Schengen-Informationsaustausch-Gesetzes ... SR 362.2 aufgeführten Straftaten' – Verweis auf den Anhang, nicht auf nummerierte Artikel."
+  },
+  {
+    "ITEM": 100,
+    "ARTICLE_EID": "art_122_c",
+    "TARGET_SR": "SR 172.021",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "medium",
+    "reasoning": "Text: 'Verfahren richtet sich nach dem Verwaltungsverfahrensgesetz ... SR 172.021.' ohne konkrete Artikelangabe."
+  },
+  {
+    "ITEM": 101,
+    "ARTICLE_EID": "art_124_a",
+    "TARGET_SR": "SR 311.0",
+    "assigned_articles": ["Art. 66a", "Art. 66abis"],
+    "confidence": "high",
+    "reasoning": "Formulierung 'Landesverweisung nach Artikel 66a oder 66abis StGB SR 311.0' – eindeutige Artikel."
+  },
+  {
+    "ITEM": 102,
+    "ARTICLE_EID": "art_124_a",
+    "TARGET_SR": "SR 321.0",
+    "assigned_articles": ["Art. 49a", "Art. 49abis"],
+    "confidence": "high",
+    "reasoning": "Text: 'Artikel 49a oder 49abis MStG SR 321.0' – klare Zuordnung."
+  },
+  {
+    "ITEM": 103,
+    "ARTICLE_EID": "art_126",
+    "TARGET_SR": "SR 142.51",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "medium",
+    "reasoning": "Formulierung 'Mit dem Inkrafttreten des Bundesgesetzes ... SR 142.51 ... werden die Artikel 108 und 109 aufgehoben.' – Gesetz als Ganzes, keine Artikelangabe innerhalb SR 142.51."
+  },
+  {
+    "ITEM": 104,
+    "ARTICLE_EID": "art_126_a",
+    "TARGET_SR": "SR 142.31",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "low",
+    "reasoning": "Snippet enthält nur 'SR 142.31' ohne Kontext oder Artikel; Übergangsbestimmung mit pauschalem Gesetzesverweis."
+  },
+  {
+    "ITEM": 105,
+    "ARTICLE_EID": "art_126_d",
+    "TARGET_SR": "SR 142.31",
+    "assigned_articles": ["Art. 108 Abs. 4", "Art. 109 Abs. 3", "Art. 110 Abs. 4 Bst. b", "Art. 111 Bst. d"],
+    "confidence": "high",
+    "reasoning": "Text: 'Artikel 108 Absatz 4, 109 Absatz 3, 110 Absatz 4 Buchstabe b, 111 Buchstabe d AsylG SR 142.31' – alle explizit genannt."
+  },
+  {
+    "ITEM": 106,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Artikelreferenz innerhalb des eigenen Gesetzes ('Artikel 66a ... StGB', 'Artikel 49a ... MStG') ist bereits in Items 4 und 5 als SR-Verweise erfasst; hier keine neue SR-Verknüpfung."
+  },
+  {
+    "ITEM": 107,
+    "ARTICLE_EID": "art_6",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Verweis 'Art. 10' und interne Zuständigkeiten; kein externer SR-Bezug."
+  },
+  {
+    "ITEM": 108,
+    "ARTICLE_EID": "art_6",
+    "TARGET_SR": "SR 172.021",
+    "assigned_articles": ["Art. 63"],
+    "confidence": "high",
+    "reasoning": "Hier wird 'Artikel 63 des Verwaltungsverfahrensgesetzes' ohne SR-Nummer genannt; durch ITEM 6 ist klar, dass dies SR 172.021 ist. Daher Zuweisung zu SR 172.021 Art. 63."
+  },
+  {
+    "ITEM": 109,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Nur interner Verweis 'Artikel 64' im selben Gesetz; kein externer SR-Bezug."
+  },
+  {
+    "ITEM": 110,
+    "ARTICLE_EID": "art_9_a",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Verweise 'Art. 7 und 9' sind interne Artikel des gleichen Gesetzes; kein externer SR."
+  },
+  {
+    "ITEM": 111,
+    "ARTICLE_EID": "art_10",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Verweis auf 'Artikel 17 Absatz 2' ist intern; kein externer SR."
+  },
+  {
+    "ITEM": 112,
+    "ARTICLE_EID": "art_18",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Verweis auf 'Artikeln 20–25' ist rein intern."
+  },
+  {
+    "ITEM": 113,
+    "ARTICLE_EID": "art_19",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Verweis auf 'Artikeln 20 und 23–25' ist intern."
+  },
+  {
+    "ITEM": 114,
+    "ARTICLE_EID": "art_20",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Verweis 'Art. 32 und 33' betrifft interne Bewilligungsartikel."
+  },
+  {
+    "ITEM": 115,
+    "ARTICLE_EID": "art_25",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Verweis 'Artikel 20, 23 und 24' ist intern."
+  },
+  {
+    "ITEM": 116,
+    "ARTICLE_EID": "art_26",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Verweis 'Artikeln 20, 22 und 23' ist intern."
+  },
+  {
+    "ITEM": 117,
+    "ARTICLE_EID": "art_26_a",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Verweis 'Artikeln 18–24' ist intern."
+  },
+  {
+    "ITEM": 118,
+    "ARTICLE_EID": "art_30",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Verweis 'Art. 18–29' ist intern."
+  },
+  {
+    "ITEM": 119,
+    "ARTICLE_EID": "art_30",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Verweis 'Art. 46' ist intern."
+  },
+  {
+    "ITEM": 120,
+    "ARTICLE_EID": "art_30",
+    "TARGET_SR": "SR 142.31",
+    "assigned_articles": ["Art. 43", "Art. 75"],
+    "confidence": "high",
+    "reasoning": "Hier wird 'Art. 43 des Asylgesetzes ... AsylG' und 'Art. 75 AsylG' ohne SR-Nummer genannt; durch ITEM 7 ist klar, dass AsylG SR 142.31 ist. Daher Zuordnung dieser Artikel zu SR 142.31."
+  },
+  {
+    "ITEM": 121,
+    "ARTICLE_EID": "art_31",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Verweise 'Artikel 83 Absatz 7' und 'Artikel 83 Absatz 8' sind intern."
+  },
+  {
+    "ITEM": 122,
+    "ARTICLE_EID": "art_33",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Verweis 'Artikel 62 Absatz 1' ist intern."
+  },
+  {
+    "ITEM": 123,
+    "ARTICLE_EID": "art_33",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Verweis 'Artikel 58a' ist intern."
+  },
+  {
+    "ITEM": 124,
+    "ARTICLE_EID": "art_34",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Verweise 'Artikel 62 oder 63 Absatz 2' sind intern."
+  },
+  {
+    "ITEM": 125,
+    "ARTICLE_EID": "art_34",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Verweise 'Art. 27' und interne Absätze sind intern."
+  },
+  {
+    "ITEM": 126,
+    "ARTICLE_EID": "art_34",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Verweis 'Artikel 63 Absatz 2' ist intern."
+  },
+  {
+    "ITEM": 127,
+    "ARTICLE_EID": "art_35",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Verweis 'Art. 25' ist intern."
+  },
+  {
+    "ITEM": 128,
+    "ARTICLE_EID": "art_35",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Verweis 'Artikel 62 Absatz 1' ist intern."
+  },
+  {
+    "ITEM": 129,
+    "ARTICLE_EID": "art_37",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Verweis 'Artikel 62 Absatz 1' ist intern."
+  },
+  {
+    "ITEM": 130,
+    "ARTICLE_EID": "art_37",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Verweis 'Artikel 63' ist intern."
+  },
+  {
+    "ITEM": 131,
+    "ARTICLE_EID": "art_38",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Verweise 'Artikeln 22 und 23' sind intern."
+  },
+  {
+    "ITEM": 132,
+    "ARTICLE_EID": "art_38",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Verweis 'Artikel 19 Buchstaben a und b' ist intern."
+  },
+  {
+    "ITEM": 133,
+    "ARTICLE_EID": "art_39",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Verweise 'Artikeln 21 und 22' sind intern."
+  },
+  {
+    "ITEM": 134,
+    "ARTICLE_EID": "art_39",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Verweis 'Artikel 19 Buchstaben a und b' ist intern."
+  },
+  {
+    "ITEM": 135,
+    "ARTICLE_EID": "art_40",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Verweise 'Artikeln 32–35 und 37–39', 'Art. 20', 'Art. 30', 'Art. 99' sind intern."
+  },
+  {
+    "ITEM": 136,
+    "ARTICLE_EID": "art_41",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Verweis 'Art. 83' ist intern."
+  },
+  {
+    "ITEM": 137,
+    "ARTICLE_EID": "art_41_b",
+    "TARGET_SR": "SR 120.4",
+    "assigned_articles": ["Art. 6"],
+    "confidence": "high",
+    "reasoning": "Hier wird 'Artikel 6 der Verordnung ... über die Personensicherheitsprüfungen' genannt; durch ITEM 11 ist klar, dass dies SR 120.4 ist."
+  },
+  {
+    "ITEM": 138,
+    "ARTICLE_EID": "art_42",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Verweis 'Artikel 58a' ist intern."
+  },
+  {
+    "ITEM": 139,
+    "ARTICLE_EID": "art_43",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Verweis 'Artikel 58a' ist intern."
+  },
+  {
+    "ITEM": 140,
+    "ARTICLE_EID": "art_43",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Verweis 'Artikel 58a' ist intern."
+  },
+  {
+    "ITEM": 141,
+    "ARTICLE_EID": "art_44",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Verweis 'Artikel 58a' ist intern."
+  },
+  {
+    "ITEM": 142,
+    "ARTICLE_EID": "art_46",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Verweise 'Art. 42–44' sind intern."
+  },
+  {
+    "ITEM": 143,
+    "ARTICLE_EID": "art_47",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Verweis 'Artikel 42 Absatz 2' ist intern."
+  },
+  {
+    "ITEM": 144,
+    "ARTICLE_EID": "art_47",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Verweis 'Artikel 42 Absatz 1' ist intern."
+  },
+  {
+    "ITEM": 145,
+    "ARTICLE_EID": "art_49",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Verweise 'Artikeln 42–44' sind intern."
+  },
+  {
+    "ITEM": 146,
+    "ARTICLE_EID": "art_49_a",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Verweise 'Art. 43 Absatz 1 Buchstabe d' und 'Art. 44 Absatz 1 Buchstabe d' sind intern."
+  },
+  {
+    "ITEM": 147,
+    "ARTICLE_EID": "art_50",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Verweise 'Artikel 42, 43 oder 44', 'Artikel 45', 'Artikel 32 Absatz 3', 'Artikel 85c Absatz 1' sind intern."
+  },
+  {
+    "ITEM": 148,
+    "ARTICLE_EID": "art_50",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Verweis 'Artikel 58a' ist intern."
+  },
+  {
+    "ITEM": 149,
+    "ARTICLE_EID": "art_50",
+    "TARGET_SR": "SR 312.5",
+    "assigned_articles": ["Art. 1 Abs. 1"],
+    "confidence": "high",
+    "reasoning": "Hier wird 'Anerkennung als Opfer im Sinne von Artikel 1 Absatz 1 des Opferhilfegesetzes' erwähnt; durch ITEM 16 ist klar, dass dies SR 312.5 ist."
+  },
+  {
+    "ITEM": 150,
+    "ARTICLE_EID": "art_50",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Verweis 'Artikel 34' ist intern."
+  },
+  {
+    "ITEM": 151,
+    "ARTICLE_EID": "art_50",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Verweis 'Artikel 30 Absatz 1 Buchstabe b' ist intern."
+  },
+  {
+    "ITEM": 152,
+    "ARTICLE_EID": "art_51",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Verweis 'Artikel 42' ist intern."
+  },
+  {
+    "ITEM": 153,
+    "ARTICLE_EID": "art_51",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Verweis 'Artikel 63' ist intern."
+  },
+  {
+    "ITEM": 154,
+    "ARTICLE_EID": "art_51",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Verweise 'Artikeln 43, 48 und 50' sind intern."
+  },
+  {
+    "ITEM": 155,
+    "ARTICLE_EID": "art_51",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Verweise 'Artikel 62 oder 63 Absatz 2' sind intern."
+  },
+  {
+    "ITEM": 156,
+    "ARTICLE_EID": "art_58",
+    "TARGET_SR": "SR 142.31",
+    "assigned_articles": ["Art. 88", "Art. 89"],
+    "confidence": "high",
+    "reasoning": "Dieselbe Passage wie in ITEM 17, nur ohne SR-Nummer; durch ITEM 17 ist klar, dass AsylG SR 142.31 ist."
+  },
+  {
+    "ITEM": 157,
+    "ARTICLE_EID": "art_58_b",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Verweise 'Artikel 2 Absätze 2 und 3' und 'Artikel 42' sind intern."
+  },
+  {
+    "ITEM": 158,
+    "ARTICLE_EID": "art_59_a",
+    "TARGET_SR": "SR 142.51",
+    "assigned_articles": ["Art. 4 Abs. 1 Bst. g"],
+    "confidence": "high",
+    "reasoning": "Gleiche Formulierung wie ITEM 22, nur ohne SR-Nummer; durch ITEM 22 ist klar, dass es SR 142.51 ist."
+  },
+  {
+    "ITEM": 159,
+    "ARTICLE_EID": "art_59_b",
+    "TARGET_SR": "SR 143.1",
+    "assigned_articles": ["Art. 6a"],
+    "confidence": "high",
+    "reasoning": "Gleiche Norm wie ITEM 24, nur ohne SR-Nummer; Zuordnung zu SR 143.1 Art. 6a."
+  },
+  {
+    "ITEM": 160,
+    "ARTICLE_EID": "art_60",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Verweis 'Artikel 30 Absatz 1 Buchstaben d und e' ist intern."
+  },
+  {
+    "ITEM": 161,
+    "ARTICLE_EID": "art_60",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Verweis 'Artikel 84 Absatz 2' ist intern."
+  },
+  {
+    "ITEM": 162,
+    "ARTICLE_EID": "art_60",
+    "TARGET_SR": "SR 142.31",
+    "assigned_articles": ["Art. 93 Abs. 1 Bst. a"],
+    "confidence": "high",
+    "reasoning": "Gleiche Norm wie ITEM 25, nur ohne SR-Nummer; Zuordnung zu SR 142.31 Art. 93 Abs. 1 Bst. a."
+  },
+  {
+    "ITEM": 163,
+    "ARTICLE_EID": "art_60",
+    "TARGET_SR": "SR 142.31",
+    "assigned_articles": ["Art. 93 Abs. 1 Bst. b"],
+    "confidence": "high",
+    "reasoning": "Verweis 'Artikel 93 Absatz 1 Buchstabe b AsylG' – durch frühere Items ist klar, dass AsylG SR 142.31 ist."
+  },
+  {
+    "ITEM": 164,
+    "ARTICLE_EID": "art_60",
+    "TARGET_SR": "SR 142.31",
+    "assigned_articles": ["Art. 93 Abs. 1 Bst. c"],
+    "confidence": "high",
+    "reasoning": "Verweis 'Artikel 93 Absatz 1 Buchstabe c AsylG' – AsylG = SR 142.31."
+  },
+  {
+    "ITEM": 165,
+    "ARTICLE_EID": "art_60",
+    "TARGET_SR": "SR 142.31",
+    "assigned_articles": ["Art. 93 Abs. 1 Bst. d"],
+    "confidence": "high",
+    "reasoning": "Verweis 'Artikel 93 Absatz 1 Buchstabe d AsylG' – AsylG = SR 142.31."
+  },
+  {
+    "ITEM": 166,
+    "ARTICLE_EID": "art_61",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Verweis 'Artikel 68' ist intern."
+  },
+  {
+    "ITEM": 167,
+    "ARTICLE_EID": "art_62",
+    "TARGET_SR": "SR 141.0",
+    "assigned_articles": ["Art. 36"],
+    "confidence": "high",
+    "reasoning": "Gleiche Norm wie ITEM 31, nur ohne SR-Nummer; Zuordnung zu SR 141.0 Art. 36."
+  },
+  {
+    "ITEM": 168,
+    "ARTICLE_EID": "art_63",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Verweis 'Artikel 62 Absatz 1 Buchstabe a oder b' ist intern."
+  },
+  {
+    "ITEM": 169,
+    "ARTICLE_EID": "art_63",
+    "TARGET_SR": "SR 141.0",
+    "assigned_articles": ["Art. 36"],
+    "confidence": "high",
+    "reasoning": "Gleiche Norm wie ITEM 32, nur ohne SR-Nummer; Zuordnung zu SR 141.0 Art. 36."
+  },
+  {
+    "ITEM": 170,
+    "ARTICLE_EID": "art_63",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Verweis 'Artikel 58a' ist intern."
+  },
+  {
+    "ITEM": 171,
+    "ARTICLE_EID": "art_64",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Verweis 'Art. 5' ist intern."
+  },
+  {
+    "ITEM": 172,
+    "ARTICLE_EID": "art_64_a",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Verweis 'Artikel 64 Absatz 4' ist intern."
+  },
+  {
+    "ITEM": 173,
+    "ARTICLE_EID": "art_64_c",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "medium",
+    "reasoning": "Verweis 'Artikel 14 des Schengener Grenzkodex' betrifft EU-Recht ohne SR-Nummer; mangels SR-Verknüpfung keine Zuweisung."
+  },
+  {
+    "ITEM": 174,
+    "ARTICLE_EID": "art_64_c",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "medium",
+    "reasoning": "Verweis 'Art. 64b' ist intern; kein SR."
+  },
+  {
+    "ITEM": 175,
+    "ARTICLE_EID": "art_64_d",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "medium",
+    "reasoning": "Verweis 'Artikel 64c Absatz 1 Buchstabe a' ist intern; Rückübernahmeabkommen ohne SR."
+  },
+  {
+    "ITEM": 176,
+    "ARTICLE_EID": "art_64_d",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "medium",
+    "reasoning": "Verweis 'Artikel 14 des Schengener Grenzkodex' und 'Art. 64c Abs. 1 Bst. b' – EU-Recht ohne SR; keine Zuweisung."
+  },
+  {
+    "ITEM": 177,
+    "ARTICLE_EID": "art_64_d",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "medium",
+    "reasoning": "Verweis auf Dublin-Assoziierungsabkommen ohne SR; 'Art. 64a' intern."
+  },
+  {
+    "ITEM": 178,
+    "ARTICLE_EID": "art_64_d",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Verweis 'Artikel 90' ist intern."
+  },
+  {
+    "ITEM": 179,
+    "ARTICLE_EID": "art_64_f",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Verweis 'Artikel 64b' ist intern."
+  },
+  {
+    "ITEM": 180,
+    "ARTICLE_EID": "art_65",
+    "TARGET_SR": "SR 142.31",
+    "assigned_articles": ["Art. 22"],
+    "confidence": "high",
+    "reasoning": "Gleiche Norm wie ITEM 33, nur ohne SR-Nummer; Zuordnung zu SR 142.31 Art. 22."
+  },
+  {
+    "ITEM": 181,
+    "ARTICLE_EID": "art_67",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Verweis 'Artikel 64d Absatz 2 Buchstaben a–c' ist intern."
+  },
+  {
+    "ITEM": 182,
+    "ARTICLE_EID": "art_67",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Verweise 'Artikel 115 Absatz 1, 116, 117 oder 118' sind intern."
+  },
+  {
+    "ITEM": 183,
+    "ARTICLE_EID": "art_67",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Verweis 'Art. 75–78' ist intern."
+  },
+  {
+    "ITEM": 184,
+    "ARTICLE_EID": "art_68_a",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Verweis 'Artikel 64' ist intern."
+  },
+  {
+    "ITEM": 185,
+    "ARTICLE_EID": "art_68_a",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Verweis 'Artikel 68' ist intern."
+  },
+  {
+    "ITEM": 186,
+    "ARTICLE_EID": "art_68_a",
+    "TARGET_SR": "SR 142.31",
+    "assigned_articles": ["Art. 44", "Art. 45"],
+    "confidence": "high",
+    "reasoning": "Gleiche Norm wie ITEM 36, nur ohne SR-Nummer; Zuordnung zu SR 142.31 Art. 44 und 45."
+  },
+  {
+    "ITEM": 187,
+    "ARTICLE_EID": "art_68_a",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "medium",
+    "reasoning": "Verweise 'Artikeln 67 und 68 Absatz 3' sind intern; Verordnung (EU) 2018/1861 ohne SR."
+  },
+  {
+    "ITEM": 188,
+    "ARTICLE_EID": "art_68_b",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Verweis 'Artikel 68a Absätze 1 und 2' ist intern."
+  },
+  {
+    "ITEM": 189,
+    "ARTICLE_EID": "art_68_d",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Verweis 'Artikel 68a Absatz 1' ist intern."
+  },
+  {
+    "ITEM": 190,
+    "ARTICLE_EID": "art_68_d",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Verweis 'Artikel 68a Absatz 1' ist intern."
+  },
+  {
+    "ITEM": 191,
+    "ARTICLE_EID": "art_68_d",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Verweis 'Artikel 68a Absatz 2' ist intern."
+  },
+  {
+    "ITEM": 192,
+    "ARTICLE_EID": "art_68_e",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "medium",
+    "reasoning": "Verweis 'Artikel 15 der Verordnung (EU) 2018/1860' betrifft EU-Recht ohne SR; keine Zuweisung."
+  },
+  {
+    "ITEM": 193,
+    "ARTICLE_EID": "art_74",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Verweis 'Art. 69 Abs. 3' ist intern."
+  },
+  {
+    "ITEM": 194,
+    "ARTICLE_EID": "art_74",
+    "TARGET_SR": "SR 142.31",
+    "assigned_articles": ["Art. 24a"],
+    "confidence": "high",
+    "reasoning": "Gleiche Norm wie ITEM 42, nur ohne SR-Nummer; Zuordnung zu SR 142.31 Art. 24a."
+  },
+  {
+    "ITEM": 195,
+    "ARTICLE_EID": "art_75",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Verweis 'Artikel 74' ist intern."
+  },
+  {
+    "ITEM": 196,
+    "ARTICLE_EID": "art_75",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Verweise 'Art. 62 und 63' sind intern."
+  },
+  {
+    "ITEM": 197,
+    "ARTICLE_EID": "art_75",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Verweis 'Art. 68' ist intern."
+  },
+  {
+    "ITEM": 198,
+    "ARTICLE_EID": "art_76",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Verweis 'Artikel 75' ist intern."
+  },
+  {
+    "ITEM": 199,
+    "ARTICLE_EID": "art_76",
+    "TARGET_SR": "SR 142.31",
+    "assigned_articles": ["Art. 8 Abs. 1 Bst. a", "Art. 47 Abs. 1"],
+    "confidence": "high",
+    "reasoning": "Gleiche Norm wie ITEM 47, nur ohne SR-Nummer; Zuordnung zu SR 142.31 Art. 8 Abs. 1 Bst. a und Art. 47 Abs. 1."
+  },
+  {
+    "ITEM": 200,
+    "ARTICLE_EID": "art_76",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Verweis 'Artikel 76a' ist intern."
+  },
+  {
+    "ITEM": 201,
+    "ARTICLE_EID": "art_76",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Verweis 'Artikel 79' ist intern."
+  },
+  {
+    "ITEM": 202,
+    "ARTICLE_EID": "art_76_a",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "medium",
+    "reasoning": "Verweis auf EU-Verordnung (EG) Nr. 604/2013 ohne SR; keine Zuweisung."
+  },
+  {
+    "ITEM": 203,
+    "ARTICLE_EID": "art_76_a",
+    "TARGET_SR": "SR 142.31",
+    "assigned_articles": ["Art. 8 Abs. 1 Bst. a"],
+    "confidence": "high",
+    "reasoning": "Gleiche Norm wie ITEM 48, nur ohne SR-Nummer; Zuordnung zu SR 142.31 Art. 8 Abs. 1 Bst. a."
+  },
+  {
+    "ITEM": 204,
+    "ARTICLE_EID": "art_76_a",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Verweis 'Artikel 74' ist intern."
+  },
+  {
+    "ITEM": 205,
+    "ARTICLE_EID": "art_76_a",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "medium",
+    "reasoning": "Verweis auf EU-Verordnung (EG) Nr. 1560/2003 ohne SR; keine Zuweisung."
+  },
+  {
+    "ITEM": 206,
+    "ARTICLE_EID": "art_76_a",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Verweis 'Artikel 79' ist intern."
+  },
+  {
+    "ITEM": 207,
+    "ARTICLE_EID": "art_78",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Verweis 'Artikel 79' ist intern."
+  },
+  {
+    "ITEM": 208,
+    "ARTICLE_EID": "art_78",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Verweise 'Artikel 75, 76 oder 77' sind intern."
+  },
+  {
+    "ITEM": 209,
+    "ARTICLE_EID": "art_78",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Verweis 'Artikel 80 Absätze 2 und 4' ist intern."
+  },
+  {
+    "ITEM": 210,
+    "ARTICLE_EID": "art_78",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Verweis 'Artikel 81' ist intern."
+  },
+  {
+    "ITEM": 211,
+    "ARTICLE_EID": "art_79",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Verweise 'Artikeln 75–77' und 'Artikel 78' sind intern."
+  },
+  {
+    "ITEM": 212,
+    "ARTICLE_EID": "art_80",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Verweise 'Artikel 75' und 'Artikel 20' (Begrenzungsmassnahmen) sind intern."
+  },
+  {
+    "ITEM": 213,
+    "ARTICLE_EID": "art_80",
+    "TARGET_SR": "SR 142.31",
+    "assigned_articles": ["Art. 46 Abs. 1bis"],
+    "confidence": "high",
+    "reasoning": "Gleiche Norm wie ITEM 51, nur ohne SR-Nummer; Zuordnung zu SR 142.31 Art. 46 Abs. 1bis."
+  },
+  {
+    "ITEM": 214,
+    "ARTICLE_EID": "art_80",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Verweis 'Artikel 77' ist intern."
+  },
+  {
+    "ITEM": 215,
+    "ARTICLE_EID": "art_80",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Verweis 'Artikel 76 Absatz 1 Buchstabe b Ziffer 5' ist intern."
+  },
+  {
+    "ITEM": 216,
+    "ARTICLE_EID": "art_80",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Verweise 'Artikel 75' und 'Artikel 76' sind intern."
+  },
+  {
+    "ITEM": 217,
+    "ARTICLE_EID": "art_80_a",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Verweis 'Artikel 76a' ist intern."
+  },
+  {
+    "ITEM": 218,
+    "ARTICLE_EID": "art_80_a",
+    "TARGET_SR": "SR 142.31",
+    "assigned_articles": ["Art. 46 Abs. 1bis"],
+    "confidence": "high",
+    "reasoning": "Gleiche Norm wie ITEM 52, nur ohne SR-Nummer; Zuordnung zu SR 142.31 Art. 46 Abs. 1bis."
+  },
+  {
+    "ITEM": 219,
+    "ARTICLE_EID": "art_80_a",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Verweis 'Art. 64a' ist intern."
+  },
+  {
+    "ITEM": 220,
+    "ARTICLE_EID": "art_80_a",
+    "TARGET_SR": "SR 142.31",
+    "assigned_articles": ["Art. 64a Abs. 3bis"],
+    "confidence": "high",
+    "reasoning": "Text: 'Vertrauensperson nach Artikel 64a Absatz 3bis des vorliegenden Gesetzes oder nach Artikel 17 Absatz 3 AsylG'; AsylG = SR 142.31, daher Art. 17 Abs. 3 AsylG gehört zu SR 142.31, Art. 64a ist intern."
+  },
+  {
+    "ITEM": 221,
+    "ARTICLE_EID": "art_81",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "medium",
+    "reasoning": "Verweise auf Richtlinie 2008/115/EG ohne SR; keine Zuweisung."
+  },
+  {
+    "ITEM": 222,
+    "ARTICLE_EID": "art_81",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "medium",
+    "reasoning": "Verweis auf EU-Verordnung (EU) Nr. 604/2013 ohne SR; keine Zuweisung."
+  },
+  {
+    "ITEM": 223,
+    "ARTICLE_EID": "art_81",
+    "TARGET_SR": "SR 0.107",
+    "assigned_articles": ["Art. 37"],
+    "confidence": "high",
+    "reasoning": "Gleiche Norm wie ITEM 53, nur ohne SR-Nummer; Zuordnung zu SR 0.107 Art. 37."
+  },
+  {
+    "ITEM": 224,
+    "ARTICLE_EID": "art_82",
+    "TARGET_SR": "SR 142.31",
+    "assigned_articles": ["Art. 65"],
+    "confidence": "high",
+    "reasoning": "Gleiche Norm wie ITEM 55, nur ohne SR-Nummer; Zuordnung zu SR 142.31 Art. 65."
+  },
+  {
+    "ITEM": 225,
+    "ARTICLE_EID": "art_82",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Verweis 'Artikel 73 Absatz 1 Buchstabe c' ist intern."
+  },
+  {
+    "ITEM": 226,
+    "ARTICLE_EID": "art_82",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Verweis 'Artikel 64c Absatz 1 Buchstabe a' ist intern."
+  },
+  {
+    "ITEM": 227,
+    "ARTICLE_EID": "art_83",
+    "TARGET_SR": "SR 142.31",
+    "assigned_articles": ["Art. 53", "Art. 54"],
+    "confidence": "high",
+    "reasoning": "Gleiche Norm wie ITEM 57, nur ohne SR-Nummer; Zuordnung zu SR 142.31 Art. 53 und 54."
+  },
+  {
+    "ITEM": 228,
+    "ARTICLE_EID": "art_83",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Verweis 'Artikel 58a' ist intern."
+  },
+  {
+    "ITEM": 229,
+    "ARTICLE_EID": "art_84",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Verweise 'Art. 83 Abs. 2 und 4' und 'Artikel 83 Absatz 7' sind intern."
+  },
+  {
+    "ITEM": 230,
+    "ARTICLE_EID": "art_85",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Verweise 'Art. 41 Abs. 2' und 'Artikel 84' sind intern."
+  },
+  {
+    "ITEM": 231,
+    "ARTICLE_EID": "art_85",
+    "TARGET_SR": "SR 142.31",
+    "assigned_articles": ["Art. 27"],
+    "confidence": "high",
+    "reasoning": "Gleiche Norm wie ITEM 59, nur ohne SR-Nummer; Zuordnung zu SR 142.31 Art. 27."
+  },
+  {
+    "ITEM": 232,
+    "ARTICLE_EID": "art_85_a",
+    "TARGET_SR": "SR 142.31",
+    "assigned_articles": ["Art. 22", "Art. 61"],
+    "confidence": "high",
+    "reasoning": "Verweis 'Art. 22' ist intern; 'Artikel 61 AsylG' gehört zu SR 142.31 (vgl. ITEM 10)."
+  },
+  {
+    "ITEM": 233,
+    "ARTICLE_EID": "art_85_b",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Verweis 'Artikel 83 Absatz 7 Buchstabe a oder b' ist intern."
+  },
+  {
+    "ITEM": 234,
+    "ARTICLE_EID": "art_85_b",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Verweis 'Artikel 37 Absatz 2' ist intern."
+  },
+  {
+    "ITEM": 235,
+    "ARTICLE_EID": "art_85_c",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Verweis 'Artikel 49a Absatz 2' ist intern."
+  },
+  {
+    "ITEM": 236,
+    "ARTICLE_EID": "art_86",
+    "TARGET_SR": "SR 142.31",
+    "assigned_articles": ["Art. 80a", "Art. 81", "Art. 82", "Art. 83", "Art. 84"],
+    "confidence": "high",
+    "reasoning": "Gleiche Norm wie ITEM 63, nur ohne SR-Nummer; Zuordnung zu SR 142.31 Art. 80a–84."
+  },
+  {
+    "ITEM": 237,
+    "ARTICLE_EID": "art_86",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Verweis 'Artikel 31 Absätze 1 und 2' ist intern."
+  },
+  {
+    "ITEM": 238,
+    "ARTICLE_EID": "art_87",
+    "TARGET_SR": "SR 142.31",
+    "assigned_articles": ["Art. 88 Abs. 1", "Art. 88 Abs. 2", "Art. 89"],
+    "confidence": "high",
+    "reasoning": "Gleiche Norm wie ITEM 67, nur ohne SR-Nummer; Zuordnung zu SR 142.31."
+  },
+  {
+    "ITEM": 239,
+    "ARTICLE_EID": "art_87",
+    "TARGET_SR": "SR 142.31",
+    "assigned_articles": ["Art. 88 Abs. 3", "Art. 89"],
+    "confidence": "high",
+    "reasoning": "Verweis 'Artikeln 88 Absatz 3 und 89 AsylG' – AsylG = SR 142.31."
+  },
+  {
+    "ITEM": 240,
+    "ARTICLE_EID": "art_87",
+    "TARGET_SR": "SR 142.31",
+    "assigned_articles": ["Art. 88 Abs. 4"],
+    "confidence": "high",
+    "reasoning": "Verweis 'Artikel 88 Absatz 4 AsylG' – AsylG = SR 142.31."
+  },
+  {
+    "ITEM": 241,
+    "ARTICLE_EID": "art_87",
+    "TARGET_SR": "SR 142.31",
+    "assigned_articles": ["Art. 92", "Art. 93"],
+    "confidence": "high",
+    "reasoning": "Verweis 'richten sich nach den Artikeln 92 und 93 AsylG' – AsylG = SR 142.31."
+  },
+  {
+    "ITEM": 242,
+    "ARTICLE_EID": "art_88",
+    "TARGET_SR": "SR 142.31",
+    "assigned_articles": ["Art. 86", "5. Kapitel 2. Abschnitt", "10. Kapitel", "Art. 112a"],
+    "confidence": "medium",
+    "reasoning": "Verweise 'Artikel 86 AsylG', '5. Kapitel 2. Abschnitt', '10. Kapitel', 'Artikel 112a AsylG' – alle innerhalb AsylG (SR 142.31). Kapitelangaben werden als solche übernommen."
+  },
+  {
+    "ITEM": 243,
+    "ARTICLE_EID": "art_89",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Verweis 'Artikel 13 Absatz 1' ist intern."
+  },
+  {
+    "ITEM": 244,
+    "ARTICLE_EID": "art_90",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Verweis 'Art. 89' ist intern."
+  },
+  {
+    "ITEM": 245,
+    "ARTICLE_EID": "art_92_a",
+    "TARGET_SR": "SR 235.1",
+    "assigned_articles": ["Art. 19"],
+    "confidence": "high",
+    "reasoning": "Gleiche Norm wie ITEM 71, nur ohne SR-Nummer; Zuordnung zu SR 235.1 Art. 19."
+  },
+  {
+    "ITEM": 246,
+    "ARTICLE_EID": "art_92_a",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Verweis 'Artikel 122b' ist intern."
+  },
+  {
+    "ITEM": 247,
+    "ARTICLE_EID": "art_93",
+    "TARGET_SR": "SR 142.31",
+    "assigned_articles": ["Art. 22"],
+    "confidence": "high",
+    "reasoning": "Gleiche Norm wie ITEM 72, nur ohne SR-Nummer; Zuordnung zu SR 142.31 Art. 22."
+  },
+  {
+    "ITEM": 248,
+    "ARTICLE_EID": "art_94",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Verweis 'Artikel 92' ist intern."
+  },
+  {
+    "ITEM": 249,
+    "ARTICLE_EID": "art_94",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Verweis 'Artikel 93' ist intern."
+  },
+  {
+    "ITEM": 250,
+    "ARTICLE_EID": "art_94",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Verweis 'Artikel 122a Absatz 1' ist intern."
+  },
+  {
+    "ITEM": 251,
+    "ARTICLE_EID": "art_95",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "medium",
+    "reasoning": "Verweise 'Artikeln 92–94, 122a und 122c' sind intern; SDÜ ohne SR."
+  },
+  {
+    "ITEM": 252,
+    "ARTICLE_EID": "art_97",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Verweis 'Artikel 58a' ist intern."
+  },
+  {
+    "ITEM": 253,
+    "ARTICLE_EID": "art_98",
+    "TARGET_SR": "SR 192.12",
+    "assigned_articles": ["Art. 2 Abs. 2"],
+    "confidence": "high",
+    "reasoning": "Gleiche Norm wie ITEM 75, nur ohne SR-Nummer; Zuordnung zu SR 192.12 Art. 2 Abs. 2."
+  },
+  {
+    "ITEM": 254,
+    "ARTICLE_EID": "art_100",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Verweis 'Artikel 98 Absatz 2' ist intern."
+  },
+  {
+    "ITEM": 255,
+    "ARTICLE_EID": "art_102_e",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Verweis 'Artikel 100' ist intern."
+  },
+  {
+    "ITEM": 256,
+    "ARTICLE_EID": "art_102_e",
+    "TARGET_SR": "SR 351.1",
+    "assigned_articles": ["Art. 2"],
+    "confidence": "high",
+    "reasoning": "Gleiche Norm wie ITEM 78, nur ohne SR-Nummer; Zuordnung zu SR 351.1 Art. 2."
+  },
+  {
+    "ITEM": 257,
+    "ARTICLE_EID": "art_103_a",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Verweise 'Artikel 65' und 'Artikel 122a' sind intern."
+  },
+  {
+    "ITEM": 258,
+    "ARTICLE_EID": "art_103_a",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Verweis 'Artikel 122a' ist intern."
+  },
+  {
+    "ITEM": 259,
+    "ARTICLE_EID": "art_103_c",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Verweis 'Art. 109a' ist intern."
+  },
+  {
+    "ITEM": 260,
+    "ARTICLE_EID": "art_103_c",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "medium",
+    "reasoning": "Verweis auf EU-Verordnung (EU) 2017/2226 ohne SR; keine Zuweisung."
+  },
+  {
+    "ITEM": 261,
+    "ARTICLE_EID": "art_103_c",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "medium",
+    "reasoning": "Verweis auf EU-Verordnung (EU) 2017/2226 ohne SR; keine Zuweisung."
+  },
+  {
+    "ITEM": 262,
+    "ARTICLE_EID": "art_103_d",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "medium",
+    "reasoning": "Verweis auf EU-Verordnung (EU) 2017/2226 ohne SR; keine Zuweisung."
+  },
+  {
+    "ITEM": 263,
+    "ARTICLE_EID": "art_103_d",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Verweis 'Artikel 110h' ist intern."
+  },
+  {
+    "ITEM": 264,
+    "ARTICLE_EID": "art_103_e",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "medium",
+    "reasoning": "Verweis 'Artikel 103c Absatz 4' ist intern; EU-Verordnung ohne SR."
+  },
+  {
+    "ITEM": 265,
+    "ARTICLE_EID": "art_103_f",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Alle Verweise (103c, 103d, 103e) sind intern."
+  },
+  {
+    "ITEM": 266,
+    "ARTICLE_EID": "art_103_f",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Verweis 'Artikel 103c Absatz 4' ist intern."
+  },
+  {
+    "ITEM": 267,
+    "ARTICLE_EID": "art_103_f",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Verweis 'Artikel 103c Absätze 1 und 2' ist intern."
+  },
+  {
+    "ITEM": 268,
+    "ARTICLE_EID": "art_103_f",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Verweis 'Artikel 103c Absatz 4' ist intern."
+  },
+  {
+    "ITEM": 269,
+    "ARTICLE_EID": "art_103_f",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Verweis 'Artikel 103e' ist intern."
+  },
+  {
+    "ITEM": 270,
+    "ARTICLE_EID": "art_104_a",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Alle Verweise (Artikel 92a, 122b) sind intern."
+  },
+  {
+    "ITEM": 271,
+    "ARTICLE_EID": "art_104_a",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Verweise 'Artikel 92a Absatz 3' und 'Artikel 122b' sind intern."
+  },
+  {
+    "ITEM": 272,
+    "ARTICLE_EID": "art_104_a",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Verweis 'Artikel 92a Absatz 3' ist intern."
+  },
+  {
+    "ITEM": 273,
+    "ARTICLE_EID": "art_104_a",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Verweis 'Artikel 92a Absatz 3' ist intern."
+  },
+  {
+    "ITEM": 274,
+    "ARTICLE_EID": "art_104_a",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Verweis 'Artikel 92a Absatz 3' ist intern."
+  },
+  {
+    "ITEM": 275,
+    "ARTICLE_EID": "art_104_a",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Verweis 'Artikel 92a Absatz 3' ist intern."
+  },
+  {
+    "ITEM": 276,
+    "ARTICLE_EID": "art_104_b",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Verweis 'Artikel 92a Absatz 3' ist intern."
+  },
+  {
+    "ITEM": 277,
+    "ARTICLE_EID": "art_104_b",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Verweis 'Artikel 104a Absatz 1 Buchstabe c' ist intern."
+  },
+  {
+    "ITEM": 278,
+    "ARTICLE_EID": "art_108_c",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "medium",
+    "reasoning": "Verweis auf EU-Verordnung (EU) 2018/1240 ohne SR; keine Zuweisung."
+  },
+  {
+    "ITEM": 279,
+    "ARTICLE_EID": "art_108_d",
+    "TARGET_SR": "SR 172.021",
+    "assigned_articles": ["Art. 11b Abs. 2", "Art. 21a", "Art. 34 Abs. 1bis", "Art. 30", "Art. 33a"],
+    "confidence": "high",
+    "reasoning": "Verweise 'Art. 11b Abs. 2, 21a und 34 Abs. 1bis VwVG', 'Art. 30 VwVG', 'Art. 33a VwVG' – alle gehören zum VwVG (SR 172.021)."
+  },
+  {
+    "ITEM": 280,
+    "ARTICLE_EID": "art_108_d",
+    "TARGET_SR": "SR 172.021",
+    "assigned_articles": ["Art. 11b Abs. 2", "Art. 21a", "Art. 34 Abs. 1bis"],
+    "confidence": "high",
+    "reasoning": "Explizite Verweise auf diese VwVG-Artikel; SR 172.021."
+  },
+  {
+    "ITEM": 281,
+    "ARTICLE_EID": "art_108_d",
+    "TARGET_SR": "SR 172.021",
+    "assigned_articles": ["Art. 30"],
+    "confidence": "high",
+    "reasoning": "Verweis 'Art. 30 VwVG' – SR 172.021."
+  },
+  {
+    "ITEM": 282,
+    "ARTICLE_EID": "art_108_d",
+    "TARGET_SR": "SR 172.021",
+    "assigned_articles": ["Art. 33a"],
+    "confidence": "high",
+    "reasoning": "Verweis 'Art. 33a VwVG' – SR 172.021."
+  },
+  {
+    "ITEM": 283,
+    "ARTICLE_EID": "art_108_e",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "medium",
+    "reasoning": "Verweis auf EU-Verordnung (EU) 2018/1240 ohne SR; keine Zuweisung."
+  },
+  {
+    "ITEM": 284,
+    "ARTICLE_EID": "art_108_f",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "medium",
+    "reasoning": "Verweis auf EU-Verordnung (EU) 2018/1240 ohne SR; keine Zuweisung."
+  },
+  {
+    "ITEM": 285,
+    "ARTICLE_EID": "art_108_f",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "medium",
+    "reasoning": "Verweis auf EU-Verordnung (EU) 2018/1240 ohne SR; keine Zuweisung."
+  },
+  {
+    "ITEM": 286,
+    "ARTICLE_EID": "art_108_f",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Verweis 'Artikel 110h' ist intern."
+  },
+  {
+    "ITEM": 287,
+    "ARTICLE_EID": "art_108_g",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Verweise 'Artikel 108e' sind intern."
+  },
+  {
+    "ITEM": 288,
+    "ARTICLE_EID": "art_108_g",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Verweis 'Artikel 108e Absatz 3' ist intern."
+  },
+  {
+    "ITEM": 289,
+    "ARTICLE_EID": "art_108_g",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Verweis 'Artikel 108e Absätze 1 und 2' ist intern."
+  },
+  {
+    "ITEM": 290,
+    "ARTICLE_EID": "art_108_g",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Verweis 'Artikel 108e Absatz 3' ist intern."
+  },
+  {
+    "ITEM": 291,
+    "ARTICLE_EID": "art_108_i",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "medium",
+    "reasoning": "Verweis auf EU-Verordnung (EU) 2018/1240 ohne SR; keine Zuweisung."
+  },
+  {
+    "ITEM": 292,
+    "ARTICLE_EID": "art_108_j",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Verweise 'Artikel 108i Absatz 2' sind intern."
+  },
+  {
+    "ITEM": 293,
+    "ARTICLE_EID": "art_108_j",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Verweise 'Artikel 108i Absatz 2' sind intern."
+  },
+  {
+    "ITEM": 294,
+    "ARTICLE_EID": "art_108_j",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Verweise 'Artikel 108i Absatz 2' sind intern."
+  },
+  {
+    "ITEM": 295,
+    "ARTICLE_EID": "art_108_j",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Verweis 'Artikel 108dquater' ist intern."
+  },
+  {
+    "ITEM": 296,
+    "ARTICLE_EID": "art_108_j",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Verweis 'Artikel 108f' ist intern."
+  },
+  {
+    "ITEM": 297,
+    "ARTICLE_EID": "art_108_k",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Verweis 'Artikel 108j' ist intern."
+  },
+  {
+    "ITEM": 298,
+    "ARTICLE_EID": "art_109_a",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "medium",
+    "reasoning": "Verweis auf EU-Beschluss 2008/633/JI ohne SR; keine Zuweisung."
+  },
+  {
+    "ITEM": 299,
+    "ARTICLE_EID": "art_109_d",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "medium",
+    "reasoning": "Verweis auf EU-Verordnung (EG) Nr. 767/2008 ohne SR; keine Zuweisung."
+  },
+  {
+    "ITEM": 300,
+    "ARTICLE_EID": "art_109_e",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Alle Verweise (109a, 109b, 109c, 109d) sind intern."
+  },
+  {
+    "ITEM": 301,
+    "ARTICLE_EID": "art_109_e",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Verweis 'Artikel 109a Absatz 3' ist intern."
+  },
+  {
+    "ITEM": 302,
+    "ARTICLE_EID": "art_109_e",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Verweis 'Artikel 109c' ist intern."
+  },
+  {
+    "ITEM": 303,
+    "ARTICLE_EID": "art_109_e",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Verweis 'Artikel 109d' ist intern."
+  },
+  {
+    "ITEM": 304,
+    "ARTICLE_EID": "art_109_e",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Verweis 'Artikel 109a Absatz 3' ist intern."
+  },
+  {
+    "ITEM": 305,
+    "ARTICLE_EID": "art_109_f",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "medium",
+    "reasoning": "Verweis auf EU-Verordnung (EU) 2019/1896 ohne SR; keine Zuweisung."
+  },
+  {
+    "ITEM": 306,
+    "ARTICLE_EID": "art_109_g",
+    "TARGET_SR": "SR 142.51",
+    "assigned_articles": ["Art. 4 Abs. 1 Bst. d"],
+    "confidence": "high",
+    "reasoning": "Gleiche Norm wie ITEM 92, nur ohne SR-Nummer; Zuordnung zu SR 142.51 Art. 4 Abs. 1 Bst. d."
+  },
+  {
+    "ITEM": 307,
+    "ARTICLE_EID": "art_109_h",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Alle Verweise (Art. 109g) sind intern."
+  },
+  {
+    "ITEM": 308,
+    "ARTICLE_EID": "art_109_h",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Verweis 'Artikel 71' ist intern."
+  },
+  {
+    "ITEM": 309,
+    "ARTICLE_EID": "art_109_h",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Verweise 'Art. 109g' sind intern."
+  },
+  {
+    "ITEM": 310,
+    "ARTICLE_EID": "art_109_h",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Verweise 'Art. 109g' sind intern."
+  },
+  {
+    "ITEM": 311,
+    "ARTICLE_EID": "art_109_h",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Verweise 'Art. 109g' sind intern."
+  },
+  {
+    "ITEM": 312,
+    "ARTICLE_EID": "art_109_h",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Verweise 'Art. 109g' sind intern."
+  },
+  {
+    "ITEM": 313,
+    "ARTICLE_EID": "art_109_h",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Verweis 'Artikel 109i' ist intern."
+  },
+  {
+    "ITEM": 314,
+    "ARTICLE_EID": "art_109_i",
+    "TARGET_SR": "SR 142.31",
+    "assigned_articles": ["Art. 93 Abs. 1 Bst. a", "Art. 93 Abs. 3"],
+    "confidence": "high",
+    "reasoning": "Gleiche Norm wie ITEM 93, nur ohne SR-Nummer; Zuordnung zu SR 142.31."
+  },
+  {
+    "ITEM": 315,
+    "ARTICLE_EID": "art_109_j",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Verweis 'Artikel 109h' ist intern."
+  },
+  {
+    "ITEM": 316,
+    "ARTICLE_EID": "art_109_k",
+    "TARGET_SR": "SR 142.31",
+    "assigned_articles": ["Art. 102b", "Art. 102c", "Art. 102e"],
+    "confidence": "high",
+    "reasoning": "Gleiche Norm wie ITEM 94, nur ohne SR-Nummer; Zuordnung zu SR 142.31."
+  },
+  {
+    "ITEM": 317,
+    "ARTICLE_EID": "art_110_b",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "medium",
+    "reasoning": "Verweis auf EU-Verordnungen (EU) 2019/817 und 2019/818 ohne SR; keine Zuweisung."
+  },
+  {
+    "ITEM": 318,
+    "ARTICLE_EID": "art_110_c",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "medium",
+    "reasoning": "Verweis auf EU-Verordnung (EU) 2017/2226 ohne SR; keine Zuweisung."
+  },
+  {
+    "ITEM": 319,
+    "ARTICLE_EID": "art_110_c",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "medium",
+    "reasoning": "Verweis auf EU-Verordnung (EU) 2018/1240 ohne SR; keine Zuweisung."
+  },
+  {
+    "ITEM": 320,
+    "ARTICLE_EID": "art_110_d",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "medium",
+    "reasoning": "Verweis auf EU-Verordnungen (EU) 2019/817 und 2019/818 ohne SR; keine Zuweisung."
+  },
+  {
+    "ITEM": 321,
+    "ARTICLE_EID": "art_110_e",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "medium",
+    "reasoning": "Verweis auf EU-Verordnungen (EU) 2019/817 und 2019/818 ohne SR; keine Zuweisung."
+  },
+  {
+    "ITEM": 322,
+    "ARTICLE_EID": "art_110_f",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "medium",
+    "reasoning": "Verweis auf EU-Verordnungen (EU) 2019/817 und 2019/818 ohne SR; keine Zuweisung."
+  },
+  {
+    "ITEM": 323,
+    "ARTICLE_EID": "art_110_g",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Verweis 'Artikel 110c Absatz 1' ist intern."
+  },
+  {
+    "ITEM": 324,
+    "ARTICLE_EID": "art_110_g",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Verweis 'Artikel 110f Absatz 2' ist intern."
+  },
+  {
+    "ITEM": 325,
+    "ARTICLE_EID": "art_110_g",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "medium",
+    "reasoning": "Verweis auf EU-Verordnungen (EU) 2019/817 und 2019/818 ohne SR; keine Zuweisung."
+  },
+  {
+    "ITEM": 326,
+    "ARTICLE_EID": "art_110_g",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "medium",
+    "reasoning": "Verweis auf EU-Verordnungen (EU) 2019/817 und 2019/818 ohne SR; keine Zuweisung."
+  },
+  {
+    "ITEM": 327,
+    "ARTICLE_EID": "art_110_h",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "medium",
+    "reasoning": "Verweis auf EU-Verordnungen (EU) 2019/817 und 2019/818 ohne SR; keine Zuweisung."
+  },
+  {
+    "ITEM": 328,
+    "ARTICLE_EID": "art_110_i",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "medium",
+    "reasoning": "Verweis auf EU-Verordnungen (EU) 2019/817 und 2019/818 ohne SR; keine Zuweisung."
+  },
+  {
+    "ITEM": 329,
+    "ARTICLE_EID": "art_111_a",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "medium",
+    "reasoning": "Verweis auf EU-Verordnung (EU) 2019/1896 ohne SR; keine Zuweisung."
+  },
+  {
+    "ITEM": 330,
+    "ARTICLE_EID": "art_111_c",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Verweise 'Artikel 92' und 'Artikel 93' sind intern."
+  },
+  {
+    "ITEM": 331,
+    "ARTICLE_EID": "art_111_c",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Verweis 'Artikel 111b Absatz 2' ist intern."
+  },
+  {
+    "ITEM": 332,
+    "ARTICLE_EID": "art_111_c",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Verweise 'Artikel 109l, 111a und 111d' sind intern."
+  },
+  {
+    "ITEM": 333,
+    "ARTICLE_EID": "art_112",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Verweise 'Artikeln 65 und 76 Absatz 1 Buchstabe b Ziffer 5' sind intern."
+  },
+  {
+    "ITEM": 334,
+    "ARTICLE_EID": "art_115",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Verweis 'Artikel 5' ist intern."
+  },
+  {
+    "ITEM": 335,
+    "ARTICLE_EID": "art_115",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Verweis 'Art. 7' ist intern."
+  },
+  {
+    "ITEM": 336,
+    "ARTICLE_EID": "art_117_a",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Verweise 'Art. 21a Abs. 3' und 'Art. 21a Abs. 4' sind intern."
+  },
+  {
+    "ITEM": 337,
+    "ARTICLE_EID": "art_119",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Verweis 'Art. 74' ist intern."
+  },
+  {
+    "ITEM": 338,
+    "ARTICLE_EID": "art_120",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Verweise 'Art. 10–16' sind intern."
+  },
+  {
+    "ITEM": 339,
+    "ARTICLE_EID": "art_120",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Verweis 'Art. 38' ist intern."
+  },
+  {
+    "ITEM": 340,
+    "ARTICLE_EID": "art_120",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Verweis 'Art. 37' ist intern."
+  },
+  {
+    "ITEM": 341,
+    "ARTICLE_EID": "art_120",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Verweise 'Art. 32, 33 und 35' sind intern."
+  },
+  {
+    "ITEM": 342,
+    "ARTICLE_EID": "art_120",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Verweis 'Art. 90 Bst. c' ist intern."
+  },
+  {
+    "ITEM": 343,
+    "ARTICLE_EID": "art_120",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Verweise 'Artikel 85a Absätze 2 und 3bis' sind intern."
+  },
+  {
+    "ITEM": 344,
+    "ARTICLE_EID": "art_120",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Verweis 'Artikel 85a Absatz 4' ist intern."
+  },
+  {
+    "ITEM": 345,
+    "ARTICLE_EID": "art_120_d",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Alle Verweise (109a–109d, 103c, 103d, 108e, 108f, 110a–110d, 110f, 110g) sind intern."
+  },
+  {
+    "ITEM": 346,
+    "ARTICLE_EID": "art_120_d",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Verweise 'Artikeln 103c und 103d' sind intern."
+  },
+  {
+    "ITEM": 347,
+    "ARTICLE_EID": "art_120_d",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Verweise 'Artikeln 108e und 108f' sind intern."
+  },
+  {
+    "ITEM": 348,
+    "ARTICLE_EID": "art_120_d",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Verweise 'Artikeln 110a–110d' sind intern."
+  },
+  {
+    "ITEM": 349,
+    "ARTICLE_EID": "art_120_d",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Verweise 'Artikeln 110f und 110g' sind intern."
+  },
+  {
+    "ITEM": 350,
+    "ARTICLE_EID": "art_120_e",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Verweise 'Artikeln 115–120 und 120d' sind intern."
+  },
+  {
+    "ITEM": 351,
+    "ARTICLE_EID": "art_122_a",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Verweis 'Artikel 92 Absatz 1' ist intern."
+  },
+  {
+    "ITEM": 352,
+    "ARTICLE_EID": "art_122_b",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Verweis 'Artikel 92a Absatz 3' ist intern."
+  },
+  {
+    "ITEM": 353,
+    "ARTICLE_EID": "art_122_c",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Verweise 'Artikel 122a und 122b' sind intern."
+  },
+  {
+    "ITEM": 354,
+    "ARTICLE_EID": "art_122_c",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Verweise 'Artikel 122a und 122b' sind intern."
+  },
+  {
+    "ITEM": 355,
+    "ARTICLE_EID": "art_122_c",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Verweis 'Artikel 92a Absatz 1' ist intern."
+  },
+  {
+    "ITEM": 356,
+    "ARTICLE_EID": "art_126",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Verweis 'Artikel 47 Absatz 1' ist intern."
+  },
+  {
+    "ITEM": 357,
+    "ARTICLE_EID": "art_126",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Verweis 'Artikel 102e' ist intern."
+  },
+  {
+    "ITEM": 358,
+    "ARTICLE_EID": "art_126",
+    "TARGET_SR": "SR 142.51",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "high",
+    "reasoning": "Gleiche Norm wie ITEM 103, nur ohne SR-Nummer; Zuordnung zu SR 142.51 als Gesamtverweis."
+  },
+  {
+    "ITEM": 359,
+    "ARTICLE_EID": "art_126_a",
+    "TARGET_SR": "SR 142.31",
+    "assigned_articles": ["Art. 87 (alte Fassung)"],
+    "confidence": "medium",
+    "reasoning": "Verweis 'Artikel 87 des AsylG in der Fassung vom 26. Juni 1998'; AsylG = SR 142.31. Es handelt sich um eine alte Fassung, aber derselbe Artikel 87."
+  },
+  {
+    "ITEM": 360,
+    "ARTICLE_EID": "art_126_a",
+    "TARGET_SR": "SR 142.31",
+    "assigned_articles": ["Art. 85", "Art. 86", "Art. 87"],
+    "confidence": "medium",
+    "reasoning": "Verweis 'Artikeln 85–87 des AsylG in der Fassung vom 26. Juni 1998'; AsylG = SR 142.31, alte Fassung, aber dieselben Artikelnummern."
+  },
+  {
+    "ITEM": 361,
+    "ARTICLE_EID": "art_126_a",
+    "TARGET_SR": "SR 142.31",
+    "assigned_articles": ["Art. 44 Abs. 3"],
+    "confidence": "medium",
+    "reasoning": "Verweis 'Artikel 44 Absatz 3 des AsylG'; AsylG = SR 142.31, alte Fassung."
+  },
+  {
+    "ITEM": 362,
+    "ARTICLE_EID": "art_126_a",
+    "TARGET_SR": "SR 142.31",
+    "assigned_articles": ["Art. 88 Abs. 1", "Art. 88 Abs. 2", "Art. 89"],
+    "confidence": "medium",
+    "reasoning": "Verweis 'Artikeln 88 Absätze 1 und 2 und 89 des AsylG'; AsylG = SR 142.31, alte Fassung."
+  },
+  {
+    "ITEM": 363,
+    "ARTICLE_EID": "art_126_a",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "medium",
+    "reasoning": "Verweis auf ANAG (Bundesgesetz von 1931) ohne SR-Nummer im Input; mangels expliziter SR-Verknüpfung keine Zuweisung."
+  },
+  {
+    "ITEM": 364,
+    "ARTICLE_EID": "art_126_b",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Verweise 'Artikel 109c und 120d' sind intern."
+  },
+  {
+    "ITEM": 365,
+    "ARTICLE_EID": "art_126_d",
+    "TARGET_SR": "SR 142.31",
+    "assigned_articles": ["Art. 108 Abs. 4", "Art. 109 Abs. 3", "Art. 110 Abs. 4 Bst. b", "Art. 111 Bst. d"],
+    "confidence": "high",
+    "reasoning": "Gleiche Norm wie ITEM 105, nur ohne SR-Nummer; Zuordnung zu SR 142.31."
+  },
+  {
+    "ITEM": 366,
+    "ARTICLE_EID": "art_126_e",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "medium",
+    "reasoning": "Verweis 'Artikel 5 Absatz 1 Buchstabe abis' ist intern; Änderung vom 25. September 2020 ohne SR."
+  },
+  {
+    "ITEM": 367,
+    "ARTICLE_EID": "art_126_e",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Verweis 'Artikel 5' ist intern."
+  },
+  {
+    "ITEM": 368,
+    "ARTICLE_EID": "art_126_g",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Verweis 'Artikel 50' ist intern."
+  },
+  {
+    "ITEM": 369,
+    "ARTICLE_EID": "art_128",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Nur Inkrafttretensdaten und interne Artikelangaben; kein externer SR-Bezug."
+  }
+]

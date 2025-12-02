@@ -1,0 +1,97 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 946.201",
+    "assigned_articles": [
+      "Art. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Formulierung «gestützt auf Artikel 3 des Bundesgesetzes ... SR 946.201 über aussenwirtschaftliche Massnahmen» verknüpft den genannten Artikel 3 syntaktisch eindeutig mit dem Gesetz SR 946.201."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": [
+      "Art. 130"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Satzteil «auf Artikel 130 des Zollgesetzes vom 18. März 2005 SR 631.0» wird Art. 130 direkt mit dem Zollgesetz SR 631.0 verbunden; dies ist eine klare direkte Zuordnung."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 632.10",
+    "assigned_articles": [
+      "Art. 4",
+      "Art. 10"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Passage «auf die Artikel 4 und 10 des Zolltarifgesetzes vom 9. Oktober 1986 SR 632.10» ordnet die Artikel 4 und 10 ausdrücklich dem Zolltarifgesetz SR 632.10 zu."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 632.111.722",
+    "assigned_articles": [
+      "Art. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Text «gestützt auf Artikel 3 der Verordnung vom 23. November 2011 SR 632.111.722 ...» verknüpft Art. 3 eindeutig mit der genannten Verordnung SR 632.111.722."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_1_a",
+    "TARGET_SR": "SR 170.512.1",
+    "assigned_articles": [
+      "Art. 20 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "In der Autorennotiz heisst es «in Anwendung von Art. 20 Abs. 2 der Publikationsverordnung ... (SR 170.512.1)»; Art. 20 Abs. 2 ist damit klar dieser Publikationsverordnung SR 170.512.1 zugeordnet."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_1_a",
+    "TARGET_SR": "SR 916.01",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Formulierung «Vorbehalten bleiben besondere Bestimmungen nach der Agrareinfuhrverordnung vom 26. Oktober 2011 SR 916.01 (AEV)» verweist allgemein auf die Verordnung SR 916.01, ohne bestimmte Artikel zu nennen; dies ist eine generelle Verweisung auf das ganze Regelwerk."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_4_a",
+    "TARGET_SR": "SR 631.01",
+    "assigned_articles": [
+      "Art. 50",
+      "Art. 51",
+      "Art. 52",
+      "Art. 53",
+      "Art. 54"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Satz «so sind die Bestimmungen der Artikel 50–54 der Zollverordnung vom 1. November 2006 SR 631.01 anwendbar» nennt explizit den Artikelbereich 50–54 der Zollverordnung SR 631.01; der Bereich wird als einzelne Artikel 50 bis 54 interpretiert."
+  },
+  {
+    "ITEM": 8,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Bezugnahme «gestützt auf Artikel 3 der Verordnung vom 23. November 2011 über die Industrieschutzelemente ...» entspricht inhaltlich der Verweisung in ITEM 4 und betrifft die externe Verordnung SR 632.111.722; als artikel_reference ohne TARGET_SR dient sie hier der Erfassung der Selbstreferenzstruktur und wird nicht erneut einem SR zugeordnet."
+  },
+  {
+    "ITEM": 9,
+    "ARTICLE_EID": "art_4_a",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Formulierung «Bestimmungen der Artikel 50–54 der Zollverordnung vom 1. November 2006» entspricht der externen Verweisung in ITEM 7 auf SR 631.01; als artikel_reference ohne TARGET_SR wird sie als interne Strukturreferenz des Dokuments behandelt und nicht nochmals einem SR zugeordnet."
+  }
+]

@@ -1,0 +1,90 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "art_79",
+    "TARGET_SR": "SR 101",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "high",
+    "reasoning": "The snippet only mentions the Bundesverfassung (SR 101) as a whole and refers generically to the rights granted by it; no specific article numbers or ranges of the Bundesverfassung are cited."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_74_a",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "high",
+    "reasoning": "The reference to Artikel 63 Absatz 2 is not linked to any SR or external act in the snippet and clearly concerns another provision of the same constitutional document; thus it is a self-reference, not an SR link."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_74_a",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "high",
+    "reasoning": "Artikel 61 Absatz 1 Buchstabe a1 is mentioned without any SR or external law context and is syntactically an internal cross-reference within the same constitution."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_129",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "high",
+    "reasoning": "Artikel 63 is cited without any accompanying SR or acronym; it is an internal article of the same document, so this is a self-reference."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_130",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "high",
+    "reasoning": "Artikel 89 Absatz 2 is referenced purely as part of the same constitutional text; there is no external SR citation or acronym linking it to another act."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_130",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "high",
+    "reasoning": "Artikel 68 Absatz 2 is mentioned in the context of transitional provisions of this constitution; no SR or external law is indicated, so it is an internal article reference."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_130",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "high",
+    "reasoning": "Artikel 117 is described as a provision of this constitution (Initiativrecht in den Gemeinden) and is not syntactically tied to any SR citation; it is an internal cross-reference."
+  },
+  {
+    "ITEM": 8,
+    "ARTICLE_EID": "art_132",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "high",
+    "reasoning": "Artikel 35 der bisherigen Verfassung refers to the previous version of the same cantonal constitution, not to a separate SR-numbered federal act; within this parsing task it remains an internal constitutional reference."
+  },
+  {
+    "ITEM": 9,
+    "ARTICLE_EID": "art_132",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "high",
+    "reasoning": "Artikel 49 bis 62 der bisherigen Verfassung are provisions of the former version of this constitution; there is no SR link or external law indicated, so they are treated as internal references."
+  },
+  {
+    "ITEM": 10,
+    "ARTICLE_EID": "art_132",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "high",
+    "reasoning": "Artikel 113 der bisherigen Verfassung is again a provision of the previous constitution; no SR or external act is cited, so this is an internal constitutional reference."
+  },
+  {
+    "ITEM": 11,
+    "ARTICLE_EID": "art_135",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "high",
+    "reasoning": "Artikel 105 bis 108 der bisherigen Verfassung concern the same constitutional framework (previous version) and are not linked to any SR citation; they are internal references within the constitutional document."
+  }
+]

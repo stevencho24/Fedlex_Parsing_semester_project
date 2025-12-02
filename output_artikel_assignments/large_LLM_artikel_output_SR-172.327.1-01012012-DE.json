@@ -1,0 +1,114 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 151.1",
+    "assigned_articles": [
+      "Art. 13 Abs. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet explicitly states: 'gestützt auf die Artikel 13 Absatz 3 des Gleichstellungsgesetzes ... SR 151.1', directly linking Art. 13 Abs. 3 to SR 151.1."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 172.010.1",
+    "assigned_articles": [
+      "Art. 6"
+    ],
+    "confidence": "high",
+    "reasoning": "The text says: '... nach Artikel 6 der Regierungs- und Verwaltungsorganisationsverordnung ... SR 172.010.1', clearly attributing Art. 6 to SR 172.010.1."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": "SR 172.010.1",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "The sentence 'Die Entschädigungen richten sich nach der Regierungs- und Verwaltungsorganisationsverordnung ... SR 172.010.1.' contains no article number; it refers to the ordinance as a whole."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_9",
+    "TARGET_SR": "SR 172.021",
+    "assigned_articles": [
+      "Art. 50"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet states: '... innerhalb der Beschwerdefrist nach Art. 50 des Bundesgesetzes ... SR 172.021 ...', directly linking Art. 50 to SR 172.021."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_14",
+    "TARGET_SR": "SR 172.021",
+    "assigned_articles": [
+      "Art. 10 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "The text reads: '... wenn ein Ausstandsgrund nach Artikel 10 Absatz 1 des Bundesgesetzes ... SR 172.021 ... vorliegt', clearly assigning Art. 10 Abs. 1 to SR 172.021."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_17",
+    "TARGET_SR": "SR 172.021",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "The sentence '... richtet sich das Schlichtungsverfahren nach dem Bundesgesetz ... SR 172.021 über das Verwaltungsverfahren.' contains no specific article; it is a general reference to the whole act."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "artikel_reference without SR; 'Artikel 6 der Regierungs- und Verwaltungsorganisationsverordnung' here is already captured in ITEM 2 as belonging to SR 172.010.1. In this snippet, the article mention serves as part of the description and not as a new external SR link; thus it is treated as internal/self-reference for this document’s structure."
+  },
+  {
+    "ITEM": 8,
+    "ARTICLE_EID": "art_6",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 4 Abs. 1",
+      "Art. 4 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet refers to 'doppelte Parität nach Artikel 4 Absätze 1 und 2' with no SR mentioned; this clearly points to Art. 4 Abs. 1 und 2 of the same ordinance (self-reference)."
+  },
+  {
+    "ITEM": 9,
+    "ARTICLE_EID": "art_9",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "The phrase 'nach Art. 50 des Bundesgesetzes ... über das Verwaltungsverfahren' is the same external reference already assigned to SR 172.021 in ITEM 4. As an artikel_reference item without explicit SR, it is treated as an internal cross-reference context rather than a new SR link."
+  },
+  {
+    "ITEM": 10,
+    "ARTICLE_EID": "art_11",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 4 Abs. 1",
+      "Art. 4 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet mentions 'doppelte Parität nach Artikel 4 Absätze 1 und 2' with no SR; this is a clear self-reference to Art. 4 Abs. 1 und 2 of the same ordinance."
+  },
+  {
+    "ITEM": 11,
+    "ARTICLE_EID": "art_14",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "The phrase 'nach Artikel 10 Absatz 1 des Bundesgesetzes ... über das Verwaltungsverfahren' corresponds to the external SR 172.021 reference already captured in ITEM 5. As an artikel_reference without SR, it functions as internal context and not as a separate SR link."
+  }
+]

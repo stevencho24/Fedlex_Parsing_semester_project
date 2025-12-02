@@ -1,0 +1,124 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 414.110.37",
+    "assigned_articles": [
+      "Art. 3 Abs. 1 lit. b"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Formulierung «gestützt auf Artikel 3 Absatz 1 Buchstabe b der ETHZ-ETHL-Verordnung … SR 414.110.37» verknüpft den genannten Artikel grammatikalisch eindeutig mit der zitierten Verordnung SR 414.110.37."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_20",
+    "TARGET_SR": "SR 414.131.7",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Snippet wird nur die «Gebührenverordnung ETH-Bereich … SR 414.131.7» als Ganzes erwähnt, ohne konkrete Artikelangabe; es handelt sich um eine generelle Verweisung auf die Verordnung."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_22",
+    "TARGET_SR": "SR 414.172",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Bestimmungen der Verordnung SR 414.172 werden pauschal («die Bestimmungen der Verordnung … SR 414.172») herangezogen; kein bestimmter Artikel wird genannt, daher allgemeine Dokumentverweisung."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_23",
+    "TARGET_SR": "SR 414.110",
+    "assigned_articles": [
+      "Art. 20 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Text lautet «gemäss den Bestimmungen von Artikel 20 Absatz 2 des ETH-Gesetzes … SR 414.110»; Artikel und Absatz sind direkt und eindeutig dem ETH-Gesetz SR 414.110 zugeordnet."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 414.133.2",
+    "assigned_articles": [
+      "Art. 15 Abs. 4",
+      "Art. 16 Abs. 1",
+      "Art. 18 Abs. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "Es wird auf «die Aufgaben nach den Artikeln 15 Absatz 4, 16 Absatz 1 und 18 Absatz 3» verwiesen, ohne Nennung eines anderen Erlasses; dies sind interne Verweise innerhalb derselben Verordnung SR 414.133.2."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": "SR 414.133.2",
+    "assigned_articles": [
+      "Art. 3 Abs. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Klammer «(Art. 3 Abs. 3)» steht ohne Bezug zu einem anderen SR-Dokument und bezeichnet einen Artikel derselben Verordnung; daher Selbstverweis auf Art. 3 Abs. 3 SR 414.133.2."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": "SR 414.133.2",
+    "assigned_articles": [
+      "Art. 23"
+    ],
+    "confidence": "high",
+    "reasoning": "«(Art. 23)» ist ein isolierter Artikelhinweis ohne externes SR; syntaktisch ein interner Verweis auf Art. 23 derselben Verordnung SR 414.133.2."
+  },
+  {
+    "ITEM": 8,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": "SR 414.133.2",
+    "assigned_articles": [
+      "Art. 17"
+    ],
+    "confidence": "high",
+    "reasoning": "«Artikel 17 bleibt vorbehalten» verweist ohne Nennung eines anderen Erlasses auf einen Artikel derselben Verordnung; damit interner Verweis auf Art. 17 SR 414.133.2."
+  },
+  {
+    "ITEM": 9,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": "SR 414.133.2",
+    "assigned_articles": [
+      "Art. 4 lit. d"
+    ],
+    "confidence": "high",
+    "reasoning": "«Die Bewerberinnen und Bewerber nach Artikel 4 Buchstabe d» ist ein klarer Selbstverweis auf eine Bestimmung innerhalb derselben Verordnung; daher Art. 4 lit. d SR 414.133.2."
+  },
+  {
+    "ITEM": 10,
+    "ARTICLE_EID": "art_9",
+    "TARGET_SR": "SR 414.133.2",
+    "assigned_articles": [
+      "Art. 15"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Klammer «(Art. 15)» steht ohne externen SR-Bezug und bezeichnet die mündliche Prüfung innerhalb derselben Verordnung; somit interner Verweis auf Art. 15 SR 414.133.2."
+  },
+  {
+    "ITEM": 11,
+    "ARTICLE_EID": "art_22",
+    "TARGET_SR": "SR 414.133.2",
+    "assigned_articles": [
+      "Art. 21"
+    ],
+    "confidence": "high",
+    "reasoning": "«… die nicht unter Artikel 21 fallen» ist ein isolierter Artikelhinweis ohne externes SR; dies ist ein Selbstverweis auf Art. 21 derselben Verordnung SR 414.133.2."
+  },
+  {
+    "ITEM": 12,
+    "ARTICLE_EID": "art_23",
+    "TARGET_SR": "SR 414.133.2",
+    "assigned_articles": [
+      "Art. 20 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Text wiederholt die Formulierung aus ITEM 4, jedoch ohne explizite SR-Nummer; syntaktisch ist «Artikel 20 Absatz 2 des ETH-Gesetzes» ein externer Verweis. Da dieses Dokument SR 414.133.2 ist und kein TARGET_SR-Feld vorliegt, wird der Link als interner Referenzknoten modelliert, der auf Art. 20 Abs. 2 des ETH-Gesetzes verweist; im Rahmen der Selbstreferenz-Logik wird der Artikelwert als solcher erfasst."
+  }
+]

@@ -1,0 +1,22 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 747.30",
+    "assigned_articles": [
+      "Art. 61 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet explicitly states 'gestützt auf Artikel 61 Absatz 2 des Bundesgesetzes ... SR 747.30', directly linking Art. 61 Abs. 2 to SR 747.30."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "The reference 'Artikel 1 Absatz 2' appears without any SR or acronym context and clearly refers to another article of the same ordinance, so it is a self-reference within the current document, not to SR 747.30."
+  }
+]

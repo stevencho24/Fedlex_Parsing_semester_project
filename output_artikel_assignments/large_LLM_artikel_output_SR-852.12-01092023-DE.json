@@ -1,0 +1,92 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 235.2",
+    "assigned_articles": [
+      "Art. 6"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet explicitly cites 'gestützt auf Artikel 6 des Bundesgesetzes ... SR 235.2'; Art. 6 is directly linked to SR 235.2 by wording and proximity."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 172.010",
+    "assigned_articles": [
+      "Art. 57hter"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet cites '... und auf Artikel 57hter des Regierungs- und Verwaltungsorganisationsgesetzes ... SR 172.010'; Art. 57hter is clearly attributed to SR 172.010."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": "SR 195.1",
+    "assigned_articles": [
+      "Art. 39-49"
+    ],
+    "confidence": "high",
+    "reasoning": "The text states 'Bearbeitung konsularischer Schutzfälle nach den Artikeln 39–49 des Auslandschweizergesetzes ... SR 195.1 (ASG)'; the range 39–49 is explicitly tied to SR 195.1."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "medium",
+    "reasoning": "This artikel_reference repeats the same ASG range (39–49) but without an SR number; syntactically it mirrors item 3 but here functions as a general legal description. As an artikel_reference type without explicit SR, it is treated as an internal cross-reference context rather than a new SR link."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "medium",
+    "reasoning": "The snippet 'Bearbeitung weiterer konsularischer Dienstleistungen nach den Artikeln 50–52 ASG' mentions articles 50–52 of ASG but no SR is present in this syntactic unit; per rules, without explicit SR linkage this is treated as an internal/self-reference context."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "medium",
+    "reasoning": "The snippet 'Bearbeitung von Gesuchen um Sozialhilfeleistungen nach den Artikeln 22–37 ASG' cites articles 22–37 of ASG but lacks an SR reference in the same phrase; thus it is considered an internal reference within the current document rather than an assignable SR link."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "medium",
+    "reasoning": "Refers to 'Artikel 4 Absätze 1 und 2 des Bundesgesetzes vom 24. März 2000 über die Bearbeitung von Personendaten ...' but no SR number is given in this snippet; under the rules, without explicit SR linkage this is treated as a self-reference context, not a new SR assignment."
+  },
+  {
+    "ITEM": 8,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "medium",
+    "reasoning": "Again mentions 'Artikel 4 Absätze 1 und 2 des Bundesgesetzes ...' without an SR number in the same syntactic unit; despite likely referring to SR 235.2, the specification requires an explicit SR marker, so it is treated as an internal reference."
+  },
+  {
+    "ITEM": 9,
+    "ARTICLE_EID": "art_16",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "medium",
+    "reasoning": "Same pattern as items 7 and 8: 'Artikel 4 Absätze 1 und 2 des Bundesgesetzes ...' with no SR number in the snippet; therefore, by the self-reference rules, it is considered an internal reference within the current document."
+  }
+]

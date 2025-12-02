@@ -1,0 +1,52 @@
+[
+  {
+    "Item": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 432.21",
+    "assigned_articles": [
+      "Art. 11 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet explicitly cites 'Artikel 11 Absatz 2 des Nationalbibliotheksgesetzes ... SR 432.21 (NBibG)'; this article and paragraph clearly belong to SR 432.21."
+  },
+  {
+    "Item": 2,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 172.041.1",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "The text refers generally to 'die Bestimmungen der Allgemeinen Gebührenverordnung vom 8. September 2004 SR 172.041.1' without mentioning any specific article; thus it is a general reference to the whole ordinance."
+  },
+  {
+    "Item": 3,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 432.21",
+    "assigned_articles": [
+      "Art. 13 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet states 'gestützt auf Artikel 13 Absatz 1 NBibG'; NBibG is SR 432.21 per the preamble, so this is a direct reference to Art. 13 Abs. 1 of SR 432.21."
+  },
+  {
+    "Item": 4,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": "SR 432.21",
+    "assigned_articles": [
+      "Art. 8 zweiter Satz"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet mentions 'nach Artikel 8 zweiter Satz NBibG'; NBibG is SR 432.21, and the wording clearly ties Article 8 (second sentence) to that statute."
+  },
+  {
+    "Item": 5,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "This artikel_reference repeats the same phrase as Item 4 but without an explicit SR; it is an internal cross-reference within the current ordinance to the external law already captured in Item 4, so no new SR assignment is made."
+  }
+]

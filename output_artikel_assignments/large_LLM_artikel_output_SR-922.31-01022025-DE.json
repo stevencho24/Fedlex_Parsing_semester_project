@@ -1,0 +1,257 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 922.0",
+    "assigned_articles": [
+      "Art. 11"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Formulierung «gestützt auf Artikel 11 des Bundesgesetzes ... SR 922.0 ... (Jagdgesetz)» verknüpft Art. 11 direkt mit dem Jagdgesetz SR 922.0."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 451",
+    "assigned_articles": [
+      "Art. 26"
+    ],
+    "confidence": "high",
+    "reasoning": "Im gleichen Satz wird «Artikel 26 des Bundesgesetzes ... SR 451 ... (NHG)» genannt; Art. 26 gehört damit eindeutig zu SR 451."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": "SR 170.512",
+    "assigned_articles": [
+      "Art. 5"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Ausschnitt nennt ausdrücklich «(Art. 5 des Publikationsgesetzes vom 18. Juni 2004 SR 170.512)»; Art. 5 ist klar diesem SR zugeordnet."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": "SR 748.132.3",
+    "assigned_articles": [
+      "Art. 19 Abs. 3 Bst. a",
+      "Art. 28 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "Es heisst «nach den Bestimmungen der Artikel 19 Absatz 3 Buchstabe a und 28 Absatz 1 der Aussenlandeverordnung ... SR 748.132.3»; beide Artikel gehören somit zu SR 748.132.3."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_6",
+    "TARGET_SR": "SR 172.010",
+    "assigned_articles": [
+      "Art. 62a",
+      "Art. 62b"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Passage verweist auf «nach den Artikeln 62a und 62b des Regierungs- und Verwaltungsorganisationsgesetzes ... SR 172.010»; beide Artikel sind eindeutig diesem Gesetz zugeordnet."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_10",
+    "TARGET_SR": "SR 922.01",
+    "assigned_articles": [
+      "Art. 8bis Abs. 5"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Text nennt «Massnahmen nach Artikel 8bis Absatz 5 der Jagdverordnung vom 29. Februar 1988 SR 922.01»; Art. 8bis Abs. 5 gehört damit zu SR 922.01."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_17",
+    "TARGET_SR": "SR 451.1",
+    "assigned_articles": [
+      "Art. 10",
+      "Art. 11"
+    ],
+    "confidence": "high",
+    "reasoning": "Es wird auf «die Artikel 10–11 der Verordnung vom 16. Januar 1991 SR 451.1» verwiesen; dies umfasst Art. 10 und Art. 11 dieser Verordnung."
+  },
+  {
+    "ITEM": 8,
+    "ARTICLE_EID": "art_6",
+    "TARGET_SR": "SR 451",
+    "assigned_articles": [
+      "Art. 18 Abs. 1bis",
+      "Art. 18 ff."
+    ],
+    "confidence": "medium",
+    "reasoning": "Der Text spricht von «Biotopen im Sinne von Artikel 18 Absatz 1bis NHG» sowie «nach den Artikeln 18 ff. NHG» und «Die Förderung ... richtet sich nach den Artikeln 18 ff. NHG.»; alle diese Verweise beziehen sich auf das NHG (SR 451). Art. 18 Abs. 1bis ist explizit, «18 ff.» steht für Art. 18 und folgende, wird hier als Bereichsangabe übernommen."
+  },
+  {
+    "ITEM": 9,
+    "ARTICLE_EID": "art_11",
+    "TARGET_SR": "SR 451",
+    "assigned_articles": [
+      "Art. 26"
+    ],
+    "confidence": "high",
+    "reasoning": "«... mit den Rechten der gerichtlichen Polizei nach Artikel 26 des Jagdgesetzes aus.» Das Jagdgesetz ist im Preambel als SR 451 hinterlegt; Art. 26 gehört somit zu SR 451."
+  },
+  {
+    "ITEM": 10,
+    "ARTICLE_EID": "art_12",
+    "TARGET_SR": "SR 451",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "medium",
+    "reasoning": "Die Formulierung «Vollzug der jagdpolizeilichen Aufgaben gemäss Jagdgesetz» verweist allgemein auf das Jagdgesetz (SR 451), ohne konkrete Artikel zu nennen; daher wird eine generelle Dokumentverweisung angenommen."
+  },
+  {
+    "ITEM": 11,
+    "ARTICLE_EID": "art_15_a",
+    "TARGET_SR": "SR 451",
+    "assigned_articles": [
+      "Art. 11 Abs. 4"
+    ],
+    "confidence": "high",
+    "reasoning": "Es wird ausdrücklich auf «Gebiete nach Artikel 11 Absatz 4 des Jagdgesetzes» Bezug genommen; das Jagdgesetz ist SR 451, somit gehört Art. 11 Abs. 4 zu SR 451."
+  },
+  {
+    "ITEM": 12,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 5"
+    ],
+    "confidence": "high",
+    "reasoning": "Artikelreferenz ohne explizite SR-Angabe im Satz, aber derselbe Kontext wie ITEM 3 («Art. 5 des Publikationsgesetzes vom 18. Juni 2004»). Dies ist eine Selbstreferenz-Erfassung; Art. 5 bezieht sich auf das bereits in ITEM 3 zugeordnete SR 170.512. Da hier kein TARGET_SR vorliegt, wird nur der Artikel als interner Verweis festgehalten."
+  },
+  {
+    "ITEM": 13,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 19 Abs. 3 Bst. a",
+      "Art. 28 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Satz nennt «Artikel 19 Absatz 3 Buchstabe a und 28 Absatz 1 der Aussenlandeverordnung vom 14. Mai 2014»; dies entspricht inhaltlich ITEM 4 (SR 748.132.3). Hier handelt es sich um eine artikel_reference ohne TARGET_SR, also um einen internen Verweis auf dieselben externen Artikel."
+  },
+  {
+    "ITEM": 14,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 2 Abs. 2",
+      "Art. 8",
+      "Art. 9",
+      "Art. 10",
+      "Art. 12"
+    ],
+    "confidence": "high",
+    "reasoning": "«Besondere Bestimmungen nach Artikel 2 Absatz 2 sowie Massnahmen nach den Artikeln 8−10 und 12 bleiben vorbehalten.» Es werden ausschliesslich Artikel der eigenen Verordnung genannt; daher handelt es sich um interne Selbstverweise ohne Bezug zu einem externen SR."
+  },
+  {
+    "ITEM": 15,
+    "ARTICLE_EID": "art_6",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 62a",
+      "Art. 62b"
+    ],
+    "confidence": "high",
+    "reasoning": "«... nach den Artikeln 62a und 62b des Regierungs- und Verwaltungsorganisationsgesetzes ...» entspricht inhaltlich ITEM 5 (SR 172.010). Als artikel_reference ohne TARGET_SR ist dies ein interner Erfassungsfall derselben externen Artikel."
+  },
+  {
+    "ITEM": 16,
+    "ARTICLE_EID": "art_6",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 18 Abs. 1bis"
+    ],
+    "confidence": "high",
+    "reasoning": "«im Sinne von Artikel 18 Absatz 1bis NHG» verweist auf denselben externen Artikel wie in ITEM 8 (SR 451). Hier wird der Artikel als interner Verweis ohne explizite SR-Angabe erfasst."
+  },
+  {
+    "ITEM": 17,
+    "ARTICLE_EID": "art_6",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 2 Abs. 2",
+      "Art. 18 ff."
+    ],
+    "confidence": "medium",
+    "reasoning": "«nach Artikel 2 Absatz 2 dieser Verordnung» ist ein interner Selbstverweis; «nach den Artikeln 18 ff. NHG» verweist auf das NHG (SR 451) wie in ITEM 8. Da kein TARGET_SR vorhanden ist, werden nur die Artikelangaben als interne Referenzen festgehalten."
+  },
+  {
+    "ITEM": 18,
+    "ARTICLE_EID": "art_6",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 18 ff."
+    ],
+    "confidence": "medium",
+    "reasoning": "«richtet sich nach den Artikeln 18 ff. NHG» ist wiederum ein Verweis auf die Artikelgruppe 18 ff. des NHG (SR 451), analog zu ITEM 8; hier als artikel_reference ohne explizites TARGET_SR erfasst."
+  },
+  {
+    "ITEM": 19,
+    "ARTICLE_EID": "art_10",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 8bis Abs. 5"
+    ],
+    "confidence": "high",
+    "reasoning": "«Massnahmen nach Artikel 8bis Absatz 5 der Jagdverordnung vom 29. Februar 1988» entspricht dem externen Verweis in ITEM 6 (SR 922.01). Als artikel_reference ohne TARGET_SR wird derselbe Artikel intern festgehalten."
+  },
+  {
+    "ITEM": 20,
+    "ARTICLE_EID": "art_10_a",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 8",
+      "Art. 9",
+      "Art. 10"
+    ],
+    "confidence": "high",
+    "reasoning": "«nach den Artikeln 8–10 getroffenen Massnahmen» bezieht sich auf Artikel derselben Verordnung; es liegt ein reiner Selbstverweis ohne externes SR vor."
+  },
+  {
+    "ITEM": 21,
+    "ARTICLE_EID": "art_12",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 9"
+    ],
+    "confidence": "high",
+    "reasoning": "«(Art. 9)» ist ein klarer interner Verweis auf Artikel 9 der eigenen Verordnung; kein externer SR-Zusammenhang."
+  },
+  {
+    "ITEM": 22,
+    "ARTICLE_EID": "art_15",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 2 Abs. 2 Bst. d"
+    ],
+    "confidence": "high",
+    "reasoning": "«nach Artikel 2 Absatz 2 Buchstabe d bezeichneten Wildschadenperimeters» verweist auf eine Bestimmung derselben Verordnung; es handelt sich um einen internen Selbstverweis."
+  },
+  {
+    "ITEM": 23,
+    "ARTICLE_EID": "art_15",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 8",
+      "Art. 9"
+    ],
+    "confidence": "high",
+    "reasoning": "«keine Massnahmen nach Artikel 8 oder 9» bezieht sich auf interne Artikel der Verordnung; kein externer SR-Bezug."
+  },
+  {
+    "ITEM": 24,
+    "ARTICLE_EID": "art_17",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 10",
+      "Art. 11"
+    ],
+    "confidence": "high",
+    "reasoning": "«gelten die Artikel 10–11 der Verordnung vom 16. Januar 1991 über den Natur- und Heimatschutz sinngemäss» entspricht dem externen Verweis in ITEM 7 (SR 451.1). Als artikel_reference ohne TARGET_SR werden die Artikel 10 und 11 als interne Erfassung dieses externen Bezugs aufgeführt."
+  }
+]

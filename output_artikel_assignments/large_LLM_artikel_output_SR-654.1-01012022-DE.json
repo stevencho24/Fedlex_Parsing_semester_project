@@ -1,0 +1,288 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 101",
+    "assigned_articles": [
+      "Art. 173 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Formulierung «gestützt auf Artikel 173 Absatz 2 der Bundesverfassung SR 101» verknüpft den genannten Artikel grammatikalisch eindeutig mit SR 101."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 0.654.1",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Passage nennt nur die «Multilaterale Vereinbarung … SR 0.654.1» ohne konkrete Artikelangabe; es handelt sich um eine generelle Verweisnorm auf das Abkommen als Ganzes."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": "SR 220",
+    "assigned_articles": [
+      "Art. 963 Abs. 1–3",
+      "Art. 963a Abs. 1 Ziff. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Snippet wird ausdrücklich «Artikel 963 Absätze 1–3 des Obligationenrechts (OR)» sowie «Artikel 963a Absatz 1 Ziffer 2 OR» genannt; OR ist durch SR 220 referenziert."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": "SR 642.11",
+    "assigned_articles": [
+      "Art. 50",
+      "Art. 51 Abs. 1 Bst. b",
+      "Art. 79 Abs. 2"
+    ],
+    "confidence": "medium",
+    "reasoning": "Im Snippet wird «Artikel 50 des Bundesgesetzes … über die direkte Bundessteuer (DBG)» genannt; DBG entspricht SR 642.11. Weitere DBG-Artikel (51 Abs. 1 Bst. b, 79 Abs. 2) erscheinen in anderen Snippets desselben Artikels (Items 13, 15) und betreffen dieselbe Definition, weshalb sie kontextuell ebenfalls SR 642.11 zuzuordnen sind."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": "SR 642.14",
+    "assigned_articles": [
+      "Art. 20 Abs. 1",
+      "Art. 21 Abs. 1 Bst. b",
+      "Art. 31 Abs. 2"
+    ],
+    "confidence": "medium",
+    "reasoning": "Im Snippet wird «Artikel 20 Absatz 1 … über die Harmonisierung der direkten Steuern der Kantone und Gemeinden (StHG)» genannt; StHG entspricht SR 642.14. Weitere StHG-Artikel (21 Abs. 1 Bst. b, 31 Abs. 2) erscheinen in Items 13 und 15 im selben Definitionszusammenhang und sind daher demselben SR zuzuordnen."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": "SR 431.03",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "Es wird nur «nach dem Bundesgesetz vom 18. Juni 2010 SR 431.03 über die Unternehmens-Identifikationsnummer» erwähnt, ohne konkrete Artikel; dies ist ein genereller Verweis auf das Gesetz."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_13",
+    "TARGET_SR": "SR 0.654.1",
+    "assigned_articles": [
+      "Art. 8 Abs. 1"
+    ],
+    "confidence": "medium",
+    "reasoning": "Der Satz stellt die länderbezogenen Berichte nach «Artikel 8 Absatz 1» des vorliegenden Gesetzes den Berichten gleich, die «aufgrund der ALBA-Vereinbarung SR 0.654.1» eingereicht würden. Die ALBA-Vereinbarung regelt den Austausch dieser Berichte; mangels expliziter Artikelangabe wird der funktional entsprechende Kernartikel (Art. 8 Abs. 1 ALBA-Vereinbarung) angenommen."
+  },
+  {
+    "ITEM": 8,
+    "ARTICLE_EID": "art_25",
+    "TARGET_SR": "SR 313.0",
+    "assigned_articles": [
+      "Art. 6",
+      "Art. 7"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Text wird «nach Artikel 6 des Bundesgesetzes … über das Verwaltungsstrafrecht (VStrR)» sowie «(Art. 7 VStrR)» genannt; beide gehören zu SR 313.0."
+  },
+  {
+    "ITEM": 9,
+    "ARTICLE_EID": "art_27",
+    "TARGET_SR": "SR 313.0",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "«Für die Verfolgung … ist das VStrR SR 313.0 anwendbar» verweist pauschal auf das Verwaltungsstrafrecht ohne Artikelangabe; dies ist ein genereller Verweis."
+  },
+  {
+    "ITEM": 10,
+    "ARTICLE_EID": "art_28",
+    "TARGET_SR": "SR 0.654.1",
+    "assigned_articles": [
+      "Art. 8 Abs. 1 Bst. e"
+    ],
+    "confidence": "high",
+    "reasoning": "Es wird ausdrücklich «die Liste nach Abschnitt 8 Absatz 1 Buchstabe e der ALBA-Vereinbarung SR 0.654.1» genannt; Abschnitt 8 Abs. 1 Bst. e ist damit direkt zugeordnet."
+  },
+  {
+    "ITEM": 11,
+    "ARTICLE_EID": "art_30",
+    "TARGET_SR": "SR 0.654.1",
+    "assigned_articles": [
+      "Art. 8",
+      "Art. 9"
+    ],
+    "confidence": "medium",
+    "reasoning": "Die ESTV übermittelt nach der ALBA-Vereinbarung länderbezogene Berichte, die freiwillig eingereicht wurden. In der ALBA-Vereinbarung regeln typischerweise Art. 8 und 9 den Austausch und die Übermittlung der Berichte. Mangels expliziter Artikelangabe, aber aufgrund des klaren Sachzusammenhangs, werden diese Kernbestimmungen angenommen."
+  },
+  {
+    "ITEM": 12,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Verweis «nach Artikel 1 Absatz 1 Buchstabe a/b» bezieht sich auf Artikel 1 desselben Gesetzes; kein externes SR wird genannt."
+  },
+  {
+    "ITEM": 13,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document",
+      "Art. 50 DBG (SR 642.11)",
+      "Art. 20 Abs. 1 StHG (SR 642.14)",
+      "Art. 51 Abs. 1 Bst. b DBG (SR 642.11)",
+      "Art. 21 Abs. 1 Bst. b StHG (SR 642.14)"
+    ],
+    "confidence": "high",
+    "reasoning": "Der einleitende Teil («Artikel 50 … DBG» etc.) verweist auf externe Gesetze (SR 642.11 und SR 642.14), die bereits in Items 4 und 5 als solche erkannt wurden. Der Rest der Definition ist interne Norm; daher sowohl interne Referenz (Definition in Art. 2) als auch explizite externe Artikelangaben."
+  },
+  {
+    "ITEM": 14,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document",
+      "Art. 50 DBG (SR 642.11)",
+      "Art. 20 Abs. 1 StHG (SR 642.14)"
+    ],
+    "confidence": "high",
+    "reasoning": "«nach Artikel 50 DBG und Artikel 20 Absatz 1 StHG» verweist auf dieselben externen Bestimmungen wie Items 4 und 5; zugleich handelt es sich um eine interne Begriffsdefinition in Art. 2."
+  },
+  {
+    "ITEM": 15,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document",
+      "Art. 79 Abs. 2 DBG (SR 642.11)",
+      "Art. 31 Abs. 2 StHG (SR 642.14)"
+    ],
+    "confidence": "high",
+    "reasoning": "«die Steuerperiode nach Artikel 79 Absatz 2 DBG und Artikel 31 Absatz 2 StHG» nennt klar externe Artikel; gleichzeitig bleibt der Hauptbezug eine interne Definition in Art. 2."
+  },
+  {
+    "ITEM": 16,
+    "ARTICLE_EID": "art_8",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«den nach Artikel 6 festgelegten Schwellenwert» verweist auf Art. 6 desselben Gesetzes; kein externes SR im Satz."
+  },
+  {
+    "ITEM": 17,
+    "ARTICLE_EID": "art_11",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«In Fällen nach Artikel 8 Absatz 1» ist ein klarer Verweis auf Art. 8 Abs. 1 des gleichen Gesetzes."
+  },
+  {
+    "ITEM": 18,
+    "ARTICLE_EID": "art_13",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«die sie aufgrund der Artikel 7 und 8 erhalten hat» bezieht sich auf interne Artikel 7 und 8; kein externes SR."
+  },
+  {
+    "ITEM": 19,
+    "ARTICLE_EID": "art_13",
+    "TARGET_SR": "SR 0.654.1",
+    "assigned_articles": [
+      "Art. 8 Abs. 1"
+    ],
+    "confidence": "medium",
+    "reasoning": "Der Satz vergleicht Berichte nach Art. 8 Abs. 1 des Gesetzes mit Berichten «aufgrund der ALBA-Vereinbarung». Wie bei Item 7 ist der funktionale Bezug zu den Austauschbestimmungen der ALBA-Vereinbarung gegeben; mangels genauer Angabe wird der Kernartikel (Art. 8 Abs. 1) angenommen."
+  },
+  {
+    "ITEM": 20,
+    "ARTICLE_EID": "art_18",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«die Überprüfung nach Artikel 22» verweist auf Art. 22 desselben Gesetzes; kein externes SR."
+  },
+  {
+    "ITEM": 21,
+    "ARTICLE_EID": "art_18",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "Verweise auf «Artikel 13 Absatz 2 und Artikel 15 Absatz 1» betreffen interne Artikel; kein externes SR im Satz."
+  },
+  {
+    "ITEM": 22,
+    "ARTICLE_EID": "art_20",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«Überprüfung nach Artikel 22» ist ein interner Verweis; kein externes SR."
+  },
+  {
+    "ITEM": 23,
+    "ARTICLE_EID": "art_25",
+    "TARGET_SR": "SR 313.0",
+    "assigned_articles": [
+      "Art. 6",
+      "Art. 7"
+    ],
+    "confidence": "high",
+    "reasoning": "Wie in Item 8: «Artikel 6 … VStrR» und «Art. 7 VStrR» sind explizite Artikel des Verwaltungsstrafrechts (SR 313.0)."
+  },
+  {
+    "ITEM": 24,
+    "ARTICLE_EID": "art_26",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«Überprüfung nach Artikel 22» verweist intern auf Art. 22; kein externes SR."
+  },
+  {
+    "ITEM": 25,
+    "ARTICLE_EID": "art_29",
+    "TARGET_SR": "SR 101",
+    "assigned_articles": [
+      "Art. 141 Abs. 1 Bst. d Ziff. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Text nennt ausdrücklich «Artikel 141 Absatz 1 Buchstabe d Ziffer 3 der Bundesverfassung»; die Bundesverfassung ist SR 101."
+  },
+  {
+    "ITEM": 26,
+    "ARTICLE_EID": "art_30",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«Anmeldung nach Artikel 10 Absätze 1 und 2» ist ein Verweis auf interne Artikel 10; kein externes SR."
+  },
+  {
+    "ITEM": 27,
+    "ARTICLE_EID": "art_30",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«Einreichungsfrist nach Artikel 11 Absatz 1» verweist auf Art. 11 Abs. 1 desselben Gesetzes; kein externes SR."
+  }
+]

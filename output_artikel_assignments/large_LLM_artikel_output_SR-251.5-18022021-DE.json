@@ -1,0 +1,263 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 251",
+    "assigned_articles": [
+      "Art. 60"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Formulierung «gestützt auf Artikel 60 des Kartellgesetzes … SR 251 (KG)» verknüpft eindeutig Art. 60 mit dem Kartellgesetz SR 251."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 251",
+    "assigned_articles": [
+      "Art. 49a Abs. 1",
+      "Art. 49a Abs. 2",
+      "Art. 49a Abs. 3 Bst. a"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Snippet werden dreimal ausdrücklich «Artikel 49a Absatz 1 KG», «Artikel 49a Absatz 2 KG» und «Artikel 49a Absatz 3 Buchstabe a KG» genannt; KG ist in der Präambel als SR 251 definiert."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": "SR 251",
+    "assigned_articles": [
+      "Art. 5 Abs. 3",
+      "Art. 5 Abs. 4"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Wendung «Wettbewerbsbeschränkungen nach Artikel 5 Absätze 3 und 4 KG» verweist klar auf Art. 5 Abs. 3 und 4 des Kartellgesetzes SR 251."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_6",
+    "TARGET_SR": "SR 251",
+    "assigned_articles": [
+      "Art. 26–30",
+      "Art. 5 Abs. 3",
+      "Art. 5 Abs. 4"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Snippet werden «Verfahrens nach den Artikeln 26–30 KG» sowie «Wettbewerbsbeschränkungen gemäss Artikel 5 Absätze 3 und 4 KG» genannt; alle diese Artikel gehören zum Kartellgesetz SR 251."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": "SR 251",
+    "assigned_articles": [
+      "Art. 49a Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Klammerzusatz «(Art. 49a Abs. 1 KG)» markiert direkt Art. 49a Abs. 1 des Kartellgesetzes SR 251."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_8",
+    "TARGET_SR": "SR 251",
+    "assigned_articles": [
+      "Art. 5 Abs. 3",
+      "Art. 5 Abs. 4",
+      "Art. 27",
+      "Art. 26",
+      "Art. 27"
+    ],
+    "confidence": "high",
+    "reasoning": "Das Snippet nennt «Artikel 5 Absätze 3 und 4 KG», «Artikel 27 KG» sowie «Verfahren nach den Artikeln 26 und 27 KG»; alle diese Artikel gehören zum Kartellgesetz SR 251. Art. 27 erscheint zweimal in unterschiedlichem Kontext und wird daher doppelt aufgeführt."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_12",
+    "TARGET_SR": "SR 251",
+    "assigned_articles": [
+      "Art. 3–7",
+      "Art. 5 Abs. 3",
+      "Art. 5 Abs. 4"
+    ],
+    "confidence": "high",
+    "reasoning": "Es wird auf «Artikeln 3–7» (als Bereich) und auf «Artikel 5 Absatz 3 oder 4 KG» verwiesen; diese Bestimmungen gehören zum Kartellgesetz SR 251."
+  },
+  {
+    "ITEM": 8,
+    "ARTICLE_EID": "art_15",
+    "TARGET_SR": "SR 251",
+    "assigned_articles": [
+      "Art. 49a Abs. 3 Bst. a"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Formulierung «Meldung gemäss Artikel 49a Absatz 3 Buchstabe a KG» verweist eindeutig auf Art. 49a Abs. 3 Bst. a des Kartellgesetzes SR 251."
+  },
+  {
+    "ITEM": 9,
+    "ARTICLE_EID": "art_19",
+    "TARGET_SR": "SR 251",
+    "assigned_articles": [
+      "Art. 26–30",
+      "Art. 49a Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Snippet werden «Verfahrens nach den Artikeln 26–30 KG» und «Sanktion nach Artikel 49a Absatz 1 KG» genannt; beide Verweise betreffen das Kartellgesetz SR 251."
+  },
+  {
+    "ITEM": 10,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 49a Abs. 1 KG"
+    ],
+    "confidence": "high",
+    "reasoning": "artikel_reference ohne TARGET_SR; der Text nennt «Artikel 49a Absatz 1 KG». Dies ist ein Verweis auf das Kartellgesetz SR 251, nicht auf die eigene Verordnung. Da kein TARGET_SR vorliegt, wird der Verweis als externer Artikel (mit KG-Kennzeichnung) erfasst."
+  },
+  {
+    "ITEM": 11,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 49a Abs. 2 KG"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Satz enthält «Artikel 49a Absatz 2 KG»; dies ist wiederum ein externer Verweis auf das Kartellgesetz SR 251, nicht auf einen Artikel der eigenen Verordnung."
+  },
+  {
+    "ITEM": 12,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 49a Abs. 3 Bst. a KG"
+    ],
+    "confidence": "high",
+    "reasoning": "Es wird «Artikel 49a Absatz 3 Buchstabe a KG» genannt; dies ist ein externer Verweis auf das Kartellgesetz SR 251."
+  },
+  {
+    "ITEM": 13,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 3",
+      "Art. 4"
+    ],
+    "confidence": "high",
+    "reasoning": "«der Betrag nach den Artikeln 3 und 4» bezieht sich auf Artikel 3 und 4 derselben Verordnung (interne Selbstreferenz), da kein Gesetzesakronym oder SR genannt wird."
+  },
+  {
+    "ITEM": 14,
+    "ARTICLE_EID": "art_6",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 26–30 KG",
+      "Art. 3",
+      "Art. 4"
+    ],
+    "confidence": "medium",
+    "reasoning": "«Verfahrens nach den Artikeln 26–30 KG» verweist extern auf das Kartellgesetz SR 251 (mit KG-Angabe), während «Betrag nach den Artikeln 3 und 4» interne Artikel der Verordnung meint. Mangels TARGET_SR wird beides als Artikelangaben ohne Zuordnung zu einem SR ausgegeben."
+  },
+  {
+    "ITEM": 15,
+    "ARTICLE_EID": "art_6",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 5 Abs. 3 KG",
+      "Art. 5 Abs. 4 KG",
+      "Art. 3",
+      "Art. 4"
+    ],
+    "confidence": "medium",
+    "reasoning": "«Artikel 5 Absätze 3 und 4 KG» sind externe Verweise auf das Kartellgesetz SR 251; «Artikeln 3 und 4» sind interne Verordnungsartikel. Ohne TARGET_SR werden alle genannten Artikel als solche erfasst."
+  },
+  {
+    "ITEM": 16,
+    "ARTICLE_EID": "art_8",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 5 Abs. 3 KG",
+      "Art. 5 Abs. 4 KG"
+    ],
+    "confidence": "high",
+    "reasoning": "«Wettbewerbsbeschränkung im Sinne von Artikel 5 Absätze 3 und 4 KG» verweist klar auf Art. 5 Abs. 3 und 4 des Kartellgesetzes SR 251; kein Hinweis auf interne Artikel."
+  },
+  {
+    "ITEM": 17,
+    "ARTICLE_EID": "art_8",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 27 KG"
+    ],
+    "confidence": "high",
+    "reasoning": "«Verfahren gemäss Artikel 27 KG» ist ein eindeutiger externer Verweis auf Art. 27 des Kartellgesetzes SR 251."
+  },
+  {
+    "ITEM": 18,
+    "ARTICLE_EID": "art_8",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 5 Abs. 3 KG",
+      "Art. 5 Abs. 4 KG"
+    ],
+    "confidence": "high",
+    "reasoning": "«Wettbewerbsverstoss gemäss Artikel 5 Absätze 3 oder 4 KG» verweist auf Art. 5 Abs. 3 und 4 des Kartellgesetzes SR 251."
+  },
+  {
+    "ITEM": 19,
+    "ARTICLE_EID": "art_8",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 26 KG",
+      "Art. 27 KG"
+    ],
+    "confidence": "high",
+    "reasoning": "«Verfahren nach den Artikeln 26 und 27 KG» verweist auf Art. 26 und 27 des Kartellgesetzes SR 251."
+  },
+  {
+    "ITEM": 20,
+    "ARTICLE_EID": "art_9",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 8 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "«Erlass der Sanktion nach Artikel 8 Absatz 1» bezieht sich auf Art. 8 Abs. 1 derselben Verordnung (interne Selbstreferenz), da kein externes Gesetz genannt wird."
+  },
+  {
+    "ITEM": 21,
+    "ARTICLE_EID": "art_9",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 8 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "Auch hier verweist «Voraussetzungen von Artikel 8 Absatz 1» auf Art. 8 Abs. 1 der Verordnung selbst."
+  },
+  {
+    "ITEM": 22,
+    "ARTICLE_EID": "art_10",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 9 Abs. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "«nach Massgabe von Artikel 9 Absatz 3» ist eine interne Verweisung auf Art. 9 Abs. 3 derselben Verordnung."
+  },
+  {
+    "ITEM": 23,
+    "ARTICLE_EID": "art_11",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 9 Abs. 3 Bst. a"
+    ],
+    "confidence": "high",
+    "reasoning": "«Mitteilung des Sekretariats gemäss Artikel 9 Absatz 3 Buchstabe a» verweist intern auf Art. 9 Abs. 3 Bst. a der Verordnung."
+  },
+  {
+    "ITEM": 24,
+    "ARTICLE_EID": "art_12",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 3–7"
+    ],
+    "confidence": "high",
+    "reasoning": "«nach den Artikeln 3–7 berechneten Sanktionsbetrags» bezieht sich auf die Artikel 3 bis 7 der Verordnung selbst; es wird kein externes Gesetz genannt."
+  }
+]

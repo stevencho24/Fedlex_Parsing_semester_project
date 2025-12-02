@@ -1,0 +1,185 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 101",
+    "assigned_articles": [
+      "Art. 86 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Formulierung «gestützt auf Artikel 86 Absatz 1 der Bundesverfassung (BV) SR 101» verweist eindeutig auf Art. 86 Abs. 1 BV."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 611.0",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "«Das Finanzhaushaltgesetz … ist subsidiär anwendbar» nennt keine bestimmte Artikelnummer; es handelt sich um eine generelle Verweisung auf das gesamte Gesetz."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": "SR 725.116.2",
+    "assigned_articles": [
+      "Art. 7 Abs. 1",
+      "Art. 17a"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Snippet werden ausdrücklich «Artikel 7 Absatz 1 … (MinVG)» und «Artikel 17a MinVG» genannt; beide gehören zum MinVG (SR 725.116.2)."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_9",
+    "TARGET_SR": "SR 725.116.2",
+    "assigned_articles": [
+      "Art. 8a"
+    ],
+    "confidence": "high",
+    "reasoning": "«Vorfinanzierungen nach Artikel 8a MinVG SR 725.116.2» verknüpft Art. 8a grammatikalisch eindeutig mit dem MinVG (SR 725.116.2)."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_13",
+    "TARGET_SR": "SR 641.61",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "medium",
+    "reasoning": "Es wird die «Änderung des Mineralölsteuergesetzes … (Anhang Ziff. 1)» in Kraft gesetzt, ohne konkrete Artikel zu nennen; die Änderung kann mehrere Bestimmungen betreffen, daher generelle Verweisung."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_13",
+    "TARGET_SR": "SR 725.116.2",
+    "assigned_articles": [
+      "Art. 5"
+    ],
+    "confidence": "high",
+    "reasoning": "«Er setzt Artikel 5 MinVG SR 725.116.2 … in Kraft» nennt explizit Art. 5 des MinVG (SR 725.116.2)."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_13",
+    "TARGET_SR": "SR 741.71",
+    "assigned_articles": [
+      "Art. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "«Er setzt Artikel 2 des Nationalstrassenabgabegesetzes … SR 741.71 … in Kraft» verweist klar auf Art. 2 dieses Gesetzes."
+  },
+  {
+    "ITEM": 8,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": "SR 101",
+    "assigned_articles": [
+      "Art. 86 Abs. 1",
+      "Art. 86 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Das Snippet nennt «Artikel 86 Absatz 1 BV» und «Artikel 86 Absatz 2 BV»; beide gehören zur BV (SR 101)."
+  },
+  {
+    "ITEM": 9,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Verweise «Artikel 7 Absatz 1 …» und «Artikel 17a MinVG» sind bereits in ITEM 3 SR 725.116.2 zugeordnet; hier dient der Eintrag nur als Wiederholung im Volltext und bleibt als interne/kontextuelle Referenz ohne neue SR-Zuordnung."
+  },
+  {
+    "ITEM": 10,
+    "ARTICLE_EID": "art_6",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«Entnahmen nach Artikel 5 Absatz 1 Buchstabe a Ziffer 1» verweist auf Art. 5 derselben Verordnung; kein externes SR genannt, daher reine Selbstreferenz."
+  },
+  {
+    "ITEM": 11,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«… nach Artikel 5 Absatz 1 Buchstabe a Ziffer 2» ist ein Verweis auf eine Bestimmung im gleichen Erlass; keine SR-Verknüpfung."
+  },
+  {
+    "ITEM": 12,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«… nach Artikel 5 Absatz 1 Buchstabe b» bezieht sich auf eine interne Norm des gleichen Gesetzes; kein externes SR."
+  },
+  {
+    "ITEM": 13,
+    "ARTICLE_EID": "art_12",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document",
+      "Art. 86 Abs. 3 BV (SR 101)"
+    ],
+    "confidence": "medium",
+    "reasoning": "«Artikel 86 Absatz 3 BV» verweist auf die Bundesverfassung (SR 101), während die übrigen Artikelangaben (Infrastrukturfondsgesetz, Spezialfinanzierung) ohne SR-Zitat bleiben. Daher eine externe Zuordnung nur für Art. 86 Abs. 3 BV und ansonsten Selbstreferenz/kontextbezogene Erwähnung."
+  },
+  {
+    "ITEM": 14,
+    "ARTICLE_EID": "art_12",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«gestützt auf Artikel 1 Absatz 2 Buchstaben a–c des Bundesbeschlusses …» enthält keinen SR-Link; ohne explizite SR-Zuordnung ist dies als Verweis auf einen anderen Erlass ohne identifizierte SR-Nummer zu behandeln, somit keine TARGET_SR-Zuweisung."
+  },
+  {
+    "ITEM": 15,
+    "ARTICLE_EID": "art_12",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "Auch hier wird «Artikel 1 Absatz 2 Buchstabe d des Bundesbeschlusses …» ohne SR-Nummer erwähnt; mangels expliziter SR-Verknüpfung bleibt es bei einer internen/unspezifischen Referenz."
+  },
+  {
+    "ITEM": 16,
+    "ARTICLE_EID": "art_13",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«Artikel 12 Absatz 2» verweist klar auf eine Bestimmung desselben Gesetzes; kein externes SR genannt."
+  },
+  {
+    "ITEM": 17,
+    "ARTICLE_EID": "art_13",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«Artikel 12f» und «Artikel 12 Absatz 2» sind Artikelnummern innerhalb desselben Erlasses; keine SR-Verknüpfung."
+  },
+  {
+    "ITEM": 18,
+    "ARTICLE_EID": "art_13",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Text wiederholt den Inhalt von ITEM 7 ohne SR-Angabe; als artikel_reference-Eintrag dient er der internen Struktur und erzeugt keine neue SR-Zuordnung."
+  }
+]

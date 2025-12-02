@@ -1,0 +1,102 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 311.0",
+    "assigned_articles": [
+      "Art. 386 Abs. 4"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet explicitly cites 'Artikel 386 Absatz 4 des Strafgesetzbuchs SR 311.0'; direct syntactic link between article and SR."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_6",
+    "TARGET_SR": "SR 616.1",
+    "assigned_articles": [
+      "Art. 13 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet: 'gestützt auf Artikel 13 Absatz 2 des Subventionsgesetzes ... SR 616.1 (SuG)'; clear direct marking of article and SR."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_10",
+    "TARGET_SR": "SR 616.1",
+    "assigned_articles": [
+      "Art. 13"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet: 'eine Prioritätenordnung nach Artikel 13 SuG SR 616.1'; 'SuG' is the law SR 616.1, article 13 is directly attributed."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_12",
+    "TARGET_SR": "SR 616.1",
+    "assigned_articles": [
+      "Art. 16 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet: 'auf der Grundlage einer Verfügung nach Artikel 16 Absatz 1 SuG SR 616.1'; explicit article and paragraph linked to SR."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_15",
+    "TARGET_SR": "SR 616.1",
+    "assigned_articles": [
+      "Art. 23"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet: 'nach Artikel 23 SuG SR 616.1 ausbezahlt'; direct reference to article 23 of SR 616.1."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_6",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "Artikel_reference without explicit SR; 'Artikel 13 Absatz 2 des Subventionsgesetzes ... (SuG)' refers to external law but SR number not present here. The task for artikel_reference is to capture self-references; external article already captured in ITEM 2. This line functions as internal cross-reference context."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_10",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet: 'Prioritätenordnung nach Artikel 13 SuG'; no SR number, and SuG is already linked to SR 616.1 elsewhere. Here it serves as an internal cross-reference; per rules, default to self-reference for artikel_reference when no explicit SR."
+  },
+  {
+    "ITEM": 8,
+    "ARTICLE_EID": "art_12",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet: 'Verfügung nach Artikel 16 Absatz 1 SuG.'; external law already linked with SR in ITEM 4. This occurrence lacks SR and is treated as internal structural reference per specification."
+  },
+  {
+    "ITEM": 9,
+    "ARTICLE_EID": "art_12",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet: 'Bedingungen und Auflagen ... (Art. 13);' with no law acronym or SR; clearly a reference to article 13 of the same ordinance. Classified as internal self-reference."
+  },
+  {
+    "ITEM": 10,
+    "ARTICLE_EID": "art_15",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet: 'nach Artikel 23 SuG ausbezahlt.'; the external law and SR are already captured in ITEM 5. Here, without SR number, artikel_reference is treated as internal cross-reference context per rules."
+  }
+]

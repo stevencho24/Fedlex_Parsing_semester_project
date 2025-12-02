@@ -1,0 +1,75 @@
+[
+  {
+    "Item": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 741.71",
+    "assigned_articles": [
+      "Art. 19"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Formulierung \"gestützt auf Artikel 19 des Nationalstrassenabgabegesetzes ... SR 741.71 (NSAG)\" verknüpft den genannten Artikel eindeutig mit dem NSAG (SR 741.71)."
+  },
+  {
+    "Item": 2,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 741.711",
+    "assigned_articles": [
+      "Art. 2 Abs. 1 Bst. a",
+      "Art. 2 Abs. 1 Bst. c"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Satz \"gestützt auf Artikel 2 Absatz 1 Buchstaben a und c der Nationalstrassenabgabeverordnung ... SR 741.711\" werden Artikel, Absatz und Buchstaben ausdrücklich dieser Verordnung zugeordnet."
+  },
+  {
+    "Item": 3,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 641.20",
+    "assigned_articles": [
+      "Art. 37"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Passage \"nach Artikel 37 des Mehrwertsteuergesetzes ... SR 641.20\" ordnet Art. 37 klar dem Mehrwertsteuergesetz (SR 641.20) zu."
+  },
+  {
+    "Item": 4,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": "SR 170.512.1",
+    "assigned_articles": [
+      "Art. 20 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Im authorialNote-Text steht \"in Anwendung von Art. 20 Abs. 2 der Publikationsverordnung ... (SR 170.512.1)\", womit Art. 20 Abs. 2 eindeutig dieser Verordnung zugeordnet wird."
+  },
+  {
+    "Item": 5,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": "SR 741.71",
+    "assigned_articles": [
+      "Art. 18 Abs. 3",
+      "Art. 18 Abs. 4"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Formulierung \"gestützt auf Artikel 18 Absätze 3 und 4 NSAG\" bezieht sich über das Akronym NSAG (im Präambel-Callback als SR 741.71 definiert) eindeutig auf Art. 18 Abs. 3 und 4 NSAG."
+  },
+  {
+    "Item": 6,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 2 Abs. 1 Bst. a",
+      "Art. 2 Abs. 1 Bst. c"
+    ],
+    "confidence": "high",
+    "reasoning": "Dies ist eine Selbstreferenz innerhalb des Dokuments zu \"Artikel 2 Absatz 1 Buchstaben a und c der Nationalstrassenabgabeverordnung\"; derselbe Wortlaut erscheint in Item 2, wo klar ist, dass es sich um Art. 2 Abs. 1 Bst. a und c der SR 741.711 handelt. Da hier kein SR genannt ist, bleibt es eine interne Verweisstruktur ohne TARGET_SR."
+  },
+  {
+    "Item": 7,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 37"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Stelle \"nach Artikel 37 des Mehrwertsteuergesetzes vom 12. Juni 2009\" ist eine Artikelreferenz; in Item 3 ist derselbe Kontext mit explizitem SR 641.20 versehen. Hier liegt daher eine interne Wiederholung der Verweisung auf Art. 37 MWSTG vor, ohne dass im Snippet selbst ein SR genannt wird; deshalb kein TARGET_SR, aber der referenzierte Artikel ist Art. 37."
+  }
+]

@@ -1,0 +1,53 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 414.110.37",
+    "assigned_articles": [
+      "Art. 3 Abs. 1 lit. b"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Formulierung «gestützt auf Artikel 3 Absatz 1 Buchstabe b der ETHZ-ETHL-Verordnung … SR 414.110.37» verknüpft den genannten Artikel syntaktisch eindeutig mit der genannten SR-Nummer."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": "SR 414.110",
+    "assigned_articles": [
+      "Art. 38 Abs. 1 lit. b",
+      "Art. 38 Abs. 1 lit. c"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Snippet wird ausdrücklich «Artikel 38 Absatz 1 Buchstaben b und c des ETH-Gesetzes … SR 414.110» genannt; beide Buchstaben gehören zu demselben Absatz dieses Artikels."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_22",
+    "TARGET_SR": "SR 414.131.7",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Satz «… gilt die Gebührenverordnung ETH-Bereich … SR 414.131.7» verweist pauschal auf die ganze Verordnung; es werden keine bestimmten Artikel dieser SR genannt."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "Artikelreferenz ohne explizite SR-Nennung; dieselbe Formulierung mit SR 414.110 erscheint bereits in ITEM 2. Hier handelt es sich um eine Selbstreferenz innerhalb des aktuellen Dokuments, nicht um eine neue SR-Verknüpfung."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_14",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«gilt Artikel 10» enthält keine SR- oder Gesetzesbezeichnung und verweist damit auf einen anderen Artikel derselben Verordnung; dies ist eine interne Selbstreferenz."
+  }
+]

@@ -1,0 +1,170 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 742.122",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "high",
+    "reasoning": "The preamble cites the Eisenbahn-Netzzugangsverordnung (NZV) only by title and SR number without any article indication; this is a generic legal basis reference to the whole ordinance."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": "SR 742.141.1",
+    "assigned_articles": ["Art. 15a Abs. 1 Bst. a"],
+    "confidence": "high",
+    "reasoning": "The snippet explicitly refers to 'Artikel 15a Absatz 1 Buchstabe a der Eisenbahnverordnung ... SR 742.141.1'; this article designation is syntactically and semantically linked to SR 742.141.1."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_12_b",
+    "TARGET_SR": "SR 745.1",
+    "assigned_articles": ["Art. 28"],
+    "confidence": "high",
+    "reasoning": "The text states 'nach Artikel 28 des Personenbeförderungsgesetzes ... SR 745.1'; Article 28 is directly attributed to that statute."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 742.122",
+    "assigned_articles": ["Art. 19"],
+    "confidence": "high",
+    "reasoning": "Parenthetical citation '(Art. 19 NZV)' clearly links Article 19 to the NZV (SR 742.122)."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": "SR 742.122",
+    "assigned_articles": ["Art. 19a Abs. 4"],
+    "confidence": "high",
+    "reasoning": "Parenthetical '(Art. 19a Abs. 4 NZV)' directly specifies article and paragraph of the NZV."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": "SR 742.122",
+    "assigned_articles": ["Art. 20a Abs. 4"],
+    "confidence": "high",
+    "reasoning": "Within the snippet, 'mit einem Zuschlag nach Artikel 20a Absatz 4 NZV' explicitly attributes Art. 20a Abs. 4 to the NZV (SR 742.122)."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": "SR 742.122",
+    "assigned_articles": ["Art. 20a"],
+    "confidence": "high",
+    "reasoning": "The leading parenthetical '(Art. 20a NZV)' is a direct article-level reference to the NZV; although the text later mentions Abs. 4, that more specific linkage is already captured in ITEM 6, so here the generic article reference is preserved."
+  },
+  {
+    "ITEM": 8,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": "SR 742.122",
+    "assigned_articles": ["Art. 22 Abs. 1 Bst. g"],
+    "confidence": "high",
+    "reasoning": "The parenthetical '(Art. 22 Abs. 1 Bst. g NZV)' clearly identifies the exact provision in the NZV."
+  },
+  {
+    "ITEM": 9,
+    "ARTICLE_EID": "art_6",
+    "TARGET_SR": "SR 742.122",
+    "assigned_articles": ["Art. 22 Abs. 1 Bst. h"],
+    "confidence": "high",
+    "reasoning": "The parenthetical '(Art. 22 Abs. 1 Bst. h NZV)' clearly identifies the exact provision in the NZV."
+  },
+  {
+    "ITEM": 10,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": "SR 742.122",
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "This preamble_acronym item for 'BAV' only shows 'dem BAV zustellen.' with no article or NZV reference; 'BAV' is an authority, not an SR document, so there is no article assignment to SR 742.122."
+  },
+  {
+    "ITEM": 11,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": "SR 742.122",
+    "assigned_articles": ["Art. 10 Abs. 1 Bst. d"],
+    "confidence": "high",
+    "reasoning": "The snippet contains '(Art. 10 Abs. 1 Bst. d NZV)' and repeats 'Artikel 10 Absatz 1 Buchstabe d NZV'; both clearly refer to the same NZV provision."
+  },
+  {
+    "ITEM": 12,
+    "ARTICLE_EID": "art_10",
+    "TARGET_SR": "SR 742.122",
+    "assigned_articles": ["Art. 11b"],
+    "confidence": "high",
+    "reasoning": "Parenthetical '(Art. 11b NZV)' directly links Article 11b to the NZV."
+  },
+  {
+    "ITEM": 13,
+    "ARTICLE_EID": "art_10_a",
+    "TARGET_SR": "SR 742.122",
+    "assigned_articles": ["Art. 11b Abs. 6"],
+    "confidence": "high",
+    "reasoning": "Parenthetical '(Art. 11b Abs. 6 NZV)' clearly specifies the paragraph within Art. 11b NZV."
+  },
+  {
+    "ITEM": 14,
+    "ARTICLE_EID": "art_10_b",
+    "TARGET_SR": "SR 742.122",
+    "assigned_articles": ["Art. 11c"],
+    "confidence": "high",
+    "reasoning": "Parenthetical '(Art. 11c NZV)' directly cites Article 11c of the NZV."
+  },
+  {
+    "ITEM": 15,
+    "ARTICLE_EID": "art_10_c",
+    "TARGET_SR": "SR 742.122",
+    "assigned_articles": ["Art. 11c Abs. 4"],
+    "confidence": "high",
+    "reasoning": "Parenthetical '(Art. 11c Abs. 4 NZV)' clearly identifies the specific paragraph in the NZV."
+  },
+  {
+    "ITEM": 16,
+    "ARTICLE_EID": "art_10_d",
+    "TARGET_SR": "SR 742.122",
+    "assigned_articles": ["Art. 11c Abs. 6"],
+    "confidence": "high",
+    "reasoning": "Parenthetical '(Art. 11c Abs. 6 NZV)' clearly identifies the specific paragraph in the NZV."
+  },
+  {
+    "ITEM": 17,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": "self",
+    "assigned_articles": ["Art. 5"],
+    "confidence": "high",
+    "reasoning": "Artikelreferenz 'nach Artikel 5' appears without any SR or acronym; by the rules this is an internal reference within the same ordinance, so it is treated as a self-reference to Art. 5 of SR 742.122.4."
+  },
+  {
+    "ITEM": 18,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": "SR 742.122",
+    "assigned_articles": ["Art. 20a Abs. 4"],
+    "confidence": "high",
+    "reasoning": "The phrase 'mit einem Zuschlag nach Artikel 20a Absatz 4 NZV' explicitly links Art. 20a Abs. 4 to the NZV, which via the preamble acronym is SR 742.122; this is not a self-reference but an outgoing reference to that SR."
+  },
+  {
+    "ITEM": 19,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": "SR 742.122",
+    "assigned_articles": ["Art. 10 Abs. 1 Bst. d"],
+    "confidence": "high",
+    "reasoning": "The snippet 'Publikationen nach Artikel 10 Absatz 1 Buchstabe d NZV' clearly attributes this article and letter to the NZV (SR 742.122) via the acronym."
+  },
+  {
+    "ITEM": 20,
+    "ARTICLE_EID": "art_12_b",
+    "TARGET_SR": "SR 745.1",
+    "assigned_articles": ["Art. 28"],
+    "confidence": "high",
+    "reasoning": "The clause 'nach Artikel 28 des Personenbeförderungsgesetzes vom 20. März 2009' is the same syntactic structure as in ITEM 3 and refers to Art. 28 of SR 745.1; this is an outgoing reference, not a self-reference."
+  },
+  {
+    "ITEM": 21,
+    "ARTICLE_EID": "art_12_c",
+    "TARGET_SR": "self",
+    "assigned_articles": ["Art. 3 Abs. 1"],
+    "confidence": "high",
+    "reasoning": "The phrase 'nach Artikel 3 Absatz 1 dieser Verordnung' explicitly marks the cited article as belonging to 'this ordinance'; by the rules this is an internal self-reference to Art. 3 Abs. 1 of the same SR (SR 742.122.4), not to an external SR document."
+  }
+]

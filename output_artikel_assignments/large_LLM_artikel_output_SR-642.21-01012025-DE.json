@@ -1,0 +1,770 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 101",
+    "assigned_articles": ["Art. 132 Abs. 2", "Art. 134"],
+    "confidence": "high",
+    "reasoning": "Snippet explicitly states: 'Den genannten Bestimmungen entsprechen heute Art. 132 Abs. 2 und 134 der BV ... (SR 101)'; direct marking to SR 101."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 935.51",
+    "assigned_articles": ["Art. 1 Abs. 2 Bst. d", "Art. 1 Abs. 2 Bst. e"],
+    "confidence": "high",
+    "reasoning": "Phrase 'nach Artikel 1 Absatz 2 Buchstaben d und e BGS' refers to the Geldspielgesetz (BGS = SR 935.51); direct syntactic link."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": "SR 173.110",
+    "assigned_articles": ["Art. 120"],
+    "confidence": "high",
+    "reasoning": "Text: '(Art. 120 des Bundesgerichtsgesetzes ... SR 173.110)'; explicit article number tied to that SR."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": "SR 951.31",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "high",
+    "reasoning": "Only 'Kollektivanlagengesetz vom 23. Juni 2006 SR 951.31 (KAG)' is cited without any article; no narrower provision indicated."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_4_a",
+    "TARGET_SR": "SR 220",
+    "assigned_articles": ["Art. 659", "Art. 783"],
+    "confidence": "high",
+    "reasoning": "Snippet: 'den Rahmen der Artikel 659 oder 783 des Obligationenrechts (OR) SR 220'; both articles explicitly linked to OR/SR 220."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": "SR 642.11",
+    "assigned_articles": ["Art. 49 Abs. 1 Bst. a", "Art. 61"],
+    "confidence": "high",
+    "reasoning": "Direct references: 'Artikel 49 Absatz 1 Buchstabe a ... (DBG) SR 642.11' and 'nach Artikel 61 DBG'; DBG is SR 642.11."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": "SR 951.31",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "high",
+    "reasoning": "Refers generically to 'kollektive Kapitalanlage gemäss KAG SR 951.31' with no article; broad regulatory concept, not a specific provision."
+  },
+  {
+    "ITEM": 8,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": "SR 952.0",
+    "assigned_articles": ["Art. 11 Abs. 4", "Art. 30b Abs. 6"],
+    "confidence": "high",
+    "reasoning": "Explicitly: 'nach den Artikeln 11 Absatz 4 und 30b Absatz 6 des Bankengesetzes ... SR 952.0'; both clearly tied."
+  },
+  {
+    "ITEM": 9,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": "SR 958.1",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "medium",
+    "reasoning": "Mentions 'im Sinne des Finanzmarktinfrastrukturgesetzes ... SR 958.1' without article; used as a definitional reference to the law as a whole."
+  },
+  {
+    "ITEM": 10,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": "SR 220",
+    "assigned_articles": ["Art. 653s ff."],
+    "confidence": "high",
+    "reasoning": "Phrase 'nach den Artikeln 653s ff. des OR SR 220'; range indicated by 'ff.' but anchored at Art. 653s."
+  },
+  {
+    "ITEM": 11,
+    "ARTICLE_EID": "art_6",
+    "TARGET_SR": "SR 642.11",
+    "assigned_articles": ["Art. 24 Bst. i–iter"],
+    "confidence": "high",
+    "reasoning": "Text: 'nicht nach Artikel 24 Buchstaben i–iter DBG SR 642.11 steuerfrei'; direct marking."
+  },
+  {
+    "ITEM": 12,
+    "ARTICLE_EID": "art_8",
+    "TARGET_SR": "SR 831.10",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "high",
+    "reasoning": "Refers to 'Bundesgesetze über die Alters- und Hinterlassenenversicherung SR 831.10'; no article specified."
+  },
+  {
+    "ITEM": 13,
+    "ARTICLE_EID": "art_8",
+    "TARGET_SR": "SR 831.20",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "high",
+    "reasoning": "Refers to 'Bundesgesetze ... Invalidenversicherung SR 831.20' without article; general legal basis."
+  },
+  {
+    "ITEM": 14,
+    "ARTICLE_EID": "art_9",
+    "TARGET_SR": "SR 951.31",
+    "assigned_articles": ["Art. 110"],
+    "confidence": "high",
+    "reasoning": "Contains 'Investmentgesellschaften ... nach Artikel 110 KAG'; KAG is SR 951.31."
+  },
+  {
+    "ITEM": 15,
+    "ARTICLE_EID": "art_10",
+    "TARGET_SR": "SR 951.31",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "high",
+    "reasoning": "Only 'kollektiven Kapitalanlagen gemäss KAG SR 951.31' is mentioned; no article number."
+  },
+  {
+    "ITEM": 16,
+    "ARTICLE_EID": "art_11",
+    "TARGET_SR": "SR 951.31",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "high",
+    "reasoning": "Refers to 'kollektiven Kapitalanlagen gemäss KAG SR 951.31' generically; no specific article."
+  },
+  {
+    "ITEM": 17,
+    "ARTICLE_EID": "art_12",
+    "TARGET_SR": "SR 642.11",
+    "assigned_articles": ["Art. 24 Bst. i–iter", "Art. 24 Bst. j"],
+    "confidence": "high",
+    "reasoning": "Two explicit references: 'Artikel 24 Buchstaben i–iter DBG SR 642.11' and 'Artikel 24 Buchstabe j DBG'."
+  },
+  {
+    "ITEM": 18,
+    "ARTICLE_EID": "art_13",
+    "TARGET_SR": "SR 642.11",
+    "assigned_articles": ["Art. 24 Bst. i–iter", "Art. 24 Bst. j"],
+    "confidence": "high",
+    "reasoning": "Same pattern as Item 17: explicit 'Artikel 24 Buchstaben i–iter DBG SR 642.11' and 'Artikel 24 Buchstabe j DBG'."
+  },
+  {
+    "ITEM": 19,
+    "ARTICLE_EID": "art_16",
+    "TARGET_SR": "SR 642.11",
+    "assigned_articles": ["Art. 24 Bst. i–iter", "Art. 24 Bst. j"],
+    "confidence": "high",
+    "reasoning": "Again explicit: 'Artikel 24 Buchstaben i–iter DBG SR 642.11' and 'Artikel 24 Buchstabe j DBG'."
+  },
+  {
+    "ITEM": 20,
+    "ARTICLE_EID": "art_19",
+    "TARGET_SR": "SR 221.229.1",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "high",
+    "reasoning": "Cites 'Versicherungsvertragsgesetz vom 2. April 1908 SR 221.229.1' without article; general applicability."
+  },
+  {
+    "ITEM": 21,
+    "ARTICLE_EID": "art_20_a",
+    "TARGET_SR": "SR 642.11",
+    "assigned_articles": ["Art. 24 Bst. i–iter", "Art. 24 Bst. j"],
+    "confidence": "high",
+    "reasoning": "Same DBG reference structure as Items 17–19; both letter groups explicitly mentioned."
+  },
+  {
+    "ITEM": 22,
+    "ARTICLE_EID": "art_21",
+    "TARGET_SR": "SR 642.11",
+    "assigned_articles": ["Art. 24 Bst. i–iter", "Art. 24 Bst. j"],
+    "confidence": "high",
+    "reasoning": "Again explicit 'Artikel 24 Buchstaben i–iter DBG SR 642.11' and 'Artikel 24 Buchstabe j DBG'."
+  },
+  {
+    "ITEM": 23,
+    "ARTICLE_EID": "art_26",
+    "TARGET_SR": "SR 951.31",
+    "assigned_articles": ["Art. 10 Abs. 2"],
+    "confidence": "high",
+    "reasoning": "Snippet: '... gemäss KAG SR 951.31 entrichtet (Art. 10 Abs. 2)'; Art. 10 Abs. 2 is of the same KAG/SR 951.31."
+  },
+  {
+    "ITEM": 24,
+    "ARTICLE_EID": "art_27",
+    "TARGET_SR": "SR 951.31",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "high",
+    "reasoning": "Only 'kollektiven Kapitalanlage gemäss KAG SR 951.31' is mentioned; no article."
+  },
+  {
+    "ITEM": 25,
+    "ARTICLE_EID": "art_28",
+    "TARGET_SR": "SR 192.12",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "high",
+    "reasoning": "Refers to 'Gaststaatgesetz vom 22. Juni 2007 SR 192.12' without article; general exemption regime."
+  },
+  {
+    "ITEM": 26,
+    "ARTICLE_EID": "art_36",
+    "TARGET_SR": "SR 173.110",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "medium",
+    "reasoning": "The historical citation lists many articles of the old Bundesrechtspflegegesetz; the concluding sentence 'Siehe heute das Bundesgerichtsgesetz ... (SR 173.110)' is a general pointer to the new law, not to specific replacement articles."
+  },
+  {
+    "ITEM": 27,
+    "ARTICLE_EID": "art_40",
+    "TARGET_SR": "SR 952.0",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "high",
+    "reasoning": "Mentions 'Bankengesetzes vom 8. November 1934 SR 952.0' only as definition of 'Bank oder Sparkasse'; no article."
+  },
+  {
+    "ITEM": 28,
+    "ARTICLE_EID": "art_47",
+    "TARGET_SR": "SR 281.1",
+    "assigned_articles": ["Art. 274"],
+    "confidence": "high",
+    "reasoning": "Explicit: 'Arrestbefehl im Sinne von Artikel 274 des Bundesgesetzes ... SR 281.1'; direct link."
+  },
+  {
+    "ITEM": 29,
+    "ARTICLE_EID": "art_58",
+    "TARGET_SR": "SR 173.110",
+    "assigned_articles": ["Art. 120"],
+    "confidence": "high",
+    "reasoning": "Text: '(Art. 120 des Bundesgerichtsgesetzes ... SR 173.110)'; clear article reference."
+  },
+  {
+    "ITEM": 30,
+    "ARTICLE_EID": "art_58",
+    "TARGET_SR": "SR 281.1",
+    "assigned_articles": ["Art. 80"],
+    "confidence": "high",
+    "reasoning": "Snippet: 'im Sinne von Artikel 80 des Schuldbetreibungs- und Konkursgesetzes SR 281.1'; explicit."
+  },
+  {
+    "ITEM": 31,
+    "ARTICLE_EID": "art_59",
+    "TARGET_SR": "SR 172.021",
+    "assigned_articles": ["Art. 66", "Art. 67", "Art. 68", "Art. 69"],
+    "confidence": "high",
+    "reasoning": "Phrase 'Artikel 66–69 des Verwaltungsverfahrensgesetzes ... SR 172.021'; continuous range 66–69."
+  },
+  {
+    "ITEM": 32,
+    "ARTICLE_EID": "art_61",
+    "TARGET_SR": "SR 313.0",
+    "assigned_articles": ["Art. 14"],
+    "confidence": "high",
+    "reasoning": "Clause 'sofern nicht die Strafbestimmung von Artikel 14 des Verwaltungsstrafrechtsgesetzes ... SR 313.0 zutrifft'; explicit."
+  },
+  {
+    "ITEM": 33,
+    "ARTICLE_EID": "art_62",
+    "TARGET_SR": "SR 313.0",
+    "assigned_articles": ["Art. 14", "Art. 15", "Art. 16"],
+    "confidence": "high",
+    "reasoning": "Refers to 'Artikel 14–16 des Verwaltungsstrafrechtsgesetzes ... SR 313.0'; range 14–16."
+  },
+  {
+    "ITEM": 34,
+    "ARTICLE_EID": "art_62",
+    "TARGET_SR": "SR 311.0",
+    "assigned_articles": ["Art. 285"],
+    "confidence": "high",
+    "reasoning": "Text: 'Strafverfolgung nach Artikel 285 des Strafgesetzbuches SR 311.0'; explicit."
+  },
+  {
+    "ITEM": 35,
+    "ARTICLE_EID": "art_67",
+    "TARGET_SR": "SR 313.0",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "high",
+    "reasoning": "States 'Das Verwaltungsstrafrechtsgesetz ... SR 313.0 findet Anwendung' without article; general applicability clause."
+  },
+  {
+    "ITEM": 36,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Artikelreferenz 'Artikel 1 Absatz 2 Buchstaben d und e BGS' concerns the cited Geldspielgesetz (SR 935.51), already captured in Item 2; this item is a self-reference record and does not itself form a new SR link."
+  },
+  {
+    "ITEM": 37,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Refers to 'Art. 120 des Bundesgerichtsgesetzes' which is already linked to SR 173.110 in Item 3; this is the same citation context, so no new SR link assignment."
+  },
+  {
+    "ITEM": 38,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Mentions 'Artikel 49 Absatz 1 Buchstabe a ...' and 'Artikel 61 DBG' which are already assigned to SR 642.11 in Item 6; this is the same internal sentence, not a separate SR link."
+  },
+  {
+    "ITEM": 39,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": "SR 642.11",
+    "assigned_articles": ["Art. 59 Abs. 1 Bst. c"],
+    "confidence": "high",
+    "reasoning": "New DBG reference: 'Artikel 59 Absatz 1 Buchstabe c DBG'; DBG is SR 642.11 and this article not yet covered elsewhere."
+  },
+  {
+    "ITEM": 40,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": "SR 952.0",
+    "assigned_articles": ["Art. 11 Abs. 4", "Art. 30b Abs. 6"],
+    "confidence": "high",
+    "reasoning": "Same BankG citation as Item 8: 'Artikeln 11 Absatz 4 und 30b Absatz 6 ... (BankG)'; SR 952.0."
+  },
+  {
+    "ITEM": 41,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": "SR 952.0",
+    "assigned_articles": ["Art. 30b Abs. 7 Bst. b", "Art. 7 Abs. 1"],
+    "confidence": "medium",
+    "reasoning": "Explicit 'Artikel 30b Absatz 7 Buchstabe b BankG'; additionally 'nach den Artikeln 7 Absatz 1 BankG' is referenced in the conditions; both belong to BankG (SR 952.0)."
+  },
+  {
+    "ITEM": 42,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": "SR 642.11",
+    "assigned_articles": ["Art. 61 Abs. 1 Bst. c", "Art. 61 Abs. 1 Bst. d"],
+    "confidence": "high",
+    "reasoning": "Refers to 'Artikel 61 Absatz 1 Buchstabe c DBG' and 'Artikel 61 Absatz 1 Buchstabe d DBG'; DBG is SR 642.11."
+  },
+  {
+    "ITEM": 43,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": "SR 642.11",
+    "assigned_articles": ["Art. 61 Abs. 1 Bst. b", "Art. 61 Abs. 3"],
+    "confidence": "high",
+    "reasoning": "Mentions 'Artikel 61 Absatz 1 Buchstabe b und Absatz 3 DBG'; both provisions of DBG (SR 642.11)."
+  },
+  {
+    "ITEM": 44,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Self-reference to 'Artikel 5 Absatz 1 Buchstabe d' of the same Verrechnungssteuergesetz; no external SR mentioned."
+  },
+  {
+    "ITEM": 45,
+    "ARTICLE_EID": "art_9",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "References 'Artikel 4' within 'dieses Gesetzes'; purely internal cross-reference."
+  },
+  {
+    "ITEM": 46,
+    "ARTICLE_EID": "art_11",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Range 'Art. 12–18' clearly refers to articles of the same act; no SR context."
+  },
+  {
+    "ITEM": 47,
+    "ARTICLE_EID": "art_11",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Range 'Art. 19–20a' is internal to the Verrechnungssteuergesetz; no external law cited."
+  },
+  {
+    "ITEM": 48,
+    "ARTICLE_EID": "art_12",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Refers to 'Artikel 4a Absatz 2' of the same statute; no SR link."
+  },
+  {
+    "ITEM": 49,
+    "ARTICLE_EID": "art_12",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Citation '(Art. 4 Abs. 1 Bst. c)' is internal; no external SR."
+  },
+  {
+    "ITEM": 50,
+    "ARTICLE_EID": "art_16",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "'Artikel 20' refers to another article of the same law; no external document."
+  },
+  {
+    "ITEM": 51,
+    "ARTICLE_EID": "art_16",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "'Artikel 20a' is internal; no SR context."
+  },
+  {
+    "ITEM": 52,
+    "ARTICLE_EID": "art_17",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Reference '(Art. 12)' is to an article of the same act; no external SR."
+  },
+  {
+    "ITEM": 53,
+    "ARTICLE_EID": "art_20",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "'Artikel 16 Absatz 2bis' is internal; no external law mentioned."
+  },
+  {
+    "ITEM": 54,
+    "ARTICLE_EID": "art_21",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Range 'Artikeln 22–28' refers to internal articles; no SR."
+  },
+  {
+    "ITEM": 55,
+    "ARTICLE_EID": "art_25",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "References 'Art. 24 Abs. 2–4' of the same law; internal structure."
+  },
+  {
+    "ITEM": 56,
+    "ARTICLE_EID": "art_33",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Citation '(Art. 14 Abs. 2)' is internal; no external SR."
+  },
+  {
+    "ITEM": 57,
+    "ARTICLE_EID": "art_33",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "'Artikel 31 Absatz 4 und 32 Absatz 2' are internal cross-references; no external law."
+  },
+  {
+    "ITEM": 58,
+    "ARTICLE_EID": "art_36",
+    "TARGET_SR": "SR 173.110",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "medium",
+    "reasoning": "Refers to 'Bundesrechtspflegegesetz vom 16. Dez. 1943' (old law) and then 'Siehe heute das Bundesgerichtsgesetz ... (SR 173.110)'; the latter is a general pointer without specific article."
+  },
+  {
+    "ITEM": 59,
+    "ARTICLE_EID": "art_36_a",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "All references ('Artikel 36 Absatz 1', 'Artikel 36 Absätze 2 und 4') are to internal articles; no external SR."
+  },
+  {
+    "ITEM": 60,
+    "ARTICLE_EID": "art_37",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "'Artikel 36 Absatz 1' is internal; no external law."
+  },
+  {
+    "ITEM": 61,
+    "ARTICLE_EID": "art_38",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "References 'Art. 16', 'Art. 19 und 20' of the same act; internal cross-references only."
+  },
+  {
+    "ITEM": 62,
+    "ARTICLE_EID": "art_38",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "'Artikel 20a Absatz 1' is internal; no SR."
+  },
+  {
+    "ITEM": 63,
+    "ARTICLE_EID": "art_38",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "'Artikel 19' is internal; no external law."
+  },
+  {
+    "ITEM": 64,
+    "ARTICLE_EID": "art_38",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "References 'Artikel 7' and 'Artikel 19 Absatz 3' of the same statute; internal only."
+  },
+  {
+    "ITEM": 65,
+    "ARTICLE_EID": "art_40",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Mentions 'Artikeln 19 und 20' of this law; no external SR."
+  },
+  {
+    "ITEM": 66,
+    "ARTICLE_EID": "art_47",
+    "TARGET_SR": "SR 281.1",
+    "assigned_articles": ["Art. 274"],
+    "confidence": "high",
+    "reasoning": "Same Arrestbefehl reference as Item 28, but without SR number here; contextually it is to the Schuldbetreibungs- und Konkursgesetz (SR 281.1) already identified."
+  },
+  {
+    "ITEM": 67,
+    "ARTICLE_EID": "art_48",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "'Art. 14 Abs. 2' is an internal article; no external law."
+  },
+  {
+    "ITEM": 68,
+    "ARTICLE_EID": "art_50",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "'Artikel 49 Absatz 2' is internal; no SR."
+  },
+  {
+    "ITEM": 69,
+    "ARTICLE_EID": "art_50",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "References 'Art. 14 Abs. 2', 'Art. 49 Abs. 1', 'Artikel 40 Absatz 5' all within same law; internal."
+  },
+  {
+    "ITEM": 70,
+    "ARTICLE_EID": "art_51",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Range 'Artikel 42–44' and 'Artikel 45 und 47' are internal; no external SR."
+  },
+  {
+    "ITEM": 71,
+    "ARTICLE_EID": "art_52",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "'Artikel 57' is internal; no external law."
+  },
+  {
+    "ITEM": 72,
+    "ARTICLE_EID": "art_53",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "'Artikel 42 und 44' are internal; no SR."
+  },
+  {
+    "ITEM": 73,
+    "ARTICLE_EID": "art_53",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "'Artikel 55' is internal; no external law."
+  },
+  {
+    "ITEM": 74,
+    "ARTICLE_EID": "art_54",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Again 'Artikel 55' is internal; no SR."
+  },
+  {
+    "ITEM": 75,
+    "ARTICLE_EID": "art_54",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Range 'Artikel 48–50' is internal; no external law."
+  },
+  {
+    "ITEM": 76,
+    "ARTICLE_EID": "art_58",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "'Artikel 57 Absatz 3' is internal; no SR."
+  },
+  {
+    "ITEM": 77,
+    "ARTICLE_EID": "art_58",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "References 'Artikel 54 und 56' internally; no external law."
+  },
+  {
+    "ITEM": 78,
+    "ARTICLE_EID": "art_58",
+    "TARGET_SR": "SR 173.110",
+    "assigned_articles": ["Art. 120"],
+    "confidence": "high",
+    "reasoning": "Same Bundesgerichtsgesetz Art. 120 reference as Item 29, but without SR number here; contextually the same external provision."
+  },
+  {
+    "ITEM": 79,
+    "ARTICLE_EID": "art_58",
+    "TARGET_SR": "SR 281.1",
+    "assigned_articles": ["Art. 80"],
+    "confidence": "high",
+    "reasoning": "Same 'Artikel 80 des Schuldbetreibungs- und Konkursgesetzes' reference as Item 30; external SR 281.1."
+  },
+  {
+    "ITEM": 80,
+    "ARTICLE_EID": "art_59",
+    "TARGET_SR": "SR 172.021",
+    "assigned_articles": ["Art. 66", "Art. 67", "Art. 68", "Art. 69"],
+    "confidence": "high",
+    "reasoning": "Same 'Artikel 66–69 des Verwaltungsverfahrensgesetzes' reference as Item 31; external SR 172.021."
+  },
+  {
+    "ITEM": 81,
+    "ARTICLE_EID": "art_60",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "'Artikel 57' is internal; no external SR."
+  },
+  {
+    "ITEM": 82,
+    "ARTICLE_EID": "art_61",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "'Art. 19 und 20' are internal; no external law."
+  },
+  {
+    "ITEM": 83,
+    "ARTICLE_EID": "art_61",
+    "TARGET_SR": "SR 313.0",
+    "assigned_articles": ["Art. 14"],
+    "confidence": "high",
+    "reasoning": "Same Verwaltungsstrafrechtsgesetz Art. 14 reference as Item 32; external SR 313.0."
+  },
+  {
+    "ITEM": 84,
+    "ARTICLE_EID": "art_62",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "'Art. 14 Abs. 2' is internal; no external SR."
+  },
+  {
+    "ITEM": 85,
+    "ARTICLE_EID": "art_62",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "'Art. 11' is internal; no external law."
+  },
+  {
+    "ITEM": 86,
+    "ARTICLE_EID": "art_62",
+    "TARGET_SR": "SR 313.0",
+    "assigned_articles": ["Art. 14", "Art. 15", "Art. 16"],
+    "confidence": "high",
+    "reasoning": "Same 'Artikel 14–16 des Verwaltungsstrafrechtsgesetzes' reference as Item 33; external SR 313.0."
+  },
+  {
+    "ITEM": 87,
+    "ARTICLE_EID": "art_62",
+    "TARGET_SR": "SR 311.0",
+    "assigned_articles": ["Art. 285"],
+    "confidence": "high",
+    "reasoning": "Same Strafgesetzbuch Art. 285 reference as Item 34; external SR 311.0."
+  },
+  {
+    "ITEM": 88,
+    "ARTICLE_EID": "art_64",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "'Artikel 20 Absatz 3' is internal; no external SR."
+  },
+  {
+    "ITEM": 89,
+    "ARTICLE_EID": "art_64",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "'Artikel 20a Absatz 2' is internal; no external law."
+  },
+  {
+    "ITEM": 90,
+    "ARTICLE_EID": "art_67",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "'Art. 64' is internal; no external SR."
+  },
+  {
+    "ITEM": 91,
+    "ARTICLE_EID": "art_70_a",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "References 'Artikel 4a, 12 Absatz 1bis und 16 Absatz 2' of the same law; internal transitional provision."
+  },
+  {
+    "ITEM": 92,
+    "ARTICLE_EID": "art_70_c",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "'Artikel 16 Absatz 2bis und 20' are internal; no external SR."
+  },
+  {
+    "ITEM": 93,
+    "ARTICLE_EID": "art_70_c",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Again 'Artikel 16 Absatz 2bis' is internal; no external law."
+  },
+  {
+    "ITEM": 94,
+    "ARTICLE_EID": "art_70_d",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "'Artikel 23 Absatz 2' is internal; no external SR."
+  },
+  {
+    "ITEM": 95,
+    "ARTICLE_EID": "art_72",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "medium",
+    "reasoning": "Refers to 'Artikel 34–40 und 48 des Bundesbeschlusses ... über die Durchführung der Übergangsordnung des Finanzhaushaltes'; this is a historical federal decree, not part of the SR systematic collection in the same way, and no SR number is given; treated as historical internal reference for this parsing purpose."
+  },
+  {
+    "ITEM": 96,
+    "ARTICLE_EID": "art_72",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "medium",
+    "reasoning": "Same historical Bundesbeschluss reference as Item 95; no SR number or external SR link context provided."
+  }
+]

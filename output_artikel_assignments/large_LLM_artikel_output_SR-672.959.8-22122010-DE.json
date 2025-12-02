@@ -1,0 +1,33 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 101",
+    "assigned_articles": [
+      "Art. 54 Abs. 1",
+      "Art. 166 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Formulierung «gestützt auf die Artikel 54 Absatz 1 und 166 Absatz 2 der Bundesverfassung SR 101» verknüpft die genannten Artikel syntaktisch eindeutig mit der Bundesverfassung (SR 101)."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 0.672.959.81",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Ausschnitt spricht vom Protokoll zur Änderung des Abkommens SR 0.672.959.81, ohne konkrete Artikel dieses Abkommens zu nennen; es handelt sich um eine generelle Genehmigung des Abkommens als Ganzes."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Bezugnahme «nach Artikel 141 Absatz 1 Buchstabe d Ziffer 3 der Bundesverfassung» nennt zwar einen Artikel, aber kein SR-Zitat im Kontext; nach den Vorgaben ist dies als Selbst- bzw. externe Referenz ohne zugeordnetes TARGET_SR zu behandeln."
+  }
+]

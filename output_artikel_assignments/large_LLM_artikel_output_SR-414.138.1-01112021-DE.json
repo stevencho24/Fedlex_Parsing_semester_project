@@ -1,0 +1,85 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 414.110",
+    "assigned_articles": [
+      "Art. 37b Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Formulierung «gestützt auf Artikel 37b Absatz 2 des ETH-Gesetzes … SR 414.110» verknüpft den genannten Artikel grammatikalisch eindeutig mit dem zitierten Gesetz SR 414.110."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": "SR 414.135.1",
+    "assigned_articles": [
+      "Art. 2 lit. d"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Satz «… im Sinne von Artikel 2 Buchstabe d der Leistungskontrollenverordnung ETH Zürich … SR 414.135.1» wird Artikel 2 Buchstabe d ausdrücklich dieser Verordnung zugeordnet; damit gehört Art. 2 lit. d zu SR 414.135.1."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": "self",
+    "assigned_articles": [
+      "Art. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Stelle «… im Sinne von Artikel 2 Buchstabe d der Leistungskontrollenverordnung ETH Zürich …» bezieht sich auf denselben externen Artikel wie in ITEM 2, ist aber hier als artikel_reference ohne explizite SR-Angabe erfasst. Da diese Referenz bereits in ITEM 2 SR 414.135.1 zugeordnet wurde, wird sie hier als interner Verweis der vorliegenden Verordnung auf denselben Artikel 2 lit. d behandelt; im Rahmen der Selbstreferenz genügt die Angabe Art. 2."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": "self",
+    "assigned_articles": [
+      "Art. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "«Die ETH Zürich kann bei Verstössen nach Artikel 2 …» enthält keine SR-Angabe und steht in einem rein internen Regelungszusammenhang; daher handelt es sich um einen Verweis auf Art. 2 derselben Verordnung (Selbstreferenz)."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": "self",
+    "assigned_articles": [
+      "Art. 5",
+      "Art. 6 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Formulierung «… mit einer Massnahme gemäss Absatz 1 … Zusätzlich kann eine weitere Disziplinarmassnahme nach Artikel 5 angeordnet werden. Vorbehalten bleibt Artikel 6 Absatz 2.» enthält keine externe SR, sondern verweist auf interne Bestimmungen derselben Verordnung: Art. 5 sowie Art. 6 Abs. 2."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_8",
+    "TARGET_SR": "self",
+    "assigned_articles": [
+      "Art. 2 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "«… Disziplinarverstösse bei Leistungskontrollen nach Artikel 2 Absatz 1 …» nennt keinen externen Erlass; der Bezug ist klar intern auf Art. 2 Abs. 1 derselben Verordnung gerichtet."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_16",
+    "TARGET_SR": "self",
+    "assigned_articles": [
+      "Art. 4 Abs. 1",
+      "Art. 5 lit. a",
+      "Art. 5 lit. b"
+    ],
+    "confidence": "high",
+    "reasoning": "«… Disziplinarmassnahmen nach den Artikeln 4 Absatz 1 und 5 Buchstaben a und b …» verweist ohne SR-Angabe auf interne Normen; es handelt sich um Selbstreferenzen auf Art. 4 Abs. 1 sowie Art. 5 lit. a und b derselben Verordnung."
+  },
+  {
+    "ITEM": 8,
+    "ARTICLE_EID": "art_16",
+    "TARGET_SR": "self",
+    "assigned_articles": [
+      "Art. 5 lit. c–f"
+    ],
+    "confidence": "high",
+    "reasoning": "«Disziplinarmassnahmen nach Artikel 5 Buchstaben c–f …» ist ein weiterer interner Verweis ohne externe SR; damit liegt eine Selbstreferenz auf Art. 5 lit. c–f derselben Verordnung vor."
+  }
+]

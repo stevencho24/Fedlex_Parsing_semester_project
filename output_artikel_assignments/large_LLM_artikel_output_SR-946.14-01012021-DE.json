@@ -1,0 +1,62 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 101",
+    "assigned_articles": [
+      "Art. 101 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Formulierung «gestützt auf Artikel 101 Absatz 1 der Bundesverfassung SR 101» verknüpft eindeutig den genannten Artikel mit SR 101."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": "SR 172.056.1",
+    "assigned_articles": [
+      "Art. 9"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Snippet steht «im Sinne von Artikel 9 des Bundesgesetzes ... SR 172.056.1 über das öffentliche Beschaffungswesen»; Art. 9 ist klar diesem SR zugeordnet."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": "SR 172.056.1",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "Es wird nur «die Bestimmungen des Bundesgesetzes ... SR 172.056.1 über das öffentliche Beschaffungswesen» erwähnt, ohne konkrete Artikelangabe; dies ist eine generelle Verweisung auf das ganze Gesetz."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_8",
+    "TARGET_SR": "SR 616.1",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "Formulierung «gilt das Subventionsgesetz ... SR 616.1» ohne Artikelangabe; dies ist eine generelle Geltungserklärung für das gesamte Subventionsgesetz."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "«im Sinne von Artikel 2» erscheint ohne Bezug zu einem externen SR-Dokument; nach den Regeln ist dies eine Selbstverweisung innerhalb desselben Gesetzes (interne Strukturreferenz)."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 9"
+    ],
+    "confidence": "high",
+    "reasoning": "«im Sinne von Artikel 9 des Bundesgesetzes vom 21. Juni 2019 über das öffentliche Beschaffungswesen» steht hier ohne explizite SR-Nummer; im Kontext des Dokuments ist dies eine inhaltlich gleiche, aber SR-los formulierte Verweisung wie in ITEM 2 und wird als interne Artikelreferenz behandelt, nicht als eigener SR-Link."
+  }
+]

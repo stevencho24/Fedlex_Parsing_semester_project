@@ -1,0 +1,32 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "art_77",
+    "TARGET_SR": "SR 101",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet only mentions the Bundesverfassung (SR 101) as a whole and refers generically to the rights it grants to the cantons. No specific article numbers or subdivisions of SR 101 are cited or implied in the text."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_60",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "The phrase 'Artikel 60bis' appears without any SR number, acronym, or external law designation. It clearly refers to another article (60bis) within the same cantonal regulation/document, not to an external SR. As an artikel_reference item, this is treated as an internal self-reference."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_106",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet lists 'Die Artikel 51 Absatz 1, 52, 54 und 55' without any accompanying SR citation or acronym. This is standard internal cross-referencing language within the same document. Therefore, these are self-references to internal articles, not to an external SR."
+  }
+]

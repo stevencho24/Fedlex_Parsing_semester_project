@@ -1,0 +1,62 @@
+[
+  {
+    "Item": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 415.01",
+    "assigned_articles": [
+      "Art. 69"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Formulierung «gestützt auf Artikel 69 der Sportförderungsverordnung ... SR 415.01 (SpoFöV)» verknüpft den Artikel 69 direkt und eindeutig mit der genannten Verordnung SR 415.01."
+  },
+  {
+    "Item": 2,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": "SR 420.11",
+    "assigned_articles": [
+      "Art. 39 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Snippet heisst es «nach Artikel 39 Absatz 2 der Forschungs- und Innovationsförderungsverordnung ... SR 420.11»; damit ist klar, dass Art. 39 Abs. 2 dieser Verordnung (SR 420.11) gemeint ist."
+  },
+  {
+    "Item": 3,
+    "ARTICLE_EID": "art_9",
+    "TARGET_SR": "SR 415.01",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "Das Snippet erwähnt nur das Kürzel «VBS», das in der Präambel als mit SR 415.01 verknüpft definiert ist, ohne eine konkrete Artikelnummer dieser Verordnung zu nennen; daher handelt es sich um eine allgemeine Bezugnahme auf das VBS bzw. die zugrunde liegende Rechtsgrundlage, nicht auf bestimmte Artikel."
+  },
+  {
+    "Item": 4,
+    "ARTICLE_EID": "art_10",
+    "TARGET_SR": "SR 415.01",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "Auch hier wird lediglich «das VBS» genannt, dessen Bezug zu SR 415.01 aus der Präambel stammt; es werden keine bestimmten Artikel der Sportförderungsverordnung angegeben, sodass nur eine allgemeine Dokumentverweisung vorliegt."
+  },
+  {
+    "Item": 5,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Stelle «nach Artikel 39 Absatz 2 der Forschungs- und Innovationsförderungsverordnung vom 29. November 2013» ist identisch mit der in Item 2, wo sie bereits eindeutig SR 420.11 zugeordnet wurde; hier liegt der gleiche externe Verweis vor, aber ohne explizite SR-Angabe im Snippet dieses artikel_reference-Items. Da der Zweck von artikel_reference die Erfassung von Selbstverweisen ist und der externe Bezug bereits über Item 2 abgedeckt ist, wird dieses Vorkommen als interne/strukturbezogene Referenz im aktuellen Dokument behandelt."
+  },
+  {
+    "Item": 6,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Formulierung «bis zum Stichtag nach Artikel 6» enthält keinen Hinweis auf ein anderes SR-Dokument und verweist offensichtlich auf Art. 6 derselben Verordnung (Selbstverweis innerhalb des Dokuments)."
+  }
+]

@@ -1,0 +1,63 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 784.10",
+    "assigned_articles": [
+      "Art. 28"
+    ],
+    "confidence": "high",
+    "reasoning": "In the preamble sentence, 'Artikel 28 des Fernmeldegesetzes ... SR 784.10' directly links Art. 28 to SR 784.10 by apposition; all other listed articles are explicitly attributed to other ordinances (different SR numbers)."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 784.101.1",
+    "assigned_articles": [
+      "Art. 7 Abs. 4",
+      "Art. 15 Abs. 3",
+      "Art. 16 Abs. 5",
+      "Art. 17 Abs. 5",
+      "Art. 21 Abs. 2",
+      "Art. 30 Abs. 3",
+      "Art. 31 Abs. 5",
+      "Art. 96 Abs. 2",
+      "Art. 105 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet states 'auf die Artikel 7 Absatz 4, 15 Absatz 3, 16 Absatz 5, 17 Absatz 5, 21 Absatz 2, 30 Absatz 3, 31 Absatz 5, 96 Absatz 2 und 105 Absatz 1 der Verordnung vom 9. März 2007 SR 784.101.1 über Fernmeldedienste'; the prepositional phrase 'der Verordnung ... SR 784.101.1' governs this article list, so all listed articles belong to SR 784.101.1."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 784.104",
+    "assigned_articles": [
+      "Art. 2 Abs. 1",
+      "Art. 13m Abs. 2",
+      "Art. 18",
+      "Art. 20 Abs. 3",
+      "Art. 24a Abs. 1",
+      "Art. 24b",
+      "Art. 24e Abs. 3",
+      "Art. 24h Abs. 1",
+      "Art. 31a Abs. 4",
+      "Art. 52 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "The text 'auf die Artikel 2 Absatz 1, 13m Absatz 2, 18, 20 Absatz 3, 24a Absatz 1, 24b, 24e Absatz 3, 24h Absatz 1, 31a Absatz 4 und 52 Absatz 1 der Verordnung vom 6. Oktober 1997 SR 784.104 über die Adressierungselemente im Fernmeldebereich' clearly attributes this entire article list to the ordinance SR 784.104."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 784.104.2",
+    "assigned_articles": [
+      "Art. 9 Abs. 3",
+      "Art. 24 Abs. 3",
+      "Art. 24 Abs. 4",
+      "Art. 25 Abs. 1 Bst. a",
+      "Art. 60 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "The clause 'sowie auf die Artikel 9 Absatz 3, 24 Absätze 3 und 4, 25 Absatz 1 Buchstabe a sowie 60 Absatz 1 der Verordnung vom 5. November 2014 SR 784.104.2 über die Internet-Domains' syntactically links all these articles to SR 784.104.2; '24 Absätze 3 und 4' yields two distinct references: Art. 24 Abs. 3 and Art. 24 Abs. 4."
+  }
+]

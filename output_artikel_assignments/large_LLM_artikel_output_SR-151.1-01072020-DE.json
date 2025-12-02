@@ -1,0 +1,226 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 101",
+    "assigned_articles": [
+      "Art. 8 Abs. 3",
+      "Art. 110 Abs. 1 Bst. a",
+      "Art. 122",
+      "Art. 173 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Präambel nennt ausdrücklich: \"gestützt auf die Artikel 8 Absatz 3, 110 Absatz 1 Buchstabe a, 122 und 173 Absatz 2 der Bundesverfassung SR 101\"; alle genannten Bestimmungen gehören zur Bundesverfassung (SR 101)."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": "SR 220",
+    "assigned_articles": "General reference - entire document",
+    "confidence": "high",
+    "reasoning": "Formulierung \"Arbeitsverhältnisse nach Obligationenrecht SR 220\" verweist allgemein auf das Obligationenrecht ohne konkrete Artikelangabe."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_9",
+    "TARGET_SR": "SR 220",
+    "assigned_articles": [
+      "Art. 336b"
+    ],
+    "confidence": "high",
+    "reasoning": "Satz: \"ist Artikel 336b des Obligationenrechts SR 220 anwendbar\"; eindeutige Zuordnung zu Art. 336b OR."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_10",
+    "TARGET_SR": "SR 220",
+    "assigned_articles": [
+      "Art. 336a"
+    ],
+    "confidence": "high",
+    "reasoning": "Satz: \"eine Entschädigung nach Artikel 336a des Obligationenrechts SR 220\"; klare Bezugnahme auf Art. 336a OR."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_13",
+    "TARGET_SR": "SR 172.220.1",
+    "assigned_articles": [
+      "Art. 35",
+      "Art. 36"
+    ],
+    "confidence": "high",
+    "reasoning": "Im authorialNote-Text: \"Siehe heute Art. 35 und 36 des Bundespersonalgesetzes ... (SR 172.220.1).\"; diese beiden Artikel gehören eindeutig zu SR 172.220.1."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_13",
+    "TARGET_SR": "SR 172.021",
+    "assigned_articles": [
+      "Art. 50"
+    ],
+    "confidence": "high",
+    "reasoning": "Text: \"Beschwerdefrist nach Artikel 50 des Bundesgesetzes ... SR 172.021\"; Art. 50 ist klar dem Verwaltungsverfahrensgesetz (SR 172.021) zugeordnet."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_13",
+    "TARGET_SR": "SR 173.110",
+    "assigned_articles": "General reference - entire document",
+    "confidence": "medium",
+    "reasoning": "Formulierung: \"Kostenpflicht nach dem Bundesgerichtsgesetz ... SR 173.110\" ohne konkrete Artikelangabe; daher allgemeiner Verweis auf das BGG."
+  },
+  {
+    "ITEM": 8,
+    "ARTICLE_EID": "art_13_d",
+    "TARGET_SR": "SR 220",
+    "assigned_articles": "General reference - entire document",
+    "confidence": "medium",
+    "reasoning": "Satz: \"Arbeitgeberinnen und Arbeitgeber, die dem Obligationenrecht SR 220 unterstehen\"; keine spezifischen Artikel genannt, allgemeiner Geltungsbereich des OR."
+  },
+  {
+    "ITEM": 9,
+    "ARTICLE_EID": "art_13_d",
+    "TARGET_SR": "SR 221.302",
+    "assigned_articles": "General reference - entire document",
+    "confidence": "medium",
+    "reasoning": "Verweis: \"nach dem Revisionsaufsichtsgesetz ... SR 221.302\" ohne Artikelangabe; es geht um Zulassung nach dem Gesetz insgesamt."
+  },
+  {
+    "ITEM": 10,
+    "ARTICLE_EID": "art_13_d",
+    "TARGET_SR": "SR 822.14",
+    "assigned_articles": "General reference - entire document",
+    "confidence": "medium",
+    "reasoning": "Formulierung: \"gemäss dem Mitwirkungsgesetz ... SR 822.14\" ohne Nennung einzelner Artikel; allgemeiner Gesetzesverweis."
+  },
+  {
+    "ITEM": 11,
+    "ARTICLE_EID": "art_13_h",
+    "TARGET_SR": "SR 220",
+    "assigned_articles": [
+      "Art. 959c Abs. 1 Ziff. 4"
+    ],
+    "confidence": "high",
+    "reasoning": "Klammerzusatz: \"(Art. 959c Abs. 1 Ziff. 4 des Obligationenrechts SR 220)\"; eindeutige Bestimmung im OR."
+  },
+  {
+    "ITEM": 12,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Verweis \"Artikel 3 und 4\" ohne SR- oder Gesetzesangabe; es handelt sich um interne Artikel des gleichen Gesetzes (Selbstverweis), daher keine Zuordnung zu einem externen SR."
+  },
+  {
+    "ITEM": 13,
+    "ARTICLE_EID": "art_8",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Bezug \"Artikel 5 Absatz 2\" ohne Gesetzesnennung; klarer Selbstverweis innerhalb desselben Erlasses."
+  },
+  {
+    "ITEM": 14,
+    "ARTICLE_EID": "art_9",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Text: \"Artikel 336b des Obligationenrechts\"; dieser externe Bezug auf OR 336b ist bereits in ITEM 3 mit SR 220 erfasst. Hier als artikel_reference ohne SR-Angabe ist es kein neuer SR-Link, sondern dieselbe inhaltliche Stelle; daher keine zusätzliche SR-Zuordnung."
+  },
+  {
+    "ITEM": 15,
+    "ARTICLE_EID": "art_10",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Text: \"Artikel 336a des Obligationenrechts\"; der externe Verweis auf OR 336a ist bereits in ITEM 4 mit SR 220 abgedeckt. Als artikel_reference ohne explizite SR bleibt dies ohne neue SR-Zuordnung."
+  },
+  {
+    "ITEM": 16,
+    "ARTICLE_EID": "art_10",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Verweis \"Artikel 7\" ohne Gesetzesangabe; dies ist ein interner Artikel des gleichen Gesetzes (Selbstverweis)."
+  },
+  {
+    "ITEM": 17,
+    "ARTICLE_EID": "art_13",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Bezug \"Artikel 58 des Beamtengesetzes\"; der moderne Verweis auf das Bundespersonalgesetz (Art. 35, 36 SR 172.220.1) ist bereits in ITEM 5 als SR_link_detection erfasst. Hier keine explizite SR-Nennung, daher keine neue SR-Zuordnung."
+  },
+  {
+    "ITEM": 18,
+    "ARTICLE_EID": "art_13",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Verweis \"Artikel 5 Absatz 2\" ohne Gesetzesangabe; klarer Selbstverweis innerhalb desselben Gesetzes."
+  },
+  {
+    "ITEM": 19,
+    "ARTICLE_EID": "art_13",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Bezug \"Artikel 50 des Bundesgesetzes vom 20. Dezember 1968 über das Verwaltungsverfahren\"; derselbe Verweis ist in ITEM 6 bereits als SR_link_detection mit SR 172.021 und Art. 50 zugeordnet. Diese artikel_reference-Stelle erzeugt keine zusätzliche SR-Zuordnung."
+  },
+  {
+    "ITEM": 20,
+    "ARTICLE_EID": "art_13_d",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Verweis \"Artikel 7\" ohne Gesetzesangabe; interner Artikel des gleichen Gesetzes (Selbstverweis). Der externe Bezug auf das Mitwirkungsgesetz SR 822.14 ist in ITEM 10 bereits abgedeckt."
+  },
+  {
+    "ITEM": 21,
+    "ARTICLE_EID": "art_13_f",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Bezug \"Artikel 7\" ohne Nennung eines anderen Gesetzes; interner Selbstverweis innerhalb des Erlasses."
+  },
+  {
+    "ITEM": 22,
+    "ARTICLE_EID": "art_13_h",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Klammer: \"Art. 959c Abs. 1 Ziff. 4 des Obligationenrechts\"; derselbe Verweis ist in ITEM 11 bereits mit SR 220 und Art. 959c Abs. 1 Ziff. 4 zugeordnet. Diese artikel_reference-Stelle erzeugt keine neue SR-Zuordnung."
+  },
+  {
+    "ITEM": 23,
+    "ARTICLE_EID": "art_16",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Verweis \"Artikeln 14 und 15\" ohne Gesetzesangabe; dies sind interne Artikel des gleichen Gesetzes (Selbstverweise)."
+  },
+  {
+    "ITEM": 24,
+    "ARTICLE_EID": "art_17",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Bezug \"Artikel 5 Absatz 1 Buchstabe d\" ohne Nennung eines anderen Gesetzes; interner Selbstverweis."
+  },
+  {
+    "ITEM": 25,
+    "ARTICLE_EID": "art_17_a",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Verweis \"Artikel 13a\" ohne Gesetzesangabe; interner Artikel desselben Erlasses (Selbstverweis)."
+  },
+  {
+    "ITEM": 26,
+    "ARTICLE_EID": "art_17_b",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Verweis \"Artikel 13a–13i\" ohne Gesetzesangabe; es handelt sich um einen Bereich interner Artikel des gleichen Gesetzes, somit Selbstverweis ohne externe SR-Zuordnung."
+  }
+]

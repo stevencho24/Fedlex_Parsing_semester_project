@@ -1,0 +1,204 @@
+[
+  {
+    "Item": 1,
+    "TARGET_SR": "SR 312.0",
+    "assigned_articles": ["Art. 445"],
+    "confidence": "high",
+    "reasoning": "Snippet explicitly cites 'Artikel 445 der Strafprozessordnung SR 312.0 (StPO)'; Art. 445 is grammatically linked to SR 312.0."
+  },
+  {
+    "Item": 2,
+    "TARGET_SR": "SR 311.0",
+    "assigned_articles": [
+      "Art. 111 ff.",
+      "Art. 156",
+      "Art. 195",
+      "Art. 196",
+      "Art. 197",
+      "Art. 231",
+      "Art. 234",
+      "Art. 237",
+      "Art. 238",
+      "Art. 239",
+      "Art. 240",
+      "Art. 241",
+      "Art. 242",
+      "Art. 243",
+      "Art. 244",
+      "Art. 247",
+      "Art. 259",
+      "Art. 260",
+      "Art. 261",
+      "Art. 261bis",
+      "Art. 285",
+      "Art. 322ter",
+      "Art. 322quater",
+      "Art. 322quinquies",
+      "Art. 322sexies",
+      "Art. 322septies"
+    ],
+    "confidence": "high",
+    "reasoning": "Art. 1 lists specific articles of the Strafgesetzbuch; snippet 2 refers to decisions 'nach den folgenden Bestimmungen des Strafgesetzbuches SR 311.0', i.e. the enumerated Strafgesetzbuch articles in Art. 1."
+  },
+  {
+    "Item": 3,
+    "TARGET_SR": "SR 171.10",
+    "assigned_articles": ["Art. 17"],
+    "confidence": "high",
+    "reasoning": "Phrase 'nach Artikel 17 des Parlamentsgesetzes ... SR 171.10' directly links Art. 17 to SR 171.10."
+  },
+  {
+    "Item": 4,
+    "TARGET_SR": "SR 170.32",
+    "assigned_articles": ["Art. 14", "Art. 15"],
+    "confidence": "high",
+    "reasoning": "Snippet: 'nach den Artikeln 14 und 15 des Verantwortlichkeitsgesetzes ... SR 170.32'; clear direct marking of Arts. 14 and 15 to SR 170.32."
+  },
+  {
+    "Item": 5,
+    "TARGET_SR": "SR 142.20",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "high",
+    "reasoning": "Only the law as a whole ('Ausländer- und Integrationsgesetz ... SR 142.20') is mentioned; no specific article is cited."
+  },
+  {
+    "Item": 6,
+    "TARGET_SR": "SR 232.21",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "high",
+    "reasoning": "Reference is to 'das BG ... (SR 232.21)' without any article indication; treated as a general citation of the act."
+  },
+  {
+    "Item": 7,
+    "TARGET_SR": "SR 415.0",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "high",
+    "reasoning": "Citation 'Sportförderungsgesetz ... (SR 415.0)' contains no article numbers; general reference."
+  },
+  {
+    "Item": 8,
+    "TARGET_SR": "SR 455",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "high",
+    "reasoning": "Snippet only names the Tierschutzgesetz with SR 455; no specific article is syntactically linked."
+  },
+  {
+    "Item": 9,
+    "TARGET_SR": "SR 817.0",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "high",
+    "reasoning": "Reference 'Lebensmittelgesetz ... (SR 817.0)' is to the statute as a whole; no article mentioned."
+  },
+  {
+    "Item": 10,
+    "TARGET_SR": "SR 818.101",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "high",
+    "reasoning": "Only the Epidemiengesetz with SR 818.101 is cited; absence of article numbers implies a general reference."
+  },
+  {
+    "Item": 11,
+    "TARGET_SR": "SR 941.20",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "high",
+    "reasoning": "Snippet cites 'das BG ... (SR 941.20)' without specifying articles; thus entire document."
+  },
+  {
+    "Item": 12,
+    "TARGET_SR": "SR 956.1",
+    "assigned_articles": ["Art. 1 Abs. 1"],
+    "confidence": "medium",
+    "reasoning": "Art. 3 Ziff. 30 of the current ordinance (Item 25) refers to 'Finanzmarktgesetze nach Artikel 1 Absatz 1 FINMAG'; FINMAG is SR 956.1, so the relevant provision is Art. 1 Abs. 1 FINMAG."
+  },
+  {
+    "Item": 13,
+    "TARGET_SR": "self",
+    "assigned_articles": ["Art. 111 ff."],
+    "confidence": "high",
+    "reasoning": "Artikel 111 ff. are Strafgesetzbuch provisions already assigned to SR 311.0 in Item 2; here they function as internal cross-reference context within the same ordinance, not to a new SR."
+  },
+  {
+    "Item": 14,
+    "TARGET_SR": "self",
+    "assigned_articles": ["Art. 156"],
+    "confidence": "high",
+    "reasoning": "Art. 156 StGB is part of the same set of Strafgesetzbuch provisions already linked to SR 311.0; this line is an internal reference within the ordinance to that already-established group."
+  },
+  {
+    "Item": 15,
+    "TARGET_SR": "self",
+    "assigned_articles": ["Art. 195", "Art. 196", "Art. 197"],
+    "confidence": "high",
+    "reasoning": "These Strafgesetzbuch articles are already contextually tied to SR 311.0 via Item 2; here they are internal references within the ordinance."
+  },
+  {
+    "Item": 16,
+    "TARGET_SR": "self",
+    "assigned_articles": ["Art. 231", "Art. 234"],
+    "confidence": "high",
+    "reasoning": "Art. 231 and 234 StGB are part of the same enumerated group in Art. 1; this snippet does not introduce a new SR link, so it is a self-reference context."
+  },
+  {
+    "Item": 17,
+    "TARGET_SR": "self",
+    "assigned_articles": ["Art. 237"],
+    "confidence": "high",
+    "reasoning": "Art. 237 StGB is already within the Strafgesetzbuch set tied to SR 311.0; this line is an internal reference within the ordinance."
+  },
+  {
+    "Item": 18,
+    "TARGET_SR": "SR 742.101",
+    "assigned_articles": ["Art. 15"],
+    "confidence": "high",
+    "reasoning": "Snippet explicitly states 'nach Artikel 15 des Eisenbahngesetzes ... (SR 742.101)'; Art. 15 is directly linked to SR 742.101."
+  },
+  {
+    "Item": 19,
+    "TARGET_SR": "SR 742.101",
+    "assigned_articles": ["Art. 15"],
+    "confidence": "high",
+    "reasoning": "Again refers to 'Unfalluntersuchungsstelle nach Artikel 15 des Eisenbahngesetzes'; by context this is the same Art. 15 EBG (SR 742.101)."
+  },
+  {
+    "Item": 20,
+    "TARGET_SR": "self",
+    "assigned_articles": ["Art. 240", "Art. 241", "Art. 242", "Art. 243", "Art. 244", "Art. 247"],
+    "confidence": "high",
+    "reasoning": "These Strafgesetzbuch provisions are part of the same SR 311.0 set already captured in Item 2; here they serve as internal references within the ordinance."
+  },
+  {
+    "Item": 21,
+    "TARGET_SR": "self",
+    "assigned_articles": ["Art. 259", "Art. 260", "Art. 261", "Art. 261bis", "Art. 285"],
+    "confidence": "high",
+    "reasoning": "These StGB articles are already contextually assigned to SR 311.0; this snippet is an internal cross-reference within the ordinance."
+  },
+  {
+    "Item": 22,
+    "TARGET_SR": "self",
+    "assigned_articles": ["Art. 322ter", "Art. 322quater", "Art. 322quinquies", "Art. 322sexies", "Art. 322septies"],
+    "confidence": "high",
+    "reasoning": "The corruption offences (Art. 322ter–322septies StGB) are part of the same Strafgesetzbuch group tied to SR 311.0; this is an internal reference context."
+  },
+  {
+    "Item": 23,
+    "TARGET_SR": "self",
+    "assigned_articles": ["Art. 17 ParlG", "Art. 14 VG", "Art. 15 VG"],
+    "confidence": "medium",
+    "reasoning": "This artikel_reference repeats the same sentence as Items 3 and 4 but without SR numbers; the external SR links (SR 171.10 and SR 170.32) are already captured there. Here it functions as an internal restatement, so treated as self-reference to those already-assigned provisions."
+  },
+  {
+    "Item": 24,
+    "TARGET_SR": "SR 680",
+    "assigned_articles": ["Art. 41"],
+    "confidence": "high",
+    "reasoning": "Snippet: 'Alkoholgesetz ... (SR 680), soweit es sich um Handelsverbote gemäss Artikel 41 handelt'; Art. 41 is explicitly and syntactically linked to SR 680."
+  },
+  {
+    "Item": 25,
+    "TARGET_SR": "SR 956.1",
+    "assigned_articles": ["Art. 1 Abs. 1"],
+    "confidence": "high",
+    "reasoning": "Text 'Finanzmarktgesetze nach Artikel 1 Absatz 1 FINMAG' clearly ties the cited provision to Art. 1 Abs. 1 of FINMAG, which is SR 956.1."
+  }
+]

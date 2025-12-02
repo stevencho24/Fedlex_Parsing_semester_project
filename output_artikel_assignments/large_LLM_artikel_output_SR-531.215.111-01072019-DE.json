@@ -1,0 +1,22 @@
+[
+  {
+    "Item": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 531.215.11",
+    "assigned_articles": [
+      "Art. 6 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet explicitly states 'Artikel 6 Absatz 1 der Verordnung ... SR 531.215.11', so Art. 6 Abs. 1 is directly and syntactically linked to SR 531.215.11."
+  },
+  {
+    "Item": 2,
+    "ARTICLE_EID": "art_6",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet mentions 'nach den Artikeln 3 Absatz 1 Buchstaben a–f und 4 Absatz 1 Buchstaben a und b' without any SR or acronym; this is a self-reference to other articles of the same ordinance, not to an external SR document."
+  }
+]

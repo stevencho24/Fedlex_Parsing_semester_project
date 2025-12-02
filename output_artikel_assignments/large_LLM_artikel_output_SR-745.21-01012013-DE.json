@@ -1,0 +1,111 @@
+[
+  {
+    "Item": 1,
+    "TARGET_SR": "SR 745.2",
+    "assigned_articles": [
+      "Art. 2 Abs. 7",
+      "Art. 7 Abs. 6"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Präambel nennt ausdrücklich «Artikel 2 Absatz 7 und 7 Absatz 6 des Bundesgesetzes ... SR 745.2 (BGST)»; beide Artikel und Absätze sind klar diesem Gesetz zugeordnet."
+  },
+  {
+    "Item": 2,
+    "TARGET_SR": "SR 364",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Satz wird nur das Zwangsanwendungsgesetz SR 364 als Ganzes genannt, ohne konkrete Artikelangabe; es handelt sich um eine generelle Verweisnorm auf das gesamte Gesetz."
+  },
+  {
+    "Item": 3,
+    "TARGET_SR": "SR 364.3",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Zwangsanwendungsverordnung SR 364.3 wird ohne Artikelangabe als anwendbar erklärt; dies ist ein genereller Verweis auf die Verordnung insgesamt."
+  },
+  {
+    "Item": 4,
+    "TARGET_SR": "SR 124",
+    "assigned_articles": [
+      "Art. 5 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Text lautet «Voraussetzungen nach Artikel 5 Absatz 1 der Verordnung ... SR 124 über den Einsatz privater Sicherheitsfirmen»; Art. 5 Abs. 1 ist grammatikalisch eindeutig dieser Verordnung zugeordnet."
+  },
+  {
+    "Item": 5,
+    "TARGET_SR": "SR 124",
+    "assigned_articles": [
+      "Art. 6"
+    ],
+    "confidence": "high",
+    "reasoning": "Es heisst «Anforderungen nach Artikel 6 der Verordnung ... SR 124 über den Einsatz privater Sicherheitsfirmen»; Art. 6 bezieht sich klar auf diese Verordnung."
+  },
+  {
+    "Item": 6,
+    "TARGET_SR": "SR 170.512.1",
+    "assigned_articles": [
+      "Art. 16 Abs. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Autorennotiztext steht «in Anwendung von Art. 16 Abs. 3 der Publikationsverordnung ... (SR 170.512.1)»; der Artikel ist direkt mit dieser SR verknüpft."
+  },
+  {
+    "Item": 7,
+    "TARGET_SR": "SR 745.2",
+    "assigned_articles": [
+      "Art. 5 Abs. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "«Sicherheitsunternehmen: private Organisation nach Artikel 5 Absatz 3 BGST»; BGST ist in der Präambel als SR 745.2 definiert, der Artikelbezug ist eindeutig."
+  },
+  {
+    "Item": 8,
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«Artikel 5 Absatz 3 BGST» verweist auf Art. 5 Abs. 3 des BGST selbst; dies ist ein Selbstverweis innerhalb des in SR 745.21 geregelten Kontextes, kein neuer SR-Link."
+  },
+  {
+    "Item": 9,
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«Artikel 5 Absatz 1 der Verordnung ... über den Einsatz privater Sicherheitsfirmen» ist bereits in Item 4 als Art. 5 Abs. 1 SR 124 erfasst; hier handelt es sich um denselben Verweis ohne erneute SR-Nennung, also um eine interne Wiederholung/Selbstreferenz im Dokument."
+  },
+  {
+    "Item": 10,
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«gemäss Artikel 8 Absatz 1» verweist auf einen Artikel derselben Verordnung (SR 745.21); es wird kein anderes Gesetz oder eine andere SR genannt, daher klarer Selbstverweis."
+  },
+  {
+    "Item": 11,
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«Artikel 6 der Verordnung ... über den Einsatz privater Sicherheitsfirmen» ist bereits in Item 5 mit SR 124 verknüpft; hier fehlt die SR-Nennung und der Satz steht im selben Kontext, daher als interner Verweis/Selbstreferenz zu werten."
+  },
+  {
+    "Item": 12,
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«Anforderungen an die Ausbildung (Art. 8)» bezieht sich auf Art. 8 derselben Verordnung (SR 745.21); es wird kein externes Gesetz genannt, somit handelt es sich um eine interne Artikelverweisung."
+  }
+]

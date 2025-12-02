@@ -1,0 +1,22 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 172.220.1",
+    "assigned_articles": [
+      "Art. 37 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet explicitly cites 'Artikel 37 Absatz 1 des Bundespersonalgesetzes ... SR 172.220.1'; this is a direct, syntactically linked reference to a specific article and paragraph of the cited SR."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_6",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet refers to 'Artikel 3 Buchstaben a und b' and to multiple articles of the Vorsorgereglement, but no SR number or external SR document is mentioned. Under the rules, this is a self-reference/internal regulatory reference within the current document or to a non-SR regulation, so it is not assigned to any TARGET_SR."
+  }
+]

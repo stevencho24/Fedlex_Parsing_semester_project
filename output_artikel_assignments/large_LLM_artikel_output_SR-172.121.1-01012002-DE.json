@@ -1,0 +1,137 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 172.121",
+    "assigned_articles": [
+      "Art. 1",
+      "Art. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Formulierung \"gestützt auf die Artikel 1 und 3 des Bundesgesetzes ... SR 172.121\" verknüpft die Artikel 1 und 3 direkt und eindeutig mit SR 172.121."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_10",
+    "TARGET_SR": "SR 831.10",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "Es wird nur \"nach dem Bundesgesetz vom 20. Dezember 1946 SR 831.10 über die Alters- und Hinterlassenenversicherung\" genannt, ohne konkrete Artikelangabe; dies ist eine generelle Gesetzesverweisung."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_10",
+    "TARGET_SR": "SR 831.20",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Stelle verweist auf \"das Bundesgesetz vom 19. Juli 1959 SR 831.20 über die Invalidenversicherung\" ohne Artikelnummer; damit handelt es sich um eine generelle Verweisung auf das ganze Gesetz."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_12",
+    "TARGET_SR": "SR 414.146",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "medium",
+    "reasoning": "Der Hinweis \"Siehe heute: V vom 19. Nov. 2003 ... (SR 414.146)\" nennt keine bestimmten Artikel dieser Verordnung; es ist ein allgemeiner Verweis auf die heutige Regelung."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_12",
+    "TARGET_SR": "SR 831.42",
+    "assigned_articles": [
+      "Art. 4"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Satz lautet: \"erfolgt nach Artikel 4 des Freizügigkeitsgesetzes vom 17. Dezember 1993 SR 831.42.\"; Artikel 4 ist syntaktisch eindeutig dem Freizügigkeitsgesetz (SR 831.42) zugeordnet."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_14",
+    "TARGET_SR": "SR 101",
+    "assigned_articles": [
+      "Art. 163 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Autorennotiztext steht \"(Art. 163 Abs. 1 BV – SR 101)\"; Art. 163 Abs. 1 wird direkt mit der BV (SR 101) verbunden."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_14",
+    "TARGET_SR": "SR 172.121",
+    "assigned_articles": [
+      "Art. 1",
+      "Art. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Formulierung \"auf Grund von Artikel 1 und 3 des Bundesgesetzes vom 6. Oktober 1989 SR 172.121\" verknüpft die Artikel 1 und 3 klar mit SR 172.121."
+  },
+  {
+    "ITEM": 8,
+    "ARTICLE_EID": "art_14",
+    "TARGET_SR": "SR 101",
+    "assigned_articles": [
+      "Art. 163 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "Auch hier lautet der Hinweis \"Heute: V der BVers (Art. 163 Abs. 1 BV – SR 101)\"; Art. 163 Abs. 1 BV gehört zu SR 101."
+  },
+  {
+    "ITEM": 9,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": "self",
+    "assigned_articles": [
+      "Art. 3",
+      "Art. 4"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Wendung \"nach den Artikeln 3 oder 4 Anspruch auf ein Ruhegehalt\" enthält keine externe SR-Angabe und bezieht sich damit auf die Artikel 3 und 4 der vorliegenden Verordnung (Selbstverweisung)."
+  },
+  {
+    "ITEM": 10,
+    "ARTICLE_EID": "art_10",
+    "TARGET_SR": "self",
+    "assigned_articles": [
+      "Art. 4",
+      "Art. 5"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Bezugnahmen \"nach Artikel 4\" und \"nach Artikel 5\" stehen ohne Nennung eines anderen Gesetzes; sie verweisen daher auf die Artikel 4 und 5 derselben Verordnung."
+  },
+  {
+    "ITEM": 11,
+    "ARTICLE_EID": "art_10",
+    "TARGET_SR": "self",
+    "assigned_articles": [
+      "Art. 8 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Klammer \"(Art. 8 Abs. 2)\" enthält keine SR- oder Gesetzesangabe; im Kontext ist dies eine interne Verweisung auf Art. 8 Abs. 2 der eigenen Verordnung."
+  },
+  {
+    "ITEM": 12,
+    "ARTICLE_EID": "art_12",
+    "TARGET_SR": "SR 831.42",
+    "assigned_articles": [
+      "Art. 4"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Satz lautet: \"erfolgt nach Artikel 4 des Freizügigkeitsgesetzes vom 17. Dezember 1993.\"; aus Item 5 ist klar, dass dieses Freizügigkeitsgesetz SR 831.42 ist, somit gehört Art. 4 zu SR 831.42."
+  },
+  {
+    "ITEM": 13,
+    "ARTICLE_EID": "art_14",
+    "TARGET_SR": "SR 172.121",
+    "assigned_articles": [
+      "Art. 1",
+      "Art. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Formulierung \"auf Grund von Artikel 1 und 3 des Bundesgesetzes vom 6. Oktober 1989 über Besoldung und berufliche Vorsorge der Magistratspersonen\" entspricht inhaltlich den Items 1 und 7; dieses Bundesgesetz ist SR 172.121, sodass Art. 1 und 3 diesem SR zuzuordnen sind."
+  }
+]

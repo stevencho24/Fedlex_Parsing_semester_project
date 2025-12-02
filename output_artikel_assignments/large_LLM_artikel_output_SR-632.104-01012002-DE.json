@@ -1,0 +1,52 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 632.105.14",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "The preamble cites the Bundesbeschluss SR 632.105.14 by title and date only, without any article- or annex-level specification; thus it functions as a general legal basis."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 632.105.15",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "The preamble cites the Bundesbeschluss SR 632.105.15 by title and date only, with no article or annex mentioned; it is used as a general enabling act."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 632.10",
+    "assigned_articles": [
+      "Art. 9a"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet explicitly says 'sowie auf Artikel 9a des Zolltarifgesetzes vom 9. Oktober 1986 SR 632.10'; Art. 9a is directly and uniquely linked to SR 632.10."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 0.632.20",
+    "assigned_articles": [
+      "Anhang 1 A.1"
+    ],
+    "confidence": "high",
+    "reasoning": "The citation reads 'SR 0.632.20 Anhang 1 A.1'; this is a direct reference to Annex 1 A.1 of SR 0.632.20, with no other articles mentioned."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 632.10",
+    "assigned_articles": [
+      "Anhang"
+    ],
+    "confidence": "high",
+    "reasoning": "The text states 'Die Zollansätze des Generaltarifs SR 632.10 Anhang ...'; syntactically, 'Anhang' is directly attached to 'SR 632.10', indicating a reference to its annex rather than to specific numbered articles."
+  }
+]

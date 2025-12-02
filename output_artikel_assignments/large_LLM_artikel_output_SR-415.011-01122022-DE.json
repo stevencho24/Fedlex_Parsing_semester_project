@@ -1,0 +1,194 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 415.01",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "high",
+    "reasoning": "The preamble cites the Sportförderungsverordnung (SpoFöV) by SR number only, without any article indication; this is a generic legal basis reference."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": "SR 935.911",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "medium",
+    "reasoning": "The snippet mentions 'nach Anhang 3 der Risikoaktivitätenverordnung ... SR 935.911' but no specific article is given; the reference is to the ordinance as a whole or at least to its annex without a pinpoint article."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_50",
+    "TARGET_SR": "SR 446.1",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "medium",
+    "reasoning": "The Bundesgesetz über die Förderung der ausserschulischen Jugendarbeit (SR 446.1) is cited without any article number; context does not narrow it to specific provisions."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": "SR 415.01",
+    "assigned_articles": ["Art. 48"],
+    "confidence": "high",
+    "reasoning": "The phrase 'die obligatorische Schule nach Artikel 48 SpoFöV' directly links Article 48 to the SpoFöV (SR 415.01) via the acronym; clear direct marking."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": "SR 415.01",
+    "assigned_articles": ["Art. 6 Abs. 2"],
+    "confidence": "high",
+    "reasoning": "The text 'Aktivitäten in Sportarten nach Artikel 6 Absatz 2 SpoFöV' explicitly cites Article 6 paragraph 2 of the SpoFöV; the later mention of SR 415.01 in the authorial note confirms the document."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_78_a",
+    "TARGET_SR": "SR 415.01",
+    "assigned_articles": ["Art. 40 Abs. 4"],
+    "confidence": "high",
+    "reasoning": "The wording 'im Sinne von Artikel 40 Absatz 4 SpoFöV' clearly attributes Article 40 paragraph 4 to the SpoFöV (SR 415.01)."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_82",
+    "TARGET_SR": "SR 415.01",
+    "assigned_articles": ["Art. 72 Abs. 2"],
+    "confidence": "high",
+    "reasoning": "The phrase 'im Sinne von Artikel 72 Absatz 2 SpoFöV' directly links Article 72 paragraph 2 to the SpoFöV (SR 415.01)."
+  },
+  {
+    "ITEM": 8,
+    "ARTICLE_EID": "art_83",
+    "TARGET_SR": "SR 415.01",
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "This preamble_acronym item concerns the acronym 'VBS' (a department), not a legal SR document; no articles of SR 415.01 are cited in the snippet, and 'VBS' is not an SR-based statute."
+  },
+  {
+    "ITEM": 9,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "high",
+    "reasoning": "The reference 'Artikel 48 SpoFöV' is already captured and assigned to SR 415.01 in ITEM 4; here it functions as an internal cross-reference context and does not introduce a new SR link."
+  },
+  {
+    "ITEM": 10,
+    "ARTICLE_EID": "art_8",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "high",
+    "reasoning": "The phrase 'so findet auf diesen Kurs Artikel 9 Anwendung' refers to another article of the same ordinance (SR 415.011), with no external SR mentioned; this is a self-reference."
+  },
+  {
+    "ITEM": 11,
+    "ARTICLE_EID": "art_9",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "high",
+    "reasoning": "The wording 'so findet auf diesen Kurs Artikel 8 Anwendung' cross-refers within the same document; no SR or external law is cited."
+  },
+  {
+    "ITEM": 12,
+    "ARTICLE_EID": "art_21",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "high",
+    "reasoning": "'(Art. 30, 33 und 42)' lists articles without any acronym or SR context; these are clearly internal articles of the same ordinance."
+  },
+  {
+    "ITEM": 13,
+    "ARTICLE_EID": "art_30",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "high",
+    "reasoning": "'die Voraussetzungen nach Artikel 21' refers back to Article 21 of the same document; no external SR is mentioned."
+  },
+  {
+    "ITEM": 14,
+    "ARTICLE_EID": "art_33",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "high",
+    "reasoning": "Again, 'Voraussetzungen nach Artikel 21' is an internal cross-reference; there is no SR or acronym linking it to another statute."
+  },
+  {
+    "ITEM": 15,
+    "ARTICLE_EID": "art_33",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "high",
+    "reasoning": "The phrase 'Pflichten nach Artikel 34' points to another article of the same ordinance; no external legal document is cited."
+  },
+  {
+    "ITEM": 16,
+    "ARTICLE_EID": "art_34",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "high",
+    "reasoning": "'(Art. 58 und 60)' lists articles without any SR or acronym; these are internal articles of the current document."
+  },
+  {
+    "ITEM": 17,
+    "ARTICLE_EID": "art_42",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "high",
+    "reasoning": "The reference to 'Artikel 21' is internal; there is no syntactic or semantic link to an external SR document."
+  },
+  {
+    "ITEM": 18,
+    "ARTICLE_EID": "art_45",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "high",
+    "reasoning": "The phrase 'nach Artikel 14 anrechenbaren Lagertage' refers to Article 14 of the same ordinance; no external SR is present."
+  },
+  {
+    "ITEM": 19,
+    "ARTICLE_EID": "art_46",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "high",
+    "reasoning": "'nach Artikel 9 Absatz 4' is a cross-reference within the same document; there is no SR or acronym indicating another statute."
+  },
+  {
+    "ITEM": 20,
+    "ARTICLE_EID": "art_64",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "high",
+    "reasoning": "'(Art. 68 Abs. 2 und 72)' lists internal articles; no external SR or acronym is associated in the snippet."
+  },
+  {
+    "ITEM": 21,
+    "ARTICLE_EID": "art_68",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "high",
+    "reasoning": "The reference 'Zulassungsvoraussetzungen nach Artikel 64' is clearly internal to the same ordinance; no external law is cited."
+  },
+  {
+    "ITEM": 22,
+    "ARTICLE_EID": "art_68",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "high",
+    "reasoning": "Again, 'Voraussetzungen nach Artikel 64' is an internal cross-reference; there is no SR context."
+  },
+  {
+    "ITEM": 23,
+    "ARTICLE_EID": "art_72",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "high",
+    "reasoning": "The phrase 'Voraussetzungen nach Artikel 64' refers to an article of the same document; no external SR is mentioned."
+  },
+  {
+    "ITEM": 24,
+    "ARTICLE_EID": "art_72",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference within current document"],
+    "confidence": "high",
+    "reasoning": "The repeated reference to 'Artikel 64' is internal; the snippet does not introduce any SR or acronym linking to another statute."
+  }
+]

@@ -1,0 +1,183 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 101",
+    "assigned_articles": [
+      "Art. 54 Abs. 1",
+      "Art. 107 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Formulierung «gestützt auf die Artikel 54 Absatz 1 und 107 Absatz 2 der Bundesverfassung SR 101» verknüpft die genannten Artikel syntaktisch eindeutig mit SR 101."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_25",
+    "TARGET_SR": "SR 946.231",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "Es wird nur das Embargogesetz als Ganzes («Embargogesetz vom 22. März 2002 SR 946.231») erwähnt, ohne konkrete Artikelangabe; daher allgemeine Verweisung auf das gesamte Gesetz."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_29",
+    "TARGET_SR": "SR 172.021",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Bestimmungen des Verwaltungsverfahrensgesetzes (SR 172.021) werden insgesamt als massgebend erklärt; kein bestimmter Artikel wird genannt."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_34",
+    "TARGET_SR": "SR 311.0",
+    "assigned_articles": [
+      "Art. 7 Abs. 4",
+      "Art. 7 Abs. 5"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Satz «Artikel 7 Absätze 4 und 5 des Strafgesetzbuches SR 311.0 sind anwendbar» verweist explizit auf diese beiden Absätze des Art. 7 StGB."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_37",
+    "TARGET_SR": "SR 313.0",
+    "assigned_articles": [
+      "Art. 6"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Norm lautet «Artikel 6 des Verwaltungsstrafrechtsgesetzes ... SR 313.0»; damit ist eindeutig Art. 6 dieses Gesetzes gemeint."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_38",
+    "TARGET_SR": "SR 312.4",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "medium",
+    "reasoning": "Es heisst «vorbehalten bleibt das Bundesgesetz vom 19. März 2004 SR 312.4 über die Teilung eingezogener Vermögenswerte» ohne Artikelangabe; der Vorbehalt bezieht sich typischerweise auf die einschlägigen Regelungen des ganzen Gesetzes, konkrete Artikel werden aber nicht genannt."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_39",
+    "TARGET_SR": "SR 312.4",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "medium",
+    "reasoning": "Auch hier nur eine generelle Bezugnahme «unter Vorbehalt des Bundesgesetzes vom 19. März 2004 SR 312.4 ...» ohne spezifische Artikel; daher allgemeine Verweisung."
+  },
+  {
+    "ITEM": 8,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Die Verweise «Art. 9–11», «Art. 15 und 16», «Art. 17–19», «Art. 20 und 21» stehen ohne Nennung eines anderen Erlasses; sie beziehen sich auf Artikel desselben Gesetzes (Selbstverweisung), nicht auf ein externes SR-Dokument."
+  },
+  {
+    "ITEM": 9,
+    "ARTICLE_EID": "art_15",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "«Artikel 9» wird ohne Gesetzesangabe erwähnt und steht im Kontext der internen Systematik; dies ist eine Selbstverweisung innerhalb desselben Erlasses."
+  },
+  {
+    "ITEM": 10,
+    "ARTICLE_EID": "art_16_a",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Auch hier verweist «Artikel 9» ohne SR- oder Gesetzesangabe auf einen Artikel des gleichen Gesetzes; keine externe SR-Verknüpfung."
+  },
+  {
+    "ITEM": 11,
+    "ARTICLE_EID": "art_22_a",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Die Verweise «Artikel 22» und «Artikel 20» werden ohne Nennung eines anderen Erlasses gebraucht und betreffen das eigene Gesetz (interne Querverweise)."
+  },
+  {
+    "ITEM": 12,
+    "ARTICLE_EID": "art_22_a",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Auch hier sind «Artikel 22» und «Artikel 20» reine Selbstverweise innerhalb desselben Gesetzes; kein externer SR-Bezug."
+  },
+  {
+    "ITEM": 13,
+    "ARTICLE_EID": "art_34",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "«Artikel 7 Absatz 2» wird ohne Gesetzesangabe erwähnt; im Kontext der Strafbestimmung ist klar, dass es sich um Art. 7 des gleichen Erlasses handelt (interne Ausnahmebestimmung)."
+  },
+  {
+    "ITEM": 14,
+    "ARTICLE_EID": "art_34",
+    "TARGET_SR": "SR 311.0",
+    "assigned_articles": [
+      "Art. 7 Abs. 4",
+      "Art. 7 Abs. 5"
+    ],
+    "confidence": "high",
+    "reasoning": "Diese Zeile entspricht inhaltlich der SR_link_detection-Position (ITEM 4) und verweist auf «Artikel 7 Absätze 4 und 5 des Strafgesetzbuches»; damit sind dieselben Absätze des StGB (SR 311.0) gemeint."
+  },
+  {
+    "ITEM": 15,
+    "ARTICLE_EID": "art_35",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "«Artikel 8 Absatz 2» wird ohne Nennung eines anderen Gesetzes verwendet; dies ist ein interner Verweis auf Art. 8 Abs. 2 desselben Erlasses."
+  },
+  {
+    "ITEM": 16,
+    "ARTICLE_EID": "art_35_a",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "«Artikel 8a Absatz 3» ist ebenfalls ohne Gesetzesangabe und bezieht sich auf eine Bestimmung im gleichen Gesetz (Selbstverweisung)."
+  },
+  {
+    "ITEM": 17,
+    "ARTICLE_EID": "art_35_b",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Die Verweise «Artikel 7 Absatz 2, Artikel 8 Absatz 2 oder Artikel 8a Absatz 3» sowie «Artikeln 8b oder 8c» stehen ohne externen Erlass; sie sind interne Querverweise innerhalb desselben Gesetzes."
+  },
+  {
+    "ITEM": 18,
+    "ARTICLE_EID": "art_35_b",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "«Artikeln 8b oder 8c» wird wiederum ohne Nennung eines anderen Erlasses verwendet; dies sind interne Artikel des gleichen Gesetzes."
+  },
+  {
+    "ITEM": 19,
+    "ARTICLE_EID": "art_36",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Die Bezugnahme auf «Artikeln 27 und 28 Absatz 1» erfolgt ohne Gesetzesangabe und im Rahmen der eigenen Vollzugsbestimmungen; es handelt sich um Selbstverweise."
+  },
+  {
+    "ITEM": 20,
+    "ARTICLE_EID": "art_37",
+    "TARGET_SR": "SR 313.0",
+    "assigned_articles": [
+      "Art. 6"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Satz «Artikel 6 des Verwaltungsstrafrechtsgesetzes vom 22. März 1974 anwendbar» entspricht der SR-Verweisung in ITEM 5; damit ist Art. 6 des Verwaltungsstrafrechtsgesetzes (SR 313.0) gemeint."
+  }
+]

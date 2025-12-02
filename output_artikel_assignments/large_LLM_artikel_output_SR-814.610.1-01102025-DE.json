@@ -1,0 +1,24 @@
+[
+  {
+    "Item": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 814.610",
+    "assigned_articles": [
+      "Art. 2",
+      "Art. 12 Abs. 2",
+      "Art. 15 Abs. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Snippet: \"gestützt auf die Artikel 2, 12 Absatz 2 und 15 Absatz 3 der Verordnung ... SR 814.610 ... (VeVA)\". Die genannten Artikel stehen direkt bei der VeVA und sind damit eindeutig dieser SR zugeordnet."
+  },
+  {
+    "Item": 2,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 814.012",
+    "assigned_articles": [
+      "Anhang 1.1 Ziff. 22"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Snippet: \"... und auf Anhang 1.1 Ziffer 22 der Störfallverordnung ... SR 814.012 (StFV)\". Es wird kein Artikel, sondern explizit Anhang 1.1 Ziffer 22 der StFV genannt; dieser Anhangteil ist der relevanten Stelle der SR 814.012 zuzuordnen."
+  }
+]

@@ -1,0 +1,99 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 814.81",
+    "assigned_articles": [
+      "Art. 7 Abs. 3",
+      "Art. 8 Abs. 3",
+      "Art. 8 Abs. 4",
+      "Art. 12 Abs. 3",
+      "Art. 12 Abs. 4",
+      "Art. 23 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Präambel nennt ausdrücklich: «gestützt auf die Artikel 7 Absatz 3, 8 Absätze 3 und 4, 12 Absätze 3 und 4 sowie 23 Absatz 1 der Chemikalien-Risikoreduktions-Verordnung … SR 814.81 (ChemRRV)»; alle genannten Artikel und Absätze gehören daher zu SR 814.81."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_1_a",
+    "TARGET_SR": "SR 813.12",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Satz verweist auf «Biozidprodukte der Produktart 2 nach Anhang 10 der Biozidprodukteverordnung … SR 813.12 (VBP)»; es wird kein bestimmter Artikel der VBP genannt, sondern nur Anhang 10 und die Verordnung insgesamt. Daher allgemeine Verweis auf das ganze Dokument."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": "SR 813.12",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "Formulierung «… der Produktart 2 nach Anhang 10 VBP SR 813.12 …» nennt wiederum nur Anhang 10 der VBP, keinen konkreten Artikel. Der Bezug ist allgemein auf die Verordnung mit ihrem Anhang gerichtet."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_10",
+    "TARGET_SR": "SR 813.12",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "Wie bei ITEM 3: «… nach Anhang 10 VBP SR 813.12 …» ohne konkrete Artikelangabe; es handelt sich um einen generellen Verweis auf die VBP bzw. deren Anhang."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_12",
+    "TARGET_SR": "SR 813.153.1",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Satz lautet: «Für die Gebühren … gilt die Chemikaliengebührenverordnung … SR 813.153.1.»; es werden keine bestimmten Artikel dieser Verordnung genannt, sondern die Gebührenordnung insgesamt für anwendbar erklärt."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_10",
+    "TARGET_SR": "SR 814.81",
+    "assigned_articles": [
+      "Art. 11 Abs. 1",
+      "Art. 8 Abs. 5"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet: «… nach Artikel 11 Absatz 1 oder Artikel 8 Absatz 5 ChemRRV verfügten Massnahmen.»; ChemRRV ist in der Präambel als SR 814.81 definiert. Die genannten Artikel 11 Abs. 1 und 8 Abs. 5 gehören daher zu SR 814.81."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": "self",
+    "assigned_articles": [
+      "Art. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "«… gilt das Bestehen einer Fachprüfung nach Artikel 3.»; es wird kein anderes Gesetz oder eine andere Verordnung genannt, daher handelt es sich um eine innerdokumentliche Verweisung auf Art. 3 derselben Verordnung."
+  },
+  {
+    "ITEM": 8,
+    "ARTICLE_EID": "art_7_a",
+    "TARGET_SR": "self",
+    "assigned_articles": [
+      "Art. 7"
+    ],
+    "confidence": "high",
+    "reasoning": "«… auch wenn die Anforderungen nach Artikel 7 formell erfüllt sind …»; kein SR oder anderes Erlasskürzel im Kontext, somit klar eine Selbstverweisung auf Art. 7 des eigenen Erlasses."
+  },
+  {
+    "ITEM": 9,
+    "ARTICLE_EID": "art_10",
+    "TARGET_SR": "SR 814.81",
+    "assigned_articles": [
+      "Art. 11 Abs. 1",
+      "Art. 8 Abs. 5"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Text entspricht inhaltlich ITEM 6: «… nach Artikel 11 Absatz 1 oder Artikel 8 Absatz 5 ChemRRV …»; ChemRRV = SR 814.81. Die Artikelangaben beziehen sich daher auf Art. 11 Abs. 1 und Art. 8 Abs. 5 der ChemRRV."
+  }
+]

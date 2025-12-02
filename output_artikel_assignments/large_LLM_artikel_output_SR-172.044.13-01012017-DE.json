@@ -1,0 +1,32 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 172.010",
+    "assigned_articles": [
+      "Art. 46a"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet explicitly states 'gestützt auf Artikel 46a des Regierungs- und Verwaltungsorganisationsgesetzes ... SR 172.010'; Art. 46a is directly and uniquely linked to SR 172.010."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": "SR 172.041.1",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "The text refers generally to 'die Bestimmungen der Allgemeinen Gebührenverordnung ... SR 172.041.1' without mentioning any specific article or range; this is a blanket reference to the ordinance as a whole."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_10",
+    "TARGET_SR": "SR 172.220.111.3",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "The provision states that compensation is according to rules issued based on the Bundespersonalverordnung SR 172.220.111.3, but no particular article is cited; it relies on the ordinance in general as legal basis."
+  }
+]

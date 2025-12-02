@@ -1,0 +1,155 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 101",
+    "assigned_articles": [
+      "Art. 184 Abs. 3",
+      "Art. 185 Abs. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Formulierung «gestützt auf die Artikel 184 Absatz 3 und 185 Absatz 3 der Bundesverfassung SR 101» verknüpft die genannten Artikel grammatikalisch eindeutig mit SR 101."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": "SR 952.0",
+    "assigned_articles": [
+      "Art. 7"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Satz «… nach Artikel 7 des Bankengesetzes … SR 952.0 (BankG)» steht der Artikel unmittelbar vor der Gesetzesbezeichnung und dem SR-Hinweis; damit ist klar, dass Art. 7 zum BankG (SR 952.0) gehört."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": "SR 281.1",
+    "assigned_articles": [
+      "Art. 219 Abs. 4",
+      "Art. 220 Abs. 1",
+      "Art. 219 Abs. 4 Bst. a–f"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Text nennt wiederholt «Artikel 219 Absatz 4 des Bundesgesetzes … SR 281.1 … (SchKG)» sowie «Artikel 220 Absatz 1 SchKG» und «Artikel 219 Absatz 4 Buchstaben a–f SchKG». Alle diese Artikelangaben sind syntaktisch dem SchKG (SR 281.1) zugeordnet."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_10",
+    "TARGET_SR": "SR 952.0",
+    "assigned_articles": [
+      "Art. 10a"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Formulierung «nach Artikel 10a BankG SR 952.0» weist den genannten Artikel 10a eindeutig dem Bankengesetz (SR 952.0) zu."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_14",
+    "TARGET_SR": "SR 311.0",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "medium",
+    "reasoning": "Es wird nur allgemein «nach dem Strafgesetzbuch SR 311.0» auf eine schwerere strafbare Handlung verwiesen, ohne konkrete Artikelangabe; dies ist eine generelle Verweisung auf das StGB."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_14",
+    "TARGET_SR": "SR 956.1",
+    "assigned_articles": [
+      "Art. 50"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Satz «Die Zuständigkeit richtet sich nach Artikel 50 des Finanzmarktaufsichtsgesetzes … SR 956.1» ordnet Art. 50 klar dem FINMAG (SR 956.1) zu."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Stelle wiederholt den Verweis aus ITEM 2, jedoch ohne SR-Angabe; sie dient hier nur als Artikelreferenz im eigenen Erlass (Art. 7 BankG ist bereits in ITEM 2 SR 952.0 zugeordnet)."
+  },
+  {
+    "ITEM": 8,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Referenzen auf «Artikel 219 Absatz 4 … (SchKG)» und «Artikel 220 Absatz 1 SchKG» sind in ITEM 3 bereits SR 281.1 zugeordnet; hier handelt es sich um dieselbe Passage als artikel_reference, daher nur Selbstverweis im aktuellen Dokument."
+  },
+  {
+    "ITEM": 9,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«… an mehrere Banken gemäss Artikel 2 Absatz 1 …» verweist ohne Gesetzesangabe auf einen anderen Artikel desselben Erlasses; kein externer SR-Bezug."
+  },
+  {
+    "ITEM": 10,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«Die Artikel 4 Absätze 3 und 4, 8 Absätze 1 und 7, 9 sowie 10 Absatz 1 gelten analog …» nennt nur interne Artikelnummern ohne Gesetzes- oder SR-Bezug; dies sind reine Selbstverweise."
+  },
+  {
+    "ITEM": 11,
+    "ARTICLE_EID": "art_9",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«… Zinsen und Prämien nach Artikel 8 …» verweist auf Art. 8 desselben Erlasses; kein externer SR-Kontext vorhanden."
+  },
+  {
+    "ITEM": 12,
+    "ARTICLE_EID": "art_9",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "Auch hier wird «nach Artikel 8» ohne Gesetzesangabe verwendet; dies ist wiederum ein interner Verweis im gleichen Erlass."
+  },
+  {
+    "ITEM": 13,
+    "ARTICLE_EID": "art_10",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Passage entspricht inhaltlich ITEM 4, jedoch ohne expliziten SR-Hinweis; der externe Bezug (Art. 10a BankG, SR 952.0) ist bereits in ITEM 4 erfasst, hier bleibt nur der Selbstverweis-Charakter."
+  },
+  {
+    "ITEM": 14,
+    "ARTICLE_EID": "art_14",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Formulierung ist dieselbe wie in ITEM 5, aber ohne SR-Angabe; der externe Bezug zum StGB (SR 311.0) ist dort bereits zugeordnet, hier handelt es sich um die interne Artikelreferenz («Pflichten nach Artikel 9»)."
+  },
+  {
+    "ITEM": 15,
+    "ARTICLE_EID": "art_14",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "Entspricht inhaltlich ITEM 6 ohne SR-Hinweis; der externe Verweis auf Art. 50 FINMAG (SR 956.1) ist dort bereits erfasst, hier bleibt nur der interne Kontext des eigenen Artikels."
+  }
+]

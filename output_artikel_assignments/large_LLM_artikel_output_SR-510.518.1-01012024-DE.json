@@ -1,0 +1,106 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 510.518",
+    "assigned_articles": [
+      "Art. 1",
+      "Art. 6",
+      "Art. 10"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Formulierung «gestützt auf die Artikel 1, 6 und 10 des Bundesgesetzes … SR 510.518 … (Gesetz)» verweist ausdrücklich auf diese drei Artikel des genannten Gesetzes; syntaktisch klar zugeordnet."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": "SR 311.0",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "medium",
+    "reasoning": "Im Satz «Vorbehalten bleiben die Bestimmungen des Strafgesetzbuches SR 311.0 über den militärischen Nachrichtendienst» wird kein bestimmter Artikel des StGB genannt; es wird pauschal auf die einschlägigen Bestimmungen verwiesen."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": "SR 510.32",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "medium",
+    "reasoning": "«Der Waffengebrauch richtet sich nach der Verordnung … SR 510.32 über die Polizeibefugnisse der Armee.» Es wird die Verordnung als Ganzes als Rechtsgrundlage für den Waffengebrauch herangezogen; keine konkrete Artikelangabe."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_9",
+    "TARGET_SR": "SR 700",
+    "assigned_articles": [
+      "Art. 22",
+      "Art. 24"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Passage «Bau- und Ausnahmegesuche nach den Artikeln 22 und 24 des Raumplanungsgesetzes … SR 700» verknüpft die Artikel 22 und 24 syntaktisch eindeutig mit dem Raumplanungsgesetz (SR 700)."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": "SR 510.518",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "low",
+    "reasoning": "«… im Sinne des Gesetzes … dem Gesetz unterstellt.» Das Wort «Gesetz» ist im Vorspann als SR 510.518 definiert, aber im Snippet werden keine bestimmten Artikel genannt; es handelt sich um eine generelle Bezugnahme auf das Gesetz."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": "SR 510.518",
+    "assigned_articles": [
+      "Art. 2 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "«… Anlagen, die vom Bundesrat gemäss Artikel 2 Absatz 2 dem Gesetz unterstellt wurden …» bezieht sich klar auf Art. 2 Abs. 2 des als «Gesetz» definierten Bundesgesetzes SR 510.518."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": "SR 510.518",
+    "assigned_articles": [
+      "Art. 4",
+      "Art. 5"
+    ],
+    "confidence": "high",
+    "reasoning": "«… die Bewilligungen nach den Artikeln 4 und 5 des Gesetzes …» nennt explizit die Artikel 4 und 5 des als «Gesetz» definierten Bundesgesetzes SR 510.518."
+  },
+  {
+    "ITEM": 8,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": "SR 510.518.1",
+    "assigned_articles": [
+      "Art. 4 Abs. 6"
+    ],
+    "confidence": "high",
+    "reasoning": "«Vorbehalten bleibt Artikel 4 Absatz 6.» Es wird kein anderes SR genannt; daher handelt es sich um eine Selbstverweisung innerhalb derselben Verordnung SR 510.518.1 auf Art. 4 Abs. 6 dieser Verordnung."
+  },
+  {
+    "ITEM": 9,
+    "ARTICLE_EID": "art_9",
+    "TARGET_SR": "SR 510.518.1",
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«… nach den Artikeln 22 und 24 des Raumplanungsgesetzes …» enthält zwar Artikelangaben, diese sind aber bereits in ITEM 4 eindeutig SR 700 zugeordnet. Im Snippet dieses artikel_reference-Items fehlt die SR-Nennung; hier dient der Eintrag nur als interne Kontextzeile, keine zusätzliche SR-Verknüpfung zur eigenen Verordnung."
+  },
+  {
+    "ITEM": 10,
+    "ARTICLE_EID": "art_11",
+    "TARGET_SR": "SR 510.518.1",
+    "assigned_articles": [
+      "Art. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "«… militärischen Anlagen nach Artikel 2 …» verweist ohne Nennung eines anderen SR auf Art. 2 derselben Verordnung SR 510.518.1; syntaktisch eine klare Selbstverweisung."
+  }
+]

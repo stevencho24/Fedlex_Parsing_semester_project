@@ -1,0 +1,87 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 946.201",
+    "assigned_articles": [
+      "Art. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Formulierung «gestützt auf Artikel 3 des Bundesgesetzes ... SR 946.201 über aussenwirtschaftliche Massnahmen» verknüpft den genannten Artikel 3 syntaktisch eindeutig mit SR 946.201."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": [
+      "Art. 130"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Satzteil «auf Artikel 130 des Zollgesetzes vom 18. März 2005 SR 631.0» steht der Artikel unmittelbar beim Gesetz, das durch die SR-Nummer identifiziert wird; Art. 130 gehört somit zu SR 631.0."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 632.10",
+    "assigned_articles": [
+      "Art. 4",
+      "Art. 10"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Passage «auf die Artikel 4 und 10 des Zolltarifgesetzes vom 9. Oktober 1986 SR 632.10» ordnet die Artikel 4 und 10 klar dem Zolltarifgesetz mit der SR-Nummer 632.10 zu."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 632.111.722",
+    "assigned_articles": [
+      "Art. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Text lautet «gestützt auf Artikel 3 der Verordnung vom 23. November 2011 SR 632.111.722 ...»; damit ist Art. 3 eindeutig dieser Verordnung mit SR 632.111.722 zugeordnet."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": "SR 916.01",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Stelle «Vorbehalten bleiben besondere Bestimmungen nach der Agrareinfuhrverordnung vom 26. Oktober 2011 SR 916.01 (AEV)» verweist allgemein auf die Verordnung, ohne konkrete Artikel zu nennen; daher handelt es sich um eine generelle Verweisung auf das ganze Dokument."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_6",
+    "TARGET_SR": "SR 631.01",
+    "assigned_articles": [
+      "Art. 50",
+      "Art. 51",
+      "Art. 52",
+      "Art. 53",
+      "Art. 54"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Formulierung «Bestimmungen der Artikel 50–54 der Zollverordnung vom 1. November 2006 SR 631.01» nennt explizit einen Artikelsbereich; dieser wird als die einzelnen Artikel 50 bis 54 der Zollverordnung (SR 631.01) verstanden."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Verweis «gestützt auf Artikel 3 der Verordnung vom 23. November 2011 über die Industrieschutzelemente ...» wiederholt inhaltlich die bereits bei ITEM 4 erfasste externe Verweisung; als artikel_reference ohne SR-Angabe dient er hier primär der Selbstreferenz-Erkennung und wird nicht erneut einem TARGET_SR zugeordnet."
+  },
+  {
+    "ITEM": 8,
+    "ARTICLE_EID": "art_6",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Passage «Bestimmungen der Artikel 50–54 der Zollverordnung vom 1. November 2006 anwendbar» entspricht der bei ITEM 6 bereits mit SR 631.01 verknüpften Verweisung; als artikel_reference ohne explizite SR-Nummer wird sie hier als interne/selbstbezogene Referenz behandelt und nicht nochmals einem TARGET_SR zugeordnet."
+  }
+]

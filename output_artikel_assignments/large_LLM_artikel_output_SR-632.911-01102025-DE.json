@@ -1,0 +1,126 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 632.91",
+    "assigned_articles": [
+      "Art. 1 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Formulierung «gestützt auf Artikel 1 Absatz 1 des Zollpräferenzengesetzes … SR 632.91» verknüpft den genannten Artikel grammatikalisch eindeutig mit SR 632.91."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 632.10",
+    "assigned_articles": "General reference - entire document",
+    "confidence": "high",
+    "reasoning": "Im Snippet wird nur das «Zolltarifgesetzes vom 9. Oktober 1986 SR 632.10» als Ganzes erwähnt, ohne konkrete Artikelangabe; daher allgemeine Verweisung auf das gesamte Gesetz."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": "SR 946.39",
+    "assigned_articles": "General reference - entire document",
+    "confidence": "medium",
+    "reasoning": "Die Ursprungsregelnverordnung (SR 946.39) wird als Rechtsgrundlage für den Ursprungsnachweis genannt, jedoch ohne spezifische Artikel- oder Abschnittsangabe; daher allgemeine Dokumentverweisung."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": "SR 170.512",
+    "assigned_articles": [
+      "Art. 12 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Autorennotiz-Text heisst es ausdrücklich «in Anwendung von Art. 12 Abs. 2 des Publikationsgesetzes … (SR 170.512)»; der Artikel ist direkt mit dieser SR verknüpft."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": "SR 170.512.1",
+    "assigned_articles": [
+      "Art. 20 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Notiz spricht von «in Anwendung von Art. 20 Abs. 2 der Publikationsverordnung … (SR 170.512.1)»; klare syntaktische Zuordnung dieses Artikels zu der genannten SR."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": "SR 0.632.11",
+    "assigned_articles": "General reference - entire document",
+    "confidence": "high",
+    "reasoning": "Das «Internationale Übereinkommen … SR 0.632.11 über das Harmonisierte System …» wird als Grundlage der Nomenklatur erwähnt, ohne konkrete Artikel; es handelt sich um eine generelle Bezugnahme auf das Übereinkommen."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": "SR 946.39",
+    "assigned_articles": [
+      "Art. 38–45"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Satz lautet «richten sich nach den Artikeln 38–45 der Ursprungsregelnverordnung … SR 946.39»; die Artikel 38–45 sind explizit dieser Verordnung zugeordnet."
+  },
+  {
+    "ITEM": 8,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": "SR 170.512",
+    "assigned_articles": [
+      "Art. 12 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Wie bei ITEM 4: «Der Verweis wurde in Anwendung von Art. 12 Abs. 2 des Publikationsgesetzes … (SR 170.512) angepasst.»; eindeutige Verknüpfung."
+  },
+  {
+    "ITEM": 9,
+    "ARTICLE_EID": "art_8",
+    "TARGET_SR": "SR 946.201",
+    "assigned_articles": [
+      "Art. 10 Abs. 4"
+    ],
+    "confidence": "high",
+    "reasoning": "Formulierung «Bericht gemäss Artikel 10 Absatz 4 des Bundesgesetzes … SR 946.201» ordnet Art. 10 Abs. 4 klar dieser SR zu."
+  },
+  {
+    "ITEM": 10,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 38–45"
+    ],
+    "confidence": "high",
+    "reasoning": "Artikelreferenz ohne explizite SR im Satz, aber identischer Kontext wie ITEM 7 («Artikeln 38–45 der Ursprungsregelnverordnung …»). Dies ist eine Selbstreferenz innerhalb desselben Dokuments zur dort bereits SR-gebundenen Stelle; keine neue SR-Zuordnung, aber die referenzierten Artikel sind 38–45."
+  },
+  {
+    "ITEM": 11,
+    "ARTICLE_EID": "art_8",
+    "TARGET_SR": "SR 632.91",
+    "assigned_articles": [
+      "Art. 2 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Satz nennt «die in Artikel 2 Absatz 2 des Zollpräferenzengesetzes vom 9. Oktober 1981 vorgesehenen Massnahmen»; dieses Gesetz ist SR 632.91 (vgl. Preambelkontext). Daher Zuordnung von Art. 2 Abs. 2 zu SR 632.91."
+  },
+  {
+    "ITEM": 12,
+    "ARTICLE_EID": "art_8",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 6"
+    ],
+    "confidence": "high",
+    "reasoning": "«… für alle Länder, denen nach Artikel 6 besondere Präferenzen gewährt werden …» bezieht sich auf Art. 6 derselben Verordnung (keine SR genannt, interne Strukturverweisung). Daher Selbstreferenz ohne externe SR."
+  },
+  {
+    "ITEM": 13,
+    "ARTICLE_EID": "art_8",
+    "TARGET_SR": "SR 946.201",
+    "assigned_articles": [
+      "Art. 10 Abs. 4"
+    ],
+    "confidence": "high",
+    "reasoning": "Text: «Bericht gemäss Artikel 10 Absatz 4 des Bundesgesetzes vom 25. Juni 1982 über aussenwirtschaftliche Massnahmen.»; dieses Bundesgesetz ist SR 946.201 (vgl. ITEM 9). Somit Verknüpfung von Art. 10 Abs. 4 mit SR 946.201."
+  }
+]

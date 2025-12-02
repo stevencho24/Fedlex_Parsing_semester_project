@@ -1,0 +1,32 @@
+[
+  {
+    "Item": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 442.1",
+    "assigned_articles": [
+      "Art. 28 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet explicitly cites 'Artikel 28 Absatz 1 des Kulturförderungsgesetzes ... SR 442.1'; this directly links Art. 28 Abs. 1 to SR 442.1."
+  },
+  {
+    "Item": 2,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": "SR 0.440.6",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "The text refers generally to 'das Übereinkommen vom 17. Oktober 2003 SR 0.440.6' without mentioning any specific article; this is a general reference to the convention as a whole."
+  },
+  {
+    "Item": 3,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "The phrase 'Artikel 1 Buchstabe a' has no SR or external law mentioned and clearly refers to Article 1 letter a of the same ordinance; thus it is an internal self-reference, not tied to an external SR."
+  }
+]

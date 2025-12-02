@@ -1,0 +1,182 @@
+[
+  {
+    "Item": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 412.10",
+    "assigned_articles": [
+      "Art. 19"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet: 'gestützt auf Artikel 19 des Berufsbildungsgesetzes ... SR 412.10'; Art. 19 is explicitly linked to SR 412.10 by title and SR number in the same clause."
+  },
+  {
+    "Item": 2,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 412.101",
+    "assigned_articles": [
+      "Art. 12"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet: 'auf Artikel 12 der Berufsbildungsverordnung ... SR 412.101 (BBV)'; Art. 12 is directly attributed to the BBV with SR 412.101."
+  },
+  {
+    "Item": 3,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 170.512",
+    "assigned_articles": [
+      "Art. 12 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "INSIDE_AUTHORIALNOTE: 'in Anwendung von Art. 12 Abs. 2 des Publikationsgesetzes ... (SR 170.512)'; explicit article and paragraph tied to SR 170.512."
+  },
+  {
+    "Item": 4,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 822.115",
+    "assigned_articles": [
+      "Art. 4a Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet: 'auf Artikel 4a Absatz 1 der Jugendarbeitsschutzverordnung ... SR 822.115 (ArGV 5)'; clear direct marking of article and paragraph for SR 822.115."
+  },
+  {
+    "Item": 5,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": "SR 170.512",
+    "assigned_articles": [
+      "Art. 12 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "INSIDE_AUTHORIALNOTE repeats: 'in Anwendung von Art. 12 Abs. 2 des Publikationsgesetzes ... (SR 170.512)'; same explicit reference as in preamble, applied here to explain an adjustment."
+  },
+  {
+    "Item": 6,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": "SR 412.101.241",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet: 'gilt die Verordnung des SBFI vom 27. April 2006 SR 412.101.241 über Mindestvorschriften ...'; no specific article cited, the whole implementing ordinance is referenced."
+  },
+  {
+    "Item": 7,
+    "ARTICLE_EID": "art_18",
+    "TARGET_SR": "SR 412.101.241",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet: 'richtet sich nach der Verordnung des SBFI ... SR 412.101.241 ...'; again a general reference to the ordinance without article-level specification."
+  },
+  {
+    "Item": 8,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": "SR 412.10",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "medium",
+    "reasoning": "preamble_acronym SBFI→SR 412.10; snippet mentions 'Verordnung des SBFI ... über Mindestvorschriften ...' but no article number of SR 412.10 is given. It is an institutional/competence reference rather than a specific provision."
+  },
+  {
+    "Item": 9,
+    "ARTICLE_EID": "art_16",
+    "TARGET_SR": "SR 412.101",
+    "assigned_articles": [
+      "Art. 32"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet: 'die nach Artikel 32 BBV erforderliche Erfahrung erworben hat'; BBV is SR 412.101 per preamble; Art. 32 is explicitly tied to BBV."
+  },
+  {
+    "Item": 10,
+    "ARTICLE_EID": "art_18",
+    "TARGET_SR": "SR 412.10",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "medium",
+    "reasoning": "Snippet: 'Verordnung des SBFI ... über Mindestvorschriften ...'; SBFI acronym maps to SR 412.10, but no article number is mentioned; it functions as a general institutional/legal basis reference."
+  },
+  {
+    "Item": 11,
+    "ARTICLE_EID": "art_20",
+    "TARGET_SR": "SR 412.101",
+    "assigned_articles": [
+      "Art. 33"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet: 'richtet sich nach Artikel 33 BBV.'; BBV is SR 412.101, and Art. 33 is explicitly cited."
+  },
+  {
+    "Item": 12,
+    "ARTICLE_EID": "art_23",
+    "TARGET_SR": "SR 412.10",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "medium",
+    "reasoning": "Snippet: 'dem SBFI die entsprechende Änderung zu beantragen.'; SBFI (SR 412.10) is mentioned institutionally, without any article reference; no syntactic link to a specific provision."
+  },
+  {
+    "Item": 13,
+    "ARTICLE_EID": "art_25",
+    "TARGET_SR": "SR 412.10",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "medium",
+    "reasoning": "Snippet: 'Die Verordnung des SBFI vom 7. Dezember 2004 ... wird aufgehoben.'; SBFI acronym maps to SR 412.10 but this is about an SBFI ordinance, not a specific article of SR 412.10; no article number is given."
+  },
+  {
+    "Item": 14,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "artikel_reference: 'Artikel 4 Absatz 1 ArGV 5' and 'Artikel 4a Absatz 1 ArGV 5' are references to another ordinance (ArGV 5, SR 822.115) already captured in Item 4; here they function as cross-references, not as a new SR link assignment for this document."
+  },
+  {
+    "Item": 15,
+    "ARTICLE_EID": "art_16",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "artikel_reference: 'Artikel 32 BBV' is already assigned to SR 412.101 in Item 9; this occurrence is a repetition/self-reference contextually and does not create a new SR link."
+  },
+  {
+    "Item": 16,
+    "ARTICLE_EID": "art_17",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet: 'Handlungskompetenzen nach Artikel 4'; no SR or acronym context; this clearly refers to Art. 4 of the same ordinance (self-reference)."
+  },
+  {
+    "Item": 17,
+    "ARTICLE_EID": "art_22",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet: 'unter dem Vorbehalt von Artikel 21 Absatz 1'; no external SR or acronym; this is a cross-reference to Art. 21 Abs. 1 of the same document."
+  },
+  {
+    "Item": 18,
+    "ARTICLE_EID": "art_26",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet: 'Bestimmungen ... (Art. 16−22)'; range clearly refers to articles 16–22 of the current ordinance; no external SR mentioned."
+  }
+]

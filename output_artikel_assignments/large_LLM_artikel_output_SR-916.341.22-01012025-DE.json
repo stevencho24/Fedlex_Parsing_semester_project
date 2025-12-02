@@ -1,0 +1,38 @@
+[
+  {
+    "Item": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 916.341",
+    "assigned_articles": [
+      "Art. 5"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet explicitly states 'gestützt auf Artikel 5 der Schlachtviehverordnung ... SR 916.341'; Art. 5 is directly and uniquely linked to SR 916.341."
+  },
+  {
+    "Item": 2,
+    "ARTICLE_EID": "art_8",
+    "TARGET_SR": "SR 916.341",
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "The snippet only uses the acronym BLW (linked in the preamble to SR 916.341) as the issuing authority and refers to annexes of the current ordinance; it does not mention any article of SR 916.341. Thus there is no article-level citation to assign."
+  },
+  {
+    "Item": 3,
+    "ARTICLE_EID": "art_9",
+    "TARGET_SR": "SR 916.341",
+    "assigned_articles": [
+      "Art. 26 Abs. 1 Bst. a"
+    ],
+    "confidence": "high",
+    "reasoning": "The text states 'gestützt auf Artikel 26 Absatz 1 Buchstabe a der Schlachtviehverordnung vom 26. November 2003 ... (SR 916.341)'; this is a direct, explicit reference to Art. 26 Abs. 1 lit. a of SR 916.341."
+  },
+  {
+    "Item": 4,
+    "ARTICLE_EID": "art_12",
+    "TARGET_SR": "SR 916.341",
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "The snippet lists BLW ordinances by title and date but contains no mention of any article of SR 916.341; it is a general institutional reference to BLW, not an article-level citation to the Schlachtviehverordnung."
+  }
+]

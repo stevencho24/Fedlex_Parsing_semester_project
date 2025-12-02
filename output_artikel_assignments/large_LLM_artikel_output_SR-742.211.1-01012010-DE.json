@@ -1,0 +1,82 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 742.211",
+    "assigned_articles": [
+      "Art. 5"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Formulierung «in Vollziehung von Artikel 5 des Bundesgesetzes ... SR 742.211» verknüpft den genannten Artikel 5 eindeutig mit dem Gesetz SR 742.211."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_18",
+    "TARGET_SR": "SR 742.102",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Gebühren «richten sich nach der Gebührenverordnung BAV ... SR 742.102» ohne Nennung einzelner Artikel; dies ist eine generelle Verweisung auf die ganze Verordnung."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_22",
+    "TARGET_SR": "SR 742.211",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Verordnung tritt «zugleich mit dem Bundesgesetz ... SR 742.211» in Kraft; es wird das gesamte Gesetz als solches genannt, ohne spezifische Artikelangabe."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_6",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "«(Art. 3 des Gesetzes)» ist eine reine Selbstverweisung innerhalb desselben Gesetzes (kein anderes SR genannt); daher interne Referenz auf Art. 3 des aktuellen Erlasses."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 27"
+    ],
+    "confidence": "high",
+    "reasoning": "«nach Artikel 27 des Gesetzes» verweist auf einen anderen Artikel desselben Gesetzes; mangels externer SR-Angabe ist dies eine interne Selbstverweisung auf Art. 27."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_9",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 47"
+    ],
+    "confidence": "high",
+    "reasoning": "«(Art. 47 des Gesetzes)» steht ohne Bezug zu einem anderen SR-Dokument und bezeichnet damit einen Artikel des eigenen Gesetzes; interne Referenz auf Art. 47."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_15",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "«durch Artikel 3 des Gesetzes geforderten Nachweisen» ist eine Verweisung auf einen anderen Artikel desselben Erlasses; keine externe SR-Nennung, daher interne Referenz auf Art. 3."
+  },
+  {
+    "ITEM": 8,
+    "ARTICLE_EID": "art_16",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 8"
+    ],
+    "confidence": "high",
+    "reasoning": "«In dem durch Artikel 8 des Gesetzes vorgesehenen Falle» verweist auf eine Bestimmung im selben Gesetz; mangels externer SR-Angabe interne Selbstverweisung auf Art. 8."
+  }
+]

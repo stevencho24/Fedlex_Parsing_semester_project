@@ -1,0 +1,115 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 946.231",
+    "assigned_articles": [
+      "Art. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet explicitly cites 'Artikel 2 des Embargogesetzes ... SR 946.231 (EmbG)'; Art. 2 is directly linked to SR 946.231."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 946.202",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "The citation refers to 'die Bestimmungen des Güterkontrollgesetzes ... SR 946.202' without specifying any article; this is a general reference to the statute as a whole."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 514.51",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet mentions 'des Kriegsmaterialgesetzes ... SR 514.51' with no article numbers; this is a blanket reference to the entire act."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": "SR 170.512.1",
+    "assigned_articles": [
+      "Art. 20 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "The authorial note states 'in Anwendung von Art. 20 Abs. 2 der Publikationsverordnung ... (SR 170.512.1)'; Art. 20 Abs. 2 is explicitly tied to SR 170.512.1."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": "SR 946.231",
+    "assigned_articles": [
+      "Art. 9",
+      "Art. 10"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet contains 'nach Artikel 9 EmbG', 'nach Artikel 10 EmbG' and 'Verstösse nach den Artikeln 9 und 10 EmbG'; EmbG is defined as SR 946.231 in the preamble, so Arts. 9 and 10 of SR 946.231 are clearly referenced."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": "self",
+    "assigned_articles": [
+      "Art. 1",
+      "Art. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "The phrase 'Zwangsmassnahmen nach den Artikeln 1 und 2' has no external SR or acronym; by the rules this is an internal reference within the same ordinance to its own Arts. 1 and 2."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": "self",
+    "assigned_articles": [
+      "Art. 4"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet 'Ein- und Durchreiseverbots nach Artikel 4' lacks any SR link or acronym; it therefore refers to Art. 4 of the current document."
+  },
+  {
+    "ITEM": 8,
+    "ARTICLE_EID": "art_6",
+    "TARGET_SR": "self",
+    "assigned_articles": [
+      "Art. 2 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "The text 'unter die Sperrung nach Artikel 2 Absatz 1 fallen' contains no external SR; this is a self-reference to Art. 2 Abs. 1 of the same ordinance."
+  },
+  {
+    "ITEM": 9,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": "SR 946.231",
+    "assigned_articles": [
+      "Art. 9"
+    ],
+    "confidence": "high",
+    "reasoning": "The sentence 'wird nach Artikel 9 EmbG bestraft' uses the acronym EmbG, which the preamble maps to SR 946.231; this is a direct reference to Art. 9 of SR 946.231."
+  },
+  {
+    "ITEM": 10,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": "SR 946.231",
+    "assigned_articles": [
+      "Art. 10"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet 'wird nach Artikel 10 EmbG bestraft' clearly cites Art. 10 of EmbG; EmbG is SR 946.231, so this is Art. 10 of that statute."
+  },
+  {
+    "ITEM": 11,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": "SR 946.231",
+    "assigned_articles": [
+      "Art. 9",
+      "Art. 10"
+    ],
+    "confidence": "high",
+    "reasoning": "The phrase 'Verstösse nach den Artikeln 9 und 10 EmbG' explicitly mentions both articles of EmbG; via the preamble acronym mapping, these are Arts. 9 and 10 of SR 946.231."
+  }
+]

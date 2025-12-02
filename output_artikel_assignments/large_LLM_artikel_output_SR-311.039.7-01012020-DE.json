@@ -1,0 +1,182 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 311.0",
+    "assigned_articles": [
+      "Art. 386 Abs. 4"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Formulierung «gestützt auf Artikel 386 Absatz 4 des Strafgesetzbuchs SR 311.0» verknüpft eindeutig den genannten Artikel mit dem Strafgesetzbuch (SR 311.0)."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 0.311.35",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "Das Übereinkommen wird nur mit Datum und SR-Nummer («Übereinkommen des Europarats vom 11. Mai 2011 SR 0.311.35») genannt, ohne konkrete Artikelangabe; dies ist eine generelle Bezugnahme auf das ganze Übereinkommen."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": "SR 616.1",
+    "assigned_articles": [
+      "Art. 13 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Satz «gestützt auf Artikel 13 Absatz 2 des Subventionsgesetzes ... SR 616.1 (SuG)» wird der Artikel mit Absatz explizit dem Subventionsgesetz (SR 616.1) zugeordnet."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_12",
+    "TARGET_SR": "SR 616.1",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "«Das Verfahren ... richtet sich nach den Bestimmungen des SuG SR 616.1.» enthält keine konkrete Artikelangabe; es wird auf die Bestimmungen des ganzen Gesetzes verwiesen."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«Artikel 13 Absatz 2 des Subventionsgesetzes ... (SuG)» ist eine Wiederholung der in ITEM 3 bereits SR 616.1 zugeordneten Norm; als artikel_reference ohne explizite SR-Angabe im Snippet wird sie hier als Selbstverweis/Querverweis behandelt und nicht erneut einem TARGET_SR zugeordnet."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_8",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«nach Artikel 6» verweist ohne Gesetzesangabe auf einen Artikel derselben Verordnung; gemäss Regeln ist dies ein interner Selbstverweis."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_9",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«nach Artikel 6 Absatz 1» enthält keine SR- oder Gesetzesangabe und bezieht sich damit auf einen Artikel im selben Erlass."
+  },
+  {
+    "ITEM": 8,
+    "ARTICLE_EID": "art_9",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«nach Artikel 6 Absatz 2» ist wiederum ein Verweis ohne externe SR-Nennung und daher ein interner Artikelverweis."
+  },
+  {
+    "ITEM": 9,
+    "ARTICLE_EID": "art_10",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«nach Artikel 6 Absatz 1» verweist auf einen Artikel derselben Verordnung; keine externe SR-Verknüpfung."
+  },
+  {
+    "ITEM": 10,
+    "ARTICLE_EID": "art_10",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«nach Artikel 6 Absatz 2» ist ebenfalls ein rein interner Verweis ohne Bezug zu einem anderen SR-Dokument."
+  },
+  {
+    "ITEM": 11,
+    "ARTICLE_EID": "art_12",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«Verfügung nach Artikel 16 Absatz 1 SuG» nennt zwar einen Artikel des Subventionsgesetzes, aber im Snippet fehlt eine SR-Nummer; als artikel_reference ohne TARGET_SR wird dies als Querverweis behandelt, nicht als neue SR-Zuordnung (die SR-Zuordnung zu SuG wurde bereits in Items 3 und 4 vorgenommen)."
+  },
+  {
+    "ITEM": 12,
+    "ARTICLE_EID": "art_12",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«Leistungsvertrags nach Artikel 16 Absatz 2 SuG» ist analog zu ITEM 11 ein Verweis auf SuG ohne explizite SR im Snippet; als artikel_reference bleibt es ein interner/kontextueller Verweis ohne erneute SR-Zuordnung."
+  },
+  {
+    "ITEM": 13,
+    "ARTICLE_EID": "art_13",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«nach Artikel 6 Absatz 1» verweist auf einen Artikel derselben Verordnung; keine externe SR-Referenz."
+  },
+  {
+    "ITEM": 14,
+    "ARTICLE_EID": "art_13",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«nach Artikel 6 Absatz 2» ist wiederum ein interner Verweis innerhalb des gleichen Erlasses."
+  },
+  {
+    "ITEM": 15,
+    "ARTICLE_EID": "art_16",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«Wer Beiträge nach Artikel 6 erhält» verweist ohne Gesetzesangabe auf einen Artikel derselben Verordnung; damit Selbstverweis."
+  },
+  {
+    "ITEM": 16,
+    "ARTICLE_EID": "art_16",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«Beiträge zur Unterstützung Dritter nach Artikel 6 Absatz 2» ist ebenfalls ein interner Verweis auf einen Artikel des gleichen Erlasses."
+  },
+  {
+    "ITEM": 17,
+    "ARTICLE_EID": "art_17",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«Beiträge für Massnahmen Dritter nach Artikel 6 Absatz 1» verweist intern auf Artikel 6 derselben Verordnung."
+  },
+  {
+    "ITEM": 18,
+    "ARTICLE_EID": "art_17",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«Beiträge zur Unterstützung Dritter nach Artikel 6 Absatz 2» ist ein weiterer interner Verweis ohne externe SR-Nennung."
+  }
+]

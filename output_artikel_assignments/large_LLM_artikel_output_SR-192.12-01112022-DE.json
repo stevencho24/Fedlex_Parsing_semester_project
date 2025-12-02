@@ -1,0 +1,312 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 101",
+    "assigned_articles": [
+      "Art. 54 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Formulierung «gestützt auf Artikel 54 Absatz 1 der Bundesverfassung SR 101» verknüpft den genannten Artikel syntaktisch eindeutig mit SR 101."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": "SR 831.40",
+    "assigned_articles": [
+      "Art. 5 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Snippet steht «in Abweichung von Artikel 5 Absatz 1 des Bundesgesetzes ... SR 831.40», womit Art. 5 Abs. 1 klar diesem Gesetz (SR 831.40) zugeordnet wird."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_20",
+    "TARGET_SR": "SR 120",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "medium",
+    "reasoning": "Es wird nur «wie sie das Bundesgesetz ... SR 120 ... vorsieht» erwähnt, ohne konkrete Artikelangabe; daher handelt es sich um eine generelle Verweisung auf das Gesetz."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_24",
+    "TARGET_SR": "SR 642.11",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "medium",
+    "reasoning": "Formulierung «gemäss Bundesgesetz ... SR 642.11 über die direkte Bundessteuer» ohne Nennung eines bestimmten Artikels; dies spricht für eine allgemeine Gesetzesverweisung."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_25",
+    "TARGET_SR": "SR 642.11",
+    "assigned_articles": [
+      "Art. 56 lit. g"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Text nennt ausdrücklich «im Sinne von Artikel 56 Buchstabe g des Bundesgesetzes ... SR 642.11», womit Art. 56 lit. g eindeutig SR 642.11 zugeordnet ist."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_29",
+    "TARGET_SR": "SR 138.1",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "medium",
+    "reasoning": "Es wird nur «im Sinne des Bundesgesetzes ... SR 138.1» ohne Artikelangabe erwähnt; daher allgemeine Verweisung auf das Gesetz."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_35",
+    "TARGET_SR": "SR 142.20",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "medium",
+    "reasoning": "Der Hinweis «SR 142.20. Der Titel wurde ... angepasst» betrifft das ganze Gesetz (Titelanpassung), ohne konkrete Artikelangabe; daher generelle Referenz."
+  },
+  {
+    "ITEM": 8,
+    "ARTICLE_EID": "art_35",
+    "TARGET_SR": "SR 170.512",
+    "assigned_articles": [
+      "Art. 12 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Im selben Satz: «in Anwendung von Art. 12 Abs. 2 der Publikationsgesetzes ... (SR 170.512)»; Art. 12 Abs. 2 ist syntaktisch direkt mit SR 170.512 verknüpft."
+  },
+  {
+    "ITEM": 9,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«Artikel 5 Absatz 1» wird ohne Gesetzesangabe im Fliesstext des gleichen Artikels erwähnt; dies ist eine Selbstverweisung innerhalb des zitierten externen Gesetzes, aber im Rahmen dieses Projekts als interne Strukturreferenz des aktuellen Dokuments zu behandeln."
+  },
+  {
+    "ITEM": 10,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«Artikel 2 Absatz 2 Buchstaben a und c» verweist auf Bestimmungen desselben Gesetzes (SR 192.12); keine externe SR-Verknüpfung im Satz."
+  },
+  {
+    "ITEM": 11,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "Mehrfache Verweise «Artikel 2», «Artikel 2 Absatz 2» ohne Nennung eines anderen Gesetzes; klar interne Artikelverweise des aktuellen Gesetzes."
+  },
+  {
+    "ITEM": 12,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«Artikel 2» und «Artikel 2 Absatz 2» werden ohne SR-Angabe genannt; dies sind Selbstverweise innerhalb des gleichen Gesetzes."
+  },
+  {
+    "ITEM": 13,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«Artikel 2» wird isoliert ohne externes Gesetz erwähnt; interne Strukturverweisung."
+  },
+  {
+    "ITEM": 14,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«Artikel 2 Absatz 2» bezieht sich auf eine Bestimmung desselben Gesetzes; kein externer SR-Kontext."
+  },
+  {
+    "ITEM": 15,
+    "ARTICLE_EID": "art_16",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«Artikel 2 Absatz 1» wird ohne Gesetzesangabe im selben Dokument verwendet; interne Artikelverweisung."
+  },
+  {
+    "ITEM": 16,
+    "ARTICLE_EID": "art_16",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "Auch hier «Artikel 2 Absatz 1» ohne externes Gesetz; Selbstverweis innerhalb des aktuellen Gesetzes."
+  },
+  {
+    "ITEM": 17,
+    "ARTICLE_EID": "art_18",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«Begünstigten nach Artikel 19» verweist auf einen anderen Artikel desselben Gesetzes; keine SR-Nennung."
+  },
+  {
+    "ITEM": 18,
+    "ARTICLE_EID": "art_18",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«Artikel 2» ist ein interner Artikel des Gesetzes; kein externer Kontext."
+  },
+  {
+    "ITEM": 19,
+    "ARTICLE_EID": "art_19",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«Artikel 2» wird ohne Gesetzesangabe genannt; interne Verweisung."
+  },
+  {
+    "ITEM": 20,
+    "ARTICLE_EID": "art_19",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«Artikel 18» ist ein Artikel desselben Gesetzes; keine SR-Verknüpfung."
+  },
+  {
+    "ITEM": 21,
+    "ARTICLE_EID": "art_20",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«Artikel 2 Absatz 1» verweist auf eine interne Norm des aktuellen Gesetzes; kein anderes SR-Dokument im Satz."
+  },
+  {
+    "ITEM": 22,
+    "ARTICLE_EID": "art_21",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«Artikel 20 Buchstabe f» ist eine Bestimmung desselben Gesetzes; reine Selbstverweisung."
+  },
+  {
+    "ITEM": 23,
+    "ARTICLE_EID": "art_25",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "Obwohl materiell Art. 56 lit. g DBG (SR 642.11) gemeint ist, ist dieser Artikel im Snippet bereits als externer Bezug in ITEM 5 erfasst; hier handelt es sich um dieselbe Textstelle als artikel_reference und wird im Rahmen dieser Typologie als interner Verweis des aktuellen Dokuments behandelt."
+  },
+  {
+    "ITEM": 24,
+    "ARTICLE_EID": "art_26",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«Artikel 2» ohne Gesetzesangabe; interner Artikelverweis."
+  },
+  {
+    "ITEM": 25,
+    "ARTICLE_EID": "art_26",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«Artikel 2 Absatz 1» ist eine interne Norm; kein externer SR-Bezug."
+  },
+  {
+    "ITEM": 26,
+    "ARTICLE_EID": "art_26",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«(Art. 20)» ohne Gesetzesangabe bezieht sich auf Art. 20 desselben Gesetzes; Selbstverweisung."
+  },
+  {
+    "ITEM": 27,
+    "ARTICLE_EID": "art_26",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«Artikel 20 Buchstabe f» ist wiederum eine interne Bestimmung; kein anderes SR-Dokument genannt."
+  },
+  {
+    "ITEM": 28,
+    "ARTICLE_EID": "art_27",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«Artikel 2 Absatz 2» verweist auf eine Norm desselben Gesetzes; interne Strukturreferenz."
+  },
+  {
+    "ITEM": 29,
+    "ARTICLE_EID": "art_27",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "Auch hier «Artikel 2 Absatz 2» ohne externes Gesetz; Selbstverweisung."
+  },
+  {
+    "ITEM": 30,
+    "ARTICLE_EID": "art_28",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«Artikel 2 Absatz 1» ist ein Artikel desselben Gesetzes; keine SR-Nennung."
+  },
+  {
+    "ITEM": 31,
+    "ARTICLE_EID": "art_35",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "medium",
+    "reasoning": "«Artikel 98 Absatz 2 AIG» verweist auf ein anderes Gesetz (AIG, SR 142.20), aber es wird keine SR-Nummer genannt und kein direkter syntaktischer Bezug zu einem SR-Link im Snippet hergestellt; nach den Vorgaben sind solche isolierten Artikelverweise als Selbstreferenzen bzw. interne Strukturverweise zu behandeln."
+  }
+]

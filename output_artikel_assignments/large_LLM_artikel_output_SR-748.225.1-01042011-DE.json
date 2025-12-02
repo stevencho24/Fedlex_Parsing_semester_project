@@ -1,0 +1,84 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 748.0",
+    "assigned_articles": [
+      "Art. 63"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Formulierung \"gestützt auf Artikel 63 des Luftfahrtgesetzes ... SR 748.0 (LFG)\" verknüpft eindeutig Art. 63 mit dem Luftfahrtgesetz (SR 748.0)."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 210",
+    "assigned_articles": [
+      "Art. 48 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Satz \"... und auf Artikel 48 Absatz 2 des Zivilgesetzbuches SR 210\" ist Art. 48 Abs. 2 grammatikalisch direkt dem Zivilgesetzbuch (SR 210) zugeordnet."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_15",
+    "TARGET_SR": "SR 312.0",
+    "assigned_articles": [
+      "Art. 62",
+      "Art. 63",
+      "Art. 64",
+      "Art. 65",
+      "Art. 69",
+      "Art. 74",
+      "Art. 75",
+      "Art. 76",
+      "Art. 77",
+      "Art. 78",
+      "Art. 79",
+      "Art. 80",
+      "Art. 81",
+      "Art. 82",
+      "Art. 83",
+      "Art. 84",
+      "Art. 85"
+    ],
+    "confidence": "medium",
+    "reasoning": "Der Text nennt ausdrücklich \"Die Artikel 62–64, 65, 69 und 74–85 des Bundesstrafrechtspflegegesetzes\" und verweist im authorialNote darauf, dass heute die Strafprozessordnung (SR 312.0) gilt. Systematisch ist klar, dass die genannten Artikelbereiche in der heutigen Strafprozessordnung (SR 312.0) gemeint sind; die exakten Entsprechungen können sich durch Revisionen verschoben haben, daher mittlere Sicherheit."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_16",
+    "TARGET_SR": "SR 170.512.1",
+    "assigned_articles": [
+      "Art. 16 Abs. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "Im authorialNote steht: \"in Anwendung von Art. 16 Abs. 3 der Publikationsverordnung ... (SR 170.512.1)\"; der Artikel mit Absatz ist direkt dieser Verordnung zugeordnet."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_22",
+    "TARGET_SR": "SR 748.0",
+    "assigned_articles": [
+      "Art. 91 Abs. 1 Bst. i"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Passage \"Nach Artikel 91 Absatz 1 Buchstabe i LFG wird bestraft\" verweist klar auf Art. 91 Abs. 1 lit. i des Luftfahrtgesetzes (LFG = SR 748.0)."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_15",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Der Satz \"Die Artikel 62–64, 65, 69 und 74–85 des Bundesstrafrechtspflegegesetzes sind sinngemäss anwendbar.\" ist eine interne Wiederholung der bereits in ITEM 3 mit SR 312.0 verknüpften Verweisung. Da hier kein SR genannt wird und die Artikelangabe bereits in ITEM 3 verarbeitet wurde, handelt es sich um eine selbstreferenzielle bzw. bereits abgedeckte Stelle; keine neue SR-Zuordnung."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_22",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Die Aufzählung \"wer eine Pflicht nach den Artikeln 5 Absatz 1, 6 Absatz 2, 8 Absatz 3, 9 Absatz 1 und 17 verletzt\" enthält keine Nennung eines externen SR-Dokuments und bezieht sich syntaktisch auf Artikel innerhalb derselben Verordnung. Daher ist dies eine reine Selbstreferenz ohne externe SR-Zuordnung."
+  }
+]

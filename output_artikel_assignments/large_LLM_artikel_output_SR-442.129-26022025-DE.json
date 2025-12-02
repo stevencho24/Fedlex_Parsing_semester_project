@@ -1,0 +1,42 @@
+[
+  {
+    "Item": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 442.1",
+    "assigned_articles": [
+      "Art. 28 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet explicitly cites 'Artikel 28 Absatz 1 des Kulturförderungsgesetzes ... SR 442.1'; this directly links Art. 28 Abs. 1 to SR 442.1."
+  },
+  {
+    "Item": 2,
+    "ARTICLE_EID": "art_9",
+    "TARGET_SR": "SR 442.1",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "medium",
+    "reasoning": "The snippet only mentions that an EDI ordinance on the promotion concept for publishing subsidies is repealed and contains no article numbers or other syntactic link to specific provisions of SR 442.1; it is therefore treated as a general reference to the underlying act."
+  },
+  {
+    "Item": 3,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "The reference '(Art. 5 Abs. 1 und 4)' appears without any SR or acronym; by the rules this is a self-reference to Article 5 of the same ordinance, not to an external SR document."
+  },
+  {
+    "Item": 4,
+    "ARTICLE_EID": "art_6",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "The phrase 'Publikationen nach Artikel 5 Absatz 2' contains no SR or acronym and is syntactically isolated from any external citation; it therefore refers to Article 5 Abs. 2 of the same ordinance."
+  }
+]

@@ -1,0 +1,22 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 101",
+    "assigned_articles": [
+      "Art. 66 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet explicitly states 'gestützt auf Artikel 66 Absatz 1 der Bundesverfassung SR 101'; the article and paragraph are directly and syntactically linked to SR 101."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet refers to 'Artikel 3, 5‒14 und 16 der Interkantonalen Vereinbarung zur Harmonisierung von Ausbildungsbeiträgen'; no SR number or acronym is given, and the item_type is 'artikel_reference' without TARGET_SR, so these are treated as references to provisions of another instrument, not assignable to a specific SR in this context."
+  }
+]

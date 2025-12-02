@@ -1,0 +1,50 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 101",
+    "assigned_articles": [
+      "Art. 34ter",
+      "Art. 116bis",
+      "Art. 20 Übergangsbestimmungen"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet explicitly cites 'Artikel 34ter und 116bis der Bundesverfassung SR 101 sowie Artikel 20 der Übergangsbestimmungen der Bundesverfassung'; all three are grammatically linked to the Bundesverfassung (SR 101)."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 822.11",
+    "assigned_articles": [
+      "Art. 18 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "The text says 'nach Artikel 18 Absatz 2 des Arbeitsgesetzes SR 822.11'; the article reference and SR are in the same prepositional phrase, so Art. 18 Abs. 2 clearly belongs to SR 822.11."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": "SR 101",
+    "assigned_articles": [
+      "Art. 116bis"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet states 'gleichzeitig mit Artikel 116bis der Bundesverfassung SR 101'; Art. 116bis is directly attributed to the Bundesverfassung (SR 101)."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "This is an artikel_reference repeating 'Artikel 18 Absatz 2 des Arbeitsgesetzes' already captured and assigned to SR 822.11 in ITEM 2; as a self-reference catcher it does not create a new SR link."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "This artikel_reference repeats 'Artikel 116bis der Bundesverfassung' already linked to SR 101 in ITEM 3; it functions as an internal/self-reference and does not introduce a new SR assignment."
+  }
+]

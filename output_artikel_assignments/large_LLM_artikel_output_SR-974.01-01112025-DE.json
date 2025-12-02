@@ -1,0 +1,42 @@
+[
+  {
+    "Item": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 974.0",
+    "assigned_articles": [
+      "Art. 15"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet explicitly states 'gestützt auf Artikel 15 des Bundesgesetzes ... SR 974.0', directly linking Art. 15 to SR 974.0."
+  },
+  {
+    "Item": 2,
+    "ARTICLE_EID": "art_14",
+    "TARGET_SR": "SR 916.111.311.2",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "The reference is to the ordinance 'V vom 21. Dez. 1988 ... (SR 916.111.311.2)' without any article number attached to that SR; the article numbers mentioned (Art. 14, Art. 6 Abs. 1) relate to AS citations, not to SR 916.111.311.2."
+  },
+  {
+    "Item": 3,
+    "ARTICLE_EID": "art_23",
+    "TARGET_SR": "SR 172.056.11",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet says 'Siehe heute die V vom 11. Dez. 1995 ... (SR 172.056.11)' with no article number tied to that SR; the only article mention (Art. 71 Bst. b) is linked to an AS reference, not to SR 172.056.11."
+  },
+  {
+    "Item": 4,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 974.0",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "medium",
+    "reasoning": "The preamble acronym 'Gesetz' is defined for SR 974.0, and the snippet refers generically to 'dem Vollzug des Gesetzes' without specifying any article; this is a general reference to the underlying act as a whole."
+  }
+]

@@ -1,0 +1,59 @@
+[
+  {
+    "Item": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 531",
+    "assigned_articles": [
+      "Art. 7 Abs. 1",
+      "Art. 8 Abs. 2",
+      "Art. 57 Abs. 1",
+      "Art. 60 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Präambel nennt ausdrücklich: «gestützt auf die Artikel 7 Absatz 1, 8 Absatz 2, 57 Absatz 1 und 60 Absatz 2 des Landesversorgungsgesetzes … SR 531 (LVG)»; diese Artikel gehören daher klar zum LVG (SR 531)."
+  },
+  {
+    "Item": 2,
+    "ARTICLE_EID": "art_4_a",
+    "TARGET_SR": "SR 641.61",
+    "assigned_articles": [
+      "Art. 4 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Satz steht: «Wer im Sinne von Artikel 4 Absatz 1 des Mineralölsteuergesetzes … SR 641.61 …»; die Präposition «des» verbindet eindeutig «Artikel 4 Absatz 1» mit dem Mineralölsteuergesetz SR 641.61."
+  },
+  {
+    "Item": 3,
+    "ARTICLE_EID": "art_6",
+    "TARGET_SR": "SR 531",
+    "assigned_articles": [
+      "Art. 16 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Ausschnitt lautet: «… im Auftrag einer Pflichtlagerorganisation (Art. 16 Abs. 1 LVG) …»; LVG ist in der Präambel als SR 531 definiert, und die direkte Bezeichnung «Art. 16 Abs. 1 LVG» ordnet diesen Artikel eindeutig SR 531 zu."
+  },
+  {
+    "Item": 4,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "«Verpflichtungen nach Artikel 2 Absatz 3 Buchstabe b» verweist ohne Nennung eines Gesetzes oder einer SR-Nummer auf einen anderen Artikel derselben Verordnung; mangels externer SR-Referenz handelt es sich um eine reine Selbstreferenz."
+  },
+  {
+    "Item": 5,
+    "ARTICLE_EID": "art_4_a",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Der Text nennt «Artikel 4 Absatz 1 des Mineralölsteuergesetzes» ohne SR-Nummer; im Kontext der Verordnung ist dies ein Verweis auf ein externes Gesetz, aber dieser Artikelbezug ist bereits im SR_link_detection-Item 2 mit SR 641.61 erfasst. Hier liegt kein zusätzlicher, neu zuzuordnender SR-Link vor, sondern eine Wiederholung im Fliesstext."
+  },
+  {
+    "Item": 6,
+    "ARTICLE_EID": "art_9",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "«Lagerpflichtige nach Artikel 4a» verweist auf einen Artikel derselben Verordnung; es wird kein Gesetzesname oder SR-Zitat genannt, daher ist dies eindeutig eine interne Selbstreferenz ohne Bezug zu einem anderen SR."
+  }
+]

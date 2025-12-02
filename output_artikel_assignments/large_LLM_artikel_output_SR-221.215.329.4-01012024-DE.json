@@ -1,0 +1,72 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 220",
+    "assigned_articles": [
+      "Art. 360a"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet explicitly cites 'Artikel 360a des Obligationenrechts (OR) SR 220'; the article number is directly and uniquely linked to SR 220."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": "SR 192.12",
+    "assigned_articles": [
+      "Art. 2 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "The text refers to 'nach Artikel 2 Absatz 2 des Gaststaatgesetzes ... SR 192.12'; this clearly links Art. 2 Abs. 2 to SR 192.12."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": "SR 831.101",
+    "assigned_articles": [
+      "Art. 11"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet states 'nach den Ansätzen in Artikel 11 der Verordnung ... SR 831.101'; Art. 11 is explicitly tied to SR 831.101."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 220",
+    "assigned_articles": [
+      "Art. 360a"
+    ],
+    "confidence": "high",
+    "reasoning": "The phrase 'nach Artikel 360a OR' uses the preamble-defined acronym OR = SR 220; thus Art. 360a clearly belongs to SR 220."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "The reference 'nach Artikel 2 Absatz 2 des Gaststaatgesetzes ...' is already captured and linked to SR 192.12 in ITEM 2; here, as an artikel_reference without SR context, it functions as a cross-reference within the same article and does not introduce a new SR link."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_6",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "The mention 'Mindestlohn nach Artikel 5' has no external SR or acronym marker and clearly refers to Art. 5 of the same ordinance; per rules, this is a self-reference within the current document."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "The phrase 'nach den Ansätzen in Artikel 11 der Verordnung vom 31. Oktober 1947 über die Alters- und Hinterlassenenversicherung' is already linked to SR 831.101 with Art. 11 in ITEM 3; as an artikel_reference without explicit SR, this instance is treated as an internal cross-reference and not a new SR assignment."
+  }
+]

@@ -1,0 +1,379 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 784.10",
+    "assigned_articles": [
+      "Art. 13a Abs. 3",
+      "Art. 28 Abs. 2",
+      "Art. 28 Abs. 3",
+      "Art. 28 Abs. 4",
+      "Art. 28 Abs. 6",
+      "Art. 28e",
+      "Art. 48a Abs. 2",
+      "Art. 59 Abs. 3",
+      "Art. 62",
+      "Art. 64 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Präambel nennt ausdrücklich die Artikel 13a Absatz 3, 28 Absätze 2, 3, 4 und 6, 28e, 48a Absatz 2, 59 Absatz 3, 62 und 64 Absatz 2 des Fernmeldegesetzes (FMG, SR 784.10); diese sind direkt mit dem genannten SR verknüpft."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_17",
+    "TARGET_SR": "SR 235.1",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Snippet wird nur allgemein auf das Datenschutzgesetz vom 25. September 2020 (SR 235.1) verwiesen, ohne konkrete Artikelangabe; daher handelt es sich um eine generelle Verweisung auf das ganze Gesetz."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_24",
+    "TARGET_SR": "SR 431.03",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "Formulierung „nach dem Bundesgesetz ... SR 431.03 über die Unternehmens-Identifikationsnummer“ enthält keine Artikelnummer; es ist eine generelle Bezugnahme auf das UID-Gesetz insgesamt."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_26",
+    "TARGET_SR": "SR 510.625",
+    "assigned_articles": [
+      "Art. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "Das Snippet nennt ausdrücklich „nach Artikel 3 der Verordnung ... SR 510.625 über die geografischen Namen“; Art. 3 ist damit klar diesem SR zugeordnet."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_28",
+    "TARGET_SR": "SR 221.301",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "Es wird nur „nach dem Fusionsgesetz vom 3. Oktober 2003 SR 221.301“ erwähnt, ohne Artikelangabe; dies ist eine pauschale Verweisung auf das Fusionsgesetz als Ganzes."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_39",
+    "TARGET_SR": "SR 784.101.1",
+    "assigned_articles": [
+      "Art. 97",
+      "Art. 98",
+      "Art. 99",
+      "Art. 100",
+      "Art. 101",
+      "Art. 102",
+      "Art. 103"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Text nennt „Die Artikel 97–103 der Verordnung ... SR 784.101.1 über die Fernmeldedienste sind sinngemäss anwendbar.“; damit sind die Artikel 97 bis 103 dieses SR eindeutig betroffen."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_56",
+    "TARGET_SR": "SR 232.11",
+    "assigned_articles": [
+      "2. Titel"
+    ],
+    "confidence": "medium",
+    "reasoning": "Es wird auf „die Bestimmungen des 2. Titels des Markenschutzgesetzes ... SR 232.11“ verwiesen. Genannt ist kein einzelner Artikel, sondern ein ganzer Titel; daher wird der 2. Titel als betroffene Einheit angegeben."
+  },
+  {
+    "ITEM": 8,
+    "ARTICLE_EID": "art_16",
+    "TARGET_SR": "SR 784.10",
+    "assigned_articles": [
+      "Art. 13b"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet: „Im Übrigen ist Artikel 13b FMG ... anwendbar.“; FMG ist in der Präambel als SR 784.10 definiert, somit gehört Art. 13b zu SR 784.10."
+  },
+  {
+    "ITEM": 9,
+    "ARTICLE_EID": "art_22",
+    "TARGET_SR": "SR 784.10",
+    "assigned_articles": [
+      "Art. 40 Abs. 4"
+    ],
+    "confidence": "high",
+    "reasoning": "Text: „vorbehalten bleibt Artikel 40 Absatz 4 FMG.“; FMG = SR 784.10, daher klare Zuordnung zu Art. 40 Abs. 4 dieses Gesetzes."
+  },
+  {
+    "ITEM": 10,
+    "ARTICLE_EID": "art_32",
+    "TARGET_SR": "SR 784.10",
+    "assigned_articles": [
+      "Art. 28a Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Formulierung „(Art. 28a Abs. 2 FMG)“ verweist direkt auf Art. 28a Abs. 2 des FMG (SR 784.10)."
+  },
+  {
+    "ITEM": 11,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": "self",
+    "assigned_articles": [
+      "Art. 32 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "„Beauftragte (Art. 32 Abs. 1)“ ist eine interne Verweisung innerhalb derselben Verordnung; kein anderes SR wird genannt, daher Selbstreferenz auf Art. 32 Abs. 1 dieses Erlasses."
+  },
+  {
+    "ITEM": 12,
+    "ARTICLE_EID": "art_10",
+    "TARGET_SR": "self",
+    "assigned_articles": [
+      "Art. 14"
+    ],
+    "confidence": "high",
+    "reasoning": "„Einrichtung der Streitbeilegungsdienste (Art. 14);“ verweist ohne SR-Angabe auf einen Artikel derselben Verordnung; somit interne Selbstreferenz auf Art. 14."
+  },
+  {
+    "ITEM": 13,
+    "ARTICLE_EID": "art_10",
+    "TARGET_SR": "self",
+    "assigned_articles": [
+      "Art. 51 Bst. b"
+    ],
+    "confidence": "high",
+    "reasoning": "„Artikel 51 Buchstabe b bleibt vorbehalten.“ nennt keinen externen Erlass; daher handelt es sich um eine Selbstreferenz auf Art. 51 Buchstabe b der vorliegenden Verordnung."
+  },
+  {
+    "ITEM": 14,
+    "ARTICLE_EID": "art_13",
+    "TARGET_SR": "self",
+    "assigned_articles": [
+      "Art. 11 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "„Artikel 11 Absatz 2 bleibt vorbehalten.“ ohne SR-Angabe ist eine interne Verweisung auf Art. 11 Abs. 2 derselben Verordnung."
+  },
+  {
+    "ITEM": 15,
+    "ARTICLE_EID": "art_15_a",
+    "TARGET_SR": "self",
+    "assigned_articles": [
+      "Art. 15"
+    ],
+    "confidence": "high",
+    "reasoning": "„Der betreffende Domain-Name ist nach Artikel 15 blockiert.“ verweist auf Art. 15 der gleichen Verordnung; kein externes SR genannt."
+  },
+  {
+    "ITEM": 16,
+    "ARTICLE_EID": "art_15_a",
+    "TARGET_SR": "self",
+    "assigned_articles": [
+      "Art. 15 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "„Handlungen nach Artikel 15 Absatz 1“ ist eine interne Bezugnahme auf Art. 15 Abs. 1 derselben Verordnung."
+  },
+  {
+    "ITEM": 17,
+    "ARTICLE_EID": "art_15_a",
+    "TARGET_SR": "self",
+    "assigned_articles": [
+      "Art. 15 Abs. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "„von einer Stelle nach Artikel 15 Absatz 3“ verweist intern auf Art. 15 Abs. 3 der Verordnung."
+  },
+  {
+    "ITEM": 18,
+    "ARTICLE_EID": "art_15_c",
+    "TARGET_SR": "self",
+    "assigned_articles": [
+      "Art. 15b Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "„innerhalb der in Artikel 15b Absatz 2 genannten Frist“ ist eine Selbstreferenz auf Art. 15b Abs. 2 desselben Erlasses."
+  },
+  {
+    "ITEM": 19,
+    "ARTICLE_EID": "art_15_d",
+    "TARGET_SR": "self",
+    "assigned_articles": [
+      "Art. 15 Abs. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "„auf Antrag einer Stelle nach Artikel 15 Absatz 3“ verweist intern auf Art. 15 Abs. 3 der Verordnung."
+  },
+  {
+    "ITEM": 20,
+    "ARTICLE_EID": "art_15_e",
+    "TARGET_SR": "self",
+    "assigned_articles": [
+      "Art. 15 Abs. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "„an die anerkannten Stellen nach Artikel 15 Absatz 3“ ist eine interne Verweisung auf Art. 15 Abs. 3."
+  },
+  {
+    "ITEM": 21,
+    "ARTICLE_EID": "art_17",
+    "TARGET_SR": "self",
+    "assigned_articles": [
+      "Art. 40 Abs. 1",
+      "Art. 40 Abs. 3",
+      "Art. 40 Abs. 4",
+      "Art. 41"
+    ],
+    "confidence": "high",
+    "reasoning": "„Betreffend die Aufsicht ... sind die Artikel 40 Absätze 1, 3 und 4 sowie Artikel 41 sinngemäss anwendbar.“; ohne SR-Angabe handelt es sich um interne Artikel derselben Verordnung."
+  },
+  {
+    "ITEM": 22,
+    "ARTICLE_EID": "art_26",
+    "TARGET_SR": "SR 510.625",
+    "assigned_articles": [
+      "Art. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "„nach Artikel 3 der Verordnung vom 21. Mai 2008 über die geografischen Namen“ ist derselbe Wortlaut wie bei ITEM 4; dies ist eine externe Verweisung auf Art. 3 SR 510.625, nicht auf einen internen Artikel."
+  },
+  {
+    "ITEM": 23,
+    "ARTICLE_EID": "art_27",
+    "TARGET_SR": "self",
+    "assigned_articles": [
+      "Art. 56"
+    ],
+    "confidence": "high",
+    "reasoning": "„Domain-Namens, der mittels Namenszuteilungsmandat nach Artikel 56 zugeteilt werden muss“ verweist ohne SR-Angabe auf Art. 56 derselben Verordnung."
+  },
+  {
+    "ITEM": 24,
+    "ARTICLE_EID": "art_30",
+    "TARGET_SR": "self",
+    "assigned_articles": [
+      "Art. 31 Abs. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "„die Frist nach Artikel 31 Absatz 3 beträgt 90 Tage“ ist eine interne Verweisung auf Art. 31 Abs. 3."
+  },
+  {
+    "ITEM": 25,
+    "ARTICLE_EID": "art_38",
+    "TARGET_SR": "self",
+    "assigned_articles": [
+      "Art. 32"
+    ],
+    "confidence": "high",
+    "reasoning": "„nach Artikel 32 vorgenommen“ bezieht sich auf einen Artikel derselben Verordnung; kein externes SR genannt."
+  },
+  {
+    "ITEM": 26,
+    "ARTICLE_EID": "art_39",
+    "TARGET_SR": "SR 784.101.1",
+    "assigned_articles": [
+      "Art. 97",
+      "Art. 98",
+      "Art. 99",
+      "Art. 100",
+      "Art. 101",
+      "Art. 102",
+      "Art. 103"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Satz „Die Artikel 97–103 der Verordnung vom 9. März 2007 über die Fernmeldedienste sind sinngemäss anwendbar.“ verweist klar auf die Artikel 97 bis 103 der FDV (SR 784.101.1); dies ist eine externe Verweisung, nicht selbstreferenziell."
+  },
+  {
+    "ITEM": 27,
+    "ARTICLE_EID": "art_45",
+    "TARGET_SR": "self",
+    "assigned_articles": [
+      "Art. 14"
+    ],
+    "confidence": "high",
+    "reasoning": "„richtet einen Streitbeilegungsdienst nach Artikel 14 ein“ ist eine interne Verweisung auf Art. 14 derselben Verordnung."
+  },
+  {
+    "ITEM": 28,
+    "ARTICLE_EID": "art_47",
+    "TARGET_SR": "self",
+    "assigned_articles": [
+      "Art. 25"
+    ],
+    "confidence": "high",
+    "reasoning": "„wenn ... die allgemeinen Zuteilungsvoraussetzungen nach Artikel 25 erfüllt“ verweist intern auf Art. 25."
+  },
+  {
+    "ITEM": 29,
+    "ARTICLE_EID": "art_53",
+    "TARGET_SR": "self",
+    "assigned_articles": [
+      "Art. 25"
+    ],
+    "confidence": "high",
+    "reasoning": "„neben den allgemeinen Zuteilungsvoraussetzungen nach Artikel 25“ ist eine Selbstreferenz auf Art. 25 der Verordnung."
+  },
+  {
+    "ITEM": 30,
+    "ARTICLE_EID": "art_53",
+    "TARGET_SR": "self",
+    "assigned_articles": [
+      "Art. 56"
+    ],
+    "confidence": "high",
+    "reasoning": "„vorbehalten bleiben die Bestimmungen zum Namenszuteilungsmandat (Art. 56).“ verweist intern auf Art. 56."
+  },
+  {
+    "ITEM": 31,
+    "ARTICLE_EID": "art_53",
+    "TARGET_SR": "self",
+    "assigned_articles": [
+      "Art. 26"
+    ],
+    "confidence": "high",
+    "reasoning": "„Verwechslung mit ... einer reservierten Bezeichnung nach Artikel 26“ ist eine interne Verweisung auf Art. 26."
+  },
+  {
+    "ITEM": 32,
+    "ARTICLE_EID": "art_56",
+    "TARGET_SR": "self",
+    "assigned_articles": [
+      "Art. 40",
+      "Art. 41",
+      "Art. 42",
+      "Art. 43"
+    ],
+    "confidence": "high",
+    "reasoning": "„zur Aufsicht ... (Art. 40–43) sind ... anwendbar“; ohne SR-Angabe handelt es sich um interne Artikel 40 bis 43 der Verordnung."
+  },
+  {
+    "ITEM": 33,
+    "ARTICLE_EID": "art_56",
+    "TARGET_SR": "self",
+    "assigned_articles": [
+      "Art. 41"
+    ],
+    "confidence": "high",
+    "reasoning": "„Die Auflösung eines Namenszuteilungsmandats (Art. 41)“ verweist intern auf Art. 41."
+  },
+  {
+    "ITEM": 34,
+    "ARTICLE_EID": "art_57",
+    "TARGET_SR": "self",
+    "assigned_articles": [
+      "Art. 53 Abs. 2 Bst. b"
+    ],
+    "confidence": "high",
+    "reasoning": "„vorbehalten bleibt die summarische Prüfung nach Artikel 53 Absatz 2 Buchstabe b“ ist eine interne Verweisung auf Art. 53 Abs. 2 lit. b."
+  },
+  {
+    "ITEM": 35,
+    "ARTICLE_EID": "art_61",
+    "TARGET_SR": "self",
+    "assigned_articles": [
+      "Art. 53 Abs. 1bis"
+    ],
+    "confidence": "high",
+    "reasoning": "„Domain-Namen ... nach Artikel 53 Absatz 1bis beantragen“ verweist intern auf Art. 53 Abs. 1bis derselben Verordnung."
+  }
+]

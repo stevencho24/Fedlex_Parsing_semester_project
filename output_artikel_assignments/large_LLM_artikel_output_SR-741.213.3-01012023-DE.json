@@ -1,0 +1,34 @@
+[
+  {
+    "Item": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 741.01",
+    "assigned_articles": [
+      "Art. 106 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet explicitly cites 'Artikel 106 Absatz 1 des Strassenverkehrsgesetzes ... SR 741.01 (SVG)'; this article reference is directly and syntactically linked to SR 741.01."
+  },
+  {
+    "Item": 2,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 741.21",
+    "assigned_articles": [
+      "Art. 108",
+      "Art. 115"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet states 'sowie die Artikel 108 und 115 der Signalisationsverordnung ... SR 741.21 (SSV)'; both article numbers are explicitly and directly attributed to SR 741.21."
+  },
+  {
+    "Item": 3,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 741.21",
+    "assigned_articles": [
+      "Art. 22a",
+      "Art. 22b"
+    ],
+    "confidence": "high",
+    "reasoning": "The sentence 'Tempo-30-Zonen (Art. 22a SSV) und Begegnungszonen (Art. 22b SSV)' explicitly links Art. 22a and Art. 22b to the SSV, which is SR 741.21, via direct marking with the acronym."
+  }
+]

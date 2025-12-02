@@ -1,0 +1,103 @@
+[
+  {
+    "Item": 1,
+    "TARGET_SR": "SR 451",
+    "assigned_articles": [
+      "Art. 5"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet explicitly cites 'Artikel 5 des Bundesgesetzes ... SR 451 ... (NHG)'; Art. 5 is directly linked to SR 451."
+  },
+  {
+    "Item": 2,
+    "TARGET_SR": "SR 170.512",
+    "assigned_articles": [
+      "Art. 5 Abs. 1 Bst. c"
+    ],
+    "confidence": "high",
+    "reasoning": "The text states '(Art. 5 Abs. 1 Bst. c des Publikationsgesetzes ... SR 170.512)'; this article reference is syntactically tied to SR 170.512."
+  },
+  {
+    "Item": 3,
+    "TARGET_SR": "SR 700",
+    "assigned_articles": [
+      "Art. 6",
+      "Art. 7",
+      "Art. 8",
+      "Art. 9",
+      "Art. 10",
+      "Art. 11",
+      "Art. 12"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet refers to 'den Artikeln 6–12 des Raumplanungsgesetzes ... SR 700 (RPG)'; the range 6–12 is explicitly attributed to SR 700, so all articles 6 through 12 are included."
+  },
+  {
+    "Item": 4,
+    "TARGET_SR": "SR 451.1",
+    "assigned_articles": [
+      "Art. 4",
+      "Art. 5",
+      "Art. 6",
+      "Art. 7",
+      "Art. 8",
+      "Art. 9",
+      "Art. 10",
+      "Art. 11",
+      "Art. 12",
+      "Art. 12a"
+    ],
+    "confidence": "high",
+    "reasoning": "The sentence states 'nach den Artikeln 4–12a der Verordnung ... SR 451.1'; the range 4–12a is directly linked to SR 451.1, so all articles 4 through 12 and 12a are assigned."
+  },
+  {
+    "Item": 5,
+    "TARGET_SR": "SR 451",
+    "assigned_articles": [
+      "Art. 5 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet mentions 'nach Artikel 5 Absatz 1 NHG'; NHG is mapped in the preamble to SR 451, so Art. 5 Abs. 1 belongs to SR 451."
+  },
+  {
+    "Item": 6,
+    "TARGET_SR": "SR 451",
+    "assigned_articles": [
+      "Art. 5 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "The text refers to 'Überprüfung und Bereinigung des ISOS im Sinne von Artikel 5 Absatz 2 NHG'; NHG corresponds to SR 451, so Art. 5 Abs. 2 is assigned to SR 451."
+  },
+  {
+    "Item": 7,
+    "TARGET_SR": "SR 451",
+    "assigned_articles": [
+      "Art. 13",
+      "Art. 14",
+      "Art. 14a"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet states 'richten sich nach den Artikeln 13–14a NHG'; NHG is SR 451, and the range 13–14a clearly belongs to that act, so Arts. 13, 14, and 14a are assigned."
+  },
+  {
+    "Item": 8,
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Artikel_reference item without an SR in the snippet; 'Art. 5 Abs. 1 Bst. c des Publikationsgesetzes' is already captured and linked to SR 170.512 in Item 2. This occurrence is a duplicate contextual mention, so no new SR link is created here."
+  },
+  {
+    "Item": 9,
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Artikel_reference item; 'Artikeln 6–12 des Raumplanungsgesetzes ... (RPG)' is already linked to SR 700 in Item 3. This is an internal duplicate reference, so no separate SR assignment is made."
+  },
+  {
+    "Item": 10,
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Artikel_reference item; 'Artikeln 14–20 RPG' refers to articles of the same external act (RPG/SR 700) but there is no explicit SR link in this snippet and this range is not tied to a TARGET_SR elsewhere in the input. Per rules, ambiguous or unlinked article mentions default to self-reference; thus no outgoing SR assignment is created."
+  }
+]

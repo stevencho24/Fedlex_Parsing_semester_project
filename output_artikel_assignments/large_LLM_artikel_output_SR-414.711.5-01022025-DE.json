@@ -1,0 +1,147 @@
+[
+  {
+    "Item": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 414.20",
+    "assigned_articles": [
+      "Art. 78 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet explicitly cites 'Artikel 78 Absatz 2 des Hochschulförderungs- und -koordinationsgesetzes ... SR 414.20'; this article reference is syntactically and semantically linked to SR 414.20."
+  },
+  {
+    "Item": 2,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 414.201",
+    "assigned_articles": [
+      "Art. 60 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet explicitly cites 'Artikel 60 Absatz 2 der Verordnung ... SR 414.201'; this article reference is directly tied to SR 414.201."
+  },
+  {
+    "Item": 3,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 2 Abs. 1",
+      "Art. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "This is a self-reference within the same document: 'Art. 2 Abs. 1' and 'Art. 3' are mentioned without any external SR or acronym; thus they refer to internal articles of SR 414.711.5."
+  },
+  {
+    "Item": 4,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 13"
+    ],
+    "confidence": "medium",
+    "reasoning": "The snippet refers to 'Artikel 13 des Reglements der Erziehungsdirektorenkonferenz ...' without an SR number; this is a citation to another (cantonal/EDK) regulation, not to a TARGET_SR in the data. It is therefore treated as an external reference without assignable SR in this context."
+  },
+  {
+    "Item": 5,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 2 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Standalone 'Art. 2 Abs. 2' with no SR or acronym; by the rules this is an internal cross-reference within the same document."
+  },
+  {
+    "Item": 6,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "The '(Art. 3)' appears without any SR or external acronym; it is an internal article reference within SR 414.711.5."
+  },
+  {
+    "Item": 7,
+    "ARTICLE_EID": "art_1_a",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 2 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Again 'Art. 2 Abs. 2' is mentioned in isolation, indicating a self-reference to another article of the same ordinance."
+  },
+  {
+    "Item": 8,
+    "ARTICLE_EID": "art_1_a",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "The '(Art. 3)' is not syntactically linked to any SR; it is an internal reference to article 3 of the current document."
+  },
+  {
+    "Item": 9,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 1 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "The phrase 'nach Artikel 1 Absatz 1 Buchstabe a' clearly refers to article 1 of the same ordinance; no external SR is present."
+  },
+  {
+    "Item": 10,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 1 Abs. 3",
+      "Art. 1a"
+    ],
+    "confidence": "high",
+    "reasoning": "Both 'Art. 1 Abs. 3' and 'Art. 1a' are cited without any SR or acronym; they are internal cross-references within SR 414.711.5."
+  },
+  {
+    "Item": 11,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 1 Abs. 1",
+      "Art. 1 Abs. 3",
+      "Art. 1a"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet mentions 'Artikel 1 Absätze 1 und 3 und Artikel 1a' with no SR; these are internal references to other provisions of the same ordinance."
+  },
+  {
+    "Item": 12,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 61 V-HFKG"
+    ],
+    "confidence": "medium",
+    "reasoning": "This cites 'Artikel 61 V-HFKG' (the ordinance SR 414.201) but without an explicit SR number in the snippet. Under the given rules and available data, it is treated as an external reference without assigning it to a TARGET_SR item here."
+  },
+  {
+    "Item": 13,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 1 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "The phrase 'Artikel 1 Absatz 1 Buchstabe a' is an internal reference to article 1 of the same ordinance; no SR is mentioned."
+  },
+  {
+    "Item": 14,
+    "ARTICLE_EID": "art_9",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 3",
+      "Art. 1 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet contrasts 'in Abweichung von Artikel 3' and 'Diploms nach Artikel 1 Absatz 2'; both are internal references within the same document, with no external SR context."
+  }
+]

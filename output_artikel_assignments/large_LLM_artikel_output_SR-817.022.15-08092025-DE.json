@@ -1,0 +1,44 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 817.02",
+    "assigned_articles": [
+      "Art. 10 Abs. 4 Bst. e",
+      "Art. 81 Abs. 3",
+      "Art. 95 Abs. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Satz nennt ausdrücklich: «Artikel 10 Absatz 4 Buchstabe e, 81 Absatz 3 und 95 Absatz 3 der Lebensmittel- und Gebrauchsgegenständeverordnung … SR 817.02 (LGV)»; diese Artikel sind direkt und syntaktisch der LGV (SR 817.02) zugeordnet."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_1_a",
+    "TARGET_SR": "SR 817.02",
+    "assigned_articles": [
+      "Art. 2 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Snippet steht: «… gelten nicht als Höchstwerte nach Artikel 2 Absatz 2 LGV.»; das Akronym LGV ist im Vorspann als SR 817.02 definiert, daher bezieht sich «Artikel 2 Absatz 2 LGV» auf Art. 2 Abs. 2 der SR 817.02."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Interne Verweisung innerhalb der Verordnung (Art. 2 Abs. 5 der Verordnung (Euratom) 2016/52), kein Bezug zu einem SR-Dokument"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Referenz lautet «… nach Artikel 2 Absatz 5 der Verordnung (Euratom) 2016/52;» und betrifft eine EU-Verordnung, nicht ein schweizerisches SR-Dokument; es ist daher keine SR-Zuordnung vorzunehmen."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_8_a",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Interne Verweisung auf Art. 5a und 5b derselben Verordnung"
+    ],
+    "confidence": "high",
+    "reasoning": "«Die nach den Artikeln 5a und 5b zu treffenden Massnahmen …» enthält keinen SR-Hinweis; syntaktisch handelt es sich um eine Selbstverweisung auf interne Artikel der gleichen Verordnung, nicht auf ein externes SR."
+  }
+]

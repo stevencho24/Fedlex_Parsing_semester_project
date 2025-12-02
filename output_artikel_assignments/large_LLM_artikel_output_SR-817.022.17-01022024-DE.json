@@ -1,0 +1,427 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 817.02",
+    "assigned_articles": [
+      "Art. 14 Abs. 1",
+      "Art. 36 Abs. 3",
+      "Art. 36 Abs. 4"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Satz nennt ausdrücklich «Artikel 14 Absatz 1 sowie 36 Absätze 3 und 4» der Lebensmittel- und Gebrauchsgegenständeverordnung (LGV, SR 817.02); direkte Zuordnung dieser Artikel zur genannten SR."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_12",
+    "TARGET_SR": "SR 817.022.16",
+    "assigned_articles": [
+      "Art. 16 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "Formulierung «in Abweichung von Artikel 16 Absatz 1 der Verordnung ... SR 817.022.16» verknüpft Art. 16 Abs. 1 eindeutig mit der LIV (SR 817.022.16)."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_16",
+    "TARGET_SR": "SR 817.022.16",
+    "assigned_articles": [
+      "Art. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "«Zusätzlich zu den Angaben nach Artikel 3 LIV SR 817.022.16»; Art. 3 wird direkt mit der LIV (SR 817.022.16) verbunden."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_22",
+    "TARGET_SR": "SR 817.022.12",
+    "assigned_articles": [
+      "Anhang 3"
+    ],
+    "confidence": "high",
+    "reasoning": "Es wird ausdrücklich auf «Anhang 3 der Verordnung ... SR 817.022.12 über Getränke» verwiesen; damit ist der Anhang 3 dieser SR gemeint."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_37",
+    "TARGET_SR": "SR 817.022.16",
+    "assigned_articles": [
+      "Art. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "«Zusätzlich zu den Angaben nach Artikel 3 LIV SR 817.022.16 sind anzugeben»; Art. 3 gehört zur LIV (SR 817.022.16)."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_49",
+    "TARGET_SR": "SR 817.022.16",
+    "assigned_articles": [
+      "Art. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "«Zusätzlich zu den Angaben nach Artikel 3 LIV SR 817.022.16 ...»; Art. 3 ist klar der LIV (SR 817.022.16) zugeordnet. Die weiteren Artikel 39, 41 und 43 sind interne Verweise der vorliegenden Verordnung, nicht der LIV."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_51",
+    "TARGET_SR": "SR 817.022.2",
+    "assigned_articles": [
+      "keine spezifischen Artikel – allgemeiner Verweis auf die Verordnung"
+    ],
+    "confidence": "medium",
+    "reasoning": "Es heisst nur «nach der Verordnung des EDI ... SR 817.022.2 über neuartige Lebensmittel zulässig» ohne Artikel- oder Anhangsangabe; daher allgemeiner Dokumentverweis."
+  },
+  {
+    "ITEM": 8,
+    "ARTICLE_EID": "art_54",
+    "TARGET_SR": "SR 817.022.16",
+    "assigned_articles": [
+      "Art. 3",
+      "Art. 15 Abs. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet enthält «Zusätzlich zu den Angaben nach Artikel 3 LIV SR 817.022.16» und im weiteren Kontext «In Abweichung von Artikel 15 Absatz 3 LIV»; beide Artikel gehören zur LIV (SR 817.022.16)."
+  },
+  {
+    "ITEM": 9,
+    "ARTICLE_EID": "art_105",
+    "TARGET_SR": "SR 817.022.12",
+    "assigned_articles": [
+      "Titel 6 Kapitel 3",
+      "Titel 6 Kapitel 7"
+    ],
+    "confidence": "high",
+    "reasoning": "Formulierung «den Anforderungen von Titel 6 Kapitel 3 und 7 der Verordnung ... SR 817.022.12 über Getränke genügen»; damit sind diese Titel/Kapitel der Getränkeverordnung gemeint."
+  },
+  {
+    "ITEM": 10,
+    "ARTICLE_EID": "art_106",
+    "TARGET_SR": "SR 817.022.16",
+    "assigned_articles": [
+      "Art. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "«Zusätzlich zu den Angaben nach Artikel 3 LIV SR 817.022.16 sind anzugeben»; Art. 3 ist klar der LIV (SR 817.022.16) zugeordnet."
+  },
+  {
+    "ITEM": 11,
+    "ARTICLE_EID": "art_122",
+    "TARGET_SR": "SR 817.022.16",
+    "assigned_articles": [
+      "Art. 6"
+    ],
+    "confidence": "high",
+    "reasoning": "«Die Sachbezeichnung richtet sich nach Artikel 6 LIV SR 817.022.16.»; Art. 6 gehört zur LIV (SR 817.022.16)."
+  },
+  {
+    "ITEM": 12,
+    "ARTICLE_EID": "art_12",
+    "TARGET_SR": "SR 817.02",
+    "assigned_articles": [
+      "keine spezifischen Artikel – allgemeiner Verweis auf die Verordnung"
+    ],
+    "confidence": "medium",
+    "reasoning": "Der Text nennt «Verordnung des EDI ... betreffend die Information über Lebensmittel (LIV)»; diese LIV ist SR 817.022.16, während TARGET_SR hier SR 817.02 (LGV) ist. Es wird kein Artikel der LGV genannt; der LGV-Verweis stammt nur aus der Preambel-Akronym-Zuordnung (EDI). Daher nur allgemeiner, eher formaler Verweis ohne konkrete Artikel."
+  },
+  {
+    "ITEM": 13,
+    "ARTICLE_EID": "art_22",
+    "TARGET_SR": "SR 817.02",
+    "assigned_articles": [
+      "Anhang 3"
+    ],
+    "confidence": "medium",
+    "reasoning": "Es wird «nach Anhang 3 der Verordnung des EDI ... über Getränke» verwiesen. Die Getränkeverordnung ist SR 817.022.12, aber TARGET_SR ist SR 817.02 (LGV) aufgrund des EDI-Akronyms. Da der einzige konkret genannte Normteil «Anhang 3» ist, wird dieser als zugeordnet angenommen, obwohl die SR-Zuordnung hier systembedingt leicht verschoben ist."
+  },
+  {
+    "ITEM": 14,
+    "ARTICLE_EID": "art_51",
+    "TARGET_SR": "SR 817.02",
+    "assigned_articles": [
+      "keine spezifischen Artikel – allgemeiner Verweis auf die Verordnung"
+    ],
+    "confidence": "medium",
+    "reasoning": "Der Text spricht von «der Verordnung des EDI ... über neuartige Lebensmittel» (sachlich SR 817.022.2), ohne Artikelangabe. TARGET_SR ist hier SR 817.02 wegen der EDI-Preambel-Zuordnung; mangels Artikelbezug nur allgemeiner Verweis."
+  },
+  {
+    "ITEM": 15,
+    "ARTICLE_EID": "art_105",
+    "TARGET_SR": "SR 817.02",
+    "assigned_articles": [
+      "Titel 6 Kapitel 3",
+      "Titel 6 Kapitel 7"
+    ],
+    "confidence": "medium",
+    "reasoning": "Der Text nennt «Titel 6 Kapitel 3 und 7 der Verordnung des EDI ... über Getränke» (sachlich SR 817.022.12). TARGET_SR ist jedoch SR 817.02 aufgrund des EDI-Akronyms. Die einzigen konkret genannten Normteile sind diese Titel/Kapitel, daher werden sie dem TARGET_SR zugeordnet, obwohl die SR-Zuordnung technisch verschoben ist."
+  },
+  {
+    "ITEM": 16,
+    "ARTICLE_EID": "art_124",
+    "TARGET_SR": "SR 817.02",
+    "assigned_articles": [
+      "keine spezifischen Artikel – allgemeiner Verweis auf mehrere Verordnungen"
+    ],
+    "confidence": "high",
+    "reasoning": "Es werden mehrere EDI-Verordnungen (über Zuckerarten, Suppen, Speiseöl usw.) nur mit ihren Titeln genannt, ohne Artikel-, Titel- oder Anhangsangaben; daher nur generelle Dokumentverweise."
+  },
+  {
+    "ITEM": 17,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "«... nach Artikel 1.» ist ein interner Verweis innerhalb derselben Verordnung (kein SR genannt); daher Selbstreferenz auf Art. 1 der vorliegenden Verordnung."
+  },
+  {
+    "ITEM": 18,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "«... für Lebensmittel nach Artikel 1 ...»; wiederum interner Verweis auf Art. 1 derselben Verordnung."
+  },
+  {
+    "ITEM": 19,
+    "ARTICLE_EID": "art_8",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 6 Abs. 5"
+    ],
+    "confidence": "high",
+    "reasoning": "«... mit einer Bezeichnung nach Artikel 6 Absatz 5 gekennzeichnet ...»; kein externes SR, daher Selbstreferenz auf Art. 6 Abs. 5 der aktuellen Verordnung."
+  },
+  {
+    "ITEM": 20,
+    "ARTICLE_EID": "art_10",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 6 Abs. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "«... gelten die Anforderungen nach Artikel 6 Absatz 3 und nach Anhang 2 dieser Verordnung.»; Art. 6 Abs. 3 ist interner Artikel, Anhang 2 ist ebenfalls intern. Es liegt keine SR-Verweisung vor."
+  },
+  {
+    "ITEM": 21,
+    "ARTICLE_EID": "art_11",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 9",
+      "Art. 10 Abs. 4"
+    ],
+    "confidence": "high",
+    "reasoning": "«... müssen die in den Artikeln 9 und 10 Absatz 4 aufgeführten Bezeichnungen verwendet werden.»; beides sind interne Artikel derselben Verordnung."
+  },
+  {
+    "ITEM": 22,
+    "ARTICLE_EID": "art_12",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 11 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "«Bei Mischungen nach Artikel 11 Absatz 2 ...»; interner Verweis auf Art. 11 Abs. 2 derselben Verordnung."
+  },
+  {
+    "ITEM": 23,
+    "ARTICLE_EID": "art_12",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 11 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "«... als nach Artikel 11 Absatz 2 ...»; wiederum interner Verweis auf Art. 11 Abs. 2; keine SR-Nennung."
+  },
+  {
+    "ITEM": 24,
+    "ARTICLE_EID": "art_15",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 14 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "«... entsprechend dem jeweiligen Fettgehalt nach Artikel 14 Absatz 1 zu verwenden.»; interner Verweis auf Art. 14 Abs. 1."
+  },
+  {
+    "ITEM": 25,
+    "ARTICLE_EID": "art_15",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 14 Abs. 1 Bst. d"
+    ],
+    "confidence": "high",
+    "reasoning": "«... nach Artikel 14 Absatz 1 Buchstabe d ...»; interner Verweis auf Art. 14 Abs. 1 lit. d."
+  },
+  {
+    "ITEM": 26,
+    "ARTICLE_EID": "art_15",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 14 Abs. 1 Bst. b",
+      "Art. 14 Abs. 1 Bst. c"
+    ],
+    "confidence": "high",
+    "reasoning": "«... nach Artikel 14 Absatz 1 Buchstabe b ... sowie ... Buchstabe c ...»; beides interne Bestimmungen derselben Verordnung."
+  },
+  {
+    "ITEM": 27,
+    "ARTICLE_EID": "art_16",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 14 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "«Erzeugnisse nach Artikel 14 Absatz 1 ...»; interner Verweis auf Art. 14 Abs. 1."
+  },
+  {
+    "ITEM": 28,
+    "ARTICLE_EID": "art_18",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 20"
+    ],
+    "confidence": "high",
+    "reasoning": "«Ausgenommen sind Erzeugnisse nach Artikel 20.»; interner Verweis auf Art. 20 derselben Verordnung."
+  },
+  {
+    "ITEM": 29,
+    "ARTICLE_EID": "art_20",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 17",
+      "Art. 18",
+      "Art. 19"
+    ],
+    "confidence": "high",
+    "reasoning": "«... gelten die Vorschriften ... nach den Artikeln 17–19.»; dies ist eine interne Artikelspanne 17 bis 19 der vorliegenden Verordnung."
+  },
+  {
+    "ITEM": 30,
+    "ARTICLE_EID": "art_47",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 39",
+      "Art. 41",
+      "Art. 43"
+    ],
+    "confidence": "high",
+    "reasoning": "«... bei Lebensmitteln nach den Artikeln 39, 41 und 43 ...»; interne Verweise auf diese Artikel."
+  },
+  {
+    "ITEM": 31,
+    "ARTICLE_EID": "art_48",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 39",
+      "Art. 41",
+      "Art. 43"
+    ],
+    "confidence": "high",
+    "reasoning": "«... die zur Herstellung der Lebensmittel nach den Artikeln 39, 41 und 43 bestimmt sind ...»; wiederum interne Verweise."
+  },
+  {
+    "ITEM": 32,
+    "ARTICLE_EID": "art_52",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 51 Abs. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "«die Zutaten nach Artikel 51 Absatz 3»; interner Verweis auf Art. 51 Abs. 3."
+  },
+  {
+    "ITEM": 33,
+    "ARTICLE_EID": "art_52",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 51 Abs. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "«... nach Abzug des Gewichts der Zutaten nach Artikel 51 Absatz 3 ...»; erneut interner Verweis auf Art. 51 Abs. 3."
+  },
+  {
+    "ITEM": 34,
+    "ARTICLE_EID": "art_53",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 51 Abs. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "«... auf Zutaten nach Artikel 51 Absatz 3 ...»; interner Verweis auf Art. 51 Abs. 3."
+  },
+  {
+    "ITEM": 35,
+    "ARTICLE_EID": "art_69",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 67 Abs. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "«Zugaben nach Artikel 67 Absatz 3 ...»; interner Verweis auf Art. 67 Abs. 3."
+  },
+  {
+    "ITEM": 36,
+    "ARTICLE_EID": "art_72",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 71 Abs. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "«die Zutaten nach Artikel 71 Absatz 3»; interner Verweis auf Art. 71 Abs. 3."
+  },
+  {
+    "ITEM": 37,
+    "ARTICLE_EID": "art_76",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 67 Abs. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "«... dem Zutaten nach Artikel 67 Absatz 3 zugegeben worden sind ...»; interner Verweis auf Art. 67 Abs. 3."
+  },
+  {
+    "ITEM": 38,
+    "ARTICLE_EID": "art_79",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 67 Abs. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "«... dem Zutaten nach Artikel 67 Absatz 3 zugegeben worden sind ...»; wiederum interner Verweis auf Art. 67 Abs. 3."
+  },
+  {
+    "ITEM": 39,
+    "ARTICLE_EID": "art_82",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 87",
+      "Anhang 9 Ziff. 1–13"
+    ],
+    "confidence": "high",
+    "reasoning": "«Bei Erzeugnissen nach Artikel 87 und nach Anhang 9 Ziffern 1–13 ...»; beides interne Normteile derselben Verordnung."
+  },
+  {
+    "ITEM": 40,
+    "ARTICLE_EID": "art_83",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Anhang 10 Ziff. 1",
+      "Art. 85 Abs. 5"
+    ],
+    "confidence": "high",
+    "reasoning": "«... muss die Anforderungen nach Anhang 10 Ziffer 1 erfüllen. Artikel 85 Absatz 5 bleibt vorbehalten.»; interner Verweis auf Anhang 10 Ziff. 1 und Art. 85 Abs. 5."
+  },
+  {
+    "ITEM": 41,
+    "ARTICLE_EID": "art_121",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 120"
+    ],
+    "confidence": "high",
+    "reasoning": "«... und die nicht Produkte nach Artikel 120 sind.»; interner Verweis auf Art. 120 derselben Verordnung."
+  }
+]

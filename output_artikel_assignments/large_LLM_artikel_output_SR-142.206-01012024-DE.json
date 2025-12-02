@@ -7,7 +7,7 @@
       "Art. 103f"
     ],
     "confidence": "high",
-    "reasoning": "Die Präambel nennt ausdrücklich «Artikel 103f des Ausländer- und Integrationsgesetzes … SR 142.20 (AIG)»; der Artikel ist direkt mit dem genannten Gesetz (SR 142.20) verknüpft."
+    "reasoning": "Die Formulierung \"gestützt auf Artikel 103f des Ausländer- und Integrationsgesetzes ... SR 142.20 (AIG)\" verweist eindeutig auf Art. 103f AIG; kein Hinweis auf weitere Artikel."
   },
   {
     "ITEM": 2,
@@ -17,7 +17,7 @@
       "Art. 29 Abs. 1"
     ],
     "confidence": "high",
-    "reasoning": "Im Satz: «… Grenzen, die nach Artikel 29 Absatz 1 der Verordnung vom 15. August 2018 SR 142.204 … festgelegt wurden» wird Art. 29 Abs. 1 eindeutig dieser Verordnung (SR 142.204) zugeordnet."
+    "reasoning": "Im Snippet: \"nach Artikel 29 Absatz 1 der Verordnung ... SR 142.204\"; direkter syntaktischer Bezug von Art. 29 Abs. 1 auf diese Verordnung."
   },
   {
     "ITEM": 3,
@@ -27,7 +27,7 @@
       "Anhang 1a"
     ],
     "confidence": "high",
-    "reasoning": "Formulierung «Straftat nach Anhang 1a der N-SIS-Verordnung … SR 362.0» verweist klar auf Anhang 1a dieser Verordnung."
+    "reasoning": "Text: \"Straftat nach Anhang 1a der N-SIS-Verordnung ... SR 362.0\"; der zitierte Teil ist der Anhang 1a, kein Artikel."
   },
   {
     "ITEM": 4,
@@ -37,7 +37,7 @@
       "Art. 82 Abs. 1"
     ],
     "confidence": "high",
-    "reasoning": "Text: «… namentlich in Anwendung von Artikel 82 Absatz 1 der Verordnung vom 24. Oktober 2007 SR 142.201 über Zulassung, Aufenthalt und Erwerbstätigkeit»; Art. 82 Abs. 1 ist grammatikalisch direkt dieser Verordnung zugeordnet."
+    "reasoning": "Formulierung: \"namentlich in Anwendung von Artikel 82 Absatz 1 der Verordnung ... SR 142.201\"; klarer Bezug auf Art. 82 Abs. 1 dieser Verordnung."
   },
   {
     "ITEM": 5,
@@ -48,47 +48,47 @@
       "Art. 24"
     ],
     "confidence": "high",
-    "reasoning": "Formulierung «… Straftaten, die nach den Artikeln 23 und 24 der Strafprozessordnung SR 312.0 … der Bundesgerichtsbarkeit unterstehen»; die Artikel 23 und 24 werden explizit der Strafprozessordnung (SR 312.0) zugeordnet."
+    "reasoning": "Text: \"Straftaten, die nach den Artikeln 23 und 24 der Strafprozessordnung SR 312.0 ...\"; beide Artikel sind ausdrücklich der StPO (SR 312.0) zugeordnet."
   },
   {
     "ITEM": 6,
     "ARTICLE_EID": "art_12",
     "TARGET_SR": "SR 361.3",
     "assigned_articles": [
-      "keine spezifischen Artikel – allgemeiner Verweis auf die Verordnung"
+      "General reference - entire document"
     ],
     "confidence": "medium",
-    "reasoning": "Der Satz nennt nur «… das automatisierte Fingerabdruck-Identifikationssystem (AFIS) nach der Verordnung vom 6. Dezember 2013 SR 361.3 …» ohne Artikelangabe; daher handelt es sich um einen allgemeinen Verweis auf die gesamte Verordnung."
+    "reasoning": "Es wird nur \"nach der Verordnung ... SR 361.3 über die Bearbeitung biometrischer erkennungsdienstlicher Daten\" genannt, ohne konkrete Artikel- oder Absatzangabe; daher allgemeiner Verweis auf die Verordnung."
   },
   {
     "ITEM": 7,
     "ARTICLE_EID": "art_18",
     "TARGET_SR": "SR 235.1",
     "assigned_articles": [
-      "keine spezifischen Artikel – allgemeiner Verweis auf das Gesetz"
+      "General reference - entire document"
     ],
     "confidence": "medium",
-    "reasoning": "«Das Auskunftsrecht richtet sich nach dem Datenschutzgesetz … SR 235.1.» enthält keine Artikelnummer; es ist ein genereller Verweis auf das DSG."
+    "reasoning": "\"Das Auskunftsrecht richtet sich nach dem Datenschutzgesetz ... SR 235.1.\" Ohne Artikelangabe; typischer Globalverweis auf das DSG insgesamt."
   },
   {
     "ITEM": 8,
     "ARTICLE_EID": "art_20",
     "TARGET_SR": "SR 235.11",
     "assigned_articles": [
-      "keine spezifischen Artikel – allgemeiner Verweis auf die Verordnung"
+      "General reference - entire document"
     ],
     "confidence": "medium",
-    "reasoning": "«der Datenschutzverordnung … SR 235.11» ohne Artikelangabe; allgemeiner Verweis auf die Verordnung."
+    "reasoning": "\"der Datenschutzverordnung ... SR 235.11\" ohne Artikelangabe; allgemeiner Verweis auf die ganze Verordnung."
   },
   {
     "ITEM": 9,
     "ARTICLE_EID": "art_20",
     "TARGET_SR": "SR 128.1",
     "assigned_articles": [
-      "keine spezifischen Artikel – allgemeiner Verweis auf die Verordnung"
+      "General reference - entire document"
     ],
     "confidence": "medium",
-    "reasoning": "«der Informationssicherheitsverordnung … SR 128.1» ohne Artikelangabe; allgemeiner Verweis."
+    "reasoning": "\"der Informationssicherheitsverordnung ... SR 128.1\" ohne konkrete Artikel; Globalverweis."
   },
   {
     "ITEM": 10,
@@ -98,17 +98,17 @@
       "Art. 103c Abs. 3"
     ],
     "confidence": "high",
-    "reasoning": "Klammerzusatz «(Art. 103c Abs. 3 AIG)» verweist direkt auf Art. 103c Abs. 3 AIG (SR 142.20)."
+    "reasoning": "Snippet: \"(Art. 103c Abs. 3 AIG)\"; direkter, eindeutiger Verweis auf Art. 103c Abs. 3 AIG."
   },
   {
     "ITEM": 11,
     "ARTICLE_EID": "art_9",
     "TARGET_SR": "SR 142.20",
     "assigned_articles": [
-      "Art. 103f Bst. j"
+      "Art. 103f lit. j"
     ],
     "confidence": "high",
-    "reasoning": "«(Art. 103f Bst. j AIG)» ist ein eindeutiger Verweis auf Art. 103f Buchstabe j AIG."
+    "reasoning": "Snippet: \"(Art. 103f Bst. j AIG)\"; klarer Verweis auf Art. 103f Buchstabe j AIG."
   },
   {
     "ITEM": 12,
@@ -116,42 +116,42 @@
     "TARGET_SR": "SR 142.20",
     "assigned_articles": [
       "Art. 103c Abs. 4",
-      "Art. 103c Abs. 4 Bst. a–c",
-      "Art. 103c Abs. 4 Bst. d"
+      "Art. 103c Abs. 4 lit. a–c",
+      "Art. 103c Abs. 4 lit. d"
     ],
     "confidence": "high",
-    "reasoning": "Klammerzusatz nennt «Art. 103c Abs. 4 AIG»; im Fliesstext zusätzlich «… nach Artikel 103c Absatz 4 Buchstaben a–c AIG …» sowie «… nach Artikel 103c Absatz 4 Buchstabe d AIG …». Alle diese Varianten beziehen sich auf SR 142.20."
+    "reasoning": "Klammerzusatz: \"(Art. 103c Abs. 4 AIG)\" sowie im Text \"nach Artikel 103c Absatz 4 Buchstaben a–c AIG\" und \"nach Artikel 103c Absatz 4 Buchstabe d AIG\"; alle diese Varianten beziehen sich auf Art. 103c Abs. 4 AIG mit unterschiedlichen Buchstabenbereichen."
   },
   {
     "ITEM": 13,
     "ARTICLE_EID": "art_11",
     "TARGET_SR": "SR 142.20",
     "assigned_articles": [
-      "Art. 103f Bst. b"
+      "Art. 103f lit. b"
     ],
     "confidence": "high",
-    "reasoning": "«(Art. 103f Bst. b AIG)» verweist eindeutig auf Art. 103f Buchstabe b AIG."
+    "reasoning": "Snippet: \"(Art. 103f Bst. b AIG)\"; eindeutiger Verweis auf Art. 103f Buchstabe b AIG."
   },
   {
     "ITEM": 14,
     "ARTICLE_EID": "art_12",
     "TARGET_SR": "SR 142.20",
     "assigned_articles": [
-      "Art. 103f Bst. b",
-      "Art. 103f Bst. h"
+      "Art. 103f lit. b",
+      "Art. 103f lit. h"
     ],
     "confidence": "high",
-    "reasoning": "«(Art. 103f Bst. b und h AIG)» nennt beide Buchstaben b und h desselben Artikels 103f AIG."
+    "reasoning": "Snippet: \"(Art. 103f Bst. b und h AIG)\"; beide Buchstaben b und h von Art. 103f AIG sind ausdrücklich genannt."
   },
   {
     "ITEM": 15,
     "ARTICLE_EID": "art_14",
     "TARGET_SR": "SR 142.20",
     "assigned_articles": [
-      "Art. 103f Bst. b"
+      "Art. 103f lit. b"
     ],
     "confidence": "high",
-    "reasoning": "«(Art. 103f Bst. b AIG)» ist ein klarer Einzelverweis."
+    "reasoning": "Snippet: \"(Art. 103f Bst. b AIG)\"; klarer Einzelverweis auf Art. 103f lit. b AIG."
   },
   {
     "ITEM": 16,
@@ -160,80 +160,80 @@
     "assigned_articles": [
       "Art. 103c Abs. 4",
       "Art. 103e",
-      "Art. 103f Bst. i"
+      "Art. 103f lit. i"
     ],
     "confidence": "high",
-    "reasoning": "Klammerzusatz: «(Art. 103c Abs. 4, 103e und 103f Bst. i AIG)»; alle genannten Bestimmungen gehören zum AIG (SR 142.20). Der weitere Satzteil zu «Artikel 103e AIG» bestätigt Art. 103e."
+    "reasoning": "Klammerzusatz: \"(Art. 103c Abs. 4, 103e und 103f Bst. i AIG)\"; alle drei Normen (Art. 103c Abs. 4, Art. 103e, Art. 103f lit. i AIG) werden explizit genannt."
   },
   {
     "ITEM": 17,
     "ARTICLE_EID": "art_16",
     "TARGET_SR": "SR 142.20",
     "assigned_articles": [
-      "Art. 103f Bst. d"
+      "Art. 103f lit. d"
     ],
     "confidence": "high",
-    "reasoning": "«(Art. 103f Bst. d AIG)» – eindeutiger Verweis."
+    "reasoning": "Snippet: \"(Art. 103f Bst. d AIG)\"; eindeutiger Verweis auf Art. 103f lit. d AIG."
   },
   {
     "ITEM": 18,
     "ARTICLE_EID": "art_17",
     "TARGET_SR": "SR 142.20",
     "assigned_articles": [
-      "Art. 103f Bst. d"
+      "Art. 103f lit. d"
     ],
     "confidence": "high",
-    "reasoning": "Identischer Klammerzusatz wie bei ITEM 17; verweist auf Art. 103f Buchstabe d AIG."
+    "reasoning": "Identischer Klammerzusatz wie bei ITEM 17: \"(Art. 103f Bst. d AIG)\"; somit derselbe Artikel."
   },
   {
     "ITEM": 19,
     "ARTICLE_EID": "art_19",
     "TARGET_SR": "SR 142.20",
     "assigned_articles": [
-      "Art. 103f Bst. d"
+      "Art. 103f lit. d"
     ],
     "confidence": "high",
-    "reasoning": "Auch hier «(Art. 103f Bst. d AIG)»; derselbe Artikel und Buchstabe."
+    "reasoning": "Auch hier: \"(Art. 103f Bst. d AIG)\"; klarer Bezug auf Art. 103f lit. d AIG."
   },
   {
     "ITEM": 20,
     "ARTICLE_EID": "art_20",
     "TARGET_SR": "SR 142.20",
     "assigned_articles": [
-      "Art. 103f Bst. e"
+      "Art. 103f lit. e"
     ],
     "confidence": "high",
-    "reasoning": "«(Art. 103f Bst. e AIG)» – klarer Verweis."
+    "reasoning": "Snippet: \"(Art. 103f Bst. e AIG)\"; eindeutiger Verweis auf Art. 103f lit. e AIG."
   },
   {
     "ITEM": 21,
     "ARTICLE_EID": "art_22",
     "TARGET_SR": "SR 142.20",
     "assigned_articles": [
-      "Art. 103f Bst. g"
+      "Art. 103f lit. g"
     ],
     "confidence": "high",
-    "reasoning": "«(Art. 103f Bst. g AIG)» – eindeutige Zuordnung."
+    "reasoning": "Snippet: \"(Art. 103f Bst. g AIG)\"; klarer Verweis auf Art. 103f lit. g AIG."
   },
   {
     "ITEM": 22,
     "ARTICLE_EID": "art_23",
     "TARGET_SR": "SR 142.20",
     "assigned_articles": [
-      "Art. 103f Bst. f"
+      "Art. 103f lit. f"
     ],
     "confidence": "high",
-    "reasoning": "«(Art. 103f Bst. f AIG)» – eindeutiger Verweis."
+    "reasoning": "Snippet: \"(Art. 103f Bst. f AIG)\"; eindeutiger Verweis auf Art. 103f lit. f AIG."
   },
   {
     "ITEM": 23,
     "ARTICLE_EID": "art_2",
     "TARGET_SR": null,
     "assigned_articles": [
-      "interne Verweisung innerhalb des aktuellen Erlasses (Art. 29 Abs. 1 der genannten Verordnung)"
+      "Internal reference within current document"
     ],
     "confidence": "high",
-    "reasoning": "Die SNIPPET-Stelle wiederholt den Inhalt von ITEM 2, jedoch ohne explizite SR-Angabe; sie verweist auf «Artikel 29 Absatz 1 der Verordnung … über die Einreise und die Visumerteilung», also auf einen Artikel derselben externen Verordnung, nicht auf einen neuen SR-Link. Da kein TARGET_SR im Item vorhanden ist, handelt es sich um eine reine Artikelverweisung."
+    "reasoning": "Artikelreferenz: \"nach Artikel 29 Absatz 1 der Verordnung ...\" ohne SR-Angabe im Snippet; der zugehörige SR-Link (SR 142.204) ist in ITEM 2 bereits erfasst. Diese artikel_reference dient hier nur als Selbstreferenz-Kontext und erzeugt keinen neuen SR-Link."
   },
   {
     "ITEM": 24,
@@ -243,49 +243,49 @@
       "Art. 5"
     ],
     "confidence": "high",
-    "reasoning": "«… nach Artikel 5 …» bezieht sich auf einen anderen Artikel desselben Erlasses (interne Systematik, kein externer SR-Bezug)."
+    "reasoning": "Text: \"nach Artikel 5\" ohne Gesetzesangabe; im Kontext der Verordnung ist dies ein Verweis auf den eigenen Art. 5 derselben Verordnung, also interne Selbstreferenz."
   },
   {
     "ITEM": 25,
     "ARTICLE_EID": "art_9",
     "TARGET_SR": null,
     "assigned_articles": [
-      "Art. 12 der Verordnung (EU) 2017/2226"
+      "Art. 12"
     ],
-    "confidence": "medium",
-    "reasoning": "Verweis «nach Artikel 12 der Verordnung (EU) 2017/2226» betrifft Unionsrecht; im Dokument ist hierfür kein SR-Link angegeben. Daher bleibt es eine reine Artikelverweisung ohne Zuordnung zu einem TARGET_SR."
+    "confidence": "high",
+    "reasoning": "\"nach Artikel 12 der Verordnung (EU) 2017/2226\"; dies verweist auf einen Artikel einer EU-Verordnung, nicht auf ein SR-Dokument. Da kein SR-Link vorliegt, bleibt es eine externe, aber nicht-SR-bezogene Referenz; im Rahmen dieser Aufgabe als interne/sonstige Referenz ohne TARGET_SR behandelt."
   },
   {
     "ITEM": 26,
     "ARTICLE_EID": "art_10",
-    "TARGET_SR": null,
+    "TARGET_SR": "SR 142.20",
     "assigned_articles": [
-      "Art. 103c Abs. 4 Bst. a–c AIG"
+      "Art. 103c Abs. 4 lit. a–c"
     ],
     "confidence": "high",
-    "reasoning": "«… nach Artikel 103c Absatz 4 Buchstaben a–c AIG …» verweist auf das AIG (SR 142.20), ist aber eine interne inhaltliche Bezugnahme über das bereits in anderen Items erfasste SR; als artikel_reference ohne eigenes TARGET_SR bleibt es eine reine Artikelverweisung."
+    "reasoning": "Text: \"nach Artikel 103c Absatz 4 Buchstaben a–c AIG\"; AIG ist über das Präambel-Akronym SR 142.20 zugeordnet. Klarer Verweis auf Art. 103c Abs. 4 lit. a–c AIG."
   },
   {
     "ITEM": 27,
     "ARTICLE_EID": "art_10",
     "TARGET_SR": null,
     "assigned_articles": [
-      "Art. 82 Abs. 1 der Verordnung über Zulassung, Aufenthalt und Erwerbstätigkeit",
-      "Art. 23 StPO",
-      "Art. 24 StPO"
+      "Art. 82 Abs. 1",
+      "Art. 23",
+      "Art. 24"
     ],
     "confidence": "high",
-    "reasoning": "Der Text nennt «Artikel 82 Absatz 1 der Verordnung … über Zulassung, Aufenthalt und Erwerbstätigkeit» sowie «die nach den Artikeln 23 und 24 der Strafprozessordnung …»; diese Artikel sind bereits in SR_link_detection-Items 4 und 5 mit SR 142.201 bzw. SR 312.0 verknüpft. Hier handelt es sich um wiederholte, interne Artikelverweise ohne neuen SR-Link."
+    "reasoning": "Es werden \"Artikel 82 Absatz 1 der Verordnung ... über Zulassung, Aufenthalt und Erwerbstätigkeit\" (SR 142.201) und \"die Artikeln 23 und 24 der Strafprozessordnung\" (SR 312.0) erwähnt. Beide SR-Bezüge sind bereits als SR_link_detection in ITEM 4 (SR 142.201) und ITEM 5 (SR 312.0) erfasst. Diese artikel_reference spiegelt dieselben externen Verweise wider und dient primär als Kontext; daher keine neue TARGET_SR-Zuordnung, aber die referenzierten Artikel werden als solche aufgeführt."
   },
   {
     "ITEM": 28,
     "ARTICLE_EID": "art_10",
-    "TARGET_SR": null,
+    "TARGET_SR": "SR 142.20",
     "assigned_articles": [
-      "Art. 103c Abs. 4 Bst. d AIG"
+      "Art. 103c Abs. 4 lit. d"
     ],
     "confidence": "high",
-    "reasoning": "«… nach Artikel 103c Absatz 4 Buchstabe d AIG …» ist eine weitere interne Bezugnahme auf das AIG; kein eigener SR-Link im Item."
+    "reasoning": "Text: \"nach Artikel 103c Absatz 4 Buchstabe d AIG\"; über das Präambel-Akronym AIG eindeutig SR 142.20 zugeordnet; Verweis auf Art. 103c Abs. 4 lit. d AIG."
   },
   {
     "ITEM": 29,
@@ -295,38 +295,37 @@
       "Art. 12"
     ],
     "confidence": "high",
-    "reasoning": "«… ob die Voraussetzungen nach Artikel 12 erfüllt waren …» bezieht sich auf einen anderen Artikel desselben Erlasses; reine interne Verweisung."
+    "reasoning": "\"ob die Voraussetzungen nach Artikel 12 erfüllt waren\"; kein Gesetz genannt, daher interner Verweis auf Art. 12 derselben Verordnung (Selbstreferenz)."
   },
   {
     "ITEM": 30,
     "ARTICLE_EID": "art_14",
     "TARGET_SR": null,
     "assigned_articles": [
-      "Art. 12 Abs. 1 Bst. a Ziff. 1"
+      "Art. 12 Abs. 1 lit. a Ziff. 1"
     ],
     "confidence": "high",
-    "reasoning": "«Für den Zweck nach Artikel 12 Absatz 1 Buchstabe a Ziffer 1 …» ist eine interne Verweisung innerhalb des Erlasses."
+    "reasoning": "Formulierung: \"Für den Zweck nach Artikel 12 Absatz 1 Buchstabe a Ziffer 1\"; ohne Gesetzesangabe, somit interner Verweis auf Art. 12 Abs. 1 lit. a Ziff. 1 derselben Verordnung."
   },
   {
     "ITEM": 31,
     "ARTICLE_EID": "art_14",
     "TARGET_SR": null,
     "assigned_articles": [
-      "Art. 12 Abs. 1 Bst. a Ziff. 2"
+      "Art. 12 Abs. 1 lit. a Ziff. 2"
     ],
     "confidence": "high",
-    "reasoning": "«Für den Zweck nach Artikel 12 Absatz 1 Buchstabe a Ziffer 2 …» ebenfalls interne Verweisung."
+    "reasoning": "Analog zu ITEM 30: \"Für den Zweck nach Artikel 12 Absatz 1 Buchstabe a Ziffer 2\"; interner Verweis auf Art. 12 Abs. 1 lit. a Ziff. 2 derselben Verordnung."
   },
   {
     "ITEM": 32,
     "ARTICLE_EID": "art_15",
-    "TARGET_SR": null,
+    "TARGET_SR": "SR 142.20",
     "assigned_articles": [
-      "Art. 103e AIG",
-      "Art. 10"
+      "Art. 103e"
     ],
     "confidence": "high",
-    "reasoning": "«… nach Artikel 103e AIG …» und «… nach Artikel 10 richten»; beide Verweise sind innerhalb bereits bekannter Normen (AIG bzw. derselbe Erlass) und ohne neuen SR-Link."
+    "reasoning": "\"Die Mitgliedstaaten der EU nach Artikel 103e AIG\"; AIG ist SR 142.20, somit Verweis auf Art. 103e AIG."
   },
   {
     "ITEM": 33,
@@ -336,46 +335,46 @@
       "Art. 11–14"
     ],
     "confidence": "high",
-    "reasoning": "«… richten sich sinngemäss nach den Artikeln 11–14.» ist ein klarer interner Artikelbereichsverweis (Art. 11–14 desselben Erlasses)."
+    "reasoning": "\"richten sich sinngemäss nach den Artikeln 11–14\"; ohne Gesetzesangabe, daher interne Verweisung auf die eigenen Artikel 11 bis 14 (Artikelfolge) derselben Verordnung."
   },
   {
     "ITEM": 34,
     "ARTICLE_EID": "art_19",
     "TARGET_SR": null,
     "assigned_articles": [
-      "Art. 52 der Verordnung (EU) 2017/2226"
+      "Art. 52"
     ],
-    "confidence": "medium",
-    "reasoning": "Verweis auf Unionsrecht («Artikel 52 der Verordnung (EU) 2017/2226»); kein SR-Link im Item, daher reine Artikelverweisung ohne Zuordnung zu einem TARGET_SR."
+    "confidence": "high",
+    "reasoning": "\"richtet sich nach Artikel 52 der Verordnung (EU) 2017/2226\"; Verweis auf EU-Verordnung, nicht auf ein SR-Dokument; daher keine TARGET_SR-Zuordnung im Sinne des Projekts."
   },
   {
     "ITEM": 35,
     "ARTICLE_EID": "art_20",
     "TARGET_SR": null,
     "assigned_articles": [
-      "Art. 43 der Verordnung (EU) 2017/2226"
+      "Art. 43"
     ],
-    "confidence": "medium",
-    "reasoning": "«… richtet sich … nach Artikel 43 der Verordnung (EU) 2017/2226.»; wiederum Unionsrecht ohne SR-Link, daher nur Artikelverweisung."
+    "confidence": "high",
+    "reasoning": "\"richtet sich nach Artikel 43 der Verordnung (EU) 2017/2226\"; wiederum EU-Recht, kein SR-Link; als externe, nicht-SR-bezogene Referenz behandelt."
   },
   {
     "ITEM": 36,
     "ARTICLE_EID": "art_22",
     "TARGET_SR": null,
     "assigned_articles": [
-      "Art. 39 Abs. 1 der Verordnung (EU) 2017/2226"
+      "Art. 39 Abs. 1"
     ],
-    "confidence": "medium",
-    "reasoning": "«… nach Artikel 39 Absatz 1 der Verordnung (EU) 2017/2226.»; reine Verweisung auf EU-Verordnung ohne SR-Zuordnung."
+    "confidence": "high",
+    "reasoning": "\"nationale Behörde nach Artikel 39 Absatz 1 der Verordnung (EU) 2017/2226\"; Verweis auf EU-Verordnung, daher keine TARGET_SR-Zuordnung."
   },
   {
     "ITEM": 37,
     "ARTICLE_EID": "art_23",
     "TARGET_SR": null,
     "assigned_articles": [
-      "Art. 55 Abs. 2 der Verordnung (EU) 2017/2226"
+      "Art. 55 Abs. 2"
     ],
-    "confidence": "medium",
-    "reasoning": "«… nach Artikel 55 Absatz 2 der Verordnung (EU) 2017/2226.»; ebenfalls nur Artikelverweisung auf Unionsrecht ohne TARGET_SR."
+    "confidence": "high",
+    "reasoning": "\"nationale Aufsichtsbehörde nach Artikel 55 Absatz 2 der Verordnung (EU) 2017/2226\"; ebenfalls EU-Recht, somit keine SR-Zuordnung."
   }
 ]

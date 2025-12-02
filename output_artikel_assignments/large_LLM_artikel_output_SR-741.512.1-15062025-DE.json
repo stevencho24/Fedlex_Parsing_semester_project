@@ -1,0 +1,92 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 741.51",
+    "assigned_articles": [
+      "Art. 19a"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Formulierung «gestützt auf Artikel 19a der Verkehrszulassungsverordnung ... SR 741.51 (VZV)» verknüpft den genannten Artikel direkt mit der VZV (SR 741.51); damit ist klar, dass Art. 19a dieser Verordnung gemeint ist."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_8",
+    "TARGET_SR": "SR 741.41",
+    "assigned_articles": [
+      "Art. 14 lit. b Ziff. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Satz «gemäss Artikel 14 Buchstabe b Ziffer 1 der Verordnung ... SR 741.41» wird der Artikel mit Buchstabe und Ziffer unmittelbar der Verordnung SR 741.41 zugeordnet; syntaktisch klarer Bezug."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_10",
+    "TARGET_SR": "SR 741.522",
+    "assigned_articles": [
+      "Art. 24 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Wendung «nach Artikel 24 Absatz 1 der Fahrlehrerverordnung ... SR 741.522 (FV)» ordnet Art. 24 Abs. 1 eindeutig der Fahrlehrerverordnung SR 741.522 zu."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": "SR 741.51",
+    "assigned_articles": [
+      "Art. 15 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Snippet steht «... einen Lernfahrausweis der Kategorie A gestützt auf Artikel 15 Absatz 2 VZV besitzt ...»; VZV ist in der Präambel als SR 741.51 definiert, daher bezieht sich Art. 15 Abs. 2 auf SR 741.51."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_9",
+    "TARGET_SR": "SR 741.51",
+    "assigned_articles": [
+      "Art. 19 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Formulierung «gemäss Artikel 19 Absatz 2 VZV» verweist direkt auf Art. 19 Abs. 2 der VZV; VZV ist als SR 741.51 definiert."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_11",
+    "TARGET_SR": "SR 741.51",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "medium",
+    "reasoning": "Das Snippet erwähnt nur «Die Weisungen des ASTRA ... werden aufgehoben.» ohne konkrete Artikelangabe der VZV/ASTRA-Rechtsgrundlage; der Bezug zu SR 741.51 erfolgt nur über das Akronym ASTRA im authorialNote-Kontext, ohne artikelspezifische Nennung, daher als allgemeine Dokumentverweisung gewertet."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_8",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Text entspricht inhaltlich dem bei ITEM 2, jedoch ohne explizite SR-Angabe; als artikel_reference ohne TARGET_SR ist dies eine inhaltliche Wiederholung zur Erfassung der Selbstreferenzstruktur und wird als interne Verweisung im aktuellen Dokument behandelt, nicht als neue SR-Verknüpfung."
+  },
+  {
+    "ITEM": 8,
+    "ARTICLE_EID": "art_10",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Satz «nach Artikel 24 Absatz 1 der Fahrlehrerverordnung ... (FV)» ist die SR-lose Variante des Snippets aus ITEM 3; als artikel_reference ohne TARGET_SR dient er der internen Strukturabbildung und begründet keine zusätzliche SR-Zuordnung."
+  },
+  {
+    "ITEM": 9,
+    "ARTICLE_EID": "art_10",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«(Artikel 24 Absatz 4 FV)» verweist auf denselben Normkomplex der Fahrlehrerverordnung wie ITEM 3/8, jedoch ohne explizite SR-Nummer; als artikel_reference ohne TARGET_SR ist dies eine interne Verweisung innerhalb des aktuellen Dokuments."
+  }
+]

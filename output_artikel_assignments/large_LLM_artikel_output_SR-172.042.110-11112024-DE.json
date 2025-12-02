@@ -1,0 +1,155 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 210",
+    "assigned_articles": [
+      "Art. 48 Abs. 4"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Formulierung «gestützt auf Artikel 48 Absatz 4 des Zivilgesetzbuches SR 210 (ZGB)» verweist eindeutig auf Art. 48 Abs. 4 ZGB; Artikel und Absatz sind direkt mit dem genannten SR verknüpft."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": "SR 211.112.2",
+    "assigned_articles": [
+      "Art. 1a Abs. 4"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Snippet steht «(Art. 1a Abs. 4 der Zivilstandsverordnung ... SR 211.112.2, ZStV)»; Art. 1a Abs. 4 ist grammatikalisch direkt der ZStV (SR 211.112.2) zugeordnet."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": "SR 211.112.2",
+    "assigned_articles": [
+      "Art. 1a Abs. 4"
+    ],
+    "confidence": "high",
+    "reasoning": "Text: «(Art. 1a Abs. 4 ZStV SR 211.112.2)»; der Artikel mit Absatz wird ausdrücklich der ZStV (SR 211.112.2) zugeordnet."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": "SR 211.435.1",
+    "assigned_articles": [
+      "Art. 21 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "«... nach Artikel 21 Absatz 1 der Verordnung vom 8. Dezember 2017 SR 211.435.1 ...»; Art. 21 Abs. 1 ist klar dieser Verordnung (SR 211.435.1) zugeordnet."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": "SR 151.3",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "medium",
+    "reasoning": "Es wird nur «in Anwendung des Behindertengleichstellungsgesetzes vom 13. Dezember 2002 SR 151.3» erwähnt, ohne konkrete Artikelangabe; daher allgemeine Gesetzesverweisung."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_10",
+    "TARGET_SR": "SR 211.112.2",
+    "assigned_articles": [
+      "Art. 89",
+      "Art. 90"
+    ],
+    "confidence": "high",
+    "reasoning": "«Die Artikel 89 und 90 ZStV SR 211.112.2 sind anwendbar.»; beide Artikel werden explizit mit der ZStV (SR 211.112.2) verknüpft."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_10",
+    "TARGET_SR": "SR 810.11",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "medium",
+    "reasoning": "Formulierung «richtet sich ... nach dem Fortpflanzungsmedizingesetz ... SR 810.11» ohne Nennung einzelner Artikel; es handelt sich um eine generelle Verweisung auf das Gesetz."
+  },
+  {
+    "ITEM": 8,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«eine Dienstleistung nach Artikel 1 veranlasst» verweist ohne SR-Angabe auf einen anderen Artikel derselben Verordnung; daher reine Selbstreferenz."
+  },
+  {
+    "ITEM": 9,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": "SR 211.112.2",
+    "assigned_articles": [
+      "Art. 1a Abs. 4"
+    ],
+    "confidence": "high",
+    "reasoning": "«(Art. 1a Abs. 4 der Zivilstandsverordnung ... ZStV)»; aus Item 2 ist klar, dass dies Art. 1a Abs. 4 ZStV (SR 211.112.2) ist; dieselbe syntaktische Struktur, daher gleiche Zuordnung."
+  },
+  {
+    "ITEM": 10,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": "SR 211.112.2",
+    "assigned_articles": [
+      "Art. 54",
+      "Art. 61"
+    ],
+    "confidence": "high",
+    "reasoning": "«(Art. 54 und 61 ZStV)»; ZStV ist die Zivilstandsverordnung (SR 211.112.2), daher gehören Art. 54 und 61 zu diesem SR."
+  },
+  {
+    "ITEM": 11,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": "SR 211.112.2",
+    "assigned_articles": [
+      "Art. 1a Abs. 4"
+    ],
+    "confidence": "high",
+    "reasoning": "«(Art. 1a Abs. 4 ZStV)»; wie bei Items 2, 3 und 9 ist dies Art. 1a Abs. 4 der ZStV (SR 211.112.2)."
+  },
+  {
+    "ITEM": 12,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«... nach Artikel 21 Absatz 1 der Verordnung vom 8. Dezember 2017 über die Erstellung elektronischer öffentlicher Urkunden ...»; der SR-Link zu dieser Verordnung ist bereits in Item 4 erfasst. Hier liegt nur eine Wiederholung derselben externen Verweisung im Fliesstext vor; als artikel_reference ohne explizite SR-Angabe wird sie im Rahmen dieser Aufgabe als interne Querverweisung behandelt."
+  },
+  {
+    "ITEM": 13,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«... die nach Artikel 3 von der Gebührenpflicht befreit sind.»; kein SR genannt, klarer Verweis auf Art. 3 derselben Verordnung."
+  },
+  {
+    "ITEM": 14,
+    "ARTICLE_EID": "art_10",
+    "TARGET_SR": "SR 211.112.2",
+    "assigned_articles": [
+      "Art. 89",
+      "Art. 90"
+    ],
+    "confidence": "high",
+    "reasoning": "«Die Artikel 89 und 90 ZStV sind anwendbar.»; ZStV = SR 211.112.2, identischer Inhalt wie Item 6, nur ohne explizite SR-Nummer im Satz."
+  },
+  {
+    "ITEM": 15,
+    "ARTICLE_EID": "art_13",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«... nach Artikel 2 Absatz 1 gebührenpflichtigen Person ...»; kein SR genannt, daher Verweis auf Art. 2 Abs. 1 derselben Verordnung."
+  }
+]

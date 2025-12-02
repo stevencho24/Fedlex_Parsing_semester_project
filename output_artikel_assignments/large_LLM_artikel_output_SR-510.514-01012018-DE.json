@@ -1,0 +1,72 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 510.10",
+    "assigned_articles": [
+      "Art. 124 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Formulierung «gestützt auf Artikel 124 Absatz 2 des Militärgesetzes … SR 510.10» verknüpft den Artikel direkt mit dem genannten Gesetz; Art. 124 Abs. 2 gehört somit eindeutig zu SR 510.10."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": "SR 700",
+    "assigned_articles": [
+      "Art. 13"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Satz «… im Sachplan Militär nach Artikel 13 des Raumplanungsgesetzes … SR 700» ist Artikel 13 grammatikalisch direkt dem Raumplanungsgesetz (SR 700) zugeordnet."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": "SR 172.010.21",
+    "assigned_articles": [
+      "Art. 13 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Passage «… richtet sich nach Artikel 13 Absatz 2 der Verordnung vom 5. Dezember 2008 SR 172.010.21 …» ordnet Art. 13 Abs. 2 eindeutig der genannten Verordnung (SR 172.010.21) zu."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Dies ist eine artikel_reference-Stelle, die denselben Inhalt wie ITEM 2 ohne explizite SR-Nummer wiedergibt. Der Verweis «Artikel 13 des Raumplanungsgesetzes» bezieht sich auf SR 700, wurde aber bereits in ITEM 2 als Art. 13 SR 700 erfasst; hier handelt es sich um eine Dopplung, keine zusätzliche SR-Verknüpfung."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "«Vorbehalten bleibt Artikel 6 Absatz 2» verweist ohne Nennung eines anderen Gesetzes auf einen Artikel derselben Verordnung (interne Selbstreferenz). Es besteht kein syntaktischer Bezug zu einem externen SR-Dokument."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Auch hier ist «Vorbehalten bleibt Artikel 6 Absatz 2» ein rein interner Verweis innerhalb derselben Verordnung; kein externes SR wird genannt oder angedeutet."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Der Satz verweist auf «Artikel 13 Absatz 2 der Verordnung vom 5. Dezember 2008 über das Immobilienmanagement und die Logistik des Bundes», was bereits in ITEM 3 als Art. 13 Abs. 2 SR 172.010.21 mit expliziter SR-Nummer erfasst wurde. Diese artikel_reference-Stelle ist daher eine inhaltliche Wiederholung ohne neue SR-Zuordnung."
+  },
+  {
+    "ITEM": 8,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "«Bei kantonalen Waffenplätzen gilt Artikel 6 Absatz 2.» nennt kein anderes Gesetz und verweist damit auf einen Artikel derselben Verordnung (Selbstreferenz), nicht auf ein externes SR-Dokument."
+  }
+]

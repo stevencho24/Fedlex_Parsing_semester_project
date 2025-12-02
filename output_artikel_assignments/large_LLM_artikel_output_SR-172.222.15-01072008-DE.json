@@ -1,0 +1,20 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 172.222.1",
+    "assigned_articles": [
+      "Art. 19 Abs. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet explicitly cites 'Artikel 19 Absatz 3 des PUBLICA-Gesetzes ... SR 172.222.1', directly linking Art. 19 Abs. 3 to SR 172.222.1."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": null,
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "This is an artikel_reference item without a TARGET_SR. The phrase 'nach Artikel 19 Absatz 3 des PUBLICA-Gesetzes' refers back to the same external article already captured in ITEM 1 and functions as a cross-reference in the current document, not as a new SR link assignment."
+  }
+]

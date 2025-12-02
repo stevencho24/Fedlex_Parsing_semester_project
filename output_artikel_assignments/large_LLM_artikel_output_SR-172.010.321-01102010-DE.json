@@ -1,0 +1,126 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 172.010.31",
+    "assigned_articles": [
+      "Art. 8 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Formulierung \"gestützt auf Artikel 8 Absatz 1 des Bundesgesetzes ... SR 172.010.31\" verweist eindeutig auf Art. 8 Abs. 1 des IGEG."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 170.512.1",
+    "assigned_articles": [
+      "Art. 16 Abs. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "Im INSIDE_AUTHORIALNOTE steht: \"in Anwendung von Art. 16 Abs. 3 der Publikationsverordnung ... (SR 170.512.1)\"; der Artikel ist direkt mit dieser SR verknüpft."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": "SR 220",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Satz lautet: \"gilt das Obligationenrecht SR 220 als öffentliches Recht des Bundes\" ohne Nennung einzelner Artikel; es wird das OR als Ganzes herangezogen."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_26",
+    "TARGET_SR": "SR 172.220.1",
+    "assigned_articles": [
+      "Art. 20",
+      "Art. 21 Abs. 3",
+      "Art. 22"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Passage nennt ausdrücklich \"Geheimhaltungs- und Treuepflichten nach den Artikeln 20, 21 Absatz 3 und 22 des Bundespersonalgesetzes ... SR 172.220.1\"; diese Artikel gehören somit zu SR 172.220.1."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_27",
+    "TARGET_SR": "SR 170.32",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "medium",
+    "reasoning": "Formulierung: \"richten sich nach dem Verantwortlichkeitsgesetz ... SR 170.32\" ohne Artikelangabe; typischer Verweis auf das Gesetz als Ganzes, ohne klar abgrenzbare Einzelartikel."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_32",
+    "TARGET_SR": "SR 172.222.1",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "medium",
+    "reasoning": "Der Text verweist auf das \"PUBLICA-Gesetz ... SR 172.222.1\" im Zusammenhang mit einer Übergangsfrist, ohne konkrete Artikelnummer; der Klammerzusatz \"(Art. 10b)\" ist eine Selbstreferenz innerhalb der vorliegenden Verordnung, nicht zum PUBLICA-Gesetz."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "Verweist auf \"Artikel 9 Absatz 2\" ohne Nennung einer SR oder eines Gesetzes; dies ist eine innerdokumentarische Verweisung auf Art. 9 Abs. 2 derselben Verordnung."
+  },
+  {
+    "ITEM": 8,
+    "ARTICLE_EID": "art_9",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Klammer \"(Art. 25)\" steht ohne Gesetzesangabe; im Kontext handelt es sich um einen Verweis auf Art. 25 derselben Verordnung."
+  },
+  {
+    "ITEM": 9,
+    "ARTICLE_EID": "art_10",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "Mehrere Verweise: \"Artikel 4 Absatz 1\", \"Artikel 9 Absatz 2\", \"Artikel 18 Absatz 2\"; alle ohne externes Gesetz oder SR, daher interne Artikel derselben Verordnung."
+  },
+  {
+    "ITEM": 10,
+    "ARTICLE_EID": "art_14",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "Formulierung \"Ansprüche nach den Artikeln 13 Absatz 3 und 22 Absatz 3\" ohne Gesetzesangabe; dies sind interne Verweise auf Art. 13 Abs. 3 und Art. 22 Abs. 3 der vorliegenden Verordnung."
+  },
+  {
+    "ITEM": 11,
+    "ARTICLE_EID": "art_26",
+    "TARGET_SR": "SR 172.220.1",
+    "assigned_articles": [
+      "Art. 20",
+      "Art. 21 Abs. 3",
+      "Art. 22"
+    ],
+    "confidence": "high",
+    "reasoning": "Dies ist derselbe Satz wie bei ITEM 4, nur ohne die explizite SR im Snippet; aus ITEM 4 ist klar, dass sich die Artikel 20, 21 Abs. 3 und 22 auf das Bundespersonalgesetz SR 172.220.1 beziehen."
+  },
+  {
+    "ITEM": 12,
+    "ARTICLE_EID": "art_32",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Klammer \"(Art. 10b)\" steht ohne Gesetzesangabe und bezieht sich auf einen Artikel der eigenen Verordnung; der externe Verweis auf das PUBLICA-Gesetz ist hier nicht wiederholt."
+  }
+]

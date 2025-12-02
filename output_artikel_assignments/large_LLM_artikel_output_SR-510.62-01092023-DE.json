@@ -1,0 +1,139 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 101",
+    "assigned_articles": [
+      "Art. 60 Abs. 1",
+      "Art. 63",
+      "Art. 64",
+      "Art. 75a",
+      "Art. 122 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Präambel nennt ausdrücklich: «gestützt auf die Artikel 60 Absatz 1, 63, 64, 75a und 122 Absatz 1 der Bundesverfassung SR 101»; alle genannten Artikel gehören somit zur SR 101."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_11",
+    "TARGET_SR": "SR 235.1",
+    "assigned_articles": "General reference - entire document",
+    "confidence": "high",
+    "reasoning": "Der Satz lautet: «Das Datenschutzgesetz vom 25. September 2020 SR 235.1 findet auf alle Geobasisdaten ... Anwendung.» Es werden keine bestimmten Artikel des DSG genannt; der Verweis betrifft das Gesetz als Ganzes."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_16",
+    "TARGET_SR": "SR 210",
+    "assigned_articles": "General reference - entire document",
+    "confidence": "high",
+    "reasoning": "Formulierung: «... die nach den Vorschriften des Zivilgesetzbuchs (ZGB) SR 210 nicht im Grundbuch angemerkt werden.» Es wird allgemein auf die Vorschriften des ZGB verwiesen, ohne konkrete Artikelnummer; daher Gesamtverweis."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_18",
+    "TARGET_SR": "SR 210",
+    "assigned_articles": [
+      "Art. 955"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Text lautet: «Die Haftung ... richtet sich nach Artikel 955 des ZGB SR 210.» Damit ist eindeutig Art. 955 ZGB gemeint."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_45",
+    "TARGET_SR": "SR 210",
+    "assigned_articles": [
+      "Art. 39 SchlT"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Snippet: «... (Art. 39 SchlT ZGB SR 210) ...». Dies ist ein klarer Verweis auf Art. 39 der Schluss- und Übergangsbestimmungen (SchlT) zum ZGB."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_47",
+    "TARGET_SR": "SR 510.622.4",
+    "assigned_articles": "General reference - entire document",
+    "confidence": "high",
+    "reasoning": "Der Text: «... mit der Verordnung vom 2. September 2009 SR 510.622.4 über die öffentlich-rechtlichen Eigentumsbeschränkungen in Kraft gesetzt.» Die genannten Artikel 16–18, 34 Abs. 1 lit. e und f sowie 39 gehören zum vorliegenden Gesetz (Selbstverweis), nicht zur Verordnung SR 510.622.4; zur Verordnung wird kein bestimmter Artikel genannt, daher Gesamtverweis."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_11",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 12 Abs. 2 lit. c",
+      "Art. 14 Abs. 1",
+      "Art. 14 Abs. 2",
+      "Art. 32 Abs. 2 lit. d"
+    ],
+    "confidence": "high",
+    "reasoning": "Artikel-Referenz ohne SR; es handelt sich um Selbstverweise im selben Gesetz: «Die Artikel 12 Absatz 2 Buchstabe c, 14 Absätze 1 und 2 und 32 Absatz 2 Buchstabe d des vorliegenden Gesetzes ...»."
+  },
+  {
+    "ITEM": 8,
+    "ARTICLE_EID": "art_37",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 34 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "«Die Finanzierung der Aufgaben nach Artikel 34 Absatz 1 erfolgt durch den Bund.» Klarer Selbstverweis auf Art. 34 Abs. 1 desselben Gesetzes."
+  },
+  {
+    "ITEM": 9,
+    "ARTICLE_EID": "art_38",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 34 Abs. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "«Der Bund finanziert die Ersatzvornahme (Art. 34 Abs. 3).» Dies ist ein interner Verweis auf Art. 34 Abs. 3 des gleichen Erlasses."
+  },
+  {
+    "ITEM": 10,
+    "ARTICLE_EID": "art_39",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 34 Abs. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "Identische Struktur wie ITEM 9: «(Art. 34 Abs. 3)»; wiederum ein Selbstverweis auf Art. 34 Abs. 3 des vorliegenden Gesetzes."
+  },
+  {
+    "ITEM": 11,
+    "ARTICLE_EID": "art_46",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 15 Abs. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "«... in Abweichung von Artikel 15 Absatz 3 regeln.» Es wird kein anderes SR genannt; daher interner Verweis auf Art. 15 Abs. 3 desselben Gesetzes."
+  },
+  {
+    "ITEM": 12,
+    "ARTICLE_EID": "art_46",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 5",
+      "Art. 6"
+    ],
+    "confidence": "high",
+    "reasoning": "«... Anforderungen im Sinne der Artikel 5 und 6 anpassen ...»; wiederum ohne SR-Angabe, also Selbstverweise auf Art. 5 und 6 des vorliegenden Gesetzes."
+  },
+  {
+    "ITEM": 13,
+    "ARTICLE_EID": "art_47",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 16",
+      "Art. 17",
+      "Art. 18",
+      "Art. 34 Abs. 1 lit. e",
+      "Art. 34 Abs. 1 lit. f",
+      "Art. 39"
+    ],
+    "confidence": "high",
+    "reasoning": "«Die Artikel 16−18, 34 Absatz 1 Buchstaben e und f sowie 39 werden ... in Kraft gesetzt.» Alle genannten Artikel gehören zum selben Gesetz; es handelt sich um interne Artikelverweise, nicht um Verweise auf SR 510.622.4."
+  }
+]

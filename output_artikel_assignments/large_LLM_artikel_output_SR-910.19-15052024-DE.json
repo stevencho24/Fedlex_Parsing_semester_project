@@ -1,0 +1,244 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 910.1",
+    "assigned_articles": [
+      "Art. 14 Abs. 1 Bst. c",
+      "Art. 177 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Präambel nennt ausdrücklich «Artikel 14 Absatz 1 Buchstabe c und 177 Absatz 1 des Landwirtschaftsgesetzes … SR 910.1»; beide Artikel gehören daher eindeutig zu SR 910.1."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": "SR 912.1",
+    "assigned_articles": [
+      "Art. 1 Abs. 2",
+      "Art. 1 Abs. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Satz wird zweimal «Artikel 1 Absatz 2/3 der Landwirtschaftlichen Zonen-Verordnung … SR 912.1» genannt; beide Artikel sind syntaktisch direkt mit dieser Verordnung verknüpft."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": "SR 910.13",
+    "assigned_articles": [
+      "Art. 31"
+    ],
+    "confidence": "high",
+    "reasoning": "Formulierung «nach Artikel 31 der Direktzahlungsverordnung … SR 910.13» verknüpft Art. 31 eindeutig mit SR 910.13."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_11",
+    "TARGET_SR": "SR 946.512",
+    "assigned_articles": "General reference - entire document",
+    "confidence": "medium",
+    "reasoning": "Es wird nur «nach der Akkreditierungs- und Bezeichnungsverordnung vom 17. Juni 1996 SR 946.512» ohne konkrete Artikelangabe erwähnt; daher allgemeine Verweis auf die Verordnung."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_11",
+    "TARGET_SR": "SR 235.1",
+    "assigned_articles": "General reference - entire document",
+    "confidence": "medium",
+    "reasoning": "Der Text nennt «Einhaltung der Vorschriften des Datenschutzgesetzes … SR 235.1» ohne Artikelnummer; dies ist ein genereller Verweis auf das DSG insgesamt."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": "self",
+    "assigned_articles": [
+      "Art. 1 Abs. 2",
+      "Art. 1 Abs. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "artikel_reference ohne explizite SR; derselbe Satz wie bei ITEM 2, aber hier als Selbstverweis auf die in dieser Verordnung genannten Artikel 1 Abs. 2 und 3 der Zonen-Verordnung; da kein SR im Snippet, gilt dies als interne Strukturreferenz des aktuellen Dokuments."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": "self",
+    "assigned_articles": [
+      "Art. 31"
+    ],
+    "confidence": "high",
+    "reasoning": "Gleicher Inhalt wie ITEM 3, aber ohne SR-Angabe; als artikel_reference ist dies ein interner Verweis im aktuellen Dokument auf den bereits extern zugeordneten Art. 31 der Direktzahlungsverordnung, daher Selbstreferenz."
+  },
+  {
+    "ITEM": 8,
+    "ARTICLE_EID": "art_8_a",
+    "TARGET_SR": "self",
+    "assigned_articles": [
+      "Art. 7",
+      "Art. 8"
+    ],
+    "confidence": "high",
+    "reasoning": "Formulierung «nach den Artikeln 7 und 8» ohne Nennung eines anderen Erlasses; dies bezieht sich auf die eigenen Artikel 7 und 8 dieser Verordnung."
+  },
+  {
+    "ITEM": 9,
+    "ARTICLE_EID": "art_8_a",
+    "TARGET_SR": "self",
+    "assigned_articles": [
+      "Art. 9 Abs. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "«Die gestützt auf Artikel 9 Absatz 3 festgelegten offiziellen Zeichen …»; kein anderes SR genannt, daher interner Verweis auf Art. 9 Abs. 3 derselben Verordnung."
+  },
+  {
+    "ITEM": 10,
+    "ARTICLE_EID": "art_9",
+    "TARGET_SR": "SR 910.1",
+    "assigned_articles": [
+      "Art. 14 Abs. 4"
+    ],
+    "confidence": "high",
+    "reasoning": "«offizielle Zeichen nach Artikel 14 Absatz 4 des Landwirtschaftsgesetzes vom 29. April 1998»; das Landwirtschaftsgesetz ist SR 910.1, somit gehört Art. 14 Abs. 4 zu SR 910.1."
+  },
+  {
+    "ITEM": 11,
+    "ARTICLE_EID": "art_10",
+    "TARGET_SR": "self",
+    "assigned_articles": [
+      "Art. 8a"
+    ],
+    "confidence": "high",
+    "reasoning": "«gemäss Artikel 8a» ohne externes SR; klarer interner Verweis auf Art. 8a derselben Verordnung."
+  },
+  {
+    "ITEM": 12,
+    "ARTICLE_EID": "art_11",
+    "TARGET_SR": "self",
+    "assigned_articles": [
+      "Art. 14a Abs. 4"
+    ],
+    "confidence": "high",
+    "reasoning": "«Massnahmen nach Artikel 14a Absatz 4»; kein anderes SR, daher interner Verweis auf Art. 14a Abs. 4 dieser Verordnung."
+  },
+  {
+    "ITEM": 13,
+    "ARTICLE_EID": "art_11",
+    "TARGET_SR": "self",
+    "assigned_articles": [
+      "Art. 12",
+      "Art. 12a"
+    ],
+    "confidence": "high",
+    "reasoning": "«Pflichten nach den Artikeln 12 und 12a»; reine interne Strukturverweise innerhalb derselben Verordnung."
+  },
+  {
+    "ITEM": 14,
+    "ARTICLE_EID": "art_12",
+    "TARGET_SR": "self",
+    "assigned_articles": [
+      "Art. 8a"
+    ],
+    "confidence": "high",
+    "reasoning": "«Zutaten … nach Artikel 8a herstellen»; kein externes SR, daher interner Verweis auf Art. 8a."
+  },
+  {
+    "ITEM": 15,
+    "ARTICLE_EID": "art_12",
+    "TARGET_SR": "self",
+    "assigned_articles": [
+      "Art. 10 Abs. 2 Bst. a"
+    ],
+    "confidence": "high",
+    "reasoning": "«Erzeugnisse nach Artikel 10 Absatz 2 Buchstabe a»; interner Verweis auf Art. 10 Abs. 2 Bst. a derselben Verordnung."
+  },
+  {
+    "ITEM": 16,
+    "ARTICLE_EID": "art_12",
+    "TARGET_SR": "self",
+    "assigned_articles": [
+      "Art. 10 Abs. 2 Bst. a"
+    ],
+    "confidence": "high",
+    "reasoning": "Erneut «Erzeugnisse nach Artikel 10 Absatz 2 Buchstabe a»; ebenfalls interner Verweis auf Art. 10 Abs. 2 Bst. a."
+  },
+  {
+    "ITEM": 17,
+    "ARTICLE_EID": "art_13",
+    "TARGET_SR": "self",
+    "assigned_articles": [
+      "Art. 12 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "«Die Betriebe nach Artikel 12 Absatz 1»; klarer interner Verweis auf Art. 12 Abs. 1."
+  },
+  {
+    "ITEM": 18,
+    "ARTICLE_EID": "art_14_a",
+    "TARGET_SR": "self",
+    "assigned_articles": [
+      "Art. 11"
+    ],
+    "confidence": "high",
+    "reasoning": "«dass die Anforderungen nach Artikel 11 erfüllt sind»; interner Verweis auf Art. 11 derselben Verordnung."
+  },
+  {
+    "ITEM": 19,
+    "ARTICLE_EID": "art_14_b",
+    "TARGET_SR": "self",
+    "assigned_articles": [
+      "Art. 11"
+    ],
+    "confidence": "high",
+    "reasoning": "«Zertifizierungsstellen nach Artikel 11»; ebenfalls interner Verweis auf Art. 11."
+  },
+  {
+    "ITEM": 20,
+    "ARTICLE_EID": "art_16",
+    "TARGET_SR": "self",
+    "assigned_articles": [
+      "Art. 6"
+    ],
+    "confidence": "medium",
+    "reasoning": "«nach Artikel 6 der Berg- und Alp-Verordnung vom 8. November 2006»; der Name entspricht der vorliegenden Verordnung, es wird aber auf die frühere Fassung («bisheriges Recht») Bezug genommen. Mangels explizitem SR wird dies als interner historischer Verweis auf Art. 6 derselben Regelungsmaterie behandelt."
+  },
+  {
+    "ITEM": 21,
+    "ARTICLE_EID": "art_16",
+    "TARGET_SR": "self",
+    "assigned_articles": [
+      "Art. 3 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "«Erzeugnisse nach Artikel 3 Absatz 2»; interner Verweis auf Art. 3 Abs. 2."
+  },
+  {
+    "ITEM": 22,
+    "ARTICLE_EID": "art_16",
+    "TARGET_SR": "self",
+    "assigned_articles": [
+      "Art. 3 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Wiederum «Erzeugnisse nach Artikel 3 Absatz 2»; interner Verweis auf Art. 3 Abs. 2."
+  },
+  {
+    "ITEM": 23,
+    "ARTICLE_EID": "art_16",
+    "TARGET_SR": "self",
+    "assigned_articles": [
+      "Art. 3 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Erneut «Erzeugnisse nach Artikel 3 Absatz 2»; interner Verweis auf Art. 3 Abs. 2."
+  },
+  {
+    "ITEM": 24,
+    "ARTICLE_EID": "art_16_a",
+    "TARGET_SR": "self",
+    "assigned_articles": [
+      "Art. 11 Abs. 1 Bst. a",
+      "Art. 11 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "«nach Artikel 11 Absatz 1 Buchstabe a akkreditiert» und «Zertifizierungsstelle nach Artikel 11 Absatz 1»; beide Bezüge sind interne Verweise auf Art. 11 Abs. 1 bzw. Abs. 1 Bst. a."
+  }
+]

@@ -1,0 +1,84 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "art_3_a",
+    "TARGET_SR": "SR 913.1",
+    "assigned_articles": [
+      "Art. 14 Abs. 1 Bst. a"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Formulierung \"nach Artikel 14 Absatz 1 Buchstabe a der Strukturverbesserungsverordnung ... SR 913.1 (SVV)\" verknüpft den Artikel eindeutig mit der SVV (SR 913.1); andere Artikelangaben im Satz (Art. 3 Abs. 2) beziehen sich auf das eigene Dokument."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_3_a",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 14 Abs. 1 Bst. a",
+      "Art. 3 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Reine Artikelreferenzen ohne explizite SR-Nennung. \"Artikel 14 Absatz 1 Buchstabe a der Strukturverbesserungsverordnung (SVV)\" verweist auf ein anderes Erlasswerk (SVV), während \"Artikel 3 Absatz 2\" klar eine Selbstreferenz innerhalb des aktuellen Erlasses ist."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_3_a",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 14 Abs. 5 Bst. a"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Wendung \"nach Artikel 14 Absatz 5 Buchstabe a SVV\" verweist auf einen Artikel der Strukturverbesserungsverordnung; mangels expliziter SR-Nummer bleibt dies als reine Artikelreferenz ohne TARGET_SR."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "\"nach Artikel 3\" bezieht sich syntaktisch auf die Abgrenzung des Sömmerungsgebietes im selben Erlass; es wird kein anderes SR genannt, daher handelt es sich um eine interne Selbstreferenz."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_6",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "\"im Rahmen der Kriterien nach Artikel 2\" verweist auf einen Artikel desselben Erlasses; kein externer SR-Kontext vorhanden."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_6",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 3",
+      "Art. 4"
+    ],
+    "confidence": "high",
+    "reasoning": "\"im Rahmen der Kriterien nach den Artikeln 3 und 4\" ist eine typische interne Strukturverweisung innerhalb desselben Erlasses; es wird kein anderes SR-Dokument erwähnt."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_6",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 3a"
+    ],
+    "confidence": "high",
+    "reasoning": "\"Flächenabtausch nach Artikel 3a\" verweist auf einen weiteren Artikel (3a) des gleichen Erlasses; kein externer SR-Bezug."
+  },
+  {
+    "ITEM": 8,
+    "ARTICLE_EID": "art_6",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 3a"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Passage \"aufgrund eines Flächenabtauschs nach Artikel 3a\" ist wiederum eine interne Verweisung auf Art. 3a des aktuellen Erlasses; es wird kein anderes SR-Dokument genannt."
+  }
+]

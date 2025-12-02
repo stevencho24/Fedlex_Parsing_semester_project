@@ -1,0 +1,643 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 741.01",
+    "assigned_articles": [
+      "Art. 56",
+      "Art. 103"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Präambel nennt ausdrücklich: \"gestützt auf die Artikel 56 und 103 des Strassenverkehrsgesetzes ... SR 741.01\"; beide Artikel gehören somit eindeutig zu SR 741.01."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 822.221",
+    "assigned_articles": "General reference - entire document",
+    "confidence": "high",
+    "reasoning": "Die Norm grenzt den Geltungsbereich gegenüber der Chauffeurverordnung (ARV 1, SR 822.221) insgesamt ab, ohne bestimmte Artikel zu nennen; es handelt sich um eine generelle Verweisungs- bzw. Abgrenzungsnorm."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 822.11",
+    "assigned_articles": [
+      "Art. 17b"
+    ],
+    "confidence": "medium",
+    "reasoning": "Es wird auf das Arbeitsgesetz SR 822.11 verwiesen, \"insbesondere die Bestimmungen über die Kompensation der Nachtarbeit\". Diese Thematik ist im ArG primär in Art. 17b geregelt; daher Zuordnung zu Art. 17b als zentraler Kompensationsartikel, auch wenn der Text keinen Artikel nennt."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": "SR 741.41",
+    "assigned_articles": "General reference - entire document",
+    "confidence": "high",
+    "reasoning": "Art. 2 definiert lediglich das Akronym \"VTS\" für die Verordnung SR 741.41; es wird kein bestimmter Artikel der VTS genannt, sondern die Verordnung als Ganzes bezeichnet."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": "SR 741.31",
+    "assigned_articles": "General reference - entire document",
+    "confidence": "high",
+    "reasoning": "Art. 2 definiert das Akronym \"VVV\" für die Verkehrsversicherungsverordnung SR 741.31 insgesamt; keine artikelbezogene Einschränkung."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": "SR 741.013",
+    "assigned_articles": "General reference - entire document",
+    "confidence": "high",
+    "reasoning": "Art. 2 definiert das Akronym \"SKV\" für die Strassenverkehrskontrollverordnung SR 741.013 insgesamt; es wird kein bestimmter Artikel der SKV genannt."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": "SR 822.221",
+    "assigned_articles": [
+      "Art. 4 Abs. 2bis",
+      "Art. 13",
+      "Art. 14",
+      "Art. 15",
+      "Art. 16a",
+      "Art. 18",
+      "Art. 21 Abs. 2",
+      "Art. 24 Abs. 3",
+      "Art. 24 Abs. 4",
+      "Art. 24 Abs. 5"
+    ],
+    "confidence": "medium",
+    "reasoning": "Im Satzteil \"... in Verbindung mit Art. 4 Abs. 2bis ARV 1 SR 822.221\" ist Art. 4 Abs. 2bis direkt mit ARV 1 verknüpft. Zudem verweist derselbe Kontext (Art. 16a-Situation) systematisch auf die in Art. 16a dieser Verordnung genannten ARV‑1‑Bestimmungen (Art. 13–15, 16a, 18, 21 Abs. 2, 24 Abs. 3–5 ARV 1). Daher werden diese spezifischen Artikel der ARV 1 SR 822.221 zugeordnet."
+  },
+  {
+    "ITEM": 8,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": "SR 822.21",
+    "assigned_articles": "General reference - entire document",
+    "confidence": "high",
+    "reasoning": "Es wird auf die \"Bundesgesetzgebung über die Arbeit in Unternehmen des öffentlichen Verkehrs SR 822.21, SR 822.211\" als Ganzes verwiesen, um den Geltungsbereich auszunehmen; keine konkrete Artikelangabe."
+  },
+  {
+    "ITEM": 9,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": "SR 822.211",
+    "assigned_articles": "General reference - entire document",
+    "confidence": "high",
+    "reasoning": "Wie bei SR 822.21 wird die gesamte Spezialgesetzgebung SR 822.211 als Gegenregelung genannt; der Verweis dient der generellen Abgrenzung, ohne einzelne Artikel zu spezifizieren."
+  },
+  {
+    "ITEM": 10,
+    "ARTICLE_EID": "art_6",
+    "TARGET_SR": "SR 220",
+    "assigned_articles": [
+      "Art. 321c"
+    ],
+    "confidence": "medium",
+    "reasoning": "Die Bestimmung betrifft Überzeitarbeit und deren Ausgleich \"durch einen Lohnzuschlag nach Obligationenrecht SR 220 oder durch Freizeit\". Im OR regelt Art. 321c die Überstunden und deren Zuschlag; daher ist dieser Artikel sachlich der einschlägige Bezug."
+  },
+  {
+    "ITEM": 11,
+    "ARTICLE_EID": "art_16_a",
+    "TARGET_SR": "SR 741.41",
+    "assigned_articles": [
+      "Art. 100 Abs. 2",
+      "Art. 100 Abs. 3",
+      "Art. 100 Abs. 4",
+      "Art. 222 Abs. 9 Bst. c"
+    ],
+    "confidence": "high",
+    "reasoning": "snippet_acronym nennt ausdrücklich \"Artikel 100 Absätze 2–4 VTS\" sowie \"Art. 222 Abs. 9 Bst. c zweiter Satz VTS\"; diese Artikel gehören zur VTS SR 741.41 und sind direkt mit dem Fahrtschreiber verknüpft."
+  },
+  {
+    "ITEM": 12,
+    "ARTICLE_EID": "art_16_a",
+    "TARGET_SR": "SR 741.41",
+    "assigned_articles": [
+      "Art. 100 Abs. 2",
+      "Art. 100 Abs. 3",
+      "Art. 100 Abs. 4",
+      "Art. 222 Abs. 9 Bst. c"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Satz wiederholt denselben Inhalt wie bei ITEM 11, nun mit explizitem SR‑Hinweis; die genannten Artikel 100 Abs. 2–4 und 222 Abs. 9 Bst. c VTS sind eindeutig SR 741.41 zuzuordnen."
+  },
+  {
+    "ITEM": 13,
+    "ARTICLE_EID": "art_16_a",
+    "TARGET_SR": "SR 822.221",
+    "assigned_articles": [
+      "Art. 13",
+      "Art. 14",
+      "Art. 15",
+      "Art. 16a",
+      "Art. 18",
+      "Art. 21 Abs. 2",
+      "Art. 24 Abs. 3",
+      "Art. 24 Abs. 4",
+      "Art. 24 Abs. 5"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Satz lautet: \"... so gelten ... die Artikel 13–15, 16a, 18, 21 Absatz 2 und 24 Absätze 3–5 ARV 1 SR 822.221.\"; diese Artikel sind ausdrücklich mit ARV 1 (SR 822.221) verknüpft."
+  },
+  {
+    "ITEM": 14,
+    "ARTICLE_EID": "art_31",
+    "TARGET_SR": "SR 741.013",
+    "assigned_articles": "General reference - entire document",
+    "confidence": "high",
+    "reasoning": "Art. 31 verweist allgemein darauf, dass sich die Kontrolle nach der Strassenverkehrskontrollverordnung SR 741.013 richtet; es werden keine bestimmten Artikel der SKV genannt."
+  },
+  {
+    "ITEM": 15,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 3 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "Interne Selbstverweisung: \"... ein Fahrzeug nach Artikel 3 Absatz 1 lenkt\" bezieht sich auf Art. 3 Abs. 1 derselben Verordnung; kein externer SR‑Bezug."
+  },
+  {
+    "ITEM": 16,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 3 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "Auch hier: \"... ein Fahrzeug nach Artikel 3 Absatz 1 lenkt\" ist eine interne Verweisung auf Art. 3 Abs. 1 der vorliegenden Verordnung."
+  },
+  {
+    "ITEM": 17,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 31 Abs. 1",
+      "Art. 4 SKV"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Klammer \"(Art. 31 Abs. 1)\" verweist intern auf Art. 31 Abs. 1 derselben Verordnung. \"Artikel 4 SKV\" verweist auf Art. 4 der Strassenverkehrskontrollverordnung (SR 741.013), jedoch ohne expliziten SR‑Link in diesem Item; nach Vorgabe ist dies als SR‑Link selbst zu behandeln, aber ohne TARGET_SR‑Feld."
+  },
+  {
+    "ITEM": 18,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 10 Abs. 2 VTS",
+      "Art. 11 Abs. 2 Bst. b VTS",
+      "Art. 11 Abs. 2 Bst. d VTS",
+      "Art. 4 Abs. 2bis ARV 1",
+      "Art. 15 VTS"
+    ],
+    "confidence": "high",
+    "reasoning": "Alle genannten Artikel (Art. 10 Abs. 2 VTS, Art. 11 Abs. 2 Bst. b und d VTS, Art. 15 VTS, Art. 4 Abs. 2bis ARV 1) sind explizite Verweisungen auf andere Erlasse (VTS und ARV 1), ohne dass in diesem Item ein SR‑Link geführt wird; daher als reine Artikelverweis-Struktur ohne TARGET_SR."
+  },
+  {
+    "ITEM": 19,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 7",
+      "Art. 8",
+      "Art. 9",
+      "Art. 10",
+      "Art. 11"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Formulierung \"müssen die Artikel 7–11 einhalten\" ist eine interne Verweisung auf die eigenen Artikel 7 bis 11 der Verordnung."
+  },
+  {
+    "ITEM": 20,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 3 Abs. 1",
+      "Art. 15",
+      "Art. 16",
+      "Art. 16a",
+      "Art. 23"
+    ],
+    "confidence": "high",
+    "reasoning": "Verweis auf \"Fahrzeug nach Artikel 3 Absatz 1\" (interner Art. 3 Abs. 1) sowie auf die eigenen Artikel 15–16a und 23; alles interne Strukturverweise."
+  },
+  {
+    "ITEM": 21,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 14"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Klammer \"(Art. 14)\" bezieht sich auf Art. 14 derselben Verordnung; keine externe SR‑Verknüpfung."
+  },
+  {
+    "ITEM": 22,
+    "ARTICLE_EID": "art_6",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 5 Abs. 1",
+      "Art. 5 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Die wöchentliche Höchstarbeitszeit wird mit \"(Art. 5 Abs. 1 und 2)\" konkretisiert; dies sind interne Verweisungen auf Art. 5 Abs. 1 und 2 der Verordnung."
+  },
+  {
+    "ITEM": 23,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 9"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Lenkzeit wird in Bezug auf die \"tägliche Ruhezeit (Art. 9)\" gesetzt; interner Verweis auf Art. 9."
+  },
+  {
+    "ITEM": 24,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 6"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Bestimmung verweist auf \"Überzeitarbeit (Art. 6)\"; interner Verweis auf Art. 6."
+  },
+  {
+    "ITEM": 25,
+    "ARTICLE_EID": "art_11",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 9"
+    ],
+    "confidence": "high",
+    "reasoning": "Der wöchentliche Ruhetag wird mit der \"täglichen Ruhezeit (Art. 9)\" verknüpft; interner Verweis."
+  },
+  {
+    "ITEM": 26,
+    "ARTICLE_EID": "art_12",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 5",
+      "Art. 6"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Verschiebung der freien Halbtage darf nicht zu einer Überschreitung der nach \"Artikel 5 und 6\" zulässigen Beanspruchung führen; interne Verweisungen auf Art. 5 und 6."
+  },
+  {
+    "ITEM": 27,
+    "ARTICLE_EID": "art_12",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 9"
+    ],
+    "confidence": "high",
+    "reasoning": "Die tägliche Ruhezeit wird in Klammern als \"(Art. 9)\" genannt; interner Verweis."
+  },
+  {
+    "ITEM": 28,
+    "ARTICLE_EID": "art_13",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 9",
+      "Art. 11",
+      "Art. 12"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Norm nennt ausdrücklich \"tägliche Ruhezeit (Art. 9)\", \"wöchentlicher Ruhetag (Art. 11)\" und \"wöchentlicher freie Halbtag (Art. 12)\"; alles interne Verweisungen."
+  },
+  {
+    "ITEM": 29,
+    "ARTICLE_EID": "art_14",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 5",
+      "Art. 6",
+      "Art. 7",
+      "Art. 8",
+      "Art. 9",
+      "Art. 10",
+      "Art. 11",
+      "Art. 12"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Klammer \"(Art. 5–12)\" verweist auf die eigenen Artikel 5 bis 12; interne Struktur."
+  },
+  {
+    "ITEM": 30,
+    "ARTICLE_EID": "art_14",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 15",
+      "Art. 16",
+      "Art. 16a"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Aufzeichnungen des Fahrtschreibers werden mit \"(Art. 15–16a)\" konkretisiert; interne Verweisungen auf Art. 15, 16 und 16a."
+  },
+  {
+    "ITEM": 31,
+    "ARTICLE_EID": "art_14",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 17",
+      "Art. 18",
+      "Art. 19 Abs. 1",
+      "Art. 25 Abs. 4"
+    ],
+    "confidence": "high",
+    "reasoning": "Es werden \"Arbeitsbuch (Art. 17 und 18)\", \"betriebsinterne Tagesrapporte (Art. 19 Abs. 1)\" und \"Kontrollkarten (Art. 25 Abs. 4)\" genannt; alles interne Verweisungen."
+  },
+  {
+    "ITEM": 32,
+    "ARTICLE_EID": "art_14",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 21"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Aufstellung über die Arbeits-, Lenk- und Ruhezeit wird mit \"(Art. 21)\" bezeichnet; interner Verweis."
+  },
+  {
+    "ITEM": 33,
+    "ARTICLE_EID": "art_16",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 23 Abs. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Aufbewahrungspflicht wird mit \"(Art. 23 Abs. 3)\" konkretisiert; interner Verweis auf Art. 23 Abs. 3."
+  },
+  {
+    "ITEM": 34,
+    "ARTICLE_EID": "art_17",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Formulierung \"Fahrzeuges nach Artikel 3\" verweist intern auf Art. 3 der Verordnung."
+  },
+  {
+    "ITEM": 35,
+    "ARTICLE_EID": "art_18",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 19 Abs. 1",
+      "Art. 25 Abs. 4"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Norm nennt \"betriebsinterne Tagesrapporte und Kontrollkarten (Art. 19 Abs. 1 und 25 Abs. 4)\"; interne Verweisungen."
+  },
+  {
+    "ITEM": 36,
+    "ARTICLE_EID": "art_19",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 18 Abs. 2",
+      "Art. 18 Abs. 3",
+      "Art. 18 Abs. 4"
+    ],
+    "confidence": "high",
+    "reasoning": "Es wird auf \"nach Artikel 18 Absätze 2 und 3\" sowie \"Fällen von Artikel 18 Absatz 4\" verwiesen; interne Verweisungen auf Art. 18 Abs. 2–4."
+  },
+  {
+    "ITEM": 37,
+    "ARTICLE_EID": "art_19",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 18 Abs. 4 Bst. a"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Klammer \"(Art. 18 Abs. 4 Bst. a)\" verweist intern auf Art. 18 Abs. 4 Buchstabe a."
+  },
+  {
+    "ITEM": 38,
+    "ARTICLE_EID": "art_20",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 5",
+      "Art. 6",
+      "Art. 7",
+      "Art. 8",
+      "Art. 9",
+      "Art. 10",
+      "Art. 11",
+      "Art. 12",
+      "Art. 21"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Bestimmung erlaubt Abweichungen von den Bestimmungen über die Arbeits-, Lenk- und Ruhezeit \"(Art. 5–12)\" und verlangt Eintragungen in der Aufstellung \"(Art. 21)\"; interne Verweisungen auf Art. 5–12 und 21."
+  },
+  {
+    "ITEM": 39,
+    "ARTICLE_EID": "art_21",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 19 Abs. 1",
+      "Art. 25 Abs. 4",
+      "Art. 5",
+      "Art. 6",
+      "Art. 7",
+      "Art. 8",
+      "Art. 9",
+      "Art. 10",
+      "Art. 11",
+      "Art. 12"
+    ],
+    "confidence": "high",
+    "reasoning": "Es wird auf \"Tagesrapporte und Kontrollkarten (Art. 19 Abs. 1, Art. 25 Abs. 4)\" sowie auf die Bestimmungen über die Arbeits-, Lenk- und Ruhezeit \"(Art. 5–12)\" verwiesen; alles interne Verweisungen."
+  },
+  {
+    "ITEM": 40,
+    "ARTICLE_EID": "art_21",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 19 Abs. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Formulierung \"Führer, die nach Artikel 19 Absatz 3 von der Führung des Arbeitsbuches befreit sind\" verweist intern auf Art. 19 Abs. 3."
+  },
+  {
+    "ITEM": 41,
+    "ARTICLE_EID": "art_22",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 5",
+      "Art. 6",
+      "Art. 7",
+      "Art. 8",
+      "Art. 9",
+      "Art. 10",
+      "Art. 11",
+      "Art. 12"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Bestimmung nennt die Einhaltung der Bestimmungen über die Arbeits-, Lenk- und Ruhezeit \"(Art. 5–12)\"; interne Verweisungen auf Art. 5–12."
+  },
+  {
+    "ITEM": 42,
+    "ARTICLE_EID": "art_22",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 5",
+      "Art. 6",
+      "Art. 7",
+      "Art. 8",
+      "Art. 9",
+      "Art. 10",
+      "Art. 11",
+      "Art. 12",
+      "Art. 15",
+      "Art. 16",
+      "Art. 16a",
+      "Art. 17",
+      "Art. 18",
+      "Art. 19"
+    ],
+    "confidence": "high",
+    "reasoning": "Es wird auf die Einhaltung der Bestimmungen über die Arbeits-, Lenk- und Ruhezeit \"(Art. 5–12)\" sowie auf die Kontrollmittel \"(Art. 15–19)\" verwiesen; interne Verweisungen auf Art. 5–12 und 15–19."
+  },
+  {
+    "ITEM": 43,
+    "ARTICLE_EID": "art_23",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 21"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Aufstellung über die Arbeits-, Lenk- und Ruhezeit wird mit \"(Art. 21)\" bezeichnet; interner Verweis."
+  },
+  {
+    "ITEM": 44,
+    "ARTICLE_EID": "art_23",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 16",
+      "Art. 16a"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Einlageblätter und Wochenbündel des Fahrtschreibers werden mit \"(Art. 16 und 16a)\" konkretisiert; interne Verweisungen."
+  },
+  {
+    "ITEM": 45,
+    "ARTICLE_EID": "art_23",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 18"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Wochen- und Tagesblätter des Arbeitsbuches werden mit \"(Art. 18)\" bezeichnet; interner Verweis."
+  },
+  {
+    "ITEM": 46,
+    "ARTICLE_EID": "art_23",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 19 Abs. 1",
+      "Art. 25 Abs. 4",
+      "Art. 16 Abs. 2",
+      "Art. 19 Abs. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "Es werden \"Tagesrapporte (Art. 19 Abs. 1)\", \"Kontrollkarten (Art. 25 Abs. 4)\", \"Bewilligungen (Art. 16 Abs. 2)\" und \"Befreiungsverfügungen (Art. 19 Abs. 1 und 3)\" genannt; alles interne Verweisungen."
+  },
+  {
+    "ITEM": 47,
+    "ARTICLE_EID": "art_25",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 5",
+      "Art. 6",
+      "Art. 8",
+      "Art. 9",
+      "Art. 11",
+      "Art. 12",
+      "Art. 17",
+      "Art. 18",
+      "Art. 21"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Kantone können anstelle der Artikel 5, 6, 8, 9, 11, 12, 17, 18 und 21 andere Bestimmungen erlassen; interne Verweisungen auf diese Artikel."
+  },
+  {
+    "ITEM": 48,
+    "ARTICLE_EID": "art_25",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 17",
+      "Art. 18"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Kontrollkarten können anstelle des Arbeitsbuches \"(Art. 17 und 18)\" geführt werden; interner Verweis."
+  },
+  {
+    "ITEM": 49,
+    "ARTICLE_EID": "art_28",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 5",
+      "Art. 6",
+      "Art. 7",
+      "Art. 8",
+      "Art. 9",
+      "Art. 10",
+      "Art. 11",
+      "Art. 12",
+      "Art. 13"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Bestimmungen über die Arbeits-, Lenk- und Ruhezeit werden als \"(Art. 5–13)\" bezeichnet; interne Verweisungen auf Art. 5–13."
+  },
+  {
+    "ITEM": 50,
+    "ARTICLE_EID": "art_28",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 15",
+      "Art. 16",
+      "Art. 16a",
+      "Art. 17",
+      "Art. 18",
+      "Art. 19",
+      "Art. 20",
+      "Art. 21",
+      "Art. 22",
+      "Art. 23"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Kontrollbestimmungen werden als \"(Art. 15–23)\" bezeichnet; interne Verweisungen auf Art. 15–23."
+  },
+  {
+    "ITEM": 51,
+    "ARTICLE_EID": "art_28",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 25",
+      "Art. 27"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Sonderbestimmungen werden als \"(Art. 25 und 27)\" bezeichnet; interne Verweisungen auf Art. 25 und 27."
+  },
+  {
+    "ITEM": 52,
+    "ARTICLE_EID": "art_30",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 14 SVG",
+      "Art. 16 SVG"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Norm verweist auf \"Artikel 14 oder 16 SVG\"; dies sind Artikel 14 und 16 des Strassenverkehrsgesetzes (SVG, SR 741.01). Da hier kein expliziter SR‑Link im Item steht, wird es als reine Artikelverweis-Struktur ohne TARGET_SR geführt."
+  },
+  {
+    "ITEM": 53,
+    "ARTICLE_EID": "art_31",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Behörde erstellt ein Verzeichnis der Betriebe, die Fahrzeuge nach \"Artikel 3\" einsetzen; interner Verweis auf Art. 3 der Verordnung."
+  }
+]

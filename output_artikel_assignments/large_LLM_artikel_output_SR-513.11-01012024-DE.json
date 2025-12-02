@@ -1,0 +1,64 @@
+[
+  {
+    "Item": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 510.10",
+    "assigned_articles": [
+      "Art. 60 Abs. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet explicitly cites 'Artikel 60 Absatz 3 des Militärgesetzes ... SR 510.10 (MG)'; this article reference is syntactically and semantically linked to SR 510.10."
+  },
+  {
+    "Item": 2,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 513.1",
+    "assigned_articles": [
+      "Art. 4 Abs. 1",
+      "Art. 4 Abs. 2",
+      "Art. 6 lit. c"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet states 'auf die Artikel 4 Absätze 1 und 2 erster Halbsatz sowie 6 Buchstabe c der Armeeorganisation ... SR 513.1 (AO)'; these articles are directly and unambiguously attributed to SR 513.1."
+  },
+  {
+    "Item": 3,
+    "ARTICLE_EID": "art_6",
+    "TARGET_SR": "SR 512.21",
+    "assigned_articles": [
+      "Art. 33 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "The text refers to 'besondere persönliche Verhältnisse gemäss Artikel 33 Absatz 2 der Verordnung ... SR 512.21 über die Militärdienstpflicht'; Art. 33 Abs. 2 is clearly linked to SR 512.21."
+  },
+  {
+    "Item": 4,
+    "ARTICLE_EID": "art_6",
+    "TARGET_SR": "SR 510.10",
+    "assigned_articles": [
+      "Art. 6"
+    ],
+    "confidence": "high",
+    "reasoning": "This preamble_acronym item cites 'der Armee zugewiesene Personen nach Artikel 6 MG'; MG is defined as SR 510.10, so Art. 6 belongs to SR 510.10."
+  },
+  {
+    "Item": 5,
+    "ARTICLE_EID": "art_6",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "This artikel_reference line repeats 'Artikel 6 MG' already captured and linked to SR 510.10 in Item 4; within the current document context it functions as an internal cross-reference rather than a new SR assignment."
+  },
+  {
+    "Item": 6,
+    "ARTICLE_EID": "art_6",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet mentions 'Artikel 33 Absatz 2 der Verordnung ... über die Militärdienstpflicht' without an explicit SR link here; the SR linkage (SR 512.21) is already handled in Item 3, so this functions as an internal cross-reference in the document."
+  }
+]

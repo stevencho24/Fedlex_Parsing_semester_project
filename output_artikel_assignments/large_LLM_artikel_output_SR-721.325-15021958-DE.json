@@ -1,0 +1,64 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 101",
+    "assigned_articles": [
+      "Art. 85 Ziff. 5",
+      "Art. 23"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Präambel nennt ausdrücklich «gestützt auf die Artikel 85 Ziffer 5 und 23 der Bundesverfassung SR 101»; beide Artikel gehören damit klar zur SR 101."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 0.721.325",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "Art. 1 genehmigt das Abkommen als Ganzes («geschlossene Abkommen ... wird genehmigt») ohne einzelne Bestimmungen zu nennen; dies ist eine generelle Genehmigung des gesamten Abkommens."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": "SR 0.721.325",
+    "assigned_articles": [
+      "Art. II"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Beitrag bezieht sich auf «die ... in Artikel II obgenannten Abkommens ... umschriebenen Regulierungsarbeiten»; damit ist klar Art. II des Abkommens SR 0.721.325 gemeint."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": "SR 711",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "medium",
+    "reasoning": "Es wird nur «gemäss Enteignungsgesetz SR 711» erwähnt, ohne konkrete Artikelangabe; der Verweis betrifft die Anwendung des Enteignungsgesetzes insgesamt bzw. seiner einschlägigen Bestimmungen, ohne dass einzelne Artikel identifizierbar wären."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": "SR 101",
+    "assigned_articles": [
+      "Art. 89 Abs. 4",
+      "Art. 89 Abs. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Text lautet: «Bestimmungen von Artikel 89 Absatz 4 der Bundesverfassung SR 101. Es handelt sich um Abs. 4 in der Fassung vom 22. Jan. 1939 ... Dieser Bestimmung entspricht heute Abs. 3.»; damit ist sowohl die frühere Fassung (Abs. 4 a.F.) als auch die heutige Entsprechung (Abs. 3) angesprochen."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Stelle wiederholt ohne SR-Angabe «Artikel 89 Absatz 4 der Bundesverfassung» und steht als artikel_reference; da der explizite SR-Bezug bereits in ITEM 5 erfasst ist, handelt es sich hier funktional um eine interne/selbstreferenzielle Wiederholung im selben Dokument, nicht um einen neuen, eigenständigen SR-Link."
+  }
+]

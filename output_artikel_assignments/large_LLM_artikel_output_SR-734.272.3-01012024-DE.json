@@ -1,0 +1,265 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 734.27",
+    "assigned_articles": [
+      "Art. 8 Abs. 3",
+      "Art. 21 Abs. 2",
+      "Art. 37 Abs. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Präambel nennt ausdrücklich: «Artikel 8 Absatz 3, 21 Absatz 2 und 37 Absatz 3 der Niederspannungs-Installationsverordnung … SR 734.27 (NIV)»; alle drei Artikel sind direkt und syntaktisch der NIV (SR 734.27) zugeordnet."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 412.101",
+    "assigned_articles": [
+      "Art. 69a Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Satz: «… Eignungsprüfungen nach Artikel 69a Absatz 2 der Berufsbildungsverordnung … SR 412.101 …» wird Art. 69a Abs. 2 unmittelbar mit der Berufsbildungsverordnung (SR 412.101) verknüpft."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_15",
+    "TARGET_SR": "SR 734.24",
+    "assigned_articles": [
+      "Art. 9",
+      "Art. 10"
+    ],
+    "confidence": "high",
+    "reasoning": "Formulierung: «… Gebühren nach den Artikeln 9 und 10 der Verordnung vom 7. Dezember 1992 SR 734.24 …»; die Artikel 9 und 10 sind klar dieser Verordnung (SR 734.24) zugeordnet."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 734.27",
+    "assigned_articles": [
+      "Art. 8 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "«… Fachkundigkeit nach Artikel 8 Absatz 2 NIV»; NIV ist in der Präambel als SR 734.27 definiert, der Artikel wird direkt mit der Abkürzung verknüpft."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": "SR 734.27",
+    "assigned_articles": [
+      "Art. 8 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Zweimalige Nennung: «… Ausbildung nach Artikel 8 Absatz 2 Buchstabe a–c NIV …» und «… gemäss Artikel 8 Absatz 2 Einleitungssatz NIV …»; beide Verweise beziehen sich auf denselben Artikel 8 Abs. 2 NIV (SR 734.27)."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_6",
+    "TARGET_SR": "SR 734.27",
+    "assigned_articles": [
+      "Art. 8 Abs. 1",
+      "Art. 8 Abs. 2",
+      "Art. 14 Abs. 1 Bst. b",
+      "Art. 15 Abs. 1 Bst. b"
+    ],
+    "confidence": "high",
+    "reasoning": "Im ersten Teil: «… unter Aufsicht einer fachkundigen Person (Art. 8 Abs. 1 und 2 NIV) …»; im zweiten Teil: «… richtet sich nach den Artikeln 14 Absatz 1 Buchstabe b und 15 Absatz 1 Buchstabe b NIV.»; alle genannten Artikel sind explizit der NIV (SR 734.27) zugeordnet."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_13",
+    "TARGET_SR": "SR 734.27",
+    "assigned_articles": [
+      "Art. 37 Abs. 1",
+      "Art. 15 Abs. 4"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet enthält: «… Angaben nach Artikel 37 Absatz 1 NIV …» sowie «… im Sinne von Artikel 15 Absatz 4 NIV …»; beide Artikel werden ausdrücklich mit NIV (SR 734.27) verbunden."
+  },
+  {
+    "ITEM": 8,
+    "ARTICLE_EID": "art_14",
+    "TARGET_SR": "SR 734.27",
+    "assigned_articles": [
+      "Art. 24 Abs. 1",
+      "Art. 24 Abs. 2",
+      "Art. 35 Abs. 3",
+      "Art. 36",
+      "Art. 39 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "Aufzählung: «(Art. 24 Abs. 1 NIV)», «(Art. 24 Abs. 2 NIV)», «(Art. 35 Abs. 3 NIV)», «(Art. 36 NIV)», «(Art. 39 Abs. 1 NIV)»; alle mit NIV (SR 734.27) bezeichnet."
+  },
+  {
+    "ITEM": 9,
+    "ARTICLE_EID": "art_16",
+    "TARGET_SR": "SR 734.27",
+    "assigned_articles": [],
+    "confidence": "low",
+    "reasoning": "Es wird nur die «Verordnung des UVEK vom 15. Mai 2002 über elektrische Niederspannungsinstallationen» als Ganzes aufgehoben; keine Artikel dieser Verordnung werden genannt. UVEK ist im Preamble-Callback zwar mit SR 734.27 verknüpft, hier geht es aber um eine andere (aufgehobene) Verordnung, nicht um Artikel der NIV. Daher keine Artikelzuordnung zu SR 734.27."
+  },
+  {
+    "ITEM": 10,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 8 Abs. 2 NIV"
+    ],
+    "confidence": "high",
+    "reasoning": "«… nach Artikel 8 Absatz 2 NIV»; dies ist ein Verweis auf die NIV (SR 734.27), nicht auf die vorliegende Verordnung. Als artikel_reference ohne TARGET_SR ist dies ein ausgehender Verweis; der genannte Artikel gehört zur NIV."
+  },
+  {
+    "ITEM": 11,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 69a Abs. 2 BBV"
+    ],
+    "confidence": "high",
+    "reasoning": "«… nach Artikel 69a Absatz 2 der Berufsbildungsverordnung …»; dies verweist auf die Berufsbildungsverordnung (SR 412.101). Als artikel_reference ohne TARGET_SR ist es ein externer Verweis; der Artikel gehört zur BBV, nicht zur eigenen Verordnung."
+  },
+  {
+    "ITEM": 12,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 8 Abs. 2 NIV"
+    ],
+    "confidence": "high",
+    "reasoning": "«… Ausbildung nach Artikel 8 Absatz 2 Buchstabe a–c NIV …»; klarer externer Verweis auf die NIV (SR 734.27)."
+  },
+  {
+    "ITEM": 13,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 8 Abs. 2 NIV"
+    ],
+    "confidence": "high",
+    "reasoning": "«… gemäss Artikel 8 Absatz 2 Einleitungssatz NIV …»; ebenfalls ein externer Verweis auf denselben Artikel der NIV."
+  },
+  {
+    "ITEM": 14,
+    "ARTICLE_EID": "art_6",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 8 Abs. 1 NIV",
+      "Art. 8 Abs. 2 NIV"
+    ],
+    "confidence": "high",
+    "reasoning": "«… unter Aufsicht einer fachkundigen Person (Art. 8 Abs. 1 und 2 NIV) …»; beide Artikel gehören zur NIV (SR 734.27)."
+  },
+  {
+    "ITEM": 15,
+    "ARTICLE_EID": "art_6",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 14 Abs. 1 Bst. b NIV",
+      "Art. 15 Abs. 1 Bst. b NIV"
+    ],
+    "confidence": "high",
+    "reasoning": "«… richtet sich nach den Artikeln 14 Absatz 1 Buchstabe b und 15 Absatz 1 Buchstabe b NIV.»; beide Artikel sind eindeutig der NIV zugeordnet."
+  },
+  {
+    "ITEM": 16,
+    "ARTICLE_EID": "art_8",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 7 Abs. 2",
+      "Art. 7 Abs. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "«… gilt Artikel 7 Absatz 2 und 3 sinngemäss.»; mangels Nennung einer anderen Verordnung handelt es sich um eine Selbstreferenz innerhalb derselben Verordnung (Art. 7 Abs. 2 und 3 dieser Verordnung)."
+  },
+  {
+    "ITEM": 17,
+    "ARTICLE_EID": "art_10",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 7 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "«… Mittel aus den Noten in den einzelnen Prüfungen nach Artikel 7 Absatz 2.»; ebenfalls eine interne Verweisung auf Art. 7 Abs. 2 derselben Verordnung."
+  },
+  {
+    "ITEM": 18,
+    "ARTICLE_EID": "art_13",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 37 Abs. 1 NIV"
+    ],
+    "confidence": "high",
+    "reasoning": "«… neben den Angaben nach Artikel 37 Absatz 1 NIV …»; externer Verweis auf die NIV (SR 734.27)."
+  },
+  {
+    "ITEM": 19,
+    "ARTICLE_EID": "art_13",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 15 Abs. 4 NIV"
+    ],
+    "confidence": "high",
+    "reasoning": "«… im Sinne von Artikel 15 Absatz 4 NIV …»; ebenfalls externer Verweis auf die NIV."
+  },
+  {
+    "ITEM": 20,
+    "ARTICLE_EID": "art_14",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 24 Abs. 1 NIV"
+    ],
+    "confidence": "high",
+    "reasoning": "«baubegleitende Erstprüfung (Art. 24 Abs. 1 NIV);»; klarer externer Verweis auf die NIV."
+  },
+  {
+    "ITEM": 21,
+    "ARTICLE_EID": "art_14",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 24 Abs. 2 NIV"
+    ],
+    "confidence": "high",
+    "reasoning": "«Schlusskontrolle (Art. 24 Abs. 2 NIV);»; externer Verweis auf die NIV."
+  },
+  {
+    "ITEM": 22,
+    "ARTICLE_EID": "art_14",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 35 Abs. 3 NIV"
+    ],
+    "confidence": "high",
+    "reasoning": "«Abnahmekontrolle (Art. 35 Abs. 3 NIV);»; externer Verweis auf die NIV."
+  },
+  {
+    "ITEM": 23,
+    "ARTICLE_EID": "art_14",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 36 NIV"
+    ],
+    "confidence": "high",
+    "reasoning": "«periodische Kontrolle (Art. 36 NIV);»; externer Verweis auf die NIV."
+  },
+  {
+    "ITEM": 24,
+    "ARTICLE_EID": "art_14",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 39 Abs. 1 NIV"
+    ],
+    "confidence": "high",
+    "reasoning": "«Stichprobenkontrolle (Art. 39 Abs. 1 NIV).»; externer Verweis auf die NIV."
+  },
+  {
+    "ITEM": 25,
+    "ARTICLE_EID": "art_15",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 9",
+      "Art. 10"
+    ],
+    "confidence": "high",
+    "reasoning": "«… Gebühren nach den Artikeln 9 und 10 der Verordnung vom 7. Dezember 1992 über das Eidgenössische Starkstrominspektorat.»; dies ist ein externer Verweis auf die Verordnung SR 734.24, nicht auf eigene Artikel."
+  }
+]

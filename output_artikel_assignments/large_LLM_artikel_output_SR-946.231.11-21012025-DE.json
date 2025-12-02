@@ -1,0 +1,91 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 946.231",
+    "assigned_articles": [
+      "Art. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet explicitly states 'gestützt auf Artikel 2 des Embargogesetzes ... SR 946.231'; Art. 2 is directly and syntactically linked to SR 946.231."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": "SR 632.10",
+    "assigned_articles": [
+      "Anhang (Zolltarifnummern 7102.10, 7102.21, 7102.31)"
+    ],
+    "confidence": "high",
+    "reasoning": "The text defines 'Rohdiamanten' by reference to 'Diamanten der Zolltarifnummern SR 632.10 Anhang 7102.10, 7102.21 und 7102.31.' This is a reference to the annex of SR 632.10 specifying those tariff numbers, not to a numbered article; therefore the relevant part is the annex with those positions."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_10",
+    "TARGET_SR": "SR 170.512.1",
+    "assigned_articles": [
+      "Art. 20 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "The authorial note states that the designation was changed 'in Anwendung von Art. 20 Abs. 2 der Publikationsverordnung ... (SR 170.512.1)'; Art. 20 Abs. 2 is explicitly and directly linked to SR 170.512.1."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_6",
+    "TARGET_SR": "self",
+    "assigned_articles": [
+      "Art. 3",
+      "Art. 4"
+    ],
+    "confidence": "high",
+    "reasoning": "The sentence 'Solange die Rohdiamanten ... sind die Artikel 3 und 4 nicht anwendbar.' contains no SR citation and clearly refers to articles within the same ordinance (self-reference)."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_11",
+    "TARGET_SR": "SR 946.231",
+    "assigned_articles": [
+      "Art. 3",
+      "Art. 4",
+      "Art. 5",
+      "Art. 6",
+      "Art. 7",
+      "Art. 9"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet: 'Wer gegen die Artikel 3–7 dieser Verordnung verstösst, wird nach Artikel 9 des Embargogesetzes bestraft.' The range 3–7 is self-reference ('dieser Verordnung'). 'Artikel 9 des Embargogesetzes' is syntactically linked to 'des Embargogesetzes', which is SR 946.231; thus Art. 9 of SR 946.231 is the external article. Internal articles 3–7 are also referenced but belong to the current ordinance, not to SR 946.231."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_11",
+    "TARGET_SR": "SR 946.231",
+    "assigned_articles": [
+      "Art. 9",
+      "Art. 10"
+    ],
+    "confidence": "high",
+    "reasoning": "The text: 'Wer gegen Artikel 9 dieser Verordnung verstösst, wird nach Artikel 10 des Embargogesetzes bestraft.' 'Artikel 9 dieser Verordnung' is a self-reference. 'Artikel 10 des Embargogesetzes' is explicitly tied to the Embargogesetz (SR 946.231), so Art. 10 of SR 946.231 is the external reference."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_11",
+    "TARGET_SR": "SR 946.231",
+    "assigned_articles": [
+      "Art. 9",
+      "Art. 10"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet: 'Verstösse nach den Artikeln 9 und 10 des Embargogesetzes werden vom SECO verfolgt und beurteilt.' Both articles are explicitly linked to 'des Embargogesetzes', i.e., SR 946.231; thus Art. 9 and Art. 10 of SR 946.231 are referenced."
+  },
+  {
+    "ITEM": 8,
+    "ARTICLE_EID": "art_11",
+    "TARGET_SR": "SR 946.231",
+    "assigned_articles": [
+      "Art. 11 Abs. 2",
+      "Art. 14 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "The text: 'Vorbehalten bleiben die Artikel 11 Absatz 2 und 14 Absatz 2 des Embargogesetzes.' Both articles with their specified paragraphs are explicitly attributed to 'des Embargogesetzes', i.e., SR 946.231."
+  }
+]

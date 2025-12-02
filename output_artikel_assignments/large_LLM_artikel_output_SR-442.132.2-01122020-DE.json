@@ -1,0 +1,92 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 442.1",
+    "assigned_articles": [
+      "Art. 34 Abs. 5 Bst. i"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Formulierung «gestützt auf Artikel 34 Absatz 5 Buchstabe i des Kulturförderungsgesetzes … SR 442.1» verknüpft den genannten Artikel syntaktisch eindeutig mit SR 442.1."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 447.11",
+    "assigned_articles": [
+      "Art. 2 Abs. 3 Bst. j"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Satz «… nach Artikel 2 Absatz 3 Buchstabe j der Geschäftsordnung der Stiftung Pro Helvetia … SR 447.11» wird der Artikel direkt der genannten Geschäftsordnung (SR 447.11) zugeordnet."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_8",
+    "TARGET_SR": "SR 172.041.1",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "medium",
+    "reasoning": "Die Wendung «eine Gebühr nach der Allgemeinen Gebührenverordnung … SR 172.041.1» enthält keinen bestimmten Artikel; es wird die Verordnung als Ganzes als Gebührenordnung herangezogen."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_11",
+    "TARGET_SR": "SR 172.041.1",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "medium",
+    "reasoning": "Auch hier «eine Gebühr nach der AllgGebV SR 172.041.1» ohne Artikelangabe; die Bezugnahme erfolgt auf die Gebührenverordnung insgesamt."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«Artikel 2 Absatz 3 Buchstabe j der Geschäftsordnung der Stiftung Pro Helvetia» ist eine Selbstreferenz innerhalb der zitierten Geschäftsordnung; kein SR wird im Snippet genannt, daher keine Zuordnung zu einem TARGET_SR."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_8",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«Artikel 4» wird ohne Gesetzesangabe im selben Erlass genannt und bezieht sich damit auf einen anderen Artikel desselben Dokuments."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_8",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«Artikel 6» wird isoliert ohne SR oder Gesetzesbezeichnung erwähnt und ist daher als innerer Verweis auf das eigene Regelwerk zu verstehen."
+  },
+  {
+    "ITEM": 8,
+    "ARTICLE_EID": "art_8",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«Artikel 7» erscheint ohne Bezug zu einem externen SR-Dokument und ist syntaktisch ein interner Artikelverweis."
+  },
+  {
+    "ITEM": 9,
+    "ARTICLE_EID": "art_14",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«Artikel 13» wird ohne Nennung eines Gesetzes oder SR im Kontext des gleichen Erlasses verwendet und stellt damit eine Selbstreferenz dar."
+  }
+]

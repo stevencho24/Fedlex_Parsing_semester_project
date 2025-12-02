@@ -1,0 +1,142 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 510.10",
+    "assigned_articles": [
+      "Art. 133 Abs. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Formulierung «gestützt auf Artikel 133 Absatz 3 des Militärgesetzes … SR 510.10» verknüpft eindeutig Art. 133 Abs. 3 mit SR 510.10."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": "SR 711",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "Es wird nur «nach dem Enteignungsgesetz vom 20. Juni 1930 SR 711» genannt, ohne konkrete Artikelangabe; dies ist eine generelle Verweisung auf das Gesetz."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": "SR 814.41",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Passage verweist allgemein auf die Lärmschutz-Verordnung SR 814.41 («nach der Lärmschutz-Verordnung … SR 814.41») ohne Artikelnummer; daher Gesamtverweisung."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": "SR 711",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "Wie bei ITEM 2 wird nur das Enteignungsgesetz SR 711 als Ganzes erwähnt, ohne Artikelspezifizierung."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_8",
+    "TARGET_SR": "SR 512.31",
+    "assigned_articles": [
+      "Art. 29"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Satz «Für die Zuweisung von Schiessanlagen gilt Artikel 29 der Schiessverordnung … SR 512.31» verknüpft explizit Art. 29 mit der Schiessverordnung SR 512.31."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_15",
+    "TARGET_SR": "SR 814.41",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "Es heisst «nach den Bestimmungen der Lärmschutz-Verordnung … SR 814.41» ohne konkrete Artikel; dies ist eine generelle Bezugnahme auf die Verordnung."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": "SR 510.10",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "medium",
+    "reasoning": "«Das VBS kann …» verweist auf den Gebührentarif bzw. Zuständigkeiten des VBS gemäss Militärgesetz SR 510.10, ohne konkrete Artikelangabe; mangels expliziter Artikel wird von einer generellen Verweisung ausgegangen."
+  },
+  {
+    "ITEM": 8,
+    "ARTICLE_EID": "art_10",
+    "TARGET_SR": "SR 510.10",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "medium",
+    "reasoning": "Der «Gebührentarif VBS» ist eine auf SR 510.10 gestützte Regelung; im Snippet wird kein bestimmter Artikel des Militärgesetzes genannt, daher Gesamtverweisung."
+  },
+  {
+    "ITEM": 9,
+    "ARTICLE_EID": "art_30",
+    "TARGET_SR": "SR 510.10",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "medium",
+    "reasoning": "Die Aufhebung einer VBS-Verordnung wird im Kontext des Militärgesetzes SR 510.10 erwähnt, ohne konkrete Artikel; es handelt sich um eine unspezifische Bezugnahme."
+  },
+  {
+    "ITEM": 10,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«… ist nach Artikel 133 Absatz 1 des Militärgesetzes Sache der Gemeinden.» bezieht sich auf Art. 133 Abs. 1 des Militärgesetzes SR 510.10, der bereits in ITEM 1 als externer Verweis erfasst ist; hier dient der Hinweis nur der inhaltlichen Erläuterung und erzeugt keinen neuen SR-Link."
+  },
+  {
+    "ITEM": 11,
+    "ARTICLE_EID": "art_8",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Satz enthält zwei externe Bezüge (Art. 133 Abs. 1 Militärgesetz SR 510.10 und Art. 29 Schiessverordnung SR 512.31), die bereits in ITEMS 5 und 10/1 über SR_link_detection bzw. preamble_acronym abgedeckt sind; als artikel_reference wird hier keine neue SR-Zuordnung erzeugt."
+  },
+  {
+    "ITEM": 12,
+    "ARTICLE_EID": "art_9",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«nicht in Artikel 7 Absatz 1 Buchstabe b genannten Einrichtungen» verweist eindeutig auf einen anderen Artikel derselben Verordnung (Art. 7 Abs. 1 lit. b); es wird kein externes SR-Dokument genannt."
+  },
+  {
+    "ITEM": 13,
+    "ARTICLE_EID": "art_18",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«(Art. 23 Abs. 3)» ist eine klassische Selbstverweisung innerhalb derselben Verordnung; kein SR-Link oder externes Gesetz wird erwähnt."
+  },
+  {
+    "ITEM": 14,
+    "ARTICLE_EID": "art_23",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«… in eine Schiessanlage nach Artikel 1 Absatz 1 integriert» verweist auf Art. 1 Abs. 1 derselben Verordnung; es liegt eine interne Strukturverweisung ohne externes SR-Dokument vor."
+  }
+]

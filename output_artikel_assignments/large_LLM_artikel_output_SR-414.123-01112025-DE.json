@@ -1,0 +1,197 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 414.110",
+    "assigned_articles": [
+      "Art. 35a Abs. 5",
+      "Art. 35b",
+      "Art. 39 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Formulierung \"gestützt auf die Artikel 35a Absatz 5, 35b und 39 Absatz 2 des ETH-Gesetzes ... SR 414.110\" verknüpft die genannten Artikel syntaktisch eindeutig mit dem ETH-Gesetz (SR 414.110)."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_33_d",
+    "TARGET_SR": "SR 172.010.21",
+    "assigned_articles": "General reference - entire document",
+    "confidence": "high",
+    "reasoning": "Die Passage verweist nur allgemein auf die Verordnung über das Immobilienmanagement und die Logistik des Bundes (SR 172.010.21), ohne konkrete Artikel dieser Verordnung zu nennen."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document (Art. 35 Abs. 2 ETH-Gesetz bezieht sich hier auf das ETH-Gesetz ohne SR-Angabe im Snippet; im Kontext dieser Verordnung ist dies eine externe Norm, aber kein neuer SR-Link-Eintrag, da bereits in ITEM 1 erfasst)"
+    ],
+    "confidence": "medium",
+    "reasoning": "Es wird \"Artikel 35 Absatz 2 des ETH-Gesetzes\" erwähnt, jedoch ohne explizite SR-Nummer im Snippet und ohne TARGET_SR-Feld. Der Bezug ist zum ETH-Gesetz (SR 414.110), das bereits in der Präambel mit Artikeln erfasst wurde; hier liegt keine neue, eigenständige SR-Verknüpfung vor."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_8",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 10"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Klammerangabe \"(Art. 10)\" ist eine reine Selbstverweisung innerhalb derselben Verordnung ohne Bezug auf ein anderes SR-Dokument."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_22",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Wendung \"gemäss Artikel 3\" verweist auf einen Artikel derselben Verordnung; es wird kein externes Gesetz oder SR genannt."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_33",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 3",
+      "Art. 4"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Formulierung \"nach den in den Artikeln 3 und 4 festgelegten Grundsätzen\" ist eine interne Verweisung auf Artikel derselben Verordnung ohne SR-Bezug."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_33_a",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 34bbis ETH-Gesetz (interne Normverweisung ohne explizite SR-Zuordnung in diesem Item)"
+    ],
+    "confidence": "medium",
+    "reasoning": "Es wird \"Artikel 34bbis des ETH-Gesetzes\" erwähnt, jedoch ohne SR-Nummer und ohne TARGET_SR. Der Bezug ist materiell extern (ETH-Gesetz), aber im Rahmen der Aufgabe zu artikel_reference ohne TARGET_SR als Selbst-/Strukturverweisung zu behandeln."
+  },
+  {
+    "ITEM": 8,
+    "ARTICLE_EID": "art_33_a",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 34bbis ETH-Gesetz (interne Normverweisung ohne explizite SR-Zuordnung in diesem Item)"
+    ],
+    "confidence": "medium",
+    "reasoning": "Gleicher Kontext wie bei ITEM 7: erneute Erwähnung von \"Artikel 34bbis des ETH-Gesetzes\" ohne SR-Nummer und ohne TARGET_SR-Feld; daher keine neue SR-Verknüpfung."
+  },
+  {
+    "ITEM": 9,
+    "ARTICLE_EID": "art_33_b",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 33a Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Wendung \"im Sinne von Artikel 33a Absatz 1\" verweist auf einen anderen Artikel derselben Verordnung; kein externer SR-Bezug."
+  },
+  {
+    "ITEM": 10,
+    "ARTICLE_EID": "art_33_b",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 33a Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "Auch hier ist \"im Sinne von Artikel 33a Absatz 1\" eine interne Verweisung innerhalb derselben Verordnung."
+  },
+  {
+    "ITEM": 11,
+    "ARTICLE_EID": "art_33_c",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 33a Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Formulierung \"Nutzung nach Artikel 33a Absatz 1\" verweist auf einen Artikel derselben Verordnung; kein anderes SR-Dokument wird genannt."
+  },
+  {
+    "ITEM": 12,
+    "ARTICLE_EID": "art_33_d",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 33b",
+      "Art. 33c"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Verweise \"zu Nutzung nach Artikel 33b oder 33c\" sind interne Artikelverweise innerhalb derselben Verordnung; der separate SR-Link zur Immobilienverordnung wurde bereits in ITEM 2 behandelt."
+  },
+  {
+    "ITEM": 13,
+    "ARTICLE_EID": "art_33_e",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 33b"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Klammer \"(Art. 33b)\" verweist auf einen Artikel derselben Verordnung; kein externer SR-Bezug."
+  },
+  {
+    "ITEM": 14,
+    "ARTICLE_EID": "art_33_e",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 33c",
+      "Art. 33d"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Formulierung \"nach den Artikeln 33c und 33d\" ist eine interne Verweisung auf andere Artikel derselben Verordnung."
+  },
+  {
+    "ITEM": 15,
+    "ARTICLE_EID": "art_33_f",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 33c",
+      "Art. 33d"
+    ],
+    "confidence": "high",
+    "reasoning": "Auch hier sind \"nach den Artikeln 33c und 33d\" interne Verweise innerhalb derselben Verordnung."
+  },
+  {
+    "ITEM": 16,
+    "ARTICLE_EID": "art_40_a",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 2b Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Wendung \"gemäss Artikel 2b Absatz 1\" verweist auf einen Artikel derselben Verordnung; kein anderes SR-Dokument wird genannt."
+  },
+  {
+    "ITEM": 17,
+    "ARTICLE_EID": "art_40_b",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 33b–33d"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Formulierung \"nach den Artikeln 33b–33d\" ist eine interne Artikelbereichsverweisung innerhalb derselben Verordnung."
+  },
+  {
+    "ITEM": 18,
+    "ARTICLE_EID": "art_40_b",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 33b–33d"
+    ],
+    "confidence": "high",
+    "reasoning": "Auch hier wird derselbe interne Artikelbereich \"Artikeln 33b–33d\" genannt; keine externe SR-Verweisung."
+  },
+  {
+    "ITEM": 19,
+    "ARTICLE_EID": "art_40_b",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 33b",
+      "Art. 33d"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Wendungen \"nach Artikel 33b zu nutzen oder nach Artikel 33d zu verkaufen\" verweisen auf interne Artikel derselben Verordnung ohne Bezug auf ein anderes SR-Dokument."
+  }
+]

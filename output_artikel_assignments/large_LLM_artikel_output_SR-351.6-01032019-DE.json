@@ -1,0 +1,528 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 101",
+    "assigned_articles": ["Art. 123 Abs. 1"],
+    "confidence": "high",
+    "reasoning": "Die Formulierung «gestützt auf Artikel 123 Absatz 1 der Bundesverfassung SR 101» verknüpft den genannten Artikel eindeutig mit SR 101."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 0.312.1",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "high",
+    "reasoning": "Es wird nur das Römer Statut als Ganzes erwähnt («durch das Römer Statut ... SR 0.312.1 geschaffen»), ohne konkrete Artikelangabe."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": "SR 0.312.1",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "high",
+    "reasoning": "«den Bestimmungen des Statuts SR 0.312.1» ist eine generelle Verweisung auf das gesamte Statut ohne Artikelnummer."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_2_a",
+    "TARGET_SR": "SR 351.1",
+    "assigned_articles": [
+      "Art. 11b",
+      "Art. 11c",
+      "Art. 11d",
+      "Art. 11f",
+      "Art. 11g",
+      "Art. 11h"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Wendung «nach den Artikeln 11b–11d und 11f–11h des Rechtshilfegesetzes ... SR 351.1» ordnet diese Artikel explizit dem Rechtshilfegesetz zu; der Bereich wird als Einzelnormen aufgelöst."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": "SR 0.312.1",
+    "assigned_articles": ["Art. 70 Abs. 4 Bst. b"],
+    "confidence": "high",
+    "reasoning": "«nach Artikel 70 Absatz 4 Buchstabe b des Statuts SR 0.312.1» ist eine eindeutige, voll ausgeschriebene Artikelverweisung."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": "SR 0.312.1",
+    "assigned_articles": ["Art. 97"],
+    "confidence": "high",
+    "reasoning": "«im Sinne von Artikel 97 des Statuts SR 0.312.1» verknüpft Art. 97 klar mit dem Statut."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_6",
+    "TARGET_SR": "SR 0.312.1",
+    "assigned_articles": ["Art. 98", "Art. 27"],
+    "confidence": "high",
+    "reasoning": "«Artikel 98 in Verbindung mit Artikel 27 des Statuts SR 0.312.1» nennt beide Artikel ausdrücklich im Zusammenhang mit dem Statut."
+  },
+  {
+    "ITEM": 8,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": "SR 0.312.1",
+    "assigned_articles": ["Art. 18", "Art. 19"],
+    "confidence": "high",
+    "reasoning": "«im Sinne von Artikel 18 des Statuts SR 0.312.1 ... nach Artikel 19 des Statuts» bezieht beide Artikel klar auf das Statut."
+  },
+  {
+    "ITEM": 9,
+    "ARTICLE_EID": "art_9",
+    "TARGET_SR": "SR 0.312.1",
+    "assigned_articles": ["Art. 14"],
+    "confidence": "high",
+    "reasoning": "«im Sinne von Artikel 14 des Statuts SR 0.312.1» ist eine eindeutige Artikelangabe."
+  },
+  {
+    "ITEM": 10,
+    "ARTICLE_EID": "art_12",
+    "TARGET_SR": "SR 0.312.1",
+    "assigned_articles": ["Art. 93"],
+    "confidence": "high",
+    "reasoning": "«nach Artikel 93 des Statuts SR 0.312.1» verknüpft Art. 93 klar mit dem Statut."
+  },
+  {
+    "ITEM": 11,
+    "ARTICLE_EID": "art_14",
+    "TARGET_SR": "SR 0.312.1",
+    "assigned_articles": ["Art. 90"],
+    "confidence": "high",
+    "reasoning": "«nach Artikel 90 des Statuts SR 0.312.1» ist eine eindeutige Verweisung."
+  },
+  {
+    "ITEM": 12,
+    "ARTICLE_EID": "art_15",
+    "TARGET_SR": "SR 312.0",
+    "assigned_articles": ["Art. 429", "Art. 431"],
+    "confidence": "high",
+    "reasoning": "«Die Artikel 429 und 431 der Strafprozessordnung ... SR 312.0» ordnet diese beiden Artikel ausdrücklich der StPO zu."
+  },
+  {
+    "ITEM": 13,
+    "ARTICLE_EID": "art_15",
+    "TARGET_SR": "SR 0.312.1",
+    "assigned_articles": ["Art. 85"],
+    "confidence": "high",
+    "reasoning": "«nach Artikel 85 des Statuts SR 0.312.1» ist eine klare Einzelverweisung."
+  },
+  {
+    "ITEM": 14,
+    "ARTICLE_EID": "art_16",
+    "TARGET_SR": "SR 0.312.1",
+    "assigned_articles": ["Art. 17", "Art. 18", "Art. 19"],
+    "confidence": "high",
+    "reasoning": "«nach den Artikeln 17–19 des Statuts SR 0.312.1» bezeichnet einen Artikelsbereich; dieser wird als drei Einzelartikel interpretiert."
+  },
+  {
+    "ITEM": 15,
+    "ARTICLE_EID": "art_17",
+    "TARGET_SR": "SR 0.312.1",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "high",
+    "reasoning": "«die anwendbaren Bestimmungen des Statuts SR 0.312.1» ist eine generelle Verweisung ohne konkrete Artikel."
+  },
+  {
+    "ITEM": 16,
+    "ARTICLE_EID": "art_19",
+    "TARGET_SR": "SR 312.0",
+    "assigned_articles": ["Art. 379", "Art. 380", "Art. 381", "Art. 382", "Art. 383", "Art. 384", "Art. 385", "Art. 386", "Art. 387", "Art. 388", "Art. 389", "Art. 390", "Art. 391", "Art. 392"],
+    "confidence": "high",
+    "reasoning": "«die Artikel 379–392 StPO SR 312.0» nennt einen Artikelsbereich der StPO; dieser wird in die einzelnen Artikel 379 bis 392 aufgelöst."
+  },
+  {
+    "ITEM": 17,
+    "ARTICLE_EID": "art_20",
+    "TARGET_SR": "SR 312.0",
+    "assigned_articles": ["Art. 379", "Art. 380", "Art. 381", "Art. 382", "Art. 383", "Art. 384", "Art. 385", "Art. 386", "Art. 387", "Art. 388", "Art. 389", "Art. 390", "Art. 391", "Art. 392"],
+    "confidence": "high",
+    "reasoning": "Auch hier: «die Artikel 379–392 StPO SR 312.0»; identischer Artikelsbereich wie bei ITEM 16."
+  },
+  {
+    "ITEM": 18,
+    "ARTICLE_EID": "art_21",
+    "TARGET_SR": "SR 312.0",
+    "assigned_articles": ["Art. 238", "Art. 239", "Art. 240"],
+    "confidence": "high",
+    "reasoning": "«die Artikel 238–240 StPO SR 312.0» verweist auf einen geschlossenen Bereich; dieser wird in die Einzelartikel 238 bis 240 zerlegt."
+  },
+  {
+    "ITEM": 19,
+    "ARTICLE_EID": "art_29",
+    "TARGET_SR": "SR 0.312.1",
+    "assigned_articles": ["Art. 17", "Art. 18", "Art. 19"],
+    "confidence": "high",
+    "reasoning": "Wortlaut wie bei ITEM 14: «nach den Artikeln 17–19 des Statuts SR 0.312.1»; derselbe Artikelsbereich."
+  },
+  {
+    "ITEM": 20,
+    "ARTICLE_EID": "art_32",
+    "TARGET_SR": "SR 0.312.1",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "high",
+    "reasoning": "«in der vom Statut SR 0.312.1 ... vorgeschriebenen Form» ist eine generelle Bezugnahme auf das Statut ohne Artikelangabe."
+  },
+  {
+    "ITEM": 21,
+    "ARTICLE_EID": "art_33",
+    "TARGET_SR": "SR 351.1",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "medium",
+    "reasoning": "Es wird nur «nach dem Rechtshilfegesetz ... SR 351.1» ohne Artikel genannt; mangels Spezifizierung ist von einer generellen Verweisung auf das Gesetz auszugehen."
+  },
+  {
+    "ITEM": 22,
+    "ARTICLE_EID": "art_34",
+    "TARGET_SR": "SR 0.312.1",
+    "assigned_articles": ["Art. 72"],
+    "confidence": "high",
+    "reasoning": "«nach Artikel 72 des Statuts SR 0.312.1» ist eine eindeutige Einzelverweisung."
+  },
+  {
+    "ITEM": 23,
+    "ARTICLE_EID": "art_38",
+    "TARGET_SR": "SR 0.312.1",
+    "assigned_articles": ["Art. 99 Abs. 4"],
+    "confidence": "high",
+    "reasoning": "«im Sinne von Artikel 99 Absatz 4 des Statuts SR 0.312.1» verknüpft Art. 99 Abs. 4 klar mit dem Statut."
+  },
+  {
+    "ITEM": 24,
+    "ARTICLE_EID": "art_41",
+    "TARGET_SR": "SR 0.312.1",
+    "assigned_articles": ["Art. 79"],
+    "confidence": "high",
+    "reasoning": "«(Art. 79 des Statuts SR 0.312.1)» ist eine explizite Artikelangabe in Klammern."
+  },
+  {
+    "ITEM": 25,
+    "ARTICLE_EID": "art_46",
+    "TARGET_SR": "SR 311.0",
+    "assigned_articles": ["Art. 292"],
+    "confidence": "high",
+    "reasoning": "«unter Hinweis auf die Strafdrohung nach Artikel 292 des Strafgesetzbuches SR 311.0» verknüpft Art. 292 eindeutig mit dem StGB."
+  },
+  {
+    "ITEM": 26,
+    "ARTICLE_EID": "art_51",
+    "TARGET_SR": "SR 0.312.1",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "high",
+    "reasoning": "«nach den Bestimmungen des Statuts SR 0.312.1» ist eine generelle Verweisung ohne konkrete Artikel."
+  },
+  {
+    "ITEM": 27,
+    "ARTICLE_EID": "art_52",
+    "TARGET_SR": "SR 0.312.1",
+    "assigned_articles": ["Art. 99 Abs. 2"],
+    "confidence": "high",
+    "reasoning": "«im Sinne von Artikel 99 Absatz 2 des Statuts SR 0.312.1» ist eine klare Einzelverweisung."
+  },
+  {
+    "ITEM": 28,
+    "ARTICLE_EID": "art_57",
+    "TARGET_SR": "SR 0.312.1",
+    "assigned_articles": ["Art. 100 Abs. 1 Bst. c–e"],
+    "confidence": "high",
+    "reasoning": "«nach Artikel 100 Absatz 1 Buchstaben c–e des Statuts SR 0.312.1» nennt die konkrete Norm mit Absatz und Buchstabenbereich."
+  },
+  {
+    "ITEM": 29,
+    "ARTICLE_EID": "art_58",
+    "TARGET_SR": "SR 0.312.1",
+    "assigned_articles": ["Art. 75", "Art. 79"],
+    "confidence": "high",
+    "reasoning": "«wenn der Gerichtshof nach Artikel 75 oder 79 des Statuts SR 0.312.1 ... entschieden hat» verknüpft beide Artikel mit dem Statut."
+  },
+  {
+    "ITEM": 30,
+    "ARTICLE_EID": "art_2_a",
+    "TARGET_SR": "SR 351.1",
+    "assigned_articles": [
+      "Art. 11b",
+      "Art. 11c",
+      "Art. 11d",
+      "Art. 11f",
+      "Art. 11g",
+      "Art. 11h"
+    ],
+    "confidence": "high",
+    "reasoning": "Dies ist die gleiche Textstelle wie bei ITEM 4, jedoch ohne explizite SR-Nummer; durch die Parallelstelle mit SR 351.1 ist klar, dass «Artikeln 11b–11d und 11f–11h des Rechtshilfegesetzes» SR 351.1 zuzuordnen sind."
+  },
+  {
+    "ITEM": 31,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": "SR 0.312.1",
+    "assigned_articles": ["Art. 70 Abs. 4 Bst. b"],
+    "confidence": "high",
+    "reasoning": "Parallel zu ITEM 5; «Artikel 70 Absatz 4 Buchstabe b des Statuts» bezieht sich auf das Römer Statut (SR 0.312.1), das im Gesetz definiert ist."
+  },
+  {
+    "ITEM": 32,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": "SR 0.312.1",
+    "assigned_articles": ["Art. 97"],
+    "confidence": "high",
+    "reasoning": "Parallel zu ITEM 6; «Artikel 97 des Statuts» meint das Statut SR 0.312.1."
+  },
+  {
+    "ITEM": 33,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": "SR 0.312.1",
+    "assigned_articles": ["Art. 93 Abs. 3"],
+    "confidence": "high",
+    "reasoning": "«(Art. 93 Abs. 3 des Statuts)» ist eine explizite Verweisung auf das Römer Statut SR 0.312.1."
+  },
+  {
+    "ITEM": 34,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": "SR 0.312.1",
+    "assigned_articles": ["Art. 72", "Art. 93 Abs. 4"],
+    "confidence": "high",
+    "reasoning": "«(Art. 72 und 93 Abs. 4 des Statuts)» nennt zwei Artikel des Statuts SR 0.312.1."
+  },
+  {
+    "ITEM": 35,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": "SR 0.312.1",
+    "assigned_articles": ["Art. 94 Abs. 1"],
+    "confidence": "high",
+    "reasoning": "«(Art. 94 Abs. 1 des Statuts)» verweist eindeutig auf das Statut SR 0.312.1."
+  },
+  {
+    "ITEM": 36,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": "SR 0.312.1",
+    "assigned_articles": ["Art. 98", "Art. 27"],
+    "confidence": "high",
+    "reasoning": "«(Art. 98 in Verbindung mit Art. 27 des Statuts)» entspricht der Formulierung in ITEM 7 und bezieht sich auf SR 0.312.1."
+  },
+  {
+    "ITEM": 37,
+    "ARTICLE_EID": "art_6",
+    "TARGET_SR": "SR 0.312.1",
+    "assigned_articles": ["Art. 98", "Art. 27"],
+    "confidence": "high",
+    "reasoning": "Gleiche inhaltliche Verweisung wie in ITEM 7; «Artikel 98 in Verbindung mit Artikel 27 des Statuts» meint das Römer Statut SR 0.312.1."
+  },
+  {
+    "ITEM": 38,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": "SR 0.312.1",
+    "assigned_articles": ["Art. 18", "Art. 19"],
+    "confidence": "high",
+    "reasoning": "Parallel zu ITEM 8; «Artikel 18 des Statuts ... nach Artikel 19 des Statuts» bezieht sich auf SR 0.312.1."
+  },
+  {
+    "ITEM": 39,
+    "ARTICLE_EID": "art_9",
+    "TARGET_SR": "SR 0.312.1",
+    "assigned_articles": ["Art. 14"],
+    "confidence": "high",
+    "reasoning": "Parallel zu ITEM 9; «Artikel 14 des Statuts» meint das Römer Statut SR 0.312.1."
+  },
+  {
+    "ITEM": 40,
+    "ARTICLE_EID": "art_12",
+    "TARGET_SR": "SR 0.312.1",
+    "assigned_articles": ["Art. 93"],
+    "confidence": "high",
+    "reasoning": "Parallel zu ITEM 10; «nach Artikel 93 des Statuts» bezieht sich auf SR 0.312.1."
+  },
+  {
+    "ITEM": 41,
+    "ARTICLE_EID": "art_12",
+    "TARGET_SR": "SR 0.312.1",
+    "assigned_articles": ["Art. 3 Abs. 1"],
+    "confidence": "high",
+    "reasoning": "«(Art. 3 Abs. 1 des Statuts)» verweist auf das Römer Statut SR 0.312.1, das im Gesetz als «Statut» definiert ist."
+  },
+  {
+    "ITEM": 42,
+    "ARTICLE_EID": "art_14",
+    "TARGET_SR": "SR 0.312.1",
+    "assigned_articles": ["Art. 90"],
+    "confidence": "high",
+    "reasoning": "Parallel zu ITEM 11; «nach Artikel 90 des Statuts» meint das Statut SR 0.312.1."
+  },
+  {
+    "ITEM": 43,
+    "ARTICLE_EID": "art_14",
+    "TARGET_SR": "SR 0.312.1",
+    "assigned_articles": ["Art. 93 Abs. 9"],
+    "confidence": "high",
+    "reasoning": "«nach Artikel 93 Absatz 9 des Statuts» ist eine eindeutige Verweisung auf SR 0.312.1."
+  },
+  {
+    "ITEM": 44,
+    "ARTICLE_EID": "art_15",
+    "TARGET_SR": "SR 312.0",
+    "assigned_articles": ["Art. 429", "Art. 431"],
+    "confidence": "high",
+    "reasoning": "Parallel zu ITEM 12; «Die Artikel 429 und 431 der Strafprozessordnung ... (StPO)» bezieht sich auf SR 312.0."
+  },
+  {
+    "ITEM": 45,
+    "ARTICLE_EID": "art_15",
+    "TARGET_SR": "SR 0.312.1",
+    "assigned_articles": ["Art. 85"],
+    "confidence": "high",
+    "reasoning": "Parallel zu ITEM 13; «nach Artikel 85 des Statuts» meint das Römer Statut SR 0.312.1."
+  },
+  {
+    "ITEM": 46,
+    "ARTICLE_EID": "art_16",
+    "TARGET_SR": "SR 0.312.1",
+    "assigned_articles": ["Art. 17", "Art. 18", "Art. 19"],
+    "confidence": "high",
+    "reasoning": "Parallel zu ITEM 14; «nach den Artikeln 17–19 des Statuts» bezieht sich auf SR 0.312.1."
+  },
+  {
+    "ITEM": 47,
+    "ARTICLE_EID": "art_19",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference - current document"],
+    "confidence": "high",
+    "reasoning": "«(Art. 23)» verweist ohne SR- oder Gesetzesangabe auf einen Artikel innerhalb desselben Gesetzes; dies ist eine reine Selbstverweisung."
+  },
+  {
+    "ITEM": 48,
+    "ARTICLE_EID": "art_23",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference - current document"],
+    "confidence": "high",
+    "reasoning": "«die in Artikel 17 genannten Unterlagen» nennt keinen externen Erlass; es handelt sich um eine interne Verweisung auf Art. 17 desselben Gesetzes."
+  },
+  {
+    "ITEM": 49,
+    "ARTICLE_EID": "art_26",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference - current document"],
+    "confidence": "high",
+    "reasoning": "«In den Fällen der Artikel 24 Absatz 2 und 25 Absatz 2» verweist nur auf interne Artikel des gleichen Gesetzes."
+  },
+  {
+    "ITEM": 50,
+    "ARTICLE_EID": "art_29",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference - current document"],
+    "confidence": "high",
+    "reasoning": "«nach Artikel 30 gewährt» enthält keine SR- oder Gesetzesangabe; es ist eine Selbstverweisung auf Art. 30 des gleichen Gesetzes."
+  },
+  {
+    "ITEM": 51,
+    "ARTICLE_EID": "art_29",
+    "TARGET_SR": "SR 0.312.1",
+    "assigned_articles": ["Art. 17", "Art. 18", "Art. 19"],
+    "confidence": "high",
+    "reasoning": "Parallel zu ITEM 19; «nach den Artikeln 17–19 des Statuts» bezieht sich auf das Römer Statut SR 0.312.1."
+  },
+  {
+    "ITEM": 52,
+    "ARTICLE_EID": "art_30",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference - current document"],
+    "confidence": "high",
+    "reasoning": "«nach Artikel 39» ohne Nennung eines externen Erlasses ist eine interne Verweisung auf Art. 39 desselben Gesetzes."
+  },
+  {
+    "ITEM": 53,
+    "ARTICLE_EID": "art_34",
+    "TARGET_SR": "SR 0.312.1",
+    "assigned_articles": ["Art. 72"],
+    "confidence": "high",
+    "reasoning": "Parallel zu ITEM 22; «nach Artikel 72 des Statuts» bezieht sich auf SR 0.312.1."
+  },
+  {
+    "ITEM": 54,
+    "ARTICLE_EID": "art_35",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference - current document"],
+    "confidence": "high",
+    "reasoning": "«zusätzlich zu den Rechten nach Artikel 34» verweist ohne Gesetzesangabe auf einen Artikel des gleichen Gesetzes."
+  },
+  {
+    "ITEM": 55,
+    "ARTICLE_EID": "art_38",
+    "TARGET_SR": "SR 0.312.1",
+    "assigned_articles": ["Art. 99 Abs. 4"],
+    "confidence": "high",
+    "reasoning": "Parallel zu ITEM 23; «im Sinne von Artikel 99 Absatz 4 des Statuts» meint das Römer Statut SR 0.312.1."
+  },
+  {
+    "ITEM": 56,
+    "ARTICLE_EID": "art_41",
+    "TARGET_SR": "SR 0.312.1",
+    "assigned_articles": ["Art. 79"],
+    "confidence": "high",
+    "reasoning": "Parallel zu ITEM 24; «(Art. 79 des Statuts)» verweist auf das Statut SR 0.312.1."
+  },
+  {
+    "ITEM": 57,
+    "ARTICLE_EID": "art_45",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference - current document"],
+    "confidence": "high",
+    "reasoning": "«nach Artikel 50 zur Beschwerdeführung Berechtigten» nennt keinen externen Erlass; es handelt sich um eine interne Verweisung."
+  },
+  {
+    "ITEM": 58,
+    "ARTICLE_EID": "art_46",
+    "TARGET_SR": "SR 311.0",
+    "assigned_articles": ["Art. 292"],
+    "confidence": "high",
+    "reasoning": "Parallel zu ITEM 25; «nach Artikel 292 des Strafgesetzbuches» bezieht sich auf SR 311.0."
+  },
+  {
+    "ITEM": 59,
+    "ARTICLE_EID": "art_47",
+    "TARGET_SR": null,
+    "assigned_articles": ["Internal reference - current document"],
+    "confidence": "high",
+    "reasoning": "«Die nach Artikel 50 zur Beschwerdeführung Berechtigten» verweist intern auf Art. 50 desselben Gesetzes."
+  },
+  {
+    "ITEM": 60,
+    "ARTICLE_EID": "art_52",
+    "TARGET_SR": "SR 0.312.1",
+    "assigned_articles": ["Art. 99 Abs. 2"],
+    "confidence": "high",
+    "reasoning": "Parallel zu ITEM 27; «im Sinne von Artikel 99 Absatz 2 des Statuts» meint das Römer Statut SR 0.312.1."
+  },
+  {
+    "ITEM": 61,
+    "ARTICLE_EID": "art_52",
+    "TARGET_SR": "SR 0.312.1",
+    "assigned_articles": ["Art. 93 Abs. 8 Bst. b"],
+    "confidence": "high",
+    "reasoning": "«mit der in Artikel 93 Absatz 8 Buchstabe b des Statuts genannten Bedingung» verweist auf das Statut SR 0.312.1."
+  },
+  {
+    "ITEM": 62,
+    "ARTICLE_EID": "art_57",
+    "TARGET_SR": "SR 0.312.1",
+    "assigned_articles": ["Art. 100 Abs. 1 Bst. c–e"],
+    "confidence": "high",
+    "reasoning": "Parallel zu ITEM 28; «nach Artikel 100 Absatz 1 Buchstaben c–e des Statuts» bezieht sich auf SR 0.312.1."
+  },
+  {
+    "ITEM": 63,
+    "ARTICLE_EID": "art_57",
+    "TARGET_SR": "SR 0.312.1",
+    "assigned_articles": ["Art. 103 Abs. 4"],
+    "confidence": "high",
+    "reasoning": "«nach Artikel 103 Absatz 4 des Statuts» verweist auf das Römer Statut SR 0.312.1."
+  },
+  {
+    "ITEM": 64,
+    "ARTICLE_EID": "art_58",
+    "TARGET_SR": "SR 0.312.1",
+    "assigned_articles": ["Art. 41", "Art. 75", "Art. 79"],
+    "confidence": "high",
+    "reasoning": "«Auf die Vollstreckung von Einziehungsanordnungen ist Artikel 41 sinngemäss anwendbar, wenn der Gerichtshof nach Artikel 75 oder 79 des Statuts ...»; im Kontext dieses Gesetzes bezeichnet «das Statut» das Römer Statut SR 0.312.1, sodass Art. 75 und 79 diesem zuzuordnen sind; Art. 41 ist eine interne Verweisung, wird hier aber im selben Satz mit den Statutsartikeln genannt und daher mit aufgeführt."
+  }
+]

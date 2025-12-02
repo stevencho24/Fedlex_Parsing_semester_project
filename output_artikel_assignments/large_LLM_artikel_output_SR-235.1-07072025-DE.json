@@ -1,0 +1,713 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 101",
+    "assigned_articles": [
+      "Art. 95 Abs. 1",
+      "Art. 97 Abs. 1",
+      "Art. 122 Abs. 1",
+      "Art. 173 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Die SNIPPET nennt ausdrücklich: 'gestützt auf die Artikel 95 Absatz 1, 97 Absatz 1, 122 Absatz 1 und 173 Absatz 2 der Bundesverfassung SR 101'; diese Artikel gehören syntaktisch klar zur Bundesverfassung (SR 101)."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": "SR 192.12",
+    "assigned_articles": [
+      "Art. 2 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "Formulierung: 'nach Artikel 2 Absatz 1 des Gaststaatgesetzes ... SR 192.12'; direkter Bezug von Art. 2 Abs. 1 auf das Gaststaatgesetz (SR 192.12)."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": "SR 291",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "medium",
+    "reasoning": "Es heisst: 'Für privatrechtliche Ansprüche gilt das Bundesgesetz ... SR 291 über das Internationale Privatrecht.' Es wird kein bestimmter Artikel genannt, sondern das Gesetz als Ganzes als anwendbar erklärt."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": "SR 311.0",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "medium",
+    "reasoning": "Die Passage verweist allgemein auf 'die Bestimmungen zum räumlichen Geltungsbereich des Strafgesetzbuchs SR 311.0', ohne konkrete Artikelnummern; dies ist ein genereller Gesetzesverweis."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_21",
+    "TARGET_SR": "SR 172.021",
+    "assigned_articles": [
+      "Art. 30 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "SNIPPET: 'nach Artikel 30 Absatz 2 des Verwaltungsverfahrensgesetzes ... SR 172.021 (VwVG)'; klarer syntaktischer Bezug von Art. 30 Abs. 2 auf das VwVG (SR 172.021)."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_32",
+    "TARGET_SR": "SR 210",
+    "assigned_articles": [
+      "Art. 28",
+      "Art. 28a",
+      "Art. 28g",
+      "Art. 28h",
+      "Art. 28i",
+      "Art. 28j",
+      "Art. 28k",
+      "Art. 28l"
+    ],
+    "confidence": "high",
+    "reasoning": "Formulierung: 'nach den Artikeln 28, 28a sowie 28g–28l des Zivilgesetzbuchs SR 210'; Art. 28g–28l ist eine durchgehende Artikelfolge, daher Auflistung aller Einzelartikel."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_36",
+    "TARGET_SR": "SR 152.3",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "medium",
+    "reasoning": "Es wird das Öffentlichkeitsgesetz SR 152.3 als Rechtsgrundlage für Bekanntgaben genannt ('gestützt auf das Öffentlichkeitsgesetz ... SR 152.3'), ohne konkrete Artikel; typischer genereller Gesetzesverweis."
+  },
+  {
+    "ITEM": 8,
+    "ARTICLE_EID": "art_38",
+    "TARGET_SR": "SR 152.1",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "medium",
+    "reasoning": "Die Norm verlangt Übereinstimmung 'mit dem Archivierungsgesetz ... SR 152.1', ohne einzelne Artikel zu spezifizieren; dies ist ein globaler Verweis auf das Archivierungsgesetz."
+  },
+  {
+    "ITEM": 9,
+    "ARTICLE_EID": "art_41",
+    "TARGET_SR": "SR 172.021",
+    "assigned_articles": [
+      "Art. 2",
+      "Art. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "SNIPPET: 'Das Verfahren richtet sich nach dem VwVG SR 172.021. Die Ausnahmen nach den Artikeln 2 und 3 VwVG sind nicht anwendbar.' Die Artikel 2 und 3 werden ausdrücklich dem VwVG zugeordnet."
+  },
+  {
+    "ITEM": 10,
+    "ARTICLE_EID": "art_42",
+    "TARGET_SR": "SR 152.3",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "medium",
+    "reasoning": "Es wird ein Verfahren 'im Sinne des Öffentlichkeitsgesetzes ... SR 152.3' erwähnt, ohne konkrete Artikel; der Verweis dient der Bestimmung des anwendbaren Gesetzes insgesamt."
+  },
+  {
+    "ITEM": 11,
+    "ARTICLE_EID": "art_43",
+    "TARGET_SR": "SR 172.220.1",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "medium",
+    "reasoning": "Das Arbeitsverhältnis richtet sich 'nach dem Bundespersonalgesetz ... SR 172.220.1 (BPG)'; keine Artikelnummern genannt, allgemeiner Verweis auf das BPG."
+  },
+  {
+    "ITEM": 12,
+    "ARTICLE_EID": "art_49",
+    "TARGET_SR": "SR 172.021",
+    "assigned_articles": [
+      "Art. 16",
+      "Art. 17"
+    ],
+    "confidence": "high",
+    "reasoning": "SNIPPET: 'Das Auskunftsverweigerungsrecht richtet sich nach den Artikeln 16 und 17 des VwVG SR 172.021'; klare Zuordnung dieser Artikel zum VwVG."
+  },
+  {
+    "ITEM": 13,
+    "ARTICLE_EID": "art_52",
+    "TARGET_SR": "SR 172.021",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "medium",
+    "reasoning": "Formulierung: 'richten sich nach dem VwVG SR 172.021', ohne einzelne Artikel; genereller Verweis auf das Verwaltungsverfahrensgesetz."
+  },
+  {
+    "ITEM": 14,
+    "ARTICLE_EID": "art_58",
+    "TARGET_SR": "SR 152.3",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "medium",
+    "reasoning": "Der EDÖB nimmt 'die ihm durch das Öffentlichkeitsgesetz ... SR 152.3 ... übertragenen Aufgaben' wahr; keine konkrete Artikelangabe, sondern pauschaler Aufgabenverweis."
+  },
+  {
+    "ITEM": 15,
+    "ARTICLE_EID": "art_64",
+    "TARGET_SR": "SR 313.0",
+    "assigned_articles": [
+      "Art. 6",
+      "Art. 7"
+    ],
+    "confidence": "high",
+    "reasoning": "SNIPPET: 'sind die Artikel 6 und 7 des Bundesgesetzes ... SR 313.0 über das Verwaltungsstrafrecht (VStrR) anwendbar'; eindeutige Nennung der Artikel 6 und 7 des VStrR."
+  },
+  {
+    "ITEM": 16,
+    "ARTICLE_EID": "art_71",
+    "TARGET_SR": "SR 172.010",
+    "assigned_articles": [
+      "Art. 57s Abs. 1",
+      "Art. 57s Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "SNIPPET: 'nach Artikel 57s Absätze 1 und 2 des Regierungs- und Verwaltungsorganisationsgesetzes ... SR 172.010'; klarer Bezug auf Art. 57s Abs. 1 und 2 RVOG."
+  },
+  {
+    "ITEM": 17,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "Artikel 2 Abs. 1 wird ohne SR- oder Gesetzesangabe erwähnt; im Kontext des Dokuments handelt es sich um einen Selbstverweis auf Art. 2 dieses Gesetzes, nicht auf SR 192.12 (diese externe Zuordnung erfolgt bereits in ITEM 2)."
+  },
+  {
+    "ITEM": 18,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "Verweis 'insbesondere die Grundsätze nach Artikel 6' ohne Gesetzesangabe; dies ist ein innergesetzlicher Verweis auf Art. 6 desselben Erlasses."
+  },
+  {
+    "ITEM": 19,
+    "ARTICLE_EID": "art_10",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "Bezug auf 'Artikel 23 Absatz 4' ohne Nennung eines anderen Gesetzes; daher Selbstverweis innerhalb des Datenschutzgesetzes."
+  },
+  {
+    "ITEM": 20,
+    "ARTICLE_EID": "art_12",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "Verweis 'Massnahmen ... nach Artikel 8' ohne SR- oder Gesetzesangabe; innerer Verweis auf Art. 8 desselben Gesetzes."
+  },
+  {
+    "ITEM": 21,
+    "ARTICLE_EID": "art_12",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "Formulierung 'Garantien nach Artikel 16 Absatz 2' ohne externes Gesetz; Selbstverweis auf Art. 16 Abs. 2 des gleichen Erlasses."
+  },
+  {
+    "ITEM": 22,
+    "ARTICLE_EID": "art_15",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "Das Verzeichnis enthält 'die Angaben nach Artikel 12 Absatz 2'; kein anderes Gesetz genannt, daher interner Verweis."
+  },
+  {
+    "ITEM": 23,
+    "ARTICLE_EID": "art_17",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "Abweichung 'von Artikel 16 Absätze 1 und 2'; ohne Gesetzesangabe, klarer Selbstverweis."
+  },
+  {
+    "ITEM": 24,
+    "ARTICLE_EID": "art_19",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "Verweis auf 'Garantien nach Artikel 16 Absatz 2 oder ... Ausnahme nach Artikel 17'; beide Artikel gehören zum selben Gesetz."
+  },
+  {
+    "ITEM": 25,
+    "ARTICLE_EID": "art_20",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "Die 'Informationspflicht nach Artikel 19' bezieht sich auf Art. 19 des gleichen Gesetzes; kein externer SR-Bezug."
+  },
+  {
+    "ITEM": 26,
+    "ARTICLE_EID": "art_20",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "Verweis 'Die Voraussetzungen nach Artikel 27 sind erfüllt'; innergesetzlicher Bezug."
+  },
+  {
+    "ITEM": 27,
+    "ARTICLE_EID": "art_21",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "Hier wird 'Artikel 30 Absatz 2 des Verwaltungsverfahrensgesetzes (VwVG)' erwähnt, aber ohne SR; der externe Bezug zu SR 172.021 ist bereits in ITEM 5 mit Artikelzuordnung erfasst. Dieser artikel_reference-Eintrag dient nur der Selbstreferenz-Erfassung und erzeugt keinen neuen SR-Link."
+  },
+  {
+    "ITEM": 28,
+    "ARTICLE_EID": "art_22",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "Bezug auf 'Artikel 13' und 'Artikel 11' ohne Gesetzesangabe; beide sind Artikel desselben Datenschutzgesetzes."
+  },
+  {
+    "ITEM": 29,
+    "ARTICLE_EID": "art_23",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "Verweis auf 'Datenschutzberaterin ... nach Artikel 10'; innerer Verweis."
+  },
+  {
+    "ITEM": 30,
+    "ARTICLE_EID": "art_24",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "Bezug auf 'Artikel 26 Absatz 1 Buchstabe b oder Absatz 2 Buchstabe b'; keine externe Gesetzesnennung."
+  },
+  {
+    "ITEM": 31,
+    "ARTICLE_EID": "art_25",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "Verweis auf 'Informationen nach Artikel 19 Absatz 4'; innergesetzlicher Bezug."
+  },
+  {
+    "ITEM": 32,
+    "ARTICLE_EID": "art_29",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "Bezug auf 'Artikel 26 Absätze 1 und 2'; Selbstverweis."
+  },
+  {
+    "ITEM": 33,
+    "ARTICLE_EID": "art_30",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document",
+      "SR 210: Art. 6",
+      "SR 235.1: Art. 8"
+    ],
+    "confidence": "medium",
+    "reasoning": "Der SNIPPET lautet: 'Personendaten entgegen den Grundsätzen nach den Artikeln 6 und 8 bearbeitet werden;'. Im Kontext des Datenschutzgesetzes sind dies die Grundsätze dieses Gesetzes (interner Verweis). Eine eindeutige Zuordnung zu einem externen SR (z.B. ZGB) ist nicht gegeben; daher primär Selbstverweis. Eine zusätzliche externe Zuordnung wäre spekulativ, weshalb sie nur hypothetisch und mit niedrigerer Gewichtung genannt würde; maßgeblich ist der interne Bezug."
+  },
+  {
+    "ITEM": 34,
+    "ARTICLE_EID": "art_32",
+    "TARGET_SR": "SR 210",
+    "assigned_articles": [
+      "Art. 28",
+      "Art. 28a",
+      "Art. 28g",
+      "Art. 28h",
+      "Art. 28i",
+      "Art. 28j",
+      "Art. 28k",
+      "Art. 28l"
+    ],
+    "confidence": "high",
+    "reasoning": "Dies ist derselbe inhaltliche Satz wie in ITEM 6, jedoch als artikel_reference ohne SR; dort wurde bereits klargestellt, dass es sich um Art. 28, 28a und 28g–28l ZGB (SR 210) handelt. Hier wird kein neuer SR-Link erzeugt, sondern die bereits in ITEM 6 zugeordnete Beziehung gespiegelt."
+  },
+  {
+    "ITEM": 35,
+    "ARTICLE_EID": "art_35",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "Verweis auf 'Artikel 34 Absatz 2 Buchstaben b und c'; innergesetzlicher Bezug."
+  },
+  {
+    "ITEM": 36,
+    "ARTICLE_EID": "art_36",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "Bezug auf 'Artikel 34 Absätze 1–3'; Selbstverweis."
+  },
+  {
+    "ITEM": 37,
+    "ARTICLE_EID": "art_37",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "Satz: 'Artikel 36 Absatz 3 bleibt vorbehalten.'; klarer interner Verweis."
+  },
+  {
+    "ITEM": 38,
+    "ARTICLE_EID": "art_39",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "Verweist auf 'Artikel 6 Absatz 3, 34 Absatz 2 sowie 36 Absatz 1'; alle ohne externes Gesetz, daher intern."
+  },
+  {
+    "ITEM": 39,
+    "ARTICLE_EID": "art_41",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "Bezug auf 'den Widerspruch gegen die Bekanntgabe nach Artikel 37'; innergesetzlicher Verweis."
+  },
+  {
+    "ITEM": 40,
+    "ARTICLE_EID": "art_42",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "Verweis auf 'Artikel 41 des vorliegenden Gesetzes'; explizit als innerer Verweis gekennzeichnet."
+  },
+  {
+    "ITEM": 41,
+    "ARTICLE_EID": "art_43",
+    "TARGET_SR": "SR 172.220.1",
+    "assigned_articles": [
+      "Art. 4 Abs. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "SNIPPET: 'Sie oder er untersteht nicht dem Beurteilungssystem nach Artikel 4 Absatz 3 BPG.'; BPG ist SR 172.220.1, somit Art. 4 Abs. 3 BPG."
+  },
+  {
+    "ITEM": 42,
+    "ARTICLE_EID": "art_51",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "Bezug auf 'Voraussetzungen nach Artikel 16 oder 17'; beide Artikel gehören zum gleichen Gesetz."
+  },
+  {
+    "ITEM": 43,
+    "ARTICLE_EID": "art_51",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "Verweis auf 'Artikeln 16 Absatz 2 Buchstaben b und c sowie 17 Absatz 2'; innergesetzlich."
+  },
+  {
+    "ITEM": 44,
+    "ARTICLE_EID": "art_51",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "Bezug auf 'Artikeln 7 und 8'; interne Normen."
+  },
+  {
+    "ITEM": 45,
+    "ARTICLE_EID": "art_51",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "Verweis auf 'Artikeln 19 und 21'; innergesetzlich."
+  },
+  {
+    "ITEM": 46,
+    "ARTICLE_EID": "art_51",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "Bezug auf 'Artikel 22'; interner Verweis."
+  },
+  {
+    "ITEM": 47,
+    "ARTICLE_EID": "art_51",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "Verweis auf 'Artikel 23'; innergesetzlich."
+  },
+  {
+    "ITEM": 48,
+    "ARTICLE_EID": "art_51",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "Bezug auf 'Artikel 24'; interner Verweis."
+  },
+  {
+    "ITEM": 49,
+    "ARTICLE_EID": "art_51",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "Verweis auf 'Artikel 25'; innergesetzlich."
+  },
+  {
+    "ITEM": 50,
+    "ARTICLE_EID": "art_51",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "Bezug auf 'Vertretung nach Artikel 14'; interner Verweis."
+  },
+  {
+    "ITEM": 51,
+    "ARTICLE_EID": "art_54",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document",
+      "SR 235.1: Art. 65 Abs. 2"
+    ],
+    "confidence": "medium",
+    "reasoning": "Es heisst 'falls es um die Anzeige einer Straftat nach Artikel 65 Absatz 2 geht'; ohne Gesetzesangabe ist dies im Kontext des Datenschutzgesetzes typischerweise Art. 65 Abs. 2 desselben Gesetzes. Ein externer SR-Bezug wird nicht hergestellt."
+  },
+  {
+    "ITEM": 52,
+    "ARTICLE_EID": "art_54",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "Verweis auf 'Massnahmen nach den Artikeln 50 Absatz 3 und 51'; innergesetzliche Normen."
+  },
+  {
+    "ITEM": 53,
+    "ARTICLE_EID": "art_58",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document",
+      "SR 235.1: Art. 2",
+      "SR 235.1: Art. 4"
+    ],
+    "confidence": "medium",
+    "reasoning": "Satz: 'gemäss den Artikeln 2 und 4 nicht seiner Aufsicht unterstehen.'; ohne Gesetzesangabe handelt es sich um Art. 2 und 4 desselben Gesetzes (Aufsichtsbereich des EDÖB)."
+  },
+  {
+    "ITEM": 54,
+    "ARTICLE_EID": "art_59",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "Bezug auf 'Verhaltenskodex nach Artikel 11 Absatz 2'; innergesetzlicher Verweis."
+  },
+  {
+    "ITEM": 55,
+    "ARTICLE_EID": "art_59",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "Verweis auf 'Artikel 16 Absatz 2 Buchstaben d und e'; interne Normen."
+  },
+  {
+    "ITEM": 56,
+    "ARTICLE_EID": "art_59",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "Bezug auf 'Datenschutz-Folgenabschätzung nach Artikel 23 Absatz 2'; innergesetzlich."
+  },
+  {
+    "ITEM": 57,
+    "ARTICLE_EID": "art_59",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "Verweis auf 'Massnahmen nach Artikel 51'; interner Verweis."
+  },
+  {
+    "ITEM": 58,
+    "ARTICLE_EID": "art_59",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "Bezug auf 'Beratungen ... nach Artikel 58 Absatz 1 Buchstabe a'; innergesetzlich."
+  },
+  {
+    "ITEM": 59,
+    "ARTICLE_EID": "art_60",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "Verweis auf 'Pflichten nach den Artikeln 19, 21 und 25–27'; alle Artikel des gleichen Gesetzes."
+  },
+  {
+    "ITEM": 60,
+    "ARTICLE_EID": "art_60",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "Bezug auf 'Artikeln 19 Absatz 1 und 21 Absatz 1' sowie 'Artikel 19 Absatz 2'; innergesetzliche Normen."
+  },
+  {
+    "ITEM": 61,
+    "ARTICLE_EID": "art_60",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document",
+      "SR 235.1: Art. 49 Abs. 3"
+    ],
+    "confidence": "medium",
+    "reasoning": "Satz: 'unter Verstoss gegen Artikel 49 Absatz 3 dem EDÖB ...'; ohne Gesetzesangabe ist dies Art. 49 Abs. 3 desselben Gesetzes."
+  },
+  {
+    "ITEM": 62,
+    "ARTICLE_EID": "art_61",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "Verweis auf 'Artikel 16 Absätze 1 und 2' und 'Artikel 17'; innergesetzliche Normen."
+  },
+  {
+    "ITEM": 63,
+    "ARTICLE_EID": "art_61",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "Bezug auf 'Artikel 9 Absätze 1 und 2'; interner Verweis."
+  },
+  {
+    "ITEM": 64,
+    "ARTICLE_EID": "art_61",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document",
+      "SR 235.1: Art. 8 Abs. 3"
+    ],
+    "confidence": "medium",
+    "reasoning": "Satz: 'die der Bundesrat nach Artikel 8 Absatz 3 erlassen hat'; ohne Gesetzesangabe ist dies Art. 8 Abs. 3 desselben Gesetzes."
+  },
+  {
+    "ITEM": 65,
+    "ARTICLE_EID": "art_64",
+    "TARGET_SR": "SR 313.0",
+    "assigned_articles": [
+      "Art. 6",
+      "Art. 7"
+    ],
+    "confidence": "high",
+    "reasoning": "Inhaltlich identisch mit ITEM 15: 'Artikel 6 und 7 des Bundesgesetzes ... über das Verwaltungsstrafrecht (VStrR)'; klarer Bezug zu SR 313.0, Art. 6 und 7."
+  },
+  {
+    "ITEM": 66,
+    "ARTICLE_EID": "art_64",
+    "TARGET_SR": "SR 313.0",
+    "assigned_articles": [
+      "Art. 6",
+      "Art. 7"
+    ],
+    "confidence": "high",
+    "reasoning": "SNIPPET erwähnt ausdrücklich 'Artikel 6 VStrR' und '(Art. 7 VStrR)'; VStrR ist SR 313.0, somit Art. 6 und 7 dieses Gesetzes."
+  },
+  {
+    "ITEM": 67,
+    "ARTICLE_EID": "art_69",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "Verweis auf 'Artikel 7, 22 und 23'; alle ohne externes Gesetz, daher interne Normen."
+  },
+  {
+    "ITEM": 68,
+    "ARTICLE_EID": "art_71",
+    "TARGET_SR": "SR 172.010",
+    "assigned_articles": [
+      "Art. 57s Abs. 1",
+      "Art. 57s Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Inhaltlich identisch mit ITEM 16, jedoch ohne SR im Text; dort wurde bereits klargestellt, dass es sich um Art. 57s Abs. 1 und 2 RVOG (SR 172.010) handelt."
+  }
+]

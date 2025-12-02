@@ -1,0 +1,33 @@
+[
+  {
+    "Item": 1,
+    "SOURCE_ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 814.201",
+    "ASSIGNED_ARTIKEL": [],
+    "ASSIGNMENT_TYPE": "general_reference",
+    "CONFIDENCE": "high",
+    "REASONING": "Die Präambel verweist nur allgemein auf Anhang 3.1 Ziff. 2 Nr. 8 der Gewässerschutzverordnung (SR 814.201), ohne konkrete Artikelnummern zu nennen. Daher handelt es sich um eine allgemeine Verweisnorm auf das ganze Regelwerk bzw. den genannten Anhang, nicht auf bestimmte Artikel."
+  },
+  {
+    "Item": 2,
+    "SOURCE_ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 814.20",
+    "ASSIGNED_ARTIKEL": [
+      "Art. 61a Abs. 1"
+    ],
+    "ASSIGNMENT_TYPE": "specific_articles",
+    "CONFIDENCE": "high",
+    "REASONING": "Im Snippet wird ausdrücklich formuliert: \"nach Artikel 61a Absatz 1 des Gewässerschutzgesetzes ... SR 814.20\". Die Präposition \"nach\" und die direkte Nennung von Artikel und Absatz in Verbindung mit der SR-Nummer stellen eine eindeutige Zuordnung zu Art. 61a Abs. 1 GSchG (SR 814.20) dar."
+  },
+  {
+    "Item": 3,
+    "SOURCE_ARTICLE_EID": "art_1",
+    "TARGET_SR": null,
+    "ASSIGNED_ARTIKEL": [
+      "Art. 61a Abs. 1"
+    ],
+    "ASSIGNMENT_TYPE": "self_reference",
+    "CONFIDENCE": "high",
+    "REASONING": "Das Snippet wiederholt inhaltlich die Formulierung aus Item 2, jedoch ohne erneute Nennung der SR-Nummer. Es handelt sich um eine Artikelreferenz innerhalb desselben Kontextes (Art. 1 der vorliegenden Verordnung), die auf denselben externen Artikel 61a Abs. 1 verweist. Da bei artikel_reference kein TARGET_SR vorgegeben ist, wird dies als inhaltlich identische, aber formal interne Artikelverweisung erfasst."
+  }
+]

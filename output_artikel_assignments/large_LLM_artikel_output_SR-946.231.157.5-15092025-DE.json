@@ -1,0 +1,139 @@
+[
+  {
+    "Item": 1,
+    "TARGET_SR": "SR 946.231",
+    "assigned_articles": [
+      "Art. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Formulierung «gestützt auf Artikel 2 des Embargogesetzes … SR 946.231 (EmbG)» verknüpft den genannten Artikel grammatikalisch eindeutig mit dem EmbG; Art. 2 gehört somit zu SR 946.231."
+  },
+  {
+    "Item": 2,
+    "TARGET_SR": "SR 946.202",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Satz «Vorbehalten bleiben die Bestimmungen des Güterkontrollgesetzes … SR 946.202» wird kein bestimmter Artikel des Güterkontrollgesetzes genannt; es wird auf die Bestimmungen des Gesetzes insgesamt verwiesen."
+  },
+  {
+    "Item": 3,
+    "TARGET_SR": "SR 514.51",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "«… und des Kriegsmaterialgesetzes … SR 514.51» nennt keinen konkreten Artikel; der Verweis betrifft das Kriegsmaterialgesetz als Ganzes."
+  },
+  {
+    "Item": 4,
+    "TARGET_SR": "SR 946.202.1",
+    "assigned_articles": [
+      "Art. 27"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Text lautet «im Verfahren nach Artikel 27 der Güterkontrollverordnung … SR 946.202.1 (GKV)»; Artikel 27 wird direkt mit der Güterkontrollverordnung verknüpft und gehört damit zu SR 946.202.1."
+  },
+  {
+    "Item": 5,
+    "TARGET_SR": "SR 170.512.1",
+    "assigned_articles": [
+      "Art. 20 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "In der Autorennotiz steht «in Anwendung von Art. 20 Abs. 2 der Publikationsverordnung … (SR 170.512.1)»; der Artikel mit Absatzangabe ist eindeutig dieser Verordnung zugeordnet."
+  },
+  {
+    "Item": 6,
+    "TARGET_SR": "SR 946.231",
+    "assigned_articles": [
+      "Art. 9",
+      "Art. 10"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Abkürzung EmbG ist im Vorspann als SR 946.231 definiert. Im Snippet wird «nach Artikel 9 EmbG» und «nach Artikel 10 EmbG» gesagt; beide Artikel gehören somit zum Embargogesetz SR 946.231."
+  },
+  {
+    "Item": 7,
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«im Verfahren nach Artikel 27 der Güterkontrollverordnung … (GKV)» ist ein Verweis auf Art. 27 der GKV (SR 946.202.1), der bereits in Item 4 als externer SR-Link erfasst wurde; hier handelt es sich um eine reine Artikelreferenz ohne neue SR-Zuordnung."
+  },
+  {
+    "Item": 8,
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«nach den Artikeln 2 und 4–8» verweist auf andere Artikel derselben Verordnung (keine SR- oder Gesetzesabkürzung im unmittelbaren Kontext); dies ist eine interne Selbstreferenz."
+  },
+  {
+    "Item": 9,
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«nach Artikel 3» steht ohne Nennung eines anderen Gesetzes oder einer SR-Nummer; der Bezug gilt daher einem Artikel derselben Verordnung (Selbstreferenz)."
+  },
+  {
+    "Item": 10,
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«nach Artikel 2 Absatz 1» verweist auf einen Absatz eines Artikels der vorliegenden Verordnung; es fehlt jeder Hinweis auf ein anderes SR-Dokument, somit interne Selbstreferenz."
+  },
+  {
+    "Item": 11,
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«Gutschriften nach Artikel 2 Absatz 5» ist ein Verweis auf einen Absatz desselben Artikels innerhalb der Verordnung; kein externer SR-Bezug."
+  },
+  {
+    "Item": 12,
+    "TARGET_SR": "SR 946.231",
+    "assigned_articles": [
+      "Art. 9"
+    ],
+    "confidence": "high",
+    "reasoning": "«wird nach Artikel 9 EmbG bestraft»; EmbG ist im Vorspann als SR 946.231 definiert, somit verweist diese Stelle auf Art. 9 des Embargogesetzes SR 946.231."
+  },
+  {
+    "Item": 13,
+    "TARGET_SR": "SR 946.231",
+    "assigned_articles": [
+      "Art. 10"
+    ],
+    "confidence": "high",
+    "reasoning": "«wird nach Artikel 10 EmbG bestraft»; wiederum ist EmbG SR 946.231, daher Verweis auf Art. 10 dieses Gesetzes."
+  },
+  {
+    "Item": 14,
+    "TARGET_SR": "SR 946.231",
+    "assigned_articles": [
+      "Art. 9",
+      "Art. 10"
+    ],
+    "confidence": "high",
+    "reasoning": "«Verstösse nach den Artikeln 9 und 10 EmbG»; EmbG = SR 946.231, somit werden Art. 9 und 10 dieses Gesetzes referenziert."
+  },
+  {
+    "Item": 15,
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«Artikel 5 Absätze 1–3 und Artikel 6» werden ohne Gesetzesabkürzung oder SR-Nummer genannt; dies sind interne Verweise auf andere Artikel derselben Verordnung."
+  }
+]

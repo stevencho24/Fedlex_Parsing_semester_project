@@ -1,0 +1,52 @@
+[
+  {
+    "Item": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 170.512.1",
+    "assigned_articles": [
+      "Art. 16 Abs. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Satz nennt ausdrücklich «in Anwendung von Art. 16 Abs. 3 der Publikationsverordnung … (SR 170.512.1)»; Art. 16 Abs. 3 ist damit klar diesem SR zugeordnet."
+  },
+  {
+    "Item": 2,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 837.02",
+    "assigned_articles": [
+      "Art. 114a"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Snippet steht «gestützt auf Artikel 114a der Arbeitslosenversicherungsverordnung … SR 837.02 (AVIV)»; Art. 114a gehört eindeutig zur AVIV (SR 837.02)."
+  },
+  {
+    "Item": 3,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": "SR 837.0",
+    "assigned_articles": [
+      "Art. 83 Abs. 1 Bst. d"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Text lautet «(Art. 83 Abs. 1 Bst. d des Arbeitslosenversicherungsgesetzes vom 25. Juni 1982 SR 837.0)»; diese Artikelangabe ist direkt mit SR 837.0 verknüpft."
+  },
+  {
+    "Item": 4,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": "SR 837.023.211",
+    "assigned_articles": [
+      "Art. 1 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "«Die Vergütungssumme entspricht 75 Prozent der Haftungssumme nach Artikel 1 Absatz 1.» Es wird kein anderes Gesetz oder SR genannt; dies ist eine innergesetzliche Verweisung auf Art. 1 Abs. 1 desselben Erlasses (SR 837.023.211)."
+  },
+  {
+    "Item": 5,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": "SR 837.0",
+    "assigned_articles": [
+      "Art. 83 Abs. 1 Bst. d"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Snippet wird «Art. 83 Abs. 1 Bst. d des Arbeitslosenversicherungsgesetzes vom 25. Juni 1982» genannt; dieses Gesetz ist das Arbeitslosenversicherungsgesetz (SR 837.0). Die weitere Nennung «Art. 115 AVIV» gehört zur AVIV (SR 837.02) und ist nicht mit SR 837.0 verknüpft."
+  }
+]

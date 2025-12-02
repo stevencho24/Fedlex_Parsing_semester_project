@@ -1,0 +1,188 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 172.220.111.9",
+    "assigned_articles": [
+      "Art. 40"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet: 'gestützt auf Artikel 40 der Verordnung ... SR 172.220.111.9 ... (PVFMH)'; Article 40 is explicitly and syntactically linked to this SR."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": "SR 512.21",
+    "assigned_articles": "General reference - entire document",
+    "confidence": "high",
+    "reasoning": "Snippet refers to 'die Verordnung ... SR 512.21 über die Militärdienstpflicht (VMDP)' without any article number; this is a general citation of the ordinance."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_9",
+    "TARGET_SR": "SR 512.21",
+    "assigned_articles": "General reference - entire document",
+    "confidence": "high",
+    "reasoning": "Text: 'Ausbildungsdienst gemäss VMDP SR 512.21'; no specific article or range is mentioned, only the ordinance as a whole."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_10",
+    "TARGET_SR": "SR 510.10",
+    "assigned_articles": [
+      "Art. 47 Abs. 3",
+      "Art. 47 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet: 'nach Artikel 47 Absatz 3 MG SR 510.10; ... nach Artikel 47 Absatz 1 MG.' Both article references are explicitly tied to MG, which is SR 510.10."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_10",
+    "TARGET_SR": "SR 172.220.111.310.2",
+    "assigned_articles": "General reference - entire document",
+    "confidence": "high",
+    "reasoning": "Snippet: 'nicht der Verordnung des VBS vom 9. Dezember 2003 SR 172.220.111.310.2 über das militärische Personal unterstellt.' No article is specified; it cites the entire ordinance."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_12",
+    "TARGET_SR": "SR 510.10",
+    "assigned_articles": [
+      "Art. 104"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet: 'die Ernennung zum Fachoffizier nach Artikel 104 MG SR 510.10;'; Article 104 is explicitly and uniquely linked to MG (SR 510.10)."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_12",
+    "TARGET_SR": "SR 512.21",
+    "assigned_articles": [
+      "Art. 75 Abs. 2 lit. c"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet: 'nach Artikel 75 Absatz 2 Buchstabe c VMDP SR 512.21.' This clearly specifies Art. 75 para. 2 letter c of SR 512.21."
+  },
+  {
+    "ITEM": 8,
+    "ARTICLE_EID": "art_13",
+    "TARGET_SR": "SR 172.220.111.3",
+    "assigned_articles": [
+      "Art. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet: 'die Stellen nach Artikel 2 der Bundespersonalverordnung ... SR 172.220.111.3'; Article 2 is explicitly tied to this SR."
+  },
+  {
+    "ITEM": 9,
+    "ARTICLE_EID": "art_13",
+    "TARGET_SR": "SR 172.010.1",
+    "assigned_articles": [
+      "Anhang 1"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet: 'nach Anhang 1 der Regierungs- und Verwaltungsorganisationsverordnung ... SR 172.010.1'; the cited unit is Annex 1, not a numbered article."
+  },
+  {
+    "ITEM": 10,
+    "ARTICLE_EID": "art_14",
+    "TARGET_SR": "SR 512.21",
+    "assigned_articles": [
+      "Art. 73",
+      "Art. 74"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet: 'sind die Artikel 73 und 74 VMDP SR 512.21 sinngemäss anwendbar.' Both articles are explicitly associated with SR 512.21."
+  },
+  {
+    "ITEM": 11,
+    "ARTICLE_EID": "art_17",
+    "TARGET_SR": "SR 172.220.111.9",
+    "assigned_articles": "General reference - entire document",
+    "confidence": "medium",
+    "reasoning": "Snippet mentions 'Angestellte des VBS' and 'Ferien ... auf Grundlage der PVFMH'; the TARGET_SR is PVFMH (SR 172.220.111.9) via the preamble acronym, but no specific article is cited in this particular snippet."
+  },
+  {
+    "ITEM": 12,
+    "ARTICLE_EID": "art_17",
+    "TARGET_SR": "SR 172.220.111.9",
+    "assigned_articles": [
+      "Art. 24",
+      "Art. 26"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet: 'Ferienanspruch nach Artikel 24 PVFMH ... Urlaubstage nach Artikel 26 PVFMH;'; both articles are explicitly tied to PVFMH, which is SR 172.220.111.9."
+  },
+  {
+    "ITEM": 13,
+    "ARTICLE_EID": "art_19",
+    "TARGET_SR": "SR 172.220.111.9",
+    "assigned_articles": "General reference - entire document",
+    "confidence": "medium",
+    "reasoning": "Snippet: 'Die Verordnung des VBS vom 25. August 2009 über das Personal ... wird aufgehoben.' The TARGET_SR is SR 172.220.111.9 via acronym mapping, but no article number is mentioned; it refers to the ordinance as a whole."
+  },
+  {
+    "ITEM": 14,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 1 Abs. 1 lit. a",
+      "Art. 1 Abs. 1 lit. b",
+      "Art. 2",
+      "Art. 3",
+      "Art. 4",
+      "Art. 5",
+      "Art. 6",
+      "Art. 7",
+      "Art. 8",
+      "Art. 9",
+      "Art. 12",
+      "Art. 13 Abs. 2",
+      "Art. 14",
+      "Art. 15"
+    ],
+    "confidence": "high",
+    "reasoning": "Artikel-reference within the same document: 'Die Artikel 1 Absatz 1 Buchstabe a und b, 2–9, 12, 13 Absatz 2, 14 und 15 gelten auch ...'. This is clearly an internal self-reference listing these articles and subunits."
+  },
+  {
+    "ITEM": 15,
+    "ARTICLE_EID": "art_13",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Self-reference snippet: 'nach Artikel 2 der Bundespersonalverordnung ...'; this mirrors ITEM 8 but without explicit SR; syntactically it refers to Art. 2 of that external ordinance, not to an article of the current document."
+  },
+  {
+    "ITEM": 16,
+    "ARTICLE_EID": "art_17",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 24"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet: 'Ferienanspruch nach Artikel 24 PVFMH'; via preamble acronym PVFMH this is Art. 24 of SR 172.220.111.9, but as artikel_reference (no TARGET_SR) it is recorded simply as an article reference in context."
+  },
+  {
+    "ITEM": 17,
+    "ARTICLE_EID": "art_17",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 15 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet: 'Ruhetage nach Artikel 15 Absatz 1;'; this is an internal reference to Art. 15 para. 1 of the same document (no external SR indicated)."
+  },
+  {
+    "ITEM": 18,
+    "ARTICLE_EID": "art_17",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 26"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet: 'Urlaubstage nach Artikel 26 PVFMH;'; via acronym this points to Art. 26 of SR 172.220.111.9, but as artikel_reference it is captured as an article citation without assigning a TARGET_SR."
+  }
+]

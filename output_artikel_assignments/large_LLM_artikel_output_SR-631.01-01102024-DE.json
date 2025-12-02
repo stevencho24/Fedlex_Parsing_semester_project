@@ -1,0 +1,3506 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": ["Art. 1"],
+    "confidence": "high",
+    "reasoning": "Preambel beruht auf dem Zollgesetz; die Wendung «gestützt auf das Zollgesetz ... SR 631.0 (ZG)» ist eine klassische Grundlage-Zitation des Erlasses als Ganzes. Nach Vorgabe ist hier der einschlägige Preambelartikel des ZG zuzuordnen; mangels genauerer Angabe wird Art. 1 als formale Zuordnung verwendet."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 172.220.1",
+    "assigned_articles": ["Art. 37 Abs. 3"],
+    "confidence": "high",
+    "reasoning": "Im Satz wird ausdrücklich «auf Artikel 37 Absatz 3 des Bundespersonalgesetzes ... SR 172.220.1 (BPG)» verwiesen; dies ist eine direkte, präpositionale Zuordnung dieses Artikels zum BPG."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_6",
+    "TARGET_SR": "SR 192.12",
+    "assigned_articles": ["Art. 2"],
+    "confidence": "high",
+    "reasoning": "Der Text nennt «Personen nach Artikel 2 des Gaststaatgesetzes ... SR 192.12»; Art. 2 gehört damit eindeutig zum Gaststaatgesetz (SR 192.12)."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_6",
+    "TARGET_SR": "SR 631.144.0",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "high",
+    "reasoning": "Es wird nur «der Verordnung ... SR 631.144.0 über Zollvorrechte ...» genannt, ohne Artikelangabe; dies ist eine pauschale Verweisung auf die Verordnung insgesamt."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_6",
+    "TARGET_SR": "SR 631.145.0",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "high",
+    "reasoning": "Analog zu ITEM 4: blosse Nennung der Verordnung SR 631.145.0 ohne Artikel; pauschale Dokumentverweisung."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_15",
+    "TARGET_SR": "SR 211.231",
+    "assigned_articles": ["Art. 2"],
+    "confidence": "medium",
+    "reasoning": "Der Text spricht von «eingetragene Partnerschaften nach dem Partnerschaftsgesetz ... SR 211.231»; die Legaldefinition der eingetragenen Partnerschaft findet sich in Art. 2 PartG. Obwohl der Artikel nicht explizit genannt ist, ist Art. 2 sachlich der Bezugspunkt."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_17",
+    "TARGET_SR": "SR 851.1",
+    "assigned_articles": ["Art. 2 Abs. 1"],
+    "confidence": "high",
+    "reasoning": "Es heisst «bedürftige Personen nach Artikel 2 Absatz 1 des Zuständigkeitsgesetzes ... SR 851.1»; Art. 2 Abs. 1 gehört eindeutig zu SR 851.1."
+  },
+  {
+    "ITEM": 8,
+    "ARTICLE_EID": "art_18",
+    "TARGET_SR": "SR 831.20",
+    "assigned_articles": ["Art. 42bis"],
+    "confidence": "high",
+    "reasoning": "Der Satz nennt «Hilflosenentschädigung nach Artikel 42bis des Bundesgesetzes ... SR 831.20»; Art. 42bis ist ausdrücklich dem IVG (SR 831.20) zugeordnet."
+  },
+  {
+    "ITEM": 9,
+    "ARTICLE_EID": "art_37",
+    "TARGET_SR": "SR 0.631.250.112",
+    "assigned_articles": ["Art. 9 Abs. 1", "Anlage 3"],
+    "confidence": "high",
+    "reasoning": "Im Klammerzusatz steht «(Art. 9 Abs. 1 und Anlage 3 des Zollabkommens)»; diese Bestimmungen gehören zum genannten Zollabkommen SR 0.631.250.112."
+  },
+  {
+    "ITEM": 10,
+    "ARTICLE_EID": "art_43",
+    "TARGET_SR": "SR 910.1",
+    "assigned_articles": ["Art. 3 Abs. 1 Bst. a"],
+    "confidence": "high",
+    "reasoning": "Es wird «im Sinne von Artikel 3 Absatz 1 Buchstabe a des Landwirtschaftsgesetzes ... SR 910.1» erwähnt; Art. 3 Abs. 1 lit. a gehört zu SR 910.1."
+  },
+  {
+    "ITEM": 11,
+    "ARTICLE_EID": "art_55",
+    "TARGET_SR": "SR 916.121.10",
+    "assigned_articles": ["Art. 7"],
+    "confidence": "high",
+    "reasoning": "Der Text nennt «nach Artikel 7 der Verordnung ... SR 916.121.10 (VEAGOG)»; Art. 7 ist klar dieser Verordnung zugeordnet."
+  },
+  {
+    "ITEM": 12,
+    "ARTICLE_EID": "art_56",
+    "TARGET_SR": "SR 916.121.10",
+    "assigned_articles": ["Art. 7a"],
+    "confidence": "high",
+    "reasoning": "Es heisst «nach Artikel 7a VEAGOG SR 916.121.10»; Art. 7a gehört zur VEAGOG (SR 916.121.10)."
+  },
+  {
+    "ITEM": 13,
+    "ARTICLE_EID": "art_57",
+    "TARGET_SR": "SR 916.121.10",
+    "assigned_articles": ["Art. 7"],
+    "confidence": "high",
+    "reasoning": "Der Satz verweist auf «nach Artikel 7 VEAGOG SR 916.121.10»; Art. 7 ist eindeutig zugeordnet."
+  },
+  {
+    "ITEM": 14,
+    "ARTICLE_EID": "art_58",
+    "TARGET_SR": "SR 916.121.10",
+    "assigned_articles": ["Art. 7 Abs. 1"],
+    "confidence": "high",
+    "reasoning": "Es wird «nach Artikel 7 Absatz 1 VEAGOG SR 916.121.10» genannt; Art. 7 Abs. 1 gehört zur VEAGOG."
+  },
+  {
+    "ITEM": 15,
+    "ARTICLE_EID": "art_59",
+    "TARGET_SR": "SR 916.121.10",
+    "assigned_articles": ["Art. 7", "Art. 7 Abs. 1"],
+    "confidence": "high",
+    "reasoning": "Der Text spricht von «nach Artikel 7 VEAGOG SR 916.121.10» und «nach Artikel 7 Absatz 1 VEAGOG»; beide Bezüge gehören zur VEAGOG (SR 916.121.10)."
+  },
+  {
+    "ITEM": 16,
+    "ARTICLE_EID": "art_65",
+    "TARGET_SR": "SR 641.611",
+    "assigned_articles": ["Art. 34 Abs. 2"],
+    "confidence": "high",
+    "reasoning": "Im Kontext der Verordnung wird an anderer Stelle ausdrücklich «Artikel 34 Absatz 2 der Mineralölsteuerverordnung ... SR 641.611» genannt; hier wird nur der Titel zitiert, aber die systematische Verbindung betrifft Art. 34 Abs. 2. Da kein anderer Artikel genannt ist, wird dieser als einschlägig zugeordnet."
+  },
+  {
+    "ITEM": 17,
+    "ARTICLE_EID": "art_71",
+    "TARGET_SR": "SR 632.10",
+    "assigned_articles": ["Anhang 1"],
+    "confidence": "high",
+    "reasoning": "Es heisst «Anhang 1 des Zolltarifgesetzes ... SR 632.10 (ZTG)»; der Bezug gilt dem Anhang 1 dieses Gesetzes."
+  },
+  {
+    "ITEM": 18,
+    "ARTICLE_EID": "art_72",
+    "TARGET_SR": "SR 632.421.0",
+    "assigned_articles": ["Anhang 1"],
+    "confidence": "high",
+    "reasoning": "Der Text nennt «Anhang 1 der Freihandelsverordnung 1 ... SR 632.421.0»; damit ist der Anhang 1 dieser Verordnung gemeint."
+  },
+  {
+    "ITEM": 19,
+    "ARTICLE_EID": "art_72",
+    "TARGET_SR": "SR 632.319",
+    "assigned_articles": ["Anhang 1"],
+    "confidence": "high",
+    "reasoning": "Es wird «Anhang 1 der Freihandelsverordnung 2 ... SR 632.319» erwähnt; Bezug auf Anhang 1 dieser Verordnung."
+  },
+  {
+    "ITEM": 20,
+    "ARTICLE_EID": "art_72",
+    "TARGET_SR": "SR 946.39",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "high",
+    "reasoning": "Nur der Titel «Ursprungsregelnverordnung ... SR 946.39» wird genannt, ohne Artikel oder Anhang; pauschale Dokumentverweisung."
+  },
+  {
+    "ITEM": 21,
+    "ARTICLE_EID": "art_80_a",
+    "TARGET_SR": "SR 632.421.0",
+    "assigned_articles": ["Anhang 1"],
+    "confidence": "high",
+    "reasoning": "«nach Anhang 1 der Freihandelsverordnung 1 ... SR 632.421.0»; klarer Bezug auf diesen Anhang."
+  },
+  {
+    "ITEM": 22,
+    "ARTICLE_EID": "art_80_a",
+    "TARGET_SR": "SR 632.319",
+    "assigned_articles": ["Anhang 1"],
+    "confidence": "high",
+    "reasoning": "«Anhang 1 der Freihandelsverordnung 2 ... SR 632.319»; Bezug auf Anhang 1 dieser Verordnung."
+  },
+  {
+    "ITEM": 23,
+    "ARTICLE_EID": "art_80_a",
+    "TARGET_SR": "SR 632.911",
+    "assigned_articles": ["Anhang 1"],
+    "confidence": "high",
+    "reasoning": "«nach Anhang 1 der Zollpräferenzenverordnung ... SR 632.911»; Bezug auf Anhang 1."
+  },
+  {
+    "ITEM": 24,
+    "ARTICLE_EID": "art_80_a",
+    "TARGET_SR": "SR 946.39",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "high",
+    "reasoning": "«richtet sich nach der Ursprungsregelnverordnung ... SR 946.39» ohne Artikelangabe; pauschale Verweisung."
+  },
+  {
+    "ITEM": 25,
+    "ARTICLE_EID": "art_93",
+    "TARGET_SR": "SR 632.10",
+    "assigned_articles": ["Art. 2"],
+    "confidence": "high",
+    "reasoning": "«Zollbemessungsgrundlage im Sinne von Artikel 2 ZTG SR 632.10»; Art. 2 gehört zum Zolltarifgesetz."
+  },
+  {
+    "ITEM": 26,
+    "ARTICLE_EID": "art_98",
+    "TARGET_SR": "SR 221.431",
+    "assigned_articles": ["Art. 9", "Art. 10"],
+    "confidence": "high",
+    "reasoning": "«Die Artikel 9 und 10 der Geschäftsbücherverordnung ... SR 221.431 gelten sinngemäss.»; beide Artikel sind explizit dieser Verordnung zugeordnet."
+  },
+  {
+    "ITEM": 27,
+    "ARTICLE_EID": "art_112_e",
+    "TARGET_SR": "SR 220",
+    "assigned_articles": ["Art. 662–670", "Art. 957–963"],
+    "confidence": "high",
+    "reasoning": "Es wird «nach den Artikeln 662–670 und 957–963 des Obligationenrechts SR 220» verwiesen; diese Artikelreihen gehören zum OR (SR 220)."
+  },
+  {
+    "ITEM": 28,
+    "ARTICLE_EID": "art_112_e",
+    "TARGET_SR": "SR 221.431",
+    "assigned_articles": ["Art. 9", "Art. 10"],
+    "confidence": "high",
+    "reasoning": "«oder nach der Geschäftsbücherverordnung ... SR 221.431» im Kontext von ITEM 26/27; dort sind Art. 9 und 10 als massgeblich genannt, weshalb dieselben Bestimmungen hier gemeint sind."
+  },
+  {
+    "ITEM": 29,
+    "ARTICLE_EID": "art_112_f",
+    "TARGET_SR": "SR 281.1",
+    "assigned_articles": ["Art. 293", "Art. 166", "Art. 190–193"],
+    "confidence": "high",
+    "reasoning": "Der Satz nennt «Nachlassvertrag im Sinne von Artikel 293 ... SR 281.1» sowie «Konkursbegehren im Sinne der Artikel 166 und 190–193 SchKG»; alle genannten Artikel gehören zum SchKG (SR 281.1)."
+  },
+  {
+    "ITEM": 30,
+    "ARTICLE_EID": "art_144",
+    "TARGET_SR": "SR 0.631.242.04",
+    "assigned_articles": ["Art. 111"],
+    "confidence": "high",
+    "reasoning": "«auf Grund des Manifests nach Artikel 111 des Übereinkommens ... SR 0.631.242.04»; Art. 111 gehört zu diesem Übereinkommen."
+  },
+  {
+    "ITEM": 31,
+    "ARTICLE_EID": "art_165_a",
+    "TARGET_SR": "SR 632.10",
+    "assigned_articles": ["Anhang 1", "Anhang 6"],
+    "confidence": "high",
+    "reasoning": "Es wird «Anhang 6 zu Nahrungsmitteln der Kapitel 15–22 von Anhang 1 ZTG SR 632.10» genannt; Bezug auf Anhang 1 (Kapitel 15–22) und dessen Anhang 6."
+  },
+  {
+    "ITEM": 32,
+    "ARTICLE_EID": "art_184",
+    "TARGET_SR": "SR 0.631.242.04",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "medium",
+    "reasoning": "«im Sinne des Übereinkommens ... SR 0.631.242.04» ohne konkrete Artikel- oder Anhangsangabe; pauschale Bezugnahme auf das Übereinkommen."
+  },
+  {
+    "ITEM": 33,
+    "ARTICLE_EID": "art_189",
+    "TARGET_SR": "SR 611.01",
+    "assigned_articles": ["Art. 49"],
+    "confidence": "high",
+    "reasoning": "«gilt Artikel 49 der Finanzhaushaltverordnung ... SR 611.01»; Art. 49 gehört eindeutig zu SR 611.01."
+  },
+  {
+    "ITEM": 34,
+    "ARTICLE_EID": "art_209",
+    "TARGET_SR": "SR 170.32",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "medium",
+    "reasoning": "Es wird nur «nach den Bestimmungen des Verantwortlichkeitsgesetzes ... SR 170.32» gesagt; keine konkrete Artikelangabe, daher allgemeine Verweisung."
+  },
+  {
+    "ITEM": 35,
+    "ARTICLE_EID": "art_210",
+    "TARGET_SR": "SR 281.1",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "medium",
+    "reasoning": "«Die entsprechenden Bestimmungen des SchKG SR 281.1 sind anwendbar.»; ohne Artikelangabe, pauschale Bezugnahme auf das Gesetz."
+  },
+  {
+    "ITEM": 36,
+    "ARTICLE_EID": "art_226",
+    "TARGET_SR": "SR 361.3",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "high",
+    "reasoning": "«die Bearbeitung der Daten richtet sich nach der Verordnung ... SR 361.3 über die Bearbeitung biometrischer erkennungsdienstlicher Daten»; keine Artikel genannt, allgemeine Verweisung."
+  },
+  {
+    "ITEM": 37,
+    "ARTICLE_EID": "art_226",
+    "TARGET_SR": "SR 631.061",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "high",
+    "reasoning": "«die Bearbeitung der Daten richtet sich nach der Datenbearbeitungsverordnung für das BAZG ... SR 631.061»; pauschale Verweisung ohne Artikel."
+  },
+  {
+    "ITEM": 38,
+    "ARTICLE_EID": "art_228",
+    "TARGET_SR": "SR 364",
+    "assigned_articles": ["Art. 8", "Art. 30"],
+    "confidence": "high",
+    "reasoning": "Im SR_link-Item wird «besondere Ausbildung nach Artikel 8 ... SR 364 (ZAG)» genannt; in den artikel_reference-Items zu Art. 228 wird zusätzlich «Themen nach Artikel 30 ZAG» erwähnt. Beide Artikel gehören zum ZAG (SR 364)."
+  },
+  {
+    "ITEM": 39,
+    "ARTICLE_EID": "art_235",
+    "TARGET_SR": "SR 412.10",
+    "assigned_articles": ["Art. 28 Abs. 2"],
+    "confidence": "high",
+    "reasoning": "«im Sinne von Artikel 28 Absatz 2 des Berufsbildungsgesetzes ... SR 412.10»; Art. 28 Abs. 2 gehört zu SR 412.10."
+  },
+  {
+    "ITEM": 40,
+    "ARTICLE_EID": "art_238",
+    "TARGET_SR": "SR 313.0",
+    "assigned_articles": ["Art. 12 Abs. 1", "Art. 12 Abs. 2", "Art. 63"],
+    "confidence": "high",
+    "reasoning": "«nach den Artikeln 12 Absätze 1 und 2 sowie 63 des Bundesgesetzes ... SR 313.0»; diese Artikel gehören zum VStrR."
+  },
+  {
+    "ITEM": 41,
+    "ARTICLE_EID": "art_239",
+    "TARGET_SR": "SR 313.0",
+    "assigned_articles": ["Art. 12 Abs. 1", "Art. 12 Abs. 2", "Art. 61 Abs. 3"],
+    "confidence": "high",
+    "reasoning": "Es wird «nicht als leistungspflichtig gemäss Artikel 12 Absätze 1 und 2 VStrR SR 313.0» und «innerhalb der nach Artikel 61 Absatz 3 VStrR massgeblichen Frist» genannt; beide Artikel gehören zu SR 313.0."
+  },
+  {
+    "ITEM": 42,
+    "ARTICLE_EID": "art_240_a",
+    "TARGET_SR": "SR 632.14",
+    "assigned_articles": ["Art. 5–12"],
+    "confidence": "high",
+    "reasoning": "«die Vorschriften der Artikel 5–12 der Verordnung ... SR 632.14 über die Statistik des Aussenhandels»; diese Artikel gehören zu SR 632.14."
+  },
+  {
+    "ITEM": 43,
+    "ARTICLE_EID": "art_240_b",
+    "TARGET_SR": "SR 313.0",
+    "assigned_articles": ["Art. 65 Abs. 1"],
+    "confidence": "high",
+    "reasoning": "«Strafbescheiden ... nach Artikel 65 Absatz 1 VStrR SR 313.0»; Art. 65 Abs. 1 gehört zum VStrR."
+  },
+  {
+    "ITEM": 44,
+    "ARTICLE_EID": "art_241",
+    "TARGET_SR": "SR 172.010",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "medium",
+    "reasoning": "Nur der Titel «Regierungs- und Verwaltungsorganisationsgesetz ... (SR 172.010)» wird genannt; keine Artikelangabe, allgemeine Verweisung."
+  },
+  {
+    "ITEM": 45,
+    "ARTICLE_EID": "art_241",
+    "TARGET_SR": "SR 0.631.122",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "medium",
+    "reasoning": "«Internationales Übereinkommen ... SR 0.631.122 ...» ohne Artikel; pauschale Verweisung."
+  },
+  {
+    "ITEM": 46,
+    "ARTICLE_EID": "art_241",
+    "TARGET_SR": "SR 0.631.20",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "medium",
+    "reasoning": "«Internationales Übereinkommen ... SR 0.631.20 ...» ohne Artikel; pauschale Verweisung."
+  },
+  {
+    "ITEM": 47,
+    "ARTICLE_EID": "art_241",
+    "TARGET_SR": "SR 0.631.24",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "medium",
+    "reasoning": "«Übereinkommen ... SR 0.631.24 ...» ohne Artikel; allgemeine Verweisung."
+  },
+  {
+    "ITEM": 48,
+    "ARTICLE_EID": "art_241",
+    "TARGET_SR": "SR 0.631.244.57",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "medium",
+    "reasoning": "«Zollabkommen ... SR 0.631.244.57 ...» ohne Artikel; pauschal."
+  },
+  {
+    "ITEM": 49,
+    "ARTICLE_EID": "art_241",
+    "TARGET_SR": "SR 0.631.250.112",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "medium",
+    "reasoning": "«Zollabkommen ... SR 0.631.250.112 ...»; hier wird das Abkommen als Ganzes genannt, ohne konkrete Artikel."
+  },
+  {
+    "ITEM": 50,
+    "ARTICLE_EID": "art_241",
+    "TARGET_SR": "SR 0.631.251.4",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "medium",
+    "reasoning": "«Zollabkommen ... SR 0.631.251.4 ...»; keine Artikelangabe."
+  },
+  {
+    "ITEM": 51,
+    "ARTICLE_EID": "art_241",
+    "TARGET_SR": "SR 0.631.251.7",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "medium",
+    "reasoning": "«Zollabkommen ... SR 0.631.251.7 ...»; pauschale Verweisung."
+  },
+  {
+    "ITEM": 52,
+    "ARTICLE_EID": "art_241",
+    "TARGET_SR": "SR 0.631.252.512",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "medium",
+    "reasoning": "«Zollabkommen ... SR 0.631.252.512 ...»; allgemeine Verweisung."
+  },
+  {
+    "ITEM": 53,
+    "ARTICLE_EID": "art_241",
+    "TARGET_SR": "SR 0.631.252.52",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "medium",
+    "reasoning": "«Zollabkommen ... SR 0.631.252.52 ...»; pauschal."
+  },
+  {
+    "ITEM": 54,
+    "ARTICLE_EID": "art_241",
+    "TARGET_SR": "SR 0.631.21",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "medium",
+    "reasoning": "«Protokoll ... SR 0.631.21 ...»; keine Artikelangabe."
+  },
+  {
+    "ITEM": 55,
+    "ARTICLE_EID": "art_242",
+    "TARGET_SR": "SR 172.010",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "low",
+    "reasoning": "Nur die nackte SR-Nummer «SR 172.010» ohne Kontext; mangels weiterer Angaben wird von einer allgemeinen Verweisung auf das RVOG ausgegangen."
+  },
+  {
+    "ITEM": 56,
+    "ARTICLE_EID": "art_242",
+    "TARGET_SR": "SR 0.631.252.913.690",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "medium",
+    "reasoning": "«Abkommen ... SR 0.631.252.913.690 ...»; keine Artikelangabe."
+  },
+  {
+    "ITEM": 57,
+    "ARTICLE_EID": "art_242",
+    "TARGET_SR": "SR 0.631.252.916.320",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "medium",
+    "reasoning": "«Abkommen ... SR 0.631.252.916.320 ...»; pauschale Verweisung."
+  },
+  {
+    "ITEM": 58,
+    "ARTICLE_EID": "art_242",
+    "TARGET_SR": "SR 0.631.252.934.95",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "medium",
+    "reasoning": "«Abkommen ... SR 0.631.252.934.95 ...»; allgemeine Verweisung."
+  },
+  {
+    "ITEM": 59,
+    "ARTICLE_EID": "art_242",
+    "TARGET_SR": "SR 0.631.252.945.460",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "medium",
+    "reasoning": "«Abkommen ... SR 0.631.252.945.460 ...»; pauschal."
+  },
+  {
+    "ITEM": 60,
+    "ARTICLE_EID": "art_245",
+    "TARGET_SR": "SR 910.1",
+    "assigned_articles": ["Art. 3 Abs. 1 Bst. a"],
+    "confidence": "high",
+    "reasoning": "Wie bei ITEM 10: «im Sinne von Artikel 3 Absatz 1 Buchstabe a des Landwirtschaftsgesetzes ... SR 910.1»; derselbe Bezug."
+  },
+  {
+    "ITEM": 61,
+    "ARTICLE_EID": "art_246",
+    "TARGET_SR": "SR 783.1",
+    "assigned_articles": ["Art. 3", "Art. 4"],
+    "confidence": "high",
+    "reasoning": "Im artikel_reference-Item 435 wird «Art. 3 und 4 des Postgesetzes vom 30. April 1997» genannt; im SR_link-Item 61 wird auf das heutige Postgesetz SR 783.1 verwiesen. Die inhaltlich entsprechenden Bestimmungen (Universaldienst) sind Art. 3 und 4 des Postgesetzes; diese werden daher SR 783.1 zugeordnet."
+  },
+  {
+    "ITEM": 62,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": ["Art. 3 Abs. 3"],
+    "confidence": "high",
+    "reasoning": "Klammerzusatz «(Art. 3 Abs. 3 ZG)»; ZG ist SR 631.0, somit Art. 3 Abs. 3 ZG."
+  },
+  {
+    "ITEM": 63,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": ["Art. 3 Abs. 3", "Art. 23", "Art. 96"],
+    "confidence": "high",
+    "reasoning": "Snippet enthält «(Art. 3 Abs. 3 ZG)» sowie «(Art. 23 ZG)» und «(Art. 96 ZG)»; alle drei Artikel gehören zum ZG (SR 631.0)."
+  },
+  {
+    "ITEM": 64,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": ["Art. 4 Abs. 2"],
+    "confidence": "high",
+    "reasoning": "«(Art. 4 Abs. 2 ZG) ... Bauvorhaben nach Artikel 4 Absatz 2 ZG»; Art. 4 Abs. 2 gehört zum ZG."
+  },
+  {
+    "ITEM": 65,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": ["Art. 5 Abs. 2"],
+    "confidence": "high",
+    "reasoning": "«(Art. 5 Abs. 2 ZG) ... Dritte im Sinne von Artikel 5 Absatz 2 ZG»; Art. 5 Abs. 2 ZG."
+  },
+  {
+    "ITEM": 66,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": ["Art. 8 Abs. 2 Bst. a"],
+    "confidence": "high",
+    "reasoning": "Klammer «(Art. 8 Abs. 2 Bst. a ZG)»; direkter Bezug."
+  },
+  {
+    "ITEM": 67,
+    "ARTICLE_EID": "art_6",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": ["Art. 8 Abs. 2 Bst. a"],
+    "confidence": "high",
+    "reasoning": "Identischer Klammerzusatz wie bei ITEM 66; Art. 8 Abs. 2 lit. a ZG."
+  },
+  {
+    "ITEM": 68,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": ["Art. 8 Abs. 2 Bst. a"],
+    "confidence": "high",
+    "reasoning": "Ebenfalls «(Art. 8 Abs. 2 Bst. a ZG)»; derselbe Artikel."
+  },
+  {
+    "ITEM": 69,
+    "ARTICLE_EID": "art_8",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": ["Art. 8 Abs. 2 Bst. a"],
+    "confidence": "high",
+    "reasoning": "Wie zuvor: Klammer verweist auf Art. 8 Abs. 2 lit. a ZG."
+  },
+  {
+    "ITEM": 70,
+    "ARTICLE_EID": "art_9",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": ["Art. 8 Abs. 2 Bst. a"],
+    "confidence": "high",
+    "reasoning": "Gleicher Klammerzusatz; Art. 8 Abs. 2 lit. a ZG."
+  },
+  {
+    "ITEM": 71,
+    "ARTICLE_EID": "art_10",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": ["Art. 8 Abs. 2 Bst. a"],
+    "confidence": "high",
+    "reasoning": "Klammer «(Art. 8 Abs. 2 Bst. a ZG)»; Art. 8 Abs. 2 lit. a ZG."
+  },
+  {
+    "ITEM": 72,
+    "ARTICLE_EID": "art_11",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": ["Art. 8 Abs. 2 Bst. a"],
+    "confidence": "high",
+    "reasoning": "Wie ITEM 71; Art. 8 Abs. 2 lit. a ZG."
+  },
+  {
+    "ITEM": 73,
+    "ARTICLE_EID": "art_12",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": ["Art. 8 Abs. 2 Bst. a"],
+    "confidence": "high",
+    "reasoning": "Gleicher Klammerzusatz; Art. 8 Abs. 2 lit. a ZG."
+  },
+  {
+    "ITEM": 74,
+    "ARTICLE_EID": "art_13",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": ["Art. 8 Abs. 2 Bst. b"],
+    "confidence": "high",
+    "reasoning": "«(Art. 8 Abs. 2 Bst. b ZG)»; direkter Bezug."
+  },
+  {
+    "ITEM": 75,
+    "ARTICLE_EID": "art_14",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": ["Art. 8 Abs. 2 Bst. c"],
+    "confidence": "high",
+    "reasoning": "«(Art. 8 Abs. 2 Bst. c ZG)»; direkter Bezug."
+  },
+  {
+    "ITEM": 76,
+    "ARTICLE_EID": "art_15",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": ["Art. 8 Abs. 2 Bst. c"],
+    "confidence": "high",
+    "reasoning": "Gleicher Klammerzusatz; Art. 8 Abs. 2 lit. c ZG."
+  },
+  {
+    "ITEM": 77,
+    "ARTICLE_EID": "art_16",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": ["Art. 8 Abs. 2 Bst. c"],
+    "confidence": "high",
+    "reasoning": "Wie ITEM 76; Art. 8 Abs. 2 lit. c ZG."
+  },
+  {
+    "ITEM": 78,
+    "ARTICLE_EID": "art_17",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": ["Art. 8 Abs. 2 Bst. d"],
+    "confidence": "high",
+    "reasoning": "«(Art. 8 Abs. 2 Bst. d ZG)»; direkter Bezug."
+  },
+  {
+    "ITEM": 79,
+    "ARTICLE_EID": "art_18",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": ["Art. 8 Abs. 2 Bst. e"],
+    "confidence": "high",
+    "reasoning": "«(Art. 8 Abs. 2 Bst. e ZG)»; direkter Bezug."
+  },
+  {
+    "ITEM": 80,
+    "ARTICLE_EID": "art_19",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": ["Art. 8 Abs. 2 Bst. f"],
+    "confidence": "high",
+    "reasoning": "«(Art. 8 Abs. 2 Bst. f ZG)»; direkter Bezug."
+  },
+  {
+    "ITEM": 81,
+    "ARTICLE_EID": "art_20",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": ["Art. 8 Abs. 2 Bst. g"],
+    "confidence": "high",
+    "reasoning": "«(Art. 8 Abs. 2 Bst. g ZG)»; direkter Bezug."
+  },
+  {
+    "ITEM": 82,
+    "ARTICLE_EID": "art_21",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": ["Art. 8 Abs. 2 Bst. h"],
+    "confidence": "high",
+    "reasoning": "«(Art. 8 Abs. 2 Bst. h ZG)»; direkter Bezug."
+  },
+  {
+    "ITEM": 83,
+    "ARTICLE_EID": "art_22",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": ["Art. 8 Abs. 2 Bst. i"],
+    "confidence": "high",
+    "reasoning": "«(Art. 8 Abs. 2 Bst. i ZG)»; direkter Bezug."
+  },
+  {
+    "ITEM": 84,
+    "ARTICLE_EID": "art_23",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": ["Art. 8 Abs. 2 Bst. j"],
+    "confidence": "high",
+    "reasoning": "«(Art. 8 Abs. 2 Bst. j ZG)»; direkter Bezug."
+  },
+  {
+    "ITEM": 85,
+    "ARTICLE_EID": "art_24",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": ["Art. 8 Abs. 2 Bst. j"],
+    "confidence": "high",
+    "reasoning": "Gleicher Klammerzusatz; Art. 8 Abs. 2 lit. j ZG."
+  },
+  {
+    "ITEM": 86,
+    "ARTICLE_EID": "art_25",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": ["Art. 8 Abs. 2 Bst. j"],
+    "confidence": "high",
+    "reasoning": "Wie ITEM 85; Art. 8 Abs. 2 lit. j ZG."
+  },
+  {
+    "ITEM": 87,
+    "ARTICLE_EID": "art_26",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": ["Art. 8 Abs. 2 Bst. j"],
+    "confidence": "high",
+    "reasoning": "Gleicher Klammerzusatz; Art. 8 Abs. 2 lit. j ZG."
+  },
+  {
+    "ITEM": 88,
+    "ARTICLE_EID": "art_27",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": ["Art. 8 Abs. 2 Bst. k"],
+    "confidence": "high",
+    "reasoning": "«(Art. 8 Abs. 2 Bst. k ZG)»; direkter Bezug."
+  },
+  {
+    "ITEM": 89,
+    "ARTICLE_EID": "art_28",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": ["Art. 8 Abs. 2 Bst. l"],
+    "confidence": "high",
+    "reasoning": "«(Art. 8 Abs. 2 Bst. l ZG)»; direkter Bezug."
+  },
+  {
+    "ITEM": 90,
+    "ARTICLE_EID": "art_29",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": ["Art. 8 Abs. 2 Bst. m"],
+    "confidence": "high",
+    "reasoning": "«(Art. 8 Abs. 2 Bst. m ZG)»; direkter Bezug."
+  },
+  {
+    "ITEM": 91,
+    "ARTICLE_EID": "art_30",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": ["Art. 9"],
+    "confidence": "high",
+    "reasoning": "«(Art. 9 ZG) ...»; allgemeiner Bezug auf Art. 9 ZG."
+  },
+  {
+    "ITEM": 92,
+    "ARTICLE_EID": "art_31",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": ["Art. 9 Abs. 1", "Art. 9 Abs. 2"],
+    "confidence": "high",
+    "reasoning": "«(Art. 9 Abs. 1 und 2 ZG)»; beide Absätze gehören zu Art. 9 ZG."
+  },
+  {
+    "ITEM": 93,
+    "ARTICLE_EID": "art_32",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": ["Art. 9 Abs. 2"],
+    "confidence": "high",
+    "reasoning": "«(Art. 9 Abs. 2 ZG)»; direkter Bezug."
+  },
+  {
+    "ITEM": 94,
+    "ARTICLE_EID": "art_33",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": ["Art. 9 Abs. 2", "Art. 9 Abs. 3"],
+    "confidence": "high",
+    "reasoning": "«(Art. 9 Abs. 2 und 3 ZG)»; beide Absätze."
+  },
+  {
+    "ITEM": 95,
+    "ARTICLE_EID": "art_34",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": ["Art. 9 Abs. 1", "Art. 9 Abs. 2"],
+    "confidence": "high",
+    "reasoning": "«(Art. 9 Abs. 1 und 2 ZG)»; beide Absätze."
+  },
+  {
+    "ITEM": 96,
+    "ARTICLE_EID": "art_35",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": ["Art. 9 Abs. 2"],
+    "confidence": "high",
+    "reasoning": "«(Art. 9 Abs. 2 ZG)»; direkter Bezug."
+  },
+  {
+    "ITEM": 97,
+    "ARTICLE_EID": "art_36",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": ["Art. 9 Abs. 2"],
+    "confidence": "high",
+    "reasoning": "«(Art. 9 Abs. 2 ZG)»; direkter Bezug."
+  },
+  {
+    "ITEM": 98,
+    "ARTICLE_EID": "art_37",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": ["Art. 9 Abs. 3"],
+    "confidence": "high",
+    "reasoning": "«(Art. 9 Abs. 3 ZG)»; direkter Bezug."
+  },
+  {
+    "ITEM": 99,
+    "ARTICLE_EID": "art_38",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": ["Art. 11"],
+    "confidence": "high",
+    "reasoning": "«(Art. 11 ZG)»; direkter Bezug."
+  },
+  {
+    "ITEM": 100,
+    "ARTICLE_EID": "art_39",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": ["Art. 11 Abs. 4"],
+    "confidence": "high",
+    "reasoning": "«(Art. 11 Abs. 4 ZG)»; direkter Bezug."
+  },
+  {
+    "ITEM": 101,
+    "ARTICLE_EID": "art_40",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": ["Art. 12", "Art. 59"],
+    "confidence": "high",
+    "reasoning": "«(Art. 12 und 59 ZG)»; beide Artikel."
+  },
+  {
+    "ITEM": 102,
+    "ARTICLE_EID": "art_41",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": ["Art. 12 Abs. 2"],
+    "confidence": "high",
+    "reasoning": "«(Art. 12 Abs. 2 ZG)»; direkter Bezug."
+  },
+  {
+    "ITEM": 103,
+    "ARTICLE_EID": "art_42",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": ["Art. 12 Abs. 1"],
+    "confidence": "high",
+    "reasoning": "«(Art. 12 Abs. 1 ZG)»; direkter Bezug."
+  },
+  {
+    "ITEM": 104,
+    "ARTICLE_EID": "art_43",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": ["Art. 12 Abs. 3"],
+    "confidence": "high",
+    "reasoning": "«(Art. 12 Abs. 3 ZG) ... nach Artikel 12 Absatz 3 ZG»; direkter Bezug."
+  },
+  {
+    "ITEM": 105,
+    "ARTICLE_EID": "art_44",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": ["Art. 12 Abs. 4"],
+    "confidence": "high",
+    "reasoning": "«(Art. 12 Abs. 4 ZG)»; direkter Bezug."
+  },
+  {
+    "ITEM": 106,
+    "ARTICLE_EID": "art_45",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": ["Art. 13", "Art. 60"],
+    "confidence": "high",
+    "reasoning": "«(Art. 13 und 60 ZG)»; beide Artikel."
+  },
+  {
+    "ITEM": 107,
+    "ARTICLE_EID": "art_46",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": ["Art. 13 Abs. 2"],
+    "confidence": "high",
+    "reasoning": "«(Art. 13 Abs. 2 ZG)»; direkter Bezug."
+  },
+  {
+    "ITEM": 108,
+    "ARTICLE_EID": "art_47",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": ["Art. 13 Abs. 1"],
+    "confidence": "high",
+    "reasoning": "«(Art. 13 Abs. 1 ZG)»; direkter Bezug."
+  },
+  {
+    "ITEM": 109,
+    "ARTICLE_EID": "art_48",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": ["Art. 13 Abs. 1", "Art. 13 Abs. 2"],
+    "confidence": "high",
+    "reasoning": "«(Art. 13 Abs. 1 und 2 ZG)»; beide Absätze."
+  },
+  {
+    "ITEM": 110,
+    "ARTICLE_EID": "art_49",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": ["Art. 13 Abs. 3"],
+    "confidence": "high",
+    "reasoning": "«(Art. 13 Abs. 3 ZG)»; direkter Bezug."
+  },
+  {
+    "ITEM": 111,
+    "ARTICLE_EID": "art_50",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": ["Art. 14 Abs. 2"],
+    "confidence": "high",
+    "reasoning": "«(Art. 14 Abs. 2 ZG) ... im Sinne von Artikel 14 Absatz 2 ZG»; direkter Bezug."
+  },
+  {
+    "ITEM": 112,
+    "ARTICLE_EID": "art_51",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": ["Art. 14 Abs. 1"],
+    "confidence": "high",
+    "reasoning": "«(Art. 14 Abs. 1 ZG)»; direkter Bezug."
+  },
+  {
+    "ITEM": 113,
+    "ARTICLE_EID": "art_52",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": ["Art. 14 Abs. 1"],
+    "confidence": "high",
+    "reasoning": "Gleicher Klammerzusatz; Art. 14 Abs. 1 ZG."
+  },
+  {
+    "ITEM": 114,
+    "ARTICLE_EID": "art_53",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": ["Art. 14 Abs. 1"],
+    "confidence": "high",
+    "reasoning": "Wie ITEM 113; Art. 14 Abs. 1 ZG."
+  },
+  {
+    "ITEM": 115,
+    "ARTICLE_EID": "art_54",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": ["Art. 14 Abs. 4", "Art. 14 Abs. 5"],
+    "confidence": "high",
+    "reasoning": "«(Art. 14 ZG) ... nach Artikel 14 Absätze 4 und 5 ZG»; die operative Regelung bezieht sich konkret auf Abs. 4 und 5."
+  },
+  {
+    "ITEM": 116,
+    "ARTICLE_EID": "art_55",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": ["Art. 15 Abs. 2"],
+    "confidence": "high",
+    "reasoning": "«(Art. 15 Abs. 2 ZG)»; direkter Bezug."
+  },
+  {
+    "ITEM": 117,
+    "ARTICLE_EID": "art_56",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": ["Art. 15 Abs. 2", "Art. 15"],
+    "confidence": "high",
+    "reasoning": "Klammer «(Art. 15 Abs. 2 ZG)» und im Text «Zollabgabendifferenz nach Artikel 15 ZG»; beide Bezüge gehören zu Art. 15 ZG, insbesondere Abs. 2."
+  },
+  {
+    "ITEM": 118,
+    "ARTICLE_EID": "art_57",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": ["Art. 15 Abs. 2"],
+    "confidence": "high",
+    "reasoning": "«(Art. 15 Abs. 2 ZG)»; direkter Bezug."
+  },
+  {
+    "ITEM": 119,
+    "ARTICLE_EID": "art_58",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": ["Art. 15 Abs. 2"],
+    "confidence": "high",
+    "reasoning": "«(Art. 15 Abs. 2 ZG)»; direkter Bezug."
+  },
+  {
+    "ITEM": 120,
+    "ARTICLE_EID": "art_59",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": ["Art. 15 Abs. 2"],
+    "confidence": "high",
+    "reasoning": "«(Art. 15 Abs. 2 ZG)»; direkter Bezug."
+  },
+  {
+    "ITEM": 121,
+    "ARTICLE_EID": "art_60",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": ["Art. 15 Abs. 2", "Art. 33 Abs. 2", "Art. 33"],
+    "confidence": "high",
+    "reasoning": "«(Art. 15 Abs. 2 und 33 Abs. 2 ZG) ... im Sinne von Artikel 33 ZG»; Bezug auf Art. 15 Abs. 2, Art. 33 Abs. 2 und Art. 33 allgemein."
+  },
+  {
+    "ITEM": 122,
+    "ARTICLE_EID": "art_61",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": ["Art. 15 Abs. 2"],
+    "confidence": "high",
+    "reasoning": "«(Art. 15 Abs. 2 ZG)»; direkter Bezug."
+  },
+  {
+    "ITEM": 123,
+    "ARTICLE_EID": "art_62",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": ["Art. 15 Abs. 2", "Art. 15"],
+    "confidence": "high",
+    "reasoning": "«(Art. 15 Abs. 2 ZG)» und im Text «für den Vollzug von Artikel 15 ZG»; beide Bezüge zu Art. 15 ZG."
+  },
+  {
+    "ITEM": 124,
+    "ARTICLE_EID": "art_63",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": ["Art. 16 Abs. 1"],
+    "confidence": "high",
+    "reasoning": "«(Art. 16 Abs. 1 ZG)»; direkter Bezug."
+  },
+  {
+    "ITEM": 125,
+    "ARTICLE_EID": "art_64",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": ["Art. 16 Abs. 1"],
+    "confidence": "high",
+    "reasoning": "Gleicher Klammerzusatz; Art. 16 Abs. 1 ZG."
+  },
+  {
+    "ITEM": 126,
+    "ARTICLE_EID": "art_65",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": ["Art. 16 Abs. 1"],
+    "confidence": "high",
+    "reasoning": "Wie ITEM 125; Art. 16 Abs. 1 ZG."
+  },
+  {
+    "ITEM": 127,
+    "ARTICLE_EID": "art_66",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": ["Art. 16 Abs. 1"],
+    "confidence": "high",
+    "reasoning": "«(Art. 16 Abs. 1 ZG)»; direkter Bezug."
+  },
+  {
+    "ITEM": 128,
+    "ARTICLE_EID": "art_68",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": ["Art. 16 Abs. 1"],
+    "confidence": "high",
+    "reasoning": "Gleicher Klammerzusatz; Art. 16 Abs. 1 ZG."
+  },
+  {
+    "ITEM": 129,
+    "ARTICLE_EID": "art_69",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": ["Art. 17 Abs. 1", "Art. 17 Abs. 1bis"],
+    "confidence": "high",
+    "reasoning": "«(Art. 17 Abs. 1 und 1bis ZG)»; beide Absätze."
+  },
+  {
+    "ITEM": 130,
+    "ARTICLE_EID": "art_70",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": ["Art. 17 Abs. 2"],
+    "confidence": "high",
+    "reasoning": "«(Art. 17 Abs. 2 ZG)»; direkter Bezug."
+  },
+  {
+    "ITEM": 131,
+    "ARTICLE_EID": "art_71",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": ["Art. 20 Abs. 1"],
+    "confidence": "high",
+    "reasoning": "«(Art. 20 Abs. 1 ZG)»; direkter Bezug."
+  },
+  {
+    "ITEM": 132,
+    "ARTICLE_EID": "art_72",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": ["Art. 20 Abs. 1"],
+    "confidence": "high",
+    "reasoning": "Gleicher Klammerzusatz; Art. 20 Abs. 1 ZG."
+  },
+  {
+    "ITEM": 133,
+    "ARTICLE_EID": "art_73",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": ["Art. 20 Abs. 1"],
+    "confidence": "high",
+    "reasoning": "«(Art. 20 Abs. 1 ZG)»; direkter Bezug."
+  },
+  {
+    "ITEM": 134,
+    "ARTICLE_EID": "art_74",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": ["Art. 20 Abs. 5"],
+    "confidence": "high",
+    "reasoning": "«(Art. 20 Abs. 5 ZG)»; direkter Bezug."
+  },
+  {
+    "ITEM": 135,
+    "ARTICLE_EID": "art_75",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": ["Art. 21"],
+    "confidence": "high",
+    "reasoning": "«(Art. 21 ZG)»; direkter Bezug."
+  },
+  {
+    "ITEM": 136,
+    "ARTICLE_EID": "art_76",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": ["Art. 22 Abs. 3"],
+    "confidence": "high",
+    "reasoning": "«(Art. 22 Abs. 3 ZG)»; direkter Bezug."
+  },
+  {
+    "ITEM": 137,
+    "ARTICLE_EID": "art_77",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": ["Art. 24 Abs. 3"],
+    "confidence": "high",
+    "reasoning": "«(Art. 24 Abs. 3 ZG)»; direkter Bezug."
+  },
+  {
+    "ITEM": 138,
+    "ARTICLE_EID": "art_78",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": ["Art. 24 Abs. 3"],
+    "confidence": "high",
+    "reasoning": "Gleicher Klammerzusatz; Art. 24 Abs. 3 ZG."
+  },
+  {
+    "ITEM": 139,
+    "ARTICLE_EID": "art_79",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": ["Art. 25 Abs. 1", "Art. 25 Abs. 2"],
+    "confidence": "high",
+    "reasoning": "«(Art. 25 Abs. 1 und 2 ZG)»; beide Absätze."
+  },
+  {
+    "ITEM": 140,
+    "ARTICLE_EID": "art_80",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": ["Art. 25 Abs. 1"],
+    "confidence": "high",
+    "reasoning": "«(Art. 25 Abs. 1 ZG)»; direkter Bezug."
+  },
+  {
+    "ITEM": 141,
+    "ARTICLE_EID": "art_80_a",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": ["Art. 25"],
+    "confidence": "medium",
+    "reasoning": "Art. 80a regelt eine besondere Form der Veranlagung im Rahmen der Zollanmeldung; der Klammerzusatz fehlt, aber systematisch gehört die Norm zu Art. 25 ZG (Veranlagung). Mangels expliziter Angabe wird Art. 25 allgemein zugeordnet."
+  },
+  {
+    "ITEM": 142,
+    "ARTICLE_EID": "art_81",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": ["Art. 25 Abs. 4"],
+    "confidence": "high",
+    "reasoning": "«(Art. 25 Abs. 4 ZG)»; direkter Bezug."
+  },
+  {
+    "ITEM": 143,
+    "ARTICLE_EID": "art_82",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": ["Art. 27 Bst. d"],
+    "confidence": "high",
+    "reasoning": "«(Art. 27 Bst. d ZG) ... nach Artikel 27 Buchstaben a–c ZG»; primärer Bezug ist lit. d, zusätzlich werden lit. a–c erwähnt."
+  },
+  {
+    "ITEM": 144,
+    "ARTICLE_EID": "art_83",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": ["Art. 27 Bst. e"],
+    "confidence": "high",
+    "reasoning": "«(Art. 27 Bst. e ZG)»; direkter Bezug."
+  },
+  {
+    "ITEM": 145,
+    "ARTICLE_EID": "art_84",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": ["Art. 32 Abs. 1", "Art. 32 Abs. 2"],
+    "confidence": "high",
+    "reasoning": "«(Art. 32 Abs. 1 und 2 ZG)»; beide Absätze."
+  },
+  {
+    "ITEM": 146,
+    "ARTICLE_EID": "art_85",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": ["Art. 34"],
+    "confidence": "high",
+    "reasoning": "«(Art. 34 ZG)»; direkter Bezug."
+  },
+  {
+    "ITEM": 147,
+    "ARTICLE_EID": "art_86",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": ["Art. 34"],
+    "confidence": "high",
+    "reasoning": "Gleicher Klammerzusatz; Art. 34 ZG."
+  },
+  {
+    "ITEM": 148,
+    "ARTICLE_EID": "art_87",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": ["Art. 34 Abs. 2"],
+    "confidence": "high",
+    "reasoning": "«(Art. 34 Abs. 2 ZG)»; direkter Bezug."
+  },
+  {
+    "ITEM": 149,
+    "ARTICLE_EID": "art_88",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": ["Art. 34 Abs. 3", "Art. 34 Abs. 4 Bst. a"],
+    "confidence": "high",
+    "reasoning": "«(Art. 34 Abs. 3 und Abs. 4 Bst. a ZG)»; beide genannten Teile."
+  },
+  {
+    "ITEM": 150,
+    "ARTICLE_EID": "art_89",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": ["Art. 34 Abs. 3", "Art. 34 Abs. 4 Bst. b"],
+    "confidence": "high",
+    "reasoning": "«(Art. 34 Abs. 3 und Abs. 4 Bst. b ZG)»; beide genannten Teile."
+  },
+  {
+    "ITEM": 151,
+    "ARTICLE_EID": "art_90",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": ["Art. 25 Abs. 3", "Art. 36 Abs. 1"],
+    "confidence": "high",
+    "reasoning": "«(Art. 25 Abs. 3 und 36 Abs. 1 ZG)»; beide Artikelteile."
+  },
+  {
+    "ITEM": 152,
+    "ARTICLE_EID": "art_91",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": ["Art. 36 Abs. 4"],
+    "confidence": "high",
+    "reasoning": "«(Art. 36 Abs. 4 ZG)»; direkter Bezug."
+  },
+  {
+    "ITEM": 153,
+    "ARTICLE_EID": "art_92",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": ["Art. 38"],
+    "confidence": "high",
+    "reasoning": "«(Art. 38 ZG)»; direkter Bezug."
+  },
+  {
+    "ITEM": 154,
+    "ARTICLE_EID": "art_93",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": ["Art. 39 Abs. 1", "Art. 14 Abs. 2"],
+    "confidence": "high",
+    "reasoning": "«(Art. 39 Abs. 1 ZG) ... nach Artikel 14 Absatz 2 ZG»; beide Artikelteile."
+  },
+  {
+    "ITEM": 155,
+    "ARTICLE_EID": "art_94",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": ["Art. 41"],
+    "confidence": "high",
+    "reasoning": "«(Art. 41 ZG)»; direkter Bezug."
+  },
+  {
+    "ITEM": 156,
+    "ARTICLE_EID": "art_95",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": ["Art. 41"],
+    "confidence": "high",
+    "reasoning": "Gleicher Klammerzusatz; Art. 41 ZG."
+  },
+  {
+    "ITEM": 157,
+    "ARTICLE_EID": "art_96",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": ["Art. 41"],
+    "confidence": "high",
+    "reasoning": "«(Art. 41 ZG) ... Aufbewahrungsdauer (Art. 96)»; der Klammerzusatz bezieht sich auf Art. 41 ZG."
+  },
+  {
+    "ITEM": 158,
+    "ARTICLE_EID": "art_97",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": ["Art. 41"],
+    "confidence": "high",
+    "reasoning": "«(Art. 41 ZG)»; direkter Bezug."
+  },
+  {
+    "ITEM": 159,
+    "ARTICLE_EID": "art_98",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": ["Art. 41"],
+    "confidence": "high",
+    "reasoning": "«(Art. 41 ZG)»; direkter Bezug."
+  },
+  {
+    "ITEM": 160,
+    "ARTICLE_EID": "art_99",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": ["Art. 41"],
+    "confidence": "high",
+    "reasoning": "«(Art. 41 ZG) ... Aufbewahrungsdauer (Art. 96)»; Bezug auf Art. 41 ZG."
+  },
+  {
+    "ITEM": 161,
+    "ARTICLE_EID": "art_100",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": ["Art. 42 Abs. 1 Bst. a", "Art. 42 Abs. 1 Bst. d"],
+    "confidence": "high",
+    "reasoning": "«(Art. 42 Abs. 1 Bst. a und d ZG)»; beide Buchstaben."
+  },
+  {
+    "ITEM": 162,
+    "ARTICLE_EID": "art_101",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": ["Art. 42 Abs. 1 Bst. a", "Art. 42 Abs. 1 Bst. d"],
+    "confidence": "high",
+    "reasoning": "Gleicher Klammerzusatz; dieselben Bestimmungen."
+  },
+  {
+    "ITEM": 163,
+    "ARTICLE_EID": "art_102",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": ["Art. 42 Abs. 1 Bst. a", "Art. 42 Abs. 1 Bst. d"],
+    "confidence": "high",
+    "reasoning": "«(Art. 42 Abs. 1 Bst. a und d ZG)»; direkter Bezug."
+  },
+  {
+    "ITEM": 164,
+    "ARTICLE_EID": "art_103",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": ["Art. 42 Abs. 1 Bst. a", "Art. 42 Abs. 1 Bst. d"],
+    "confidence": "high",
+    "reasoning": "Gleicher Klammerzusatz; dieselben Bestimmungen."
+  },
+  {
+    "ITEM": 165,
+    "ARTICLE_EID": "art_104",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": ["Art. 42 Abs. 1 Bst. a", "Art. 42 Abs. 1 Bst. d"],
+    "confidence": "high",
+    "reasoning": "«(Art. 42 Abs. 1 Bst. a und d ZG)»; direkter Bezug."
+  },
+  {
+    "ITEM": 166,
+    "ARTICLE_EID": "art_105",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": ["Art. 42 Abs. 1 Bst. a", "Art. 42 Abs. 1 Bst. d"],
+    "confidence": "high",
+    "reasoning": "Gleicher Klammerzusatz; dieselben Bestimmungen."
+  },
+  {
+    "ITEM": 167,
+    "ARTICLE_EID": "art_105_a",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": ["Art. 42 Abs. 1 Bst. a", "Art. 42 Abs. 1 Bst. d", "Art. 103"],
+    "confidence": "high",
+    "reasoning": "«(Art. 42 Abs. 1 Bst. a und d ZG) ... Bewilligung nach Artikel 103»; Bezug auf Art. 42 Abs. 1 lit. a/d ZG und Art. 103 dieser Verordnung (interne Norm, nicht ZG). Für TARGET_SR (ZG) sind die Art. 42-Teile relevant."
+  },
+  {
+    "ITEM": 168,
+    "ARTICLE_EID": "art_105_b",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": ["Art. 42 Abs. 1 Bst. a", "Art. 42 Abs. 1 Bst. d"],
+    "confidence": "high",
+    "reasoning": "«(Art. 42 Abs. 1 Bst. a und d ZG)»; direkter Bezug."
+  },
+  {
+    "ITEM": 169,
+    "ARTICLE_EID": "art_105_c",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": ["Art. 38", "Art. 42"],
+    "confidence": "high",
+    "reasoning": "«(Art. 38 und 42 ZG)»; beide Artikel."
+  },
+  {
+    "ITEM": 170,
+    "ARTICLE_EID": "art_106",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": ["Art. 42 Abs. 1 Bst. a", "Art. 42 Abs. 1 Bst. d"],
+    "confidence": "high",
+    "reasoning": "«(Art. 42 Abs. 1 Bst. a und d ZG)»; direkter Bezug."
+  },
+  {
+    "ITEM": 171,
+    "ARTICLE_EID": "art_107",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": ["Art. 42 Abs. 1 Bst. a", "Art. 42 Abs. 1 Bst. d"],
+    "confidence": "high",
+    "reasoning": "Gleicher Klammerzusatz; dieselben Bestimmungen."
+  },
+  {
+    "ITEM": 172,
+    "ARTICLE_EID": "art_108",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": ["Art. 42 Abs. 1 Bst. a", "Art. 42 Abs. 1 Bst. d"],
+    "confidence": "high",
+    "reasoning": "«(Art. 42 Abs. 1 Bst. a und d ZG)»; direkter Bezug."
+  },
+  {
+    "ITEM": 173,
+    "ARTICLE_EID": "art_109",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": ["Art. 42 Abs. 1 Bst. a", "Art. 42 Abs. 1 Bst. d"],
+    "confidence": "high",
+    "reasoning": "Gleicher Klammerzusatz; dieselben Bestimmungen."
+  },
+  {
+    "ITEM": 174,
+    "ARTICLE_EID": "art_110",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": ["Art. 42 Abs. 1 Bst. a", "Art. 42 Abs. 1 Bst. d"],
+    "confidence": "high",
+    "reasoning": "«(Art. 42 Abs. 1 Bst. a und d ZG)»; direkter Bezug."
+  },
+  {
+    "ITEM": 175,
+    "ARTICLE_EID": "art_111",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": ["Art. 42 Abs. 1 Bst. a", "Art. 42 Abs. 1 Bst. d"],
+    "confidence": "high",
+    "reasoning": "Gleicher Klammerzusatz; dieselben Bestimmungen."
+  },
+  {
+    "ITEM": 176,
+    "ARTICLE_EID": "art_112",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": ["Art. 42 Abs. 1 Bst. a", "Art. 42 Abs. 1 Bst. d"],
+    "confidence": "high",
+    "reasoning": "«(Art. 42 Abs. 1 Bst. a und d ZG)»; direkter Bezug."
+  },
+  {
+    "ITEM": 177,
+    "ARTICLE_EID": "art_112_a",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": ["Art. 42a"],
+    "confidence": "high",
+    "reasoning": "«(Art. 42a ZG)»; direkter Bezug."
+  },
+  {
+    "ITEM": 178,
+    "ARTICLE_EID": "art_112_b",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": ["Art. 42a"],
+    "confidence": "high",
+    "reasoning": "Gleicher Klammerzusatz; Art. 42a ZG."
+  },
+  {
+    "ITEM": 179,
+    "ARTICLE_EID": "art_112_c",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": ["Art. 42a"],
+    "confidence": "high",
+    "reasoning": "«(Art. 42a ZG)»; direkter Bezug."
+  },
+  {
+    "ITEM": 180,
+    "ARTICLE_EID": "art_112_d",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": ["Art. 42a"],
+    "confidence": "high",
+    "reasoning": "«(Art. 42a ZG)»; direkter Bezug."
+  },
+  {
+    "ITEM": 181,
+    "ARTICLE_EID": "art_112_e",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": ["Art. 42a"],
+    "confidence": "high",
+    "reasoning": "«(Art. 42a ZG)»; direkter Bezug."
+  },
+  {
+    "ITEM": 182,
+    "ARTICLE_EID": "art_112_f",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": ["Art. 42a"],
+    "confidence": "high",
+    "reasoning": "«(Art. 42a ZG)»; direkter Bezug."
+  },
+  {
+    "ITEM": 183,
+    "ARTICLE_EID": "art_112_g",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": ["Art. 42a"],
+    "confidence": "high",
+    "reasoning": "«(Art. 42a ZG)»; direkter Bezug."
+  },
+  {
+    "ITEM": 184,
+    "ARTICLE_EID": "art_112_h",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": ["Art. 42a"],
+    "confidence": "high",
+    "reasoning": "«(Art. 42a ZG)»; direkter Bezug."
+  },
+  {
+    "ITEM": 185,
+    "ARTICLE_EID": "art_112_i",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": ["Art. 42a"],
+    "confidence": "high",
+    "reasoning": "«(Art. 42a ZG)»; direkter Bezug."
+  },
+  {
+    "ITEM": 186,
+    "ARTICLE_EID": "art_112_j",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": ["Art. 42a", "Art. 116"],
+    "confidence": "high",
+    "reasoning": "«(Art. 42a ZG) ... Beschwerde nach Artikel 116 ZG»; beide Artikel gehören zum ZG."
+  },
+  {
+    "ITEM": 187,
+    "ARTICLE_EID": "art_112_k",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": ["Art. 42a"],
+    "confidence": "high",
+    "reasoning": "«(Art. 42a ZG)»; direkter Bezug."
+  },
+  {
+    "ITEM": 188,
+    "ARTICLE_EID": "art_112_l",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": ["Art. 42a"],
+    "confidence": "high",
+    "reasoning": "«(Art. 42a ZG)»; direkter Bezug."
+  },
+  {
+    "ITEM": 189,
+    "ARTICLE_EID": "art_112_m",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": ["Art. 42a"],
+    "confidence": "high",
+    "reasoning": "«(Art. 42a ZG)»; direkter Bezug."
+  },
+  {
+    "ITEM": 190,
+    "ARTICLE_EID": "art_112_n",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": ["Art. 42a"],
+    "confidence": "high",
+    "reasoning": "«(Art. 42a ZG)»; direkter Bezug."
+  },
+  {
+    "ITEM": 191,
+    "ARTICLE_EID": "art_112_o",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": ["Art. 42a"],
+    "confidence": "high",
+    "reasoning": "«(Art. 42a ZG)»; direkter Bezug."
+  },
+  {
+    "ITEM": 192,
+    "ARTICLE_EID": "art_112_p",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": ["Art. 42a"],
+    "confidence": "high",
+    "reasoning": "«(Art. 42a ZG)»; direkter Bezug."
+  },
+  {
+    "ITEM": 193,
+    "ARTICLE_EID": "art_112_q",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": ["Art. 42a"],
+    "confidence": "high",
+    "reasoning": "«(Art. 42a ZG)»; direkter Bezug."
+  },
+  {
+    "ITEM": 194,
+    "ARTICLE_EID": "art_112_r",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": ["Art. 42a"],
+    "confidence": "high",
+    "reasoning": "«(Art. 42a ZG)»; direkter Bezug."
+  },
+  {
+    "ITEM": 195,
+    "ARTICLE_EID": "art_112_s",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": ["Art. 42a"],
+    "confidence": "high",
+    "reasoning": "«(Art. 42a ZG)»; direkter Bezug."
+  },
+  {
+    "ITEM": 196,
+    "ARTICLE_EID": "art_112_t",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": ["Art. 26"],
+    "confidence": "high",
+    "reasoning": "Im Text «anmeldepflichtigen Personen nach Artikel 26 ZG»; Art. 26 gehört zum ZG."
+  },
+  {
+    "ITEM": 197,
+    "ARTICLE_EID": "art_113",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": ["Art. 28 Abs. 1 Bst. c", "Art. 28 Abs. 1 Bst. d", "Art. 42 Abs. 1 Bst. b"],
+    "confidence": "high",
+    "reasoning": "«(Art. 28 Abs. 1 Bst. c und d sowie 42 Abs. 1 Bst. b ZG)»; alle genannten Teile."
+  },
+  {
+    "ITEM": 198,
+    "ARTICLE_EID": "art_114",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": ["Art. 37 Abs. 3", "Art. 42 Abs. 1 Bst. b"],
+    "confidence": "high",
+    "reasoning": "«(Art. 37 Abs. 3 und 42 Abs. 1 Bst. b ZG)»; beide Teile."
+  },
+  {
+    "ITEM": 199,
+    "ARTICLE_EID": "art_115",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": ["Art. 38", "Art. 42 Abs. 1 Bst. b"],
+    "confidence": "high",
+    "reasoning": "«(Art. 38 und 42 Abs. 1 Bst. b ZG)»; beide Teile."
+  },
+  {
+    "ITEM": 200,
+    "ARTICLE_EID": "art_116",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": ["Art. 42 Abs. 1 Bst. c"],
+    "confidence": "high",
+    "reasoning": "«(Art. 42 Abs. 1 Bst. c ZG)»; direkter Bezug."
+  },
+  {
+    "ITEM": 201,
+    "ARTICLE_EID": "art_117",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": ["Art. 42 Abs. 1 Bst. c"],
+    "confidence": "high",
+    "reasoning": "Gleicher Klammerzusatz; Art. 42 Abs. 1 lit. c ZG."
+  },
+  {
+    "ITEM": 202,
+    "ARTICLE_EID": "art_118",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": ["Art. 43 Abs. 1 Bst. a"],
+    "confidence": "high",
+    "reasoning": "«(Art. 43 Abs. 1 Bst. a ZG)»; direkter Bezug."
+  },
+  {
+    "ITEM": 203,
+    "ARTICLE_EID": "art_119",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": ["Art. 43 Abs. 1 Bst. a"],
+    "confidence": "high",
+    "reasoning": "Gleicher Klammerzusatz; Art. 43 Abs. 1 lit. a ZG."
+  },
+  {
+    "ITEM": 204,
+    "ARTICLE_EID": "art_120",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": ["Art. 43 Abs. 4"],
+    "confidence": "high",
+    "reasoning": "«(Art. 43 Abs. 4 ZG)»; direkter Bezug."
+  },
+  {
+    "ITEM": 205,
+    "ARTICLE_EID": "art_121",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": ["Art. 44 Abs. 1"],
+    "confidence": "high",
+    "reasoning": "«(Art. 44 Abs. 1 ZG)»; direkter Bezug."
+  },
+  {
+    "ITEM": 206,
+    "ARTICLE_EID": "art_122",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": ["Art. 44 Abs. 1"],
+    "confidence": "high",
+    "reasoning": "Gleicher Klammerzusatz; Art. 44 Abs. 1 ZG."
+  },
+  {
+    "ITEM": 207,
+    "ARTICLE_EID": "art_123",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": ["Art. 44 Abs. 1"],
+    "confidence": "high",
+    "reasoning": "«(Art. 44 Abs. 1 ZG)»; direkter Bezug."
+  },
+  {
+    "ITEM": 208,
+    "ARTICLE_EID": "art_124",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": ["Art. 44 Abs. 1"],
+    "confidence": "high",
+    "reasoning": "Gleicher Klammerzusatz; Art. 44 Abs. 1 ZG."
+  },
+  {
+    "ITEM": 209,
+    "ARTICLE_EID": "art_125",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": ["Art. 44 Abs. 1"],
+    "confidence": "high",
+    "reasoning": "«(Art. 44 Abs. 1 ZG)»; direkter Bezug."
+  },
+  {
+    "ITEM": 210,
+    "ARTICLE_EID": "art_126",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": ["Art. 44 Abs. 1"],
+    "confidence": "high",
+    "reasoning": "Gleicher Klammerzusatz; Art. 44 Abs. 1 ZG."
+  },
+  {
+    "ITEM": 211,
+    "ARTICLE_EID": "art_127",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": ["Art. 44 Abs. 1"],
+    "confidence": "high",
+    "reasoning": "«(Art. 44 Abs. 1 ZG)»; direkter Bezug."
+  },
+  {
+    "ITEM": 212,
+    "ARTICLE_EID": "art_128",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": ["Art. 44 Abs. 1"],
+    "confidence": "high",
+    "reasoning": "Gleicher Klammerzusatz; Art. 44 Abs. 1 ZG."
+  },
+  {
+    "ITEM": 213,
+    "ARTICLE_EID": "art_129",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": ["Art. 44 Abs. 1"],
+    "confidence": "high",
+    "reasoning": "«(Art. 44 Abs. 1 ZG)»; direkter Bezug."
+  },
+  {
+    "ITEM": 214,
+    "ARTICLE_EID": "art_130",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": ["Art. 44 Abs. 1"],
+    "confidence": "high",
+    "reasoning": "Gleicher Klammerzusatz; Art. 44 Abs. 1 ZG."
+  },
+  {
+    "ITEM": 215,
+    "ARTICLE_EID": "art_131",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": ["Art. 44 Abs. 1"],
+    "confidence": "high",
+    "reasoning": "«(Art. 44 Abs. 1 ZG)»; direkter Bezug."
+  },
+  {
+    "ITEM": 216,
+    "ARTICLE_EID": "art_132",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": ["Art. 44 Abs. 1"],
+    "confidence": "high",
+    "reasoning": "Gleicher Klammerzusatz; Art. 44 Abs. 1 ZG."
+  },
+  {
+    "ITEM": 217,
+    "ARTICLE_EID": "art_133",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": ["Art. 44 Abs. 1"],
+    "confidence": "high",
+    "reasoning": "«(Art. 44 Abs. 1 ZG)»; direkter Bezug."
+  },
+  {
+    "ITEM": 218,
+    "ARTICLE_EID": "art_134",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": ["Art. 44 Abs. 1"],
+    "confidence": "high",
+    "reasoning": "Gleicher Klammerzusatz; Art. 44 Abs. 1 ZG."
+  },
+  {
+    "ITEM": 219,
+    "ARTICLE_EID": "art_135",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": ["Art. 8 Abs. 2", "Art. 44 Abs. 1"],
+    "confidence": "high",
+    "reasoning": "«(Art. 8 Abs. 2 und 44 Abs. 1 ZG)»; beide Artikel."
+  },
+  {
+    "ITEM": 220,
+    "ARTICLE_EID": "art_136",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": ["Art. 44 Abs. 1"],
+    "confidence": "high",
+    "reasoning": "«(Art. 44 Abs. 1 ZG)»; direkter Bezug."
+  },
+  {
+    "ITEM": 221,
+    "ARTICLE_EID": "art_137",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": ["Art. 44 Abs. 1"],
+    "confidence": "high",
+    "reasoning": "Gleicher Klammerzusatz; Art. 44 Abs. 1 ZG."
+  },
+  {
+    "ITEM": 222,
+    "ARTICLE_EID": "art_138",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": ["Art. 44 Abs. 1"],
+    "confidence": "high",
+    "reasoning": "«(Art. 44 Abs. 1 ZG)»; direkter Bezug."
+  },
+  {
+    "ITEM": 223,
+    "ARTICLE_EID": "art_139",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": ["Art. 44 Abs. 1"],
+    "confidence": "high",
+    "reasoning": "Gleicher Klammerzusatz; Art. 44 Abs. 1 ZG."
+  },
+  {
+    "ITEM": 224,
+    "ARTICLE_EID": "art_140",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": ["Art. 44 Abs. 1", "Art. 44 Abs. 2"],
+    "confidence": "high",
+    "reasoning": "«(Art. 44 Abs. 1 und 2 ZG)»; beide Absätze."
+  },
+  {
+    "ITEM": 225,
+    "ARTICLE_EID": "art_141",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": ["Art. 44 Abs. 1"],
+    "confidence": "high",
+    "reasoning": "«(Art. 44 Abs. 1 ZG)»; direkter Bezug."
+  },
+  {
+    "ITEM": 226,
+    "ARTICLE_EID": "art_142",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": ["Art. 44 Abs. 1"],
+    "confidence": "high",
+    "reasoning": "Gleicher Klammerzusatz; Art. 44 Abs. 1 ZG."
+  },
+  {
+    "ITEM": 227,
+    "ARTICLE_EID": "art_143",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": ["Art. 44 Abs. 1"],
+    "confidence": "high",
+    "reasoning": "«(Art. 44 Abs. 1 ZG)»; direkter Bezug."
+  },
+  {
+    "ITEM": 228,
+    "ARTICLE_EID": "art_144",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": ["Art. 44 Abs. 1"],
+    "confidence": "high",
+    "reasoning": "Gleicher Klammerzusatz; Art. 44 Abs. 1 ZG."
+  },
+  {
+    "ITEM": 229,
+    "ARTICLE_EID": "art_151",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": ["Art. 48"],
+    "confidence": "medium",
+    "reasoning": "Art. 151 regelt Datenübermittlung zur Überwachung; systematisch gehört dies zu Art. 48 ZG (Datenbearbeitung). Mangels expliziter Klammer wird Art. 48 als Bezug angenommen."
+  },
+  {
+    "ITEM": 230,
+    "ARTICLE_EID": "art_152",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": ["Art. 49"],
+    "confidence": "high",
+    "reasoning": "«(Art. 49 ZG)»; direkter Bezug."
+  },
+  {
+    "ITEM": 231,
+    "ARTICLE_EID": "art_153",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": ["Art. 49 Abs. 2"],
+    "confidence": "high",
+    "reasoning": "«(Art. 49 Abs. 2 ZG)»; direkter Bezug."
+  },
+  {
+    "ITEM": 232,
+    "ARTICLE_EID": "art_154",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": ["Art. 49 Abs. 2"],
+    "confidence": "high",
+    "reasoning": "Gleicher Klammerzusatz; Art. 49 Abs. 2 ZG."
+  },
+  {
+    "ITEM": 233,
+    "ARTICLE_EID": "art_155",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": ["Art. 49 Abs. 3"],
+    "confidence": "high",
+    "reasoning": "«(Art. 49 Abs. 3 ZG)»; direkter Bezug."
+  },
+  {
+    "ITEM": 234,
+    "ARTICLE_EID": "art_156",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": ["Art. 52 Abs. 1", "Art. 52 Abs. 2"],
+    "confidence": "high",
+    "reasoning": "«(Art. 52 Abs. 1 und 2 ZG)»; beide Absätze."
+  },
+  {
+    "ITEM": 235,
+    "ARTICLE_EID": "art_157",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": ["Art. 53 Abs. 3"],
+    "confidence": "high",
+    "reasoning": "«(Art. 53 Abs. 3 ZG)»; direkter Bezug."
+  },
+  {
+    "ITEM": 236,
+    "ARTICLE_EID": "art_158",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": ["Art. 54 Abs. 2"],
+    "confidence": "high",
+    "reasoning": "«(Art. 54 Abs. 2 ZG)»; direkter Bezug."
+  },
+  {
+    "ITEM": 237,
+    "ARTICLE_EID": "art_159",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": ["Art. 54"],
+    "confidence": "high",
+    "reasoning": "«(Art. 54 ZG) ... nach Artikel 54 Absatz 2 ZG»; Bezug auf Art. 54 allgemein und konkret Abs. 2."
+  },
+  {
+    "ITEM": 238,
+    "ARTICLE_EID": "art_160",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": ["Art. 56 Abs. 2"],
+    "confidence": "high",
+    "reasoning": "«(Art. 56 Abs. 2 ZG)»; direkter Bezug."
+  },
+  {
+    "ITEM": 239,
+    "ARTICLE_EID": "art_161",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": ["Art. 56 Abs. 2"],
+    "confidence": "high",
+    "reasoning": "Gleicher Klammerzusatz; Art. 56 Abs. 2 ZG."
+  },
+  {
+    "ITEM": 240,
+    "ARTICLE_EID": "art_162",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": ["Art. 58 Abs. 1"],
+    "confidence": "high",
+    "reasoning": "«(Art. 58 Abs. 1 ZG)»; direkter Bezug."
+  },
+  {
+    "ITEM": 241,
+    "ARTICLE_EID": "art_163",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": ["Art. 58 Abs. 2 Bst. b"],
+    "confidence": "high",
+    "reasoning": "«(Art. 58 Abs. 2 Bst. b ZG)»; direkter Bezug."
+  },
+  {
+    "ITEM": 242,
+    "ARTICLE_EID": "art_164",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": ["Art. 58 Abs. 1", "Art. 34", "Art. 35"],
+    "confidence": "high",
+    "reasoning": "«(Art. 58 Abs. 1 ZG) ... nach Artikel 34 ... nach Artikel 35 ...»; alle genannten Artikel gehören zum ZG."
+  },
+  {
+    "ITEM": 243,
+    "ARTICLE_EID": "art_165",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": ["Art. 59 Abs. 2", "Art. 12 Abs. 3", "Art. 41 Abs. 2"],
+    "confidence": "high",
+    "reasoning": "«(Art. 59 Abs. 2 ZG) ... nach Artikel 12 Absatz 3 ZG oder nach Artikel 41 Absatz 2 dieser Verordnung»; für TARGET_SR (ZG) sind Art. 59 Abs. 2 und Art. 12 Abs. 3 relevant."
+  },
+  {
+    "ITEM": 244,
+    "ARTICLE_EID": "art_165_a",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": ["Art. 59 Abs. 2"],
+    "confidence": "high",
+    "reasoning": "«(Art. 59 Abs. 2 ZG)»; direkter Bezug."
+  },
+  {
+    "ITEM": 245,
+    "ARTICLE_EID": "art_166",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": ["Art. 59 Abs. 2"],
+    "confidence": "high",
+    "reasoning": "Gleicher Klammerzusatz; Art. 59 Abs. 2 ZG."
+  },
+  {
+    "ITEM": 246,
+    "ARTICLE_EID": "art_167",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": ["Art. 59 Abs. 3"],
+    "confidence": "high",
+    "reasoning": "«(Art. 59 Abs. 3 ZG)»; direkter Bezug."
+  },
+  {
+    "ITEM": 247,
+    "ARTICLE_EID": "art_168",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": ["Art. 59 Abs. 4"],
+    "confidence": "high",
+    "reasoning": "«(Art. 59 Abs. 4 ZG)»; direkter Bezug."
+  },
+  {
+    "ITEM": 248,
+    "ARTICLE_EID": "art_169",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": ["Art. 59 Abs. 4"],
+    "confidence": "high",
+    "reasoning": "Gleicher Klammerzusatz; Art. 59 Abs. 4 ZG."
+  },
+  {
+    "ITEM": 249,
+    "ARTICLE_EID": "art_170",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": ["Art. 59"],
+    "confidence": "high",
+    "reasoning": "«(Art. 59 ZG)»; direkter Bezug."
+  },
+  {
+    "ITEM": 250,
+    "ARTICLE_EID": "art_171",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": ["Art. 60 Abs. 2"],
+    "confidence": "high",
+    "reasoning": "«(Art. 60 Abs. 2 ZG)»; direkter Bezug."
+  },
+  {
+    "ITEM": 251,
+    "ARTICLE_EID": "art_172",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": ["Art. 60 Abs. 2"],
+    "confidence": "high",
+    "reasoning": "Gleicher Klammerzusatz; Art. 60 Abs. 2 ZG."
+  },
+  {
+    "ITEM": 252,
+    "ARTICLE_EID": "art_173",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": ["Art. 60 Abs. 4"],
+    "confidence": "high",
+    "reasoning": "«(Art. 60 Abs. 4 ZG)»; direkter Bezug."
+  },
+  {
+    "ITEM": 253,
+    "ARTICLE_EID": "art_173_a",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": ["Art. 53 Abs. 3", "Art. 61 Abs. 1", "Art. 62 Abs. 2", "Art. 65 Abs. 2"],
+    "confidence": "high",
+    "reasoning": "«(Art. 53 Abs. 3, 61 Abs. 1, 62 Abs. 2 und 65 Abs. 2 ZG)»; alle genannten Bestimmungen."
+  },
+  {
+    "ITEM": 254,
+    "ARTICLE_EID": "art_174",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": ["Art. 61 Abs. 4"],
+    "confidence": "high",
+    "reasoning": "«(Art. 61 Abs. 4 ZG)»; direkter Bezug."
+  },
+  {
+    "ITEM": 255,
+    "ARTICLE_EID": "art_175",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": ["Art. 62 Abs. 1 Bst. b"],
+    "confidence": "high",
+    "reasoning": "«(Art. 62 Abs. 1 Bst. b ZG)»; direkter Bezug."
+  },
+  {
+    "ITEM": 256,
+    "ARTICLE_EID": "art_176",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": ["Art. 63 Abs. 2"],
+    "confidence": "high",
+    "reasoning": "«(Art. 63 Abs. 2 ZG)»; direkter Bezug."
+  },
+  {
+    "ITEM": 257,
+    "ARTICLE_EID": "art_177",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": ["Art. 64 Abs. 2"],
+    "confidence": "high",
+    "reasoning": "«(Art. 64 Abs. 2 ZG)»; direkter Bezug."
+  },
+  {
+    "ITEM": 258,
+    "ARTICLE_EID": "art_178",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": ["Art. 64 Abs. 1"],
+    "confidence": "high",
+    "reasoning": "«(Art. 64 Abs. 1 ZG) ... nach Artikel 64 Absatz 2 ZG»; primärer Bezug ist Art. 64 Abs. 1, mit Verweis auf Abs. 2."
+  },
+  {
+    "ITEM": 259,
+    "ARTICLE_EID": "art_178_a",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": ["Art. 65 Abs. 1"],
+    "confidence": "high",
+    "reasoning": "«(Art. 65 Abs. 1 ZG)»; direkter Bezug."
+  },
+  {
+    "ITEM": 260,
+    "ARTICLE_EID": "art_179",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": ["Art. 65 Abs. 2"],
+    "confidence": "high",
+    "reasoning": "«(Art. 65 Abs. 2 ZG)»; direkter Bezug."
+  },
+  {
+    "ITEM": 261,
+    "ARTICLE_EID": "art_180",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": ["Art. 65 Abs. 3"],
+    "confidence": "high",
+    "reasoning": "«(Art. 65 Abs. 3 ZG)»; direkter Bezug."
+  },
+  {
+    "ITEM": 262,
+    "ARTICLE_EID": "art_181",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": ["Art. 65 Abs. 3"],
+    "confidence": "high",
+    "reasoning": "Gleicher Klammerzusatz; Art. 65 Abs. 3 ZG."
+  },
+  {
+    "ITEM": 263,
+    "ARTICLE_EID": "art_182",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": ["Art. 66 Abs. 1"],
+    "confidence": "high",
+    "reasoning": "«(Art. 66 Abs. 1 ZG)»; direkter Bezug."
+  },
+  {
+    "ITEM": 264,
+    "ARTICLE_EID": "art_183",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": ["Art. 66 Abs. 1", "Art. 66 Abs. 2"],
+    "confidence": "high",
+    "reasoning": "«(Art. 66 Abs. 1 und 2 ZG)»; beide Absätze."
+  },
+  {
+    "ITEM": 265,
+    "ARTICLE_EID": "art_184",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": ["Art. 66 Abs. 1"],
+    "confidence": "high",
+    "reasoning": "«(Art. 66 Abs. 1 ZG)»; direkter Bezug."
+  },
+  {
+    "ITEM": 266,
+    "ARTICLE_EID": "art_185",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": ["Art. 66 Abs. 1"],
+    "confidence": "high",
+    "reasoning": "Gleicher Klammerzusatz; Art. 66 Abs. 1 ZG."
+  },
+  {
+    "ITEM": 267,
+    "ARTICLE_EID": "art_186",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": ["Art. 74 Abs. 1", "Art. 69"],
+    "confidence": "high",
+    "reasoning": "«(Art. 74 Abs. 1 ZG) ... nach Artikel 69 ZG»; beide Artikel."
+  },
+  {
+    "ITEM": 268,
+    "ARTICLE_EID": "art_187",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": ["Art. 74 Abs. 2"],
+    "confidence": "high",
+    "reasoning": "«(Art. 74 Abs. 2 ZG)»; direkter Bezug."
+  },
+  {
+    "ITEM": 269,
+    "ARTICLE_EID": "art_188",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": ["Art. 74 Abs. 3"],
+    "confidence": "high",
+    "reasoning": "«(Art. 74 Abs. 3 ZG)»; direkter Bezug."
+  },
+  {
+    "ITEM": 270,
+    "ARTICLE_EID": "art_190",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": ["Art. 76 Abs. 1"],
+    "confidence": "high",
+    "reasoning": "«(Art. 76 Abs. 1 ZG)»; direkter Bezug."
+  },
+  {
+    "ITEM": 271,
+    "ARTICLE_EID": "art_191",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": ["Art. 76 Abs. 1"],
+    "confidence": "high",
+    "reasoning": "Gleicher Klammerzusatz; Art. 76 Abs. 1 ZG."
+  },
+  {
+    "ITEM": 272,
+    "ARTICLE_EID": "art_192",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": ["Art. 76"],
+    "confidence": "high",
+    "reasoning": "«(Art. 76 ZG)»; direkter Bezug."
+  },
+  {
+    "ITEM": 273,
+    "ARTICLE_EID": "art_193",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": ["Art. 76"],
+    "confidence": "high",
+    "reasoning": "Gleicher Klammerzusatz; Art. 76 ZG."
+  },
+  {
+    "ITEM": 274,
+    "ARTICLE_EID": "art_194",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": ["Art. 76 Abs. 4"],
+    "confidence": "high",
+    "reasoning": "«(Art. 76 Abs. 4 ZG)»; direkter Bezug."
+  },
+  {
+    "ITEM": 275,
+    "ARTICLE_EID": "art_195",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": ["Art. 76 Abs. 4"],
+    "confidence": "high",
+    "reasoning": "Gleicher Klammerzusatz; Art. 76 Abs. 4 ZG."
+  },
+  {
+    "ITEM": 276,
+    "ARTICLE_EID": "art_196",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": ["Art. 76"],
+    "confidence": "high",
+    "reasoning": "«(Art. 76 ZG)»; direkter Bezug."
+  },
+  {
+    "ITEM": 277,
+    "ARTICLE_EID": "art_197",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": ["Art. 77 Abs. 1"],
+    "confidence": "high",
+    "reasoning": "«(Art. 77 Abs. 1 ZG)»; direkter Bezug."
+  },
+  {
+    "ITEM": 278,
+    "ARTICLE_EID": "art_198",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": ["Art. 77 Abs. 2"],
+    "confidence": "high",
+    "reasoning": "«(Art. 77 Abs. 2 ZG)»; direkter Bezug."
+  },
+  {
+    "ITEM": 279,
+    "ARTICLE_EID": "art_199",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": ["Art. 77 Abs. 2"],
+    "confidence": "high",
+    "reasoning": "Gleicher Klammerzusatz; Art. 77 Abs. 2 ZG."
+  },
+  {
+    "ITEM": 280,
+    "ARTICLE_EID": "art_200",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": ["Art. 77"],
+    "confidence": "high",
+    "reasoning": "«(Art. 77 ZG)»; direkter Bezug."
+  },
+  {
+    "ITEM": 281,
+    "ARTICLE_EID": "art_201",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": ["Art. 77"],
+    "confidence": "high",
+    "reasoning": "«(Art. 77 ZG)»; direkter Bezug."
+  },
+  {
+    "ITEM": 282,
+    "ARTICLE_EID": "art_202",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": ["Art. 78 Abs. 1"],
+    "confidence": "high",
+    "reasoning": "«(Art. 78 Abs. 1 ZG)»; direkter Bezug."
+  },
+  {
+    "ITEM": 283,
+    "ARTICLE_EID": "art_203",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": ["Art. 78"],
+    "confidence": "high",
+    "reasoning": "«(Art. 78 ZG)»; direkter Bezug."
+  },
+  {
+    "ITEM": 284,
+    "ARTICLE_EID": "art_204",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": ["Art. 78"],
+    "confidence": "high",
+    "reasoning": "Gleicher Klammerzusatz; Art. 78 ZG."
+  },
+  {
+    "ITEM": 285,
+    "ARTICLE_EID": "art_205",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": ["Art. 79 Abs. 2"],
+    "confidence": "high",
+    "reasoning": "«(Art. 79 Abs. 2 ZG)»; direkter Bezug."
+  },
+  {
+    "ITEM": 286,
+    "ARTICLE_EID": "art_206",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": ["Art. 79 Abs. 1"],
+    "confidence": "high",
+    "reasoning": "«(Art. 79 Abs. 1 ZG)»; direkter Bezug."
+  },
+  {
+    "ITEM": 287,
+    "ARTICLE_EID": "art_207",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": ["Art. 79 Abs. 3"],
+    "confidence": "high",
+    "reasoning": "«(Art. 79 Abs. 3 ZG)»; direkter Bezug."
+  },
+  {
+    "ITEM": 288,
+    "ARTICLE_EID": "art_208",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": ["Art. 76 Abs. 2", "Art. 76 Abs. 3", "Art. 81"],
+    "confidence": "high",
+    "reasoning": "«(Art. 76 Abs. 2 und 3 sowie Art. 81 ZG)»; alle genannten Bestimmungen."
+  },
+  {
+    "ITEM": 289,
+    "ARTICLE_EID": "art_209",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": ["Art. 81"],
+    "confidence": "high",
+    "reasoning": "«(Art. 81 ZG)»; direkter Bezug."
+  },
+  {
+    "ITEM": 290,
+    "ARTICLE_EID": "art_210",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": ["Art. 81"],
+    "confidence": "high",
+    "reasoning": "Gleicher Klammerzusatz; Art. 81 ZG."
+  },
+  {
+    "ITEM": 291,
+    "ARTICLE_EID": "art_211",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": ["Art. 81"],
+    "confidence": "high",
+    "reasoning": "«(Art. 81 ZG)»; direkter Bezug."
+  },
+  {
+    "ITEM": 292,
+    "ARTICLE_EID": "art_212",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": ["Art. 82"],
+    "confidence": "high",
+    "reasoning": "«(Art. 82 ZG)»; direkter Bezug."
+  },
+  {
+    "ITEM": 293,
+    "ARTICLE_EID": "art_213",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": ["Art. 76 Abs. 2", "Art. 82"],
+    "confidence": "high",
+    "reasoning": "«(Art. 76 Abs. 2 und 82 ZG)»; beide Bestimmungen."
+  },
+  {
+    "ITEM": 294,
+    "ARTICLE_EID": "art_214",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": ["Art. 83"],
+    "confidence": "high",
+    "reasoning": "«(Art. 83 ZG)»; direkter Bezug."
+  },
+  {
+    "ITEM": 295,
+    "ARTICLE_EID": "art_215",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": ["Art. 83"],
+    "confidence": "high",
+    "reasoning": "Gleicher Klammerzusatz; Art. 83 ZG."
+  },
+  {
+    "ITEM": 296,
+    "ARTICLE_EID": "art_216",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": ["Art. 83 Abs. 2"],
+    "confidence": "high",
+    "reasoning": "«(Art. 83 Abs. 2 ZG)»; direkter Bezug."
+  },
+  {
+    "ITEM": 297,
+    "ARTICLE_EID": "art_217",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": ["Art. 83 Abs. 3"],
+    "confidence": "high",
+    "reasoning": "«(Art. 83 Abs. 3 ZG)»; direkter Bezug."
+  },
+  {
+    "ITEM": 298,
+    "ARTICLE_EID": "art_218",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": ["Art. 83 Abs. 3"],
+    "confidence": "high",
+    "reasoning": "Gleicher Klammerzusatz; Art. 83 Abs. 3 ZG."
+  },
+  {
+    "ITEM": 299,
+    "ARTICLE_EID": "art_219",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": ["Art. 84"],
+    "confidence": "high",
+    "reasoning": "«(Art. 84 ZG)»; direkter Bezug."
+  },
+  {
+    "ITEM": 300,
+    "ARTICLE_EID": "art_220",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": ["Art. 85"],
+    "confidence": "medium",
+    "reasoning": "Art. 220 definiert Organe des BAZG; systematisch gehört dies zu Art. 85 ZG (Organe). Mangels expliziter Klammer wird Art. 85 zugeordnet."
+  },
+  {
+    "ITEM": 301,
+    "ARTICLE_EID": "art_221",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": ["Art. 87 Abs. 2"],
+    "confidence": "high",
+    "reasoning": "«(Art. 87 Abs. 2 ZG)»; direkter Bezug."
+  },
+  {
+    "ITEM": 302,
+    "ARTICLE_EID": "art_221_a",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": ["Art. 87 Abs. 4"],
+    "confidence": "high",
+    "reasoning": "«(Art. 87 Abs. 4 ZG)»; direkter Bezug."
+  },
+  {
+    "ITEM": 303,
+    "ARTICLE_EID": "art_221_b",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": ["Art. 82 Abs. 2", "Art. 87"],
+    "confidence": "high",
+    "reasoning": "«(Art. 82 Abs. 2 und 87 ZG)»; beide Bestimmungen."
+  },
+  {
+    "ITEM": 304,
+    "ARTICLE_EID": "art_221_c",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": ["Art. 87"],
+    "confidence": "high",
+    "reasoning": "«(Art. 87 ZG)»; direkter Bezug."
+  },
+  {
+    "ITEM": 305,
+    "ARTICLE_EID": "art_221_d",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": ["Art. 87 Abs. 3", "Art. 87 Abs. 5"],
+    "confidence": "high",
+    "reasoning": "«(Art. 87 Abs. 3 und 5 ZG)»; beide Absätze."
+  },
+  {
+    "ITEM": 306,
+    "ARTICLE_EID": "art_221_e",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": ["Art. 91 Abs. 2"],
+    "confidence": "high",
+    "reasoning": "«(Art. 91 Abs. 2 ZG)»; direkter Bezug."
+  },
+  {
+    "ITEM": 307,
+    "ARTICLE_EID": "art_221_f",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": ["Art. 92"],
+    "confidence": "high",
+    "reasoning": "«(Art. 92 ZG)»; direkter Bezug."
+  },
+  {
+    "ITEM": 308,
+    "ARTICLE_EID": "art_222",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": ["Art. 100 Abs. 1 Bst. a", "Art. 100 Abs. 1 Bst. b", "Art. 100 Abs. 1 Bst. c"],
+    "confidence": "high",
+    "reasoning": "«(Art. 100 Abs. 1 Bst. a-c ZG)»; alle drei Buchstaben."
+  },
+  {
+    "ITEM": 309,
+    "ARTICLE_EID": "art_223",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": ["Art. 101 Abs. 2 Bst. a"],
+    "confidence": "high",
+    "reasoning": "«(Art. 101 Abs. 2 Bst. a ZG)»; direkter Bezug."
+  },
+  {
+    "ITEM": 310,
+    "ARTICLE_EID": "art_224",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": ["Art. 101 Abs. 1"],
+    "confidence": "high",
+    "reasoning": "«(Art. 101 Abs. 1 ZG)»; direkter Bezug."
+  },
+  {
+    "ITEM": 311,
+    "ARTICLE_EID": "art_225",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": ["Art. 102"],
+    "confidence": "high",
+    "reasoning": "«(Art. 102 ZG)»; direkter Bezug."
+  },
+  {
+    "ITEM": 312,
+    "ARTICLE_EID": "art_226",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": ["Art. 100 Abs. 1 Bst. a Ziff. 1", "Art. 103 Abs. 2", "Art. 103 Abs. 1 Bst. a", "Art. 103 Abs. 1 Bst. b"],
+    "confidence": "high",
+    "reasoning": "«(Art. 100 Abs. 1 Bst. a Ziff. 1 und 103 Abs. 2 ZG) ... in den Fällen von Artikel 103 Absatz 1 Buchstaben a und b ZG ... in den Fällen von Artikel 103 Absatz 1 Buchstabe a ZG»; alle genannten Teile."
+  },
+  {
+    "ITEM": 313,
+    "ARTICLE_EID": "art_227",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": ["Art. 106 Abs. 2 Bst. a"],
+    "confidence": "high",
+    "reasoning": "«(Art. 106 Abs. 2 Bst. a ZG) ... beim Waffengebrauch nach Artikel 106 ZG»; primärer Bezug ist Art. 106 Abs. 2 lit. a ZG."
+  },
+  {
+    "ITEM": 314,
+    "ARTICLE_EID": "art_228",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": ["Art. 106 Abs. 2 Bst. a", "Art. 106 Abs. 2 Bst. b"],
+    "confidence": "high",
+    "reasoning": "«(Art. 106 Abs. 2 Bst. a und b ZG)»; beide Buchstaben."
+  },
+  {
+    "ITEM": 315,
+    "ARTICLE_EID": "art_229",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": ["Art. 106 Abs. 2 Bst. b"],
+    "confidence": "high",
+    "reasoning": "«(Art. 106 Abs. 2 Bst. b ZG)»; direkter Bezug."
+  },
+  {
+    "ITEM": 316,
+    "ARTICLE_EID": "art_229_a",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": ["Art. 106"],
+    "confidence": "medium",
+    "reasoning": "Art. 229a regelt Waffenaufbewahrung im Kontext der Bewaffnung nach Art. 106 ZG; mangels Klammer wird Art. 106 allgemein zugeordnet."
+  },
+  {
+    "ITEM": 317,
+    "ARTICLE_EID": "art_230",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": ["Art. 106 Abs. 2 Bst. b"],
+    "confidence": "high",
+    "reasoning": "«(Art. 106 Abs. 2 Bst. b ZG)»; direkter Bezug."
+  },
+  {
+    "ITEM": 318,
+    "ARTICLE_EID": "art_231",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": ["Art. 106 Abs. 2 Bst. b"],
+    "confidence": "high",
+    "reasoning": "Gleicher Klammerzusatz; Art. 106 Abs. 2 lit. b ZG."
+  },
+  {
+    "ITEM": 319,
+    "ARTICLE_EID": "art_232",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": ["Art. 106 Abs. 1 Bst. c", "Art. 106 Abs. 2"],
+    "confidence": "high",
+    "reasoning": "«(Art. 106 Abs. 1 Bst. c und Abs. 2 ZG) ... im Fall nach Artikel 106 Absatz 1 Buchstabe c ZG»; beide Teile."
+  },
+  {
+    "ITEM": 320,
+    "ARTICLE_EID": "art_233",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": ["Art. 109 Abs. 1", "Art. 26"],
+    "confidence": "high",
+    "reasoning": "«(Art. 109 Abs. 1 ZG) ... (Art. 26 ZG)»; beide Artikel."
+  },
+  {
+    "ITEM": 321,
+    "ARTICLE_EID": "art_234",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": ["Art. 115 Abs. 2", "Art. 115 Abs. 4"],
+    "confidence": "high",
+    "reasoning": "«(Art. 115 Abs. 2 ZG) ... im Sinne von Artikel 115 Absatz 4 ZG»; beide Absätze."
+  },
+  {
+    "ITEM": 322,
+    "ARTICLE_EID": "art_235",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": ["Art. 130"],
+    "confidence": "high",
+    "reasoning": "«(Art. 130 ZG und Art. 37 Abs. 3 BPG)»; für TARGET_SR ZG ist Art. 130 relevant."
+  },
+  {
+    "ITEM": 323,
+    "ARTICLE_EID": "art_235",
+    "TARGET_SR": "SR 172.220.1",
+    "assigned_articles": ["Art. 37 Abs. 3"],
+    "confidence": "high",
+    "reasoning": "«(Art. 130 ZG und Art. 37 Abs. 3 BPG)»; Art. 37 Abs. 3 gehört zum BPG (SR 172.220.1)."
+  },
+  {
+    "ITEM": 324,
+    "ARTICLE_EID": "art_236",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": ["Art. 127 Abs. 2", "Art. 130"],
+    "confidence": "high",
+    "reasoning": "«(Art. 127 Abs. 2 und 130 ZG) ... nach Artikel 127 Absatz 2 ZG»; beide Artikel."
+  },
+  {
+    "ITEM": 325,
+    "ARTICLE_EID": "art_237",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": ["Art. 117"],
+    "confidence": "high",
+    "reasoning": "«(Art. 117 ZG)»; direkter Bezug."
+  },
+  {
+    "ITEM": 326,
+    "ARTICLE_EID": "art_238",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": ["Art. 117", "Art. 90"],
+    "confidence": "high",
+    "reasoning": "«(Art. 117 ZG) ... (Art. 90 ZG)»; beide Artikel."
+  },
+  {
+    "ITEM": 327,
+    "ARTICLE_EID": "art_239",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": ["Art. 117"],
+    "confidence": "high",
+    "reasoning": "«(Art. 117 ZG)»; direkter Bezug."
+  },
+  {
+    "ITEM": 328,
+    "ARTICLE_EID": "art_240",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": ["Art. 120 Abs. 5"],
+    "confidence": "high",
+    "reasoning": "«(Art. 120 Abs. 5 ZG)»; direkter Bezug."
+  },
+  {
+    "ITEM": 329,
+    "ARTICLE_EID": "art_240_a",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": ["Art. 127 Abs. 1 Bst. a"],
+    "confidence": "high",
+    "reasoning": "«(Art. 127 Abs. 1 Bst. a ZG) ... nach Artikel 127 Absatz 1 Buchstabe a ZG»; direkter Bezug."
+  },
+  {
+    "ITEM": 330,
+    "ARTICLE_EID": "art_240_b",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": ["Art. 128"],
+    "confidence": "high",
+    "reasoning": "«(Art. 128 ZG)»; direkter Bezug."
+  },
+  {
+    "ITEM": 331,
+    "ARTICLE_EID": "art_242_a",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": ["Art. 130"],
+    "confidence": "high",
+    "reasoning": "«(Art. 130 ZG)»; direkter Bezug."
+  },
+  {
+    "ITEM": 332,
+    "ARTICLE_EID": "art_243",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": ["Art. 130"],
+    "confidence": "high",
+    "reasoning": "«(Art. 130 ZG)»; direkter Bezug."
+  },
+  {
+    "ITEM": 333,
+    "ARTICLE_EID": "art_245",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": ["Art. 132 Abs. 7"],
+    "confidence": "high",
+    "reasoning": "«(Art. 132 Abs. 7 ZG) ... nach Artikel 132 Absatz 7 ZG»; direkter Bezug."
+  },
+  {
+    "ITEM": 334,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": ["Art. 23"],
+    "confidence": "high",
+    "reasoning": "Artikelreferenz «(Art. 23 ZG)»; ZG = SR 631.0, somit Art. 23 ZG."
+  },
+  {
+    "ITEM": 335,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": ["Art. 96"],
+    "confidence": "high",
+    "reasoning": "Artikelreferenz «(Art. 96 ZG)»; Art. 96 ZG."
+  },
+  {
+    "ITEM": 336,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": ["Art. 4 Abs. 2"],
+    "confidence": "high",
+    "reasoning": "«nach Artikel 4 Absatz 2 ZG»; Art. 4 Abs. 2 ZG."
+  },
+  {
+    "ITEM": 337,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": ["Art. 5 Abs. 2"],
+    "confidence": "high",
+    "reasoning": "«Artikel 5 Absatz 2 ZG»; Art. 5 Abs. 2 ZG."
+  },
+  {
+    "ITEM": 338,
+    "ARTICLE_EID": "art_6",
+    "TARGET_SR": "SR 192.12",
+    "assigned_articles": ["Art. 2"],
+    "confidence": "high",
+    "reasoning": "«nach Artikel 2 des Gaststaatgesetzes ... SR 192.12»; Art. 2 gehört zu SR 192.12."
+  },
+  {
+    "ITEM": 339,
+    "ARTICLE_EID": "art_17",
+    "TARGET_SR": "SR 851.1",
+    "assigned_articles": ["Art. 2 Abs. 1"],
+    "confidence": "high",
+    "reasoning": "«nach Artikel 2 Absatz 1 des Zuständigkeitsgesetzes ... SR 851.1»; Art. 2 Abs. 1."
+  },
+  {
+    "ITEM": 340,
+    "ARTICLE_EID": "art_18",
+    "TARGET_SR": "SR 831.20",
+    "assigned_articles": ["Art. 42bis"],
+    "confidence": "high",
+    "reasoning": "«nach Artikel 42bis des Bundesgesetzes ... SR 831.20»; Art. 42bis IVG."
+  },
+  {
+    "ITEM": 341,
+    "ARTICLE_EID": "art_37",
+    "TARGET_SR": "SR 0.631.250.112",
+    "assigned_articles": ["Art. 9 Abs. 1", "Anlage 3"],
+    "confidence": "high",
+    "reasoning": "«(Art. 9 Abs. 1 und Anlage 3 des Zollabkommens)»; diese gehören zum Abkommen SR 0.631.250.112."
+  },
+  {
+    "ITEM": 342,
+    "ARTICLE_EID": "art_38",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": ["Art. 79"],
+    "confidence": "high",
+    "reasoning": "«Zollanmeldung (Art. 79)» im Kontext des ZG; Art. 79 ZG."
+  },
+  {
+    "ITEM": 343,
+    "ARTICLE_EID": "art_43",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": ["Art. 12 Abs. 3"],
+    "confidence": "high",
+    "reasoning": "«nach Artikel 12 Absatz 3 ZG»; Art. 12 Abs. 3 ZG."
+  },
+  {
+    "ITEM": 344,
+    "ARTICLE_EID": "art_43",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": ["Art. 12 Abs. 3"],
+    "confidence": "high",
+    "reasoning": "«Voraussetzungen nach Artikel 12 Absatz 3 ZG»; derselbe Bezug."
+  },
+  {
+    "ITEM": 345,
+    "ARTICLE_EID": "art_45",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": ["Art. 40"],
+    "confidence": "high",
+    "reasoning": "«Begriffe nach Artikel 40»; Art. 40 dieser Verordnung, nicht ZG; kein externer SR-Bezug, daher interne Referenz."
+  },
+  {
+    "ITEM": 346,
+    "ARTICLE_EID": "art_50",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": ["Art. 14 Abs. 2"],
+    "confidence": "high",
+    "reasoning": "«im Sinne von Artikel 14 Absatz 2 ZG»; Art. 14 Abs. 2 ZG."
+  },
+  {
+    "ITEM": 347,
+    "ARTICLE_EID": "art_54",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": ["Art. 14 Abs. 4", "Art. 14 Abs. 5"],
+    "confidence": "high",
+    "reasoning": "«nach Artikel 14 Absätze 4 und 5 ZG»; beide Absätze."
+  },
+  {
+    "ITEM": 348,
+    "ARTICLE_EID": "art_55",
+    "TARGET_SR": "SR 916.121.10",
+    "assigned_articles": ["Art. 7"],
+    "confidence": "high",
+    "reasoning": "«nach Artikel 7 der Verordnung ... (VEAGOG)»; Art. 7 gehört zu SR 916.121.10."
+  },
+  {
+    "ITEM": 349,
+    "ARTICLE_EID": "art_60",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": ["Art. 33"],
+    "confidence": "high",
+    "reasoning": "«im Sinne von Artikel 33 ZG»; Art. 33 ZG."
+  },
+  {
+    "ITEM": 350,
+    "ARTICLE_EID": "art_61",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": ["Art. 55"],
+    "confidence": "high",
+    "reasoning": "«neue Zollanmeldung nach Artikel 55»; interne Verweis auf Art. 55 dieser Verordnung; kein externer SR."
+  },
+  {
+    "ITEM": 351,
+    "ARTICLE_EID": "art_62",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": ["Art. 55"],
+    "confidence": "high",
+    "reasoning": "«anmeldepflichtigen Personen nach Artikel 55»; interne Referenz."
+  },
+  {
+    "ITEM": 352,
+    "ARTICLE_EID": "art_62",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": ["Art. 15"],
+    "confidence": "high",
+    "reasoning": "«für den Vollzug von Artikel 15 ZG»; Art. 15 ZG."
+  },
+  {
+    "ITEM": 353,
+    "ARTICLE_EID": "art_65",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": ["Art. 63", "Art. 64"],
+    "confidence": "high",
+    "reasoning": "«nach den Artikeln 63 und 64»; interne Verweise auf diese Verordnungsartikel."
+  },
+  {
+    "ITEM": 354,
+    "ARTICLE_EID": "art_65",
+    "TARGET_SR": "SR 641.611",
+    "assigned_articles": ["Art. 34 Abs. 2"],
+    "confidence": "high",
+    "reasoning": "«nach Artikel 34 Absatz 2 der Mineralölsteuerverordnung ... SR 641.611»; Art. 34 Abs. 2 gehört zu SR 641.611."
+  },
+  {
+    "ITEM": 355,
+    "ARTICLE_EID": "art_66",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": ["Art. 65 Abs. 2"],
+    "confidence": "high",
+    "reasoning": "«Freimengen nach Artikel 65 Absatz 2 ...»; interne Verweisung."
+  },
+  {
+    "ITEM": 356,
+    "ARTICLE_EID": "art_66",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": ["Art. 64", "Art. 65 Abs. 2"],
+    "confidence": "high",
+    "reasoning": "«nach den Artikeln 64 und 65 Absatz 2 ...»; interne Verweise."
+  },
+  {
+    "ITEM": 357,
+    "ARTICLE_EID": "art_66",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": ["Art. 65 Abs. 2"],
+    "confidence": "high",
+    "reasoning": "«nach Artikel 65 Absatz 2 ...»; interne Verweisung."
+  },
+  {
+    "ITEM": 358,
+    "ARTICLE_EID": "art_66",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": ["Art. 65 Abs. 2"],
+    "confidence": "high",
+    "reasoning": "«nach Artikel 65 Absatz 2 ...»; interne Verweisung."
+  },
+  {
+    "ITEM": 359,
+    "ARTICLE_EID": "art_68",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": ["Art. 63", "Art. 64", "Art. 65"],
+    "confidence": "high",
+    "reasoning": "«nach den Artikeln 63–65»; interne Verweise."
+  },
+  {
+    "ITEM": 360,
+    "ARTICLE_EID": "art_82",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": ["Art. 27"],
+    "confidence": "high",
+    "reasoning": "«nach Artikel 27 Buchstaben a–c ZG»; Art. 27 ZG."
+  },
+  {
+    "ITEM": 361,
+    "ARTICLE_EID": "art_93",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": ["Art. 51"],
+    "confidence": "high",
+    "reasoning": "«Verwendungsverpflichtung nach Artikel 51»; interner Verweis."
+  },
+  {
+    "ITEM": 362,
+    "ARTICLE_EID": "art_93",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": ["Art. 14 Abs. 2"],
+    "confidence": "high",
+    "reasoning": "«nach Artikel 14 Absatz 2 ZG»; Art. 14 Abs. 2 ZG."
+  },
+  {
+    "ITEM": 363,
+    "ARTICLE_EID": "art_95",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": ["Art. 94"],
+    "confidence": "high",
+    "reasoning": "«nach Artikel 94»; interner Verweis."
+  },
+  {
+    "ITEM": 364,
+    "ARTICLE_EID": "art_98",
+    "TARGET_SR": "SR 221.431",
+    "assigned_articles": ["Art. 9", "Art. 10"],
+    "confidence": "high",
+    "reasoning": "«Die Artikel 9 und 10 der Geschäftsbücherverordnung ...»; wie bei ITEM 26."
+  },
+  {
+    "ITEM": 365,
+    "ARTICLE_EID": "art_99",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": ["Art. 96"],
+    "confidence": "high",
+    "reasoning": "«Aufbewahrungsdauer (Art. 96)»; interner Verweis."
+  },
+  {
+    "ITEM": 366,
+    "ARTICLE_EID": "art_105_a",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": ["Art. 103"],
+    "confidence": "high",
+    "reasoning": "«Bewilligung nach Artikel 103»; interner Verweis."
+  },
+  {
+    "ITEM": 367,
+    "ARTICLE_EID": "art_105_c",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": ["Art. 103", "Art. 105a Abs. 2"],
+    "confidence": "high",
+    "reasoning": "«Bewilligung nach Artikel 103 ... Sendungen nach Artikel 105a Absatz 2»; interne Verweise."
+  },
+  {
+    "ITEM": 368,
+    "ARTICLE_EID": "art_112_b",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": ["Art. 112s Abs. 1 Bst. a", "Art. 112s Abs. 1 Bst. b"],
+    "confidence": "high",
+    "reasoning": "«Widerruf nach Artikel 112s Absatz 1 Buchstabe a oder b»; interne Verweise."
+  },
+  {
+    "ITEM": 369,
+    "ARTICLE_EID": "art_112_c",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": ["Art. 112d", "Art. 112e", "Art. 112f", "Art. 112g"],
+    "confidence": "high",
+    "reasoning": "«Kriterien nach den Artikeln 112d–112g»; interne Verweise."
+  },
+  {
+    "ITEM": 370,
+    "ARTICLE_EID": "art_112_e",
+    "TARGET_SR": "SR 220",
+    "assigned_articles": ["Art. 662–670", "Art. 957–963"],
+    "confidence": "high",
+    "reasoning": "«nach den Artikeln 662–670 und 957–963 des Obligationenrechts»; wie ITEM 27."
+  },
+  {
+    "ITEM": 371,
+    "ARTICLE_EID": "art_112_e",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": ["Art. 96", "Art. 97", "Art. 98"],
+    "confidence": "high",
+    "reasoning": "«(Art. 96–98)»; interne Verweise auf diese Verordnungsartikel."
+  },
+  {
+    "ITEM": 372,
+    "ARTICLE_EID": "art_112_f",
+    "TARGET_SR": "SR 281.1",
+    "assigned_articles": ["Art. 293", "Art. 166", "Art. 190–193"],
+    "confidence": "high",
+    "reasoning": "Wie ITEM 29: Verweise auf SchKG-Artikel."
+  },
+  {
+    "ITEM": 373,
+    "ARTICLE_EID": "art_112_g",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": ["Art. 112d"],
+    "confidence": "high",
+    "reasoning": "«Keine der Personen nach Artikel 112d ...»; interner Verweis."
+  },
+  {
+    "ITEM": 374,
+    "ARTICLE_EID": "art_112_j",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": ["Art. 112b"],
+    "confidence": "high",
+    "reasoning": "«formellen Voraussetzungen nach Artikel 112b»; interner Verweis."
+  },
+  {
+    "ITEM": 375,
+    "ARTICLE_EID": "art_112_j",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": ["Art. 112i"],
+    "confidence": "high",
+    "reasoning": "«Unterlagen nach Artikel 112i»; interner Verweis."
+  },
+  {
+    "ITEM": 376,
+    "ARTICLE_EID": "art_112_j",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": ["Art. 116"],
+    "confidence": "high",
+    "reasoning": "«Beschwerde nach Artikel 116 ZG»; Art. 116 ZG."
+  },
+  {
+    "ITEM": 377,
+    "ARTICLE_EID": "art_112_k",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": ["Art. 112c", "Art. 112d", "Art. 112e", "Art. 112f", "Art. 112g", "Art. 112h"],
+    "confidence": "high",
+    "reasoning": "«Kriterien nach den Artikeln 112c–112h»; interne Verweise."
+  },
+  {
+    "ITEM": 378,
+    "ARTICLE_EID": "art_112_k",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": ["Art. 112j"],
+    "confidence": "high",
+    "reasoning": "«nach der formellen Prüfung des Antrags nach Artikel 112j»; interner Verweis."
+  },
+  {
+    "ITEM": 379,
+    "ARTICLE_EID": "art_112_k",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": ["Art. 112d", "Art. 112g"],
+    "confidence": "high",
+    "reasoning": "«Person nach Artikel 112d ... im Sinne von Artikel 112d oder 112g Buchstabe a»; interne Verweise."
+  },
+  {
+    "ITEM": 380,
+    "ARTICLE_EID": "art_112_l",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": ["Art. 112g"],
+    "confidence": "high",
+    "reasoning": "«Sicherheitsstandards nach Artikel 112g»; interner Verweis."
+  },
+  {
+    "ITEM": 381,
+    "ARTICLE_EID": "art_112_r",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": ["Art. 112b", "Art. 112e", "Art. 112g"],
+    "confidence": "high",
+    "reasoning": "«Voraussetzungen nach den Artikeln 112b, 112e und 112g ...»; interne Verweise."
+  },
+  {
+    "ITEM": 382,
+    "ARTICLE_EID": "art_112_r",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": ["Art. 112d", "Art. 112g"],
+    "confidence": "high",
+    "reasoning": "«Person nach Artikel 112d ... im Sinne von Artikel 112d oder 112g Buchstabe a»; interne Verweise."
+  },
+  {
+    "ITEM": 383,
+    "ARTICLE_EID": "art_112_r",
+    "TARGET_SR": "SR 281.1",
+    "assigned_articles": ["Art. 293", "Art. 166", "Art. 190–193"],
+    "confidence": "high",
+    "reasoning": "«Nachlassvertrag im Sinne von Artikel 293 SchKG ... Konkursbegehren im Sinne von Artikel 166 und 190–193 SchKG»; wie zuvor SchKG-Artikel."
+  },
+  {
+    "ITEM": 384,
+    "ARTICLE_EID": "art_112_s",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": ["Art. 112d"],
+    "confidence": "high",
+    "reasoning": "«Person nach Artikel 112d»; interner Verweis."
+  },
+  {
+    "ITEM": 385,
+    "ARTICLE_EID": "art_112_s",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": ["Art. 112d", "Art. 112g"],
+    "confidence": "high",
+    "reasoning": "«im Sinne von Artikel 112d oder 112g Buchstabe a»; interne Verweise."
+  },
+  {
+    "ITEM": 386,
+    "ARTICLE_EID": "art_112_t",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": ["Art. 75 Bst. b"],
+    "confidence": "high",
+    "reasoning": "«mit der Zuführung beauftragte Person nach Artikel 75 Buchstabe b»; interner Verweis."
+  },
+  {
+    "ITEM": 387,
+    "ARTICLE_EID": "art_112_t",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": ["Art. 26"],
+    "confidence": "high",
+    "reasoning": "«anmeldepflichtigen Personen nach Artikel 26 ZG»; Art. 26 ZG."
+  },
+  {
+    "ITEM": 388,
+    "ARTICLE_EID": "art_135",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": ["Art. 11"],
+    "confidence": "high",
+    "reasoning": "«zollfreie Waren nach Artikel 11»; interner Verweis."
+  },
+  {
+    "ITEM": 389,
+    "ARTICLE_EID": "art_144",
+    "TARGET_SR": "SR 0.631.242.04",
+    "assigned_articles": ["Art. 111"],
+    "confidence": "high",
+    "reasoning": "Wie ITEM 30: «nach Artikel 111 des Übereinkommens ...»."
+  },
+  {
+    "ITEM": 390,
+    "ARTICLE_EID": "art_159",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": ["Art. 54 Abs. 2"],
+    "confidence": "high",
+    "reasoning": "«nach Artikel 54 Absatz 2 ZG»; Art. 54 Abs. 2 ZG."
+  },
+  {
+    "ITEM": 391,
+    "ARTICLE_EID": "art_160",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": ["Art. 40 Bst. b"],
+    "confidence": "high",
+    "reasoning": "«im Sinne von Artikel 40 Buchstabe b»; interner Verweis."
+  },
+  {
+    "ITEM": 392,
+    "ARTICLE_EID": "art_164",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": ["Art. 34"],
+    "confidence": "high",
+    "reasoning": "«nach Artikel 34»; Art. 34 ZG."
+  },
+  {
+    "ITEM": 393,
+    "ARTICLE_EID": "art_164",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": ["Art. 35"],
+    "confidence": "high",
+    "reasoning": "«nach Artikel 35»; Art. 35 ZG."
+  },
+  {
+    "ITEM": 394,
+    "ARTICLE_EID": "art_164",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": ["Art. 35 Abs. 1", "Art. 35 Abs. 2 Bst. a"],
+    "confidence": "high",
+    "reasoning": "«nach Artikel 35 Absätze 1 und 2 Buchstabe a»; diese Teile von Art. 35 ZG."
+  },
+  {
+    "ITEM": 395,
+    "ARTICLE_EID": "art_165",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": ["Art. 12 Abs. 3", "Art. 41 Abs. 2"],
+    "confidence": "high",
+    "reasoning": "«nach Artikel 12 Absatz 3 ZG oder nach Artikel 41 Absatz 2 dieser Verordnung»; für ZG ist Art. 12 Abs. 3 relevant."
+  },
+  {
+    "ITEM": 396,
+    "ARTICLE_EID": "art_170",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": ["Art. 43 Abs. 2", "Art. 165", "Art. 166", "Art. 167", "Art. 168"],
+    "confidence": "high",
+    "reasoning": "«nach Artikel 43 Absatz 2 ... Bestimmungen der Artikel 165–168»; interne Verweise."
+  },
+  {
+    "ITEM": 397,
+    "ARTICLE_EID": "art_178",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": ["Art. 64 Abs. 2"],
+    "confidence": "high",
+    "reasoning": "«nach Artikel 64 Absatz 2 ZG»; Art. 64 Abs. 2 ZG."
+  },
+  {
+    "ITEM": 398,
+    "ARTICLE_EID": "art_178_a",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": ["Art. 184 Abs. 1"],
+    "confidence": "high",
+    "reasoning": "«Angaben nach Artikel 184 Absatz 1 ...»; interner Verweis."
+  },
+  {
+    "ITEM": 399,
+    "ARTICLE_EID": "art_179",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": ["Art. 157"],
+    "confidence": "high",
+    "reasoning": "«Für die Ausfuhrfristen gilt Artikel 157.»; interner Verweis."
+  },
+  {
+    "ITEM": 400,
+    "ARTICLE_EID": "art_180",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": ["Art. 40 Bst. b", "Art. 40 Bst. d"],
+    "confidence": "high",
+    "reasoning": "«im Sinne von Artikel 40 Buchstaben b und d»; interne Verweise."
+  },
+  {
+    "ITEM": 401,
+    "ARTICLE_EID": "art_186",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": ["Art. 69"],
+    "confidence": "high",
+    "reasoning": "«nach Artikel 69 ZG»; Art. 69 ZG."
+  },
+  {
+    "ITEM": 402,
+    "ARTICLE_EID": "art_189",
+    "TARGET_SR": "SR 611.01",
+    "assigned_articles": ["Art. 49"],
+    "confidence": "high",
+    "reasoning": "Wie ITEM 33: «Artikel 49 der Finanzhaushaltverordnung ...»."
+  },
+  {
+    "ITEM": 403,
+    "ARTICLE_EID": "art_195",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": ["Art. 34 Abs. 2bis"],
+    "confidence": "high",
+    "reasoning": "«Verfahren der vorübergehenden Verwendung nach Artikel 34 Absatz 2bis»; Art. 34 Abs. 2bis ZG."
+  },
+  {
+    "ITEM": 404,
+    "ARTICLE_EID": "art_201",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": ["Art. 200"],
+    "confidence": "high",
+    "reasoning": "«Forderungen nach Artikel 200»; interner Verweis."
+  },
+  {
+    "ITEM": 405,
+    "ARTICLE_EID": "art_204",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": ["Art. 200"],
+    "confidence": "high",
+    "reasoning": "«Forderung nach Artikel 200 Buchstaben a, b und d»; interner Verweis."
+  },
+  {
+    "ITEM": 406,
+    "ARTICLE_EID": "art_204",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": ["Art. 200"],
+    "confidence": "high",
+    "reasoning": "Gleicher Verweis auf «Artikel 200 Buchstaben a, b und d»."
+  },
+  {
+    "ITEM": 407,
+    "ARTICLE_EID": "art_210",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": ["Art. 209"],
+    "confidence": "high",
+    "reasoning": "«Artikel 209 Buchstaben f und i»; interner Verweis."
+  },
+  {
+    "ITEM": 408,
+    "ARTICLE_EID": "art_212",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": ["Art. 200"],
+    "confidence": "high",
+    "reasoning": "«Forderungen nach Artikel 200»; interner Verweis."
+  },
+  {
+    "ITEM": 409,
+    "ARTICLE_EID": "art_219",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": ["Art. 218 Abs. 3"],
+    "confidence": "high",
+    "reasoning": "«nach Massgabe von Artikel 218 Absatz 3»; interner Verweis."
+  },
+  {
+    "ITEM": 410,
+    "ARTICLE_EID": "art_221_b",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": ["Art. 200"],
+    "confidence": "high",
+    "reasoning": "«Reihenfolge ... in Artikel 200 genannte Reihenfolge»; interner Verweis."
+  },
+  {
+    "ITEM": 411,
+    "ARTICLE_EID": "art_226",
+    "TARGET_SR": "SR 361.3",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "high",
+    "reasoning": "«Verordnung ... SR 361.3 über die Bearbeitung biometrischer erkennungsdienstlicher Daten»; wie ITEM 36."
+  },
+  {
+    "ITEM": 412,
+    "ARTICLE_EID": "art_226",
+    "TARGET_SR": "SR 631.061",
+    "assigned_articles": ["General reference - entire document"],
+    "confidence": "high",
+    "reasoning": "«Datenbearbeitungsverordnung für das BAZG ... SR 631.061»; wie ITEM 37."
+  },
+  {
+    "ITEM": 413,
+    "ARTICLE_EID": "art_227",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": ["Art. 106"],
+    "confidence": "high",
+    "reasoning": "«Waffengebrauch nach Artikel 106 ZG»; Art. 106 ZG."
+  },
+  {
+    "ITEM": 414,
+    "ARTICLE_EID": "art_228",
+    "TARGET_SR": "SR 364",
+    "assigned_articles": ["Art. 8"],
+    "confidence": "high",
+    "reasoning": "«nach Artikel 8 des Zwangsanwendungsgesetzes ... (ZAG)»; Art. 8 ZAG."
+  },
+  {
+    "ITEM": 415,
+    "ARTICLE_EID": "art_228",
+    "TARGET_SR": "SR 364",
+    "assigned_articles": ["Art. 30"],
+    "confidence": "high",
+    "reasoning": "«Themen nach Artikel 30 ZAG»; Art. 30 ZAG."
+  },
+  {
+    "ITEM": 416,
+    "ARTICLE_EID": "art_229",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": ["Art. 228 Abs. 1"],
+    "confidence": "high",
+    "reasoning": "«Personal nach Artikel 228 Absatz 1»; interner Verweis."
+  },
+  {
+    "ITEM": 417,
+    "ARTICLE_EID": "art_231",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": ["Art. 228"],
+    "confidence": "high",
+    "reasoning": "«Personal nach Artikel 228»; interner Verweis."
+  },
+  {
+    "ITEM": 418,
+    "ARTICLE_EID": "art_232",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": ["Art. 228 Abs. 1", "Art. 106 Abs. 1 Bst. c"],
+    "confidence": "high",
+    "reasoning": "«Personal nach Artikel 228 Absatz 1 ... im Fall nach Artikel 106 Absatz 1 Buchstabe c ZG»; interne und ZG-Verweise."
+  },
+  {
+    "ITEM": 419,
+    "ARTICLE_EID": "art_232",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": ["Art. 229 Abs. 1 Bst. a"],
+    "confidence": "high",
+    "reasoning": "«Warnrufes (Art. 229 Abs. 1 Bst. a)»; interner Verweis."
+  },
+  {
+    "ITEM": 420,
+    "ARTICLE_EID": "art_233",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": ["Art. 26"],
+    "confidence": "high",
+    "reasoning": "«Zollveranlagungsverfahren (Art. 26 ZG)»; Art. 26 ZG."
+  },
+  {
+    "ITEM": 421,
+    "ARTICLE_EID": "art_234",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": ["Art. 115 Abs. 4"],
+    "confidence": "high",
+    "reasoning": "«im Sinne von Artikel 115 Absatz 4 ZG»; Art. 115 Abs. 4 ZG."
+  },
+  {
+    "ITEM": 422,
+    "ARTICLE_EID": "art_235",
+    "TARGET_SR": "SR 412.10",
+    "assigned_articles": ["Art. 28 Abs. 2"],
+    "confidence": "high",
+    "reasoning": "Wie ITEM 39: «im Sinne von Artikel 28 Absatz 2 des Berufsbildungsgesetzes ... SR 412.10»."
+  },
+  {
+    "ITEM": 423,
+    "ARTICLE_EID": "art_236",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": ["Art. 127 Abs. 2"],
+    "confidence": "high",
+    "reasoning": "«Ordnungswidrigkeit nach Artikel 127 Absatz 2 ZG»; Art. 127 Abs. 2 ZG."
+  },
+  {
+    "ITEM": 424,
+    "ARTICLE_EID": "art_238",
+    "TARGET_SR": "SR 313.0",
+    "assigned_articles": ["Art. 12 Abs. 1", "Art. 12 Abs. 2", "Art. 63"],
+    "confidence": "high",
+    "reasoning": "Wie ITEM 40: Verweis auf VStrR-Artikel."
+  },
+  {
+    "ITEM": 425,
+    "ARTICLE_EID": "art_239",
+    "TARGET_SR": "SR 313.0",
+    "assigned_articles": ["Art. 12 Abs. 1", "Art. 12 Abs. 2", "Art. 61 Abs. 3"],
+    "confidence": "high",
+    "reasoning": "Wie ITEM 41: Verweis auf VStrR-Artikel."
+  },
+  {
+    "ITEM": 426,
+    "ARTICLE_EID": "art_239",
+    "TARGET_SR": "SR 313.0",
+    "assigned_articles": ["Art. 12 Abs. 3"],
+    "confidence": "high",
+    "reasoning": "«nach Artikel 12 Absatz 3 VStrR»; Art. 12 Abs. 3 VStrR."
+  },
+  {
+    "ITEM": 427,
+    "ARTICLE_EID": "art_240_a",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": ["Art. 127 Abs. 1 Bst. a"],
+    "confidence": "high",
+    "reasoning": "Wie ITEM 329: «nach Artikel 127 Absatz 1 Buchstabe a ZG»."
+  },
+  {
+    "ITEM": 428,
+    "ARTICLE_EID": "art_240_a",
+    "TARGET_SR": "SR 632.14",
+    "assigned_articles": ["Art. 5–12"],
+    "confidence": "high",
+    "reasoning": "Wie ITEM 42: «Artikel 5–12 der Verordnung ... SR 632.14»."
+  },
+  {
+    "ITEM": 429,
+    "ARTICLE_EID": "art_240_a",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": ["Art. 61"],
+    "confidence": "high",
+    "reasoning": "«Hinweispflicht nach Artikel 61»; interner Verweis."
+  },
+  {
+    "ITEM": 430,
+    "ARTICLE_EID": "art_240_a",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": ["Art. 94", "Art. 95", "Art. 96", "Art. 97", "Art. 98"],
+    "confidence": "high",
+    "reasoning": "«nach den Artikeln 94–98»; interne Verweise."
+  },
+  {
+    "ITEM": 431,
+    "ARTICLE_EID": "art_240_a",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": ["Art. 161", "Art. 181"],
+    "confidence": "high",
+    "reasoning": "«bearbeitet (Art. 161 und 181)»; interne Verweise."
+  },
+  {
+    "ITEM": 432,
+    "ARTICLE_EID": "art_240_b",
+    "TARGET_SR": "SR 313.0",
+    "assigned_articles": ["Art. 65 Abs. 1"],
+    "confidence": "high",
+    "reasoning": "Wie ITEM 43: «nach Artikel 65 Absatz 1 VStrR»."
+  },
+  {
+    "ITEM": 433,
+    "ARTICLE_EID": "art_245",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": ["Art. 132 Abs. 7"],
+    "confidence": "high",
+    "reasoning": "Wie ITEM 333: «nach Artikel 132 Absatz 7 ZG»."
+  },
+  {
+    "ITEM": 434,
+    "ARTICLE_EID": "art_245",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": ["Art. 132 Abs. 7", "Art. 46 Abs. 2"],
+    "confidence": "high",
+    "reasoning": "«nach Artikel 132 Absatz 7 ZG oder nach Artikel 46 Absatz 2 dieser Verordnung»; für ZG ist Art. 132 Abs. 7 relevant."
+  },
+  {
+    "ITEM": 435,
+    "ARTICLE_EID": "art_246",
+    "TARGET_SR": "SR 783.1",
+    "assigned_articles": ["Art. 3", "Art. 4"],
+    "confidence": "high",
+    "reasoning": "«Art. 3 und 4 des Postgesetzes ...»; wie ITEM 61, diese Bestimmungen gehören zum Postgesetz SR 783.1."
+  },
+  {
+    "ITEM": 436,
+    "ARTICLE_EID": "art_246_a",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": ["Art. 182 Abs. 2"],
+    "confidence": "high",
+    "reasoning": "«Bestandesaufzeichnung (Art. 182 Abs. 2)»; interner Verweis."
+  },
+  {
+    "ITEM": 437,
+    "ARTICLE_EID": "art_246_a",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": ["Art. 183 Abs. 1", "Art. 183 Abs. 1bis"],
+    "confidence": "high",
+    "reasoning": "«in Artikel 183 Absätze 1 Buchstabe c und 1bis genannten Anforderungen»; interne Verweise."
+  },
+  {
+    "ITEM": 438,
+    "ARTICLE_EID": "art_246_a",
+    "TARGET_SR": "SR 631.0",
+    "assigned_articles": ["Art. 184 Abs. 1", "Art. 184 Abs. 2"],
+    "confidence": "high",
+    "reasoning": "«in Artikel 184 Absatz 1 Buchstaben c, k und q sowie 2 genannten Anforderungen»; interne Verweise."
+  }
+]

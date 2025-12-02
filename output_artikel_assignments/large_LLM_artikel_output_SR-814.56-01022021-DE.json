@@ -1,0 +1,72 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 814.50",
+    "assigned_articles": [
+      "Art. 42"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet explicitly cites 'Artikel 42 des Strahlenschutzgesetzes ... SR 814.50 (StSG)'; Art. 42 is directly and grammatically linked to SR 814.50."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": "SR 172.041.1",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "The sentence refers generally to 'die Bestimmungen der Allgemeinen Gebührenverordnung ... SR 172.041.1 (AllgGebV)' without mentioning any specific article; this is a blanket applicability clause."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": "SR 172.041.1",
+    "assigned_articles": [
+      "Art. 6"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet states 'über die Kosten nach Artikel 6 AllgGebV SR 172.041.1 hinaus'; 'Artikel 6' is explicitly tied to AllgGebV, which is identified as SR 172.041.1."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": "SR 172.010.1",
+    "assigned_articles": [
+      "Art. 8l–8t"
+    ],
+    "confidence": "high",
+    "reasoning": "The text refers to 'Honorare nach den Artikeln 8l–8t der Regierungs- und Verwaltungsorganisationsverordnung ... SR 172.010.1'; the article range 8l–8t is syntactically and semantically linked to SR 172.010.1."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": "SR 814.50",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "medium",
+    "reasoning": "The phrase 'bei dessen Entstehung das StSG noch nicht anwendbar war' refers to the temporal applicability of the Strahlenschutzgesetz (SR 814.50) as a whole; no specific article is mentioned or grammatically linked."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": "self",
+    "assigned_articles": [
+      "Art. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "This is an internal cross-reference: 'Massnahme, Dienstleistung oder Verfügung nach Artikel 1' clearly refers to Article 1 of the same ordinance; no external SR is mentioned in the snippet."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": "self",
+    "assigned_articles": [
+      "Art. 6"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet mirrors ITEM 3 but without the explicit SR marker; 'Artikel 6 AllgGebV' here functions as an internal reference within the current document’s context, not as a separate SR assignment for this artikel_reference item."
+  }
+]

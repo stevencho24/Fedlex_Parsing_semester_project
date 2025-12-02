@@ -1,0 +1,184 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 412.10",
+    "assigned_articles": [
+      "Art. 19"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Formulierung \"gestützt auf Artikel 19 des Berufsbildungsgesetzes ... SR 412.10\" verknüpft eindeutig Art. 19 mit SR 412.10."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 412.101",
+    "assigned_articles": [
+      "Art. 12"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Satzteil \"auf Artikel 12 der Berufsbildungsverordnung ... SR 412.101 (BBV)\" ist Art. 12 direkt der BBV (SR 412.101) zugeordnet."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 170.512",
+    "assigned_articles": [
+      "Art. 12 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Im authorialNote-Text: \"in Anwendung von Art. 12 Abs. 2 des Publikationsgesetzes ... (SR 170.512)\" wird Art. 12 Abs. 2 ausdrücklich diesem Gesetz zugeordnet."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 822.115",
+    "assigned_articles": [
+      "Art. 4a Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Passage \"auf Artikel 4a Absatz 1 der Jugendarbeitsschutzverordnung ... SR 822.115 (ArGV 5)\" ordnet Art. 4a Abs. 1 klar der ArGV 5 (SR 822.115) zu."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": "SR 822.115",
+    "assigned_articles": [
+      "Art. 4 Abs. 1",
+      "Art. 4a Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Satz verweist auf \"Artikel 4 Absatz 1 ArGV 5\" und \"Artikel 4a Absatz 1 SR 822.115 ArGV 5\"; beide Artikel gehören zur ArGV 5 (SR 822.115)."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_6",
+    "TARGET_SR": "SR 412.101",
+    "assigned_articles": [
+      "Art. 44 Abs. 1 Bst. a",
+      "Art. 44 Abs. 1 Bst. b"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Formulierung \"Artikel 44 Absatz 1 Buchstaben a und b BBV\" bezieht sich auf die Berufsbildungsverordnung (BBV = SR 412.101)."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_10",
+    "TARGET_SR": "SR 412.101",
+    "assigned_articles": [
+      "Art. 32"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Text nennt \"Artikel 32 BBV\"; BBV ist in der Präambel als SR 412.101 definiert."
+  },
+  {
+    "ITEM": 8,
+    "ARTICLE_EID": "art_13",
+    "TARGET_SR": "SR 412.101",
+    "assigned_articles": [
+      "Art. 33"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Wiederholung des Qualifikationsverfahrens richtet sich \"nach Artikel 33 BBV\"; BBV = SR 412.101."
+  },
+  {
+    "ITEM": 9,
+    "ARTICLE_EID": "art_15",
+    "TARGET_SR": "SR 412.10",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "SBFI ist als Akteur aus dem Berufsbildungsgesetz (SR 412.10) bekannt, aber im Snippet wird kein bestimmter Artikel dieses Gesetzes genannt; es handelt sich um eine allgemeine Bezugnahme."
+  },
+  {
+    "ITEM": 10,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": "self",
+    "assigned_articles": [
+      "Art. 3 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Wendung \"nach Artikel 3 Absatz 2\" enthält keinen Hinweis auf ein anderes SR-Dokument und verweist damit auf einen Artikel derselben Verordnung (Selbstreferenz)."
+  },
+  {
+    "ITEM": 11,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": "SR 822.115",
+    "assigned_articles": [
+      "Art. 4 Abs. 1",
+      "Art. 4a Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "Hier wird rein textlich auf \"Artikel 4 Absatz 1 ArGV 5\" und \"Artikel 4a Absatz 1 ArGV 5\" verwiesen; ArGV 5 ist SR 822.115, daher sind dies keine Selbstreferenzen, sondern Artikel dieser Verordnung."
+  },
+  {
+    "ITEM": 12,
+    "ARTICLE_EID": "art_9",
+    "TARGET_SR": "self",
+    "assigned_articles": [
+      "Art. 3 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "Die \"Berufsfachschule nach Artikel 3 Absatz 1\" wird ohne Nennung eines externen SR-Dokuments erwähnt; dies ist ein Verweis innerhalb derselben Verordnung."
+  },
+  {
+    "ITEM": 13,
+    "ARTICLE_EID": "art_10",
+    "TARGET_SR": "mixed",
+    "assigned_articles": [
+      {
+        "SR": "SR 412.101",
+        "articles": [
+          "Art. 32"
+        ]
+      },
+      {
+        "SR": "self",
+        "articles": [
+          "Art. 12"
+        ]
+      }
+    ],
+    "confidence": "high",
+    "reasoning": "Der Satz enthält zwei unterschiedliche Verweise: \"Artikel 32 BBV\" (BBV = SR 412.101) und \"(Art. 12)\" ohne Zusatz, was als interner Verweis auf Art. 12 derselben Verordnung zu verstehen ist."
+  },
+  {
+    "ITEM": 14,
+    "ARTICLE_EID": "art_11",
+    "TARGET_SR": "self",
+    "assigned_articles": [
+      "Art. 3 Abs. 2 Bst. a",
+      "Art. 3 Abs. 2 Bst. b",
+      "Art. 3 Abs. 2 Bst. c"
+    ],
+    "confidence": "high",
+    "reasoning": "Die \"Verordnungen nach Artikel 3 Absatz 2 Buchstaben a–c\" sind interne Strukturverweise; kein externes SR wird genannt."
+  },
+  {
+    "ITEM": 15,
+    "ARTICLE_EID": "art_12",
+    "TARGET_SR": "self",
+    "assigned_articles": [
+      "Art. 3 Abs. 2 Bst. a",
+      "Art. 3 Abs. 2 Bst. b",
+      "Art. 3 Abs. 2 Bst. c"
+    ],
+    "confidence": "high",
+    "reasoning": "Auch hier beziehen sich die \"Verordnungen nach Artikel 3 Absatz 2 Buchstabe a–c\" auf interne Bestimmungen derselben Verordnung."
+  },
+  {
+    "ITEM": 16,
+    "ARTICLE_EID": "art_18",
+    "TARGET_SR": "self",
+    "assigned_articles": [
+      "Art. 10",
+      "Art. 11",
+      "Art. 12",
+      "Art. 13",
+      "Art. 14"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Klammerangabe \"(Art. 10–14)\" ist ein klassischer interner Artikelbereich innerhalb derselben Verordnung; kein externes SR wird erwähnt."
+  }
+]

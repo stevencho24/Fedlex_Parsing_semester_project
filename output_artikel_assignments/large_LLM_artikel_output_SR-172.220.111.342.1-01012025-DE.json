@@ -1,0 +1,159 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 172.220.111.3",
+    "assigned_articles": [
+      "Art. 48 Abs. 2",
+      "Art. 115 Bst. e"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Formulierung «gestützt auf die Artikel 48 Absatz 2 und 115 Buchstabe e der Bundespersonalverordnung ... SR 172.220.111.3 (BPV)» verknüpft beide Artikel grammatikalisch eindeutig mit der BPV."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_8",
+    "TARGET_SR": "SR 172.220.1",
+    "assigned_articles": [
+      "Art. 29 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Satzteil «... nach Artikel 29 Absatz 1 des Bundespersonalgesetzes vom 24. März 2000 SR 172.220.1 besteht» wird Art. 29 Abs. 1 direkt mit dem Bundespersonalgesetz (SR 172.220.1) verbunden."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 172.220.111.3",
+    "assigned_articles": [
+      "Art. 2 Abs. 1 Bst. c"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Klammer «(Art. 2 Abs. 1 Bst. c BPV)» enthält die Abkürzung BPV, die in der Präambel als SR 172.220.111.3 definiert ist; damit ist Art. 2 Abs. 1 Bst. c der BPV eindeutig dieser SR zugeordnet."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 172.220.111.3",
+    "assigned_articles": [
+      "Art. 2 Abs. 1 Bst. c"
+    ],
+    "confidence": "high",
+    "reasoning": "Gleicher Satz wie bei ITEM 3; hier wird explizit die Abkürzung BPV als Präambelakronym verarbeitet. «Art. 2 Abs. 1 Bst. c BPV» verweist klar auf die BPV (SR 172.220.111.3)."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": "SR 172.220.111.3",
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Der Ausschnitt erwähnt nur «VBS» (Departement) ohne Artikelangabe zur BPV; es liegt keine konkrete Artikelverweisung zur SR 172.220.111.3 vor, daher keine Artikelzuordnung."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": "SR 172.220.111.3",
+    "assigned_articles": [
+      "Art. 34a"
+    ],
+    "confidence": "high",
+    "reasoning": "«... im Vorruhestand nach Artikel 34a BPV ...» nennt explizit Art. 34a der BPV; BPV ist als SR 172.220.111.3 definiert."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": "SR 172.220.111.3",
+    "assigned_articles": [
+      "Art. 88a Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "«... richtet sich nach Artikel 88a Absatz 1 BPV.» verknüpft Art. 88a Abs. 1 direkt mit der BPV (SR 172.220.111.3)."
+  },
+  {
+    "ITEM": 8,
+    "ARTICLE_EID": "art_10_b",
+    "TARGET_SR": "SR 172.220.111.3",
+    "assigned_articles": [
+      "Art. 26 Abs. 5"
+    ],
+    "confidence": "high",
+    "reasoning": "«... bis zur Versetzung auf eine Funktion oder ein Kommando nach Artikel 26 Absatz 5 BPV» verweist eindeutig auf Art. 26 Abs. 5 der BPV (SR 172.220.111.3)."
+  },
+  {
+    "ITEM": 9,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 1 Bst. i",
+      "Art. 1 Bst. f"
+    ],
+    "confidence": "high",
+    "reasoning": "«... übrige Besatzungsmitglieder nach Artikel 1 Buchstaben i und f ...» ist eine Selbstverweisung innerhalb derselben Verordnung; kein externer SR-Bezug, daher als interne Artikelreferenz ohne TARGET_SR zu behandeln."
+  },
+  {
+    "ITEM": 10,
+    "ARTICLE_EID": "art_8",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 2 Abs. 1",
+      "Art. 4",
+      "Art. 6"
+    ],
+    "confidence": "high",
+    "reasoning": "«... Anspruch auf die Zulage nach Artikel 2 Absatz 1 und den Artikeln 4 und 6 ...» bezieht sich auf Artikel derselben Verordnung (keine SR-/Acronym-Zuordnung im Satzteil), somit reine Selbstverweisung ohne externes TARGET_SR."
+  },
+  {
+    "ITEM": 11,
+    "ARTICLE_EID": "art_8",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 1 Bst. a–g",
+      "Art. 1 Bst. i",
+      "Art. 1 Bst. j"
+    ],
+    "confidence": "high",
+    "reasoning": "«Angestellte nach Artikel 1 Buchstaben a–g, i und j» verweist auf interne Buchstaben des Art. 1 derselben Verordnung; kein externer SR-Bezug."
+  },
+  {
+    "ITEM": 12,
+    "ARTICLE_EID": "art_10",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 22"
+    ],
+    "confidence": "medium",
+    "reasoning": "«... bisherigen Entschädigungen nach Artikel 22 der Verordnung vom 5. Dezember 1994 über den militärischen Flugdienst.» nennt zwar Art. 22, aber ohne SR-Nummer; mangels expliziter SR-Verknüpfung ist dies als Verweisung auf eine andere Verordnung ohne identifizierbare TARGET_SR zu behandeln."
+  },
+  {
+    "ITEM": 13,
+    "ARTICLE_EID": "art_10_a",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 8 Abs. 2",
+      "Art. 8 Abs. 3",
+      "Art. 1 Bst. a–e",
+      "Art. 1 Bst. f–j"
+    ],
+    "confidence": "high",
+    "reasoning": "«Artikel 8 Absätze 2 und 3 ... gilt auch für Angestellte nach Artikel 1 Buchstaben a–e und f–j» sind reine interne Verweise innerhalb derselben Verordnung; kein externer SR-Bezug."
+  },
+  {
+    "ITEM": 14,
+    "ARTICLE_EID": "art_10_b",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 2 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "«... eine Zulage nach Artikel 2 Absatz 1» verweist auf Art. 2 Abs. 1 derselben Verordnung; keine SR-Nummer oder Acronym-Verknüpfung, daher interne Selbstverweisung."
+  },
+  {
+    "ITEM": 15,
+    "ARTICLE_EID": "art_10_b",
+    "TARGET_SR": "SR 172.220.111.3",
+    "assigned_articles": [
+      "Art. 26 Abs. 5"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Satz «... bis zur Versetzung auf eine Funktion oder ein Kommando nach Artikel 26 Absatz 5 BPV» enthält die Abkürzung BPV, die in der Präambel als SR 172.220.111.3 definiert ist; Art. 26 Abs. 5 ist daher dieser SR zuzuordnen."
+  }
+]

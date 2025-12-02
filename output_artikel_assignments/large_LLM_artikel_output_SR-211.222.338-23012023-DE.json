@@ -1,0 +1,215 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 210",
+    "assigned_articles": [
+      "Art. 316 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Formulierung \"gestützt auf Artikel 316 Absatz 2 des Zivilgesetzbuches SR 210 (ZGB)\" verknüpft eindeutig Art. 316 Abs. 2 mit SR 210."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 170.512",
+    "assigned_articles": [
+      "Art. 12 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Im authorialNote-Text: \"in Anwendung von Art. 12 Abs. 2 des Publikationsgesetzes ... (SR 170.512)\"; Art. 12 Abs. 2 ist klar SR 170.512 zugeordnet."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 142.20",
+    "assigned_articles": [
+      "Art. 30 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Passage \"auf Artikel 30 Absatz 2 des Ausländer- und Integrationsgesetzes vom 16. Dezember 2005 SR 142.20\" ordnet Art. 30 Abs. 2 eindeutig dem Ausländer- und Integrationsgesetz (SR 142.20) zu."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 0.107",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "Es wird nur \"Übereinkommens vom 20. November 1989 SR 0.107 über die Rechte des Kindes\" genannt, ohne Artikelangabe; dies ist eine generelle Verweisnahme auf das Übereinkommen."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 0.211.231.011",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "Formulierung \"Haager Kindesschutzübereinkommens vom 19. Oktober 1996 SR 0.211.231.011\" ohne Artikelangabe; daher allgemeiner Dokumentverweis."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_2_a",
+    "TARGET_SR": "SR 211.222.32",
+    "assigned_articles": [
+      "Art. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Text: \"zentrale Behörde des Kantons nach Artikel 2 des Bundesgesetzes ... SR 211.222.32\"; Art. 2 ist direkt mit diesem Bundesgesetz (SR 211.222.32) verknüpft."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_26",
+    "TARGET_SR": "SR 311.0",
+    "assigned_articles": [
+      "Art. 292"
+    ],
+    "confidence": "high",
+    "reasoning": "Formulierung \"Ungehorsams gegen eine amtliche Verfügung nach Artikel 292 des Strafgesetzbuches SR 311.0\"; Art. 292 gehört klar zum StGB (SR 311.0)."
+  },
+  {
+    "ITEM": 8,
+    "ARTICLE_EID": "art_26",
+    "TARGET_SR": "SR 311.0",
+    "assigned_articles": [
+      "Art. 333"
+    ],
+    "confidence": "high",
+    "reasoning": "Im authorialNote: \"Fassung gemäss Art. 333 des Strafgesetzbuches (SR 311.0)\"; Art. 333 ist ausdrücklich dem StGB (SR 311.0) zugeordnet."
+  },
+  {
+    "ITEM": 9,
+    "ARTICLE_EID": "art_27",
+    "TARGET_SR": "SR 210",
+    "assigned_articles": [
+      "Art. 450"
+    ],
+    "confidence": "high",
+    "reasoning": "Klammerverweis \"(Art. 450 ZGB)\"; ZGB ist SR 210 gemäss Preamble-Akronym, somit Art. 450 ZGB = Art. 450 SR 210."
+  },
+  {
+    "ITEM": 10,
+    "ARTICLE_EID": "art_29",
+    "TARGET_SR": "SR 210",
+    "assigned_articles": [
+      "Art. 51 SchlT"
+    ],
+    "confidence": "high",
+    "reasoning": "Klammerverweis \"(Art. 51 SchlT ZGB)\"; SchlT ZGB ist Teil des ZGB (SR 210), daher Art. 51 SchlT ZGB = Art. 51 SchlT SR 210."
+  },
+  {
+    "ITEM": 11,
+    "ARTICLE_EID": "art_2_a",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "Verweis \"Artikel 2 des Bundesgesetzes ...\" ohne SR-Angabe im Snippet; derselbe Kontext ist bereits in ITEM 6 mit SR 211.222.32 verknüpft. Hier dient der artikel_reference dazu, die interne Textstelle zu markieren, nicht einen neuen SR-Link; daher als interner Querverweis behandelt."
+  },
+  {
+    "ITEM": 12,
+    "ARTICLE_EID": "art_6_b",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 6"
+    ],
+    "confidence": "high",
+    "reasoning": "Formulierung \"Die Voraussetzungen nach Artikel 6\" bezieht sich offensichtlich auf Art. 6 derselben Verordnung; keine externe SR-Verknüpfung im Satz, daher Selbstverweis."
+  },
+  {
+    "ITEM": 13,
+    "ARTICLE_EID": "art_8",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 6",
+      "Art. 8a"
+    ],
+    "confidence": "high",
+    "reasoning": "Klammerverweise \"(Art. 6)\" und \"(Art. 8a)\" ohne Gesetzesabkürzung oder SR; im Kontext der Verordnung sind dies interne Artikelverweise."
+  },
+  {
+    "ITEM": 14,
+    "ARTICLE_EID": "art_12",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 5",
+      "Art. 7",
+      "Art. 10"
+    ],
+    "confidence": "high",
+    "reasoning": "\"(Art. 5, 7 und 10)\" ohne externe Gesetzesangabe; dies sind Artikel derselben Verordnung (interne Strukturverweise)."
+  },
+  {
+    "ITEM": 15,
+    "ARTICLE_EID": "art_13",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 20a–20f"
+    ],
+    "confidence": "high",
+    "reasoning": "Text: \"gelten zusätzlich die Artikel 20a–20f\"; keine SR- oder Gesetzesabkürzung, daher Verweis auf Artikel derselben Verordnung; Bereich als Spannennotation belassen."
+  },
+  {
+    "ITEM": 16,
+    "ARTICLE_EID": "art_16_a",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 2a"
+    ],
+    "confidence": "high",
+    "reasoning": "\"gilt zusätzlich Artikel 2a\" ohne externe Gesetzesangabe; klarer Selbstverweis innerhalb der Verordnung."
+  },
+  {
+    "ITEM": 17,
+    "ARTICLE_EID": "art_19",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 17 Abs. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "\"nach Artikel 17 Absatz 3\"; kein externes Gesetz genannt, daher interner Verweis auf Art. 17 Abs. 3 derselben Verordnung."
+  },
+  {
+    "ITEM": 18,
+    "ARTICLE_EID": "art_20_d",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 20a Bst. b–d"
+    ],
+    "confidence": "high",
+    "reasoning": "\"Dienstleistungen nach Artikel 20a Buchstaben b–d\"; ohne Gesetzesabkürzung, somit interner Verweis auf Art. 20a derselben Verordnung."
+  },
+  {
+    "ITEM": 19,
+    "ARTICLE_EID": "art_20_e",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 20d Abs. 3bis"
+    ],
+    "confidence": "high",
+    "reasoning": "\"nach Artikel 20d Absatz 3bis\"; wiederum ohne externes Gesetz, daher interner Artikelverweis."
+  },
+  {
+    "ITEM": 20,
+    "ARTICLE_EID": "art_26",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 292"
+    ],
+    "confidence": "high",
+    "reasoning": "Text: \"nach Artikel 292 des Strafgesetzbuches\"; hier fehlt im Snippet die SR-Angabe, aber derselbe Satz ist in ITEM 7 bereits als SR-Link (SR 311.0, Art. 292) erfasst. Dieser artikel_reference-Eintrag dient der internen Referenzerfassung; daher als Selbstverweis ohne erneute SR-Zuordnung behandelt."
+  },
+  {
+    "ITEM": 21,
+    "ARTICLE_EID": "art_29_a",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 2 Abs. 1 Bst. b"
+    ],
+    "confidence": "high",
+    "reasoning": "\"Die Behörde nach Artikel 2 Absatz 1 Buchstabe b\"; keine externe Gesetzesangabe, somit interner Verweis auf Art. 2 Abs. 1 lit. b derselben Verordnung."
+  }
+]

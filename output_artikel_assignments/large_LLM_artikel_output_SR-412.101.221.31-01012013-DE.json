@@ -1,0 +1,206 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 412.10",
+    "assigned_articles": [
+      "Art. 19"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet: 'gestützt auf Artikel 19 des Berufsbildungsgesetzes ... SR 412.10 (BBG)'; Art. 19 is explicitly linked to SR 412.10 (BBG)."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 412.101",
+    "assigned_articles": [
+      "Art. 12"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet: '... und auf Artikel 12 der Berufsbildungsverordnung ... SR 412.101 (BBV)'; Art. 12 is explicitly linked to SR 412.101 (BBV)."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_11",
+    "TARGET_SR": "SR 412.101.241",
+    "assigned_articles": "General reference - entire document",
+    "confidence": "high",
+    "reasoning": "Snippet refers generally to 'die Verordnung ... SR 412.101.241 über die Mindestvorschriften für die Allgemeinbildung'; no specific article of SR 412.101.241 is mentioned."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_19",
+    "TARGET_SR": "SR 412.101.241",
+    "assigned_articles": "General reference - entire document",
+    "confidence": "high",
+    "reasoning": "Same general wording as Item 3: 'die Verordnung ... SR 412.101.241 ...'; no article-level citation within SR 412.101.241."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_10",
+    "TARGET_SR": "SR 412.10",
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Preamble acronym item for SBFI (SR 412.10). Snippet only mentions the authority 'SBFI', not any article of SR 412.10; thus no article assignment."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_11",
+    "TARGET_SR": "SR 412.10",
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Preamble acronym SBFI (SR 412.10) used as institutional designation; no 'Art.' or 'Artikel' of SR 412.10 is cited."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_12",
+    "TARGET_SR": "SR 412.101",
+    "assigned_articles": [
+      "Art. 44 Abs. 1 Bst. a",
+      "Art. 44 Abs. 1 Bst. b"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet: 'Artikel 44 Absatz 1 Buchstaben a und b BBV'; BBV is SR 412.101, so Art. 44 Abs. 1 letters a and b of SR 412.101 are explicitly cited."
+  },
+  {
+    "ITEM": 8,
+    "ARTICLE_EID": "art_17",
+    "TARGET_SR": "SR 412.101",
+    "assigned_articles": [
+      "Art. 32"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet: 'die nach Artikel 32 BBV erforderliche Erfahrung'; BBV = SR 412.101, so Art. 32 of SR 412.101 is clearly referenced."
+  },
+  {
+    "ITEM": 9,
+    "ARTICLE_EID": "art_19",
+    "TARGET_SR": "SR 412.10",
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Again SBFI (SR 412.10) appears only as authority; no article of SR 412.10 is mentioned."
+  },
+  {
+    "ITEM": 10,
+    "ARTICLE_EID": "art_21",
+    "TARGET_SR": "SR 412.101",
+    "assigned_articles": [
+      "Art. 33"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet: 'richtet sich nach Artikel 33 BBV'; BBV = SR 412.101, so Art. 33 is explicitly cited."
+  },
+  {
+    "ITEM": 11,
+    "ARTICLE_EID": "art_24",
+    "TARGET_SR": "SR 412.10",
+    "assigned_articles": [],
+    "confidence": "high",
+    "reasoning": "Snippet mentions 'Bildungsplan nach Artikel 10' and 'Handlungskompetenzen nach den Artikeln 4–6', which are internal articles of the current ordinance, not of SR 412.10; SBFI is only the authority. No article of SR 412.10 is cited."
+  },
+  {
+    "ITEM": 12,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 4",
+      "Art. 5",
+      "Art. 6"
+    ],
+    "confidence": "high",
+    "reasoning": "Artikel-reference within the same document: 'Handlungskompetenzen nach den Artikeln 4–6'; this is an internal cross-reference to Arts. 4–6 of the current ordinance."
+  },
+  {
+    "ITEM": 13,
+    "ARTICLE_EID": "art_10",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 4",
+      "Art. 5",
+      "Art. 6"
+    ],
+    "confidence": "high",
+    "reasoning": "Internal reference: 'Handlungskompetenzen nach den Artikeln 4–6'; refers to Arts. 4–6 of the same ordinance."
+  },
+  {
+    "ITEM": 14,
+    "ARTICLE_EID": "art_16",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 20 Abs. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet: 'Erfahrungsnote nach Artikel 20 Absatz 3'; clearly an internal reference to Art. 20 Abs. 3 of the current ordinance."
+  },
+  {
+    "ITEM": 15,
+    "ARTICLE_EID": "art_17",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 32",
+      "Art. 19"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet: 'nach Artikel 32 BBV' (external, but already captured in Item 8) and '(Art. 19)' which is an internal reference to Art. 19 of the same ordinance. For this artikel_reference item, the self-reference is Art. 19; Art. 32 BBV is not a self-reference but is handled under TARGET_SR in Item 8, so here we treat the internal link Art. 19 as relevant. Including both for completeness but primary self-reference is Art. 19."
+  },
+  {
+    "ITEM": 16,
+    "ARTICLE_EID": "art_18",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 4",
+      "Art. 5",
+      "Art. 6"
+    ],
+    "confidence": "high",
+    "reasoning": "Internal reference: 'Handlungskompetenzen nach den Artikeln 4–6'; again Arts. 4–6 of the same ordinance."
+  },
+  {
+    "ITEM": 17,
+    "ARTICLE_EID": "art_23",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 22 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet: 'unter dem Vorbehalt von Artikel 22 Absatz 1'; internal cross-reference to Art. 22 Abs. 1 of the same ordinance."
+  },
+  {
+    "ITEM": 18,
+    "ARTICLE_EID": "art_24",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 10"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet: 'Bildungsplan nach Artikel 10'; internal reference to Art. 10 of the same ordinance."
+  },
+  {
+    "ITEM": 19,
+    "ARTICLE_EID": "art_24",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 4",
+      "Art. 5",
+      "Art. 6"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet: 'Handlungskompetenzen nach den Artikeln 4–6'; internal reference to Arts. 4–6 of the same ordinance."
+  },
+  {
+    "ITEM": 20,
+    "ARTICLE_EID": "art_25",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 17",
+      "Art. 18",
+      "Art. 19",
+      "Art. 20",
+      "Art. 21",
+      "Art. 22",
+      "Art. 23"
+    ],
+    "confidence": "high",
+    "reasoning": "Snippet: '(Art. 17–23)'; internal range reference to Arts. 17 through 23 of the same ordinance, expanded explicitly."
+  }
+]

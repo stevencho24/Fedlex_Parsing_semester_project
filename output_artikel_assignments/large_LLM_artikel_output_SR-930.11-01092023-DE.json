@@ -1,0 +1,227 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 101",
+    "assigned_articles": [
+      "Art. 95 Abs. 1",
+      "Art. 97 Abs. 1",
+      "Art. 110 Abs. 1 Bst. a",
+      "Art. 118"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Präambel nennt ausdrücklich: 'gestützt auf die Artikel 95 Absatz 1, 97 Absatz 1, 110 Absatz 1 Buchstabe a und 118 der Bundesverfassung SR 101'; diese Artikel gehören syntaktisch eindeutig zur Bundesverfassung (SR 101)."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": "SR 946.51",
+    "assigned_articles": [
+      "Art. 17",
+      "Art. 18"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Satz: 'Der Nachweis der Konformität richtet sich nach den Artikeln 17 und 18 des Bundesgesetzes ... SR 946.51 ...' werden die Artikel 17 und 18 direkt mit dem genannten Bundesgesetz (SR 946.51) verknüpft."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_10",
+    "TARGET_SR": "SR 172.021",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "medium",
+    "reasoning": "Formulierung: 'Das Bundesgesetz ... SR 172.021 über das Verwaltungsverfahren ist anwendbar.' Es wird kein bestimmter Artikel genannt; es handelt sich um eine generelle Verweisnorm auf das Verwaltungsverfahrensgesetz insgesamt."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_13",
+    "TARGET_SR": "SR 946.51",
+    "assigned_articles": [
+      "Art. 21",
+      "Art. 22"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Text lautet: '... richtet sich nach den Artikeln 21 und 22 des Bundesgesetzes ... SR 946.51 ...'; die Artikel 21 und 22 sind damit eindeutig diesem Gesetz (SR 946.51) zugeordnet."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_16",
+    "TARGET_SR": "SR 946.51",
+    "assigned_articles": [
+      "Art. 23",
+      "Art. 24",
+      "Art. 25",
+      "Art. 26",
+      "Art. 27",
+      "Art. 28"
+    ],
+    "confidence": "high",
+    "reasoning": "Es heisst: '... im Sinne der Artikel 23–28 des Bundesgesetzes ... SR 946.51 ...'; der Bereich 23–28 ist ein Artikelbereich innerhalb desselben Gesetzes. Der Bereich wird hier als Liste der Einzelartikel 23 bis 28 wiedergegeben."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_17",
+    "TARGET_SR": "SR 313.0",
+    "assigned_articles": [
+      "Art. 6",
+      "Art. 7"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Satz: 'Die Artikel 6 und 7 des Bundesgesetzes ... SR 313.0 über das Verwaltungsstrafrecht sind anwendbar.' verknüpft die Artikel 6 und 7 direkt mit dem Verwaltungsstrafrecht (SR 313.0)."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_18",
+    "TARGET_SR": "SR 311.0",
+    "assigned_articles": [
+      "Art. 69",
+      "Art. 70",
+      "Art. 71",
+      "Art. 72"
+    ],
+    "confidence": "high",
+    "reasoning": "Formulierung: '... können nach den Artikeln 69–72 des Strafgesetzbuches SR 311.0 eingezogen werden.'; der Bereich 69–72 StGB (SR 311.0) ist klar genannt und wird als Liste der Einzelartikel 69 bis 72 wiedergegeben."
+  },
+  {
+    "ITEM": 8,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Wendung 'nach Artikel 4' steht ohne Nennung eines SR oder Gesetzesnamens im selben Dokument; dies ist eine reine Selbstverweisung auf Art. 4 der vorliegenden Verordnung."
+  },
+  {
+    "ITEM": 9,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": "SR 946.51",
+    "assigned_articles": [
+      "Art. 17",
+      "Art. 18"
+    ],
+    "confidence": "high",
+    "reasoning": "Inhaltlich identisch mit ITEM 2, nur ohne explizite SR-Angabe im Snippet; aus ITEM 2 (gleicher Artikelkontext) ergibt sich, dass 'Artikeln 17 und 18 des Bundesgesetzes ... über die technischen Handelshemmnisse' sich auf SR 946.51 beziehen."
+  },
+  {
+    "ITEM": 10,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Formulierung 'nach den technischen Normen gemäss Artikel 6' enthält keinen Gesetzes- oder SR-Hinweis; es handelt sich um eine Verweisung auf Art. 6 derselben Verordnung."
+  },
+  {
+    "ITEM": 11,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "Auch hier: 'nach den technischen Normen nach Artikel 6' ohne Nennung eines externen Gesetzes; dies ist eine interne Verweisung auf Art. 6 des aktuellen Erlasses."
+  },
+  {
+    "ITEM": 12,
+    "ARTICLE_EID": "art_6",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Passage '... die grundlegenden Sicherheits- und Gesundheitsanforderungen nach Artikel 4 zu konkretisieren.' verweist ohne SR-Angabe auf Art. 4 derselben Verordnung; daher Selbstverweis."
+  },
+  {
+    "ITEM": 13,
+    "ARTICLE_EID": "art_13",
+    "TARGET_SR": "SR 946.51",
+    "assigned_articles": [
+      "Art. 21",
+      "Art. 22"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Text entspricht inhaltlich ITEM 4, nur ohne explizite SR-Nummer im Snippet; aus ITEM 4 ist klar, dass 'Artikeln 21 und 22 des Bundesgesetzes ... über die technischen Handelshemmnisse' SR 946.51 meint."
+  },
+  {
+    "ITEM": 14,
+    "ARTICLE_EID": "art_16",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Wendung 'Anforderungen nach Artikel 3 Absätze 1 und 2' verweist ohne Gesetzesangabe auf Art. 3 derselben Verordnung; dies ist eine interne Normverweisung."
+  },
+  {
+    "ITEM": 15,
+    "ARTICLE_EID": "art_16",
+    "TARGET_SR": "SR 946.51",
+    "assigned_articles": [
+      "Art. 23",
+      "Art. 24",
+      "Art. 25",
+      "Art. 26",
+      "Art. 27",
+      "Art. 28"
+    ],
+    "confidence": "high",
+    "reasoning": "Inhaltlich identisch mit ITEM 5, nur ohne explizite SR-Nummer im Snippet; aus ITEM 5 ist klar, dass 'Artikel 23–28 des Bundesgesetzes ... über die technischen Handelshemmnisse' die Artikel 23–28 des SR 946.51 sind."
+  },
+  {
+    "ITEM": 16,
+    "ARTICLE_EID": "art_17",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Formulierung 'ohne die Anforderungen nach Artikel 3 Absatz 4 zu erfüllen' enthält keinen externen Gesetzesverweis; es handelt sich um eine Selbstverweisung auf Art. 3 derselben Verordnung."
+  },
+  {
+    "ITEM": 17,
+    "ARTICLE_EID": "art_17",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Bezugnahme 'nach Artikel 11' und 'nach Artikel 8 Absatz 5' erfolgt ohne Nennung eines anderen Erlasses; dies sind interne Verweise auf Art. 11 bzw. Art. 8 derselben Verordnung."
+  },
+  {
+    "ITEM": 18,
+    "ARTICLE_EID": "art_17",
+    "TARGET_SR": "SR 313.0",
+    "assigned_articles": [
+      "Art. 6",
+      "Art. 7"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Satz entspricht inhaltlich ITEM 6, nur ohne SR-Nummer im Snippet; aus ITEM 6 ist klar, dass 'Die Artikel 6 und 7 des Bundesgesetzes ... über das Verwaltungsstrafrecht' sich auf SR 313.0 beziehen."
+  },
+  {
+    "ITEM": 19,
+    "ARTICLE_EID": "art_18",
+    "TARGET_SR": "SR 311.0",
+    "assigned_articles": [
+      "Art. 69",
+      "Art. 70",
+      "Art. 71",
+      "Art. 72"
+    ],
+    "confidence": "high",
+    "reasoning": "Inhaltlich gleich wie ITEM 7, nur ohne explizite SR-Nummer im Snippet; aus ITEM 7 ist ersichtlich, dass 'Artikeln 69–72 des Strafgesetzbuches' die Artikel 69–72 StGB (SR 311.0) sind."
+  },
+  {
+    "ITEM": 20,
+    "ARTICLE_EID": "art_21",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Passage 'die Voraussetzungen schaffen, die zur Umsetzung von Artikel 8 notwendig sind' verweist ohne Gesetzes- oder SR-Angabe auf Art. 8 derselben Verordnung; daher reine Selbstverweisung."
+  }
+]

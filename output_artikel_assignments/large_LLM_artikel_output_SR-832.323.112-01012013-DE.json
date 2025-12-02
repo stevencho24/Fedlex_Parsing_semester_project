@@ -1,0 +1,42 @@
+[
+  {
+    "Item": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 170.512.1",
+    "assigned_articles": [
+      "Art. 16 Abs. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet explicitly states that the designation was adjusted 'in Anwendung von Art. 16 Abs. 3 der Publikationsverordnung ... (SR 170.512.1)'; the article is directly and unambiguously linked to this SR."
+  },
+  {
+    "Item": 2,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 832.30",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "The citation 'der V vom 19. Dez. 1983 über die Unfallverhütung (SR 832.30)' refers to the ordinance as a whole; no specific article numbers are mentioned or grammatically tied to the SR, so it is a general reference."
+  },
+  {
+    "Item": 3,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "The phrase 'den in Artikel 1 erwähnten Betriebsstellen' refers to Article 1 of the same document; no external SR is mentioned in the snippet, so this is a self-reference and not tied to another SR."
+  },
+  {
+    "Item": 4,
+    "ARTICLE_EID": "art_6",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "The wording 'Die unter Artikel 1 aufgeführten Betriebsstellen' clearly points to Article 1 of the same act; there is no SR citation, so this is an internal cross-reference only."
+  }
+]

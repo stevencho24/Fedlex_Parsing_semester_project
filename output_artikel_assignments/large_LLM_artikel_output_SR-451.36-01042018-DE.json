@@ -1,0 +1,157 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 451",
+    "assigned_articles": [
+      "Art. 23l",
+      "Art. 26"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Formulierung «gestützt auf die Artikel 23l und 26 des Bundesgesetzes ... SR 451 ... (NHG)» verknüpft die genannten Artikel direkt mit dem NHG (SR 451)."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_6",
+    "TARGET_SR": "SR 451.1",
+    "assigned_articles": [
+      "Art. 10",
+      "Art. 11"
+    ],
+    "confidence": "high",
+    "reasoning": "«gelten die Artikel 10–11 der Verordnung ... SR 451.1» bezeichnet ausdrücklich die Artikel 10–11 dieser Verordnung."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_13",
+    "TARGET_SR": "SR 946.512",
+    "assigned_articles": [
+      "Art. 14"
+    ],
+    "confidence": "high",
+    "reasoning": "«nach Artikel 14 der Akkreditierungs- und Bezeichnungsverordnung ... SR 946.512» verweist klar auf Art. 14 dieser Verordnung."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_17",
+    "TARGET_SR": "SR 748.132.3",
+    "assigned_articles": [
+      "Art. 19 Abs. 3 Bst. a",
+      "Art. 28 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "«Bewilligung nach Artikel 19 Absatz 3 Buchstabe a oder 28 Absatz 1 der Aussenlandeverordnung ... SR 748.132.3» nennt beide Bestimmungen ausdrücklich."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_23",
+    "TARGET_SR": "SR 741.21",
+    "assigned_articles": [
+      "Art. 54a"
+    ],
+    "confidence": "high",
+    "reasoning": "«Routen, die nach Artikel 54a der Signalisationsverordnung ... SR 741.21 signalisiert sind» verweist eindeutig auf Art. 54a der Signalisationsverordnung."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_27",
+    "TARGET_SR": "SR 700",
+    "assigned_articles": [
+      "Art. 11 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "«im gemäss Artikel 11 Absatz 1 des Raumplanungsgesetzes ... SR 700 genehmigten Richtplan» verknüpft Art. 11 Abs. 1 direkt mit SR 700."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_29",
+    "TARGET_SR": "SR 232.11",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "medium",
+    "reasoning": "Der Satz nennt nur das Markenschutzgesetz SR 232.11 ohne konkrete Artikelangabe; es handelt sich um einen allgemeinen Verweis auf das Gesetz."
+  },
+  {
+    "ITEM": 8,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«Parkträgerschaft (Art. 25)» verweist ohne SR-Angabe auf einen Artikel derselben Verordnung; daher reine Selbstreferenz."
+  },
+  {
+    "ITEM": 9,
+    "ARTICLE_EID": "art_3",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«Charta ... (Art. 26)» und «räumlichen Sicherung ... (Art. 27)» enthalten keine SR- oder Gesetzesangabe und beziehen sich auf Artikel der eigenen Verordnung."
+  },
+  {
+    "ITEM": 10,
+    "ARTICLE_EID": "art_6",
+    "TARGET_SR": "SR 451.1",
+    "assigned_articles": [
+      "Art. 10",
+      "Art. 11"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Text entspricht dem bei ITEM 2, nur ohne explizite SR-Nummer; durch die dortige SR_link_detection ist klar, dass Art. 10–11 der Verordnung SR 451.1 gemeint sind."
+  },
+  {
+    "ITEM": 11,
+    "ARTICLE_EID": "art_13",
+    "TARGET_SR": "SR 946.512",
+    "assigned_articles": [
+      "Art. 14"
+    ],
+    "confidence": "high",
+    "reasoning": "Entspricht dem Kontext von ITEM 3; «nach Artikel 14 der Akkreditierungs- und Bezeichnungsverordnung» ist derselbe Verweis auf Art. 14 SR 946.512."
+  },
+  {
+    "ITEM": 12,
+    "ARTICLE_EID": "art_17",
+    "TARGET_SR": "SR 748.132.3",
+    "assigned_articles": [
+      "Art. 19 Abs. 3 Bst. a",
+      "Art. 28 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "Gleicher Inhalt wie ITEM 4 ohne SR-Nummer; durch die dortige Verknüpfung ist klar, dass Art. 19 Abs. 3 Bst. a und Art. 28 Abs. 1 der Aussenlandeverordnung SR 748.132.3 gemeint sind."
+  },
+  {
+    "ITEM": 13,
+    "ARTICLE_EID": "art_23",
+    "TARGET_SR": "SR 741.21",
+    "assigned_articles": [
+      "Art. 54a"
+    ],
+    "confidence": "high",
+    "reasoning": "Entspricht ITEM 5; «nach Artikel 54a der Signalisationsverordnung» verweist auf Art. 54a SR 741.21."
+  },
+  {
+    "ITEM": 14,
+    "ARTICLE_EID": "art_27",
+    "TARGET_SR": "SR 700",
+    "assigned_articles": [
+      "Art. 11 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "Gleicher Satz wie bei ITEM 6 ohne SR-Nummer; durch die dortige SR-Verknüpfung ist klar, dass Art. 11 Abs. 1 RPG (SR 700) gemeint ist."
+  },
+  {
+    "ITEM": 15,
+    "ARTICLE_EID": "art_30",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«Die Anforderung nach Artikel 27 Absatz 1» verweist ohne Gesetzes- oder SR-Angabe auf einen Artikel derselben Verordnung; daher Selbstreferenz."
+  }
+]

@@ -1,0 +1,75 @@
+[
+  {
+    "Item": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 837.0",
+    "assigned_articles": [
+      "Art. 92 Abs. 7bis",
+      "Art. 109"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet explicitly cites 'Artikel 92 Absatz 7bis und 109 des Arbeitslosenversicherungsgesetzes ... SR 837.0 (AVIG)'; both articles are directly and syntactically linked to SR 837.0."
+  },
+  {
+    "Item": 2,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 837.0",
+    "assigned_articles": [
+      "Art. 90a",
+      "Art. 90b",
+      "Art. 92 Abs. 7bis"
+    ],
+    "confidence": "high",
+    "reasoning": "Within the snippet, each parenthetical reference explicitly links an article to AVIG: '(Art. 90a AVIG)', '(Art. 90b AVIG)', and '(Art. 92 Abs. 7bis AVIG)'; AVIG is defined in the preamble as SR 837.0."
+  },
+  {
+    "Item": 3,
+    "ARTICLE_EID": "art_10",
+    "TARGET_SR": "SR 837.0",
+    "assigned_articles": [
+      "Art. 92 Abs. 7"
+    ],
+    "confidence": "high",
+    "reasoning": "The phrase 'nach Artikel 92 Absatz 7 AVIG' directly attributes Art. 92 Abs. 7 to AVIG, which is SR 837.0 per the preamble acronym mapping."
+  },
+  {
+    "Item": 4,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 837.0",
+    "assigned_articles": [
+      "Art. 90a"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet '(Art. 90a AVIG)' directly marks Art. 90a as belonging to AVIG; via the preamble, AVIG corresponds to SR 837.0."
+  },
+  {
+    "Item": 5,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 837.0",
+    "assigned_articles": [
+      "Art. 90b"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet '(Art. 90b AVIG)' directly marks Art. 90b as belonging to AVIG; via the preamble, AVIG corresponds to SR 837.0."
+  },
+  {
+    "Item": 6,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 837.0",
+    "assigned_articles": [
+      "Art. 92 Abs. 7bis"
+    ],
+    "confidence": "high",
+    "reasoning": "The snippet '(Art. 92 Abs. 7bis AVIG)' directly marks Art. 92 Abs. 7bis as belonging to AVIG; via the preamble, AVIG corresponds to SR 837.0."
+  },
+  {
+    "Item": 7,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "The phrase 'nach Artikel 1' has no SR or acronym context and refers to Article 1 of the same ordinance; per the rules, this is a self-reference within the current document, not a citation to an external SR."
+  }
+]

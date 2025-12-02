@@ -1,0 +1,113 @@
+[
+  {
+    "Item": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 672.2",
+    "assigned_articles": [
+      "Art. 35 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Formulierung «gestützt auf Artikel 35 Absatz 1 des Bundesgesetzes … SR 672.2» verknüpft den genannten Artikel syntaktisch eindeutig mit SR 672.2."
+  },
+  {
+    "Item": 2,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 0.672.959.81",
+    "assigned_articles": "General reference - entire document",
+    "confidence": "high",
+    "reasoning": "Das Abkommen (SR 0.672.959.81) wird als Ganzes bezeichnet («in Ausführung des Abkommens vom 7. September 1987 … SR 0.672.959.81»), ohne Nennung einzelner Artikel."
+  },
+  {
+    "Item": 3,
+    "ARTICLE_EID": "art_6",
+    "TARGET_SR": "SR 313.0",
+    "assigned_articles": [
+      "Art. 49"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Satz «Die Durchführung richtet sich nach Artikel 49 des Bundesgesetzes … SR 313.0» ordnet Art. 49 klar dem Verwaltungsstrafrecht (SR 313.0) zu."
+  },
+  {
+    "Item": 4,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 0.672.959.81",
+    "assigned_articles": [
+      "Art. 26 Abs. 1 Bst. a",
+      "Art. 26 Abs. 1 Bst. b"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Snippet wird ausdrücklich auf «Artikel 26 Absatz 1 Buchstaben a und b des Abkommens» Bezug genommen; das Abkommen ist in der Präambel als SR 0.672.959.81 definiert."
+  },
+  {
+    "Item": 5,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": "SR 0.672.959.81",
+    "assigned_articles": [
+      "Art. 26 Abs. 1 Bst. c"
+    ],
+    "confidence": "high",
+    "reasoning": "Mehrfacher expliziter Verweis auf «Artikel 26 Absatz 1 Buchstabe c des Abkommens»; das Abkommen entspricht SR 0.672.959.81."
+  },
+  {
+    "Item": 6,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": "SR 0.672.959.81",
+    "assigned_articles": [
+      "Art. 26"
+    ],
+    "confidence": "high",
+    "reasoning": "Formulierung «wenn Artikel 26 des Abkommens dies erfordert» verweist eindeutig auf Art. 26 des Abkommens SR 0.672.959.81."
+  },
+  {
+    "Item": 7,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 26 Abs. 1 Bst. c"
+    ],
+    "confidence": "high",
+    "reasoning": "artikel_reference ohne TARGET_SR; der Text nennt «Artikel 26 Absatz 1 Buchstabe c des Abkommens». Dies ist ein Verweis auf Art. 26 Abs. 1 Bst. c des externen Abkommens (SR 0.672.959.81), nicht auf einen Artikel der eigenen Verordnung. Da kein TARGET_SR vorliegt, wird nur der referenzierte Artikel als solcher ausgewiesen."
+  },
+  {
+    "Item": 8,
+    "ARTICLE_EID": "art_2",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 26 Abs. 1 Bst. c"
+    ],
+    "confidence": "high",
+    "reasoning": "Auch hier «Voraussetzungen nach Artikel 26 Absatz 1 Buchstabe c des Abkommens»; wiederum klarer Verweis auf Art. 26 Abs. 1 Bst. c des Abkommens, ohne eigenes TARGET_SR."
+  },
+  {
+    "Item": 9,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 9 Abs. 4"
+    ],
+    "confidence": "high",
+    "reasoning": "«Artikel 9 Absatz 4 bleibt vorbehalten» ist eine interne Selbstreferenz innerhalb derselben Verordnung (kein SR genannt). Daher wird Art. 9 Abs. 4 als interner Artikel referenziert, ohne Zuordnung zu einem externen SR."
+  },
+  {
+    "Item": 10,
+    "ARTICLE_EID": "art_6",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 49"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Text «Die Durchführung richtet sich nach Artikel 49 des Bundesgesetzes vom 22. März 1974 über das Verwaltungsstrafrecht» entspricht inhaltlich Item 3. Als artikel_reference ohne TARGET_SR wird hier Art. 49 des Verwaltungsstrafrechts als externer Artikel ausgewiesen, ohne explizite SR-Zuordnung im Feld."
+  },
+  {
+    "Item": 11,
+    "ARTICLE_EID": "art_8",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 5",
+      "Art. 6",
+      "Art. 7"
+    ],
+    "confidence": "high",
+    "reasoning": "Formulierung «nach den Artikeln 5–7 beschafft» ist eine typische interne Strukturverweisung innerhalb derselben Verordnung; es handelt sich um die eigenen Artikel 5 bis 7 (Selbstreferenz, kein externes SR)."
+  }
+]

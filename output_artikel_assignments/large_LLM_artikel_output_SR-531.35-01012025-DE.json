@@ -1,0 +1,86 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 531",
+    "assigned_articles": [
+      "Art. 57 Abs. 1",
+      "Art. 60 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Präambel nennt ausdrücklich: «gestützt auf die Artikel 57 Absatz 1 und 60 Absatz 1 des Landesversorgungsgesetzes … SR 531 (LVG)». Beide Artikelangaben sind direkt und syntaktisch dem LVG (SR 531) zugeordnet."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 734.7",
+    "assigned_articles": [
+      "Art. 8c Abs. 1",
+      "Art. 8c Abs. 2",
+      "Art. 15a Abs. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Präambel nennt: «… und auf die Artikel 8c Absätze 1 und 2 sowie 15a Absatz 3 des Stromversorgungsgesetzes … SR 734.7 (StromVG)». Diese Artikel sind klar dem StromVG (SR 734.7) zugeordnet."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_1_b",
+    "TARGET_SR": "SR 531",
+    "assigned_articles": [
+      "Art. 63"
+    ],
+    "confidence": "high",
+    "reasoning": "Im Snippet steht: «… der Verschwiegenheitspflicht (Art. 63 LVG)». Das LVG ist in der Präambel als SR 531 definiert; die direkte Klammerangabe ordnet Art. 63 eindeutig dem LVG (SR 531) zu."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_4_a",
+    "TARGET_SR": "SR 734.7",
+    "assigned_articles": [
+      "Art. 15a",
+      "Art. 15 Abs. 2 Bst. a"
+    ],
+    "confidence": "high",
+    "reasoning": "Das Snippet enthält zwei explizite Verweise: «… anrechenbare Netzkosten nach Artikel 15a StromVG» sowie «(Art. 15 Abs. 2 Bst. a StromVG)». StromVG ist in der Präambel als SR 734.7 definiert; beide Artikelangaben sind direkt mit diesem Gesetz verknüpft."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_1_b",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 1 Abs. 4"
+    ],
+    "confidence": "high",
+    "reasoning": "«(Art. 1 Abs. 4)» erscheint ohne Nennung eines externen SR und bezieht sich syntaktisch auf die eigene Verordnung. Gemäss Regeln ist dies eine interne Selbstreferenz innerhalb des aktuellen Dokuments, nicht zu einem externen SR."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Art. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "«… nach Artikel 1 fest.» enthält keinen Hinweis auf ein anderes Gesetz oder SR; der Bezug ist rein intern auf Art. 1 derselben Verordnung gerichtet."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_4_a",
+    "TARGET_SR": "SR 734.7",
+    "assigned_articles": [
+      "Art. 15a"
+    ],
+    "confidence": "high",
+    "reasoning": "«… gelten als anrechenbare Netzkosten nach Artikel 15a StromVG.» Die Kombination aus Artikelangabe und Gesetzesakronym ordnet Art. 15a eindeutig dem StromVG zu, das in der Präambel als SR 734.7 definiert ist."
+  },
+  {
+    "ITEM": 8,
+    "ARTICLE_EID": "art_4_a",
+    "TARGET_SR": "SR 734.7",
+    "assigned_articles": [
+      "Art. 15 Abs. 2 Bst. a"
+    ],
+    "confidence": "high",
+    "reasoning": "«(Art. 15 Abs. 2 Bst. a StromVG)» ist ein direkter Klammerverweis mit Gesetzesakronym. StromVG ist als SR 734.7 definiert, daher gehört Art. 15 Abs. 2 Bst. a zu SR 734.7."
+  }
+]

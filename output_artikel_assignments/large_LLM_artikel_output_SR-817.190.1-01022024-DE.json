@@ -1,0 +1,90 @@
+[
+  {
+    "Item": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 817.190",
+    "assigned_articles": [
+      "Art. 4 Abs. 4",
+      "Art. 16 Abs. 5",
+      "Art. 27 Abs. 4",
+      "Art. 30 Abs. 2",
+      "Art. 30a Abs. 2",
+      "Art. 31 Abs. 7",
+      "Art. 34 Abs. 1",
+      "Art. 38 Abs. 3",
+      "Art. 40"
+    ],
+    "confidence": "high",
+    "reasoning": "Die genannten Artikel mit Absätzen werden ausdrücklich als Grundlage der Verordnung vom 16. Dezember 2016 über das Schlachten und die Fleischkontrolle (VFSK, SR 817.190) aufgeführt; syntaktisch sind alle durch die Präposition 'der Verordnung ... (VFSK)' eindeutig dieser SR zugeordnet."
+  },
+  {
+    "Item": 2,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 916.401",
+    "assigned_articles": [
+      "Art. 303"
+    ],
+    "confidence": "high",
+    "reasoning": "Im selben Satz wird nach Aufzählung der VFSK-Artikel separat 'Artikel 303 der Tierseuchenverordnung ... (TSV)' genannt; dieser Artikel ist damit eindeutig der TSV (SR 916.401) zugeordnet."
+  },
+  {
+    "Item": 3,
+    "ARTICLE_EID": "art_8",
+    "TARGET_SR": "SR 817.022.31",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "medium",
+    "reasoning": "Die Passage verweist allgemein auf die Zusatzstoffverordnung in der Fassung der Verordnung vom 25. Nov. 2013 (SR 817.022.31), ohne einen bestimmten Artikel dieser Verordnung zu nennen; der einzige explizite Artikelbezug ('Art. 7') gehört zu einer AS-Fundstelle, nicht zur SR 817.022.31."
+  },
+  {
+    "Item": 4,
+    "ARTICLE_EID": "art_9",
+    "TARGET_SR": "self",
+    "assigned_articles": [
+      "Art. 30a Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Formulierung 'nach Artikel 30a Absatz 1 VSFK' verweist auf einen Artikel derselben Verordnung (VSFK = aktuelle SR 817.190.1); es liegt eine interne Selbstreferenz auf Art. 30a Abs. 1 der vorliegenden Verordnung vor."
+  },
+  {
+    "Item": 5,
+    "ARTICLE_EID": "art_12",
+    "TARGET_SR": "self",
+    "assigned_articles": [
+      "Art. 9 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Wendung 'In Abweichung von Artikel 9 Absatz 1 Buchstaben a und b' bezieht sich mangels externer SR-Nennung auf einen Artikel derselben Verordnung; es handelt sich um eine interne Verweisnorm auf Art. 9 Abs. 1 Buchst. a und b."
+  },
+  {
+    "Item": 6,
+    "ARTICLE_EID": "art_12_a",
+    "TARGET_SR": "self",
+    "assigned_articles": [
+      "Art. 1 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Passage 'nach Artikel 1 Absatz 2 und Anhang 2' enthält keinen externen SR-Bezug; syntaktisch ist dies ein Verweis auf Art. 1 Abs. 2 derselben Verordnung."
+  },
+  {
+    "Item": 7,
+    "ARTICLE_EID": "art_12_a",
+    "TARGET_SR": "self",
+    "assigned_articles": [
+      "Art. 3 Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Formulierung 'nach Artikel 3 Absatz 2 und Anhang 3a' verweist ohne Nennung einer anderen SR auf einen Artikel im selben Erlass; daher interne Referenz auf Art. 3 Abs. 2 der aktuellen Verordnung."
+  },
+  {
+    "Item": 8,
+    "ARTICLE_EID": "art_12_a",
+    "TARGET_SR": "self",
+    "assigned_articles": [
+      "Art. 6 Abs. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Wendung 'nach Artikel 6 Absatz 1 und Anhang 6' steht ohne externen SR-Kontext und bezeichnet damit einen Artikel der eigenen Verordnung; es handelt sich um eine Selbstreferenz auf Art. 6 Abs. 1."
+  }
+]

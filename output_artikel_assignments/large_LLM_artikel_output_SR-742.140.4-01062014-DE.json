@@ -1,0 +1,44 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 101",
+    "assigned_articles": [
+      "Art. 81",
+      "Art. 87",
+      "Art. 196 Ziff. 3"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Formulierung «gestützt auf die Artikel 81, 87 und 196 Ziffer 3 der Bundesverfassung SR 101» verknüpft die genannten Artikel syntaktisch eindeutig mit der Bundesverfassung (SR 101)."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_6",
+    "TARGET_SR": "SR 742.140.2",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Satz verweist allgemein auf «die Bestimmungen des Bundesgesetzes ... SR 742.140.2 über die zukünftige Entwicklung der Bahninfrastruktur (ZEBG)», ohne konkrete Artikel des ZEBG zu nennen; daher handelt es sich um eine generelle Verweisung auf das ganze Gesetz."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_4",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«Artikel 196 Ziffer 3 der Bundesverfassung» verweist auf Art. 196 Ziff. 3 BV (SR 101), jedoch ohne explizite Nennung von SR 101 im Snippet und ohne TARGET_SR; als artikel_reference ist dies primär eine inhaltliche Verweisung und wird hier als interne/kontextuelle Referenz behandelt, nicht als neue SR-Zuordnung."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_6",
+    "TARGET_SR": null,
+    "assigned_articles": [
+      "Internal reference within current document"
+    ],
+    "confidence": "high",
+    "reasoning": "«Artikel 14 ZEBG» verweist auf Art. 14 des ZEBG (SR 742.140.2), aber ohne explizite SR-Nennung und ohne TARGET_SR; als artikel_reference wird dies als inhaltliche Querverweisung behandelt, nicht als eigenständige SR-Link-Zuordnung."
+  }
+]

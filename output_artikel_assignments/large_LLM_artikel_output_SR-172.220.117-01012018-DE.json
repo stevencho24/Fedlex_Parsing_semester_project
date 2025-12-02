@@ -1,0 +1,83 @@
+[
+  {
+    "ITEM": 1,
+    "ARTICLE_EID": "preamble",
+    "TARGET_SR": "SR 172.220.1",
+    "assigned_articles": [
+      "Art. 37"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Formulierung \"gestützt auf Artikel 37 des Bundespersonalgesetzes ... SR 172.220.1\" verknüpft eindeutig Art. 37 mit dem genannten Gesetz (SR 172.220.1)."
+  },
+  {
+    "ITEM": 2,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 172.220.111.3",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Bundespersonalverordnung (BPV, SR 172.220.111.3) wird generell als anwendbar erklärt; es werden keine bestimmten Artikel der BPV genannt."
+  },
+  {
+    "ITEM": 3,
+    "ARTICLE_EID": "art_1",
+    "TARGET_SR": "SR 172.220.111.4",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Verordnung über den Schutz von Personendaten des Bundespersonals (SR 172.220.111.4) wird insgesamt als anwendbar erklärt; kein einzelner Artikel wird erwähnt."
+  },
+  {
+    "ITEM": 4,
+    "ARTICLE_EID": "art_5",
+    "TARGET_SR": "SR 172.220.111.3",
+    "assigned_articles": [
+      "Art. 1"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Satz spricht von \"Übertritten aus einer Verwaltungseinheit nach Artikel 1 BPV\"; BPV ist SR 172.220.111.3, somit ist klar Art. 1 dieser Verordnung gemeint."
+  },
+  {
+    "ITEM": 5,
+    "ARTICLE_EID": "art_7",
+    "TARGET_SR": "SR 172.220.111.3",
+    "assigned_articles": [
+      "General reference - entire document"
+    ],
+    "confidence": "medium",
+    "reasoning": "Es heisst \"Sie wenden dabei die Bewertungskriterien gemäss BPV ... an\"; es wird kein bestimmter Artikel oder Absatz der BPV genannt, sondern die Bewertungskriterien der BPV insgesamt. Daher allgemeine Verweisqualität."
+  },
+  {
+    "ITEM": 6,
+    "ARTICLE_EID": "art_11",
+    "TARGET_SR": "SR 172.220.111.3",
+    "assigned_articles": [
+      "Art. 108"
+    ],
+    "confidence": "high",
+    "reasoning": "Die Formulierung \"Begleitausschuss der Sozialpartner nach Artikel 108 BPV\" verweist explizit auf Art. 108 der BPV (SR 172.220.111.3)."
+  },
+  {
+    "ITEM": 7,
+    "ARTICLE_EID": "art_13_a",
+    "TARGET_SR": "SR 172.220.111.3",
+    "assigned_articles": [
+      "Art. 52a Abs. 1",
+      "Art. 52a Abs. 2"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Text nennt ausdrücklich \"Vorschriften über die Lohngarantie gemäss Artikel 52a Absatz 1 und 2 BPV\"; BPV ist SR 172.220.111.3, somit sind Art. 52a Abs. 1 und 2 dieser Verordnung gemeint."
+  },
+  {
+    "ITEM": 8,
+    "ARTICLE_EID": "art_9",
+    "TARGET_SR": "SR 172.220.1",
+    "assigned_articles": [
+      "Art. 31 Abs. 4"
+    ],
+    "confidence": "high",
+    "reasoning": "Der Satz verweist auf \"Sozialplans nach Artikel 31 Absatz 4 des Bundespersonalgesetzes vom 26. September 2003\"; das Bundespersonalgesetz ist SR 172.220.1, somit ist Art. 31 Abs. 4 dieser SR gemeint."
+  }
+]
